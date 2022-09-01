@@ -1,0 +1,28 @@
+---
+Accuracy1: STRENGTH
+Accuracy2: BRAWL
+Damage1: STRENGTH
+Damage2: ''
+Description: The user sets itself on fire, recklessly charging against the target
+  with a brutal strike.
+DmgType: PHYSICAL
+Effect: Recoil. Roll 1 Chance Dice to Apply Burn 3 to the foe.
+Name: Flare Blitz
+Power: 5
+Target: Foe
+Type: Fire
+---
+
+#PokeroleSRD/Moves
+
+## `= this.name` 
+*`= this.Description`*
+
+**Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
+**Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
+
+| Type          | Target          | Damage Type          | Power          |
+| ------------- | --------------- | ---------------- | -------------- |
+| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+
+**Effect:** `= this.Effect`

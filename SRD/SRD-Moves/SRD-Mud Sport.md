@@ -1,0 +1,29 @@
+---
+Accuracy1: SPECIAL
+Accuracy2: NATURE
+Damage1: ''
+Damage2: ''
+Description: The user covers everything with mud, reducing the effectiveness of electric
+  attacks made on the field.
+DmgType: SUPPORT
+Effect: For the next 4 Rounds Electric Type attacks won't add their Power to the Damage
+  Pool.
+Name: Mud Sport
+Power: 0
+Target: Battlefield
+Type: Ground
+---
+
+#PokeroleSRD/Moves
+
+## `= this.name` 
+*`= this.Description`*
+
+**Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
+**Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
+
+| Type          | Target          | Damage Type          | Power          |
+| ------------- | --------------- | ---------------- | -------------- |
+| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+
+**Effect:** `= this.Effect`

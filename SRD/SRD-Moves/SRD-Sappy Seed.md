@@ -1,0 +1,31 @@
+---
+Accuracy1: SPECIAL
+Accuracy2: BRAWL
+Damage1: STRENGTH
+Damage2: ''
+Description: From a magical bean, the user grows a cute stalk that will attach itself
+  to the nearest target. Once it ingrains, it will grow and grow and grow until it
+  reaches the sky.
+DmgType: PHYSICAL
+Effect: At the end of the Round, Roll 1 Die of Damage to the foe. Restore 1 HP to
+  the user for every damage dealt this way. If the user of this Move is at its Final
+  Stage of Evolution, this move fails. -1 Accuracy.
+Name: Sappy Seed
+Power: 3
+Target: Foe
+Type: Grass
+---
+
+#PokeroleSRD/Moves
+
+## `= this.name` 
+*`= this.Description`*
+
+**Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
+**Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
+
+| Type          | Target          | Damage Type          | Power          |
+| ------------- | --------------- | ---------------- | -------------- |
+| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+
+**Effect:** `= this.Effect`

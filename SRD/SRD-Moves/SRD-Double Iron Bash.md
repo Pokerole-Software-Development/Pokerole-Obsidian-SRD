@@ -1,0 +1,28 @@
+---
+Accuracy1: SPECIAL
+Accuracy2: CHANNEL
+Damage1: STRENGTH
+Damage2: ''
+Description: The user hardens its limbs and then rotates them at great speed to hit
+  the foe twice in a row. The blow can leave the victim crushed on the floor.
+DmgType: PHYSICAL
+Effect: Roll 3 Chance Dice to Flinch the Foe.
+Name: Double Iron Bash
+Power: 2
+Target: Foe
+Type: Steel
+---
+
+#PokeroleSRD/Moves
+
+## `= this.name` 
+*`= this.Description`*
+
+**Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
+**Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
+
+| Type          | Target          | Damage Type          | Power          |
+| ------------- | --------------- | ---------------- | -------------- |
+| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+
+**Effect:** `= this.Effect`

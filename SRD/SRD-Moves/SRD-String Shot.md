@@ -1,0 +1,28 @@
+---
+Accuracy1: INSIGHT
+Accuracy2: NATURE
+Damage1: ''
+Damage2: ''
+Description: The user shoots a silk string that ties and limits the movement of its
+  foe.
+DmgType: SUPPORT
+Effect: Targets All Foes in Range. Reduce the Dexterity of those affected.
+Name: String Shot
+Power: 0
+Target: All Foes
+Type: Bug
+---
+
+#PokeroleSRD/Moves
+
+## `= this.name` 
+*`= this.Description`*
+
+**Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
+**Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
+
+| Type          | Target          | Damage Type          | Power          |
+| ------------- | --------------- | ---------------- | -------------- |
+| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+
+**Effect:** `= this.Effect`

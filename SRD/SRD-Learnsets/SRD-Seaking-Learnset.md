@@ -1,0 +1,64 @@
+---
+DexID: 0119
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Water Sport|Water Sport]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Horn Attack|Horn Attack]]'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Supersonic|Supersonic]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Poison Jab|Poison Jab]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Flail|Flail]]'
+- - Amateur
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Amateur
+  - '[[SRD-Waterfall|Waterfall]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Horn Drill|Horn Drill]]'
+- - Ace
+  - '[[SRD-Agility|Agility]]'
+- - Ace
+  - '[[SRD-Soak|Soak]]'
+- - Ace
+  - '[[SRD-Megahorn|Megahorn]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Bounce|Bounce]]'
+- - Pro
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - Pro
+  - '[[SRD-Drill Run|Drill Run]]'
+Name: Seaking
+---
+
+#PokeroleSRD/Learnsets
+
+## `= this.Name` Learnset
+
+**DexID:** `= this.DexID`
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1] AS Move
+FROM "Pokerole SRD/SRD-Learnsets"
+flatten moves as T
+where file.path = this.file.path
+```
