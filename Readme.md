@@ -18,9 +18,11 @@ Some highlights of the SRD's features:
 - **Tags** Obsidian supports adding \#tags to documents to group them. Each of the different document types in the SRD are tags according to their type. 
 - **[Dataview](https://blacksmithgu.github.io/obsidian-dataview/)** is a very powerful query language that can be run against your notes. It can, for example, select all Pokedex entries where the Pokemon's Maximum Strength are greater than 5 and present them for you in a table. Dataview powers a large portion of the SRD, and I've included a *Dataview Queries* folder in the Vault with some sample queries. 
 - **Templates** are documents you can insert into other documents with a command. You can create your own or use some of the ones I've included in the *Templates* folder.
+- **Multiplatform** Obsidian can be used on any operating system, include mobile devices. You can set up your Vault to synchronize across all of those devices as well. 
 
 I've also included a *Campaign* folder. This folder is an empty framework based off the one I use for my own Pokerole campaign. 
 
 ## Sounds Great, How Do I Start?
 
-1. Download this Obsidian Vault. 
+1. Download this Obsidian Vault. You can do this via Git if you're familiar, or you can 
+2. Install Obsidian.
