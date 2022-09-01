@@ -1,6 +1,6 @@
 # Pokerole Obsidian SRD
 
-*Tldr:* This is a System Reference Document (SRD) for Pokerole 2.0. 
+*TLDR:* This is a System Reference Document (SRD) for Pokerole 2.0. 
 
 [Obsidian](https://help.obsidian.md/Obsidian/Index) is a note taking application with a wide variety of community plugins and features markdown notes with wiki style document linking. If you've never used Markdown before, Obsidian has [a guide on the syntax here.](https://help.obsidian.md/How+to/Format+your+notes)
 
@@ -24,5 +24,14 @@ I've also included a *Campaign* folder. This folder is an empty framework based 
 
 ## Sounds Great, How Do I Start?
 
-1. Download this Obsidian Vault. You can do this via Git if you're familiar, or you can 
-2. Install Obsidian.
+1. Download this Obsidian Vault. You can do this via Git if you're familiar, or you can download a [zip](https://github.com/Willowlark/PokeroleObsidianSRD/archive/refs/heads/master.zip) from Github page (you're on it).
+2. Install [Obsidian](https://obsidian.md/). (Tip: you may want to look into the requirements for setting up sync before you get started.)
+3. Open the Pokerole SRD folder you downloaded in step one by selecting "Open Folder as Vault". 
+4. You'll be prompted if you trust the owner of the vault before enabling plugins (they are required). 
+
+# Credits and Contacts
+
+- This SRD was put together by myself, I can be contacted through Github (here) or Discord where my username is Willowlark#2359. 
+- The data that was used to generate the SRD was compiled out of the book by Shadeslayer into this [repository](https://github.com/XShadeSlayerXx/PokeRole-Discord.py-Base). 
+- Box sprites were compiled from this [repository](https://github.com/msikma/pokesprite).
+- Home sprites were ripped from [the spriter's resource](https://www.spriters-resource.com/nintendo_switch/pokemonhome/).

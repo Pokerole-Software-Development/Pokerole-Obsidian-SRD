@@ -52,7 +52,7 @@ Name: Form Tornadus
 TABLE WITHOUT ID
     T[0] AS Learned,
     T[1] AS Move
-FROM "Pokerole SRD/SRD-Learnsets"
+FROM #PokeroleSRD/Learnsets
 flatten moves as T
 where file.path = this.file.path
 ```
