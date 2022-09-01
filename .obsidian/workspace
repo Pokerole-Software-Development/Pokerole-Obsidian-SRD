@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e67f41cdbe28bcf9",
+        "id": "a1a18d1985e10441",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "e67f41cdbe28bcf9",
+              "leaf": "a1a18d1985e10441",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Readme.md\",\"mode\":\"preview\",\"source\":true}}",
-              "eState": "{\"scroll\":29.0518}"
-            },
-            {
-              "leaf": "e67f41cdbe28bcf9",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Dataview Queries/Move Accuracy with a Given Skill.md\",\"mode\":\"preview\",\"source\":true}}",
-              "eState": "{}"
-            },
-            {
-              "leaf": "e67f41cdbe28bcf9",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Dataview Queries/Pokemon of a Type.md\",\"mode\":\"source\",\"source\":true}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+              "eState": "{\"scroll\":0}"
             }
           ]
         },
@@ -84,7 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 264
   },
   "right": {
     "id": "979ae253ef206dce",
@@ -167,17 +155,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e67f41cdbe28bcf9",
+  "active": "a1a18d1985e10441",
   "lastOpenFiles": [
-    "Dataview Queries/Move Accuracy with a Given Skill.md",
-    "SRD/SRD-Moves/SRD-Hex.md",
-    "Dataview Queries/Pokemon of a Type.md",
-    "Dataview Queries/Dataview Testing.md",
-    "Dataview Queries/Legendary Pokemon.md",
-    "Dataview Queries/Good Starter Pokemon.md",
-    "SRD/Pokerole Data Diagram.md",
-    "SRD/SRD-Moves/SRD-Acid.md",
-    "SRD/SRD-Learnsets/SRD-Aggron-Learnset.md",
-    "SRD/SRD-Learnsets/SRD-Absol-Learnset.md"
+    "Readme.md",
+    "Pasted image 20220901081724.png",
+    "SRD/SRD-Pokedex/SRD-Absol.md",
+    "SRD/SRD-Pokedex/SRD-Mega-Absol.md",
+    "SRD/SRD-Moves/SRD-Slash.md",
+    "SRD/SRD-Learnsets/SRD-Absol-Learnset.md",
+    "SRD/SRD-Learnsets/SRD-Garchomp-Learnset.md",
+    "SRD/SRD-Moves/SRD-Swift.md",
+    "SRD/SRD-Pokedex/SRD-Eevee.md",
+    "Dataview Queries/Move Accuracy with a Given Skill.md"
   ]
 }
