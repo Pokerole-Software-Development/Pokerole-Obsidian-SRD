@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "path:\"Roleplaying Games/Galar Journeys\"",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#galarjourneys/pokemon",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#galarjourneys/npc",
+      "color": {
+        "a": 1,
+        "rgb": 3277284
+      }
+    },
+    {
+      "query": "tag:#galarjourneys/locations",
+      "color": {
+        "a": 1,
+        "rgb": 104474
+      }
+    },
+    {
+      "query": "tag:#galarjourneys/episode",
+      "color": {
+        "a": 1,
+        "rgb": 16756224
+      }
+    },
+    {
+      "query": "tag:#writing/wip",
+      "color": {
+        "a": 1,
+        "rgb": 16116736
+      }
+    },
+    {
+      "query": "tag:#writing/scrapped",
+      "color": {
+        "a": 1,
+        "rgb": 11868672
+      }
+    },
+    {
+      "query": "tag:#writing/published",
+      "color": {
+        "a": 1,
+        "rgb": 5143079
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.3631441543217498,
+  "close": true
+}

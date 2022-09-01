@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "fb70f40f87108cd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "e67f41cdbe28bcf9",
+        "type": "leaf",
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "e67f41cdbe28bcf9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Readme.md\",\"mode\":\"preview\",\"source\":true}}",
+              "eState": "{\"scroll\":29.0518}"
+            },
+            {
+              "leaf": "e67f41cdbe28bcf9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Dataview Queries/Move Accuracy with a Given Skill.md\",\"mode\":\"preview\",\"source\":true}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "e67f41cdbe28bcf9",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Dataview Queries/Pokemon of a Type.md\",\"mode\":\"source\",\"source\":true}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}}}"
+            }
+          ]
+        },
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Readme.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "30264211ad6163d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf6a6ff478f0250a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b6ea5d07e45cd59",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "45a97b3714357edc",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#pokexplorers/campaign",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "979ae253ef206dce",
+    "type": "split",
+    "children": [
+      {
+        "id": "3990f139fbdda5f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61b7b431a1ea2c04",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Readme.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a6b7899645de1a30",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Readme.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a9b74d0265592e72",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d6fdab6e244a4603",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Readme.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e67f41cdbe28bcf9",
+  "lastOpenFiles": [
+    "Dataview Queries/Move Accuracy with a Given Skill.md",
+    "SRD/SRD-Moves/SRD-Hex.md",
+    "Dataview Queries/Pokemon of a Type.md",
+    "Dataview Queries/Dataview Testing.md",
+    "Dataview Queries/Legendary Pokemon.md",
+    "Dataview Queries/Good Starter Pokemon.md",
+    "SRD/Pokerole Data Diagram.md",
+    "SRD/SRD-Moves/SRD-Acid.md",
+    "SRD/SRD-Learnsets/SRD-Aggron-Learnset.md",
+    "SRD/SRD-Learnsets/SRD-Absol-Learnset.md"
+  ]
+}

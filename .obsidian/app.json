@@ -1,0 +1,52 @@
+{
+  "obsidianCss": false,
+  "spellcheck": true,
+  "showFrontmatter": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "useTab": false,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "@assets",
+  "strictLineBreaks": false,
+  "newLinkFormat": "shortest",
+  "newFileLocation": "current",
+  "tabSize": 4,
+  "spellcheckDictionary": [
+    "Dynamax",
+    "Galar",
+    "counsoler"
+  ],
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 80
+  },
+  "legacyEditor": false,
+  "livePreview": false,
+  "readableLineLength": true,
+  "mobileToolbarCommands": [
+    "editor:insert-embed",
+    "editor:attach-file",
+    "editor:toggle-highlight",
+    "editor:toggle-code",
+    "editor:toggle-blockquote",
+    "editor:toggle-checklist-status",
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:undo",
+    "editor:redo",
+    "editor:toggle-keyboard",
+    "editor:configure-toolbar",
+    "table-editor-obsidian:left-align-column",
+    "table-editor-obsidian:insert-column",
+    "table-editor-obsidian:insert-row",
+    "obsidian-regex-replace:obsidian-regex-replace",
+    "editor:paste"
+  ],
+  "defaultViewMode": "preview"
+}

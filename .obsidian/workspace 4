@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "fb70f40f87108cd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ad0f2b1107e9ee3",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        },
+        "pane-relief:history-v1": {
+          "pos": 0,
+          "stack": [
+            {
+              "leaf": "5ad0f2b1107e9ee3",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"RPG - General/Defending Vale/Campaign.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":10.633928571428571}"
+            },
+            {
+              "leaf": "5ad0f2b1107e9ee3",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"RPG - General/Defending Vale/Fronts/The Xiong Family.md\",\"mode\":\"source\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "5ad0f2b1107e9ee3",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"RPG - General/Defending Vale/Campaign.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":22.035714285714285}"
+            }
+          ]
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9fc9c69eefa64769",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5af512335b7a9b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c4d76a46ca4c0ee3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "2d477e7015e7c248",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "target",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 339
+  },
+  "right": {
+    "id": "e42d018b5c59378f",
+    "type": "split",
+    "children": [
+      {
+        "id": "13ee9c8be982b69a",
+        "type": "tabs",
+        "dimension": 60.2814698983581,
+        "children": [
+          {
+            "id": "142e931b479f4636",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "fc7ce22d1e58708e",
+        "type": "tabs",
+        "dimension": 39.71853010164191,
+        "children": [
+          {
+            "id": "f5c710ad7cd6e47f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "85e89021c1b97eb4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "5621d1bac3420b70",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "5ad0f2b1107e9ee3",
+  "lastOpenFiles": [
+    "RPG - General/Defending Vale/Campaign.md",
+    "RPG - General/Defending Vale/Fronts/The Xiong Family.md",
+    "Time.md",
+    "Scratch.md",
+    "RPG - General/Pokerole/Hisuian West/Story.md",
+    "RPG - General/Pokerole/Hisuian West/PreGame.md",
+    "RPG - General/Evil Risen Random Tables.md",
+    "RPG - General/Beacon/RWBY Game.md",
+    "RPG - General/Beacon/Grimm Cult.md",
+    "RPG - General/Beacon/Campaign.md"
+  ]
+}

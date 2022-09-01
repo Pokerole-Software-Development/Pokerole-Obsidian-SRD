@@ -1,0 +1,12 @@
+{
+  "baseFontSize": 16,
+  "translucency": false,
+  "cssTheme": "Everforest-custom",
+  "enabledCssSnippets": [
+    "S - Checkboxes",
+    "S - Images Adjustments",
+    "bold-everforest",
+    "S - Callouts",
+    "custom-admonitions.c203c5"
+  ]
+}

@@ -1,0 +1,17 @@
+"Moves:"->"##### Moves
+"
+"(-+ )(?!Power)(?=\w+:)"->"ANY"x
+"(Str|Dex|Vit|Spe|Ins|Tough|Cool|Beauty|Clever|Cute|Brawl|Channel|Clash|Evasion|Alert|Athletic|Nature|Stealth|Allure|Etiquette|Intimidate|Perform):"->"| $1: |"
+"(\| Dex: \|)"->"|---------|---------------|-----------|--------
+$1"
+"(\| Alert: \|)"->"|-----------|----|-------------|---|-----------|----|-------------|---
+$1"
+"(\w[\w ]+):"->"**$1**"
+"(\w[\w \(\)]+?) +\| +(\w[\w \(\)]+?) +\| +(\w[\w \(\)]+)"->"#### $1
+
+**Rank** $2
+**Nature** $3"
+"^\n(\*)?([\w ]+)"->"
+###### $1$2$1"
+"(^\*\*Total HP\*\*.*)"->"$1
+"
