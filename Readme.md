@@ -1,8 +1,10 @@
 # Pokerole Obsidian SRD
 
+![](https://i.imgur.com/4ZpTthC.png)
+
 *TLDR:* This is a System Reference Document (SRD) for Pokerole 2.0. 
 
-[Obsidian](https://help.obsidian.md/Obsidian/Index) is a note taking application with a wide variety of community plugins and features markdown notes with wiki style document linking. If you've never used Markdown before, Obsidian has [a guide on the syntax here.](https://help.obsidian.md/How+to/Format+your+notes)
+[Obsidian](https://help.obsidian.md/Obsidian/Index) is a note taking application with a wide variety of community plugins and features markdown notes with wiki style document linking. If you've never used Markdown before, Obsidian has [a guide on the syntax here.](https://help.obsidian.md/How+to/Format+your+notes) (Tip: Ctrl/Cmd+O is the quick switcher, an easy way to search for a document by name.)
 
 [Pokerole](https://www.pokeroleproject.com/) is a Pokemon tabletop roleplaying game. The books are available on the linked homepage and the [Discord Community](https://discord.gg/95DFpdMVcC) is also available to answer questions about the system. 
 
