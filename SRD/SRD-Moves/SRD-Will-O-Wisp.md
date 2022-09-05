@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
+Accuracy1: Dexterity
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user calls a floating ember to consume the foe.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Burn the Foe. -2 Accuracy.
 Name: Will-O-Wisp
 Power: 0
@@ -14,7 +14,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

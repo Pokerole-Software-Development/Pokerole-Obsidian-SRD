@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: PERFORM
+Accuracy1: Special
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The Pokemon chimes a magical bell. Legend says the soothing sound has
   healing properties.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Cure the User and allies suffering from Status Conditions. They don't need
   to be on the battlefield to get this effect. Sound Based.
 Name: Heal Bell
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

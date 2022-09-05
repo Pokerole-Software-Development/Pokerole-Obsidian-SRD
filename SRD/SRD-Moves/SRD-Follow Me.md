@@ -1,11 +1,11 @@
 ---
-Accuracy1: COOL
-Accuracy2: PERFORM
+Accuracy1: Cool
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The Pokemon will draw everyone's attention. All foes are taunted to do
   their worst.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Foes will target the user this Round. Priority 5.
 Name: Follow Me
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

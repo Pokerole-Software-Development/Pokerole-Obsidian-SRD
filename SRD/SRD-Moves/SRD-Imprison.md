@@ -1,12 +1,12 @@
 ---
-Accuracy1: CLEVER
-Accuracy2: CHANNEL
+Accuracy1: Clever
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: This move blocks specific parts of the memory the user is well aware
   of. Be it moves, techniques, names, places, people, or situations. The target won't
   be able to recall those memories.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The foe cannot use any Moves known by the User. Lasts for a day.
 Name: Imprison
 Power: 0
@@ -16,7 +16,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: WILL
-Accuracy2: ATHLETIC
+Accuracy1: Will
+Accuracy2: Athletic
 Damage1: ''
 Damage2: ''
 Description: The Pokemon puts its last strength into an all-or-nothing attack. After
   that, it faints.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Ignore the foe's Defenses. The user faints after dealing damage.
 Name: Final Gambit
 Power: 0
@@ -15,7 +15,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

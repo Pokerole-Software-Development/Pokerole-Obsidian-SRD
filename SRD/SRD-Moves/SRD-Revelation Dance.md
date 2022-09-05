@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: PERFORM
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Perform
+Damage1: Special
 Damage2: ''
 Description: The Pokemon performa a dance. The dance's energy influences the Type
   of this Move.
-DmgType: SPECIAL
+DmgType: Special
 Effect: This Move's type will always match the User's first Type.
 Name: Revelation Dance
 Power: 3
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,12 +1,12 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
+Accuracy1: Dexterity
+Accuracy2: Brawl
 Damage1: ''
 Damage2: ''
 Description: After receiving damage, the user bursts the tiny but sharp metal piece
   that came loose because of the foe's attack. The greater the impact the more metal
   it will shoot.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: This Move only works if the foe just used an attack. Roll the same Damage
   Pool as your foe's last attack and add 2 Extra Damage Dice.
 Name: Metal Burst
@@ -17,7 +17,7 @@ Type: Steel
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,12 +1,12 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The target's mind is hit by a weak psychic force that leaves them wondering
   if they were hit by an invisible enemy. Sometimes the foe is left seeing things
   that aren't really there.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 1 Chance Dice to Confuse the foe.
 Name: Confusion
 Power: 2
@@ -16,7 +16,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

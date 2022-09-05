@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: PERFORM
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Perform
+Damage1: Special
 Damage2: ''
 Description: The user sings and dances to a melody so beautiful you won't notice you
   were crying while listening to it.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Sound Based. Roll 1 Die to put the foe to Sleep. If successful, the User may
   choose to change its form afterwards.
 Name: Relic Song
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

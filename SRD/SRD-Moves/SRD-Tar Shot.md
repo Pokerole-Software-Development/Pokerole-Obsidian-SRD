@@ -1,12 +1,12 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon gushes a blob of black tar over its foe. The unfortunate
   voctim can barely move afterwards, keep it away from fire sources, tar is extrmely
   flammable.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce the foe's Dexterity. Until the end of the Scene Fire Type Moves will
   deal Super-Effective damage against the foe.
 Name: Tar Shot
@@ -17,7 +17,7 @@ Type: Rock
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

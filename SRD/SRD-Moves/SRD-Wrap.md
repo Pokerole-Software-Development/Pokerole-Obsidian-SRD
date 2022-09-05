@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon traps its foe with its body or vines, causing some damage.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Blocks. Roll 2 Dice of Damage against the foe at the end of each Round. Lasts
   4 Rounds. -1 Accuracy.
 Name: Wrap
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

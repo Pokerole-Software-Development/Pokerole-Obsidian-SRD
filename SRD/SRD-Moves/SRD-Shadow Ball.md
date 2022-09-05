@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon hurls a sphere made of shadow and dark matter to harm the
   foe.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 1 Chance Dice to Reduce foe's Sp. Defense.
 Name: Shadow Ball
 Power: 3
@@ -15,7 +15,7 @@ Type: Ghost
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

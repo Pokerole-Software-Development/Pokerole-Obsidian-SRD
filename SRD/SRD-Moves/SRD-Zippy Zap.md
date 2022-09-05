@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user zips and zaps from one place to another to strike the foe moving
   so fast it appears to be teleporting, leaving almost no time to react.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Priority 2. This Move is always a Critical Hit and gets the proper Bonus for
   it. If the user of this Move is at its Final Stage of Evolution, this move fails.
 Name: Zippy Zap
@@ -16,7 +16,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: STEALTH
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Stealth
+Damage1: Strength
 Damage2: ''
 Description: The user is so flat that you can barely see it in the tall grass, it
   is just waiting for its foe to get close enough to use its body as a snare trap.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Target is Blocked for the Next 4 Rounds.
 Name: Snap Trap
 Power: 2
@@ -15,7 +15,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

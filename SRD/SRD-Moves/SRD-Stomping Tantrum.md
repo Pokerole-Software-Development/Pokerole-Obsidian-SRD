@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon throws a tantrum all over the place, it becomes worse if
   something has frustrated it earlier.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Add 2 Extra Dice to the Damage Pool of this move is the User failed the Accuracy
   Roll of the last Move it performed.
 Name: Stomping Tantrum
@@ -16,7 +16,7 @@ Type: Ground
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

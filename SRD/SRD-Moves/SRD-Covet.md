@@ -1,11 +1,11 @@
 ---
-Accuracy1: CLEVER
-Accuracy2: STEALTH
-Damage1: STRENGTH
+Accuracy1: Clever
+Accuracy2: Stealth
+Damage1: Strength
 Damage2: ''
 Description: The User approaches with caution, deals a quick strike and takes the
   chance to steal the target's item.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If the user is not holding an item, Steal the target's Held Item.
 Name: Covet
 Power: 2
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

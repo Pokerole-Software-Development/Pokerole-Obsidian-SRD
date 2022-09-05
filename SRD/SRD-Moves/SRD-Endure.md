@@ -1,11 +1,11 @@
 ---
-Accuracy1: WILL
-Accuracy2: CHANNEL
+Accuracy1: Will
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user gets prepared to receive a fatal blow. It resists the pain despite
   being seriously hurt.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Priority 5. Shield Move. For the rest of the Round damaging moves can not
   reduce the user's HP to less then 1. Status Ailments, Weather Conditions, Recoil,
   Self inflicted damage can still deal damage.
@@ -17,7 +17,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

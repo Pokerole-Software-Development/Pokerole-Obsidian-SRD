@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: PERFORM
+Accuracy1: Dexterity
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The Pokemon assists an ally. Together they are stronger.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Target Pokemon gets 2 Extra Dice on its next Skill, Accuracy and Damage Rolls.
   Priority 5.
 Name: Helping Hand
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

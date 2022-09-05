@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon shoots a stream of mud that covers the foe, obstructing its
   movement.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Reduce the Foe's Dexterity.
 Name: Mud Shot
 Power: 2
@@ -15,7 +15,7 @@ Type: Ground
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

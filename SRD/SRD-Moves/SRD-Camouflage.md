@@ -1,10 +1,10 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user mimics the environment, it becomes one with the surroundings.
-DmgType: SUPPORT
+DmgType: Support
 Effect: For the rest of the scene the User changes type to one that fits the terrain
   it is in (i.e. Usar is in a rocky cave, becoming rock type)
 Name: Camouflage
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

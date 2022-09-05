@@ -1,33 +1,19 @@
 ---
 Ability1: Pressure
 Ability2: ''
-BaseHP: 6
 BoxSprite: SRD-BoxSprite-kyurem-white.png
-DexID: 0646F2
-Dexterity: 6
 EventAbilities: ''
 GenderType: N
-GoodStarter: 'No'
 HasAForm?: ''
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-kyurem-white.png
-Insight: 6
+Learnset: '[[SRD-White Kyurem-Learnset]]'
 Legendary: 'Yes'
-MaxDexterity: 6
-MaxInsight: 6
-MaxSpecial: 9
-MaxStrength: 7
-MaxVitality: 5
 Name: White Kyurem
 Number: 646
-RecommendedRank: Master
-Special: 9
 Sprite: kyurem-white.png
-Strength: 7
 Type1: Dragon
 Type2: Ice
-Unevolved: 'No'
-Vitality: 5
 ---
 
 #PokeroleSRD/Pokedex
@@ -36,23 +22,24 @@ Vitality: 5
 
 ![[SRD-HomeSprite-kyurem-white.png|right]]
 
-**DexID:** `= this.DexID`
-**Type::** `= choice(length(this.Type2)=0, this.Type1,this.Type1+"/"+this.Type2)`
-**Abilities::** `= choice(length(this.Ability2)=0, "[[SRD-"+this.Ability1+"|"+this.Ability1+"]]","[[SRD-"+this.Ability1+"|"+this.Ability1+"]]"+" / "+"[[SRD-"+this.Ability2+"|"+this.Ability2+"]]")` `= choice(length(this.HiddenAbility)=0,"","("+"[[SRD-"+this.HiddenAbility+"|"+this.HiddenAbility+"]]"+")")` `= choice(length(this.EventAbilities)=0,"","\<"+"[[SRD-"+this.EventAbilities+"|"+this.EventAbilities+"]]"+"\>")`
-**Base HP:** `= this.BaseHP`
+**DexID**:: 0646F2
+**Species**:: White Kyurem
+**Type**:: Dragon / Ice
+**Abilities**:: [[SRD-Pressure|Pressure]]
+**Base HP**:: 6
 
 ![[SRD-BoxSprite-kyurem-white.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
-| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | `= this.Strength`/`= this.MaxStrength`   |
-| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | `= this.Dexterity`/`= this.MaxDexterity` |
-| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | `= this.Vitality`/`= this.MaxVitality`   |
-| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | `= this.Special`/`= this.MaxSpecial`     |
-| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | `= this.Insight`/`= this.MaxInsight`     |
+| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::7)/(MaxStrength::7)   |
+| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | (Dexterity:: 6)/(MaxDexterity::6) |
+| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
+| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::9)/(MaxSpecial::9)     |
+| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-**Recommended Rank:** `= this.RecommendedRank`
-**Good Starting Pokemon?** `= this.GoodStarter`
-**Can Evolve?** `= this.Unevolved`
+**Recommended Rank**:: Master
+**Good Starter**:: No
+**Can Evolve**:: No
 
 ![[SRD-White Kyurem-Learnset]]

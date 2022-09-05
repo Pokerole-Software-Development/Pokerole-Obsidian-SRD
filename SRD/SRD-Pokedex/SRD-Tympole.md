@@ -1,33 +1,19 @@
 ---
 Ability1: Swift Swim
 Ability2: Hydration
-BaseHP: 3
 BoxSprite: SRD-BoxSprite-tympole.png
-DexID: '0535'
-Dexterity: 1
 EventAbilities: ''
 GenderType: ''
-GoodStarter: 'Yes'
 HasAForm?: ''
 HiddenAbility: Water Absorb
 HomeSprite: SRD-HomeSprite-tympole.png
-Insight: 1
+Learnset: '[[SRD-Tympole-Learnset]]'
 Legendary: 'No'
-MaxDexterity: 3
-MaxInsight: 3
-MaxSpecial: 4
-MaxStrength: 4
-MaxVitality: 4
 Name: Tympole
 Number: 535
-RecommendedRank: Starter
-Special: 2
 Sprite: tympole.png
-Strength: 2
 Type1: Water
 Type2: ''
-Unevolved: 'Yes'
-Vitality: 2
 ---
 
 #PokeroleSRD/Pokedex
@@ -36,23 +22,24 @@ Vitality: 2
 
 ![[SRD-HomeSprite-tympole.png|right]]
 
-**DexID:** `= this.DexID`
-**Type::** `= choice(length(this.Type2)=0, this.Type1,this.Type1+"/"+this.Type2)`
-**Abilities::** `= choice(length(this.Ability2)=0, "[[SRD-"+this.Ability1+"|"+this.Ability1+"]]","[[SRD-"+this.Ability1+"|"+this.Ability1+"]]"+" / "+"[[SRD-"+this.Ability2+"|"+this.Ability2+"]]")` `= choice(length(this.HiddenAbility)=0,"","("+"[[SRD-"+this.HiddenAbility+"|"+this.HiddenAbility+"]]"+")")` `= choice(length(this.EventAbilities)=0,"","\<"+"[[SRD-"+this.EventAbilities+"|"+this.EventAbilities+"]]"+"\>")`
-**Base HP:** `= this.BaseHP`
+**DexID**:: 0535
+**Species**:: Tympole
+**Type**:: Water
+**Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Hydration|Hydration]] ([[SRD-Water Absorb|Water Absorb]])
+**Base HP**:: 3
 
 ![[SRD-BoxSprite-tympole.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
-| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | `= this.Strength`/`= this.MaxStrength`   |
-| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | `= this.Dexterity`/`= this.MaxDexterity` |
-| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | `= this.Vitality`/`= this.MaxVitality`   |
-| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | `= this.Special`/`= this.MaxSpecial`     |
-| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | `= this.Insight`/`= this.MaxInsight`     |
+| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::4)   |
+| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | (Dexterity:: 1)/(MaxDexterity::3) |
+| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
+| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
+| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-**Recommended Rank:** `= this.RecommendedRank`
-**Good Starting Pokemon?** `= this.GoodStarter`
-**Can Evolve?** `= this.Unevolved`
+**Recommended Rank**:: Starter
+**Good Starter**:: Yes
+**Can Evolve**:: Yes
 
 ![[SRD-Tympole-Learnset]]

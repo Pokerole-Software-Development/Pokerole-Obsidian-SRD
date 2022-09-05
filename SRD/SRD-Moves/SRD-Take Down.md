@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon recklessly grapples the foe to smash it on the ground.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Recoil. -2 Accuracy.
 Name: Take Down
 Power: 3
@@ -14,7 +14,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

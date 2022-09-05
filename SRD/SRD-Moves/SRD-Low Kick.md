@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user kicks the target making it fall, the bigger the foe the harder
   the fall.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Add 1 Extra Dice to the Damage Pool for every 50 kgs. of weight on the foe.
   Up to +4 Extra Dice may be added this way.
 Name: Low Kick
@@ -16,7 +16,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

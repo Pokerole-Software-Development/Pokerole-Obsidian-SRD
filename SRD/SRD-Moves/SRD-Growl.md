@@ -1,11 +1,11 @@
 ---
-Accuracy1: TOUGH/CUTE
+Accuracy1: Tough/cute
 Accuracy2: PERFORM
 Damage1: ''
 Damage2: ''
 Description: Either by a menacing attitude or cute demeanor, the foe will be unsure
   about attacking the user with full force.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce the foe's Strength. Sound Based. "Growl (Cute/Tough)", the user should
   use the one with highest stat (tough / cute)
 Name: Growl
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

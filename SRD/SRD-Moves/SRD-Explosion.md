@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user focuses on exploding its body, the explosion deals a massive
   wave of damage. A very dangerous move.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: After the damage is dealt the User faints. Lethal.
 Name: Explosion
 Power: 10
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

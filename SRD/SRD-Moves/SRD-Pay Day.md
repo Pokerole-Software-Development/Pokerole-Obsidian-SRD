@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: This move grants good fortune, making it more likely to get more money
   after each battle.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: 'Ranged. At the end of the battle give Money to the Trainer Equal to its Rank:
   Starter/Beginner - $20.00 Amateur - $50.00 Ace - $75.00 Pro - $100.00'
 Name: Pay Day
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

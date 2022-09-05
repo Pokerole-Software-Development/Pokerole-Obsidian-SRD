@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: ALLURE
-Damage1: STRENGTH
+Accuracy1: Insight
+Accuracy2: Allure
+Damage1: Strength
 Damage2: ''
 Description: This move controls the emotions of the target, making it feel loved and
   safe. The user may strike immediately.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll 3 Chance Dice to Flinch the foe.
 Name: Heart Stamp
 Power: 2
@@ -15,7 +15,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

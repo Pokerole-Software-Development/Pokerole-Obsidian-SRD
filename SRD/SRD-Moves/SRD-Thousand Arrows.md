@@ -1,12 +1,12 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: CHANNEL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Channel
+Damage1: Strength
 Damage2: ''
 Description: Out of nowhere, pointy shards come raining from the sky towards the foes,
   even flying creatures will fall to the ground if they are knocked by them. Take
   cover, this is gonna hurt.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Lethal. Ranged. All Foes in Range. If successful, Flying and Levitating Pokemon
   can be hit by Ground-Type Moves for the rest of the scene.
 Name: Thousand Arrows
@@ -17,7 +17,7 @@ Type: Ground
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

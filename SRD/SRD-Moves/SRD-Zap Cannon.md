@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user hurls a dreadful bombardment of electric explosions. Anyone
   hit won't be able to move for a very long time.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Lethal. Paralyze the Foe. -3 Accuracy.
 Name: Zap Cannon
 Power: 5
@@ -15,7 +15,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

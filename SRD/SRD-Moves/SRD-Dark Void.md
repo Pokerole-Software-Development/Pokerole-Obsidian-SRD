@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: CHANNEL
+Accuracy1: Insight
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: A portal opens and transports all foes to a world of darkness, inside
   they can't see or feel anything, it's like they are trapped in an eternal slumber.
-DmgType: SUPPORT
+DmgType: Support
 Effect: All Foes in Range have the Sleep condition.  -3 Accuracy.
 Name: Dark Void
 Power: 0
@@ -15,7 +15,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

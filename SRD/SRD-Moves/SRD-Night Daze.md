@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user forms a pitch black wave that hurts the foe. This darkness may
   remain obstructing the target's vision.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 4 Chance Dice to Reduce foe's Accuracy.
 Name: Night Daze
 Power: 3
@@ -15,7 +15,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

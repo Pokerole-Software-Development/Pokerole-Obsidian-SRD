@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: PERFORM
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Perform
+Damage1: Special
 Damage2: ''
 Description: The Pokemon rattles the scales of its armor creating a frightening noise
   in the area. Some of its scales fall of as a result, leaving some areas exposed.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Sound Based. Reduce User's Defense.
 Name: Clanging Scales
 Power: 4
@@ -15,7 +15,7 @@ Type: Dragon
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

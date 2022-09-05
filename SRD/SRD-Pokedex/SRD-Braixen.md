@@ -1,33 +1,19 @@
 ---
 Ability1: Blaze
 Ability2: ''
-BaseHP: 4
 BoxSprite: SRD-BoxSprite-braixen.png
-DexID: '0654'
-Dexterity: 2
 EventAbilities: ''
 GenderType: ''
-GoodStarter: 'No'
 HasAForm?: ''
 HiddenAbility: Magician
 HomeSprite: SRD-HomeSprite-braixen.png
-Insight: 2
+Learnset: '[[SRD-Braixen-Learnset]]'
 Legendary: 'No'
-MaxDexterity: 5
-MaxInsight: 5
-MaxSpecial: 5
-MaxStrength: 4
-MaxVitality: 4
 Name: Braixen
 Number: 654
-RecommendedRank: Amateur
-Special: 2
 Sprite: braixen.png
-Strength: 2
 Type1: Fire
 Type2: ''
-Unevolved: 'Yes'
-Vitality: 2
 ---
 
 #PokeroleSRD/Pokedex
@@ -36,23 +22,24 @@ Vitality: 2
 
 ![[SRD-HomeSprite-braixen.png|right]]
 
-**DexID:** `= this.DexID`
-**Type::** `= choice(length(this.Type2)=0, this.Type1,this.Type1+"/"+this.Type2)`
-**Abilities::** `= choice(length(this.Ability2)=0, "[[SRD-"+this.Ability1+"|"+this.Ability1+"]]","[[SRD-"+this.Ability1+"|"+this.Ability1+"]]"+" / "+"[[SRD-"+this.Ability2+"|"+this.Ability2+"]]")` `= choice(length(this.HiddenAbility)=0,"","("+"[[SRD-"+this.HiddenAbility+"|"+this.HiddenAbility+"]]"+")")` `= choice(length(this.EventAbilities)=0,"","\<"+"[[SRD-"+this.EventAbilities+"|"+this.EventAbilities+"]]"+"\>")`
-**Base HP:** `= this.BaseHP`
+**DexID**:: 0654
+**Species**:: Braixen
+**Type**:: Fire
+**Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Magician|Magician]])
+**Base HP**:: 4
 
 ![[SRD-BoxSprite-braixen.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
-| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | `= this.Strength`/`= this.MaxStrength`   |
-| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | `= this.Dexterity`/`= this.MaxDexterity` |
-| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | `= this.Vitality`/`= this.MaxVitality`   |
-| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | `= this.Special`/`= this.MaxSpecial`     |
-| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | `= this.Insight`/`= this.MaxInsight`     |
+| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::4)   |
+| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | (Dexterity:: 2)/(MaxDexterity::5) |
+| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
+| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
+| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-**Recommended Rank:** `= this.RecommendedRank`
-**Good Starting Pokemon?** `= this.GoodStarter`
-**Can Evolve?** `= this.Unevolved`
+**Recommended Rank**:: Amateur
+**Good Starter**:: No
+**Can Evolve**:: Yes
 
 ![[SRD-Braixen-Learnset]]

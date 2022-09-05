@@ -1,12 +1,12 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon sends a giant pulse underwater that creates a chain reaction
   and causes water to move in large streams. It is believed that all water in the
   sea moves thanks to this.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Lethal. -2 Accuracy.
 Name: Origin Pulse
 Power: 4
@@ -16,7 +16,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

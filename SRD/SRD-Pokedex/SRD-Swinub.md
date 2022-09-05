@@ -1,33 +1,19 @@
 ---
 Ability1: Oblivious
 Ability2: Snow Cloak
-BaseHP: 3
 BoxSprite: SRD-BoxSprite-swinub.png
-DexID: '0220'
-Dexterity: 2
 EventAbilities: ''
 GenderType: ''
-GoodStarter: 'Yes'
 HasAForm?: ''
 HiddenAbility: Thick Fat
 HomeSprite: SRD-HomeSprite-swinub.png
-Insight: 1
+Learnset: '[[SRD-Swinub-Learnset]]'
 Legendary: 'No'
-MaxDexterity: 4
-MaxInsight: 3
-MaxSpecial: 3
-MaxStrength: 4
-MaxVitality: 3
 Name: Swinub
 Number: 220
-RecommendedRank: Beginner
-Special: 1
 Sprite: swinub.png
-Strength: 2
 Type1: Ice
 Type2: Ground
-Unevolved: 'Yes'
-Vitality: 1
 ---
 
 #PokeroleSRD/Pokedex
@@ -36,23 +22,24 @@ Vitality: 1
 
 ![[SRD-HomeSprite-swinub.png|right]]
 
-**DexID:** `= this.DexID`
-**Type::** `= choice(length(this.Type2)=0, this.Type1,this.Type1+"/"+this.Type2)`
-**Abilities::** `= choice(length(this.Ability2)=0, "[[SRD-"+this.Ability1+"|"+this.Ability1+"]]","[[SRD-"+this.Ability1+"|"+this.Ability1+"]]"+" / "+"[[SRD-"+this.Ability2+"|"+this.Ability2+"]]")` `= choice(length(this.HiddenAbility)=0,"","("+"[[SRD-"+this.HiddenAbility+"|"+this.HiddenAbility+"]]"+")")` `= choice(length(this.EventAbilities)=0,"","\<"+"[[SRD-"+this.EventAbilities+"|"+this.EventAbilities+"]]"+"\>")`
-**Base HP:** `= this.BaseHP`
+**DexID**:: 0220
+**Species**:: Swinub
+**Type**:: Ice / Ground
+**Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Snow Cloak|Snow Cloak]] ([[SRD-Thick Fat|Thick Fat]])
+**Base HP**:: 3
 
 ![[SRD-BoxSprite-swinub.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
-| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | `= this.Strength`/`= this.MaxStrength`   |
-| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | `= this.Dexterity`/`= this.MaxDexterity` |
-| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | `= this.Vitality`/`= this.MaxVitality`   |
-| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | `= this.Special`/`= this.MaxSpecial`     |
-| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | `= this.Insight`/`= this.MaxInsight`     |
+| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::4)   |
+| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | (Dexterity:: 2)/(MaxDexterity::4) |
+| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
+| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
+| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-**Recommended Rank:** `= this.RecommendedRank`
-**Good Starting Pokemon?** `= this.GoodStarter`
-**Can Evolve?** `= this.Unevolved`
+**Recommended Rank**:: Beginner
+**Good Starter**:: Yes
+**Can Evolve**:: Yes
 
 ![[SRD-Swinub-Learnset]]

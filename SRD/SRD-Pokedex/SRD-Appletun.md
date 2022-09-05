@@ -1,33 +1,19 @@
 ---
 Ability1: Ripen
 Ability2: Gluttony
-BaseHP: 5
 BoxSprite: SRD-BoxSprite-appletun.png
-DexID: 0842
-Dexterity: 1
 EventAbilities: ''
 GenderType: ''
-GoodStarter: 'No'
 HasAForm?: ''
 HiddenAbility: Thick Fat
 HomeSprite: SRD-HomeSprite-appletun.png
-Insight: 2
+Learnset: '[[SRD-Appletun-Learnset]]'
 Legendary: 'No'
-MaxDexterity: 3
-MaxInsight: 5
-MaxSpecial: 6
-MaxStrength: 5
-MaxVitality: 5
 Name: Appletun
 Number: 842
-RecommendedRank: Ace
-Special: 3
 Sprite: appletun.png
-Strength: 2
 Type1: Grass
 Type2: Dragon
-Unevolved: 'No'
-Vitality: 2
 ---
 
 #PokeroleSRD/Pokedex
@@ -36,23 +22,24 @@ Vitality: 2
 
 ![[SRD-HomeSprite-appletun.png|right]]
 
-**DexID:** `= this.DexID`
-**Type::** `= choice(length(this.Type2)=0, this.Type1,this.Type1+"/"+this.Type2)`
-**Abilities::** `= choice(length(this.Ability2)=0, "[[SRD-"+this.Ability1+"|"+this.Ability1+"]]","[[SRD-"+this.Ability1+"|"+this.Ability1+"]]"+" / "+"[[SRD-"+this.Ability2+"|"+this.Ability2+"]]")` `= choice(length(this.HiddenAbility)=0,"","("+"[[SRD-"+this.HiddenAbility+"|"+this.HiddenAbility+"]]"+")")` `= choice(length(this.EventAbilities)=0,"","\<"+"[[SRD-"+this.EventAbilities+"|"+this.EventAbilities+"]]"+"\>")`
-**Base HP:** `= this.BaseHP`
+**DexID**:: 0842
+**Species**:: Appletun
+**Type**:: Grass / Dragon
+**Abilities**:: [[SRD-Ripen|Ripen]] / [[SRD-Gluttony|Gluttony]] ([[SRD-Thick Fat|Thick Fat]])
+**Base HP**:: 5
 
 ![[SRD-BoxSprite-appletun.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
-| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | `= this.Strength`/`= this.MaxStrength`   |
-| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | `= this.Dexterity`/`= this.MaxDexterity` |
-| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | `= this.Vitality`/`= this.MaxVitality`   |
-| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | `= this.Special`/`= this.MaxSpecial`     |
-| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | `= this.Insight`/`= this.MaxInsight`     |
+| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::5)   |
+| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | (Dexterity:: 1)/(MaxDexterity::3) |
+| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
+| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
+| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-**Recommended Rank:** `= this.RecommendedRank`
-**Good Starting Pokemon?** `= this.GoodStarter`
-**Can Evolve?** `= this.Unevolved`
+**Recommended Rank**:: Ace
+**Good Starter**:: No
+**Can Evolve**:: No
 
 ![[SRD-Appletun-Learnset]]

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: After storing power, the Pokemon spits that energy at the foe. The user
   returns to its original size.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Must have used the move "Stockpile" prior to this move, otherwise it will
   fail. Lose all Stockpile modifiers.
 Name: Spit Up
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

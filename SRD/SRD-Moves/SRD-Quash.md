@@ -1,11 +1,11 @@
 ---
-Accuracy1: TOUGH
-Accuracy2: INTIMIDATE
+Accuracy1: Tough
+Accuracy2: Intimidate
 Damage1: ''
 Damage2: ''
 Description: The user represses the foe with intimidation so it has to think twice
   before acting.
-DmgType: SUPPORT
+DmgType: Support
 Effect: For the rest of the scene, the target will go last in the order of Initiative.
 Name: Quash
 Power: 0
@@ -15,7 +15,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

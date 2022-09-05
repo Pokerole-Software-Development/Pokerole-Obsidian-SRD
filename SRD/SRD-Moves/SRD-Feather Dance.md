@@ -1,11 +1,11 @@
 ---
-Accuracy1: BEAUTY
-Accuracy2: PERFORM
+Accuracy1: Beauty
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: A beautiful dance that soothes the hearts of those who watch it, reducing
   their aggressive intentions.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce the foe's Strength by 2.
 Name: Feather Dance
 Power: 0
@@ -15,7 +15,7 @@ Type: Flying
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user shoots three beams. Each one is charged with a different kind
   of energy.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 2 Chance Dice to Paralyze the foe. Roll 2 Chance Dice to Burn the foe.
   Roll 2 Chance Dice to Freeze the Foe.
 Name: Tri Attack
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,12 +1,12 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user appears to become a block of ice, then it releases itself from
   the ice with a devastating explosion. The exploding ice shards and fire blow all
   over the battlefield.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Lethal. Ranged. Charge Move. Roll 3 Chance Dice to Burn the Foe. -1 Accuracy.
 Name: Ice Burn
 Power: 6
@@ -16,7 +16,7 @@ Type: Ice
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

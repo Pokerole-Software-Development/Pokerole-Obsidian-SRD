@@ -1,33 +1,19 @@
 ---
 Ability1: Cute Charm
 Ability2: Technician
-BaseHP: 4
 BoxSprite: SRD-BoxSprite-cinccino.png
-DexID: '0573'
-Dexterity: 3
 EventAbilities: ''
 GenderType: ''
-GoodStarter: 'No'
 HasAForm?: ''
 HiddenAbility: Skill Link
 HomeSprite: SRD-HomeSprite-cinccino.png
-Insight: 2
+Learnset: '[[SRD-Cinccino-Learnset]]'
 Legendary: 'No'
-MaxDexterity: 6
-MaxInsight: 4
-MaxSpecial: 4
-MaxStrength: 6
-MaxVitality: 4
 Name: Cinccino
 Number: 573
-RecommendedRank: Amateur
-Special: 2
 Sprite: cinccino.png
-Strength: 3
 Type1: Normal
 Type2: ''
-Unevolved: 'No'
-Vitality: 2
 ---
 
 #PokeroleSRD/Pokedex
@@ -36,23 +22,24 @@ Vitality: 2
 
 ![[SRD-HomeSprite-cinccino.png|right]]
 
-**DexID:** `= this.DexID`
-**Type::** `= choice(length(this.Type2)=0, this.Type1,this.Type1+"/"+this.Type2)`
-**Abilities::** `= choice(length(this.Ability2)=0, "[[SRD-"+this.Ability1+"|"+this.Ability1+"]]","[[SRD-"+this.Ability1+"|"+this.Ability1+"]]"+" / "+"[[SRD-"+this.Ability2+"|"+this.Ability2+"]]")` `= choice(length(this.HiddenAbility)=0,"","("+"[[SRD-"+this.HiddenAbility+"|"+this.HiddenAbility+"]]"+")")` `= choice(length(this.EventAbilities)=0,"","\<"+"[[SRD-"+this.EventAbilities+"|"+this.EventAbilities+"]]"+"\>")`
-**Base HP:** `= this.BaseHP`
+**DexID**:: 0573
+**Species**:: Cinccino
+**Type**:: Normal
+**Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Technician|Technician]] ([[SRD-Skill Link|Skill Link]])
+**Base HP**:: 4
 
 ![[SRD-BoxSprite-cinccino.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
-| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | `= this.Strength`/`= this.MaxStrength`   |
-| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | `= this.Dexterity`/`= this.MaxDexterity` |
-| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | `= this.Vitality`/`= this.MaxVitality`   |
-| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | `= this.Special`/`= this.MaxSpecial`     |
-| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | `= this.Insight`/`= this.MaxInsight`     |
+| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::3)/(MaxStrength::6)   |
+| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | (Dexterity:: 3)/(MaxDexterity::6) |
+| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
+| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
+| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-**Recommended Rank:** `= this.RecommendedRank`
-**Good Starting Pokemon?** `= this.GoodStarter`
-**Can Evolve?** `= this.Unevolved`
+**Recommended Rank**:: Amateur
+**Good Starter**:: No
+**Can Evolve**:: No
 
 ![[SRD-Cinccino-Learnset]]

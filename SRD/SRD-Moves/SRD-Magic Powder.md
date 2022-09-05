@@ -1,12 +1,12 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon recites an enchantment and blows a cloud of pink dust on
   its Target. Afterwards, the target becomes especially good at guessing which card
   you got from a deck.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Change the target's Type to Psychic.
 Name: Magic Powder
 Power: 0
@@ -16,7 +16,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

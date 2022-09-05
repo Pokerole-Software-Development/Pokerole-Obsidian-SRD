@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: CHANNEL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Channel
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon strikes with a devastating electric impact, said impact will
   grow larger and stronger if there's a special kind of fire nearby.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: "Lethal. If the Move \u201CFusion Flare\u201D has already been used by anyone\
   \ this Round, add 4 Extra Dice to the Damage Pool of this Move."
 Name: Fusion Bolt
@@ -16,7 +16,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

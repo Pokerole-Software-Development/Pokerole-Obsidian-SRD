@@ -1,12 +1,12 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: Inside the Wonder Room, a strong mind makes a strong body and a resilient
   body makes a resilient mind. However, if the mind is weak, the body will be weak
   and vice-versa.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Defense and Sp. Defense will be calculated with Insight instead of Vitality.
   Lasts 4 Rounds.
 Name: Wonder Room
@@ -17,7 +17,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

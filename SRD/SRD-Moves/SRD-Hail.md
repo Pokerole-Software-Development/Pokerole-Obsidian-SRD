@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user summons a hailstorm that will stay on the battlefield for some
   time.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Hail Weather is activated for the next 4 Rounds.
 Name: Hail
 Power: 0
@@ -15,7 +15,7 @@ Type: Ice
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,12 +1,12 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon happily runs into a wheel made of electricity that strikes
   the foe. If the user is feeling hungry the wheel's energy is replaced by a dark
   aura.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: "If successful, Increase user's Dexterity. If the user is in \u201CHangry\u201D\
   \ Form this Move is considered to be Dark-Type."
 Name: Aura Wheel
@@ -17,7 +17,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

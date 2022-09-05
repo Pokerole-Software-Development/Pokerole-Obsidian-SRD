@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: In the heat of the battle, the Pokemon gets carried away, relishing in
   its own power.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Add 1 Dice to the Damage Pool of this Move for every Attribute increase the
   user has. Up to 7 Dice may be added this way. (ie. the user has 2 increased points
   on Defense, add 2 Damage dice).
@@ -17,7 +17,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

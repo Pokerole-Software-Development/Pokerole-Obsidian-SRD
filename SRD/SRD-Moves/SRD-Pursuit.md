@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon chases the foe to deliver a final blow before it escapes.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If the foe is Switching Out or escaping. Add 2 Dice to the Damage Pool and
   Priority 1 to this move.
 Name: Pursuit
@@ -15,7 +15,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

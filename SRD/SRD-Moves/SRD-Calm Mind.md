@@ -1,10 +1,10 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: CHANNEL
+Accuracy1: Insight
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user quietly calms its spirit to strengthen its mind and body.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Special and Sp. Defense.
 Name: Calm Mind
 Power: 0
@@ -14,7 +14,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

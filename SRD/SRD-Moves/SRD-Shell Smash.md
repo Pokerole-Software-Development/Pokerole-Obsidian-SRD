@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
+Accuracy1: Strength
+Accuracy2: Brawl
 Damage1: ''
 Damage2: ''
 Description: By breaking its own shell, the user sacrifices defense in exchange of
   being free to fight with all its power.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Strength, Special, Dexterity by 2. Reduce the User's Defense
   and Special Defense by 2.
 Name: Shell Smash
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user hits the foe with its hardened tail. The target is left vulnerable
   against subsequent attacks.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll 3 Chance Dice to Reduce the foe's Defense. -3 Accuracy.
 Name: Iron Tail
 Power: 4
@@ -15,7 +15,7 @@ Type: Steel
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

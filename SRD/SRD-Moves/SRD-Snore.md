@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: PERFORM
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Perform
+Damage1: Special
 Damage2: ''
 Description: After falling asleep the user lets out a powerful snore, disrupting any
   focus the foe had.
-DmgType: SPECIAL
+DmgType: Special
 Effect: This move can only be used if the user asleep. Roll 3 Chance Dice to Flinch
   the foe. Sound Based Move.
 Name: Snore
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

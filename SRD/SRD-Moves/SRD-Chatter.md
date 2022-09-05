@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: PERFORM
-Damage1: SPECIAL
+Accuracy1: Insight
+Accuracy2: Perform
+Damage1: Special
 Damage2: ''
 Description: The user starts talking and giving orders in human language. It may be
   extremely confusing for the foes.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 3 Chance Dice to Confuse the foe. Sound based move.
 Name: Chatter
 Power: 2
@@ -15,7 +15,7 @@ Type: Flying
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

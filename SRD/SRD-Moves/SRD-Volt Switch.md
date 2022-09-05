@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The User quickly shoots an electic jolt, then switches places with an
   awaiting Pokemon partner at the speed of lightning.
-DmgType: SPECIAL
+DmgType: Special
 Effect: The user switches out after dealing damage. The new Pokemon arrives ready
   to fight on the next Round. Switcher Move.
 Name: Volt Switch
@@ -16,7 +16,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

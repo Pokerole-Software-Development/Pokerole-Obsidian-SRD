@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses the magnetic field of the earth to repel itself from
   the ground, allowing it to float for a short period of time.
-DmgType: SUPPORT
+DmgType: Support
 Effect: For the Next 4 Rounds the User gains immunity against Ground Type Moves.
 Name: Magnet Rise
 Power: 0
@@ -15,7 +15,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

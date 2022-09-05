@@ -1,11 +1,11 @@
 ---
-Accuracy1: CLEVER
-Accuracy2: PERFORM
+Accuracy1: Clever
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The user swaps its identity with the target, making both feel like they
   are from each other's species.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Switch Abilities with the foe. The abilities Flower Gift. Illusion. Imposter.
   Stance Change. Wonder Guard. Plot Device and others cannot be switched.
 Name: Skill Swap
@@ -16,7 +16,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

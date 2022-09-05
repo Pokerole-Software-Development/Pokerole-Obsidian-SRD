@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The foe is covered with a disgusting sludge, the fumes and toxins on
   it can make anyone feel sick.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 3 Chance Dice to Poison the Foe.
 Name: Sludge
 Power: 2
@@ -15,7 +15,7 @@ Type: Poison
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

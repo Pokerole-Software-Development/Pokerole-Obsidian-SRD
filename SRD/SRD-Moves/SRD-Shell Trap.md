@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: STEALTH
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Stealth
+Damage1: Special
 Damage2: ''
 Description: It apparently just buries underground, but secretely the Pokemon prepares
   its shell to detonate; anyone who steps on it will be blown to pieces.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Low Priority 3. This Move strikes the next time the user is hit with a Non-Ranged
   Physical attack.
 Name: Shell Trap
@@ -16,7 +16,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

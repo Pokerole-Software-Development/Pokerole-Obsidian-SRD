@@ -1,33 +1,19 @@
 ---
 Ability1: Inner Focus
 Ability2: ''
-BaseHP: 6
 BoxSprite: SRD-BoxSprite-gallade-mega.png
-DexID: 0475M1
-Dexterity: 3
 EventAbilities: ''
 GenderType: M
-GoodStarter: 'No'
 HasAForm?: ''
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-gallade-mega.png
-Insight: 3
+Learnset: '[[SRD-Mega-Gallade-Learnset]]'
 Legendary: 'No'
-MaxDexterity: 6
-MaxInsight: 6
-MaxSpecial: 4
-MaxStrength: 8
-MaxVitality: 6
 Name: Mega-Gallade
 Number: 475
-RecommendedRank: Pro
-Special: 2
 Sprite: gallade-mega.png
-Strength: 4
 Type1: Psychic
 Type2: Fighting
-Unevolved: 'No'
-Vitality: 3
 ---
 
 #PokeroleSRD/Pokedex
@@ -36,23 +22,24 @@ Vitality: 3
 
 ![[SRD-HomeSprite-gallade-mega.png|right]]
 
-**DexID:** `= this.DexID`
-**Type::** `= choice(length(this.Type2)=0, this.Type1,this.Type1+"/"+this.Type2)`
-**Abilities::** `= choice(length(this.Ability2)=0, "[[SRD-"+this.Ability1+"|"+this.Ability1+"]]","[[SRD-"+this.Ability1+"|"+this.Ability1+"]]"+" / "+"[[SRD-"+this.Ability2+"|"+this.Ability2+"]]")` `= choice(length(this.HiddenAbility)=0,"","("+"[[SRD-"+this.HiddenAbility+"|"+this.HiddenAbility+"]]"+")")` `= choice(length(this.EventAbilities)=0,"","\<"+"[[SRD-"+this.EventAbilities+"|"+this.EventAbilities+"]]"+"\>")`
-**Base HP:** `= this.BaseHP`
+**DexID**:: 0475M1
+**Species**:: Mega-Gallade
+**Type**:: Psychic / Fighting
+**Abilities**:: [[SRD-Inner Focus|Inner Focus]]
+**Base HP**:: 6
 
 ![[SRD-BoxSprite-gallade-mega.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
-| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | `= this.Strength`/`= this.MaxStrength`   |
-| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | `= this.Dexterity`/`= this.MaxDexterity` |
-| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | `= this.Vitality`/`= this.MaxVitality`   |
-| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | `= this.Special`/`= this.MaxSpecial`     |
-| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | `= this.Insight`/`= this.MaxInsight`     |
+| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::4)/(MaxStrength::8)   |
+| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | (Dexterity:: 3)/(MaxDexterity::6) |
+| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
+| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
+| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-**Recommended Rank:** `= this.RecommendedRank`
-**Good Starting Pokemon?** `= this.GoodStarter`
-**Can Evolve?** `= this.Unevolved`
+**Recommended Rank**:: Pro
+**Good Starter**:: No
+**Can Evolve**:: No
 
 ![[SRD-Mega-Gallade-Learnset]]

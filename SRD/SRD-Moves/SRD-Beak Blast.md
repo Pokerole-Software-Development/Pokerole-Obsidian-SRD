@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon gets ready to release a boiling gas through its beak, which
   gets incredibly hot. The resulting blast sounds like a train's horn.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ranged. Charge Move. Low Priority 3. If the User is hit by a Non Ranged Physical
   Attack while this move is charging, apply Burn 2 to the foe.
 Name: Beak Blast
@@ -16,7 +16,7 @@ Type: Flying
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

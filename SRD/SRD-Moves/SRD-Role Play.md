@@ -1,11 +1,11 @@
 ---
-Accuracy1: CLEVER
-Accuracy2: PERFORM
+Accuracy1: Clever
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The user mimics the target and takes on the most basic features from
   that character.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Copy the target's Ability. The abilities Flower Gift, Illusion, Imposter,
   Stance Change, Wonder Guard, and Plot Device cannot be copied.
 Name: Role Play
@@ -16,7 +16,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

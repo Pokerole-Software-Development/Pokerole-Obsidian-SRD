@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Insight
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon has had a terrible day and has a very bad headache, try not
   to disturb its peace because its head feels like exploding.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Area Attack. Recoil.
 Name: Mind Blown
 Power: 6
@@ -15,7 +15,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

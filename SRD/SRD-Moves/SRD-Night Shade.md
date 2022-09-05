@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: CHANNEL
+Accuracy1: Insight
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user casts a shade with a frightening mirage inside that torments
   the target.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll Damage Dice according to the User's Rank. 1 Dice at Starter Rank. 2 Dice
   at Beginner Rank.  3 dice at Amateur Rank.  4 Dice at Ace Rank.  5 Dice at Professional
   Rank. Ignores Defense.
@@ -17,7 +17,7 @@ Type: Ghost
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

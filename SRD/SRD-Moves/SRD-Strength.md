@@ -1,10 +1,10 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon strains its muscles to go beyond their own limits.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Outside of battle, using this move allows the Pokemon to lift double the normal
   weight it should be able to.
 Name: Strength
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Insight
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon foresses something terrible happening to the target. It may
   see images from its own future without any risk.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Strikes at the end of the next Round. It bypasses any Shield Move and cover.
   If the target retires or switches out from battle the damage will be dealt to the
   next opponent or to one of its allies.
@@ -17,7 +17,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

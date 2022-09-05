@@ -1,11 +1,11 @@
 ---
-Accuracy1: WILL
-Accuracy2: CHANNEL
+Accuracy1: Will
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon downloads the data of a move that was used against it. Change
   the code of the user to a type resistant to the that move.
-DmgType: SUPPORT
+DmgType: Support
 Effect: After being dealt damage, choose a Type resistant to the Type of that attack.
   That's the Type of the User until it uses this Move again.
 Name: Conversion 2
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon builds up an amazing pressure and releases a huge columnar
   vortex of water that could even reach the clouds.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Remove 1 Dice of Damage for every missing HP of the User. Up to 5 Dice may
   be reduced this way.
 Name: Water Spout
@@ -16,7 +16,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: WILL
-Accuracy2: CHANNEL
+Accuracy1: Will
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user creates an energy shield to deflect a blow. Some Pokemon may
   even perform an amazing parry to block the incoming attack.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Priority 5. Shield. Reduce 3 Damage this pokemon would receive from a damaging
   move. Negate effects of Support Moves that target the user. Reduce to zero the set
   damage from a move the user would take.
@@ -17,7 +17,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

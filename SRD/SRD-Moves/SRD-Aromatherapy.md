@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon releases medicinal scents and vapors to refresh the user
   and its allies.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Cure User and Allies from Burn, Freeze, Paralysis, Poison, or Sleep.
 Name: Aromatherapy
 Power: 0
@@ -15,7 +15,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: EVASION
+Accuracy1: Dexterity
+Accuracy2: Evasion
 Damage1: ''
 Damage2: ''
 Description: The user moves rapidly around the foe, creating illusory copies of itself.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The User can now make up to 5 Evasions per Round.
 Name: Double Team
 Power: 0
@@ -14,7 +14,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon makes use of all its force to deliver a crushing strike to
   the foe, this demands a lot from the user.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Lethal. Reduce User's Strength and Defense.
 Name: Superpower
 Power: 5
@@ -15,7 +15,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

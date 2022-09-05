@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: ATHLETIC
+Accuracy1: Dexterity
+Accuracy2: Athletic
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses a mat or something similar as a shield.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Shield. Reduce 3 Dice from the foe's Damage Pool. This Move only works the
   first Round the User has been out.
 Name: Mat Block
@@ -15,7 +15,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

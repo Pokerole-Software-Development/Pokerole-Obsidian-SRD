@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon rises on top of its foe and drops an apple on their head.
   The foe proceeds to eat the apple, distracting it from the fight.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ranged. Reduce the Foe's Defense.
 Name: Grav Apple
 Power: 3
@@ -15,7 +15,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

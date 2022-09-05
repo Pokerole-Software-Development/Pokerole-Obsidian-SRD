@@ -1,11 +1,11 @@
 ---
-Accuracy1: TOUGH
-Accuracy2: PERFORM
+Accuracy1: Tough
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The user disrupts the fighting stance of its foe by sending a sharp sound
   to the foe's ears.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce the foe's Defense by 2. Sound Based.
 Name: Screech
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: Claws become semi-ethereal and are able to briefly pierce armor, hide,
   skin, and objects so it can strike the target on any weak spot.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: High Critical.
 Name: Shadow Claw
 Power: 3
@@ -15,7 +15,7 @@ Type: Ghost
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

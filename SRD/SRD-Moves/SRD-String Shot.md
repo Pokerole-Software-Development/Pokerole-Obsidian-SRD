@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user shoots a silk string that ties and limits the movement of its
   foe.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Targets All Foes in Range. Reduce the Dexterity of those affected.
 Name: String Shot
 Power: 0
@@ -15,7 +15,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon punches through its own shadow. The attack comes out from
   the foe's shadows as if it were a portal.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Fist Based. Never Fail.
 Name: Shadow Punch
 Power: 2
@@ -15,7 +15,7 @@ Type: Ghost
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

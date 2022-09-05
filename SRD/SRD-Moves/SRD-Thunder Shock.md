@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: A small electric attack that shocks the foe and may leave it with muscular
   cramps. Some electric devices hit by this attack will malfunction.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 1 Chance Dice to Paralyze the foe.
 Name: Thunder Shock
 Power: 2
@@ -15,7 +15,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

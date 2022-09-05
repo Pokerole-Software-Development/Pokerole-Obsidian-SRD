@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon digs around and moves the soil to make it ideal for plant
   growth.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the Strength and Special of all Grass Type Pokemon in the battlefield.
 Name: Rototiller
 Power: 0
@@ -15,7 +15,7 @@ Type: Ground
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

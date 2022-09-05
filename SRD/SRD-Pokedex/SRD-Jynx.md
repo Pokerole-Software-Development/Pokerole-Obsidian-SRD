@@ -1,33 +1,19 @@
 ---
 Ability1: Oblivious
 Ability2: Forewarn
-BaseHP: 4
 BoxSprite: SRD-BoxSprite-jynx.png
-DexID: '0124'
-Dexterity: 3
 EventAbilities: ''
 GenderType: F
-GoodStarter: 'No'
 HasAForm?: ''
 HiddenAbility: Dry Skin
 HomeSprite: SRD-HomeSprite-jynx.png
-Insight: 3
+Learnset: '[[SRD-Jynx-Learnset]]'
 Legendary: 'No'
-MaxDexterity: 6
-MaxInsight: 6
-MaxSpecial: 6
-MaxStrength: 4
-MaxVitality: 3
 Name: Jynx
 Number: 124
-RecommendedRank: Amateur
-Special: 3
 Sprite: jynx.png
-Strength: 2
 Type1: Ice
 Type2: Psychic
-Unevolved: 'No'
-Vitality: 1
 ---
 
 #PokeroleSRD/Pokedex
@@ -36,23 +22,24 @@ Vitality: 1
 
 ![[SRD-HomeSprite-jynx.png|right]]
 
-**DexID:** `= this.DexID`
-**Type::** `= choice(length(this.Type2)=0, this.Type1,this.Type1+"/"+this.Type2)`
-**Abilities::** `= choice(length(this.Ability2)=0, "[[SRD-"+this.Ability1+"|"+this.Ability1+"]]","[[SRD-"+this.Ability1+"|"+this.Ability1+"]]"+" / "+"[[SRD-"+this.Ability2+"|"+this.Ability2+"]]")` `= choice(length(this.HiddenAbility)=0,"","("+"[[SRD-"+this.HiddenAbility+"|"+this.HiddenAbility+"]]"+")")` `= choice(length(this.EventAbilities)=0,"","\<"+"[[SRD-"+this.EventAbilities+"|"+this.EventAbilities+"]]"+"\>")`
-**Base HP:** `= this.BaseHP`
+**DexID**:: 0124
+**Species**:: Jynx
+**Type**:: Ice / Psychic
+**Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Forewarn|Forewarn]] ([[SRD-Dry Skin|Dry Skin]])
+**Base HP**:: 4
 
 ![[SRD-BoxSprite-jynx.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
-| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | `= this.Strength`/`= this.MaxStrength`   |
-| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | `= this.Dexterity`/`= this.MaxDexterity` |
-| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | `= this.Vitality`/`= this.MaxVitality`   |
-| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | `= this.Special`/`= this.MaxSpecial`     |
-| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | `= this.Insight`/`= this.MaxInsight`     |
+| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::4)   |
+| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | (Dexterity:: 3)/(MaxDexterity::6) |
+| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
+| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
+| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-**Recommended Rank:** `= this.RecommendedRank`
-**Good Starting Pokemon?** `= this.GoodStarter`
-**Can Evolve?** `= this.Unevolved`
+**Recommended Rank**:: Amateur
+**Good Starter**:: No
+**Can Evolve**:: No
 
 ![[SRD-Jynx-Learnset]]

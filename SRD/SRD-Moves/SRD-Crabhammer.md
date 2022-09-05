@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: A large pincer strikes with the power of a hammer. The demolition power
   is incredible.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: High Critical. -1 Accuracy.
 Name: Crabhammer
 Power: 3
@@ -15,7 +15,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

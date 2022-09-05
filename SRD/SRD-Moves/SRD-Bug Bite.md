@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon nibbles its foe, if it finds something tasty it will eat
   it in an instant. It may try to eat almost anything.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If the Target Pokemon is holding a berry, the user eats it and gains its effect.
 Name: Bug Bite
 Power: 2
@@ -15,7 +15,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

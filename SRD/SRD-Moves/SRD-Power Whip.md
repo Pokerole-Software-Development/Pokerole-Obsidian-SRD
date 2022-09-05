@@ -1,12 +1,12 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon violently lashes the foe with its vines or a part of its
   body, acting as a powerful whip.
-DmgType: PHYSICAL
-Effect: ' -2 Accuracy.'
+DmgType: Physical
+Effect: -2 Accuracy.
 Name: Power Whip
 Power: 5
 Target: Foe
@@ -15,7 +15,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

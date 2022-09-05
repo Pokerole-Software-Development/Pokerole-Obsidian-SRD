@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon extracts a great amount of vital energy from the foe's body.
-DmgType: SPECIAL
+DmgType: Special
 Effect: The user restores HP equal to half the damage dealt, rounded down.
 Name: Giga Drain
 Power: 3
@@ -14,7 +14,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: ALLURE
+Accuracy1: Special
+Accuracy2: Allure
 Damage1: ''
 Damage2: ''
 Description: Control the target's mind to perform a simple non-hostile action, such
   as walking or handling an item.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The foe and the user swap Held Items.
 Name: Trick
 Power: 0
@@ -15,7 +15,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

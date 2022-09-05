@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user radiates electricity around itself, the foe will think twice
   about attacking.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce foe's Special by 2.
 Name: Eerie Impulse
 Power: 0
@@ -15,7 +15,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

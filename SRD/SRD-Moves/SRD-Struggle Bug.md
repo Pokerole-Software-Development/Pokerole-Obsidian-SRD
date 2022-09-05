@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon lays on its back and struggles with the foe, disrupting the
   foe's concentration.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Reduce the foe's Special.
 Name: Struggle Bug
 Power: 1
@@ -15,7 +15,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

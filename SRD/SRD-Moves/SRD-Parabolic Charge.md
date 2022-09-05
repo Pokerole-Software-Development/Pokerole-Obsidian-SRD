@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon lets go of a big electric charge from its body. The charge
   comes back to it even bigger.
-DmgType: SPECIAL
+DmgType: Special
 Effect: The user restores HP equal to half the damage dealt to one target, rounded
   down.
 Name: Parabolic Charge
@@ -16,7 +16,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

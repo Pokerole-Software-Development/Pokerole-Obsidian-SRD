@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
+Accuracy1: Dexterity
+Accuracy2: Brawl
 Damage1: ''
 Damage2: ''
 Description: The user endures the hit then unleashes an attack even greater.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: The User will take the next 2 hits. After those two attacks, you may use this
   Move again to retaliate with Strength + Twice the Damage Received from those 2 hits.
 Name: Bide
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

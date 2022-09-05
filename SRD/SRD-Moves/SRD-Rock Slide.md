@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon creates a slide of falling rocks against its foes that may
   leave them crushed below the rubble.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ranged. Roll 3 Chance Dice to Flinch those affected. -1 Accuracy.
 Name: Rock Slide
 Power: 3
@@ -15,7 +15,7 @@ Type: Rock
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

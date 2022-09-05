@@ -1,11 +1,11 @@
 ---
-Accuracy1: TOUGH
-Accuracy2: PERFORM
+Accuracy1: Tough
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The user performs a vigorous and mystical dance that boosts the fighting
   spirit and reflexes.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Strength and Dexterity.
 Name: Dragon Dance
 Power: 0
@@ -15,7 +15,7 @@ Type: Dragon
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

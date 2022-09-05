@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its scythes or claws as if they were a pair of scissors
   to cut through the foe.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: '-'
 Name: X-Scissor
 Power: 3
@@ -15,7 +15,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

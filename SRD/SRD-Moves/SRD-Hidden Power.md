@@ -5,7 +5,7 @@ Damage1: ''
 Damage2: ''
 Description: Every Pokemon has an unknown power that can be released with surprising
   results.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Storyteller decides power and type
 Name: Hidden Power
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

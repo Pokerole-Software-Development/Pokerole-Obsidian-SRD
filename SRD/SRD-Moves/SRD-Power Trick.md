@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user's mind is tricked into thinking that strength comes from their
   vitality, and their vitality is their power.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Switch the User's Strength with its Defense and the User's Special with its
   Sp. Defense.
 Name: Power Trick
@@ -16,7 +16,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

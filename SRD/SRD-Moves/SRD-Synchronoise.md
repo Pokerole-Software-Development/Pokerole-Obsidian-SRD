@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: PERFORM
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Perform
+Damage1: Special
 Damage2: ''
 Description: The user vibrates with any particular energy Type he chooses. All nearby
   creatures and objects of that Type are hurt.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Sound Based. Choose a Type (Fire, Poison, Steel, etc.) this move only affects
   those with that Type.
 Name: Synchronoise
@@ -16,7 +16,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

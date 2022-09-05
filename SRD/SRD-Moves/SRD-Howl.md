@@ -1,11 +1,11 @@
 ---
-Accuracy1: COOL
-Accuracy2: INTIMIDATE
+Accuracy1: Cool
+Accuracy2: Intimidate
 Damage1: ''
 Damage2: ''
 Description: The Pokemon lets out an impressive howl, making it appear a lot more
   menacing.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Strength.
 Name: Howl
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

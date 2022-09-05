@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
+Accuracy1: Dexterity
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon has its gears rotate quickly,. Working like a powerful machine.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Strength by 1 and Dexterity by 2.
 Name: Shift Gear
 Power: 0
@@ -14,7 +14,7 @@ Type: Steel
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

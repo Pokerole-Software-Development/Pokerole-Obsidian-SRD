@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user throws three or more kicks, leaving the harder blow for the
   end.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Successive Actions. Add 1 Extra Dice to Damage Pool to the last kick performed.
   -1 Accuracy.
 Name: Triple Kick
@@ -16,7 +16,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

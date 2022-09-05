@@ -1,10 +1,10 @@
 ---
-Accuracy1: VITALITY
-Accuracy2: BRAWL
+Accuracy1: Vitality
+Accuracy2: Brawl
 Damage1: ''
 Damage2: ''
 Description: The user curls like a ball to protect against most threats.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Defense.
 Name: Defense Curl
 Power: 0
@@ -14,7 +14,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

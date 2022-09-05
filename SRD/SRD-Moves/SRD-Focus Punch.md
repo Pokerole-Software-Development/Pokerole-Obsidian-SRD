@@ -1,10 +1,10 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: A brutal punch that requires calm and concentration
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Fist Based. Charge Move. The User will flinch if it gets hit before releasing
   this attack.
 Name: Focus Punch
@@ -15,7 +15,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

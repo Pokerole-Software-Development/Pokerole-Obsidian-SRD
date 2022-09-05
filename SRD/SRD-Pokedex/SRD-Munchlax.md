@@ -1,33 +1,19 @@
 ---
 Ability1: Pickup
 Ability2: Thick Fat
-BaseHP: 5
 BoxSprite: SRD-BoxSprite-munchlax.png
-DexID: '0446'
-Dexterity: 1
 EventAbilities: ''
 GenderType: ''
-GoodStarter: 'Yes'
 HasAForm?: ''
 HiddenAbility: Gluttony
 HomeSprite: SRD-HomeSprite-munchlax.png
-Insight: 2
+Learnset: '[[SRD-Munchlax-Learnset]]'
 Legendary: 'No'
-MaxDexterity: 2
-MaxInsight: 5
-MaxSpecial: 3
-MaxStrength: 5
-MaxVitality: 3
 Name: Munchlax
 Number: 446
-RecommendedRank: Beginner
-Special: 1
 Sprite: munchlax.png
-Strength: 2
 Type1: Normal
 Type2: ''
-Unevolved: 'Yes'
-Vitality: 1
 ---
 
 #PokeroleSRD/Pokedex
@@ -36,23 +22,24 @@ Vitality: 1
 
 ![[SRD-HomeSprite-munchlax.png|right]]
 
-**DexID:** `= this.DexID`
-**Type::** `= choice(length(this.Type2)=0, this.Type1,this.Type1+"/"+this.Type2)`
-**Abilities::** `= choice(length(this.Ability2)=0, "[[SRD-"+this.Ability1+"|"+this.Ability1+"]]","[[SRD-"+this.Ability1+"|"+this.Ability1+"]]"+" / "+"[[SRD-"+this.Ability2+"|"+this.Ability2+"]]")` `= choice(length(this.HiddenAbility)=0,"","("+"[[SRD-"+this.HiddenAbility+"|"+this.HiddenAbility+"]]"+")")` `= choice(length(this.EventAbilities)=0,"","\<"+"[[SRD-"+this.EventAbilities+"|"+this.EventAbilities+"]]"+"\>")`
-**Base HP:** `= this.BaseHP`
+**DexID**:: 0446
+**Species**:: Munchlax
+**Type**:: Normal
+**Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Thick Fat|Thick Fat]] ([[SRD-Gluttony|Gluttony]])
+**Base HP**:: 5
 
 ![[SRD-BoxSprite-munchlax.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
-| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | `= this.Strength`/`= this.MaxStrength`   |
-| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | `= this.Dexterity`/`= this.MaxDexterity` |
-| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | `= this.Vitality`/`= this.MaxVitality`   |
-| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | `= this.Special`/`= this.MaxSpecial`     |
-| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | `= this.Insight`/`= this.MaxInsight`     |
+| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::5)   |
+| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | (Dexterity:: 1)/(MaxDexterity::2) |
+| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
+| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
+| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-**Recommended Rank:** `= this.RecommendedRank`
-**Good Starting Pokemon?** `= this.GoodStarter`
-**Can Evolve?** `= this.Unevolved`
+**Recommended Rank**:: Beginner
+**Good Starter**:: Yes
+**Can Evolve**:: Yes
 
 ![[SRD-Munchlax-Learnset]]

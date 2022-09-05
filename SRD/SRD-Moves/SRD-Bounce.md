@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon will jump 30 feet in the air before landing on top of the
   foe. The user won't suffer any falling damage.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Charge Move. While charging this Move, the user will be out of range. Roll
   3 Chance Dice to Paralyze the foe.
 Name: Bounce
@@ -16,7 +16,7 @@ Type: Flying
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

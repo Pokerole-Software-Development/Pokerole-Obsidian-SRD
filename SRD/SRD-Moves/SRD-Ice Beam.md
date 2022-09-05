@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user shoots a freezing ray that greatly lowers the temperature of
   anything it hits.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 1 Chance Dice to Freeze the Foe.
 Name: Ice Beam
 Power: 3
@@ -15,7 +15,7 @@ Type: Ice
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon throws a bone to hit the foe. The bone returns like a boomerang,
   striking a second time.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ranged. Double Action. -1 Accuracy.
 Name: Bonemerang
 Power: 2
@@ -15,7 +15,7 @@ Type: Ground
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

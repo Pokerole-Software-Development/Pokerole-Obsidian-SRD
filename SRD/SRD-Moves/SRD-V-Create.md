@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user slams its foe with a V-Shaped flame on its forehead. Upon impact,
   it detonates a terrible explosion and leaves the user pretty vulnerable afterwards.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Reduce the user's Dexterity, Defense, and Sp. Defense.
 Name: V-Create
 Power: 7
@@ -15,7 +15,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

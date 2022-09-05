@@ -1,10 +1,10 @@
 ---
-Accuracy1: WILL
-Accuracy2: CHANNEL
+Accuracy1: Will
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: With pure willpower, the user struggles with its foe despite the pain
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll Damage equal to the Difference between user's Full HP and its Current
   HP (up to 10). User cannot reduce the target's HP to lower than its own remaining
   HP. Ignore foe's Defenses.
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

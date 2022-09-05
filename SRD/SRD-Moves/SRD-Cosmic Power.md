@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user absorbs power from space. This Pokemon glows faintly with energy
   afterwards.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Defense and Sp. Defense.
 Name: Cosmic Power
 Power: 0
@@ -15,7 +15,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

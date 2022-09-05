@@ -1,10 +1,10 @@
 ---
-Accuracy1: CLEVER
-Accuracy2: MEDICINE
+Accuracy1: Clever
+Accuracy2: Medicine
 Damage1: ''
 Damage2: ''
 Description: ''
-DmgType: SUPPORT
+DmgType: Support
 Effect: The User applies CPR and/or first aid to an unconcious Ally. Target won't
   receive Lethal Damage each hour anymore. Each Lethal Damage on the Ally reduces
   1 Success to the Accuracy Pool of this Maneuver.
@@ -16,7 +16,7 @@ Type: Typeless
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,33 +1,19 @@
 ---
 Ability1: Swift Swim
 Ability2: Oblivious
-BaseHP: 3
 BoxSprite: SRD-BoxSprite-feebas.png
-DexID: 0349
-Dexterity: 2
 EventAbilities: ''
 GenderType: ''
-GoodStarter: 'Yes'
 HasAForm?: ''
 HiddenAbility: Adaptability
 HomeSprite: SRD-HomeSprite-feebas.png
-Insight: 2
+Learnset: '[[SRD-Feebas-Learnset]]'
 Legendary: 'No'
-MaxDexterity: 5
-MaxInsight: 4
-MaxSpecial: 2
-MaxStrength: 2
-MaxVitality: 3
 Name: Feebas
 Number: 349
-RecommendedRank: Starter
-Special: 1
 Sprite: feebas.png
-Strength: 1
 Type1: Water
 Type2: ''
-Unevolved: 'Yes'
-Vitality: 1
 ---
 
 #PokeroleSRD/Pokedex
@@ -36,23 +22,24 @@ Vitality: 1
 
 ![[SRD-HomeSprite-feebas.png|right]]
 
-**DexID:** `= this.DexID`
-**Type::** `= choice(length(this.Type2)=0, this.Type1,this.Type1+"/"+this.Type2)`
-**Abilities::** `= choice(length(this.Ability2)=0, "[[SRD-"+this.Ability1+"|"+this.Ability1+"]]","[[SRD-"+this.Ability1+"|"+this.Ability1+"]]"+" / "+"[[SRD-"+this.Ability2+"|"+this.Ability2+"]]")` `= choice(length(this.HiddenAbility)=0,"","("+"[[SRD-"+this.HiddenAbility+"|"+this.HiddenAbility+"]]"+")")` `= choice(length(this.EventAbilities)=0,"","\<"+"[[SRD-"+this.EventAbilities+"|"+this.EventAbilities+"]]"+"\>")`
-**Base HP:** `= this.BaseHP`
+**DexID**:: 0349
+**Species**:: Feebas
+**Type**:: Water
+**Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Oblivious|Oblivious]] ([[SRD-Adaptability|Adaptability]])
+**Base HP**:: 3
 
 ![[SRD-BoxSprite-feebas.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
-| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | `= this.Strength`/`= this.MaxStrength`   |
-| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | `= this.Dexterity`/`= this.MaxDexterity` |
-| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | `= this.Vitality`/`= this.MaxVitality`   |
-| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | `= this.Special`/`= this.MaxSpecial`     |
-| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | `= this.Insight`/`= this.MaxInsight`     |
+| Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::1)/(MaxStrength::2)   |
+| Dexterity | `= padleft(padright("",this.MaxDexterity - this.Dexterity,"⭘"),this.MaxDexterity,"⬤")` | (Dexterity:: 2)/(MaxDexterity::5) |
+| Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
+| Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
+| Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-**Recommended Rank:** `= this.RecommendedRank`
-**Good Starting Pokemon?** `= this.GoodStarter`
-**Can Evolve?** `= this.Unevolved`
+**Recommended Rank**:: Starter
+**Good Starter**:: Yes
+**Can Evolve**:: Yes
 
 ![[SRD-Feebas-Learnset]]

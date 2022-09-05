@@ -1,12 +1,12 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user touches its foe while playing "Freeze!". Surprisingly, the foe
   becomes frozen on a block of ice. Once they realize they were just playing pretend
   the ice dissolves into haze.
-DmgType: SPECIAL
+DmgType: Special
 Effect: If successful, remove all Increased or Reduced Attributes and Traits the Foe
   may have. If the user of this Move is at its Final Stage of Evolution, this move
   fails. -1 Accuracy.
@@ -18,7 +18,7 @@ Type: Ice
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

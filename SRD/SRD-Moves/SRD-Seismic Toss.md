@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: ATHLETIC
+Accuracy1: Strength
+Accuracy2: Athletic
 Damage1: ''
 Damage2: ''
 Description: The target gets launched up then falls face first into the ground, the
   stronger the user the higher the foe will be thrown.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll Damage Dice according to the User's Rank. 1 Dice at Starter Rank. 2 Dice
   at Beginner Rank.  3 dice at Amateur Rank.  4 Dice at Ace Rank.  5 Dice at Professional
   Rank. Ignores Defense.
@@ -17,7 +17,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

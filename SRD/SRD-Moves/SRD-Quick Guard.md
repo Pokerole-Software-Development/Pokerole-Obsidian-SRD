@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: ATHLETIC
+Accuracy1: Dexterity
+Accuracy2: Athletic
 Damage1: ''
 Damage2: ''
 Description: The user reacts instinctively and defends itself and its teammates, nullifying
   the effects of the fastest attacks.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Priority 3. Shield Move. This move will only protect against Damaging Moves
   with "Priority". Reduce 3 Dice from the foe's Damage Pool. Negate the effects of
   support moves that target the User and Allies.
@@ -17,7 +17,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

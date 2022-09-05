@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user flies towards the foe from the sky in pure Lucha Libre style.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: When Dealing damage with this move, it counts as if this move was also Flying
   Type.
 Name: Flying Press
@@ -15,7 +15,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

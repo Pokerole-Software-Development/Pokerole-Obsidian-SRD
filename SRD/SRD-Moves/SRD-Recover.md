@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon concentrates on restoring its own cells faster than anything
   imaginable.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Basic Heal. If successful, spend 1 Will point to activate. May cure Lethal
   Damage.
 Name: Recover
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

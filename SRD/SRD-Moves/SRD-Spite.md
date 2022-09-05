@@ -1,10 +1,10 @@
 ---
-Accuracy1: WILL
-Accuracy2: INTIMIDATE
+Accuracy1: Will
+Accuracy2: Intimidate
 Damage1: ''
 Damage2: ''
 Description: The target feels overwhelmed by feelings of dread.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce Target's Will to 1 point temporarily. Reset any effects it got from
   spending Will Points.
 Name: Spite
@@ -15,7 +15,7 @@ Type: Ghost
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

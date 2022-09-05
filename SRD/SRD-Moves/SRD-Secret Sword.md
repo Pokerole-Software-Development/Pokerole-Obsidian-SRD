@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: An invisible wave cuts through the target, you can feel its sharp edge
   but you cannot see it.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Apply the foe's Defense instead of its Sp. Defense to resist Damage from this
   Move
 Name: Secret Sword
@@ -16,7 +16,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

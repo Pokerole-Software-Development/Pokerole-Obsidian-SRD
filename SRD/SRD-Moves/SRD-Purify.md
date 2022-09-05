@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon is covered by a gelatinous goo that can be used to treat
   several ailments, the Pokemon also uses it as a source of nourishment.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Heal a Target's Status Ailment. If you do then the user may heal 1 HP.
 Name: Purify
 Power: 0
@@ -15,7 +15,7 @@ Type: Poison
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

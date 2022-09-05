@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: Zygarde shoots a beam that fractures the target to its core, rendering
   it unable to sustain even the most basic of its traits.
-DmgType: SPECIAL
+DmgType: Special
 Effect: If successful and the target of this Move has already inflicted damage this
   Round, remove the Foe's Ability for the rest of the Scene. (Battle Bond, Comatose,
   Disguise, Multitype, Power Construct, RKS System, Schooling, Stance Change & Shields
@@ -18,7 +18,7 @@ Type: Dragon
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

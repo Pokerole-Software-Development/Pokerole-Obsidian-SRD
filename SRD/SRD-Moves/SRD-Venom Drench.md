@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: Foes are drenched in an odd poisonous liquid that targets their weakened
   immune systems.
-DmgType: SUPPORT
+DmgType: Support
 Effect: If an affected foe is poisoned or becomes poisoned in the same Round you used
   this Move then Reduce its Strength, Special, and Dexterity.
 Name: Venom Drench
@@ -16,7 +16,7 @@ Type: Poison
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

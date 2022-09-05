@@ -1,11 +1,11 @@
 ---
-Accuracy1: COOL
-Accuracy2: PERFORM
+Accuracy1: Cool
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The user points a focused light onto one of its allies as if it were
   on a stage, the ally can't help but catch everyone's attention into itself.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Priority 3. Foes will target One Ally this turn.
 Name: Spotlight
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

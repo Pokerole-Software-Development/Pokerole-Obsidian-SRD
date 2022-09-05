@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: PERFORM
+Accuracy1: Dexterity
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The Pokemon makes a dance that raises its battle spirit.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Strength by 2.
 Name: Swords Dance
 Power: 0
@@ -14,7 +14,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

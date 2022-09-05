@@ -1,11 +1,11 @@
 ---
-Accuracy1: COOL
-Accuracy2: ETIQUETTE
+Accuracy1: Cool
+Accuracy2: Etiquette
 Damage1: ''
 Damage2: ''
 Description: The Pokemon respectfully offers an item, the target will take it and
   keep it to be polite.
-DmgType: SUPPORT
+DmgType: Support
 Effect: If target is not holding an Item, the User gives its own.
 Name: Bestow
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

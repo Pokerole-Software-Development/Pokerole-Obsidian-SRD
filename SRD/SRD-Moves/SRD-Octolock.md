@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
+Accuracy1: Strength
+Accuracy2: Brawl
 Damage1: ''
 Damage2: ''
 Description: The user wraps its tentacles to immobilize the foe. Being so close enables
   the user to find weak spots.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Block. Reduce the foe's Defense and Sp. Defense.
 Name: Octolock
 Power: 0
@@ -15,7 +15,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

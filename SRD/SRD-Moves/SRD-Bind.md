@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its body to bind the foe, restraining and squeezing
   it.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Block. Deal 2 dice of damage at the end of each Round. Lasts 4 Rounds. -2
   Accuracy.
 Name: Bind
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

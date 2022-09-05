@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user scatters powder around, anyone who comes in contact with it
   will fall asleep.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Put the Target to Sleep. -2 Accuracy.
 Name: Sleep Powder
 Power: 0
@@ -15,7 +15,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

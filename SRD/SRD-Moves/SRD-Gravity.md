@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The gravity is intensified, bringing everyone to their knees. Flying
   pokemon are slammed to the ground.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Flying and Levitating Pokemon can be hit by Ground Type Moves. Lasts 4 Rounds.
 Name: Gravity
 Power: 0
@@ -15,7 +15,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

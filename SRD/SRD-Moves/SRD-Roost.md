@@ -1,10 +1,10 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses its action to land on the ground and relax.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Basic Heal. Until the User's next action this Pokemon will be vulnerable to
   Ground Type moves.
 Name: Roost
@@ -15,7 +15,7 @@ Type: Flying
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: PERFORM
-Damage1: SPECIAL
+Accuracy1: Insight
+Accuracy2: Perform
+Damage1: Special
 Damage2: ''
 Description: The Pokemon viciously snarls showing its teeth. Its menacing look will
   make the foe cower in fear.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Sound Based. Reduce the foe's Special.
 Name: Snarl
 Power: 2
@@ -15,7 +15,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

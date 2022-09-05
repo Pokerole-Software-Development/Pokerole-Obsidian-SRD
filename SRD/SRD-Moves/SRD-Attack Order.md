@@ -1,11 +1,11 @@
 ---
-Accuracy1: TOUGH
-Accuracy2: NATURE
-Damage1: STRENGTH
+Accuracy1: Tough
+Accuracy2: Nature
+Damage1: Strength
 Damage2: ''
 Description: The user calls upon her swarm and heeds them to charge against you. No
   matter where you run, they will surround you. Hope you are not allergic to bees.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: High Critical. Ranged.
 Name: Attack Order
 Power: 3
@@ -15,7 +15,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

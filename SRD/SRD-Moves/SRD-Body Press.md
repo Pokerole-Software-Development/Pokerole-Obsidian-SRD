@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: VITALITY
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Vitality
 Damage2: ''
 Description: The Pokemon makes a judo maneuver, using its body mass instead of its
   strength against the target.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: '-'
 Name: Body Press
 Power: 3
@@ -15,7 +15,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

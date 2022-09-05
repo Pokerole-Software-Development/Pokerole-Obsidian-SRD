@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: PERFORM
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Perform
+Damage1: Special
 Damage2: ''
 Description: The Pokemon uses its wings or part of its body to emit sound waves that
   harm and affect the target.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Sound Based. Roll 1 Chance Dice to reduce foe's Sp. Defense.
 Name: Bug Buzz
 Power: 3
@@ -15,7 +15,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

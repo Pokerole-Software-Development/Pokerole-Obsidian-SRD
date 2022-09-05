@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: CHANNEL
+Accuracy1: Insight
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon mentalizes itself stronger than anyone. They feel good. They
   can win. They. Can. Do. This.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Copy the Target's Attribute and Trait Modifiers and keep them until the end
   of the scene.
 Name: Psych Up
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

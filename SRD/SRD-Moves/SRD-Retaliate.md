@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: A powerful attack. It will be even stronger if the user just suffered
   a great loss.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If an ally fainted during this or the last Round, add 3 Extra Dice to the
   Damage Pool. This effect can only be used once per Ally.
 Name: Retaliate
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

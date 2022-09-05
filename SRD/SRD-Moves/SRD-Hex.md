@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user casts a terrible hex over the target, the effects will be greater
   if the target is vulnerable.
-DmgType: SPECIAL
+DmgType: Special
 Effect: If the Target is affected by a Status Ailment add 2 Extra Dice to the Damage
   Pool.
 Name: Hex
@@ -16,7 +16,7 @@ Type: Ghost
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

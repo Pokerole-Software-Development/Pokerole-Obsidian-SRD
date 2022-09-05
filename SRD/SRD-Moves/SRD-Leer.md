@@ -1,11 +1,11 @@
 ---
-Accuracy1: TOUGH
-Accuracy2: INTIMIDATE
+Accuracy1: Tough
+Accuracy2: Intimidate
 Damage1: ''
 Damage2: ''
 Description: A vicious glare that will make any opponent doubt its own strength in
   battle.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce the Defense of those affected.
 Name: Leer
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

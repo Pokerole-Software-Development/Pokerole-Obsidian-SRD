@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon hurls a metal bomb that is attracted to the target like a
   magnet. The moment it touches the foe, it will explode.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ranged. Never Fail.
 Name: Magnet Bomb
 Power: 2
@@ -15,7 +15,7 @@ Type: Steel
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

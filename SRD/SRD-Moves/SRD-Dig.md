@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user digs a tunnel on the ground and attacks while coming out from
   below.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Charge Move. While charging this move, the User will be out of range. Can
   be hit by Earthquake, Magnitude, or a similar move.
 Name: Dig
@@ -16,7 +16,7 @@ Type: Ground
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

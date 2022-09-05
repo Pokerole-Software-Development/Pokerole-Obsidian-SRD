@@ -1,11 +1,11 @@
 ---
-Accuracy1: VITALITY
-Accuracy2: NATURE
+Accuracy1: Vitality
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user falls asleep. During this period the body benefits from a super
   accelerated healing process.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Complete Heal. If successful spend 1 Will point to activate. The User must
   Sleep for a whole Round (from Round Start to Round End).
 Name: Rest
@@ -16,7 +16,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

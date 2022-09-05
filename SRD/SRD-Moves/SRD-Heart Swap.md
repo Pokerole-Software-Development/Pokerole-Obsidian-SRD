@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: ALLURE
+Accuracy1: Insight
+Accuracy2: Allure
 Damage1: ''
 Damage2: ''
 Description: The user and the target swap their feelings of powerr and weakness, insecurity
   and courage, love and hate. Boosts are also swapped.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Switch any Trait Increase/Decrease with the target.
 Name: Heart Swap
 Power: 0
@@ -15,7 +15,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

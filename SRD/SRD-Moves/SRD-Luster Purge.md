@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user engulfs itself in a blinding light and shoots a beam at its
   foe. This light leaves the foe powerless to resist against anyone.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 5 Chance Dice to Reduce the foe's Sp. Defense. This Effect can be repeated
   up to 3 times per Target.
 Name: Luster Purge
@@ -16,7 +16,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

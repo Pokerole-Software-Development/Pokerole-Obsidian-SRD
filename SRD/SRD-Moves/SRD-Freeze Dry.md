@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user freezes all moisture in the environment, water type Pokemon
   suffer greatly.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Water type Pokemon are dealt 2 Extra Damage.
 Name: Freeze Dry
 Power: 3
@@ -15,7 +15,7 @@ Type: Ice
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

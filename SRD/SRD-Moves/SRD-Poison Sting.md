@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Strength
 Damage2: ''
 Description: The user shoots a small sting that injects venom into the foe.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ranged. Roll 3 Chance Dice to Poison the Target.
 Name: Poison Sting
 Power: 1
@@ -14,7 +14,7 @@ Type: Poison
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

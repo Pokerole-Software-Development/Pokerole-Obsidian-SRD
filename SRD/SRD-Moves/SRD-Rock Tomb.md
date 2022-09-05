@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon covers the foe in gravel and rocks, leaving it unable to
   move freely.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ranged. Reduce Foe's Dexterity. -1 Accuracy.
 Name: Rock Tomb
 Power: 2
@@ -15,7 +15,7 @@ Type: Rock
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

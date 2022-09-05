@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user calls other Pokemon to aid it in battle, together they give
   a beating to the foe.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If the attack is successful, add 2 Dice of Damage for every ally Pokemon that
   spends an action to help the user perform this move. Up to 3 allies may join.
 Name: Beat Up
@@ -16,7 +16,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user can manipulate objects and creatures with his mind. Pokemon
   and humans become easier to hit because their movements are restrained.
-DmgType: SUPPORT
+DmgType: Support
 Effect: All attacks against the target have "Never Fail". The target is immune to
   Ground Moves. Lasts 2 Rounds.
 Name: Telekinesis
@@ -16,7 +16,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

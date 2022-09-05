@@ -1,12 +1,12 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: Shaymin releases an explosion of pollen and seeds that the foe cannot
   shake off, leaving it vulnerable. Over time, these seeds will grow into gigantic
   trees of life.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Lethal. Roll 4 Chance Dice to Reduce the foe's Sp. Defense by 2.
 Name: Seed Flare
 Power: 5
@@ -16,7 +16,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

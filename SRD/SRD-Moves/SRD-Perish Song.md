@@ -1,11 +1,11 @@
 ---
-Accuracy1: BEAUTY
-Accuracy2: PERFORM
+Accuracy1: Beauty
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: A song of mourning and despair that resonates on the minds of anyone
   who listens. Makes you feel like you are on your death bed.
-DmgType: SUPPORT
+DmgType: Support
 Effect: After three rounds, if any Pokemon who heard the song is not removed from
   battle, it will receive its remaining HP as damage. Sound Based.
 Name: Perish Song
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

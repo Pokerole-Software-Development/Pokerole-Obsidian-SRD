@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user curls up and rolls at full speed to strike the foe. It may leave
   the target swatted on the ground.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll 3 Chance Dice to Flinch the foe.
 Name: Steamroller
 Power: 2
@@ -15,7 +15,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon dashes at great speed using the rocks on its body to strike
   its foe upon impact.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Priority 1.
 Name: Accelerock
 Power: 2
@@ -15,7 +15,7 @@ Type: Rock
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

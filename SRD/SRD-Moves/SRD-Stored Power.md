@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: This move allows the user to release its power. If the user has any boosts,
   the damage is increased.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Add 1 Extra Dice of Damage for each Increased attribute the user has (ie.
   Clefairy has 1 Increased Point in Defense and 1 Evasion. Stored Power will have
   2 Extra Dice on the Damage Pool). Up to 7 Dice may be added.
@@ -17,7 +17,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

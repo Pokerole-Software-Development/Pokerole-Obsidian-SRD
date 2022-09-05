@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon produces a sap from the tart apples it feeds on, if the apples,
   this sap is acidic and bad for your teeth.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Reduce the Foe's Sp. Defense.
 Name: Apple Acid
 Power: 3
@@ -15,7 +15,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon delivers a strike covered in ice. The user's hands can freeze
   anything they touch.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Fist Based. Roll 1 Chance Dice to Freeze the foe.
 Name: Ice Punch
 Power: 3
@@ -15,7 +15,7 @@ Type: Ice
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

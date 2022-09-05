@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
-Damage2: HAPPINESS
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
+Damage2: Happiness
 Description: The User lets out its energy in the form of a lightning strike, the happier
   the user feels the more energized it will be.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Add 1 Die to the Damage Roll for every point of Happiness on the User. If
   the user of this Move is at its Final Stage of Evolution, this move fails.
 Name: Pika Papow
@@ -16,7 +16,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

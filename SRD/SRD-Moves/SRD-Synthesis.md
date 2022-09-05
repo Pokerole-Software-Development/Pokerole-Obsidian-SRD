@@ -1,10 +1,10 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses the sunlight as energy to regain its vitality.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Basic Heal. If Successful spend 1 Will point to activate. If performed under
   Sunny weather this Move is a Complete Heal. If Rain/Sandstorm Weather is in effect
   this move only heals 1 HP.
@@ -16,7 +16,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

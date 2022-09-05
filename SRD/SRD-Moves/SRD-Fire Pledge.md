@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon chants to invoke the power of Fire. Its pledge is heard,
   then the flames consume everything around.
-DmgType: SPECIAL
+DmgType: Special
 Effect: All flammable plants and objects in the battlefield are covered in flames.
   Roll 1 Dice of Fire Damage at the end of every Round against everyone on the field.
 Name: Fire Pledge
@@ -16,7 +16,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

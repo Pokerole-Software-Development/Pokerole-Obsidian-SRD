@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon commands a tremendous lightning to strike a specific point
   on the ground. It's quite dangerous.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Lethal. Roll 3 Chance Dice to Paralyze foe. If performed under Sunny Weather,
   Accuracy becomes -3 instead. If performed under Rain Weather, Ignore this Moves
   Reduced Accuracy. -2 Accuracy.
@@ -17,7 +17,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

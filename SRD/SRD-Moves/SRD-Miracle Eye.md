@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: ALERT
+Accuracy1: Insight
+Accuracy2: Alert
 Damage1: ''
 Damage2: ''
 Description: The user's sight transcends the flesh and can look directly into the
   innermost mental pressence of everyone around. Hidden enemies can be detected.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The User may hit Dark Type Pokemon with Psychic Moves. The Pokemon ignores
   Evasion modifiers. Opponents can't reduce the User's Accuracy.
 Name: Miracle Eye
@@ -16,7 +16,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,10 +1,10 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon releases an aroma that its enemies will love.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Those affected cannot evade moves performed by the user. Attracts wild Pokemon
   if used outside of battle.
 Name: Sweet Scent
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

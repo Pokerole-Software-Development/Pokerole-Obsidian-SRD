@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Insight
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: Sometimes words hurt a lot more than blows. With this Move the Pokemon
   deals both.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If successful, reduce the Foe's Special.
 Name: Spirit Break
 Power: 2
@@ -15,7 +15,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user releases an addictive sweet-smelling steam, do not be fooled
   as it is toxic and has nasty side-effects.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 2 Chance Dice to Confuse the Foe.
 Name: Strange Steam
 Power: 3
@@ -15,7 +15,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

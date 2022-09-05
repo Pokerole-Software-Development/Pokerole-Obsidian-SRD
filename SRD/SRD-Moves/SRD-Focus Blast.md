@@ -1,10 +1,10 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user concentrates and releases a blast of energy.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 1 Chance Dice to Reduce foe's Sp. Defense. -2 Accuracy.
 Name: Focus Blast
 Power: 5
@@ -14,7 +14,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

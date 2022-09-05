@@ -1,11 +1,11 @@
 ---
-Accuracy1: WILL
-Accuracy2: CHANNEL
+Accuracy1: Will
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user unleashes all its remaining power to send a wave of hopeless
   thoughts to haunt the foe's mind and soul. The target will be left in grief.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The user faints. Reduce foe's Strength. Dexterity. Special. Defense and Sp.
   Defense by 2. Lasts for a whole scene.
 Name: Memento
@@ -16,7 +16,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

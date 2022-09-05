@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
+Accuracy1: Dexterity
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon sheds pieces and starts rotating other parts of its body
   for easier and lighter movement.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Dexterity by 2. User's weight is halved for the rest of
   Scene.
 Name: Autotomize
@@ -16,7 +16,7 @@ Type: Steel
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

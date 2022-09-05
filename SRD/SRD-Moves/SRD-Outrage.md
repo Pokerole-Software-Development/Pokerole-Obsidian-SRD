@@ -1,12 +1,12 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user awakens their primal instinct as a dragon and unleashes its
   uncontrollable fury, destroying everything in its path. After that, the Pokemon
   is left disoriented and confused.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Rampage.
 Name: Outrage
 Power: 5
@@ -16,7 +16,7 @@ Type: Dragon
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

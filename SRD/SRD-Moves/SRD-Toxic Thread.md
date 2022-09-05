@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
+Accuracy1: Dexterity
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user shoots a sticky thread that entangles around the foe, the thread
   is also laced with a potent toxin that will poison the foe on contact.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce Foe's Dexterity. Poison the Foe.
 Name: Toxic Thread
 Power: 0
@@ -15,7 +15,7 @@ Type: Poison
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

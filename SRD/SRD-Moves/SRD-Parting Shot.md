@@ -1,11 +1,11 @@
 ---
-Accuracy1: TOUGH
-Accuracy2: INTIMIDATE
+Accuracy1: Tough
+Accuracy2: Intimidate
 Damage1: ''
 Damage2: ''
 Description: The user threatens the foe, leaving it too scared to pursuit the user
   or overwhelm the ally that just switched in the battlefield.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce foe's Strength and Special. The user switches out, the new Pokemon
   arrives ready to fight. Roll for its initiative. Switcher Move.
 Name: Parting Shot
@@ -16,7 +16,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

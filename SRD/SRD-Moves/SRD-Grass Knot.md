@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user snares the target's feet with grass, making it fall to the ground.
   The bigger the foe the harder the fall.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Add 1 Extra Dice to the Damage Pool for every 50 kgs. of weight on the foe,
   up to +4 Extra Dice.
 Name: Grass Knot
@@ -16,7 +16,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

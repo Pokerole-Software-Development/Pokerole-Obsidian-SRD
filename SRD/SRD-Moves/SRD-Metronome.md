@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: PERFORM
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Perform
+Damage1: Special
 Damage2: ''
 Description: The Pokemon waves its hands with rhythm. The energy around follows the
   cadence and manifests with an impressive attack.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll a dice to determine this move's power. The appearance and Type of this
   move are decided by the Storyteller.
 Name: Metronome
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,10 +1,10 @@
 ---
-Accuracy1: WILL
-Accuracy2: CHANNEL
+Accuracy1: Will
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user enters the target's dream to torment it.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Will only work if the Target is asleep. Deal 1 Damage to the foe. Deal 1 Damage
   again at the beginning of each Round if the target is still asleep.
 Name: Nightmare
@@ -15,7 +15,7 @@ Type: Ghost
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

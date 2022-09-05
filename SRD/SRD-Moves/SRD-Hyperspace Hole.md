@@ -1,12 +1,12 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Insight
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user knows the laws of physics bind it from being in many places
   at once and forbid it from occupying the same space as other bodies. It just disregards
   their authority.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Ignore Defenses. Never Miss. This Move Bypasses the effects of any Shield
   Move effect on the foe.
 Name: Hyperspace Hole
@@ -17,7 +17,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

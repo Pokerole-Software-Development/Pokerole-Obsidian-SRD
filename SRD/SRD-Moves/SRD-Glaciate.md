@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The air is so cold it hurts to move, to see, to breath. Escaping should
   be your top priority, for every second you don't your life will be at peril.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Lethal. All Foes in Range. Reduce the Dexterity of those affected.
 Name: Glaciate
 Power: 2
@@ -15,7 +15,7 @@ Type: Ice
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

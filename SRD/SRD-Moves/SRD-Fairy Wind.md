@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon strikes with a wind covered in fairy dust. It causes itching.
-DmgType: SPECIAL
+DmgType: Special
 Effect: '-'
 Name: Fairy Wind
 Power: 2
@@ -14,7 +14,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

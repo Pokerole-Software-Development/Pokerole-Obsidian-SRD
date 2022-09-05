@@ -1,12 +1,12 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon chants to invoke the power of Water. Moisture in the air
   bends the light to create an inspiring rainbow. Everyone in the field is sure to
   give its best.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Creates a rainbow that adds 2 Dice to all Chance Dice rolls. This effect lasts
   4 turns.
 Name: Water Pledge
@@ -17,7 +17,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

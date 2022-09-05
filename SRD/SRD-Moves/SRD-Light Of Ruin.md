@@ -1,12 +1,12 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: By drawing energy from the Eternal Flower, the Pokemon unleashes all
   of its hurt. A beautiful light surrounds the area, yet the pain inside of its heart
   remains.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Lethal. Recoil. -1 Accuracy.
 Name: Light Of Ruin
 Power: 6
@@ -16,7 +16,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: A swift punch to the jaw that spins the target and may leave it quite
   dizzy and disoriented.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll 2 Chance Dice to Confuse the foe. Fist Based.
 Name: Dizzy Punch
 Power: 3
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

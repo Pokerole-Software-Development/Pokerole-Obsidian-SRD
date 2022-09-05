@@ -1,12 +1,12 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: Teleport the user and one more creature to a place of tranquility and
   high psychic resonance such as Pokemon Centers. Ceilings and walls block this move
   from working.
-DmgType: SUPPORT
+DmgType: Support
 Effect: In the wild, the battle ends. In official battles, it counts as the Pokemon
   being recalled. Teleportation distances depend on Special and Storyteller's discretion.
 Name: Teleport
@@ -17,7 +17,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: ATHLETIC
+Accuracy1: Dexterity
+Accuracy2: Athletic
 Damage1: ''
 Damage2: ''
 Description: The user relaxes and lightens its body to move faster.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Dexterity by 2.
 Name: Agility
 Power: 0
@@ -14,7 +14,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

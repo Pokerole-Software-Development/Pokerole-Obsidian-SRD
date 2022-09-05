@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user gives a hard peck and may get something tasty out of the foe.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If the Target is holding a Berry, the User eats it and gains its effects.
 Name: Pluck
 Power: 2
@@ -14,7 +14,7 @@ Type: Flying
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

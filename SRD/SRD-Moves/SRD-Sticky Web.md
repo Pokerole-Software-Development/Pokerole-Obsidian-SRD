@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon quickly covers the arena with a sticky web, newly arrived
   foes will have trouble moving with ease.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Entry Hazard. Foe Pokemon that enter the battlefield get a Dexterity Reduction
   of 1. Pokemon with the Levitate ability and Flying Type Pokemon are immune to this
   effect.
@@ -17,7 +17,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

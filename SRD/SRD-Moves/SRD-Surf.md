@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: A giant wave of water sweeps the area while the user swims on top of
   it.
-DmgType: SPECIAL
+DmgType: Special
 Effect: '-'
 Name: Surf
 Power: 3
@@ -15,7 +15,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

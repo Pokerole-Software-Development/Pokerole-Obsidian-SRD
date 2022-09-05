@@ -1,12 +1,12 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon summons a huge swarm of bugs to prevent the foe from escaping.
   Sometimes the swarm may take a hit to the foe. The call extends for hundreds of
   yards.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Blocks. Roll 2 Dice of Damage against the foe at the end of each Round. Lasts
   4 Rounds.
 Name: Infestation
@@ -17,7 +17,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

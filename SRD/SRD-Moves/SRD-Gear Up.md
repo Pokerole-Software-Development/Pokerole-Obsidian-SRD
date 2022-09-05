@@ -1,11 +1,11 @@
 ---
-Accuracy1: VITALITY
-Accuracy2: CHANNEL
+Accuracy1: Vitality
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user engages its gears on an ally to leave the ally's body working
   like a welloiled machine.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the Strength and Special of one Steel-Type or Electric-Type Ally.
 Name: Gear Up
 Power: 0
@@ -15,7 +15,7 @@ Type: Steel
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,10 +1,10 @@
 ---
-Accuracy1: COOL
-Accuracy2: ETIQUETTE
+Accuracy1: Cool
+Accuracy2: Etiquette
 Damage1: ''
 Damage2: ''
 Description: The user bows and courteously lets an ally or foe use their action first.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The Target will go first in the order of Initiative. Lasts for the rest of
   this Battle.
 Name: After You
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

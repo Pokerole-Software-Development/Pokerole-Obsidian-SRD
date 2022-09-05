@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: ALLURE
+Accuracy1: Insight
+Accuracy2: Allure
 Damage1: ''
 Damage2: ''
 Description: Employ a hypnotic suggestion to make the target feel drowsy and fall
   into a deep slumber. Works better on a target that is not in danger.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Put the target to sleep. Dark-Type Pokemon are affected by this move. -4 Accuracy.
 Name: Hypnosis
 Power: 0
@@ -15,7 +15,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

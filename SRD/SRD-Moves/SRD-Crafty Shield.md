@@ -1,12 +1,12 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon creates a magic shield to protect everyone from the bad tricks
   a foe might have under its sleeve. Under this shield, everyone can see dishonesty
   and bad intentions.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Priority 3. The User and its Allies are protected from the effects of a Support
   Move. Shield.
 Name: Crafty Shield
@@ -17,7 +17,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

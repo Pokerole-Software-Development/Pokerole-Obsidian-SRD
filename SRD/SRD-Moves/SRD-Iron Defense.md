@@ -1,11 +1,11 @@
 ---
-Accuracy1: VITALITY
-Accuracy2: CHANNEL
+Accuracy1: Vitality
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon hardens its body surface as if it was made from the strongest
   iron around.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Defense by 2.
 Name: Iron Defense
 Power: 0
@@ -15,7 +15,7 @@ Type: Steel
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

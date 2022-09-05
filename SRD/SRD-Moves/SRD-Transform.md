@@ -1,11 +1,11 @@
 ---
-Accuracy1: WILL
-Accuracy2: CHANNEL
+Accuracy1: Will
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user modifies its own DNA structure to become an identical clone
   of any Pokemon or object it can see.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The user transforms into a copy of its target with same Ability, Attributes,
   Trait Modifiers, and Moves. Being inside a Pokeball breaks the Transformation.
 Name: Transform
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

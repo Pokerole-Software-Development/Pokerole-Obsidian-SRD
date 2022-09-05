@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: A long stream of bubbles hits the foe, the bubble foam may prevent the
   target from moving freely.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 1 Chance Dice to Reduce the foe's Dexterity.
 Name: Bubble Beam
 Power: 3
@@ -15,7 +15,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

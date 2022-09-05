@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon will raise the temperature along with the sun, it doesn't
   work at night, indoors, underground, or underwater.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Sunny Weather is activated for the next 4 Rounds.
 Name: Sunny Day
 Power: 0
@@ -15,7 +15,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

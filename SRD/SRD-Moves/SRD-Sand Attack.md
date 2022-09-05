@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
+Accuracy1: Dexterity
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user shoots some sand into the opponent's eyes.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce the foe's Accuracy.
 Name: Sand Attack
 Power: 0
@@ -14,7 +14,7 @@ Type: Ground
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

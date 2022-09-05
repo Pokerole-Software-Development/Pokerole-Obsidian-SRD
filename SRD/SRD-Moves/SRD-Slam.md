@@ -1,12 +1,12 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user slams the foe with its tail, vines, etc. to deal a decent amount
   of damage.
-DmgType: PHYSICAL
-Effect: ' -2 Accuracy.'
+DmgType: Physical
+Effect: -2 Accuracy.
 Name: Slam
 Power: 3
 Target: Foe
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

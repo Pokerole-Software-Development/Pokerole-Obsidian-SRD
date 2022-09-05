@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon starts attacking at full force with its claws, anyone unfortunate
   enough to be in its path will end up severely wounded.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Lethal. Target all Foes in range.
 Name: Brutal Swing
 Power: 2
@@ -15,7 +15,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

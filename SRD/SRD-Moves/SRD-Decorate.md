@@ -1,11 +1,11 @@
 ---
-Accuracy1: BEAUTY
-Accuracy2: NATURE
+Accuracy1: Beauty
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: Using some frosting the Pokemon decorates their target to look bigger,
   more powerful, and incredibly delicious!
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the Strength and Special of One Ally by 2
 Name: Decorate
 Power: 0
@@ -15,7 +15,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

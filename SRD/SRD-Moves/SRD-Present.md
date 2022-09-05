@@ -1,11 +1,11 @@
 ---
-Accuracy1: CUTE
-Accuracy2: ALLURE
+Accuracy1: Cute
+Accuracy2: Allure
 Damage1: ''
 Damage2: ''
 Description: The user approaches its foe and gives it a lovely present that may be
   nice or may be a prank.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll dice with a 50-50 chance of dealing 2 set damage to the target or recovering
   2 HP to the target. -1 Accuracy.
 Name: Present
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

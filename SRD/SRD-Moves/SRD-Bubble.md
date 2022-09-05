@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: A spray of bubbles flies around the enemies, some of the bubbles stick
   to their bodies hindering their movement.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Target all foes in range. Roll 1 Chance Dice to Reduce the Dexterity of those
   affected.
 Name: Bubble
@@ -16,7 +16,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

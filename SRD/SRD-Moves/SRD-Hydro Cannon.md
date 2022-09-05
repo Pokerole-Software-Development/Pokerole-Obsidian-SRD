@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon blasts the foe with a water surge that could bring down a
   house. The user needs to res afterwards.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Must Recharge. -1 Accuracy.
 Name: Hydro Cannon
 Power: 6
@@ -15,7 +15,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

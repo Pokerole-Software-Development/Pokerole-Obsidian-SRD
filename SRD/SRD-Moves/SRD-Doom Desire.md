@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: ALLURE
-Damage1: SPECIAL
+Accuracy1: Insight
+Accuracy2: Allure
+Damage1: Special
 Damage2: ''
 Description: Be careful what you wish for, this Pokemon will read your most intimate
   wishes and make them come true in very twisted ways.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Strikes at the end of the Round after the next. Bypass Shield Moves and Cover.
   If the target retires or switches out from battle, the damage will be dealt to the
   next opponent or to one of its allies. Extra effects may be added at Storyteller's
@@ -18,7 +18,7 @@ Type: Steel
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

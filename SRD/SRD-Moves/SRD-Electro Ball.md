@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon creates a small electricity orb that is hurled at the target.
   If the user is faster, the impact will be bigger.
-DmgType: SPECIAL
+DmgType: Special
 Effect: The user adds 1 Dice to the Damage Pool for every Dexterity point the User
   has that surpasses the foe's. Up to 4 Dice may be added.
 Name: Electro Ball
@@ -16,7 +16,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

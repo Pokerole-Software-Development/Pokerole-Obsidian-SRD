@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user swings both of its arms against the target, there's no armor
   thick enough to stop the strike.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ignore the the foe's Attribute Increases that would decrease this Move's damage.
 Name: Darkest Lariat
 Power: 3
@@ -15,7 +15,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

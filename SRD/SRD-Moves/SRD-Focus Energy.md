@@ -1,10 +1,10 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: CHANNEL
+Accuracy1: Insight
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon's energy is raised to make all strikes much more precise.
-DmgType: SUPPORT
+DmgType: Support
 Effect: All of the user's damage moves now have High Critical. This effect lasts until
   end of scene or the user is removed from battle.
 Name: Focus Energy
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

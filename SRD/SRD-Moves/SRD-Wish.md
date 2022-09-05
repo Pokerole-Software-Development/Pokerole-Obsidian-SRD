@@ -1,10 +1,10 @@
 ---
-Accuracy1: WILL
-Accuracy2: CHANNEL
+Accuracy1: Will
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon makes a wish with all its might and somehow it becomes true.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Basic Heal. If successful spend 1 Will point to activate. The move has its
   effect at the beginning of the next round.
 Name: Wish
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

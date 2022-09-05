@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: STEALTH
+Accuracy1: Insight
+Accuracy2: Stealth
 Damage1: ''
 Damage2: ''
 Description: The user quickly switches the held items before the foe can realize what
   happened.
-DmgType: SUPPORT
+DmgType: Support
 Effect: User and Foe switch their Held Item. If only one Pokemon is holding an item
   it gives it away.
 Name: Switcheroo
@@ -16,7 +16,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

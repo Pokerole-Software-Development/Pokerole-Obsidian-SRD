@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
+Accuracy1: Dexterity
+Accuracy2: Brawl
 Damage1: ''
 Damage2: ''
 Description: The user anticipates the next attack so it can hit the target with an
   astounding speed.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Priority 1. The User copies and uses the Move the target was intending to
   use. It must be a damaging Move.
 Name: Me First
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

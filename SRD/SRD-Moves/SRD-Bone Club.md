@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user hits the target with a bone, the smack may leave a bump on the
   target's head.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll 2 Chance Dice to Flinch the Foe. -2 Accuracy.
 Name: Bone Club
 Power: 2
@@ -15,7 +15,7 @@ Type: Ground
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

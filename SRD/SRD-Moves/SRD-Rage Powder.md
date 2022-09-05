@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: INTIMIDATE
+Accuracy1: Insight
+Accuracy2: Intimidate
 Damage1: ''
 Damage2: ''
 Description: The Pokemon releases an irritating powder that annoys and enrages foes
   into attacking.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Priority 2. During this Round, all damage moves from any foe must target the
   User.
 Name: Rage Powder
@@ -16,7 +16,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

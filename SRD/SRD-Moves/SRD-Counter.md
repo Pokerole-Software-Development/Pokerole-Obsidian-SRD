@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: BRAWL
+Accuracy1: Insight
+Accuracy2: Brawl
 Damage1: ''
 Damage2: ''
 Description: The user prepares to receive damage, then returns the same damage and
   more.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: This Move can only deal damage if the Foe has dealt Physical Damage to the
   User this Round. Roll the same Damage Pool as your Foe plus 2 Extra Dice. Ignore
   the foe's Defenses.
@@ -17,7 +17,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

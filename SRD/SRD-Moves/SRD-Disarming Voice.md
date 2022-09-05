@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: PERFORM
-Damage1: SPECIAL
+Accuracy1: Insight
+Accuracy2: Perform
+Damage1: Special
 Damage2: ''
 Description: With a charming and manipulative cry, the user deals emotional damage
   to its opponent. This move always makes the target feel bad.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Sound Based. Never Fail. Targets All foes in range.
 Name: Disarming Voice
 Power: 2
@@ -15,7 +15,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,12 +1,12 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: A dark wind rises, turning everything it touches into dust to be scattered
   until nothing remains. People, Pokemon, plants, everything fades until a distant
   memory.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Lethal. High Critical.
 Name: Oblivion Wing
 Power: 4
@@ -16,7 +16,7 @@ Type: Flying
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

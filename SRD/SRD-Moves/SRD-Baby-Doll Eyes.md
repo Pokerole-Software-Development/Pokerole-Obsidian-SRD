@@ -1,11 +1,11 @@
 ---
-Accuracy1: CUTE
-Accuracy2: ALLURE
+Accuracy1: Cute
+Accuracy2: Allure
 Damage1: ''
 Damage2: ''
 Description: Before anyone acts in battle, the user looks at the foe with the cutest
   eyes.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Priority 1. Reduce foe's Strength.
 Name: Baby-Doll Eyes
 Power: 0
@@ -15,7 +15,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

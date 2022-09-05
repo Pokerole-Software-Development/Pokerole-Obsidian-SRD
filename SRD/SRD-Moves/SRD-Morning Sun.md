@@ -1,11 +1,11 @@
 ---
-Accuracy1: VITALITY
-Accuracy2: NATURE
+Accuracy1: Vitality
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The sun shines brightly on the Pokemon and makes it feel rejuvenated
   like early in the morning.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Basic Heal. If successful spend 1 Will point to activate. Complete Heal during
   Sunny Weather. If Rain/Sandstorm Weather is in effect or it's night or you are indoors/underground
   this move only heals 1 HP.
@@ -17,7 +17,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user creates a flower crown that heals and relaxes its wearer. Under
   the right conditions this move also creates a flower patch around its target.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Basic Heal. If performed over Grassy Terrain this move is a Complete Heal.
 Name: Floral Healing
 Power: 0
@@ -15,7 +15,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

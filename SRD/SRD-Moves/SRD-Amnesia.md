@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: ALERT
+Accuracy1: Insight
+Accuracy2: Alert
 Damage1: ''
 Damage2: ''
 Description: As a fine example of mind over matter, the user temporarily empties its
   mind to make it more resilient.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Sp. Defense by 2.
 Name: Amnesia
 Power: 0
@@ -15,7 +15,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

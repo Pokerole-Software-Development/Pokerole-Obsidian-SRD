@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
-Damage2: HAPPINESS
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
+Damage2: Happiness
 Description: If the Pokemon is treated with care and love, it will return that affection
   by giving all it's got in battle.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Add 1 Dice to the Damage Roll for every point of Happiness on the User.
 Name: Return
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user quickly strikes the foe with a bone, one blow after another.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Successive Actions. -1 Accuracy.
 Name: Bone Rush
 Power: 1
@@ -14,7 +14,7 @@ Type: Ground
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

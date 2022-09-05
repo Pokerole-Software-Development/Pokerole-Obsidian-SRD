@@ -1,10 +1,10 @@
 ---
-Accuracy1: WILL
-Accuracy2: CHANNEL
+Accuracy1: Will
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon takes a few seconds to cool down and get back in the game.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The User cure itself from Poison, Burn, or Paralysis.
 Name: Refresh
 Power: 0
@@ -14,7 +14,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user fills its mouth with dirt and spits a torrent of mud at the
   foes. This mud may get in the eyes of the enemies.
-DmgType: SPECIAL
+DmgType: Special
 Effect: All Foes in Range. Roll 3 Chance Dice to Reduce the Accuracy of those affected.
   -2 Accuracy.
 Name: Muddy Water
@@ -16,7 +16,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

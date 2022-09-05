@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its strong horn(s) to pierce its foe and deal massive
   damage.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Lethal Damage. -2 Accuracy.
 Name: Megahorn
 Power: 5
@@ -15,7 +15,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

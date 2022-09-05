@@ -1,11 +1,11 @@
 ---
-Accuracy1: VITALITY
-Accuracy2: BRAWL
+Accuracy1: Vitality
+Accuracy2: Brawl
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses its whole body to provide coverage and protection to
   its allies against an incoming attack.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Priority 3. Shield. Reduce 3 Damage the User and Allies would receive from
   a damaging move. Reduce to zero the set damage from a move the User and Allies would
   take.
@@ -17,7 +17,7 @@ Type: Rock
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

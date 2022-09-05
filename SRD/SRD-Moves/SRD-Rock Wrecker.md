@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: CHANNEL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Channel
+Damage1: Strength
 Damage2: ''
 Description: The user shoots a huge boulder as if it were a cannon ball that can even
   go through thick walls. This, however, requires a lot of energy from the user.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ranged. Must Recharge. Lethal. -1 Accuracy.
 Name: Rock Wrecker
 Power: 6
@@ -15,7 +15,7 @@ Type: Rock
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

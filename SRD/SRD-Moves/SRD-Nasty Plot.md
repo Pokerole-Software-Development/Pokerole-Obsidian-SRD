@@ -1,11 +1,11 @@
 ---
-Accuracy1: CLEVER
-Accuracy2: ALERT
+Accuracy1: Clever
+Accuracy2: Alert
 Damage1: ''
 Damage2: ''
 Description: The Pokemon starts plotting on how to defeat the enemy. Its evil laugh
   reveals the bad intentions.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the user's Special by 2.
 Name: Nasty Plot
 Power: 0
@@ -15,7 +15,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

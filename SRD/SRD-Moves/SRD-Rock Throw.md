@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Strength
 Damage2: ''
 Description: The user picks up a rock or pebble and throws it at the foe.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ranged. -1 Accuracy.
 Name: Rock Throw
 Power: 2
@@ -14,7 +14,7 @@ Type: Rock
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

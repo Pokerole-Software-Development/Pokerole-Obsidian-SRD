@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon grips the foe and starts crushing it. Small targets are difficult
   to grasp but larger bodies will not be released until they break.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Lethal. If the foe has a Base HP higher than 3, add 1 Die to the Damage pool
   for every exceeding point. Up to 9 Dice may be added this way
 Name: Crush Grip
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

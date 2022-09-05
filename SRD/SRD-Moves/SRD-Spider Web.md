@@ -1,10 +1,10 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: STEALTH
+Accuracy1: Insight
+Accuracy2: Stealth
 Damage1: ''
 Damage2: ''
 Description: The User quietly releases a web on the field. All foes will be trapped.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Blocks.
 Name: Spider Web
 Power: 0
@@ -14,7 +14,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

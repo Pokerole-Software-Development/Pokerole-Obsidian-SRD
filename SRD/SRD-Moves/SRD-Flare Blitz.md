@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user sets itself on fire, recklessly charging against the target
   with a brutal strike.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Recoil. Roll 1 Chance Dice to Apply Burn 3 to the foe.
 Name: Flare Blitz
 Power: 5
@@ -15,7 +15,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

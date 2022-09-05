@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: STEALTH
+Accuracy1: Dexterity
+Accuracy2: Stealth
 Damage1: ''
 Damage2: ''
 Description: The user lays a trap of scattered poison spikes that attach to the opponent's
   feet leaving them with a bad case of fever.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Foe Pokemon that enter the battlefield become Poisoned. Roll 1 Chance Dice
   for the Poison to become Badly Poisoned instead. Entry Hazard.
 Name: Toxic Spikes
@@ -16,7 +16,7 @@ Type: Poison
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

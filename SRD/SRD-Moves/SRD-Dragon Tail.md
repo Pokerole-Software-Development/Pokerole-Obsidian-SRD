@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: This Powerful tail strike can knockdown anyone up to 100 feet away!
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Low Priority 1. The target is hit and knocked back to its trainer, stunned.
   Forcing the trainer to send another Pokemon. In the wild the target is sent away.
   Switcher Move. -1 Accuracy.
@@ -16,7 +16,7 @@ Type: Dragon
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

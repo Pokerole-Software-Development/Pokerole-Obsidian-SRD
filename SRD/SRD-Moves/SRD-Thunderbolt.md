@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: A strong electric attack that shocks and harms the foe. It can destroy
   most kinds of electric equipment.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 1 Chance Dice to Paralyze the foe.
 Name: Thunderbolt
 Power: 3
@@ -15,7 +15,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: CUTE
-Accuracy2: ALLURE
+Accuracy1: Cute
+Accuracy2: Allure
 Damage1: ''
 Damage2: ''
 Description: The Pokemon tells a secret to the target. The foe loses its ability to
   concentrate.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce the foes' Special.
 Name: Confide
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

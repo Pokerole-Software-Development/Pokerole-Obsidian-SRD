@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user amplifies all electrically charged particles in the environment.
   The results are shocking!
-DmgType: SUPPORT
+DmgType: Support
 Effect: For the rest of the Scene, Normal Type Moves will deal damage as if they were
   Electric Type Moves.
 Name: Ion Deluge
@@ -16,7 +16,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

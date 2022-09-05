@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon calls upon the healing power of nature to grow a patch of
   miraculous grass on its side of the battlefield.
-DmgType: SUPPORT
+DmgType: Support
 Effect: If successful, spend 1 Will point to activate. Everyone in the user's side
   of the field heals 1 HP at the end of each round. Add 1 Extra Dice to the Damage
   Rolls of Grass Type Moves.
@@ -17,7 +17,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

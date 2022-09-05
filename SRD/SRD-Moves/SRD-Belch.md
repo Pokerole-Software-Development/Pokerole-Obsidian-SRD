@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user lets out a horrible belch on the target. The air contains toxins
   that deal a terrible damage.
-DmgType: SPECIAL
+DmgType: Special
 Effect: The user must eat something before using this Move. -1 Accuracy.
 Name: Belch
 Power: 5
@@ -15,7 +15,7 @@ Type: Poison
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

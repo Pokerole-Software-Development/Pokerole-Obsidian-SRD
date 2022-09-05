@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: While the foe is preparing its attack, the user takes advantage and strikes.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Priority 1. This move can only be used after the Target rolls a damaging move.
 Name: Sucker Punch
 Power: 3
@@ -14,7 +14,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

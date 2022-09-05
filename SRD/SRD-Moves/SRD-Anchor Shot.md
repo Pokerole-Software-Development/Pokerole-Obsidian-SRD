@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon hurls an anchor towards its foe and entangles it with seaweed,
   the anchor drags the foe down so it cannot escape.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ranged. Blocks.
 Name: Anchor Shot
 Power: 3
@@ -15,7 +15,7 @@ Type: Steel
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

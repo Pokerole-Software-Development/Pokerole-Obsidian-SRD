@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: This move absorbs the energy around the user. It may unleash that power
   in unexpected ways.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Inflicts abnormal effects. See Secret Power p.432 for more info.
 Name: Secret Power
 Power: 3
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

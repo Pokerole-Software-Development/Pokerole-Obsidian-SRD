@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user gathers power from the light of the moon, the energy absorbed
   can heal most injuries.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Basic Heal. If successful spend 1 Will point to activate. If performed at
   Night or Sunny Weather is in effect this move becomes a Complete Heal. If Rain/Sandstorm
   Weather is in effect this move only heals 1 HP
@@ -17,7 +17,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

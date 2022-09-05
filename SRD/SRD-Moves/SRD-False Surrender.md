@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: ALLURE
-Damage1: STRENGTH
+Accuracy1: Insight
+Accuracy2: Allure
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon bows in defeat, begging for forgiveness, then backstabs its
   gullible foe.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Never Fail.
 Name: False Surrender
 Power: 3
@@ -15,7 +15,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

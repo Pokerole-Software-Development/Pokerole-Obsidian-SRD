@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user strikes the foe with its hard head. Perfect for taking down
   fruits from trees or shake Pokemon out of their nests on treetops.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll 3 Chance Dice to Flinch. May call Random Encounters when hitting trees.
 Name: Headbutt
 Power: 3
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

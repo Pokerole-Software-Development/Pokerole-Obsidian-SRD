@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user manifests its mental power on the world, creating invisible
   walls and floors that prevent the passing of objects.
-DmgType: SUPPORT
+DmgType: Support
 Effect: User and Allies will receive 1 less Damage from Physical Attacks. Lasts 4
   Rounds.
 Name: Reflect
@@ -16,7 +16,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

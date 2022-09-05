@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: When everything else fails, the Pokemon gives everything in a last resort
   attack.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: It can be used only after the Pokemon has performed all its known moves at
   least once during the battle.
 Name: Last Resort
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user charges its fists with electricity, and upon impact the charge
   materializes into plasma that adds an electric element to all of its Normal moves.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Fist Based. If successful, all Normal-Type Moves of the user will be considered
   Electric Type until the end of the Scene.
 Name: Plasma Fists
@@ -16,7 +16,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

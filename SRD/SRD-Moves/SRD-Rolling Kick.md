@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user spins in the air landing an impressive kick that may daze the
   target.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll 3 Chance Dice to Flinch the Foe. -2 Accuracy.
 Name: Rolling Kick
 Power: 2
@@ -15,7 +15,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

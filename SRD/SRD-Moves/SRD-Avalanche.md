@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user builds up a lot of snow around itself. If anything disturbs
   the snow, it will fall on the attacker like an avalanche.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Low Priority 4. If the user received damage from the target this Round, Add
   2 Extra Dice to the Damage Pool.
 Name: Avalanche
@@ -16,7 +16,7 @@ Type: Ice
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

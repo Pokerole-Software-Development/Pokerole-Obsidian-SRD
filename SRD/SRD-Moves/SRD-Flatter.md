@@ -1,11 +1,11 @@
 ---
-Accuracy1: COOL
-Accuracy2: ALLURE
+Accuracy1: Cool
+Accuracy2: Allure
 Damage1: ''
 Damage2: ''
 Description: The user starts flattering and admiring its opponent. It sure makes it
   feel good about itself, but why?
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the foe's Special. Confuse foe.
 Name: Flatter
 Power: 0
@@ -15,7 +15,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: CLEVER
-Accuracy2: NATURE
+Accuracy1: Clever
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon munches its berry but keeps part of it on its cheeks. Looks
   adorable but it is actually a survival tactic to survive harsh winters.
-DmgType: SUPPORT
+DmgType: Support
 Effect: User eats its held Berry and gains its effects, afterwards, Increase user's
   Defense by 2.
 Name: Stuff Cheeks
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

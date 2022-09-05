@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The victim is trapped in a violently swirling vortex. The strong wind
   currents make debris fly everywhere.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Lethal. High Critical.
 Name: Aeroblast
 Power: 4
@@ -15,7 +15,7 @@ Type: Flying
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

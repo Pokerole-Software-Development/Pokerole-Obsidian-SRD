@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user convers its foe with a cloud of smoke. Some Pokemon hide inside
   this screen while others use it as a cover to escape.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce the foe's Accuracy.
 Name: Smokescreen
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

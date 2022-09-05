@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: PERFORM
+Accuracy1: Special
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The user chants an incantation to the skies. The beautiful performance
   grants this Pokemon and its allies divine protection.
-DmgType: SUPPORT
+DmgType: Support
 Effect: User and Allies in range can re-roll one un-successful die from all their
   rolls until the end of the scene. If an opponent would land a Critical Hit it doesn't.
   Outside of battle good things happen at the story tellers discretion.
@@ -17,7 +17,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: ATHLETIC
+Accuracy1: Dexterity
+Accuracy2: Athletic
 Damage1: ''
 Damage2: ''
 Description: The user cuts down the rough edges of its body to make it as sharp as
   a razor.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Strength.
 Name: Sharpen
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

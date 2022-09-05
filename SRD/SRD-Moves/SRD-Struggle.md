@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
+Accuracy1: Dexterity
 Accuracy2: BRAWL/CHANNEL
-Damage1: STRENGTH/SPECIAL
+Damage1: Strength/special
 Damage2: ''
 Description: ''
-DmgType: PHYSICAL/SPECIAL
+DmgType: Physical/special
 Effect: The most basic attack.
 Name: Struggle
 Power: 0
@@ -14,7 +14,7 @@ Type: Typeless
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

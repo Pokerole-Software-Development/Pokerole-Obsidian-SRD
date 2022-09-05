@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: ALERT
+Accuracy1: Insight
+Accuracy2: Alert
 Damage1: ''
 Damage2: ''
 Description: The Pokemon's eyes zoom at a moving target to ensure that the next attack
   will be dealt with precision.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The next attack the user performs has 2 automatic unremovable successes on
   its Accuracy Roll.
 Name: Lock-On
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

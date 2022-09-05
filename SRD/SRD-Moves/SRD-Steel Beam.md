@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: A concentrated ray of light that is capable of melting even the thickest
   steel plates. Unfortunately the user will also have trouble handling this power.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Recoil.
 Name: Steel Beam
 Power: 6
@@ -15,7 +15,7 @@ Type: Steel
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

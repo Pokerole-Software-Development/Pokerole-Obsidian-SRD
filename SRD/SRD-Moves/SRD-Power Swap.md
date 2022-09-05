@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon employs its psychic power to make the opponent feel like
   it's got your weaknesses and make the user feel like it's got the target's strength.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Switch your Strength and Special with your foe.
 Name: Power Swap
 Power: 0
@@ -15,7 +15,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

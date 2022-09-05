@@ -1,11 +1,11 @@
 ---
-Accuracy1: TOUGH
-Accuracy2: INTIMIDATE
+Accuracy1: Tough
+Accuracy2: Intimidate
 Damage1: ''
 Damage2: ''
 Description: The user torments and enrages the foe, making it unable to keep using
   its strategy.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The target cannot use the same Moves it used during the last Round. Lasts
   4 Rounds.
 Name: Torment
@@ -16,7 +16,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

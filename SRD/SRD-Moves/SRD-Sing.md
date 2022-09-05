@@ -1,10 +1,10 @@
 ---
-Accuracy1: CUTE
-Accuracy2: PERFORM
+Accuracy1: Cute
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: With a charming song, the user lulls its foe to sleep.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Inflict Sleep on the target. Sound Based. -3 Accuracy.
 Name: Sing
 Power: 0
@@ -14,7 +14,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

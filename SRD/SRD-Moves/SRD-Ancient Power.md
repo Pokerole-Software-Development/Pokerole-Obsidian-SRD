@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: the Pokemon calls upon an energy fron ancient times that strikes the
   foe and may infuse the user with a primal strength.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 1 Chance Dice to Increase the User's Strength, Dexterity, Special, Defense,
   and Sp. Defense.
 Name: Ancient Power
@@ -16,7 +16,7 @@ Type: Rock
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

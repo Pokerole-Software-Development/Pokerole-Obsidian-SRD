@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
+Accuracy1: Dexterity
+Accuracy2: Brawl
 Damage1: ''
 Damage2: ''
 Description: The user feint attacks then tricks the foe who ends up hurting itself.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: S.T.A.B of the user and Strength of the foe apply for this move's damage.
 Name: Foul Play
 Power: 3
@@ -14,7 +14,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

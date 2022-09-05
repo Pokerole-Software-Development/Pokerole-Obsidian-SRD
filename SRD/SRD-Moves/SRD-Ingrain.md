@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon roots itself to the ground, absorbing the nutrients and recovering
   health.
-DmgType: SUPPORT
+DmgType: Support
 Effect: User Heals 1 HP at the end of every Round. While this move is active the User
   is now Blocked.
 Name: Ingrain
@@ -16,7 +16,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

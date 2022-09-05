@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
+Accuracy1: Dexterity
+Accuracy2: Brawl
 Damage1: ''
 Damage2: ''
 Description: The Pokemon covers itself with a thorn filled shell, the foe will be
   damaged if it hits directly into it.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Priority 3. Shield. Reduce 3 Damage from the next attack and deal 2 Damage
   Dice to the attacker if it used a physical non-ranged Move.
 Name: Spiky Shield
@@ -16,7 +16,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

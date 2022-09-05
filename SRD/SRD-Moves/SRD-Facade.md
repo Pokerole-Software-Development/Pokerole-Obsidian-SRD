@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon will make an upfront attack. If the user is suffering, the
   attack will be stronger.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If User's got a Status Ailment (Paralysis, Poison, Burn, etc.) Add 3 Extra
   Dice to the Damage pool.
 Name: Facade
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

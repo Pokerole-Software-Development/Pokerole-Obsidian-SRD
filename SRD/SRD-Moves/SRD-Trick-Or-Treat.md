@@ -1,11 +1,11 @@
 ---
-Accuracy1: WILL
-Accuracy2: ALLURE
+Accuracy1: Will
+Accuracy2: Allure
 Damage1: ''
 Damage2: ''
 Description: The Pokemon takes the target Trick-or-Treating. The target gets a ghost
   costume which somehow cannot be removed without a medium's help.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Add the Ghost type to Target's Type. (ie. Meowth will now by Normal/Ghost
   Charizard will now be Fire/Flying/Ghost) If the Pokemon already has a third type
   attached, replace it.
@@ -17,7 +17,7 @@ Type: Ghost
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

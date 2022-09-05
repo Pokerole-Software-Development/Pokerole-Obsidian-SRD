@@ -1,10 +1,10 @@
 ---
-Accuracy1: TOUGH
-Accuracy2: PERFORM
+Accuracy1: Tough
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The Pokemon Roars a war cry while hitting its Belly.
-DmgType: SUPPORT
+DmgType: Support
 Effect: User deals Damage to itself equal to Half of its total HP rounded down. Increase
   User's Strength by 3.
 Name: Belly Drum
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

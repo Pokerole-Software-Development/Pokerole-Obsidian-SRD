@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user slams the foe usin its whole body weight. Smaller foes will
   be deeply affected.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Add 1 Extra Dice for every 50 kgs. of weight above the target's weight, up
   to +4 Extra Dice.
 Name: Heavy Slam
@@ -16,7 +16,7 @@ Type: Steel
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

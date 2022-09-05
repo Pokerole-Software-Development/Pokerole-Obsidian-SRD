@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: A mighty arm thrust that leaves the user quite tired.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: After dealing damage, Reduce user's Dexterity. -1 Accuracy.
 Name: Hammer Arm
 Power: 4
@@ -14,7 +14,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

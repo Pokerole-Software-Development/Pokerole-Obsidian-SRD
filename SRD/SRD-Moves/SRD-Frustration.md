@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
+Accuracy1: Dexterity
 Accuracy2: BRAWL
-Damage1: STRENGTH
-Damage2: MISSING HAPPINESS
+Damage1: Strength
+Damage2: Missing happiness
 Description: A move that relies on how badly a Pokemon has been treated to make it
   vicious and uncaring.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Add +1 Dice to the Damage Roll for every missing point of Happiness on the
   User.
 Name: Frustration
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

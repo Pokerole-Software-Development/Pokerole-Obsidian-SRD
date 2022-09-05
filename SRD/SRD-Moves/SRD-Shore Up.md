@@ -1,10 +1,10 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon gathers the sand around itself to restore its body to shape.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Basic Heal. If performed under Sandstorm weather, this move is a Complete
   Heal.
 Name: Shore Up
@@ -15,7 +15,7 @@ Type: Ground
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

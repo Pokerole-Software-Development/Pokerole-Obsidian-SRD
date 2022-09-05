@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon releases a big cloud of toxic gas, anyone who takes a breath
   will start coughing violently. They should seek a doctor immediately.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Poison those affected. -1 Accuracy.
 Name: Poison Gas
 Power: 0
@@ -15,7 +15,7 @@ Type: Poison
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

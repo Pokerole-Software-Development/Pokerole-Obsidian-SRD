@@ -1,11 +1,11 @@
 ---
-Accuracy1: TOUGH
-Accuracy2: INTIMIDATE
+Accuracy1: Tough
+Accuracy2: Intimidate
 Damage1: ''
 Damage2: ''
 Description: The Pokemon curls up its body. In a calm but menacing position it prepares
   to deliver its strike.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Strength, Defense, and Accuracy.
 Name: Coil
 Power: 0
@@ -15,7 +15,7 @@ Type: Poison
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

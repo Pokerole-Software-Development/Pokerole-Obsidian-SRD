@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: NATURE
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Nature
+Damage1: Special
 Damage2: ''
 Description: The user creates a ball of energy that will use the climate around it
   to grow in size and power.
-DmgType: SPECIAL
+DmgType: Special
 Effect: 'If the battlefield is under a Weather, add +2 to the Damage Roll and change
   the Type of the Move accordingly: Sun-Fire. Rain-Water. Hail-Ice. Sandstorm-Rock.
   Wind-Flying.'
@@ -17,7 +17,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

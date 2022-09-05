@@ -4,7 +4,7 @@ Accuracy2: ''
 Damage1: ''
 Damage2: ''
 Description: After falling asleep, the Pokemon is still dreaming about the fight.
-DmgType: SUPPORT
+DmgType: Support
 Effect: While this Pokemon is asleep, it may use one of its Moves at random.
 Name: Sleep Talk
 Power: 0
@@ -14,7 +14,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

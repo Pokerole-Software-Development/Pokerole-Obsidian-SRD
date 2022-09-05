@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: With a disgusting diet and training, the user learns how to turn its
   fluids into a deadly toxin.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Badly Poison the Foe. -1 Accuracy.
 Name: Toxic
 Power: 0
@@ -15,7 +15,7 @@ Type: Poison
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

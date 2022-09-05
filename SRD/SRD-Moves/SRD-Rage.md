@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user gets angry and throws a tantrum at the foe. If the attacker
   keeps on fighting, it will make the user rage even harder.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If the Pokemon receives damage after using this move. Increase the User's
   Strength. This effect can stack up to 3 times.
 Name: Rage
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

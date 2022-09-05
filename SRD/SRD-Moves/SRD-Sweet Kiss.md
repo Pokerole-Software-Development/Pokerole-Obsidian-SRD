@@ -1,11 +1,11 @@
 ---
-Accuracy1: CUTE
-Accuracy2: ALLURE
+Accuracy1: Cute
+Accuracy2: Allure
 Damage1: ''
 Damage2: ''
 Description: The Pokemon moves towards the foe and plants a delicate kiss on its cheek,
   then leaves playfully. The foe struggles to know what it meant.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Confuse the foe. -2 Accuracy.
 Name: Sweet Kiss
 Power: 0
@@ -15,7 +15,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

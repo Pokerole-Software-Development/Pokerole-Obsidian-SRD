@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: Materialize a psychic wave that pushes the target with real physical
   force.
-DmgType: SPECIAL
+DmgType: Special
 Effect: This Move is resisted with the Foe's Defense instead of its Sp. Defense
 Name: Psyshock
 Power: 3
@@ -15,7 +15,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon shoots pointy pebbles or thorns around the field that deal
   damage to anyone coming from that side.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Foe Pokemon that enter the battlefield will lose 1 HP, this effect does not
   stack. Pokemon with the Levitate ability and Flying Type Pokemon are immune to this
   effect. Entry Hazard.
@@ -17,7 +17,7 @@ Type: Ground
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

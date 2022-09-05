@@ -1,11 +1,11 @@
 ---
-Accuracy1: CUTE
-Accuracy2: PERFORM
+Accuracy1: Cute
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The user stops battling and feigns to be crying, disrupting the foe's
   mood to battle and making it lower its guard.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce the foe's Sp. Defense by 2.
 Name: Fake Tears
 Power: 0
@@ -15,7 +15,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

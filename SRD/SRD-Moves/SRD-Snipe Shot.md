@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The User Shoots a piercing water jet with incredible precision.
-DmgType: SPECIAL
+DmgType: Special
 Effect: High Critical. Ignore effects from Moves or Abilities that would prevent this
   Move from targeting a foe.
 Name: Snipe Shot
@@ -15,7 +15,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

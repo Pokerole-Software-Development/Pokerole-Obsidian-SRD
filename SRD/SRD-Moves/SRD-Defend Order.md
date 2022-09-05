@@ -1,11 +1,11 @@
 ---
-Accuracy1: TOUGH
-Accuracy2: NATURE
+Accuracy1: Tough
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: A swarm of bugs flies around the user, creating a barrier to protect
   this Pokemon from damage.
-DmgType: SUPPORT
+DmgType: Support
 Effect: User Increases its Defense and Sp. Defense.
 Name: Defend Order
 Power: 0
@@ -15,7 +15,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

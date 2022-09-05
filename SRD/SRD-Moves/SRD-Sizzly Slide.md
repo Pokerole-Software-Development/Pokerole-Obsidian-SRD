@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user slides on the floor as if it was ice-skating, only there is
   no ice, only a raging fire.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If the user of this Move is at its Final Stage of Evolution, this move fails.
   Burn the Foe.
 Name: Sizzly Slide
@@ -16,7 +16,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

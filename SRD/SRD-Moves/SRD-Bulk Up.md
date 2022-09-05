@@ -1,11 +1,11 @@
 ---
-Accuracy1: VITALITY
-Accuracy2: ATHLETIC
+Accuracy1: Vitality
+Accuracy2: Athletic
 Damage1: ''
 Damage2: ''
 Description: The Pokemon shows its muscles with intimidating poses to look bigger
   and stronger.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Strength and Defense.
 Name: Bulk Up
 Power: 0
@@ -15,7 +15,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

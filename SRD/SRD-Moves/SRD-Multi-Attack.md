@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: A weird-looking Pokemon charged against its foes, the same attack releases
   different kinds of energy depending on the disk it was holding.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: This Move's type will always match the User's first Type.
 Name: Multi-Attack
 Power: 3
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

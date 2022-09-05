@@ -1,10 +1,10 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: A blow of dust that paralyzes the target on the spot and cramps its muscles.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Paralyze the Foe. -2 Accuracy.
 Name: Stun Spore
 Power: 0
@@ -14,7 +14,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

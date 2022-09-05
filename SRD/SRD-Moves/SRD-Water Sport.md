@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user soaks the battlefield with moisture, making it harder for fire
   attacks to ignite.
-DmgType: SUPPORT
+DmgType: Support
 Effect: For the next 4 Rounds Fire Type attacks won't add their Power to the Damage
   Pool.
 Name: Water Sport
@@ -16,7 +16,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,10 +1,10 @@
 ---
-Accuracy1: VITALITY
-Accuracy2: NATURE
+Accuracy1: Vitality
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user stiffins its body and prepares for any incoming attack.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Defense.
 Name: Harden
 Power: 0
@@ -14,7 +14,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

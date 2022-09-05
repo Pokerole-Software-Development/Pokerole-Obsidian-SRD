@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user manifests its mental power on the world, creating walls and
   floors of light that help prevent the passing of energies.
-DmgType: SUPPORT
+DmgType: Support
 Effect: User and Allies will receive 1 less Damage from Special Attacks. Lasts 4 Rounds.
 Name: Light Screen
 Power: 0
@@ -15,7 +15,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

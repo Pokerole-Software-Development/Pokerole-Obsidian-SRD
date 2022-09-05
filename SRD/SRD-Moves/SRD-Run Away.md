@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: ATHLETIC
+Accuracy1: Dexterity
+Accuracy2: Athletic
 Damage1: ''
 Damage2: ''
 Description: ''
-DmgType: SUPPORT
+DmgType: Support
 Effect: 'The User runs away from the battlefield. This effect ends the battle. Foes
   might try to prevent this by rolling: Dexterity + Athletic and scoring the same
   or more successes. If the user is Blocked this Maneuver fails.'
@@ -16,7 +16,7 @@ Type: Typeless
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

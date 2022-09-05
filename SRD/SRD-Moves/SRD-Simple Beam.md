@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: EMPATHY
+Accuracy1: Insight
+Accuracy2: Empathy
 Damage1: ''
 Damage2: ''
 Description: The Pokemon sends a small psychic wave to its target, giving it a simpler
   point of view about the world.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Target Pokemon ability is now "Simple".
 Name: Simple Beam
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

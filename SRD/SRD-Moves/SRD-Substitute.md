@@ -1,12 +1,12 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: STEALTH
+Accuracy1: Dexterity
+Accuracy2: Stealth
 Damage1: ''
 Damage2: ''
 Description: The Pokemon dissapears in a poof of smoke. When the smoke vanishes, an
   object identical to the user remains in its place to shield it from harm. It looks
   amazingly real.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Deal 2 Damage to the user and put a decoy with 2 HP with the same Defenses
   as the user. If the decoy's HP is depleted, it disappears and the user comes back
   into the fight. Decoy can only be affected by damaging moves.
@@ -18,7 +18,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

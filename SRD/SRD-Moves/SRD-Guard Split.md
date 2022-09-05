@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user employs its psychic power to average its resilience with the
   foe. They both feel like they're equals in terms of toughness.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Average your Defense and Sp. Defense with your target.
 Name: Guard Split
 Power: 0
@@ -15,7 +15,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

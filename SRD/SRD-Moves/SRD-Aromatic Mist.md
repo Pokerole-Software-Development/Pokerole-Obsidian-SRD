@@ -1,10 +1,10 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon showers an ally in a mist with a revitalizing armoa.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase one Ally's Defense and Sp. Defense.
 Name: Aromatic Mist
 Power: 0
@@ -14,7 +14,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

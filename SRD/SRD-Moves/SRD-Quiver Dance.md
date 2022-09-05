@@ -1,11 +1,11 @@
 ---
-Accuracy1: BEAUTY
-Accuracy2: PERFORM
+Accuracy1: Beauty
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: A mystical and beautiful dance that boosts a Pokemon's dexterity and
   focus.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increases Dexterity, Special, and Sp. Defense.
 Name: Quiver Dance
 Power: 0
@@ -15,7 +15,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

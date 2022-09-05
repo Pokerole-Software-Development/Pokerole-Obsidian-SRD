@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user curls up into a ball and starts rolling towards its foe, trampling
   everything in its way.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Successive Actions. Add 1 Extra Dice to the Damage Roll of the last Rollout
   hit the user performs. If the Pokemon used Defense Curl this Round, add 1 Extra
   Dice to the Damage Roll of every hit. -1 Accuracy.
@@ -17,7 +17,7 @@ Type: Rock
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

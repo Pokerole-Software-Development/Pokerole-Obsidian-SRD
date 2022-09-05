@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: CHANNEL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Channel
+Damage1: Strength
 Damage2: ''
 Description: The user hurls sharp stones at the foe. The speed and weight of the stones
   deals a severe amount of damage.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ranged. High Critical. Lethal. -2 Accuracy.
 Name: Stone Edge
 Power: 4
@@ -15,7 +15,7 @@ Type: Rock
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

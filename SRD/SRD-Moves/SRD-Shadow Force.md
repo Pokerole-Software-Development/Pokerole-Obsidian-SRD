@@ -1,12 +1,12 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon disappears into a dark dimension to strike its foe at the
   next opportunity. The blow will hurt the target not on their body but directly on
   their soul.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Lethal. Charge Move. While charging this Move, other Move will not affect
   the user. If the Target made a Shielding Action, the shield is destroyed and won't
   have any effect. Damage dealt by this Move cannot be healed for 24 hrs
@@ -18,7 +18,7 @@ Type: Ghost
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

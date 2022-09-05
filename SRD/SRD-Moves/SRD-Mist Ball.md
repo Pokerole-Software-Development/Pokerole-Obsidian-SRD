@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user engulfs its foe with a cloud of mist. This soothing mist keeps
   evil intents from surfacing into the foe's mind.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 5 Chance Dice to Reduce the foe's Special. This Effect can be repeated
   up to 3 times per Target.
 Name: Mist Ball
@@ -16,7 +16,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

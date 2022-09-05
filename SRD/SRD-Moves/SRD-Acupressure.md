@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: NATURE
+Accuracy1: Dexterity
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user starts pushing its pressure points, releasing the energy that
   was stored in its body.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase a Random Attribute. If this Move is used again, the previous Attribute
   Modifier is removed.
 Name: Acupressure
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

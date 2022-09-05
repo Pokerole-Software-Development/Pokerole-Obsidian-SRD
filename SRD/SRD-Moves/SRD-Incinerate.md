@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon releases a blast of fire that instantly consumes small flammable
   objects.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Destroy the held Berries of those affected.
 Name: Incinerate
 Power: 2
@@ -15,7 +15,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

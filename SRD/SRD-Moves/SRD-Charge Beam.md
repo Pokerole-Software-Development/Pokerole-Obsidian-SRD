@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon lets out an electric beam then uses the remaining charge
   to boost its power.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 5 Chance Dice to Increase the User's Special. -1 Accuracy.
 Name: Charge Beam
 Power: 2
@@ -15,7 +15,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

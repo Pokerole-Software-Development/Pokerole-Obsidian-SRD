@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user will surround the foe with razor-like wind that may knock it
   down.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 3 Chance Dice to Flinch the foe.
 Name: Air Slash
 Power: 3
@@ -15,7 +15,7 @@ Type: Flying
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

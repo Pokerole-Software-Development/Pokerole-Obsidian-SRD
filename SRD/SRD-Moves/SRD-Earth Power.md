@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user sends out a subterranean wave that bursts on the ground bellow
   the target. It looks like the earth molds to the Pokemon's will.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 1 Chance Dice to Reduce the foe's Sp. Defense.
 Name: Earth Power
 Power: 3
@@ -15,7 +15,7 @@ Type: Ground
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: Trap the foe inside a violent swirling whirlpool that makes the foe unable
   to escape the battle.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Block. Deal 2 dice of damage at the end of each Round. Lasts 4 Rounds. -2
   Accuracy.
 Name: Whirlpool
@@ -16,7 +16,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,10 +1,10 @@
 ---
-Accuracy1: TOUGH
-Accuracy2: NATURE
+Accuracy1: Tough
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon commands its swarm to bring some healing honey.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Basic Heal.
 Name: Heal Order
 Power: 0
@@ -14,7 +14,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

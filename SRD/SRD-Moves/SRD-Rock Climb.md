@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user climbs on top of the foe. This may be confusing for some Pokemon.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll 2 Chance Dice to Confuse the foe. Outside of battle it may be used to
   climb with ease. -2 Accuracy.
 Name: Rock Climb
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

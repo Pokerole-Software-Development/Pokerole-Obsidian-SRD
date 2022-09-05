@@ -1,10 +1,10 @@
 ---
-Accuracy1: TOUGH
-Accuracy2: INTIMIDATE
+Accuracy1: Tough
+Accuracy2: Intimidate
 Damage1: ''
 Damage2: ''
 Description: The user mocks and teases the target to make it attack in a raging fury.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The target Pokemon can only perform Damaging Moves and Evasion actions for
   the next 4 Rounds.
 Name: Taunt
@@ -15,7 +15,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

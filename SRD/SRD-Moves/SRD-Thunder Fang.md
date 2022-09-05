@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user lands an electrified bite on the foe. The direct current may
   affect the foe greatly.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll 2 Chance Dice to Flinch the foe. Roll 2 Chance Dice to Paralyze the foe.
 Name: Thunder Fang
 Power: 2
@@ -15,7 +15,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

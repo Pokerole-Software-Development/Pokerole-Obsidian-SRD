@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user lets out an infectious yawn that will make anyone drowsy enough
   to fall asleep pretty soon.
-DmgType: SUPPORT
+DmgType: Support
 Effect: If the target is not removed from battle by the start of its next Round, it
   will fall asleep.
 Name: Yawn
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

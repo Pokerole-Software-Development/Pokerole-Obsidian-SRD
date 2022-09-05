@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Strength
 Damage2: ''
 Description: The user throws its berry at the foe. The results can be quite surprising.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: User loses its held berry. Ranged. See Natural Gift on p.432 for more info.
 Name: Natural Gift
 Power: 3
@@ -14,7 +14,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

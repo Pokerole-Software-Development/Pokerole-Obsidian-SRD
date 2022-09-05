@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user stores part of its power on a twig or a stick, anyone who touch
   the item will receive its might.
-DmgType: SUPPORT
+DmgType: Support
 Effect: "Switcher Move. User switches out with another Pokemon. Any Attribute increase\
   \ on the user is passed on the next Pokemon. The user can\u2019t increase its Attributes\
   \ again until the end of the scene."
@@ -17,7 +17,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

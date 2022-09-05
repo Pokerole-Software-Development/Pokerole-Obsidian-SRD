@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon gets close to its foe then strikes while bursting a full-force
   blast of pressurized water, the water may cut or dent through the foe's armor.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Lethal. Roll 2 Chance Dice to Reduce the Foe's Defense.
 Name: Liquidation
 Power: 3
@@ -15,7 +15,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

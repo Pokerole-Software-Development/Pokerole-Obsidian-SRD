@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The bone that this Pokemon uses as a weapon contains a spirit, that spirit
   may cling onto a victim, creating openings for its master.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll 2 Chance Dice to Reduce the Foe's Defense.
 Name: Shadow Bone
 Power: 3
@@ -15,7 +15,7 @@ Type: Ghost
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

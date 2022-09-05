@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user roots down and calls the plants to grow in a frenzy around the
   foe, though it leaves the user exhausted.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Must Recharge. -1 Accuracy.
 Name: Frenzy Plant
 Power: 6
@@ -15,7 +15,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

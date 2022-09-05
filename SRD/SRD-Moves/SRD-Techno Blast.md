@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: A laser briefly beams away from the Pokemon, whatever it hits explodes
   a second later. This move can be modified with the right programming of a computer.
-DmgType: SPECIAL
+DmgType: Special
 Effect: 'Lethal. If Genesect is performing this Move, this Move''s type may change
   to: Fire, Ice, Water, or Electric depending on the Driver it has as Held Item.'
 Name: Techno Blast
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

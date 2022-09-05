@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: Summon power directly from the moon. The Pokemon blasts the foe with
   light.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 3 Chance Dice to Reduce foe's Special.
 Name: Moonblast
 Power: 3
@@ -15,7 +15,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

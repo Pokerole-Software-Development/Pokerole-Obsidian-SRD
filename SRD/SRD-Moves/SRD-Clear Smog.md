@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user sucks all gases to clear away all impurities. The target is
   left heeling hurt, but light headed.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Never Fail. Reset all Increased or Reduced Attributes and Traits of the foe.
 Name: Clear Smog
 Power: 2
@@ -15,7 +15,7 @@ Type: Poison
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

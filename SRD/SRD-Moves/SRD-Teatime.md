@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: ETIQUETTE
+Accuracy1: Insight
+Accuracy2: Etiquette
 Damage1: ''
 Damage2: ''
 Description: The Pokemon gathers everyone for a cup of delicious tea. Not eating a
   snack along with it would be a waste.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Those affected eat their held berries without gaining their effects. Outside
   of battle will diffuse violent intentions for a few minutes
 Name: Teatime
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

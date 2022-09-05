@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
+Accuracy1: Dexterity
+Accuracy2: Brawl
 Damage1: ''
 Damage2: ''
 Description: The Pokemon jumps at the foe to crush it with an awful bite.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Damage Roll is Half of the Foe's remaining HP (up to 10) rounded down. If
   the remaining HP of the foe is 1 this move fails. Ignore the foe's Defenses. -1
   Accuracy.
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

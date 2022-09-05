@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon bends the magnetic field around itself, this also affects
   all allies who are sensible to it.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the Defense and Sp. Defense of User and all its Electric and Steel
   Type Allies.
 Name: Magnetic Flux
@@ -16,7 +16,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

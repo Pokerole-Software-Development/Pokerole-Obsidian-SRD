@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user throws the target 60 feet out of the battlefield.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Low Priority 1. The target is hit and knocked back to its trainer forcing
   them to send out another Pokemon. In the wild the target is sent away. Switcher
   Move. -1 Accuracy.
@@ -16,7 +16,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

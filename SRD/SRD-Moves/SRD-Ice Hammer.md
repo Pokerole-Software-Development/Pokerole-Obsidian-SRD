@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its powerful gelid arms and strikes the foe with a swinging
   motion.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Reduce User's Dexterity. -1 Accuracy.
 Name: Ice Hammer
 Power: 4
@@ -15,7 +15,7 @@ Type: Ice
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon shoots an incredibly powerful beam towards the sky. The energy
   released might keep traveling through space thousands of years later.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Lethal. Must Recharge. -1 Accuracy.
 Name: Eternabeam
 Power: 7
@@ -15,7 +15,7 @@ Type: Dragon
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

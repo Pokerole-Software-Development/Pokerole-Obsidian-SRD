@@ -31,9 +31,24 @@ I've also included a *Campaign* folder. This folder is an empty framework based 
 3. Open the Pokerole SRD folder you downloaded in step one by selecting "Open Folder as Vault". 
 4. You'll be prompted if you trust the owner of the vault before enabling plugins (they are required). 
 
+## Is There a Character Sheet?
+
+[[Pokemon Character Sheet Template]] is a template you can use to have dynamic Pokemon sheet that references the SRD for moves, abilities, base stats, etc. BE AWARE, this is not the most user friendly character sheet. 
+
+This is designed more for reference (like a Rival's Pokemon), less for on the fly editing like a player would need to do (Hp tracking, etc). Due to the scripting that powers the template, you'll need to be very careful when modifying the template. Below are some usage tips.
+
+1. First thing you have to do is in the *frontmatter* (the list of values before the document itself starts), complete the Species link. If you want a pikachu, Species should read `"[[SRD-Pikachu]]"`. This populates the vast majority of the sheet.
+2. Base stats and maximums are calculated from the SRD. To add points to your stats, find the appropriate name in the frontmatter (IE, for Dexterity, add to DexterityPoints). This will increase the stat.
+3. DO NOT modify anything in code blocks. It's not worth the effort unless you have a good understanding of Dataview
+4. Add to your skills by changing the number in the table. Skills are nice simple.
+5. Add moves by putting links to the SRD moves after the `**Moves**::` label. Multiple moves are comma separated. An example would be:
+> **Moves**:: [[SRD-Thunderbolt]], [[SRD-Iron Tail]], [[SRD-Electroweb]], [[SRD-Quick Attack]]
+
 # Credits and Contacts
 
 - This SRD was put together by myself, I can be contacted through Github (here) or Discord where my username is Willowlark#2359. 
 - The data that was used to generate the SRD was compiled out of the book by Shadeslayer into this [repository](https://github.com/XShadeSlayerXx/PokeRole-Discord.py-Base). 
 - Box sprites were compiled from this [repository](https://github.com/msikma/pokesprite).
 - Home sprites were ripped from [the spriter's resource](https://www.spriters-resource.com/nintendo_switch/pokemonhome/).
+- [Pokerole](https://www.pokeroleproject.com/) was written by it's own team, check them out.
+- Needless to say, Pokemon is owned by Nintendo

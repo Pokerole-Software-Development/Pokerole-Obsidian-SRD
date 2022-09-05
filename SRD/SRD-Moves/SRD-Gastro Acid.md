@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user spits some of its own gastric juices, the acid prevents the
   foe from using its special abilities.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Until the end of the Scene, eliminate any effect the foe's Ability would do.
 Name: Gastro Acid
 Power: 0
@@ -15,7 +15,7 @@ Type: Poison
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

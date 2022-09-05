@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon quickly throws sharp jets of water in the shape of a shuriken.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Ranged. Priority 1. Successive Actions.
 Name: Water Shuriken
 Power: 1
@@ -14,7 +14,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

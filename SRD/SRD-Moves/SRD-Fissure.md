@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
+Accuracy1: Strength
+Accuracy2: Brawl
 Damage1: ''
 Damage2: ''
 Description: The user tears the ground apart in a monstrous display of force. If the
   foe falls through the fissure it might need a rescue team to get it out.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ranged. Deal damage to the Target equal to their remaining HP plus 1 lethal
   damage. -5 Accuracy.
 Name: Fissure
@@ -16,7 +16,7 @@ Type: Ground
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

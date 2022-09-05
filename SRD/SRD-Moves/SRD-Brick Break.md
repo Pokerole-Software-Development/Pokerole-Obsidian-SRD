@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its palm or claws to perform a one-armed chop that shatters
   even invisible barriers.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If a Barrier is in place on the foe's side (ie. Light Screen, Reflect) destroy
   the barrier and add 2 Extra Dice to the Damage Pool.
 Name: Brick Break
@@ -16,7 +16,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

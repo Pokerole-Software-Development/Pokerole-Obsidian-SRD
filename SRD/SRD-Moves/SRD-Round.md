@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: PERFORM
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Perform
+Damage1: Special
 Damage2: ''
 Description: The user attacks the foe with a song. If a teammate joins the song the
   attack will be stronger.
-DmgType: SPECIAL
+DmgType: Special
 Effect: If the User and an Ally are able to use Round, then both may choose to do
   it at the same time. If they do, both Pokemon add 3 Dice to the Damage Roll.
 Name: Round
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

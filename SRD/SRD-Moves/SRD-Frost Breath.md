@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user shoots a gelid breath against the target that sends a chill
   through the spine. The sudden change of temperature can bring anyone to its knees.
-DmgType: SPECIAL
+DmgType: Special
 Effect: This Move is always a Critical Hit and it gets the proper bonus for it. -1
   Accuracy.
 Name: Frost Breath
@@ -16,7 +16,7 @@ Type: Ice
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

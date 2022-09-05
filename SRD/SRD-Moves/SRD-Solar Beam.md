@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user focuses the sunlight it has absorbed into a powerful and devastating
   beam of light.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Charge Move. If there is a Sunny Weather, you skip this Move's Charge action.
   If performed under Rain, Sandstorm, or Hail Weather, this Move takes two actions
   to Charge.
@@ -17,7 +17,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

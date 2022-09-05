@@ -1,11 +1,11 @@
 ---
-Accuracy1: VITALITY
-Accuracy2: NATURE
+Accuracy1: Vitality
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon drinks a glass of its own milk. The rich taste and nutrients
   revitalize it.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Basic Heal. If successful, spend 1 Will point to activate.
 Name: Milk Drink
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

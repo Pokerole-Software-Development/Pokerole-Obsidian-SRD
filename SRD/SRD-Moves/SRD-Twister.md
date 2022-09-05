@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon lets out a spiral current that surrounds the foes. They can't
   move until they free themselves from this terrible whirlwind.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 2 Chance Dice to Flinch the foes.
 Name: Twister
 Power: 2
@@ -15,7 +15,7 @@ Type: Dragon
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: PERFORM
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Perform
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon has a perfectly good drum and you'd think it would use it.
   But it doesn't. It uses it's foe.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Reduce the Foe's Dexterity
 Name: Drum Beating
 Power: 3
@@ -15,7 +15,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

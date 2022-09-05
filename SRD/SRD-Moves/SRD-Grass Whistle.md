@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: PERFORM
+Accuracy1: Special
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The user plays a beautiful and soothing melody that lulls the target
   into a peaceful sleep.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Sound Based. Put the Target to Sleep. -3 Accuracy.
 Name: Grass Whistle
 Power: 0
@@ -15,7 +15,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

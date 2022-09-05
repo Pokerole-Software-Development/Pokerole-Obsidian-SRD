@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: PERFORM
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Perform
+Damage1: Special
 Damage2: ''
 Description: The Pokemon uses its own body as an amplifier for the energizing sounds
   it produces.
-DmgType: SPECIAL
+DmgType: Special
 Effect: All Foes in Range. Sound Based.
 Name: Overdrive
 Power: 3
@@ -15,7 +15,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: CLEVER
-Accuracy2: PERFORM
+Accuracy1: Clever
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The Pokemon hurriedly remembers one action performed by a partner. Some
   Pokemon can even do what a human does and assist him with any tasks.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Choose one Move known by a random member of your party. You performed that
   Move using the Accuracy roll from Assist.
 Name: Assist
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

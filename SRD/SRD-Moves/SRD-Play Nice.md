@@ -1,11 +1,11 @@
 ---
-Accuracy1: CUTE
-Accuracy2: ALLURE
+Accuracy1: Cute
+Accuracy2: Allure
 Damage1: ''
 Damage2: ''
 Description: The user starts playing with the foe in a friendly way. This makes the
   foe reconsider its aggressive demeanor.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce the foe's Strength.
 Name: Play Nice
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

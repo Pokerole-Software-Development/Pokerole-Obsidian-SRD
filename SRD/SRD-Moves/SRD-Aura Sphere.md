@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user channels its aura and launches this power in the form of a sphere
   The foe's aura is hit, leaving the target unscratched but deeply hurt.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Never Fail.
 Name: Aura Sphere
 Power: 3
@@ -15,7 +15,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

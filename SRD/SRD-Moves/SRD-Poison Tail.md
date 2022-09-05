@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The tail of this Pokemon is sharp like a blade, it attacks with slashing
   movements and may release some poison through it.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: High Critical. Roll 1 Chance Dice to Poison the Foe.
 Name: Poison Tail
 Power: 2
@@ -15,7 +15,7 @@ Type: Poison
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

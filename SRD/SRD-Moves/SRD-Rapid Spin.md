@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon spins swiftly to strike the foe. Anything near will be scattered
   around.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Remove Entry Hazards (Spikes, Stealth Rock, etc.) and Leech Seed from the
   user's side of the field. Increase user's Dexterity.
 Name: Rapid Spin
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

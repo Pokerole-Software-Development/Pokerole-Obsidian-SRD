@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon will use its tail to make a long swipe at its foes. A few
   cracks are heard, and the foe will limp afterwards.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: All Foes in Range. Reduce the Strength of those affected.
 Name: Breaking Swipe
 Power: 2
@@ -15,7 +15,7 @@ Type: Dragon
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

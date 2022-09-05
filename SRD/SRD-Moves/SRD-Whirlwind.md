@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: NATURE
+Accuracy1: Dexterity
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon creates a powerful wind current that swirls the enemy around
   and sends it flying away.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Low Priority 6. In the wild the battle ends. In an official fight, the Pokemon
   switches out. If it's the last or only Pokemon the move fails. Switcher Move.
 Name: Whirlwind
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

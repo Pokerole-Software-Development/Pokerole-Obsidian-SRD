@@ -1,11 +1,11 @@
 ---
-Accuracy1: VITALITY
-Accuracy2: NATURE
+Accuracy1: Vitality
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon swallows the energy she was storing to restore some damage,
   it recovers its normal size afterwards.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Must have used the move "Stockpile" prior to this Move, otherwise it will
   fail. If successful spend 1 Will point to activate. User restores 2 Health points.
   Loses the effects of stockpile. The Pokemon must rest an hour before using Swallow
@@ -18,7 +18,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

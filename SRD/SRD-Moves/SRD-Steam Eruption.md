@@ -1,12 +1,12 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: In less than a second, the sound of steam boiling over a raging engine
   thunders through the ears of the foe before it is shot through the sky by a scalding
   geyser.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Lethal. Roll 3 Chance Dice to Apply Burn 2 to those affected. -1 Accuracy.
 Name: Steam Eruption
 Power: 4
@@ -16,7 +16,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

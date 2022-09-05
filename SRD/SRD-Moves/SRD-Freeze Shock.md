@@ -1,12 +1,12 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: STRENGTH
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Strength
 Damage2: ''
 Description: The user appears to become a block of ice, then it releases itself from
   the ice with a devastating discharge. The exploding ice shards and the lightning
   fly all over the battlefield.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Lethal. Ranged. Charge Move. Roll 3 Chance Dice to Paralyze the Foe. -1 Accuracy.
 Name: Freeze Shock
 Power: 6
@@ -16,7 +16,7 @@ Type: Ice
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

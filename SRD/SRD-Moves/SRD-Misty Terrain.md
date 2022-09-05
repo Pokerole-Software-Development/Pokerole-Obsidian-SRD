@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user surrounds the battlefield with a mystical mist that feels protective.
   Mythical Pokemon find something eerie about it.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Creatures standing on the battlefield won't be affected by Status Ailments.
   Dragon Type attacks won't add their Power to the Damage Pool. Lasts 4 Rounds.
 Name: Misty Terrain
@@ -16,7 +16,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

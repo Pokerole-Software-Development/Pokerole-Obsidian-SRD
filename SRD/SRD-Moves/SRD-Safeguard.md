@@ -1,10 +1,10 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon creates an energy shield that protects everyone from harm.
-DmgType: SUPPORT
+DmgType: Support
 Effect: For the next 4 Rounds, the User and its Allies are immune to Status Ailments
   (Burn. Poison. Sleep. Confuse. Freeze. Paralysis). Lasts 4 Rounds. Previously inflicted
   Status Ailments remain.
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

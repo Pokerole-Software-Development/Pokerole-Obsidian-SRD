@@ -1,10 +1,10 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user teleports, switching its place with someone.
-DmgType: SUPPORT
+DmgType: Support
 Effect: User switches back. Choose another Pokemon to take its place. It will be ready
   to fight on the next Round. Switcher Move.
 Name: Ally Switch
@@ -15,7 +15,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

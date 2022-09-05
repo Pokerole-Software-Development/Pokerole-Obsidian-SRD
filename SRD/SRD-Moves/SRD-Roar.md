@@ -1,10 +1,10 @@
 ---
-Accuracy1: TOUGH
-Accuracy2: INTIMIDATE
+Accuracy1: Tough
+Accuracy2: Intimidate
 Damage1: ''
 Damage2: ''
 Description: A mighty roar that scares the foe.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Low Priority 6. In the wild the battle ends. In an official fight, the Pokemon
   switches out. If its the last or only Pokemon the move fails. Switcher Move.
 Name: Roar
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

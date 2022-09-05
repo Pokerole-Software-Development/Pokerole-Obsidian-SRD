@@ -1,12 +1,12 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon opens portals to attack with each one of its arms, bypassing
   all defenses and making it impossible to escape, however, the user's defense also
   gets neglected.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Never Fail. Ignores the effect of any Shield Move the Foe might have used.
   Reduce the user's Defense.
 Name: Hyperspace Fury
@@ -17,7 +17,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

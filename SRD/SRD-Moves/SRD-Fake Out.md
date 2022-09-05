@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: While still preparing for battle, the user will suddenly attack the foe.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Priority 1. Flinch the foe. This move will only work the First Round the Pokemon
   is out in battle. From the second round on, it will fail automatically.
 Name: Fake Out
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

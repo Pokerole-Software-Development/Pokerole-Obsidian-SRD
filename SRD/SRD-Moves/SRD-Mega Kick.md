@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon throws a mega powered kick to the foe's face.
-DmgType: PHYSICAL
-Effect: ' -2 Accuracy.'
+DmgType: Physical
+Effect: -2 Accuracy.
 Name: Mega Kick
 Power: 5
 Target: Foe
@@ -14,7 +14,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

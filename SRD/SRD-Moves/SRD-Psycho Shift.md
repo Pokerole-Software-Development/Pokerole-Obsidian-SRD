@@ -1,11 +1,11 @@
 ---
-Accuracy1: CLEVER
-Accuracy2: CHANNEL
+Accuracy1: Clever
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: With psychic suggestion, the target feels afflicted by the same status
   problems as the user.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Transfer the User's Status Ailments to the target. The user is now cured.
 Name: Psycho Shift
 Power: 0
@@ -15,7 +15,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: CHANNEL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Channel
+Damage1: Strength
 Damage2: ''
 Description: Giant blades emerge from the earth with every step of the user. If you
   fall into them, they are almost impossible to survive.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Lethal. Ranged. -2 Accuracy.
 Name: Precipice Blades
 Power: 5
@@ -15,7 +15,7 @@ Type: Ground
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

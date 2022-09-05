@@ -1,10 +1,10 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: No surrender. No retreat. Until victory always.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Strength, Dexterity, Special, Defense and Sp. Defense.
   The user is now blocked.
 Name: No Retreat
@@ -15,7 +15,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

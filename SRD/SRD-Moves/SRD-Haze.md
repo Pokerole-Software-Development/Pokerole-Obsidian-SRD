@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user sends out a haze that disturbs all the Pokemon engaged in battle.
   It may conceal whoever is inside.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Remove all Increased or Reduced Attributes and Traits on everyone on the Battlefield.
 Name: Haze
 Power: 0
@@ -15,7 +15,7 @@ Type: Ice
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

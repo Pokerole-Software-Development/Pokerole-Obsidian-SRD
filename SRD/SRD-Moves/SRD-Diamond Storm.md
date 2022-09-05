@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon summons a storm of diamonds over the field, these diamonds
   also serve as barriers the user can take cover into.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ranged. Roll 5 Chance Dice to Increase the User's Defense by 2.
 Name: Diamond Storm
 Power: 4
@@ -15,7 +15,7 @@ Type: Rock
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

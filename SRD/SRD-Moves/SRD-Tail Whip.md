@@ -1,11 +1,11 @@
 ---
-Accuracy1: CUTE
-Accuracy2: PERFORM
+Accuracy1: Cute
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The Pokemon moves its tail in such a cute way that the foe will easily
   let its guard down.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce the foe's Defense.
 Name: Tail Whip
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

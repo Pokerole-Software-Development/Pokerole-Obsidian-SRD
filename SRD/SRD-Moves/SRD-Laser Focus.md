@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: ALERT
+Accuracy1: Insight
+Accuracy2: Alert
 Damage1: ''
 Damage2: ''
 Description: Through its incredible awareness the Pokemon finds a straight path into
   a weak point of the foe. The attack that follows is usually devastating.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The next time the user lands a hit it will be treated as if it were a Critical
   Hit.
 Name: Laser Focus
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

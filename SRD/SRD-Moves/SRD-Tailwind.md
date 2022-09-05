@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: User flaps its wings and casts a turbulent wind that helps the team move
   significantly faster.
-DmgType: SUPPORT
+DmgType: Support
 Effect: For the Next 4 Rounds, Increase the Dexterity of the User and All Allies in
   the field by 2.
 Name: Tailwind
@@ -16,7 +16,7 @@ Type: Flying
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

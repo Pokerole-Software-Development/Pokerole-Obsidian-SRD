@@ -1,11 +1,11 @@
 ---
-Accuracy1: CUTE
-Accuracy2: ALLURE
+Accuracy1: Cute
+Accuracy2: Allure
 Damage1: ''
 Damage2: ''
 Description: The Pokemon's eyes start watering as if it were about to cry, it's foe
   is moved by the tears and loses its will to fight.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce Foe's Strength and Special.
 Name: Tearful Look
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

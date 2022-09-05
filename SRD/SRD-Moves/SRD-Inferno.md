@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon sets the foe on fire. These flames rise up to 6 feet. A very
   dangerous Move.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Lethal. Apply Burn 3 to the Foe. -3 Accuracy.
 Name: Inferno
 Power: 4
@@ -15,7 +15,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

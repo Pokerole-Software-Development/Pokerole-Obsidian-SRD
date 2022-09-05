@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The usr takes its held item and throws it at the opponent. You may get
   it back after the fight.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ranged. Add up to 4 Dice to the Damage Pool, depending on the held item thrown.
   See P. 432 for more info.
 Name: Fling
@@ -16,7 +16,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

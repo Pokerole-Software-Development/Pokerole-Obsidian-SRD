@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon throws some volatile salts onto the foe's face. A paralyzed
   Pokemon will get a strong smell.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If the Target is Paralyzed, add 2 Extra Dice to the Damage pool of this Move.
   After dealing damage, cure the target's Paralysis.
 Name: Smelling Salts
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

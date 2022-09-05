@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: Aurora lights and hail spin around the Pokemon and its Allies, deflecting
   attacks.
-DmgType: SUPPORT
+DmgType: Support
 Effect: User and Allies will receive 1 less Damage from both Physical and Special
   Attacks. This move will fail if not performed under Hail Weather. Lasts until Hail
   Weather is over.
@@ -17,7 +17,7 @@ Type: Ice
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

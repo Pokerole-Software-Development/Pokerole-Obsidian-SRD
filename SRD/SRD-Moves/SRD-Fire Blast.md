@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon shoots a giant fireball that explodes on contact with the
   foe, blasting fire in all directions.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Lethal. Roll 3 Chance Dice to apply Burn 3 to the foe. -2 Accuracy.
 Name: Fire Blast
 Power: 5
@@ -15,7 +15,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

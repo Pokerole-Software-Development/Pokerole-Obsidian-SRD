@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon stings the target. If the foe is too weakened to move it
   absorbs part of its power.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If the foe faints due to damage from this attack increase the user's Strength
   by 2.
 Name: Fell Stinger
@@ -16,7 +16,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user cloaks itself in flames and rolls to tackle the target.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll 1 Chance Dice to Burn the foe.
 Name: Flame Wheel
 Power: 2
@@ -14,7 +14,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

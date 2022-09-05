@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user hurls an electric projectile to the target, the foe is charged
   with electricity until it is released by the foe's next attack.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The Damage from the next attack made by the target will be Electric Type.
 Name: Electrify
 Power: 0
@@ -15,7 +15,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

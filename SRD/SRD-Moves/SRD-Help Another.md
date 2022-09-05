@@ -1,10 +1,10 @@
 ---
 Accuracy1: ''
-Accuracy2: VARIES
+Accuracy2: Varies
 Damage1: ''
 Damage2: ''
 Description: ''
-DmgType: SUPPORT
+DmgType: Support
 Effect: Roll your Accuracy as if it was Chance Dice. If Successful, add one die to
   the Action of an Ally. Up to 6 dice may be added this way.
 Name: Help Another
@@ -15,7 +15,7 @@ Type: Typeless
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

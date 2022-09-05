@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon employs its psychic power to make the opponent feel like
   its got your fraily and make the user ffeel like it got the target's resilience.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Switch your Defense and Sp. Defense with your foe.
 Name: Guard Swap
 Power: 0
@@ -15,7 +15,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,10 +1,10 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
+Accuracy1: Strength
+Accuracy2: Brawl
 Damage1: ''
 Damage2: ''
 Description: ''
-DmgType: SUPPORT
+DmgType: Support
 Effect: The foe is Blocked. Foe can resist this Maneuver by rolling their Strength
   or Dexterity score and scoring the same or more successes than the user.
 Name: Grapple
@@ -15,7 +15,7 @@ Type: Typeless
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

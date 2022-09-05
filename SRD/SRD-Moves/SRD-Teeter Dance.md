@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: PERFORM
+Accuracy1: Dexterity
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The user starts dancing around with wobbly movements. Friends and foes
   will get dizzy by trying to follow it.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Inflicts Confusion.
 Name: Teeter Dance
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user shouts loudly and the echo answers back, it will yell louder
   every time the echo talks back.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Sound Based. This move can be used many times in the same Round. Add 1 Extra
   Dice to the Damage Pool for every consecutive time you use it. Up to 8 dice may
   be added this way. Reset the effect if the user performs another move, evasion,
@@ -18,7 +18,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

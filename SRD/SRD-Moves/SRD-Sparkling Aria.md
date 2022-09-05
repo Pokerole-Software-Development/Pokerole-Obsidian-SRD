@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: PERFORM
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Perform
+Damage1: Special
 Damage2: ''
 Description: The Pokemon sings a beautiful melody, the song comes out as a sparkling
   fountain, bursting upon impact and quenching any fire in its path.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Sound Based. Area Attack. If an affected Pokemon had any of the Burn Status
   Conditions, heal it instead of dealing damage.
 Name: Sparkling Aria
@@ -16,7 +16,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

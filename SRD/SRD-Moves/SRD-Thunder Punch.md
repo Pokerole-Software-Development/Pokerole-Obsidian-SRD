@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: An Electrified punch to deal a shocking blow.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Fist Based. Roll 1 Chance Dice to Paralyze foe.
 Name: Thunder Punch
 Power: 3
@@ -14,7 +14,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,12 +1,12 @@
 ---
-Accuracy1: TOUGH
-Accuracy2: INTIMIDATE
+Accuracy1: Tough
+Accuracy2: Intimidate
 Damage1: ''
 Damage2: ''
 Description: The user quickly takes out the held item of a Pokemon. It also empties
   the bag of the trainer and forces everyone to stay away from their own properties.
   Evildoers master this Move.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The target cannot use its held item nor can its trainer use items on it.
 Name: Embargo
 Power: 0
@@ -16,7 +16,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

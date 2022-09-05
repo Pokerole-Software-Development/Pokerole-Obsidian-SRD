@@ -1,11 +1,11 @@
 ---
-Accuracy1: WILL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Will
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The more exhausted the user is, the stronger this attack will become.
   When the Pokemon is at the last of its strength this move can be devastating.
-DmgType: SPECIAL
+DmgType: Special
 Effect: If User's Will is half spent add 1 Dice to the Damage Roll. If the User's
   Will is depleted add +8 to the Damage Pool.
 Name: Trump Card
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

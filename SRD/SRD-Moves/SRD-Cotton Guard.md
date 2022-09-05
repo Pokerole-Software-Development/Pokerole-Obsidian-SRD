@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: CHANNEL
+Accuracy1: Insight
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user covers itself in cotton puffs that severely reduce the impact
   of physical attacks.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Defense by 3.
 Name: Cotton Guard
 Power: 0
@@ -15,7 +15,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

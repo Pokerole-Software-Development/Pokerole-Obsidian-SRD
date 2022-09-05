@@ -1,11 +1,11 @@
 ---
-Accuracy1: WILL
-Accuracy2: CHANNEL
+Accuracy1: Will
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon creates a mystical bond with anyone that causes it harm.
   Whatever ill falls on the user, it falls on the perpetrator too.
-DmgType: SUPPORT
+DmgType: Support
 Effect: If the user faints this Round due to Combat damage, the Pokemon that dealt
   the damage will faint at the same time.
 Name: Destiny Bond
@@ -16,7 +16,7 @@ Type: Ghost
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

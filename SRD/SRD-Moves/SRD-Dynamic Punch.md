@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: A punch that hits a small pressure point. It leavers the foe disoriented.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Fist Based. Confuse the foe. -3 Accuracy.
 Name: Dynamic Punch
 Power: 4
@@ -14,7 +14,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

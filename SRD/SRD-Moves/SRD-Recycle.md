@@ -1,10 +1,10 @@
 ---
-Accuracy1: VITALITY
-Accuracy2: NATURE
+Accuracy1: Vitality
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: One Pokemon's trash is another one's treasure.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The Pokemon reuses an Item that has already been spent. (Berries etc.) An
   Item may not be recycled more than 5 times.
 Name: Recycle
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

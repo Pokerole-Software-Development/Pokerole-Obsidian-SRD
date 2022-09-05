@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user rises above the clouds and then comes crashing down against
   its foe in an instant. The strike is brutal for both.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Lethal. Reduce the user's Defense and Sp. Defense.
 Name: Dragon Ascent
 Power: 5
@@ -15,7 +15,7 @@ Type: Flying
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

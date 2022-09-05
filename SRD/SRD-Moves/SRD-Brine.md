@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user blasts the foe with extremely dense water, if the target is
   tired he may be swept away easily by the pressure.
-DmgType: SPECIAL
+DmgType: Special
 Effect: If the foe is at half HP or less, add 3 Extra Dice to the Damage Pool.
 Name: Brine
 Power: 2
@@ -15,7 +15,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

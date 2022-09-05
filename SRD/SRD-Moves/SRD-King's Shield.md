@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
+Accuracy1: Dexterity
+Accuracy2: Brawl
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses a ghostly shield to protect itself. If the foe managed
   to touch it, the user will drain some of its lifeforce.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Priority 3. Shield. If the foe was using a Physical Move. Reduce the foe's
   Strength by 2. Reduce 3 Dice from the foe's Damage Pool.
 Name: King's Shield
@@ -16,7 +16,7 @@ Type: Steel
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

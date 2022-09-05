@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon uses all of its power to deliver an infernal blast to the
   foe. The user is left exhausted.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Lethal. Must Recharge. -1 Accuracy.
 Name: Blast Burn
 Power: 6
@@ -15,7 +15,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

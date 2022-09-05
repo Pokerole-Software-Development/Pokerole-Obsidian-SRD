@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Strength
 Damage2: ''
 Description: The user hurls a projectile, usually a heavy rock that sends the foe
   down to the ground, leaving it unable to take off the ground afterwards.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ranged. Remove the foe's Immunity to Ground-Type Attacks.
 Name: Smack Down
 Power: 2
@@ -15,7 +15,7 @@ Type: Rock
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

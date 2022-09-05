@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The foe is fully covered with a flammable powder, a source of fire might
   ignite it with explosive results.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Add 3 Dice of Damage to the next Fire Type attack that hits the target.
 Name: Powder
 Power: 0
@@ -15,7 +15,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

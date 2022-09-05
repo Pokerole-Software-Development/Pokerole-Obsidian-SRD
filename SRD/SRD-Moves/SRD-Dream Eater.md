@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user eats the dreams of a sleeping target. When the foe wakes up,
   it will feel weak and empty.
-DmgType: SPECIAL
+DmgType: Special
 Effect: The user restores HP equal to half the damage dealt, rounded down. The target
   must be asleep, this move will fail otherwise.
 Name: Dream Eater
@@ -16,7 +16,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

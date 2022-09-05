@@ -1,10 +1,10 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: CHANNEL
+Accuracy1: Insight
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user reads the foe's mind. It knows exactly what to do next.
-DmgType: SUPPORT
+DmgType: Support
 Effect: This Pokemon gets 2 automatic successes on the next Accuracy Roll or Evasion
   Roll against the target.
 Name: Mind Reader
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

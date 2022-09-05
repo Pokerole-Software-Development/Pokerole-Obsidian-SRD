@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon acts like a thug and channels its own dark aura as protection
   for itself and its allies.
-DmgType: SPECIAL
+DmgType: Special
 Effect: If successful, for the next 4 Rounds the User and Allies will receive 1 less
   damage from Physical Attacks. This effect does not stack. If the user of this Move
   is at its Final Stage of Evolution, this move fails.
@@ -17,7 +17,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

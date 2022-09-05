@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon sets ablaze a swirling pillar upon the target, said pillar
   will grow taller and swirl faster if there's a special kind of charge nearby.
-DmgType: SPECIAL
+DmgType: Special
 Effect: "Lethal. If the Move \u201CFusion Bolt\u201D has already been used by anyone\
   \ this Round, add 4 Extra Dice to the Damage Pool of this Move"
 Name: Fusion Flare
@@ -16,7 +16,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

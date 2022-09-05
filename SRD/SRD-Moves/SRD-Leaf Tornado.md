@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: A bush worth of sharp leaves swirls around the foe making it harder for
   it to aim attacks properly.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 5 Chance Dice to Reduce the Foe's Accuracy. -1 Accuracy.
 Name: Leaf Tornado
 Power: 2
@@ -15,7 +15,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

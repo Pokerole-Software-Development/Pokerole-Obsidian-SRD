@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user flies up high in one action, then drops and strikes in the next
   one. The Pokemon can fly for extremely long periods of time without getting tired.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Charge Move. While charging this move the User will be out of range, with
   the exception of the attacks Hurricane and Thunder.
 Name: Fly
@@ -16,7 +16,7 @@ Type: Flying
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

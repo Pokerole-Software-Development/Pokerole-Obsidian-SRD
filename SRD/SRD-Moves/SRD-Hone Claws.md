@@ -1,10 +1,10 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon sharpens its claws to perform more precise attacks.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Strength and Accuracy.
 Name: Hone Claws
 Power: 0
@@ -14,7 +14,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

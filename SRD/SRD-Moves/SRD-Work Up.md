@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: ATHLETIC
+Accuracy1: Strength
+Accuracy2: Athletic
 Damage1: ''
 Damage2: ''
 Description: The Pokemon excercises with vigor to be physically and mentally prepared
   for battle.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Strength and Special.
 Name: Work Up
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

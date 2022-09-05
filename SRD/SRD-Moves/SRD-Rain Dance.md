@@ -1,10 +1,10 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user performs a curious mystic dance that summons a heavy rainfall.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Rain Weather is activated for the next 4 Rounds.
 Name: Rain Dance
 Power: 0
@@ -14,7 +14,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

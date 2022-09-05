@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: A concentrated flameball that bursts on contact with the foe, scattering
   smaller flames around.
-DmgType: SPECIAL
+DmgType: Special
 Effect: After dealing damage, the user may roll 1 Dice of Damage against two other
   Targets.
 Name: Flame Burst
@@ -16,7 +16,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

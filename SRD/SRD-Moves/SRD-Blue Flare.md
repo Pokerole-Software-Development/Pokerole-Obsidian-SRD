@@ -1,12 +1,12 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: Reshiram surrounds itself with a giant blue flame that is unleashed with
   an earth shattering explosion. Receiving this attack directly might completely engulf
   you in fire.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 2 Chance Dice to Apply Burn 3 to the foe. -2 Accuracy.
 Name: Blue Flare
 Power: 6
@@ -16,7 +16,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

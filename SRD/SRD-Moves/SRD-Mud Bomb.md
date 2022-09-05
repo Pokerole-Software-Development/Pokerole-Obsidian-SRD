@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon shoots a ball made of mud that bursts on the target, some
   mud may get on its eyes.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 3 Chance Dice to Reduce the Foe's Accuracy. -2 Accuracy.
 Name: Mud Bomb
 Power: 2
@@ -15,7 +15,7 @@ Type: Ground
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

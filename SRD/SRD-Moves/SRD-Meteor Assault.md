@@ -1,12 +1,12 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon will make an incredible jump to the sky, then lunge towards
   the foe at a staggering speed, crashing the ground upon impact. The user is left
   very tired.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Lethal. Must Recharge. -1 Accuracy.
 Name: Meteor Assault
 Power: 6
@@ -16,7 +16,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

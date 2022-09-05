@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon bares its fangs to bite the foe, psychic energy begins piercing
   before the actual fangs make contact.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If a Barrier is in place on the foe's side (ie. Light Screen. Reflect) destroy
   it.
 Name: Psychic Fangs
@@ -16,7 +16,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

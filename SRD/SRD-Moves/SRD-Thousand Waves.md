@@ -1,12 +1,12 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Special
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: Solid ground becomes a sandtrap, cracked earth will close to ensnare
   your feet. It's as it the land itself wanted to trap you. There is no attacker nor
   escape in sight.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Blocks. Ranged. All Foes in Range.
 Name: Thousand Waves
 Power: 3
@@ -16,7 +16,7 @@ Type: Ground
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: CLEVER
-Accuracy2: PERFORM
+Accuracy1: Clever
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: Making use of its acting talents, the Pokemon imitates what the target
   just did.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Copies the last move the target used until the end of the scene. That move
   replaces Mimic.
 Name: Mimic
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

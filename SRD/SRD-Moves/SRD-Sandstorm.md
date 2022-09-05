@@ -1,10 +1,10 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon casts a fierce wind that carries millions of rough sand particles.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Sandstorm Weather is activated for the next 4 Rounds.
 Name: Sandstorm
 Power: 0
@@ -14,7 +14,7 @@ Type: Rock
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

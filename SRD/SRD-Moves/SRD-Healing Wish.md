@@ -1,12 +1,12 @@
 ---
-Accuracy1: WILL
-Accuracy2: CHANNEL
+Accuracy1: Will
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The power of ultimate love and sacrifice. The user wishes to completely
   heal all injuries, diseases, and ailments to save someone's life at the cost of
   their own health.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The User faints. One Ally is completely healed from all damage and status
   ailments.
 Name: Healing Wish
@@ -17,7 +17,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

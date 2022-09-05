@@ -1,11 +1,11 @@
 ---
-Accuracy1: WILL
-Accuracy2: CHANNEL
+Accuracy1: Will
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user leaves an imprinting grudge over the foe, this makes the target
   unwilling to fight. It may only keep battling if something greater is at risk.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The User Faints. The foe gets its Will depleted and any effects gained from
   spending them. The Foe must roll Loyalty at the end of every Round to keep battling.
   Each Round 1 more success is required.
@@ -17,7 +17,7 @@ Type: Ghost
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

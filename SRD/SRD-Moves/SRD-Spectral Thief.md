@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: Through the shadows, the user sneaks on its target to steal its life
   force and consume it, leaving the victim with a sense of grief and loss.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If successful, BEFORE the user deals damage with this Move, steal all Attribute
   Increases the foe may have. Reduced Attributes on the foe remain.
 Name: Spectral Thief
@@ -16,7 +16,7 @@ Type: Ghost
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon stabs the foe with its stinger, claws or spikes infused with
   poison.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Double action. Ranged. Roll 2 Chance Dice to Poison the foe per hit.
 Name: Twineedle
 Power: 1
@@ -15,7 +15,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

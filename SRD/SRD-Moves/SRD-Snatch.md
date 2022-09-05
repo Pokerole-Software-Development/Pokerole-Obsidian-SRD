@@ -1,10 +1,10 @@
 ---
-Accuracy1: CLEVER
-Accuracy2: STEALTH
+Accuracy1: Clever
+Accuracy2: Stealth
 Damage1: ''
 Damage2: ''
 Description: The user analyzes the advantages of the foe then makes them their own.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Erase any Increase or Decrease on the foe's Traits, and place them on the
   User instead.
 Name: Snatch
@@ -15,7 +15,7 @@ Type: Dark
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

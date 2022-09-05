@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user freezes the foe from the inside out. Victims of this attack
   will need urgent medical attention.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Deal damage to the Target equal to its remaining HP plus 1 Lethal Damage.
   -5 Accuracy.
 Name: Sheer Cold
@@ -16,7 +16,7 @@ Type: Ice
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

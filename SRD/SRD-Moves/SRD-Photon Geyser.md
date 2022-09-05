@@ -1,12 +1,12 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
+Accuracy1: Dexterity
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon attacks with a large pillar of light that comes out from
   where its foe is standing, either the blazing energy  or the crushing strikes are
   enough to knock someone out.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: This Move's Damage Pool, can be rolled with either the Strength or Special
   Attribute, dealing Physical or Special Damage respectively. Choose whatever is most
   convenient for the user. If using Special then the move is considered Special instead
@@ -19,7 +19,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

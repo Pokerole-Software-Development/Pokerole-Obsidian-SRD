@@ -1,11 +1,11 @@
 ---
-Accuracy1: VITALITY
-Accuracy2: BRAWL
+Accuracy1: Vitality
+Accuracy2: Brawl
 Damage1: ''
 Damage2: ''
 Description: The user hides inside its hard shell to protect itself from incoming
   attacks.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase User's Defense.
 Name: Withdraw
 Power: 0
@@ -15,7 +15,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

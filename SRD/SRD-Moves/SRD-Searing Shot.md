@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The User torches everything around itself in a sudden burst of scarlet
   flames. Everything is brought to cinders in a matter of seconds.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Lethal. All Foes in Range. Roll 3 Chance Dice to Apply Burn 2 those Affected.
 Name: Searing Shot
 Power: 5
@@ -15,7 +15,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

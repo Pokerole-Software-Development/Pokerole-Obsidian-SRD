@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its sharp shell as a weapon to cut the target's fur,
   armor or anything protecting its body.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll 1 Chance Dice to Reduce the foe's Defense.
 Name: Razor Shell
 Power: 3
@@ -15,7 +15,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

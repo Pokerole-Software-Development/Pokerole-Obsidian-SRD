@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
+Accuracy1: Special
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon appears to change its own physiology. This effect changes
   the Type of the user to match another Pokemon in sight.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The Pokemon is now the same type of one of its foes. Lasts for a Scene or
   until this move is used again.
 Name: Reflect Type
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

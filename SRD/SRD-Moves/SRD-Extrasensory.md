@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user attacks with an odd, almost invisible power.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 1 Chance Dice to Flinch the foe.
 Name: Extrasensory
 Power: 3
@@ -14,7 +14,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

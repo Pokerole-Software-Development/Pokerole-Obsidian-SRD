@@ -5,7 +5,7 @@ Damage1: Same as the copied move
 Damage2: ''
 Description: The user will closely watch the movements of the target and will imitate
   them to perfection.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Copies the last move the foe has performed.
 Name: Copycat
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

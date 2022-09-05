@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon bites the foe and injects its poison directly through its
   fangs. After that it just waits for the poison to slowly take care of its foe.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll 5 Chance Dice to Badly Poison the Foe.
 Name: Poison Fang
 Power: 2
@@ -15,7 +15,7 @@ Type: Poison
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

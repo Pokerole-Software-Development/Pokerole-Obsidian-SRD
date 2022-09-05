@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user strikes its foe, then quickly goes back to safety while another
   party Pokemon takes its place.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: The user switches out after dealing damage. The replacement Pokemon arrives
   to ready to fight. Roll its initiative Switcher Move.
 Name: U-Turn
@@ -16,7 +16,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

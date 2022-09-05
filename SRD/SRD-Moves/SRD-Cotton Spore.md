@@ -1,10 +1,10 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: CHANNEL
+Accuracy1: Insight
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon covers the foe in cotton, disrupting its movement speed.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce foe's Dexterity by 2.
 Name: Cotton Spore
 Power: 0
@@ -14,7 +14,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

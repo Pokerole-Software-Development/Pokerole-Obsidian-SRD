@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: Through a mystical connection this Pokemon absorbs the life force of
   earth itself to increase its power.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Charge Move. The user charges, then Increases by 2 its Dexterity, Special
   and Sp. Defense scores on its next Turn.
 Name: Geomancy
@@ -16,7 +16,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

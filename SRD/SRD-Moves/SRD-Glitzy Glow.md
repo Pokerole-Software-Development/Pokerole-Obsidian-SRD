@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The user surrounds itself with a glamorous light, releasing it as a psychic
   blast, the soft glowing particles remain in the field protecting its fabulousness.
-DmgType: SPECIAL
+DmgType: Special
 Effect: If successful, for the next 4 Rounds the User and Allies will receive 1 less
   damage from Special Attacks. This effect does not stack. If the user of this Move
   is at its Final Stage of Evolution, this move fails.
@@ -17,7 +17,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: CHANNEL
+Accuracy1: Insight
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user hits a nerve on the foe, impeding it from performing its previous
   action for a short while.
-DmgType: SUPPORT
+DmgType: Support
 Effect: The Target cannot use the last move it performed. Lasts 4 Rounds.
 Name: Disable
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

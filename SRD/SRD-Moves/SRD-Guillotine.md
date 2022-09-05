@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
+Accuracy1: Dexterity
+Accuracy2: Brawl
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses the sharpest part of its body to almost snap the neck
   of its foe. It is a devastating attack. The foe must be lucky to get out of it alive.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: The target is dealt damage equal to its remaining HP plus 1 Lethal. -5 Accuracy.
 Name: Guillotine
 Power: 0
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

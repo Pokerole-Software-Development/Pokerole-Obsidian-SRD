@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: This Pokemon uses its gills to snap at its target, even if they don't
   have teeth, they can have a crushing strength.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If the foe has not had its Turn this Round, Add 2 Extra Dice to the Damage
   Pool.
 Name: Fishious Rend
@@ -16,7 +16,7 @@ Type: Water
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon creates a large wave of watery ooze that soaks everything
   around. The smell is really unpleasant.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 1 Chance Dice to Poison those affected.
 Name: Sludge Wave
 Power: 3
@@ -15,7 +15,7 @@ Type: Poison
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

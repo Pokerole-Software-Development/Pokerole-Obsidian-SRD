@@ -1,11 +1,11 @@
 ---
-Accuracy1: WILL
-Accuracy2: CHANNEL
+Accuracy1: Will
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The Pokemon prepares to deal and receive damage by muttering something
   not appropriate for kids.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Increase the User's Strength and Defense. Reduce the User's Dexterity. This
   effect is only for Pokemon who are not Ghost-Type.
 Name: Curse (Non-Ghost User)
@@ -16,7 +16,7 @@ Type: Ghost
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,12 +1,12 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Strength
 Damage2: ''
 Description: A blazing pillar of rainbow-colored flames crashes upon the foe, it burns
   and cleanses the evil from within. Those with a pure heart should not fear for they'll
   be unharmed.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Lethal. Roll 5 Chance Dice to Apply Burn 3 to the Foe.
 Name: Sacred Fire
 Power: 4
@@ -16,7 +16,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

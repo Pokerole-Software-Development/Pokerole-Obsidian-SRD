@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The Pokemon looks for a weak spot on its foe, then feeds on its vital
   energy. The foe is left feeling feeble.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Reduce Foe's Strength. User Heals HP equal to the Foe's Current Strength Score.
   Healing in-battle limitations apply.
 Name: Strength Sap
@@ -16,7 +16,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

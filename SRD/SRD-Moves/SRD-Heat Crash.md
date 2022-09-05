@@ -1,10 +1,10 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user slams the target with a body engulfed in fire.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Add 1 Extra Dice to the Damage Pool for every 50 kgs. of weight above the
   target's weight. Up to +4 Extra Dice may be added this way.
 Name: Heat Crash
@@ -15,7 +15,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

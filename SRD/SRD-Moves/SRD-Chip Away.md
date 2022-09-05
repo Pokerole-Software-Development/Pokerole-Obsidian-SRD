@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user looks for an opening and strikes directly there. It nibbles
   bit by bit even the toughest of surfaces.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: This attack ignores Defense and Evasion modifiers on the foe.
 Name: Chip Away
 Power: 3
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

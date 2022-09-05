@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon releases a jolt of static electricity from its fur, that
   makes a cute zapping sound. It's all fun and games until somebody gets paralyzed.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Paralyze the foe. If the user of this Move is at its Final Stage of Evolution,
   this move fails.
 Name: Buzzy Buzz
@@ -16,7 +16,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

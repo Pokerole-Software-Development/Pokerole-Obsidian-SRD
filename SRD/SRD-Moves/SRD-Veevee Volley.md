@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
-Damage2: HAPPINESS
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
+Damage2: Happiness
 Description: Long sessions playing Volley ball with your Pokemon make it very happy.
   During battle, it just replaces the ball with its foe.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Add 1 Die to the Damage Roll for every point of Happiness on the User. If
   the user of this Move is at its Final Stage of Evolution, this move fails.
 Name: Veevee Volley
@@ -16,7 +16,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The User can ignite its fists for a brief moment without any danger of
   getting burned. The foe may not be so lucky.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Fist Based. Roll 1 Chance Dice to apply Burn 2 to the foe.
 Name: Fire Punch
 Power: 3
@@ -15,7 +15,7 @@ Type: Fire
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

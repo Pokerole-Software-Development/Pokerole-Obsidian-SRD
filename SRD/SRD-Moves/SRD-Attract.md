@@ -1,10 +1,10 @@
 ---
-Accuracy1: BEAUTY
-Accuracy2: ALLURE
+Accuracy1: Beauty
+Accuracy2: Allure
 Damage1: ''
 Damage2: ''
 Description: The user makes use of its good looks and attitude to infatuate its foe.
-DmgType: SUPPORT
+DmgType: Support
 Effect: If Successful, Target is now In Love. This Move fails if target is from same
   gender as the User or genderless.
 Name: Attract
@@ -15,7 +15,7 @@ Type: Normal
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

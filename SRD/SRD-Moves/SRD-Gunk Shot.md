@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon shoots a stream of corrosive sludge made with the most toxic
   substances it can produce. Just inhaling the scent can make you feel very sick.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ranged. Roll 3 Chance Dice to Poison the Foe. -2 Accuracy.
 Name: Gunk Shot
 Power: 5
@@ -15,7 +15,7 @@ Type: Poison
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

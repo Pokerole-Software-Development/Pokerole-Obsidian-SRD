@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: INTIMIDATE
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Intimidate
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon makes a dramatic entrance to the battlefield, taking the
   foe by surprise as to who its opponent really is.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Priority 2. This move will only work the First Round the Pokemon is out in
   battle. From the second round on it will fail automatically.
 Name: First Impression
@@ -16,7 +16,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

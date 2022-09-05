@@ -1,10 +1,10 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Dexterity
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user slashes its target with a mighty blade that no armor can stop.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Ignore any Increases to the foe's Defense.
 Name: Sacred Sword
 Power: 3
@@ -14,7 +14,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

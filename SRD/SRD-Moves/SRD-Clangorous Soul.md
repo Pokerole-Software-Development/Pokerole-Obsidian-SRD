@@ -1,11 +1,11 @@
 ---
-Accuracy1: TOUGH
-Accuracy2: PERFORM
+Accuracy1: Tough
+Accuracy2: Perform
 Damage1: ''
 Damage2: ''
 Description: The Pokemon shakes its scales around, to sharpen, shed, and rearrange
   them. It's a bit rough, but in the end the Pokemon feels more focused for battle.
-DmgType: SUPPORT
+DmgType: Support
 Effect: User deals Damage to itself equal to Half of its total HP rounded down. Increase
   User's Strength, Dexterity, Special, Defense and Sp. Defense.
 Name: Clangorous Soul
@@ -16,7 +16,7 @@ Type: Dragon
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

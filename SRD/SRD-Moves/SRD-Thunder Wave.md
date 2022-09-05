@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: A tide of bright lightning streams from the floor onto the foe. The target's
   body will be cramped for hours.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Paralyze the foe. -1 Accuracy.
 Name: Thunder Wave
 Power: 0
@@ -15,7 +15,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

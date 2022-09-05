@@ -1,11 +1,11 @@
 ---
-Accuracy1: DEXTERITY
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Dexterity
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: The Pokemon blows a beautiful silver colered wind that harms the foe,
   the performance may give the user a big confidence boost.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Roll 1 Chance Dice to Increase User's Strength. Dexterity. Special. Defense.
   Sp. Defense.
 Name: Silver Wind
@@ -16,7 +16,7 @@ Type: Bug
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,12 +1,12 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: CHANNEL
-Damage1: SPECIAL
+Accuracy1: Special
+Accuracy2: Channel
+Damage1: Special
 Damage2: ''
 Description: A light beam pierces the battlefield, it deals devastating damage but
   leaves newly grown flowers instead of scorched earth. The user is left feeling very
   tired.
-DmgType: SPECIAL
+DmgType: Special
 Effect: Lethal. Reduce User's Special by 2. -1 Accuracy.
 Name: Fleur Cannon
 Power: 6
@@ -16,7 +16,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

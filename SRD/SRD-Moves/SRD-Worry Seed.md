@@ -1,11 +1,11 @@
 ---
-Accuracy1: SPECIAL
-Accuracy2: NATURE
+Accuracy1: Special
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user plants a seed in its foe. It causes a restless preoccupation
   that won't let it sleep at night.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Until the end of the Scene. Target's Ability is now "Insomnia".
 Name: Worry Seed
 Power: 0
@@ -15,7 +15,7 @@ Type: Grass
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

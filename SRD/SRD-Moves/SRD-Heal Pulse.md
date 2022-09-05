@@ -1,10 +1,10 @@
 ---
-Accuracy1: WILL
-Accuracy2: CHANNEL
+Accuracy1: Will
+Accuracy2: Channel
 Damage1: ''
 Damage2: ''
 Description: The user emits a pulse of energy that heals the wounds of its allies.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Basic Heal. If successful spend 1 Will to activate.
 Name: Heal Pulse
 Power: 0
@@ -14,7 +14,7 @@ Type: Psychic
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: Zekrom delivers a powerful tackle while discharging lightning through
   its body. The foe is rendered unable to move, either by the strike or the electricity
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: Roll 2 Chance Dice to Paralyze the foe. -2 Accuracy.
 Name: Bolt Strike
 Power: 6
@@ -15,7 +15,7 @@ Type: Electric
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

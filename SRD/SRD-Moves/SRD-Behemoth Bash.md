@@ -1,12 +1,12 @@
 ---
-Accuracy1: VITALITY
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Vitality
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The Pokemon becomes a giant energy shield that tramples everything in
   its wake. If the foe is under the effects of the Dynamax phenomenon all its energy
   will be swept away.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: If the Foe is under the effects of Dynamax, This Move becomes Lethal and you
   add 4 Extra Dice to the Damage Pool.
 Name: Behemoth Bash
@@ -17,7 +17,7 @@ Type: Steel
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

@@ -1,11 +1,11 @@
 ---
-Accuracy1: STRENGTH
-Accuracy2: BRAWL
-Damage1: STRENGTH
+Accuracy1: Strength
+Accuracy2: Brawl
+Damage1: Strength
 Damage2: ''
 Description: The user attacks at a close distance to deal lots of damage. The foe
   is also close enough to attack.
-DmgType: PHYSICAL
+DmgType: Physical
 Effect: After dealing damage, Reduce the User's Defense and Sp. Defense.
 Name: Close Combat
 Power: 5
@@ -15,7 +15,7 @@ Type: Fighting
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`

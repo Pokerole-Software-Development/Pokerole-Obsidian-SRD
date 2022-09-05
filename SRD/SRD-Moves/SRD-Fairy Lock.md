@@ -1,11 +1,11 @@
 ---
-Accuracy1: INSIGHT
-Accuracy2: NATURE
+Accuracy1: Insight
+Accuracy2: Nature
 Damage1: ''
 Damage2: ''
 Description: The user moves as if locking a door. It takes a few moments before everyone
   realizes that they are not really trapped.
-DmgType: SUPPORT
+DmgType: Support
 Effect: Blocks. Last 1 Round.
 Name: Fairy Lock
 Power: 0
@@ -15,7 +15,7 @@ Type: Fairy
 
 #PokeroleSRD/Moves
 
-## `= this.name` 
+### `= this.name` 
 *`= this.Description`*
 
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
