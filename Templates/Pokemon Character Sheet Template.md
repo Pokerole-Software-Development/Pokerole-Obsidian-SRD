@@ -23,7 +23,6 @@ Clever: 0
 **Rank**: 
 
 
-
 |           |                                                                                                                                                                            |                                                                               |        |                                                     |                     |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------ | --------------------------------------------------- | ------------------- |
 | Strength  | `= padleft("",this.Species.Strength,"⬤")+padleft("",this.StrengthPoints,"⦿")+padright("",this.Species.MaxStrength - this.StrengthPoints - this.Species.Strength,"⭘")`      | `= this.Species.Strength+this.StrengthPoints`/`= this.Species.MaxStrength`    | Tough  | `= padright(padright("⬤",this.Tough+1,"⦿"),5,"⭘")`  | `= this.Tough+1`/5  |
@@ -53,11 +52,10 @@ for (let i = 0; i < dv.current().Moves.length; i++) {
  
      let acc = ((SpeciesPage[MovePage.Accuracy1]) ? SpeciesPage[MovePage.Accuracy1] : dv.current()[MovePage.Accuracy1]) + ((SpeciesPage[MovePage.Accuracy1]) ? SpeciesPage[MovePage.Accuracy1] : 1) + dv.current()[MovePage.Accuracy2]; 
      
-     let dmg = MovePage.Power + ((SpeciesPage[MovePage.Damage1]) ? SpeciesPage[MovePage.Damage1] + dv.current()[MovePage.Damage1+"Points"] : 0) +((SpeciesPage[MovePage.Damage2]) ? SpeciesPage[MovePage.Damage2] + dv.current()[MovePage.Damage2+"Points"] : 0);
+     let dmg = MovePage.Power + ((SpeciesPage[MovePage.Damage1]) ? SpeciesPage[MovePage.Damage1] + dv.current()[MovePage.Damage1+"Points"] : 0) +((SpeciesPage[MovePage.Damage2]) ? SpeciesPage[MovePage.Damage2] + dv.current()[MovePage.Damage2+"Points"] : 0) + ((SpeciesPage.Type.includes(MovePage.Type) )? 1 : 0);
      
+     dv.paragraph("**Damage: **" + MovePage.Power + ((MovePage.Damage1) ? " + "+MovePage.Damage1 : "") + ((MovePage.Damage2) ? " + "+MovePage.Damage2 : "") +((SpeciesPage.Type.includes(MovePage.Type) )? " + STAB" : "") +  " = **" + dmg +"**");
      dv.paragraph("**Accuracy: **" + MovePage.Accuracy1 +" + "+MovePage.Accuracy2 + " = **" + acc +"**");
-     
-     dv.paragraph("**Damage: **" + MovePage.Power + ((MovePage.Damage1) ? " + "+MovePage.Damage1 : "") + ((MovePage.Damage2) ? " + "+MovePage.Damage2 : "") + " = **" + dmg +"**");
      
  
      dv.paragraph("| Type | Target | Damage Type | Power |\n"+
