@@ -19,8 +19,10 @@ Clever: 0
 **Type**: `= this.Species.Type`
 **Abilities**: `= this.Species.Abilities`
 **HP**: `= this.Species.Vitality + this.VitalityPoints + this.Species.base-hp`
-**Will**: `= this.Species.Insight + this.InsightPoints + 2`
+**Will**:: `= this.Species.Insight + this.InsightPoints + 2`
 **Rank**: 
+**Nature**:
+**Gender**: 
 
 
 |           |                                                                                                                                                                            |                                                                               |        |                                                     |                     |
@@ -49,8 +51,23 @@ for (let i = 0; i < dv.current().Moves.length; i++) {
     let SpeciesPage = dv.page(dv.current().Species)
     
     dv.header(3, MovePage.name)
- 
-     let acc = ((SpeciesPage[MovePage.Accuracy1]) ? SpeciesPage[MovePage.Accuracy1] : dv.current()[MovePage.Accuracy1]) + ((SpeciesPage[MovePage.Accuracy1]) ? SpeciesPage[MovePage.Accuracy1] : 1) + dv.current()[MovePage.Accuracy2]; 
+
+    let acc = "F";
+
+    if (MovePage.Accuracy1 === "Will")
+    {
+        acc = SpeciesPage["Insight"] + dv.current()["InsightPoints"] + 2;
+    } else
+    {
+        acc = (
+                (SpeciesPage[MovePage.Accuracy1]) ? 
+                     SpeciesPage[MovePage.Accuracy1] : 
+                     dv.current()[MovePage.Accuracy1]) 
+                + ((SpeciesPage[MovePage.Accuracy1]) ? 
+                    + dv.current()[MovePage.Accuracy1+"Points"] 
+                    : 1) 
+                + dv.current()[MovePage.Accuracy2]; 
+    }
      
      let dmg = MovePage.Power + ((SpeciesPage[MovePage.Damage1]) ? SpeciesPage[MovePage.Damage1] + dv.current()[MovePage.Damage1+"Points"] : 0) +((SpeciesPage[MovePage.Damage2]) ? SpeciesPage[MovePage.Damage2] + dv.current()[MovePage.Damage2+"Points"] : 0) + ((SpeciesPage.Type.includes(MovePage.Type) )? 1 : 0);
      

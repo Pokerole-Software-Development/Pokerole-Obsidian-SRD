@@ -1,27 +1,27 @@
 {
   "main": {
-    "id": "fb70f40f87108cd2",
+    "id": "5170d320f7a26c61",
     "type": "split",
     "children": [
       {
-        "id": "a1a18d1985e10441",
+        "id": "205986ea69da3d41",
         "type": "leaf",
         "pane-relief:history-v1": {
           "pos": 0,
           "stack": [
             {
-              "leaf": "a1a18d1985e10441",
+              "leaf": "205986ea69da3d41",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Readme.md\",\"mode\":\"preview\",\"source\":true}}",
-              "eState": "{\"scroll\":0}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Pokemon Character Sheet Template.md\",\"mode\":\"source\",\"source\":true}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":14.456140350877194}"
             }
           ]
         },
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Readme.md",
-            "mode": "preview",
+            "file": "Templates/Pokemon Character Sheet Template.md",
+            "mode": "source",
             "source": true
           }
         }
@@ -30,15 +30,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "30264211ad6163d5",
+    "id": "9d1426c2eefb2121",
     "type": "split",
     "children": [
       {
-        "id": "bf6a6ff478f0250a",
+        "id": "1217d1bcb251ac27",
         "type": "tabs",
         "children": [
           {
-            "id": "9b6ea5d07e45cd59",
+            "id": "a530a77c26c314af",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -50,16 +50,12 @@
             }
           },
           {
-            "id": "45a97b3714357edc",
+            "id": "d84f61527a7c7bcb",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#pokexplorers/campaign",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,27 +68,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264
+    "width": 300
   },
   "right": {
-    "id": "979ae253ef206dce",
+    "id": "052d5a9ff80416a0",
     "type": "split",
     "children": [
       {
-        "id": "3990f139fbdda5f1",
+        "id": "bb2898854dbedfd1",
         "type": "tabs",
         "children": [
           {
-            "id": "61b7b431a1ea2c04",
+            "id": "1bfa6d99f5e59a66",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "Templates/Pokemon Character Sheet Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,28 +96,20 @@
             }
           },
           {
-            "id": "a6b7899645de1a30",
+            "id": "1a5db53db4be5dfd",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "Templates/Pokemon Character Sheet Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "a9b74d0265592e72",
+            "id": "dabc8d0ecf30e22c",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
             "state": {
               "type": "tag",
               "state": {
@@ -135,16 +119,12 @@
             }
           },
           {
-            "id": "d6fdab6e244a4603",
+            "id": "84bbc5ab8861e6d7",
             "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
-            },
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "Templates/Pokemon Character Sheet Template.md"
               }
             }
           }
@@ -155,17 +135,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a1a18d1985e10441",
-  "lastOpenFiles": [
-    "Readme.md",
-    "Pasted image 20220901081724.png",
-    "SRD/SRD-Pokedex/SRD-Absol.md",
-    "SRD/SRD-Pokedex/SRD-Mega-Absol.md",
-    "SRD/SRD-Moves/SRD-Slash.md",
-    "SRD/SRD-Learnsets/SRD-Absol-Learnset.md",
-    "SRD/SRD-Learnsets/SRD-Garchomp-Learnset.md",
-    "SRD/SRD-Moves/SRD-Swift.md",
-    "SRD/SRD-Pokedex/SRD-Eevee.md",
-    "Dataview Queries/Move Accuracy with a Given Skill.md"
-  ]
+  "active": "205986ea69da3d41",
+  "lastOpenFiles": []
 }
