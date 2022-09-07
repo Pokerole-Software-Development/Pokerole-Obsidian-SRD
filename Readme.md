@@ -12,7 +12,7 @@
 
 A System Reference Document is a reference for a roleplaying game's mechanics. Given Pokerole supports the entire Pokedex, there's a lot of content to be searched and referenced and this vault makes doing so easier. 
 
-The document is divided into the following sections: *Abilities, Learnsets, Moves, and Pokedex*. The content of each should be self explanatory. Two additional SRD folders exist, *Home and Sprites* which contain Pokemon Home sprites and Box Sprites respectively. 
+The document is divided into the following sections: *Abilities, Learnsets, Moves, Natures, and Pokedex*. The content of each should be self explanatory. Two additional SRD folders exist, *Home and Sprites* which contain Pokemon Home sprites and Box Sprites respectively. 
 
 Some highlights of the SRD's features: 
 
