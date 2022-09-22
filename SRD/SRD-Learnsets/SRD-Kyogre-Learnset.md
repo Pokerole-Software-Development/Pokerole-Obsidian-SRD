@@ -52,6 +52,7 @@ Moves:
 - - Master
   - '[[SRD-Snatch|Snatch]]'
 Name: Kyogre
+Species: '[[SRD-Kyogre|Kyogre]]'
 ---
 
 #PokeroleSRD/Learnsets

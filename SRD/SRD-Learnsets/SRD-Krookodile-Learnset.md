@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Krookodile
+Species: '[[SRD-Krookodile|Krookodile]]'
 ---
 
 #PokeroleSRD/Learnsets

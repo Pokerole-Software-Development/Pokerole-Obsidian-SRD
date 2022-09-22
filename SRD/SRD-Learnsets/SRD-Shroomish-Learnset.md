@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Shroomish
+Species: '[[SRD-Shroomish|Shroomish]]'
 ---
 
 #PokeroleSRD/Learnsets

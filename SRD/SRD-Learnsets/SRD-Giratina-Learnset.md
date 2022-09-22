@@ -42,6 +42,7 @@ Moves:
 - - Master
   - '[[SRD-Gravity|Gravity]]'
 Name: Giratina
+Species: '[[SRD-Giratina|Giratina]]'
 ---
 
 #PokeroleSRD/Learnsets

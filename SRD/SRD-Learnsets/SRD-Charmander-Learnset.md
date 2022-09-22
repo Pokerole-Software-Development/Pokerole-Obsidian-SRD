@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Charmander
+Species: '[[SRD-Charmander|Charmander]]'
 ---
 
 #PokeroleSRD/Learnsets

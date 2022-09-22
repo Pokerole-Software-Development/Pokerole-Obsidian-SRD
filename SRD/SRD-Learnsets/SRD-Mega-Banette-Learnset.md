@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Icy Wind|Icy Wind]]'
 Name: Mega-Banette
+Species: '[[SRD-Mega-Banette|Mega-Banette]]'
 ---
 
 #PokeroleSRD/Learnsets

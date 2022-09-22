@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Simple Beam|Simple Beam]]'
 Name: Malamar
+Species: '[[SRD-Malamar|Malamar]]'
 ---
 
 #PokeroleSRD/Learnsets

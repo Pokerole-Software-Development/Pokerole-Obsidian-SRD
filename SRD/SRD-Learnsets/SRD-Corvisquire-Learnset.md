@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Rock Smash|Rock Smash]]'
 Name: Corvisquire
+Species: '[[SRD-Corvisquire|Corvisquire]]'
 ---
 
 #PokeroleSRD/Learnsets

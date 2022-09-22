@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Comfey
+Species: '[[SRD-Comfey|Comfey]]'
 ---
 
 #PokeroleSRD/Learnsets

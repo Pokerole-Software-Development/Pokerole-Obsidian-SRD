@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Psycho Shift|Psycho Shift]]'
 Name: Sigilyph
+Species: '[[SRD-Sigilyph|Sigilyph]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -4,6 +4,7 @@ Moves:
 - - Starter
   - '[[SRD-Hidden Power|Hidden Power]]'
 Name: Unown
+Species: '[[SRD-Unown|Unown]]'
 ---
 
 #PokeroleSRD/Learnsets

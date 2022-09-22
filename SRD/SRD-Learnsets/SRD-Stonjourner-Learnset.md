@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
 Name: Stonjourner
+Species: '[[SRD-Stonjourner|Stonjourner]]'
 ---
 
 #PokeroleSRD/Learnsets

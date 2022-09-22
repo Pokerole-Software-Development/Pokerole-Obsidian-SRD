@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Amoonguss
+Species: '[[SRD-Amoonguss|Amoonguss]]'
 ---
 
 #PokeroleSRD/Learnsets

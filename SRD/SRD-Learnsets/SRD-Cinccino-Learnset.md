@@ -24,6 +24,7 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Cinccino
+Species: '[[SRD-Cinccino|Cinccino]]'
 ---
 
 #PokeroleSRD/Learnsets

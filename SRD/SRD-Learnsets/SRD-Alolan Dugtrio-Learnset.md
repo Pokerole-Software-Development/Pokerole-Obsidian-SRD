@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Stone Edge|Stone Edge]]'
 Name: Alolan Dugtrio
+Species: '[[SRD-Alolan Dugtrio|Alolan Dugtrio]]'
 ---
 
 #PokeroleSRD/Learnsets

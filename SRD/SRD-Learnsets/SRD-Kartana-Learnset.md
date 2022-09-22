@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Kartana
+Species: '[[SRD-Kartana|Kartana]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Blast Burn|Blast Burn]]'
 Name: Mega-Blaziken
+Species: '[[SRD-Mega-Blaziken|Mega-Blaziken]]'
 ---
 
 #PokeroleSRD/Learnsets

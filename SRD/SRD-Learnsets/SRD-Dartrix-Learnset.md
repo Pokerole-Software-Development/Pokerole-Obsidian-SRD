@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Grass Pledge|Grass Pledge]]'
 Name: Dartrix
+Species: '[[SRD-Dartrix|Dartrix]]'
 ---
 
 #PokeroleSRD/Learnsets

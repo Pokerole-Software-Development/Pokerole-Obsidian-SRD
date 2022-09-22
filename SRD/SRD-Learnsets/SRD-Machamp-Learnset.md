@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Close Combat|Close Combat]]'
 Name: Machamp
+Species: '[[SRD-Machamp|Machamp]]'
 ---
 
 #PokeroleSRD/Learnsets

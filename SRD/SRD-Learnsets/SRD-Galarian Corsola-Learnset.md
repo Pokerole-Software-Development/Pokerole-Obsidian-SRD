@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Destiny Bond|Destiny Bond]]'
 Name: Galarian Corsola
+Species: '[[SRD-Galarian Corsola|Galarian Corsola]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Feather Dance|Feather Dance]]'
 Name: Galarian Farfetch'd
+Species: '[[SRD-Galarian Farfetch''d|Galarian Farfetch''d]]'
 ---
 
 #PokeroleSRD/Learnsets

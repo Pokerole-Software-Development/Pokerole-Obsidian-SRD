@@ -36,6 +36,7 @@ Moves:
 - - Master
   - '[[SRD-Superpower|Superpower]]'
 Name: Volcanion
+Species: '[[SRD-Volcanion|Volcanion]]'
 ---
 
 #PokeroleSRD/Learnsets

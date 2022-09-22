@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Ice Punch|Ice Punch]]'
 Name: Cubchoo
+Species: '[[SRD-Cubchoo|Cubchoo]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -24,6 +24,7 @@ Moves:
 - - Pro
   - '[[SRD-Clear Smog|Clear Smog]]'
 Name: Chandelure
+Species: '[[SRD-Chandelure|Chandelure]]'
 ---
 
 #PokeroleSRD/Learnsets

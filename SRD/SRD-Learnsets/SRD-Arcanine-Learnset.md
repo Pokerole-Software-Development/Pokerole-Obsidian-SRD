@@ -30,6 +30,7 @@ Moves:
 - - Pro
   - '[[SRD-Wild Charge|Wild Charge]]'
 Name: Arcanine
+Species: '[[SRD-Arcanine|Arcanine]]'
 ---
 
 #PokeroleSRD/Learnsets

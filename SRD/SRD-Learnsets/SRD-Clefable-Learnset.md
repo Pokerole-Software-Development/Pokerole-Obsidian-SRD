@@ -26,6 +26,7 @@ Moves:
 - - Pro
   - '[[SRD-Wish|Wish]]'
 Name: Clefable
+Species: '[[SRD-Clefable|Clefable]]'
 ---
 
 #PokeroleSRD/Learnsets

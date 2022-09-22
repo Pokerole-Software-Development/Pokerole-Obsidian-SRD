@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Final Gambit|Final Gambit]]'
 Name: Ninjask
+Species: '[[SRD-Ninjask|Ninjask]]'
 ---
 
 #PokeroleSRD/Learnsets

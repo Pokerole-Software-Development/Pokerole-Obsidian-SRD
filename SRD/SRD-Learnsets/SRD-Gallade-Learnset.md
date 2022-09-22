@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Gallade
+Species: '[[SRD-Gallade|Gallade]]'
 ---
 
 #PokeroleSRD/Learnsets

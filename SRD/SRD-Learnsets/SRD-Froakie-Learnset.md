@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Froakie
+Species: '[[SRD-Froakie|Froakie]]'
 ---
 
 #PokeroleSRD/Learnsets

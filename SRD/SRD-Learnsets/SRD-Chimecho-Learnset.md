@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Stored Power|Stored Power]]'
 Name: Chimecho
+Species: '[[SRD-Chimecho|Chimecho]]'
 ---
 
 #PokeroleSRD/Learnsets

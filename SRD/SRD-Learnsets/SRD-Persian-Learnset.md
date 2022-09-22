@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Assist|Assist]]'
 Name: Persian
+Species: '[[SRD-Persian|Persian]]'
 ---
 
 #PokeroleSRD/Learnsets

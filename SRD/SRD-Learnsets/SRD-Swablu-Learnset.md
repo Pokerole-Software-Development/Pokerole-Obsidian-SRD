@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Agility|Agility]]'
 Name: Swablu
+Species: '[[SRD-Swablu|Swablu]]'
 ---
 
 #PokeroleSRD/Learnsets

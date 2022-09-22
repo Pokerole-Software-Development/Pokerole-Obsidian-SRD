@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Super Fang|Super Fang]]'
 Name: Mega-Mawile
+Species: '[[SRD-Mega-Mawile|Mega-Mawile]]'
 ---
 
 #PokeroleSRD/Learnsets

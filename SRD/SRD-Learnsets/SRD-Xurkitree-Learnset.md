@@ -44,6 +44,7 @@ Moves:
 - - Master
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Xurkitree
+Species: '[[SRD-Xurkitree|Xurkitree]]'
 ---
 
 #PokeroleSRD/Learnsets

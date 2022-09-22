@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Vivillon
+Species: '[[SRD-Vivillon|Vivillon]]'
 ---
 
 #PokeroleSRD/Learnsets

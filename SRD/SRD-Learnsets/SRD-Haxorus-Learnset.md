@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Haxorus
+Species: '[[SRD-Haxorus|Haxorus]]'
 ---
 
 #PokeroleSRD/Learnsets

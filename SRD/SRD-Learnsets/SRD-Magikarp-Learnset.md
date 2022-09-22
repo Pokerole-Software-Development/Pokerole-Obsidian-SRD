@@ -16,6 +16,7 @@ Moves:
 - - Pro
   - '[[SRD-Bounce|Bounce]]'
 Name: Magikarp
+Species: '[[SRD-Magikarp|Magikarp]]'
 ---
 
 #PokeroleSRD/Learnsets

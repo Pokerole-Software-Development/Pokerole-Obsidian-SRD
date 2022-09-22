@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Bergmite
+Species: '[[SRD-Bergmite|Bergmite]]'
 ---
 
 #PokeroleSRD/Learnsets

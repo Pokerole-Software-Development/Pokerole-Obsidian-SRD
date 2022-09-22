@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Counter|Counter]]'
 Name: Goomy
+Species: '[[SRD-Goomy|Goomy]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Detect|Detect]]'
 Name: Staravia
+Species: '[[SRD-Staravia|Staravia]]'
 ---
 
 #PokeroleSRD/Learnsets

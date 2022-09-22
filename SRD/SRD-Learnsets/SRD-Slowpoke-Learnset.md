@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Icy Wind|Icy Wind]]'
 Name: Slowpoke
+Species: '[[SRD-Slowpoke|Slowpoke]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Salamence
+Species: '[[SRD-Salamence|Salamence]]'
 ---
 
 #PokeroleSRD/Learnsets

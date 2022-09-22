@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Charm|Charm]]'
 Name: Nidoran F
+Species: '[[SRD-Nidoran F|Nidoran F]]'
 ---
 
 #PokeroleSRD/Learnsets

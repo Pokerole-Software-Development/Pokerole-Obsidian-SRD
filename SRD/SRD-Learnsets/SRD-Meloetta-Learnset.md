@@ -42,6 +42,7 @@ Moves:
 - - Master
   - '[[SRD-Captivate|Captivate]]'
 Name: Meloetta
+Species: '[[SRD-Meloetta|Meloetta]]'
 ---
 
 #PokeroleSRD/Learnsets

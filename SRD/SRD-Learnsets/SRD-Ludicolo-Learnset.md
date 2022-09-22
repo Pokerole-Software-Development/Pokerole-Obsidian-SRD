@@ -22,6 +22,7 @@ Moves:
 - - Pro
   - '[[SRD-Entrainment|Entrainment]]'
 Name: Ludicolo
+Species: '[[SRD-Ludicolo|Ludicolo]]'
 ---
 
 #PokeroleSRD/Learnsets

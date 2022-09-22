@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Worry Seed|Worry Seed]]'
 Name: Tapu Bulu
+Species: '[[SRD-Tapu Bulu|Tapu Bulu]]'
 ---
 
 #PokeroleSRD/Learnsets

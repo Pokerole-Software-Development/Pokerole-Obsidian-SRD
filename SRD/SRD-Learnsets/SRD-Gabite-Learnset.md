@@ -36,6 +36,7 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Gabite
+Species: '[[SRD-Gabite|Gabite]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Outrage|Outrage]]'
 Name: Pheromosa
+Species: '[[SRD-Pheromosa|Pheromosa]]'
 ---
 
 #PokeroleSRD/Learnsets

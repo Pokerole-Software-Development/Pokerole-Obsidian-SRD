@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Appletun
+Species: '[[SRD-Appletun|Appletun]]'
 ---
 
 #PokeroleSRD/Learnsets

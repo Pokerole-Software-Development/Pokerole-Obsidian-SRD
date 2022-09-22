@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Focus Punch|Focus Punch]]'
 Name: Bibarel
+Species: '[[SRD-Bibarel|Bibarel]]'
 ---
 
 #PokeroleSRD/Learnsets

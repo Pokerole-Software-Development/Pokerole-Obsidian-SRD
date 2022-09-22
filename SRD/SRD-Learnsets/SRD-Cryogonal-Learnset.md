@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Magic Coat|Magic Coat]]'
 Name: Cryogonal
+Species: '[[SRD-Cryogonal|Cryogonal]]'
 ---
 
 #PokeroleSRD/Learnsets

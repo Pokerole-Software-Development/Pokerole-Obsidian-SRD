@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Dragon Rush|Dragon Rush]]'
 Name: Altaria
+Species: '[[SRD-Altaria|Altaria]]'
 ---
 
 #PokeroleSRD/Learnsets

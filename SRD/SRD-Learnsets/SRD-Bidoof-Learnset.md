@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Last Resort|Last Resort]]'
 Name: Bidoof
+Species: '[[SRD-Bidoof|Bidoof]]'
 ---
 
 #PokeroleSRD/Learnsets

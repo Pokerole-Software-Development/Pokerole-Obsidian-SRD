@@ -34,6 +34,7 @@ Moves:
 - - Pro
   - '[[SRD-Yawn|Yawn]]'
 Name: Espurr
+Species: '[[SRD-Espurr|Espurr]]'
 ---
 
 #PokeroleSRD/Learnsets

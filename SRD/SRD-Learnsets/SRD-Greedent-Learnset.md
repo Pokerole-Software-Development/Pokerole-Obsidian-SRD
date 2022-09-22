@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Crunch|Crunch]]'
 Name: Greedent
+Species: '[[SRD-Greedent|Greedent]]'
 ---
 
 #PokeroleSRD/Learnsets

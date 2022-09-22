@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Hurricane|Hurricane]]'
 Name: Frosmoth
+Species: '[[SRD-Frosmoth|Frosmoth]]'
 ---
 
 #PokeroleSRD/Learnsets

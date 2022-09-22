@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Venom Drench|Venom Drench]]'
 Name: Golbat
+Species: '[[SRD-Golbat|Golbat]]'
 ---
 
 #PokeroleSRD/Learnsets

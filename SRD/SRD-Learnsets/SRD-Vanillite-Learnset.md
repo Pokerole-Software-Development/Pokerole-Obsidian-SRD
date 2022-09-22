@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pulse|Water Pulse]]'
 Name: Vanillite
+Species: '[[SRD-Vanillite|Vanillite]]'
 ---
 
 #PokeroleSRD/Learnsets

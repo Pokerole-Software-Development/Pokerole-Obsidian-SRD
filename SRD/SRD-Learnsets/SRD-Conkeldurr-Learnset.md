@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Wide Guard|Wide Guard]]'
 Name: Conkeldurr
+Species: '[[SRD-Conkeldurr|Conkeldurr]]'
 ---
 
 #PokeroleSRD/Learnsets

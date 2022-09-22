@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Punch|Fire Punch]]'
 Name: Diggersby
+Species: '[[SRD-Diggersby|Diggersby]]'
 ---
 
 #PokeroleSRD/Learnsets

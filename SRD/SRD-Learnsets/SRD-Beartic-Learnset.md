@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Play Rough|Play Rough]]'
 Name: Beartic
+Species: '[[SRD-Beartic|Beartic]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Girafarig
+Species: '[[SRD-Girafarig|Girafarig]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Vulpix
+Species: '[[SRD-Vulpix|Vulpix]]'
 ---
 
 #PokeroleSRD/Learnsets

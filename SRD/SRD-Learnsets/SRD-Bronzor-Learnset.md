@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Signal Beam|Signal Beam]]'
 Name: Bronzor
+Species: '[[SRD-Bronzor|Bronzor]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Aromatisse
+Species: '[[SRD-Aromatisse|Aromatisse]]'
 ---
 
 #PokeroleSRD/Learnsets

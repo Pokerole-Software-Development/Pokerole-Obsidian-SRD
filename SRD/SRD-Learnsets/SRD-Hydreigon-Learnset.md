@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Earth Power|Earth Power]]'
 Name: Hydreigon
+Species: '[[SRD-Hydreigon|Hydreigon]]'
 ---
 
 #PokeroleSRD/Learnsets

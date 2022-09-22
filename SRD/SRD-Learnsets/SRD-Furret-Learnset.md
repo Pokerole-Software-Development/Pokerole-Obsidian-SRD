@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Tail|Iron Tail]]'
 Name: Furret
+Species: '[[SRD-Furret|Furret]]'
 ---
 
 #PokeroleSRD/Learnsets

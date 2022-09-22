@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Feather Dance|Feather Dance]]'
 Name: Cramorant
+Species: '[[SRD-Cramorant|Cramorant]]'
 ---
 
 #PokeroleSRD/Learnsets

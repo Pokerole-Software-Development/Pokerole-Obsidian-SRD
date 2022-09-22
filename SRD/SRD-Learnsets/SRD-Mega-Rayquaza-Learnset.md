@@ -52,6 +52,7 @@ Moves:
 - - Master
   - '[[SRD-Cosmic Power|Cosmic Power]]'
 Name: Mega-Rayquaza
+Species: '[[SRD-Mega-Rayquaza|Mega-Rayquaza]]'
 ---
 
 #PokeroleSRD/Learnsets

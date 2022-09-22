@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Blast Burn|Blast Burn]]'
 Name: Infernape
+Species: '[[SRD-Infernape|Infernape]]'
 ---
 
 #PokeroleSRD/Learnsets

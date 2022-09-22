@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Icy Wind|Icy Wind]]'
 Name: Drifblim
+Species: '[[SRD-Drifblim|Drifblim]]'
 ---
 
 #PokeroleSRD/Learnsets

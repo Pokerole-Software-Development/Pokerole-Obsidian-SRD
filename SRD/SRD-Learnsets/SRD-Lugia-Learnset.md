@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Dive|Dive]]'
 Name: Lugia
+Species: '[[SRD-Lugia|Lugia]]'
 ---
 
 #PokeroleSRD/Learnsets

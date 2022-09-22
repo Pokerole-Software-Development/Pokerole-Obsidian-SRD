@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Grass Pledge|Grass Pledge]]'
 Name: Rowlet
+Species: '[[SRD-Rowlet|Rowlet]]'
 ---
 
 #PokeroleSRD/Learnsets

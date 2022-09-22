@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Poison Tail|Poison Tail]]'
 Name: Druddigon
+Species: '[[SRD-Druddigon|Druddigon]]'
 ---
 
 #PokeroleSRD/Learnsets

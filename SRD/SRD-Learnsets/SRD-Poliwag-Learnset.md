@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Refresh|Refresh]]'
 Name: Poliwag
+Species: '[[SRD-Poliwag|Poliwag]]'
 ---
 
 #PokeroleSRD/Learnsets

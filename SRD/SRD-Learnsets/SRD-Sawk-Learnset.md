@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Block|Block]]'
 Name: Sawk
+Species: '[[SRD-Sawk|Sawk]]'
 ---
 
 #PokeroleSRD/Learnsets

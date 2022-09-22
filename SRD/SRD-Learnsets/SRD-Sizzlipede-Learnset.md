@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Venoshock|Venoshock]]'
 Name: Sizzlipede
+Species: '[[SRD-Sizzlipede|Sizzlipede]]'
 ---
 
 #PokeroleSRD/Learnsets

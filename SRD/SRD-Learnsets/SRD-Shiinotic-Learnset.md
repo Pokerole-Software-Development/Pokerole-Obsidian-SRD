@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Light Screen|Light Screen]]'
 Name: Shiinotic
+Species: '[[SRD-Shiinotic|Shiinotic]]'
 ---
 
 #PokeroleSRD/Learnsets

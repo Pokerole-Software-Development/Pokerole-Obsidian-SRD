@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Minccino
+Species: '[[SRD-Minccino|Minccino]]'
 ---
 
 #PokeroleSRD/Learnsets

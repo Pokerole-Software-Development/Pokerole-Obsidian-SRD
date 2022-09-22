@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Grass Pledge|Grass Pledge]]'
 Name: Chespin
+Species: '[[SRD-Chespin|Chespin]]'
 ---
 
 #PokeroleSRD/Learnsets

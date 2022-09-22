@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Icy Wind|Icy Wind]]'
 Name: Banette
+Species: '[[SRD-Banette|Banette]]'
 ---
 
 #PokeroleSRD/Learnsets

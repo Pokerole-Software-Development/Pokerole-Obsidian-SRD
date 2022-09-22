@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Eerie Impulse|Eerie Impulse]]'
 Name: Dedenne
+Species: '[[SRD-Dedenne|Dedenne]]'
 ---
 
 #PokeroleSRD/Learnsets

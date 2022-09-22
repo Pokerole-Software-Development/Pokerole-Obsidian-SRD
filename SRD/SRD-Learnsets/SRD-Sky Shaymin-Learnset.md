@@ -34,6 +34,7 @@ Moves:
 - - Master
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Sky Shaymin
+Species: '[[SRD-Sky Shaymin|Sky Shaymin]]'
 ---
 
 #PokeroleSRD/Learnsets

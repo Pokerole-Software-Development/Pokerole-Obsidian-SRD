@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Substitute|Substitute]]'
 Name: Drowzee
+Species: '[[SRD-Drowzee|Drowzee]]'
 ---
 
 #PokeroleSRD/Learnsets

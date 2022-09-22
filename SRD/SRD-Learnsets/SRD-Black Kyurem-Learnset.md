@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Bolt Strike|Bolt Strike]]'
 Name: Black Kyurem
+Species: '[[SRD-Black Kyurem|Black Kyurem]]'
 ---
 
 #PokeroleSRD/Learnsets

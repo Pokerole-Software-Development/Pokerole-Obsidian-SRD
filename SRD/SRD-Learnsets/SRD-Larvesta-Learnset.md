@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Zen Headbutt|Zen Headbutt]]'
 Name: Larvesta
+Species: '[[SRD-Larvesta|Larvesta]]'
 ---
 
 #PokeroleSRD/Learnsets

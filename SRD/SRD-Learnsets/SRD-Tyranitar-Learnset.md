@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Tyranitar
+Species: '[[SRD-Tyranitar|Tyranitar]]'
 ---
 
 #PokeroleSRD/Learnsets

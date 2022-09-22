@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Signal Beam|Signal Beam]]'
 Name: Seel
+Species: '[[SRD-Seel|Seel]]'
 ---
 
 #PokeroleSRD/Learnsets

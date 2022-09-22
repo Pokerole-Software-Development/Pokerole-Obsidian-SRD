@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Disarming Voice|Disarming Voice]]'
 Name: Panpour
+Species: '[[SRD-Panpour|Panpour]]'
 ---
 
 #PokeroleSRD/Learnsets

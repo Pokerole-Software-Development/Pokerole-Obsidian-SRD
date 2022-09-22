@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Litleo
+Species: '[[SRD-Litleo|Litleo]]'
 ---
 
 #PokeroleSRD/Learnsets

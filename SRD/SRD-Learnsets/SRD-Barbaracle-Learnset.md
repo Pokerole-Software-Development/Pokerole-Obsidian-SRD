@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Barbaracle
+Species: '[[SRD-Barbaracle|Barbaracle]]'
 ---
 
 #PokeroleSRD/Learnsets

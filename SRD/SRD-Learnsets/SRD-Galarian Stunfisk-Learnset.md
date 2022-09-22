@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Counter|Counter]]'
 Name: Galarian Stunfisk
+Species: '[[SRD-Galarian Stunfisk|Galarian Stunfisk]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Golurk
+Species: '[[SRD-Golurk|Golurk]]'
 ---
 
 #PokeroleSRD/Learnsets

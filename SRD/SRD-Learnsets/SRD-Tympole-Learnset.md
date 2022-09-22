@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Icy Wind|Icy Wind]]'
 Name: Tympole
+Species: '[[SRD-Tympole|Tympole]]'
 ---
 
 #PokeroleSRD/Learnsets

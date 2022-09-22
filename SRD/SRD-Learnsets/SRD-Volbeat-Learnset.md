@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Silver Wind|Silver Wind]]'
 Name: Volbeat
+Species: '[[SRD-Volbeat|Volbeat]]'
 ---
 
 #PokeroleSRD/Learnsets

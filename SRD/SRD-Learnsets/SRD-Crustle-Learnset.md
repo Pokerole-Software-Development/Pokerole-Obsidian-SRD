@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Night Slash|Night Slash]]'
 Name: Crustle
+Species: '[[SRD-Crustle|Crustle]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Sobble
+Species: '[[SRD-Sobble|Sobble]]'
 ---
 
 #PokeroleSRD/Learnsets

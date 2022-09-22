@@ -10,6 +10,7 @@ Moves:
 - - Amateur
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Kakuna
+Species: '[[SRD-Kakuna|Kakuna]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Captivate|Captivate]]'
 Name: Beautifly
+Species: '[[SRD-Beautifly|Beautifly]]'
 ---
 
 #PokeroleSRD/Learnsets

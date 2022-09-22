@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Punch|Fire Punch]]'
 Name: Scraggy
+Species: '[[SRD-Scraggy|Scraggy]]'
 ---
 
 #PokeroleSRD/Learnsets

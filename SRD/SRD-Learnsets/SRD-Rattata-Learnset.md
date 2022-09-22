@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Tail|Iron Tail]]'
 Name: Rattata
+Species: '[[SRD-Rattata|Rattata]]'
 ---
 
 #PokeroleSRD/Learnsets

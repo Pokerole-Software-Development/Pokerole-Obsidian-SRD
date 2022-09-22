@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Mud Bomb|Mud Bomb]]'
 Name: Mudbray
+Species: '[[SRD-Mudbray|Mudbray]]'
 ---
 
 #PokeroleSRD/Learnsets

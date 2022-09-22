@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Detect|Detect]]'
 Name: Oshawott
+Species: '[[SRD-Oshawott|Oshawott]]'
 ---
 
 #PokeroleSRD/Learnsets

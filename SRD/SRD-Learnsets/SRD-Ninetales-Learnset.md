@@ -24,6 +24,7 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Ninetales
+Species: '[[SRD-Ninetales|Ninetales]]'
 ---
 
 #PokeroleSRD/Learnsets

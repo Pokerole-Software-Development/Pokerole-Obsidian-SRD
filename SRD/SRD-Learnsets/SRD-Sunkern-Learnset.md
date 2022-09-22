@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Grassy Terrain|Grassy Terrain]]'
 Name: Sunkern
+Species: '[[SRD-Sunkern|Sunkern]]'
 ---
 
 #PokeroleSRD/Learnsets

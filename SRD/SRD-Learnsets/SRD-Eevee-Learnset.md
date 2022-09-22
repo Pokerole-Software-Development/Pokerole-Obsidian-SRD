@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Eevee
+Species: '[[SRD-Eevee|Eevee]]'
 ---
 
 #PokeroleSRD/Learnsets

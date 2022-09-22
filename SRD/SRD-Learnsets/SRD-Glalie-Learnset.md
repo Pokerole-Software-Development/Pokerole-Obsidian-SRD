@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Head|Iron Head]]'
 Name: Glalie
+Species: '[[SRD-Glalie|Glalie]]'
 ---
 
 #PokeroleSRD/Learnsets

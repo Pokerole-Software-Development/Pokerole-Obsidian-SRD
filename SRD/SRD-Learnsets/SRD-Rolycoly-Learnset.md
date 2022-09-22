@@ -36,6 +36,7 @@ Moves:
 - - Pro
   - '[[SRD-Substitute|Substitute]]'
 Name: Rolycoly
+Species: '[[SRD-Rolycoly|Rolycoly]]'
 ---
 
 #PokeroleSRD/Learnsets

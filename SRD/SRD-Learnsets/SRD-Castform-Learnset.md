@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Reflect Type|Reflect Type]]'
 Name: Castform
+Species: '[[SRD-Castform|Castform]]'
 ---
 
 #PokeroleSRD/Learnsets

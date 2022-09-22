@@ -66,6 +66,7 @@ Moves:
 - - Pro
   - '[[SRD-Round|Round]]'
 Name: Toxtricity Amped
+Species: '[[SRD-Toxtricity Amped|Toxtricity Amped]]'
 ---
 
 #PokeroleSRD/Learnsets

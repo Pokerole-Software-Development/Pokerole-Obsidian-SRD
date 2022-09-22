@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Drill Run|Drill Run]]'
 Name: Lycanroc Dusk
+Species: '[[SRD-Lycanroc Dusk|Lycanroc Dusk]]'
 ---
 
 #PokeroleSRD/Learnsets

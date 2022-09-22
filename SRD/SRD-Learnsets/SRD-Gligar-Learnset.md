@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Feint|Feint]]'
 Name: Gligar
+Species: '[[SRD-Gligar|Gligar]]'
 ---
 
 #PokeroleSRD/Learnsets

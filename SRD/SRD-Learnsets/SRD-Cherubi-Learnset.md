@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Nature Power|Nature Power]]'
 Name: Cherubi
+Species: '[[SRD-Cherubi|Cherubi]]'
 ---
 
 #PokeroleSRD/Learnsets

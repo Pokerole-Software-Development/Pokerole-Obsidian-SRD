@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Weather Ball|Weather Ball]]'
 Name: Bellsprout
+Species: '[[SRD-Bellsprout|Bellsprout]]'
 ---
 
 #PokeroleSRD/Learnsets

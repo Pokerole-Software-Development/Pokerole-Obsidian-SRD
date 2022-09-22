@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Nasty Plot|Nasty Plot]]'
 Name: Chatot
+Species: '[[SRD-Chatot|Chatot]]'
 ---
 
 #PokeroleSRD/Learnsets

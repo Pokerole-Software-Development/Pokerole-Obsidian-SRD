@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Ice Punch|Ice Punch]]'
 Name: Machop
+Species: '[[SRD-Machop|Machop]]'
 ---
 
 #PokeroleSRD/Learnsets

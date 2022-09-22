@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Belch|Belch]]'
 Name: Galarian Slowpoke (provisional)
+Species: '[[SRD-Galarian Slowpoke (provisional)|Galarian Slowpoke (provisional)]]'
 ---
 
 #PokeroleSRD/Learnsets

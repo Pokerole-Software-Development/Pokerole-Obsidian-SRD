@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Aerial Ace|Aerial Ace]]'
 Name: Alolan Sandshrew
+Species: '[[SRD-Alolan Sandshrew|Alolan Sandshrew]]'
 ---
 
 #PokeroleSRD/Learnsets

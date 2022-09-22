@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Mist|Mist]]'
 Name: Dratini
+Species: '[[SRD-Dratini|Dratini]]'
 ---
 
 #PokeroleSRD/Learnsets

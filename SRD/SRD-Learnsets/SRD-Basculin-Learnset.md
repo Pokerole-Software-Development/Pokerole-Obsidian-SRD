@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Basculin
+Species: '[[SRD-Basculin|Basculin]]'
 ---
 
 #PokeroleSRD/Learnsets

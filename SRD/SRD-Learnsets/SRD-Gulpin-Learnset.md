@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pulse|Water Pulse]]'
 Name: Gulpin
+Species: '[[SRD-Gulpin|Gulpin]]'
 ---
 
 #PokeroleSRD/Learnsets

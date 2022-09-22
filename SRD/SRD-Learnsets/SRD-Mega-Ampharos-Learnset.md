@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Mega-Ampharos
+Species: '[[SRD-Mega-Ampharos|Mega-Ampharos]]'
 ---
 
 #PokeroleSRD/Learnsets

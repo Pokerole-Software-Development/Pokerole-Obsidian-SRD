@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Psybeam|Psybeam]]'
 Name: Chinchou
+Species: '[[SRD-Chinchou|Chinchou]]'
 ---
 
 #PokeroleSRD/Learnsets

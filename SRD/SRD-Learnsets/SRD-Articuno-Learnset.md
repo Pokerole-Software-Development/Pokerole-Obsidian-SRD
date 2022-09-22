@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Fly|Fly]]'
 Name: Articuno
+Species: '[[SRD-Articuno|Articuno]]'
 ---
 
 #PokeroleSRD/Learnsets

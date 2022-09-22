@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Ice Punch|Ice Punch]]'
 Name: Stufful
+Species: '[[SRD-Stufful|Stufful]]'
 ---
 
 #PokeroleSRD/Learnsets

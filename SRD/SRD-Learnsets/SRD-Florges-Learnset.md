@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Magic Coat|Magic Coat]]'
 Name: Florges
+Species: '[[SRD-Florges|Florges]]'
 ---
 
 #PokeroleSRD/Learnsets

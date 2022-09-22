@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Foul Play|Foul Play]]'
 Name: Voltorb
+Species: '[[SRD-Voltorb|Voltorb]]'
 ---
 
 #PokeroleSRD/Learnsets

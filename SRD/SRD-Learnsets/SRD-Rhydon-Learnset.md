@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Smart Strike|Smart Strike]]'
 Name: Rhydon
+Species: '[[SRD-Rhydon|Rhydon]]'
 ---
 
 #PokeroleSRD/Learnsets

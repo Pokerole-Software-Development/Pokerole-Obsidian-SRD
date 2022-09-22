@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Extrasensory|Extrasensory]]'
 Name: Spoink
+Species: '[[SRD-Spoink|Spoink]]'
 ---
 
 #PokeroleSRD/Learnsets

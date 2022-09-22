@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Hydro Cannon|Hydro Cannon]]'
 Name: Greninja
+Species: '[[SRD-Greninja|Greninja]]'
 ---
 
 #PokeroleSRD/Learnsets

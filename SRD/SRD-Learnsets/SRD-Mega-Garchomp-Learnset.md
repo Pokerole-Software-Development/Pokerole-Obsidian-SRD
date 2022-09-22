@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Mega-Garchomp
+Species: '[[SRD-Mega-Garchomp|Mega-Garchomp]]'
 ---
 
 #PokeroleSRD/Learnsets

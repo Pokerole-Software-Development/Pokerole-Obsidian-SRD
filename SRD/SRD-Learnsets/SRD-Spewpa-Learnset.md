@@ -14,6 +14,7 @@ Moves:
 - - Pro
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Spewpa
+Species: '[[SRD-Spewpa|Spewpa]]'
 ---
 
 #PokeroleSRD/Learnsets

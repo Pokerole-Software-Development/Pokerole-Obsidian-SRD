@@ -20,6 +20,7 @@ Moves:
 - - Pro
   - '[[SRD-String Shot|String Shot]]'
 Name: Burmy
+Species: '[[SRD-Burmy|Burmy]]'
 ---
 
 #PokeroleSRD/Learnsets

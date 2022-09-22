@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Charm|Charm]]'
 Name: Growlithe
+Species: '[[SRD-Growlithe|Growlithe]]'
 ---
 
 #PokeroleSRD/Learnsets

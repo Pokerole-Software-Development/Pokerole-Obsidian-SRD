@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Thunder Punch|Thunder Punch]]'
 Name: Lombre
+Species: '[[SRD-Lombre|Lombre]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Screech|Screech]]'
 Name: Zebstrika
+Species: '[[SRD-Zebstrika|Zebstrika]]'
 ---
 
 #PokeroleSRD/Learnsets

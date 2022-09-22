@@ -26,6 +26,7 @@ Moves:
 - - Pro
   - '[[SRD-Pin Missile|Pin Missile]]'
 Name: Roserade
+Species: '[[SRD-Roserade|Roserade]]'
 ---
 
 #PokeroleSRD/Learnsets

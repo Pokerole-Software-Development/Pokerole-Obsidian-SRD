@@ -22,6 +22,7 @@ Moves:
 - - Pro
   - '[[SRD-Seismic Toss|Seismic Toss]]'
 Name: Tyrogue
+Species: '[[SRD-Tyrogue|Tyrogue]]'
 ---
 
 #PokeroleSRD/Learnsets

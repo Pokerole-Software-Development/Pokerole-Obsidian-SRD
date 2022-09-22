@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Switcheroo|Switcheroo]]'
 Name: Alolan Rattata
+Species: '[[SRD-Alolan Rattata|Alolan Rattata]]'
 ---
 
 #PokeroleSRD/Learnsets

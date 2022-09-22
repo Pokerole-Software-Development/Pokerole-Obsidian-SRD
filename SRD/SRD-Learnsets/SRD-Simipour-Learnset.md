@@ -22,6 +22,7 @@ Moves:
 - - Pro
   - '[[SRD-Gunk Shot|Gunk Shot]]'
 Name: Simipour
+Species: '[[SRD-Simipour|Simipour]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Leaf Storm|Leaf Storm]]'
 Name: Rotom Mow
+Species: '[[SRD-Rotom Mow|Rotom Mow]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Round|Round]]'
 Name: Oricorio Ghost
+Species: '[[SRD-Oricorio Ghost|Oricorio Ghost]]'
 ---
 
 #PokeroleSRD/Learnsets

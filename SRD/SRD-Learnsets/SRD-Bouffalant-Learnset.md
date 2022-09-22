@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Bouffalant
+Species: '[[SRD-Bouffalant|Bouffalant]]'
 ---
 
 #PokeroleSRD/Learnsets

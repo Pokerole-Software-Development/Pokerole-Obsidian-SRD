@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Worry Seed|Worry Seed]]'
 Name: Maractus
+Species: '[[SRD-Maractus|Maractus]]'
 ---
 
 #PokeroleSRD/Learnsets

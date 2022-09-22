@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Kommo-o
+Species: '[[SRD-Kommo-o|Kommo-o]]'
 ---
 
 #PokeroleSRD/Learnsets

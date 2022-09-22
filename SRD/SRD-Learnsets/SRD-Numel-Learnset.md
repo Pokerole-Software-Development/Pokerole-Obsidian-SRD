@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Numel
+Species: '[[SRD-Numel|Numel]]'
 ---
 
 #PokeroleSRD/Learnsets

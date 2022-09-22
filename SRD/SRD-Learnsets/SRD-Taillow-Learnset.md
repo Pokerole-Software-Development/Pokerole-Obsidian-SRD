@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Rage|Rage]]'
 Name: Taillow
+Species: '[[SRD-Taillow|Taillow]]'
 ---
 
 #PokeroleSRD/Learnsets

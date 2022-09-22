@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Blast Burn|Blast Burn]]'
 Name: Mega-Charizard Y
+Species: '[[SRD-Mega-Charizard Y|Mega-Charizard Y]]'
 ---
 
 #PokeroleSRD/Learnsets

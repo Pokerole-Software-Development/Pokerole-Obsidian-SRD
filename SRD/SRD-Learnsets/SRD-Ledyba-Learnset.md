@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Ledyba
+Species: '[[SRD-Ledyba|Ledyba]]'
 ---
 
 #PokeroleSRD/Learnsets

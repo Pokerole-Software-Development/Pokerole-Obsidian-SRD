@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Grumpig
+Species: '[[SRD-Grumpig|Grumpig]]'
 ---
 
 #PokeroleSRD/Learnsets

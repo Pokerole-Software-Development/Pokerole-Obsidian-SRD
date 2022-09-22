@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Roost|Roost]]'
 Name: Farfetch'd
+Species: '[[SRD-Farfetch''d|Farfetch''d]]'
 ---
 
 #PokeroleSRD/Learnsets

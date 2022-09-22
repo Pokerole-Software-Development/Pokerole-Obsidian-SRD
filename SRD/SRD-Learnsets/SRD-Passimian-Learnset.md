@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Feint|Feint]]'
 Name: Passimian
+Species: '[[SRD-Passimian|Passimian]]'
 ---
 
 #PokeroleSRD/Learnsets

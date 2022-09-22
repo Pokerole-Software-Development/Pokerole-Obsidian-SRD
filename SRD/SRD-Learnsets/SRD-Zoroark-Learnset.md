@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Zoroark
+Species: '[[SRD-Zoroark|Zoroark]]'
 ---
 
 #PokeroleSRD/Learnsets

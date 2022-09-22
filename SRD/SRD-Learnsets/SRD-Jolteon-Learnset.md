@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Jolteon
+Species: '[[SRD-Jolteon|Jolteon]]'
 ---
 
 #PokeroleSRD/Learnsets

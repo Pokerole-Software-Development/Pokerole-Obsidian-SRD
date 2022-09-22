@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Wonder Room|Wonder Room]]'
 Name: Kadabra
+Species: '[[SRD-Kadabra|Kadabra]]'
 ---
 
 #PokeroleSRD/Learnsets

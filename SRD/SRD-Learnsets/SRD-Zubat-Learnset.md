@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Venom Drench|Venom Drench]]'
 Name: Zubat
+Species: '[[SRD-Zubat|Zubat]]'
 ---
 
 #PokeroleSRD/Learnsets

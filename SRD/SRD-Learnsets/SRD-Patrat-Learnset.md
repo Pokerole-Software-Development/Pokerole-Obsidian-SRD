@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Tail|Aqua Tail]]'
 Name: Patrat
+Species: '[[SRD-Patrat|Patrat]]'
 ---
 
 #PokeroleSRD/Learnsets

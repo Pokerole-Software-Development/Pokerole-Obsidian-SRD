@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Luxray
+Species: '[[SRD-Luxray|Luxray]]'
 ---
 
 #PokeroleSRD/Learnsets

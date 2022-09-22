@@ -42,6 +42,7 @@ Moves:
 - - Master
   - '[[SRD-Topsy-Turvy|Topsy-Turvy]]'
 Name: Reshiram
+Species: '[[SRD-Reshiram|Reshiram]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Haunter
+Species: '[[SRD-Haunter|Haunter]]'
 ---
 
 #PokeroleSRD/Learnsets

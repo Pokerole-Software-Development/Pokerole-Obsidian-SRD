@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Magnitude|Magnitude]]'
 Name: Roggenrola
+Species: '[[SRD-Roggenrola|Roggenrola]]'
 ---
 
 #PokeroleSRD/Learnsets

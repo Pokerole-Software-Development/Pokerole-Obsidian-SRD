@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Crunch|Crunch]]'
 Name: Skwovet
+Species: '[[SRD-Skwovet|Skwovet]]'
 ---
 
 #PokeroleSRD/Learnsets

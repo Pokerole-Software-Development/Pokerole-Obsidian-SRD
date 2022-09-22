@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Zen Headbutt|Zen Headbutt]]'
 Name: Lickitung
+Species: '[[SRD-Lickitung|Lickitung]]'
 ---
 
 #PokeroleSRD/Learnsets

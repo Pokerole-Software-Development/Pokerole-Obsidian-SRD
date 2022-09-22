@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Flatter|Flatter]]'
 Name: Alolan Meowth
+Species: '[[SRD-Alolan Meowth|Alolan Meowth]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Head|Iron Head]]'
 Name: Excadrill
+Species: '[[SRD-Excadrill|Excadrill]]'
 ---
 
 #PokeroleSRD/Learnsets

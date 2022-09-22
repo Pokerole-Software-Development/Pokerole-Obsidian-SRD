@@ -42,6 +42,7 @@ Moves:
 - - Master
   - '[[SRD-Nature Power|Nature Power]]'
 Name: Regigigas
+Species: '[[SRD-Regigigas|Regigigas]]'
 ---
 
 #PokeroleSRD/Learnsets

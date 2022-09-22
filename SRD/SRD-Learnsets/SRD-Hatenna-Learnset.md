@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Aromatic Mist|Aromatic Mist]]'
 Name: Hatenna
+Species: '[[SRD-Hatenna|Hatenna]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Acupressure|Acupressure]]'
 Name: Shuckle
+Species: '[[SRD-Shuckle|Shuckle]]'
 ---
 
 #PokeroleSRD/Learnsets

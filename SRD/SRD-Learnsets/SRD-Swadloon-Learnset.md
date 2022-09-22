@@ -28,6 +28,7 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Swadloon
+Species: '[[SRD-Swadloon|Swadloon]]'
 ---
 
 #PokeroleSRD/Learnsets

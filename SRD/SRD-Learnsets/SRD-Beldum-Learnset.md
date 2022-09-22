@@ -12,6 +12,7 @@ Moves:
 - - Pro
   - '[[SRD-Headbutt|Headbutt]]'
 Name: Beldum
+Species: '[[SRD-Beldum|Beldum]]'
 ---
 
 #PokeroleSRD/Learnsets

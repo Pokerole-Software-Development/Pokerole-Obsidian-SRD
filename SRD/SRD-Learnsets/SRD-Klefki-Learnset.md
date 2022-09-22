@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Magnet Rise|Magnet Rise]]'
 Name: Klefki
+Species: '[[SRD-Klefki|Klefki]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Dazzling Gleam|Dazzling Gleam]]'
 Name: Solgaleo
+Species: '[[SRD-Solgaleo|Solgaleo]]'
 ---
 
 #PokeroleSRD/Learnsets

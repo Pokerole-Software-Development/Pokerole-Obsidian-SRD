@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Spit Up|Spit Up]]'
 Name: Dewpider
+Species: '[[SRD-Dewpider|Dewpider]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Curse|Curse]]'
 Name: Exeggcute
+Species: '[[SRD-Exeggcute|Exeggcute]]'
 ---
 
 #PokeroleSRD/Learnsets

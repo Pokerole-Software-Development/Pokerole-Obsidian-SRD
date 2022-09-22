@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Protect|Protect]]'
 Name: Dubwool
+Species: '[[SRD-Dubwool|Dubwool]]'
 ---
 
 #PokeroleSRD/Learnsets

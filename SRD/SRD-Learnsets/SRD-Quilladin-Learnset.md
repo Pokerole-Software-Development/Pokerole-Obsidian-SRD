@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Grass Pledge|Grass Pledge]]'
 Name: Quilladin
+Species: '[[SRD-Quilladin|Quilladin]]'
 ---
 
 #PokeroleSRD/Learnsets

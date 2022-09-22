@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Icy Wind|Icy Wind]]'
 Name: Squirtle
+Species: '[[SRD-Squirtle|Squirtle]]'
 ---
 
 #PokeroleSRD/Learnsets

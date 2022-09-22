@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Magic Coat|Magic Coat]]'
 Name: Floette
+Species: '[[SRD-Floette|Floette]]'
 ---
 
 #PokeroleSRD/Learnsets

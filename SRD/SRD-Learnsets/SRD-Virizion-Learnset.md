@@ -36,6 +36,7 @@ Moves:
 - - Master
   - '[[SRD-Attract|Attract]]'
 Name: Virizion
+Species: '[[SRD-Virizion|Virizion]]'
 ---
 
 #PokeroleSRD/Learnsets

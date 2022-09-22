@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Tickle|Tickle]]'
 Name: Pyukumuku
+Species: '[[SRD-Pyukumuku|Pyukumuku]]'
 ---
 
 #PokeroleSRD/Learnsets

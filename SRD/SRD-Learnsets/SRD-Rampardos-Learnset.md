@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Rampardos
+Species: '[[SRD-Rampardos|Rampardos]]'
 ---
 
 #PokeroleSRD/Learnsets

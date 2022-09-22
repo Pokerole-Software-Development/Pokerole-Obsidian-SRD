@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Synthesis|Synthesis]]'
 Name: Cherrim
+Species: '[[SRD-Cherrim|Cherrim]]'
 ---
 
 #PokeroleSRD/Learnsets

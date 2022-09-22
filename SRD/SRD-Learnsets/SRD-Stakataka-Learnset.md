@@ -34,6 +34,7 @@ Moves:
 - - Master
   - '[[SRD-Trick Room|Trick Room]]'
 Name: Stakataka
+Species: '[[SRD-Stakataka|Stakataka]]'
 ---
 
 #PokeroleSRD/Learnsets

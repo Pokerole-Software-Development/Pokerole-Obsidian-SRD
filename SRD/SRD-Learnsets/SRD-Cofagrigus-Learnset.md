@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Heal Block|Heal Block]]'
 Name: Cofagrigus
+Species: '[[SRD-Cofagrigus|Cofagrigus]]'
 ---
 
 #PokeroleSRD/Learnsets

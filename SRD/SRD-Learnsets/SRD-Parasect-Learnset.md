@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Parasect
+Species: '[[SRD-Parasect|Parasect]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Silver Wind|Silver Wind]]'
 Name: Illumise
+Species: '[[SRD-Illumise|Illumise]]'
 ---
 
 #PokeroleSRD/Learnsets

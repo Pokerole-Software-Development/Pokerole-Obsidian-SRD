@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Destiny Bond|Destiny Bond]]'
 Name: Cursola
+Species: '[[SRD-Cursola|Cursola]]'
 ---
 
 #PokeroleSRD/Learnsets

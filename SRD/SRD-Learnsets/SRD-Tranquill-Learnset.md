@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Hypnosis|Hypnosis]]'
 Name: Tranquill
+Species: '[[SRD-Tranquill|Tranquill]]'
 ---
 
 #PokeroleSRD/Learnsets

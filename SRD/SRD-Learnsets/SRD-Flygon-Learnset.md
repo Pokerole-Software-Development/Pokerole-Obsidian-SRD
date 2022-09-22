@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Flygon
+Species: '[[SRD-Flygon|Flygon]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Grass Pledge|Grass Pledge]]'
 Name: Bulbasaur
+Species: '[[SRD-Bulbasaur|Bulbasaur]]'
 ---
 
 #PokeroleSRD/Learnsets

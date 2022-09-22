@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Role Play|Role Play]]'
 Name: Latios
+Species: '[[SRD-Latios|Latios]]'
 ---
 
 #PokeroleSRD/Learnsets

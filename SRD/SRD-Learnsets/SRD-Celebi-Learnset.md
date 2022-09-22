@@ -38,6 +38,7 @@ Moves:
 - - Master
   - '[[SRD-Worry Seed|Worry Seed]]'
 Name: Celebi
+Species: '[[SRD-Celebi|Celebi]]'
 ---
 
 #PokeroleSRD/Learnsets

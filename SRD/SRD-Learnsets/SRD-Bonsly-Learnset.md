@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Foul Play|Foul Play]]'
 Name: Bonsly
+Species: '[[SRD-Bonsly|Bonsly]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Psybeam|Psybeam]]'
 Name: Lanturn
+Species: '[[SRD-Lanturn|Lanturn]]'
 ---
 
 #PokeroleSRD/Learnsets

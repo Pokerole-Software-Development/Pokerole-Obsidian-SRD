@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Mega-Salamence
+Species: '[[SRD-Mega-Salamence|Mega-Salamence]]'
 ---
 
 #PokeroleSRD/Learnsets

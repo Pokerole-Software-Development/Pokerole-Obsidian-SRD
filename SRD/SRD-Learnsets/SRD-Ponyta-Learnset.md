@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Hypnosis|Hypnosis]]'
 Name: Ponyta
+Species: '[[SRD-Ponyta|Ponyta]]'
 ---
 
 #PokeroleSRD/Learnsets

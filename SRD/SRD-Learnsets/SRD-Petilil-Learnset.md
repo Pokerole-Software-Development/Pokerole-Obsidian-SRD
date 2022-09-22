@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Grass Whistle|Grass Whistle]]'
 Name: Petilil
+Species: '[[SRD-Petilil|Petilil]]'
 ---
 
 #PokeroleSRD/Learnsets

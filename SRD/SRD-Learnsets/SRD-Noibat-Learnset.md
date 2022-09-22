@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Noibat
+Species: '[[SRD-Noibat|Noibat]]'
 ---
 
 #PokeroleSRD/Learnsets

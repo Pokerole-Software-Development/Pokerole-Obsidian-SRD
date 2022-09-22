@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Carnivine
+Species: '[[SRD-Carnivine|Carnivine]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Charge Beam|Charge Beam]]'
 Name: Vikavolt
+Species: '[[SRD-Vikavolt|Vikavolt]]'
 ---
 
 #PokeroleSRD/Learnsets

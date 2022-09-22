@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Destiny Bond|Destiny Bond]]'
 Name: Shuppet
+Species: '[[SRD-Shuppet|Shuppet]]'
 ---
 
 #PokeroleSRD/Learnsets

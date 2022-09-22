@@ -36,6 +36,7 @@ Moves:
 - - Master
   - '[[SRD-Safeguard|Safeguard]]'
 Name: Zamazenta
+Species: '[[SRD-Zamazenta|Zamazenta]]'
 ---
 
 #PokeroleSRD/Learnsets

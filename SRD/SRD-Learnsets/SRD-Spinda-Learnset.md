@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Helping Hand|Helping Hand]]'
 Name: Spinda
+Species: '[[SRD-Spinda|Spinda]]'
 ---
 
 #PokeroleSRD/Learnsets

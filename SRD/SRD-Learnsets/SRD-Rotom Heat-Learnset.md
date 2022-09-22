@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Overheat|Overheat]]'
 Name: Rotom Heat
+Species: '[[SRD-Rotom Heat|Rotom Heat]]'
 ---
 
 #PokeroleSRD/Learnsets

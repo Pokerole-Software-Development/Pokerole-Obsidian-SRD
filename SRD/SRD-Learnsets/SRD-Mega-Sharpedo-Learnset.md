@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Spite|Spite]]'
 Name: Mega-Sharpedo
+Species: '[[SRD-Mega-Sharpedo|Mega-Sharpedo]]'
 ---
 
 #PokeroleSRD/Learnsets

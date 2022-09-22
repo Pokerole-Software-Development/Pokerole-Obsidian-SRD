@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Whirlpool|Whirlpool]]'
 Name: Exploud
+Species: '[[SRD-Exploud|Exploud]]'
 ---
 
 #PokeroleSRD/Learnsets

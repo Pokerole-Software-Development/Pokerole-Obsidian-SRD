@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Hypnosis|Hypnosis]]'
 Name: Pidove
+Species: '[[SRD-Pidove|Pidove]]'
 ---
 
 #PokeroleSRD/Learnsets

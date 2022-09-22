@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Wonder Room|Wonder Room]]'
 Name: Gardevoir
+Species: '[[SRD-Gardevoir|Gardevoir]]'
 ---
 
 #PokeroleSRD/Learnsets

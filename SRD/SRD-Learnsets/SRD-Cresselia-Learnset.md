@@ -42,6 +42,7 @@ Moves:
 - - Master
   - '[[SRD-Reflect|Reflect]]'
 Name: Cresselia
+Species: '[[SRD-Cresselia|Cresselia]]'
 ---
 
 #PokeroleSRD/Learnsets

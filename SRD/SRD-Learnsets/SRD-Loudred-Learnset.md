@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Icy Wind|Icy Wind]]'
 Name: Loudred
+Species: '[[SRD-Loudred|Loudred]]'
 ---
 
 #PokeroleSRD/Learnsets

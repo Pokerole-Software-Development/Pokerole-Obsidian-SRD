@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Kecleon
+Species: '[[SRD-Kecleon|Kecleon]]'
 ---
 
 #PokeroleSRD/Learnsets

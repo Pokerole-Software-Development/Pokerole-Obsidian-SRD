@@ -58,6 +58,7 @@ Moves:
 - - Master
   - '[[SRD-Origin Pulse|Origin Pulse]]'
 Name: Arceus
+Species: '[[SRD-Arceus|Arceus]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Charm|Charm]]'
 Name: Nidorina
+Species: '[[SRD-Nidorina|Nidorina]]'
 ---
 
 #PokeroleSRD/Learnsets

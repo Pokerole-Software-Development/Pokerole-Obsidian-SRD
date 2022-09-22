@@ -32,6 +32,7 @@ Moves:
 - - Pro
   - '[[SRD-Sky Attack|Sky Attack]]'
 Name: Delibird
+Species: '[[SRD-Delibird|Delibird]]'
 ---
 
 #PokeroleSRD/Learnsets

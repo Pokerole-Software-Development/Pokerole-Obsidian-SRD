@@ -58,6 +58,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Onix
+Species: '[[SRD-Onix|Onix]]'
 ---
 
 #PokeroleSRD/Learnsets

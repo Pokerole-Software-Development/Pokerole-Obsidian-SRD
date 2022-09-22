@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Aurora Beam|Aurora Beam]]'
 Name: Finneon
+Species: '[[SRD-Finneon|Finneon]]'
 ---
 
 #PokeroleSRD/Learnsets

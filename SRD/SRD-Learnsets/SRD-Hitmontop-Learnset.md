@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Twister|Twister]]'
 Name: Hitmontop
+Species: '[[SRD-Hitmontop|Hitmontop]]'
 ---
 
 #PokeroleSRD/Learnsets

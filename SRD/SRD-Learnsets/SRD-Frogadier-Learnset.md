@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Frogadier
+Species: '[[SRD-Frogadier|Frogadier]]'
 ---
 
 #PokeroleSRD/Learnsets

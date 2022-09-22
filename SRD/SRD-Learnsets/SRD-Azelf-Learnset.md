@@ -38,6 +38,7 @@ Moves:
 - - Master
   - '[[SRD-Zen Headbutt|Zen Headbutt]]'
 Name: Azelf
+Species: '[[SRD-Azelf|Azelf]]'
 ---
 
 #PokeroleSRD/Learnsets

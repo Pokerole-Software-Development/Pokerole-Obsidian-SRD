@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Close Combat|Close Combat]]'
 Name: Mudsdale
+Species: '[[SRD-Mudsdale|Mudsdale]]'
 ---
 
 #PokeroleSRD/Learnsets

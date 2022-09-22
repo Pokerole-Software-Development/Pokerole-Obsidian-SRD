@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Tyrantrum
+Species: '[[SRD-Tyrantrum|Tyrantrum]]'
 ---
 
 #PokeroleSRD/Learnsets

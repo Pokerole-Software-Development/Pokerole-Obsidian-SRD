@@ -34,6 +34,7 @@ Moves:
 - - Pro
   - '[[SRD-Nasty Plot|Nasty Plot]]'
 Name: Mismagius
+Species: '[[SRD-Mismagius|Mismagius]]'
 ---
 
 #PokeroleSRD/Learnsets

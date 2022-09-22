@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Psychic|Psychic]]'
 Name: Darmanitan
+Species: '[[SRD-Darmanitan|Darmanitan]]'
 ---
 
 #PokeroleSRD/Learnsets

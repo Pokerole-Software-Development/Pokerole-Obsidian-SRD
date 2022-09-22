@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Metronome|Metronome]]'
 Name: Hypno
+Species: '[[SRD-Hypno|Hypno]]'
 ---
 
 #PokeroleSRD/Learnsets

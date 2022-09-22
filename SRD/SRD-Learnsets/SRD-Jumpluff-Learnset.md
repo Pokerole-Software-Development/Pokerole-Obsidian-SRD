@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Swords Dance|Swords Dance]]'
 Name: Jumpluff
+Species: '[[SRD-Jumpluff|Jumpluff]]'
 ---
 
 #PokeroleSRD/Learnsets

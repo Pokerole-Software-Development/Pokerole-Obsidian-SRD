@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Haze|Haze]]'
 Name: Natu
+Species: '[[SRD-Natu|Natu]]'
 ---
 
 #PokeroleSRD/Learnsets

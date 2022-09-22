@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Cacturne
+Species: '[[SRD-Cacturne|Cacturne]]'
 ---
 
 #PokeroleSRD/Learnsets

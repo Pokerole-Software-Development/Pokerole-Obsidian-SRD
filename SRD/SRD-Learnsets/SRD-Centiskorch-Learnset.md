@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Thunder Fang|Thunder Fang]]'
 Name: Centiskorch
+Species: '[[SRD-Centiskorch|Centiskorch]]'
 ---
 
 #PokeroleSRD/Learnsets

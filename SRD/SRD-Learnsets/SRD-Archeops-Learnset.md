@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Head Smash|Head Smash]]'
 Name: Archeops
+Species: '[[SRD-Archeops|Archeops]]'
 ---
 
 #PokeroleSRD/Learnsets

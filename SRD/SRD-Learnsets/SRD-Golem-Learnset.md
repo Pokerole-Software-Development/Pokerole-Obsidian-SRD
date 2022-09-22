@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Thunder Punch|Thunder Punch]]'
 Name: Golem
+Species: '[[SRD-Golem|Golem]]'
 ---
 
 #PokeroleSRD/Learnsets

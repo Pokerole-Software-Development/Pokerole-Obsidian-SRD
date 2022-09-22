@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Quick Guard|Quick Guard]]'
 Name: Galarian Zigzagoon
+Species: '[[SRD-Galarian Zigzagoon|Galarian Zigzagoon]]'
 ---
 
 #PokeroleSRD/Learnsets

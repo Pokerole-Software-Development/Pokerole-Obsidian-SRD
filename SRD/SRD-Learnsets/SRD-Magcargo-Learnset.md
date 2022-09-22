@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Self Destruct|Self Destruct]]'
 Name: Magcargo
+Species: '[[SRD-Magcargo|Magcargo]]'
 ---
 
 #PokeroleSRD/Learnsets

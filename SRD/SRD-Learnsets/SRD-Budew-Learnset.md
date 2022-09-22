@@ -26,6 +26,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Budew
+Species: '[[SRD-Budew|Budew]]'
 ---
 
 #PokeroleSRD/Learnsets

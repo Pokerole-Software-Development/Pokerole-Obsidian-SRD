@@ -34,6 +34,7 @@ Moves:
 - - Master
   - '[[SRD-Zen Headbutt|Zen Headbutt]]'
 Name: Shaymin
+Species: '[[SRD-Shaymin|Shaymin]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Signal Beam|Signal Beam]]'
 Name: Magnemite
+Species: '[[SRD-Magnemite|Magnemite]]'
 ---
 
 #PokeroleSRD/Learnsets

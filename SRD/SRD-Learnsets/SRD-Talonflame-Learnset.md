@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Talonflame
+Species: '[[SRD-Talonflame|Talonflame]]'
 ---
 
 #PokeroleSRD/Learnsets

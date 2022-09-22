@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Teleport|Teleport]]'
 Name: Beheeyem
+Species: '[[SRD-Beheeyem|Beheeyem]]'
 ---
 
 #PokeroleSRD/Learnsets

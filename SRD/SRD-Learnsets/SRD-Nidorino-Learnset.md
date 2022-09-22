@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Smart Strike|Smart Strike]]'
 Name: Nidorino
+Species: '[[SRD-Nidorino|Nidorino]]'
 ---
 
 #PokeroleSRD/Learnsets

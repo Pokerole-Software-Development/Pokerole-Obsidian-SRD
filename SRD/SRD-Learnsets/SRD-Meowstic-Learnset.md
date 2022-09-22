@@ -64,6 +64,7 @@ Moves:
 - - Pro
   - '[[SRD-Yawn|Yawn]]'
 Name: Meowstic
+Species: '[[SRD-Meowstic|Meowstic]]'
 ---
 
 #PokeroleSRD/Learnsets

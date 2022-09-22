@@ -36,6 +36,7 @@ Moves:
 - - Pro
   - '[[SRD-Self Destruct|Self Destruct]]'
 Name: Cloyster
+Species: '[[SRD-Cloyster|Cloyster]]'
 ---
 
 #PokeroleSRD/Learnsets

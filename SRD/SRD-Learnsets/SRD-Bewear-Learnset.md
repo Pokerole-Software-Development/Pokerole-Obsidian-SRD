@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Giga Impact|Giga Impact]]'
 Name: Bewear
+Species: '[[SRD-Bewear|Bewear]]'
 ---
 
 #PokeroleSRD/Learnsets

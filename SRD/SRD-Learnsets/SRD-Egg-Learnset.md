@@ -4,6 +4,7 @@ Moves:
 - - Starter
   - '[[SRD-Rest|Rest]]'
 Name: Egg
+Species: '[[SRD-Egg|Egg]]'
 ---
 
 #PokeroleSRD/Learnsets

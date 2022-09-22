@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Psybeam|Psybeam]]'
 Name: Weezing
+Species: '[[SRD-Weezing|Weezing]]'
 ---
 
 #PokeroleSRD/Learnsets

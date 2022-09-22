@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Overheat|Overheat]]'
 Name: Salazzle
+Species: '[[SRD-Salazzle|Salazzle]]'
 ---
 
 #PokeroleSRD/Learnsets

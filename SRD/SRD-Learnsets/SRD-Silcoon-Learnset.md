@@ -12,6 +12,7 @@ Moves:
 - - Pro
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Silcoon
+Species: '[[SRD-Silcoon|Silcoon]]'
 ---
 
 #PokeroleSRD/Learnsets

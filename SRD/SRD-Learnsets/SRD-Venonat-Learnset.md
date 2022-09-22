@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Giga Drain|Giga Drain]]'
 Name: Venonat
+Species: '[[SRD-Venonat|Venonat]]'
 ---
 
 #PokeroleSRD/Learnsets

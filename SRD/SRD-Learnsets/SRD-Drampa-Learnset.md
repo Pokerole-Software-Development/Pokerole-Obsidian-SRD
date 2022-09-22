@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Hurricane|Hurricane]]'
 Name: Drampa
+Species: '[[SRD-Drampa|Drampa]]'
 ---
 
 #PokeroleSRD/Learnsets

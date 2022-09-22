@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Magic Coat|Magic Coat]]'
 Name: Smoochum
+Species: '[[SRD-Smoochum|Smoochum]]'
 ---
 
 #PokeroleSRD/Learnsets

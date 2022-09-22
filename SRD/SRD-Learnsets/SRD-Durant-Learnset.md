@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Durant
+Species: '[[SRD-Durant|Durant]]'
 ---
 
 #PokeroleSRD/Learnsets

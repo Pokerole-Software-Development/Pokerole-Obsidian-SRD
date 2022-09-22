@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pulse|Water Pulse]]'
 Name: Wishiwashi Swarm
+Species: '[[SRD-Wishiwashi Swarm|Wishiwashi Swarm]]'
 ---
 
 #PokeroleSRD/Learnsets

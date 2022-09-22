@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Magmortar
+Species: '[[SRD-Magmortar|Magmortar]]'
 ---
 
 #PokeroleSRD/Learnsets

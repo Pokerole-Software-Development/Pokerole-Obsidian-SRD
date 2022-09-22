@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Yanmega
+Species: '[[SRD-Yanmega|Yanmega]]'
 ---
 
 #PokeroleSRD/Learnsets

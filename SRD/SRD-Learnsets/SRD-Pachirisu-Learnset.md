@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Pachirisu
+Species: '[[SRD-Pachirisu|Pachirisu]]'
 ---
 
 #PokeroleSRD/Learnsets

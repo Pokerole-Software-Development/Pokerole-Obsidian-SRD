@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Crobat
+Species: '[[SRD-Crobat|Crobat]]'
 ---
 
 #PokeroleSRD/Learnsets

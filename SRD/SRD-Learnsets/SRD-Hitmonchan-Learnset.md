@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-High Jump Kick|High Jump Kick]]'
 Name: Hitmonchan
+Species: '[[SRD-Hitmonchan|Hitmonchan]]'
 ---
 
 #PokeroleSRD/Learnsets

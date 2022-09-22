@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Focus Energy|Focus Energy]]'
 Name: Sirfetch'd
+Species: '[[SRD-Sirfetch''d|Sirfetch''d]]'
 ---
 
 #PokeroleSRD/Learnsets

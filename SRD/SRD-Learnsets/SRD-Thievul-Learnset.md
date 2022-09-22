@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Acrobatics|Acrobatics]]'
 Name: Thievul
+Species: '[[SRD-Thievul|Thievul]]'
 ---
 
 #PokeroleSRD/Learnsets

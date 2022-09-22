@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Charm|Charm]]'
 Name: Emolga
+Species: '[[SRD-Emolga|Emolga]]'
 ---
 
 #PokeroleSRD/Learnsets

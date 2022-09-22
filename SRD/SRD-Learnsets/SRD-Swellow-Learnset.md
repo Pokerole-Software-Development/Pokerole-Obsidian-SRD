@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Roost|Roost]]'
 Name: Swellow
+Species: '[[SRD-Swellow|Swellow]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Noivern
+Species: '[[SRD-Noivern|Noivern]]'
 ---
 
 #PokeroleSRD/Learnsets

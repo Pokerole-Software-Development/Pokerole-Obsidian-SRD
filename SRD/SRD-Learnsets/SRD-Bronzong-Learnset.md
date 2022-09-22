@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Skill Swap|Skill Swap]]'
 Name: Bronzong
+Species: '[[SRD-Bronzong|Bronzong]]'
 ---
 
 #PokeroleSRD/Learnsets

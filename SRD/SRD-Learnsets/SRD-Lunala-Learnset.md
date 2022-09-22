@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Reflect|Reflect]]'
 Name: Lunala
+Species: '[[SRD-Lunala|Lunala]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Breloom
+Species: '[[SRD-Breloom|Breloom]]'
 ---
 
 #PokeroleSRD/Learnsets

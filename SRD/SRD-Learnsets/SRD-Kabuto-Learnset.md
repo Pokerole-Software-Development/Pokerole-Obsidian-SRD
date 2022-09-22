@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Kabuto
+Species: '[[SRD-Kabuto|Kabuto]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Scizor
+Species: '[[SRD-Scizor|Scizor]]'
 ---
 
 #PokeroleSRD/Learnsets

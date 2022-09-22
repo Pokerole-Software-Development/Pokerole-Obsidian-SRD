@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Nasty Plot|Nasty Plot]]'
 Name: Misdreavus
+Species: '[[SRD-Misdreavus|Misdreavus]]'
 ---
 
 #PokeroleSRD/Learnsets

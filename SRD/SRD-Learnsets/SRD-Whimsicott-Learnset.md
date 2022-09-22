@@ -32,6 +32,7 @@ Moves:
 - - Pro
   - '[[SRD-Encore|Encore]]'
 Name: Whimsicott
+Species: '[[SRD-Whimsicott|Whimsicott]]'
 ---
 
 #PokeroleSRD/Learnsets

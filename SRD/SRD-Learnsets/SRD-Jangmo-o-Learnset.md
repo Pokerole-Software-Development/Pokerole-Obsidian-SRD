@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Dragon Breath|Dragon Breath]]'
 Name: Jangmo-o
+Species: '[[SRD-Jangmo-o|Jangmo-o]]'
 ---
 
 #PokeroleSRD/Learnsets

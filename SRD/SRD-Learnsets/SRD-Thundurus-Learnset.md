@@ -40,6 +40,7 @@ Moves:
 - - Master
   - '[[SRD-Electric Terrain|Electric Terrain]]'
 Name: Thundurus
+Species: '[[SRD-Thundurus|Thundurus]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Tail|Aqua Tail]]'
 Name: Sandile
+Species: '[[SRD-Sandile|Sandile]]'
 ---
 
 #PokeroleSRD/Learnsets

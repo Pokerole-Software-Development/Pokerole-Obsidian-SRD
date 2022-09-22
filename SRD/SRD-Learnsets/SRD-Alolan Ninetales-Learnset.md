@@ -26,6 +26,7 @@ Moves:
 - - Pro
   - '[[SRD-Aurora Veil|Aurora Veil]]'
 Name: Alolan Ninetales
+Species: '[[SRD-Alolan Ninetales|Alolan Ninetales]]'
 ---
 
 #PokeroleSRD/Learnsets

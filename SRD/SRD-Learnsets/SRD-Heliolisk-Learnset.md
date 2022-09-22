@@ -28,6 +28,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Punch|Fire Punch]]'
 Name: Heliolisk
+Species: '[[SRD-Heliolisk|Heliolisk]]'
 ---
 
 #PokeroleSRD/Learnsets

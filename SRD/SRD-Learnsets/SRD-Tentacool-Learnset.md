@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Magic Coat|Magic Coat]]'
 Name: Tentacool
+Species: '[[SRD-Tentacool|Tentacool]]'
 ---
 
 #PokeroleSRD/Learnsets

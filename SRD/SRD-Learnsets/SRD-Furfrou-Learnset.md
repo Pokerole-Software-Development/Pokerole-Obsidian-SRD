@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Work Up|Work Up]]'
 Name: Furfrou
+Species: '[[SRD-Furfrou|Furfrou]]'
 ---
 
 #PokeroleSRD/Learnsets

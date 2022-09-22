@@ -58,6 +58,7 @@ Moves:
 - - Pro
   - '[[SRD-Pain Split|Pain Split]]'
 Name: Dusclops
+Species: '[[SRD-Dusclops|Dusclops]]'
 ---
 
 #PokeroleSRD/Learnsets

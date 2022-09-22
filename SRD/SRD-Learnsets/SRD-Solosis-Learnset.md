@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Confuse Ray|Confuse Ray]]'
 Name: Solosis
+Species: '[[SRD-Solosis|Solosis]]'
 ---
 
 #PokeroleSRD/Learnsets

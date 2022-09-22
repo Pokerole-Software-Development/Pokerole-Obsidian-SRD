@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Present|Present]]'
 Name: Chansey
+Species: '[[SRD-Chansey|Chansey]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Quilava
+Species: '[[SRD-Quilava|Quilava]]'
 ---
 
 #PokeroleSRD/Learnsets

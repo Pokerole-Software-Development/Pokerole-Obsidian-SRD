@@ -34,6 +34,7 @@ Moves:
 - - Pro
   - '[[SRD-Icy Wind|Icy Wind]]'
 Name: Nidoqueen
+Species: '[[SRD-Nidoqueen|Nidoqueen]]'
 ---
 
 #PokeroleSRD/Learnsets

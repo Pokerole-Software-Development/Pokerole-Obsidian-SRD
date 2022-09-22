@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Wonder Room|Wonder Room]]'
 Name: Mega-Alakazam
+Species: '[[SRD-Mega-Alakazam|Mega-Alakazam]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Poison Powder|Poison Powder]]'
 Name: Gossifleur
+Species: '[[SRD-Gossifleur|Gossifleur]]'
 ---
 
 #PokeroleSRD/Learnsets

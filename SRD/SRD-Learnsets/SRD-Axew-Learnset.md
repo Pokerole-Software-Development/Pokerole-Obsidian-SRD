@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Night Slash|Night Slash]]'
 Name: Axew
+Species: '[[SRD-Axew|Axew]]'
 ---
 
 #PokeroleSRD/Learnsets

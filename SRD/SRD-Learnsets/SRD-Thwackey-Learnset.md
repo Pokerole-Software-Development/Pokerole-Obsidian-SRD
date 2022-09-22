@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Leech Seed|Leech Seed]]'
 Name: Thwackey
+Species: '[[SRD-Thwackey|Thwackey]]'
 ---
 
 #PokeroleSRD/Learnsets

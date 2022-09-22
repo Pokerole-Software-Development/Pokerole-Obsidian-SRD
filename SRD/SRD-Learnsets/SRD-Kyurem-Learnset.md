@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Power Split|Power Split]]'
 Name: Kyurem
+Species: '[[SRD-Kyurem|Kyurem]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Confuse Ray|Confuse Ray]]'
 Name: Kabutops
+Species: '[[SRD-Kabutops|Kabutops]]'
 ---
 
 #PokeroleSRD/Learnsets

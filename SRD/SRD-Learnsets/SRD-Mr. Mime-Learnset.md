@@ -64,6 +64,7 @@ Moves:
 - - Pro
   - '[[SRD-Nasty Plot|Nasty Plot]]'
 Name: Mr. Mime
+Species: '[[SRD-Mr. Mime|Mr. Mime]]'
 ---
 
 #PokeroleSRD/Learnsets

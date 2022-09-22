@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Magic Coat|Magic Coat]]'
 Name: Nosepass
+Species: '[[SRD-Nosepass|Nosepass]]'
 ---
 
 #PokeroleSRD/Learnsets

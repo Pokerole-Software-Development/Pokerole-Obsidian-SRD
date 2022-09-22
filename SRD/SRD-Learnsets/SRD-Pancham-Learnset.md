@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Punch|Fire Punch]]'
 Name: Pancham
+Species: '[[SRD-Pancham|Pancham]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Uproar|Uproar]]'
 Name: Elekid
+Species: '[[SRD-Elekid|Elekid]]'
 ---
 
 #PokeroleSRD/Learnsets

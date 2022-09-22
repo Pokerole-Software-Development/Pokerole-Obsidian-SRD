@@ -12,6 +12,7 @@ Moves:
 - - Pro
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Cascoon
+Species: '[[SRD-Cascoon|Cascoon]]'
 ---
 
 #PokeroleSRD/Learnsets

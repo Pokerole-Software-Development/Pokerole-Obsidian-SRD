@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Sunflora
+Species: '[[SRD-Sunflora|Sunflora]]'
 ---
 
 #PokeroleSRD/Learnsets

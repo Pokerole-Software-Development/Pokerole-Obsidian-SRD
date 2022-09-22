@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Weather Ball|Weather Ball]]'
 Name: Froslass
+Species: '[[SRD-Froslass|Froslass]]'
 ---
 
 #PokeroleSRD/Learnsets

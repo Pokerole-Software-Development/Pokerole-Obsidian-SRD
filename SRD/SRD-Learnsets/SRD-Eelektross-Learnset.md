@@ -36,6 +36,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Punch|Fire Punch]]'
 Name: Eelektross
+Species: '[[SRD-Eelektross|Eelektross]]'
 ---
 
 #PokeroleSRD/Learnsets

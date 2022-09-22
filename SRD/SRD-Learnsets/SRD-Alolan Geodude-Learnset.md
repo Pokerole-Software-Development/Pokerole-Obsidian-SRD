@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Screech|Screech]]'
 Name: Alolan Geodude
+Species: '[[SRD-Alolan Geodude|Alolan Geodude]]'
 ---
 
 #PokeroleSRD/Learnsets

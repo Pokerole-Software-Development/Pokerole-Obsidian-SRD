@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Giga Drain|Giga Drain]]'
 Name: Mothim
+Species: '[[SRD-Mothim|Mothim]]'
 ---
 
 #PokeroleSRD/Learnsets

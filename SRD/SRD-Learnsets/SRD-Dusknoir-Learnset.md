@@ -58,6 +58,7 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Dusknoir
+Species: '[[SRD-Dusknoir|Dusknoir]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Fang|Fire Fang]]'
 Name: Deino
+Species: '[[SRD-Deino|Deino]]'
 ---
 
 #PokeroleSRD/Learnsets

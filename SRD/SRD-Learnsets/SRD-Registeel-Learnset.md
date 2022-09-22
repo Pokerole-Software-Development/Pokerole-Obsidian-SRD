@@ -42,6 +42,7 @@ Moves:
 - - Master
   - '[[SRD-Safeguard|Safeguard]]'
 Name: Registeel
+Species: '[[SRD-Registeel|Registeel]]'
 ---
 
 #PokeroleSRD/Learnsets

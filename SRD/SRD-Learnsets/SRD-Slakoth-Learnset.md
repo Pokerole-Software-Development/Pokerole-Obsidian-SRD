@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Sleep Talk|Sleep Talk]]'
 Name: Slakoth
+Species: '[[SRD-Slakoth|Slakoth]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -28,6 +28,7 @@ Moves:
 - - Pro
   - '[[SRD-Disarming Voice|Disarming Voice]]'
 Name: Pichu
+Species: '[[SRD-Pichu|Pichu]]'
 ---
 
 #PokeroleSRD/Learnsets

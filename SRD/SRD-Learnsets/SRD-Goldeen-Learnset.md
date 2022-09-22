@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Drill Run|Drill Run]]'
 Name: Goldeen
+Species: '[[SRD-Goldeen|Goldeen]]'
 ---
 
 #PokeroleSRD/Learnsets

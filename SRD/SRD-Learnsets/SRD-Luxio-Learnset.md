@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Fang|Fire Fang]]'
 Name: Luxio
+Species: '[[SRD-Luxio|Luxio]]'
 ---
 
 #PokeroleSRD/Learnsets

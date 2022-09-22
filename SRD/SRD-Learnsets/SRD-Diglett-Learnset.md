@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Feint Attack|Feint Attack]]'
 Name: Diglett
+Species: '[[SRD-Diglett|Diglett]]'
 ---
 
 #PokeroleSRD/Learnsets

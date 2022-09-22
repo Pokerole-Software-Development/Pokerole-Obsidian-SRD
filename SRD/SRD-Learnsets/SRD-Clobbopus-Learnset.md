@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Seismic Toss|Seismic Toss]]'
 Name: Clobbopus
+Species: '[[SRD-Clobbopus|Clobbopus]]'
 ---
 
 #PokeroleSRD/Learnsets

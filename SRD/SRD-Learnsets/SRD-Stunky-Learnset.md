@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Flame Burst|Flame Burst]]'
 Name: Stunky
+Species: '[[SRD-Stunky|Stunky]]'
 ---
 
 #PokeroleSRD/Learnsets

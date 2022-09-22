@@ -28,6 +28,7 @@ Moves:
 - - Pro
   - '[[SRD-Counter|Counter]]'
 Name: Poliwrath
+Species: '[[SRD-Poliwrath|Poliwrath]]'
 ---
 
 #PokeroleSRD/Learnsets

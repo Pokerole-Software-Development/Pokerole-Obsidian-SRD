@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Dual Chop|Dual Chop]]'
 Name: Electivire
+Species: '[[SRD-Electivire|Electivire]]'
 ---
 
 #PokeroleSRD/Learnsets

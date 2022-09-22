@@ -40,6 +40,7 @@ Moves:
 - - Master
   - '[[SRD-Blaze Kick|Blaze Kick]]'
 Name: Galarian Zapdos (provisional)
+Species: '[[SRD-Galarian Zapdos (provisional)|Galarian Zapdos (provisional)]]'
 ---
 
 #PokeroleSRD/Learnsets

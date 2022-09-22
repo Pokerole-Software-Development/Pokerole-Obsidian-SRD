@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Steel Wing|Steel Wing]]'
 Name: Pidgey
+Species: '[[SRD-Pidgey|Pidgey]]'
 ---
 
 #PokeroleSRD/Learnsets

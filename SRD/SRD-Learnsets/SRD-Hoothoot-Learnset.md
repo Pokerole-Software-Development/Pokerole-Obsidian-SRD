@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Feather Dance|Feather Dance]]'
 Name: Hoothoot
+Species: '[[SRD-Hoothoot|Hoothoot]]'
 ---
 
 #PokeroleSRD/Learnsets

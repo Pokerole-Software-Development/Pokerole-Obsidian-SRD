@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Throat Chop|Throat Chop]]'
 Name: Perrserker
+Species: '[[SRD-Perrserker|Perrserker]]'
 ---
 
 #PokeroleSRD/Learnsets

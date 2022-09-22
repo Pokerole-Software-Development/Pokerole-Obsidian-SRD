@@ -34,6 +34,7 @@ Moves:
 - - Pro
   - '[[SRD-Acupressure|Acupressure]]'
 Name: Bounsweet
+Species: '[[SRD-Bounsweet|Bounsweet]]'
 ---
 
 #PokeroleSRD/Learnsets

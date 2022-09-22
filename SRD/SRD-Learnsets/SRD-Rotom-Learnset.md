@@ -36,6 +36,7 @@ Moves:
 - - Ace
   - '[[SRD-Discharge|Discharge]]'
 Name: Rotom
+Species: '[[SRD-Rotom|Rotom]]'
 ---
 
 #PokeroleSRD/Learnsets

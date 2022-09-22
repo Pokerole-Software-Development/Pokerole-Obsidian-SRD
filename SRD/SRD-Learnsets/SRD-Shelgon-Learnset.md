@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Shelgon
+Species: '[[SRD-Shelgon|Shelgon]]'
 ---
 
 #PokeroleSRD/Learnsets

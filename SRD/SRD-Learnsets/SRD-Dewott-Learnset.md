@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Detect|Detect]]'
 Name: Dewott
+Species: '[[SRD-Dewott|Dewott]]'
 ---
 
 #PokeroleSRD/Learnsets

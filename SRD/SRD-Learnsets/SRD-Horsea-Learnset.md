@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Octazooka|Octazooka]]'
 Name: Horsea
+Species: '[[SRD-Horsea|Horsea]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Tail|Aqua Tail]]'
 Name: Aerodactyl
+Species: '[[SRD-Aerodactyl|Aerodactyl]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -12,6 +12,7 @@ Moves:
 - - Ace
   - '[[SRD-Metronome|Metronome]]'
 Name: Abra
+Species: '[[SRD-Abra|Abra]]'
 ---
 
 #PokeroleSRD/Learnsets

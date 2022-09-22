@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Stealth Rock|Stealth Rock]]'
 Name: Runerigus
+Species: '[[SRD-Runerigus|Runerigus]]'
 ---
 
 #PokeroleSRD/Learnsets

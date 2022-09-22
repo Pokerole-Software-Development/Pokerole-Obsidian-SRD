@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Dive|Dive]]'
 Name: Octillery
+Species: '[[SRD-Octillery|Octillery]]'
 ---
 
 #PokeroleSRD/Learnsets

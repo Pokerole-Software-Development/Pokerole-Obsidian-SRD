@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Metal Claw|Metal Claw]]'
 Name: Zangoose
+Species: '[[SRD-Zangoose|Zangoose]]'
 ---
 
 #PokeroleSRD/Learnsets

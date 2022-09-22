@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Pain Split|Pain Split]]'
 Name: Stunfisk
+Species: '[[SRD-Stunfisk|Stunfisk]]'
 ---
 
 #PokeroleSRD/Learnsets

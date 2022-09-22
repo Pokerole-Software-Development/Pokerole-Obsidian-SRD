@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Mach Punch|Mach Punch]]'
 Name: Hitmonlee
+Species: '[[SRD-Hitmonlee|Hitmonlee]]'
 ---
 
 #PokeroleSRD/Learnsets

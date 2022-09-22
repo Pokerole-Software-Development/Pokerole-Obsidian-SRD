@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Brine|Brine]]'
 Name: Slowking
+Species: '[[SRD-Slowking|Slowking]]'
 ---
 
 #PokeroleSRD/Learnsets

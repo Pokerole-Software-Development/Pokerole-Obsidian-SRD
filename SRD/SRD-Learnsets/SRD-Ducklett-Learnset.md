@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Mirror Move|Mirror Move]]'
 Name: Ducklett
+Species: '[[SRD-Ducklett|Ducklett]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Signal Beam|Signal Beam]]'
 Name: Magneton
+Species: '[[SRD-Magneton|Magneton]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Aurorus
+Species: '[[SRD-Aurorus|Aurorus]]'
 ---
 
 #PokeroleSRD/Learnsets

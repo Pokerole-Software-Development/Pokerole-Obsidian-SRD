@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Croconaw
+Species: '[[SRD-Croconaw|Croconaw]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Bullet Seed|Bullet Seed]]'
 Name: Genesect
+Species: '[[SRD-Genesect|Genesect]]'
 ---
 
 #PokeroleSRD/Learnsets

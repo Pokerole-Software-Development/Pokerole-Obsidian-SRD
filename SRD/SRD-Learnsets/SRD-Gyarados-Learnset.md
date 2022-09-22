@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Bounce|Bounce]]'
 Name: Gyarados
+Species: '[[SRD-Gyarados|Gyarados]]'
 ---
 
 #PokeroleSRD/Learnsets

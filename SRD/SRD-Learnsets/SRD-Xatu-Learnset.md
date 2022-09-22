@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Xatu
+Species: '[[SRD-Xatu|Xatu]]'
 ---
 
 #PokeroleSRD/Learnsets

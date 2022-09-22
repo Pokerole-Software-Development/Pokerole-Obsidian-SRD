@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Misty Terrain|Misty Terrain]]'
 Name: Primarina
+Species: '[[SRD-Primarina|Primarina]]'
 ---
 
 #PokeroleSRD/Learnsets

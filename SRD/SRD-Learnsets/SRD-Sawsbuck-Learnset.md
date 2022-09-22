@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Last Resort|Last Resort]]'
 Name: Sawsbuck
+Species: '[[SRD-Sawsbuck|Sawsbuck]]'
 ---
 
 #PokeroleSRD/Learnsets

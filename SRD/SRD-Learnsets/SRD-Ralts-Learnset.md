@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Mean Look|Mean Look]]'
 Name: Ralts
+Species: '[[SRD-Ralts|Ralts]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Poison Tail|Poison Tail]]'
 Name: Drapion
+Species: '[[SRD-Drapion|Drapion]]'
 ---
 
 #PokeroleSRD/Learnsets

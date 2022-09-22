@@ -34,6 +34,7 @@ Moves:
 - - Master
   - '[[SRD-Spite|Spite]]'
 Name: Darkrai
+Species: '[[SRD-Darkrai|Darkrai]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -60,6 +60,7 @@ Moves:
 - - Pro
   - '[[SRD-Swallow|Swallow]]'
 Name: Galarian Weezing
+Species: '[[SRD-Galarian Weezing|Galarian Weezing]]'
 ---
 
 #PokeroleSRD/Learnsets

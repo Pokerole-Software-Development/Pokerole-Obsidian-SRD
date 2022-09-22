@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Mud Slap|Mud Slap]]'
 Name: Kricketune
+Species: '[[SRD-Kricketune|Kricketune]]'
 ---
 
 #PokeroleSRD/Learnsets

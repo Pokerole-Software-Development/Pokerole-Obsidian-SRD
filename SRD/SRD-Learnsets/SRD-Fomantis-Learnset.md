@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Aromatherapy|Aromatherapy]]'
 Name: Fomantis
+Species: '[[SRD-Fomantis|Fomantis]]'
 ---
 
 #PokeroleSRD/Learnsets

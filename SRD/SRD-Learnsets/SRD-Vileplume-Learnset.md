@@ -30,6 +30,7 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Vileplume
+Species: '[[SRD-Vileplume|Vileplume]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -32,6 +32,7 @@ Moves:
 - - Pro
   - '[[SRD-Future Sight|Future Sight]]'
 Name: Chingling
+Species: '[[SRD-Chingling|Chingling]]'
 ---
 
 #PokeroleSRD/Learnsets

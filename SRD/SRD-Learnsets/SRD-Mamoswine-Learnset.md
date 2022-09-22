@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Avalanche|Avalanche]]'
 Name: Mamoswine
+Species: '[[SRD-Mamoswine|Mamoswine]]'
 ---
 
 #PokeroleSRD/Learnsets

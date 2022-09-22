@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Twister|Twister]]'
 Name: Snivy
+Species: '[[SRD-Snivy|Snivy]]'
 ---
 
 #PokeroleSRD/Learnsets

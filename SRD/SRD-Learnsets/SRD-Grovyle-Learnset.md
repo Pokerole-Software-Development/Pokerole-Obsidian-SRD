@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Grass Pledge|Grass Pledge]]'
 Name: Grovyle
+Species: '[[SRD-Grovyle|Grovyle]]'
 ---
 
 #PokeroleSRD/Learnsets

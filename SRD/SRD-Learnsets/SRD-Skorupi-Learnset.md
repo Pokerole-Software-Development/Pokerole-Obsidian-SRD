@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Poison Tail|Poison Tail]]'
 Name: Skorupi
+Species: '[[SRD-Skorupi|Skorupi]]'
 ---
 
 #PokeroleSRD/Learnsets

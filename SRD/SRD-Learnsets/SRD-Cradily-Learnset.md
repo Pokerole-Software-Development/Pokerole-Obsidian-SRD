@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Cradily
+Species: '[[SRD-Cradily|Cradily]]'
 ---
 
 #PokeroleSRD/Learnsets

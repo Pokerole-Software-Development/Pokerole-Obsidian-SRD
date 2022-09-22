@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Captivate|Captivate]]'
 Name: Luvdisc
+Species: '[[SRD-Luvdisc|Luvdisc]]'
 ---
 
 #PokeroleSRD/Learnsets

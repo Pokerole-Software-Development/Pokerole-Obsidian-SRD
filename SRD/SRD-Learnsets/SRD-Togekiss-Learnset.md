@@ -24,6 +24,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pulse|Water Pulse]]'
 Name: Togekiss
+Species: '[[SRD-Togekiss|Togekiss]]'
 ---
 
 #PokeroleSRD/Learnsets

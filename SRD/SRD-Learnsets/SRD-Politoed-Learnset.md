@@ -30,6 +30,7 @@ Moves:
 - - Pro
   - '[[SRD-Refresh|Refresh]]'
 Name: Politoed
+Species: '[[SRD-Politoed|Politoed]]'
 ---
 
 #PokeroleSRD/Learnsets

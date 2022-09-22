@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Curse|Curse]]'
 Name: Galarian Meowth
+Species: '[[SRD-Galarian Meowth|Galarian Meowth]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Venoshock|Venoshock]]'
 Name: Galarian Slowbro (provisional)
+Species: '[[SRD-Galarian Slowbro (provisional)|Galarian Slowbro (provisional)]]'
 ---
 
 #PokeroleSRD/Learnsets

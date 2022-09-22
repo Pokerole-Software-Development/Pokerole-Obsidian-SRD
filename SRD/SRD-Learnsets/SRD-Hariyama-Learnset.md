@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Wide Guard|Wide Guard]]'
 Name: Hariyama
+Species: '[[SRD-Hariyama|Hariyama]]'
 ---
 
 #PokeroleSRD/Learnsets

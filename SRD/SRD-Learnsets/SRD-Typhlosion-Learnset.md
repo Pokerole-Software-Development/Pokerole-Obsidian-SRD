@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Thunder Punch|Thunder Punch]]'
 Name: Typhlosion
+Species: '[[SRD-Typhlosion|Typhlosion]]'
 ---
 
 #PokeroleSRD/Learnsets

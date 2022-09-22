@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Mimic|Mimic]]'
 Name: Krabby
+Species: '[[SRD-Krabby|Krabby]]'
 ---
 
 #PokeroleSRD/Learnsets

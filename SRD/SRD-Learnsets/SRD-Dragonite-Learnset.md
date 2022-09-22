@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Dragonite
+Species: '[[SRD-Dragonite|Dragonite]]'
 ---
 
 #PokeroleSRD/Learnsets

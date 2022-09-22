@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Extrasensory|Extrasensory]]'
 Name: Togepi
+Species: '[[SRD-Togepi|Togepi]]'
 ---
 
 #PokeroleSRD/Learnsets

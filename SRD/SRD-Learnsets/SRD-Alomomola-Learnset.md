@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Alomomola
+Species: '[[SRD-Alomomola|Alomomola]]'
 ---
 
 #PokeroleSRD/Learnsets

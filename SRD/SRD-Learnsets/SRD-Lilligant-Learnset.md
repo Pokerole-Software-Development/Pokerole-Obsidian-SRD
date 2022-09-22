@@ -32,6 +32,7 @@ Moves:
 - - Pro
   - '[[SRD-Ingrain|Ingrain]]'
 Name: Lilligant
+Species: '[[SRD-Lilligant|Lilligant]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -58,6 +58,7 @@ Moves:
 - - Pro
   - '[[SRD-Hyper Voice|Hyper Voice]]'
 Name: Obstagoon
+Species: '[[SRD-Obstagoon|Obstagoon]]'
 ---
 
 #PokeroleSRD/Learnsets

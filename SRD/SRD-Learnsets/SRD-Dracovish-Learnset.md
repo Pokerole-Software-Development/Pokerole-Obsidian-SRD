@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Whirlpool|Whirlpool]]'
 Name: Dracovish
+Species: '[[SRD-Dracovish|Dracovish]]'
 ---
 
 #PokeroleSRD/Learnsets

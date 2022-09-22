@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Dynamic Punch|Dynamic Punch]]'
 Name: Marshtomp
+Species: '[[SRD-Marshtomp|Marshtomp]]'
 ---
 
 #PokeroleSRD/Learnsets

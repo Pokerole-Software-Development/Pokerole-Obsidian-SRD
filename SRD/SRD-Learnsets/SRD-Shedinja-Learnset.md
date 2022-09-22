@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-X-Scissor|X-Scissor]]'
 Name: Shedinja
+Species: '[[SRD-Shedinja|Shedinja]]'
 ---
 
 #PokeroleSRD/Learnsets

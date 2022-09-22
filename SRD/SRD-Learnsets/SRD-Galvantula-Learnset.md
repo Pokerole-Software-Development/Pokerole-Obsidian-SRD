@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Giga Drain|Giga Drain]]'
 Name: Galvantula
+Species: '[[SRD-Galvantula|Galvantula]]'
 ---
 
 #PokeroleSRD/Learnsets

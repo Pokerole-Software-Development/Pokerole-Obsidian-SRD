@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Air Cutter|Air Cutter]]'
 Name: Fletchling
+Species: '[[SRD-Fletchling|Fletchling]]'
 ---
 
 #PokeroleSRD/Learnsets

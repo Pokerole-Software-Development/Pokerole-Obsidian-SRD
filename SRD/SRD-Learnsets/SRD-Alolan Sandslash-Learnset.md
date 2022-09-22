@@ -30,6 +30,7 @@ Moves:
 - - Pro
   - '[[SRD-Aurora Veil|Aurora Veil]]'
 Name: Alolan Sandslash
+Species: '[[SRD-Alolan Sandslash|Alolan Sandslash]]'
 ---
 
 #PokeroleSRD/Learnsets

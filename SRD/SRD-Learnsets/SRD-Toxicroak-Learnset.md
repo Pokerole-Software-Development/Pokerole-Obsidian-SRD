@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Dual Chop|Dual Chop]]'
 Name: Toxicroak
+Species: '[[SRD-Toxicroak|Toxicroak]]'
 ---
 
 #PokeroleSRD/Learnsets

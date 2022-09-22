@@ -48,6 +48,7 @@ Moves:
 - - Master
   - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
 Name: Buzzwole
+Species: '[[SRD-Buzzwole|Buzzwole]]'
 ---
 
 #PokeroleSRD/Learnsets

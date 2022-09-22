@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Sleep Talk|Sleep Talk]]'
 Name: Tauros
+Species: '[[SRD-Tauros|Tauros]]'
 ---
 
 #PokeroleSRD/Learnsets

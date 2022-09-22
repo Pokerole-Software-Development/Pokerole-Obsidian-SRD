@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Gravity|Gravity]]'
 Name: Carbink
+Species: '[[SRD-Carbink|Carbink]]'
 ---
 
 #PokeroleSRD/Learnsets

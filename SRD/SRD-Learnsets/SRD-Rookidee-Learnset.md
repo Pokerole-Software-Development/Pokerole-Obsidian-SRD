@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Sand Attack|Sand Attack]]'
 Name: Rookidee
+Species: '[[SRD-Rookidee|Rookidee]]'
 ---
 
 #PokeroleSRD/Learnsets

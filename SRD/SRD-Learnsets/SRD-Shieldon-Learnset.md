@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Counter|Counter]]'
 Name: Shieldon
+Species: '[[SRD-Shieldon|Shieldon]]'
 ---
 
 #PokeroleSRD/Learnsets

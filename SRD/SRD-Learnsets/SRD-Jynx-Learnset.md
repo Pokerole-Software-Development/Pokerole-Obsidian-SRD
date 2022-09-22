@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Aurora Veil|Aurora Veil]]'
 Name: Jynx
+Species: '[[SRD-Jynx|Jynx]]'
 ---
 
 #PokeroleSRD/Learnsets

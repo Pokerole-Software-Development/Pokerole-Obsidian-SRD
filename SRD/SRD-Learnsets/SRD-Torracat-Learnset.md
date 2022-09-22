@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Torracat
+Species: '[[SRD-Torracat|Torracat]]'
 ---
 
 #PokeroleSRD/Learnsets

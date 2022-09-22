@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Endeavor|Endeavor]]'
 Name: Beedrill
+Species: '[[SRD-Beedrill|Beedrill]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Gigalith
+Species: '[[SRD-Gigalith|Gigalith]]'
 ---
 
 #PokeroleSRD/Learnsets

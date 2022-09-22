@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Liepard
+Species: '[[SRD-Liepard|Liepard]]'
 ---
 
 #PokeroleSRD/Learnsets

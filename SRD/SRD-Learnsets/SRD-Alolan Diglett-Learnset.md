@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Thrash|Thrash]]'
 Name: Alolan Diglett
+Species: '[[SRD-Alolan Diglett|Alolan Diglett]]'
 ---
 
 #PokeroleSRD/Learnsets

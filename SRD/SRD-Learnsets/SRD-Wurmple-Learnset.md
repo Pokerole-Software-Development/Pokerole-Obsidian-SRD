@@ -20,6 +20,7 @@ Moves:
 - - Pro
   - '[[SRD-Snore|Snore]]'
 Name: Wurmple
+Species: '[[SRD-Wurmple|Wurmple]]'
 ---
 
 #PokeroleSRD/Learnsets

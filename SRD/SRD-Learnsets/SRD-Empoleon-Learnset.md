@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Hydro Cannon|Hydro Cannon]]'
 Name: Empoleon
+Species: '[[SRD-Empoleon|Empoleon]]'
 ---
 
 #PokeroleSRD/Learnsets

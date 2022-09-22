@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Focus Energy|Focus Energy]]'
 Name: Pupitar
+Species: '[[SRD-Pupitar|Pupitar]]'
 ---
 
 #PokeroleSRD/Learnsets

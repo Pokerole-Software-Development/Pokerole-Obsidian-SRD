@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Aura Sphere|Aura Sphere]]'
 Name: Riolu
+Species: '[[SRD-Riolu|Riolu]]'
 ---
 
 #PokeroleSRD/Learnsets

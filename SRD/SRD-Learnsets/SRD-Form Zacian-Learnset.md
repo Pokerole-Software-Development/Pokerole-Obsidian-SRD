@@ -40,6 +40,7 @@ Moves:
 - - Master
   - '[[SRD-Behemoth Blade|Behemoth Blade]]'
 Name: Form Zacian
+Species: '[[SRD-Form Zacian|Form Zacian]]'
 ---
 
 #PokeroleSRD/Learnsets

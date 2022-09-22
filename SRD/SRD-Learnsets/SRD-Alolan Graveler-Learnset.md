@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Screech|Screech]]'
 Name: Alolan Graveler
+Species: '[[SRD-Alolan Graveler|Alolan Graveler]]'
 ---
 
 #PokeroleSRD/Learnsets

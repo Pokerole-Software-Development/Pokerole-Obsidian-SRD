@@ -58,6 +58,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Tail|Iron Tail]]'
 Name: Arbok
+Species: '[[SRD-Arbok|Arbok]]'
 ---
 
 #PokeroleSRD/Learnsets

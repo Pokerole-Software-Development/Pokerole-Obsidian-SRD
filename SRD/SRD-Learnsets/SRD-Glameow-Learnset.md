@@ -36,6 +36,7 @@ Moves:
 - - Pro
   - '[[SRD-Hone Claws|Hone Claws]]'
 Name: Glameow
+Species: '[[SRD-Glameow|Glameow]]'
 ---
 
 #PokeroleSRD/Learnsets

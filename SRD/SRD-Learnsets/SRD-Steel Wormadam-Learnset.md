@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Synthesis|Synthesis]]'
 Name: Steel Wormadam
+Species: '[[SRD-Steel Wormadam|Steel Wormadam]]'
 ---
 
 #PokeroleSRD/Learnsets

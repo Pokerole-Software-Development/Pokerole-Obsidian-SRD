@@ -32,6 +32,7 @@ Moves:
 - - Master
   - '[[SRD-Last Resort|Last Resort]]'
 Name: Phione
+Species: '[[SRD-Phione|Phione]]'
 ---
 
 #PokeroleSRD/Learnsets

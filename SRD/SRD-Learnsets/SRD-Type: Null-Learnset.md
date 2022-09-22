@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Heal Block|Heal Block]]'
 Name: 'Type: Null'
+Species: '[[SRD-Type: Null|Type: Null]]'
 ---
 
 #PokeroleSRD/Learnsets

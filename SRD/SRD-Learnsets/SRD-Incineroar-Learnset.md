@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Blast Burn|Blast Burn]]'
 Name: Incineroar
+Species: '[[SRD-Incineroar|Incineroar]]'
 ---
 
 #PokeroleSRD/Learnsets

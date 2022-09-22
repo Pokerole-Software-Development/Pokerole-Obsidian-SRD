@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Freeze Dry|Freeze Dry]]'
 Name: Galarian Darmanitan
+Species: '[[SRD-Galarian Darmanitan|Galarian Darmanitan]]'
 ---
 
 #PokeroleSRD/Learnsets

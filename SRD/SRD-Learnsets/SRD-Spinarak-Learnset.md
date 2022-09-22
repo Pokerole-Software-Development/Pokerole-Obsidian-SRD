@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Toxic Spikes|Toxic Spikes]]'
 Name: Spinarak
+Species: '[[SRD-Spinarak|Spinarak]]'
 ---
 
 #PokeroleSRD/Learnsets

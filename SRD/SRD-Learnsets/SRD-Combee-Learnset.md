@@ -20,6 +20,7 @@ Moves:
 - - Pro
   - '[[SRD-Endeavor|Endeavor]]'
 Name: Combee
+Species: '[[SRD-Combee|Combee]]'
 ---
 
 #PokeroleSRD/Learnsets

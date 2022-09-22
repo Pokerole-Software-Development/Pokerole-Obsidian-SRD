@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Rufflet
+Species: '[[SRD-Rufflet|Rufflet]]'
 ---
 
 #PokeroleSRD/Learnsets

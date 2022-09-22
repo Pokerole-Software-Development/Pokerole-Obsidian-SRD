@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Imprison|Imprison]]'
 Name: Spiritomb
+Species: '[[SRD-Spiritomb|Spiritomb]]'
 ---
 
 #PokeroleSRD/Learnsets

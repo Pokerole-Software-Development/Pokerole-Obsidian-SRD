@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Self Destruct|Self Destruct]]'
 Name: Metang
+Species: '[[SRD-Metang|Metang]]'
 ---
 
 #PokeroleSRD/Learnsets

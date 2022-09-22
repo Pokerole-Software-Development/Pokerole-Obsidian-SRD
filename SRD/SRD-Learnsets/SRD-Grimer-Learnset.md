@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Scary Face|Scary Face]]'
 Name: Grimer
+Species: '[[SRD-Grimer|Grimer]]'
 ---
 
 #PokeroleSRD/Learnsets

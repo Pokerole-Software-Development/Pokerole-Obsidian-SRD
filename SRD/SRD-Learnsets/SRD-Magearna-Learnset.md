@@ -48,6 +48,7 @@ Moves:
 - - Master
   - '[[SRD-Dazzling Gleam|Dazzling Gleam]]'
 Name: Magearna
+Species: '[[SRD-Magearna|Magearna]]'
 ---
 
 #PokeroleSRD/Learnsets

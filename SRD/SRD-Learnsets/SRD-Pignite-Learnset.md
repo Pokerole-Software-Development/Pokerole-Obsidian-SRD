@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Pignite
+Species: '[[SRD-Pignite|Pignite]]'
 ---
 
 #PokeroleSRD/Learnsets

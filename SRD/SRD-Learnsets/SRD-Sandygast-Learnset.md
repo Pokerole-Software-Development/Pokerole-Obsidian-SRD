@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Swallow|Swallow]]'
 Name: Sandygast
+Species: '[[SRD-Sandygast|Sandygast]]'
 ---
 
 #PokeroleSRD/Learnsets

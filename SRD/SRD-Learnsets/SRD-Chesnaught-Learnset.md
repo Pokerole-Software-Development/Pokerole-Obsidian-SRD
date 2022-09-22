@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Frenzy Plant|Frenzy Plant]]'
 Name: Chesnaught
+Species: '[[SRD-Chesnaught|Chesnaught]]'
 ---
 
 #PokeroleSRD/Learnsets

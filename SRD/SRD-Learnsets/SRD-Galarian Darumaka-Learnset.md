@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Galarian Darumaka
+Species: '[[SRD-Galarian Darumaka|Galarian Darumaka]]'
 ---
 
 #PokeroleSRD/Learnsets

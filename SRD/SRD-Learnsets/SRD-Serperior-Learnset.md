@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Dragon Pulse|Dragon Pulse]]'
 Name: Serperior
+Species: '[[SRD-Serperior|Serperior]]'
 ---
 
 #PokeroleSRD/Learnsets

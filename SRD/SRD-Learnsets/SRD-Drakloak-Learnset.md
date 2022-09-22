@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Drakloak
+Species: '[[SRD-Drakloak|Drakloak]]'
 ---
 
 #PokeroleSRD/Learnsets

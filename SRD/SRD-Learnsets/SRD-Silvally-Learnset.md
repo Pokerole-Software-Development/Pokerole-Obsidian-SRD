@@ -62,6 +62,7 @@ Moves:
 - - Pro
   - '[[SRD-Parting Shot|Parting Shot]]'
 Name: Silvally
+Species: '[[SRD-Silvally|Silvally]]'
 ---
 
 #PokeroleSRD/Learnsets

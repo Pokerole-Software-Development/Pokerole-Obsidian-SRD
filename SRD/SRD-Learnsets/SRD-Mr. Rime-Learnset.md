@@ -64,6 +64,7 @@ Moves:
 - - Ace
   - '[[SRD-Teeter Dance|Teeter Dance]]'
 Name: Mr. Rime
+Species: '[[SRD-Mr. Rime|Mr. Rime]]'
 ---
 
 #PokeroleSRD/Learnsets

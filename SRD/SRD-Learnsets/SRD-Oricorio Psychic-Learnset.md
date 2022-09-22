@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Round|Round]]'
 Name: Oricorio Psychic
+Species: '[[SRD-Oricorio Psychic|Oricorio Psychic]]'
 ---
 
 #PokeroleSRD/Learnsets

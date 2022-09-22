@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Skill Swap|Skill Swap]]'
 Name: Lunatone
+Species: '[[SRD-Lunatone|Lunatone]]'
 ---
 
 #PokeroleSRD/Learnsets

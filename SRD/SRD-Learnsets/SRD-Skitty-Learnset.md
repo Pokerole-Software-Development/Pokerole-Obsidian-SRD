@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Skitty
+Species: '[[SRD-Skitty|Skitty]]'
 ---
 
 #PokeroleSRD/Learnsets

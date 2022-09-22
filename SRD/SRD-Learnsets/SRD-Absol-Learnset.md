@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Spite|Spite]]'
 Name: Absol
+Species: '[[SRD-Absol|Absol]]'
 ---
 
 #PokeroleSRD/Learnsets

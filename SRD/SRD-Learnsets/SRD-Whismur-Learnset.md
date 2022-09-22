@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Snore|Snore]]'
 Name: Whismur
+Species: '[[SRD-Whismur|Whismur]]'
 ---
 
 #PokeroleSRD/Learnsets

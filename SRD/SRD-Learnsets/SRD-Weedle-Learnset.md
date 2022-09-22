@@ -14,6 +14,7 @@ Moves:
 - - Amateur
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Weedle
+Species: '[[SRD-Weedle|Weedle]]'
 ---
 
 #PokeroleSRD/Learnsets

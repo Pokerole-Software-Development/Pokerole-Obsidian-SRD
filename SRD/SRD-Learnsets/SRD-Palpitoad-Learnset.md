@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Icy Wind|Icy Wind]]'
 Name: Palpitoad
+Species: '[[SRD-Palpitoad|Palpitoad]]'
 ---
 
 #PokeroleSRD/Learnsets

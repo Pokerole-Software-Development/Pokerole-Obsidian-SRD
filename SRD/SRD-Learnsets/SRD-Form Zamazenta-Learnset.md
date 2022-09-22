@@ -40,6 +40,7 @@ Moves:
 - - Master
   - '[[SRD-Behemoth Bash|Behemoth Bash]]'
 Name: Form Zamazenta
+Species: '[[SRD-Form Zamazenta|Form Zamazenta]]'
 ---
 
 #PokeroleSRD/Learnsets

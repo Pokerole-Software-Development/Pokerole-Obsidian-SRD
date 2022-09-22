@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Me First|Me First]]'
 Name: Alolan Raticate
+Species: '[[SRD-Alolan Raticate|Alolan Raticate]]'
 ---
 
 #PokeroleSRD/Learnsets

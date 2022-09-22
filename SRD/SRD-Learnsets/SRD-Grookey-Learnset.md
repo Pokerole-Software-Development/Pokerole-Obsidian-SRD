@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Leech Seed|Leech Seed]]'
 Name: Grookey
+Species: '[[SRD-Grookey|Grookey]]'
 ---
 
 #PokeroleSRD/Learnsets

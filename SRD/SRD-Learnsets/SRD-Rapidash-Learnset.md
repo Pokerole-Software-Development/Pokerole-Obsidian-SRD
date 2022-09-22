@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Drill Run|Drill Run]]'
 Name: Rapidash
+Species: '[[SRD-Rapidash|Rapidash]]'
 ---
 
 #PokeroleSRD/Learnsets

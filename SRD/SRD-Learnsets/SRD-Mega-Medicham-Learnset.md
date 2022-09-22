@@ -58,6 +58,7 @@ Moves:
 - - Pro
   - '[[SRD-Baton Pass|Baton Pass]]'
 Name: Mega-Medicham
+Species: '[[SRD-Mega-Medicham|Mega-Medicham]]'
 ---
 
 #PokeroleSRD/Learnsets

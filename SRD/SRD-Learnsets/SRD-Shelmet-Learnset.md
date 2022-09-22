@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Shelmet
+Species: '[[SRD-Shelmet|Shelmet]]'
 ---
 
 #PokeroleSRD/Learnsets

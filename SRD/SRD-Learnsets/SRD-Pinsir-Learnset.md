@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Feint Attack|Feint Attack]]'
 Name: Pinsir
+Species: '[[SRD-Pinsir|Pinsir]]'
 ---
 
 #PokeroleSRD/Learnsets

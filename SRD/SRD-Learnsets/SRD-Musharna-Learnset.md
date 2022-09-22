@@ -26,6 +26,7 @@ Moves:
 - - Pro
   - '[[SRD-Healing Wish|Healing Wish]]'
 Name: Musharna
+Species: '[[SRD-Musharna|Musharna]]'
 ---
 
 #PokeroleSRD/Learnsets

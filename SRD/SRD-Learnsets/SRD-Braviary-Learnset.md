@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Hurricane|Hurricane]]'
 Name: Braviary
+Species: '[[SRD-Braviary|Braviary]]'
 ---
 
 #PokeroleSRD/Learnsets

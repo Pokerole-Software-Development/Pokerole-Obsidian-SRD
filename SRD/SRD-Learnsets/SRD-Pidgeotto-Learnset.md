@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Steel Wing|Steel Wing]]'
 Name: Pidgeotto
+Species: '[[SRD-Pidgeotto|Pidgeotto]]'
 ---
 
 #PokeroleSRD/Learnsets

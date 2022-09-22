@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Avalanche|Avalanche]]'
 Name: Mega-Swampert
+Species: '[[SRD-Mega-Swampert|Mega-Swampert]]'
 ---
 
 #PokeroleSRD/Learnsets

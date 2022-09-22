@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Twister|Twister]]'
 Name: Servine
+Species: '[[SRD-Servine|Servine]]'
 ---
 
 #PokeroleSRD/Learnsets

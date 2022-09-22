@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Steel Wing|Steel Wing]]'
 Name: Scyther
+Species: '[[SRD-Scyther|Scyther]]'
 ---
 
 #PokeroleSRD/Learnsets

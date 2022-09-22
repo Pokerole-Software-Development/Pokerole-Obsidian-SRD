@@ -36,6 +36,7 @@ Moves:
 - - Pro
   - '[[SRD-Ice Fang|Ice Fang]]'
 Name: Arrokuda
+Species: '[[SRD-Arrokuda|Arrokuda]]'
 ---
 
 #PokeroleSRD/Learnsets

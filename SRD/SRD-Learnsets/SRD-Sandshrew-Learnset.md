@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Metal Claw|Metal Claw]]'
 Name: Sandshrew
+Species: '[[SRD-Sandshrew|Sandshrew]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Snatch|Snatch]]'
 Name: Gothita
+Species: '[[SRD-Gothita|Gothita]]'
 ---
 
 #PokeroleSRD/Learnsets

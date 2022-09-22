@@ -50,6 +50,7 @@ Moves:
 - - Master
   - '[[SRD-Throat Chop|Throat Chop]]'
 Name: Hoopa Unbound
+Species: '[[SRD-Hoopa Unbound|Hoopa Unbound]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Prinplup
+Species: '[[SRD-Prinplup|Prinplup]]'
 ---
 
 #PokeroleSRD/Learnsets

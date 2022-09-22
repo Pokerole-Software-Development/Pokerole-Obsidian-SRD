@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Aromatherapy|Aromatherapy]]'
 Name: Skiploom
+Species: '[[SRD-Skiploom|Skiploom]]'
 ---
 
 #PokeroleSRD/Learnsets

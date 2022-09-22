@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Disable|Disable]]'
 Name: Ekans
+Species: '[[SRD-Ekans|Ekans]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Cyndaquil
+Species: '[[SRD-Cyndaquil|Cyndaquil]]'
 ---
 
 #PokeroleSRD/Learnsets

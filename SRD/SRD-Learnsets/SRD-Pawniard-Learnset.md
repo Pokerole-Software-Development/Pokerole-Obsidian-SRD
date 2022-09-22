@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Quick Guard|Quick Guard]]'
 Name: Pawniard
+Species: '[[SRD-Pawniard|Pawniard]]'
 ---
 
 #PokeroleSRD/Learnsets

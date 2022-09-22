@@ -36,6 +36,7 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Azurill
+Species: '[[SRD-Azurill|Azurill]]'
 ---
 
 #PokeroleSRD/Learnsets

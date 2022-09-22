@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Fang|Fire Fang]]'
 Name: Galarian Zen Darmanitan
+Species: '[[SRD-Galarian Zen Darmanitan|Galarian Zen Darmanitan]]'
 ---
 
 #PokeroleSRD/Learnsets

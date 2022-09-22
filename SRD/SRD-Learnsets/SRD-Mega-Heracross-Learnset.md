@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Mega-Heracross
+Species: '[[SRD-Mega-Heracross|Mega-Heracross]]'
 ---
 
 #PokeroleSRD/Learnsets

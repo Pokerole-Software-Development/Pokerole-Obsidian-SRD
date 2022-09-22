@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Blue Flare|Blue Flare]]'
 Name: White Kyurem
+Species: '[[SRD-White Kyurem|White Kyurem]]'
 ---
 
 #PokeroleSRD/Learnsets

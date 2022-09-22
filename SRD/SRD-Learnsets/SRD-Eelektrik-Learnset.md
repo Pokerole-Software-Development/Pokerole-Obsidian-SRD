@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Tail|Iron Tail]]'
 Name: Eelektrik
+Species: '[[SRD-Eelektrik|Eelektrik]]'
 ---
 
 #PokeroleSRD/Learnsets

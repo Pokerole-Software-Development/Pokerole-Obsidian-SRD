@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Hydro Pump|Hydro Pump]]'
 Name: Surskit
+Species: '[[SRD-Surskit|Surskit]]'
 ---
 
 #PokeroleSRD/Learnsets

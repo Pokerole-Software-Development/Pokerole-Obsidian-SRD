@@ -4,6 +4,7 @@ Moves:
 - - Starter
   - '[[SRD-Endure|Endure]]'
 Name: Zygarde Cell
+Species: '[[SRD-Zygarde Cell|Zygarde Cell]]'
 ---
 
 #PokeroleSRD/Learnsets

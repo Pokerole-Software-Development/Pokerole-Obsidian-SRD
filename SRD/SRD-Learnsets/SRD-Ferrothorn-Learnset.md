@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Ferrothorn
+Species: '[[SRD-Ferrothorn|Ferrothorn]]'
 ---
 
 #PokeroleSRD/Learnsets

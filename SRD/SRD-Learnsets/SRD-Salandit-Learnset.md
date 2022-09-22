@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Will-O-Wisp|Will-O-Wisp]]'
 Name: Salandit
+Species: '[[SRD-Salandit|Salandit]]'
 ---
 
 #PokeroleSRD/Learnsets

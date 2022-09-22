@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Substitute|Substitute]]'
 Name: Tangela
+Species: '[[SRD-Tangela|Tangela]]'
 ---
 
 #PokeroleSRD/Learnsets

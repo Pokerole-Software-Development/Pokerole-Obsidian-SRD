@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Grudge|Grudge]]'
 Name: Mimikyu
+Species: '[[SRD-Mimikyu|Mimikyu]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -58,6 +58,7 @@ Moves:
 - - Pro
   - '[[SRD-Blast Burn|Blast Burn]]'
 Name: Delphox
+Species: '[[SRD-Delphox|Delphox]]'
 ---
 
 #PokeroleSRD/Learnsets

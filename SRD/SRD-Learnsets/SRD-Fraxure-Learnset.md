@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Night Slash|Night Slash]]'
 Name: Fraxure
+Species: '[[SRD-Fraxure|Fraxure]]'
 ---
 
 #PokeroleSRD/Learnsets

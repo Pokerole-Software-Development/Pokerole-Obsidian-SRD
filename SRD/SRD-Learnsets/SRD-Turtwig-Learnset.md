@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Grass Pledge|Grass Pledge]]'
 Name: Turtwig
+Species: '[[SRD-Turtwig|Turtwig]]'
 ---
 
 #PokeroleSRD/Learnsets

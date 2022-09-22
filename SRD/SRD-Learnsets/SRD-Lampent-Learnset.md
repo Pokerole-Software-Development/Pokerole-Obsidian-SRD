@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Haze|Haze]]'
 Name: Lampent
+Species: '[[SRD-Lampent|Lampent]]'
 ---
 
 #PokeroleSRD/Learnsets

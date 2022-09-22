@@ -34,6 +34,7 @@ Moves:
 - - Pro
   - '[[SRD-Giga Impact|Giga Impact]]'
 Name: Alolan Exeggutor
+Species: '[[SRD-Alolan Exeggutor|Alolan Exeggutor]]'
 ---
 
 #PokeroleSRD/Learnsets

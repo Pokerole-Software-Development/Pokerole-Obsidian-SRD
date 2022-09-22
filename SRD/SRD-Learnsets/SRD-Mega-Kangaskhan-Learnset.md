@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Counter|Counter]]'
 Name: Mega-Kangaskhan
+Species: '[[SRD-Mega-Kangaskhan|Mega-Kangaskhan]]'
 ---
 
 #PokeroleSRD/Learnsets

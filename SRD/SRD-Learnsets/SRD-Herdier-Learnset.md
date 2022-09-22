@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Yawn|Yawn]]'
 Name: Herdier
+Species: '[[SRD-Herdier|Herdier]]'
 ---
 
 #PokeroleSRD/Learnsets

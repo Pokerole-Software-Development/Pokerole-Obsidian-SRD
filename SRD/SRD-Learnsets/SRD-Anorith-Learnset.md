@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Jet|Aqua Jet]]'
 Name: Anorith
+Species: '[[SRD-Anorith|Anorith]]'
 ---
 
 #PokeroleSRD/Learnsets

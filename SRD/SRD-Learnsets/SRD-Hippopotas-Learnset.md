@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pulse|Water Pulse]]'
 Name: Hippopotas
+Species: '[[SRD-Hippopotas|Hippopotas]]'
 ---
 
 #PokeroleSRD/Learnsets

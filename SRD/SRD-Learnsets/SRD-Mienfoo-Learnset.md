@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Mienfoo
+Species: '[[SRD-Mienfoo|Mienfoo]]'
 ---
 
 #PokeroleSRD/Learnsets

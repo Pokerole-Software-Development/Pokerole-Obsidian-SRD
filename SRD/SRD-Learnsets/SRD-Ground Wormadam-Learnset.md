@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Stealth Rock|Stealth Rock]]'
 Name: Ground Wormadam
+Species: '[[SRD-Ground Wormadam|Ground Wormadam]]'
 ---
 
 #PokeroleSRD/Learnsets

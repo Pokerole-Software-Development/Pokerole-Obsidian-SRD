@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Foul Play|Foul Play]]'
 Name: Pumpkaboo
+Species: '[[SRD-Pumpkaboo|Pumpkaboo]]'
 ---
 
 #PokeroleSRD/Learnsets

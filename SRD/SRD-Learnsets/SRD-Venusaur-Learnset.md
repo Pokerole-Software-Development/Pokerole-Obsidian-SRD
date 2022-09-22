@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Frenzy Plant|Frenzy Plant]]'
 Name: Venusaur
+Species: '[[SRD-Venusaur|Venusaur]]'
 ---
 
 #PokeroleSRD/Learnsets

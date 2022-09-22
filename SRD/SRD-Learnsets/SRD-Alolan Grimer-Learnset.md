@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Shadow Sneak|Shadow Sneak]]'
 Name: Alolan Grimer
+Species: '[[SRD-Alolan Grimer|Alolan Grimer]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Dark Pulse|Dark Pulse]]'
 Name: Gothitelle
+Species: '[[SRD-Gothitelle|Gothitelle]]'
 ---
 
 #PokeroleSRD/Learnsets

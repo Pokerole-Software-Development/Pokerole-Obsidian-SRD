@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Yanma
+Species: '[[SRD-Yanma|Yanma]]'
 ---
 
 #PokeroleSRD/Learnsets

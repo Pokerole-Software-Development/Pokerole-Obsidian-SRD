@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Ice Punch|Ice Punch]]'
 Name: Quagsire
+Species: '[[SRD-Quagsire|Quagsire]]'
 ---
 
 #PokeroleSRD/Learnsets

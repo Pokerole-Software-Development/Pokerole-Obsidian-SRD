@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Knock Off|Knock Off]]'
 Name: Seismitoad
+Species: '[[SRD-Seismitoad|Seismitoad]]'
 ---
 
 #PokeroleSRD/Learnsets

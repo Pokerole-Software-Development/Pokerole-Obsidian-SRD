@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Self Destruct|Self Destruct]]'
 Name: Swalot
+Species: '[[SRD-Swalot|Swalot]]'
 ---
 
 #PokeroleSRD/Learnsets

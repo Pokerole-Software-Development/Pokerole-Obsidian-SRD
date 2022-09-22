@@ -34,6 +34,7 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Bellossom
+Species: '[[SRD-Bellossom|Bellossom]]'
 ---
 
 #PokeroleSRD/Learnsets

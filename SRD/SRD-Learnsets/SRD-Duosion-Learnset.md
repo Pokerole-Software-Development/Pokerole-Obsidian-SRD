@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Confuse Ray|Confuse Ray]]'
 Name: Duosion
+Species: '[[SRD-Duosion|Duosion]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Hydro Cannon|Hydro Cannon]]'
 Name: Inteleon
+Species: '[[SRD-Inteleon|Inteleon]]'
 ---
 
 #PokeroleSRD/Learnsets

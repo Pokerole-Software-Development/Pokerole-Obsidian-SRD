@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Spheal
+Species: '[[SRD-Spheal|Spheal]]'
 ---
 
 #PokeroleSRD/Learnsets

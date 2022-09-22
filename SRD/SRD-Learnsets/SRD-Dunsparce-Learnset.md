@@ -58,6 +58,7 @@ Moves:
 - - Pro
   - '[[SRD-Trump Card|Trump Card]]'
 Name: Dunsparce
+Species: '[[SRD-Dunsparce|Dunsparce]]'
 ---
 
 #PokeroleSRD/Learnsets

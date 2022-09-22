@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Grassy Terrain|Grassy Terrain]]'
 Name: Chikorita
+Species: '[[SRD-Chikorita|Chikorita]]'
 ---
 
 #PokeroleSRD/Learnsets

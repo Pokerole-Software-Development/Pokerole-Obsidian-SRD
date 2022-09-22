@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Giga Drain|Giga Drain]]'
 Name: Gengar
+Species: '[[SRD-Gengar|Gengar]]'
 ---
 
 #PokeroleSRD/Learnsets

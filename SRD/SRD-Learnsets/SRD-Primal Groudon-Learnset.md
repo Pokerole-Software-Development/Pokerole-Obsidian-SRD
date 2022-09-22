@@ -52,6 +52,7 @@ Moves:
 - - Master
   - '[[SRD-Rock Climb|Rock Climb]]'
 Name: Primal Groudon
+Species: '[[SRD-Primal Groudon|Primal Groudon]]'
 ---
 
 #PokeroleSRD/Learnsets

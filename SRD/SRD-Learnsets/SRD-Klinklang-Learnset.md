@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Magnet Rise|Magnet Rise]]'
 Name: Klinklang
+Species: '[[SRD-Klinklang|Klinklang]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Shadow Claw|Shadow Claw]]'
 Name: Galarian Linoone
+Species: '[[SRD-Galarian Linoone|Galarian Linoone]]'
 ---
 
 #PokeroleSRD/Learnsets

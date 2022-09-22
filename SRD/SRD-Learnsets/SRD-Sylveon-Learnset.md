@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Hyper Voice|Hyper Voice]]'
 Name: Sylveon
+Species: '[[SRD-Sylveon|Sylveon]]'
 ---
 
 #PokeroleSRD/Learnsets

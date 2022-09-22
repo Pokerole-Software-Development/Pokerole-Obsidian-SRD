@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Scrafty
+Species: '[[SRD-Scrafty|Scrafty]]'
 ---
 
 #PokeroleSRD/Learnsets

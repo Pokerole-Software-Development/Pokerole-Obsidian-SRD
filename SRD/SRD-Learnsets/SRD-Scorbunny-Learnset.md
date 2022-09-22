@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Super Fang|Super Fang]]'
 Name: Scorbunny
+Species: '[[SRD-Scorbunny|Scorbunny]]'
 ---
 
 #PokeroleSRD/Learnsets

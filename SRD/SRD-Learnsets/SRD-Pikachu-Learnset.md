@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Extreme Speed|Extreme Speed]]'
 Name: Pikachu
+Species: '[[SRD-Pikachu|Pikachu]]'
 ---
 
 #PokeroleSRD/Learnsets

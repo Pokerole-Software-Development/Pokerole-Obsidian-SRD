@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Endeavor|Endeavor]]'
 Name: Lairon
+Species: '[[SRD-Lairon|Lairon]]'
 ---
 
 #PokeroleSRD/Learnsets

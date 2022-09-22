@@ -50,6 +50,7 @@ Moves:
 - - Master
   - '[[SRD-Superpower|Superpower]]'
 Name: Marshadow
+Species: '[[SRD-Marshadow|Marshadow]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Confide|Confide]]'
 Name: Hoopa
+Species: '[[SRD-Hoopa|Hoopa]]'
 ---
 
 #PokeroleSRD/Learnsets

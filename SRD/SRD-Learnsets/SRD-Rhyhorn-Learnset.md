@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Fang|Fire Fang]]'
 Name: Rhyhorn
+Species: '[[SRD-Rhyhorn|Rhyhorn]]'
 ---
 
 #PokeroleSRD/Learnsets

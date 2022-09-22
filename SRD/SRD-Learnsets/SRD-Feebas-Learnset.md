@@ -20,6 +20,7 @@ Moves:
 - - Pro
   - '[[SRD-Dive|Dive]]'
 Name: Feebas
+Species: '[[SRD-Feebas|Feebas]]'
 ---
 
 #PokeroleSRD/Learnsets

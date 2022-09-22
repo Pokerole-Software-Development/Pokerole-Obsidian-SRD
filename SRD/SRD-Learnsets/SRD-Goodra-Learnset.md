@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Goodra
+Species: '[[SRD-Goodra|Goodra]]'
 ---
 
 #PokeroleSRD/Learnsets

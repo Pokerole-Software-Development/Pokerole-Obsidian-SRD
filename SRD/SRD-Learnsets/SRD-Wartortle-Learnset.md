@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Icy Wind|Icy Wind]]'
 Name: Wartortle
+Species: '[[SRD-Wartortle|Wartortle]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -18,6 +18,7 @@ Moves:
 - - Amateur
   - '[[SRD-Safeguard|Safeguard]]'
 Name: Wynaut
+Species: '[[SRD-Wynaut|Wynaut]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Bug Buzz|Bug Buzz]]'
 Name: Butterfree
+Species: '[[SRD-Butterfree|Butterfree]]'
 ---
 
 #PokeroleSRD/Learnsets

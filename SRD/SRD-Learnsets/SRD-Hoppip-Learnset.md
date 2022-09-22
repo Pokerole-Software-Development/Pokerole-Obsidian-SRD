@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Aromatherapy|Aromatherapy]]'
 Name: Hoppip
+Species: '[[SRD-Hoppip|Hoppip]]'
 ---
 
 #PokeroleSRD/Learnsets

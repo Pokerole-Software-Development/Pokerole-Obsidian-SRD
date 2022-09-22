@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Stored Power|Stored Power]]'
 Name: Espeon
+Species: '[[SRD-Espeon|Espeon]]'
 ---
 
 #PokeroleSRD/Learnsets

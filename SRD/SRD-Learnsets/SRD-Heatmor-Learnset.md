@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Night Slash|Night Slash]]'
 Name: Heatmor
+Species: '[[SRD-Heatmor|Heatmor]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -64,6 +64,7 @@ Moves:
 - - Pro
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Ariados
+Species: '[[SRD-Ariados|Ariados]]'
 ---
 
 #PokeroleSRD/Learnsets

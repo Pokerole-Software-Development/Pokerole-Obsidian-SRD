@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Punch|Fire Punch]]'
 Name: Machoke
+Species: '[[SRD-Machoke|Machoke]]'
 ---
 
 #PokeroleSRD/Learnsets

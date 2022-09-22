@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Extrasensory|Extrasensory]]'
 Name: Roselia
+Species: '[[SRD-Roselia|Roselia]]'
 ---
 
 #PokeroleSRD/Learnsets

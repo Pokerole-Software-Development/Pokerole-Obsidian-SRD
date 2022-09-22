@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Litten
+Species: '[[SRD-Litten|Litten]]'
 ---
 
 #PokeroleSRD/Learnsets

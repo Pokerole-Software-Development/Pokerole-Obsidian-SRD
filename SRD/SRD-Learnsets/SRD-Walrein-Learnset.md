@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Tail|Aqua Tail]]'
 Name: Walrein
+Species: '[[SRD-Walrein|Walrein]]'
 ---
 
 #PokeroleSRD/Learnsets

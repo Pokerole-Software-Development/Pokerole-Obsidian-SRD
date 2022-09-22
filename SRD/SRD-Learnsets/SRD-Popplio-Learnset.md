@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Popplio
+Species: '[[SRD-Popplio|Popplio]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -40,6 +40,7 @@ Moves:
 - - Master
   - '[[SRD-Defog|Defog]]'
 Name: Form Tornadus
+Species: '[[SRD-Form Tornadus|Form Tornadus]]'
 ---
 
 #PokeroleSRD/Learnsets

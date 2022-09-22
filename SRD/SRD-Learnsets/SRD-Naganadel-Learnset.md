@@ -40,6 +40,7 @@ Moves:
 - - Master
   - '[[SRD-Sky Attack|Sky Attack]]'
 Name: Naganadel
+Species: '[[SRD-Naganadel|Naganadel]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Night Slash|Night Slash]]'
 Name: Dwebble
+Species: '[[SRD-Dwebble|Dwebble]]'
 ---
 
 #PokeroleSRD/Learnsets

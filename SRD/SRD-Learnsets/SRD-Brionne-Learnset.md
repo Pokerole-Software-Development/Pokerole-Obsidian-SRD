@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Brionne
+Species: '[[SRD-Brionne|Brionne]]'
 ---
 
 #PokeroleSRD/Learnsets

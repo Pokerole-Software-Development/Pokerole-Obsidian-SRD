@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Agility|Agility]]'
 Name: Noctowl
+Species: '[[SRD-Noctowl|Noctowl]]'
 ---
 
 #PokeroleSRD/Learnsets

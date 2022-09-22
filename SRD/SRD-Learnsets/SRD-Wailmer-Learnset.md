@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Defense Curl|Defense Curl]]'
 Name: Wailmer
+Species: '[[SRD-Wailmer|Wailmer]]'
 ---
 
 #PokeroleSRD/Learnsets

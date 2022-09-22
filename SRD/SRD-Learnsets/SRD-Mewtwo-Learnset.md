@@ -52,6 +52,7 @@ Moves:
 - - Master
   - '[[SRD-Snatch|Snatch]]'
 Name: Mewtwo
+Species: '[[SRD-Mewtwo|Mewtwo]]'
 ---
 
 #PokeroleSRD/Learnsets

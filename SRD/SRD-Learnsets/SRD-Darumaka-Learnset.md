@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Darumaka
+Species: '[[SRD-Darumaka|Darumaka]]'
 ---
 
 #PokeroleSRD/Learnsets

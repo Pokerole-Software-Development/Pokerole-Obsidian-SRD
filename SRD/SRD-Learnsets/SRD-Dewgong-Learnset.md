@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Horn Drill|Horn Drill]]'
 Name: Dewgong
+Species: '[[SRD-Dewgong|Dewgong]]'
 ---
 
 #PokeroleSRD/Learnsets

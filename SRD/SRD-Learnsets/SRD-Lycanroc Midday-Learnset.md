@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Drill Run|Drill Run]]'
 Name: Lycanroc Midday
+Species: '[[SRD-Lycanroc Midday|Lycanroc Midday]]'
 ---
 
 #PokeroleSRD/Learnsets

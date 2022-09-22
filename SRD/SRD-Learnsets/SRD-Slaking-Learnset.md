@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Gunk Shot|Gunk Shot]]'
 Name: Slaking
+Species: '[[SRD-Slaking|Slaking]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -24,6 +24,7 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Happiny
+Species: '[[SRD-Happiny|Happiny]]'
 ---
 
 #PokeroleSRD/Learnsets

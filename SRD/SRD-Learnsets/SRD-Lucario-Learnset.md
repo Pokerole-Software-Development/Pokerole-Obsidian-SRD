@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Vacuum Wave|Vacuum Wave]]'
 Name: Lucario
+Species: '[[SRD-Lucario|Lucario]]'
 ---
 
 #PokeroleSRD/Learnsets

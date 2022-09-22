@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Guzzlord
+Species: '[[SRD-Guzzlord|Guzzlord]]'
 ---
 
 #PokeroleSRD/Learnsets

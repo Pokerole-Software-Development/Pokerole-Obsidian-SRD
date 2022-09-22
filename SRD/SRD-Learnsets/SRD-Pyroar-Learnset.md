@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Endeavor|Endeavor]]'
 Name: Pyroar
+Species: '[[SRD-Pyroar|Pyroar]]'
 ---
 
 #PokeroleSRD/Learnsets

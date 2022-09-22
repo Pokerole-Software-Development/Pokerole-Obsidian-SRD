@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Crunch|Crunch]]'
 Name: Manectric
+Species: '[[SRD-Manectric|Manectric]]'
 ---
 
 #PokeroleSRD/Learnsets

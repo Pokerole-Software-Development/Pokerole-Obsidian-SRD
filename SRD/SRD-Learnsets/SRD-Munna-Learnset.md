@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Healing Wish|Healing Wish]]'
 Name: Munna
+Species: '[[SRD-Munna|Munna]]'
 ---
 
 #PokeroleSRD/Learnsets

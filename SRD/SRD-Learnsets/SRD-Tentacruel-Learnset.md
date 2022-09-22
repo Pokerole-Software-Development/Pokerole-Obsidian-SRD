@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Ring|Aqua Ring]]'
 Name: Tentacruel
+Species: '[[SRD-Tentacruel|Tentacruel]]'
 ---
 
 #PokeroleSRD/Learnsets

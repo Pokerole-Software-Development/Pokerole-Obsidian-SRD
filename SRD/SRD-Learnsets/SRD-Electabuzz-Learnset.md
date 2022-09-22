@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Meditate|Meditate]]'
 Name: Electabuzz
+Species: '[[SRD-Electabuzz|Electabuzz]]'
 ---
 
 #PokeroleSRD/Learnsets

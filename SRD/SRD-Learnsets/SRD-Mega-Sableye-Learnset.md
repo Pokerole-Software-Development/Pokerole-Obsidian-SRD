@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Mean Look|Mean Look]]'
 Name: Mega-Sableye
+Species: '[[SRD-Mega-Sableye|Mega-Sableye]]'
 ---
 
 #PokeroleSRD/Learnsets

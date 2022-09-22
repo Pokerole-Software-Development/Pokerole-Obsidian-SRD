@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Mantyke
+Species: '[[SRD-Mantyke|Mantyke]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Grudge|Grudge]]'
 Name: Gastly
+Species: '[[SRD-Gastly|Gastly]]'
 ---
 
 #PokeroleSRD/Learnsets

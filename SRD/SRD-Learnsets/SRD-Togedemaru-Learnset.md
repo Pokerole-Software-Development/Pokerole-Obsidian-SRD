@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Present|Present]]'
 Name: Togedemaru
+Species: '[[SRD-Togedemaru|Togedemaru]]'
 ---
 
 #PokeroleSRD/Learnsets

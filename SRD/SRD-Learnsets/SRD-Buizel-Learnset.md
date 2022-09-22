@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Ring|Aqua Ring]]'
 Name: Buizel
+Species: '[[SRD-Buizel|Buizel]]'
 ---
 
 #PokeroleSRD/Learnsets

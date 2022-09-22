@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Confusion|Confusion]]'
 Name: Nidoran M
+Species: '[[SRD-Nidoran M|Nidoran M]]'
 ---
 
 #PokeroleSRD/Learnsets

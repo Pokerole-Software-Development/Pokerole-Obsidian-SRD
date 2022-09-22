@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Pay Day|Pay Day]]'
 Name: Purrloin
+Species: '[[SRD-Purrloin|Purrloin]]'
 ---
 
 #PokeroleSRD/Learnsets

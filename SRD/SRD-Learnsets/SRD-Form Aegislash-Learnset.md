@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Destiny Bond|Destiny Bond]]'
 Name: Form Aegislash
+Species: '[[SRD-Form Aegislash|Form Aegislash]]'
 ---
 
 #PokeroleSRD/Learnsets

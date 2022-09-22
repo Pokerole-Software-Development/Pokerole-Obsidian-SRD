@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Detect|Detect]]'
 Name: Timburr
+Species: '[[SRD-Timburr|Timburr]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Reflect|Reflect]]'
 Name: Mega-Pidgeot
+Species: '[[SRD-Mega-Pidgeot|Mega-Pidgeot]]'
 ---
 
 #PokeroleSRD/Learnsets

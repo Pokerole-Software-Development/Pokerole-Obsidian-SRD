@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Wonder Room|Wonder Room]]'
 Name: Claydol
+Species: '[[SRD-Claydol|Claydol]]'
 ---
 
 #PokeroleSRD/Learnsets

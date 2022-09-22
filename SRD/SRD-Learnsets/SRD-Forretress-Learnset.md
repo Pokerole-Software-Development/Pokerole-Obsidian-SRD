@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Forretress
+Species: '[[SRD-Forretress|Forretress]]'
 ---
 
 #PokeroleSRD/Learnsets

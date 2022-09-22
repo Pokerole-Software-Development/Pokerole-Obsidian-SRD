@@ -44,6 +44,7 @@ Moves:
 - - Master
   - '[[SRD-Sacred Fire|Sacred Fire]]'
 Name: Entei
+Species: '[[SRD-Entei|Entei]]'
 ---
 
 #PokeroleSRD/Learnsets

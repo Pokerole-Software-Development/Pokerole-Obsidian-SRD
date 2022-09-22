@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Earthquake|Earthquake]]'
 Name: Palossand
+Species: '[[SRD-Palossand|Palossand]]'
 ---
 
 #PokeroleSRD/Learnsets

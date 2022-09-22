@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Power Swap|Power Swap]]'
 Name: Meditite
+Species: '[[SRD-Meditite|Meditite]]'
 ---
 
 #PokeroleSRD/Learnsets

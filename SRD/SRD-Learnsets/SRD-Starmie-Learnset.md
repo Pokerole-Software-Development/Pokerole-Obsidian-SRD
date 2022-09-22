@@ -30,6 +30,7 @@ Moves:
 - - Pro
   - '[[SRD-Twister|Twister]]'
 Name: Starmie
+Species: '[[SRD-Starmie|Starmie]]'
 ---
 
 #PokeroleSRD/Learnsets

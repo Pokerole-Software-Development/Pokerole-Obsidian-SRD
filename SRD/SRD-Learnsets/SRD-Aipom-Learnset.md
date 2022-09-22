@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Quick Guard|Quick Guard]]'
 Name: Aipom
+Species: '[[SRD-Aipom|Aipom]]'
 ---
 
 #PokeroleSRD/Learnsets

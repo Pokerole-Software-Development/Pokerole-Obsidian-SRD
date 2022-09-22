@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Revenge|Revenge]]'
 Name: Watchog
+Species: '[[SRD-Watchog|Watchog]]'
 ---
 
 #PokeroleSRD/Learnsets

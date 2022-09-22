@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Future Sight|Future Sight]]'
 Name: Psyduck
+Species: '[[SRD-Psyduck|Psyduck]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Role Play|Role Play]]'
 Name: Mega-Latios
+Species: '[[SRD-Mega-Latios|Mega-Latios]]'
 ---
 
 #PokeroleSRD/Learnsets

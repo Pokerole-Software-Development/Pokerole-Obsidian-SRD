@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Hydro Cannon|Hydro Cannon]]'
 Name: Mega-Blastoise
+Species: '[[SRD-Mega-Blastoise|Mega-Blastoise]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Scald|Scald]]'
 Name: Araquanid
+Species: '[[SRD-Araquanid|Araquanid]]'
 ---
 
 #PokeroleSRD/Learnsets

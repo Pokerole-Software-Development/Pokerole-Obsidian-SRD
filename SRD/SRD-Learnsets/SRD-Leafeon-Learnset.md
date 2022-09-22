@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Flail|Flail]]'
 Name: Leafeon
+Species: '[[SRD-Leafeon|Leafeon]]'
 ---
 
 #PokeroleSRD/Learnsets

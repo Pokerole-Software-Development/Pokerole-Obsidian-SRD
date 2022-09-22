@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pulse|Water Pulse]]'
 Name: Amaura
+Species: '[[SRD-Amaura|Amaura]]'
 ---
 
 #PokeroleSRD/Learnsets

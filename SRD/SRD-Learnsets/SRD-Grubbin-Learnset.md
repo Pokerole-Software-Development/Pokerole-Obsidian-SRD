@@ -36,6 +36,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Grubbin
+Species: '[[SRD-Grubbin|Grubbin]]'
 ---
 
 #PokeroleSRD/Learnsets

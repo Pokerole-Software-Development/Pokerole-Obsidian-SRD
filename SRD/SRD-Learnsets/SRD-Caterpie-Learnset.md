@@ -14,6 +14,7 @@ Moves:
 - - Amateur
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Caterpie
+Species: '[[SRD-Caterpie|Caterpie]]'
 ---
 
 #PokeroleSRD/Learnsets

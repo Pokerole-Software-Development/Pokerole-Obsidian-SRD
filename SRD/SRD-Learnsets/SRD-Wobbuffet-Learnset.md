@@ -14,6 +14,7 @@ Moves:
 - - Pro
   - '[[SRD-Destiny Bond|Destiny Bond]]'
 Name: Wobbuffet
+Species: '[[SRD-Wobbuffet|Wobbuffet]]'
 ---
 
 #PokeroleSRD/Learnsets

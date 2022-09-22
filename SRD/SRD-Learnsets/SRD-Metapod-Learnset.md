@@ -10,6 +10,7 @@ Moves:
 - - Amateur
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Metapod
+Species: '[[SRD-Metapod|Metapod]]'
 ---
 
 #PokeroleSRD/Learnsets

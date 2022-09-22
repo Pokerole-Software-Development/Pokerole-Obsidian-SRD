@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Protect|Protect]]'
 Name: Galarian Ponyta
+Species: '[[SRD-Galarian Ponyta|Galarian Ponyta]]'
 ---
 
 #PokeroleSRD/Learnsets

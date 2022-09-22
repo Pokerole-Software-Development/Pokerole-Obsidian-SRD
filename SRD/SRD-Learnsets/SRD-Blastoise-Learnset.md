@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Hydro Cannon|Hydro Cannon]]'
 Name: Blastoise
+Species: '[[SRD-Blastoise|Blastoise]]'
 ---
 
 #PokeroleSRD/Learnsets

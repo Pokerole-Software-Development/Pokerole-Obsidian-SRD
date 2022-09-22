@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
 Name: Zygarde 50%
+Species: '[[SRD-Zygarde 50%|Zygarde 50%]]'
 ---
 
 #PokeroleSRD/Learnsets

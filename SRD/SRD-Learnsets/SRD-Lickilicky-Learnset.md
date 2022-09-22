@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Wring Out|Wring Out]]'
 Name: Lickilicky
+Species: '[[SRD-Lickilicky|Lickilicky]]'
 ---
 
 #PokeroleSRD/Learnsets

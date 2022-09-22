@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Quick Guard|Quick Guard]]'
 Name: Croagunk
+Species: '[[SRD-Croagunk|Croagunk]]'
 ---
 
 #PokeroleSRD/Learnsets

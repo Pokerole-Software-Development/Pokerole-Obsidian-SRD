@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Giga Drain|Giga Drain]]'
 Name: Grass Wormadam
+Species: '[[SRD-Grass Wormadam|Grass Wormadam]]'
 ---
 
 #PokeroleSRD/Learnsets

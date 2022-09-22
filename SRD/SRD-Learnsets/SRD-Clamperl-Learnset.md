@@ -26,6 +26,7 @@ Moves:
 - - Pro
   - '[[SRD-Mud Sport|Mud Sport]]'
 Name: Clamperl
+Species: '[[SRD-Clamperl|Clamperl]]'
 ---
 
 #PokeroleSRD/Learnsets

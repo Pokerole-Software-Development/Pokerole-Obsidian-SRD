@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Trick Room|Trick Room]]'
 Name: Jirachi
+Species: '[[SRD-Jirachi|Jirachi]]'
 ---
 
 #PokeroleSRD/Learnsets

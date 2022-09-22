@@ -44,6 +44,7 @@ Moves:
 - - Master
   - '[[SRD-Sheer Cold|Sheer Cold]]'
 Name: Suicune
+Species: '[[SRD-Suicune|Suicune]]'
 ---
 
 #PokeroleSRD/Learnsets

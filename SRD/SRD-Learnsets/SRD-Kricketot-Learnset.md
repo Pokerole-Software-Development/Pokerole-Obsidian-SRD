@@ -20,6 +20,7 @@ Moves:
 - - Pro
   - '[[SRD-String Shot|String Shot]]'
 Name: Kricketot
+Species: '[[SRD-Kricketot|Kricketot]]'
 ---
 
 #PokeroleSRD/Learnsets

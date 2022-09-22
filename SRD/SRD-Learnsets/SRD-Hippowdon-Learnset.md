@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Revenge|Revenge]]'
 Name: Hippowdon
+Species: '[[SRD-Hippowdon|Hippowdon]]'
 ---
 
 #PokeroleSRD/Learnsets

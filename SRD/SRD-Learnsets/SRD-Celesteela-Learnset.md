@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Fly|Fly]]'
 Name: Celesteela
+Species: '[[SRD-Celesteela|Celesteela]]'
 ---
 
 #PokeroleSRD/Learnsets

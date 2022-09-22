@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Wild Charge|Wild Charge]]'
 Name: Alolan Golem
+Species: '[[SRD-Alolan Golem|Alolan Golem]]'
 ---
 
 #PokeroleSRD/Learnsets

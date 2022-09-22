@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Aurora Beam|Aurora Beam]]'
 Name: Lumineon
+Species: '[[SRD-Lumineon|Lumineon]]'
 ---
 
 #PokeroleSRD/Learnsets

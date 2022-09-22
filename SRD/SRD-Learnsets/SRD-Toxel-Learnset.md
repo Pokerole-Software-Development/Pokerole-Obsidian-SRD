@@ -26,6 +26,7 @@ Moves:
 - - Pro
   - '[[SRD-Round|Round]]'
 Name: Toxel
+Species: '[[SRD-Toxel|Toxel]]'
 ---
 
 #PokeroleSRD/Learnsets

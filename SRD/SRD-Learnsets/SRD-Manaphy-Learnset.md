@@ -36,6 +36,7 @@ Moves:
 - - Master
   - '[[SRD-Bounce|Bounce]]'
 Name: Manaphy
+Species: '[[SRD-Manaphy|Manaphy]]'
 ---
 
 #PokeroleSRD/Learnsets

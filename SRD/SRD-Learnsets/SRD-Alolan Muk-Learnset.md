@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Shadow Sneak|Shadow Sneak]]'
 Name: Alolan Muk
+Species: '[[SRD-Alolan Muk|Alolan Muk]]'
 ---
 
 #PokeroleSRD/Learnsets

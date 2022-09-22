@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Ice Punch|Ice Punch]]'
 Name: Marill
+Species: '[[SRD-Marill|Marill]]'
 ---
 
 #PokeroleSRD/Learnsets

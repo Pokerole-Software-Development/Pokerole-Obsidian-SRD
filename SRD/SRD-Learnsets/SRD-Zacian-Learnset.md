@@ -36,6 +36,7 @@ Moves:
 - - Master
   - '[[SRD-Solar Beam|Solar Beam]]'
 Name: Zacian
+Species: '[[SRD-Zacian|Zacian]]'
 ---
 
 #PokeroleSRD/Learnsets

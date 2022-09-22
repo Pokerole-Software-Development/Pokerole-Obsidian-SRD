@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Magnet Rise|Magnet Rise]]'
 Name: Necrozma
+Species: '[[SRD-Necrozma|Necrozma]]'
 ---
 
 #PokeroleSRD/Learnsets

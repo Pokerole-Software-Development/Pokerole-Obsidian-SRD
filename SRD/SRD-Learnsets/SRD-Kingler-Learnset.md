@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Mimic|Mimic]]'
 Name: Kingler
+Species: '[[SRD-Kingler|Kingler]]'
 ---
 
 #PokeroleSRD/Learnsets

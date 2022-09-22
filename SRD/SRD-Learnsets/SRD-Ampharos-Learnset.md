@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Ampharos
+Species: '[[SRD-Ampharos|Ampharos]]'
 ---
 
 #PokeroleSRD/Learnsets

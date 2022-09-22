@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Assist|Assist]]'
 Name: Sentret
+Species: '[[SRD-Sentret|Sentret]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Dragon Breath|Dragon Breath]]'
 Name: Hakamo-o
+Species: '[[SRD-Hakamo-o|Hakamo-o]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Charmeleon
+Species: '[[SRD-Charmeleon|Charmeleon]]'
 ---
 
 #PokeroleSRD/Learnsets

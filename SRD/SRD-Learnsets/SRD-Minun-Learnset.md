@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Mimic|Mimic]]'
 Name: Minun
+Species: '[[SRD-Minun|Minun]]'
 ---
 
 #PokeroleSRD/Learnsets

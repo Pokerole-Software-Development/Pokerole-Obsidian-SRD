@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Baltoy
+Species: '[[SRD-Baltoy|Baltoy]]'
 ---
 
 #PokeroleSRD/Learnsets

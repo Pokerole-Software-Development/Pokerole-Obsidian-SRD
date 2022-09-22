@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Synthesis|Synthesis]]'
 Name: Tsareena
+Species: '[[SRD-Tsareena|Tsareena]]'
 ---
 
 #PokeroleSRD/Learnsets

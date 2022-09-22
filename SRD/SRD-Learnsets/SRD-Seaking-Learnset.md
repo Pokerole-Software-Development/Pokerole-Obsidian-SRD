@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Drill Run|Drill Run]]'
 Name: Seaking
+Species: '[[SRD-Seaking|Seaking]]'
 ---
 
 #PokeroleSRD/Learnsets

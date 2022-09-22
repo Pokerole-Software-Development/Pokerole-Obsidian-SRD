@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Fly|Fly]]'
 Name: Moltres
+Species: '[[SRD-Moltres|Moltres]]'
 ---
 
 #PokeroleSRD/Learnsets

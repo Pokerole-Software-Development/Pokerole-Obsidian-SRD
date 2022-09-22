@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Giga Drain|Giga Drain]]'
 Name: Muk
+Species: '[[SRD-Muk|Muk]]'
 ---
 
 #PokeroleSRD/Learnsets

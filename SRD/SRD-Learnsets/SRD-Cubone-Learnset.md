@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Detect|Detect]]'
 Name: Cubone
+Species: '[[SRD-Cubone|Cubone]]'
 ---
 
 #PokeroleSRD/Learnsets

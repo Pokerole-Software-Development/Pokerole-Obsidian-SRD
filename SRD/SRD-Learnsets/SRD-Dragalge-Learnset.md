@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Dragalge
+Species: '[[SRD-Dragalge|Dragalge]]'
 ---
 
 #PokeroleSRD/Learnsets

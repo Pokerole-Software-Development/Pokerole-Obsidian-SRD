@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Giga Drain|Giga Drain]]'
 Name: Trapinch
+Species: '[[SRD-Trapinch|Trapinch]]'
 ---
 
 #PokeroleSRD/Learnsets

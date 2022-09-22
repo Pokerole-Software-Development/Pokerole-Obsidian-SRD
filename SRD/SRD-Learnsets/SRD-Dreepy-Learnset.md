@@ -22,6 +22,7 @@ Moves:
 - - Pro
   - '[[SRD-Double Team|Double Team]]'
 Name: Dreepy
+Species: '[[SRD-Dreepy|Dreepy]]'
 ---
 
 #PokeroleSRD/Learnsets

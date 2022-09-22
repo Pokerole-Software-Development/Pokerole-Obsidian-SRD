@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Feint Attack|Feint Attack]]'
 Name: Mega-Pinsir
+Species: '[[SRD-Mega-Pinsir|Mega-Pinsir]]'
 ---
 
 #PokeroleSRD/Learnsets

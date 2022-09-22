@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Light Screen|Light Screen]]'
 Name: Morelull
+Species: '[[SRD-Morelull|Morelull]]'
 ---
 
 #PokeroleSRD/Learnsets

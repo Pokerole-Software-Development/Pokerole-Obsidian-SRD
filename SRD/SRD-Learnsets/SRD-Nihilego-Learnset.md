@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Gunk Shot|Gunk Shot]]'
 Name: Nihilego
+Species: '[[SRD-Nihilego|Nihilego]]'
 ---
 
 #PokeroleSRD/Learnsets

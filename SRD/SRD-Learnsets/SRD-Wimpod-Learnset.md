@@ -18,6 +18,7 @@ Moves:
 - - Pro
   - '[[SRD-Spikes|Spikes]]'
 Name: Wimpod
+Species: '[[SRD-Wimpod|Wimpod]]'
 ---
 
 #PokeroleSRD/Learnsets

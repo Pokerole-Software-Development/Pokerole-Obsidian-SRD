@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Haze|Haze]]'
 Name: Litwick
+Species: '[[SRD-Litwick|Litwick]]'
 ---
 
 #PokeroleSRD/Learnsets

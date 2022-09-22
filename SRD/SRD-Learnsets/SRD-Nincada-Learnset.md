@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Nincada
+Species: '[[SRD-Nincada|Nincada]]'
 ---
 
 #PokeroleSRD/Learnsets

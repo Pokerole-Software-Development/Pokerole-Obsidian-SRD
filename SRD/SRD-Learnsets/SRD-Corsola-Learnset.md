@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Whirlpool|Whirlpool]]'
 Name: Corsola
+Species: '[[SRD-Corsola|Corsola]]'
 ---
 
 #PokeroleSRD/Learnsets

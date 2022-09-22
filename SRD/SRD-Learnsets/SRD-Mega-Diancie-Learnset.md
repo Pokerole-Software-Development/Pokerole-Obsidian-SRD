@@ -44,6 +44,7 @@ Moves:
 - - Master
   - '[[SRD-Dazzling Gleam|Dazzling Gleam]]'
 Name: Mega-Diancie
+Species: '[[SRD-Mega-Diancie|Mega-Diancie]]'
 ---
 
 #PokeroleSRD/Learnsets

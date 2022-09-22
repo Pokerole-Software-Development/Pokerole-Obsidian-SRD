@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Thunder Fang|Thunder Fang]]'
 Name: Rockruff
+Species: '[[SRD-Rockruff|Rockruff]]'
 ---
 
 #PokeroleSRD/Learnsets

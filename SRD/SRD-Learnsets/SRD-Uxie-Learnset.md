@@ -38,6 +38,7 @@ Moves:
 - - Master
   - '[[SRD-Wonder Room|Wonder Room]]'
 Name: Uxie
+Species: '[[SRD-Uxie|Uxie]]'
 ---
 
 #PokeroleSRD/Learnsets

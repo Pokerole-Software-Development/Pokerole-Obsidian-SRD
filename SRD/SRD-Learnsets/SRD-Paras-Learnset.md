@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Leech Seed|Leech Seed]]'
 Name: Paras
+Species: '[[SRD-Paras|Paras]]'
 ---
 
 #PokeroleSRD/Learnsets

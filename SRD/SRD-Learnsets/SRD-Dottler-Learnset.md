@@ -22,6 +22,7 @@ Moves:
 - - Pro
   - '[[SRD-Infestation|Infestation]]'
 Name: Dottler
+Species: '[[SRD-Dottler|Dottler]]'
 ---
 
 #PokeroleSRD/Learnsets

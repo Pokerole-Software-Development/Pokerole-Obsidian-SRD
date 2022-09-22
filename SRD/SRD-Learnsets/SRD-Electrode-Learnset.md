@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Electrode
+Species: '[[SRD-Electrode|Electrode]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -32,6 +32,7 @@ Moves:
 - - Master
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Blacephalon
+Species: '[[SRD-Blacephalon|Blacephalon]]'
 ---
 
 #PokeroleSRD/Learnsets

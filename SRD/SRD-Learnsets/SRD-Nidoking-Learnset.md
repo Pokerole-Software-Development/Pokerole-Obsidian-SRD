@@ -32,6 +32,7 @@ Moves:
 - - Pro
   - '[[SRD-Head Smash|Head Smash]]'
 Name: Nidoking
+Species: '[[SRD-Nidoking|Nidoking]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Uproar|Uproar]]'
 Name: Starly
+Species: '[[SRD-Starly|Starly]]'
 ---
 
 #PokeroleSRD/Learnsets

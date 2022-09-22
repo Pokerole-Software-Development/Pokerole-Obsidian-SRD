@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Fake Out|Fake Out]]'
 Name: Lopunny
+Species: '[[SRD-Lopunny|Lopunny]]'
 ---
 
 #PokeroleSRD/Learnsets

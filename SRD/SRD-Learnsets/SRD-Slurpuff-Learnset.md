@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Copycat|Copycat]]'
 Name: Slurpuff
+Species: '[[SRD-Slurpuff|Slurpuff]]'
 ---
 
 #PokeroleSRD/Learnsets

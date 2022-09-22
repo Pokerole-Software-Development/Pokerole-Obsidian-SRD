@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Self Destruct|Self Destruct]]'
 Name: Polteageist
+Species: '[[SRD-Polteageist|Polteageist]]'
 ---
 
 #PokeroleSRD/Learnsets

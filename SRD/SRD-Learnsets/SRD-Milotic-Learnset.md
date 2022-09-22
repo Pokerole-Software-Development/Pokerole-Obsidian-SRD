@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Magic Coat|Magic Coat]]'
 Name: Milotic
+Species: '[[SRD-Milotic|Milotic]]'
 ---
 
 #PokeroleSRD/Learnsets

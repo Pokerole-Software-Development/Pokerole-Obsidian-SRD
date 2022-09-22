@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Pin Missile|Pin Missile]]'
 Name: Whirlipede
+Species: '[[SRD-Whirlipede|Whirlipede]]'
 ---
 
 #PokeroleSRD/Learnsets

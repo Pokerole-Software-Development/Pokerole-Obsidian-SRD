@@ -36,6 +36,7 @@ Moves:
 - - Pro
   - '[[SRD-Earth Power|Earth Power]]'
 Name: Shellos
+Species: '[[SRD-Shellos|Shellos]]'
 ---
 
 #PokeroleSRD/Learnsets

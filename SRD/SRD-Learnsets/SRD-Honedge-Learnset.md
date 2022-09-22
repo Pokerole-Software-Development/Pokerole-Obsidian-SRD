@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Wide Guard|Wide Guard]]'
 Name: Honedge
+Species: '[[SRD-Honedge|Honedge]]'
 ---
 
 #PokeroleSRD/Learnsets

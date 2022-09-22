@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Fissure|Fissure]]'
 Name: Bastiodon
+Species: '[[SRD-Bastiodon|Bastiodon]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Speed Swap|Speed Swap]]'
 Name: Cutiefly
+Species: '[[SRD-Cutiefly|Cutiefly]]'
 ---
 
 #PokeroleSRD/Learnsets

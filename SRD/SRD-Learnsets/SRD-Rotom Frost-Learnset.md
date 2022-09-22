@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Blizzard|Blizzard]]'
 Name: Rotom Frost
+Species: '[[SRD-Rotom Frost|Rotom Frost]]'
 ---
 
 #PokeroleSRD/Learnsets

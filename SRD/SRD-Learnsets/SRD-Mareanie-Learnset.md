@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Sludge Bomb|Sludge Bomb]]'
 Name: Mareanie
+Species: '[[SRD-Mareanie|Mareanie]]'
 ---
 
 #PokeroleSRD/Learnsets

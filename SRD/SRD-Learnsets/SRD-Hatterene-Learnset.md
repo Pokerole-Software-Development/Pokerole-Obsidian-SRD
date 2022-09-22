@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Light Screen|Light Screen]]'
 Name: Hatterene
+Species: '[[SRD-Hatterene|Hatterene]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
 Name: Purugly
+Species: '[[SRD-Purugly|Purugly]]'
 ---
 
 #PokeroleSRD/Learnsets

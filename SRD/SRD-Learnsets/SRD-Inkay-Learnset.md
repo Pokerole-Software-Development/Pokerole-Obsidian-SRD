@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Simple Beam|Simple Beam]]'
 Name: Inkay
+Species: '[[SRD-Inkay|Inkay]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Brave Bird|Brave Bird]]'
 Name: Dodrio
+Species: '[[SRD-Dodrio|Dodrio]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Omastar
+Species: '[[SRD-Omastar|Omastar]]'
 ---
 
 #PokeroleSRD/Learnsets

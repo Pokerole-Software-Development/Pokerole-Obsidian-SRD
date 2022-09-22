@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Quash|Quash]]'
 Name: Hattrem
+Species: '[[SRD-Hattrem|Hattrem]]'
 ---
 
 #PokeroleSRD/Learnsets

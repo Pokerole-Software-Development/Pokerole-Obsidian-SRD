@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Cacnea
+Species: '[[SRD-Cacnea|Cacnea]]'
 ---
 
 #PokeroleSRD/Learnsets

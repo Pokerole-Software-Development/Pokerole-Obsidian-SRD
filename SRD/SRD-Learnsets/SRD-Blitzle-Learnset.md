@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Double Kick|Double Kick]]'
 Name: Blitzle
+Species: '[[SRD-Blitzle|Blitzle]]'
 ---
 
 #PokeroleSRD/Learnsets

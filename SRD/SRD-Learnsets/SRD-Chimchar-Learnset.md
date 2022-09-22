@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Chimchar
+Species: '[[SRD-Chimchar|Chimchar]]'
 ---
 
 #PokeroleSRD/Learnsets

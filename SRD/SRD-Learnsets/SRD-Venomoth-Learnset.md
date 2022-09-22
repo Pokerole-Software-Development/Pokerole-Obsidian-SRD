@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Defog|Defog]]'
 Name: Venomoth
+Species: '[[SRD-Venomoth|Venomoth]]'
 ---
 
 #PokeroleSRD/Learnsets

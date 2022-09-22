@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Snorunt
+Species: '[[SRD-Snorunt|Snorunt]]'
 ---
 
 #PokeroleSRD/Learnsets

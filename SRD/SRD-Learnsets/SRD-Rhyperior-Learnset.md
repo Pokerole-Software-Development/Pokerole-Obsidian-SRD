@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Dragon Rush|Dragon Rush]]'
 Name: Rhyperior
+Species: '[[SRD-Rhyperior|Rhyperior]]'
 ---
 
 #PokeroleSRD/Learnsets

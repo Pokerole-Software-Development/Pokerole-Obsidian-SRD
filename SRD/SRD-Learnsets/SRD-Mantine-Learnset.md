@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Mud Sport|Mud Sport]]'
 Name: Mantine
+Species: '[[SRD-Mantine|Mantine]]'
 ---
 
 #PokeroleSRD/Learnsets

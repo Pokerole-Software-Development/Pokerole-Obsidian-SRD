@@ -18,6 +18,7 @@ Moves:
 - - Pro
   - '[[SRD-Rage Powder|Rage Powder]]'
 Name: Scatterbug
+Species: '[[SRD-Scatterbug|Scatterbug]]'
 ---
 
 #PokeroleSRD/Learnsets

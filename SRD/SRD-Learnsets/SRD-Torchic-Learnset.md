@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Torchic
+Species: '[[SRD-Torchic|Torchic]]'
 ---
 
 #PokeroleSRD/Learnsets

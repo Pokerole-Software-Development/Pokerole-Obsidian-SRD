@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Psybeam|Psybeam]]'
 Name: Ledian
+Species: '[[SRD-Ledian|Ledian]]'
 ---
 
 #PokeroleSRD/Learnsets

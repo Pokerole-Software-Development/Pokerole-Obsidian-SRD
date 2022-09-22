@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Ferroseed
+Species: '[[SRD-Ferroseed|Ferroseed]]'
 ---
 
 #PokeroleSRD/Learnsets

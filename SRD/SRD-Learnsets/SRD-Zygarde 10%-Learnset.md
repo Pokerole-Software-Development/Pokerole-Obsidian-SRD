@@ -42,6 +42,7 @@ Moves:
 - - Master
   - '[[SRD-Thousand Arrows|Thousand Arrows]]'
 Name: Zygarde 10%
+Species: '[[SRD-Zygarde 10%|Zygarde 10%]]'
 ---
 
 #PokeroleSRD/Learnsets

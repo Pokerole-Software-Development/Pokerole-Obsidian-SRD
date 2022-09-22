@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Lapras
+Species: '[[SRD-Lapras|Lapras]]'
 ---
 
 #PokeroleSRD/Learnsets

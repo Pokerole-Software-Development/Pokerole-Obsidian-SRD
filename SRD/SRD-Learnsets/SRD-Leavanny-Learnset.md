@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Screech|Screech]]'
 Name: Leavanny
+Species: '[[SRD-Leavanny|Leavanny]]'
 ---
 
 #PokeroleSRD/Learnsets

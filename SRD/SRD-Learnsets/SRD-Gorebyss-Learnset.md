@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Muddy Water|Muddy Water]]'
 Name: Gorebyss
+Species: '[[SRD-Gorebyss|Gorebyss]]'
 ---
 
 #PokeroleSRD/Learnsets

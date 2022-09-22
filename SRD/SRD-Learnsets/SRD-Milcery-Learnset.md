@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Fling|Fling]]'
 Name: Milcery
+Species: '[[SRD-Milcery|Milcery]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Mega-Camerupt
+Species: '[[SRD-Mega-Camerupt|Mega-Camerupt]]'
 ---
 
 #PokeroleSRD/Learnsets

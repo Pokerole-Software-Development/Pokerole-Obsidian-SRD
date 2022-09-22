@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Blast Burn|Blast Burn]]'
 Name: Mega-Charizard X
+Species: '[[SRD-Mega-Charizard X|Mega-Charizard X]]'
 ---
 
 #PokeroleSRD/Learnsets

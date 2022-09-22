@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Screech|Screech]]'
 Name: Magby
+Species: '[[SRD-Magby|Magby]]'
 ---
 
 #PokeroleSRD/Learnsets

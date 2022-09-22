@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Pin Missile|Pin Missile]]'
 Name: Pineco
+Species: '[[SRD-Pineco|Pineco]]'
 ---
 
 #PokeroleSRD/Learnsets

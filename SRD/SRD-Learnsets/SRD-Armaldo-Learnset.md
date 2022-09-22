@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Armaldo
+Species: '[[SRD-Armaldo|Armaldo]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -44,6 +44,7 @@ Moves:
 - - Master
   - '[[SRD-Shock Wave|Shock Wave]]'
 Name: Raikou
+Species: '[[SRD-Raikou|Raikou]]'
 ---
 
 #PokeroleSRD/Learnsets

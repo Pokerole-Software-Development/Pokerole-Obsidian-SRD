@@ -40,6 +40,7 @@ Moves:
 - - Master
   - '[[SRD-Dig|Dig]]'
 Name: Form Landorus
+Species: '[[SRD-Form Landorus|Form Landorus]]'
 ---
 
 #PokeroleSRD/Learnsets

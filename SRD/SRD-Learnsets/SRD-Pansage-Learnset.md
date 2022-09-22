@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Giga Drain|Giga Drain]]'
 Name: Pansage
+Species: '[[SRD-Pansage|Pansage]]'
 ---
 
 #PokeroleSRD/Learnsets

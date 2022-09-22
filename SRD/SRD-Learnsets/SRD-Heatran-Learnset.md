@@ -38,6 +38,7 @@ Moves:
 - - Master
   - '[[SRD-Uproar|Uproar]]'
 Name: Heatran
+Species: '[[SRD-Heatran|Heatran]]'
 ---
 
 #PokeroleSRD/Learnsets

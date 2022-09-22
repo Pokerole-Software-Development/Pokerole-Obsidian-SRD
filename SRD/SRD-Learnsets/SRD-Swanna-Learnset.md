@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Mirror Move|Mirror Move]]'
 Name: Swanna
+Species: '[[SRD-Swanna|Swanna]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Ice Punch|Ice Punch]]'
 Name: Ambipom
+Species: '[[SRD-Ambipom|Ambipom]]'
 ---
 
 #PokeroleSRD/Learnsets

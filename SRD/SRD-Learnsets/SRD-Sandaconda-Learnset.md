@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Giga Impact|Giga Impact]]'
 Name: Sandaconda
+Species: '[[SRD-Sandaconda|Sandaconda]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Sinistea
+Species: '[[SRD-Sinistea|Sinistea]]'
 ---
 
 #PokeroleSRD/Learnsets

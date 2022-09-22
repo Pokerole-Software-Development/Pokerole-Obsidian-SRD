@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Last Resort|Last Resort]]'
 Name: Yungoos
+Species: '[[SRD-Yungoos|Yungoos]]'
 ---
 
 #PokeroleSRD/Learnsets

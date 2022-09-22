@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Teleport|Teleport]]'
 Name: Elgyem
+Species: '[[SRD-Elgyem|Elgyem]]'
 ---
 
 #PokeroleSRD/Learnsets

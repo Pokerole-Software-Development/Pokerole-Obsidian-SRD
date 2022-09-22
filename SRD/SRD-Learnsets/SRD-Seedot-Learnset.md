@@ -30,6 +30,7 @@ Moves:
 - - Pro
   - '[[SRD-Worry Seed|Worry Seed]]'
 Name: Seedot
+Species: '[[SRD-Seedot|Seedot]]'
 ---
 
 #PokeroleSRD/Learnsets

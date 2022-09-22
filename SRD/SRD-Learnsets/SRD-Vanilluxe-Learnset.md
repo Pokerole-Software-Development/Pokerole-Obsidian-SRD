@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Ice Shard|Ice Shard]]'
 Name: Vanilluxe
+Species: '[[SRD-Vanilluxe|Vanilluxe]]'
 ---
 
 #PokeroleSRD/Learnsets

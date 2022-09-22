@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Ominous Wind|Ominous Wind]]'
 Name: Vespiquen
+Species: '[[SRD-Vespiquen|Vespiquen]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Yawn|Yawn]]'
 Name: Teddiursa
+Species: '[[SRD-Teddiursa|Teddiursa]]'
 ---
 
 #PokeroleSRD/Learnsets

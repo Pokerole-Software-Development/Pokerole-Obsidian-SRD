@@ -58,6 +58,7 @@ Moves:
 - - Pro
   - '[[SRD-Swords Dance|Swords Dance]]'
 Name: Qwilfish
+Species: '[[SRD-Qwilfish|Qwilfish]]'
 ---
 
 #PokeroleSRD/Learnsets

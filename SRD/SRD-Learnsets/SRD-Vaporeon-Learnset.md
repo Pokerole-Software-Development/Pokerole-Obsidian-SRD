@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Yawn|Yawn]]'
 Name: Vaporeon
+Species: '[[SRD-Vaporeon|Vaporeon]]'
 ---
 
 #PokeroleSRD/Learnsets

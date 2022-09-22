@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Gunk Shot|Gunk Shot]]'
 Name: Pelipper
+Species: '[[SRD-Pelipper|Pelipper]]'
 ---
 
 #PokeroleSRD/Learnsets

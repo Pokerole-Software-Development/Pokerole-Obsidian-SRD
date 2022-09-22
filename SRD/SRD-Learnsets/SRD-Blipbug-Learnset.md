@@ -12,6 +12,7 @@ Moves:
 - - Pro
   - '[[SRD-Infestation|Infestation]]'
 Name: Blipbug
+Species: '[[SRD-Blipbug|Blipbug]]'
 ---
 
 #PokeroleSRD/Learnsets

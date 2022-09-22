@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Scolipede
+Species: '[[SRD-Scolipede|Scolipede]]'
 ---
 
 #PokeroleSRD/Learnsets

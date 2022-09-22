@@ -22,6 +22,7 @@ Moves:
 - - Pro
   - '[[SRD-Gunk Shot|Gunk Shot]]'
 Name: Simisage
+Species: '[[SRD-Simisage|Simisage]]'
 ---
 
 #PokeroleSRD/Learnsets

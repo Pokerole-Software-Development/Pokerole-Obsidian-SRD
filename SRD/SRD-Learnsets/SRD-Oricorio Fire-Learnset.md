@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Round|Round]]'
 Name: Oricorio Fire
+Species: '[[SRD-Oricorio Fire|Oricorio Fire]]'
 ---
 
 #PokeroleSRD/Learnsets

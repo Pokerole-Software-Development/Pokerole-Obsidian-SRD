@@ -38,6 +38,7 @@ Moves:
 - - Master
   - '[[SRD-Protect|Protect]]'
 Name: Eternatus
+Species: '[[SRD-Eternatus|Eternatus]]'
 ---
 
 #PokeroleSRD/Learnsets

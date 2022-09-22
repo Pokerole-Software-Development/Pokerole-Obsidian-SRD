@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Scary Face|Scary Face]]'
 Name: Skuntank
+Species: '[[SRD-Skuntank|Skuntank]]'
 ---
 
 #PokeroleSRD/Learnsets

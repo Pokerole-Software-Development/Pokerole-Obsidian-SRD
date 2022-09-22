@@ -66,6 +66,7 @@ Moves:
 - - Pro
   - '[[SRD-Round|Round]]'
 Name: Toxtricity Low Key
+Species: '[[SRD-Toxtricity Low Key|Toxtricity Low Key]]'
 ---
 
 #PokeroleSRD/Learnsets

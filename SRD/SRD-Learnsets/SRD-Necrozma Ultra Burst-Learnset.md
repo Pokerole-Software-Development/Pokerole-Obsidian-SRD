@@ -48,6 +48,7 @@ Moves:
 - - Master
   - '[[SRD-Moongeist Beam|Moongeist Beam]]'
 Name: Necrozma Ultra Burst
+Species: '[[SRD-Necrozma Ultra Burst|Necrozma Ultra Burst]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -16,6 +16,7 @@ Moves:
 - - Ace
   - '[[SRD-Charge Beam|Charge Beam]]'
 Name: Tynamo
+Species: '[[SRD-Tynamo|Tynamo]]'
 ---
 
 #PokeroleSRD/Learnsets

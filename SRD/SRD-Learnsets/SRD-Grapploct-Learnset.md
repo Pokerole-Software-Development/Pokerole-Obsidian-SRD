@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Brutal Swing|Brutal Swing]]'
 Name: Grapploct
+Species: '[[SRD-Grapploct|Grapploct]]'
 ---
 
 #PokeroleSRD/Learnsets

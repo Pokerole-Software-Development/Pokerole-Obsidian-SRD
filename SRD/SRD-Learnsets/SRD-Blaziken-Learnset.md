@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Blast Burn|Blast Burn]]'
 Name: Blaziken
+Species: '[[SRD-Blaziken|Blaziken]]'
 ---
 
 #PokeroleSRD/Learnsets

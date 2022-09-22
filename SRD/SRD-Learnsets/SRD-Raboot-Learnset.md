@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Raboot
+Species: '[[SRD-Raboot|Raboot]]'
 ---
 
 #PokeroleSRD/Learnsets

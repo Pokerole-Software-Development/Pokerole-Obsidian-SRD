@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Cross Poison|Cross Poison]]'
 Name: Gliscor
+Species: '[[SRD-Gliscor|Gliscor]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Head|Iron Head]]'
 Name: Avalugg
+Species: '[[SRD-Avalugg|Avalugg]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Perish Song|Perish Song]]'
 Name: Murkrow
+Species: '[[SRD-Murkrow|Murkrow]]'
 ---
 
 #PokeroleSRD/Learnsets

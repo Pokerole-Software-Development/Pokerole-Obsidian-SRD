@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Magnet Rise|Magnet Rise]]'
 Name: Volcarona
+Species: '[[SRD-Volcarona|Volcarona]]'
 ---
 
 #PokeroleSRD/Learnsets

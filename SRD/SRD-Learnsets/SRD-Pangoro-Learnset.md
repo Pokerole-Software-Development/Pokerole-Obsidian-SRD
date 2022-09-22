@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Pangoro
+Species: '[[SRD-Pangoro|Pangoro]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -58,6 +58,7 @@ Moves:
 - - Pro
   - '[[SRD-Ancient Power|Ancient Power]]'
 Name: Probopass
+Species: '[[SRD-Probopass|Probopass]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Low Kick|Low Kick]]'
 Name: Weavile
+Species: '[[SRD-Weavile|Weavile]]'
 ---
 
 #PokeroleSRD/Learnsets

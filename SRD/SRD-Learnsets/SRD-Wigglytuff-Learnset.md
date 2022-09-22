@@ -24,6 +24,7 @@ Moves:
 - - Pro
   - '[[SRD-Heal Pulse|Heal Pulse]]'
 Name: Wigglytuff
+Species: '[[SRD-Wigglytuff|Wigglytuff]]'
 ---
 
 #PokeroleSRD/Learnsets

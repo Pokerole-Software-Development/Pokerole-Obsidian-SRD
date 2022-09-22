@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Final Gambit|Final Gambit]]'
 Name: Raticate
+Species: '[[SRD-Raticate|Raticate]]'
 ---
 
 #PokeroleSRD/Learnsets

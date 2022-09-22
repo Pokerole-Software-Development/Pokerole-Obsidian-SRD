@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Poison Jab|Poison Jab]]'
 Name: Falinks
+Species: '[[SRD-Falinks|Falinks]]'
 ---
 
 #PokeroleSRD/Learnsets

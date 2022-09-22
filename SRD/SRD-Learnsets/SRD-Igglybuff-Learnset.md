@@ -28,6 +28,7 @@ Moves:
 - - Pro
   - '[[SRD-Perish Song|Perish Song]]'
 Name: Igglybuff
+Species: '[[SRD-Igglybuff|Igglybuff]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Brave Bird|Brave Bird]]'
 Name: Toucannon
+Species: '[[SRD-Toucannon|Toucannon]]'
 ---
 
 #PokeroleSRD/Learnsets

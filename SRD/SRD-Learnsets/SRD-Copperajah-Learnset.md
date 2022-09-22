@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Copperajah
+Species: '[[SRD-Copperajah|Copperajah]]'
 ---
 
 #PokeroleSRD/Learnsets

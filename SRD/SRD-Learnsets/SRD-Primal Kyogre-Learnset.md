@@ -52,6 +52,7 @@ Moves:
 - - Master
   - '[[SRD-Snatch|Snatch]]'
 Name: Primal Kyogre
+Species: '[[SRD-Primal Kyogre|Primal Kyogre]]'
 ---
 
 #PokeroleSRD/Learnsets

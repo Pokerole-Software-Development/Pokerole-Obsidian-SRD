@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Mirror Move|Mirror Move]]'
 Name: Pikipek
+Species: '[[SRD-Pikipek|Pikipek]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Octazooka|Octazooka]]'
 Name: Seadra
+Species: '[[SRD-Seadra|Seadra]]'
 ---
 
 #PokeroleSRD/Learnsets

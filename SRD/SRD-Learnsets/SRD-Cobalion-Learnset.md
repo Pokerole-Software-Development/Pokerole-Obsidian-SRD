@@ -36,6 +36,7 @@ Moves:
 - - Master
   - '[[SRD-Laser Focus|Laser Focus]]'
 Name: Cobalion
+Species: '[[SRD-Cobalion|Cobalion]]'
 ---
 
 #PokeroleSRD/Learnsets

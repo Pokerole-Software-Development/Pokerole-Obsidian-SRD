@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Counter|Counter]]'
 Name: Escavalier
+Species: '[[SRD-Escavalier|Escavalier]]'
 ---
 
 #PokeroleSRD/Learnsets

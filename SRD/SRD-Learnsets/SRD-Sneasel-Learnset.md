@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Fake Out|Fake Out]]'
 Name: Sneasel
+Species: '[[SRD-Sneasel|Sneasel]]'
 ---
 
 #PokeroleSRD/Learnsets

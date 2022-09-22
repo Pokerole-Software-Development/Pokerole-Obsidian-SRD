@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Clawitzer
+Species: '[[SRD-Clawitzer|Clawitzer]]'
 ---
 
 #PokeroleSRD/Learnsets

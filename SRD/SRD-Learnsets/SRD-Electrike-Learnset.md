@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Crunch|Crunch]]'
 Name: Electrike
+Species: '[[SRD-Electrike|Electrike]]'
 ---
 
 #PokeroleSRD/Learnsets

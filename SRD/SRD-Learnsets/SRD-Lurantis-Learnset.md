@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Brick Break|Brick Break]]'
 Name: Lurantis
+Species: '[[SRD-Lurantis|Lurantis]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Woobat
+Species: '[[SRD-Woobat|Woobat]]'
 ---
 
 #PokeroleSRD/Learnsets

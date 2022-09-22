@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Close Combat|Close Combat]]'
 Name: Granbull
+Species: '[[SRD-Granbull|Granbull]]'
 ---
 
 #PokeroleSRD/Learnsets

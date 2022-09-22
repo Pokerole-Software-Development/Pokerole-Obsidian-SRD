@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Disarming Voice|Disarming Voice]]'
 Name: Pansear
+Species: '[[SRD-Pansear|Pansear]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Torment|Torment]]'
 Name: Alolan Persian
+Species: '[[SRD-Alolan Persian|Alolan Persian]]'
 ---
 
 #PokeroleSRD/Learnsets

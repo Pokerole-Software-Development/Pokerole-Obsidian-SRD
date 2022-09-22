@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Super Fang|Super Fang]]'
 Name: Huntail
+Species: '[[SRD-Huntail|Huntail]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Light Screen|Light Screen]]'
 Name: Rotom Dex
+Species: '[[SRD-Rotom Dex|Rotom Dex]]'
 ---
 
 #PokeroleSRD/Learnsets

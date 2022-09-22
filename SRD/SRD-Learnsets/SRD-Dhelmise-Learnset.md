@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Brutal Swing|Brutal Swing]]'
 Name: Dhelmise
+Species: '[[SRD-Dhelmise|Dhelmise]]'
 ---
 
 #PokeroleSRD/Learnsets

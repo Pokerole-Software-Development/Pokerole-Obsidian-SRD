@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Copycat|Copycat]]'
 Name: Swirlix
+Species: '[[SRD-Swirlix|Swirlix]]'
 ---
 
 #PokeroleSRD/Learnsets

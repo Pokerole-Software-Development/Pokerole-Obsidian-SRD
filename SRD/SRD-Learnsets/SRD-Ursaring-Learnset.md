@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Gunk Shot|Gunk Shot]]'
 Name: Ursaring
+Species: '[[SRD-Ursaring|Ursaring]]'
 ---
 
 #PokeroleSRD/Learnsets

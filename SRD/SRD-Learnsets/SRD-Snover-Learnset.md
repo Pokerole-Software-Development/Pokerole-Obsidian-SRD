@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pulse|Water Pulse]]'
 Name: Snover
+Species: '[[SRD-Snover|Snover]]'
 ---
 
 #PokeroleSRD/Learnsets

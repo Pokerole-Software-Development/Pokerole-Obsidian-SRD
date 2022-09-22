@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Magic Room|Magic Room]]'
 Name: Kirlia
+Species: '[[SRD-Kirlia|Kirlia]]'
 ---
 
 #PokeroleSRD/Learnsets

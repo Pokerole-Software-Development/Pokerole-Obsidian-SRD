@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Endeavor|Endeavor]]'
 Name: Xerneas
+Species: '[[SRD-Xerneas|Xerneas]]'
 ---
 
 #PokeroleSRD/Learnsets

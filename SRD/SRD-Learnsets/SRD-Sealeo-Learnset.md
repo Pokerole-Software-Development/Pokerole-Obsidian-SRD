@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Super Fang|Super Fang]]'
 Name: Sealeo
+Species: '[[SRD-Sealeo|Sealeo]]'
 ---
 
 #PokeroleSRD/Learnsets

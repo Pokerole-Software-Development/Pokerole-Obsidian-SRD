@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Pursuit|Pursuit]]'
 Name: Karrablast
+Species: '[[SRD-Karrablast|Karrablast]]'
 ---
 
 #PokeroleSRD/Learnsets

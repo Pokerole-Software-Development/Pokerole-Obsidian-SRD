@@ -22,6 +22,7 @@ Moves:
 - - Pro
   - '[[SRD-Cosmic Power|Cosmic Power]]'
 Name: Delcatty
+Species: '[[SRD-Delcatty|Delcatty]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Defense Curl|Defense Curl]]'
 Name: Wailord
+Species: '[[SRD-Wailord|Wailord]]'
 ---
 
 #PokeroleSRD/Learnsets

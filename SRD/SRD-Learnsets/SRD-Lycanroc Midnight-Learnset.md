@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Bulk Up|Bulk Up]]'
 Name: Lycanroc Midnight
+Species: '[[SRD-Lycanroc Midnight|Lycanroc Midnight]]'
 ---
 
 #PokeroleSRD/Learnsets

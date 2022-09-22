@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Mega Kick|Mega Kick]]'
 Name: Miltank
+Species: '[[SRD-Miltank|Miltank]]'
 ---
 
 #PokeroleSRD/Learnsets

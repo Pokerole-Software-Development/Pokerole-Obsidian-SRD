@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Defog|Defog]]'
 Name: Tapu Koko
+Species: '[[SRD-Tapu Koko|Tapu Koko]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -30,6 +30,7 @@ Moves:
 - - Pro
   - '[[SRD-Sketch|Sketch]]'
 Name: Smeargle
+Species: '[[SRD-Smeargle|Smeargle]]'
 ---
 
 #PokeroleSRD/Learnsets

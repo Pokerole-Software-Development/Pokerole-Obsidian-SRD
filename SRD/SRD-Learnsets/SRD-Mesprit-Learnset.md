@@ -38,6 +38,7 @@ Moves:
 - - Master
   - '[[SRD-Trick|Trick]]'
 Name: Mesprit
+Species: '[[SRD-Mesprit|Mesprit]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -34,6 +34,7 @@ Moves:
 - - Pro
   - '[[SRD-Dragon Tail|Dragon Tail]]'
 Name: Chewtle
+Species: '[[SRD-Chewtle|Chewtle]]'
 ---
 
 #PokeroleSRD/Learnsets

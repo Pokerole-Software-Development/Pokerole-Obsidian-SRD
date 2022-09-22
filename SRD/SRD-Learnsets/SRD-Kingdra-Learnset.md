@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Muddy Water|Muddy Water]]'
 Name: Kingdra
+Species: '[[SRD-Kingdra|Kingdra]]'
 ---
 
 #PokeroleSRD/Learnsets

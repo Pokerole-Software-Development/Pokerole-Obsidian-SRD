@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Body Slam|Body Slam]]'
 Name: Swinub
+Species: '[[SRD-Swinub|Swinub]]'
 ---
 
 #PokeroleSRD/Learnsets

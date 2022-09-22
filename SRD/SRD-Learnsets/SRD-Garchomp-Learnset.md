@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Garchomp
+Species: '[[SRD-Garchomp|Garchomp]]'
 ---
 
 #PokeroleSRD/Learnsets

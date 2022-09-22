@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Frenzy Plant|Frenzy Plant]]'
 Name: Torterra
+Species: '[[SRD-Torterra|Torterra]]'
 ---
 
 #PokeroleSRD/Learnsets

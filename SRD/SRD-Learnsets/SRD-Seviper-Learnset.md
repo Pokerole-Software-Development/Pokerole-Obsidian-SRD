@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Tail|Iron Tail]]'
 Name: Seviper
+Species: '[[SRD-Seviper|Seviper]]'
 ---
 
 #PokeroleSRD/Learnsets

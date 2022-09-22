@@ -38,6 +38,7 @@ Moves:
 - - Master
   - '[[SRD-Signal Beam|Signal Beam]]'
 Name: Deoxys
+Species: '[[SRD-Deoxys|Deoxys]]'
 ---
 
 #PokeroleSRD/Learnsets

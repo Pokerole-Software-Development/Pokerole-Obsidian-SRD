@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Snatch|Snatch]]'
 Name: Meowth
+Species: '[[SRD-Meowth|Meowth]]'
 ---
 
 #PokeroleSRD/Learnsets

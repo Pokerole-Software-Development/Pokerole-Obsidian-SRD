@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Hawlucha
+Species: '[[SRD-Hawlucha|Hawlucha]]'
 ---
 
 #PokeroleSRD/Learnsets

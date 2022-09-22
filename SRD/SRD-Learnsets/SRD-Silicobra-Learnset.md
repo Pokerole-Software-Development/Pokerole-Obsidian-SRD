@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Last Resort|Last Resort]]'
 Name: Silicobra
+Species: '[[SRD-Silicobra|Silicobra]]'
 ---
 
 #PokeroleSRD/Learnsets

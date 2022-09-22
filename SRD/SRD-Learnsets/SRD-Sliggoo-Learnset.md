@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Counter|Counter]]'
 Name: Sliggoo
+Species: '[[SRD-Sliggoo|Sliggoo]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -14,6 +14,7 @@ Moves:
 - - Pro
   - '[[SRD-Recycle|Recycle]]'
 Name: Applin
+Species: '[[SRD-Applin|Applin]]'
 ---
 
 #PokeroleSRD/Learnsets

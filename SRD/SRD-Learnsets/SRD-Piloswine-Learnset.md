@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Avalanche|Avalanche]]'
 Name: Piloswine
+Species: '[[SRD-Piloswine|Piloswine]]'
 ---
 
 #PokeroleSRD/Learnsets

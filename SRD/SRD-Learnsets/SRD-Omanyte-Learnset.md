@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Omanyte
+Species: '[[SRD-Omanyte|Omanyte]]'
 ---
 
 #PokeroleSRD/Learnsets

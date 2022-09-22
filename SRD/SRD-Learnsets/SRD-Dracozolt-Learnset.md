@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Dracozolt
+Species: '[[SRD-Dracozolt|Dracozolt]]'
 ---
 
 #PokeroleSRD/Learnsets

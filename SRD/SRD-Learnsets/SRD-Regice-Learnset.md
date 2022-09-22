@@ -38,6 +38,7 @@ Moves:
 - - Master
   - '[[SRD-Aurora Veil|Aurora Veil]]'
 Name: Regice
+Species: '[[SRD-Regice|Regice]]'
 ---
 
 #PokeroleSRD/Learnsets

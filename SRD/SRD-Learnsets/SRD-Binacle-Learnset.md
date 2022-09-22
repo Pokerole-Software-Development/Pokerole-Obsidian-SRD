@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Tickle|Tickle]]'
 Name: Binacle
+Species: '[[SRD-Binacle|Binacle]]'
 ---
 
 #PokeroleSRD/Learnsets

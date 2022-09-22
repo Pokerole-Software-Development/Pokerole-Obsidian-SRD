@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Psychic Fangs|Psychic Fangs]]'
 Name: Arctovish
+Species: '[[SRD-Arctovish|Arctovish]]'
 ---
 
 #PokeroleSRD/Learnsets

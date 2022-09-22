@@ -40,6 +40,7 @@ Moves:
 - - Master
   - '[[SRD-Fly|Fly]]'
 Name: Galarian Articuno (provisional)
+Species: '[[SRD-Galarian Articuno (provisional)|Galarian Articuno (provisional)]]'
 ---
 
 #PokeroleSRD/Learnsets

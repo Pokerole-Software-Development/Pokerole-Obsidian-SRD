@@ -26,6 +26,7 @@ Moves:
 - - Pro
   - '[[SRD-Volt Tackle|Volt Tackle]]'
 Name: Alolan Raichu
+Species: '[[SRD-Alolan Raichu|Alolan Raichu]]'
 ---
 
 #PokeroleSRD/Learnsets

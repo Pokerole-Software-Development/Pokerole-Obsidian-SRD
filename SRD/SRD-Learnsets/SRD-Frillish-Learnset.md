@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Confuse Ray|Confuse Ray]]'
 Name: Frillish
+Species: '[[SRD-Frillish|Frillish]]'
 ---
 
 #PokeroleSRD/Learnsets

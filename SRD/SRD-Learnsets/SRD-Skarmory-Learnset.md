@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Pursuit|Pursuit]]'
 Name: Skarmory
+Species: '[[SRD-Skarmory|Skarmory]]'
 ---
 
 #PokeroleSRD/Learnsets

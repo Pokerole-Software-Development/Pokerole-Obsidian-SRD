@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Self Destruct|Self Destruct]]'
 Name: Melmetal
+Species: '[[SRD-Melmetal|Melmetal]]'
 ---
 
 #PokeroleSRD/Learnsets

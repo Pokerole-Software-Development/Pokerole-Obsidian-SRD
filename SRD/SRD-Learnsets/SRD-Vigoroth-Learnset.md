@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Night Slash|Night Slash]]'
 Name: Vigoroth
+Species: '[[SRD-Vigoroth|Vigoroth]]'
 ---
 
 #PokeroleSRD/Learnsets

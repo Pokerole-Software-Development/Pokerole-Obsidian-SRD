@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Detect|Detect]]'
 Name: Marowak
+Species: '[[SRD-Marowak|Marowak]]'
 ---
 
 #PokeroleSRD/Learnsets

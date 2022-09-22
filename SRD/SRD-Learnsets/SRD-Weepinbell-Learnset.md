@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Weather Ball|Weather Ball]]'
 Name: Weepinbell
+Species: '[[SRD-Weepinbell|Weepinbell]]'
 ---
 
 #PokeroleSRD/Learnsets

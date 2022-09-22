@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Magnet Rise|Magnet Rise]]'
 Name: Helioptile
+Species: '[[SRD-Helioptile|Helioptile]]'
 ---
 
 #PokeroleSRD/Learnsets

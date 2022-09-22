@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
 Name: Arctozolt
+Species: '[[SRD-Arctozolt|Arctozolt]]'
 ---
 
 #PokeroleSRD/Learnsets

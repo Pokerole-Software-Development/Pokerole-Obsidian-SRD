@@ -30,6 +30,7 @@ Moves:
 - - Pro
   - '[[SRD-Wonder Room|Wonder Room]]'
 Name: Cleffa
+Species: '[[SRD-Cleffa|Cleffa]]'
 ---
 
 #PokeroleSRD/Learnsets

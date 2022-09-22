@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Zigzagoon
+Species: '[[SRD-Zigzagoon|Zigzagoon]]'
 ---
 
 #PokeroleSRD/Learnsets

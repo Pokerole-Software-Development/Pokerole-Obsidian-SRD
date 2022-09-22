@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Carkol
+Species: '[[SRD-Carkol|Carkol]]'
 ---
 
 #PokeroleSRD/Learnsets

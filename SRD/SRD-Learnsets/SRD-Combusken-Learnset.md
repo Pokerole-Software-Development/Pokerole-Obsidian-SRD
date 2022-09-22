@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Combusken
+Species: '[[SRD-Combusken|Combusken]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Grass Pledge|Grass Pledge]]'
 Name: Treecko
+Species: '[[SRD-Treecko|Treecko]]'
 ---
 
 #PokeroleSRD/Learnsets

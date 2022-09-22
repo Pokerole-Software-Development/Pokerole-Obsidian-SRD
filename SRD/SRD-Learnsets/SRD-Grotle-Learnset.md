@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Grass Pledge|Grass Pledge]]'
 Name: Grotle
+Species: '[[SRD-Grotle|Grotle]]'
 ---
 
 #PokeroleSRD/Learnsets

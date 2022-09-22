@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Bounce|Bounce]]'
 Name: Carvanha
+Species: '[[SRD-Carvanha|Carvanha]]'
 ---
 
 #PokeroleSRD/Learnsets

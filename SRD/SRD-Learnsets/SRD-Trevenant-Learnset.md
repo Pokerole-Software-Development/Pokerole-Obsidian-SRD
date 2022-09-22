@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Imprison|Imprison]]'
 Name: Trevenant
+Species: '[[SRD-Trevenant|Trevenant]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -16,6 +16,7 @@ Moves:
 - - Pro
   - '[[SRD-Bug Bite|Bug Bite]]'
 Name: Snom
+Species: '[[SRD-Snom|Snom]]'
 ---
 
 #PokeroleSRD/Learnsets

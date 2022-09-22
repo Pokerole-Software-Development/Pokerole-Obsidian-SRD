@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Mimic|Mimic]]'
 Name: Plusle
+Species: '[[SRD-Plusle|Plusle]]'
 ---
 
 #PokeroleSRD/Learnsets

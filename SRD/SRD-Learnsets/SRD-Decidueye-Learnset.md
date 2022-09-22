@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Frenzy Plant|Frenzy Plant]]'
 Name: Decidueye
+Species: '[[SRD-Decidueye|Decidueye]]'
 ---
 
 #PokeroleSRD/Learnsets

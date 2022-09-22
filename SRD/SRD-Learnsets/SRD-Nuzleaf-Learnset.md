@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Foul Play|Foul Play]]'
 Name: Nuzleaf
+Species: '[[SRD-Nuzleaf|Nuzleaf]]'
 ---
 
 #PokeroleSRD/Learnsets

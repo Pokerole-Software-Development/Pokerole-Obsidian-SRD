@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Mist|Mist]]'
 Name: Dragonair
+Species: '[[SRD-Dragonair|Dragonair]]'
 ---
 
 #PokeroleSRD/Learnsets

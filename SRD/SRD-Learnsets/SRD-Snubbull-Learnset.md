@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Snubbull
+Species: '[[SRD-Snubbull|Snubbull]]'
 ---
 
 #PokeroleSRD/Learnsets

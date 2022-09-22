@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Crabominable
+Species: '[[SRD-Crabominable|Crabominable]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Spark|Spark]]'
 Name: Whiscash
+Species: '[[SRD-Whiscash|Whiscash]]'
 ---
 
 #PokeroleSRD/Learnsets

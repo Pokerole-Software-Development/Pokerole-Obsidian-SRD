@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Metal Claw|Metal Claw]]'
 Name: Feraligatr
+Species: '[[SRD-Feraligatr|Feraligatr]]'
 ---
 
 #PokeroleSRD/Learnsets

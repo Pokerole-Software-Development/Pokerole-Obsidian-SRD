@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Flail|Flail]]'
 Name: Lotad
+Species: '[[SRD-Lotad|Lotad]]'
 ---
 
 #PokeroleSRD/Learnsets

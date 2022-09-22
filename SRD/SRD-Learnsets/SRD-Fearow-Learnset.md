@@ -46,6 +46,7 @@ Moves:
 - - Ace
   - '[[SRD-Pluck|Pluck]]'
 Name: Fearow
+Species: '[[SRD-Fearow|Fearow]]'
 ---
 
 #PokeroleSRD/Learnsets

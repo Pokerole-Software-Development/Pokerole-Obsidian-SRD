@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Detect|Detect]]'
 Name: Makuhita
+Species: '[[SRD-Makuhita|Makuhita]]'
 ---
 
 #PokeroleSRD/Learnsets

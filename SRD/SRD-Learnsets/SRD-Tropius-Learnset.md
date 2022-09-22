@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Tropius
+Species: '[[SRD-Tropius|Tropius]]'
 ---
 
 #PokeroleSRD/Learnsets

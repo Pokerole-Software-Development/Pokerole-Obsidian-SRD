@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Round|Round]]'
 Name: Oricorio Electric
+Species: '[[SRD-Oricorio Electric|Oricorio Electric]]'
 ---
 
 #PokeroleSRD/Learnsets

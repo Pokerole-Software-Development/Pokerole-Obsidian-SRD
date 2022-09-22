@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Fennekin
+Species: '[[SRD-Fennekin|Fennekin]]'
 ---
 
 #PokeroleSRD/Learnsets

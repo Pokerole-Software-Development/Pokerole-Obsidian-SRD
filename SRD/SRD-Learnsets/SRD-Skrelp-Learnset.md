@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Venom Drench|Venom Drench]]'
 Name: Skrelp
+Species: '[[SRD-Skrelp|Skrelp]]'
 ---
 
 #PokeroleSRD/Learnsets

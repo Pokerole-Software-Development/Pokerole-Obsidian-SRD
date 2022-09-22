@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Focus Energy|Focus Energy]]'
 Name: Larvitar
+Species: '[[SRD-Larvitar|Larvitar]]'
 ---
 
 #PokeroleSRD/Learnsets

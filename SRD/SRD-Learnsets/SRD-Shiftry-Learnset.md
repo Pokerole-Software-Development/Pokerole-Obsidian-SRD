@@ -30,6 +30,7 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Shiftry
+Species: '[[SRD-Shiftry|Shiftry]]'
 ---
 
 #PokeroleSRD/Learnsets

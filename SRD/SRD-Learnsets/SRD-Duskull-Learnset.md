@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Wonder Room|Wonder Room]]'
 Name: Duskull
+Species: '[[SRD-Duskull|Duskull]]'
 ---
 
 #PokeroleSRD/Learnsets

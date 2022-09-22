@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Confuse Ray|Confuse Ray]]'
 Name: Reuniclus
+Species: '[[SRD-Reuniclus|Reuniclus]]'
 ---
 
 #PokeroleSRD/Learnsets

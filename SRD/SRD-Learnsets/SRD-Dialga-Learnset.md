@@ -38,6 +38,7 @@ Moves:
 - - Master
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Dialga
+Species: '[[SRD-Dialga|Dialga]]'
 ---
 
 #PokeroleSRD/Learnsets

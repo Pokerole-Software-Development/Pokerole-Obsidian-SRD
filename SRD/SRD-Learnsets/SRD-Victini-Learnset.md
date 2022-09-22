@@ -42,6 +42,7 @@ Moves:
 - - Master
   - '[[SRD-V-Create|V-Create]]'
 Name: Victini
+Species: '[[SRD-Victini|Victini]]'
 ---
 
 #PokeroleSRD/Learnsets

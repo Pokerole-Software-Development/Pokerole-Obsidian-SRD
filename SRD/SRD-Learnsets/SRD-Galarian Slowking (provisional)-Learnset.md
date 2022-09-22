@@ -58,6 +58,7 @@ Moves:
 - - Pro
   - '[[SRD-Sludge Wave|Sludge Wave]]'
 Name: Galarian Slowking (provisional)
+Species: '[[SRD-Galarian Slowking (provisional)|Galarian Slowking (provisional)]]'
 ---
 
 #PokeroleSRD/Learnsets

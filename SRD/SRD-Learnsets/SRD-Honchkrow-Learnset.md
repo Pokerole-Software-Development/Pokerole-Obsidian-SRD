@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Air Cutter|Air Cutter]]'
 Name: Honchkrow
+Species: '[[SRD-Honchkrow|Honchkrow]]'
 ---
 
 #PokeroleSRD/Learnsets

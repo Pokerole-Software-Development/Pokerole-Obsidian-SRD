@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Grassy Terrain|Grassy Terrain]]'
 Name: Meganium
+Species: '[[SRD-Meganium|Meganium]]'
 ---
 
 #PokeroleSRD/Learnsets

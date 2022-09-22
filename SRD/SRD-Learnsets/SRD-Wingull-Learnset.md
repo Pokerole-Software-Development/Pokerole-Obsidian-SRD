@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Knock Off|Knock Off]]'
 Name: Wingull
+Species: '[[SRD-Wingull|Wingull]]'
 ---
 
 #PokeroleSRD/Learnsets

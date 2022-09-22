@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Air Slash|Air Slash]]'
 Name: Rotom Fan
+Species: '[[SRD-Rotom Fan|Rotom Fan]]'
 ---
 
 #PokeroleSRD/Learnsets

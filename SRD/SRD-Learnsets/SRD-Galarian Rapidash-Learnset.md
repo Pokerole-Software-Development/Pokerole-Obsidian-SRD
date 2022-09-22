@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Bounce|Bounce]]'
 Name: Galarian Rapidash
+Species: '[[SRD-Galarian Rapidash|Galarian Rapidash]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Imprison|Imprison]]'
 Name: Orbeetle
+Species: '[[SRD-Orbeetle|Orbeetle]]'
 ---
 
 #PokeroleSRD/Learnsets

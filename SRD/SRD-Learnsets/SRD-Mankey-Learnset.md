@@ -56,6 +56,7 @@ Moves:
 - - Ace
   - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
 Name: Mankey
+Species: '[[SRD-Mankey|Mankey]]'
 ---
 
 #PokeroleSRD/Learnsets

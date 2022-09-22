@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Ice Fang|Ice Fang]]'
 Name: Tyrunt
+Species: '[[SRD-Tyrunt|Tyrunt]]'
 ---
 
 #PokeroleSRD/Learnsets

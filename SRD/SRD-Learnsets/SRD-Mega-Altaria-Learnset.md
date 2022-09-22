@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Dragon Rush|Dragon Rush]]'
 Name: Mega-Altaria
+Species: '[[SRD-Mega-Altaria|Mega-Altaria]]'
 ---
 
 #PokeroleSRD/Learnsets

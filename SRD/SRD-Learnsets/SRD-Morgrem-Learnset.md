@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Morgrem
+Species: '[[SRD-Morgrem|Morgrem]]'
 ---
 
 #PokeroleSRD/Learnsets

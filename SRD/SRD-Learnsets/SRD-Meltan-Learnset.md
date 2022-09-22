@@ -30,6 +30,7 @@ Moves:
 - - Pro
   - '[[SRD-Steel Beam|Steel Beam]]'
 Name: Meltan
+Species: '[[SRD-Meltan|Meltan]]'
 ---
 
 #PokeroleSRD/Learnsets

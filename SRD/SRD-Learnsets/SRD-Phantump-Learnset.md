@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Worry Seed|Worry Seed]]'
 Name: Phantump
+Species: '[[SRD-Phantump|Phantump]]'
 ---
 
 #PokeroleSRD/Learnsets

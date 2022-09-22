@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Skill Swap|Skill Swap]]'
 Name: Ribombee
+Species: '[[SRD-Ribombee|Ribombee]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Smart Strike|Smart Strike]]'
 Name: Samurott
+Species: '[[SRD-Samurott|Samurott]]'
 ---
 
 #PokeroleSRD/Learnsets

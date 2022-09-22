@@ -10,6 +10,7 @@ Moves:
 - - Amateur
   - '[[SRD-Cosmic Power|Cosmic Power]]'
 Name: Cosmoem
+Species: '[[SRD-Cosmoem|Cosmoem]]'
 ---
 
 #PokeroleSRD/Learnsets

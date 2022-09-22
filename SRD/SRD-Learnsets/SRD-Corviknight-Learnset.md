@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Steel Beam|Steel Beam]]'
 Name: Corviknight
+Species: '[[SRD-Corviknight|Corviknight]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Vullaby
+Species: '[[SRD-Vullaby|Vullaby]]'
 ---
 
 #PokeroleSRD/Learnsets

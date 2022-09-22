@@ -34,6 +34,7 @@ Moves:
 - - Pro
   - '[[SRD-Silver Wind|Silver Wind]]'
 Name: Sewaddle
+Species: '[[SRD-Sewaddle|Sewaddle]]'
 ---
 
 #PokeroleSRD/Learnsets

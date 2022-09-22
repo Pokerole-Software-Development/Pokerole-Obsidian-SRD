@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Piplup
+Species: '[[SRD-Piplup|Piplup]]'
 ---
 
 #PokeroleSRD/Learnsets

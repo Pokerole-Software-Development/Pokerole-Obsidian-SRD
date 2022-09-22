@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Sleep Talk|Sleep Talk]]'
 Name: Wooloo
+Species: '[[SRD-Wooloo|Wooloo]]'
 ---
 
 #PokeroleSRD/Learnsets

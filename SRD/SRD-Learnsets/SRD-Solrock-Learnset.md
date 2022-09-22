@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Skill Swap|Skill Swap]]'
 Name: Solrock
+Species: '[[SRD-Solrock|Solrock]]'
 ---
 
 #PokeroleSRD/Learnsets

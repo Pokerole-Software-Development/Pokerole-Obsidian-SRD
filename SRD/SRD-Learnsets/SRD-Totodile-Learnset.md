@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Totodile
+Species: '[[SRD-Totodile|Totodile]]'
 ---
 
 #PokeroleSRD/Learnsets

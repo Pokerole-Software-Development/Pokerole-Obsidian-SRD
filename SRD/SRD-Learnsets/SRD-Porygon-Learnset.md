@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Pain Split|Pain Split]]'
 Name: Porygon
+Species: '[[SRD-Porygon|Porygon]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Giga Impact|Giga Impact]]'
 Name: Barraskewda
+Species: '[[SRD-Barraskewda|Barraskewda]]'
 ---
 
 #PokeroleSRD/Learnsets

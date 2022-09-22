@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Body Slam|Body Slam]]'
 Name: Tirtouga
+Species: '[[SRD-Tirtouga|Tirtouga]]'
 ---
 
 #PokeroleSRD/Learnsets

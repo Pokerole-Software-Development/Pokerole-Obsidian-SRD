@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Pursuit|Pursuit]]'
 Name: Accelgor
+Species: '[[SRD-Accelgor|Accelgor]]'
 ---
 
 #PokeroleSRD/Learnsets

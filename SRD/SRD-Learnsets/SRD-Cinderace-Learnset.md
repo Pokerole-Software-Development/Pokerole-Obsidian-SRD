@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Blast Burn|Blast Burn]]'
 Name: Cinderace
+Species: '[[SRD-Cinderace|Cinderace]]'
 ---
 
 #PokeroleSRD/Learnsets

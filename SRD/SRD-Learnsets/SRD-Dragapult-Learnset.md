@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Dragapult
+Species: '[[SRD-Dragapult|Dragapult]]'
 ---
 
 #PokeroleSRD/Learnsets

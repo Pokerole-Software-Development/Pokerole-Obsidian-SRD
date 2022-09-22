@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Gravity|Gravity]]'
 Name: Klang
+Species: '[[SRD-Klang|Klang]]'
 ---
 
 #PokeroleSRD/Learnsets

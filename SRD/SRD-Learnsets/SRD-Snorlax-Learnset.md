@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Self Destruct|Self Destruct]]'
 Name: Snorlax
+Species: '[[SRD-Snorlax|Snorlax]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Hammer Arm|Hammer Arm]]'
 Name: Cranidos
+Species: '[[SRD-Cranidos|Cranidos]]'
 ---
 
 #PokeroleSRD/Learnsets

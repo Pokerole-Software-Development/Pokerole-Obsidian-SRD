@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Telekinesis|Telekinesis]]'
 Name: Metagross
+Species: '[[SRD-Metagross|Metagross]]'
 ---
 
 #PokeroleSRD/Learnsets

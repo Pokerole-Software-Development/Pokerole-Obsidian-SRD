@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Encore|Encore]]'
 Name: Cottonee
+Species: '[[SRD-Cottonee|Cottonee]]'
 ---
 
 #PokeroleSRD/Learnsets

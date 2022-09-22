@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Lucky Chant|Lucky Chant]]'
 Name: Unfezant
+Species: '[[SRD-Unfezant|Unfezant]]'
 ---
 
 #PokeroleSRD/Learnsets

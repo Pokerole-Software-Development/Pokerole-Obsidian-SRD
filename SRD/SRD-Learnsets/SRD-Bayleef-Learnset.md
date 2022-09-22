@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Grassy Terrain|Grassy Terrain]]'
 Name: Bayleef
+Species: '[[SRD-Bayleef|Bayleef]]'
 ---
 
 #PokeroleSRD/Learnsets

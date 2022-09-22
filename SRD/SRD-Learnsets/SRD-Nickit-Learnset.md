@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Nickit
+Species: '[[SRD-Nickit|Nickit]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Fissure|Fissure]]'
 Name: Cufant
+Species: '[[SRD-Cufant|Cufant]]'
 ---
 
 #PokeroleSRD/Learnsets

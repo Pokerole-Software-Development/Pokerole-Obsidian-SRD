@@ -38,6 +38,7 @@ Moves:
 - - Master
   - '[[SRD-Noble Roar|Noble Roar]]'
 Name: Keldeo
+Species: '[[SRD-Keldeo|Keldeo]]'
 ---
 
 #PokeroleSRD/Learnsets

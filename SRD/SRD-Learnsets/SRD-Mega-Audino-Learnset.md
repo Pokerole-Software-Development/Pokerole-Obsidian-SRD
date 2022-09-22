@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Heal Bell|Heal Bell]]'
 Name: Mega-Audino
+Species: '[[SRD-Mega-Audino|Mega-Audino]]'
 ---
 
 #PokeroleSRD/Learnsets

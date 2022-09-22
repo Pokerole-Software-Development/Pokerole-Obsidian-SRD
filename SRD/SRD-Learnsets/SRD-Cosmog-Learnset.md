@@ -6,6 +6,7 @@ Moves:
 - - Starter
   - '[[SRD-Teleport|Teleport]]'
 Name: Cosmog
+Species: '[[SRD-Cosmog|Cosmog]]'
 ---
 
 #PokeroleSRD/Learnsets

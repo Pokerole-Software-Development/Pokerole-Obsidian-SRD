@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Poochyena
+Species: '[[SRD-Poochyena|Poochyena]]'
 ---
 
 #PokeroleSRD/Learnsets

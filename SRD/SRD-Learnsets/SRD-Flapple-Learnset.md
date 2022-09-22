@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Flapple
+Species: '[[SRD-Flapple|Flapple]]'
 ---
 
 #PokeroleSRD/Learnsets

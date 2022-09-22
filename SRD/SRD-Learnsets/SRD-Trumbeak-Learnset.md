@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Mirror Move|Mirror Move]]'
 Name: Trumbeak
+Species: '[[SRD-Trumbeak|Trumbeak]]'
 ---
 
 #PokeroleSRD/Learnsets

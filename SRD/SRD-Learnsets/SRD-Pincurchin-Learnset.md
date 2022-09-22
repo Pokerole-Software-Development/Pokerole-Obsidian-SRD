@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Spikes|Spikes]]'
 Name: Pincurchin
+Species: '[[SRD-Pincurchin|Pincurchin]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -40,6 +40,7 @@ Moves:
 - - Master
   - '[[SRD-Dual Chop|Dual Chop]]'
 Name: Zeraora
+Species: '[[SRD-Zeraora|Zeraora]]'
 ---
 
 #PokeroleSRD/Learnsets

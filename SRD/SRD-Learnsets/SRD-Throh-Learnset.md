@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Thunder Punch|Thunder Punch]]'
 Name: Throh
+Species: '[[SRD-Throh|Throh]]'
 ---
 
 #PokeroleSRD/Learnsets

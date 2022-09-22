@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Role Play|Role Play]]'
 Name: Yamask
+Species: '[[SRD-Yamask|Yamask]]'
 ---
 
 #PokeroleSRD/Learnsets

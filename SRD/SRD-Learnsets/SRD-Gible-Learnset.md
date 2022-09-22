@@ -36,6 +36,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Head|Iron Head]]'
 Name: Gible
+Species: '[[SRD-Gible|Gible]]'
 ---
 
 #PokeroleSRD/Learnsets

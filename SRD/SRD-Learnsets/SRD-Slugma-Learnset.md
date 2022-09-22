@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Slugma
+Species: '[[SRD-Slugma|Slugma]]'
 ---
 
 #PokeroleSRD/Learnsets

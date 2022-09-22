@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Grass Whistle|Grass Whistle]]'
 Name: Deerling
+Species: '[[SRD-Deerling|Deerling]]'
 ---
 
 #PokeroleSRD/Learnsets

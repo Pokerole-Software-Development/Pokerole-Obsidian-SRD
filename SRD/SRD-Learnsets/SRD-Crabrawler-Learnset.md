@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Wide Guard|Wide Guard]]'
 Name: Crabrawler
+Species: '[[SRD-Crabrawler|Crabrawler]]'
 ---
 
 #PokeroleSRD/Learnsets

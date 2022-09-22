@@ -42,6 +42,7 @@ Moves:
 - - Master
   - '[[SRD-Topsy-Turvy|Topsy-Turvy]]'
 Name: Zekrom
+Species: '[[SRD-Zekrom|Zekrom]]'
 ---
 
 #PokeroleSRD/Learnsets

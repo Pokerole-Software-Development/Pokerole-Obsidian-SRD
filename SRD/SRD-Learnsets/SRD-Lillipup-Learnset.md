@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Yawn|Yawn]]'
 Name: Lillipup
+Species: '[[SRD-Lillipup|Lillipup]]'
 ---
 
 #PokeroleSRD/Learnsets

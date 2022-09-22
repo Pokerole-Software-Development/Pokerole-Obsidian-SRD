@@ -64,6 +64,7 @@ Moves:
 - - Pro
   - '[[SRD-Twister|Twister]]'
 Name: Mega-Steelix
+Species: '[[SRD-Mega-Steelix|Mega-Steelix]]'
 ---
 
 #PokeroleSRD/Learnsets

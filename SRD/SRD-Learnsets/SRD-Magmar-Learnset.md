@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Dual Chop|Dual Chop]]'
 Name: Magmar
+Species: '[[SRD-Magmar|Magmar]]'
 ---
 
 #PokeroleSRD/Learnsets

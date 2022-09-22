@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Flareon
+Species: '[[SRD-Flareon|Flareon]]'
 ---
 
 #PokeroleSRD/Learnsets

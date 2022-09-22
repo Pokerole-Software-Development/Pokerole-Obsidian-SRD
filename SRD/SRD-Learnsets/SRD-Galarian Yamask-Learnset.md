@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Memento|Memento]]'
 Name: Galarian Yamask
+Species: '[[SRD-Galarian Yamask|Galarian Yamask]]'
 ---
 
 #PokeroleSRD/Learnsets

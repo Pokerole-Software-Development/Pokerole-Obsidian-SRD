@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Rollout|Rollout]]'
 Name: Koffing
+Species: '[[SRD-Koffing|Koffing]]'
 ---
 
 #PokeroleSRD/Learnsets

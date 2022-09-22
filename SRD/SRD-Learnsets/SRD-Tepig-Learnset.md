@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Tepig
+Species: '[[SRD-Tepig|Tepig]]'
 ---
 
 #PokeroleSRD/Learnsets

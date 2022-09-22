@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Reflect|Reflect]]'
 Name: Grimmsnarl
+Species: '[[SRD-Grimmsnarl|Grimmsnarl]]'
 ---
 
 #PokeroleSRD/Learnsets

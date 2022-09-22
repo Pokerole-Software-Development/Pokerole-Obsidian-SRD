@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Foul Play|Foul Play]]'
 Name: Umbreon
+Species: '[[SRD-Umbreon|Umbreon]]'
 ---
 
 #PokeroleSRD/Learnsets

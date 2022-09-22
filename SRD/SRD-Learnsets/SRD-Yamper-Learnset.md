@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Howl|Howl]]'
 Name: Yamper
+Species: '[[SRD-Yamper|Yamper]]'
 ---
 
 #PokeroleSRD/Learnsets

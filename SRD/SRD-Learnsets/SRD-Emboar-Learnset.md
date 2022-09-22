@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Thunder Punch|Thunder Punch]]'
 Name: Emboar
+Species: '[[SRD-Emboar|Emboar]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Wide Guard|Wide Guard]]'
 Name: Doublade
+Species: '[[SRD-Doublade|Doublade]]'
 ---
 
 #PokeroleSRD/Learnsets

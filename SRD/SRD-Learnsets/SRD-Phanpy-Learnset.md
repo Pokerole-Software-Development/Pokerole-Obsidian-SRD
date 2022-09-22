@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Mud Slap|Mud Slap]]'
 Name: Phanpy
+Species: '[[SRD-Phanpy|Phanpy]]'
 ---
 
 #PokeroleSRD/Learnsets

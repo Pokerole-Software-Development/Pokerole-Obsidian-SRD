@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Heal Pulse|Heal Pulse]]'
 Name: Jigglypuff
+Species: '[[SRD-Jigglypuff|Jigglypuff]]'
 ---
 
 #PokeroleSRD/Learnsets

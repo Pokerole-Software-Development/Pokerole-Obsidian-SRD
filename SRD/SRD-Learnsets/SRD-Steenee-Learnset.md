@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Synthesis|Synthesis]]'
 Name: Steenee
+Species: '[[SRD-Steenee|Steenee]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Future Sight|Future Sight]]'
 Name: Golduck
+Species: '[[SRD-Golduck|Golduck]]'
 ---
 
 #PokeroleSRD/Learnsets

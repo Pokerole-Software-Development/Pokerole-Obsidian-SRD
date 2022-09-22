@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Defog|Defog]]'
 Name: Yveltal
+Species: '[[SRD-Yveltal|Yveltal]]'
 ---
 
 #PokeroleSRD/Learnsets

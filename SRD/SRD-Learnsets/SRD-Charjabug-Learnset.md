@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Charjabug
+Species: '[[SRD-Charjabug|Charjabug]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Rollout|Rollout]]'
 Name: Trubbish
+Species: '[[SRD-Trubbish|Trubbish]]'
 ---
 
 #PokeroleSRD/Learnsets

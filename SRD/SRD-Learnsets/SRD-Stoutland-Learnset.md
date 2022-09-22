@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Stoutland
+Species: '[[SRD-Stoutland|Stoutland]]'
 ---
 
 #PokeroleSRD/Learnsets

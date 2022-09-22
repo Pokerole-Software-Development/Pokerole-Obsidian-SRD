@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Flame Charge|Flame Charge]]'
 Name: Alolan Marowak
+Species: '[[SRD-Alolan Marowak|Alolan Marowak]]'
 ---
 
 #PokeroleSRD/Learnsets

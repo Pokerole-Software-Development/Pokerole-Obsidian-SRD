@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Last Resort|Last Resort]]'
 Name: Bunnelby
+Species: '[[SRD-Bunnelby|Bunnelby]]'
 ---
 
 #PokeroleSRD/Learnsets

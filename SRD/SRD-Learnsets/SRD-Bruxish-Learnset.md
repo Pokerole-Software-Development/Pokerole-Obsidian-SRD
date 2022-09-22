@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Waterfall|Waterfall]]'
 Name: Bruxish
+Species: '[[SRD-Bruxish|Bruxish]]'
 ---
 
 #PokeroleSRD/Learnsets

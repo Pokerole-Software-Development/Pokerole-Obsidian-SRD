@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Ice Punch|Ice Punch]]'
 Name: Golett
+Species: '[[SRD-Golett|Golett]]'
 ---
 
 #PokeroleSRD/Learnsets

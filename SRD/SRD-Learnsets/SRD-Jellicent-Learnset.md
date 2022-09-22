@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Confuse Ray|Confuse Ray]]'
 Name: Jellicent
+Species: '[[SRD-Jellicent|Jellicent]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -62,6 +62,7 @@ Moves:
 - - Pro
   - '[[SRD-Heal Pulse|Heal Pulse]]'
 Name: Clefairy
+Species: '[[SRD-Clefairy|Clefairy]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -66,6 +66,7 @@ Moves:
 - - Pro
   - '[[SRD-Hail|Hail]]'
 Name: Galarian Mr. Mime
+Species: '[[SRD-Galarian Mr. Mime|Galarian Mr. Mime]]'
 ---
 
 #PokeroleSRD/Learnsets

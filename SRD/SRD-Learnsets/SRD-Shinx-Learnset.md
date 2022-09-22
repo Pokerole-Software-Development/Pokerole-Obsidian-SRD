@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Fang|Fire Fang]]'
 Name: Shinx
+Species: '[[SRD-Shinx|Shinx]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Zen Headbutt|Zen Headbutt]]'
 Name: Munchlax
+Species: '[[SRD-Munchlax|Munchlax]]'
 ---
 
 #PokeroleSRD/Learnsets

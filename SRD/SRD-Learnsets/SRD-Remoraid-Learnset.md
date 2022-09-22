@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Supersonic|Supersonic]]'
 Name: Remoraid
+Species: '[[SRD-Remoraid|Remoraid]]'
 ---
 
 #PokeroleSRD/Learnsets

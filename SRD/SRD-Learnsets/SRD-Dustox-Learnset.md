@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Twister|Twister]]'
 Name: Dustox
+Species: '[[SRD-Dustox|Dustox]]'
 ---
 
 #PokeroleSRD/Learnsets

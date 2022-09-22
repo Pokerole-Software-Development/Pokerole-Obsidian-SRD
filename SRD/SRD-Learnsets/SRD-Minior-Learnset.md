@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Acrobatics|Acrobatics]]'
 Name: Minior
+Species: '[[SRD-Minior|Minior]]'
 ---
 
 #PokeroleSRD/Learnsets

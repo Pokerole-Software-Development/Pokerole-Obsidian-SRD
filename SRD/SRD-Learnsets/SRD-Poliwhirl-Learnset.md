@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Refresh|Refresh]]'
 Name: Poliwhirl
+Species: '[[SRD-Poliwhirl|Poliwhirl]]'
 ---
 
 #PokeroleSRD/Learnsets

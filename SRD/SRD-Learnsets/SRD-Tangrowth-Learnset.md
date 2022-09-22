@@ -56,6 +56,7 @@ Moves:
 - - Pro
   - '[[SRD-Amnesia|Amnesia]]'
 Name: Tangrowth
+Species: '[[SRD-Tangrowth|Tangrowth]]'
 ---
 
 #PokeroleSRD/Learnsets

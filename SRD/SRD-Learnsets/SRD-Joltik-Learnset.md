@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Giga Drain|Giga Drain]]'
 Name: Joltik
+Species: '[[SRD-Joltik|Joltik]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -30,6 +30,7 @@ Moves:
 - - Master
   - '[[SRD-Any Move|Any Move]]'
 Name: Mew
+Species: '[[SRD-Mew|Mew]]'
 ---
 
 #PokeroleSRD/Learnsets

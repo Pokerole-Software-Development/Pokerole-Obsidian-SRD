@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Rollout|Rollout]]'
 Name: Aron
+Species: '[[SRD-Aron|Aron]]'
 ---
 
 #PokeroleSRD/Learnsets

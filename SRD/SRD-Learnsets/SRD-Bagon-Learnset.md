@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Bagon
+Species: '[[SRD-Bagon|Bagon]]'
 ---
 
 #PokeroleSRD/Learnsets

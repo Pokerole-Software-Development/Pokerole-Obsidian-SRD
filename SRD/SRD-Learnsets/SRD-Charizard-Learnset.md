@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Blast Burn|Blast Burn]]'
 Name: Charizard
+Species: '[[SRD-Charizard|Charizard]]'
 ---
 
 #PokeroleSRD/Learnsets

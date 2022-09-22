@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Vibrava
+Species: '[[SRD-Vibrava|Vibrava]]'
 ---
 
 #PokeroleSRD/Learnsets

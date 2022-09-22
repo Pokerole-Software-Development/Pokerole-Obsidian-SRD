@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Heavy Slam|Heavy Slam]]'
 Name: Coalossal
+Species: '[[SRD-Coalossal|Coalossal]]'
 ---
 
 #PokeroleSRD/Learnsets

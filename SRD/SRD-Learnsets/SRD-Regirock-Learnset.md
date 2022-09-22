@@ -38,6 +38,7 @@ Moves:
 - - Master
   - '[[SRD-Rock Polish|Rock Polish]]'
 Name: Regirock
+Species: '[[SRD-Regirock|Regirock]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Sweet Kiss|Sweet Kiss]]'
 Name: Buneary
+Species: '[[SRD-Buneary|Buneary]]'
 ---
 
 #PokeroleSRD/Learnsets

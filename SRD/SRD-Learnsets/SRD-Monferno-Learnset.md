@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Monferno
+Species: '[[SRD-Monferno|Monferno]]'
 ---
 
 #PokeroleSRD/Learnsets

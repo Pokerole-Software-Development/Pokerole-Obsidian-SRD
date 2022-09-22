@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Impidimp
+Species: '[[SRD-Impidimp|Impidimp]]'
 ---
 
 #PokeroleSRD/Learnsets

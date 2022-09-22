@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Steel Wing|Steel Wing]]'
 Name: Staraptor
+Species: '[[SRD-Staraptor|Staraptor]]'
 ---
 
 #PokeroleSRD/Learnsets

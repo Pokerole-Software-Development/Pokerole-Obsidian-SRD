@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Fissure|Fissure]]'
 Name: Torkoal
+Species: '[[SRD-Torkoal|Torkoal]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Extrasensory|Extrasensory]]'
 Name: Togetic
+Species: '[[SRD-Togetic|Togetic]]'
 ---
 
 #PokeroleSRD/Learnsets

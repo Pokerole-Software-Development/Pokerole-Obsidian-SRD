@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Hydro Cannon|Hydro Cannon]]'
 Name: BBF Greninja
+Species: '[[SRD-BBF Greninja|BBF Greninja]]'
 ---
 
 #PokeroleSRD/Learnsets

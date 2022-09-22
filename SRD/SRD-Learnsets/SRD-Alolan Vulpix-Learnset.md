@@ -58,6 +58,7 @@ Moves:
 - - Amateur
   - '[[SRD-Hex|Hex]]'
 Name: Alolan Vulpix
+Species: '[[SRD-Alolan Vulpix|Alolan Vulpix]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Mud Sport|Mud Sport]]'
 Name: Crawdaunt
+Species: '[[SRD-Crawdaunt|Crawdaunt]]'
 ---
 
 #PokeroleSRD/Learnsets

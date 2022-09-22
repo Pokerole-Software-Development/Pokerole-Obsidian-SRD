@@ -4,6 +4,7 @@ Moves:
 - - Starter
   - '[[SRD-Transform|Transform]]'
 Name: Ditto
+Species: '[[SRD-Ditto|Ditto]]'
 ---
 
 #PokeroleSRD/Learnsets

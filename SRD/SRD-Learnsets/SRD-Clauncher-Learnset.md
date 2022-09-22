@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Clauncher
+Species: '[[SRD-Clauncher|Clauncher]]'
 ---
 
 #PokeroleSRD/Learnsets

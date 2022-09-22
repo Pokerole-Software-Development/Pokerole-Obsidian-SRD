@@ -52,6 +52,7 @@ Moves:
 - - Master
   - '[[SRD-Rock Climb|Rock Climb]]'
 Name: Groudon
+Species: '[[SRD-Groudon|Groudon]]'
 ---
 
 #PokeroleSRD/Learnsets

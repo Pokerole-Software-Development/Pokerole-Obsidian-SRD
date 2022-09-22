@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Tail|Aqua Tail]]'
 Name: Krokorok
+Species: '[[SRD-Krokorok|Krokorok]]'
 ---
 
 #PokeroleSRD/Learnsets

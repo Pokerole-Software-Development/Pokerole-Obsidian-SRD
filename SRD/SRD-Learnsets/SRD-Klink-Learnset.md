@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Gravity|Gravity]]'
 Name: Klink
+Species: '[[SRD-Klink|Klink]]'
 ---
 
 #PokeroleSRD/Learnsets

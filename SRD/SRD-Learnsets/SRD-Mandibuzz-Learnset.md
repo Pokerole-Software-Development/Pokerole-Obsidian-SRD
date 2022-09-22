@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Mandibuzz
+Species: '[[SRD-Mandibuzz|Mandibuzz]]'
 ---
 
 #PokeroleSRD/Learnsets

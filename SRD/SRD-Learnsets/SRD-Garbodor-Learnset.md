@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Rollout|Rollout]]'
 Name: Garbodor
+Species: '[[SRD-Garbodor|Garbodor]]'
 ---
 
 #PokeroleSRD/Learnsets

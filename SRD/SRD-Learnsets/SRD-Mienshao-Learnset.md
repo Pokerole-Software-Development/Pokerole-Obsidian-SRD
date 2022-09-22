@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Mienshao
+Species: '[[SRD-Mienshao|Mienshao]]'
 ---
 
 #PokeroleSRD/Learnsets

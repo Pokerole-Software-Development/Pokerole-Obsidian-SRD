@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Frenzy Plant|Frenzy Plant]]'
 Name: Rillaboom
+Species: '[[SRD-Rillaboom|Rillaboom]]'
 ---
 
 #PokeroleSRD/Learnsets

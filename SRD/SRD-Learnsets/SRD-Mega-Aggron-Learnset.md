@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Mega-Aggron
+Species: '[[SRD-Mega-Aggron|Mega-Aggron]]'
 ---
 
 #PokeroleSRD/Learnsets

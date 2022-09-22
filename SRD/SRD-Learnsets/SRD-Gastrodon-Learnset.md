@@ -34,6 +34,7 @@ Moves:
 - - Pro
   - '[[SRD-Fissure|Fissure]]'
 Name: Gastrodon
+Species: '[[SRD-Gastrodon|Gastrodon]]'
 ---
 
 #PokeroleSRD/Learnsets

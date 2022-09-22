@@ -48,6 +48,7 @@ Moves:
 - - Master
   - '[[SRD-Moongeist Beam|Moongeist Beam]]'
 Name: Necrozma Dark Wings
+Species: '[[SRD-Necrozma Dark Wings|Necrozma Dark Wings]]'
 ---
 
 #PokeroleSRD/Learnsets

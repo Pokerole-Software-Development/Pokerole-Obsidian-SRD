@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Shock Wave|Shock Wave]]'
 Name: Porygon2
+Species: '[[SRD-Porygon2|Porygon2]]'
 ---
 
 #PokeroleSRD/Learnsets

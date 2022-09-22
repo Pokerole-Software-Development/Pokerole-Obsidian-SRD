@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Porygon-Z
+Species: '[[SRD-Porygon-Z|Porygon-Z]]'
 ---
 
 #PokeroleSRD/Learnsets

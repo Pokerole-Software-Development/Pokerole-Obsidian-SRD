@@ -40,6 +40,7 @@ Moves:
 - - Master
   - '[[SRD-Bulldoze|Bulldoze]]'
 Name: Terrakion
+Species: '[[SRD-Terrakion|Terrakion]]'
 ---
 
 #PokeroleSRD/Learnsets

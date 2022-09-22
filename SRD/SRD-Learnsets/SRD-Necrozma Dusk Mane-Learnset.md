@@ -48,6 +48,7 @@ Moves:
 - - Master
   - '[[SRD-Sunsteel Strike|Sunsteel Strike]]'
 Name: Necrozma Dusk Mane
+Species: '[[SRD-Necrozma Dusk Mane|Necrozma Dusk Mane]]'
 ---
 
 #PokeroleSRD/Learnsets

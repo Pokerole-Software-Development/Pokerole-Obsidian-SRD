@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Linoone
+Species: '[[SRD-Linoone|Linoone]]'
 ---
 
 #PokeroleSRD/Learnsets

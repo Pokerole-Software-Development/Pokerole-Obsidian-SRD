@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Defense Curl|Defense Curl]]'
 Name: Skiddo
+Species: '[[SRD-Skiddo|Skiddo]]'
 ---
 
 #PokeroleSRD/Learnsets

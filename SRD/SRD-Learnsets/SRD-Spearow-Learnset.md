@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Feather Dance|Feather Dance]]'
 Name: Spearow
+Species: '[[SRD-Spearow|Spearow]]'
 ---
 
 #PokeroleSRD/Learnsets

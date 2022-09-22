@@ -58,6 +58,7 @@ Moves:
 - - Pro
   - '[[SRD-Poison Fang|Poison Fang]]'
 Name: Mightyena
+Species: '[[SRD-Mightyena|Mightyena]]'
 ---
 
 #PokeroleSRD/Learnsets

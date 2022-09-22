@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Heal Bell|Heal Bell]]'
 Name: Flaaffy
+Species: '[[SRD-Flaaffy|Flaaffy]]'
 ---
 
 #PokeroleSRD/Learnsets

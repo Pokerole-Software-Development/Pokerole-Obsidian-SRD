@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Mirror Coat|Mirror Coat]]'
 Name: Duraludon
+Species: '[[SRD-Duraludon|Duraludon]]'
 ---
 
 #PokeroleSRD/Learnsets

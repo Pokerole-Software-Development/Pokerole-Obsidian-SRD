@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Low Kick|Low Kick]]'
 Name: Bisharp
+Species: '[[SRD-Bisharp|Bisharp]]'
 ---
 
 #PokeroleSRD/Learnsets

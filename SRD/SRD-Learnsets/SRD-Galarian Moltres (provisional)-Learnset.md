@@ -40,6 +40,7 @@ Moves:
 - - Master
   - '[[SRD-Hex|Hex]]'
 Name: Galarian Moltres (provisional)
+Species: '[[SRD-Galarian Moltres (provisional)|Galarian Moltres (provisional)]]'
 ---
 
 #PokeroleSRD/Learnsets

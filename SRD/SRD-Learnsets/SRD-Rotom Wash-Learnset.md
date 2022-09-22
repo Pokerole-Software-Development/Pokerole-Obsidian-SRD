@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Hydro Pump|Hydro Pump]]'
 Name: Rotom Wash
+Species: '[[SRD-Rotom Wash|Rotom Wash]]'
 ---
 
 #PokeroleSRD/Learnsets

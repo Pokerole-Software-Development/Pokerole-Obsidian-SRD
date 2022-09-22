@@ -38,6 +38,7 @@ Moves:
 - - Master
   - '[[SRD-Noble Roar|Noble Roar]]'
 Name: Form Keldeo
+Species: '[[SRD-Form Keldeo|Form Keldeo]]'
 ---
 
 #PokeroleSRD/Learnsets

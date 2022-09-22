@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Fly|Fly]]'
 Name: Zapdos
+Species: '[[SRD-Zapdos|Zapdos]]'
 ---
 
 #PokeroleSRD/Learnsets

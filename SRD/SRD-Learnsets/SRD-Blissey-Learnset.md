@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Metronome|Metronome]]'
 Name: Blissey
+Species: '[[SRD-Blissey|Blissey]]'
 ---
 
 #PokeroleSRD/Learnsets

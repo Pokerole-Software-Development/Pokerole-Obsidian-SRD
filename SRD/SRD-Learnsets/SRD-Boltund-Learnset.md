@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Thunder Fang|Thunder Fang]]'
 Name: Boltund
+Species: '[[SRD-Boltund|Boltund]]'
 ---
 
 #PokeroleSRD/Learnsets

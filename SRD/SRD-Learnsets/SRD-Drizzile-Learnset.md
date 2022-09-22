@@ -38,6 +38,7 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Jet|Aqua Jet]]'
 Name: Drizzile
+Species: '[[SRD-Drizzile|Drizzile]]'
 ---
 
 #PokeroleSRD/Learnsets

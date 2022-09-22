@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Knock Off|Knock Off]]'
 Name: Tapu Fini
+Species: '[[SRD-Tapu Fini|Tapu Fini]]'
 ---
 
 #PokeroleSRD/Learnsets

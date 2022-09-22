@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Stealth Rock|Stealth Rock]]'
 Name: Dugtrio
+Species: '[[SRD-Dugtrio|Dugtrio]]'
 ---
 
 #PokeroleSRD/Learnsets

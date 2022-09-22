@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Fissure|Fissure]]'
 Name: Donphan
+Species: '[[SRD-Donphan|Donphan]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Spit Up|Spit Up]]'
 Name: Toxapex
+Species: '[[SRD-Toxapex|Toxapex]]'
 ---
 
 #PokeroleSRD/Learnsets

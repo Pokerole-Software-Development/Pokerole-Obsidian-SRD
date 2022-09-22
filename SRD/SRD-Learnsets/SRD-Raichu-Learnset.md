@@ -24,6 +24,7 @@ Moves:
 - - Pro
   - '[[SRD-Volt Tackle|Volt Tackle]]'
 Name: Raichu
+Species: '[[SRD-Raichu|Raichu]]'
 ---
 
 #PokeroleSRD/Learnsets

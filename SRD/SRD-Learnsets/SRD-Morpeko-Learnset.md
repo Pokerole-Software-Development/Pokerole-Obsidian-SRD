@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Morpeko
+Species: '[[SRD-Morpeko|Morpeko]]'
 ---
 
 #PokeroleSRD/Learnsets

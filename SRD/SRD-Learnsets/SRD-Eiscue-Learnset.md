@@ -40,6 +40,7 @@ Moves:
 - - Pro
   - '[[SRD-Belly Drum|Belly Drum]]'
 Name: Eiscue
+Species: '[[SRD-Eiscue|Eiscue]]'
 ---
 
 #PokeroleSRD/Learnsets

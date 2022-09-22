@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Gastro Acid|Gastro Acid]]'
 Name: Foongus
+Species: '[[SRD-Foongus|Foongus]]'
 ---
 
 #PokeroleSRD/Learnsets

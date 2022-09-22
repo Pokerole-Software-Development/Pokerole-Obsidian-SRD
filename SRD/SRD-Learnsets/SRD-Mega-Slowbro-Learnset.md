@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Future Sight|Future Sight]]'
 Name: Mega-Slowbro
+Species: '[[SRD-Mega-Slowbro|Mega-Slowbro]]'
 ---
 
 #PokeroleSRD/Learnsets

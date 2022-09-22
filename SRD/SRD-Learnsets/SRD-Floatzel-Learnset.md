@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Ring|Aqua Ring]]'
 Name: Floatzel
+Species: '[[SRD-Floatzel|Floatzel]]'
 ---
 
 #PokeroleSRD/Learnsets

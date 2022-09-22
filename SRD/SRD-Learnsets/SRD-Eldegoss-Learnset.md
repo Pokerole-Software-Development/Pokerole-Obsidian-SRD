@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Leech Seed|Leech Seed]]'
 Name: Eldegoss
+Species: '[[SRD-Eldegoss|Eldegoss]]'
 ---
 
 #PokeroleSRD/Learnsets

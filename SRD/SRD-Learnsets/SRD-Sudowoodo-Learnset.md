@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Self Destruct|Self Destruct]]'
 Name: Sudowoodo
+Species: '[[SRD-Sudowoodo|Sudowoodo]]'
 ---
 
 #PokeroleSRD/Learnsets

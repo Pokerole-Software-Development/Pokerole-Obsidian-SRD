@@ -34,6 +34,7 @@ Moves:
 - - Master
   - '[[SRD-Signal Beam|Signal Beam]]'
 Name: Poipole
+Species: '[[SRD-Poipole|Poipole]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Ice Punch|Ice Punch]]'
 Name: Wooper
+Species: '[[SRD-Wooper|Wooper]]'
 ---
 
 #PokeroleSRD/Learnsets

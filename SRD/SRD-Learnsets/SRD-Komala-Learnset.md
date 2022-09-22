@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Play Rough|Play Rough]]'
 Name: Komala
+Species: '[[SRD-Komala|Komala]]'
 ---
 
 #PokeroleSRD/Learnsets

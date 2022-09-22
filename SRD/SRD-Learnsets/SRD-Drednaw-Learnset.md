@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Skull Bash|Skull Bash]]'
 Name: Drednaw
+Species: '[[SRD-Drednaw|Drednaw]]'
 ---
 
 #PokeroleSRD/Learnsets

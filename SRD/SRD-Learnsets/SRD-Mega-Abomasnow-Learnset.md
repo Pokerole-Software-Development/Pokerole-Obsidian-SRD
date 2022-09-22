@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Mega-Abomasnow
+Species: '[[SRD-Mega-Abomasnow|Mega-Abomasnow]]'
 ---
 
 #PokeroleSRD/Learnsets

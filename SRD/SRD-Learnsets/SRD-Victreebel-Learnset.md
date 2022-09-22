@@ -36,6 +36,7 @@ Moves:
 - - Pro
   - '[[SRD-Synthesis|Synthesis]]'
 Name: Victreebel
+Species: '[[SRD-Victreebel|Victreebel]]'
 ---
 
 #PokeroleSRD/Learnsets

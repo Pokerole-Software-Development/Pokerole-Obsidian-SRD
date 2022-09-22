@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Extrasensory|Extrasensory]]'
 Name: Oranguru
+Species: '[[SRD-Oranguru|Oranguru]]'
 ---
 
 #PokeroleSRD/Learnsets

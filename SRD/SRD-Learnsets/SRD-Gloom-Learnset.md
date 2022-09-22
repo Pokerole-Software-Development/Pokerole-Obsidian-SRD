@@ -40,6 +40,7 @@ Moves:
 - - Ace
   - '[[SRD-Grassy Terrain|Grassy Terrain]]'
 Name: Gloom
+Species: '[[SRD-Gloom|Gloom]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Gogoat
+Species: '[[SRD-Gogoat|Gogoat]]'
 ---
 
 #PokeroleSRD/Learnsets

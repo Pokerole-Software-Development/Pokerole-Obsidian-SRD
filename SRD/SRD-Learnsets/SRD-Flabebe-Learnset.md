@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Magic Coat|Magic Coat]]'
 Name: Flabebe
+Species: '[[SRD-Flabebe|Flabebe]]'
 ---
 
 #PokeroleSRD/Learnsets

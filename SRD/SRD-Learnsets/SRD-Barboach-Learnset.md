@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Mud Shot|Mud Shot]]'
 Name: Barboach
+Species: '[[SRD-Barboach|Barboach]]'
 ---
 
 #PokeroleSRD/Learnsets

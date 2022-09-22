@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Mega-Scizor
+Species: '[[SRD-Mega-Scizor|Mega-Scizor]]'
 ---
 
 #PokeroleSRD/Learnsets

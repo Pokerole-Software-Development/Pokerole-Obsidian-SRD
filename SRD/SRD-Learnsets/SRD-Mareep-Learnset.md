@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Heal Bell|Heal Bell]]'
 Name: Mareep
+Species: '[[SRD-Mareep|Mareep]]'
 ---
 
 #PokeroleSRD/Learnsets

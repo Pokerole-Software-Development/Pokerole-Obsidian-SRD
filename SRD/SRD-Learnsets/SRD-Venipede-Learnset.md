@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Pin Missile|Pin Missile]]'
 Name: Venipede
+Species: '[[SRD-Venipede|Venipede]]'
 ---
 
 #PokeroleSRD/Learnsets

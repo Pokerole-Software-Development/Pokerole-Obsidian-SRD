@@ -50,6 +50,7 @@ Moves:
 - - Master
   - '[[SRD-Hidden Power|Hidden Power]]'
 Name: Zygarde 100%
+Species: '[[SRD-Zygarde 100%|Zygarde 100%]]'
 ---
 
 #PokeroleSRD/Learnsets

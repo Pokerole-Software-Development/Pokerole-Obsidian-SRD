@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Detect|Detect]]'
 Name: Gurdurr
+Species: '[[SRD-Gurdurr|Gurdurr]]'
 ---
 
 #PokeroleSRD/Learnsets

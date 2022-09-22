@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Twister|Twister]]'
 Name: Staryu
+Species: '[[SRD-Staryu|Staryu]]'
 ---
 
 #PokeroleSRD/Learnsets

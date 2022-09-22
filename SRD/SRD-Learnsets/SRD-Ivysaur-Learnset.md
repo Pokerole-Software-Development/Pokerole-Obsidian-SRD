@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Grass Pledge|Grass Pledge]]'
 Name: Ivysaur
+Species: '[[SRD-Ivysaur|Ivysaur]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Reflect|Reflect]]'
 Name: Pidgeot
+Species: '[[SRD-Pidgeot|Pidgeot]]'
 ---
 
 #PokeroleSRD/Learnsets

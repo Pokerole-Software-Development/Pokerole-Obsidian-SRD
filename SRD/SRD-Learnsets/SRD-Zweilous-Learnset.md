@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Fire Fang|Fire Fang]]'
 Name: Zweilous
+Species: '[[SRD-Zweilous|Zweilous]]'
 ---
 
 #PokeroleSRD/Learnsets

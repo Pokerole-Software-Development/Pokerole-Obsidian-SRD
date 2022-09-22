@@ -38,6 +38,7 @@ Moves:
 - - Master
   - '[[SRD-Liquidation|Liquidation]]'
 Name: Palkia
+Species: '[[SRD-Palkia|Palkia]]'
 ---
 
 #PokeroleSRD/Learnsets

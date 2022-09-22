@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Wide Guard|Wide Guard]]'
 Name: Turtonator
+Species: '[[SRD-Turtonator|Turtonator]]'
 ---
 
 #PokeroleSRD/Learnsets

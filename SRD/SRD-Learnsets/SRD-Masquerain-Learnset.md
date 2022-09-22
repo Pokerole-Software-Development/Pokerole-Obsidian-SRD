@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Psybeam|Psybeam]]'
 Name: Masquerain
+Species: '[[SRD-Masquerain|Masquerain]]'
 ---
 
 #PokeroleSRD/Learnsets

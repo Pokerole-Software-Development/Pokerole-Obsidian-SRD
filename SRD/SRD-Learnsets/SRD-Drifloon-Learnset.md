@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Drifloon
+Species: '[[SRD-Drifloon|Drifloon]]'
 ---
 
 #PokeroleSRD/Learnsets

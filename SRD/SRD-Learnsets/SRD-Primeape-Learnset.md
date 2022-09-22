@@ -54,6 +54,7 @@ Moves:
 - - Pro
   - '[[SRD-Overheat|Overheat]]'
 Name: Primeape
+Species: '[[SRD-Primeape|Primeape]]'
 ---
 
 #PokeroleSRD/Learnsets

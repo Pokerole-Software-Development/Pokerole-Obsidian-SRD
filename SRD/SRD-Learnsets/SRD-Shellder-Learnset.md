@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Rapid Spin|Rapid Spin]]'
 Name: Shellder
+Species: '[[SRD-Shellder|Shellder]]'
 ---
 
 #PokeroleSRD/Learnsets

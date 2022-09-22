@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Last Resort|Last Resort]]'
 Name: Gumshoos
+Species: '[[SRD-Gumshoos|Gumshoos]]'
 ---
 
 #PokeroleSRD/Learnsets

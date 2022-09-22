@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Ice Punch|Ice Punch]]'
 Name: Azumarill
+Species: '[[SRD-Azumarill|Azumarill]]'
 ---
 
 #PokeroleSRD/Learnsets

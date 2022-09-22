@@ -40,6 +40,7 @@ Moves:
 - - Master
   - '[[SRD-Captivate|Captivate]]'
 Name: Form Meloetta
+Species: '[[SRD-Form Meloetta|Form Meloetta]]'
 ---
 
 #PokeroleSRD/Learnsets

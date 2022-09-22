@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Magnitude|Magnitude]]'
 Name: Relicanth
+Species: '[[SRD-Relicanth|Relicanth]]'
 ---
 
 #PokeroleSRD/Learnsets

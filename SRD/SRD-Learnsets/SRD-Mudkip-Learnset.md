@@ -42,6 +42,7 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Mudkip
+Species: '[[SRD-Mudkip|Mudkip]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Mega-Houndoom
+Species: '[[SRD-Mega-Houndoom|Mega-Houndoom]]'
 ---
 
 #PokeroleSRD/Learnsets

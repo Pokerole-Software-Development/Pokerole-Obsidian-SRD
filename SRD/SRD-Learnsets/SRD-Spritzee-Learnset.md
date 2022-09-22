@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Covet|Covet]]'
 Name: Spritzee
+Species: '[[SRD-Spritzee|Spritzee]]'
 ---
 
 #PokeroleSRD/Learnsets

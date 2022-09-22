@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Thrash|Thrash]]'
 Name: Stantler
+Species: '[[SRD-Stantler|Stantler]]'
 ---
 
 #PokeroleSRD/Learnsets

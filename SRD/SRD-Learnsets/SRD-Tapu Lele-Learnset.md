@@ -44,6 +44,7 @@ Moves:
 - - Master
   - '[[SRD-Telekinesis|Telekinesis]]'
 Name: Tapu Lele
+Species: '[[SRD-Tapu Lele|Tapu Lele]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
 Name: Mime Jr.
+Species: '[[SRD-Mime Jr.|Mime Jr.]]'
 ---
 
 #PokeroleSRD/Learnsets

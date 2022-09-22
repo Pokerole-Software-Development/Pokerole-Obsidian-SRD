@@ -22,6 +22,7 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Simisear
+Species: '[[SRD-Simisear|Simisear]]'
 ---
 
 #PokeroleSRD/Learnsets

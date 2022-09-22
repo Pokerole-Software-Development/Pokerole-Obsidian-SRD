@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Counter|Counter]]'
 Name: Sandslash
+Species: '[[SRD-Sandslash|Sandslash]]'
 ---
 
 #PokeroleSRD/Learnsets

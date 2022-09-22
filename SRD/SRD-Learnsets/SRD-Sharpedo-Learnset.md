@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Spite|Spite]]'
 Name: Sharpedo
+Species: '[[SRD-Sharpedo|Sharpedo]]'
 ---
 
 #PokeroleSRD/Learnsets

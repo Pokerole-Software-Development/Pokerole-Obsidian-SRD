@@ -58,6 +58,7 @@ Moves:
 - - Pro
   - '[[SRD-Signal Beam|Signal Beam]]'
 Name: Magnezone
+Species: '[[SRD-Magnezone|Magnezone]]'
 ---
 
 #PokeroleSRD/Learnsets

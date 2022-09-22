@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Chip Away|Chip Away]]'
 Name: Corphish
+Species: '[[SRD-Corphish|Corphish]]'
 ---
 
 #PokeroleSRD/Learnsets

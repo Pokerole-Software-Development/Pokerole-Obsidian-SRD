@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Spite|Spite]]'
 Name: Mega-Absol
+Species: '[[SRD-Mega-Absol|Mega-Absol]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Foul Play|Foul Play]]'
 Name: Gourgeist
+Species: '[[SRD-Gourgeist|Gourgeist]]'
 ---
 
 #PokeroleSRD/Learnsets

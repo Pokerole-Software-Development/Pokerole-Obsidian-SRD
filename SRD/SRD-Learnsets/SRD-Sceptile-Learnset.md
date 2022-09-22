@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Frenzy Plant|Frenzy Plant]]'
 Name: Sceptile
+Species: '[[SRD-Sceptile|Sceptile]]'
 ---
 
 #PokeroleSRD/Learnsets

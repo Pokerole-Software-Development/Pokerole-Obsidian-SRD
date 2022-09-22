@@ -46,6 +46,7 @@ Moves:
 - - Master
   - '[[SRD-Fly|Fly]]'
 Name: Ho-oh
+Species: '[[SRD-Ho-oh|Ho-oh]]'
 ---
 
 #PokeroleSRD/Learnsets

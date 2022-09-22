@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Iron Head|Iron Head]]'
 Name: Carracosta
+Species: '[[SRD-Carracosta|Carracosta]]'
 ---
 
 #PokeroleSRD/Learnsets

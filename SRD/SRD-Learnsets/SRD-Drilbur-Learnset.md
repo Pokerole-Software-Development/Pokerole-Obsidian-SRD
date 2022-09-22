@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Submission|Submission]]'
 Name: Drilbur
+Species: '[[SRD-Drilbur|Drilbur]]'
 ---
 
 #PokeroleSRD/Learnsets

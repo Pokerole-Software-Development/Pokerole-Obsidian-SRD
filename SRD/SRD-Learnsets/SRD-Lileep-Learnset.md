@@ -46,6 +46,7 @@ Moves:
 - - Pro
   - '[[SRD-Tickle|Tickle]]'
 Name: Lileep
+Species: '[[SRD-Lileep|Lileep]]'
 ---
 
 #PokeroleSRD/Learnsets

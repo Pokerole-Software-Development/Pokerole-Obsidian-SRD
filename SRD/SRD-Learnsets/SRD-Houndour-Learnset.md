@@ -48,6 +48,7 @@ Moves:
 - - Pro
   - '[[SRD-Feint|Feint]]'
 Name: Houndour
+Species: '[[SRD-Houndour|Houndour]]'
 ---
 
 #PokeroleSRD/Learnsets

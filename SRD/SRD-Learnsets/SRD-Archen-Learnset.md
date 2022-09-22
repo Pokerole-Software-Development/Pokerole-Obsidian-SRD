@@ -52,6 +52,7 @@ Moves:
 - - Pro
   - '[[SRD-Knock Off|Knock Off]]'
 Name: Archen
+Species: '[[SRD-Archen|Archen]]'
 ---
 
 #PokeroleSRD/Learnsets

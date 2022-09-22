@@ -50,6 +50,7 @@ Moves:
 - - Pro
   - '[[SRD-Wonder Room|Wonder Room]]'
 Name: Indeedee
+Species: '[[SRD-Indeedee|Indeedee]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -44,6 +44,7 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Jet|Aqua Jet]]'
 Name: Golisopod
+Species: '[[SRD-Golisopod|Golisopod]]'
 ---
 
 #PokeroleSRD/Learnsets
