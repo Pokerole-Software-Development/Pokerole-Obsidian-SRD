@@ -4,7 +4,7 @@ Ability2: Cloud Nine
 BoxSprite: SRD-BoxSprite-psyduck.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Swift Swim
 HomeSprite: SRD-HomeSprite-psyduck.png
 Learnset: '[[SRD-Psyduck-Learnset]]'

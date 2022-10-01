@@ -4,7 +4,7 @@ Ability2: Sand Force
 BoxSprite: SRD-BoxSprite-excadrill.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-HomeSprite-excadrill.png
 Learnset: '[[SRD-Excadrill-Learnset]]'

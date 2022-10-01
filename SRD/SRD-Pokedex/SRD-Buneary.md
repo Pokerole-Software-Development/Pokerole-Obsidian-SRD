@@ -4,7 +4,7 @@ Ability2: Klutz
 BoxSprite: SRD-BoxSprite-buneary.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Limber
 HomeSprite: SRD-HomeSprite-buneary.png
 Learnset: '[[SRD-Buneary-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-lycanroc-dusk.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-lycanroc-dusk.png
 Learnset: '[[SRD-Lycanroc Dusk-Learnset]]'

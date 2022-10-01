@@ -4,7 +4,7 @@ Ability2: Quick Feet
 BoxSprite: SRD-BoxSprite-ursaring.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-ursaring.png
 Learnset: '[[SRD-Ursaring-Learnset]]'

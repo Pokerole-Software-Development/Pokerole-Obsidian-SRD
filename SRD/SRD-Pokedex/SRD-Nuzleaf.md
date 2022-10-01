@@ -4,7 +4,7 @@ Ability2: Early Bird
 BoxSprite: SRD-BoxSprite-nuzleaf.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-nuzleaf.png
 Learnset: '[[SRD-Nuzleaf-Learnset]]'

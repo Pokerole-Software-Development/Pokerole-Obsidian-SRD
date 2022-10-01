@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-meganium.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-HomeSprite-meganium.png
 Learnset: '[[SRD-Meganium-Learnset]]'

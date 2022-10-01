@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-victreebel.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Gluttony
 HomeSprite: SRD-HomeSprite-victreebel.png
 Learnset: '[[SRD-Victreebel-Learnset]]'

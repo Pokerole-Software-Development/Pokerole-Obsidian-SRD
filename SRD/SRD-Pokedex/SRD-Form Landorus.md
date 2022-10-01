@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-landorus.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-landorus.png
 Learnset: '[[SRD-Form Landorus-Learnset]]'

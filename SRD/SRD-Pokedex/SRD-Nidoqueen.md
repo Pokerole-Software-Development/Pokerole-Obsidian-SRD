@@ -4,7 +4,7 @@ Ability2: Rivalry
 BoxSprite: SRD-BoxSprite-nidoqueen.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-nidoqueen.png
 Learnset: '[[SRD-Nidoqueen-Learnset]]'

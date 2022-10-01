@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-dhelmise.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-dhelmise.png
 Learnset: '[[SRD-Dhelmise-Learnset]]'

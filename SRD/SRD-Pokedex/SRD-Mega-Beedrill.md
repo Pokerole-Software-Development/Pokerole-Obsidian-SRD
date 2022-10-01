@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-beedrill-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-beedrill-mega.png
 Learnset: '[[SRD-Mega-Beedrill-Learnset]]'

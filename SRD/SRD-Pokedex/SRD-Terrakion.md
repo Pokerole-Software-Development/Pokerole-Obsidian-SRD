@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-terrakion.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-terrakion.png
 Learnset: '[[SRD-Terrakion-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Thick Fat
 BoxSprite: SRD-BoxSprite-snorlax.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Gluttony
 HomeSprite: SRD-HomeSprite-snorlax.png
 Learnset: '[[SRD-Snorlax-Learnset]]'

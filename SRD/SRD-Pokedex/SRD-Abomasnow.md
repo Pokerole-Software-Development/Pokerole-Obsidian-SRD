@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-abomasnow.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Soundproof
 HomeSprite: SRD-HomeSprite-abomasnow.png
 Learnset: '[[SRD-Abomasnow-Learnset]]'

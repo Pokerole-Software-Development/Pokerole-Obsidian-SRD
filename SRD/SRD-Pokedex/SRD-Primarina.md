@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-primarina.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Liquid Voice
 HomeSprite: SRD-HomeSprite-primarina.png
 Learnset: '[[SRD-Primarina-Learnset]]'

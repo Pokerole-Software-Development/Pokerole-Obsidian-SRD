@@ -4,7 +4,7 @@ Ability2: Hydration
 BoxSprite: SRD-BoxSprite-wingull.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rain Dish
 HomeSprite: SRD-HomeSprite-wingull.png
 Learnset: '[[SRD-Wingull-Learnset]]'

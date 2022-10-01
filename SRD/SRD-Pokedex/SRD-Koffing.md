@@ -4,7 +4,7 @@ Ability2: Neutralizing Gas
 BoxSprite: SRD-BoxSprite-koffing.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Stench
 HomeSprite: SRD-HomeSprite-koffing.png
 Learnset: '[[SRD-Koffing-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Compound Eyes
 BoxSprite: SRD-BoxSprite-wormadam.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-wormadam.png
 Learnset: '[[SRD-Ground Wormadam-Learnset]]'

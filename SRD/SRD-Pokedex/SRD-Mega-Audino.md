@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-audino-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-audino-mega.png
 Learnset: '[[SRD-Mega-Audino-Learnset]]'

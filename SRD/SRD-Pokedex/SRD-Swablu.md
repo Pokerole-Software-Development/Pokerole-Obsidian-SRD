@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-swablu.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Cloud Nine
 HomeSprite: SRD-HomeSprite-swablu.png
 Learnset: '[[SRD-Swablu-Learnset]]'

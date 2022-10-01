@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-magmortar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Vital Spirit
 HomeSprite: SRD-HomeSprite-magmortar.png
 Learnset: '[[SRD-Magmortar-Learnset]]'

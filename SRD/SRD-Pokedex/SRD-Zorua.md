@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-zorua.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-zorua.png
 Learnset: '[[SRD-Zorua-Learnset]]'

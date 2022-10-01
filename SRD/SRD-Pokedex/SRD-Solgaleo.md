@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-solgaleo.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-solgaleo.png
 Learnset: '[[SRD-Solgaleo-Learnset]]'

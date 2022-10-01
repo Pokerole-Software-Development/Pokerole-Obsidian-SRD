@@ -4,7 +4,7 @@ Ability2: Natural Cure
 BoxSprite: SRD-BoxSprite-staryu.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Analytic
 HomeSprite: SRD-HomeSprite-staryu.png
 Learnset: '[[SRD-Staryu-Learnset]]'

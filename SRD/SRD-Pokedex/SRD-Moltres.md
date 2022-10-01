@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-moltres.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Flame Body
 HomeSprite: SRD-HomeSprite-moltres.png
 Learnset: '[[SRD-Moltres-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Flame Body
 BoxSprite: SRD-BoxSprite-magcargo.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Weak Armor
 HomeSprite: SRD-HomeSprite-magcargo.png
 Learnset: '[[SRD-Magcargo-Learnset]]'

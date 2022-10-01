@@ -4,7 +4,7 @@ Ability2: Anticipation
 BoxSprite: SRD-BoxSprite-hattrem.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Magic Bounce
 HomeSprite: SRD-HomeSprite-hattrem.png
 Learnset: '[[SRD-Hattrem-Learnset]]'

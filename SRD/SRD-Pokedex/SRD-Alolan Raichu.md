@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-raichu-alola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-raichu-alola.png
 Learnset: '[[SRD-Alolan Raichu-Learnset]]'

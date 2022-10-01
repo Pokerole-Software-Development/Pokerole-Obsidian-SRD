@@ -4,7 +4,7 @@ Ability2: Hustle
 BoxSprite: SRD-BoxSprite-durant.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Truant
 HomeSprite: SRD-HomeSprite-durant.png
 Learnset: '[[SRD-Durant-Learnset]]'

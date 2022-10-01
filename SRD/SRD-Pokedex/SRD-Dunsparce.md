@@ -4,7 +4,7 @@ Ability2: Run Away
 BoxSprite: SRD-BoxSprite-dunsparce.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-dunsparce.png
 Learnset: '[[SRD-Dunsparce-Learnset]]'

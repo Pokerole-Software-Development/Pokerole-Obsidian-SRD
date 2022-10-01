@@ -4,7 +4,7 @@ Ability2: Shed Skin
 BoxSprite: SRD-BoxSprite-arbok.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-arbok.png
 Learnset: '[[SRD-Arbok-Learnset]]'

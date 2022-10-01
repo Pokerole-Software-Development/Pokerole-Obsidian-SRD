@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-runerigus.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-runerigus.png
 Learnset: '[[SRD-Runerigus-Learnset]]'

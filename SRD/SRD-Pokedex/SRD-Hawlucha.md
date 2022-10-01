@@ -4,7 +4,7 @@ Ability2: Unburden
 BoxSprite: SRD-BoxSprite-hawlucha.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-HomeSprite-hawlucha.png
 Learnset: '[[SRD-Hawlucha-Learnset]]'

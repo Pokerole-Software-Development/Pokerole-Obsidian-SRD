@@ -4,7 +4,7 @@ Ability2: Magnet Pull
 BoxSprite: SRD-BoxSprite-probopass.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-probopass.png
 Learnset: '[[SRD-Probopass-Learnset]]'

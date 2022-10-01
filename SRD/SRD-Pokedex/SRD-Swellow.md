@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-swellow.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Scrappy
 HomeSprite: SRD-HomeSprite-swellow.png
 Learnset: '[[SRD-Swellow-Learnset]]'

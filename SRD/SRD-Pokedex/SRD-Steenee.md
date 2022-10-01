@@ -4,7 +4,7 @@ Ability2: Oblivious
 BoxSprite: SRD-BoxSprite-steenee.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sweet Veil
 HomeSprite: SRD-HomeSprite-steenee.png
 Learnset: '[[SRD-Steenee-Learnset]]'

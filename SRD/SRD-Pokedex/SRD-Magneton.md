@@ -4,7 +4,7 @@ Ability2: Sturdy
 BoxSprite: SRD-BoxSprite-magneton.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Analytic
 HomeSprite: SRD-HomeSprite-magneton.png
 Learnset: '[[SRD-Magneton-Learnset]]'

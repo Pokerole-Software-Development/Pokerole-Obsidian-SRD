@@ -4,7 +4,7 @@ Ability2: Scrappy
 BoxSprite: SRD-BoxSprite-kangaskhan.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Inner Focus
 HomeSprite: SRD-HomeSprite-kangaskhan.png
 Learnset: '[[SRD-Kangaskhan-Learnset]]'

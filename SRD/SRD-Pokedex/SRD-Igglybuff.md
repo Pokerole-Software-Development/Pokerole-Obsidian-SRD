@@ -4,7 +4,7 @@ Ability2: Competitive
 BoxSprite: SRD-BoxSprite-igglybuff.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Friend Guard
 HomeSprite: SRD-HomeSprite-igglybuff.png
 Learnset: '[[SRD-Igglybuff-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Early Bird
 BoxSprite: SRD-BoxSprite-shiftry.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-shiftry.png
 Learnset: '[[SRD-Shiftry-Learnset]]'

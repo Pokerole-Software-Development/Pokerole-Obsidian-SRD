@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-altaria-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-altaria-mega.png
 Learnset: '[[SRD-Mega-Altaria-Learnset]]'

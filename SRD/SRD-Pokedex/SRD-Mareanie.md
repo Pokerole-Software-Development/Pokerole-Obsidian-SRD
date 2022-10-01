@@ -4,7 +4,7 @@ Ability2: Limber
 BoxSprite: SRD-BoxSprite-mareanie.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-mareanie.png
 Learnset: '[[SRD-Mareanie-Learnset]]'

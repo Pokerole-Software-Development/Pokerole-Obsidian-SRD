@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-pheromosa.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-pheromosa.png
 Learnset: '[[SRD-Pheromosa-Learnset]]'

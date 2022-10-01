@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-polteageist.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Cursed Body
 HomeSprite: SRD-HomeSprite-polteageist.png
 Learnset: '[[SRD-Polteageist-Learnset]]'

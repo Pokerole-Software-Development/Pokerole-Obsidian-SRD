@@ -4,7 +4,7 @@ Ability2: Normalize
 BoxSprite: SRD-BoxSprite-delcatty.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Wonder Skin
 HomeSprite: SRD-HomeSprite-delcatty.png
 Learnset: '[[SRD-Delcatty-Learnset]]'

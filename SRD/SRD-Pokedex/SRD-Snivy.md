@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-snivy.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Contrary
 HomeSprite: SRD-HomeSprite-snivy.png
 Learnset: '[[SRD-Snivy-Learnset]]'

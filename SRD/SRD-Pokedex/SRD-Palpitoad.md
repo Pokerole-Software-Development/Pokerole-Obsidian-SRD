@@ -4,7 +4,7 @@ Ability2: Hydration
 BoxSprite: SRD-BoxSprite-palpitoad.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Water Absorb
 HomeSprite: SRD-HomeSprite-palpitoad.png
 Learnset: '[[SRD-Palpitoad-Learnset]]'

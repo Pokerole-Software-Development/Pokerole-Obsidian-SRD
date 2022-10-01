@@ -4,7 +4,7 @@ Ability2: Ice Body
 BoxSprite: SRD-BoxSprite-glalie.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Moody
 HomeSprite: SRD-HomeSprite-glalie.png
 Learnset: '[[SRD-Glalie-Learnset]]'

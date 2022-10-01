@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-samurott.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Shell Armor
 HomeSprite: SRD-HomeSprite-samurott.png
 Learnset: '[[SRD-Samurott-Learnset]]'

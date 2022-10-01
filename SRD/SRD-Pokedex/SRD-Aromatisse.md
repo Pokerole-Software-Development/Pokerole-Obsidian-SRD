@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-aromatisse.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Aroma Veil
 HomeSprite: SRD-HomeSprite-aromatisse.png
 Learnset: '[[SRD-Aromatisse-Learnset]]'

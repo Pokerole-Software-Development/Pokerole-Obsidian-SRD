@@ -4,7 +4,7 @@ Ability2: Skill Link
 BoxSprite: SRD-BoxSprite-trumbeak.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Pickup
 HomeSprite: SRD-HomeSprite-trumbeak.png
 Learnset: '[[SRD-Trumbeak-Learnset]]'

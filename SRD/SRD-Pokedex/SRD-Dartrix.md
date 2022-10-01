@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-dartrix.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Long Reach
 HomeSprite: SRD-HomeSprite-dartrix.png
 Learnset: '[[SRD-Dartrix-Learnset]]'

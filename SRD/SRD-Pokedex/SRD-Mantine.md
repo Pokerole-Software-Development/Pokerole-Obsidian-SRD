@@ -4,7 +4,7 @@ Ability2: Water Absorb
 BoxSprite: SRD-BoxSprite-mantine.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Water Veil
 HomeSprite: SRD-HomeSprite-mantine.png
 Learnset: '[[SRD-Mantine-Learnset]]'

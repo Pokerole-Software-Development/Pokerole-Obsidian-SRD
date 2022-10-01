@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-boltund.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Competitive
 HomeSprite: SRD-HomeSprite-boltund.png
 Learnset: '[[SRD-Boltund-Learnset]]'

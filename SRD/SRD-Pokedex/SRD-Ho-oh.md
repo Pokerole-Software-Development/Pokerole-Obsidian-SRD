@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-ho-oh.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-ho-oh.png
 Learnset: '[[SRD-Ho-oh-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Poison Heal
 BoxSprite: SRD-BoxSprite-shroomish.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Quick Feet
 HomeSprite: SRD-HomeSprite-shroomish.png
 Learnset: '[[SRD-Shroomish-Learnset]]'

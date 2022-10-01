@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-eternatus.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-eternatus.png
 Learnset: '[[SRD-Eternatus-Learnset]]'

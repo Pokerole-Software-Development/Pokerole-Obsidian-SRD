@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-thwackey.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Grassy Surge
 HomeSprite: SRD-HomeSprite-thwackey.png
 Learnset: '[[SRD-Thwackey-Learnset]]'

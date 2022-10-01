@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-necrozma-dusk.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-necrozma-dusk.png
 Learnset: '[[SRD-Necrozma Dusk Mane-Learnset]]'

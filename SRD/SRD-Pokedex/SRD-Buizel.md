@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-buizel.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Water Veil
 HomeSprite: SRD-HomeSprite-buizel.png
 Learnset: '[[SRD-Buizel-Learnset]]'

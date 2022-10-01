@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-gastly.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-gastly.png
 Learnset: '[[SRD-Gastly-Learnset]]'

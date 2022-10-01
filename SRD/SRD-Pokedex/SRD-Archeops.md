@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-archeops.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-archeops.png
 Learnset: '[[SRD-Archeops-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Effect Spore
 BoxSprite: SRD-BoxSprite-shiinotic.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rain Dish
 HomeSprite: SRD-HomeSprite-shiinotic.png
 Learnset: '[[SRD-Shiinotic-Learnset]]'

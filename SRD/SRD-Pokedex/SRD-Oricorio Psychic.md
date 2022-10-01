@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-oricorio.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-oricorio.png
 Learnset: '[[SRD-Oricorio Psychic-Learnset]]'

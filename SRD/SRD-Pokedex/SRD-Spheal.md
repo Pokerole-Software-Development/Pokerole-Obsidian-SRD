@@ -4,7 +4,7 @@ Ability2: Ice Body
 BoxSprite: SRD-BoxSprite-spheal.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Oblivious
 HomeSprite: SRD-HomeSprite-spheal.png
 Learnset: '[[SRD-Spheal-Learnset]]'

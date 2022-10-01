@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-vulpix-alola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Snow Warning
 HomeSprite: SRD-HomeSprite-vulpix-alola.png
 Learnset: '[[SRD-Alolan Vulpix-Learnset]]'

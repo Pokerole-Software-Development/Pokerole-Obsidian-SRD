@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-hippopotas.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-hippopotas.png
 Learnset: '[[SRD-Hippopotas-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-houndoom-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-houndoom-mega.png
 Learnset: '[[SRD-Mega-Houndoom-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-gogoat.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Grass Pelt
 HomeSprite: SRD-HomeSprite-gogoat.png
 Learnset: '[[SRD-Gogoat-Learnset]]'

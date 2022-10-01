@@ -4,7 +4,7 @@ Ability2: Swarm
 BoxSprite: SRD-BoxSprite-whirlipede.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Speed Boost
 HomeSprite: SRD-HomeSprite-whirlipede.png
 Learnset: '[[SRD-Whirlipede-Learnset]]'

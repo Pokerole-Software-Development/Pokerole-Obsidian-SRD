@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-cursola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Perish Body
 HomeSprite: SRD-HomeSprite-cursola.png
 Learnset: '[[SRD-Cursola-Learnset]]'

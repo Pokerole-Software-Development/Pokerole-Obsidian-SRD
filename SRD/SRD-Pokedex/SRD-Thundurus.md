@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-thundurus.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Defiant
 HomeSprite: SRD-HomeSprite-thundurus.png
 Learnset: '[[SRD-Thundurus-Learnset]]'

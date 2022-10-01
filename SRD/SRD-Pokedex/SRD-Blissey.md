@@ -4,7 +4,7 @@ Ability2: Serene Grace
 BoxSprite: SRD-BoxSprite-blissey.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Healer
 HomeSprite: SRD-HomeSprite-blissey.png
 Learnset: '[[SRD-Blissey-Learnset]]'

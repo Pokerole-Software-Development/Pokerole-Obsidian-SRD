@@ -4,7 +4,7 @@ Ability2: Sap Sipper
 BoxSprite: SRD-BoxSprite-drampa.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Cloud Nine
 HomeSprite: SRD-HomeSprite-drampa.png
 Learnset: '[[SRD-Drampa-Learnset]]'

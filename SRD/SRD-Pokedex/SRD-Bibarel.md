@@ -4,7 +4,7 @@ Ability2: Unaware
 BoxSprite: SRD-BoxSprite-bibarel.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Moody
 HomeSprite: SRD-HomeSprite-bibarel.png
 Learnset: '[[SRD-Bibarel-Learnset]]'

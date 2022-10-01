@@ -4,7 +4,7 @@ Ability2: Unaware
 BoxSprite: SRD-BoxSprite-bidoof.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Moody
 HomeSprite: SRD-HomeSprite-bidoof.png
 Learnset: '[[SRD-Bidoof-Learnset]]'

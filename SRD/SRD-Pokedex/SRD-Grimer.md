@@ -4,7 +4,7 @@ Ability2: Sticky Hold
 BoxSprite: SRD-BoxSprite-grimer.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Poison Touch
 HomeSprite: SRD-HomeSprite-grimer.png
 Learnset: '[[SRD-Grimer-Learnset]]'

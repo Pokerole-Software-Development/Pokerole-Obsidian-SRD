@@ -4,7 +4,7 @@ Ability2: Keen Eye
 BoxSprite: SRD-BoxSprite-patrat.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Analytic
 HomeSprite: SRD-HomeSprite-patrat.png
 Learnset: '[[SRD-Patrat-Learnset]]'

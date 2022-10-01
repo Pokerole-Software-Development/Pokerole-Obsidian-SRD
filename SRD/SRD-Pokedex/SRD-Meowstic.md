@@ -4,7 +4,7 @@ Ability2: Infiltrator
 BoxSprite: SRD-BoxSprite-meowstic.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Prankster
 HomeSprite: SRD-HomeSprite-meowstic.png
 Learnset: '[[SRD-Meowstic-Learnset]]'

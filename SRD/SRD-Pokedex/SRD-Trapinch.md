@@ -4,7 +4,7 @@ Ability2: Arena Trap
 BoxSprite: SRD-BoxSprite-trapinch.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-trapinch.png
 Learnset: '[[SRD-Trapinch-Learnset]]'

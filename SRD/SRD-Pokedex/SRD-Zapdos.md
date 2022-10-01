@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-zapdos.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Static
 HomeSprite: SRD-HomeSprite-zapdos.png
 Learnset: '[[SRD-Zapdos-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-palossand.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-palossand.png
 Learnset: '[[SRD-Palossand-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-regigigas.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-regigigas.png
 Learnset: '[[SRD-Regigigas-Learnset]]'

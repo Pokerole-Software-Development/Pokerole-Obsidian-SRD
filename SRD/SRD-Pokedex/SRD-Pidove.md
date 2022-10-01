@@ -4,7 +4,7 @@ Ability2: Super Luck
 BoxSprite: SRD-BoxSprite-pidove.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rivalry
 HomeSprite: SRD-HomeSprite-pidove.png
 Learnset: '[[SRD-Pidove-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-swirlix.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unburden
 HomeSprite: SRD-HomeSprite-swirlix.png
 Learnset: '[[SRD-Swirlix-Learnset]]'

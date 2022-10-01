@@ -4,7 +4,7 @@ Ability2: Screen Cleaner
 BoxSprite: SRD-BoxSprite-mr-rime.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Ice Body
 HomeSprite: SRD-HomeSprite-mr-rime.png
 Learnset: '[[SRD-Mr. Rime-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-absol-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-absol-mega.png
 Learnset: '[[SRD-Mega-Absol-Learnset]]'

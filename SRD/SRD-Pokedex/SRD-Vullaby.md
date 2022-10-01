@@ -4,7 +4,7 @@ Ability2: Overcoat
 BoxSprite: SRD-BoxSprite-vullaby.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Weak Armor
 HomeSprite: SRD-HomeSprite-vullaby.png
 Learnset: '[[SRD-Vullaby-Learnset]]'

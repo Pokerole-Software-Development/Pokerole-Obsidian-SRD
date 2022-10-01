@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-mewtwo.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-mewtwo.png
 Learnset: '[[SRD-Mewtwo-Learnset]]'

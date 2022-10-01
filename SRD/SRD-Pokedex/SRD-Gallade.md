@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-gallade.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Justified
 HomeSprite: SRD-HomeSprite-gallade.png
 Learnset: '[[SRD-Gallade-Learnset]]'

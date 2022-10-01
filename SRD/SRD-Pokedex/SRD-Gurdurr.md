@@ -4,7 +4,7 @@ Ability2: Sheer Force
 BoxSprite: SRD-BoxSprite-gurdurr.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Iron Fist
 HomeSprite: SRD-HomeSprite-gurdurr.png
 Learnset: '[[SRD-Gurdurr-Learnset]]'

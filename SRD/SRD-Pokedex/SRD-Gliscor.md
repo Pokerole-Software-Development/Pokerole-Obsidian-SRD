@@ -4,7 +4,7 @@ Ability2: Sand Veil
 BoxSprite: SRD-BoxSprite-gliscor.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Poison Heal
 HomeSprite: SRD-HomeSprite-gliscor.png
 Learnset: '[[SRD-Gliscor-Learnset]]'

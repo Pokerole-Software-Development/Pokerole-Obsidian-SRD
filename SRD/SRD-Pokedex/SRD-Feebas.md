@@ -4,7 +4,7 @@ Ability2: Oblivious
 BoxSprite: SRD-BoxSprite-feebas.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Adaptability
 HomeSprite: SRD-HomeSprite-feebas.png
 Learnset: '[[SRD-Feebas-Learnset]]'

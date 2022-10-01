@@ -4,7 +4,7 @@ Ability2: Frisk
 BoxSprite: SRD-BoxSprite-pumpkaboo.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Insomnia
 HomeSprite: SRD-HomeSprite-pumpkaboo.png
 Learnset: '[[SRD-Pumpkaboo-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Steadfast
 BoxSprite: SRD-BoxSprite-tyrogue.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Vital Spirit
 HomeSprite: SRD-HomeSprite-tyrogue.png
 Learnset: '[[SRD-Tyrogue-Learnset]]'

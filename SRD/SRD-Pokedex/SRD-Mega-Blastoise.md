@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-blastoise-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-blastoise-mega.png
 Learnset: '[[SRD-Mega-Blastoise-Learnset]]'

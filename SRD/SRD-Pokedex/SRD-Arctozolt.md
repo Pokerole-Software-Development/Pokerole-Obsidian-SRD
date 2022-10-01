@@ -4,7 +4,7 @@ Ability2: Static
 BoxSprite: SRD-BoxSprite-arctozolt.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Slush Rush
 HomeSprite: SRD-HomeSprite-arctozolt.png
 Learnset: '[[SRD-Arctozolt-Learnset]]'

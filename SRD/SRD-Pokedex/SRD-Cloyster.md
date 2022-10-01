@@ -4,7 +4,7 @@ Ability2: Skill Link
 BoxSprite: SRD-BoxSprite-cloyster.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-cloyster.png
 Learnset: '[[SRD-Cloyster-Learnset]]'

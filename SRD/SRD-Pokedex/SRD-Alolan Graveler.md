@@ -4,7 +4,7 @@ Ability2: Sturdy
 BoxSprite: SRD-BoxSprite-graveler-alola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Galvanize
 HomeSprite: SRD-HomeSprite-graveler-alola.png
 Learnset: '[[SRD-Alolan Graveler-Learnset]]'

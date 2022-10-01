@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-grovyle.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unburden
 HomeSprite: SRD-HomeSprite-grovyle.png
 Learnset: '[[SRD-Grovyle-Learnset]]'

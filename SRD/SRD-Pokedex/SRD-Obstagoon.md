@@ -4,7 +4,7 @@ Ability2: Frisk
 BoxSprite: SRD-BoxSprite-obstagoon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-obstagoon.png
 Learnset: '[[SRD-Obstagoon-Learnset]]'

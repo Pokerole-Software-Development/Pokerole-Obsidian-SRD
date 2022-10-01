@@ -4,7 +4,7 @@ Ability2: Thick Fat
 BoxSprite: SRD-BoxSprite-munchlax.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Gluttony
 HomeSprite: SRD-HomeSprite-munchlax.png
 Learnset: '[[SRD-Munchlax-Learnset]]'

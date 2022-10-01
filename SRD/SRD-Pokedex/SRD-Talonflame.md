@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-talonflame.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Gale Wings
 HomeSprite: SRD-HomeSprite-talonflame.png
 Learnset: '[[SRD-Talonflame-Learnset]]'

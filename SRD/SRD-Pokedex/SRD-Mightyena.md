@@ -4,7 +4,7 @@ Ability2: Quick Feet
 BoxSprite: SRD-BoxSprite-mightyena.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Moxie
 HomeSprite: SRD-HomeSprite-mightyena.png
 Learnset: '[[SRD-Mightyena-Learnset]]'

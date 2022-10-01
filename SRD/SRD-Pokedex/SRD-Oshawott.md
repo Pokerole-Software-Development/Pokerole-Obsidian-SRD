@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-oshawott.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Shell Armor
 HomeSprite: SRD-HomeSprite-oshawott.png
 Learnset: '[[SRD-Oshawott-Learnset]]'

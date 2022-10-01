@@ -4,7 +4,7 @@ Ability2: Mold Breaker
 BoxSprite: SRD-BoxSprite-pancham.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Scrappy
 HomeSprite: SRD-HomeSprite-pancham.png
 Learnset: '[[SRD-Pancham-Learnset]]'

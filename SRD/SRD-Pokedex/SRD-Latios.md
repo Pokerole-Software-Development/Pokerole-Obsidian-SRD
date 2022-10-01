@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-latios.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-latios.png
 Learnset: '[[SRD-Latios-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-mudkip.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Damp
 HomeSprite: SRD-HomeSprite-mudkip.png
 Learnset: '[[SRD-Mudkip-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Gluttony
 BoxSprite: SRD-BoxSprite-linoone-galar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Quick Feet
 HomeSprite: SRD-HomeSprite-linoone-galar.png
 Learnset: '[[SRD-Galarian Linoone-Learnset]]'

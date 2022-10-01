@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-exploud.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Scrappy
 HomeSprite: SRD-HomeSprite-exploud.png
 Learnset: '[[SRD-Exploud-Learnset]]'

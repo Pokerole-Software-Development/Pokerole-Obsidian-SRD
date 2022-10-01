@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-aegislash.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-aegislash.png
 Learnset: '[[SRD-Form Aegislash-Learnset]]'

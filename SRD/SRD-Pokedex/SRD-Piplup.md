@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-piplup.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Defiant
 HomeSprite: SRD-HomeSprite-piplup.png
 Learnset: '[[SRD-Piplup-Learnset]]'

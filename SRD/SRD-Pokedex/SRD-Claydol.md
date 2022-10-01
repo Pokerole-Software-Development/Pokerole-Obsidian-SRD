@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-claydol.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-claydol.png
 Learnset: '[[SRD-Claydol-Learnset]]'

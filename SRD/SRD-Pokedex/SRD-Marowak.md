@@ -4,7 +4,7 @@ Ability2: Lightning Rod
 BoxSprite: SRD-BoxSprite-marowak.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Battle Armor
 HomeSprite: SRD-HomeSprite-marowak.png
 Learnset: '[[SRD-Marowak-Learnset]]'

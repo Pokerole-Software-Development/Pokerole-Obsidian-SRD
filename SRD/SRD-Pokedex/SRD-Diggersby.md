@@ -4,7 +4,7 @@ Ability2: Cheek Pouch
 BoxSprite: SRD-BoxSprite-diggersby.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Huge Power
 HomeSprite: SRD-HomeSprite-diggersby.png
 Learnset: '[[SRD-Diggersby-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-typhlosion.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Flash Fire
 HomeSprite: SRD-HomeSprite-typhlosion.png
 Learnset: '[[SRD-Typhlosion-Learnset]]'

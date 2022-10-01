@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-shelgon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-shelgon.png
 Learnset: '[[SRD-Shelgon-Learnset]]'

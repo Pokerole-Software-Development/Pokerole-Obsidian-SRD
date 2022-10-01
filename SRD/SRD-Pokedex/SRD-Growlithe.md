@@ -4,7 +4,7 @@ Ability2: Flash Fire
 BoxSprite: SRD-BoxSprite-growlithe.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Justified
 HomeSprite: SRD-HomeSprite-growlithe.png
 Learnset: '[[SRD-Growlithe-Learnset]]'

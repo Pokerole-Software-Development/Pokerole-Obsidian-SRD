@@ -4,7 +4,7 @@ Ability2: Flame Body
 BoxSprite: SRD-BoxSprite-carkol.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Flash Fire
 HomeSprite: SRD-HomeSprite-carkol.png
 Learnset: '[[SRD-Carkol-Learnset]]'

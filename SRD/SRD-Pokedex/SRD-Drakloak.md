@@ -4,7 +4,7 @@ Ability2: Infiltrator
 BoxSprite: SRD-BoxSprite-drakloak.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Cursed Body
 HomeSprite: SRD-HomeSprite-drakloak.png
 Learnset: '[[SRD-Drakloak-Learnset]]'

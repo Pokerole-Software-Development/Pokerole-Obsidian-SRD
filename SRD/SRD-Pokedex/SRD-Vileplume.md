@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-vileplume.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Effect Spore
 HomeSprite: SRD-HomeSprite-vileplume.png
 Learnset: '[[SRD-Vileplume-Learnset]]'

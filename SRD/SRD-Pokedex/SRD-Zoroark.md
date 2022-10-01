@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-zoroark.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-zoroark.png
 Learnset: '[[SRD-Zoroark-Learnset]]'

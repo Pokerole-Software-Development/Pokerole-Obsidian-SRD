@@ -4,7 +4,7 @@ Ability2: Cursed Body
 BoxSprite: SRD-BoxSprite-frillish.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Damp
 HomeSprite: SRD-HomeSprite-frillish.png
 Learnset: '[[SRD-Frillish-Learnset]]'

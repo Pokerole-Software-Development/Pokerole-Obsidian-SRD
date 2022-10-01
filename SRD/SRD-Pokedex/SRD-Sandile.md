@@ -4,7 +4,7 @@ Ability2: Moxie
 BoxSprite: SRD-BoxSprite-sandile.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Anger Point
 HomeSprite: SRD-HomeSprite-sandile.png
 Learnset: '[[SRD-Sandile-Learnset]]'

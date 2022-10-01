@@ -4,7 +4,7 @@ Ability2: Hustle
 BoxSprite: SRD-BoxSprite-raticate-alola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Thick Fat
 HomeSprite: SRD-HomeSprite-raticate-alola.png
 Learnset: '[[SRD-Alolan Raticate-Learnset]]'

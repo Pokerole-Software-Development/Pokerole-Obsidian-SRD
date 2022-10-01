@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-shedinja.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-shedinja.png
 Learnset: '[[SRD-Shedinja-Learnset]]'

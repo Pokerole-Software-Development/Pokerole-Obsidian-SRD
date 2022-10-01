@@ -4,7 +4,7 @@ Ability2: Rock Head
 BoxSprite: SRD-BoxSprite-lairon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Heavy Metal
 HomeSprite: SRD-HomeSprite-lairon.png
 Learnset: '[[SRD-Lairon-Learnset]]'

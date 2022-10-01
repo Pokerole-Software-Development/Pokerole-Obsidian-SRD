@@ -4,7 +4,7 @@ Ability2: Static
 BoxSprite: SRD-BoxSprite-voltorb.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Aftermath
 HomeSprite: SRD-HomeSprite-voltorb.png
 Learnset: '[[SRD-Voltorb-Learnset]]'

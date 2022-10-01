@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-stonjourner.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-stonjourner.png
 Learnset: '[[SRD-Stonjourner-Learnset]]'

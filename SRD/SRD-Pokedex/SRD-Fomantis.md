@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-fomantis.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Contrary
 HomeSprite: SRD-HomeSprite-fomantis.png
 Learnset: '[[SRD-Fomantis-Learnset]]'

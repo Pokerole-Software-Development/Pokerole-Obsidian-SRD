@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-tapu-koko.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-tapu-koko.png
 Learnset: '[[SRD-Tapu Koko-Learnset]]'

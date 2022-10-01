@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-registeel.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Light Metal
 HomeSprite: SRD-HomeSprite-registeel.png
 Learnset: '[[SRD-Registeel-Learnset]]'

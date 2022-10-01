@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-medicham.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-medicham.png
 Learnset: '[[SRD-Medicham-Learnset]]'

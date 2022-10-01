@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-naganadel.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-naganadel.png
 Learnset: '[[SRD-Naganadel-Learnset]]'

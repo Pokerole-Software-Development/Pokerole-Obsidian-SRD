@@ -4,7 +4,7 @@ Ability2: Inner Focus
 BoxSprite: SRD-BoxSprite-throh.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-HomeSprite-throh.png
 Learnset: '[[SRD-Throh-Learnset]]'

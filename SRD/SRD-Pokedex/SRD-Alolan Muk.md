@@ -4,7 +4,7 @@ Ability2: Gluttony
 BoxSprite: SRD-BoxSprite-muk-alola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Power of Alchemy
 HomeSprite: SRD-HomeSprite-muk-alola.png
 Learnset: '[[SRD-Alolan Muk-Learnset]]'

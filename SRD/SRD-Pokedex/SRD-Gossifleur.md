@@ -4,7 +4,7 @@ Ability2: Regenerator
 BoxSprite: SRD-BoxSprite-gossifleur.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Effect Spore
 HomeSprite: SRD-HomeSprite-gossifleur.png
 Learnset: '[[SRD-Gossifleur-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Pickup
 BoxSprite: SRD-BoxSprite-dedenne.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Plus
 HomeSprite: SRD-HomeSprite-dedenne.png
 Learnset: '[[SRD-Dedenne-Learnset]]'

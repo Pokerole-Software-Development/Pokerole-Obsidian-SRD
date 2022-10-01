@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-cyndaquil.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Flash Fire
 HomeSprite: SRD-HomeSprite-cyndaquil.png
 Learnset: '[[SRD-Cyndaquil-Learnset]]'

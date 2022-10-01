@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-vulpix.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Drought
 HomeSprite: SRD-HomeSprite-vulpix.png
 Learnset: '[[SRD-Vulpix-Learnset]]'

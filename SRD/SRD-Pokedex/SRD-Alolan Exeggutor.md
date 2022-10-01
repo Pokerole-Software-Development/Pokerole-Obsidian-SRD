@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-exeggutor-alola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Harvest
 HomeSprite: SRD-HomeSprite-exeggutor-alola.png
 Learnset: '[[SRD-Alolan Exeggutor-Learnset]]'

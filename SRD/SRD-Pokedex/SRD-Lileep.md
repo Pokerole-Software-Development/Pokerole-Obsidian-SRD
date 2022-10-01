@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-lileep.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Storm Drain
 HomeSprite: SRD-HomeSprite-lileep.png
 Learnset: '[[SRD-Lileep-Learnset]]'

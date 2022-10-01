@@ -4,7 +4,7 @@ Ability2: Strong Jaw
 BoxSprite: SRD-BoxSprite-yungoos.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Adaptability
 HomeSprite: SRD-HomeSprite-yungoos.png
 Learnset: '[[SRD-Yungoos-Learnset]]'

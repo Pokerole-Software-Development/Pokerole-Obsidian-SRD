@@ -4,7 +4,7 @@ Ability2: Dry Skin
 BoxSprite: SRD-BoxSprite-croagunk.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Poison Touch
 HomeSprite: SRD-HomeSprite-croagunk.png
 Learnset: '[[SRD-Croagunk-Learnset]]'

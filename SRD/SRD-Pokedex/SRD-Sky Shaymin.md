@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-shaymin-sky.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-shaymin-sky.png
 Learnset: '[[SRD-Sky Shaymin-Learnset]]'

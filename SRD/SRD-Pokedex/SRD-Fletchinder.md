@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-fletchinder.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Gale Wings
 HomeSprite: SRD-HomeSprite-fletchinder.png
 Learnset: '[[SRD-Fletchinder-Learnset]]'

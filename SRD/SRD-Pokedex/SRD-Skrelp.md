@@ -4,7 +4,7 @@ Ability2: Poison Touch
 BoxSprite: SRD-BoxSprite-skrelp.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Adaptability
 HomeSprite: SRD-HomeSprite-skrelp.png
 Learnset: '[[SRD-Skrelp-Learnset]]'

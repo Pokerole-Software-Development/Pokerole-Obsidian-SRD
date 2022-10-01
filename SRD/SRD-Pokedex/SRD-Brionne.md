@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-brionne.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Liquid Voice
 HomeSprite: SRD-HomeSprite-brionne.png
 Learnset: '[[SRD-Brionne-Learnset]]'

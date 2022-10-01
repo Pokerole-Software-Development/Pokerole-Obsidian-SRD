@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-sirfetchd.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Scrappy
 HomeSprite: SRD-HomeSprite-sirfetchd.png
 Learnset: '[[SRD-Sirfetch''d-Learnset]]'

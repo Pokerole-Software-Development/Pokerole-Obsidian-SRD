@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-turtwig.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Shell Armor
 HomeSprite: SRD-HomeSprite-turtwig.png
 Learnset: '[[SRD-Turtwig-Learnset]]'

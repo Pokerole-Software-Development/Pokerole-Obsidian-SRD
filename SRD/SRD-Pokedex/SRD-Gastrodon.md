@@ -4,7 +4,7 @@ Ability2: Storm Drain
 BoxSprite: SRD-BoxSprite-gastrodon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-gastrodon.png
 Learnset: '[[SRD-Gastrodon-Learnset]]'

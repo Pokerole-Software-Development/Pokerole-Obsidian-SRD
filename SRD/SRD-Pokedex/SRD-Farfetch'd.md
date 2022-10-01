@@ -4,7 +4,7 @@ Ability2: Inner Focus
 BoxSprite: SRD-BoxSprite-farfetchd.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Defiant
 HomeSprite: SRD-HomeSprite-farfetchd.png
 Learnset: '[[SRD-Farfetch''d-Learnset]]'

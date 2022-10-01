@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-clamperl.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-clamperl.png
 Learnset: '[[SRD-Clamperl-Learnset]]'

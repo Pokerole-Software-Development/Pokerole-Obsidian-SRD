@@ -4,7 +4,7 @@ Ability2: Arena Trap
 BoxSprite: SRD-BoxSprite-dugtrio.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-dugtrio.png
 Learnset: '[[SRD-Dugtrio-Learnset]]'

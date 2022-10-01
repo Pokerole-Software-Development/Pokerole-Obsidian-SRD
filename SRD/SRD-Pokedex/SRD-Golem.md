@@ -4,7 +4,7 @@ Ability2: Sturdy
 BoxSprite: SRD-BoxSprite-golem.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-golem.png
 Learnset: '[[SRD-Golem-Learnset]]'

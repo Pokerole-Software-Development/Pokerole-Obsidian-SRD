@@ -4,7 +4,7 @@ Ability2: Solid Rock
 BoxSprite: SRD-BoxSprite-camerupt.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Anger Point
 HomeSprite: SRD-HomeSprite-camerupt.png
 Learnset: '[[SRD-Camerupt-Learnset]]'

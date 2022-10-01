@@ -4,7 +4,7 @@ Ability2: Poison Touch
 BoxSprite: SRD-BoxSprite-dragalge.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Adaptability
 HomeSprite: SRD-HomeSprite-dragalge.png
 Learnset: '[[SRD-Dragalge-Learnset]]'

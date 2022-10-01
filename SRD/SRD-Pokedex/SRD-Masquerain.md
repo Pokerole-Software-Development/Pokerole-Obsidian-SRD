@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-masquerain.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-masquerain.png
 Learnset: '[[SRD-Masquerain-Learnset]]'

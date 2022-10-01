@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-minior-green.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-minior-green.png
 Learnset: '[[SRD-Minior Core-Learnset]]'

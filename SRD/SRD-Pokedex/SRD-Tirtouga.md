@@ -4,7 +4,7 @@ Ability2: Sturdy
 BoxSprite: SRD-BoxSprite-tirtouga.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Swift Swim
 HomeSprite: SRD-HomeSprite-tirtouga.png
 Learnset: '[[SRD-Tirtouga-Learnset]]'

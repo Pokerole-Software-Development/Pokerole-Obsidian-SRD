@@ -4,7 +4,7 @@ Ability2: Shell Armor
 BoxSprite: SRD-BoxSprite-corphish.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Adaptability
 HomeSprite: SRD-HomeSprite-corphish.png
 Learnset: '[[SRD-Corphish-Learnset]]'

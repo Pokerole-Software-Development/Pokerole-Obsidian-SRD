@@ -4,7 +4,7 @@ Ability2: Pickup
 BoxSprite: SRD-BoxSprite-pachirisu.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Volt Absorb
 HomeSprite: SRD-HomeSprite-pachirisu.png
 Learnset: '[[SRD-Pachirisu-Learnset]]'

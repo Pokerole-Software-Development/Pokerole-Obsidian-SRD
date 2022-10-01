@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-abomasnow-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-abomasnow-mega.png
 Learnset: '[[SRD-Mega-Abomasnow-Learnset]]'

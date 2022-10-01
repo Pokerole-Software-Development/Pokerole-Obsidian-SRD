@@ -4,7 +4,7 @@ Ability2: Static
 BoxSprite: SRD-BoxSprite-electrode.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Aftermath
 HomeSprite: SRD-HomeSprite-electrode.png
 Learnset: '[[SRD-Electrode-Learnset]]'

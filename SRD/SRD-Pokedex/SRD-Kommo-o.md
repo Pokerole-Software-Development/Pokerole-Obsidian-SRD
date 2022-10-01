@@ -4,7 +4,7 @@ Ability2: Soundproof
 BoxSprite: SRD-BoxSprite-kommo-o.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-kommo-o.png
 Learnset: '[[SRD-Kommo-o-Learnset]]'

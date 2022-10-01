@@ -4,7 +4,7 @@ Ability2: Frisk
 BoxSprite: SRD-BoxSprite-trevenant.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Harvest
 HomeSprite: SRD-HomeSprite-trevenant.png
 Learnset: '[[SRD-Trevenant-Learnset]]'

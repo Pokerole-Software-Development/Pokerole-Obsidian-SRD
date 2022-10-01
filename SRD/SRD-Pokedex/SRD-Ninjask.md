@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-ninjask.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-ninjask.png
 Learnset: '[[SRD-Ninjask-Learnset]]'

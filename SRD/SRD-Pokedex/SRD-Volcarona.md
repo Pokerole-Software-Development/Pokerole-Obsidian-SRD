@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-volcarona.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Swarm
 HomeSprite: SRD-HomeSprite-volcarona.png
 Learnset: '[[SRD-Volcarona-Learnset]]'

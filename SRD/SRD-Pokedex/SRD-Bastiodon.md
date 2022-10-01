@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-bastiodon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Soundproof
 HomeSprite: SRD-HomeSprite-bastiodon.png
 Learnset: '[[SRD-Bastiodon-Learnset]]'

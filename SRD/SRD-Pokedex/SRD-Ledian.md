@@ -4,7 +4,7 @@ Ability2: Early Bird
 BoxSprite: SRD-BoxSprite-ledian.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Iron Fist
 HomeSprite: SRD-HomeSprite-ledian.png
 Learnset: '[[SRD-Ledian-Learnset]]'

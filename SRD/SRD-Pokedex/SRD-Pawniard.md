@@ -4,7 +4,7 @@ Ability2: Inner Focus
 BoxSprite: SRD-BoxSprite-pawniard.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Pressure
 HomeSprite: SRD-HomeSprite-pawniard.png
 Learnset: '[[SRD-Pawniard-Learnset]]'

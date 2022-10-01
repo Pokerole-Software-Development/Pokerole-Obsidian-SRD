@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-meltan.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-meltan.png
 Learnset: '[[SRD-Meltan-Learnset]]'

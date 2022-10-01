@@ -4,7 +4,7 @@ Ability2: Quick Feet
 BoxSprite: SRD-BoxSprite-granbull.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-granbull.png
 Learnset: '[[SRD-Granbull-Learnset]]'

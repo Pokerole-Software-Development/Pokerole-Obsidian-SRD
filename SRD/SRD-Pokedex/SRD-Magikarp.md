@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-magikarp.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-magikarp.png
 Learnset: '[[SRD-Magikarp-Learnset]]'

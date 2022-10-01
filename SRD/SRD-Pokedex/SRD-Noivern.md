@@ -4,7 +4,7 @@ Ability2: Infiltrator
 BoxSprite: SRD-BoxSprite-noivern.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-noivern.png
 Learnset: '[[SRD-Noivern-Learnset]]'

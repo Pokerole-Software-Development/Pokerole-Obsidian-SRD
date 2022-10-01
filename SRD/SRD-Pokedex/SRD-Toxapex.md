@@ -4,7 +4,7 @@ Ability2: Limber
 BoxSprite: SRD-BoxSprite-toxapex.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-toxapex.png
 Learnset: '[[SRD-Toxapex-Learnset]]'

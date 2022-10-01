@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-charmeleon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Solar Power
 HomeSprite: SRD-HomeSprite-charmeleon.png
 Learnset: '[[SRD-Charmeleon-Learnset]]'

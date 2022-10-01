@@ -4,7 +4,7 @@ Ability2: Rain Dish
 BoxSprite: SRD-BoxSprite-ludicolo.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Own Tempo
 HomeSprite: SRD-HomeSprite-ludicolo.png
 Learnset: '[[SRD-Ludicolo-Learnset]]'

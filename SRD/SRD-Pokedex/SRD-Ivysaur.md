@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-ivysaur.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-HomeSprite-ivysaur.png
 Learnset: '[[SRD-Ivysaur-Learnset]]'

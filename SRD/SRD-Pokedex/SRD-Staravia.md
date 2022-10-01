@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-staravia.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Reckless
 HomeSprite: SRD-HomeSprite-staravia.png
 Learnset: '[[SRD-Staravia-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Regenerator
 BoxSprite: SRD-BoxSprite-audino.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Klutz
 HomeSprite: SRD-HomeSprite-audino.png
 Learnset: '[[SRD-Audino-Learnset]]'

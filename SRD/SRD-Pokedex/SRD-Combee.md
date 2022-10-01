@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-combee.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Hustle
 HomeSprite: SRD-HomeSprite-combee.png
 Learnset: '[[SRD-Combee-Learnset]]'

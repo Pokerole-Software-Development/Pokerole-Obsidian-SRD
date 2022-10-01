@@ -1,7 +1,7 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
-Damage1: Strength
+Damage1: Special
 Damage2: ''
 Description: The Pokemon creates a small electricity orb that is hurled at the target.
   If the user is faster, the impact will be bigger.

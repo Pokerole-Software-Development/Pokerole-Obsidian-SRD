@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-ninetales.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Drought
 HomeSprite: SRD-HomeSprite-ninetales.png
 Learnset: '[[SRD-Ninetales-Learnset]]'

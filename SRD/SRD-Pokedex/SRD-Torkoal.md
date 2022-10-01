@@ -4,7 +4,7 @@ Ability2: Drought
 BoxSprite: SRD-BoxSprite-torkoal.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Shell Armor
 HomeSprite: SRD-HomeSprite-torkoal.png
 Learnset: '[[SRD-Torkoal-Learnset]]'

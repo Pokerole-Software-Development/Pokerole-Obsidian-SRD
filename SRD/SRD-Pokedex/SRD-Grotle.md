@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-grotle.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Shell Armor
 HomeSprite: SRD-HomeSprite-grotle.png
 Learnset: '[[SRD-Grotle-Learnset]]'

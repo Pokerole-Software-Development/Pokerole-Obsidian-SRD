@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-froslass.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Cursed Body
 HomeSprite: SRD-HomeSprite-froslass.png
 Learnset: '[[SRD-Froslass-Learnset]]'

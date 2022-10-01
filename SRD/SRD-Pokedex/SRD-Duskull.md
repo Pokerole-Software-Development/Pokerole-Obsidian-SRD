@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-duskull.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Frisk
 HomeSprite: SRD-HomeSprite-duskull.png
 Learnset: '[[SRD-Duskull-Learnset]]'

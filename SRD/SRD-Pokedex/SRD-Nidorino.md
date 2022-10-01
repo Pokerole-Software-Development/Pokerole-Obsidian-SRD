@@ -4,7 +4,7 @@ Ability2: Rivalry
 BoxSprite: SRD-BoxSprite-nidorino.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Hustle
 HomeSprite: SRD-HomeSprite-nidorino.png
 Learnset: '[[SRD-Nidorino-Learnset]]'

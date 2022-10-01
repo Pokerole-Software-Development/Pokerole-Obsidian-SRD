@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-totodile.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-totodile.png
 Learnset: '[[SRD-Totodile-Learnset]]'

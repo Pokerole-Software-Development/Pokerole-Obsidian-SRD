@@ -4,7 +4,7 @@ Ability2: Trace
 BoxSprite: SRD-BoxSprite-ralts.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-ralts.png
 Learnset: '[[SRD-Ralts-Learnset]]'

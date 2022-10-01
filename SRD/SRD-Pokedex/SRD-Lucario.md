@@ -4,7 +4,7 @@ Ability2: Inner Focus
 BoxSprite: SRD-BoxSprite-lucario.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Justified
 HomeSprite: SRD-HomeSprite-lucario.png
 Learnset: '[[SRD-Lucario-Learnset]]'

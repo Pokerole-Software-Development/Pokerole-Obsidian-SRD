@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-cufant.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Heavy Metal
 HomeSprite: SRD-HomeSprite-cufant.png
 Learnset: '[[SRD-Cufant-Learnset]]'

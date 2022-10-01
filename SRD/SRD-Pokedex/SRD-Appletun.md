@@ -4,7 +4,7 @@ Ability2: Gluttony
 BoxSprite: SRD-BoxSprite-appletun.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Thick Fat
 HomeSprite: SRD-HomeSprite-appletun.png
 Learnset: '[[SRD-Appletun-Learnset]]'

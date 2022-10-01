@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-braixen.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Magician
 HomeSprite: SRD-HomeSprite-braixen.png
 Learnset: '[[SRD-Braixen-Learnset]]'

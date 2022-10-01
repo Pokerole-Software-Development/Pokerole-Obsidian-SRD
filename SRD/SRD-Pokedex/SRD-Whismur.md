@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-whismur.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-whismur.png
 Learnset: '[[SRD-Whismur-Learnset]]'

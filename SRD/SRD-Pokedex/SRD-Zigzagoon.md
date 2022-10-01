@@ -4,7 +4,7 @@ Ability2: Gluttony
 BoxSprite: SRD-BoxSprite-zigzagoon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Quick Feet
 HomeSprite: SRD-HomeSprite-zigzagoon.png
 Learnset: '[[SRD-Zigzagoon-Learnset]]'

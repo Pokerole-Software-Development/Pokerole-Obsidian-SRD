@@ -4,7 +4,7 @@ Ability2: Shell Armor
 BoxSprite: SRD-BoxSprite-drednaw.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Swift Swim
 HomeSprite: SRD-HomeSprite-drednaw.png
 Learnset: '[[SRD-Drednaw-Learnset]]'

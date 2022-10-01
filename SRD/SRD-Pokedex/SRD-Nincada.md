@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-nincada.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Run Away
 HomeSprite: SRD-HomeSprite-nincada.png
 Learnset: '[[SRD-Nincada-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Screen Cleaner
 BoxSprite: SRD-BoxSprite-mr-mime-galar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Ice Body
 HomeSprite: SRD-HomeSprite-mr-mime-galar.png
 Learnset: '[[SRD-Galarian Mr. Mime-Learnset]]'

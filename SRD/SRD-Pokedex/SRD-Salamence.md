@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-salamence.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Moxie
 HomeSprite: SRD-HomeSprite-salamence.png
 Learnset: '[[SRD-Salamence-Learnset]]'

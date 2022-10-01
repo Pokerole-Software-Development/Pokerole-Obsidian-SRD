@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-honedge.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-honedge.png
 Learnset: '[[SRD-Honedge-Learnset]]'

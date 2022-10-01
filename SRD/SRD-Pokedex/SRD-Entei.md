@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-entei.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Inner Focus
 HomeSprite: SRD-HomeSprite-entei.png
 Learnset: '[[SRD-Entei-Learnset]]'

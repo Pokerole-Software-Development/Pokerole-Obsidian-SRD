@@ -4,7 +4,7 @@ Ability2: Neutralizing Gas
 BoxSprite: SRD-BoxSprite-weezing.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Stench
 HomeSprite: SRD-HomeSprite-weezing.png
 Learnset: '[[SRD-Weezing-Learnset]]'

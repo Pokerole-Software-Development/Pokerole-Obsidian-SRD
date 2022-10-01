@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-chikorita.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-HomeSprite-chikorita.png
 Learnset: '[[SRD-Chikorita-Learnset]]'

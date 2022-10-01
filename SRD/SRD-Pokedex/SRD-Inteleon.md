@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-inteleon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sniper
 HomeSprite: SRD-HomeSprite-inteleon.png
 Learnset: '[[SRD-Inteleon-Learnset]]'

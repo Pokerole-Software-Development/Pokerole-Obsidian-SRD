@@ -4,7 +4,7 @@ Ability2: Frisk
 BoxSprite: SRD-BoxSprite-orbeetle.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-orbeetle.png
 Learnset: '[[SRD-Orbeetle-Learnset]]'

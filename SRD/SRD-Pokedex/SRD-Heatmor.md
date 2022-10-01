@@ -4,7 +4,7 @@ Ability2: Flash Fire
 BoxSprite: SRD-BoxSprite-heatmor.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: White Smoke
 HomeSprite: SRD-HomeSprite-heatmor.png
 Learnset: '[[SRD-Heatmor-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Heavy Metal
 BoxSprite: SRD-BoxSprite-duraludon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Stalwart
 HomeSprite: SRD-HomeSprite-duraludon.png
 Learnset: '[[SRD-Duraludon-Learnset]]'

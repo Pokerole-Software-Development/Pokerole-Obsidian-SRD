@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-kangaskhan-mega.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-kangaskhan-mega.png
 Learnset: '[[SRD-Mega-Kangaskhan-Learnset]]'

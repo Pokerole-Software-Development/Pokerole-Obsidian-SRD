@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-raboot.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Libero
 HomeSprite: SRD-HomeSprite-raboot.png
 Learnset: '[[SRD-Raboot-Learnset]]'

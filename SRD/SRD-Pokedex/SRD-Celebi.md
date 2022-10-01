@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-celebi.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-celebi.png
 Learnset: '[[SRD-Celebi-Learnset]]'

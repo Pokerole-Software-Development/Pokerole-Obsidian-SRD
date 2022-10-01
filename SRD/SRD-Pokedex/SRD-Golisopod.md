@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-golisopod.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-golisopod.png
 Learnset: '[[SRD-Golisopod-Learnset]]'

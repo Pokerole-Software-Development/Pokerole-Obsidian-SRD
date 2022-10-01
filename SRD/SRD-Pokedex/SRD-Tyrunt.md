@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-tyrunt.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sturdy
 HomeSprite: SRD-HomeSprite-tyrunt.png
 Learnset: '[[SRD-Tyrunt-Learnset]]'

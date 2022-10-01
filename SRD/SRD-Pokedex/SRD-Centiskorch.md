@@ -4,7 +4,7 @@ Ability2: White Smoke
 BoxSprite: SRD-BoxSprite-centiskorch.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Flame Body
 HomeSprite: SRD-HomeSprite-centiskorch.png
 Learnset: '[[SRD-Centiskorch-Learnset]]'

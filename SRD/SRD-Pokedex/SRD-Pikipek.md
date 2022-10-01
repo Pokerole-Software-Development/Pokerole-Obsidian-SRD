@@ -4,7 +4,7 @@ Ability2: Skill Link
 BoxSprite: SRD-BoxSprite-pikipek.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Pickup
 HomeSprite: SRD-HomeSprite-pikipek.png
 Learnset: '[[SRD-Pikipek-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-oddish.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Run Away
 HomeSprite: SRD-HomeSprite-oddish.png
 Learnset: '[[SRD-Oddish-Learnset]]'

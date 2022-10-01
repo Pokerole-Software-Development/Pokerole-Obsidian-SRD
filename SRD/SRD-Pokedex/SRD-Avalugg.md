@@ -4,7 +4,7 @@ Ability2: Ice Body
 BoxSprite: SRD-BoxSprite-avalugg.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sturdy
 HomeSprite: SRD-HomeSprite-avalugg.png
 Learnset: '[[SRD-Avalugg-Learnset]]'

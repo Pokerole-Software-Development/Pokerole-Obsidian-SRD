@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-panpour.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Torrent
 HomeSprite: SRD-HomeSprite-panpour.png
 Learnset: '[[SRD-Panpour-Learnset]]'

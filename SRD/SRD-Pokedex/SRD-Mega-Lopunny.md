@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-lopunny-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-lopunny-mega.png
 Learnset: '[[SRD-Mega-Lopunny-Learnset]]'

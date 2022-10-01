@@ -4,7 +4,7 @@ Ability2: Synchronize
 BoxSprite: SRD-BoxSprite-indeedee.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Psychic Surge
 HomeSprite: SRD-HomeSprite-indeedee.png
 Learnset: '[[SRD-Indeedee-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-combusken.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Speed Boost
 HomeSprite: SRD-HomeSprite-combusken.png
 Learnset: '[[SRD-Combusken-Learnset]]'

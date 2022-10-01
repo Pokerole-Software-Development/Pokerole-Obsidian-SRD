@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-arceus.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-arceus.png
 Learnset: '[[SRD-Arceus-Learnset]]'

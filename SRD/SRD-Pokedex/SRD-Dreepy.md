@@ -4,7 +4,7 @@ Ability2: Infiltrator
 BoxSprite: SRD-BoxSprite-dreepy.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Cursed Body
 HomeSprite: SRD-HomeSprite-dreepy.png
 Learnset: '[[SRD-Dreepy-Learnset]]'

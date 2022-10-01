@@ -4,7 +4,7 @@ Ability2: Regenerator
 BoxSprite: SRD-BoxSprite-eldegoss.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Effect Spore
 HomeSprite: SRD-HomeSprite-eldegoss.png
 Learnset: '[[SRD-Eldegoss-Learnset]]'

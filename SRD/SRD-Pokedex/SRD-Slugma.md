@@ -4,7 +4,7 @@ Ability2: Flame Body
 BoxSprite: SRD-BoxSprite-slugma.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Weak Armor
 HomeSprite: SRD-HomeSprite-slugma.png
 Learnset: '[[SRD-Slugma-Learnset]]'

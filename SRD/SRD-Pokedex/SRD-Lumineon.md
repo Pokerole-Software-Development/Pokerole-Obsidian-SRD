@@ -4,7 +4,7 @@ Ability2: Storm Drain
 BoxSprite: SRD-BoxSprite-lumineon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Water Veil
 HomeSprite: SRD-HomeSprite-lumineon.png
 Learnset: '[[SRD-Lumineon-Learnset]]'

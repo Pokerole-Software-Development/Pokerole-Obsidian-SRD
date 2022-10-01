@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-zacian.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-zacian.png
 Learnset: '[[SRD-Form Zacian-Learnset]]'

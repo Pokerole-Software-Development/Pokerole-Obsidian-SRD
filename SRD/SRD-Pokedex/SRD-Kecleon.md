@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-kecleon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Protean
 HomeSprite: SRD-HomeSprite-kecleon.png
 Learnset: '[[SRD-Kecleon-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Rock Head
 BoxSprite: SRD-BoxSprite-aggron.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Heavy Metal
 HomeSprite: SRD-HomeSprite-aggron.png
 Learnset: '[[SRD-Aggron-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Snow Cloak
 BoxSprite: SRD-BoxSprite-swinub.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Thick Fat
 HomeSprite: SRD-HomeSprite-swinub.png
 Learnset: '[[SRD-Swinub-Learnset]]'

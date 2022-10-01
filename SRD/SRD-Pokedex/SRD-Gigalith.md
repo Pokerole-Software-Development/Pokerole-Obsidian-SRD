@@ -4,7 +4,7 @@ Ability2: Sand Stream
 BoxSprite: SRD-BoxSprite-gigalith.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-gigalith.png
 Learnset: '[[SRD-Gigalith-Learnset]]'

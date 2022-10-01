@@ -4,7 +4,7 @@ Ability2: Technician
 BoxSprite: SRD-BoxSprite-cinccino.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Skill Link
 HomeSprite: SRD-HomeSprite-cinccino.png
 Learnset: '[[SRD-Cinccino-Learnset]]'

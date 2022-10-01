@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-alcremie.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Aroma Veil
 HomeSprite: SRD-HomeSprite-alcremie.png
 Learnset: '[[SRD-Alcremie-Learnset]]'

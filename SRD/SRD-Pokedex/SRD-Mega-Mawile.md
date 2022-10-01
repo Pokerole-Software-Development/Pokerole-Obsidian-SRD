@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-mawile-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-mawile-mega.png
 Learnset: '[[SRD-Mega-Mawile-Learnset]]'

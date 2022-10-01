@@ -4,7 +4,7 @@ Ability2: Unnerve
 BoxSprite: SRD-BoxSprite-pyroar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Moxie
 HomeSprite: SRD-HomeSprite-pyroar.png
 Learnset: '[[SRD-Pyroar-Learnset]]'

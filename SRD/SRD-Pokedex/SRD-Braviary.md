@@ -4,7 +4,7 @@ Ability2: Sheer Force
 BoxSprite: SRD-BoxSprite-braviary.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Defiant
 HomeSprite: SRD-HomeSprite-braviary.png
 Learnset: '[[SRD-Braviary-Learnset]]'

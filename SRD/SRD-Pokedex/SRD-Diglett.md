@@ -4,7 +4,7 @@ Ability2: Arena Trap
 BoxSprite: SRD-BoxSprite-diglett.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-diglett.png
 Learnset: '[[SRD-Diglett-Learnset]]'

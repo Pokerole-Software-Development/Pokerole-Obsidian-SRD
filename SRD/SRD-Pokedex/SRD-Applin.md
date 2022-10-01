@@ -4,7 +4,7 @@ Ability2: Gluttony
 BoxSprite: SRD-BoxSprite-applin.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Bulletproof
 HomeSprite: SRD-HomeSprite-applin.png
 Learnset: '[[SRD-Applin-Learnset]]'

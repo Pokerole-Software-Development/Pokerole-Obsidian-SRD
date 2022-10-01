@@ -4,7 +4,7 @@ Ability2: Sand Veil
 BoxSprite: SRD-BoxSprite-gligar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Immunity
 HomeSprite: SRD-HomeSprite-gligar.png
 Learnset: '[[SRD-Gligar-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Technician
 BoxSprite: SRD-BoxSprite-meowth.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-meowth.png
 Learnset: '[[SRD-Meowth-Learnset]]'

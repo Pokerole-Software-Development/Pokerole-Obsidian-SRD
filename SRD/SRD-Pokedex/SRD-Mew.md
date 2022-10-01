@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-mew.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-mew.png
 Learnset: '[[SRD-Mew-Learnset]]'

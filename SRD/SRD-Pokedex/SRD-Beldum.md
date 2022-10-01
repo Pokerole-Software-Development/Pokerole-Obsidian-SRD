@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-beldum.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Light Metal
 HomeSprite: SRD-HomeSprite-beldum.png
 Learnset: '[[SRD-Beldum-Learnset]]'

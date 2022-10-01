@@ -4,7 +4,7 @@ Ability2: Forewarn
 BoxSprite: SRD-BoxSprite-hypno.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Inner Focus
 HomeSprite: SRD-HomeSprite-hypno.png
 Learnset: '[[SRD-Hypno-Learnset]]'

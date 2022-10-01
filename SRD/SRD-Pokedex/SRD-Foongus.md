@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-foongus.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-foongus.png
 Learnset: '[[SRD-Foongus-Learnset]]'

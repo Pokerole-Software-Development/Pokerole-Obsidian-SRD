@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-raichu.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-HomeSprite-raichu.png
 Learnset: '[[SRD-Raichu-Learnset]]'

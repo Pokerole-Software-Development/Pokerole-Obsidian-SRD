@@ -4,7 +4,7 @@ Ability2: Unnerve
 BoxSprite: SRD-BoxSprite-corviknight.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Mirror Armor
 HomeSprite: SRD-HomeSprite-corviknight.png
 Learnset: '[[SRD-Corviknight-Learnset]]'

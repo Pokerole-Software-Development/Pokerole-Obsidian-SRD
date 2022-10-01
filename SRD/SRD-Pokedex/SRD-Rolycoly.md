@@ -4,7 +4,7 @@ Ability2: Heatproof
 BoxSprite: SRD-BoxSprite-rolycoly.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Flash Fire
 HomeSprite: SRD-HomeSprite-rolycoly.png
 Learnset: '[[SRD-Rolycoly-Learnset]]'

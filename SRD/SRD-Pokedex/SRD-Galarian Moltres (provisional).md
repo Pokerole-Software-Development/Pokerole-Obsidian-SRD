@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-moltres-galar.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-moltres-galar.png
 Learnset: '[[SRD-Galarian Moltres (provisional)-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-yamask.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-yamask.png
 Learnset: '[[SRD-Yamask-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Super Luck
 BoxSprite: SRD-BoxSprite-unfezant.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rivalry
 HomeSprite: SRD-HomeSprite-unfezant.png
 Learnset: '[[SRD-Unfezant-Learnset]]'

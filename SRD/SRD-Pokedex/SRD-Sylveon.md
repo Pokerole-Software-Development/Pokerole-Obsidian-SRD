@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-sylveon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Pixilate
 HomeSprite: SRD-HomeSprite-sylveon.png
 Learnset: '[[SRD-Sylveon-Learnset]]'

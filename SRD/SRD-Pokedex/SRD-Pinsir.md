@@ -4,7 +4,7 @@ Ability2: Mold Breaker
 BoxSprite: SRD-BoxSprite-pinsir.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Moxie
 HomeSprite: SRD-HomeSprite-pinsir.png
 Learnset: '[[SRD-Pinsir-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-cascoon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-cascoon.png
 Learnset: '[[SRD-Cascoon-Learnset]]'

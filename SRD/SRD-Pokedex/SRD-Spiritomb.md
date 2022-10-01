@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-spiritomb.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-spiritomb.png
 Learnset: '[[SRD-Spiritomb-Learnset]]'

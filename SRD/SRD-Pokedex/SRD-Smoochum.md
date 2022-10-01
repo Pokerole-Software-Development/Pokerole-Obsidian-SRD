@@ -4,7 +4,7 @@ Ability2: Forewarn
 BoxSprite: SRD-BoxSprite-smoochum.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Hydration
 HomeSprite: SRD-HomeSprite-smoochum.png
 Learnset: '[[SRD-Smoochum-Learnset]]'

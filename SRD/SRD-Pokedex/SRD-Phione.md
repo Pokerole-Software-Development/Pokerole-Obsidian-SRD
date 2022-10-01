@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-phione.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-phione.png
 Learnset: '[[SRD-Phione-Learnset]]'

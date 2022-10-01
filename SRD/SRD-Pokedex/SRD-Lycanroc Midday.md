@@ -4,7 +4,7 @@ Ability2: Sand Rush
 BoxSprite: SRD-BoxSprite-lycanroc-midnight.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Steadfast
 HomeSprite: SRD-HomeSprite-lycanroc-midnight.png
 Learnset: '[[SRD-Lycanroc Midday-Learnset]]'

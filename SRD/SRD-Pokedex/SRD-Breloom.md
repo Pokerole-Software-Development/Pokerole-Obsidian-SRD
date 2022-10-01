@@ -4,7 +4,7 @@ Ability2: Poison Heal
 BoxSprite: SRD-BoxSprite-breloom.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Technician
 HomeSprite: SRD-HomeSprite-breloom.png
 Learnset: '[[SRD-Breloom-Learnset]]'

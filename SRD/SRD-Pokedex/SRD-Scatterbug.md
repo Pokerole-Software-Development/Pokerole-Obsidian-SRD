@@ -4,7 +4,7 @@ Ability2: Compound Eyes
 BoxSprite: SRD-BoxSprite-scatterbug.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Friend Guard
 HomeSprite: SRD-HomeSprite-scatterbug.png
 Learnset: '[[SRD-Scatterbug-Learnset]]'

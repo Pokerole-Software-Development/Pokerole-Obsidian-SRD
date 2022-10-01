@@ -4,7 +4,7 @@ Ability2: Natural Cure
 BoxSprite: SRD-BoxSprite-starmie.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Analytic
 HomeSprite: SRD-HomeSprite-starmie.png
 Learnset: '[[SRD-Starmie-Learnset]]'

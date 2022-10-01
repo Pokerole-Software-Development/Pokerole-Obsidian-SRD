@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-fennekin.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Magician
 HomeSprite: SRD-HomeSprite-fennekin.png
 Learnset: '[[SRD-Fennekin-Learnset]]'

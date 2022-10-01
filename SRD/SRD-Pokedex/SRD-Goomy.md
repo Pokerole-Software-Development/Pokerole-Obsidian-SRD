@@ -4,7 +4,7 @@ Ability2: Hydration
 BoxSprite: SRD-BoxSprite-goomy.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Gooey
 HomeSprite: SRD-HomeSprite-goomy.png
 Learnset: '[[SRD-Goomy-Learnset]]'

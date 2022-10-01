@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-castform.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-castform.png
 Learnset: '[[SRD-Castform-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-turtonator.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-turtonator.png
 Learnset: '[[SRD-Turtonator-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-lurantis.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Contrary
 HomeSprite: SRD-HomeSprite-lurantis.png
 Learnset: '[[SRD-Lurantis-Learnset]]'

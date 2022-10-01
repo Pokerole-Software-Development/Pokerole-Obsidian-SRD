@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-vaporeon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Hydration
 HomeSprite: SRD-HomeSprite-vaporeon.png
 Learnset: '[[SRD-Vaporeon-Learnset]]'

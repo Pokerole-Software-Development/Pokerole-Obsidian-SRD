@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-blastoise.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Rain Dish
 HomeSprite: SRD-HomeSprite-blastoise.png
 Learnset: '[[SRD-Blastoise-Learnset]]'

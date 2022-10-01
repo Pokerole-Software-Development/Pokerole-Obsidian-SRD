@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-wartortle.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rain Dish
 HomeSprite: SRD-HomeSprite-wartortle.png
 Learnset: '[[SRD-Wartortle-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Klutz
 BoxSprite: SRD-BoxSprite-lopunny.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Limber
 HomeSprite: SRD-HomeSprite-lopunny.png
 Learnset: '[[SRD-Lopunny-Learnset]]'

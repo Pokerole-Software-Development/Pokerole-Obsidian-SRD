@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-tyranitar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-tyranitar.png
 Learnset: '[[SRD-Tyranitar-Learnset]]'

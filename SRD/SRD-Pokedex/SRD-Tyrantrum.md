@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-tyrantrum.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rock Head
 HomeSprite: SRD-HomeSprite-tyrantrum.png
 Learnset: '[[SRD-Tyrantrum-Learnset]]'

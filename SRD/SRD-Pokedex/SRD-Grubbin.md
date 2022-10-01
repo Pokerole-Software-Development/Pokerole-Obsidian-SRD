@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-grubbin.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-grubbin.png
 Learnset: '[[SRD-Grubbin-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-manaphy.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-manaphy.png
 Learnset: '[[SRD-Manaphy-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Water Veil
 BoxSprite: SRD-BoxSprite-goldeen.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-HomeSprite-goldeen.png
 Learnset: '[[SRD-Goldeen-Learnset]]'

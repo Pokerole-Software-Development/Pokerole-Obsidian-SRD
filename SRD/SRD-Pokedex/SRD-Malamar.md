@@ -4,7 +4,7 @@ Ability2: Suction Cups
 BoxSprite: SRD-BoxSprite-malamar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-malamar.png
 Learnset: '[[SRD-Malamar-Learnset]]'

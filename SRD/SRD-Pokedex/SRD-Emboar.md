@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-emboar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Reckless
 HomeSprite: SRD-HomeSprite-emboar.png
 Learnset: '[[SRD-Emboar-Learnset]]'

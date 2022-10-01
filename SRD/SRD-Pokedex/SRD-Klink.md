@@ -4,7 +4,7 @@ Ability2: Minus
 BoxSprite: SRD-BoxSprite-klink.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Clear Body
 HomeSprite: SRD-HomeSprite-klink.png
 Learnset: '[[SRD-Klink-Learnset]]'

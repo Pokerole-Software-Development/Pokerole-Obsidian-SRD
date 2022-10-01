@@ -4,7 +4,7 @@ Ability2: Pickup
 BoxSprite: SRD-BoxSprite-aipom.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Skill Link
 HomeSprite: SRD-HomeSprite-aipom.png
 Learnset: '[[SRD-Aipom-Learnset]]'

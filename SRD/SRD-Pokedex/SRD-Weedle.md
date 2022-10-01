@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-weedle.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Run Away
 HomeSprite: SRD-HomeSprite-weedle.png
 Learnset: '[[SRD-Weedle-Learnset]]'

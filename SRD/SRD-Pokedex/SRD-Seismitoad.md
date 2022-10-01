@@ -4,7 +4,7 @@ Ability2: Poison Touch
 BoxSprite: SRD-BoxSprite-seismitoad.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Water Absorb
 HomeSprite: SRD-HomeSprite-seismitoad.png
 Learnset: '[[SRD-Seismitoad-Learnset]]'

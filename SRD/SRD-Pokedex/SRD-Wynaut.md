@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-wynaut.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-wynaut.png
 Learnset: '[[SRD-Wynaut-Learnset]]'

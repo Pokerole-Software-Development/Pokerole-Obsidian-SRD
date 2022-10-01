@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-sceptile.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Unburden
 HomeSprite: SRD-HomeSprite-sceptile.png
 Learnset: '[[SRD-Sceptile-Learnset]]'

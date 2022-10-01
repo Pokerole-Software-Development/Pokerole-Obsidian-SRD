@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-cacnea.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Water Absorb
 HomeSprite: SRD-HomeSprite-cacnea.png
 Learnset: '[[SRD-Cacnea-Learnset]]'

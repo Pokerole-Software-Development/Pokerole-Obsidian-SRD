@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-rotom-mow.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-rotom-mow.png
 Learnset: '[[SRD-Rotom Mow-Learnset]]'

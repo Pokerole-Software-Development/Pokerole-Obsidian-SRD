@@ -4,7 +4,7 @@ Ability2: Ice Body
 BoxSprite: SRD-BoxSprite-arctovish.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Slush Rush
 HomeSprite: SRD-HomeSprite-arctovish.png
 Learnset: '[[SRD-Arctovish-Learnset]]'

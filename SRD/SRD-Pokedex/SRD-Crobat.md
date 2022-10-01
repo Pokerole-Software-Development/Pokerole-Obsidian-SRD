@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-crobat.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-crobat.png
 Learnset: '[[SRD-Crobat-Learnset]]'

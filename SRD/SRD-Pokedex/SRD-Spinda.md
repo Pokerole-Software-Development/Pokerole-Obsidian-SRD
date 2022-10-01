@@ -4,7 +4,7 @@ Ability2: Tangled Feet
 BoxSprite: SRD-BoxSprite-spinda.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Contrary
 HomeSprite: SRD-HomeSprite-spinda.png
 Learnset: '[[SRD-Spinda-Learnset]]'

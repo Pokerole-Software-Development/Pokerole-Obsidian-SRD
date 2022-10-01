@@ -4,7 +4,7 @@ Ability2: Frisk
 BoxSprite: SRD-BoxSprite-stantler.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-HomeSprite-stantler.png
 Learnset: '[[SRD-Stantler-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Iron Fist
 BoxSprite: SRD-BoxSprite-hitmonchan.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Inner Focus
 HomeSprite: SRD-HomeSprite-hitmonchan.png
 Learnset: '[[SRD-Hitmonchan-Learnset]]'

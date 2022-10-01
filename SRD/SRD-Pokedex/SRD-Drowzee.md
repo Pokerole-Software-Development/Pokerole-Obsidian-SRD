@@ -4,7 +4,7 @@ Ability2: Forewarn
 BoxSprite: SRD-BoxSprite-drowzee.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Inner Focus
 HomeSprite: SRD-HomeSprite-drowzee.png
 Learnset: '[[SRD-Drowzee-Learnset]]'

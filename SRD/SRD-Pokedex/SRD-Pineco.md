@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-pineco.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-pineco.png
 Learnset: '[[SRD-Pineco-Learnset]]'

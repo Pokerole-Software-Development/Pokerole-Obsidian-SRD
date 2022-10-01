@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-dewott.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Shell Armor
 HomeSprite: SRD-HomeSprite-dewott.png
 Learnset: '[[SRD-Dewott-Learnset]]'

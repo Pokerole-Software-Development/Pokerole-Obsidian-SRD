@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-eiscue.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-eiscue.png
 Learnset: '[[SRD-Eiscue-Learnset]]'

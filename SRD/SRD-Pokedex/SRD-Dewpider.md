@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-dewpider.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Water Absorb
 HomeSprite: SRD-HomeSprite-dewpider.png
 Learnset: '[[SRD-Dewpider-Learnset]]'

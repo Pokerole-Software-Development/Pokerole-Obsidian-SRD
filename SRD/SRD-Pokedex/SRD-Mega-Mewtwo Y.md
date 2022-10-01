@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-mewtwo-mega-y.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-mewtwo-mega-y.png
 Learnset: '[[SRD-Mega-Mewtwo Y-Learnset]]'

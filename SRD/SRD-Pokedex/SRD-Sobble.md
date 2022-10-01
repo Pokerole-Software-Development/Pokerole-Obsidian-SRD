@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-sobble.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sniper
 HomeSprite: SRD-HomeSprite-sobble.png
 Learnset: '[[SRD-Sobble-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-simisage.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Overgrow
 HomeSprite: SRD-HomeSprite-simisage.png
 Learnset: '[[SRD-Simisage-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-huntail.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Water Veil
 HomeSprite: SRD-HomeSprite-huntail.png
 Learnset: '[[SRD-Huntail-Learnset]]'

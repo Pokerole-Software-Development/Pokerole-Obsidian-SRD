@@ -4,7 +4,7 @@ Ability2: Early Bird
 BoxSprite: SRD-BoxSprite-ledyba.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-ledyba.png
 Learnset: '[[SRD-Ledyba-Learnset]]'

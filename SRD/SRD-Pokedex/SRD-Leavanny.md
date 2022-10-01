@@ -4,7 +4,7 @@ Ability2: Chlorophyll
 BoxSprite: SRD-BoxSprite-leavanny.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-leavanny.png
 Learnset: '[[SRD-Leavanny-Learnset]]'

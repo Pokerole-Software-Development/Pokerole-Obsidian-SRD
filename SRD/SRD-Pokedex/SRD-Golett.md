@@ -4,7 +4,7 @@ Ability2: Klutz
 BoxSprite: SRD-BoxSprite-golett.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: No Guard
 HomeSprite: SRD-HomeSprite-golett.png
 Learnset: '[[SRD-Golett-Learnset]]'

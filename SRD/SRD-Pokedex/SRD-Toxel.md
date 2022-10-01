@@ -4,7 +4,7 @@ Ability2: Static
 BoxSprite: SRD-BoxSprite-toxel.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Klutz
 HomeSprite: SRD-HomeSprite-toxel.png
 Learnset: '[[SRD-Toxel-Learnset]]'

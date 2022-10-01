@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-carnivine.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-carnivine.png
 Learnset: '[[SRD-Carnivine-Learnset]]'

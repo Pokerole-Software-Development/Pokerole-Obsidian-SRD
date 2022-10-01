@@ -4,7 +4,7 @@ Ability2: Shed Skin
 BoxSprite: SRD-BoxSprite-karrablast.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: No Guard
 HomeSprite: SRD-HomeSprite-karrablast.png
 Learnset: '[[SRD-Karrablast-Learnset]]'

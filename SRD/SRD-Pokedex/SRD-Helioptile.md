@@ -4,7 +4,7 @@ Ability2: Sand Veil
 BoxSprite: SRD-BoxSprite-helioptile.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Solar Power
 HomeSprite: SRD-HomeSprite-helioptile.png
 Learnset: '[[SRD-Helioptile-Learnset]]'

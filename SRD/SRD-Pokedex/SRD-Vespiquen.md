@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-vespiquen.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-vespiquen.png
 Learnset: '[[SRD-Vespiquen-Learnset]]'

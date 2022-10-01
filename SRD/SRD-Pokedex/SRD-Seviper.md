@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-seviper.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-seviper.png
 Learnset: '[[SRD-Seviper-Learnset]]'

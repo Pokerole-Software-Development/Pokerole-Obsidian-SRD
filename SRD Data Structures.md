@@ -34,7 +34,7 @@ DexID matches the following pattern `\d{4}([GAHPXY]|F\d)` which in simple terms 
 | Type2            | String | Type or empty string                                                 | -                  |
 | DexID            | String | Pokedex Number + variant flags, if any                                 | -                  |
 | Species          | String | Pokemon Species name (same as Name)                                  | -                  |
-| Type             | String | Combined Type1 and Type2, " / " separated if both                    | -                  |
+| Types             | String | Combined Type1 and Type2, " / " separated if both                    | -                  |
 | Abilities        | String | Combined Abilities in format "#1 / #2 (Hidden) \<Event\>"            | -                  |
 | Base HP          | int    | Base HP value                                                        | base-hp            |
 | Strength         | int    | Base Strength score for the Species                                  | -                  |

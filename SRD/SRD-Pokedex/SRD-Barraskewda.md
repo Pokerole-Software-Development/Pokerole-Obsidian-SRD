@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-barraskewda.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Propeller Tail
 HomeSprite: SRD-HomeSprite-barraskewda.png
 Learnset: '[[SRD-Barraskewda-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Filter
 BoxSprite: SRD-BoxSprite-mr-mime.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Technician
 HomeSprite: SRD-HomeSprite-mr-mime.png
 Learnset: '[[SRD-Mr. Mime-Learnset]]'

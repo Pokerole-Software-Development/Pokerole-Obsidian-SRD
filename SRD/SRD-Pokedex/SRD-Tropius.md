@@ -4,7 +4,7 @@ Ability2: Solar Power
 BoxSprite: SRD-BoxSprite-tropius.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Harvest
 HomeSprite: SRD-HomeSprite-tropius.png
 Learnset: '[[SRD-Tropius-Learnset]]'

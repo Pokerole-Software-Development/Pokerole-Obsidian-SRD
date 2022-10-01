@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-pyukumuku.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unaware
 HomeSprite: SRD-HomeSprite-pyukumuku.png
 Learnset: '[[SRD-Pyukumuku-Learnset]]'

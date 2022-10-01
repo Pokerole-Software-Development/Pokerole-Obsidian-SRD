@@ -4,7 +4,7 @@ Ability2: Inner Focus
 BoxSprite: SRD-BoxSprite-darumaka-galar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-darumaka-galar.png
 Learnset: '[[SRD-Galarian Darumaka-Learnset]]'

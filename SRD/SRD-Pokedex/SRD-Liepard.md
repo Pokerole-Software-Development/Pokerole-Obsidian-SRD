@@ -4,7 +4,7 @@ Ability2: Unburden
 BoxSprite: SRD-BoxSprite-liepard.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Prankster
 HomeSprite: SRD-HomeSprite-liepard.png
 Learnset: '[[SRD-Liepard-Learnset]]'

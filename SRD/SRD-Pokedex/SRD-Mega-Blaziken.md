@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-blaziken-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-blaziken-mega.png
 Learnset: '[[SRD-Mega-Blaziken-Learnset]]'

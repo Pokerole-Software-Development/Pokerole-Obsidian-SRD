@@ -4,7 +4,7 @@ Ability2: Shell Armor
 BoxSprite: SRD-BoxSprite-crawdaunt.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Adaptability
 HomeSprite: SRD-HomeSprite-crawdaunt.png
 Learnset: '[[SRD-Crawdaunt-Learnset]]'

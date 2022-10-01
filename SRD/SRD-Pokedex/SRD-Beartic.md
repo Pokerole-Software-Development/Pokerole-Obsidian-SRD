@@ -4,7 +4,7 @@ Ability2: Slush Rush
 BoxSprite: SRD-BoxSprite-beartic.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Swift Swim
 HomeSprite: SRD-HomeSprite-beartic.png
 Learnset: '[[SRD-Beartic-Learnset]]'

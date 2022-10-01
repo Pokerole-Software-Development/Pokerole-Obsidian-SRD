@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-rayquaza-mega.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-rayquaza-mega.png
 Learnset: '[[SRD-Mega-Rayquaza-Learnset]]'

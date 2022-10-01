@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-pikachu.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-HomeSprite-pikachu.png
 Learnset: '[[SRD-Pikachu-Learnset]]'

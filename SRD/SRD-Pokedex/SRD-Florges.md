@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-florges.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Symbiosis
 HomeSprite: SRD-HomeSprite-florges.png
 Learnset: '[[SRD-Florges-Learnset]]'

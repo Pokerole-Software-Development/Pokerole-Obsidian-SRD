@@ -4,7 +4,7 @@ Ability2: Leaf Guard
 BoxSprite: SRD-BoxSprite-jumpluff.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-jumpluff.png
 Learnset: '[[SRD-Jumpluff-Learnset]]'

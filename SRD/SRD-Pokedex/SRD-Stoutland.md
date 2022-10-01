@@ -4,7 +4,7 @@ Ability2: Sand Rush
 BoxSprite: SRD-BoxSprite-stoutland.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Scrappy
 HomeSprite: SRD-HomeSprite-stoutland.png
 Learnset: '[[SRD-Stoutland-Learnset]]'

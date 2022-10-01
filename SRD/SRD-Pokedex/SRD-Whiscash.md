@@ -4,7 +4,7 @@ Ability2: Anticipation
 BoxSprite: SRD-BoxSprite-whiscash.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Hydration
 HomeSprite: SRD-HomeSprite-whiscash.png
 Learnset: '[[SRD-Whiscash-Learnset]]'

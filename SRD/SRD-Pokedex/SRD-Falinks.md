@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-falinks.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Defiant
 HomeSprite: SRD-HomeSprite-falinks.png
 Learnset: '[[SRD-Falinks-Learnset]]'

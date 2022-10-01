@@ -4,7 +4,7 @@ Ability2: Sturdy
 BoxSprite: SRD-BoxSprite-graveler.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-graveler.png
 Learnset: '[[SRD-Graveler-Learnset]]'

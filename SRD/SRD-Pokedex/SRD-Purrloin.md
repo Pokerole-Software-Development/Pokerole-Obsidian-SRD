@@ -4,7 +4,7 @@ Ability2: Unburden
 BoxSprite: SRD-BoxSprite-purrloin.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Prankster
 HomeSprite: SRD-HomeSprite-purrloin.png
 Learnset: '[[SRD-Purrloin-Learnset]]'

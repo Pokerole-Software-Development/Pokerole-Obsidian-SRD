@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-skiddo.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Grass Pelt
 HomeSprite: SRD-HomeSprite-skiddo.png
 Learnset: '[[SRD-Skiddo-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Illuminate
 BoxSprite: SRD-BoxSprite-lanturn.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Water Absorb
 HomeSprite: SRD-HomeSprite-lanturn.png
 Learnset: '[[SRD-Lanturn-Learnset]]'

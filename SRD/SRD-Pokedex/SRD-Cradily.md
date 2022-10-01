@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-cradily.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Storm Drain
 HomeSprite: SRD-HomeSprite-cradily.png
 Learnset: '[[SRD-Cradily-Learnset]]'

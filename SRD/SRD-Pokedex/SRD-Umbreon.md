@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-umbreon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Inner Focus
 HomeSprite: SRD-HomeSprite-umbreon.png
 Learnset: '[[SRD-Umbreon-Learnset]]'

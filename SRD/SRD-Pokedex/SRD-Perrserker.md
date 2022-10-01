@@ -4,7 +4,7 @@ Ability2: Tough Claws
 BoxSprite: SRD-BoxSprite-perrserker.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Steely Spirit
 HomeSprite: SRD-HomeSprite-perrserker.png
 Learnset: '[[SRD-Perrserker-Learnset]]'

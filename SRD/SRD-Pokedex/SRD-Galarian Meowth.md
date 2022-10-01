@@ -4,7 +4,7 @@ Ability2: Tough Claws
 BoxSprite: SRD-BoxSprite-meowth-galar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-meowth-galar.png
 Learnset: '[[SRD-Galarian Meowth-Learnset]]'

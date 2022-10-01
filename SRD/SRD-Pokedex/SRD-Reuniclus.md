@@ -4,7 +4,7 @@ Ability2: Magic Guard
 BoxSprite: SRD-BoxSprite-reuniclus.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-reuniclus.png
 Learnset: '[[SRD-Reuniclus-Learnset]]'

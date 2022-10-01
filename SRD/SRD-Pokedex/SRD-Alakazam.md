@@ -4,7 +4,7 @@ Ability2: Inner Focus
 BoxSprite: SRD-BoxSprite-alakazam.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Magic Guard
 HomeSprite: SRD-HomeSprite-alakazam.png
 Learnset: '[[SRD-Alakazam-Learnset]]'

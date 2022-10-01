@@ -4,7 +4,7 @@ Ability2: No Guard
 BoxSprite: SRD-BoxSprite-machamp.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Steadfast
 HomeSprite: SRD-HomeSprite-machamp.png
 Learnset: '[[SRD-Machamp-Learnset]]'

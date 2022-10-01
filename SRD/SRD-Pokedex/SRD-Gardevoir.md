@@ -4,7 +4,7 @@ Ability2: Trace
 BoxSprite: SRD-BoxSprite-gardevoir.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-gardevoir.png
 Learnset: '[[SRD-Gardevoir-Learnset]]'

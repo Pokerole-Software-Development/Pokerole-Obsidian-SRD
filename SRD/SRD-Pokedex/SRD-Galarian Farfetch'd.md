@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-farfetchd-galar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Scrappy
 HomeSprite: SRD-HomeSprite-farfetchd-galar.png
 Learnset: '[[SRD-Galarian Farfetch''d-Learnset]]'

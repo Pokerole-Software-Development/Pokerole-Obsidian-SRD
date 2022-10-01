@@ -4,7 +4,7 @@ Ability2: Anger Point
 BoxSprite: SRD-BoxSprite-tauros.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-tauros.png
 Learnset: '[[SRD-Tauros-Learnset]]'

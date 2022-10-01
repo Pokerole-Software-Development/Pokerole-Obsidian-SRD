@@ -4,7 +4,7 @@ Ability2: Shell Armor
 BoxSprite: SRD-BoxSprite-omastar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Weak Armor
 HomeSprite: SRD-HomeSprite-omastar.png
 Learnset: '[[SRD-Omastar-Learnset]]'

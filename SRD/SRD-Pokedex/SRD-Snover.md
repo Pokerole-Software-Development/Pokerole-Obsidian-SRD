@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-snover.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Soundproof
 HomeSprite: SRD-HomeSprite-snover.png
 Learnset: '[[SRD-Snover-Learnset]]'

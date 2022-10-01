@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-fearow.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sniper
 HomeSprite: SRD-HomeSprite-fearow.png
 Learnset: '[[SRD-Fearow-Learnset]]'

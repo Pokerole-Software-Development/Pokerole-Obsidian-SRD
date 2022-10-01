@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-genesect.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-genesect.png
 Learnset: '[[SRD-Genesect-Learnset]]'

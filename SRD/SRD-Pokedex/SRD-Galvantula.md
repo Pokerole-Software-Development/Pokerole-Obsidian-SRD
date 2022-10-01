@@ -4,7 +4,7 @@ Ability2: Unnerve
 BoxSprite: SRD-BoxSprite-galvantula.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Swarm
 HomeSprite: SRD-HomeSprite-galvantula.png
 Learnset: '[[SRD-Galvantula-Learnset]]'

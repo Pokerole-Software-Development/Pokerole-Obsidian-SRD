@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-plusle.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-HomeSprite-plusle.png
 Learnset: '[[SRD-Plusle-Learnset]]'

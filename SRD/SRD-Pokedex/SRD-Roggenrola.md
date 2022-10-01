@@ -4,7 +4,7 @@ Ability2: Weak Armor
 BoxSprite: SRD-BoxSprite-roggenrola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-roggenrola.png
 Learnset: '[[SRD-Roggenrola-Learnset]]'

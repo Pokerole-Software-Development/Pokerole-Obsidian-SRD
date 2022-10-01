@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-squirtle.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rain Dish
 HomeSprite: SRD-HomeSprite-squirtle.png
 Learnset: '[[SRD-Squirtle-Learnset]]'

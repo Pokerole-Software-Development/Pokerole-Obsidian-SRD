@@ -4,7 +4,7 @@ Ability2: Klutz
 BoxSprite: SRD-BoxSprite-bewear.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-bewear.png
 Learnset: '[[SRD-Bewear-Learnset]]'

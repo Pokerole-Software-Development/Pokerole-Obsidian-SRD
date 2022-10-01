@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-electabuzz.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Vital Spirit
 HomeSprite: SRD-HomeSprite-electabuzz.png
 Learnset: '[[SRD-Electabuzz-Learnset]]'

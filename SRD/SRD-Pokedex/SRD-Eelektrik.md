@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-eelektrik.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-eelektrik.png
 Learnset: '[[SRD-Eelektrik-Learnset]]'

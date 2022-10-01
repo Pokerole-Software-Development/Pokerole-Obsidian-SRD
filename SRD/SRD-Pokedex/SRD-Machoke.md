@@ -4,7 +4,7 @@ Ability2: No Guard
 BoxSprite: SRD-BoxSprite-machoke.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Steadfast
 HomeSprite: SRD-HomeSprite-machoke.png
 Learnset: '[[SRD-Machoke-Learnset]]'

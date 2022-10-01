@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-milcery.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Aroma Veil
 HomeSprite: SRD-HomeSprite-milcery.png
 Learnset: '[[SRD-Milcery-Learnset]]'

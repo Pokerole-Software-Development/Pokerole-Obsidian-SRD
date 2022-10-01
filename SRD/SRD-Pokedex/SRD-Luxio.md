@@ -4,7 +4,7 @@ Ability2: Intimidate
 BoxSprite: SRD-BoxSprite-luxio.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Guts
 HomeSprite: SRD-HomeSprite-luxio.png
 Learnset: '[[SRD-Luxio-Learnset]]'

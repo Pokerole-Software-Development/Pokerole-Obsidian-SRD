@@ -4,7 +4,7 @@ Ability2: Leaf Guard
 BoxSprite: SRD-BoxSprite-tangrowth.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-tangrowth.png
 Learnset: '[[SRD-Tangrowth-Learnset]]'

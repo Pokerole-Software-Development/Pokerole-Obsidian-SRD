@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-volcanion.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-volcanion.png
 Learnset: '[[SRD-Volcanion-Learnset]]'

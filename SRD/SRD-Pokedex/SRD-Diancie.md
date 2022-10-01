@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-diancie.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-diancie.png
 Learnset: '[[SRD-Diancie-Learnset]]'

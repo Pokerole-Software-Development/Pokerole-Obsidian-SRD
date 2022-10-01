@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-delphox.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Magician
 HomeSprite: SRD-HomeSprite-delphox.png
 Learnset: '[[SRD-Delphox-Learnset]]'

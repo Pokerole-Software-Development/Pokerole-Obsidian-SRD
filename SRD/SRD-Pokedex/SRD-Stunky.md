@@ -4,7 +4,7 @@ Ability2: Aftermath
 BoxSprite: SRD-BoxSprite-stunky.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Keen Eye
 HomeSprite: SRD-HomeSprite-stunky.png
 Learnset: '[[SRD-Stunky-Learnset]]'

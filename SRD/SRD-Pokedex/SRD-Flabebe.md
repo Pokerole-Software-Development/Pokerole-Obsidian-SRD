@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-flabebe.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Symbiosis
 HomeSprite: SRD-HomeSprite-flabebe.png
 Learnset: '[[SRD-Flabebe-Learnset]]'

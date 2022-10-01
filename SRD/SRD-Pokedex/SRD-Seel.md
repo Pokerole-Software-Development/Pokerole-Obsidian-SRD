@@ -4,7 +4,7 @@ Ability2: Hydration
 BoxSprite: SRD-BoxSprite-seel.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Ice Body
 HomeSprite: SRD-HomeSprite-seel.png
 Learnset: '[[SRD-Seel-Learnset]]'

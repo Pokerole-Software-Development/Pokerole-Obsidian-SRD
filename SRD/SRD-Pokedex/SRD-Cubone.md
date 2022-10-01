@@ -4,7 +4,7 @@ Ability2: Lightning Rod
 BoxSprite: SRD-BoxSprite-cubone.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Battle Armor
 HomeSprite: SRD-HomeSprite-cubone.png
 Learnset: '[[SRD-Cubone-Learnset]]'

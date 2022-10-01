@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-heatran.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Flame Body
 HomeSprite: SRD-HomeSprite-heatran.png
 Learnset: '[[SRD-Heatran-Learnset]]'

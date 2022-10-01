@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-luvdisc.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Hydration
 HomeSprite: SRD-HomeSprite-luvdisc.png
 Learnset: '[[SRD-Luvdisc-Learnset]]'

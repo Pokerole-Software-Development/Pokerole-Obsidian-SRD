@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-ditto.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Imposter
 HomeSprite: SRD-HomeSprite-ditto.png
 Learnset: '[[SRD-Ditto-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Run Away
 BoxSprite: SRD-BoxSprite-snubbull.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-snubbull.png
 Learnset: '[[SRD-Snubbull-Learnset]]'

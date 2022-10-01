@@ -4,7 +4,7 @@ Ability2: Plus
 BoxSprite: SRD-BoxSprite-toxtricity.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Technician
 HomeSprite: SRD-HomeSprite-toxtricity.png
 Learnset: '[[SRD-Toxtricity Amped-Learnset]]'

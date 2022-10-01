@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-articuno.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Snow Cloak
 HomeSprite: SRD-HomeSprite-articuno.png
 Learnset: '[[SRD-Articuno-Learnset]]'

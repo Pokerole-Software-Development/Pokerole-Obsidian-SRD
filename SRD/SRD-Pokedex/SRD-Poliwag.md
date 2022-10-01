@@ -4,7 +4,7 @@ Ability2: Damp
 BoxSprite: SRD-BoxSprite-poliwag.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Swift Swim
 HomeSprite: SRD-HomeSprite-poliwag.png
 Learnset: '[[SRD-Poliwag-Learnset]]'

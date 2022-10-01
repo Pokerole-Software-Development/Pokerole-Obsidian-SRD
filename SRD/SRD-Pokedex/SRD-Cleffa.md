@@ -4,7 +4,7 @@ Ability2: Magic Guard
 BoxSprite: SRD-BoxSprite-cleffa.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Friend Guard
 HomeSprite: SRD-HomeSprite-cleffa.png
 Learnset: '[[SRD-Cleffa-Learnset]]'

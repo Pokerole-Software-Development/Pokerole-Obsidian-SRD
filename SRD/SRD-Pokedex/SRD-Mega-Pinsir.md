@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-pinsir-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-pinsir-mega.png
 Learnset: '[[SRD-Mega-Pinsir-Learnset]]'

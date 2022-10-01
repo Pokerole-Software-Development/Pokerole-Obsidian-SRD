@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-deoxys-defense.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-deoxys-defense.png
 Learnset: '[[SRD-Defense Deoxys-Learnset]]'

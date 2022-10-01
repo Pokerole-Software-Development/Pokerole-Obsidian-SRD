@@ -4,7 +4,7 @@ Ability2: Regenerator
 BoxSprite: SRD-BoxSprite-mienshao.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Reckless
 HomeSprite: SRD-HomeSprite-mienshao.png
 Learnset: '[[SRD-Mienshao-Learnset]]'

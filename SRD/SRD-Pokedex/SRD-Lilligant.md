@@ -4,7 +4,7 @@ Ability2: Own Tempo
 BoxSprite: SRD-BoxSprite-lilligant.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-HomeSprite-lilligant.png
 Learnset: '[[SRD-Lilligant-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-zamazenta.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-zamazenta.png
 Learnset: '[[SRD-Zamazenta-Learnset]]'

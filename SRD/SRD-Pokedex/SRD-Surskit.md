@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-surskit.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rain Dish
 HomeSprite: SRD-HomeSprite-surskit.png
 Learnset: '[[SRD-Surskit-Learnset]]'

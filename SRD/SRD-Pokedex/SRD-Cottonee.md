@@ -4,7 +4,7 @@ Ability2: Infiltrator
 BoxSprite: SRD-BoxSprite-cottonee.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-HomeSprite-cottonee.png
 Learnset: '[[SRD-Cottonee-Learnset]]'

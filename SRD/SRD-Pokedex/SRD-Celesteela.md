@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-celesteela.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-celesteela.png
 Learnset: '[[SRD-Celesteela-Learnset]]'

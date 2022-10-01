@@ -4,7 +4,7 @@ Ability2: Lightning Rod
 BoxSprite: SRD-BoxSprite-electrike.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Minus
 HomeSprite: SRD-HomeSprite-electrike.png
 Learnset: '[[SRD-Electrike-Learnset]]'

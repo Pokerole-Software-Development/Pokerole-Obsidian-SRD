@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-larvesta.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Swarm
 HomeSprite: SRD-HomeSprite-larvesta.png
 Learnset: '[[SRD-Larvesta-Learnset]]'

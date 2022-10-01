@@ -4,7 +4,7 @@ Ability2: Water Veil
 BoxSprite: SRD-BoxSprite-seaking.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-HomeSprite-seaking.png
 Learnset: '[[SRD-Seaking-Learnset]]'

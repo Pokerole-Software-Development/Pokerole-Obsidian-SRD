@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-burmy.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-burmy.png
 Learnset: '[[SRD-Burmy-Learnset]]'

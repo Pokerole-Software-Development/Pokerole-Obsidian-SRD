@@ -4,7 +4,7 @@ Ability2: Snow Cloak
 BoxSprite: SRD-BoxSprite-mamoswine.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Thick Fat
 HomeSprite: SRD-HomeSprite-mamoswine.png
 Learnset: '[[SRD-Mamoswine-Learnset]]'

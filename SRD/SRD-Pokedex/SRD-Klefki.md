@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-klefki.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Magician
 HomeSprite: SRD-HomeSprite-klefki.png
 Learnset: '[[SRD-Klefki-Learnset]]'

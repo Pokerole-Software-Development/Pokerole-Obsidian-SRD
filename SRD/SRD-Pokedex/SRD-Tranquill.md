@@ -4,7 +4,7 @@ Ability2: Super Luck
 BoxSprite: SRD-BoxSprite-tranquill.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rivalry
 HomeSprite: SRD-HomeSprite-tranquill.png
 Learnset: '[[SRD-Tranquill-Learnset]]'

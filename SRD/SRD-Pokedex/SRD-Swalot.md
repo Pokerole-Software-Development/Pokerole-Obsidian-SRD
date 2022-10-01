@@ -4,7 +4,7 @@ Ability2: Sticky Hold
 BoxSprite: SRD-BoxSprite-swalot.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Gluttony
 HomeSprite: SRD-HomeSprite-swalot.png
 Learnset: '[[SRD-Swalot-Learnset]]'

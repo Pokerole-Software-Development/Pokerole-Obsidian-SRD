@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-litten.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Intimidate
 HomeSprite: SRD-HomeSprite-litten.png
 Learnset: '[[SRD-Litten-Learnset]]'

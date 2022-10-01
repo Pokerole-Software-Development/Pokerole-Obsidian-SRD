@@ -4,7 +4,7 @@ Ability2: Weak Armor
 BoxSprite: SRD-BoxSprite-boldore.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-boldore.png
 Learnset: '[[SRD-Boldore-Learnset]]'

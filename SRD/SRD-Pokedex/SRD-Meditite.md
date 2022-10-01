@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-meditite.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-meditite.png
 Learnset: '[[SRD-Meditite-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Technician
 BoxSprite: SRD-BoxSprite-persian-alola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-persian-alola.png
 Learnset: '[[SRD-Alolan Persian-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Inner Focus
 BoxSprite: SRD-BoxSprite-riolu.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Prankster
 HomeSprite: SRD-HomeSprite-riolu.png
 Learnset: '[[SRD-Riolu-Learnset]]'

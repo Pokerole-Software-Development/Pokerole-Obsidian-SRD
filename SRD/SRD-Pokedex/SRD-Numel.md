@@ -4,7 +4,7 @@ Ability2: Simple
 BoxSprite: SRD-BoxSprite-numel.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Own Tempo
 HomeSprite: SRD-HomeSprite-numel.png
 Learnset: '[[SRD-Numel-Learnset]]'

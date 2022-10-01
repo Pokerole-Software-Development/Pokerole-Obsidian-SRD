@@ -4,7 +4,7 @@ Ability2: Ice Body
 BoxSprite: SRD-BoxSprite-walrein.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Oblivious
 HomeSprite: SRD-HomeSprite-walrein.png
 Learnset: '[[SRD-Walrein-Learnset]]'

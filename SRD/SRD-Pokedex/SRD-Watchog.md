@@ -4,7 +4,7 @@ Ability2: Keen Eye
 BoxSprite: SRD-BoxSprite-watchog.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Analytic
 HomeSprite: SRD-HomeSprite-watchog.png
 Learnset: '[[SRD-Watchog-Learnset]]'

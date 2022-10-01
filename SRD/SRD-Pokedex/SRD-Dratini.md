@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-dratini.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Marvel Scale
 HomeSprite: SRD-HomeSprite-dratini.png
 Learnset: '[[SRD-Dratini-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Battle Armor
 BoxSprite: SRD-BoxSprite-kabuto.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Weak Armor
 HomeSprite: SRD-HomeSprite-kabuto.png
 Learnset: '[[SRD-Kabuto-Learnset]]'

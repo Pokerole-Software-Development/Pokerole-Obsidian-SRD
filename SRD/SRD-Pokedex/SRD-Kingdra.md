@@ -4,7 +4,7 @@ Ability2: Sniper
 BoxSprite: SRD-BoxSprite-kingdra.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Damp
 HomeSprite: SRD-HomeSprite-kingdra.png
 Learnset: '[[SRD-Kingdra-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Technician
 BoxSprite: SRD-BoxSprite-meowth-alola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-meowth-alola.png
 Learnset: '[[SRD-Alolan Meowth-Learnset]]'

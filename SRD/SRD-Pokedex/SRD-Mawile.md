@@ -4,7 +4,7 @@ Ability2: Intimidate
 BoxSprite: SRD-BoxSprite-mawile.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-mawile.png
 Learnset: '[[SRD-Mawile-Learnset]]'

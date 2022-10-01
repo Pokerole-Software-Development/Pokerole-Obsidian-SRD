@@ -4,7 +4,7 @@ Ability2: Frisk
 BoxSprite: SRD-BoxSprite-grimmsnarl.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-grimmsnarl.png
 Learnset: '[[SRD-Grimmsnarl-Learnset]]'

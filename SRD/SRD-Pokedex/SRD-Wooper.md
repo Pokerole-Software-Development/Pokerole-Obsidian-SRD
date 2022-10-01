@@ -4,7 +4,7 @@ Ability2: Water Absorb
 BoxSprite: SRD-BoxSprite-wooper.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unaware
 HomeSprite: SRD-HomeSprite-wooper.png
 Learnset: '[[SRD-Wooper-Learnset]]'

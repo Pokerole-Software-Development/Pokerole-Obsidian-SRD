@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-copperajah.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Heavy Metal
 HomeSprite: SRD-HomeSprite-copperajah.png
 Learnset: '[[SRD-Copperajah-Learnset]]'

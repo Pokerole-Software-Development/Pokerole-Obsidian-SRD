@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-kartana.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-kartana.png
 Learnset: '[[SRD-Kartana-Learnset]]'

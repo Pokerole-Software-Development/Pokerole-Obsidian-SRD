@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-caterpie.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Run Away
 HomeSprite: SRD-HomeSprite-caterpie.png
 Learnset: '[[SRD-Caterpie-Learnset]]'

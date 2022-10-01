@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-corsola-galar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Cursed Body
 HomeSprite: SRD-HomeSprite-corsola-galar.png
 Learnset: '[[SRD-Galarian Corsola-Learnset]]'

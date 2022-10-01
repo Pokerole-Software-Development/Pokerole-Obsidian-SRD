@@ -4,7 +4,7 @@ Ability2: Shell Armor
 BoxSprite: SRD-BoxSprite-kingler.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-kingler.png
 Learnset: '[[SRD-Kingler-Learnset]]'

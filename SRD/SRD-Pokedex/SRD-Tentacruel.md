@@ -4,7 +4,7 @@ Ability2: Liquid Ooze
 BoxSprite: SRD-BoxSprite-tentacruel.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rain Dish
 HomeSprite: SRD-HomeSprite-tentacruel.png
 Learnset: '[[SRD-Tentacruel-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Compound Eyes
 BoxSprite: SRD-BoxSprite-dottler.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-dottler.png
 Learnset: '[[SRD-Dottler-Learnset]]'

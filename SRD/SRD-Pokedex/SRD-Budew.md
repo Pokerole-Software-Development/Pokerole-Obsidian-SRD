@@ -4,7 +4,7 @@ Ability2: Poison Point
 BoxSprite: SRD-BoxSprite-budew.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-HomeSprite-budew.png
 Learnset: '[[SRD-Budew-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Sticky Hold
 BoxSprite: SRD-BoxSprite-muk.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Poison Touch
 HomeSprite: SRD-HomeSprite-muk.png
 Learnset: '[[SRD-Muk-Learnset]]'

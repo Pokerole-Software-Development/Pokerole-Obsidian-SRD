@@ -4,7 +4,7 @@ Ability2: Unburden
 BoxSprite: SRD-BoxSprite-thievul.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Stakeout
 HomeSprite: SRD-HomeSprite-thievul.png
 Learnset: '[[SRD-Thievul-Learnset]]'

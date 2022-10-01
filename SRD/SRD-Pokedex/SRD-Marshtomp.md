@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-marshtomp.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Damp
 HomeSprite: SRD-HomeSprite-marshtomp.png
 Learnset: '[[SRD-Marshtomp-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-butterfree.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Tinted Lens
 HomeSprite: SRD-HomeSprite-butterfree.png
 Learnset: '[[SRD-Butterfree-Learnset]]'

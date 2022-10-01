@@ -4,7 +4,7 @@ Ability2: Reckless
 BoxSprite: SRD-BoxSprite-hitmonlee.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unburden
 HomeSprite: SRD-HomeSprite-hitmonlee.png
 Learnset: '[[SRD-Hitmonlee-Learnset]]'

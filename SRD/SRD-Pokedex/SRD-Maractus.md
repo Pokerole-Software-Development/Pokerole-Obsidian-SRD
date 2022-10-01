@@ -4,7 +4,7 @@ Ability2: Chlorophyll
 BoxSprite: SRD-BoxSprite-maractus.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Storm Drain
 HomeSprite: SRD-HomeSprite-maractus.png
 Learnset: '[[SRD-Maractus-Learnset]]'

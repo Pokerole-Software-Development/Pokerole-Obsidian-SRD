@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-swampert.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Damp
 HomeSprite: SRD-HomeSprite-swampert.png
 Learnset: '[[SRD-Swampert-Learnset]]'

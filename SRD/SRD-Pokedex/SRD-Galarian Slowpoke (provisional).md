@@ -4,7 +4,7 @@ Ability2: Own Tempo
 BoxSprite: SRD-BoxSprite-slowpoke-galar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-slowpoke-galar.png
 Learnset: '[[SRD-Galarian Slowpoke (provisional)-Learnset]]'

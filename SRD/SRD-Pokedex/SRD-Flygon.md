@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-flygon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-flygon.png
 Learnset: '[[SRD-Flygon-Learnset]]'

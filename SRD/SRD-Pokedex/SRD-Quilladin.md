@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-quilladin.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Bulletproof
 HomeSprite: SRD-HomeSprite-quilladin.png
 Learnset: '[[SRD-Quilladin-Learnset]]'

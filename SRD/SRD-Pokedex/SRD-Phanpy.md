@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-phanpy.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-phanpy.png
 Learnset: '[[SRD-Phanpy-Learnset]]'

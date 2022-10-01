@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-magby.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Vital Spirit
 HomeSprite: SRD-HomeSprite-magby.png
 Learnset: '[[SRD-Magby-Learnset]]'

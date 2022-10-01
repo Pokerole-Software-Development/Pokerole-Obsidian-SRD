@@ -4,7 +4,7 @@ Ability2: Super Luck
 BoxSprite: SRD-BoxSprite-absol.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Justified
 HomeSprite: SRD-HomeSprite-absol.png
 Learnset: '[[SRD-Absol-Learnset]]'

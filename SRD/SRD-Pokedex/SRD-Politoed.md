@@ -4,7 +4,7 @@ Ability2: Damp
 BoxSprite: SRD-BoxSprite-politoed.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Drizzle
 HomeSprite: SRD-HomeSprite-politoed.png
 Learnset: '[[SRD-Politoed-Learnset]]'

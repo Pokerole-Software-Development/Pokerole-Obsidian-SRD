@@ -4,7 +4,7 @@ Ability2: Super Luck
 BoxSprite: SRD-BoxSprite-honchkrow.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Moxie
 HomeSprite: SRD-HomeSprite-honchkrow.png
 Learnset: '[[SRD-Honchkrow-Learnset]]'

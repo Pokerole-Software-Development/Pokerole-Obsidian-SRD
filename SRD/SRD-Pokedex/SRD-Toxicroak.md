@@ -4,7 +4,7 @@ Ability2: Dry Skin
 BoxSprite: SRD-BoxSprite-toxicroak.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Poison Touch
 HomeSprite: SRD-HomeSprite-toxicroak.png
 Learnset: '[[SRD-Toxicroak-Learnset]]'

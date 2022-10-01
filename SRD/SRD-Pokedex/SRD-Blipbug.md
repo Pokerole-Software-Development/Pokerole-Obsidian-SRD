@@ -4,7 +4,7 @@ Ability2: Compound Eyes
 BoxSprite: SRD-BoxSprite-blipbug.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-blipbug.png
 Learnset: '[[SRD-Blipbug-Learnset]]'

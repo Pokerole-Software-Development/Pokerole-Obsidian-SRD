@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-kyurem-black.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-kyurem-black.png
 Learnset: '[[SRD-Black Kyurem-Learnset]]'

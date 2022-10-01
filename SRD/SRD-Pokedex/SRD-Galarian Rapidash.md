@@ -4,7 +4,7 @@ Ability2: Pastel Veil
 BoxSprite: SRD-BoxSprite-rapidash-galar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Anticipation
 HomeSprite: SRD-HomeSprite-rapidash-galar.png
 Learnset: '[[SRD-Galarian Rapidash-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Ice Body
 BoxSprite: SRD-BoxSprite-snorunt.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Moody
 HomeSprite: SRD-HomeSprite-snorunt.png
 Learnset: '[[SRD-Snorunt-Learnset]]'

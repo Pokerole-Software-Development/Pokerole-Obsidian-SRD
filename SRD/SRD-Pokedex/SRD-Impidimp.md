@@ -4,7 +4,7 @@ Ability2: Frisk
 BoxSprite: SRD-BoxSprite-impidimp.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-impidimp.png
 Learnset: '[[SRD-Impidimp-Learnset]]'

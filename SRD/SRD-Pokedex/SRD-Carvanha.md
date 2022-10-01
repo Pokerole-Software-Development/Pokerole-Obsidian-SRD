@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-carvanha.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Speed Boost
 HomeSprite: SRD-HomeSprite-carvanha.png
 Learnset: '[[SRD-Carvanha-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-servine.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Contrary
 HomeSprite: SRD-HomeSprite-servine.png
 Learnset: '[[SRD-Servine-Learnset]]'

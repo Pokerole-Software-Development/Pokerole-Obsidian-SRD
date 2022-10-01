@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-lunala.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-lunala.png
 Learnset: '[[SRD-Lunala-Learnset]]'

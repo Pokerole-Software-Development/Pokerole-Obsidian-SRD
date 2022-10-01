@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-wurmple.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Run Away
 HomeSprite: SRD-HomeSprite-wurmple.png
 Learnset: '[[SRD-Wurmple-Learnset]]'

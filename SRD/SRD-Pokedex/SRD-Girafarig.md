@@ -4,7 +4,7 @@ Ability2: Early Bird
 BoxSprite: SRD-BoxSprite-girafarig.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-HomeSprite-girafarig.png
 Learnset: '[[SRD-Girafarig-Learnset]]'

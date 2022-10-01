@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-pansage.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Overgrow
 HomeSprite: SRD-HomeSprite-pansage.png
 Learnset: '[[SRD-Pansage-Learnset]]'

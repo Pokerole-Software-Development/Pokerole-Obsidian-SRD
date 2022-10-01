@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-carbink.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sturdy
 HomeSprite: SRD-HomeSprite-carbink.png
 Learnset: '[[SRD-Carbink-Learnset]]'

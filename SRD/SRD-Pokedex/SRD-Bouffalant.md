@@ -4,7 +4,7 @@ Ability2: Sap Sipper
 BoxSprite: SRD-BoxSprite-bouffalant.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Soundproof
 HomeSprite: SRD-HomeSprite-bouffalant.png
 Learnset: '[[SRD-Bouffalant-Learnset]]'

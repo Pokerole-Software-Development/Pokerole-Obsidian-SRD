@@ -4,7 +4,7 @@ Ability2: Telepathy
 BoxSprite: SRD-BoxSprite-oranguru.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Symbiosis
 HomeSprite: SRD-HomeSprite-oranguru.png
 Learnset: '[[SRD-Oranguru-Learnset]]'

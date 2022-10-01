@@ -4,7 +4,7 @@ Ability2: Swarm
 BoxSprite: SRD-BoxSprite-scolipede.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Speed Boost
 HomeSprite: SRD-HomeSprite-scolipede.png
 Learnset: '[[SRD-Scolipede-Learnset]]'

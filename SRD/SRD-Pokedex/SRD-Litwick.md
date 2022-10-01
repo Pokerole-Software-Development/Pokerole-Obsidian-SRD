@@ -4,7 +4,7 @@ Ability2: Flame Body
 BoxSprite: SRD-BoxSprite-litwick.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-litwick.png
 Learnset: '[[SRD-Litwick-Learnset]]'

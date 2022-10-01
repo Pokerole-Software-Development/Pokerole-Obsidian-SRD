@@ -4,7 +4,7 @@ Ability2: Vital Spirit
 BoxSprite: SRD-BoxSprite-rockruff.png
 EventAbilities: Own Tempo
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Steadfast
 HomeSprite: SRD-HomeSprite-rockruff.png
 Learnset: '[[SRD-Rockruff-Learnset]]'

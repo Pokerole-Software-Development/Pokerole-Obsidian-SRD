@@ -4,7 +4,7 @@ Ability2: Mold Breaker
 BoxSprite: SRD-BoxSprite-axew.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-axew.png
 Learnset: '[[SRD-Axew-Learnset]]'

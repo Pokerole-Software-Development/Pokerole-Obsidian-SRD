@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-sandslash-alola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Slush Rush
 HomeSprite: SRD-HomeSprite-sandslash-alola.png
 Learnset: '[[SRD-Alolan Sandslash-Learnset]]'

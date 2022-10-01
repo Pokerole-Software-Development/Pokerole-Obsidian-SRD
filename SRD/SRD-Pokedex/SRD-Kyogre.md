@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-kyogre.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-kyogre.png
 Learnset: '[[SRD-Kyogre-Learnset]]'

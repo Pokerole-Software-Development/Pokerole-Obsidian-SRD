@@ -4,7 +4,7 @@ Ability2: Ice Body
 BoxSprite: SRD-BoxSprite-bergmite.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sturdy
 HomeSprite: SRD-HomeSprite-bergmite.png
 Learnset: '[[SRD-Bergmite-Learnset]]'

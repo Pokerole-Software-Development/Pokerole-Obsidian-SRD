@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-gardevoir-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-gardevoir-mega.png
 Learnset: '[[SRD-Mega-Gardevoir-Learnset]]'

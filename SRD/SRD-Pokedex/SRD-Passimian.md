@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-passimian.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Defiant
 HomeSprite: SRD-HomeSprite-passimian.png
 Learnset: '[[SRD-Passimian-Learnset]]'

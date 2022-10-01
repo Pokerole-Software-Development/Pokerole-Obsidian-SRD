@@ -4,7 +4,7 @@ Ability2: Early Bird
 BoxSprite: SRD-BoxSprite-doduo.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Tangled Feet
 HomeSprite: SRD-HomeSprite-doduo.png
 Learnset: '[[SRD-Doduo-Learnset]]'

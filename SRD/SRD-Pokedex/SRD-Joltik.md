@@ -4,7 +4,7 @@ Ability2: Unnerve
 BoxSprite: SRD-BoxSprite-joltik.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Swarm
 HomeSprite: SRD-HomeSprite-joltik.png
 Learnset: '[[SRD-Joltik-Learnset]]'

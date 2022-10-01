@@ -4,7 +4,7 @@ Ability2: Unnerve
 BoxSprite: SRD-BoxSprite-litleo.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Moxie
 HomeSprite: SRD-HomeSprite-litleo.png
 Learnset: '[[SRD-Litleo-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-monferno.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Iron Fist
 HomeSprite: SRD-HomeSprite-monferno.png
 Learnset: '[[SRD-Monferno-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-magearna.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-magearna.png
 Learnset: '[[SRD-Magearna-Learnset]]'

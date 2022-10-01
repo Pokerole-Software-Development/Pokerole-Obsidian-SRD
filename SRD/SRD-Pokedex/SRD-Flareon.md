@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-flareon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Guts
 HomeSprite: SRD-HomeSprite-flareon.png
 Learnset: '[[SRD-Flareon-Learnset]]'

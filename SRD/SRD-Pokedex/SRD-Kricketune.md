@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-kricketune.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Technician
 HomeSprite: SRD-HomeSprite-kricketune.png
 Learnset: '[[SRD-Kricketune-Learnset]]'

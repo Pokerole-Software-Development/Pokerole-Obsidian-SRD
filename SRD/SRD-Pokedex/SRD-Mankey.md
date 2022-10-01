@@ -4,7 +4,7 @@ Ability2: Anger Point
 BoxSprite: SRD-BoxSprite-mankey.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Defiant
 HomeSprite: SRD-HomeSprite-mankey.png
 Learnset: '[[SRD-Mankey-Learnset]]'

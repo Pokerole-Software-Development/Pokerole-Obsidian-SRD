@@ -4,7 +4,7 @@ Ability2: Run Away
 BoxSprite: SRD-BoxSprite-wooloo.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Bulletproof
 HomeSprite: SRD-HomeSprite-wooloo.png
 Learnset: '[[SRD-Wooloo-Learnset]]'

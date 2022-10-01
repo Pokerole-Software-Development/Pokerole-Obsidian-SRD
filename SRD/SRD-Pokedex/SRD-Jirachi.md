@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-jirachi.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-jirachi.png
 Learnset: '[[SRD-Jirachi-Learnset]]'

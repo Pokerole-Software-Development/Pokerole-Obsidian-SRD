@@ -4,7 +4,7 @@ Ability2: Lightning Rod
 BoxSprite: SRD-BoxSprite-togedemaru.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sturdy
 HomeSprite: SRD-HomeSprite-togedemaru.png
 Learnset: '[[SRD-Togedemaru-Learnset]]'

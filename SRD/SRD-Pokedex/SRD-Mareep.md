@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-mareep.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Plus
 HomeSprite: SRD-HomeSprite-mareep.png
 Learnset: '[[SRD-Mareep-Learnset]]'

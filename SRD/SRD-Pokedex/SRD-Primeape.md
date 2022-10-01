@@ -4,7 +4,7 @@ Ability2: Anger Point
 BoxSprite: SRD-BoxSprite-primeape.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Defiant
 HomeSprite: SRD-HomeSprite-primeape.png
 Learnset: '[[SRD-Primeape-Learnset]]'

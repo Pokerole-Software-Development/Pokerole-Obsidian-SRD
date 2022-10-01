@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-mothim.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Tinted Lens
 HomeSprite: SRD-HomeSprite-mothim.png
 Learnset: '[[SRD-Mothim-Learnset]]'

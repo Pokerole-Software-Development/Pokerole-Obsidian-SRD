@@ -4,7 +4,7 @@ Ability2: Inner Focus
 BoxSprite: SRD-BoxSprite-sawk.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-HomeSprite-sawk.png
 Learnset: '[[SRD-Sawk-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Frisk
 BoxSprite: SRD-BoxSprite-phantump.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Harvest
 HomeSprite: SRD-HomeSprite-phantump.png
 Learnset: '[[SRD-Phantump-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Aftermath
 BoxSprite: SRD-BoxSprite-skuntank.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Keen Eye
 HomeSprite: SRD-HomeSprite-skuntank.png
 Learnset: '[[SRD-Skuntank-Learnset]]'

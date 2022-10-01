@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-bayleef.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-HomeSprite-bayleef.png
 Learnset: '[[SRD-Bayleef-Learnset]]'

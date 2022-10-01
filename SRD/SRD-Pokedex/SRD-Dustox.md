@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-dustox.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Compound Eyes
 HomeSprite: SRD-HomeSprite-dustox.png
 Learnset: '[[SRD-Dustox-Learnset]]'

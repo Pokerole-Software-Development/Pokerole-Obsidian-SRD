@@ -4,7 +4,7 @@ Ability2: Sturdy
 BoxSprite: SRD-BoxSprite-steelix.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-steelix.png
 Learnset: '[[SRD-Steelix-Learnset]]'

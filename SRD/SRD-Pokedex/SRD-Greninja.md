@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-greninja.png
 EventAbilities: Battle Bond
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Protean
 HomeSprite: SRD-HomeSprite-greninja.png
 Learnset: '[[SRD-Greninja-Learnset]]'

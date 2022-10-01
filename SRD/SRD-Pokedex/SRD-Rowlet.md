@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-rowlet.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Long Reach
 HomeSprite: SRD-HomeSprite-rowlet.png
 Learnset: '[[SRD-Rowlet-Learnset]]'

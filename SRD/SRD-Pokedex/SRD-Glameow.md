@@ -4,7 +4,7 @@ Ability2: Own Tempo
 BoxSprite: SRD-BoxSprite-glameow.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Keen Eye
 HomeSprite: SRD-HomeSprite-glameow.png
 Learnset: '[[SRD-Glameow-Learnset]]'

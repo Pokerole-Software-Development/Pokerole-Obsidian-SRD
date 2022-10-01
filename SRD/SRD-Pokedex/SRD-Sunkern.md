@@ -4,7 +4,7 @@ Ability2: Solar Power
 BoxSprite: SRD-BoxSprite-sunkern.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Early Bird
 HomeSprite: SRD-HomeSprite-sunkern.png
 Learnset: '[[SRD-Sunkern-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Limber
 BoxSprite: SRD-BoxSprite-stunfisk.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-stunfisk.png
 Learnset: '[[SRD-Stunfisk-Learnset]]'

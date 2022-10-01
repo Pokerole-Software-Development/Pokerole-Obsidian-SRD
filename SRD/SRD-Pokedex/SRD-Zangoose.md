@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-zangoose.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Toxic Boost
 HomeSprite: SRD-HomeSprite-zangoose.png
 Learnset: '[[SRD-Zangoose-Learnset]]'

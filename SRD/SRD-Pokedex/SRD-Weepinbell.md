@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-weepinbell.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Gluttony
 HomeSprite: SRD-HomeSprite-weepinbell.png
 Learnset: '[[SRD-Weepinbell-Learnset]]'

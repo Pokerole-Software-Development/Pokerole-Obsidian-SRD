@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-guzzlord.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-guzzlord.png
 Learnset: '[[SRD-Guzzlord-Learnset]]'

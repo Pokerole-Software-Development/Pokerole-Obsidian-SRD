@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-rotom-fan.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-rotom-fan.png
 Learnset: '[[SRD-Rotom Fan-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-salazzle.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Oblivious
 HomeSprite: SRD-HomeSprite-salazzle.png
 Learnset: '[[SRD-Salazzle-Learnset]]'

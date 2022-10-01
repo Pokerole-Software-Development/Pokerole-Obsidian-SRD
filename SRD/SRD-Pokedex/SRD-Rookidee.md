@@ -4,7 +4,7 @@ Ability2: Unnerve
 BoxSprite: SRD-BoxSprite-rookidee.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Big Pecks
 HomeSprite: SRD-HomeSprite-rookidee.png
 Learnset: '[[SRD-Rookidee-Learnset]]'

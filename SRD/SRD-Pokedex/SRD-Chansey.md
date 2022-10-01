@@ -4,7 +4,7 @@ Ability2: Serene Grace
 BoxSprite: SRD-BoxSprite-chansey.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Healer
 HomeSprite: SRD-HomeSprite-chansey.png
 Learnset: '[[SRD-Chansey-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Shed Skin
 BoxSprite: SRD-BoxSprite-sandaconda.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-sandaconda.png
 Learnset: '[[SRD-Sandaconda-Learnset]]'

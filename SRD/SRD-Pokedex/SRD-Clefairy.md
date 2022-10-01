@@ -4,7 +4,7 @@ Ability2: Magic Guard
 BoxSprite: SRD-BoxSprite-clefairy.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Friend Guard
 HomeSprite: SRD-HomeSprite-clefairy.png
 Learnset: '[[SRD-Clefairy-Learnset]]'

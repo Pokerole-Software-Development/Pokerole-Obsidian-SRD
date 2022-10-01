@@ -4,7 +4,7 @@ Ability2: Hustle
 BoxSprite: SRD-BoxSprite-dracozolt.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Rush
 HomeSprite: SRD-HomeSprite-dracozolt.png
 Learnset: '[[SRD-Dracozolt-Learnset]]'

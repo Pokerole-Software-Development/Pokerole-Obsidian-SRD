@@ -4,7 +4,7 @@ Ability2: Moxie
 BoxSprite: SRD-BoxSprite-krokorok.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Anger Point
 HomeSprite: SRD-HomeSprite-krokorok.png
 Learnset: '[[SRD-Krokorok-Learnset]]'

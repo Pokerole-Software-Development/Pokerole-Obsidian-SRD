@@ -4,7 +4,7 @@ Ability2: Soundproof
 BoxSprite: SRD-BoxSprite-jangmo-o.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-jangmo-o.png
 Learnset: '[[SRD-Jangmo-o-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Sand Force
 BoxSprite: SRD-BoxSprite-drilbur.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-HomeSprite-drilbur.png
 Learnset: '[[SRD-Drilbur-Learnset]]'

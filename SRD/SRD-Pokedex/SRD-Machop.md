@@ -4,7 +4,7 @@ Ability2: No Guard
 BoxSprite: SRD-BoxSprite-machop.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Steadfast
 HomeSprite: SRD-HomeSprite-machop.png
 Learnset: '[[SRD-Machop-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Tangled Feet
 BoxSprite: SRD-BoxSprite-chatot.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Big Pecks
 HomeSprite: SRD-HomeSprite-chatot.png
 Learnset: '[[SRD-Chatot-Learnset]]'

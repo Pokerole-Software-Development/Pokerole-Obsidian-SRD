@@ -4,7 +4,7 @@ Ability2: Scrappy
 BoxSprite: SRD-BoxSprite-miltank.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-HomeSprite-miltank.png
 Learnset: '[[SRD-Miltank-Learnset]]'

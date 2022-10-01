@@ -4,7 +4,7 @@ Ability2: Iron Fist
 BoxSprite: SRD-BoxSprite-crabrawler.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Anger Point
 HomeSprite: SRD-HomeSprite-crabrawler.png
 Learnset: '[[SRD-Crabrawler-Learnset]]'

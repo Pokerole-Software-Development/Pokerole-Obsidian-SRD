@@ -4,7 +4,7 @@ Ability2: Neutralizing Gas
 BoxSprite: SRD-BoxSprite-weezing-galar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Misty Surge
 HomeSprite: SRD-HomeSprite-weezing-galar.png
 Learnset: '[[SRD-Galarian Weezing-Learnset]]'

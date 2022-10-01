@@ -4,7 +4,7 @@ Ability2: Flash Fire
 BoxSprite: SRD-BoxSprite-ponyta.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Flame Body
 HomeSprite: SRD-HomeSprite-ponyta.png
 Learnset: '[[SRD-Ponyta-Learnset]]'

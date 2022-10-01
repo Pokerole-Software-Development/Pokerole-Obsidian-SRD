@@ -4,7 +4,7 @@ Ability2: Mold Breaker
 BoxSprite: SRD-BoxSprite-pangoro.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Scrappy
 HomeSprite: SRD-HomeSprite-pangoro.png
 Learnset: '[[SRD-Pangoro-Learnset]]'

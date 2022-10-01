@@ -4,7 +4,7 @@ Ability2: Synchronize
 BoxSprite: SRD-BoxSprite-munna.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-munna.png
 Learnset: '[[SRD-Munna-Learnset]]'

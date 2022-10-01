@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-palkia.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-palkia.png
 Learnset: '[[SRD-Palkia-Learnset]]'

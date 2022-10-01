@@ -4,7 +4,7 @@ Ability2: Big Pecks
 BoxSprite: SRD-BoxSprite-ducklett.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Hydration
 HomeSprite: SRD-HomeSprite-ducklett.png
 Learnset: '[[SRD-Ducklett-Learnset]]'

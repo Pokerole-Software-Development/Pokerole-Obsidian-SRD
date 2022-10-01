@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-arrokuda.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Propeller Tail
 HomeSprite: SRD-HomeSprite-arrokuda.png
 Learnset: '[[SRD-Arrokuda-Learnset]]'

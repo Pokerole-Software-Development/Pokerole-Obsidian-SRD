@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-frogadier.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Protean
 HomeSprite: SRD-HomeSprite-frogadier.png
 Learnset: '[[SRD-Frogadier-Learnset]]'

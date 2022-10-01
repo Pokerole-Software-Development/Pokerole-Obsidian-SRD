@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-drizzile.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sniper
 HomeSprite: SRD-HomeSprite-drizzile.png
 Learnset: '[[SRD-Drizzile-Learnset]]'

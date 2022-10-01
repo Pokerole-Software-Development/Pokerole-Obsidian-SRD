@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-infernape.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Iron Fist
 HomeSprite: SRD-HomeSprite-infernape.png
 Learnset: '[[SRD-Infernape-Learnset]]'

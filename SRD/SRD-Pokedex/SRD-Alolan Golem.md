@@ -4,7 +4,7 @@ Ability2: Sturdy
 BoxSprite: SRD-BoxSprite-golem-alola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Galvanize
 HomeSprite: SRD-HomeSprite-golem-alola.png
 Learnset: '[[SRD-Alolan Golem-Learnset]]'

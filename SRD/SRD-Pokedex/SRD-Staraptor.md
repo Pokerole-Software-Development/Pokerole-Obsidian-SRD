@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-staraptor.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Reckless
 HomeSprite: SRD-HomeSprite-staraptor.png
 Learnset: '[[SRD-Staraptor-Learnset]]'

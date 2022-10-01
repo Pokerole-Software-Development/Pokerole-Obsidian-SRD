@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-eelektross.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-eelektross.png
 Learnset: '[[SRD-Eelektross-Learnset]]'

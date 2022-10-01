@@ -4,7 +4,7 @@ Ability2: Guts
 BoxSprite: SRD-BoxSprite-makuhita.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-makuhita.png
 Learnset: '[[SRD-Makuhita-Learnset]]'

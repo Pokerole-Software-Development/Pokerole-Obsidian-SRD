@@ -4,7 +4,7 @@ Ability2: Snow Warning
 BoxSprite: SRD-BoxSprite-vanilluxe.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Weak Armor
 HomeSprite: SRD-HomeSprite-vanilluxe.png
 Learnset: '[[SRD-Vanilluxe-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Pastel Veil
 BoxSprite: SRD-BoxSprite-ponyta-galar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Anticipation
 HomeSprite: SRD-HomeSprite-ponyta-galar.png
 Learnset: '[[SRD-Galarian Ponyta-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-slurpuff.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unburden
 HomeSprite: SRD-HomeSprite-slurpuff.png
 Learnset: '[[SRD-Slurpuff-Learnset]]'

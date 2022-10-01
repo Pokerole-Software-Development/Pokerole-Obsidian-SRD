@@ -4,7 +4,7 @@ Ability2: Queenly Majesty
 BoxSprite: SRD-BoxSprite-tsareena.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sweet Veil
 HomeSprite: SRD-HomeSprite-tsareena.png
 Learnset: '[[SRD-Tsareena-Learnset]]'

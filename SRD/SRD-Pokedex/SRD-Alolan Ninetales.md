@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-ninetales-alola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Snow Warning
 HomeSprite: SRD-HomeSprite-ninetales-alola.png
 Learnset: '[[SRD-Alolan Ninetales-Learnset]]'

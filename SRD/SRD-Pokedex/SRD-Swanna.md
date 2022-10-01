@@ -4,7 +4,7 @@ Ability2: Big Pecks
 BoxSprite: SRD-BoxSprite-swanna.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Hydration
 HomeSprite: SRD-HomeSprite-swanna.png
 Learnset: '[[SRD-Swanna-Learnset]]'

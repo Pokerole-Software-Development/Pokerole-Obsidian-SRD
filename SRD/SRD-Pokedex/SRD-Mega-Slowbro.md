@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-slowbro-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-slowbro-mega.png
 Learnset: '[[SRD-Mega-Slowbro-Learnset]]'

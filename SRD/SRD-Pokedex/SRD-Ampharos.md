@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-ampharos.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Plus
 HomeSprite: SRD-HomeSprite-ampharos.png
 Learnset: '[[SRD-Ampharos-Learnset]]'

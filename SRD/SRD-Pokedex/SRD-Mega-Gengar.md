@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-gengar-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-gengar-mega.png
 Learnset: '[[SRD-Mega-Gengar-Learnset]]'

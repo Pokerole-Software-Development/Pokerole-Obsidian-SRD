@@ -4,7 +4,7 @@ Ability2: Magic Guard
 BoxSprite: SRD-BoxSprite-duosion.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-duosion.png
 Learnset: '[[SRD-Duosion-Learnset]]'

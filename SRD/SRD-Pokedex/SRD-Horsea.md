@@ -4,7 +4,7 @@ Ability2: Sniper
 BoxSprite: SRD-BoxSprite-horsea.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Damp
 HomeSprite: SRD-HomeSprite-horsea.png
 Learnset: '[[SRD-Horsea-Learnset]]'

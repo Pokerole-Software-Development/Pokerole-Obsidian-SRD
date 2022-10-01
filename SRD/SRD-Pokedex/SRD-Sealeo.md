@@ -4,7 +4,7 @@ Ability2: Ice Body
 BoxSprite: SRD-BoxSprite-sealeo.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Oblivious
 HomeSprite: SRD-HomeSprite-sealeo.png
 Learnset: '[[SRD-Sealeo-Learnset]]'

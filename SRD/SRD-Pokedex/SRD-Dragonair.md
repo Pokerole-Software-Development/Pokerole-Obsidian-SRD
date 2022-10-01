@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-dragonair.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Marvel Scale
 HomeSprite: SRD-HomeSprite-dragonair.png
 Learnset: '[[SRD-Dragonair-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Quick Feet
 BoxSprite: SRD-BoxSprite-teddiursa.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Honey Gather
 HomeSprite: SRD-HomeSprite-teddiursa.png
 Learnset: '[[SRD-Teddiursa-Learnset]]'

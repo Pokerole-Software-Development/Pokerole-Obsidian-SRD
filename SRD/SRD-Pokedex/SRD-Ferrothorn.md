@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-ferrothorn.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Anticipation
 HomeSprite: SRD-HomeSprite-ferrothorn.png
 Learnset: '[[SRD-Ferrothorn-Learnset]]'

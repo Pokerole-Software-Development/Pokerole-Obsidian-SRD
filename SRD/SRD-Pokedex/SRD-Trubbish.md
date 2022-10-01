@@ -4,7 +4,7 @@ Ability2: Sticky Hold
 BoxSprite: SRD-BoxSprite-trubbish.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Aftermath
 HomeSprite: SRD-HomeSprite-trubbish.png
 Learnset: '[[SRD-Trubbish-Learnset]]'

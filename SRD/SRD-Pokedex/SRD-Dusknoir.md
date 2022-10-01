@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-dusknoir.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Frisk
 HomeSprite: SRD-HomeSprite-dusknoir.png
 Learnset: '[[SRD-Dusknoir-Learnset]]'

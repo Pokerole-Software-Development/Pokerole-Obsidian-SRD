@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-marshadow.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-marshadow.png
 Learnset: '[[SRD-Marshadow-Learnset]]'

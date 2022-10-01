@@ -4,7 +4,7 @@ Ability2: Sniper
 BoxSprite: SRD-BoxSprite-remoraid.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Moody
 HomeSprite: SRD-HomeSprite-remoraid.png
 Learnset: '[[SRD-Remoraid-Learnset]]'

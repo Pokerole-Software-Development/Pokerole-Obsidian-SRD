@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-starly.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Reckless
 HomeSprite: SRD-HomeSprite-starly.png
 Learnset: '[[SRD-Starly-Learnset]]'

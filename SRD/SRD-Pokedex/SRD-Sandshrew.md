@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-sandshrew.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Rush
 HomeSprite: SRD-HomeSprite-sandshrew.png
 Learnset: '[[SRD-Sandshrew-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-venusaur.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-HomeSprite-venusaur.png
 Learnset: '[[SRD-Venusaur-Learnset]]'

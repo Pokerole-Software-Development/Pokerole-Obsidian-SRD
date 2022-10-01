@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-bellossom.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Healer
 HomeSprite: SRD-HomeSprite-bellossom.png
 Learnset: '[[SRD-Bellossom-Learnset]]'

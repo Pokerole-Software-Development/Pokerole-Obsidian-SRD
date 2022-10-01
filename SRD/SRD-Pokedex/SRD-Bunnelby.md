@@ -4,7 +4,7 @@ Ability2: Cheek Pouch
 BoxSprite: SRD-BoxSprite-bunnelby.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Huge Power
 HomeSprite: SRD-HomeSprite-bunnelby.png
 Learnset: '[[SRD-Bunnelby-Learnset]]'

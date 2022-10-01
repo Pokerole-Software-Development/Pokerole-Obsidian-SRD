@@ -4,7 +4,7 @@ Ability2: Rain Dish
 BoxSprite: SRD-BoxSprite-lotad.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Own Tempo
 HomeSprite: SRD-HomeSprite-lotad.png
 Learnset: '[[SRD-Lotad-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-reshiram.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-reshiram.png
 Learnset: '[[SRD-Reshiram-Learnset]]'

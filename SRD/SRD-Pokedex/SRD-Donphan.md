@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-donphan.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-donphan.png
 Learnset: '[[SRD-Donphan-Learnset]]'

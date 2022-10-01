@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-suicune.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Inner Focus
 HomeSprite: SRD-HomeSprite-suicune.png
 Learnset: '[[SRD-Suicune-Learnset]]'

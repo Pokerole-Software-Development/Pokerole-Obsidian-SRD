@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-espeon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Magic Bounce
 HomeSprite: SRD-HomeSprite-espeon.png
 Learnset: '[[SRD-Espeon-Learnset]]'

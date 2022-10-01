@@ -4,7 +4,7 @@ Ability2: Intimidate
 BoxSprite: SRD-BoxSprite-shinx.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Guts
 HomeSprite: SRD-HomeSprite-shinx.png
 Learnset: '[[SRD-Shinx-Learnset]]'

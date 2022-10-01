@@ -4,7 +4,7 @@ Ability2: Sticky Hold
 BoxSprite: SRD-BoxSprite-gulpin.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Gluttony
 HomeSprite: SRD-HomeSprite-gulpin.png
 Learnset: '[[SRD-Gulpin-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Shield Dust
 BoxSprite: SRD-BoxSprite-cutiefly.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sweet Veil
 HomeSprite: SRD-HomeSprite-cutiefly.png
 Learnset: '[[SRD-Cutiefly-Learnset]]'

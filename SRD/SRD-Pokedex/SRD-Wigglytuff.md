@@ -4,7 +4,7 @@ Ability2: Competitive
 BoxSprite: SRD-BoxSprite-wigglytuff.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Frisk
 HomeSprite: SRD-HomeSprite-wigglytuff.png
 Learnset: '[[SRD-Wigglytuff-Learnset]]'

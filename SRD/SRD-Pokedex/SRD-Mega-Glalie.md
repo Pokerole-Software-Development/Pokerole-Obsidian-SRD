@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-glalie-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Moody
 HomeSprite: SRD-HomeSprite-glalie-mega.png
 Learnset: '[[SRD-Mega-Glalie-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Sheer Force
 BoxSprite: SRD-BoxSprite-conkeldurr.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Iron Fist
 HomeSprite: SRD-HomeSprite-conkeldurr.png
 Learnset: '[[SRD-Conkeldurr-Learnset]]'

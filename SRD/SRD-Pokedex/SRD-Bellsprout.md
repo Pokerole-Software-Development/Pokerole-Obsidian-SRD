@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-bellsprout.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Gluttony
 HomeSprite: SRD-HomeSprite-bellsprout.png
 Learnset: '[[SRD-Bellsprout-Learnset]]'

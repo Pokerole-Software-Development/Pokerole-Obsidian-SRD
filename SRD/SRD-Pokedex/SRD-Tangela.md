@@ -4,7 +4,7 @@ Ability2: Leaf Guard
 BoxSprite: SRD-BoxSprite-tangela.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-tangela.png
 Learnset: '[[SRD-Tangela-Learnset]]'

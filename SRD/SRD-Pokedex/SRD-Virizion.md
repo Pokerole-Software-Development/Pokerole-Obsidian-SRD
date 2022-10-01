@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-virizion.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-virizion.png
 Learnset: '[[SRD-Virizion-Learnset]]'

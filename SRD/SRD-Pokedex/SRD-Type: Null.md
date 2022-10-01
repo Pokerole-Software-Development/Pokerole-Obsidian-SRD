@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-type-null.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-type-null.png
 Learnset: '[[SRD-Type: Null-Learnset]]'

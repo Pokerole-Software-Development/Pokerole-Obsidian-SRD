@@ -4,7 +4,7 @@ Ability2: Swarm
 BoxSprite: SRD-BoxSprite-volbeat.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Prankster
 HomeSprite: SRD-HomeSprite-volbeat.png
 Learnset: '[[SRD-Volbeat-Learnset]]'

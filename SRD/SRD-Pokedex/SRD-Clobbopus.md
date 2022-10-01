@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-clobbopus.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Technician
 HomeSprite: SRD-HomeSprite-clobbopus.png
 Learnset: '[[SRD-Clobbopus-Learnset]]'

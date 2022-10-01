@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-wishiwashi.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-wishiwashi.png
 Learnset: '[[SRD-Wishiwashi Swarm-Learnset]]'

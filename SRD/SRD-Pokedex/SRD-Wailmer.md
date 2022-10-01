@@ -4,7 +4,7 @@ Ability2: Oblivious
 BoxSprite: SRD-BoxSprite-wailmer.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Pressure
 HomeSprite: SRD-HomeSprite-wailmer.png
 Learnset: '[[SRD-Wailmer-Learnset]]'

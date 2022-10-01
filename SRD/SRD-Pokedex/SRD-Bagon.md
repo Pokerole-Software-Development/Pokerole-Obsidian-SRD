@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-bagon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-bagon.png
 Learnset: '[[SRD-Bagon-Learnset]]'

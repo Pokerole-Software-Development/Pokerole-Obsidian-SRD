@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-simipour.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Torrent
 HomeSprite: SRD-HomeSprite-simipour.png
 Learnset: '[[SRD-Simipour-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-araquanid.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Water Absorb
 HomeSprite: SRD-HomeSprite-araquanid.png
 Learnset: '[[SRD-Araquanid-Learnset]]'

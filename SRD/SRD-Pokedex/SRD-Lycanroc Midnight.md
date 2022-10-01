@@ -4,7 +4,7 @@ Ability2: Vital Spirit
 BoxSprite: SRD-BoxSprite-lycanroc-midnight.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: No Guard
 HomeSprite: SRD-HomeSprite-lycanroc-midnight.png
 Learnset: '[[SRD-Lycanroc Midnight-Learnset]]'

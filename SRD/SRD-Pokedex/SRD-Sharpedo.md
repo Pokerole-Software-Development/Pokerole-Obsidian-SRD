@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-sharpedo.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Speed Boost
 HomeSprite: SRD-HomeSprite-sharpedo.png
 Learnset: '[[SRD-Sharpedo-Learnset]]'

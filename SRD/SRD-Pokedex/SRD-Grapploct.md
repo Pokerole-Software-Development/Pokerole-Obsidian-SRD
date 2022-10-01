@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-grapploct.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Technician
 HomeSprite: SRD-HomeSprite-grapploct.png
 Learnset: '[[SRD-Grapploct-Learnset]]'

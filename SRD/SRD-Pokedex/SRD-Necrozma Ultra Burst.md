@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-necrozma-ultra.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-necrozma-ultra.png
 Learnset: '[[SRD-Necrozma Ultra Burst-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Snow Cloak
 BoxSprite: SRD-BoxSprite-vanillish.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Weak Armor
 HomeSprite: SRD-HomeSprite-vanillish.png
 Learnset: '[[SRD-Vanillish-Learnset]]'

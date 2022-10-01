@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-groudon.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-groudon.png
 Learnset: '[[SRD-Groudon-Learnset]]'

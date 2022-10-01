@@ -4,7 +4,7 @@ Ability2: Compound Eyes
 BoxSprite: SRD-BoxSprite-yanmega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Frisk
 HomeSprite: SRD-HomeSprite-yanmega.png
 Learnset: '[[SRD-Yanmega-Learnset]]'

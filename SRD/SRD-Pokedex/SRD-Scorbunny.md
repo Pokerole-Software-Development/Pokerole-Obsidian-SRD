@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-scorbunny.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Libero
 HomeSprite: SRD-HomeSprite-scorbunny.png
 Learnset: '[[SRD-Scorbunny-Learnset]]'

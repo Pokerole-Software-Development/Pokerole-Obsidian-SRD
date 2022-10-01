@@ -4,7 +4,7 @@ Ability2: Strong Jaw
 BoxSprite: SRD-BoxSprite-dracovish.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Rush
 HomeSprite: SRD-HomeSprite-dracovish.png
 Learnset: '[[SRD-Dracovish-Learnset]]'

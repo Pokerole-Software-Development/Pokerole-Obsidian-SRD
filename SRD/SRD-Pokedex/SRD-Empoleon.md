@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-empoleon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Defiant
 HomeSprite: SRD-HomeSprite-empoleon.png
 Learnset: '[[SRD-Empoleon-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Steadfast
 BoxSprite: SRD-BoxSprite-dubwool.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Bulletproof
 HomeSprite: SRD-HomeSprite-dubwool.png
 Learnset: '[[SRD-Dubwool-Learnset]]'

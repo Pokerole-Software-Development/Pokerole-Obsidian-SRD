@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-leafeon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-HomeSprite-leafeon.png
 Learnset: '[[SRD-Leafeon-Learnset]]'

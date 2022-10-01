@@ -4,7 +4,7 @@ Ability2: Tinted Lens
 BoxSprite: SRD-BoxSprite-illumise.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Prankster
 HomeSprite: SRD-HomeSprite-illumise.png
 Learnset: '[[SRD-Illumise-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Klutz
 BoxSprite: SRD-BoxSprite-golurk.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: No Guard
 HomeSprite: SRD-HomeSprite-golurk.png
 Learnset: '[[SRD-Golurk-Learnset]]'

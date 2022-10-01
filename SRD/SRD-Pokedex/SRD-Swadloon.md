@@ -4,7 +4,7 @@ Ability2: Chlorophyll
 BoxSprite: SRD-BoxSprite-swadloon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-swadloon.png
 Learnset: '[[SRD-Swadloon-Learnset]]'

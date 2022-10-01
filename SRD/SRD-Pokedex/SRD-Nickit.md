@@ -4,7 +4,7 @@ Ability2: Unburden
 BoxSprite: SRD-BoxSprite-nickit.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Stakeout
 HomeSprite: SRD-HomeSprite-nickit.png
 Learnset: '[[SRD-Nickit-Learnset]]'

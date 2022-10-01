@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-taillow.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Scrappy
 HomeSprite: SRD-HomeSprite-taillow.png
 Learnset: '[[SRD-Taillow-Learnset]]'

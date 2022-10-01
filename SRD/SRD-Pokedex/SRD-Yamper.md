@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-yamper.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-yamper.png
 Learnset: '[[SRD-Yamper-Learnset]]'

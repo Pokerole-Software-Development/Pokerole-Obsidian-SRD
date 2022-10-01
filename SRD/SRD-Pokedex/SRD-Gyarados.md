@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-gyarados.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Moxie
 HomeSprite: SRD-HomeSprite-gyarados.png
 Learnset: '[[SRD-Gyarados-Learnset]]'

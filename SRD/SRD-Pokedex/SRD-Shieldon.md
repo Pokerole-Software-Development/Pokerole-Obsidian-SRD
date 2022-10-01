@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-shieldon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Soundproof
 HomeSprite: SRD-HomeSprite-shieldon.png
 Learnset: '[[SRD-Shieldon-Learnset]]'

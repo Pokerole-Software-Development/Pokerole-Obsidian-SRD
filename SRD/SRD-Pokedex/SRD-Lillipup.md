@@ -4,7 +4,7 @@ Ability2: Sand Rush
 BoxSprite: SRD-BoxSprite-lillipup.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Scrappy
 HomeSprite: SRD-HomeSprite-lillipup.png
 Learnset: '[[SRD-Lillipup-Learnset]]'

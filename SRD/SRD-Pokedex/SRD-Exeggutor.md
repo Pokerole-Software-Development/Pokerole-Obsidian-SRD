@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-exeggutor.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Harvest
 HomeSprite: SRD-HomeSprite-exeggutor.png
 Learnset: '[[SRD-Exeggutor-Learnset]]'

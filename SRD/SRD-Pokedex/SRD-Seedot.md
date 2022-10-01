@@ -4,7 +4,7 @@ Ability2: Early Bird
 BoxSprite: SRD-BoxSprite-seedot.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-seedot.png
 Learnset: '[[SRD-Seedot-Learnset]]'

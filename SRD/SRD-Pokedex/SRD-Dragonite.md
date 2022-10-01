@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-dragonite.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Multiscale
 HomeSprite: SRD-HomeSprite-dragonite.png
 Learnset: '[[SRD-Dragonite-Learnset]]'

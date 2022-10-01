@@ -4,7 +4,7 @@ Ability2: Natural Cure
 BoxSprite: SRD-BoxSprite-corsola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-corsola.png
 Learnset: '[[SRD-Corsola-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-wobbuffet.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-wobbuffet.png
 Learnset: '[[SRD-Wobbuffet-Learnset]]'

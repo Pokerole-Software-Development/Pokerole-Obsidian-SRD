@@ -4,7 +4,7 @@ Ability2: Competitive
 BoxSprite: SRD-BoxSprite-gothitelle.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Shadow Tag
 HomeSprite: SRD-HomeSprite-gothitelle.png
 Learnset: '[[SRD-Gothitelle-Learnset]]'

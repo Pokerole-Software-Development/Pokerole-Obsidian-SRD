@@ -4,7 +4,7 @@ Ability2: Guts
 BoxSprite: SRD-BoxSprite-hariyama.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-hariyama.png
 Learnset: '[[SRD-Hariyama-Learnset]]'

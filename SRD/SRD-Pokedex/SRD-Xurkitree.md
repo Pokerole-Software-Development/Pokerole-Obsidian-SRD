@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-xurkitree.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-xurkitree.png
 Learnset: '[[SRD-Xurkitree-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Swift Swim
 BoxSprite: SRD-BoxSprite-qwilfish.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Intimidate
 HomeSprite: SRD-HomeSprite-qwilfish.png
 Learnset: '[[SRD-Qwilfish-Learnset]]'

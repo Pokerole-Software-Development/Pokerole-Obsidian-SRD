@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-silcoon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-silcoon.png
 Learnset: '[[SRD-Silcoon-Learnset]]'

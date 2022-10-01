@@ -4,7 +4,7 @@ Ability2: Lightning Rod
 BoxSprite: SRD-BoxSprite-marowak-alola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rock Head
 HomeSprite: SRD-HomeSprite-marowak-alola.png
 Learnset: '[[SRD-Alolan Marowak-Learnset]]'

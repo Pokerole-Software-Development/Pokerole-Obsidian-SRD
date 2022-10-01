@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-metapod.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-metapod.png
 Learnset: '[[SRD-Metapod-Learnset]]'

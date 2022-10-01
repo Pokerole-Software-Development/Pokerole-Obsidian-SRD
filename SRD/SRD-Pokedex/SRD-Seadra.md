@@ -4,7 +4,7 @@ Ability2: Sniper
 BoxSprite: SRD-BoxSprite-seadra.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Damp
 HomeSprite: SRD-HomeSprite-seadra.png
 Learnset: '[[SRD-Seadra-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Anticipation
 BoxSprite: SRD-BoxSprite-barboach.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Hydration
 HomeSprite: SRD-HomeSprite-barboach.png
 Learnset: '[[SRD-Barboach-Learnset]]'

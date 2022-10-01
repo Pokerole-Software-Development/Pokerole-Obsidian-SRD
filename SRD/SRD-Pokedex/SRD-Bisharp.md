@@ -4,7 +4,7 @@ Ability2: Inner Focus
 BoxSprite: SRD-BoxSprite-bisharp.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Pressure
 HomeSprite: SRD-HomeSprite-bisharp.png
 Learnset: '[[SRD-Bisharp-Learnset]]'

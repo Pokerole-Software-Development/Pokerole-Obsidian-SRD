@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-medicham-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-medicham-mega.png
 Learnset: '[[SRD-Mega-Medicham-Learnset]]'

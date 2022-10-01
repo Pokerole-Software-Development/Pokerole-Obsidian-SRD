@@ -4,7 +4,7 @@ Ability2: Flash Fire
 BoxSprite: SRD-BoxSprite-houndour.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-houndour.png
 Learnset: '[[SRD-Houndour-Learnset]]'

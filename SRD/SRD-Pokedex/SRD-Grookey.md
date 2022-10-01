@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-grookey.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Grassy Surge
 HomeSprite: SRD-HomeSprite-grookey.png
 Learnset: '[[SRD-Grookey-Learnset]]'

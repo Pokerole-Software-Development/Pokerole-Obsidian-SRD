@@ -4,7 +4,7 @@ Ability2: Insomnia
 BoxSprite: SRD-BoxSprite-ariados.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sniper
 HomeSprite: SRD-HomeSprite-ariados.png
 Learnset: '[[SRD-Ariados-Learnset]]'

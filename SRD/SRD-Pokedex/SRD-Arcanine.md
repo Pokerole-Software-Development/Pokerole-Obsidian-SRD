@@ -4,7 +4,7 @@ Ability2: Flash Fire
 BoxSprite: SRD-BoxSprite-arcanine.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Justified
 HomeSprite: SRD-HomeSprite-arcanine.png
 Learnset: '[[SRD-Arcanine-Learnset]]'

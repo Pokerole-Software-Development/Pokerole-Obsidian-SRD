@@ -4,7 +4,7 @@ Ability2: Hydration
 BoxSprite: SRD-BoxSprite-sliggoo.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Gooey
 HomeSprite: SRD-HomeSprite-sliggoo.png
 Learnset: '[[SRD-Sliggoo-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-popplio.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Liquid Voice
 HomeSprite: SRD-HomeSprite-popplio.png
 Learnset: '[[SRD-Popplio-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Klutz
 BoxSprite: SRD-BoxSprite-swoobat.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Simple
 HomeSprite: SRD-HomeSprite-swoobat.png
 Learnset: '[[SRD-Swoobat-Learnset]]'

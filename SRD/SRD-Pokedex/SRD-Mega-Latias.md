@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-latias-mega.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-latias-mega.png
 Learnset: '[[SRD-Mega-Latias-Learnset]]'

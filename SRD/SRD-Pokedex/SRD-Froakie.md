@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-froakie.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Protean
 HomeSprite: SRD-HomeSprite-froakie.png
 Learnset: '[[SRD-Froakie-Learnset]]'

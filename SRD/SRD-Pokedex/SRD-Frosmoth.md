@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-frosmoth.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Ice Scales
 HomeSprite: SRD-HomeSprite-frosmoth.png
 Learnset: '[[SRD-Frosmoth-Learnset]]'

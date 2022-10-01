@@ -4,7 +4,7 @@ Ability2: Rock Head
 BoxSprite: SRD-BoxSprite-rhydon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Reckless
 HomeSprite: SRD-HomeSprite-rhydon.png
 Learnset: '[[SRD-Rhydon-Learnset]]'

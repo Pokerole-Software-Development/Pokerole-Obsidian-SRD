@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-feraligatr.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-feraligatr.png
 Learnset: '[[SRD-Feraligatr-Learnset]]'

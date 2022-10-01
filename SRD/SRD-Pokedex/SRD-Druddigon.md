@@ -4,7 +4,7 @@ Ability2: Sheer Force
 BoxSprite: SRD-BoxSprite-druddigon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-HomeSprite-druddigon.png
 Learnset: '[[SRD-Druddigon-Learnset]]'

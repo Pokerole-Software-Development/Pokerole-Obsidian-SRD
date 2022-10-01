@@ -4,7 +4,7 @@ Ability2: Motor Drive
 BoxSprite: SRD-BoxSprite-zebstrika.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-HomeSprite-zebstrika.png
 Learnset: '[[SRD-Zebstrika-Learnset]]'

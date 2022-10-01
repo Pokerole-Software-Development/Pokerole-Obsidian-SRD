@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-amaura.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Snow Warning
 HomeSprite: SRD-HomeSprite-amaura.png
 Learnset: '[[SRD-Amaura-Learnset]]'

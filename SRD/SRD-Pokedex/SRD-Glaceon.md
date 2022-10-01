@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-glaceon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Ice Body
 HomeSprite: SRD-HomeSprite-glaceon.png
 Learnset: '[[SRD-Glaceon-Learnset]]'

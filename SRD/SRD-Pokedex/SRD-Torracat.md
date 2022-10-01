@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-torracat.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Intimidate
 HomeSprite: SRD-HomeSprite-torracat.png
 Learnset: '[[SRD-Torracat-Learnset]]'

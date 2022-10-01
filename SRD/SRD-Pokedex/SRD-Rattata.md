@@ -4,7 +4,7 @@ Ability2: Guts
 BoxSprite: SRD-BoxSprite-rattata.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Hustle
 HomeSprite: SRD-HomeSprite-rattata.png
 Learnset: '[[SRD-Rattata-Learnset]]'

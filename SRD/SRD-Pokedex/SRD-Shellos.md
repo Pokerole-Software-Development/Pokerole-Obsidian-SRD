@@ -4,7 +4,7 @@ Ability2: Storm Drain
 BoxSprite: SRD-BoxSprite-shellos.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-shellos.png
 Learnset: '[[SRD-Shellos-Learnset]]'

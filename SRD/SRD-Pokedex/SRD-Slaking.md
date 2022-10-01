@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-slaking.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-slaking.png
 Learnset: '[[SRD-Slaking-Learnset]]'

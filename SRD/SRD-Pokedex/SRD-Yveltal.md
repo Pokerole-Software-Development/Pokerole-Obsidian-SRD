@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-yveltal.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-yveltal.png
 Learnset: '[[SRD-Yveltal-Learnset]]'

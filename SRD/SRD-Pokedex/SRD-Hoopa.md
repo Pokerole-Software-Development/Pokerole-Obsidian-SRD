@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-hoopa.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-hoopa.png
 Learnset: '[[SRD-Hoopa-Learnset]]'

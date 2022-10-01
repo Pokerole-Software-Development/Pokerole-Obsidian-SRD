@@ -4,7 +4,7 @@ Ability2: Normalize
 BoxSprite: SRD-BoxSprite-skitty.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Wonder Skin
 HomeSprite: SRD-HomeSprite-skitty.png
 Learnset: '[[SRD-Skitty-Learnset]]'

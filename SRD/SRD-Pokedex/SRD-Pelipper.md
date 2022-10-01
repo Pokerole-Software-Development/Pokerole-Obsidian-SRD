@@ -4,7 +4,7 @@ Ability2: Drizzle
 BoxSprite: SRD-BoxSprite-pelipper.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rain Dish
 HomeSprite: SRD-HomeSprite-pelipper.png
 Learnset: '[[SRD-Pelipper-Learnset]]'

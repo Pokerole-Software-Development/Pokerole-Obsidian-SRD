@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-larvitar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-larvitar.png
 Learnset: '[[SRD-Larvitar-Learnset]]'

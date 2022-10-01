@@ -4,7 +4,7 @@ Ability2: Infiltrator
 BoxSprite: SRD-BoxSprite-dragapult.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Cursed Body
 HomeSprite: SRD-HomeSprite-dragapult.png
 Learnset: '[[SRD-Dragapult-Learnset]]'

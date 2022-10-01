@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-snom.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Ice Scales
 HomeSprite: SRD-HomeSprite-snom.png
 Learnset: '[[SRD-Snom-Learnset]]'

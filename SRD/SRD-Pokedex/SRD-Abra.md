@@ -4,7 +4,7 @@ Ability2: Inner Focus
 BoxSprite: SRD-BoxSprite-abra.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Magic Guard
 HomeSprite: SRD-HomeSprite-abra.png
 Learnset: '[[SRD-Abra-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-gloom.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Stench
 HomeSprite: SRD-HomeSprite-gloom.png
 Learnset: '[[SRD-Gloom-Learnset]]'

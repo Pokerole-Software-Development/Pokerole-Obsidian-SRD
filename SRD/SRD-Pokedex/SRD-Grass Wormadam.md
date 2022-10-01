@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-wormadam-trash.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-wormadam-trash.png
 Learnset: '[[SRD-Grass Wormadam-Learnset]]'

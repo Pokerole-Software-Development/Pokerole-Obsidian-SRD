@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-regice.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Ice Body
 HomeSprite: SRD-HomeSprite-regice.png
 Learnset: '[[SRD-Regice-Learnset]]'

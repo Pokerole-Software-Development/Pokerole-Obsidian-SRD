@@ -4,7 +4,7 @@ Ability2: Serene Grace
 BoxSprite: SRD-BoxSprite-happiny.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Friend Guard
 HomeSprite: SRD-HomeSprite-happiny.png
 Learnset: '[[SRD-Happiny-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Early Bird
 BoxSprite: SRD-BoxSprite-xatu.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Magic Bounce
 HomeSprite: SRD-HomeSprite-xatu.png
 Learnset: '[[SRD-Natu-Learnset]]'

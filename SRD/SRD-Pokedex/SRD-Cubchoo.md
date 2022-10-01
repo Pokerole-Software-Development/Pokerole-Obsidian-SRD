@@ -4,7 +4,7 @@ Ability2: Slush Rush
 BoxSprite: SRD-BoxSprite-cubchoo.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-cubchoo.png
 Learnset: '[[SRD-Cubchoo-Learnset]]'

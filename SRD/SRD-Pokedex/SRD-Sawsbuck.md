@@ -4,7 +4,7 @@ Ability2: Sap Sipper
 BoxSprite: SRD-BoxSprite-sawsbuck.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Serene Grace
 HomeSprite: SRD-HomeSprite-sawsbuck.png
 Learnset: '[[SRD-Sawsbuck-Learnset]]'

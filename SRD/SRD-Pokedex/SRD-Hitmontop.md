@@ -4,7 +4,7 @@ Ability2: Technician
 BoxSprite: SRD-BoxSprite-hitmontop.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Steadfast
 HomeSprite: SRD-HomeSprite-hitmontop.png
 Learnset: '[[SRD-Hitmontop-Learnset]]'

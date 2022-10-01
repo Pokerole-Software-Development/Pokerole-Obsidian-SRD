@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-rotom-frost.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-rotom-frost.png
 Learnset: '[[SRD-Rotom Frost-Learnset]]'

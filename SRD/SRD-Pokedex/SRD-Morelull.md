@@ -4,7 +4,7 @@ Ability2: Effect Spore
 BoxSprite: SRD-BoxSprite-morelull.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rain Dish
 HomeSprite: SRD-HomeSprite-morelull.png
 Learnset: '[[SRD-Morelull-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-hydreigon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-hydreigon.png
 Learnset: '[[SRD-Hydreigon-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Sniper
 BoxSprite: SRD-BoxSprite-octillery.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Moody
 HomeSprite: SRD-HomeSprite-octillery.png
 Learnset: '[[SRD-Octillery-Learnset]]'

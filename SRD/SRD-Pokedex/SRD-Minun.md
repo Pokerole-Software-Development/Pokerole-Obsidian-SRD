@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-minun.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Volt Absorb
 HomeSprite: SRD-HomeSprite-minun.png
 Learnset: '[[SRD-Minun-Learnset]]'

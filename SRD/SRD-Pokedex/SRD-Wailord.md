@@ -4,7 +4,7 @@ Ability2: Oblivious
 BoxSprite: SRD-BoxSprite-wailord.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Pressure
 HomeSprite: SRD-HomeSprite-wailord.png
 Learnset: '[[SRD-Wailord-Learnset]]'

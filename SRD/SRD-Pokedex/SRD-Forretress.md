@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-forretress.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-forretress.png
 Learnset: '[[SRD-Forretress-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-charmander.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Solar Power
 HomeSprite: SRD-HomeSprite-charmander.png
 Learnset: '[[SRD-Charmander-Learnset]]'

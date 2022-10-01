@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-beautifly.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rivalry
 HomeSprite: SRD-HomeSprite-beautifly.png
 Learnset: '[[SRD-Beautifly-Learnset]]'

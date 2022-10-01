@@ -4,7 +4,7 @@ Ability2: Stall
 BoxSprite: SRD-BoxSprite-sableye.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Prankster
 HomeSprite: SRD-HomeSprite-sableye.png
 Learnset: '[[SRD-Sableye-Learnset]]'

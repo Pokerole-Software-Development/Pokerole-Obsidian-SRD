@@ -4,7 +4,7 @@ Ability2: Zen Mode
 BoxSprite: SRD-BoxSprite-darmanitan-galar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-darmanitan-galar.png
 Learnset: '[[SRD-Galarian Darmanitan-Learnset]]'

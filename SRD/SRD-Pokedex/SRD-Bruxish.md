@@ -4,7 +4,7 @@ Ability2: Strong Jaw
 BoxSprite: SRD-BoxSprite-bruxish.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Wonder Skin
 HomeSprite: SRD-HomeSprite-bruxish.png
 Learnset: '[[SRD-Bruxish-Learnset]]'

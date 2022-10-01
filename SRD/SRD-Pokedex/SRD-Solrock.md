@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-solrock.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-solrock.png
 Learnset: '[[SRD-Solrock-Learnset]]'

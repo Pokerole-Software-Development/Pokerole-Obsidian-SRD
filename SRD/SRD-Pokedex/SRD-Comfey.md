@@ -4,7 +4,7 @@ Ability2: Triage
 BoxSprite: SRD-BoxSprite-comfey.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Natural Cure
 HomeSprite: SRD-HomeSprite-comfey.png
 Learnset: '[[SRD-Comfey-Learnset]]'

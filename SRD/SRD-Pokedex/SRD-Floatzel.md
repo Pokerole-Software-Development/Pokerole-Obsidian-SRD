@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-floatzel.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Water Veil
 HomeSprite: SRD-HomeSprite-floatzel.png
 Learnset: '[[SRD-Floatzel-Learnset]]'

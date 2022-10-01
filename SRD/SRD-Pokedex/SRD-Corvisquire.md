@@ -4,7 +4,7 @@ Ability2: Unnerve
 BoxSprite: SRD-BoxSprite-corvisquire.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Big Pecks
 HomeSprite: SRD-HomeSprite-corvisquire.png
 Learnset: '[[SRD-Corvisquire-Learnset]]'

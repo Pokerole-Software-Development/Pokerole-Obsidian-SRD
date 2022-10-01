@@ -4,7 +4,7 @@ Ability2: Sand Rush
 BoxSprite: SRD-BoxSprite-herdier.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Scrappy
 HomeSprite: SRD-HomeSprite-herdier.png
 Learnset: '[[SRD-Herdier-Learnset]]'

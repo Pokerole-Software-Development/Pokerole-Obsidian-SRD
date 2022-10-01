@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-bulbasaur.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-HomeSprite-bulbasaur.png
 Learnset: '[[SRD-Bulbasaur-Learnset]]'

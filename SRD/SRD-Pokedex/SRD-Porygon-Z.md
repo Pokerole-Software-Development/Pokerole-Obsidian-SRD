@@ -4,7 +4,7 @@ Ability2: Download
 BoxSprite: SRD-BoxSprite-porygon-z.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Analytic
 HomeSprite: SRD-HomeSprite-porygon-z.png
 Learnset: '[[SRD-Porygon-Z-Learnset]]'

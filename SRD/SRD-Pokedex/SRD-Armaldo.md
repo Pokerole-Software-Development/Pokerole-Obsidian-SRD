@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-armaldo.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Swift Swim
 HomeSprite: SRD-HomeSprite-armaldo.png
 Learnset: '[[SRD-Armaldo-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Rock Head
 BoxSprite: SRD-BoxSprite-bonsly.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-bonsly.png
 Learnset: '[[SRD-Bonsly-Learnset]]'

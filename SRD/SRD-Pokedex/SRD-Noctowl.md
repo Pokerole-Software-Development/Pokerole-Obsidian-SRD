@@ -4,7 +4,7 @@ Ability2: Keen Eye
 BoxSprite: SRD-BoxSprite-noctowl.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Tinted Lens
 HomeSprite: SRD-HomeSprite-noctowl.png
 Learnset: '[[SRD-Noctowl-Learnset]]'

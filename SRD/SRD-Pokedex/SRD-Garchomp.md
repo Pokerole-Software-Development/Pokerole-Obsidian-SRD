@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-garchomp.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Rough Skin
 HomeSprite: SRD-HomeSprite-garchomp.png
 Learnset: '[[SRD-Garchomp-Learnset]]'

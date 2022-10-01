@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-decidueye.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Long Reach
 HomeSprite: SRD-HomeSprite-decidueye.png
 Learnset: '[[SRD-Decidueye-Learnset]]'

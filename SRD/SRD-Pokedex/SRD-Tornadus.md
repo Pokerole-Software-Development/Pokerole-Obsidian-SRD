@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-tornadus.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Defiant
 HomeSprite: SRD-HomeSprite-tornadus.png
 Learnset: '[[SRD-Tornadus-Learnset]]'

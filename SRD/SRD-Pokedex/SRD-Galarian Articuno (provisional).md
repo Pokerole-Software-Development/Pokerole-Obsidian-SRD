@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-articuno-galar.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-articuno-galar.png
 Learnset: '[[SRD-Galarian Articuno (provisional)-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-pincurchin.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Electric Surge
 HomeSprite: SRD-HomeSprite-pincurchin.png
 Learnset: '[[SRD-Pincurchin-Learnset]]'

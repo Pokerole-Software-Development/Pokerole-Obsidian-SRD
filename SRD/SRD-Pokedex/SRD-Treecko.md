@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-treecko.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unburden
 HomeSprite: SRD-HomeSprite-treecko.png
 Learnset: '[[SRD-Treecko-Learnset]]'

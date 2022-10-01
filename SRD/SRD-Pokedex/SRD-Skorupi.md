@@ -4,7 +4,7 @@ Ability2: Sniper
 BoxSprite: SRD-BoxSprite-skorupi.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Keen Eye
 HomeSprite: SRD-HomeSprite-skorupi.png
 Learnset: '[[SRD-Skorupi-Learnset]]'

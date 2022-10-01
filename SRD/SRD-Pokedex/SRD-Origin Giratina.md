@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-giratina-origin.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-giratina-origin.png
 Learnset: '[[SRD-Origin Giratina-Learnset]]'

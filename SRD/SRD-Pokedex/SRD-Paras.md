@@ -4,7 +4,7 @@ Ability2: Dry Skin
 BoxSprite: SRD-BoxSprite-paras.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Damp
 HomeSprite: SRD-HomeSprite-paras.png
 Learnset: '[[SRD-Paras-Learnset]]'

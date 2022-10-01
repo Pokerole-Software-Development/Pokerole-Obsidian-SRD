@@ -4,7 +4,7 @@ Ability2: Stamina
 BoxSprite: SRD-BoxSprite-mudbray.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Inner Focus
 HomeSprite: SRD-HomeSprite-mudbray.png
 Learnset: '[[SRD-Mudbray-Learnset]]'

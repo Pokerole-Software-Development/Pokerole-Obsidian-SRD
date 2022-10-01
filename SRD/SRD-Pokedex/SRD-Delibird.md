@@ -4,7 +4,7 @@ Ability2: Hustle
 BoxSprite: SRD-BoxSprite-delibird.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Insomnia
 HomeSprite: SRD-HomeSprite-delibird.png
 Learnset: '[[SRD-Delibird-Learnset]]'

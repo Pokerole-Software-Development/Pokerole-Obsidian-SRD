@@ -4,7 +4,7 @@ Ability2: Power Construct
 BoxSprite: SRD-BoxSprite-zygarde.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-zygarde.png
 Learnset: '[[SRD-Zygarde 50%-Learnset]]'

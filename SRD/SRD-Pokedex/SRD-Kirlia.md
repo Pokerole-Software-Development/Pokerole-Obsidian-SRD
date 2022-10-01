@@ -4,7 +4,7 @@ Ability2: Trace
 BoxSprite: SRD-BoxSprite-kirlia.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-kirlia.png
 Learnset: '[[SRD-Kirlia-Learnset]]'

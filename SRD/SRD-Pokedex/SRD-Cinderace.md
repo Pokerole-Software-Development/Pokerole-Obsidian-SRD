@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-cinderace.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Libero
 HomeSprite: SRD-HomeSprite-cinderace.png
 Learnset: '[[SRD-Cinderace-Learnset]]'

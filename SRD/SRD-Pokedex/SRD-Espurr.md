@@ -4,7 +4,7 @@ Ability2: Infiltrator
 BoxSprite: SRD-BoxSprite-espurr.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Own Tempo
 HomeSprite: SRD-HomeSprite-espurr.png
 Learnset: '[[SRD-Espurr-Learnset]]'

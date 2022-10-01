@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-poipole.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-poipole.png
 Learnset: '[[SRD-Poipole-Learnset]]'

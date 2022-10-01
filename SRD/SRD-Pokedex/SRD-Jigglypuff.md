@@ -4,7 +4,7 @@ Ability2: Competitive
 BoxSprite: SRD-BoxSprite-jigglypuff.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Friend Guard
 HomeSprite: SRD-HomeSprite-jigglypuff.png
 Learnset: '[[SRD-Jigglypuff-Learnset]]'

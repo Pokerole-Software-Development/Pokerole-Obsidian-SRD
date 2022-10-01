@@ -4,7 +4,7 @@ Ability2: Poison Point
 BoxSprite: SRD-BoxSprite-roserade.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Technician
 HomeSprite: SRD-HomeSprite-roserade.png
 Learnset: '[[SRD-Roserade-Learnset]]'

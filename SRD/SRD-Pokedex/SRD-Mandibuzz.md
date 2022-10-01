@@ -4,7 +4,7 @@ Ability2: Overcoat
 BoxSprite: SRD-BoxSprite-mandibuzz.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Weak Armor
 HomeSprite: SRD-HomeSprite-mandibuzz.png
 Learnset: '[[SRD-Mandibuzz-Learnset]]'

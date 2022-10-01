@@ -4,7 +4,7 @@ Ability2: Swarm
 BoxSprite: SRD-BoxSprite-venipede.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Speed Boost
 HomeSprite: SRD-HomeSprite-venipede.png
 Learnset: '[[SRD-Venipede-Learnset]]'

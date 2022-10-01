@@ -4,7 +4,7 @@ Ability2: Pressure
 BoxSprite: SRD-BoxSprite-aerodactyl.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-aerodactyl.png
 Learnset: '[[SRD-Aerodactyl-Learnset]]'

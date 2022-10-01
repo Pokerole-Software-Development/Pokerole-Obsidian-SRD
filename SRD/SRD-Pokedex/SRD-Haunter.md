@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-haunter.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-haunter.png
 Learnset: '[[SRD-Haunter-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Flame Body
 BoxSprite: SRD-BoxSprite-lampent.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-lampent.png
 Learnset: '[[SRD-Lampent-Learnset]]'

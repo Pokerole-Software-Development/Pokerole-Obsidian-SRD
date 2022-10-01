@@ -4,7 +4,7 @@ Ability2: Rock Head
 BoxSprite: SRD-BoxSprite-rhyhorn.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Reckless
 HomeSprite: SRD-HomeSprite-rhyhorn.png
 Learnset: '[[SRD-Rhyhorn-Learnset]]'

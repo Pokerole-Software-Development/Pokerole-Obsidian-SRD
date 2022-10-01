@@ -4,7 +4,7 @@ Ability2: Tangling Hair
 BoxSprite: SRD-BoxSprite-diglett-alola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-diglett-alola.png
 Learnset: '[[SRD-Alolan Diglett-Learnset]]'

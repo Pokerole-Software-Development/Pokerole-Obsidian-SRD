@@ -4,7 +4,7 @@ Ability2: Moxie
 BoxSprite: SRD-BoxSprite-scrafty.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Intimidate
 HomeSprite: SRD-HomeSprite-scrafty.png
 Learnset: '[[SRD-Scrafty-Learnset]]'

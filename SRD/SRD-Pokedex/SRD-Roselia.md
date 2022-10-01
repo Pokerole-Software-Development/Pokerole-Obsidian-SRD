@@ -4,7 +4,7 @@ Ability2: Poison Point
 BoxSprite: SRD-BoxSprite-roselia.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-HomeSprite-roselia.png
 Learnset: '[[SRD-Roselia-Learnset]]'

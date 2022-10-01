@@ -4,7 +4,7 @@ Ability2: Heatproof
 BoxSprite: SRD-BoxSprite-bronzor.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Heavy Metal
 HomeSprite: SRD-HomeSprite-bronzor.png
 Learnset: '[[SRD-Bronzor-Learnset]]'

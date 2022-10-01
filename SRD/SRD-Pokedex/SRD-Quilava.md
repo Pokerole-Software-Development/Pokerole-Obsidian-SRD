@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-quilava.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Flash Fire
 HomeSprite: SRD-HomeSprite-quilava.png
 Learnset: '[[SRD-Quilava-Learnset]]'

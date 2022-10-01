@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-charjabug.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-charjabug.png
 Learnset: '[[SRD-Charjabug-Learnset]]'

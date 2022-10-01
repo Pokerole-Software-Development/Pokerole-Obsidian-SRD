@@ -4,7 +4,7 @@ Ability2: Lightning Rod
 BoxSprite: SRD-BoxSprite-manectric.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Minus
 HomeSprite: SRD-HomeSprite-manectric.png
 Learnset: '[[SRD-Manectric-Learnset]]'

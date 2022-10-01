@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-metagross-mega.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-metagross-mega.png
 Learnset: '[[SRD-Mega-Metagross-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-pansear.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Blaze
 HomeSprite: SRD-HomeSprite-pansear.png
 Learnset: '[[SRD-Pansear-Learnset]]'

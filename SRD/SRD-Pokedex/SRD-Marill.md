@@ -4,7 +4,7 @@ Ability2: Huge Power
 BoxSprite: SRD-BoxSprite-marill.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-HomeSprite-marill.png
 Learnset: '[[SRD-Marill-Learnset]]'

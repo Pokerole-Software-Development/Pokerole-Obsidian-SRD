@@ -4,7 +4,7 @@ Ability2: Technician
 BoxSprite: SRD-BoxSprite-scizor.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Light Metal
 HomeSprite: SRD-HomeSprite-scizor.png
 Learnset: '[[SRD-Scizor-Learnset]]'

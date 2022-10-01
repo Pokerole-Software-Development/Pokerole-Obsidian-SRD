@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-chesnaught.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Bulletproof
 HomeSprite: SRD-HomeSprite-chesnaught.png
 Learnset: '[[SRD-Chesnaught-Learnset]]'

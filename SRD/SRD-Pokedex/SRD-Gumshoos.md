@@ -4,7 +4,7 @@ Ability2: Strong Jaw
 BoxSprite: SRD-BoxSprite-gumshoos.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Adaptability
 HomeSprite: SRD-HomeSprite-gumshoos.png
 Learnset: '[[SRD-Gumshoos-Learnset]]'

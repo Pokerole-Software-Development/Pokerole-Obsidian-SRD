@@ -4,7 +4,7 @@ Ability2: Gluttony
 BoxSprite: SRD-BoxSprite-grimer-alola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Power of Alchemy
 HomeSprite: SRD-HomeSprite-grimer-alola.png
 Learnset: '[[SRD-Alolan Grimer-Learnset]]'

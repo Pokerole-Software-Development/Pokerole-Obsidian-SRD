@@ -4,7 +4,7 @@ Ability2: Tough Claws
 BoxSprite: SRD-BoxSprite-binacle.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-binacle.png
 Learnset: '[[SRD-Binacle-Learnset]]'

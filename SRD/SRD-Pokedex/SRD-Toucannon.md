@@ -4,7 +4,7 @@ Ability2: Skill Link
 BoxSprite: SRD-BoxSprite-toucannon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-toucannon.png
 Learnset: '[[SRD-Toucannon-Learnset]]'

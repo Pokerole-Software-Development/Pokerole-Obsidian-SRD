@@ -4,7 +4,7 @@ Ability2: Frisk
 BoxSprite: SRD-BoxSprite-banette.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Cursed Body
 HomeSprite: SRD-HomeSprite-banette.png
 Learnset: '[[SRD-Banette-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-camerupt-mega.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-camerupt-mega.png
 Learnset: '[[SRD-Mega-Camerupt-Learnset]]'

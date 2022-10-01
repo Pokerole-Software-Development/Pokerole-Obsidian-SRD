@@ -4,7 +4,7 @@ Ability2: Tinted Lens
 BoxSprite: SRD-BoxSprite-venomoth.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Wonder Skin
 HomeSprite: SRD-HomeSprite-venomoth.png
 Learnset: '[[SRD-Venomoth-Learnset]]'

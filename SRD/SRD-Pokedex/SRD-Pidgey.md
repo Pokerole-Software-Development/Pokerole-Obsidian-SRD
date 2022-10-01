@@ -4,7 +4,7 @@ Ability2: Tangled Feet
 BoxSprite: SRD-BoxSprite-pidgey.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Big Pecks
 HomeSprite: SRD-HomeSprite-pidgey.png
 Learnset: '[[SRD-Pidgey-Learnset]]'

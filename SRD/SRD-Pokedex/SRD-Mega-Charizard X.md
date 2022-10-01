@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-charizard-mega-x.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-charizard-mega-x.png
 Learnset: '[[SRD-Mega-Charizard X-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Unburden
 BoxSprite: SRD-BoxSprite-drifblim.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Flare Boost
 HomeSprite: SRD-HomeSprite-drifblim.png
 Learnset: '[[SRD-Drifblim-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-cacturne.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Water Absorb
 HomeSprite: SRD-HomeSprite-cacturne.png
 Learnset: '[[SRD-Cacturne-Learnset]]'

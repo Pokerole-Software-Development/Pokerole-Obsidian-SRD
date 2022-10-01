@@ -4,7 +4,7 @@ Ability2: Guts
 BoxSprite: SRD-BoxSprite-heracross.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Moxie
 HomeSprite: SRD-HomeSprite-heracross.png
 Learnset: '[[SRD-Heracross-Learnset]]'

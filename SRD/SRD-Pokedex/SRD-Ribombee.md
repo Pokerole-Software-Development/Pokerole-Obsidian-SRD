@@ -4,7 +4,7 @@ Ability2: Shield Dust
 BoxSprite: SRD-BoxSprite-ribombee.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sweet Veil
 HomeSprite: SRD-HomeSprite-ribombee.png
 Learnset: '[[SRD-Ribombee-Learnset]]'

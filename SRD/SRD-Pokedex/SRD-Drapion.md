@@ -4,7 +4,7 @@ Ability2: Sniper
 BoxSprite: SRD-BoxSprite-drapion.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Keen Eye
 HomeSprite: SRD-HomeSprite-drapion.png
 Learnset: '[[SRD-Drapion-Learnset]]'

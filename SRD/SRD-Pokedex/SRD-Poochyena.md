@@ -4,7 +4,7 @@ Ability2: Quick Feet
 BoxSprite: SRD-BoxSprite-poochyena.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-poochyena.png
 Learnset: '[[SRD-Poochyena-Learnset]]'

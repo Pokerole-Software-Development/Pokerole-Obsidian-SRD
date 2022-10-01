@@ -4,7 +4,7 @@ Ability2: Klutz
 BoxSprite: SRD-BoxSprite-stufful.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Cute Charm
 HomeSprite: SRD-HomeSprite-stufful.png
 Learnset: '[[SRD-Stufful-Learnset]]'

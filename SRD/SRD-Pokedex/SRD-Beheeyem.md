@@ -4,7 +4,7 @@ Ability2: Synchronize
 BoxSprite: SRD-BoxSprite-beheeyem.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Analytic
 HomeSprite: SRD-HomeSprite-beheeyem.png
 Learnset: '[[SRD-Beheeyem-Learnset]]'

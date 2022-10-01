@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-weavile.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-weavile.png
 Learnset: '[[SRD-Weavile-Learnset]]'

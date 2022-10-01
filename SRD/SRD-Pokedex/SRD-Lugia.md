@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-lugia.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Multiscale
 HomeSprite: SRD-HomeSprite-lugia.png
 Learnset: '[[SRD-Lugia-Learnset]]'

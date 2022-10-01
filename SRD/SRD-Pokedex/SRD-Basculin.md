@@ -4,7 +4,7 @@ Ability2: Adaptability
 BoxSprite: SRD-BoxSprite-basculin.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-HomeSprite-basculin.png
 Learnset: '[[SRD-Basculin-Learnset]]'

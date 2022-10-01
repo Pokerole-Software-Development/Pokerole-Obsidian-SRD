@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-buzzwole.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-buzzwole.png
 Learnset: '[[SRD-Buzzwole-Learnset]]'

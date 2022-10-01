@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-deino.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-deino.png
 Learnset: '[[SRD-Deino-Learnset]]'

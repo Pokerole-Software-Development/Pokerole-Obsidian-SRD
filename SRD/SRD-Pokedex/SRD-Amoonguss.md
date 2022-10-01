@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-amoonguss.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-amoonguss.png
 Learnset: '[[SRD-Amoonguss-Learnset]]'

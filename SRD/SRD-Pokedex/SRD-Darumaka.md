@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-darumaka.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Inner Focus
 HomeSprite: SRD-HomeSprite-darumaka.png
 Learnset: '[[SRD-Darumaka-Learnset]]'

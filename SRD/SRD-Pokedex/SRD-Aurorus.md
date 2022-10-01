@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-aurorus.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Snow Warning
 HomeSprite: SRD-HomeSprite-aurorus.png
 Learnset: '[[SRD-Aurorus-Learnset]]'

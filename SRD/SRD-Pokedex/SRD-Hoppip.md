@@ -4,7 +4,7 @@ Ability2: Leaf Guard
 BoxSprite: SRD-BoxSprite-hoppip.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-hoppip.png
 Learnset: '[[SRD-Hoppip-Learnset]]'

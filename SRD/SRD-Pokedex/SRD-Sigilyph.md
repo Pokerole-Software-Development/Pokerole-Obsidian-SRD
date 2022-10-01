@@ -4,7 +4,7 @@ Ability2: Magic Guard
 BoxSprite: SRD-BoxSprite-sigilyph.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Tinted Lens
 HomeSprite: SRD-HomeSprite-sigilyph.png
 Learnset: '[[SRD-Sigilyph-Learnset]]'

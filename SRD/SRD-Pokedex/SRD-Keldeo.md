@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-keldeo.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-keldeo.png
 Learnset: '[[SRD-Keldeo-Learnset]]'

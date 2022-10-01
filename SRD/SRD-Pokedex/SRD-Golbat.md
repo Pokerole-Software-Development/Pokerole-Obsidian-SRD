@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-golbat.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-golbat.png
 Learnset: '[[SRD-Golbat-Learnset]]'

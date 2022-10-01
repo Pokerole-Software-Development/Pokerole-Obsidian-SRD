@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-rillaboom.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Grassy Surge
 HomeSprite: SRD-HomeSprite-rillaboom.png
 Learnset: '[[SRD-Rillaboom-Learnset]]'

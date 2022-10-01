@@ -4,7 +4,7 @@ Ability2: Motor Drive
 BoxSprite: SRD-BoxSprite-blitzle.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-HomeSprite-blitzle.png
 Learnset: '[[SRD-Blitzle-Learnset]]'

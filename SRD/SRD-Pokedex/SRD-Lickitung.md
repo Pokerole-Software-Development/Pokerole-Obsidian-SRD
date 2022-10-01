@@ -4,7 +4,7 @@ Ability2: Oblivious
 BoxSprite: SRD-BoxSprite-lickitung.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Cloud Nine
 HomeSprite: SRD-HomeSprite-lickitung.png
 Learnset: '[[SRD-Lickitung-Learnset]]'

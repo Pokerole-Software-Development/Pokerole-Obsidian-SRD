@@ -4,7 +4,7 @@ Ability2: Flash Fire
 BoxSprite: SRD-BoxSprite-rapidash.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Flame Body
 HomeSprite: SRD-HomeSprite-rapidash.png
 Learnset: '[[SRD-Rapidash-Learnset]]'

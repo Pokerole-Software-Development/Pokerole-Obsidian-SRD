@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-giratina.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-giratina.png
 Learnset: '[[SRD-Giratina-Learnset]]'

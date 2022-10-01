@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-jolteon.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Quick Feet
 HomeSprite: SRD-HomeSprite-jolteon.png
 Learnset: '[[SRD-Jolteon-Learnset]]'

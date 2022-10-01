@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-torterra.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Shell Armor
 HomeSprite: SRD-HomeSprite-torterra.png
 Learnset: '[[SRD-Torterra-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Shed Skin
 BoxSprite: SRD-BoxSprite-silicobra.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-silicobra.png
 Learnset: '[[SRD-Silicobra-Learnset]]'

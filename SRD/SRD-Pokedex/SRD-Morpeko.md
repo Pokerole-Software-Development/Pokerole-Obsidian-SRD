@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-morpeko.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-morpeko.png
 Learnset: '[[SRD-Morpeko-Learnset]]'

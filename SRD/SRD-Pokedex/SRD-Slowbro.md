@@ -4,7 +4,7 @@ Ability2: Own Tempo
 BoxSprite: SRD-BoxSprite-slowbro.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-slowbro.png
 Learnset: '[[SRD-Slowbro-Learnset]]'

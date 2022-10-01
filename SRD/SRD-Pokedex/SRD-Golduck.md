@@ -4,7 +4,7 @@ Ability2: Cloud Nine
 BoxSprite: SRD-BoxSprite-golduck.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Swift Swim
 HomeSprite: SRD-HomeSprite-golduck.png
 Learnset: '[[SRD-Golduck-Learnset]]'

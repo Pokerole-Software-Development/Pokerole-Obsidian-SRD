@@ -4,7 +4,7 @@ Ability2: Sheer Force
 BoxSprite: SRD-BoxSprite-rufflet.png
 EventAbilities: ''
 GenderType: M
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Hustle
 HomeSprite: SRD-HomeSprite-rufflet.png
 Learnset: '[[SRD-Rufflet-Learnset]]'

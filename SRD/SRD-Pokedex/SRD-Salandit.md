@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-salandit.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Oblivious
 HomeSprite: SRD-HomeSprite-salandit.png
 Learnset: '[[SRD-Salandit-Learnset]]'

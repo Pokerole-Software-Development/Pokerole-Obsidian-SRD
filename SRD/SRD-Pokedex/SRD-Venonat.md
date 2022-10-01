@@ -4,7 +4,7 @@ Ability2: Tinted Lens
 BoxSprite: SRD-BoxSprite-venonat.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Run Away
 HomeSprite: SRD-HomeSprite-venonat.png
 Learnset: '[[SRD-Venonat-Learnset]]'

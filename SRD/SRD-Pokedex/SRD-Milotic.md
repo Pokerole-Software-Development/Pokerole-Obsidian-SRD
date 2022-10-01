@@ -4,7 +4,7 @@ Ability2: Competitive
 BoxSprite: SRD-BoxSprite-milotic.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Cute Charm
 HomeSprite: SRD-HomeSprite-milotic.png
 Learnset: '[[SRD-Milotic-Learnset]]'

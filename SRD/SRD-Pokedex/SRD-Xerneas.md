@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-xerneas.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-xerneas.png
 Learnset: '[[SRD-Xerneas-Learnset]]'

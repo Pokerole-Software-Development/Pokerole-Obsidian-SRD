@@ -4,7 +4,7 @@ Ability2: Magic Guard
 BoxSprite: SRD-BoxSprite-clefable.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unaware
 HomeSprite: SRD-HomeSprite-clefable.png
 Learnset: '[[SRD-Clefable-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Rock Head
 BoxSprite: SRD-BoxSprite-sudowoodo.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-sudowoodo.png
 Learnset: '[[SRD-Sudowoodo-Learnset]]'

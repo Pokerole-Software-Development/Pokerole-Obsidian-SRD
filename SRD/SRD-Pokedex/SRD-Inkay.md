@@ -4,7 +4,7 @@ Ability2: Suction Cups
 BoxSprite: SRD-BoxSprite-inkay.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-inkay.png
 Learnset: '[[SRD-Inkay-Learnset]]'

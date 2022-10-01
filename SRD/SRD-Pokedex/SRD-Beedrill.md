@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-beedrill.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Sniper
 HomeSprite: SRD-HomeSprite-beedrill.png
 Learnset: '[[SRD-Beedrill-Learnset]]'

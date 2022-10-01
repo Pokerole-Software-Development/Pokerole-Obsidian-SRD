@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-meloetta.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-meloetta.png
 Learnset: '[[SRD-Form Meloetta-Learnset]]'

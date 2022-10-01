@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-simisear.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Blaze
 HomeSprite: SRD-HomeSprite-simisear.png
 Learnset: '[[SRD-Simisear-Learnset]]'

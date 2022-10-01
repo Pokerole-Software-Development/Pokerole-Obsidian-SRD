@@ -4,7 +4,7 @@ Ability2: Minus
 BoxSprite: SRD-BoxSprite-toxtricity-low-key.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Technician
 HomeSprite: SRD-HomeSprite-toxtricity-low-key.png
 Learnset: '[[SRD-Toxtricity Low Key-Learnset]]'
@@ -22,7 +22,7 @@ Type2: Poison
 
 ![[SRD-HomeSprite-toxtricity-low-key.png|right]]
 
-**DexID**:: 0849
+**DexID**:: 0849F1
 **Species**:: Toxtricity Low Key
 **Type**:: Electric / Poison
 **Abilities**:: [[SRD-Punk Rock|Punk Rock]] / [[SRD-Minus|Minus]] ([[SRD-Technician|Technician]])

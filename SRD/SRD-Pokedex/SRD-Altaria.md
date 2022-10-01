@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-altaria.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Cloud Nine
 HomeSprite: SRD-HomeSprite-altaria.png
 Learnset: '[[SRD-Altaria-Learnset]]'

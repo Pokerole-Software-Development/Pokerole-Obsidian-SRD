@@ -4,7 +4,7 @@ Ability2: Leaf Guard
 BoxSprite: SRD-BoxSprite-skiploom.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-skiploom.png
 Learnset: '[[SRD-Skiploom-Learnset]]'

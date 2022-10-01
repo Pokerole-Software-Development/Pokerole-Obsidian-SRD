@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-stunfisk-galar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-stunfisk-galar.png
 Learnset: '[[SRD-Galarian Stunfisk-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Keen Eye
 BoxSprite: SRD-BoxSprite-sneasel.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-sneasel.png
 Learnset: '[[SRD-Sneasel-Learnset]]'

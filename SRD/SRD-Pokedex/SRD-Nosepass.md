@@ -4,7 +4,7 @@ Ability2: Magnet Pull
 BoxSprite: SRD-BoxSprite-nosepass.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-nosepass.png
 Learnset: '[[SRD-Nosepass-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Mold Breaker
 BoxSprite: SRD-BoxSprite-fraxure.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-fraxure.png
 Learnset: '[[SRD-Fraxure-Learnset]]'

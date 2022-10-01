@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-gabite.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Rough Skin
 HomeSprite: SRD-HomeSprite-gabite.png
 Learnset: '[[SRD-Gabite-Learnset]]'

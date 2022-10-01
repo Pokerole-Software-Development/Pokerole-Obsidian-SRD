@@ -4,7 +4,7 @@ Ability2: Sap Sipper
 BoxSprite: SRD-BoxSprite-deerling.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Serene Grace
 HomeSprite: SRD-HomeSprite-deerling.png
 Learnset: '[[SRD-Deerling-Learnset]]'

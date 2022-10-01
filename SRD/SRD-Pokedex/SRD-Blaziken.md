@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-blaziken.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Speed Boost
 HomeSprite: SRD-HomeSprite-blaziken.png
 Learnset: '[[SRD-Blaziken-Learnset]]'

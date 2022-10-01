@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-chespin.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Bulletproof
 HomeSprite: SRD-HomeSprite-chespin.png
 Learnset: '[[SRD-Chespin-Learnset]]'

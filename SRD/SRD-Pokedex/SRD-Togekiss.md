@@ -4,7 +4,7 @@ Ability2: Serene Grace
 BoxSprite: SRD-BoxSprite-togekiss.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Super Luck
 HomeSprite: SRD-HomeSprite-togekiss.png
 Learnset: '[[SRD-Togekiss-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Infiltrator
 BoxSprite: SRD-BoxSprite-whimsicott.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-HomeSprite-whimsicott.png
 Learnset: '[[SRD-Whimsicott-Learnset]]'

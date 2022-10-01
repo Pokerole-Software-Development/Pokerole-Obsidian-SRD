@@ -4,7 +4,7 @@ Ability2: Keen Eye
 BoxSprite: SRD-BoxSprite-furret.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Frisk
 HomeSprite: SRD-HomeSprite-furret.png
 Learnset: '[[SRD-Furret-Learnset]]'

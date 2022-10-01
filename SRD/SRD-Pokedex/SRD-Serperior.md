@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-serperior.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Contrary
 HomeSprite: SRD-HomeSprite-serperior.png
 Learnset: '[[SRD-Serperior-Learnset]]'

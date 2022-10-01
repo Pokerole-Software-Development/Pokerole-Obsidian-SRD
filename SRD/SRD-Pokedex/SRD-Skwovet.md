@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-skwovet.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Gluttony
 HomeSprite: SRD-HomeSprite-skwovet.png
 Learnset: '[[SRD-Skwovet-Learnset]]'

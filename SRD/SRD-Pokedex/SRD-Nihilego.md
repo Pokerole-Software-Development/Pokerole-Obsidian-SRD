@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-nihilego.png
 EventAbilities: ''
 GenderType: N
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-nihilego.png
 Learnset: '[[SRD-Nihilego-Learnset]]'

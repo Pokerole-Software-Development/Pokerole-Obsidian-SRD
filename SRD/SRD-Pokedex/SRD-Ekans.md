@@ -4,7 +4,7 @@ Ability2: Shed Skin
 BoxSprite: SRD-BoxSprite-ekans.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-ekans.png
 Learnset: '[[SRD-Ekans-Learnset]]'

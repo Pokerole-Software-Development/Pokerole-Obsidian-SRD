@@ -4,7 +4,7 @@ Ability2: Solid Rock
 BoxSprite: SRD-BoxSprite-rhyperior.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Reckless
 HomeSprite: SRD-HomeSprite-rhyperior.png
 Learnset: '[[SRD-Rhyperior-Learnset]]'

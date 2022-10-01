@@ -4,7 +4,7 @@ Ability2: Tangling Hair
 BoxSprite: SRD-BoxSprite-dugtrio-alola.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-dugtrio-alola.png
 Learnset: '[[SRD-Alolan Dugtrio-Learnset]]'

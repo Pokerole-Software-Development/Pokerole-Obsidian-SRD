@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-emolga.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Motor Drive
 HomeSprite: SRD-HomeSprite-emolga.png
 Learnset: '[[SRD-Emolga-Learnset]]'

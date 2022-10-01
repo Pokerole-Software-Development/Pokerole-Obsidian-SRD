@@ -4,7 +4,7 @@ Ability2: Forewarn
 BoxSprite: SRD-BoxSprite-jynx.png
 EventAbilities: ''
 GenderType: F
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Dry Skin
 HomeSprite: SRD-HomeSprite-jynx.png
 Learnset: '[[SRD-Jynx-Learnset]]'

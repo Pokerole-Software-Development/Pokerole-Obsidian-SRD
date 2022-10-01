@@ -4,7 +4,7 @@ Ability2: Weak Armor
 BoxSprite: SRD-BoxSprite-garbodor.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Aftermath
 HomeSprite: SRD-HomeSprite-garbodor.png
 Learnset: '[[SRD-Garbodor-Learnset]]'

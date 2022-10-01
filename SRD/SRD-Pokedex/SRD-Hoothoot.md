@@ -4,7 +4,7 @@ Ability2: Keen Eye
 BoxSprite: SRD-BoxSprite-hoothoot.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Tinted Lens
 HomeSprite: SRD-HomeSprite-hoothoot.png
 Learnset: '[[SRD-Hoothoot-Learnset]]'

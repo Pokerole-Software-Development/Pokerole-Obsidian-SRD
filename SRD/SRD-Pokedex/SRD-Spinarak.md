@@ -4,7 +4,7 @@ Ability2: Insomnia
 BoxSprite: SRD-BoxSprite-spinarak.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Sniper
 HomeSprite: SRD-HomeSprite-spinarak.png
 Learnset: '[[SRD-Spinarak-Learnset]]'

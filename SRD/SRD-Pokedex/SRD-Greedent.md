@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-greedent.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Gluttony
 HomeSprite: SRD-HomeSprite-greedent.png
 Learnset: '[[SRD-Greedent-Learnset]]'

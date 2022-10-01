@@ -4,7 +4,7 @@ Ability2: Water Absorb
 BoxSprite: SRD-BoxSprite-quagsire.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Unaware
 HomeSprite: SRD-HomeSprite-quagsire.png
 Learnset: '[[SRD-Quagsire-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: Adaptability
 BoxSprite: SRD-BoxSprite-eevee.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: 'Yes'
+HasForm: 'Yes'
 HiddenAbility: Anticipation
 HomeSprite: SRD-HomeSprite-eevee.png
 Learnset: '[[SRD-Eevee-Learnset]]'

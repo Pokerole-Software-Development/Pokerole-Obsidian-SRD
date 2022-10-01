@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-torchic.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Speed Boost
 HomeSprite: SRD-HomeSprite-torchic.png
 Learnset: '[[SRD-Torchic-Learnset]]'

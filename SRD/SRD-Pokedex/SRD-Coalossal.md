@@ -4,7 +4,7 @@ Ability2: Flame Body
 BoxSprite: SRD-BoxSprite-coalossal.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Flash Fire
 HomeSprite: SRD-HomeSprite-coalossal.png
 Learnset: '[[SRD-Coalossal-Learnset]]'

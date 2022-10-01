@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-flaaffy.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Plus
 HomeSprite: SRD-HomeSprite-flaaffy.png
 Learnset: '[[SRD-Flaaffy-Learnset]]'

@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-spewpa.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Friend Guard
 HomeSprite: SRD-HomeSprite-spewpa.png
 Learnset: '[[SRD-Spewpa-Learnset]]'

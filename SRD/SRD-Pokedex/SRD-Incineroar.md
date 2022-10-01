@@ -4,7 +4,7 @@ Ability2: ''
 BoxSprite: SRD-BoxSprite-incineroar.png
 EventAbilities: ''
 GenderType: ''
-HasAForm?: ''
+HasForm: 'No'
 HiddenAbility: Intimidate
 HomeSprite: SRD-HomeSprite-incineroar.png
 Learnset: '[[SRD-Incineroar-Learnset]]'
