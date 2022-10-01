@@ -22,13 +22,13 @@ DexID matches the following pattern `\d{4}([GAHPXY]|F\d)` which in simple terms 
 | BoxSprite        | String | Filename of the Boxsprite for the mon                                | -                  |
 | EventAbilities   | String | Ability Name or empty string if none                                 | -                  |
 | GenderType       | String | Empty String unless Species has unique gender forms, then "M" or "F" | -                  |
-| HasAForm?        | String | "Yes" or Empty String                                                | hasaform           |
+| HasForm           | String | "Yes" or Empty String                                                | -           |
 | HiddenAbility    | String | Ability Name or empty string if none                                 | -                  |
 | HomeSprite       | String | Filename of the Pokemon Home Sprite for the Mon                      | -                  |
 | Learnset         | String | Obsidian link to Learnset document for the Pokemon                   | -                  |
 | Legendary        | String | "Yes" or "No"                                                        | -                  |
 | Name             | String | Pokemon Species name                                                 | -                  |
-| Number           | int    | Pokedex Number of Species                                                                     |                    |
+| Number           | int    | Pokedex Number of Species                                            |                    |
 | Sprite           | String | Basename for this pokemon's sprites                                  | -                  |
 | Type1            | String | Type                                                                 | -                  |
 | Type2            | String | Type or empty string                                                 | -                  |
