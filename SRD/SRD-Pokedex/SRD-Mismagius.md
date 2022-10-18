@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME429.png
+BookShinyImageName: HOME429_s.png
 BoxSprite: SRD-BoxSprite-mismagius.png
+DexCategory: Magical Pokemon
+DexDescription: Extremely rare. Their cries sound like incantations, hearing them
+  gives you bad headaches and hallucinations. It is said that some Mismagius are benevolent
+  and have granted good fortune to people they like.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-mismagius.png
 Learnset: '[[SRD-Mismagius-Learnset]]'
 Legendary: 'No'
 Name: Mismagius
 Number: 429
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: mismagius.png
 Type1: Ghost
 Type2: ''
+Weight:
+  Hectograms: 44
+  Kilograms: 4.4
+  Pounds: 9.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-mismagius.png|right]]
+
+*Magical Pokemon*
+*Extremely rare. Their cries sound like incantations, hearing them gives you bad headaches and hallucinations. It is said that some Mismagius are benevolent and have granted good fortune to people they like.*
 
 **DexID**:: 0429
 **Species**:: Mismagius
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'0" / 0.9m
+**Weight**: 9.7lbs / 4.4kg
 
 ![[SRD-Mismagius-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Natural Cure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME492.png
+BookShinyImageName: HOME492_s.png
 BoxSprite: SRD-BoxSprite-shaymin.png
+DexCategory: No Data
+DexDescription: "There are old traces of gigantic trees that once grew all over the\
+  \ earth. They were called the \u201CTrees of Life\u201D and their flowers granted\
+  \ the power of flight to the kindhearted, or so the legend says."
 EventAbilities: ''
 GenderType: N
 HasForm: 'Yes'
+Height:
+  Deimeters: 2
+  Feet: 0.7
+  Meters: 0.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-shaymin.png
 Learnset: '[[SRD-Shaymin-Learnset]]'
 Legendary: 'Yes'
 Name: Shaymin
 Number: 492
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: shaymin.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 21
+  Kilograms: 2.1
+  Pounds: 4.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-shaymin.png|right]]
+
+*No Data*
+*There are old traces of gigantic trees that once grew all over the earth. They were called the “Trees of Life” and their flowers granted the power of flight to the kindhearted, or so the legend says.*
 
 **DexID**:: 0492
 **Species**:: Shaymin
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 0'7" / 0.2m
+**Weight**: 4.6lbs / 2.1kg
 
 ![[SRD-Shaymin-Learnset]]

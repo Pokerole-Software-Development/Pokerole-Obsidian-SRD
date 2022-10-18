@@ -1,19 +1,36 @@
 ---
 Ability1: Swift Swim
 Ability2: Water Veil
+Baby: 'No'
+BookImageName: HOME119.png
+BookShinyImageName: HOME119_s.png
 BoxSprite: SRD-BoxSprite-seaking.png
+DexCategory: Goldfish Pokemon
+DexDescription: In the autumn, Seaking males can be seen doing courtship dances to
+  females. After getting a mate both will be seen swimming powerfully up rivers and
+  creeks to make their nest.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-HomeSprite-seaking.png
 Learnset: '[[SRD-Seaking-Learnset]]'
 Legendary: 'No'
 Name: Seaking
 Number: 119
+PrimaryEggGroup: Water 2
+SecondaryEggGroup: ''
 Sprite: seaking.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 390
+  Kilograms: 39.0
+  Pounds: 86.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-seaking.png|right]]
+
+*Goldfish Pokemon*
+*In the autumn, Seaking males can be seen doing courtship dances to females. After getting a mate both will be seen swimming powerfully up rivers and creeks to make their nest.*
 
 **DexID**:: 0119
 **Species**:: Seaking
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 86.0lbs / 39.0kg
 
 ![[SRD-Seaking-Learnset]]

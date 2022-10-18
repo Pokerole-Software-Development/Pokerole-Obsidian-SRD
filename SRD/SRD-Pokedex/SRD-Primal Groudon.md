@@ -1,19 +1,36 @@
 ---
 Ability1: Desolate Land
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME383P.png
+BookShinyImageName: HOME383P_s.png
 BoxSprite: SRD-BoxSprite-groudon-primal.png
+DexCategory: No Data
+DexDescription: Millions of years ago chaos reigned. Volcanoes erupting without control,
+  and unbearable heat made all life dry out. Who was so angry inside the raging fire?
+  For its fury has since ingrained into the earth as red rubies.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 50
+  Feet: 16.4
+  Meters: 5.0
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-groudon-primal.png
 Learnset: '[[SRD-Primal Groudon-Learnset]]'
 Legendary: 'Yes'
 Name: Primal Groudon
 Number: 383
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: groudon-primal.png
 Type1: Ground
 Type2: Fire
+Weight:
+  Hectograms: 9997
+  Kilograms: 999.7
+  Pounds: 2204.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fire
 # `= this.name`
 
 ![[SRD-HomeSprite-groudon-primal.png|right]]
+
+*No Data*
+*Millions of years ago chaos reigned. Volcanoes erupting without control, and unbearable heat made all life dry out. Who was so angry inside the raging fire? For its fury has since ingrained into the earth as red rubies.*
 
 **DexID**:: 0383M1
 **Species**:: Primal Groudon
@@ -41,5 +61,7 @@ Type2: Fire
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 16'4" / 5.0m
+**Weight**: 2204.0lbs / 999.7kg
 
 ![[SRD-Primal Groudon-Learnset]]

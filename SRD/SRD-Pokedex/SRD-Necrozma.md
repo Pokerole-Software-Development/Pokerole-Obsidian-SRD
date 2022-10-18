@@ -1,19 +1,36 @@
 ---
 Ability1: Prism Armor
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME800.png
+BookShinyImageName: HOME800_s.png
 BoxSprite: SRD-BoxSprite-necrozma.png
+DexCategory: 'Aether Foundation Log #179'
+DexDescription: First it was just a passing shadow, a shady lurker on the other side
+  of the abyss, but then today it made an appearance. the creature attached itself
+  to our light sources, depleting them until it was all in darkness.
 EventAbilities: ''
 GenderType: N
 HasForm: 'Yes'
+Height:
+  Deimeters: 24
+  Feet: 7.9
+  Meters: 2.4
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-necrozma.png
 Learnset: '[[SRD-Necrozma-Learnset]]'
 Legendary: 'Yes'
 Name: Necrozma
 Number: 800
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: necrozma.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 2300
+  Kilograms: 230.0
+  Pounds: 507.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-necrozma.png|right]]
+
+*Aether Foundation Log #179*
+*First it was just a passing shadow, a shady lurker on the other side of the abyss, but then today it made an appearance. the creature attached itself to our light sources, depleting them until it was all in darkness.*
 
 **DexID**:: 0800
 **Species**:: Necrozma
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 7'9" / 2.4m
+**Weight**: 507.1lbs / 230.0kg
 
 ![[SRD-Necrozma-Learnset]]

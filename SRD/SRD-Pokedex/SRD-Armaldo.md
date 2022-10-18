@@ -1,19 +1,36 @@
 ---
 Ability1: Battle Armor
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME348.png
+BookShinyImageName: HOME348_s.png
 BoxSprite: SRD-BoxSprite-armaldo.png
+DexCategory: Plate Pokemon
+DexDescription: When the waters receded, this Pokemon was forced to evolve to live
+  on land. Evidence suggests that its claws could extend to reach the prey that was
+  far or underwater. Its tough shell made it very resilient.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Swift Swim
 HomeSprite: SRD-HomeSprite-armaldo.png
 Learnset: '[[SRD-Armaldo-Learnset]]'
 Legendary: 'No'
 Name: Armaldo
 Number: 348
+PrimaryEggGroup: Water 3
+SecondaryEggGroup: ''
 Sprite: armaldo.png
 Type1: Rock
 Type2: Bug
+Weight:
+  Hectograms: 682
+  Kilograms: 68.2
+  Pounds: 150.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Bug
 # `= this.name`
 
 ![[SRD-HomeSprite-armaldo.png|right]]
+
+*Plate Pokemon*
+*When the waters receded, this Pokemon was forced to evolve to live on land. Evidence suggests that its claws could extend to reach the prey that was far or underwater. Its tough shell made it very resilient.*
 
 **DexID**:: 0348
 **Species**:: Armaldo
@@ -41,5 +61,7 @@ Type2: Bug
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 150.4lbs / 68.2kg
 
 ![[SRD-Armaldo-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Clear Body
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME379.png
+BookShinyImageName: HOME379_s.png
 BoxSprite: SRD-BoxSprite-registeel.png
+DexCategory: No Data
+DexDescription: His body was indestructible. A flexible metal out of this world that
+  can shrink, expand, made solid or liquid at the speed of thought. Could the myths
+  be true?
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 19
+  Feet: 6.2
+  Meters: 1.9
 HiddenAbility: Light Metal
 HomeSprite: SRD-HomeSprite-registeel.png
 Learnset: '[[SRD-Registeel-Learnset]]'
 Legendary: 'Yes'
 Name: Registeel
 Number: 379
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: registeel.png
 Type1: Steel
 Type2: ''
+Weight:
+  Hectograms: 2050
+  Kilograms: 205.0
+  Pounds: 451.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-registeel.png|right]]
+
+*No Data*
+*His body was indestructible. A flexible metal out of this world that can shrink, expand, made solid or liquid at the speed of thought. Could the myths be true?*
 
 **DexID**:: 0379
 **Species**:: Registeel
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'2" / 1.9m
+**Weight**: 451.9lbs / 205.0kg
 
 ![[SRD-Registeel-Learnset]]

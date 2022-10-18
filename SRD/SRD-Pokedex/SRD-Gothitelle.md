@@ -1,19 +1,36 @@
 ---
 Ability1: Frisk
 Ability2: Competitive
+Baby: 'No'
+BookImageName: HOME576.png
+BookShinyImageName: HOME576_s.png
 BoxSprite: SRD-BoxSprite-gothitelle.png
+DexCategory: Astral Body Pokemon
+DexDescription: They can predict the future from the placement and movement of the
+  stars. They get restless if someone they know will be in danger. They are emphatic
+  creatures that can understand human emotion.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Shadow Tag
 HomeSprite: SRD-HomeSprite-gothitelle.png
 Learnset: '[[SRD-Gothitelle-Learnset]]'
 Legendary: 'No'
 Name: Gothitelle
 Number: 576
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: gothitelle.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 440
+  Kilograms: 44.0
+  Pounds: 97.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-gothitelle.png|right]]
+
+*Astral Body Pokemon*
+*They can predict the future from the placement and movement of the stars. They get restless if someone they know will be in danger. They are emphatic creatures that can understand human emotion.*
 
 **DexID**:: 0576
 **Species**:: Gothitelle
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 97.0lbs / 44.0kg
 
 ![[SRD-Gothitelle-Learnset]]

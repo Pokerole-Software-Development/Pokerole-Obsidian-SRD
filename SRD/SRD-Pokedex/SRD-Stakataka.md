@@ -1,19 +1,36 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME805.png
+BookShinyImageName: HOME805_s.png
 BoxSprite: SRD-BoxSprite-stakataka.png
+DexCategory: 'Aether Foundation Log #132'
+DexDescription: We are finally on the other side. It has been so exciting. What we
+  thought were the ruins of an abandoned civilization turned out to be small sentient
+  creatures that stacked on each other to create a big UB.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 55
+  Feet: 18.0
+  Meters: 5.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-stakataka.png
 Learnset: '[[SRD-Stakataka-Learnset]]'
 Legendary: 'Yes'
 Name: Stakataka
 Number: 805
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: stakataka.png
 Type1: Rock
 Type2: Steel
+Weight:
+  Hectograms: 8200
+  Kilograms: 820.0
+  Pounds: 1807.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-stakataka.png|right]]
+
+*Aether Foundation Log #132*
+*We are finally on the other side. It has been so exciting. What we thought were the ruins of an abandoned civilization turned out to be small sentient creatures that stacked on each other to create a big UB.*
 
 **DexID**:: 0805
 **Species**:: Stakataka
@@ -41,5 +61,7 @@ Type2: Steel
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 18'0" / 5.5m
+**Weight**: 1807.8lbs / 820.0kg
 
 ![[SRD-Stakataka-Learnset]]

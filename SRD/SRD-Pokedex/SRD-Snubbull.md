@@ -1,19 +1,36 @@
 ---
 Ability1: Intimidate
 Ability2: Run Away
+Baby: 'No'
+BookImageName: HOME209.png
+BookShinyImageName: HOME209_s.png
 BoxSprite: SRD-BoxSprite-snubbull.png
+DexCategory: Fairy Pokemon
+DexDescription: It may look frightening but it is a loving and caring creature, active
+  and playful. Snubbulls are easily scared. When threatened by bigger foes they run
+  away or make scary faces, that makes them sad though.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-snubbull.png
 Learnset: '[[SRD-Snubbull-Learnset]]'
 Legendary: 'No'
 Name: Snubbull
 Number: 209
+PrimaryEggGroup: Field
+SecondaryEggGroup: Fairy
 Sprite: snubbull.png
 Type1: Fairy
 Type2: ''
+Weight:
+  Hectograms: 78
+  Kilograms: 7.8
+  Pounds: 17.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-snubbull.png|right]]
+
+*Fairy Pokemon*
+*It may look frightening but it is a loving and caring creature, active and playful. Snubbulls are easily scared. When threatened by bigger foes they run away or make scary faces, that makes them sad though.*
 
 **DexID**:: 0209
 **Species**:: Snubbull
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 17.2lbs / 7.8kg
 
 ![[SRD-Snubbull-Learnset]]

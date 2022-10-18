@@ -47,8 +47,8 @@ Moves:
   - '[[SRD-Magnet Rise|Magnet Rise]]'
 - - Master
   - '[[SRD-Moongeist Beam|Moongeist Beam]]'
-Name: Necrozma Dark Wings
-Species: '[[SRD-Necrozma Dark Wings|Necrozma Dark Wings]]'
+Name: Necrozma Dawn Wings
+Species: '[[SRD-Necrozma Dawn Wings|Necrozma Dawn Wings]]'
 ---
 
 #PokeroleSRD/Learnsets

@@ -1,19 +1,36 @@
 ---
 Ability1: Keen Eye
 Ability2: Drizzle
+Baby: 'No'
+BookImageName: HOME279.png
+BookShinyImageName: HOME279_s.png
 BoxSprite: SRD-BoxSprite-pelipper.png
+DexCategory: Water Bird Pokemon
+DexDescription: Pelipper has been seen carrying eggs and other Pokemon inside its
+  massive bill, protecting them from predators and storms, transporting the young
+  through the great seas.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Rain Dish
 HomeSprite: SRD-HomeSprite-pelipper.png
 Learnset: '[[SRD-Pelipper-Learnset]]'
 Legendary: 'No'
 Name: Pelipper
 Number: 279
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Flying
 Sprite: pelipper.png
 Type1: Water
 Type2: Flying
+Weight:
+  Hectograms: 280
+  Kilograms: 28.0
+  Pounds: 61.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-pelipper.png|right]]
+
+*Water Bird Pokemon*
+*Pelipper has been seen carrying eggs and other Pokemon inside its massive bill, protecting them from predators and storms, transporting the young through the great seas.*
 
 **DexID**:: 0279
 **Species**:: Pelipper
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 61.7lbs / 28.0kg
 
 ![[SRD-Pelipper-Learnset]]

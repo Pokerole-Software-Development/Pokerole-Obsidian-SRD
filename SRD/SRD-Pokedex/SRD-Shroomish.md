@@ -1,19 +1,36 @@
 ---
 Ability1: Effect Spore
 Ability2: Poison Heal
+Baby: 'No'
+BookImageName: HOME285.png
+BookShinyImageName: HOME285_s.png
 BoxSprite: SRD-BoxSprite-shroomish.png
+DexCategory: Mushroom Pokemon
+DexDescription: They live in damp soil in forests, surrounded by moss. They suddenly
+  release toxic spores that make plants dry up. These spores cause serious pain if
+  inhaled. They grow taller with moisture and heat.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Quick Feet
 HomeSprite: SRD-HomeSprite-shroomish.png
 Learnset: '[[SRD-Shroomish-Learnset]]'
 Legendary: 'No'
 Name: Shroomish
 Number: 285
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: Grass
 Sprite: shroomish.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 45
+  Kilograms: 4.5
+  Pounds: 9.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-shroomish.png|right]]
+
+*Mushroom Pokemon*
+*They live in damp soil in forests, surrounded by moss. They suddenly release toxic spores that make plants dry up. These spores cause serious pain if inhaled. They grow taller with moisture and heat.*
 
 **DexID**:: 0285
 **Species**:: Shroomish
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 9.9lbs / 4.5kg
 
 ![[SRD-Shroomish-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Aerilate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME127M.png
+BookShinyImageName: HOME127M_s.png
 BoxSprite: SRD-BoxSprite-pinsir-mega.png
+DexCategory: Stagbeetle Pokemon
+DexDescription: With the power of the Mega Stone it develops wings and inhuman strength.
+  It can lift foes heavier than itself and still fly with ease. Its mind is in a constant
+  state of excitement and it cannot stay still.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-pinsir-mega.png
 Learnset: '[[SRD-Mega-Pinsir-Learnset]]'
 Legendary: 'No'
 Name: Mega-Pinsir
 Number: 127
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: pinsir-mega.png
 Type1: Bug
 Type2: Flying
+Weight:
+  Hectograms: 590
+  Kilograms: 59.0
+  Pounds: 130.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-pinsir-mega.png|right]]
+
+*Stagbeetle Pokemon*
+*With the power of the Mega Stone it develops wings and inhuman strength. It can lift foes heavier than itself and still fly with ease. Its mind is in a constant state of excitement and it cannot stay still.*
 
 **DexID**:: 0127M1
 **Species**:: Mega-Pinsir
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 130.1lbs / 59.0kg
 
 ![[SRD-Mega-Pinsir-Learnset]]

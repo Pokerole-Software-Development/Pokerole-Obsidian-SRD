@@ -1,19 +1,36 @@
 ---
 Ability1: Overgrow
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME497.png
+BookShinyImageName: HOME497_s.png
 BoxSprite: SRD-BoxSprite-serperior.png
+DexCategory: Regal Pokemon
+DexDescription: It stops enemies dead in their tracks with just one intense glare.
+  It is a noble and proud Pokemon. It is not aggressive but it can be very stubborn.
+  It takes a really strong foe for it to take the fight seriously.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 33
+  Feet: 10.8
+  Meters: 3.3
 HiddenAbility: Contrary
 HomeSprite: SRD-HomeSprite-serperior.png
 Learnset: '[[SRD-Serperior-Learnset]]'
 Legendary: 'No'
 Name: Serperior
 Number: 497
+PrimaryEggGroup: Field
+SecondaryEggGroup: Grass
 Sprite: serperior.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 630
+  Kilograms: 63.0
+  Pounds: 138.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-serperior.png|right]]
+
+*Regal Pokemon*
+*It stops enemies dead in their tracks with just one intense glare. It is a noble and proud Pokemon. It is not aggressive but it can be very stubborn. It takes a really strong foe for it to take the fight seriously.*
 
 **DexID**:: 0497
 **Species**:: Serperior
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 10'8" / 3.3m
+**Weight**: 138.9lbs / 63.0kg
 
 ![[SRD-Serperior-Learnset]]

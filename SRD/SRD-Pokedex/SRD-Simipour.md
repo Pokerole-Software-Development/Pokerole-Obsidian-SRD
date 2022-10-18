@@ -1,19 +1,36 @@
 ---
 Ability1: Gluttony
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME516.png
+BookShinyImageName: HOME516_s.png
 BoxSprite: SRD-BoxSprite-simipour.png
+DexCategory: Geyser Pokemon
+DexDescription: It prefers places with clean water. When its tuft runs low, it replenishes
+  it by siphoning water up with its tail. It is said that if you see a Simipour Swimming
+  in a pond, the water is safe to drink.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Torrent
 HomeSprite: SRD-HomeSprite-simipour.png
 Learnset: '[[SRD-Simipour-Learnset]]'
 Legendary: 'No'
 Name: Simipour
 Number: 516
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: simipour.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 290
+  Kilograms: 29.0
+  Pounds: 63.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-simipour.png|right]]
+
+*Geyser Pokemon*
+*It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning water up with its tail. It is said that if you see a Simipour Swimming in a pond, the water is safe to drink.*
 
 **DexID**:: 0516
 **Species**:: Simipour
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 63.9lbs / 29.0kg
 
 ![[SRD-Simipour-Learnset]]

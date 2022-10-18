@@ -1,19 +1,36 @@
 ---
 Ability1: Water Veil
 Ability2: Oblivious
+Baby: 'No'
+BookImageName: HOME321.png
+BookShinyImageName: HOME321_s.png
 BoxSprite: SRD-BoxSprite-wailord.png
+DexCategory: Float Whale Pokemon
+DexDescription: The largest Pokemon known to date. Wailords weight is really light
+  so they can dive almost 10,000 feet with one breath. They live in open ocean herding
+  fish to swallow in one gulp. They are used to being free.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 145
+  Feet: 47.6
+  Meters: 14.5
 HiddenAbility: Pressure
 HomeSprite: SRD-HomeSprite-wailord.png
 Learnset: '[[SRD-Wailord-Learnset]]'
 Legendary: 'No'
 Name: Wailord
 Number: 321
+PrimaryEggGroup: Field
+SecondaryEggGroup: Water 2
 Sprite: wailord.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 3980
+  Kilograms: 398.0
+  Pounds: 877.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-wailord.png|right]]
+
+*Float Whale Pokemon*
+*The largest Pokemon known to date. Wailords weight is really light so they can dive almost 10,000 feet with one breath. They live in open ocean herding fish to swallow in one gulp. They are used to being free.*
 
 **DexID**:: 0321
 **Species**:: Wailord
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 47'6" / 14.5m
+**Weight**: 877.4lbs / 398.0kg
 
 ![[SRD-Wailord-Learnset]]

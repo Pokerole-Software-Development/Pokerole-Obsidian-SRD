@@ -1,19 +1,39 @@
 ---
 Ability1: Magma Armor
 Ability2: Solid Rock
+Baby: 'No'
+BookImageName: HOME323.png
+BookShinyImageName: HOME323_s.png
 BoxSprite: SRD-BoxSprite-camerupt.png
+DexCategory: Eruption Pokemon
+DexDescription: "Sometimes the humps on their back make an eruption when they get\
+  \ really angry, otherwise they\u2019d only erupt every 10 years. Camerupts live\
+  \ inside the craters of volcanoes. They are indifferent to humans."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 19
+  Feet: 6.2
+  Meters: 1.9
 HiddenAbility: Anger Point
 HomeSprite: SRD-HomeSprite-camerupt.png
 Learnset: '[[SRD-Camerupt-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Cameruptite
+  Name: Mega-Camerupt
 Name: Camerupt
 Number: 323
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: camerupt.png
 Type1: Fire
 Type2: Ground
+Weight:
+  Hectograms: 2200
+  Kilograms: 220.0
+  Pounds: 485.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-camerupt.png|right]]
+
+*Eruption Pokemon*
+*Sometimes the humps on their back make an eruption when they get really angry, otherwise they’d only erupt every 10 years. Camerupts live inside the craters of volcanoes. They are indifferent to humans.*
 
 **DexID**:: 0323
 **Species**:: Camerupt
@@ -41,5 +64,7 @@ Type2: Ground
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'2" / 1.9m
+**Weight**: 485.0lbs / 220.0kg
 
 ![[SRD-Camerupt-Learnset]]

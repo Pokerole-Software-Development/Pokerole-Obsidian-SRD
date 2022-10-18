@@ -1,19 +1,36 @@
 ---
 Ability1: Prankster
 Ability2: Infiltrator
+Baby: 'No'
+BookImageName: HOME547.png
+BookShinyImageName: HOME547_s.png
 BoxSprite: SRD-BoxSprite-whimsicott.png
+DexCategory: Windveiled Pokemon
+DexDescription: Riding whirlwinds, they appear and disappear. These Pokemon sneak
+  through even the smallest gaps into houses and cause all sorts of mischief the balls
+  of white fluff it leaves behind reveal its presence.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-HomeSprite-whimsicott.png
 Learnset: '[[SRD-Whimsicott-Learnset]]'
 Legendary: 'No'
 Name: Whimsicott
 Number: 547
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: Grass
 Sprite: whimsicott.png
 Type1: Grass
 Type2: Fairy
+Weight:
+  Hectograms: 66
+  Kilograms: 6.6
+  Pounds: 14.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-whimsicott.png|right]]
+
+*Windveiled Pokemon*
+*Riding whirlwinds, they appear and disappear. These Pokemon sneak through even the smallest gaps into houses and cause all sorts of mischief the balls of white fluff it leaves behind reveal its presence.*
 
 **DexID**:: 0547
 **Species**:: Whimsicott
@@ -41,5 +61,7 @@ Type2: Fairy
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'3" / 0.7m
+**Weight**: 14.6lbs / 6.6kg
 
 ![[SRD-Whimsicott-Learnset]]

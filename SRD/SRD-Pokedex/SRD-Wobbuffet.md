@@ -1,19 +1,36 @@
 ---
 Ability1: Shadow Tag
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME202.png
+BookShinyImageName: HOME202_s.png
 BoxSprite: SRD-BoxSprite-wobbuffet.png
+DexCategory: Patient Pokemon
+DexDescription: Wobbuffet looks somewhat deflated until it senses an aggressor, then
+  it inflates. It will do nothing besides endure and counter attacks. It always keeps
+  its black tail hidden, the reasons are still a mystery.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-wobbuffet.png
 Learnset: '[[SRD-Wobbuffet-Learnset]]'
 Legendary: 'No'
 Name: Wobbuffet
 Number: 202
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: wobbuffet.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 285
+  Kilograms: 28.5
+  Pounds: 62.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-wobbuffet.png|right]]
+
+*Patient Pokemon*
+*Wobbuffet looks somewhat deflated until it senses an aggressor, then it inflates. It will do nothing besides endure and counter attacks. It always keeps its black tail hidden, the reasons are still a mystery.*
 
 **DexID**:: 0202
 **Species**:: Wobbuffet
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 62.8lbs / 28.5kg
 
 ![[SRD-Wobbuffet-Learnset]]

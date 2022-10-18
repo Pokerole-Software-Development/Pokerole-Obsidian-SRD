@@ -1,19 +1,36 @@
 ---
 Ability1: Soundproof
 Ability2: Filter
+Baby: 'No'
+BookImageName: HOME122.png
+BookShinyImageName: HOME122_s.png
 BoxSprite: SRD-BoxSprite-mr-mime.png
+DexCategory: Barrier Pokemon
+DexDescription: "You don\u2019t find this Pokemon, it finds you. It is really smart\
+  \ and amuses itself by showing people its power to create barriers with pantomime.\
+  \ It creates an invisible box and flees when you try to figure out the exit."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Technician
 HomeSprite: SRD-HomeSprite-mr-mime.png
 Learnset: '[[SRD-Mr. Mime-Learnset]]'
 Legendary: 'No'
 Name: Mr. Mime
 Number: 122
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: mr-mime.png
 Type1: Psychic
 Type2: Fairy
+Weight:
+  Hectograms: 545
+  Kilograms: 54.5
+  Pounds: 120.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-mr-mime.png|right]]
+
+*Barrier Pokemon*
+*You don’t find this Pokemon, it finds you. It is really smart and amuses itself by showing people its power to create barriers with pantomime. It creates an invisible box and flees when you try to figure out the exit.*
 
 **DexID**:: 0122
 **Species**:: Mr. Mime
@@ -41,5 +61,7 @@ Type2: Fairy
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 120.2lbs / 54.5kg
 
 ![[SRD-Mr. Mime-Learnset]]

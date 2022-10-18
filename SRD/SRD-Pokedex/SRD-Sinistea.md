@@ -1,19 +1,36 @@
 ---
 Ability1: Weak Armor
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME854.png
+BookShinyImageName: HOME854_s.png
 BoxSprite: SRD-BoxSprite-sinistea.png
+DexCategory: Black Tea Pokemon
+DexDescription: This Pokemon is said to have been born when a lonely spirit possessed
+  a cold, leftover cup of tea. It absorbs the life-force of those who drink it but
+  it tastes so bad that it gets spat out immediately.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 1
+  Feet: 0.3
+  Meters: 0.1
 HiddenAbility: Cursed Body
 HomeSprite: SRD-HomeSprite-sinistea.png
 Learnset: '[[SRD-Sinistea-Learnset]]'
 Legendary: 'No'
 Name: Sinistea
 Number: 854
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: Amorphous
 Sprite: sinistea.png
 Type1: Ghost
 Type2: ''
+Weight:
+  Hectograms: 2
+  Kilograms: 0.2
+  Pounds: 0.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-sinistea.png|right]]
+
+*Black Tea Pokemon*
+*This Pokemon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea. It absorbs the life-force of those who drink it but it tastes so bad that it gets spat out immediately.*
 
 **DexID**:: 0854
 **Species**:: Sinistea
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 0'3" / 0.1m
+**Weight**: 0.4lbs / 0.2kg
 
 ![[SRD-Sinistea-Learnset]]

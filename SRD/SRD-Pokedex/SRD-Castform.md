@@ -1,19 +1,36 @@
 ---
 Ability1: Forecast
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME351.png
+BookShinyImageName: HOME351_s.png
 BoxSprite: SRD-BoxSprite-castform.png
+DexCategory: Weather Pokemon
+DexDescription: This Pokemon reacts to the weather by changing its type and looks.
+  It can also change the weather at will. When there is a drought, farmers lure them
+  with small hanging dolls to ask them for rain.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-castform.png
 Learnset: '[[SRD-Castform-Learnset]]'
 Legendary: 'No'
 Name: Castform
 Number: 351
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: Amorphous
 Sprite: castform.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 8
+  Kilograms: 0.8
+  Pounds: 1.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-castform.png|right]]
+
+*Weather Pokemon*
+*This Pokemon reacts to the weather by changing its type and looks. It can also change the weather at will. When there is a drought, farmers lure them with small hanging dolls to ask them for rain.*
 
 **DexID**:: 0351
 **Species**:: Castform
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'0" / 0.3m
+**Weight**: 1.8lbs / 0.8kg
 
 ![[SRD-Castform-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Own Tempo
 Ability2: Oblivious
+Baby: 'No'
+BookImageName: HOME463.png
+BookShinyImageName: HOME463_s.png
 BoxSprite: SRD-BoxSprite-lickilicky.png
+DexCategory: Licking Pokemon
+DexDescription: It uses its tongue as an stretchable arm. It will wrap prey with it
+  and then proceed to eat it. Its saliva causes numbness. Try not to touch its tongue,
+  it might try to eat you by reflex.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: Cloud Nine
 HomeSprite: SRD-HomeSprite-lickilicky.png
 Learnset: '[[SRD-Lickilicky-Learnset]]'
 Legendary: 'No'
 Name: Lickilicky
 Number: 463
+PrimaryEggGroup: Monster
+SecondaryEggGroup: ''
 Sprite: lickilicky.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 1400
+  Kilograms: 140.0
+  Pounds: 308.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-lickilicky.png|right]]
+
+*Licking Pokemon*
+*It uses its tongue as an stretchable arm. It will wrap prey with it and then proceed to eat it. Its saliva causes numbness. Try not to touch its tongue, it might try to eat you by reflex.*
 
 **DexID**:: 0463
 **Species**:: Lickilicky
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 308.6lbs / 140.0kg
 
 ![[SRD-Lickilicky-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Volt Absorb
 Ability2: Illuminate
+Baby: 'No'
+BookImageName: HOME170.png
+BookShinyImageName: HOME170_s.png
 BoxSprite: SRD-BoxSprite-chinchou.png
+DexCategory: Angler Pokemon
+DexDescription: In the dark ocean floor, its only mean of communication is to constantly
+  flash its lights. It is a clumsy but friendly Pokemon. Its antennae can be used
+  to power up small electric appliances.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Water Absorb
 HomeSprite: SRD-HomeSprite-chinchou.png
 Learnset: '[[SRD-Chinchou-Learnset]]'
 Legendary: 'No'
 Name: Chinchou
 Number: 170
+PrimaryEggGroup: Water 2
+SecondaryEggGroup: ''
 Sprite: chinchou.png
 Type1: Water
 Type2: Electric
+Weight:
+  Hectograms: 120
+  Kilograms: 12.0
+  Pounds: 26.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Electric
 # `= this.name`
 
 ![[SRD-HomeSprite-chinchou.png|right]]
+
+*Angler Pokemon*
+*In the dark ocean floor, its only mean of communication is to constantly flash its lights. It is a clumsy but friendly Pokemon. Its antennae can be used to power up small electric appliances.*
 
 **DexID**:: 0170
 **Species**:: Chinchou
@@ -41,5 +61,7 @@ Type2: Electric
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 26.5lbs / 12.0kg
 
 ![[SRD-Chinchou-Learnset]]

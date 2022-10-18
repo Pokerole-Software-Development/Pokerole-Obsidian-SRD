@@ -1,19 +1,36 @@
 ---
 Ability1: Static
 Ability2: Limber
+Baby: 'No'
+BookImageName: HOME618.png
+BookShinyImageName: HOME618_s.png
 BoxSprite: SRD-BoxSprite-stunfisk.png
+DexCategory: Trap Pokemon
+DexDescription: It conceals itself in the mud of the seashore, then it waits. When
+  prey touch it, it delivers a jolt of electricity. Its skin is very hard and it can
+  position itself to keep unhurt even if stepped on by a heavy Pokemon.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-stunfisk.png
 Learnset: '[[SRD-Stunfisk-Learnset]]'
 Legendary: 'No'
 Name: Stunfisk
 Number: 618
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Amorphous
 Sprite: stunfisk.png
 Type1: Ground
 Type2: Electric
+Weight:
+  Hectograms: 110
+  Kilograms: 11.0
+  Pounds: 24.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Electric
 # `= this.name`
 
 ![[SRD-HomeSprite-stunfisk.png|right]]
+
+*Trap Pokemon*
+*It conceals itself in the mud of the seashore, then it waits. When prey touch it, it delivers a jolt of electricity. Its skin is very hard and it can position itself to keep unhurt even if stepped on by a heavy Pokemon.*
 
 **DexID**:: 0618
 **Species**:: Stunfisk
@@ -41,5 +61,7 @@ Type2: Electric
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'3" / 0.7m
+**Weight**: 24.3lbs / 11.0kg
 
 ![[SRD-Stunfisk-Learnset]]

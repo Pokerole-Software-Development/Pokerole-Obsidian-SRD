@@ -1,19 +1,36 @@
 ---
 Ability1: Compound Eyes
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME290.png
+BookShinyImageName: HOME290_s.png
 BoxSprite: SRD-BoxSprite-nincada.png
+DexCategory: Trainee Pokemon
+DexDescription: They live underground for decades, absorbing nutrients from roots
+  and waiting for evolution. Nincadas are nearly blind and cannot stand bright lights.
+  They only come out to make a cocoon to evolve.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Run Away
 HomeSprite: SRD-HomeSprite-nincada.png
 Learnset: '[[SRD-Nincada-Learnset]]'
 Legendary: 'No'
 Name: Nincada
 Number: 290
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: nincada.png
 Type1: Bug
 Type2: Ground
+Weight:
+  Hectograms: 55
+  Kilograms: 5.5
+  Pounds: 12.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-nincada.png|right]]
+
+*Trainee Pokemon*
+*They live underground for decades, absorbing nutrients from roots and waiting for evolution. Nincadas are nearly blind and cannot stand bright lights. They only come out to make a cocoon to evolve.*
 
 **DexID**:: 0290
 **Species**:: Nincada
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 12.1lbs / 5.5kg
 
 ![[SRD-Nincada-Learnset]]

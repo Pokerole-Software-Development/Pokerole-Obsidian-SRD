@@ -1,19 +1,36 @@
 ---
 Ability1: Stakeout
 Ability2: Strong Jaw
+Baby: 'No'
+BookImageName: HOME734.png
+BookShinyImageName: HOME734_s.png
 BoxSprite: SRD-BoxSprite-yungoos.png
+DexCategory: Loitering Pokemon
+DexDescription: "This Pokemon was brought to Alola in an attempt to eradicate Ratatta.\
+  \ It spends all day searching for prey and it\u2019s constantly hungry. when the\
+  \ sun sets it falls asleep right where it was standing."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Adaptability
 HomeSprite: SRD-HomeSprite-yungoos.png
 Learnset: '[[SRD-Yungoos-Learnset]]'
 Legendary: 'No'
 Name: Yungoos
 Number: 734
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: yungoos.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 60
+  Kilograms: 6.0
+  Pounds: 13.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-yungoos.png|right]]
+
+*Loitering Pokemon*
+*This Pokemon was brought to Alola in an attempt to eradicate Ratatta. It spends all day searching for prey and it’s constantly hungry. when the sun sets it falls asleep right where it was standing.*
 
 **DexID**:: 0734
 **Species**:: Yungoos
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 13.2lbs / 6.0kg
 
 ![[SRD-Yungoos-Learnset]]

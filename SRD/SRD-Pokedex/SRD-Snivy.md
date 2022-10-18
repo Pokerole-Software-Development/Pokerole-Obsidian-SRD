@@ -1,19 +1,36 @@
 ---
 Ability1: Overgrow
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME495.png
+BookShinyImageName: HOME495_s.png
 BoxSprite: SRD-BoxSprite-snivy.png
+DexCategory: Grass Snake Pokemon
+DexDescription: "It is very intelligent and independent, although it seems calm it\
+  \ doesn\u2019t like being bossed around. Being exposed to lots of sunlight makes\
+  \ its movements swifter. The tail drops if it is not feeling well."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Contrary
 HomeSprite: SRD-HomeSprite-snivy.png
 Learnset: '[[SRD-Snivy-Learnset]]'
 Legendary: 'No'
 Name: Snivy
 Number: 495
+PrimaryEggGroup: Field
+SecondaryEggGroup: Grass
 Sprite: snivy.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 81
+  Kilograms: 8.1
+  Pounds: 17.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-snivy.png|right]]
+
+*Grass Snake Pokemon*
+*It is very intelligent and independent, although it seems calm it doesn’t like being bossed around. Being exposed to lots of sunlight makes its movements swifter. The tail drops if it is not feeling well.*
 
 **DexID**:: 0495
 **Species**:: Snivy
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 17.9lbs / 8.1kg
 
 ![[SRD-Snivy-Learnset]]

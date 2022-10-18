@@ -1,19 +1,39 @@
 ---
 Ability1: Healer
 Ability2: Regenerator
+Baby: 'No'
+BookImageName: HOME531.png
+BookShinyImageName: HOME531_s.png
 BoxSprite: SRD-BoxSprite-audino.png
+DexCategory: Hearing Pokemon
+DexDescription: "Its auditory sense is astounding, using the feelers on it\u2019s\
+  \ ears it can know the health state of others. It is a caring Pokemon with a sweet\
+  \ disposition to help, but it is not too common to see in the wild."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Klutz
 HomeSprite: SRD-HomeSprite-audino.png
 Learnset: '[[SRD-Audino-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Audinite
+  Name: Mega-Audino
 Name: Audino
 Number: 531
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: ''
 Sprite: audino.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 310
+  Kilograms: 31.0
+  Pounds: 68.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-audino.png|right]]
+
+*Hearing Pokemon*
+*Its auditory sense is astounding, using the feelers on it’s ears it can know the health state of others. It is a caring Pokemon with a sweet disposition to help, but it is not too common to see in the wild.*
 
 **DexID**:: 0531
 **Species**:: Audino
@@ -41,5 +64,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'6" / 1.1m
+**Weight**: 68.3lbs / 31.0kg
 
 ![[SRD-Audino-Learnset]]

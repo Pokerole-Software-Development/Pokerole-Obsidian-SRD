@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: Heatproof
+Baby: 'No'
+BookImageName: HOME437.png
+BookShinyImageName: HOME437_s.png
 BoxSprite: SRD-BoxSprite-bronzor.png
+DexCategory: Bronze Bell Pokemon
+DexDescription: Ancient people revered Bronzong for bringing the rain and sun at will.
+  One became a news sensation recently when it was dug up at a construction site after
+  a 2000-year sleep.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Heavy Metal
 HomeSprite: SRD-HomeSprite-bronzor.png
 Learnset: '[[SRD-Bronzong-Learnset]]'
 Legendary: 'No'
 Name: Bronzong
 Number: 437
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: bronzor.png
 Type1: Steel
 Type2: Psychic
+Weight:
+  Hectograms: 1870
+  Kilograms: 187.0
+  Pounds: 412.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-bronzor.png|right]]
+
+*Bronze Bell Pokemon*
+*Ancient people revered Bronzong for bringing the rain and sun at will. One became a news sensation recently when it was dug up at a construction site after a 2000-year sleep.*
 
 **DexID**:: 0437
 **Species**:: Bronzong
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 412.3lbs / 187.0kg
 
 ![[SRD-Bronzong-Learnset]]

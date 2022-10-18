@@ -1,19 +1,36 @@
 ---
 Ability1: Synchronize
 Ability2: Early Bird
+Baby: 'No'
+BookImageName: HOME178.png
+BookShinyImageName: HOME178_s.png
 BoxSprite: SRD-BoxSprite-xatu.png
+DexCategory: Mystic Pokemon
+DexDescription: Xatu is known to stand motionless while staring at the sun all day
+  long. Some people revere it as a mystical Pokemon out of their belief that Xatus
+  have the power to see into the future.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Magic Bounce
 HomeSprite: SRD-HomeSprite-xatu.png
 Learnset: '[[SRD-Xatu-Learnset]]'
 Legendary: 'No'
 Name: Xatu
 Number: 178
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: xatu.png
 Type1: Psychic
 Type2: Flying
+Weight:
+  Hectograms: 150
+  Kilograms: 15.0
+  Pounds: 33.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-xatu.png|right]]
+
+*Mystic Pokemon*
+*Xatu is known to stand motionless while staring at the sun all day long. Some people revere it as a mystical Pokemon out of their belief that Xatus have the power to see into the future.*
 
 **DexID**:: 0178
 **Species**:: Xatu
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 33.1lbs / 15.0kg
 
 ![[SRD-Xatu-Learnset]]

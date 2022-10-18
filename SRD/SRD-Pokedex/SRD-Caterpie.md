@@ -1,19 +1,36 @@
 ---
 Ability1: Shield Dust
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME010.png
+BookShinyImageName: HOME010_s.png
 BoxSprite: SRD-BoxSprite-caterpie.png
+DexCategory: Worm Pokemon
+DexDescription: It is very common in the forests. Its voracious appetite compels it
+  to devour leaves bigger than itself without hesitation. It releases a foul odor
+  from its antennae if it feels threatened.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Run Away
 HomeSprite: SRD-HomeSprite-caterpie.png
 Learnset: '[[SRD-Caterpie-Learnset]]'
 Legendary: 'No'
 Name: Caterpie
 Number: 10
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: caterpie.png
 Type1: Bug
 Type2: ''
+Weight:
+  Hectograms: 29
+  Kilograms: 2.9
+  Pounds: 6.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-caterpie.png|right]]
+
+*Worm Pokemon*
+*It is very common in the forests. Its voracious appetite compels it to devour leaves bigger than itself without hesitation. It releases a foul odor from its antennae if it feels threatened.*
 
 **DexID**:: 0010
 **Species**:: Caterpie
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 6.4lbs / 2.9kg
 
 ![[SRD-Caterpie-Learnset]]

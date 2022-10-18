@@ -1,19 +1,36 @@
 ---
 Ability1: Own Tempo
 Ability2: Ice Body
+Baby: 'No'
+BookImageName: HOME712.png
+BookShinyImageName: HOME712_s.png
 BoxSprite: SRD-BoxSprite-bergmite.png
+DexCategory: Ice Chunk Pokemon
+DexDescription: They live in small herds close to the mountains. It blocks attacks
+  with the ice that shields its body and uses cold air to repair any cracks with new
+  ice. They are wary of humans as they rarely get to see one.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Sturdy
 HomeSprite: SRD-HomeSprite-bergmite.png
 Learnset: '[[SRD-Bergmite-Learnset]]'
 Legendary: 'No'
 Name: Bergmite
 Number: 712
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Mineral
 Sprite: bergmite.png
 Type1: Ice
 Type2: ''
+Weight:
+  Hectograms: 995
+  Kilograms: 99.5
+  Pounds: 219.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-bergmite.png|right]]
+
+*Ice Chunk Pokemon*
+*They live in small herds close to the mountains. It blocks attacks with the ice that shields its body and uses cold air to repair any cracks with new ice. They are wary of humans as they rarely get to see one.*
 
 **DexID**:: 0712
 **Species**:: Bergmite
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 219.4lbs / 99.5kg
 
 ![[SRD-Bergmite-Learnset]]

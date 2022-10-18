@@ -1,19 +1,36 @@
 ---
 Ability1: Water Absorb
 Ability2: Ice Body
+Baby: 'No'
+BookImageName: HOME883.png
+BookShinyImageName: HOME883_s.png
 BoxSprite: SRD-BoxSprite-arctovish.png
+DexCategory: Fossil Pokemon
+DexDescription: "This mix of DNA made a more stable creature able to move, breathe\
+  \ and resist cold weather, the only problem is that its head is upside down. If\
+  \ it\u2019s not fed it cannot hunt on its own and will die of hunger in a few days."
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 20
+  Feet: 6.6
+  Meters: 2.0
 HiddenAbility: Slush Rush
 HomeSprite: SRD-HomeSprite-arctovish.png
 Learnset: '[[SRD-Arctovish-Learnset]]'
 Legendary: 'No'
 Name: Arctovish
 Number: 883
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: arctovish.png
 Type1: Water
 Type2: Ice
+Weight:
+  Hectograms: 1750
+  Kilograms: 175.0
+  Pounds: 385.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ice
 # `= this.name`
 
 ![[SRD-HomeSprite-arctovish.png|right]]
+
+*Fossil Pokemon*
+*This mix of DNA made a more stable creature able to move, breathe and resist cold weather, the only problem is that its head is upside down. If it’s not fed it cannot hunt on its own and will die of hunger in a few days.*
 
 **DexID**:: 0883
 **Species**:: Arctovish
@@ -41,5 +61,7 @@ Type2: Ice
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'6" / 2.0m
+**Weight**: 385.8lbs / 175.0kg
 
 ![[SRD-Arctovish-Learnset]]

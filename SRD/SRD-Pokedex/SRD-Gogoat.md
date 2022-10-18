@@ -1,19 +1,36 @@
 ---
 Ability1: Sap Sipper
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME673.png
+BookShinyImageName: HOME673_s.png
 BoxSprite: SRD-BoxSprite-gogoat.png
+DexCategory: Mount Pokemon
+DexDescription: In the wild, they inhabit mountain regions with the leader of the
+  herd decided by a battle of clashing horns. People rely on Gogoat to get them through
+  harsh terrains as it always knows where you want to go.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: Grass Pelt
 HomeSprite: SRD-HomeSprite-gogoat.png
 Learnset: '[[SRD-Gogoat-Learnset]]'
 Legendary: 'No'
 Name: Gogoat
 Number: 673
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: gogoat.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 910
+  Kilograms: 91.0
+  Pounds: 200.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-gogoat.png|right]]
+
+*Mount Pokemon*
+*In the wild, they inhabit mountain regions with the leader of the herd decided by a battle of clashing horns. People rely on Gogoat to get them through harsh terrains as it always knows where you want to go.*
 
 **DexID**:: 0673
 **Species**:: Gogoat
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 200.6lbs / 91.0kg
 
 ![[SRD-Gogoat-Learnset]]

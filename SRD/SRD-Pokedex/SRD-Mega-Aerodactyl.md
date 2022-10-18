@@ -1,19 +1,36 @@
 ---
 Ability1: Tough Claws
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME142M.png
+BookShinyImageName: HOME142M_s.png
 BoxSprite: SRD-BoxSprite-aerodactyl-mega.png
+DexCategory: Fossil Pokemon
+DexDescription: With the power of the Mega Stone it restores the original appearance
+  it had millions of years ago with its body covered in sharp rocks. It is very aggressive
+  and will attack anything that moves.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 21
+  Feet: 6.9
+  Meters: 2.1
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-aerodactyl-mega.png
 Learnset: '[[SRD-Mega-Aerodactyl-Learnset]]'
 Legendary: 'No'
 Name: Mega-Aerodactyl
 Number: 142
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: aerodactyl-mega.png
 Type1: Rock
 Type2: Flying
+Weight:
+  Hectograms: 790
+  Kilograms: 79.0
+  Pounds: 174.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-aerodactyl-mega.png|right]]
+
+*Fossil Pokemon*
+*With the power of the Mega Stone it restores the original appearance it had millions of years ago with its body covered in sharp rocks. It is very aggressive and will attack anything that moves.*
 
 **DexID**:: 0142M1
 **Species**:: Mega-Aerodactyl
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'9" / 2.1m
+**Weight**: 174.2lbs / 79.0kg
 
 ![[SRD-Mega-Aerodactyl-Learnset]]

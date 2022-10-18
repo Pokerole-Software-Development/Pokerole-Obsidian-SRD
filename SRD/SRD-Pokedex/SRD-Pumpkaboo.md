@@ -1,19 +1,36 @@
 ---
 Ability1: Pickup
 Ability2: Frisk
+Baby: 'No'
+BookImageName: HOME710.png
+BookShinyImageName: HOME710_s.png
 BoxSprite: SRD-BoxSprite-pumpkaboo.png
+DexCategory: Pumpkin Pokemon
+DexDescription: "You can see them dwelling on farms during the autumn season. The\
+  \ pumpkin body is inhabited by a spirit trapped in this world. As the sun sets,\
+  \ it becomes restless and active. Don\u2019t ever follow their light at night."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Insomnia
 HomeSprite: SRD-HomeSprite-pumpkaboo.png
 Learnset: '[[SRD-Pumpkaboo-Learnset]]'
 Legendary: 'No'
 Name: Pumpkaboo
 Number: 710
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: pumpkaboo.png
 Type1: Ghost
 Type2: Grass
+Weight:
+  Hectograms: 50
+  Kilograms: 5.0
+  Pounds: 11.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Grass
 # `= this.name`
 
 ![[SRD-HomeSprite-pumpkaboo.png|right]]
+
+*Pumpkin Pokemon*
+*You can see them dwelling on farms during the autumn season. The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active. Don’t ever follow their light at night.*
 
 **DexID**:: 0710
 **Species**:: Pumpkaboo
@@ -41,5 +61,7 @@ Type2: Grass
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 11.0lbs / 5.0kg
 
 ![[SRD-Pumpkaboo-Learnset]]

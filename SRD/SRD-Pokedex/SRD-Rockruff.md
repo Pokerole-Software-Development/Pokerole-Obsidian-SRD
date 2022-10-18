@@ -1,19 +1,36 @@
 ---
 Ability1: Keen Eye
 Ability2: Vital Spirit
+Baby: 'No'
+BookImageName: HOME744.png
+BookShinyImageName: HOME744_s.png
 BoxSprite: SRD-BoxSprite-rockruff.png
+DexCategory: Puppy Pokemon
+DexDescription: Rockruff are very social and friendly, their keen sense of smell allows
+  them to find their trainers easily. However, as they age they become wilder and
+  rebellious. Do not let them roam alone at night.
 EventAbilities: Own Tempo
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Steadfast
 HomeSprite: SRD-HomeSprite-rockruff.png
 Learnset: '[[SRD-Rockruff-Learnset]]'
 Legendary: 'No'
 Name: Rockruff
 Number: 744
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: rockruff.png
 Type1: Rock
 Type2: ''
+Weight:
+  Hectograms: 92
+  Kilograms: 9.2
+  Pounds: 20.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-rockruff.png|right]]
+
+*Puppy Pokemon*
+*Rockruff are very social and friendly, their keen sense of smell allows them to find their trainers easily. However, as they age they become wilder and rebellious. Do not let them roam alone at night.*
 
 **DexID**:: 0744
 **Species**:: Rockruff
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 20.3lbs / 9.2kg
 
 ![[SRD-Rockruff-Learnset]]

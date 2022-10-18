@@ -1,19 +1,36 @@
 ---
 Ability1: Shed Skin
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME011.png
+BookShinyImageName: HOME011_s.png
 BoxSprite: SRD-BoxSprite-metapod.png
+DexCategory: Cocoon Pokemon
+DexDescription: Its shell can be as hard as an iron slab. A Metapod does not move
+  very much because it is preparing its soft innards for evolution inside the shell.
+  It is known as one of the fastest evolving Pokemon in the world.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-metapod.png
 Learnset: '[[SRD-Metapod-Learnset]]'
 Legendary: 'No'
 Name: Metapod
 Number: 11
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: metapod.png
 Type1: Bug
 Type2: ''
+Weight:
+  Hectograms: 99
+  Kilograms: 9.9
+  Pounds: 21.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-metapod.png|right]]
+
+*Cocoon Pokemon*
+*Its shell can be as hard as an iron slab. A Metapod does not move very much because it is preparing its soft innards for evolution inside the shell. It is known as one of the fastest evolving Pokemon in the world.*
 
 **DexID**:: 0011
 **Species**:: Metapod
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 21.8lbs / 9.9kg
 
 ![[SRD-Metapod-Learnset]]

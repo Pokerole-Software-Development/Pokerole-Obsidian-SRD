@@ -1,19 +1,36 @@
 ---
 Ability1: Sap Sipper
 Ability2: Hydration
+Baby: 'No'
+BookImageName: HOME706.png
+BookShinyImageName: HOME706_s.png
 BoxSprite: SRD-BoxSprite-goodra.png
+DexCategory: Dragon Pokemon
+DexDescription: Definitely the friendliest of all Dragons. This Pokemon will hug its
+  beloved Trainer, leaving them covered in sticky slime. In areas with heavy rainfall
+  during the year, one or two may make an appearance.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 20
+  Feet: 6.6
+  Meters: 2.0
 HiddenAbility: Gooey
 HomeSprite: SRD-HomeSprite-goodra.png
 Learnset: '[[SRD-Goodra-Learnset]]'
 Legendary: 'No'
 Name: Goodra
 Number: 706
+PrimaryEggGroup: Dragon
+SecondaryEggGroup: ''
 Sprite: goodra.png
 Type1: Dragon
 Type2: ''
+Weight:
+  Hectograms: 1505
+  Kilograms: 150.5
+  Pounds: 331.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-goodra.png|right]]
+
+*Dragon Pokemon*
+*Definitely the friendliest of all Dragons. This Pokemon will hug its beloved Trainer, leaving them covered in sticky slime. In areas with heavy rainfall during the year, one or two may make an appearance.*
 
 **DexID**:: 0706
 **Species**:: Goodra
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'6" / 2.0m
+**Weight**: 331.8lbs / 150.5kg
 
 ![[SRD-Goodra-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Inner Focus
 Ability2: Early Bird
+Baby: 'No'
+BookImageName: HOME203.png
+BookShinyImageName: HOME203_s.png
 BoxSprite: SRD-BoxSprite-girafarig.png
+DexCategory: Long Neck Pokemon
+DexDescription: "Its tail is a head on its own, it bites if anything comes close and\
+  \ never rests. Some say that the sum of its two heads grant it psychic powers. Even\
+  \ if that\u2019s true, the tail isn\u2019t very bright, but it is quite vicious."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-HomeSprite-girafarig.png
 Learnset: '[[SRD-Girafarig-Learnset]]'
 Legendary: 'No'
 Name: Girafarig
 Number: 203
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: girafarig.png
 Type1: Normal
 Type2: Psychic
+Weight:
+  Hectograms: 415
+  Kilograms: 41.5
+  Pounds: 91.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-girafarig.png|right]]
+
+*Long Neck Pokemon*
+*Its tail is a head on its own, it bites if anything comes close and never rests. Some say that the sum of its two heads grant it psychic powers. Even if that’s true, the tail isn’t very bright, but it is quite vicious.*
 
 **DexID**:: 0203
 **Species**:: Girafarig
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 91.5lbs / 41.5kg
 
 ![[SRD-Girafarig-Learnset]]

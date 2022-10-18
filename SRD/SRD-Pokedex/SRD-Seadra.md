@@ -1,19 +1,36 @@
 ---
 Ability1: Swift Swim
 Ability2: Sniper
+Baby: 'No'
+BookImageName: HOME117.png
+BookShinyImageName: HOME117_s.png
 BoxSprite: SRD-BoxSprite-seadra.png
+DexCategory: Dragon Pokemon
+DexDescription: The poisonous barbs all over its body are highly valued as ingredients
+  for making traditional medicine. It will show no mercy if anything approaches its
+  nest. Its back fin has a numbing substance
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Damp
 HomeSprite: SRD-HomeSprite-seadra.png
 Learnset: '[[SRD-Seadra-Learnset]]'
 Legendary: 'No'
 Name: Seadra
 Number: 117
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Dragon
 Sprite: seadra.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 250
+  Kilograms: 25.0
+  Pounds: 55.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-seadra.png|right]]
+
+*Dragon Pokemon*
+*The poisonous barbs all over its body are highly valued as ingredients for making traditional medicine. It will show no mercy if anything approaches its nest. Its back fin has a numbing substance*
 
 **DexID**:: 0117
 **Species**:: Seadra
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'9" / 1.2m
+**Weight**: 55.1lbs / 25.0kg
 
 ![[SRD-Seadra-Learnset]]

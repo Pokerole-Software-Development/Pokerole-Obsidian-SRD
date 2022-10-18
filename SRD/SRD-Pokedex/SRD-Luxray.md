@@ -1,19 +1,36 @@
 ---
 Ability1: Rivalry
 Ability2: Intimidate
+Baby: 'No'
+BookImageName: HOME405.png
+BookShinyImageName: HOME405_s.png
 BoxSprite: SRD-BoxSprite-luxray.png
+DexCategory: Gleam Eyes Pokemon
+DexDescription: It is said that it can see through walls. This Pokemon can easily
+  find hiding prey and locate its young. Male Luxrays can be found roaming alone,
+  patrolling their territory; the females hunt in groups.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 14
+  Feet: 4.6
+  Meters: 1.4
 HiddenAbility: Guts
 HomeSprite: SRD-HomeSprite-luxray.png
 Learnset: '[[SRD-Luxray-Learnset]]'
 Legendary: 'No'
 Name: Luxray
 Number: 405
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: luxray.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 420
+  Kilograms: 42.0
+  Pounds: 92.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-luxray.png|right]]
+
+*Gleam Eyes Pokemon*
+*It is said that it can see through walls. This Pokemon can easily find hiding prey and locate its young. Male Luxrays can be found roaming alone, patrolling their territory; the females hunt in groups.*
 
 **DexID**:: 0405
 **Species**:: Luxray
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'6" / 1.4m
+**Weight**: 92.6lbs / 42.0kg
 
 ![[SRD-Luxray-Learnset]]

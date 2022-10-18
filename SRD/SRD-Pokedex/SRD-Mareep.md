@@ -1,19 +1,36 @@
 ---
 Ability1: Static
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME179.png
+BookShinyImageName: HOME179_s.png
 BoxSprite: SRD-BoxSprite-mareep.png
+DexCategory: Wool Pokemon
+DexDescription: Its fluffy coat of wool builds a static charge, the more static electricity,
+  the more brightly the lightbulb at the tip of its tail glows. Farmers shed their
+  wool by the summer but it grows back quickly.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Plus
 HomeSprite: SRD-HomeSprite-mareep.png
 Learnset: '[[SRD-Mareep-Learnset]]'
 Legendary: 'No'
 Name: Mareep
 Number: 179
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Field
 Sprite: mareep.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 78
+  Kilograms: 7.8
+  Pounds: 17.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-mareep.png|right]]
+
+*Wool Pokemon*
+*Its fluffy coat of wool builds a static charge, the more static electricity, the more brightly the lightbulb at the tip of its tail glows. Farmers shed their wool by the summer but it grows back quickly.*
 
 **DexID**:: 0179
 **Species**:: Mareep
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 17.2lbs / 7.8kg
 
 ![[SRD-Mareep-Learnset]]

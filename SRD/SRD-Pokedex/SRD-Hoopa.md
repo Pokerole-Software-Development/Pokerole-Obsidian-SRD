@@ -1,19 +1,36 @@
 ---
 Ability1: Magician
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME720.png
+BookShinyImageName: HOME720_s.png
 BoxSprite: SRD-BoxSprite-hoopa.png
+DexCategory: No Data
+DexDescription: There is a story of an old demon whose power had to be contained by
+  a spell. The spell was a partial success as the demon could still roam free, but
+  its power and evil was greatly diminished.
 EventAbilities: ''
 GenderType: N
 HasForm: 'Yes'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-hoopa.png
 Learnset: '[[SRD-Hoopa-Learnset]]'
 Legendary: 'Yes'
 Name: Hoopa
 Number: 720
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: hoopa.png
 Type1: Psychic
 Type2: Ghost
+Weight:
+  Hectograms: 90
+  Kilograms: 9.0
+  Pounds: 19.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-hoopa.png|right]]
+
+*No Data*
+*There is a story of an old demon whose power had to be contained by a spell. The spell was a partial success as the demon could still roam free, but its power and evil was greatly diminished.*
 
 **DexID**:: 0720
 **Species**:: Hoopa
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'6" / 0.5m
+**Weight**: 19.8lbs / 9.0kg
 
 ![[SRD-Hoopa-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Swift Swim
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME847.png
+BookShinyImageName: HOME847_s.png
 BoxSprite: SRD-BoxSprite-barraskewda.png
+DexCategory: Skewer Pokemon
+DexDescription: "This Pokemon has a jaw that\u2019s as sharp as a spear and as strong\
+  \ as steel. Apparently Barraskewda's flesh is surprisingly tasty, too. When they\
+  \ hunt, they have speed burst record of 100 knots."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Propeller Tail
 HomeSprite: SRD-HomeSprite-barraskewda.png
 Learnset: '[[SRD-Barraskewda-Learnset]]'
 Legendary: 'No'
 Name: Barraskewda
 Number: 847
+PrimaryEggGroup: Water 2
+SecondaryEggGroup: ''
 Sprite: barraskewda.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 300
+  Kilograms: 30.0
+  Pounds: 66.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-barraskewda.png|right]]
+
+*Skewer Pokemon*
+*This Pokemon has a jaw that’s as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too. When they hunt, they have speed burst record of 100 knots.*
 
 **DexID**:: 0847
 **Species**:: Barraskewda
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 66.1lbs / 30.0kg
 
 ![[SRD-Barraskewda-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Telepathy
 Ability2: Synchronize
+Baby: 'No'
+BookImageName: HOME605.png
+BookShinyImageName: HOME605_s.png
 BoxSprite: SRD-BoxSprite-elgyem.png
+DexCategory: Cerebral Pokemon
+DexDescription: "This Pokemon was never seen until it appeared far in the desert about\
+  \ 50 years ago. Rumor has it that it came from space. It uses its strong psychic\
+  \ power to squeeze its foe\u2019s brain, causing awful headaches."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Analytic
 HomeSprite: SRD-HomeSprite-elgyem.png
 Learnset: '[[SRD-Elgyem-Learnset]]'
 Legendary: 'No'
 Name: Elgyem
 Number: 605
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: elgyem.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 90
+  Kilograms: 9.0
+  Pounds: 19.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-elgyem.png|right]]
+
+*Cerebral Pokemon*
+*This Pokemon was never seen until it appeared far in the desert about 50 years ago. Rumor has it that it came from space. It uses its strong psychic power to squeeze its foe’s brain, causing awful headaches.*
 
 **DexID**:: 0605
 **Species**:: Elgyem
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 19.8lbs / 9.0kg
 
 ![[SRD-Elgyem-Learnset]]

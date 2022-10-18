@@ -1,19 +1,36 @@
 ---
 Ability1: Prankster
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME641.png
+BookShinyImageName: HOME641_s.png
 BoxSprite: SRD-BoxSprite-tornadus.png
+DexCategory: No Data
+DexDescription: Unova suffers from terrible tornadoes and devastating wind currents
+  that leave houses and buildings in ruins. Some people claim a Pokemon riding the
+  winds is responsible for all the devastation.
 EventAbilities: ''
 GenderType: M
 HasForm: 'Yes'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Defiant
 HomeSprite: SRD-HomeSprite-tornadus.png
 Learnset: '[[SRD-Tornadus-Learnset]]'
 Legendary: 'Yes'
 Name: Tornadus
 Number: 641
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: tornadus.png
 Type1: Flying
 Type2: ''
+Weight:
+  Hectograms: 630
+  Kilograms: 63.0
+  Pounds: 138.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-tornadus.png|right]]
+
+*No Data*
+*Unova suffers from terrible tornadoes and devastating wind currents that leave houses and buildings in ruins. Some people claim a Pokemon riding the winds is responsible for all the devastation.*
 
 **DexID**:: 0641
 **Species**:: Tornadus
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 138.9lbs / 63.0kg
 
 ![[SRD-Tornadus-Learnset]]

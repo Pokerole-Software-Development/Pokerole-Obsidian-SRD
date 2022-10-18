@@ -1,19 +1,36 @@
 ---
 Ability1: Swift Swim
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME368.png
+BookShinyImageName: HOME368_s.png
 BoxSprite: SRD-BoxSprite-gorebyss.png
+DexCategory: South Sea Pokemon
+DexDescription: Found in the depths of the southern seas. Their body is built to withstand
+  the sea pressure. While it appears to be beautiful and harmless, it is a cruel and
+  deceitful creature.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 18
+  Feet: 5.9
+  Meters: 1.8
 HiddenAbility: Hydration
 HomeSprite: SRD-HomeSprite-gorebyss.png
 Learnset: '[[SRD-Gorebyss-Learnset]]'
 Legendary: 'No'
 Name: Gorebyss
 Number: 368
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: ''
 Sprite: gorebyss.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 226
+  Kilograms: 22.6
+  Pounds: 49.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-gorebyss.png|right]]
+
+*South Sea Pokemon*
+*Found in the depths of the southern seas. Their body is built to withstand the sea pressure. While it appears to be beautiful and harmless, it is a cruel and deceitful creature.*
 
 **DexID**:: 0368
 **Species**:: Gorebyss
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'9" / 1.8m
+**Weight**: 49.8lbs / 22.6kg
 
 ![[SRD-Gorebyss-Learnset]]

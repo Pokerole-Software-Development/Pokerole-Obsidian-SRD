@@ -1,19 +1,36 @@
 ---
 Ability1: Intimidate
 Ability2: Moxie
+Baby: 'No'
+BookImageName: HOME551.png
+BookShinyImageName: HOME551_s.png
 BoxSprite: SRD-BoxSprite-sandile.png
+DexCategory: Desert Croc Pokemon
+DexDescription: "They live hidden under the desert sands with only their eyes and\
+  \ nostrils visible. They don\u2019t prey on anything bigger than themselves but\
+  \ can be troublesome if they are being leaded by one of it\u2019s evolved forms."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Anger Point
 HomeSprite: SRD-HomeSprite-sandile.png
 Learnset: '[[SRD-Sandile-Learnset]]'
 Legendary: 'No'
 Name: Sandile
 Number: 551
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: sandile.png
 Type1: Ground
 Type2: Dark
+Weight:
+  Hectograms: 152
+  Kilograms: 15.2
+  Pounds: 33.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dark
 # `= this.name`
 
 ![[SRD-HomeSprite-sandile.png|right]]
+
+*Desert Croc Pokemon*
+*They live hidden under the desert sands with only their eyes and nostrils visible. They don’t prey on anything bigger than themselves but can be troublesome if they are being leaded by one of it’s evolved forms.*
 
 **DexID**:: 0551
 **Species**:: Sandile
@@ -41,5 +61,7 @@ Type2: Dark
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 33.5lbs / 15.2kg
 
 ![[SRD-Sandile-Learnset]]

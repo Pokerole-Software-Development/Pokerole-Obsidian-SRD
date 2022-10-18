@@ -1,19 +1,36 @@
 ---
 Ability1: Inner Focus
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME169.png
+BookShinyImageName: HOME169_s.png
 BoxSprite: SRD-BoxSprite-crobat.png
+DexCategory: Bat Pokemon
+DexDescription: Very rare in the wild. People have called it a vampire. It sneaks
+  up on its intended prey using wings that barely make a sound. Crobat is a surprisingly
+  loyal Pokemon.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 18
+  Feet: 5.9
+  Meters: 1.8
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-crobat.png
 Learnset: '[[SRD-Crobat-Learnset]]'
 Legendary: 'No'
 Name: Crobat
 Number: 169
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: crobat.png
 Type1: Poison
 Type2: Flying
+Weight:
+  Hectograms: 750
+  Kilograms: 75.0
+  Pounds: 165.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-crobat.png|right]]
+
+*Bat Pokemon*
+*Very rare in the wild. People have called it a vampire. It sneaks up on its intended prey using wings that barely make a sound. Crobat is a surprisingly loyal Pokemon.*
 
 **DexID**:: 0169
 **Species**:: Crobat
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'9" / 1.8m
+**Weight**: 165.3lbs / 75.0kg
 
 ![[SRD-Crobat-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Schooling
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME746.png
+BookShinyImageName: HOME746_s.png
 BoxSprite: SRD-BoxSprite-wishiwashi.png
+DexCategory: Small Fry Pokemon
+DexDescription: People and Pokemon enjoy this tiny Pokemon's meat. Their eyes shine
+  as a distress signal, other members of its species will travel far and wide to attend
+  the call for help. When this happens you must run.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 2
+  Feet: 0.7
+  Meters: 0.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-wishiwashi.png
 Learnset: '[[SRD-Wishiwashi-Learnset]]'
 Legendary: 'No'
 Name: Wishiwashi
 Number: 746
+PrimaryEggGroup: Water 2
+SecondaryEggGroup: ''
 Sprite: wishiwashi.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 3
+  Kilograms: 0.3
+  Pounds: 0.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-wishiwashi.png|right]]
+
+*Small Fry Pokemon*
+*People and Pokemon enjoy this tiny Pokemon's meat. Their eyes shine as a distress signal, other members of its species will travel far and wide to attend the call for help. When this happens you must run.*
 
 **DexID**:: 0746
 **Species**:: Wishiwashi
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 0'7" / 0.2m
+**Weight**: 0.7lbs / 0.3kg
 
 ![[SRD-Wishiwashi-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Plus
 Ability2: Minus
+Baby: 'No'
+BookImageName: HOME599.png
+BookShinyImageName: HOME599_s.png
 BoxSprite: SRD-BoxSprite-klink.png
+DexCategory: Gear Pokemon
+DexDescription: This two strange Pokemon are merged into one. Interlocking their bodies
+  and spinning around will generate the energy they need to live. Their only way to
+  communicate is through their eyes.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Clear Body
 HomeSprite: SRD-HomeSprite-klink.png
 Learnset: '[[SRD-Klink-Learnset]]'
 Legendary: 'No'
 Name: Klink
 Number: 599
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: klink.png
 Type1: Steel
 Type2: ''
+Weight:
+  Hectograms: 210
+  Kilograms: 21.0
+  Pounds: 46.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-klink.png|right]]
+
+*Gear Pokemon*
+*This two strange Pokemon are merged into one. Interlocking their bodies and spinning around will generate the energy they need to live. Their only way to communicate is through their eyes.*
 
 **DexID**:: 0599
 **Species**:: Klink
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 46.3lbs / 21.0kg
 
 ![[SRD-Klink-Learnset]]

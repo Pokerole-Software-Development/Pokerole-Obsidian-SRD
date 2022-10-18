@@ -1,19 +1,36 @@
 ---
 Ability1: Pressure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME249.png
+BookShinyImageName: HOME249_s.png
 BoxSprite: SRD-BoxSprite-lugia.png
+DexCategory: No Data
+DexDescription: Known as the Guardian of the Sea. It used to live in the Brass Tower,
+  where Pokemon awoke. Lugia's Myth is linked to the idea that those whose death was
+  pure will be reborn in the sea.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 52
+  Feet: 17.1
+  Meters: 5.2
 HiddenAbility: Multiscale
 HomeSprite: SRD-HomeSprite-lugia.png
 Learnset: '[[SRD-Lugia-Learnset]]'
 Legendary: 'Yes'
 Name: Lugia
 Number: 249
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: lugia.png
 Type1: Flying
 Type2: Psychic
+Weight:
+  Hectograms: 2160
+  Kilograms: 216.0
+  Pounds: 476.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-lugia.png|right]]
+
+*No Data*
+*Known as the Guardian of the Sea. It used to live in the Brass Tower, where Pokemon awoke. Lugia's Myth is linked to the idea that those whose death was pure will be reborn in the sea.*
 
 **DexID**:: 0249
 **Species**:: Lugia
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 17'1" / 5.2m
+**Weight**: 476.2lbs / 216.0kg
 
 ![[SRD-Lugia-Learnset]]

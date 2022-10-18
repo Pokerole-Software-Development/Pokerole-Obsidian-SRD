@@ -1,19 +1,39 @@
 ---
 Ability1: Swarm
 Ability2: Technician
+Baby: 'No'
+BookImageName: HOME212.png
+BookShinyImageName: HOME212_s.png
 BoxSprite: SRD-BoxSprite-scizor.png
+DexCategory: Pincer Pokemon
+DexDescription: Its pincers appear to be two more heads and its wings are not for
+  flying, but to regulate its body temperature. Scizor's body can shrug off most attacks
+  and its pincers can crush almost any object.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 18
+  Feet: 5.9
+  Meters: 1.8
 HiddenAbility: Light Metal
 HomeSprite: SRD-HomeSprite-scizor.png
 Learnset: '[[SRD-Scizor-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Scizorite
+  Name: Mega-Scizor
 Name: Scizor
 Number: 212
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: scizor.png
 Type1: Bug
 Type2: Steel
+Weight:
+  Hectograms: 1180
+  Kilograms: 118.0
+  Pounds: 260.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-scizor.png|right]]
+
+*Pincer Pokemon*
+*Its pincers appear to be two more heads and its wings are not for flying, but to regulate its body temperature. Scizor's body can shrug off most attacks and its pincers can crush almost any object.*
 
 **DexID**:: 0212
 **Species**:: Scizor
@@ -41,5 +64,7 @@ Type2: Steel
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'9" / 1.8m
+**Weight**: 260.1lbs / 118.0kg
 
 ![[SRD-Scizor-Learnset]]

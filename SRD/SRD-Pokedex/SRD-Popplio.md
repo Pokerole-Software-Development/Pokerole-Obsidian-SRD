@@ -1,19 +1,36 @@
 ---
 Ability1: Torrent
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME728.png
+BookShinyImageName: HOME728_s.png
 BoxSprite: SRD-BoxSprite-popplio.png
+DexCategory: Sea Lion Pokemon
+DexDescription: A fun-loving Pokemon. It snorts water bubbles from its nose and balances
+  them around, it is tenacious and diligent to train. They are agile swimmers and
+  prefer acrobatic stunts to move on the ground.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Liquid Voice
 HomeSprite: SRD-HomeSprite-popplio.png
 Learnset: '[[SRD-Popplio-Learnset]]'
 Legendary: 'No'
 Name: Popplio
 Number: 728
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Field
 Sprite: popplio.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 75
+  Kilograms: 7.5
+  Pounds: 16.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-popplio.png|right]]
+
+*Sea Lion Pokemon*
+*A fun-loving Pokemon. It snorts water bubbles from its nose and balances them around, it is tenacious and diligent to train. They are agile swimmers and prefer acrobatic stunts to move on the ground.*
 
 **DexID**:: 0728
 **Species**:: Popplio
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 16.5lbs / 7.5kg
 
 ![[SRD-Popplio-Learnset]]

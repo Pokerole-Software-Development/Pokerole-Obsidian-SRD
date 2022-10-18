@@ -1,19 +1,39 @@
 ---
 Ability1: Cursed Body
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME094.png
+BookShinyImageName: HOME094_s.png
 BoxSprite: SRD-BoxSprite-gengar.png
+DexCategory: Shadow Pokemon
+DexDescription: This Pokemon is mischievous but it can be downright evil. It takes
+  joy in casting curses upon innocents and eating the life of people and Pokemon.
+  It lurks in the shadows and disguises itself as one.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-gengar.png
 Learnset: '[[SRD-Gengar-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Gengarite
+  Name: Mega-Gengar
 Name: Gengar
 Number: 94
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: gengar.png
 Type1: Ghost
 Type2: Poison
+Weight:
+  Hectograms: 405
+  Kilograms: 40.5
+  Pounds: 89.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-gengar.png|right]]
+
+*Shadow Pokemon*
+*This Pokemon is mischievous but it can be downright evil. It takes joy in casting curses upon innocents and eating the life of people and Pokemon. It lurks in the shadows and disguises itself as one.*
 
 **DexID**:: 0094
 **Species**:: Gengar
@@ -41,5 +64,7 @@ Type2: Poison
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 89.3lbs / 40.5kg
 
 ![[SRD-Gengar-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Skill Link
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME214M.png
+BookShinyImageName: HOME214M_s.png
 BoxSprite: SRD-BoxSprite-heracross-mega.png
+DexCategory: Single Horn Pokemon
+DexDescription: With the power of the Mega Stone its muscles and exoskeleton grow
+  in size and strength but after going back to normal its exoskeleton reduces size
+  but its muscles do not and that causes it to feel sore.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-heracross-mega.png
 Learnset: '[[SRD-Mega-Heracross-Learnset]]'
 Legendary: 'No'
 Name: Mega-Heracross
 Number: 214
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: heracross-mega.png
 Type1: Bug
 Type2: Fighting
+Weight:
+  Hectograms: 625
+  Kilograms: 62.5
+  Pounds: 137.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-heracross-mega.png|right]]
+
+*Single Horn Pokemon*
+*With the power of the Mega Stone its muscles and exoskeleton grow in size and strength but after going back to normal its exoskeleton reduces size but its muscles do not and that causes it to feel sore.*
 
 **DexID**:: 0214M1
 **Species**:: Mega-Heracross
@@ -41,5 +61,7 @@ Type2: Fighting
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 137.8lbs / 62.5kg
 
 ![[SRD-Mega-Heracross-Learnset]]

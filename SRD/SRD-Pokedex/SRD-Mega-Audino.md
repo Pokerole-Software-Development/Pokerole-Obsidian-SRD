@@ -1,19 +1,36 @@
 ---
 Ability1: Inner Focus
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME531M.png
+BookShinyImageName: HOME531M_s.png
 BoxSprite: SRD-BoxSprite-audino-mega.png
+DexCategory: Hearing Pokemon
+DexDescription: The power of the Mega Stone increases the purity of this Pokemon,
+  revealing its Fairy type. It is so caring and protective of its trainer that it
+  can hear its cries for help from miles away. It loves to soothe and care for others.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-audino-mega.png
 Learnset: '[[SRD-Mega-Audino-Learnset]]'
 Legendary: 'No'
 Name: Mega-Audino
 Number: 531
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: ''
 Sprite: audino-mega.png
 Type1: Normal
 Type2: Fairy
+Weight:
+  Hectograms: 320
+  Kilograms: 32.0
+  Pounds: 70.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-audino-mega.png|right]]
+
+*Hearing Pokemon*
+*The power of the Mega Stone increases the purity of this Pokemon, revealing its Fairy type. It is so caring and protective of its trainer that it can hear its cries for help from miles away. It loves to soothe and care for others.*
 
 **DexID**:: 0531M1
 **Species**:: Mega-Audino
@@ -41,5 +61,7 @@ Type2: Fairy
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 70.5lbs / 32.0kg
 
 ![[SRD-Mega-Audino-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Shield Dust
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME269.png
+BookShinyImageName: HOME269_s.png
 BoxSprite: SRD-BoxSprite-dustox.png
+DexCategory: Poison Moth Pokemon
+DexDescription: They travel in big groups during the night, attracted to bright lights
+  and big cities. Their flight releases a poisonous shining dust that causes mayhem
+  in towns. For this reason people dislike them.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Compound Eyes
 HomeSprite: SRD-HomeSprite-dustox.png
 Learnset: '[[SRD-Dustox-Learnset]]'
 Legendary: 'No'
 Name: Dustox
 Number: 269
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: dustox.png
 Type1: Bug
 Type2: Poison
+Weight:
+  Hectograms: 316
+  Kilograms: 31.6
+  Pounds: 69.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-dustox.png|right]]
+
+*Poison Moth Pokemon*
+*They travel in big groups during the night, attracted to bright lights and big cities. Their flight releases a poisonous shining dust that causes mayhem in towns. For this reason people dislike them.*
 
 **DexID**:: 0269
 **Species**:: Dustox
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 69.7lbs / 31.6kg
 
 ![[SRD-Dustox-Learnset]]

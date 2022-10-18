@@ -1,19 +1,36 @@
 ---
 Ability1: Sand Force
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME645.png
+BookShinyImageName: HOME645_s.png
 BoxSprite: SRD-BoxSprite-landorus.png
+DexCategory: No Data
+DexDescription: Earthquakes and landslides raze Unova with frequency, but the places
+  who suffer them are left with a plentiful harvest that year. Feared by some, revered
+  by others who claim to have seen it.
 EventAbilities: ''
 GenderType: M
 HasForm: 'Yes'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-landorus.png
 Learnset: '[[SRD-Landorus-Learnset]]'
 Legendary: 'Yes'
 Name: Landorus
 Number: 645
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: landorus.png
 Type1: Ground
 Type2: Flying
+Weight:
+  Hectograms: 680
+  Kilograms: 68.0
+  Pounds: 149.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-landorus.png|right]]
+
+*No Data*
+*Earthquakes and landslides raze Unova with frequency, but the places who suffer them are left with a plentiful harvest that year. Feared by some, revered by others who claim to have seen it.*
 
 **DexID**:: 0645
 **Species**:: Landorus
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 149.9lbs / 68.0kg
 
 ![[SRD-Landorus-Learnset]]

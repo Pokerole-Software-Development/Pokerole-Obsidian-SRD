@@ -1,19 +1,36 @@
 ---
 Ability1: Overgrow
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME001.png
+BookShinyImageName: HOME001_s.png
 BoxSprite: SRD-BoxSprite-bulbasaur.png
+DexCategory: Seed Pokemon
+DexDescription: It carries a seed on its back since birth. As it grows older the seed
+  also grows larger. It is known to be a well-behaved and loyal Pokemon, but pretty
+  rare to find in the wild.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-HomeSprite-bulbasaur.png
 Learnset: '[[SRD-Bulbasaur-Learnset]]'
 Legendary: 'No'
 Name: Bulbasaur
 Number: 1
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Grass
 Sprite: bulbasaur.png
 Type1: Grass
 Type2: Poison
+Weight:
+  Hectograms: 69
+  Kilograms: 6.9
+  Pounds: 15.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-bulbasaur.png|right]]
+
+*Seed Pokemon*
+*It carries a seed on its back since birth. As it grows older the seed also grows larger. It is known to be a well-behaved and loyal Pokemon, but pretty rare to find in the wild.*
 
 **DexID**:: 0001
 **Species**:: Bulbasaur
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 15.2lbs / 6.9kg
 
 ![[SRD-Bulbasaur-Learnset]]

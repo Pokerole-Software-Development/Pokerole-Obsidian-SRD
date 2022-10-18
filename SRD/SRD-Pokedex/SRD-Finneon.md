@@ -1,19 +1,36 @@
 ---
 Ability1: Swift Swim
 Ability2: Storm Drain
+Baby: 'No'
+BookImageName: HOME456.png
+BookShinyImageName: HOME456_s.png
 BoxSprite: SRD-BoxSprite-finneon.png
+DexCategory: Wing Fish Pokemon
+DexDescription: "The way its two-tail-fins flutter while it swims has earned Finneon\
+  \ the nickname \u201CBeautifly of the Sea.\u201D The line running down its side\
+  \ can store sunlight and glow brightly at night."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Water Veil
 HomeSprite: SRD-HomeSprite-finneon.png
 Learnset: '[[SRD-Finneon-Learnset]]'
 Legendary: 'No'
 Name: Finneon
 Number: 456
+PrimaryEggGroup: Water 2
+SecondaryEggGroup: ''
 Sprite: finneon.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 70
+  Kilograms: 7.0
+  Pounds: 15.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-finneon.png|right]]
+
+*Wing Fish Pokemon*
+*The way its two-tail-fins flutter while it swims has earned Finneon the nickname “Beautifly of the Sea.” The line running down its side can store sunlight and glow brightly at night.*
 
 **DexID**:: 0456
 **Species**:: Finneon
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 15.4lbs / 7.0kg
 
 ![[SRD-Finneon-Learnset]]

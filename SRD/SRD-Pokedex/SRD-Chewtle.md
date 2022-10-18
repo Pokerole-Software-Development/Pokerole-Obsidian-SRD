@@ -1,19 +1,36 @@
 ---
 Ability1: Strong Jaw
 Ability2: Shell Armor
+Baby: 'No'
+BookImageName: HOME833.png
+BookShinyImageName: HOME833_s.png
 BoxSprite: SRD-BoxSprite-chewtle.png
+DexCategory: Snapping Pokemon
+DexDescription: It uses its horn as its primary weapon, but it has a reputation as
+  a biter. Apparently its gums are itchy and the only way to soothe them is biting
+  and chewing on stuff. It is kinda cranky but relatively harmless.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Swift Swim
 HomeSprite: SRD-HomeSprite-chewtle.png
 Learnset: '[[SRD-Chewtle-Learnset]]'
 Legendary: 'No'
 Name: Chewtle
 Number: 833
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Water 1
 Sprite: chewtle.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 85
+  Kilograms: 8.5
+  Pounds: 18.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-chewtle.png|right]]
+
+*Snapping Pokemon*
+*It uses its horn as its primary weapon, but it has a reputation as a biter. Apparently its gums are itchy and the only way to soothe them is biting and chewing on stuff. It is kinda cranky but relatively harmless.*
 
 **DexID**:: 0833
 **Species**:: Chewtle
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 18.7lbs / 8.5kg
 
 ![[SRD-Chewtle-Learnset]]

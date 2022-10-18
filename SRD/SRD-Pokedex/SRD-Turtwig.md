@@ -1,19 +1,36 @@
 ---
 Ability1: Overgrow
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME387.png
+BookShinyImageName: HOME387_s.png
 BoxSprite: SRD-BoxSprite-turtwig.png
+DexCategory: Tiny Leaf Pokemon
+DexDescription: It makes its home close to lakes, although it is rare to find one.
+  The shell on its back is made of hardened soil and should be moist for it to be
+  healthy. It uses photosynthesis to get energy.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Shell Armor
 HomeSprite: SRD-HomeSprite-turtwig.png
 Learnset: '[[SRD-Turtwig-Learnset]]'
 Legendary: 'No'
 Name: Turtwig
 Number: 387
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Grass
 Sprite: turtwig.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 102
+  Kilograms: 10.2
+  Pounds: 22.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-turtwig.png|right]]
+
+*Tiny Leaf Pokemon*
+*It makes its home close to lakes, although it is rare to find one. The shell on its back is made of hardened soil and should be moist for it to be healthy. It uses photosynthesis to get energy.*
 
 **DexID**:: 0387
 **Species**:: Turtwig
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 22.5lbs / 10.2kg
 
 ![[SRD-Turtwig-Learnset]]

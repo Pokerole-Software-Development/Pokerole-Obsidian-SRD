@@ -1,19 +1,36 @@
 ---
 Ability1: Pure Power
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME307.png
+BookShinyImageName: HOME307_s.png
 BoxSprite: SRD-BoxSprite-meditite.png
+DexCategory: Meditate Pokemon
+DexDescription: Deep in the mountains they train their mind to increase their spiritual
+  power, however they lack focus and get distracted easily. As part of their training,
+  Meditites barely eat.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-meditite.png
 Learnset: '[[SRD-Meditite-Learnset]]'
 Legendary: 'No'
 Name: Meditite
 Number: 307
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: meditite.png
 Type1: Fighting
 Type2: Psychic
+Weight:
+  Hectograms: 112
+  Kilograms: 11.2
+  Pounds: 24.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-meditite.png|right]]
+
+*Meditate Pokemon*
+*Deep in the mountains they train their mind to increase their spiritual power, however they lack focus and get distracted easily. As part of their training, Meditites barely eat.*
 
 **DexID**:: 0307
 **Species**:: Meditite
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 24.7lbs / 11.2kg
 
 ![[SRD-Meditite-Learnset]]

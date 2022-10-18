@@ -1,19 +1,36 @@
 ---
 Ability1: Run Away
 Ability2: Unburden
+Baby: 'No'
+BookImageName: HOME828.png
+BookShinyImageName: HOME828_s.png
 BoxSprite: SRD-BoxSprite-thievul.png
+DexCategory: Fox Pokemon
+DexDescription: They have long been hunted down by packs of Boltund because of all
+  the trouble they cause in human settlements. They are experts at stealing food and
+  Pokemon eggs, never leaving a trace behind.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Stakeout
 HomeSprite: SRD-HomeSprite-thievul.png
 Learnset: '[[SRD-Thievul-Learnset]]'
 Legendary: 'No'
 Name: Thievul
 Number: 828
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: thievul.png
 Type1: Dark
 Type2: ''
+Weight:
+  Hectograms: 199
+  Kilograms: 19.9
+  Pounds: 43.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-thievul.png|right]]
+
+*Fox Pokemon*
+*They have long been hunted down by packs of Boltund because of all the trouble they cause in human settlements. They are experts at stealing food and Pokemon eggs, never leaving a trace behind.*
 
 **DexID**:: 0828
 **Species**:: Thievul
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 43.9lbs / 19.9kg
 
 ![[SRD-Thievul-Learnset]]

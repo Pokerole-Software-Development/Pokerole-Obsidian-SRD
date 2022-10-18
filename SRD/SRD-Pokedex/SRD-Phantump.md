@@ -1,19 +1,36 @@
 ---
 Ability1: Natural Cure
 Ability2: Frisk
+Baby: 'No'
+BookImageName: HOME708.png
+BookShinyImageName: HOME708_s.png
 BoxSprite: SRD-BoxSprite-phantump.png
+DexCategory: Stump Pokemon
+DexDescription: According to the old tales, these Pokemon are stumps possessed by
+  the spirits of children who were lost in the forest. They prefer to live in abandoned
+  woods and lure people to the darkness to play with them.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Harvest
 HomeSprite: SRD-HomeSprite-phantump.png
 Learnset: '[[SRD-Phantump-Learnset]]'
 Legendary: 'No'
 Name: Phantump
 Number: 708
+PrimaryEggGroup: Grass
+SecondaryEggGroup: Amorphous
 Sprite: phantump.png
 Type1: Ghost
 Type2: Grass
+Weight:
+  Hectograms: 70
+  Kilograms: 7.0
+  Pounds: 15.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Grass
 # `= this.name`
 
 ![[SRD-HomeSprite-phantump.png|right]]
+
+*Stump Pokemon*
+*According to the old tales, these Pokemon are stumps possessed by the spirits of children who were lost in the forest. They prefer to live in abandoned woods and lure people to the darkness to play with them.*
 
 **DexID**:: 0708
 **Species**:: Phantump
@@ -41,5 +61,7 @@ Type2: Grass
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 15.4lbs / 7.0kg
 
 ![[SRD-Phantump-Learnset]]

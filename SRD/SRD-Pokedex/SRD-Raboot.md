@@ -1,19 +1,36 @@
 ---
 Ability1: Blaze
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME814.png
+BookShinyImageName: HOME814_s.png
 BoxSprite: SRD-BoxSprite-raboot.png
+DexCategory: Rabbit Pokemon
+DexDescription: This Pokemon loves to kick and trains each day to get better at it.
+  Its fur is now very thick, some debate it is to protect it from the cold weather
+  others say it is to produce hotter flames.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Libero
 HomeSprite: SRD-HomeSprite-raboot.png
 Learnset: '[[SRD-Raboot-Learnset]]'
 Legendary: 'No'
 Name: Raboot
 Number: 814
+PrimaryEggGroup: Field
+SecondaryEggGroup: Human-Like
 Sprite: raboot.png
 Type1: Fire
 Type2: ''
+Weight:
+  Hectograms: 90
+  Kilograms: 9.0
+  Pounds: 19.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-raboot.png|right]]
+
+*Rabbit Pokemon*
+*This Pokemon loves to kick and trains each day to get better at it. Its fur is now very thick, some debate it is to protect it from the cold weather others say it is to produce hotter flames.*
 
 **DexID**:: 0814
 **Species**:: Raboot
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 19.8lbs / 9.0kg
 
 ![[SRD-Raboot-Learnset]]

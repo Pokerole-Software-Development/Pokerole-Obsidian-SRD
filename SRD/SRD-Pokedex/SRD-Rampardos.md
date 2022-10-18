@@ -1,19 +1,36 @@
 ---
 Ability1: Mold Breaker
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME409.png
+BookShinyImageName: HOME409_s.png
 BoxSprite: SRD-BoxSprite-rampardos.png
+DexCategory: Head Butt Pokemon
+DexDescription: Its skull withstands any magnitude of impact. As a result, its brain
+  never gets the chance to grow, this may have been the cause of its extinction. It
+  is capable of rolling a truck over with a single strike.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-rampardos.png
 Learnset: '[[SRD-Rampardos-Learnset]]'
 Legendary: 'No'
 Name: Rampardos
 Number: 409
+PrimaryEggGroup: Monster
+SecondaryEggGroup: ''
 Sprite: rampardos.png
 Type1: Rock
 Type2: ''
+Weight:
+  Hectograms: 1025
+  Kilograms: 102.5
+  Pounds: 226.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-rampardos.png|right]]
+
+*Head Butt Pokemon*
+*Its skull withstands any magnitude of impact. As a result, its brain never gets the chance to grow, this may have been the cause of its extinction. It is capable of rolling a truck over with a single strike.*
 
 **DexID**:: 0409
 **Species**:: Rampardos
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 226.0lbs / 102.5kg
 
 ![[SRD-Rampardos-Learnset]]

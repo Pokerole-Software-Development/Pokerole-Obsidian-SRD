@@ -1,19 +1,36 @@
 ---
 Ability1: Parental Bond
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME115M.png
+BookShinyImageName: HOME115M_s.png
 BoxSprite: SRD-BoxSprite-kangaskhan-mega.png
+DexCategory: Parent Pokemon
+DexDescription: "The mother gives all the power of the Mega Stone to her child. The\
+  \ child grows violent and both team up as formidable fighters. But the mother worries\
+  \ about her child\u2019s future as she raised it better than that."
 EventAbilities: ''
 GenderType: F
 HasForm: 'No'
+Height:
+  Deimeters: 22
+  Feet: 7.2
+  Meters: 2.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-kangaskhan-mega.png
 Learnset: '[[SRD-Mega-Kangaskhan-Learnset]]'
 Legendary: 'No'
 Name: Mega-Kangaskhan
 Number: 115
+PrimaryEggGroup: Monster
+SecondaryEggGroup: ''
 Sprite: kangaskhan-mega.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 1000
+  Kilograms: 100.0
+  Pounds: 220.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-kangaskhan-mega.png|right]]
+
+*Parent Pokemon*
+*The mother gives all the power of the Mega Stone to her child. The child grows violent and both team up as formidable fighters. But the mother worries about her child’s future as she raised it better than that.*
 
 **DexID**:: 0115M1
 **Species**:: Mega-Kangaskhan
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 7'2" / 2.2m
+**Weight**: 220.5lbs / 100.0kg
 
 ![[SRD-Mega-Kangaskhan-Learnset]]

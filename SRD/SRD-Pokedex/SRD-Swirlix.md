@@ -1,19 +1,36 @@
 ---
 Ability1: Sweet Veil
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME684.png
+BookShinyImageName: HOME684_s.png
 BoxSprite: SRD-BoxSprite-swirlix.png
+DexCategory: Cotton Candy Pokemon
+DexDescription: Because it eats nothing but sweet fruit, honey and sugars, its fur
+  is as sticky and sweet as cotton candy. To entangle its opponents in battle, it
+  extrudes white and sticky threads but the foes end up eating them.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Unburden
 HomeSprite: SRD-HomeSprite-swirlix.png
 Learnset: '[[SRD-Swirlix-Learnset]]'
 Legendary: 'No'
 Name: Swirlix
 Number: 684
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: ''
 Sprite: swirlix.png
 Type1: Fairy
 Type2: ''
+Weight:
+  Hectograms: 35
+  Kilograms: 3.5
+  Pounds: 7.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-swirlix.png|right]]
+
+*Cotton Candy Pokemon*
+*Because it eats nothing but sweet fruit, honey and sugars, its fur is as sticky and sweet as cotton candy. To entangle its opponents in battle, it extrudes white and sticky threads but the foes end up eating them.*
 
 **DexID**:: 0684
 **Species**:: Swirlix
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 7.7lbs / 3.5kg
 
 ![[SRD-Swirlix-Learnset]]

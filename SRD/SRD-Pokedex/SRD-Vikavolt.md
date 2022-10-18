@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME738.png
+BookShinyImageName: HOME738_s.png
 BoxSprite: SRD-BoxSprite-vikavolt.png
+DexCategory: Stag Beetle Pokemon
+DexDescription: "The electricity it shoots through its jaws is very dangerous, it\
+  \ zaps bird Pokemon trying to eat it. Its flight is peculiar, for it bends in a\
+  \ 90\xB0 angle or flies backwards without a problem."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-vikavolt.png
 Learnset: '[[SRD-Vikavolt-Learnset]]'
 Legendary: 'No'
 Name: Vikavolt
 Number: 738
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: vikavolt.png
 Type1: Bug
 Type2: Electric
+Weight:
+  Hectograms: 450
+  Kilograms: 45.0
+  Pounds: 99.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Electric
 # `= this.name`
 
 ![[SRD-HomeSprite-vikavolt.png|right]]
+
+*Stag Beetle Pokemon*
+*The electricity it shoots through its jaws is very dangerous, it zaps bird Pokemon trying to eat it. Its flight is peculiar, for it bends in a 90° angle or flies backwards without a problem.*
 
 **DexID**:: 0738
 **Species**:: Vikavolt
@@ -41,5 +61,7 @@ Type2: Electric
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 99.2lbs / 45.0kg
 
 ![[SRD-Vikavolt-Learnset]]

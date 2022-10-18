@@ -1,19 +1,36 @@
 ---
 Ability1: Iron Fist
 Ability2: Mold Breaker
+Baby: 'No'
+BookImageName: HOME675.png
+BookShinyImageName: HOME675_s.png
 BoxSprite: SRD-BoxSprite-pangoro.png
+DexCategory: Daunting Pokemon
+DexDescription: "Although this pokemon has a violent temperament, it won\u2019t put\
+  \ up with bullying. It charges ahead and slams its opponents like a berserker, totally\
+  \ disregarding its own safety. Its mighty arms can send you flying."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 21
+  Feet: 6.9
+  Meters: 2.1
 HiddenAbility: Scrappy
 HomeSprite: SRD-HomeSprite-pangoro.png
 Learnset: '[[SRD-Pangoro-Learnset]]'
 Legendary: 'No'
 Name: Pangoro
 Number: 675
+PrimaryEggGroup: Field
+SecondaryEggGroup: Human-Like
 Sprite: pangoro.png
 Type1: Fighting
 Type2: Dark
+Weight:
+  Hectograms: 1360
+  Kilograms: 136.0
+  Pounds: 299.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dark
 # `= this.name`
 
 ![[SRD-HomeSprite-pangoro.png|right]]
+
+*Daunting Pokemon*
+*Although this pokemon has a violent temperament, it won’t put up with bullying. It charges ahead and slams its opponents like a berserker, totally disregarding its own safety. Its mighty arms can send you flying.*
 
 **DexID**:: 0675
 **Species**:: Pangoro
@@ -41,5 +61,7 @@ Type2: Dark
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'9" / 2.1m
+**Weight**: 299.8lbs / 136.0kg
 
 ![[SRD-Pangoro-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Blaze
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME005.png
+BookShinyImageName: HOME005_s.png
 BoxSprite: SRD-BoxSprite-charmeleon.png
+DexCategory: Flame Pokemon
+DexDescription: "It turns aggressive after evolving, it is very hot-headed by nature,\
+  \ so it constantly starts fights. When it\u2019s excited, the flame at the tip of\
+  \ its tail flares with a bluish white color."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Solar Power
 HomeSprite: SRD-HomeSprite-charmeleon.png
 Learnset: '[[SRD-Charmeleon-Learnset]]'
 Legendary: 'No'
 Name: Charmeleon
 Number: 5
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Dragon
 Sprite: charmeleon.png
 Type1: Fire
 Type2: ''
+Weight:
+  Hectograms: 190
+  Kilograms: 19.0
+  Pounds: 41.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-charmeleon.png|right]]
+
+*Flame Pokemon*
+*It turns aggressive after evolving, it is very hot-headed by nature, so it constantly starts fights. When it’s excited, the flame at the tip of its tail flares with a bluish white color.*
 
 **DexID**:: 0005
 **Species**:: Charmeleon
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'6" / 1.1m
+**Weight**: 41.9lbs / 19.0kg
 
 ![[SRD-Charmeleon-Learnset]]

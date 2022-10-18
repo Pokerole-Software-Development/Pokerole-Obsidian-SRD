@@ -1,19 +1,35 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME479D.png
 BoxSprite: SRD-BoxSprite-rotom.png
+DexCategory: Plasma Pokemon
+DexDescription: 'A Pokedex possessed by a Rotom, it has access to all the information
+  inside the computer and uses the sounds to emulate speech. While on this form it
+  can use the move: Light Screen.'
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-rotom.png
 Learnset: '[[SRD-Rotom Dex-Learnset]]'
 Legendary: 'No'
 Name: Rotom Dex
 Number: 479
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: rotom.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 3
+  Kilograms: 0.3
+  Pounds: 0.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-rotom.png|right]]
+
+*Plasma Pokemon*
+*A Pokedex possessed by a Rotom, it has access to all the information inside the computer and uses the sounds to emulate speech. While on this form it can use the move: Light Screen.*
 
 **DexID**:: 0479F6
 **Species**:: Rotom Dex
@@ -41,5 +60,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'0" / 0.3m
+**Weight**: 0.7lbs / 0.3kg
 
 ![[SRD-Rotom Dex-Learnset]]

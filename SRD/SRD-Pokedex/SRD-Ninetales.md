@@ -1,19 +1,36 @@
 ---
 Ability1: Flash Fire
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME038.png
+BookShinyImageName: HOME038_s.png
 BoxSprite: SRD-BoxSprite-ninetales.png
+DexCategory: Fox Pokemon
+DexDescription: It is known to understand human speech. It is very valued for its
+  exuberant golden fur and the mystical power of its nine tails. It is, however, known
+  to hold a grudge against those who mistreat it.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Drought
 HomeSprite: SRD-HomeSprite-ninetales.png
 Learnset: '[[SRD-Ninetales-Learnset]]'
 Legendary: 'No'
 Name: Ninetales
 Number: 38
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: ninetales.png
 Type1: Fire
 Type2: ''
+Weight:
+  Hectograms: 199
+  Kilograms: 19.9
+  Pounds: 43.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-ninetales.png|right]]
+
+*Fox Pokemon*
+*It is known to understand human speech. It is very valued for its exuberant golden fur and the mystical power of its nine tails. It is, however, known to hold a grudge against those who mistreat it.*
 
 **DexID**:: 0038
 **Species**:: Ninetales
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'6" / 1.1m
+**Weight**: 43.9lbs / 19.9kg
 
 ![[SRD-Ninetales-Learnset]]

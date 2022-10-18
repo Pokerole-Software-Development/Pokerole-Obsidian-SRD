@@ -1,19 +1,36 @@
 ---
 Ability1: Technician
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME212M.png
+BookShinyImageName: HOME212M_s.png
 BoxSprite: SRD-BoxSprite-scizor-mega.png
+DexCategory: Pincer Pokemon
+DexDescription: The power of the Mega Stone puts its body trough tremendous stress,
+  if it is inexperienced at wielding it and the battle is too long its pincers will
+  feel heavy and even melt. They must be fast to rip their foes apart.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 20
+  Feet: 6.6
+  Meters: 2.0
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-scizor-mega.png
 Learnset: '[[SRD-Mega-Scizor-Learnset]]'
 Legendary: 'No'
 Name: Mega-Scizor
 Number: 212
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: scizor-mega.png
 Type1: Bug
 Type2: Steel
+Weight:
+  Hectograms: 1250
+  Kilograms: 125.0
+  Pounds: 275.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-scizor-mega.png|right]]
+
+*Pincer Pokemon*
+*The power of the Mega Stone puts its body trough tremendous stress, if it is inexperienced at wielding it and the battle is too long its pincers will feel heavy and even melt. They must be fast to rip their foes apart.*
 
 **DexID**:: 0212M1
 **Species**:: Mega-Scizor
@@ -41,5 +61,7 @@ Type2: Steel
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'6" / 2.0m
+**Weight**: 275.6lbs / 125.0kg
 
 ![[SRD-Mega-Scizor-Learnset]]

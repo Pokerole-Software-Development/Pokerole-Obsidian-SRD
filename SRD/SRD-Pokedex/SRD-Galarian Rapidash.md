@@ -1,19 +1,36 @@
 ---
 Ability1: Run Away
 Ability2: Pastel Veil
+Baby: 'No'
+BookImageName: HOME078G.png
+BookShinyImageName: HOME078G_s.png
 BoxSprite: SRD-BoxSprite-rapidash-galar.png
+DexCategory: Unique Horn Pokemonn
+DexDescription: Those with evil in their hearts will be disdained by this proud and
+  beautiful Pokemon as it dashes on the air using its psychic power. It is said that
+  only a true princess can mount a Galarian Rapidash.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: Anticipation
 HomeSprite: SRD-HomeSprite-rapidash-galar.png
 Learnset: '[[SRD-Galarian Rapidash-Learnset]]'
 Legendary: 'No'
 Name: Galarian Rapidash
 Number: 78
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: rapidash-galar.png
 Type1: Psychic
 Type2: Fairy
+Weight:
+  Hectograms: 800
+  Kilograms: 80.0
+  Pounds: 176.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-rapidash-galar.png|right]]
+
+*Unique Horn Pokemonn*
+*Those with evil in their hearts will be disdained by this proud and beautiful Pokemon as it dashes on the air using its psychic power. It is said that only a true princess can mount a Galarian Rapidash.*
 
 **DexID**:: 0078G
 **Species**:: Galarian Rapidash
@@ -41,5 +61,7 @@ Type2: Fairy
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 176.4lbs / 80.0kg
 
 ![[SRD-Galarian Rapidash-Learnset]]

@@ -1,19 +1,39 @@
 ---
 Ability1: Air Lock
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME384.png
+BookShinyImageName: HOME384_s.png
 BoxSprite: SRD-BoxSprite-rayquaza.png
+DexCategory: No Data
+DexDescription: The legend tells how Rayquaza lived in the outer layer of this world.
+  It came to end the quarrel between Groudon and Kyogre, granted the world with blue
+  skies and then left.
 EventAbilities: ''
 GenderType: N
 HasForm: 'Yes'
+Height:
+  Deimeters: 70
+  Feet: 23.0
+  Meters: 7.0
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-rayquaza.png
 Learnset: '[[SRD-Rayquaza-Learnset]]'
 Legendary: 'Yes'
+MegaEvolutions:
+- Item: Pokeball
+  Name: Mega-Rayquaza
 Name: Rayquaza
 Number: 384
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: rayquaza.png
 Type1: Dragon
 Type2: Flying
+Weight:
+  Hectograms: 2065
+  Kilograms: 206.5
+  Pounds: 455.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-rayquaza.png|right]]
+
+*No Data*
+*The legend tells how Rayquaza lived in the outer layer of this world. It came to end the quarrel between Groudon and Kyogre, granted the world with blue skies and then left.*
 
 **DexID**:: 0384
 **Species**:: Rayquaza
@@ -41,5 +64,7 @@ Type2: Flying
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 23'0" / 7.0m
+**Weight**: 455.3lbs / 206.5kg
 
 ![[SRD-Rayquaza-Learnset]]

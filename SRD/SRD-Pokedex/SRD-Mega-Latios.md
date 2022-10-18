@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME381M.png
+BookShinyImageName: HOME381M_s.png
 BoxSprite: SRD-BoxSprite-latios-mega.png
+DexCategory: No Data
+DexDescription: Latios is very in sync with human logic, it can communicate using
+  telepathy. With the power of the Mega Stone all of its capabilities are enhanced
+  although its personality becomes more caring than usual.
 EventAbilities: ''
 GenderType: M
 HasForm: 'No'
+Height:
+  Deimeters: 23
+  Feet: 7.5
+  Meters: 2.3
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-latios-mega.png
 Learnset: '[[SRD-Mega-Latios-Learnset]]'
 Legendary: 'Yes'
 Name: Mega-Latios
 Number: 381
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: latios-mega.png
 Type1: Dragon
 Type2: Psychic
+Weight:
+  Hectograms: 700
+  Kilograms: 70.0
+  Pounds: 154.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-latios-mega.png|right]]
+
+*No Data*
+*Latios is very in sync with human logic, it can communicate using telepathy. With the power of the Mega Stone all of its capabilities are enhanced although its personality becomes more caring than usual.*
 
 **DexID**:: 0381M1
 **Species**:: Mega-Latios
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 7'5" / 2.3m
+**Weight**: 154.3lbs / 70.0kg
 
 ![[SRD-Mega-Latios-Learnset]]

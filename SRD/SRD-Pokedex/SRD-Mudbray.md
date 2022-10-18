@@ -1,19 +1,36 @@
 ---
 Ability1: Own Tempo
 Ability2: Stamina
+Baby: 'No'
+BookImageName: HOME749.png
+BookShinyImageName: HOME749_s.png
 BoxSprite: SRD-BoxSprite-mudbray.png
+DexCategory: Donkey Pokemon
+DexDescription: They are very strong, the mud on their hooves serves them as grip
+  to pull themselves forward. They enjoy prancing in muddy places and will become
+  stubborn and disobedient if denied that pleasure.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Inner Focus
 HomeSprite: SRD-HomeSprite-mudbray.png
 Learnset: '[[SRD-Mudbray-Learnset]]'
 Legendary: 'No'
 Name: Mudbray
 Number: 749
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: mudbray.png
 Type1: Ground
 Type2: ''
+Weight:
+  Hectograms: 1100
+  Kilograms: 110.0
+  Pounds: 242.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-mudbray.png|right]]
+
+*Donkey Pokemon*
+*They are very strong, the mud on their hooves serves them as grip to pull themselves forward. They enjoy prancing in muddy places and will become stubborn and disobedient if denied that pleasure.*
 
 **DexID**:: 0749
 **Species**:: Mudbray
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 242.5lbs / 110.0kg
 
 ![[SRD-Mudbray-Learnset]]

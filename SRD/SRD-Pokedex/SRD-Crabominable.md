@@ -1,19 +1,36 @@
 ---
 Ability1: Hyper Cutter
 Ability2: Iron Fist
+Baby: 'No'
+BookImageName: HOME740.png
+BookShinyImageName: HOME740_s.png
 BoxSprite: SRD-BoxSprite-crabominable.png
+DexCategory: Woolly Crab Pokemon
+DexDescription: Crawbrawlers who get lost in the snowy mountains of Alola are forced
+  to evolve into a more suited form. Crabominables are not very smart and throw punches
+  to friends and foes alike when they panic.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: Anger Point
 HomeSprite: SRD-HomeSprite-crabominable.png
 Learnset: '[[SRD-Crabominable-Learnset]]'
 Legendary: 'No'
 Name: Crabominable
 Number: 740
+PrimaryEggGroup: Water 3
+SecondaryEggGroup: ''
 Sprite: crabominable.png
 Type1: Fighting
 Type2: Ice
+Weight:
+  Hectograms: 1800
+  Kilograms: 180.0
+  Pounds: 396.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ice
 # `= this.name`
 
 ![[SRD-HomeSprite-crabominable.png|right]]
+
+*Woolly Crab Pokemon*
+*Crawbrawlers who get lost in the snowy mountains of Alola are forced to evolve into a more suited form. Crabominables are not very smart and throw punches to friends and foes alike when they panic.*
 
 **DexID**:: 0740
 **Species**:: Crabominable
@@ -41,5 +61,7 @@ Type2: Ice
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 396.8lbs / 180.0kg
 
 ![[SRD-Crabominable-Learnset]]

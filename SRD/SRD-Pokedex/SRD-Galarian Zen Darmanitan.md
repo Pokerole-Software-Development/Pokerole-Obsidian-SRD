@@ -1,19 +1,36 @@
 ---
 Ability1: Gorilla Tactics
 Ability2: Zen Mode
+Baby: 'No'
+BookImageName: HOME555GZ.png
+BookShinyImageName: HOME555GZ_s.png
 BoxSprite: SRD-BoxSprite-darmanitan-galar-zen.png
+DexCategory: Zen Charm Pokemon (Galarian)
+DexDescription: Zen Charm Pokemon (Galarian) When Darmanitan gets angry  atrophied
+  fire core is reignited, This Pokemon breathes fire and  destroys everything on its
+  path.. They must be calmed down or its own heat may melt their bodies.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-darmanitan-galar-zen.png
 Learnset: '[[SRD-Galarian Zen Darmanitan-Learnset]]'
 Legendary: 'No'
 Name: Galarian Zen Darmanitan
 Number: 555
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: darmanitan-galar-zen.png
 Type1: Ice
 Type2: Fire
+Weight:
+  Hectograms: 1200
+  Kilograms: 120.0
+  Pounds: 264.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fire
 # `= this.name`
 
 ![[SRD-HomeSprite-darmanitan-galar-zen.png|right]]
+
+*Zen Charm Pokemon (Galarian)*
+*Zen Charm Pokemon (Galarian) When Darmanitan gets angry  atrophied fire core is reignited, This Pokemon breathes fire and  destroys everything on its path.. They must be calmed down or its own heat may melt their bodies.*
 
 **DexID**:: 0555GF1
 **Species**:: Galarian Zen Darmanitan
@@ -41,5 +61,7 @@ Type2: Fire
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 264.6lbs / 120.0kg
 
 ![[SRD-Galarian Zen Darmanitan-Learnset]]

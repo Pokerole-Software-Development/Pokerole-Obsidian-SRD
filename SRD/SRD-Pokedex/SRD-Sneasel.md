@@ -1,19 +1,36 @@
 ---
 Ability1: Inner Focus
 Ability2: Keen Eye
+Baby: 'No'
+BookImageName: HOME215.png
+BookShinyImageName: HOME215_s.png
 BoxSprite: SRD-BoxSprite-sneasel.png
+DexCategory: Sharp Claw Pokemon
+DexDescription: It drives weaker Pokemon from their homes and eats their eggs. They
+  are vicious and cunning. They wait for prey hidden in the darkness and enjoy slashing
+  their foes until they get tired or the foe stops moving.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-sneasel.png
 Learnset: '[[SRD-Sneasel-Learnset]]'
 Legendary: 'No'
 Name: Sneasel
 Number: 215
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: sneasel.png
 Type1: Dark
 Type2: Ice
+Weight:
+  Hectograms: 280
+  Kilograms: 28.0
+  Pounds: 61.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ice
 # `= this.name`
 
 ![[SRD-HomeSprite-sneasel.png|right]]
+
+*Sharp Claw Pokemon*
+*It drives weaker Pokemon from their homes and eats their eggs. They are vicious and cunning. They wait for prey hidden in the darkness and enjoy slashing their foes until they get tired or the foe stops moving.*
 
 **DexID**:: 0215
 **Species**:: Sneasel
@@ -41,5 +61,7 @@ Type2: Ice
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'0" / 0.9m
+**Weight**: 61.7lbs / 28.0kg
 
 ![[SRD-Sneasel-Learnset]]

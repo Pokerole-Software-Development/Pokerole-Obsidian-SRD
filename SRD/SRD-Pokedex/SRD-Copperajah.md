@@ -1,19 +1,36 @@
 ---
 Ability1: Sheer Force
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME879.png
+BookShinyImageName: HOME879_s.png
 BoxSprite: SRD-BoxSprite-copperajah.png
+DexCategory: Copperderm Pokemon
+DexDescription: They originally came from another region long ago, worked together
+  with humans helping them pave new roads and building cities. They are usually calm
+  and love spending time with their families.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 30
+  Feet: 9.8
+  Meters: 3.0
 HiddenAbility: Heavy Metal
 HomeSprite: SRD-HomeSprite-copperajah.png
 Learnset: '[[SRD-Copperajah-Learnset]]'
 Legendary: 'No'
 Name: Copperajah
 Number: 879
+PrimaryEggGroup: Field
+SecondaryEggGroup: Mineral
 Sprite: copperajah.png
 Type1: Steel
 Type2: ''
+Weight:
+  Hectograms: 6500
+  Kilograms: 650.0
+  Pounds: 1433.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-copperajah.png|right]]
+
+*Copperderm Pokemon*
+*They originally came from another region long ago, worked together with humans helping them pave new roads and building cities. They are usually calm and love spending time with their families.*
 
 **DexID**:: 0879
 **Species**:: Copperajah
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 9'8" / 3.0m
+**Weight**: 1433.0lbs / 650.0kg
 
 ![[SRD-Copperajah-Learnset]]

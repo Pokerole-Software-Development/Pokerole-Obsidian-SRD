@@ -1,19 +1,36 @@
 ---
 Ability1: Shell Armor
 Ability2: Skill Link
+Baby: 'No'
+BookImageName: HOME090.png
+BookShinyImageName: HOME090_s.png
 BoxSprite: SRD-BoxSprite-shellder.png
+DexCategory: Bivalve Pokemon
+DexDescription: "It lives at the bottom of the sea and rivers. It feeds on algae but\
+  \ it\u2019s attracted to sweet substances. When frightened it will shut its clam\
+  \ and lock it to be almost impossible to open."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-shellder.png
 Learnset: '[[SRD-Shellder-Learnset]]'
 Legendary: 'No'
 Name: Shellder
 Number: 90
+PrimaryEggGroup: Water 3
+SecondaryEggGroup: ''
 Sprite: shellder.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 40
+  Kilograms: 4.0
+  Pounds: 8.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-shellder.png|right]]
+
+*Bivalve Pokemon*
+*It lives at the bottom of the sea and rivers. It feeds on algae but it’s attracted to sweet substances. When frightened it will shut its clam and lock it to be almost impossible to open.*
 
 **DexID**:: 0090
 **Species**:: Shellder
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 8.8lbs / 4.0kg
 
 ![[SRD-Shellder-Learnset]]

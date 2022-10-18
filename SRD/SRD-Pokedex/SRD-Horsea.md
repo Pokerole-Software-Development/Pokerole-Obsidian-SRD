@@ -1,19 +1,36 @@
 ---
 Ability1: Swift Swim
 Ability2: Sniper
+Baby: 'No'
+BookImageName: HOME116.png
+BookShinyImageName: HOME116_s.png
 BoxSprite: SRD-BoxSprite-horsea.png
+DexCategory: Dragon Pokemon
+DexDescription: It makes its nest in the shade of corals in shallow parts of the sea.
+  If it senses danger, it spits a murky ink and flees. It has been seen shooting down
+  flying bugs to eat them.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Damp
 HomeSprite: SRD-HomeSprite-horsea.png
 Learnset: '[[SRD-Horsea-Learnset]]'
 Legendary: 'No'
 Name: Horsea
 Number: 116
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Dragon
 Sprite: horsea.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 80
+  Kilograms: 8.0
+  Pounds: 17.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-horsea.png|right]]
+
+*Dragon Pokemon*
+*It makes its nest in the shade of corals in shallow parts of the sea. If it senses danger, it spits a murky ink and flees. It has been seen shooting down flying bugs to eat them.*
 
 **DexID**:: 0116
 **Species**:: Horsea
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 17.6lbs / 8.0kg
 
 ![[SRD-Horsea-Learnset]]

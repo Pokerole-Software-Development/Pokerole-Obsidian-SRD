@@ -1,19 +1,36 @@
 ---
 Ability1: Hustle
 Ability2: Inner Focus
+Baby: 'No'
+BookImageName: HOME554G.png
+BookShinyImageName: HOME554G_s.png
 BoxSprite: SRD-BoxSprite-darumaka-galar.png
+DexCategory: Zen Charm Pokemon
+DexDescription: When forced to live on snow, its fire sac froze and now it generates
+  cold. Darumaka uses low temperatures as energy, making it very energetic on winter.
+  It is playful and likes to throw Snowballs.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-darumaka-galar.png
 Learnset: '[[SRD-Galarian Darumaka-Learnset]]'
 Legendary: 'No'
 Name: Galarian Darumaka
 Number: 554
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: darumaka-galar.png
 Type1: Ice
 Type2: ''
+Weight:
+  Hectograms: 400
+  Kilograms: 40.0
+  Pounds: 88.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-darumaka-galar.png|right]]
+
+*Zen Charm Pokemon*
+*When forced to live on snow, its fire sac froze and now it generates cold. Darumaka uses low temperatures as energy, making it very energetic on winter. It is playful and likes to throw Snowballs.*
 
 **DexID**:: 0554G
 **Species**:: Galarian Darumaka
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: No
+**Height**: 2'3" / 0.7m
+**Weight**: 88.2lbs / 40.0kg
 
 ![[SRD-Galarian Darumaka-Learnset]]

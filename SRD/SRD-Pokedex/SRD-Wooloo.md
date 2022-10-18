@@ -1,19 +1,36 @@
 ---
 Ability1: Fluffy
 Ability2: Run Away
+Baby: 'No'
+BookImageName: HOME831.png
+BookShinyImageName: HOME831_s.png
 BoxSprite: SRD-BoxSprite-wooloo.png
+DexCategory: Sheep Pokemon
+DexDescription: Woolo's wool is incredibly resilient, it serves as a cushion when
+  they fall from high mountain cliffs. They need to be sheared or their wool will
+  be too heavy to move. A sweater made with this wool will last for a lifetime.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Bulletproof
 HomeSprite: SRD-HomeSprite-wooloo.png
 Learnset: '[[SRD-Wooloo-Learnset]]'
 Legendary: 'No'
 Name: Wooloo
 Number: 831
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: wooloo.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 60
+  Kilograms: 6.0
+  Pounds: 13.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-wooloo.png|right]]
+
+*Sheep Pokemon*
+*Woolo's wool is incredibly resilient, it serves as a cushion when they fall from high mountain cliffs. They need to be sheared or their wool will be too heavy to move. A sweater made with this wool will last for a lifetime.*
 
 **DexID**:: 0831
 **Species**:: Wooloo
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 13.2lbs / 6.0kg
 
 ![[SRD-Wooloo-Learnset]]

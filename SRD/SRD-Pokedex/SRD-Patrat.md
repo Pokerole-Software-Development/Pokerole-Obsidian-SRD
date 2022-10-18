@@ -1,19 +1,36 @@
 ---
 Ability1: Run Away
 Ability2: Keen Eye
+Baby: 'No'
+BookImageName: HOME504.png
+BookShinyImageName: HOME504_s.png
 BoxSprite: SRD-BoxSprite-patrat.png
+DexCategory: Scout Pokemon
+DexDescription: They live in grass fields in big groups. One of them is always looking
+  out for predators. The group gathers food they store on their cheeks to bring it
+  back home. They are wary and alert all the time.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Analytic
 HomeSprite: SRD-HomeSprite-patrat.png
 Learnset: '[[SRD-Patrat-Learnset]]'
 Legendary: 'No'
 Name: Patrat
 Number: 504
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: patrat.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 116
+  Kilograms: 11.6
+  Pounds: 25.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-patrat.png|right]]
+
+*Scout Pokemon*
+*They live in grass fields in big groups. One of them is always looking out for predators. The group gathers food they store on their cheeks to bring it back home. They are wary and alert all the time.*
 
 **DexID**:: 0504
 **Species**:: Patrat
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 25.6lbs / 11.6kg
 
 ![[SRD-Patrat-Learnset]]

@@ -1,19 +1,41 @@
 ---
 Ability1: Blaze
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME006.png
+BookShinyImageName: HOME006_s.png
 BoxSprite: SRD-BoxSprite-charizard.png
+DexCategory: Flame Pokemon
+DexDescription: A Charizard flies around looking for strong opponents. It breathes
+  intense flames that can melt any material. However, it will never touch a weaker
+  foe. Not many trainers are able to handle its bad temper.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: Solar Power
 HomeSprite: SRD-HomeSprite-charizard.png
 Learnset: '[[SRD-Charizard-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Charizardite Y
+  Name: Mega-Charizard Y
+- Item: Charizardite X
+  Name: Mega-Charizard X
 Name: Charizard
 Number: 6
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Dragon
 Sprite: charizard.png
 Type1: Fire
 Type2: Flying
+Weight:
+  Hectograms: 905
+  Kilograms: 90.5
+  Pounds: 199.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +43,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-charizard.png|right]]
+
+*Flame Pokemon*
+*A Charizard flies around looking for strong opponents. It breathes intense flames that can melt any material. However, it will never touch a weaker foe. Not many trainers are able to handle its bad temper.*
 
 **DexID**:: 0006
 **Species**:: Charizard
@@ -41,5 +66,7 @@ Type2: Flying
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 199.5lbs / 90.5kg
 
 ![[SRD-Charizard-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Anticipation
 Ability2: Dry Skin
+Baby: 'No'
+BookImageName: HOME453.png
+BookShinyImageName: HOME453_s.png
 BoxSprite: SRD-BoxSprite-croagunk.png
+DexCategory: Toxic Mouth Pokemon
+DexDescription: It is commonly found in marshes. It inflates the sacks on its cheeks
+  and makes croaking sounds. The fluid squeezed from its fingers is poisonous, but
+  it is a common ingredient in medicinal ointments.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Poison Touch
 HomeSprite: SRD-HomeSprite-croagunk.png
 Learnset: '[[SRD-Croagunk-Learnset]]'
 Legendary: 'No'
 Name: Croagunk
 Number: 453
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: croagunk.png
 Type1: Poison
 Type2: Fighting
+Weight:
+  Hectograms: 230
+  Kilograms: 23.0
+  Pounds: 50.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-croagunk.png|right]]
+
+*Toxic Mouth Pokemon*
+*It is commonly found in marshes. It inflates the sacks on its cheeks and makes croaking sounds. The fluid squeezed from its fingers is poisonous, but it is a common ingredient in medicinal ointments.*
 
 **DexID**:: 0453
 **Species**:: Croagunk
@@ -41,5 +61,7 @@ Type2: Fighting
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 50.7lbs / 23.0kg
 
 ![[SRD-Croagunk-Learnset]]

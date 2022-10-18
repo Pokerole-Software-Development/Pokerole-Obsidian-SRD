@@ -1,19 +1,36 @@
 ---
 Ability1: Strong Jaw
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME319M.png
+BookShinyImageName: HOME319M_s.png
 BoxSprite: SRD-BoxSprite-sharpedo-mega.png
+DexCategory: Brutal Pokemon
+DexDescription: As soon as it feels the power of the Mega Stone surge through its
+  body, its mind goes blank with fury and violence. Its sharp spikes and teeth regrow
+  sharper if it loses them. The yellow marks on its body are scars
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 25
+  Feet: 8.2
+  Meters: 2.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-sharpedo-mega.png
 Learnset: '[[SRD-Mega-Sharpedo-Learnset]]'
 Legendary: 'No'
 Name: Mega-Sharpedo
 Number: 319
+PrimaryEggGroup: Water 2
+SecondaryEggGroup: ''
 Sprite: sharpedo-mega.png
 Type1: Water
 Type2: Dark
+Weight:
+  Hectograms: 1303
+  Kilograms: 130.3
+  Pounds: 287.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dark
 # `= this.name`
 
 ![[SRD-HomeSprite-sharpedo-mega.png|right]]
+
+*Brutal Pokemon*
+*As soon as it feels the power of the Mega Stone surge through its body, its mind goes blank with fury and violence. Its sharp spikes and teeth regrow sharper if it loses them. The yellow marks on its body are scars*
 
 **DexID**:: 0319M1
 **Species**:: Mega-Sharpedo
@@ -41,5 +61,7 @@ Type2: Dark
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 8'2" / 2.5m
+**Weight**: 287.3lbs / 130.3kg
 
 ![[SRD-Mega-Sharpedo-Learnset]]

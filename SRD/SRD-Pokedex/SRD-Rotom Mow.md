@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME479L.png
+BookShinyImageName: HOME479L_s.png
 BoxSprite: SRD-BoxSprite-rotom-mow.png
+DexCategory: Plasma Pokemon
+DexDescription: 'A Lawnmower possessed by a Rotom. It uses Grass powers, mows awful
+  patterns on the grass and chases people with the blades out. While on this form
+  it can use the move: Leaf Storm.'
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-rotom-mow.png
 Learnset: '[[SRD-Rotom Mow-Learnset]]'
 Legendary: 'No'
 Name: Rotom Mow
 Number: 479
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: rotom-mow.png
 Type1: Electric
 Type2: Grass
+Weight:
+  Hectograms: 3
+  Kilograms: 0.3
+  Pounds: 0.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Grass
 # `= this.name`
 
 ![[SRD-HomeSprite-rotom-mow.png|right]]
+
+*Plasma Pokemon*
+*A Lawnmower possessed by a Rotom. It uses Grass powers, mows awful patterns on the grass and chases people with the blades out. While on this form it can use the move: Leaf Storm.*
 
 **DexID**:: 0479F3
 **Species**:: Rotom Mow
@@ -41,5 +61,7 @@ Type2: Grass
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'0" / 0.3m
+**Weight**: 0.7lbs / 0.3kg
 
 ![[SRD-Rotom Mow-Learnset]]

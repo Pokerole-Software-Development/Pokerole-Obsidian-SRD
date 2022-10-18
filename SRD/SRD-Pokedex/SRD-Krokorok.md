@@ -1,19 +1,36 @@
 ---
 Ability1: Intimidate
 Ability2: Moxie
+Baby: 'No'
+BookImageName: HOME552.png
+BookShinyImageName: HOME552_s.png
 BoxSprite: SRD-BoxSprite-krokorok.png
+DexCategory: Desert Croc Pokemon
+DexDescription: The protective membranes shield their eyes from sandstorms and allow
+  them to see in the dark. They can be aggressive and territorial and love to destroy
+  things with their fangs.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Anger Point
 HomeSprite: SRD-HomeSprite-krokorok.png
 Learnset: '[[SRD-Krokorok-Learnset]]'
 Legendary: 'No'
 Name: Krokorok
 Number: 552
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: krokorok.png
 Type1: Ground
 Type2: Dark
+Weight:
+  Hectograms: 334
+  Kilograms: 33.4
+  Pounds: 73.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dark
 # `= this.name`
 
 ![[SRD-HomeSprite-krokorok.png|right]]
+
+*Desert Croc Pokemon*
+*The protective membranes shield their eyes from sandstorms and allow them to see in the dark. They can be aggressive and territorial and love to destroy things with their fangs.*
 
 **DexID**:: 0552
 **Species**:: Krokorok
@@ -41,5 +61,7 @@ Type2: Dark
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 73.6lbs / 33.4kg
 
 ![[SRD-Krokorok-Learnset]]

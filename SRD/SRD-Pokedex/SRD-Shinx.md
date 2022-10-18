@@ -1,19 +1,36 @@
 ---
 Ability1: Rivalry
 Ability2: Intimidate
+Baby: 'No'
+BookImageName: HOME403.png
+BookShinyImageName: HOME403_s.png
 BoxSprite: SRD-BoxSprite-shinx.png
+DexCategory: Flash Pokemon
+DexDescription: Its body transforms the energy of its own muscles into electricity.
+  When in danger, their whole fur shines in a flash to blind the foes. They live with
+  their parents and siblings in small prides.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Guts
 HomeSprite: SRD-HomeSprite-shinx.png
 Learnset: '[[SRD-Shinx-Learnset]]'
 Legendary: 'No'
 Name: Shinx
 Number: 403
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: shinx.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 95
+  Kilograms: 9.5
+  Pounds: 20.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-shinx.png|right]]
+
+*Flash Pokemon*
+*Its body transforms the energy of its own muscles into electricity. When in danger, their whole fur shines in a flash to blind the foes. They live with their parents and siblings in small prides.*
 
 **DexID**:: 0403
 **Species**:: Shinx
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 20.9lbs / 9.5kg
 
 ![[SRD-Shinx-Learnset]]

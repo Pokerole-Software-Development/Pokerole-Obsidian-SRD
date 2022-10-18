@@ -1,19 +1,36 @@
 ---
 Ability1: Inner Focus
 Ability2: Telepathy
+Baby: 'No'
+BookImageName: HOME765.png
+BookShinyImageName: HOME765_s.png
 BoxSprite: SRD-BoxSprite-oranguru.png
+DexCategory: Sage Pokemon
+DexDescription: These solitary Pokemon live deep in the forests where it provides
+  food and herbal medicine to those in need. It is incredibly smart even learning
+  how to use pokeballs, for that reason it dislikes being ordered around.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Symbiosis
 HomeSprite: SRD-HomeSprite-oranguru.png
 Learnset: '[[SRD-Oranguru-Learnset]]'
 Legendary: 'No'
 Name: Oranguru
 Number: 765
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: oranguru.png
 Type1: Normal
 Type2: Psychic
+Weight:
+  Hectograms: 760
+  Kilograms: 76.0
+  Pounds: 167.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-oranguru.png|right]]
+
+*Sage Pokemon*
+*These solitary Pokemon live deep in the forests where it provides food and herbal medicine to those in need. It is incredibly smart even learning how to use pokeballs, for that reason it dislikes being ordered around.*
 
 **DexID**:: 0765
 **Species**:: Oranguru
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 167.6lbs / 76.0kg
 
 ![[SRD-Oranguru-Learnset]]

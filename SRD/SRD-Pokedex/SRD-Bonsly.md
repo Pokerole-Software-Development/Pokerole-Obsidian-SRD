@@ -1,19 +1,36 @@
 ---
 Ability1: Sturdy
 Ability2: Rock Head
+Baby: 'Yes'
+BookImageName: HOME438.png
+BookShinyImageName: HOME438_s.png
 BoxSprite: SRD-BoxSprite-bonsly.png
+DexCategory: Bonsai Pokemon
+DexDescription: "They thrive in arid places. It looks like it\u2019s crying all the\
+  \ time but it\u2019s actually adjusting the moisture of its body and releasing excess\
+  \ water. Over time they become excellent at impersonating trees."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-bonsly.png
 Learnset: '[[SRD-Bonsly-Learnset]]'
 Legendary: 'No'
 Name: Bonsly
 Number: 438
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: bonsly.png
 Type1: Rock
 Type2: ''
+Weight:
+  Hectograms: 150
+  Kilograms: 15.0
+  Pounds: 33.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-bonsly.png|right]]
+
+*Bonsai Pokemon*
+*They thrive in arid places. It looks like it’s crying all the time but it’s actually adjusting the moisture of its body and releasing excess water. Over time they become excellent at impersonating trees.*
 
 **DexID**:: 0438
 **Species**:: Bonsly
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 33.1lbs / 15.0kg
 
 ![[SRD-Bonsly-Learnset]]

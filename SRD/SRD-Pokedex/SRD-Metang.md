@@ -1,19 +1,36 @@
 ---
 Ability1: Clear Body
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME375.png
+BookShinyImageName: HOME375_s.png
 BoxSprite: SRD-BoxSprite-meltan.png
+DexCategory: Iron Claw Pokemon
+DexDescription: Its two brains are joined by a magnetic nervous system. This allows
+  Metang to use psychokinetic powers. It is able to float and move in midair at 60
+  mph. To evolve further it will need more brain power.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Light Metal
 HomeSprite: SRD-HomeSprite-meltan.png
 Learnset: '[[SRD-Metang-Learnset]]'
 Legendary: 'No'
 Name: Metang
 Number: 375
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: meltan.png
 Type1: Steel
 Type2: Psychic
+Weight:
+  Hectograms: 2025
+  Kilograms: 202.5
+  Pounds: 446.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-meltan.png|right]]
+
+*Iron Claw Pokemon*
+*Its two brains are joined by a magnetic nervous system. This allows Metang to use psychokinetic powers. It is able to float and move in midair at 60 mph. To evolve further it will need more brain power.*
 
 **DexID**:: 0375
 **Species**:: Metang
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'9" / 1.2m
+**Weight**: 446.4lbs / 202.5kg
 
 ![[SRD-Metang-Learnset]]

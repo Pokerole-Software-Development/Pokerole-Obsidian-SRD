@@ -1,19 +1,36 @@
 ---
 Ability1: Swift Swim
 Ability2: Rain Dish
+Baby: 'No'
+BookImageName: HOME270.png
+BookShinyImageName: HOME270_s.png
 BoxSprite: SRD-BoxSprite-lotad.png
+DexCategory: Water Weed Pokemon
+DexDescription: They live in ponds and lakes, floating atop the water. The big leaf
+  on their head is known to act as a ferry for smaller Pokemon. The leaf is delicate
+  and needs constant watering or else Lotad will grow sick.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Own Tempo
 HomeSprite: SRD-HomeSprite-lotad.png
 Learnset: '[[SRD-Lotad-Learnset]]'
 Legendary: 'No'
 Name: Lotad
 Number: 270
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Grass
 Sprite: lotad.png
 Type1: Water
 Type2: Grass
+Weight:
+  Hectograms: 26
+  Kilograms: 2.6
+  Pounds: 5.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Grass
 # `= this.name`
 
 ![[SRD-HomeSprite-lotad.png|right]]
+
+*Water Weed Pokemon*
+*They live in ponds and lakes, floating atop the water. The big leaf on their head is known to act as a ferry for smaller Pokemon. The leaf is delicate and needs constant watering or else Lotad will grow sick.*
 
 **DexID**:: 0270
 **Species**:: Lotad
@@ -41,5 +61,7 @@ Type2: Grass
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 5.7lbs / 2.6kg
 
 ![[SRD-Lotad-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Torrent
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME259.png
+BookShinyImageName: HOME259_s.png
 BoxSprite: SRD-BoxSprite-marshtomp.png
+DexCategory: Mud Fish Pokemon
+DexDescription: A sticky film allows them to live out of water. They are seen playing
+  in the mud at beaches to rehydrate their dry bodies. They are slow runners and swimmers
+  but they can be fast sliding through the mud.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Damp
 HomeSprite: SRD-HomeSprite-marshtomp.png
 Learnset: '[[SRD-Marshtomp-Learnset]]'
 Legendary: 'No'
 Name: Marshtomp
 Number: 259
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Water 1
 Sprite: marshtomp.png
 Type1: Water
 Type2: Ground
+Weight:
+  Hectograms: 280
+  Kilograms: 28.0
+  Pounds: 61.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-marshtomp.png|right]]
+
+*Mud Fish Pokemon*
+*A sticky film allows them to live out of water. They are seen playing in the mud at beaches to rehydrate their dry bodies. They are slow runners and swimmers but they can be fast sliding through the mud.*
 
 **DexID**:: 0259
 **Species**:: Marshtomp
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 61.7lbs / 28.0kg
 
 ![[SRD-Marshtomp-Learnset]]

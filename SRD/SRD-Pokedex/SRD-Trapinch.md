@@ -1,19 +1,36 @@
 ---
 Ability1: Hyper Cutter
 Ability2: Arena Trap
+Baby: 'No'
+BookImageName: HOME328.png
+BookShinyImageName: HOME328_s.png
 BoxSprite: SRD-BoxSprite-trapinch.png
+DexCategory: Ant Pit Pokemon
+DexDescription: "Their nest is like a bowl pit dug in sand. Trapinches wait for prey\
+  \ to tumble down their pit, later to be crushed between this Pokemon\u2019s jaws.\
+  \ Beware of them as their bite can cause serious damage."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-trapinch.png
 Learnset: '[[SRD-Trapinch-Learnset]]'
 Legendary: 'No'
 Name: Trapinch
 Number: 328
+PrimaryEggGroup: Bug
+SecondaryEggGroup: Dragon
 Sprite: trapinch.png
 Type1: Ground
 Type2: ''
+Weight:
+  Hectograms: 150
+  Kilograms: 15.0
+  Pounds: 33.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-trapinch.png|right]]
+
+*Ant Pit Pokemon*
+*Their nest is like a bowl pit dug in sand. Trapinches wait for prey to tumble down their pit, later to be crushed between this Pokemon’s jaws. Beware of them as their bite can cause serious damage.*
 
 **DexID**:: 0328
 **Species**:: Trapinch
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 33.1lbs / 15.0kg
 
 ![[SRD-Trapinch-Learnset]]

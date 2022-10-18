@@ -1,19 +1,39 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME381.png
+BookShinyImageName: HOME381_s.png
 BoxSprite: SRD-BoxSprite-latios.png
+DexCategory: No Data
+DexDescription: The legend tells about two Pokemon that could take human shapes, use
+  psychic powers and become invisible. They were raised by an old couple as their
+  own children. The boy was the oldest and wore a blue shirt.
 EventAbilities: ''
 GenderType: M
 HasForm: 'Yes'
+Height:
+  Deimeters: 20
+  Feet: 6.6
+  Meters: 2.0
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-latios.png
 Learnset: '[[SRD-Latios-Learnset]]'
 Legendary: 'Yes'
+MegaEvolutions:
+- Item: Latiasite
+  Name: Mega-Latios
 Name: Latios
 Number: 381
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: latios.png
 Type1: Dragon
 Type2: Psychic
+Weight:
+  Hectograms: 600
+  Kilograms: 60.0
+  Pounds: 132.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-latios.png|right]]
+
+*No Data*
+*The legend tells about two Pokemon that could take human shapes, use psychic powers and become invisible. They were raised by an old couple as their own children. The boy was the oldest and wore a blue shirt.*
 
 **DexID**:: 0381
 **Species**:: Latios
@@ -41,5 +64,7 @@ Type2: Psychic
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'6" / 2.0m
+**Weight**: 132.3lbs / 60.0kg
 
 ![[SRD-Latios-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Poison Touch
 Ability2: Gluttony
+Baby: 'No'
+BookImageName: HOME089A.png
+BookShinyImageName: HOME089A_s.png
 BoxSprite: SRD-BoxSprite-muk-alola.png
+DexCategory: Sludge Pokemon
+DexDescription: It is as friendly as it is toxic, be careful for it tries to hug others
+  regularly. A good diet does not help reduce its toxicity levels, it only makes it
+  cranky and prone to destroy furniture. It releases toxic fumes all the time.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Power of Alchemy
 HomeSprite: SRD-HomeSprite-muk-alola.png
 Learnset: '[[SRD-Alolan Muk-Learnset]]'
 Legendary: 'No'
 Name: Alolan Muk
 Number: 89
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: muk-alola.png
 Type1: Poison
 Type2: Dark
+Weight:
+  Hectograms: 520
+  Kilograms: 52.0
+  Pounds: 114.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dark
 # `= this.name`
 
 ![[SRD-HomeSprite-muk-alola.png|right]]
+
+*Sludge Pokemon*
+*It is as friendly as it is toxic, be careful for it tries to hug others regularly. A good diet does not help reduce its toxicity levels, it only makes it cranky and prone to destroy furniture. It releases toxic fumes all the time.*
 
 **DexID**:: 0089A
 **Species**:: Alolan Muk
@@ -41,5 +61,7 @@ Type2: Dark
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 114.6lbs / 52.0kg
 
 ![[SRD-Alolan Muk-Learnset]]

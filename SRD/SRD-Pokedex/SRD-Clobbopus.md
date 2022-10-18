@@ -1,19 +1,36 @@
 ---
 Ability1: Limber
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME852.png
+BookShinyImageName: HOME852_s.png
 BoxSprite: SRD-BoxSprite-clobbopus.png
+DexCategory: Tantrum Pokemon
+DexDescription: "It\u2019s very curious and child-like, but it investigates things\
+  \ by try to punch them with its tentacles, despite this, the tentacles tear off\
+  \ easily, but don\u2019t be alarmed for they\u2019ll regrow in a few days."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Technician
 HomeSprite: SRD-HomeSprite-clobbopus.png
 Learnset: '[[SRD-Clobbopus-Learnset]]'
 Legendary: 'No'
 Name: Clobbopus
 Number: 852
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Human-Like
 Sprite: clobbopus.png
 Type1: Fighting
 Type2: ''
+Weight:
+  Hectograms: 40
+  Kilograms: 4.0
+  Pounds: 8.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-clobbopus.png|right]]
+
+*Tantrum Pokemon*
+*It’s very curious and child-like, but it investigates things by try to punch them with its tentacles, despite this, the tentacles tear off easily, but don’t be alarmed for they’ll regrow in a few days.*
 
 **DexID**:: 0852
 **Species**:: Clobbopus
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 8.8lbs / 4.0kg
 
 ![[SRD-Clobbopus-Learnset]]

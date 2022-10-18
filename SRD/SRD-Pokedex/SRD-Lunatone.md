@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME337.png
+BookShinyImageName: HOME337_s.png
 BoxSprite: SRD-BoxSprite-lunatone.png
+DexCategory: Meteorite Pokemon
+DexDescription: "First found where a meteorite fell. For this reason it\u2019s believed\
+  \ it came from space. Its eyes fill people with dread and lure them to sleep. They\
+  \ become very active and extremely powerful during full moons."
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-lunatone.png
 Learnset: '[[SRD-Lunatone-Learnset]]'
 Legendary: 'No'
 Name: Lunatone
 Number: 337
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: lunatone.png
 Type1: Rock
 Type2: Psychic
+Weight:
+  Hectograms: 1680
+  Kilograms: 168.0
+  Pounds: 370.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-lunatone.png|right]]
+
+*Meteorite Pokemon*
+*First found where a meteorite fell. For this reason it’s believed it came from space. Its eyes fill people with dread and lure them to sleep. They become very active and extremely powerful during full moons.*
 
 **DexID**:: 0337
 **Species**:: Lunatone
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 370.4lbs / 168.0kg
 
 ![[SRD-Lunatone-Learnset]]

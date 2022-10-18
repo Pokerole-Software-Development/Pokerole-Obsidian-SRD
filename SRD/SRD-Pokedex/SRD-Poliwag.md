@@ -1,19 +1,36 @@
 ---
 Ability1: Water Absorb
 Ability2: Damp
+Baby: 'No'
+BookImageName: HOME060.png
+BookShinyImageName: HOME060_s.png
 BoxSprite: SRD-BoxSprite-poliwag.png
+DexCategory: Tadpole Pokemon
+DexDescription: They are most common near ponds and lakes during the summer. Its legs
+  take some weeks to develop after it hatches, making it inept at walking. It is,
+  however, a very fast swimmer.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Swift Swim
 HomeSprite: SRD-HomeSprite-poliwag.png
 Learnset: '[[SRD-Poliwag-Learnset]]'
 Legendary: 'No'
 Name: Poliwag
 Number: 60
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: ''
 Sprite: poliwag.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 124
+  Kilograms: 12.4
+  Pounds: 27.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-poliwag.png|right]]
+
+*Tadpole Pokemon*
+*They are most common near ponds and lakes during the summer. Its legs take some weeks to develop after it hatches, making it inept at walking. It is, however, a very fast swimmer.*
 
 **DexID**:: 0060
 **Species**:: Poliwag
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 27.3lbs / 12.4kg
 
 ![[SRD-Poliwag-Learnset]]

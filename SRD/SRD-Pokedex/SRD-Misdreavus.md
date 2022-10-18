@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME200.png
+BookShinyImageName: HOME200_s.png
 BoxSprite: SRD-BoxSprite-misdreavus.png
+DexCategory: Screech Pokemon
+DexDescription: Misdreavus frightens people with a creepy, sobbing cry. It uses the
+  red spheres on its neck to absorb fear as nutrition. It takes a wicked pleasure
+  in startling and scaring people.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-misdreavus.png
 Learnset: '[[SRD-Misdreavus-Learnset]]'
 Legendary: 'No'
 Name: Misdreavus
 Number: 200
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: misdreavus.png
 Type1: Ghost
 Type2: ''
+Weight:
+  Hectograms: 10
+  Kilograms: 1.0
+  Pounds: 2.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-misdreavus.png|right]]
+
+*Screech Pokemon*
+*Misdreavus frightens people with a creepy, sobbing cry. It uses the red spheres on its neck to absorb fear as nutrition. It takes a wicked pleasure in startling and scaring people.*
 
 **DexID**:: 0200
 **Species**:: Misdreavus
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 2.2lbs / 1.0kg
 
 ![[SRD-Misdreavus-Learnset]]

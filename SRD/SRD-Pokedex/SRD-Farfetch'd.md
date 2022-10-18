@@ -1,19 +1,36 @@
 ---
 Ability1: Keen Eye
 Ability2: Inner Focus
+Baby: 'No'
+BookImageName: HOME083.png
+BookShinyImageName: HOME083_s.png
 BoxSprite: SRD-BoxSprite-farfetchd.png
+DexCategory: Wild Duck Pokemon
+DexDescription: There used to be whole flocks of them in meadows near the lakes. Now
+  they are almost extinct because their meat is delicious. They are fond of leeks
+  and celery, they carry them around as sticks.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Defiant
 HomeSprite: SRD-HomeSprite-farfetchd.png
 Learnset: '[[SRD-Farfetch''d-Learnset]]'
 Legendary: 'No'
 Name: Farfetch'd
 Number: 83
+PrimaryEggGroup: Flying
+SecondaryEggGroup: Field
 Sprite: farfetchd.png
 Type1: Normal
 Type2: Flying
+Weight:
+  Hectograms: 150
+  Kilograms: 15.0
+  Pounds: 33.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-farfetchd.png|right]]
+
+*Wild Duck Pokemon*
+*There used to be whole flocks of them in meadows near the lakes. Now they are almost extinct because their meat is delicious. They are fond of leeks and celery, they carry them around as sticks.*
 
 **DexID**:: 0083
 **Species**:: Farfetch'd
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'6" / 0.8m
+**Weight**: 33.1lbs / 15.0kg
 
 ![[SRD-Farfetch'd-Learnset]]

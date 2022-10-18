@@ -1,19 +1,36 @@
 ---
 Ability1: Pickup
 Ability2: Technician
+Baby: 'No'
+BookImageName: HOME052.png
+BookShinyImageName: HOME052_s.png
 BoxSprite: SRD-BoxSprite-meowth.png
+DexCategory: Scratch Cat Pokemon
+DexDescription: They used to live in grasslands but have adapted really well to life
+  in the city. Shiny things fascinate them and they keep a little treasure hidden.
+  The coin on its head is its most prized possession.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-meowth.png
 Learnset: '[[SRD-Meowth-Learnset]]'
 Legendary: 'No'
 Name: Meowth
 Number: 52
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: meowth.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 42
+  Kilograms: 4.2
+  Pounds: 9.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-meowth.png|right]]
+
+*Scratch Cat Pokemon*
+*They used to live in grasslands but have adapted really well to life in the city. Shiny things fascinate them and they keep a little treasure hidden. The coin on its head is its most prized possession.*
 
 **DexID**:: 0052
 **Species**:: Meowth
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 9.3lbs / 4.2kg
 
 ![[SRD-Meowth-Learnset]]

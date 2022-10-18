@@ -1,19 +1,36 @@
 ---
 Ability1: Water Absorb
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME721.png
+BookShinyImageName: HOME721_s.png
 BoxSprite: SRD-BoxSprite-volcanion.png
+DexCategory: No Data
+DexDescription: In the early days of world exploring, there are records of an entire
+  mountain blowing up in a cloud of steam. The explorers claimed that a creature in
+  the fog was responsible.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-volcanion.png
 Learnset: '[[SRD-Volcanion-Learnset]]'
 Legendary: 'Yes'
 Name: Volcanion
 Number: 721
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: volcanion.png
 Type1: Fire
 Type2: Water
+Weight:
+  Hectograms: 1950
+  Kilograms: 195.0
+  Pounds: 429.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Water
 # `= this.name`
 
 ![[SRD-HomeSprite-volcanion.png|right]]
+
+*No Data*
+*In the early days of world exploring, there are records of an entire mountain blowing up in a cloud of steam. The explorers claimed that a creature in the fog was responsible.*
 
 **DexID**:: 0721
 **Species**:: Volcanion
@@ -41,5 +61,7 @@ Type2: Water
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 429.9lbs / 195.0kg
 
 ![[SRD-Volcanion-Learnset]]

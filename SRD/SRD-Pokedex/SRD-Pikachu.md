@@ -1,19 +1,36 @@
 ---
 Ability1: Static
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME025.png
+BookShinyImageName: HOME025_s.png
 BoxSprite: SRD-BoxSprite-pikachu.png
+DexCategory: Mouse Pokemon
+DexDescription: Lives in small groups in forests but they tend to stay hidden. It
+  stores electricity in the electric sacs on its cheeks and uses its tail to ground
+  the excess charge. They can be stubborn and wary of strangers.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-HomeSprite-pikachu.png
 Learnset: '[[SRD-Pikachu-Learnset]]'
 Legendary: 'No'
 Name: Pikachu
 Number: 25
+PrimaryEggGroup: Field
+SecondaryEggGroup: Fairy
 Sprite: pikachu.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 60
+  Kilograms: 6.0
+  Pounds: 13.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-pikachu.png|right]]
+
+*Mouse Pokemon*
+*Lives in small groups in forests but they tend to stay hidden. It stores electricity in the electric sacs on its cheeks and uses its tail to ground the excess charge. They can be stubborn and wary of strangers.*
 
 **DexID**:: 0025
 **Species**:: Pikachu
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 13.2lbs / 6.0kg
 
 ![[SRD-Pikachu-Learnset]]

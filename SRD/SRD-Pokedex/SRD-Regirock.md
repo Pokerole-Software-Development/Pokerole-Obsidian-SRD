@@ -1,19 +1,35 @@
 ---
 Ability1: Clear Body
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME377.png
+BookShinyImageName: HOME377_s.png
 BoxSprite: SRD-BoxSprite-regirock.png
+DexCategory: No Data
+DexDescription: It is said to be an immortal being the size of the peak of a mountain.
+  Could he be a remnant from the most ancient times of this world?
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: Sturdy
 HomeSprite: SRD-HomeSprite-regirock.png
 Learnset: '[[SRD-Regirock-Learnset]]'
 Legendary: 'Yes'
 Name: Regirock
 Number: 377
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: regirock.png
 Type1: Rock
 Type2: ''
+Weight:
+  Hectograms: 2300
+  Kilograms: 230.0
+  Pounds: 507.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-regirock.png|right]]
+
+*No Data*
+*It is said to be an immortal being the size of the peak of a mountain. Could he be a remnant from the most ancient times of this world?*
 
 **DexID**:: 0377
 **Species**:: Regirock
@@ -41,5 +60,7 @@ Type2: ''
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 507.1lbs / 230.0kg
 
 ![[SRD-Regirock-Learnset]]

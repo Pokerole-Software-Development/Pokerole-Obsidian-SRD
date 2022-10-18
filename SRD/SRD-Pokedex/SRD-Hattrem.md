@@ -1,19 +1,36 @@
 ---
 Ability1: Healer
 Ability2: Anticipation
+Baby: 'No'
+BookImageName: HOME857.png
+BookShinyImageName: HOME857_s.png
 BoxSprite: SRD-BoxSprite-hattrem.png
+DexCategory: Serene Pokemon
+DexDescription: It may seem friendly but it is actually quite the loner. No matter
+  who you are, if you bring strong emotions near it, it will silence you violently
+  by hitting you with its braids. It dislikes crowded places.
 EventAbilities: ''
 GenderType: F
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Magic Bounce
 HomeSprite: SRD-HomeSprite-hattrem.png
 Learnset: '[[SRD-Hattrem-Learnset]]'
 Legendary: 'No'
 Name: Hattrem
 Number: 857
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: ''
 Sprite: hattrem.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 48
+  Kilograms: 4.8
+  Pounds: 10.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-hattrem.png|right]]
+
+*Serene Pokemon*
+*It may seem friendly but it is actually quite the loner. No matter who you are, if you bring strong emotions near it, it will silence you violently by hitting you with its braids. It dislikes crowded places.*
 
 **DexID**:: 0857
 **Species**:: Hattrem
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 10.6lbs / 4.8kg
 
 ![[SRD-Hattrem-Learnset]]

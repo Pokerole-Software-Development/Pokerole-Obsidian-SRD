@@ -1,19 +1,36 @@
 ---
 Ability1: Water Absorb
 Ability2: Damp
+Baby: 'No'
+BookImageName: HOME186.png
+BookShinyImageName: HOME186_s.png
 BoxSprite: SRD-BoxSprite-politoed.png
+DexCategory: Frog Pokemon
+DexDescription: "It lives with Poliwags and Poliwhirls near ponds and lakes, but there\u2019\
+  s rarely more than one. Politoed is the leader and acts as the king of the group.\
+  \ It is an easy-going but proud Pokemon."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Drizzle
 HomeSprite: SRD-HomeSprite-politoed.png
 Learnset: '[[SRD-Politoed-Learnset]]'
 Legendary: 'No'
 Name: Politoed
 Number: 186
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: ''
 Sprite: politoed.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 339
+  Kilograms: 33.9
+  Pounds: 74.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-politoed.png|right]]
+
+*Frog Pokemon*
+*It lives with Poliwags and Poliwhirls near ponds and lakes, but there’s rarely more than one. Politoed is the leader and acts as the king of the group. It is an easy-going but proud Pokemon.*
 
 **DexID**:: 0186
 **Species**:: Politoed
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'6" / 1.1m
+**Weight**: 74.7lbs / 33.9kg
 
 ![[SRD-Politoed-Learnset]]

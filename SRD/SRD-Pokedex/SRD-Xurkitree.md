@@ -1,19 +1,36 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME796.png
+BookShinyImageName: HOME796_s.png
 BoxSprite: SRD-BoxSprite-xurkitree.png
+DexCategory: 'Aether Foundation Log #067'
+DexDescription: My superiors are furious. A lot of money had to be used to cover the
+  damages UB-03 dealt in the power plant. On the bright side, it seems a lot livelier
+  now that it appears to have recharged.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 38
+  Feet: 12.5
+  Meters: 3.8
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-xurkitree.png
 Learnset: '[[SRD-Xurkitree-Learnset]]'
 Legendary: 'Yes'
 Name: Xurkitree
 Number: 796
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: xurkitree.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 1000
+  Kilograms: 100.0
+  Pounds: 220.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-xurkitree.png|right]]
+
+*Aether Foundation Log #067*
+*My superiors are furious. A lot of money had to be used to cover the damages UB-03 dealt in the power plant. On the bright side, it seems a lot livelier now that it appears to have recharged.*
 
 **DexID**:: 0796
 **Species**:: Xurkitree
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 12'5" / 3.8m
+**Weight**: 220.5lbs / 100.0kg
 
 ![[SRD-Xurkitree-Learnset]]

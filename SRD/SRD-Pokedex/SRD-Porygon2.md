@@ -1,19 +1,36 @@
 ---
 Ability1: Trace
 Ability2: Download
+Baby: 'No'
+BookImageName: HOME233.png
+BookShinyImageName: HOME233_s.png
 BoxSprite: SRD-BoxSprite-porygon2.png
+DexCategory: Virtual Pokemon
+DexDescription: This man-made Pokemon is an upgraded version of Porygon. Used for
+  space exploration and planetary development, boasting the power of science. Its
+  AI software allows it to learn on its own.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Analytic
 HomeSprite: SRD-HomeSprite-porygon2.png
 Learnset: '[[SRD-Porygon2-Learnset]]'
 Legendary: 'No'
 Name: Porygon2
 Number: 233
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: porygon2.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 325
+  Kilograms: 32.5
+  Pounds: 71.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-porygon2.png|right]]
+
+*Virtual Pokemon*
+*This man-made Pokemon is an upgraded version of Porygon. Used for space exploration and planetary development, boasting the power of science. Its AI software allows it to learn on its own.*
 
 **DexID**:: 0233
 **Species**:: Porygon2
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 71.7lbs / 32.5kg
 
 ![[SRD-Porygon2-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Oblivious
 Ability2: Own Tempo
+Baby: 'No'
+BookImageName: HOME079.png
+BookShinyImageName: HOME079_s.png
 BoxSprite: SRD-BoxSprite-slowpoke.png
+DexCategory: Dopey Pokemon
+DexDescription: "It lives close to water. This Pokemon has a low intellect, and it\u2019\
+  s slow to react to any stimuli. Its tail seeps a sweet substance it uses to lure\
+  \ prey to eat. When the tip turns white shellders will be attracted to it."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-slowpoke.png
 Learnset: '[[SRD-Slowpoke-Learnset]]'
 Legendary: 'No'
 Name: Slowpoke
 Number: 79
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Water 1
 Sprite: slowpoke.png
 Type1: Water
 Type2: Psychic
+Weight:
+  Hectograms: 360
+  Kilograms: 36.0
+  Pounds: 79.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-slowpoke.png|right]]
+
+*Dopey Pokemon*
+*It lives close to water. This Pokemon has a low intellect, and it’s slow to react to any stimuli. Its tail seeps a sweet substance it uses to lure prey to eat. When the tip turns white shellders will be attracted to it.*
 
 **DexID**:: 0079
 **Species**:: Slowpoke
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'9" / 1.2m
+**Weight**: 79.4lbs / 36.0kg
 
 ![[SRD-Slowpoke-Learnset]]

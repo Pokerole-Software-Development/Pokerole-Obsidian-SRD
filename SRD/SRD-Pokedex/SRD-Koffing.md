@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: Neutralizing Gas
+Baby: 'No'
+BookImageName: HOME109.png
+BookShinyImageName: HOME109_s.png
 BoxSprite: SRD-BoxSprite-koffing.png
+DexCategory: Poison Gas Pokemon
+DexDescription: It is drawn to the smog and fumes of the cities. It fills its body
+  with toxic gases to float like a balloon. When it gets nervous it releases a sickly
+  green gas. Breathing this gas will give you a bad case of sniffles.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Stench
 HomeSprite: SRD-HomeSprite-koffing.png
 Learnset: '[[SRD-Koffing-Learnset]]'
 Legendary: 'No'
 Name: Koffing
 Number: 109
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: koffing.png
 Type1: Poison
 Type2: ''
+Weight:
+  Hectograms: 10
+  Kilograms: 1.0
+  Pounds: 2.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-koffing.png|right]]
+
+*Poison Gas Pokemon*
+*It is drawn to the smog and fumes of the cities. It fills its body with toxic gases to float like a balloon. When it gets nervous it releases a sickly green gas. Breathing this gas will give you a bad case of sniffles.*
 
 **DexID**:: 0109
 **Species**:: Koffing
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 2.2lbs / 1.0kg
 
 ![[SRD-Koffing-Learnset]]

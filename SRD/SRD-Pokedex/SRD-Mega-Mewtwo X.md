@@ -1,19 +1,35 @@
 ---
 Ability1: Steadfast
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME150MX.png
+BookShinyImageName: HOME150MX_s.png
 BoxSprite: SRD-BoxSprite-mewtwo-mega-x.png
+DexCategory: No Data
+DexDescription: The power of the Mega Stone was absorbed into its muscles if it grapples
+  you and its psychic force does not crack you its strong arms will.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 23
+  Feet: 7.5
+  Meters: 2.3
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-mewtwo-mega-x.png
 Learnset: '[[SRD-Mega-Mewtwo X-Learnset]]'
 Legendary: 'Yes'
 Name: Mega-Mewtwo X
 Number: 150
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: mewtwo-mega-x.png
 Type1: Psychic
 Type2: Fighting
+Weight:
+  Hectograms: 1270
+  Kilograms: 127.0
+  Pounds: 280.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-mewtwo-mega-x.png|right]]
+
+*No Data*
+*The power of the Mega Stone was absorbed into its muscles if it grapples you and its psychic force does not crack you its strong arms will.*
 
 **DexID**:: 0150M1
 **Species**:: Mega-Mewtwo X
@@ -41,5 +60,7 @@ Type2: Fighting
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 7'5" / 2.3m
+**Weight**: 280.0lbs / 127.0kg
 
 ![[SRD-Mega-Mewtwo X-Learnset]]

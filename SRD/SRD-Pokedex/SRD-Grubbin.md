@@ -1,19 +1,36 @@
 ---
 Ability1: Swarm
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME736.png
+BookShinyImageName: HOME736_s.png
 BoxSprite: SRD-BoxSprite-grubbin.png
+DexCategory: Larva Pokemon
+DexDescription: They tend to gather anywhere Electric Pokemon live to protect themselves
+  from bird Pokemon who may prey on them. When they are ready to evolve they bury
+  themselves underground.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-grubbin.png
 Learnset: '[[SRD-Grubbin-Learnset]]'
 Legendary: 'No'
 Name: Grubbin
 Number: 736
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: grubbin.png
 Type1: Bug
 Type2: ''
+Weight:
+  Hectograms: 44
+  Kilograms: 4.4
+  Pounds: 9.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-grubbin.png|right]]
+
+*Larva Pokemon*
+*They tend to gather anywhere Electric Pokemon live to protect themselves from bird Pokemon who may prey on them. When they are ready to evolve they bury themselves underground.*
 
 **DexID**:: 0736
 **Species**:: Grubbin
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 9.7lbs / 4.4kg
 
 ![[SRD-Grubbin-Learnset]]

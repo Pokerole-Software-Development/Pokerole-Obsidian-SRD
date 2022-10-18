@@ -1,19 +1,36 @@
 ---
 Ability1: Chlorophyll
 Ability2: Sap Sipper
+Baby: 'No'
+BookImageName: HOME586.png
+BookShinyImageName: HOME586_s.png
 BoxSprite: SRD-BoxSprite-sawsbuck.png
+DexCategory: Season Pokemon
+DexDescription: The plants growing on its horns change according to the season. They
+  live in herds that migrate in search of grass. The leaders of the herd possess magnificent
+  horns. They tend to be peaceful creatures.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 19
+  Feet: 6.2
+  Meters: 1.9
 HiddenAbility: Serene Grace
 HomeSprite: SRD-HomeSprite-sawsbuck.png
 Learnset: '[[SRD-Sawsbuck-Learnset]]'
 Legendary: 'No'
 Name: Sawsbuck
 Number: 586
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: sawsbuck.png
 Type1: Normal
 Type2: Grass
+Weight:
+  Hectograms: 925
+  Kilograms: 92.5
+  Pounds: 203.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Grass
 # `= this.name`
 
 ![[SRD-HomeSprite-sawsbuck.png|right]]
+
+*Season Pokemon*
+*The plants growing on its horns change according to the season. They live in herds that migrate in search of grass. The leaders of the herd possess magnificent horns. They tend to be peaceful creatures.*
 
 **DexID**:: 0586
 **Species**:: Sawsbuck
@@ -41,5 +61,7 @@ Type2: Grass
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'2" / 1.9m
+**Weight**: 203.9lbs / 92.5kg
 
 ![[SRD-Sawsbuck-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Prankster
 Ability2: Frisk
+Baby: 'No'
+BookImageName: HOME862.png
+BookShinyImageName: HOME862_s.png
 BoxSprite: SRD-BoxSprite-obstagoon.png
+DexCategory: Blocking Pokemon
+DexDescription: Its voice has a very loud volume and it is a noisy and rude Pokemon.
+  Obstagoon has a tendency to take on a threatening posture and shout at anyone that
+  is in front of it. They rarely take things seriously.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-obstagoon.png
 Learnset: '[[SRD-Obstagoon-Learnset]]'
 Legendary: 'No'
 Name: Obstagoon
 Number: 862
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: obstagoon.png
 Type1: Dark
 Type2: Normal
+Weight:
+  Hectograms: 460
+  Kilograms: 46.0
+  Pounds: 101.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Normal
 # `= this.name`
 
 ![[SRD-HomeSprite-obstagoon.png|right]]
+
+*Blocking Pokemon*
+*Its voice has a very loud volume and it is a noisy and rude Pokemon. Obstagoon has a tendency to take on a threatening posture and shout at anyone that is in front of it. They rarely take things seriously.*
 
 **DexID**:: 0862
 **Species**:: Obstagoon
@@ -41,5 +61,7 @@ Type2: Normal
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 101.4lbs / 46.0kg
 
 ![[SRD-Obstagoon-Learnset]]

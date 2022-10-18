@@ -1,19 +1,36 @@
 ---
 Ability1: Contrary
 Ability2: Suction Cups
+Baby: 'No'
+BookImageName: HOME687.png
+BookShinyImageName: HOME687_s.png
 BoxSprite: SRD-BoxSprite-malamar.png
+DexCategory: Overturning Pokemon
+DexDescription: It lures prey close with hypnotic motions, then wraps its tentacles
+  around it before finishing it off to eat it. This Pokemon are difficult to handle
+  as they use their psychic abilities to do evil.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-malamar.png
 Learnset: '[[SRD-Malamar-Learnset]]'
 Legendary: 'No'
 Name: Malamar
 Number: 687
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Water 2
 Sprite: malamar.png
 Type1: Dark
 Type2: Psychic
+Weight:
+  Hectograms: 470
+  Kilograms: 47.0
+  Pounds: 103.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-malamar.png|right]]
+
+*Overturning Pokemon*
+*It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off to eat it. This Pokemon are difficult to handle as they use their psychic abilities to do evil.*
 
 **DexID**:: 0687
 **Species**:: Malamar
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 103.6lbs / 47.0kg
 
 ![[SRD-Malamar-Learnset]]

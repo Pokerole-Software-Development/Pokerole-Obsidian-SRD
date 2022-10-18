@@ -1,19 +1,36 @@
 ---
 Ability1: Pickup
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME232.png
+BookShinyImageName: HOME232_s.png
 BoxSprite: SRD-BoxSprite-donphan.png
+DexCategory: Armor Pokemon
+DexDescription: Strong enough to knock down a house. They like to attack by rolling
+  as a ball at high speed, however once they start rolling, they have a hard time
+  stopping. Some may keep their loving Phanpy nature.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-donphan.png
 Learnset: '[[SRD-Donphan-Learnset]]'
 Legendary: 'No'
 Name: Donphan
 Number: 232
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: donphan.png
 Type1: Ground
 Type2: ''
+Weight:
+  Hectograms: 1200
+  Kilograms: 120.0
+  Pounds: 264.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-donphan.png|right]]
+
+*Armor Pokemon*
+*Strong enough to knock down a house. They like to attack by rolling as a ball at high speed, however once they start rolling, they have a hard time stopping. Some may keep their loving Phanpy nature.*
 
 **DexID**:: 0232
 **Species**:: Donphan
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'6" / 1.1m
+**Weight**: 264.6lbs / 120.0kg
 
 ![[SRD-Donphan-Learnset]]

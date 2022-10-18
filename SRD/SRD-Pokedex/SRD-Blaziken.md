@@ -1,19 +1,39 @@
 ---
 Ability1: Blaze
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME257.png
+BookShinyImageName: HOME257_s.png
 BoxSprite: SRD-BoxSprite-blaziken.png
+DexCategory: Blaze Pokemon
+DexDescription: "They can jump incredible heights. As they grow older, their feathers\
+  \ combust as new feathers grow back. They are courageous fighters and expert martial\
+  \ artists. Their wrists light in flames when it\u2019s about to attack."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 19
+  Feet: 6.2
+  Meters: 1.9
 HiddenAbility: Speed Boost
 HomeSprite: SRD-HomeSprite-blaziken.png
 Learnset: '[[SRD-Blaziken-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Blazikenite
+  Name: Mega-Blaziken
 Name: Blaziken
 Number: 257
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: blaziken.png
 Type1: Fire
 Type2: Fighting
+Weight:
+  Hectograms: 520
+  Kilograms: 52.0
+  Pounds: 114.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-blaziken.png|right]]
+
+*Blaze Pokemon*
+*They can jump incredible heights. As they grow older, their feathers combust as new feathers grow back. They are courageous fighters and expert martial artists. Their wrists light in flames when it’s about to attack.*
 
 **DexID**:: 0257
 **Species**:: Blaziken
@@ -41,5 +64,7 @@ Type2: Fighting
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'2" / 1.9m
+**Weight**: 114.6lbs / 52.0kg
 
 ![[SRD-Blaziken-Learnset]]

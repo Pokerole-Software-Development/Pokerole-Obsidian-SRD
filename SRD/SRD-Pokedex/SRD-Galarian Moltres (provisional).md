@@ -1,19 +1,34 @@
 ---
 Ability1: Berserk
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME146G.png
+BookShinyImageName: HOME146G_s.png
 BoxSprite: SRD-BoxSprite-moltres-galar.png
+DexCategory: ''
+DexDescription: ''
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 20
+  Feet: 6.6
+  Meters: 2.0
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-moltres-galar.png
 Learnset: '[[SRD-Galarian Moltres (provisional)-Learnset]]'
 Legendary: 'Yes'
 Name: Galarian Moltres (provisional)
 Number: 146
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: moltres-galar.png
 Type1: Dark
 Type2: Flying
+Weight:
+  Hectograms: 660
+  Kilograms: 66.0
+  Pounds: 145.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +36,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-moltres-galar.png|right]]
+
+**
+**
 
 **DexID**:: 0146G
 **Species**:: Galarian Moltres (provisional)
@@ -41,5 +59,7 @@ Type2: Flying
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'6" / 2.0m
+**Weight**: 145.5lbs / 66.0kg
 
 ![[SRD-Galarian Moltres (provisional)-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Limber
 Ability2: Technician
+Baby: 'No'
+BookImageName: HOME053.png
+BookShinyImageName: HOME053_s.png
 BoxSprite: SRD-BoxSprite-persian.png
+DexCategory: Classy Cat Pokemon
+DexDescription: They are proud and temperamental. They scratch their trainers with
+  little to no provocation whatsoever. Their elegance and grace is very valued, although
+  they can be vicious hunters.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-persian.png
 Learnset: '[[SRD-Persian-Learnset]]'
 Legendary: 'No'
 Name: Persian
 Number: 53
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: persian.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 320
+  Kilograms: 32.0
+  Pounds: 70.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-persian.png|right]]
+
+*Classy Cat Pokemon*
+*They are proud and temperamental. They scratch their trainers with little to no provocation whatsoever. Their elegance and grace is very valued, although they can be vicious hunters.*
 
 **DexID**:: 0053
 **Species**:: Persian
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 70.5lbs / 32.0kg
 
 ![[SRD-Persian-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Chlorophyll
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME069.png
+BookShinyImageName: HOME069_s.png
 BoxSprite: SRD-BoxSprite-bellsprout.png
+DexCategory: Flower Pokemon
+DexDescription: They live in hot and humid places, blending around with the flora.
+  It is carnivorous and will try to eat anything smaller than itself. It digests its
+  prey with an acid substance on its mouth.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Gluttony
 HomeSprite: SRD-HomeSprite-bellsprout.png
 Learnset: '[[SRD-Bellsprout-Learnset]]'
 Legendary: 'No'
 Name: Bellsprout
 Number: 69
+PrimaryEggGroup: Grass
+SecondaryEggGroup: ''
 Sprite: bellsprout.png
 Type1: Grass
 Type2: Poison
+Weight:
+  Hectograms: 40
+  Kilograms: 4.0
+  Pounds: 8.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-bellsprout.png|right]]
+
+*Flower Pokemon*
+*They live in hot and humid places, blending around with the flora. It is carnivorous and will try to eat anything smaller than itself. It digests its prey with an acid substance on its mouth.*
 
 **DexID**:: 0069
 **Species**:: Bellsprout
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 8.8lbs / 4.0kg
 
 ![[SRD-Bellsprout-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Swift Swim
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME366.png
+BookShinyImageName: HOME366_s.png
 BoxSprite: SRD-BoxSprite-clamperl.png
+DexCategory: Bivalve Pokemon
+DexDescription: It is protected by a sturdy shell which is used to catch its prey.
+  Clamperl will produce a magnificent pearl once in a lifetime. That pearl is said
+  to increase psychic powers and will sell for a lot of money.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-clamperl.png
 Learnset: '[[SRD-Clamperl-Learnset]]'
 Legendary: 'No'
 Name: Clamperl
 Number: 366
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: ''
 Sprite: clamperl.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 525
+  Kilograms: 52.5
+  Pounds: 115.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-clamperl.png|right]]
+
+*Bivalve Pokemon*
+*It is protected by a sturdy shell which is used to catch its prey. Clamperl will produce a magnificent pearl once in a lifetime. That pearl is said to increase psychic powers and will sell for a lot of money.*
 
 **DexID**:: 0366
 **Species**:: Clamperl
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 115.7lbs / 52.5kg
 
 ![[SRD-Clamperl-Learnset]]

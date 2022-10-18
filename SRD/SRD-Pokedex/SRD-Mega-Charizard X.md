@@ -1,19 +1,36 @@
 ---
 Ability1: Tough Claws
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME006MX.png
+BookShinyImageName: HOME006MX_s.png
 BoxSprite: SRD-BoxSprite-charizard-mega-x.png
+DexCategory: Flame Pokemon
+DexDescription: The power of the Mega Stone make its inner flames burn so hot that
+  its body turns black as coal and blue fire escapes constantly from its mouth. It
+  is filled with rage and its demeanor is unpredictable
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-charizard-mega-x.png
 Learnset: '[[SRD-Mega-Charizard X-Learnset]]'
 Legendary: 'No'
 Name: Mega-Charizard X
 Number: 6
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Dragon
 Sprite: charizard-mega-x.png
 Type1: Fire
 Type2: Dragon
+Weight:
+  Hectograms: 1105
+  Kilograms: 110.5
+  Pounds: 243.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-charizard-mega-x.png|right]]
+
+*Flame Pokemon*
+*The power of the Mega Stone make its inner flames burn so hot that its body turns black as coal and blue fire escapes constantly from its mouth. It is filled with rage and its demeanor is unpredictable*
 
 **DexID**:: 0006M2
 **Species**:: Mega-Charizard X
@@ -41,5 +61,7 @@ Type2: Dragon
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 243.6lbs / 110.5kg
 
 ![[SRD-Mega-Charizard X-Learnset]]

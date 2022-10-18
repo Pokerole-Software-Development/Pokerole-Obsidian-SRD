@@ -1,19 +1,36 @@
 ---
 Ability1: Turboblaze
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME643.png
+BookShinyImageName: HOME643_s.png
 BoxSprite: SRD-BoxSprite-reshiram.png
+DexCategory: No Data
+DexDescription: "An Incredibly old scroll written in an ancient language, tells about\
+  \ a world of truth built by purifying fire. It also tells about a big dispute. The\
+  \ rest of the scroll is burned\u2026"
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 32
+  Feet: 10.5
+  Meters: 3.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-reshiram.png
 Learnset: '[[SRD-Reshiram-Learnset]]'
 Legendary: 'Yes'
 Name: Reshiram
 Number: 643
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: reshiram.png
 Type1: Dragon
 Type2: Fire
+Weight:
+  Hectograms: 3300
+  Kilograms: 330.0
+  Pounds: 727.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fire
 # `= this.name`
 
 ![[SRD-HomeSprite-reshiram.png|right]]
+
+*No Data*
+*An Incredibly old scroll written in an ancient language, tells about a world of truth built by purifying fire. It also tells about a big dispute. The rest of the scroll is burned…*
 
 **DexID**:: 0643
 **Species**:: Reshiram
@@ -41,5 +61,7 @@ Type2: Fire
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 10'5" / 3.2m
+**Weight**: 727.5lbs / 330.0kg
 
 ![[SRD-Reshiram-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Scrappy
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME428M.png
+BookShinyImageName: HOME428M_s.png
 BoxSprite: SRD-BoxSprite-lopunny-mega.png
+DexCategory: Rabbit Pokemon
+DexDescription: The power of the Mega Stone awakens its combative nature. Most of
+  its fur is lost due to constant fighting, even its ears are used as weapons, whipping
+  foes with heavy hits.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-lopunny-mega.png
 Learnset: '[[SRD-Mega-Lopunny-Learnset]]'
 Legendary: 'No'
 Name: Mega-Lopunny
 Number: 428
+PrimaryEggGroup: Field
+SecondaryEggGroup: Human-Like
 Sprite: lopunny-mega.png
 Type1: Normal
 Type2: Fighting
+Weight:
+  Hectograms: 283
+  Kilograms: 28.3
+  Pounds: 62.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-lopunny-mega.png|right]]
+
+*Rabbit Pokemon*
+*The power of the Mega Stone awakens its combative nature. Most of its fur is lost due to constant fighting, even its ears are used as weapons, whipping foes with heavy hits.*
 
 **DexID**:: 0428M1
 **Species**:: Mega-Lopunny
@@ -41,5 +61,7 @@ Type2: Fighting
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 62.4lbs / 28.3kg
 
 ![[SRD-Mega-Lopunny-Learnset]]

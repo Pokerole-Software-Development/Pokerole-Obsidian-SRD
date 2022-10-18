@@ -1,19 +1,36 @@
 ---
 Ability1: Speed Boost
 Ability2: Compound Eyes
+Baby: 'No'
+BookImageName: HOME469.png
+BookShinyImageName: HOME469_s.png
 BoxSprite: SRD-BoxSprite-yanmega.png
+DexCategory: Ogre Darner Pokemon
+DexDescription: It goes back to its prehistoric roots. It is a lot more violent than
+  its pre-evolved form. Its jaw power is incredible and it is adept at biting apart
+  foes while flying by at high speed. This Pokemon can be brutal
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 19
+  Feet: 6.2
+  Meters: 1.9
 HiddenAbility: Frisk
 HomeSprite: SRD-HomeSprite-yanmega.png
 Learnset: '[[SRD-Yanmega-Learnset]]'
 Legendary: 'No'
 Name: Yanmega
 Number: 469
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: yanmega.png
 Type1: Bug
 Type2: Flying
+Weight:
+  Hectograms: 515
+  Kilograms: 51.5
+  Pounds: 113.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-yanmega.png|right]]
+
+*Ogre Darner Pokemon*
+*It goes back to its prehistoric roots. It is a lot more violent than its pre-evolved form. Its jaw power is incredible and it is adept at biting apart foes while flying by at high speed. This Pokemon can be brutal*
 
 **DexID**:: 0469
 **Species**:: Yanmega
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'2" / 1.9m
+**Weight**: 113.5lbs / 51.5kg
 
 ![[SRD-Yanmega-Learnset]]

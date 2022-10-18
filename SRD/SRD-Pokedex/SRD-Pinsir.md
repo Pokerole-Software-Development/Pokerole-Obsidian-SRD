@@ -1,19 +1,39 @@
 ---
 Ability1: Hyper Cutter
 Ability2: Mold Breaker
+Baby: 'No'
+BookImageName: HOME127.png
+BookShinyImageName: HOME127_s.png
 BoxSprite: SRD-BoxSprite-pinsir.png
+DexCategory: Stagbeetle Pokemon
+DexDescription: Their pincers are strong enough to shatter thick logs. Because they
+  dislike cold, Pinsirs burrow and sleep under the ground on chilly nights. They like
+  to eat sap and honey, but they are aggressive by nature.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Moxie
 HomeSprite: SRD-HomeSprite-pinsir.png
 Learnset: '[[SRD-Pinsir-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Pinsirite
+  Name: Mega-Pinsir
 Name: Pinsir
 Number: 127
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: pinsir.png
 Type1: Bug
 Type2: ''
+Weight:
+  Hectograms: 550
+  Kilograms: 55.0
+  Pounds: 121.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-pinsir.png|right]]
+
+*Stagbeetle Pokemon*
+*Their pincers are strong enough to shatter thick logs. Because they dislike cold, Pinsirs burrow and sleep under the ground on chilly nights. They like to eat sap and honey, but they are aggressive by nature.*
 
 **DexID**:: 0127
 **Species**:: Pinsir
@@ -41,5 +64,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 121.3lbs / 55.0kg
 
 ![[SRD-Pinsir-Learnset]]

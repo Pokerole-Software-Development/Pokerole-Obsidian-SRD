@@ -1,19 +1,39 @@
 ---
 Ability1: Sand Stream
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME248.png
+BookShinyImageName: HOME248_s.png
 BoxSprite: SRD-BoxSprite-tyranitar.png
+DexCategory: Armor Pokemon
+DexDescription: "Its body is hardly damaged by any attack, so it\u2019s always eager\
+  \ to fight. They are extremely strong, their rage can change landscapes. Tyranitars\
+  \ are insolents, rebels and they care about no one."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 20
+  Feet: 6.6
+  Meters: 2.0
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-tyranitar.png
 Learnset: '[[SRD-Tyranitar-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Tyranitarite
+  Name: Mega-Tyranitar
 Name: Tyranitar
 Number: 248
+PrimaryEggGroup: Monster
+SecondaryEggGroup: ''
 Sprite: tyranitar.png
 Type1: Rock
 Type2: Dark
+Weight:
+  Hectograms: 2020
+  Kilograms: 202.0
+  Pounds: 445.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Dark
 # `= this.name`
 
 ![[SRD-HomeSprite-tyranitar.png|right]]
+
+*Armor Pokemon*
+*Its body is hardly damaged by any attack, so it’s always eager to fight. They are extremely strong, their rage can change landscapes. Tyranitars are insolents, rebels and they care about no one.*
 
 **DexID**:: 0248
 **Species**:: Tyranitar
@@ -41,5 +64,7 @@ Type2: Dark
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'6" / 2.0m
+**Weight**: 445.3lbs / 202.0kg
 
 ![[SRD-Tyranitar-Learnset]]

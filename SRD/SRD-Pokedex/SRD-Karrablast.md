@@ -1,19 +1,36 @@
 ---
 Ability1: Swarm
 Ability2: Shed Skin
+Baby: 'No'
+BookImageName: HOME588.png
+BookShinyImageName: HOME588_s.png
 BoxSprite: SRD-BoxSprite-karrablast.png
+DexCategory: Clamping Pokemon
+DexDescription: When they feel threatened, they spit an acidic liquid to drive attackers
+  away. This Pokemon targets Shelmet as they compete for food. It only evolves when
+  it has a Shelmet's shell as its new home.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: No Guard
 HomeSprite: SRD-HomeSprite-karrablast.png
 Learnset: '[[SRD-Karrablast-Learnset]]'
 Legendary: 'No'
 Name: Karrablast
 Number: 588
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: karrablast.png
 Type1: Bug
 Type2: ''
+Weight:
+  Hectograms: 59
+  Kilograms: 5.9
+  Pounds: 13.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-karrablast.png|right]]
+
+*Clamping Pokemon*
+*When they feel threatened, they spit an acidic liquid to drive attackers away. This Pokemon targets Shelmet as they compete for food. It only evolves when it has a Shelmet's shell as its new home.*
 
 **DexID**:: 0588
 **Species**:: Karrablast
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 13.0lbs / 5.9kg
 
 ![[SRD-Karrablast-Learnset]]

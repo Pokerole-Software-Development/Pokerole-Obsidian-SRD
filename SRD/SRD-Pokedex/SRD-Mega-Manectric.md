@@ -1,19 +1,36 @@
 ---
 Ability1: Intimidate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME310M.png
+BookShinyImageName: HOME310M_s.png
 BoxSprite: SRD-BoxSprite-manectric-mega.png
+DexCategory: Discharge Pokemon
+DexDescription: The power of the Mega Stone gives it an insurmountable amount of electricity
+  that gives it an explosive velocity, but it is too much for it to bear. Its mane
+  grows uncomfortably large, making it moody.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 18
+  Feet: 5.9
+  Meters: 1.8
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-manectric-mega.png
 Learnset: '[[SRD-Mega-Manectric-Learnset]]'
 Legendary: 'No'
 Name: Mega-Manectric
 Number: 310
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: manectric-mega.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 440
+  Kilograms: 44.0
+  Pounds: 97.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-manectric-mega.png|right]]
+
+*Discharge Pokemon*
+*The power of the Mega Stone gives it an insurmountable amount of electricity that gives it an explosive velocity, but it is too much for it to bear. Its mane grows uncomfortably large, making it moody.*
 
 **DexID**:: 0310M1
 **Species**:: Mega-Manectric
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'9" / 1.8m
+**Weight**: 97.0lbs / 44.0kg
 
 ![[SRD-Mega-Manectric-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Sand Rush
 Ability2: Sand Force
+Baby: 'No'
+BookImageName: HOME529.png
+BookShinyImageName: HOME529_s.png
 BoxSprite: SRD-BoxSprite-drilbur.png
+DexCategory: Mole Pokemon
+DexDescription: They can be found in caves and wreaking havoc on vegetable farms.
+  It makes its way swiftly through the soil by putting both claws together and rotating
+  at high speed. It is friendly and not afraid of humans.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-HomeSprite-drilbur.png
 Learnset: '[[SRD-Drilbur-Learnset]]'
 Legendary: 'No'
 Name: Drilbur
 Number: 529
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: drilbur.png
 Type1: Ground
 Type2: ''
+Weight:
+  Hectograms: 85
+  Kilograms: 8.5
+  Pounds: 18.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-drilbur.png|right]]
+
+*Mole Pokemon*
+*They can be found in caves and wreaking havoc on vegetable farms. It makes its way swiftly through the soil by putting both claws together and rotating at high speed. It is friendly and not afraid of humans.*
 
 **DexID**:: 0529
 **Species**:: Drilbur
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 18.7lbs / 8.5kg
 
 ![[SRD-Drilbur-Learnset]]

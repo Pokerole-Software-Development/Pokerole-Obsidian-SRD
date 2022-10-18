@@ -1,19 +1,36 @@
 ---
 Ability1: Dazzling
 Ability2: Strong Jaw
+Baby: 'No'
+BookImageName: HOME779.png
+BookShinyImageName: HOME779_s.png
 BoxSprite: SRD-BoxSprite-bruxish.png
+DexCategory: Gnash Teeth Pokemon
+DexDescription: The protuberance on its head emits psychic waves that confuse its
+  prey, while it is confused Bruxish grinds it with its sharp teeth. This grinding
+  noise makes other Pokemon flee from the place in hurry.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Wonder Skin
 HomeSprite: SRD-HomeSprite-bruxish.png
 Learnset: '[[SRD-Bruxish-Learnset]]'
 Legendary: 'No'
 Name: Bruxish
 Number: 779
+PrimaryEggGroup: Water 2
+SecondaryEggGroup: ''
 Sprite: bruxish.png
 Type1: Water
 Type2: Psychic
+Weight:
+  Hectograms: 190
+  Kilograms: 19.0
+  Pounds: 41.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-bruxish.png|right]]
+
+*Gnash Teeth Pokemon*
+*The protuberance on its head emits psychic waves that confuse its prey, while it is confused Bruxish grinds it with its sharp teeth. This grinding noise makes other Pokemon flee from the place in hurry.*
 
 **DexID**:: 0779
 **Species**:: Bruxish
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'0" / 0.9m
+**Weight**: 41.9lbs / 19.0kg
 
 ![[SRD-Bruxish-Learnset]]

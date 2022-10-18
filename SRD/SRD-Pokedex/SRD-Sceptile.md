@@ -1,19 +1,39 @@
 ---
 Ability1: Overgrow
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME254.png
+BookShinyImageName: HOME254_s.png
 BoxSprite: SRD-BoxSprite-sceptile.png
+DexCategory: Forest Pokemon
+DexDescription: "They raise trees with love and care and protect the jungles with\
+  \ their lives. Their tails can restore a plant\u2019s beauty. Sceptiles power is\
+  \ truly unmatched in their habitats. They are very proud, though."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: Unburden
 HomeSprite: SRD-HomeSprite-sceptile.png
 Learnset: '[[SRD-Sceptile-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Sceptilite
+  Name: Mega-Sceptile
 Name: Sceptile
 Number: 254
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Dragon
 Sprite: sceptile.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 522
+  Kilograms: 52.2
+  Pounds: 115.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-sceptile.png|right]]
+
+*Forest Pokemon*
+*They raise trees with love and care and protect the jungles with their lives. Their tails can restore a plant’s beauty. Sceptiles power is truly unmatched in their habitats. They are very proud, though.*
 
 **DexID**:: 0254
 **Species**:: Sceptile
@@ -41,5 +64,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 115.1lbs / 52.2kg
 
 ![[SRD-Sceptile-Learnset]]

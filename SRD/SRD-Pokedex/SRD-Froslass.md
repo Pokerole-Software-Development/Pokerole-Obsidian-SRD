@@ -1,19 +1,36 @@
 ---
 Ability1: Snow Cloak
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME478.png
+BookShinyImageName: HOME478_s.png
 BoxSprite: SRD-BoxSprite-froslass.png
+DexCategory: Snow Land Pokemon
+DexDescription: This Pokemon is female only. Legends in snowy regions say that a woman
+  who was lost at an icy mountain was reborn as Froslass. It appears during blizzards
+  to take lost people away.
 EventAbilities: ''
 GenderType: F
 HasForm: 'Yes'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Cursed Body
 HomeSprite: SRD-HomeSprite-froslass.png
 Learnset: '[[SRD-Froslass-Learnset]]'
 Legendary: 'No'
 Name: Froslass
 Number: 478
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: Mineral
 Sprite: froslass.png
 Type1: Ice
 Type2: Ghost
+Weight:
+  Hectograms: 266
+  Kilograms: 26.6
+  Pounds: 58.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-froslass.png|right]]
+
+*Snow Land Pokemon*
+*This Pokemon is female only. Legends in snowy regions say that a woman who was lost at an icy mountain was reborn as Froslass. It appears during blizzards to take lost people away.*
 
 **DexID**:: 0478
 **Species**:: Froslass
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 58.6lbs / 26.6kg
 
 ![[SRD-Froslass-Learnset]]

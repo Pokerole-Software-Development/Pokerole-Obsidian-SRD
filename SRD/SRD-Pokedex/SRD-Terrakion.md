@@ -1,19 +1,36 @@
 ---
 Ability1: Justified
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME639.png
+BookShinyImageName: HOME639_s.png
 BoxSprite: SRD-BoxSprite-terrakion.png
+DexCategory: No Data
+DexDescription: Legends in Unova tell about four Pokemon that rebelled against the
+  unfair ruler. One of them trampled through the castle walls, destroying the fortress
+  to free the trapped Pokemon inside.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 19
+  Feet: 6.2
+  Meters: 1.9
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-terrakion.png
 Learnset: '[[SRD-Terrakion-Learnset]]'
 Legendary: 'Yes'
 Name: Terrakion
 Number: 639
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: terrakion.png
 Type1: Rock
 Type2: Fighting
+Weight:
+  Hectograms: 2600
+  Kilograms: 260.0
+  Pounds: 573.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-terrakion.png|right]]
+
+*No Data*
+*Legends in Unova tell about four Pokemon that rebelled against the unfair ruler. One of them trampled through the castle walls, destroying the fortress to free the trapped Pokemon inside.*
 
 **DexID**:: 0639
 **Species**:: Terrakion
@@ -41,5 +61,7 @@ Type2: Fighting
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'2" / 1.9m
+**Weight**: 573.2lbs / 260.0kg
 
 ![[SRD-Terrakion-Learnset]]

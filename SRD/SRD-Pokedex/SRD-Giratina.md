@@ -1,19 +1,34 @@
 ---
 Ability1: Pressure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME487.png
+BookShinyImageName: HOME487_s.png
 BoxSprite: SRD-BoxSprite-giratina.png
+DexCategory: Plot Device
+DexDescription: Plot Device
 EventAbilities: ''
 GenderType: N
 HasForm: 'Yes'
+Height:
+  Deimeters: 45
+  Feet: 14.8
+  Meters: 4.5
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-giratina.png
 Learnset: '[[SRD-Giratina-Learnset]]'
 Legendary: 'Yes'
 Name: Giratina
 Number: 487
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: giratina.png
 Type1: Ghost
 Type2: Dragon
+Weight:
+  Hectograms: 7500
+  Kilograms: 750.0
+  Pounds: 1653.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +36,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-giratina.png|right]]
+
+*Plot Device*
+*Plot Device*
 
 **DexID**:: 0487
 **Species**:: Giratina
@@ -41,5 +59,7 @@ Type2: Dragon
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 14'8" / 4.5m
+**Weight**: 1653.5lbs / 750.0kg
 
 ![[SRD-Giratina-Learnset]]

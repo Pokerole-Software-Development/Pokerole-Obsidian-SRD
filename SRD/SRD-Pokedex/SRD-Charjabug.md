@@ -1,19 +1,36 @@
 ---
 Ability1: Battery
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME737.png
+BookShinyImageName: HOME737_s.png
 BoxSprite: SRD-BoxSprite-charjabug.png
+DexCategory: Battery Pokemon
+DexDescription: Whatever this Pokemon eats is transformed to electricity. People often
+  use them to power up small appliances in their homes. This Pokemon rarely moves
+  since it is preparing to evolve.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-charjabug.png
 Learnset: '[[SRD-Charjabug-Learnset]]'
 Legendary: 'No'
 Name: Charjabug
 Number: 737
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: charjabug.png
 Type1: Bug
 Type2: Electric
+Weight:
+  Hectograms: 105
+  Kilograms: 10.5
+  Pounds: 23.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Electric
 # `= this.name`
 
 ![[SRD-HomeSprite-charjabug.png|right]]
+
+*Battery Pokemon*
+*Whatever this Pokemon eats is transformed to electricity. People often use them to power up small appliances in their homes. This Pokemon rarely moves since it is preparing to evolve.*
 
 **DexID**:: 0737
 **Species**:: Charjabug
@@ -41,5 +61,7 @@ Type2: Electric
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 23.1lbs / 10.5kg
 
 ![[SRD-Charjabug-Learnset]]

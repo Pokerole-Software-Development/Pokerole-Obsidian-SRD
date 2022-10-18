@@ -1,19 +1,36 @@
 ---
 Ability1: Plus
 Ability2: Minus
+Baby: 'No'
+BookImageName: HOME601.png
+BookShinyImageName: HOME601_s.png
 BoxSprite: SRD-BoxSprite-klinklang.png
+DexCategory: Gear Pokemon
+DexDescription: The gear with the red core rotates at high speed for a quick energy
+  charge. The mini gears shoot rays through the spikes around it. This inorganic Pokemon
+  will trap and crush foes between its gears.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Clear Body
 HomeSprite: SRD-HomeSprite-klinklang.png
 Learnset: '[[SRD-Klinklang-Learnset]]'
 Legendary: 'No'
 Name: Klinklang
 Number: 601
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: klinklang.png
 Type1: Steel
 Type2: ''
+Weight:
+  Hectograms: 810
+  Kilograms: 81.0
+  Pounds: 178.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-klinklang.png|right]]
+
+*Gear Pokemon*
+*The gear with the red core rotates at high speed for a quick energy charge. The mini gears shoot rays through the spikes around it. This inorganic Pokemon will trap and crush foes between its gears.*
 
 **DexID**:: 0601
 **Species**:: Klinklang
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'0" / 0.6m
+**Weight**: 178.6lbs / 81.0kg
 
 ![[SRD-Klinklang-Learnset]]

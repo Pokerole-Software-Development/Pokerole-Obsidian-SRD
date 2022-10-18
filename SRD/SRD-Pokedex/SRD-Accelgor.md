@@ -1,19 +1,36 @@
 ---
 Ability1: Hydration
 Ability2: Sticky Hold
+Baby: 'No'
+BookImageName: HOME617.png
+BookShinyImageName: HOME617_s.png
 BoxSprite: SRD-BoxSprite-accelgor.png
+DexCategory: Shell Out Pokemon
+DexDescription: Having removed its heavy shell, it becomes very light and swift. When
+  its body dries out, it weakens. To prevent dehydration, it wraps itself in many
+  layers of a thin membrane. It is very rare to see one in the wild.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Unburden
 HomeSprite: SRD-HomeSprite-accelgor.png
 Learnset: '[[SRD-Accelgor-Learnset]]'
 Legendary: 'No'
 Name: Accelgor
 Number: 617
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: accelgor.png
 Type1: Bug
 Type2: ''
+Weight:
+  Hectograms: 253
+  Kilograms: 25.3
+  Pounds: 55.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-accelgor.png|right]]
+
+*Shell Out Pokemon*
+*Having removed its heavy shell, it becomes very light and swift. When its body dries out, it weakens. To prevent dehydration, it wraps itself in many layers of a thin membrane. It is very rare to see one in the wild.*
 
 **DexID**:: 0617
 **Species**:: Accelgor
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'6" / 0.8m
+**Weight**: 55.8lbs / 25.3kg
 
 ![[SRD-Accelgor-Learnset]]

@@ -1,19 +1,39 @@
 ---
 Ability1: Hyper Cutter
 Ability2: Intimidate
+Baby: 'No'
+BookImageName: HOME303.png
+BookShinyImageName: HOME303_s.png
 BoxSprite: SRD-BoxSprite-mawile.png
+DexCategory: Deceiver Pokemon
+DexDescription: They appear to be cute and docile, luring their prey and lowering
+  their guards, then, Mawile chomps the prey with huge steel jaws. They are very rare,
+  though. Only a few have been seen in Hoenn's Victory Road.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-mawile.png
 Learnset: '[[SRD-Mawile-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Mawilite
+  Name: Mega-Mawile
 Name: Mawile
 Number: 303
+PrimaryEggGroup: Field
+SecondaryEggGroup: Fairy
 Sprite: mawile.png
 Type1: Steel
 Type2: Fairy
+Weight:
+  Hectograms: 115
+  Kilograms: 11.5
+  Pounds: 25.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-mawile.png|right]]
+
+*Deceiver Pokemon*
+*They appear to be cute and docile, luring their prey and lowering their guards, then, Mawile chomps the prey with huge steel jaws. They are very rare, though. Only a few have been seen in Hoenn's Victory Road.*
 
 **DexID**:: 0303
 **Species**:: Mawile
@@ -41,5 +64,7 @@ Type2: Fairy
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'0" / 0.6m
+**Weight**: 25.4lbs / 11.5kg
 
 ![[SRD-Mawile-Learnset]]

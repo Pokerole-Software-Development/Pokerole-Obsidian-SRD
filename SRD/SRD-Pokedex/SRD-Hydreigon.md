@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME635.png
+BookShinyImageName: HOME635_s.png
 BoxSprite: SRD-BoxSprite-hydreigon.png
+DexCategory: Brutal Pokemon
+DexDescription: This brutal Pokemon flies in the sky. Anything that moves seems like
+  a foe to it, triggering its aggression. The heads on its arms do not have brains.
+  They use all three heads to consume and destroy everything.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 18
+  Feet: 5.9
+  Meters: 1.8
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-hydreigon.png
 Learnset: '[[SRD-Hydreigon-Learnset]]'
 Legendary: 'No'
 Name: Hydreigon
 Number: 635
+PrimaryEggGroup: Dragon
+SecondaryEggGroup: ''
 Sprite: hydreigon.png
 Type1: Dark
 Type2: Dragon
+Weight:
+  Hectograms: 1600
+  Kilograms: 160.0
+  Pounds: 352.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-hydreigon.png|right]]
+
+*Brutal Pokemon*
+*This brutal Pokemon flies in the sky. Anything that moves seems like a foe to it, triggering its aggression. The heads on its arms do not have brains. They use all three heads to consume and destroy everything.*
 
 **DexID**:: 0635
 **Species**:: Hydreigon
@@ -41,5 +61,7 @@ Type2: Dragon
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'9" / 1.8m
+**Weight**: 352.7lbs / 160.0kg
 
 ![[SRD-Hydreigon-Learnset]]

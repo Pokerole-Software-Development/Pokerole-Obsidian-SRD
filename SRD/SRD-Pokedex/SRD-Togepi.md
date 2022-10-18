@@ -1,19 +1,37 @@
 ---
 Ability1: Hustle
 Ability2: Serene Grace
+Baby: 'Yes'
+BookImageName: HOME175.png
+BookShinyImageName: HOME175_s.png
 BoxSprite: SRD-BoxSprite-togepi.png
+DexCategory: Spike Ball Pokemon
+DexDescription: "This Pokemon stores all the kindness and good feelings inside of\
+  \ it\u2019s shell and shares them with others, when the shell is full it becomes\
+  \ so happy that it finally evolves. It is said that it\u2019ll bring good fortune\
+  \ to its trainer."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Super Luck
 HomeSprite: SRD-HomeSprite-togepi.png
 Learnset: '[[SRD-Togepi-Learnset]]'
 Legendary: 'No'
 Name: Togepi
 Number: 175
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: togepi.png
 Type1: Fairy
 Type2: ''
+Weight:
+  Hectograms: 15
+  Kilograms: 1.5
+  Pounds: 3.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +39,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-togepi.png|right]]
+
+*Spike Ball Pokemon*
+*This Pokemon stores all the kindness and good feelings inside of it’s shell and shares them with others, when the shell is full it becomes so happy that it finally evolves. It is said that it’ll bring good fortune to its trainer.*
 
 **DexID**:: 0175
 **Species**:: Togepi
@@ -41,5 +62,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 3.3lbs / 1.5kg
 
 ![[SRD-Togepi-Learnset]]

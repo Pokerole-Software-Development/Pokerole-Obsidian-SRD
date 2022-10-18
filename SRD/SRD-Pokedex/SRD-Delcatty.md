@@ -1,19 +1,36 @@
 ---
 Ability1: Cute Charm
 Ability2: Normalize
+Baby: 'No'
+BookImageName: HOME301.png
+BookShinyImageName: HOME301_s.png
 BoxSprite: SRD-BoxSprite-delcatty.png
+DexCategory: Prim Pokemon
+DexDescription: They like to live without restrictions, spending their time eating
+  and sleeping whenever they feel like it. Popular among females. Delcatties love
+  clean places, good food and to groom themselves.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Wonder Skin
 HomeSprite: SRD-HomeSprite-delcatty.png
 Learnset: '[[SRD-Delcatty-Learnset]]'
 Legendary: 'No'
 Name: Delcatty
 Number: 301
+PrimaryEggGroup: Field
+SecondaryEggGroup: Fairy
 Sprite: delcatty.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 326
+  Kilograms: 32.6
+  Pounds: 71.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-delcatty.png|right]]
+
+*Prim Pokemon*
+*They like to live without restrictions, spending their time eating and sleeping whenever they feel like it. Popular among females. Delcatties love clean places, good food and to groom themselves.*
 
 **DexID**:: 0301
 **Species**:: Delcatty
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'6" / 1.1m
+**Weight**: 71.9lbs / 32.6kg
 
 ![[SRD-Delcatty-Learnset]]

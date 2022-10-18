@@ -1,19 +1,36 @@
 ---
 Ability1: Magnet Pull
 Ability2: Sturdy
+Baby: 'No'
+BookImageName: HOME082.png
+BookShinyImageName: HOME082_s.png
 BoxSprite: SRD-BoxSprite-magneton.png
+DexCategory: Magnet Pokemon
+DexDescription: Sometimes three Magnemites fuse into this Pokemon; other times a single
+  one sprouts two others. This species is greatly affected by magnetic fields. Magnetons
+  are eager to please their trainers.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Analytic
 HomeSprite: SRD-HomeSprite-magneton.png
 Learnset: '[[SRD-Magneton-Learnset]]'
 Legendary: 'No'
 Name: Magneton
 Number: 82
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: magneton.png
 Type1: Electric
 Type2: Steel
+Weight:
+  Hectograms: 600
+  Kilograms: 60.0
+  Pounds: 132.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-magneton.png|right]]
+
+*Magnet Pokemon*
+*Sometimes three Magnemites fuse into this Pokemon; other times a single one sprouts two others. This species is greatly affected by magnetic fields. Magnetons are eager to please their trainers.*
 
 **DexID**:: 0082
 **Species**:: Magneton
@@ -41,5 +61,7 @@ Type2: Steel
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 132.3lbs / 60.0kg
 
 ![[SRD-Magneton-Learnset]]

@@ -1,19 +1,39 @@
 ---
 Ability1: Overgrow
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME003.png
+BookShinyImageName: HOME003_s.png
 BoxSprite: SRD-BoxSprite-venusaur.png
+DexCategory: Seed Pokemon
+DexDescription: "Venusaur's flower is said to take on vivid colors if it gets plenty\
+  \ of sun light. The flower\u2019s aroma soothes the emotions of others.\nIf you\
+  \ find one in the wild, it must be the protector of the area."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 20
+  Feet: 6.6
+  Meters: 2.0
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-HomeSprite-venusaur.png
 Learnset: '[[SRD-Venusaur-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Venusaurite
+  Name: Mega-Venusaur
 Name: Venusaur
 Number: 3
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Grass
 Sprite: venusaur.png
 Type1: Grass
 Type2: Poison
+Weight:
+  Hectograms: 1000
+  Kilograms: 100.0
+  Pounds: 220.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,10 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-venusaur.png|right]]
+
+*Seed Pokemon*
+*Venusaur's flower is said to take on vivid colors if it gets plenty of sun light. The flower’s aroma soothes the emotions of others.
+If you find one in the wild, it must be the protector of the area.*
 
 **DexID**:: 0003
 **Species**:: Venusaur
@@ -41,5 +65,7 @@ Type2: Poison
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'6" / 2.0m
+**Weight**: 220.5lbs / 100.0kg
 
 ![[SRD-Venusaur-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Run Away
 Ability2: Flash Fire
+Baby: 'No'
+BookImageName: HOME077.png
+BookShinyImageName: HOME077_s.png
 BoxSprite: SRD-BoxSprite-ponyta.png
+DexCategory: Fire Horse Pokemon
+DexDescription: "It\u2019s not very common to see one stay still for more than a few\
+  \ seconds. Soon after it\u2019s born, its flames begin to burn. It is weak at first\
+  \ but soon begins to develop a great speed chasing after its parents."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Flame Body
 HomeSprite: SRD-HomeSprite-ponyta.png
 Learnset: '[[SRD-Ponyta-Learnset]]'
 Legendary: 'No'
 Name: Ponyta
 Number: 77
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: ponyta.png
 Type1: Fire
 Type2: ''
+Weight:
+  Hectograms: 300
+  Kilograms: 30.0
+  Pounds: 66.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-ponyta.png|right]]
+
+*Fire Horse Pokemon*
+*It’s not very common to see one stay still for more than a few seconds. Soon after it’s born, its flames begin to burn. It is weak at first but soon begins to develop a great speed chasing after its parents.*
 
 **DexID**:: 0077
 **Species**:: Ponyta
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 66.1lbs / 30.0kg
 
 ![[SRD-Ponyta-Learnset]]

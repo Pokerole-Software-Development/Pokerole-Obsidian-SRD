@@ -1,19 +1,36 @@
 ---
 Ability1: Weak Armor
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME864.png
+BookShinyImageName: HOME864_s.png
 BoxSprite: SRD-BoxSprite-cursola.png
+DexCategory: Coral Pokemon
+DexDescription: "The ectoplasm serves as protection for its soul, do not touch it\
+  \ or you\u2019ll become stiff as stone. This Pokemon longs for the days where coral\
+  \ reefs were full of life, it holds a grudge to those who destroyed them."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Perish Body
 HomeSprite: SRD-HomeSprite-cursola.png
 Learnset: '[[SRD-Cursola-Learnset]]'
 Legendary: 'No'
 Name: Cursola
 Number: 864
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Water 3
 Sprite: cursola.png
 Type1: Ghost
 Type2: ''
+Weight:
+  Hectograms: 4
+  Kilograms: 0.4
+  Pounds: 0.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-cursola.png|right]]
+
+*Coral Pokemon*
+*The ectoplasm serves as protection for its soul, do not touch it or you’ll become stiff as stone. This Pokemon longs for the days where coral reefs were full of life, it holds a grudge to those who destroyed them.*
 
 **DexID**:: 0864
 **Species**:: Cursola
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 0.9lbs / 0.4kg
 
 ![[SRD-Cursola-Learnset]]

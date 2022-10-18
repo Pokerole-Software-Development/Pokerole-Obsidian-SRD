@@ -1,19 +1,36 @@
 ---
 Ability1: Sand Spit
 Ability2: Shed Skin
+Baby: 'No'
+BookImageName: HOME843.png
+BookShinyImageName: HOME843_s.png
 BoxSprite: SRD-BoxSprite-silicobra.png
+DexCategory: Sand Snake Pokemon
+DexDescription: Silicobra can appear to be very aggressive but they just want to be
+  left alone. They spew sand from their nostrils and while the foe is blinded, they
+  burrow back into the ground to hide.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 22
+  Feet: 7.2
+  Meters: 2.2
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-silicobra.png
 Learnset: '[[SRD-Silicobra-Learnset]]'
 Legendary: 'No'
 Name: Silicobra
 Number: 843
+PrimaryEggGroup: Field
+SecondaryEggGroup: Dragon
 Sprite: silicobra.png
 Type1: Ground
 Type2: ''
+Weight:
+  Hectograms: 76
+  Kilograms: 7.6
+  Pounds: 16.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-silicobra.png|right]]
+
+*Sand Snake Pokemon*
+*Silicobra can appear to be very aggressive but they just want to be left alone. They spew sand from their nostrils and while the foe is blinded, they burrow back into the ground to hide.*
 
 **DexID**:: 0843
 **Species**:: Silicobra
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 7'2" / 2.2m
+**Weight**: 16.8lbs / 7.6kg
 
 ![[SRD-Silicobra-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Snow Warning
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME459.png
+BookShinyImageName: HOME459_s.png
 BoxSprite: SRD-BoxSprite-snover.png
+DexCategory: Frosted Tree Pokemon
+DexDescription: "During cold seasons, it migrates to the mountain\u2019s lower reaches\
+  \ and returns to the summit in the spring. They are rarely in contact with humans\
+  \ but are sought for the frozen berries they grow."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Soundproof
 HomeSprite: SRD-HomeSprite-snover.png
 Learnset: '[[SRD-Snover-Learnset]]'
 Legendary: 'No'
 Name: Snover
 Number: 459
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Grass
 Sprite: snover.png
 Type1: Grass
 Type2: Ice
+Weight:
+  Hectograms: 505
+  Kilograms: 50.5
+  Pounds: 111.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ice
 # `= this.name`
 
 ![[SRD-HomeSprite-snover.png|right]]
+
+*Frosted Tree Pokemon*
+*During cold seasons, it migrates to the mountain’s lower reaches and returns to the summit in the spring. They are rarely in contact with humans but are sought for the frozen berries they grow.*
 
 **DexID**:: 0459
 **Species**:: Snover
@@ -41,5 +61,7 @@ Type2: Ice
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 111.3lbs / 50.5kg
 
 ![[SRD-Snover-Learnset]]

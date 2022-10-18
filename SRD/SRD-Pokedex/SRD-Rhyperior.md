@@ -1,19 +1,36 @@
 ---
 Ability1: Lightning Rod
 Ability2: Solid Rock
+Baby: 'No'
+BookImageName: HOME464.png
+BookShinyImageName: HOME464_s.png
 BoxSprite: SRD-BoxSprite-rhyperior.png
+DexCategory: Drill Pokemon
+DexDescription: They have rarely been seen in the wild and only in the tallest mountains.
+  It has holes on its hands which are used like canons to shoot boulders. Be careful,
+  they are very aggressive but not very smart.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 24
+  Feet: 7.9
+  Meters: 2.4
 HiddenAbility: Reckless
 HomeSprite: SRD-HomeSprite-rhyperior.png
 Learnset: '[[SRD-Rhyperior-Learnset]]'
 Legendary: 'No'
 Name: Rhyperior
 Number: 464
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Field
 Sprite: rhyperior.png
 Type1: Ground
 Type2: Rock
+Weight:
+  Hectograms: 2828
+  Kilograms: 282.8
+  Pounds: 623.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Rock
 # `= this.name`
 
 ![[SRD-HomeSprite-rhyperior.png|right]]
+
+*Drill Pokemon*
+*They have rarely been seen in the wild and only in the tallest mountains. It has holes on its hands which are used like canons to shoot boulders. Be careful, they are very aggressive but not very smart.*
 
 **DexID**:: 0464
 **Species**:: Rhyperior
@@ -41,5 +61,7 @@ Type2: Rock
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 7'9" / 2.4m
+**Weight**: 623.5lbs / 282.8kg
 
 ![[SRD-Rhyperior-Learnset]]

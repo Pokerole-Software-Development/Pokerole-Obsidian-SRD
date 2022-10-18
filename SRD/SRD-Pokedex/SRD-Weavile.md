@@ -1,19 +1,36 @@
 ---
 Ability1: Pressure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME461.png
+BookShinyImageName: HOME461_s.png
 BoxSprite: SRD-BoxSprite-weavile.png
+DexCategory: Sharp Claw Pokemon
+DexDescription: They live in cold regions, forming groups of four that hunt prey with
+  impressive coordination. They leave claw marks and patterns to indicate their territory.
+  It is devious and loves to cause trouble.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-weavile.png
 Learnset: '[[SRD-Weavile-Learnset]]'
 Legendary: 'No'
 Name: Weavile
 Number: 461
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: weavile.png
 Type1: Dark
 Type2: Ice
+Weight:
+  Hectograms: 340
+  Kilograms: 34.0
+  Pounds: 75.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ice
 # `= this.name`
 
 ![[SRD-HomeSprite-weavile.png|right]]
+
+*Sharp Claw Pokemon*
+*They live in cold regions, forming groups of four that hunt prey with impressive coordination. They leave claw marks and patterns to indicate their territory. It is devious and loves to cause trouble.*
 
 **DexID**:: 0461
 **Species**:: Weavile
@@ -41,5 +61,7 @@ Type2: Ice
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'6" / 1.1m
+**Weight**: 75.0lbs / 34.0kg
 
 ![[SRD-Weavile-Learnset]]

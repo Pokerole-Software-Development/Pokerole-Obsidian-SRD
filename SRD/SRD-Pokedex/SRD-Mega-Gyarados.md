@@ -1,19 +1,36 @@
 ---
 Ability1: Mold Breaker
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME130M.png
+BookShinyImageName: HOME130M_s.png
 BoxSprite: SRD-BoxSprite-gyarados-mega.png
+DexCategory: Atrocious Pokemon
+DexDescription: With the power of the Mega Stone its body suffers a lot of strain,
+  making it faster and stronger but also angrier and uncontrollable. It must have
+  a strong bond or it will fall into a destructive rampage.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 65
+  Feet: 21.3
+  Meters: 6.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-gyarados-mega.png
 Learnset: '[[SRD-Mega-Gyarados-Learnset]]'
 Legendary: 'No'
 Name: Mega-Gyarados
 Number: 130
+PrimaryEggGroup: Water 2
+SecondaryEggGroup: Dragon
 Sprite: gyarados-mega.png
 Type1: Water
 Type2: Dark
+Weight:
+  Hectograms: 3050
+  Kilograms: 305.0
+  Pounds: 672.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dark
 # `= this.name`
 
 ![[SRD-HomeSprite-gyarados-mega.png|right]]
+
+*Atrocious Pokemon*
+*With the power of the Mega Stone its body suffers a lot of strain, making it faster and stronger but also angrier and uncontrollable. It must have a strong bond or it will fall into a destructive rampage.*
 
 **DexID**:: 0130M1
 **Species**:: Mega-Gyarados
@@ -41,5 +61,7 @@ Type2: Dark
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 21'3" / 6.5m
+**Weight**: 672.4lbs / 305.0kg
 
 ![[SRD-Mega-Gyarados-Learnset]]

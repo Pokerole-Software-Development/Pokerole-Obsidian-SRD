@@ -1,19 +1,36 @@
 ---
 Ability1: Guts
 Ability2: Quick Feet
+Baby: 'No'
+BookImageName: HOME217.png
+BookShinyImageName: HOME217_s.png
 BoxSprite: SRD-BoxSprite-ursaring.png
+DexCategory: Hibernator Pokemon
+DexDescription: They are incredibly strong, great climbers and posses an amazing sense
+  of smell. They snap trees and feed on their fruit as they eat quite a lot. A forest
+  full of scratched trees marks the territory of Ursarings.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 18
+  Feet: 5.9
+  Meters: 1.8
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-ursaring.png
 Learnset: '[[SRD-Ursaring-Learnset]]'
 Legendary: 'No'
 Name: Ursaring
 Number: 217
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: ursaring.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 1258
+  Kilograms: 125.8
+  Pounds: 277.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-ursaring.png|right]]
+
+*Hibernator Pokemon*
+*They are incredibly strong, great climbers and posses an amazing sense of smell. They snap trees and feed on their fruit as they eat quite a lot. A forest full of scratched trees marks the territory of Ursarings.*
 
 **DexID**:: 0217
 **Species**:: Ursaring
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'9" / 1.8m
+**Weight**: 277.3lbs / 125.8kg
 
 ![[SRD-Ursaring-Learnset]]

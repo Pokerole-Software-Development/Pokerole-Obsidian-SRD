@@ -1,19 +1,36 @@
 ---
 Ability1: Illuminate
 Ability2: Natural Cure
+Baby: 'No'
+BookImageName: HOME121.png
+BookShinyImageName: HOME121_s.png
 BoxSprite: SRD-BoxSprite-starmie.png
+DexCategory: Mysterious Pokemon
+DexDescription: "This Pokemon has been given the nickname \u201Cthe gem of the sea.\u201D\
+  \ It swims through water by spinning its star-shaped body as if it were a propeller\
+  \ on a ship. The core at the center glows with different colors."
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Analytic
 HomeSprite: SRD-HomeSprite-starmie.png
 Learnset: '[[SRD-Starmie-Learnset]]'
 Legendary: 'No'
 Name: Starmie
 Number: 121
+PrimaryEggGroup: Water 3
+SecondaryEggGroup: ''
 Sprite: starmie.png
 Type1: Water
 Type2: Psychic
+Weight:
+  Hectograms: 800
+  Kilograms: 80.0
+  Pounds: 176.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-starmie.png|right]]
+
+*Mysterious Pokemon*
+*This Pokemon has been given the nickname “the gem of the sea.” It swims through water by spinning its star-shaped body as if it were a propeller on a ship. The core at the center glows with different colors.*
 
 **DexID**:: 0121
 **Species**:: Starmie
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'6" / 1.1m
+**Weight**: 176.4lbs / 80.0kg
 
 ![[SRD-Starmie-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME092.png
+BookShinyImageName: HOME092_s.png
 BoxSprite: SRD-BoxSprite-gastly.png
+DexCategory: Gas Pokemon
+DexDescription: Its body is made of a toxic gas - anyone would faint if engulfed by
+  it. It has been seen in abandoned places scaring people and other pokemon for fun.
+  It is elusive and escapes through the walls.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-gastly.png
 Learnset: '[[SRD-Gastly-Learnset]]'
 Legendary: 'No'
 Name: Gastly
 Number: 92
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: gastly.png
 Type1: Ghost
 Type2: Poison
+Weight:
+  Hectograms: 1
+  Kilograms: 0.1
+  Pounds: 0.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-gastly.png|right]]
+
+*Gas Pokemon*
+*Its body is made of a toxic gas - anyone would faint if engulfed by it. It has been seen in abandoned places scaring people and other pokemon for fun. It is elusive and escapes through the walls.*
 
 **DexID**:: 0092
 **Species**:: Gastly
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 4'3" / 1.3m
+**Weight**: 0.2lbs / 0.1kg
 
 ![[SRD-Gastly-Learnset]]

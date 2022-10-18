@@ -1,19 +1,36 @@
 ---
 Ability1: Synchronize
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME151.png
+BookShinyImageName: HOME151_s.png
 BoxSprite: SRD-BoxSprite-mew.png
+DexCategory: No Data
+DexDescription: Recent investigations declare that this Pokemon could be the common
+  ancestor of all actual Pokemon, but it has been extinct for centuries. Some people
+  claim to have seen one to get their 15 minutes of fame.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-mew.png
 Learnset: '[[SRD-Mew-Learnset]]'
 Legendary: 'Yes'
 Name: Mew
 Number: 151
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: mew.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 40
+  Kilograms: 4.0
+  Pounds: 8.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-mew.png|right]]
+
+*No Data*
+*Recent investigations declare that this Pokemon could be the common ancestor of all actual Pokemon, but it has been extinct for centuries. Some people claim to have seen one to get their 15 minutes of fame.*
 
 **DexID**:: 0151
 **Species**:: Mew
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'3" / 0.4m
+**Weight**: 8.8lbs / 4.0kg
 
 ![[SRD-Mew-Learnset]]

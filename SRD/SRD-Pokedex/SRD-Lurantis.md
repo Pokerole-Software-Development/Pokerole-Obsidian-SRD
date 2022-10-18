@@ -1,19 +1,36 @@
 ---
 Ability1: Leaf Guard
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME754.png
+BookShinyImageName: HOME754_s.png
 BoxSprite: SRD-BoxSprite-lurantis.png
+DexCategory: Bloom Sickle Pokemon
+DexDescription: "Considered to be one of the mos beautiful Grass Pokemon due to its\
+  \ lovely coloration. They require a lot of maintenance and constant grooming, so\
+  \ they\u2019ll only trust a Trainer who is up to the job."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Contrary
 HomeSprite: SRD-HomeSprite-lurantis.png
 Learnset: '[[SRD-Lurantis-Learnset]]'
 Legendary: 'No'
 Name: Lurantis
 Number: 754
+PrimaryEggGroup: Grass
+SecondaryEggGroup: ''
 Sprite: lurantis.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 185
+  Kilograms: 18.5
+  Pounds: 40.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-lurantis.png|right]]
+
+*Bloom Sickle Pokemon*
+*Considered to be one of the mos beautiful Grass Pokemon due to its lovely coloration. They require a lot of maintenance and constant grooming, so they’ll only trust a Trainer who is up to the job.*
 
 **DexID**:: 0754
 **Species**:: Lurantis
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'0" / 0.9m
+**Weight**: 40.8lbs / 18.5kg
 
 ![[SRD-Lurantis-Learnset]]

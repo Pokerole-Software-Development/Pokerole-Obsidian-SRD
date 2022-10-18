@@ -1,19 +1,36 @@
 ---
 Ability1: Intimidate
 Ability2: Frisk
+Baby: 'No'
+BookImageName: HOME234.png
+BookShinyImageName: HOME234_s.png
 BoxSprite: SRD-BoxSprite-stantler.png
+DexCategory: Bighorn Pokemon
+DexDescription: Their antlers create a distortion in space that causes confusion.
+  They were hunted for their magnificent antlers that were traded at high prices.
+  This drove Stantlers close to extinction.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 14
+  Feet: 4.6
+  Meters: 1.4
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-HomeSprite-stantler.png
 Learnset: '[[SRD-Stantler-Learnset]]'
 Legendary: 'No'
 Name: Stantler
 Number: 234
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: stantler.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 712
+  Kilograms: 71.2
+  Pounds: 157.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-stantler.png|right]]
+
+*Bighorn Pokemon*
+*Their antlers create a distortion in space that causes confusion. They were hunted for their magnificent antlers that were traded at high prices. This drove Stantlers close to extinction.*
 
 **DexID**:: 0234
 **Species**:: Stantler
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'6" / 1.4m
+**Weight**: 157.0lbs / 71.2kg
 
 ![[SRD-Stantler-Learnset]]

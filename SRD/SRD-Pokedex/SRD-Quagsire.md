@@ -1,19 +1,36 @@
 ---
 Ability1: Damp
 Ability2: Water Absorb
+Baby: 'No'
+BookImageName: HOME195.png
+BookShinyImageName: HOME195_s.png
 BoxSprite: SRD-BoxSprite-quagsire.png
+DexCategory: Water Fish Pokemon
+DexDescription: "You\u2019ll find its home at the bottom of the river. It hunts by\
+  \ leaving its mouth wide open in water and waiting for its prey to get in. Because\
+  \ it doesn\u2019t move a lot, it does not get very hungry."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 14
+  Feet: 4.6
+  Meters: 1.4
 HiddenAbility: Unaware
 HomeSprite: SRD-HomeSprite-quagsire.png
 Learnset: '[[SRD-Quagsire-Learnset]]'
 Legendary: 'No'
 Name: Quagsire
 Number: 195
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Field
 Sprite: quagsire.png
 Type1: Water
 Type2: Ground
+Weight:
+  Hectograms: 750
+  Kilograms: 75.0
+  Pounds: 165.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-quagsire.png|right]]
+
+*Water Fish Pokemon*
+*You’ll find its home at the bottom of the river. It hunts by leaving its mouth wide open in water and waiting for its prey to get in. Because it doesn’t move a lot, it does not get very hungry.*
 
 **DexID**:: 0195
 **Species**:: Quagsire
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'6" / 1.4m
+**Weight**: 165.3lbs / 75.0kg
 
 ![[SRD-Quagsire-Learnset]]

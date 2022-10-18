@@ -1,19 +1,39 @@
 ---
 Ability1: Snow Warning
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME460.png
+BookShinyImageName: HOME460_s.png
 BoxSprite: SRD-BoxSprite-abomasnow.png
+DexCategory: Frosted Tree Pokemon
+DexDescription: "There was a legend for a long time that called this Pokemon \u201C\
+  The Ice Monster\u201D. Now we know it is a Pokemon that can cover everything around\
+  \ with deep snow. It likes quiet places and only attacks if provoked."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 22
+  Feet: 7.2
+  Meters: 2.2
 HiddenAbility: Soundproof
 HomeSprite: SRD-HomeSprite-abomasnow.png
 Learnset: '[[SRD-Abomasnow-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Abomasite
+  Name: Mega-Abomasnow
 Name: Abomasnow
 Number: 460
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Grass
 Sprite: abomasnow.png
 Type1: Grass
 Type2: Ice
+Weight:
+  Hectograms: 1355
+  Kilograms: 135.5
+  Pounds: 298.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Ice
 # `= this.name`
 
 ![[SRD-HomeSprite-abomasnow.png|right]]
+
+*Frosted Tree Pokemon*
+*There was a legend for a long time that called this Pokemon “The Ice Monster”. Now we know it is a Pokemon that can cover everything around with deep snow. It likes quiet places and only attacks if provoked.*
 
 **DexID**:: 0460
 **Species**:: Abomasnow
@@ -41,5 +64,7 @@ Type2: Ice
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 7'2" / 2.2m
+**Weight**: 298.7lbs / 135.5kg
 
 ![[SRD-Abomasnow-Learnset]]

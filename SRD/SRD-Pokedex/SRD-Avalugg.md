@@ -1,19 +1,36 @@
 ---
 Ability1: Own Tempo
 Ability2: Ice Body
+Baby: 'No'
+BookImageName: HOME713.png
+BookShinyImageName: HOME713_s.png
 BoxSprite: SRD-BoxSprite-avalugg.png
+DexCategory: Iceberg Pokemon
+DexDescription: They carry their Bergmite offspring on their backs. Its Ice body is
+  hard as steel and its cumbersome frame crushes anything that stands in its way.
+  They are capable of swimming but they move very slowly.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 20
+  Feet: 6.6
+  Meters: 2.0
 HiddenAbility: Sturdy
 HomeSprite: SRD-HomeSprite-avalugg.png
 Learnset: '[[SRD-Avalugg-Learnset]]'
 Legendary: 'No'
 Name: Avalugg
 Number: 713
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Mineral
 Sprite: avalugg.png
 Type1: Ice
 Type2: ''
+Weight:
+  Hectograms: 5050
+  Kilograms: 505.0
+  Pounds: 1113.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-avalugg.png|right]]
+
+*Iceberg Pokemon*
+*They carry their Bergmite offspring on their backs. Its Ice body is hard as steel and its cumbersome frame crushes anything that stands in its way. They are capable of swimming but they move very slowly.*
 
 **DexID**:: 0713
 **Species**:: Avalugg
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'6" / 2.0m
+**Weight**: 1113.3lbs / 505.0kg
 
 ![[SRD-Avalugg-Learnset]]

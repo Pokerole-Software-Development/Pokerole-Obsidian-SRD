@@ -1,19 +1,36 @@
 ---
 Ability1: Speed Boost
 Ability2: Compound Eyes
+Baby: 'No'
+BookImageName: HOME413S.png
+BookShinyImageName: HOME413S_s.png
 BoxSprite: SRD-BoxSprite-wormadam.png
+DexCategory: Bagworm Pokemon
+DexDescription: When Burmy evolved, its Trash cloak became a part of its body. For
+  this reason there are many variations in body and type. It is a calm Pokemon that
+  loves foil wrapping. This Pokemon is female only.
 EventAbilities: ''
 GenderType: F
 HasForm: 'Yes'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-wormadam.png
 Learnset: '[[SRD-Steel Wormadam-Learnset]]'
 Legendary: 'No'
 Name: Steel Wormadam
 Number: 413
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: wormadam.png
 Type1: Bug
 Type2: Steel
+Weight:
+  Hectograms: 65
+  Kilograms: 6.5
+  Pounds: 14.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-wormadam.png|right]]
+
+*Bagworm Pokemon*
+*When Burmy evolved, its Trash cloak became a part of its body. For this reason there are many variations in body and type. It is a calm Pokemon that loves foil wrapping. This Pokemon is female only.*
 
 **DexID**:: 0413F1
 **Species**:: Steel Wormadam
@@ -41,5 +61,7 @@ Type2: Steel
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'6" / 0.5m
+**Weight**: 14.3lbs / 6.5kg
 
 ![[SRD-Steel Wormadam-Learnset]]

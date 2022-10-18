@@ -1,19 +1,36 @@
 ---
 Ability1: Volt Absorb
 Ability2: Static
+Baby: 'No'
+BookImageName: HOME881.png
+BookShinyImageName: HOME881_s.png
 BoxSprite: SRD-BoxSprite-arctozolt.png
+DexCategory: Fossil Pokemon
+DexDescription: This DNA hybrid has a hard time walking around. The bottom part is
+  from a Pokemon from an arctic region and the upper lived in warm jungles. Poor thing
+  is always shivering and sneezing without control.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 23
+  Feet: 7.5
+  Meters: 2.3
 HiddenAbility: Slush Rush
 HomeSprite: SRD-HomeSprite-arctozolt.png
 Learnset: '[[SRD-Arctozolt-Learnset]]'
 Legendary: 'No'
 Name: Arctozolt
 Number: 881
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: arctozolt.png
 Type1: Electric
 Type2: Ice
+Weight:
+  Hectograms: 1500
+  Kilograms: 150.0
+  Pounds: 330.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ice
 # `= this.name`
 
 ![[SRD-HomeSprite-arctozolt.png|right]]
+
+*Fossil Pokemon*
+*This DNA hybrid has a hard time walking around. The bottom part is from a Pokemon from an arctic region and the upper lived in warm jungles. Poor thing is always shivering and sneezing without control.*
 
 **DexID**:: 0881
 **Species**:: Arctozolt
@@ -41,5 +61,7 @@ Type2: Ice
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 7'5" / 2.3m
+**Weight**: 330.7lbs / 150.0kg
 
 ![[SRD-Arctozolt-Learnset]]

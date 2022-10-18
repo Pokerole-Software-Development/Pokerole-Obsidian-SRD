@@ -1,19 +1,36 @@
 ---
 Ability1: Mega Launcher
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME692.png
+BookShinyImageName: HOME692_s.png
 BoxSprite: SRD-BoxSprite-clauncher.png
+DexCategory: Water Gun Pokemon
+DexDescription: They live in beaches and shallow waters. They can knock down a flying
+  prey by shooting water from their massive claws. Their shell is very though but
+  their meat is delicious.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-clauncher.png
 Learnset: '[[SRD-Clauncher-Learnset]]'
 Legendary: 'No'
 Name: Clauncher
 Number: 692
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Water 3
 Sprite: clauncher.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 83
+  Kilograms: 8.3
+  Pounds: 18.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-clauncher.png|right]]
+
+*Water Gun Pokemon*
+*They live in beaches and shallow waters. They can knock down a flying prey by shooting water from their massive claws. Their shell is very though but their meat is delicious.*
 
 **DexID**:: 0692
 **Species**:: Clauncher
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 18.3lbs / 8.3kg
 
 ![[SRD-Clauncher-Learnset]]

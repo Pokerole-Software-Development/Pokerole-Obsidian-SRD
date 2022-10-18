@@ -1,19 +1,36 @@
 ---
 Ability1: Torrent
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME395.png
+BookShinyImageName: HOME395_s.png
 BoxSprite: SRD-BoxSprite-empoleon.png
+DexCategory: Emperor Pokemon
+DexDescription: They are regal and arrogant. Their beaks slice apart the drifting
+  ice while swimming as fast as a jet boat. They avoid unnecessary fights, but will
+  crush and cleave anyone that hurts or threatens its pride.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: Defiant
 HomeSprite: SRD-HomeSprite-empoleon.png
 Learnset: '[[SRD-Empoleon-Learnset]]'
 Legendary: 'No'
 Name: Empoleon
 Number: 395
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Field
 Sprite: empoleon.png
 Type1: Water
 Type2: Steel
+Weight:
+  Hectograms: 845
+  Kilograms: 84.5
+  Pounds: 186.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-empoleon.png|right]]
+
+*Emperor Pokemon*
+*They are regal and arrogant. Their beaks slice apart the drifting ice while swimming as fast as a jet boat. They avoid unnecessary fights, but will crush and cleave anyone that hurts or threatens its pride.*
 
 **DexID**:: 0395
 **Species**:: Empoleon
@@ -41,5 +61,7 @@ Type2: Steel
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 186.3lbs / 84.5kg
 
 ![[SRD-Empoleon-Learnset]]

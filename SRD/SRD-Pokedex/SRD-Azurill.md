@@ -1,19 +1,36 @@
 ---
 Ability1: Thick Fat
 Ability2: Huge Power
+Baby: 'Yes'
+BookImageName: HOME298.png
+BookShinyImageName: HOME298_s.png
 BoxSprite: SRD-BoxSprite-azurill.png
+DexCategory: Polka Dot Pokemon
+DexDescription: They use their tail as a lasso. When they throw their ball, Azurills
+  get dragged along with it. They are commonly seen bouncing and playing with other
+  Pokemon in the beach. They love fruit paps.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 2
+  Feet: 0.7
+  Meters: 0.2
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-HomeSprite-azurill.png
 Learnset: '[[SRD-Azurill-Learnset]]'
 Legendary: 'No'
 Name: Azurill
 Number: 298
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: azurill.png
 Type1: Normal
 Type2: Fairy
+Weight:
+  Hectograms: 20
+  Kilograms: 2.0
+  Pounds: 4.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-azurill.png|right]]
+
+*Polka Dot Pokemon*
+*They use their tail as a lasso. When they throw their ball, Azurills get dragged along with it. They are commonly seen bouncing and playing with other Pokemon in the beach. They love fruit paps.*
 
 **DexID**:: 0298
 **Species**:: Azurill
@@ -41,5 +61,7 @@ Type2: Fairy
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 0'7" / 0.2m
+**Weight**: 4.4lbs / 2.0kg
 
 ![[SRD-Azurill-Learnset]]

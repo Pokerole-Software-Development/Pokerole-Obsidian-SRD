@@ -1,19 +1,36 @@
 ---
 Ability1: Fluffy
 Ability2: Klutz
+Baby: 'No'
+BookImageName: HOME760.png
+BookShinyImageName: HOME760_s.png
 BoxSprite: SRD-BoxSprite-bewear.png
+DexCategory: Strong Arm Pokemon
+DexDescription: "They may look friendly but their brute strength makes them very dangerous.\
+  \ Many Trainers have been severely injured and even snapped in half by the \u201C\
+  hugs\u201D of a Bewear."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 21
+  Feet: 6.9
+  Meters: 2.1
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-bewear.png
 Learnset: '[[SRD-Bewear-Learnset]]'
 Legendary: 'No'
 Name: Bewear
 Number: 760
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: bewear.png
 Type1: Normal
 Type2: Fighting
+Weight:
+  Hectograms: 1350
+  Kilograms: 135.0
+  Pounds: 297.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-bewear.png|right]]
+
+*Strong Arm Pokemon*
+*They may look friendly but their brute strength makes them very dangerous. Many Trainers have been severely injured and even snapped in half by the “hugs” of a Bewear.*
 
 **DexID**:: 0760
 **Species**:: Bewear
@@ -41,5 +61,7 @@ Type2: Fighting
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'9" / 2.1m
+**Weight**: 297.6lbs / 135.0kg
 
 ![[SRD-Bewear-Learnset]]

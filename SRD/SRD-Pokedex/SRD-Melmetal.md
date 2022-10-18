@@ -1,19 +1,36 @@
 ---
 Ability1: Iron Fist
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME809.png
+BookShinyImageName: HOME809_s.png
 BoxSprite: SRD-BoxSprite-melmetal.png
+DexCategory: Hex Nut Pokemon
+DexDescription: There is an ancient myth that a Pokemon once taught a group of humans
+  how to work the iron, melt it and shape it into tools; but it was punished for this
+  and cast away, never to be seen again.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 25
+  Feet: 8.2
+  Meters: 2.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-melmetal.png
 Learnset: '[[SRD-Melmetal-Learnset]]'
 Legendary: 'No'
 Name: Melmetal
 Number: 809
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: melmetal.png
 Type1: Steel
 Type2: ''
+Weight:
+  Hectograms: 8000
+  Kilograms: 800.0
+  Pounds: 1763.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-melmetal.png|right]]
+
+*Hex Nut Pokemon*
+*There is an ancient myth that a Pokemon once taught a group of humans how to work the iron, melt it and shape it into tools; but it was punished for this and cast away, never to be seen again.*
 
 **DexID**:: 0809
 **Species**:: Melmetal
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 8'2" / 2.5m
+**Weight**: 1763.7lbs / 800.0kg
 
 ![[SRD-Melmetal-Learnset]]

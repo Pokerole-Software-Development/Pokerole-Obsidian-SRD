@@ -1,19 +1,36 @@
 ---
 Ability1: Sturdy
 Ability2: Rock Head
+Baby: 'No'
+BookImageName: HOME305.png
+BookShinyImageName: HOME305_s.png
 BoxSprite: SRD-BoxSprite-lairon.png
+DexCategory: Iron Armor Pokemon
+DexDescription: Their armors gets stronger by eating iron ores and drinking mineral
+  spring water, usually nesting close to ponds. Lairons often attack human miners.
+  They are territorial creatures, incredibly stubborn and resilient.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Heavy Metal
 HomeSprite: SRD-HomeSprite-lairon.png
 Learnset: '[[SRD-Lairon-Learnset]]'
 Legendary: 'No'
 Name: Lairon
 Number: 305
+PrimaryEggGroup: Monster
+SecondaryEggGroup: ''
 Sprite: lairon.png
 Type1: Steel
 Type2: Rock
+Weight:
+  Hectograms: 1200
+  Kilograms: 120.0
+  Pounds: 264.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Rock
 # `= this.name`
 
 ![[SRD-HomeSprite-lairon.png|right]]
+
+*Iron Armor Pokemon*
+*Their armors gets stronger by eating iron ores and drinking mineral spring water, usually nesting close to ponds. Lairons often attack human miners. They are territorial creatures, incredibly stubborn and resilient.*
 
 **DexID**:: 0305
 **Species**:: Lairon
@@ -41,5 +61,7 @@ Type2: Rock
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'0" / 0.9m
+**Weight**: 264.6lbs / 120.0kg
 
 ![[SRD-Lairon-Learnset]]

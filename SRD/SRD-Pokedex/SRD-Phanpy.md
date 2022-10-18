@@ -1,19 +1,36 @@
 ---
 Ability1: Pickup
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME231.png
+BookShinyImageName: HOME231_s.png
 BoxSprite: SRD-BoxSprite-phanpy.png
+DexCategory: Long Nose Pokemon
+DexDescription: They are affectionate and playful, but their snout is so strong that
+  they may hurt others while playing. They dig pits at the edge of rivers and mark
+  them so everyone knows that place is taken.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-phanpy.png
 Learnset: '[[SRD-Phanpy-Learnset]]'
 Legendary: 'No'
 Name: Phanpy
 Number: 231
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: phanpy.png
 Type1: Ground
 Type2: ''
+Weight:
+  Hectograms: 335
+  Kilograms: 33.5
+  Pounds: 73.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-phanpy.png|right]]
+
+*Long Nose Pokemon*
+*They are affectionate and playful, but their snout is so strong that they may hurt others while playing. They dig pits at the edge of rivers and mark them so everyone knows that place is taken.*
 
 **DexID**:: 0231
 **Species**:: Phanpy
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 73.9lbs / 33.5kg
 
 ![[SRD-Phanpy-Learnset]]

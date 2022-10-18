@@ -1,19 +1,36 @@
 ---
 Ability1: Chlorophyll
 Ability2: Early Bird
+Baby: 'No'
+BookImageName: HOME275.png
+BookShinyImageName: HOME275_s.png
 BoxSprite: SRD-BoxSprite-shiftry.png
+DexCategory: Wicked Pokemon
+DexDescription: "Feared as protectors of the forest. They are said to live atop towering\
+  \ trees dating back thousands of years, creating terrible wind storms. It is said\
+  \ they can read people\u2019s minds to prey on their fears."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-shiftry.png
 Learnset: '[[SRD-Shiftry-Learnset]]'
 Legendary: 'No'
 Name: Shiftry
 Number: 275
+PrimaryEggGroup: Field
+SecondaryEggGroup: Grass
 Sprite: shiftry.png
 Type1: Grass
 Type2: Dark
+Weight:
+  Hectograms: 596
+  Kilograms: 59.6
+  Pounds: 131.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dark
 # `= this.name`
 
 ![[SRD-HomeSprite-shiftry.png|right]]
+
+*Wicked Pokemon*
+*Feared as protectors of the forest. They are said to live atop towering trees dating back thousands of years, creating terrible wind storms. It is said they can read people’s minds to prey on their fears.*
 
 **DexID**:: 0275
 **Species**:: Shiftry
@@ -41,5 +61,7 @@ Type2: Dark
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 131.4lbs / 59.6kg
 
 ![[SRD-Shiftry-Learnset]]

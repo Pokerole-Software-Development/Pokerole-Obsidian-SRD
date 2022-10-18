@@ -1,19 +1,36 @@
 ---
 Ability1: Adaptability
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME448M.png
+BookShinyImageName: HOME448M_s.png
 BoxSprite: SRD-BoxSprite-lucario-mega.png
+DexCategory: Aura Pokemon
+DexDescription: 'The explosive, pulsing energy of the auras and the Mega Stone have
+  awoken its combative instincts. Its fighting style can be summed up in a single
+  word: heartless.'
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-lucario-mega.png
 Learnset: '[[SRD-Mega-Lucario-Learnset]]'
 Legendary: 'No'
 Name: Mega-Lucario
 Number: 448
+PrimaryEggGroup: Field
+SecondaryEggGroup: Human-Like
 Sprite: lucario-mega.png
 Type1: Fighting
 Type2: Steel
+Weight:
+  Hectograms: 575
+  Kilograms: 57.5
+  Pounds: 126.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-lucario-mega.png|right]]
+
+*Aura Pokemon*
+*The explosive, pulsing energy of the auras and the Mega Stone have awoken its combative instincts. Its fighting style can be summed up in a single word: heartless.*
 
 **DexID**:: 0448M1
 **Species**:: Mega-Lucario
@@ -41,5 +61,7 @@ Type2: Steel
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 126.8lbs / 57.5kg
 
 ![[SRD-Mega-Lucario-Learnset]]

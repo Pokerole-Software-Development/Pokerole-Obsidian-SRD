@@ -1,19 +1,35 @@
 ---
 Ability1: Pressure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME245.png
+BookShinyImageName: HOME245_s.png
 BoxSprite: SRD-BoxSprite-suicune.png
+DexCategory: No Data
+DexDescription: Johto Legends tell about a Pokemon that carries the north winds, sailing
+  above the clouds as the aurora, purifying water fountains, pools and rivers.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 20
+  Feet: 6.6
+  Meters: 2.0
 HiddenAbility: Inner Focus
 HomeSprite: SRD-HomeSprite-suicune.png
 Learnset: '[[SRD-Suicune-Learnset]]'
 Legendary: 'Yes'
 Name: Suicune
 Number: 245
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: suicune.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 1870
+  Kilograms: 187.0
+  Pounds: 412.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-suicune.png|right]]
+
+*No Data*
+*Johto Legends tell about a Pokemon that carries the north winds, sailing above the clouds as the aurora, purifying water fountains, pools and rivers.*
 
 **DexID**:: 0245
 **Species**:: Suicune
@@ -41,5 +60,7 @@ Type2: ''
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'6" / 2.0m
+**Weight**: 412.3lbs / 187.0kg
 
 ![[SRD-Suicune-Learnset]]

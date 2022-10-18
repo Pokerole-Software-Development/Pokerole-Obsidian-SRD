@@ -1,19 +1,36 @@
 ---
 Ability1: Water Absorb
 Ability2: Cursed Body
+Baby: 'No'
+BookImageName: HOME593.png
+BookShinyImageName: HOME593_s.png
 BoxSprite: SRD-BoxSprite-jellicent.png
+DexCategory: Floating Pokemon
+DexDescription: 'Its body is mostly seawater. It feeds on the life energy of its victims.
+  It is regal, pompous, and hates orders. The fate of the ships and crew that wander
+  into Jellicent''s territory: All sunken, all lost, all vanished.'
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 22
+  Feet: 7.2
+  Meters: 2.2
 HiddenAbility: Damp
 HomeSprite: SRD-HomeSprite-jellicent.png
 Learnset: '[[SRD-Jellicent-Learnset]]'
 Legendary: 'No'
 Name: Jellicent
 Number: 593
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: jellicent.png
 Type1: Water
 Type2: Ghost
+Weight:
+  Hectograms: 1350
+  Kilograms: 135.0
+  Pounds: 297.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-jellicent.png|right]]
+
+*Floating Pokemon*
+*Its body is mostly seawater. It feeds on the life energy of its victims. It is regal, pompous, and hates orders. The fate of the ships and crew that wander into Jellicent's territory: All sunken, all lost, all vanished.*
 
 **DexID**:: 0593
 **Species**:: Jellicent
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 7'2" / 2.2m
+**Weight**: 297.6lbs / 135.0kg
 
 ![[SRD-Jellicent-Learnset]]

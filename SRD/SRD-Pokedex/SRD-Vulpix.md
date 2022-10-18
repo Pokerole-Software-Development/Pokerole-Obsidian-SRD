@@ -1,19 +1,36 @@
 ---
 Ability1: Flash Fire
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME037.png
+BookShinyImageName: HOME037_s.png
 BoxSprite: SRD-BoxSprite-vulpix.png
+DexCategory: Fox Pokemon
+DexDescription: It is born with just one tail. As it grows, its single white tail
+  gains color and splits into six. It is quite warm and cuddly - very popular with
+  the ladies . It is, however, uncommon to see one in the wild.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Drought
 HomeSprite: SRD-HomeSprite-vulpix.png
 Learnset: '[[SRD-Vulpix-Learnset]]'
 Legendary: 'No'
 Name: Vulpix
 Number: 37
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: vulpix.png
 Type1: Fire
 Type2: ''
+Weight:
+  Hectograms: 99
+  Kilograms: 9.9
+  Pounds: 21.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-vulpix.png|right]]
+
+*Fox Pokemon*
+*It is born with just one tail. As it grows, its single white tail gains color and splits into six. It is quite warm and cuddly - very popular with the ladies . It is, however, uncommon to see one in the wild.*
 
 **DexID**:: 0037
 **Species**:: Vulpix
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 21.8lbs / 9.9kg
 
 ![[SRD-Vulpix-Learnset]]

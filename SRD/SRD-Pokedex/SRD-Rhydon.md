@@ -1,19 +1,36 @@
 ---
 Ability1: Lightning Rod
 Ability2: Rock Head
+Baby: 'No'
+BookImageName: HOME112.png
+BookShinyImageName: HOME112_s.png
 BoxSprite: SRD-BoxSprite-rhydon.png
+DexCategory: Drill Pokemon
+DexDescription: It has a horn that serves as a drill for destroying rocks and boulders.
+  Rhydon occasionally goes for a swim in rivers and even magma pools. Its great resistance
+  prevents it from taking any damage.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 19
+  Feet: 6.2
+  Meters: 1.9
 HiddenAbility: Reckless
 HomeSprite: SRD-HomeSprite-rhydon.png
 Learnset: '[[SRD-Rhydon-Learnset]]'
 Legendary: 'No'
 Name: Rhydon
 Number: 112
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Field
 Sprite: rhydon.png
 Type1: Ground
 Type2: Rock
+Weight:
+  Hectograms: 1200
+  Kilograms: 120.0
+  Pounds: 264.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Rock
 # `= this.name`
 
 ![[SRD-HomeSprite-rhydon.png|right]]
+
+*Drill Pokemon*
+*It has a horn that serves as a drill for destroying rocks and boulders. Rhydon occasionally goes for a swim in rivers and even magma pools. Its great resistance prevents it from taking any damage.*
 
 **DexID**:: 0112
 **Species**:: Rhydon
@@ -41,5 +61,7 @@ Type2: Rock
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 6'2" / 1.9m
+**Weight**: 264.6lbs / 120.0kg
 
 ![[SRD-Rhydon-Learnset]]

@@ -1,19 +1,39 @@
 ---
 Ability1: Keen Eye
 Ability2: Stall
+Baby: 'No'
+BookImageName: HOME302.png
+BookShinyImageName: HOME302_s.png
 BoxSprite: SRD-BoxSprite-sableye.png
+DexCategory: Darkness Pokemon
+DexDescription: Feared for stealing the souls of men with their sinister eyes glowing
+  in the dark. They lurk deep inside caves, eating rocks, gemstones and crystals.
+  Luckily, Sableyes are rarely seen. They love jewels and treasure.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Prankster
 HomeSprite: SRD-HomeSprite-sableye.png
 Learnset: '[[SRD-Sableye-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Sablenite
+  Name: Mega-Sableye
 Name: Sableye
 Number: 302
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: sableye.png
 Type1: Dark
 Type2: Ghost
+Weight:
+  Hectograms: 110
+  Kilograms: 11.0
+  Pounds: 24.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-sableye.png|right]]
+
+*Darkness Pokemon*
+*Feared for stealing the souls of men with their sinister eyes glowing in the dark. They lurk deep inside caves, eating rocks, gemstones and crystals. Luckily, Sableyes are rarely seen. They love jewels and treasure.*
 
 **DexID**:: 0302
 **Species**:: Sableye
@@ -41,5 +64,7 @@ Type2: Ghost
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'6" / 0.5m
+**Weight**: 24.3lbs / 11.0kg
 
 ![[SRD-Sableye-Learnset]]

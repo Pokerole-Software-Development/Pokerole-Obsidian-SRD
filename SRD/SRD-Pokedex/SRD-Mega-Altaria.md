@@ -1,19 +1,36 @@
 ---
 Ability1: Pixilate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME334M.png
+BookShinyImageName: HOME334M_s.png
 BoxSprite: SRD-BoxSprite-altaria-mega.png
+DexCategory: Humming Pokemon
+DexDescription: The power of the Mega Stone awakens a part of it full of wonder. Mega-Alatarias
+  can be benevolent or ruthless depending on who they are dealing with. Its lush cloud-wings
+  turn dark whenever it gets angry.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-altaria-mega.png
 Learnset: '[[SRD-Mega-Altaria-Learnset]]'
 Legendary: 'No'
 Name: Mega-Altaria
 Number: 334
+PrimaryEggGroup: Flying
+SecondaryEggGroup: Dragon
 Sprite: altaria-mega.png
 Type1: Dragon
 Type2: Fairy
+Weight:
+  Hectograms: 206
+  Kilograms: 20.6
+  Pounds: 45.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-altaria-mega.png|right]]
+
+*Humming Pokemon*
+*The power of the Mega Stone awakens a part of it full of wonder. Mega-Alatarias can be benevolent or ruthless depending on who they are dealing with. Its lush cloud-wings turn dark whenever it gets angry.*
 
 **DexID**:: 0334M1
 **Species**:: Mega-Altaria
@@ -41,5 +61,7 @@ Type2: Fairy
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 45.4lbs / 20.6kg
 
 ![[SRD-Mega-Altaria-Learnset]]

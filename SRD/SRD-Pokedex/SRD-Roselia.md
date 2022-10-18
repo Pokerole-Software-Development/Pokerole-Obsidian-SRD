@@ -1,19 +1,36 @@
 ---
 Ability1: Natural Cure
 Ability2: Poison Point
+Baby: 'No'
+BookImageName: HOME315.png
+BookShinyImageName: HOME315_s.png
 BoxSprite: SRD-BoxSprite-roselia.png
+DexCategory: Thorn Pokemon
+DexDescription: They live among rose bushes, shooting sharp poisonous thorns to anyone
+  who tries to steal one of their flowers. Their aroma brings serenity. They need
+  clean water to grow beautiful.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-HomeSprite-roselia.png
 Learnset: '[[SRD-Roselia-Learnset]]'
 Legendary: 'No'
 Name: Roselia
 Number: 315
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: Grass
 Sprite: roselia.png
 Type1: Grass
 Type2: Poison
+Weight:
+  Hectograms: 20
+  Kilograms: 2.0
+  Pounds: 4.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-roselia.png|right]]
+
+*Thorn Pokemon*
+*They live among rose bushes, shooting sharp poisonous thorns to anyone who tries to steal one of their flowers. Their aroma brings serenity. They need clean water to grow beautiful.*
 
 **DexID**:: 0315
 **Species**:: Roselia
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 4.4lbs / 2.0kg
 
 ![[SRD-Roselia-Learnset]]

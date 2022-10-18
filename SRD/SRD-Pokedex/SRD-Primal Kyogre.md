@@ -1,19 +1,36 @@
 ---
 Ability1: Primordial Sea
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME382P.png
+BookShinyImageName: HOME382P_s.png
 BoxSprite: SRD-BoxSprite-kyogre-primal.png
+DexCategory: No Data
+DexDescription: Millions of years ago chaos reigned. Neverending typhoons drowning
+  all life under unforgiving waters. Who was so sad and hurt in the deep darkness
+  of the sea? As its sapphire tears still flood the world.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 98
+  Feet: 32.2
+  Meters: 9.8
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-kyogre-primal.png
 Learnset: '[[SRD-Primal Kyogre-Learnset]]'
 Legendary: 'Yes'
 Name: Primal Kyogre
 Number: 382
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: kyogre-primal.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 4300
+  Kilograms: 430.0
+  Pounds: 948.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-kyogre-primal.png|right]]
+
+*No Data*
+*Millions of years ago chaos reigned. Neverending typhoons drowning all life under unforgiving waters. Who was so sad and hurt in the deep darkness of the sea? As its sapphire tears still flood the world.*
 
 **DexID**:: 0382M1
 **Species**:: Primal Kyogre
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 32'2" / 9.8m
+**Weight**: 948.0lbs / 430.0kg
 
 ![[SRD-Primal Kyogre-Learnset]]

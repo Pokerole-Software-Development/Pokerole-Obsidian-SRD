@@ -1,19 +1,36 @@
 ---
 Ability1: Overgrow
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME812.png
+BookShinyImageName: HOME812_s.png
 BoxSprite: SRD-BoxSprite-rillaboom.png
+DexCategory: Drummer Pokemon
+DexDescription: The leader owns the largest drum among its troop and has the best
+  drumming technique which makes roots sprout to attack its foes. But they are peaceful
+  and kind, creatures that value harmony in their group.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 21
+  Feet: 6.9
+  Meters: 2.1
 HiddenAbility: Grassy Surge
 HomeSprite: SRD-HomeSprite-rillaboom.png
 Learnset: '[[SRD-Rillaboom-Learnset]]'
 Legendary: 'No'
 Name: Rillaboom
 Number: 812
+PrimaryEggGroup: Field
+SecondaryEggGroup: Grass
 Sprite: rillaboom.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 900
+  Kilograms: 90.0
+  Pounds: 198.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-rillaboom.png|right]]
+
+*Drummer Pokemon*
+*The leader owns the largest drum among its troop and has the best drumming technique which makes roots sprout to attack its foes. But they are peaceful and kind, creatures that value harmony in their group.*
 
 **DexID**:: 0812
 **Species**:: Rillaboom
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'9" / 2.1m
+**Weight**: 198.4lbs / 90.0kg
 
 ![[SRD-Rillaboom-Learnset]]

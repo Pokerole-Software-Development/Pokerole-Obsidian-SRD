@@ -1,19 +1,36 @@
 ---
 Ability1: Anticipation
 Ability2: Dry Skin
+Baby: 'No'
+BookImageName: HOME454.png
+BookShinyImageName: HOME454_s.png
 BoxSprite: SRD-BoxSprite-toxicroak.png
+DexCategory: Toxic Mouth Pokemon
+DexDescription: The toxin made in its poison sacs is pumped into the knuckle claws
+  through tubes down its arms. Its toxins are so powerful that even a scratch from
+  its knuckles could be fatal in a few hours.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Poison Touch
 HomeSprite: SRD-HomeSprite-toxicroak.png
 Learnset: '[[SRD-Toxicroak-Learnset]]'
 Legendary: 'No'
 Name: Toxicroak
 Number: 454
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: toxicroak.png
 Type1: Poison
 Type2: Fighting
+Weight:
+  Hectograms: 444
+  Kilograms: 44.4
+  Pounds: 97.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-toxicroak.png|right]]
+
+*Toxic Mouth Pokemon*
+*The toxin made in its poison sacs is pumped into the knuckle claws through tubes down its arms. Its toxins are so powerful that even a scratch from its knuckles could be fatal in a few hours.*
 
 **DexID**:: 0454
 **Species**:: Toxicroak
@@ -41,5 +61,7 @@ Type2: Fighting
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 97.9lbs / 44.4kg
 
 ![[SRD-Toxicroak-Learnset]]

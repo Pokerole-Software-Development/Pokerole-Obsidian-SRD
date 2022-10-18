@@ -1,19 +1,36 @@
 ---
 Ability1: Gluttony
 Ability2: Hustle
+Baby: 'No'
+BookImageName: HOME020A.png
+BookShinyImageName: HOME020A_s.png
 BoxSprite: SRD-BoxSprite-raticate-alola.png
+DexCategory: Mouse Pokemon
+DexDescription: Alolan Raticate command their Rattata underlings to bring them food
+  every night. Five star restaurants often struggle with these aggressive Pokemon
+  nesting close to their grounds.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Thick Fat
 HomeSprite: SRD-HomeSprite-raticate-alola.png
 Learnset: '[[SRD-Alolan Raticate-Learnset]]'
 Legendary: 'No'
 Name: Alolan Raticate
 Number: 20
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: raticate-alola.png
 Type1: Dark
 Type2: Normal
+Weight:
+  Hectograms: 255
+  Kilograms: 25.5
+  Pounds: 56.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Normal
 # `= this.name`
 
 ![[SRD-HomeSprite-raticate-alola.png|right]]
+
+*Mouse Pokemon*
+*Alolan Raticate command their Rattata underlings to bring them food every night. Five star restaurants often struggle with these aggressive Pokemon nesting close to their grounds.*
 
 **DexID**:: 0020A
 **Species**:: Alolan Raticate
@@ -41,5 +61,7 @@ Type2: Normal
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'3" / 0.7m
+**Weight**: 56.2lbs / 25.5kg
 
 ![[SRD-Alolan Raticate-Learnset]]

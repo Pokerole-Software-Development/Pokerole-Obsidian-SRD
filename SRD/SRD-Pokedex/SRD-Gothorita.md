@@ -1,19 +1,36 @@
 ---
 Ability1: Frisk
 Ability2: Competitive
+Baby: 'No'
+BookImageName: HOME575.png
+BookShinyImageName: HOME575_s.png
 BoxSprite: SRD-BoxSprite-gothorita.png
+DexCategory: Manipulate Pokemon
+DexDescription: Starlight is the source of their power. At night, they mark star positions
+  by using floating stones. According to many old tales, it creates friends for itself
+  by controlling sleeping children on starry nights.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Shadow Tag
 HomeSprite: SRD-HomeSprite-gothorita.png
 Learnset: '[[SRD-Gothorita-Learnset]]'
 Legendary: 'No'
 Name: Gothorita
 Number: 575
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: gothorita.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 180
+  Kilograms: 18.0
+  Pounds: 39.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-gothorita.png|right]]
+
+*Manipulate Pokemon*
+*Starlight is the source of their power. At night, they mark star positions by using floating stones. According to many old tales, it creates friends for itself by controlling sleeping children on starry nights.*
 
 **DexID**:: 0575
 **Species**:: Gothorita
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 39.7lbs / 18.0kg
 
 ![[SRD-Gothorita-Learnset]]

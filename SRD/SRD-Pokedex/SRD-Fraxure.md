@@ -1,19 +1,36 @@
 ---
 Ability1: Rivalry
 Ability2: Mold Breaker
+Baby: 'No'
+BookImageName: HOME611.png
+BookShinyImageName: HOME611_s.png
 BoxSprite: SRD-BoxSprite-fraxure.png
+DexCategory: Axe Jaw Pokemon
+DexDescription: "Their tusks can shatter rocks. Territory battles between Fraxure\
+  \ can be intensely violent. The tusks don\u2019t grow back anymore, if you find\
+  \ a Fraxure with both tusks whole, it means it\u2019s one of the strongest."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-fraxure.png
 Learnset: '[[SRD-Fraxure-Learnset]]'
 Legendary: 'No'
 Name: Fraxure
 Number: 611
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Dragon
 Sprite: fraxure.png
 Type1: Dragon
 Type2: ''
+Weight:
+  Hectograms: 360
+  Kilograms: 36.0
+  Pounds: 79.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-fraxure.png|right]]
+
+*Axe Jaw Pokemon*
+*Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent. The tusks don’t grow back anymore, if you find a Fraxure with both tusks whole, it means it’s one of the strongest.*
 
 **DexID**:: 0611
 **Species**:: Fraxure
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 79.4lbs / 36.0kg
 
 ![[SRD-Fraxure-Learnset]]

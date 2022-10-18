@@ -1,19 +1,36 @@
 ---
 Ability1: Gluttony
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME511.png
+BookShinyImageName: HOME511_s.png
 BoxSprite: SRD-BoxSprite-pansage.png
+DexCategory: Grass Monkey Pokemon
+DexDescription: "Pansage is a friendly Pokemon. It is good at finding berries and\
+  \ will share them with other Pokemon. The leaves on it\u2019s head have medicinal\
+  \ properties, if it finds a sick Pokemon it will offer some to heal it."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Overgrow
 HomeSprite: SRD-HomeSprite-pansage.png
 Learnset: '[[SRD-Pansage-Learnset]]'
 Legendary: 'No'
 Name: Pansage
 Number: 511
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: pansage.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 105
+  Kilograms: 10.5
+  Pounds: 23.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-pansage.png|right]]
+
+*Grass Monkey Pokemon*
+*Pansage is a friendly Pokemon. It is good at finding berries and will share them with other Pokemon. The leaves on it’s head have medicinal properties, if it finds a sick Pokemon it will offer some to heal it.*
 
 **DexID**:: 0511
 **Species**:: Pansage
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 23.1lbs / 10.5kg
 
 ![[SRD-Pansage-Learnset]]

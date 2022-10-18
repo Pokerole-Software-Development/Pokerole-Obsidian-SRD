@@ -1,19 +1,36 @@
 ---
 Ability1: Leaf Guard
 Ability2: Queenly Majesty
+Baby: 'No'
+BookImageName: HOME763.png
+BookShinyImageName: HOME763_s.png
 BoxSprite: SRD-BoxSprite-tsareena.png
+DexCategory: Fruit Pokemon
+DexDescription: Tsareena's elegant appearance is only matched by its boastful fight
+  spirit. It is known for disobeying any Trainer giving it orders it dislikes, and
+  will celebrate its victories by kicking its defeated foes while laughing.
 EventAbilities: ''
 GenderType: F
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Sweet Veil
 HomeSprite: SRD-HomeSprite-tsareena.png
 Learnset: '[[SRD-Tsareena-Learnset]]'
 Legendary: 'No'
 Name: Tsareena
 Number: 763
+PrimaryEggGroup: Grass
+SecondaryEggGroup: ''
 Sprite: tsareena.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 214
+  Kilograms: 21.4
+  Pounds: 47.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-tsareena.png|right]]
+
+*Fruit Pokemon*
+*Tsareena's elegant appearance is only matched by its boastful fight spirit. It is known for disobeying any Trainer giving it orders it dislikes, and will celebrate its victories by kicking its defeated foes while laughing.*
 
 **DexID**:: 0763
 **Species**:: Tsareena
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 47.2lbs / 21.4kg
 
 ![[SRD-Tsareena-Learnset]]

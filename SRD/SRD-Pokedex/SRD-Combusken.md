@@ -1,19 +1,36 @@
 ---
 Ability1: Blaze
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME256.png
+BookShinyImageName: HOME256_s.png
 BoxSprite: SRD-BoxSprite-combusken.png
+DexCategory: Young Fowl Pokemon
+DexDescription: Once Torchic toughened up its legs and thighs, they like to run and
+  love to kick. They have an offensive instinct to keep attacking no matter what.
+  They sqwak loudly every morning when they start to train.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Speed Boost
 HomeSprite: SRD-HomeSprite-combusken.png
 Learnset: '[[SRD-Combusken-Learnset]]'
 Legendary: 'No'
 Name: Combusken
 Number: 256
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: combusken.png
 Type1: Fire
 Type2: Fighting
+Weight:
+  Hectograms: 195
+  Kilograms: 19.5
+  Pounds: 43.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-combusken.png|right]]
+
+*Young Fowl Pokemon*
+*Once Torchic toughened up its legs and thighs, they like to run and love to kick. They have an offensive instinct to keep attacking no matter what. They sqwak loudly every morning when they start to train.*
 
 **DexID**:: 0256
 **Species**:: Combusken
@@ -41,5 +61,7 @@ Type2: Fighting
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'0" / 0.9m
+**Weight**: 43.0lbs / 19.5kg
 
 ![[SRD-Combusken-Learnset]]

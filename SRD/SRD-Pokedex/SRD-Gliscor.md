@@ -1,19 +1,36 @@
 ---
 Ability1: Hyper Cutter
 Ability2: Sand Veil
+Baby: 'No'
+BookImageName: HOME472.png
+BookShinyImageName: HOME472_s.png
 BoxSprite: SRD-BoxSprite-gliscor.png
+DexCategory: Fang Scorp Pokemon
+DexDescription: Its flight is soundless. It uses its lengthy tail to carry off its
+  prey, then uses its long fangs to do the rest. It is more playful than aggressive
+  but it is dangerous if you get close to the enormous claws.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 20
+  Feet: 6.6
+  Meters: 2.0
 HiddenAbility: Poison Heal
 HomeSprite: SRD-HomeSprite-gliscor.png
 Learnset: '[[SRD-Gliscor-Learnset]]'
 Legendary: 'No'
 Name: Gliscor
 Number: 472
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: gliscor.png
 Type1: Ground
 Type2: Flying
+Weight:
+  Hectograms: 425
+  Kilograms: 42.5
+  Pounds: 93.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-gliscor.png|right]]
+
+*Fang Scorp Pokemon*
+*Its flight is soundless. It uses its lengthy tail to carry off its prey, then uses its long fangs to do the rest. It is more playful than aggressive but it is dangerous if you get close to the enormous claws.*
 
 **DexID**:: 0472
 **Species**:: Gliscor
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'6" / 2.0m
+**Weight**: 93.7lbs / 42.5kg
 
 ![[SRD-Gliscor-Learnset]]

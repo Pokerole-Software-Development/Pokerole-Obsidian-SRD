@@ -1,19 +1,36 @@
 ---
 Ability1: Overgrow
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME152.png
+BookShinyImageName: HOME152_s.png
 BoxSprite: SRD-BoxSprite-chikorita.png
+DexCategory: Leaf Pokemon
+DexDescription: It is docile and loves to bathe in the sunlight. It waves its leaf
+  around to keep foes at bay. The sweet fragrance from its leaf, has a strong calming
+  and relaxing effect on people and Pokemon.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-HomeSprite-chikorita.png
 Learnset: '[[SRD-Chikorita-Learnset]]'
 Legendary: 'No'
 Name: Chikorita
 Number: 152
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Grass
 Sprite: chikorita.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 64
+  Kilograms: 6.4
+  Pounds: 14.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-chikorita.png|right]]
+
+*Leaf Pokemon*
+*It is docile and loves to bathe in the sunlight. It waves its leaf around to keep foes at bay. The sweet fragrance from its leaf, has a strong calming and relaxing effect on people and Pokemon.*
 
 **DexID**:: 0152
 **Species**:: Chikorita
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'0" / 0.9m
+**Weight**: 14.1lbs / 6.4kg
 
 ![[SRD-Chikorita-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME481.png
+BookShinyImageName: HOME481_s.png
 BoxSprite: SRD-BoxSprite-mesprit.png
+DexCategory: No Data
+DexDescription: In the myths of Sinnoh they talk about three beings that came out
+  from the same egg, the pink one was the being of emotion. Together they shaped the
+  human race to be complete.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-mesprit.png
 Learnset: '[[SRD-Mesprit-Learnset]]'
 Legendary: 'Yes'
 Name: Mesprit
 Number: 481
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: mesprit.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 3
+  Kilograms: 0.3
+  Pounds: 0.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-mesprit.png|right]]
+
+*No Data*
+*In the myths of Sinnoh they talk about three beings that came out from the same egg, the pink one was the being of emotion. Together they shaped the human race to be complete.*
 
 **DexID**:: 0481
 **Species**:: Mesprit
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'0" / 0.3m
+**Weight**: 0.7lbs / 0.3kg
 
 ![[SRD-Mesprit-Learnset]]

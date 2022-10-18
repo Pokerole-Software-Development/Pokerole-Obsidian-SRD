@@ -1,19 +1,39 @@
 ---
 Ability1: Cute Charm
 Ability2: Klutz
+Baby: 'No'
+BookImageName: HOME428.png
+BookShinyImageName: HOME428_s.png
 BoxSprite: SRD-BoxSprite-lopunny.png
+DexCategory: Rabbit Pokemon
+DexDescription: "Lopunny is extremely cautious, it quickly bounds off when it senses\
+  \ danger. If they are touched roughly, they throw kicks and jump away. Keep the\
+  \ fur it sheds as it\u2019s highly valued to make quality yarn."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Limber
 HomeSprite: SRD-HomeSprite-lopunny.png
 Learnset: '[[SRD-Lopunny-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Lopunnite
+  Name: Mega-Lopunny
 Name: Lopunny
 Number: 428
+PrimaryEggGroup: Field
+SecondaryEggGroup: Human-Like
 Sprite: lopunny.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 333
+  Kilograms: 33.3
+  Pounds: 73.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-lopunny.png|right]]
+
+*Rabbit Pokemon*
+*Lopunny is extremely cautious, it quickly bounds off when it senses danger. If they are touched roughly, they throw kicks and jump away. Keep the fur it sheds as it’s highly valued to make quality yarn.*
 
 **DexID**:: 0428
 **Species**:: Lopunny
@@ -41,5 +64,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 73.4lbs / 33.3kg
 
 ![[SRD-Lopunny-Learnset]]

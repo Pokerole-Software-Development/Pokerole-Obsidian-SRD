@@ -1,19 +1,36 @@
 ---
 Ability1: Shield Dust
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME265.png
+BookShinyImageName: HOME265_s.png
 BoxSprite: SRD-BoxSprite-wurmple.png
+DexCategory: Worm Pokemon
+DexDescription: It uses the spikes on its rear to peel the trees and feed on their
+  sap. Their feet have suction pads to climb easily. Wurmples are plentiful and live
+  in forests, but they are often attacked by bird Pokemon.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Run Away
 HomeSprite: SRD-HomeSprite-wurmple.png
 Learnset: '[[SRD-Wurmple-Learnset]]'
 Legendary: 'No'
 Name: Wurmple
 Number: 265
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: wurmple.png
 Type1: Bug
 Type2: ''
+Weight:
+  Hectograms: 36
+  Kilograms: 3.6
+  Pounds: 7.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-wurmple.png|right]]
+
+*Worm Pokemon*
+*It uses the spikes on its rear to peel the trees and feed on their sap. Their feet have suction pads to climb easily. Wurmples are plentiful and live in forests, but they are often attacked by bird Pokemon.*
 
 **DexID**:: 0265
 **Species**:: Wurmple
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 7.9lbs / 3.6kg
 
 ![[SRD-Wurmple-Learnset]]

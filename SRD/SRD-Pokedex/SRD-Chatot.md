@@ -1,19 +1,37 @@
 ---
 Ability1: Keen Eye
 Ability2: Tangled Feet
+Baby: 'No'
+BookImageName: HOME441.png
+BookShinyImageName: HOME441_s.png
 BoxSprite: SRD-BoxSprite-chatot.png
+DexCategory: Music Note Pokemon
+DexDescription: "It mimics the cries of other Pokemon to trick them into thinking\
+  \ it\u2019s one of them, this way they won\u2019t attack it. Chatots that live with\
+  \ humans learn words and phrases but it\u2019s unknown it they really know their\
+  \ meaning."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Big Pecks
 HomeSprite: SRD-HomeSprite-chatot.png
 Learnset: '[[SRD-Chatot-Learnset]]'
 Legendary: 'No'
 Name: Chatot
 Number: 441
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: chatot.png
 Type1: Normal
 Type2: Flying
+Weight:
+  Hectograms: 19
+  Kilograms: 1.9
+  Pounds: 4.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +39,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-chatot.png|right]]
+
+*Music Note Pokemon*
+*It mimics the cries of other Pokemon to trick them into thinking it’s one of them, this way they won’t attack it. Chatots that live with humans learn words and phrases but it’s unknown it they really know their meaning.*
 
 **DexID**:: 0441
 **Species**:: Chatot
@@ -41,5 +62,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'6" / 0.5m
+**Weight**: 4.2lbs / 1.9kg
 
 ![[SRD-Chatot-Learnset]]

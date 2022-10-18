@@ -1,19 +1,36 @@
 ---
 Ability1: Swarm
 Ability2: Technician
+Baby: 'No'
+BookImageName: HOME123.png
+BookShinyImageName: HOME123_s.png
 BoxSprite: SRD-BoxSprite-scyther.png
+DexCategory: Mantis Pokemon
+DexDescription: "It\u2019s pretty rare but a few swarms have been seen in the grasslands.\
+  \ It tears and shreds prey with its wickedly sharp scythes and very rarely spreads\
+  \ its wings to fly. This pokemon is stealthy and aggressive."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Steadfast
 HomeSprite: SRD-HomeSprite-scyther.png
 Learnset: '[[SRD-Scyther-Learnset]]'
 Legendary: 'No'
 Name: Scyther
 Number: 123
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: scyther.png
 Type1: Bug
 Type2: Flying
+Weight:
+  Hectograms: 560
+  Kilograms: 56.0
+  Pounds: 123.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-scyther.png|right]]
+
+*Mantis Pokemon*
+*It’s pretty rare but a few swarms have been seen in the grasslands. It tears and shreds prey with its wickedly sharp scythes and very rarely spreads its wings to fly. This pokemon is stealthy and aggressive.*
 
 **DexID**:: 0123
 **Species**:: Scyther
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 4'9" / 1.5m
+**Weight**: 123.5lbs / 56.0kg
 
 ![[SRD-Scyther-Learnset]]

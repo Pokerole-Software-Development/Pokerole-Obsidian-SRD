@@ -1,19 +1,36 @@
 ---
 Ability1: Water Compaction
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME769.png
+BookShinyImageName: HOME769_s.png
 BoxSprite: SRD-BoxSprite-sandygast.png
+DexCategory: Sand Heap Pokemon
+DexDescription: "Some departed soul made a child\u2019s sand mound its vessel. Anyone\
+  \ who puts their hand inside its mouth will have its vital energy absorbed and its\
+  \ mind possessed to add more sand until they collapse."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-sandygast.png
 Learnset: '[[SRD-Sandygast-Learnset]]'
 Legendary: 'No'
 Name: Sandygast
 Number: 769
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: sandygast.png
 Type1: Ghost
 Type2: Ground
+Weight:
+  Hectograms: 700
+  Kilograms: 70.0
+  Pounds: 154.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-sandygast.png|right]]
+
+*Sand Heap Pokemon*
+*Some departed soul made a child’s sand mound its vessel. Anyone who puts their hand inside its mouth will have its vital energy absorbed and its mind possessed to add more sand until they collapse.*
 
 **DexID**:: 0769
 **Species**:: Sandygast
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 154.3lbs / 70.0kg
 
 ![[SRD-Sandygast-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Sand Veil
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME443.png
+BookShinyImageName: HOME443_s.png
 BoxSprite: SRD-BoxSprite-gible.png
+DexCategory: Land Shark Pokemon
+DexDescription: "It digs tunnels and follows prey while burrowed underground. If you\
+  \ see the fin on its back coming out the ground it means it is about to attack.\
+  \ It\u2019s very aggressive but kind of clumsy. Beware of its big jaws."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Rough Skin
 HomeSprite: SRD-HomeSprite-gible.png
 Learnset: '[[SRD-Gible-Learnset]]'
 Legendary: 'No'
 Name: Gible
 Number: 443
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Dragon
 Sprite: gible.png
 Type1: Dragon
 Type2: Ground
+Weight:
+  Hectograms: 205
+  Kilograms: 20.5
+  Pounds: 45.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-gible.png|right]]
+
+*Land Shark Pokemon*
+*It digs tunnels and follows prey while burrowed underground. If you see the fin on its back coming out the ground it means it is about to attack. It’s very aggressive but kind of clumsy. Beware of its big jaws.*
 
 **DexID**:: 0443
 **Species**:: Gible
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 45.2lbs / 20.5kg
 
 ![[SRD-Gible-Learnset]]

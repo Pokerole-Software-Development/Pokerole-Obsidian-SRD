@@ -1,19 +1,36 @@
 ---
 Ability1: Flame Body
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME662.png
+BookShinyImageName: HOME662_s.png
 BoxSprite: SRD-BoxSprite-fletchinder.png
+DexCategory: Ember Pokemon
+DexDescription: From its beak, it expels embers to set tall grass on fire, then it
+  pounces on the bewildered prey that pop out of the grass. Its body becomes engulfed
+  in flames when it starts to battle. It is a fierce Pokemon.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Gale Wings
 HomeSprite: SRD-HomeSprite-fletchinder.png
 Learnset: '[[SRD-Fletchinder-Learnset]]'
 Legendary: 'No'
 Name: Fletchinder
 Number: 662
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: fletchinder.png
 Type1: Fire
 Type2: Flying
+Weight:
+  Hectograms: 160
+  Kilograms: 16.0
+  Pounds: 35.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-fletchinder.png|right]]
+
+*Ember Pokemon*
+*From its beak, it expels embers to set tall grass on fire, then it pounces on the bewildered prey that pop out of the grass. Its body becomes engulfed in flames when it starts to battle. It is a fierce Pokemon.*
 
 **DexID**:: 0662
 **Species**:: Fletchinder
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 35.3lbs / 16.0kg
 
 ![[SRD-Fletchinder-Learnset]]

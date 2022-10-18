@@ -1,19 +1,36 @@
 ---
 Ability1: Swarm
 Ability2: Early Bird
+Baby: 'No'
+BookImageName: HOME165.png
+BookShinyImageName: HOME165_s.png
 BoxSprite: SRD-BoxSprite-ledyba.png
+DexCategory: Five Star Pokemon
+DexDescription: These timid Pokemon swarm in groups to keep each other warm during
+  the winter. It communicates with others through a special scent. They often appear
+  covered in the morning dew.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-ledyba.png
 Learnset: '[[SRD-Ledyba-Learnset]]'
 Legendary: 'No'
 Name: Ledyba
 Number: 165
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: ledyba.png
 Type1: Bug
 Type2: Flying
+Weight:
+  Hectograms: 108
+  Kilograms: 10.8
+  Pounds: 23.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-ledyba.png|right]]
+
+*Five Star Pokemon*
+*These timid Pokemon swarm in groups to keep each other warm during the winter. It communicates with others through a special scent. They often appear covered in the morning dew.*
 
 **DexID**:: 0165
 **Species**:: Ledyba
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 23.8lbs / 10.8kg
 
 ![[SRD-Ledyba-Learnset]]

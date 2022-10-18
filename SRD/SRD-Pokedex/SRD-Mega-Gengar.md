@@ -1,19 +1,36 @@
 ---
 Ability1: Shadow Tag
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME094M.png
+BookShinyImageName: HOME094M_s.png
 BoxSprite: SRD-BoxSprite-gengar-mega.png
+DexCategory: Shadow Pokemon
+DexDescription: With the power of the Mega Stone Gengar can now teleport through dimensions,
+  whatever horrors it witnesses there make it try to curse anything or anyone it perceives
+  as prey, even its beloved trainer!
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 14
+  Feet: 4.6
+  Meters: 1.4
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-gengar-mega.png
 Learnset: '[[SRD-Mega-Gengar-Learnset]]'
 Legendary: 'No'
 Name: Mega-Gengar
 Number: 94
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: gengar-mega.png
 Type1: Ghost
 Type2: Poison
+Weight:
+  Hectograms: 405
+  Kilograms: 40.5
+  Pounds: 89.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-gengar-mega.png|right]]
+
+*Shadow Pokemon*
+*With the power of the Mega Stone Gengar can now teleport through dimensions, whatever horrors it witnesses there make it try to curse anything or anyone it perceives as prey, even its beloved trainer!*
 
 **DexID**:: 0094M1
 **Species**:: Mega-Gengar
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'6" / 1.4m
+**Weight**: 89.3lbs / 40.5kg
 
 ![[SRD-Mega-Gengar-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Prankster
 Ability2: Frisk
+Baby: 'No'
+BookImageName: HOME860.png
+BookShinyImageName: HOME860_s.png
 BoxSprite: SRD-BoxSprite-morgrem.png
+DexCategory: Devious Pokemon
+DexDescription: "When it gets down on all fours as if to beg for forgiveness, it\u2019\
+  s trying to lure opponents in so that it can stab them with its spear-like hair.\
+  \ It lures people into the woods to rob them and get them lost."
 EventAbilities: ''
 GenderType: M
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-morgrem.png
 Learnset: '[[SRD-Morgrem-Learnset]]'
 Legendary: 'No'
 Name: Morgrem
 Number: 860
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: Human-Like
 Sprite: morgrem.png
 Type1: Dark
 Type2: Fairy
+Weight:
+  Hectograms: 125
+  Kilograms: 12.5
+  Pounds: 27.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-morgrem.png|right]]
+
+*Devious Pokemon*
+*When it gets down on all fours as if to beg for forgiveness, it’s trying to lure opponents in so that it can stab them with its spear-like hair. It lures people into the woods to rob them and get them lost.*
 
 **DexID**:: 0860
 **Species**:: Morgrem
@@ -41,5 +61,7 @@ Type2: Fairy
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 27.6lbs / 12.5kg
 
 ![[SRD-Morgrem-Learnset]]

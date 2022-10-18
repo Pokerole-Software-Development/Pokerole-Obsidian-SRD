@@ -1,19 +1,36 @@
 ---
 Ability1: Prism Armor
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME800DM.png
+BookShinyImageName: HOME800DM_s.png
 BoxSprite: SRD-BoxSprite-necrozma-dusk.png
+DexCategory: 'Aether Foundation Log #182'
+DexDescription: The shadowy creature is in pain, and it hungers for any light it can
+  find. I wonder how would it fare on the other side, back in our world. Would the
+  sunlight ease its spirit or release a terrible monster?
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 38
+  Feet: 12.5
+  Meters: 3.8
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-necrozma-dusk.png
 Learnset: '[[SRD-Necrozma Dusk Mane-Learnset]]'
 Legendary: 'Yes'
 Name: Necrozma Dusk Mane
 Number: 800
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: necrozma-dusk.png
 Type1: Psychic
 Type2: Steel
+Weight:
+  Hectograms: 4600
+  Kilograms: 460.0
+  Pounds: 1014.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-necrozma-dusk.png|right]]
+
+*Aether Foundation Log #182*
+*The shadowy creature is in pain, and it hungers for any light it can find. I wonder how would it fare on the other side, back in our world. Would the sunlight ease its spirit or release a terrible monster?*
 
 **DexID**:: 0800F1
 **Species**:: Necrozma Dusk Mane
@@ -41,5 +61,7 @@ Type2: Steel
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 12'5" / 3.8m
+**Weight**: 1014.1lbs / 460.0kg
 
 ![[SRD-Necrozma Dusk Mane-Learnset]]

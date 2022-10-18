@@ -1,19 +1,36 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME806.png
+BookShinyImageName: HOME806_s.png
 BoxSprite: SRD-BoxSprite-blacephalon.png
+DexCategory: 'Aether Foundation Log #121'
+DexDescription: It was horrible and so fast I could barely take a picture of the UB
+  specimen. As soon as the portal opened it slithered through it, got close to one
+  of the team members and exploded. His state is critical, the UB disappeared.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 18
+  Feet: 5.9
+  Meters: 1.8
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-blacephalon.png
 Learnset: '[[SRD-Blacephalon-Learnset]]'
 Legendary: 'Yes'
 Name: Blacephalon
 Number: 806
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: blacephalon.png
 Type1: Fire
 Type2: Ghost
+Weight:
+  Hectograms: 130
+  Kilograms: 13.0
+  Pounds: 28.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-blacephalon.png|right]]
+
+*Aether Foundation Log #121*
+*It was horrible and so fast I could barely take a picture of the UB specimen. As soon as the portal opened it slithered through it, got close to one of the team members and exploded. His state is critical, the UB disappeared.*
 
 **DexID**:: 0806
 **Species**:: Blacephalon
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'9" / 1.8m
+**Weight**: 28.7lbs / 13.0kg
 
 ![[SRD-Blacephalon-Learnset]]

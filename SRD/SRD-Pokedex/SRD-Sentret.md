@@ -1,19 +1,36 @@
 ---
 Ability1: Run Away
 Ability2: Keen Eye
+Baby: 'No'
+BookImageName: HOME161.png
+BookShinyImageName: HOME161_s.png
 BoxSprite: SRD-BoxSprite-sentret.png
+DexCategory: Scout Pokemon
+DexDescription: It lives underground with its family. It is cautious and nervous by
+  nature. Sentret is always vigilant for any threat. It is very friendly among its
+  kind and suffers a lot if separated from its pack.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Frisk
 HomeSprite: SRD-HomeSprite-sentret.png
 Learnset: '[[SRD-Sentret-Learnset]]'
 Legendary: 'No'
 Name: Sentret
 Number: 161
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: sentret.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 60
+  Kilograms: 6.0
+  Pounds: 13.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-sentret.png|right]]
+
+*Scout Pokemon*
+*It lives underground with its family. It is cautious and nervous by nature. Sentret is always vigilant for any threat. It is very friendly among its kind and suffers a lot if separated from its pack.*
 
 **DexID**:: 0161
 **Species**:: Sentret
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 13.2lbs / 6.0kg
 
 ![[SRD-Sentret-Learnset]]

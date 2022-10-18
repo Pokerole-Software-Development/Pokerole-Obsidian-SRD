@@ -1,19 +1,36 @@
 ---
 Ability1: Keen Eye
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME021.png
+BookShinyImageName: HOME021_s.png
 BoxSprite: SRD-BoxSprite-spearow.png
+DexCategory: Tiny Bird Pokemon
+DexDescription: Lives in flocks on grasslands. Very protective of its territory. It
+  flaps its short wings to dart around at high speed. It is a little short-tempered
+  - if disturbed, it will shriek, calling its flock for aid.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Sniper
 HomeSprite: SRD-HomeSprite-spearow.png
 Learnset: '[[SRD-Spearow-Learnset]]'
 Legendary: 'No'
 Name: Spearow
 Number: 21
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: spearow.png
 Type1: Normal
 Type2: Flying
+Weight:
+  Hectograms: 20
+  Kilograms: 2.0
+  Pounds: 4.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-spearow.png|right]]
+
+*Tiny Bird Pokemon*
+*Lives in flocks on grasslands. Very protective of its territory. It flaps its short wings to dart around at high speed. It is a little short-tempered - if disturbed, it will shriek, calling its flock for aid.*
 
 **DexID**:: 0021
 **Species**:: Spearow
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 4.4lbs / 2.0kg
 
 ![[SRD-Spearow-Learnset]]

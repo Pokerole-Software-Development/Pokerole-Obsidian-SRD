@@ -1,19 +1,36 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME803.png
+BookShinyImageName: HOME803_s.png
 BoxSprite: SRD-BoxSprite-poipole.png
+DexCategory: 'Aether Foundation Log #162'
+DexDescription: "Thanks to the Recon Squad we\u2019ve managed to secure a location\
+  \ on the other side. UB- Adhesive have been a great help; their intelligence and\
+  \ friendliness would make them very popular in our world."
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-poipole.png
 Learnset: '[[SRD-Poipole-Learnset]]'
 Legendary: 'No'
 Name: Poipole
 Number: 803
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: poipole.png
 Type1: Poison
 Type2: ''
+Weight:
+  Hectograms: 18
+  Kilograms: 1.8
+  Pounds: 4.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-poipole.png|right]]
+
+*Aether Foundation Log #162*
+*Thanks to the Recon Squad we’ve managed to secure a location on the other side. UB- Adhesive have been a great help; their intelligence and friendliness would make them very popular in our world.*
 
 **DexID**:: 0803
 **Species**:: Poipole
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'0" / 0.6m
+**Weight**: 4.0lbs / 1.8kg
 
 ![[SRD-Poipole-Learnset]]

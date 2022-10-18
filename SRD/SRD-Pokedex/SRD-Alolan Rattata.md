@@ -1,19 +1,36 @@
 ---
 Ability1: Gluttony
 Ability2: Hustle
+Baby: 'No'
+BookImageName: HOME019A.png
+BookShinyImageName: HOME019A_s.png
 BoxSprite: SRD-BoxSprite-rattata-alola.png
+DexCategory: Mouse Pokemon
+DexDescription: "Rattata first came to Alola through cargo ships, it thrived and almost\
+  \ destroyed the region\u2019s ecosystem. Attempts to exterminate this Pokemon made\
+  \ it more vicious than its regular counterpart."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Thick Fat
 HomeSprite: SRD-HomeSprite-rattata-alola.png
 Learnset: '[[SRD-Alolan Rattata-Learnset]]'
 Legendary: 'No'
 Name: Alolan Rattata
 Number: 19
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: rattata-alola.png
 Type1: Dark
 Type2: Normal
+Weight:
+  Hectograms: 38
+  Kilograms: 3.8
+  Pounds: 8.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Normal
 # `= this.name`
 
 ![[SRD-HomeSprite-rattata-alola.png|right]]
+
+*Mouse Pokemon*
+*Rattata first came to Alola through cargo ships, it thrived and almost destroyed the region’s ecosystem. Attempts to exterminate this Pokemon made it more vicious than its regular counterpart.*
 
 **DexID**:: 0019A
 **Species**:: Alolan Rattata
@@ -41,5 +61,7 @@ Type2: Normal
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 8.4lbs / 3.8kg
 
 ![[SRD-Alolan Rattata-Learnset]]

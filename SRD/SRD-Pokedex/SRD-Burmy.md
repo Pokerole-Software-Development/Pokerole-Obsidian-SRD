@@ -1,19 +1,36 @@
 ---
 Ability1: Shed Skin
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME412.png
+BookShinyImageName: HOME412_s.png
 BoxSprite: SRD-BoxSprite-burmy.png
+DexCategory: Bagworm Pokemon
+DexDescription: This Pokemon has adapted to live in the forests, deserts and in the
+  city. It makes a cloak with the materials close to it to protect itself from the
+  weather. Males evolve into a Mothim and females into a Wormadam.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 2
+  Feet: 0.7
+  Meters: 0.2
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-burmy.png
 Learnset: '[[SRD-Burmy-Learnset]]'
 Legendary: 'No'
 Name: Burmy
 Number: 412
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: burmy.png
 Type1: Bug
 Type2: ''
+Weight:
+  Hectograms: 34
+  Kilograms: 3.4
+  Pounds: 7.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-burmy.png|right]]
+
+*Bagworm Pokemon*
+*This Pokemon has adapted to live in the forests, deserts and in the city. It makes a cloak with the materials close to it to protect itself from the weather. Males evolve into a Mothim and females into a Wormadam.*
 
 **DexID**:: 0412
 **Species**:: Burmy
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 0'7" / 0.2m
+**Weight**: 7.5lbs / 3.4kg
 
 ![[SRD-Burmy-Learnset]]

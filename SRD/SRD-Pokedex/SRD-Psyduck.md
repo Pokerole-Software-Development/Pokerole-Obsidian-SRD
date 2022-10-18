@@ -1,19 +1,36 @@
 ---
 Ability1: Damp
 Ability2: Cloud Nine
+Baby: 'No'
+BookImageName: HOME054.png
+BookShinyImageName: HOME054_s.png
 BoxSprite: SRD-BoxSprite-psyduck.png
+DexCategory: Duck Pokemon
+DexDescription: "It lives near lakes and ponds but it\u2019s not very good at swimming.\
+  \ It is always tormented by headaches that worsen when it uses psychic powers. Psyducks\
+  \ seem unaware of their own power."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Swift Swim
 HomeSprite: SRD-HomeSprite-psyduck.png
 Learnset: '[[SRD-Psyduck-Learnset]]'
 Legendary: 'No'
 Name: Psyduck
 Number: 54
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Field
 Sprite: psyduck.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 196
+  Kilograms: 19.6
+  Pounds: 43.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-psyduck.png|right]]
+
+*Duck Pokemon*
+*It lives near lakes and ponds but it’s not very good at swimming. It is always tormented by headaches that worsen when it uses psychic powers. Psyducks seem unaware of their own power.*
 
 **DexID**:: 0054
 **Species**:: Psyduck
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 43.2lbs / 19.6kg
 
 ![[SRD-Psyduck-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Punk Rock
 Ability2: Plus
+Baby: 'No'
+BookImageName: HOME849.png
+BookShinyImageName: HOME849_s.png
 BoxSprite: SRD-BoxSprite-toxtricity.png
+DexCategory: Punk Pokemon
+DexDescription: "Commonly called \u201CAmped Form\u201D, its nature determines its\
+  \ evolution, If a Toxel is extroverted it will evolve to be a short-tempered Toxtricity.\
+  \ They emit high pitched sounds and let out powerful discharges to provoke others."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: Technician
 HomeSprite: SRD-HomeSprite-toxtricity.png
 Learnset: '[[SRD-Toxtricity Amped-Learnset]]'
 Legendary: 'No'
 Name: Toxtricity Amped
 Number: 849
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: toxtricity.png
 Type1: Electric
 Type2: Poison
+Weight:
+  Hectograms: 400
+  Kilograms: 40.0
+  Pounds: 88.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-toxtricity.png|right]]
+
+*Punk Pokemon*
+*Commonly called “Amped Form”, its nature determines its evolution, If a Toxel is extroverted it will evolve to be a short-tempered Toxtricity. They emit high pitched sounds and let out powerful discharges to provoke others.*
 
 **DexID**:: 0849
 **Species**:: Toxtricity Amped
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 88.2lbs / 40.0kg
 
 ![[SRD-Toxtricity Amped-Learnset]]

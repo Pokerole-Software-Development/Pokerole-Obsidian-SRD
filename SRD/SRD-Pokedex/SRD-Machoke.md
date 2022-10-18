@@ -1,19 +1,36 @@
 ---
 Ability1: Guts
 Ability2: No Guard
+Baby: 'No'
+BookImageName: HOME067.png
+BookShinyImageName: HOME067_s.png
 BoxSprite: SRD-BoxSprite-machoke.png
+DexCategory: Superpower Pokemon
+DexDescription: Even with its strong frame and power, it is a humble and helpful Pokemon.
+  Many of them work for human companies. On their days off you can see them heading
+  to the wild to train together.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Steadfast
 HomeSprite: SRD-HomeSprite-machoke.png
 Learnset: '[[SRD-Machoke-Learnset]]'
 Legendary: 'No'
 Name: Machoke
 Number: 67
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: machoke.png
 Type1: Fighting
 Type2: ''
+Weight:
+  Hectograms: 705
+  Kilograms: 70.5
+  Pounds: 155.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-machoke.png|right]]
+
+*Superpower Pokemon*
+*Even with its strong frame and power, it is a humble and helpful Pokemon. Many of them work for human companies. On their days off you can see them heading to the wild to train together.*
 
 **DexID**:: 0067
 **Species**:: Machoke
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 4'9" / 1.5m
+**Weight**: 155.4lbs / 70.5kg
 
 ![[SRD-Machoke-Learnset]]

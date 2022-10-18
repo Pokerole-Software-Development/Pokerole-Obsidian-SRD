@@ -1,19 +1,36 @@
 ---
 Ability1: Pressure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME646B.png
+BookShinyImageName: HOME646B_s.png
 BoxSprite: SRD-BoxSprite-kyurem-black.png
+DexCategory: No Data
+DexDescription: In the Icy mountains at the east of Unova, you can hear the wails
+  of a creature suffering as if it missed a part of its very soul. Dark clouds and
+  lightning are sure to follow.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 33
+  Feet: 10.8
+  Meters: 3.3
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-kyurem-black.png
 Learnset: '[[SRD-Black Kyurem-Learnset]]'
 Legendary: 'Yes'
 Name: Black Kyurem
 Number: 646
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: kyurem-black.png
 Type1: Dragon
 Type2: Ice
+Weight:
+  Hectograms: 3250
+  Kilograms: 325.0
+  Pounds: 716.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ice
 # `= this.name`
 
 ![[SRD-HomeSprite-kyurem-black.png|right]]
+
+*No Data*
+*In the Icy mountains at the east of Unova, you can hear the wails of a creature suffering as if it missed a part of its very soul. Dark clouds and lightning are sure to follow.*
 
 **DexID**:: 0646F1
 **Species**:: Black Kyurem
@@ -41,5 +61,7 @@ Type2: Ice
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 10'8" / 3.3m
+**Weight**: 716.5lbs / 325.0kg
 
 ![[SRD-Black Kyurem-Learnset]]

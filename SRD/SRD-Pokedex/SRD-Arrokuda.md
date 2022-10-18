@@ -1,19 +1,36 @@
 ---
 Ability1: Swift Swim
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME846.png
+BookShinyImageName: HOME846_s.png
 BoxSprite: SRD-BoxSprite-arrokuda.png
+DexCategory: Rush Pokemon
+DexDescription: They propel themselves, swimming at high speeds to hunt their prey.
+  After they have eaten their swim becomes sluggish and they are at risk of being
+  eaten themselves. They are proud of their pointed jaw.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Propeller Tail
 HomeSprite: SRD-HomeSprite-arrokuda.png
 Learnset: '[[SRD-Arrokuda-Learnset]]'
 Legendary: 'No'
 Name: Arrokuda
 Number: 846
+PrimaryEggGroup: Water 2
+SecondaryEggGroup: ''
 Sprite: arrokuda.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 10
+  Kilograms: 1.0
+  Pounds: 2.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-arrokuda.png|right]]
+
+*Rush Pokemon*
+*They propel themselves, swimming at high speeds to hunt their prey. After they have eaten their swim becomes sluggish and they are at risk of being eaten themselves. They are proud of their pointed jaw.*
 
 **DexID**:: 0846
 **Species**:: Arrokuda
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 2.2lbs / 1.0kg
 
 ![[SRD-Arrokuda-Learnset]]

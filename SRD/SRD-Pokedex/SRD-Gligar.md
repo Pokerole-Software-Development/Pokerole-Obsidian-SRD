@@ -1,19 +1,36 @@
 ---
 Ability1: Hyper Cutter
 Ability2: Sand Veil
+Baby: 'No'
+BookImageName: HOME207.png
+BookShinyImageName: HOME207_s.png
 BoxSprite: SRD-BoxSprite-gligar.png
+DexCategory: Fly Scorpion Pokemon
+DexDescription: "It hangs from cliffs waiting for its prey. It flies straight at the\
+  \ target\u2019s face, grapples the victim with its pincers and clawed hind legs,\
+  \ lastly, it injects poison with its tail. Gligar can glide without making any noise."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Immunity
 HomeSprite: SRD-HomeSprite-gligar.png
 Learnset: '[[SRD-Gligar-Learnset]]'
 Legendary: 'No'
 Name: Gligar
 Number: 207
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: gligar.png
 Type1: Ground
 Type2: Flying
+Weight:
+  Hectograms: 648
+  Kilograms: 64.8
+  Pounds: 142.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-gligar.png|right]]
+
+*Fly Scorpion Pokemon*
+*It hangs from cliffs waiting for its prey. It flies straight at the target’s face, grapples the victim with its pincers and clawed hind legs, lastly, it injects poison with its tail. Gligar can glide without making any noise.*
 
 **DexID**:: 0207
 **Species**:: Gligar
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'6" / 1.1m
+**Weight**: 142.9lbs / 64.8kg
 
 ![[SRD-Gligar-Learnset]]

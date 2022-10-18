@@ -1,19 +1,35 @@
 ---
 Ability1: Intrepid Sword
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME888.png
+BookShinyImageName: HOME888_s.png
 BoxSprite: SRD-BoxSprite-zacian.png
+DexCategory: No Data
+DexDescription: There is a legend of a heroine who through sheer might wielded the
+  blade of heroes and vanquished a great evil away.
 EventAbilities: ''
 GenderType: N
 HasForm: 'Yes'
+Height:
+  Deimeters: 28
+  Feet: 9.2
+  Meters: 2.8
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-zacian.png
 Learnset: '[[SRD-Zacian-Learnset]]'
 Legendary: 'Yes'
 Name: Zacian
 Number: 888
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: zacian.png
 Type1: Fairy
 Type2: ''
+Weight:
+  Hectograms: 1100
+  Kilograms: 110.0
+  Pounds: 242.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-zacian.png|right]]
+
+*No Data*
+*There is a legend of a heroine who through sheer might wielded the blade of heroes and vanquished a great evil away.*
 
 **DexID**:: 0888
 **Species**:: Zacian
@@ -41,5 +60,7 @@ Type2: ''
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 9'2" / 2.8m
+**Weight**: 242.5lbs / 110.0kg
 
 ![[SRD-Zacian-Learnset]]

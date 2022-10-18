@@ -1,19 +1,36 @@
 ---
 Ability1: Sheer Force
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME323M.png
+BookShinyImageName: HOME323M_s.png
 BoxSprite: SRD-BoxSprite-camerupt-mega.png
+DexCategory: Eruption Pokemon
+DexDescription: The power of the Mega Stone melts its two humps into a single one.
+  The single hump is heavier making it slower, but its newly renewed attitude makes
+  the hump erupt in heavy bursts of molten lava.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 25
+  Feet: 8.2
+  Meters: 2.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-camerupt-mega.png
 Learnset: '[[SRD-Mega-Camerupt-Learnset]]'
 Legendary: 'No'
 Name: Mega-Camerupt
 Number: 323
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: camerupt-mega.png
 Type1: Fire
 Type2: Ground
+Weight:
+  Hectograms: 3205
+  Kilograms: 320.5
+  Pounds: 706.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-camerupt-mega.png|right]]
+
+*Eruption Pokemon*
+*The power of the Mega Stone melts its two humps into a single one. The single hump is heavier making it slower, but its newly renewed attitude makes the hump erupt in heavy bursts of molten lava.*
 
 **DexID**:: 0323M1
 **Species**:: Mega-Camerupt
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 8'2" / 2.5m
+**Weight**: 706.6lbs / 320.5kg
 
 ![[SRD-Mega-Camerupt-Learnset]]

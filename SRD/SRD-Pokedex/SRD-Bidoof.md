@@ -1,19 +1,36 @@
 ---
 Ability1: Simple
 Ability2: Unaware
+Baby: 'No'
+BookImageName: HOME399.png
+BookShinyImageName: HOME399_s.png
 BoxSprite: SRD-BoxSprite-bidoof.png
+DexCategory: Plump Mouse Pokemon
+DexDescription: Steady as a mountain, Bidoof has nerves of steel so nothing can disturb
+  its focus. It is agile, active and a great team worker. They live in huge packs
+  alongside rivers; the dams they build are incredibly sturdy.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Moody
 HomeSprite: SRD-HomeSprite-bidoof.png
 Learnset: '[[SRD-Bidoof-Learnset]]'
 Legendary: 'No'
 Name: Bidoof
 Number: 399
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Field
 Sprite: bidoof.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 200
+  Kilograms: 20.0
+  Pounds: 44.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-bidoof.png|right]]
+
+*Plump Mouse Pokemon*
+*Steady as a mountain, Bidoof has nerves of steel so nothing can disturb its focus. It is agile, active and a great team worker. They live in huge packs alongside rivers; the dams they build are incredibly sturdy.*
 
 **DexID**:: 0399
 **Species**:: Bidoof
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 44.1lbs / 20.0kg
 
 ![[SRD-Bidoof-Learnset]]

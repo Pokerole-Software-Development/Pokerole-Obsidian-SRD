@@ -1,19 +1,36 @@
 ---
 Ability1: Natural Cure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME251.png
+BookShinyImageName: HOME251_s.png
 BoxSprite: SRD-BoxSprite-celebi.png
+DexCategory: No Data
+DexDescription: Guardian of the Forest. Celebi is said to be able to travel through
+  time, amending mistakes from people who hurt the land, and crafting a bright future
+  for those who live nearby.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-celebi.png
 Learnset: '[[SRD-Celebi-Learnset]]'
 Legendary: 'Yes'
 Name: Celebi
 Number: 251
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: celebi.png
 Type1: Grass
 Type2: Psychic
+Weight:
+  Hectograms: 50
+  Kilograms: 5.0
+  Pounds: 11.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-celebi.png|right]]
+
+*No Data*
+*Guardian of the Forest. Celebi is said to be able to travel through time, amending mistakes from people who hurt the land, and crafting a bright future for those who live nearby.*
 
 **DexID**:: 0251
 **Species**:: Celebi
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'0" / 0.6m
+**Weight**: 11.0lbs / 5.0kg
 
 ![[SRD-Celebi-Learnset]]

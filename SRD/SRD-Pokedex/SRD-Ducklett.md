@@ -1,19 +1,36 @@
 ---
 Ability1: Keen Eye
 Ability2: Big Pecks
+Baby: 'No'
+BookImageName: HOME580.png
+BookShinyImageName: HOME580_s.png
 BoxSprite: SRD-BoxSprite-ducklett.png
+DexCategory: Water Bird Pokemon
+DexDescription: These bird Pokemon are excellent divers. They swim around in the water
+  eating their favorite food, peat moss. They can shoot a spray mist with their feathers
+  to protect from any predator that comes.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Hydration
 HomeSprite: SRD-HomeSprite-ducklett.png
 Learnset: '[[SRD-Ducklett-Learnset]]'
 Legendary: 'No'
 Name: Ducklett
 Number: 580
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Flying
 Sprite: ducklett.png
 Type1: Water
 Type2: Flying
+Weight:
+  Hectograms: 55
+  Kilograms: 5.5
+  Pounds: 12.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-ducklett.png|right]]
+
+*Water Bird Pokemon*
+*These bird Pokemon are excellent divers. They swim around in the water eating their favorite food, peat moss. They can shoot a spray mist with their feathers to protect from any predator that comes.*
 
 **DexID**:: 0580
 **Species**:: Ducklett
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 12.1lbs / 5.5kg
 
 ![[SRD-Ducklett-Learnset]]

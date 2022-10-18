@@ -1,19 +1,36 @@
 ---
 Ability1: Run Away
 Ability2: Guts
+Baby: 'No'
+BookImageName: HOME019.png
+BookShinyImageName: HOME019_s.png
 BoxSprite: SRD-BoxSprite-rattata.png
+DexCategory: Mouse Pokemon
+DexDescription: It can live anywhere it can find food, but they are often in cities
+  and fields. They form large families in their burrows. Since they are often preyed
+  on, Rattatas are always alert and quick to flee.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Hustle
 HomeSprite: SRD-HomeSprite-rattata.png
 Learnset: '[[SRD-Rattata-Learnset]]'
 Legendary: 'No'
 Name: Rattata
 Number: 19
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: rattata.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 35
+  Kilograms: 3.5
+  Pounds: 7.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-rattata.png|right]]
+
+*Mouse Pokemon*
+*It can live anywhere it can find food, but they are often in cities and fields. They form large families in their burrows. Since they are often preyed on, Rattatas are always alert and quick to flee.*
 
 **DexID**:: 0019
 **Species**:: Rattata
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 7.7lbs / 3.5kg
 
 ![[SRD-Rattata-Learnset]]

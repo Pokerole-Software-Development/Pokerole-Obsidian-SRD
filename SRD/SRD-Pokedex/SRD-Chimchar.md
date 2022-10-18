@@ -1,19 +1,36 @@
 ---
 Ability1: Blaze
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME390.png
+BookShinyImageName: HOME390_s.png
 BoxSprite: SRD-BoxSprite-chimchar.png
+DexCategory: Chimp Pokemon
+DexDescription: They climb sheer cliffs to live at the top of the mountains. Small
+  groups of them tend to visit human camping sites to steal food and objects. They
+  are playful and will wreak havoc if they want to have fun.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Iron Fist
 HomeSprite: SRD-HomeSprite-chimchar.png
 Learnset: '[[SRD-Chimchar-Learnset]]'
 Legendary: 'No'
 Name: Chimchar
 Number: 390
+PrimaryEggGroup: Field
+SecondaryEggGroup: Human-Like
 Sprite: chimchar.png
 Type1: Fire
 Type2: ''
+Weight:
+  Hectograms: 62
+  Kilograms: 6.2
+  Pounds: 13.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-chimchar.png|right]]
+
+*Chimp Pokemon*
+*They climb sheer cliffs to live at the top of the mountains. Small groups of them tend to visit human camping sites to steal food and objects. They are playful and will wreak havoc if they want to have fun.*
 
 **DexID**:: 0390
 **Species**:: Chimchar
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 13.7lbs / 6.2kg
 
 ![[SRD-Chimchar-Learnset]]

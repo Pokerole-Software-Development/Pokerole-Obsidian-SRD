@@ -1,19 +1,36 @@
 ---
 Ability1: Sticky Hold
 Ability2: Storm Drain
+Baby: 'No'
+BookImageName: HOME423.png
+BookShinyImageName: HOME423_s.png
 BoxSprite: SRD-BoxSprite-gastrodon.png
+DexCategory: Sea Slug Pokemon
+DexDescription: It has a pliable body without any bones. If any part of its body is
+  torn off, it will grow back in minutes. There is evidence that it had a hard shell
+  on its back for protection in prehistoric times.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-gastrodon.png
 Learnset: '[[SRD-Gastrodon-Learnset]]'
 Legendary: 'No'
 Name: Gastrodon
 Number: 423
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Amorphous
 Sprite: gastrodon.png
 Type1: Water
 Type2: Ground
+Weight:
+  Hectograms: 299
+  Kilograms: 29.9
+  Pounds: 65.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-gastrodon.png|right]]
+
+*Sea Slug Pokemon*
+*It has a pliable body without any bones. If any part of its body is torn off, it will grow back in minutes. There is evidence that it had a hard shell on its back for protection in prehistoric times.*
 
 **DexID**:: 0423
 **Species**:: Gastrodon
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'0" / 0.9m
+**Weight**: 65.9lbs / 29.9kg
 
 ![[SRD-Gastrodon-Learnset]]

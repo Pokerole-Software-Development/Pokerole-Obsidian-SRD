@@ -1,19 +1,36 @@
 ---
 Ability1: Sand Veil
 Ability2: Arena Trap
+Baby: 'No'
+BookImageName: HOME050.png
+BookShinyImageName: HOME050_s.png
 BoxSprite: SRD-BoxSprite-diglett.png
+DexCategory: Mole Pokemon
+DexDescription: "It prefers dark places and spends most of its time underground. It\
+  \ has a very thin skin. It\u2019s frail and has problems regulating its own temperature.\
+  \ Keep it burrowed or it will get sick."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 2
+  Feet: 0.7
+  Meters: 0.2
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-diglett.png
 Learnset: '[[SRD-Diglett-Learnset]]'
 Legendary: 'No'
 Name: Diglett
 Number: 50
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: diglett.png
 Type1: Ground
 Type2: ''
+Weight:
+  Hectograms: 8
+  Kilograms: 0.8
+  Pounds: 1.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-diglett.png|right]]
+
+*Mole Pokemon*
+*It prefers dark places and spends most of its time underground. It has a very thin skin. It’s frail and has problems regulating its own temperature. Keep it burrowed or it will get sick.*
 
 **DexID**:: 0050
 **Species**:: Diglett
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 0'7" / 0.2m
+**Weight**: 1.8lbs / 0.8kg
 
 ![[SRD-Diglett-Learnset]]

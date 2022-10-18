@@ -1,19 +1,36 @@
 ---
 Ability1: Blaze
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME255.png
+BookShinyImageName: HOME255_s.png
 BoxSprite: SRD-BoxSprite-torchic.png
+DexCategory: Chick Pokemon
+DexDescription: They walk clumsily, but follow their trainers wherever they go. Torchics
+  have a flame sac in their belly - burning all the time. If you hug them, they feel
+  warm, but if you squeeze them, they may spit fire.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Speed Boost
 HomeSprite: SRD-HomeSprite-torchic.png
 Learnset: '[[SRD-Torchic-Learnset]]'
 Legendary: 'No'
 Name: Torchic
 Number: 255
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: torchic.png
 Type1: Fire
 Type2: ''
+Weight:
+  Hectograms: 25
+  Kilograms: 2.5
+  Pounds: 5.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-torchic.png|right]]
+
+*Chick Pokemon*
+*They walk clumsily, but follow their trainers wherever they go. Torchics have a flame sac in their belly - burning all the time. If you hug them, they feel warm, but if you squeeze them, they may spit fire.*
 
 **DexID**:: 0255
 **Species**:: Torchic
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 5.5lbs / 2.5kg
 
 ![[SRD-Torchic-Learnset]]

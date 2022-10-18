@@ -1,19 +1,36 @@
 ---
 Ability1: Cursed Body
 Ability2: Lightning Rod
+Baby: 'No'
+BookImageName: HOME105A.png
+BookShinyImageName: HOME105A_s.png
 BoxSprite: SRD-BoxSprite-marowak-alola.png
+DexCategory: Bone Keeper Pokemon
+DexDescription: "Alola has many predators for an orphaned Cubone, so its mother\u2019\
+  s spirit lingered close to protect her baby. This otherworldly influence made Marowak\
+  \ fiercer and changed its type completely."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Rock Head
 HomeSprite: SRD-HomeSprite-marowak-alola.png
 Learnset: '[[SRD-Alolan Marowak-Learnset]]'
 Legendary: 'No'
 Name: Alolan Marowak
 Number: 105
+PrimaryEggGroup: Monster
+SecondaryEggGroup: ''
 Sprite: marowak-alola.png
 Type1: Fire
 Type2: Ghost
+Weight:
+  Hectograms: 340
+  Kilograms: 34.0
+  Pounds: 75.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-marowak-alola.png|right]]
+
+*Bone Keeper Pokemon*
+*Alola has many predators for an orphaned Cubone, so its mother’s spirit lingered close to protect her baby. This otherworldly influence made Marowak fiercer and changed its type completely.*
 
 **DexID**:: 0105A
 **Species**:: Alolan Marowak
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 75.0lbs / 34.0kg
 
 ![[SRD-Alolan Marowak-Learnset]]

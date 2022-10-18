@@ -1,19 +1,36 @@
 ---
 Ability1: Magic Bounce
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME359M.png
+BookShinyImageName: HOME359M_s.png
 BoxSprite: SRD-BoxSprite-absol-mega.png
+DexCategory: Disaster Pokemon
+DexDescription: The power of the Mega Stone makes its fur elongate. What you see are
+  not wings, just puffs of hair. It gets distressed by this form and dislikes going
+  into fights, so it uses its intimidating aura to fend off foes.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-absol-mega.png
 Learnset: '[[SRD-Mega-Absol-Learnset]]'
 Legendary: 'No'
 Name: Mega-Absol
 Number: 359
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: absol-mega.png
 Type1: Dark
 Type2: ''
+Weight:
+  Hectograms: 490
+  Kilograms: 49.0
+  Pounds: 108.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-absol-mega.png|right]]
+
+*Disaster Pokemon*
+*The power of the Mega Stone makes its fur elongate. What you see are not wings, just puffs of hair. It gets distressed by this form and dislikes going into fights, so it uses its intimidating aura to fend off foes.*
 
 **DexID**:: 0359M1
 **Species**:: Mega-Absol
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 108.0lbs / 49.0kg
 
 ![[SRD-Mega-Absol-Learnset]]

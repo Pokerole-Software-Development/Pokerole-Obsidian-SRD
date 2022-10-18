@@ -1,19 +1,36 @@
 ---
 Ability1: Hyper Cutter
 Ability2: Shell Armor
+Baby: 'No'
+BookImageName: HOME341.png
+BookShinyImageName: HOME341_s.png
 BoxSprite: SRD-BoxSprite-corphish.png
+DexCategory: Ruffian Pokemon
+DexDescription: Corphish were originally foreign Pokemon that were imported as pets.
+  They eventually turned up in the wild and reproduced a lot. They are resilient and
+  can live in polluted water. Beware of their pincers.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Adaptability
 HomeSprite: SRD-HomeSprite-corphish.png
 Learnset: '[[SRD-Corphish-Learnset]]'
 Legendary: 'No'
 Name: Corphish
 Number: 341
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Water 3
 Sprite: corphish.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 115
+  Kilograms: 11.5
+  Pounds: 25.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-corphish.png|right]]
+
+*Ruffian Pokemon*
+*Corphish were originally foreign Pokemon that were imported as pets. They eventually turned up in the wild and reproduced a lot. They are resilient and can live in polluted water. Beware of their pincers.*
 
 **DexID**:: 0341
 **Species**:: Corphish
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 25.4lbs / 11.5kg
 
 ![[SRD-Corphish-Learnset]]

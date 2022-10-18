@@ -1,19 +1,36 @@
 ---
 Ability1: Hyper Cutter
 Ability2: Shell Armor
+Baby: 'No'
+BookImageName: HOME099.png
+BookShinyImageName: HOME099_s.png
 BoxSprite: SRD-BoxSprite-kingler.png
+DexCategory: Pincer Pokemon
+DexDescription: Its pincers grow peculiarly large. If it lifts the pincers too fast,
+  it may lose its balance and stagger. If one of its pincers is damaged, it will detach
+  it from its body. It will regrow after a few days..
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-kingler.png
 Learnset: '[[SRD-Kingler-Learnset]]'
 Legendary: 'No'
 Name: Kingler
 Number: 99
+PrimaryEggGroup: Water 3
+SecondaryEggGroup: ''
 Sprite: kingler.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 600
+  Kilograms: 60.0
+  Pounds: 132.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-kingler.png|right]]
+
+*Pincer Pokemon*
+*Its pincers grow peculiarly large. If it lifts the pincers too fast, it may lose its balance and stagger. If one of its pincers is damaged, it will detach it from its body. It will regrow after a few days..*
 
 **DexID**:: 0099
 **Species**:: Kingler
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 132.3lbs / 60.0kg
 
 ![[SRD-Kingler-Learnset]]

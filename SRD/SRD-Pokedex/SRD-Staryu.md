@@ -1,19 +1,36 @@
 ---
 Ability1: Illuminate
 Ability2: Natural Cure
+Baby: 'No'
+BookImageName: HOME120.png
+BookShinyImageName: HOME120_s.png
 BoxSprite: SRD-BoxSprite-staryu.png
+DexCategory: Starshape Pokemon
+DexDescription: They come out to the shore in great numbers when the sky is full with
+  stars. The core at its center glows to communicate with others. If a part of its
+  body is injured it can regrow it in a few days.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Analytic
 HomeSprite: SRD-HomeSprite-staryu.png
 Learnset: '[[SRD-Staryu-Learnset]]'
 Legendary: 'No'
 Name: Staryu
 Number: 120
+PrimaryEggGroup: Water 3
+SecondaryEggGroup: ''
 Sprite: staryu.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 345
+  Kilograms: 34.5
+  Pounds: 76.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-staryu.png|right]]
+
+*Starshape Pokemon*
+*They come out to the shore in great numbers when the sky is full with stars. The core at its center glows to communicate with others. If a part of its body is injured it can regrow it in a few days.*
 
 **DexID**:: 0120
 **Species**:: Staryu
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 76.1lbs / 34.5kg
 
 ![[SRD-Staryu-Learnset]]

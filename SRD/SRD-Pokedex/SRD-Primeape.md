@@ -1,19 +1,36 @@
 ---
 Ability1: Vital Spirit
 Ability2: Anger Point
+Baby: 'No'
+BookImageName: HOME057.png
+BookShinyImageName: HOME057_s.png
 BoxSprite: SRD-BoxSprite-primeape.png
+DexCategory: Pig Monkey Pokemon
+DexDescription: It grows angry if you see its eyes and gets angrier if you run. If
+  you fight it will go mad with rage. Not many trainers are capable of handling it,
+  the angrier it gets the less intelligent it becomes.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Defiant
 HomeSprite: SRD-HomeSprite-primeape.png
 Learnset: '[[SRD-Primeape-Learnset]]'
 Legendary: 'No'
 Name: Primeape
 Number: 57
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: primeape.png
 Type1: Fighting
 Type2: ''
+Weight:
+  Hectograms: 320
+  Kilograms: 32.0
+  Pounds: 70.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-primeape.png|right]]
+
+*Pig Monkey Pokemon*
+*It grows angry if you see its eyes and gets angrier if you run. If you fight it will go mad with rage. Not many trainers are capable of handling it, the angrier it gets the less intelligent it becomes.*
 
 **DexID**:: 0057
 **Species**:: Primeape
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 70.5lbs / 32.0kg
 
 ![[SRD-Primeape-Learnset]]

@@ -1,19 +1,34 @@
 ---
 Ability1: Quick Draw
 Ability2: Own Tempo
+Baby: 'No'
+BookImageName: HOME080G.png
+BookShinyImageName: HOME080G_s.png
 BoxSprite: SRD-BoxSprite-slowbro-galar.png
+DexCategory: ''
+DexDescription: ''
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-slowbro-galar.png
 Learnset: '[[SRD-Galarian Slowbro (provisional)-Learnset]]'
 Legendary: 'No'
 Name: Galarian Slowbro (provisional)
 Number: 80
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Water 1
 Sprite: slowbro-galar.png
 Type1: Poison
 Type2: Psychic
+Weight:
+  Hectograms: 705
+  Kilograms: 70.5
+  Pounds: 155.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +36,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-slowbro-galar.png|right]]
+
+**
+**
 
 **DexID**:: 0080G
 **Species**:: Galarian Slowbro (provisional)
@@ -41,5 +59,7 @@ Type2: Psychic
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 155.4lbs / 70.5kg
 
 ![[SRD-Galarian Slowbro (provisional)-Learnset]]

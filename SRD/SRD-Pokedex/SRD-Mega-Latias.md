@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME380M.png
+BookShinyImageName: HOME380M_s.png
 BoxSprite: SRD-BoxSprite-latias-mega.png
+DexCategory: No Data
+DexDescription: Latias is very in sync with human emotions, it can communicate using
+  telepathy. With the power of the Mega Stone all of its capabilities are enhanced
+  although its personality becomes more distant than usual.
 EventAbilities: ''
 GenderType: F
 HasForm: 'No'
+Height:
+  Deimeters: 18
+  Feet: 5.9
+  Meters: 1.8
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-latias-mega.png
 Learnset: '[[SRD-Mega-Latias-Learnset]]'
 Legendary: 'Yes'
 Name: Mega-Latias
 Number: 380
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: latias-mega.png
 Type1: Dragon
 Type2: Psychic
+Weight:
+  Hectograms: 520
+  Kilograms: 52.0
+  Pounds: 114.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-latias-mega.png|right]]
+
+*No Data*
+*Latias is very in sync with human emotions, it can communicate using telepathy. With the power of the Mega Stone all of its capabilities are enhanced although its personality becomes more distant than usual.*
 
 **DexID**:: 0380M1
 **Species**:: Mega-Latias
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'9" / 1.8m
+**Weight**: 114.6lbs / 52.0kg
 
 ![[SRD-Mega-Latias-Learnset]]

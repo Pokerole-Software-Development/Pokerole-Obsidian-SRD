@@ -1,19 +1,36 @@
 ---
 Ability1: Prankster
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME642T.png
+BookShinyImageName: HOME642T_s.png
 BoxSprite: SRD-BoxSprite-thundurus.png
+DexCategory: No Data
+DexDescription: Some Pokemon reveal their true forms after recovering power lost to
+  them. Great forces of nature can help them recover their strength such as Tornadoes,
+  Lightning, and even a Landslide.
 EventAbilities: ''
 GenderType: M
 HasForm: 'No'
+Height:
+  Deimeters: 30
+  Feet: 9.8
+  Meters: 3.0
 HiddenAbility: Defiant
 HomeSprite: SRD-HomeSprite-thundurus.png
 Learnset: '[[SRD-Form Thundurus-Learnset]]'
 Legendary: 'Yes'
 Name: Form Thundurus
 Number: 642
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: thundurus.png
 Type1: Electric
 Type2: Flying
+Weight:
+  Hectograms: 610
+  Kilograms: 61.0
+  Pounds: 134.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-thundurus.png|right]]
+
+*No Data*
+*Some Pokemon reveal their true forms after recovering power lost to them. Great forces of nature can help them recover their strength such as Tornadoes, Lightning, and even a Landslide.*
 
 **DexID**:: 0642F1
 **Species**:: Form Thundurus
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 9'8" / 3.0m
+**Weight**: 134.5lbs / 61.0kg
 
 ![[SRD-Form Thundurus-Learnset]]

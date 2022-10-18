@@ -1,19 +1,36 @@
 ---
 Ability1: Big Pecks
 Ability2: Super Luck
+Baby: 'No'
+BookImageName: HOME521.png
+BookShinyImageName: HOME521_s.png
 BoxSprite: SRD-BoxSprite-unfezant.png
+DexCategory: Proud Pokemon
+DexDescription: Males swing the beautiful plumage on their heads to threaten others
+  and to court females. Although less visually appealing, females are better at flying.
+  Once they form a pair they are mated for life.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Rivalry
 HomeSprite: SRD-HomeSprite-unfezant.png
 Learnset: '[[SRD-Unfezant-Learnset]]'
 Legendary: 'No'
 Name: Unfezant
 Number: 521
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: unfezant.png
 Type1: Normal
 Type2: Flying
+Weight:
+  Hectograms: 290
+  Kilograms: 29.0
+  Pounds: 63.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-unfezant.png|right]]
+
+*Proud Pokemon*
+*Males swing the beautiful plumage on their heads to threaten others and to court females. Although less visually appealing, females are better at flying. Once they form a pair they are mated for life.*
 
 **DexID**:: 0521
 **Species**:: Unfezant
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 63.9lbs / 29.0kg
 
 ![[SRD-Unfezant-Learnset]]

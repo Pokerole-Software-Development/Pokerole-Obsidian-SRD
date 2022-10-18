@@ -1,19 +1,36 @@
 ---
 Ability1: Pressure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME646W.png
+BookShinyImageName: HOME646W_s.png
 BoxSprite: SRD-BoxSprite-kyurem-white.png
+DexCategory: No Data
+DexDescription: In the Icy mountains at the west of Unova, you can hear the wails
+  of a creature suffering as if it missed a part of its very soul. Explosions and
+  blue fires are sure to follow.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 36
+  Feet: 11.8
+  Meters: 3.6
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-kyurem-white.png
 Learnset: '[[SRD-White Kyurem-Learnset]]'
 Legendary: 'Yes'
 Name: White Kyurem
 Number: 646
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: kyurem-white.png
 Type1: Dragon
 Type2: Ice
+Weight:
+  Hectograms: 3250
+  Kilograms: 325.0
+  Pounds: 716.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ice
 # `= this.name`
 
 ![[SRD-HomeSprite-kyurem-white.png|right]]
+
+*No Data*
+*In the Icy mountains at the west of Unova, you can hear the wails of a creature suffering as if it missed a part of its very soul. Explosions and blue fires are sure to follow.*
 
 **DexID**:: 0646F2
 **Species**:: White Kyurem
@@ -41,5 +61,7 @@ Type2: Ice
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 11'8" / 3.6m
+**Weight**: 716.5lbs / 325.0kg
 
 ![[SRD-White Kyurem-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Hustle
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME634.png
+BookShinyImageName: HOME634_s.png
 BoxSprite: SRD-BoxSprite-zweilous.png
+DexCategory: Hostile Pokemon
+DexDescription: The two heads do not get along with each other as they compete for
+  food. For this reason , Zweilous usually eats more than it should. Touching it carelessly
+  can get you attacked by one or both heads.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 14
+  Feet: 4.6
+  Meters: 1.4
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-zweilous.png
 Learnset: '[[SRD-Zweilous-Learnset]]'
 Legendary: 'No'
 Name: Zweilous
 Number: 634
+PrimaryEggGroup: Dragon
+SecondaryEggGroup: ''
 Sprite: zweilous.png
 Type1: Dark
 Type2: Dragon
+Weight:
+  Hectograms: 500
+  Kilograms: 50.0
+  Pounds: 110.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-zweilous.png|right]]
+
+*Hostile Pokemon*
+*The two heads do not get along with each other as they compete for food. For this reason , Zweilous usually eats more than it should. Touching it carelessly can get you attacked by one or both heads.*
 
 **DexID**:: 0634
 **Species**:: Zweilous
@@ -41,5 +61,7 @@ Type2: Dragon
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 4'6" / 1.4m
+**Weight**: 110.2lbs / 50.0kg
 
 ![[SRD-Zweilous-Learnset]]

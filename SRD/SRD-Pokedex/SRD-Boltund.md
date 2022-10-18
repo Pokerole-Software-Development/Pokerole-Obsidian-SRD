@@ -1,19 +1,36 @@
 ---
 Ability1: Strong Jaw
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME836.png
+BookShinyImageName: HOME836_s.png
 BoxSprite: SRD-BoxSprite-boltund.png
+DexCategory: Dog Pokemon
+DexDescription: It sends electricity through its legs to boost their speed, it easily
+  breaks 50 mph. They get destructive and stressed if you do not take them out to
+  run daily, otherwise they are chill and easygoing Pokemon.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Competitive
 HomeSprite: SRD-HomeSprite-boltund.png
 Learnset: '[[SRD-Boltund-Learnset]]'
 Legendary: 'No'
 Name: Boltund
 Number: 836
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: boltund.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 340
+  Kilograms: 34.0
+  Pounds: 75.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-boltund.png|right]]
+
+*Dog Pokemon*
+*It sends electricity through its legs to boost their speed, it easily breaks 50 mph. They get destructive and stressed if you do not take them out to run daily, otherwise they are chill and easygoing Pokemon.*
 
 **DexID**:: 0836
 **Species**:: Boltund
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 75.0lbs / 34.0kg
 
 ![[SRD-Boltund-Learnset]]

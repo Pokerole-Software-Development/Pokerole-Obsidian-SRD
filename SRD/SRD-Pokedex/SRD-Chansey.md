@@ -1,19 +1,36 @@
 ---
 Ability1: Natural Cure
 Ability2: Serene Grace
+Baby: 'No'
+BookImageName: HOME113.png
+BookShinyImageName: HOME113_s.png
 BoxSprite: SRD-BoxSprite-chansey.png
+DexCategory: Egg Pokemon
+DexDescription: "There are only females in this species. Chansey lays a nutritive\
+  \ egg every day. These eggs are fed to the sick to give them strength. It is a loving\
+  \ and smart Pokemon, but it\u2019s pretty rare and elusive in the wild."
 EventAbilities: ''
 GenderType: F
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Healer
 HomeSprite: SRD-HomeSprite-chansey.png
 Learnset: '[[SRD-Chansey-Learnset]]'
 Legendary: 'No'
 Name: Chansey
 Number: 113
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: ''
 Sprite: chansey.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 346
+  Kilograms: 34.6
+  Pounds: 76.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-chansey.png|right]]
+
+*Egg Pokemon*
+*There are only females in this species. Chansey lays a nutritive egg every day. These eggs are fed to the sick to give them strength. It is a loving and smart Pokemon, but it’s pretty rare and elusive in the wild.*
 
 **DexID**:: 0113
 **Species**:: Chansey
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'6" / 1.1m
+**Weight**: 76.3lbs / 34.6kg
 
 ![[SRD-Chansey-Learnset]]

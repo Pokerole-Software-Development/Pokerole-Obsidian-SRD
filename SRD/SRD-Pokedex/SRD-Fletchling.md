@@ -1,19 +1,36 @@
 ---
 Ability1: Big Pecks
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME661.png
+BookShinyImageName: HOME661_s.png
 BoxSprite: SRD-BoxSprite-fletchling.png
+DexCategory: Tiny Robin Pokemon
+DexDescription: These cute Pokemon send signals to one another with beautiful chirps
+  and feather movements. But despite the beauty of its lilting voice it is merciless
+  to intruders that come close to its nest.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Gale Wings
 HomeSprite: SRD-HomeSprite-fletchling.png
 Learnset: '[[SRD-Fletchling-Learnset]]'
 Legendary: 'No'
 Name: Fletchling
 Number: 661
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: fletchling.png
 Type1: Normal
 Type2: Flying
+Weight:
+  Hectograms: 17
+  Kilograms: 1.7
+  Pounds: 3.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-fletchling.png|right]]
+
+*Tiny Robin Pokemon*
+*These cute Pokemon send signals to one another with beautiful chirps and feather movements. But despite the beauty of its lilting voice it is merciless to intruders that come close to its nest.*
 
 **DexID**:: 0661
 **Species**:: Fletchling
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 3.7lbs / 1.7kg
 
 ![[SRD-Fletchling-Learnset]]

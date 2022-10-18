@@ -1,19 +1,36 @@
 ---
 Ability1: Drought
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME006MY.png
+BookShinyImageName: HOME006MY_s.png
 BoxSprite: SRD-BoxSprite-charizard-mega-y.png
+DexCategory: Flame Pokemon
+DexDescription: With the power of the Mega Stone It becomes bold and confident. Its
+  flying skills get better and t boasts speed and maneuverability. When it flies you
+  cannot see it directly as its flames burn as bright as the sun.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-charizard-mega-y.png
 Learnset: '[[SRD-Mega-Charizard Y-Learnset]]'
 Legendary: 'No'
 Name: Mega-Charizard Y
 Number: 6
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Dragon
 Sprite: charizard-mega-y.png
 Type1: Fire
 Type2: Flying
+Weight:
+  Hectograms: 1005
+  Kilograms: 100.5
+  Pounds: 221.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-charizard-mega-y.png|right]]
+
+*Flame Pokemon*
+*With the power of the Mega Stone It becomes bold and confident. Its flying skills get better and t boasts speed and maneuverability. When it flies you cannot see it directly as its flames burn as bright as the sun.*
 
 **DexID**:: 0006M1
 **Species**:: Mega-Charizard Y
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 221.6lbs / 100.5kg
 
 ![[SRD-Mega-Charizard Y-Learnset]]

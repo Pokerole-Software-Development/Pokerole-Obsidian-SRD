@@ -1,19 +1,36 @@
 ---
 Ability1: Shield Dust
 Ability2: Compound Eyes
+Baby: 'No'
+BookImageName: HOME664.png
+BookShinyImageName: HOME664_s.png
 BoxSprite: SRD-BoxSprite-scatterbug.png
+DexCategory: Scatterdust Pokemon
+DexDescription: The powder that covers its body regulates its temperature so it is
+  able to live in any region or climate. Whenever it is under attack it spews a black
+  powder that causes paralysis on contact.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Friend Guard
 HomeSprite: SRD-HomeSprite-scatterbug.png
 Learnset: '[[SRD-Scatterbug-Learnset]]'
 Legendary: 'No'
 Name: Scatterbug
 Number: 664
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: scatterbug.png
 Type1: Bug
 Type2: ''
+Weight:
+  Hectograms: 25
+  Kilograms: 2.5
+  Pounds: 5.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-scatterbug.png|right]]
+
+*Scatterdust Pokemon*
+*The powder that covers its body regulates its temperature so it is able to live in any region or climate. Whenever it is under attack it spews a black powder that causes paralysis on contact.*
 
 **DexID**:: 0664
 **Species**:: Scatterbug
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 5.5lbs / 2.5kg
 
 ![[SRD-Scatterbug-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Cute Charm
 Ability2: Competitive
+Baby: 'No'
+BookImageName: HOME040.png
+BookShinyImageName: HOME040_s.png
 BoxSprite: SRD-BoxSprite-wigglytuff.png
+DexCategory: Balloon Pokemon
+DexDescription: Its fur is extremely fine and conveys an image of luxury. Its body
+  is soft and rubbery. When angered, it will suck the air and inflate itself to an
+  enormous size. It is a favorite pet and a nurse Pokemon.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Frisk
 HomeSprite: SRD-HomeSprite-wigglytuff.png
 Learnset: '[[SRD-Wigglytuff-Learnset]]'
 Legendary: 'No'
 Name: Wigglytuff
 Number: 40
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: ''
 Sprite: wigglytuff.png
 Type1: Normal
 Type2: Fairy
+Weight:
+  Hectograms: 120
+  Kilograms: 12.0
+  Pounds: 26.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-wigglytuff.png|right]]
+
+*Balloon Pokemon*
+*Its fur is extremely fine and conveys an image of luxury. Its body is soft and rubbery. When angered, it will suck the air and inflate itself to an enormous size. It is a favorite pet and a nurse Pokemon.*
 
 **DexID**:: 0040
 **Species**:: Wigglytuff
@@ -41,5 +61,7 @@ Type2: Fairy
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 26.5lbs / 12.0kg
 
 ![[SRD-Wigglytuff-Learnset]]

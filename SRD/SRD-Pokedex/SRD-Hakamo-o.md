@@ -1,19 +1,36 @@
 ---
 Ability1: Bulletproof
 Ability2: Soundproof
+Baby: 'No'
+BookImageName: HOME783.png
+BookShinyImageName: HOME783_s.png
 BoxSprite: SRD-BoxSprite-hakamo-o.png
+DexCategory: Scaly Pokemon
+DexDescription: The scales on its body are shed and regrow sharper each time. It is
+  a courageous and diligent Pokemon who always lets out a war cry before the battle.
+  Any marks on its scale armor is worn with pride.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-hakamo-o.png
 Learnset: '[[SRD-Hakamo-o-Learnset]]'
 Legendary: 'No'
 Name: Hakamo-o
 Number: 783
+PrimaryEggGroup: Dragon
+SecondaryEggGroup: ''
 Sprite: hakamo-o.png
 Type1: Dragon
 Type2: Fighting
+Weight:
+  Hectograms: 470
+  Kilograms: 47.0
+  Pounds: 103.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-hakamo-o.png|right]]
+
+*Scaly Pokemon*
+*The scales on its body are shed and regrow sharper each time. It is a courageous and diligent Pokemon who always lets out a war cry before the battle. Any marks on its scale armor is worn with pride.*
 
 **DexID**:: 0783
 **Species**:: Hakamo-o
@@ -41,5 +61,7 @@ Type2: Fighting
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'9" / 1.2m
+**Weight**: 103.6lbs / 47.0kg
 
 ![[SRD-Hakamo-o-Learnset]]

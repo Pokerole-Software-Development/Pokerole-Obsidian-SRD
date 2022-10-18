@@ -1,19 +1,36 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME793.png
+BookShinyImageName: HOME793_s.png
 BoxSprite: SRD-BoxSprite-nihilego.png
+DexCategory: 'Aether Foundation Log #047'
+DexDescription: "We are unable to determine if the creature is sentient or not, it\
+  \ adapts its behavior depending on its last host. It hasn\u2019t stopped behaving\
+  \ like a little girl since then, it\u2019s both unsettling and fascinating."
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-nihilego.png
 Learnset: '[[SRD-Nihilego-Learnset]]'
 Legendary: 'Yes'
 Name: Nihilego
 Number: 793
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: nihilego.png
 Type1: Rock
 Type2: Poison
+Weight:
+  Hectograms: 555
+  Kilograms: 55.5
+  Pounds: 122.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-nihilego.png|right]]
+
+*Aether Foundation Log #047*
+*We are unable to determine if the creature is sentient or not, it adapts its behavior depending on its last host. It hasn’t stopped behaving like a little girl since then, it’s both unsettling and fascinating.*
 
 **DexID**:: 0793
 **Species**:: Nihilego
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 122.4lbs / 55.5kg
 
 ![[SRD-Nihilego-Learnset]]

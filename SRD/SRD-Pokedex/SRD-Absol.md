@@ -1,19 +1,39 @@
 ---
 Ability1: Pressure
 Ability2: Super Luck
+Baby: 'No'
+BookImageName: HOME359.png
+BookShinyImageName: HOME359_s.png
 BoxSprite: SRD-BoxSprite-absol.png
+DexCategory: Disaster Pokemon
+DexDescription: 'It is said that this Pokemon can live for 100 years. It has a bad
+  reputation: Whenever one is seen, a disaster is soon to follow - earthquakes, forest
+  fires and tidal waves. Absols lead a lonely life.'
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Justified
 HomeSprite: SRD-HomeSprite-absol.png
 Learnset: '[[SRD-Absol-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Absolite
+  Name: Mega-Absol
 Name: Absol
 Number: 359
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: absol.png
 Type1: Dark
 Type2: ''
+Weight:
+  Hectograms: 470
+  Kilograms: 47.0
+  Pounds: 103.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-absol.png|right]]
+
+*Disaster Pokemon*
+*It is said that this Pokemon can live for 100 years. It has a bad reputation: Whenever one is seen, a disaster is soon to follow - earthquakes, forest fires and tidal waves. Absols lead a lonely life.*
 
 **DexID**:: 0359
 **Species**:: Absol
@@ -41,5 +64,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 103.6lbs / 47.0kg
 
 ![[SRD-Absol-Learnset]]

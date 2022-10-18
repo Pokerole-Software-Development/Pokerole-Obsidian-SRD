@@ -1,19 +1,39 @@
 ---
 Ability1: Keen Eye
 Ability2: Tangled Feet
+Baby: 'No'
+BookImageName: HOME018.png
+BookShinyImageName: HOME018_s.png
 BoxSprite: SRD-BoxSprite-pidgeot.png
+DexCategory: Bird Pokemon
+DexDescription: "This Pokemon\u2019s plumage is made of beautiful glossy feathers.\
+  \ Pidgeot is an excellent hunter with well developed wing muscles that make it strong\
+  \ enough to whip up a gusty windstorm with just a few flaps."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Big Pecks
 HomeSprite: SRD-HomeSprite-pidgeot.png
 Learnset: '[[SRD-Pidgeot-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Pidgeotite
+  Name: Mega-Pidgeot
 Name: Pidgeot
 Number: 18
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: pidgeot.png
 Type1: Normal
 Type2: Flying
+Weight:
+  Hectograms: 395
+  Kilograms: 39.5
+  Pounds: 87.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-pidgeot.png|right]]
+
+*Bird Pokemon*
+*This Pokemon’s plumage is made of beautiful glossy feathers. Pidgeot is an excellent hunter with well developed wing muscles that make it strong enough to whip up a gusty windstorm with just a few flaps.*
 
 **DexID**:: 0018
 **Species**:: Pidgeot
@@ -41,5 +64,7 @@ Type2: Flying
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 87.1lbs / 39.5kg
 
 ![[SRD-Pidgeot-Learnset]]

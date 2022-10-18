@@ -1,19 +1,36 @@
 ---
 Ability1: Justified
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME638.png
+BookShinyImageName: HOME638_s.png
 BoxSprite: SRD-BoxSprite-cobalion.png
+DexCategory: No Data
+DexDescription: There is a story in Unova about four Pokemon that brought justice
+  to the wrongdoers. Their Leader was calm and composed but unforgiving. Its cold
+  stare forced you to obey its law.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 21
+  Feet: 6.9
+  Meters: 2.1
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-cobalion.png
 Learnset: '[[SRD-Cobalion-Learnset]]'
 Legendary: 'Yes'
 Name: Cobalion
 Number: 638
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: cobalion.png
 Type1: Steel
 Type2: Fighting
+Weight:
+  Hectograms: 2500
+  Kilograms: 250.0
+  Pounds: 551.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-cobalion.png|right]]
+
+*No Data*
+*There is a story in Unova about four Pokemon that brought justice to the wrongdoers. Their Leader was calm and composed but unforgiving. Its cold stare forced you to obey its law.*
 
 **DexID**:: 0638
 **Species**:: Cobalion
@@ -41,5 +61,7 @@ Type2: Fighting
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'9" / 2.1m
+**Weight**: 551.2lbs / 250.0kg
 
 ![[SRD-Cobalion-Learnset]]

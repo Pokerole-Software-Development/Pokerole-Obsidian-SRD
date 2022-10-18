@@ -1,19 +1,34 @@
 ---
 Ability1: Defiant
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME145G.png
+BookShinyImageName: HOME145G_s.png
 BoxSprite: SRD-BoxSprite-zapdos-galar.png
+DexCategory: ''
+DexDescription: ''
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-zapdos-galar.png
 Learnset: '[[SRD-Galarian Zapdos (provisional)-Learnset]]'
 Legendary: 'Yes'
 Name: Galarian Zapdos (provisional)
 Number: 145
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: zapdos-galar.png
 Type1: Fighting
 Type2: Flying
+Weight:
+  Hectograms: 582
+  Kilograms: 58.2
+  Pounds: 128.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +36,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-zapdos-galar.png|right]]
+
+**
+**
 
 **DexID**:: 0145G
 **Species**:: Galarian Zapdos (provisional)
@@ -41,5 +59,7 @@ Type2: Flying
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 128.3lbs / 58.2kg
 
 ![[SRD-Galarian Zapdos (provisional)-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Rough Skin
 Ability2: Sheer Force
+Baby: 'No'
+BookImageName: HOME621.png
+BookShinyImageName: HOME621_s.png
 BoxSprite: SRD-BoxSprite-druddigon.png
+DexCategory: Cave Pokemon
+DexDescription: It runs through the narrow tunnels dug by Excadrill and Onix and uses
+  its sharp claws to catch prey. It is cold blooded, and regularly takes sun baths
+  to keep its energy. They are aggressive and territorial.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-HomeSprite-druddigon.png
 Learnset: '[[SRD-Druddigon-Learnset]]'
 Legendary: 'No'
 Name: Druddigon
 Number: 621
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Dragon
 Sprite: druddigon.png
 Type1: Dragon
 Type2: ''
+Weight:
+  Hectograms: 1390
+  Kilograms: 139.0
+  Pounds: 306.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-druddigon.png|right]]
+
+*Cave Pokemon*
+*It runs through the narrow tunnels dug by Excadrill and Onix and uses its sharp claws to catch prey. It is cold blooded, and regularly takes sun baths to keep its energy. They are aggressive and territorial.*
 
 **DexID**:: 0621
 **Species**:: Druddigon
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 306.4lbs / 139.0kg
 
 ![[SRD-Druddigon-Learnset]]

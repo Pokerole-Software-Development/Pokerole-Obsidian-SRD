@@ -1,19 +1,36 @@
 ---
 Ability1: Clear Body
 Ability2: Infiltrator
+Baby: 'No'
+BookImageName: HOME886.png
+BookShinyImageName: HOME886_s.png
 BoxSprite: SRD-BoxSprite-drakloak.png
+DexCategory: Caretaker Pokemon
+DexDescription: "It battles alongside Dreepy and dotes on them until they evolve.\
+  \ Without a Dreepy to place on its head and care for, it gets so uneasy it\u2019\
+  ll try to substitute it with any Pokemon it finds"
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 14
+  Feet: 4.6
+  Meters: 1.4
 HiddenAbility: Cursed Body
 HomeSprite: SRD-HomeSprite-drakloak.png
 Learnset: '[[SRD-Drakloak-Learnset]]'
 Legendary: 'No'
 Name: Drakloak
 Number: 886
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: Dragon
 Sprite: drakloak.png
 Type1: Dragon
 Type2: Ghost
+Weight:
+  Hectograms: 110
+  Kilograms: 11.0
+  Pounds: 24.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-drakloak.png|right]]
+
+*Caretaker Pokemon*
+*It battles alongside Dreepy and dotes on them until they evolve. Without a Dreepy to place on its head and care for, it gets so uneasy it’ll try to substitute it with any Pokemon it finds*
 
 **DexID**:: 0886
 **Species**:: Drakloak
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 4'6" / 1.4m
+**Weight**: 24.3lbs / 11.0kg
 
 ![[SRD-Drakloak-Learnset]]

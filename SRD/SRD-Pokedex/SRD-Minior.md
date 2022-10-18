@@ -1,19 +1,35 @@
 ---
 Ability1: Shields Down
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME774.png
 BoxSprite: SRD-BoxSprite-minior.png
+DexCategory: Meteor Pokemon
+DexDescription: They live on the stratosphere, absorbing particles to grow their cores
+  and shells, when they become too heavy they fall to the ground. Move damage can
+  break the shell and leave the core exposed.
 EventAbilities: ''
 GenderType: N
 HasForm: 'Yes'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-minior.png
 Learnset: '[[SRD-Minior-Learnset]]'
 Legendary: 'No'
 Name: Minior
 Number: 774
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: minior.png
 Type1: Rock
 Type2: Flying
+Weight:
+  Hectograms: 400
+  Kilograms: 40.0
+  Pounds: 88.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-minior.png|right]]
+
+*Meteor Pokemon*
+*They live on the stratosphere, absorbing particles to grow their cores and shells, when they become too heavy they fall to the ground. Move damage can break the shell and leave the core exposed.*
 
 **DexID**:: 0774
 **Species**:: Minior
@@ -41,5 +60,7 @@ Type2: Flying
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'0" / 0.3m
+**Weight**: 88.2lbs / 40.0kg
 
 ![[SRD-Minior-Learnset]]

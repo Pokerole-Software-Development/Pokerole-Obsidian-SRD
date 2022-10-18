@@ -1,19 +1,36 @@
 ---
 Ability1: Pickup
 Ability2: Gluttony
+Baby: 'No'
+BookImageName: HOME264G.png
+BookShinyImageName: HOME264G_s.png
 BoxSprite: SRD-BoxSprite-linoone-galar.png
+DexCategory: Rush Pokemon
+DexDescription: It uses its long tongue to taunt its opponents. Once the foe is enraged,
+  this Pokemon hurls itself at it, tackling them forcefully. They are bad-mannered
+  and enjoy to thrash things about.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Quick Feet
 HomeSprite: SRD-HomeSprite-linoone-galar.png
 Learnset: '[[SRD-Galarian Linoone-Learnset]]'
 Legendary: 'No'
 Name: Galarian Linoone
 Number: 264
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: linoone-galar.png
 Type1: Dark
 Type2: Normal
+Weight:
+  Hectograms: 325
+  Kilograms: 32.5
+  Pounds: 71.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Normal
 # `= this.name`
 
 ![[SRD-HomeSprite-linoone-galar.png|right]]
+
+*Rush Pokemon*
+*It uses its long tongue to taunt its opponents. Once the foe is enraged, this Pokemon hurls itself at it, tackling them forcefully. They are bad-mannered and enjoy to thrash things about.*
 
 **DexID**:: 0264G
 **Species**:: Galarian Linoone
@@ -41,5 +61,7 @@ Type2: Normal
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 71.7lbs / 32.5kg
 
 ![[SRD-Galarian Linoone-Learnset]]

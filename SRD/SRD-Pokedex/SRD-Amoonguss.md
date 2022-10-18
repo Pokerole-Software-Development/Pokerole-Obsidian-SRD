@@ -1,19 +1,36 @@
 ---
 Ability1: Effect Spore
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME591.png
+BookShinyImageName: HOME591_s.png
 BoxSprite: SRD-BoxSprite-amoonguss.png
+DexCategory: Mushroom Pokemon
+DexDescription: In ancient times the tip of their caps had two eye-like patterns and
+  it made a swaying motion to lure prey to itself, but as they became Pokeball-looking
+  few Pokemon fall for it. It is still very venomous, though.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-amoonguss.png
 Learnset: '[[SRD-Amoonguss-Learnset]]'
 Legendary: 'No'
 Name: Amoonguss
 Number: 591
+PrimaryEggGroup: Grass
+SecondaryEggGroup: ''
 Sprite: amoonguss.png
 Type1: Grass
 Type2: Poison
+Weight:
+  Hectograms: 105
+  Kilograms: 10.5
+  Pounds: 23.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-amoonguss.png|right]]
+
+*Mushroom Pokemon*
+*In ancient times the tip of their caps had two eye-like patterns and it made a swaying motion to lure prey to itself, but as they became Pokeball-looking few Pokemon fall for it. It is still very venomous, though.*
 
 **DexID**:: 0591
 **Species**:: Amoonguss
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'0" / 0.6m
+**Weight**: 23.1lbs / 10.5kg
 
 ![[SRD-Amoonguss-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Sand Spit
 Ability2: Shed Skin
+Baby: 'No'
+BookImageName: HOME844.png
+BookShinyImageName: HOME844_s.png
 BoxSprite: SRD-BoxSprite-sandaconda.png
+DexCategory: Sand Snake Pokemon
+DexDescription: It has a sack that can carry up to 220 lbs of sand, the way it coils
+  allow it to spray the sand to its foes. If it sack ever runs out of sand it becomes
+  limp and depressed. They are unfriendly but not really aggressive.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 38
+  Feet: 12.5
+  Meters: 3.8
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-sandaconda.png
 Learnset: '[[SRD-Sandaconda-Learnset]]'
 Legendary: 'No'
 Name: Sandaconda
 Number: 844
+PrimaryEggGroup: Field
+SecondaryEggGroup: Dragon
 Sprite: sandaconda.png
 Type1: Ground
 Type2: ''
+Weight:
+  Hectograms: 655
+  Kilograms: 65.5
+  Pounds: 144.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-sandaconda.png|right]]
+
+*Sand Snake Pokemon*
+*It has a sack that can carry up to 220 lbs of sand, the way it coils allow it to spray the sand to its foes. If it sack ever runs out of sand it becomes limp and depressed. They are unfriendly but not really aggressive.*
 
 **DexID**:: 0844
 **Species**:: Sandaconda
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 12'5" / 3.8m
+**Weight**: 144.4lbs / 65.5kg
 
 ![[SRD-Sandaconda-Learnset]]

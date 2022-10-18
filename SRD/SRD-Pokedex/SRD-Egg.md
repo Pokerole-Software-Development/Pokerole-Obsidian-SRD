@@ -1,19 +1,34 @@
 ---
 Ability1: ''
 Ability2: ''
+Baby: 'No'
+BookImageName: ''
+BookShinyImageName: ''
 BoxSprite: SRD-BoxSprite-egg.png
+DexCategory: ''
+DexDescription: ''
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 0
+  Feet: 0.0
+  Meters: 0
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-egg.png
 Learnset: '[[SRD-Egg-Learnset]]'
 Legendary: 'No'
 Name: Egg
 Number: 0
+PrimaryEggGroup: ''
+SecondaryEggGroup: ''
 Sprite: egg.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 0
+  Kilograms: 0
+  Pounds: 0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +36,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-egg.png|right]]
+
+**
+**
 
 **DexID**:: 0000
 **Species**:: Egg
@@ -41,5 +59,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 0'0" / 0m
+**Weight**: 0lbs / 0kg
 
 ![[SRD-Egg-Learnset]]

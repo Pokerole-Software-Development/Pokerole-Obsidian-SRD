@@ -1,19 +1,36 @@
 ---
 Ability1: Snow Cloak
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME027A.png
+BookShinyImageName: HOME027A_s.png
 BoxSprite: SRD-BoxSprite-sandshrew-alola.png
+DexCategory: Mouse Pokemon
+DexDescription: Sandshrew who became trapped in the merciless cold weather of Alola
+  had to change their types to survive. They now depend on snow to roll around, without
+  it they are unable to curl up into a ball.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Slush Rush
 HomeSprite: SRD-HomeSprite-sandshrew-alola.png
 Learnset: '[[SRD-Alolan Sandshrew-Learnset]]'
 Legendary: 'No'
 Name: Alolan Sandshrew
 Number: 27
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: sandshrew-alola.png
 Type1: Ice
 Type2: Steel
+Weight:
+  Hectograms: 400
+  Kilograms: 40.0
+  Pounds: 88.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-sandshrew-alola.png|right]]
+
+*Mouse Pokemon*
+*Sandshrew who became trapped in the merciless cold weather of Alola had to change their types to survive. They now depend on snow to roll around, without it they are unable to curl up into a ball.*
 
 **DexID**:: 0027A
 **Species**:: Alolan Sandshrew
@@ -41,5 +61,7 @@ Type2: Steel
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 88.2lbs / 40.0kg
 
 ![[SRD-Alolan Sandshrew-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Merciless
 Ability2: Limber
+Baby: 'No'
+BookImageName: HOME747.png
+BookShinyImageName: HOME747_s.png
 BoxSprite: SRD-BoxSprite-mareanie.png
+DexCategory: Brutal Star Pokemon
+DexDescription: It can be found resting on the sea floor, waiting for an unsuspecting
+  prey to sting. They are pretty toxic and attack with their ten barbed tentacles.
+  Corsolas are one of its favorite meals.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-mareanie.png
 Learnset: '[[SRD-Mareanie-Learnset]]'
 Legendary: 'No'
 Name: Mareanie
 Number: 747
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: ''
 Sprite: mareanie.png
 Type1: Poison
 Type2: Water
+Weight:
+  Hectograms: 80
+  Kilograms: 8.0
+  Pounds: 17.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Water
 # `= this.name`
 
 ![[SRD-HomeSprite-mareanie.png|right]]
+
+*Brutal Star Pokemon*
+*It can be found resting on the sea floor, waiting for an unsuspecting prey to sting. They are pretty toxic and attack with their ten barbed tentacles. Corsolas are one of its favorite meals.*
 
 **DexID**:: 0747
 **Species**:: Mareanie
@@ -41,5 +61,7 @@ Type2: Water
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 17.6lbs / 8.0kg
 
 ![[SRD-Mareanie-Learnset]]

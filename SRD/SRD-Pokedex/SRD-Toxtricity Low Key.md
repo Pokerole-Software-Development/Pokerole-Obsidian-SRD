@@ -1,19 +1,36 @@
 ---
 Ability1: Punk Rock
 Ability2: Minus
+Baby: 'No'
+BookImageName: HOME849L.png
+BookShinyImageName: HOME849L_s.png
 BoxSprite: SRD-BoxSprite-toxtricity-low-key.png
+DexCategory: Punk Pokemon
+DexDescription: "Commonly called \u201CLow Key Form\u201D, its nature determines its\
+  \ evolution, If a Toxel is introverted it will evolve to be a chill Toxtricity.\
+  \ They emit low pitched sounds and look down on others who try to provoke them."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: Technician
 HomeSprite: SRD-HomeSprite-toxtricity-low-key.png
 Learnset: '[[SRD-Toxtricity Low Key-Learnset]]'
 Legendary: 'No'
 Name: Toxtricity Low Key
 Number: 849
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: toxtricity-low-key.png
 Type1: Electric
 Type2: Poison
+Weight:
+  Hectograms: 400
+  Kilograms: 40.0
+  Pounds: 88.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-toxtricity-low-key.png|right]]
+
+*Punk Pokemon*
+*Commonly called “Low Key Form”, its nature determines its evolution, If a Toxel is introverted it will evolve to be a chill Toxtricity. They emit low pitched sounds and look down on others who try to provoke them.*
 
 **DexID**:: 0849F1
 **Species**:: Toxtricity Low Key
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 88.2lbs / 40.0kg
 
 ![[SRD-Toxtricity Low Key-Learnset]]

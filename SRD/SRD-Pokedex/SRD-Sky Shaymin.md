@@ -1,19 +1,36 @@
 ---
 Ability1: Serene Grace
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME492S.png
+BookShinyImageName: HOME492S_s.png
 BoxSprite: SRD-BoxSprite-shaymin-sky.png
+DexCategory: No Data
+DexDescription: "There are old traces of gigantic trees that once grew all over the\
+  \ earth. They were called the \u201CTrees of Life\u201D and their flowers granted\
+  \ the power of flight to the kindhearted, or so the legend says."
 EventAbilities: ''
 GenderType: N
 HasForm: 'Yes'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-shaymin-sky.png
 Learnset: '[[SRD-Sky Shaymin-Learnset]]'
 Legendary: 'Yes'
 Name: Sky Shaymin
 Number: 492
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: shaymin-sky.png
 Type1: Grass
 Type2: Flying
+Weight:
+  Hectograms: 52
+  Kilograms: 5.2
+  Pounds: 11.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-shaymin-sky.png|right]]
+
+*No Data*
+*There are old traces of gigantic trees that once grew all over the earth. They were called the “Trees of Life” and their flowers granted the power of flight to the kindhearted, or so the legend says.*
 
 **DexID**:: 0492F1
 **Species**:: Sky Shaymin
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'3" / 0.4m
+**Weight**: 11.5lbs / 5.2kg
 
 ![[SRD-Sky Shaymin-Learnset]]

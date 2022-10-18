@@ -1,19 +1,36 @@
 ---
 Ability1: Hustle
 Ability2: Sniper
+Baby: 'No'
+BookImageName: HOME223.png
+BookShinyImageName: HOME223_s.png
 BoxSprite: SRD-BoxSprite-remoraid.png
+DexCategory: Jet Pokemon
+DexDescription: Remoraid has a remarkable aim with its water gun. This ability is
+  used to hunt down flying enemies above the sea. They can be seen clinging into Mantines
+  to travel faster.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Moody
 HomeSprite: SRD-HomeSprite-remoraid.png
 Learnset: '[[SRD-Remoraid-Learnset]]'
 Legendary: 'No'
 Name: Remoraid
 Number: 223
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Water 2
 Sprite: remoraid.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 120
+  Kilograms: 12.0
+  Pounds: 26.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-remoraid.png|right]]
+
+*Jet Pokemon*
+*Remoraid has a remarkable aim with its water gun. This ability is used to hunt down flying enemies above the sea. They can be seen clinging into Mantines to travel faster.*
 
 **DexID**:: 0223
 **Species**:: Remoraid
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 26.5lbs / 12.0kg
 
 ![[SRD-Remoraid-Learnset]]

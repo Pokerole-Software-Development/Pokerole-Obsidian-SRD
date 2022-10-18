@@ -1,19 +1,36 @@
 ---
 Ability1: Speed Boost
 Ability2: Compound Eyes
+Baby: 'No'
+BookImageName: HOME413G.png
+BookShinyImageName: HOME413G_s.png
 BoxSprite: SRD-BoxSprite-wormadam.png
+DexCategory: Bagworm Pokemon
+DexDescription: When Burmy evolved, its Sand cloak became a part of its body. For
+  this reason there are many variations in body and type. It is a calm Pokemon that
+  loves odd-shaped stones. This Pokemon is female only.
 EventAbilities: ''
 GenderType: F
 HasForm: 'Yes'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-wormadam.png
 Learnset: '[[SRD-Ground Wormadam-Learnset]]'
 Legendary: 'No'
 Name: Ground Wormadam
 Number: 413
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: wormadam.png
 Type1: Bug
 Type2: Ground
+Weight:
+  Hectograms: 65
+  Kilograms: 6.5
+  Pounds: 14.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-wormadam.png|right]]
+
+*Bagworm Pokemon*
+*When Burmy evolved, its Sand cloak became a part of its body. For this reason there are many variations in body and type. It is a calm Pokemon that loves odd-shaped stones. This Pokemon is female only.*
 
 **DexID**:: 0413F2
 **Species**:: Ground Wormadam
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'6" / 0.5m
+**Weight**: 14.3lbs / 6.5kg
 
 ![[SRD-Ground Wormadam-Learnset]]

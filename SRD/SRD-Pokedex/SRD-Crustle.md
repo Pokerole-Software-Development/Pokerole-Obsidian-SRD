@@ -1,19 +1,36 @@
 ---
 Ability1: Sturdy
 Ability2: Shell Armor
+Baby: 'No'
+BookImageName: HOME558.png
+BookShinyImageName: HOME558_s.png
 BoxSprite: SRD-BoxSprite-crustle.png
+DexCategory: Stone Home Pokemon
+DexDescription: They carry enormous boulders as a protective shell. When competing
+  for territory, Crustle fight viciously. The one whose boulder is broken is the loser
+  of the battle. They feed on the moss that grows in their rock.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 14
+  Feet: 4.6
+  Meters: 1.4
 HiddenAbility: Weak Armor
 HomeSprite: SRD-HomeSprite-crustle.png
 Learnset: '[[SRD-Crustle-Learnset]]'
 Legendary: 'No'
 Name: Crustle
 Number: 558
+PrimaryEggGroup: Bug
+SecondaryEggGroup: Mineral
 Sprite: crustle.png
 Type1: Bug
 Type2: Rock
+Weight:
+  Hectograms: 2000
+  Kilograms: 200.0
+  Pounds: 440.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Rock
 # `= this.name`
 
 ![[SRD-HomeSprite-crustle.png|right]]
+
+*Stone Home Pokemon*
+*They carry enormous boulders as a protective shell. When competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle. They feed on the moss that grows in their rock.*
 
 **DexID**:: 0558
 **Species**:: Crustle
@@ -41,5 +61,7 @@ Type2: Rock
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'6" / 1.4m
+**Weight**: 440.9lbs / 200.0kg
 
 ![[SRD-Crustle-Learnset]]

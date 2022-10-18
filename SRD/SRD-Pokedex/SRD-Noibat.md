@@ -1,19 +1,36 @@
 ---
 Ability1: Frisk
 Ability2: Infiltrator
+Baby: 'No'
+BookImageName: HOME714.png
+BookShinyImageName: HOME714_s.png
 BoxSprite: SRD-BoxSprite-noibat.png
+DexCategory: Sound Wave Pokemon
+DexDescription: They live in dark caves and use echolocation to move around. Their
+  enormous ears can emit ultrasonic waves that cause dizziness. Groups of them can
+  even take on prey several times their size.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-noibat.png
 Learnset: '[[SRD-Noibat-Learnset]]'
 Legendary: 'No'
 Name: Noibat
 Number: 714
+PrimaryEggGroup: Flying
+SecondaryEggGroup: Dragon
 Sprite: noibat.png
 Type1: Flying
 Type2: Dragon
+Weight:
+  Hectograms: 80
+  Kilograms: 8.0
+  Pounds: 17.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-noibat.png|right]]
+
+*Sound Wave Pokemon*
+*They live in dark caves and use echolocation to move around. Their enormous ears can emit ultrasonic waves that cause dizziness. Groups of them can even take on prey several times their size.*
 
 **DexID**:: 0714
 **Species**:: Noibat
@@ -41,5 +61,7 @@ Type2: Dragon
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 17.6lbs / 8.0kg
 
 ![[SRD-Noibat-Learnset]]

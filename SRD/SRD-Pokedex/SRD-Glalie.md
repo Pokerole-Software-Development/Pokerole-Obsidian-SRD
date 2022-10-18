@@ -1,19 +1,39 @@
 ---
 Ability1: Inner Focus
 Ability2: Ice Body
+Baby: 'No'
+BookImageName: HOME362.png
+BookShinyImageName: HOME362_s.png
 BoxSprite: SRD-BoxSprite-glalie.png
+DexCategory: Face Pokemon
+DexDescription: Its body is so hard it was thought to be made of rock. They can be
+  aggressive if provoked. When they hunt, they freeze their prey solid before eating
+  it. They can live in warm places without trouble.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Moody
 HomeSprite: SRD-HomeSprite-glalie.png
 Learnset: '[[SRD-Glalie-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Glalitite
+  Name: Mega-Glalie
 Name: Glalie
 Number: 362
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: Mineral
 Sprite: glalie.png
 Type1: Ice
 Type2: ''
+Weight:
+  Hectograms: 2565
+  Kilograms: 256.5
+  Pounds: 565.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-glalie.png|right]]
+
+*Face Pokemon*
+*Its body is so hard it was thought to be made of rock. They can be aggressive if provoked. When they hunt, they freeze their prey solid before eating it. They can live in warm places without trouble.*
 
 **DexID**:: 0362
 **Species**:: Glalie
@@ -41,5 +64,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 565.5lbs / 256.5kg
 
 ![[SRD-Glalie-Learnset]]

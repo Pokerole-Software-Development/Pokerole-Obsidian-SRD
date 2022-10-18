@@ -1,19 +1,36 @@
 ---
 Ability1: Intimidate
 Ability2: Shed Skin
+Baby: 'No'
+BookImageName: HOME024.png
+BookShinyImageName: HOME024_s.png
 BoxSprite: SRD-BoxSprite-arbok.png
+DexCategory: Cobra Pokemon
+DexDescription: This Pokemon has an incredibly strong constricting power. Once it
+  wraps its body around its foe, escaping is almost impossible. The pattern on its
+  body glows in the dark like a terrifying face.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 35
+  Feet: 11.5
+  Meters: 3.5
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-arbok.png
 Learnset: '[[SRD-Arbok-Learnset]]'
 Legendary: 'No'
 Name: Arbok
 Number: 24
+PrimaryEggGroup: Field
+SecondaryEggGroup: Dragon
 Sprite: arbok.png
 Type1: Poison
 Type2: ''
+Weight:
+  Hectograms: 650
+  Kilograms: 65.0
+  Pounds: 143.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-arbok.png|right]]
+
+*Cobra Pokemon*
+*This Pokemon has an incredibly strong constricting power. Once it wraps its body around its foe, escaping is almost impossible. The pattern on its body glows in the dark like a terrifying face.*
 
 **DexID**:: 0024
 **Species**:: Arbok
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 11'5" / 3.5m
+**Weight**: 143.3lbs / 65.0kg
 
 ![[SRD-Arbok-Learnset]]

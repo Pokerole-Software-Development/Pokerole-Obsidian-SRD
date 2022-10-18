@@ -1,19 +1,36 @@
 ---
 Ability1: Pressure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME646.png
+BookShinyImageName: HOME646_s.png
 BoxSprite: SRD-BoxSprite-kyurem.png
+DexCategory: No Data
+DexDescription: Inside a remote and frozen cave there are some old paintings. They
+  depict a giant dragon being thorn apart into a black and white shards Of the rest
+  of the picture only shattered fragments of ice remain.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 30
+  Feet: 9.8
+  Meters: 3.0
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-kyurem.png
 Learnset: '[[SRD-Kyurem-Learnset]]'
 Legendary: 'Yes'
 Name: Kyurem
 Number: 646
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: kyurem.png
 Type1: Dragon
 Type2: Ice
+Weight:
+  Hectograms: 3250
+  Kilograms: 325.0
+  Pounds: 716.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ice
 # `= this.name`
 
 ![[SRD-HomeSprite-kyurem.png|right]]
+
+*No Data*
+*Inside a remote and frozen cave there are some old paintings. They depict a giant dragon being thorn apart into a black and white shards Of the rest of the picture only shattered fragments of ice remain.*
 
 **DexID**:: 0646
 **Species**:: Kyurem
@@ -41,5 +61,7 @@ Type2: Ice
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 9'8" / 3.0m
+**Weight**: 716.5lbs / 325.0kg
 
 ![[SRD-Kyurem-Learnset]]

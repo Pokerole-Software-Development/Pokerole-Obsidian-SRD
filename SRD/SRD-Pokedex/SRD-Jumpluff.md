@@ -1,19 +1,36 @@
 ---
 Ability1: Chlorophyll
 Ability2: Leaf Guard
+Baby: 'No'
+BookImageName: HOME189.png
+BookShinyImageName: HOME189_s.png
 BoxSprite: SRD-BoxSprite-jumpluff.png
+DexCategory: Cottonweed Pokemon
+DexDescription: It flies along the wind and spreads its cotton-like spores all over
+  the world to make more offspring. It is always looking for warm places, if it gets
+  caught by a cold front, it will land to find shelter.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-jumpluff.png
 Learnset: '[[SRD-Jumpluff-Learnset]]'
 Legendary: 'No'
 Name: Jumpluff
 Number: 189
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: Grass
 Sprite: jumpluff.png
 Type1: Grass
 Type2: Flying
+Weight:
+  Hectograms: 30
+  Kilograms: 3.0
+  Pounds: 6.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-jumpluff.png|right]]
+
+*Cottonweed Pokemon*
+*It flies along the wind and spreads its cotton-like spores all over the world to make more offspring. It is always looking for warm places, if it gets caught by a cold front, it will land to find shelter.*
 
 **DexID**:: 0189
 **Species**:: Jumpluff
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'6" / 0.8m
+**Weight**: 6.6lbs / 3.0kg
 
 ![[SRD-Jumpluff-Learnset]]

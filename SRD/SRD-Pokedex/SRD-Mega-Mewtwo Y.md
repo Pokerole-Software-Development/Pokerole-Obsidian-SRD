@@ -1,19 +1,35 @@
 ---
 Ability1: Insomnia
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME150MY.png
+BookShinyImageName: HOME150MY_s.png
 BoxSprite: SRD-BoxSprite-mewtwo-mega-y.png
+DexCategory: No Data
+DexDescription: With the power of the Mega Stone its body got smaller but its power
+  grew immensely. It can blow up even a skyscraper with just its thoughts
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-mewtwo-mega-y.png
 Learnset: '[[SRD-Mega-Mewtwo Y-Learnset]]'
 Legendary: 'Yes'
 Name: Mega-Mewtwo Y
 Number: 150
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: mewtwo-mega-y.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 330
+  Kilograms: 33.0
+  Pounds: 72.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-mewtwo-mega-y.png|right]]
+
+*No Data*
+*With the power of the Mega Stone its body got smaller but its power grew immensely. It can blow up even a skyscraper with just its thoughts*
 
 **DexID**:: 0150M2
 **Species**:: Mega-Mewtwo Y
@@ -41,5 +60,7 @@ Type2: ''
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 72.8lbs / 33.0kg
 
 ![[SRD-Mega-Mewtwo Y-Learnset]]

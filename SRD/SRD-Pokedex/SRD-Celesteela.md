@@ -1,19 +1,36 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME797.png
+BookShinyImageName: HOME797_s.png
 BoxSprite: SRD-BoxSprite-celesteela.png
+DexCategory: 'Aether Foundation Log #019'
+DexDescription: Finally some progress from the excavation site. What we thought was
+  a 200 year-old relic turned out to be a creature capable of blasting itself into
+  the air, we managed to restrain it, more research is due.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 92
+  Feet: 30.2
+  Meters: 9.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-celesteela.png
 Learnset: '[[SRD-Celesteela-Learnset]]'
 Legendary: 'Yes'
 Name: Celesteela
 Number: 797
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: celesteela.png
 Type1: Steel
 Type2: Flying
+Weight:
+  Hectograms: 9999
+  Kilograms: 999.9
+  Pounds: 2204.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-celesteela.png|right]]
+
+*Aether Foundation Log #019*
+*Finally some progress from the excavation site. What we thought was a 200 year-old relic turned out to be a creature capable of blasting itself into the air, we managed to restrain it, more research is due.*
 
 **DexID**:: 0797
 **Species**:: Celesteela
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 30'2" / 9.2m
+**Weight**: 2204.4lbs / 999.9kg
 
 ![[SRD-Celesteela-Learnset]]

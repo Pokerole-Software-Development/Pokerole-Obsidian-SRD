@@ -1,19 +1,36 @@
 ---
 Ability1: Chlorophyll
 Ability2: Leaf Guard
+Baby: 'No'
+BookImageName: HOME114.png
+BookShinyImageName: HOME114_s.png
 BoxSprite: SRD-BoxSprite-tangela.png
+DexCategory: Vine Pokemon
+DexDescription: It blends with foliage on jungle and forest areas. Its vines snap
+  off easily and painlessly if they are grabbed, allowing it to make a quick getaway.
+  The lost vines are replaced by new growth the very next day.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-tangela.png
 Learnset: '[[SRD-Tangela-Learnset]]'
 Legendary: 'No'
 Name: Tangela
 Number: 114
+PrimaryEggGroup: Grass
+SecondaryEggGroup: ''
 Sprite: tangela.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 350
+  Kilograms: 35.0
+  Pounds: 77.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-tangela.png|right]]
+
+*Vine Pokemon*
+*It blends with foliage on jungle and forest areas. Its vines snap off easily and painlessly if they are grabbed, allowing it to make a quick getaway. The lost vines are replaced by new growth the very next day.*
 
 **DexID**:: 0114
 **Species**:: Tangela
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 77.2lbs / 35.0kg
 
 ![[SRD-Tangela-Learnset]]

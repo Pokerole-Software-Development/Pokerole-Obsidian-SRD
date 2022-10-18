@@ -1,19 +1,36 @@
 ---
 Ability1: Soundproof
 Ability2: Static
+Baby: 'No'
+BookImageName: HOME101.png
+BookShinyImageName: HOME101_s.png
 BoxSprite: SRD-BoxSprite-electrode.png
+DexCategory: Ball Pokemon
+DexDescription: It is known for causing blackouts in the cities. After evolving it
+  explodes as a form to release excess electricity or simply to amuse itself. Trainers
+  need to be careful around an Electrode.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Aftermath
 HomeSprite: SRD-HomeSprite-electrode.png
 Learnset: '[[SRD-Electrode-Learnset]]'
 Legendary: 'No'
 Name: Electrode
 Number: 101
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: electrode.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 666
+  Kilograms: 66.6
+  Pounds: 146.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-electrode.png|right]]
+
+*Ball Pokemon*
+*It is known for causing blackouts in the cities. After evolving it explodes as a form to release excess electricity or simply to amuse itself. Trainers need to be careful around an Electrode.*
 
 **DexID**:: 0101
 **Species**:: Electrode
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 146.8lbs / 66.6kg
 
 ![[SRD-Electrode-Learnset]]

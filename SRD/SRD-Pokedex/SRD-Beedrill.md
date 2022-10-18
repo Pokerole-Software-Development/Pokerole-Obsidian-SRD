@@ -1,19 +1,39 @@
 ---
 Ability1: Swarm
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME015.png
+BookShinyImageName: HOME015_s.png
 BoxSprite: SRD-BoxSprite-beedrill.png
+DexCategory: Poison Bee Pokemon
+DexDescription: Beedrill are extremely territorial. For safety reasons, no one should
+  ever approach their nest. If disturbed, they will attack in swarm. It has three
+  stings. The one on its tail secretes a powerful poison.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Sniper
 HomeSprite: SRD-HomeSprite-beedrill.png
 Learnset: '[[SRD-Beedrill-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Beedrillite
+  Name: Mega-Beedrill
 Name: Beedrill
 Number: 15
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: beedrill.png
 Type1: Bug
 Type2: Poison
+Weight:
+  Hectograms: 295
+  Kilograms: 29.5
+  Pounds: 65.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-beedrill.png|right]]
+
+*Poison Bee Pokemon*
+*Beedrill are extremely territorial. For safety reasons, no one should ever approach their nest. If disturbed, they will attack in swarm. It has three stings. The one on its tail secretes a powerful poison.*
 
 **DexID**:: 0015
 **Species**:: Beedrill
@@ -41,5 +64,7 @@ Type2: Poison
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 65.0lbs / 29.5kg
 
 ![[SRD-Beedrill-Learnset]]

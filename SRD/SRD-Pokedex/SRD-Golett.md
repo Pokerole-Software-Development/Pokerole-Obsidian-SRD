@@ -1,19 +1,36 @@
 ---
 Ability1: Iron Fist
 Ability2: Klutz
+Baby: 'No'
+BookImageName: HOME622.png
+BookShinyImageName: HOME622_s.png
 BoxSprite: SRD-BoxSprite-golett.png
+DexCategory: Automaton Pokemon
+DexDescription: Very few have been seen in old ruins. These Pokemon are thought to
+  have been created by the science of an ancient and mysterious civilization. The
+  energy inside of it comes from an unknown source.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: No Guard
 HomeSprite: SRD-HomeSprite-golett.png
 Learnset: '[[SRD-Golett-Learnset]]'
 Legendary: 'No'
 Name: Golett
 Number: 622
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: golett.png
 Type1: Ground
 Type2: Ghost
+Weight:
+  Hectograms: 920
+  Kilograms: 92.0
+  Pounds: 202.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-golett.png|right]]
+
+*Automaton Pokemon*
+*Very few have been seen in old ruins. These Pokemon are thought to have been created by the science of an ancient and mysterious civilization. The energy inside of it comes from an unknown source.*
 
 **DexID**:: 0622
 **Species**:: Golett
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 202.8lbs / 92.0kg
 
 ![[SRD-Golett-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: No Guard
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME680.png
+BookShinyImageName: HOME680_s.png
 BoxSprite: SRD-BoxSprite-doublade.png
+DexCategory: Sword Pokemon
+DexDescription: Both swords share a telepathic link to coordinate attacks and slash
+  their enemies to shreds. They feed on the rage of their wielder and promise to make
+  him unbeatable at the cost of his flesh and soul.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-doublade.png
 Learnset: '[[SRD-Doublade-Learnset]]'
 Legendary: 'No'
 Name: Doublade
 Number: 680
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: doublade.png
 Type1: Steel
 Type2: Ghost
+Weight:
+  Hectograms: 45
+  Kilograms: 4.5
+  Pounds: 9.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-doublade.png|right]]
+
+*Sword Pokemon*
+*Both swords share a telepathic link to coordinate attacks and slash their enemies to shreds. They feed on the rage of their wielder and promise to make him unbeatable at the cost of his flesh and soul.*
 
 **DexID**:: 0680
 **Species**:: Doublade
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 9.9lbs / 4.5kg
 
 ![[SRD-Doublade-Learnset]]

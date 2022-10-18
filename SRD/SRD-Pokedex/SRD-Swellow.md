@@ -1,19 +1,36 @@
 ---
 Ability1: Guts
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME277.png
+BookShinyImageName: HOME277_s.png
 BoxSprite: SRD-BoxSprite-swellow.png
+DexCategory: Swallow Pokemon
+DexDescription: "They are vain Pokemon, acting with grace and elegance. Swellows are\
+  \ seen circling the skies looking for prey. They can be incredibly fast. If two\
+  \ Swellows meet, they will clean each other\u2019s wings as a sign of peace."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Scrappy
 HomeSprite: SRD-HomeSprite-swellow.png
 Learnset: '[[SRD-Swellow-Learnset]]'
 Legendary: 'No'
 Name: Swellow
 Number: 277
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: swellow.png
 Type1: Normal
 Type2: Flying
+Weight:
+  Hectograms: 198
+  Kilograms: 19.8
+  Pounds: 43.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-swellow.png|right]]
+
+*Swallow Pokemon*
+*They are vain Pokemon, acting with grace and elegance. Swellows are seen circling the skies looking for prey. They can be incredibly fast. If two Swellows meet, they will clean each other’s wings as a sign of peace.*
 
 **DexID**:: 0277
 **Species**:: Swellow
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'3" / 0.7m
+**Weight**: 43.7lbs / 19.8kg
 
 ![[SRD-Swellow-Learnset]]

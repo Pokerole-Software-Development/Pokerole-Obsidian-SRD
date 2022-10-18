@@ -1,19 +1,36 @@
 ---
 Ability1: Intimidate
 Ability2: Quick Feet
+Baby: 'No'
+BookImageName: HOME262.png
+BookShinyImageName: HOME262_s.png
 BoxSprite: SRD-BoxSprite-mightyena.png
+DexCategory: Bite Pokemon
+DexDescription: They attack savagely, travel in packs and hunt in groups. They will
+  only obey trainers that show superior skills, which they recognize as the alpha
+  leader. They are extremely obedient once they find a master.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Moxie
 HomeSprite: SRD-HomeSprite-mightyena.png
 Learnset: '[[SRD-Mightyena-Learnset]]'
 Legendary: 'No'
 Name: Mightyena
 Number: 262
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: mightyena.png
 Type1: Dark
 Type2: ''
+Weight:
+  Hectograms: 370
+  Kilograms: 37.0
+  Pounds: 81.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-mightyena.png|right]]
+
+*Bite Pokemon*
+*They attack savagely, travel in packs and hunt in groups. They will only obey trainers that show superior skills, which they recognize as the alpha leader. They are extremely obedient once they find a master.*
 
 **DexID**:: 0262
 **Species**:: Mightyena
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 81.6lbs / 37.0kg
 
 ![[SRD-Mightyena-Learnset]]

@@ -1,19 +1,39 @@
 ---
 Ability1: Sturdy
 Ability2: Rock Head
+Baby: 'No'
+BookImageName: HOME306.png
+BookShinyImageName: HOME306_s.png
 BoxSprite: SRD-BoxSprite-aggron.png
+DexCategory: Iron Armor Pokemon
+DexDescription: Aggron claims ownership of entire mountains, mercilessly beating up
+  anything that crosses their path. Aggrons are violent and patrol their territory
+  at all times, but also plant trees, stop fires and protect nature.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 21
+  Feet: 6.9
+  Meters: 2.1
 HiddenAbility: Heavy Metal
 HomeSprite: SRD-HomeSprite-aggron.png
 Learnset: '[[SRD-Aggron-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Aggronite
+  Name: Mega-Aggron
 Name: Aggron
 Number: 306
+PrimaryEggGroup: Monster
+SecondaryEggGroup: ''
 Sprite: aggron.png
 Type1: Steel
 Type2: Rock
+Weight:
+  Hectograms: 3600
+  Kilograms: 360.0
+  Pounds: 793.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Rock
 # `= this.name`
 
 ![[SRD-HomeSprite-aggron.png|right]]
+
+*Iron Armor Pokemon*
+*Aggron claims ownership of entire mountains, mercilessly beating up anything that crosses their path. Aggrons are violent and patrol their territory at all times, but also plant trees, stop fires and protect nature.*
 
 **DexID**:: 0306
 **Species**:: Aggron
@@ -41,5 +64,7 @@ Type2: Rock
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'9" / 2.1m
+**Weight**: 793.7lbs / 360.0kg
 
 ![[SRD-Aggron-Learnset]]

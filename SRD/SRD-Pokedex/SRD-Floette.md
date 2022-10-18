@@ -1,19 +1,36 @@
 ---
 Ability1: Flower Veil
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME670.png
+BookShinyImageName: HOME670_s.png
 BoxSprite: SRD-BoxSprite-floette.png
+DexCategory: Fairy Pokemon
+DexDescription: It flutters around flower meadows and takes care of buds that are
+  starting to wilt. People who fill their gardens with their preferred flower receive
+  its visit every spring. They are loyal and caring Pokemon.
 EventAbilities: ''
 GenderType: F
 HasForm: 'No'
+Height:
+  Deimeters: 2
+  Feet: 0.7
+  Meters: 0.2
 HiddenAbility: Symbiosis
 HomeSprite: SRD-HomeSprite-floette.png
 Learnset: '[[SRD-Floette-Learnset]]'
 Legendary: 'No'
 Name: Floette
 Number: 670
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: ''
 Sprite: floette.png
 Type1: Fairy
 Type2: ''
+Weight:
+  Hectograms: 9
+  Kilograms: 0.9
+  Pounds: 2.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-floette.png|right]]
+
+*Fairy Pokemon*
+*It flutters around flower meadows and takes care of buds that are starting to wilt. People who fill their gardens with their preferred flower receive its visit every spring. They are loyal and caring Pokemon.*
 
 **DexID**:: 0670
 **Species**:: Floette
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 0'7" / 0.2m
+**Weight**: 2.0lbs / 0.9kg
 
 ![[SRD-Floette-Learnset]]

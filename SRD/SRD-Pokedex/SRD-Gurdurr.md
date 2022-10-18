@@ -1,19 +1,36 @@
 ---
 Ability1: Guts
 Ability2: Sheer Force
+Baby: 'No'
+BookImageName: HOME533.png
+BookShinyImageName: HOME533_s.png
 BoxSprite: SRD-BoxSprite-gurdurr.png
+DexCategory: Muscular Pokemon
+DexDescription: "This Pokemon is very muscular and strongly built. It likes to show\
+  \ off it\u2019s strength and muscles. Some years back a famous wrestler got defeated\
+  \ in just a few seconds by one of these Pokemon."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Iron Fist
 HomeSprite: SRD-HomeSprite-gurdurr.png
 Learnset: '[[SRD-Gurdurr-Learnset]]'
 Legendary: 'No'
 Name: Gurdurr
 Number: 533
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: gurdurr.png
 Type1: Fighting
 Type2: ''
+Weight:
+  Hectograms: 400
+  Kilograms: 40.0
+  Pounds: 88.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-gurdurr.png|right]]
+
+*Muscular Pokemon*
+*This Pokemon is very muscular and strongly built. It likes to show off it’s strength and muscles. Some years back a famous wrestler got defeated in just a few seconds by one of these Pokemon.*
 
 **DexID**:: 0533
 **Species**:: Gurdurr
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'9" / 1.2m
+**Weight**: 88.2lbs / 40.0kg
 
 ![[SRD-Gurdurr-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME344.png
+BookShinyImageName: HOME344_s.png
 BoxSprite: SRD-BoxSprite-claydol.png
+DexCategory: Clay Doll Pokemon
+DexDescription: It is made entirely of clay. The first one was discovered in ruins
+  from 20,000 years ago. A strange light is said to be the source of its life and
+  psychic abilities. Its eight eyes are always alert and always watching.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-claydol.png
 Learnset: '[[SRD-Claydol-Learnset]]'
 Legendary: 'No'
 Name: Claydol
 Number: 344
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: claydol.png
 Type1: Ground
 Type2: Psychic
+Weight:
+  Hectograms: 1080
+  Kilograms: 108.0
+  Pounds: 238.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-claydol.png|right]]
+
+*Clay Doll Pokemon*
+*It is made entirely of clay. The first one was discovered in ruins from 20,000 years ago. A strange light is said to be the source of its life and psychic abilities. Its eight eyes are always alert and always watching.*
 
 **DexID**:: 0344
 **Species**:: Claydol
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 238.1lbs / 108.0kg
 
 ![[SRD-Claydol-Learnset]]

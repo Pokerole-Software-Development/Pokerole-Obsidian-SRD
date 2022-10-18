@@ -1,19 +1,36 @@
 ---
 Ability1: Hustle
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME554.png
+BookShinyImageName: HOME554_s.png
 BoxSprite: SRD-BoxSprite-darumaka.png
+DexCategory: Zen Charm Pokemon
+DexDescription: Lives on deserts and arid terrains. It has a flame inside its body.
+  When the flame burns brightly it becomes very active running around, when the flame
+  is low it falls asleep. Their droppings double as a bonfire.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Inner Focus
 HomeSprite: SRD-HomeSprite-darumaka.png
 Learnset: '[[SRD-Darumaka-Learnset]]'
 Legendary: 'No'
 Name: Darumaka
 Number: 554
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: darumaka.png
 Type1: Fire
 Type2: ''
+Weight:
+  Hectograms: 375
+  Kilograms: 37.5
+  Pounds: 82.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-darumaka.png|right]]
+
+*Zen Charm Pokemon*
+*Lives on deserts and arid terrains. It has a flame inside its body. When the flame burns brightly it becomes very active running around, when the flame is low it falls asleep. Their droppings double as a bonfire.*
 
 **DexID**:: 0554
 **Species**:: Darumaka
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 82.7lbs / 37.5kg
 
 ![[SRD-Darumaka-Learnset]]

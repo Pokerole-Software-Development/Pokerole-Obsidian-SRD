@@ -1,19 +1,36 @@
 ---
 Ability1: Tough Claws
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME376M.png
+BookShinyImageName: HOME376M_s.png
 BoxSprite: SRD-BoxSprite-metagross-mega.png
+DexCategory: Iron Leg Pokemon
+DexDescription: The power of the Mega Stone made its four minds combine. It is now
+  a merciless machine-like beast. If it calculates its chances to win are diminishing
+  it will clutch itself into its foe and self-destruct.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 25
+  Feet: 8.2
+  Meters: 2.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-metagross-mega.png
 Learnset: '[[SRD-Mega-Metagross-Learnset]]'
 Legendary: 'No'
 Name: Mega-Metagross
 Number: 376
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: metagross-mega.png
 Type1: Steel
 Type2: Psychic
+Weight:
+  Hectograms: 9429
+  Kilograms: 942.9
+  Pounds: 2078.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-metagross-mega.png|right]]
+
+*Iron Leg Pokemon*
+*The power of the Mega Stone made its four minds combine. It is now a merciless machine-like beast. If it calculates its chances to win are diminishing it will clutch itself into its foe and self-destruct.*
 
 **DexID**:: 0376M1
 **Species**:: Mega-Metagross
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 8'2" / 2.5m
+**Weight**: 2078.7lbs / 942.9kg
 
 ![[SRD-Mega-Metagross-Learnset]]

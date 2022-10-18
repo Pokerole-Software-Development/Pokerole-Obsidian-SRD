@@ -1,19 +1,36 @@
 ---
 Ability1: Swarm
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME402.png
+BookShinyImageName: HOME402_s.png
 BoxSprite: SRD-BoxSprite-kricketune.png
+DexCategory: Cricket Pokemon
+DexDescription: It can make all kind of sounds with its antennae, arms and mouth.
+  It signals emotions with different tunes but scientists still cannot define what
+  they mean. They imitate the songs they hear.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Technician
 HomeSprite: SRD-HomeSprite-kricketune.png
 Learnset: '[[SRD-Kricketune-Learnset]]'
 Legendary: 'No'
 Name: Kricketune
 Number: 402
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: kricketune.png
 Type1: Bug
 Type2: ''
+Weight:
+  Hectograms: 255
+  Kilograms: 25.5
+  Pounds: 56.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-kricketune.png|right]]
+
+*Cricket Pokemon*
+*It can make all kind of sounds with its antennae, arms and mouth. It signals emotions with different tunes but scientists still cannot define what they mean. They imitate the songs they hear.*
 
 **DexID**:: 0402
 **Species**:: Kricketune
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 56.2lbs / 25.5kg
 
 ![[SRD-Kricketune-Learnset]]

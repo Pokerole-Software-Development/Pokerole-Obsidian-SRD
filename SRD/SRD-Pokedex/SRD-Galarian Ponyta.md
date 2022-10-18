@@ -1,19 +1,36 @@
 ---
 Ability1: Run Away
 Ability2: Pastel Veil
+Baby: 'No'
+BookImageName: HOME077G.png
+BookShinyImageName: HOME077G_s.png
 BoxSprite: SRD-BoxSprite-ponyta-galar.png
+DexCategory: Unique Horn Pokemonn
+DexDescription: "The old magical forests of Galar made Ponytas adopt a mystic nature.\
+  \ Their miraculous horn can heal most wounds and sense the purity in your heart,\
+  \ if you hold evil, you\u2019ll never see this Pokemon in the wild."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Anticipation
 HomeSprite: SRD-HomeSprite-ponyta-galar.png
 Learnset: '[[SRD-Galarian Ponyta-Learnset]]'
 Legendary: 'No'
 Name: Galarian Ponyta
 Number: 77
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: ponyta-galar.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 240
+  Kilograms: 24.0
+  Pounds: 52.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-ponyta-galar.png|right]]
+
+*Unique Horn Pokemonn*
+*The old magical forests of Galar made Ponytas adopt a mystic nature. Their miraculous horn can heal most wounds and sense the purity in your heart, if you hold evil, you’ll never see this Pokemon in the wild.*
 
 **DexID**:: 0077G
 **Species**:: Galarian Ponyta
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 52.9lbs / 24.0kg
 
 ![[SRD-Galarian Ponyta-Learnset]]

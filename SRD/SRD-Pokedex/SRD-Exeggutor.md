@@ -1,19 +1,36 @@
 ---
 Ability1: Chlorophyll
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME103.png
+BookShinyImageName: HOME103_s.png
 BoxSprite: SRD-BoxSprite-exeggutor.png
+DexCategory: Coconut Pokemon
+DexDescription: Originally from tropical areas. Exeggutor's heads grow larger with
+  strong sunlight. Each head thinks independently. They are friendly and provide their
+  shade to other Pokemon.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 20
+  Feet: 6.6
+  Meters: 2.0
 HiddenAbility: Harvest
 HomeSprite: SRD-HomeSprite-exeggutor.png
 Learnset: '[[SRD-Exeggutor-Learnset]]'
 Legendary: 'No'
 Name: Exeggutor
 Number: 103
+PrimaryEggGroup: Grass
+SecondaryEggGroup: ''
 Sprite: exeggutor.png
 Type1: Grass
 Type2: Psychic
+Weight:
+  Hectograms: 1200
+  Kilograms: 120.0
+  Pounds: 264.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-exeggutor.png|right]]
+
+*Coconut Pokemon*
+*Originally from tropical areas. Exeggutor's heads grow larger with strong sunlight. Each head thinks independently. They are friendly and provide their shade to other Pokemon.*
 
 **DexID**:: 0103
 **Species**:: Exeggutor
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'6" / 2.0m
+**Weight**: 264.6lbs / 120.0kg
 
 ![[SRD-Exeggutor-Learnset]]

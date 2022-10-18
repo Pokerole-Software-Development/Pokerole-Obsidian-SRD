@@ -1,19 +1,36 @@
 ---
 Ability1: Healer
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME682.png
+BookShinyImageName: HOME682_s.png
 BoxSprite: SRD-BoxSprite-spritzee.png
+DexCategory: Perfume Pokemon
+DexDescription: In the past, rather than using a perfume, royal ladies had a Spritzee
+  that would waft a fragrance they liked. They are popular today for this same reason.
+  They are said to attract the opposite gender to you.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 2
+  Feet: 0.7
+  Meters: 0.2
 HiddenAbility: Aroma Veil
 HomeSprite: SRD-HomeSprite-spritzee.png
 Learnset: '[[SRD-Spritzee-Learnset]]'
 Legendary: 'No'
 Name: Spritzee
 Number: 682
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: ''
 Sprite: spritzee.png
 Type1: Fairy
 Type2: ''
+Weight:
+  Hectograms: 5
+  Kilograms: 0.5
+  Pounds: 1.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-spritzee.png|right]]
+
+*Perfume Pokemon*
+*In the past, rather than using a perfume, royal ladies had a Spritzee that would waft a fragrance they liked. They are popular today for this same reason. They are said to attract the opposite gender to you.*
 
 **DexID**:: 0682
 **Species**:: Spritzee
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 0'7" / 0.2m
+**Weight**: 1.1lbs / 0.5kg
 
 ![[SRD-Spritzee-Learnset]]

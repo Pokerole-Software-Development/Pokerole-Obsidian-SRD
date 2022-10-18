@@ -1,19 +1,36 @@
 ---
 Ability1: Stance Change
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME681B.png
+BookShinyImageName: HOME681B_s.png
 BoxSprite: SRD-BoxSprite-aegislash.png
+DexCategory: Royal Sword Pokemon
+DexDescription: Those who wield this sword hear whispers of bloodlust and power. This
+  cursed sword has the souls of those who fell by its blade. While in this form it
+  can only use Attack moves.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-aegislash.png
 Learnset: '[[SRD-Form Aegislash-Learnset]]'
 Legendary: 'No'
 Name: Form Aegislash
 Number: 681
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: aegislash.png
 Type1: Steel
 Type2: Ghost
+Weight:
+  Hectograms: 530
+  Kilograms: 53.0
+  Pounds: 116.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-aegislash.png|right]]
+
+*Royal Sword Pokemon*
+*Those who wield this sword hear whispers of bloodlust and power. This cursed sword has the souls of those who fell by its blade. While in this form it can only use Attack moves.*
 
 **DexID**:: 0681F1
 **Species**:: Form Aegislash
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 116.8lbs / 53.0kg
 
 ![[SRD-Form Aegislash-Learnset]]

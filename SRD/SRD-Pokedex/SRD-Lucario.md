@@ -1,19 +1,39 @@
 ---
 Ability1: Steadfast
 Ability2: Inner Focus
+Baby: 'No'
+BookImageName: HOME448.png
+BookShinyImageName: HOME448_s.png
 BoxSprite: SRD-BoxSprite-lucario.png
+DexCategory: Aura Pokemon
+DexDescription: This Pokemon is completely loyal to its trainer. It has the ability
+  to not only see the auras but also to transform them into energy. It is also capable
+  of understanding human speech.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Justified
 HomeSprite: SRD-HomeSprite-lucario.png
 Learnset: '[[SRD-Lucario-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Lucarionite
+  Name: Mega-Lucario
 Name: Lucario
 Number: 448
+PrimaryEggGroup: Field
+SecondaryEggGroup: Human-Like
 Sprite: lucario.png
 Type1: Fighting
 Type2: Steel
+Weight:
+  Hectograms: 540
+  Kilograms: 54.0
+  Pounds: 119.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-lucario.png|right]]
+
+*Aura Pokemon*
+*This Pokemon is completely loyal to its trainer. It has the ability to not only see the auras but also to transform them into energy. It is also capable of understanding human speech.*
 
 **DexID**:: 0448
 **Species**:: Lucario
@@ -41,5 +64,7 @@ Type2: Steel
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 119.0lbs / 54.0kg
 
 ![[SRD-Lucario-Learnset]]

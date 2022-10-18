@@ -1,19 +1,36 @@
 ---
 Ability1: Chlorophyll
 Ability2: Early Bird
+Baby: 'No'
+BookImageName: HOME274.png
+BookShinyImageName: HOME274_s.png
 BoxSprite: SRD-BoxSprite-nuzleaf.png
+DexCategory: Wily Pokemon
+DexDescription: "They live inside holes on big trees. Their leaves are played like\
+  \ flutes to strike fear and discomfort in lost people\u2019s hearts. They like to\
+  \ go out and startle people. Their noses are really sensitive and frail."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-nuzleaf.png
 Learnset: '[[SRD-Nuzleaf-Learnset]]'
 Legendary: 'No'
 Name: Nuzleaf
 Number: 274
+PrimaryEggGroup: Field
+SecondaryEggGroup: Grass
 Sprite: nuzleaf.png
 Type1: Grass
 Type2: Dark
+Weight:
+  Hectograms: 280
+  Kilograms: 28.0
+  Pounds: 61.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dark
 # `= this.name`
 
 ![[SRD-HomeSprite-nuzleaf.png|right]]
+
+*Wily Pokemon*
+*They live inside holes on big trees. Their leaves are played like flutes to strike fear and discomfort in lost people’s hearts. They like to go out and startle people. Their noses are really sensitive and frail.*
 
 **DexID**:: 0274
 **Species**:: Nuzleaf
@@ -41,5 +61,7 @@ Type2: Dark
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 61.7lbs / 28.0kg
 
 ![[SRD-Nuzleaf-Learnset]]

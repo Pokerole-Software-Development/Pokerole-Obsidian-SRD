@@ -1,19 +1,36 @@
 ---
 Ability1: Sheer Force
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME555.png
+BookShinyImageName: HOME555_s.png
 BoxSprite: SRD-BoxSprite-darmanitan.png
+DexCategory: Blazing Pokemon
+DexDescription: This Pokemon is shrouded in mystery as old writings and mural paintings
+  describe it as being blue and using psychic powers, but years of study have not
+  seen those traits on this Pokemon that relies on brute force.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Zen Mode
 HomeSprite: SRD-HomeSprite-darmanitan.png
 Learnset: '[[SRD-Darmanitan-Learnset]]'
 Legendary: 'No'
 Name: Darmanitan
 Number: 555
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: darmanitan.png
 Type1: Fire
 Type2: ''
+Weight:
+  Hectograms: 929
+  Kilograms: 92.9
+  Pounds: 204.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-darmanitan.png|right]]
+
+*Blazing Pokemon*
+*This Pokemon is shrouded in mystery as old writings and mural paintings describe it as being blue and using psychic powers, but years of study have not seen those traits on this Pokemon that relies on brute force.*
 
 **DexID**:: 0555
 **Species**:: Darmanitan
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 204.8lbs / 92.9kg
 
 ![[SRD-Darmanitan-Learnset]]

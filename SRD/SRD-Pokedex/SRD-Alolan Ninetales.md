@@ -1,19 +1,36 @@
 ---
 Ability1: Snow Cloak
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME038A.png
+BookShinyImageName: HOME038A_s.png
 BoxSprite: SRD-BoxSprite-ninetales-alola.png
+DexCategory: Fox Pokemon
+DexDescription: In old times, Alolan natives revered this Pokemon as a god incarnate.
+  It is usually calm and benevolent, but it can be ruthless when disturbed, leaving
+  its foes as a cold block of ice in the snow.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Snow Warning
 HomeSprite: SRD-HomeSprite-ninetales-alola.png
 Learnset: '[[SRD-Alolan Ninetales-Learnset]]'
 Legendary: 'No'
 Name: Alolan Ninetales
 Number: 38
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: ninetales-alola.png
 Type1: Ice
 Type2: ''
+Weight:
+  Hectograms: 199
+  Kilograms: 19.9
+  Pounds: 43.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-ninetales-alola.png|right]]
+
+*Fox Pokemon*
+*In old times, Alolan natives revered this Pokemon as a god incarnate. It is usually calm and benevolent, but it can be ruthless when disturbed, leaving its foes as a cold block of ice in the snow.*
 
 **DexID**:: 0038A
 **Species**:: Alolan Ninetales
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'6" / 1.1m
+**Weight**: 43.9lbs / 19.9kg
 
 ![[SRD-Alolan Ninetales-Learnset]]

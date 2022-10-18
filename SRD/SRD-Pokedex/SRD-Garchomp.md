@@ -1,19 +1,39 @@
 ---
 Ability1: Sand Veil
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME445.png
+BookShinyImageName: HOME445_s.png
 BoxSprite: SRD-BoxSprite-garchomp.png
+DexCategory: Mach Pokemon
+DexDescription: Garchomps are scarce in the wild and very dangerous. It folds its
+  arms and uses its fins to fly extremely fast at low heights. Territorial and aggressive
+  it will not rest until it catches any daring trespasser.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 19
+  Feet: 6.2
+  Meters: 1.9
 HiddenAbility: Rough Skin
 HomeSprite: SRD-HomeSprite-garchomp.png
 Learnset: '[[SRD-Garchomp-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Garchompite
+  Name: Mega-Garchomp
 Name: Garchomp
 Number: 445
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Dragon
 Sprite: garchomp.png
 Type1: Dragon
 Type2: Ground
+Weight:
+  Hectograms: 950
+  Kilograms: 95.0
+  Pounds: 209.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-garchomp.png|right]]
+
+*Mach Pokemon*
+*Garchomps are scarce in the wild and very dangerous. It folds its arms and uses its fins to fly extremely fast at low heights. Territorial and aggressive it will not rest until it catches any daring trespasser.*
 
 **DexID**:: 0445
 **Species**:: Garchomp
@@ -41,5 +64,7 @@ Type2: Ground
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'2" / 1.9m
+**Weight**: 209.4lbs / 95.0kg
 
 ![[SRD-Garchomp-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Static
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME026.png
+BookShinyImageName: HOME026_s.png
 BoxSprite: SRD-BoxSprite-raichu.png
+DexCategory: Mouse Pokemon
+DexDescription: When electricity builds on its body, it starts to emit a faint glow
+  and it becomes more aggressive than it normally is. They live in forests but are
+  rare to find in the wild.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-HomeSprite-raichu.png
 Learnset: '[[SRD-Raichu-Learnset]]'
 Legendary: 'No'
 Name: Raichu
 Number: 26
+PrimaryEggGroup: Field
+SecondaryEggGroup: Fairy
 Sprite: raichu.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 300
+  Kilograms: 30.0
+  Pounds: 66.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-raichu.png|right]]
+
+*Mouse Pokemon*
+*When electricity builds on its body, it starts to emit a faint glow and it becomes more aggressive than it normally is. They live in forests but are rare to find in the wild.*
 
 **DexID**:: 0026
 **Species**:: Raichu
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'6" / 0.8m
+**Weight**: 66.1lbs / 30.0kg
 
 ![[SRD-Raichu-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Sap Sipper
 Ability2: Hydration
+Baby: 'No'
+BookImageName: HOME705.png
+BookShinyImageName: HOME705_s.png
 BoxSprite: SRD-BoxSprite-sliggoo.png
+DexCategory: Soft Tissue Pokemon
+DexDescription: It drives away foes by releasing a sticky and corrosive liquid. Its
+  eyes devolved and it became blind, now it uses its four horns to sense sounds and
+  smells, rather than using its ears or nose.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Gooey
 HomeSprite: SRD-HomeSprite-sliggoo.png
 Learnset: '[[SRD-Sliggoo-Learnset]]'
 Legendary: 'No'
 Name: Sliggoo
 Number: 705
+PrimaryEggGroup: Dragon
+SecondaryEggGroup: ''
 Sprite: sliggoo.png
 Type1: Dragon
 Type2: ''
+Weight:
+  Hectograms: 175
+  Kilograms: 17.5
+  Pounds: 38.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-sliggoo.png|right]]
+
+*Soft Tissue Pokemon*
+*It drives away foes by releasing a sticky and corrosive liquid. Its eyes devolved and it became blind, now it uses its four horns to sense sounds and smells, rather than using its ears or nose.*
 
 **DexID**:: 0705
 **Species**:: Sliggoo
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 38.6lbs / 17.5kg
 
 ![[SRD-Sliggoo-Learnset]]

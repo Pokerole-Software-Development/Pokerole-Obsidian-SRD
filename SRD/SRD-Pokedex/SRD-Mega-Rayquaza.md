@@ -1,19 +1,36 @@
 ---
 Ability1: Delta Stream
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME384M.png
+BookShinyImageName: HOME384M_s.png
 BoxSprite: SRD-BoxSprite-rayquaza-mega.png
+DexCategory: No Data
+DexDescription: What does the power of the Mega Stone truly entail? Is it the bond
+  between a Trainer and their companion? Or is it all about taking a hold of a forbidden
+  power?
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 108
+  Feet: 35.4
+  Meters: 10.8
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-rayquaza-mega.png
 Learnset: '[[SRD-Mega-Rayquaza-Learnset]]'
 Legendary: 'Yes'
 Name: Mega-Rayquaza
 Number: 384
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: rayquaza-mega.png
 Type1: Dragon
 Type2: Flying
+Weight:
+  Hectograms: 3920
+  Kilograms: 392.0
+  Pounds: 864.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-rayquaza-mega.png|right]]
+
+*No Data*
+*What does the power of the Mega Stone truly entail? Is it the bond between a Trainer and their companion? Or is it all about taking a hold of a forbidden power?*
 
 **DexID**:: 0384M1
 **Species**:: Mega-Rayquaza
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 35'4" / 10.8m
+**Weight**: 864.2lbs / 392.0kg
 
 ![[SRD-Mega-Rayquaza-Learnset]]

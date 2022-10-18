@@ -1,19 +1,36 @@
 ---
 Ability1: Fur Coat
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME676.png
+BookShinyImageName: HOME676_s.png
 BoxSprite: SRD-BoxSprite-furfrou.png
+DexCategory: Poodle Pokemon
+DexDescription: Historically, these Pokemon were the designated guardians of the kings.
+  They are popular pets now and people love to trim their fur into exotic hairstyles.
+  But their protective nature has never been lost.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-furfrou.png
 Learnset: '[[SRD-Furfrou-Learnset]]'
 Legendary: 'No'
 Name: Furfrou
 Number: 676
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: furfrou.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 280
+  Kilograms: 28.0
+  Pounds: 61.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-furfrou.png|right]]
+
+*Poodle Pokemon*
+*Historically, these Pokemon were the designated guardians of the kings. They are popular pets now and people love to trim their fur into exotic hairstyles. But their protective nature has never been lost.*
 
 **DexID**:: 0676
 **Species**:: Furfrou
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 61.7lbs / 28.0kg
 
 ![[SRD-Furfrou-Learnset]]

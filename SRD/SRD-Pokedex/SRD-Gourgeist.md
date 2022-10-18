@@ -1,19 +1,36 @@
 ---
 Ability1: Pickup
 Ability2: Frisk
+Baby: 'No'
+BookImageName: HOME711.png
+BookShinyImageName: HOME711_s.png
 BoxSprite: SRD-BoxSprite-gourgeist.png
+DexCategory: Pumpkin Pokemon
+DexDescription: They wander in the town streets every new moon. It wraps its prey
+  on its arms and sings joyfully as it observes the suffering of the victim. Hearing
+  it sing will give you horrible nightmares.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Insomnia
 HomeSprite: SRD-HomeSprite-gourgeist.png
 Learnset: '[[SRD-Gourgeist-Learnset]]'
 Legendary: 'No'
 Name: Gourgeist
 Number: 711
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: gourgeist.png
 Type1: Ghost
 Type2: Grass
+Weight:
+  Hectograms: 125
+  Kilograms: 12.5
+  Pounds: 27.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Grass
 # `= this.name`
 
 ![[SRD-HomeSprite-gourgeist.png|right]]
+
+*Pumpkin Pokemon*
+*They wander in the town streets every new moon. It wraps its prey on its arms and sings joyfully as it observes the suffering of the victim. Hearing it sing will give you horrible nightmares.*
 
 **DexID**:: 0711
 **Species**:: Gourgeist
@@ -41,5 +61,7 @@ Type2: Grass
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'0" / 0.9m
+**Weight**: 27.6lbs / 12.5kg
 
 ![[SRD-Gourgeist-Learnset]]

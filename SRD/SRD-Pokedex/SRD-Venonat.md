@@ -1,19 +1,36 @@
 ---
 Ability1: Compound Eyes
 Ability2: Tinted Lens
+Baby: 'No'
+BookImageName: HOME048.png
+BookShinyImageName: HOME048_s.png
 BoxSprite: SRD-BoxSprite-venonat.png
+DexCategory: Insect Pokemon
+DexDescription: It lives in the holes of trees in dense forests and jungles. Its large
+  eyes never fail to spot even minuscule prey. Sometimes Venonat uses its powers to
+  confuse travelers and make them lose their way.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Run Away
 HomeSprite: SRD-HomeSprite-venonat.png
 Learnset: '[[SRD-Venonat-Learnset]]'
 Legendary: 'No'
 Name: Venonat
 Number: 48
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: venonat.png
 Type1: Bug
 Type2: Poison
+Weight:
+  Hectograms: 300
+  Kilograms: 30.0
+  Pounds: 66.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-venonat.png|right]]
+
+*Insect Pokemon*
+*It lives in the holes of trees in dense forests and jungles. Its large eyes never fail to spot even minuscule prey. Sometimes Venonat uses its powers to confuse travelers and make them lose their way.*
 
 **DexID**:: 0048
 **Species**:: Venonat
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 66.1lbs / 30.0kg
 
 ![[SRD-Venonat-Learnset]]

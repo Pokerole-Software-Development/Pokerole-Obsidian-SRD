@@ -1,19 +1,36 @@
 ---
 Ability1: Clear Body
 Ability2: Infiltrator
+Baby: 'No'
+BookImageName: HOME887.png
+BookShinyImageName: HOME887_s.png
 BoxSprite: SRD-BoxSprite-dragapult.png
+DexCategory: Stealth Pokemon
+DexDescription: "When it isn\u2019t battling, it keeps Dreepy in the holes on its\
+  \ horns. Once a fight starts, it launches the Dreepy like supersonic missiles. The\
+  \ smaller Pokemon appear happy to be shot and will reload themselves."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 30
+  Feet: 9.8
+  Meters: 3.0
 HiddenAbility: Cursed Body
 HomeSprite: SRD-HomeSprite-dragapult.png
 Learnset: '[[SRD-Dragapult-Learnset]]'
 Legendary: 'No'
 Name: Dragapult
 Number: 887
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: Dragon
 Sprite: dragapult.png
 Type1: Dragon
 Type2: Ghost
+Weight:
+  Hectograms: 500
+  Kilograms: 50.0
+  Pounds: 110.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-dragapult.png|right]]
+
+*Stealth Pokemon*
+*When it isn’t battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles. The smaller Pokemon appear happy to be shot and will reload themselves.*
 
 **DexID**:: 0887
 **Species**:: Dragapult
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 9'8" / 3.0m
+**Weight**: 110.2lbs / 50.0kg
 
 ![[SRD-Dragapult-Learnset]]

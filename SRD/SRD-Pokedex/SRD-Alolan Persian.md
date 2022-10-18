@@ -1,19 +1,36 @@
 ---
 Ability1: Fur Coat
 Ability2: Technician
+Baby: 'No'
+BookImageName: HOME053A.png
+BookShinyImageName: HOME053A_s.png
 BoxSprite: SRD-BoxSprite-persian-alola.png
+DexCategory: Classy Cat Pokemon
+DexDescription: "They were bred for their silky fur and round faces, not for their\
+  \ temperament. This is an extremely proud Pokemon who will look down to anyone but\
+  \ itself, despite this, it\u2019s very popular among Alola\u2019s elite."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-persian-alola.png
 Learnset: '[[SRD-Alolan Persian-Learnset]]'
 Legendary: 'No'
 Name: Alolan Persian
 Number: 53
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: persian-alola.png
 Type1: Dark
 Type2: ''
+Weight:
+  Hectograms: 330
+  Kilograms: 33.0
+  Pounds: 72.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-persian-alola.png|right]]
+
+*Classy Cat Pokemon*
+*They were bred for their silky fur and round faces, not for their temperament. This is an extremely proud Pokemon who will look down to anyone but itself, despite this, it’s very popular among Alola’s elite.*
 
 **DexID**:: 0053A
 **Species**:: Alolan Persian
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'6" / 1.1m
+**Weight**: 72.8lbs / 33.0kg
 
 ![[SRD-Alolan Persian-Learnset]]

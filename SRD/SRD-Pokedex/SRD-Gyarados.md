@@ -1,19 +1,39 @@
 ---
 Ability1: Intimidate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME130.png
+BookShinyImageName: HOME130_s.png
 BoxSprite: SRD-BoxSprite-gyarados.png
+DexCategory: Atrocious Pokemon
+DexDescription: "It\u2019s rarely seen in the wild. This huge and vicious Pokemon\
+  \ is known for the destruction it leaves in its wake. In ancient literature, there\
+  \ is a record of a Gyarados that razed a village when violence flared."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 65
+  Feet: 21.3
+  Meters: 6.5
 HiddenAbility: Moxie
 HomeSprite: SRD-HomeSprite-gyarados.png
 Learnset: '[[SRD-Gyarados-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Gyaradosite
+  Name: Mega-Gyarados
 Name: Gyarados
 Number: 130
+PrimaryEggGroup: Water 2
+SecondaryEggGroup: Dragon
 Sprite: gyarados.png
 Type1: Water
 Type2: Flying
+Weight:
+  Hectograms: 2350
+  Kilograms: 235.0
+  Pounds: 518.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-gyarados.png|right]]
+
+*Atrocious Pokemon*
+*It’s rarely seen in the wild. This huge and vicious Pokemon is known for the destruction it leaves in its wake. In ancient literature, there is a record of a Gyarados that razed a village when violence flared.*
 
 **DexID**:: 0130
 **Species**:: Gyarados
@@ -41,5 +64,7 @@ Type2: Flying
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 21'3" / 6.5m
+**Weight**: 518.1lbs / 235.0kg
 
 ![[SRD-Gyarados-Learnset]]

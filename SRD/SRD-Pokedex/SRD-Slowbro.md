@@ -1,19 +1,39 @@
 ---
 Ability1: Oblivious
 Ability2: Own Tempo
+Baby: 'No'
+BookImageName: HOME080.png
+BookShinyImageName: HOME080_s.png
 BoxSprite: SRD-BoxSprite-slowbro.png
+DexCategory: Hermit Crab Pokemon
+DexDescription: "This Pokemon fused with a Shellder that bit into its tail. It\u2019\
+  s a slow swimmer and doesn\u2019t react to pain but Shellder tends to keep it out\
+  \ of trouble."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-slowbro.png
 Learnset: '[[SRD-Slowbro-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Slowbronite
+  Name: Mega-Slowbro
 Name: Slowbro
 Number: 80
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Water 1
 Sprite: slowbro.png
 Type1: Water
 Type2: Psychic
+Weight:
+  Hectograms: 785
+  Kilograms: 78.5
+  Pounds: 173.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-slowbro.png|right]]
+
+*Hermit Crab Pokemon*
+*This Pokemon fused with a Shellder that bit into its tail. It’s a slow swimmer and doesn’t react to pain but Shellder tends to keep it out of trouble.*
 
 **DexID**:: 0080
 **Species**:: Slowbro
@@ -41,5 +64,7 @@ Type2: Psychic
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 173.1lbs / 78.5kg
 
 ![[SRD-Slowbro-Learnset]]

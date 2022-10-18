@@ -1,19 +1,36 @@
 ---
 Ability1: Tough Claws
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME745D.png
+BookShinyImageName: HOME745D_s.png
 BoxSprite: SRD-BoxSprite-lycanroc-dusk.png
+DexCategory: Wolf Pokemon
+DexDescription: An independent but loyal Rockruff will evolve at dusk. This evolved
+  for is very hard to achieve. An intense fighting spirit lies underneath its calm
+  exterior. Prone to act on its own.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-lycanroc-dusk.png
 Learnset: '[[SRD-Lycanroc Dusk-Learnset]]'
 Legendary: 'No'
 Name: Lycanroc Dusk
 Number: 745
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: lycanroc-dusk.png
 Type1: Rock
 Type2: ''
+Weight:
+  Hectograms: 250
+  Kilograms: 25.0
+  Pounds: 55.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-lycanroc-dusk.png|right]]
+
+*Wolf Pokemon*
+*An independent but loyal Rockruff will evolve at dusk. This evolved for is very hard to achieve. An intense fighting spirit lies underneath its calm exterior. Prone to act on its own.*
 
 **DexID**:: 0745F2
 **Species**:: Lycanroc Dusk
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'6" / 0.8m
+**Weight**: 55.1lbs / 25.0kg
 
 ![[SRD-Lycanroc Dusk-Learnset]]

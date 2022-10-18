@@ -1,19 +1,36 @@
 ---
 Ability1: Torrent
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME658A.png
+BookShinyImageName: HOME658A_s.png
 BoxSprite: SRD-BoxSprite-greninja.png
+DexCategory: Ninja Pokemon
+DexDescription: "The mysteries of the Pokemon world are vast. There is something called\
+  \ \u201CThe Bond Phenomenon\u201D were a Pokemon and its trainer share a connection\
+  \ so strong that the Pokemon changes due to it."
 EventAbilities: Battle Bond
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Protean
 HomeSprite: SRD-HomeSprite-greninja.png
 Learnset: '[[SRD-BBF Greninja-Learnset]]'
 Legendary: 'No'
 Name: BBF Greninja
 Number: 658
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: ''
 Sprite: greninja.png
 Type1: Water
 Type2: Dark
+Weight:
+  Hectograms: 400
+  Kilograms: 40.0
+  Pounds: 88.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dark
 # `= this.name`
 
 ![[SRD-HomeSprite-greninja.png|right]]
+
+*Ninja Pokemon*
+*The mysteries of the Pokemon world are vast. There is something called “The Bond Phenomenon” were a Pokemon and its trainer share a connection so strong that the Pokemon changes due to it.*
 
 **DexID**:: 0658F
 **Species**:: BBF Greninja
@@ -41,5 +61,7 @@ Type2: Dark
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 88.2lbs / 40.0kg
 
 ![[SRD-BBF Greninja-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Blaze
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME157.png
+BookShinyImageName: HOME157_s.png
 BoxSprite: SRD-BoxSprite-typhlosion.png
+DexCategory: Volcano Pokemon
+DexDescription: Very rare to see in the wild. It hides behind a shimmering heat haze
+  created using its fire. Typhlosion can create eruptions and explosive blasts that
+  can burn everything to the ground.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: Flash Fire
 HomeSprite: SRD-HomeSprite-typhlosion.png
 Learnset: '[[SRD-Typhlosion-Learnset]]'
 Legendary: 'No'
 Name: Typhlosion
 Number: 157
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: typhlosion.png
 Type1: Fire
 Type2: ''
+Weight:
+  Hectograms: 795
+  Kilograms: 79.5
+  Pounds: 175.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-typhlosion.png|right]]
+
+*Volcano Pokemon*
+*Very rare to see in the wild. It hides behind a shimmering heat haze created using its fire. Typhlosion can create eruptions and explosive blasts that can burn everything to the ground.*
 
 **DexID**:: 0157
 **Species**:: Typhlosion
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 175.3lbs / 79.5kg
 
 ![[SRD-Typhlosion-Learnset]]

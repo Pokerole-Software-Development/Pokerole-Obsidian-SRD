@@ -1,19 +1,36 @@
 ---
 Ability1: Synchronize
 Ability2: Inner Focus
+Baby: 'No'
+BookImageName: HOME063.png
+BookShinyImageName: HOME063_s.png
 BoxSprite: SRD-BoxSprite-abra.png
+DexCategory: Psi Pokemon
+DexDescription: "They are attracted to the cities and tend to live close to humans.\
+  \ Its Psychic abilities are still developing, it can sleep up to 18 hours a day\
+  \ or else it won\u2019t be able to use them. When in danger, it teleports away."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Magic Guard
 HomeSprite: SRD-HomeSprite-abra.png
 Learnset: '[[SRD-Abra-Learnset]]'
 Legendary: 'No'
 Name: Abra
 Number: 63
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: abra.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 195
+  Kilograms: 19.5
+  Pounds: 43.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-abra.png|right]]
+
+*Psi Pokemon*
+*They are attracted to the cities and tend to live close to humans. Its Psychic abilities are still developing, it can sleep up to 18 hours a day or else it won’t be able to use them. When in danger, it teleports away.*
 
 **DexID**:: 0063
 **Species**:: Abra
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'0" / 0.9m
+**Weight**: 43.0lbs / 19.5kg
 
 ![[SRD-Abra-Learnset]]

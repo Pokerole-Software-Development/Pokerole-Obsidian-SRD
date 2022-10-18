@@ -1,19 +1,36 @@
 ---
 Ability1: Battle Armor
 Ability2: Tough Claws
+Baby: 'No'
+BookImageName: HOME863.png
+BookShinyImageName: HOME863_s.png
 BoxSprite: SRD-BoxSprite-perrserker.png
+DexCategory: Viking Pokemon
+DexDescription: What appears to be an iron helmet is actually hardened hair. Unlike
+  other Meowth evolutions, Perrserker does not want riches and luxury, it enjoys battles,
+  the outdoors and traveling though the sea.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Steely Spirit
 HomeSprite: SRD-HomeSprite-perrserker.png
 Learnset: '[[SRD-Perrserker-Learnset]]'
 Legendary: 'No'
 Name: Perrserker
 Number: 863
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: perrserker.png
 Type1: Steel
 Type2: ''
+Weight:
+  Hectograms: 280
+  Kilograms: 28.0
+  Pounds: 61.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-perrserker.png|right]]
+
+*Viking Pokemon*
+*What appears to be an iron helmet is actually hardened hair. Unlike other Meowth evolutions, Perrserker does not want riches and luxury, it enjoys battles, the outdoors and traveling though the sea.*
 
 **DexID**:: 0863
 **Species**:: Perrserker
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'6" / 0.8m
+**Weight**: 61.7lbs / 28.0kg
 
 ![[SRD-Perrserker-Learnset]]

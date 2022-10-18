@@ -1,19 +1,35 @@
 ---
 Ability1: Blaze
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME156.png
+BookShinyImageName: HOME156_s.png
 BoxSprite: SRD-BoxSprite-quilava.png
+DexCategory: Volcano Pokemon
+DexDescription: It intimidates foes with intense gusts of flames and superheated air.
+  Beware if a Quilava turns its back on you, it is planing on using a fire move.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Flash Fire
 HomeSprite: SRD-HomeSprite-quilava.png
 Learnset: '[[SRD-Quilava-Learnset]]'
 Legendary: 'No'
 Name: Quilava
 Number: 156
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: quilava.png
 Type1: Fire
 Type2: ''
+Weight:
+  Hectograms: 190
+  Kilograms: 19.0
+  Pounds: 41.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-quilava.png|right]]
+
+*Volcano Pokemon*
+*It intimidates foes with intense gusts of flames and superheated air. Beware if a Quilava turns its back on you, it is planing on using a fire move.*
 
 **DexID**:: 0156
 **Species**:: Quilava
@@ -41,5 +60,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'0" / 0.9m
+**Weight**: 41.9lbs / 19.0kg
 
 ![[SRD-Quilava-Learnset]]

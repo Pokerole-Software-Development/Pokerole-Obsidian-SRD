@@ -1,19 +1,36 @@
 ---
 Ability1: Swift Swim
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME370.png
+BookShinyImageName: HOME370_s.png
 BoxSprite: SRD-BoxSprite-luvdisc.png
+DexCategory: Rendezvous Pokemon
+DexDescription: Luvdisc is a symbol of romance. It lives in shallow seas, swimming
+  after couples, bringing them closer and promising eternal love. During their spawning
+  season, the waters around them turn pink.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Hydration
 HomeSprite: SRD-HomeSprite-luvdisc.png
 Learnset: '[[SRD-Luvdisc-Learnset]]'
 Legendary: 'No'
 Name: Luvdisc
 Number: 370
+PrimaryEggGroup: Water 2
+SecondaryEggGroup: ''
 Sprite: luvdisc.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 87
+  Kilograms: 8.7
+  Pounds: 19.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-luvdisc.png|right]]
+
+*Rendezvous Pokemon*
+*Luvdisc is a symbol of romance. It lives in shallow seas, swimming after couples, bringing them closer and promising eternal love. During their spawning season, the waters around them turn pink.*
 
 **DexID**:: 0370
 **Species**:: Luvdisc
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'0" / 0.6m
+**Weight**: 19.2lbs / 8.7kg
 
 ![[SRD-Luvdisc-Learnset]]

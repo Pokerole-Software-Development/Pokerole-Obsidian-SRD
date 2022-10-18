@@ -1,19 +1,34 @@
 ---
 Ability1: Gluttony
 Ability2: Own Tempo
+Baby: 'No'
+BookImageName: HOME079G.png
+BookShinyImageName: HOME079G_s.png
 BoxSprite: SRD-BoxSprite-slowpoke-galar.png
+DexCategory: ''
+DexDescription: ''
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-slowpoke-galar.png
 Learnset: '[[SRD-Galarian Slowpoke (provisional)-Learnset]]'
 Legendary: 'No'
 Name: Galarian Slowpoke (provisional)
 Number: 79
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Water 1
 Sprite: slowpoke-galar.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 360
+  Kilograms: 36.0
+  Pounds: 79.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +36,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-slowpoke-galar.png|right]]
+
+**
+**
 
 **DexID**:: 0079G
 **Species**:: Galarian Slowpoke (provisional)
@@ -41,5 +59,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'9" / 1.2m
+**Weight**: 79.4lbs / 36.0kg
 
 ![[SRD-Galarian Slowpoke (provisional)-Learnset]]

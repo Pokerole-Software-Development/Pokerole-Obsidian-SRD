@@ -1,19 +1,36 @@
 ---
 Ability1: Overgrow
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME723.png
+BookShinyImageName: HOME723_s.png
 BoxSprite: SRD-BoxSprite-dartrix.png
+DexCategory: Blade Quill Pokemon
+DexDescription: Dartix are vain creatures, they dislike it when their feathers are
+  ruffled, even stopping midfight to groom them. Despite its elegant demeanor it hides
+  an awkward personality, prone to panic and clumsiness.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Long Reach
 HomeSprite: SRD-HomeSprite-dartrix.png
 Learnset: '[[SRD-Dartrix-Learnset]]'
 Legendary: 'No'
 Name: Dartrix
 Number: 723
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: dartrix.png
 Type1: Grass
 Type2: Flying
+Weight:
+  Hectograms: 160
+  Kilograms: 16.0
+  Pounds: 35.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-dartrix.png|right]]
+
+*Blade Quill Pokemon*
+*Dartix are vain creatures, they dislike it when their feathers are ruffled, even stopping midfight to groom them. Despite its elegant demeanor it hides an awkward personality, prone to panic and clumsiness.*
 
 **DexID**:: 0723
 **Species**:: Dartrix
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 35.3lbs / 16.0kg
 
 ![[SRD-Dartrix-Learnset]]

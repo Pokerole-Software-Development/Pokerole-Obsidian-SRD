@@ -1,19 +1,36 @@
 ---
 Ability1: Rivalry
 Ability2: Intimidate
+Baby: 'No'
+BookImageName: HOME404.png
+BookShinyImageName: HOME404_s.png
 BoxSprite: SRD-BoxSprite-luxio.png
+DexCategory: Spark Pokemon
+DexDescription: Female Luxios stay with the pride but males roam in marauding groups,
+  trying to become strong enough to make their own pride. Its claws and teeth are
+  charged with electricity, approach with caution.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Guts
 HomeSprite: SRD-HomeSprite-luxio.png
 Learnset: '[[SRD-Luxio-Learnset]]'
 Legendary: 'No'
 Name: Luxio
 Number: 404
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: luxio.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 305
+  Kilograms: 30.5
+  Pounds: 67.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-luxio.png|right]]
+
+*Spark Pokemon*
+*Female Luxios stay with the pride but males roam in marauding groups, trying to become strong enough to make their own pride. Its claws and teeth are charged with electricity, approach with caution.*
 
 **DexID**:: 0404
 **Species**:: Luxio
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'0" / 0.9m
+**Weight**: 67.2lbs / 30.5kg
 
 ![[SRD-Luxio-Learnset]]

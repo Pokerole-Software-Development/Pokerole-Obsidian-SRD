@@ -1,19 +1,36 @@
 ---
 Ability1: Insomnia
 Ability2: Super Luck
+Baby: 'No'
+BookImageName: HOME198.png
+BookShinyImageName: HOME198_s.png
 BoxSprite: SRD-BoxSprite-murkrow.png
+DexCategory: Darkness Pokemon
+DexDescription: Murkrows are feared and loathed as the alleged bearers of ill fortune.
+  This Pokemon will steal anything that sparkles. They are infamous for luring people
+  and get them lost in the mountains.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Prankster
 HomeSprite: SRD-HomeSprite-murkrow.png
 Learnset: '[[SRD-Murkrow-Learnset]]'
 Legendary: 'No'
 Name: Murkrow
 Number: 198
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: murkrow.png
 Type1: Dark
 Type2: Flying
+Weight:
+  Hectograms: 21
+  Kilograms: 2.1
+  Pounds: 4.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-murkrow.png|right]]
+
+*Darkness Pokemon*
+*Murkrows are feared and loathed as the alleged bearers of ill fortune. This Pokemon will steal anything that sparkles. They are infamous for luring people and get them lost in the mountains.*
 
 **DexID**:: 0198
 **Species**:: Murkrow
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 4.6lbs / 2.1kg
 
 ![[SRD-Murkrow-Learnset]]

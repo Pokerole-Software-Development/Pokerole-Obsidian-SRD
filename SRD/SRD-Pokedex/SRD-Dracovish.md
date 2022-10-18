@@ -1,19 +1,36 @@
 ---
 Ability1: Water Absorb
 Ability2: Strong Jaw
+Baby: 'No'
+BookImageName: HOME882.png
+BookShinyImageName: HOME882_s.png
 BoxSprite: SRD-BoxSprite-dracovish.png
+DexCategory: Fossil Pokemon
+DexDescription: "The DNA of two apex predators combined. It can run at incredibly\
+  \ high speeds and tear almost anything with its sharp teeth. Sadly, this Pokemon\
+  \ can only breathe underwater and it\u2019s a lousy swimmer."
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 23
+  Feet: 7.5
+  Meters: 2.3
 HiddenAbility: Sand Rush
 HomeSprite: SRD-HomeSprite-dracovish.png
 Learnset: '[[SRD-Dracovish-Learnset]]'
 Legendary: 'No'
 Name: Dracovish
 Number: 882
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: dracovish.png
 Type1: Water
 Type2: Dragon
+Weight:
+  Hectograms: 2150
+  Kilograms: 215.0
+  Pounds: 474.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-dracovish.png|right]]
+
+*Fossil Pokemon*
+*The DNA of two apex predators combined. It can run at incredibly high speeds and tear almost anything with its sharp teeth. Sadly, this Pokemon can only breathe underwater and it’s a lousy swimmer.*
 
 **DexID**:: 0882
 **Species**:: Dracovish
@@ -41,5 +61,7 @@ Type2: Dragon
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 7'5" / 2.3m
+**Weight**: 474.0lbs / 215.0kg
 
 ![[SRD-Dracovish-Learnset]]

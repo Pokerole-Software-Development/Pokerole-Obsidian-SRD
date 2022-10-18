@@ -1,19 +1,36 @@
 ---
 Ability1: Run Away
 Ability2: Klutz
+Baby: 'No'
+BookImageName: HOME427.png
+BookShinyImageName: HOME427_s.png
 BoxSprite: SRD-BoxSprite-buneary.png
+DexCategory: Rabbit Pokemon
+DexDescription: Lives in forest, grasslands and even snowy mountains. It forms burrows
+  and uses its soft fur to make nests and keep warm. You can see how it feels for
+  the position of its ears. They are easily scared by humans.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Limber
 HomeSprite: SRD-HomeSprite-buneary.png
 Learnset: '[[SRD-Buneary-Learnset]]'
 Legendary: 'No'
 Name: Buneary
 Number: 427
+PrimaryEggGroup: Field
+SecondaryEggGroup: Human-Like
 Sprite: buneary.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 55
+  Kilograms: 5.5
+  Pounds: 12.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-buneary.png|right]]
+
+*Rabbit Pokemon*
+*Lives in forest, grasslands and even snowy mountains. It forms burrows and uses its soft fur to make nests and keep warm. You can see how it feels for the position of its ears. They are easily scared by humans.*
 
 **DexID**:: 0427
 **Species**:: Buneary
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 12.1lbs / 5.5kg
 
 ![[SRD-Buneary-Learnset]]

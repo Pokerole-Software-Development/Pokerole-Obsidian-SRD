@@ -1,19 +1,36 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME799.png
+BookShinyImageName: HOME799_s.png
 BoxSprite: SRD-BoxSprite-guzzlord.png
+DexCategory: 'Aether Foundation Log #074'
+DexDescription: One disaster after another. This time we lost an entire facility,
+  UB-05 is a monster, there is no other way to call it, it swallowed documents, vehicles
+  and even an entire building, there is no end to its hunger.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 55
+  Feet: 18.0
+  Meters: 5.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-guzzlord.png
 Learnset: '[[SRD-Guzzlord-Learnset]]'
 Legendary: 'Yes'
 Name: Guzzlord
 Number: 799
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: guzzlord.png
 Type1: Dark
 Type2: Dragon
+Weight:
+  Hectograms: 8880
+  Kilograms: 888.0
+  Pounds: 1957.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-guzzlord.png|right]]
+
+*Aether Foundation Log #074*
+*One disaster after another. This time we lost an entire facility, UB-05 is a monster, there is no other way to call it, it swallowed documents, vehicles and even an entire building, there is no end to its hunger.*
 
 **DexID**:: 0799
 **Species**:: Guzzlord
@@ -41,5 +61,7 @@ Type2: Dragon
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 18'0" / 5.5m
+**Weight**: 1957.7lbs / 888.0kg
 
 ![[SRD-Guzzlord-Learnset]]

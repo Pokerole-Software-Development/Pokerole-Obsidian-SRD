@@ -1,19 +1,36 @@
 ---
 Ability1: Pickup
 Ability2: Gluttony
+Baby: 'No'
+BookImageName: HOME264.png
+BookShinyImageName: HOME264_s.png
 BoxSprite: SRD-BoxSprite-linoone.png
+DexCategory: Rushing Pokemon
+DexDescription: Linoones are always running at full speed, but they can only do so
+  in straight lines. They find it very difficult to deal with a curved road. They
+  excel at hunting but tend to eat a lot to recover from their tiring runs.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Quick Feet
 HomeSprite: SRD-HomeSprite-linoone.png
 Learnset: '[[SRD-Linoone-Learnset]]'
 Legendary: 'No'
 Name: Linoone
 Number: 264
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: linoone.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 325
+  Kilograms: 32.5
+  Pounds: 71.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-linoone.png|right]]
+
+*Rushing Pokemon*
+*Linoones are always running at full speed, but they can only do so in straight lines. They find it very difficult to deal with a curved road. They excel at hunting but tend to eat a lot to recover from their tiring runs.*
 
 **DexID**:: 0264
 **Species**:: Linoone
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'6" / 0.5m
+**Weight**: 71.7lbs / 32.5kg
 
 ![[SRD-Linoone-Learnset]]

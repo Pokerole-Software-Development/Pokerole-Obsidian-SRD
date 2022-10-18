@@ -1,19 +1,36 @@
 ---
 Ability1: Snow Cloak
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME028A.png
+BookShinyImageName: HOME028A_s.png
 BoxSprite: SRD-BoxSprite-sandslash-alola.png
+DexCategory: Mouse Pokemon
+DexDescription: "These Pokemon make their burrows on Alola's ice caverns, hidden in\
+  \ plain sight. Careful with its spikes, any puncture into the skin and you can get\
+  \ severe frostbite. They can\u2019t stand high temperatures."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Slush Rush
 HomeSprite: SRD-HomeSprite-sandslash-alola.png
 Learnset: '[[SRD-Alolan Sandslash-Learnset]]'
 Legendary: 'No'
 Name: Alolan Sandslash
 Number: 28
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: sandslash-alola.png
 Type1: Ice
 Type2: Steel
+Weight:
+  Hectograms: 550
+  Kilograms: 55.0
+  Pounds: 121.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-sandslash-alola.png|right]]
+
+*Mouse Pokemon*
+*These Pokemon make their burrows on Alola's ice caverns, hidden in plain sight. Careful with its spikes, any puncture into the skin and you can get severe frostbite. They can’t stand high temperatures.*
 
 **DexID**:: 0028A
 **Species**:: Alolan Sandslash
@@ -41,5 +61,7 @@ Type2: Steel
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 121.3lbs / 55.0kg
 
 ![[SRD-Alolan Sandslash-Learnset]]

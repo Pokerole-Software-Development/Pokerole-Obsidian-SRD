@@ -1,19 +1,37 @@
 ---
 Ability1: Schooling
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME746Sc.png
+BookShinyImageName: HOME746Sc_s.png
 BoxSprite: SRD-BoxSprite-wishiwashi.png
+DexCategory: Small Fry Pokemon
+DexDescription: "A school of Wishiwashi is the demon of the sea. Even Gyarados flee\
+  \ in terror when one approaches. Since it is formed by lots of members, it\u2019\
+  s impossible to control. They disband after the threat is \u201Cneutralized\u201D\
+  ."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 82
+  Feet: 26.9
+  Meters: 8.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-wishiwashi.png
 Learnset: '[[SRD-Wishiwashi Swarm-Learnset]]'
 Legendary: 'No'
 Name: Wishiwashi Swarm
 Number: 746
+PrimaryEggGroup: Water 2
+SecondaryEggGroup: ''
 Sprite: wishiwashi.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 786
+  Kilograms: 78.6
+  Pounds: 173.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +39,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-wishiwashi.png|right]]
+
+*Small Fry Pokemon*
+*A school of Wishiwashi is the demon of the sea. Even Gyarados flee in terror when one approaches. Since it is formed by lots of members, it’s impossible to control. They disband after the threat is “neutralized”.*
 
 **DexID**:: 0746F1
 **Species**:: Wishiwashi Swarm
@@ -41,5 +62,7 @@ Type2: ''
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 26'9" / 8.2m
+**Weight**: 173.3lbs / 78.6kg
 
 ![[SRD-Wishiwashi Swarm-Learnset]]

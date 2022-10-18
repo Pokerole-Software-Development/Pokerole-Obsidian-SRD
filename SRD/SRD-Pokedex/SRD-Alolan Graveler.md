@@ -1,19 +1,36 @@
 ---
 Ability1: Magnet Pull
 Ability2: Sturdy
+Baby: 'No'
+BookImageName: HOME075A.png
+BookShinyImageName: HOME075A_s.png
 BoxSprite: SRD-BoxSprite-graveler-alola.png
+DexCategory: Rock Pokemon
+DexDescription: These Pokemon charge themselves by rolling around, it is dangerous
+  if two of them collide, a loud noise and a flash of light will be seen and heard
+  at great distance. They feed on golden dravite.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Galvanize
 HomeSprite: SRD-HomeSprite-graveler-alola.png
 Learnset: '[[SRD-Alolan Graveler-Learnset]]'
 Legendary: 'No'
 Name: Alolan Graveler
 Number: 75
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: graveler-alola.png
 Type1: Rock
 Type2: Electric
+Weight:
+  Hectograms: 1100
+  Kilograms: 110.0
+  Pounds: 242.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Electric
 # `= this.name`
 
 ![[SRD-HomeSprite-graveler-alola.png|right]]
+
+*Rock Pokemon*
+*These Pokemon charge themselves by rolling around, it is dangerous if two of them collide, a loud noise and a flash of light will be seen and heard at great distance. They feed on golden dravite.*
 
 **DexID**:: 0075A
 **Species**:: Alolan Graveler
@@ -41,5 +61,7 @@ Type2: Electric
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 242.5lbs / 110.0kg
 
 ![[SRD-Alolan Graveler-Learnset]]

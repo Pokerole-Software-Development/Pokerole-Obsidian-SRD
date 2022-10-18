@@ -1,19 +1,36 @@
 ---
 Ability1: Hustle
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME633.png
+BookShinyImageName: HOME633_s.png
 BoxSprite: SRD-BoxSprite-deino.png
+DexCategory: Irate Pokemon
+DexDescription: This Pokemon is blind, It bites all it finds to be aware of its surroundings.
+  It constantly bumps into things and attacks anything close to it. Their bodies are
+  covered in wounds and they are very aggressive.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-deino.png
 Learnset: '[[SRD-Deino-Learnset]]'
 Legendary: 'No'
 Name: Deino
 Number: 633
+PrimaryEggGroup: Dragon
+SecondaryEggGroup: ''
 Sprite: deino.png
 Type1: Dark
 Type2: Dragon
+Weight:
+  Hectograms: 173
+  Kilograms: 17.3
+  Pounds: 38.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-deino.png|right]]
+
+*Irate Pokemon*
+*This Pokemon is blind, It bites all it finds to be aware of its surroundings. It constantly bumps into things and attacks anything close to it. Their bodies are covered in wounds and they are very aggressive.*
 
 **DexID**:: 0633
 **Species**:: Deino
@@ -41,5 +61,7 @@ Type2: Dragon
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 38.1lbs / 17.3kg
 
 ![[SRD-Deino-Learnset]]

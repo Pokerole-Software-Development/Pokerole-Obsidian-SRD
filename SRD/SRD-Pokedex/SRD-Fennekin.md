@@ -1,19 +1,36 @@
 ---
 Ability1: Blaze
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME653.png
+BookShinyImageName: HOME653_s.png
 BoxSprite: SRD-BoxSprite-fennekin.png
+DexCategory: Fox Pokemon
+DexDescription: This small and elusive Pokemon intimidates opponents by puffing hot
+  air out of its ears. It likes to keep twigs and sticks nearby to munch them instead
+  of snacks. They make good pets but they are pretty rare.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Magician
 HomeSprite: SRD-HomeSprite-fennekin.png
 Learnset: '[[SRD-Fennekin-Learnset]]'
 Legendary: 'No'
 Name: Fennekin
 Number: 653
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: fennekin.png
 Type1: Fire
 Type2: ''
+Weight:
+  Hectograms: 94
+  Kilograms: 9.4
+  Pounds: 20.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-fennekin.png|right]]
+
+*Fox Pokemon*
+*This small and elusive Pokemon intimidates opponents by puffing hot air out of its ears. It likes to keep twigs and sticks nearby to munch them instead of snacks. They make good pets but they are pretty rare.*
 
 **DexID**:: 0653
 **Species**:: Fennekin
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 20.7lbs / 9.4kg
 
 ![[SRD-Fennekin-Learnset]]

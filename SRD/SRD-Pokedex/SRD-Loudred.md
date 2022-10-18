@@ -1,19 +1,36 @@
 ---
 Ability1: Soundproof
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME294.png
+BookShinyImageName: HOME294_s.png
 BoxSprite: SRD-BoxSprite-loudred.png
+DexCategory: Big Voice Pokemon
+DexDescription: Their ears work as loudspeakers capable of breaking glass or even
+  blowing apart a wooden house. When it finishes shouting, even they are deafened
+  for a while. They have noisy competitions in their packs.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Scrappy
 HomeSprite: SRD-HomeSprite-loudred.png
 Learnset: '[[SRD-Loudred-Learnset]]'
 Legendary: 'No'
 Name: Loudred
 Number: 294
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Field
 Sprite: loudred.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 405
+  Kilograms: 40.5
+  Pounds: 89.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-loudred.png|right]]
+
+*Big Voice Pokemon*
+*Their ears work as loudspeakers capable of breaking glass or even blowing apart a wooden house. When it finishes shouting, even they are deafened for a while. They have noisy competitions in their packs.*
 
 **DexID**:: 0294
 **Species**:: Loudred
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 89.3lbs / 40.5kg
 
 ![[SRD-Loudred-Learnset]]

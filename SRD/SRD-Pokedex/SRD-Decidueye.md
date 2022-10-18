@@ -1,19 +1,36 @@
 ---
 Ability1: Overgrow
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME724.png
+BookShinyImageName: HOME724_s.png
 BoxSprite: SRD-BoxSprite-decidueye.png
+DexCategory: Arrow Quill Pokemob
+DexDescription: This Pokemon can shoot its own feathers as arrows in just a split
+  of second. They are usually calm and collected but they are easily startled if taken
+  by surprise. It is very rare as most of them are extinct.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: Long Reach
 HomeSprite: SRD-HomeSprite-decidueye.png
 Learnset: '[[SRD-Decidueye-Learnset]]'
 Legendary: 'No'
 Name: Decidueye
 Number: 724
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: decidueye.png
 Type1: Grass
 Type2: Ghost
+Weight:
+  Hectograms: 366
+  Kilograms: 36.6
+  Pounds: 80.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-decidueye.png|right]]
+
+*Arrow Quill Pokemob*
+*This Pokemon can shoot its own feathers as arrows in just a split of second. They are usually calm and collected but they are easily startled if taken by surprise. It is very rare as most of them are extinct.*
 
 **DexID**:: 0724
 **Species**:: Decidueye
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 80.7lbs / 36.6kg
 
 ![[SRD-Decidueye-Learnset]]

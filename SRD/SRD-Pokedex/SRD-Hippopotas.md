@@ -1,19 +1,36 @@
 ---
 Ability1: Sand Stream
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME449.png
+BookShinyImageName: HOME449_s.png
 BoxSprite: SRD-BoxSprite-hippopotas.png
+DexCategory: Hippo Pokemon
+DexDescription: It lives in arid places where it joins small groups. It closes its
+  nostrils and submerges under the sand to rest. Females have a different coloration,
+  usually a darker and duller color.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-hippopotas.png
 Learnset: '[[SRD-Hippopotas-Learnset]]'
 Legendary: 'No'
 Name: Hippopotas
 Number: 449
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: hippopotas.png
 Type1: Ground
 Type2: ''
+Weight:
+  Hectograms: 495
+  Kilograms: 49.5
+  Pounds: 109.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-hippopotas.png|right]]
+
+*Hippo Pokemon*
+*It lives in arid places where it joins small groups. It closes its nostrils and submerges under the sand to rest. Females have a different coloration, usually a darker and duller color.*
 
 **DexID**:: 0449
 **Species**:: Hippopotas
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 109.1lbs / 49.5kg
 
 ![[SRD-Hippopotas-Learnset]]

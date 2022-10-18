@@ -1,19 +1,36 @@
 ---
 Ability1: Wonder Guard
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME292.png
+BookShinyImageName: HOME292_s.png
 BoxSprite: SRD-BoxSprite-shedinja.png
+DexCategory: Shed Pokemon
+DexDescription: "On extremely rare occasions; when Nincada evolves, the empty cocoon\
+  \ comes to life. They don\u2019t move, they only float unnaturally around. It is\
+  \ said that it will steal the soul of anyone looking directly at them."
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-shedinja.png
 Learnset: '[[SRD-Shedinja-Learnset]]'
 Legendary: 'No'
 Name: Shedinja
 Number: 292
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: shedinja.png
 Type1: Bug
 Type2: Ghost
+Weight:
+  Hectograms: 12
+  Kilograms: 1.2
+  Pounds: 2.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-shedinja.png|right]]
+
+*Shed Pokemon*
+*On extremely rare occasions; when Nincada evolves, the empty cocoon comes to life. They don’t move, they only float unnaturally around. It is said that it will steal the soul of anyone looking directly at them.*
 
 **DexID**:: 0292
 **Species**:: Shedinja
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'6" / 0.8m
+**Weight**: 2.6lbs / 1.2kg
 
 ![[SRD-Shedinja-Learnset]]

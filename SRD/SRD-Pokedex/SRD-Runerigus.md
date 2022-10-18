@@ -1,19 +1,36 @@
 ---
 Ability1: Wandering Spirit
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME867.png
+BookShinyImageName: HOME867_s.png
 BoxSprite: SRD-BoxSprite-runerigus.png
+DexCategory: Grudge Pokemon
+DexDescription: "A powerful curse was woven into an ancient rune painting, the spirit\
+  \ of Yamask is absorbed by this curse and it evolves into a Runerigs. Do not touch\
+  \ the shadow parts of its body or you\u2019ll see terrible visions of the past."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-runerigus.png
 Learnset: '[[SRD-Runerigus-Learnset]]'
 Legendary: 'No'
 Name: Runerigus
 Number: 867
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: Amorphous
 Sprite: runerigus.png
 Type1: Ground
 Type2: Ghost
+Weight:
+  Hectograms: 666
+  Kilograms: 66.6
+  Pounds: 146.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-runerigus.png|right]]
+
+*Grudge Pokemon*
+*A powerful curse was woven into an ancient rune painting, the spirit of Yamask is absorbed by this curse and it evolves into a Runerigs. Do not touch the shadow parts of its body or you’ll see terrible visions of the past.*
 
 **DexID**:: 0867
 **Species**:: Runerigus
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 146.8lbs / 66.6kg
 
 ![[SRD-Runerigus-Learnset]]

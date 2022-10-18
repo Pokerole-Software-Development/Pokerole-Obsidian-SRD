@@ -1,19 +1,36 @@
 ---
 Ability1: Chlorophyll
 Ability2: Own Tempo
+Baby: 'No'
+BookImageName: HOME548.png
+BookShinyImageName: HOME548_s.png
 BoxSprite: SRD-BoxSprite-petilil.png
+DexCategory: Bulb Pokemon
+DexDescription: Since they prefer moist and nutritive soil, the areas where Petilil
+  live are known to be good for growing plants. The leaves on its head can be used
+  for medicinal purposes, but they are extra bitter.
 EventAbilities: ''
 GenderType: F
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-HomeSprite-petilil.png
 Learnset: '[[SRD-Petilil-Learnset]]'
 Legendary: 'No'
 Name: Petilil
 Number: 548
+PrimaryEggGroup: Grass
+SecondaryEggGroup: ''
 Sprite: petilil.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 66
+  Kilograms: 6.6
+  Pounds: 14.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-petilil.png|right]]
+
+*Bulb Pokemon*
+*Since they prefer moist and nutritive soil, the areas where Petilil live are known to be good for growing plants. The leaves on its head can be used for medicinal purposes, but they are extra bitter.*
 
 **DexID**:: 0548
 **Species**:: Petilil
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 14.6lbs / 6.6kg
 
 ![[SRD-Petilil-Learnset]]

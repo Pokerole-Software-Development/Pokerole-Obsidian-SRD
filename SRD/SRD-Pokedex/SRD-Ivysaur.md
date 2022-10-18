@@ -1,19 +1,36 @@
 ---
 Ability1: Overgrow
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME002.png
+BookShinyImageName: HOME002_s.png
 BoxSprite: SRD-BoxSprite-ivysaur.png
+DexCategory: Seed Pokemon
+DexDescription: There is a bud on this Pokemon's back. To support its weight, Ivysaur's
+  legs and trunk grow thick and strong. It becomes kind of a loner after evolving
+  and may stray away from its group to take sunbaths.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-HomeSprite-ivysaur.png
 Learnset: '[[SRD-Ivysaur-Learnset]]'
 Legendary: 'No'
 Name: Ivysaur
 Number: 2
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Grass
 Sprite: ivysaur.png
 Type1: Grass
 Type2: Poison
+Weight:
+  Hectograms: 130
+  Kilograms: 13.0
+  Pounds: 28.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-ivysaur.png|right]]
+
+*Seed Pokemon*
+*There is a bud on this Pokemon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. It becomes kind of a loner after evolving and may stray away from its group to take sunbaths.*
 
 **DexID**:: 0002
 **Species**:: Ivysaur
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 28.7lbs / 13.0kg
 
 ![[SRD-Ivysaur-Learnset]]

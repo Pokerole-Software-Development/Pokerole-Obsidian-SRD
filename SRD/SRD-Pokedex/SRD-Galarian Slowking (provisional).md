@@ -1,19 +1,34 @@
 ---
 Ability1: Curious Medicine
 Ability2: Own Tempo
+Baby: 'No'
+BookImageName: HOME199G.png
+BookShinyImageName: HOME199G_s.png
 BoxSprite: SRD-BoxSprite-slowking-galar.png
+DexCategory: ''
+DexDescription: ''
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 18
+  Feet: 5.9
+  Meters: 1.8
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-slowking-galar.png
 Learnset: '[[SRD-Galarian Slowking (provisional)-Learnset]]'
 Legendary: 'No'
 Name: Galarian Slowking (provisional)
 Number: 199
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Water 1
 Sprite: slowking-galar.png
 Type1: Poison
 Type2: Psychic
+Weight:
+  Hectograms: 795
+  Kilograms: 79.5
+  Pounds: 175.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +36,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-slowking-galar.png|right]]
+
+**
+**
 
 **DexID**:: 0199G
 **Species**:: Galarian Slowking (provisional)
@@ -41,5 +59,7 @@ Type2: Psychic
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'9" / 1.8m
+**Weight**: 175.3lbs / 79.5kg
 
 ![[SRD-Galarian Slowking (provisional)-Learnset]]

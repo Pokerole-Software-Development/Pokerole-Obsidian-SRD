@@ -1,19 +1,36 @@
 ---
 Ability1: Intimidate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME397.png
+BookShinyImageName: HOME397_s.png
 BoxSprite: SRD-BoxSprite-staravia.png
+DexCategory: Starling Pokemon
+DexDescription: They lead a huge flock and fight other flocks for territory. If you
+  leave it alone, it will start to make a horrible noise. It is a fierce but bad-mannered
+  Pokemon. When they are too weak they abandon their flocks.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Reckless
 HomeSprite: SRD-HomeSprite-staravia.png
 Learnset: '[[SRD-Staravia-Learnset]]'
 Legendary: 'No'
 Name: Staravia
 Number: 397
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: staravia.png
 Type1: Normal
 Type2: Flying
+Weight:
+  Hectograms: 155
+  Kilograms: 15.5
+  Pounds: 34.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-staravia.png|right]]
+
+*Starling Pokemon*
+*They lead a huge flock and fight other flocks for territory. If you leave it alone, it will start to make a horrible noise. It is a fierce but bad-mannered Pokemon. When they are too weak they abandon their flocks.*
 
 **DexID**:: 0397
 **Species**:: Staravia
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 34.2lbs / 15.5kg
 
 ![[SRD-Staravia-Learnset]]

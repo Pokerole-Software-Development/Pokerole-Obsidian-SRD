@@ -1,19 +1,36 @@
 ---
 Ability1: Own Tempo
 Ability2: Tangled Feet
+Baby: 'No'
+BookImageName: HOME327.png
+BookShinyImageName: HOME327_s.png
 BoxSprite: SRD-BoxSprite-spinda.png
+DexCategory: Spot Panda Pokemon
+DexDescription: Spindas move while stumbling in dizziness. This teeter dance causes
+  a severe confusion on whoever is looking. They are shy towards humans but sometimes
+  they appear in towns looking really disoriented.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Contrary
 HomeSprite: SRD-HomeSprite-spinda.png
 Learnset: '[[SRD-Spinda-Learnset]]'
 Legendary: 'No'
 Name: Spinda
 Number: 327
+PrimaryEggGroup: Field
+SecondaryEggGroup: Human-Like
 Sprite: spinda.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 50
+  Kilograms: 5.0
+  Pounds: 11.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-spinda.png|right]]
+
+*Spot Panda Pokemon*
+*Spindas move while stumbling in dizziness. This teeter dance causes a severe confusion on whoever is looking. They are shy towards humans but sometimes they appear in towns looking really disoriented.*
 
 **DexID**:: 0327
 **Species**:: Spinda
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'6" / 1.1m
+**Weight**: 11.0lbs / 5.0kg
 
 ![[SRD-Spinda-Learnset]]

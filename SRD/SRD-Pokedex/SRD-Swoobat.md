@@ -1,19 +1,36 @@
 ---
 Ability1: Unaware
 Ability2: Klutz
+Baby: 'No'
+BookImageName: HOME528.png
+BookShinyImageName: HOME528_s.png
 BoxSprite: SRD-BoxSprite-swoobat.png
+DexCategory: Courting Pokemon
+DexDescription: They communicate by emitting ultrasonic waves through their noses.
+  This sound is not perceived by humans but it can affect their mood and emotions.
+  It hunts Bug Pokemon and loves fresh fruit.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Simple
 HomeSprite: SRD-HomeSprite-swoobat.png
 Learnset: '[[SRD-Swoobat-Learnset]]'
 Legendary: 'No'
 Name: Swoobat
 Number: 528
+PrimaryEggGroup: Flying
+SecondaryEggGroup: Field
 Sprite: swoobat.png
 Type1: Psychic
 Type2: Flying
+Weight:
+  Hectograms: 105
+  Kilograms: 10.5
+  Pounds: 23.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-swoobat.png|right]]
+
+*Courting Pokemon*
+*They communicate by emitting ultrasonic waves through their noses. This sound is not perceived by humans but it can affect their mood and emotions. It hunts Bug Pokemon and loves fresh fruit.*
 
 **DexID**:: 0528
 **Species**:: Swoobat
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'0" / 0.9m
+**Weight**: 23.1lbs / 10.5kg
 
 ![[SRD-Swoobat-Learnset]]

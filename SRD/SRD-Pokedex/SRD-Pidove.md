@@ -1,19 +1,36 @@
 ---
 Ability1: Big Pecks
 Ability2: Super Luck
+Baby: 'No'
+BookImageName: HOME519.png
+BookShinyImageName: HOME519_s.png
 BoxSprite: SRD-BoxSprite-pidove.png
+DexCategory: Tiny Pigeon Pokemon
+DexDescription: These Pokemon thrive in the cities. They are accustomed to people
+  and they often gather in the parks. They are forgetful and not very smart, but they
+  always remember the way back home.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Rivalry
 HomeSprite: SRD-HomeSprite-pidove.png
 Learnset: '[[SRD-Pidove-Learnset]]'
 Legendary: 'No'
 Name: Pidove
 Number: 519
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: pidove.png
 Type1: Normal
 Type2: Flying
+Weight:
+  Hectograms: 21
+  Kilograms: 2.1
+  Pounds: 4.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-pidove.png|right]]
+
+*Tiny Pigeon Pokemon*
+*These Pokemon thrive in the cities. They are accustomed to people and they often gather in the parks. They are forgetful and not very smart, but they always remember the way back home.*
 
 **DexID**:: 0519
 **Species**:: Pidove
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 4.6lbs / 2.1kg
 
 ![[SRD-Pidove-Learnset]]

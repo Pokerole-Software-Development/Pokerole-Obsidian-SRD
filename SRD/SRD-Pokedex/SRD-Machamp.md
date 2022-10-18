@@ -1,19 +1,36 @@
 ---
 Ability1: Guts
 Ability2: No Guard
+Baby: 'No'
+BookImageName: HOME068.png
+BookShinyImageName: HOME068_s.png
 BoxSprite: SRD-BoxSprite-machamp.png
+DexCategory: Superpower Pokemon
+DexDescription: There are a few roaming in the mountains. Machamp has the power to
+  hurl anything aside. However, trying to do any work that requires care and dexterity
+  may cause its arms to get tangled.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: Steadfast
 HomeSprite: SRD-HomeSprite-machamp.png
 Learnset: '[[SRD-Machamp-Learnset]]'
 Legendary: 'No'
 Name: Machamp
 Number: 68
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: machamp.png
 Type1: Fighting
 Type2: ''
+Weight:
+  Hectograms: 1300
+  Kilograms: 130.0
+  Pounds: 286.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-machamp.png|right]]
+
+*Superpower Pokemon*
+*There are a few roaming in the mountains. Machamp has the power to hurl anything aside. However, trying to do any work that requires care and dexterity may cause its arms to get tangled.*
 
 **DexID**:: 0068
 **Species**:: Machamp
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 286.6lbs / 130.0kg
 
 ![[SRD-Machamp-Learnset]]

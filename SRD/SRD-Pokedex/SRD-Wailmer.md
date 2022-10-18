@@ -1,19 +1,36 @@
 ---
 Ability1: Water Veil
 Ability2: Oblivious
+Baby: 'No'
+BookImageName: HOME320.png
+BookShinyImageName: HOME320_s.png
 BoxSprite: SRD-BoxSprite-wailmer.png
+DexCategory: Ball Whale Pokemon
+DexDescription: Wailmer has a playful nature. They can store water inside their body
+  to inflate like a ball and bounce, then startle people by snorting the water from
+  their nostrils. This Pokemon needs lots of food everyday.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 20
+  Feet: 6.6
+  Meters: 2.0
 HiddenAbility: Pressure
 HomeSprite: SRD-HomeSprite-wailmer.png
 Learnset: '[[SRD-Wailmer-Learnset]]'
 Legendary: 'No'
 Name: Wailmer
 Number: 320
+PrimaryEggGroup: Field
+SecondaryEggGroup: Water 2
 Sprite: wailmer.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 1300
+  Kilograms: 130.0
+  Pounds: 286.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-wailmer.png|right]]
+
+*Ball Whale Pokemon*
+*Wailmer has a playful nature. They can store water inside their body to inflate like a ball and bounce, then startle people by snorting the water from their nostrils. This Pokemon needs lots of food everyday.*
 
 **DexID**:: 0320
 **Species**:: Wailmer
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 6'6" / 2.0m
+**Weight**: 286.6lbs / 130.0kg
 
 ![[SRD-Wailmer-Learnset]]

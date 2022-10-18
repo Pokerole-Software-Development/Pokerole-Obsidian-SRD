@@ -1,19 +1,35 @@
 ---
 Ability1: Serene Grace
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME648.png
+BookShinyImageName: HOME648_s.png
 BoxSprite: SRD-BoxSprite-meloetta.png
+DexCategory: No Data
+DexDescription: There are old songs about a beautiful Pokemon that inspired the hearts
+  of artists through its graceful dance and singing.
 EventAbilities: ''
 GenderType: N
 HasForm: 'Yes'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-meloetta.png
 Learnset: '[[SRD-Meloetta-Learnset]]'
 Legendary: 'Yes'
 Name: Meloetta
 Number: 648
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: meloetta.png
 Type1: Normal
 Type2: Psychic
+Weight:
+  Hectograms: 65
+  Kilograms: 6.5
+  Pounds: 14.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-meloetta.png|right]]
+
+*No Data*
+*There are old songs about a beautiful Pokemon that inspired the hearts of artists through its graceful dance and singing.*
 
 **DexID**:: 0648
 **Species**:: Meloetta
@@ -41,5 +60,7 @@ Type2: Psychic
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'0" / 0.6m
+**Weight**: 14.3lbs / 6.5kg
 
 ![[SRD-Meloetta-Learnset]]

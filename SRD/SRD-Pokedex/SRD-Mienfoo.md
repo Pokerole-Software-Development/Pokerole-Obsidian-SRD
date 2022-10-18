@@ -1,19 +1,36 @@
 ---
 Ability1: Inner Focus
 Ability2: Regenerator
+Baby: 'No'
+BookImageName: HOME619.png
+BookShinyImageName: HOME619_s.png
 BoxSprite: SRD-BoxSprite-mienfoo.png
+DexCategory: Martial Arts Pokemon
+DexDescription: They gather in small groups around the mountains to train and master
+  new techniques. They use their sharp claws to damage their foes. Only those Mienfoo
+  that excel at fighting in the group evolve.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Reckless
 HomeSprite: SRD-HomeSprite-mienfoo.png
 Learnset: '[[SRD-Mienfoo-Learnset]]'
 Legendary: 'No'
 Name: Mienfoo
 Number: 619
+PrimaryEggGroup: Field
+SecondaryEggGroup: Human-Like
 Sprite: mienfoo.png
 Type1: Fighting
 Type2: ''
+Weight:
+  Hectograms: 200
+  Kilograms: 20.0
+  Pounds: 44.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-mienfoo.png|right]]
+
+*Martial Arts Pokemon*
+*They gather in small groups around the mountains to train and master new techniques. They use their sharp claws to damage their foes. Only those Mienfoo that excel at fighting in the group evolve.*
 
 **DexID**:: 0619
 **Species**:: Mienfoo
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'0" / 0.9m
+**Weight**: 44.1lbs / 20.0kg
 
 ![[SRD-Mienfoo-Learnset]]

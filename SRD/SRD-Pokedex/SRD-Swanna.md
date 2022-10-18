@@ -1,19 +1,36 @@
 ---
 Ability1: Keen Eye
 Ability2: Big Pecks
+Baby: 'No'
+BookImageName: HOME581.png
+BookShinyImageName: HOME581_s.png
 BoxSprite: SRD-BoxSprite-swanna.png
+DexCategory: White Bird Pokemon
+DexDescription: Swanna come out to dance at dusk. The one dancing in the middle is
+  the leader of the flock. Despite their elegant and frail appearance, they can flap
+  their wings strongly and fly for thousands of miles.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Hydration
 HomeSprite: SRD-HomeSprite-swanna.png
 Learnset: '[[SRD-Swanna-Learnset]]'
 Legendary: 'No'
 Name: Swanna
 Number: 581
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Flying
 Sprite: swanna.png
 Type1: Water
 Type2: Flying
+Weight:
+  Hectograms: 242
+  Kilograms: 24.2
+  Pounds: 53.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-swanna.png|right]]
+
+*White Bird Pokemon*
+*Swanna come out to dance at dusk. The one dancing in the middle is the leader of the flock. Despite their elegant and frail appearance, they can flap their wings strongly and fly for thousands of miles.*
 
 **DexID**:: 0581
 **Species**:: Swanna
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 53.4lbs / 24.2kg
 
 ![[SRD-Swanna-Learnset]]

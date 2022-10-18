@@ -1,19 +1,36 @@
 ---
 Ability1: Guts
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME276.png
+BookShinyImageName: HOME276_s.png
 BoxSprite: SRD-BoxSprite-taillow.png
+DexCategory: Tiny Swallow Pokemon
+DexDescription: They are brave and noble, facing bigger foes whoever they might be.
+  However, being just a child, it usually feels lonely and cries at night. They can
+  be seen migrating south in the winter.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Scrappy
 HomeSprite: SRD-HomeSprite-taillow.png
 Learnset: '[[SRD-Taillow-Learnset]]'
 Legendary: 'No'
 Name: Taillow
 Number: 276
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: taillow.png
 Type1: Normal
 Type2: Flying
+Weight:
+  Hectograms: 23
+  Kilograms: 2.3
+  Pounds: 5.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-taillow.png|right]]
+
+*Tiny Swallow Pokemon*
+*They are brave and noble, facing bigger foes whoever they might be. However, being just a child, it usually feels lonely and cries at night. They can be seen migrating south in the winter.*
 
 **DexID**:: 0276
 **Species**:: Taillow
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 5.1lbs / 2.3kg
 
 ![[SRD-Taillow-Learnset]]

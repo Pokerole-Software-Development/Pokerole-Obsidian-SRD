@@ -1,19 +1,36 @@
 ---
 Ability1: Run Away
 Ability2: Unburden
+Baby: 'No'
+BookImageName: HOME827.png
+BookShinyImageName: HOME827_s.png
 BoxSprite: SRD-BoxSprite-nickit.png
+DexCategory: Fox Pokemon
+DexDescription: "Cunning and cautious, Nickit survive by stealing food. It erases\
+  \ its tracks with swipes of its tail so it\u2019s very difficult to track one. They\
+  \ have thrived in the cities and come at night to steal from stores."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Stakeout
 HomeSprite: SRD-HomeSprite-nickit.png
 Learnset: '[[SRD-Nickit-Learnset]]'
 Legendary: 'No'
 Name: Nickit
 Number: 827
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: nickit.png
 Type1: Dark
 Type2: ''
+Weight:
+  Hectograms: 89
+  Kilograms: 8.9
+  Pounds: 19.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-nickit.png|right]]
+
+*Fox Pokemon*
+*Cunning and cautious, Nickit survive by stealing food. It erases its tracks with swipes of its tail so it’s very difficult to track one. They have thrived in the cities and come at night to steal from stores.*
 
 **DexID**:: 0827
 **Species**:: Nickit
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 19.6lbs / 8.9kg
 
 ![[SRD-Nickit-Learnset]]

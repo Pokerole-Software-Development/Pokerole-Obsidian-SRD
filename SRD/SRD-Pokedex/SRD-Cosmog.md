@@ -1,19 +1,35 @@
 ---
 Ability1: Unaware
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME789.png
+BookShinyImageName: HOME789_s.png
 BoxSprite: SRD-BoxSprite-cosmog.png
+DexCategory: No Data
+DexDescription: A creature like this was observed on a telescope. It is rumored to
+  be a Pokemon from another world, but no specific details are known.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 2
+  Feet: 0.7
+  Meters: 0.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-cosmog.png
 Learnset: '[[SRD-Cosmog-Learnset]]'
 Legendary: 'No'
 Name: Cosmog
 Number: 789
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: cosmog.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 1
+  Kilograms: 0.1
+  Pounds: 0.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-cosmog.png|right]]
+
+*No Data*
+*A creature like this was observed on a telescope. It is rumored to be a Pokemon from another world, but no specific details are known.*
 
 **DexID**:: 0789
 **Species**:: Cosmog
@@ -41,5 +60,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 0'7" / 0.2m
+**Weight**: 0.2lbs / 0.1kg
 
 ![[SRD-Cosmog-Learnset]]

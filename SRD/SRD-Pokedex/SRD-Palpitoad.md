@@ -1,19 +1,36 @@
 ---
 Ability1: Swift Swim
 Ability2: Hydration
+Baby: 'No'
+BookImageName: HOME536.png
+BookShinyImageName: HOME536_s.png
 BoxSprite: SRD-BoxSprite-palpitoad.png
+DexCategory: Vibration Pokemon
+DexDescription: It lives both in water and land. It uses its long, sticky tongue to
+  capture prey. When they vibrate the bumps on their heads, they can make waves in
+  the water and even earthquake-like vibrations on land.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Water Absorb
 HomeSprite: SRD-HomeSprite-palpitoad.png
 Learnset: '[[SRD-Palpitoad-Learnset]]'
 Legendary: 'No'
 Name: Palpitoad
 Number: 536
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: ''
 Sprite: palpitoad.png
 Type1: Water
 Type2: Ground
+Weight:
+  Hectograms: 170
+  Kilograms: 17.0
+  Pounds: 37.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-palpitoad.png|right]]
+
+*Vibration Pokemon*
+*It lives both in water and land. It uses its long, sticky tongue to capture prey. When they vibrate the bumps on their heads, they can make waves in the water and even earthquake-like vibrations on land.*
 
 **DexID**:: 0536
 **Species**:: Palpitoad
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 37.5lbs / 17.0kg
 
 ![[SRD-Palpitoad-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Clear Body
 Ability2: Infiltrator
+Baby: 'No'
+BookImageName: HOME885.png
+BookShinyImageName: HOME885_s.png
 BoxSprite: SRD-BoxSprite-dreepy.png
+DexCategory: Lingering Pokemon
+DexDescription: "After being reborn as a ghost, Dreepy wanders the areas it used to\
+  \ inhabit back when it was alive in prehistoric seas. Alone they do not pose much\
+  \ of a threat but if they gather in packs you\u2019ll be in trouble."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Cursed Body
 HomeSprite: SRD-HomeSprite-dreepy.png
 Learnset: '[[SRD-Dreepy-Learnset]]'
 Legendary: 'No'
 Name: Dreepy
 Number: 885
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: Dragon
 Sprite: dreepy.png
 Type1: Dragon
 Type2: Ghost
+Weight:
+  Hectograms: 20
+  Kilograms: 2.0
+  Pounds: 4.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-dreepy.png|right]]
+
+*Lingering Pokemon*
+*After being reborn as a ghost, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas. Alone they do not pose much of a threat but if they gather in packs you’ll be in trouble.*
 
 **DexID**:: 0885
 **Species**:: Dreepy
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 4.4lbs / 2.0kg
 
 ![[SRD-Dreepy-Learnset]]

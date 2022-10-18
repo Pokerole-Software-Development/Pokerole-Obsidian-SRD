@@ -1,19 +1,36 @@
 ---
 Ability1: Keen Eye
 Ability2: Skill Link
+Baby: 'No'
+BookImageName: HOME733.png
+BookShinyImageName: HOME733_s.png
 BoxSprite: SRD-BoxSprite-toucannon.png
+DexCategory: Blade Quill Pokemon
+DexDescription: It can store and expel an extremely hot gas through its beak that
+  ignites easily. The berry seeds it shoots can pierce boulders, leaving perfectly
+  round holes on them. Fortunately, they nest deep in the jungle.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-toucannon.png
 Learnset: '[[SRD-Toucannon-Learnset]]'
 Legendary: 'No'
 Name: Toucannon
 Number: 733
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: toucannon.png
 Type1: Normal
 Type2: Flying
+Weight:
+  Hectograms: 260
+  Kilograms: 26.0
+  Pounds: 57.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-toucannon.png|right]]
+
+*Blade Quill Pokemon*
+*It can store and expel an extremely hot gas through its beak that ignites easily. The berry seeds it shoots can pierce boulders, leaving perfectly round holes on them. Fortunately, they nest deep in the jungle.*
 
 **DexID**:: 0733
 **Species**:: Toucannon
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'6" / 1.1m
+**Weight**: 57.3lbs / 26.0kg
 
 ![[SRD-Toucannon-Learnset]]

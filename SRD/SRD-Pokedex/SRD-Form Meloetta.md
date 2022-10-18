@@ -1,19 +1,35 @@
 ---
 Ability1: Serene Grace
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME648P.png
+BookShinyImageName: HOME648P_s.png
 BoxSprite: SRD-BoxSprite-meloetta.png
+DexCategory: No Data
+DexDescription: There are old songs about a beautiful Pokemon that inspired the hearts
+  of artists through its graceful dance and singing.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-meloetta.png
 Learnset: '[[SRD-Form Meloetta-Learnset]]'
 Legendary: 'Yes'
 Name: Form Meloetta
 Number: 648
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: meloetta.png
 Type1: Normal
 Type2: Fighting
+Weight:
+  Hectograms: 65
+  Kilograms: 6.5
+  Pounds: 14.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-meloetta.png|right]]
+
+*No Data*
+*There are old songs about a beautiful Pokemon that inspired the hearts of artists through its graceful dance and singing.*
 
 **DexID**:: 0648F1
 **Species**:: Form Meloetta
@@ -41,5 +60,7 @@ Type2: Fighting
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'0" / 0.6m
+**Weight**: 14.3lbs / 6.5kg
 
 ![[SRD-Form Meloetta-Learnset]]

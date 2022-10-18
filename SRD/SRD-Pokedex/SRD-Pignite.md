@@ -1,19 +1,36 @@
 ---
 Ability1: Blaze
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME499.png
+BookShinyImageName: HOME499_s.png
 BoxSprite: SRD-BoxSprite-pignite.png
+DexCategory: Fire Pig Pokemon
+DexDescription: Whatever it eats becomes fuel for the flame on its stomach. When it
+  is angered, the intensity of the flame increases. It is not common to see them the
+  wild. They are mostly found living in warm places.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Thick Fat
 HomeSprite: SRD-HomeSprite-pignite.png
 Learnset: '[[SRD-Pignite-Learnset]]'
 Legendary: 'No'
 Name: Pignite
 Number: 499
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: pignite.png
 Type1: Fire
 Type2: Fighting
+Weight:
+  Hectograms: 555
+  Kilograms: 55.5
+  Pounds: 122.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-pignite.png|right]]
+
+*Fire Pig Pokemon*
+*Whatever it eats becomes fuel for the flame on its stomach. When it is angered, the intensity of the flame increases. It is not common to see them the wild. They are mostly found living in warm places.*
 
 **DexID**:: 0499
 **Species**:: Pignite
@@ -41,5 +61,7 @@ Type2: Fighting
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 122.4lbs / 55.5kg
 
 ![[SRD-Pignite-Learnset]]

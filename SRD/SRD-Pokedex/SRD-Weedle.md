@@ -1,19 +1,36 @@
 ---
 Ability1: Shield Dust
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME013.png
+BookShinyImageName: HOME013_s.png
 BoxSprite: SRD-BoxSprite-weedle.png
+DexCategory: Hairy Pokemon
+DexDescription: Often found in forests eating leaves. It has a sharp, venomous stinger
+  on its head for defense. It has an acute sense of smell to find food, and its bright-colored
+  body is intended to warn off predators.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Run Away
 HomeSprite: SRD-HomeSprite-weedle.png
 Learnset: '[[SRD-Weedle-Learnset]]'
 Legendary: 'No'
 Name: Weedle
 Number: 13
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: weedle.png
 Type1: Bug
 Type2: Poison
+Weight:
+  Hectograms: 32
+  Kilograms: 3.2
+  Pounds: 7.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-weedle.png|right]]
+
+*Hairy Pokemon*
+*Often found in forests eating leaves. It has a sharp, venomous stinger on its head for defense. It has an acute sense of smell to find food, and its bright-colored body is intended to warn off predators.*
 
 **DexID**:: 0013
 **Species**:: Weedle
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 7.1lbs / 3.2kg
 
 ![[SRD-Weedle-Learnset]]

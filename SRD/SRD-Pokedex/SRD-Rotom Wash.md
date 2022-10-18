@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME479W.png
+BookShinyImageName: HOME479W_s.png
 BoxSprite: SRD-BoxSprite-rotom-wash.png
+DexCategory: Plasma Pokemon
+DexDescription: 'A Washing machine possessed by a Rotom. It uses Water powers and
+  floods the houses with torrents of water. While on this form it can use the move:
+  Hydro Pump.'
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-rotom-wash.png
 Learnset: '[[SRD-Rotom Wash-Learnset]]'
 Legendary: 'No'
 Name: Rotom Wash
 Number: 479
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: rotom-wash.png
 Type1: Electric
 Type2: Water
+Weight:
+  Hectograms: 3
+  Kilograms: 0.3
+  Pounds: 0.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Water
 # `= this.name`
 
 ![[SRD-HomeSprite-rotom-wash.png|right]]
+
+*Plasma Pokemon*
+*A Washing machine possessed by a Rotom. It uses Water powers and floods the houses with torrents of water. While on this form it can use the move: Hydro Pump.*
 
 **DexID**:: 0479F5
 **Species**:: Rotom Wash
@@ -41,5 +61,7 @@ Type2: Water
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'0" / 0.3m
+**Weight**: 0.7lbs / 0.3kg
 
 ![[SRD-Rotom Wash-Learnset]]

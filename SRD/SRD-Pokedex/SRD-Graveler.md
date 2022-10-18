@@ -1,19 +1,36 @@
 ---
 Ability1: Rock Head
 Ability2: Sturdy
+Baby: 'No'
+BookImageName: HOME075.png
+BookShinyImageName: HOME075_s.png
 BoxSprite: SRD-BoxSprite-graveler.png
+DexCategory: Rock Pokemon
+DexDescription: It walks slowly, but it can get a nice speed by rolling downhill.
+  It is good at climbing. Groups of them have been seen clinging from rock formations
+  and cliffs to eat the tasty rocks covered in moss.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-graveler.png
 Learnset: '[[SRD-Graveler-Learnset]]'
 Legendary: 'No'
 Name: Graveler
 Number: 75
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: graveler.png
 Type1: Rock
 Type2: Ground
+Weight:
+  Hectograms: 1050
+  Kilograms: 105.0
+  Pounds: 231.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-graveler.png|right]]
+
+*Rock Pokemon*
+*It walks slowly, but it can get a nice speed by rolling downhill. It is good at climbing. Groups of them have been seen clinging from rock formations and cliffs to eat the tasty rocks covered in moss.*
 
 **DexID**:: 0075
 **Species**:: Graveler
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 231.5lbs / 105.0kg
 
 ![[SRD-Graveler-Learnset]]

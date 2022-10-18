@@ -1,19 +1,36 @@
 ---
 Ability1: Sand Rush
 Ability2: Sand Force
+Baby: 'No'
+BookImageName: HOME530.png
+BookShinyImageName: HOME530_s.png
 BoxSprite: SRD-BoxSprite-excadrill.png
+DexCategory: Subterrene Pokemon
+DexDescription: They build maze-like nests deep underground. Humans make use of their
+  drilling abilities to dig tunnels for subway trains. This Pokemon does not back
+  out from foes and can be a formidable opponent.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-HomeSprite-excadrill.png
 Learnset: '[[SRD-Excadrill-Learnset]]'
 Legendary: 'No'
 Name: Excadrill
 Number: 530
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: excadrill.png
 Type1: Ground
 Type2: Steel
+Weight:
+  Hectograms: 404
+  Kilograms: 40.4
+  Pounds: 89.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-excadrill.png|right]]
+
+*Subterrene Pokemon*
+*They build maze-like nests deep underground. Humans make use of their drilling abilities to dig tunnels for subway trains. This Pokemon does not back out from foes and can be a formidable opponent.*
 
 **DexID**:: 0530
 **Species**:: Excadrill
@@ -41,5 +61,7 @@ Type2: Steel
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'3" / 0.7m
+**Weight**: 89.1lbs / 40.4kg
 
 ![[SRD-Excadrill-Learnset]]

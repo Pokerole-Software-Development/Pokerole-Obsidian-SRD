@@ -1,19 +1,36 @@
 ---
 Ability1: Frisk
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME103A.png
+BookShinyImageName: HOME103A_s.png
 BoxSprite: SRD-BoxSprite-exeggutor-alola.png
+DexCategory: Coconut Pokemon
+DexDescription: "Alola is the native region for this Pokemon, only in there it can\
+  \ evolve into this form. With this size, its Psychic abilities are rarely needed\
+  \ and its trainer\u2019s order\u2019s rarely heard. They enjoy the sun in the beach.."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 109
+  Feet: 35.8
+  Meters: 10.9
 HiddenAbility: Harvest
 HomeSprite: SRD-HomeSprite-exeggutor-alola.png
 Learnset: '[[SRD-Alolan Exeggutor-Learnset]]'
 Legendary: 'No'
 Name: Alolan Exeggutor
 Number: 103
+PrimaryEggGroup: Grass
+SecondaryEggGroup: ''
 Sprite: exeggutor-alola.png
 Type1: Grass
 Type2: Dragon
+Weight:
+  Hectograms: 4156
+  Kilograms: 415.6
+  Pounds: 916.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-exeggutor-alola.png|right]]
+
+*Coconut Pokemon*
+*Alola is the native region for this Pokemon, only in there it can evolve into this form. With this size, its Psychic abilities are rarely needed and its trainer’s order’s rarely heard. They enjoy the sun in the beach..*
 
 **DexID**:: 0103A
 **Species**:: Alolan Exeggutor
@@ -41,5 +61,7 @@ Type2: Dragon
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 35'8" / 10.9m
+**Weight**: 916.2lbs / 415.6kg
 
 ![[SRD-Alolan Exeggutor-Learnset]]

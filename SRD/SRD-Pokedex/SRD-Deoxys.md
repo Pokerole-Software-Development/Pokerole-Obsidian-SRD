@@ -1,19 +1,36 @@
 ---
 Ability1: Pressure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME386.png
+BookShinyImageName: HOME386_s.png
 BoxSprite: SRD-BoxSprite-deoxys.png
+DexCategory: No Data
+DexDescription: "A space expedition had to be aborted due to an emergency. The ship\u2019\
+  s crew mentioned a creature attacking them inside their ship. They all gave different\
+  \ descriptions of said creature."
 EventAbilities: ''
 GenderType: N
 HasForm: 'Yes'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-deoxys.png
 Learnset: '[[SRD-Deoxys-Learnset]]'
 Legendary: 'Yes'
 Name: Deoxys
 Number: 386
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: deoxys.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 608
+  Kilograms: 60.8
+  Pounds: 134.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-deoxys.png|right]]
+
+*No Data*
+*A space expedition had to be aborted due to an emergency. The ship’s crew mentioned a creature attacking them inside their ship. They all gave different descriptions of said creature.*
 
 **DexID**:: 0386
 **Species**:: Deoxys
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 134.0lbs / 60.8kg
 
 ![[SRD-Deoxys-Learnset]]

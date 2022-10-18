@@ -1,19 +1,36 @@
 ---
 Ability1: Gluttony
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME515.png
+BookShinyImageName: HOME515_s.png
 BoxSprite: SRD-BoxSprite-panpour.png
+DexCategory: Spray Pokemon
+DexDescription: It does not thrive in dry climates. It keeps itself damp by shooting
+  the water stored in its head tuft. Its water is valued by gardeners and Grass Pokemon
+  breeders as it makes plants grow beautiful.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Torrent
 HomeSprite: SRD-HomeSprite-panpour.png
 Learnset: '[[SRD-Panpour-Learnset]]'
 Legendary: 'No'
 Name: Panpour
 Number: 515
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: panpour.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 135
+  Kilograms: 13.5
+  Pounds: 29.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-panpour.png|right]]
+
+*Spray Pokemon*
+*It does not thrive in dry climates. It keeps itself damp by shooting the water stored in its head tuft. Its water is valued by gardeners and Grass Pokemon breeders as it makes plants grow beautiful.*
 
 **DexID**:: 0515
 **Species**:: Panpour
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 29.8lbs / 13.5kg
 
 ![[SRD-Panpour-Learnset]]

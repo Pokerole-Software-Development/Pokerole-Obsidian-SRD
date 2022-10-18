@@ -1,19 +1,36 @@
 ---
 Ability1: Refrigerate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME362M.png
+BookShinyImageName: HOME362M_s.png
 BoxSprite: SRD-BoxSprite-glalie-mega.png
+DexCategory: Face Pokemon
+DexDescription: The power of the Mega Stone bent its jaw at an unnatural angle, this
+  helps it spew enormous blizzards but leaves it unable to eat any prey it catches.
+  This makes it angry and will weaken it if it stays in this form.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 21
+  Feet: 6.9
+  Meters: 2.1
 HiddenAbility: Moody
 HomeSprite: SRD-HomeSprite-glalie-mega.png
 Learnset: '[[SRD-Mega-Glalie-Learnset]]'
 Legendary: 'No'
 Name: Mega-Glalie
 Number: 362
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: Mineral
 Sprite: glalie-mega.png
 Type1: Ice
 Type2: ''
+Weight:
+  Hectograms: 3502
+  Kilograms: 350.2
+  Pounds: 772.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-glalie-mega.png|right]]
+
+*Face Pokemon*
+*The power of the Mega Stone bent its jaw at an unnatural angle, this helps it spew enormous blizzards but leaves it unable to eat any prey it catches. This makes it angry and will weaken it if it stays in this form.*
 
 **DexID**:: 0362M1
 **Species**:: Mega-Glalie
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'9" / 2.1m
+**Weight**: 772.1lbs / 350.2kg
 
 ![[SRD-Mega-Glalie-Learnset]]

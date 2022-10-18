@@ -1,19 +1,39 @@
 ---
 Ability1: Synchronize
 Ability2: Trace
+Baby: 'No'
+BookImageName: HOME282.png
+BookShinyImageName: HOME282_s.png
 BoxSprite: SRD-BoxSprite-gardevoir.png
+DexCategory: Embrace Pokemon
+DexDescription: If they sense danger, Gardevoir unleash a wave of psychic energy.
+  They can distort this dimension, defy the laws of matter and physics. They risk
+  their lives to protect their fellows.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-gardevoir.png
 Learnset: '[[SRD-Gardevoir-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Gardevoirite
+  Name: Mega-Gardevoir
 Name: Gardevoir
 Number: 282
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: Amorphous
 Sprite: gardevoir.png
 Type1: Psychic
 Type2: Fairy
+Weight:
+  Hectograms: 484
+  Kilograms: 48.4
+  Pounds: 106.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-gardevoir.png|right]]
+
+*Embrace Pokemon*
+*If they sense danger, Gardevoir unleash a wave of psychic energy. They can distort this dimension, defy the laws of matter and physics. They risk their lives to protect their fellows.*
 
 **DexID**:: 0282
 **Species**:: Gardevoir
@@ -41,5 +64,7 @@ Type2: Fairy
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 106.7lbs / 48.4kg
 
 ![[SRD-Gardevoir-Learnset]]

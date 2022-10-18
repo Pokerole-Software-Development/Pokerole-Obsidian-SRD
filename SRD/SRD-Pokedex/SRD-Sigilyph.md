@@ -1,19 +1,36 @@
 ---
 Ability1: Wonder Skin
 Ability2: Magic Guard
+Baby: 'No'
+BookImageName: HOME561.png
+BookShinyImageName: HOME561_s.png
 BoxSprite: SRD-BoxSprite-sigilyph.png
+DexCategory: Avianoid Pokemon
+DexDescription: It is known that they worked as guards for an ancient civilization
+  and a few can still be seen patrolling its borders, following the same route for
+  centuries. They attack people that sneak through their barriers.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 14
+  Feet: 4.6
+  Meters: 1.4
 HiddenAbility: Tinted Lens
 HomeSprite: SRD-HomeSprite-sigilyph.png
 Learnset: '[[SRD-Sigilyph-Learnset]]'
 Legendary: 'No'
 Name: Sigilyph
 Number: 561
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: sigilyph.png
 Type1: Psychic
 Type2: Flying
+Weight:
+  Hectograms: 140
+  Kilograms: 14.0
+  Pounds: 30.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-sigilyph.png|right]]
+
+*Avianoid Pokemon*
+*It is known that they worked as guards for an ancient civilization and a few can still be seen patrolling its borders, following the same route for centuries. They attack people that sneak through their barriers.*
 
 **DexID**:: 0561
 **Species**:: Sigilyph
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'6" / 1.4m
+**Weight**: 30.9lbs / 14.0kg
 
 ![[SRD-Sigilyph-Learnset]]

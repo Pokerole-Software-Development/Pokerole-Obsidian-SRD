@@ -1,19 +1,39 @@
 ---
 Ability1: Rough Skin
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME319.png
+BookShinyImageName: HOME319_s.png
 BoxSprite: SRD-BoxSprite-sharpedo.png
+DexCategory: Brutal Pokemon
+DexDescription: "Known as the \u201CBully of the Sea\u201D, widely feared for its\
+  \ cruelty, malice and gangster attitude. They hurt Pokemon for fun and sink boats\
+  \ for sport. Sharpedos are among the fastest swimmers."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 18
+  Feet: 5.9
+  Meters: 1.8
 HiddenAbility: Speed Boost
 HomeSprite: SRD-HomeSprite-sharpedo.png
 Learnset: '[[SRD-Sharpedo-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Sharpedonite
+  Name: Mega-Sharpedo
 Name: Sharpedo
 Number: 319
+PrimaryEggGroup: Water 2
+SecondaryEggGroup: ''
 Sprite: sharpedo.png
 Type1: Water
 Type2: Dark
+Weight:
+  Hectograms: 888
+  Kilograms: 88.8
+  Pounds: 195.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Dark
 # `= this.name`
 
 ![[SRD-HomeSprite-sharpedo.png|right]]
+
+*Brutal Pokemon*
+*Known as the “Bully of the Sea”, widely feared for its cruelty, malice and gangster attitude. They hurt Pokemon for fun and sink boats for sport. Sharpedos are among the fastest swimmers.*
 
 **DexID**:: 0319
 **Species**:: Sharpedo
@@ -41,5 +64,7 @@ Type2: Dark
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'9" / 1.8m
+**Weight**: 195.8lbs / 88.8kg
 
 ![[SRD-Sharpedo-Learnset]]

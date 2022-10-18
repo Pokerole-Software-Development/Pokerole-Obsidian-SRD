@@ -1,19 +1,36 @@
 ---
 Ability1: Chlorophyll
 Ability2: Own Tempo
+Baby: 'No'
+BookImageName: HOME549.png
+BookShinyImageName: HOME549_s.png
 BoxSprite: SRD-BoxSprite-lilligant.png
+DexCategory: Flowering Pokemon
+DexDescription: "Even veteran gardeners face a challenge in getting its beautiful\
+  \ flower to bloom as it withers with ease. This Pokemon is popular among celebrities\
+  \ due to it\u2019s grace, elegance and delicious aroma."
 EventAbilities: ''
 GenderType: F
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-HomeSprite-lilligant.png
 Learnset: '[[SRD-Lilligant-Learnset]]'
 Legendary: 'No'
 Name: Lilligant
 Number: 549
+PrimaryEggGroup: Grass
+SecondaryEggGroup: ''
 Sprite: lilligant.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 163
+  Kilograms: 16.3
+  Pounds: 35.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-lilligant.png|right]]
+
+*Flowering Pokemon*
+*Even veteran gardeners face a challenge in getting its beautiful flower to bloom as it withers with ease. This Pokemon is popular among celebrities due to it’s grace, elegance and delicious aroma.*
 
 **DexID**:: 0549
 **Species**:: Lilligant
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'6" / 1.1m
+**Weight**: 35.9lbs / 16.3kg
 
 ![[SRD-Lilligant-Learnset]]

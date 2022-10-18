@@ -1,19 +1,36 @@
 ---
 Ability1: Magnet Pull
 Ability2: Sturdy
+Baby: 'No'
+BookImageName: HOME076A.png
+BookShinyImageName: HOME076A_s.png
 BoxSprite: SRD-BoxSprite-golem-alola.png
+DexCategory: Megaton Pokemon
+DexDescription: "The Alolan variant of Golem does not roll around like its counterpart,\
+  \ instead it loads rocks into the charger on its head and shoots them around, if\
+  \ the rocks miss, the electric shockwave doesn\u2019t."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: Galvanize
 HomeSprite: SRD-HomeSprite-golem-alola.png
 Learnset: '[[SRD-Alolan Golem-Learnset]]'
 Legendary: 'No'
 Name: Alolan Golem
 Number: 76
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: golem-alola.png
 Type1: Rock
 Type2: Electric
+Weight:
+  Hectograms: 3160
+  Kilograms: 316.0
+  Pounds: 696.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Electric
 # `= this.name`
 
 ![[SRD-HomeSprite-golem-alola.png|right]]
+
+*Megaton Pokemon*
+*The Alolan variant of Golem does not roll around like its counterpart, instead it loads rocks into the charger on its head and shoots them around, if the rocks miss, the electric shockwave doesn’t.*
 
 **DexID**:: 0076A
 **Species**:: Alolan Golem
@@ -41,5 +61,7 @@ Type2: Electric
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 696.7lbs / 316.0kg
 
 ![[SRD-Alolan Golem-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Chlorophyll
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME045.png
+BookShinyImageName: HOME045_s.png
 BoxSprite: SRD-BoxSprite-vileplume.png
+DexCategory: Flower Pokemon
+DexDescription: "It lives in marshlands and jungles where it\u2019s often mistaken\
+  \ for local flora. The air around a Vileplume turns yellow with the powder it releases\
+  \ as it walks. The pollen is highly toxic and causes paralysis."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Effect Spore
 HomeSprite: SRD-HomeSprite-vileplume.png
 Learnset: '[[SRD-Vileplume-Learnset]]'
 Legendary: 'No'
 Name: Vileplume
 Number: 45
+PrimaryEggGroup: Grass
+SecondaryEggGroup: ''
 Sprite: vileplume.png
 Type1: Grass
 Type2: Poison
+Weight:
+  Hectograms: 186
+  Kilograms: 18.6
+  Pounds: 41.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-vileplume.png|right]]
+
+*Flower Pokemon*
+*It lives in marshlands and jungles where it’s often mistaken for local flora. The air around a Vileplume turns yellow with the powder it releases as it walks. The pollen is highly toxic and causes paralysis.*
 
 **DexID**:: 0045
 **Species**:: Vileplume
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 41.0lbs / 18.6kg
 
 ![[SRD-Vileplume-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Ice Body
 Ability2: Snow Cloak
+Baby: 'No'
+BookImageName: HOME582.png
+BookShinyImageName: HOME582_s.png
 BoxSprite: SRD-BoxSprite-vanillite.png
+DexCategory: Fresh Snow Pokemon
+DexDescription: This Pokemon were born from icicles that bathed in the energy of the
+  morning sun. It uses snow to cover its head and protect it from melting. They are
+  playful and love to make snow fall around them.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Weak Armor
 HomeSprite: SRD-HomeSprite-vanillite.png
 Learnset: '[[SRD-Vanillite-Learnset]]'
 Legendary: 'No'
 Name: Vanillite
 Number: 582
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: vanillite.png
 Type1: Ice
 Type2: ''
+Weight:
+  Hectograms: 57
+  Kilograms: 5.7
+  Pounds: 12.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-vanillite.png|right]]
+
+*Fresh Snow Pokemon*
+*This Pokemon were born from icicles that bathed in the energy of the morning sun. It uses snow to cover its head and protect it from melting. They are playful and love to make snow fall around them.*
 
 **DexID**:: 0582
 **Species**:: Vanillite
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 12.6lbs / 5.7kg
 
 ![[SRD-Vanillite-Learnset]]

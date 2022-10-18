@@ -1,19 +1,36 @@
 ---
 Ability1: Wandering Spirit
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME562G.png
+BookShinyImageName: HOME562G_s.png
 BoxSprite: SRD-BoxSprite-yamask-galar.png
+DexCategory: Spirit Pokemon
+DexDescription: "It\u2019s said that this Pokemon was formed when an ancient clay\
+  \ tablet was drawn to the dark energy of a spirit. The clay slab seems to be absorbing\
+  \ Yamask's power that\u2019s why it is so pale."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-yamask-galar.png
 Learnset: '[[SRD-Galarian Yamask-Learnset]]'
 Legendary: 'No'
 Name: Galarian Yamask
 Number: 562
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: Amorphous
 Sprite: yamask-galar.png
 Type1: Ground
 Type2: Ghost
+Weight:
+  Hectograms: 15
+  Kilograms: 1.5
+  Pounds: 3.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-yamask-galar.png|right]]
+
+*Spirit Pokemon*
+*It’s said that this Pokemon was formed when an ancient clay tablet was drawn to the dark energy of a spirit. The clay slab seems to be absorbing Yamask's power that’s why it is so pale.*
 
 **DexID**:: 0562G
 **Species**:: Galarian Yamask
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 3.3lbs / 1.5kg
 
 ![[SRD-Galarian Yamask-Learnset]]

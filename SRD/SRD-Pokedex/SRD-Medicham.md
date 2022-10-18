@@ -1,19 +1,39 @@
 ---
 Ability1: Pure Power
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME308.png
+BookShinyImageName: HOME308_s.png
 BoxSprite: SRD-BoxSprite-medicham.png
+DexCategory: Meditate Pokemon
+DexDescription: "They are thought to posses a sixth sense. Some of them can hide their\
+  \ presence by lowering their ki. Medichams fight with expert yoga moves, foretelling\
+  \ their foe\u2019s attacks and sensing their thoughts."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-medicham.png
 Learnset: '[[SRD-Medicham-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Medichamite
+  Name: Mega-Medicham
 Name: Medicham
 Number: 308
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: medicham.png
 Type1: Fighting
 Type2: Psychic
+Weight:
+  Hectograms: 315
+  Kilograms: 31.5
+  Pounds: 69.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-medicham.png|right]]
+
+*Meditate Pokemon*
+*They are thought to posses a sixth sense. Some of them can hide their presence by lowering their ki. Medichams fight with expert yoga moves, foretelling their foe’s attacks and sensing their thoughts.*
 
 **DexID**:: 0308
 **Species**:: Medicham
@@ -41,5 +64,7 @@ Type2: Psychic
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 69.4lbs / 31.5kg
 
 ![[SRD-Medicham-Learnset]]

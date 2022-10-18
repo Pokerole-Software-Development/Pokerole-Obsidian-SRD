@@ -1,19 +1,36 @@
 ---
 Ability1: Water Compaction
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME770.png
+BookShinyImageName: HOME770_s.png
 BoxSprite: SRD-BoxSprite-palossand.png
+DexCategory: Sand Castle Pokemon
+DexDescription: The possessed people shaped this Pokemon into a castle, buried beneath
+  the sand where it stands are the remains of all its victims. Some say these unmarked
+  graves will give birth to a new Sandygast.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-palossand.png
 Learnset: '[[SRD-Palossand-Learnset]]'
 Legendary: 'No'
 Name: Palossand
 Number: 770
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: palossand.png
 Type1: Ghost
 Type2: Ground
+Weight:
+  Hectograms: 2500
+  Kilograms: 250.0
+  Pounds: 551.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-palossand.png|right]]
+
+*Sand Castle Pokemon*
+*The possessed people shaped this Pokemon into a castle, buried beneath the sand where it stands are the remains of all its victims. Some say these unmarked graves will give birth to a new Sandygast.*
 
 **DexID**:: 0770
 **Species**:: Palossand
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 551.2lbs / 250.0kg
 
 ![[SRD-Palossand-Learnset]]

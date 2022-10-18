@@ -1,19 +1,36 @@
 ---
 Ability1: Color Change
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME352.png
+BookShinyImageName: HOME352_s.png
 BoxSprite: SRD-BoxSprite-kecleon.png
+DexCategory: Color Swap Pokemon
+DexDescription: "They are able to change their colors to blend with their surroundings.\
+  \ The only part of its body that can\u2019t change is the red zigzag line on its\
+  \ belly. Kecleon is very sneaky, smart and kind of insolent."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Protean
 HomeSprite: SRD-HomeSprite-kecleon.png
 Learnset: '[[SRD-Kecleon-Learnset]]'
 Legendary: 'No'
 Name: Kecleon
 Number: 352
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: kecleon.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 220
+  Kilograms: 22.0
+  Pounds: 48.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-kecleon.png|right]]
+
+*Color Swap Pokemon*
+*They are able to change their colors to blend with their surroundings. The only part of its body that can’t change is the red zigzag line on its belly. Kecleon is very sneaky, smart and kind of insolent.*
 
 **DexID**:: 0352
 **Species**:: Kecleon
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 48.5lbs / 22.0kg
 
 ![[SRD-Kecleon-Learnset]]

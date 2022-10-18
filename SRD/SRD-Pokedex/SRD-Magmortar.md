@@ -1,19 +1,36 @@
 ---
 Ability1: Flame Body
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME467.png
+BookShinyImageName: HOME467_s.png
 BoxSprite: SRD-BoxSprite-magmortar.png
+DexCategory: Blast Pokemon
+DexDescription: "Magmortar is extremely rare, if you\u2019re lucky you can find one\
+  \ living directly on volcanic craters. It rises the temperature of its body at will\
+  \ to the point of bursting into flames. The fire it produces is almost white."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: Vital Spirit
 HomeSprite: SRD-HomeSprite-magmortar.png
 Learnset: '[[SRD-Magmortar-Learnset]]'
 Legendary: 'No'
 Name: Magmortar
 Number: 467
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: magmortar.png
 Type1: Fire
 Type2: ''
+Weight:
+  Hectograms: 680
+  Kilograms: 68.0
+  Pounds: 149.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-magmortar.png|right]]
+
+*Blast Pokemon*
+*Magmortar is extremely rare, if you’re lucky you can find one living directly on volcanic craters. It rises the temperature of its body at will to the point of bursting into flames. The fire it produces is almost white.*
 
 **DexID**:: 0467
 **Species**:: Magmortar
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 149.9lbs / 68.0kg
 
 ![[SRD-Magmortar-Learnset]]

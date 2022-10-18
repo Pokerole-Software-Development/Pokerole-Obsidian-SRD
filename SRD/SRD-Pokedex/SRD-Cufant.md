@@ -1,19 +1,36 @@
 ---
 Ability1: Sheer Force
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME878.png
+BookShinyImageName: HOME878_s.png
 BoxSprite: SRD-BoxSprite-cufant.png
+DexCategory: Copperderm Pokemon
+DexDescription: If a job requires serious strength, this Pokemon will excel at it.
+  Its copper body tarnishes in the rain, turning a vibrant green color. Its trunk
+  is specially designed to dig the ground, in the wild they uproot trees to eat.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Heavy Metal
 HomeSprite: SRD-HomeSprite-cufant.png
 Learnset: '[[SRD-Cufant-Learnset]]'
 Legendary: 'No'
 Name: Cufant
 Number: 878
+PrimaryEggGroup: Field
+SecondaryEggGroup: Mineral
 Sprite: cufant.png
 Type1: Steel
 Type2: ''
+Weight:
+  Hectograms: 1000
+  Kilograms: 100.0
+  Pounds: 220.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-cufant.png|right]]
+
+*Copperderm Pokemon*
+*If a job requires serious strength, this Pokemon will excel at it. Its copper body tarnishes in the rain, turning a vibrant green color. Its trunk is specially designed to dig the ground, in the wild they uproot trees to eat.*
 
 **DexID**:: 0878
 **Species**:: Cufant
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'9" / 1.2m
+**Weight**: 220.5lbs / 100.0kg
 
 ![[SRD-Cufant-Learnset]]

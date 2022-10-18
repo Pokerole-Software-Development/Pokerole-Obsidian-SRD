@@ -1,19 +1,35 @@
 ---
 Ability1: Pressure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME484.png
+BookShinyImageName: HOME484_s.png
 BoxSprite: SRD-BoxSprite-palkia.png
+DexCategory: No Data
+DexDescription: A fantasy book describes a place where space bends in impossible ways
+  and the master of that site was a Pokemon with a similar appearance.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 42
+  Feet: 13.8
+  Meters: 4.2
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-palkia.png
 Learnset: '[[SRD-Palkia-Learnset]]'
 Legendary: 'Yes'
 Name: Palkia
 Number: 484
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: palkia.png
 Type1: Water
 Type2: Dragon
+Weight:
+  Hectograms: 3360
+  Kilograms: 336.0
+  Pounds: 740.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-palkia.png|right]]
+
+*No Data*
+*A fantasy book describes a place where space bends in impossible ways and the master of that site was a Pokemon with a similar appearance.*
 
 **DexID**:: 0484
 **Species**:: Palkia
@@ -41,5 +60,7 @@ Type2: Dragon
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 13'8" / 4.2m
+**Weight**: 740.8lbs / 336.0kg
 
 ![[SRD-Palkia-Learnset]]

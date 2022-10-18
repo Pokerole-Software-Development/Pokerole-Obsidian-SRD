@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME603.png
+BookShinyImageName: HOME603_s.png
 BoxSprite: SRD-BoxSprite-eelektrik.png
+DexCategory: EleFish Pokemon
+DexDescription: "These Pokemon have a really big appetite. When they spot their prey,\
+  \ they coil around it and shock it with their electricity-generating organs, which\
+  \ are the yellow circles on it\u2019s skin."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-eelektrik.png
 Learnset: '[[SRD-Eelektrik-Learnset]]'
 Legendary: 'No'
 Name: Eelektrik
 Number: 603
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: eelektrik.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 220
+  Kilograms: 22.0
+  Pounds: 48.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-eelektrik.png|right]]
+
+*EleFish Pokemon*
+*These Pokemon have a really big appetite. When they spot their prey, they coil around it and shock it with their electricity-generating organs, which are the yellow circles on it’s skin.*
 
 **DexID**:: 0603
 **Species**:: Eelektrik
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'9" / 1.2m
+**Weight**: 48.5lbs / 22.0kg
 
 ![[SRD-Eelektrik-Learnset]]

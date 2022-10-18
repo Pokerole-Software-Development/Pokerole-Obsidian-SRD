@@ -1,19 +1,36 @@
 ---
 Ability1: Snow Cloak
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME037A.png
+BookShinyImageName: HOME037A_s.png
 BoxSprite: SRD-BoxSprite-vulpix-alola.png
+DexCategory: Fox Pokemon
+DexDescription: "The Vulpix who became stranded in Alola had to change type in order\
+  \ to survive. Alola\u2019s local name for this Pokemon is Keokeo. They use their\
+  \ tails as a fan to cool themselves in hot climates."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Snow Warning
 HomeSprite: SRD-HomeSprite-vulpix-alola.png
 Learnset: '[[SRD-Alolan Vulpix-Learnset]]'
 Legendary: 'No'
 Name: Alolan Vulpix
 Number: 37
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: vulpix-alola.png
 Type1: Ice
 Type2: ''
+Weight:
+  Hectograms: 99
+  Kilograms: 9.9
+  Pounds: 21.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-vulpix-alola.png|right]]
+
+*Fox Pokemon*
+*The Vulpix who became stranded in Alola had to change type in order to survive. Alola’s local name for this Pokemon is Keokeo. They use their tails as a fan to cool themselves in hot climates.*
 
 **DexID**:: 0037A
 **Species**:: Alolan Vulpix
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 21.8lbs / 9.9kg
 
 ![[SRD-Alolan Vulpix-Learnset]]

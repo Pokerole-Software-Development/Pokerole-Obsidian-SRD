@@ -1,19 +1,36 @@
 ---
 Ability1: Run Away
 Ability2: Pickup
+Baby: 'No'
+BookImageName: HOME190.png
+BookShinyImageName: HOME190_s.png
 BoxSprite: SRD-BoxSprite-aipom.png
+DexCategory: Long Tail Pokemon
+DexDescription: It lives at the top of tall trees in forests and jungles. It uses
+  its tail tip as a third hand. However, because the Pokemon uses its tail so much,
+  its real hands become rather clumsy. It is very playful.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Skill Link
 HomeSprite: SRD-HomeSprite-aipom.png
 Learnset: '[[SRD-Aipom-Learnset]]'
 Legendary: 'No'
 Name: Aipom
 Number: 190
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: aipom.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 115
+  Kilograms: 11.5
+  Pounds: 25.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-aipom.png|right]]
+
+*Long Tail Pokemon*
+*It lives at the top of tall trees in forests and jungles. It uses its tail tip as a third hand. However, because the Pokemon uses its tail so much, its real hands become rather clumsy. It is very playful.*
 
 **DexID**:: 0190
 **Species**:: Aipom
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 25.4lbs / 11.5kg
 
 ![[SRD-Aipom-Learnset]]

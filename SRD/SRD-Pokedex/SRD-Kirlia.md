@@ -1,19 +1,36 @@
 ---
 Ability1: Synchronize
 Ability2: Trace
+Baby: 'No'
+BookImageName: HOME281.png
+BookShinyImageName: HOME281_s.png
 BoxSprite: SRD-BoxSprite-kirlia.png
+DexCategory: Emotion Pokemon
+DexDescription: When they use their powers, their surroundings are distorted with
+  mirages and illusory sceneries from the future and the past. Kirlias like to dance
+  and dislike to be bossed around.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-kirlia.png
 Learnset: '[[SRD-Kirlia-Learnset]]'
 Legendary: 'No'
 Name: Kirlia
 Number: 281
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: Amorphous
 Sprite: kirlia.png
 Type1: Psychic
 Type2: Fairy
+Weight:
+  Hectograms: 202
+  Kilograms: 20.2
+  Pounds: 44.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-kirlia.png|right]]
+
+*Emotion Pokemon*
+*When they use their powers, their surroundings are distorted with mirages and illusory sceneries from the future and the past. Kirlias like to dance and dislike to be bossed around.*
 
 **DexID**:: 0281
 **Species**:: Kirlia
@@ -41,5 +61,7 @@ Type2: Fairy
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 44.5lbs / 20.2kg
 
 ![[SRD-Kirlia-Learnset]]

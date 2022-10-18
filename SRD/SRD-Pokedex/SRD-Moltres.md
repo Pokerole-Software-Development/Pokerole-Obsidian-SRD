@@ -1,19 +1,36 @@
 ---
 Ability1: Pressure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME146.png
+BookShinyImageName: HOME146_s.png
 BoxSprite: SRD-BoxSprite-moltres.png
+DexCategory: No Data
+DexDescription: "The legend speaks of a bird who came flying from the south. Its fiery\
+  \ body melted the snow and brought the spring along. A children\u2018s book depicts\
+  \ a similar Pokemon living inside of a volcano."
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 20
+  Feet: 6.6
+  Meters: 2.0
 HiddenAbility: Flame Body
 HomeSprite: SRD-HomeSprite-moltres.png
 Learnset: '[[SRD-Moltres-Learnset]]'
 Legendary: 'Yes'
 Name: Moltres
 Number: 146
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: moltres.png
 Type1: Fire
 Type2: Flying
+Weight:
+  Hectograms: 600
+  Kilograms: 60.0
+  Pounds: 132.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-moltres.png|right]]
+
+*No Data*
+*The legend speaks of a bird who came flying from the south. Its fiery body melted the snow and brought the spring along. A children‘s book depicts a similar Pokemon living inside of a volcano.*
 
 **DexID**:: 0146
 **Species**:: Moltres
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'6" / 2.0m
+**Weight**: 132.3lbs / 60.0kg
 
 ![[SRD-Moltres-Learnset]]

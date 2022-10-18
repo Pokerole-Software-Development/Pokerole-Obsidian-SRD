@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME355.png
+BookShinyImageName: HOME355_s.png
 BoxSprite: SRD-BoxSprite-duskull.png
+DexCategory: Requiem Pokemon
+DexDescription: They wander at night. They can make themselves invisible and they
+  follow travelers all night until dawn breaks. It loves the crying of little children,
+  they can be seen scaring kids who misbehaved during the day.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Frisk
 HomeSprite: SRD-HomeSprite-duskull.png
 Learnset: '[[SRD-Duskull-Learnset]]'
 Legendary: 'No'
 Name: Duskull
 Number: 355
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: duskull.png
 Type1: Ghost
 Type2: ''
+Weight:
+  Hectograms: 150
+  Kilograms: 15.0
+  Pounds: 33.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-duskull.png|right]]
+
+*Requiem Pokemon*
+*They wander at night. They can make themselves invisible and they follow travelers all night until dawn breaks. It loves the crying of little children, they can be seen scaring kids who misbehaved during the day.*
 
 **DexID**:: 0355
 **Species**:: Duskull
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 33.1lbs / 15.0kg
 
 ![[SRD-Duskull-Learnset]]

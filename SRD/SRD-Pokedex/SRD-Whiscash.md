@@ -1,19 +1,36 @@
 ---
 Ability1: Oblivious
 Ability2: Anticipation
+Baby: 'No'
+BookImageName: HOME340.png
+BookShinyImageName: HOME340_s.png
 BoxSprite: SRD-BoxSprite-whiscash.png
+DexCategory: Whiskers Pokemon
+DexDescription: Dangerous and territorial, they claim entire ponds as their homes
+  and will crush whoever dares to dive in with earthquakes. They eat anything alive
+  in their pond or swamp. They have learned to foretell real tremors.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Hydration
 HomeSprite: SRD-HomeSprite-whiscash.png
 Learnset: '[[SRD-Whiscash-Learnset]]'
 Legendary: 'No'
 Name: Whiscash
 Number: 340
+PrimaryEggGroup: Water 2
+SecondaryEggGroup: ''
 Sprite: whiscash.png
 Type1: Water
 Type2: Ground
+Weight:
+  Hectograms: 236
+  Kilograms: 23.6
+  Pounds: 52.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-whiscash.png|right]]
+
+*Whiskers Pokemon*
+*Dangerous and territorial, they claim entire ponds as their homes and will crush whoever dares to dive in with earthquakes. They eat anything alive in their pond or swamp. They have learned to foretell real tremors.*
 
 **DexID**:: 0340
 **Species**:: Whiscash
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'0" / 0.9m
+**Weight**: 52.0lbs / 23.6kg
 
 ![[SRD-Whiscash-Learnset]]

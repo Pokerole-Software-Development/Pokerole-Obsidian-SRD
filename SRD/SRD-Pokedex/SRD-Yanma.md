@@ -1,19 +1,36 @@
 ---
 Ability1: Speed Boost
 Ability2: Compound Eyes
+Baby: 'No'
+BookImageName: HOME193.png
+BookShinyImageName: HOME193_s.png
 BoxSprite: SRD-BoxSprite-yanma.png
+DexCategory: Clear Wing Pokemon
+DexDescription: It lives near water sources. Its eyes can see 360 degrees without
+  even moving. Yanma is a great flyer capable of making sudden stops and turning midair
+  to quickly chase down targeted prey.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Frisk
 HomeSprite: SRD-HomeSprite-yanma.png
 Learnset: '[[SRD-Yanma-Learnset]]'
 Legendary: 'No'
 Name: Yanma
 Number: 193
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: yanma.png
 Type1: Bug
 Type2: Flying
+Weight:
+  Hectograms: 380
+  Kilograms: 38.0
+  Pounds: 83.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-yanma.png|right]]
+
+*Clear Wing Pokemon*
+*It lives near water sources. Its eyes can see 360 degrees without even moving. Yanma is a great flyer capable of making sudden stops and turning midair to quickly chase down targeted prey.*
 
 **DexID**:: 0193
 **Species**:: Yanma
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'9" / 1.2m
+**Weight**: 83.8lbs / 38.0kg
 
 ![[SRD-Yanma-Learnset]]

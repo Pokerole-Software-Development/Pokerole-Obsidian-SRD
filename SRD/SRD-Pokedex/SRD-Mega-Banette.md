@@ -1,19 +1,36 @@
 ---
 Ability1: Prankster
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME354M.png
+BookShinyImageName: HOME354M_s.png
 BoxSprite: SRD-BoxSprite-banette-mega.png
+DexCategory: Marionette Pokemon
+DexDescription: "The power of the Mega Stone rips the layer keeping all the cursed\
+  \ energy in. Its vindictive nature is so overwhelming that it can\u2019t help but\
+  \ to curse its own Trainer."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-banette-mega.png
 Learnset: '[[SRD-Mega-Banette-Learnset]]'
 Legendary: 'No'
 Name: Mega-Banette
 Number: 354
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: banette-mega.png
 Type1: Ghost
 Type2: ''
+Weight:
+  Hectograms: 130
+  Kilograms: 13.0
+  Pounds: 28.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-banette-mega.png|right]]
+
+*Marionette Pokemon*
+*The power of the Mega Stone rips the layer keeping all the cursed energy in. Its vindictive nature is so overwhelming that it can’t help but to curse its own Trainer.*
 
 **DexID**:: 0354M1
 **Species**:: Mega-Banette
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 28.7lbs / 13.0kg
 
 ![[SRD-Mega-Banette-Learnset]]

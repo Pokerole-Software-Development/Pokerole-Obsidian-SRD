@@ -1,19 +1,36 @@
 ---
 Ability1: Big Pecks
 Ability2: Super Luck
+Baby: 'No'
+BookImageName: HOME520.png
+BookShinyImageName: HOME520_s.png
 BoxSprite: SRD-BoxSprite-tranquill.png
+DexCategory: Wild Pigeon Pokemon
+DexDescription: "During war and old times people made use of Tranquil\u2019s sense\
+  \ of location to send letters. It will never fail to find it\u2019s way back home.\
+  \ They like quiet forests and enjoy to relax in the peace and quiet."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Rivalry
 HomeSprite: SRD-HomeSprite-tranquill.png
 Learnset: '[[SRD-Tranquill-Learnset]]'
 Legendary: 'No'
 Name: Tranquill
 Number: 520
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: tranquill.png
 Type1: Normal
 Type2: Flying
+Weight:
+  Hectograms: 150
+  Kilograms: 15.0
+  Pounds: 33.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-tranquill.png|right]]
+
+*Wild Pigeon Pokemon*
+*During war and old times people made use of Tranquil’s sense of location to send letters. It will never fail to find it’s way back home. They like quiet forests and enjoy to relax in the peace and quiet.*
 
 **DexID**:: 0520
 **Species**:: Tranquill
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 33.1lbs / 15.0kg
 
 ![[SRD-Tranquill-Learnset]]

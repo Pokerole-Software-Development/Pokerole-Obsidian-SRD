@@ -1,19 +1,36 @@
 ---
 Ability1: Mega Launcher
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME009M.png
+BookShinyImageName: HOME009M_s.png
 BoxSprite: SRD-BoxSprite-blastoise-mega.png
+DexCategory: Shellfish Pokemon
+DexDescription: With the power of the Mega Stone the canon on its back can shoot exploding
+  water projectiles that can pierce through concrete. Its body is incredibly hard
+  and its hind legs root themselves to prevent recoil.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-blastoise-mega.png
 Learnset: '[[SRD-Mega-Blastoise-Learnset]]'
 Legendary: 'No'
 Name: Mega-Blastoise
 Number: 9
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Water 1
 Sprite: blastoise-mega.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 1011
+  Kilograms: 101.1
+  Pounds: 222.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-blastoise-mega.png|right]]
+
+*Shellfish Pokemon*
+*With the power of the Mega Stone the canon on its back can shoot exploding water projectiles that can pierce through concrete. Its body is incredibly hard and its hind legs root themselves to prevent recoil.*
 
 **DexID**:: 0009M1
 **Species**:: Mega-Blastoise
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 222.9lbs / 101.1kg
 
 ![[SRD-Mega-Blastoise-Learnset]]

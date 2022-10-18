@@ -1,19 +1,36 @@
 ---
 Ability1: Iron Barbs
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME598.png
+BookShinyImageName: HOME598_s.png
 BoxSprite: SRD-BoxSprite-ferrothorn.png
+DexCategory: Thorn Pod Pokemon
+DexDescription: It attaches itself to cave ceilings by swinging around its spiky feelers.
+  It shoots spikes at targets passing beneath. It is incredibly resilient and stubborn,
+  it will whip you if you try to take its spot in the cave walls..
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Anticipation
 HomeSprite: SRD-HomeSprite-ferrothorn.png
 Learnset: '[[SRD-Ferrothorn-Learnset]]'
 Legendary: 'No'
 Name: Ferrothorn
 Number: 598
+PrimaryEggGroup: Grass
+SecondaryEggGroup: Mineral
 Sprite: ferrothorn.png
 Type1: Grass
 Type2: Steel
+Weight:
+  Hectograms: 1100
+  Kilograms: 110.0
+  Pounds: 242.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-ferrothorn.png|right]]
+
+*Thorn Pod Pokemon*
+*It attaches itself to cave ceilings by swinging around its spiky feelers. It shoots spikes at targets passing beneath. It is incredibly resilient and stubborn, it will whip you if you try to take its spot in the cave walls..*
 
 **DexID**:: 0598
 **Species**:: Ferrothorn
@@ -41,5 +61,7 @@ Type2: Steel
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 242.5lbs / 110.0kg
 
 ![[SRD-Ferrothorn-Learnset]]

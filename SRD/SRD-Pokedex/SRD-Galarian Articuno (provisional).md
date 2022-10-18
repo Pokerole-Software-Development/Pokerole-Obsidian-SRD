@@ -1,19 +1,34 @@
 ---
 Ability1: Competitive
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME144G.png
+BookShinyImageName: HOME144G_s.png
 BoxSprite: SRD-BoxSprite-articuno-galar.png
+DexCategory: ''
+DexDescription: ''
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-articuno-galar.png
 Learnset: '[[SRD-Galarian Articuno (provisional)-Learnset]]'
 Legendary: 'Yes'
 Name: Galarian Articuno (provisional)
 Number: 144
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: articuno-galar.png
 Type1: Psychic
 Type2: Flying
+Weight:
+  Hectograms: 509
+  Kilograms: 50.9
+  Pounds: 112.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +36,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-articuno-galar.png|right]]
+
+**
+**
 
 **DexID**:: 0144G
 **Species**:: Galarian Articuno (provisional)
@@ -41,5 +59,7 @@ Type2: Flying
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 112.2lbs / 50.9kg
 
 ![[SRD-Galarian Articuno (provisional)-Learnset]]

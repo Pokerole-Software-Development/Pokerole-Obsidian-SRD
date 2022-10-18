@@ -1,19 +1,36 @@
 ---
 Ability1: Iron Barbs
 Ability2: Lightning Rod
+Baby: 'No'
+BookImageName: HOME777.png
+BookShinyImageName: HOME777_s.png
 BoxSprite: SRD-BoxSprite-togedemaru.png
+DexCategory: Roly-Poly Pokemon
+DexDescription: On stormy days you can see groups of Togedemaru curled up into balls
+  with their spikes out, waiting to be struck by lightning. These spikes also deter
+  other Pokemon from attacking this cute creature.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Sturdy
 HomeSprite: SRD-HomeSprite-togedemaru.png
 Learnset: '[[SRD-Togedemaru-Learnset]]'
 Legendary: 'No'
 Name: Togedemaru
 Number: 777
+PrimaryEggGroup: Field
+SecondaryEggGroup: Fairy
 Sprite: togedemaru.png
 Type1: Electric
 Type2: Steel
+Weight:
+  Hectograms: 33
+  Kilograms: 3.3
+  Pounds: 7.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-togedemaru.png|right]]
+
+*Roly-Poly Pokemon*
+*On stormy days you can see groups of Togedemaru curled up into balls with their spikes out, waiting to be struck by lightning. These spikes also deter other Pokemon from attacking this cute creature.*
 
 **DexID**:: 0777
 **Species**:: Togedemaru
@@ -41,5 +61,7 @@ Type2: Steel
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'0" / 0.3m
+**Weight**: 7.3lbs / 3.3kg
 
 ![[SRD-Togedemaru-Learnset]]

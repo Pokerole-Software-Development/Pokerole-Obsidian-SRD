@@ -1,19 +1,36 @@
 ---
 Ability1: Swift Swim
 Ability2: Battle Armor
+Baby: 'No'
+BookImageName: HOME141.png
+BookShinyImageName: HOME141_s.png
 BoxSprite: SRD-BoxSprite-kabutops.png
+DexCategory: Shellfish Pokemon
+DexDescription: "Kabutops swarmed underwater to hunt for prey. It was apparently evolving\
+  \ from being a water dweller to living on land. It\u2019s evident from the changes\
+  \ in its gills and legs. Its fossils suggests it was aggressive."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Weak Armor
 HomeSprite: SRD-HomeSprite-kabutops.png
 Learnset: '[[SRD-Kabutops-Learnset]]'
 Legendary: 'No'
 Name: Kabutops
 Number: 141
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Water 3
 Sprite: kabutops.png
 Type1: Rock
 Type2: Water
+Weight:
+  Hectograms: 405
+  Kilograms: 40.5
+  Pounds: 89.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Water
 # `= this.name`
 
 ![[SRD-HomeSprite-kabutops.png|right]]
+
+*Shellfish Pokemon*
+*Kabutops swarmed underwater to hunt for prey. It was apparently evolving from being a water dweller to living on land. It’s evident from the changes in its gills and legs. Its fossils suggests it was aggressive.*
 
 **DexID**:: 0141
 **Species**:: Kabutops
@@ -41,5 +61,7 @@ Type2: Water
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 89.3lbs / 40.5kg
 
 ![[SRD-Kabutops-Learnset]]

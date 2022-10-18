@@ -1,19 +1,36 @@
 ---
 Ability1: Pickup
 Ability2: Technician
+Baby: 'No'
+BookImageName: HOME052A.png
+BookShinyImageName: HOME052A_s.png
 BoxSprite: SRD-BoxSprite-meowth-alola.png
+DexCategory: Scratch Cat Pokemon
+DexDescription: "In old times, Meowth were taken to Alola as gifts for the tribe\u2019\
+  s royals, this caused them to become incredibly greedy and pampered. Nowadays they\
+  \ are feral, but their prideful nature remained."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-meowth-alola.png
 Learnset: '[[SRD-Alolan Meowth-Learnset]]'
 Legendary: 'No'
 Name: Alolan Meowth
 Number: 52
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: meowth-alola.png
 Type1: Dark
 Type2: ''
+Weight:
+  Hectograms: 42
+  Kilograms: 4.2
+  Pounds: 9.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-meowth-alola.png|right]]
+
+*Scratch Cat Pokemon*
+*In old times, Meowth were taken to Alola as gifts for the tribe’s royals, this caused them to become incredibly greedy and pampered. Nowadays they are feral, but their prideful nature remained.*
 
 **DexID**:: 0052A
 **Species**:: Alolan Meowth
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 9.3lbs / 4.2kg
 
 ![[SRD-Alolan Meowth-Learnset]]

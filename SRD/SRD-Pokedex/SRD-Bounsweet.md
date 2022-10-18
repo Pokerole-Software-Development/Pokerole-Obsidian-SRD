@@ -1,19 +1,36 @@
 ---
 Ability1: Leaf Guard
 Ability2: Oblivious
+Baby: 'No'
+BookImageName: HOME761.png
+BookShinyImageName: HOME761_s.png
 BoxSprite: SRD-BoxSprite-bounsweet.png
+DexCategory: Fruit Pokemon
+DexDescription: "This happy-go-lucky Pokemon produces a delicious aroma that unfortunately\
+  \ attracts predators to it, when it escapes, it looks as if it\u2019s happily skipping\
+  \ around so it rarely gets help."
 EventAbilities: ''
 GenderType: F
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Sweet Veil
 HomeSprite: SRD-HomeSprite-bounsweet.png
 Learnset: '[[SRD-Bounsweet-Learnset]]'
 Legendary: 'No'
 Name: Bounsweet
 Number: 761
+PrimaryEggGroup: Grass
+SecondaryEggGroup: ''
 Sprite: bounsweet.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 32
+  Kilograms: 3.2
+  Pounds: 7.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-bounsweet.png|right]]
+
+*Fruit Pokemon*
+*This happy-go-lucky Pokemon produces a delicious aroma that unfortunately attracts predators to it, when it escapes, it looks as if it’s happily skipping around so it rarely gets help.*
 
 **DexID**:: 0761
 **Species**:: Bounsweet
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 7.1lbs / 3.2kg
 
 ![[SRD-Bounsweet-Learnset]]

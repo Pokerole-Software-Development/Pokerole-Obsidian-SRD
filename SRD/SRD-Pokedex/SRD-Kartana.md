@@ -1,19 +1,36 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME798.png
+BookShinyImageName: HOME798_s.png
 BoxSprite: SRD-BoxSprite-kartana.png
+DexCategory: 'Aether Foundation Log #014'
+DexDescription: Its paper-thin body and agility make it too dangerous to approach
+  without serious risk of injury. Our team managed to immobilize it using a heat chamber,
+  though I swear I feel its resentment to us.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-kartana.png
 Learnset: '[[SRD-Kartana-Learnset]]'
 Legendary: 'Yes'
 Name: Kartana
 Number: 798
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: kartana.png
 Type1: Grass
 Type2: Steel
+Weight:
+  Hectograms: 1
+  Kilograms: 0.1
+  Pounds: 0.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-kartana.png|right]]
+
+*Aether Foundation Log #014*
+*Its paper-thin body and agility make it too dangerous to approach without serious risk of injury. Our team managed to immobilize it using a heat chamber, though I swear I feel its resentment to us.*
 
 **DexID**:: 0798
 **Species**:: Kartana
@@ -41,5 +61,7 @@ Type2: Steel
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'0" / 0.3m
+**Weight**: 0.2lbs / 0.1kg
 
 ![[SRD-Kartana-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Magic Bounce
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME719M.png
+BookShinyImageName: HOME719M_s.png
 BoxSprite: SRD-BoxSprite-diancie-mega.png
+DexCategory: 'Registered as #703 Carbink'
+DexDescription: "The popular saying goes like this: \u201CIf you put a Carbon under\
+  \ pressure you will get a Diamond\u201D But it surely was not referring to a Pokemon...\
+  \ or was it?"
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-diancie-mega.png
 Learnset: '[[SRD-Mega-Diancie-Learnset]]'
 Legendary: 'Yes'
 Name: Mega-Diancie
 Number: 719
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: diancie-mega.png
 Type1: Rock
 Type2: Fairy
+Weight:
+  Hectograms: 278
+  Kilograms: 27.8
+  Pounds: 61.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-diancie-mega.png|right]]
+
+*Registered as #703 Carbink*
+*The popular saying goes like this: “If you put a Carbon under pressure you will get a Diamond” But it surely was not referring to a Pokemon... or was it?*
 
 **DexID**:: 0719M1
 **Species**:: Mega-Diancie
@@ -41,5 +61,7 @@ Type2: Fairy
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'6" / 1.1m
+**Weight**: 61.3lbs / 27.8kg
 
 ![[SRD-Mega-Diancie-Learnset]]

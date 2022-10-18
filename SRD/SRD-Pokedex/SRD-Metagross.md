@@ -1,19 +1,39 @@
 ---
 Ability1: Clear Body
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME376.png
+BookShinyImageName: HOME376_s.png
 BoxSprite: SRD-BoxSprite-metagross.png
+DexCategory: Iron Leg Pokemon
+DexDescription: It has four powerful brains that allow it to react at the speed of
+  a super computer. It pins its prey under its massive body, then eats it using the
+  large mouth on its stomach. A powerful and ruthless Pokemon.
 EventAbilities: ''
 GenderType: N
 HasForm: 'Yes'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: Light Metal
 HomeSprite: SRD-HomeSprite-metagross.png
 Learnset: '[[SRD-Metagross-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Metagrossite
+  Name: Mega-Metagross
 Name: Metagross
 Number: 376
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: metagross.png
 Type1: Steel
 Type2: Psychic
+Weight:
+  Hectograms: 5500
+  Kilograms: 550.0
+  Pounds: 1212.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-metagross.png|right]]
+
+*Iron Leg Pokemon*
+*It has four powerful brains that allow it to react at the speed of a super computer. It pins its prey under its massive body, then eats it using the large mouth on its stomach. A powerful and ruthless Pokemon.*
 
 **DexID**:: 0376
 **Species**:: Metagross
@@ -41,5 +64,7 @@ Type2: Psychic
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 1212.5lbs / 550.0kg
 
 ![[SRD-Metagross-Learnset]]

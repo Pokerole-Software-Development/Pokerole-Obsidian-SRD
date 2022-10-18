@@ -1,19 +1,35 @@
 ---
 Ability1: Pressure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME243.png
+BookShinyImageName: HOME243_s.png
 BoxSprite: SRD-BoxSprite-raikou.png
+DexCategory: No Data
+DexDescription: Johto Legends tell about a Pokemon born from lightning, with barks
+  like crashing thunder, soaring the lands, sending resounding shock-waves as it walks.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 19
+  Feet: 6.2
+  Meters: 1.9
 HiddenAbility: Inner Focus
 HomeSprite: SRD-HomeSprite-raikou.png
 Learnset: '[[SRD-Raikou-Learnset]]'
 Legendary: 'Yes'
 Name: Raikou
 Number: 243
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: raikou.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 1780
+  Kilograms: 178.0
+  Pounds: 392.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-raikou.png|right]]
+
+*No Data*
+*Johto Legends tell about a Pokemon born from lightning, with barks like crashing thunder, soaring the lands, sending resounding shock-waves as it walks.*
 
 **DexID**:: 0243
 **Species**:: Raikou
@@ -41,5 +60,7 @@ Type2: ''
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'2" / 1.9m
+**Weight**: 392.4lbs / 178.0kg
 
 ![[SRD-Raikou-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Shed Skin
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME268.png
+BookShinyImageName: HOME268_s.png
 BoxSprite: SRD-BoxSprite-cascoon.png
+DexCategory: Cocoon Pokemon
+DexDescription: They hide between huge leaves and gaps between branches, if they were
+  to move, their evolution would be weaker. Due to this, Cascoon will remain motionless.
+  If Wrumple lived in a dark place, it evolves to Cascoon.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-cascoon.png
 Learnset: '[[SRD-Cascoon-Learnset]]'
 Legendary: 'No'
 Name: Cascoon
 Number: 268
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: cascoon.png
 Type1: Bug
 Type2: ''
+Weight:
+  Hectograms: 115
+  Kilograms: 11.5
+  Pounds: 25.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-cascoon.png|right]]
+
+*Cocoon Pokemon*
+*They hide between huge leaves and gaps between branches, if they were to move, their evolution would be weaker. Due to this, Cascoon will remain motionless. If Wrumple lived in a dark place, it evolves to Cascoon.*
 
 **DexID**:: 0268
 **Species**:: Cascoon
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 25.4lbs / 11.5kg
 
 ![[SRD-Cascoon-Learnset]]

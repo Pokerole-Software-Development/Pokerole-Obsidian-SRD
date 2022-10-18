@@ -1,19 +1,36 @@
 ---
 Ability1: Shed Skin
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME401.png
+BookShinyImageName: HOME401_s.png
 BoxSprite: SRD-BoxSprite-kricketot.png
+DexCategory: Cricket Pokemon
+DexDescription: If you hear a xilophone-like sound at night it means that this Pokemon
+  is roaming close. It communicates by making rhythmic sounds with its antennae. It
+  is not aggressive and feeds on honey and tree sap.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Run Away
 HomeSprite: SRD-HomeSprite-kricketot.png
 Learnset: '[[SRD-Kricketot-Learnset]]'
 Legendary: 'No'
 Name: Kricketot
 Number: 401
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: kricketot.png
 Type1: Bug
 Type2: ''
+Weight:
+  Hectograms: 22
+  Kilograms: 2.2
+  Pounds: 4.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-kricketot.png|right]]
+
+*Cricket Pokemon*
+*If you hear a xilophone-like sound at night it means that this Pokemon is roaming close. It communicates by making rhythmic sounds with its antennae. It is not aggressive and feeds on honey and tree sap.*
 
 **DexID**:: 0401
 **Species**:: Kricketot
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 4.9lbs / 2.2kg
 
 ![[SRD-Kricketot-Learnset]]

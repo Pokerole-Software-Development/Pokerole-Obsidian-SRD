@@ -1,19 +1,36 @@
 ---
 Ability1: Vital Spirit
 Ability2: Sand Rush
+Baby: 'No'
+BookImageName: HOME506.png
+BookShinyImageName: HOME506_s.png
 BoxSprite: SRD-BoxSprite-lillipup.png
+DexCategory: Puppy Pokemon
+DexDescription: "Good with children and old people, this gentle Pokemon is a favorite\
+  \ to keep as pet. It is very brave and smart and will protect it\u2019s trainer\
+  \ against any threat. It uses the hair on its head to feel its surroundings."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Scrappy
 HomeSprite: SRD-HomeSprite-lillipup.png
 Learnset: '[[SRD-Lillipup-Learnset]]'
 Legendary: 'No'
 Name: Lillipup
 Number: 506
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: lillipup.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 41
+  Kilograms: 4.1
+  Pounds: 9.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-lillipup.png|right]]
+
+*Puppy Pokemon*
+*Good with children and old people, this gentle Pokemon is a favorite to keep as pet. It is very brave and smart and will protect it’s trainer against any threat. It uses the hair on its head to feel its surroundings.*
 
 **DexID**:: 0506
 **Species**:: Lillipup
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 9.0lbs / 4.1kg
 
 ![[SRD-Lillipup-Learnset]]

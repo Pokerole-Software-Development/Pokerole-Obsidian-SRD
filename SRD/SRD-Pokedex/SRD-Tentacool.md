@@ -1,19 +1,36 @@
 ---
 Ability1: Clear Body
 Ability2: Liquid Ooze
+Baby: 'No'
+BookImageName: HOME072.png
+BookShinyImageName: HOME072_s.png
 BoxSprite: SRD-BoxSprite-tentacool.png
+DexCategory: Jellyfish Pokemon
+DexDescription: It lives in the seas all around the world. They release a toxic ink
+  if startled. It is a surprisingly intelligent Pokemon and can use its tentacles
+  to briefly establish a link between its mind and another creature.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Rain Dish
 HomeSprite: SRD-HomeSprite-tentacool.png
 Learnset: '[[SRD-Tentacool-Learnset]]'
 Legendary: 'No'
 Name: Tentacool
 Number: 72
+PrimaryEggGroup: Water 3
+SecondaryEggGroup: ''
 Sprite: tentacool.png
 Type1: Water
 Type2: Poison
+Weight:
+  Hectograms: 455
+  Kilograms: 45.5
+  Pounds: 100.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-tentacool.png|right]]
+
+*Jellyfish Pokemon*
+*It lives in the seas all around the world. They release a toxic ink if startled. It is a surprisingly intelligent Pokemon and can use its tentacles to briefly establish a link between its mind and another creature.*
 
 **DexID**:: 0072
 **Species**:: Tentacool
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'0" / 0.9m
+**Weight**: 100.3lbs / 45.5kg
 
 ![[SRD-Tentacool-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Cheek Pouch
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME820.png
+BookShinyImageName: HOME820_s.png
 BoxSprite: SRD-BoxSprite-greedent.png
+DexCategory: Greedy Pokemon
+DexDescription: They are a little dim-witted as they think on nothing but eating.
+  Greedent hide and store berries on their tails, many of them fall of, becoming new
+  trees the next year. Their teeth are very strong.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Gluttony
 HomeSprite: SRD-HomeSprite-greedent.png
 Learnset: '[[SRD-Greedent-Learnset]]'
 Legendary: 'No'
 Name: Greedent
 Number: 820
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: greedent.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 60
+  Kilograms: 6.0
+  Pounds: 13.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-greedent.png|right]]
+
+*Greedy Pokemon*
+*They are a little dim-witted as they think on nothing but eating. Greedent hide and store berries on their tails, many of them fall of, becoming new trees the next year. Their teeth are very strong.*
 
 **DexID**:: 0820
 **Species**:: Greedent
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'0" / 0.6m
+**Weight**: 13.2lbs / 6.0kg
 
 ![[SRD-Greedent-Learnset]]

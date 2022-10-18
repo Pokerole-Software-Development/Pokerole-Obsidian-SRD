@@ -1,19 +1,36 @@
 ---
 Ability1: Flower Gift
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME421.png
+BookShinyImageName: HOME421_s.png
 BoxSprite: SRD-BoxSprite-cherrim.png
+DexCategory: Blossom Pokemon
+DexDescription: Cherrims bloom during times of strong sunlight, their petals open
+  fully and radiant. If the sun is not visible, it will remain as a closed bud, barely
+  moving trying to preserve its energy.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-cherrim.png
 Learnset: '[[SRD-Cherrim-Learnset]]'
 Legendary: 'No'
 Name: Cherrim
 Number: 421
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: Grass
 Sprite: cherrim.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 93
+  Kilograms: 9.3
+  Pounds: 20.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-cherrim.png|right]]
+
+*Blossom Pokemon*
+*Cherrims bloom during times of strong sunlight, their petals open fully and radiant. If the sun is not visible, it will remain as a closed bud, barely moving trying to preserve its energy.*
 
 **DexID**:: 0421
 **Species**:: Cherrim
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'6" / 0.5m
+**Weight**: 20.5lbs / 9.3kg
 
 ![[SRD-Cherrim-Learnset]]

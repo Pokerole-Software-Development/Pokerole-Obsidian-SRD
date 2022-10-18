@@ -1,19 +1,36 @@
 ---
 Ability1: Compound Eyes
 Ability2: Unnerve
+Baby: 'No'
+BookImageName: HOME596.png
+BookShinyImageName: HOME596_s.png
 BoxSprite: SRD-BoxSprite-galvantula.png
+DexCategory: EleSpider Pokemon
+DexDescription: They employ an electrically charged web to trap their prey. While
+  it is immobilized by shock, they leisurely consume it. They usually live alone but
+  there have been cases of large swarms living together in caves.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Swarm
 HomeSprite: SRD-HomeSprite-galvantula.png
 Learnset: '[[SRD-Galvantula-Learnset]]'
 Legendary: 'No'
 Name: Galvantula
 Number: 596
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: galvantula.png
 Type1: Bug
 Type2: Electric
+Weight:
+  Hectograms: 143
+  Kilograms: 14.3
+  Pounds: 31.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Electric
 # `= this.name`
 
 ![[SRD-HomeSprite-galvantula.png|right]]
+
+*EleSpider Pokemon*
+*They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it. They usually live alone but there have been cases of large swarms living together in caves.*
 
 **DexID**:: 0596
 **Species**:: Galvantula
@@ -41,5 +61,7 @@ Type2: Electric
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'6" / 0.8m
+**Weight**: 31.5lbs / 14.3kg
 
 ![[SRD-Galvantula-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Torrent
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME008.png
+BookShinyImageName: HOME008_s.png
 BoxSprite: SRD-BoxSprite-wartortle.png
+DexCategory: Turtle Pokemon
+DexDescription: "Its large tail is covered with rich, thick fur that deepens in color\
+  \ with age. The scratches on its shell are evidence of this Pokemon\u2019s tough\
+  \ attitude in battle. It is a good hunter underwater."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Rain Dish
 HomeSprite: SRD-HomeSprite-wartortle.png
 Learnset: '[[SRD-Wartortle-Learnset]]'
 Legendary: 'No'
 Name: Wartortle
 Number: 8
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Water 1
 Sprite: wartortle.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 225
+  Kilograms: 22.5
+  Pounds: 49.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-wartortle.png|right]]
+
+*Turtle Pokemon*
+*Its large tail is covered with rich, thick fur that deepens in color with age. The scratches on its shell are evidence of this Pokemon’s tough attitude in battle. It is a good hunter underwater.*
 
 **DexID**:: 0008
 **Species**:: Wartortle
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 49.6lbs / 22.5kg
 
 ![[SRD-Wartortle-Learnset]]

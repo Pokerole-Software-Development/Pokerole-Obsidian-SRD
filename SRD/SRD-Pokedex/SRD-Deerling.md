@@ -1,19 +1,36 @@
 ---
 Ability1: Chlorophyll
 Ability2: Sap Sipper
+Baby: 'No'
+BookImageName: HOME585.png
+BookShinyImageName: HOME585_s.png
 BoxSprite: SRD-BoxSprite-deerling.png
+DexCategory: Season Pokemon
+DexDescription: They are born at the beginning of the spring. Their coloring changes
+  according to the season and can be affected by temperature as well. It usually stays
+  hidden in tall grass while its mother is away.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Serene Grace
 HomeSprite: SRD-HomeSprite-deerling.png
 Learnset: '[[SRD-Deerling-Learnset]]'
 Legendary: 'No'
 Name: Deerling
 Number: 585
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: deerling.png
 Type1: Normal
 Type2: Grass
+Weight:
+  Hectograms: 195
+  Kilograms: 19.5
+  Pounds: 43.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Grass
 # `= this.name`
 
 ![[SRD-HomeSprite-deerling.png|right]]
+
+*Season Pokemon*
+*They are born at the beginning of the spring. Their coloring changes according to the season and can be affected by temperature as well. It usually stays hidden in tall grass while its mother is away.*
 
 **DexID**:: 0585
 **Species**:: Deerling
@@ -41,5 +61,7 @@ Type2: Grass
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 43.0lbs / 19.5kg
 
 ![[SRD-Deerling-Learnset]]

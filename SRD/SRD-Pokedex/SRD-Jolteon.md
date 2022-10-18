@@ -1,19 +1,36 @@
 ---
 Ability1: Volt Absorb
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME135.png
+BookShinyImageName: HOME135_s.png
 BoxSprite: SRD-BoxSprite-jolteon.png
+DexCategory: Lightning Pokemon
+DexDescription: This Pokemon evolved after being affected by electric radiation. Every
+  hair on its body starts to stand sharply if it becomes charged with electricity.
+  It shoots lightning from all around its body.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Quick Feet
 HomeSprite: SRD-HomeSprite-jolteon.png
 Learnset: '[[SRD-Jolteon-Learnset]]'
 Legendary: 'No'
 Name: Jolteon
 Number: 135
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: jolteon.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 245
+  Kilograms: 24.5
+  Pounds: 54.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-jolteon.png|right]]
+
+*Lightning Pokemon*
+*This Pokemon evolved after being affected by electric radiation. Every hair on its body starts to stand sharply if it becomes charged with electricity. It shoots lightning from all around its body.*
 
 **DexID**:: 0135
 **Species**:: Jolteon
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'6" / 0.8m
+**Weight**: 54.0lbs / 24.5kg
 
 ![[SRD-Jolteon-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Chlorophyll
 Ability2: Leaf Guard
+Baby: 'No'
+BookImageName: HOME188.png
+BookShinyImageName: HOME188_s.png
 BoxSprite: SRD-BoxSprite-skiploom.png
+DexCategory: Cottonweed Pokemon
+DexDescription: It blooms when the weather is warm. If the weather gets cold, the
+  bloom will close and it will stop flying. This is not an aggressive Pokemon but
+  it can cause allergies if it floats directly above you.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-skiploom.png
 Learnset: '[[SRD-Skiploom-Learnset]]'
 Legendary: 'No'
 Name: Skiploom
 Number: 188
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: Grass
 Sprite: skiploom.png
 Type1: Grass
 Type2: Flying
+Weight:
+  Hectograms: 10
+  Kilograms: 1.0
+  Pounds: 2.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-skiploom.png|right]]
+
+*Cottonweed Pokemon*
+*It blooms when the weather is warm. If the weather gets cold, the bloom will close and it will stop flying. This is not an aggressive Pokemon but it can cause allergies if it floats directly above you.*
 
 **DexID**:: 0188
 **Species**:: Skiploom
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 2.2lbs / 1.0kg
 
 ![[SRD-Skiploom-Learnset]]

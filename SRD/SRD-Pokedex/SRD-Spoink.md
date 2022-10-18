@@ -1,19 +1,36 @@
 ---
 Ability1: Thick Fat
 Ability2: Own Tempo
+Baby: 'No'
+BookImageName: HOME325.png
+BookShinyImageName: HOME325_s.png
 BoxSprite: SRD-BoxSprite-spoink.png
+DexCategory: Bounce Pokemon
+DexDescription: "They are always bouncing with their tail. If they ever stop, their\
+  \ heart wouldn\u2019t beat anymore. Spoinks balance a pearl from Clamperl on their\
+  \ head, if it\u2019s lost, they won\u2019t be able to control their psychic powers."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Gluttony
 HomeSprite: SRD-HomeSprite-spoink.png
 Learnset: '[[SRD-Spoink-Learnset]]'
 Legendary: 'No'
 Name: Spoink
 Number: 325
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: spoink.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 306
+  Kilograms: 30.6
+  Pounds: 67.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-spoink.png|right]]
+
+*Bounce Pokemon*
+*They are always bouncing with their tail. If they ever stop, their heart wouldn’t beat anymore. Spoinks balance a pearl from Clamperl on their head, if it’s lost, they won’t be able to control their psychic powers.*
 
 **DexID**:: 0325
 **Species**:: Spoink
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 67.5lbs / 30.6kg
 
 ![[SRD-Spoink-Learnset]]

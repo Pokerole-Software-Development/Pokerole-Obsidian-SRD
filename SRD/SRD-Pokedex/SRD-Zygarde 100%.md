@@ -1,19 +1,34 @@
 ---
 Ability1: Aura Break
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME718C.png
+BookShinyImageName: HOME718C_s.png
 BoxSprite: SRD-BoxSprite-zygarde-10.png
+DexCategory: No Data
+DexDescription: The complete form of Zygarde
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 45
+  Feet: 14.8
+  Meters: 4.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-zygarde-10.png
 Learnset: '[[SRD-Zygarde 100%-Learnset]]'
 Legendary: 'Yes'
 Name: Zygarde 100%
 Number: 718
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: zygarde-10.png
 Type1: Dragon
 Type2: Ground
+Weight:
+  Hectograms: 6100
+  Kilograms: 610.0
+  Pounds: 1344.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +36,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-zygarde-10.png|right]]
+
+*No Data*
+*The complete form of Zygarde*
 
 **DexID**:: 0718F3
 **Species**:: Zygarde 100%
@@ -41,5 +59,7 @@ Type2: Ground
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 14'8" / 4.5m
+**Weight**: 1344.8lbs / 610.0kg
 
 ![[SRD-Zygarde 100%-Learnset]]

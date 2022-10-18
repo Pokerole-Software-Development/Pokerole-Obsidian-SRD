@@ -1,19 +1,36 @@
 ---
 Ability1: Sand Veil
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME332.png
+BookShinyImageName: HOME332_s.png
 BoxSprite: SRD-BoxSprite-cacturne.png
+DexCategory: Scarecrow Pokemon
+DexDescription: They only move during the night. If they spot a traveler, Cacturnes
+  will stalk them in groups, waiting for the exhausted creatures to sleep before attacking.
+  Their insides are actually sand.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Water Absorb
 HomeSprite: SRD-HomeSprite-cacturne.png
 Learnset: '[[SRD-Cacturne-Learnset]]'
 Legendary: 'No'
 Name: Cacturne
 Number: 332
+PrimaryEggGroup: Grass
+SecondaryEggGroup: Human-Like
 Sprite: cacturne.png
 Type1: Grass
 Type2: Dark
+Weight:
+  Hectograms: 774
+  Kilograms: 77.4
+  Pounds: 170.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dark
 # `= this.name`
 
 ![[SRD-HomeSprite-cacturne.png|right]]
+
+*Scarecrow Pokemon*
+*They only move during the night. If they spot a traveler, Cacturnes will stalk them in groups, waiting for the exhausted creatures to sleep before attacking. Their insides are actually sand.*
 
 **DexID**:: 0332
 **Species**:: Cacturne
@@ -41,5 +61,7 @@ Type2: Dark
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 170.6lbs / 77.4kg
 
 ![[SRD-Cacturne-Learnset]]

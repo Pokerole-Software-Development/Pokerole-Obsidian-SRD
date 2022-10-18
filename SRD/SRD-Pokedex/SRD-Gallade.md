@@ -1,19 +1,39 @@
 ---
 Ability1: Steadfast
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME475.png
+BookShinyImageName: HOME475_s.png
 BoxSprite: SRD-BoxSprite-gallade.png
+DexCategory: Blade Pokemon
+DexDescription: "This Pokemon is male only. He has an extreme sense of courtesy. In\
+  \ a battle, it uses the blades on his arms as if they were swords. It is a loyal\
+  \ Pokemon and won\u2019t doubt to fiercely protect its trainer."
 EventAbilities: ''
 GenderType: M
 HasForm: 'Yes'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: Justified
 HomeSprite: SRD-HomeSprite-gallade.png
 Learnset: '[[SRD-Gallade-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Galladite
+  Name: Mega-Gallade
 Name: Gallade
 Number: 475
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: Amorphous
 Sprite: gallade.png
 Type1: Psychic
 Type2: Fighting
+Weight:
+  Hectograms: 520
+  Kilograms: 52.0
+  Pounds: 114.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-gallade.png|right]]
+
+*Blade Pokemon*
+*This Pokemon is male only. He has an extreme sense of courtesy. In a battle, it uses the blades on his arms as if they were swords. It is a loyal Pokemon and won’t doubt to fiercely protect its trainer.*
 
 **DexID**:: 0475
 **Species**:: Gallade
@@ -41,5 +64,7 @@ Type2: Fighting
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 114.6lbs / 52.0kg
 
 ![[SRD-Gallade-Learnset]]

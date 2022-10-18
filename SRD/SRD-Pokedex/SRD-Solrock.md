@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME338.png
+BookShinyImageName: HOME338_s.png
 BoxSprite: SRD-BoxSprite-solrock.png
+DexCategory: Meteorite Pokemon
+DexDescription: People say it came from space. They release the purest light when
+  they get angry. Usually found absorbing solar light during the day, Solrocks can
+  emit blinding lights and burning heat while spinning.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-solrock.png
 Learnset: '[[SRD-Solrock-Learnset]]'
 Legendary: 'No'
 Name: Solrock
 Number: 338
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: solrock.png
 Type1: Rock
 Type2: Psychic
+Weight:
+  Hectograms: 1540
+  Kilograms: 154.0
+  Pounds: 339.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-solrock.png|right]]
+
+*Meteorite Pokemon*
+*People say it came from space. They release the purest light when they get angry. Usually found absorbing solar light during the day, Solrocks can emit blinding lights and burning heat while spinning.*
 
 **DexID**:: 0338
 **Species**:: Solrock
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 339.5lbs / 154.0kg
 
 ![[SRD-Solrock-Learnset]]

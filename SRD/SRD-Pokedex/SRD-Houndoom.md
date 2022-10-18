@@ -1,19 +1,39 @@
 ---
 Ability1: Early Bird
 Ability2: Flash Fire
+Baby: 'No'
+BookImageName: HOME229.png
+BookShinyImageName: HOME229_s.png
 BoxSprite: SRD-BoxSprite-houndoom.png
+DexCategory: Dark Pokemon
+DexDescription: It is said the pain from its flames never goes away. Long ago, their
+  howl was thought to be the call of the grim reaper. Pokemon and people who hear
+  it, will always shiver in fear. They are pack leaders, not followers
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 14
+  Feet: 4.6
+  Meters: 1.4
 HiddenAbility: Unnerve
 HomeSprite: SRD-HomeSprite-houndoom.png
 Learnset: '[[SRD-Houndoom-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Houndoominite
+  Name: Mega-Houndoom
 Name: Houndoom
 Number: 229
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: houndoom.png
 Type1: Dark
 Type2: Fire
+Weight:
+  Hectograms: 350
+  Kilograms: 35.0
+  Pounds: 77.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: Fire
 # `= this.name`
 
 ![[SRD-HomeSprite-houndoom.png|right]]
+
+*Dark Pokemon*
+*It is said the pain from its flames never goes away. Long ago, their howl was thought to be the call of the grim reaper. Pokemon and people who hear it, will always shiver in fear. They are pack leaders, not followers*
 
 **DexID**:: 0229
 **Species**:: Houndoom
@@ -41,5 +64,7 @@ Type2: Fire
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'6" / 1.4m
+**Weight**: 77.2lbs / 35.0kg
 
 ![[SRD-Houndoom-Learnset]]

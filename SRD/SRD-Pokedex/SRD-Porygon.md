@@ -1,19 +1,36 @@
 ---
 Ability1: Trace
 Ability2: Download
+Baby: 'No'
+BookImageName: HOME137.png
+BookShinyImageName: HOME137_s.png
 BoxSprite: SRD-BoxSprite-porygon.png
+DexCategory: Virtual Pokemon
+DexDescription: The first case of a man-made Pokemon created as computer data. It
+  is capable of reverting itself into a program in order to enter the cyberspace.
+  Its software has a firewall so it cannot be copied.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Analytic
 HomeSprite: SRD-HomeSprite-porygon.png
 Learnset: '[[SRD-Porygon-Learnset]]'
 Legendary: 'No'
 Name: Porygon
 Number: 137
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: porygon.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 365
+  Kilograms: 36.5
+  Pounds: 80.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-porygon.png|right]]
+
+*Virtual Pokemon*
+*The first case of a man-made Pokemon created as computer data. It is capable of reverting itself into a program in order to enter the cyberspace. Its software has a firewall so it cannot be copied.*
 
 **DexID**:: 0137
 **Species**:: Porygon
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 80.5lbs / 36.5kg
 
 ![[SRD-Porygon-Learnset]]

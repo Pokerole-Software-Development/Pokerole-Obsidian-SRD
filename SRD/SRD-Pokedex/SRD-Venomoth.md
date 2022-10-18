@@ -1,19 +1,36 @@
 ---
 Ability1: Shield Dust
 Ability2: Tinted Lens
+Baby: 'No'
+BookImageName: HOME049.png
+BookShinyImageName: HOME049_s.png
 BoxSprite: SRD-BoxSprite-venomoth.png
+DexCategory: Poison Moth Pokemon
+DexDescription: They are plentiful in forests but only come out at night. They possess
+  an incredible eyesight and are attracted to light sources. Their wings scatter a
+  toxic powder which they use to immobilize their prey.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Wonder Skin
 HomeSprite: SRD-HomeSprite-venomoth.png
 Learnset: '[[SRD-Venomoth-Learnset]]'
 Legendary: 'No'
 Name: Venomoth
 Number: 49
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: venomoth.png
 Type1: Bug
 Type2: Poison
+Weight:
+  Hectograms: 125
+  Kilograms: 12.5
+  Pounds: 27.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-venomoth.png|right]]
+
+*Poison Moth Pokemon*
+*They are plentiful in forests but only come out at night. They possess an incredible eyesight and are attracted to light sources. Their wings scatter a toxic powder which they use to immobilize their prey.*
 
 **DexID**:: 0049
 **Species**:: Venomoth
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 27.6lbs / 12.5kg
 
 ![[SRD-Venomoth-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Blaze
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME655.png
+BookShinyImageName: HOME655_s.png
 BoxSprite: SRD-BoxSprite-delphox.png
+DexCategory: Fox Pokemon
+DexDescription: It swirls its twig to create amazing flamethrowers. It gazes into
+  the flame at the tip of its stick to achieve a focused state and rumor says that
+  it can see the future within the glowing ember.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Magician
 HomeSprite: SRD-HomeSprite-delphox.png
 Learnset: '[[SRD-Delphox-Learnset]]'
 Legendary: 'No'
 Name: Delphox
 Number: 655
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: delphox.png
 Type1: Fire
 Type2: Psychic
+Weight:
+  Hectograms: 390
+  Kilograms: 39.0
+  Pounds: 86.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-delphox.png|right]]
+
+*Fox Pokemon*
+*It swirls its twig to create amazing flamethrowers. It gazes into the flame at the tip of its stick to achieve a focused state and rumor says that it can see the future within the glowing ember.*
 
 **DexID**:: 0655
 **Species**:: Delphox
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 86.0lbs / 39.0kg
 
 ![[SRD-Delphox-Learnset]]

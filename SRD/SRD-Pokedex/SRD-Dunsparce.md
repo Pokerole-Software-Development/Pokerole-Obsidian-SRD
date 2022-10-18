@@ -1,19 +1,36 @@
 ---
 Ability1: Serene Grace
 Ability2: Run Away
+Baby: 'No'
+BookImageName: HOME206.png
+BookShinyImageName: HOME206_s.png
 BoxSprite: SRD-BoxSprite-dunsparce.png
+DexCategory: Land Snake Pokemon
+DexDescription: If seen, Dunsparce is quick to escape by boring into the ground with
+  its drill tail. It can float slightly with its wings. It is almost blind but finds
+  its way in the huge underground mazes where it lives.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Rattled
 HomeSprite: SRD-HomeSprite-dunsparce.png
 Learnset: '[[SRD-Dunsparce-Learnset]]'
 Legendary: 'No'
 Name: Dunsparce
 Number: 206
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: dunsparce.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 140
+  Kilograms: 14.0
+  Pounds: 30.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-dunsparce.png|right]]
+
+*Land Snake Pokemon*
+*If seen, Dunsparce is quick to escape by boring into the ground with its drill tail. It can float slightly with its wings. It is almost blind but finds its way in the huge underground mazes where it lives.*
 
 **DexID**:: 0206
 **Species**:: Dunsparce
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 30.9lbs / 14.0kg
 
 ![[SRD-Dunsparce-Learnset]]

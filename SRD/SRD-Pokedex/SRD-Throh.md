@@ -1,19 +1,36 @@
 ---
 Ability1: Guts
 Ability2: Inner Focus
+Baby: 'No'
+BookImageName: HOME538.png
+BookShinyImageName: HOME538_s.png
 BoxSprite: SRD-BoxSprite-throh.png
+DexCategory: Judo Pokemon
+DexDescription: When they encounter foes bigger than themselves, they try to throw
+  them away. In the wild they always travel in packs of five and make their clothes
+  and belts out of plants and vines.
 EventAbilities: ''
 GenderType: M
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-HomeSprite-throh.png
 Learnset: '[[SRD-Throh-Learnset]]'
 Legendary: 'No'
 Name: Throh
 Number: 538
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: throh.png
 Type1: Fighting
 Type2: ''
+Weight:
+  Hectograms: 555
+  Kilograms: 55.5
+  Pounds: 122.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-throh.png|right]]
+
+*Judo Pokemon*
+*When they encounter foes bigger than themselves, they try to throw them away. In the wild they always travel in packs of five and make their clothes and belts out of plants and vines.*
 
 **DexID**:: 0538
 **Species**:: Throh
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 122.4lbs / 55.5kg
 
 ![[SRD-Throh-Learnset]]

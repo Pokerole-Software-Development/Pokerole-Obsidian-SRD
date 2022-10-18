@@ -1,19 +1,36 @@
 ---
 Ability1: Water Absorb
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME134.png
+BookShinyImageName: HOME134_s.png
 BoxSprite: SRD-BoxSprite-vaporeon.png
+DexCategory: Bubble Jet Pokemon
+DexDescription: Vaporeon underwent through a strange mutation, it grew fins and gills
+  that allow it to live underwater. This Pokemon has the ability to become translucent
+  when it dives underwater.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Hydration
 HomeSprite: SRD-HomeSprite-vaporeon.png
 Learnset: '[[SRD-Vaporeon-Learnset]]'
 Legendary: 'No'
 Name: Vaporeon
 Number: 134
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: vaporeon.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 290
+  Kilograms: 29.0
+  Pounds: 63.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-vaporeon.png|right]]
+
+*Bubble Jet Pokemon*
+*Vaporeon underwent through a strange mutation, it grew fins and gills that allow it to live underwater. This Pokemon has the ability to become translucent when it dives underwater.*
 
 **DexID**:: 0134
 **Species**:: Vaporeon
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 63.9lbs / 29.0kg
 
 ![[SRD-Vaporeon-Learnset]]

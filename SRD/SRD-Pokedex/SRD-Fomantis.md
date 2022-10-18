@@ -1,19 +1,36 @@
 ---
 Ability1: Leaf Guard
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME753.png
+BookShinyImageName: HOME753_s.png
 BoxSprite: SRD-BoxSprite-fomantis.png
+DexCategory: Sickle Grass Pokemon
+DexDescription: They sleep during the day, absorbing sunlight in a flower meadow;
+  by night they become active and search for another spot to sleep. Their arms are
+  made or sharp grass leaves to defend themselves.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Contrary
 HomeSprite: SRD-HomeSprite-fomantis.png
 Learnset: '[[SRD-Fomantis-Learnset]]'
 Legendary: 'No'
 Name: Fomantis
 Number: 753
+PrimaryEggGroup: Grass
+SecondaryEggGroup: ''
 Sprite: fomantis.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 15
+  Kilograms: 1.5
+  Pounds: 3.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-fomantis.png|right]]
+
+*Sickle Grass Pokemon*
+*They sleep during the day, absorbing sunlight in a flower meadow; by night they become active and search for another spot to sleep. Their arms are made or sharp grass leaves to defend themselves.*
 
 **DexID**:: 0753
 **Species**:: Fomantis
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 3.3lbs / 1.5kg
 
 ![[SRD-Fomantis-Learnset]]

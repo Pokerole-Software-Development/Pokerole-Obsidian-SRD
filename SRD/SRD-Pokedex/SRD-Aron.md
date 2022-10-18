@@ -1,19 +1,36 @@
 ---
 Ability1: Sturdy
 Ability2: Rock Head
+Baby: 'No'
+BookImageName: HOME304.png
+BookShinyImageName: HOME304_s.png
 BoxSprite: SRD-BoxSprite-aron.png
+DexCategory: Iron Armor Pokemon
+DexDescription: They can be seen feeding on iron ore in the mountains or causing trouble
+  by eating rails, bridges and vehicles. When they evolve, Arons shed their steel
+  armors and develop a stronger one.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Heavy Metal
 HomeSprite: SRD-HomeSprite-aron.png
 Learnset: '[[SRD-Aron-Learnset]]'
 Legendary: 'No'
 Name: Aron
 Number: 304
+PrimaryEggGroup: Monster
+SecondaryEggGroup: ''
 Sprite: aron.png
 Type1: Steel
 Type2: Rock
+Weight:
+  Hectograms: 600
+  Kilograms: 60.0
+  Pounds: 132.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Rock
 # `= this.name`
 
 ![[SRD-HomeSprite-aron.png|right]]
+
+*Iron Armor Pokemon*
+*They can be seen feeding on iron ore in the mountains or causing trouble by eating rails, bridges and vehicles. When they evolve, Arons shed their steel armors and develop a stronger one.*
 
 **DexID**:: 0304
 **Species**:: Aron
@@ -41,5 +61,7 @@ Type2: Rock
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 132.3lbs / 60.0kg
 
 ![[SRD-Aron-Learnset]]

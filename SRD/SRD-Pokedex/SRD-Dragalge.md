@@ -1,19 +1,36 @@
 ---
 Ability1: Poison Point
 Ability2: Poison Touch
+Baby: 'No'
+BookImageName: HOME691.png
+BookShinyImageName: HOME691_s.png
 BoxSprite: SRD-BoxSprite-dragalge.png
+DexCategory: Mock Kelp Pokemon
+DexDescription: Their poison is strong enough to eat through the hull of a tanker,
+  and they spit it indiscriminately at anything that enters their territory. Touching
+  them can be fatal if you are not treated within a few hours.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 18
+  Feet: 5.9
+  Meters: 1.8
 HiddenAbility: Adaptability
 HomeSprite: SRD-HomeSprite-dragalge.png
 Learnset: '[[SRD-Dragalge-Learnset]]'
 Legendary: 'No'
 Name: Dragalge
 Number: 691
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Dragon
 Sprite: dragalge.png
 Type1: Poison
 Type2: Dragon
+Weight:
+  Hectograms: 815
+  Kilograms: 81.5
+  Pounds: 179.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-dragalge.png|right]]
+
+*Mock Kelp Pokemon*
+*Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory. Touching them can be fatal if you are not treated within a few hours.*
 
 **DexID**:: 0691
 **Species**:: Dragalge
@@ -41,5 +61,7 @@ Type2: Dragon
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'9" / 1.8m
+**Weight**: 179.7lbs / 81.5kg
 
 ![[SRD-Dragalge-Learnset]]

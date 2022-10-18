@@ -1,19 +1,36 @@
 ---
 Ability1: Rock Head
 Ability2: Sturdy
+Baby: 'No'
+BookImageName: HOME074.png
+BookShinyImageName: HOME074_s.png
 BoxSprite: SRD-BoxSprite-geodude.png
+DexCategory: Rock Pokemon
+DexDescription: Lives in mountains and caves. It looks indistinguishable from other
+  rocks around. Because of this, many trainers step on them and are attacked. It rolls
+  to move around and eats whatever it finds on the floor.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Sand Veil
 HomeSprite: SRD-HomeSprite-geodude.png
 Learnset: '[[SRD-Geodude-Learnset]]'
 Legendary: 'No'
 Name: Geodude
 Number: 74
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: geodude.png
 Type1: Rock
 Type2: Ground
+Weight:
+  Hectograms: 200
+  Kilograms: 20.0
+  Pounds: 44.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-geodude.png|right]]
+
+*Rock Pokemon*
+*Lives in mountains and caves. It looks indistinguishable from other rocks around. Because of this, many trainers step on them and are attacked. It rolls to move around and eats whatever it finds on the floor.*
 
 **DexID**:: 0074
 **Species**:: Geodude
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 44.1lbs / 20.0kg
 
 ![[SRD-Geodude-Learnset]]

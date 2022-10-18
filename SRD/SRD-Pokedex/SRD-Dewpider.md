@@ -1,19 +1,36 @@
 ---
 Ability1: Water Bubble
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME751.png
+BookShinyImageName: HOME751_s.png
 BoxSprite: SRD-BoxSprite-dewpider.png
+DexCategory: Water Bubble Pokemon
+DexDescription: It lives on shallow water pools, but goes into the land to find prey.
+  Its water bubble allows it to breath outside of its pool and serves as a weapon
+  to hunt or defend itself. As it grows its bubble grows as well.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Water Absorb
 HomeSprite: SRD-HomeSprite-dewpider.png
 Learnset: '[[SRD-Dewpider-Learnset]]'
 Legendary: 'No'
 Name: Dewpider
 Number: 751
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Bug
 Sprite: dewpider.png
 Type1: Water
 Type2: Bug
+Weight:
+  Hectograms: 40
+  Kilograms: 4.0
+  Pounds: 8.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Bug
 # `= this.name`
 
 ![[SRD-HomeSprite-dewpider.png|right]]
+
+*Water Bubble Pokemon*
+*It lives on shallow water pools, but goes into the land to find prey. Its water bubble allows it to breath outside of its pool and serves as a weapon to hunt or defend itself. As it grows its bubble grows as well.*
 
 **DexID**:: 0751
 **Species**:: Dewpider
@@ -41,5 +61,7 @@ Type2: Bug
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 8.8lbs / 4.0kg
 
 ![[SRD-Dewpider-Learnset]]

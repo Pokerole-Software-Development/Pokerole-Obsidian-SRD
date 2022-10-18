@@ -1,19 +1,36 @@
 ---
 Ability1: Rock Head
 Ability2: Sturdy
+Baby: 'No'
+BookImageName: HOME095.png
+BookShinyImageName: HOME095_s.png
 BoxSprite: SRD-BoxSprite-onix.png
+DexCategory: Rock Snake Pokemon
+DexDescription: "It is not full-size when it\u2019s born. Years of eating boulders\
+  \ make it a real giant. It lives on mountains and dark tunnels. Its frightening\
+  \ roars travel as echo through the cave. It is very aggressive towards others."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 88
+  Feet: 28.9
+  Meters: 8.8
 HiddenAbility: Weak Armor
 HomeSprite: SRD-HomeSprite-onix.png
 Learnset: '[[SRD-Onix-Learnset]]'
 Legendary: 'No'
 Name: Onix
 Number: 95
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: onix.png
 Type1: Rock
 Type2: Ground
+Weight:
+  Hectograms: 2100
+  Kilograms: 210.0
+  Pounds: 463.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-onix.png|right]]
+
+*Rock Snake Pokemon*
+*It is not full-size when it’s born. Years of eating boulders make it a real giant. It lives on mountains and dark tunnels. Its frightening roars travel as echo through the cave. It is very aggressive towards others.*
 
 **DexID**:: 0095
 **Species**:: Onix
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 28'9" / 8.8m
+**Weight**: 463.0lbs / 210.0kg
 
 ![[SRD-Onix-Learnset]]

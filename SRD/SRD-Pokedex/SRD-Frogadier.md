@@ -1,19 +1,36 @@
 ---
 Ability1: Torrent
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME657.png
+BookShinyImageName: HOME657_s.png
 BoxSprite: SRD-BoxSprite-frogadier.png
+DexCategory: Bubble Frog Pokemon
+DexDescription: It is incredibly hard to catch. It starts practicing its skills by
+  throwing foam covered pebbles at foes. Many trainers find this rebellious stage
+  very challenging to handle and end up being its targets of practice.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Protean
 HomeSprite: SRD-HomeSprite-frogadier.png
 Learnset: '[[SRD-Frogadier-Learnset]]'
 Legendary: 'No'
 Name: Frogadier
 Number: 657
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: ''
 Sprite: frogadier.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 109
+  Kilograms: 10.9
+  Pounds: 24.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-frogadier.png|right]]
+
+*Bubble Frog Pokemon*
+*It is incredibly hard to catch. It starts practicing its skills by throwing foam covered pebbles at foes. Many trainers find this rebellious stage very challenging to handle and end up being its targets of practice.*
 
 **DexID**:: 0657
 **Species**:: Frogadier
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 24.0lbs / 10.9kg
 
 ![[SRD-Frogadier-Learnset]]

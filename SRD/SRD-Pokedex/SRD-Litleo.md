@@ -1,19 +1,36 @@
 ---
 Ability1: Rivalry
 Ability2: Unnerve
+Baby: 'No'
+BookImageName: HOME667.png
+BookShinyImageName: HOME667_s.png
 BoxSprite: SRD-BoxSprite-litleo.png
+DexCategory: Lion Cub Pokemon
+DexDescription: Quick on temper and to take on a fight. They use their mane to scorch
+  their enemies. Some of them set off from their pride to live alone. Only those who
+  develop a full mane get to lead their own pride.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Moxie
 HomeSprite: SRD-HomeSprite-litleo.png
 Learnset: '[[SRD-Litleo-Learnset]]'
 Legendary: 'No'
 Name: Litleo
 Number: 667
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: litleo.png
 Type1: Fire
 Type2: Normal
+Weight:
+  Hectograms: 135
+  Kilograms: 13.5
+  Pounds: 29.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Normal
 # `= this.name`
 
 ![[SRD-HomeSprite-litleo.png|right]]
+
+*Lion Cub Pokemon*
+*Quick on temper and to take on a fight. They use their mane to scorch their enemies. Some of them set off from their pride to live alone. Only those who develop a full mane get to lead their own pride.*
 
 **DexID**:: 0667
 **Species**:: Litleo
@@ -41,5 +61,7 @@ Type2: Normal
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 29.8lbs / 13.5kg
 
 ![[SRD-Litleo-Learnset]]

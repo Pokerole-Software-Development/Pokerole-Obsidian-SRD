@@ -1,19 +1,36 @@
 ---
 Ability1: Pressure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME386A.png
+BookShinyImageName: HOME386A_s.png
 BoxSprite: SRD-BoxSprite-deoxys-attack.png
+DexCategory: No Data
+DexDescription: The main engineer of the space crew reported a tentacled creature
+  that ripped with ease through the thick metal hull of the ship to escape. The ship
+  was recovered and was indeed torn in two sections.
 EventAbilities: ''
 GenderType: N
 HasForm: 'Yes'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-deoxys-attack.png
 Learnset: '[[SRD-Attack Deoxys-Learnset]]'
 Legendary: 'Yes'
 Name: Attack Deoxys
 Number: 386
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: deoxys-attack.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 608
+  Kilograms: 60.8
+  Pounds: 134.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-deoxys-attack.png|right]]
+
+*No Data*
+*The main engineer of the space crew reported a tentacled creature that ripped with ease through the thick metal hull of the ship to escape. The ship was recovered and was indeed torn in two sections.*
 
 **DexID**:: 0386F1
 **Species**:: Attack Deoxys
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 134.0lbs / 60.8kg
 
 ![[SRD-Attack Deoxys-Learnset]]

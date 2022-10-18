@@ -1,19 +1,36 @@
 ---
 Ability1: Blaze
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME727.png
+BookShinyImageName: HOME727_s.png
 BoxSprite: SRD-BoxSprite-incineroar.png
+DexCategory: Heel Pokemon
+DexDescription: It has a bad reputation, some of them have attacked the opposing Trainer
+  during battles. They are also prone to disobey their own Trainer, going for a more
+  brutal fighting style to shred their foes to pieces.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 18
+  Feet: 5.9
+  Meters: 1.8
 HiddenAbility: Intimidate
 HomeSprite: SRD-HomeSprite-incineroar.png
 Learnset: '[[SRD-Incineroar-Learnset]]'
 Legendary: 'No'
 Name: Incineroar
 Number: 727
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: incineroar.png
 Type1: Fire
 Type2: Dark
+Weight:
+  Hectograms: 830
+  Kilograms: 83.0
+  Pounds: 183.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dark
 # `= this.name`
 
 ![[SRD-HomeSprite-incineroar.png|right]]
+
+*Heel Pokemon*
+*It has a bad reputation, some of them have attacked the opposing Trainer during battles. They are also prone to disobey their own Trainer, going for a more brutal fighting style to shred their foes to pieces.*
 
 **DexID**:: 0727
 **Species**:: Incineroar
@@ -41,5 +61,7 @@ Type2: Dark
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'9" / 1.8m
+**Weight**: 183.0lbs / 83.0kg
 
 ![[SRD-Incineroar-Learnset]]

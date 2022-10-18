@@ -1,19 +1,36 @@
 ---
 Ability1: Motor Drive
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME466.png
+BookShinyImageName: HOME466_s.png
 BoxSprite: SRD-BoxSprite-electivire.png
+DexCategory: Thunderbolt Pokemon
+DexDescription: This Pokemon is reckless and has a short temper. As its electric charge
+  amplifies, blue sparks begin to crackle between its horns. It has registered charge
+  levels of over 20,000 Volts.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 18
+  Feet: 5.9
+  Meters: 1.8
 HiddenAbility: Vital Spirit
 HomeSprite: SRD-HomeSprite-electivire.png
 Learnset: '[[SRD-Electivire-Learnset]]'
 Legendary: 'No'
 Name: Electivire
 Number: 466
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: electivire.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 1386
+  Kilograms: 138.6
+  Pounds: 305.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-electivire.png|right]]
+
+*Thunderbolt Pokemon*
+*This Pokemon is reckless and has a short temper. As its electric charge amplifies, blue sparks begin to crackle between its horns. It has registered charge levels of over 20,000 Volts.*
 
 **DexID**:: 0466
 **Species**:: Electivire
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'9" / 1.8m
+**Weight**: 305.6lbs / 138.6kg
 
 ![[SRD-Electivire-Learnset]]

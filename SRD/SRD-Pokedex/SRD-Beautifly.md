@@ -1,19 +1,36 @@
 ---
 Ability1: Swarm
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME267.png
+BookShinyImageName: HOME267_s.png
 BoxSprite: SRD-BoxSprite-beautifly.png
+DexCategory: Butterfly Pokemon
+DexDescription: "They can\u2019t resist the pollen of flowers, if you leave one in\
+  \ the window, a Beautifly is sure to come. Despite their appearance, they are aggressive,\
+  \ they drain living creatures of their fluids just as they do with flowers."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Rivalry
 HomeSprite: SRD-HomeSprite-beautifly.png
 Learnset: '[[SRD-Beautifly-Learnset]]'
 Legendary: 'No'
 Name: Beautifly
 Number: 267
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: beautifly.png
 Type1: Bug
 Type2: Flying
+Weight:
+  Hectograms: 284
+  Kilograms: 28.4
+  Pounds: 62.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-beautifly.png|right]]
+
+*Butterfly Pokemon*
+*They can’t resist the pollen of flowers, if you leave one in the window, a Beautifly is sure to come. Despite their appearance, they are aggressive, they drain living creatures of their fluids just as they do with flowers.*
 
 **DexID**:: 0267
 **Species**:: Beautifly
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 62.6lbs / 28.4kg
 
 ![[SRD-Beautifly-Learnset]]

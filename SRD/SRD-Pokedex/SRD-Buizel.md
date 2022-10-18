@@ -1,19 +1,36 @@
 ---
 Ability1: Swift Swim
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME418.png
+BookShinyImageName: HOME418_s.png
 BoxSprite: SRD-BoxSprite-buizel.png
+DexCategory: Sea Weasel Pokemon
+DexDescription: It is usually seen close to streams and rivers. Buizel swims by rotating
+  its two tails like a screw, the sack around its neck swells to help it float or
+  deflates to dive underwater and catch prey.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Water Veil
 HomeSprite: SRD-HomeSprite-buizel.png
 Learnset: '[[SRD-Buizel-Learnset]]'
 Legendary: 'No'
 Name: Buizel
 Number: 418
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Field
 Sprite: buizel.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 295
+  Kilograms: 29.5
+  Pounds: 65.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-buizel.png|right]]
+
+*Sea Weasel Pokemon*
+*It is usually seen close to streams and rivers. Buizel swims by rotating its two tails like a screw, the sack around its neck swells to help it float or deflates to dive underwater and catch prey.*
 
 **DexID**:: 0418
 **Species**:: Buizel
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 65.0lbs / 29.5kg
 
 ![[SRD-Buizel-Learnset]]

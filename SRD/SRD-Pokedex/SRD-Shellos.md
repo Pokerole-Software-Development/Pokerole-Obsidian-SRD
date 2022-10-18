@@ -1,19 +1,36 @@
 ---
 Ability1: Sticky Hold
 Ability2: Storm Drain
+Baby: 'No'
+BookImageName: HOME422.png
+BookShinyImageName: HOME422_s.png
 BoxSprite: SRD-BoxSprite-shellos.png
+DexCategory: Sea Slug Pokemon
+DexDescription: Its shape and coloration change depending on its habitat of salt or
+  sweet water. Their body is very soft and squishy but they can stretch long lengths.
+  It releases a purple liquid from its body if threatened.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-shellos.png
 Learnset: '[[SRD-Shellos-Learnset]]'
 Legendary: 'No'
 Name: Shellos
 Number: 422
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Amorphous
 Sprite: shellos.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 63
+  Kilograms: 6.3
+  Pounds: 13.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-shellos.png|right]]
+
+*Sea Slug Pokemon*
+*Its shape and coloration change depending on its habitat of salt or sweet water. Their body is very soft and squishy but they can stretch long lengths. It releases a purple liquid from its body if threatened.*
 
 **DexID**:: 0422
 **Species**:: Shellos
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 13.9lbs / 6.3kg
 
 ![[SRD-Shellos-Learnset]]

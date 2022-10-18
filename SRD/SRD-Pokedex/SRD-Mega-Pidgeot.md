@@ -1,19 +1,36 @@
 ---
 Ability1: No Guard
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME018M.png
+BookShinyImageName: HOME018M_s.png
 BoxSprite: SRD-BoxSprite-pidgeot-mega.png
+DexCategory: Bird Pokemon
+DexDescription: "With the power of the Mega Stone Pidgeot's flying becomes a blurred\
+  \ red stripe in the sky. It won\u2019t stop soaring the skies while in this state\
+  \ without tiring or needing to rest for many days at a time."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 22
+  Feet: 7.2
+  Meters: 2.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-pidgeot-mega.png
 Learnset: '[[SRD-Mega-Pidgeot-Learnset]]'
 Legendary: 'No'
 Name: Mega-Pidgeot
 Number: 18
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: pidgeot-mega.png
 Type1: Normal
 Type2: Flying
+Weight:
+  Hectograms: 505
+  Kilograms: 50.5
+  Pounds: 111.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-pidgeot-mega.png|right]]
+
+*Bird Pokemon*
+*With the power of the Mega Stone Pidgeot's flying becomes a blurred red stripe in the sky. It won’t stop soaring the skies while in this state without tiring or needing to rest for many days at a time.*
 
 **DexID**:: 0018M1
 **Species**:: Mega-Pidgeot
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 7'2" / 2.2m
+**Weight**: 111.3lbs / 50.5kg
 
 ![[SRD-Mega-Pidgeot-Learnset]]

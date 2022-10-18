@@ -1,19 +1,36 @@
 ---
 Ability1: Illuminate
 Ability2: Effect Spore
+Baby: 'No'
+BookImageName: HOME755.png
+BookShinyImageName: HOME755_s.png
 BoxSprite: SRD-BoxSprite-morelull.png
+DexCategory: Illuminating Pokemon
+DexDescription: Morellul are nocturnal Pokemon whose headbulbs emit a faint glow.
+  They root into a tree and use its nutrients to power their light, when the tree
+  is all dried up they are ready to evolve.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 2
+  Feet: 0.7
+  Meters: 0.2
 HiddenAbility: Rain Dish
 HomeSprite: SRD-HomeSprite-morelull.png
 Learnset: '[[SRD-Morelull-Learnset]]'
 Legendary: 'No'
 Name: Morelull
 Number: 755
+PrimaryEggGroup: Grass
+SecondaryEggGroup: ''
 Sprite: morelull.png
 Type1: Grass
 Type2: Fairy
+Weight:
+  Hectograms: 15
+  Kilograms: 1.5
+  Pounds: 3.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-morelull.png|right]]
+
+*Illuminating Pokemon*
+*Morellul are nocturnal Pokemon whose headbulbs emit a faint glow. They root into a tree and use its nutrients to power their light, when the tree is all dried up they are ready to evolve.*
 
 **DexID**:: 0755
 **Species**:: Morelull
@@ -41,5 +61,7 @@ Type2: Fairy
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 0'7" / 0.2m
+**Weight**: 3.3lbs / 1.5kg
 
 ![[SRD-Morelull-Learnset]]

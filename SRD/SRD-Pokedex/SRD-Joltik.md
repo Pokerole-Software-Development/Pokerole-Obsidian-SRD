@@ -1,19 +1,36 @@
 ---
 Ability1: Compound Eyes
 Ability2: Unnerve
+Baby: 'No'
+BookImageName: HOME595.png
+BookShinyImageName: HOME595_s.png
 BoxSprite: SRD-BoxSprite-joltik.png
+DexCategory: Attaching Pokemon
+DexDescription: "Since it can\u2019t generate its own charge, it sticks into larger\
+  \ Pokemon and absorbs the static electricity of their fur. In the cities they suck\
+  \ electricity from the outlets they find, skyrocketting the power bill."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 1
+  Feet: 0.3
+  Meters: 0.1
 HiddenAbility: Swarm
 HomeSprite: SRD-HomeSprite-joltik.png
 Learnset: '[[SRD-Joltik-Learnset]]'
 Legendary: 'No'
 Name: Joltik
 Number: 595
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: joltik.png
 Type1: Bug
 Type2: Electric
+Weight:
+  Hectograms: 6
+  Kilograms: 0.6
+  Pounds: 1.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Electric
 # `= this.name`
 
 ![[SRD-HomeSprite-joltik.png|right]]
+
+*Attaching Pokemon*
+*Since it can’t generate its own charge, it sticks into larger Pokemon and absorbs the static electricity of their fur. In the cities they suck electricity from the outlets they find, skyrocketting the power bill.*
 
 **DexID**:: 0595
 **Species**:: Joltik
@@ -41,5 +61,7 @@ Type2: Electric
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 0'3" / 0.1m
+**Weight**: 1.3lbs / 0.6kg
 
 ![[SRD-Joltik-Learnset]]

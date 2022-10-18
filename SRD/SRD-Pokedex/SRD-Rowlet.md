@@ -1,19 +1,36 @@
 ---
 Ability1: Overgrow
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME722.png
+BookShinyImageName: HOME722_s.png
 BoxSprite: SRD-BoxSprite-rowlet.png
+DexCategory: Grass Quill Pokemon
+DexDescription: "This is a shy Pokemon, it sleeps during the day, absorbing sunlight\
+  \ through its feathers, then at night becomes more active. It likes to keep sight\
+  \ of its trainer at all times, rotating its head 180\xB0 to do so."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Long Reach
 HomeSprite: SRD-HomeSprite-rowlet.png
 Learnset: '[[SRD-Rowlet-Learnset]]'
 Legendary: 'No'
 Name: Rowlet
 Number: 722
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: rowlet.png
 Type1: Grass
 Type2: Flying
+Weight:
+  Hectograms: 15
+  Kilograms: 1.5
+  Pounds: 3.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-rowlet.png|right]]
+
+*Grass Quill Pokemon*
+*This is a shy Pokemon, it sleeps during the day, absorbing sunlight through its feathers, then at night becomes more active. It likes to keep sight of its trainer at all times, rotating its head 180° to do so.*
 
 **DexID**:: 0722
 **Species**:: Rowlet
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 3.3lbs / 1.5kg
 
 ![[SRD-Rowlet-Learnset]]

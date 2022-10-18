@@ -1,19 +1,35 @@
 ---
 Ability1: Victory Star
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME494.png
+BookShinyImageName: HOME494_s.png
 BoxSprite: SRD-BoxSprite-victini.png
+DexCategory: No Data
+DexDescription: "On tournament days, Trainers eat a \u201CV\u201D shaped apple as\
+  \ a sign of good luck. It is unknown if it has anything to do with this Pokemon."
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-victini.png
 Learnset: '[[SRD-Victini-Learnset]]'
 Legendary: 'Yes'
 Name: Victini
 Number: 494
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: victini.png
 Type1: Psychic
 Type2: Fire
+Weight:
+  Hectograms: 40
+  Kilograms: 4.0
+  Pounds: 8.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: Fire
 # `= this.name`
 
 ![[SRD-HomeSprite-victini.png|right]]
+
+*No Data*
+*On tournament days, Trainers eat a “V” shaped apple as a sign of good luck. It is unknown if it has anything to do with this Pokemon.*
 
 **DexID**:: 0494
 **Species**:: Victini
@@ -41,5 +60,7 @@ Type2: Fire
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'3" / 0.4m
+**Weight**: 8.8lbs / 4.0kg
 
 ![[SRD-Victini-Learnset]]

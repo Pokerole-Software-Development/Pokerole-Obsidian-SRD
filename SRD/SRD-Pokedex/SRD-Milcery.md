@@ -1,19 +1,36 @@
 ---
 Ability1: Sweet Veil
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME868.png
+BookShinyImageName: HOME868_s.png
 BoxSprite: SRD-BoxSprite-milcery.png
+DexCategory: Cream Pokemon
+DexDescription: This Pokemon was born from sweet-smelling particles in the air, its
+  body is made of cream, Finding one in your kitchen means Good Fortune. Give them
+  berries and whip them with a whisk so they can evolve.
 EventAbilities: ''
 GenderType: F
 HasForm: 'No'
+Height:
+  Deimeters: 2
+  Feet: 0.7
+  Meters: 0.2
 HiddenAbility: Aroma Veil
 HomeSprite: SRD-HomeSprite-milcery.png
 Learnset: '[[SRD-Milcery-Learnset]]'
 Legendary: 'No'
 Name: Milcery
 Number: 868
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: Amorphous
 Sprite: milcery.png
 Type1: Fairy
 Type2: ''
+Weight:
+  Hectograms: 3
+  Kilograms: 0.3
+  Pounds: 0.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-milcery.png|right]]
+
+*Cream Pokemon*
+*This Pokemon was born from sweet-smelling particles in the air, its body is made of cream, Finding one in your kitchen means Good Fortune. Give them berries and whip them with a whisk so they can evolve.*
 
 **DexID**:: 0868
 **Species**:: Milcery
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 0'7" / 0.2m
+**Weight**: 0.7lbs / 0.3kg
 
 ![[SRD-Milcery-Learnset]]

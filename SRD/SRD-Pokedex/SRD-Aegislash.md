@@ -1,19 +1,36 @@
 ---
 Ability1: Stance Change
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME681.png
+BookShinyImageName: HOME681_s.png
 BoxSprite: SRD-BoxSprite-aegislash.png
+DexCategory: Royal Sword Pokemon
+DexDescription: The legend tells of how this Pokemon lead the first King of Kalos
+  to victory. A crushing grip can be felt on the arm of the wielder. While in this
+  form it can only use Support moves.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-aegislash.png
 Learnset: '[[SRD-Aegislash-Learnset]]'
 Legendary: 'No'
 Name: Aegislash
 Number: 681
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: aegislash.png
 Type1: Steel
 Type2: Ghost
+Weight:
+  Hectograms: 530
+  Kilograms: 53.0
+  Pounds: 116.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-aegislash.png|right]]
+
+*Royal Sword Pokemon*
+*The legend tells of how this Pokemon lead the first King of Kalos to victory. A crushing grip can be felt on the arm of the wielder. While in this form it can only use Support moves.*
 
 **DexID**:: 0681
 **Species**:: Aegislash
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 116.8lbs / 53.0kg
 
 ![[SRD-Aegislash-Learnset]]

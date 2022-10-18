@@ -1,19 +1,36 @@
 ---
 Ability1: Weak Armor
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME222G.png
+BookShinyImageName: HOME222G_s.png
 BoxSprite: SRD-BoxSprite-corsola-galar.png
+DexCategory: Coral Pokemon
+DexDescription: Watch your step when walking through shallow ocean waters  because
+  this Pokemon looks like a stone and it will curse you if you kick it. Sudden climate
+  change wiped out this ancient kind of Corsola.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Cursed Body
 HomeSprite: SRD-HomeSprite-corsola-galar.png
 Learnset: '[[SRD-Galarian Corsola-Learnset]]'
 Legendary: 'No'
 Name: Galarian Corsola
 Number: 222
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Water 3
 Sprite: corsola-galar.png
 Type1: Ghost
 Type2: ''
+Weight:
+  Hectograms: 5
+  Kilograms: 0.5
+  Pounds: 1.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-corsola-galar.png|right]]
+
+*Coral Pokemon*
+*Watch your step when walking through shallow ocean waters  because this Pokemon looks like a stone and it will curse you if you kick it. Sudden climate change wiped out this ancient kind of Corsola.*
 
 **DexID**:: 0222G
 **Species**:: Galarian Corsola
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 1.1lbs / 0.5kg
 
 ![[SRD-Galarian Corsola-Learnset]]

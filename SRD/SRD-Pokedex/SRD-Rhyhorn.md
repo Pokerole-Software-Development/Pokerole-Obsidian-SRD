@@ -1,19 +1,36 @@
 ---
 Ability1: Lightning Rod
 Ability2: Rock Head
+Baby: 'No'
+BookImageName: HOME111.png
+BookShinyImageName: HOME111_s.png
 BoxSprite: SRD-BoxSprite-rhyhorn.png
+DexCategory: Spikes Pokemon
+DexDescription: It lives in grasslands and rough terrains. It is covered with a thick
+  hide and it tramples any threats by running towards them. It is not very smart,
+  though. It can keep trampling things for hours just because.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Reckless
 HomeSprite: SRD-HomeSprite-rhyhorn.png
 Learnset: '[[SRD-Rhyhorn-Learnset]]'
 Legendary: 'No'
 Name: Rhyhorn
 Number: 111
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Field
 Sprite: rhyhorn.png
 Type1: Ground
 Type2: Rock
+Weight:
+  Hectograms: 1150
+  Kilograms: 115.0
+  Pounds: 253.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Rock
 # `= this.name`
 
 ![[SRD-HomeSprite-rhyhorn.png|right]]
+
+*Spikes Pokemon*
+*It lives in grasslands and rough terrains. It is covered with a thick hide and it tramples any threats by running towards them. It is not very smart, though. It can keep trampling things for hours just because.*
 
 **DexID**:: 0111
 **Species**:: Rhyhorn
@@ -41,5 +61,7 @@ Type2: Rock
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 253.5lbs / 115.0kg
 
 ![[SRD-Rhyhorn-Learnset]]

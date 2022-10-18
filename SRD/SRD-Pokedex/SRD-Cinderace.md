@@ -1,19 +1,36 @@
 ---
 Ability1: Blaze
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME815.png
+BookShinyImageName: HOME815_s.png
 BoxSprite: SRD-BoxSprite-cinderace.png
+DexCategory: Striker Pokemon
+DexDescription: They are confident and boastful of their abilities. They take a pebble
+  and light it on fire to create a scorching weapon they kick towards their foes.
+  They can grow arrogant if they feel cheered on.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 14
+  Feet: 4.6
+  Meters: 1.4
 HiddenAbility: Libero
 HomeSprite: SRD-HomeSprite-cinderace.png
 Learnset: '[[SRD-Cinderace-Learnset]]'
 Legendary: 'No'
 Name: Cinderace
 Number: 815
+PrimaryEggGroup: Field
+SecondaryEggGroup: Human-Like
 Sprite: cinderace.png
 Type1: Fire
 Type2: ''
+Weight:
+  Hectograms: 330
+  Kilograms: 33.0
+  Pounds: 72.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-cinderace.png|right]]
+
+*Striker Pokemon*
+*They are confident and boastful of their abilities. They take a pebble and light it on fire to create a scorching weapon they kick towards their foes. They can grow arrogant if they feel cheered on.*
 
 **DexID**:: 0815
 **Species**:: Cinderace
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'6" / 1.4m
+**Weight**: 72.8lbs / 33.0kg
 
 ![[SRD-Cinderace-Learnset]]

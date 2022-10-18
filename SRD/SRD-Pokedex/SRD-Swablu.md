@@ -1,19 +1,36 @@
 ---
 Ability1: Natural Cure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME333.png
+BookShinyImageName: HOME333_s.png
 BoxSprite: SRD-BoxSprite-swablu.png
+DexCategory: Cotton Bird Pokemon
+DexDescription: Their wings are made of cotton clouds. They are friendly creatures
+  that love to be near humans, usually sitting on their heads as cotton hats. They
+  travel in flocks and live near towns during the Spring.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Cloud Nine
 HomeSprite: SRD-HomeSprite-swablu.png
 Learnset: '[[SRD-Swablu-Learnset]]'
 Legendary: 'No'
 Name: Swablu
 Number: 333
+PrimaryEggGroup: Flying
+SecondaryEggGroup: Dragon
 Sprite: swablu.png
 Type1: Normal
 Type2: Flying
+Weight:
+  Hectograms: 12
+  Kilograms: 1.2
+  Pounds: 2.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-swablu.png|right]]
+
+*Cotton Bird Pokemon*
+*Their wings are made of cotton clouds. They are friendly creatures that love to be near humans, usually sitting on their heads as cotton hats. They travel in flocks and live near towns during the Spring.*
 
 **DexID**:: 0333
 **Species**:: Swablu
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 2.6lbs / 1.2kg
 
 ![[SRD-Swablu-Learnset]]

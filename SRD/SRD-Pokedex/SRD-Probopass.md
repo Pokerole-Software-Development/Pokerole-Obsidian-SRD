@@ -1,19 +1,36 @@
 ---
 Ability1: Sturdy
 Ability2: Magnet Pull
+Baby: 'No'
+BookImageName: HOME476.png
+BookShinyImageName: HOME476_s.png
 BoxSprite: SRD-BoxSprite-probopass.png
+DexCategory: Compass Pokemon
+DexDescription: It exudes strong magnetism from all over. It controls three small
+  units called Mini-Noses that float around and act as arms. It usually stays motionless
+  unless attacked or provoked.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 14
+  Feet: 4.6
+  Meters: 1.4
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-probopass.png
 Learnset: '[[SRD-Probopass-Learnset]]'
 Legendary: 'No'
 Name: Probopass
 Number: 476
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: probopass.png
 Type1: Rock
 Type2: Steel
+Weight:
+  Hectograms: 3400
+  Kilograms: 340.0
+  Pounds: 749.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-probopass.png|right]]
+
+*Compass Pokemon*
+*It exudes strong magnetism from all over. It controls three small units called Mini-Noses that float around and act as arms. It usually stays motionless unless attacked or provoked.*
 
 **DexID**:: 0476
 **Species**:: Probopass
@@ -41,5 +61,7 @@ Type2: Steel
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'6" / 1.4m
+**Weight**: 749.6lbs / 340.0kg
 
 ![[SRD-Probopass-Learnset]]

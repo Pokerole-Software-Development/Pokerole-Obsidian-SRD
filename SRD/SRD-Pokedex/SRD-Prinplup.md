@@ -1,19 +1,36 @@
 ---
 Ability1: Torrent
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME394.png
+BookShinyImageName: HOME394_s.png
 BoxSprite: SRD-BoxSprite-prinplup.png
+DexCategory: Penguin Pokemon
+DexDescription: "Prinplups hunt in icy seas. They live solitary lives because they\
+  \ cannot stand company and will never form a group or a team. They believe they\
+  \ are the most important thing in the world, it\u2019s almost irritating."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Defiant
 HomeSprite: SRD-HomeSprite-prinplup.png
 Learnset: '[[SRD-Prinplup-Learnset]]'
 Legendary: 'No'
 Name: Prinplup
 Number: 394
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Field
 Sprite: prinplup.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 230
+  Kilograms: 23.0
+  Pounds: 50.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-prinplup.png|right]]
+
+*Penguin Pokemon*
+*Prinplups hunt in icy seas. They live solitary lives because they cannot stand company and will never form a group or a team. They believe they are the most important thing in the world, it’s almost irritating.*
 
 **DexID**:: 0394
 **Species**:: Prinplup
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 50.7lbs / 23.0kg
 
 ![[SRD-Prinplup-Learnset]]

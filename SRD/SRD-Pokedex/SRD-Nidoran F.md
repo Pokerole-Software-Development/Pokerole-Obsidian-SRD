@@ -1,19 +1,36 @@
 ---
 Ability1: Poison Point
 Ability2: Rivalry
+Baby: 'No'
+BookImageName: HOME029.png
+BookShinyImageName: HOME029_s.png
 BoxSprite: SRD-BoxSprite-nidoran-f.png
+DexCategory: Poison Pin Pokemon
+DexDescription: A female only species. It lives close to meadows and forests. They
+  are mellow Pokemon. To protect herself, she secretes a powerful toxin through her
+  body. Her horn is small but venomous to the touch.
 EventAbilities: ''
 GenderType: F
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Hustle
 HomeSprite: SRD-HomeSprite-nidoran-f.png
 Learnset: '[[SRD-Nidoran F-Learnset]]'
 Legendary: 'No'
 Name: Nidoran F
 Number: 29
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Field
 Sprite: nidoran-f.png
 Type1: Poison
 Type2: ''
+Weight:
+  Hectograms: 70
+  Kilograms: 7.0
+  Pounds: 15.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-nidoran-f.png|right]]
+
+*Poison Pin Pokemon*
+*A female only species. It lives close to meadows and forests. They are mellow Pokemon. To protect herself, she secretes a powerful toxin through her body. Her horn is small but venomous to the touch.*
 
 **DexID**:: 0029
 **Species**:: Nidoran F
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 15.4lbs / 7.0kg
 
 ![[SRD-Nidoran F-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Compound Eyes
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME012.png
+BookShinyImageName: HOME012_s.png
 BoxSprite: SRD-BoxSprite-butterfree.png
+DexCategory: Butterfly Pokemon
+DexDescription: "It can be found in forests and plains. It loves the honey in some\
+  \ flowers even with tiny amounts of pollen. Its wings are covered by dust that allows\
+  \ it to fly even when it\u2019s raining."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Tinted Lens
 HomeSprite: SRD-HomeSprite-butterfree.png
 Learnset: '[[SRD-Butterfree-Learnset]]'
 Legendary: 'No'
 Name: Butterfree
 Number: 12
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: butterfree.png
 Type1: Bug
 Type2: Flying
+Weight:
+  Hectograms: 320
+  Kilograms: 32.0
+  Pounds: 70.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-butterfree.png|right]]
+
+*Butterfly Pokemon*
+*It can be found in forests and plains. It loves the honey in some flowers even with tiny amounts of pollen. Its wings are covered by dust that allows it to fly even when it’s raining.*
 
 **DexID**:: 0012
 **Species**:: Butterfree
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'6" / 1.1m
+**Weight**: 70.5lbs / 32.0kg
 
 ![[SRD-Butterfree-Learnset]]

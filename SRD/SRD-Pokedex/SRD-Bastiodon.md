@@ -1,19 +1,36 @@
 ---
 Ability1: Sturdy
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME411.png
+BookShinyImageName: HOME411_s.png
 BoxSprite: SRD-BoxSprite-bastiodon.png
+DexCategory: Shield Pokemon
+DexDescription: They lived in herds, millions of years ago. They would line together
+  to shield their young. Despite its rough and scary exterior, this Pokemon is calm,
+  gentle natured and a strict herbivore.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Soundproof
 HomeSprite: SRD-HomeSprite-bastiodon.png
 Learnset: '[[SRD-Bastiodon-Learnset]]'
 Legendary: 'No'
 Name: Bastiodon
 Number: 411
+PrimaryEggGroup: Monster
+SecondaryEggGroup: ''
 Sprite: bastiodon.png
 Type1: Rock
 Type2: Steel
+Weight:
+  Hectograms: 1495
+  Kilograms: 149.5
+  Pounds: 329.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Steel
 # `= this.name`
 
 ![[SRD-HomeSprite-bastiodon.png|right]]
+
+*Shield Pokemon*
+*They lived in herds, millions of years ago. They would line together to shield their young. Despite its rough and scary exterior, this Pokemon is calm, gentle natured and a strict herbivore.*
 
 **DexID**:: 0411
 **Species**:: Bastiodon
@@ -41,5 +61,7 @@ Type2: Steel
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 329.6lbs / 149.5kg
 
 ![[SRD-Bastiodon-Learnset]]

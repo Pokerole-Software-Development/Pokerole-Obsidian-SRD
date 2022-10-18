@@ -1,19 +1,36 @@
 ---
 Ability1: Keen Eye
 Ability2: Sturdy
+Baby: 'No'
+BookImageName: HOME227.png
+BookShinyImageName: HOME227_s.png
 BoxSprite: SRD-BoxSprite-skarmory.png
+DexCategory: Armor Bird Pokemon
+DexDescription: Their wings are hollow and light. They nest inside bramble bushes,
+  growing harder from scratches made by thorns. Their wings were used as swords and
+  knives in old times. Beware of their sharp beak.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: Weak Armor
 HomeSprite: SRD-HomeSprite-skarmory.png
 Learnset: '[[SRD-Skarmory-Learnset]]'
 Legendary: 'No'
 Name: Skarmory
 Number: 227
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: skarmory.png
 Type1: Steel
 Type2: Flying
+Weight:
+  Hectograms: 505
+  Kilograms: 50.5
+  Pounds: 111.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-skarmory.png|right]]
+
+*Armor Bird Pokemon*
+*Their wings are hollow and light. They nest inside bramble bushes, growing harder from scratches made by thorns. Their wings were used as swords and knives in old times. Beware of their sharp beak.*
 
 **DexID**:: 0227
 **Species**:: Skarmory
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 111.3lbs / 50.5kg
 
 ![[SRD-Skarmory-Learnset]]

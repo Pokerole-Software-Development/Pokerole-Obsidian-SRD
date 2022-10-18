@@ -1,19 +1,36 @@
 ---
 Ability1: Clear Body
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME378.png
+BookShinyImageName: HOME378_s.png
 BoxSprite: SRD-BoxSprite-regice.png
+DexCategory: No Data
+DexDescription: "It is said to be indistinguishable from a gigantic iceberg. Its myth\
+  \ says its body can\u2019t be melted even if submerged in magma. Regice could freeze\
+  \ the air to bring a new ice age."
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 18
+  Feet: 5.9
+  Meters: 1.8
 HiddenAbility: Ice Body
 HomeSprite: SRD-HomeSprite-regice.png
 Learnset: '[[SRD-Regice-Learnset]]'
 Legendary: 'Yes'
 Name: Regice
 Number: 378
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: regice.png
 Type1: Ice
 Type2: ''
+Weight:
+  Hectograms: 1750
+  Kilograms: 175.0
+  Pounds: 385.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-regice.png|right]]
+
+*No Data*
+*It is said to be indistinguishable from a gigantic iceberg. Its myth says its body can’t be melted even if submerged in magma. Regice could freeze the air to bring a new ice age.*
 
 **DexID**:: 0378
 **Species**:: Regice
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'9" / 1.8m
+**Weight**: 385.8lbs / 175.0kg
 
 ![[SRD-Regice-Learnset]]

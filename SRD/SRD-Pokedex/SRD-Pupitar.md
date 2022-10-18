@@ -1,19 +1,36 @@
 ---
 Ability1: Shed Skin
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME247.png
+BookShinyImageName: HOME247_s.png
 BoxSprite: SRD-BoxSprite-pupitar.png
+DexCategory: Hard Shell Pokemon
+DexDescription: Even in their shell, they are fast, aggressive and extremely destructive.
+  They never stay still. This pupa propels itself using a jet of pressurized gas.
+  It is bad tempered and very aggressive.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-pupitar.png
 Learnset: '[[SRD-Pupitar-Learnset]]'
 Legendary: 'No'
 Name: Pupitar
 Number: 247
+PrimaryEggGroup: Monster
+SecondaryEggGroup: ''
 Sprite: pupitar.png
 Type1: Rock
 Type2: Ground
+Weight:
+  Hectograms: 1520
+  Kilograms: 152.0
+  Pounds: 335.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-pupitar.png|right]]
+
+*Hard Shell Pokemon*
+*Even in their shell, they are fast, aggressive and extremely destructive. They never stay still. This pupa propels itself using a jet of pressurized gas. It is bad tempered and very aggressive.*
 
 **DexID**:: 0247
 **Species**:: Pupitar
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'9" / 1.2m
+**Weight**: 335.1lbs / 152.0kg
 
 ![[SRD-Pupitar-Learnset]]

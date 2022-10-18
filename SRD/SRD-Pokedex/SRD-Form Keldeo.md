@@ -1,19 +1,36 @@
 ---
 Ability1: Justified
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME647R.png
+BookShinyImageName: HOME647R_s.png
 BoxSprite: SRD-BoxSprite-keldeo.png
+DexCategory: No Data
+DexDescription: The old fairy tale ends with the youngest Pokemon rising above evil
+  and injustice due to its resolute and determined desire for justice. The mentorship
+  of the other Pokemon bearing fruits.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 14
+  Feet: 4.6
+  Meters: 1.4
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-keldeo.png
 Learnset: '[[SRD-Form Keldeo-Learnset]]'
 Legendary: 'Yes'
 Name: Form Keldeo
 Number: 647
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: keldeo.png
 Type1: Water
 Type2: Fighting
+Weight:
+  Hectograms: 485
+  Kilograms: 48.5
+  Pounds: 106.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-keldeo.png|right]]
+
+*No Data*
+*The old fairy tale ends with the youngest Pokemon rising above evil and injustice due to its resolute and determined desire for justice. The mentorship of the other Pokemon bearing fruits.*
 
 **DexID**:: 0647F1
 **Species**:: Form Keldeo
@@ -41,5 +61,7 @@ Type2: Fighting
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'6" / 1.4m
+**Weight**: 106.9lbs / 48.5kg
 
 ![[SRD-Form Keldeo-Learnset]]

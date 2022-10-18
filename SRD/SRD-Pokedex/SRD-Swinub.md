@@ -1,19 +1,36 @@
 ---
 Ability1: Oblivious
 Ability2: Snow Cloak
+Baby: 'No'
+BookImageName: HOME220.png
+BookShinyImageName: HOME220_s.png
 BoxSprite: SRD-BoxSprite-swinub.png
+DexCategory: Pig Pokemon
+DexDescription: "They rub their snout on the icy ground to find food and hot springs.\
+  \ Their favorite food is a mushroom that grows under frozen grass. They recognize\
+  \ everything by smell as their eyes can\u2019t see very well."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Thick Fat
 HomeSprite: SRD-HomeSprite-swinub.png
 Learnset: '[[SRD-Swinub-Learnset]]'
 Legendary: 'No'
 Name: Swinub
 Number: 220
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: swinub.png
 Type1: Ice
 Type2: Ground
+Weight:
+  Hectograms: 65
+  Kilograms: 6.5
+  Pounds: 14.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-swinub.png|right]]
+
+*Pig Pokemon*
+*They rub their snout on the icy ground to find food and hot springs. Their favorite food is a mushroom that grows under frozen grass. They recognize everything by smell as their eyes can’t see very well.*
 
 **DexID**:: 0220
 **Species**:: Swinub
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 14.3lbs / 6.5kg
 
 ![[SRD-Swinub-Learnset]]

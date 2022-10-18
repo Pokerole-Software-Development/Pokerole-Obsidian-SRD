@@ -1,19 +1,36 @@
 ---
 Ability1: Adaptability
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME015M.png
+BookShinyImageName: HOME015M_s.png
 BoxSprite: SRD-BoxSprite-beedrill-mega.png
+DexCategory: Poison Bee Pokemon
+DexDescription: With the power of the Mega Stone all of its limbs are now powerful
+  stingers. Their attack can be really vicious stinging and piercing its foe repeatedly
+  until the finishing blow with the sting on its rear.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 14
+  Feet: 4.6
+  Meters: 1.4
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-beedrill-mega.png
 Learnset: '[[SRD-Mega-Beedrill-Learnset]]'
 Legendary: 'No'
 Name: Mega-Beedrill
 Number: 15
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: beedrill-mega.png
 Type1: Bug
 Type2: Poison
+Weight:
+  Hectograms: 405
+  Kilograms: 40.5
+  Pounds: 89.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-beedrill-mega.png|right]]
+
+*Poison Bee Pokemon*
+*With the power of the Mega Stone all of its limbs are now powerful stingers. Their attack can be really vicious stinging and piercing its foe repeatedly until the finishing blow with the sting on its rear.*
 
 **DexID**:: 0015M1
 **Species**:: Mega-Beedrill
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'6" / 1.4m
+**Weight**: 89.3lbs / 40.5kg
 
 ![[SRD-Mega-Beedrill-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Sand Veil
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME028.png
+BookShinyImageName: HOME028_s.png
 BoxSprite: SRD-BoxSprite-sandslash.png
+DexCategory: Mouse Pokemon
+DexDescription: "It\u2019s less shy than its first stage. It curls up in a ball to\
+  \ protect itself from enemy attacks. Surprisingly, it is a good climber that uses\
+  \ its sharp claws for grip and drilling tunnels underground."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Sand Rush
 HomeSprite: SRD-HomeSprite-sandslash.png
 Learnset: '[[SRD-Sandslash-Learnset]]'
 Legendary: 'No'
 Name: Sandslash
 Number: 28
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: sandslash.png
 Type1: Ground
 Type2: ''
+Weight:
+  Hectograms: 295
+  Kilograms: 29.5
+  Pounds: 65.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-sandslash.png|right]]
+
+*Mouse Pokemon*
+*It’s less shy than its first stage. It curls up in a ball to protect itself from enemy attacks. Surprisingly, it is a good climber that uses its sharp claws for grip and drilling tunnels underground.*
 
 **DexID**:: 0028
 **Species**:: Sandslash
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 65.0lbs / 29.5kg
 
 ![[SRD-Sandslash-Learnset]]

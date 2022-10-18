@@ -1,19 +1,36 @@
 ---
 Ability1: Water Absorb
 Ability2: Cursed Body
+Baby: 'No'
+BookImageName: HOME592.png
+BookShinyImageName: HOME592_s.png
 BoxSprite: SRD-BoxSprite-frillish.png
+DexCategory: Floating Pokemon
+DexDescription: If a Frillish is spotted, all beaches nearby will be closed for the
+  day. This Pokemon paralizes a swimming victim and wraps them, dragging them to the
+  bottom of the sea. Females have pink shade.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Damp
 HomeSprite: SRD-HomeSprite-frillish.png
 Learnset: '[[SRD-Frillish-Learnset]]'
 Legendary: 'No'
 Name: Frillish
 Number: 592
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: frillish.png
 Type1: Water
 Type2: Ghost
+Weight:
+  Hectograms: 330
+  Kilograms: 33.0
+  Pounds: 72.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ghost
 # `= this.name`
 
 ![[SRD-HomeSprite-frillish.png|right]]
+
+*Floating Pokemon*
+*If a Frillish is spotted, all beaches nearby will be closed for the day. This Pokemon paralizes a swimming victim and wraps them, dragging them to the bottom of the sea. Females have pink shade.*
 
 **DexID**:: 0592
 **Species**:: Frillish
@@ -41,5 +61,7 @@ Type2: Ghost
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'9" / 1.2m
+**Weight**: 72.8lbs / 33.0kg
 
 ![[SRD-Frillish-Learnset]]

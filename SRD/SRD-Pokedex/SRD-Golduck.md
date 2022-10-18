@@ -1,19 +1,36 @@
 ---
 Ability1: Damp
 Ability2: Cloud Nine
+Baby: 'No'
+BookImageName: HOME055.png
+BookShinyImageName: HOME055_s.png
 BoxSprite: SRD-BoxSprite-golduck.png
+DexCategory: Duck Pokemon
+DexDescription: A Golduck is an adept swimmer and can be found near most bodies of
+  water. Its forehead shimmers with light when using its psychic abilities. There
+  are records of wild Golducks that rescued people in the water.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 17
+  Feet: 5.6
+  Meters: 1.7
 HiddenAbility: Swift Swim
 HomeSprite: SRD-HomeSprite-golduck.png
 Learnset: '[[SRD-Golduck-Learnset]]'
 Legendary: 'No'
 Name: Golduck
 Number: 55
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Field
 Sprite: golduck.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 766
+  Kilograms: 76.6
+  Pounds: 168.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-golduck.png|right]]
+
+*Duck Pokemon*
+*A Golduck is an adept swimmer and can be found near most bodies of water. Its forehead shimmers with light when using its psychic abilities. There are records of wild Golducks that rescued people in the water.*
 
 **DexID**:: 0055
 **Species**:: Golduck
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'6" / 1.7m
+**Weight**: 168.9lbs / 76.6kg
 
 ![[SRD-Golduck-Learnset]]

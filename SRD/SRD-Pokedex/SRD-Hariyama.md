@@ -1,19 +1,36 @@
 ---
 Ability1: Thick Fat
 Ability2: Guts
+Baby: 'No'
+BookImageName: HOME297.png
+BookShinyImageName: HOME297_s.png
 BoxSprite: SRD-BoxSprite-hariyama.png
+DexCategory: Arm Thrust Pokemon
+DexDescription: They may appear fat, but they are pure muscle. Hariyamas have the
+  habit of challenging big looking creatures to tests of strength, sometimes mistaking
+  cars and machines for real Pokemon.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 23
+  Feet: 7.5
+  Meters: 2.3
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-hariyama.png
 Learnset: '[[SRD-Hariyama-Learnset]]'
 Legendary: 'No'
 Name: Hariyama
 Number: 297
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: hariyama.png
 Type1: Fighting
 Type2: ''
+Weight:
+  Hectograms: 2538
+  Kilograms: 253.8
+  Pounds: 559.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-hariyama.png|right]]
+
+*Arm Thrust Pokemon*
+*They may appear fat, but they are pure muscle. Hariyamas have the habit of challenging big looking creatures to tests of strength, sometimes mistaking cars and machines for real Pokemon.*
 
 **DexID**:: 0297
 **Species**:: Hariyama
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 7'5" / 2.3m
+**Weight**: 559.5lbs / 253.8kg
 
 ![[SRD-Hariyama-Learnset]]

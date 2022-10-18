@@ -1,19 +1,36 @@
 ---
 Ability1: Oblivious
 Ability2: Snow Cloak
+Baby: 'No'
+BookImageName: HOME473.png
+BookShinyImageName: HOME473_s.png
 BoxSprite: SRD-BoxSprite-mamoswine.png
+DexCategory: Twin Tusk Pokemon
+DexDescription: It was everywhere during the ice age but its population declined afterwards.
+  This Pokemon uses strong tusks to remove the soil and snow and dig up roots and
+  plants to eat. It has a bad temper.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 25
+  Feet: 8.2
+  Meters: 2.5
 HiddenAbility: Thick Fat
 HomeSprite: SRD-HomeSprite-mamoswine.png
 Learnset: '[[SRD-Mamoswine-Learnset]]'
 Legendary: 'No'
 Name: Mamoswine
 Number: 473
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: mamoswine.png
 Type1: Ice
 Type2: Ground
+Weight:
+  Hectograms: 2910
+  Kilograms: 291.0
+  Pounds: 641.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-mamoswine.png|right]]
+
+*Twin Tusk Pokemon*
+*It was everywhere during the ice age but its population declined afterwards. This Pokemon uses strong tusks to remove the soil and snow and dig up roots and plants to eat. It has a bad temper.*
 
 **DexID**:: 0473
 **Species**:: Mamoswine
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 8'2" / 2.5m
+**Weight**: 641.5lbs / 291.0kg
 
 ![[SRD-Mamoswine-Learnset]]

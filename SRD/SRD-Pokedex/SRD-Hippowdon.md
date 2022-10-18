@@ -1,19 +1,36 @@
 ---
 Ability1: Sand Stream
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME450.png
+BookShinyImageName: HOME450_s.png
 BoxSprite: SRD-BoxSprite-hippowdon.png
+DexCategory: Heavyweight Pokemon
+DexDescription: It becomes territorial and aggressive after evolving. Its open mouth
+  stands over 7 ft. tall. There are records of one that came out of the sand and crushed
+  a truck that was passing over its territory.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 20
+  Feet: 6.6
+  Meters: 2.0
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-hippowdon.png
 Learnset: '[[SRD-Hippowdon-Learnset]]'
 Legendary: 'No'
 Name: Hippowdon
 Number: 450
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: hippowdon.png
 Type1: Ground
 Type2: ''
+Weight:
+  Hectograms: 3000
+  Kilograms: 300.0
+  Pounds: 661.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-hippowdon.png|right]]
+
+*Heavyweight Pokemon*
+*It becomes territorial and aggressive after evolving. Its open mouth stands over 7 ft. tall. There are records of one that came out of the sand and crushed a truck that was passing over its territory.*
 
 **DexID**:: 0450
 **Species**:: Hippowdon
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'6" / 2.0m
+**Weight**: 661.4lbs / 300.0kg
 
 ![[SRD-Hippowdon-Learnset]]

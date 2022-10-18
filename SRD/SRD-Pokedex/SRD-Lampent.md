@@ -1,19 +1,36 @@
 ---
 Ability1: Flash Fire
 Ability2: Flame Body
+Baby: 'No'
+BookImageName: HOME608.png
+BookShinyImageName: HOME608_s.png
 BoxSprite: SRD-BoxSprite-lampent.png
+DexCategory: Lamp Pokemon
+DexDescription: "This ominous Pokemon is very feared. It always arrives at someone\u2019\
+  s final moments and steals their spirit. It hangs close to hospitals and other places\
+  \ simply waiting. It is said that if it gets your soul you will never rest."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Infiltrator
 HomeSprite: SRD-HomeSprite-lampent.png
 Learnset: '[[SRD-Lampent-Learnset]]'
 Legendary: 'No'
 Name: Lampent
 Number: 608
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: lampent.png
 Type1: Ghost
 Type2: Fire
+Weight:
+  Hectograms: 130
+  Kilograms: 13.0
+  Pounds: 28.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fire
 # `= this.name`
 
 ![[SRD-HomeSprite-lampent.png|right]]
+
+*Lamp Pokemon*
+*This ominous Pokemon is very feared. It always arrives at someone’s final moments and steals their spirit. It hangs close to hospitals and other places simply waiting. It is said that if it gets your soul you will never rest.*
 
 **DexID**:: 0608
 **Species**:: Lampent
@@ -41,5 +61,7 @@ Type2: Fire
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 28.7lbs / 13.0kg
 
 ![[SRD-Lampent-Learnset]]

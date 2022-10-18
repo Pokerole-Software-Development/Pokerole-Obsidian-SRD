@@ -1,19 +1,36 @@
 ---
 Ability1: Flower Veil
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME671.png
+BookShinyImageName: HOME671_s.png
 BoxSprite: SRD-BoxSprite-florges.png
+DexCategory: Garden Pokemon
+DexDescription: In times long past, castle rulers would invite Florges to create flower
+  gardens to embellish their domains. Florges claim beautiful meadows as their territories
+  but they are kind and merciful with visitors.
 EventAbilities: ''
 GenderType: F
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Symbiosis
 HomeSprite: SRD-HomeSprite-florges.png
 Learnset: '[[SRD-Florges-Learnset]]'
 Legendary: 'No'
 Name: Florges
 Number: 671
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: ''
 Sprite: florges.png
 Type1: Fairy
 Type2: ''
+Weight:
+  Hectograms: 100
+  Kilograms: 10.0
+  Pounds: 22.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-florges.png|right]]
+
+*Garden Pokemon*
+*In times long past, castle rulers would invite Florges to create flower gardens to embellish their domains. Florges claim beautiful meadows as their territories but they are kind and merciful with visitors.*
 
 **DexID**:: 0671
 **Species**:: Florges
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'6" / 1.1m
+**Weight**: 22.0lbs / 10.0kg
 
 ![[SRD-Florges-Learnset]]

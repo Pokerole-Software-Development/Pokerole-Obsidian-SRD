@@ -1,19 +1,36 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME804.png
+BookShinyImageName: HOME804_s.png
 BoxSprite: SRD-BoxSprite-naganadel.png
+DexCategory: 'Aether Foundation Log #164'
+DexDescription: One specimen of UB- Adhesive has apparently evolved. Its friendly
+  demeanor is gone. The large streams of corrosive poison it shot seriously damaged
+  our equipment, I must take a sample to study it
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 36
+  Feet: 11.8
+  Meters: 3.6
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-naganadel.png
 Learnset: '[[SRD-Naganadel-Learnset]]'
 Legendary: 'Yes'
 Name: Naganadel
 Number: 804
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: naganadel.png
 Type1: Poison
 Type2: Dragon
+Weight:
+  Hectograms: 1500
+  Kilograms: 150.0
+  Pounds: 330.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-naganadel.png|right]]
+
+*Aether Foundation Log #164*
+*One specimen of UB- Adhesive has apparently evolved. Its friendly demeanor is gone. The large streams of corrosive poison it shot seriously damaged our equipment, I must take a sample to study it*
 
 **DexID**:: 0804
 **Species**:: Naganadel
@@ -41,5 +61,7 @@ Type2: Dragon
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 11'8" / 3.6m
+**Weight**: 330.7lbs / 150.0kg
 
 ![[SRD-Naganadel-Learnset]]

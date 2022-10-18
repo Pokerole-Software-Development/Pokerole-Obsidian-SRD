@@ -1,19 +1,36 @@
 ---
 Ability1: Vital Spirit
 Ability2: Hustle
+Baby: 'No'
+BookImageName: HOME225.png
+BookShinyImageName: HOME225_s.png
 BoxSprite: SRD-BoxSprite-delibird.png
+DexCategory: Delivery Pokemon
+DexDescription: Delibird is always carrying food for its chicks and people in need.
+  They are related to the image of Santa Claus since they always carry presents for
+  their good and naughty kids in their bag-looking tail.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Insomnia
 HomeSprite: SRD-HomeSprite-delibird.png
 Learnset: '[[SRD-Delibird-Learnset]]'
 Legendary: 'No'
 Name: Delibird
 Number: 225
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Field
 Sprite: delibird.png
 Type1: Ice
 Type2: Flying
+Weight:
+  Hectograms: 160
+  Kilograms: 16.0
+  Pounds: 35.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-delibird.png|right]]
+
+*Delivery Pokemon*
+*Delibird is always carrying food for its chicks and people in need. They are related to the image of Santa Claus since they always carry presents for their good and naughty kids in their bag-looking tail.*
 
 **DexID**:: 0225
 **Species**:: Delibird
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'0" / 0.9m
+**Weight**: 35.3lbs / 16.0kg
 
 ![[SRD-Delibird-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Oblivious
 Ability2: Own Tempo
+Baby: 'No'
+BookImageName: HOME199.png
+BookShinyImageName: HOME199_s.png
 BoxSprite: SRD-BoxSprite-slowking.png
+DexCategory: Royal Pokemon
+DexDescription: It is extremely rare. The Shellder on its head injects a poison that
+  made it super intelligent. It takes a lot of interest in learning about Pokemon
+  lore and legends. But if Shellder is knocked out it will forget everything.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 20
+  Feet: 6.6
+  Meters: 2.0
 HiddenAbility: Regenerator
 HomeSprite: SRD-HomeSprite-slowking.png
 Learnset: '[[SRD-Slowking-Learnset]]'
 Legendary: 'No'
 Name: Slowking
 Number: 199
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Water 1
 Sprite: slowking.png
 Type1: Water
 Type2: Psychic
+Weight:
+  Hectograms: 795
+  Kilograms: 79.5
+  Pounds: 175.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-slowking.png|right]]
+
+*Royal Pokemon*
+*It is extremely rare. The Shellder on its head injects a poison that made it super intelligent. It takes a lot of interest in learning about Pokemon lore and legends. But if Shellder is knocked out it will forget everything.*
 
 **DexID**:: 0199
 **Species**:: Slowking
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'6" / 2.0m
+**Weight**: 175.3lbs / 79.5kg
 
 ![[SRD-Slowking-Learnset]]

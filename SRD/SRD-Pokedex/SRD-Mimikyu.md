@@ -1,19 +1,36 @@
 ---
 Ability1: Disguise
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME778.png
+BookShinyImageName: HOME778_s.png
 BoxSprite: SRD-BoxSprite-mimikyu.png
+DexCategory: Disguise Pokemon
+DexDescription: No one really knows what its true form looks like, the only scholar
+  that dared to look under the veil died on the spot from the horror. It disguises
+  itself as a Pikachu in an effort to make friends.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 2
+  Feet: 0.7
+  Meters: 0.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-mimikyu.png
 Learnset: '[[SRD-Mimikyu-Learnset]]'
 Legendary: 'No'
 Name: Mimikyu
 Number: 778
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: mimikyu.png
 Type1: Ghost
 Type2: Fairy
+Weight:
+  Hectograms: 7
+  Kilograms: 0.7
+  Pounds: 1.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-mimikyu.png|right]]
+
+*Disguise Pokemon*
+*No one really knows what its true form looks like, the only scholar that dared to look under the veil died on the spot from the horror. It disguises itself as a Pikachu in an effort to make friends.*
 
 **DexID**:: 0778
 **Species**:: Mimikyu
@@ -41,5 +61,7 @@ Type2: Fairy
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 0'7" / 0.2m
+**Weight**: 1.5lbs / 0.7kg
 
 ![[SRD-Mimikyu-Learnset]]

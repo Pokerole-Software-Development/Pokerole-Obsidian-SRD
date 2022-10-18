@@ -1,19 +1,36 @@
 ---
 Ability1: Illusion
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME570.png
+BookShinyImageName: HOME570_s.png
 BoxSprite: SRD-BoxSprite-zorua.png
+DexCategory: Tricky Fox Pokemon
+DexDescription: They are very hard to find as they can transform into people and other
+  Pokemon. They cannot speak when transformed and their tail remains visible. They
+  ruin reputations by creating mischief in disguise.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-zorua.png
 Learnset: '[[SRD-Zorua-Learnset]]'
 Legendary: 'No'
 Name: Zorua
 Number: 570
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: zorua.png
 Type1: Dark
 Type2: ''
+Weight:
+  Hectograms: 125
+  Kilograms: 12.5
+  Pounds: 27.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-zorua.png|right]]
+
+*Tricky Fox Pokemon*
+*They are very hard to find as they can transform into people and other Pokemon. They cannot speak when transformed and their tail remains visible. They ruin reputations by creating mischief in disguise.*
 
 **DexID**:: 0570
 **Species**:: Zorua
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 27.6lbs / 12.5kg
 
 ![[SRD-Zorua-Learnset]]

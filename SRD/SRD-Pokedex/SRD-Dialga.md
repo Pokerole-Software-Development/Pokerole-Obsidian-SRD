@@ -1,19 +1,35 @@
 ---
 Ability1: Pressure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME483.png
+BookShinyImageName: HOME483_s.png
 BoxSprite: SRD-BoxSprite-dialga.png
+DexCategory: No Data
+DexDescription: "In some religions there is a being called \u201CThe God of Time\u201D\
+  \ whose first roar brought future, present and past."
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 54
+  Feet: 17.7
+  Meters: 5.4
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-dialga.png
 Learnset: '[[SRD-Dialga-Learnset]]'
 Legendary: 'Yes'
 Name: Dialga
 Number: 483
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: dialga.png
 Type1: Steel
 Type2: Dragon
+Weight:
+  Hectograms: 6830
+  Kilograms: 683.0
+  Pounds: 1505.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-dialga.png|right]]
+
+*No Data*
+*In some religions there is a being called “The God of Time” whose first roar brought future, present and past.*
 
 **DexID**:: 0483
 **Species**:: Dialga
@@ -41,5 +60,7 @@ Type2: Dragon
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 17'7" / 5.4m
+**Weight**: 1505.8lbs / 683.0kg
 
 ![[SRD-Dialga-Learnset]]

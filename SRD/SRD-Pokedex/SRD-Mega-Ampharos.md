@@ -1,19 +1,36 @@
 ---
 Ability1: Mold Breaker
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME181M.png
+BookShinyImageName: HOME181M_s.png
 BoxSprite: SRD-BoxSprite-ampharos-mega.png
+DexCategory: Light Pokemon
+DexDescription: With the power of the Mega Stone the dormant dragon genes it has are
+  awakened. Its wool grows back as a silky mane that flows and floats with the electricity
+  its body is discharging.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 14
+  Feet: 4.6
+  Meters: 1.4
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-ampharos-mega.png
 Learnset: '[[SRD-Mega-Ampharos-Learnset]]'
 Legendary: 'No'
 Name: Mega-Ampharos
 Number: 181
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Field
 Sprite: ampharos-mega.png
 Type1: Electric
 Type2: Dragon
+Weight:
+  Hectograms: 615
+  Kilograms: 61.5
+  Pounds: 135.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-ampharos-mega.png|right]]
+
+*Light Pokemon*
+*With the power of the Mega Stone the dormant dragon genes it has are awakened. Its wool grows back as a silky mane that flows and floats with the electricity its body is discharging.*
 
 **DexID**:: 0181M1
 **Species**:: Mega-Ampharos
@@ -41,5 +61,7 @@ Type2: Dragon
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'6" / 1.4m
+**Weight**: 135.6lbs / 61.5kg
 
 ![[SRD-Mega-Ampharos-Learnset]]

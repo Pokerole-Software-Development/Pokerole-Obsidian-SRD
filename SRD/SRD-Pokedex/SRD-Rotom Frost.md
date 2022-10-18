@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME479R.png
+BookShinyImageName: HOME479R_s.png
 BoxSprite: SRD-BoxSprite-rotom-frost.png
+DexCategory: Plasma Pokemon
+DexDescription: 'A refrigerator possessed by a Rotom. It uses Ice powers, traps people
+  inside and freezes them in solid ice blocks. While on this form it can use the move:
+  Blizzard.'
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-rotom-frost.png
 Learnset: '[[SRD-Rotom Frost-Learnset]]'
 Legendary: 'No'
 Name: Rotom Frost
 Number: 479
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: rotom-frost.png
 Type1: Electric
 Type2: Ice
+Weight:
+  Hectograms: 3
+  Kilograms: 0.3
+  Pounds: 0.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ice
 # `= this.name`
 
 ![[SRD-HomeSprite-rotom-frost.png|right]]
+
+*Plasma Pokemon*
+*A refrigerator possessed by a Rotom. It uses Ice powers, traps people inside and freezes them in solid ice blocks. While on this form it can use the move: Blizzard.*
 
 **DexID**:: 0479F4
 **Species**:: Rotom Frost
@@ -41,5 +61,7 @@ Type2: Ice
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'0" / 0.3m
+**Weight**: 0.7lbs / 0.3kg
 
 ![[SRD-Rotom Frost-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Frisk
 Ability2: Infiltrator
+Baby: 'No'
+BookImageName: HOME715.png
+BookShinyImageName: HOME715_s.png
 BoxSprite: SRD-BoxSprite-noivern.png
+DexCategory: Sound Wave Pokemon
+DexDescription: "They fly during the new moon and attack careless prey. Nothing can\
+  \ beat them in a battle in the dark. To keep them calm you should feed them fruit\
+  \ or else they\u2019ll release shocking ultrasonic waves."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-noivern.png
 Learnset: '[[SRD-Noivern-Learnset]]'
 Legendary: 'No'
 Name: Noivern
 Number: 715
+PrimaryEggGroup: Flying
+SecondaryEggGroup: Dragon
 Sprite: noivern.png
 Type1: Flying
 Type2: Dragon
+Weight:
+  Hectograms: 850
+  Kilograms: 85.0
+  Pounds: 187.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-noivern.png|right]]
+
+*Sound Wave Pokemon*
+*They fly during the new moon and attack careless prey. Nothing can beat them in a battle in the dark. To keep them calm you should feed them fruit or else they’ll release shocking ultrasonic waves.*
 
 **DexID**:: 0715
 **Species**:: Noivern
@@ -41,5 +61,7 @@ Type2: Dragon
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 187.4lbs / 85.0kg
 
 ![[SRD-Noivern-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Pixilate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME282M.png
+BookShinyImageName: HOME282M_s.png
 BoxSprite: SRD-BoxSprite-gardevoir-mega.png
+DexCategory: Embrace Pokemon
+DexDescription: The power of the Mega Stone makes its senses skyrocket. It is easily
+  upset as it can feel the emotions from everyone in a wide radius. Its psychic powers
+  are said to distort reality.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-gardevoir-mega.png
 Learnset: '[[SRD-Mega-Gardevoir-Learnset]]'
 Legendary: 'No'
 Name: Mega-Gardevoir
 Number: 282
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: Amorphous
 Sprite: gardevoir-mega.png
 Type1: Psychic
 Type2: Fairy
+Weight:
+  Hectograms: 484
+  Kilograms: 48.4
+  Pounds: 106.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-gardevoir-mega.png|right]]
+
+*Embrace Pokemon*
+*The power of the Mega Stone makes its senses skyrocket. It is easily upset as it can feel the emotions from everyone in a wide radius. Its psychic powers are said to distort reality.*
 
 **DexID**:: 0282M1
 **Species**:: Mega-Gardevoir
@@ -41,5 +61,7 @@ Type2: Fairy
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 106.7lbs / 48.4kg
 
 ![[SRD-Mega-Gardevoir-Learnset]]

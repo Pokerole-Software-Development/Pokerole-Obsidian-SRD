@@ -1,19 +1,36 @@
 ---
 Ability1: Swift Swim
 Ability2: Storm Drain
+Baby: 'No'
+BookImageName: HOME457.png
+BookShinyImageName: HOME457_s.png
 BoxSprite: SRD-BoxSprite-lumineon.png
+DexCategory: Neon Pokemon
+DexDescription: It lives in the deep-sea bottom. It attracts prey by flashing the
+  patterns on its tail fins. In the wild it competes against Lanturn for food. Its
+  main predators are Tentacruel and Sharpedo.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Water Veil
 HomeSprite: SRD-HomeSprite-lumineon.png
 Learnset: '[[SRD-Lumineon-Learnset]]'
 Legendary: 'No'
 Name: Lumineon
 Number: 457
+PrimaryEggGroup: Water 2
+SecondaryEggGroup: ''
 Sprite: lumineon.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 240
+  Kilograms: 24.0
+  Pounds: 52.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-lumineon.png|right]]
+
+*Neon Pokemon*
+*It lives in the deep-sea bottom. It attracts prey by flashing the patterns on its tail fins. In the wild it competes against Lanturn for food. Its main predators are Tentacruel and Sharpedo.*
 
 **DexID**:: 0457
 **Species**:: Lumineon
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 52.9lbs / 24.0kg
 
 ![[SRD-Lumineon-Learnset]]

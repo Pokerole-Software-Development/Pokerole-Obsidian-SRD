@@ -1,19 +1,36 @@
 ---
 Ability1: Torrent
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME818.png
+BookShinyImageName: HOME818_s.png
 BoxSprite: SRD-BoxSprite-inteleon.png
+DexCategory: Secret Agent Pokemon
+DexDescription: Its fingertips can create quick jets of water that travel at incredibly
+  high speeds, these jets can even pierce thick metal plates. It usually hunts from
+  a high place, shoots, and then glides down to eat its prey.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 19
+  Feet: 6.2
+  Meters: 1.9
 HiddenAbility: Sniper
 HomeSprite: SRD-HomeSprite-inteleon.png
 Learnset: '[[SRD-Inteleon-Learnset]]'
 Legendary: 'No'
 Name: Inteleon
 Number: 818
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Field
 Sprite: inteleon.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 452
+  Kilograms: 45.2
+  Pounds: 99.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-inteleon.png|right]]
+
+*Secret Agent Pokemon*
+*Its fingertips can create quick jets of water that travel at incredibly high speeds, these jets can even pierce thick metal plates. It usually hunts from a high place, shoots, and then glides down to eat its prey.*
 
 **DexID**:: 0818
 **Species**:: Inteleon
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'2" / 1.9m
+**Weight**: 99.6lbs / 45.2kg
 
 ![[SRD-Inteleon-Learnset]]

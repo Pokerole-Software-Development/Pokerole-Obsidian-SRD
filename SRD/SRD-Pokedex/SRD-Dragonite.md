@@ -1,19 +1,36 @@
 ---
 Ability1: Inner Focus
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME149.png
+BookShinyImageName: HOME149_s.png
 BoxSprite: SRD-BoxSprite-dragonite.png
+DexCategory: Dragon Pokemon
+DexDescription: Very few people have ever seen this Pokemon. Its intelligence matches
+  that of humans. There are records of a Pokemon with a similar description that helped
+  rescue a ship full of people during a hurricane.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 22
+  Feet: 7.2
+  Meters: 2.2
 HiddenAbility: Multiscale
 HomeSprite: SRD-HomeSprite-dragonite.png
 Learnset: '[[SRD-Dragonite-Learnset]]'
 Legendary: 'No'
 Name: Dragonite
 Number: 149
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Dragon
 Sprite: dragonite.png
 Type1: Dragon
 Type2: Flying
+Weight:
+  Hectograms: 2100
+  Kilograms: 210.0
+  Pounds: 463.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-dragonite.png|right]]
+
+*Dragon Pokemon*
+*Very few people have ever seen this Pokemon. Its intelligence matches that of humans. There are records of a Pokemon with a similar description that helped rescue a ship full of people during a hurricane.*
 
 **DexID**:: 0149
 **Species**:: Dragonite
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 7'2" / 2.2m
+**Weight**: 463.0lbs / 210.0kg
 
 ![[SRD-Dragonite-Learnset]]

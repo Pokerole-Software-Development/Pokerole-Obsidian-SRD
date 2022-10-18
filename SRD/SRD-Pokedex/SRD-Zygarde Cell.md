@@ -1,19 +1,34 @@
 ---
 Ability1: Power Construct
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME718L.png
 BoxSprite: SRD-BoxSprite-zygarde.png
+DexCategory: No Data
+DexDescription: Only the the cores react to stimuli, the cells remain mostly inanimate.
+  They gather in great numbers to create and strengthen Zygarde.
 EventAbilities: ''
 GenderType: N
 HasForm: 'Yes'
+Height:
+  Deimeters: 2
+  Feet: 0.7
+  Meters: 0.2
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-zygarde.png
 Learnset: '[[SRD-Zygarde Cell-Learnset]]'
 Legendary: 'Yes'
 Name: Zygarde Cell
 Number: 718
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: zygarde.png
 Type1: Dragon
 Type2: Ground
+Weight:
+  Hectograms: 1
+  Kilograms: 0.1
+  Pounds: 0.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +36,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-zygarde.png|right]]
+
+*No Data*
+*Only the the cores react to stimuli, the cells remain mostly inanimate. They gather in great numbers to create and strengthen Zygarde.*
 
 **DexID**:: 0718
 **Species**:: Zygarde Cell
@@ -41,5 +59,7 @@ Type2: Ground
 **Recommended Rank**:: Starter
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 0'7" / 0.2m
+**Weight**: 0.2lbs / 0.1kg
 
 ![[SRD-Zygarde Cell-Learnset]]

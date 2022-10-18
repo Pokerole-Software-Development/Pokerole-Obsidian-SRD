@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME330.png
+BookShinyImageName: HOME330_s.png
 BoxSprite: SRD-BoxSprite-flygon.png
+DexCategory: Mystic Pokemon
+DexDescription: "Known as the \u201CElemental Spirit of the Desert\u201D. Their wings\
+  \ create a cloud of dust that surrounds this Pokemon while flying, while their flapping\
+  \ produces a sound that resembles a woman singing."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 20
+  Feet: 6.6
+  Meters: 2.0
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-flygon.png
 Learnset: '[[SRD-Flygon-Learnset]]'
 Legendary: 'No'
 Name: Flygon
 Number: 330
+PrimaryEggGroup: Bug
+SecondaryEggGroup: Dragon
 Sprite: flygon.png
 Type1: Ground
 Type2: Dragon
+Weight:
+  Hectograms: 820
+  Kilograms: 82.0
+  Pounds: 180.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-flygon.png|right]]
+
+*Mystic Pokemon*
+*Known as the “Elemental Spirit of the Desert”. Their wings create a cloud of dust that surrounds this Pokemon while flying, while their flapping produces a sound that resembles a woman singing.*
 
 **DexID**:: 0330
 **Species**:: Flygon
@@ -41,5 +61,7 @@ Type2: Dragon
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'6" / 2.0m
+**Weight**: 180.8lbs / 82.0kg
 
 ![[SRD-Flygon-Learnset]]

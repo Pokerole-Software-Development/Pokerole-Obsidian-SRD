@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME488.png
+BookShinyImageName: HOME488_s.png
 BoxSprite: SRD-BoxSprite-cresselia.png
+DexCategory: No Data
+DexDescription: The embodiment of dreams comes to life during the crescent moon nights.
+  You will be blessed with peaceful bedtimes If you keep one of its feathers. Or so
+  they say.
 EventAbilities: ''
 GenderType: F
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-cresselia.png
 Learnset: '[[SRD-Cresselia-Learnset]]'
 Legendary: 'Yes'
 Name: Cresselia
 Number: 488
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: cresselia.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 856
+  Kilograms: 85.6
+  Pounds: 188.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-cresselia.png|right]]
+
+*No Data*
+*The embodiment of dreams comes to life during the crescent moon nights. You will be blessed with peaceful bedtimes If you keep one of its feathers. Or so they say.*
 
 **DexID**:: 0488
 **Species**:: Cresselia
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 188.7lbs / 85.6kg
 
 ![[SRD-Cresselia-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Oblivious
 Ability2: Forewarn
+Baby: 'No'
+BookImageName: HOME124.png
+BookShinyImageName: HOME124_s.png
 BoxSprite: SRD-BoxSprite-jynx.png
+DexCategory: Humanshape Pokemon
+DexDescription: It is not common outside cold areas. This Pokemon is female only.
+  Its cries sound like human speech. However, it is impossible to tell what it is
+  trying to say. The way it moves and talks induce others to dance.
 EventAbilities: ''
 GenderType: F
 HasForm: 'No'
+Height:
+  Deimeters: 14
+  Feet: 4.6
+  Meters: 1.4
 HiddenAbility: Dry Skin
 HomeSprite: SRD-HomeSprite-jynx.png
 Learnset: '[[SRD-Jynx-Learnset]]'
 Legendary: 'No'
 Name: Jynx
 Number: 124
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: jynx.png
 Type1: Ice
 Type2: Psychic
+Weight:
+  Hectograms: 406
+  Kilograms: 40.6
+  Pounds: 89.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-jynx.png|right]]
+
+*Humanshape Pokemon*
+*It is not common outside cold areas. This Pokemon is female only. Its cries sound like human speech. However, it is impossible to tell what it is trying to say. The way it moves and talks induce others to dance.*
 
 **DexID**:: 0124
 **Species**:: Jynx
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'6" / 1.4m
+**Weight**: 89.5lbs / 40.6kg
 
 ![[SRD-Jynx-Learnset]]

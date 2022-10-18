@@ -1,19 +1,36 @@
 ---
 Ability1: Chlorophyll
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME102.png
+BookShinyImageName: HOME102_s.png
 BoxSprite: SRD-BoxSprite-exeggcute.png
+DexCategory: Egg Pokemon
+DexDescription: Even though it appears to be eggs of some sort, it is related more
+  to a seed. It gathers in packs of six that have a mental link with each other. Each
+  one of them has a different personality.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Harvest
 HomeSprite: SRD-HomeSprite-exeggcute.png
 Learnset: '[[SRD-Exeggcute-Learnset]]'
 Legendary: 'No'
 Name: Exeggcute
 Number: 102
+PrimaryEggGroup: Grass
+SecondaryEggGroup: ''
 Sprite: exeggcute.png
 Type1: Grass
 Type2: Psychic
+Weight:
+  Hectograms: 25
+  Kilograms: 2.5
+  Pounds: 5.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Psychic
 # `= this.name`
 
 ![[SRD-HomeSprite-exeggcute.png|right]]
+
+*Egg Pokemon*
+*Even though it appears to be eggs of some sort, it is related more to a seed. It gathers in packs of six that have a mental link with each other. Each one of them has a different personality.*
 
 **DexID**:: 0102
 **Species**:: Exeggcute
@@ -41,5 +61,7 @@ Type2: Psychic
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 5.5lbs / 2.5kg
 
 ![[SRD-Exeggcute-Learnset]]

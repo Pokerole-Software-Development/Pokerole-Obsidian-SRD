@@ -1,19 +1,36 @@
 ---
 Ability1: Steadfast
 Ability2: Inner Focus
+Baby: 'Yes'
+BookImageName: HOME447.png
+BookShinyImageName: HOME447_s.png
 BoxSprite: SRD-BoxSprite-riolu.png
+DexCategory: Emanation Pokemon
+DexDescription: "Scarce in the wild but they have been seen in the mountains. It has\
+  \ the ability to see the auras of others, through this power it is capable of sensing\
+  \ emotions. It won\u2019t get close to those with selfish intentions."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Prankster
 HomeSprite: SRD-HomeSprite-riolu.png
 Learnset: '[[SRD-Riolu-Learnset]]'
 Legendary: 'No'
 Name: Riolu
 Number: 447
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: riolu.png
 Type1: Fighting
 Type2: ''
+Weight:
+  Hectograms: 202
+  Kilograms: 20.2
+  Pounds: 44.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-riolu.png|right]]
+
+*Emanation Pokemon*
+*Scarce in the wild but they have been seen in the mountains. It has the ability to see the auras of others, through this power it is capable of sensing emotions. It won’t get close to those with selfish intentions.*
 
 **DexID**:: 0447
 **Species**:: Riolu
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'3" / 0.7m
+**Weight**: 44.5lbs / 20.2kg
 
 ![[SRD-Riolu-Learnset]]

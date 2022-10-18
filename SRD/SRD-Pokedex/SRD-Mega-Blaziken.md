@@ -1,19 +1,36 @@
 ---
 Ability1: Speed Boost
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME257M.png
+BookShinyImageName: HOME257M_s.png
 BoxSprite: SRD-BoxSprite-blaziken-mega.png
+DexCategory: Blaze Pokemon
+DexDescription: The power of the Mega Stone makes its inner fire burn so strong that
+  it sets its limbs ablaze. This allows it to move faster than ever but it also takes
+  a toll on its feathers as they burn to black cinders.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 19
+  Feet: 6.2
+  Meters: 1.9
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-blaziken-mega.png
 Learnset: '[[SRD-Mega-Blaziken-Learnset]]'
 Legendary: 'No'
 Name: Mega-Blaziken
 Number: 257
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: blaziken-mega.png
 Type1: Fire
 Type2: Fighting
+Weight:
+  Hectograms: 520
+  Kilograms: 52.0
+  Pounds: 114.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-blaziken-mega.png|right]]
+
+*Blaze Pokemon*
+*The power of the Mega Stone makes its inner fire burn so strong that it sets its limbs ablaze. This allows it to move faster than ever but it also takes a toll on its feathers as they burn to black cinders.*
 
 **DexID**:: 0257M1
 **Species**:: Mega-Blaziken
@@ -41,5 +61,7 @@ Type2: Fighting
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'2" / 1.9m
+**Weight**: 114.6lbs / 52.0kg
 
 ![[SRD-Mega-Blaziken-Learnset]]

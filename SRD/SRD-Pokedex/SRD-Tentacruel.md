@@ -1,19 +1,36 @@
 ---
 Ability1: Clear Body
 Ability2: Liquid Ooze
+Baby: 'No'
+BookImageName: HOME073.png
+BookShinyImageName: HOME073_s.png
 BoxSprite: SRD-BoxSprite-tentacruel.png
+DexCategory: Jellyfish Pokemon
+DexDescription: Lives in rock formations at the bottom of the ocean. It can grow tentacles
+  at will and uses them to immobilize prey. Records exist of a giant Tentacruel that
+  sunk a fleet of pirate ships filled with treasure.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: Rain Dish
 HomeSprite: SRD-HomeSprite-tentacruel.png
 Learnset: '[[SRD-Tentacruel-Learnset]]'
 Legendary: 'No'
 Name: Tentacruel
 Number: 73
+PrimaryEggGroup: Water 3
+SecondaryEggGroup: ''
 Sprite: tentacruel.png
 Type1: Water
 Type2: Poison
+Weight:
+  Hectograms: 550
+  Kilograms: 55.0
+  Pounds: 121.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-tentacruel.png|right]]
+
+*Jellyfish Pokemon*
+*Lives in rock formations at the bottom of the ocean. It can grow tentacles at will and uses them to immobilize prey. Records exist of a giant Tentacruel that sunk a fleet of pirate ships filled with treasure.*
 
 **DexID**:: 0073
 **Species**:: Tentacruel
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 121.3lbs / 55.0kg
 
 ![[SRD-Tentacruel-Learnset]]

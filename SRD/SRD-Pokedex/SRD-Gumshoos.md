@@ -1,19 +1,36 @@
 ---
 Ability1: Stakeout
 Ability2: Strong Jaw
+Baby: 'No'
+BookImageName: HOME735.png
+BookShinyImageName: HOME735_s.png
 BoxSprite: SRD-BoxSprite-gumshoos.png
+DexCategory: Stakeout Pokemon
+DexDescription: Alolan Ratatta became nocturnal to evade this Pokemon, as it is their
+  main Predator. Gumshoos now go hungry for days before they find something suitable
+  to eat, they compensate by sleeping a lot.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Adaptability
 HomeSprite: SRD-HomeSprite-gumshoos.png
 Learnset: '[[SRD-Gumshoos-Learnset]]'
 Legendary: 'No'
 Name: Gumshoos
 Number: 735
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: gumshoos.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 142
+  Kilograms: 14.2
+  Pounds: 31.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-gumshoos.png|right]]
+
+*Stakeout Pokemon*
+*Alolan Ratatta became nocturnal to evade this Pokemon, as it is their main Predator. Gumshoos now go hungry for days before they find something suitable to eat, they compensate by sleeping a lot.*
 
 **DexID**:: 0735
 **Species**:: Gumshoos
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'3" / 0.7m
+**Weight**: 31.3lbs / 14.2kg
 
 ![[SRD-Gumshoos-Learnset]]

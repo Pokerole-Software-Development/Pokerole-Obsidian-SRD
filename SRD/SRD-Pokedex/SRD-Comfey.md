@@ -1,19 +1,36 @@
 ---
 Ability1: Flower Veil
 Ability2: Triage
+Baby: 'No'
+BookImageName: HOME764.png
+BookShinyImageName: HOME764_s.png
 BoxSprite: SRD-BoxSprite-comfey.png
+DexCategory: Posy Picker Pokemon
+DexDescription: This tiny Pokemon gathers flowers and connects them to itself forming
+  a ring. The flowers never wither and their aroma becomes soothing and therapeutic.
+  If it likes you it will create a flower ring just for you.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 1
+  Feet: 0.3
+  Meters: 0.1
 HiddenAbility: Natural Cure
 HomeSprite: SRD-HomeSprite-comfey.png
 Learnset: '[[SRD-Comfey-Learnset]]'
 Legendary: 'No'
 Name: Comfey
 Number: 764
+PrimaryEggGroup: Grass
+SecondaryEggGroup: ''
 Sprite: comfey.png
 Type1: Fairy
 Type2: ''
+Weight:
+  Hectograms: 3
+  Kilograms: 0.3
+  Pounds: 0.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-comfey.png|right]]
+
+*Posy Picker Pokemon*
+*This tiny Pokemon gathers flowers and connects them to itself forming a ring. The flowers never wither and their aroma becomes soothing and therapeutic. If it likes you it will create a flower ring just for you.*
 
 **DexID**:: 0764
 **Species**:: Comfey
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 0'3" / 0.1m
+**Weight**: 0.7lbs / 0.3kg
 
 ![[SRD-Comfey-Learnset]]

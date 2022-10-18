@@ -1,19 +1,36 @@
 ---
 Ability1: Limber
 Ability2: Own Tempo
+Baby: 'No'
+BookImageName: HOME431.png
+BookShinyImageName: HOME431_s.png
 BoxSprite: SRD-BoxSprite-glameow.png
+DexCategory: Catty Pokemon
+DexDescription: "It is plentiful in urban areas, as it is a popular pet. It has a\
+  \ very fickle nature, purring in happiness one second, then hooking its claws into\
+  \ its trainer\u2019s nose. It loves to be admired and pampered."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Keen Eye
 HomeSprite: SRD-HomeSprite-glameow.png
 Learnset: '[[SRD-Glameow-Learnset]]'
 Legendary: 'No'
 Name: Glameow
 Number: 431
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: glameow.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 39
+  Kilograms: 3.9
+  Pounds: 8.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-glameow.png|right]]
+
+*Catty Pokemon*
+*It is plentiful in urban areas, as it is a popular pet. It has a very fickle nature, purring in happiness one second, then hooking its claws into its trainer’s nose. It loves to be admired and pampered.*
 
 **DexID**:: 0431
 **Species**:: Glameow
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 8.6lbs / 3.9kg
 
 ![[SRD-Glameow-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Poison Point
 Ability2: Rivalry
+Baby: 'No'
+BookImageName: HOME031.png
+BookShinyImageName: HOME031_s.png
 BoxSprite: SRD-BoxSprite-nidoqueen.png
+DexCategory: Drill Pokemon
+DexDescription: Motherly by nature, it uses its scaly rugged body to seal the entrance
+  of its nest and protect its young from predators. There are records of angry Nidoqueens
+  sending people flying with a single tackle.
 EventAbilities: ''
 GenderType: F
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-nidoqueen.png
 Learnset: '[[SRD-Nidoqueen-Learnset]]'
 Legendary: 'No'
 Name: Nidoqueen
 Number: 31
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: nidoqueen.png
 Type1: Poison
 Type2: Ground
+Weight:
+  Hectograms: 600
+  Kilograms: 60.0
+  Pounds: 132.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ground
 # `= this.name`
 
 ![[SRD-HomeSprite-nidoqueen.png|right]]
+
+*Drill Pokemon*
+*Motherly by nature, it uses its scaly rugged body to seal the entrance of its nest and protect its young from predators. There are records of angry Nidoqueens sending people flying with a single tackle.*
 
 **DexID**:: 0031
 **Species**:: Nidoqueen
@@ -41,5 +61,7 @@ Type2: Ground
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 4'3" / 1.3m
+**Weight**: 132.3lbs / 60.0kg
 
 ![[SRD-Nidoqueen-Learnset]]

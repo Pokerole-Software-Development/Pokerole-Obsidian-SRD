@@ -1,19 +1,39 @@
 ---
 Ability1: Insomnia
 Ability2: Frisk
+Baby: 'No'
+BookImageName: HOME354.png
+BookShinyImageName: HOME354_s.png
 BoxSprite: SRD-BoxSprite-banette.png
+DexCategory: Marionette Pokemon
+DexDescription: "It\u2019s body is usually a discarded doll or toy. Its spirit is\
+  \ made of dark feelings and is overrun by the desire of revenge towards the kid\
+  \ that threw the toy away. If you open its mouth, all the cursed energy will escape."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Cursed Body
 HomeSprite: SRD-HomeSprite-banette.png
 Learnset: '[[SRD-Banette-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Banettite
+  Name: Mega-Banette
 Name: Banette
 Number: 354
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: banette.png
 Type1: Ghost
 Type2: ''
+Weight:
+  Hectograms: 125
+  Kilograms: 12.5
+  Pounds: 27.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-banette.png|right]]
+
+*Marionette Pokemon*
+*It’s body is usually a discarded doll or toy. Its spirit is made of dark feelings and is overrun by the desire of revenge towards the kid that threw the toy away. If you open its mouth, all the cursed energy will escape.*
 
 **DexID**:: 0354
 **Species**:: Banette
@@ -41,5 +64,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'6" / 1.1m
+**Weight**: 27.6lbs / 12.5kg
 
 ![[SRD-Banette-Learnset]]

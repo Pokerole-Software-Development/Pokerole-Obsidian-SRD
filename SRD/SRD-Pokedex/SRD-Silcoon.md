@@ -1,19 +1,36 @@
 ---
 Ability1: Shed Skin
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME266.png
+BookShinyImageName: HOME266_s.png
 BoxSprite: SRD-BoxSprite-silcoon.png
+DexCategory: Cocoon Pokemon
+DexDescription: They tether themselves to tree branches while they wait to evolve.
+  Sometimes they peek from a small hole in the cocoon. Silcoons feed only on raindrops.
+  If Wrumple lived among flowers, it evolves to Silcoon.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-silcoon.png
 Learnset: '[[SRD-Silcoon-Learnset]]'
 Legendary: 'No'
 Name: Silcoon
 Number: 266
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: silcoon.png
 Type1: Bug
 Type2: ''
+Weight:
+  Hectograms: 100
+  Kilograms: 10.0
+  Pounds: 22.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-silcoon.png|right]]
+
+*Cocoon Pokemon*
+*They tether themselves to tree branches while they wait to evolve. Sometimes they peek from a small hole in the cocoon. Silcoons feed only on raindrops. If Wrumple lived among flowers, it evolves to Silcoon.*
 
 **DexID**:: 0266
 **Species**:: Silcoon
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 2'0" / 0.6m
+**Weight**: 22.0lbs / 10.0kg
 
 ![[SRD-Silcoon-Learnset]]

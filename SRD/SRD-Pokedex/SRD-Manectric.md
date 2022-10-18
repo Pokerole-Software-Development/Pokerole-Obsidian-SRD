@@ -1,19 +1,39 @@
 ---
 Ability1: Static
 Ability2: Lightning Rod
+Baby: 'No'
+BookImageName: HOME310.png
+BookShinyImageName: HOME310_s.png
 BoxSprite: SRD-BoxSprite-manectric.png
+DexCategory: Discharge Pokemon
+DexDescription: Their manes are constantly releasing dangerous sparks that often end
+  up in forest fires. When they get in battle, thunderclouds show up with them. They
+  are extremely rare to see in the wild.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Minus
 HomeSprite: SRD-HomeSprite-manectric.png
 Learnset: '[[SRD-Manectric-Learnset]]'
 Legendary: 'No'
+MegaEvolutions:
+- Item: Manectite
+  Name: Mega-Manectric
 Name: Manectric
 Number: 310
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: manectric.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 402
+  Kilograms: 40.2
+  Pounds: 88.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +41,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-manectric.png|right]]
+
+*Discharge Pokemon*
+*Their manes are constantly releasing dangerous sparks that often end up in forest fires. When they get in battle, thunderclouds show up with them. They are extremely rare to see in the wild.*
 
 **DexID**:: 0310
 **Species**:: Manectric
@@ -41,5 +64,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 88.6lbs / 40.2kg
 
 ![[SRD-Manectric-Learnset]]

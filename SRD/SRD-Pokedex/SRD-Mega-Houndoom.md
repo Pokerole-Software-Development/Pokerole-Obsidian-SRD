@@ -1,19 +1,36 @@
 ---
 Ability1: Solar Power
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME229M.png
+BookShinyImageName: HOME229M_s.png
 BoxSprite: SRD-BoxSprite-houndoom-mega.png
+DexCategory: Dark Pokemon
+DexDescription: With the power of the Mega Stone its whole body radiates tremendous
+  heat, so much that its claws are searing hot and turn red as a result, for this
+  reason it can be painful for it to walk or run.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 19
+  Feet: 6.2
+  Meters: 1.9
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-houndoom-mega.png
 Learnset: '[[SRD-Mega-Houndoom-Learnset]]'
 Legendary: 'No'
 Name: Mega-Houndoom
 Number: 229
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: houndoom-mega.png
 Type1: Dark
 Type2: Fire
+Weight:
+  Hectograms: 495
+  Kilograms: 49.5
+  Pounds: 109.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fire
 # `= this.name`
 
 ![[SRD-HomeSprite-houndoom-mega.png|right]]
+
+*Dark Pokemon*
+*With the power of the Mega Stone its whole body radiates tremendous heat, so much that its claws are searing hot and turn red as a result, for this reason it can be painful for it to walk or run.*
 
 **DexID**:: 0229M1
 **Species**:: Mega-Houndoom
@@ -41,5 +61,7 @@ Type2: Fire
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 6'2" / 1.9m
+**Weight**: 109.1lbs / 49.5kg
 
 ![[SRD-Mega-Houndoom-Learnset]]

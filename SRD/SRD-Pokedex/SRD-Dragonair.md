@@ -1,19 +1,36 @@
 ---
 Ability1: Shed Skin
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME148.png
+BookShinyImageName: HOME148_s.png
 BoxSprite: SRD-BoxSprite-dragonair.png
+DexCategory: Dragon Pokemon
+DexDescription: It is said to live in seas and lakes. Even though it has no wings,
+  it has been depicted flying. There were legends of this Pokemon controlling the
+  weather and ending the storms to leave a rainbow behind.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 40
+  Feet: 13.1
+  Meters: 4.0
 HiddenAbility: Marvel Scale
 HomeSprite: SRD-HomeSprite-dragonair.png
 Learnset: '[[SRD-Dragonair-Learnset]]'
 Legendary: 'No'
 Name: Dragonair
 Number: 148
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Dragon
 Sprite: dragonair.png
 Type1: Dragon
 Type2: ''
+Weight:
+  Hectograms: 165
+  Kilograms: 16.5
+  Pounds: 36.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-dragonair.png|right]]
+
+*Dragon Pokemon*
+*It is said to live in seas and lakes. Even though it has no wings, it has been depicted flying. There were legends of this Pokemon controlling the weather and ending the storms to leave a rainbow behind.*
 
 **DexID**:: 0148
 **Species**:: Dragonair
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 13'1" / 4.0m
+**Weight**: 36.4lbs / 16.5kg
 
 ![[SRD-Dragonair-Learnset]]

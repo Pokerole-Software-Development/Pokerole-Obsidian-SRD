@@ -1,19 +1,36 @@
 ---
 Ability1: Flame Body
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME637.png
+BookShinyImageName: HOME637_s.png
 BoxSprite: SRD-BoxSprite-volcarona.png
+DexCategory: Sun Pokemon
+DexDescription: A sea of fire engulfs the surroundings of its battles, since it uses
+  six wings to scatter blazing scales. There are stories of how its fire saved villages
+  during winter and how it shone like the sun over the mountains.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: Swarm
 HomeSprite: SRD-HomeSprite-volcarona.png
 Learnset: '[[SRD-Volcarona-Learnset]]'
 Legendary: 'No'
 Name: Volcarona
 Number: 637
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: volcarona.png
 Type1: Bug
 Type2: Fire
+Weight:
+  Hectograms: 460
+  Kilograms: 46.0
+  Pounds: 101.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fire
 # `= this.name`
 
 ![[SRD-HomeSprite-volcarona.png|right]]
+
+*Sun Pokemon*
+*A sea of fire engulfs the surroundings of its battles, since it uses six wings to scatter blazing scales. There are stories of how its fire saved villages during winter and how it shone like the sun over the mountains.*
 
 **DexID**:: 0637
 **Species**:: Volcarona
@@ -41,5 +61,7 @@ Type2: Fire
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 101.4lbs / 46.0kg
 
 ![[SRD-Volcarona-Learnset]]

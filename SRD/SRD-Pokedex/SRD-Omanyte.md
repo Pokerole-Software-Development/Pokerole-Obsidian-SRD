@@ -1,19 +1,36 @@
 ---
 Ability1: Swift Swim
 Ability2: Shell Armor
+Baby: 'No'
+BookImageName: HOME138.png
+BookShinyImageName: HOME138_s.png
 BoxSprite: SRD-BoxSprite-omanyte.png
+DexCategory: Spiral Pokemon
+DexDescription: One of the ancient and extinct Pokemon that have been revived from
+  fossils by science. If attacked, it withdraws into its hard shell. It is not found
+  in the wild anymore, but fossils can be found in the sea.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Weak Armor
 HomeSprite: SRD-HomeSprite-omanyte.png
 Learnset: '[[SRD-Omanyte-Learnset]]'
 Legendary: 'No'
 Name: Omanyte
 Number: 138
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Water 3
 Sprite: omanyte.png
 Type1: Rock
 Type2: Water
+Weight:
+  Hectograms: 75
+  Kilograms: 7.5
+  Pounds: 16.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Water
 # `= this.name`
 
 ![[SRD-HomeSprite-omanyte.png|right]]
+
+*Spiral Pokemon*
+*One of the ancient and extinct Pokemon that have been revived from fossils by science. If attacked, it withdraws into its hard shell. It is not found in the wild anymore, but fossils can be found in the sea.*
 
 **DexID**:: 0138
 **Species**:: Omanyte
@@ -41,5 +61,7 @@ Type2: Water
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 16.5lbs / 7.5kg
 
 ![[SRD-Omanyte-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Thick Fat
 Ability2: Ice Body
+Baby: 'No'
+BookImageName: HOME364.png
+BookShinyImageName: HOME364_s.png
 BoxSprite: SRD-BoxSprite-sealeo.png
+DexCategory: Ball Roll Pokemon
+DexDescription: "They play with the Spheal in the herd by spinning them with their\
+  \ noses. When they are not in the wild they\u2019ll spin almost any round object,\
+  \ even Pokeballs. Sealeos are great hunters underwater."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Oblivious
 HomeSprite: SRD-HomeSprite-sealeo.png
 Learnset: '[[SRD-Sealeo-Learnset]]'
 Legendary: 'No'
 Name: Sealeo
 Number: 364
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Field
 Sprite: sealeo.png
 Type1: Ice
 Type2: Water
+Weight:
+  Hectograms: 876
+  Kilograms: 87.6
+  Pounds: 193.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Water
 # `= this.name`
 
 ![[SRD-HomeSprite-sealeo.png|right]]
+
+*Ball Roll Pokemon*
+*They play with the Spheal in the herd by spinning them with their noses. When they are not in the wild they’ll spin almost any round object, even Pokeballs. Sealeos are great hunters underwater.*
 
 **DexID**:: 0364
 **Species**:: Sealeo
@@ -41,5 +61,7 @@ Type2: Water
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'6" / 1.1m
+**Weight**: 193.1lbs / 87.6kg
 
 ![[SRD-Sealeo-Learnset]]

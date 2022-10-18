@@ -1,19 +1,36 @@
 ---
 Ability1: Overgrow
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME652.png
+BookShinyImageName: HOME652_s.png
 BoxSprite: SRD-BoxSprite-chesnaught.png
+DexCategory: Spiny Armor Pokemon
+DexDescription: These Pokemon are known for taking defensive stances instead of charging
+  into battle. Many stories tell how during the old wars, Chesnaught protected their
+  allies using their bodies.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: Bulletproof
 HomeSprite: SRD-HomeSprite-chesnaught.png
 Learnset: '[[SRD-Chesnaught-Learnset]]'
 Legendary: 'No'
 Name: Chesnaught
 Number: 652
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: chesnaught.png
 Type1: Grass
 Type2: Fighting
+Weight:
+  Hectograms: 900
+  Kilograms: 90.0
+  Pounds: 198.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-chesnaught.png|right]]
+
+*Spiny Armor Pokemon*
+*These Pokemon are known for taking defensive stances instead of charging into battle. Many stories tell how during the old wars, Chesnaught protected their allies using their bodies.*
 
 **DexID**:: 0652
 **Species**:: Chesnaught
@@ -41,5 +61,7 @@ Type2: Fighting
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 5'2" / 1.6m
+**Weight**: 198.4lbs / 90.0kg
 
 ![[SRD-Chesnaught-Learnset]]

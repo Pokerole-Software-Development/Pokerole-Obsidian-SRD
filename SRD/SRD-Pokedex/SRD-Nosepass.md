@@ -1,19 +1,36 @@
 ---
 Ability1: Sturdy
 Ability2: Magnet Pull
+Baby: 'No'
+BookImageName: HOME299.png
+BookShinyImageName: HOME299_s.png
 BoxSprite: SRD-BoxSprite-nosepass.png
+DexCategory: Nosepass Pokemon
+DexDescription: Their magnetic noses always point to the north. They were thought
+  to be immobile, but it was recently revealed that they actually move 3/8 of an inch
+  every year. They get a little crazy when magnets are close.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-nosepass.png
 Learnset: '[[SRD-Nosepass-Learnset]]'
 Legendary: 'No'
 Name: Nosepass
 Number: 299
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: nosepass.png
 Type1: Rock
 Type2: ''
+Weight:
+  Hectograms: 970
+  Kilograms: 97.0
+  Pounds: 213.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-nosepass.png|right]]
+
+*Nosepass Pokemon*
+*Their magnetic noses always point to the north. They were thought to be immobile, but it was recently revealed that they actually move 3/8 of an inch every year. They get a little crazy when magnets are close.*
 
 **DexID**:: 0299
 **Species**:: Nosepass
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 213.8lbs / 97.0kg
 
 ![[SRD-Nosepass-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Swift Swim
 Ability2: Rain Dish
+Baby: 'No'
+BookImageName: HOME272.png
+BookShinyImageName: HOME272_s.png
 BoxSprite: SRD-BoxSprite-ludicolo.png
+DexCategory: Carefree Pokemon
+DexDescription: Ludicolo starts dancing at the sound of music. Pokemon and people
+  will dance as well. They are said to appear when children sing. They love festive
+  places and parties.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 15
+  Feet: 4.9
+  Meters: 1.5
 HiddenAbility: Own Tempo
 HomeSprite: SRD-HomeSprite-ludicolo.png
 Learnset: '[[SRD-Ludicolo-Learnset]]'
 Legendary: 'No'
 Name: Ludicolo
 Number: 272
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Grass
 Sprite: ludicolo.png
 Type1: Water
 Type2: Grass
+Weight:
+  Hectograms: 550
+  Kilograms: 55.0
+  Pounds: 121.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Grass
 # `= this.name`
 
 ![[SRD-HomeSprite-ludicolo.png|right]]
+
+*Carefree Pokemon*
+*Ludicolo starts dancing at the sound of music. Pokemon and people will dance as well. They are said to appear when children sing. They love festive places and parties.*
 
 **DexID**:: 0272
 **Species**:: Ludicolo
@@ -41,5 +61,7 @@ Type2: Grass
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'9" / 1.5m
+**Weight**: 121.3lbs / 55.0kg
 
 ![[SRD-Ludicolo-Learnset]]

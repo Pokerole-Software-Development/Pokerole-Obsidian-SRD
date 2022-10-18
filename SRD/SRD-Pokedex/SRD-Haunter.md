@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME093.png
+BookShinyImageName: HOME093_s.png
 BoxSprite: SRD-BoxSprite-haunter.png
+DexCategory: Gas Pokemon
+DexDescription: Haunter is a dangerous Pokemon. it will try to lick you with its tongue
+  to steal your life away. If you get the feeling of being watched in darkness when
+  nobody is around, it means a Haunter is there.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 16
+  Feet: 5.2
+  Meters: 1.6
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-haunter.png
 Learnset: '[[SRD-Haunter-Learnset]]'
 Legendary: 'No'
 Name: Haunter
 Number: 93
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: haunter.png
 Type1: Ghost
 Type2: Poison
+Weight:
+  Hectograms: 1
+  Kilograms: 0.1
+  Pounds: 0.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Poison
 # `= this.name`
 
 ![[SRD-HomeSprite-haunter.png|right]]
+
+*Gas Pokemon*
+*Haunter is a dangerous Pokemon. it will try to lick you with its tongue to steal your life away. If you get the feeling of being watched in darkness when nobody is around, it means a Haunter is there.*
 
 **DexID**:: 0093
 **Species**:: Haunter
@@ -41,5 +61,7 @@ Type2: Poison
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 5'2" / 1.6m
+**Weight**: 0.2lbs / 0.1kg
 
 ![[SRD-Haunter-Learnset]]

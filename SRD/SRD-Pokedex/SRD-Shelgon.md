@@ -1,19 +1,36 @@
 ---
 Ability1: Rock Head
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME372.png
+BookShinyImageName: HOME372_s.png
 BoxSprite: SRD-BoxSprite-shelgon.png
+DexCategory: Endurance Pokemon
+DexDescription: The body is covered in a powerful armor that resembles bones. It hides
+  in caves awaiting evolution, enduring hunger and harm while its cells prepare for
+  its final transformation.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 11
+  Feet: 3.6
+  Meters: 1.1
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-shelgon.png
 Learnset: '[[SRD-Shelgon-Learnset]]'
 Legendary: 'No'
 Name: Shelgon
 Number: 372
+PrimaryEggGroup: Dragon
+SecondaryEggGroup: ''
 Sprite: shelgon.png
 Type1: Dragon
 Type2: ''
+Weight:
+  Hectograms: 1105
+  Kilograms: 110.5
+  Pounds: 243.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-shelgon.png|right]]
+
+*Endurance Pokemon*
+*The body is covered in a powerful armor that resembles bones. It hides in caves awaiting evolution, enduring hunger and harm while its cells prepare for its final transformation.*
 
 **DexID**:: 0372
 **Species**:: Shelgon
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'6" / 1.1m
+**Weight**: 243.6lbs / 110.5kg
 
 ![[SRD-Shelgon-Learnset]]

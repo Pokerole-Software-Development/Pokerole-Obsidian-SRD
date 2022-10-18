@@ -1,19 +1,36 @@
 ---
 Ability1: Keen Eye
 Ability2: Unnerve
+Baby: 'No'
+BookImageName: HOME822.png
+BookShinyImageName: HOME822_s.png
 BoxSprite: SRD-BoxSprite-corvisquire.png
+DexCategory: Raven Pokemon
+DexDescription: They are smart enough to use tools in battle, these Pokemon have been
+  seen picking up rocks and flinging them or using ropes to wrap up foes. They choose
+  their battles carefully and do not retreat.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Big Pecks
 HomeSprite: SRD-HomeSprite-corvisquire.png
 Learnset: '[[SRD-Corvisquire-Learnset]]'
 Legendary: 'No'
 Name: Corvisquire
 Number: 822
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: corvisquire.png
 Type1: Flying
 Type2: ''
+Weight:
+  Hectograms: 160
+  Kilograms: 16.0
+  Pounds: 35.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-corvisquire.png|right]]
+
+*Raven Pokemon*
+*They are smart enough to use tools in battle, these Pokemon have been seen picking up rocks and flinging them or using ropes to wrap up foes. They choose their battles carefully and do not retreat.*
 
 **DexID**:: 0822
 **Species**:: Corvisquire
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 35.3lbs / 16.0kg
 
 ![[SRD-Corvisquire-Learnset]]

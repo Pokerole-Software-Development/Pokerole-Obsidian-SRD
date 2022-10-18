@@ -1,19 +1,36 @@
 ---
 Ability1: Keen Eye
 Ability2: Skill Link
+Baby: 'No'
+BookImageName: HOME731.png
+BookShinyImageName: HOME731_s.png
 BoxSprite: SRD-BoxSprite-pikipek.png
+DexCategory: Woodpecker Pokemon
+DexDescription: "Their beaks are incredibly strong, it takes them a few minutes to\
+  \ shatter rock. They eat berries and shoot the seeds to defend themselves. Pikipek\
+  \ don\u2019t sing, but communicate with pecking sounds."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: Pickup
 HomeSprite: SRD-HomeSprite-pikipek.png
 Learnset: '[[SRD-Pikipek-Learnset]]'
 Legendary: 'No'
 Name: Pikipek
 Number: 731
+PrimaryEggGroup: Flying
+SecondaryEggGroup: ''
 Sprite: pikipek.png
 Type1: Normal
 Type2: Flying
+Weight:
+  Hectograms: 12
+  Kilograms: 1.2
+  Pounds: 2.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-pikipek.png|right]]
+
+*Woodpecker Pokemon*
+*Their beaks are incredibly strong, it takes them a few minutes to shatter rock. They eat berries and shoot the seeds to defend themselves. Pikipek don’t sing, but communicate with pecking sounds.*
 
 **DexID**:: 0731
 **Species**:: Pikipek
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'0" / 0.3m
+**Weight**: 2.6lbs / 1.2kg
 
 ![[SRD-Pikipek-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME479F.png
+BookShinyImageName: HOME479F_s.png
 BoxSprite: SRD-BoxSprite-rotom-fan.png
+DexCategory: Plasma Pokemon
+DexDescription: 'A Desk fan possessed by a Rotom. It uses Wind powers and scatters
+  everything around with terrible air Currents. While on this form it can use the
+  move: Air Slash.'
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 3
+  Feet: 1.0
+  Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-rotom-fan.png
 Learnset: '[[SRD-Rotom Fan-Learnset]]'
 Legendary: 'No'
 Name: Rotom Fan
 Number: 479
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: rotom-fan.png
 Type1: Electric
 Type2: Flying
+Weight:
+  Hectograms: 3
+  Kilograms: 0.3
+  Pounds: 0.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-rotom-fan.png|right]]
+
+*Plasma Pokemon*
+*A Desk fan possessed by a Rotom. It uses Wind powers and scatters everything around with terrible air Currents. While on this form it can use the move: Air Slash.*
 
 **DexID**:: 0479F2
 **Species**:: Rotom Fan
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'0" / 0.3m
+**Weight**: 0.7lbs / 0.3kg
 
 ![[SRD-Rotom Fan-Learnset]]

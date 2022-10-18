@@ -1,19 +1,36 @@
 ---
 Ability1: Static
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME180.png
+BookShinyImageName: HOME180_s.png
 BoxSprite: SRD-BoxSprite-flaaffy.png
+DexCategory: Wool Pokemon
+DexDescription: Its wool quality changes so that it can generate a higher amount of
+  static electricity with a smaller amount of wool. The bare and slick parts of its
+  hide are shielded with small electric impulses.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 8
+  Feet: 2.6
+  Meters: 0.8
 HiddenAbility: Plus
 HomeSprite: SRD-HomeSprite-flaaffy.png
 Learnset: '[[SRD-Flaaffy-Learnset]]'
 Legendary: 'No'
 Name: Flaaffy
 Number: 180
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Field
 Sprite: flaaffy.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 133
+  Kilograms: 13.3
+  Pounds: 29.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-flaaffy.png|right]]
+
+*Wool Pokemon*
+*Its wool quality changes so that it can generate a higher amount of static electricity with a smaller amount of wool. The bare and slick parts of its hide are shielded with small electric impulses.*
 
 **DexID**:: 0180
 **Species**:: Flaaffy
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 2'6" / 0.8m
+**Weight**: 29.3lbs / 13.3kg
 
 ![[SRD-Flaaffy-Learnset]]

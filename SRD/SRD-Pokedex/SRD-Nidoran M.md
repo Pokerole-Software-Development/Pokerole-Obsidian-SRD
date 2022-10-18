@@ -1,19 +1,36 @@
 ---
 Ability1: Poison Point
 Ability2: Rivalry
+Baby: 'No'
+BookImageName: HOME032.png
+BookShinyImageName: HOME032_s.png
 BoxSprite: SRD-BoxSprite-nidoran-m.png
+DexCategory: Poison Pin Pokemon
+DexDescription: "The male Nidoran has developed a great alertness to sounds. Its small\
+  \ body is covered in spikes that are drenched in venom when he\u2019s threatened.\
+  \ He will defend his mate and home fiercely."
 EventAbilities: ''
 GenderType: M
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Hustle
 HomeSprite: SRD-HomeSprite-nidoran-m.png
 Learnset: '[[SRD-Nidoran M-Learnset]]'
 Legendary: 'No'
 Name: Nidoran M
 Number: 32
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Field
 Sprite: nidoran-m.png
 Type1: Poison
 Type2: ''
+Weight:
+  Hectograms: 90
+  Kilograms: 9.0
+  Pounds: 19.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-nidoran-m.png|right]]
+
+*Poison Pin Pokemon*
+*The male Nidoran has developed a great alertness to sounds. Its small body is covered in spikes that are drenched in venom when he’s threatened. He will defend his mate and home fiercely.*
 
 **DexID**:: 0032
 **Species**:: Nidoran M
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 19.8lbs / 9.0kg
 
 ![[SRD-Nidoran M-Learnset]]

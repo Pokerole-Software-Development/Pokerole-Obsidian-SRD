@@ -1,19 +1,35 @@
 ---
 Ability1: Drizzle
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME382.png
+BookShinyImageName: HOME382_s.png
 BoxSprite: SRD-BoxSprite-kyogre.png
+DexCategory: No Data
+DexDescription: Kyogre is named in mythology as the God that expanded the seas and
+  oceans with torrential waters and huge tidal waves. It is the mortal enemy of Groudon.
 EventAbilities: ''
 GenderType: N
 HasForm: 'Yes'
+Height:
+  Deimeters: 45
+  Feet: 14.8
+  Meters: 4.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-kyogre.png
 Learnset: '[[SRD-Kyogre-Learnset]]'
 Legendary: 'Yes'
 Name: Kyogre
 Number: 382
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: kyogre.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 3520
+  Kilograms: 352.0
+  Pounds: 776.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-kyogre.png|right]]
+
+*No Data*
+*Kyogre is named in mythology as the God that expanded the seas and oceans with torrential waters and huge tidal waves. It is the mortal enemy of Groudon.*
 
 **DexID**:: 0382
 **Species**:: Kyogre
@@ -41,5 +60,7 @@ Type2: ''
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 14'8" / 4.5m
+**Weight**: 776.0lbs / 352.0kg
 
 ![[SRD-Kyogre-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Marvel Scale
 Ability2: Competitive
+Baby: 'No'
+BookImageName: HOME350.png
+BookShinyImageName: HOME350_s.png
 BoxSprite: SRD-BoxSprite-milotic.png
+DexCategory: Tender Pokemon
+DexDescription: Milotic is considered to be one of the most beautiful Pokemon in existence.
+  It has inspired music, paintings and statues. It has the power to calm the anger
+  and hostility of its foes.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 62
+  Feet: 20.3
+  Meters: 6.2
 HiddenAbility: Cute Charm
 HomeSprite: SRD-HomeSprite-milotic.png
 Learnset: '[[SRD-Milotic-Learnset]]'
 Legendary: 'No'
 Name: Milotic
 Number: 350
+PrimaryEggGroup: Water 1
+SecondaryEggGroup: Dragon
 Sprite: milotic.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 1620
+  Kilograms: 162.0
+  Pounds: 357.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-milotic.png|right]]
+
+*Tender Pokemon*
+*Milotic is considered to be one of the most beautiful Pokemon in existence. It has inspired music, paintings and statues. It has the power to calm the anger and hostility of its foes.*
 
 **DexID**:: 0350
 **Species**:: Milotic
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 20'3" / 6.2m
+**Weight**: 357.1lbs / 162.0kg
 
 ![[SRD-Milotic-Learnset]]

@@ -15,41 +15,50 @@ DexID matches the following pattern `\d{4}([GAHPXY]|F\d)` which in simple terms 
 
 ## Pokedex
 
-| Field            | Type   | Notes                                                                | When Querying Use: |
-| ---------------- | ------ | -------------------------------------------------------------------- | ------------------ |
-| Ability1         | String | Ability Name                                                         | -                  |
-| Ability2         | String | Ability Name or empty string if none                                 | -                  |
-| BoxSprite        | String | Filename of the Boxsprite for the mon                                | -                  |
-| EventAbilities   | String | Ability Name or empty string if none                                 | -                  |
-| GenderType       | String | Empty String unless Species has unique gender forms, then "M" or "F" | -                  |
-| HasForm           | String | "Yes" or Empty String                                                | -           |
-| HiddenAbility    | String | Ability Name or empty string if none                                 | -                  |
-| HomeSprite       | String | Filename of the Pokemon Home Sprite for the Mon                      | -                  |
-| Learnset         | String | Obsidian link to Learnset document for the Pokemon                   | -                  |
-| Legendary        | String | "Yes" or "No"                                                        | -                  |
-| Name             | String | Pokemon Species name                                                 | -                  |
-| Number           | int    | Pokedex Number of Species                                            |                    |
-| Sprite           | String | Basename for this pokemon's sprites                                  | -                  |
-| Type1            | String | Type                                                                 | -                  |
-| Type2            | String | Type or empty string                                                 | -                  |
-| DexID            | String | Pokedex Number + variant flags, if any                                 | -                  |
-| Species          | String | Pokemon Species name (same as Name)                                  | -                  |
-| Types             | String | Combined Type1 and Type2, " / " separated if both                    | -                  |
-| Abilities        | String | Combined Abilities in format "#1 / #2 (Hidden) \<Event\>"            | -                  |
-| Base HP          | int    | Base HP value                                                        | base-hp            |
-| Strength         | int    | Base Strength score for the Species                                  | -                  |
-| Dexterity        | int    | Base Dexterity score for the Species                                 | -                  |
-| Vitality         | int    | Base Vitality score for the Species                                  | -                  |
-| Special          | int    | Base Special score for the Species                                   | -                  |
-| Insight          | int    | Base Insight score for the Species                                   | -                  |
-| MaxStrength      | int    | Max Strength score for the Species                                   | -                  |
-| MaxDexterity     | int    | Max Dexterity score for the Species                                  | -                  |
-| MaxVitality      | int    | Max Vitality score for the Species                                   | -                  |
-| MaxSpecial       | int    | Max Special score for the Species                                    | -                  |
-| MaxInsight       | int    | Max Insight score for the Species                                    | -                  |
-| Recommended Rank | String | Rank the Species MIGHT be found in the wild                          | recommended-rank   |
-| Good Starter     | String | "Yes" or "No"                                                        | good-starter       |
-| Can Evolve       | String | "Yes" or "No"                                                        | can-evolve         |
+| Field              | Type   | Notes                                                                | When Querying Use: |
+| ------------------ | ------ | -------------------------------------------------------------------- | ------------------ |
+| Ability1           | String | Ability Name                                                         | -                  |
+| Ability2           | String | Ability Name or empty string if none                                 | -                  |
+| Baby               | String | "Yes" or "No" for if the Pokemon is considered a Baby mon            | -                  |
+| BookImageName      | String | Name of the Regular Pokemon image from the book                      | -                  |
+| BookShinyImageName | String | Name of the Shiny Pokemon image from the book                        | -                  |
+| BoxSprite          | String | Filename of the Boxsprite for the mon                                | -                  |
+| DexCategory        | String | So and So Pokemon label from Pokedex                                 | -                  |
+| DexDescription     | String | Pokedex flavor text                                                  | -                  |
+| EventAbilities     | String | Ability Name or empty string if none                                 | -                  |
+| GenderType         | String | Empty String unless Species has unique gender forms, then "M" or "F" | -                  |
+| HasForm            | String | "Yes" or Empty String                                                | -                  |
+| Height             | Object | Height in Deimeters, Feet, and Meters                                | -                  |
+| HiddenAbility      | String | Ability Name or empty string if none                                 | -                  |
+| HomeSprite         | String | Filename of the Pokemon Home Sprite for the Mon                      | -                  |
+| Learnset           | String | Obsidian link to Learnset document for the Pokemon                   | -                  |
+| Legendary          | String | "Yes" or "No"                                                        | -                  |
+| Name               | String | Pokemon Species name                                                 | -                  |
+| Number             | int    | Pokedex Number of Species                                            | -                   |
+| PrimaryEggGroup    | String | Egg group of Pokemon                                                 | -                  |
+| SecondaryEggGroup  | String | Egg group of Pokemon or empty string if no Secondary                 | -                  |
+| Sprite             | String | Basename for this pokemon's sprites                                  | -                  |
+| Type1              | String | Type                                                                 | -                  |
+| Type2              | String | Type or empty string                                                 | -                  |
+| Weight             | Object | Height in Hectogram, Kilograms, and Pounds                           | -                  |
+| DexID              | String | Pokedex Number + variant flags, if any                               | -                  |
+| Species            | String | Pokemon Species name (same as Name)                                  | -                  |
+| Types              | String | Combined Type1 and Type2, " / " separated if both                    | -                  |
+| Abilities          | String | Combined Abilities in format "#1 / #2 (Hidden) \<Event\>"            | -                  |
+| Base HP            | int    | Base HP value                                                        | base-hp            |
+| Strength           | int    | Base Strength score for the Species                                  | -                  |
+| Dexterity          | int    | Base Dexterity score for the Species                                 | -                  |
+| Vitality           | int    | Base Vitality score for the Species                                  | -                  |
+| Special            | int    | Base Special score for the Species                                   | -                  |
+| Insight            | int    | Base Insight score for the Species                                   | -                  |
+| MaxStrength        | int    | Max Strength score for the Species                                   | -                  |
+| MaxDexterity       | int    | Max Dexterity score for the Species                                  | -                  |
+| MaxVitality        | int    | Max Vitality score for the Species                                   | -                  |
+| MaxSpecial         | int    | Max Special score for the Species                                    | -                  |
+| MaxInsight         | int    | Max Insight score for the Species                                    | -                  |
+| Recommended Rank   | String | Rank the Species MIGHT be found in the wild                          | recommended-rank   |
+| Good Starter       | String | "Yes" or "No"                                                        | good-starter       |
+| Can Evolve         | String | "Yes" or "No"                                                        | can-evolve         |
 
 *Note: The last column "When Querying Use:" is only relevant for the columns that don't have dashes. This column is for fields that have names that can't be indexed via . notation normally due to the characters in the field name. The simplifications you see there (dashes instead of space, lower case, dropping special characters) can be used on any Dataview field, you just don't need to.*
 
@@ -59,7 +68,7 @@ DexID matches the following pattern `\d{4}([GAHPXY]|F\d)` which in simple terms 
 | ------- | ------ | -------------------------------------------------------------------------------------------------------------------------- |
 | Name    | String | Name of Mon                                                                                                                |
 | Species | String | Obsidian Link to Species entry in Pokedex                                                                                  |
-| DexID   | String | Pokedex Number + variant flags, if any                                                                                       |
+| DexID   | String | Pokedex Number + variant flags, if any                                                                                     |
 | Moves   | list   | List of Lists. Internal Lists have two values, Rank move is learned at (string), and the string obsidian link to the move. |
 
 *Note: Working with the Moves list is a little funky, but not hard once you understand how Flatten works. Look at [[Mons with Move]] to get an example of how Flatten can be used.*

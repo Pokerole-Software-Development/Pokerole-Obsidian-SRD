@@ -1,19 +1,36 @@
 ---
 Ability1: Sturdy
 Ability2: Weak Armor
+Baby: 'No'
+BookImageName: HOME525.png
+BookShinyImageName: HOME525_s.png
 BoxSprite: SRD-BoxSprite-boldore.png
+DexCategory: Ore Pokemon
+DexDescription: It releases the excess of energy in the form of red crystals. It is
+  still blind, it looks for for water sources inside underground caves by using echo
+  location. It is a pacific creature that keeps to itself most of the time.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Sand Force
 HomeSprite: SRD-HomeSprite-boldore.png
 Learnset: '[[SRD-Boldore-Learnset]]'
 Legendary: 'No'
 Name: Boldore
 Number: 525
+PrimaryEggGroup: Mineral
+SecondaryEggGroup: ''
 Sprite: boldore.png
 Type1: Rock
 Type2: ''
+Weight:
+  Hectograms: 1020
+  Kilograms: 102.0
+  Pounds: 224.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-boldore.png|right]]
+
+*Ore Pokemon*
+*It releases the excess of energy in the form of red crystals. It is still blind, it looks for for water sources inside underground caves by using echo location. It is a pacific creature that keeps to itself most of the time.*
 
 **DexID**:: 0525
 **Species**:: Boldore
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 3'0" / 0.9m
+**Weight**: 224.9lbs / 102.0kg
 
 ![[SRD-Boldore-Learnset]]

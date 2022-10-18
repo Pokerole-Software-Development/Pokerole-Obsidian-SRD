@@ -1,19 +1,36 @@
 ---
 Ability1: Sturdy
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME790.png
+BookShinyImageName: HOME790_s.png
 BoxSprite: SRD-BoxSprite-cosmoem.png
+DexCategory: No Data
+DexDescription: The creature observed through the telescope changed shapes and remained
+  motionless for the rest of the investigation. A strange energy was gathering on
+  its core.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 1
+  Feet: 0.3
+  Meters: 0.1
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-cosmoem.png
 Learnset: '[[SRD-Cosmoem-Learnset]]'
 Legendary: 'Yes'
 Name: Cosmoem
 Number: 790
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: cosmoem.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 9999
+  Kilograms: 999.9
+  Pounds: 2204.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-cosmoem.png|right]]
+
+*No Data*
+*The creature observed through the telescope changed shapes and remained motionless for the rest of the investigation. A strange energy was gathering on its core.*
 
 **DexID**:: 0790
 **Species**:: Cosmoem
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 0'3" / 0.1m
+**Weight**: 2204.4lbs / 999.9kg
 
 ![[SRD-Cosmoem-Learnset]]

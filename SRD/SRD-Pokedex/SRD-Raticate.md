@@ -1,19 +1,36 @@
 ---
 Ability1: Run Away
 Ability2: Guts
+Baby: 'No'
+BookImageName: HOME020.png
+BookShinyImageName: HOME020_s.png
 BoxSprite: SRD-BoxSprite-raticate.png
+DexCategory: Mouse Pokemon
+DexDescription: Raticate's sturdy fangs grow quickly. To keep them ground down, it
+  gnaws on hard materials. It may even chew on the walls of houses. Its has water-proof
+  fur, webbed feet and its a capable swimmer.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 7
+  Feet: 2.3
+  Meters: 0.7
 HiddenAbility: Hustle
 HomeSprite: SRD-HomeSprite-raticate.png
 Learnset: '[[SRD-Raticate-Learnset]]'
 Legendary: 'No'
 Name: Raticate
 Number: 20
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: raticate.png
 Type1: Normal
 Type2: ''
+Weight:
+  Hectograms: 185
+  Kilograms: 18.5
+  Pounds: 40.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-raticate.png|right]]
+
+*Mouse Pokemon*
+*Raticate's sturdy fangs grow quickly. To keep them ground down, it gnaws on hard materials. It may even chew on the walls of houses. Its has water-proof fur, webbed feet and its a capable swimmer.*
 
 **DexID**:: 0020
 **Species**:: Raticate
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'3" / 0.7m
+**Weight**: 40.8lbs / 18.5kg
 
 ![[SRD-Raticate-Learnset]]

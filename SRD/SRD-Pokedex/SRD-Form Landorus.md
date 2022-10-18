@@ -1,19 +1,36 @@
 ---
 Ability1: Sand Force
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME645T.png
+BookShinyImageName: HOME645T_s.png
 BoxSprite: SRD-BoxSprite-landorus.png
+DexCategory: No Data
+DexDescription: Some Pokemon reveal their true forms after recovering power lost to
+  them. Great forces of nature can help them recover their strength such as Tornadoes,
+  Lightning, and even a Landslide.
 EventAbilities: ''
 GenderType: M
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-landorus.png
 Learnset: '[[SRD-Form Landorus-Learnset]]'
 Legendary: 'Yes'
 Name: Form Landorus
 Number: 645
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: landorus.png
 Type1: Ground
 Type2: Flying
+Weight:
+  Hectograms: 680
+  Kilograms: 68.0
+  Pounds: 149.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-landorus.png|right]]
+
+*No Data*
+*Some Pokemon reveal their true forms after recovering power lost to them. Great forces of nature can help them recover their strength such as Tornadoes, Lightning, and even a Landslide.*
 
 **DexID**:: 0645F1
 **Species**:: Form Landorus
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 149.9lbs / 68.0kg
 
 ![[SRD-Form Landorus-Learnset]]

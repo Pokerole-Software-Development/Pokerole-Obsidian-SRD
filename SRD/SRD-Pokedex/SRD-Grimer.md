@@ -1,19 +1,36 @@
 ---
 Ability1: Stench
 Ability2: Sticky Hold
+Baby: 'No'
+BookImageName: HOME088.png
+BookShinyImageName: HOME088_s.png
 BoxSprite: SRD-BoxSprite-grimer.png
+DexCategory: Sludge Pokemon
+DexDescription: It was born from polluted sludge in the sea. Grimer's favorite food
+  is anything filthy like waste water pumped out from factories. Grime and sludge
+  stick to their body making them grow larger over time.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 9
+  Feet: 3.0
+  Meters: 0.9
 HiddenAbility: Poison Touch
 HomeSprite: SRD-HomeSprite-grimer.png
 Learnset: '[[SRD-Grimer-Learnset]]'
 Legendary: 'No'
 Name: Grimer
 Number: 88
+PrimaryEggGroup: Amorphous
+SecondaryEggGroup: ''
 Sprite: grimer.png
 Type1: Poison
 Type2: ''
+Weight:
+  Hectograms: 300
+  Kilograms: 30.0
+  Pounds: 66.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-grimer.png|right]]
+
+*Sludge Pokemon*
+*It was born from polluted sludge in the sea. Grimer's favorite food is anything filthy like waste water pumped out from factories. Grime and sludge stick to their body making them grow larger over time.*
 
 **DexID**:: 0088
 **Species**:: Grimer
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'0" / 0.9m
+**Weight**: 66.1lbs / 30.0kg
 
 ![[SRD-Grimer-Learnset]]

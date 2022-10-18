@@ -1,19 +1,36 @@
 ---
 Ability1: Effect Spore
 Ability2: Poison Heal
+Baby: 'No'
+BookImageName: HOME286.png
+BookShinyImageName: HOME286_s.png
 BoxSprite: SRD-BoxSprite-breloom.png
+DexCategory: Mushroom Pokemon
+DexDescription: Their flexible arms and quick footwork can put good fighters to shame.
+  The seeds on their tail and the cap on their head release poison spores. They love
+  humid and hot climates.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 12
+  Feet: 3.9
+  Meters: 1.2
 HiddenAbility: Technician
 HomeSprite: SRD-HomeSprite-breloom.png
 Learnset: '[[SRD-Breloom-Learnset]]'
 Legendary: 'No'
 Name: Breloom
 Number: 286
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: Grass
 Sprite: breloom.png
 Type1: Grass
 Type2: Fighting
+Weight:
+  Hectograms: 392
+  Kilograms: 39.2
+  Pounds: 86.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fighting
 # `= this.name`
 
 ![[SRD-HomeSprite-breloom.png|right]]
+
+*Mushroom Pokemon*
+*Their flexible arms and quick footwork can put good fighters to shame. The seeds on their tail and the cap on their head release poison spores. They love humid and hot climates.*
 
 **DexID**:: 0286
 **Species**:: Breloom
@@ -41,5 +61,7 @@ Type2: Fighting
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'9" / 1.2m
+**Weight**: 86.4lbs / 39.2kg
 
 ![[SRD-Breloom-Learnset]]

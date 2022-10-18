@@ -1,19 +1,36 @@
 ---
 Ability1: Refrigerate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME699.png
+BookShinyImageName: HOME699_s.png
 BoxSprite: SRD-BoxSprite-aurorus.png
+DexCategory: Tundra Pokemon
+DexDescription: It produced a freezing cold mist from the crystals on its sides and
+  relied on size to deter predators. It also created tall walls of ice to block them.
+  The one restored from the fossil is calm and has adapted well.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 27
+  Feet: 8.9
+  Meters: 2.7
 HiddenAbility: Snow Warning
 HomeSprite: SRD-HomeSprite-aurorus.png
 Learnset: '[[SRD-Aurorus-Learnset]]'
 Legendary: 'No'
 Name: Aurorus
 Number: 699
+PrimaryEggGroup: Monster
+SecondaryEggGroup: ''
 Sprite: aurorus.png
 Type1: Rock
 Type2: Ice
+Weight:
+  Hectograms: 2250
+  Kilograms: 225.0
+  Pounds: 496.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Ice
 # `= this.name`
 
 ![[SRD-HomeSprite-aurorus.png|right]]
+
+*Tundra Pokemon*
+*It produced a freezing cold mist from the crystals on its sides and relied on size to deter predators. It also created tall walls of ice to block them. The one restored from the fossil is calm and has adapted well.*
 
 **DexID**:: 0699
 **Species**:: Aurorus
@@ -41,5 +61,7 @@ Type2: Ice
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 8'9" / 2.7m
+**Weight**: 496.0lbs / 225.0kg
 
 ![[SRD-Aurorus-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Strong Jaw
 Ability2: Shell Armor
+Baby: 'No'
+BookImageName: HOME834.png
+BookShinyImageName: HOME834_s.png
 BoxSprite: SRD-BoxSprite-drednaw.png
+DexCategory: Bite Pokemon
+DexDescription: It stays immobile near rivers and lakes, disguised as a rock until
+  it snaps at an unsuspecting prey. Once something is trapped by its sharp teeth there
+  is no way to take it out as it is incredibly stubborn.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Swift Swim
 HomeSprite: SRD-HomeSprite-drednaw.png
 Learnset: '[[SRD-Drednaw-Learnset]]'
 Legendary: 'No'
 Name: Drednaw
 Number: 834
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Water 1
 Sprite: drednaw.png
 Type1: Water
 Type2: Rock
+Weight:
+  Hectograms: 1155
+  Kilograms: 115.5
+  Pounds: 254.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Rock
 # `= this.name`
 
 ![[SRD-HomeSprite-drednaw.png|right]]
+
+*Bite Pokemon*
+*It stays immobile near rivers and lakes, disguised as a rock until it snaps at an unsuspecting prey. Once something is trapped by its sharp teeth there is no way to take it out as it is incredibly stubborn.*
 
 **DexID**:: 0834
 **Species**:: Drednaw
@@ -41,5 +61,7 @@ Type2: Rock
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 254.6lbs / 115.5kg
 
 ![[SRD-Drednaw-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Pressure
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME890.png
+BookShinyImageName: HOME890_s.png
 BoxSprite: SRD-BoxSprite-eternatus.png
+DexCategory: No Data
+DexDescription: A large meteorite fell on the Galar region 20, 000 years ago, ever
+  since this happened a power surge has been causing Pokemon to grow gigantic, this
+  phenomenon is happening more in recent years.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 200
+  Feet: 65.6
+  Meters: 20.0
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-eternatus.png
 Learnset: '[[SRD-Eternatus-Learnset]]'
 Legendary: 'Yes'
 Name: Eternatus
 Number: 890
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: eternatus.png
 Type1: Poison
 Type2: Dragon
+Weight:
+  Hectograms: 9500
+  Kilograms: 950.0
+  Pounds: 2094.4
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-eternatus.png|right]]
+
+*No Data*
+*A large meteorite fell on the Galar region 20, 000 years ago, ever since this happened a power surge has been causing Pokemon to grow gigantic, this phenomenon is happening more in recent years.*
 
 **DexID**:: 0890
 **Species**:: Eternatus
@@ -41,5 +61,7 @@ Type2: Dragon
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 65'6" / 20.0m
+**Weight**: 2094.4lbs / 950.0kg
 
 ![[SRD-Eternatus-Learnset]]

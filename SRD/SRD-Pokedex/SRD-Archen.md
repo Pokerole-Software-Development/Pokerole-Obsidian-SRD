@@ -1,19 +1,36 @@
 ---
 Ability1: Defeatist
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME566.png
+BookShinyImageName: HOME566_s.png
 BoxSprite: SRD-BoxSprite-archen.png
+DexCategory: First Bird Pokemon
+DexDescription: Revived from a fossil, this Pokemon is thought to be the ancestor
+  of all bird Pokemon. Its flight abilities are poor so it just hops up by jumping.
+  They are ill tempered and will not eat processed Pokemon food.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-archen.png
 Learnset: '[[SRD-Archen-Learnset]]'
 Legendary: 'No'
 Name: Archen
 Number: 566
+PrimaryEggGroup: Flying
+SecondaryEggGroup: Water 3
 Sprite: archen.png
 Type1: Rock
 Type2: Flying
+Weight:
+  Hectograms: 95
+  Kilograms: 9.5
+  Pounds: 20.9
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Flying
 # `= this.name`
 
 ![[SRD-HomeSprite-archen.png|right]]
+
+*First Bird Pokemon*
+*Revived from a fossil, this Pokemon is thought to be the ancestor of all bird Pokemon. Its flight abilities are poor so it just hops up by jumping. They are ill tempered and will not eat processed Pokemon food.*
 
 **DexID**:: 0566
 **Species**:: Archen
@@ -41,5 +61,7 @@ Type2: Flying
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 20.9lbs / 9.5kg
 
 ![[SRD-Archen-Learnset]]

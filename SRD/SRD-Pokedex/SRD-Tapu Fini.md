@@ -1,19 +1,35 @@
 ---
 Ability1: Misty Surge
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME788.png
+BookShinyImageName: HOME788_s.png
 BoxSprite: SRD-BoxSprite-tapu-fini.png
+DexCategory: No Data
+DexDescription: The people on Poni island are proud of the clean water on their land,
+  for that they thank their guardian spirit who is said to be the ocean itself.
 EventAbilities: ''
 GenderType: N
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Telepathy
 HomeSprite: SRD-HomeSprite-tapu-fini.png
 Learnset: '[[SRD-Tapu Fini-Learnset]]'
 Legendary: 'Yes'
 Name: Tapu Fini
 Number: 788
+PrimaryEggGroup: Undiscovered
+SecondaryEggGroup: ''
 Sprite: tapu-fini.png
 Type1: Water
 Type2: Fairy
+Weight:
+  Hectograms: 212
+  Kilograms: 21.2
+  Pounds: 46.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +37,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-tapu-fini.png|right]]
+
+*No Data*
+*The people on Poni island are proud of the clean water on their land, for that they thank their guardian spirit who is said to be the ocean itself.*
 
 **DexID**:: 0788
 **Species**:: Tapu Fini
@@ -41,5 +60,7 @@ Type2: Fairy
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 46.7lbs / 21.2kg
 
 ![[SRD-Tapu Fini-Learnset]]

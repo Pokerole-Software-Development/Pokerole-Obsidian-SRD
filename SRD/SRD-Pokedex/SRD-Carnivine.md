@@ -1,19 +1,36 @@
 ---
 Ability1: Levitate
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME455.png
+BookShinyImageName: HOME455_s.png
 BoxSprite: SRD-BoxSprite-carnivine.png
+DexCategory: Bug Catcher Pokemon
+DexDescription: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling\
+  \ drool and gulps them down in one bite. It can take it a whole day to digest a\
+  \ single prey but It won\u2019t need to eat for at least a week."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 14
+  Feet: 4.6
+  Meters: 1.4
 HiddenAbility: ''
 HomeSprite: SRD-HomeSprite-carnivine.png
 Learnset: '[[SRD-Carnivine-Learnset]]'
 Legendary: 'No'
 Name: Carnivine
 Number: 455
+PrimaryEggGroup: Grass
+SecondaryEggGroup: ''
 Sprite: carnivine.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 270
+  Kilograms: 27.0
+  Pounds: 59.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-carnivine.png|right]]
+
+*Bug Catcher Pokemon*
+*It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down in one bite. It can take it a whole day to digest a single prey but It won’t need to eat for at least a week.*
 
 **DexID**:: 0455
 **Species**:: Carnivine
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'6" / 1.4m
+**Weight**: 59.5lbs / 27.0kg
 
 ![[SRD-Carnivine-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Shield Dust
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME873.png
+BookShinyImageName: HOME873_s.png
 BoxSprite: SRD-BoxSprite-frosmoth.png
+DexCategory: Frost Moth Pokemon
+DexDescription: It shows no mercy to any who desecrates its snowfields and mountains.
+  It will fly around on its icy wings, causing a blizzard to chase offenders away.
+  It is very regal and soft-mannered otherwise
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 13
+  Feet: 4.3
+  Meters: 1.3
 HiddenAbility: Ice Scales
 HomeSprite: SRD-HomeSprite-frosmoth.png
 Learnset: '[[SRD-Frosmoth-Learnset]]'
 Legendary: 'No'
 Name: Frosmoth
 Number: 873
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: frosmoth.png
 Type1: Ice
 Type2: Bug
+Weight:
+  Hectograms: 420
+  Kilograms: 42.0
+  Pounds: 92.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Bug
 # `= this.name`
 
 ![[SRD-HomeSprite-frosmoth.png|right]]
+
+*Frost Moth Pokemon*
+*It shows no mercy to any who desecrates its snowfields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away. It is very regal and soft-mannered otherwise*
 
 **DexID**:: 0873
 **Species**:: Frosmoth
@@ -41,5 +61,7 @@ Type2: Bug
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 4'3" / 1.3m
+**Weight**: 92.6lbs / 42.0kg
 
 ![[SRD-Frosmoth-Learnset]]

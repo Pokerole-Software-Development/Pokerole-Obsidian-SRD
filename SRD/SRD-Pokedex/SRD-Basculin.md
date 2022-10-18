@@ -1,19 +1,36 @@
 ---
 Ability1: Reckless
 Ability2: Adaptability
+Baby: 'No'
+BookImageName: HOME550.png
+BookShinyImageName: HOME550_s.png
 BoxSprite: SRD-BoxSprite-basculin.png
+DexCategory: Hostile Pokemon
+DexDescription: "Two variants exist of the same Pokemon, a blue one and a red one\
+  \ but they don\u2019t get along as they compete for territory and prey. These Pokemon\
+  \ are very hostile, but also delicious when grilled."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-HomeSprite-basculin.png
 Learnset: '[[SRD-Basculin-Learnset]]'
 Legendary: 'No'
 Name: Basculin
 Number: 550
+PrimaryEggGroup: Water 2
+SecondaryEggGroup: ''
 Sprite: basculin.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 180
+  Kilograms: 18.0
+  Pounds: 39.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-basculin.png|right]]
+
+*Hostile Pokemon*
+*Two variants exist of the same Pokemon, a blue one and a red one but they don’t get along as they compete for territory and prey. These Pokemon are very hostile, but also delicious when grilled.*
 
 **DexID**:: 0550
 **Species**:: Basculin
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 39.7lbs / 18.0kg
 
 ![[SRD-Basculin-Learnset]]

@@ -1,19 +1,36 @@
 ---
 Ability1: Sand Veil
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME331.png
+BookShinyImageName: HOME331_s.png
 BoxSprite: SRD-BoxSprite-cacnea.png
+DexCategory: Cactus Pokemon
+DexDescription: They release a strong and sweet aroma to attract prey, if they get
+  closer, Cacneas shoot sharp thorns to bring them down. They resemble cactuses and
+  hide among them.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Water Absorb
 HomeSprite: SRD-HomeSprite-cacnea.png
 Learnset: '[[SRD-Cacnea-Learnset]]'
 Legendary: 'No'
 Name: Cacnea
 Number: 331
+PrimaryEggGroup: Grass
+SecondaryEggGroup: Human-Like
 Sprite: cacnea.png
 Type1: Grass
 Type2: ''
+Weight:
+  Hectograms: 513
+  Kilograms: 51.3
+  Pounds: 113.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-cacnea.png|right]]
+
+*Cactus Pokemon*
+*They release a strong and sweet aroma to attract prey, if they get closer, Cacneas shoot sharp thorns to bring them down. They resemble cactuses and hide among them.*
 
 **DexID**:: 0331
 **Species**:: Cacnea
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 113.1lbs / 51.3kg
 
 ![[SRD-Cacnea-Learnset]]

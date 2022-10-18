@@ -1,19 +1,36 @@
 ---
 Ability1: Torrent
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME258.png
+BookShinyImageName: HOME258_s.png
 BoxSprite: SRD-BoxSprite-mudkip.png
+DexCategory: Mud Fish Pokemon
+DexDescription: "The fin on its head is a radar to sense movement underwater. They\
+  \ bury themselves under the mud at the water\u2019s edge and at the bottom of rivers.\
+  \ They never back away even if their foe is bigger."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Damp
 HomeSprite: SRD-HomeSprite-mudkip.png
 Learnset: '[[SRD-Mudkip-Learnset]]'
 Legendary: 'No'
 Name: Mudkip
 Number: 258
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Water 1
 Sprite: mudkip.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 76
+  Kilograms: 7.6
+  Pounds: 16.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-mudkip.png|right]]
+
+*Mud Fish Pokemon*
+*The fin on its head is a radar to sense movement underwater. They bury themselves under the mud at the water’s edge and at the bottom of rivers. They never back away even if their foe is bigger.*
 
 **DexID**:: 0258
 **Species**:: Mudkip
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 16.8lbs / 7.6kg
 
 ![[SRD-Mudkip-Learnset]]

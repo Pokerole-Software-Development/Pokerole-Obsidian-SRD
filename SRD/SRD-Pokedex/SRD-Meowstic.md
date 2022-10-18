@@ -1,19 +1,36 @@
 ---
 Ability1: Keen Eye
 Ability2: Infiltrator
+Baby: 'No'
+BookImageName: HOME678.png
+BookShinyImageName: HOME678_s.png
 BoxSprite: SRD-BoxSprite-meowstic.png
+DexCategory: Constraint Pokemon
+DexDescription: The eye patterns on the interior of its ears emit psychic energy.
+  It keeps them tightly covered because the power can be overwhelming. Females are
+  white in color and more aggressive than the males.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 6
+  Feet: 2.0
+  Meters: 0.6
 HiddenAbility: Prankster
 HomeSprite: SRD-HomeSprite-meowstic.png
 Learnset: '[[SRD-Meowstic-Learnset]]'
 Legendary: 'No'
 Name: Meowstic
 Number: 678
+PrimaryEggGroup: Field
+SecondaryEggGroup: ''
 Sprite: meowstic.png
 Type1: Psychic
 Type2: ''
+Weight:
+  Hectograms: 85
+  Kilograms: 8.5
+  Pounds: 18.7
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-meowstic.png|right]]
+
+*Constraint Pokemon*
+*The eye patterns on the interior of its ears emit psychic energy. It keeps them tightly covered because the power can be overwhelming. Females are white in color and more aggressive than the males.*
 
 **DexID**:: 0678
 **Species**:: Meowstic
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 2'0" / 0.6m
+**Weight**: 18.7lbs / 8.5kg
 
 ![[SRD-Meowstic-Learnset]]

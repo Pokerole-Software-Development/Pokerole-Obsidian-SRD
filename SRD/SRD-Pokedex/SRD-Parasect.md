@@ -1,19 +1,36 @@
 ---
 Ability1: Effect Spore
 Ability2: Dry Skin
+Baby: 'No'
+BookImageName: HOME047.png
+BookShinyImageName: HOME047_s.png
 BoxSprite: SRD-BoxSprite-parasect.png
+DexCategory: Mushroom Pokemon
+DexDescription: Their personality changes after evolution since the mushroom takes
+  over its mind. Its body is now a husk devoid of nutrients. To survive they cling
+  to a tree and absorb the nutrients until the tree dies.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Damp
 HomeSprite: SRD-HomeSprite-parasect.png
 Learnset: '[[SRD-Parasect-Learnset]]'
 Legendary: 'No'
 Name: Parasect
 Number: 47
+PrimaryEggGroup: Bug
+SecondaryEggGroup: Grass
 Sprite: parasect.png
 Type1: Bug
 Type2: Grass
+Weight:
+  Hectograms: 295
+  Kilograms: 29.5
+  Pounds: 65.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Grass
 # `= this.name`
 
 ![[SRD-HomeSprite-parasect.png|right]]
+
+*Mushroom Pokemon*
+*Their personality changes after evolution since the mushroom takes over its mind. Its body is now a husk devoid of nutrients. To survive they cling to a tree and absorb the nutrients until the tree dies.*
 
 **DexID**:: 0047
 **Species**:: Parasect
@@ -41,5 +61,7 @@ Type2: Grass
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 3'3" / 1.0m
+**Weight**: 65.0lbs / 29.5kg
 
 ![[SRD-Parasect-Learnset]]

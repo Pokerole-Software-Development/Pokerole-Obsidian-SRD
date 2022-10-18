@@ -1,19 +1,36 @@
 ---
 Ability1: Sniper
 Ability2: Tough Claws
+Baby: 'No'
+BookImageName: HOME688.png
+BookShinyImageName: HOME688_s.png
 BoxSprite: SRD-BoxSprite-binacle.png
+DexCategory: Two-Handed Pokemon
+DexDescription: "In the shallow sea, two Binacle live inside a hollow rock. If they\
+  \ don\u2019t get along, one of them will move to a different rock. They eat the\
+  \ sea weed that washes up on the shore and help each other to survive."
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 5
+  Feet: 1.6
+  Meters: 0.5
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-binacle.png
 Learnset: '[[SRD-Binacle-Learnset]]'
 Legendary: 'No'
 Name: Binacle
 Number: 688
+PrimaryEggGroup: Water 3
+SecondaryEggGroup: ''
 Sprite: binacle.png
 Type1: Rock
 Type2: Water
+Weight:
+  Hectograms: 310
+  Kilograms: 31.0
+  Pounds: 68.3
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Water
 # `= this.name`
 
 ![[SRD-HomeSprite-binacle.png|right]]
+
+*Two-Handed Pokemon*
+*In the shallow sea, two Binacle live inside a hollow rock. If they don’t get along, one of them will move to a different rock. They eat the sea weed that washes up on the shore and help each other to survive.*
 
 **DexID**:: 0688
 **Species**:: Binacle
@@ -41,5 +61,7 @@ Type2: Water
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'6" / 0.5m
+**Weight**: 68.3lbs / 31.0kg
 
 ![[SRD-Binacle-Learnset]]

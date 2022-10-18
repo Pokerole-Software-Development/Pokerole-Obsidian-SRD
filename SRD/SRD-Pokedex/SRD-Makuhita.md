@@ -1,19 +1,36 @@
 ---
 Ability1: Thick Fat
 Ability2: Guts
+Baby: 'No'
+BookImageName: HOME296.png
+BookShinyImageName: HOME296_s.png
 BoxSprite: SRD-BoxSprite-makuhita.png
+DexCategory: Guts Pokemon
+DexDescription: A tenacious Pokemon that will get back up no matter how many times
+  he gets knocked down. They have a tireless spirit, and never give up hope. Makuhitas
+  put all their hearts into everything they do.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 10
+  Feet: 3.3
+  Meters: 1.0
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-makuhita.png
 Learnset: '[[SRD-Makuhita-Learnset]]'
 Legendary: 'No'
 Name: Makuhita
 Number: 296
+PrimaryEggGroup: Human-Like
+SecondaryEggGroup: ''
 Sprite: makuhita.png
 Type1: Fighting
 Type2: ''
+Weight:
+  Hectograms: 864
+  Kilograms: 86.4
+  Pounds: 190.5
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-makuhita.png|right]]
+
+*Guts Pokemon*
+*A tenacious Pokemon that will get back up no matter how many times he gets knocked down. They have a tireless spirit, and never give up hope. Makuhitas put all their hearts into everything they do.*
 
 **DexID**:: 0296
 **Species**:: Makuhita
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 3'3" / 1.0m
+**Weight**: 190.5lbs / 86.4kg
 
 ![[SRD-Makuhita-Learnset]]

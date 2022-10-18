@@ -1,19 +1,36 @@
 ---
 Ability1: Strong Jaw
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME697.png
+BookShinyImageName: HOME697_s.png
 BoxSprite: SRD-BoxSprite-tyrantrum.png
+DexCategory: Despot Pokemon
+DexDescription: Nothing could stop this Pokemon 100 million years ago, it was a prehistoric
+  king. Thanks to its giant jaws, which could shred thick metal plates as if they
+  were paper, this Pokemon takes orders from no one.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 25
+  Feet: 8.2
+  Meters: 2.5
 HiddenAbility: Rock Head
 HomeSprite: SRD-HomeSprite-tyrantrum.png
 Learnset: '[[SRD-Tyrantrum-Learnset]]'
 Legendary: 'No'
 Name: Tyrantrum
 Number: 697
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Dragon
 Sprite: tyrantrum.png
 Type1: Rock
 Type2: Dragon
+Weight:
+  Hectograms: 2700
+  Kilograms: 270.0
+  Pounds: 595.2
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Dragon
 # `= this.name`
 
 ![[SRD-HomeSprite-tyrantrum.png|right]]
+
+*Despot Pokemon*
+*Nothing could stop this Pokemon 100 million years ago, it was a prehistoric king. Thanks to its giant jaws, which could shred thick metal plates as if they were paper, this Pokemon takes orders from no one.*
 
 **DexID**:: 0697
 **Species**:: Tyrantrum
@@ -41,5 +61,7 @@ Type2: Dragon
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 8'2" / 2.5m
+**Weight**: 595.2lbs / 270.0kg
 
 ![[SRD-Tyrantrum-Learnset]]

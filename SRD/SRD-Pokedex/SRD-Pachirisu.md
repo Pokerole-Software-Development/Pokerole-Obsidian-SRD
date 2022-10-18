@@ -1,19 +1,36 @@
 ---
 Ability1: Run Away
 Ability2: Pickup
+Baby: 'No'
+BookImageName: HOME417.png
+BookShinyImageName: HOME417_s.png
 BoxSprite: SRD-BoxSprite-pachirisu.png
+DexCategory: EleSquirrel Pokemon
+DexDescription: It lives on top of the trees, gathering food for the cold winter months.
+  It keeps warm by making fur balls charged with static electricity. Like other electric
+  rodents, it stores electricity on its cheek pouches.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Volt Absorb
 HomeSprite: SRD-HomeSprite-pachirisu.png
 Learnset: '[[SRD-Pachirisu-Learnset]]'
 Legendary: 'No'
 Name: Pachirisu
 Number: 417
+PrimaryEggGroup: Field
+SecondaryEggGroup: Fairy
 Sprite: pachirisu.png
 Type1: Electric
 Type2: ''
+Weight:
+  Hectograms: 39
+  Kilograms: 3.9
+  Pounds: 8.6
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-pachirisu.png|right]]
+
+*EleSquirrel Pokemon*
+*It lives on top of the trees, gathering food for the cold winter months. It keeps warm by making fur balls charged with static electricity. Like other electric rodents, it stores electricity on its cheek pouches.*
 
 **DexID**:: 0417
 **Species**:: Pachirisu
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 1'3" / 0.4m
+**Weight**: 8.6lbs / 3.9kg
 
 ![[SRD-Pachirisu-Learnset]]

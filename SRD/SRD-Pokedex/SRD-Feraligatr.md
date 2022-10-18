@@ -1,19 +1,36 @@
 ---
 Ability1: Torrent
 Ability2: ''
+Baby: 'No'
+BookImageName: HOME160.png
+BookShinyImageName: HOME160_s.png
 BoxSprite: SRD-BoxSprite-feraligatr.png
+DexCategory: Big Jaw Pokemon
+DexDescription: While in the water, it opens its big jaw to intimidate anyone coming
+  close. Whenever it bites, it shakes its head and savagely rolls to tear up its prey.
+  It is a very dangerous Pokemon. Approach with caution
 EventAbilities: ''
 GenderType: ''
 HasForm: 'Yes'
+Height:
+  Deimeters: 23
+  Feet: 7.5
+  Meters: 2.3
 HiddenAbility: Sheer Force
 HomeSprite: SRD-HomeSprite-feraligatr.png
 Learnset: '[[SRD-Feraligatr-Learnset]]'
 Legendary: 'No'
 Name: Feraligatr
 Number: 160
+PrimaryEggGroup: Monster
+SecondaryEggGroup: Water 1
 Sprite: feraligatr.png
 Type1: Water
 Type2: ''
+Weight:
+  Hectograms: 888
+  Kilograms: 88.8
+  Pounds: 195.8
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-feraligatr.png|right]]
+
+*Big Jaw Pokemon*
+*While in the water, it opens its big jaw to intimidate anyone coming close. Whenever it bites, it shakes its head and savagely rolls to tear up its prey. It is a very dangerous Pokemon. Approach with caution*
 
 **DexID**:: 0160
 **Species**:: Feraligatr
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**Height**: 7'5" / 2.3m
+**Weight**: 195.8lbs / 88.8kg
 
 ![[SRD-Feraligatr-Learnset]]

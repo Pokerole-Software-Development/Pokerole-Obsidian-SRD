@@ -1,19 +1,36 @@
 ---
 Ability1: Hydration
 Ability2: Shell Armor
+Baby: 'No'
+BookImageName: HOME616.png
+BookShinyImageName: HOME616_s.png
 BoxSprite: SRD-BoxSprite-shelmet.png
+DexCategory: Snail Pokemon
+DexDescription: When attacked, it defends itself by closing the lid of its shell or
+  spits a sticky, poisonous liquid. It competes with Karrablast for food and shelter.
+  If it loses its shell the distress may kill it, only those who survive evolve.
 EventAbilities: ''
 GenderType: ''
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Overcoat
 HomeSprite: SRD-HomeSprite-shelmet.png
 Learnset: '[[SRD-Shelmet-Learnset]]'
 Legendary: 'No'
 Name: Shelmet
 Number: 616
+PrimaryEggGroup: Bug
+SecondaryEggGroup: ''
 Sprite: shelmet.png
 Type1: Bug
 Type2: ''
+Weight:
+  Hectograms: 77
+  Kilograms: 7.7
+  Pounds: 17.0
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: ''
 # `= this.name`
 
 ![[SRD-HomeSprite-shelmet.png|right]]
+
+*Snail Pokemon*
+*When attacked, it defends itself by closing the lid of its shell or spits a sticky, poisonous liquid. It competes with Karrablast for food and shelter. If it loses its shell the distress may kill it, only those who survive evolve.*
 
 **DexID**:: 0616
 **Species**:: Shelmet
@@ -41,5 +61,7 @@ Type2: ''
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 17.0lbs / 7.7kg
 
 ![[SRD-Shelmet-Learnset]]

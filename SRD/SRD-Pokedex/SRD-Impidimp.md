@@ -1,19 +1,36 @@
 ---
 Ability1: Prankster
 Ability2: Frisk
+Baby: 'No'
+BookImageName: HOME859.png
+BookShinyImageName: HOME859_s.png
 BoxSprite: SRD-BoxSprite-impidimp.png
+DexCategory: Wily Pokemon
+DexDescription: "Through its nose, it sucks in the dark emanations produced by people\
+  \ and Pokemon when they feel annoyed. It thrives off this negative energy. They\
+  \ love to take things that don\u2019t belong to them."
 EventAbilities: ''
 GenderType: M
 HasForm: 'No'
+Height:
+  Deimeters: 4
+  Feet: 1.3
+  Meters: 0.4
 HiddenAbility: Pickpocket
 HomeSprite: SRD-HomeSprite-impidimp.png
 Learnset: '[[SRD-Impidimp-Learnset]]'
 Legendary: 'No'
 Name: Impidimp
 Number: 859
+PrimaryEggGroup: Fairy
+SecondaryEggGroup: Human-Like
 Sprite: impidimp.png
 Type1: Dark
 Type2: Fairy
+Weight:
+  Hectograms: 55
+  Kilograms: 5.5
+  Pounds: 12.1
 ---
 
 #PokeroleSRD/Pokedex
@@ -21,6 +38,9 @@ Type2: Fairy
 # `= this.name`
 
 ![[SRD-HomeSprite-impidimp.png|right]]
+
+*Wily Pokemon*
+*Through its nose, it sucks in the dark emanations produced by people and Pokemon when they feel annoyed. It thrives off this negative energy. They love to take things that don’t belong to them.*
 
 **DexID**:: 0859
 **Species**:: Impidimp
@@ -41,5 +61,7 @@ Type2: Fairy
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes
 **Can Evolve**:: Yes
+**Height**: 1'3" / 0.4m
+**Weight**: 12.1lbs / 5.5kg
 
 ![[SRD-Impidimp-Learnset]]
