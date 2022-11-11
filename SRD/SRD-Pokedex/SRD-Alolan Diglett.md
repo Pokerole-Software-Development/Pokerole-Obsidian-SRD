@@ -2,9 +2,8 @@
 Ability1: Sand Veil
 Ability2: Tangling Hair
 Baby: 'No'
-BookImageName: HOME050A.png
-BookShinyImageName: HOME050A_s.png
-BoxSprite: SRD-BoxSprite-diglett-alola.png
+BookSprite: SRD-diglett-alola-BookSprite.png
+BoxSprite: SRD-diglett-alola-BoxSprite.png
 DexCategory: Mole Pokemon
 DexDescription: This variant of Diglett is only found in the Alola region. The small
   hairs on its head are used perceive its surroundings while burrowed, do not cut
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Sand Force
-HomeSprite: SRD-HomeSprite-diglett-alola.png
+HomeSprite: SRD-diglett-alola-HomeSprite.png
 Learnset: '[[SRD-Alolan Diglett-Learnset]]'
 Legendary: 'No'
 Name: Alolan Diglett
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-diglett-alola.png|right]]
+![[SRD-diglett-alola-BookSprite.png|right wsmall]]
 
 *Mole Pokemon*
 *This variant of Diglett is only found in the Alola region. The small hairs on its head are used perceive its surroundings while burrowed, do not cut them or Diglett will become very sick.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] / [[SRD-Tangling Hair|Tangling Hair]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-diglett-alola.png|right]]
+![[SRD-diglett-alola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::4)     |
+
+![[SRD-diglett-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

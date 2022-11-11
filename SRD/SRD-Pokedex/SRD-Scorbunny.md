@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME813.png
-BookShinyImageName: HOME813_s.png
-BoxSprite: SRD-BoxSprite-scorbunny.png
+BookSprite: SRD-scorbunny-BookSprite.png
+BoxSprite: SRD-scorbunny-BoxSprite.png
 DexCategory: Rabbit Pokemon
 DexDescription: Scorbunny is small and energetic, they love to run in large fields
   from one side to another for hours. There are heat pads on its feet and nose, as
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Libero
-HomeSprite: SRD-HomeSprite-scorbunny.png
+HomeSprite: SRD-scorbunny-HomeSprite.png
 Learnset: '[[SRD-Scorbunny-Learnset]]'
 Legendary: 'No'
 Name: Scorbunny
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-scorbunny.png|right]]
+![[SRD-scorbunny-BookSprite.png|right wsmall]]
 
 *Rabbit Pokemon*
 *Scorbunny is small and energetic, they love to run in large fields from one side to another for hours. There are heat pads on its feet and nose, as it runs or battles they can get burning hot.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Libero|Libero]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-scorbunny.png|right]]
+![[SRD-scorbunny-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-scorbunny-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

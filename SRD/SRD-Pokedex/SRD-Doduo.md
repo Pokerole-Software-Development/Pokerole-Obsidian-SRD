@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Early Bird
 Baby: 'No'
-BookImageName: HOME084.png
-BookShinyImageName: HOME084_s.png
-BoxSprite: SRD-BoxSprite-doduo.png
+BookSprite: SRD-doduo-BookSprite.png
+BoxSprite: SRD-doduo-BoxSprite.png
 DexCategory: Twin Bird Pokemon
 DexDescription: It can fly, but it prefers to run in the prairies. The two heads usually
   get along. While one is eating or sleeping, the other one is alert for predators.
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Tangled Feet
-HomeSprite: SRD-HomeSprite-doduo.png
+HomeSprite: SRD-doduo-HomeSprite.png
 Learnset: '[[SRD-Doduo-Learnset]]'
 Legendary: 'No'
 Name: Doduo
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-doduo.png|right]]
+![[SRD-doduo-BookSprite.png|right wsmall]]
 
 *Twin Bird Pokemon*
 *It can fly, but it prefers to run in the prairies. The two heads usually get along. While one is eating or sleeping, the other one is alert for predators. It is known that they share a brain and their ideas are connected.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Tangled Feet|Tangled Feet]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-doduo.png|right]]
+![[SRD-doduo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-doduo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

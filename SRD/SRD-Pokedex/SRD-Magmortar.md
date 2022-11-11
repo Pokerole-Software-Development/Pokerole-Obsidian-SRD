@@ -2,9 +2,8 @@
 Ability1: Flame Body
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME467.png
-BookShinyImageName: HOME467_s.png
-BoxSprite: SRD-BoxSprite-magmortar.png
+BookSprite: SRD-magmortar-BookSprite.png
+BoxSprite: SRD-magmortar-BoxSprite.png
 DexCategory: Blast Pokemon
 DexDescription: "Magmortar is extremely rare, if you\u2019re lucky you can find one\
   \ living directly on volcanic craters. It rises the temperature of its body at will\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Vital Spirit
-HomeSprite: SRD-HomeSprite-magmortar.png
+HomeSprite: SRD-magmortar-HomeSprite.png
 Learnset: '[[SRD-Magmortar-Learnset]]'
 Legendary: 'No'
 Name: Magmortar
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-magmortar.png|right]]
+![[SRD-magmortar-BookSprite.png|right wsmall]]
 
 *Blast Pokemon*
 *Magmortar is extremely rare, if you’re lucky you can find one living directly on volcanic craters. It rises the temperature of its body at will to the point of bursting into flames. The fire it produces is almost white.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flame Body|Flame Body]] ([[SRD-Vital Spirit|Vital Spirit]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-magmortar.png|right]]
+![[SRD-magmortar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-magmortar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

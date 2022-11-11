@@ -2,9 +2,8 @@
 Ability1: Effect Spore
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME590.png
-BookShinyImageName: HOME590_s.png
-BoxSprite: SRD-BoxSprite-foongus.png
+BookSprite: SRD-foongus-BookSprite.png
+BoxSprite: SRD-foongus-BoxSprite.png
 DexCategory: Mushroom Pokemon
 DexDescription: The top of fungus takes a pattern that resembles a predator to protect
   itself. In recent times this pattern has started to look like a Pokeball. It releases
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-foongus.png
+HomeSprite: SRD-foongus-HomeSprite.png
 Learnset: '[[SRD-Foongus-Learnset]]'
 Legendary: 'No'
 Name: Foongus
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-foongus.png|right]]
+![[SRD-foongus-BookSprite.png|right wsmall]]
 
 *Mushroom Pokemon*
 *The top of fungus takes a pattern that resembles a predator to protect itself. In recent times this pattern has started to look like a Pokeball. It releases toxic spores in the air that help it move around safely.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Effect Spore|Effect Spore]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-foongus.png|right]]
+![[SRD-foongus-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-foongus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

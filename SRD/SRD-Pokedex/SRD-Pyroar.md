@@ -2,9 +2,8 @@
 Ability1: Rivalry
 Ability2: Unnerve
 Baby: 'No'
-BookImageName: HOME668.png
-BookShinyImageName: HOME668_s.png
-BoxSprite: SRD-BoxSprite-pyroar.png
+BookSprite: SRD-pyroar-BookSprite.png
+BoxSprite: SRD-pyroar-BoxSprite.png
 DexCategory: Royal Pokemon
 DexDescription: The male with the largest fire mane is the leader of the pride. The
   females have a long mane strip. Whenever they roar they also let out a fiery breath.
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Moxie
-HomeSprite: SRD-HomeSprite-pyroar.png
+HomeSprite: SRD-pyroar-HomeSprite.png
 Learnset: '[[SRD-Pyroar-Learnset]]'
 Legendary: 'No'
 Name: Pyroar
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pyroar.png|right]]
+![[SRD-pyroar-BookSprite.png|right wsmall]]
 
 *Royal Pokemon*
 *The male with the largest fire mane is the leader of the pride. The females have a long mane strip. Whenever they roar they also let out a fiery breath. Not many Pokemon dare to mess with them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rivalry|Rivalry]] / [[SRD-Unnerve|Unnerve]] ([[SRD-Moxie|Moxie]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-pyroar.png|right]]
+![[SRD-pyroar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-pyroar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

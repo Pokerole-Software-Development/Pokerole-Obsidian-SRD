@@ -2,9 +2,8 @@
 Ability1: Own Tempo
 Ability2: Ice Body
 Baby: 'No'
-BookImageName: HOME713.png
-BookShinyImageName: HOME713_s.png
-BoxSprite: SRD-BoxSprite-avalugg.png
+BookSprite: SRD-avalugg-BookSprite.png
+BoxSprite: SRD-avalugg-BoxSprite.png
 DexCategory: Iceberg Pokemon
 DexDescription: They carry their Bergmite offspring on their backs. Its Ice body is
   hard as steel and its cumbersome frame crushes anything that stands in its way.
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Sturdy
-HomeSprite: SRD-HomeSprite-avalugg.png
+HomeSprite: SRD-avalugg-HomeSprite.png
 Learnset: '[[SRD-Avalugg-Learnset]]'
 Legendary: 'No'
 Name: Avalugg
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-avalugg.png|right]]
+![[SRD-avalugg-BookSprite.png|right wsmall]]
 
 *Iceberg Pokemon*
 *They carry their Bergmite offspring on their backs. Its Ice body is hard as steel and its cumbersome frame crushes anything that stands in its way. They are capable of swimming but they move very slowly.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Own Tempo|Own Tempo]] / [[SRD-Ice Body|Ice Body]] ([[SRD-Sturdy|Sturdy]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-avalugg.png|right]]
+![[SRD-avalugg-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::4)/(MaxVitality::9)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-avalugg-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME635.png
-BookShinyImageName: HOME635_s.png
-BoxSprite: SRD-BoxSprite-hydreigon.png
+BookSprite: SRD-hydreigon-BookSprite.png
+BoxSprite: SRD-hydreigon-BoxSprite.png
 DexCategory: Brutal Pokemon
 DexDescription: This brutal Pokemon flies in the sky. Anything that moves seems like
   a foe to it, triggering its aggression. The heads on its arms do not have brains.
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-hydreigon.png
+HomeSprite: SRD-hydreigon-HomeSprite.png
 Learnset: '[[SRD-Hydreigon-Learnset]]'
 Legendary: 'No'
 Name: Hydreigon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-hydreigon.png|right]]
+![[SRD-hydreigon-BookSprite.png|right wsmall]]
 
 *Brutal Pokemon*
 *This brutal Pokemon flies in the sky. Anything that moves seems like a foe to it, triggering its aggression. The heads on its arms do not have brains. They use all three heads to consume and destroy everything.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-hydreigon.png|right]]
+![[SRD-hydreigon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-hydreigon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

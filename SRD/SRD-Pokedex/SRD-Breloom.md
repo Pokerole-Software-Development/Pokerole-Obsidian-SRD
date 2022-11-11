@@ -2,9 +2,8 @@
 Ability1: Effect Spore
 Ability2: Poison Heal
 Baby: 'No'
-BookImageName: HOME286.png
-BookShinyImageName: HOME286_s.png
-BoxSprite: SRD-BoxSprite-breloom.png
+BookSprite: SRD-breloom-BookSprite.png
+BoxSprite: SRD-breloom-BoxSprite.png
 DexCategory: Mushroom Pokemon
 DexDescription: Their flexible arms and quick footwork can put good fighters to shame.
   The seeds on their tail and the cap on their head release poison spores. They love
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Technician
-HomeSprite: SRD-HomeSprite-breloom.png
+HomeSprite: SRD-breloom-HomeSprite.png
 Learnset: '[[SRD-Breloom-Learnset]]'
 Legendary: 'No'
 Name: Breloom
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-breloom.png|right]]
+![[SRD-breloom-BookSprite.png|right wsmall]]
 
 *Mushroom Pokemon*
 *Their flexible arms and quick footwork can put good fighters to shame. The seeds on their tail and the cap on their head release poison spores. They love humid and hot climates.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Effect Spore|Effect Spore]] / [[SRD-Poison Heal|Poison Heal]] ([[SRD-Technician|Technician]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-breloom.png|right]]
+![[SRD-breloom-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-breloom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

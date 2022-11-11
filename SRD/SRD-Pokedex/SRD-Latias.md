@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME380.png
-BookShinyImageName: HOME380_s.png
-BoxSprite: SRD-BoxSprite-latias.png
+BookSprite: SRD-latias-BookSprite.png
+BoxSprite: SRD-latias-BoxSprite.png
 DexCategory: No Data
 DexDescription: The legend tells about two Pokemon that could take human shapes, use
   psychic powers and become invisible. They were raised by an old couple as their
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-latias.png
+HomeSprite: SRD-latias-HomeSprite.png
 Learnset: '[[SRD-Latias-Learnset]]'
 Legendary: 'Yes'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-latias.png|right]]
+![[SRD-latias-BookSprite.png|right wsmall]]
 
 *No Data*
 *The legend tells about two Pokemon that could take human shapes, use psychic powers and become invisible. They were raised by an old couple as their own children. The little girl had a red dress.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-latias.png|right]]
+![[SRD-latias-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-latias-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

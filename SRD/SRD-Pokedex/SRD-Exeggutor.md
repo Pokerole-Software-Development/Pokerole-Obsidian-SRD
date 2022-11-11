@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME103.png
-BookShinyImageName: HOME103_s.png
-BoxSprite: SRD-BoxSprite-exeggutor.png
+BookSprite: SRD-exeggutor-BookSprite.png
+BoxSprite: SRD-exeggutor-BoxSprite.png
 DexCategory: Coconut Pokemon
 DexDescription: Originally from tropical areas. Exeggutor's heads grow larger with
   strong sunlight. Each head thinks independently. They are friendly and provide their
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Harvest
-HomeSprite: SRD-HomeSprite-exeggutor.png
+HomeSprite: SRD-exeggutor-HomeSprite.png
 Learnset: '[[SRD-Exeggutor-Learnset]]'
 Legendary: 'No'
 Name: Exeggutor
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-exeggutor.png|right]]
+![[SRD-exeggutor-BookSprite.png|right wsmall]]
 
 *Coconut Pokemon*
 *Originally from tropical areas. Exeggutor's heads grow larger with strong sunlight. Each head thinks independently. They are friendly and provide their shade to other Pokemon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Harvest|Harvest]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-exeggutor.png|right]]
+![[SRD-exeggutor-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-exeggutor-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

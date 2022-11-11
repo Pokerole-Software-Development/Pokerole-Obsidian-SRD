@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME373.png
-BookShinyImageName: HOME373_s.png
-BoxSprite: SRD-BoxSprite-salamence.png
+BookSprite: SRD-salamence-BookSprite.png
+BoxSprite: SRD-salamence-BoxSprite.png
 DexCategory: Dragon Pokemon
 DexDescription: "After a lifetime of struggling for a dream, it finally grew its wings.\
   \ Salamence, however, is extremely dangerous, it scorches entire fields and mountains.\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Moxie
-HomeSprite: SRD-HomeSprite-salamence.png
+HomeSprite: SRD-salamence-HomeSprite.png
 Learnset: '[[SRD-Salamence-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-salamence.png|right]]
+![[SRD-salamence-BookSprite.png|right wsmall]]
 
 *Dragon Pokemon*
 *After a lifetime of struggling for a dream, it finally grew its wings. Salamence, however, is extremely dangerous, it scorches entire fields and mountains. It’s easily angered and completely uncontrollable.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] ([[SRD-Moxie|Moxie]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-salamence.png|right]]
+![[SRD-salamence-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-salamence-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

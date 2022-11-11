@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: Solar Power
 Baby: 'No'
-BookImageName: HOME192.png
-BookShinyImageName: HOME192_s.png
-BoxSprite: SRD-BoxSprite-sunflora.png
+BookSprite: SRD-sunflora-BookSprite.png
+BoxSprite: SRD-sunflora-BoxSprite.png
 DexCategory: Sun Pokemon
 DexDescription: Sunfloras live in flower patches. They convert solar energy into nutrition
   and are highly active in the warm daytime but suddenly stop moving as soon as the
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Early Bird
-HomeSprite: SRD-HomeSprite-sunflora.png
+HomeSprite: SRD-sunflora-HomeSprite.png
 Learnset: '[[SRD-Sunflora-Learnset]]'
 Legendary: 'No'
 Name: Sunflora
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sunflora.png|right]]
+![[SRD-sunflora-BookSprite.png|right wsmall]]
 
 *Sun Pokemon*
 *Sunfloras live in flower patches. They convert solar energy into nutrition and are highly active in the warm daytime but suddenly stop moving as soon as the sun sets, closing their petals to cover their face.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Solar Power|Solar Power]] ([[SRD-Early Bird|Early Bird]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-sunflora.png|right]]
+![[SRD-sunflora-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-sunflora-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Iron Fist
 Ability2: Mold Breaker
 Baby: 'No'
-BookImageName: HOME675.png
-BookShinyImageName: HOME675_s.png
-BoxSprite: SRD-BoxSprite-pangoro.png
+BookSprite: SRD-pangoro-BookSprite.png
+BoxSprite: SRD-pangoro-BoxSprite.png
 DexCategory: Daunting Pokemon
 DexDescription: "Although this pokemon has a violent temperament, it won\u2019t put\
   \ up with bullying. It charges ahead and slams its opponents like a berserker, totally\
@@ -17,7 +16,7 @@ Height:
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: Scrappy
-HomeSprite: SRD-HomeSprite-pangoro.png
+HomeSprite: SRD-pangoro-HomeSprite.png
 Learnset: '[[SRD-Pangoro-Learnset]]'
 Legendary: 'No'
 Name: Pangoro
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pangoro.png|right]]
+![[SRD-pangoro-BookSprite.png|right wsmall]]
 
 *Daunting Pokemon*
 *Although this pokemon has a violent temperament, it won’t put up with bullying. It charges ahead and slams its opponents like a berserker, totally disregarding its own safety. Its mighty arms can send you flying.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Iron Fist|Iron Fist]] / [[SRD-Mold Breaker|Mold Breaker]] ([[SRD-Scrappy|Scrappy]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-pangoro.png|right]]
+![[SRD-pangoro-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-pangoro-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Sniper
 Baby: 'No'
-BookImageName: HOME230.png
-BookShinyImageName: HOME230_s.png
-BoxSprite: SRD-BoxSprite-kingdra.png
+BookSprite: SRD-kingdra-BookSprite.png
+BoxSprite: SRD-kingdra-BoxSprite.png
 DexCategory: Dragon Pokemon
 DexDescription: Kingdra sleeps on the seafloor where it is otherwise devoid of life.
   When a storm arrives, it is said to awaken and wander about in search of prey. They
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Damp
-HomeSprite: SRD-HomeSprite-kingdra.png
+HomeSprite: SRD-kingdra-HomeSprite.png
 Learnset: '[[SRD-Kingdra-Learnset]]'
 Legendary: 'No'
 Name: Kingdra
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-kingdra.png|right]]
+![[SRD-kingdra-BookSprite.png|right wsmall]]
 
 *Dragon Pokemon*
 *Kingdra sleeps on the seafloor where it is otherwise devoid of life. When a storm arrives, it is said to awaken and wander about in search of prey. They are known for creating twisters in the sea.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Sniper|Sniper]] ([[SRD-Damp|Damp]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-kingdra.png|right]]
+![[SRD-kingdra-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-kingdra-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

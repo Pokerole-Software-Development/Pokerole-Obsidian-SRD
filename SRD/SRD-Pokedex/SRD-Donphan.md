@@ -2,9 +2,8 @@
 Ability1: Pickup
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME232.png
-BookShinyImageName: HOME232_s.png
-BoxSprite: SRD-BoxSprite-donphan.png
+BookSprite: SRD-donphan-BookSprite.png
+BoxSprite: SRD-donphan-BoxSprite.png
 DexCategory: Armor Pokemon
 DexDescription: Strong enough to knock down a house. They like to attack by rolling
   as a ball at high speed, however once they start rolling, they have a hard time
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Sand Veil
-HomeSprite: SRD-HomeSprite-donphan.png
+HomeSprite: SRD-donphan-HomeSprite.png
 Learnset: '[[SRD-Donphan-Learnset]]'
 Legendary: 'No'
 Name: Donphan
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-donphan.png|right]]
+![[SRD-donphan-BookSprite.png|right wsmall]]
 
 *Armor Pokemon*
 *Strong enough to knock down a house. They like to attack by rolling as a ball at high speed, however once they start rolling, they have a hard time stopping. Some may keep their loving Phanpy nature.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pickup|Pickup]] ([[SRD-Sand Veil|Sand Veil]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-donphan.png|right]]
+![[SRD-donphan-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-donphan-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

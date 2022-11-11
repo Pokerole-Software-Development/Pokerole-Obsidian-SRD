@@ -2,9 +2,8 @@
 Ability1: Battle Armor
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME348.png
-BookShinyImageName: HOME348_s.png
-BoxSprite: SRD-BoxSprite-armaldo.png
+BookSprite: SRD-armaldo-BookSprite.png
+BoxSprite: SRD-armaldo-BoxSprite.png
 DexCategory: Plate Pokemon
 DexDescription: When the waters receded, this Pokemon was forced to evolve to live
   on land. Evidence suggests that its claws could extend to reach the prey that was
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Swift Swim
-HomeSprite: SRD-HomeSprite-armaldo.png
+HomeSprite: SRD-armaldo-HomeSprite.png
 Learnset: '[[SRD-Armaldo-Learnset]]'
 Legendary: 'No'
 Name: Armaldo
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-armaldo.png|right]]
+![[SRD-armaldo-BookSprite.png|right wsmall]]
 
 *Plate Pokemon*
 *When the waters receded, this Pokemon was forced to evolve to live on land. Evidence suggests that its claws could extend to reach the prey that was far or underwater. Its tough shell made it very resilient.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Battle Armor|Battle Armor]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-armaldo.png|right]]
+![[SRD-armaldo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-armaldo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

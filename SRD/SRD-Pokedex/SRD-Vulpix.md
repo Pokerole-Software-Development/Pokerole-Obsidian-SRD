@@ -2,9 +2,8 @@
 Ability1: Flash Fire
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME037.png
-BookShinyImageName: HOME037_s.png
-BoxSprite: SRD-BoxSprite-vulpix.png
+BookSprite: SRD-vulpix-BookSprite.png
+BoxSprite: SRD-vulpix-BoxSprite.png
 DexCategory: Fox Pokemon
 DexDescription: It is born with just one tail. As it grows, its single white tail
   gains color and splits into six. It is quite warm and cuddly - very popular with
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Drought
-HomeSprite: SRD-HomeSprite-vulpix.png
+HomeSprite: SRD-vulpix-HomeSprite.png
 Learnset: '[[SRD-Vulpix-Learnset]]'
 Legendary: 'No'
 Name: Vulpix
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-vulpix.png|right]]
+![[SRD-vulpix-BookSprite.png|right wsmall]]
 
 *Fox Pokemon*
 *It is born with just one tail. As it grows, its single white tail gains color and splits into six. It is quite warm and cuddly - very popular with the ladies . It is, however, uncommon to see one in the wild.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flash Fire|Flash Fire]] ([[SRD-Drought|Drought]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-vulpix.png|right]]
+![[SRD-vulpix-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-vulpix-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

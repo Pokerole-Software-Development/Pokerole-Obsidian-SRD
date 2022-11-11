@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME153.png
-BookShinyImageName: HOME153_s.png
-BoxSprite: SRD-BoxSprite-bayleef.png
+BookSprite: SRD-bayleef-BookSprite.png
+BoxSprite: SRD-bayleef-BoxSprite.png
 DexCategory: Leaf Pokemon
 DexDescription: A spicy fragrance emanates from around its neck that makes it feisty
   and impetuous. It sheds its leaves every couple of weeks after the aroma diminishes
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Leaf Guard
-HomeSprite: SRD-HomeSprite-bayleef.png
+HomeSprite: SRD-bayleef-HomeSprite.png
 Learnset: '[[SRD-Bayleef-Learnset]]'
 Legendary: 'No'
 Name: Bayleef
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-bayleef.png|right]]
+![[SRD-bayleef-BookSprite.png|right wsmall]]
 
 *Leaf Pokemon*
 *A spicy fragrance emanates from around its neck that makes it feisty and impetuous. It sheds its leaves every couple of weeks after the aroma diminishes and its mood also becomes calmer.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Leaf Guard|Leaf Guard]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-bayleef.png|right]]
+![[SRD-bayleef-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-bayleef-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

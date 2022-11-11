@@ -2,9 +2,8 @@
 Ability1: Aura Break
 Ability2: Power Construct
 Baby: 'No'
-BookImageName: HOME718.png
-BookShinyImageName: HOME718_s.png
-BoxSprite: SRD-BoxSprite-zygarde.png
+BookSprite: SRD-zygarde-BookSprite.png
+BoxSprite: SRD-zygarde-BoxSprite.png
 DexCategory: No Data
 DexDescription: Underground tunnels have been found all over the Kalos Region. There
   are rumors of a creature who lives in them that attacks people damaging the ecosystem.
@@ -16,7 +15,7 @@ Height:
   Feet: 16.4
   Meters: 5.0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-zygarde.png
+HomeSprite: SRD-zygarde-HomeSprite.png
 Learnset: '[[SRD-Zygarde 50%-Learnset]]'
 Legendary: 'Yes'
 Name: Zygarde 50%
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zygarde.png|right]]
+![[SRD-zygarde-BookSprite.png|right wsmall]]
 
 *No Data*
 *Underground tunnels have been found all over the Kalos Region. There are rumors of a creature who lives in them that attacks people damaging the ecosystem.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Aura Break|Aura Break]] / [[SRD-Power Construct|Power Construct]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-zygarde.png|right]]
+![[SRD-zygarde-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::7)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-zygarde-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

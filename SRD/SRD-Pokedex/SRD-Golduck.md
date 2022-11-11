@@ -2,9 +2,8 @@
 Ability1: Damp
 Ability2: Cloud Nine
 Baby: 'No'
-BookImageName: HOME055.png
-BookShinyImageName: HOME055_s.png
-BoxSprite: SRD-BoxSprite-golduck.png
+BookSprite: SRD-golduck-BookSprite.png
+BoxSprite: SRD-golduck-BoxSprite.png
 DexCategory: Duck Pokemon
 DexDescription: A Golduck is an adept swimmer and can be found near most bodies of
   water. Its forehead shimmers with light when using its psychic abilities. There
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Swift Swim
-HomeSprite: SRD-HomeSprite-golduck.png
+HomeSprite: SRD-golduck-HomeSprite.png
 Learnset: '[[SRD-Golduck-Learnset]]'
 Legendary: 'No'
 Name: Golduck
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-golduck.png|right]]
+![[SRD-golduck-BookSprite.png|right wsmall]]
 
 *Duck Pokemon*
 *A Golduck is an adept swimmer and can be found near most bodies of water. Its forehead shimmers with light when using its psychic abilities. There are records of wild Golducks that rescued people in the water.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Damp|Damp]] / [[SRD-Cloud Nine|Cloud Nine]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-golduck.png|right]]
+![[SRD-golduck-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-golduck-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

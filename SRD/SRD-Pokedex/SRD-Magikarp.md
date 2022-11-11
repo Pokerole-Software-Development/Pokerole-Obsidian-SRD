@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME129.png
-BookShinyImageName: HOME129_s.png
-BoxSprite: SRD-BoxSprite-magikarp.png
+BookSprite: SRD-magikarp-BookSprite.png
+BoxSprite: SRD-magikarp-BoxSprite.png
 DexCategory: Fish Pokemon
 DexDescription: "Magikarp is a pathetic excuse of a Pokemon that is not even good\
   \ to eat. It\u2019s only capable of flopping and splashing. However, it can survive\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Rattled
-HomeSprite: SRD-HomeSprite-magikarp.png
+HomeSprite: SRD-magikarp-HomeSprite.png
 Learnset: '[[SRD-Magikarp-Learnset]]'
 Legendary: 'No'
 Name: Magikarp
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-magikarp.png|right]]
+![[SRD-magikarp-BookSprite.png|right wsmall]]
 
 *Fish Pokemon*
 *Magikarp is a pathetic excuse of a Pokemon that is not even good to eat. It’s only capable of flopping and splashing. However, it can survive in any body of water no matter how polluted it is.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-magikarp.png|right]]
+![[SRD-magikarp-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-magikarp-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

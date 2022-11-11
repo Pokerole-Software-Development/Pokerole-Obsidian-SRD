@@ -2,9 +2,8 @@
 Ability1: Anticipation
 Ability2: Dry Skin
 Baby: 'No'
-BookImageName: HOME453.png
-BookShinyImageName: HOME453_s.png
-BoxSprite: SRD-BoxSprite-croagunk.png
+BookSprite: SRD-croagunk-BookSprite.png
+BoxSprite: SRD-croagunk-BoxSprite.png
 DexCategory: Toxic Mouth Pokemon
 DexDescription: It is commonly found in marshes. It inflates the sacks on its cheeks
   and makes croaking sounds. The fluid squeezed from its fingers is poisonous, but
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Poison Touch
-HomeSprite: SRD-HomeSprite-croagunk.png
+HomeSprite: SRD-croagunk-HomeSprite.png
 Learnset: '[[SRD-Croagunk-Learnset]]'
 Legendary: 'No'
 Name: Croagunk
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-croagunk.png|right]]
+![[SRD-croagunk-BookSprite.png|right wsmall]]
 
 *Toxic Mouth Pokemon*
 *It is commonly found in marshes. It inflates the sacks on its cheeks and makes croaking sounds. The fluid squeezed from its fingers is poisonous, but it is a common ingredient in medicinal ointments.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Anticipation|Anticipation]] / [[SRD-Dry Skin|Dry Skin]] ([[SRD-Poison Touch|Poison Touch]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-croagunk.png|right]]
+![[SRD-croagunk-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-croagunk-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

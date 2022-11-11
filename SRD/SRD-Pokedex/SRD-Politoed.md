@@ -2,9 +2,8 @@
 Ability1: Water Absorb
 Ability2: Damp
 Baby: 'No'
-BookImageName: HOME186.png
-BookShinyImageName: HOME186_s.png
-BoxSprite: SRD-BoxSprite-politoed.png
+BookSprite: SRD-politoed-BookSprite.png
+BoxSprite: SRD-politoed-BoxSprite.png
 DexCategory: Frog Pokemon
 DexDescription: "It lives with Poliwags and Poliwhirls near ponds and lakes, but there\u2019\
   s rarely more than one. Politoed is the leader and acts as the king of the group.\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Drizzle
-HomeSprite: SRD-HomeSprite-politoed.png
+HomeSprite: SRD-politoed-HomeSprite.png
 Learnset: '[[SRD-Politoed-Learnset]]'
 Legendary: 'No'
 Name: Politoed
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-politoed.png|right]]
+![[SRD-politoed-BookSprite.png|right wsmall]]
 
 *Frog Pokemon*
 *It lives with Poliwags and Poliwhirls near ponds and lakes, but there’s rarely more than one. Politoed is the leader and acts as the king of the group. It is an easy-going but proud Pokemon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] / [[SRD-Damp|Damp]] ([[SRD-Drizzle|Drizzle]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-politoed.png|right]]
+![[SRD-politoed-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-politoed-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

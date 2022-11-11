@@ -2,9 +2,8 @@
 Ability1: Gluttony
 Ability2: Own Tempo
 Baby: 'No'
-BookImageName: HOME079G.png
-BookShinyImageName: HOME079G_s.png
-BoxSprite: SRD-BoxSprite-slowpoke-galar.png
+BookSprite: SRD-slowpoke-galar-BookSprite.png
+BoxSprite: SRD-slowpoke-galar-BoxSprite.png
 DexCategory: ''
 DexDescription: ''
 EventAbilities: ''
@@ -15,7 +14,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-slowpoke-galar.png
+HomeSprite: SRD-slowpoke-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Slowpoke (provisional)-Learnset]]'
 Legendary: 'No'
 Name: Galarian Slowpoke (provisional)
@@ -35,7 +34,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-slowpoke-galar.png|right]]
+![[SRD-slowpoke-galar-BookSprite.png|right wsmall]]
 
 **
 **
@@ -46,7 +45,7 @@ Weight:
 **Abilities**:: [[SRD-Gluttony|Gluttony]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-slowpoke-galar.png|right]]
+![[SRD-slowpoke-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -55,6 +54,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-slowpoke-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

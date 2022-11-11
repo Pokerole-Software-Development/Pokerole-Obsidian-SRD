@@ -2,9 +2,8 @@
 Ability1: Shield Dust
 Ability2: Compound Eyes
 Baby: 'No'
-BookImageName: HOME664.png
-BookShinyImageName: HOME664_s.png
-BoxSprite: SRD-BoxSprite-scatterbug.png
+BookSprite: SRD-scatterbug-BookSprite.png
+BoxSprite: SRD-scatterbug-BoxSprite.png
 DexCategory: Scatterdust Pokemon
 DexDescription: The powder that covers its body regulates its temperature so it is
   able to live in any region or climate. Whenever it is under attack it spews a black
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Friend Guard
-HomeSprite: SRD-HomeSprite-scatterbug.png
+HomeSprite: SRD-scatterbug-HomeSprite.png
 Learnset: '[[SRD-Scatterbug-Learnset]]'
 Legendary: 'No'
 Name: Scatterbug
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-scatterbug.png|right]]
+![[SRD-scatterbug-BookSprite.png|right wsmall]]
 
 *Scatterdust Pokemon*
 *The powder that covers its body regulates its temperature so it is able to live in any region or climate. Whenever it is under attack it spews a black powder that causes paralysis on contact.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shield Dust|Shield Dust]] / [[SRD-Compound Eyes|Compound Eyes]] ([[SRD-Friend Guard|Friend Guard]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-scatterbug.png|right]]
+![[SRD-scatterbug-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-scatterbug-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

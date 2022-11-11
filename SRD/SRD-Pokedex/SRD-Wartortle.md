@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME008.png
-BookShinyImageName: HOME008_s.png
-BoxSprite: SRD-BoxSprite-wartortle.png
+BookSprite: SRD-wartortle-BookSprite.png
+BoxSprite: SRD-wartortle-BoxSprite.png
 DexCategory: Turtle Pokemon
 DexDescription: "Its large tail is covered with rich, thick fur that deepens in color\
   \ with age. The scratches on its shell are evidence of this Pokemon\u2019s tough\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Rain Dish
-HomeSprite: SRD-HomeSprite-wartortle.png
+HomeSprite: SRD-wartortle-HomeSprite.png
 Learnset: '[[SRD-Wartortle-Learnset]]'
 Legendary: 'No'
 Name: Wartortle
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-wartortle.png|right]]
+![[SRD-wartortle-BookSprite.png|right wsmall]]
 
 *Turtle Pokemon*
 *Its large tail is covered with rich, thick fur that deepens in color with age. The scratches on its shell are evidence of this Pokemon’s tough attitude in battle. It is a good hunter underwater.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Rain Dish|Rain Dish]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-wartortle.png|right]]
+![[SRD-wartortle-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-wartortle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

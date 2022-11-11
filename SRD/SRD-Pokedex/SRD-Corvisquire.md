@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Unnerve
 Baby: 'No'
-BookImageName: HOME822.png
-BookShinyImageName: HOME822_s.png
-BoxSprite: SRD-BoxSprite-corvisquire.png
+BookSprite: SRD-corvisquire-BookSprite.png
+BoxSprite: SRD-corvisquire-BoxSprite.png
 DexCategory: Raven Pokemon
 DexDescription: They are smart enough to use tools in battle, these Pokemon have been
   seen picking up rocks and flinging them or using ropes to wrap up foes. They choose
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Big Pecks
-HomeSprite: SRD-HomeSprite-corvisquire.png
+HomeSprite: SRD-corvisquire-HomeSprite.png
 Learnset: '[[SRD-Corvisquire-Learnset]]'
 Legendary: 'No'
 Name: Corvisquire
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-corvisquire.png|right]]
+![[SRD-corvisquire-BookSprite.png|right wsmall]]
 
 *Raven Pokemon*
 *They are smart enough to use tools in battle, these Pokemon have been seen picking up rocks and flinging them or using ropes to wrap up foes. They choose their battles carefully and do not retreat.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Unnerve|Unnerve]] ([[SRD-Big Pecks|Big Pecks]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-corvisquire.png|right]]
+![[SRD-corvisquire-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-corvisquire-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

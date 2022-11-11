@@ -2,9 +2,8 @@
 Ability1: Telepathy
 Ability2: Synchronize
 Baby: 'No'
-BookImageName: HOME606.png
-BookShinyImageName: HOME606_s.png
-BoxSprite: SRD-BoxSprite-beheeyem.png
+BookSprite: SRD-beheeyem-BookSprite.png
+BoxSprite: SRD-beheeyem-BoxSprite.png
 DexCategory: Cerebral Pokemon
 DexDescription: "Apparently, it communicates by flashing its three fingers, but the\
   \ patterns haven\u2019t been decoded. It uses psychic power to control an opponent\u2019\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Analytic
-HomeSprite: SRD-HomeSprite-beheeyem.png
+HomeSprite: SRD-beheeyem-HomeSprite.png
 Learnset: '[[SRD-Beheeyem-Learnset]]'
 Legendary: 'No'
 Name: Beheeyem
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-beheeyem.png|right]]
+![[SRD-beheeyem-BookSprite.png|right wsmall]]
 
 *Cerebral Pokemon*
 *Apparently, it communicates by flashing its three fingers, but the patterns haven’t been decoded. It uses psychic power to control an opponent’s brain and tampers with its memories and personality.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Telepathy|Telepathy]] / [[SRD-Synchronize|Synchronize]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-beheeyem.png|right]]
+![[SRD-beheeyem-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-beheeyem-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

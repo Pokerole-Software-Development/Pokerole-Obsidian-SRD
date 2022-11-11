@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: Technician
 Baby: 'No'
-BookImageName: HOME237.png
-BookShinyImageName: HOME237_s.png
-BoxSprite: SRD-BoxSprite-hitmontop.png
+BookSprite: SRD-hitmontop-BookSprite.png
+BoxSprite: SRD-hitmontop-BoxSprite.png
 DexCategory: Handstand Pokemon
 DexDescription: They launch high speed kicks while spinning so fast that they get
   drilled into the ground. They move quicker by spinning than they do walking. They
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Steadfast
-HomeSprite: SRD-HomeSprite-hitmontop.png
+HomeSprite: SRD-hitmontop-HomeSprite.png
 Learnset: '[[SRD-Hitmontop-Learnset]]'
 Legendary: 'No'
 Name: Hitmontop
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-hitmontop.png|right]]
+![[SRD-hitmontop-BookSprite.png|right wsmall]]
 
 *Handstand Pokemon*
 *They launch high speed kicks while spinning so fast that they get drilled into the ground. They move quicker by spinning than they do walking. They are very smart and like to perform dance-like kicks.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Technician|Technician]] ([[SRD-Steadfast|Steadfast]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-hitmontop.png|right]]
+![[SRD-hitmontop-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-hitmontop-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

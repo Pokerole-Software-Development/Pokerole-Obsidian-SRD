@@ -2,9 +2,8 @@
 Ability1: Merciless
 Ability2: Limber
 Baby: 'No'
-BookImageName: HOME748.png
-BookShinyImageName: HOME748_s.png
-BoxSprite: SRD-BoxSprite-toxapex.png
+BookSprite: SRD-toxapex-BookSprite.png
+BoxSprite: SRD-toxapex-BoxSprite.png
 DexCategory: Brutal Star Pokemon
 DexDescription: "It crawls through the ocean floor, using its tentacles as a fortress.\
   \ Its venom has the victim suffering for three days and nights, and even if it\u2019\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-toxapex.png
+HomeSprite: SRD-toxapex-HomeSprite.png
 Learnset: '[[SRD-Toxapex-Learnset]]'
 Legendary: 'No'
 Name: Toxapex
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-toxapex.png|right]]
+![[SRD-toxapex-BookSprite.png|right wsmall]]
 
 *Brutal Star Pokemon*
 *It crawls through the ocean floor, using its tentacles as a fortress. Its venom has the victim suffering for three days and nights, and even if it’s healed there are aftereffects for it is a powerful toxin.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Merciless|Merciless]] / [[SRD-Limber|Limber]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-toxapex.png|right]]
+![[SRD-toxapex-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-toxapex-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

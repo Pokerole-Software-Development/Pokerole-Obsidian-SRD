@@ -2,9 +2,8 @@
 Ability1: Snow Cloak
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME037A.png
-BookShinyImageName: HOME037A_s.png
-BoxSprite: SRD-BoxSprite-vulpix-alola.png
+BookSprite: SRD-vulpix-alola-BookSprite.png
+BoxSprite: SRD-vulpix-alola-BoxSprite.png
 DexCategory: Fox Pokemon
 DexDescription: "The Vulpix who became stranded in Alola had to change type in order\
   \ to survive. Alola\u2019s local name for this Pokemon is Keokeo. They use their\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Snow Warning
-HomeSprite: SRD-HomeSprite-vulpix-alola.png
+HomeSprite: SRD-vulpix-alola-HomeSprite.png
 Learnset: '[[SRD-Alolan Vulpix-Learnset]]'
 Legendary: 'No'
 Name: Alolan Vulpix
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-vulpix-alola.png|right]]
+![[SRD-vulpix-alola-BookSprite.png|right wsmall]]
 
 *Fox Pokemon*
 *The Vulpix who became stranded in Alola had to change type in order to survive. Alola’s local name for this Pokemon is Keokeo. They use their tails as a fan to cool themselves in hot climates.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Snow Cloak|Snow Cloak]] ([[SRD-Snow Warning|Snow Warning]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-vulpix-alola.png|right]]
+![[SRD-vulpix-alola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-vulpix-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

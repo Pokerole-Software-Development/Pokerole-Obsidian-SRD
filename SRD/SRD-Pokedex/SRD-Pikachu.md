@@ -2,9 +2,8 @@
 Ability1: Static
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME025.png
-BookShinyImageName: HOME025_s.png
-BoxSprite: SRD-BoxSprite-pikachu.png
+BookSprite: SRD-pikachu-BookSprite.png
+BoxSprite: SRD-pikachu-BoxSprite.png
 DexCategory: Mouse Pokemon
 DexDescription: Lives in small groups in forests but they tend to stay hidden. It
   stores electricity in the electric sacs on its cheeks and uses its tail to ground
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Lightning Rod
-HomeSprite: SRD-HomeSprite-pikachu.png
+HomeSprite: SRD-pikachu-HomeSprite.png
 Learnset: '[[SRD-Pikachu-Learnset]]'
 Legendary: 'No'
 Name: Pikachu
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pikachu.png|right]]
+![[SRD-pikachu-BookSprite.png|right wsmall]]
 
 *Mouse Pokemon*
 *Lives in small groups in forests but they tend to stay hidden. It stores electricity in the electric sacs on its cheeks and uses its tail to ground the excess charge. They can be stubborn and wary of strangers.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Static|Static]] ([[SRD-Lightning Rod|Lightning Rod]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-pikachu.png|right]]
+![[SRD-pikachu-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-pikachu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

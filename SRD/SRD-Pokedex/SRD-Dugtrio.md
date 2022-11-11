@@ -2,9 +2,8 @@
 Ability1: Sand Veil
 Ability2: Arena Trap
 Baby: 'No'
-BookImageName: HOME051.png
-BookShinyImageName: HOME051_s.png
-BoxSprite: SRD-BoxSprite-dugtrio.png
+BookSprite: SRD-dugtrio-BookSprite.png
+BoxSprite: SRD-dugtrio-BoxSprite.png
 DexCategory: Mole Pokemon
 DexDescription: Because the triplets originally split from one body, they think exactly
   alike. They work together to dig endlessly through the ground. They are known for
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Sand Force
-HomeSprite: SRD-HomeSprite-dugtrio.png
+HomeSprite: SRD-dugtrio-HomeSprite.png
 Learnset: '[[SRD-Dugtrio-Learnset]]'
 Legendary: 'No'
 Name: Dugtrio
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dugtrio.png|right]]
+![[SRD-dugtrio-BookSprite.png|right wsmall]]
 
 *Mole Pokemon*
 *Because the triplets originally split from one body, they think exactly alike. They work together to dig endlessly through the ground. They are known for destroying the foundations of roads and buildings.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] / [[SRD-Arena Trap|Arena Trap]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-dugtrio.png|right]]
+![[SRD-dugtrio-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-dugtrio-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

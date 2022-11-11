@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Skill Link
 Baby: 'No'
-BookImageName: HOME733.png
-BookShinyImageName: HOME733_s.png
-BoxSprite: SRD-BoxSprite-toucannon.png
+BookSprite: SRD-toucannon-BookSprite.png
+BoxSprite: SRD-toucannon-BoxSprite.png
 DexCategory: Blade Quill Pokemon
 DexDescription: It can store and expel an extremely hot gas through its beak that
   ignites easily. The berry seeds it shoots can pierce boulders, leaving perfectly
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-toucannon.png
+HomeSprite: SRD-toucannon-HomeSprite.png
 Learnset: '[[SRD-Toucannon-Learnset]]'
 Legendary: 'No'
 Name: Toucannon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-toucannon.png|right]]
+![[SRD-toucannon-BookSprite.png|right wsmall]]
 
 *Blade Quill Pokemon*
 *It can store and expel an extremely hot gas through its beak that ignites easily. The berry seeds it shoots can pierce boulders, leaving perfectly round holes on them. Fortunately, they nest deep in the jungle.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Skill Link|Skill Link]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-toucannon.png|right]]
+![[SRD-toucannon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-toucannon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Poison Point
 Ability2: Poison Touch
 Baby: 'No'
-BookImageName: HOME690.png
-BookShinyImageName: HOME690_s.png
-BoxSprite: SRD-BoxSprite-skrelp.png
+BookSprite: SRD-skrelp-BookSprite.png
+BoxSprite: SRD-skrelp-BoxSprite.png
 DexCategory: Mock Kelp Pokemon
 DexDescription: Camouflaged as rotten kelp they spray liquid poison on a prey that
   approaches unaware. It needs to store a lot of energy to be able to evolve so it
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Adaptability
-HomeSprite: SRD-HomeSprite-skrelp.png
+HomeSprite: SRD-skrelp-HomeSprite.png
 Learnset: '[[SRD-Skrelp-Learnset]]'
 Legendary: 'No'
 Name: Skrelp
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-skrelp.png|right]]
+![[SRD-skrelp-BookSprite.png|right wsmall]]
 
 *Mock Kelp Pokemon*
 *Camouflaged as rotten kelp they spray liquid poison on a prey that approaches unaware. It needs to store a lot of energy to be able to evolve so it takes them a long time. Touching one will give you a fever.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Poison Touch|Poison Touch]] ([[SRD-Adaptability|Adaptability]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-skrelp.png|right]]
+![[SRD-skrelp-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-skrelp-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

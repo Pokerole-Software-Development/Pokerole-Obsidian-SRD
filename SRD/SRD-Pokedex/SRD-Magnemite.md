@@ -2,9 +2,8 @@
 Ability1: Magnet Pull
 Ability2: Sturdy
 Baby: 'No'
-BookImageName: HOME081.png
-BookShinyImageName: HOME081_s.png
-BoxSprite: SRD-BoxSprite-magnemite.png
+BookSprite: SRD-magnemite-BookSprite.png
+BoxSprite: SRD-magnemite-BoxSprite.png
 DexCategory: Magnet Pokemon
 DexDescription: It lurks near electric facilities and mountains as it is attracted
   by big magnetic fields. It is not aggressive and usually defends itself with a screech
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Analytic
-HomeSprite: SRD-HomeSprite-magnemite.png
+HomeSprite: SRD-magnemite-HomeSprite.png
 Learnset: '[[SRD-Magnemite-Learnset]]'
 Legendary: 'No'
 Name: Magnemite
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-magnemite.png|right]]
+![[SRD-magnemite-BookSprite.png|right wsmall]]
 
 *Magnet Pokemon*
 *It lurks near electric facilities and mountains as it is attracted by big magnetic fields. It is not aggressive and usually defends itself with a screech or a weak electric impulse to deter other from attacking.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Magnet Pull|Magnet Pull]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-magnemite.png|right]]
+![[SRD-magnemite-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-magnemite-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

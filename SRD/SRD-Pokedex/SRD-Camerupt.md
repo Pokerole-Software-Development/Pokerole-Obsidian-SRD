@@ -2,9 +2,8 @@
 Ability1: Magma Armor
 Ability2: Solid Rock
 Baby: 'No'
-BookImageName: HOME323.png
-BookShinyImageName: HOME323_s.png
-BoxSprite: SRD-BoxSprite-camerupt.png
+BookSprite: SRD-camerupt-BookSprite.png
+BoxSprite: SRD-camerupt-BoxSprite.png
 DexCategory: Eruption Pokemon
 DexDescription: "Sometimes the humps on their back make an eruption when they get\
   \ really angry, otherwise they\u2019d only erupt every 10 years. Camerupts live\
@@ -17,7 +16,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Anger Point
-HomeSprite: SRD-HomeSprite-camerupt.png
+HomeSprite: SRD-camerupt-HomeSprite.png
 Learnset: '[[SRD-Camerupt-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-camerupt.png|right]]
+![[SRD-camerupt-BookSprite.png|right wsmall]]
 
 *Eruption Pokemon*
 *Sometimes the humps on their back make an eruption when they get really angry, otherwise they’d only erupt every 10 years. Camerupts live inside the craters of volcanoes. They are indifferent to humans.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Magma Armor|Magma Armor]] / [[SRD-Solid Rock|Solid Rock]] ([[SRD-Anger Point|Anger Point]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-camerupt.png|right]]
+![[SRD-camerupt-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-camerupt-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

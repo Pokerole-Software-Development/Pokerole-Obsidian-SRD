@@ -2,9 +2,8 @@
 Ability1: Hyper Cutter
 Ability2: Shell Armor
 Baby: 'No'
-BookImageName: HOME098.png
-BookShinyImageName: HOME098_s.png
-BoxSprite: SRD-BoxSprite-krabby.png
+BookSprite: SRD-krabby-BookSprite.png
+BoxSprite: SRD-krabby-BoxSprite.png
 DexCategory: River Crab Pokemon
 DexDescription: A Krabby dig holes in the sand near the sea. They can be seen squabbling
   with each other over food and territory. They usually avoid humans but will fight
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-krabby.png
+HomeSprite: SRD-krabby-HomeSprite.png
 Learnset: '[[SRD-Krabby-Learnset]]'
 Legendary: 'No'
 Name: Krabby
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-krabby.png|right]]
+![[SRD-krabby-BookSprite.png|right wsmall]]
 
 *River Crab Pokemon*
 *A Krabby dig holes in the sand near the sea. They can be seen squabbling with each other over food and territory. They usually avoid humans but will fight if provoked.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-krabby.png|right]]
+![[SRD-krabby-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-krabby-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

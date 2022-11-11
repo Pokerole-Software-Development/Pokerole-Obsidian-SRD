@@ -2,9 +2,8 @@
 Ability1: Water Compaction
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME769.png
-BookShinyImageName: HOME769_s.png
-BoxSprite: SRD-BoxSprite-sandygast.png
+BookSprite: SRD-sandygast-BookSprite.png
+BoxSprite: SRD-sandygast-BoxSprite.png
 DexCategory: Sand Heap Pokemon
 DexDescription: "Some departed soul made a child\u2019s sand mound its vessel. Anyone\
   \ who puts their hand inside its mouth will have its vital energy absorbed and its\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Sand Veil
-HomeSprite: SRD-HomeSprite-sandygast.png
+HomeSprite: SRD-sandygast-HomeSprite.png
 Learnset: '[[SRD-Sandygast-Learnset]]'
 Legendary: 'No'
 Name: Sandygast
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sandygast.png|right]]
+![[SRD-sandygast-BookSprite.png|right wsmall]]
 
 *Sand Heap Pokemon*
 *Some departed soul made a child’s sand mound its vessel. Anyone who puts their hand inside its mouth will have its vital energy absorbed and its mind possessed to add more sand until they collapse.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Water Compaction|Water Compaction]] ([[SRD-Sand Veil|Sand Veil]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-sandygast.png|right]]
+![[SRD-sandygast-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-sandygast-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

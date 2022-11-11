@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME157.png
-BookShinyImageName: HOME157_s.png
-BoxSprite: SRD-BoxSprite-typhlosion.png
+BookSprite: SRD-typhlosion-BookSprite.png
+BoxSprite: SRD-typhlosion-BoxSprite.png
 DexCategory: Volcano Pokemon
 DexDescription: Very rare to see in the wild. It hides behind a shimmering heat haze
   created using its fire. Typhlosion can create eruptions and explosive blasts that
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Flash Fire
-HomeSprite: SRD-HomeSprite-typhlosion.png
+HomeSprite: SRD-typhlosion-HomeSprite.png
 Learnset: '[[SRD-Typhlosion-Learnset]]'
 Legendary: 'No'
 Name: Typhlosion
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-typhlosion.png|right]]
+![[SRD-typhlosion-BookSprite.png|right wsmall]]
 
 *Volcano Pokemon*
 *Very rare to see in the wild. It hides behind a shimmering heat haze created using its fire. Typhlosion can create eruptions and explosive blasts that can burn everything to the ground.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Flash Fire|Flash Fire]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-typhlosion.png|right]]
+![[SRD-typhlosion-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-typhlosion-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

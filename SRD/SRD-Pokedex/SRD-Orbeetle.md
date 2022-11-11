@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: Frisk
 Baby: 'No'
-BookImageName: HOME826.png
-BookShinyImageName: HOME826_s.png
-BoxSprite: SRD-BoxSprite-orbeetle.png
+BookSprite: SRD-orbeetle-BookSprite.png
+BoxSprite: SRD-orbeetle-BoxSprite.png
 DexCategory: Seven Spot Pokemon
 DexDescription: "It\u2019s famous for its high intelligence and the large size of\
   \ its brain. It has immense psychic power. They patrol their territory as floating\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-orbeetle.png
+HomeSprite: SRD-orbeetle-HomeSprite.png
 Learnset: '[[SRD-Orbeetle-Learnset]]'
 Legendary: 'No'
 Name: Orbeetle
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-orbeetle.png|right]]
+![[SRD-orbeetle-BookSprite.png|right wsmall]]
 
 *Seven Spot Pokemon*
 *It’s famous for its high intelligence and the large size of its brain. It has immense psychic power. They patrol their territory as floating sentries, focusing a ray of light over any  intruder, even if they are miles away.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Frisk|Frisk]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-orbeetle.png|right]]
+![[SRD-orbeetle-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-orbeetle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Water Veil
 Baby: 'No'
-BookImageName: HOME118.png
-BookShinyImageName: HOME118_s.png
-BoxSprite: SRD-BoxSprite-goldeen.png
+BookSprite: SRD-goldeen-BookSprite.png
+BoxSprite: SRD-goldeen-BoxSprite.png
 DexCategory: Goldfish Pokemon
 DexDescription: Goldeen loves swimming wild and free in rivers and ponds. If one of
   these Pokemon is placed in an aquarium, it will shatter the glass with its horn
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Lightning Rod
-HomeSprite: SRD-HomeSprite-goldeen.png
+HomeSprite: SRD-goldeen-HomeSprite.png
 Learnset: '[[SRD-Goldeen-Learnset]]'
 Legendary: 'No'
 Name: Goldeen
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-goldeen.png|right]]
+![[SRD-goldeen-BookSprite.png|right wsmall]]
 
 *Goldfish Pokemon*
 *Goldeen loves swimming wild and free in rivers and ponds. If one of these Pokemon is placed in an aquarium, it will shatter the glass with its horn and make its escape.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Water Veil|Water Veil]] ([[SRD-Lightning Rod|Lightning Rod]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-goldeen.png|right]]
+![[SRD-goldeen-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-goldeen-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

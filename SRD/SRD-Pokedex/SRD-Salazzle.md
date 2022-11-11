@@ -2,9 +2,8 @@
 Ability1: Corrosion
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME758.png
-BookShinyImageName: HOME758_s.png
-BoxSprite: SRD-BoxSprite-salazzle.png
+BookSprite: SRD-salazzle-BookSprite.png
+BoxSprite: SRD-salazzle-BoxSprite.png
 DexCategory: Toxic Lizard Pokemon
 DexDescription: This Pokemon is Female only. It releases a powerful toxic gas that
   is filled with pheromones that help her keep her reverse harem of Salandit in check.
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Oblivious
-HomeSprite: SRD-HomeSprite-salazzle.png
+HomeSprite: SRD-salazzle-HomeSprite.png
 Learnset: '[[SRD-Salazzle-Learnset]]'
 Legendary: 'No'
 Name: Salazzle
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-salazzle.png|right]]
+![[SRD-salazzle-BookSprite.png|right wsmall]]
 
 *Toxic Lizard Pokemon*
 *This Pokemon is Female only. It releases a powerful toxic gas that is filled with pheromones that help her keep her reverse harem of Salandit in check. This gas can be purified into expensive perfumes.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Corrosion|Corrosion]] ([[SRD-Oblivious|Oblivious]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-salazzle.png|right]]
+![[SRD-salazzle-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-salazzle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

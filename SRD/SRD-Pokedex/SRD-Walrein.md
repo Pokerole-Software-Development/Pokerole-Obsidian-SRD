@@ -2,9 +2,8 @@
 Ability1: Thick Fat
 Ability2: Ice Body
 Baby: 'No'
-BookImageName: HOME365.png
-BookShinyImageName: HOME365_s.png
-BoxSprite: SRD-BoxSprite-walrein.png
+BookSprite: SRD-walrein-BookSprite.png
+BoxSprite: SRD-walrein-BoxSprite.png
 DexCategory: Ice Break Pokemon
 DexDescription: The leader of the herd is a powerful Walrein. They are very aggressive
   and will protect their herd even at the cost of their lives. Their tusks can shatter
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Oblivious
-HomeSprite: SRD-HomeSprite-walrein.png
+HomeSprite: SRD-walrein-HomeSprite.png
 Learnset: '[[SRD-Walrein-Learnset]]'
 Legendary: 'No'
 Name: Walrein
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-walrein.png|right]]
+![[SRD-walrein-BookSprite.png|right wsmall]]
 
 *Ice Break Pokemon*
 *The leader of the herd is a powerful Walrein. They are very aggressive and will protect their herd even at the cost of their lives. Their tusks can shatter giant blocks of ice. It is relentless and unpredictable.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Ice Body|Ice Body]] ([[SRD-Oblivious|Oblivious]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-walrein.png|right]]
+![[SRD-walrein-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-walrein-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

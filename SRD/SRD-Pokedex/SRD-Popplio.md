@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME728.png
-BookShinyImageName: HOME728_s.png
-BoxSprite: SRD-BoxSprite-popplio.png
+BookSprite: SRD-popplio-BookSprite.png
+BoxSprite: SRD-popplio-BoxSprite.png
 DexCategory: Sea Lion Pokemon
 DexDescription: A fun-loving Pokemon. It snorts water bubbles from its nose and balances
   them around, it is tenacious and diligent to train. They are agile swimmers and
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Liquid Voice
-HomeSprite: SRD-HomeSprite-popplio.png
+HomeSprite: SRD-popplio-HomeSprite.png
 Learnset: '[[SRD-Popplio-Learnset]]'
 Legendary: 'No'
 Name: Popplio
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-popplio.png|right]]
+![[SRD-popplio-BookSprite.png|right wsmall]]
 
 *Sea Lion Pokemon*
 *A fun-loving Pokemon. It snorts water bubbles from its nose and balances them around, it is tenacious and diligent to train. They are agile swimmers and prefer acrobatic stunts to move on the ground.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Liquid Voice|Liquid Voice]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-popplio.png|right]]
+![[SRD-popplio-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-popplio-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

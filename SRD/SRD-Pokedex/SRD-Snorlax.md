@@ -2,9 +2,8 @@
 Ability1: Immunity
 Ability2: Thick Fat
 Baby: 'No'
-BookImageName: HOME143.png
-BookShinyImageName: HOME143_s.png
-BoxSprite: SRD-BoxSprite-snorlax.png
+BookSprite: SRD-snorlax-BookSprite.png
+BoxSprite: SRD-snorlax-BoxSprite.png
 DexCategory: Sleeping Pokemon
 DexDescription: "Snorlax's typical day consists of eating and sleeping. It is such\
   \ a docile Pokemon that children use its big belly as a place to play. It only attacks\
@@ -17,7 +16,7 @@ Height:
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: Gluttony
-HomeSprite: SRD-HomeSprite-snorlax.png
+HomeSprite: SRD-snorlax-HomeSprite.png
 Learnset: '[[SRD-Snorlax-Learnset]]'
 Legendary: 'No'
 Name: Snorlax
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-snorlax.png|right]]
+![[SRD-snorlax-BookSprite.png|right wsmall]]
 
 *Sleeping Pokemon*
 *Snorlax's typical day consists of eating and sleeping. It is such a docile Pokemon that children use its big belly as a place to play. It only attacks when it’s awoken harshly. Fortunately it is a heavy sleeper.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Immunity|Immunity]] / [[SRD-Thick Fat|Thick Fat]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 8
 
-![[SRD-BoxSprite-snorlax.png|right]]
+![[SRD-snorlax-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-snorlax-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

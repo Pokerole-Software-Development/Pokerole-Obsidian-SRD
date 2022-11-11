@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: Own Tempo
 Baby: 'No'
-BookImageName: HOME548.png
-BookShinyImageName: HOME548_s.png
-BoxSprite: SRD-BoxSprite-petilil.png
+BookSprite: SRD-petilil-BookSprite.png
+BoxSprite: SRD-petilil-BoxSprite.png
 DexCategory: Bulb Pokemon
 DexDescription: Since they prefer moist and nutritive soil, the areas where Petilil
   live are known to be good for growing plants. The leaves on its head can be used
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Leaf Guard
-HomeSprite: SRD-HomeSprite-petilil.png
+HomeSprite: SRD-petilil-HomeSprite.png
 Learnset: '[[SRD-Petilil-Learnset]]'
 Legendary: 'No'
 Name: Petilil
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-petilil.png|right]]
+![[SRD-petilil-BookSprite.png|right wsmall]]
 
 *Bulb Pokemon*
 *Since they prefer moist and nutritive soil, the areas where Petilil live are known to be good for growing plants. The leaves on its head can be used for medicinal purposes, but they are extra bitter.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Leaf Guard|Leaf Guard]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-petilil.png|right]]
+![[SRD-petilil-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-petilil-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

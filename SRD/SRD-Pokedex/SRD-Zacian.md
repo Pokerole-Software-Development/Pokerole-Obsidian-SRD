@@ -2,9 +2,8 @@
 Ability1: Intrepid Sword
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME888.png
-BookShinyImageName: HOME888_s.png
-BoxSprite: SRD-BoxSprite-zacian.png
+BookSprite: SRD-zacian-BookSprite.png
+BoxSprite: SRD-zacian-BoxSprite.png
 DexCategory: No Data
 DexDescription: There is a legend of a heroine who through sheer might wielded the
   blade of heroes and vanquished a great evil away.
@@ -16,7 +15,7 @@ Height:
   Feet: 9.2
   Meters: 2.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-zacian.png
+HomeSprite: SRD-zacian-HomeSprite.png
 Learnset: '[[SRD-Zacian-Learnset]]'
 Legendary: 'Yes'
 Name: Zacian
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zacian.png|right]]
+![[SRD-zacian-BookSprite.png|right wsmall]]
 
 *No Data*
 *There is a legend of a heroine who through sheer might wielded the blade of heroes and vanquished a great evil away.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Intrepid Sword|Intrepid Sword]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-zacian.png|right]]
+![[SRD-zacian-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-zacian-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

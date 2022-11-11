@@ -2,9 +2,8 @@
 Ability1: Water Absorb
 Ability2: Cursed Body
 Baby: 'No'
-BookImageName: HOME592.png
-BookShinyImageName: HOME592_s.png
-BoxSprite: SRD-BoxSprite-frillish.png
+BookSprite: SRD-frillish-BookSprite.png
+BoxSprite: SRD-frillish-BoxSprite.png
 DexCategory: Floating Pokemon
 DexDescription: If a Frillish is spotted, all beaches nearby will be closed for the
   day. This Pokemon paralizes a swimming victim and wraps them, dragging them to the
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Damp
-HomeSprite: SRD-HomeSprite-frillish.png
+HomeSprite: SRD-frillish-HomeSprite.png
 Learnset: '[[SRD-Frillish-Learnset]]'
 Legendary: 'No'
 Name: Frillish
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-frillish.png|right]]
+![[SRD-frillish-BookSprite.png|right wsmall]]
 
 *Floating Pokemon*
 *If a Frillish is spotted, all beaches nearby will be closed for the day. This Pokemon paralizes a swimming victim and wraps them, dragging them to the bottom of the sea. Females have pink shade.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] / [[SRD-Cursed Body|Cursed Body]] ([[SRD-Damp|Damp]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-frillish.png|right]]
+![[SRD-frillish-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-frillish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

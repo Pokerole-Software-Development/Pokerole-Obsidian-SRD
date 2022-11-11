@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: Solar Power
 Baby: 'No'
-BookImageName: HOME191.png
-BookShinyImageName: HOME191_s.png
-BoxSprite: SRD-BoxSprite-sunkern.png
+BookSprite: SRD-sunkern-BookSprite.png
+BoxSprite: SRD-sunkern-BoxSprite.png
 DexCategory: Seed Pokemon
 DexDescription: They suddenly appear after a cold winter. They survive by drinking
   only dewdrops from under the leaves of plants. It tries not to move a lot since
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Early Bird
-HomeSprite: SRD-HomeSprite-sunkern.png
+HomeSprite: SRD-sunkern-HomeSprite.png
 Learnset: '[[SRD-Sunkern-Learnset]]'
 Legendary: 'No'
 Name: Sunkern
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sunkern.png|right]]
+![[SRD-sunkern-BookSprite.png|right wsmall]]
 
 *Seed Pokemon*
 *They suddenly appear after a cold winter. They survive by drinking only dewdrops from under the leaves of plants. It tries not to move a lot since lots of bird Pokemon prey on them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Solar Power|Solar Power]] ([[SRD-Early Bird|Early Bird]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-sunkern.png|right]]
+![[SRD-sunkern-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-sunkern-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

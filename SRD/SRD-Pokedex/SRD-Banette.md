@@ -2,9 +2,8 @@
 Ability1: Insomnia
 Ability2: Frisk
 Baby: 'No'
-BookImageName: HOME354.png
-BookShinyImageName: HOME354_s.png
-BoxSprite: SRD-BoxSprite-banette.png
+BookSprite: SRD-banette-BookSprite.png
+BoxSprite: SRD-banette-BoxSprite.png
 DexCategory: Marionette Pokemon
 DexDescription: "It\u2019s body is usually a discarded doll or toy. Its spirit is\
   \ made of dark feelings and is overrun by the desire of revenge towards the kid\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Cursed Body
-HomeSprite: SRD-HomeSprite-banette.png
+HomeSprite: SRD-banette-HomeSprite.png
 Learnset: '[[SRD-Banette-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-banette.png|right]]
+![[SRD-banette-BookSprite.png|right wsmall]]
 
 *Marionette Pokemon*
 *It’s body is usually a discarded doll or toy. Its spirit is made of dark feelings and is overrun by the desire of revenge towards the kid that threw the toy away. If you open its mouth, all the cursed energy will escape.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Insomnia|Insomnia]] / [[SRD-Frisk|Frisk]] ([[SRD-Cursed Body|Cursed Body]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-banette.png|right]]
+![[SRD-banette-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-banette-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

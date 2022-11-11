@@ -2,9 +2,8 @@
 Ability1: Sturdy
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME204.png
-BookShinyImageName: HOME204_s.png
-BoxSprite: SRD-BoxSprite-pineco.png
+BookSprite: SRD-pineco-BookSprite.png
+BoxSprite: SRD-pineco-BoxSprite.png
 DexCategory: Bagworm Pokemon
 DexDescription: Pineco looks just like a regular pine cone. It adds layers of tree
   bark as a shield from harm. It waits for bugs to eat while hanging from branches.
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Overcoat
-HomeSprite: SRD-HomeSprite-pineco.png
+HomeSprite: SRD-pineco-HomeSprite.png
 Learnset: '[[SRD-Pineco-Learnset]]'
 Legendary: 'No'
 Name: Pineco
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pineco.png|right]]
+![[SRD-pineco-BookSprite.png|right wsmall]]
 
 *Bagworm Pokemon*
 *Pineco looks just like a regular pine cone. It adds layers of tree bark as a shield from harm. It waits for bugs to eat while hanging from branches. If anyone shakes its tree, it falls down and explodes. Be very careful.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sturdy|Sturdy]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-pineco.png|right]]
+![[SRD-pineco-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-pineco-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

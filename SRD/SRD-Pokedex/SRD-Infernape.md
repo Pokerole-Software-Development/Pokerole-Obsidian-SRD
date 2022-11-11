@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME392.png
-BookShinyImageName: HOME392_s.png
-BoxSprite: SRD-BoxSprite-infernape.png
+BookSprite: SRD-infernape-BookSprite.png
+BoxSprite: SRD-infernape-BoxSprite.png
 DexCategory: Flame Pokemon
 DexDescription: "Its fire crown showcases its proud and fiery nature. Infernape won\u2019\
   t hesitate to fight bigger foes and will take on any challenge they face. Once Infernape\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Iron Fist
-HomeSprite: SRD-HomeSprite-infernape.png
+HomeSprite: SRD-infernape-HomeSprite.png
 Learnset: '[[SRD-Infernape-Learnset]]'
 Legendary: 'No'
 Name: Infernape
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-infernape.png|right]]
+![[SRD-infernape-BookSprite.png|right wsmall]]
 
 *Flame Pokemon*
 *Its fire crown showcases its proud and fiery nature. Infernape won’t hesitate to fight bigger foes and will take on any challenge they face. Once Infernape enters a battle, it won’t back down until it wins.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Iron Fist|Iron Fist]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-infernape.png|right]]
+![[SRD-infernape-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-infernape-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

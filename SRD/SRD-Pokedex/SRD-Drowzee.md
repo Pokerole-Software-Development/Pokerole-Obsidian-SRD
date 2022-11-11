@@ -2,9 +2,8 @@
 Ability1: Insomnia
 Ability2: Forewarn
 Baby: 'No'
-BookImageName: HOME096.png
-BookShinyImageName: HOME096_s.png
-BoxSprite: SRD-BoxSprite-drowzee.png
+BookSprite: SRD-drowzee-BookSprite.png
+BoxSprite: SRD-drowzee-BoxSprite.png
 DexCategory: Hypnosis Pokemon
 DexDescription: It eats the dreams of a sleeping person or Pokemon and shows fondness
   to the dreams of young children. Once the victim is deep in slumber it will extract
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Inner Focus
-HomeSprite: SRD-HomeSprite-drowzee.png
+HomeSprite: SRD-drowzee-HomeSprite.png
 Learnset: '[[SRD-Drowzee-Learnset]]'
 Legendary: 'No'
 Name: Drowzee
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-drowzee.png|right]]
+![[SRD-drowzee-BookSprite.png|right wsmall]]
 
 *Hypnosis Pokemon*
 *It eats the dreams of a sleeping person or Pokemon and shows fondness to the dreams of young children. Once the victim is deep in slumber it will extract and eat the dream through the nose.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Insomnia|Insomnia]] / [[SRD-Forewarn|Forewarn]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-drowzee.png|right]]
+![[SRD-drowzee-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-drowzee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

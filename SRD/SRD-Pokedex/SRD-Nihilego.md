@@ -2,9 +2,8 @@
 Ability1: Beast Boost
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME793.png
-BookShinyImageName: HOME793_s.png
-BoxSprite: SRD-BoxSprite-nihilego.png
+BookSprite: SRD-nihilego-BookSprite.png
+BoxSprite: SRD-nihilego-BoxSprite.png
 DexCategory: 'Aether Foundation Log #047'
 DexDescription: "We are unable to determine if the creature is sentient or not, it\
   \ adapts its behavior depending on its last host. It hasn\u2019t stopped behaving\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-nihilego.png
+HomeSprite: SRD-nihilego-HomeSprite.png
 Learnset: '[[SRD-Nihilego-Learnset]]'
 Legendary: 'Yes'
 Name: Nihilego
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-nihilego.png|right]]
+![[SRD-nihilego-BookSprite.png|right wsmall]]
 
 *Aether Foundation Log #047*
 *We are unable to determine if the creature is sentient or not, it adapts its behavior depending on its last host. It hasn’t stopped behaving like a little girl since then, it’s both unsettling and fascinating.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-nihilego.png|right]]
+![[SRD-nihilego-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::4)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-nihilego-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

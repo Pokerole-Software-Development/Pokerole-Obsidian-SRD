@@ -2,9 +2,8 @@
 Ability1: Rivalry
 Ability2: Intimidate
 Baby: 'No'
-BookImageName: HOME404.png
-BookShinyImageName: HOME404_s.png
-BoxSprite: SRD-BoxSprite-luxio.png
+BookSprite: SRD-luxio-BookSprite.png
+BoxSprite: SRD-luxio-BoxSprite.png
 DexCategory: Spark Pokemon
 DexDescription: Female Luxios stay with the pride but males roam in marauding groups,
   trying to become strong enough to make their own pride. Its claws and teeth are
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Guts
-HomeSprite: SRD-HomeSprite-luxio.png
+HomeSprite: SRD-luxio-HomeSprite.png
 Learnset: '[[SRD-Luxio-Learnset]]'
 Legendary: 'No'
 Name: Luxio
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-luxio.png|right]]
+![[SRD-luxio-BookSprite.png|right wsmall]]
 
 *Spark Pokemon*
 *Female Luxios stay with the pride but males roam in marauding groups, trying to become strong enough to make their own pride. Its claws and teeth are charged with electricity, approach with caution.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rivalry|Rivalry]] / [[SRD-Intimidate|Intimidate]] ([[SRD-Guts|Guts]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-luxio.png|right]]
+![[SRD-luxio-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-luxio-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Mold Breaker
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME130M.png
-BookShinyImageName: HOME130M_s.png
-BoxSprite: SRD-BoxSprite-gyarados-mega.png
+BookSprite: SRD-gyarados-mega-BookSprite.png
+BoxSprite: SRD-gyarados-mega-BoxSprite.png
 DexCategory: Atrocious Pokemon
 DexDescription: With the power of the Mega Stone its body suffers a lot of strain,
   making it faster and stronger but also angrier and uncontrollable. It must have
@@ -17,7 +16,7 @@ Height:
   Feet: 21.3
   Meters: 6.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-gyarados-mega.png
+HomeSprite: SRD-gyarados-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Gyarados-Learnset]]'
 Legendary: 'No'
 Name: Mega-Gyarados
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gyarados-mega.png|right]]
+![[SRD-gyarados-mega-BookSprite.png|right wsmall]]
 
 *Atrocious Pokemon*
 *With the power of the Mega Stone its body suffers a lot of strain, making it faster and stronger but also angrier and uncontrollable. It must have a strong bond or it will fall into a destructive rampage.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Mold Breaker|Mold Breaker]]
 **Base HP**:: 8
 
-![[SRD-BoxSprite-gyarados-mega.png|right]]
+![[SRD-gyarados-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-gyarados-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

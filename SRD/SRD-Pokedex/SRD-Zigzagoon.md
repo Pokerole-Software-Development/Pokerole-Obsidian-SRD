@@ -2,9 +2,8 @@
 Ability1: Pickup
 Ability2: Gluttony
 Baby: 'No'
-BookImageName: HOME263.png
-BookShinyImageName: HOME263_s.png
-BoxSprite: SRD-BoxSprite-zigzagoon.png
+BookSprite: SRD-zigzagoon-BookSprite.png
+BoxSprite: SRD-zigzagoon-BoxSprite.png
 DexCategory: Tiny Raccoon Pokemon
 DexDescription: They are extremely curious and want to know all about everything.
   Due to their innate curiosity, they usually find hidden objects. Sometimes they
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Quick Feet
-HomeSprite: SRD-HomeSprite-zigzagoon.png
+HomeSprite: SRD-zigzagoon-HomeSprite.png
 Learnset: '[[SRD-Zigzagoon-Learnset]]'
 Legendary: 'No'
 Name: Zigzagoon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zigzagoon.png|right]]
+![[SRD-zigzagoon-BookSprite.png|right wsmall]]
 
 *Tiny Raccoon Pokemon*
 *They are extremely curious and want to know all about everything. Due to their innate curiosity, they usually find hidden objects. Sometimes they play dead to avoid being attacked.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Gluttony|Gluttony]] ([[SRD-Quick Feet|Quick Feet]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-zigzagoon.png|right]]
+![[SRD-zigzagoon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-zigzagoon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

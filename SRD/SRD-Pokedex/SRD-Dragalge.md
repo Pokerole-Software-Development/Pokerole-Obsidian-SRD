@@ -2,9 +2,8 @@
 Ability1: Poison Point
 Ability2: Poison Touch
 Baby: 'No'
-BookImageName: HOME691.png
-BookShinyImageName: HOME691_s.png
-BoxSprite: SRD-BoxSprite-dragalge.png
+BookSprite: SRD-dragalge-BookSprite.png
+BoxSprite: SRD-dragalge-BoxSprite.png
 DexCategory: Mock Kelp Pokemon
 DexDescription: Their poison is strong enough to eat through the hull of a tanker,
   and they spit it indiscriminately at anything that enters their territory. Touching
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Adaptability
-HomeSprite: SRD-HomeSprite-dragalge.png
+HomeSprite: SRD-dragalge-HomeSprite.png
 Learnset: '[[SRD-Dragalge-Learnset]]'
 Legendary: 'No'
 Name: Dragalge
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dragalge.png|right]]
+![[SRD-dragalge-BookSprite.png|right wsmall]]
 
 *Mock Kelp Pokemon*
 *Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory. Touching them can be fatal if you are not treated within a few hours.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Poison Touch|Poison Touch]] ([[SRD-Adaptability|Adaptability]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-dragalge.png|right]]
+![[SRD-dragalge-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-dragalge-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Truant
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME289.png
-BookShinyImageName: HOME289_s.png
-BoxSprite: SRD-BoxSprite-slaking.png
+BookSprite: SRD-slaking-BookSprite.png
+BoxSprite: SRD-slaking-BoxSprite.png
 DexCategory: Lazy Pokemon
 DexDescription: They spend all day sleeping and eating grass that grows within their
   reach. Sometimes they live beneath trees, waiting for fruits to fall. They dislike
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-slaking.png
+HomeSprite: SRD-slaking-HomeSprite.png
 Learnset: '[[SRD-Slaking-Learnset]]'
 Legendary: 'No'
 Name: Slaking
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-slaking.png|right]]
+![[SRD-slaking-BookSprite.png|right wsmall]]
 
 *Lazy Pokemon*
 *They spend all day sleeping and eating grass that grows within their reach. Sometimes they live beneath trees, waiting for fruits to fall. They dislike intruders on their territory but rarely do anything about them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Truant|Truant]]
 **Base HP**:: 8
 
-![[SRD-BoxSprite-slaking.png|right]]
+![[SRD-slaking-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-slaking-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

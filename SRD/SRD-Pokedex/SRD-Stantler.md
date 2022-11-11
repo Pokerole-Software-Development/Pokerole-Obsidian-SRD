@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: Frisk
 Baby: 'No'
-BookImageName: HOME234.png
-BookShinyImageName: HOME234_s.png
-BoxSprite: SRD-BoxSprite-stantler.png
+BookSprite: SRD-stantler-BookSprite.png
+BoxSprite: SRD-stantler-BoxSprite.png
 DexCategory: Bighorn Pokemon
 DexDescription: Their antlers create a distortion in space that causes confusion.
   They were hunted for their magnificent antlers that were traded at high prices.
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Sap Sipper
-HomeSprite: SRD-HomeSprite-stantler.png
+HomeSprite: SRD-stantler-HomeSprite.png
 Learnset: '[[SRD-Stantler-Learnset]]'
 Legendary: 'No'
 Name: Stantler
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-stantler.png|right]]
+![[SRD-stantler-BookSprite.png|right wsmall]]
 
 *Bighorn Pokemon*
 *Their antlers create a distortion in space that causes confusion. They were hunted for their magnificent antlers that were traded at high prices. This drove Stantlers close to extinction.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Frisk|Frisk]] ([[SRD-Sap Sipper|Sap Sipper]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-stantler.png|right]]
+![[SRD-stantler-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-stantler-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

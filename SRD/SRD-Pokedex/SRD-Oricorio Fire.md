@@ -2,9 +2,8 @@
 Ability1: Dancer
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME741.png
-BookShinyImageName: HOME741_s.png
-BoxSprite: SRD-BoxSprite-oricorio.png
+BookSprite: SRD-oricorio-BookSprite.png
+BoxSprite: SRD-oricorio-BoxSprite.png
 DexCategory: Dancing Pokemon
 DexDescription: What was thought to be different species ended up being a single Pokemon.
   Oricorio Baile is an intense and passionate Pokemon, every flap of its wings produces
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-oricorio.png
+HomeSprite: SRD-oricorio-HomeSprite.png
 Learnset: '[[SRD-Oricorio Fire-Learnset]]'
 Legendary: 'No'
 Name: Oricorio Fire
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-oricorio.png|right]]
+![[SRD-oricorio-BookSprite.png|right wsmall]]
 
 *Dancing Pokemon*
 *What was thought to be different species ended up being a single Pokemon. Oricorio Baile is an intense and passionate Pokemon, every flap of its wings produces embers, its fiery dance has inspired many.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Dancer|Dancer]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-oricorio.png|right]]
+![[SRD-oricorio-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-oricorio-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME003.png
-BookShinyImageName: HOME003_s.png
-BoxSprite: SRD-BoxSprite-venusaur.png
+BookSprite: SRD-venusaur-BookSprite.png
+BoxSprite: SRD-venusaur-BoxSprite.png
 DexCategory: Seed Pokemon
 DexDescription: "Venusaur's flower is said to take on vivid colors if it gets plenty\
   \ of sun light. The flower\u2019s aroma soothes the emotions of others.\nIf you\
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Chlorophyll
-HomeSprite: SRD-HomeSprite-venusaur.png
+HomeSprite: SRD-venusaur-HomeSprite.png
 Learnset: '[[SRD-Venusaur-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-venusaur.png|right]]
+![[SRD-venusaur-BookSprite.png|right wsmall]]
 
 *Seed Pokemon*
 *Venusaur's flower is said to take on vivid colors if it gets plenty of sun light. The flower’s aroma soothes the emotions of others.
@@ -52,7 +51,7 @@ If you find one in the wild, it must be the protector of the area.*
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Chlorophyll|Chlorophyll]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-venusaur.png|right]]
+![[SRD-venusaur-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -61,6 +60,8 @@ If you find one in the wild, it must be the protector of the area.*
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-venusaur-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

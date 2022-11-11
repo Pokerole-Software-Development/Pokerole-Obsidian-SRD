@@ -2,9 +2,8 @@
 Ability1: Defiant
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME145G.png
-BookShinyImageName: HOME145G_s.png
-BoxSprite: SRD-BoxSprite-zapdos-galar.png
+BookSprite: SRD-zapdos-galar-BookSprite.png
+BoxSprite: SRD-zapdos-galar-BoxSprite.png
 DexCategory: ''
 DexDescription: ''
 EventAbilities: ''
@@ -15,7 +14,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-zapdos-galar.png
+HomeSprite: SRD-zapdos-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Zapdos (provisional)-Learnset]]'
 Legendary: 'Yes'
 Name: Galarian Zapdos (provisional)
@@ -35,7 +34,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zapdos-galar.png|right]]
+![[SRD-zapdos-galar-BookSprite.png|right wsmall]]
 
 **
 **
@@ -46,7 +45,7 @@ Weight:
 **Abilities**:: [[SRD-Defiant|Defiant]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-zapdos-galar.png|right]]
+![[SRD-zapdos-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -55,6 +54,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-zapdos-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

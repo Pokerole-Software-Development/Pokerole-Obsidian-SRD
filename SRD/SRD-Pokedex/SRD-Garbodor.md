@@ -2,9 +2,8 @@
 Ability1: Stench
 Ability2: Weak Armor
 Baby: 'No'
-BookImageName: HOME569.png
-BookShinyImageName: HOME569_s.png
-BoxSprite: SRD-BoxSprite-garbodor.png
+BookSprite: SRD-garbodor-BookSprite.png
+BoxSprite: SRD-garbodor-BoxSprite.png
 DexCategory: Trash Heap Pokemon
 DexDescription: They absorb garbage to make it part of their bodies and use it to
   produce toxic substances from their finger tips. They like to remain undisturbed
@@ -17,7 +16,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Aftermath
-HomeSprite: SRD-HomeSprite-garbodor.png
+HomeSprite: SRD-garbodor-HomeSprite.png
 Learnset: '[[SRD-Garbodor-Learnset]]'
 Legendary: 'No'
 Name: Garbodor
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-garbodor.png|right]]
+![[SRD-garbodor-BookSprite.png|right wsmall]]
 
 *Trash Heap Pokemon*
 *They absorb garbage to make it part of their bodies and use it to produce toxic substances from their finger tips. They like to remain undisturbed and produce a terrible smell to repel others.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Stench|Stench]] / [[SRD-Weak Armor|Weak Armor]] ([[SRD-Aftermath|Aftermath]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-garbodor.png|right]]
+![[SRD-garbodor-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-garbodor-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

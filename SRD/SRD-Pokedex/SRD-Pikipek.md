@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Skill Link
 Baby: 'No'
-BookImageName: HOME731.png
-BookShinyImageName: HOME731_s.png
-BoxSprite: SRD-BoxSprite-pikipek.png
+BookSprite: SRD-pikipek-BookSprite.png
+BoxSprite: SRD-pikipek-BoxSprite.png
 DexCategory: Woodpecker Pokemon
 DexDescription: "Their beaks are incredibly strong, it takes them a few minutes to\
   \ shatter rock. They eat berries and shoot the seeds to defend themselves. Pikipek\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Pickup
-HomeSprite: SRD-HomeSprite-pikipek.png
+HomeSprite: SRD-pikipek-HomeSprite.png
 Learnset: '[[SRD-Pikipek-Learnset]]'
 Legendary: 'No'
 Name: Pikipek
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pikipek.png|right]]
+![[SRD-pikipek-BookSprite.png|right wsmall]]
 
 *Woodpecker Pokemon*
 *Their beaks are incredibly strong, it takes them a few minutes to shatter rock. They eat berries and shoot the seeds to defend themselves. Pikipek don’t sing, but communicate with pecking sounds.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Skill Link|Skill Link]] ([[SRD-Pickup|Pickup]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-pikipek.png|right]]
+![[SRD-pikipek-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-pikipek-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

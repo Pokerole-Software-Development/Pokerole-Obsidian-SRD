@@ -2,9 +2,8 @@
 Ability1: Suction Cups
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME345.png
-BookShinyImageName: HOME345_s.png
-BoxSprite: SRD-BoxSprite-lileep.png
+BookSprite: SRD-lileep-BookSprite.png
+BoxSprite: SRD-lileep-BoxSprite.png
 DexCategory: Sea Lily Pokemon
 DexDescription: Over 100 million years ago, Lileep used to attach themselves to rocks
   at the bottom of the sea. A catastrophe led them all to extinction. A few fossils
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Storm Drain
-HomeSprite: SRD-HomeSprite-lileep.png
+HomeSprite: SRD-lileep-HomeSprite.png
 Learnset: '[[SRD-Lileep-Learnset]]'
 Legendary: 'No'
 Name: Lileep
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lileep.png|right]]
+![[SRD-lileep-BookSprite.png|right wsmall]]
 
 *Sea Lily Pokemon*
 *Over 100 million years ago, Lileep used to attach themselves to rocks at the bottom of the sea. A catastrophe led them all to extinction. A few fossils were found and some were revived by scientists.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Suction Cups|Suction Cups]] ([[SRD-Storm Drain|Storm Drain]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-lileep.png|right]]
+![[SRD-lileep-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-lileep-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

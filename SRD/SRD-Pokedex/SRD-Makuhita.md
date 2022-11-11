@@ -2,9 +2,8 @@
 Ability1: Thick Fat
 Ability2: Guts
 Baby: 'No'
-BookImageName: HOME296.png
-BookShinyImageName: HOME296_s.png
-BoxSprite: SRD-BoxSprite-makuhita.png
+BookSprite: SRD-makuhita-BookSprite.png
+BoxSprite: SRD-makuhita-BoxSprite.png
 DexCategory: Guts Pokemon
 DexDescription: A tenacious Pokemon that will get back up no matter how many times
   he gets knocked down. They have a tireless spirit, and never give up hope. Makuhitas
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-makuhita.png
+HomeSprite: SRD-makuhita-HomeSprite.png
 Learnset: '[[SRD-Makuhita-Learnset]]'
 Legendary: 'No'
 Name: Makuhita
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-makuhita.png|right]]
+![[SRD-makuhita-BookSprite.png|right wsmall]]
 
 *Guts Pokemon*
 *A tenacious Pokemon that will get back up no matter how many times he gets knocked down. They have a tireless spirit, and never give up hope. Makuhitas put all their hearts into everything they do.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Guts|Guts]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-makuhita.png|right]]
+![[SRD-makuhita-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-makuhita-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

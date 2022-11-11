@@ -2,9 +2,8 @@
 Ability1: Speed Boost
 Ability2: Compound Eyes
 Baby: 'No'
-BookImageName: HOME193.png
-BookShinyImageName: HOME193_s.png
-BoxSprite: SRD-BoxSprite-yanma.png
+BookSprite: SRD-yanma-BookSprite.png
+BoxSprite: SRD-yanma-BoxSprite.png
 DexCategory: Clear Wing Pokemon
 DexDescription: It lives near water sources. Its eyes can see 360 degrees without
   even moving. Yanma is a great flyer capable of making sudden stops and turning midair
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Frisk
-HomeSprite: SRD-HomeSprite-yanma.png
+HomeSprite: SRD-yanma-HomeSprite.png
 Learnset: '[[SRD-Yanma-Learnset]]'
 Legendary: 'No'
 Name: Yanma
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-yanma.png|right]]
+![[SRD-yanma-BookSprite.png|right wsmall]]
 
 *Clear Wing Pokemon*
 *It lives near water sources. Its eyes can see 360 degrees without even moving. Yanma is a great flyer capable of making sudden stops and turning midair to quickly chase down targeted prey.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Speed Boost|Speed Boost]] / [[SRD-Compound Eyes|Compound Eyes]] ([[SRD-Frisk|Frisk]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-yanma.png|right]]
+![[SRD-yanma-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-yanma-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

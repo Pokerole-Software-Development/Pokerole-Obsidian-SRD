@@ -2,9 +2,8 @@
 Ability1: Hyper Cutter
 Ability2: Iron Fist
 Baby: 'No'
-BookImageName: HOME740.png
-BookShinyImageName: HOME740_s.png
-BoxSprite: SRD-BoxSprite-crabominable.png
+BookSprite: SRD-crabominable-BookSprite.png
+BoxSprite: SRD-crabominable-BoxSprite.png
 DexCategory: Woolly Crab Pokemon
 DexDescription: Crawbrawlers who get lost in the snowy mountains of Alola are forced
   to evolve into a more suited form. Crabominables are not very smart and throw punches
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Anger Point
-HomeSprite: SRD-HomeSprite-crabominable.png
+HomeSprite: SRD-crabominable-HomeSprite.png
 Learnset: '[[SRD-Crabominable-Learnset]]'
 Legendary: 'No'
 Name: Crabominable
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-crabominable.png|right]]
+![[SRD-crabominable-BookSprite.png|right wsmall]]
 
 *Woolly Crab Pokemon*
 *Crawbrawlers who get lost in the snowy mountains of Alola are forced to evolve into a more suited form. Crabominables are not very smart and throw punches to friends and foes alike when they panic.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Iron Fist|Iron Fist]] ([[SRD-Anger Point|Anger Point]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-crabominable.png|right]]
+![[SRD-crabominable-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-crabominable-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

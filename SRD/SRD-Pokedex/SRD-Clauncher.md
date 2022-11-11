@@ -2,9 +2,8 @@
 Ability1: Mega Launcher
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME692.png
-BookShinyImageName: HOME692_s.png
-BoxSprite: SRD-BoxSprite-clauncher.png
+BookSprite: SRD-clauncher-BookSprite.png
+BoxSprite: SRD-clauncher-BoxSprite.png
 DexCategory: Water Gun Pokemon
 DexDescription: They live in beaches and shallow waters. They can knock down a flying
   prey by shooting water from their massive claws. Their shell is very though but
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-clauncher.png
+HomeSprite: SRD-clauncher-HomeSprite.png
 Learnset: '[[SRD-Clauncher-Learnset]]'
 Legendary: 'No'
 Name: Clauncher
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-clauncher.png|right]]
+![[SRD-clauncher-BookSprite.png|right wsmall]]
 
 *Water Gun Pokemon*
 *They live in beaches and shallow waters. They can knock down a flying prey by shooting water from their massive claws. Their shell is very though but their meat is delicious.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Mega Launcher|Mega Launcher]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-clauncher.png|right]]
+![[SRD-clauncher-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-clauncher-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

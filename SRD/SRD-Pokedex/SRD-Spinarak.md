@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: Insomnia
 Baby: 'No'
-BookImageName: HOME167.png
-BookShinyImageName: HOME167_s.png
-BoxSprite: SRD-BoxSprite-spinarak.png
+BookSprite: SRD-spinarak-BookSprite.png
+BoxSprite: SRD-spinarak-BoxSprite.png
 DexCategory: String Spit Pokemon
 DexDescription: It sets a trap by spinning a web of thin but strong silk. Then it
   waits for the prey to arrive. It recognizes what kind of prey has fallen on its
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Sniper
-HomeSprite: SRD-HomeSprite-spinarak.png
+HomeSprite: SRD-spinarak-HomeSprite.png
 Learnset: '[[SRD-Spinarak-Learnset]]'
 Legendary: 'No'
 Name: Spinarak
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-spinarak.png|right]]
+![[SRD-spinarak-BookSprite.png|right wsmall]]
 
 *String Spit Pokemon*
 *It sets a trap by spinning a web of thin but strong silk. Then it waits for the prey to arrive. It recognizes what kind of prey has fallen on its web by the vibrations received by each one of its eight legs.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Insomnia|Insomnia]] ([[SRD-Sniper|Sniper]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-spinarak.png|right]]
+![[SRD-spinarak-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-spinarak-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

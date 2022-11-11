@@ -2,9 +2,8 @@
 Ability1: Wimp Out
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME767.png
-BookShinyImageName: HOME767_s.png
-BoxSprite: SRD-BoxSprite-wimpod.png
+BookSprite: SRD-wimpod-BookSprite.png
+BoxSprite: SRD-wimpod-BoxSprite.png
 DexCategory: Turn Tail Pokemon
 DexDescription: They are curious but incredibly cowardly Pokemon. They are easily
   startled and will shoot a stenchy liquid as a warning. Even so, they are highly
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-wimpod.png
+HomeSprite: SRD-wimpod-HomeSprite.png
 Learnset: '[[SRD-Wimpod-Learnset]]'
 Legendary: 'No'
 Name: Wimpod
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-wimpod.png|right]]
+![[SRD-wimpod-BookSprite.png|right wsmall]]
 
 *Turn Tail Pokemon*
 *They are curious but incredibly cowardly Pokemon. They are easily startled and will shoot a stenchy liquid as a warning. Even so, they are highly valued due to their ability to eat and clean any garbage.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Wimp Out|Wimp Out]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-wimpod.png|right]]
+![[SRD-wimpod-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-wimpod-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Keen Eye
 Baby: 'No'
-BookImageName: HOME505.png
-BookShinyImageName: HOME505_s.png
-BoxSprite: SRD-BoxSprite-watchog.png
+BookSprite: SRD-watchog-BookSprite.png
+BoxSprite: SRD-watchog-BoxSprite.png
 DexCategory: Lookout Pokemon
 DexDescription: Their fur has a luminescent property. They make the patterns on their
   bodies glow in order to threaten predators. Their keen eyesight allows them to see
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Analytic
-HomeSprite: SRD-HomeSprite-watchog.png
+HomeSprite: SRD-watchog-HomeSprite.png
 Learnset: '[[SRD-Watchog-Learnset]]'
 Legendary: 'No'
 Name: Watchog
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-watchog.png|right]]
+![[SRD-watchog-BookSprite.png|right wsmall]]
 
 *Lookout Pokemon*
 *Their fur has a luminescent property. They make the patterns on their bodies glow in order to threaten predators. Their keen eyesight allows them to see in the dark. They are also good diggers.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Keen Eye|Keen Eye]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-watchog.png|right]]
+![[SRD-watchog-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-watchog-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

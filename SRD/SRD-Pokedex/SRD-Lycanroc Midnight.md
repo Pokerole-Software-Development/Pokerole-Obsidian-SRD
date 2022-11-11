@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Vital Spirit
 Baby: 'No'
-BookImageName: HOME745Mn.png
-BookShinyImageName: HOME745Mn_s.png
-BoxSprite: SRD-BoxSprite-lycanroc-midnight.png
+BookSprite: SRD-lycanroc-midnight-BookSprite.png
+BoxSprite: SRD-lycanroc-midnight-BoxSprite.png
 DexCategory: Wolf Pokemon
 DexDescription: A poorly-behaved Rockruff will evolve at midnight. This Pokemon is
   savage and has no regard for its own safety. It taunts and provokes foes a lot stronger
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: No Guard
-HomeSprite: SRD-HomeSprite-lycanroc-midnight.png
+HomeSprite: SRD-lycanroc-midnight-HomeSprite.png
 Learnset: '[[SRD-Lycanroc Midnight-Learnset]]'
 Legendary: 'No'
 Name: Lycanroc Midnight
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lycanroc-midnight.png|right]]
+![[SRD-lycanroc-midnight-BookSprite.png|right wsmall]]
 
 *Wolf Pokemon*
 *A poorly-behaved Rockruff will evolve at midnight. This Pokemon is savage and has no regard for its own safety. It taunts and provokes foes a lot stronger just to get its own blood boiling.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Vital Spirit|Vital Spirit]] ([[SRD-No Guard|No Guard]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-lycanroc-midnight.png|right]]
+![[SRD-lycanroc-midnight-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-lycanroc-midnight-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

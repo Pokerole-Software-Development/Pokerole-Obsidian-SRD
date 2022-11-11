@@ -2,9 +2,8 @@
 Ability1: Static
 Ability2: ''
 Baby: 'Yes'
-BookImageName: HOME239.png
-BookShinyImageName: HOME239_s.png
-BoxSprite: SRD-BoxSprite-elekid.png
+BookSprite: SRD-elekid-BookSprite.png
+BoxSprite: SRD-elekid-BoxSprite.png
 DexCategory: Electric Pokemon
 DexDescription: They can be found following thunder storms. Elekids rotate their arms
   constantly to charge electricity. Beware, there is an electric current between their
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Vital Spirit
-HomeSprite: SRD-HomeSprite-elekid.png
+HomeSprite: SRD-elekid-HomeSprite.png
 Learnset: '[[SRD-Elekid-Learnset]]'
 Legendary: 'No'
 Name: Elekid
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-elekid.png|right]]
+![[SRD-elekid-BookSprite.png|right wsmall]]
 
 *Electric Pokemon*
 *They can be found following thunder storms. Elekids rotate their arms constantly to charge electricity. Beware, there is an electric current between their horns that may zap you if you touch them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Static|Static]] ([[SRD-Vital Spirit|Vital Spirit]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-elekid.png|right]]
+![[SRD-elekid-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-elekid-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

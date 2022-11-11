@@ -2,9 +2,8 @@
 Ability1: Dauntless Shield
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME889C.png
-BookShinyImageName: HOME889C_s.png
-BoxSprite: SRD-BoxSprite-zamazenta.png
+BookSprite: SRD-zamazenta-BookSprite.png
+BoxSprite: SRD-zamazenta-BoxSprite.png
 DexCategory: No Data
 DexDescription: "There is a legend about a mighty shield able to deflect any attack,\
   \ it became known as the Fighting Master\u2019s Shield, not even the largest creatures\
@@ -17,7 +16,7 @@ Height:
   Feet: 9.5
   Meters: 2.9
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-zamazenta.png
+HomeSprite: SRD-zamazenta-HomeSprite.png
 Learnset: '[[SRD-Form Zamazenta-Learnset]]'
 Legendary: 'Yes'
 Name: Form Zamazenta
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zamazenta.png|right]]
+![[SRD-zamazenta-BookSprite.png|right wsmall]]
 
 *No Data*
 *There is a legend about a mighty shield able to deflect any attack, it became known as the Fighting Master’s Shield, not even the largest creatures could go through it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Dauntless Shield|Dauntless Shield]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-zamazenta.png|right]]
+![[SRD-zamazenta-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::8)/(MaxVitality::8)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::8)/(MaxInsight::8)     |
+
+![[SRD-zamazenta-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Refrigerate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME699.png
-BookShinyImageName: HOME699_s.png
-BoxSprite: SRD-BoxSprite-aurorus.png
+BookSprite: SRD-aurorus-BookSprite.png
+BoxSprite: SRD-aurorus-BoxSprite.png
 DexCategory: Tundra Pokemon
 DexDescription: It produced a freezing cold mist from the crystals on its sides and
   relied on size to deter predators. It also created tall walls of ice to block them.
@@ -17,7 +16,7 @@ Height:
   Feet: 8.9
   Meters: 2.7
 HiddenAbility: Snow Warning
-HomeSprite: SRD-HomeSprite-aurorus.png
+HomeSprite: SRD-aurorus-HomeSprite.png
 Learnset: '[[SRD-Aurorus-Learnset]]'
 Legendary: 'No'
 Name: Aurorus
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-aurorus.png|right]]
+![[SRD-aurorus-BookSprite.png|right wsmall]]
 
 *Tundra Pokemon*
 *It produced a freezing cold mist from the crystals on its sides and relied on size to deter predators. It also created tall walls of ice to block them. The one restored from the fossil is calm and has adapted well.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Refrigerate|Refrigerate]] ([[SRD-Snow Warning|Snow Warning]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-aurorus.png|right]]
+![[SRD-aurorus-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-aurorus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

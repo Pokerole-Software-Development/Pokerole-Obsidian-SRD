@@ -2,9 +2,8 @@
 Ability1: Pickup
 Ability2: Technician
 Baby: 'No'
-BookImageName: HOME052A.png
-BookShinyImageName: HOME052A_s.png
-BoxSprite: SRD-BoxSprite-meowth-alola.png
+BookSprite: SRD-meowth-alola-BookSprite.png
+BoxSprite: SRD-meowth-alola-BoxSprite.png
 DexCategory: Scratch Cat Pokemon
 DexDescription: "In old times, Meowth were taken to Alola as gifts for the tribe\u2019\
   s royals, this caused them to become incredibly greedy and pampered. Nowadays they\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Rattled
-HomeSprite: SRD-HomeSprite-meowth-alola.png
+HomeSprite: SRD-meowth-alola-HomeSprite.png
 Learnset: '[[SRD-Alolan Meowth-Learnset]]'
 Legendary: 'No'
 Name: Alolan Meowth
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-meowth-alola.png|right]]
+![[SRD-meowth-alola-BookSprite.png|right wsmall]]
 
 *Scratch Cat Pokemon*
 *In old times, Meowth were taken to Alola as gifts for the tribe’s royals, this caused them to become incredibly greedy and pampered. Nowadays they are feral, but their prideful nature remained.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Technician|Technician]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-meowth-alola.png|right]]
+![[SRD-meowth-alola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-meowth-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

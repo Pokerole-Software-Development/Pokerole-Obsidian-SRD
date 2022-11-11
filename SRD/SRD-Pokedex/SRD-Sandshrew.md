@@ -2,9 +2,8 @@
 Ability1: Sand Veil
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME027.png
-BookShinyImageName: HOME027_s.png
-BoxSprite: SRD-BoxSprite-sandshrew.png
+BookSprite: SRD-sandshrew-BookSprite.png
+BoxSprite: SRD-sandshrew-BoxSprite.png
 DexCategory: Mouse Pokemon
 DexDescription: They usually hide burrowed under caves and grasslands. A few have
   been sighted living in the desert. They are shy by nature - they dig and curl in
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Sand Rush
-HomeSprite: SRD-HomeSprite-sandshrew.png
+HomeSprite: SRD-sandshrew-HomeSprite.png
 Learnset: '[[SRD-Sandshrew-Learnset]]'
 Legendary: 'No'
 Name: Sandshrew
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sandshrew.png|right]]
+![[SRD-sandshrew-BookSprite.png|right wsmall]]
 
 *Mouse Pokemon*
 *They usually hide burrowed under caves and grasslands. A few have been sighted living in the desert. They are shy by nature - they dig and curl in a ball when facing a threat.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] ([[SRD-Sand Rush|Sand Rush]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-sandshrew.png|right]]
+![[SRD-sandshrew-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-sandshrew-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

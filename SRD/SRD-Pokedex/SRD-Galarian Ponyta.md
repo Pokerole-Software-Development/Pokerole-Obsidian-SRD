@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Pastel Veil
 Baby: 'No'
-BookImageName: HOME077G.png
-BookShinyImageName: HOME077G_s.png
-BoxSprite: SRD-BoxSprite-ponyta-galar.png
+BookSprite: SRD-ponyta-galar-BookSprite.png
+BoxSprite: SRD-ponyta-galar-BoxSprite.png
 DexCategory: Unique Horn Pokemonn
 DexDescription: "The old magical forests of Galar made Ponytas adopt a mystic nature.\
   \ Their miraculous horn can heal most wounds and sense the purity in your heart,\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Anticipation
-HomeSprite: SRD-HomeSprite-ponyta-galar.png
+HomeSprite: SRD-ponyta-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Ponyta-Learnset]]'
 Legendary: 'No'
 Name: Galarian Ponyta
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ponyta-galar.png|right]]
+![[SRD-ponyta-galar-BookSprite.png|right wsmall]]
 
 *Unique Horn Pokemonn*
 *The old magical forests of Galar made Ponytas adopt a mystic nature. Their miraculous horn can heal most wounds and sense the purity in your heart, if you hold evil, you’ll never see this Pokemon in the wild.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Pastel Veil|Pastel Veil]] ([[SRD-Anticipation|Anticipation]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-ponyta-galar.png|right]]
+![[SRD-ponyta-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-ponyta-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

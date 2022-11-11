@@ -2,9 +2,8 @@
 Ability1: Flash Fire
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME485.png
-BookShinyImageName: HOME485_s.png
-BoxSprite: SRD-BoxSprite-heatran.png
+BookSprite: SRD-heatran-BookSprite.png
+BoxSprite: SRD-heatran-BoxSprite.png
 DexCategory: No Data
 DexDescription: An old painting showed a similar Pokemon standing atop of an erupting
   Volcano.
@@ -16,7 +15,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Flame Body
-HomeSprite: SRD-HomeSprite-heatran.png
+HomeSprite: SRD-heatran-HomeSprite.png
 Learnset: '[[SRD-Heatran-Learnset]]'
 Legendary: 'Yes'
 Name: Heatran
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-heatran.png|right]]
+![[SRD-heatran-BookSprite.png|right wsmall]]
 
 *No Data*
 *An old painting showed a similar Pokemon standing atop of an erupting Volcano.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Flash Fire|Flash Fire]] ([[SRD-Flame Body|Flame Body]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-heatran.png|right]]
+![[SRD-heatran-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-heatran-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

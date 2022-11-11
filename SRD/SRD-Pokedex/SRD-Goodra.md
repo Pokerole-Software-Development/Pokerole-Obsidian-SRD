@@ -2,9 +2,8 @@
 Ability1: Sap Sipper
 Ability2: Hydration
 Baby: 'No'
-BookImageName: HOME706.png
-BookShinyImageName: HOME706_s.png
-BoxSprite: SRD-BoxSprite-goodra.png
+BookSprite: SRD-goodra-BookSprite.png
+BoxSprite: SRD-goodra-BoxSprite.png
 DexCategory: Dragon Pokemon
 DexDescription: Definitely the friendliest of all Dragons. This Pokemon will hug its
   beloved Trainer, leaving them covered in sticky slime. In areas with heavy rainfall
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Gooey
-HomeSprite: SRD-HomeSprite-goodra.png
+HomeSprite: SRD-goodra-HomeSprite.png
 Learnset: '[[SRD-Goodra-Learnset]]'
 Legendary: 'No'
 Name: Goodra
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-goodra.png|right]]
+![[SRD-goodra-BookSprite.png|right wsmall]]
 
 *Dragon Pokemon*
 *Definitely the friendliest of all Dragons. This Pokemon will hug its beloved Trainer, leaving them covered in sticky slime. In areas with heavy rainfall during the year, one or two may make an appearance.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sap Sipper|Sap Sipper]] / [[SRD-Hydration|Hydration]] ([[SRD-Gooey|Gooey]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-goodra.png|right]]
+![[SRD-goodra-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-goodra-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

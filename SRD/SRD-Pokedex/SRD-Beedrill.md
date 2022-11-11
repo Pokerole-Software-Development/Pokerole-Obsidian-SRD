@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME015.png
-BookShinyImageName: HOME015_s.png
-BoxSprite: SRD-BoxSprite-beedrill.png
+BookSprite: SRD-beedrill-BookSprite.png
+BoxSprite: SRD-beedrill-BoxSprite.png
 DexCategory: Poison Bee Pokemon
 DexDescription: Beedrill are extremely territorial. For safety reasons, no one should
   ever approach their nest. If disturbed, they will attack in swarm. It has three
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Sniper
-HomeSprite: SRD-HomeSprite-beedrill.png
+HomeSprite: SRD-beedrill-HomeSprite.png
 Learnset: '[[SRD-Beedrill-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-beedrill.png|right]]
+![[SRD-beedrill-BookSprite.png|right wsmall]]
 
 *Poison Bee Pokemon*
 *Beedrill are extremely territorial. For safety reasons, no one should ever approach their nest. If disturbed, they will attack in swarm. It has three stings. The one on its tail secretes a powerful poison.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] ([[SRD-Sniper|Sniper]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-beedrill.png|right]]
+![[SRD-beedrill-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-beedrill-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

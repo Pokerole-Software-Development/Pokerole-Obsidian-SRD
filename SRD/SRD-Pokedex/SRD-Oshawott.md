@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME501.png
-BookShinyImageName: HOME501_s.png
-BoxSprite: SRD-BoxSprite-oshawott.png
+BookSprite: SRD-oshawott-BookSprite.png
+BoxSprite: SRD-oshawott-BoxSprite.png
 DexCategory: Sea Otter Pokemon
 DexDescription: It is only seen close to the sea in a few places in the world. Oshawott
   uses the scalchop on its chest as a tool for multiple purposes and as a weapon to
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Shell Armor
-HomeSprite: SRD-HomeSprite-oshawott.png
+HomeSprite: SRD-oshawott-HomeSprite.png
 Learnset: '[[SRD-Oshawott-Learnset]]'
 Legendary: 'No'
 Name: Oshawott
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-oshawott.png|right]]
+![[SRD-oshawott-BookSprite.png|right wsmall]]
 
 *Sea Otter Pokemon*
 *It is only seen close to the sea in a few places in the world. Oshawott uses the scalchop on its chest as a tool for multiple purposes and as a weapon to slash and fight. It is small but brave and daring.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Shell Armor|Shell Armor]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-oshawott.png|right]]
+![[SRD-oshawott-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-oshawott-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

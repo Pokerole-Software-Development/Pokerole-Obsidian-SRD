@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME455.png
-BookShinyImageName: HOME455_s.png
-BoxSprite: SRD-BoxSprite-carnivine.png
+BookSprite: SRD-carnivine-BookSprite.png
+BoxSprite: SRD-carnivine-BoxSprite.png
 DexCategory: Bug Catcher Pokemon
 DexDescription: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling\
   \ drool and gulps them down in one bite. It can take it a whole day to digest a\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-carnivine.png
+HomeSprite: SRD-carnivine-HomeSprite.png
 Learnset: '[[SRD-Carnivine-Learnset]]'
 Legendary: 'No'
 Name: Carnivine
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-carnivine.png|right]]
+![[SRD-carnivine-BookSprite.png|right wsmall]]
 
 *Bug Catcher Pokemon*
 *It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down in one bite. It can take it a whole day to digest a single prey but It won’t need to eat for at least a week.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-carnivine.png|right]]
+![[SRD-carnivine-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-carnivine-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

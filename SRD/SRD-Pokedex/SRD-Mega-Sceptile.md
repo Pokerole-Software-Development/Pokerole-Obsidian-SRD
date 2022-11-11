@@ -2,9 +2,8 @@
 Ability1: Lightning Rod
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME254M.png
-BookShinyImageName: HOME254M_s.png
-BoxSprite: SRD-BoxSprite-sceptile-mega.png
+BookSprite: SRD-sceptile-mega-BookSprite.png
+BoxSprite: SRD-sceptile-mega-BoxSprite.png
 DexCategory: Forest Pokemon
 DexDescription: With the power of the Mega Stone, it allows itself to grow more feral
   in order to gain draconian powers. Its movements are swifter than ever and when
@@ -17,7 +16,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-sceptile-mega.png
+HomeSprite: SRD-sceptile-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Sceptile-Learnset]]'
 Legendary: 'No'
 Name: Mega-Sceptile
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sceptile-mega.png|right]]
+![[SRD-sceptile-mega-BookSprite.png|right wsmall]]
 
 *Forest Pokemon*
 *With the power of the Mega Stone, it allows itself to grow more feral in order to gain draconian powers. Its movements are swifter than ever and when it attacks it seems like the jungle has come to life.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Lightning Rod|Lightning Rod]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-sceptile-mega.png|right]]
+![[SRD-sceptile-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-sceptile-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

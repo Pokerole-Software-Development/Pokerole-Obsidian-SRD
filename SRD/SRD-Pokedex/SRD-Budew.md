@@ -2,9 +2,8 @@
 Ability1: Natural Cure
 Ability2: Poison Point
 Baby: 'Yes'
-BookImageName: HOME406.png
-BookShinyImageName: HOME406_s.png
-BoxSprite: SRD-BoxSprite-budew.png
+BookSprite: SRD-budew-BookSprite.png
+BoxSprite: SRD-budew-BoxSprite.png
 DexCategory: Bud Pokemon
 DexDescription: It blossoms near clear ponds. Budew needs nurturing and care to grow
   healthy and beautiful, otherwise its bud will never bloom. If threatened, they will
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Leaf Guard
-HomeSprite: SRD-HomeSprite-budew.png
+HomeSprite: SRD-budew-HomeSprite.png
 Learnset: '[[SRD-Budew-Learnset]]'
 Legendary: 'No'
 Name: Budew
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-budew.png|right]]
+![[SRD-budew-BookSprite.png|right wsmall]]
 
 *Bud Pokemon*
 *It blossoms near clear ponds. Budew needs nurturing and care to grow healthy and beautiful, otherwise its bud will never bloom. If threatened, they will reveal their small but poisonous thorns.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]] / [[SRD-Poison Point|Poison Point]] ([[SRD-Leaf Guard|Leaf Guard]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-budew.png|right]]
+![[SRD-budew-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-budew-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

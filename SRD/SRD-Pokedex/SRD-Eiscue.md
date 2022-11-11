@@ -2,9 +2,8 @@
 Ability1: Ice Face
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME875.png
-BookShinyImageName: HOME875_s.png
-BoxSprite: SRD-BoxSprite-eiscue.png
+BookSprite: SRD-eiscue-BookSprite.png
+BoxSprite: SRD-eiscue-BoxSprite.png
 DexCategory: Penguin Pokemon
 DexDescription: This Pokemon keeps its head cool with ice. It fishes for its food
   by dangling its single hair into the sea to lure in prey. When they tire of swimming
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-eiscue.png
+HomeSprite: SRD-eiscue-HomeSprite.png
 Learnset: '[[SRD-Eiscue-Learnset]]'
 Legendary: 'No'
 Name: Eiscue
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-eiscue.png|right]]
+![[SRD-eiscue-BookSprite.png|right wsmall]]
 
 *Penguin Pokemon*
 *This Pokemon keeps its head cool with ice. It fishes for its food by dangling its single hair into the sea to lure in prey. When they tire of swimming they simply let their ice hear be drifted away by the sea.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Ice Face|Ice Face]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-eiscue.png|right]]
+![[SRD-eiscue-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-eiscue-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Poison Touch
 Ability2: Gluttony
 Baby: 'No'
-BookImageName: HOME088A.png
-BookShinyImageName: HOME088A_s.png
-BoxSprite: SRD-BoxSprite-grimer-alola.png
+BookSprite: SRD-grimer-alola-BookSprite.png
+BoxSprite: SRD-grimer-alola-BoxSprite.png
 DexCategory: Sludge Pokemon
 DexDescription: Grimer were brought into Alola to eat garbage on the region. It seemed
   like a counterintuitive measure but ended up solving the problem. But now Grimer
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Power of Alchemy
-HomeSprite: SRD-HomeSprite-grimer-alola.png
+HomeSprite: SRD-grimer-alola-HomeSprite.png
 Learnset: '[[SRD-Alolan Grimer-Learnset]]'
 Legendary: 'No'
 Name: Alolan Grimer
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-grimer-alola.png|right]]
+![[SRD-grimer-alola-BookSprite.png|right wsmall]]
 
 *Sludge Pokemon*
 *Grimer were brought into Alola to eat garbage on the region. It seemed like a counterintuitive measure but ended up solving the problem. But now Grimer are incredibly noxious, much more toxic than usual.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Poison Touch|Poison Touch]] / [[SRD-Gluttony|Gluttony]] ([[SRD-Power of Alchemy|Power of Alchemy]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-grimer-alola.png|right]]
+![[SRD-grimer-alola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-grimer-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

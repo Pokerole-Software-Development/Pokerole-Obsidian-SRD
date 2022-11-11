@@ -2,9 +2,8 @@
 Ability1: Damp
 Ability2: Cloud Nine
 Baby: 'No'
-BookImageName: HOME054.png
-BookShinyImageName: HOME054_s.png
-BoxSprite: SRD-BoxSprite-psyduck.png
+BookSprite: SRD-psyduck-BookSprite.png
+BoxSprite: SRD-psyduck-BoxSprite.png
 DexCategory: Duck Pokemon
 DexDescription: "It lives near lakes and ponds but it\u2019s not very good at swimming.\
   \ It is always tormented by headaches that worsen when it uses psychic powers. Psyducks\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Swift Swim
-HomeSprite: SRD-HomeSprite-psyduck.png
+HomeSprite: SRD-psyduck-HomeSprite.png
 Learnset: '[[SRD-Psyduck-Learnset]]'
 Legendary: 'No'
 Name: Psyduck
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-psyduck.png|right]]
+![[SRD-psyduck-BookSprite.png|right wsmall]]
 
 *Duck Pokemon*
 *It lives near lakes and ponds but it’s not very good at swimming. It is always tormented by headaches that worsen when it uses psychic powers. Psyducks seem unaware of their own power.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Damp|Damp]] / [[SRD-Cloud Nine|Cloud Nine]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-psyduck.png|right]]
+![[SRD-psyduck-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-psyduck-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

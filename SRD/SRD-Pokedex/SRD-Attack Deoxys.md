@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME386A.png
-BookShinyImageName: HOME386A_s.png
-BoxSprite: SRD-BoxSprite-deoxys-attack.png
+BookSprite: SRD-deoxys-attack-BookSprite.png
+BoxSprite: SRD-deoxys-attack-BoxSprite.png
 DexCategory: No Data
 DexDescription: The main engineer of the space crew reported a tentacled creature
   that ripped with ease through the thick metal hull of the ship to escape. The ship
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-deoxys-attack.png
+HomeSprite: SRD-deoxys-attack-HomeSprite.png
 Learnset: '[[SRD-Attack Deoxys-Learnset]]'
 Legendary: 'Yes'
 Name: Attack Deoxys
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-deoxys-attack.png|right]]
+![[SRD-deoxys-attack-BookSprite.png|right wsmall]]
 
 *No Data*
 *The main engineer of the space crew reported a tentacled creature that ripped with ease through the thick metal hull of the ship to escape. The ship was recovered and was indeed torn in two sections.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-deoxys-attack.png|right]]
+![[SRD-deoxys-attack-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::2)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::10)/(MaxSpecial::10)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::2)     |
+
+![[SRD-deoxys-attack-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

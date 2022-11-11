@@ -2,9 +2,8 @@
 Ability1: Natural Cure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME334.png
-BookShinyImageName: HOME334_s.png
-BoxSprite: SRD-BoxSprite-altaria.png
+BookSprite: SRD-altaria-BookSprite.png
+BoxSprite: SRD-altaria-BoxSprite.png
 DexCategory: Humming Pokemon
 DexDescription: Seen as dancing clouds in the sky, Altarias sing melodies in their
   sweet voices, evoking wonder, beauty and dreams to the listeners. They live far
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Cloud Nine
-HomeSprite: SRD-HomeSprite-altaria.png
+HomeSprite: SRD-altaria-HomeSprite.png
 Learnset: '[[SRD-Altaria-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-altaria.png|right]]
+![[SRD-altaria-BookSprite.png|right wsmall]]
 
 *Humming Pokemon*
 *Seen as dancing clouds in the sky, Altarias sing melodies in their sweet voices, evoking wonder, beauty and dreams to the listeners. They live far away from people and throw colorful fireballs at uninvited guests.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]] ([[SRD-Cloud Nine|Cloud Nine]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-altaria.png|right]]
+![[SRD-altaria-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-altaria-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

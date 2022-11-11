@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME255.png
-BookShinyImageName: HOME255_s.png
-BoxSprite: SRD-BoxSprite-torchic.png
+BookSprite: SRD-torchic-BookSprite.png
+BoxSprite: SRD-torchic-BoxSprite.png
 DexCategory: Chick Pokemon
 DexDescription: They walk clumsily, but follow their trainers wherever they go. Torchics
   have a flame sac in their belly - burning all the time. If you hug them, they feel
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Speed Boost
-HomeSprite: SRD-HomeSprite-torchic.png
+HomeSprite: SRD-torchic-HomeSprite.png
 Learnset: '[[SRD-Torchic-Learnset]]'
 Legendary: 'No'
 Name: Torchic
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-torchic.png|right]]
+![[SRD-torchic-BookSprite.png|right wsmall]]
 
 *Chick Pokemon*
 *They walk clumsily, but follow their trainers wherever they go. Torchics have a flame sac in their belly - burning all the time. If you hug them, they feel warm, but if you squeeze them, they may spit fire.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Speed Boost|Speed Boost]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-torchic.png|right]]
+![[SRD-torchic-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-torchic-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Slow Start
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME486.png
-BookShinyImageName: HOME486_s.png
-BoxSprite: SRD-BoxSprite-regigigas.png
+BookSprite: SRD-regigigas-BookSprite.png
+BoxSprite: SRD-regigigas-BoxSprite.png
 DexCategory: No Data
 DexDescription: A very old legend tells about the King of Giants, who could crush
   a mountain with its grip and mold living titans from the rubble.
@@ -16,7 +15,7 @@ Height:
   Feet: 12.1
   Meters: 3.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-regigigas.png
+HomeSprite: SRD-regigigas-HomeSprite.png
 Learnset: '[[SRD-Regigigas-Learnset]]'
 Legendary: 'Yes'
 Name: Regigigas
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-regigigas.png|right]]
+![[SRD-regigigas-BookSprite.png|right wsmall]]
 
 *No Data*
 *A very old legend tells about the King of Giants, who could crush a mountain with its grip and mold living titans from the rubble.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Slow Start|Slow Start]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-regigigas.png|right]]
+![[SRD-regigigas-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-regigigas-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

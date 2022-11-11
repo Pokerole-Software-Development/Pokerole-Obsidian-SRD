@@ -2,9 +2,8 @@
 Ability1: Cute Charm
 Ability2: Competitive
 Baby: 'No'
-BookImageName: HOME040.png
-BookShinyImageName: HOME040_s.png
-BoxSprite: SRD-BoxSprite-wigglytuff.png
+BookSprite: SRD-wigglytuff-BookSprite.png
+BoxSprite: SRD-wigglytuff-BoxSprite.png
 DexCategory: Balloon Pokemon
 DexDescription: Its fur is extremely fine and conveys an image of luxury. Its body
   is soft and rubbery. When angered, it will suck the air and inflate itself to an
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Frisk
-HomeSprite: SRD-HomeSprite-wigglytuff.png
+HomeSprite: SRD-wigglytuff-HomeSprite.png
 Learnset: '[[SRD-Wigglytuff-Learnset]]'
 Legendary: 'No'
 Name: Wigglytuff
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-wigglytuff.png|right]]
+![[SRD-wigglytuff-BookSprite.png|right wsmall]]
 
 *Balloon Pokemon*
 *Its fur is extremely fine and conveys an image of luxury. Its body is soft and rubbery. When angered, it will suck the air and inflate itself to an enormous size. It is a favorite pet and a nurse Pokemon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Competitive|Competitive]] ([[SRD-Frisk|Frisk]])
 **Base HP**:: 7
 
-![[SRD-BoxSprite-wigglytuff.png|right]]
+![[SRD-wigglytuff-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-wigglytuff-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

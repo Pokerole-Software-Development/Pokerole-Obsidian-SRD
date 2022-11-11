@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Pastel Veil
 Baby: 'No'
-BookImageName: HOME078G.png
-BookShinyImageName: HOME078G_s.png
-BoxSprite: SRD-BoxSprite-rapidash-galar.png
+BookSprite: SRD-rapidash-galar-BookSprite.png
+BoxSprite: SRD-rapidash-galar-BoxSprite.png
 DexCategory: Unique Horn Pokemonn
 DexDescription: Those with evil in their hearts will be disdained by this proud and
   beautiful Pokemon as it dashes on the air using its psychic power. It is said that
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Anticipation
-HomeSprite: SRD-HomeSprite-rapidash-galar.png
+HomeSprite: SRD-rapidash-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Rapidash-Learnset]]'
 Legendary: 'No'
 Name: Galarian Rapidash
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rapidash-galar.png|right]]
+![[SRD-rapidash-galar-BookSprite.png|right wsmall]]
 
 *Unique Horn Pokemonn*
 *Those with evil in their hearts will be disdained by this proud and beautiful Pokemon as it dashes on the air using its psychic power. It is said that only a true princess can mount a Galarian Rapidash.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Pastel Veil|Pastel Veil]] ([[SRD-Anticipation|Anticipation]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-rapidash-galar.png|right]]
+![[SRD-rapidash-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-rapidash-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

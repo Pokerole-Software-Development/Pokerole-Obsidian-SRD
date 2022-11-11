@@ -2,9 +2,8 @@
 Ability1: Guts
 Ability2: Inner Focus
 Baby: 'No'
-BookImageName: HOME538.png
-BookShinyImageName: HOME538_s.png
-BoxSprite: SRD-BoxSprite-throh.png
+BookSprite: SRD-throh-BookSprite.png
+BoxSprite: SRD-throh-BoxSprite.png
 DexCategory: Judo Pokemon
 DexDescription: When they encounter foes bigger than themselves, they try to throw
   them away. In the wild they always travel in packs of five and make their clothes
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Mold Breaker
-HomeSprite: SRD-HomeSprite-throh.png
+HomeSprite: SRD-throh-HomeSprite.png
 Learnset: '[[SRD-Throh-Learnset]]'
 Legendary: 'No'
 Name: Throh
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-throh.png|right]]
+![[SRD-throh-BookSprite.png|right wsmall]]
 
 *Judo Pokemon*
 *When they encounter foes bigger than themselves, they try to throw them away. In the wild they always travel in packs of five and make their clothes and belts out of plants and vines.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Guts|Guts]] / [[SRD-Inner Focus|Inner Focus]] ([[SRD-Mold Breaker|Mold Breaker]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-throh.png|right]]
+![[SRD-throh-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-throh-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME252.png
-BookShinyImageName: HOME252_s.png
-BoxSprite: SRD-BoxSprite-treecko.png
+BookSprite: SRD-treecko-BookSprite.png
+BoxSprite: SRD-treecko-BoxSprite.png
 DexCategory: Wood Gecko Pokemon
 DexDescription: They climb trees with their spiked feet. They remain cool under stress,
   calmed under pressure and collected when endangered. They are found protecting the
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Unburden
-HomeSprite: SRD-HomeSprite-treecko.png
+HomeSprite: SRD-treecko-HomeSprite.png
 Learnset: '[[SRD-Treecko-Learnset]]'
 Legendary: 'No'
 Name: Treecko
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-treecko.png|right]]
+![[SRD-treecko-BookSprite.png|right wsmall]]
 
 *Wood Gecko Pokemon*
 *They climb trees with their spiked feet. They remain cool under stress, calmed under pressure and collected when endangered. They are found protecting the trees ferociously.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Unburden|Unburden]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-treecko.png|right]]
+![[SRD-treecko-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-treecko-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

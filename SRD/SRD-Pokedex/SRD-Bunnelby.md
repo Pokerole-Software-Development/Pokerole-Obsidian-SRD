@@ -2,9 +2,8 @@
 Ability1: Pickup
 Ability2: Cheek Pouch
 Baby: 'No'
-BookImageName: HOME659.png
-BookShinyImageName: HOME659_s.png
-BoxSprite: SRD-BoxSprite-bunnelby.png
+BookSprite: SRD-bunnelby-BookSprite.png
+BoxSprite: SRD-bunnelby-BoxSprite.png
 DexCategory: Digging Pokemon
 DexDescription: It uses its ears as shovels, digging holes strengthens them so much
   that they can sever thick roots easily. They reproduce quickly and a handful of
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Huge Power
-HomeSprite: SRD-HomeSprite-bunnelby.png
+HomeSprite: SRD-bunnelby-HomeSprite.png
 Learnset: '[[SRD-Bunnelby-Learnset]]'
 Legendary: 'No'
 Name: Bunnelby
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-bunnelby.png|right]]
+![[SRD-bunnelby-BookSprite.png|right wsmall]]
 
 *Digging Pokemon*
 *It uses its ears as shovels, digging holes strengthens them so much that they can sever thick roots easily. They reproduce quickly and a handful of them can ravage a field of vegetables in just a few hours.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Cheek Pouch|Cheek Pouch]] ([[SRD-Huge Power|Huge Power]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-bunnelby.png|right]]
+![[SRD-bunnelby-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-bunnelby-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Strong Jaw
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME836.png
-BookShinyImageName: HOME836_s.png
-BoxSprite: SRD-BoxSprite-boltund.png
+BookSprite: SRD-boltund-BookSprite.png
+BoxSprite: SRD-boltund-BoxSprite.png
 DexCategory: Dog Pokemon
 DexDescription: It sends electricity through its legs to boost their speed, it easily
   breaks 50 mph. They get destructive and stressed if you do not take them out to
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Competitive
-HomeSprite: SRD-HomeSprite-boltund.png
+HomeSprite: SRD-boltund-HomeSprite.png
 Learnset: '[[SRD-Boltund-Learnset]]'
 Legendary: 'No'
 Name: Boltund
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-boltund.png|right]]
+![[SRD-boltund-BookSprite.png|right wsmall]]
 
 *Dog Pokemon*
 *It sends electricity through its legs to boost their speed, it easily breaks 50 mph. They get destructive and stressed if you do not take them out to run daily, otherwise they are chill and easygoing Pokemon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Strong Jaw|Strong Jaw]] ([[SRD-Competitive|Competitive]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-boltund.png|right]]
+![[SRD-boltund-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-boltund-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

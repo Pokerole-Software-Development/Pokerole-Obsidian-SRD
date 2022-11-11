@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME070.png
-BookShinyImageName: HOME070_s.png
-BoxSprite: SRD-BoxSprite-weepinbell.png
+BookSprite: SRD-weepinbell-BookSprite.png
+BoxSprite: SRD-weepinbell-BoxSprite.png
 DexCategory: Flycatcher Pokemon
 DexDescription: It sprays its stun powder to immobilize a prey coming close to it,
   then eats it calmly. If the prey is bigger than itself, it uses its sharp leaves
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Gluttony
-HomeSprite: SRD-HomeSprite-weepinbell.png
+HomeSprite: SRD-weepinbell-HomeSprite.png
 Learnset: '[[SRD-Weepinbell-Learnset]]'
 Legendary: 'No'
 Name: Weepinbell
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-weepinbell.png|right]]
+![[SRD-weepinbell-BookSprite.png|right wsmall]]
 
 *Flycatcher Pokemon*
 *It sprays its stun powder to immobilize a prey coming close to it, then eats it calmly. If the prey is bigger than itself, it uses its sharp leaves to slice it into smaller pieces. Beware of the toxic liquid in its mouth.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-weepinbell.png|right]]
+![[SRD-weepinbell-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-weepinbell-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

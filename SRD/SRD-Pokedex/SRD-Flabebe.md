@@ -2,9 +2,8 @@
 Ability1: Flower Veil
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME669.png
-BookShinyImageName: HOME669_s.png
-BoxSprite: SRD-BoxSprite-flabebe.png
+BookSprite: SRD-flabebe-BookSprite.png
+BoxSprite: SRD-flabebe-BoxSprite.png
 DexCategory: Single Bloom Pokemon
 DexDescription: This species is female only. They are so tiny it is difficult to spot
   them in the wild. They pick a flower as soon as they are born and it becomes a part
@@ -17,7 +16,7 @@ Height:
   Feet: 0.3
   Meters: 0.1
 HiddenAbility: Symbiosis
-HomeSprite: SRD-HomeSprite-flabebe.png
+HomeSprite: SRD-flabebe-HomeSprite.png
 Learnset: '[[SRD-Flabebe-Learnset]]'
 Legendary: 'No'
 Name: Flabebe
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-flabebe.png|right]]
+![[SRD-flabebe-BookSprite.png|right wsmall]]
 
 *Single Bloom Pokemon*
 *This species is female only. They are so tiny it is difficult to spot them in the wild. They pick a flower as soon as they are born and it becomes a part of their body. These small Pokemon are shy but adorable.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flower Veil|Flower Veil]] ([[SRD-Symbiosis|Symbiosis]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-flabebe.png|right]]
+![[SRD-flabebe-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-flabebe-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Trace
 Ability2: Download
 Baby: 'No'
-BookImageName: HOME137.png
-BookShinyImageName: HOME137_s.png
-BoxSprite: SRD-BoxSprite-porygon.png
+BookSprite: SRD-porygon-BookSprite.png
+BoxSprite: SRD-porygon-BoxSprite.png
 DexCategory: Virtual Pokemon
 DexDescription: The first case of a man-made Pokemon created as computer data. It
   is capable of reverting itself into a program in order to enter the cyberspace.
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Analytic
-HomeSprite: SRD-HomeSprite-porygon.png
+HomeSprite: SRD-porygon-HomeSprite.png
 Learnset: '[[SRD-Porygon-Learnset]]'
 Legendary: 'No'
 Name: Porygon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-porygon.png|right]]
+![[SRD-porygon-BookSprite.png|right wsmall]]
 
 *Virtual Pokemon*
 *The first case of a man-made Pokemon created as computer data. It is capable of reverting itself into a program in order to enter the cyberspace. Its software has a firewall so it cannot be copied.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Trace|Trace]] / [[SRD-Download|Download]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-porygon.png|right]]
+![[SRD-porygon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-porygon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

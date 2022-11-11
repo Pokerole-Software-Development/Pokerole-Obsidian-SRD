@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: Shed Skin
 Baby: 'No'
-BookImageName: HOME024.png
-BookShinyImageName: HOME024_s.png
-BoxSprite: SRD-BoxSprite-arbok.png
+BookSprite: SRD-arbok-BookSprite.png
+BoxSprite: SRD-arbok-BoxSprite.png
 DexCategory: Cobra Pokemon
 DexDescription: This Pokemon has an incredibly strong constricting power. Once it
   wraps its body around its foe, escaping is almost impossible. The pattern on its
@@ -17,7 +16,7 @@ Height:
   Feet: 11.5
   Meters: 3.5
 HiddenAbility: Unnerve
-HomeSprite: SRD-HomeSprite-arbok.png
+HomeSprite: SRD-arbok-HomeSprite.png
 Learnset: '[[SRD-Arbok-Learnset]]'
 Legendary: 'No'
 Name: Arbok
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-arbok.png|right]]
+![[SRD-arbok-BookSprite.png|right wsmall]]
 
 *Cobra Pokemon*
 *This Pokemon has an incredibly strong constricting power. Once it wraps its body around its foe, escaping is almost impossible. The pattern on its body glows in the dark like a terrifying face.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Shed Skin|Shed Skin]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-arbok.png|right]]
+![[SRD-arbok-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-arbok-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

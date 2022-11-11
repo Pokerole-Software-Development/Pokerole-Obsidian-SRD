@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME043.png
-BookShinyImageName: HOME043_s.png
-BoxSprite: SRD-BoxSprite-oddish.png
+BookSprite: SRD-oddish-BookSprite.png
+BoxSprite: SRD-oddish-BoxSprite.png
 DexCategory: Weed Pokemon
 DexDescription: This Pokemon grows by absorbing moonlight. During daytime, it buries
   itself in the ground, leaving only its leaves exposed to avoid detection by its
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Run Away
-HomeSprite: SRD-HomeSprite-oddish.png
+HomeSprite: SRD-oddish-HomeSprite.png
 Learnset: '[[SRD-Oddish-Learnset]]'
 Legendary: 'No'
 Name: Oddish
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-oddish.png|right]]
+![[SRD-oddish-BookSprite.png|right wsmall]]
 
 *Weed Pokemon*
 *This Pokemon grows by absorbing moonlight. During daytime, it buries itself in the ground, leaving only its leaves exposed to avoid detection by its predators. You can locate it by the smell its leaves release.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Run Away|Run Away]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-oddish.png|right]]
+![[SRD-oddish-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-oddish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Vital Spirit
 Ability2: Anger Point
 Baby: 'No'
-BookImageName: HOME057.png
-BookShinyImageName: HOME057_s.png
-BoxSprite: SRD-BoxSprite-primeape.png
+BookSprite: SRD-primeape-BookSprite.png
+BoxSprite: SRD-primeape-BoxSprite.png
 DexCategory: Pig Monkey Pokemon
 DexDescription: It grows angry if you see its eyes and gets angrier if you run. If
   you fight it will go mad with rage. Not many trainers are capable of handling it,
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Defiant
-HomeSprite: SRD-HomeSprite-primeape.png
+HomeSprite: SRD-primeape-HomeSprite.png
 Learnset: '[[SRD-Primeape-Learnset]]'
 Legendary: 'No'
 Name: Primeape
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-primeape.png|right]]
+![[SRD-primeape-BookSprite.png|right wsmall]]
 
 *Pig Monkey Pokemon*
 *It grows angry if you see its eyes and gets angrier if you run. If you fight it will go mad with rage. Not many trainers are capable of handling it, the angrier it gets the less intelligent it becomes.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Vital Spirit|Vital Spirit]] / [[SRD-Anger Point|Anger Point]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-primeape.png|right]]
+![[SRD-primeape-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-primeape-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Serene Grace
 Ability2: Run Away
 Baby: 'No'
-BookImageName: HOME206.png
-BookShinyImageName: HOME206_s.png
-BoxSprite: SRD-BoxSprite-dunsparce.png
+BookSprite: SRD-dunsparce-BookSprite.png
+BoxSprite: SRD-dunsparce-BoxSprite.png
 DexCategory: Land Snake Pokemon
 DexDescription: If seen, Dunsparce is quick to escape by boring into the ground with
   its drill tail. It can float slightly with its wings. It is almost blind but finds
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Rattled
-HomeSprite: SRD-HomeSprite-dunsparce.png
+HomeSprite: SRD-dunsparce-HomeSprite.png
 Learnset: '[[SRD-Dunsparce-Learnset]]'
 Legendary: 'No'
 Name: Dunsparce
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dunsparce.png|right]]
+![[SRD-dunsparce-BookSprite.png|right wsmall]]
 
 *Land Snake Pokemon*
 *If seen, Dunsparce is quick to escape by boring into the ground with its drill tail. It can float slightly with its wings. It is almost blind but finds its way in the huge underground mazes where it lives.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Serene Grace|Serene Grace]] / [[SRD-Run Away|Run Away]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-dunsparce.png|right]]
+![[SRD-dunsparce-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-dunsparce-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

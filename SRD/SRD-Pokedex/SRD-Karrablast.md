@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: Shed Skin
 Baby: 'No'
-BookImageName: HOME588.png
-BookShinyImageName: HOME588_s.png
-BoxSprite: SRD-BoxSprite-karrablast.png
+BookSprite: SRD-karrablast-BookSprite.png
+BoxSprite: SRD-karrablast-BoxSprite.png
 DexCategory: Clamping Pokemon
 DexDescription: When they feel threatened, they spit an acidic liquid to drive attackers
   away. This Pokemon targets Shelmet as they compete for food. It only evolves when
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: No Guard
-HomeSprite: SRD-HomeSprite-karrablast.png
+HomeSprite: SRD-karrablast-HomeSprite.png
 Learnset: '[[SRD-Karrablast-Learnset]]'
 Legendary: 'No'
 Name: Karrablast
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-karrablast.png|right]]
+![[SRD-karrablast-BookSprite.png|right wsmall]]
 
 *Clamping Pokemon*
 *When they feel threatened, they spit an acidic liquid to drive attackers away. This Pokemon targets Shelmet as they compete for food. It only evolves when it has a Shelmet's shell as its new home.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Shed Skin|Shed Skin]] ([[SRD-No Guard|No Guard]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-karrablast.png|right]]
+![[SRD-karrablast-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-karrablast-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

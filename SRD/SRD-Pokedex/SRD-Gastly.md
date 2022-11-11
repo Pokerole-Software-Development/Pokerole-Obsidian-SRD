@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME092.png
-BookShinyImageName: HOME092_s.png
-BoxSprite: SRD-BoxSprite-gastly.png
+BookSprite: SRD-gastly-BookSprite.png
+BoxSprite: SRD-gastly-BoxSprite.png
 DexCategory: Gas Pokemon
 DexDescription: Its body is made of a toxic gas - anyone would faint if engulfed by
   it. It has been seen in abandoned places scaring people and other pokemon for fun.
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-gastly.png
+HomeSprite: SRD-gastly-HomeSprite.png
 Learnset: '[[SRD-Gastly-Learnset]]'
 Legendary: 'No'
 Name: Gastly
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gastly.png|right]]
+![[SRD-gastly-BookSprite.png|right wsmall]]
 
 *Gas Pokemon*
 *Its body is made of a toxic gas - anyone would faint if engulfed by it. It has been seen in abandoned places scaring people and other pokemon for fun. It is elusive and escapes through the walls.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-gastly.png|right]]
+![[SRD-gastly-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-gastly-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

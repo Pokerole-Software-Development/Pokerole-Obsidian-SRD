@@ -2,9 +2,8 @@
 Ability1: Big Pecks
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME661.png
-BookShinyImageName: HOME661_s.png
-BoxSprite: SRD-BoxSprite-fletchling.png
+BookSprite: SRD-fletchling-BookSprite.png
+BoxSprite: SRD-fletchling-BoxSprite.png
 DexCategory: Tiny Robin Pokemon
 DexDescription: These cute Pokemon send signals to one another with beautiful chirps
   and feather movements. But despite the beauty of its lilting voice it is merciless
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Gale Wings
-HomeSprite: SRD-HomeSprite-fletchling.png
+HomeSprite: SRD-fletchling-HomeSprite.png
 Learnset: '[[SRD-Fletchling-Learnset]]'
 Legendary: 'No'
 Name: Fletchling
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-fletchling.png|right]]
+![[SRD-fletchling-BookSprite.png|right wsmall]]
 
 *Tiny Robin Pokemon*
 *These cute Pokemon send signals to one another with beautiful chirps and feather movements. But despite the beauty of its lilting voice it is merciless to intruders that come close to its nest.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Big Pecks|Big Pecks]] ([[SRD-Gale Wings|Gale Wings]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-fletchling.png|right]]
+![[SRD-fletchling-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-fletchling-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

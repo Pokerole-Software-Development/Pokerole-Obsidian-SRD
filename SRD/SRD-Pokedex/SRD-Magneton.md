@@ -2,9 +2,8 @@
 Ability1: Magnet Pull
 Ability2: Sturdy
 Baby: 'No'
-BookImageName: HOME082.png
-BookShinyImageName: HOME082_s.png
-BoxSprite: SRD-BoxSprite-magneton.png
+BookSprite: SRD-magneton-BookSprite.png
+BoxSprite: SRD-magneton-BoxSprite.png
 DexCategory: Magnet Pokemon
 DexDescription: Sometimes three Magnemites fuse into this Pokemon; other times a single
   one sprouts two others. This species is greatly affected by magnetic fields. Magnetons
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Analytic
-HomeSprite: SRD-HomeSprite-magneton.png
+HomeSprite: SRD-magneton-HomeSprite.png
 Learnset: '[[SRD-Magneton-Learnset]]'
 Legendary: 'No'
 Name: Magneton
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-magneton.png|right]]
+![[SRD-magneton-BookSprite.png|right wsmall]]
 
 *Magnet Pokemon*
 *Sometimes three Magnemites fuse into this Pokemon; other times a single one sprouts two others. This species is greatly affected by magnetic fields. Magnetons are eager to please their trainers.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Magnet Pull|Magnet Pull]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-magneton.png|right]]
+![[SRD-magneton-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::6)     |
+
+![[SRD-magneton-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Suction Cups
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME346.png
-BookShinyImageName: HOME346_s.png
-BoxSprite: SRD-BoxSprite-cradily.png
+BookSprite: SRD-cradily-BookSprite.png
+BoxSprite: SRD-cradily-BoxSprite.png
 DexCategory: Barnacle Pokemon
 DexDescription: Cradily moves slowly at the bottom of the sea. It uses its body as
   an anchor and its tentacles as arms to catch prey. Their foes are melted with a
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Storm Drain
-HomeSprite: SRD-HomeSprite-cradily.png
+HomeSprite: SRD-cradily-HomeSprite.png
 Learnset: '[[SRD-Cradily-Learnset]]'
 Legendary: 'No'
 Name: Cradily
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cradily.png|right]]
+![[SRD-cradily-BookSprite.png|right wsmall]]
 
 *Barnacle Pokemon*
 *Cradily moves slowly at the bottom of the sea. It uses its body as an anchor and its tentacles as arms to catch prey. Their foes are melted with a potent acid before being consumed.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Suction Cups|Suction Cups]] ([[SRD-Storm Drain|Storm Drain]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-cradily.png|right]]
+![[SRD-cradily-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-cradily-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

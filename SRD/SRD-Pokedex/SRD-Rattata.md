@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Guts
 Baby: 'No'
-BookImageName: HOME019.png
-BookShinyImageName: HOME019_s.png
-BoxSprite: SRD-BoxSprite-rattata.png
+BookSprite: SRD-rattata-BookSprite.png
+BoxSprite: SRD-rattata-BoxSprite.png
 DexCategory: Mouse Pokemon
 DexDescription: It can live anywhere it can find food, but they are often in cities
   and fields. They form large families in their burrows. Since they are often preyed
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Hustle
-HomeSprite: SRD-HomeSprite-rattata.png
+HomeSprite: SRD-rattata-HomeSprite.png
 Learnset: '[[SRD-Rattata-Learnset]]'
 Legendary: 'No'
 Name: Rattata
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rattata.png|right]]
+![[SRD-rattata-BookSprite.png|right wsmall]]
 
 *Mouse Pokemon*
 *It can live anywhere it can find food, but they are often in cities and fields. They form large families in their burrows. Since they are often preyed on, Rattatas are always alert and quick to flee.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Guts|Guts]] ([[SRD-Hustle|Hustle]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-rattata.png|right]]
+![[SRD-rattata-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-rattata-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

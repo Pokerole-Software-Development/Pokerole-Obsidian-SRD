@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: Sap Sipper
 Baby: 'No'
-BookImageName: HOME585.png
-BookShinyImageName: HOME585_s.png
-BoxSprite: SRD-BoxSprite-deerling.png
+BookSprite: SRD-deerling-BookSprite.png
+BoxSprite: SRD-deerling-BoxSprite.png
 DexCategory: Season Pokemon
 DexDescription: They are born at the beginning of the spring. Their coloring changes
   according to the season and can be affected by temperature as well. It usually stays
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Serene Grace
-HomeSprite: SRD-HomeSprite-deerling.png
+HomeSprite: SRD-deerling-HomeSprite.png
 Learnset: '[[SRD-Deerling-Learnset]]'
 Legendary: 'No'
 Name: Deerling
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-deerling.png|right]]
+![[SRD-deerling-BookSprite.png|right wsmall]]
 
 *Season Pokemon*
 *They are born at the beginning of the spring. Their coloring changes according to the season and can be affected by temperature as well. It usually stays hidden in tall grass while its mother is away.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Sap Sipper|Sap Sipper]] ([[SRD-Serene Grace|Serene Grace]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-deerling.png|right]]
+![[SRD-deerling-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-deerling-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

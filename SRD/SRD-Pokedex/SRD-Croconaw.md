@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME159.png
-BookShinyImageName: HOME159_s.png
-BoxSprite: SRD-BoxSprite-croconaw.png
+BookSprite: SRD-croconaw-BookSprite.png
+BoxSprite: SRD-croconaw-BoxSprite.png
 DexCategory: Big Jaw Pokemon
 DexDescription: "This Pokemon is really tenacious. Once it bites something it won\u2019\
   t let go until it tears it down - even if its trainer is ordering to let go. If\
@@ -18,7 +17,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-croconaw.png
+HomeSprite: SRD-croconaw-HomeSprite.png
 Learnset: '[[SRD-Croconaw-Learnset]]'
 Legendary: 'No'
 Name: Croconaw
@@ -38,7 +37,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-croconaw.png|right]]
+![[SRD-croconaw-BookSprite.png|right wsmall]]
 
 *Big Jaw Pokemon*
 *This Pokemon is really tenacious. Once it bites something it won’t let go until it tears it down - even if its trainer is ordering to let go. If it loses any of it’s fangs, they’ll regrow in a few days. It’s a very wild Pokemon.*
@@ -49,7 +48,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-croconaw.png|right]]
+![[SRD-croconaw-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -58,6 +57,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-croconaw-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

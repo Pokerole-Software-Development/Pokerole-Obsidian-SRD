@@ -2,9 +2,8 @@
 Ability1: Rock Head
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME371.png
-BookShinyImageName: HOME371_s.png
-BoxSprite: SRD-BoxSprite-bagon.png
+BookSprite: SRD-bagon-BookSprite.png
+BoxSprite: SRD-bagon-BoxSprite.png
 DexCategory: Rock Head Pokemon
 DexDescription: Bagons dream of soaring the sky. This leads to a lot of frustration
   that makes them dive off cliffs in an attempt to fly. Their head is tough enough
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-bagon.png
+HomeSprite: SRD-bagon-HomeSprite.png
 Learnset: '[[SRD-Bagon-Learnset]]'
 Legendary: 'No'
 Name: Bagon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-bagon.png|right]]
+![[SRD-bagon-BookSprite.png|right wsmall]]
 
 *Rock Head Pokemon*
 *Bagons dream of soaring the sky. This leads to a lot of frustration that makes them dive off cliffs in an attempt to fly. Their head is tough enough to survive the fall. They are very ill tempered and violent.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rock Head|Rock Head]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-bagon.png|right]]
+![[SRD-bagon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-bagon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

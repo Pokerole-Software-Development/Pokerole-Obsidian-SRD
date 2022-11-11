@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME102.png
-BookShinyImageName: HOME102_s.png
-BoxSprite: SRD-BoxSprite-exeggcute.png
+BookSprite: SRD-exeggcute-BookSprite.png
+BoxSprite: SRD-exeggcute-BoxSprite.png
 DexCategory: Egg Pokemon
 DexDescription: Even though it appears to be eggs of some sort, it is related more
   to a seed. It gathers in packs of six that have a mental link with each other. Each
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Harvest
-HomeSprite: SRD-HomeSprite-exeggcute.png
+HomeSprite: SRD-exeggcute-HomeSprite.png
 Learnset: '[[SRD-Exeggcute-Learnset]]'
 Legendary: 'No'
 Name: Exeggcute
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-exeggcute.png|right]]
+![[SRD-exeggcute-BookSprite.png|right wsmall]]
 
 *Egg Pokemon*
 *Even though it appears to be eggs of some sort, it is related more to a seed. It gathers in packs of six that have a mental link with each other. Each one of them has a different personality.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Harvest|Harvest]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-exeggcute.png|right]]
+![[SRD-exeggcute-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-exeggcute-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

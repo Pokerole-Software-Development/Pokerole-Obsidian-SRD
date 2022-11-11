@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: Leaf Guard
 Baby: 'No'
-BookImageName: HOME188.png
-BookShinyImageName: HOME188_s.png
-BoxSprite: SRD-BoxSprite-skiploom.png
+BookSprite: SRD-skiploom-BookSprite.png
+BoxSprite: SRD-skiploom-BoxSprite.png
 DexCategory: Cottonweed Pokemon
 DexDescription: It blooms when the weather is warm. If the weather gets cold, the
   bloom will close and it will stop flying. This is not an aggressive Pokemon but
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Infiltrator
-HomeSprite: SRD-HomeSprite-skiploom.png
+HomeSprite: SRD-skiploom-HomeSprite.png
 Learnset: '[[SRD-Skiploom-Learnset]]'
 Legendary: 'No'
 Name: Skiploom
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-skiploom.png|right]]
+![[SRD-skiploom-BookSprite.png|right wsmall]]
 
 *Cottonweed Pokemon*
 *It blooms when the weather is warm. If the weather gets cold, the bloom will close and it will stop flying. This is not an aggressive Pokemon but it can cause allergies if it floats directly above you.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Leaf Guard|Leaf Guard]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-skiploom.png|right]]
+![[SRD-skiploom-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-skiploom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

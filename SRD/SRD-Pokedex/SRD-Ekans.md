@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: Shed Skin
 Baby: 'No'
-BookImageName: HOME023.png
-BookShinyImageName: HOME023_s.png
-BoxSprite: SRD-BoxSprite-ekans.png
+BookSprite: SRD-ekans-BookSprite.png
+BoxSprite: SRD-ekans-BoxSprite.png
 DexCategory: Snake Pokemon
 DexDescription: "Lives on grasslands. Preys on Rattatas and Pokemon Eggs it finds.\
   \ It\u2019s jaw can detach itself to swallow any prey whole. It coils and sleeps\
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Unnerve
-HomeSprite: SRD-HomeSprite-ekans.png
+HomeSprite: SRD-ekans-HomeSprite.png
 Learnset: '[[SRD-Ekans-Learnset]]'
 Legendary: 'No'
 Name: Ekans
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ekans.png|right]]
+![[SRD-ekans-BookSprite.png|right wsmall]]
 
 *Snake Pokemon*
 *Lives on grasslands. Preys on Rattatas and Pokemon Eggs it finds. It’s jaw can detach itself to swallow any prey whole. It coils and sleeps after eating. Ekans grow bigger with age.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Shed Skin|Shed Skin]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-ekans.png|right]]
+![[SRD-ekans-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-ekans-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

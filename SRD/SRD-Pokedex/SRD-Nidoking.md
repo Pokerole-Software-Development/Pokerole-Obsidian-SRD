@@ -2,9 +2,8 @@
 Ability1: Poison Point
 Ability2: Rivalry
 Baby: 'No'
-BookImageName: HOME034.png
-BookShinyImageName: HOME034_s.png
-BoxSprite: SRD-BoxSprite-nidoking.png
+BookSprite: SRD-nidoking-BookSprite.png
+BoxSprite: SRD-nidoking-BoxSprite.png
 DexCategory: Drill Pokemon
 DexDescription: It is recognized by its rock-hard hide and its extended horn. Be careful
   with the horn as it contains venom. There are records of one trampling and destroying
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-nidoking.png
+HomeSprite: SRD-nidoking-HomeSprite.png
 Learnset: '[[SRD-Nidoking-Learnset]]'
 Legendary: 'No'
 Name: Nidoking
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-nidoking.png|right]]
+![[SRD-nidoking-BookSprite.png|right wsmall]]
 
 *Drill Pokemon*
 *It is recognized by its rock-hard hide and its extended horn. Be careful with the horn as it contains venom. There are records of one trampling and destroying a radio tower that was being built on his territory.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Rivalry|Rivalry]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-nidoking.png|right]]
+![[SRD-nidoking-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-nidoking-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

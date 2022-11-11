@@ -2,9 +2,8 @@
 Ability1: Beast Boost
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME805.png
-BookShinyImageName: HOME805_s.png
-BoxSprite: SRD-BoxSprite-stakataka.png
+BookSprite: SRD-stakataka-BookSprite.png
+BoxSprite: SRD-stakataka-BoxSprite.png
 DexCategory: 'Aether Foundation Log #132'
 DexDescription: We are finally on the other side. It has been so exciting. What we
   thought were the ruins of an abandoned civilization turned out to be small sentient
@@ -17,7 +16,7 @@ Height:
   Feet: 18.0
   Meters: 5.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-stakataka.png
+HomeSprite: SRD-stakataka-HomeSprite.png
 Learnset: '[[SRD-Stakataka-Learnset]]'
 Legendary: 'Yes'
 Name: Stakataka
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-stakataka.png|right]]
+![[SRD-stakataka-BookSprite.png|right wsmall]]
 
 *Aether Foundation Log #132*
 *We are finally on the other side. It has been so exciting. What we thought were the ruins of an abandoned civilization turned out to be small sentient creatures that stacked on each other to create a big UB.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-stakataka.png|right]]
+![[SRD-stakataka-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::10)/(MaxVitality::10)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-stakataka-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

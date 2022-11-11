@@ -2,9 +2,8 @@
 Ability1: Magnet Pull
 Ability2: Sturdy
 Baby: 'No'
-BookImageName: HOME074A.png
-BookShinyImageName: HOME074A_s.png
-BoxSprite: SRD-BoxSprite-geodude-alola.png
+BookSprite: SRD-geodude-alola-BookSprite.png
+BoxSprite: SRD-geodude-alola-BoxSprite.png
 DexCategory: Rock Pokemon
 DexDescription: "The magnetic fields on Alola\u2019s Blush Mountain made Geodude develop\
   \ Electric chargers on its body. They tend to disguise themselves as regular rocks,\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Galvanize
-HomeSprite: SRD-HomeSprite-geodude-alola.png
+HomeSprite: SRD-geodude-alola-HomeSprite.png
 Learnset: '[[SRD-Alolan Geodude-Learnset]]'
 Legendary: 'No'
 Name: Alolan Geodude
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-geodude-alola.png|right]]
+![[SRD-geodude-alola-BookSprite.png|right wsmall]]
 
 *Rock Pokemon*
 *The magnetic fields on Alola’s Blush Mountain made Geodude develop Electric chargers on its body. They tend to disguise themselves as regular rocks, caution is advised as they shock you if you step on them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Magnet Pull|Magnet Pull]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Galvanize|Galvanize]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-geodude-alola.png|right]]
+![[SRD-geodude-alola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-geodude-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

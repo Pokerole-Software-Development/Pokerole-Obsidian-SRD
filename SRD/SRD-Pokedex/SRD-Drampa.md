@@ -2,9 +2,8 @@
 Ability1: Berserk
 Ability2: Sap Sipper
 Baby: 'No'
-BookImageName: HOME780.png
-BookShinyImageName: HOME780_s.png
-BoxSprite: SRD-BoxSprite-drampa.png
+BookSprite: SRD-drampa-BookSprite.png
+BoxSprite: SRD-drampa-BoxSprite.png
 DexCategory: Placid Pokemon
 DexDescription: They live alone at the top of high mountains but come down in the
   morning to eat berries. It is a caring Pokemon, specially towards children and will
@@ -17,7 +16,7 @@ Height:
   Feet: 9.8
   Meters: 3.0
 HiddenAbility: Cloud Nine
-HomeSprite: SRD-HomeSprite-drampa.png
+HomeSprite: SRD-drampa-HomeSprite.png
 Learnset: '[[SRD-Drampa-Learnset]]'
 Legendary: 'No'
 Name: Drampa
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-drampa.png|right]]
+![[SRD-drampa-BookSprite.png|right wsmall]]
 
 *Placid Pokemon*
 *They live alone at the top of high mountains but come down in the morning to eat berries. It is a caring Pokemon, specially towards children and will fiercely protect any children it cares for with tremendous force.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Berserk|Berserk]] / [[SRD-Sap Sipper|Sap Sipper]] ([[SRD-Cloud Nine|Cloud Nine]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-drampa.png|right]]
+![[SRD-drampa-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-drampa-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

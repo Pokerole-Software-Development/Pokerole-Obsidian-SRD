@@ -2,9 +2,8 @@
 Ability1: Liquid Ooze
 Ability2: Sticky Hold
 Baby: 'No'
-BookImageName: HOME316.png
-BookShinyImageName: HOME316_s.png
-BoxSprite: SRD-BoxSprite-gulpin.png
+BookSprite: SRD-gulpin-BookSprite.png
+BoxSprite: SRD-gulpin-BoxSprite.png
 DexCategory: Stomach Pokemon
 DexDescription: Gulpin's body is a huge stomach capable of swallowing anything of
   their size. Their fluids can corrode metal. This Pokemon releases hideous and vile
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Gluttony
-HomeSprite: SRD-HomeSprite-gulpin.png
+HomeSprite: SRD-gulpin-HomeSprite.png
 Learnset: '[[SRD-Gulpin-Learnset]]'
 Legendary: 'No'
 Name: Gulpin
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gulpin.png|right]]
+![[SRD-gulpin-BookSprite.png|right wsmall]]
 
 *Stomach Pokemon*
 *Gulpin's body is a huge stomach capable of swallowing anything of their size. Their fluids can corrode metal. This Pokemon releases hideous and vile gases while it digests its food.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Liquid Ooze|Liquid Ooze]] / [[SRD-Sticky Hold|Sticky Hold]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-gulpin.png|right]]
+![[SRD-gulpin-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-gulpin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

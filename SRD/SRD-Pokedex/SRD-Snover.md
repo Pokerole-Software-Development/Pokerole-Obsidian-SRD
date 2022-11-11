@@ -2,9 +2,8 @@
 Ability1: Snow Warning
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME459.png
-BookShinyImageName: HOME459_s.png
-BoxSprite: SRD-BoxSprite-snover.png
+BookSprite: SRD-snover-BookSprite.png
+BoxSprite: SRD-snover-BoxSprite.png
 DexCategory: Frosted Tree Pokemon
 DexDescription: "During cold seasons, it migrates to the mountain\u2019s lower reaches\
   \ and returns to the summit in the spring. They are rarely in contact with humans\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Soundproof
-HomeSprite: SRD-HomeSprite-snover.png
+HomeSprite: SRD-snover-HomeSprite.png
 Learnset: '[[SRD-Snover-Learnset]]'
 Legendary: 'No'
 Name: Snover
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-snover.png|right]]
+![[SRD-snover-BookSprite.png|right wsmall]]
 
 *Frosted Tree Pokemon*
 *During cold seasons, it migrates to the mountain’s lower reaches and returns to the summit in the spring. They are rarely in contact with humans but are sought for the frozen berries they grow.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Snow Warning|Snow Warning]] ([[SRD-Soundproof|Soundproof]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-snover.png|right]]
+![[SRD-snover-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-snover-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

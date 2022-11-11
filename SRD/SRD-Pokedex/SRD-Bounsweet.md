@@ -2,9 +2,8 @@
 Ability1: Leaf Guard
 Ability2: Oblivious
 Baby: 'No'
-BookImageName: HOME761.png
-BookShinyImageName: HOME761_s.png
-BoxSprite: SRD-BoxSprite-bounsweet.png
+BookSprite: SRD-bounsweet-BookSprite.png
+BoxSprite: SRD-bounsweet-BoxSprite.png
 DexCategory: Fruit Pokemon
 DexDescription: "This happy-go-lucky Pokemon produces a delicious aroma that unfortunately\
   \ attracts predators to it, when it escapes, it looks as if it\u2019s happily skipping\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Sweet Veil
-HomeSprite: SRD-HomeSprite-bounsweet.png
+HomeSprite: SRD-bounsweet-HomeSprite.png
 Learnset: '[[SRD-Bounsweet-Learnset]]'
 Legendary: 'No'
 Name: Bounsweet
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-bounsweet.png|right]]
+![[SRD-bounsweet-BookSprite.png|right wsmall]]
 
 *Fruit Pokemon*
 *This happy-go-lucky Pokemon produces a delicious aroma that unfortunately attracts predators to it, when it escapes, it looks as if it’s happily skipping around so it rarely gets help.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Leaf Guard|Leaf Guard]] / [[SRD-Oblivious|Oblivious]] ([[SRD-Sweet Veil|Sweet Veil]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-bounsweet.png|right]]
+![[SRD-bounsweet-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-bounsweet-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

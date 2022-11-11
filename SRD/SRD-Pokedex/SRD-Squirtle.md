@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME007.png
-BookShinyImageName: HOME007_s.png
-BoxSprite: SRD-BoxSprite-squirtle.png
+BookSprite: SRD-squirtle-BookSprite.png
+BoxSprite: SRD-squirtle-BoxSprite.png
 DexCategory: Tiny turtle Pokemon
 DexDescription: "It is scarce in the wild. The shell is not just for protection -\
   \ it also helps to minimize resistance in water enabling Squirtle to swim at high\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Rain Dish
-HomeSprite: SRD-HomeSprite-squirtle.png
+HomeSprite: SRD-squirtle-HomeSprite.png
 Learnset: '[[SRD-Squirtle-Learnset]]'
 Legendary: 'No'
 Name: Squirtle
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-squirtle.png|right]]
+![[SRD-squirtle-BookSprite.png|right wsmall]]
 
 *Tiny turtle Pokemon*
 *It is scarce in the wild. The shell is not just for protection - it also helps to minimize resistance in water enabling Squirtle to swim at high speeds. It’s usually a calm and easy going Pokemon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Rain Dish|Rain Dish]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-squirtle.png|right]]
+![[SRD-squirtle-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-squirtle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

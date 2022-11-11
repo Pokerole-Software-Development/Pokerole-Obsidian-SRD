@@ -2,9 +2,8 @@
 Ability1: Wonder Guard
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME292.png
-BookShinyImageName: HOME292_s.png
-BoxSprite: SRD-BoxSprite-shedinja.png
+BookSprite: SRD-shedinja-BookSprite.png
+BoxSprite: SRD-shedinja-BoxSprite.png
 DexCategory: Shed Pokemon
 DexDescription: "On extremely rare occasions; when Nincada evolves, the empty cocoon\
   \ comes to life. They don\u2019t move, they only float unnaturally around. It is\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-shedinja.png
+HomeSprite: SRD-shedinja-HomeSprite.png
 Learnset: '[[SRD-Shedinja-Learnset]]'
 Legendary: 'No'
 Name: Shedinja
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-shedinja.png|right]]
+![[SRD-shedinja-BookSprite.png|right wsmall]]
 
 *Shed Pokemon*
 *On extremely rare occasions; when Nincada evolves, the empty cocoon comes to life. They don’t move, they only float unnaturally around. It is said that it will steal the soul of anyone looking directly at them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Wonder Guard|Wonder Guard]]
 **Base HP**:: 1
 
-![[SRD-BoxSprite-shedinja.png|right]]
+![[SRD-shedinja-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-shedinja-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

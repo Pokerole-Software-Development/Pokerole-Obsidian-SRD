@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME243.png
-BookShinyImageName: HOME243_s.png
-BoxSprite: SRD-BoxSprite-raikou.png
+BookSprite: SRD-raikou-BookSprite.png
+BoxSprite: SRD-raikou-BoxSprite.png
 DexCategory: No Data
 DexDescription: Johto Legends tell about a Pokemon born from lightning, with barks
   like crashing thunder, soaring the lands, sending resounding shock-waves as it walks.
@@ -16,7 +15,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Inner Focus
-HomeSprite: SRD-HomeSprite-raikou.png
+HomeSprite: SRD-raikou-HomeSprite.png
 Learnset: '[[SRD-Raikou-Learnset]]'
 Legendary: 'Yes'
 Name: Raikou
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-raikou.png|right]]
+![[SRD-raikou-BookSprite.png|right wsmall]]
 
 *No Data*
 *Johto Legends tell about a Pokemon born from lightning, with barks like crashing thunder, soaring the lands, sending resounding shock-waves as it walks.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-raikou.png|right]]
+![[SRD-raikou-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-raikou-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

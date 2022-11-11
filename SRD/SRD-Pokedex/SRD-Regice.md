@@ -2,9 +2,8 @@
 Ability1: Clear Body
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME378.png
-BookShinyImageName: HOME378_s.png
-BoxSprite: SRD-BoxSprite-regice.png
+BookSprite: SRD-regice-BookSprite.png
+BoxSprite: SRD-regice-BoxSprite.png
 DexCategory: No Data
 DexDescription: "It is said to be indistinguishable from a gigantic iceberg. Its myth\
   \ says its body can\u2019t be melted even if submerged in magma. Regice could freeze\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Ice Body
-HomeSprite: SRD-HomeSprite-regice.png
+HomeSprite: SRD-regice-HomeSprite.png
 Learnset: '[[SRD-Regice-Learnset]]'
 Legendary: 'Yes'
 Name: Regice
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-regice.png|right]]
+![[SRD-regice-BookSprite.png|right wsmall]]
 
 *No Data*
 *It is said to be indistinguishable from a gigantic iceberg. Its myth says its body can’t be melted even if submerged in magma. Regice could freeze the air to bring a new ice age.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Clear Body|Clear Body]] ([[SRD-Ice Body|Ice Body]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-regice.png|right]]
+![[SRD-regice-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::10)/(MaxInsight::10)     |
+
+![[SRD-regice-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

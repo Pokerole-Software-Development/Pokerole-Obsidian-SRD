@@ -2,9 +2,8 @@
 Ability1: No Guard
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME018M.png
-BookShinyImageName: HOME018M_s.png
-BoxSprite: SRD-BoxSprite-pidgeot-mega.png
+BookSprite: SRD-pidgeot-mega-BookSprite.png
+BoxSprite: SRD-pidgeot-mega-BoxSprite.png
 DexCategory: Bird Pokemon
 DexDescription: "With the power of the Mega Stone Pidgeot's flying becomes a blurred\
   \ red stripe in the sky. It won\u2019t stop soaring the skies while in this state\
@@ -17,7 +16,7 @@ Height:
   Feet: 7.2
   Meters: 2.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-pidgeot-mega.png
+HomeSprite: SRD-pidgeot-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Pidgeot-Learnset]]'
 Legendary: 'No'
 Name: Mega-Pidgeot
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pidgeot-mega.png|right]]
+![[SRD-pidgeot-mega-BookSprite.png|right wsmall]]
 
 *Bird Pokemon*
 *With the power of the Mega Stone Pidgeot's flying becomes a blurred red stripe in the sky. It won’t stop soaring the skies while in this state without tiring or needing to rest for many days at a time.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-No Guard|No Guard]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-pidgeot-mega.png|right]]
+![[SRD-pidgeot-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-pidgeot-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

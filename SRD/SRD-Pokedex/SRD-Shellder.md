@@ -2,9 +2,8 @@
 Ability1: Shell Armor
 Ability2: Skill Link
 Baby: 'No'
-BookImageName: HOME090.png
-BookShinyImageName: HOME090_s.png
-BoxSprite: SRD-BoxSprite-shellder.png
+BookSprite: SRD-shellder-BookSprite.png
+BoxSprite: SRD-shellder-BoxSprite.png
 DexCategory: Bivalve Pokemon
 DexDescription: "It lives at the bottom of the sea and rivers. It feeds on algae but\
   \ it\u2019s attracted to sweet substances. When frightened it will shut its clam\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Overcoat
-HomeSprite: SRD-HomeSprite-shellder.png
+HomeSprite: SRD-shellder-HomeSprite.png
 Learnset: '[[SRD-Shellder-Learnset]]'
 Legendary: 'No'
 Name: Shellder
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-shellder.png|right]]
+![[SRD-shellder-BookSprite.png|right wsmall]]
 
 *Bivalve Pokemon*
 *It lives at the bottom of the sea and rivers. It feeds on algae but it’s attracted to sweet substances. When frightened it will shut its clam and lock it to be almost impossible to open.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shell Armor|Shell Armor]] / [[SRD-Skill Link|Skill Link]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-shellder.png|right]]
+![[SRD-shellder-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-shellder-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

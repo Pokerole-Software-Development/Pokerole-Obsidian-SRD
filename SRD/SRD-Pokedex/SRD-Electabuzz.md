@@ -2,9 +2,8 @@
 Ability1: Static
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME125.png
-BookShinyImageName: HOME125_s.png
-BoxSprite: SRD-BoxSprite-electabuzz.png
+BookSprite: SRD-electabuzz-BookSprite.png
+BoxSprite: SRD-electabuzz-BoxSprite.png
 DexCategory: Electric Pokemon
 DexDescription: "A violent Pokemon. It searches for spots where it can feed on electricity\
   \ and has been seen absorbing lightning from the sky. It\u2019s competitive and\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Vital Spirit
-HomeSprite: SRD-HomeSprite-electabuzz.png
+HomeSprite: SRD-electabuzz-HomeSprite.png
 Learnset: '[[SRD-Electabuzz-Learnset]]'
 Legendary: 'No'
 Name: Electabuzz
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-electabuzz.png|right]]
+![[SRD-electabuzz-BookSprite.png|right wsmall]]
 
 *Electric Pokemon*
 *A violent Pokemon. It searches for spots where it can feed on electricity and has been seen absorbing lightning from the sky. It’s competitive and aggressive with others.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Static|Static]] ([[SRD-Vital Spirit|Vital Spirit]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-electabuzz.png|right]]
+![[SRD-electabuzz-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-electabuzz-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Punk Rock
 Ability2: Plus
 Baby: 'No'
-BookImageName: HOME849.png
-BookShinyImageName: HOME849_s.png
-BoxSprite: SRD-BoxSprite-toxtricity.png
+BookSprite: SRD-toxtricity-BookSprite.png
+BoxSprite: SRD-toxtricity-BoxSprite.png
 DexCategory: Punk Pokemon
 DexDescription: "Commonly called \u201CAmped Form\u201D, its nature determines its\
   \ evolution, If a Toxel is extroverted it will evolve to be a short-tempered Toxtricity.\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Technician
-HomeSprite: SRD-HomeSprite-toxtricity.png
+HomeSprite: SRD-toxtricity-HomeSprite.png
 Learnset: '[[SRD-Toxtricity Amped-Learnset]]'
 Legendary: 'No'
 Name: Toxtricity Amped
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-toxtricity.png|right]]
+![[SRD-toxtricity-BookSprite.png|right wsmall]]
 
 *Punk Pokemon*
 *Commonly called “Amped Form”, its nature determines its evolution, If a Toxel is extroverted it will evolve to be a short-tempered Toxtricity. They emit high pitched sounds and let out powerful discharges to provoke others.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Punk Rock|Punk Rock]] / [[SRD-Plus|Plus]] ([[SRD-Technician|Technician]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-toxtricity.png|right]]
+![[SRD-toxtricity-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-toxtricity-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

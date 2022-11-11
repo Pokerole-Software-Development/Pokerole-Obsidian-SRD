@@ -2,9 +2,8 @@
 Ability1: Compound Eyes
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME290.png
-BookShinyImageName: HOME290_s.png
-BoxSprite: SRD-BoxSprite-nincada.png
+BookSprite: SRD-nincada-BookSprite.png
+BoxSprite: SRD-nincada-BoxSprite.png
 DexCategory: Trainee Pokemon
 DexDescription: They live underground for decades, absorbing nutrients from roots
   and waiting for evolution. Nincadas are nearly blind and cannot stand bright lights.
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Run Away
-HomeSprite: SRD-HomeSprite-nincada.png
+HomeSprite: SRD-nincada-HomeSprite.png
 Learnset: '[[SRD-Nincada-Learnset]]'
 Legendary: 'No'
 Name: Nincada
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-nincada.png|right]]
+![[SRD-nincada-BookSprite.png|right wsmall]]
 
 *Trainee Pokemon*
 *They live underground for decades, absorbing nutrients from roots and waiting for evolution. Nincadas are nearly blind and cannot stand bright lights. They only come out to make a cocoon to evolve.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Compound Eyes|Compound Eyes]] ([[SRD-Run Away|Run Away]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-nincada.png|right]]
+![[SRD-nincada-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-nincada-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

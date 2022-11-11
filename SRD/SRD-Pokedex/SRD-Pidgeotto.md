@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Tangled Feet
 Baby: 'No'
-BookImageName: HOME017.png
-BookShinyImageName: HOME017_s.png
-BoxSprite: SRD-BoxSprite-pidgeotto.png
+BookSprite: SRD-pidgeotto-BookSprite.png
+BoxSprite: SRD-pidgeotto-BoxSprite.png
 DexCategory: Bird Pokemon
 DexDescription: Each Pidgeotto claims a large meadow area as its territory. This Pokemon
   flies around, patrolling its home and will attack any intruders with its sharp claws.
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Big Pecks
-HomeSprite: SRD-HomeSprite-pidgeotto.png
+HomeSprite: SRD-pidgeotto-HomeSprite.png
 Learnset: '[[SRD-Pidgeotto-Learnset]]'
 Legendary: 'No'
 Name: Pidgeotto
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pidgeotto.png|right]]
+![[SRD-pidgeotto-BookSprite.png|right wsmall]]
 
 *Bird Pokemon*
 *Each Pidgeotto claims a large meadow area as its territory. This Pokemon flies around, patrolling its home and will attack any intruders with its sharp claws. It will challenge itself to fly a bit higher every day.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Tangled Feet|Tangled Feet]] ([[SRD-Big Pecks|Big Pecks]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-pidgeotto.png|right]]
+![[SRD-pidgeotto-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-pidgeotto-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

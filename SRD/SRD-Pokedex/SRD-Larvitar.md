@@ -2,9 +2,8 @@
 Ability1: Guts
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME246.png
-BookShinyImageName: HOME246_s.png
-BoxSprite: SRD-BoxSprite-larvitar.png
+BookSprite: SRD-larvitar-BookSprite.png
+BoxSprite: SRD-larvitar-BoxSprite.png
 DexCategory: Rock Skin Pokemon
 DexDescription: "Born deep underground, they don\u2019t emerge until they\u2019ve\
   \ eaten a whole mountain of soil. Only the strongest and more ferocious ever come\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Sand Veil
-HomeSprite: SRD-HomeSprite-larvitar.png
+HomeSprite: SRD-larvitar-HomeSprite.png
 Learnset: '[[SRD-Larvitar-Learnset]]'
 Legendary: 'No'
 Name: Larvitar
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-larvitar.png|right]]
+![[SRD-larvitar-BookSprite.png|right wsmall]]
 
 *Rock Skin Pokemon*
 *Born deep underground, they don’t emerge until they’ve eaten a whole mountain of soil. Only the strongest and more ferocious ever come out to roam about. They hate being disturbed.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Guts|Guts]] ([[SRD-Sand Veil|Sand Veil]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-larvitar.png|right]]
+![[SRD-larvitar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-larvitar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

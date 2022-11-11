@@ -2,9 +2,8 @@
 Ability1: Oblivious
 Ability2: Own Tempo
 Baby: 'No'
-BookImageName: HOME079.png
-BookShinyImageName: HOME079_s.png
-BoxSprite: SRD-BoxSprite-slowpoke.png
+BookSprite: SRD-slowpoke-BookSprite.png
+BoxSprite: SRD-slowpoke-BoxSprite.png
 DexCategory: Dopey Pokemon
 DexDescription: "It lives close to water. This Pokemon has a low intellect, and it\u2019\
   s slow to react to any stimuli. Its tail seeps a sweet substance it uses to lure\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-slowpoke.png
+HomeSprite: SRD-slowpoke-HomeSprite.png
 Learnset: '[[SRD-Slowpoke-Learnset]]'
 Legendary: 'No'
 Name: Slowpoke
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-slowpoke.png|right]]
+![[SRD-slowpoke-BookSprite.png|right wsmall]]
 
 *Dopey Pokemon*
 *It lives close to water. This Pokemon has a low intellect, and it’s slow to react to any stimuli. Its tail seeps a sweet substance it uses to lure prey to eat. When the tip turns white shellders will be attracted to it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-slowpoke.png|right]]
+![[SRD-slowpoke-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-slowpoke-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

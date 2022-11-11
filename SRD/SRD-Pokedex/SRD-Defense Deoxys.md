@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME386D.png
-BookShinyImageName: HOME386D_s.png
-BoxSprite: SRD-BoxSprite-deoxys-defense.png
+BookSprite: SRD-deoxys-defense-BookSprite.png
+BoxSprite: SRD-deoxys-defense-BoxSprite.png
 DexCategory: No Data
 DexDescription: "One member of the space crew mentioned a broad creature that could\
   \ reflect their weapon\u2019s attacks back at them. There was an explosion and the\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-deoxys-defense.png
+HomeSprite: SRD-deoxys-defense-HomeSprite.png
 Learnset: '[[SRD-Defense Deoxys-Learnset]]'
 Legendary: 'Yes'
 Name: Defense Deoxys
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-deoxys-defense.png|right]]
+![[SRD-deoxys-defense-BookSprite.png|right wsmall]]
 
 *No Data*
 *One member of the space crew mentioned a broad creature that could reflect their weapon’s attacks back at them. There was an explosion and the creature left, unscathed.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-deoxys-defense.png|right]]
+![[SRD-deoxys-defense-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::9)/(MaxVitality::9)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::9)/(MaxInsight::9)     |
+
+![[SRD-deoxys-defense-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

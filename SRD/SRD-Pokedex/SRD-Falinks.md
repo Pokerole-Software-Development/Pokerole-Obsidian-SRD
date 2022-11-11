@@ -2,9 +2,8 @@
 Ability1: Battle Armor
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME870.png
-BookShinyImageName: HOME870_s.png
-BoxSprite: SRD-BoxSprite-falinks.png
+BookSprite: SRD-falinks-BookSprite.png
+BoxSprite: SRD-falinks-BoxSprite.png
 DexCategory: Formation Pokemon
 DexDescription: "It is formed by six of them, five are troopers, and one is the brass.\
   \ The brass\u2019s orders are absolute to the others, they work as a perfect team\
@@ -17,7 +16,7 @@ Height:
   Feet: 9.8
   Meters: 3.0
 HiddenAbility: Defiant
-HomeSprite: SRD-HomeSprite-falinks.png
+HomeSprite: SRD-falinks-HomeSprite.png
 Learnset: '[[SRD-Falinks-Learnset]]'
 Legendary: 'No'
 Name: Falinks
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-falinks.png|right]]
+![[SRD-falinks-BookSprite.png|right wsmall]]
 
 *Formation Pokemon*
 *It is formed by six of them, five are troopers, and one is the brass. The brass’s orders are absolute to the others, they work as a perfect team and can rearrange their formation to better suit them in battle.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Battle Armor|Battle Armor]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-falinks.png|right]]
+![[SRD-falinks-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-falinks-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

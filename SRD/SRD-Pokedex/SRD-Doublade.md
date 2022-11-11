@@ -2,9 +2,8 @@
 Ability1: No Guard
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME680.png
-BookShinyImageName: HOME680_s.png
-BoxSprite: SRD-BoxSprite-doublade.png
+BookSprite: SRD-doublade-BookSprite.png
+BoxSprite: SRD-doublade-BoxSprite.png
 DexCategory: Sword Pokemon
 DexDescription: Both swords share a telepathic link to coordinate attacks and slash
   their enemies to shreds. They feed on the rage of their wielder and promise to make
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-doublade.png
+HomeSprite: SRD-doublade-HomeSprite.png
 Learnset: '[[SRD-Doublade-Learnset]]'
 Legendary: 'No'
 Name: Doublade
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-doublade.png|right]]
+![[SRD-doublade-BookSprite.png|right wsmall]]
 
 *Sword Pokemon*
 *Both swords share a telepathic link to coordinate attacks and slash their enemies to shreds. They feed on the rage of their wielder and promise to make him unbeatable at the cost of his flesh and soul.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-No Guard|No Guard]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-doublade.png|right]]
+![[SRD-doublade-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::4)/(MaxVitality::8)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-doublade-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: Run Away
 Baby: 'No'
-BookImageName: HOME209.png
-BookShinyImageName: HOME209_s.png
-BoxSprite: SRD-BoxSprite-snubbull.png
+BookSprite: SRD-snubbull-BookSprite.png
+BoxSprite: SRD-snubbull-BoxSprite.png
 DexCategory: Fairy Pokemon
 DexDescription: It may look frightening but it is a loving and caring creature, active
   and playful. Snubbulls are easily scared. When threatened by bigger foes they run
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Rattled
-HomeSprite: SRD-HomeSprite-snubbull.png
+HomeSprite: SRD-snubbull-HomeSprite.png
 Learnset: '[[SRD-Snubbull-Learnset]]'
 Legendary: 'No'
 Name: Snubbull
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-snubbull.png|right]]
+![[SRD-snubbull-BookSprite.png|right wsmall]]
 
 *Fairy Pokemon*
 *It may look frightening but it is a loving and caring creature, active and playful. Snubbulls are easily scared. When threatened by bigger foes they run away or make scary faces, that makes them sad though.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Run Away|Run Away]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-snubbull.png|right]]
+![[SRD-snubbull-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-snubbull-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

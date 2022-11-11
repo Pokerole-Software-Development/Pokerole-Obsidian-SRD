@@ -2,9 +2,8 @@
 Ability1: Magic Bounce
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME719M.png
-BookShinyImageName: HOME719M_s.png
-BoxSprite: SRD-BoxSprite-diancie-mega.png
+BookSprite: SRD-diancie-mega-BookSprite.png
+BoxSprite: SRD-diancie-mega-BoxSprite.png
 DexCategory: 'Registered as #703 Carbink'
 DexDescription: "The popular saying goes like this: \u201CIf you put a Carbon under\
   \ pressure you will get a Diamond\u201D But it surely was not referring to a Pokemon...\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-diancie-mega.png
+HomeSprite: SRD-diancie-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Diancie-Learnset]]'
 Legendary: 'Yes'
 Name: Mega-Diancie
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-diancie-mega.png|right]]
+![[SRD-diancie-mega-BookSprite.png|right wsmall]]
 
 *Registered as #703 Carbink*
 *The popular saying goes like this: “If you put a Carbon under pressure you will get a Diamond” But it surely was not referring to a Pokemon... or was it?*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Magic Bounce|Magic Bounce]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-diancie-mega.png|right]]
+![[SRD-diancie-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-diancie-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

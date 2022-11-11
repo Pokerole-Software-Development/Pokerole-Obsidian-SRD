@@ -2,9 +2,8 @@
 Ability1: Steam Engine
 Ability2: Heatproof
 Baby: 'No'
-BookImageName: HOME837.png
-BookShinyImageName: HOME837_s.png
-BoxSprite: SRD-BoxSprite-rolycoly.png
+BookSprite: SRD-rolycoly-BookSprite.png
+BoxSprite: SRD-rolycoly-BoxSprite.png
 DexCategory: Coal Pokemon
 DexDescription: "This Pokemon was discovered inside a coal mine. It looks like a clump\
   \ of coal only it moves like a unicycle. When it gets angry it glows burning hot\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Flash Fire
-HomeSprite: SRD-HomeSprite-rolycoly.png
+HomeSprite: SRD-rolycoly-HomeSprite.png
 Learnset: '[[SRD-Rolycoly-Learnset]]'
 Legendary: 'No'
 Name: Rolycoly
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rolycoly.png|right]]
+![[SRD-rolycoly-BookSprite.png|right wsmall]]
 
 *Coal Pokemon*
 *This Pokemon was discovered inside a coal mine. It looks like a clump of coal only it moves like a unicycle. When it gets angry it glows burning hot but when it’s happy it lets out soft crackles and keeps a steady warmth.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Steam Engine|Steam Engine]] / [[SRD-Heatproof|Heatproof]] ([[SRD-Flash Fire|Flash Fire]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-rolycoly.png|right]]
+![[SRD-rolycoly-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-rolycoly-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

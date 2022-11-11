@@ -2,9 +2,8 @@
 Ability1: Flash Fire
 Ability2: White Smoke
 Baby: 'No'
-BookImageName: HOME851.png
-BookShinyImageName: HOME851_s.png
-BoxSprite: SRD-BoxSprite-centiskorch.png
+BookSprite: SRD-centiskorch-BookSprite.png
+BoxSprite: SRD-centiskorch-BoxSprite.png
 DexCategory: Radiator Pokemon
 DexDescription: It lashes its body like a whip and launches itself at enemies, while
   its burning body is already dangerous on its own, this excessively hostile Pokemon
@@ -17,7 +16,7 @@ Height:
   Feet: 9.8
   Meters: 3.0
 HiddenAbility: Flame Body
-HomeSprite: SRD-HomeSprite-centiskorch.png
+HomeSprite: SRD-centiskorch-HomeSprite.png
 Learnset: '[[SRD-Centiskorch-Learnset]]'
 Legendary: 'No'
 Name: Centiskorch
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-centiskorch.png|right]]
+![[SRD-centiskorch-BookSprite.png|right wsmall]]
 
 *Radiator Pokemon*
 *It lashes its body like a whip and launches itself at enemies, while its burning body is already dangerous on its own, this excessively hostile Pokemon also has large and very sharp fangs.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flash Fire|Flash Fire]] / [[SRD-White Smoke|White Smoke]] ([[SRD-Flame Body|Flame Body]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-centiskorch.png|right]]
+![[SRD-centiskorch-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-centiskorch-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

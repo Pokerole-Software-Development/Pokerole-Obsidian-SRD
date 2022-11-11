@@ -2,9 +2,8 @@
 Ability1: Water Veil
 Ability2: Oblivious
 Baby: 'No'
-BookImageName: HOME320.png
-BookShinyImageName: HOME320_s.png
-BoxSprite: SRD-BoxSprite-wailmer.png
+BookSprite: SRD-wailmer-BookSprite.png
+BoxSprite: SRD-wailmer-BoxSprite.png
 DexCategory: Ball Whale Pokemon
 DexDescription: Wailmer has a playful nature. They can store water inside their body
   to inflate like a ball and bounce, then startle people by snorting the water from
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Pressure
-HomeSprite: SRD-HomeSprite-wailmer.png
+HomeSprite: SRD-wailmer-HomeSprite.png
 Learnset: '[[SRD-Wailmer-Learnset]]'
 Legendary: 'No'
 Name: Wailmer
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-wailmer.png|right]]
+![[SRD-wailmer-BookSprite.png|right wsmall]]
 
 *Ball Whale Pokemon*
 *Wailmer has a playful nature. They can store water inside their body to inflate like a ball and bounce, then startle people by snorting the water from their nostrils. This Pokemon needs lots of food everyday.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Water Veil|Water Veil]] / [[SRD-Oblivious|Oblivious]] ([[SRD-Pressure|Pressure]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-wailmer.png|right]]
+![[SRD-wailmer-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-wailmer-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

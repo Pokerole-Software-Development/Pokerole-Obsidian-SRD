@@ -2,9 +2,8 @@
 Ability1: Prankster
 Ability2: Frisk
 Baby: 'No'
-BookImageName: HOME861.png
-BookShinyImageName: HOME861_s.png
-BoxSprite: SRD-BoxSprite-grimmsnarl.png
+BookSprite: SRD-grimmsnarl-BookSprite.png
+BoxSprite: SRD-grimmsnarl-BoxSprite.png
 DexCategory: Bulk Up Pokemon
 DexDescription: Its hairs work like muscle fibers. When its hairs unfurl, they latch
   on to opponents, ensnaring them as tentacles would. They often make others trip
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Pickpocket
-HomeSprite: SRD-HomeSprite-grimmsnarl.png
+HomeSprite: SRD-grimmsnarl-HomeSprite.png
 Learnset: '[[SRD-Grimmsnarl-Learnset]]'
 Legendary: 'No'
 Name: Grimmsnarl
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-grimmsnarl.png|right]]
+![[SRD-grimmsnarl-BookSprite.png|right wsmall]]
 
 *Bulk Up Pokemon*
 *Its hairs work like muscle fibers. When its hairs unfurl, they latch on to opponents, ensnaring them as tentacles would. They often make others trip or get them hanging upside down to amuse themselves.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Prankster|Prankster]] / [[SRD-Frisk|Frisk]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-grimmsnarl.png|right]]
+![[SRD-grimmsnarl-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-grimmsnarl-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

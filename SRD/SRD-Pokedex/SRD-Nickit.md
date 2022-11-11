@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Unburden
 Baby: 'No'
-BookImageName: HOME827.png
-BookShinyImageName: HOME827_s.png
-BoxSprite: SRD-BoxSprite-nickit.png
+BookSprite: SRD-nickit-BookSprite.png
+BoxSprite: SRD-nickit-BoxSprite.png
 DexCategory: Fox Pokemon
 DexDescription: "Cunning and cautious, Nickit survive by stealing food. It erases\
   \ its tracks with swipes of its tail so it\u2019s very difficult to track one. They\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Stakeout
-HomeSprite: SRD-HomeSprite-nickit.png
+HomeSprite: SRD-nickit-HomeSprite.png
 Learnset: '[[SRD-Nickit-Learnset]]'
 Legendary: 'No'
 Name: Nickit
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-nickit.png|right]]
+![[SRD-nickit-BookSprite.png|right wsmall]]
 
 *Fox Pokemon*
 *Cunning and cautious, Nickit survive by stealing food. It erases its tracks with swipes of its tail so it’s very difficult to track one. They have thrived in the cities and come at night to steal from stores.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Unburden|Unburden]] ([[SRD-Stakeout|Stakeout]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-nickit.png|right]]
+![[SRD-nickit-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-nickit-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

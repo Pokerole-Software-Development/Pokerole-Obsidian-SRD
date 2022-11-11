@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: Leaf Guard
 Baby: 'No'
-BookImageName: HOME189.png
-BookShinyImageName: HOME189_s.png
-BoxSprite: SRD-BoxSprite-jumpluff.png
+BookSprite: SRD-jumpluff-BookSprite.png
+BoxSprite: SRD-jumpluff-BoxSprite.png
 DexCategory: Cottonweed Pokemon
 DexDescription: It flies along the wind and spreads its cotton-like spores all over
   the world to make more offspring. It is always looking for warm places, if it gets
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Infiltrator
-HomeSprite: SRD-HomeSprite-jumpluff.png
+HomeSprite: SRD-jumpluff-HomeSprite.png
 Learnset: '[[SRD-Jumpluff-Learnset]]'
 Legendary: 'No'
 Name: Jumpluff
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-jumpluff.png|right]]
+![[SRD-jumpluff-BookSprite.png|right wsmall]]
 
 *Cottonweed Pokemon*
 *It flies along the wind and spreads its cotton-like spores all over the world to make more offspring. It is always looking for warm places, if it gets caught by a cold front, it will land to find shelter.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Leaf Guard|Leaf Guard]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-jumpluff.png|right]]
+![[SRD-jumpluff-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-jumpluff-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

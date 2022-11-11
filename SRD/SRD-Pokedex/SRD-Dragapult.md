@@ -2,9 +2,8 @@
 Ability1: Clear Body
 Ability2: Infiltrator
 Baby: 'No'
-BookImageName: HOME887.png
-BookShinyImageName: HOME887_s.png
-BoxSprite: SRD-BoxSprite-dragapult.png
+BookSprite: SRD-dragapult-BookSprite.png
+BoxSprite: SRD-dragapult-BoxSprite.png
 DexCategory: Stealth Pokemon
 DexDescription: "When it isn\u2019t battling, it keeps Dreepy in the holes on its\
   \ horns. Once a fight starts, it launches the Dreepy like supersonic missiles. The\
@@ -17,7 +16,7 @@ Height:
   Feet: 9.8
   Meters: 3.0
 HiddenAbility: Cursed Body
-HomeSprite: SRD-HomeSprite-dragapult.png
+HomeSprite: SRD-dragapult-HomeSprite.png
 Learnset: '[[SRD-Dragapult-Learnset]]'
 Legendary: 'No'
 Name: Dragapult
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dragapult.png|right]]
+![[SRD-dragapult-BookSprite.png|right wsmall]]
 
 *Stealth Pokemon*
 *When it isn’t battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles. The smaller Pokemon appear happy to be shot and will reload themselves.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Clear Body|Clear Body]] / [[SRD-Infiltrator|Infiltrator]] ([[SRD-Cursed Body|Cursed Body]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-dragapult.png|right]]
+![[SRD-dragapult-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-dragapult-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

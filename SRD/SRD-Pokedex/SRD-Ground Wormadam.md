@@ -2,9 +2,8 @@
 Ability1: Speed Boost
 Ability2: Compound Eyes
 Baby: 'No'
-BookImageName: HOME413G.png
-BookShinyImageName: HOME413G_s.png
-BoxSprite: SRD-BoxSprite-wormadam.png
+BookSprite: SRD-wormadamground-BookSprite.png
+BoxSprite: SRD-wormadamground-BoxSprite.png
 DexCategory: Bagworm Pokemon
 DexDescription: When Burmy evolved, its Sand cloak became a part of its body. For
   this reason there are many variations in body and type. It is a calm Pokemon that
@@ -17,14 +16,14 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Overcoat
-HomeSprite: SRD-HomeSprite-wormadam.png
+HomeSprite: SRD-wormadamground-HomeSprite.png
 Learnset: '[[SRD-Ground Wormadam-Learnset]]'
 Legendary: 'No'
 Name: Ground Wormadam
 Number: 413
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
-Sprite: wormadam.png
+Sprite: wormadamground.png
 Type1: Bug
 Type2: Ground
 Weight:
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-wormadam.png|right]]
+![[SRD-wormadamground-BookSprite.png|right wsmall]]
 
 *Bagworm Pokemon*
 *When Burmy evolved, its Sand cloak became a part of its body. For this reason there are many variations in body and type. It is a calm Pokemon that loves odd-shaped stones. This Pokemon is female only.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Speed Boost|Speed Boost]] / [[SRD-Compound Eyes|Compound Eyes]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-wormadam.png|right]]
+![[SRD-wormadamground-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-wormadamground-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

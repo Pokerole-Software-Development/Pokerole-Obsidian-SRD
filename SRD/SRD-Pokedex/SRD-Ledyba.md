@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: Early Bird
 Baby: 'No'
-BookImageName: HOME165.png
-BookShinyImageName: HOME165_s.png
-BoxSprite: SRD-BoxSprite-ledyba.png
+BookSprite: SRD-ledyba-BookSprite.png
+BoxSprite: SRD-ledyba-BoxSprite.png
 DexCategory: Five Star Pokemon
 DexDescription: These timid Pokemon swarm in groups to keep each other warm during
   the winter. It communicates with others through a special scent. They often appear
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Rattled
-HomeSprite: SRD-HomeSprite-ledyba.png
+HomeSprite: SRD-ledyba-HomeSprite.png
 Learnset: '[[SRD-Ledyba-Learnset]]'
 Legendary: 'No'
 Name: Ledyba
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ledyba.png|right]]
+![[SRD-ledyba-BookSprite.png|right wsmall]]
 
 *Five Star Pokemon*
 *These timid Pokemon swarm in groups to keep each other warm during the winter. It communicates with others through a special scent. They often appear covered in the morning dew.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-ledyba.png|right]]
+![[SRD-ledyba-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-ledyba-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

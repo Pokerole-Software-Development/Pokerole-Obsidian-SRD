@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME487O.png
-BookShinyImageName: HOME487O_s.png
-BoxSprite: SRD-BoxSprite-giratina-origin.png
+BookSprite: SRD-giratina-origin-BookSprite.png
+BoxSprite: SRD-giratina-origin-BoxSprite.png
 DexCategory: Plot Device
 DexDescription: Plot Device
 EventAbilities: ''
@@ -15,7 +14,7 @@ Height:
   Feet: 22.6
   Meters: 6.9
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-giratina-origin.png
+HomeSprite: SRD-giratina-origin-HomeSprite.png
 Learnset: '[[SRD-Origin Giratina-Learnset]]'
 Legendary: 'Yes'
 Name: Origin Giratina
@@ -35,7 +34,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-giratina-origin.png|right]]
+![[SRD-giratina-origin-BookSprite.png|right wsmall]]
 
 *Plot Device*
 *Plot Device*
@@ -46,7 +45,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 8
 
-![[SRD-BoxSprite-giratina-origin.png|right]]
+![[SRD-giratina-origin-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -55,6 +54,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-giratina-origin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

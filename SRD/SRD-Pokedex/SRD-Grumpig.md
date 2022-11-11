@@ -2,9 +2,8 @@
 Ability1: Thick Fat
 Ability2: Own Tempo
 Baby: 'No'
-BookImageName: HOME326.png
-BookShinyImageName: HOME326_s.png
-BoxSprite: SRD-BoxSprite-grumpig.png
+BookSprite: SRD-grumpig-BookSprite.png
+BoxSprite: SRD-grumpig-BoxSprite.png
 DexCategory: Manipulate Pokemon
 DexDescription: Grumpigs control their foes with their psychic powers amplified by
   the pearls on their head and a hypnotic dance. However, when they use their powers,
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Gluttony
-HomeSprite: SRD-HomeSprite-grumpig.png
+HomeSprite: SRD-grumpig-HomeSprite.png
 Learnset: '[[SRD-Grumpig-Learnset]]'
 Legendary: 'No'
 Name: Grumpig
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-grumpig.png|right]]
+![[SRD-grumpig-BookSprite.png|right wsmall]]
 
 *Manipulate Pokemon*
 *Grumpigs control their foes with their psychic powers amplified by the pearls on their head and a hypnotic dance. However, when they use their powers, they have a difficult time breathing.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-grumpig.png|right]]
+![[SRD-grumpig-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-grumpig-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

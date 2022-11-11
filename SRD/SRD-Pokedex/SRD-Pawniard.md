@@ -2,9 +2,8 @@
 Ability1: Defiant
 Ability2: Inner Focus
 Baby: 'No'
-BookImageName: HOME624.png
-BookShinyImageName: HOME624_s.png
-BoxSprite: SRD-BoxSprite-pawniard.png
+BookSprite: SRD-pawniard-BookSprite.png
+BoxSprite: SRD-pawniard-BoxSprite.png
 DexCategory: Sharp Blade Pokemon
 DexDescription: They live in groups commanded by Bisharp. They cling to their prey
   and inflict damage by sinking their blades. If battling dulls the blades, it sharpens
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Pressure
-HomeSprite: SRD-HomeSprite-pawniard.png
+HomeSprite: SRD-pawniard-HomeSprite.png
 Learnset: '[[SRD-Pawniard-Learnset]]'
 Legendary: 'No'
 Name: Pawniard
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pawniard.png|right]]
+![[SRD-pawniard-BookSprite.png|right wsmall]]
 
 *Sharp Blade Pokemon*
 *They live in groups commanded by Bisharp. They cling to their prey and inflict damage by sinking their blades. If battling dulls the blades, it sharpens them on stones by the river. It takes them years to evolve.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Defiant|Defiant]] / [[SRD-Inner Focus|Inner Focus]] ([[SRD-Pressure|Pressure]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-pawniard.png|right]]
+![[SRD-pawniard-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-pawniard-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME201.png
-BookShinyImageName: HOME201_s.png
-BoxSprite: SRD-BoxSprite-unown.png
+BookSprite: SRD-unown-BookSprite.png
+BoxSprite: SRD-unown-BoxSprite.png
 DexCategory: Symbol Pokemon
 DexDescription: There are depictions of it in ancient ruins. When Unowns are gathered
   together, it is said that a strange power capable of anything emerges. They are
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-unown.png
+HomeSprite: SRD-unown-HomeSprite.png
 Learnset: '[[SRD-Unown-Learnset]]'
 Legendary: 'No'
 Name: Unown
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-unown.png|right]]
+![[SRD-unown-BookSprite.png|right wsmall]]
 
 *Symbol Pokemon*
 *There are depictions of it in ancient ruins. When Unowns are gathered together, it is said that a strange power capable of anything emerges. They are all shaped like letters, each one of them with a unique power.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-unown.png|right]]
+![[SRD-unown-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-unown-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Sniper
 Ability2: Tough Claws
 Baby: 'No'
-BookImageName: HOME688.png
-BookShinyImageName: HOME688_s.png
-BoxSprite: SRD-BoxSprite-binacle.png
+BookSprite: SRD-binacle-BookSprite.png
+BoxSprite: SRD-binacle-BoxSprite.png
 DexCategory: Two-Handed Pokemon
 DexDescription: "In the shallow sea, two Binacle live inside a hollow rock. If they\
   \ don\u2019t get along, one of them will move to a different rock. They eat the\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Pickpocket
-HomeSprite: SRD-HomeSprite-binacle.png
+HomeSprite: SRD-binacle-HomeSprite.png
 Learnset: '[[SRD-Binacle-Learnset]]'
 Legendary: 'No'
 Name: Binacle
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-binacle.png|right]]
+![[SRD-binacle-BookSprite.png|right wsmall]]
 
 *Two-Handed Pokemon*
 *In the shallow sea, two Binacle live inside a hollow rock. If they don’t get along, one of them will move to a different rock. They eat the sea weed that washes up on the shore and help each other to survive.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sniper|Sniper]] / [[SRD-Tough Claws|Tough Claws]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-binacle.png|right]]
+![[SRD-binacle-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-binacle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

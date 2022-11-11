@@ -2,9 +2,8 @@
 Ability1: Sap Sipper
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME673.png
-BookShinyImageName: HOME673_s.png
-BoxSprite: SRD-BoxSprite-gogoat.png
+BookSprite: SRD-gogoat-BookSprite.png
+BoxSprite: SRD-gogoat-BoxSprite.png
 DexCategory: Mount Pokemon
 DexDescription: In the wild, they inhabit mountain regions with the leader of the
   herd decided by a battle of clashing horns. People rely on Gogoat to get them through
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Grass Pelt
-HomeSprite: SRD-HomeSprite-gogoat.png
+HomeSprite: SRD-gogoat-HomeSprite.png
 Learnset: '[[SRD-Gogoat-Learnset]]'
 Legendary: 'No'
 Name: Gogoat
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gogoat.png|right]]
+![[SRD-gogoat-BookSprite.png|right wsmall]]
 
 *Mount Pokemon*
 *In the wild, they inhabit mountain regions with the leader of the herd decided by a battle of clashing horns. People rely on Gogoat to get them through harsh terrains as it always knows where you want to go.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sap Sipper|Sap Sipper]] ([[SRD-Grass Pelt|Grass Pelt]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-gogoat.png|right]]
+![[SRD-gogoat-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-gogoat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

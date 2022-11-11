@@ -2,9 +2,8 @@
 Ability1: Inner Focus
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME041.png
-BookShinyImageName: HOME041_s.png
-BoxSprite: SRD-BoxSprite-zubat.png
+BookSprite: SRD-zubat-BookSprite.png
+BoxSprite: SRD-zubat-BoxSprite.png
 DexCategory: Bat Pokemon
 DexDescription: It lives in dark caves all around the world. Prolonged exposure to
   the sun will make it unhealthy. It is blind but uses echolocation to find its way.
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Infiltrator
-HomeSprite: SRD-HomeSprite-zubat.png
+HomeSprite: SRD-zubat-HomeSprite.png
 Learnset: '[[SRD-Zubat-Learnset]]'
 Legendary: 'No'
 Name: Zubat
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zubat.png|right]]
+![[SRD-zubat-BookSprite.png|right wsmall]]
 
 *Bat Pokemon*
 *It lives in dark caves all around the world. Prolonged exposure to the sun will make it unhealthy. It is blind but uses echolocation to find its way. At night, they leave their cave to feed on fruit and bug Pokemon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-zubat.png|right]]
+![[SRD-zubat-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-zubat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

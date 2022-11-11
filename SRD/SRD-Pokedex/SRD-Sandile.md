@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: Moxie
 Baby: 'No'
-BookImageName: HOME551.png
-BookShinyImageName: HOME551_s.png
-BoxSprite: SRD-BoxSprite-sandile.png
+BookSprite: SRD-sandile-BookSprite.png
+BoxSprite: SRD-sandile-BoxSprite.png
 DexCategory: Desert Croc Pokemon
 DexDescription: "They live hidden under the desert sands with only their eyes and\
   \ nostrils visible. They don\u2019t prey on anything bigger than themselves but\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Anger Point
-HomeSprite: SRD-HomeSprite-sandile.png
+HomeSprite: SRD-sandile-HomeSprite.png
 Learnset: '[[SRD-Sandile-Learnset]]'
 Legendary: 'No'
 Name: Sandile
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sandile.png|right]]
+![[SRD-sandile-BookSprite.png|right wsmall]]
 
 *Desert Croc Pokemon*
 *They live hidden under the desert sands with only their eyes and nostrils visible. They don’t prey on anything bigger than themselves but can be troublesome if they are being leaded by one of it’s evolved forms.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Moxie|Moxie]] ([[SRD-Anger Point|Anger Point]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-sandile.png|right]]
+![[SRD-sandile-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-sandile-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

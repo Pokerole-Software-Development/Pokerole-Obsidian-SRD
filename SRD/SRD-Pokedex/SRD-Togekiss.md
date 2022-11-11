@@ -2,9 +2,8 @@
 Ability1: Hustle
 Ability2: Serene Grace
 Baby: 'No'
-BookImageName: HOME468.png
-BookShinyImageName: HOME468_s.png
-BoxSprite: SRD-BoxSprite-togekiss.png
+BookSprite: SRD-togekiss-BookSprite.png
+BoxSprite: SRD-togekiss-BoxSprite.png
 DexCategory: Jubilee Pokemon
 DexDescription: Sightings of these Pokemon have become rare nowadays. They used to
   visit peaceful regions, bringing them gifts of kindness and great blessings. But
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Super Luck
-HomeSprite: SRD-HomeSprite-togekiss.png
+HomeSprite: SRD-togekiss-HomeSprite.png
 Learnset: '[[SRD-Togekiss-Learnset]]'
 Legendary: 'No'
 Name: Togekiss
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-togekiss.png|right]]
+![[SRD-togekiss-BookSprite.png|right wsmall]]
 
 *Jubilee Pokemon*
 *Sightings of these Pokemon have become rare nowadays. They used to visit peaceful regions, bringing them gifts of kindness and great blessings. But they appear to have vanished in this times of conflict.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hustle|Hustle]] / [[SRD-Serene Grace|Serene Grace]] ([[SRD-Super Luck|Super Luck]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-togekiss.png|right]]
+![[SRD-togekiss-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-togekiss-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Truant
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME287.png
-BookShinyImageName: HOME287_s.png
-BoxSprite: SRD-BoxSprite-slakoth.png
+BookSprite: SRD-slakoth-BookSprite.png
+BoxSprite: SRD-slakoth-BoxSprite.png
 DexCategory: Slacker Pokemon
 DexDescription: "They laze around 20 hours a day barely eating. Slakoths remain motionless\
   \ no matter what. It\u2019s rare to see this Pokemon doing something, most of them\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-slakoth.png
+HomeSprite: SRD-slakoth-HomeSprite.png
 Learnset: '[[SRD-Slakoth-Learnset]]'
 Legendary: 'No'
 Name: Slakoth
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-slakoth.png|right]]
+![[SRD-slakoth-BookSprite.png|right wsmall]]
 
 *Slacker Pokemon*
 *They laze around 20 hours a day barely eating. Slakoths remain motionless no matter what. It’s rare to see this Pokemon doing something, most of them never even bother to evolve.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Truant|Truant]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-slakoth.png|right]]
+![[SRD-slakoth-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-slakoth-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

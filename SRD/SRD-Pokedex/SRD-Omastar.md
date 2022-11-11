@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Shell Armor
 Baby: 'No'
-BookImageName: HOME139.png
-BookShinyImageName: HOME139_s.png
-BoxSprite: SRD-BoxSprite-omastar.png
+BookSprite: SRD-omastar-BookSprite.png
+BoxSprite: SRD-omastar-BoxSprite.png
 DexCategory: Spiral Pokemon
 DexDescription: An Omastar used its tentacles to ensnare and capture its prey. It
   is believed to have become extinct because the shell grew too large, making it slow
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Weak Armor
-HomeSprite: SRD-HomeSprite-omastar.png
+HomeSprite: SRD-omastar-HomeSprite.png
 Learnset: '[[SRD-Omastar-Learnset]]'
 Legendary: 'No'
 Name: Omastar
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-omastar.png|right]]
+![[SRD-omastar-BookSprite.png|right wsmall]]
 
 *Spiral Pokemon*
 *An Omastar used its tentacles to ensnare and capture its prey. It is believed to have become extinct because the shell grew too large, making it slow and ponderous. It is not found in the wild anymore.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-omastar.png|right]]
+![[SRD-omastar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-omastar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

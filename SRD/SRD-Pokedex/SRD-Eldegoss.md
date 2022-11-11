@@ -2,9 +2,8 @@
 Ability1: Cotton Down
 Ability2: Regenerator
 Baby: 'No'
-BookImageName: HOME830.png
-BookShinyImageName: HOME830_s.png
-BoxSprite: SRD-BoxSprite-eldegoss.png
+BookSprite: SRD-eldegoss-BookSprite.png
+BoxSprite: SRD-eldegoss-BoxSprite.png
 DexCategory: Cotton Bloom Pokemon
 DexDescription: The cotton it produces has a glossy finish so clothes made with it
   are insanely expensive. In nature they are calm and selfless Pokemon who allow others
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Effect Spore
-HomeSprite: SRD-HomeSprite-eldegoss.png
+HomeSprite: SRD-eldegoss-HomeSprite.png
 Learnset: '[[SRD-Eldegoss-Learnset]]'
 Legendary: 'No'
 Name: Eldegoss
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-eldegoss.png|right]]
+![[SRD-eldegoss-BookSprite.png|right wsmall]]
 
 *Cotton Bloom Pokemon*
 *The cotton it produces has a glossy finish so clothes made with it are insanely expensive. In nature they are calm and selfless Pokemon who allow others to take nourishment from the cotton seeds in their head.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Cotton Down|Cotton Down]] / [[SRD-Regenerator|Regenerator]] ([[SRD-Effect Spore|Effect Spore]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-eldegoss.png|right]]
+![[SRD-eldegoss-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-eldegoss-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

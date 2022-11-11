@@ -2,9 +2,8 @@
 Ability1: Snow Cloak
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME478.png
-BookShinyImageName: HOME478_s.png
-BoxSprite: SRD-BoxSprite-froslass.png
+BookSprite: SRD-froslass-BookSprite.png
+BoxSprite: SRD-froslass-BoxSprite.png
 DexCategory: Snow Land Pokemon
 DexDescription: This Pokemon is female only. Legends in snowy regions say that a woman
   who was lost at an icy mountain was reborn as Froslass. It appears during blizzards
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Cursed Body
-HomeSprite: SRD-HomeSprite-froslass.png
+HomeSprite: SRD-froslass-HomeSprite.png
 Learnset: '[[SRD-Froslass-Learnset]]'
 Legendary: 'No'
 Name: Froslass
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-froslass.png|right]]
+![[SRD-froslass-BookSprite.png|right wsmall]]
 
 *Snow Land Pokemon*
 *This Pokemon is female only. Legends in snowy regions say that a woman who was lost at an icy mountain was reborn as Froslass. It appears during blizzards to take lost people away.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Snow Cloak|Snow Cloak]] ([[SRD-Cursed Body|Cursed Body]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-froslass.png|right]]
+![[SRD-froslass-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-froslass-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Frisk
 Ability2: Competitive
 Baby: 'No'
-BookImageName: HOME574.png
-BookShinyImageName: HOME574_s.png
-BoxSprite: SRD-BoxSprite-gothita.png
+BookSprite: SRD-gothita-BookSprite.png
+BoxSprite: SRD-gothita-BoxSprite.png
 DexCategory: Fixation Pokemon
 DexDescription: They continuously observe both Trainers and Pokemon. Apparently, they
   are looking at something that only they can see. The ribbon-like feelers on their
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Shadow Tag
-HomeSprite: SRD-HomeSprite-gothita.png
+HomeSprite: SRD-gothita-HomeSprite.png
 Learnset: '[[SRD-Gothita-Learnset]]'
 Legendary: 'No'
 Name: Gothita
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gothita.png|right]]
+![[SRD-gothita-BookSprite.png|right wsmall]]
 
 *Fixation Pokemon*
 *They continuously observe both Trainers and Pokemon. Apparently, they are looking at something that only they can see. The ribbon-like feelers on their body increase their psychic power.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Frisk|Frisk]] / [[SRD-Competitive|Competitive]] ([[SRD-Shadow Tag|Shadow Tag]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-gothita.png|right]]
+![[SRD-gothita-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-gothita-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

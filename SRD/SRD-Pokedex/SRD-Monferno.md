@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME391.png
-BookShinyImageName: HOME391_s.png
-BoxSprite: SRD-BoxSprite-monferno.png
+BookSprite: SRD-monferno-BookSprite.png
+BoxSprite: SRD-monferno-BoxSprite.png
 DexCategory: Playful Pokemon
 DexDescription: It bounces off walls and ceilings to launch aerial attacks. They live
   in packs in distant mountains. The size of their flame and the blue pattern on their
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Iron Fist
-HomeSprite: SRD-HomeSprite-monferno.png
+HomeSprite: SRD-monferno-HomeSprite.png
 Learnset: '[[SRD-Monferno-Learnset]]'
 Legendary: 'No'
 Name: Monferno
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-monferno.png|right]]
+![[SRD-monferno-BookSprite.png|right wsmall]]
 
 *Playful Pokemon*
 *It bounces off walls and ceilings to launch aerial attacks. They live in packs in distant mountains. The size of their flame and the blue pattern on their faces determine their rank. They are small but very strong.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Iron Fist|Iron Fist]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-monferno.png|right]]
+![[SRD-monferno-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-monferno-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Flame Body
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME126.png
-BookShinyImageName: HOME126_s.png
-BoxSprite: SRD-BoxSprite-magmar.png
+BookSprite: SRD-magmar-BookSprite.png
+BoxSprite: SRD-magmar-BoxSprite.png
 DexCategory: Spitfire Pokemon
 DexDescription: It can be found living in volcanic areas. In battle, Magmar blows
   out intense flames all over its body to intimidate the opponent. This creates heat
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Vital Spirit
-HomeSprite: SRD-HomeSprite-magmar.png
+HomeSprite: SRD-magmar-HomeSprite.png
 Learnset: '[[SRD-Magmar-Learnset]]'
 Legendary: 'No'
 Name: Magmar
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-magmar.png|right]]
+![[SRD-magmar-BookSprite.png|right wsmall]]
 
 *Spitfire Pokemon*
 *It can be found living in volcanic areas. In battle, Magmar blows out intense flames all over its body to intimidate the opponent. This creates heat waves that ignite grass and trees in the surroundings.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flame Body|Flame Body]] ([[SRD-Vital Spirit|Vital Spirit]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-magmar.png|right]]
+![[SRD-magmar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-magmar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Gluttony
 Ability2: Flash Fire
 Baby: 'No'
-BookImageName: HOME631.png
-BookShinyImageName: HOME631_s.png
-BoxSprite: SRD-BoxSprite-heatmor.png
+BookSprite: SRD-heatmor-BookSprite.png
+BoxSprite: SRD-heatmor-BoxSprite.png
 DexCategory: Anteater Pokemon
 DexDescription: "It draws in air through its tail, then transforms it into fire and\
   \ uses it like a tongue. You can see them defending Durant\u2019s colonies from\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: White Smoke
-HomeSprite: SRD-HomeSprite-heatmor.png
+HomeSprite: SRD-heatmor-HomeSprite.png
 Learnset: '[[SRD-Heatmor-Learnset]]'
 Legendary: 'No'
 Name: Heatmor
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-heatmor.png|right]]
+![[SRD-heatmor-BookSprite.png|right wsmall]]
 
 *Anteater Pokemon*
 *It draws in air through its tail, then transforms it into fire and uses it like a tongue. You can see them defending Durant’s colonies from predators so they can be the only ones who can eat them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Gluttony|Gluttony]] / [[SRD-Flash Fire|Flash Fire]] ([[SRD-White Smoke|White Smoke]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-heatmor.png|right]]
+![[SRD-heatmor-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-heatmor-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

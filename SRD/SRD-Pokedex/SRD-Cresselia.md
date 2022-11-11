@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME488.png
-BookShinyImageName: HOME488_s.png
-BoxSprite: SRD-BoxSprite-cresselia.png
+BookSprite: SRD-cresselia-BookSprite.png
+BoxSprite: SRD-cresselia-BoxSprite.png
 DexCategory: No Data
 DexDescription: The embodiment of dreams comes to life during the crescent moon nights.
   You will be blessed with peaceful bedtimes If you keep one of its feathers. Or so
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-cresselia.png
+HomeSprite: SRD-cresselia-HomeSprite.png
 Learnset: '[[SRD-Cresselia-Learnset]]'
 Legendary: 'Yes'
 Name: Cresselia
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cresselia.png|right]]
+![[SRD-cresselia-BookSprite.png|right wsmall]]
 
 *No Data*
 *The embodiment of dreams comes to life during the crescent moon nights. You will be blessed with peaceful bedtimes If you keep one of its feathers. Or so they say.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-cresselia.png|right]]
+![[SRD-cresselia-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::7)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-cresselia-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Big Pecks
 Ability2: Super Luck
 Baby: 'No'
-BookImageName: HOME521.png
-BookShinyImageName: HOME521_s.png
-BoxSprite: SRD-BoxSprite-unfezant.png
+BookSprite: SRD-unfezant-BookSprite.png
+BoxSprite: SRD-unfezant-BoxSprite.png
 DexCategory: Proud Pokemon
 DexDescription: Males swing the beautiful plumage on their heads to threaten others
   and to court females. Although less visually appealing, females are better at flying.
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Rivalry
-HomeSprite: SRD-HomeSprite-unfezant.png
+HomeSprite: SRD-unfezant-HomeSprite.png
 Learnset: '[[SRD-Unfezant-Learnset]]'
 Legendary: 'No'
 Name: Unfezant
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-unfezant.png|right]]
+![[SRD-unfezant-BookSprite.png|right wsmall]]
 
 *Proud Pokemon*
 *Males swing the beautiful plumage on their heads to threaten others and to court females. Although less visually appealing, females are better at flying. Once they form a pair they are mated for life.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Big Pecks|Big Pecks]] / [[SRD-Super Luck|Super Luck]] ([[SRD-Rivalry|Rivalry]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-unfezant.png|right]]
+![[SRD-unfezant-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-unfezant-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

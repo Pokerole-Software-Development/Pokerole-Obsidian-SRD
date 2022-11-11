@@ -2,9 +2,8 @@
 Ability1: Inner Focus
 Ability2: Keen Eye
 Baby: 'No'
-BookImageName: HOME215.png
-BookShinyImageName: HOME215_s.png
-BoxSprite: SRD-BoxSprite-sneasel.png
+BookSprite: SRD-sneasel-BookSprite.png
+BoxSprite: SRD-sneasel-BoxSprite.png
 DexCategory: Sharp Claw Pokemon
 DexDescription: It drives weaker Pokemon from their homes and eats their eggs. They
   are vicious and cunning. They wait for prey hidden in the darkness and enjoy slashing
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Pickpocket
-HomeSprite: SRD-HomeSprite-sneasel.png
+HomeSprite: SRD-sneasel-HomeSprite.png
 Learnset: '[[SRD-Sneasel-Learnset]]'
 Legendary: 'No'
 Name: Sneasel
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sneasel.png|right]]
+![[SRD-sneasel-BookSprite.png|right wsmall]]
 
 *Sharp Claw Pokemon*
 *It drives weaker Pokemon from their homes and eats their eggs. They are vicious and cunning. They wait for prey hidden in the darkness and enjoy slashing their foes until they get tired or the foe stops moving.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] / [[SRD-Keen Eye|Keen Eye]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-sneasel.png|right]]
+![[SRD-sneasel-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-sneasel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

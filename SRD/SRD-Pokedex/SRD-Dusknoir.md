@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME477.png
-BookShinyImageName: HOME477_s.png
-BoxSprite: SRD-BoxSprite-dusknoir.png
+BookSprite: SRD-dusknoir-BookSprite.png
+BoxSprite: SRD-dusknoir-BoxSprite.png
 DexCategory: Gripper Pokemon
 DexDescription: "This feared Pokemon is said to travel to the other world. Some even\
   \ believe that it takes lost spirits along with it. It uses the antenna on it\u2019\
@@ -17,7 +16,7 @@ Height:
   Feet: 7.2
   Meters: 2.2
 HiddenAbility: Frisk
-HomeSprite: SRD-HomeSprite-dusknoir.png
+HomeSprite: SRD-dusknoir-HomeSprite.png
 Learnset: '[[SRD-Dusknoir-Learnset]]'
 Legendary: 'No'
 Name: Dusknoir
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dusknoir.png|right]]
+![[SRD-dusknoir-BookSprite.png|right wsmall]]
 
 *Gripper Pokemon*
 *This feared Pokemon is said to travel to the other world. Some even believe that it takes lost spirits along with it. It uses the antenna on it’s head to receive messages from the deceased.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Frisk|Frisk]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-dusknoir.png|right]]
+![[SRD-dusknoir-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-dusknoir-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

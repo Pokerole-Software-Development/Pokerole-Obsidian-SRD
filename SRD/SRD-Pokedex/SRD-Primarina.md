@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME730.png
-BookShinyImageName: HOME730_s.png
-BoxSprite: SRD-BoxSprite-primarina.png
+BookSprite: SRD-primarina-BookSprite.png
+BoxSprite: SRD-primarina-BoxSprite.png
 DexCategory: Soloist Pokemon
 DexDescription: "All modern Primarina sing a song that has been passed down through\
   \ generations. Legend says that you can hear their true song when you are in the\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Liquid Voice
-HomeSprite: SRD-HomeSprite-primarina.png
+HomeSprite: SRD-primarina-HomeSprite.png
 Learnset: '[[SRD-Primarina-Learnset]]'
 Legendary: 'No'
 Name: Primarina
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-primarina.png|right]]
+![[SRD-primarina-BookSprite.png|right wsmall]]
 
 *Soloist Pokemon*
 *All modern Primarina sing a song that has been passed down through generations. Legend says that you can hear their true song when you are in the deep of the sea. Make sure its throat doesn’t get sore.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Liquid Voice|Liquid Voice]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-primarina.png|right]]
+![[SRD-primarina-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-primarina-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Poison Point
 Ability2: Rivalry
 Baby: 'No'
-BookImageName: HOME029.png
-BookShinyImageName: HOME029_s.png
-BoxSprite: SRD-BoxSprite-nidoran-f.png
+BookSprite: SRD-nidoran-f-BookSprite.png
+BoxSprite: SRD-nidoran-f-BoxSprite.png
 DexCategory: Poison Pin Pokemon
 DexDescription: A female only species. It lives close to meadows and forests. They
   are mellow Pokemon. To protect herself, she secretes a powerful toxin through her
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Hustle
-HomeSprite: SRD-HomeSprite-nidoran-f.png
+HomeSprite: SRD-nidoran-f-HomeSprite.png
 Learnset: '[[SRD-Nidoran F-Learnset]]'
 Legendary: 'No'
 Name: Nidoran F
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-nidoran-f.png|right]]
+![[SRD-nidoran-f-BookSprite.png|right wsmall]]
 
 *Poison Pin Pokemon*
 *A female only species. It lives close to meadows and forests. They are mellow Pokemon. To protect herself, she secretes a powerful toxin through her body. Her horn is small but venomous to the touch.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Rivalry|Rivalry]] ([[SRD-Hustle|Hustle]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-nidoran-f.png|right]]
+![[SRD-nidoran-f-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-nidoran-f-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

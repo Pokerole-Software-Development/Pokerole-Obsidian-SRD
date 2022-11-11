@@ -2,9 +2,8 @@
 Ability1: Sturdy
 Ability2: Shell Armor
 Baby: 'No'
-BookImageName: HOME558.png
-BookShinyImageName: HOME558_s.png
-BoxSprite: SRD-BoxSprite-crustle.png
+BookSprite: SRD-crustle-BookSprite.png
+BoxSprite: SRD-crustle-BoxSprite.png
 DexCategory: Stone Home Pokemon
 DexDescription: They carry enormous boulders as a protective shell. When competing
   for territory, Crustle fight viciously. The one whose boulder is broken is the loser
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Weak Armor
-HomeSprite: SRD-HomeSprite-crustle.png
+HomeSprite: SRD-crustle-HomeSprite.png
 Learnset: '[[SRD-Crustle-Learnset]]'
 Legendary: 'No'
 Name: Crustle
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-crustle.png|right]]
+![[SRD-crustle-BookSprite.png|right wsmall]]
 
 *Stone Home Pokemon*
 *They carry enormous boulders as a protective shell. When competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle. They feed on the moss that grows in their rock.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-crustle.png|right]]
+![[SRD-crustle-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-crustle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

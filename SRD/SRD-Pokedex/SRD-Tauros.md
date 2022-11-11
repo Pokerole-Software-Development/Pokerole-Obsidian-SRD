@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: Anger Point
 Baby: 'No'
-BookImageName: HOME128.png
-BookShinyImageName: HOME128_s.png
-BoxSprite: SRD-BoxSprite-tauros.png
+BookSprite: SRD-tauros-BookSprite.png
+BoxSprite: SRD-tauros-BoxSprite.png
 DexCategory: Wild Bull Pokemon
 DexDescription: "This is a Male species. They travel in herds around the plains and\
   \ fight each other by locking horns. The herd\u2019s protector takes pride in its\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-tauros.png
+HomeSprite: SRD-tauros-HomeSprite.png
 Learnset: '[[SRD-Tauros-Learnset]]'
 Legendary: 'No'
 Name: Tauros
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tauros.png|right]]
+![[SRD-tauros-BookSprite.png|right wsmall]]
 
 *Wild Bull Pokemon*
 *This is a Male species. They travel in herds around the plains and fight each other by locking horns. The herd’s protector takes pride in its battle-scarred horns. Miltank is the female of this species.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Anger Point|Anger Point]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-tauros.png|right]]
+![[SRD-tauros-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-tauros-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

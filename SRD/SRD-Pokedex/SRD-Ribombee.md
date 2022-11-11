@@ -2,9 +2,8 @@
 Ability1: Honey Gather
 Ability2: Shield Dust
 Baby: 'No'
-BookImageName: HOME743.png
-BookShinyImageName: HOME743_s.png
-BoxSprite: SRD-BoxSprite-ribombee.png
+BookSprite: SRD-ribombee-BookSprite.png
+BoxSprite: SRD-ribombee-BoxSprite.png
 DexCategory: Bee Fly Pokemon
 DexDescription: The pollen puff of a happy Ribombee are very nutritious and valuable
   supplements in Alola. It dislikes rain, for it wets its hair and makes it unable
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Sweet Veil
-HomeSprite: SRD-HomeSprite-ribombee.png
+HomeSprite: SRD-ribombee-HomeSprite.png
 Learnset: '[[SRD-Ribombee-Learnset]]'
 Legendary: 'No'
 Name: Ribombee
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ribombee.png|right]]
+![[SRD-ribombee-BookSprite.png|right wsmall]]
 
 *Bee Fly Pokemon*
 *The pollen puff of a happy Ribombee are very nutritious and valuable supplements in Alola. It dislikes rain, for it wets its hair and makes it unable to fly, so if you see a Ribombee you know the weather will be nice.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Honey Gather|Honey Gather]] / [[SRD-Shield Dust|Shield Dust]] ([[SRD-Sweet Veil|Sweet Veil]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-ribombee.png|right]]
+![[SRD-ribombee-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-ribombee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

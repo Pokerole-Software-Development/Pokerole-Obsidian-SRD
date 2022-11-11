@@ -2,9 +2,8 @@
 Ability1: Vital Spirit
 Ability2: Hustle
 Baby: 'No'
-BookImageName: HOME225.png
-BookShinyImageName: HOME225_s.png
-BoxSprite: SRD-BoxSprite-delibird.png
+BookSprite: SRD-delibird-BookSprite.png
+BoxSprite: SRD-delibird-BoxSprite.png
 DexCategory: Delivery Pokemon
 DexDescription: Delibird is always carrying food for its chicks and people in need.
   They are related to the image of Santa Claus since they always carry presents for
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Insomnia
-HomeSprite: SRD-HomeSprite-delibird.png
+HomeSprite: SRD-delibird-HomeSprite.png
 Learnset: '[[SRD-Delibird-Learnset]]'
 Legendary: 'No'
 Name: Delibird
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-delibird.png|right]]
+![[SRD-delibird-BookSprite.png|right wsmall]]
 
 *Delivery Pokemon*
 *Delibird is always carrying food for its chicks and people in need. They are related to the image of Santa Claus since they always carry presents for their good and naughty kids in their bag-looking tail.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Vital Spirit|Vital Spirit]] / [[SRD-Hustle|Hustle]] ([[SRD-Insomnia|Insomnia]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-delibird.png|right]]
+![[SRD-delibird-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-delibird-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

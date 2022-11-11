@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Flash Fire
 Baby: 'No'
-BookImageName: HOME078.png
-BookShinyImageName: HOME078_s.png
-BoxSprite: SRD-BoxSprite-rapidash.png
+BookSprite: SRD-rapidash-BookSprite.png
+BoxSprite: SRD-rapidash-BoxSprite.png
 DexCategory: Fire Horse Pokemon
 DexDescription: It lives happily on prairies. It loves speed competitions - a herd
   can often be seen running alongside a train. It can regulate the heat of its mane
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Flame Body
-HomeSprite: SRD-HomeSprite-rapidash.png
+HomeSprite: SRD-rapidash-HomeSprite.png
 Learnset: '[[SRD-Rapidash-Learnset]]'
 Legendary: 'No'
 Name: Rapidash
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rapidash.png|right]]
+![[SRD-rapidash-BookSprite.png|right wsmall]]
 
 *Fire Horse Pokemon*
 *It lives happily on prairies. It loves speed competitions - a herd can often be seen running alongside a train. It can regulate the heat of its mane as to let its trainer ride it, but only if it trusts him enough.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Flash Fire|Flash Fire]] ([[SRD-Flame Body|Flame Body]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-rapidash.png|right]]
+![[SRD-rapidash-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-rapidash-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

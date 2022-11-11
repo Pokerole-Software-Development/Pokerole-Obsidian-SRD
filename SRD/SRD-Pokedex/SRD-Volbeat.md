@@ -2,9 +2,8 @@
 Ability1: Illuminate
 Ability2: Swarm
 Baby: 'No'
-BookImageName: HOME313.png
-BookShinyImageName: HOME313_s.png
-BoxSprite: SRD-BoxSprite-volbeat.png
+BookSprite: SRD-volbeat-BookSprite.png
+BoxSprite: SRD-volbeat-BoxSprite.png
 DexCategory: Firelfy Pokemon
 DexDescription: The male of its species. Their tail shines bright during the night,
   drawing geometric shapes in the sky. Volbeats live in swarms around clean ponds.
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Prankster
-HomeSprite: SRD-HomeSprite-volbeat.png
+HomeSprite: SRD-volbeat-HomeSprite.png
 Learnset: '[[SRD-Volbeat-Learnset]]'
 Legendary: 'No'
 Name: Volbeat
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-volbeat.png|right]]
+![[SRD-volbeat-BookSprite.png|right wsmall]]
 
 *Firelfy Pokemon*
 *The male of its species. Their tail shines bright during the night, drawing geometric shapes in the sky. Volbeats live in swarms around clean ponds. They are attracted to Illumise's sweet aroma.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Illuminate|Illuminate]] / [[SRD-Swarm|Swarm]] ([[SRD-Prankster|Prankster]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-volbeat.png|right]]
+![[SRD-volbeat-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-volbeat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

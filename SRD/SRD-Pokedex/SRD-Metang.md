@@ -2,9 +2,8 @@
 Ability1: Clear Body
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME375.png
-BookShinyImageName: HOME375_s.png
-BoxSprite: SRD-BoxSprite-meltan.png
+BookSprite: SRD-metang-BookSprite.png
+BoxSprite: SRD-metang-BoxSprite.png
 DexCategory: Iron Claw Pokemon
 DexDescription: Its two brains are joined by a magnetic nervous system. This allows
   Metang to use psychokinetic powers. It is able to float and move in midair at 60
@@ -17,14 +16,14 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Light Metal
-HomeSprite: SRD-HomeSprite-meltan.png
+HomeSprite: SRD-metang-HomeSprite.png
 Learnset: '[[SRD-Metang-Learnset]]'
 Legendary: 'No'
 Name: Metang
 Number: 375
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
-Sprite: meltan.png
+Sprite: metang.png
 Type1: Steel
 Type2: Psychic
 Weight:
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-meltan.png|right]]
+![[SRD-metang-BookSprite.png|right wsmall]]
 
 *Iron Claw Pokemon*
 *Its two brains are joined by a magnetic nervous system. This allows Metang to use psychokinetic powers. It is able to float and move in midair at 60 mph. To evolve further it will need more brain power.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Clear Body|Clear Body]] ([[SRD-Light Metal|Light Metal]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-meltan.png|right]]
+![[SRD-metang-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-metang-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

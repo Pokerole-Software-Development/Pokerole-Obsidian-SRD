@@ -2,9 +2,8 @@
 Ability1: Cheek Pouch
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME819.png
-BookShinyImageName: HOME819_s.png
-BoxSprite: SRD-BoxSprite-skwovet.png
+BookSprite: SRD-skwovet-BookSprite.png
+BoxSprite: SRD-skwovet-BoxSprite.png
 DexCategory: Cheeky Pokemon
 DexDescription: They love to feed on berries and nuts they store on their cheeks,
   they can get very anxious if its cheeks are empty. If you feed one of them they
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Gluttony
-HomeSprite: SRD-HomeSprite-skwovet.png
+HomeSprite: SRD-skwovet-HomeSprite.png
 Learnset: '[[SRD-Skwovet-Learnset]]'
 Legendary: 'No'
 Name: Skwovet
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-skwovet.png|right]]
+![[SRD-skwovet-BookSprite.png|right wsmall]]
 
 *Cheeky Pokemon*
 *They love to feed on berries and nuts they store on their cheeks, they can get very anxious if its cheeks are empty. If you feed one of them they will follow you and call for others so you feed them as well.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Cheek Pouch|Cheek Pouch]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-skwovet.png|right]]
+![[SRD-skwovet-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-skwovet-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

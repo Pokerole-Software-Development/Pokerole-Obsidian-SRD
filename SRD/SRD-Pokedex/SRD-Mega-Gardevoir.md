@@ -2,9 +2,8 @@
 Ability1: Pixilate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME282M.png
-BookShinyImageName: HOME282M_s.png
-BoxSprite: SRD-BoxSprite-gardevoir-mega.png
+BookSprite: SRD-gardevoir-mega-BookSprite.png
+BoxSprite: SRD-gardevoir-mega-BoxSprite.png
 DexCategory: Embrace Pokemon
 DexDescription: The power of the Mega Stone makes its senses skyrocket. It is easily
   upset as it can feel the emotions from everyone in a wide radius. Its psychic powers
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-gardevoir-mega.png
+HomeSprite: SRD-gardevoir-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Gardevoir-Learnset]]'
 Legendary: 'No'
 Name: Mega-Gardevoir
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gardevoir-mega.png|right]]
+![[SRD-gardevoir-mega-BookSprite.png|right wsmall]]
 
 *Embrace Pokemon*
 *The power of the Mega Stone makes its senses skyrocket. It is easily upset as it can feel the emotions from everyone in a wide radius. Its psychic powers are said to distort reality.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pixilate|Pixilate]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-gardevoir-mega.png|right]]
+![[SRD-gardevoir-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-gardevoir-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

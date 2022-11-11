@@ -2,9 +2,8 @@
 Ability1: Sand Spit
 Ability2: Shed Skin
 Baby: 'No'
-BookImageName: HOME844.png
-BookShinyImageName: HOME844_s.png
-BoxSprite: SRD-BoxSprite-sandaconda.png
+BookSprite: SRD-sandaconda-BookSprite.png
+BoxSprite: SRD-sandaconda-BoxSprite.png
 DexCategory: Sand Snake Pokemon
 DexDescription: It has a sack that can carry up to 220 lbs of sand, the way it coils
   allow it to spray the sand to its foes. If it sack ever runs out of sand it becomes
@@ -17,7 +16,7 @@ Height:
   Feet: 12.5
   Meters: 3.8
 HiddenAbility: Sand Veil
-HomeSprite: SRD-HomeSprite-sandaconda.png
+HomeSprite: SRD-sandaconda-HomeSprite.png
 Learnset: '[[SRD-Sandaconda-Learnset]]'
 Legendary: 'No'
 Name: Sandaconda
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sandaconda.png|right]]
+![[SRD-sandaconda-BookSprite.png|right wsmall]]
 
 *Sand Snake Pokemon*
 *It has a sack that can carry up to 220 lbs of sand, the way it coils allow it to spray the sand to its foes. If it sack ever runs out of sand it becomes limp and depressed. They are unfriendly but not really aggressive.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Spit|Sand Spit]] / [[SRD-Shed Skin|Shed Skin]] ([[SRD-Sand Veil|Sand Veil]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-sandaconda.png|right]]
+![[SRD-sandaconda-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-sandaconda-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

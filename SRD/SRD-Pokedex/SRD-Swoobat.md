@@ -2,9 +2,8 @@
 Ability1: Unaware
 Ability2: Klutz
 Baby: 'No'
-BookImageName: HOME528.png
-BookShinyImageName: HOME528_s.png
-BoxSprite: SRD-BoxSprite-swoobat.png
+BookSprite: SRD-swoobat-BookSprite.png
+BoxSprite: SRD-swoobat-BoxSprite.png
 DexCategory: Courting Pokemon
 DexDescription: They communicate by emitting ultrasonic waves through their noses.
   This sound is not perceived by humans but it can affect their mood and emotions.
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Simple
-HomeSprite: SRD-HomeSprite-swoobat.png
+HomeSprite: SRD-swoobat-HomeSprite.png
 Learnset: '[[SRD-Swoobat-Learnset]]'
 Legendary: 'No'
 Name: Swoobat
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-swoobat.png|right]]
+![[SRD-swoobat-BookSprite.png|right wsmall]]
 
 *Courting Pokemon*
 *They communicate by emitting ultrasonic waves through their noses. This sound is not perceived by humans but it can affect their mood and emotions. It hunts Bug Pokemon and loves fresh fruit.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Unaware|Unaware]] / [[SRD-Klutz|Klutz]] ([[SRD-Simple|Simple]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-swoobat.png|right]]
+![[SRD-swoobat-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-swoobat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

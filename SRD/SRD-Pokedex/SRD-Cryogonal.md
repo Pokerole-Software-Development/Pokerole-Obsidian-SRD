@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME615.png
-BookShinyImageName: HOME615_s.png
-BoxSprite: SRD-BoxSprite-cryogonal.png
+BookSprite: SRD-cryogonal-BookSprite.png
+BoxSprite: SRD-cryogonal-BoxSprite.png
 DexCategory: Crystallizing Pokemon
 DexDescription: They are born in snow clouds. Using chains made of ice crystals they
   capture prey. If their body temperature goes up, they turns into steam and vanish
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-cryogonal.png
+HomeSprite: SRD-cryogonal-HomeSprite.png
 Learnset: '[[SRD-Cryogonal-Learnset]]'
 Legendary: 'No'
 Name: Cryogonal
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cryogonal.png|right]]
+![[SRD-cryogonal-BookSprite.png|right wsmall]]
 
 *Crystallizing Pokemon*
 *They are born in snow clouds. Using chains made of ice crystals they capture prey. If their body temperature goes up, they turns into steam and vanish until it freezes and becomes ice again.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-cryogonal.png|right]]
+![[SRD-cryogonal-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-cryogonal-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

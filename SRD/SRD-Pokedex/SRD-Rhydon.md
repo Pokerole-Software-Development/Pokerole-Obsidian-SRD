@@ -2,9 +2,8 @@
 Ability1: Lightning Rod
 Ability2: Rock Head
 Baby: 'No'
-BookImageName: HOME112.png
-BookShinyImageName: HOME112_s.png
-BoxSprite: SRD-BoxSprite-rhydon.png
+BookSprite: SRD-rhydon-BookSprite.png
+BoxSprite: SRD-rhydon-BoxSprite.png
 DexCategory: Drill Pokemon
 DexDescription: It has a horn that serves as a drill for destroying rocks and boulders.
   Rhydon occasionally goes for a swim in rivers and even magma pools. Its great resistance
@@ -17,7 +16,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Reckless
-HomeSprite: SRD-HomeSprite-rhydon.png
+HomeSprite: SRD-rhydon-HomeSprite.png
 Learnset: '[[SRD-Rhydon-Learnset]]'
 Legendary: 'No'
 Name: Rhydon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rhydon.png|right]]
+![[SRD-rhydon-BookSprite.png|right wsmall]]
 
 *Drill Pokemon*
 *It has a horn that serves as a drill for destroying rocks and boulders. Rhydon occasionally goes for a swim in rivers and even magma pools. Its great resistance prevents it from taking any damage.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Lightning Rod|Lightning Rod]] / [[SRD-Rock Head|Rock Head]] ([[SRD-Reckless|Reckless]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-rhydon.png|right]]
+![[SRD-rhydon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-rhydon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Cute Charm
 Ability2: Competitive
 Baby: 'Yes'
-BookImageName: HOME174.png
-BookShinyImageName: HOME174_s.png
-BoxSprite: SRD-BoxSprite-igglybuff.png
+BookSprite: SRD-igglybuff-BookSprite.png
+BoxSprite: SRD-igglybuff-BoxSprite.png
 DexCategory: Balloon Pokemon
 DexDescription: "It has a very light body that makes it float and bounce. If you are\
   \ not careful it can bounce away without control. After being bottle fed it will\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Friend Guard
-HomeSprite: SRD-HomeSprite-igglybuff.png
+HomeSprite: SRD-igglybuff-HomeSprite.png
 Learnset: '[[SRD-Igglybuff-Learnset]]'
 Legendary: 'No'
 Name: Igglybuff
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-igglybuff.png|right]]
+![[SRD-igglybuff-BookSprite.png|right wsmall]]
 
 *Balloon Pokemon*
 *It has a very light body that makes it float and bounce. If you are not careful it can bounce away without control. After being bottle fed it will not bounce but wiggle around. It gets cranky if it doesn’t take a nap.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Competitive|Competitive]] ([[SRD-Friend Guard|Friend Guard]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-igglybuff.png|right]]
+![[SRD-igglybuff-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::2)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-igglybuff-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

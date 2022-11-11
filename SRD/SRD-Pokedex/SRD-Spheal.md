@@ -2,9 +2,8 @@
 Ability1: Thick Fat
 Ability2: Ice Body
 Baby: 'No'
-BookImageName: HOME363.png
-BookShinyImageName: HOME363_s.png
-BoxSprite: SRD-BoxSprite-spheal.png
+BookSprite: SRD-spheal-BookSprite.png
+BoxSprite: SRD-spheal-BoxSprite.png
 DexCategory: Clap Pokemon
 DexDescription: They live in big herds with their families. They are bad swimmers
   but good floaters. To move on land, they roll like balls instead of walking. When
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Oblivious
-HomeSprite: SRD-HomeSprite-spheal.png
+HomeSprite: SRD-spheal-HomeSprite.png
 Learnset: '[[SRD-Spheal-Learnset]]'
 Legendary: 'No'
 Name: Spheal
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-spheal.png|right]]
+![[SRD-spheal-BookSprite.png|right wsmall]]
 
 *Clap Pokemon*
 *They live in big herds with their families. They are bad swimmers but good floaters. To move on land, they roll like balls instead of walking. When they are happy, they clap and squeal, so they can be really noisy.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Ice Body|Ice Body]] ([[SRD-Oblivious|Oblivious]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-spheal.png|right]]
+![[SRD-spheal-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-spheal-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

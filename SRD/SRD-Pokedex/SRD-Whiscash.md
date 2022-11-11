@@ -2,9 +2,8 @@
 Ability1: Oblivious
 Ability2: Anticipation
 Baby: 'No'
-BookImageName: HOME340.png
-BookShinyImageName: HOME340_s.png
-BoxSprite: SRD-BoxSprite-whiscash.png
+BookSprite: SRD-whiscash-BookSprite.png
+BoxSprite: SRD-whiscash-BoxSprite.png
 DexCategory: Whiskers Pokemon
 DexDescription: Dangerous and territorial, they claim entire ponds as their homes
   and will crush whoever dares to dive in with earthquakes. They eat anything alive
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Hydration
-HomeSprite: SRD-HomeSprite-whiscash.png
+HomeSprite: SRD-whiscash-HomeSprite.png
 Learnset: '[[SRD-Whiscash-Learnset]]'
 Legendary: 'No'
 Name: Whiscash
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-whiscash.png|right]]
+![[SRD-whiscash-BookSprite.png|right wsmall]]
 
 *Whiskers Pokemon*
 *Dangerous and territorial, they claim entire ponds as their homes and will crush whoever dares to dive in with earthquakes. They eat anything alive in their pond or swamp. They have learned to foretell real tremors.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Anticipation|Anticipation]] ([[SRD-Hydration|Hydration]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-whiscash.png|right]]
+![[SRD-whiscash-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-whiscash-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

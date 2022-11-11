@@ -2,9 +2,8 @@
 Ability1: Limber
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME853.png
-BookShinyImageName: HOME853_s.png
-BoxSprite: SRD-BoxSprite-grapploct.png
+BookSprite: SRD-grapploct-BookSprite.png
+BoxSprite: SRD-grapploct-BoxSprite.png
 DexCategory: Jujitsu Pokemon
 DexDescription: A body made up of nothing but muscle makes its tentacles very powerful.
   They come out of the ocean to find opponents to battle, once the fight is over they
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Technician
-HomeSprite: SRD-HomeSprite-grapploct.png
+HomeSprite: SRD-grapploct-HomeSprite.png
 Learnset: '[[SRD-Grapploct-Learnset]]'
 Legendary: 'No'
 Name: Grapploct
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-grapploct.png|right]]
+![[SRD-grapploct-BookSprite.png|right wsmall]]
 
 *Jujitsu Pokemon*
 *A body made up of nothing but muscle makes its tentacles very powerful. They come out of the ocean to find opponents to battle, once the fight is over they go back into the sea.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Limber|Limber]] ([[SRD-Technician|Technician]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-grapploct.png|right]]
+![[SRD-grapploct-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-grapploct-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

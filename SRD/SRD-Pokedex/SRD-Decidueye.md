@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME724.png
-BookShinyImageName: HOME724_s.png
-BoxSprite: SRD-BoxSprite-decidueye.png
+BookSprite: SRD-decidueye-BookSprite.png
+BoxSprite: SRD-decidueye-BoxSprite.png
 DexCategory: Arrow Quill Pokemob
 DexDescription: This Pokemon can shoot its own feathers as arrows in just a split
   of second. They are usually calm and collected but they are easily startled if taken
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Long Reach
-HomeSprite: SRD-HomeSprite-decidueye.png
+HomeSprite: SRD-decidueye-HomeSprite.png
 Learnset: '[[SRD-Decidueye-Learnset]]'
 Legendary: 'No'
 Name: Decidueye
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-decidueye.png|right]]
+![[SRD-decidueye-BookSprite.png|right wsmall]]
 
 *Arrow Quill Pokemob*
 *This Pokemon can shoot its own feathers as arrows in just a split of second. They are usually calm and collected but they are easily startled if taken by surprise. It is very rare as most of them are extinct.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Long Reach|Long Reach]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-decidueye.png|right]]
+![[SRD-decidueye-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-decidueye-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

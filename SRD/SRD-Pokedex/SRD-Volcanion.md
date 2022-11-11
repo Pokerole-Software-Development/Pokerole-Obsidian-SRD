@@ -2,9 +2,8 @@
 Ability1: Water Absorb
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME721.png
-BookShinyImageName: HOME721_s.png
-BoxSprite: SRD-BoxSprite-volcanion.png
+BookSprite: SRD-volcanion-BookSprite.png
+BoxSprite: SRD-volcanion-BoxSprite.png
 DexCategory: No Data
 DexDescription: In the early days of world exploring, there are records of an entire
   mountain blowing up in a cloud of steam. The explorers claimed that a creature in
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-volcanion.png
+HomeSprite: SRD-volcanion-HomeSprite.png
 Learnset: '[[SRD-Volcanion-Learnset]]'
 Legendary: 'Yes'
 Name: Volcanion
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-volcanion.png|right]]
+![[SRD-volcanion-BookSprite.png|right wsmall]]
 
 *No Data*
 *In the early days of world exploring, there are records of an entire mountain blowing up in a cloud of steam. The explorers claimed that a creature in the fog was responsible.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-volcanion.png|right]]
+![[SRD-volcanion-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::7)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-volcanion-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

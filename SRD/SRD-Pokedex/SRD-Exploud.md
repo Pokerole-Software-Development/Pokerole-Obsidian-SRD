@@ -2,9 +2,8 @@
 Ability1: Soundproof
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME295.png
-BookShinyImageName: HOME295_s.png
-BoxSprite: SRD-BoxSprite-exploud.png
+BookSprite: SRD-exploud-BookSprite.png
+BoxSprite: SRD-exploud-BoxSprite.png
 DexCategory: Loud Noise Pokemon
 DexDescription: It is said that some tremors are caused by the roars of this Pokemon.
   They communicate with soft noises, raising their voice only in battle. They can
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Scrappy
-HomeSprite: SRD-HomeSprite-exploud.png
+HomeSprite: SRD-exploud-HomeSprite.png
 Learnset: '[[SRD-Exploud-Learnset]]'
 Legendary: 'No'
 Name: Exploud
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-exploud.png|right]]
+![[SRD-exploud-BookSprite.png|right wsmall]]
 
 *Loud Noise Pokemon*
 *It is said that some tremors are caused by the roars of this Pokemon. They communicate with soft noises, raising their voice only in battle. They can emit many different kinds of sounds.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Soundproof|Soundproof]] ([[SRD-Scrappy|Scrappy]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-exploud.png|right]]
+![[SRD-exploud-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-exploud-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

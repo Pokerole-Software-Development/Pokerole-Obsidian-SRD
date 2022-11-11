@@ -2,9 +2,8 @@
 Ability1: Defeatist
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME566.png
-BookShinyImageName: HOME566_s.png
-BoxSprite: SRD-BoxSprite-archen.png
+BookSprite: SRD-archen-BookSprite.png
+BoxSprite: SRD-archen-BoxSprite.png
 DexCategory: First Bird Pokemon
 DexDescription: Revived from a fossil, this Pokemon is thought to be the ancestor
   of all bird Pokemon. Its flight abilities are poor so it just hops up by jumping.
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-archen.png
+HomeSprite: SRD-archen-HomeSprite.png
 Learnset: '[[SRD-Archen-Learnset]]'
 Legendary: 'No'
 Name: Archen
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-archen.png|right]]
+![[SRD-archen-BookSprite.png|right wsmall]]
 
 *First Bird Pokemon*
 *Revived from a fossil, this Pokemon is thought to be the ancestor of all bird Pokemon. Its flight abilities are poor so it just hops up by jumping. They are ill tempered and will not eat processed Pokemon food.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Defeatist|Defeatist]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-archen.png|right]]
+![[SRD-archen-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-archen-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

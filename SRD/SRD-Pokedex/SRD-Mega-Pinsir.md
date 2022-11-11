@@ -2,9 +2,8 @@
 Ability1: Aerilate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME127M.png
-BookShinyImageName: HOME127M_s.png
-BoxSprite: SRD-BoxSprite-pinsir-mega.png
+BookSprite: SRD-pinsir-mega-BookSprite.png
+BoxSprite: SRD-pinsir-mega-BoxSprite.png
 DexCategory: Stagbeetle Pokemon
 DexDescription: With the power of the Mega Stone it develops wings and inhuman strength.
   It can lift foes heavier than itself and still fly with ease. Its mind is in a constant
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-pinsir-mega.png
+HomeSprite: SRD-pinsir-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Pinsir-Learnset]]'
 Legendary: 'No'
 Name: Mega-Pinsir
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pinsir-mega.png|right]]
+![[SRD-pinsir-mega-BookSprite.png|right wsmall]]
 
 *Stagbeetle Pokemon*
 *With the power of the Mega Stone it develops wings and inhuman strength. It can lift foes heavier than itself and still fly with ease. Its mind is in a constant state of excitement and it cannot stay still.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Aerilate|Aerilate]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-pinsir-mega.png|right]]
+![[SRD-pinsir-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-pinsir-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

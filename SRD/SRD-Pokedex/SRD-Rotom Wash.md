@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME479W.png
-BookShinyImageName: HOME479W_s.png
-BoxSprite: SRD-BoxSprite-rotom-wash.png
+BookSprite: SRD-rotom-wash-BookSprite.png
+BoxSprite: SRD-rotom-wash-BoxSprite.png
 DexCategory: Plasma Pokemon
 DexDescription: 'A Washing machine possessed by a Rotom. It uses Water powers and
   floods the houses with torrents of water. While on this form it can use the move:
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-rotom-wash.png
+HomeSprite: SRD-rotom-wash-HomeSprite.png
 Learnset: '[[SRD-Rotom Wash-Learnset]]'
 Legendary: 'No'
 Name: Rotom Wash
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rotom-wash.png|right]]
+![[SRD-rotom-wash-BookSprite.png|right wsmall]]
 
 *Plasma Pokemon*
 *A Washing machine possessed by a Rotom. It uses Water powers and floods the houses with torrents of water. While on this form it can use the move: Hydro Pump.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-rotom-wash.png|right]]
+![[SRD-rotom-wash-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-rotom-wash-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

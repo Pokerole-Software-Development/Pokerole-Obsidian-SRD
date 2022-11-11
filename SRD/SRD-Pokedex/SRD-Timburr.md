@@ -2,9 +2,8 @@
 Ability1: Guts
 Ability2: Sheer Force
 Baby: 'No'
-BookImageName: HOME532.png
-BookShinyImageName: HOME532_s.png
-BoxSprite: SRD-BoxSprite-timburr.png
+BookSprite: SRD-timburr-BookSprite.png
+BoxSprite: SRD-timburr-BoxSprite.png
 DexCategory: Muscular Pokemon
 DexDescription: They carry a big log as a tool and as a weapon. You may see them helping
   with construction work as they strive to challenge their strength. When it can swing
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Iron Fist
-HomeSprite: SRD-HomeSprite-timburr.png
+HomeSprite: SRD-timburr-HomeSprite.png
 Learnset: '[[SRD-Timburr-Learnset]]'
 Legendary: 'No'
 Name: Timburr
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-timburr.png|right]]
+![[SRD-timburr-BookSprite.png|right wsmall]]
 
 *Muscular Pokemon*
 *They carry a big log as a tool and as a weapon. You may see them helping with construction work as they strive to challenge their strength. When it can swing the log without problems it is close to evolve.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Guts|Guts]] / [[SRD-Sheer Force|Sheer Force]] ([[SRD-Iron Fist|Iron Fist]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-timburr.png|right]]
+![[SRD-timburr-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-timburr-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

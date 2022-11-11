@@ -2,9 +2,8 @@
 Ability1: Synchronize
 Ability2: Trace
 Baby: 'No'
-BookImageName: HOME282.png
-BookShinyImageName: HOME282_s.png
-BoxSprite: SRD-BoxSprite-gardevoir.png
+BookSprite: SRD-gardevoir-BookSprite.png
+BoxSprite: SRD-gardevoir-BoxSprite.png
 DexCategory: Embrace Pokemon
 DexDescription: If they sense danger, Gardevoir unleash a wave of psychic energy.
   They can distort this dimension, defy the laws of matter and physics. They risk
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-gardevoir.png
+HomeSprite: SRD-gardevoir-HomeSprite.png
 Learnset: '[[SRD-Gardevoir-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gardevoir.png|right]]
+![[SRD-gardevoir-BookSprite.png|right wsmall]]
 
 *Embrace Pokemon*
 *If they sense danger, Gardevoir unleash a wave of psychic energy. They can distort this dimension, defy the laws of matter and physics. They risk their lives to protect their fellows.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Synchronize|Synchronize]] / [[SRD-Trace|Trace]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-gardevoir.png|right]]
+![[SRD-gardevoir-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-gardevoir-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

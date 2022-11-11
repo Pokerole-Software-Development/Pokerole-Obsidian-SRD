@@ -2,9 +2,8 @@
 Ability1: Solid Rock
 Ability2: Sturdy
 Baby: 'No'
-BookImageName: HOME564.png
-BookShinyImageName: HOME564_s.png
-BoxSprite: SRD-BoxSprite-tirtouga.png
+BookSprite: SRD-tirtouga-BookSprite.png
+BoxSprite: SRD-tirtouga-BoxSprite.png
 DexCategory: Prototurtle Pokemon
 DexDescription: About 100 million years ago, these Pokemon swam in oceans. It is thought
   they also went on land to attack prey. One has been cloned from a fossil that was
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Swift Swim
-HomeSprite: SRD-HomeSprite-tirtouga.png
+HomeSprite: SRD-tirtouga-HomeSprite.png
 Learnset: '[[SRD-Tirtouga-Learnset]]'
 Legendary: 'No'
 Name: Tirtouga
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tirtouga.png|right]]
+![[SRD-tirtouga-BookSprite.png|right wsmall]]
 
 *Prototurtle Pokemon*
 *About 100 million years ago, these Pokemon swam in oceans. It is thought they also went on land to attack prey. One has been cloned from a fossil that was found a mile deep underwater.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Solid Rock|Solid Rock]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-tirtouga.png|right]]
+![[SRD-tirtouga-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-tirtouga-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

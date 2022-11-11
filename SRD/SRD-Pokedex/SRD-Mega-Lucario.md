@@ -2,9 +2,8 @@
 Ability1: Adaptability
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME448M.png
-BookShinyImageName: HOME448M_s.png
-BoxSprite: SRD-BoxSprite-lucario-mega.png
+BookSprite: SRD-lucario-mega-BookSprite.png
+BoxSprite: SRD-lucario-mega-BoxSprite.png
 DexCategory: Aura Pokemon
 DexDescription: 'The explosive, pulsing energy of the auras and the Mega Stone have
   awoken its combative instincts. Its fighting style can be summed up in a single
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-lucario-mega.png
+HomeSprite: SRD-lucario-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Lucario-Learnset]]'
 Legendary: 'No'
 Name: Mega-Lucario
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lucario-mega.png|right]]
+![[SRD-lucario-mega-BookSprite.png|right wsmall]]
 
 *Aura Pokemon*
 *The explosive, pulsing energy of the auras and the Mega Stone have awoken its combative instincts. Its fighting style can be summed up in a single word: heartless.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Adaptability|Adaptability]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-lucario-mega.png|right]]
+![[SRD-lucario-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-lucario-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

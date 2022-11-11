@@ -2,9 +2,8 @@
 Ability1: Compound Eyes
 Ability2: Tinted Lens
 Baby: 'No'
-BookImageName: HOME048.png
-BookShinyImageName: HOME048_s.png
-BoxSprite: SRD-BoxSprite-venonat.png
+BookSprite: SRD-venonat-BookSprite.png
+BoxSprite: SRD-venonat-BoxSprite.png
 DexCategory: Insect Pokemon
 DexDescription: It lives in the holes of trees in dense forests and jungles. Its large
   eyes never fail to spot even minuscule prey. Sometimes Venonat uses its powers to
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Run Away
-HomeSprite: SRD-HomeSprite-venonat.png
+HomeSprite: SRD-venonat-HomeSprite.png
 Learnset: '[[SRD-Venonat-Learnset]]'
 Legendary: 'No'
 Name: Venonat
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-venonat.png|right]]
+![[SRD-venonat-BookSprite.png|right wsmall]]
 
 *Insect Pokemon*
 *It lives in the holes of trees in dense forests and jungles. Its large eyes never fail to spot even minuscule prey. Sometimes Venonat uses its powers to confuse travelers and make them lose their way.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Compound Eyes|Compound Eyes]] / [[SRD-Tinted Lens|Tinted Lens]] ([[SRD-Run Away|Run Away]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-venonat.png|right]]
+![[SRD-venonat-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-venonat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

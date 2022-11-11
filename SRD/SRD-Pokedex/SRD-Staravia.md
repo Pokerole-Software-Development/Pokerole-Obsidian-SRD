@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME397.png
-BookShinyImageName: HOME397_s.png
-BoxSprite: SRD-BoxSprite-staravia.png
+BookSprite: SRD-staravia-BookSprite.png
+BoxSprite: SRD-staravia-BoxSprite.png
 DexCategory: Starling Pokemon
 DexDescription: They lead a huge flock and fight other flocks for territory. If you
   leave it alone, it will start to make a horrible noise. It is a fierce but bad-mannered
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Reckless
-HomeSprite: SRD-HomeSprite-staravia.png
+HomeSprite: SRD-staravia-HomeSprite.png
 Learnset: '[[SRD-Staravia-Learnset]]'
 Legendary: 'No'
 Name: Staravia
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-staravia.png|right]]
+![[SRD-staravia-BookSprite.png|right wsmall]]
 
 *Starling Pokemon*
 *They lead a huge flock and fight other flocks for territory. If you leave it alone, it will start to make a horrible noise. It is a fierce but bad-mannered Pokemon. When they are too weak they abandon their flocks.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] ([[SRD-Reckless|Reckless]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-staravia.png|right]]
+![[SRD-staravia-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-staravia-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

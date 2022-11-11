@@ -2,9 +2,8 @@
 Ability1: Early Bird
 Ability2: Scrappy
 Baby: 'No'
-BookImageName: HOME115.png
-BookShinyImageName: HOME115_s.png
-BoxSprite: SRD-BoxSprite-kangaskhan.png
+BookSprite: SRD-kangaskhan-BookSprite.png
+BoxSprite: SRD-kangaskhan-BoxSprite.png
 DexCategory: Parent Pokemon
 DexDescription: A female only species. It raises its offspring in its belly pouch.
   The young leaves once it learns to find its own food. In the wild, mothers and daughters
@@ -17,7 +16,7 @@ Height:
   Feet: 7.2
   Meters: 2.2
 HiddenAbility: Inner Focus
-HomeSprite: SRD-HomeSprite-kangaskhan.png
+HomeSprite: SRD-kangaskhan-HomeSprite.png
 Learnset: '[[SRD-Kangaskhan-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-kangaskhan.png|right]]
+![[SRD-kangaskhan-BookSprite.png|right wsmall]]
 
 *Parent Pokemon*
 *A female only species. It raises its offspring in its belly pouch. The young leaves once it learns to find its own food. In the wild, mothers and daughters fiercely defend each other.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Early Bird|Early Bird]] / [[SRD-Scrappy|Scrappy]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-kangaskhan.png|right]]
+![[SRD-kangaskhan-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-kangaskhan-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

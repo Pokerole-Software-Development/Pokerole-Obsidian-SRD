@@ -2,9 +2,8 @@
 Ability1: Rivalry
 Ability2: Mold Breaker
 Baby: 'No'
-BookImageName: HOME612.png
-BookShinyImageName: HOME612_s.png
-BoxSprite: SRD-BoxSprite-haxorus.png
+BookSprite: SRD-haxorus-BookSprite.png
+BoxSprite: SRD-haxorus-BoxSprite.png
 DexCategory: Axe Jaw Pokemon
 DexDescription: Their sturdy tusks will stay sharp even if they are used to cut steel.
   These Pokemon are covered in hard armor. They incredibly aggressive, if their territory
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Unnerve
-HomeSprite: SRD-HomeSprite-haxorus.png
+HomeSprite: SRD-haxorus-HomeSprite.png
 Learnset: '[[SRD-Haxorus-Learnset]]'
 Legendary: 'No'
 Name: Haxorus
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-haxorus.png|right]]
+![[SRD-haxorus-BookSprite.png|right wsmall]]
 
 *Axe Jaw Pokemon*
 *Their sturdy tusks will stay sharp even if they are used to cut steel. These Pokemon are covered in hard armor. They incredibly aggressive, if their territory is trespassed, they chase and slash mercilessly.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rivalry|Rivalry]] / [[SRD-Mold Breaker|Mold Breaker]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-haxorus.png|right]]
+![[SRD-haxorus-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-haxorus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

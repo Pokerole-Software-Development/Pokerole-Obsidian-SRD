@@ -2,9 +2,8 @@
 Ability1: Vital Spirit
 Ability2: Sand Rush
 Baby: 'No'
-BookImageName: HOME506.png
-BookShinyImageName: HOME506_s.png
-BoxSprite: SRD-BoxSprite-lillipup.png
+BookSprite: SRD-lillipup-BookSprite.png
+BoxSprite: SRD-lillipup-BoxSprite.png
 DexCategory: Puppy Pokemon
 DexDescription: "Good with children and old people, this gentle Pokemon is a favorite\
   \ to keep as pet. It is very brave and smart and will protect it\u2019s trainer\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Scrappy
-HomeSprite: SRD-HomeSprite-lillipup.png
+HomeSprite: SRD-lillipup-HomeSprite.png
 Learnset: '[[SRD-Lillipup-Learnset]]'
 Legendary: 'No'
 Name: Lillipup
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lillipup.png|right]]
+![[SRD-lillipup-BookSprite.png|right wsmall]]
 
 *Puppy Pokemon*
 *Good with children and old people, this gentle Pokemon is a favorite to keep as pet. It is very brave and smart and will protect it’s trainer against any threat. It uses the hair on its head to feel its surroundings.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Vital Spirit|Vital Spirit]] / [[SRD-Sand Rush|Sand Rush]] ([[SRD-Scrappy|Scrappy]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-lillipup.png|right]]
+![[SRD-lillipup-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-lillipup-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

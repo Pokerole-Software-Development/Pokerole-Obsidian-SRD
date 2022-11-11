@@ -2,9 +2,8 @@
 Ability1: Rattled
 Ability2: Static
 Baby: 'Yes'
-BookImageName: HOME848.png
-BookShinyImageName: HOME848_s.png
-BoxSprite: SRD-BoxSprite-toxel.png
+BookSprite: SRD-toxel-BookSprite.png
+BoxSprite: SRD-toxel-BoxSprite.png
 DexCategory: Baby Pokemon
 DexDescription: Toxel secrete poison through their skin, the closer they are to evolving,
   the brighter their skin color becomes. They need a lot of nurturing but are bad
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Klutz
-HomeSprite: SRD-HomeSprite-toxel.png
+HomeSprite: SRD-toxel-HomeSprite.png
 Learnset: '[[SRD-Toxel-Learnset]]'
 Legendary: 'No'
 Name: Toxel
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-toxel.png|right]]
+![[SRD-toxel-BookSprite.png|right wsmall]]
 
 *Baby Pokemon*
 *Toxel secrete poison through their skin, the closer they are to evolving, the brighter their skin color becomes. They need a lot of nurturing but are bad tempered and ill mannered so not many take the task.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rattled|Rattled]] / [[SRD-Static|Static]] ([[SRD-Klutz|Klutz]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-toxel.png|right]]
+![[SRD-toxel-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-toxel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Natural Cure
 Ability2: Frisk
 Baby: 'No'
-BookImageName: HOME709.png
-BookShinyImageName: HOME709_s.png
-BoxSprite: SRD-BoxSprite-trevenant.png
+BookSprite: SRD-trevenant-BookSprite.png
+BoxSprite: SRD-trevenant-BoxSprite.png
 DexCategory: Elder Tree Pokemon
 DexDescription: "Using its roots as a nervous system it controls the trees in the\
   \ forest. It\u2019s kind to the Pokemon that reside inside its body but it is ruthless\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Harvest
-HomeSprite: SRD-HomeSprite-trevenant.png
+HomeSprite: SRD-trevenant-HomeSprite.png
 Learnset: '[[SRD-Trevenant-Learnset]]'
 Legendary: 'No'
 Name: Trevenant
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-trevenant.png|right]]
+![[SRD-trevenant-BookSprite.png|right wsmall]]
 
 *Elder Tree Pokemon*
 *Using its roots as a nervous system it controls the trees in the forest. It’s kind to the Pokemon that reside inside its body but it is ruthless to anyone that harms its forest, turning them into haunted trees forever.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]] / [[SRD-Frisk|Frisk]] ([[SRD-Harvest|Harvest]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-trevenant.png|right]]
+![[SRD-trevenant-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-trevenant-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

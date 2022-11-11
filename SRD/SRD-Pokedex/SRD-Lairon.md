@@ -2,9 +2,8 @@
 Ability1: Sturdy
 Ability2: Rock Head
 Baby: 'No'
-BookImageName: HOME305.png
-BookShinyImageName: HOME305_s.png
-BoxSprite: SRD-BoxSprite-lairon.png
+BookSprite: SRD-lairon-BookSprite.png
+BoxSprite: SRD-lairon-BoxSprite.png
 DexCategory: Iron Armor Pokemon
 DexDescription: Their armors gets stronger by eating iron ores and drinking mineral
   spring water, usually nesting close to ponds. Lairons often attack human miners.
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Heavy Metal
-HomeSprite: SRD-HomeSprite-lairon.png
+HomeSprite: SRD-lairon-HomeSprite.png
 Learnset: '[[SRD-Lairon-Learnset]]'
 Legendary: 'No'
 Name: Lairon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lairon.png|right]]
+![[SRD-lairon-BookSprite.png|right wsmall]]
 
 *Iron Armor Pokemon*
 *Their armors gets stronger by eating iron ores and drinking mineral spring water, usually nesting close to ponds. Lairons often attack human miners. They are territorial creatures, incredibly stubborn and resilient.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Rock Head|Rock Head]] ([[SRD-Heavy Metal|Heavy Metal]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-lairon.png|right]]
+![[SRD-lairon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-lairon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

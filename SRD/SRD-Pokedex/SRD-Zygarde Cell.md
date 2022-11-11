@@ -2,8 +2,8 @@
 Ability1: Power Construct
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME718L.png
-BoxSprite: SRD-BoxSprite-zygarde.png
+BookSprite: SRD-zygarde-BookSprite.png
+BoxSprite: SRD-zygarde-BoxSprite.png
 DexCategory: No Data
 DexDescription: Only the the cores react to stimuli, the cells remain mostly inanimate.
   They gather in great numbers to create and strengthen Zygarde.
@@ -15,7 +15,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-zygarde.png
+HomeSprite: SRD-zygarde-HomeSprite.png
 Learnset: '[[SRD-Zygarde Cell-Learnset]]'
 Legendary: 'Yes'
 Name: Zygarde Cell
@@ -35,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zygarde.png|right]]
+![[SRD-zygarde-BookSprite.png|right wsmall]]
 
 *No Data*
 *Only the the cores react to stimuli, the cells remain mostly inanimate. They gather in great numbers to create and strengthen Zygarde.*
@@ -46,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Power Construct|Power Construct]]
 **Base HP**:: 1
 
-![[SRD-BoxSprite-zygarde.png|right]]
+![[SRD-zygarde-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -55,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::1)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::1)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::1)     |
+
+![[SRD-zygarde-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

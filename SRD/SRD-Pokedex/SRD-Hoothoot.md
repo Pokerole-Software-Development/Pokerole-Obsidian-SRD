@@ -2,9 +2,8 @@
 Ability1: Insomnia
 Ability2: Keen Eye
 Baby: 'No'
-BookImageName: HOME163.png
-BookShinyImageName: HOME163_s.png
-BoxSprite: SRD-BoxSprite-hoothoot.png
+BookSprite: SRD-hoothoot-BookSprite.png
+BoxSprite: SRD-hoothoot-BoxSprite.png
 DexCategory: Owl Pokemon
 DexDescription: "A nocturnal Pokemon found in dark forests. It has an internal organ\
   \ that senses the earth\u2019s rotation. By using this special organ a Hoothoot\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Tinted Lens
-HomeSprite: SRD-HomeSprite-hoothoot.png
+HomeSprite: SRD-hoothoot-HomeSprite.png
 Learnset: '[[SRD-Hoothoot-Learnset]]'
 Legendary: 'No'
 Name: Hoothoot
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-hoothoot.png|right]]
+![[SRD-hoothoot-BookSprite.png|right wsmall]]
 
 *Owl Pokemon*
 *A nocturnal Pokemon found in dark forests. It has an internal organ that senses the earth’s rotation. By using this special organ a Hoothoot begins hooting at precisely the same time every day.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Insomnia|Insomnia]] / [[SRD-Keen Eye|Keen Eye]] ([[SRD-Tinted Lens|Tinted Lens]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-hoothoot.png|right]]
+![[SRD-hoothoot-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-hoothoot-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

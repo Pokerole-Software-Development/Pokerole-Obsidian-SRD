@@ -2,9 +2,8 @@
 Ability1: Refrigerate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME362M.png
-BookShinyImageName: HOME362M_s.png
-BoxSprite: SRD-BoxSprite-glalie-mega.png
+BookSprite: SRD-glalie-mega-BookSprite.png
+BoxSprite: SRD-glalie-mega-BoxSprite.png
 DexCategory: Face Pokemon
 DexDescription: The power of the Mega Stone bent its jaw at an unnatural angle, this
   helps it spew enormous blizzards but leaves it unable to eat any prey it catches.
@@ -17,7 +16,7 @@ Height:
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: Moody
-HomeSprite: SRD-HomeSprite-glalie-mega.png
+HomeSprite: SRD-glalie-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Glalie-Learnset]]'
 Legendary: 'No'
 Name: Mega-Glalie
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-glalie-mega.png|right]]
+![[SRD-glalie-mega-BookSprite.png|right wsmall]]
 
 *Face Pokemon*
 *The power of the Mega Stone bent its jaw at an unnatural angle, this helps it spew enormous blizzards but leaves it unable to eat any prey it catches. This makes it angry and will weaken it if it stays in this form.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Refrigerate|Refrigerate]] ([[SRD-Moody|Moody]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-glalie-mega.png|right]]
+![[SRD-glalie-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-glalie-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

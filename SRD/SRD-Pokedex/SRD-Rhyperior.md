@@ -2,9 +2,8 @@
 Ability1: Lightning Rod
 Ability2: Solid Rock
 Baby: 'No'
-BookImageName: HOME464.png
-BookShinyImageName: HOME464_s.png
-BoxSprite: SRD-BoxSprite-rhyperior.png
+BookSprite: SRD-rhyperior-BookSprite.png
+BoxSprite: SRD-rhyperior-BoxSprite.png
 DexCategory: Drill Pokemon
 DexDescription: They have rarely been seen in the wild and only in the tallest mountains.
   It has holes on its hands which are used like canons to shoot boulders. Be careful,
@@ -17,7 +16,7 @@ Height:
   Feet: 7.9
   Meters: 2.4
 HiddenAbility: Reckless
-HomeSprite: SRD-HomeSprite-rhyperior.png
+HomeSprite: SRD-rhyperior-HomeSprite.png
 Learnset: '[[SRD-Rhyperior-Learnset]]'
 Legendary: 'No'
 Name: Rhyperior
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rhyperior.png|right]]
+![[SRD-rhyperior-BookSprite.png|right wsmall]]
 
 *Drill Pokemon*
 *They have rarely been seen in the wild and only in the tallest mountains. It has holes on its hands which are used like canons to shoot boulders. Be careful, they are very aggressive but not very smart.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Lightning Rod|Lightning Rod]] / [[SRD-Solid Rock|Solid Rock]] ([[SRD-Reckless|Reckless]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-rhyperior.png|right]]
+![[SRD-rhyperior-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-rhyperior-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

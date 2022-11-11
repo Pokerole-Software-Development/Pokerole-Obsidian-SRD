@@ -2,9 +2,8 @@
 Ability1: Unaware
 Ability2: Klutz
 Baby: 'No'
-BookImageName: HOME527.png
-BookShinyImageName: HOME527_s.png
-BoxSprite: SRD-BoxSprite-woobat.png
+BookSprite: SRD-woobat-BookSprite.png
+BoxSprite: SRD-woobat-BoxSprite.png
 DexCategory: Bat Pokemon
 DexDescription: It lives in dark forests and caves. Emits ultrasonic waves from its
   nose it learns about its surroundings. The two small eyes it has get covered by
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Simple
-HomeSprite: SRD-HomeSprite-woobat.png
+HomeSprite: SRD-woobat-HomeSprite.png
 Learnset: '[[SRD-Woobat-Learnset]]'
 Legendary: 'No'
 Name: Woobat
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-woobat.png|right]]
+![[SRD-woobat-BookSprite.png|right wsmall]]
 
 *Bat Pokemon*
 *It lives in dark forests and caves. Emits ultrasonic waves from its nose it learns about its surroundings. The two small eyes it has get covered by its own fur. It clings to trees and cave walls to sleep at night.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Unaware|Unaware]] / [[SRD-Klutz|Klutz]] ([[SRD-Simple|Simple]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-woobat.png|right]]
+![[SRD-woobat-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-woobat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

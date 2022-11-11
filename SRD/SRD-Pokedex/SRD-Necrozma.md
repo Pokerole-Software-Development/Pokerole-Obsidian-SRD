@@ -2,9 +2,8 @@
 Ability1: Prism Armor
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME800.png
-BookShinyImageName: HOME800_s.png
-BoxSprite: SRD-BoxSprite-necrozma.png
+BookSprite: SRD-necrozma-BookSprite.png
+BoxSprite: SRD-necrozma-BoxSprite.png
 DexCategory: 'Aether Foundation Log #179'
 DexDescription: First it was just a passing shadow, a shady lurker on the other side
   of the abyss, but then today it made an appearance. the creature attached itself
@@ -17,7 +16,7 @@ Height:
   Feet: 7.9
   Meters: 2.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-necrozma.png
+HomeSprite: SRD-necrozma-HomeSprite.png
 Learnset: '[[SRD-Necrozma-Learnset]]'
 Legendary: 'Yes'
 Name: Necrozma
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-necrozma.png|right]]
+![[SRD-necrozma-BookSprite.png|right wsmall]]
 
 *Aether Foundation Log #179*
 *First it was just a passing shadow, a shady lurker on the other side of the abyss, but then today it made an appearance. the creature attached itself to our light sources, depleting them until it was all in darkness.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Prism Armor|Prism Armor]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-necrozma.png|right]]
+![[SRD-necrozma-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-necrozma-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

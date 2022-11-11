@@ -2,9 +2,8 @@
 Ability1: Natural Cure
 Ability2: Poison Point
 Baby: 'No'
-BookImageName: HOME315.png
-BookShinyImageName: HOME315_s.png
-BoxSprite: SRD-BoxSprite-roselia.png
+BookSprite: SRD-roselia-BookSprite.png
+BoxSprite: SRD-roselia-BoxSprite.png
 DexCategory: Thorn Pokemon
 DexDescription: They live among rose bushes, shooting sharp poisonous thorns to anyone
   who tries to steal one of their flowers. Their aroma brings serenity. They need
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Leaf Guard
-HomeSprite: SRD-HomeSprite-roselia.png
+HomeSprite: SRD-roselia-HomeSprite.png
 Learnset: '[[SRD-Roselia-Learnset]]'
 Legendary: 'No'
 Name: Roselia
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-roselia.png|right]]
+![[SRD-roselia-BookSprite.png|right wsmall]]
 
 *Thorn Pokemon*
 *They live among rose bushes, shooting sharp poisonous thorns to anyone who tries to steal one of their flowers. Their aroma brings serenity. They need clean water to grow beautiful.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]] / [[SRD-Poison Point|Poison Point]] ([[SRD-Leaf Guard|Leaf Guard]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-roselia.png|right]]
+![[SRD-roselia-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-roselia-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

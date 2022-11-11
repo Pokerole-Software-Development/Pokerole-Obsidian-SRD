@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: Early Bird
 Baby: 'No'
-BookImageName: HOME166.png
-BookShinyImageName: HOME166_s.png
-BoxSprite: SRD-BoxSprite-ledian.png
+BookSprite: SRD-ledian-BookSprite.png
+BoxSprite: SRD-ledian-BoxSprite.png
 DexCategory: Five Star Pokemon
 DexDescription: When the stars flicker in the night sky, it flutters about scattering
   a glowing powder. The spot patterns on its back grow larger or smaller at night
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Iron Fist
-HomeSprite: SRD-HomeSprite-ledian.png
+HomeSprite: SRD-ledian-HomeSprite.png
 Learnset: '[[SRD-Ledian-Learnset]]'
 Legendary: 'No'
 Name: Ledian
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ledian.png|right]]
+![[SRD-ledian-BookSprite.png|right wsmall]]
 
 *Five Star Pokemon*
 *When the stars flicker in the night sky, it flutters about scattering a glowing powder. The spot patterns on its back grow larger or smaller at night depending on the number of stars in the sky.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Iron Fist|Iron Fist]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-ledian.png|right]]
+![[SRD-ledian-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-ledian-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Cute Charm
 Ability2: Magic Guard
 Baby: 'Yes'
-BookImageName: HOME173.png
-BookShinyImageName: HOME173_s.png
-BoxSprite: SRD-BoxSprite-cleffa.png
+BookSprite: SRD-cleffa-BookSprite.png
+BoxSprite: SRD-cleffa-BoxSprite.png
 DexCategory: Star Shape Pokemon
 DexDescription: An extremely elusive Pokemon. A few have appeared when the night skies
   are filled with shooting stars - but they always disappear at dawn. Friendship and
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Friend Guard
-HomeSprite: SRD-HomeSprite-cleffa.png
+HomeSprite: SRD-cleffa-HomeSprite.png
 Learnset: '[[SRD-Cleffa-Learnset]]'
 Legendary: 'No'
 Name: Cleffa
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cleffa.png|right]]
+![[SRD-cleffa-BookSprite.png|right wsmall]]
 
 *Star Shape Pokemon*
 *An extremely elusive Pokemon. A few have appeared when the night skies are filled with shooting stars - but they always disappear at dawn. Friendship and love allows it to go into the next step of life.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Magic Guard|Magic Guard]] ([[SRD-Friend Guard|Friend Guard]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-cleffa.png|right]]
+![[SRD-cleffa-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-cleffa-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

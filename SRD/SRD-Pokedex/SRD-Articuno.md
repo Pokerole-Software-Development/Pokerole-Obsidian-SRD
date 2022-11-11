@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME144.png
-BookShinyImageName: HOME144_s.png
-BoxSprite: SRD-BoxSprite-articuno.png
+BookSprite: SRD-articuno-BookSprite.png
+BoxSprite: SRD-articuno-BoxSprite.png
 DexCategory: No Data
 DexDescription: Rumor has it that one appeared during a blizzard in front of two lost
   hikers who followed its glistening trail until they found the main road. Others
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Snow Cloak
-HomeSprite: SRD-HomeSprite-articuno.png
+HomeSprite: SRD-articuno-HomeSprite.png
 Learnset: '[[SRD-Articuno-Learnset]]'
 Legendary: 'Yes'
 Name: Articuno
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-articuno.png|right]]
+![[SRD-articuno-BookSprite.png|right wsmall]]
 
 *No Data*
 *Rumor has it that one appeared during a blizzard in front of two lost hikers who followed its glistening trail until they found the main road. Others say its silhouette can be seen during raging snow storms.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Snow Cloak|Snow Cloak]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-articuno.png|right]]
+![[SRD-articuno-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-articuno-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

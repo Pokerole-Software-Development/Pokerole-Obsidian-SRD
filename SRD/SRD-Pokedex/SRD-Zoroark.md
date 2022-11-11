@@ -2,9 +2,8 @@
 Ability1: Illusion
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME571.png
-BookShinyImageName: HOME571_s.png
-BoxSprite: SRD-BoxSprite-zoroark.png
+BookSprite: SRD-zoroark-BookSprite.png
+BoxSprite: SRD-zoroark-BoxSprite.png
 DexCategory: Illusion Fox Pokemon
 DexDescription: "They live in groups, their lair\u2019s entrance is protected with\
   \ their illusions and mirages. They have been known to fool entire towns with their\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-zoroark.png
+HomeSprite: SRD-zoroark-HomeSprite.png
 Learnset: '[[SRD-Zoroark-Learnset]]'
 Legendary: 'No'
 Name: Zoroark
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zoroark.png|right]]
+![[SRD-zoroark-BookSprite.png|right wsmall]]
 
 *Illusion Fox Pokemon*
 *They live in groups, their lair’s entrance is protected with their illusions and mirages. They have been known to fool entire towns with their tricks. Their illusions can hide their tails now but they remain mute.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Illusion|Illusion]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-zoroark.png|right]]
+![[SRD-zoroark-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-zoroark-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

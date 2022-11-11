@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME310M.png
-BookShinyImageName: HOME310M_s.png
-BoxSprite: SRD-BoxSprite-manectric-mega.png
+BookSprite: SRD-manectric-mega-BookSprite.png
+BoxSprite: SRD-manectric-mega-BoxSprite.png
 DexCategory: Discharge Pokemon
 DexDescription: The power of the Mega Stone gives it an insurmountable amount of electricity
   that gives it an explosive velocity, but it is too much for it to bear. Its mane
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-manectric-mega.png
+HomeSprite: SRD-manectric-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Manectric-Learnset]]'
 Legendary: 'No'
 Name: Mega-Manectric
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-manectric-mega.png|right]]
+![[SRD-manectric-mega-BookSprite.png|right wsmall]]
 
 *Discharge Pokemon*
 *The power of the Mega Stone gives it an insurmountable amount of electricity that gives it an explosive velocity, but it is too much for it to bear. Its mane grows uncomfortably large, making it moody.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-manectric-mega.png|right]]
+![[SRD-manectric-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-manectric-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

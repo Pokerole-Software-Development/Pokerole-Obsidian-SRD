@@ -2,9 +2,8 @@
 Ability1: Insomnia
 Ability2: Super Luck
 Baby: 'No'
-BookImageName: HOME430.png
-BookShinyImageName: HOME430_s.png
-BoxSprite: SRD-BoxSprite-honchkrow.png
+BookSprite: SRD-honchkrow-BookSprite.png
+BoxSprite: SRD-honchkrow-BoxSprite.png
 DexCategory: Big Boss Pokemon
 DexDescription: It lets out a deep cry to summon Murkrows, which fetch food and shiny
   objects to Honchkrow. It is, however, a tyrant to the Murkrow. It only goes out
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Moxie
-HomeSprite: SRD-HomeSprite-honchkrow.png
+HomeSprite: SRD-honchkrow-HomeSprite.png
 Learnset: '[[SRD-Honchkrow-Learnset]]'
 Legendary: 'No'
 Name: Honchkrow
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-honchkrow.png|right]]
+![[SRD-honchkrow-BookSprite.png|right wsmall]]
 
 *Big Boss Pokemon*
 *It lets out a deep cry to summon Murkrows, which fetch food and shiny objects to Honchkrow. It is, however, a tyrant to the Murkrow. It only goes out at night to carry out evil deeds.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Insomnia|Insomnia]] / [[SRD-Super Luck|Super Luck]] ([[SRD-Moxie|Moxie]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-honchkrow.png|right]]
+![[SRD-honchkrow-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-honchkrow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

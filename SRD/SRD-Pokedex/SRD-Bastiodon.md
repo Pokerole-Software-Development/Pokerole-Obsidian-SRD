@@ -2,9 +2,8 @@
 Ability1: Sturdy
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME411.png
-BookShinyImageName: HOME411_s.png
-BoxSprite: SRD-BoxSprite-bastiodon.png
+BookSprite: SRD-bastiodon-BookSprite.png
+BoxSprite: SRD-bastiodon-BoxSprite.png
 DexCategory: Shield Pokemon
 DexDescription: They lived in herds, millions of years ago. They would line together
   to shield their young. Despite its rough and scary exterior, this Pokemon is calm,
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Soundproof
-HomeSprite: SRD-HomeSprite-bastiodon.png
+HomeSprite: SRD-bastiodon-HomeSprite.png
 Learnset: '[[SRD-Bastiodon-Learnset]]'
 Legendary: 'No'
 Name: Bastiodon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-bastiodon.png|right]]
+![[SRD-bastiodon-BookSprite.png|right wsmall]]
 
 *Shield Pokemon*
 *They lived in herds, millions of years ago. They would line together to shield their young. Despite its rough and scary exterior, this Pokemon is calm, gentle natured and a strict herbivore.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sturdy|Sturdy]] ([[SRD-Soundproof|Soundproof]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-bastiodon.png|right]]
+![[SRD-bastiodon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::4)/(MaxVitality::8)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-bastiodon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

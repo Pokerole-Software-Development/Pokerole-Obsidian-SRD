@@ -2,9 +2,8 @@
 Ability1: Limber
 Ability2: Unburden
 Baby: 'No'
-BookImageName: HOME510.png
-BookShinyImageName: HOME510_s.png
-BoxSprite: SRD-BoxSprite-liepard.png
+BookSprite: SRD-liepard-BookSprite.png
+BoxSprite: SRD-liepard-BoxSprite.png
 DexCategory: Cruel Pokemon
 DexDescription: "It\u2019s difficult to see one in the wild. These Pokemon vanish\
   \ and appear attacking unexpectedly. Many Trainers are drawn to their beautiful\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Prankster
-HomeSprite: SRD-HomeSprite-liepard.png
+HomeSprite: SRD-liepard-HomeSprite.png
 Learnset: '[[SRD-Liepard-Learnset]]'
 Legendary: 'No'
 Name: Liepard
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-liepard.png|right]]
+![[SRD-liepard-BookSprite.png|right wsmall]]
 
 *Cruel Pokemon*
 *It’s difficult to see one in the wild. These Pokemon vanish and appear attacking unexpectedly. Many Trainers are drawn to their beautiful fur and elegant appeal. But they can be quite dangerous.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Limber|Limber]] / [[SRD-Unburden|Unburden]] ([[SRD-Prankster|Prankster]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-liepard.png|right]]
+![[SRD-liepard-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-liepard-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

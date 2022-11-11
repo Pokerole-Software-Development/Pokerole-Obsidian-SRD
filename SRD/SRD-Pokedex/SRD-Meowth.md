@@ -2,9 +2,8 @@
 Ability1: Pickup
 Ability2: Technician
 Baby: 'No'
-BookImageName: HOME052.png
-BookShinyImageName: HOME052_s.png
-BoxSprite: SRD-BoxSprite-meowth.png
+BookSprite: SRD-meowth-BookSprite.png
+BoxSprite: SRD-meowth-BoxSprite.png
 DexCategory: Scratch Cat Pokemon
 DexDescription: They used to live in grasslands but have adapted really well to life
   in the city. Shiny things fascinate them and they keep a little treasure hidden.
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Unnerve
-HomeSprite: SRD-HomeSprite-meowth.png
+HomeSprite: SRD-meowth-HomeSprite.png
 Learnset: '[[SRD-Meowth-Learnset]]'
 Legendary: 'No'
 Name: Meowth
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-meowth.png|right]]
+![[SRD-meowth-BookSprite.png|right wsmall]]
 
 *Scratch Cat Pokemon*
 *They used to live in grasslands but have adapted really well to life in the city. Shiny things fascinate them and they keep a little treasure hidden. The coin on its head is its most prized possession.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Technician|Technician]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-meowth.png|right]]
+![[SRD-meowth-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-meowth-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

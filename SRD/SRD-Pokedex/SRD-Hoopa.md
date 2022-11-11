@@ -2,9 +2,8 @@
 Ability1: Magician
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME720.png
-BookShinyImageName: HOME720_s.png
-BoxSprite: SRD-BoxSprite-hoopa.png
+BookSprite: SRD-hoopa-BookSprite.png
+BoxSprite: SRD-hoopa-BoxSprite.png
 DexCategory: No Data
 DexDescription: There is a story of an old demon whose power had to be contained by
   a spell. The spell was a partial success as the demon could still roam free, but
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-hoopa.png
+HomeSprite: SRD-hoopa-HomeSprite.png
 Learnset: '[[SRD-Hoopa-Learnset]]'
 Legendary: 'Yes'
 Name: Hoopa
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-hoopa.png|right]]
+![[SRD-hoopa-BookSprite.png|right wsmall]]
 
 *No Data*
 *There is a story of an old demon whose power had to be contained by a spell. The spell was a partial success as the demon could still roam free, but its power and evil was greatly diminished.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Magician|Magician]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-hoopa.png|right]]
+![[SRD-hoopa-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::4)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-hoopa-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

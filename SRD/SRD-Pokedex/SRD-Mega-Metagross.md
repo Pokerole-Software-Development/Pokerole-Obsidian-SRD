@@ -2,9 +2,8 @@
 Ability1: Tough Claws
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME376M.png
-BookShinyImageName: HOME376M_s.png
-BoxSprite: SRD-BoxSprite-metagross-mega.png
+BookSprite: SRD-metagross-mega-BookSprite.png
+BoxSprite: SRD-metagross-mega-BoxSprite.png
 DexCategory: Iron Leg Pokemon
 DexDescription: The power of the Mega Stone made its four minds combine. It is now
   a merciless machine-like beast. If it calculates its chances to win are diminishing
@@ -17,7 +16,7 @@ Height:
   Feet: 8.2
   Meters: 2.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-metagross-mega.png
+HomeSprite: SRD-metagross-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Metagross-Learnset]]'
 Legendary: 'No'
 Name: Mega-Metagross
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-metagross-mega.png|right]]
+![[SRD-metagross-mega-BookSprite.png|right wsmall]]
 
 *Iron Leg Pokemon*
 *The power of the Mega Stone made its four minds combine. It is now a merciless machine-like beast. If it calculates its chances to win are diminishing it will clutch itself into its foe and self-destruct.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Tough Claws|Tough Claws]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-metagross-mega.png|right]]
+![[SRD-metagross-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::4)/(MaxVitality::8)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-metagross-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

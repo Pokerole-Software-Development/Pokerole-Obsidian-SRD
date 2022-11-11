@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME847.png
-BookShinyImageName: HOME847_s.png
-BoxSprite: SRD-BoxSprite-barraskewda.png
+BookSprite: SRD-barraskewda-BookSprite.png
+BoxSprite: SRD-barraskewda-BoxSprite.png
 DexCategory: Skewer Pokemon
 DexDescription: "This Pokemon has a jaw that\u2019s as sharp as a spear and as strong\
   \ as steel. Apparently Barraskewda's flesh is surprisingly tasty, too. When they\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Propeller Tail
-HomeSprite: SRD-HomeSprite-barraskewda.png
+HomeSprite: SRD-barraskewda-HomeSprite.png
 Learnset: '[[SRD-Barraskewda-Learnset]]'
 Legendary: 'No'
 Name: Barraskewda
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-barraskewda.png|right]]
+![[SRD-barraskewda-BookSprite.png|right wsmall]]
 
 *Skewer Pokemon*
 *This Pokemon has a jaw that’s as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too. When they hunt, they have speed burst record of 100 knots.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] ([[SRD-Propeller Tail|Propeller Tail]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-barraskewda.png|right]]
+![[SRD-barraskewda-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-barraskewda-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

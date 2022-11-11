@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: Early Bird
 Baby: 'No'
-BookImageName: HOME274.png
-BookShinyImageName: HOME274_s.png
-BoxSprite: SRD-BoxSprite-nuzleaf.png
+BookSprite: SRD-nuzleaf-BookSprite.png
+BoxSprite: SRD-nuzleaf-BoxSprite.png
 DexCategory: Wily Pokemon
 DexDescription: "They live inside holes on big trees. Their leaves are played like\
   \ flutes to strike fear and discomfort in lost people\u2019s hearts. They like to\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Pickpocket
-HomeSprite: SRD-HomeSprite-nuzleaf.png
+HomeSprite: SRD-nuzleaf-HomeSprite.png
 Learnset: '[[SRD-Nuzleaf-Learnset]]'
 Legendary: 'No'
 Name: Nuzleaf
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-nuzleaf.png|right]]
+![[SRD-nuzleaf-BookSprite.png|right wsmall]]
 
 *Wily Pokemon*
 *They live inside holes on big trees. Their leaves are played like flutes to strike fear and discomfort in lost people’s hearts. They like to go out and startle people. Their noses are really sensitive and frail.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-nuzleaf.png|right]]
+![[SRD-nuzleaf-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-nuzleaf-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

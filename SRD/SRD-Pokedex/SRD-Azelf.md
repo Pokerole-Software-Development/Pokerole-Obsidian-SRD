@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME482.png
-BookShinyImageName: HOME482_s.png
-BoxSprite: SRD-BoxSprite-azelf.png
+BookSprite: SRD-azelf-BookSprite.png
+BoxSprite: SRD-azelf-BoxSprite.png
 DexCategory: No Data
 DexDescription: In the myths of Sinnoh they talk about three beings that came out
   from the same egg, the blue one was the being of willpower. Together they shaped
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-azelf.png
+HomeSprite: SRD-azelf-HomeSprite.png
 Learnset: '[[SRD-Azelf-Learnset]]'
 Legendary: 'Yes'
 Name: Azelf
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-azelf.png|right]]
+![[SRD-azelf-BookSprite.png|right wsmall]]
 
 *No Data*
 *In the myths of Sinnoh they talk about three beings that came out from the same egg, the blue one was the being of willpower. Together they shaped the human race to be complete.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-azelf.png|right]]
+![[SRD-azelf-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-azelf-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

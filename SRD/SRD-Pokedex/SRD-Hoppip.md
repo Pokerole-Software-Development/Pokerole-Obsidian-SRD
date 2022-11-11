@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: Leaf Guard
 Baby: 'No'
-BookImageName: HOME187.png
-BookShinyImageName: HOME187_s.png
-BoxSprite: SRD-BoxSprite-hoppip.png
+BookSprite: SRD-hoppip-BookSprite.png
+BoxSprite: SRD-hoppip-BoxSprite.png
 DexCategory: Cottonweed Pokemon
 DexDescription: This Pokemon drifts away by floating in the wind. Even the weakest
   current can lift them up. By the end of the winter you can see them flying above
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Infiltrator
-HomeSprite: SRD-HomeSprite-hoppip.png
+HomeSprite: SRD-hoppip-HomeSprite.png
 Learnset: '[[SRD-Hoppip-Learnset]]'
 Legendary: 'No'
 Name: Hoppip
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-hoppip.png|right]]
+![[SRD-hoppip-BookSprite.png|right wsmall]]
 
 *Cottonweed Pokemon*
 *This Pokemon drifts away by floating in the wind. Even the weakest current can lift them up. By the end of the winter you can see them flying above cities and fields. This means that spring is coming soon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Leaf Guard|Leaf Guard]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-hoppip.png|right]]
+![[SRD-hoppip-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-hoppip-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

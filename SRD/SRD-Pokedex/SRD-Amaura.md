@@ -2,9 +2,8 @@
 Ability1: Refrigerate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME698.png
-BookShinyImageName: HOME698_s.png
-BoxSprite: SRD-BoxSprite-amaura.png
+BookSprite: SRD-amaura-BookSprite.png
+BoxSprite: SRD-amaura-BoxSprite.png
 DexCategory: Tundra Pokemon
 DexDescription: "This ancient Pokemon was restored from part of its body that had\
   \ been frozen for over 100 million years. This calm Pokemon lived in the cold lands\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Snow Warning
-HomeSprite: SRD-HomeSprite-amaura.png
+HomeSprite: SRD-amaura-HomeSprite.png
 Learnset: '[[SRD-Amaura-Learnset]]'
 Legendary: 'No'
 Name: Amaura
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-amaura.png|right]]
+![[SRD-amaura-BookSprite.png|right wsmall]]
 
 *Tundra Pokemon*
 *This ancient Pokemon was restored from part of its body that had been frozen for over 100 million years. This calm Pokemon lived in the cold lands where violent predators like Tyrantrum couldn’t reach it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Refrigerate|Refrigerate]] ([[SRD-Snow Warning|Snow Warning]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-amaura.png|right]]
+![[SRD-amaura-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-amaura-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

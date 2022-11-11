@@ -2,9 +2,8 @@
 Ability1: Snow Cloak
 Ability2: Slush Rush
 Baby: 'No'
-BookImageName: HOME614.png
-BookShinyImageName: HOME614_s.png
-BoxSprite: SRD-BoxSprite-beartic.png
+BookSprite: SRD-beartic-BookSprite.png
+BoxSprite: SRD-beartic-BoxSprite.png
 DexCategory: Freezing Pokemon
 DexDescription: They the cold northern seas and create pathways across the ocean's
   water by freezing their own breath. They dive in the sea to catch prey. They are
@@ -17,7 +16,7 @@ Height:
   Feet: 8.5
   Meters: 2.6
 HiddenAbility: Swift Swim
-HomeSprite: SRD-HomeSprite-beartic.png
+HomeSprite: SRD-beartic-HomeSprite.png
 Learnset: '[[SRD-Beartic-Learnset]]'
 Legendary: 'No'
 Name: Beartic
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-beartic.png|right]]
+![[SRD-beartic-BookSprite.png|right wsmall]]
 
 *Freezing Pokemon*
 *They the cold northern seas and create pathways across the ocean's water by freezing their own breath. They dive in the sea to catch prey. They are not used to humans as they rarely see one.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Snow Cloak|Snow Cloak]] / [[SRD-Slush Rush|Slush Rush]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-beartic.png|right]]
+![[SRD-beartic-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-beartic-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Oblivious
 Ability2: Own Tempo
 Baby: 'No'
-BookImageName: HOME199.png
-BookShinyImageName: HOME199_s.png
-BoxSprite: SRD-BoxSprite-slowking.png
+BookSprite: SRD-slowking-BookSprite.png
+BoxSprite: SRD-slowking-BoxSprite.png
 DexCategory: Royal Pokemon
 DexDescription: It is extremely rare. The Shellder on its head injects a poison that
   made it super intelligent. It takes a lot of interest in learning about Pokemon
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-slowking.png
+HomeSprite: SRD-slowking-HomeSprite.png
 Learnset: '[[SRD-Slowking-Learnset]]'
 Legendary: 'No'
 Name: Slowking
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-slowking.png|right]]
+![[SRD-slowking-BookSprite.png|right wsmall]]
 
 *Royal Pokemon*
 *It is extremely rare. The Shellder on its head injects a poison that made it super intelligent. It takes a lot of interest in learning about Pokemon lore and legends. But if Shellder is knocked out it will forget everything.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-slowking.png|right]]
+![[SRD-slowking-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-slowking-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

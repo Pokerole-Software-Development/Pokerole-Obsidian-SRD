@@ -2,9 +2,8 @@
 Ability1: Beast Boost
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME794.png
-BookShinyImageName: HOME794_s.png
-BoxSprite: SRD-BoxSprite-buzzwole.png
+BookSprite: SRD-buzzwole-BookSprite.png
+BoxSprite: SRD-buzzwole-BoxSprite.png
 DexCategory: 'Aether Foundation Log #071'
 DexDescription: "What we thought were harmless displays of strength were just the\
   \ first warning signs. Today UB-02 destroyed the truck where it was being transported,\
@@ -17,7 +16,7 @@ Height:
   Feet: 7.9
   Meters: 2.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-buzzwole.png
+HomeSprite: SRD-buzzwole-HomeSprite.png
 Learnset: '[[SRD-Buzzwole-Learnset]]'
 Legendary: 'Yes'
 Name: Buzzwole
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-buzzwole.png|right]]
+![[SRD-buzzwole-BookSprite.png|right wsmall]]
 
 *Aether Foundation Log #071*
 *What we thought were harmless displays of strength were just the first warning signs. Today UB-02 destroyed the truck where it was being transported, it escaped and hasn’t been located.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-buzzwole.png|right]]
+![[SRD-buzzwole-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::7)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::4)/(MaxInsight::4)     |
+
+![[SRD-buzzwole-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

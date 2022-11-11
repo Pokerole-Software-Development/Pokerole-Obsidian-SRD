@@ -2,9 +2,8 @@
 Ability1: Water Absorb
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME134.png
-BookShinyImageName: HOME134_s.png
-BoxSprite: SRD-BoxSprite-vaporeon.png
+BookSprite: SRD-vaporeon-BookSprite.png
+BoxSprite: SRD-vaporeon-BoxSprite.png
 DexCategory: Bubble Jet Pokemon
 DexDescription: Vaporeon underwent through a strange mutation, it grew fins and gills
   that allow it to live underwater. This Pokemon has the ability to become translucent
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Hydration
-HomeSprite: SRD-HomeSprite-vaporeon.png
+HomeSprite: SRD-vaporeon-HomeSprite.png
 Learnset: '[[SRD-Vaporeon-Learnset]]'
 Legendary: 'No'
 Name: Vaporeon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-vaporeon.png|right]]
+![[SRD-vaporeon-BookSprite.png|right wsmall]]
 
 *Bubble Jet Pokemon*
 *Vaporeon underwent through a strange mutation, it grew fins and gills that allow it to live underwater. This Pokemon has the ability to become translucent when it dives underwater.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] ([[SRD-Hydration|Hydration]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-vaporeon.png|right]]
+![[SRD-vaporeon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-vaporeon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

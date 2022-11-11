@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME368.png
-BookShinyImageName: HOME368_s.png
-BoxSprite: SRD-BoxSprite-gorebyss.png
+BookSprite: SRD-gorebyss-BookSprite.png
+BoxSprite: SRD-gorebyss-BoxSprite.png
 DexCategory: South Sea Pokemon
 DexDescription: Found in the depths of the southern seas. Their body is built to withstand
   the sea pressure. While it appears to be beautiful and harmless, it is a cruel and
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Hydration
-HomeSprite: SRD-HomeSprite-gorebyss.png
+HomeSprite: SRD-gorebyss-HomeSprite.png
 Learnset: '[[SRD-Gorebyss-Learnset]]'
 Legendary: 'No'
 Name: Gorebyss
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gorebyss.png|right]]
+![[SRD-gorebyss-BookSprite.png|right wsmall]]
 
 *South Sea Pokemon*
 *Found in the depths of the southern seas. Their body is built to withstand the sea pressure. While it appears to be beautiful and harmless, it is a cruel and deceitful creature.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] ([[SRD-Hydration|Hydration]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-gorebyss.png|right]]
+![[SRD-gorebyss-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-gorebyss-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Pickup
 Ability2: Gluttony
 Baby: 'No'
-BookImageName: HOME263G.png
-BookShinyImageName: HOME263G_s.png
-BoxSprite: SRD-BoxSprite-zigzagoon-galar.png
+BookSprite: SRD-zigzagoon-galar-BookSprite.png
+BoxSprite: SRD-zigzagoon-galar-BoxSprite.png
 DexCategory: Tiny Racoon Pokemon
 DexDescription: Zigzagoons raised in Galar grow to be punks. If they see another Pokemon,
   they will purposely run into them to start a fight. The only way to calm them down
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Quick Feet
-HomeSprite: SRD-HomeSprite-zigzagoon-galar.png
+HomeSprite: SRD-zigzagoon-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Zigzagoon-Learnset]]'
 Legendary: 'No'
 Name: Galarian Zigzagoon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zigzagoon-galar.png|right]]
+![[SRD-zigzagoon-galar-BookSprite.png|right wsmall]]
 
 *Tiny Racoon Pokemon*
 *Zigzagoons raised in Galar grow to be punks. If they see another Pokemon, they will purposely run into them to start a fight. The only way to calm them down is with a lot of loud noise.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Gluttony|Gluttony]] ([[SRD-Quick Feet|Quick Feet]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-zigzagoon-galar.png|right]]
+![[SRD-zigzagoon-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-zigzagoon-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

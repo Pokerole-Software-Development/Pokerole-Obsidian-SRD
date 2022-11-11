@@ -2,9 +2,8 @@
 Ability1: Synchronize
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME151.png
-BookShinyImageName: HOME151_s.png
-BoxSprite: SRD-BoxSprite-mew.png
+BookSprite: SRD-mew-BookSprite.png
+BoxSprite: SRD-mew-BoxSprite.png
 DexCategory: No Data
 DexDescription: Recent investigations declare that this Pokemon could be the common
   ancestor of all actual Pokemon, but it has been extinct for centuries. Some people
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-mew.png
+HomeSprite: SRD-mew-HomeSprite.png
 Learnset: '[[SRD-Mew-Learnset]]'
 Legendary: 'Yes'
 Name: Mew
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mew.png|right]]
+![[SRD-mew-BookSprite.png|right wsmall]]
 
 *No Data*
 *Recent investigations declare that this Pokemon could be the common ancestor of all actual Pokemon, but it has been extinct for centuries. Some people claim to have seen one to get their 15 minutes of fame.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Synchronize|Synchronize]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-mew.png|right]]
+![[SRD-mew-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-mew-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Sand Veil
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME443.png
-BookShinyImageName: HOME443_s.png
-BoxSprite: SRD-BoxSprite-gible.png
+BookSprite: SRD-gible-BookSprite.png
+BoxSprite: SRD-gible-BoxSprite.png
 DexCategory: Land Shark Pokemon
 DexDescription: "It digs tunnels and follows prey while burrowed underground. If you\
   \ see the fin on its back coming out the ground it means it is about to attack.\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Rough Skin
-HomeSprite: SRD-HomeSprite-gible.png
+HomeSprite: SRD-gible-HomeSprite.png
 Learnset: '[[SRD-Gible-Learnset]]'
 Legendary: 'No'
 Name: Gible
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gible.png|right]]
+![[SRD-gible-BookSprite.png|right wsmall]]
 
 *Land Shark Pokemon*
 *It digs tunnels and follows prey while burrowed underground. If you see the fin on its back coming out the ground it means it is about to attack. It’s very aggressive but kind of clumsy. Beware of its big jaws.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] ([[SRD-Rough Skin|Rough Skin]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-gible.png|right]]
+![[SRD-gible-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-gible-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

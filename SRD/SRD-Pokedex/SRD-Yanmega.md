@@ -2,9 +2,8 @@
 Ability1: Speed Boost
 Ability2: Compound Eyes
 Baby: 'No'
-BookImageName: HOME469.png
-BookShinyImageName: HOME469_s.png
-BoxSprite: SRD-BoxSprite-yanmega.png
+BookSprite: SRD-yanmega-BookSprite.png
+BoxSprite: SRD-yanmega-BoxSprite.png
 DexCategory: Ogre Darner Pokemon
 DexDescription: It goes back to its prehistoric roots. It is a lot more violent than
   its pre-evolved form. Its jaw power is incredible and it is adept at biting apart
@@ -17,7 +16,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Frisk
-HomeSprite: SRD-HomeSprite-yanmega.png
+HomeSprite: SRD-yanmega-HomeSprite.png
 Learnset: '[[SRD-Yanmega-Learnset]]'
 Legendary: 'No'
 Name: Yanmega
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-yanmega.png|right]]
+![[SRD-yanmega-BookSprite.png|right wsmall]]
 
 *Ogre Darner Pokemon*
 *It goes back to its prehistoric roots. It is a lot more violent than its pre-evolved form. Its jaw power is incredible and it is adept at biting apart foes while flying by at high speed. This Pokemon can be brutal*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Speed Boost|Speed Boost]] / [[SRD-Compound Eyes|Compound Eyes]] ([[SRD-Frisk|Frisk]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-yanmega.png|right]]
+![[SRD-yanmega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-yanmega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

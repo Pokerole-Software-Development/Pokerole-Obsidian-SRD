@@ -2,9 +2,8 @@
 Ability1: Flash Fire
 Ability2: Flame Body
 Baby: 'No'
-BookImageName: HOME609.png
-BookShinyImageName: HOME609_s.png
-BoxSprite: SRD-BoxSprite-chandelure.png
+BookSprite: SRD-chandelure-BookSprite.png
+BoxSprite: SRD-chandelure-BoxSprite.png
 DexCategory: Luring Pokemon
 DexDescription: It consumes the spirits of the living, puts people in a hypnotic trance
   and consumes them with fire. Being consumed in Chandelure's flame burns up the spirit,
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Infiltrator
-HomeSprite: SRD-HomeSprite-chandelure.png
+HomeSprite: SRD-chandelure-HomeSprite.png
 Learnset: '[[SRD-Chandelure-Learnset]]'
 Legendary: 'No'
 Name: Chandelure
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-chandelure.png|right]]
+![[SRD-chandelure-BookSprite.png|right wsmall]]
 
 *Luring Pokemon*
 *It consumes the spirits of the living, puts people in a hypnotic trance and consumes them with fire. Being consumed in Chandelure's flame burns up the spirit, leaving only the body behind.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flash Fire|Flash Fire]] / [[SRD-Flame Body|Flame Body]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-chandelure.png|right]]
+![[SRD-chandelure-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-chandelure-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

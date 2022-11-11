@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME726.png
-BookShinyImageName: HOME726_s.png
-BoxSprite: SRD-BoxSprite-torracat.png
+BookSprite: SRD-torracat-BookSprite.png
+BoxSprite: SRD-torracat-BoxSprite.png
 DexCategory: Fire Cat Pokemon
 DexDescription: The bell on its neck glows and chimes when it shots fire through it.
   Although it acts spoiled with its Trainer, it is a capable and relentless brawler,
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Intimidate
-HomeSprite: SRD-HomeSprite-torracat.png
+HomeSprite: SRD-torracat-HomeSprite.png
 Learnset: '[[SRD-Torracat-Learnset]]'
 Legendary: 'No'
 Name: Torracat
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-torracat.png|right]]
+![[SRD-torracat-BookSprite.png|right wsmall]]
 
 *Fire Cat Pokemon*
 *The bell on its neck glows and chimes when it shots fire through it. Although it acts spoiled with its Trainer, it is a capable and relentless brawler, it will keep battling until its foes lose their fighting spirits.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Intimidate|Intimidate]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-torracat.png|right]]
+![[SRD-torracat-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-torracat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

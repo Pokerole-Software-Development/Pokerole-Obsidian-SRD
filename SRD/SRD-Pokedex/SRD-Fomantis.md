@@ -2,9 +2,8 @@
 Ability1: Leaf Guard
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME753.png
-BookShinyImageName: HOME753_s.png
-BoxSprite: SRD-BoxSprite-fomantis.png
+BookSprite: SRD-fomantis-BookSprite.png
+BoxSprite: SRD-fomantis-BoxSprite.png
 DexCategory: Sickle Grass Pokemon
 DexDescription: They sleep during the day, absorbing sunlight in a flower meadow;
   by night they become active and search for another spot to sleep. Their arms are
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Contrary
-HomeSprite: SRD-HomeSprite-fomantis.png
+HomeSprite: SRD-fomantis-HomeSprite.png
 Learnset: '[[SRD-Fomantis-Learnset]]'
 Legendary: 'No'
 Name: Fomantis
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-fomantis.png|right]]
+![[SRD-fomantis-BookSprite.png|right wsmall]]
 
 *Sickle Grass Pokemon*
 *They sleep during the day, absorbing sunlight in a flower meadow; by night they become active and search for another spot to sleep. Their arms are made or sharp grass leaves to defend themselves.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Leaf Guard|Leaf Guard]] ([[SRD-Contrary|Contrary]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-fomantis.png|right]]
+![[SRD-fomantis-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-fomantis-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Adaptability
 Baby: 'No'
-BookImageName: HOME133.png
-BookShinyImageName: HOME133_s.png
-BoxSprite: SRD-BoxSprite-eevee.png
+BookSprite: SRD-eevee-BookSprite.png
+BoxSprite: SRD-eevee-BoxSprite.png
 DexCategory: Evolution Pokemon
 DexDescription: This Pokemon is extremely rare to find. Eevee has an unstable genetic
   makeup that suddenly mutates to fit its environment. Radiation from various stones
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Anticipation
-HomeSprite: SRD-HomeSprite-eevee.png
+HomeSprite: SRD-eevee-HomeSprite.png
 Learnset: '[[SRD-Eevee-Learnset]]'
 Legendary: 'No'
 Name: Eevee
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-eevee.png|right]]
+![[SRD-eevee-BookSprite.png|right wsmall]]
 
 *Evolution Pokemon*
 *This Pokemon is extremely rare to find. Eevee has an unstable genetic makeup that suddenly mutates to fit its environment. Radiation from various stones causes this Pokemon to evolve.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Adaptability|Adaptability]] ([[SRD-Anticipation|Anticipation]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-eevee.png|right]]
+![[SRD-eevee-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-eevee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

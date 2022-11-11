@@ -2,9 +2,8 @@
 Ability1: Static
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME026.png
-BookShinyImageName: HOME026_s.png
-BoxSprite: SRD-BoxSprite-raichu.png
+BookSprite: SRD-raichu-BookSprite.png
+BoxSprite: SRD-raichu-BoxSprite.png
 DexCategory: Mouse Pokemon
 DexDescription: When electricity builds on its body, it starts to emit a faint glow
   and it becomes more aggressive than it normally is. They live in forests but are
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Lightning Rod
-HomeSprite: SRD-HomeSprite-raichu.png
+HomeSprite: SRD-raichu-HomeSprite.png
 Learnset: '[[SRD-Raichu-Learnset]]'
 Legendary: 'No'
 Name: Raichu
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-raichu.png|right]]
+![[SRD-raichu-BookSprite.png|right wsmall]]
 
 *Mouse Pokemon*
 *When electricity builds on its body, it starts to emit a faint glow and it becomes more aggressive than it normally is. They live in forests but are rare to find in the wild.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Static|Static]] ([[SRD-Lightning Rod|Lightning Rod]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-raichu.png|right]]
+![[SRD-raichu-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-raichu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

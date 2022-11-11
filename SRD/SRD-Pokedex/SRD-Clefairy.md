@@ -2,9 +2,8 @@
 Ability1: Cute Charm
 Ability2: Magic Guard
 Baby: 'No'
-BookImageName: HOME035.png
-BookShinyImageName: HOME035_s.png
-BoxSprite: SRD-BoxSprite-clefairy.png
+BookSprite: SRD-clefairy-BookSprite.png
+BoxSprite: SRD-clefairy-BoxSprite.png
 DexCategory: Fairy Pokemon
 DexDescription: Very rare to find. Clefairies are said to come from the moon. They
   are drawn to the light of this celestial body and come out of hiding at night to
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Friend Guard
-HomeSprite: SRD-HomeSprite-clefairy.png
+HomeSprite: SRD-clefairy-HomeSprite.png
 Learnset: '[[SRD-Clefairy-Learnset]]'
 Legendary: 'No'
 Name: Clefairy
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-clefairy.png|right]]
+![[SRD-clefairy-BookSprite.png|right wsmall]]
 
 *Fairy Pokemon*
 *Very rare to find. Clefairies are said to come from the moon. They are drawn to the light of this celestial body and come out of hiding at night to dance and play in the moonlight.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Magic Guard|Magic Guard]] ([[SRD-Friend Guard|Friend Guard]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-clefairy.png|right]]
+![[SRD-clefairy-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-clefairy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

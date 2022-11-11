@@ -2,9 +2,8 @@
 Ability1: Snow Warning
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME460.png
-BookShinyImageName: HOME460_s.png
-BoxSprite: SRD-BoxSprite-abomasnow.png
+BookSprite: SRD-abomasnow-BookSprite.png
+BoxSprite: SRD-abomasnow-BoxSprite.png
 DexCategory: Frosted Tree Pokemon
 DexDescription: "There was a legend for a long time that called this Pokemon \u201C\
   The Ice Monster\u201D. Now we know it is a Pokemon that can cover everything around\
@@ -17,7 +16,7 @@ Height:
   Feet: 7.2
   Meters: 2.2
 HiddenAbility: Soundproof
-HomeSprite: SRD-HomeSprite-abomasnow.png
+HomeSprite: SRD-abomasnow-HomeSprite.png
 Learnset: '[[SRD-Abomasnow-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-abomasnow.png|right]]
+![[SRD-abomasnow-BookSprite.png|right wsmall]]
 
 *Frosted Tree Pokemon*
 *There was a legend for a long time that called this Pokemon “The Ice Monster”. Now we know it is a Pokemon that can cover everything around with deep snow. It likes quiet places and only attacks if provoked.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Snow Warning|Snow Warning]] ([[SRD-Soundproof|Soundproof]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-abomasnow.png|right]]
+![[SRD-abomasnow-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-abomasnow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

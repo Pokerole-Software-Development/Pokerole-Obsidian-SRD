@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Battle Armor
 Baby: 'No'
-BookImageName: HOME141.png
-BookShinyImageName: HOME141_s.png
-BoxSprite: SRD-BoxSprite-kabutops.png
+BookSprite: SRD-kabutops-BookSprite.png
+BoxSprite: SRD-kabutops-BoxSprite.png
 DexCategory: Shellfish Pokemon
 DexDescription: "Kabutops swarmed underwater to hunt for prey. It was apparently evolving\
   \ from being a water dweller to living on land. It\u2019s evident from the changes\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Weak Armor
-HomeSprite: SRD-HomeSprite-kabutops.png
+HomeSprite: SRD-kabutops-HomeSprite.png
 Learnset: '[[SRD-Kabutops-Learnset]]'
 Legendary: 'No'
 Name: Kabutops
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-kabutops.png|right]]
+![[SRD-kabutops-BookSprite.png|right wsmall]]
 
 *Shellfish Pokemon*
 *Kabutops swarmed underwater to hunt for prey. It was apparently evolving from being a water dweller to living on land. It’s evident from the changes in its gills and legs. Its fossils suggests it was aggressive.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Battle Armor|Battle Armor]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-kabutops.png|right]]
+![[SRD-kabutops-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-kabutops-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

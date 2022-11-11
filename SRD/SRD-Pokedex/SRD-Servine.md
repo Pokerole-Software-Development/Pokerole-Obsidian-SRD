@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME496.png
-BookShinyImageName: HOME496_s.png
-BoxSprite: SRD-BoxSprite-servine.png
+BookSprite: SRD-servine-BookSprite.png
+BoxSprite: SRD-servine-BoxSprite.png
 DexCategory: Grass Snake Pokemon
 DexDescription: It moves along the ground by sliding. Its swift movements befuddle
   its foes, then attacks with a vine whip. It always keeps itself clean and it demands
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Contrary
-HomeSprite: SRD-HomeSprite-servine.png
+HomeSprite: SRD-servine-HomeSprite.png
 Learnset: '[[SRD-Servine-Learnset]]'
 Legendary: 'No'
 Name: Servine
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-servine.png|right]]
+![[SRD-servine-BookSprite.png|right wsmall]]
 
 *Grass Snake Pokemon*
 *It moves along the ground by sliding. Its swift movements befuddle its foes, then attacks with a vine whip. It always keeps itself clean and it demands care from its trainer, otherwise it will misbehave.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Contrary|Contrary]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-servine.png|right]]
+![[SRD-servine-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-servine-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Suction Cups
 Ability2: Sniper
 Baby: 'No'
-BookImageName: HOME224.png
-BookShinyImageName: HOME224_s.png
-BoxSprite: SRD-BoxSprite-octillery.png
+BookSprite: SRD-octillery-BookSprite.png
+BoxSprite: SRD-octillery-BoxSprite.png
 DexCategory: Jet Pokemon
 DexDescription: Octillery sprays ink, traps its foes with its tentacles and then hits
   them with its rock-hard head. If the enemy is too strong, they escape. They can
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Moody
-HomeSprite: SRD-HomeSprite-octillery.png
+HomeSprite: SRD-octillery-HomeSprite.png
 Learnset: '[[SRD-Octillery-Learnset]]'
 Legendary: 'No'
 Name: Octillery
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-octillery.png|right]]
+![[SRD-octillery-BookSprite.png|right wsmall]]
 
 *Jet Pokemon*
 *Octillery sprays ink, traps its foes with its tentacles and then hits them with its rock-hard head. If the enemy is too strong, they escape. They can be found inside rocky holes deep in the sea floor.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Suction Cups|Suction Cups]] / [[SRD-Sniper|Sniper]] ([[SRD-Moody|Moody]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-octillery.png|right]]
+![[SRD-octillery-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-octillery-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

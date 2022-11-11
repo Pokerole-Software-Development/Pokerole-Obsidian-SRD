@@ -2,9 +2,8 @@
 Ability1: Justified
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME647R.png
-BookShinyImageName: HOME647R_s.png
-BoxSprite: SRD-BoxSprite-keldeo.png
+BookSprite: SRD-keldeo-BookSprite.png
+BoxSprite: SRD-keldeo-BoxSprite.png
 DexCategory: No Data
 DexDescription: The old fairy tale ends with the youngest Pokemon rising above evil
   and injustice due to its resolute and determined desire for justice. The mentorship
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-keldeo.png
+HomeSprite: SRD-keldeo-HomeSprite.png
 Learnset: '[[SRD-Form Keldeo-Learnset]]'
 Legendary: 'Yes'
 Name: Form Keldeo
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-keldeo.png|right]]
+![[SRD-keldeo-BookSprite.png|right wsmall]]
 
 *No Data*
 *The old fairy tale ends with the youngest Pokemon rising above evil and injustice due to its resolute and determined desire for justice. The mentorship of the other Pokemon bearing fruits.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Justified|Justified]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-keldeo.png|right]]
+![[SRD-keldeo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-keldeo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

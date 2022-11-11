@@ -2,9 +2,8 @@
 Ability1: Marvel Scale
 Ability2: Competitive
 Baby: 'No'
-BookImageName: HOME350.png
-BookShinyImageName: HOME350_s.png
-BoxSprite: SRD-BoxSprite-milotic.png
+BookSprite: SRD-milotic-BookSprite.png
+BoxSprite: SRD-milotic-BoxSprite.png
 DexCategory: Tender Pokemon
 DexDescription: Milotic is considered to be one of the most beautiful Pokemon in existence.
   It has inspired music, paintings and statues. It has the power to calm the anger
@@ -17,7 +16,7 @@ Height:
   Feet: 20.3
   Meters: 6.2
 HiddenAbility: Cute Charm
-HomeSprite: SRD-HomeSprite-milotic.png
+HomeSprite: SRD-milotic-HomeSprite.png
 Learnset: '[[SRD-Milotic-Learnset]]'
 Legendary: 'No'
 Name: Milotic
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-milotic.png|right]]
+![[SRD-milotic-BookSprite.png|right wsmall]]
 
 *Tender Pokemon*
 *Milotic is considered to be one of the most beautiful Pokemon in existence. It has inspired music, paintings and statues. It has the power to calm the anger and hostility of its foes.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Marvel Scale|Marvel Scale]] / [[SRD-Competitive|Competitive]] ([[SRD-Cute Charm|Cute Charm]])
 **Base HP**:: 7
 
-![[SRD-BoxSprite-milotic.png|right]]
+![[SRD-milotic-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-milotic-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

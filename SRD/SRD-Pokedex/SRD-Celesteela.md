@@ -2,9 +2,8 @@
 Ability1: Beast Boost
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME797.png
-BookShinyImageName: HOME797_s.png
-BoxSprite: SRD-BoxSprite-celesteela.png
+BookSprite: SRD-celesteela-BookSprite.png
+BoxSprite: SRD-celesteela-BoxSprite.png
 DexCategory: 'Aether Foundation Log #019'
 DexDescription: Finally some progress from the excavation site. What we thought was
   a 200 year-old relic turned out to be a creature capable of blasting itself into
@@ -17,7 +16,7 @@ Height:
   Feet: 30.2
   Meters: 9.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-celesteela.png
+HomeSprite: SRD-celesteela-HomeSprite.png
 Learnset: '[[SRD-Celesteela-Learnset]]'
 Legendary: 'Yes'
 Name: Celesteela
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-celesteela.png|right]]
+![[SRD-celesteela-BookSprite.png|right wsmall]]
 
 *Aether Foundation Log #019*
 *Finally some progress from the excavation site. What we thought was a 200 year-old relic turned out to be a creature capable of blasting itself into the air, we managed to restrain it, more research is due.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 9
 
-![[SRD-BoxSprite-celesteela.png|right]]
+![[SRD-celesteela-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-celesteela-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

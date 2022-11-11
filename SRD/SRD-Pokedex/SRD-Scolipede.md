@@ -2,9 +2,8 @@
 Ability1: Poison Point
 Ability2: Swarm
 Baby: 'No'
-BookImageName: HOME545.png
-BookShinyImageName: HOME545_s.png
-BoxSprite: SRD-BoxSprite-scolipede.png
+BookSprite: SRD-scolipede-BookSprite.png
+BoxSprite: SRD-scolipede-BoxSprite.png
 DexCategory: Megapede Pokemon
 DexDescription: Highly aggressive, it uses the claws on its neck to immobilize its
   prey and then inject them with poison to finish them off. Be very careful around
@@ -17,7 +16,7 @@ Height:
   Feet: 8.2
   Meters: 2.5
 HiddenAbility: Speed Boost
-HomeSprite: SRD-HomeSprite-scolipede.png
+HomeSprite: SRD-scolipede-HomeSprite.png
 Learnset: '[[SRD-Scolipede-Learnset]]'
 Legendary: 'No'
 Name: Scolipede
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-scolipede.png|right]]
+![[SRD-scolipede-BookSprite.png|right wsmall]]
 
 *Megapede Pokemon*
 *Highly aggressive, it uses the claws on its neck to immobilize its prey and then inject them with poison to finish them off. Be very careful around this Pokemon as it will chase you relentlessly until it gets you.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Swarm|Swarm]] ([[SRD-Speed Boost|Speed Boost]])
 **Base HP**:: 8
 
-![[SRD-BoxSprite-scolipede.png|right]]
+![[SRD-scolipede-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-scolipede-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

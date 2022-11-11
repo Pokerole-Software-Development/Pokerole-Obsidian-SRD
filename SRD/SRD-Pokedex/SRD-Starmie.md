@@ -2,9 +2,8 @@
 Ability1: Illuminate
 Ability2: Natural Cure
 Baby: 'No'
-BookImageName: HOME121.png
-BookShinyImageName: HOME121_s.png
-BoxSprite: SRD-BoxSprite-starmie.png
+BookSprite: SRD-starmie-BookSprite.png
+BoxSprite: SRD-starmie-BoxSprite.png
 DexCategory: Mysterious Pokemon
 DexDescription: "This Pokemon has been given the nickname \u201Cthe gem of the sea.\u201D\
   \ It swims through water by spinning its star-shaped body as if it were a propeller\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Analytic
-HomeSprite: SRD-HomeSprite-starmie.png
+HomeSprite: SRD-starmie-HomeSprite.png
 Learnset: '[[SRD-Starmie-Learnset]]'
 Legendary: 'No'
 Name: Starmie
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-starmie.png|right]]
+![[SRD-starmie-BookSprite.png|right wsmall]]
 
 *Mysterious Pokemon*
 *This Pokemon has been given the nickname “the gem of the sea.” It swims through water by spinning its star-shaped body as if it were a propeller on a ship. The core at the center glows with different colors.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Illuminate|Illuminate]] / [[SRD-Natural Cure|Natural Cure]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-starmie.png|right]]
+![[SRD-starmie-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-starmie-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

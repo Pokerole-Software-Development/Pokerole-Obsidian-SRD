@@ -2,9 +2,8 @@
 Ability1: Zen Mode
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME555Z.png
-BookShinyImageName: HOME555Z_s.png
-BoxSprite: SRD-BoxSprite-darmanitan-zen.png
+BookSprite: SRD-darmanitan-zen-BookSprite.png
+BoxSprite: SRD-darmanitan-zen-BoxSprite.png
 DexCategory: Blazing Pokemon
 DexDescription: "Apparently this Darmanitan just became a statue after receiving a\
   \ lot of damage. It remained immobile, but as soon as it\u2019s health recovered\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-darmanitan-zen.png
+HomeSprite: SRD-darmanitan-zen-HomeSprite.png
 Learnset: '[[SRD-Zen Darmanitan-Learnset]]'
 Legendary: 'No'
 Name: Zen Darmanitan
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-darmanitan-zen.png|right]]
+![[SRD-darmanitan-zen-BookSprite.png|right wsmall]]
 
 *Blazing Pokemon*
 *Apparently this Darmanitan just became a statue after receiving a lot of damage. It remained immobile, but as soon as it’s health recovered it returned to it’s original state and lost its psychic powers.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Zen Mode|Zen Mode]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-darmanitan-zen.png|right]]
+![[SRD-darmanitan-zen-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-darmanitan-zen-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

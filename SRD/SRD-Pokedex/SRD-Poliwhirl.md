@@ -2,9 +2,8 @@
 Ability1: Water Absorb
 Ability2: Damp
 Baby: 'No'
-BookImageName: HOME061.png
-BookShinyImageName: HOME061_s.png
-BoxSprite: SRD-BoxSprite-poliwhirl.png
+BookSprite: SRD-poliwhirl-BookSprite.png
+BoxSprite: SRD-poliwhirl-BoxSprite.png
 DexCategory: Tadpole Pokemon
 DexDescription: "Though it is skilled at walking, it prefers to live underwater where\
   \ there\u2019s less danger. It sweats to keep its skin moist. Thanks to this, it\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Swift Swim
-HomeSprite: SRD-HomeSprite-poliwhirl.png
+HomeSprite: SRD-poliwhirl-HomeSprite.png
 Learnset: '[[SRD-Poliwhirl-Learnset]]'
 Legendary: 'No'
 Name: Poliwhirl
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-poliwhirl.png|right]]
+![[SRD-poliwhirl-BookSprite.png|right wsmall]]
 
 *Tadpole Pokemon*
 *Though it is skilled at walking, it prefers to live underwater where there’s less danger. It sweats to keep its skin moist. Thanks to this, it can easily slip out of the clutches of any enemy.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] / [[SRD-Damp|Damp]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-poliwhirl.png|right]]
+![[SRD-poliwhirl-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-poliwhirl-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

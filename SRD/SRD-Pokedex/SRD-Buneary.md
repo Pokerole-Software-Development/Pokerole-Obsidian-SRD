@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Klutz
 Baby: 'No'
-BookImageName: HOME427.png
-BookShinyImageName: HOME427_s.png
-BoxSprite: SRD-BoxSprite-buneary.png
+BookSprite: SRD-buneary-BookSprite.png
+BoxSprite: SRD-buneary-BoxSprite.png
 DexCategory: Rabbit Pokemon
 DexDescription: Lives in forest, grasslands and even snowy mountains. It forms burrows
   and uses its soft fur to make nests and keep warm. You can see how it feels for
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Limber
-HomeSprite: SRD-HomeSprite-buneary.png
+HomeSprite: SRD-buneary-HomeSprite.png
 Learnset: '[[SRD-Buneary-Learnset]]'
 Legendary: 'No'
 Name: Buneary
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-buneary.png|right]]
+![[SRD-buneary-BookSprite.png|right wsmall]]
 
 *Rabbit Pokemon*
 *Lives in forest, grasslands and even snowy mountains. It forms burrows and uses its soft fur to make nests and keep warm. You can see how it feels for the position of its ears. They are easily scared by humans.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Klutz|Klutz]] ([[SRD-Limber|Limber]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-buneary.png|right]]
+![[SRD-buneary-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-buneary-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

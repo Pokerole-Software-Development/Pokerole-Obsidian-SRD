@@ -1,6 +1,6 @@
 Change the type listed after the semicolons to change which type appears in the table. 
 
-**Type**:: Electric
+**Type**:: Water
 
 ```dataview
 TABLE

@@ -2,9 +2,8 @@
 Ability1: Clear Body
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME703.png
-BookShinyImageName: HOME703_s.png
-BoxSprite: SRD-BoxSprite-carbink.png
+BookSprite: SRD-carbink-BookSprite.png
+BoxSprite: SRD-carbink-BoxSprite.png
 DexCategory: Jewel Pokemon
 DexDescription: "It\u2019s occasionally found at drilling zones and excavations in\
   \ caves. Born from temperature and pressure deep underground, it shoots beams from\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Sturdy
-HomeSprite: SRD-HomeSprite-carbink.png
+HomeSprite: SRD-carbink-HomeSprite.png
 Learnset: '[[SRD-Carbink-Learnset]]'
 Legendary: 'No'
 Name: Carbink
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-carbink.png|right]]
+![[SRD-carbink-BookSprite.png|right wsmall]]
 
 *Jewel Pokemon*
 *It’s occasionally found at drilling zones and excavations in caves. Born from temperature and pressure deep underground, it shoots beams from the stone in its head. They can live for hundreds of years.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Clear Body|Clear Body]] ([[SRD-Sturdy|Sturdy]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-carbink.png|right]]
+![[SRD-carbink-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-carbink-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

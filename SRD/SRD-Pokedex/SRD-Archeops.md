@@ -2,9 +2,8 @@
 Ability1: Defeatist
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME567.png
-BookShinyImageName: HOME567_s.png
-BoxSprite: SRD-BoxSprite-archeops.png
+BookSprite: SRD-archeops-BookSprite.png
+BoxSprite: SRD-archeops-BoxSprite.png
 DexCategory: First Bird Pokemon
 DexDescription: They used to form groups that cooperated to catch prey. From the ground,
   they used a running start to take flight. It is believed that they got extinct due
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-archeops.png
+HomeSprite: SRD-archeops-HomeSprite.png
 Learnset: '[[SRD-Archeops-Learnset]]'
 Legendary: 'No'
 Name: Archeops
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-archeops.png|right]]
+![[SRD-archeops-BookSprite.png|right wsmall]]
 
 *First Bird Pokemon*
 *They used to form groups that cooperated to catch prey. From the ground, they used a running start to take flight. It is believed that they got extinct due to their poor tolerance to pain.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Defeatist|Defeatist]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-archeops.png|right]]
+![[SRD-archeops-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-archeops-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

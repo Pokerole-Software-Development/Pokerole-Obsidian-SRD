@@ -2,9 +2,8 @@
 Ability1: Prankster
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME642T.png
-BookShinyImageName: HOME642T_s.png
-BoxSprite: SRD-BoxSprite-thundurus.png
+BookSprite: SRD-thundurus-BookSprite.png
+BoxSprite: SRD-thundurus-BoxSprite.png
 DexCategory: No Data
 DexDescription: Some Pokemon reveal their true forms after recovering power lost to
   them. Great forces of nature can help them recover their strength such as Tornadoes,
@@ -17,7 +16,7 @@ Height:
   Feet: 9.8
   Meters: 3.0
 HiddenAbility: Defiant
-HomeSprite: SRD-HomeSprite-thundurus.png
+HomeSprite: SRD-thundurus-HomeSprite.png
 Learnset: '[[SRD-Form Thundurus-Learnset]]'
 Legendary: 'Yes'
 Name: Form Thundurus
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-thundurus.png|right]]
+![[SRD-thundurus-BookSprite.png|right wsmall]]
 
 *No Data*
 *Some Pokemon reveal their true forms after recovering power lost to them. Great forces of nature can help them recover their strength such as Tornadoes, Lightning, and even a Landslide.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Prankster|Prankster]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-thundurus.png|right]]
+![[SRD-thundurus-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-thundurus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

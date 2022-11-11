@@ -2,9 +2,8 @@
 Ability1: Natural Cure
 Ability2: Frisk
 Baby: 'No'
-BookImageName: HOME708.png
-BookShinyImageName: HOME708_s.png
-BoxSprite: SRD-BoxSprite-phantump.png
+BookSprite: SRD-phantump-BookSprite.png
+BoxSprite: SRD-phantump-BoxSprite.png
 DexCategory: Stump Pokemon
 DexDescription: According to the old tales, these Pokemon are stumps possessed by
   the spirits of children who were lost in the forest. They prefer to live in abandoned
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Harvest
-HomeSprite: SRD-HomeSprite-phantump.png
+HomeSprite: SRD-phantump-HomeSprite.png
 Learnset: '[[SRD-Phantump-Learnset]]'
 Legendary: 'No'
 Name: Phantump
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-phantump.png|right]]
+![[SRD-phantump-BookSprite.png|right wsmall]]
 
 *Stump Pokemon*
 *According to the old tales, these Pokemon are stumps possessed by the spirits of children who were lost in the forest. They prefer to live in abandoned woods and lure people to the darkness to play with them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]] / [[SRD-Frisk|Frisk]] ([[SRD-Harvest|Harvest]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-phantump.png|right]]
+![[SRD-phantump-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-phantump-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

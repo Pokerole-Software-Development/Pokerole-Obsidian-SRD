@@ -2,9 +2,8 @@
 Ability1: Minus
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME312.png
-BookShinyImageName: HOME312_s.png
-BoxSprite: SRD-BoxSprite-minun.png
+BookSprite: SRD-minun-BookSprite.png
+BoxSprite: SRD-minun-BoxSprite.png
 DexCategory: Cheering Pokemon
 DexDescription: "They will cheer their friends with their lives and will keep on cheering\
   \ to their last breath. If a partner is in trouble, this Pokemon will create a curtain\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Volt Absorb
-HomeSprite: SRD-HomeSprite-minun.png
+HomeSprite: SRD-minun-HomeSprite.png
 Learnset: '[[SRD-Minun-Learnset]]'
 Legendary: 'No'
 Name: Minun
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-minun.png|right]]
+![[SRD-minun-BookSprite.png|right wsmall]]
 
 *Cheering Pokemon*
 *They will cheer their friends with their lives and will keep on cheering to their last breath. If a partner is in trouble, this Pokemon will create a curtain of sparks on its friend’s side to boost its spirit.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Minus|Minus]] ([[SRD-Volt Absorb|Volt Absorb]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-minun.png|right]]
+![[SRD-minun-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-minun-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

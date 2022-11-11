@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME498.png
-BookShinyImageName: HOME498_s.png
-BoxSprite: SRD-BoxSprite-tepig.png
+BookSprite: SRD-tepig-BookSprite.png
+BoxSprite: SRD-tepig-BoxSprite.png
 DexCategory: Fire Pig Pokemon
 DexDescription: It blows fire through its nose. When it catches a cold, the fire becomes
   pitch-black smoke instead. Tepig loves to eat roasted berries and its keen sense
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Thick Fat
-HomeSprite: SRD-HomeSprite-tepig.png
+HomeSprite: SRD-tepig-HomeSprite.png
 Learnset: '[[SRD-Tepig-Learnset]]'
 Legendary: 'No'
 Name: Tepig
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tepig.png|right]]
+![[SRD-tepig-BookSprite.png|right wsmall]]
 
 *Fire Pig Pokemon*
 *It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead. Tepig loves to eat roasted berries and its keen sense of smell allows it to find them easily.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Thick Fat|Thick Fat]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-tepig.png|right]]
+![[SRD-tepig-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-tepig-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

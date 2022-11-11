@@ -2,9 +2,8 @@
 Ability1: Strong Jaw
 Ability2: Shell Armor
 Baby: 'No'
-BookImageName: HOME833.png
-BookShinyImageName: HOME833_s.png
-BoxSprite: SRD-BoxSprite-chewtle.png
+BookSprite: SRD-chewtle-BookSprite.png
+BoxSprite: SRD-chewtle-BoxSprite.png
 DexCategory: Snapping Pokemon
 DexDescription: It uses its horn as its primary weapon, but it has a reputation as
   a biter. Apparently its gums are itchy and the only way to soothe them is biting
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Swift Swim
-HomeSprite: SRD-HomeSprite-chewtle.png
+HomeSprite: SRD-chewtle-HomeSprite.png
 Learnset: '[[SRD-Chewtle-Learnset]]'
 Legendary: 'No'
 Name: Chewtle
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-chewtle.png|right]]
+![[SRD-chewtle-BookSprite.png|right wsmall]]
 
 *Snapping Pokemon*
 *It uses its horn as its primary weapon, but it has a reputation as a biter. Apparently its gums are itchy and the only way to soothe them is biting and chewing on stuff. It is kinda cranky but relatively harmless.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Strong Jaw|Strong Jaw]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-chewtle.png|right]]
+![[SRD-chewtle-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-chewtle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

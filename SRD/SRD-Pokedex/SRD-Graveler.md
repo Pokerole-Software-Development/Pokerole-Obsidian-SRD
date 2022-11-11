@@ -2,9 +2,8 @@
 Ability1: Rock Head
 Ability2: Sturdy
 Baby: 'No'
-BookImageName: HOME075.png
-BookShinyImageName: HOME075_s.png
-BoxSprite: SRD-BoxSprite-graveler.png
+BookSprite: SRD-graveler-BookSprite.png
+BoxSprite: SRD-graveler-BoxSprite.png
 DexCategory: Rock Pokemon
 DexDescription: It walks slowly, but it can get a nice speed by rolling downhill.
   It is good at climbing. Groups of them have been seen clinging from rock formations
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Sand Veil
-HomeSprite: SRD-HomeSprite-graveler.png
+HomeSprite: SRD-graveler-HomeSprite.png
 Learnset: '[[SRD-Graveler-Learnset]]'
 Legendary: 'No'
 Name: Graveler
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-graveler.png|right]]
+![[SRD-graveler-BookSprite.png|right wsmall]]
 
 *Rock Pokemon*
 *It walks slowly, but it can get a nice speed by rolling downhill. It is good at climbing. Groups of them have been seen clinging from rock formations and cliffs to eat the tasty rocks covered in moss.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rock Head|Rock Head]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Sand Veil|Sand Veil]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-graveler.png|right]]
+![[SRD-graveler-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-graveler-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

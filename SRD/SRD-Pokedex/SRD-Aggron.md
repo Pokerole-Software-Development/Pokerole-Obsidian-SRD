@@ -2,9 +2,8 @@
 Ability1: Sturdy
 Ability2: Rock Head
 Baby: 'No'
-BookImageName: HOME306.png
-BookShinyImageName: HOME306_s.png
-BoxSprite: SRD-BoxSprite-aggron.png
+BookSprite: SRD-aggron-BookSprite.png
+BoxSprite: SRD-aggron-BoxSprite.png
 DexCategory: Iron Armor Pokemon
 DexDescription: Aggron claims ownership of entire mountains, mercilessly beating up
   anything that crosses their path. Aggrons are violent and patrol their territory
@@ -17,7 +16,7 @@ Height:
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: Heavy Metal
-HomeSprite: SRD-HomeSprite-aggron.png
+HomeSprite: SRD-aggron-HomeSprite.png
 Learnset: '[[SRD-Aggron-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-aggron.png|right]]
+![[SRD-aggron-BookSprite.png|right wsmall]]
 
 *Iron Armor Pokemon*
 *Aggron claims ownership of entire mountains, mercilessly beating up anything that crosses their path. Aggrons are violent and patrol their territory at all times, but also plant trees, stop fires and protect nature.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Rock Head|Rock Head]] ([[SRD-Heavy Metal|Heavy Metal]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-aggron.png|right]]
+![[SRD-aggron-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::4)/(MaxVitality::9)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-aggron-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

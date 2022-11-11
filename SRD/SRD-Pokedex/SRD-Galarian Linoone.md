@@ -2,9 +2,8 @@
 Ability1: Pickup
 Ability2: Gluttony
 Baby: 'No'
-BookImageName: HOME264G.png
-BookShinyImageName: HOME264G_s.png
-BoxSprite: SRD-BoxSprite-linoone-galar.png
+BookSprite: SRD-linoone-galar-BookSprite.png
+BoxSprite: SRD-linoone-galar-BoxSprite.png
 DexCategory: Rush Pokemon
 DexDescription: It uses its long tongue to taunt its opponents. Once the foe is enraged,
   this Pokemon hurls itself at it, tackling them forcefully. They are bad-mannered
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Quick Feet
-HomeSprite: SRD-HomeSprite-linoone-galar.png
+HomeSprite: SRD-linoone-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Linoone-Learnset]]'
 Legendary: 'No'
 Name: Galarian Linoone
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-linoone-galar.png|right]]
+![[SRD-linoone-galar-BookSprite.png|right wsmall]]
 
 *Rush Pokemon*
 *It uses its long tongue to taunt its opponents. Once the foe is enraged, this Pokemon hurls itself at it, tackling them forcefully. They are bad-mannered and enjoy to thrash things about.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Gluttony|Gluttony]] ([[SRD-Quick Feet|Quick Feet]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-linoone-galar.png|right]]
+![[SRD-linoone-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-linoone-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Tough Claws
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME006MX.png
-BookShinyImageName: HOME006MX_s.png
-BoxSprite: SRD-BoxSprite-charizard-mega-x.png
+BookSprite: SRD-charizard-mega-x-BookSprite.png
+BoxSprite: SRD-charizard-mega-x-BoxSprite.png
 DexCategory: Flame Pokemon
 DexDescription: The power of the Mega Stone make its inner flames burn so hot that
   its body turns black as coal and blue fire escapes constantly from its mouth. It
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-charizard-mega-x.png
+HomeSprite: SRD-charizard-mega-x-HomeSprite.png
 Learnset: '[[SRD-Mega-Charizard X-Learnset]]'
 Legendary: 'No'
 Name: Mega-Charizard X
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-charizard-mega-x.png|right]]
+![[SRD-charizard-mega-x-BookSprite.png|right wsmall]]
 
 *Flame Pokemon*
 *The power of the Mega Stone make its inner flames burn so hot that its body turns black as coal and blue fire escapes constantly from its mouth. It is filled with rage and its demeanor is unpredictable*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Tough Claws|Tough Claws]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-charizard-mega-x.png|right]]
+![[SRD-charizard-mega-x-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-charizard-mega-x-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

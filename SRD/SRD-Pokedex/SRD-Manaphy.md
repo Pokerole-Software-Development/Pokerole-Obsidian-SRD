@@ -2,9 +2,8 @@
 Ability1: Hydration
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME490.png
-BookShinyImageName: HOME490_s.png
-BoxSprite: SRD-BoxSprite-manaphy.png
+BookSprite: SRD-manaphy-BookSprite.png
+BoxSprite: SRD-manaphy-BoxSprite.png
 DexCategory: No Data
 DexDescription: It is said that after the war for land and sea was over, a tiny Pokemon
   was born from the bottom of the ocean to bond with all the creatures as a sign of
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-manaphy.png
+HomeSprite: SRD-manaphy-HomeSprite.png
 Learnset: '[[SRD-Manaphy-Learnset]]'
 Legendary: 'Yes'
 Name: Manaphy
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-manaphy.png|right]]
+![[SRD-manaphy-BookSprite.png|right wsmall]]
 
 *No Data*
 *It is said that after the war for land and sea was over, a tiny Pokemon was born from the bottom of the ocean to bond with all the creatures as a sign of peace.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hydration|Hydration]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-manaphy.png|right]]
+![[SRD-manaphy-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-manaphy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Hustle
 Ability2: Inner Focus
 Baby: 'No'
-BookImageName: HOME554G.png
-BookShinyImageName: HOME554G_s.png
-BoxSprite: SRD-BoxSprite-darumaka-galar.png
+BookSprite: SRD-darumaka-galar-BookSprite.png
+BoxSprite: SRD-darumaka-galar-BoxSprite.png
 DexCategory: Zen Charm Pokemon
 DexDescription: When forced to live on snow, its fire sac froze and now it generates
   cold. Darumaka uses low temperatures as energy, making it very energetic on winter.
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-darumaka-galar.png
+HomeSprite: SRD-darumaka-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Darumaka-Learnset]]'
 Legendary: 'No'
 Name: Galarian Darumaka
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-darumaka-galar.png|right]]
+![[SRD-darumaka-galar-BookSprite.png|right wsmall]]
 
 *Zen Charm Pokemon*
 *When forced to live on snow, its fire sac froze and now it generates cold. Darumaka uses low temperatures as energy, making it very energetic on winter. It is playful and likes to throw Snowballs.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hustle|Hustle]] / [[SRD-Inner Focus|Inner Focus]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-darumaka-galar.png|right]]
+![[SRD-darumaka-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-darumaka-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

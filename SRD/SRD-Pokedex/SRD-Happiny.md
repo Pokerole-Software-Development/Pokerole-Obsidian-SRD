@@ -2,9 +2,8 @@
 Ability1: Natural Cure
 Ability2: Serene Grace
 Baby: 'Yes'
-BookImageName: HOME440.png
-BookShinyImageName: HOME440_s.png
-BoxSprite: SRD-BoxSprite-happiny.png
+BookSprite: SRD-happiny-BookSprite.png
+BoxSprite: SRD-happiny-BoxSprite.png
 DexCategory: Playhouse Pokemon
 DexDescription: It is not common to see Happinies. This baby Pokemon cannot produce
   eggs yet, so she searches for white stones and carries them on its pouch. It likes
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Friend Guard
-HomeSprite: SRD-HomeSprite-happiny.png
+HomeSprite: SRD-happiny-HomeSprite.png
 Learnset: '[[SRD-Happiny-Learnset]]'
 Legendary: 'No'
 Name: Happiny
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-happiny.png|right]]
+![[SRD-happiny-BookSprite.png|right wsmall]]
 
 *Playhouse Pokemon*
 *It is not common to see Happinies. This baby Pokemon cannot produce eggs yet, so she searches for white stones and carries them on its pouch. It likes to look pretty and tries to always be adorable.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]] / [[SRD-Serene Grace|Serene Grace]] ([[SRD-Friend Guard|Friend Guard]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-happiny.png|right]]
+![[SRD-happiny-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::2)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-happiny-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

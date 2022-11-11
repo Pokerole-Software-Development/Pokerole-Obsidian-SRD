@@ -2,9 +2,8 @@
 Ability1: Sand Veil
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME028.png
-BookShinyImageName: HOME028_s.png
-BoxSprite: SRD-BoxSprite-sandslash.png
+BookSprite: SRD-sandslash-BookSprite.png
+BoxSprite: SRD-sandslash-BoxSprite.png
 DexCategory: Mouse Pokemon
 DexDescription: "It\u2019s less shy than its first stage. It curls up in a ball to\
   \ protect itself from enemy attacks. Surprisingly, it is a good climber that uses\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Sand Rush
-HomeSprite: SRD-HomeSprite-sandslash.png
+HomeSprite: SRD-sandslash-HomeSprite.png
 Learnset: '[[SRD-Sandslash-Learnset]]'
 Legendary: 'No'
 Name: Sandslash
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sandslash.png|right]]
+![[SRD-sandslash-BookSprite.png|right wsmall]]
 
 *Mouse Pokemon*
 *It’s less shy than its first stage. It curls up in a ball to protect itself from enemy attacks. Surprisingly, it is a good climber that uses its sharp claws for grip and drilling tunnels underground.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] ([[SRD-Sand Rush|Sand Rush]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-sandslash.png|right]]
+![[SRD-sandslash-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-sandslash-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

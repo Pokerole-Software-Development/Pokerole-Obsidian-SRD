@@ -2,9 +2,8 @@
 Ability1: Cotton Down
 Ability2: Regenerator
 Baby: 'No'
-BookImageName: HOME829.png
-BookShinyImageName: HOME829_s.png
-BoxSprite: SRD-BoxSprite-gossifleur.png
+BookSprite: SRD-gossifleur-BookSprite.png
+BoxSprite: SRD-gossifleur-BoxSprite.png
 DexCategory: Flowering Pokemon
 DexDescription: "You\u2019ll find them in fields, basking in the sun, they let the\
   \ wind sway them while they sing a joyful song. Afterwards their flowers bloom and\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Effect Spore
-HomeSprite: SRD-HomeSprite-gossifleur.png
+HomeSprite: SRD-gossifleur-HomeSprite.png
 Learnset: '[[SRD-Gossifleur-Learnset]]'
 Legendary: 'No'
 Name: Gossifleur
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gossifleur.png|right]]
+![[SRD-gossifleur-BookSprite.png|right wsmall]]
 
 *Flowering Pokemon*
 *You’ll find them in fields, basking in the sun, they let the wind sway them while they sing a joyful song. Afterwards their flowers bloom and glow. This delightful display makes it very popular among Trainers.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Cotton Down|Cotton Down]] / [[SRD-Regenerator|Regenerator]] ([[SRD-Effect Spore|Effect Spore]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-gossifleur.png|right]]
+![[SRD-gossifleur-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-gossifleur-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

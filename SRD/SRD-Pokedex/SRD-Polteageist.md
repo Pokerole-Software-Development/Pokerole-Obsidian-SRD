@@ -2,9 +2,8 @@
 Ability1: Weak Armor
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME855.png
-BookShinyImageName: HOME855_s.png
-BoxSprite: SRD-BoxSprite-polteageist.png
+BookSprite: SRD-polteageist-BookSprite.png
+BoxSprite: SRD-polteageist-BoxSprite.png
 DexCategory: Black Tea Pokemon
 DexDescription: This species lives in old ceramic teapots. They struggle to find real
   antiques, for most tea sets nowadays are just imitations. Never leave your tea unattended
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Cursed Body
-HomeSprite: SRD-HomeSprite-polteageist.png
+HomeSprite: SRD-polteageist-HomeSprite.png
 Learnset: '[[SRD-Polteageist-Learnset]]'
 Legendary: 'No'
 Name: Polteageist
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-polteageist.png|right]]
+![[SRD-polteageist-BookSprite.png|right wsmall]]
 
 *Black Tea Pokemon*
 *This species lives in old ceramic teapots. They struggle to find real antiques, for most tea sets nowadays are just imitations. Never leave your tea unattended or a Poltegeist might come to haunt it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Weak Armor|Weak Armor]] ([[SRD-Cursed Body|Cursed Body]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-polteageist.png|right]]
+![[SRD-polteageist-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-polteageist-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

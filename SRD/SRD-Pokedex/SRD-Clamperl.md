@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME366.png
-BookShinyImageName: HOME366_s.png
-BoxSprite: SRD-BoxSprite-clamperl.png
+BookSprite: SRD-clamperl-BookSprite.png
+BoxSprite: SRD-clamperl-BoxSprite.png
 DexCategory: Bivalve Pokemon
 DexDescription: It is protected by a sturdy shell which is used to catch its prey.
   Clamperl will produce a magnificent pearl once in a lifetime. That pearl is said
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Rattled
-HomeSprite: SRD-HomeSprite-clamperl.png
+HomeSprite: SRD-clamperl-HomeSprite.png
 Learnset: '[[SRD-Clamperl-Learnset]]'
 Legendary: 'No'
 Name: Clamperl
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-clamperl.png|right]]
+![[SRD-clamperl-BookSprite.png|right wsmall]]
 
 *Bivalve Pokemon*
 *It is protected by a sturdy shell which is used to catch its prey. Clamperl will produce a magnificent pearl once in a lifetime. That pearl is said to increase psychic powers and will sell for a lot of money.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-clamperl.png|right]]
+![[SRD-clamperl-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-clamperl-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

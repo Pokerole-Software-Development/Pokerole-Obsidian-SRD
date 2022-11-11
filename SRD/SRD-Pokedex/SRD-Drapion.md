@@ -2,9 +2,8 @@
 Ability1: Battle Armor
 Ability2: Sniper
 Baby: 'No'
-BookImageName: HOME452.png
-BookShinyImageName: HOME452_s.png
-BoxSprite: SRD-BoxSprite-drapion.png
+BookSprite: SRD-drapion-BookSprite.png
+BoxSprite: SRD-drapion-BoxSprite.png
 DexCategory: Ogre Scorp Pokemon
 DexDescription: "This Pokemon is very aggressive. It can completely rotate its head\
   \ over its body, because of this, Drapion has no blind spots. Its venom is deadly\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Keen Eye
-HomeSprite: SRD-HomeSprite-drapion.png
+HomeSprite: SRD-drapion-HomeSprite.png
 Learnset: '[[SRD-Drapion-Learnset]]'
 Legendary: 'No'
 Name: Drapion
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-drapion.png|right]]
+![[SRD-drapion-BookSprite.png|right wsmall]]
 
 *Ogre Scorp Pokemon*
 *This Pokemon is very aggressive. It can completely rotate its head over its body, because of this, Drapion has no blind spots. Its venom is deadly and it won’t hesitate to use it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Battle Armor|Battle Armor]] / [[SRD-Sniper|Sniper]] ([[SRD-Keen Eye|Keen Eye]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-drapion.png|right]]
+![[SRD-drapion-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-drapion-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

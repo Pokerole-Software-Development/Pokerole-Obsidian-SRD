@@ -2,9 +2,8 @@
 Ability1: Shield Dust
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME269.png
-BookShinyImageName: HOME269_s.png
-BoxSprite: SRD-BoxSprite-dustox.png
+BookSprite: SRD-dustox-BookSprite.png
+BoxSprite: SRD-dustox-BoxSprite.png
 DexCategory: Poison Moth Pokemon
 DexDescription: They travel in big groups during the night, attracted to bright lights
   and big cities. Their flight releases a poisonous shining dust that causes mayhem
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Compound Eyes
-HomeSprite: SRD-HomeSprite-dustox.png
+HomeSprite: SRD-dustox-HomeSprite.png
 Learnset: '[[SRD-Dustox-Learnset]]'
 Legendary: 'No'
 Name: Dustox
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dustox.png|right]]
+![[SRD-dustox-BookSprite.png|right wsmall]]
 
 *Poison Moth Pokemon*
 *They travel in big groups during the night, attracted to bright lights and big cities. Their flight releases a poisonous shining dust that causes mayhem in towns. For this reason people dislike them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shield Dust|Shield Dust]] ([[SRD-Compound Eyes|Compound Eyes]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-dustox.png|right]]
+![[SRD-dustox-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-dustox-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

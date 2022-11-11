@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: Chlorophyll
 Baby: 'No'
-BookImageName: HOME540.png
-BookShinyImageName: HOME540_s.png
-BoxSprite: SRD-BoxSprite-sewaddle.png
+BookSprite: SRD-sewaddle-BookSprite.png
+BoxSprite: SRD-sewaddle-BoxSprite.png
 DexCategory: Sewing Pokemon
 DexDescription: "It is a sweet Pokemon that loves its family. It hides its head in\
   \ the leaf hood while it is sleeping. The silk they produce it\u2019s highly valued\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Overcoat
-HomeSprite: SRD-HomeSprite-sewaddle.png
+HomeSprite: SRD-sewaddle-HomeSprite.png
 Learnset: '[[SRD-Sewaddle-Learnset]]'
 Legendary: 'No'
 Name: Sewaddle
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sewaddle.png|right]]
+![[SRD-sewaddle-BookSprite.png|right wsmall]]
 
 *Sewing Pokemon*
 *It is a sweet Pokemon that loves its family. It hides its head in the leaf hood while it is sleeping. The silk they produce it’s highly valued to make expensive clothing, this makes it a popular pet for fashion designers.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-sewaddle.png|right]]
+![[SRD-sewaddle-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-sewaddle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Shed Skin
 Ability2: Moxie
 Baby: 'No'
-BookImageName: HOME559.png
-BookShinyImageName: HOME559_s.png
-BoxSprite: SRD-BoxSprite-scraggy.png
+BookSprite: SRD-scraggy-BookSprite.png
+BoxSprite: SRD-scraggy-BoxSprite.png
 DexCategory: Shedding Pokemon
 DexDescription: It sheds skin constantly, but keeps wearing it since the old skin
   has a rubber-like texture and it can pull it all the way up to its head. It bashes
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Intimidate
-HomeSprite: SRD-HomeSprite-scraggy.png
+HomeSprite: SRD-scraggy-HomeSprite.png
 Learnset: '[[SRD-Scraggy-Learnset]]'
 Legendary: 'No'
 Name: Scraggy
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-scraggy.png|right]]
+![[SRD-scraggy-BookSprite.png|right wsmall]]
 
 *Shedding Pokemon*
 *It sheds skin constantly, but keeps wearing it since the old skin has a rubber-like texture and it can pull it all the way up to its head. It bashes foes with headbutts and is known for making dirty moves on fights.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]] / [[SRD-Moxie|Moxie]] ([[SRD-Intimidate|Intimidate]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-scraggy.png|right]]
+![[SRD-scraggy-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-scraggy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

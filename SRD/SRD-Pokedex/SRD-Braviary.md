@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Sheer Force
 Baby: 'No'
-BookImageName: HOME628.png
-BookShinyImageName: HOME628_s.png
-BoxSprite: SRD-BoxSprite-braviary.png
+BookSprite: SRD-braviary-BookSprite.png
+BoxSprite: SRD-braviary-BoxSprite.png
 DexCategory: Valiant Pokemon
 DexDescription: Brave, strong, loyal, and selfless; this Pokemon embodies the virtues
   of what a Pokemon companion should be. They are very rare and valued not only for
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Defiant
-HomeSprite: SRD-HomeSprite-braviary.png
+HomeSprite: SRD-braviary-HomeSprite.png
 Learnset: '[[SRD-Braviary-Learnset]]'
 Legendary: 'No'
 Name: Braviary
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-braviary.png|right]]
+![[SRD-braviary-BookSprite.png|right wsmall]]
 
 *Valiant Pokemon*
 *Brave, strong, loyal, and selfless; this Pokemon embodies the virtues of what a Pokemon companion should be. They are very rare and valued not only for their bravery but for their beautiful feathers.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Sheer Force|Sheer Force]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-braviary.png|right]]
+![[SRD-braviary-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-braviary-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

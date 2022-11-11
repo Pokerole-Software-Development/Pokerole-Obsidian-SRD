@@ -2,9 +2,8 @@
 Ability1: Synchronize
 Ability2: Trace
 Baby: 'No'
-BookImageName: HOME281.png
-BookShinyImageName: HOME281_s.png
-BoxSprite: SRD-BoxSprite-kirlia.png
+BookSprite: SRD-kirlia-BookSprite.png
+BoxSprite: SRD-kirlia-BoxSprite.png
 DexCategory: Emotion Pokemon
 DexDescription: When they use their powers, their surroundings are distorted with
   mirages and illusory sceneries from the future and the past. Kirlias like to dance
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-kirlia.png
+HomeSprite: SRD-kirlia-HomeSprite.png
 Learnset: '[[SRD-Kirlia-Learnset]]'
 Legendary: 'No'
 Name: Kirlia
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-kirlia.png|right]]
+![[SRD-kirlia-BookSprite.png|right wsmall]]
 
 *Emotion Pokemon*
 *When they use their powers, their surroundings are distorted with mirages and illusory sceneries from the future and the past. Kirlias like to dance and dislike to be bossed around.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Synchronize|Synchronize]] / [[SRD-Trace|Trace]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-kirlia.png|right]]
+![[SRD-kirlia-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-kirlia-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

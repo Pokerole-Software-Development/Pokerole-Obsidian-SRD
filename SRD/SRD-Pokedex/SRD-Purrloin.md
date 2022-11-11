@@ -2,9 +2,8 @@
 Ability1: Limber
 Ability2: Unburden
 Baby: 'No'
-BookImageName: HOME509.png
-BookShinyImageName: HOME509_s.png
-BoxSprite: SRD-BoxSprite-purrloin.png
+BookSprite: SRD-purrloin-BookSprite.png
+BoxSprite: SRD-purrloin-BoxSprite.png
 DexCategory: Devious Pokemon
 DexDescription: "They have adapted to live in the streets of big cities. They steal\
   \ for fun but their victims can\u2019t help but forgive them. Their cute act is\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Prankster
-HomeSprite: SRD-HomeSprite-purrloin.png
+HomeSprite: SRD-purrloin-HomeSprite.png
 Learnset: '[[SRD-Purrloin-Learnset]]'
 Legendary: 'No'
 Name: Purrloin
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-purrloin.png|right]]
+![[SRD-purrloin-BookSprite.png|right wsmall]]
 
 *Devious Pokemon*
 *They have adapted to live in the streets of big cities. They steal for fun but their victims can’t help but forgive them. Their cute act is a ruse. People who keep them as pets often regret it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Limber|Limber]] / [[SRD-Unburden|Unburden]] ([[SRD-Prankster|Prankster]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-purrloin.png|right]]
+![[SRD-purrloin-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-purrloin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Synchronize
 Ability2: Early Bird
 Baby: 'No'
-BookImageName: HOME178.png
-BookShinyImageName: HOME178_s.png
-BoxSprite: SRD-BoxSprite-xatu.png
+BookSprite: SRD-xatu-BookSprite.png
+BoxSprite: SRD-xatu-BoxSprite.png
 DexCategory: Mystic Pokemon
 DexDescription: Xatu is known to stand motionless while staring at the sun all day
   long. Some people revere it as a mystical Pokemon out of their belief that Xatus
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Magic Bounce
-HomeSprite: SRD-HomeSprite-xatu.png
+HomeSprite: SRD-xatu-HomeSprite.png
 Learnset: '[[SRD-Xatu-Learnset]]'
 Legendary: 'No'
 Name: Xatu
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-xatu.png|right]]
+![[SRD-xatu-BookSprite.png|right wsmall]]
 
 *Mystic Pokemon*
 *Xatu is known to stand motionless while staring at the sun all day long. Some people revere it as a mystical Pokemon out of their belief that Xatus have the power to see into the future.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Synchronize|Synchronize]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Magic Bounce|Magic Bounce]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-xatu.png|right]]
+![[SRD-xatu-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-xatu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

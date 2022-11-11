@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME396.png
-BookShinyImageName: HOME396_s.png
-BoxSprite: SRD-BoxSprite-starly.png
+BookSprite: SRD-starly-BookSprite.png
+BoxSprite: SRD-starly-BoxSprite.png
 DexCategory: Starling Pokemon
 DexDescription: They flock in dozens because they are very weak on their own. They
   live around mountains and fields, chasing Bug Pokemon. Everyone hates their annoying
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Reckless
-HomeSprite: SRD-HomeSprite-starly.png
+HomeSprite: SRD-starly-HomeSprite.png
 Learnset: '[[SRD-Starly-Learnset]]'
 Legendary: 'No'
 Name: Starly
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-starly.png|right]]
+![[SRD-starly-BookSprite.png|right wsmall]]
 
 *Starling Pokemon*
 *They flock in dozens because they are very weak on their own. They live around mountains and fields, chasing Bug Pokemon. Everyone hates their annoying and strident singing.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] ([[SRD-Reckless|Reckless]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-starly.png|right]]
+![[SRD-starly-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-starly-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Snow Cloak
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME028A.png
-BookShinyImageName: HOME028A_s.png
-BoxSprite: SRD-BoxSprite-sandslash-alola.png
+BookSprite: SRD-sandslash-alola-BookSprite.png
+BoxSprite: SRD-sandslash-alola-BoxSprite.png
 DexCategory: Mouse Pokemon
 DexDescription: "These Pokemon make their burrows on Alola's ice caverns, hidden in\
   \ plain sight. Careful with its spikes, any puncture into the skin and you can get\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Slush Rush
-HomeSprite: SRD-HomeSprite-sandslash-alola.png
+HomeSprite: SRD-sandslash-alola-HomeSprite.png
 Learnset: '[[SRD-Alolan Sandslash-Learnset]]'
 Legendary: 'No'
 Name: Alolan Sandslash
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sandslash-alola.png|right]]
+![[SRD-sandslash-alola-BookSprite.png|right wsmall]]
 
 *Mouse Pokemon*
 *These Pokemon make their burrows on Alola's ice caverns, hidden in plain sight. Careful with its spikes, any puncture into the skin and you can get severe frostbite. They can’t stand high temperatures.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Snow Cloak|Snow Cloak]] ([[SRD-Slush Rush|Slush Rush]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-sandslash-alola.png|right]]
+![[SRD-sandslash-alola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-sandslash-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

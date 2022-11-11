@@ -2,9 +2,8 @@
 Ability1: Plus
 Ability2: Minus
 Baby: 'No'
-BookImageName: HOME601.png
-BookShinyImageName: HOME601_s.png
-BoxSprite: SRD-BoxSprite-klinklang.png
+BookSprite: SRD-klinklang-BookSprite.png
+BoxSprite: SRD-klinklang-BoxSprite.png
 DexCategory: Gear Pokemon
 DexDescription: The gear with the red core rotates at high speed for a quick energy
   charge. The mini gears shoot rays through the spikes around it. This inorganic Pokemon
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Clear Body
-HomeSprite: SRD-HomeSprite-klinklang.png
+HomeSprite: SRD-klinklang-HomeSprite.png
 Learnset: '[[SRD-Klinklang-Learnset]]'
 Legendary: 'No'
 Name: Klinklang
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-klinklang.png|right]]
+![[SRD-klinklang-BookSprite.png|right wsmall]]
 
 *Gear Pokemon*
 *The gear with the red core rotates at high speed for a quick energy charge. The mini gears shoot rays through the spikes around it. This inorganic Pokemon will trap and crush foes between its gears.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Plus|Plus]] / [[SRD-Minus|Minus]] ([[SRD-Clear Body|Clear Body]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-klinklang.png|right]]
+![[SRD-klinklang-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-klinklang-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

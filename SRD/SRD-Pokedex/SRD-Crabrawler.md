@@ -2,9 +2,8 @@
 Ability1: Hyper Cutter
 Ability2: Iron Fist
 Baby: 'No'
-BookImageName: HOME739.png
-BookShinyImageName: HOME739_s.png
-BoxSprite: SRD-BoxSprite-crabrawler.png
+BookSprite: SRD-crabrawler-BookSprite.png
+BoxSprite: SRD-crabrawler-BoxSprite.png
 DexCategory: Boxing Pokemon
 DexDescription: They can be found on the beach, but as they grow stronger they also
   venture more into the land where they fight for ripe berries. They punch with their
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Anger Point
-HomeSprite: SRD-HomeSprite-crabrawler.png
+HomeSprite: SRD-crabrawler-HomeSprite.png
 Learnset: '[[SRD-Crabrawler-Learnset]]'
 Legendary: 'No'
 Name: Crabrawler
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-crabrawler.png|right]]
+![[SRD-crabrawler-BookSprite.png|right wsmall]]
 
 *Boxing Pokemon*
 *They can be found on the beach, but as they grow stronger they also venture more into the land where they fight for ripe berries. They punch with their pincers, which are delicious with butter by the way.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Iron Fist|Iron Fist]] ([[SRD-Anger Point|Anger Point]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-crabrawler.png|right]]
+![[SRD-crabrawler-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-crabrawler-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

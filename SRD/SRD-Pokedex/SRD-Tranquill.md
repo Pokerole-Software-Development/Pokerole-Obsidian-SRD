@@ -2,9 +2,8 @@
 Ability1: Big Pecks
 Ability2: Super Luck
 Baby: 'No'
-BookImageName: HOME520.png
-BookShinyImageName: HOME520_s.png
-BoxSprite: SRD-BoxSprite-tranquill.png
+BookSprite: SRD-tranquill-BookSprite.png
+BoxSprite: SRD-tranquill-BoxSprite.png
 DexCategory: Wild Pigeon Pokemon
 DexDescription: "During war and old times people made use of Tranquil\u2019s sense\
   \ of location to send letters. It will never fail to find it\u2019s way back home.\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Rivalry
-HomeSprite: SRD-HomeSprite-tranquill.png
+HomeSprite: SRD-tranquill-HomeSprite.png
 Learnset: '[[SRD-Tranquill-Learnset]]'
 Legendary: 'No'
 Name: Tranquill
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tranquill.png|right]]
+![[SRD-tranquill-BookSprite.png|right wsmall]]
 
 *Wild Pigeon Pokemon*
 *During war and old times people made use of Tranquil’s sense of location to send letters. It will never fail to find it’s way back home. They like quiet forests and enjoy to relax in the peace and quiet.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Big Pecks|Big Pecks]] / [[SRD-Super Luck|Super Luck]] ([[SRD-Rivalry|Rivalry]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-tranquill.png|right]]
+![[SRD-tranquill-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-tranquill-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

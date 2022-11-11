@@ -2,9 +2,8 @@
 Ability1: Motor Drive
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME466.png
-BookShinyImageName: HOME466_s.png
-BoxSprite: SRD-BoxSprite-electivire.png
+BookSprite: SRD-electivire-BookSprite.png
+BoxSprite: SRD-electivire-BoxSprite.png
 DexCategory: Thunderbolt Pokemon
 DexDescription: This Pokemon is reckless and has a short temper. As its electric charge
   amplifies, blue sparks begin to crackle between its horns. It has registered charge
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Vital Spirit
-HomeSprite: SRD-HomeSprite-electivire.png
+HomeSprite: SRD-electivire-HomeSprite.png
 Learnset: '[[SRD-Electivire-Learnset]]'
 Legendary: 'No'
 Name: Electivire
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-electivire.png|right]]
+![[SRD-electivire-BookSprite.png|right wsmall]]
 
 *Thunderbolt Pokemon*
 *This Pokemon is reckless and has a short temper. As its electric charge amplifies, blue sparks begin to crackle between its horns. It has registered charge levels of over 20,000 Volts.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Motor Drive|Motor Drive]] ([[SRD-Vital Spirit|Vital Spirit]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-electivire.png|right]]
+![[SRD-electivire-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-electivire-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

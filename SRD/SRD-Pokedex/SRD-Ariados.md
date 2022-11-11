@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: Insomnia
 Baby: 'No'
-BookImageName: HOME168.png
-BookShinyImageName: HOME168_s.png
-BoxSprite: SRD-BoxSprite-ariados.png
+BookSprite: SRD-ariados-BookSprite.png
+BoxSprite: SRD-ariados-BoxSprite.png
 DexCategory: Long Leg Pokemon
 DexDescription: This Pokemon is silent and stealthy. It comes out at night. After
   attaching some silk to its prey, it sets it free. Later, it tracks the silk back
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Sniper
-HomeSprite: SRD-HomeSprite-ariados.png
+HomeSprite: SRD-ariados-HomeSprite.png
 Learnset: '[[SRD-Ariados-Learnset]]'
 Legendary: 'No'
 Name: Ariados
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ariados.png|right]]
+![[SRD-ariados-BookSprite.png|right wsmall]]
 
 *Long Leg Pokemon*
 *This Pokemon is silent and stealthy. It comes out at night. After attaching some silk to its prey, it sets it free. Later, it tracks the silk back to the prey and its friends. It can form big colonies in caves.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Insomnia|Insomnia]] ([[SRD-Sniper|Sniper]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-ariados.png|right]]
+![[SRD-ariados-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-ariados-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

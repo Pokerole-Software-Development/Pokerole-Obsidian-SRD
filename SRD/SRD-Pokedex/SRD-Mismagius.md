@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME429.png
-BookShinyImageName: HOME429_s.png
-BoxSprite: SRD-BoxSprite-mismagius.png
+BookSprite: SRD-mismagius-BookSprite.png
+BoxSprite: SRD-mismagius-BoxSprite.png
 DexCategory: Magical Pokemon
 DexDescription: Extremely rare. Their cries sound like incantations, hearing them
   gives you bad headaches and hallucinations. It is said that some Mismagius are benevolent
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-mismagius.png
+HomeSprite: SRD-mismagius-HomeSprite.png
 Learnset: '[[SRD-Mismagius-Learnset]]'
 Legendary: 'No'
 Name: Mismagius
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mismagius.png|right]]
+![[SRD-mismagius-BookSprite.png|right wsmall]]
 
 *Magical Pokemon*
 *Extremely rare. Their cries sound like incantations, hearing them gives you bad headaches and hallucinations. It is said that some Mismagius are benevolent and have granted good fortune to people they like.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-mismagius.png|right]]
+![[SRD-mismagius-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-mismagius-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

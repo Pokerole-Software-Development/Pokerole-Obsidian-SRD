@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Inner Focus
 Baby: 'No'
-BookImageName: HOME083.png
-BookShinyImageName: HOME083_s.png
-BoxSprite: SRD-BoxSprite-farfetchd.png
+BookSprite: SRD-farfetchd-BookSprite.png
+BoxSprite: SRD-farfetchd-BoxSprite.png
 DexCategory: Wild Duck Pokemon
 DexDescription: There used to be whole flocks of them in meadows near the lakes. Now
   they are almost extinct because their meat is delicious. They are fond of leeks
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Defiant
-HomeSprite: SRD-HomeSprite-farfetchd.png
+HomeSprite: SRD-farfetchd-HomeSprite.png
 Learnset: '[[SRD-Farfetch''d-Learnset]]'
 Legendary: 'No'
 Name: Farfetch'd
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-farfetchd.png|right]]
+![[SRD-farfetchd-BookSprite.png|right wsmall]]
 
 *Wild Duck Pokemon*
 *There used to be whole flocks of them in meadows near the lakes. Now they are almost extinct because their meat is delicious. They are fond of leeks and celery, they carry them around as sticks.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Inner Focus|Inner Focus]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-farfetchd.png|right]]
+![[SRD-farfetchd-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-farfetchd-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

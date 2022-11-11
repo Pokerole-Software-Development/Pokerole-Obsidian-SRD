@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Early Bird
 Baby: 'No'
-BookImageName: HOME085.png
-BookShinyImageName: HOME085_s.png
-BoxSprite: SRD-BoxSprite-dodrio.png
+BookSprite: SRD-dodrio-BookSprite.png
+BoxSprite: SRD-dodrio-BoxSprite.png
 DexCategory: Triple Bird Pokemon
 DexDescription: A third head comes to change the dynamic the two original had. It
   is common to see the three heads fighting. Each one has its own personality, but
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Tangled Feet
-HomeSprite: SRD-HomeSprite-dodrio.png
+HomeSprite: SRD-dodrio-HomeSprite.png
 Learnset: '[[SRD-Dodrio-Learnset]]'
 Legendary: 'No'
 Name: Dodrio
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dodrio.png|right]]
+![[SRD-dodrio-BookSprite.png|right wsmall]]
 
 *Triple Bird Pokemon*
 *A third head comes to change the dynamic the two original had. It is common to see the three heads fighting. Each one has its own personality, but when they work as a team they can be very powerful.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Tangled Feet|Tangled Feet]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-dodrio.png|right]]
+![[SRD-dodrio-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-dodrio-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

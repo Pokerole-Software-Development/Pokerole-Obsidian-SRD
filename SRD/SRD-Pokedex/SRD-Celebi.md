@@ -2,9 +2,8 @@
 Ability1: Natural Cure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME251.png
-BookShinyImageName: HOME251_s.png
-BoxSprite: SRD-BoxSprite-celebi.png
+BookSprite: SRD-celebi-BookSprite.png
+BoxSprite: SRD-celebi-BoxSprite.png
 DexCategory: No Data
 DexDescription: Guardian of the Forest. Celebi is said to be able to travel through
   time, amending mistakes from people who hurt the land, and crafting a bright future
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-celebi.png
+HomeSprite: SRD-celebi-HomeSprite.png
 Learnset: '[[SRD-Celebi-Learnset]]'
 Legendary: 'Yes'
 Name: Celebi
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-celebi.png|right]]
+![[SRD-celebi-BookSprite.png|right wsmall]]
 
 *No Data*
 *Guardian of the Forest. Celebi is said to be able to travel through time, amending mistakes from people who hurt the land, and crafting a bright future for those who live nearby.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-celebi.png|right]]
+![[SRD-celebi-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-celebi-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

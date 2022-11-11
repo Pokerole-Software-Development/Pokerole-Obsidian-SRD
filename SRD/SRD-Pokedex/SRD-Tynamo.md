@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME602.png
-BookShinyImageName: HOME602_s.png
-BoxSprite: SRD-BoxSprite-tynamo.png
+BookSprite: SRD-tynamo-BookSprite.png
+BoxSprite: SRD-tynamo-BoxSprite.png
 DexCategory: EleFish Pokemon
 DexDescription: "These Pokemon move in schools. They have an electricity-storing organ\
   \ at their sides but they can\u2019t generate their own power. They only discharge\
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-tynamo.png
+HomeSprite: SRD-tynamo-HomeSprite.png
 Learnset: '[[SRD-Tynamo-Learnset]]'
 Legendary: 'No'
 Name: Tynamo
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tynamo.png|right]]
+![[SRD-tynamo-BookSprite.png|right wsmall]]
 
 *EleFish Pokemon*
 *These Pokemon move in schools. They have an electricity-storing organ at their sides but they can’t generate their own power. They only discharge electricity if they are in danger.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-tynamo.png|right]]
+![[SRD-tynamo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-tynamo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

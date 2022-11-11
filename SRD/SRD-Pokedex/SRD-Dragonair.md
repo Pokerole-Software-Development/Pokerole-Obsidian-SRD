@@ -2,9 +2,8 @@
 Ability1: Shed Skin
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME148.png
-BookShinyImageName: HOME148_s.png
-BoxSprite: SRD-BoxSprite-dragonair.png
+BookSprite: SRD-dragonair-BookSprite.png
+BoxSprite: SRD-dragonair-BoxSprite.png
 DexCategory: Dragon Pokemon
 DexDescription: It is said to live in seas and lakes. Even though it has no wings,
   it has been depicted flying. There were legends of this Pokemon controlling the
@@ -17,7 +16,7 @@ Height:
   Feet: 13.1
   Meters: 4.0
 HiddenAbility: Marvel Scale
-HomeSprite: SRD-HomeSprite-dragonair.png
+HomeSprite: SRD-dragonair-HomeSprite.png
 Learnset: '[[SRD-Dragonair-Learnset]]'
 Legendary: 'No'
 Name: Dragonair
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dragonair.png|right]]
+![[SRD-dragonair-BookSprite.png|right wsmall]]
 
 *Dragon Pokemon*
 *It is said to live in seas and lakes. Even though it has no wings, it has been depicted flying. There were legends of this Pokemon controlling the weather and ending the storms to leave a rainbow behind.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]] ([[SRD-Marvel Scale|Marvel Scale]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-dragonair.png|right]]
+![[SRD-dragonair-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-dragonair-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

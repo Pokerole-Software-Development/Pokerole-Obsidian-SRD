@@ -2,9 +2,8 @@
 Ability1: Sand Veil
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME444.png
-BookShinyImageName: HOME444_s.png
-BoxSprite: SRD-BoxSprite-gabite.png
+BookSprite: SRD-gabite-BookSprite.png
+BoxSprite: SRD-gabite-BoxSprite.png
 DexCategory: Cave Pokemon
 DexDescription: It hoards a small treasure of sparkly things back in its cave. It
   will react aggressively towards any potential thief. It is also an excellent hunter,
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Rough Skin
-HomeSprite: SRD-HomeSprite-gabite.png
+HomeSprite: SRD-gabite-HomeSprite.png
 Learnset: '[[SRD-Gabite-Learnset]]'
 Legendary: 'No'
 Name: Gabite
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gabite.png|right]]
+![[SRD-gabite-BookSprite.png|right wsmall]]
 
 *Cave Pokemon*
 *It hoards a small treasure of sparkly things back in its cave. It will react aggressively towards any potential thief. It is also an excellent hunter, capable of running, swimming and gliding extremely fast.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] ([[SRD-Rough Skin|Rough Skin]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-gabite.png|right]]
+![[SRD-gabite-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-gabite-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

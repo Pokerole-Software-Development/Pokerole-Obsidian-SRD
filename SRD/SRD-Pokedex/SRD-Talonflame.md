@@ -2,9 +2,8 @@
 Ability1: Flame Body
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME663.png
-BookShinyImageName: HOME663_s.png
-BoxSprite: SRD-BoxSprite-talonflame.png
+BookSprite: SRD-talonflame-BookSprite.png
+BoxSprite: SRD-talonflame-BoxSprite.png
 DexCategory: Scorching Pokemon
 DexDescription: They soar over desert canyons. If they spot prey they launch down
   at full speed to deliver a finishing blow. They are excellent hunters, with every
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Gale Wings
-HomeSprite: SRD-HomeSprite-talonflame.png
+HomeSprite: SRD-talonflame-HomeSprite.png
 Learnset: '[[SRD-Talonflame-Learnset]]'
 Legendary: 'No'
 Name: Talonflame
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-talonflame.png|right]]
+![[SRD-talonflame-BookSprite.png|right wsmall]]
 
 *Scorching Pokemon*
 *They soar over desert canyons. If they spot prey they launch down at full speed to deliver a finishing blow. They are excellent hunters, with every wing flap they take, it leaves a trail of fire dust behind.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flame Body|Flame Body]] ([[SRD-Gale Wings|Gale Wings]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-talonflame.png|right]]
+![[SRD-talonflame-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-talonflame-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

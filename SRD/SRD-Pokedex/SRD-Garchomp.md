@@ -2,9 +2,8 @@
 Ability1: Sand Veil
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME445.png
-BookShinyImageName: HOME445_s.png
-BoxSprite: SRD-BoxSprite-garchomp.png
+BookSprite: SRD-garchomp-BookSprite.png
+BoxSprite: SRD-garchomp-BoxSprite.png
 DexCategory: Mach Pokemon
 DexDescription: Garchomps are scarce in the wild and very dangerous. It folds its
   arms and uses its fins to fly extremely fast at low heights. Territorial and aggressive
@@ -17,7 +16,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Rough Skin
-HomeSprite: SRD-HomeSprite-garchomp.png
+HomeSprite: SRD-garchomp-HomeSprite.png
 Learnset: '[[SRD-Garchomp-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-garchomp.png|right]]
+![[SRD-garchomp-BookSprite.png|right wsmall]]
 
 *Mach Pokemon*
 *Garchomps are scarce in the wild and very dangerous. It folds its arms and uses its fins to fly extremely fast at low heights. Territorial and aggressive it will not rest until it catches any daring trespasser.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] ([[SRD-Rough Skin|Rough Skin]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-garchomp.png|right]]
+![[SRD-garchomp-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-garchomp-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

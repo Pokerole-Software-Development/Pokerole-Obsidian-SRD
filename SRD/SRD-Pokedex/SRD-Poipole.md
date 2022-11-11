@@ -2,9 +2,8 @@
 Ability1: Beast Boost
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME803.png
-BookShinyImageName: HOME803_s.png
-BoxSprite: SRD-BoxSprite-poipole.png
+BookSprite: SRD-poipole-BookSprite.png
+BoxSprite: SRD-poipole-BoxSprite.png
 DexCategory: 'Aether Foundation Log #162'
 DexDescription: "Thanks to the Recon Squad we\u2019ve managed to secure a location\
   \ on the other side. UB- Adhesive have been a great help; their intelligence and\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-poipole.png
+HomeSprite: SRD-poipole-HomeSprite.png
 Learnset: '[[SRD-Poipole-Learnset]]'
 Legendary: 'No'
 Name: Poipole
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-poipole.png|right]]
+![[SRD-poipole-BookSprite.png|right wsmall]]
 
 *Aether Foundation Log #162*
 *Thanks to the Recon Squad we’ve managed to secure a location on the other side. UB- Adhesive have been a great help; their intelligence and friendliness would make them very popular in our world.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-poipole.png|right]]
+![[SRD-poipole-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-poipole-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

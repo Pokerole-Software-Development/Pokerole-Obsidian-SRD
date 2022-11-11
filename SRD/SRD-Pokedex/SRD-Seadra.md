@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Sniper
 Baby: 'No'
-BookImageName: HOME117.png
-BookShinyImageName: HOME117_s.png
-BoxSprite: SRD-BoxSprite-seadra.png
+BookSprite: SRD-seadra-BookSprite.png
+BoxSprite: SRD-seadra-BoxSprite.png
 DexCategory: Dragon Pokemon
 DexDescription: The poisonous barbs all over its body are highly valued as ingredients
   for making traditional medicine. It will show no mercy if anything approaches its
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Damp
-HomeSprite: SRD-HomeSprite-seadra.png
+HomeSprite: SRD-seadra-HomeSprite.png
 Learnset: '[[SRD-Seadra-Learnset]]'
 Legendary: 'No'
 Name: Seadra
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-seadra.png|right]]
+![[SRD-seadra-BookSprite.png|right wsmall]]
 
 *Dragon Pokemon*
 *The poisonous barbs all over its body are highly valued as ingredients for making traditional medicine. It will show no mercy if anything approaches its nest. Its back fin has a numbing substance*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Sniper|Sniper]] ([[SRD-Damp|Damp]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-seadra.png|right]]
+![[SRD-seadra-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-seadra-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

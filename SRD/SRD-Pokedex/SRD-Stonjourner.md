@@ -2,9 +2,8 @@
 Ability1: Power Spot
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME874.png
-BookShinyImageName: HOME874_s.png
-BoxSprite: SRD-BoxSprite-stonjourner.png
+BookSprite: SRD-stonjourner-BookSprite.png
+BoxSprite: SRD-stonjourner-BoxSprite.png
 DexCategory: Big Rock Pokemon
 DexDescription: They spend almost all their lives immobile, looking as inconspicuous
   rocks, but once a year they gather out of nowhere and form up in a circle. They
@@ -17,7 +16,7 @@ Height:
   Feet: 8.2
   Meters: 2.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-stonjourner.png
+HomeSprite: SRD-stonjourner-HomeSprite.png
 Learnset: '[[SRD-Stonjourner-Learnset]]'
 Legendary: 'No'
 Name: Stonjourner
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-stonjourner.png|right]]
+![[SRD-stonjourner-BookSprite.png|right wsmall]]
 
 *Big Rock Pokemon*
 *They spend almost all their lives immobile, looking as inconspicuous rocks, but once a year they gather out of nowhere and form up in a circle. They stay in formation for a few days and then disappear overnight.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Power Spot|Power Spot]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-stonjourner.png|right]]
+![[SRD-stonjourner-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-stonjourner-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

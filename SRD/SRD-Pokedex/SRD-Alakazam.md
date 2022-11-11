@@ -2,9 +2,8 @@
 Ability1: Synchronize
 Ability2: Inner Focus
 Baby: 'No'
-BookImageName: HOME065.png
-BookShinyImageName: HOME065_s.png
-BoxSprite: SRD-BoxSprite-alakazam.png
+BookSprite: SRD-alakazam-BookSprite.png
+BoxSprite: SRD-alakazam-BoxSprite.png
 DexCategory: Psi Pokemon
 DexDescription: A Pokemon that can memorize anything and never forgets what it learns.
   Over time it becomes too smart to allow anyone to be its master. Alakazam's psychic
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Magic Guard
-HomeSprite: SRD-HomeSprite-alakazam.png
+HomeSprite: SRD-alakazam-HomeSprite.png
 Learnset: '[[SRD-Alakazam-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-alakazam.png|right]]
+![[SRD-alakazam-BookSprite.png|right wsmall]]
 
 *Psi Pokemon*
 *A Pokemon that can memorize anything and never forgets what it learns. Over time it becomes too smart to allow anyone to be its master. Alakazam's psychic powers can be terrifying.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Synchronize|Synchronize]] / [[SRD-Inner Focus|Inner Focus]] ([[SRD-Magic Guard|Magic Guard]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-alakazam.png|right]]
+![[SRD-alakazam-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-alakazam-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

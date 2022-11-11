@@ -2,9 +2,8 @@
 Ability1: Strong Jaw
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME319M.png
-BookShinyImageName: HOME319M_s.png
-BoxSprite: SRD-BoxSprite-sharpedo-mega.png
+BookSprite: SRD-sharpedo-mega-BookSprite.png
+BoxSprite: SRD-sharpedo-mega-BoxSprite.png
 DexCategory: Brutal Pokemon
 DexDescription: As soon as it feels the power of the Mega Stone surge through its
   body, its mind goes blank with fury and violence. Its sharp spikes and teeth regrow
@@ -17,7 +16,7 @@ Height:
   Feet: 8.2
   Meters: 2.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-sharpedo-mega.png
+HomeSprite: SRD-sharpedo-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Sharpedo-Learnset]]'
 Legendary: 'No'
 Name: Mega-Sharpedo
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sharpedo-mega.png|right]]
+![[SRD-sharpedo-mega-BookSprite.png|right wsmall]]
 
 *Brutal Pokemon*
 *As soon as it feels the power of the Mega Stone surge through its body, its mind goes blank with fury and violence. Its sharp spikes and teeth regrow sharper if it loses them. The yellow marks on its body are scars*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Strong Jaw|Strong Jaw]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-sharpedo-mega.png|right]]
+![[SRD-sharpedo-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-sharpedo-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

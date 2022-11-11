@@ -2,9 +2,8 @@
 Ability1: Ice Body
 Ability2: Snow Cloak
 Baby: 'No'
-BookImageName: HOME582.png
-BookShinyImageName: HOME582_s.png
-BoxSprite: SRD-BoxSprite-vanillite.png
+BookSprite: SRD-vanillite-BookSprite.png
+BoxSprite: SRD-vanillite-BoxSprite.png
 DexCategory: Fresh Snow Pokemon
 DexDescription: This Pokemon were born from icicles that bathed in the energy of the
   morning sun. It uses snow to cover its head and protect it from melting. They are
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Weak Armor
-HomeSprite: SRD-HomeSprite-vanillite.png
+HomeSprite: SRD-vanillite-HomeSprite.png
 Learnset: '[[SRD-Vanillite-Learnset]]'
 Legendary: 'No'
 Name: Vanillite
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-vanillite.png|right]]
+![[SRD-vanillite-BookSprite.png|right wsmall]]
 
 *Fresh Snow Pokemon*
 *This Pokemon were born from icicles that bathed in the energy of the morning sun. It uses snow to cover its head and protect it from melting. They are playful and love to make snow fall around them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Ice Body|Ice Body]] / [[SRD-Snow Cloak|Snow Cloak]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-vanillite.png|right]]
+![[SRD-vanillite-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-vanillite-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

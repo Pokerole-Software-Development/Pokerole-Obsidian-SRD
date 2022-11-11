@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Water Absorb
 Baby: 'Yes'
-BookImageName: HOME458.png
-BookShinyImageName: HOME458_s.png
-BoxSprite: SRD-BoxSprite-mantyke.png
+BookSprite: SRD-mantyke-BookSprite.png
+BoxSprite: SRD-mantyke-BoxSprite.png
 DexCategory: Kite Pokemon
 DexDescription: "When it swims close the ocean\u2019s surface people aboard ships\
   \ are able to observe the pattern on its back as it is different in every region.\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Water Veil
-HomeSprite: SRD-HomeSprite-mantyke.png
+HomeSprite: SRD-mantyke-HomeSprite.png
 Learnset: '[[SRD-Mantyke-Learnset]]'
 Legendary: 'No'
 Name: Mantyke
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mantyke.png|right]]
+![[SRD-mantyke-BookSprite.png|right wsmall]]
 
 *Kite Pokemon*
 *When it swims close the ocean’s surface people aboard ships are able to observe the pattern on its back as it is different in every region. Mantyke is an intelligent and friendly Pokemon that rarely attacks others.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Water Absorb|Water Absorb]] ([[SRD-Water Veil|Water Veil]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-mantyke.png|right]]
+![[SRD-mantyke-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-mantyke-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

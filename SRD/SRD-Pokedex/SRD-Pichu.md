@@ -2,9 +2,8 @@
 Ability1: Static
 Ability2: ''
 Baby: 'Yes'
-BookImageName: HOME172.png
-BookShinyImageName: HOME172_s.png
-BoxSprite: SRD-BoxSprite-pichu.png
+BookSprite: SRD-pichu-BookSprite.png
+BoxSprite: SRD-pichu-BoxSprite.png
 DexCategory: Tiny Mouse Pokemon
 DexDescription: Its cheek pouches are not fully developed yet. Pichu gets startled
   if its cheeks release electricity jolts. It needs a friendly environment to grow
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Lightning Rod
-HomeSprite: SRD-HomeSprite-pichu.png
+HomeSprite: SRD-pichu-HomeSprite.png
 Learnset: '[[SRD-Pichu-Learnset]]'
 Legendary: 'No'
 Name: Pichu
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pichu.png|right]]
+![[SRD-pichu-BookSprite.png|right wsmall]]
 
 *Tiny Mouse Pokemon*
 *Its cheek pouches are not fully developed yet. Pichu gets startled if its cheeks release electricity jolts. It needs a friendly environment to grow happy. It can be quite the rascal, though.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Static|Static]] ([[SRD-Lightning Rod|Lightning Rod]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-pichu.png|right]]
+![[SRD-pichu-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::2)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-pichu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

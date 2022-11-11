@@ -2,9 +2,8 @@
 Ability1: Sheer Force
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME879.png
-BookShinyImageName: HOME879_s.png
-BoxSprite: SRD-BoxSprite-copperajah.png
+BookSprite: SRD-copperajah-BookSprite.png
+BoxSprite: SRD-copperajah-BoxSprite.png
 DexCategory: Copperderm Pokemon
 DexDescription: They originally came from another region long ago, worked together
   with humans helping them pave new roads and building cities. They are usually calm
@@ -17,7 +16,7 @@ Height:
   Feet: 9.8
   Meters: 3.0
 HiddenAbility: Heavy Metal
-HomeSprite: SRD-HomeSprite-copperajah.png
+HomeSprite: SRD-copperajah-HomeSprite.png
 Learnset: '[[SRD-Copperajah-Learnset]]'
 Legendary: 'No'
 Name: Copperajah
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-copperajah.png|right]]
+![[SRD-copperajah-BookSprite.png|right wsmall]]
 
 *Copperderm Pokemon*
 *They originally came from another region long ago, worked together with humans helping them pave new roads and building cities. They are usually calm and love spending time with their families.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sheer Force|Sheer Force]] ([[SRD-Heavy Metal|Heavy Metal]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-copperajah.png|right]]
+![[SRD-copperajah-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-copperajah-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

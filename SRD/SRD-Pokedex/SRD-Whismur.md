@@ -2,9 +2,8 @@
 Ability1: Soundproof
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME293.png
-BookShinyImageName: HOME293_s.png
-BoxSprite: SRD-BoxSprite-whismur.png
+BookSprite: SRD-whismur-BookSprite.png
+BoxSprite: SRD-whismur-BoxSprite.png
 DexCategory: Whisper Pokemon
 DexDescription: Their timid voice is barely audible, however, if it senses danger,
   they start crying loud enough to deafen anyone nearby. Their own noise scares them
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Rattled
-HomeSprite: SRD-HomeSprite-whismur.png
+HomeSprite: SRD-whismur-HomeSprite.png
 Learnset: '[[SRD-Whismur-Learnset]]'
 Legendary: 'No'
 Name: Whismur
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-whismur.png|right]]
+![[SRD-whismur-BookSprite.png|right wsmall]]
 
 *Whisper Pokemon*
 *Their timid voice is barely audible, however, if it senses danger, they start crying loud enough to deafen anyone nearby. Their own noise scares them even more, so they cry harder until their ear covers shut.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Soundproof|Soundproof]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-whismur.png|right]]
+![[SRD-whismur-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-whismur-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

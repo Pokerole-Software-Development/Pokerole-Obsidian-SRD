@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME656.png
-BookShinyImageName: HOME656_s.png
-BoxSprite: SRD-BoxSprite-froakie.png
+BookSprite: SRD-froakie-BookSprite.png
+BoxSprite: SRD-froakie-BoxSprite.png
 DexCategory: Bubble Frog Pokemon
 DexDescription: It protects its skin by covering its body in bubble foam. Beneath
   its happy-go-lucky air, it keeps a watchful eye on its surroundings. It needs good
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Protean
-HomeSprite: SRD-HomeSprite-froakie.png
+HomeSprite: SRD-froakie-HomeSprite.png
 Learnset: '[[SRD-Froakie-Learnset]]'
 Legendary: 'No'
 Name: Froakie
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-froakie.png|right]]
+![[SRD-froakie-BookSprite.png|right wsmall]]
 
 *Bubble Frog Pokemon*
 *It protects its skin by covering its body in bubble foam. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings. It needs good discipline or it will be bad mannered with others.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Protean|Protean]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-froakie.png|right]]
+![[SRD-froakie-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-froakie-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

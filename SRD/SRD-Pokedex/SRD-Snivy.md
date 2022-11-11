@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME495.png
-BookShinyImageName: HOME495_s.png
-BoxSprite: SRD-BoxSprite-snivy.png
+BookSprite: SRD-snivy-BookSprite.png
+BoxSprite: SRD-snivy-BoxSprite.png
 DexCategory: Grass Snake Pokemon
 DexDescription: "It is very intelligent and independent, although it seems calm it\
   \ doesn\u2019t like being bossed around. Being exposed to lots of sunlight makes\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Contrary
-HomeSprite: SRD-HomeSprite-snivy.png
+HomeSprite: SRD-snivy-HomeSprite.png
 Learnset: '[[SRD-Snivy-Learnset]]'
 Legendary: 'No'
 Name: Snivy
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-snivy.png|right]]
+![[SRD-snivy-BookSprite.png|right wsmall]]
 
 *Grass Snake Pokemon*
 *It is very intelligent and independent, although it seems calm it doesn’t like being bossed around. Being exposed to lots of sunlight makes its movements swifter. The tail drops if it is not feeling well.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Contrary|Contrary]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-snivy.png|right]]
+![[SRD-snivy-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-snivy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Early Bird
 Ability2: Flash Fire
 Baby: 'No'
-BookImageName: HOME229.png
-BookShinyImageName: HOME229_s.png
-BoxSprite: SRD-BoxSprite-houndoom.png
+BookSprite: SRD-houndoom-BookSprite.png
+BoxSprite: SRD-houndoom-BoxSprite.png
 DexCategory: Dark Pokemon
 DexDescription: It is said the pain from its flames never goes away. Long ago, their
   howl was thought to be the call of the grim reaper. Pokemon and people who hear
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Unnerve
-HomeSprite: SRD-HomeSprite-houndoom.png
+HomeSprite: SRD-houndoom-HomeSprite.png
 Learnset: '[[SRD-Houndoom-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-houndoom.png|right]]
+![[SRD-houndoom-BookSprite.png|right wsmall]]
 
 *Dark Pokemon*
 *It is said the pain from its flames never goes away. Long ago, their howl was thought to be the call of the grim reaper. Pokemon and people who hear it, will always shiver in fear. They are pack leaders, not followers*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Early Bird|Early Bird]] / [[SRD-Flash Fire|Flash Fire]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-houndoom.png|right]]
+![[SRD-houndoom-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-houndoom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

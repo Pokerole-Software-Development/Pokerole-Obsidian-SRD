@@ -2,9 +2,8 @@
 Ability1: Healer
 Ability2: Anticipation
 Baby: 'No'
-BookImageName: HOME857.png
-BookShinyImageName: HOME857_s.png
-BoxSprite: SRD-BoxSprite-hattrem.png
+BookSprite: SRD-hattrem-BookSprite.png
+BoxSprite: SRD-hattrem-BoxSprite.png
 DexCategory: Serene Pokemon
 DexDescription: It may seem friendly but it is actually quite the loner. No matter
   who you are, if you bring strong emotions near it, it will silence you violently
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Magic Bounce
-HomeSprite: SRD-HomeSprite-hattrem.png
+HomeSprite: SRD-hattrem-HomeSprite.png
 Learnset: '[[SRD-Hattrem-Learnset]]'
 Legendary: 'No'
 Name: Hattrem
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-hattrem.png|right]]
+![[SRD-hattrem-BookSprite.png|right wsmall]]
 
 *Serene Pokemon*
 *It may seem friendly but it is actually quite the loner. No matter who you are, if you bring strong emotions near it, it will silence you violently by hitting you with its braids. It dislikes crowded places.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Healer|Healer]] / [[SRD-Anticipation|Anticipation]] ([[SRD-Magic Bounce|Magic Bounce]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-hattrem.png|right]]
+![[SRD-hattrem-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-hattrem-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

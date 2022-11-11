@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Rock Head
 Baby: 'No'
-BookImageName: HOME369.png
-BookShinyImageName: HOME369_s.png
-BoxSprite: SRD-BoxSprite-relicanth.png
+BookSprite: SRD-relicanth-BookSprite.png
+BoxSprite: SRD-relicanth-BoxSprite.png
 DexCategory: Longevity Pokemon
 DexDescription: It has remained unchanged for millions of years. Relicanth was discovered
   in a deep sea expedition. It feeds on plankton. Their scales are like craggy rocks,
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Sturdy
-HomeSprite: SRD-HomeSprite-relicanth.png
+HomeSprite: SRD-relicanth-HomeSprite.png
 Learnset: '[[SRD-Relicanth-Learnset]]'
 Legendary: 'No'
 Name: Relicanth
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-relicanth.png|right]]
+![[SRD-relicanth-BookSprite.png|right wsmall]]
 
 *Longevity Pokemon*
 *It has remained unchanged for millions of years. Relicanth was discovered in a deep sea expedition. It feeds on plankton. Their scales are like craggy rocks, they can endure the pressure of the deep sea.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Rock Head|Rock Head]] ([[SRD-Sturdy|Sturdy]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-relicanth.png|right]]
+![[SRD-relicanth-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-relicanth-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

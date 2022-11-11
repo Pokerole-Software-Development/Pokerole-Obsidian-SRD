@@ -2,9 +2,8 @@
 Ability1: Rock Head
 Ability2: Sturdy
 Baby: 'No'
-BookImageName: HOME074.png
-BookShinyImageName: HOME074_s.png
-BoxSprite: SRD-BoxSprite-geodude.png
+BookSprite: SRD-geodude-BookSprite.png
+BoxSprite: SRD-geodude-BoxSprite.png
 DexCategory: Rock Pokemon
 DexDescription: Lives in mountains and caves. It looks indistinguishable from other
   rocks around. Because of this, many trainers step on them and are attacked. It rolls
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Sand Veil
-HomeSprite: SRD-HomeSprite-geodude.png
+HomeSprite: SRD-geodude-HomeSprite.png
 Learnset: '[[SRD-Geodude-Learnset]]'
 Legendary: 'No'
 Name: Geodude
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-geodude.png|right]]
+![[SRD-geodude-BookSprite.png|right wsmall]]
 
 *Rock Pokemon*
 *Lives in mountains and caves. It looks indistinguishable from other rocks around. Because of this, many trainers step on them and are attacked. It rolls to move around and eats whatever it finds on the floor.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rock Head|Rock Head]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Sand Veil|Sand Veil]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-geodude.png|right]]
+![[SRD-geodude-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-geodude-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

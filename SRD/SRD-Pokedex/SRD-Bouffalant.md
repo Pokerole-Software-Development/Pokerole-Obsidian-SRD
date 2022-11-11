@@ -2,9 +2,8 @@
 Ability1: Reckless
 Ability2: Sap Sipper
 Baby: 'No'
-BookImageName: HOME626.png
-BookShinyImageName: HOME626_s.png
-BoxSprite: SRD-BoxSprite-bouffalant.png
+BookSprite: SRD-bouffalant-BookSprite.png
+BoxSprite: SRD-bouffalant-BoxSprite.png
 DexCategory: Bash Buffalo Pokemon
 DexDescription: They form herds on the coldest plains. They bash and headbutt to attack
   their foes. The fluffy fur on their heads absorbs damage to their skulls. Years
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Soundproof
-HomeSprite: SRD-HomeSprite-bouffalant.png
+HomeSprite: SRD-bouffalant-HomeSprite.png
 Learnset: '[[SRD-Bouffalant-Learnset]]'
 Legendary: 'No'
 Name: Bouffalant
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-bouffalant.png|right]]
+![[SRD-bouffalant-BookSprite.png|right wsmall]]
 
 *Bash Buffalo Pokemon*
 *They form herds on the coldest plains. They bash and headbutt to attack their foes. The fluffy fur on their heads absorbs damage to their skulls. Years ago, a Bouffalant derailed a train with a bash.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Reckless|Reckless]] / [[SRD-Sap Sipper|Sap Sipper]] ([[SRD-Soundproof|Soundproof]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-bouffalant.png|right]]
+![[SRD-bouffalant-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-bouffalant-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

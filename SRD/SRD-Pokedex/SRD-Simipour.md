@@ -2,9 +2,8 @@
 Ability1: Gluttony
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME516.png
-BookShinyImageName: HOME516_s.png
-BoxSprite: SRD-BoxSprite-simipour.png
+BookSprite: SRD-simipour-BookSprite.png
+BoxSprite: SRD-simipour-BoxSprite.png
 DexCategory: Geyser Pokemon
 DexDescription: It prefers places with clean water. When its tuft runs low, it replenishes
   it by siphoning water up with its tail. It is said that if you see a Simipour Swimming
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Torrent
-HomeSprite: SRD-HomeSprite-simipour.png
+HomeSprite: SRD-simipour-HomeSprite.png
 Learnset: '[[SRD-Simipour-Learnset]]'
 Legendary: 'No'
 Name: Simipour
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-simipour.png|right]]
+![[SRD-simipour-BookSprite.png|right wsmall]]
 
 *Geyser Pokemon*
 *It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning water up with its tail. It is said that if you see a Simipour Swimming in a pond, the water is safe to drink.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Gluttony|Gluttony]] ([[SRD-Torrent|Torrent]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-simipour.png|right]]
+![[SRD-simipour-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-simipour-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

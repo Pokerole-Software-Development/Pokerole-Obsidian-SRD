@@ -2,9 +2,8 @@
 Ability1: Ball Fetch
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME835.png
-BookShinyImageName: HOME835_s.png
-BoxSprite: SRD-BoxSprite-yamper.png
+BookSprite: SRD-yamper-BookSprite.png
+BoxSprite: SRD-yamper-BoxSprite.png
 DexCategory: Puppy Pokemon
 DexDescription: Its energy and big smile make this Pokemon very popular as a herding
   dog. When it runs, it generates electricity from the base of its tail. It loves
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Rattled
-HomeSprite: SRD-HomeSprite-yamper.png
+HomeSprite: SRD-yamper-HomeSprite.png
 Learnset: '[[SRD-Yamper-Learnset]]'
 Legendary: 'No'
 Name: Yamper
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-yamper.png|right]]
+![[SRD-yamper-BookSprite.png|right wsmall]]
 
 *Puppy Pokemon*
 *Its energy and big smile make this Pokemon very popular as a herding dog. When it runs, it generates electricity from the base of its tail. It loves to fetch balls and if you give it some treats it will love you forever.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Ball Fetch|Ball Fetch]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-yamper.png|right]]
+![[SRD-yamper-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-yamper-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Flame Body
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME636.png
-BookShinyImageName: HOME636_s.png
-BoxSprite: SRD-BoxSprite-larvesta.png
+BookSprite: SRD-larvesta-BookSprite.png
+BoxSprite: SRD-larvesta-BoxSprite.png
 DexCategory: Torch Pokemon
 DexDescription: Very Rare. The base of volcanoes is where they make their homes. They
   shoot fire from their horns to repel attacks from enemies. It becomes a flaming
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Swarm
-HomeSprite: SRD-HomeSprite-larvesta.png
+HomeSprite: SRD-larvesta-HomeSprite.png
 Learnset: '[[SRD-Larvesta-Learnset]]'
 Legendary: 'No'
 Name: Larvesta
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-larvesta.png|right]]
+![[SRD-larvesta-BookSprite.png|right wsmall]]
 
 *Torch Pokemon*
 *Very Rare. The base of volcanoes is where they make their homes. They shoot fire from their horns to repel attacks from enemies. It becomes a flaming cocoon for months before it finally evolves.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flame Body|Flame Body]] ([[SRD-Swarm|Swarm]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-larvesta.png|right]]
+![[SRD-larvesta-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-larvesta-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

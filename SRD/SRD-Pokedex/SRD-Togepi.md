@@ -2,9 +2,8 @@
 Ability1: Hustle
 Ability2: Serene Grace
 Baby: 'Yes'
-BookImageName: HOME175.png
-BookShinyImageName: HOME175_s.png
-BoxSprite: SRD-BoxSprite-togepi.png
+BookSprite: SRD-togepi-BookSprite.png
+BoxSprite: SRD-togepi-BoxSprite.png
 DexCategory: Spike Ball Pokemon
 DexDescription: "This Pokemon stores all the kindness and good feelings inside of\
   \ it\u2019s shell and shares them with others, when the shell is full it becomes\
@@ -18,7 +17,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Super Luck
-HomeSprite: SRD-HomeSprite-togepi.png
+HomeSprite: SRD-togepi-HomeSprite.png
 Learnset: '[[SRD-Togepi-Learnset]]'
 Legendary: 'No'
 Name: Togepi
@@ -38,7 +37,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-togepi.png|right]]
+![[SRD-togepi-BookSprite.png|right wsmall]]
 
 *Spike Ball Pokemon*
 *This Pokemon stores all the kindness and good feelings inside of it’s shell and shares them with others, when the shell is full it becomes so happy that it finally evolves. It is said that it’ll bring good fortune to its trainer.*
@@ -49,7 +48,7 @@ Weight:
 **Abilities**:: [[SRD-Hustle|Hustle]] / [[SRD-Serene Grace|Serene Grace]] ([[SRD-Super Luck|Super Luck]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-togepi.png|right]]
+![[SRD-togepi-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -58,6 +57,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-togepi-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

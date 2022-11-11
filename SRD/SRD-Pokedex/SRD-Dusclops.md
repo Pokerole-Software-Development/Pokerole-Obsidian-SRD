@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME356.png
-BookShinyImageName: HOME356_s.png
-BoxSprite: SRD-BoxSprite-dusclops.png
+BookSprite: SRD-dusclops-BookSprite.png
+BoxSprite: SRD-dusclops-BoxSprite.png
 DexCategory: Beckon Pokemon
 DexDescription: "Its body is hollow. Some paranormal experts say there is a spectral\
   \ energy ball inside them but it is not confirmed. If it absorbs an object or a\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Frisk
-HomeSprite: SRD-HomeSprite-dusclops.png
+HomeSprite: SRD-dusclops-HomeSprite.png
 Learnset: '[[SRD-Dusclops-Learnset]]'
 Legendary: 'No'
 Name: Dusclops
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dusclops.png|right]]
+![[SRD-dusclops-BookSprite.png|right wsmall]]
 
 *Beckon Pokemon*
 *Its body is hollow. Some paranormal experts say there is a spectral energy ball inside them but it is not confirmed. If it absorbs an object or a creature there’s the risk that nothing will come back out.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]] ([[SRD-Frisk|Frisk]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-dusclops.png|right]]
+![[SRD-dusclops-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-dusclops-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

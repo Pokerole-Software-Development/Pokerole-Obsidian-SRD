@@ -2,9 +2,8 @@
 Ability1: Thick Fat
 Ability2: Own Tempo
 Baby: 'No'
-BookImageName: HOME432.png
-BookShinyImageName: HOME432_s.png
-BoxSprite: SRD-BoxSprite-purugly.png
+BookSprite: SRD-purugly-BookSprite.png
+BoxSprite: SRD-purugly-BoxSprite.png
 DexCategory: Tiger Cat Pokemon
 DexDescription: It becomes wilder and aggressive after evolving. It is known to claim
   other Pokemon nests as its own. It will make itself appear bigger and glare with
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Defiant
-HomeSprite: SRD-HomeSprite-purugly.png
+HomeSprite: SRD-purugly-HomeSprite.png
 Learnset: '[[SRD-Purugly-Learnset]]'
 Legendary: 'No'
 Name: Purugly
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-purugly.png|right]]
+![[SRD-purugly-BookSprite.png|right wsmall]]
 
 *Tiger Cat Pokemon*
 *It becomes wilder and aggressive after evolving. It is known to claim other Pokemon nests as its own. It will make itself appear bigger and glare with piercing eyes to achieve dominance over someone.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-purugly.png|right]]
+![[SRD-purugly-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-purugly-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

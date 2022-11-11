@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: Neutralizing Gas
 Baby: 'No'
-BookImageName: HOME110.png
-BookShinyImageName: HOME110_s.png
-BoxSprite: SRD-BoxSprite-weezing.png
+BookSprite: SRD-weezing-BookSprite.png
+BoxSprite: SRD-weezing-BoxSprite.png
 DexCategory: Poison Gas Pokemon
 DexDescription: They are considered a pest in urban areas. They wait until night to
   roam and eat from the trash cans in the neighborhood. If it finds a filthy and unkempt
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Stench
-HomeSprite: SRD-HomeSprite-weezing.png
+HomeSprite: SRD-weezing-HomeSprite.png
 Learnset: '[[SRD-Weezing-Learnset]]'
 Legendary: 'No'
 Name: Weezing
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-weezing.png|right]]
+![[SRD-weezing-BookSprite.png|right wsmall]]
 
 *Poison Gas Pokemon*
 *They are considered a pest in urban areas. They wait until night to roam and eat from the trash cans in the neighborhood. If it finds a filthy and unkempt house it will make its nest in there.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]] / [[SRD-Neutralizing Gas|Neutralizing Gas]] ([[SRD-Stench|Stench]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-weezing.png|right]]
+![[SRD-weezing-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-weezing-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

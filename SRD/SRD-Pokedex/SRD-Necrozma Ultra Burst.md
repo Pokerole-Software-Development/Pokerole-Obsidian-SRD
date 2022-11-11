@@ -2,9 +2,8 @@
 Ability1: Neuroforce
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME800U.png
-BookShinyImageName: HOME800U_s.png
-BoxSprite: SRD-BoxSprite-necrozma-ultra.png
+BookSprite: SRD-necrozma-ultra-BookSprite.png
+BoxSprite: SRD-necrozma-ultra-BoxSprite.png
 DexCategory: Aether Foundation S.O.S Message
 DexDescription: Alert to national authorities we had a serious breach of security!
   This is an emergency! Close the port- (White Noise).
@@ -16,7 +15,7 @@ Height:
   Feet: 24.6
   Meters: 7.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-necrozma-ultra.png
+HomeSprite: SRD-necrozma-ultra-HomeSprite.png
 Learnset: '[[SRD-Necrozma Ultra Burst-Learnset]]'
 Legendary: 'Yes'
 Name: Necrozma Ultra Burst
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-necrozma-ultra.png|right]]
+![[SRD-necrozma-ultra-BookSprite.png|right wsmall]]
 
 *Aether Foundation S.O.S Message*
 *Alert to national authorities we had a serious breach of security! This is an emergency! Close the port- (White Noise).*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Neuroforce|Neuroforce]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-necrozma-ultra.png|right]]
+![[SRD-necrozma-ultra-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-necrozma-ultra-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

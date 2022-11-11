@@ -2,9 +2,8 @@
 Ability1: Frisk
 Ability2: Infiltrator
 Baby: 'No'
-BookImageName: HOME714.png
-BookShinyImageName: HOME714_s.png
-BoxSprite: SRD-BoxSprite-noibat.png
+BookSprite: SRD-noibat-BookSprite.png
+BoxSprite: SRD-noibat-BoxSprite.png
 DexCategory: Sound Wave Pokemon
 DexDescription: They live in dark caves and use echolocation to move around. Their
   enormous ears can emit ultrasonic waves that cause dizziness. Groups of them can
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-noibat.png
+HomeSprite: SRD-noibat-HomeSprite.png
 Learnset: '[[SRD-Noibat-Learnset]]'
 Legendary: 'No'
 Name: Noibat
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-noibat.png|right]]
+![[SRD-noibat-BookSprite.png|right wsmall]]
 
 *Sound Wave Pokemon*
 *They live in dark caves and use echolocation to move around. Their enormous ears can emit ultrasonic waves that cause dizziness. Groups of them can even take on prey several times their size.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Frisk|Frisk]] / [[SRD-Infiltrator|Infiltrator]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-noibat.png|right]]
+![[SRD-noibat-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-noibat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

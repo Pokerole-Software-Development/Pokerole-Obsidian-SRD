@@ -2,9 +2,8 @@
 Ability1: Frisk
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME103A.png
-BookShinyImageName: HOME103A_s.png
-BoxSprite: SRD-BoxSprite-exeggutor-alola.png
+BookSprite: SRD-exeggutor-alola-BookSprite.png
+BoxSprite: SRD-exeggutor-alola-BoxSprite.png
 DexCategory: Coconut Pokemon
 DexDescription: "Alola is the native region for this Pokemon, only in there it can\
   \ evolve into this form. With this size, its Psychic abilities are rarely needed\
@@ -17,7 +16,7 @@ Height:
   Feet: 35.8
   Meters: 10.9
 HiddenAbility: Harvest
-HomeSprite: SRD-HomeSprite-exeggutor-alola.png
+HomeSprite: SRD-exeggutor-alola-HomeSprite.png
 Learnset: '[[SRD-Alolan Exeggutor-Learnset]]'
 Legendary: 'No'
 Name: Alolan Exeggutor
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-exeggutor-alola.png|right]]
+![[SRD-exeggutor-alola-BookSprite.png|right wsmall]]
 
 *Coconut Pokemon*
 *Alola is the native region for this Pokemon, only in there it can evolve into this form. With this size, its Psychic abilities are rarely needed and its trainer’s order’s rarely heard. They enjoy the sun in the beach..*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Frisk|Frisk]] ([[SRD-Harvest|Harvest]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-exeggutor-alola.png|right]]
+![[SRD-exeggutor-alola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-exeggutor-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

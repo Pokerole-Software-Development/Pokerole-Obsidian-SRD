@@ -2,9 +2,8 @@
 Ability1: Sturdy
 Ability2: Sand Stream
 Baby: 'No'
-BookImageName: HOME526.png
-BookShinyImageName: HOME526_s.png
-BoxSprite: SRD-BoxSprite-gigalith.png
+BookSprite: SRD-gigalith-BookSprite.png
+BoxSprite: SRD-gigalith-BoxSprite.png
 DexCategory: Compressed Pokemon
 DexDescription: "It is a serious Pokemon that doesn\u2019t interact with others too\
   \ much. It uses the sharp crystals in it\u2019s body to recharge using the sun\u2019\
@@ -18,7 +17,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Sand Force
-HomeSprite: SRD-HomeSprite-gigalith.png
+HomeSprite: SRD-gigalith-HomeSprite.png
 Learnset: '[[SRD-Gigalith-Learnset]]'
 Legendary: 'No'
 Name: Gigalith
@@ -38,7 +37,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gigalith.png|right]]
+![[SRD-gigalith-BookSprite.png|right wsmall]]
 
 *Compressed Pokemon*
 *It is a serious Pokemon that doesn’t interact with others too much. It uses the sharp crystals in it’s body to recharge using the sun’s energy. If angered it can bury it’s foe under giant rock slides or explode at will.*
@@ -49,7 +48,7 @@ Weight:
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Sand Stream|Sand Stream]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-gigalith.png|right]]
+![[SRD-gigalith-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -58,6 +57,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-gigalith-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

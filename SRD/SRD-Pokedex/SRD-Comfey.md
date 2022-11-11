@@ -2,9 +2,8 @@
 Ability1: Flower Veil
 Ability2: Triage
 Baby: 'No'
-BookImageName: HOME764.png
-BookShinyImageName: HOME764_s.png
-BoxSprite: SRD-BoxSprite-comfey.png
+BookSprite: SRD-comfey-BookSprite.png
+BoxSprite: SRD-comfey-BoxSprite.png
 DexCategory: Posy Picker Pokemon
 DexDescription: This tiny Pokemon gathers flowers and connects them to itself forming
   a ring. The flowers never wither and their aroma becomes soothing and therapeutic.
@@ -17,7 +16,7 @@ Height:
   Feet: 0.3
   Meters: 0.1
 HiddenAbility: Natural Cure
-HomeSprite: SRD-HomeSprite-comfey.png
+HomeSprite: SRD-comfey-HomeSprite.png
 Learnset: '[[SRD-Comfey-Learnset]]'
 Legendary: 'No'
 Name: Comfey
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-comfey.png|right]]
+![[SRD-comfey-BookSprite.png|right wsmall]]
 
 *Posy Picker Pokemon*
 *This tiny Pokemon gathers flowers and connects them to itself forming a ring. The flowers never wither and their aroma becomes soothing and therapeutic. If it likes you it will create a flower ring just for you.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flower Veil|Flower Veil]] / [[SRD-Triage|Triage]] ([[SRD-Natural Cure|Natural Cure]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-comfey.png|right]]
+![[SRD-comfey-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-comfey-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Justified
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME638.png
-BookShinyImageName: HOME638_s.png
-BoxSprite: SRD-BoxSprite-cobalion.png
+BookSprite: SRD-cobalion-BookSprite.png
+BoxSprite: SRD-cobalion-BoxSprite.png
 DexCategory: No Data
 DexDescription: There is a story in Unova about four Pokemon that brought justice
   to the wrongdoers. Their Leader was calm and composed but unforgiving. Its cold
@@ -17,7 +16,7 @@ Height:
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-cobalion.png
+HomeSprite: SRD-cobalion-HomeSprite.png
 Learnset: '[[SRD-Cobalion-Learnset]]'
 Legendary: 'Yes'
 Name: Cobalion
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cobalion.png|right]]
+![[SRD-cobalion-BookSprite.png|right wsmall]]
 
 *No Data*
 *There is a story in Unova about four Pokemon that brought justice to the wrongdoers. Their Leader was calm and composed but unforgiving. Its cold stare forced you to obey its law.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Justified|Justified]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-cobalion.png|right]]
+![[SRD-cobalion-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::7)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-cobalion-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

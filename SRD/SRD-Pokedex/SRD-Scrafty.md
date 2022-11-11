@@ -2,9 +2,8 @@
 Ability1: Shed Skin
 Ability2: Moxie
 Baby: 'No'
-BookImageName: HOME560.png
-BookShinyImageName: HOME560_s.png
-BoxSprite: SRD-BoxSprite-scrafty.png
+BookSprite: SRD-scrafty-BookSprite.png
+BoxSprite: SRD-scrafty-BoxSprite.png
 DexCategory: Hoodlum Pokemon
 DexDescription: They form gangs and beat anyone who trespasses their territory. The
   one with the biggest crest is the leader. They throw powerful kicks and their skin
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Intimidate
-HomeSprite: SRD-HomeSprite-scrafty.png
+HomeSprite: SRD-scrafty-HomeSprite.png
 Learnset: '[[SRD-Scrafty-Learnset]]'
 Legendary: 'No'
 Name: Scrafty
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-scrafty.png|right]]
+![[SRD-scrafty-BookSprite.png|right wsmall]]
 
 *Hoodlum Pokemon*
 *They form gangs and beat anyone who trespasses their territory. The one with the biggest crest is the leader. They throw powerful kicks and their skin is an excellent shield. Be careful around them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]] / [[SRD-Moxie|Moxie]] ([[SRD-Intimidate|Intimidate]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-scrafty.png|right]]
+![[SRD-scrafty-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-scrafty-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

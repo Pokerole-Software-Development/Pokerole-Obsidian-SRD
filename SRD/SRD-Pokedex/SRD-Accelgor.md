@@ -2,9 +2,8 @@
 Ability1: Hydration
 Ability2: Sticky Hold
 Baby: 'No'
-BookImageName: HOME617.png
-BookShinyImageName: HOME617_s.png
-BoxSprite: SRD-BoxSprite-accelgor.png
+BookSprite: SRD-accelgor-BookSprite.png
+BoxSprite: SRD-accelgor-BoxSprite.png
 DexCategory: Shell Out Pokemon
 DexDescription: Having removed its heavy shell, it becomes very light and swift. When
   its body dries out, it weakens. To prevent dehydration, it wraps itself in many
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Unburden
-HomeSprite: SRD-HomeSprite-accelgor.png
+HomeSprite: SRD-accelgor-HomeSprite.png
 Learnset: '[[SRD-Accelgor-Learnset]]'
 Legendary: 'No'
 Name: Accelgor
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-accelgor.png|right]]
+![[SRD-accelgor-BookSprite.png|right wsmall]]
 
 *Shell Out Pokemon*
 *Having removed its heavy shell, it becomes very light and swift. When its body dries out, it weakens. To prevent dehydration, it wraps itself in many layers of a thin membrane. It is very rare to see one in the wild.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hydration|Hydration]] / [[SRD-Sticky Hold|Sticky Hold]] ([[SRD-Unburden|Unburden]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-accelgor.png|right]]
+![[SRD-accelgor-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-accelgor-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

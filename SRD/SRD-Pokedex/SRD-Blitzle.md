@@ -2,9 +2,8 @@
 Ability1: Lightning Rod
 Ability2: Motor Drive
 Baby: 'No'
-BookImageName: HOME522.png
-BookShinyImageName: HOME522_s.png
-BoxSprite: SRD-BoxSprite-blitzle.png
+BookSprite: SRD-blitzle-BookSprite.png
+BoxSprite: SRD-blitzle-BoxSprite.png
 DexCategory: Electrified Pokemon
 DexDescription: When storm clouds cover the plains you can see them running around
   chasing the lightnings to absorb them on their mane. They form big herds and use
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Sap Sipper
-HomeSprite: SRD-HomeSprite-blitzle.png
+HomeSprite: SRD-blitzle-HomeSprite.png
 Learnset: '[[SRD-Blitzle-Learnset]]'
 Legendary: 'No'
 Name: Blitzle
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-blitzle.png|right]]
+![[SRD-blitzle-BookSprite.png|right wsmall]]
 
 *Electrified Pokemon*
 *When storm clouds cover the plains you can see them running around chasing the lightnings to absorb them on their mane. They form big herds and use the pattern on their skin to confuse predators.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Lightning Rod|Lightning Rod]] / [[SRD-Motor Drive|Motor Drive]] ([[SRD-Sap Sipper|Sap Sipper]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-blitzle.png|right]]
+![[SRD-blitzle-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-blitzle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

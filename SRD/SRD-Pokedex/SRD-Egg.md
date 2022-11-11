@@ -4,7 +4,8 @@ Ability2: ''
 Baby: 'No'
 BookImageName: ''
 BookShinyImageName: ''
-BoxSprite: SRD-BoxSprite-egg.png
+BookSprite: SRD-egg-BookSprite.png
+BoxSprite: SRD-egg-BoxSprite.png
 DexCategory: ''
 DexDescription: ''
 EventAbilities: ''
@@ -15,7 +16,7 @@ Height:
   Feet: 0.0
   Meters: 0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-egg.png
+HomeSprite: SRD-egg-HomeSprite.png
 Learnset: '[[SRD-Egg-Learnset]]'
 Legendary: 'No'
 Name: Egg
@@ -35,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-egg.png|right]]
+![[SRD-egg-BookSprite.png|right wsmall]]
 
 **
 **
@@ -46,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-|]]
 **Base HP**:: 1
 
-![[SRD-BoxSprite-egg.png|right]]
+![[SRD-egg-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -55,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::1)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::1)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::1)     |
+
+![[SRD-egg-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

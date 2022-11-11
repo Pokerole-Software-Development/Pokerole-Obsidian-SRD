@@ -2,9 +2,8 @@
 Ability1: Bulletproof
 Ability2: Soundproof
 Baby: 'No'
-BookImageName: HOME783.png
-BookShinyImageName: HOME783_s.png
-BoxSprite: SRD-BoxSprite-hakamo-o.png
+BookSprite: SRD-hakamo-o-BookSprite.png
+BoxSprite: SRD-hakamo-o-BoxSprite.png
 DexCategory: Scaly Pokemon
 DexDescription: The scales on its body are shed and regrow sharper each time. It is
   a courageous and diligent Pokemon who always lets out a war cry before the battle.
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Overcoat
-HomeSprite: SRD-HomeSprite-hakamo-o.png
+HomeSprite: SRD-hakamo-o-HomeSprite.png
 Learnset: '[[SRD-Hakamo-o-Learnset]]'
 Legendary: 'No'
 Name: Hakamo-o
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-hakamo-o.png|right]]
+![[SRD-hakamo-o-BookSprite.png|right wsmall]]
 
 *Scaly Pokemon*
 *The scales on its body are shed and regrow sharper each time. It is a courageous and diligent Pokemon who always lets out a war cry before the battle. Any marks on its scale armor is worn with pride.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Bulletproof|Bulletproof]] / [[SRD-Soundproof|Soundproof]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-hakamo-o.png|right]]
+![[SRD-hakamo-o-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-hakamo-o-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

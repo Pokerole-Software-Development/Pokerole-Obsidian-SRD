@@ -2,9 +2,8 @@
 Ability1: Drizzle
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME382.png
-BookShinyImageName: HOME382_s.png
-BoxSprite: SRD-BoxSprite-kyogre.png
+BookSprite: SRD-kyogre-BookSprite.png
+BoxSprite: SRD-kyogre-BoxSprite.png
 DexCategory: No Data
 DexDescription: Kyogre is named in mythology as the God that expanded the seas and
   oceans with torrential waters and huge tidal waves. It is the mortal enemy of Groudon.
@@ -16,7 +15,7 @@ Height:
   Feet: 14.8
   Meters: 4.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-kyogre.png
+HomeSprite: SRD-kyogre-HomeSprite.png
 Learnset: '[[SRD-Kyogre-Learnset]]'
 Legendary: 'Yes'
 Name: Kyogre
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-kyogre.png|right]]
+![[SRD-kyogre-BookSprite.png|right wsmall]]
 
 *No Data*
 *Kyogre is named in mythology as the God that expanded the seas and oceans with torrential waters and huge tidal waves. It is the mortal enemy of Groudon.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Drizzle|Drizzle]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-kyogre.png|right]]
+![[SRD-kyogre-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-kyogre-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

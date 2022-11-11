@@ -2,9 +2,8 @@
 Ability1: Lightning Rod
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME871.png
-BookShinyImageName: HOME871_s.png
-BoxSprite: SRD-BoxSprite-pincurchin.png
+BookSprite: SRD-pincurchin-BookSprite.png
+BoxSprite: SRD-pincurchin-BoxSprite.png
 DexCategory: Sea Urchin Pokemon
 DexDescription: This quiet pokemon feeds on sea weed, using its teeth to scrape it
   off rocks. It stores electricity in each of its spines. Even if one gets broken
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Electric Surge
-HomeSprite: SRD-HomeSprite-pincurchin.png
+HomeSprite: SRD-pincurchin-HomeSprite.png
 Learnset: '[[SRD-Pincurchin-Learnset]]'
 Legendary: 'No'
 Name: Pincurchin
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pincurchin.png|right]]
+![[SRD-pincurchin-BookSprite.png|right wsmall]]
 
 *Sea Urchin Pokemon*
 *This quiet pokemon feeds on sea weed, using its teeth to scrape it off rocks. It stores electricity in each of its spines. Even if one gets broken off, it will continue to emit electricity for a few more hours.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Lightning Rod|Lightning Rod]] ([[SRD-Electric Surge|Electric Surge]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-pincurchin.png|right]]
+![[SRD-pincurchin-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-pincurchin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

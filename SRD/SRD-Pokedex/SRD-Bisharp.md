@@ -2,9 +2,8 @@
 Ability1: Defiant
 Ability2: Inner Focus
 Baby: 'No'
-BookImageName: HOME625.png
-BookShinyImageName: HOME625_s.png
-BoxSprite: SRD-BoxSprite-bisharp.png
+BookSprite: SRD-bisharp-BookSprite.png
+BoxSprite: SRD-bisharp-BoxSprite.png
 DexCategory: Sword Blade Pokemon
 DexDescription: It leads a group of Pawniard. It battles to become the boss, but will
   be driven from the group if it loses. They are ruthless leaders and merciless with
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Pressure
-HomeSprite: SRD-HomeSprite-bisharp.png
+HomeSprite: SRD-bisharp-HomeSprite.png
 Learnset: '[[SRD-Bisharp-Learnset]]'
 Legendary: 'No'
 Name: Bisharp
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-bisharp.png|right]]
+![[SRD-bisharp-BookSprite.png|right wsmall]]
 
 *Sword Blade Pokemon*
 *It leads a group of Pawniard. It battles to become the boss, but will be driven from the group if it loses. They are ruthless leaders and merciless with their foes. Weakness has no place among them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Defiant|Defiant]] / [[SRD-Inner Focus|Inner Focus]] ([[SRD-Pressure|Pressure]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-bisharp.png|right]]
+![[SRD-bisharp-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-bisharp-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

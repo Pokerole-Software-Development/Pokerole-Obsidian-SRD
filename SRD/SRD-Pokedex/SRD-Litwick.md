@@ -2,9 +2,8 @@
 Ability1: Flash Fire
 Ability2: Flame Body
 Baby: 'No'
-BookImageName: HOME607.png
-BookShinyImageName: HOME607_s.png
-BoxSprite: SRD-BoxSprite-litwick.png
+BookSprite: SRD-litwick-BookSprite.png
+BoxSprite: SRD-litwick-BoxSprite.png
 DexCategory: Candle Pokemon
 DexDescription: Its flame is usually out, but it starts burning whenever it absorbs
   the life force from others. They trick lost people into thinking they are helping
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Infiltrator
-HomeSprite: SRD-HomeSprite-litwick.png
+HomeSprite: SRD-litwick-HomeSprite.png
 Learnset: '[[SRD-Litwick-Learnset]]'
 Legendary: 'No'
 Name: Litwick
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-litwick.png|right]]
+![[SRD-litwick-BookSprite.png|right wsmall]]
 
 *Candle Pokemon*
 *Its flame is usually out, but it starts burning whenever it absorbs the life force from others. They trick lost people into thinking they are helping them find their way in the dark but those who follow them never return.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flash Fire|Flash Fire]] / [[SRD-Flame Body|Flame Body]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-litwick.png|right]]
+![[SRD-litwick-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-litwick-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

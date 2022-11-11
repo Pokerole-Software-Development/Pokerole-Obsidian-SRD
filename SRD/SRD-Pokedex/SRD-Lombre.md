@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Rain Dish
 Baby: 'No'
-BookImageName: HOME271.png
-BookShinyImageName: HOME271_s.png
-BoxSprite: SRD-BoxSprite-lombre.png
+BookSprite: SRD-lombre-BookSprite.png
+BoxSprite: SRD-lombre-BoxSprite.png
 DexCategory: Jolly Pokemon
 DexDescription: This nocturnal Pokemon has a mischievous and impish personality. While
   playing pranks on people, Lombres are commonly mistaken for human children. It enjoys
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Own Tempo
-HomeSprite: SRD-HomeSprite-lombre.png
+HomeSprite: SRD-lombre-HomeSprite.png
 Learnset: '[[SRD-Lombre-Learnset]]'
 Legendary: 'No'
 Name: Lombre
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lombre.png|right]]
+![[SRD-lombre-BookSprite.png|right wsmall]]
 
 *Jolly Pokemon*
 *This nocturnal Pokemon has a mischievous and impish personality. While playing pranks on people, Lombres are commonly mistaken for human children. It enjoys to startle unaware swimmers.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Rain Dish|Rain Dish]] ([[SRD-Own Tempo|Own Tempo]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-lombre.png|right]]
+![[SRD-lombre-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-lombre-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

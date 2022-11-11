@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Drizzle
 Baby: 'No'
-BookImageName: HOME279.png
-BookShinyImageName: HOME279_s.png
-BoxSprite: SRD-BoxSprite-pelipper.png
+BookSprite: SRD-pelipper-BookSprite.png
+BoxSprite: SRD-pelipper-BoxSprite.png
 DexCategory: Water Bird Pokemon
 DexDescription: Pelipper has been seen carrying eggs and other Pokemon inside its
   massive bill, protecting them from predators and storms, transporting the young
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Rain Dish
-HomeSprite: SRD-HomeSprite-pelipper.png
+HomeSprite: SRD-pelipper-HomeSprite.png
 Learnset: '[[SRD-Pelipper-Learnset]]'
 Legendary: 'No'
 Name: Pelipper
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pelipper.png|right]]
+![[SRD-pelipper-BookSprite.png|right wsmall]]
 
 *Water Bird Pokemon*
 *Pelipper has been seen carrying eggs and other Pokemon inside its massive bill, protecting them from predators and storms, transporting the young through the great seas.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Drizzle|Drizzle]] ([[SRD-Rain Dish|Rain Dish]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-pelipper.png|right]]
+![[SRD-pelipper-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-pelipper-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

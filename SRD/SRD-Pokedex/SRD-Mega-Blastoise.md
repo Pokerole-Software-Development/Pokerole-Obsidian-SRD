@@ -2,9 +2,8 @@
 Ability1: Mega Launcher
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME009M.png
-BookShinyImageName: HOME009M_s.png
-BoxSprite: SRD-BoxSprite-blastoise-mega.png
+BookSprite: SRD-blastoise-mega-BookSprite.png
+BoxSprite: SRD-blastoise-mega-BoxSprite.png
 DexCategory: Shellfish Pokemon
 DexDescription: With the power of the Mega Stone the canon on its back can shoot exploding
   water projectiles that can pierce through concrete. Its body is incredibly hard
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-blastoise-mega.png
+HomeSprite: SRD-blastoise-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Blastoise-Learnset]]'
 Legendary: 'No'
 Name: Mega-Blastoise
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-blastoise-mega.png|right]]
+![[SRD-blastoise-mega-BookSprite.png|right wsmall]]
 
 *Shellfish Pokemon*
 *With the power of the Mega Stone the canon on its back can shoot exploding water projectiles that can pierce through concrete. Its body is incredibly hard and its hind legs root themselves to prevent recoil.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Mega Launcher|Mega Launcher]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-blastoise-mega.png|right]]
+![[SRD-blastoise-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-blastoise-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

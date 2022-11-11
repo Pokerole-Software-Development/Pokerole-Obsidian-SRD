@@ -2,9 +2,8 @@
 Ability1: Fluffy
 Ability2: Steadfast
 Baby: 'No'
-BookImageName: HOME832.png
-BookShinyImageName: HOME832_s.png
-BoxSprite: SRD-BoxSprite-dubwool.png
+BookSprite: SRD-dubwool-BookSprite.png
+BoxSprite: SRD-dubwool-BoxSprite.png
 DexCategory: Sheep Pokemon
 DexDescription: Humble and calm, their wool has springy properties. A king in ancient
   times ordered a carpet made from 100 Dubwool, when it was done, those who step on
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Bulletproof
-HomeSprite: SRD-HomeSprite-dubwool.png
+HomeSprite: SRD-dubwool-HomeSprite.png
 Learnset: '[[SRD-Dubwool-Learnset]]'
 Legendary: 'No'
 Name: Dubwool
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dubwool.png|right]]
+![[SRD-dubwool-BookSprite.png|right wsmall]]
 
 *Sheep Pokemon*
 *Humble and calm, their wool has springy properties. A king in ancient times ordered a carpet made from 100 Dubwool, when it was done, those who step on it started to bounce the moment they set foot on it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Fluffy|Fluffy]] / [[SRD-Steadfast|Steadfast]] ([[SRD-Bulletproof|Bulletproof]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-dubwool.png|right]]
+![[SRD-dubwool-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-dubwool-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

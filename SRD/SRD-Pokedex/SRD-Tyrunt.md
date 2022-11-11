@@ -2,9 +2,8 @@
 Ability1: Strong Jaw
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME696.png
-BookShinyImageName: HOME696_s.png
-BoxSprite: SRD-BoxSprite-tyrunt.png
+BookSprite: SRD-tyrunt-BookSprite.png
+BoxSprite: SRD-tyrunt-BoxSprite.png
 DexCategory: Royal Heir Pokemon
 DexDescription: "This Pokemon was restored from a fossil. If something happens that\
   \ it doesn\u2019t like, it throws a tantrum and runs wild. Many of the researchers\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Sturdy
-HomeSprite: SRD-HomeSprite-tyrunt.png
+HomeSprite: SRD-tyrunt-HomeSprite.png
 Learnset: '[[SRD-Tyrunt-Learnset]]'
 Legendary: 'No'
 Name: Tyrunt
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tyrunt.png|right]]
+![[SRD-tyrunt-BookSprite.png|right wsmall]]
 
 *Royal Heir Pokemon*
 *This Pokemon was restored from a fossil. If something happens that it doesn’t like, it throws a tantrum and runs wild. Many of the researchers that brought it back were attacked by its powerful jaws.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Strong Jaw|Strong Jaw]] ([[SRD-Sturdy|Sturdy]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-tyrunt.png|right]]
+![[SRD-tyrunt-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-tyrunt-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

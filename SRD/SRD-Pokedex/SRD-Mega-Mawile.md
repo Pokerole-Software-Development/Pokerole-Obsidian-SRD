@@ -2,9 +2,8 @@
 Ability1: Huge Power
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME303M.png
-BookShinyImageName: HOME303M_s.png
-BoxSprite: SRD-BoxSprite-mawile-mega.png
+BookSprite: SRD-mawile-mega-BookSprite.png
+BoxSprite: SRD-mawile-mega-BoxSprite.png
 DexCategory: Deceiver Pokemon
 DexDescription: "The power of the Mega Stone makes its back jaws develop a mind of\
   \ their own, they are vicious and won\u2019t release anything they bite until it\u2019\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-mawile-mega.png
+HomeSprite: SRD-mawile-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Mawile-Learnset]]'
 Legendary: 'No'
 Name: Mega-Mawile
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mawile-mega.png|right]]
+![[SRD-mawile-mega-BookSprite.png|right wsmall]]
 
 *Deceiver Pokemon*
 *The power of the Mega Stone makes its back jaws develop a mind of their own, they are vicious and won’t release anything they bite until it’s crushed into pieces. They growl and howl in a haunting way.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Huge Power|Huge Power]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-mawile-mega.png|right]]
+![[SRD-mawile-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-mawile-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

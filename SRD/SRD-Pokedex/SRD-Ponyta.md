@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Flash Fire
 Baby: 'No'
-BookImageName: HOME077.png
-BookShinyImageName: HOME077_s.png
-BoxSprite: SRD-BoxSprite-ponyta.png
+BookSprite: SRD-ponyta-BookSprite.png
+BoxSprite: SRD-ponyta-BoxSprite.png
 DexCategory: Fire Horse Pokemon
 DexDescription: "It\u2019s not very common to see one stay still for more than a few\
   \ seconds. Soon after it\u2019s born, its flames begin to burn. It is weak at first\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Flame Body
-HomeSprite: SRD-HomeSprite-ponyta.png
+HomeSprite: SRD-ponyta-HomeSprite.png
 Learnset: '[[SRD-Ponyta-Learnset]]'
 Legendary: 'No'
 Name: Ponyta
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ponyta.png|right]]
+![[SRD-ponyta-BookSprite.png|right wsmall]]
 
 *Fire Horse Pokemon*
 *It’s not very common to see one stay still for more than a few seconds. Soon after it’s born, its flames begin to burn. It is weak at first but soon begins to develop a great speed chasing after its parents.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Flash Fire|Flash Fire]] ([[SRD-Flame Body|Flame Body]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-ponyta.png|right]]
+![[SRD-ponyta-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-ponyta-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

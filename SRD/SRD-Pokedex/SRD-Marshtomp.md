@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME259.png
-BookShinyImageName: HOME259_s.png
-BoxSprite: SRD-BoxSprite-marshtomp.png
+BookSprite: SRD-marshtomp-BookSprite.png
+BoxSprite: SRD-marshtomp-BoxSprite.png
 DexCategory: Mud Fish Pokemon
 DexDescription: A sticky film allows them to live out of water. They are seen playing
   in the mud at beaches to rehydrate their dry bodies. They are slow runners and swimmers
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Damp
-HomeSprite: SRD-HomeSprite-marshtomp.png
+HomeSprite: SRD-marshtomp-HomeSprite.png
 Learnset: '[[SRD-Marshtomp-Learnset]]'
 Legendary: 'No'
 Name: Marshtomp
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-marshtomp.png|right]]
+![[SRD-marshtomp-BookSprite.png|right wsmall]]
 
 *Mud Fish Pokemon*
 *A sticky film allows them to live out of water. They are seen playing in the mud at beaches to rehydrate their dry bodies. They are slow runners and swimmers but they can be fast sliding through the mud.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Damp|Damp]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-marshtomp.png|right]]
+![[SRD-marshtomp-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-marshtomp-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

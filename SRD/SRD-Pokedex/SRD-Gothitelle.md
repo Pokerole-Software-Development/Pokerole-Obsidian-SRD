@@ -2,9 +2,8 @@
 Ability1: Frisk
 Ability2: Competitive
 Baby: 'No'
-BookImageName: HOME576.png
-BookShinyImageName: HOME576_s.png
-BoxSprite: SRD-BoxSprite-gothitelle.png
+BookSprite: SRD-gothitelle-BookSprite.png
+BoxSprite: SRD-gothitelle-BoxSprite.png
 DexCategory: Astral Body Pokemon
 DexDescription: They can predict the future from the placement and movement of the
   stars. They get restless if someone they know will be in danger. They are emphatic
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Shadow Tag
-HomeSprite: SRD-HomeSprite-gothitelle.png
+HomeSprite: SRD-gothitelle-HomeSprite.png
 Learnset: '[[SRD-Gothitelle-Learnset]]'
 Legendary: 'No'
 Name: Gothitelle
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gothitelle.png|right]]
+![[SRD-gothitelle-BookSprite.png|right wsmall]]
 
 *Astral Body Pokemon*
 *They can predict the future from the placement and movement of the stars. They get restless if someone they know will be in danger. They are emphatic creatures that can understand human emotion.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Frisk|Frisk]] / [[SRD-Competitive|Competitive]] ([[SRD-Shadow Tag|Shadow Tag]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-gothitelle.png|right]]
+![[SRD-gothitelle-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-gothitelle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

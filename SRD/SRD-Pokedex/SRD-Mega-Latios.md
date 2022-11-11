@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME381M.png
-BookShinyImageName: HOME381M_s.png
-BoxSprite: SRD-BoxSprite-latios-mega.png
+BookSprite: SRD-latios-mega-BookSprite.png
+BoxSprite: SRD-latios-mega-BoxSprite.png
 DexCategory: No Data
 DexDescription: Latios is very in sync with human logic, it can communicate using
   telepathy. With the power of the Mega Stone all of its capabilities are enhanced
@@ -17,7 +16,7 @@ Height:
   Feet: 7.5
   Meters: 2.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-latios-mega.png
+HomeSprite: SRD-latios-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Latios-Learnset]]'
 Legendary: 'Yes'
 Name: Mega-Latios
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-latios-mega.png|right]]
+![[SRD-latios-mega-BookSprite.png|right wsmall]]
 
 *No Data*
 *Latios is very in sync with human logic, it can communicate using telepathy. With the power of the Mega Stone all of its capabilities are enhanced although its personality becomes more caring than usual.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-latios-mega.png|right]]
+![[SRD-latios-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-latios-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

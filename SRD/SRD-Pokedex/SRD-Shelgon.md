@@ -2,9 +2,8 @@
 Ability1: Rock Head
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME372.png
-BookShinyImageName: HOME372_s.png
-BoxSprite: SRD-BoxSprite-shelgon.png
+BookSprite: SRD-shelgon-BookSprite.png
+BoxSprite: SRD-shelgon-BoxSprite.png
 DexCategory: Endurance Pokemon
 DexDescription: The body is covered in a powerful armor that resembles bones. It hides
   in caves awaiting evolution, enduring hunger and harm while its cells prepare for
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Overcoat
-HomeSprite: SRD-HomeSprite-shelgon.png
+HomeSprite: SRD-shelgon-HomeSprite.png
 Learnset: '[[SRD-Shelgon-Learnset]]'
 Legendary: 'No'
 Name: Shelgon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-shelgon.png|right]]
+![[SRD-shelgon-BookSprite.png|right wsmall]]
 
 *Endurance Pokemon*
 *The body is covered in a powerful armor that resembles bones. It hides in caves awaiting evolution, enduring hunger and harm while its cells prepare for its final transformation.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rock Head|Rock Head]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-shelgon.png|right]]
+![[SRD-shelgon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-shelgon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

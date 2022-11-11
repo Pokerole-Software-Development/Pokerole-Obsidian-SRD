@@ -2,9 +2,8 @@
 Ability1: Prankster
 Ability2: Frisk
 Baby: 'No'
-BookImageName: HOME860.png
-BookShinyImageName: HOME860_s.png
-BoxSprite: SRD-BoxSprite-morgrem.png
+BookSprite: SRD-morgrem-BookSprite.png
+BoxSprite: SRD-morgrem-BoxSprite.png
 DexCategory: Devious Pokemon
 DexDescription: "When it gets down on all fours as if to beg for forgiveness, it\u2019\
   s trying to lure opponents in so that it can stab them with its spear-like hair.\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Pickpocket
-HomeSprite: SRD-HomeSprite-morgrem.png
+HomeSprite: SRD-morgrem-HomeSprite.png
 Learnset: '[[SRD-Morgrem-Learnset]]'
 Legendary: 'No'
 Name: Morgrem
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-morgrem.png|right]]
+![[SRD-morgrem-BookSprite.png|right wsmall]]
 
 *Devious Pokemon*
 *When it gets down on all fours as if to beg for forgiveness, it’s trying to lure opponents in so that it can stab them with its spear-like hair. It lures people into the woods to rob them and get them lost.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Prankster|Prankster]] / [[SRD-Frisk|Frisk]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-morgrem.png|right]]
+![[SRD-morgrem-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-morgrem-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

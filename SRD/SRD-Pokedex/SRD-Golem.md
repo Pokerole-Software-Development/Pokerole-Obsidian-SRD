@@ -2,9 +2,8 @@
 Ability1: Rock Head
 Ability2: Sturdy
 Baby: 'No'
-BookImageName: HOME076.png
-BookShinyImageName: HOME076_s.png
-BoxSprite: SRD-BoxSprite-golem.png
+BookSprite: SRD-golem-BookSprite.png
+BoxSprite: SRD-golem-BoxSprite.png
 DexCategory: Megaton Pokemon
 DexDescription: It is rare to see in the wild since it lives high on the mountains.
   It withdraws its head and legs as if it were a turtle to roll around. There have
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Sand Veil
-HomeSprite: SRD-HomeSprite-golem.png
+HomeSprite: SRD-golem-HomeSprite.png
 Learnset: '[[SRD-Golem-Learnset]]'
 Legendary: 'No'
 Name: Golem
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-golem.png|right]]
+![[SRD-golem-BookSprite.png|right wsmall]]
 
 *Megaton Pokemon*
 *It is rare to see in the wild since it lives high on the mountains. It withdraws its head and legs as if it were a turtle to roll around. There have been cases of Golem that resist dynamite blasts unscathed.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rock Head|Rock Head]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Sand Veil|Sand Veil]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-golem.png|right]]
+![[SRD-golem-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-golem-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

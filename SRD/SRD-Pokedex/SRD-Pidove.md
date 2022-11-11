@@ -2,9 +2,8 @@
 Ability1: Big Pecks
 Ability2: Super Luck
 Baby: 'No'
-BookImageName: HOME519.png
-BookShinyImageName: HOME519_s.png
-BoxSprite: SRD-BoxSprite-pidove.png
+BookSprite: SRD-pidove-BookSprite.png
+BoxSprite: SRD-pidove-BoxSprite.png
 DexCategory: Tiny Pigeon Pokemon
 DexDescription: These Pokemon thrive in the cities. They are accustomed to people
   and they often gather in the parks. They are forgetful and not very smart, but they
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Rivalry
-HomeSprite: SRD-HomeSprite-pidove.png
+HomeSprite: SRD-pidove-HomeSprite.png
 Learnset: '[[SRD-Pidove-Learnset]]'
 Legendary: 'No'
 Name: Pidove
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pidove.png|right]]
+![[SRD-pidove-BookSprite.png|right wsmall]]
 
 *Tiny Pigeon Pokemon*
 *These Pokemon thrive in the cities. They are accustomed to people and they often gather in the parks. They are forgetful and not very smart, but they always remember the way back home.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Big Pecks|Big Pecks]] / [[SRD-Super Luck|Super Luck]] ([[SRD-Rivalry|Rivalry]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-pidove.png|right]]
+![[SRD-pidove-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-pidove-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

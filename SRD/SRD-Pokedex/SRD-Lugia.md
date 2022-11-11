@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME249.png
-BookShinyImageName: HOME249_s.png
-BoxSprite: SRD-BoxSprite-lugia.png
+BookSprite: SRD-lugia-BookSprite.png
+BoxSprite: SRD-lugia-BoxSprite.png
 DexCategory: No Data
 DexDescription: Known as the Guardian of the Sea. It used to live in the Brass Tower,
   where Pokemon awoke. Lugia's Myth is linked to the idea that those whose death was
@@ -17,7 +16,7 @@ Height:
   Feet: 17.1
   Meters: 5.2
 HiddenAbility: Multiscale
-HomeSprite: SRD-HomeSprite-lugia.png
+HomeSprite: SRD-lugia-HomeSprite.png
 Learnset: '[[SRD-Lugia-Learnset]]'
 Legendary: 'Yes'
 Name: Lugia
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lugia.png|right]]
+![[SRD-lugia-BookSprite.png|right wsmall]]
 
 *No Data*
 *Known as the Guardian of the Sea. It used to live in the Brass Tower, where Pokemon awoke. Lugia's Myth is linked to the idea that those whose death was pure will be reborn in the sea.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Multiscale|Multiscale]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-lugia.png|right]]
+![[SRD-lugia-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::7)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-lugia-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

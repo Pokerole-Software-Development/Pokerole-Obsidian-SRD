@@ -2,9 +2,8 @@
 Ability1: Own Tempo
 Ability2: Oblivious
 Baby: 'No'
-BookImageName: HOME463.png
-BookShinyImageName: HOME463_s.png
-BoxSprite: SRD-BoxSprite-lickilicky.png
+BookSprite: SRD-lickilicky-BookSprite.png
+BoxSprite: SRD-lickilicky-BoxSprite.png
 DexCategory: Licking Pokemon
 DexDescription: It uses its tongue as an stretchable arm. It will wrap prey with it
   and then proceed to eat it. Its saliva causes numbness. Try not to touch its tongue,
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Cloud Nine
-HomeSprite: SRD-HomeSprite-lickilicky.png
+HomeSprite: SRD-lickilicky-HomeSprite.png
 Learnset: '[[SRD-Lickilicky-Learnset]]'
 Legendary: 'No'
 Name: Lickilicky
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lickilicky.png|right]]
+![[SRD-lickilicky-BookSprite.png|right wsmall]]
 
 *Licking Pokemon*
 *It uses its tongue as an stretchable arm. It will wrap prey with it and then proceed to eat it. Its saliva causes numbness. Try not to touch its tongue, it might try to eat you by reflex.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Own Tempo|Own Tempo]] / [[SRD-Oblivious|Oblivious]] ([[SRD-Cloud Nine|Cloud Nine]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-lickilicky.png|right]]
+![[SRD-lickilicky-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-lickilicky-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Leaf Guard
 Ability2: Chlorophyll
 Baby: 'No'
-BookImageName: HOME541.png
-BookShinyImageName: HOME541_s.png
-BoxSprite: SRD-BoxSprite-swadloon.png
+BookSprite: SRD-swadloon-BookSprite.png
+BoxSprite: SRD-swadloon-BoxSprite.png
 DexCategory: Leaf-Wrapped Pokemon
 DexDescription: "Preferring dark and damp places, it spends the entire day inside\
   \ rotting logs. It protects itself from the cold by wrapping up in leaves. It\u2019\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Overcoat
-HomeSprite: SRD-HomeSprite-swadloon.png
+HomeSprite: SRD-swadloon-HomeSprite.png
 Learnset: '[[SRD-Swadloon-Learnset]]'
 Legendary: 'No'
 Name: Swadloon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-swadloon.png|right]]
+![[SRD-swadloon-BookSprite.png|right wsmall]]
 
 *Leaf-Wrapped Pokemon*
 *Preferring dark and damp places, it spends the entire day inside rotting logs. It protects itself from the cold by wrapping up in leaves. It’s kind of moody and it likes to remain undisturbed.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Leaf Guard|Leaf Guard]] / [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-swadloon.png|right]]
+![[SRD-swadloon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-swadloon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

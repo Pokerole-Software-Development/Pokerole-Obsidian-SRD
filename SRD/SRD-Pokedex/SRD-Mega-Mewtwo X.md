@@ -2,9 +2,8 @@
 Ability1: Steadfast
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME150MX.png
-BookShinyImageName: HOME150MX_s.png
-BoxSprite: SRD-BoxSprite-mewtwo-mega-x.png
+BookSprite: SRD-mewtwo-mega-x-BookSprite.png
+BoxSprite: SRD-mewtwo-mega-x-BoxSprite.png
 DexCategory: No Data
 DexDescription: The power of the Mega Stone was absorbed into its muscles if it grapples
   you and its psychic force does not crack you its strong arms will.
@@ -16,7 +15,7 @@ Height:
   Feet: 7.5
   Meters: 2.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-mewtwo-mega-x.png
+HomeSprite: SRD-mewtwo-mega-x-HomeSprite.png
 Learnset: '[[SRD-Mega-Mewtwo X-Learnset]]'
 Legendary: 'Yes'
 Name: Mega-Mewtwo X
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mewtwo-mega-x.png|right]]
+![[SRD-mewtwo-mega-x-BookSprite.png|right wsmall]]
 
 *No Data*
 *The power of the Mega Stone was absorbed into its muscles if it grapples you and its psychic force does not crack you its strong arms will.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Steadfast|Steadfast]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-mewtwo-mega-x.png|right]]
+![[SRD-mewtwo-mega-x-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-mewtwo-mega-x-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

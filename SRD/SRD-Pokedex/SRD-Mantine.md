@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Water Absorb
 Baby: 'No'
-BookImageName: HOME226.png
-BookShinyImageName: HOME226_s.png
-BoxSprite: SRD-BoxSprite-mantine.png
+BookSprite: SRD-mantine-BookSprite.png
+BoxSprite: SRD-mantine-BoxSprite.png
 DexCategory: Kite Pokemon
 DexDescription: Mantine swims under water and over the waves, gliding for 300 ft in
   the air. They are intelligent and docile, traveling elegantly in groups. Remoraids
@@ -17,7 +16,7 @@ Height:
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: Water Veil
-HomeSprite: SRD-HomeSprite-mantine.png
+HomeSprite: SRD-mantine-HomeSprite.png
 Learnset: '[[SRD-Mantine-Learnset]]'
 Legendary: 'No'
 Name: Mantine
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mantine.png|right]]
+![[SRD-mantine-BookSprite.png|right wsmall]]
 
 *Kite Pokemon*
 *Mantine swims under water and over the waves, gliding for 300 ft in the air. They are intelligent and docile, traveling elegantly in groups. Remoraids can be seen hanging from their fins from time to time.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Water Absorb|Water Absorb]] ([[SRD-Water Veil|Water Veil]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-mantine.png|right]]
+![[SRD-mantine-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-mantine-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

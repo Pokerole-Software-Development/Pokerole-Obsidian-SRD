@@ -2,9 +2,8 @@
 Ability1: Pure Power
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME307.png
-BookShinyImageName: HOME307_s.png
-BoxSprite: SRD-BoxSprite-meditite.png
+BookSprite: SRD-meditite-BookSprite.png
+BoxSprite: SRD-meditite-BoxSprite.png
 DexCategory: Meditate Pokemon
 DexDescription: Deep in the mountains they train their mind to increase their spiritual
   power, however they lack focus and get distracted easily. As part of their training,
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-meditite.png
+HomeSprite: SRD-meditite-HomeSprite.png
 Learnset: '[[SRD-Meditite-Learnset]]'
 Legendary: 'No'
 Name: Meditite
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-meditite.png|right]]
+![[SRD-meditite-BookSprite.png|right wsmall]]
 
 *Meditate Pokemon*
 *Deep in the mountains they train their mind to increase their spiritual power, however they lack focus and get distracted easily. As part of their training, Meditites barely eat.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pure Power|Pure Power]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-meditite.png|right]]
+![[SRD-meditite-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-meditite-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

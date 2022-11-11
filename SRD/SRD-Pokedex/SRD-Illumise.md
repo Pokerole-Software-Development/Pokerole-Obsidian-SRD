@@ -2,9 +2,8 @@
 Ability1: Oblivious
 Ability2: Tinted Lens
 Baby: 'No'
-BookImageName: HOME314.png
-BookShinyImageName: HOME314_s.png
-BoxSprite: SRD-BoxSprite-illumise.png
+BookSprite: SRD-illumise-BookSprite.png
+BoxSprite: SRD-illumise-BoxSprite.png
 DexCategory: Firelfy Pokemon
 DexDescription: They attract swarms of Volbeat with their sweet fragrance and organize
   the swarm into drawing geometric shapes made of light. Illumises gain rank in their
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Prankster
-HomeSprite: SRD-HomeSprite-illumise.png
+HomeSprite: SRD-illumise-HomeSprite.png
 Learnset: '[[SRD-Illumise-Learnset]]'
 Legendary: 'No'
 Name: Illumise
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-illumise.png|right]]
+![[SRD-illumise-BookSprite.png|right wsmall]]
 
 *Firelfy Pokemon*
 *They attract swarms of Volbeat with their sweet fragrance and organize the swarm into drawing geometric shapes made of light. Illumises gain rank in their group if they make an amazing performance.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Tinted Lens|Tinted Lens]] ([[SRD-Prankster|Prankster]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-illumise.png|right]]
+![[SRD-illumise-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-illumise-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

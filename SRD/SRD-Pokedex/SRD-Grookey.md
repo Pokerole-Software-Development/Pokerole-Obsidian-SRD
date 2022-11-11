@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME810.png
-BookShinyImageName: HOME810_s.png
-BoxSprite: SRD-BoxSprite-grookey.png
+BookSprite: SRD-grookey-BookSprite.png
+BoxSprite: SRD-grookey-BoxSprite.png
 DexCategory: Chimp Pokemon
 DexDescription: They spend their early days looking for a stick with a certain sound,
   it then uses the stick to create rhythmic beats that makes plan glow and grow. Grookey
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Grassy Surge
-HomeSprite: SRD-HomeSprite-grookey.png
+HomeSprite: SRD-grookey-HomeSprite.png
 Learnset: '[[SRD-Grookey-Learnset]]'
 Legendary: 'No'
 Name: Grookey
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-grookey.png|right]]
+![[SRD-grookey-BookSprite.png|right wsmall]]
 
 *Chimp Pokemon*
 *They spend their early days looking for a stick with a certain sound, it then uses the stick to create rhythmic beats that makes plan glow and grow. Grookey are enthusiastic and kind creatures that love music.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Grassy Surge|Grassy Surge]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-grookey.png|right]]
+![[SRD-grookey-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-grookey-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

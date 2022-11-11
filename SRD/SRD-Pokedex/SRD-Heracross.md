@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: Guts
 Baby: 'No'
-BookImageName: HOME214.png
-BookShinyImageName: HOME214_s.png
-BoxSprite: SRD-BoxSprite-heracross.png
+BookSprite: SRD-heracross-BookSprite.png
+BoxSprite: SRD-heracross-BoxSprite.png
 DexCategory: Single Horn Pokemon
 DexDescription: A docile creature that loves honey. They batter down trees with their
   powerful horn and chase off anyone who gets close to their prized honey. Not many
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Moxie
-HomeSprite: SRD-HomeSprite-heracross.png
+HomeSprite: SRD-heracross-HomeSprite.png
 Learnset: '[[SRD-Heracross-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-heracross.png|right]]
+![[SRD-heracross-BookSprite.png|right wsmall]]
 
 *Single Horn Pokemon*
 *A docile creature that loves honey. They batter down trees with their powerful horn and chase off anyone who gets close to their prized honey. Not many Pokemon dare to mess with it in the wild.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Guts|Guts]] ([[SRD-Moxie|Moxie]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-heracross.png|right]]
+![[SRD-heracross-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-heracross-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

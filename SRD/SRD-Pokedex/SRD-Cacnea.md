@@ -2,9 +2,8 @@
 Ability1: Sand Veil
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME331.png
-BookShinyImageName: HOME331_s.png
-BoxSprite: SRD-BoxSprite-cacnea.png
+BookSprite: SRD-cacnea-BookSprite.png
+BoxSprite: SRD-cacnea-BoxSprite.png
 DexCategory: Cactus Pokemon
 DexDescription: They release a strong and sweet aroma to attract prey, if they get
   closer, Cacneas shoot sharp thorns to bring them down. They resemble cactuses and
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Water Absorb
-HomeSprite: SRD-HomeSprite-cacnea.png
+HomeSprite: SRD-cacnea-HomeSprite.png
 Learnset: '[[SRD-Cacnea-Learnset]]'
 Legendary: 'No'
 Name: Cacnea
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cacnea.png|right]]
+![[SRD-cacnea-BookSprite.png|right wsmall]]
 
 *Cactus Pokemon*
 *They release a strong and sweet aroma to attract prey, if they get closer, Cacneas shoot sharp thorns to bring them down. They resemble cactuses and hide among them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] ([[SRD-Water Absorb|Water Absorb]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-cacnea.png|right]]
+![[SRD-cacnea-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-cacnea-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

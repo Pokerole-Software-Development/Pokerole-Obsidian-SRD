@@ -2,9 +2,8 @@
 Ability1: Soundproof
 Ability2: Static
 Baby: 'No'
-BookImageName: HOME100.png
-BookShinyImageName: HOME100_s.png
-BoxSprite: SRD-BoxSprite-voltorb.png
+BookSprite: SRD-voltorb-BookSprite.png
+BoxSprite: SRD-voltorb-BoxSprite.png
 DexCategory: Ball Pokemon
 DexDescription: They live near factories and electric generators. It bears an uncanny
   and unexplained resemblance to a Pokeball. Since it explodes at the slightest provocation,
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Aftermath
-HomeSprite: SRD-HomeSprite-voltorb.png
+HomeSprite: SRD-voltorb-HomeSprite.png
 Learnset: '[[SRD-Voltorb-Learnset]]'
 Legendary: 'No'
 Name: Voltorb
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-voltorb.png|right]]
+![[SRD-voltorb-BookSprite.png|right wsmall]]
 
 *Ball Pokemon*
 *They live near factories and electric generators. It bears an uncanny and unexplained resemblance to a Pokeball. Since it explodes at the slightest provocation, even veteran trainers treat it with caution.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Soundproof|Soundproof]] / [[SRD-Static|Static]] ([[SRD-Aftermath|Aftermath]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-voltorb.png|right]]
+![[SRD-voltorb-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-voltorb-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

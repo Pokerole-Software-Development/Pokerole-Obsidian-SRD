@@ -2,9 +2,8 @@
 Ability1: Guts
 Ability2: No Guard
 Baby: 'No'
-BookImageName: HOME067.png
-BookShinyImageName: HOME067_s.png
-BoxSprite: SRD-BoxSprite-machoke.png
+BookSprite: SRD-machoke-BookSprite.png
+BoxSprite: SRD-machoke-BoxSprite.png
 DexCategory: Superpower Pokemon
 DexDescription: Even with its strong frame and power, it is a humble and helpful Pokemon.
   Many of them work for human companies. On their days off you can see them heading
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Steadfast
-HomeSprite: SRD-HomeSprite-machoke.png
+HomeSprite: SRD-machoke-HomeSprite.png
 Learnset: '[[SRD-Machoke-Learnset]]'
 Legendary: 'No'
 Name: Machoke
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-machoke.png|right]]
+![[SRD-machoke-BookSprite.png|right wsmall]]
 
 *Superpower Pokemon*
 *Even with its strong frame and power, it is a humble and helpful Pokemon. Many of them work for human companies. On their days off you can see them heading to the wild to train together.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Guts|Guts]] / [[SRD-No Guard|No Guard]] ([[SRD-Steadfast|Steadfast]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-machoke.png|right]]
+![[SRD-machoke-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-machoke-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

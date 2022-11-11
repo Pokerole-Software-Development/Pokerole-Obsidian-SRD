@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: Heatproof
 Baby: 'No'
-BookImageName: HOME436.png
-BookShinyImageName: HOME436_s.png
-BoxSprite: SRD-BoxSprite-bronzor.png
+BookSprite: SRD-bronzor-BookSprite.png
+BoxSprite: SRD-bronzor-BoxSprite.png
 DexCategory: Bronze Pokemon
 DexDescription: They are found in ancient tombs and temples. Objects shaped like Bronzor
   have been found within the vaults. Bronzors reflect images like mirrors, people
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Heavy Metal
-HomeSprite: SRD-HomeSprite-bronzor.png
+HomeSprite: SRD-bronzor-HomeSprite.png
 Learnset: '[[SRD-Bronzor-Learnset]]'
 Legendary: 'No'
 Name: Bronzor
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-bronzor.png|right]]
+![[SRD-bronzor-BookSprite.png|right wsmall]]
 
 *Bronze Pokemon*
 *They are found in ancient tombs and temples. Objects shaped like Bronzor have been found within the vaults. Bronzors reflect images like mirrors, people say that this reflection shows the future.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]] / [[SRD-Heatproof|Heatproof]] ([[SRD-Heavy Metal|Heavy Metal]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-bronzor.png|right]]
+![[SRD-bronzor-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-bronzor-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

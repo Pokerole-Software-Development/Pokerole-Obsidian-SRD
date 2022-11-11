@@ -2,9 +2,8 @@
 Ability1: Illuminate
 Ability2: Effect Spore
 Baby: 'No'
-BookImageName: HOME755.png
-BookShinyImageName: HOME755_s.png
-BoxSprite: SRD-BoxSprite-morelull.png
+BookSprite: SRD-morelull-BookSprite.png
+BoxSprite: SRD-morelull-BoxSprite.png
 DexCategory: Illuminating Pokemon
 DexDescription: Morellul are nocturnal Pokemon whose headbulbs emit a faint glow.
   They root into a tree and use its nutrients to power their light, when the tree
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Rain Dish
-HomeSprite: SRD-HomeSprite-morelull.png
+HomeSprite: SRD-morelull-HomeSprite.png
 Learnset: '[[SRD-Morelull-Learnset]]'
 Legendary: 'No'
 Name: Morelull
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-morelull.png|right]]
+![[SRD-morelull-BookSprite.png|right wsmall]]
 
 *Illuminating Pokemon*
 *Morellul are nocturnal Pokemon whose headbulbs emit a faint glow. They root into a tree and use its nutrients to power their light, when the tree is all dried up they are ready to evolve.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Illuminate|Illuminate]] / [[SRD-Effect Spore|Effect Spore]] ([[SRD-Rain Dish|Rain Dish]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-morelull.png|right]]
+![[SRD-morelull-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-morelull-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

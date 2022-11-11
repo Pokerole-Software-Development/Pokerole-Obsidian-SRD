@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: Solar Power
 Baby: 'No'
-BookImageName: HOME357.png
-BookShinyImageName: HOME357_s.png
-BoxSprite: SRD-BoxSprite-tropius.png
+BookSprite: SRD-tropius-BookSprite.png
+BoxSprite: SRD-tropius-BoxSprite.png
 DexCategory: Fruit Pokemon
 DexDescription: It is very common in humid and hot regions. It can grow back the fruit
   it has eaten. Mothers prefer Tropius fruits to feed their children as it is more
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Harvest
-HomeSprite: SRD-HomeSprite-tropius.png
+HomeSprite: SRD-tropius-HomeSprite.png
 Learnset: '[[SRD-Tropius-Learnset]]'
 Legendary: 'No'
 Name: Tropius
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tropius.png|right]]
+![[SRD-tropius-BookSprite.png|right wsmall]]
 
 *Fruit Pokemon*
 *It is very common in humid and hot regions. It can grow back the fruit it has eaten. Mothers prefer Tropius fruits to feed their children as it is more nutritive and sweet. They are mellow and friendly Pokemon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Solar Power|Solar Power]] ([[SRD-Harvest|Harvest]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-tropius.png|right]]
+![[SRD-tropius-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-tropius-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

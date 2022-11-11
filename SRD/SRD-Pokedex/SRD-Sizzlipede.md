@@ -2,9 +2,8 @@
 Ability1: Flash Fire
 Ability2: White Smoke
 Baby: 'No'
-BookImageName: HOME850.png
-BookShinyImageName: HOME850_s.png
-BoxSprite: SRD-BoxSprite-sizzlipede.png
+BookSprite: SRD-sizzlipede-BookSprite.png
+BoxSprite: SRD-sizzlipede-BoxSprite.png
 DexCategory: Radiator Pokemon
 DexDescription: It stores flammable gas in its body and uses it to generate heat.
   The yellow sections on its belly get very hot. It wraps prey with its body heated
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Flame Body
-HomeSprite: SRD-HomeSprite-sizzlipede.png
+HomeSprite: SRD-sizzlipede-HomeSprite.png
 Learnset: '[[SRD-Sizzlipede-Learnset]]'
 Legendary: 'No'
 Name: Sizzlipede
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sizzlipede.png|right]]
+![[SRD-sizzlipede-BookSprite.png|right wsmall]]
 
 *Radiator Pokemon*
 *It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get very hot. It wraps prey with its body heated to cook them, the it nibbles them down until nothing remains.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flash Fire|Flash Fire]] / [[SRD-White Smoke|White Smoke]] ([[SRD-Flame Body|Flame Body]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-sizzlipede.png|right]]
+![[SRD-sizzlipede-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-sizzlipede-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

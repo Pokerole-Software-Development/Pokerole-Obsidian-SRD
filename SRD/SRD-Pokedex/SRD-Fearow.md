@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME022.png
-BookShinyImageName: HOME022_s.png
-BoxSprite: SRD-BoxSprite-fearow.png
+BookSprite: SRD-fearow-BookSprite.png
+BoxSprite: SRD-fearow-BoxSprite.png
 DexCategory: Beak Pokemon
 DexDescription: Fearrows soar around wastelands and fields. It has the stamina to
   fly all day. It is easily annoyed and ill tempered. It attacks using its sharp beak
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Sniper
-HomeSprite: SRD-HomeSprite-fearow.png
+HomeSprite: SRD-fearow-HomeSprite.png
 Learnset: '[[SRD-Fearow-Learnset]]'
 Legendary: 'No'
 Name: Fearow
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-fearow.png|right]]
+![[SRD-fearow-BookSprite.png|right wsmall]]
 
 *Beak Pokemon*
 *Fearrows soar around wastelands and fields. It has the stamina to fly all day. It is easily annoyed and ill tempered. It attacks using its sharp beak to peck and pierce the foes.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] ([[SRD-Sniper|Sniper]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-fearow.png|right]]
+![[SRD-fearow-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-fearow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

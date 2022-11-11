@@ -2,9 +2,8 @@
 Ability1: Flower Gift
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME421.png
-BookShinyImageName: HOME421_s.png
-BoxSprite: SRD-BoxSprite-cherrim.png
+BookSprite: SRD-cherrim-BookSprite.png
+BoxSprite: SRD-cherrim-BoxSprite.png
 DexCategory: Blossom Pokemon
 DexDescription: Cherrims bloom during times of strong sunlight, their petals open
   fully and radiant. If the sun is not visible, it will remain as a closed bud, barely
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-cherrim.png
+HomeSprite: SRD-cherrim-HomeSprite.png
 Learnset: '[[SRD-Cherrim-Learnset]]'
 Legendary: 'No'
 Name: Cherrim
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cherrim.png|right]]
+![[SRD-cherrim-BookSprite.png|right wsmall]]
 
 *Blossom Pokemon*
 *Cherrims bloom during times of strong sunlight, their petals open fully and radiant. If the sun is not visible, it will remain as a closed bud, barely moving trying to preserve its energy.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flower Gift|Flower Gift]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-cherrim.png|right]]
+![[SRD-cherrim-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-cherrim-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

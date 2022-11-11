@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME145.png
-BookShinyImageName: HOME145_s.png
-BoxSprite: SRD-BoxSprite-zapdos.png
+BookSprite: SRD-zapdos-BookSprite.png
+BoxSprite: SRD-zapdos-BoxSprite.png
 DexCategory: No Data
 DexDescription: The myth tells of a bird who lived inside the thunderstorms of the
   region. It covered itself in lightning while flying in the dark clouds. A news report
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Static
-HomeSprite: SRD-HomeSprite-zapdos.png
+HomeSprite: SRD-zapdos-HomeSprite.png
 Learnset: '[[SRD-Zapdos-Learnset]]'
 Legendary: 'Yes'
 Name: Zapdos
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zapdos.png|right]]
+![[SRD-zapdos-BookSprite.png|right wsmall]]
 
 *No Data*
 *The myth tells of a bird who lived inside the thunderstorms of the region. It covered itself in lightning while flying in the dark clouds. A news report said it was involved in the closure of an energy plant.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Static|Static]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-zapdos.png|right]]
+![[SRD-zapdos-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-zapdos-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Honey Gather
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME415.png
-BookShinyImageName: HOME415_s.png
-BoxSprite: SRD-BoxSprite-combee.png
+BookSprite: SRD-combee-BookSprite.png
+BoxSprite: SRD-combee-BoxSprite.png
 DexCategory: Tiny Bee Pokemon
 DexDescription: It forms hives around trees. It flies all day sipping the nectar from
   flowers to make honey. It is usually born a male. If a female is born, it will grow
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Hustle
-HomeSprite: SRD-HomeSprite-combee.png
+HomeSprite: SRD-combee-HomeSprite.png
 Learnset: '[[SRD-Combee-Learnset]]'
 Legendary: 'No'
 Name: Combee
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-combee.png|right]]
+![[SRD-combee-BookSprite.png|right wsmall]]
 
 *Tiny Bee Pokemon*
 *It forms hives around trees. It flies all day sipping the nectar from flowers to make honey. It is usually born a male. If a female is born, it will grow into a Vespiqueen and start its own Hive.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Honey Gather|Honey Gather]] ([[SRD-Hustle|Hustle]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-combee.png|right]]
+![[SRD-combee-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-combee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

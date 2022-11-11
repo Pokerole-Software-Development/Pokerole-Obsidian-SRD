@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME390.png
-BookShinyImageName: HOME390_s.png
-BoxSprite: SRD-BoxSprite-chimchar.png
+BookSprite: SRD-chimchar-BookSprite.png
+BoxSprite: SRD-chimchar-BoxSprite.png
 DexCategory: Chimp Pokemon
 DexDescription: They climb sheer cliffs to live at the top of the mountains. Small
   groups of them tend to visit human camping sites to steal food and objects. They
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Iron Fist
-HomeSprite: SRD-HomeSprite-chimchar.png
+HomeSprite: SRD-chimchar-HomeSprite.png
 Learnset: '[[SRD-Chimchar-Learnset]]'
 Legendary: 'No'
 Name: Chimchar
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-chimchar.png|right]]
+![[SRD-chimchar-BookSprite.png|right wsmall]]
 
 *Chimp Pokemon*
 *They climb sheer cliffs to live at the top of the mountains. Small groups of them tend to visit human camping sites to steal food and objects. They are playful and will wreak havoc if they want to have fun.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Iron Fist|Iron Fist]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-chimchar.png|right]]
+![[SRD-chimchar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-chimchar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

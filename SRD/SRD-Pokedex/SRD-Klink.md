@@ -2,9 +2,8 @@
 Ability1: Plus
 Ability2: Minus
 Baby: 'No'
-BookImageName: HOME599.png
-BookShinyImageName: HOME599_s.png
-BoxSprite: SRD-BoxSprite-klink.png
+BookSprite: SRD-klink-BookSprite.png
+BoxSprite: SRD-klink-BoxSprite.png
 DexCategory: Gear Pokemon
 DexDescription: This two strange Pokemon are merged into one. Interlocking their bodies
   and spinning around will generate the energy they need to live. Their only way to
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Clear Body
-HomeSprite: SRD-HomeSprite-klink.png
+HomeSprite: SRD-klink-HomeSprite.png
 Learnset: '[[SRD-Klink-Learnset]]'
 Legendary: 'No'
 Name: Klink
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-klink.png|right]]
+![[SRD-klink-BookSprite.png|right wsmall]]
 
 *Gear Pokemon*
 *This two strange Pokemon are merged into one. Interlocking their bodies and spinning around will generate the energy they need to live. Their only way to communicate is through their eyes.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Plus|Plus]] / [[SRD-Minus|Minus]] ([[SRD-Clear Body|Clear Body]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-klink.png|right]]
+![[SRD-klink-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-klink-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

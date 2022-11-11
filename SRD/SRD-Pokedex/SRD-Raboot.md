@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME814.png
-BookShinyImageName: HOME814_s.png
-BoxSprite: SRD-BoxSprite-raboot.png
+BookSprite: SRD-raboot-BookSprite.png
+BoxSprite: SRD-raboot-BoxSprite.png
 DexCategory: Rabbit Pokemon
 DexDescription: This Pokemon loves to kick and trains each day to get better at it.
   Its fur is now very thick, some debate it is to protect it from the cold weather
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Libero
-HomeSprite: SRD-HomeSprite-raboot.png
+HomeSprite: SRD-raboot-HomeSprite.png
 Learnset: '[[SRD-Raboot-Learnset]]'
 Legendary: 'No'
 Name: Raboot
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-raboot.png|right]]
+![[SRD-raboot-BookSprite.png|right wsmall]]
 
 *Rabbit Pokemon*
 *This Pokemon loves to kick and trains each day to get better at it. Its fur is now very thick, some debate it is to protect it from the cold weather others say it is to produce hotter flames.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Libero|Libero]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-raboot.png|right]]
+![[SRD-raboot-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-raboot-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

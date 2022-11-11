@@ -2,9 +2,8 @@
 Ability1: Synchronize
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME196.png
-BookShinyImageName: HOME196_s.png
-BoxSprite: SRD-BoxSprite-espeon.png
+BookSprite: SRD-espeon-BookSprite.png
+BoxSprite: SRD-espeon-BoxSprite.png
 DexCategory: Sun Pokemon
 DexDescription: Espeon is extremely loyal to the trainer it considers worthy. It is
   said to have developed precognitive powers to protect its trainer from harm. The
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Magic Bounce
-HomeSprite: SRD-HomeSprite-espeon.png
+HomeSprite: SRD-espeon-HomeSprite.png
 Learnset: '[[SRD-Espeon-Learnset]]'
 Legendary: 'No'
 Name: Espeon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-espeon.png|right]]
+![[SRD-espeon-BookSprite.png|right wsmall]]
 
 *Sun Pokemon*
 *Espeon is extremely loyal to the trainer it considers worthy. It is said to have developed precognitive powers to protect its trainer from harm. The orb on its forehead glows whenever it uses psychic energy.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Synchronize|Synchronize]] ([[SRD-Magic Bounce|Magic Bounce]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-espeon.png|right]]
+![[SRD-espeon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-espeon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

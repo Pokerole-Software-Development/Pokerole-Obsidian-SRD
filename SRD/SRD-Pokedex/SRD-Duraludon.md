@@ -2,9 +2,8 @@
 Ability1: Light Metal
 Ability2: Heavy Metal
 Baby: 'No'
-BookImageName: HOME884.png
-BookShinyImageName: HOME884_s.png
-BoxSprite: SRD-BoxSprite-duraludon.png
+BookSprite: SRD-duraludon-BookSprite.png
+BoxSprite: SRD-duraludon-BoxSprite.png
 DexCategory: Alloy Pokemon
 DexDescription: "Its body resembles a shiny polished metal and it\u2019s both lightweight\
   \ and strong. The only drawback is that it rusts easily. It lives on dry climates\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Stalwart
-HomeSprite: SRD-HomeSprite-duraludon.png
+HomeSprite: SRD-duraludon-HomeSprite.png
 Learnset: '[[SRD-Duraludon-Learnset]]'
 Legendary: 'No'
 Name: Duraludon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-duraludon.png|right]]
+![[SRD-duraludon-BookSprite.png|right wsmall]]
 
 *Alloy Pokemon*
 *Its body resembles a shiny polished metal and it’s both lightweight and strong. The only drawback is that it rusts easily. It lives on dry climates and deep inside caves because rain and moisture make it cranky.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Light Metal|Light Metal]] / [[SRD-Heavy Metal|Heavy Metal]] ([[SRD-Stalwart|Stalwart]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-duraludon.png|right]]
+![[SRD-duraludon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-duraludon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

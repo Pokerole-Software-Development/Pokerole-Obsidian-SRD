@@ -2,9 +2,8 @@
 Ability1: Hunger Switch
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME877.png
-BookShinyImageName: HOME877_s.png
-BoxSprite: SRD-BoxSprite-morpeko.png
+BookSprite: SRD-morpeko-BookSprite.png
+BoxSprite: SRD-morpeko-BoxSprite.png
 DexCategory: Two-Sided Pokemon
 DexDescription: "It\u2019s Full-Belly Mode is friendly and playful, it treasures food\
   \ and treats. But intense hunger drives it to extremes of violence, and the electricity\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-morpeko.png
+HomeSprite: SRD-morpeko-HomeSprite.png
 Learnset: '[[SRD-Morpeko-Learnset]]'
 Legendary: 'No'
 Name: Morpeko
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-morpeko.png|right]]
+![[SRD-morpeko-BookSprite.png|right wsmall]]
 
 *Two-Sided Pokemon*
 *It’s Full-Belly Mode is friendly and playful, it treasures food and treats. But intense hunger drives it to extremes of violence, and the electricity in its cheek sacs turn into a Dark-type energy*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hunger Switch|Hunger Switch]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-morpeko.png|right]]
+![[SRD-morpeko-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-morpeko-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

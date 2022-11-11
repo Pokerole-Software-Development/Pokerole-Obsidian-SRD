@@ -2,9 +2,8 @@
 Ability1: Forecast
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME351.png
-BookShinyImageName: HOME351_s.png
-BoxSprite: SRD-BoxSprite-castform.png
+BookSprite: SRD-castform-BookSprite.png
+BoxSprite: SRD-castform-BoxSprite.png
 DexCategory: Weather Pokemon
 DexDescription: This Pokemon reacts to the weather by changing its type and looks.
   It can also change the weather at will. When there is a drought, farmers lure them
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-castform.png
+HomeSprite: SRD-castform-HomeSprite.png
 Learnset: '[[SRD-Castform-Learnset]]'
 Legendary: 'No'
 Name: Castform
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-castform.png|right]]
+![[SRD-castform-BookSprite.png|right wsmall]]
 
 *Weather Pokemon*
 *This Pokemon reacts to the weather by changing its type and looks. It can also change the weather at will. When there is a drought, farmers lure them with small hanging dolls to ask them for rain.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Forecast|Forecast]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-castform.png|right]]
+![[SRD-castform-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-castform-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

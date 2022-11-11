@@ -2,8 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME479D.png
-BoxSprite: SRD-BoxSprite-rotom.png
+BookSprite: SRD-rotom-BookSprite.png
+BoxSprite: SRD-rotom-BoxSprite.png
 DexCategory: Plasma Pokemon
 DexDescription: 'A Pokedex possessed by a Rotom, it has access to all the information
   inside the computer and uses the sounds to emulate speech. While on this form it
@@ -16,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-rotom.png
+HomeSprite: SRD-rotom-HomeSprite.png
 Learnset: '[[SRD-Rotom Dex-Learnset]]'
 Legendary: 'No'
 Name: Rotom Dex
@@ -36,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rotom.png|right]]
+![[SRD-rotom-BookSprite.png|right wsmall]]
 
 *Plasma Pokemon*
 *A Pokedex possessed by a Rotom, it has access to all the information inside the computer and uses the sounds to emulate speech. While on this form it can use the move: Light Screen.*
@@ -47,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-rotom.png|right]]
+![[SRD-rotom-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-rotom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

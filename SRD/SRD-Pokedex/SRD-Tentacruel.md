@@ -2,9 +2,8 @@
 Ability1: Clear Body
 Ability2: Liquid Ooze
 Baby: 'No'
-BookImageName: HOME073.png
-BookShinyImageName: HOME073_s.png
-BoxSprite: SRD-BoxSprite-tentacruel.png
+BookSprite: SRD-tentacruel-BookSprite.png
+BoxSprite: SRD-tentacruel-BoxSprite.png
 DexCategory: Jellyfish Pokemon
 DexDescription: Lives in rock formations at the bottom of the ocean. It can grow tentacles
   at will and uses them to immobilize prey. Records exist of a giant Tentacruel that
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Rain Dish
-HomeSprite: SRD-HomeSprite-tentacruel.png
+HomeSprite: SRD-tentacruel-HomeSprite.png
 Learnset: '[[SRD-Tentacruel-Learnset]]'
 Legendary: 'No'
 Name: Tentacruel
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tentacruel.png|right]]
+![[SRD-tentacruel-BookSprite.png|right wsmall]]
 
 *Jellyfish Pokemon*
 *Lives in rock formations at the bottom of the ocean. It can grow tentacles at will and uses them to immobilize prey. Records exist of a giant Tentacruel that sunk a fleet of pirate ships filled with treasure.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Clear Body|Clear Body]] / [[SRD-Liquid Ooze|Liquid Ooze]] ([[SRD-Rain Dish|Rain Dish]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-tentacruel.png|right]]
+![[SRD-tentacruel-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-tentacruel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

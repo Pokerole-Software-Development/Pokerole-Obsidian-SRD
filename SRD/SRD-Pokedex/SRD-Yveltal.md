@@ -2,9 +2,8 @@
 Ability1: Dark Aura
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME717.png
-BookShinyImageName: HOME717_s.png
-BoxSprite: SRD-BoxSprite-yveltal.png
+BookSprite: SRD-yveltal-BookSprite.png
+BoxSprite: SRD-yveltal-BoxSprite.png
 DexCategory: No Data
 DexDescription: A Kalos legend tells about the eternal struggle between life and death.
   The main tale is about a King full of grief and hate who built a doomsday machine
@@ -17,7 +16,7 @@ Height:
   Feet: 19.0
   Meters: 5.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-yveltal.png
+HomeSprite: SRD-yveltal-HomeSprite.png
 Learnset: '[[SRD-Yveltal-Learnset]]'
 Legendary: 'Yes'
 Name: Yveltal
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-yveltal.png|right]]
+![[SRD-yveltal-BookSprite.png|right wsmall]]
 
 *No Data*
 *A Kalos legend tells about the eternal struggle between life and death. The main tale is about a King full of grief and hate who built a doomsday machine to kill everyone in the world.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Dark Aura|Dark Aura]]
 **Base HP**:: 8
 
-![[SRD-BoxSprite-yveltal.png|right]]
+![[SRD-yveltal-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-yveltal-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

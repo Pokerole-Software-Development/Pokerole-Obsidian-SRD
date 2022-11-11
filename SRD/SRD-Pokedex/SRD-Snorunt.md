@@ -2,9 +2,8 @@
 Ability1: Inner Focus
 Ability2: Ice Body
 Baby: 'No'
-BookImageName: HOME361.png
-BookShinyImageName: HOME361_s.png
-BoxSprite: SRD-BoxSprite-snorunt.png
+BookSprite: SRD-snorunt-BookSprite.png
+BoxSprite: SRD-snorunt-BoxSprite.png
 DexCategory: Snow Hat Pokemon
 DexDescription: This friendly Pokemon lives in cold mountains and deserted snowlands.
   It survives by eating snow and ice. They form small groups to protect themselves
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Moody
-HomeSprite: SRD-HomeSprite-snorunt.png
+HomeSprite: SRD-snorunt-HomeSprite.png
 Learnset: '[[SRD-Snorunt-Learnset]]'
 Legendary: 'No'
 Name: Snorunt
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-snorunt.png|right]]
+![[SRD-snorunt-BookSprite.png|right wsmall]]
 
 *Snow Hat Pokemon*
 *This friendly Pokemon lives in cold mountains and deserted snowlands. It survives by eating snow and ice. They form small groups to protect themselves from predators. If you take their hat off, they will get angry.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] / [[SRD-Ice Body|Ice Body]] ([[SRD-Moody|Moody]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-snorunt.png|right]]
+![[SRD-snorunt-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-snorunt-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

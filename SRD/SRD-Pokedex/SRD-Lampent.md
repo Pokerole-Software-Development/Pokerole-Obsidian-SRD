@@ -2,9 +2,8 @@
 Ability1: Flash Fire
 Ability2: Flame Body
 Baby: 'No'
-BookImageName: HOME608.png
-BookShinyImageName: HOME608_s.png
-BoxSprite: SRD-BoxSprite-lampent.png
+BookSprite: SRD-lampent-BookSprite.png
+BoxSprite: SRD-lampent-BoxSprite.png
 DexCategory: Lamp Pokemon
 DexDescription: "This ominous Pokemon is very feared. It always arrives at someone\u2019\
   s final moments and steals their spirit. It hangs close to hospitals and other places\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Infiltrator
-HomeSprite: SRD-HomeSprite-lampent.png
+HomeSprite: SRD-lampent-HomeSprite.png
 Learnset: '[[SRD-Lampent-Learnset]]'
 Legendary: 'No'
 Name: Lampent
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lampent.png|right]]
+![[SRD-lampent-BookSprite.png|right wsmall]]
 
 *Lamp Pokemon*
 *This ominous Pokemon is very feared. It always arrives at someone’s final moments and steals their spirit. It hangs close to hospitals and other places simply waiting. It is said that if it gets your soul you will never rest.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flash Fire|Flash Fire]] / [[SRD-Flame Body|Flame Body]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-lampent.png|right]]
+![[SRD-lampent-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-lampent-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

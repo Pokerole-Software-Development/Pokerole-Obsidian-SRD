@@ -2,9 +2,8 @@
 Ability1: Limber
 Ability2: Reckless
 Baby: 'No'
-BookImageName: HOME106.png
-BookShinyImageName: HOME106_s.png
-BoxSprite: SRD-BoxSprite-hitmonlee.png
+BookSprite: SRD-hitmonlee-BookSprite.png
+BoxSprite: SRD-hitmonlee-BoxSprite.png
 DexCategory: Kicking Pokemon
 DexDescription: Kicking Pokemon Its legs freely stretch and contract. It bowls over
   foes with devastating kicks. It is very disciplined and trains every day. It is
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Unburden
-HomeSprite: SRD-HomeSprite-hitmonlee.png
+HomeSprite: SRD-hitmonlee-HomeSprite.png
 Learnset: '[[SRD-Hitmonlee-Learnset]]'
 Legendary: 'No'
 Name: Hitmonlee
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-hitmonlee.png|right]]
+![[SRD-hitmonlee-BookSprite.png|right wsmall]]
 
 *Kicking Pokemon*
 *Kicking Pokemon Its legs freely stretch and contract. It bowls over foes with devastating kicks. It is very disciplined and trains every day. It is very rare in the wild, and it is mostly found in urban areas*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Limber|Limber]] / [[SRD-Reckless|Reckless]] ([[SRD-Unburden|Unburden]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-hitmonlee.png|right]]
+![[SRD-hitmonlee-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-hitmonlee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME414.png
-BookShinyImageName: HOME414_s.png
-BoxSprite: SRD-BoxSprite-mothim.png
+BookSprite: SRD-mothim-BookSprite.png
+BoxSprite: SRD-mothim-BoxSprite.png
 DexCategory: Moth Pokemon
 DexDescription: "It flies near the mountains in search of honey. It is an opportunist\
   \ and won\u2019t gather any honey by itself, instead Mothim steals from Combee hives\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Tinted Lens
-HomeSprite: SRD-HomeSprite-mothim.png
+HomeSprite: SRD-mothim-HomeSprite.png
 Learnset: '[[SRD-Mothim-Learnset]]'
 Legendary: 'No'
 Name: Mothim
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mothim.png|right]]
+![[SRD-mothim-BookSprite.png|right wsmall]]
 
 *Moth Pokemon*
 *It flies near the mountains in search of honey. It is an opportunist and won’t gather any honey by itself, instead Mothim steals from Combee hives and other Pokemon. This Pokemon is male only.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] ([[SRD-Tinted Lens|Tinted Lens]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-mothim.png|right]]
+![[SRD-mothim-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-mothim-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

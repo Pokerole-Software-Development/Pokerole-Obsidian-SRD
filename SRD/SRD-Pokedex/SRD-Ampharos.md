@@ -2,9 +2,8 @@
 Ability1: Static
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME181.png
-BookShinyImageName: HOME181_s.png
-BoxSprite: SRD-BoxSprite-ampharos.png
+BookSprite: SRD-ampharos-BookSprite.png
+BoxSprite: SRD-ampharos-BoxSprite.png
 DexCategory: Light Pokemon
 DexDescription: "It\u2019s not common to see it in the wild. The tip of its tail shines\
   \ brightly and in the old days, people sent light signals with the help of this\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Plus
-HomeSprite: SRD-HomeSprite-ampharos.png
+HomeSprite: SRD-ampharos-HomeSprite.png
 Learnset: '[[SRD-Ampharos-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ampharos.png|right]]
+![[SRD-ampharos-BookSprite.png|right wsmall]]
 
 *Light Pokemon*
 *It’s not common to see it in the wild. The tip of its tail shines brightly and in the old days, people sent light signals with the help of this Pokemon. It has a good disposition towards people in general.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Static|Static]] ([[SRD-Plus|Plus]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-ampharos.png|right]]
+![[SRD-ampharos-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-ampharos-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Vital Spirit
 Ability2: Screen Cleaner
 Baby: 'No'
-BookImageName: HOME122G.png
-BookShinyImageName: HOME122G_s.png
-BoxSprite: SRD-BoxSprite-mr-mime-galar.png
+BookSprite: SRD-mr-mime-galar-BookSprite.png
+BoxSprite: SRD-mr-mime-galar-BoxSprite.png
 DexCategory: Barrier Pokemon
 DexDescription: Mime Jr. that endure the harsh winter of Galar are able to create
   invisible walls that suddenly turn to ice, as they evolve they start creating ice
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Ice Body
-HomeSprite: SRD-HomeSprite-mr-mime-galar.png
+HomeSprite: SRD-mr-mime-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Mr. Mime-Learnset]]'
 Legendary: 'No'
 Name: Galarian Mr. Mime
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mr-mime-galar.png|right]]
+![[SRD-mr-mime-galar-BookSprite.png|right wsmall]]
 
 *Barrier Pokemon*
 *Mime Jr. that endure the harsh winter of Galar are able to create invisible walls that suddenly turn to ice, as they evolve they start creating ice floors that allow them to tap-dance, which they enjoy more than anything.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Vital Spirit|Vital Spirit]] / [[SRD-Screen Cleaner|Screen Cleaner]] ([[SRD-Ice Body|Ice Body]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-mr-mime-galar.png|right]]
+![[SRD-mr-mime-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-mr-mime-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME497.png
-BookShinyImageName: HOME497_s.png
-BoxSprite: SRD-BoxSprite-serperior.png
+BookSprite: SRD-serperior-BookSprite.png
+BoxSprite: SRD-serperior-BoxSprite.png
 DexCategory: Regal Pokemon
 DexDescription: It stops enemies dead in their tracks with just one intense glare.
   It is a noble and proud Pokemon. It is not aggressive but it can be very stubborn.
@@ -17,7 +16,7 @@ Height:
   Feet: 10.8
   Meters: 3.3
 HiddenAbility: Contrary
-HomeSprite: SRD-HomeSprite-serperior.png
+HomeSprite: SRD-serperior-HomeSprite.png
 Learnset: '[[SRD-Serperior-Learnset]]'
 Legendary: 'No'
 Name: Serperior
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-serperior.png|right]]
+![[SRD-serperior-BookSprite.png|right wsmall]]
 
 *Regal Pokemon*
 *It stops enemies dead in their tracks with just one intense glare. It is a noble and proud Pokemon. It is not aggressive but it can be very stubborn. It takes a really strong foe for it to take the fight seriously.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Contrary|Contrary]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-serperior.png|right]]
+![[SRD-serperior-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-serperior-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

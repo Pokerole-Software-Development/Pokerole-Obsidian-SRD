@@ -2,9 +2,8 @@
 Ability1: Flame Body
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME637.png
-BookShinyImageName: HOME637_s.png
-BoxSprite: SRD-BoxSprite-volcarona.png
+BookSprite: SRD-volcarona-BookSprite.png
+BoxSprite: SRD-volcarona-BoxSprite.png
 DexCategory: Sun Pokemon
 DexDescription: A sea of fire engulfs the surroundings of its battles, since it uses
   six wings to scatter blazing scales. There are stories of how its fire saved villages
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Swarm
-HomeSprite: SRD-HomeSprite-volcarona.png
+HomeSprite: SRD-volcarona-HomeSprite.png
 Learnset: '[[SRD-Volcarona-Learnset]]'
 Legendary: 'No'
 Name: Volcarona
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-volcarona.png|right]]
+![[SRD-volcarona-BookSprite.png|right wsmall]]
 
 *Sun Pokemon*
 *A sea of fire engulfs the surroundings of its battles, since it uses six wings to scatter blazing scales. There are stories of how its fire saved villages during winter and how it shone like the sun over the mountains.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flame Body|Flame Body]] ([[SRD-Swarm|Swarm]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-volcarona.png|right]]
+![[SRD-volcarona-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-volcarona-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

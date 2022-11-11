@@ -2,9 +2,8 @@
 Ability1: Magma Armor
 Ability2: Flame Body
 Baby: 'No'
-BookImageName: HOME218.png
-BookShinyImageName: HOME218_s.png
-BoxSprite: SRD-BoxSprite-slugma.png
+BookSprite: SRD-slugma-BookSprite.png
+BoxSprite: SRD-slugma-BoxSprite.png
 DexCategory: Lava Pokemon
 DexDescription: They are extremely common in volcanic areas where they group together.
   They are made of molten magma instead of blood and flesh. Slugmas replenish parts
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Weak Armor
-HomeSprite: SRD-HomeSprite-slugma.png
+HomeSprite: SRD-slugma-HomeSprite.png
 Learnset: '[[SRD-Slugma-Learnset]]'
 Legendary: 'No'
 Name: Slugma
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-slugma.png|right]]
+![[SRD-slugma-BookSprite.png|right wsmall]]
 
 *Lava Pokemon*
 *They are extremely common in volcanic areas where they group together. They are made of molten magma instead of blood and flesh. Slugmas replenish parts of their body by absorbing molted rocks.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Magma Armor|Magma Armor]] / [[SRD-Flame Body|Flame Body]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-slugma.png|right]]
+![[SRD-slugma-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-slugma-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

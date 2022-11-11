@@ -2,9 +2,8 @@
 Ability1: Sand Force
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME445M.png
-BookShinyImageName: HOME445M_s.png
-BoxSprite: SRD-BoxSprite-garchomp-mega.png
+BookSprite: SRD-garchomp-mega-BookSprite.png
+BoxSprite: SRD-garchomp-mega-BoxSprite.png
 DexCategory: Mach Pokemon
 DexDescription: The excess of power from the Mega Stone melted its fins and claws
   together forming sharp, dangerous scythes. If its disposition was already violent,
@@ -17,7 +16,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-garchomp-mega.png
+HomeSprite: SRD-garchomp-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Garchomp-Learnset]]'
 Legendary: 'No'
 Name: Mega-Garchomp
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-garchomp-mega.png|right]]
+![[SRD-garchomp-mega-BookSprite.png|right wsmall]]
 
 *Mach Pokemon*
 *The excess of power from the Mega Stone melted its fins and claws together forming sharp, dangerous scythes. If its disposition was already violent, it grows now by a tenfold. They can be vicious and feral.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Force|Sand Force]]
 **Base HP**:: 7
 
-![[SRD-BoxSprite-garchomp-mega.png|right]]
+![[SRD-garchomp-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-garchomp-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Shadow Tag
 Ability2: ''
 Baby: 'Yes'
-BookImageName: HOME360.png
-BookShinyImageName: HOME360_s.png
-BoxSprite: SRD-BoxSprite-wynaut.png
+BookSprite: SRD-wynaut-BookSprite.png
+BoxSprite: SRD-wynaut-BoxSprite.png
 DexCategory: Bright Pokemon
 DexDescription: Its face always appears to be happy, but Wynaut can be deceitful.
   You can only discern its true emotions through its tail. They live together in caves
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-wynaut.png
+HomeSprite: SRD-wynaut-HomeSprite.png
 Learnset: '[[SRD-Wynaut-Learnset]]'
 Legendary: 'No'
 Name: Wynaut
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-wynaut.png|right]]
+![[SRD-wynaut-BookSprite.png|right wsmall]]
 
 *Bright Pokemon*
 *Its face always appears to be happy, but Wynaut can be deceitful. You can only discern its true emotions through its tail. They live together in caves and bump into each other to gain strength.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shadow Tag|Shadow Tag]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-wynaut.png|right]]
+![[SRD-wynaut-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-wynaut-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

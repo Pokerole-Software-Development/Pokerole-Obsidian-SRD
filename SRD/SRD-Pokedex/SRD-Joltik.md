@@ -2,9 +2,8 @@
 Ability1: Compound Eyes
 Ability2: Unnerve
 Baby: 'No'
-BookImageName: HOME595.png
-BookShinyImageName: HOME595_s.png
-BoxSprite: SRD-BoxSprite-joltik.png
+BookSprite: SRD-joltik-BookSprite.png
+BoxSprite: SRD-joltik-BoxSprite.png
 DexCategory: Attaching Pokemon
 DexDescription: "Since it can\u2019t generate its own charge, it sticks into larger\
   \ Pokemon and absorbs the static electricity of their fur. In the cities they suck\
@@ -17,7 +16,7 @@ Height:
   Feet: 0.3
   Meters: 0.1
 HiddenAbility: Swarm
-HomeSprite: SRD-HomeSprite-joltik.png
+HomeSprite: SRD-joltik-HomeSprite.png
 Learnset: '[[SRD-Joltik-Learnset]]'
 Legendary: 'No'
 Name: Joltik
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-joltik.png|right]]
+![[SRD-joltik-BookSprite.png|right wsmall]]
 
 *Attaching Pokemon*
 *Since it can’t generate its own charge, it sticks into larger Pokemon and absorbs the static electricity of their fur. In the cities they suck electricity from the outlets they find, skyrocketting the power bill.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Compound Eyes|Compound Eyes]] / [[SRD-Unnerve|Unnerve]] ([[SRD-Swarm|Swarm]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-joltik.png|right]]
+![[SRD-joltik-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-joltik-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

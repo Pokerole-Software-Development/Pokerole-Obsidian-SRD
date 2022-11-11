@@ -2,9 +2,8 @@
 Ability1: Rivalry
 Ability2: Intimidate
 Baby: 'No'
-BookImageName: HOME403.png
-BookShinyImageName: HOME403_s.png
-BoxSprite: SRD-BoxSprite-shinx.png
+BookSprite: SRD-shinx-BookSprite.png
+BoxSprite: SRD-shinx-BoxSprite.png
 DexCategory: Flash Pokemon
 DexDescription: Its body transforms the energy of its own muscles into electricity.
   When in danger, their whole fur shines in a flash to blind the foes. They live with
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Guts
-HomeSprite: SRD-HomeSprite-shinx.png
+HomeSprite: SRD-shinx-HomeSprite.png
 Learnset: '[[SRD-Shinx-Learnset]]'
 Legendary: 'No'
 Name: Shinx
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-shinx.png|right]]
+![[SRD-shinx-BookSprite.png|right wsmall]]
 
 *Flash Pokemon*
 *Its body transforms the energy of its own muscles into electricity. When in danger, their whole fur shines in a flash to blind the foes. They live with their parents and siblings in small prides.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rivalry|Rivalry]] / [[SRD-Intimidate|Intimidate]] ([[SRD-Guts|Guts]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-shinx.png|right]]
+![[SRD-shinx-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-shinx-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

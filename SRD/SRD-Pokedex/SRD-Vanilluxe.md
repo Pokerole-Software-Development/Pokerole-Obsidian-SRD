@@ -2,9 +2,8 @@
 Ability1: Ice Body
 Ability2: Snow Warning
 Baby: 'No'
-BookImageName: HOME584.png
-BookShinyImageName: HOME584_s.png
-BoxSprite: SRD-BoxSprite-vanilluxe.png
+BookSprite: SRD-vanilluxe-BookSprite.png
+BoxSprite: SRD-vanilluxe-BoxSprite.png
 DexCategory: Snowstorm Pokemon
 DexDescription: It grew a new head with evolution, and they get along really well.
   They need to drink a lot of water in order to keep cool outside a gelid weather.
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Weak Armor
-HomeSprite: SRD-HomeSprite-vanilluxe.png
+HomeSprite: SRD-vanilluxe-HomeSprite.png
 Learnset: '[[SRD-Vanilluxe-Learnset]]'
 Legendary: 'No'
 Name: Vanilluxe
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-vanilluxe.png|right]]
+![[SRD-vanilluxe-BookSprite.png|right wsmall]]
 
 *Snowstorm Pokemon*
 *It grew a new head with evolution, and they get along really well. They need to drink a lot of water in order to keep cool outside a gelid weather. If both heads get angry they will expel a terrible blizzard around.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Ice Body|Ice Body]] / [[SRD-Snow Warning|Snow Warning]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-vanilluxe.png|right]]
+![[SRD-vanilluxe-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-vanilluxe-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

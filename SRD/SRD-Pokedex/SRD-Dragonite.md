@@ -2,9 +2,8 @@
 Ability1: Inner Focus
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME149.png
-BookShinyImageName: HOME149_s.png
-BoxSprite: SRD-BoxSprite-dragonite.png
+BookSprite: SRD-dragonite-BookSprite.png
+BoxSprite: SRD-dragonite-BoxSprite.png
 DexCategory: Dragon Pokemon
 DexDescription: Very few people have ever seen this Pokemon. Its intelligence matches
   that of humans. There are records of a Pokemon with a similar description that helped
@@ -17,7 +16,7 @@ Height:
   Feet: 7.2
   Meters: 2.2
 HiddenAbility: Multiscale
-HomeSprite: SRD-HomeSprite-dragonite.png
+HomeSprite: SRD-dragonite-HomeSprite.png
 Learnset: '[[SRD-Dragonite-Learnset]]'
 Legendary: 'No'
 Name: Dragonite
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dragonite.png|right]]
+![[SRD-dragonite-BookSprite.png|right wsmall]]
 
 *Dragon Pokemon*
 *Very few people have ever seen this Pokemon. Its intelligence matches that of humans. There are records of a Pokemon with a similar description that helped rescue a ship full of people during a hurricane.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] ([[SRD-Multiscale|Multiscale]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-dragonite.png|right]]
+![[SRD-dragonite-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-dragonite-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

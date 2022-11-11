@@ -2,9 +2,8 @@
 Ability1: Victory Star
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME494.png
-BookShinyImageName: HOME494_s.png
-BoxSprite: SRD-BoxSprite-victini.png
+BookSprite: SRD-victini-BookSprite.png
+BoxSprite: SRD-victini-BoxSprite.png
 DexCategory: No Data
 DexDescription: "On tournament days, Trainers eat a \u201CV\u201D shaped apple as\
   \ a sign of good luck. It is unknown if it has anything to do with this Pokemon."
@@ -16,7 +15,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-victini.png
+HomeSprite: SRD-victini-HomeSprite.png
 Learnset: '[[SRD-Victini-Learnset]]'
 Legendary: 'Yes'
 Name: Victini
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-victini.png|right]]
+![[SRD-victini-BookSprite.png|right wsmall]]
 
 *No Data*
 *On tournament days, Trainers eat a “V” shaped apple as a sign of good luck. It is unknown if it has anything to do with this Pokemon.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Victory Star|Victory Star]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-victini.png|right]]
+![[SRD-victini-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-victini-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

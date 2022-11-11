@@ -2,9 +2,8 @@
 Ability1: Limber
 Ability2: Technician
 Baby: 'No'
-BookImageName: HOME053.png
-BookShinyImageName: HOME053_s.png
-BoxSprite: SRD-BoxSprite-persian.png
+BookSprite: SRD-persian-BookSprite.png
+BoxSprite: SRD-persian-BoxSprite.png
 DexCategory: Classy Cat Pokemon
 DexDescription: They are proud and temperamental. They scratch their trainers with
   little to no provocation whatsoever. Their elegance and grace is very valued, although
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Unnerve
-HomeSprite: SRD-HomeSprite-persian.png
+HomeSprite: SRD-persian-HomeSprite.png
 Learnset: '[[SRD-Persian-Learnset]]'
 Legendary: 'No'
 Name: Persian
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-persian.png|right]]
+![[SRD-persian-BookSprite.png|right wsmall]]
 
 *Classy Cat Pokemon*
 *They are proud and temperamental. They scratch their trainers with little to no provocation whatsoever. Their elegance and grace is very valued, although they can be vicious hunters.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Limber|Limber]] / [[SRD-Technician|Technician]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-persian.png|right]]
+![[SRD-persian-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-persian-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

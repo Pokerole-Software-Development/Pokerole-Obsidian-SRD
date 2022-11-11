@@ -2,9 +2,8 @@
 Ability1: Soundproof
 Ability2: Filter
 Baby: 'Yes'
-BookImageName: HOME439.png
-BookShinyImageName: HOME439_s.png
-BoxSprite: SRD-BoxSprite-mime-jr.png
+BookSprite: SRD-mime-jr-BookSprite.png
+BoxSprite: SRD-mime-jr-BoxSprite.png
 DexCategory: Mime Pokemon
 DexDescription: "It likes places where people gather and imitates their expressions\
   \ to try to understand their feelings. It mimics foes, confuses them, then it escapes.\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Technician
-HomeSprite: SRD-HomeSprite-mime-jr.png
+HomeSprite: SRD-mime-jr-HomeSprite.png
 Learnset: '[[SRD-Mime Jr.-Learnset]]'
 Legendary: 'No'
 Name: Mime Jr.
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mime-jr.png|right]]
+![[SRD-mime-jr-BookSprite.png|right wsmall]]
 
 *Mime Pokemon*
 *It likes places where people gather and imitates their expressions to try to understand their feelings. It mimics foes, confuses them, then it escapes. It doesn’t take long to become a master mime.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Soundproof|Soundproof]] / [[SRD-Filter|Filter]] ([[SRD-Technician|Technician]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-mime-jr.png|right]]
+![[SRD-mime-jr-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-mime-jr-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

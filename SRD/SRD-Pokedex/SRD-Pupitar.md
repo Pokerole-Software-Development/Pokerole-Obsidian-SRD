@@ -2,9 +2,8 @@
 Ability1: Shed Skin
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME247.png
-BookShinyImageName: HOME247_s.png
-BoxSprite: SRD-BoxSprite-pupitar.png
+BookSprite: SRD-pupitar-BookSprite.png
+BoxSprite: SRD-pupitar-BoxSprite.png
 DexCategory: Hard Shell Pokemon
 DexDescription: Even in their shell, they are fast, aggressive and extremely destructive.
   They never stay still. This pupa propels itself using a jet of pressurized gas.
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-pupitar.png
+HomeSprite: SRD-pupitar-HomeSprite.png
 Learnset: '[[SRD-Pupitar-Learnset]]'
 Legendary: 'No'
 Name: Pupitar
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pupitar.png|right]]
+![[SRD-pupitar-BookSprite.png|right wsmall]]
 
 *Hard Shell Pokemon*
 *Even in their shell, they are fast, aggressive and extremely destructive. They never stay still. This pupa propels itself using a jet of pressurized gas. It is bad tempered and very aggressive.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-pupitar.png|right]]
+![[SRD-pupitar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-pupitar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

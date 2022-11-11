@@ -2,9 +2,8 @@
 Ability1: Aura Break
 Ability2: Power Construct
 Baby: 'No'
-BookImageName: HOME718T.png
-BookShinyImageName: HOME718T_s.png
-BoxSprite: SRD-BoxSprite-zygarde-10.png
+BookSprite: SRD-zygarde-10-BookSprite.png
+BoxSprite: SRD-zygarde-10-BoxSprite.png
 DexCategory: No Data
 DexDescription: When 10% of the Zygarde Cells gather, they form this Pokemon, the
   more cells it gathers the more its strength will increase.
@@ -16,7 +15,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-zygarde-10.png
+HomeSprite: SRD-zygarde-10-HomeSprite.png
 Learnset: '[[SRD-Zygarde 10%-Learnset]]'
 Legendary: 'Yes'
 Name: Zygarde 10%
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zygarde-10.png|right]]
+![[SRD-zygarde-10-BookSprite.png|right wsmall]]
 
 *No Data*
 *When 10% of the Zygarde Cells gather, they form this Pokemon, the more cells it gathers the more its strength will increase.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Aura Break|Aura Break]] / [[SRD-Power Construct|Power Construct]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-zygarde-10.png|right]]
+![[SRD-zygarde-10-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-zygarde-10-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

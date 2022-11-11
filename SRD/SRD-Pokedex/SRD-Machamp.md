@@ -2,9 +2,8 @@
 Ability1: Guts
 Ability2: No Guard
 Baby: 'No'
-BookImageName: HOME068.png
-BookShinyImageName: HOME068_s.png
-BoxSprite: SRD-BoxSprite-machamp.png
+BookSprite: SRD-machamp-BookSprite.png
+BoxSprite: SRD-machamp-BoxSprite.png
 DexCategory: Superpower Pokemon
 DexDescription: There are a few roaming in the mountains. Machamp has the power to
   hurl anything aside. However, trying to do any work that requires care and dexterity
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Steadfast
-HomeSprite: SRD-HomeSprite-machamp.png
+HomeSprite: SRD-machamp-HomeSprite.png
 Learnset: '[[SRD-Machamp-Learnset]]'
 Legendary: 'No'
 Name: Machamp
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-machamp.png|right]]
+![[SRD-machamp-BookSprite.png|right wsmall]]
 
 *Superpower Pokemon*
 *There are a few roaming in the mountains. Machamp has the power to hurl anything aside. However, trying to do any work that requires care and dexterity may cause its arms to get tangled.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Guts|Guts]] / [[SRD-No Guard|No Guard]] ([[SRD-Steadfast|Steadfast]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-machamp.png|right]]
+![[SRD-machamp-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-machamp-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

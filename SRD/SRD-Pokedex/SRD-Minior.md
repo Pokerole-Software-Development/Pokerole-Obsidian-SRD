@@ -2,8 +2,8 @@
 Ability1: Shields Down
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME774.png
-BoxSprite: SRD-BoxSprite-minior.png
+BookSprite: SRD-minior-BookSprite.png
+BoxSprite: SRD-minior-BoxSprite.png
 DexCategory: Meteor Pokemon
 DexDescription: They live on the stratosphere, absorbing particles to grow their cores
   and shells, when they become too heavy they fall to the ground. Move damage can
@@ -16,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-minior.png
+HomeSprite: SRD-minior-HomeSprite.png
 Learnset: '[[SRD-Minior-Learnset]]'
 Legendary: 'No'
 Name: Minior
@@ -36,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-minior.png|right]]
+![[SRD-minior-BookSprite.png|right wsmall]]
 
 *Meteor Pokemon*
 *They live on the stratosphere, absorbing particles to grow their cores and shells, when they become too heavy they fall to the ground. Move damage can break the shell and leave the core exposed.*
@@ -47,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shields Down|Shields Down]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-minior.png|right]]
+![[SRD-minior-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-minior-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

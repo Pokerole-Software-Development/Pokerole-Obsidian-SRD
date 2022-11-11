@@ -2,9 +2,8 @@
 Ability1: Compound Eyes
 Ability2: Unnerve
 Baby: 'No'
-BookImageName: HOME596.png
-BookShinyImageName: HOME596_s.png
-BoxSprite: SRD-BoxSprite-galvantula.png
+BookSprite: SRD-galvantula-BookSprite.png
+BoxSprite: SRD-galvantula-BoxSprite.png
 DexCategory: EleSpider Pokemon
 DexDescription: They employ an electrically charged web to trap their prey. While
   it is immobilized by shock, they leisurely consume it. They usually live alone but
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Swarm
-HomeSprite: SRD-HomeSprite-galvantula.png
+HomeSprite: SRD-galvantula-HomeSprite.png
 Learnset: '[[SRD-Galvantula-Learnset]]'
 Legendary: 'No'
 Name: Galvantula
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-galvantula.png|right]]
+![[SRD-galvantula-BookSprite.png|right wsmall]]
 
 *EleSpider Pokemon*
 *They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it. They usually live alone but there have been cases of large swarms living together in caves.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Compound Eyes|Compound Eyes]] / [[SRD-Unnerve|Unnerve]] ([[SRD-Swarm|Swarm]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-galvantula.png|right]]
+![[SRD-galvantula-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-galvantula-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

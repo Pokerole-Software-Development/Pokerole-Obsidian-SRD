@@ -2,9 +2,8 @@
 Ability1: Sap Sipper
 Ability2: Hydration
 Baby: 'No'
-BookImageName: HOME705.png
-BookShinyImageName: HOME705_s.png
-BoxSprite: SRD-BoxSprite-sliggoo.png
+BookSprite: SRD-sliggoo-BookSprite.png
+BoxSprite: SRD-sliggoo-BoxSprite.png
 DexCategory: Soft Tissue Pokemon
 DexDescription: It drives away foes by releasing a sticky and corrosive liquid. Its
   eyes devolved and it became blind, now it uses its four horns to sense sounds and
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Gooey
-HomeSprite: SRD-HomeSprite-sliggoo.png
+HomeSprite: SRD-sliggoo-HomeSprite.png
 Learnset: '[[SRD-Sliggoo-Learnset]]'
 Legendary: 'No'
 Name: Sliggoo
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sliggoo.png|right]]
+![[SRD-sliggoo-BookSprite.png|right wsmall]]
 
 *Soft Tissue Pokemon*
 *It drives away foes by releasing a sticky and corrosive liquid. Its eyes devolved and it became blind, now it uses its four horns to sense sounds and smells, rather than using its ears or nose.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sap Sipper|Sap Sipper]] / [[SRD-Hydration|Hydration]] ([[SRD-Gooey|Gooey]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-sliggoo.png|right]]
+![[SRD-sliggoo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-sliggoo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

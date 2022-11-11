@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME722.png
-BookShinyImageName: HOME722_s.png
-BoxSprite: SRD-BoxSprite-rowlet.png
+BookSprite: SRD-rowlet-BookSprite.png
+BoxSprite: SRD-rowlet-BoxSprite.png
 DexCategory: Grass Quill Pokemon
 DexDescription: "This is a shy Pokemon, it sleeps during the day, absorbing sunlight\
   \ through its feathers, then at night becomes more active. It likes to keep sight\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Long Reach
-HomeSprite: SRD-HomeSprite-rowlet.png
+HomeSprite: SRD-rowlet-HomeSprite.png
 Learnset: '[[SRD-Rowlet-Learnset]]'
 Legendary: 'No'
 Name: Rowlet
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rowlet.png|right]]
+![[SRD-rowlet-BookSprite.png|right wsmall]]
 
 *Grass Quill Pokemon*
 *This is a shy Pokemon, it sleeps during the day, absorbing sunlight through its feathers, then at night becomes more active. It likes to keep sight of its trainer at all times, rotating its head 180° to do so.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Long Reach|Long Reach]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-rowlet.png|right]]
+![[SRD-rowlet-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-rowlet-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

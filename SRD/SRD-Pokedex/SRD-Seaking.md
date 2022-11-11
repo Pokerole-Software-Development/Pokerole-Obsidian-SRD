@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Water Veil
 Baby: 'No'
-BookImageName: HOME119.png
-BookShinyImageName: HOME119_s.png
-BoxSprite: SRD-BoxSprite-seaking.png
+BookSprite: SRD-seaking-BookSprite.png
+BoxSprite: SRD-seaking-BoxSprite.png
 DexCategory: Goldfish Pokemon
 DexDescription: In the autumn, Seaking males can be seen doing courtship dances to
   females. After getting a mate both will be seen swimming powerfully up rivers and
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Lightning Rod
-HomeSprite: SRD-HomeSprite-seaking.png
+HomeSprite: SRD-seaking-HomeSprite.png
 Learnset: '[[SRD-Seaking-Learnset]]'
 Legendary: 'No'
 Name: Seaking
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-seaking.png|right]]
+![[SRD-seaking-BookSprite.png|right wsmall]]
 
 *Goldfish Pokemon*
 *In the autumn, Seaking males can be seen doing courtship dances to females. After getting a mate both will be seen swimming powerfully up rivers and creeks to make their nest.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Water Veil|Water Veil]] ([[SRD-Lightning Rod|Lightning Rod]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-seaking.png|right]]
+![[SRD-seaking-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-seaking-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Wandering Spirit
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME867.png
-BookShinyImageName: HOME867_s.png
-BoxSprite: SRD-BoxSprite-runerigus.png
+BookSprite: SRD-runerigus-BookSprite.png
+BoxSprite: SRD-runerigus-BoxSprite.png
 DexCategory: Grudge Pokemon
 DexDescription: "A powerful curse was woven into an ancient rune painting, the spirit\
   \ of Yamask is absorbed by this curse and it evolves into a Runerigs. Do not touch\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-runerigus.png
+HomeSprite: SRD-runerigus-HomeSprite.png
 Learnset: '[[SRD-Runerigus-Learnset]]'
 Legendary: 'No'
 Name: Runerigus
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-runerigus.png|right]]
+![[SRD-runerigus-BookSprite.png|right wsmall]]
 
 *Grudge Pokemon*
 *A powerful curse was woven into an ancient rune painting, the spirit of Yamask is absorbed by this curse and it evolves into a Runerigs. Do not touch the shadow parts of its body or you’ll see terrible visions of the past.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Wandering Spirit|Wandering Spirit]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-runerigus.png|right]]
+![[SRD-runerigus-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::4)/(MaxVitality::8)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-runerigus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

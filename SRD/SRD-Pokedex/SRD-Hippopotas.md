@@ -2,9 +2,8 @@
 Ability1: Sand Stream
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME449.png
-BookShinyImageName: HOME449_s.png
-BoxSprite: SRD-BoxSprite-hippopotas.png
+BookSprite: SRD-hippopotas-BookSprite.png
+BoxSprite: SRD-hippopotas-BoxSprite.png
 DexCategory: Hippo Pokemon
 DexDescription: It lives in arid places where it joins small groups. It closes its
   nostrils and submerges under the sand to rest. Females have a different coloration,
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Sand Force
-HomeSprite: SRD-HomeSprite-hippopotas.png
+HomeSprite: SRD-hippopotas-HomeSprite.png
 Learnset: '[[SRD-Hippopotas-Learnset]]'
 Legendary: 'No'
 Name: Hippopotas
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-hippopotas.png|right]]
+![[SRD-hippopotas-BookSprite.png|right wsmall]]
 
 *Hippo Pokemon*
 *It lives in arid places where it joins small groups. It closes its nostrils and submerges under the sand to rest. Females have a different coloration, usually a darker and duller color.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Stream|Sand Stream]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-hippopotas.png|right]]
+![[SRD-hippopotas-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-hippopotas-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Forewarn
 Ability2: Synchronize
 Baby: 'No'
-BookImageName: HOME517.png
-BookShinyImageName: HOME517_s.png
-BoxSprite: SRD-BoxSprite-munna.png
+BookSprite: SRD-munna-BookSprite.png
+BoxSprite: SRD-munna-BoxSprite.png
 DexCategory: Dream Eater Pokemon
 DexDescription: It lurks close to towns and eats the dreams of people and Pokemon.
   When it eats a pleasant dream, it expels pink-colored mist. If you forgot what you
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-munna.png
+HomeSprite: SRD-munna-HomeSprite.png
 Learnset: '[[SRD-Munna-Learnset]]'
 Legendary: 'No'
 Name: Munna
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-munna.png|right]]
+![[SRD-munna-BookSprite.png|right wsmall]]
 
 *Dream Eater Pokemon*
 *It lurks close to towns and eats the dreams of people and Pokemon. When it eats a pleasant dream, it expels pink-colored mist. If you forgot what you dreamed, a Munna must have eaten your dream.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Forewarn|Forewarn]] / [[SRD-Synchronize|Synchronize]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-munna.png|right]]
+![[SRD-munna-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-munna-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

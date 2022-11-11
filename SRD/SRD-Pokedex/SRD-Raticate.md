@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Guts
 Baby: 'No'
-BookImageName: HOME020.png
-BookShinyImageName: HOME020_s.png
-BoxSprite: SRD-BoxSprite-raticate.png
+BookSprite: SRD-raticate-BookSprite.png
+BoxSprite: SRD-raticate-BoxSprite.png
 DexCategory: Mouse Pokemon
 DexDescription: Raticate's sturdy fangs grow quickly. To keep them ground down, it
   gnaws on hard materials. It may even chew on the walls of houses. Its has water-proof
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Hustle
-HomeSprite: SRD-HomeSprite-raticate.png
+HomeSprite: SRD-raticate-HomeSprite.png
 Learnset: '[[SRD-Raticate-Learnset]]'
 Legendary: 'No'
 Name: Raticate
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-raticate.png|right]]
+![[SRD-raticate-BookSprite.png|right wsmall]]
 
 *Mouse Pokemon*
 *Raticate's sturdy fangs grow quickly. To keep them ground down, it gnaws on hard materials. It may even chew on the walls of houses. Its has water-proof fur, webbed feet and its a capable swimmer.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Guts|Guts]] ([[SRD-Hustle|Hustle]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-raticate.png|right]]
+![[SRD-raticate-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-raticate-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

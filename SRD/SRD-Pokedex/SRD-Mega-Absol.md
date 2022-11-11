@@ -2,9 +2,8 @@
 Ability1: Magic Bounce
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME359M.png
-BookShinyImageName: HOME359M_s.png
-BoxSprite: SRD-BoxSprite-absol-mega.png
+BookSprite: SRD-absol-mega-BookSprite.png
+BoxSprite: SRD-absol-mega-BoxSprite.png
 DexCategory: Disaster Pokemon
 DexDescription: The power of the Mega Stone makes its fur elongate. What you see are
   not wings, just puffs of hair. It gets distressed by this form and dislikes going
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-absol-mega.png
+HomeSprite: SRD-absol-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Absol-Learnset]]'
 Legendary: 'No'
 Name: Mega-Absol
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-absol-mega.png|right]]
+![[SRD-absol-mega-BookSprite.png|right wsmall]]
 
 *Disaster Pokemon*
 *The power of the Mega Stone makes its fur elongate. What you see are not wings, just puffs of hair. It gets distressed by this form and dislikes going into fights, so it uses its intimidating aura to fend off foes.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Magic Bounce|Magic Bounce]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-absol-mega.png|right]]
+![[SRD-absol-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-absol-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

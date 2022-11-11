@@ -2,9 +2,8 @@
 Ability1: Mummy
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME562.png
-BookShinyImageName: HOME562_s.png
-BoxSprite: SRD-BoxSprite-yamask.png
+BookSprite: SRD-yamask-BookSprite.png
+BoxSprite: SRD-yamask-BoxSprite.png
 DexCategory: Spirit Pokemon
 DexDescription: This Pokemon arose from the spirit of a human or a Pokemon that died
   in the past and was buried with special ceremonies. Each one carries a mask that
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-yamask.png
+HomeSprite: SRD-yamask-HomeSprite.png
 Learnset: '[[SRD-Yamask-Learnset]]'
 Legendary: 'No'
 Name: Yamask
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-yamask.png|right]]
+![[SRD-yamask-BookSprite.png|right wsmall]]
 
 *Spirit Pokemon*
 *This Pokemon arose from the spirit of a human or a Pokemon that died in the past and was buried with special ceremonies. Each one carries a mask that looks like the face it had in life. A sad Pokemon that weeps often.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Mummy|Mummy]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-yamask.png|right]]
+![[SRD-yamask-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-yamask-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

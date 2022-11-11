@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME005.png
-BookShinyImageName: HOME005_s.png
-BoxSprite: SRD-BoxSprite-charmeleon.png
+BookSprite: SRD-charmeleon-BookSprite.png
+BoxSprite: SRD-charmeleon-BoxSprite.png
 DexCategory: Flame Pokemon
 DexDescription: "It turns aggressive after evolving, it is very hot-headed by nature,\
   \ so it constantly starts fights. When it\u2019s excited, the flame at the tip of\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Solar Power
-HomeSprite: SRD-HomeSprite-charmeleon.png
+HomeSprite: SRD-charmeleon-HomeSprite.png
 Learnset: '[[SRD-Charmeleon-Learnset]]'
 Legendary: 'No'
 Name: Charmeleon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-charmeleon.png|right]]
+![[SRD-charmeleon-BookSprite.png|right wsmall]]
 
 *Flame Pokemon*
 *It turns aggressive after evolving, it is very hot-headed by nature, so it constantly starts fights. When it’s excited, the flame at the tip of its tail flares with a bluish white color.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Solar Power|Solar Power]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-charmeleon.png|right]]
+![[SRD-charmeleon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-charmeleon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

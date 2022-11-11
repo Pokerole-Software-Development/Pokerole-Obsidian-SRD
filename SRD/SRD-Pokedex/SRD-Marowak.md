@@ -2,9 +2,8 @@
 Ability1: Rock Head
 Ability2: Lightning Rod
 Baby: 'No'
-BookImageName: HOME105.png
-BookShinyImageName: HOME105_s.png
-BoxSprite: SRD-BoxSprite-marowak.png
+BookSprite: SRD-marowak-BookSprite.png
+BoxSprite: SRD-marowak-BoxSprite.png
 DexCategory: Bone Keeper Pokemon
 DexDescription: Its rough past has hardened its heart. Now tenacious and violent,
   this Pokemon will use its Bone club as a weapon against foes. Marowak's den is usually
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Battle Armor
-HomeSprite: SRD-HomeSprite-marowak.png
+HomeSprite: SRD-marowak-HomeSprite.png
 Learnset: '[[SRD-Marowak-Learnset]]'
 Legendary: 'No'
 Name: Marowak
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-marowak.png|right]]
+![[SRD-marowak-BookSprite.png|right wsmall]]
 
 *Bone Keeper Pokemon*
 *Its rough past has hardened its heart. Now tenacious and violent, this Pokemon will use its Bone club as a weapon against foes. Marowak's den is usually full of the bones it has collected.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rock Head|Rock Head]] / [[SRD-Lightning Rod|Lightning Rod]] ([[SRD-Battle Armor|Battle Armor]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-marowak.png|right]]
+![[SRD-marowak-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-marowak-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

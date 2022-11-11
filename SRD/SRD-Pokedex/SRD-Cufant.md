@@ -2,9 +2,8 @@
 Ability1: Sheer Force
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME878.png
-BookShinyImageName: HOME878_s.png
-BoxSprite: SRD-BoxSprite-cufant.png
+BookSprite: SRD-cufant-BookSprite.png
+BoxSprite: SRD-cufant-BoxSprite.png
 DexCategory: Copperderm Pokemon
 DexDescription: If a job requires serious strength, this Pokemon will excel at it.
   Its copper body tarnishes in the rain, turning a vibrant green color. Its trunk
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Heavy Metal
-HomeSprite: SRD-HomeSprite-cufant.png
+HomeSprite: SRD-cufant-HomeSprite.png
 Learnset: '[[SRD-Cufant-Learnset]]'
 Legendary: 'No'
 Name: Cufant
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cufant.png|right]]
+![[SRD-cufant-BookSprite.png|right wsmall]]
 
 *Copperderm Pokemon*
 *If a job requires serious strength, this Pokemon will excel at it. Its copper body tarnishes in the rain, turning a vibrant green color. Its trunk is specially designed to dig the ground, in the wild they uproot trees to eat.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sheer Force|Sheer Force]] ([[SRD-Heavy Metal|Heavy Metal]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-cufant.png|right]]
+![[SRD-cufant-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-cufant-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

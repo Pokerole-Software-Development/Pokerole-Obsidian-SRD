@@ -2,9 +2,8 @@
 Ability1: Shields Down
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME774R.png
-BookShinyImageName: HOME774_s.png
-BoxSprite: SRD-BoxSprite-minior-green.png
+BookSprite: SRD-minior-green-BookSprite.png
+BoxSprite: SRD-minior-green-BoxSprite.png
 DexCategory: Meteor Pokemon
 DexDescription: Without its shell Minior can move faster. They have playful and colorful
   personalities. If a Minior wants to regrow their shell they must go to the stratosphere
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-minior-green.png
+HomeSprite: SRD-minior-green-HomeSprite.png
 Learnset: '[[SRD-Minior Core-Learnset]]'
 Legendary: 'No'
 Name: Minior Core
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-minior-green.png|right]]
+![[SRD-minior-green-BookSprite.png|right wsmall]]
 
 *Meteor Pokemon*
 *Without its shell Minior can move faster. They have playful and colorful personalities. If a Minior wants to regrow their shell they must go to the stratosphere for a few days. Some of them never return, though.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shields Down|Shields Down]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-minior-green.png|right]]
+![[SRD-minior-green-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-minior-green-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

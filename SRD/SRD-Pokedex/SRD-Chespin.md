@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME650.png
-BookShinyImageName: HOME650_s.png
-BoxSprite: SRD-BoxSprite-chespin.png
+BookSprite: SRD-chespin-BookSprite.png
+BoxSprite: SRD-chespin-BoxSprite.png
 DexCategory: Spiky Nut Pokemon
 DexDescription: "A small and curious Pokemon. They are rare to find but their nests\
   \ have been found on chestnut trees. Their heads are covered by spikes and if there\u2019\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Bulletproof
-HomeSprite: SRD-HomeSprite-chespin.png
+HomeSprite: SRD-chespin-HomeSprite.png
 Learnset: '[[SRD-Chespin-Learnset]]'
 Legendary: 'No'
 Name: Chespin
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-chespin.png|right]]
+![[SRD-chespin-BookSprite.png|right wsmall]]
 
 *Spiky Nut Pokemon*
 *A small and curious Pokemon. They are rare to find but their nests have been found on chestnut trees. Their heads are covered by spikes and if there’s a threat they roll into balls to protect themselves.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Bulletproof|Bulletproof]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-chespin.png|right]]
+![[SRD-chespin-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-chespin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

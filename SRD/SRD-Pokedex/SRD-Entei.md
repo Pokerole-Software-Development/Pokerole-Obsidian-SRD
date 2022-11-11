@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME244.png
-BookShinyImageName: HOME244_s.png
-BoxSprite: SRD-BoxSprite-entei.png
+BookSprite: SRD-entei-BookSprite.png
+BoxSprite: SRD-entei-BoxSprite.png
 DexCategory: No Data
 DexDescription: Johto Legends tell about a Pokemon so powerful, its bark makes volcanoes
   erupt, traveling the lands cloaked in a cloud of volcanic smoke.
@@ -16,7 +15,7 @@ Height:
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: Inner Focus
-HomeSprite: SRD-HomeSprite-entei.png
+HomeSprite: SRD-entei-HomeSprite.png
 Learnset: '[[SRD-Entei-Learnset]]'
 Legendary: 'Yes'
 Name: Entei
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-entei.png|right]]
+![[SRD-entei-BookSprite.png|right wsmall]]
 
 *No Data*
 *Johto Legends tell about a Pokemon so powerful, its bark makes volcanoes erupt, traveling the lands cloaked in a cloud of volcanic smoke.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-entei.png|right]]
+![[SRD-entei-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-entei-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: Compound Eyes
 Baby: 'No'
-BookImageName: HOME824.png
-BookShinyImageName: HOME824_s.png
-BoxSprite: SRD-BoxSprite-blipbug.png
+BookSprite: SRD-blipbug-BookSprite.png
+BoxSprite: SRD-blipbug-BoxSprite.png
 DexCategory: Larva Pokemon
 DexDescription: Often found in gardens, Blipbug has hairs on its body that it uses
   to assess its surroundings. They are very smart and easy to teach but they are not
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-blipbug.png
+HomeSprite: SRD-blipbug-HomeSprite.png
 Learnset: '[[SRD-Blipbug-Learnset]]'
 Legendary: 'No'
 Name: Blipbug
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-blipbug.png|right]]
+![[SRD-blipbug-BookSprite.png|right wsmall]]
 
 *Larva Pokemon*
 *Often found in gardens, Blipbug has hairs on its body that it uses to assess its surroundings. They are very smart and easy to teach but they are not very strong and other Pokemon bully them often.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Compound Eyes|Compound Eyes]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-blipbug.png|right]]
+![[SRD-blipbug-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-blipbug-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

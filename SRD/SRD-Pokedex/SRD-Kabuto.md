@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Battle Armor
 Baby: 'No'
-BookImageName: HOME140.png
-BookShinyImageName: HOME140_s.png
-BoxSprite: SRD-BoxSprite-kabuto.png
+BookSprite: SRD-kabuto-BookSprite.png
+BoxSprite: SRD-kabuto-BoxSprite.png
 DexCategory: Shellfish Pokemon
 DexDescription: Kabuto is a Pokemon that has been regenerated from a fossil. However,
   in extremely rare cases, living specimens have been found. The Pokemon has not changed
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Weak Armor
-HomeSprite: SRD-HomeSprite-kabuto.png
+HomeSprite: SRD-kabuto-HomeSprite.png
 Learnset: '[[SRD-Kabuto-Learnset]]'
 Legendary: 'No'
 Name: Kabuto
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-kabuto.png|right]]
+![[SRD-kabuto-BookSprite.png|right wsmall]]
 
 *Shellfish Pokemon*
 *Kabuto is a Pokemon that has been regenerated from a fossil. However, in extremely rare cases, living specimens have been found. The Pokemon has not changed at all for 300 million years.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Battle Armor|Battle Armor]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-kabuto.png|right]]
+![[SRD-kabuto-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-kabuto-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

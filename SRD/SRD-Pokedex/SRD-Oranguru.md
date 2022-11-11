@@ -2,9 +2,8 @@
 Ability1: Inner Focus
 Ability2: Telepathy
 Baby: 'No'
-BookImageName: HOME765.png
-BookShinyImageName: HOME765_s.png
-BoxSprite: SRD-BoxSprite-oranguru.png
+BookSprite: SRD-oranguru-BookSprite.png
+BoxSprite: SRD-oranguru-BoxSprite.png
 DexCategory: Sage Pokemon
 DexDescription: These solitary Pokemon live deep in the forests where it provides
   food and herbal medicine to those in need. It is incredibly smart even learning
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Symbiosis
-HomeSprite: SRD-HomeSprite-oranguru.png
+HomeSprite: SRD-oranguru-HomeSprite.png
 Learnset: '[[SRD-Oranguru-Learnset]]'
 Legendary: 'No'
 Name: Oranguru
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-oranguru.png|right]]
+![[SRD-oranguru-BookSprite.png|right wsmall]]
 
 *Sage Pokemon*
 *These solitary Pokemon live deep in the forests where it provides food and herbal medicine to those in need. It is incredibly smart even learning how to use pokeballs, for that reason it dislikes being ordered around.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] / [[SRD-Telepathy|Telepathy]] ([[SRD-Symbiosis|Symbiosis]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-oranguru.png|right]]
+![[SRD-oranguru-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-oranguru-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

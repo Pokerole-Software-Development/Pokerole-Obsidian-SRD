@@ -2,9 +2,8 @@
 Ability1: Drought
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME006MY.png
-BookShinyImageName: HOME006MY_s.png
-BoxSprite: SRD-BoxSprite-charizard-mega-y.png
+BookSprite: SRD-charizard-mega-y-BookSprite.png
+BoxSprite: SRD-charizard-mega-y-BoxSprite.png
 DexCategory: Flame Pokemon
 DexDescription: With the power of the Mega Stone It becomes bold and confident. Its
   flying skills get better and t boasts speed and maneuverability. When it flies you
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-charizard-mega-y.png
+HomeSprite: SRD-charizard-mega-y-HomeSprite.png
 Learnset: '[[SRD-Mega-Charizard Y-Learnset]]'
 Legendary: 'No'
 Name: Mega-Charizard Y
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-charizard-mega-y.png|right]]
+![[SRD-charizard-mega-y-BookSprite.png|right wsmall]]
 
 *Flame Pokemon*
 *With the power of the Mega Stone It becomes bold and confident. Its flying skills get better and t boasts speed and maneuverability. When it flies you cannot see it directly as its flames burn as bright as the sun.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Drought|Drought]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-charizard-mega-y.png|right]]
+![[SRD-charizard-mega-y-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-charizard-mega-y-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

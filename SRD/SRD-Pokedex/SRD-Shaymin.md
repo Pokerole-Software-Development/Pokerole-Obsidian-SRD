@@ -2,9 +2,8 @@
 Ability1: Natural Cure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME492.png
-BookShinyImageName: HOME492_s.png
-BoxSprite: SRD-BoxSprite-shaymin.png
+BookSprite: SRD-shaymin-BookSprite.png
+BoxSprite: SRD-shaymin-BoxSprite.png
 DexCategory: No Data
 DexDescription: "There are old traces of gigantic trees that once grew all over the\
   \ earth. They were called the \u201CTrees of Life\u201D and their flowers granted\
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-shaymin.png
+HomeSprite: SRD-shaymin-HomeSprite.png
 Learnset: '[[SRD-Shaymin-Learnset]]'
 Legendary: 'Yes'
 Name: Shaymin
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-shaymin.png|right]]
+![[SRD-shaymin-BookSprite.png|right wsmall]]
 
 *No Data*
 *There are old traces of gigantic trees that once grew all over the earth. They were called the “Trees of Life” and their flowers granted the power of flight to the kindhearted, or so the legend says.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-shaymin.png|right]]
+![[SRD-shaymin-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-shaymin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Guts
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME277.png
-BookShinyImageName: HOME277_s.png
-BoxSprite: SRD-BoxSprite-swellow.png
+BookSprite: SRD-swellow-BookSprite.png
+BoxSprite: SRD-swellow-BoxSprite.png
 DexCategory: Swallow Pokemon
 DexDescription: "They are vain Pokemon, acting with grace and elegance. Swellows are\
   \ seen circling the skies looking for prey. They can be incredibly fast. If two\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Scrappy
-HomeSprite: SRD-HomeSprite-swellow.png
+HomeSprite: SRD-swellow-HomeSprite.png
 Learnset: '[[SRD-Swellow-Learnset]]'
 Legendary: 'No'
 Name: Swellow
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-swellow.png|right]]
+![[SRD-swellow-BookSprite.png|right wsmall]]
 
 *Swallow Pokemon*
 *They are vain Pokemon, acting with grace and elegance. Swellows are seen circling the skies looking for prey. They can be incredibly fast. If two Swellows meet, they will clean each other’s wings as a sign of peace.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Guts|Guts]] ([[SRD-Scrappy|Scrappy]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-swellow.png|right]]
+![[SRD-swellow-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-swellow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

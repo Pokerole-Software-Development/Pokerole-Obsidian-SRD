@@ -2,9 +2,8 @@
 Ability1: Damp
 Ability2: Water Absorb
 Baby: 'No'
-BookImageName: HOME195.png
-BookShinyImageName: HOME195_s.png
-BoxSprite: SRD-BoxSprite-quagsire.png
+BookSprite: SRD-quagsire-BookSprite.png
+BoxSprite: SRD-quagsire-BoxSprite.png
 DexCategory: Water Fish Pokemon
 DexDescription: "You\u2019ll find its home at the bottom of the river. It hunts by\
   \ leaving its mouth wide open in water and waiting for its prey to get in. Because\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Unaware
-HomeSprite: SRD-HomeSprite-quagsire.png
+HomeSprite: SRD-quagsire-HomeSprite.png
 Learnset: '[[SRD-Quagsire-Learnset]]'
 Legendary: 'No'
 Name: Quagsire
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-quagsire.png|right]]
+![[SRD-quagsire-BookSprite.png|right wsmall]]
 
 *Water Fish Pokemon*
 *You’ll find its home at the bottom of the river. It hunts by leaving its mouth wide open in water and waiting for its prey to get in. Because it doesn’t move a lot, it does not get very hungry.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Damp|Damp]] / [[SRD-Water Absorb|Water Absorb]] ([[SRD-Unaware|Unaware]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-quagsire.png|right]]
+![[SRD-quagsire-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-quagsire-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME160.png
-BookShinyImageName: HOME160_s.png
-BoxSprite: SRD-BoxSprite-feraligatr.png
+BookSprite: SRD-feraligatr-BookSprite.png
+BoxSprite: SRD-feraligatr-BoxSprite.png
 DexCategory: Big Jaw Pokemon
 DexDescription: While in the water, it opens its big jaw to intimidate anyone coming
   close. Whenever it bites, it shakes its head and savagely rolls to tear up its prey.
@@ -17,7 +16,7 @@ Height:
   Feet: 7.5
   Meters: 2.3
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-feraligatr.png
+HomeSprite: SRD-feraligatr-HomeSprite.png
 Learnset: '[[SRD-Feraligatr-Learnset]]'
 Legendary: 'No'
 Name: Feraligatr
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-feraligatr.png|right]]
+![[SRD-feraligatr-BookSprite.png|right wsmall]]
 
 *Big Jaw Pokemon*
 *While in the water, it opens its big jaw to intimidate anyone coming close. Whenever it bites, it shakes its head and savagely rolls to tear up its prey. It is a very dangerous Pokemon. Approach with caution*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-feraligatr.png|right]]
+![[SRD-feraligatr-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-feraligatr-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

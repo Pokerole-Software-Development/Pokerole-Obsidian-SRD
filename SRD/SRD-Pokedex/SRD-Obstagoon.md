@@ -2,9 +2,8 @@
 Ability1: Prankster
 Ability2: Frisk
 Baby: 'No'
-BookImageName: HOME862.png
-BookShinyImageName: HOME862_s.png
-BoxSprite: SRD-BoxSprite-obstagoon.png
+BookSprite: SRD-obstagoon-BookSprite.png
+BoxSprite: SRD-obstagoon-BoxSprite.png
 DexCategory: Blocking Pokemon
 DexDescription: Its voice has a very loud volume and it is a noisy and rude Pokemon.
   Obstagoon has a tendency to take on a threatening posture and shout at anyone that
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Pickpocket
-HomeSprite: SRD-HomeSprite-obstagoon.png
+HomeSprite: SRD-obstagoon-HomeSprite.png
 Learnset: '[[SRD-Obstagoon-Learnset]]'
 Legendary: 'No'
 Name: Obstagoon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-obstagoon.png|right]]
+![[SRD-obstagoon-BookSprite.png|right wsmall]]
 
 *Blocking Pokemon*
 *Its voice has a very loud volume and it is a noisy and rude Pokemon. Obstagoon has a tendency to take on a threatening posture and shout at anyone that is in front of it. They rarely take things seriously.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Prankster|Prankster]] / [[SRD-Frisk|Frisk]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-obstagoon.png|right]]
+![[SRD-obstagoon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-obstagoon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

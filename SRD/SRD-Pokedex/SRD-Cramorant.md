@@ -2,9 +2,8 @@
 Ability1: Gulp Missile
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME845.png
-BookShinyImageName: HOME845_s.png
-BoxSprite: SRD-BoxSprite-cramorant.png
+BookSprite: SRD-cramorant-BookSprite.png
+BoxSprite: SRD-cramorant-BoxSprite.png
 DexCategory: Gulp Pokemon
 DexDescription: Cramorant hunt for fish Pokemon to eat near seashores and lakes. They
   often try to engulf prey that is too large and it ends up blocking their gullets.
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-cramorant.png
+HomeSprite: SRD-cramorant-HomeSprite.png
 Learnset: '[[SRD-Cramorant-Learnset]]'
 Legendary: 'No'
 Name: Cramorant
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cramorant.png|right]]
+![[SRD-cramorant-BookSprite.png|right wsmall]]
 
 *Gulp Pokemon*
 *Cramorant hunt for fish Pokemon to eat near seashores and lakes. They often try to engulf prey that is too large and it ends up blocking their gullets. They are airheaded and often forget what they were doing.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Gulp Missile|Gulp Missile]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-cramorant.png|right]]
+![[SRD-cramorant-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-cramorant-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

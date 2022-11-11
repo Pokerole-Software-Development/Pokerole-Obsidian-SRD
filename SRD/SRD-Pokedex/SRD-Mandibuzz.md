@@ -2,9 +2,8 @@
 Ability1: Big Pecks
 Ability2: Overcoat
 Baby: 'No'
-BookImageName: HOME630.png
-BookShinyImageName: HOME630_s.png
-BoxSprite: SRD-BoxSprite-mandibuzz.png
+BookSprite: SRD-mandibuzz-BookSprite.png
+BoxSprite: SRD-mandibuzz-BoxSprite.png
 DexCategory: Bone Vulture Pokemon
 DexDescription: They fly in circles around the sky when they spot prey. They carry
   the carcass back to their nest with ease. They like to look beautiful and create
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Weak Armor
-HomeSprite: SRD-HomeSprite-mandibuzz.png
+HomeSprite: SRD-mandibuzz-HomeSprite.png
 Learnset: '[[SRD-Mandibuzz-Learnset]]'
 Legendary: 'No'
 Name: Mandibuzz
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mandibuzz.png|right]]
+![[SRD-mandibuzz-BookSprite.png|right wsmall]]
 
 *Bone Vulture Pokemon*
 *They fly in circles around the sky when they spot prey. They carry the carcass back to their nest with ease. They like to look beautiful and create ornaments and jewelry using bone pieces.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Big Pecks|Big Pecks]] / [[SRD-Overcoat|Overcoat]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-mandibuzz.png|right]]
+![[SRD-mandibuzz-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-mandibuzz-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

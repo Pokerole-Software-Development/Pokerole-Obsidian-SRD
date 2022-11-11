@@ -2,9 +2,8 @@
 Ability1: Sturdy
 Ability2: Rock Head
 Baby: 'No'
-BookImageName: HOME304.png
-BookShinyImageName: HOME304_s.png
-BoxSprite: SRD-BoxSprite-aron.png
+BookSprite: SRD-aron-BookSprite.png
+BoxSprite: SRD-aron-BoxSprite.png
 DexCategory: Iron Armor Pokemon
 DexDescription: They can be seen feeding on iron ore in the mountains or causing trouble
   by eating rails, bridges and vehicles. When they evolve, Arons shed their steel
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Heavy Metal
-HomeSprite: SRD-HomeSprite-aron.png
+HomeSprite: SRD-aron-HomeSprite.png
 Learnset: '[[SRD-Aron-Learnset]]'
 Legendary: 'No'
 Name: Aron
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-aron.png|right]]
+![[SRD-aron-BookSprite.png|right wsmall]]
 
 *Iron Armor Pokemon*
 *They can be seen feeding on iron ore in the mountains or causing trouble by eating rails, bridges and vehicles. When they evolve, Arons shed their steel armors and develop a stronger one.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Rock Head|Rock Head]] ([[SRD-Heavy Metal|Heavy Metal]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-aron.png|right]]
+![[SRD-aron-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-aron-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

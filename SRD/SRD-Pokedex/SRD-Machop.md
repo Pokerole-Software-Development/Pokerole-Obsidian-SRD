@@ -2,9 +2,8 @@
 Ability1: Guts
 Ability2: No Guard
 Baby: 'No'
-BookImageName: HOME066.png
-BookShinyImageName: HOME066_s.png
-BoxSprite: SRD-BoxSprite-machop.png
+BookSprite: SRD-machop-BookSprite.png
+BoxSprite: SRD-machop-BoxSprite.png
 DexCategory: Superpower Pokemon
 DexDescription: It lives in mountains, training its fists against strong rocks , lifting
   boulders and hurling Rock Pokemon around to build stronger muscles. Even with its
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Steadfast
-HomeSprite: SRD-HomeSprite-machop.png
+HomeSprite: SRD-machop-HomeSprite.png
 Learnset: '[[SRD-Machop-Learnset]]'
 Legendary: 'No'
 Name: Machop
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-machop.png|right]]
+![[SRD-machop-BookSprite.png|right wsmall]]
 
 *Superpower Pokemon*
 *It lives in mountains, training its fists against strong rocks , lifting boulders and hurling Rock Pokemon around to build stronger muscles. Even with its small size, it can compete against expert humans and win.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Guts|Guts]] / [[SRD-No Guard|No Guard]] ([[SRD-Steadfast|Steadfast]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-machop.png|right]]
+![[SRD-machop-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-machop-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

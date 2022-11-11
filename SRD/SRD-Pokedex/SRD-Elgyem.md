@@ -2,9 +2,8 @@
 Ability1: Telepathy
 Ability2: Synchronize
 Baby: 'No'
-BookImageName: HOME605.png
-BookShinyImageName: HOME605_s.png
-BoxSprite: SRD-BoxSprite-elgyem.png
+BookSprite: SRD-elgyem-BookSprite.png
+BoxSprite: SRD-elgyem-BoxSprite.png
 DexCategory: Cerebral Pokemon
 DexDescription: "This Pokemon was never seen until it appeared far in the desert about\
   \ 50 years ago. Rumor has it that it came from space. It uses its strong psychic\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Analytic
-HomeSprite: SRD-HomeSprite-elgyem.png
+HomeSprite: SRD-elgyem-HomeSprite.png
 Learnset: '[[SRD-Elgyem-Learnset]]'
 Legendary: 'No'
 Name: Elgyem
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-elgyem.png|right]]
+![[SRD-elgyem-BookSprite.png|right wsmall]]
 
 *Cerebral Pokemon*
 *This Pokemon was never seen until it appeared far in the desert about 50 years ago. Rumor has it that it came from space. It uses its strong psychic power to squeeze its foe’s brain, causing awful headaches.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Telepathy|Telepathy]] / [[SRD-Synchronize|Synchronize]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-elgyem.png|right]]
+![[SRD-elgyem-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-elgyem-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

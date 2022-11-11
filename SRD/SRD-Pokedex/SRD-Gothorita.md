@@ -2,9 +2,8 @@
 Ability1: Frisk
 Ability2: Competitive
 Baby: 'No'
-BookImageName: HOME575.png
-BookShinyImageName: HOME575_s.png
-BoxSprite: SRD-BoxSprite-gothorita.png
+BookSprite: SRD-gothorita-BookSprite.png
+BoxSprite: SRD-gothorita-BoxSprite.png
 DexCategory: Manipulate Pokemon
 DexDescription: Starlight is the source of their power. At night, they mark star positions
   by using floating stones. According to many old tales, it creates friends for itself
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Shadow Tag
-HomeSprite: SRD-HomeSprite-gothorita.png
+HomeSprite: SRD-gothorita-HomeSprite.png
 Learnset: '[[SRD-Gothorita-Learnset]]'
 Legendary: 'No'
 Name: Gothorita
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gothorita.png|right]]
+![[SRD-gothorita-BookSprite.png|right wsmall]]
 
 *Manipulate Pokemon*
 *Starlight is the source of their power. At night, they mark star positions by using floating stones. According to many old tales, it creates friends for itself by controlling sleeping children on starry nights.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Frisk|Frisk]] / [[SRD-Competitive|Competitive]] ([[SRD-Shadow Tag|Shadow Tag]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-gothorita.png|right]]
+![[SRD-gothorita-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-gothorita-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

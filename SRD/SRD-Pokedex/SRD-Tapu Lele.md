@@ -2,9 +2,8 @@
 Ability1: Psychic Surge
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME786.png
-BookShinyImageName: HOME786_s.png
-BoxSprite: SRD-BoxSprite-tapu-lele.png
+BookSprite: SRD-tapu-lele-BookSprite.png
+BoxSprite: SRD-tapu-lele-BoxSprite.png
 DexCategory: No Data
 DexDescription: It is said that an innocent but cruel spirit guards Akala island.
   When the spirit is feeling benevolent it scatters some of its scales around, these
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-tapu-lele.png
+HomeSprite: SRD-tapu-lele-HomeSprite.png
 Learnset: '[[SRD-Tapu Lele-Learnset]]'
 Legendary: 'Yes'
 Name: Tapu Lele
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tapu-lele.png|right]]
+![[SRD-tapu-lele-BookSprite.png|right wsmall]]
 
 *No Data*
 *It is said that an innocent but cruel spirit guards Akala island. When the spirit is feeling benevolent it scatters some of its scales around, these scales have healing powers.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Psychic Surge|Psychic Surge]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-tapu-lele.png|right]]
+![[SRD-tapu-lele-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-tapu-lele-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

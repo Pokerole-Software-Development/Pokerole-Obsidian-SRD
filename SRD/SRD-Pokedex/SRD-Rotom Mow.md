@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME479L.png
-BookShinyImageName: HOME479L_s.png
-BoxSprite: SRD-BoxSprite-rotom-mow.png
+BookSprite: SRD-rotom-mow-BookSprite.png
+BoxSprite: SRD-rotom-mow-BoxSprite.png
 DexCategory: Plasma Pokemon
 DexDescription: 'A Lawnmower possessed by a Rotom. It uses Grass powers, mows awful
   patterns on the grass and chases people with the blades out. While on this form
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-rotom-mow.png
+HomeSprite: SRD-rotom-mow-HomeSprite.png
 Learnset: '[[SRD-Rotom Mow-Learnset]]'
 Legendary: 'No'
 Name: Rotom Mow
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rotom-mow.png|right]]
+![[SRD-rotom-mow-BookSprite.png|right wsmall]]
 
 *Plasma Pokemon*
 *A Lawnmower possessed by a Rotom. It uses Grass powers, mows awful patterns on the grass and chases people with the blades out. While on this form it can use the move: Leaf Storm.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-rotom-mow.png|right]]
+![[SRD-rotom-mow-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-rotom-mow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

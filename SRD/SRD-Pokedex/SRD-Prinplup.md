@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME394.png
-BookShinyImageName: HOME394_s.png
-BoxSprite: SRD-BoxSprite-prinplup.png
+BookSprite: SRD-prinplup-BookSprite.png
+BoxSprite: SRD-prinplup-BoxSprite.png
 DexCategory: Penguin Pokemon
 DexDescription: "Prinplups hunt in icy seas. They live solitary lives because they\
   \ cannot stand company and will never form a group or a team. They believe they\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Defiant
-HomeSprite: SRD-HomeSprite-prinplup.png
+HomeSprite: SRD-prinplup-HomeSprite.png
 Learnset: '[[SRD-Prinplup-Learnset]]'
 Legendary: 'No'
 Name: Prinplup
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-prinplup.png|right]]
+![[SRD-prinplup-BookSprite.png|right wsmall]]
 
 *Penguin Pokemon*
 *Prinplups hunt in icy seas. They live solitary lives because they cannot stand company and will never form a group or a team. They believe they are the most important thing in the world, it’s almost irritating.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-prinplup.png|right]]
+![[SRD-prinplup-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-prinplup-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

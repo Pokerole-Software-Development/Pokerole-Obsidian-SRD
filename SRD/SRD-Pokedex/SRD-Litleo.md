@@ -2,9 +2,8 @@
 Ability1: Rivalry
 Ability2: Unnerve
 Baby: 'No'
-BookImageName: HOME667.png
-BookShinyImageName: HOME667_s.png
-BoxSprite: SRD-BoxSprite-litleo.png
+BookSprite: SRD-litleo-BookSprite.png
+BoxSprite: SRD-litleo-BoxSprite.png
 DexCategory: Lion Cub Pokemon
 DexDescription: Quick on temper and to take on a fight. They use their mane to scorch
   their enemies. Some of them set off from their pride to live alone. Only those who
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Moxie
-HomeSprite: SRD-HomeSprite-litleo.png
+HomeSprite: SRD-litleo-HomeSprite.png
 Learnset: '[[SRD-Litleo-Learnset]]'
 Legendary: 'No'
 Name: Litleo
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-litleo.png|right]]
+![[SRD-litleo-BookSprite.png|right wsmall]]
 
 *Lion Cub Pokemon*
 *Quick on temper and to take on a fight. They use their mane to scorch their enemies. Some of them set off from their pride to live alone. Only those who develop a full mane get to lead their own pride.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rivalry|Rivalry]] / [[SRD-Unnerve|Unnerve]] ([[SRD-Moxie|Moxie]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-litleo.png|right]]
+![[SRD-litleo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-litleo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

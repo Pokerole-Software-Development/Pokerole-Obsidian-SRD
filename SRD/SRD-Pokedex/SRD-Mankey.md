@@ -2,9 +2,8 @@
 Ability1: Vital Spirit
 Ability2: Anger Point
 Baby: 'No'
-BookImageName: HOME056.png
-BookShinyImageName: HOME056_s.png
-BoxSprite: SRD-BoxSprite-mankey.png
+BookSprite: SRD-mankey-BookSprite.png
+BoxSprite: SRD-mankey-BoxSprite.png
 DexCategory: Pig Monkey Pokemon
 DexDescription: It lives on the mountains or at the top of fruit trees. Light and
   agile on its feet and ferocious in temperament. When it gets angry, it goes into
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Defiant
-HomeSprite: SRD-HomeSprite-mankey.png
+HomeSprite: SRD-mankey-HomeSprite.png
 Learnset: '[[SRD-Mankey-Learnset]]'
 Legendary: 'No'
 Name: Mankey
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mankey.png|right]]
+![[SRD-mankey-BookSprite.png|right wsmall]]
 
 *Pig Monkey Pokemon*
 *It lives on the mountains or at the top of fruit trees. Light and agile on its feet and ferocious in temperament. When it gets angry, it goes into a frenzy and cannot be controlled.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Vital Spirit|Vital Spirit]] / [[SRD-Anger Point|Anger Point]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-mankey.png|right]]
+![[SRD-mankey-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-mankey-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Gluttony
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME515.png
-BookShinyImageName: HOME515_s.png
-BoxSprite: SRD-BoxSprite-panpour.png
+BookSprite: SRD-panpour-BookSprite.png
+BoxSprite: SRD-panpour-BoxSprite.png
 DexCategory: Spray Pokemon
 DexDescription: It does not thrive in dry climates. It keeps itself damp by shooting
   the water stored in its head tuft. Its water is valued by gardeners and Grass Pokemon
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Torrent
-HomeSprite: SRD-HomeSprite-panpour.png
+HomeSprite: SRD-panpour-HomeSprite.png
 Learnset: '[[SRD-Panpour-Learnset]]'
 Legendary: 'No'
 Name: Panpour
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-panpour.png|right]]
+![[SRD-panpour-BookSprite.png|right wsmall]]
 
 *Spray Pokemon*
 *It does not thrive in dry climates. It keeps itself damp by shooting the water stored in its head tuft. Its water is valued by gardeners and Grass Pokemon breeders as it makes plants grow beautiful.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Gluttony|Gluttony]] ([[SRD-Torrent|Torrent]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-panpour.png|right]]
+![[SRD-panpour-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-panpour-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

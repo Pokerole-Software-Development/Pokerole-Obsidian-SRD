@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME156.png
-BookShinyImageName: HOME156_s.png
-BoxSprite: SRD-BoxSprite-quilava.png
+BookSprite: SRD-quilava-BookSprite.png
+BoxSprite: SRD-quilava-BoxSprite.png
 DexCategory: Volcano Pokemon
 DexDescription: It intimidates foes with intense gusts of flames and superheated air.
   Beware if a Quilava turns its back on you, it is planing on using a fire move.
@@ -16,7 +15,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Flash Fire
-HomeSprite: SRD-HomeSprite-quilava.png
+HomeSprite: SRD-quilava-HomeSprite.png
 Learnset: '[[SRD-Quilava-Learnset]]'
 Legendary: 'No'
 Name: Quilava
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-quilava.png|right]]
+![[SRD-quilava-BookSprite.png|right wsmall]]
 
 *Volcano Pokemon*
 *It intimidates foes with intense gusts of flames and superheated air. Beware if a Quilava turns its back on you, it is planing on using a fire move.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Flash Fire|Flash Fire]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-quilava.png|right]]
+![[SRD-quilava-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-quilava-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

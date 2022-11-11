@@ -2,9 +2,8 @@
 Ability1: Healer
 Ability2: Anticipation
 Baby: 'No'
-BookImageName: HOME858.png
-BookShinyImageName: HOME858_s.png
-BoxSprite: SRD-BoxSprite-hatterene.png
+BookSprite: SRD-hatterene-BookSprite.png
+BoxSprite: SRD-hatterene-BoxSprite.png
 DexCategory: Silent Pokemon
 DexDescription: "If you\u2019re too loud around it, you risk being torn apart by the\
   \ claws on its tentacle. This Pokemon is also known as the Forest Witch. It is very\
@@ -18,7 +17,7 @@ Height:
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: Magic Bounce
-HomeSprite: SRD-HomeSprite-hatterene.png
+HomeSprite: SRD-hatterene-HomeSprite.png
 Learnset: '[[SRD-Hatterene-Learnset]]'
 Legendary: 'No'
 Name: Hatterene
@@ -38,7 +37,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-hatterene.png|right]]
+![[SRD-hatterene-BookSprite.png|right wsmall]]
 
 *Silent Pokemon*
 *If you’re too loud around it, you risk being torn apart by the claws on its tentacle. This Pokemon is also known as the Forest Witch. It is very sensitive to the emotions of others if it senses doubt, fear or anger it will attack you.*
@@ -49,7 +48,7 @@ Weight:
 **Abilities**:: [[SRD-Healer|Healer]] / [[SRD-Anticipation|Anticipation]] ([[SRD-Magic Bounce|Magic Bounce]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-hatterene.png|right]]
+![[SRD-hatterene-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -58,6 +57,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-hatterene-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

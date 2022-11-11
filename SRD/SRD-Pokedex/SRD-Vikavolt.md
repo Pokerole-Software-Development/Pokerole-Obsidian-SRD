@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME738.png
-BookShinyImageName: HOME738_s.png
-BoxSprite: SRD-BoxSprite-vikavolt.png
+BookSprite: SRD-vikavolt-BookSprite.png
+BoxSprite: SRD-vikavolt-BoxSprite.png
 DexCategory: Stag Beetle Pokemon
 DexDescription: "The electricity it shoots through its jaws is very dangerous, it\
   \ zaps bird Pokemon trying to eat it. Its flight is peculiar, for it bends in a\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-vikavolt.png
+HomeSprite: SRD-vikavolt-HomeSprite.png
 Learnset: '[[SRD-Vikavolt-Learnset]]'
 Legendary: 'No'
 Name: Vikavolt
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-vikavolt.png|right]]
+![[SRD-vikavolt-BookSprite.png|right wsmall]]
 
 *Stag Beetle Pokemon*
 *The electricity it shoots through its jaws is very dangerous, it zaps bird Pokemon trying to eat it. Its flight is peculiar, for it bends in a 90° angle or flies backwards without a problem.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-vikavolt.png|right]]
+![[SRD-vikavolt-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-vikavolt-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Static
 Ability2: Lightning Rod
 Baby: 'No'
-BookImageName: HOME309.png
-BookShinyImageName: HOME309_s.png
-BoxSprite: SRD-BoxSprite-electrike.png
+BookSprite: SRD-electrike-BookSprite.png
+BoxSprite: SRD-electrike-BoxSprite.png
 DexCategory: Lightning Pokemon
 DexDescription: Their fur stores electricity, leaving a trail of sparks as they run.
   By stimulating their legs with voltage, Electrike's speed and power is greatly increased.
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Minus
-HomeSprite: SRD-HomeSprite-electrike.png
+HomeSprite: SRD-electrike-HomeSprite.png
 Learnset: '[[SRD-Electrike-Learnset]]'
 Legendary: 'No'
 Name: Electrike
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-electrike.png|right]]
+![[SRD-electrike-BookSprite.png|right wsmall]]
 
 *Lightning Pokemon*
 *Their fur stores electricity, leaving a trail of sparks as they run. By stimulating their legs with voltage, Electrike's speed and power is greatly increased. They are not very common, though.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Static|Static]] / [[SRD-Lightning Rod|Lightning Rod]] ([[SRD-Minus|Minus]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-electrike.png|right]]
+![[SRD-electrike-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-electrike-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

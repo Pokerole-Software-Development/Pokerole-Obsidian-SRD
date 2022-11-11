@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME002.png
-BookShinyImageName: HOME002_s.png
-BoxSprite: SRD-BoxSprite-ivysaur.png
+BookSprite: SRD-ivysaur-BookSprite.png
+BoxSprite: SRD-ivysaur-BoxSprite.png
 DexCategory: Seed Pokemon
 DexDescription: There is a bud on this Pokemon's back. To support its weight, Ivysaur's
   legs and trunk grow thick and strong. It becomes kind of a loner after evolving
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Chlorophyll
-HomeSprite: SRD-HomeSprite-ivysaur.png
+HomeSprite: SRD-ivysaur-HomeSprite.png
 Learnset: '[[SRD-Ivysaur-Learnset]]'
 Legendary: 'No'
 Name: Ivysaur
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ivysaur.png|right]]
+![[SRD-ivysaur-BookSprite.png|right wsmall]]
 
 *Seed Pokemon*
 *There is a bud on this Pokemon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. It becomes kind of a loner after evolving and may stray away from its group to take sunbaths.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Chlorophyll|Chlorophyll]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-ivysaur.png|right]]
+![[SRD-ivysaur-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-ivysaur-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

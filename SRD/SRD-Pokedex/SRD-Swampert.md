@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME260.png
-BookShinyImageName: HOME260_s.png
-BoxSprite: SRD-BoxSprite-swampert.png
+BookSprite: SRD-swampert-BookSprite.png
+BoxSprite: SRD-swampert-BoxSprite.png
 DexCategory: Mud Fish Pokemon
 DexDescription: They have an incredible sight that allows them to see in muddy water.
   They nest in beaches, and shield their young with their strong arms. When a storm
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Damp
-HomeSprite: SRD-HomeSprite-swampert.png
+HomeSprite: SRD-swampert-HomeSprite.png
 Learnset: '[[SRD-Swampert-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-swampert.png|right]]
+![[SRD-swampert-BookSprite.png|right wsmall]]
 
 *Mud Fish Pokemon*
 *They have an incredible sight that allows them to see in muddy water. They nest in beaches, and shield their young with their strong arms. When a storm is coming, Swamperts build a fort with big rocks.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Damp|Damp]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-swampert.png|right]]
+![[SRD-swampert-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-swampert-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

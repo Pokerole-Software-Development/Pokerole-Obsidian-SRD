@@ -2,9 +2,8 @@
 Ability1: Multitype
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME493.png
-BookShinyImageName: HOME493_s.png
-BoxSprite: SRD-BoxSprite-arceus.png
+BookSprite: SRD-arceus-BookSprite.png
+BoxSprite: SRD-arceus-BoxSprite.png
 DexCategory: Plot Device
 DexDescription: Plot Device
 EventAbilities: ''
@@ -15,7 +14,7 @@ Height:
   Feet: 10.5
   Meters: 3.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-arceus.png
+HomeSprite: SRD-arceus-HomeSprite.png
 Learnset: '[[SRD-Arceus-Learnset]]'
 Legendary: 'Yes'
 Name: Arceus
@@ -35,7 +34,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-arceus.png|right]]
+![[SRD-arceus-BookSprite.png|right wsmall]]
 
 *Plot Device*
 *Plot Device*
@@ -46,7 +45,7 @@ Weight:
 **Abilities**:: [[SRD-Multitype|Multitype]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-arceus.png|right]]
+![[SRD-arceus-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -55,6 +54,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::12)/(MaxVitality::12)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::12)/(MaxSpecial::12)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::12)/(MaxInsight::12)     |
+
+![[SRD-arceus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Thick Fat
 Ability2: Own Tempo
 Baby: 'No'
-BookImageName: HOME325.png
-BookShinyImageName: HOME325_s.png
-BoxSprite: SRD-BoxSprite-spoink.png
+BookSprite: SRD-spoink-BookSprite.png
+BoxSprite: SRD-spoink-BoxSprite.png
 DexCategory: Bounce Pokemon
 DexDescription: "They are always bouncing with their tail. If they ever stop, their\
   \ heart wouldn\u2019t beat anymore. Spoinks balance a pearl from Clamperl on their\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Gluttony
-HomeSprite: SRD-HomeSprite-spoink.png
+HomeSprite: SRD-spoink-HomeSprite.png
 Learnset: '[[SRD-Spoink-Learnset]]'
 Legendary: 'No'
 Name: Spoink
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-spoink.png|right]]
+![[SRD-spoink-BookSprite.png|right wsmall]]
 
 *Bounce Pokemon*
 *They are always bouncing with their tail. If they ever stop, their heart wouldn’t beat anymore. Spoinks balance a pearl from Clamperl on their head, if it’s lost, they won’t be able to control their psychic powers.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-spoink.png|right]]
+![[SRD-spoink-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-spoink-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

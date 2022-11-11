@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Oblivious
 Baby: 'No'
-BookImageName: HOME349.png
-BookShinyImageName: HOME349_s.png
-BoxSprite: SRD-BoxSprite-feebas.png
+BookSprite: SRD-feebas-BookSprite.png
+BoxSprite: SRD-feebas-BoxSprite.png
 DexCategory: Fish Pokemon
 DexDescription: "This Pokemon tastes awful, it is incredibly ugly, smelly, kind of\
   \ dumb and a terrible fighter. To make things worse, it is actually extremely rare.\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Adaptability
-HomeSprite: SRD-HomeSprite-feebas.png
+HomeSprite: SRD-feebas-HomeSprite.png
 Learnset: '[[SRD-Feebas-Learnset]]'
 Legendary: 'No'
 Name: Feebas
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-feebas.png|right]]
+![[SRD-feebas-BookSprite.png|right wsmall]]
 
 *Fish Pokemon*
 *This Pokemon tastes awful, it is incredibly ugly, smelly, kind of dumb and a terrible fighter. To make things worse, it is actually extremely rare. For those reasons, people tend to avoid it and it’s usually ignored*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Oblivious|Oblivious]] ([[SRD-Adaptability|Adaptability]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-feebas.png|right]]
+![[SRD-feebas-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-feebas-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

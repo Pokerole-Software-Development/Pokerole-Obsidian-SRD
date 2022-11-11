@@ -2,9 +2,8 @@
 Ability1: Rock Head
 Ability2: Sturdy
 Baby: 'No'
-BookImageName: HOME208.png
-BookShinyImageName: HOME208_s.png
-BoxSprite: SRD-BoxSprite-steelix.png
+BookSprite: SRD-steelix-BookSprite.png
+BoxSprite: SRD-steelix-BoxSprite.png
 DexCategory: Iron Snake Pokemon
 DexDescription: "Some say that when an Onix lives underground for 100 years it\u2019\
   s body becomes hard as steel. Steelix lives deep underground, tempered by high pressure\
@@ -17,7 +16,7 @@ Height:
   Feet: 30.2
   Meters: 9.2
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-steelix.png
+HomeSprite: SRD-steelix-HomeSprite.png
 Learnset: '[[SRD-Steelix-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-steelix.png|right]]
+![[SRD-steelix-BookSprite.png|right wsmall]]
 
 *Iron Snake Pokemon*
 *Some say that when an Onix lives underground for 100 years it’s body becomes hard as steel. Steelix lives deep underground, tempered by high pressure and heat. It can see in the darkness.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Rock Head|Rock Head]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 9
 
-![[SRD-BoxSprite-steelix.png|right]]
+![[SRD-steelix-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::10)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-steelix-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

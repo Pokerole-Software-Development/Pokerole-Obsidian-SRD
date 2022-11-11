@@ -2,9 +2,8 @@
 Ability1: Thick Fat
 Ability2: Hydration
 Baby: 'No'
-BookImageName: HOME086.png
-BookShinyImageName: HOME086_s.png
-BoxSprite: SRD-BoxSprite-seel.png
+BookSprite: SRD-seel-BookSprite.png
+BoxSprite: SRD-seel-BoxSprite.png
 DexCategory: Sea Lion Pokemon
 DexDescription: A Pokemon that lives on icebergs. It swims in the sea using the point
   on its head to break up the ice. It sleeps a lot during the day, being most active
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Ice Body
-HomeSprite: SRD-HomeSprite-seel.png
+HomeSprite: SRD-seel-HomeSprite.png
 Learnset: '[[SRD-Seel-Learnset]]'
 Legendary: 'No'
 Name: Seel
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-seel.png|right]]
+![[SRD-seel-BookSprite.png|right wsmall]]
 
 *Sea Lion Pokemon*
 *A Pokemon that lives on icebergs. It swims in the sea using the point on its head to break up the ice. It sleeps a lot during the day, being most active at dawn when the temperature starts to cool.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Hydration|Hydration]] ([[SRD-Ice Body|Ice Body]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-seel.png|right]]
+![[SRD-seel-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-seel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

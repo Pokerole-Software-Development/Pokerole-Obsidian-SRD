@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME395.png
-BookShinyImageName: HOME395_s.png
-BoxSprite: SRD-BoxSprite-empoleon.png
+BookSprite: SRD-empoleon-BookSprite.png
+BoxSprite: SRD-empoleon-BoxSprite.png
 DexCategory: Emperor Pokemon
 DexDescription: They are regal and arrogant. Their beaks slice apart the drifting
   ice while swimming as fast as a jet boat. They avoid unnecessary fights, but will
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Defiant
-HomeSprite: SRD-HomeSprite-empoleon.png
+HomeSprite: SRD-empoleon-HomeSprite.png
 Learnset: '[[SRD-Empoleon-Learnset]]'
 Legendary: 'No'
 Name: Empoleon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-empoleon.png|right]]
+![[SRD-empoleon-BookSprite.png|right wsmall]]
 
 *Emperor Pokemon*
 *They are regal and arrogant. Their beaks slice apart the drifting ice while swimming as fast as a jet boat. They avoid unnecessary fights, but will crush and cleave anyone that hurts or threatens its pride.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-empoleon.png|right]]
+![[SRD-empoleon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-empoleon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

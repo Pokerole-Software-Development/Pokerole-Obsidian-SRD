@@ -2,9 +2,8 @@
 Ability1: RKS System
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME773.png
-BookShinyImageName: HOME773_s.png
-BoxSprite: SRD-BoxSprite-silvally.png
+BookSprite: SRD-silvally-BookSprite.png
+BoxSprite: SRD-silvally-BoxSprite.png
 DexCategory: Synthetic Pokemon
 DexDescription: 'Pokedex has no data. It was seen in the company of a boy. It appears
   to be a perfected or evolved form of Type: Null. The boy gave it some strange disks
@@ -17,7 +16,7 @@ Height:
   Feet: 7.5
   Meters: 2.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-silvally.png
+HomeSprite: SRD-silvally-HomeSprite.png
 Learnset: '[[SRD-Silvally-Learnset]]'
 Legendary: 'No'
 Name: Silvally
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-silvally.png|right]]
+![[SRD-silvally-BookSprite.png|right wsmall]]
 
 *Synthetic Pokemon*
 *Pokedex has no data. It was seen in the company of a boy. It appears to be a perfected or evolved form of Type: Null. The boy gave it some strange disks that allowed it to change its type.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-RKS System|RKS System]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-silvally.png|right]]
+![[SRD-silvally-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-silvally-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

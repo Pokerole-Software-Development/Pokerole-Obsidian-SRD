@@ -2,9 +2,8 @@
 Ability1: Battle Armor
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME772.png
-BookShinyImageName: HOME772_s.png
-BoxSprite: SRD-BoxSprite-type-null.png
+BookSprite: SRD-type-null-BookSprite.png
+BoxSprite: SRD-type-null-BoxSprite.png
 DexCategory: Synthetic Pokemon
 DexDescription: A synthetic Pokemon made by the Aether Foundation. Currently only
   three specimens exist in cryogenic stasis, but they are deemed too dangerous even
@@ -17,7 +16,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-type-null.png
+HomeSprite: SRD-type-null-HomeSprite.png
 Learnset: '[[SRD-Type: Null-Learnset]]'
 Legendary: 'No'
 Name: 'Type: Null'
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-type-null.png|right]]
+![[SRD-type-null-BookSprite.png|right wsmall]]
 
 *Synthetic Pokemon*
 *A synthetic Pokemon made by the Aether Foundation. Currently only three specimens exist in cryogenic stasis, but they are deemed too dangerous even with a limiter helmet on. They must never be reanimated.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Battle Armor|Battle Armor]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-type-null.png|right]]
+![[SRD-type-null-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-type-null-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

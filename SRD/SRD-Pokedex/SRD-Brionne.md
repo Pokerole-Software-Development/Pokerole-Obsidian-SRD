@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME729.png
-BookShinyImageName: HOME729_s.png
-BoxSprite: SRD-BoxSprite-brionne.png
+BookSprite: SRD-brionne-BookSprite.png
+BoxSprite: SRD-brionne-BoxSprite.png
 DexCategory: Pop Star Pokemon
 DexDescription: In the wild, each pack has their own songs and dances, Brionne practice
   them in the moonlight. It is cheerful and not timid at all, it forms friendships
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Liquid Voice
-HomeSprite: SRD-HomeSprite-brionne.png
+HomeSprite: SRD-brionne-HomeSprite.png
 Learnset: '[[SRD-Brionne-Learnset]]'
 Legendary: 'No'
 Name: Brionne
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-brionne.png|right]]
+![[SRD-brionne-BookSprite.png|right wsmall]]
 
 *Pop Star Pokemon*
 *In the wild, each pack has their own songs and dances, Brionne practice them in the moonlight. It is cheerful and not timid at all, it forms friendships easily through dance movements.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Liquid Voice|Liquid Voice]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-brionne.png|right]]
+![[SRD-brionne-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-brionne-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

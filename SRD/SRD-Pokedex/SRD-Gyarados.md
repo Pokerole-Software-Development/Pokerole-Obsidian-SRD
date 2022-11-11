@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME130.png
-BookShinyImageName: HOME130_s.png
-BoxSprite: SRD-BoxSprite-gyarados.png
+BookSprite: SRD-gyarados-BookSprite.png
+BoxSprite: SRD-gyarados-BoxSprite.png
 DexCategory: Atrocious Pokemon
 DexDescription: "It\u2019s rarely seen in the wild. This huge and vicious Pokemon\
   \ is known for the destruction it leaves in its wake. In ancient literature, there\
@@ -17,7 +16,7 @@ Height:
   Feet: 21.3
   Meters: 6.5
 HiddenAbility: Moxie
-HomeSprite: SRD-HomeSprite-gyarados.png
+HomeSprite: SRD-gyarados-HomeSprite.png
 Learnset: '[[SRD-Gyarados-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gyarados.png|right]]
+![[SRD-gyarados-BookSprite.png|right wsmall]]
 
 *Atrocious Pokemon*
 *It’s rarely seen in the wild. This huge and vicious Pokemon is known for the destruction it leaves in its wake. In ancient literature, there is a record of a Gyarados that razed a village when violence flared.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] ([[SRD-Moxie|Moxie]])
 **Base HP**:: 7
 
-![[SRD-BoxSprite-gyarados.png|right]]
+![[SRD-gyarados-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-gyarados-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

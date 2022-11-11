@@ -2,9 +2,8 @@
 Ability1: Contrary
 Ability2: Suction Cups
 Baby: 'No'
-BookImageName: HOME687.png
-BookShinyImageName: HOME687_s.png
-BoxSprite: SRD-BoxSprite-malamar.png
+BookSprite: SRD-malamar-BookSprite.png
+BoxSprite: SRD-malamar-BoxSprite.png
 DexCategory: Overturning Pokemon
 DexDescription: It lures prey close with hypnotic motions, then wraps its tentacles
   around it before finishing it off to eat it. This Pokemon are difficult to handle
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Infiltrator
-HomeSprite: SRD-HomeSprite-malamar.png
+HomeSprite: SRD-malamar-HomeSprite.png
 Learnset: '[[SRD-Malamar-Learnset]]'
 Legendary: 'No'
 Name: Malamar
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-malamar.png|right]]
+![[SRD-malamar-BookSprite.png|right wsmall]]
 
 *Overturning Pokemon*
 *It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off to eat it. This Pokemon are difficult to handle as they use their psychic abilities to do evil.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Contrary|Contrary]] / [[SRD-Suction Cups|Suction Cups]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-malamar.png|right]]
+![[SRD-malamar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-malamar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

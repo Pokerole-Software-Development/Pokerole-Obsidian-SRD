@@ -2,9 +2,8 @@
 Ability1: Big Pecks
 Ability2: Overcoat
 Baby: 'No'
-BookImageName: HOME629.png
-BookShinyImageName: HOME629_s.png
-BoxSprite: SRD-BoxSprite-vullaby.png
+BookSprite: SRD-vullaby-BookSprite.png
+BoxSprite: SRD-vullaby-BoxSprite.png
 DexCategory: Diapered Pokemon
 DexDescription: This is a female-only species. They stay with their Mandibuzz mothers
   from birth until they can finally fly. They feed on the carrion meat the mothers
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Weak Armor
-HomeSprite: SRD-HomeSprite-vullaby.png
+HomeSprite: SRD-vullaby-HomeSprite.png
 Learnset: '[[SRD-Vullaby-Learnset]]'
 Legendary: 'No'
 Name: Vullaby
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-vullaby.png|right]]
+![[SRD-vullaby-BookSprite.png|right wsmall]]
 
 *Diapered Pokemon*
 *This is a female-only species. They stay with their Mandibuzz mothers from birth until they can finally fly. They feed on the carrion meat the mothers bring back to the nest and keep the bones to make accessories.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Big Pecks|Big Pecks]] / [[SRD-Overcoat|Overcoat]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-vullaby.png|right]]
+![[SRD-vullaby-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-vullaby-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

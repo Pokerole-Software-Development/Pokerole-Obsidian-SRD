@@ -2,9 +2,8 @@
 Ability1: Air Lock
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME384.png
-BookShinyImageName: HOME384_s.png
-BoxSprite: SRD-BoxSprite-rayquaza.png
+BookSprite: SRD-rayquaza-BookSprite.png
+BoxSprite: SRD-rayquaza-BoxSprite.png
 DexCategory: No Data
 DexDescription: The legend tells how Rayquaza lived in the outer layer of this world.
   It came to end the quarrel between Groudon and Kyogre, granted the world with blue
@@ -17,7 +16,7 @@ Height:
   Feet: 23.0
   Meters: 7.0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-rayquaza.png
+HomeSprite: SRD-rayquaza-HomeSprite.png
 Learnset: '[[SRD-Rayquaza-Learnset]]'
 Legendary: 'Yes'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rayquaza.png|right]]
+![[SRD-rayquaza-BookSprite.png|right wsmall]]
 
 *No Data*
 *The legend tells how Rayquaza lived in the outer layer of this world. It came to end the quarrel between Groudon and Kyogre, granted the world with blue skies and then left.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Air Lock|Air Lock]]
 **Base HP**:: 8
 
-![[SRD-BoxSprite-rayquaza.png|right]]
+![[SRD-rayquaza-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-rayquaza-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

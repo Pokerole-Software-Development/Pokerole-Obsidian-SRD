@@ -2,9 +2,8 @@
 Ability1: Clear Body
 Ability2: Infiltrator
 Baby: 'No'
-BookImageName: HOME885.png
-BookShinyImageName: HOME885_s.png
-BoxSprite: SRD-BoxSprite-dreepy.png
+BookSprite: SRD-dreepy-BookSprite.png
+BoxSprite: SRD-dreepy-BoxSprite.png
 DexCategory: Lingering Pokemon
 DexDescription: "After being reborn as a ghost, Dreepy wanders the areas it used to\
   \ inhabit back when it was alive in prehistoric seas. Alone they do not pose much\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Cursed Body
-HomeSprite: SRD-HomeSprite-dreepy.png
+HomeSprite: SRD-dreepy-HomeSprite.png
 Learnset: '[[SRD-Dreepy-Learnset]]'
 Legendary: 'No'
 Name: Dreepy
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dreepy.png|right]]
+![[SRD-dreepy-BookSprite.png|right wsmall]]
 
 *Lingering Pokemon*
 *After being reborn as a ghost, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas. Alone they do not pose much of a threat but if they gather in packs you’ll be in trouble.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Clear Body|Clear Body]] / [[SRD-Infiltrator|Infiltrator]] ([[SRD-Cursed Body|Cursed Body]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-dreepy.png|right]]
+![[SRD-dreepy-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-dreepy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

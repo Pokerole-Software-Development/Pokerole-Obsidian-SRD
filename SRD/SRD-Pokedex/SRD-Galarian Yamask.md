@@ -2,9 +2,8 @@
 Ability1: Wandering Spirit
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME562G.png
-BookShinyImageName: HOME562G_s.png
-BoxSprite: SRD-BoxSprite-yamask-galar.png
+BookSprite: SRD-yamask-galar-BookSprite.png
+BoxSprite: SRD-yamask-galar-BoxSprite.png
 DexCategory: Spirit Pokemon
 DexDescription: "It\u2019s said that this Pokemon was formed when an ancient clay\
   \ tablet was drawn to the dark energy of a spirit. The clay slab seems to be absorbing\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-yamask-galar.png
+HomeSprite: SRD-yamask-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Yamask-Learnset]]'
 Legendary: 'No'
 Name: Galarian Yamask
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-yamask-galar.png|right]]
+![[SRD-yamask-galar-BookSprite.png|right wsmall]]
 
 *Spirit Pokemon*
 *It’s said that this Pokemon was formed when an ancient clay tablet was drawn to the dark energy of a spirit. The clay slab seems to be absorbing Yamask's power that’s why it is so pale.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Wandering Spirit|Wandering Spirit]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-yamask-galar.png|right]]
+![[SRD-yamask-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-yamask-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

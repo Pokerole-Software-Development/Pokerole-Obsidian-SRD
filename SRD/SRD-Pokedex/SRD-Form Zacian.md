@@ -2,9 +2,8 @@
 Ability1: Intrepid Sword
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME888C.png
-BookShinyImageName: HOME888C_s.png
-BoxSprite: SRD-BoxSprite-zacian.png
+BookSprite: SRD-zacian-BookSprite.png
+BoxSprite: SRD-zacian-BoxSprite.png
 DexCategory: No Data
 DexDescription: "There is a legend about a mighty sword able to cut down anything\
   \ with a single strike, it became known as the Fairy King\u2019s Sword, and it inspired\
@@ -17,7 +16,7 @@ Height:
   Feet: 9.2
   Meters: 2.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-zacian.png
+HomeSprite: SRD-zacian-HomeSprite.png
 Learnset: '[[SRD-Form Zacian-Learnset]]'
 Legendary: 'Yes'
 Name: Form Zacian
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zacian.png|right]]
+![[SRD-zacian-BookSprite.png|right wsmall]]
 
 *No Data*
 *There is a legend about a mighty sword able to cut down anything with a single strike, it became known as the Fairy King’s Sword, and it inspired awe in friend and foe alike.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intrepid Sword|Intrepid Sword]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-zacian.png|right]]
+![[SRD-zacian-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-zacian-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

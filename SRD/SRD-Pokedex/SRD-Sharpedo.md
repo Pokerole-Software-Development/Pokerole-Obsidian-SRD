@@ -2,9 +2,8 @@
 Ability1: Rough Skin
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME319.png
-BookShinyImageName: HOME319_s.png
-BoxSprite: SRD-BoxSprite-sharpedo.png
+BookSprite: SRD-sharpedo-BookSprite.png
+BoxSprite: SRD-sharpedo-BoxSprite.png
 DexCategory: Brutal Pokemon
 DexDescription: "Known as the \u201CBully of the Sea\u201D, widely feared for its\
   \ cruelty, malice and gangster attitude. They hurt Pokemon for fun and sink boats\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Speed Boost
-HomeSprite: SRD-HomeSprite-sharpedo.png
+HomeSprite: SRD-sharpedo-HomeSprite.png
 Learnset: '[[SRD-Sharpedo-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sharpedo.png|right]]
+![[SRD-sharpedo-BookSprite.png|right wsmall]]
 
 *Brutal Pokemon*
 *Known as the “Bully of the Sea”, widely feared for its cruelty, malice and gangster attitude. They hurt Pokemon for fun and sink boats for sport. Sharpedos are among the fastest swimmers.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Rough Skin|Rough Skin]] ([[SRD-Speed Boost|Speed Boost]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-sharpedo.png|right]]
+![[SRD-sharpedo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-sharpedo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

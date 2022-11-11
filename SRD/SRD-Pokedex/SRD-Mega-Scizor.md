@@ -2,9 +2,8 @@
 Ability1: Technician
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME212M.png
-BookShinyImageName: HOME212M_s.png
-BoxSprite: SRD-BoxSprite-scizor-mega.png
+BookSprite: SRD-scizor-mega-BookSprite.png
+BoxSprite: SRD-scizor-mega-BoxSprite.png
 DexCategory: Pincer Pokemon
 DexDescription: The power of the Mega Stone puts its body trough tremendous stress,
   if it is inexperienced at wielding it and the battle is too long its pincers will
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-scizor-mega.png
+HomeSprite: SRD-scizor-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Scizor-Learnset]]'
 Legendary: 'No'
 Name: Mega-Scizor
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-scizor-mega.png|right]]
+![[SRD-scizor-mega-BookSprite.png|right wsmall]]
 
 *Pincer Pokemon*
 *The power of the Mega Stone puts its body trough tremendous stress, if it is inexperienced at wielding it and the battle is too long its pincers will feel heavy and even melt. They must be fast to rip their foes apart.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Technician|Technician]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-scizor-mega.png|right]]
+![[SRD-scizor-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-scizor-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

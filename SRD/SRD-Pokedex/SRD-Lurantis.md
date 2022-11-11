@@ -2,9 +2,8 @@
 Ability1: Leaf Guard
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME754.png
-BookShinyImageName: HOME754_s.png
-BoxSprite: SRD-BoxSprite-lurantis.png
+BookSprite: SRD-lurantis-BookSprite.png
+BoxSprite: SRD-lurantis-BoxSprite.png
 DexCategory: Bloom Sickle Pokemon
 DexDescription: "Considered to be one of the mos beautiful Grass Pokemon due to its\
   \ lovely coloration. They require a lot of maintenance and constant grooming, so\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Contrary
-HomeSprite: SRD-HomeSprite-lurantis.png
+HomeSprite: SRD-lurantis-HomeSprite.png
 Learnset: '[[SRD-Lurantis-Learnset]]'
 Legendary: 'No'
 Name: Lurantis
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lurantis.png|right]]
+![[SRD-lurantis-BookSprite.png|right wsmall]]
 
 *Bloom Sickle Pokemon*
 *Considered to be one of the mos beautiful Grass Pokemon due to its lovely coloration. They require a lot of maintenance and constant grooming, so they’ll only trust a Trainer who is up to the job.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Leaf Guard|Leaf Guard]] ([[SRD-Contrary|Contrary]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-lurantis.png|right]]
+![[SRD-lurantis-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-lurantis-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Clear Body
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME379.png
-BookShinyImageName: HOME379_s.png
-BoxSprite: SRD-BoxSprite-registeel.png
+BookSprite: SRD-registeel-BookSprite.png
+BoxSprite: SRD-registeel-BoxSprite.png
 DexCategory: No Data
 DexDescription: His body was indestructible. A flexible metal out of this world that
   can shrink, expand, made solid or liquid at the speed of thought. Could the myths
@@ -17,7 +16,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Light Metal
-HomeSprite: SRD-HomeSprite-registeel.png
+HomeSprite: SRD-registeel-HomeSprite.png
 Learnset: '[[SRD-Registeel-Learnset]]'
 Legendary: 'Yes'
 Name: Registeel
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-registeel.png|right]]
+![[SRD-registeel-BookSprite.png|right wsmall]]
 
 *No Data*
 *His body was indestructible. A flexible metal out of this world that can shrink, expand, made solid or liquid at the speed of thought. Could the myths be true?*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Clear Body|Clear Body]] ([[SRD-Light Metal|Light Metal]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-registeel.png|right]]
+![[SRD-registeel-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::8)/(MaxVitality::8)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::8)/(MaxInsight::8)     |
+
+![[SRD-registeel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

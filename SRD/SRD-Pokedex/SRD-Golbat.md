@@ -2,9 +2,8 @@
 Ability1: Inner Focus
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME042.png
-BookShinyImageName: HOME042_s.png
-BoxSprite: SRD-BoxSprite-golbat.png
+BookSprite: SRD-golbat-BookSprite.png
+BoxSprite: SRD-golbat-BoxSprite.png
 DexCategory: Bat Pokemon
 DexDescription: A stealthy Pokemon who loves the dark. Its fangs can puncture even
   a thick hide. It loves to feast on the blood of people and Pokemon alike. If it
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Infiltrator
-HomeSprite: SRD-HomeSprite-golbat.png
+HomeSprite: SRD-golbat-HomeSprite.png
 Learnset: '[[SRD-Golbat-Learnset]]'
 Legendary: 'No'
 Name: Golbat
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-golbat.png|right]]
+![[SRD-golbat-BookSprite.png|right wsmall]]
 
 *Bat Pokemon*
 *A stealthy Pokemon who loves the dark. Its fangs can puncture even a thick hide. It loves to feast on the blood of people and Pokemon alike. If it drinks too much, it gets heavy and can hardly fly.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-golbat.png|right]]
+![[SRD-golbat-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-golbat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

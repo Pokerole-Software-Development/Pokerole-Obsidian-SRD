@@ -2,9 +2,8 @@
 Ability1: Hustle
 Ability2: Sniper
 Baby: 'No'
-BookImageName: HOME223.png
-BookShinyImageName: HOME223_s.png
-BoxSprite: SRD-BoxSprite-remoraid.png
+BookSprite: SRD-remoraid-BookSprite.png
+BoxSprite: SRD-remoraid-BoxSprite.png
 DexCategory: Jet Pokemon
 DexDescription: Remoraid has a remarkable aim with its water gun. This ability is
   used to hunt down flying enemies above the sea. They can be seen clinging into Mantines
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Moody
-HomeSprite: SRD-HomeSprite-remoraid.png
+HomeSprite: SRD-remoraid-HomeSprite.png
 Learnset: '[[SRD-Remoraid-Learnset]]'
 Legendary: 'No'
 Name: Remoraid
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-remoraid.png|right]]
+![[SRD-remoraid-BookSprite.png|right wsmall]]
 
 *Jet Pokemon*
 *Remoraid has a remarkable aim with its water gun. This ability is used to hunt down flying enemies above the sea. They can be seen clinging into Mantines to travel faster.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hustle|Hustle]] / [[SRD-Sniper|Sniper]] ([[SRD-Moody|Moody]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-remoraid.png|right]]
+![[SRD-remoraid-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-remoraid-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

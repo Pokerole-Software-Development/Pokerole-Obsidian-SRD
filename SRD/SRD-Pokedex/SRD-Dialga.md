@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME483.png
-BookShinyImageName: HOME483_s.png
-BoxSprite: SRD-BoxSprite-dialga.png
+BookSprite: SRD-dialga-BookSprite.png
+BoxSprite: SRD-dialga-BoxSprite.png
 DexCategory: No Data
 DexDescription: "In some religions there is a being called \u201CThe God of Time\u201D\
   \ whose first roar brought future, present and past."
@@ -16,7 +15,7 @@ Height:
   Feet: 17.7
   Meters: 5.4
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-dialga.png
+HomeSprite: SRD-dialga-HomeSprite.png
 Learnset: '[[SRD-Dialga-Learnset]]'
 Legendary: 'Yes'
 Name: Dialga
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dialga.png|right]]
+![[SRD-dialga-BookSprite.png|right wsmall]]
 
 *No Data*
 *In some religions there is a being called “The God of Time” whose first roar brought future, present and past.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 7
 
-![[SRD-BoxSprite-dialga.png|right]]
+![[SRD-dialga-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::7)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-dialga-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

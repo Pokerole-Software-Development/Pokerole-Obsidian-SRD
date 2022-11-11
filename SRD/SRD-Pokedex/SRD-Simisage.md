@@ -2,9 +2,8 @@
 Ability1: Gluttony
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME512.png
-BookShinyImageName: HOME512_s.png
-BoxSprite: SRD-BoxSprite-simisage.png
+BookSprite: SRD-simisage-BookSprite.png
+BoxSprite: SRD-simisage-BoxSprite.png
 DexCategory: Thorn Monkey Pokemon
 DexDescription: "It becomes somewhat ill tempered after it evolves. The leaves on\
   \ it\u2019s head can be made into a bitter but effective medicine, however it will\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Overgrow
-HomeSprite: SRD-HomeSprite-simisage.png
+HomeSprite: SRD-simisage-HomeSprite.png
 Learnset: '[[SRD-Simisage-Learnset]]'
 Legendary: 'No'
 Name: Simisage
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-simisage.png|right]]
+![[SRD-simisage-BookSprite.png|right wsmall]]
 
 *Thorn Monkey Pokemon*
 *It becomes somewhat ill tempered after it evolves. The leaves on it’s head can be made into a bitter but effective medicine, however it will attack anyone trying to take them with it’s thorned tail.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Gluttony|Gluttony]] ([[SRD-Overgrow|Overgrow]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-simisage.png|right]]
+![[SRD-simisage-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-simisage-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

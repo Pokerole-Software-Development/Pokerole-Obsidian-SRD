@@ -2,9 +2,8 @@
 Ability1: Hydration
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME489.png
-BookShinyImageName: HOME489_s.png
-BoxSprite: SRD-BoxSprite-phione.png
+BookSprite: SRD-phione-BookSprite.png
+BoxSprite: SRD-phione-BoxSprite.png
 DexCategory: No Data
 DexDescription: There have been sightings of small groups of similar Pokemon but its
   existence has never been confirmed. It is said to be the offspring of Manaphy.
@@ -16,7 +15,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-phione.png
+HomeSprite: SRD-phione-HomeSprite.png
 Learnset: '[[SRD-Phione-Learnset]]'
 Legendary: 'No'
 Name: Phione
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-phione.png|right]]
+![[SRD-phione-BookSprite.png|right wsmall]]
 
 *No Data*
 *There have been sightings of small groups of similar Pokemon but its existence has never been confirmed. It is said to be the offspring of Manaphy.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Hydration|Hydration]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-phione.png|right]]
+![[SRD-phione-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-phione-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

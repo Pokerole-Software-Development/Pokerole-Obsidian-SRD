@@ -2,9 +2,8 @@
 Ability1: Reckless
 Ability2: Adaptability
 Baby: 'No'
-BookImageName: HOME550.png
-BookShinyImageName: HOME550_s.png
-BoxSprite: SRD-BoxSprite-basculin.png
+BookSprite: SRD-basculin-BookSprite.png
+BoxSprite: SRD-basculin-BoxSprite.png
 DexCategory: Hostile Pokemon
 DexDescription: "Two variants exist of the same Pokemon, a blue one and a red one\
   \ but they don\u2019t get along as they compete for territory and prey. These Pokemon\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Mold Breaker
-HomeSprite: SRD-HomeSprite-basculin.png
+HomeSprite: SRD-basculin-HomeSprite.png
 Learnset: '[[SRD-Basculin-Learnset]]'
 Legendary: 'No'
 Name: Basculin
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-basculin.png|right]]
+![[SRD-basculin-BookSprite.png|right wsmall]]
 
 *Hostile Pokemon*
 *Two variants exist of the same Pokemon, a blue one and a red one but they don’t get along as they compete for territory and prey. These Pokemon are very hostile, but also delicious when grilled.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Reckless|Reckless]] / [[SRD-Adaptability|Adaptability]] ([[SRD-Mold Breaker|Mold Breaker]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-basculin.png|right]]
+![[SRD-basculin-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-basculin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

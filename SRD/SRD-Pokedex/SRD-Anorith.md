@@ -2,9 +2,8 @@
 Ability1: Battle Armor
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME347.png
-BookShinyImageName: HOME347_s.png
-BoxSprite: SRD-BoxSprite-anorith.png
+BookSprite: SRD-anorith-BookSprite.png
+BoxSprite: SRD-anorith-BoxSprite.png
 DexCategory: Old Shrimp Pokemon
 DexDescription: This ancient Pokemon is thought to be the common ancestor of many
   modern Bug Pokemon. The fossils show it lived in big schools and it preferred warm
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Swift Swim
-HomeSprite: SRD-HomeSprite-anorith.png
+HomeSprite: SRD-anorith-HomeSprite.png
 Learnset: '[[SRD-Anorith-Learnset]]'
 Legendary: 'No'
 Name: Anorith
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-anorith.png|right]]
+![[SRD-anorith-BookSprite.png|right wsmall]]
 
 *Old Shrimp Pokemon*
 *This ancient Pokemon is thought to be the common ancestor of many modern Bug Pokemon. The fossils show it lived in big schools and it preferred warm waters. Anoriths used their claws to catch small prey.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Battle Armor|Battle Armor]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-anorith.png|right]]
+![[SRD-anorith-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-anorith-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

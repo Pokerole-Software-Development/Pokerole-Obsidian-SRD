@@ -2,9 +2,8 @@
 Ability1: Mold Breaker
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME408.png
-BookShinyImageName: HOME408_s.png
-BoxSprite: SRD-BoxSprite-cranidos.png
+BookSprite: SRD-cranidos-BookSprite.png
+BoxSprite: SRD-cranidos-BoxSprite.png
 DexCategory: Head Butt Pokemon
 DexDescription: "It was resurrected from an iron ball-like fossil. It downs prey with\
   \ headbutts and tramples trees and walls with ease. They were plentiful 100 million\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-cranidos.png
+HomeSprite: SRD-cranidos-HomeSprite.png
 Learnset: '[[SRD-Cranidos-Learnset]]'
 Legendary: 'No'
 Name: Cranidos
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cranidos.png|right]]
+![[SRD-cranidos-BookSprite.png|right wsmall]]
 
 *Head Butt Pokemon*
 *It was resurrected from an iron ball-like fossil. It downs prey with headbutts and tramples trees and walls with ease. They were plentiful 100 million years ago. You can’t find one nowadays except as a fossil.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Mold Breaker|Mold Breaker]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-cranidos.png|right]]
+![[SRD-cranidos-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-cranidos-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

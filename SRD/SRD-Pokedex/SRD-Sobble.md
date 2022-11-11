@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME816.png
-BookShinyImageName: HOME816_s.png
-BoxSprite: SRD-BoxSprite-sobble.png
+BookSprite: SRD-sobble-BookSprite.png
+BoxSprite: SRD-sobble-BoxSprite.png
 DexCategory: Water Lizard Pokemon
 DexDescription: This shy Pokemon does not like to attract too much attention. It hides
   in shallow pools of water.. When it feels threatened it cries and its tears pack
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Sniper
-HomeSprite: SRD-HomeSprite-sobble.png
+HomeSprite: SRD-sobble-HomeSprite.png
 Learnset: '[[SRD-Sobble-Learnset]]'
 Legendary: 'No'
 Name: Sobble
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sobble.png|right]]
+![[SRD-sobble-BookSprite.png|right wsmall]]
 
 *Water Lizard Pokemon*
 *This shy Pokemon does not like to attract too much attention. It hides in shallow pools of water.. When it feels threatened it cries and its tears pack release a chemical that will make its foes cry too.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Sniper|Sniper]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-sobble.png|right]]
+![[SRD-sobble-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-sobble-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

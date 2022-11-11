@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME481.png
-BookShinyImageName: HOME481_s.png
-BoxSprite: SRD-BoxSprite-mesprit.png
+BookSprite: SRD-mesprit-BookSprite.png
+BoxSprite: SRD-mesprit-BoxSprite.png
 DexCategory: No Data
 DexDescription: In the myths of Sinnoh they talk about three beings that came out
   from the same egg, the pink one was the being of emotion. Together they shaped the
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-mesprit.png
+HomeSprite: SRD-mesprit-HomeSprite.png
 Learnset: '[[SRD-Mesprit-Learnset]]'
 Legendary: 'Yes'
 Name: Mesprit
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mesprit.png|right]]
+![[SRD-mesprit-BookSprite.png|right wsmall]]
 
 *No Data*
 *In the myths of Sinnoh they talk about three beings that came out from the same egg, the pink one was the being of emotion. Together they shaped the human race to be complete.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-mesprit.png|right]]
+![[SRD-mesprit-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-mesprit-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

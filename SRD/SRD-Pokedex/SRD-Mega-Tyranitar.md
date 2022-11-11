@@ -2,9 +2,8 @@
 Ability1: Sand Stream
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME248M.png
-BookShinyImageName: HOME248M_s.png
-BoxSprite: SRD-BoxSprite-tyranitar-mega.png
+BookSprite: SRD-tyranitar-mega-BookSprite.png
+BoxSprite: SRD-tyranitar-mega-BoxSprite.png
 DexCategory: Armor Pokemon
 DexDescription: "The power of the Mega Stone is so overwhelming it splits its back\
   \ open. It becomes overwhelmed by its ferocious instincts and it\u2019s unclear\
@@ -17,7 +16,7 @@ Height:
   Feet: 8.2
   Meters: 2.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-tyranitar-mega.png
+HomeSprite: SRD-tyranitar-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Tyranitar-Learnset]]'
 Legendary: 'No'
 Name: Mega-Tyranitar
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tyranitar-mega.png|right]]
+![[SRD-tyranitar-mega-BookSprite.png|right wsmall]]
 
 *Armor Pokemon*
 *The power of the Mega Stone is so overwhelming it splits its back open. It becomes overwhelmed by its ferocious instincts and it’s unclear if it can even hear its Trainer through the pain and rage.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Stream|Sand Stream]]
 **Base HP**:: 7
 
-![[SRD-BoxSprite-tyranitar-mega.png|right]]
+![[SRD-tyranitar-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::4)/(MaxVitality::8)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-tyranitar-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

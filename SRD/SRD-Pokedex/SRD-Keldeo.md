@@ -2,9 +2,8 @@
 Ability1: Justified
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME647.png
-BookShinyImageName: HOME647_s.png
-BoxSprite: SRD-BoxSprite-keldeo.png
+BookSprite: SRD-keldeo-BookSprite.png
+BoxSprite: SRD-keldeo-BoxSprite.png
 DexCategory: No Data
 DexDescription: Age-old fairy tales of Unova tell the story of four Pokemon that brought
   the land to a golden age. The young of the group was brave and naive. It could gallop
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-keldeo.png
+HomeSprite: SRD-keldeo-HomeSprite.png
 Learnset: '[[SRD-Keldeo-Learnset]]'
 Legendary: 'Yes'
 Name: Keldeo
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-keldeo.png|right]]
+![[SRD-keldeo-BookSprite.png|right wsmall]]
 
 *No Data*
 *Age-old fairy tales of Unova tell the story of four Pokemon that brought the land to a golden age. The young of the group was brave and naive. It could gallop on the water surface leaving a rainbow behind.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Justified|Justified]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-keldeo.png|right]]
+![[SRD-keldeo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-keldeo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

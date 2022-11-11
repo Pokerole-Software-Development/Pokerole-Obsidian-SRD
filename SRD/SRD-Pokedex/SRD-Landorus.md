@@ -2,9 +2,8 @@
 Ability1: Sand Force
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME645.png
-BookShinyImageName: HOME645_s.png
-BoxSprite: SRD-BoxSprite-landorus.png
+BookSprite: SRD-landorus-BookSprite.png
+BoxSprite: SRD-landorus-BoxSprite.png
 DexCategory: No Data
 DexDescription: Earthquakes and landslides raze Unova with frequency, but the places
   who suffer them are left with a plentiful harvest that year. Feared by some, revered
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-landorus.png
+HomeSprite: SRD-landorus-HomeSprite.png
 Learnset: '[[SRD-Landorus-Learnset]]'
 Legendary: 'Yes'
 Name: Landorus
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-landorus.png|right]]
+![[SRD-landorus-BookSprite.png|right wsmall]]
 
 *No Data*
 *Earthquakes and landslides raze Unova with frequency, but the places who suffer them are left with a plentiful harvest that year. Feared by some, revered by others who claim to have seen it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Force|Sand Force]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-landorus.png|right]]
+![[SRD-landorus-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-landorus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

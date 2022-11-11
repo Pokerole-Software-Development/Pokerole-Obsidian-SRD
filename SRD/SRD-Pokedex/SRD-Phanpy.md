@@ -2,9 +2,8 @@
 Ability1: Pickup
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME231.png
-BookShinyImageName: HOME231_s.png
-BoxSprite: SRD-BoxSprite-phanpy.png
+BookSprite: SRD-phanpy-BookSprite.png
+BoxSprite: SRD-phanpy-BoxSprite.png
 DexCategory: Long Nose Pokemon
 DexDescription: They are affectionate and playful, but their snout is so strong that
   they may hurt others while playing. They dig pits at the edge of rivers and mark
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Sand Veil
-HomeSprite: SRD-HomeSprite-phanpy.png
+HomeSprite: SRD-phanpy-HomeSprite.png
 Learnset: '[[SRD-Phanpy-Learnset]]'
 Legendary: 'No'
 Name: Phanpy
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-phanpy.png|right]]
+![[SRD-phanpy-BookSprite.png|right wsmall]]
 
 *Long Nose Pokemon*
 *They are affectionate and playful, but their snout is so strong that they may hurt others while playing. They dig pits at the edge of rivers and mark them so everyone knows that place is taken.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pickup|Pickup]] ([[SRD-Sand Veil|Sand Veil]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-phanpy.png|right]]
+![[SRD-phanpy-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-phanpy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

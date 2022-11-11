@@ -2,9 +2,8 @@
 Ability1: Synchronize
 Ability2: Early Bird
 Baby: 'No'
-BookImageName: HOME177.png
-BookShinyImageName: HOME177_s.png
-BoxSprite: SRD-BoxSprite-xatu.png
+BookSprite: SRD-xatu-BookSprite.png
+BoxSprite: SRD-xatu-BoxSprite.png
 DexCategory: Little Bird Pokemon
 DexDescription: It lives close to the deserts. Its wings are not fully developed so
   it hops to trees and cactus to peck something to eat. If you find one it will hold
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Magic Bounce
-HomeSprite: SRD-HomeSprite-xatu.png
+HomeSprite: SRD-xatu-HomeSprite.png
 Learnset: '[[SRD-Natu-Learnset]]'
 Legendary: 'No'
 Name: Natu
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-xatu.png|right]]
+![[SRD-xatu-BookSprite.png|right wsmall]]
 
 *Little Bird Pokemon*
 *It lives close to the deserts. Its wings are not fully developed so it hops to trees and cactus to peck something to eat. If you find one it will hold your stare, if you get closer it might disappear in an instant.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Synchronize|Synchronize]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Magic Bounce|Magic Bounce]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-xatu.png|right]]
+![[SRD-xatu-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-xatu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

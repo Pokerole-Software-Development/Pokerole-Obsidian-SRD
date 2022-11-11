@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: Neutralizing Gas
 Baby: 'No'
-BookImageName: HOME109.png
-BookShinyImageName: HOME109_s.png
-BoxSprite: SRD-BoxSprite-koffing.png
+BookSprite: SRD-koffing-BookSprite.png
+BoxSprite: SRD-koffing-BoxSprite.png
 DexCategory: Poison Gas Pokemon
 DexDescription: It is drawn to the smog and fumes of the cities. It fills its body
   with toxic gases to float like a balloon. When it gets nervous it releases a sickly
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Stench
-HomeSprite: SRD-HomeSprite-koffing.png
+HomeSprite: SRD-koffing-HomeSprite.png
 Learnset: '[[SRD-Koffing-Learnset]]'
 Legendary: 'No'
 Name: Koffing
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-koffing.png|right]]
+![[SRD-koffing-BookSprite.png|right wsmall]]
 
 *Poison Gas Pokemon*
 *It is drawn to the smog and fumes of the cities. It fills its body with toxic gases to float like a balloon. When it gets nervous it releases a sickly green gas. Breathing this gas will give you a bad case of sniffles.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]] / [[SRD-Neutralizing Gas|Neutralizing Gas]] ([[SRD-Stench|Stench]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-koffing.png|right]]
+![[SRD-koffing-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-koffing-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Cheek Pouch
 Ability2: Pickup
 Baby: 'No'
-BookImageName: HOME702.png
-BookShinyImageName: HOME702_s.png
-BoxSprite: SRD-BoxSprite-dedenne.png
+BookSprite: SRD-dedenne-BookSprite.png
+BoxSprite: SRD-dedenne-BoxSprite.png
 DexCategory: Antenna Pokemon
 DexDescription: The tail is used to absorb electricity from power outlets. They communicate
   with each other by feeling the static on their whiskers. Its cute and cuddly appearance
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Plus
-HomeSprite: SRD-HomeSprite-dedenne.png
+HomeSprite: SRD-dedenne-HomeSprite.png
 Learnset: '[[SRD-Dedenne-Learnset]]'
 Legendary: 'No'
 Name: Dedenne
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dedenne.png|right]]
+![[SRD-dedenne-BookSprite.png|right wsmall]]
 
 *Antenna Pokemon*
 *The tail is used to absorb electricity from power outlets. They communicate with each other by feeling the static on their whiskers. Its cute and cuddly appearance make it a favorite pet.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Cheek Pouch|Cheek Pouch]] / [[SRD-Pickup|Pickup]] ([[SRD-Plus|Plus]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-dedenne.png|right]]
+![[SRD-dedenne-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-dedenne-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

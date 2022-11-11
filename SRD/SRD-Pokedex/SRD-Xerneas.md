@@ -2,9 +2,8 @@
 Ability1: Fairy Aura
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME716.png
-BookShinyImageName: HOME716_s.png
-BoxSprite: SRD-BoxSprite-xerneas.png
+BookSprite: SRD-xerneas-BookSprite.png
+BoxSprite: SRD-xerneas-BoxSprite.png
 DexCategory: No Data
 DexDescription: A Kalos legend tells about the eternal struggle between life and death.
   In the story an ancient King tried to obtain eternal life and the power to make
@@ -17,7 +16,7 @@ Height:
   Feet: 9.8
   Meters: 3.0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-xerneas.png
+HomeSprite: SRD-xerneas-HomeSprite.png
 Learnset: '[[SRD-Xerneas-Learnset]]'
 Legendary: 'Yes'
 Name: Xerneas
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-xerneas.png|right]]
+![[SRD-xerneas-BookSprite.png|right wsmall]]
 
 *No Data*
 *A Kalos legend tells about the eternal struggle between life and death. In the story an ancient King tried to obtain eternal life and the power to make its loved ones live again.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Fairy Aura|Fairy Aura]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-xerneas.png|right]]
+![[SRD-xerneas-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-xerneas-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Tough Claws
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME142M.png
-BookShinyImageName: HOME142M_s.png
-BoxSprite: SRD-BoxSprite-aerodactyl-mega.png
+BookSprite: SRD-aerodactyl-mega-BookSprite.png
+BoxSprite: SRD-aerodactyl-mega-BoxSprite.png
 DexCategory: Fossil Pokemon
 DexDescription: With the power of the Mega Stone it restores the original appearance
   it had millions of years ago with its body covered in sharp rocks. It is very aggressive
@@ -17,7 +16,7 @@ Height:
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-aerodactyl-mega.png
+HomeSprite: SRD-aerodactyl-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Aerodactyl-Learnset]]'
 Legendary: 'No'
 Name: Mega-Aerodactyl
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-aerodactyl-mega.png|right]]
+![[SRD-aerodactyl-mega-BookSprite.png|right wsmall]]
 
 *Fossil Pokemon*
 *With the power of the Mega Stone it restores the original appearance it had millions of years ago with its body covered in sharp rocks. It is very aggressive and will attack anything that moves.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Tough Claws|Tough Claws]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-aerodactyl-mega.png|right]]
+![[SRD-aerodactyl-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-aerodactyl-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

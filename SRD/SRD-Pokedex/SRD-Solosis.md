@@ -2,9 +2,8 @@
 Ability1: Overcoat
 Ability2: Magic Guard
 Baby: 'No'
-BookImageName: HOME577.png
-BookShinyImageName: HOME577_s.png
-BoxSprite: SRD-BoxSprite-solosis.png
+BookSprite: SRD-solosis-BookSprite.png
+BoxSprite: SRD-solosis-BoxSprite.png
 DexCategory: Cell Pokemon
 DexDescription: Because their bodies are enveloped in a special liquid, they can survive
   in any environment. They drive away attackers by unleashing their psychic power.
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-solosis.png
+HomeSprite: SRD-solosis-HomeSprite.png
 Learnset: '[[SRD-Solosis-Learnset]]'
 Legendary: 'No'
 Name: Solosis
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-solosis.png|right]]
+![[SRD-solosis-BookSprite.png|right wsmall]]
 
 *Cell Pokemon*
 *Because their bodies are enveloped in a special liquid, they can survive in any environment. They drive away attackers by unleashing their psychic power. They communicate with their minds.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overcoat|Overcoat]] / [[SRD-Magic Guard|Magic Guard]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-solosis.png|right]]
+![[SRD-solosis-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-solosis-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

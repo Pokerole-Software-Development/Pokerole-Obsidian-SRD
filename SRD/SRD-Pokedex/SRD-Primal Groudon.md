@@ -2,9 +2,8 @@
 Ability1: Desolate Land
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME383P.png
-BookShinyImageName: HOME383P_s.png
-BoxSprite: SRD-BoxSprite-groudon-primal.png
+BookSprite: SRD-groudon-primal-BookSprite.png
+BoxSprite: SRD-groudon-primal-BoxSprite.png
 DexCategory: No Data
 DexDescription: Millions of years ago chaos reigned. Volcanoes erupting without control,
   and unbearable heat made all life dry out. Who was so angry inside the raging fire?
@@ -17,7 +16,7 @@ Height:
   Feet: 16.4
   Meters: 5.0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-groudon-primal.png
+HomeSprite: SRD-groudon-primal-HomeSprite.png
 Learnset: '[[SRD-Primal Groudon-Learnset]]'
 Legendary: 'Yes'
 Name: Primal Groudon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-groudon-primal.png|right]]
+![[SRD-groudon-primal-BookSprite.png|right wsmall]]
 
 *No Data*
 *Millions of years ago chaos reigned. Volcanoes erupting without control, and unbearable heat made all life dry out. Who was so angry inside the raging fire? For its fury has since ingrained into the earth as red rubies.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Desolate Land|Desolate Land]]
 **Base HP**:: 7
 
-![[SRD-BoxSprite-groudon-primal.png|right]]
+![[SRD-groudon-primal-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::8)/(MaxVitality::8)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-groudon-primal-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

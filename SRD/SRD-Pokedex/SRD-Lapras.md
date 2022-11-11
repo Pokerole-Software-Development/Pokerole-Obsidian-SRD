@@ -2,9 +2,8 @@
 Ability1: Water Absorb
 Ability2: Shell Armor
 Baby: 'No'
-BookImageName: HOME131.png
-BookShinyImageName: HOME131_s.png
-BoxSprite: SRD-BoxSprite-lapras.png
+BookSprite: SRD-lapras-BookSprite.png
+BoxSprite: SRD-lapras-BoxSprite.png
 DexCategory: Transport Pokemon
 DexDescription: People have driven Lapras near the point of extinction. In the evenings,
   this Pokemon is said to sing as it seeks what few others of its kind still remain.
@@ -17,7 +16,7 @@ Height:
   Feet: 8.2
   Meters: 2.5
 HiddenAbility: Hydration
-HomeSprite: SRD-HomeSprite-lapras.png
+HomeSprite: SRD-lapras-HomeSprite.png
 Learnset: '[[SRD-Lapras-Learnset]]'
 Legendary: 'No'
 Name: Lapras
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lapras.png|right]]
+![[SRD-lapras-BookSprite.png|right wsmall]]
 
 *Transport Pokemon*
 *People have driven Lapras near the point of extinction. In the evenings, this Pokemon is said to sing as it seeks what few others of its kind still remain. Their gentle nature has made them easy to lure and catch.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Hydration|Hydration]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-lapras.png|right]]
+![[SRD-lapras-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-lapras-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

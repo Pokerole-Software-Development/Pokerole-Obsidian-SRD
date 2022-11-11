@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME093.png
-BookShinyImageName: HOME093_s.png
-BoxSprite: SRD-BoxSprite-haunter.png
+BookSprite: SRD-haunter-BookSprite.png
+BoxSprite: SRD-haunter-BoxSprite.png
 DexCategory: Gas Pokemon
 DexDescription: Haunter is a dangerous Pokemon. it will try to lick you with its tongue
   to steal your life away. If you get the feeling of being watched in darkness when
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-haunter.png
+HomeSprite: SRD-haunter-HomeSprite.png
 Learnset: '[[SRD-Haunter-Learnset]]'
 Legendary: 'No'
 Name: Haunter
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-haunter.png|right]]
+![[SRD-haunter-BookSprite.png|right wsmall]]
 
 *Gas Pokemon*
 *Haunter is a dangerous Pokemon. it will try to lick you with its tongue to steal your life away. If you get the feeling of being watched in darkness when nobody is around, it means a Haunter is there.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-haunter.png|right]]
+![[SRD-haunter-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-haunter-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

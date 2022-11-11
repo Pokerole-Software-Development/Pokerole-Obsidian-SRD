@@ -2,9 +2,8 @@
 Ability1: Sweet Veil
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME684.png
-BookShinyImageName: HOME684_s.png
-BoxSprite: SRD-BoxSprite-swirlix.png
+BookSprite: SRD-swirlix-BookSprite.png
+BoxSprite: SRD-swirlix-BoxSprite.png
 DexCategory: Cotton Candy Pokemon
 DexDescription: Because it eats nothing but sweet fruit, honey and sugars, its fur
   is as sticky and sweet as cotton candy. To entangle its opponents in battle, it
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Unburden
-HomeSprite: SRD-HomeSprite-swirlix.png
+HomeSprite: SRD-swirlix-HomeSprite.png
 Learnset: '[[SRD-Swirlix-Learnset]]'
 Legendary: 'No'
 Name: Swirlix
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-swirlix.png|right]]
+![[SRD-swirlix-BookSprite.png|right wsmall]]
 
 *Cotton Candy Pokemon*
 *Because it eats nothing but sweet fruit, honey and sugars, its fur is as sticky and sweet as cotton candy. To entangle its opponents in battle, it extrudes white and sticky threads but the foes end up eating them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sweet Veil|Sweet Veil]] ([[SRD-Unburden|Unburden]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-swirlix.png|right]]
+![[SRD-swirlix-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-swirlix-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

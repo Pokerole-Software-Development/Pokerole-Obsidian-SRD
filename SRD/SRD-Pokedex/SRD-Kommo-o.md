@@ -2,9 +2,8 @@
 Ability1: Bulletproof
 Ability2: Soundproof
 Baby: 'No'
-BookImageName: HOME784.png
-BookShinyImageName: HOME784_s.png
-BoxSprite: SRD-BoxSprite-kommo-o.png
+BookSprite: SRD-kommo-o-BookSprite.png
+BoxSprite: SRD-kommo-o-BoxSprite.png
 DexCategory: Scaly Pokemon
 DexDescription: It completed its harsh training and returns to the mountain where
   it was born to look after the young Jangmo-o, watching them from afar. It is constantly
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Overcoat
-HomeSprite: SRD-HomeSprite-kommo-o.png
+HomeSprite: SRD-kommo-o-HomeSprite.png
 Learnset: '[[SRD-Kommo-o-Learnset]]'
 Legendary: 'No'
 Name: Kommo-o
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-kommo-o.png|right]]
+![[SRD-kommo-o-BookSprite.png|right wsmall]]
 
 *Scaly Pokemon*
 *It completed its harsh training and returns to the mountain where it was born to look after the young Jangmo-o, watching them from afar. It is constantly looking for strong opponents.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Bulletproof|Bulletproof]] / [[SRD-Soundproof|Soundproof]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-kommo-o.png|right]]
+![[SRD-kommo-o-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-kommo-o-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

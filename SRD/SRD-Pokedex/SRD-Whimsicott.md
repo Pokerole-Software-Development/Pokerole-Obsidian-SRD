@@ -2,9 +2,8 @@
 Ability1: Prankster
 Ability2: Infiltrator
 Baby: 'No'
-BookImageName: HOME547.png
-BookShinyImageName: HOME547_s.png
-BoxSprite: SRD-BoxSprite-whimsicott.png
+BookSprite: SRD-whimsicott-BookSprite.png
+BoxSprite: SRD-whimsicott-BoxSprite.png
 DexCategory: Windveiled Pokemon
 DexDescription: Riding whirlwinds, they appear and disappear. These Pokemon sneak
   through even the smallest gaps into houses and cause all sorts of mischief the balls
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Chlorophyll
-HomeSprite: SRD-HomeSprite-whimsicott.png
+HomeSprite: SRD-whimsicott-HomeSprite.png
 Learnset: '[[SRD-Whimsicott-Learnset]]'
 Legendary: 'No'
 Name: Whimsicott
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-whimsicott.png|right]]
+![[SRD-whimsicott-BookSprite.png|right wsmall]]
 
 *Windveiled Pokemon*
 *Riding whirlwinds, they appear and disappear. These Pokemon sneak through even the smallest gaps into houses and cause all sorts of mischief the balls of white fluff it leaves behind reveal its presence.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Prankster|Prankster]] / [[SRD-Infiltrator|Infiltrator]] ([[SRD-Chlorophyll|Chlorophyll]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-whimsicott.png|right]]
+![[SRD-whimsicott-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-whimsicott-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

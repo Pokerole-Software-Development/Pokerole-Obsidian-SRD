@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: Shell Armor
 Baby: 'No'
-BookImageName: HOME589.png
-BookShinyImageName: HOME589_s.png
-BoxSprite: SRD-BoxSprite-escavalier.png
+BookSprite: SRD-escavalier-BookSprite.png
+BoxSprite: SRD-escavalier-BoxSprite.png
 DexCategory: Cavalry Pokemon
 DexDescription: Wearing the shell covering it stole from a Shelmet, it defends itself
   and attacks with two stings. It can fly to move around but its wings are too small
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Overcoat
-HomeSprite: SRD-HomeSprite-escavalier.png
+HomeSprite: SRD-escavalier-HomeSprite.png
 Learnset: '[[SRD-Escavalier-Learnset]]'
 Legendary: 'No'
 Name: Escavalier
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-escavalier.png|right]]
+![[SRD-escavalier-BookSprite.png|right wsmall]]
 
 *Cavalry Pokemon*
 *Wearing the shell covering it stole from a Shelmet, it defends itself and attacks with two stings. It can fly to move around but its wings are too small to carry its weight to high altitudes.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-escavalier.png|right]]
+![[SRD-escavalier-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-escavalier-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

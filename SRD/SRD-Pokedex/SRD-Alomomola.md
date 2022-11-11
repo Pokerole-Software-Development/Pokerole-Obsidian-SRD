@@ -2,9 +2,8 @@
 Ability1: Healer
 Ability2: Hydration
 Baby: 'No'
-BookImageName: HOME594.png
-BookShinyImageName: HOME594_s.png
-BoxSprite: SRD-BoxSprite-alomomola.png
+BookSprite: SRD-alomomola-BookSprite.png
+BoxSprite: SRD-alomomola-BoxSprite.png
 DexCategory: Caring Pokemon
 DexDescription: Floating in the open sea is how they live. When they find a wounded
   Pokemon, they embrace it and use their special membrane to heal their wounds. A
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-alomomola.png
+HomeSprite: SRD-alomomola-HomeSprite.png
 Learnset: '[[SRD-Alomomola-Learnset]]'
 Legendary: 'No'
 Name: Alomomola
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-alomomola.png|right]]
+![[SRD-alomomola-BookSprite.png|right wsmall]]
 
 *Caring Pokemon*
 *Floating in the open sea is how they live. When they find a wounded Pokemon, they embrace it and use their special membrane to heal their wounds. A caring, noble and selfless Pokemon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Healer|Healer]] / [[SRD-Hydration|Hydration]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 8
 
-![[SRD-BoxSprite-alomomola.png|right]]
+![[SRD-alomomola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-alomomola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

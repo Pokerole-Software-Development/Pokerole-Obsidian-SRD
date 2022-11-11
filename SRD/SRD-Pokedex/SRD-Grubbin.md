@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME736.png
-BookShinyImageName: HOME736_s.png
-BoxSprite: SRD-BoxSprite-grubbin.png
+BookSprite: SRD-grubbin-BookSprite.png
+BoxSprite: SRD-grubbin-BoxSprite.png
 DexCategory: Larva Pokemon
 DexDescription: They tend to gather anywhere Electric Pokemon live to protect themselves
   from bird Pokemon who may prey on them. When they are ready to evolve they bury
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-grubbin.png
+HomeSprite: SRD-grubbin-HomeSprite.png
 Learnset: '[[SRD-Grubbin-Learnset]]'
 Legendary: 'No'
 Name: Grubbin
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-grubbin.png|right]]
+![[SRD-grubbin-BookSprite.png|right wsmall]]
 
 *Larva Pokemon*
 *They tend to gather anywhere Electric Pokemon live to protect themselves from bird Pokemon who may prey on them. When they are ready to evolve they bury themselves underground.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-grubbin.png|right]]
+![[SRD-grubbin-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-grubbin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

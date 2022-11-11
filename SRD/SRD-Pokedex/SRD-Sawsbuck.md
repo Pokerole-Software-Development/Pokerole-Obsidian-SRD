@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: Sap Sipper
 Baby: 'No'
-BookImageName: HOME586.png
-BookShinyImageName: HOME586_s.png
-BoxSprite: SRD-BoxSprite-sawsbuck.png
+BookSprite: SRD-sawsbuck-BookSprite.png
+BoxSprite: SRD-sawsbuck-BoxSprite.png
 DexCategory: Season Pokemon
 DexDescription: The plants growing on its horns change according to the season. They
   live in herds that migrate in search of grass. The leaders of the herd possess magnificent
@@ -17,7 +16,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Serene Grace
-HomeSprite: SRD-HomeSprite-sawsbuck.png
+HomeSprite: SRD-sawsbuck-HomeSprite.png
 Learnset: '[[SRD-Sawsbuck-Learnset]]'
 Legendary: 'No'
 Name: Sawsbuck
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sawsbuck.png|right]]
+![[SRD-sawsbuck-BookSprite.png|right wsmall]]
 
 *Season Pokemon*
 *The plants growing on its horns change according to the season. They live in herds that migrate in search of grass. The leaders of the herd possess magnificent horns. They tend to be peaceful creatures.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Sap Sipper|Sap Sipper]] ([[SRD-Serene Grace|Serene Grace]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-sawsbuck.png|right]]
+![[SRD-sawsbuck-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-sawsbuck-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

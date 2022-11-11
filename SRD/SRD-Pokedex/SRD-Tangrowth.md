@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: Leaf Guard
 Baby: 'No'
-BookImageName: HOME465.png
-BookShinyImageName: HOME465_s.png
-BoxSprite: SRD-BoxSprite-tangrowth.png
+BookSprite: SRD-tangrowth-BookSprite.png
+BoxSprite: SRD-tangrowth-BoxSprite.png
 DexCategory: Vine Pokemon
 DexDescription: "While it remains still, it appears to be a large shrub. Unsuspecting\
   \ prey that wander near get ensnared by its vines. In the summer months, its vines\
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-tangrowth.png
+HomeSprite: SRD-tangrowth-HomeSprite.png
 Learnset: '[[SRD-Tangrowth-Learnset]]'
 Legendary: 'No'
 Name: Tangrowth
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tangrowth.png|right]]
+![[SRD-tangrowth-BookSprite.png|right wsmall]]
 
 *Vine Pokemon*
 *While it remains still, it appears to be a large shrub. Unsuspecting prey that wander near get ensnared by its vines. In the summer months, its vines grow so large that you can’t even see its eyes.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Leaf Guard|Leaf Guard]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-tangrowth.png|right]]
+![[SRD-tangrowth-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-tangrowth-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

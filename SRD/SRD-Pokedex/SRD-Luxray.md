@@ -2,9 +2,8 @@
 Ability1: Rivalry
 Ability2: Intimidate
 Baby: 'No'
-BookImageName: HOME405.png
-BookShinyImageName: HOME405_s.png
-BoxSprite: SRD-BoxSprite-luxray.png
+BookSprite: SRD-luxray-BookSprite.png
+BoxSprite: SRD-luxray-BoxSprite.png
 DexCategory: Gleam Eyes Pokemon
 DexDescription: It is said that it can see through walls. This Pokemon can easily
   find hiding prey and locate its young. Male Luxrays can be found roaming alone,
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Guts
-HomeSprite: SRD-HomeSprite-luxray.png
+HomeSprite: SRD-luxray-HomeSprite.png
 Learnset: '[[SRD-Luxray-Learnset]]'
 Legendary: 'No'
 Name: Luxray
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-luxray.png|right]]
+![[SRD-luxray-BookSprite.png|right wsmall]]
 
 *Gleam Eyes Pokemon*
 *It is said that it can see through walls. This Pokemon can easily find hiding prey and locate its young. Male Luxrays can be found roaming alone, patrolling their territory; the females hunt in groups.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rivalry|Rivalry]] / [[SRD-Intimidate|Intimidate]] ([[SRD-Guts|Guts]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-luxray.png|right]]
+![[SRD-luxray-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-luxray-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

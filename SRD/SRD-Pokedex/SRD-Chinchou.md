@@ -2,9 +2,8 @@
 Ability1: Volt Absorb
 Ability2: Illuminate
 Baby: 'No'
-BookImageName: HOME170.png
-BookShinyImageName: HOME170_s.png
-BoxSprite: SRD-BoxSprite-chinchou.png
+BookSprite: SRD-chinchou-BookSprite.png
+BoxSprite: SRD-chinchou-BoxSprite.png
 DexCategory: Angler Pokemon
 DexDescription: In the dark ocean floor, its only mean of communication is to constantly
   flash its lights. It is a clumsy but friendly Pokemon. Its antennae can be used
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Water Absorb
-HomeSprite: SRD-HomeSprite-chinchou.png
+HomeSprite: SRD-chinchou-HomeSprite.png
 Learnset: '[[SRD-Chinchou-Learnset]]'
 Legendary: 'No'
 Name: Chinchou
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-chinchou.png|right]]
+![[SRD-chinchou-BookSprite.png|right wsmall]]
 
 *Angler Pokemon*
 *In the dark ocean floor, its only mean of communication is to constantly flash its lights. It is a clumsy but friendly Pokemon. Its antennae can be used to power up small electric appliances.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Volt Absorb|Volt Absorb]] / [[SRD-Illuminate|Illuminate]] ([[SRD-Water Absorb|Water Absorb]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-chinchou.png|right]]
+![[SRD-chinchou-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-chinchou-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

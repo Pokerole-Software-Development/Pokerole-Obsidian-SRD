@@ -2,9 +2,8 @@
 Ability1: Shed Skin
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME665.png
-BookShinyImageName: HOME665_s.png
-BoxSprite: SRD-BoxSprite-spewpa.png
+BookSprite: SRD-spewpa-BookSprite.png
+BoxSprite: SRD-spewpa-BoxSprite.png
 DexCategory: Scatterdust Pokemon
 DexDescription: It remains hidden inside old logs. When predators attack, it quickly
   bristles the fur covering its body to scare them. Bird Pokemon have a hard time
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Friend Guard
-HomeSprite: SRD-HomeSprite-spewpa.png
+HomeSprite: SRD-spewpa-HomeSprite.png
 Learnset: '[[SRD-Spewpa-Learnset]]'
 Legendary: 'No'
 Name: Spewpa
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-spewpa.png|right]]
+![[SRD-spewpa-BookSprite.png|right wsmall]]
 
 *Scatterdust Pokemon*
 *It remains hidden inside old logs. When predators attack, it quickly bristles the fur covering its body to scare them. Bird Pokemon have a hard time trying to eat it with all the dust it releases as protection.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]] ([[SRD-Friend Guard|Friend Guard]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-spewpa.png|right]]
+![[SRD-spewpa-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-spewpa-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

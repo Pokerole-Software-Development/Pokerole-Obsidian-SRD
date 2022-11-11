@@ -2,9 +2,8 @@
 Ability1: Gluttony
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME511.png
-BookShinyImageName: HOME511_s.png
-BoxSprite: SRD-BoxSprite-pansage.png
+BookSprite: SRD-pansage-BookSprite.png
+BoxSprite: SRD-pansage-BoxSprite.png
 DexCategory: Grass Monkey Pokemon
 DexDescription: "Pansage is a friendly Pokemon. It is good at finding berries and\
   \ will share them with other Pokemon. The leaves on it\u2019s head have medicinal\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Overgrow
-HomeSprite: SRD-HomeSprite-pansage.png
+HomeSprite: SRD-pansage-HomeSprite.png
 Learnset: '[[SRD-Pansage-Learnset]]'
 Legendary: 'No'
 Name: Pansage
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pansage.png|right]]
+![[SRD-pansage-BookSprite.png|right wsmall]]
 
 *Grass Monkey Pokemon*
 *Pansage is a friendly Pokemon. It is good at finding berries and will share them with other Pokemon. The leaves on it’s head have medicinal properties, if it finds a sick Pokemon it will offer some to heal it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Gluttony|Gluttony]] ([[SRD-Overgrow|Overgrow]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-pansage.png|right]]
+![[SRD-pansage-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-pansage-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

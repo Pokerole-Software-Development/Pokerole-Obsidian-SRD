@@ -2,9 +2,8 @@
 Ability1: Bulletproof
 Ability2: Soundproof
 Baby: 'No'
-BookImageName: HOME782.png
-BookShinyImageName: HOME782_s.png
-BoxSprite: SRD-BoxSprite-jangmo-o.png
+BookSprite: SRD-jangmo-o-BookSprite.png
+BoxSprite: SRD-jangmo-o-BoxSprite.png
 DexCategory: Scaly Pokemon
 DexDescription: They live in mountains rarely visited by humans. Although they are
   valiant and hard-working Pokemon they retain their independent nature. It uses the
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Overcoat
-HomeSprite: SRD-HomeSprite-jangmo-o.png
+HomeSprite: SRD-jangmo-o-HomeSprite.png
 Learnset: '[[SRD-Jangmo-o-Learnset]]'
 Legendary: 'No'
 Name: Jangmo-o
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-jangmo-o.png|right]]
+![[SRD-jangmo-o-BookSprite.png|right wsmall]]
 
 *Scaly Pokemon*
 *They live in mountains rarely visited by humans. Although they are valiant and hard-working Pokemon they retain their independent nature. It uses the scale on its head for both attack and defense.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Bulletproof|Bulletproof]] / [[SRD-Soundproof|Soundproof]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-jangmo-o.png|right]]
+![[SRD-jangmo-o-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-jangmo-o-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

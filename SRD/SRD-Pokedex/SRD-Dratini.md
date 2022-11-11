@@ -2,9 +2,8 @@
 Ability1: Shed Skin
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME147.png
-BookShinyImageName: HOME147_s.png
-BoxSprite: SRD-BoxSprite-dratini.png
+BookSprite: SRD-dratini-BookSprite.png
+BoxSprite: SRD-dratini-BoxSprite.png
 DexCategory: Dragon Pokemon
 DexDescription: Up until recently its existence was debated as being a mere legend,
   then a small colony was found underwater. It is still extremely rare to find. It
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Marvel Scale
-HomeSprite: SRD-HomeSprite-dratini.png
+HomeSprite: SRD-dratini-HomeSprite.png
 Learnset: '[[SRD-Dratini-Learnset]]'
 Legendary: 'No'
 Name: Dratini
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dratini.png|right]]
+![[SRD-dratini-BookSprite.png|right wsmall]]
 
 *Dragon Pokemon*
 *Up until recently its existence was debated as being a mere legend, then a small colony was found underwater. It is still extremely rare to find. It sheds skin and grows larger every day.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]] ([[SRD-Marvel Scale|Marvel Scale]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-dratini.png|right]]
+![[SRD-dratini-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-dratini-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

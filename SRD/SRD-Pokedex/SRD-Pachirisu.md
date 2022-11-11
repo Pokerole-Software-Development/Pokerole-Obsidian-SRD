@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Pickup
 Baby: 'No'
-BookImageName: HOME417.png
-BookShinyImageName: HOME417_s.png
-BoxSprite: SRD-BoxSprite-pachirisu.png
+BookSprite: SRD-pachirisu-BookSprite.png
+BoxSprite: SRD-pachirisu-BoxSprite.png
 DexCategory: EleSquirrel Pokemon
 DexDescription: It lives on top of the trees, gathering food for the cold winter months.
   It keeps warm by making fur balls charged with static electricity. Like other electric
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Volt Absorb
-HomeSprite: SRD-HomeSprite-pachirisu.png
+HomeSprite: SRD-pachirisu-HomeSprite.png
 Learnset: '[[SRD-Pachirisu-Learnset]]'
 Legendary: 'No'
 Name: Pachirisu
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pachirisu.png|right]]
+![[SRD-pachirisu-BookSprite.png|right wsmall]]
 
 *EleSquirrel Pokemon*
 *It lives on top of the trees, gathering food for the cold winter months. It keeps warm by making fur balls charged with static electricity. Like other electric rodents, it stores electricity on its cheek pouches.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Pickup|Pickup]] ([[SRD-Volt Absorb|Volt Absorb]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-pachirisu.png|right]]
+![[SRD-pachirisu-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-pachirisu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Water Absorb
 Ability2: Damp
 Baby: 'No'
-BookImageName: HOME062.png
-BookShinyImageName: HOME062_s.png
-BoxSprite: SRD-BoxSprite-poliwrath.png
+BookSprite: SRD-poliwrath-BookSprite.png
+BoxSprite: SRD-poliwrath-BoxSprite.png
 DexCategory: Tadpole Pokemon
 DexDescription: "It\u2019s not common to find it in the wild. Most sightings take\
   \ place when it is on land. Once he is inside the water, it will swim far away.\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Swift Swim
-HomeSprite: SRD-HomeSprite-poliwrath.png
+HomeSprite: SRD-poliwrath-HomeSprite.png
 Learnset: '[[SRD-Poliwrath-Learnset]]'
 Legendary: 'No'
 Name: Poliwrath
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-poliwrath.png|right]]
+![[SRD-poliwrath-BookSprite.png|right wsmall]]
 
 *Tadpole Pokemon*
 *It’s not common to find it in the wild. Most sightings take place when it is on land. Once he is inside the water, it will swim far away. This Pokemon is an outstanding swimmer, capable of beating any human.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] / [[SRD-Damp|Damp]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-poliwrath.png|right]]
+![[SRD-poliwrath-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-poliwrath-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

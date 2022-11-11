@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME723.png
-BookShinyImageName: HOME723_s.png
-BoxSprite: SRD-BoxSprite-dartrix.png
+BookSprite: SRD-dartrix-BookSprite.png
+BoxSprite: SRD-dartrix-BoxSprite.png
 DexCategory: Blade Quill Pokemon
 DexDescription: Dartix are vain creatures, they dislike it when their feathers are
   ruffled, even stopping midfight to groom them. Despite its elegant demeanor it hides
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Long Reach
-HomeSprite: SRD-HomeSprite-dartrix.png
+HomeSprite: SRD-dartrix-HomeSprite.png
 Learnset: '[[SRD-Dartrix-Learnset]]'
 Legendary: 'No'
 Name: Dartrix
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dartrix.png|right]]
+![[SRD-dartrix-BookSprite.png|right wsmall]]
 
 *Blade Quill Pokemon*
 *Dartix are vain creatures, they dislike it when their feathers are ruffled, even stopping midfight to groom them. Despite its elegant demeanor it hides an awkward personality, prone to panic and clumsiness.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Long Reach|Long Reach]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-dartrix.png|right]]
+![[SRD-dartrix-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-dartrix-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

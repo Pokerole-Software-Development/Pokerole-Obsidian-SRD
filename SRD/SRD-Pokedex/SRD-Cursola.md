@@ -2,9 +2,8 @@
 Ability1: Weak Armor
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME864.png
-BookShinyImageName: HOME864_s.png
-BoxSprite: SRD-BoxSprite-cursola.png
+BookSprite: SRD-cursola-BookSprite.png
+BoxSprite: SRD-cursola-BoxSprite.png
 DexCategory: Coral Pokemon
 DexDescription: "The ectoplasm serves as protection for its soul, do not touch it\
   \ or you\u2019ll become stiff as stone. This Pokemon longs for the days where coral\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Perish Body
-HomeSprite: SRD-HomeSprite-cursola.png
+HomeSprite: SRD-cursola-HomeSprite.png
 Learnset: '[[SRD-Cursola-Learnset]]'
 Legendary: 'No'
 Name: Cursola
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cursola.png|right]]
+![[SRD-cursola-BookSprite.png|right wsmall]]
 
 *Coral Pokemon*
 *The ectoplasm serves as protection for its soul, do not touch it or you’ll become stiff as stone. This Pokemon longs for the days where coral reefs were full of life, it holds a grudge to those who destroyed them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Weak Armor|Weak Armor]] ([[SRD-Perish Body|Perish Body]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-cursola.png|right]]
+![[SRD-cursola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-cursola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

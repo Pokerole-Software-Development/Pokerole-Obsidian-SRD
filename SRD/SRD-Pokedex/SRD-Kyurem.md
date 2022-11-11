@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME646.png
-BookShinyImageName: HOME646_s.png
-BoxSprite: SRD-BoxSprite-kyurem.png
+BookSprite: SRD-kyurem-BookSprite.png
+BoxSprite: SRD-kyurem-BoxSprite.png
 DexCategory: No Data
 DexDescription: Inside a remote and frozen cave there are some old paintings. They
   depict a giant dragon being thorn apart into a black and white shards Of the rest
@@ -17,7 +16,7 @@ Height:
   Feet: 9.8
   Meters: 3.0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-kyurem.png
+HomeSprite: SRD-kyurem-HomeSprite.png
 Learnset: '[[SRD-Kyurem-Learnset]]'
 Legendary: 'Yes'
 Name: Kyurem
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-kyurem.png|right]]
+![[SRD-kyurem-BookSprite.png|right wsmall]]
 
 *No Data*
 *Inside a remote and frozen cave there are some old paintings. They depict a giant dragon being thorn apart into a black and white shards Of the rest of the picture only shattered fragments of ice remain.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-kyurem.png|right]]
+![[SRD-kyurem-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-kyurem-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

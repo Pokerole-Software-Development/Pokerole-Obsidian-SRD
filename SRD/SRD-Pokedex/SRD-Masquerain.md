@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME284.png
-BookShinyImageName: HOME284_s.png
-BoxSprite: SRD-BoxSprite-masquerain.png
+BookSprite: SRD-masquerain-BookSprite.png
+BoxSprite: SRD-masquerain-BoxSprite.png
 DexCategory: Eyeball Pokemon
 DexDescription: "Their antennas look like terrifying eyes. Masquerains can fly in\
   \ any direction like a helicopter, but their wings are soft and fragile, so they\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Unnerve
-HomeSprite: SRD-HomeSprite-masquerain.png
+HomeSprite: SRD-masquerain-HomeSprite.png
 Learnset: '[[SRD-Masquerain-Learnset]]'
 Legendary: 'No'
 Name: Masquerain
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-masquerain.png|right]]
+![[SRD-masquerain-BookSprite.png|right wsmall]]
 
 *Eyeball Pokemon*
 *Their antennas look like terrifying eyes. Masquerains can fly in any direction like a helicopter, but their wings are soft and fragile, so they can’t fly when it’s raining. They cling to trees at night to sleep.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-masquerain.png|right]]
+![[SRD-masquerain-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-masquerain-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

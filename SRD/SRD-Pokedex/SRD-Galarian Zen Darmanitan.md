@@ -2,9 +2,8 @@
 Ability1: Gorilla Tactics
 Ability2: Zen Mode
 Baby: 'No'
-BookImageName: HOME555GZ.png
-BookShinyImageName: HOME555GZ_s.png
-BoxSprite: SRD-BoxSprite-darmanitan-galar-zen.png
+BookSprite: SRD-darmanitan-galar-zen-BookSprite.png
+BoxSprite: SRD-darmanitan-galar-zen-BoxSprite.png
 DexCategory: Zen Charm Pokemon (Galarian)
 DexDescription: Zen Charm Pokemon (Galarian) When Darmanitan gets angry  atrophied
   fire core is reignited, This Pokemon breathes fire and  destroys everything on its
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-darmanitan-galar-zen.png
+HomeSprite: SRD-darmanitan-galar-zen-HomeSprite.png
 Learnset: '[[SRD-Galarian Zen Darmanitan-Learnset]]'
 Legendary: 'No'
 Name: Galarian Zen Darmanitan
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-darmanitan-galar-zen.png|right]]
+![[SRD-darmanitan-galar-zen-BookSprite.png|right wsmall]]
 
 *Zen Charm Pokemon (Galarian)*
 *Zen Charm Pokemon (Galarian) When Darmanitan gets angry  atrophied fire core is reignited, This Pokemon breathes fire and  destroys everything on its path.. They must be calmed down or its own heat may melt their bodies.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Gorilla Tactics|Gorilla Tactics]] / [[SRD-Zen Mode|Zen Mode]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-darmanitan-galar-zen.png|right]]
+![[SRD-darmanitan-galar-zen-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-darmanitan-galar-zen-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

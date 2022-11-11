@@ -2,9 +2,8 @@
 Ability1: Inner Focus
 Ability2: Regenerator
 Baby: 'No'
-BookImageName: HOME620.png
-BookShinyImageName: HOME620_s.png
-BoxSprite: SRD-BoxSprite-mienshao.png
+BookSprite: SRD-mienshao-BookSprite.png
+BoxSprite: SRD-mienshao-BoxSprite.png
 DexCategory: Martial Arts Pokemon
 DexDescription: By the time they evolve they already have many years of experience
   in fighting. They use the long fur on their arms as a whip to strike their opponents
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Reckless
-HomeSprite: SRD-HomeSprite-mienshao.png
+HomeSprite: SRD-mienshao-HomeSprite.png
 Learnset: '[[SRD-Mienshao-Learnset]]'
 Legendary: 'No'
 Name: Mienshao
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mienshao.png|right]]
+![[SRD-mienshao-BookSprite.png|right wsmall]]
 
 *Martial Arts Pokemon*
 *By the time they evolve they already have many years of experience in fighting. They use the long fur on their arms as a whip to strike their opponents and will not stop until the foe is defeated.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] / [[SRD-Regenerator|Regenerator]] ([[SRD-Reckless|Reckless]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-mienshao.png|right]]
+![[SRD-mienshao-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-mienshao-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME646B.png
-BookShinyImageName: HOME646B_s.png
-BoxSprite: SRD-BoxSprite-kyurem-black.png
+BookSprite: SRD-kyurem-black-BookSprite.png
+BoxSprite: SRD-kyurem-black-BoxSprite.png
 DexCategory: No Data
 DexDescription: In the Icy mountains at the east of Unova, you can hear the wails
   of a creature suffering as if it missed a part of its very soul. Dark clouds and
@@ -17,7 +16,7 @@ Height:
   Feet: 10.8
   Meters: 3.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-kyurem-black.png
+HomeSprite: SRD-kyurem-black-HomeSprite.png
 Learnset: '[[SRD-Black Kyurem-Learnset]]'
 Legendary: 'Yes'
 Name: Black Kyurem
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-kyurem-black.png|right]]
+![[SRD-kyurem-black-BookSprite.png|right wsmall]]
 
 *No Data*
 *In the Icy mountains at the east of Unova, you can hear the wails of a creature suffering as if it missed a part of its very soul. Dark clouds and lightning are sure to follow.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-kyurem-black.png|right]]
+![[SRD-kyurem-black-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-kyurem-black-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

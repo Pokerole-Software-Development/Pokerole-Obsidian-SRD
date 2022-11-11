@@ -2,9 +2,8 @@
 Ability1: Ripen
 Ability2: Gluttony
 Baby: 'No'
-BookImageName: HOME842.png
-BookShinyImageName: HOME842_s.png
-BoxSprite: SRD-BoxSprite-appletun.png
+BookSprite: SRD-appletun-BookSprite.png
+BoxSprite: SRD-appletun-BoxSprite.png
 DexCategory: Apple Nectar Pokemon
 DexDescription: Eating a sweet apple caused its evolution. A nectarous scent wafts
   from its body, luring in the bug Pokemon it preys on, but it also attracts other
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Thick Fat
-HomeSprite: SRD-HomeSprite-appletun.png
+HomeSprite: SRD-appletun-HomeSprite.png
 Learnset: '[[SRD-Appletun-Learnset]]'
 Legendary: 'No'
 Name: Appletun
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-appletun.png|right]]
+![[SRD-appletun-BookSprite.png|right wsmall]]
 
 *Apple Nectar Pokemon*
 *Eating a sweet apple caused its evolution. A nectarous scent wafts from its body, luring in the bug Pokemon it preys on, but it also attracts other Pokemon who eat the skins atop of its back.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Ripen|Ripen]] / [[SRD-Gluttony|Gluttony]] ([[SRD-Thick Fat|Thick Fat]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-appletun.png|right]]
+![[SRD-appletun-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-appletun-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

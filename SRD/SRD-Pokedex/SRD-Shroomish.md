@@ -2,9 +2,8 @@
 Ability1: Effect Spore
 Ability2: Poison Heal
 Baby: 'No'
-BookImageName: HOME285.png
-BookShinyImageName: HOME285_s.png
-BoxSprite: SRD-BoxSprite-shroomish.png
+BookSprite: SRD-shroomish-BookSprite.png
+BoxSprite: SRD-shroomish-BoxSprite.png
 DexCategory: Mushroom Pokemon
 DexDescription: They live in damp soil in forests, surrounded by moss. They suddenly
   release toxic spores that make plants dry up. These spores cause serious pain if
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Quick Feet
-HomeSprite: SRD-HomeSprite-shroomish.png
+HomeSprite: SRD-shroomish-HomeSprite.png
 Learnset: '[[SRD-Shroomish-Learnset]]'
 Legendary: 'No'
 Name: Shroomish
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-shroomish.png|right]]
+![[SRD-shroomish-BookSprite.png|right wsmall]]
 
 *Mushroom Pokemon*
 *They live in damp soil in forests, surrounded by moss. They suddenly release toxic spores that make plants dry up. These spores cause serious pain if inhaled. They grow taller with moisture and heat.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Effect Spore|Effect Spore]] / [[SRD-Poison Heal|Poison Heal]] ([[SRD-Quick Feet|Quick Feet]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-shroomish.png|right]]
+![[SRD-shroomish-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-shroomish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Stakeout
 Ability2: Strong Jaw
 Baby: 'No'
-BookImageName: HOME735.png
-BookShinyImageName: HOME735_s.png
-BoxSprite: SRD-BoxSprite-gumshoos.png
+BookSprite: SRD-gumshoos-BookSprite.png
+BoxSprite: SRD-gumshoos-BoxSprite.png
 DexCategory: Stakeout Pokemon
 DexDescription: Alolan Ratatta became nocturnal to evade this Pokemon, as it is their
   main Predator. Gumshoos now go hungry for days before they find something suitable
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Adaptability
-HomeSprite: SRD-HomeSprite-gumshoos.png
+HomeSprite: SRD-gumshoos-HomeSprite.png
 Learnset: '[[SRD-Gumshoos-Learnset]]'
 Legendary: 'No'
 Name: Gumshoos
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gumshoos.png|right]]
+![[SRD-gumshoos-BookSprite.png|right wsmall]]
 
 *Stakeout Pokemon*
 *Alolan Ratatta became nocturnal to evade this Pokemon, as it is their main Predator. Gumshoos now go hungry for days before they find something suitable to eat, they compensate by sleeping a lot.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Stakeout|Stakeout]] / [[SRD-Strong Jaw|Strong Jaw]] ([[SRD-Adaptability|Adaptability]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-gumshoos.png|right]]
+![[SRD-gumshoos-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-gumshoos-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

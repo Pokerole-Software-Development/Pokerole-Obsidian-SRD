@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: Leaf Guard
 Baby: 'No'
-BookImageName: HOME114.png
-BookShinyImageName: HOME114_s.png
-BoxSprite: SRD-BoxSprite-tangela.png
+BookSprite: SRD-tangela-BookSprite.png
+BoxSprite: SRD-tangela-BoxSprite.png
 DexCategory: Vine Pokemon
 DexDescription: It blends with foliage on jungle and forest areas. Its vines snap
   off easily and painlessly if they are grabbed, allowing it to make a quick getaway.
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-tangela.png
+HomeSprite: SRD-tangela-HomeSprite.png
 Learnset: '[[SRD-Tangela-Learnset]]'
 Legendary: 'No'
 Name: Tangela
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tangela.png|right]]
+![[SRD-tangela-BookSprite.png|right wsmall]]
 
 *Vine Pokemon*
 *It blends with foliage on jungle and forest areas. Its vines snap off easily and painlessly if they are grabbed, allowing it to make a quick getaway. The lost vines are replaced by new growth the very next day.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Leaf Guard|Leaf Guard]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-tangela.png|right]]
+![[SRD-tangela-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-tangela-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

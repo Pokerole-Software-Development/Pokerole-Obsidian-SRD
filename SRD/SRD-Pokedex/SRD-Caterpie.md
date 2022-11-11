@@ -2,9 +2,8 @@
 Ability1: Shield Dust
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME010.png
-BookShinyImageName: HOME010_s.png
-BoxSprite: SRD-BoxSprite-caterpie.png
+BookSprite: SRD-caterpie-BookSprite.png
+BoxSprite: SRD-caterpie-BoxSprite.png
 DexCategory: Worm Pokemon
 DexDescription: It is very common in the forests. Its voracious appetite compels it
   to devour leaves bigger than itself without hesitation. It releases a foul odor
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Run Away
-HomeSprite: SRD-HomeSprite-caterpie.png
+HomeSprite: SRD-caterpie-HomeSprite.png
 Learnset: '[[SRD-Caterpie-Learnset]]'
 Legendary: 'No'
 Name: Caterpie
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-caterpie.png|right]]
+![[SRD-caterpie-BookSprite.png|right wsmall]]
 
 *Worm Pokemon*
 *It is very common in the forests. Its voracious appetite compels it to devour leaves bigger than itself without hesitation. It releases a foul odor from its antennae if it feels threatened.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shield Dust|Shield Dust]] ([[SRD-Run Away|Run Away]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-caterpie.png|right]]
+![[SRD-caterpie-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-caterpie-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

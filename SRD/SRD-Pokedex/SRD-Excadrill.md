@@ -2,9 +2,8 @@
 Ability1: Sand Rush
 Ability2: Sand Force
 Baby: 'No'
-BookImageName: HOME530.png
-BookShinyImageName: HOME530_s.png
-BoxSprite: SRD-BoxSprite-excadrill.png
+BookSprite: SRD-excadrill-BookSprite.png
+BoxSprite: SRD-excadrill-BoxSprite.png
 DexCategory: Subterrene Pokemon
 DexDescription: They build maze-like nests deep underground. Humans make use of their
   drilling abilities to dig tunnels for subway trains. This Pokemon does not back
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Mold Breaker
-HomeSprite: SRD-HomeSprite-excadrill.png
+HomeSprite: SRD-excadrill-HomeSprite.png
 Learnset: '[[SRD-Excadrill-Learnset]]'
 Legendary: 'No'
 Name: Excadrill
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-excadrill.png|right]]
+![[SRD-excadrill-BookSprite.png|right wsmall]]
 
 *Subterrene Pokemon*
 *They build maze-like nests deep underground. Humans make use of their drilling abilities to dig tunnels for subway trains. This Pokemon does not back out from foes and can be a formidable opponent.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Rush|Sand Rush]] / [[SRD-Sand Force|Sand Force]] ([[SRD-Mold Breaker|Mold Breaker]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-excadrill.png|right]]
+![[SRD-excadrill-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-excadrill-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

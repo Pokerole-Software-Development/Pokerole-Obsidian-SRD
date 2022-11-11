@@ -2,9 +2,8 @@
 Ability1: Guts
 Ability2: Quick Feet
 Baby: 'No'
-BookImageName: HOME217.png
-BookShinyImageName: HOME217_s.png
-BoxSprite: SRD-BoxSprite-ursaring.png
+BookSprite: SRD-ursaring-BookSprite.png
+BoxSprite: SRD-ursaring-BoxSprite.png
 DexCategory: Hibernator Pokemon
 DexDescription: They are incredibly strong, great climbers and posses an amazing sense
   of smell. They snap trees and feed on their fruit as they eat quite a lot. A forest
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Unnerve
-HomeSprite: SRD-HomeSprite-ursaring.png
+HomeSprite: SRD-ursaring-HomeSprite.png
 Learnset: '[[SRD-Ursaring-Learnset]]'
 Legendary: 'No'
 Name: Ursaring
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ursaring.png|right]]
+![[SRD-ursaring-BookSprite.png|right wsmall]]
 
 *Hibernator Pokemon*
 *They are incredibly strong, great climbers and posses an amazing sense of smell. They snap trees and feed on their fruit as they eat quite a lot. A forest full of scratched trees marks the territory of Ursarings.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Guts|Guts]] / [[SRD-Quick Feet|Quick Feet]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-ursaring.png|right]]
+![[SRD-ursaring-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-ursaring-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

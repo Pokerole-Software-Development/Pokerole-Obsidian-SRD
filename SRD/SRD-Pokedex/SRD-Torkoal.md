@@ -2,9 +2,8 @@
 Ability1: White Smoke
 Ability2: Drought
 Baby: 'No'
-BookImageName: HOME324.png
-BookShinyImageName: HOME324_s.png
-BoxSprite: SRD-BoxSprite-torkoal.png
+BookSprite: SRD-torkoal-BookSprite.png
+BoxSprite: SRD-torkoal-BoxSprite.png
 DexCategory: Coal Pokemon
 DexDescription: They constantly search for coal to add to their shell, digging mountains
   tirelessly because it is the source of their power. If they run out of coal, they
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Shell Armor
-HomeSprite: SRD-HomeSprite-torkoal.png
+HomeSprite: SRD-torkoal-HomeSprite.png
 Learnset: '[[SRD-Torkoal-Learnset]]'
 Legendary: 'No'
 Name: Torkoal
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-torkoal.png|right]]
+![[SRD-torkoal-BookSprite.png|right wsmall]]
 
 *Coal Pokemon*
 *They constantly search for coal to add to their shell, digging mountains tirelessly because it is the source of their power. If they run out of coal, they grow weak. They are commonly found in abandoned coal mines.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-White Smoke|White Smoke]] / [[SRD-Drought|Drought]] ([[SRD-Shell Armor|Shell Armor]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-torkoal.png|right]]
+![[SRD-torkoal-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-torkoal-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

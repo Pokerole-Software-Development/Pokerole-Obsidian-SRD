@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: Own Tempo
 Baby: 'No'
-BookImageName: HOME549.png
-BookShinyImageName: HOME549_s.png
-BoxSprite: SRD-BoxSprite-lilligant.png
+BookSprite: SRD-lilligant-BookSprite.png
+BoxSprite: SRD-lilligant-BoxSprite.png
 DexCategory: Flowering Pokemon
 DexDescription: "Even veteran gardeners face a challenge in getting its beautiful\
   \ flower to bloom as it withers with ease. This Pokemon is popular among celebrities\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Leaf Guard
-HomeSprite: SRD-HomeSprite-lilligant.png
+HomeSprite: SRD-lilligant-HomeSprite.png
 Learnset: '[[SRD-Lilligant-Learnset]]'
 Legendary: 'No'
 Name: Lilligant
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lilligant.png|right]]
+![[SRD-lilligant-BookSprite.png|right wsmall]]
 
 *Flowering Pokemon*
 *Even veteran gardeners face a challenge in getting its beautiful flower to bloom as it withers with ease. This Pokemon is popular among celebrities due to it’s grace, elegance and delicious aroma.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Leaf Guard|Leaf Guard]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-lilligant.png|right]]
+![[SRD-lilligant-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-lilligant-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

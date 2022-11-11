@@ -2,9 +2,8 @@
 Ability1: Sturdy
 Ability2: Rock Head
 Baby: 'No'
-BookImageName: HOME185.png
-BookShinyImageName: HOME185_s.png
-BoxSprite: SRD-BoxSprite-sudowoodo.png
+BookSprite: SRD-sudowoodo-BookSprite.png
+BoxSprite: SRD-sudowoodo-BoxSprite.png
 DexCategory: Imitation Pokemon
 DexDescription: "Sudowoodo camouflages itself as a tree to avoid being attacked by\
   \ enemies. However, because its arms remain green throughout the year, this Pokemon\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Rattled
-HomeSprite: SRD-HomeSprite-sudowoodo.png
+HomeSprite: SRD-sudowoodo-HomeSprite.png
 Learnset: '[[SRD-Sudowoodo-Learnset]]'
 Legendary: 'No'
 Name: Sudowoodo
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sudowoodo.png|right]]
+![[SRD-sudowoodo-BookSprite.png|right wsmall]]
 
 *Imitation Pokemon*
 *Sudowoodo camouflages itself as a tree to avoid being attacked by enemies. However, because its arms remain green throughout the year, this Pokemon is easy to identify in winter. It’s a little wary of humans.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Rock Head|Rock Head]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-sudowoodo.png|right]]
+![[SRD-sudowoodo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-sudowoodo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Rain Dish
 Baby: 'No'
-BookImageName: HOME272.png
-BookShinyImageName: HOME272_s.png
-BoxSprite: SRD-BoxSprite-ludicolo.png
+BookSprite: SRD-ludicolo-BookSprite.png
+BoxSprite: SRD-ludicolo-BoxSprite.png
 DexCategory: Carefree Pokemon
 DexDescription: Ludicolo starts dancing at the sound of music. Pokemon and people
   will dance as well. They are said to appear when children sing. They love festive
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Own Tempo
-HomeSprite: SRD-HomeSprite-ludicolo.png
+HomeSprite: SRD-ludicolo-HomeSprite.png
 Learnset: '[[SRD-Ludicolo-Learnset]]'
 Legendary: 'No'
 Name: Ludicolo
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ludicolo.png|right]]
+![[SRD-ludicolo-BookSprite.png|right wsmall]]
 
 *Carefree Pokemon*
 *Ludicolo starts dancing at the sound of music. Pokemon and people will dance as well. They are said to appear when children sing. They love festive places and parties.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Rain Dish|Rain Dish]] ([[SRD-Own Tempo|Own Tempo]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-ludicolo.png|right]]
+![[SRD-ludicolo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-ludicolo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

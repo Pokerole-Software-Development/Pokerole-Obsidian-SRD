@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME725.png
-BookShinyImageName: HOME725_s.png
-BoxSprite: SRD-BoxSprite-litten.png
+BookSprite: SRD-litten-BookSprite.png
+BoxSprite: SRD-litten-BoxSprite.png
 DexCategory: Fire Cat Pokemon
 DexDescription: It has an aloof personality and likes to be alone. Its fur produces
   flammable oils and its rough tongue lights them every time it grooms itself. Not
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Intimidate
-HomeSprite: SRD-HomeSprite-litten.png
+HomeSprite: SRD-litten-HomeSprite.png
 Learnset: '[[SRD-Litten-Learnset]]'
 Legendary: 'No'
 Name: Litten
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-litten.png|right]]
+![[SRD-litten-BookSprite.png|right wsmall]]
 
 *Fire Cat Pokemon*
 *It has an aloof personality and likes to be alone. Its fur produces flammable oils and its rough tongue lights them every time it grooms itself. Not recommended as a pet for they can cause house fires easily.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Intimidate|Intimidate]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-litten.png|right]]
+![[SRD-litten-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-litten-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

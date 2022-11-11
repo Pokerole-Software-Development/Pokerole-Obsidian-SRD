@@ -2,9 +2,8 @@
 Ability1: Ripen
 Ability2: Gluttony
 Baby: 'No'
-BookImageName: HOME841.png
-BookShinyImageName: HOME841_s.png
-BoxSprite: SRD-BoxSprite-flapple.png
+BookSprite: SRD-flapple-BookSprite.png
+BoxSprite: SRD-flapple-BoxSprite.png
 DexCategory: Apple Wing Pokemon
 DexDescription: It grew inside a sour apple, and thus developed an acid that can cause
   chemical burns. It uses the discarded apple skin to fly or disguise itself as a
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Hustle
-HomeSprite: SRD-HomeSprite-flapple.png
+HomeSprite: SRD-flapple-HomeSprite.png
 Learnset: '[[SRD-Flapple-Learnset]]'
 Legendary: 'No'
 Name: Flapple
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-flapple.png|right]]
+![[SRD-flapple-BookSprite.png|right wsmall]]
 
 *Apple Wing Pokemon*
 *It grew inside a sour apple, and thus developed an acid that can cause chemical burns. It uses the discarded apple skin to fly or disguise itself as a rancid apple. They are loners as not many like how it looks or smells.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Ripen|Ripen]] / [[SRD-Gluttony|Gluttony]] ([[SRD-Hustle|Hustle]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-flapple.png|right]]
+![[SRD-flapple-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-flapple-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

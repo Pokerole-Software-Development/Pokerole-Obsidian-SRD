@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME487.png
-BookShinyImageName: HOME487_s.png
-BoxSprite: SRD-BoxSprite-giratina.png
+BookSprite: SRD-giratina-BookSprite.png
+BoxSprite: SRD-giratina-BoxSprite.png
 DexCategory: Plot Device
 DexDescription: Plot Device
 EventAbilities: ''
@@ -15,7 +14,7 @@ Height:
   Feet: 14.8
   Meters: 4.5
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-giratina.png
+HomeSprite: SRD-giratina-HomeSprite.png
 Learnset: '[[SRD-Giratina-Learnset]]'
 Legendary: 'Yes'
 Name: Giratina
@@ -35,7 +34,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-giratina.png|right]]
+![[SRD-giratina-BookSprite.png|right wsmall]]
 
 *Plot Device*
 *Plot Device*
@@ -46,7 +45,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 8
 
-![[SRD-BoxSprite-giratina.png|right]]
+![[SRD-giratina-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -55,6 +54,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::7)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-giratina-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

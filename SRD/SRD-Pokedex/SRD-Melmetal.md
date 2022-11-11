@@ -2,9 +2,8 @@
 Ability1: Iron Fist
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME809.png
-BookShinyImageName: HOME809_s.png
-BoxSprite: SRD-BoxSprite-melmetal.png
+BookSprite: SRD-melmetal-BookSprite.png
+BoxSprite: SRD-melmetal-BoxSprite.png
 DexCategory: Hex Nut Pokemon
 DexDescription: There is an ancient myth that a Pokemon once taught a group of humans
   how to work the iron, melt it and shape it into tools; but it was punished for this
@@ -17,7 +16,7 @@ Height:
   Feet: 8.2
   Meters: 2.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-melmetal.png
+HomeSprite: SRD-melmetal-HomeSprite.png
 Learnset: '[[SRD-Melmetal-Learnset]]'
 Legendary: 'No'
 Name: Melmetal
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-melmetal.png|right]]
+![[SRD-melmetal-BookSprite.png|right wsmall]]
 
 *Hex Nut Pokemon*
 *There is an ancient myth that a Pokemon once taught a group of humans how to work the iron, melt it and shape it into tools; but it was punished for this and cast away, never to be seen again.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Iron Fist|Iron Fist]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-melmetal.png|right]]
+![[SRD-melmetal-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::4)/(MaxVitality::8)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-melmetal-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

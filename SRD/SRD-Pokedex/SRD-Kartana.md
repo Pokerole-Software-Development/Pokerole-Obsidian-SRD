@@ -2,9 +2,8 @@
 Ability1: Beast Boost
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME798.png
-BookShinyImageName: HOME798_s.png
-BoxSprite: SRD-BoxSprite-kartana.png
+BookSprite: SRD-kartana-BookSprite.png
+BoxSprite: SRD-kartana-BoxSprite.png
 DexCategory: 'Aether Foundation Log #014'
 DexDescription: Its paper-thin body and agility make it too dangerous to approach
   without serious risk of injury. Our team managed to immobilize it using a heat chamber,
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-kartana.png
+HomeSprite: SRD-kartana-HomeSprite.png
 Learnset: '[[SRD-Kartana-Learnset]]'
 Legendary: 'Yes'
 Name: Kartana
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-kartana.png|right]]
+![[SRD-kartana-BookSprite.png|right wsmall]]
 
 *Aether Foundation Log #014*
 *Its paper-thin body and agility make it too dangerous to approach without serious risk of injury. Our team managed to immobilize it using a heat chamber, though I swear I feel its resentment to us.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-kartana.png|right]]
+![[SRD-kartana-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::7)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::3)     |
+
+![[SRD-kartana-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

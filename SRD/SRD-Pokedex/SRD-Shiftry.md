@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: Early Bird
 Baby: 'No'
-BookImageName: HOME275.png
-BookShinyImageName: HOME275_s.png
-BoxSprite: SRD-BoxSprite-shiftry.png
+BookSprite: SRD-shiftry-BookSprite.png
+BoxSprite: SRD-shiftry-BoxSprite.png
 DexCategory: Wicked Pokemon
 DexDescription: "Feared as protectors of the forest. They are said to live atop towering\
   \ trees dating back thousands of years, creating terrible wind storms. It is said\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Pickpocket
-HomeSprite: SRD-HomeSprite-shiftry.png
+HomeSprite: SRD-shiftry-HomeSprite.png
 Learnset: '[[SRD-Shiftry-Learnset]]'
 Legendary: 'No'
 Name: Shiftry
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-shiftry.png|right]]
+![[SRD-shiftry-BookSprite.png|right wsmall]]
 
 *Wicked Pokemon*
 *Feared as protectors of the forest. They are said to live atop towering trees dating back thousands of years, creating terrible wind storms. It is said they can read people’s minds to prey on their fears.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-shiftry.png|right]]
+![[SRD-shiftry-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-shiftry-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

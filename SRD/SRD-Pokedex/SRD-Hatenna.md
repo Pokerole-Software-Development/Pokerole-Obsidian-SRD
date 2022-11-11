@@ -2,9 +2,8 @@
 Ability1: Healer
 Ability2: Anticipation
 Baby: 'No'
-BookImageName: HOME856.png
-BookShinyImageName: HOME856_s.png
-BoxSprite: SRD-BoxSprite-hatenna.png
+BookSprite: SRD-hatenna-BookSprite.png
+BoxSprite: SRD-hatenna-BoxSprite.png
 DexCategory: Calm Pokemon
 DexDescription: "Though the protrusion on its head it senses other creatures\u2019\
   \ emotions. If you don\u2019t have a calm disposition, it will never warm up to\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Magic Bounce
-HomeSprite: SRD-HomeSprite-hatenna.png
+HomeSprite: SRD-hatenna-HomeSprite.png
 Learnset: '[[SRD-Hatenna-Learnset]]'
 Legendary: 'No'
 Name: Hatenna
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-hatenna.png|right]]
+![[SRD-hatenna-BookSprite.png|right wsmall]]
 
 *Calm Pokemon*
 *Though the protrusion on its head it senses other creatures’ emotions. If you don’t have a calm disposition, it will never warm up to you. They get overwhelmed in places with many people, preferring to hide alone.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Healer|Healer]] / [[SRD-Anticipation|Anticipation]] ([[SRD-Magic Bounce|Magic Bounce]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-hatenna.png|right]]
+![[SRD-hatenna-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-hatenna-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

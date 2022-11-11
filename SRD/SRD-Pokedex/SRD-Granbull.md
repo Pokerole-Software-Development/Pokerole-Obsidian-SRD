@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: Quick Feet
 Baby: 'No'
-BookImageName: HOME210.png
-BookShinyImageName: HOME210_s.png
-BoxSprite: SRD-BoxSprite-granbull.png
+BookSprite: SRD-granbull-BookSprite.png
+BoxSprite: SRD-granbull-BoxSprite.png
 DexCategory: Fairy Pokemon
 DexDescription: Granbull is usually a timid creature that is easily spooked. Its fangs
   are extremely powerful and scary so no one dares to mess with it or its loved ones.
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Rattled
-HomeSprite: SRD-HomeSprite-granbull.png
+HomeSprite: SRD-granbull-HomeSprite.png
 Learnset: '[[SRD-Granbull-Learnset]]'
 Legendary: 'No'
 Name: Granbull
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-granbull.png|right]]
+![[SRD-granbull-BookSprite.png|right wsmall]]
 
 *Fairy Pokemon*
 *Granbull is usually a timid creature that is easily spooked. Its fangs are extremely powerful and scary so no one dares to mess with it or its loved ones. It will use its giant fangs to attack if it needs to.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Quick Feet|Quick Feet]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-granbull.png|right]]
+![[SRD-granbull-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-granbull-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

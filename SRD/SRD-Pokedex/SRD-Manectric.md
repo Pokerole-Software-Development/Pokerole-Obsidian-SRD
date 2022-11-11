@@ -2,9 +2,8 @@
 Ability1: Static
 Ability2: Lightning Rod
 Baby: 'No'
-BookImageName: HOME310.png
-BookShinyImageName: HOME310_s.png
-BoxSprite: SRD-BoxSprite-manectric.png
+BookSprite: SRD-manectric-BookSprite.png
+BoxSprite: SRD-manectric-BoxSprite.png
 DexCategory: Discharge Pokemon
 DexDescription: Their manes are constantly releasing dangerous sparks that often end
   up in forest fires. When they get in battle, thunderclouds show up with them. They
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Minus
-HomeSprite: SRD-HomeSprite-manectric.png
+HomeSprite: SRD-manectric-HomeSprite.png
 Learnset: '[[SRD-Manectric-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-manectric.png|right]]
+![[SRD-manectric-BookSprite.png|right wsmall]]
 
 *Discharge Pokemon*
 *Their manes are constantly releasing dangerous sparks that often end up in forest fires. When they get in battle, thunderclouds show up with them. They are extremely rare to see in the wild.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Static|Static]] / [[SRD-Lightning Rod|Lightning Rod]] ([[SRD-Minus|Minus]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-manectric.png|right]]
+![[SRD-manectric-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-manectric-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

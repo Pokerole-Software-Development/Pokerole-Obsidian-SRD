@@ -2,9 +2,8 @@
 Ability1: Rock Head
 Ability2: Sturdy
 Baby: 'No'
-BookImageName: HOME095.png
-BookShinyImageName: HOME095_s.png
-BoxSprite: SRD-BoxSprite-onix.png
+BookSprite: SRD-onix-BookSprite.png
+BoxSprite: SRD-onix-BoxSprite.png
 DexCategory: Rock Snake Pokemon
 DexDescription: "It is not full-size when it\u2019s born. Years of eating boulders\
   \ make it a real giant. It lives on mountains and dark tunnels. Its frightening\
@@ -17,7 +16,7 @@ Height:
   Feet: 28.9
   Meters: 8.8
 HiddenAbility: Weak Armor
-HomeSprite: SRD-HomeSprite-onix.png
+HomeSprite: SRD-onix-HomeSprite.png
 Learnset: '[[SRD-Onix-Learnset]]'
 Legendary: 'No'
 Name: Onix
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-onix.png|right]]
+![[SRD-onix-BookSprite.png|right wsmall]]
 
 *Rock Snake Pokemon*
 *It is not full-size when it’s born. Years of eating boulders make it a real giant. It lives on mountains and dark tunnels. Its frightening roars travel as echo through the cave. It is very aggressive towards others.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rock Head|Rock Head]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 8
 
-![[SRD-BoxSprite-onix.png|right]]
+![[SRD-onix-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::4)/(MaxVitality::8)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-onix-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

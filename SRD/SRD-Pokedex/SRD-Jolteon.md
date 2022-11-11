@@ -2,9 +2,8 @@
 Ability1: Volt Absorb
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME135.png
-BookShinyImageName: HOME135_s.png
-BoxSprite: SRD-BoxSprite-jolteon.png
+BookSprite: SRD-jolteon-BookSprite.png
+BoxSprite: SRD-jolteon-BoxSprite.png
 DexCategory: Lightning Pokemon
 DexDescription: This Pokemon evolved after being affected by electric radiation. Every
   hair on its body starts to stand sharply if it becomes charged with electricity.
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Quick Feet
-HomeSprite: SRD-HomeSprite-jolteon.png
+HomeSprite: SRD-jolteon-HomeSprite.png
 Learnset: '[[SRD-Jolteon-Learnset]]'
 Legendary: 'No'
 Name: Jolteon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-jolteon.png|right]]
+![[SRD-jolteon-BookSprite.png|right wsmall]]
 
 *Lightning Pokemon*
 *This Pokemon evolved after being affected by electric radiation. Every hair on its body starts to stand sharply if it becomes charged with electricity. It shoots lightning from all around its body.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Volt Absorb|Volt Absorb]] ([[SRD-Quick Feet|Quick Feet]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-jolteon.png|right]]
+![[SRD-jolteon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-jolteon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Justified
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME640.png
-BookShinyImageName: HOME640_s.png
-BoxSprite: SRD-BoxSprite-virizion.png
+BookSprite: SRD-virizion-BookSprite.png
+BoxSprite: SRD-virizion-BoxSprite.png
 DexCategory: No Data
 DexDescription: An old tale in Unova mentions four Pokemon that fought against an
   evil army. The most beautiful of them was also the most swift and graceful in combat,
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-virizion.png
+HomeSprite: SRD-virizion-HomeSprite.png
 Learnset: '[[SRD-Virizion-Learnset]]'
 Legendary: 'Yes'
 Name: Virizion
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-virizion.png|right]]
+![[SRD-virizion-BookSprite.png|right wsmall]]
 
 *No Data*
 *An old tale in Unova mentions four Pokemon that fought against an evil army. The most beautiful of them was also the most swift and graceful in combat, it created an army of trees that won the battle.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Justified|Justified]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-virizion.png|right]]
+![[SRD-virizion-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-virizion-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

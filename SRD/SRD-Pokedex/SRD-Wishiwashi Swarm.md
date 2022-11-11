@@ -2,9 +2,8 @@
 Ability1: Schooling
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME746Sc.png
-BookShinyImageName: HOME746Sc_s.png
-BoxSprite: SRD-BoxSprite-wishiwashi.png
+BookSprite: SRD-wishiwashi-BookSprite.png
+BoxSprite: SRD-wishiwashi-BoxSprite.png
 DexCategory: Small Fry Pokemon
 DexDescription: "A school of Wishiwashi is the demon of the sea. Even Gyarados flee\
   \ in terror when one approaches. Since it is formed by lots of members, it\u2019\
@@ -18,7 +17,7 @@ Height:
   Feet: 26.9
   Meters: 8.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-wishiwashi.png
+HomeSprite: SRD-wishiwashi-HomeSprite.png
 Learnset: '[[SRD-Wishiwashi Swarm-Learnset]]'
 Legendary: 'No'
 Name: Wishiwashi Swarm
@@ -38,7 +37,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-wishiwashi.png|right]]
+![[SRD-wishiwashi-BookSprite.png|right wsmall]]
 
 *Small Fry Pokemon*
 *A school of Wishiwashi is the demon of the sea. Even Gyarados flee in terror when one approaches. Since it is formed by lots of members, it’s impossible to control. They disband after the threat is “neutralized”.*
@@ -49,7 +48,7 @@ Weight:
 **Abilities**:: [[SRD-Schooling|Schooling]]
 **Base HP**:: 8
 
-![[SRD-BoxSprite-wishiwashi.png|right]]
+![[SRD-wishiwashi-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -58,6 +57,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-wishiwashi-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

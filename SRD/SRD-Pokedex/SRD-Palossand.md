@@ -2,9 +2,8 @@
 Ability1: Water Compaction
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME770.png
-BookShinyImageName: HOME770_s.png
-BoxSprite: SRD-BoxSprite-palossand.png
+BookSprite: SRD-palossand-BookSprite.png
+BoxSprite: SRD-palossand-BoxSprite.png
 DexCategory: Sand Castle Pokemon
 DexDescription: The possessed people shaped this Pokemon into a castle, buried beneath
   the sand where it stands are the remains of all its victims. Some say these unmarked
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Sand Veil
-HomeSprite: SRD-HomeSprite-palossand.png
+HomeSprite: SRD-palossand-HomeSprite.png
 Learnset: '[[SRD-Palossand-Learnset]]'
 Legendary: 'No'
 Name: Palossand
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-palossand.png|right]]
+![[SRD-palossand-BookSprite.png|right wsmall]]
 
 *Sand Castle Pokemon*
 *The possessed people shaped this Pokemon into a castle, buried beneath the sand where it stands are the remains of all its victims. Some say these unmarked graves will give birth to a new Sandygast.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Water Compaction|Water Compaction]] ([[SRD-Sand Veil|Sand Veil]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-palossand.png|right]]
+![[SRD-palossand-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-palossand-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

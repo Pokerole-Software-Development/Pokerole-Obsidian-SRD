@@ -2,9 +2,8 @@
 Ability1: Drought
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME383.png
-BookShinyImageName: HOME383_s.png
-BoxSprite: SRD-BoxSprite-groudon.png
+BookSprite: SRD-groudon-BookSprite.png
+BoxSprite: SRD-groudon-BoxSprite.png
 DexCategory: No Data
 DexDescription: Described in mythology as the God creator of lands, mountains, volcanoes
   and continents. Any water or clouds evaporate in its presence. It is the mortal
@@ -17,7 +16,7 @@ Height:
   Feet: 11.5
   Meters: 3.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-groudon.png
+HomeSprite: SRD-groudon-HomeSprite.png
 Learnset: '[[SRD-Groudon-Learnset]]'
 Legendary: 'Yes'
 Name: Groudon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-groudon.png|right]]
+![[SRD-groudon-BookSprite.png|right wsmall]]
 
 *No Data*
 *Described in mythology as the God creator of lands, mountains, volcanoes and continents. Any water or clouds evaporate in its presence. It is the mortal enemy of Kyogre.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Drought|Drought]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-groudon.png|right]]
+![[SRD-groudon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::7)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-groudon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

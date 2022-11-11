@@ -2,9 +2,8 @@
 Ability1: Sweet Veil
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME685.png
-BookShinyImageName: HOME685_s.png
-BoxSprite: SRD-BoxSprite-slurpuff.png
+BookSprite: SRD-slurpuff-BookSprite.png
+BoxSprite: SRD-slurpuff-BoxSprite.png
 DexCategory: Meringue Pokemon
 DexDescription: This Pokemon lives in human cities and towns. It has an extremely
   keen sense of smell. It puts its sensitive nose to use by helping bakers and chefs
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Unburden
-HomeSprite: SRD-HomeSprite-slurpuff.png
+HomeSprite: SRD-slurpuff-HomeSprite.png
 Learnset: '[[SRD-Slurpuff-Learnset]]'
 Legendary: 'No'
 Name: Slurpuff
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-slurpuff.png|right]]
+![[SRD-slurpuff-BookSprite.png|right wsmall]]
 
 *Meringue Pokemon*
 *This Pokemon lives in human cities and towns. It has an extremely keen sense of smell. It puts its sensitive nose to use by helping bakers and chefs to find the most delicious ingredients.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sweet Veil|Sweet Veil]] ([[SRD-Unburden|Unburden]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-slurpuff.png|right]]
+![[SRD-slurpuff-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-slurpuff-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

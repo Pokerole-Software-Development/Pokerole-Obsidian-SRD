@@ -2,9 +2,8 @@
 Ability1: Thick Fat
 Ability2: Guts
 Baby: 'No'
-BookImageName: HOME297.png
-BookShinyImageName: HOME297_s.png
-BoxSprite: SRD-BoxSprite-hariyama.png
+BookSprite: SRD-hariyama-BookSprite.png
+BoxSprite: SRD-hariyama-BoxSprite.png
 DexCategory: Arm Thrust Pokemon
 DexDescription: They may appear fat, but they are pure muscle. Hariyamas have the
   habit of challenging big looking creatures to tests of strength, sometimes mistaking
@@ -17,7 +16,7 @@ Height:
   Feet: 7.5
   Meters: 2.3
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-hariyama.png
+HomeSprite: SRD-hariyama-HomeSprite.png
 Learnset: '[[SRD-Hariyama-Learnset]]'
 Legendary: 'No'
 Name: Hariyama
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-hariyama.png|right]]
+![[SRD-hariyama-BookSprite.png|right wsmall]]
 
 *Arm Thrust Pokemon*
 *They may appear fat, but they are pure muscle. Hariyamas have the habit of challenging big looking creatures to tests of strength, sometimes mistaking cars and machines for real Pokemon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Guts|Guts]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 7
 
-![[SRD-BoxSprite-hariyama.png|right]]
+![[SRD-hariyama-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-hariyama-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

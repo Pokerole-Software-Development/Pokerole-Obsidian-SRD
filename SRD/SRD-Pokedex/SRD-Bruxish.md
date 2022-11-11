@@ -2,9 +2,8 @@
 Ability1: Dazzling
 Ability2: Strong Jaw
 Baby: 'No'
-BookImageName: HOME779.png
-BookShinyImageName: HOME779_s.png
-BoxSprite: SRD-BoxSprite-bruxish.png
+BookSprite: SRD-bruxish-BookSprite.png
+BoxSprite: SRD-bruxish-BoxSprite.png
 DexCategory: Gnash Teeth Pokemon
 DexDescription: The protuberance on its head emits psychic waves that confuse its
   prey, while it is confused Bruxish grinds it with its sharp teeth. This grinding
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Wonder Skin
-HomeSprite: SRD-HomeSprite-bruxish.png
+HomeSprite: SRD-bruxish-HomeSprite.png
 Learnset: '[[SRD-Bruxish-Learnset]]'
 Legendary: 'No'
 Name: Bruxish
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-bruxish.png|right]]
+![[SRD-bruxish-BookSprite.png|right wsmall]]
 
 *Gnash Teeth Pokemon*
 *The protuberance on its head emits psychic waves that confuse its prey, while it is confused Bruxish grinds it with its sharp teeth. This grinding noise makes other Pokemon flee from the place in hurry.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Dazzling|Dazzling]] / [[SRD-Strong Jaw|Strong Jaw]] ([[SRD-Wonder Skin|Wonder Skin]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-bruxish.png|right]]
+![[SRD-bruxish-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-bruxish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

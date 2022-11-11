@@ -2,9 +2,8 @@
 Ability1: Adaptability
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME015M.png
-BookShinyImageName: HOME015M_s.png
-BoxSprite: SRD-BoxSprite-beedrill-mega.png
+BookSprite: SRD-beedrill-mega-BookSprite.png
+BoxSprite: SRD-beedrill-mega-BoxSprite.png
 DexCategory: Poison Bee Pokemon
 DexDescription: With the power of the Mega Stone all of its limbs are now powerful
   stingers. Their attack can be really vicious stinging and piercing its foe repeatedly
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-beedrill-mega.png
+HomeSprite: SRD-beedrill-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Beedrill-Learnset]]'
 Legendary: 'No'
 Name: Mega-Beedrill
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-beedrill-mega.png|right]]
+![[SRD-beedrill-mega-BookSprite.png|right wsmall]]
 
 *Poison Bee Pokemon*
 *With the power of the Mega Stone all of its limbs are now powerful stingers. Their attack can be really vicious stinging and piercing its foe repeatedly until the finishing blow with the sting on its rear.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Adaptability|Adaptability]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-beedrill-mega.png|right]]
+![[SRD-beedrill-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-beedrill-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

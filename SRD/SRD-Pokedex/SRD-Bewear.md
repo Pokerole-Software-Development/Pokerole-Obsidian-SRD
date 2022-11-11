@@ -2,9 +2,8 @@
 Ability1: Fluffy
 Ability2: Klutz
 Baby: 'No'
-BookImageName: HOME760.png
-BookShinyImageName: HOME760_s.png
-BoxSprite: SRD-BoxSprite-bewear.png
+BookSprite: SRD-bewear-BookSprite.png
+BoxSprite: SRD-bewear-BoxSprite.png
 DexCategory: Strong Arm Pokemon
 DexDescription: "They may look friendly but their brute strength makes them very dangerous.\
   \ Many Trainers have been severely injured and even snapped in half by the \u201C\
@@ -17,7 +16,7 @@ Height:
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: Unnerve
-HomeSprite: SRD-HomeSprite-bewear.png
+HomeSprite: SRD-bewear-HomeSprite.png
 Learnset: '[[SRD-Bewear-Learnset]]'
 Legendary: 'No'
 Name: Bewear
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-bewear.png|right]]
+![[SRD-bewear-BookSprite.png|right wsmall]]
 
 *Strong Arm Pokemon*
 *They may look friendly but their brute strength makes them very dangerous. Many Trainers have been severely injured and even snapped in half by the “hugs” of a Bewear.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Fluffy|Fluffy]] / [[SRD-Klutz|Klutz]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-bewear.png|right]]
+![[SRD-bewear-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-bewear-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

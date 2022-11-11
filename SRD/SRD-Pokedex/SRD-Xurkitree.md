@@ -2,9 +2,8 @@
 Ability1: Beast Boost
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME796.png
-BookShinyImageName: HOME796_s.png
-BoxSprite: SRD-BoxSprite-xurkitree.png
+BookSprite: SRD-xurkitree-BookSprite.png
+BoxSprite: SRD-xurkitree-BoxSprite.png
 DexCategory: 'Aether Foundation Log #067'
 DexDescription: My superiors are furious. A lot of money had to be used to cover the
   damages UB-03 dealt in the power plant. On the bright side, it seems a lot livelier
@@ -17,7 +16,7 @@ Height:
   Feet: 12.5
   Meters: 3.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-xurkitree.png
+HomeSprite: SRD-xurkitree-HomeSprite.png
 Learnset: '[[SRD-Xurkitree-Learnset]]'
 Legendary: 'Yes'
 Name: Xurkitree
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-xurkitree.png|right]]
+![[SRD-xurkitree-BookSprite.png|right wsmall]]
 
 *Aether Foundation Log #067*
 *My superiors are furious. A lot of money had to be used to cover the damages UB-03 dealt in the power plant. On the bright side, it seems a lot livelier now that it appears to have recharged.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-xurkitree.png|right]]
+![[SRD-xurkitree-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::9)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-xurkitree-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

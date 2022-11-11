@@ -2,9 +2,8 @@
 Ability1: Steadfast
 Ability2: Inner Focus
 Baby: 'Yes'
-BookImageName: HOME447.png
-BookShinyImageName: HOME447_s.png
-BoxSprite: SRD-BoxSprite-riolu.png
+BookSprite: SRD-riolu-BookSprite.png
+BoxSprite: SRD-riolu-BoxSprite.png
 DexCategory: Emanation Pokemon
 DexDescription: "Scarce in the wild but they have been seen in the mountains. It has\
   \ the ability to see the auras of others, through this power it is capable of sensing\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Prankster
-HomeSprite: SRD-HomeSprite-riolu.png
+HomeSprite: SRD-riolu-HomeSprite.png
 Learnset: '[[SRD-Riolu-Learnset]]'
 Legendary: 'No'
 Name: Riolu
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-riolu.png|right]]
+![[SRD-riolu-BookSprite.png|right wsmall]]
 
 *Emanation Pokemon*
 *Scarce in the wild but they have been seen in the mountains. It has the ability to see the auras of others, through this power it is capable of sensing emotions. It won’t get close to those with selfish intentions.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Steadfast|Steadfast]] / [[SRD-Inner Focus|Inner Focus]] ([[SRD-Prankster|Prankster]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-riolu.png|right]]
+![[SRD-riolu-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-riolu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

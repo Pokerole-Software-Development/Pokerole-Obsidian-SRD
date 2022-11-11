@@ -2,9 +2,8 @@
 Ability1: Mega Launcher
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME693.png
-BookShinyImageName: HOME693_s.png
-BoxSprite: SRD-BoxSprite-clawitzer.png
+BookSprite: SRD-clawitzer-BookSprite.png
+BoxSprite: SRD-clawitzer-BoxSprite.png
 DexCategory: Howitzer Pokemon
 DexDescription: "They can be seen swimming backwards using their launcher as A propulsor,\
   \ but they usually stay at the bottom of the sea. Their meat is tough and bitter\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-clawitzer.png
+HomeSprite: SRD-clawitzer-HomeSprite.png
 Learnset: '[[SRD-Clawitzer-Learnset]]'
 Legendary: 'No'
 Name: Clawitzer
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-clawitzer.png|right]]
+![[SRD-clawitzer-BookSprite.png|right wsmall]]
 
 *Howitzer Pokemon*
 *They can be seen swimming backwards using their launcher as A propulsor, but they usually stay at the bottom of the sea. Their meat is tough and bitter so people don’t use them as food anymore.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Mega Launcher|Mega Launcher]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-clawitzer.png|right]]
+![[SRD-clawitzer-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-clawitzer-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

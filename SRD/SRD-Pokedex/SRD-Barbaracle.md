@@ -2,9 +2,8 @@
 Ability1: Sniper
 Ability2: Tough Claws
 Baby: 'No'
-BookImageName: HOME689.png
-BookShinyImageName: HOME689_s.png
-BoxSprite: SRD-BoxSprite-barbaracle.png
+BookSprite: SRD-barbaracle-BookSprite.png
+BoxSprite: SRD-barbaracle-BoxSprite.png
 DexCategory: Collective Pokemon
 DexDescription: "When they evolve, the two Binacle multiply into seven. They all defend\
   \ the rock they live in but each one has a mind of their own and will move independently\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Pickpocket
-HomeSprite: SRD-HomeSprite-barbaracle.png
+HomeSprite: SRD-barbaracle-HomeSprite.png
 Learnset: '[[SRD-Barbaracle-Learnset]]'
 Legendary: 'No'
 Name: Barbaracle
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-barbaracle.png|right]]
+![[SRD-barbaracle-BookSprite.png|right wsmall]]
 
 *Collective Pokemon*
 *When they evolve, the two Binacle multiply into seven. They all defend the rock they live in but each one has a mind of their own and will move independently - They tend to follow the head’s orders, though.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sniper|Sniper]] / [[SRD-Tough Claws|Tough Claws]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-barbaracle.png|right]]
+![[SRD-barbaracle-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-barbaracle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

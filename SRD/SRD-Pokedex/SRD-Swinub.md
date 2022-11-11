@@ -2,9 +2,8 @@
 Ability1: Oblivious
 Ability2: Snow Cloak
 Baby: 'No'
-BookImageName: HOME220.png
-BookShinyImageName: HOME220_s.png
-BoxSprite: SRD-BoxSprite-swinub.png
+BookSprite: SRD-swinub-BookSprite.png
+BoxSprite: SRD-swinub-BoxSprite.png
 DexCategory: Pig Pokemon
 DexDescription: "They rub their snout on the icy ground to find food and hot springs.\
   \ Their favorite food is a mushroom that grows under frozen grass. They recognize\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Thick Fat
-HomeSprite: SRD-HomeSprite-swinub.png
+HomeSprite: SRD-swinub-HomeSprite.png
 Learnset: '[[SRD-Swinub-Learnset]]'
 Legendary: 'No'
 Name: Swinub
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-swinub.png|right]]
+![[SRD-swinub-BookSprite.png|right wsmall]]
 
 *Pig Pokemon*
 *They rub their snout on the icy ground to find food and hot springs. Their favorite food is a mushroom that grows under frozen grass. They recognize everything by smell as their eyes can’t see very well.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Snow Cloak|Snow Cloak]] ([[SRD-Thick Fat|Thick Fat]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-swinub.png|right]]
+![[SRD-swinub-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-swinub-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

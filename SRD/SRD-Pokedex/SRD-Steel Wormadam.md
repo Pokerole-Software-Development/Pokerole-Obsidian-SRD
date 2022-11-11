@@ -2,9 +2,8 @@
 Ability1: Speed Boost
 Ability2: Compound Eyes
 Baby: 'No'
-BookImageName: HOME413S.png
-BookShinyImageName: HOME413S_s.png
-BoxSprite: SRD-BoxSprite-wormadam.png
+BookSprite: SRD-wormadamsteel-BookSprite.png
+BoxSprite: SRD-wormadamsteel-BoxSprite.png
 DexCategory: Bagworm Pokemon
 DexDescription: When Burmy evolved, its Trash cloak became a part of its body. For
   this reason there are many variations in body and type. It is a calm Pokemon that
@@ -17,14 +16,14 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Overcoat
-HomeSprite: SRD-HomeSprite-wormadam.png
+HomeSprite: SRD-wormadamsteel-HomeSprite.png
 Learnset: '[[SRD-Steel Wormadam-Learnset]]'
 Legendary: 'No'
 Name: Steel Wormadam
 Number: 413
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
-Sprite: wormadam.png
+Sprite: wormadamsteel.png
 Type1: Bug
 Type2: Steel
 Weight:
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-wormadam.png|right]]
+![[SRD-wormadamsteel-BookSprite.png|right wsmall]]
 
 *Bagworm Pokemon*
 *When Burmy evolved, its Trash cloak became a part of its body. For this reason there are many variations in body and type. It is a calm Pokemon that loves foil wrapping. This Pokemon is female only.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Speed Boost|Speed Boost]] / [[SRD-Compound Eyes|Compound Eyes]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-wormadam.png|right]]
+![[SRD-wormadamsteel-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::6)     |
+
+![[SRD-wormadamsteel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

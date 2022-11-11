@@ -2,9 +2,8 @@
 Ability1: Gorilla Tactics
 Ability2: Zen Mode
 Baby: 'No'
-BookImageName: HOME555G.png
-BookShinyImageName: HOME555G_s.png
-BoxSprite: SRD-BoxSprite-darmanitan-galar.png
+BookSprite: SRD-darmanitan-galar-BookSprite.png
+BoxSprite: SRD-darmanitan-galar-BoxSprite.png
 DexCategory: Zen Charm Pokemon
 DexDescription: The Galarian form of Darmanitan. They walk into towns during the blizzards
   to steal food. Darmanitans seem mean, but they are gentle and shy.
@@ -16,7 +15,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-darmanitan-galar.png
+HomeSprite: SRD-darmanitan-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Darmanitan-Learnset]]'
 Legendary: 'No'
 Name: Galarian Darmanitan
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-darmanitan-galar.png|right]]
+![[SRD-darmanitan-galar-BookSprite.png|right wsmall]]
 
 *Zen Charm Pokemon*
 *The Galarian form of Darmanitan. They walk into towns during the blizzards to steal food. Darmanitans seem mean, but they are gentle and shy.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Gorilla Tactics|Gorilla Tactics]] / [[SRD-Zen Mode|Zen Mode]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-darmanitan-galar.png|right]]
+![[SRD-darmanitan-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-darmanitan-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

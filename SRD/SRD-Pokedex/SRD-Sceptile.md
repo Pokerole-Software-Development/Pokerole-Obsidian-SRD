@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME254.png
-BookShinyImageName: HOME254_s.png
-BoxSprite: SRD-BoxSprite-sceptile.png
+BookSprite: SRD-sceptile-BookSprite.png
+BoxSprite: SRD-sceptile-BoxSprite.png
 DexCategory: Forest Pokemon
 DexDescription: "They raise trees with love and care and protect the jungles with\
   \ their lives. Their tails can restore a plant\u2019s beauty. Sceptiles power is\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Unburden
-HomeSprite: SRD-HomeSprite-sceptile.png
+HomeSprite: SRD-sceptile-HomeSprite.png
 Learnset: '[[SRD-Sceptile-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sceptile.png|right]]
+![[SRD-sceptile-BookSprite.png|right wsmall]]
 
 *Forest Pokemon*
 *They raise trees with love and care and protect the jungles with their lives. Their tails can restore a plant’s beauty. Sceptiles power is truly unmatched in their habitats. They are very proud, though.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Unburden|Unburden]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-sceptile.png|right]]
+![[SRD-sceptile-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-sceptile-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

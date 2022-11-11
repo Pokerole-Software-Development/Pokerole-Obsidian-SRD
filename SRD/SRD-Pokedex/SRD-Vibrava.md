@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME329.png
-BookShinyImageName: HOME329_s.png
-BoxSprite: SRD-BoxSprite-vibrava.png
+BookSprite: SRD-vibrava-BookSprite.png
+BoxSprite: SRD-vibrava-BoxSprite.png
 DexCategory: Vibration Pokemon
 DexDescription: "This Pokemon\u2019s vibrations can cause severe headaches or even\
   \ fainting. If their prey faints, they proceed to melt them with acid. Vibrava's\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-vibrava.png
+HomeSprite: SRD-vibrava-HomeSprite.png
 Learnset: '[[SRD-Vibrava-Learnset]]'
 Legendary: 'No'
 Name: Vibrava
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-vibrava.png|right]]
+![[SRD-vibrava-BookSprite.png|right wsmall]]
 
 *Vibration Pokemon*
 *This Pokemon’s vibrations can cause severe headaches or even fainting. If their prey faints, they proceed to melt them with acid. Vibrava's wings are still growing, making it a clumsy flier with low endurance.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-vibrava.png|right]]
+![[SRD-vibrava-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-vibrava-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

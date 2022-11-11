@@ -2,9 +2,8 @@
 Ability1: Prankster
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME642.png
-BookShinyImageName: HOME642_s.png
-BoxSprite: SRD-BoxSprite-thundurus.png
+BookSprite: SRD-thundurus-BookSprite.png
+BoxSprite: SRD-thundurus-BoxSprite.png
 DexCategory: No Data
 DexDescription: "There are constant forest fires all through the Unova region. These\
   \ fires are always the result of a giant thunder storm. Forest rangers tell about\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Defiant
-HomeSprite: SRD-HomeSprite-thundurus.png
+HomeSprite: SRD-thundurus-HomeSprite.png
 Learnset: '[[SRD-Thundurus-Learnset]]'
 Legendary: 'Yes'
 Name: Thundurus
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-thundurus.png|right]]
+![[SRD-thundurus-BookSprite.png|right wsmall]]
 
 *No Data*
 *There are constant forest fires all through the Unova region. These fires are always the result of a giant thunder storm. Forest rangers tell about a blue demon’s shadow that was inside the storm clouds.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Prankster|Prankster]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-thundurus.png|right]]
+![[SRD-thundurus-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-thundurus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

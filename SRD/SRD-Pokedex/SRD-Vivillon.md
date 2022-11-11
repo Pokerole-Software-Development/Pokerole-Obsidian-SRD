@@ -2,9 +2,8 @@
 Ability1: Shield Dust
 Ability2: Compound Eyes
 Baby: 'No'
-BookImageName: HOME666.png
-BookShinyImageName: HOME666_s.png
-BoxSprite: SRD-BoxSprite-vivillon.png
+BookSprite: SRD-vivillon-BookSprite.png
+BoxSprite: SRD-vivillon-BoxSprite.png
 DexCategory: Scale Pokemon
 DexDescription: "The patterns on this Pokemon\u2019s wings depend on the climate it\
   \ grows and the flowers it feeds on. A famous Pokemon breeder made one develop a\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Friend Guard
-HomeSprite: SRD-HomeSprite-vivillon.png
+HomeSprite: SRD-vivillon-HomeSprite.png
 Learnset: '[[SRD-Vivillon-Learnset]]'
 Legendary: 'No'
 Name: Vivillon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-vivillon.png|right]]
+![[SRD-vivillon-BookSprite.png|right wsmall]]
 
 *Scale Pokemon*
 *The patterns on this Pokemon’s wings depend on the climate it grows and the flowers it feeds on. A famous Pokemon breeder made one develop a Pokeball pattern, it was sold for a million dollars.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shield Dust|Shield Dust]] / [[SRD-Compound Eyes|Compound Eyes]] ([[SRD-Friend Guard|Friend Guard]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-vivillon.png|right]]
+![[SRD-vivillon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-vivillon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

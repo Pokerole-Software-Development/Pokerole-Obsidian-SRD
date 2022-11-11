@@ -2,9 +2,8 @@
 Ability1: Berserk
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME146G.png
-BookShinyImageName: HOME146G_s.png
-BoxSprite: SRD-BoxSprite-moltres-galar.png
+BookSprite: SRD-moltres-galar-BookSprite.png
+BoxSprite: SRD-moltres-galar-BoxSprite.png
 DexCategory: ''
 DexDescription: ''
 EventAbilities: ''
@@ -15,7 +14,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-moltres-galar.png
+HomeSprite: SRD-moltres-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Moltres (provisional)-Learnset]]'
 Legendary: 'Yes'
 Name: Galarian Moltres (provisional)
@@ -35,7 +34,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-moltres-galar.png|right]]
+![[SRD-moltres-galar-BookSprite.png|right wsmall]]
 
 **
 **
@@ -46,7 +45,7 @@ Weight:
 **Abilities**:: [[SRD-Berserk|Berserk]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-moltres-galar.png|right]]
+![[SRD-moltres-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -55,6 +54,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-moltres-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

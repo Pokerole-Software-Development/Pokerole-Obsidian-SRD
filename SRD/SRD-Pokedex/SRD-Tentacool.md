@@ -2,9 +2,8 @@
 Ability1: Clear Body
 Ability2: Liquid Ooze
 Baby: 'No'
-BookImageName: HOME072.png
-BookShinyImageName: HOME072_s.png
-BoxSprite: SRD-BoxSprite-tentacool.png
+BookSprite: SRD-tentacool-BookSprite.png
+BoxSprite: SRD-tentacool-BoxSprite.png
 DexCategory: Jellyfish Pokemon
 DexDescription: It lives in the seas all around the world. They release a toxic ink
   if startled. It is a surprisingly intelligent Pokemon and can use its tentacles
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Rain Dish
-HomeSprite: SRD-HomeSprite-tentacool.png
+HomeSprite: SRD-tentacool-HomeSprite.png
 Learnset: '[[SRD-Tentacool-Learnset]]'
 Legendary: 'No'
 Name: Tentacool
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tentacool.png|right]]
+![[SRD-tentacool-BookSprite.png|right wsmall]]
 
 *Jellyfish Pokemon*
 *It lives in the seas all around the world. They release a toxic ink if startled. It is a surprisingly intelligent Pokemon and can use its tentacles to briefly establish a link between its mind and another creature.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Clear Body|Clear Body]] / [[SRD-Liquid Ooze|Liquid Ooze]] ([[SRD-Rain Dish|Rain Dish]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-tentacool.png|right]]
+![[SRD-tentacool-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-tentacool-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

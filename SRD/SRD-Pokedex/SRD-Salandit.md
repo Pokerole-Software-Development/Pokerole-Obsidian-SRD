@@ -2,9 +2,8 @@
 Ability1: Corrosion
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME757.png
-BookShinyImageName: HOME757_s.png
-BoxSprite: SRD-BoxSprite-salandit.png
+BookSprite: SRD-salandit-BookSprite.png
+BoxSprite: SRD-salandit-BoxSprite.png
 DexCategory: Toxic Lizard Pokemon
 DexDescription: The markings at the end of its tail emit flames and a toxic gas, be
   careful as this gas smells sweet and specially appealing for the males of any species.
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Oblivious
-HomeSprite: SRD-HomeSprite-salandit.png
+HomeSprite: SRD-salandit-HomeSprite.png
 Learnset: '[[SRD-Salandit-Learnset]]'
 Legendary: 'No'
 Name: Salandit
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-salandit.png|right]]
+![[SRD-salandit-BookSprite.png|right wsmall]]
 
 *Toxic Lizard Pokemon*
 *The markings at the end of its tail emit flames and a toxic gas, be careful as this gas smells sweet and specially appealing for the males of any species. Only female Salandit are known to evolve.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Corrosion|Corrosion]] ([[SRD-Oblivious|Oblivious]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-salandit.png|right]]
+![[SRD-salandit-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-salandit-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

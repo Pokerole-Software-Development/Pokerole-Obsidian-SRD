@@ -2,9 +2,8 @@
 Ability1: Magnet Pull
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME808.png
-BookShinyImageName: HOME808_s.png
-BoxSprite: SRD-BoxSprite-meltan.png
+BookSprite: SRD-meltan-BookSprite.png
+BoxSprite: SRD-meltan-BoxSprite.png
 DexCategory: Hex Nut Pokemon
 DexDescription: They are elusive as they can liquefy their body to move through small
   spaces. They live in groups, but when the time comes, one strong Meltan will absorb
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-meltan.png
+HomeSprite: SRD-meltan-HomeSprite.png
 Learnset: '[[SRD-Meltan-Learnset]]'
 Legendary: 'No'
 Name: Meltan
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-meltan.png|right]]
+![[SRD-meltan-BookSprite.png|right wsmall]]
 
 *Hex Nut Pokemon*
 *They are elusive as they can liquefy their body to move through small spaces. They live in groups, but when the time comes, one strong Meltan will absorb all the others and evolve.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Magnet Pull|Magnet Pull]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-meltan.png|right]]
+![[SRD-meltan-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-meltan-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

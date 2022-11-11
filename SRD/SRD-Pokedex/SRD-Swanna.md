@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Big Pecks
 Baby: 'No'
-BookImageName: HOME581.png
-BookShinyImageName: HOME581_s.png
-BoxSprite: SRD-BoxSprite-swanna.png
+BookSprite: SRD-swanna-BookSprite.png
+BoxSprite: SRD-swanna-BoxSprite.png
 DexCategory: White Bird Pokemon
 DexDescription: Swanna come out to dance at dusk. The one dancing in the middle is
   the leader of the flock. Despite their elegant and frail appearance, they can flap
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Hydration
-HomeSprite: SRD-HomeSprite-swanna.png
+HomeSprite: SRD-swanna-HomeSprite.png
 Learnset: '[[SRD-Swanna-Learnset]]'
 Legendary: 'No'
 Name: Swanna
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-swanna.png|right]]
+![[SRD-swanna-BookSprite.png|right wsmall]]
 
 *White Bird Pokemon*
 *Swanna come out to dance at dusk. The one dancing in the middle is the leader of the flock. Despite their elegant and frail appearance, they can flap their wings strongly and fly for thousands of miles.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Big Pecks|Big Pecks]] ([[SRD-Hydration|Hydration]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-swanna.png|right]]
+![[SRD-swanna-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-swanna-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

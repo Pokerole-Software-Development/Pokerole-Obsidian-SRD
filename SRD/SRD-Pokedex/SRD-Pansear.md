@@ -2,9 +2,8 @@
 Ability1: Gluttony
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME513.png
-BookShinyImageName: HOME513_s.png
-BoxSprite: SRD-BoxSprite-pansear.png
+BookSprite: SRD-pansear-BookSprite.png
+BoxSprite: SRD-pansear-BoxSprite.png
 DexCategory: High Temp Pokemon
 DexDescription: "It lives close to volcanic mountains. It\u2019s very intelligent,\
   \ it roasts berries before eating them and helps lost people. When angered the tuft\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Blaze
-HomeSprite: SRD-HomeSprite-pansear.png
+HomeSprite: SRD-pansear-HomeSprite.png
 Learnset: '[[SRD-Pansear-Learnset]]'
 Legendary: 'No'
 Name: Pansear
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pansear.png|right]]
+![[SRD-pansear-BookSprite.png|right wsmall]]
 
 *High Temp Pokemon*
 *It lives close to volcanic mountains. It’s very intelligent, it roasts berries before eating them and helps lost people. When angered the tuft of hair on it’s head and tail can burst into flames.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Gluttony|Gluttony]] ([[SRD-Blaze|Blaze]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-pansear.png|right]]
+![[SRD-pansear-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-pansear-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

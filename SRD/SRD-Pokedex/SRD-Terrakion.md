@@ -2,9 +2,8 @@
 Ability1: Justified
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME639.png
-BookShinyImageName: HOME639_s.png
-BoxSprite: SRD-BoxSprite-terrakion.png
+BookSprite: SRD-terrakion-BookSprite.png
+BoxSprite: SRD-terrakion-BoxSprite.png
 DexCategory: No Data
 DexDescription: Legends in Unova tell about four Pokemon that rebelled against the
   unfair ruler. One of them trampled through the castle walls, destroying the fortress
@@ -17,7 +16,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-terrakion.png
+HomeSprite: SRD-terrakion-HomeSprite.png
 Learnset: '[[SRD-Terrakion-Learnset]]'
 Legendary: 'Yes'
 Name: Terrakion
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-terrakion.png|right]]
+![[SRD-terrakion-BookSprite.png|right wsmall]]
 
 *No Data*
 *Legends in Unova tell about four Pokemon that rebelled against the unfair ruler. One of them trampled through the castle walls, destroying the fortress to free the trapped Pokemon inside.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Justified|Justified]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-terrakion.png|right]]
+![[SRD-terrakion-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-terrakion-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Sand Veil
 Ability2: Arena Trap
 Baby: 'No'
-BookImageName: HOME050.png
-BookShinyImageName: HOME050_s.png
-BoxSprite: SRD-BoxSprite-diglett.png
+BookSprite: SRD-diglett-BookSprite.png
+BoxSprite: SRD-diglett-BoxSprite.png
 DexCategory: Mole Pokemon
 DexDescription: "It prefers dark places and spends most of its time underground. It\
   \ has a very thin skin. It\u2019s frail and has problems regulating its own temperature.\
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Sand Force
-HomeSprite: SRD-HomeSprite-diglett.png
+HomeSprite: SRD-diglett-HomeSprite.png
 Learnset: '[[SRD-Diglett-Learnset]]'
 Legendary: 'No'
 Name: Diglett
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-diglett.png|right]]
+![[SRD-diglett-BookSprite.png|right wsmall]]
 
 *Mole Pokemon*
 *It prefers dark places and spends most of its time underground. It has a very thin skin. It’s frail and has problems regulating its own temperature. Keep it burrowed or it will get sick.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] / [[SRD-Arena Trap|Arena Trap]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-diglett.png|right]]
+![[SRD-diglett-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-diglett-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

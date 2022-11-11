@@ -2,9 +2,8 @@
 Ability1: Flash Fire
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME136.png
-BookShinyImageName: HOME136_s.png
-BoxSprite: SRD-BoxSprite-flareon.png
+BookSprite: SRD-flareon-BookSprite.png
+BoxSprite: SRD-flareon-BoxSprite.png
 DexCategory: Flame Pokemon
 DexDescription: A few have been seen in volcanic areas but just like its counterparts
   is more common to see it being the pet of wealthy people. Its flaming fur is most
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Guts
-HomeSprite: SRD-HomeSprite-flareon.png
+HomeSprite: SRD-flareon-HomeSprite.png
 Learnset: '[[SRD-Flareon-Learnset]]'
 Legendary: 'No'
 Name: Flareon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-flareon.png|right]]
+![[SRD-flareon-BookSprite.png|right wsmall]]
 
 *Flame Pokemon*
 *A few have been seen in volcanic areas but just like its counterparts is more common to see it being the pet of wealthy people. Its flaming fur is most appreciated for its warm glow and silky touch.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flash Fire|Flash Fire]] ([[SRD-Guts|Guts]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-flareon.png|right]]
+![[SRD-flareon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-flareon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

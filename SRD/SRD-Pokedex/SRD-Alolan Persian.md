@@ -2,9 +2,8 @@
 Ability1: Fur Coat
 Ability2: Technician
 Baby: 'No'
-BookImageName: HOME053A.png
-BookShinyImageName: HOME053A_s.png
-BoxSprite: SRD-BoxSprite-persian-alola.png
+BookSprite: SRD-persian-alola-BookSprite.png
+BoxSprite: SRD-persian-alola-BoxSprite.png
 DexCategory: Classy Cat Pokemon
 DexDescription: "They were bred for their silky fur and round faces, not for their\
   \ temperament. This is an extremely proud Pokemon who will look down to anyone but\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Rattled
-HomeSprite: SRD-HomeSprite-persian-alola.png
+HomeSprite: SRD-persian-alola-HomeSprite.png
 Learnset: '[[SRD-Alolan Persian-Learnset]]'
 Legendary: 'No'
 Name: Alolan Persian
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-persian-alola.png|right]]
+![[SRD-persian-alola-BookSprite.png|right wsmall]]
 
 *Classy Cat Pokemon*
 *They were bred for their silky fur and round faces, not for their temperament. This is an extremely proud Pokemon who will look down to anyone but itself, despite this, it’s very popular among Alola’s elite.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Fur Coat|Fur Coat]] / [[SRD-Technician|Technician]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-persian-alola.png|right]]
+![[SRD-persian-alola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-persian-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

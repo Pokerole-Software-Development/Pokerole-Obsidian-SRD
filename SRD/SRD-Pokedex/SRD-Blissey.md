@@ -2,9 +2,8 @@
 Ability1: Natural Cure
 Ability2: Serene Grace
 Baby: 'No'
-BookImageName: HOME242.png
-BookShinyImageName: HOME242_s.png
-BoxSprite: SRD-BoxSprite-blissey.png
+BookSprite: SRD-blissey-BookSprite.png
+BoxSprite: SRD-blissey-BoxSprite.png
 DexCategory: Happiness Pokemon
 DexDescription: "Whoever takes a bite on a Blissey's egg becomes loving and caring\
   \ to everyone. They are compassionate, healing anyone who\u2019s injured. Their\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Healer
-HomeSprite: SRD-HomeSprite-blissey.png
+HomeSprite: SRD-blissey-HomeSprite.png
 Learnset: '[[SRD-Blissey-Learnset]]'
 Legendary: 'No'
 Name: Blissey
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-blissey.png|right]]
+![[SRD-blissey-BookSprite.png|right wsmall]]
 
 *Happiness Pokemon*
 *Whoever takes a bite on a Blissey's egg becomes loving and caring to everyone. They are compassionate, healing anyone who’s injured. Their presence makes everyone smile. An intelligent and emphatic Pokemon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]] / [[SRD-Serene Grace|Serene Grace]] ([[SRD-Healer|Healer]])
 **Base HP**:: 12
 
-![[SRD-BoxSprite-blissey.png|right]]
+![[SRD-blissey-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::2)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-blissey-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

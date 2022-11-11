@@ -2,9 +2,8 @@
 Ability1: Competitive
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME144G.png
-BookShinyImageName: HOME144G_s.png
-BoxSprite: SRD-BoxSprite-articuno-galar.png
+BookSprite: SRD-articuno-galar-BookSprite.png
+BoxSprite: SRD-articuno-galar-BoxSprite.png
 DexCategory: ''
 DexDescription: ''
 EventAbilities: ''
@@ -15,7 +14,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-articuno-galar.png
+HomeSprite: SRD-articuno-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Articuno (provisional)-Learnset]]'
 Legendary: 'Yes'
 Name: Galarian Articuno (provisional)
@@ -35,7 +34,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-articuno-galar.png|right]]
+![[SRD-articuno-galar-BookSprite.png|right wsmall]]
 
 **
 **
@@ -46,7 +45,7 @@ Weight:
 **Abilities**:: [[SRD-Competitive|Competitive]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-articuno-galar.png|right]]
+![[SRD-articuno-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -55,6 +54,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-articuno-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

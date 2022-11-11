@@ -2,9 +2,8 @@
 Ability1: Water Bubble
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME751.png
-BookShinyImageName: HOME751_s.png
-BoxSprite: SRD-BoxSprite-dewpider.png
+BookSprite: SRD-dewpider-BookSprite.png
+BoxSprite: SRD-dewpider-BoxSprite.png
 DexCategory: Water Bubble Pokemon
 DexDescription: It lives on shallow water pools, but goes into the land to find prey.
   Its water bubble allows it to breath outside of its pool and serves as a weapon
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Water Absorb
-HomeSprite: SRD-HomeSprite-dewpider.png
+HomeSprite: SRD-dewpider-HomeSprite.png
 Learnset: '[[SRD-Dewpider-Learnset]]'
 Legendary: 'No'
 Name: Dewpider
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dewpider.png|right]]
+![[SRD-dewpider-BookSprite.png|right wsmall]]
 
 *Water Bubble Pokemon*
 *It lives on shallow water pools, but goes into the land to find prey. Its water bubble allows it to breath outside of its pool and serves as a weapon to hunt or defend itself. As it grows its bubble grows as well.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Water Bubble|Water Bubble]] ([[SRD-Water Absorb|Water Absorb]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-dewpider.png|right]]
+![[SRD-dewpider-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-dewpider-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

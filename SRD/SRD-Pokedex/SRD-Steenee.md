@@ -2,9 +2,8 @@
 Ability1: Leaf Guard
 Ability2: Oblivious
 Baby: 'No'
-BookImageName: HOME762.png
-BookShinyImageName: HOME762_s.png
-BoxSprite: SRD-BoxSprite-steenee.png
+BookSprite: SRD-steenee-BookSprite.png
+BoxSprite: SRD-steenee-BoxSprite.png
 DexCategory: Fruit Pokemon
 DexDescription: "Its sweet aroma keeps attracting predators but it fends them away\
   \ with its hard and bitter head leaves. It likes to be taken seriously and can be\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Sweet Veil
-HomeSprite: SRD-HomeSprite-steenee.png
+HomeSprite: SRD-steenee-HomeSprite.png
 Learnset: '[[SRD-Steenee-Learnset]]'
 Legendary: 'No'
 Name: Steenee
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-steenee.png|right]]
+![[SRD-steenee-BookSprite.png|right wsmall]]
 
 *Fruit Pokemon*
 *Its sweet aroma keeps attracting predators but it fends them away with its hard and bitter head leaves. It likes to be taken seriously and can be hard to deal with, if you make it mad you’ll receive a kick.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Leaf Guard|Leaf Guard]] / [[SRD-Oblivious|Oblivious]] ([[SRD-Sweet Veil|Sweet Veil]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-steenee.png|right]]
+![[SRD-steenee-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-steenee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

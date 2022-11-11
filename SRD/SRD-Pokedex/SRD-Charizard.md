@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME006.png
-BookShinyImageName: HOME006_s.png
-BoxSprite: SRD-BoxSprite-charizard.png
+BookSprite: SRD-charizard-BookSprite.png
+BoxSprite: SRD-charizard-BoxSprite.png
 DexCategory: Flame Pokemon
 DexDescription: A Charizard flies around looking for strong opponents. It breathes
   intense flames that can melt any material. However, it will never touch a weaker
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Solar Power
-HomeSprite: SRD-HomeSprite-charizard.png
+HomeSprite: SRD-charizard-HomeSprite.png
 Learnset: '[[SRD-Charizard-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -42,7 +41,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-charizard.png|right]]
+![[SRD-charizard-BookSprite.png|right wsmall]]
 
 *Flame Pokemon*
 *A Charizard flies around looking for strong opponents. It breathes intense flames that can melt any material. However, it will never touch a weaker foe. Not many trainers are able to handle its bad temper.*
@@ -53,7 +52,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Solar Power|Solar Power]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-charizard.png|right]]
+![[SRD-charizard-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -62,6 +61,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-charizard-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME152.png
-BookShinyImageName: HOME152_s.png
-BoxSprite: SRD-BoxSprite-chikorita.png
+BookSprite: SRD-chikorita-BookSprite.png
+BoxSprite: SRD-chikorita-BoxSprite.png
 DexCategory: Leaf Pokemon
 DexDescription: It is docile and loves to bathe in the sunlight. It waves its leaf
   around to keep foes at bay. The sweet fragrance from its leaf, has a strong calming
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Leaf Guard
-HomeSprite: SRD-HomeSprite-chikorita.png
+HomeSprite: SRD-chikorita-HomeSprite.png
 Learnset: '[[SRD-Chikorita-Learnset]]'
 Legendary: 'No'
 Name: Chikorita
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-chikorita.png|right]]
+![[SRD-chikorita-BookSprite.png|right wsmall]]
 
 *Leaf Pokemon*
 *It is docile and loves to bathe in the sunlight. It waves its leaf around to keep foes at bay. The sweet fragrance from its leaf, has a strong calming and relaxing effect on people and Pokemon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Leaf Guard|Leaf Guard]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-chikorita.png|right]]
+![[SRD-chikorita-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-chikorita-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

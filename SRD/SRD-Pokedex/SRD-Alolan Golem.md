@@ -2,9 +2,8 @@
 Ability1: Magnet Pull
 Ability2: Sturdy
 Baby: 'No'
-BookImageName: HOME076A.png
-BookShinyImageName: HOME076A_s.png
-BoxSprite: SRD-BoxSprite-golem-alola.png
+BookSprite: SRD-golem-alola-BookSprite.png
+BoxSprite: SRD-golem-alola-BoxSprite.png
 DexCategory: Megaton Pokemon
 DexDescription: "The Alolan variant of Golem does not roll around like its counterpart,\
   \ instead it loads rocks into the charger on its head and shoots them around, if\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Galvanize
-HomeSprite: SRD-HomeSprite-golem-alola.png
+HomeSprite: SRD-golem-alola-HomeSprite.png
 Learnset: '[[SRD-Alolan Golem-Learnset]]'
 Legendary: 'No'
 Name: Alolan Golem
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-golem-alola.png|right]]
+![[SRD-golem-alola-BookSprite.png|right wsmall]]
 
 *Megaton Pokemon*
 *The Alolan variant of Golem does not roll around like its counterpart, instead it loads rocks into the charger on its head and shoots them around, if the rocks miss, the electric shockwave doesn’t.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Magnet Pull|Magnet Pull]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Galvanize|Galvanize]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-golem-alola.png|right]]
+![[SRD-golem-alola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-golem-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

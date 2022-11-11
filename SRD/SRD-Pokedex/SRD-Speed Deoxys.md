@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME386S.png
-BookShinyImageName: HOME386S_s.png
-BoxSprite: SRD-BoxSprite-deoxys-speed.png
+BookSprite: SRD-deoxys-speed-BookSprite.png
+BoxSprite: SRD-deoxys-speed-BoxSprite.png
 DexCategory: No Data
 DexDescription: The First officer mentioned a slim creature that moved too fast for
   the radar to register and the eye to see. She saw it for a split second before it
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-deoxys-speed.png
+HomeSprite: SRD-deoxys-speed-HomeSprite.png
 Learnset: '[[SRD-Speed Deoxys-Learnset]]'
 Legendary: 'Yes'
 Name: Speed Deoxys
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-deoxys-speed.png|right]]
+![[SRD-deoxys-speed-BookSprite.png|right wsmall]]
 
 *No Data*
 *The First officer mentioned a slim creature that moved too fast for the radar to register and the eye to see. She saw it for a split second before it supposedly attacked the other end of the ship.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-deoxys-speed.png|right]]
+![[SRD-deoxys-speed-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-deoxys-speed-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Serene Grace
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME385.png
-BookShinyImageName: HOME385_s.png
-BoxSprite: SRD-BoxSprite-jirachi.png
+BookSprite: SRD-jirachi-BookSprite.png
+BoxSprite: SRD-jirachi-BoxSprite.png
 DexCategory: No Data
 DexDescription: "It is said that every 1000 years, a shooting star appears in the\
   \ sky for 7 days, granting wishes to those of pure heart. Another common saying\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-jirachi.png
+HomeSprite: SRD-jirachi-HomeSprite.png
 Learnset: '[[SRD-Jirachi-Learnset]]'
 Legendary: 'Yes'
 Name: Jirachi
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-jirachi.png|right]]
+![[SRD-jirachi-BookSprite.png|right wsmall]]
 
 *No Data*
 *It is said that every 1000 years, a shooting star appears in the sky for 7 days, granting wishes to those of pure heart. Another common saying is: “Be careful what you wish for.”*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Serene Grace|Serene Grace]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-jirachi.png|right]]
+![[SRD-jirachi-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-jirachi-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

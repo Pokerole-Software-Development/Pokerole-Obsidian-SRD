@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME499.png
-BookShinyImageName: HOME499_s.png
-BoxSprite: SRD-BoxSprite-pignite.png
+BookSprite: SRD-pignite-BookSprite.png
+BoxSprite: SRD-pignite-BoxSprite.png
 DexCategory: Fire Pig Pokemon
 DexDescription: Whatever it eats becomes fuel for the flame on its stomach. When it
   is angered, the intensity of the flame increases. It is not common to see them the
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Thick Fat
-HomeSprite: SRD-HomeSprite-pignite.png
+HomeSprite: SRD-pignite-HomeSprite.png
 Learnset: '[[SRD-Pignite-Learnset]]'
 Legendary: 'No'
 Name: Pignite
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pignite.png|right]]
+![[SRD-pignite-BookSprite.png|right wsmall]]
 
 *Fire Pig Pokemon*
 *Whatever it eats becomes fuel for the flame on its stomach. When it is angered, the intensity of the flame increases. It is not common to see them the wild. They are mostly found living in warm places.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Thick Fat|Thick Fat]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-pignite.png|right]]
+![[SRD-pignite-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-pignite-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

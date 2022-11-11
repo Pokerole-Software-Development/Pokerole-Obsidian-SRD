@@ -2,9 +2,8 @@
 Ability1: Poison Point
 Ability2: Swarm
 Baby: 'No'
-BookImageName: HOME544.png
-BookShinyImageName: HOME544_s.png
-BoxSprite: SRD-BoxSprite-whirlipede.png
+BookSprite: SRD-whirlipede-BookSprite.png
+BoxSprite: SRD-whirlipede-BoxSprite.png
 DexCategory: Curlipede Pokemon
 DexDescription: It is usually motionless, when it is attacked, it rotates at high
   speed and then crashes into its opponent with its body full of poison spikes. Inside
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Speed Boost
-HomeSprite: SRD-HomeSprite-whirlipede.png
+HomeSprite: SRD-whirlipede-HomeSprite.png
 Learnset: '[[SRD-Whirlipede-Learnset]]'
 Legendary: 'No'
 Name: Whirlipede
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-whirlipede.png|right]]
+![[SRD-whirlipede-BookSprite.png|right wsmall]]
 
 *Curlipede Pokemon*
 *It is usually motionless, when it is attacked, it rotates at high speed and then crashes into its opponent with its body full of poison spikes. Inside it is storing energy for evolving, which normally takes a few months.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Swarm|Swarm]] ([[SRD-Speed Boost|Speed Boost]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-whirlipede.png|right]]
+![[SRD-whirlipede-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-whirlipede-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

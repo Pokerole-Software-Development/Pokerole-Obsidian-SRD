@@ -2,9 +2,8 @@
 Ability1: Clear Body
 Ability2: Infiltrator
 Baby: 'No'
-BookImageName: HOME886.png
-BookShinyImageName: HOME886_s.png
-BoxSprite: SRD-BoxSprite-drakloak.png
+BookSprite: SRD-drakloak-BookSprite.png
+BoxSprite: SRD-drakloak-BoxSprite.png
 DexCategory: Caretaker Pokemon
 DexDescription: "It battles alongside Dreepy and dotes on them until they evolve.\
   \ Without a Dreepy to place on its head and care for, it gets so uneasy it\u2019\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Cursed Body
-HomeSprite: SRD-HomeSprite-drakloak.png
+HomeSprite: SRD-drakloak-HomeSprite.png
 Learnset: '[[SRD-Drakloak-Learnset]]'
 Legendary: 'No'
 Name: Drakloak
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-drakloak.png|right]]
+![[SRD-drakloak-BookSprite.png|right wsmall]]
 
 *Caretaker Pokemon*
 *It battles alongside Dreepy and dotes on them until they evolve. Without a Dreepy to place on its head and care for, it gets so uneasy it’ll try to substitute it with any Pokemon it finds*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Clear Body|Clear Body]] / [[SRD-Infiltrator|Infiltrator]] ([[SRD-Cursed Body|Cursed Body]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-drakloak.png|right]]
+![[SRD-drakloak-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-drakloak-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

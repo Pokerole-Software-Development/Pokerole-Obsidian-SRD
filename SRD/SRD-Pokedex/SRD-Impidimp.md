@@ -2,9 +2,8 @@
 Ability1: Prankster
 Ability2: Frisk
 Baby: 'No'
-BookImageName: HOME859.png
-BookShinyImageName: HOME859_s.png
-BoxSprite: SRD-BoxSprite-impidimp.png
+BookSprite: SRD-impidimp-BookSprite.png
+BoxSprite: SRD-impidimp-BoxSprite.png
 DexCategory: Wily Pokemon
 DexDescription: "Through its nose, it sucks in the dark emanations produced by people\
   \ and Pokemon when they feel annoyed. It thrives off this negative energy. They\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Pickpocket
-HomeSprite: SRD-HomeSprite-impidimp.png
+HomeSprite: SRD-impidimp-HomeSprite.png
 Learnset: '[[SRD-Impidimp-Learnset]]'
 Legendary: 'No'
 Name: Impidimp
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-impidimp.png|right]]
+![[SRD-impidimp-BookSprite.png|right wsmall]]
 
 *Wily Pokemon*
 *Through its nose, it sucks in the dark emanations produced by people and Pokemon when they feel annoyed. It thrives off this negative energy. They love to take things that don’t belong to them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Prankster|Prankster]] / [[SRD-Frisk|Frisk]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-impidimp.png|right]]
+![[SRD-impidimp-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-impidimp-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

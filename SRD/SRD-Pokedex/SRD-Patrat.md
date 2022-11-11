@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Keen Eye
 Baby: 'No'
-BookImageName: HOME504.png
-BookShinyImageName: HOME504_s.png
-BoxSprite: SRD-BoxSprite-patrat.png
+BookSprite: SRD-patrat-BookSprite.png
+BoxSprite: SRD-patrat-BoxSprite.png
 DexCategory: Scout Pokemon
 DexDescription: They live in grass fields in big groups. One of them is always looking
   out for predators. The group gathers food they store on their cheeks to bring it
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Analytic
-HomeSprite: SRD-HomeSprite-patrat.png
+HomeSprite: SRD-patrat-HomeSprite.png
 Learnset: '[[SRD-Patrat-Learnset]]'
 Legendary: 'No'
 Name: Patrat
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-patrat.png|right]]
+![[SRD-patrat-BookSprite.png|right wsmall]]
 
 *Scout Pokemon*
 *They live in grass fields in big groups. One of them is always looking out for predators. The group gathers food they store on their cheeks to bring it back home. They are wary and alert all the time.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Keen Eye|Keen Eye]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-patrat.png|right]]
+![[SRD-patrat-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-patrat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

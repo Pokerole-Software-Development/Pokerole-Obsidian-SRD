@@ -2,9 +2,8 @@
 Ability1: Natural Cure
 Ability2: Serene Grace
 Baby: 'No'
-BookImageName: HOME113.png
-BookShinyImageName: HOME113_s.png
-BoxSprite: SRD-BoxSprite-chansey.png
+BookSprite: SRD-chansey-BookSprite.png
+BoxSprite: SRD-chansey-BoxSprite.png
 DexCategory: Egg Pokemon
 DexDescription: "There are only females in this species. Chansey lays a nutritive\
   \ egg every day. These eggs are fed to the sick to give them strength. It is a loving\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Healer
-HomeSprite: SRD-HomeSprite-chansey.png
+HomeSprite: SRD-chansey-HomeSprite.png
 Learnset: '[[SRD-Chansey-Learnset]]'
 Legendary: 'No'
 Name: Chansey
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-chansey.png|right]]
+![[SRD-chansey-BookSprite.png|right wsmall]]
 
 *Egg Pokemon*
 *There are only females in this species. Chansey lays a nutritive egg every day. These eggs are fed to the sick to give them strength. It is a loving and smart Pokemon, but it’s pretty rare and elusive in the wild.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]] / [[SRD-Serene Grace|Serene Grace]] ([[SRD-Healer|Healer]])
 **Base HP**:: 12
 
-![[SRD-BoxSprite-chansey.png|right]]
+![[SRD-chansey-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::2)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-chansey-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

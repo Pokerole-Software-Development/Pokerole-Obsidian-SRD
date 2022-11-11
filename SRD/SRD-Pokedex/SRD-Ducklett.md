@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Big Pecks
 Baby: 'No'
-BookImageName: HOME580.png
-BookShinyImageName: HOME580_s.png
-BoxSprite: SRD-BoxSprite-ducklett.png
+BookSprite: SRD-ducklett-BookSprite.png
+BoxSprite: SRD-ducklett-BoxSprite.png
 DexCategory: Water Bird Pokemon
 DexDescription: These bird Pokemon are excellent divers. They swim around in the water
   eating their favorite food, peat moss. They can shoot a spray mist with their feathers
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Hydration
-HomeSprite: SRD-HomeSprite-ducklett.png
+HomeSprite: SRD-ducklett-HomeSprite.png
 Learnset: '[[SRD-Ducklett-Learnset]]'
 Legendary: 'No'
 Name: Ducklett
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ducklett.png|right]]
+![[SRD-ducklett-BookSprite.png|right wsmall]]
 
 *Water Bird Pokemon*
 *These bird Pokemon are excellent divers. They swim around in the water eating their favorite food, peat moss. They can shoot a spray mist with their feathers to protect from any predator that comes.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Big Pecks|Big Pecks]] ([[SRD-Hydration|Hydration]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-ducklett.png|right]]
+![[SRD-ducklett-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-ducklett-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

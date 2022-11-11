@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME658A.png
-BookShinyImageName: HOME658A_s.png
-BoxSprite: SRD-BoxSprite-greninja.png
+BookSprite: SRD-greninja-BookSprite.png
+BoxSprite: SRD-greninja-BoxSprite.png
 DexCategory: Ninja Pokemon
 DexDescription: "The mysteries of the Pokemon world are vast. There is something called\
   \ \u201CThe Bond Phenomenon\u201D were a Pokemon and its trainer share a connection\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Protean
-HomeSprite: SRD-HomeSprite-greninja.png
+HomeSprite: SRD-greninja-HomeSprite.png
 Learnset: '[[SRD-BBF Greninja-Learnset]]'
 Legendary: 'No'
 Name: BBF Greninja
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-greninja.png|right]]
+![[SRD-greninja-BookSprite.png|right wsmall]]
 
 *Ninja Pokemon*
 *The mysteries of the Pokemon world are vast. There is something called “The Bond Phenomenon” were a Pokemon and its trainer share a connection so strong that the Pokemon changes due to it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Protean|Protean]]) <[[SRD-Battle Bond|Battle Bond]]>
 **Base HP**:: 5
 
-![[SRD-BoxSprite-greninja.png|right]]
+![[SRD-greninja-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-greninja-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

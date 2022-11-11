@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME502.png
-BookShinyImageName: HOME502_s.png
-BoxSprite: SRD-BoxSprite-dewott.png
+BookSprite: SRD-dewott-BookSprite.png
+BoxSprite: SRD-dewott-BoxSprite.png
 DexCategory: Discipline Pokemon
 DexDescription: "It isolates itself from others and trains every day to perform a\
   \ double scalchop slash technique. This Pokemon takes itself very seriously and\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Shell Armor
-HomeSprite: SRD-HomeSprite-dewott.png
+HomeSprite: SRD-dewott-HomeSprite.png
 Learnset: '[[SRD-Dewott-Learnset]]'
 Legendary: 'No'
 Name: Dewott
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dewott.png|right]]
+![[SRD-dewott-BookSprite.png|right wsmall]]
 
 *Discipline Pokemon*
 *It isolates itself from others and trains every day to perform a double scalchop slash technique. This Pokemon takes itself very seriously and won’t back down from any challenge.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Shell Armor|Shell Armor]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-dewott.png|right]]
+![[SRD-dewott-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-dewott-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

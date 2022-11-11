@@ -2,9 +2,8 @@
 Ability1: Natural Cure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME333.png
-BookShinyImageName: HOME333_s.png
-BoxSprite: SRD-BoxSprite-swablu.png
+BookSprite: SRD-swablu-BookSprite.png
+BoxSprite: SRD-swablu-BoxSprite.png
 DexCategory: Cotton Bird Pokemon
 DexDescription: Their wings are made of cotton clouds. They are friendly creatures
   that love to be near humans, usually sitting on their heads as cotton hats. They
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Cloud Nine
-HomeSprite: SRD-HomeSprite-swablu.png
+HomeSprite: SRD-swablu-HomeSprite.png
 Learnset: '[[SRD-Swablu-Learnset]]'
 Legendary: 'No'
 Name: Swablu
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-swablu.png|right]]
+![[SRD-swablu-BookSprite.png|right wsmall]]
 
 *Cotton Bird Pokemon*
 *Their wings are made of cotton clouds. They are friendly creatures that love to be near humans, usually sitting on their heads as cotton hats. They travel in flocks and live near towns during the Spring.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]] ([[SRD-Cloud Nine|Cloud Nine]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-swablu.png|right]]
+![[SRD-swablu-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-swablu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

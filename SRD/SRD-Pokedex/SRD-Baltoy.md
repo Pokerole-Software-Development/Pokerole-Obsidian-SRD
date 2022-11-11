@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME343.png
-BookShinyImageName: HOME343_s.png
-BoxSprite: SRD-BoxSprite-baltoy.png
+BookSprite: SRD-baltoy-BookSprite.png
+BoxSprite: SRD-baltoy-BoxSprite.png
 DexCategory: Clay Doll Pokemon
 DexDescription: They spin on their center to move around. When a group of them gathers
   they create a horrible, headache inducing noise at unison. Old paintings describe
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-baltoy.png
+HomeSprite: SRD-baltoy-HomeSprite.png
 Learnset: '[[SRD-Baltoy-Learnset]]'
 Legendary: 'No'
 Name: Baltoy
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-baltoy.png|right]]
+![[SRD-baltoy-BookSprite.png|right wsmall]]
 
 *Clay Doll Pokemon*
 *They spin on their center to move around. When a group of them gathers they create a horrible, headache inducing noise at unison. Old paintings describe them living with people in ancient times.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-baltoy.png|right]]
+![[SRD-baltoy-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-baltoy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

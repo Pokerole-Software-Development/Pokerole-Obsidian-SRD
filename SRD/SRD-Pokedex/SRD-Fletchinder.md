@@ -2,9 +2,8 @@
 Ability1: Flame Body
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME662.png
-BookShinyImageName: HOME662_s.png
-BoxSprite: SRD-BoxSprite-fletchinder.png
+BookSprite: SRD-fletchinder-BookSprite.png
+BoxSprite: SRD-fletchinder-BoxSprite.png
 DexCategory: Ember Pokemon
 DexDescription: From its beak, it expels embers to set tall grass on fire, then it
   pounces on the bewildered prey that pop out of the grass. Its body becomes engulfed
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Gale Wings
-HomeSprite: SRD-HomeSprite-fletchinder.png
+HomeSprite: SRD-fletchinder-HomeSprite.png
 Learnset: '[[SRD-Fletchinder-Learnset]]'
 Legendary: 'No'
 Name: Fletchinder
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-fletchinder.png|right]]
+![[SRD-fletchinder-BookSprite.png|right wsmall]]
 
 *Ember Pokemon*
 *From its beak, it expels embers to set tall grass on fire, then it pounces on the bewildered prey that pop out of the grass. Its body becomes engulfed in flames when it starts to battle. It is a fierce Pokemon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flame Body|Flame Body]] ([[SRD-Gale Wings|Gale Wings]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-fletchinder.png|right]]
+![[SRD-fletchinder-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-fletchinder-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

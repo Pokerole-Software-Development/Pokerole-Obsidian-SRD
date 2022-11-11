@@ -2,9 +2,8 @@
 Ability1: Sturdy
 Ability2: Weak Armor
 Baby: 'No'
-BookImageName: HOME525.png
-BookShinyImageName: HOME525_s.png
-BoxSprite: SRD-BoxSprite-boldore.png
+BookSprite: SRD-boldore-BookSprite.png
+BoxSprite: SRD-boldore-BoxSprite.png
 DexCategory: Ore Pokemon
 DexDescription: It releases the excess of energy in the form of red crystals. It is
   still blind, it looks for for water sources inside underground caves by using echo
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Sand Force
-HomeSprite: SRD-HomeSprite-boldore.png
+HomeSprite: SRD-boldore-HomeSprite.png
 Learnset: '[[SRD-Boldore-Learnset]]'
 Legendary: 'No'
 Name: Boldore
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-boldore.png|right]]
+![[SRD-boldore-BookSprite.png|right wsmall]]
 
 *Ore Pokemon*
 *It releases the excess of energy in the form of red crystals. It is still blind, it looks for for water sources inside underground caves by using echo location. It is a pacific creature that keeps to itself most of the time.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Weak Armor|Weak Armor]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-boldore.png|right]]
+![[SRD-boldore-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-boldore-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

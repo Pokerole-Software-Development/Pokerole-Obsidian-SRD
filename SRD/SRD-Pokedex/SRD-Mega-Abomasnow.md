@@ -2,9 +2,8 @@
 Ability1: Snow Warning
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME460M.png
-BookShinyImageName: HOME460M_s.png
-BoxSprite: SRD-BoxSprite-abomasnow-mega.png
+BookSprite: SRD-abomasnow-mega-BookSprite.png
+BoxSprite: SRD-abomasnow-mega-BoxSprite.png
 DexCategory: Frosted Tree Pokemon
 DexDescription: The power of the Mega Stone freezes part of its body creating pointy
   icicles that hail upon its enemies in a blizzard. The angrier it becomes the longer
@@ -17,7 +16,7 @@ Height:
   Feet: 8.9
   Meters: 2.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-abomasnow-mega.png
+HomeSprite: SRD-abomasnow-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Abomasnow-Learnset]]'
 Legendary: 'No'
 Name: Mega-Abomasnow
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-abomasnow-mega.png|right]]
+![[SRD-abomasnow-mega-BookSprite.png|right wsmall]]
 
 *Frosted Tree Pokemon*
 *The power of the Mega Stone freezes part of its body creating pointy icicles that hail upon its enemies in a blizzard. The angrier it becomes the longer the storm will last.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Snow Warning|Snow Warning]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-abomasnow-mega.png|right]]
+![[SRD-abomasnow-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-abomasnow-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

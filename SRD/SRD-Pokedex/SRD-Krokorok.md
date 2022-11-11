@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: Moxie
 Baby: 'No'
-BookImageName: HOME552.png
-BookShinyImageName: HOME552_s.png
-BoxSprite: SRD-BoxSprite-krokorok.png
+BookSprite: SRD-krokorok-BookSprite.png
+BoxSprite: SRD-krokorok-BoxSprite.png
 DexCategory: Desert Croc Pokemon
 DexDescription: The protective membranes shield their eyes from sandstorms and allow
   them to see in the dark. They can be aggressive and territorial and love to destroy
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Anger Point
-HomeSprite: SRD-HomeSprite-krokorok.png
+HomeSprite: SRD-krokorok-HomeSprite.png
 Learnset: '[[SRD-Krokorok-Learnset]]'
 Legendary: 'No'
 Name: Krokorok
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-krokorok.png|right]]
+![[SRD-krokorok-BookSprite.png|right wsmall]]
 
 *Desert Croc Pokemon*
 *The protective membranes shield their eyes from sandstorms and allow them to see in the dark. They can be aggressive and territorial and love to destroy things with their fangs.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Moxie|Moxie]] ([[SRD-Anger Point|Anger Point]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-krokorok.png|right]]
+![[SRD-krokorok-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-krokorok-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

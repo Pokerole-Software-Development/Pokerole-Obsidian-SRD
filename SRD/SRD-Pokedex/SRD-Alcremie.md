@@ -2,9 +2,8 @@
 Ability1: Sweet Veil
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME869.png
-BookShinyImageName: HOME869_s.png
-BoxSprite: SRD-BoxSprite-alcremie.png
+BookSprite: SRD-alcremie-BookSprite.png
+BoxSprite: SRD-alcremie-BoxSprite.png
 DexCategory: Cream Pokemon
 DexDescription: There is a vast number of recipes to evolve an Alcremie, changing
   their color and flavor, some are sweet, some are sour but they are all delicious.
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Aroma Veil
-HomeSprite: SRD-HomeSprite-alcremie.png
+HomeSprite: SRD-alcremie-HomeSprite.png
 Learnset: '[[SRD-Alcremie-Learnset]]'
 Legendary: 'No'
 Name: Alcremie
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-alcremie.png|right]]
+![[SRD-alcremie-BookSprite.png|right wsmall]]
 
 *Cream Pokemon*
 *There is a vast number of recipes to evolve an Alcremie, changing their color and flavor, some are sweet, some are sour but they are all delicious. Cakes baked with its help can be sold for a lot of money.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sweet Veil|Sweet Veil]] ([[SRD-Aroma Veil|Aroma Veil]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-alcremie.png|right]]
+![[SRD-alcremie-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-alcremie-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

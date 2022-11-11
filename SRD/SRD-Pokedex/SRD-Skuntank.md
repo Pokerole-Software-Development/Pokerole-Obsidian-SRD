@@ -2,9 +2,8 @@
 Ability1: Stench
 Ability2: Aftermath
 Baby: 'No'
-BookImageName: HOME435.png
-BookShinyImageName: HOME435_s.png
-BoxSprite: SRD-BoxSprite-skuntank.png
+BookSprite: SRD-skuntank-BookSprite.png
+BoxSprite: SRD-skuntank-BoxSprite.png
 DexCategory: Skunk Pokemon
 DexDescription: "It sprays a reeking fluid from its tail. The fluid smells worse the\
   \ longer it is allowed to fester. It is vulnerable to attacks that come from above\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Keen Eye
-HomeSprite: SRD-HomeSprite-skuntank.png
+HomeSprite: SRD-skuntank-HomeSprite.png
 Learnset: '[[SRD-Skuntank-Learnset]]'
 Legendary: 'No'
 Name: Skuntank
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-skuntank.png|right]]
+![[SRD-skuntank-BookSprite.png|right wsmall]]
 
 *Skunk Pokemon*
 *It sprays a reeking fluid from its tail. The fluid smells worse the longer it is allowed to fester. It is vulnerable to attacks that come from above due to its exuberant tail. When it’s relaxed it doesn’t smell bad.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Stench|Stench]] / [[SRD-Aftermath|Aftermath]] ([[SRD-Keen Eye|Keen Eye]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-skuntank.png|right]]
+![[SRD-skuntank-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-skuntank-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

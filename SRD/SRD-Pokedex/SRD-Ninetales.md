@@ -2,9 +2,8 @@
 Ability1: Flash Fire
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME038.png
-BookShinyImageName: HOME038_s.png
-BoxSprite: SRD-BoxSprite-ninetales.png
+BookSprite: SRD-ninetales-BookSprite.png
+BoxSprite: SRD-ninetales-BoxSprite.png
 DexCategory: Fox Pokemon
 DexDescription: It is known to understand human speech. It is very valued for its
   exuberant golden fur and the mystical power of its nine tails. It is, however, known
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Drought
-HomeSprite: SRD-HomeSprite-ninetales.png
+HomeSprite: SRD-ninetales-HomeSprite.png
 Learnset: '[[SRD-Ninetales-Learnset]]'
 Legendary: 'No'
 Name: Ninetales
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ninetales.png|right]]
+![[SRD-ninetales-BookSprite.png|right wsmall]]
 
 *Fox Pokemon*
 *It is known to understand human speech. It is very valued for its exuberant golden fur and the mystical power of its nine tails. It is, however, known to hold a grudge against those who mistreat it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flash Fire|Flash Fire]] ([[SRD-Drought|Drought]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-ninetales.png|right]]
+![[SRD-ninetales-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-ninetales-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

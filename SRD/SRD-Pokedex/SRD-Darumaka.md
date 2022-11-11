@@ -2,9 +2,8 @@
 Ability1: Hustle
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME554.png
-BookShinyImageName: HOME554_s.png
-BoxSprite: SRD-BoxSprite-darumaka.png
+BookSprite: SRD-darumaka-BookSprite.png
+BoxSprite: SRD-darumaka-BoxSprite.png
 DexCategory: Zen Charm Pokemon
 DexDescription: Lives on deserts and arid terrains. It has a flame inside its body.
   When the flame burns brightly it becomes very active running around, when the flame
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Inner Focus
-HomeSprite: SRD-HomeSprite-darumaka.png
+HomeSprite: SRD-darumaka-HomeSprite.png
 Learnset: '[[SRD-Darumaka-Learnset]]'
 Legendary: 'No'
 Name: Darumaka
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-darumaka.png|right]]
+![[SRD-darumaka-BookSprite.png|right wsmall]]
 
 *Zen Charm Pokemon*
 *Lives on deserts and arid terrains. It has a flame inside its body. When the flame burns brightly it becomes very active running around, when the flame is low it falls asleep. Their droppings double as a bonfire.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hustle|Hustle]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-darumaka.png|right]]
+![[SRD-darumaka-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-darumaka-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Innards Out
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME771.png
-BookShinyImageName: HOME771_s.png
-BoxSprite: SRD-BoxSprite-pyukumuku.png
+BookSprite: SRD-pyukumuku-BookSprite.png
+BoxSprite: SRD-pyukumuku-BoxSprite.png
 DexCategory: Sea Cucumber Pokemon
 DexDescription: "Once this Pokemon finds a spot it likes it will remain there without\
   \ moving, even if food is out of reach. It can expel its organs through its mouth\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Unaware
-HomeSprite: SRD-HomeSprite-pyukumuku.png
+HomeSprite: SRD-pyukumuku-HomeSprite.png
 Learnset: '[[SRD-Pyukumuku-Learnset]]'
 Legendary: 'No'
 Name: Pyukumuku
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pyukumuku.png|right]]
+![[SRD-pyukumuku-BookSprite.png|right wsmall]]
 
 *Sea Cucumber Pokemon*
 *Once this Pokemon finds a spot it likes it will remain there without moving, even if food is out of reach. It can expel its organs through its mouth and use them like an arm. It’s slimy and not many people like it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Innards Out|Innards Out]] ([[SRD-Unaware|Unaware]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-pyukumuku.png|right]]
+![[SRD-pyukumuku-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-pyukumuku-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

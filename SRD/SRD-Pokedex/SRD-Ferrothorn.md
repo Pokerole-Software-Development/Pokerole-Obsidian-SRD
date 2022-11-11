@@ -2,9 +2,8 @@
 Ability1: Iron Barbs
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME598.png
-BookShinyImageName: HOME598_s.png
-BoxSprite: SRD-BoxSprite-ferrothorn.png
+BookSprite: SRD-ferrothorn-BookSprite.png
+BoxSprite: SRD-ferrothorn-BoxSprite.png
 DexCategory: Thorn Pod Pokemon
 DexDescription: It attaches itself to cave ceilings by swinging around its spiky feelers.
   It shoots spikes at targets passing beneath. It is incredibly resilient and stubborn,
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Anticipation
-HomeSprite: SRD-HomeSprite-ferrothorn.png
+HomeSprite: SRD-ferrothorn-HomeSprite.png
 Learnset: '[[SRD-Ferrothorn-Learnset]]'
 Legendary: 'No'
 Name: Ferrothorn
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ferrothorn.png|right]]
+![[SRD-ferrothorn-BookSprite.png|right wsmall]]
 
 *Thorn Pod Pokemon*
 *It attaches itself to cave ceilings by swinging around its spiky feelers. It shoots spikes at targets passing beneath. It is incredibly resilient and stubborn, it will whip you if you try to take its spot in the cave walls..*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Iron Barbs|Iron Barbs]] ([[SRD-Anticipation|Anticipation]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-ferrothorn.png|right]]
+![[SRD-ferrothorn-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-ferrothorn-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

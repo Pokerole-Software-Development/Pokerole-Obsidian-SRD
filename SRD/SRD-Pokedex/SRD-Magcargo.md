@@ -2,9 +2,8 @@
 Ability1: Magma Armor
 Ability2: Flame Body
 Baby: 'No'
-BookImageName: HOME219.png
-BookShinyImageName: HOME219_s.png
-BoxSprite: SRD-BoxSprite-magcargo.png
+BookSprite: SRD-magcargo-BookSprite.png
+BoxSprite: SRD-magcargo-BoxSprite.png
 DexCategory: Lava Pokemon
 DexDescription: Their shell is molten body that cooled off and hardened, it may appear
   solid, but it may burst into flames with a single touch. Water vaporizes on contact
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Weak Armor
-HomeSprite: SRD-HomeSprite-magcargo.png
+HomeSprite: SRD-magcargo-HomeSprite.png
 Learnset: '[[SRD-Magcargo-Learnset]]'
 Legendary: 'No'
 Name: Magcargo
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-magcargo.png|right]]
+![[SRD-magcargo-BookSprite.png|right wsmall]]
 
 *Lava Pokemon*
 *Their shell is molten body that cooled off and hardened, it may appear solid, but it may burst into flames with a single touch. Water vaporizes on contact and rain turns into a cloud of steam.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Magma Armor|Magma Armor]] / [[SRD-Flame Body|Flame Body]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-magcargo.png|right]]
+![[SRD-magcargo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-magcargo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

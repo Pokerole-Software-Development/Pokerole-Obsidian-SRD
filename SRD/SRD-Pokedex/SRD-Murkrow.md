@@ -2,9 +2,8 @@
 Ability1: Insomnia
 Ability2: Super Luck
 Baby: 'No'
-BookImageName: HOME198.png
-BookShinyImageName: HOME198_s.png
-BoxSprite: SRD-BoxSprite-murkrow.png
+BookSprite: SRD-murkrow-BookSprite.png
+BoxSprite: SRD-murkrow-BoxSprite.png
 DexCategory: Darkness Pokemon
 DexDescription: Murkrows are feared and loathed as the alleged bearers of ill fortune.
   This Pokemon will steal anything that sparkles. They are infamous for luring people
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Prankster
-HomeSprite: SRD-HomeSprite-murkrow.png
+HomeSprite: SRD-murkrow-HomeSprite.png
 Learnset: '[[SRD-Murkrow-Learnset]]'
 Legendary: 'No'
 Name: Murkrow
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-murkrow.png|right]]
+![[SRD-murkrow-BookSprite.png|right wsmall]]
 
 *Darkness Pokemon*
 *Murkrows are feared and loathed as the alleged bearers of ill fortune. This Pokemon will steal anything that sparkles. They are infamous for luring people and get them lost in the mountains.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Insomnia|Insomnia]] / [[SRD-Super Luck|Super Luck]] ([[SRD-Prankster|Prankster]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-murkrow.png|right]]
+![[SRD-murkrow-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-murkrow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

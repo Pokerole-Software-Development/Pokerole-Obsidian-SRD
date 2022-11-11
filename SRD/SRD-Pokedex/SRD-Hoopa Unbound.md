@@ -2,9 +2,8 @@
 Ability1: Magician
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME720U.png
-BookShinyImageName: HOME720U_s.png
-BoxSprite: SRD-BoxSprite-hoopa-unbound.png
+BookSprite: SRD-hoopa-unbound-BookSprite.png
+BoxSprite: SRD-hoopa-unbound-BoxSprite.png
 DexCategory: No Data
 DexDescription: There is a story of an old demon whose power unleashed horrors from
   other dimensions into earth, ripping the fabrics of existence, it opened portals
@@ -17,7 +16,7 @@ Height:
   Feet: 21.3
   Meters: 6.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-hoopa-unbound.png
+HomeSprite: SRD-hoopa-unbound-HomeSprite.png
 Learnset: '[[SRD-Hoopa Unbound-Learnset]]'
 Legendary: 'Yes'
 Name: Hoopa Unbound
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-hoopa-unbound.png|right]]
+![[SRD-hoopa-unbound-BookSprite.png|right wsmall]]
 
 *No Data*
 *There is a story of an old demon whose power unleashed horrors from other dimensions into earth, ripping the fabrics of existence, it opened portals to bring evil upon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Magician|Magician]]
 **Base HP**:: 7
 
-![[SRD-BoxSprite-hoopa-unbound.png|right]]
+![[SRD-hoopa-unbound-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::4)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::9)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-hoopa-unbound-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

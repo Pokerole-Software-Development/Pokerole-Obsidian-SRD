@@ -2,9 +2,8 @@
 Ability1: Own Tempo
 Ability2: Ice Body
 Baby: 'No'
-BookImageName: HOME712.png
-BookShinyImageName: HOME712_s.png
-BoxSprite: SRD-BoxSprite-bergmite.png
+BookSprite: SRD-bergmite-BookSprite.png
+BoxSprite: SRD-bergmite-BoxSprite.png
 DexCategory: Ice Chunk Pokemon
 DexDescription: They live in small herds close to the mountains. It blocks attacks
   with the ice that shields its body and uses cold air to repair any cracks with new
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Sturdy
-HomeSprite: SRD-HomeSprite-bergmite.png
+HomeSprite: SRD-bergmite-HomeSprite.png
 Learnset: '[[SRD-Bergmite-Learnset]]'
 Legendary: 'No'
 Name: Bergmite
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-bergmite.png|right]]
+![[SRD-bergmite-BookSprite.png|right wsmall]]
 
 *Ice Chunk Pokemon*
 *They live in small herds close to the mountains. It blocks attacks with the ice that shields its body and uses cold air to repair any cracks with new ice. They are wary of humans as they rarely get to see one.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Own Tempo|Own Tempo]] / [[SRD-Ice Body|Ice Body]] ([[SRD-Sturdy|Sturdy]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-bergmite.png|right]]
+![[SRD-bergmite-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-bergmite-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

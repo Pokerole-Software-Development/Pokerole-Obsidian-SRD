@@ -2,9 +2,8 @@
 Ability1: Prankster
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME641.png
-BookShinyImageName: HOME641_s.png
-BoxSprite: SRD-BoxSprite-tornadus.png
+BookSprite: SRD-tornadus-BookSprite.png
+BoxSprite: SRD-tornadus-BoxSprite.png
 DexCategory: No Data
 DexDescription: Unova suffers from terrible tornadoes and devastating wind currents
   that leave houses and buildings in ruins. Some people claim a Pokemon riding the
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Defiant
-HomeSprite: SRD-HomeSprite-tornadus.png
+HomeSprite: SRD-tornadus-HomeSprite.png
 Learnset: '[[SRD-Tornadus-Learnset]]'
 Legendary: 'Yes'
 Name: Tornadus
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tornadus.png|right]]
+![[SRD-tornadus-BookSprite.png|right wsmall]]
 
 *No Data*
 *Unova suffers from terrible tornadoes and devastating wind currents that leave houses and buildings in ruins. Some people claim a Pokemon riding the winds is responsible for all the devastation.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Prankster|Prankster]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-tornadus.png|right]]
+![[SRD-tornadus-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-tornadus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

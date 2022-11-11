@@ -2,9 +2,8 @@
 Ability1: Own Tempo
 Ability2: Technician
 Baby: 'No'
-BookImageName: HOME235.png
-BookShinyImageName: HOME235_s.png
-BoxSprite: SRD-BoxSprite-smeargle.png
+BookSprite: SRD-smeargle-BookSprite.png
+BoxSprite: SRD-smeargle-BoxSprite.png
 DexCategory: Painter Pokemon
 DexDescription: A special ink oozes from its tail to mark its territory. They are
   skilled artists, known for painting action scenes from great battles. If they study
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Moody
-HomeSprite: SRD-HomeSprite-smeargle.png
+HomeSprite: SRD-smeargle-HomeSprite.png
 Learnset: '[[SRD-Smeargle-Learnset]]'
 Legendary: 'No'
 Name: Smeargle
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-smeargle.png|right]]
+![[SRD-smeargle-BookSprite.png|right wsmall]]
 
 *Painter Pokemon*
 *A special ink oozes from its tail to mark its territory. They are skilled artists, known for painting action scenes from great battles. If they study their painting for a long time, they learn those moves.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Own Tempo|Own Tempo]] / [[SRD-Technician|Technician]] ([[SRD-Moody|Moody]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-smeargle.png|right]]
+![[SRD-smeargle-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-smeargle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

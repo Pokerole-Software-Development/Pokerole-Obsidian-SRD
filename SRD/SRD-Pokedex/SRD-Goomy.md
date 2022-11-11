@@ -2,9 +2,8 @@
 Ability1: Sap Sipper
 Ability2: Hydration
 Baby: 'No'
-BookImageName: HOME704.png
-BookShinyImageName: HOME704_s.png
-BoxSprite: SRD-BoxSprite-goomy.png
+BookSprite: SRD-goomy-BookSprite.png
+BoxSprite: SRD-goomy-BoxSprite.png
 DexCategory: Soft Tissue Pokemon
 DexDescription: "The weakest but best tempered Dragon Pokemon known. It lives in damp\
   \ and shady places, so its body doesn\u2019t dry out. It\u2019s covered in a slimy\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Gooey
-HomeSprite: SRD-HomeSprite-goomy.png
+HomeSprite: SRD-goomy-HomeSprite.png
 Learnset: '[[SRD-Goomy-Learnset]]'
 Legendary: 'No'
 Name: Goomy
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-goomy.png|right]]
+![[SRD-goomy-BookSprite.png|right wsmall]]
 
 *Soft Tissue Pokemon*
 *The weakest but best tempered Dragon Pokemon known. It lives in damp and shady places, so its body doesn’t dry out. It’s covered in a slimy membrane that makes things slide off of it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sap Sipper|Sap Sipper]] / [[SRD-Hydration|Hydration]] ([[SRD-Gooey|Gooey]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-goomy.png|right]]
+![[SRD-goomy-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-goomy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

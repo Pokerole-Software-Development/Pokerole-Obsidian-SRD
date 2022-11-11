@@ -2,9 +2,8 @@
 Ability1: Punk Rock
 Ability2: Minus
 Baby: 'No'
-BookImageName: HOME849L.png
-BookShinyImageName: HOME849L_s.png
-BoxSprite: SRD-BoxSprite-toxtricity-low-key.png
+BookSprite: SRD-toxtricity-low-key-BookSprite.png
+BoxSprite: SRD-toxtricity-low-key-BoxSprite.png
 DexCategory: Punk Pokemon
 DexDescription: "Commonly called \u201CLow Key Form\u201D, its nature determines its\
   \ evolution, If a Toxel is introverted it will evolve to be a chill Toxtricity.\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Technician
-HomeSprite: SRD-HomeSprite-toxtricity-low-key.png
+HomeSprite: SRD-toxtricity-low-key-HomeSprite.png
 Learnset: '[[SRD-Toxtricity Low Key-Learnset]]'
 Legendary: 'No'
 Name: Toxtricity Low Key
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-toxtricity-low-key.png|right]]
+![[SRD-toxtricity-low-key-BookSprite.png|right wsmall]]
 
 *Punk Pokemon*
 *Commonly called “Low Key Form”, its nature determines its evolution, If a Toxel is introverted it will evolve to be a chill Toxtricity. They emit low pitched sounds and look down on others who try to provoke them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Punk Rock|Punk Rock]] / [[SRD-Minus|Minus]] ([[SRD-Technician|Technician]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-toxtricity-low-key.png|right]]
+![[SRD-toxtricity-low-key-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-toxtricity-low-key-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Beast Boost
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME795.png
-BookShinyImageName: HOME795_s.png
-BoxSprite: SRD-BoxSprite-pheromosa.png
+BookSprite: SRD-pheromosa-BookSprite.png
+BoxSprite: SRD-pheromosa-BoxSprite.png
 DexCategory: 'Aether Foundation Log #012'
 DexDescription: "This one also appears to be unable to enter a Pokeball, the rays\
   \ just won\u2019t surround them. This one has refused to touch anything we give\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-pheromosa.png
+HomeSprite: SRD-pheromosa-HomeSprite.png
 Learnset: '[[SRD-Pheromosa-Learnset]]'
 Legendary: 'Yes'
 Name: Pheromosa
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pheromosa.png|right]]
+![[SRD-pheromosa-BookSprite.png|right wsmall]]
 
 *Aether Foundation Log #012*
 *This one also appears to be unable to enter a Pokeball, the rays just won’t surround them. This one has refused to touch anything we give to it and appears displeased by my mere presence.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-pheromosa.png|right]]
+![[SRD-pheromosa-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::3)     |
+
+![[SRD-pheromosa-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

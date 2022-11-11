@@ -2,9 +2,8 @@
 Ability1: Pickup
 Ability2: Quick Feet
 Baby: 'No'
-BookImageName: HOME216.png
-BookShinyImageName: HOME216_s.png
-BoxSprite: SRD-BoxSprite-teddiursa.png
+BookSprite: SRD-teddiursa-BookSprite.png
+BoxSprite: SRD-teddiursa-BoxSprite.png
 DexCategory: Little Bear Pokemon
 DexDescription: If they find honey, their crescent moon mark glows. They hoard food
   for winter and concoct their own honey by mixing fruits and pollen collected by
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Honey Gather
-HomeSprite: SRD-HomeSprite-teddiursa.png
+HomeSprite: SRD-teddiursa-HomeSprite.png
 Learnset: '[[SRD-Teddiursa-Learnset]]'
 Legendary: 'No'
 Name: Teddiursa
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-teddiursa.png|right]]
+![[SRD-teddiursa-BookSprite.png|right wsmall]]
 
 *Little Bear Pokemon*
 *If they find honey, their crescent moon mark glows. They hoard food for winter and concoct their own honey by mixing fruits and pollen collected by Beedrills. They live in forests with their mothers.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Quick Feet|Quick Feet]] ([[SRD-Honey Gather|Honey Gather]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-teddiursa.png|right]]
+![[SRD-teddiursa-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-teddiursa-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

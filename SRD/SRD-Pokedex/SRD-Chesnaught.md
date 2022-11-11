@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME652.png
-BookShinyImageName: HOME652_s.png
-BoxSprite: SRD-BoxSprite-chesnaught.png
+BookSprite: SRD-chesnaught-BookSprite.png
+BoxSprite: SRD-chesnaught-BoxSprite.png
 DexCategory: Spiny Armor Pokemon
 DexDescription: These Pokemon are known for taking defensive stances instead of charging
   into battle. Many stories tell how during the old wars, Chesnaught protected their
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Bulletproof
-HomeSprite: SRD-HomeSprite-chesnaught.png
+HomeSprite: SRD-chesnaught-HomeSprite.png
 Learnset: '[[SRD-Chesnaught-Learnset]]'
 Legendary: 'No'
 Name: Chesnaught
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-chesnaught.png|right]]
+![[SRD-chesnaught-BookSprite.png|right wsmall]]
 
 *Spiny Armor Pokemon*
 *These Pokemon are known for taking defensive stances instead of charging into battle. Many stories tell how during the old wars, Chesnaught protected their allies using their bodies.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Bulletproof|Bulletproof]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-chesnaught.png|right]]
+![[SRD-chesnaught-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-chesnaught-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

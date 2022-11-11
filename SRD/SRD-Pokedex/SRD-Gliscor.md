@@ -2,9 +2,8 @@
 Ability1: Hyper Cutter
 Ability2: Sand Veil
 Baby: 'No'
-BookImageName: HOME472.png
-BookShinyImageName: HOME472_s.png
-BoxSprite: SRD-BoxSprite-gliscor.png
+BookSprite: SRD-gliscor-BookSprite.png
+BoxSprite: SRD-gliscor-BoxSprite.png
 DexCategory: Fang Scorp Pokemon
 DexDescription: Its flight is soundless. It uses its lengthy tail to carry off its
   prey, then uses its long fangs to do the rest. It is more playful than aggressive
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Poison Heal
-HomeSprite: SRD-HomeSprite-gliscor.png
+HomeSprite: SRD-gliscor-HomeSprite.png
 Learnset: '[[SRD-Gliscor-Learnset]]'
 Legendary: 'No'
 Name: Gliscor
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gliscor.png|right]]
+![[SRD-gliscor-BookSprite.png|right wsmall]]
 
 *Fang Scorp Pokemon*
 *Its flight is soundless. It uses its lengthy tail to carry off its prey, then uses its long fangs to do the rest. It is more playful than aggressive but it is dangerous if you get close to the enormous claws.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Sand Veil|Sand Veil]] ([[SRD-Poison Heal|Poison Heal]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-gliscor.png|right]]
+![[SRD-gliscor-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-gliscor-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

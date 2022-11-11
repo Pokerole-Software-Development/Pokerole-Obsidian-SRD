@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME727.png
-BookShinyImageName: HOME727_s.png
-BoxSprite: SRD-BoxSprite-incineroar.png
+BookSprite: SRD-incineroar-BookSprite.png
+BoxSprite: SRD-incineroar-BoxSprite.png
 DexCategory: Heel Pokemon
 DexDescription: It has a bad reputation, some of them have attacked the opposing Trainer
   during battles. They are also prone to disobey their own Trainer, going for a more
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Intimidate
-HomeSprite: SRD-HomeSprite-incineroar.png
+HomeSprite: SRD-incineroar-HomeSprite.png
 Learnset: '[[SRD-Incineroar-Learnset]]'
 Legendary: 'No'
 Name: Incineroar
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-incineroar.png|right]]
+![[SRD-incineroar-BookSprite.png|right wsmall]]
 
 *Heel Pokemon*
 *It has a bad reputation, some of them have attacked the opposing Trainer during battles. They are also prone to disobey their own Trainer, going for a more brutal fighting style to shred their foes to pieces.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Intimidate|Intimidate]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-incineroar.png|right]]
+![[SRD-incineroar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-incineroar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

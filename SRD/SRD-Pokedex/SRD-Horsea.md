@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Sniper
 Baby: 'No'
-BookImageName: HOME116.png
-BookShinyImageName: HOME116_s.png
-BoxSprite: SRD-BoxSprite-horsea.png
+BookSprite: SRD-horsea-BookSprite.png
+BoxSprite: SRD-horsea-BoxSprite.png
 DexCategory: Dragon Pokemon
 DexDescription: It makes its nest in the shade of corals in shallow parts of the sea.
   If it senses danger, it spits a murky ink and flees. It has been seen shooting down
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Damp
-HomeSprite: SRD-HomeSprite-horsea.png
+HomeSprite: SRD-horsea-HomeSprite.png
 Learnset: '[[SRD-Horsea-Learnset]]'
 Legendary: 'No'
 Name: Horsea
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-horsea.png|right]]
+![[SRD-horsea-BookSprite.png|right wsmall]]
 
 *Dragon Pokemon*
 *It makes its nest in the shade of corals in shallow parts of the sea. If it senses danger, it spits a murky ink and flees. It has been seen shooting down flying bugs to eat them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Sniper|Sniper]] ([[SRD-Damp|Damp]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-horsea.png|right]]
+![[SRD-horsea-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-horsea-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

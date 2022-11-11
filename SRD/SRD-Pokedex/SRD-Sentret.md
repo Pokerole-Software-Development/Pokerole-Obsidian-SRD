@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Keen Eye
 Baby: 'No'
-BookImageName: HOME161.png
-BookShinyImageName: HOME161_s.png
-BoxSprite: SRD-BoxSprite-sentret.png
+BookSprite: SRD-sentret-BookSprite.png
+BoxSprite: SRD-sentret-BoxSprite.png
 DexCategory: Scout Pokemon
 DexDescription: It lives underground with its family. It is cautious and nervous by
   nature. Sentret is always vigilant for any threat. It is very friendly among its
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Frisk
-HomeSprite: SRD-HomeSprite-sentret.png
+HomeSprite: SRD-sentret-HomeSprite.png
 Learnset: '[[SRD-Sentret-Learnset]]'
 Legendary: 'No'
 Name: Sentret
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sentret.png|right]]
+![[SRD-sentret-BookSprite.png|right wsmall]]
 
 *Scout Pokemon*
 *It lives underground with its family. It is cautious and nervous by nature. Sentret is always vigilant for any threat. It is very friendly among its kind and suffers a lot if separated from its pack.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Keen Eye|Keen Eye]] ([[SRD-Frisk|Frisk]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-sentret.png|right]]
+![[SRD-sentret-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-sentret-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

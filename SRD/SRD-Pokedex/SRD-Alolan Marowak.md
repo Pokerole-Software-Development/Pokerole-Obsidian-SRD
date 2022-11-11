@@ -2,9 +2,8 @@
 Ability1: Cursed Body
 Ability2: Lightning Rod
 Baby: 'No'
-BookImageName: HOME105A.png
-BookShinyImageName: HOME105A_s.png
-BoxSprite: SRD-BoxSprite-marowak-alola.png
+BookSprite: SRD-marowak-alola-BookSprite.png
+BoxSprite: SRD-marowak-alola-BoxSprite.png
 DexCategory: Bone Keeper Pokemon
 DexDescription: "Alola has many predators for an orphaned Cubone, so its mother\u2019\
   s spirit lingered close to protect her baby. This otherworldly influence made Marowak\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Rock Head
-HomeSprite: SRD-HomeSprite-marowak-alola.png
+HomeSprite: SRD-marowak-alola-HomeSprite.png
 Learnset: '[[SRD-Alolan Marowak-Learnset]]'
 Legendary: 'No'
 Name: Alolan Marowak
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-marowak-alola.png|right]]
+![[SRD-marowak-alola-BookSprite.png|right wsmall]]
 
 *Bone Keeper Pokemon*
 *Alola has many predators for an orphaned Cubone, so its mother’s spirit lingered close to protect her baby. This otherworldly influence made Marowak fiercer and changed its type completely.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Cursed Body|Cursed Body]] / [[SRD-Lightning Rod|Lightning Rod]] ([[SRD-Rock Head|Rock Head]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-marowak-alola.png|right]]
+![[SRD-marowak-alola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-marowak-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

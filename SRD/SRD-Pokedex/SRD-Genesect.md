@@ -2,9 +2,8 @@
 Ability1: Download
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME649.png
-BookShinyImageName: HOME649_s.png
-BoxSprite: SRD-BoxSprite-genesect.png
+BookSprite: SRD-genesect-BookSprite.png
+BoxSprite: SRD-genesect-BoxSprite.png
 DexCategory: No Data
 DexDescription: Fossil revival is now possible with our incredible technology. Recently,
   some researchers sparked a controversial debate by altering the original forms of
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-genesect.png
+HomeSprite: SRD-genesect-HomeSprite.png
 Learnset: '[[SRD-Genesect-Learnset]]'
 Legendary: 'Yes'
 Name: Genesect
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-genesect.png|right]]
+![[SRD-genesect-BookSprite.png|right wsmall]]
 
 *No Data*
 *Fossil revival is now possible with our incredible technology. Recently, some researchers sparked a controversial debate by altering the original forms of the revived Pokemon through artificial means.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Download|Download]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-genesect.png|right]]
+![[SRD-genesect-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-genesect-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

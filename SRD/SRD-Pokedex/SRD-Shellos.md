@@ -2,9 +2,8 @@
 Ability1: Sticky Hold
 Ability2: Storm Drain
 Baby: 'No'
-BookImageName: HOME422.png
-BookShinyImageName: HOME422_s.png
-BoxSprite: SRD-BoxSprite-shellos.png
+BookSprite: SRD-shellos-BookSprite.png
+BoxSprite: SRD-shellos-BoxSprite.png
 DexCategory: Sea Slug Pokemon
 DexDescription: Its shape and coloration change depending on its habitat of salt or
   sweet water. Their body is very soft and squishy but they can stretch long lengths.
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Sand Force
-HomeSprite: SRD-HomeSprite-shellos.png
+HomeSprite: SRD-shellos-HomeSprite.png
 Learnset: '[[SRD-Shellos-Learnset]]'
 Legendary: 'No'
 Name: Shellos
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-shellos.png|right]]
+![[SRD-shellos-BookSprite.png|right wsmall]]
 
 *Sea Slug Pokemon*
 *Its shape and coloration change depending on its habitat of salt or sweet water. Their body is very soft and squishy but they can stretch long lengths. It releases a purple liquid from its body if threatened.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sticky Hold|Sticky Hold]] / [[SRD-Storm Drain|Storm Drain]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-shellos.png|right]]
+![[SRD-shellos-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-shellos-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

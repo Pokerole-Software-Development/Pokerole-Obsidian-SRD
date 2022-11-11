@@ -2,9 +2,8 @@
 Ability1: Sand Stream
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME248.png
-BookShinyImageName: HOME248_s.png
-BoxSprite: SRD-BoxSprite-tyranitar.png
+BookSprite: SRD-tyranitar-BookSprite.png
+BoxSprite: SRD-tyranitar-BoxSprite.png
 DexCategory: Armor Pokemon
 DexDescription: "Its body is hardly damaged by any attack, so it\u2019s always eager\
   \ to fight. They are extremely strong, their rage can change landscapes. Tyranitars\
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Unnerve
-HomeSprite: SRD-HomeSprite-tyranitar.png
+HomeSprite: SRD-tyranitar-HomeSprite.png
 Learnset: '[[SRD-Tyranitar-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tyranitar.png|right]]
+![[SRD-tyranitar-BookSprite.png|right wsmall]]
 
 *Armor Pokemon*
 *Its body is hardly damaged by any attack, so it’s always eager to fight. They are extremely strong, their rage can change landscapes. Tyranitars are insolents, rebels and they care about no one.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Stream|Sand Stream]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-tyranitar.png|right]]
+![[SRD-tyranitar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-tyranitar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

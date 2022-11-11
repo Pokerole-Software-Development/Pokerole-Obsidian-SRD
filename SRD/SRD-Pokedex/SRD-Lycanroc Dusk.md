@@ -2,9 +2,8 @@
 Ability1: Tough Claws
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME745D.png
-BookShinyImageName: HOME745D_s.png
-BoxSprite: SRD-BoxSprite-lycanroc-dusk.png
+BookSprite: SRD-lycanroc-dusk-BookSprite.png
+BoxSprite: SRD-lycanroc-dusk-BoxSprite.png
 DexCategory: Wolf Pokemon
 DexDescription: An independent but loyal Rockruff will evolve at dusk. This evolved
   for is very hard to achieve. An intense fighting spirit lies underneath its calm
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-lycanroc-dusk.png
+HomeSprite: SRD-lycanroc-dusk-HomeSprite.png
 Learnset: '[[SRD-Lycanroc Dusk-Learnset]]'
 Legendary: 'No'
 Name: Lycanroc Dusk
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lycanroc-dusk.png|right]]
+![[SRD-lycanroc-dusk-BookSprite.png|right wsmall]]
 
 *Wolf Pokemon*
 *An independent but loyal Rockruff will evolve at dusk. This evolved for is very hard to achieve. An intense fighting spirit lies underneath its calm exterior. Prone to act on its own.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Tough Claws|Tough Claws]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-lycanroc-dusk.png|right]]
+![[SRD-lycanroc-dusk-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-lycanroc-dusk-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

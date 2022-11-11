@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Hydration
 Baby: 'No'
-BookImageName: HOME536.png
-BookShinyImageName: HOME536_s.png
-BoxSprite: SRD-BoxSprite-palpitoad.png
+BookSprite: SRD-palpitoad-BookSprite.png
+BoxSprite: SRD-palpitoad-BoxSprite.png
 DexCategory: Vibration Pokemon
 DexDescription: It lives both in water and land. It uses its long, sticky tongue to
   capture prey. When they vibrate the bumps on their heads, they can make waves in
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Water Absorb
-HomeSprite: SRD-HomeSprite-palpitoad.png
+HomeSprite: SRD-palpitoad-HomeSprite.png
 Learnset: '[[SRD-Palpitoad-Learnset]]'
 Legendary: 'No'
 Name: Palpitoad
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-palpitoad.png|right]]
+![[SRD-palpitoad-BookSprite.png|right wsmall]]
 
 *Vibration Pokemon*
 *It lives both in water and land. It uses its long, sticky tongue to capture prey. When they vibrate the bumps on their heads, they can make waves in the water and even earthquake-like vibrations on land.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Hydration|Hydration]] ([[SRD-Water Absorb|Water Absorb]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-palpitoad.png|right]]
+![[SRD-palpitoad-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-palpitoad-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

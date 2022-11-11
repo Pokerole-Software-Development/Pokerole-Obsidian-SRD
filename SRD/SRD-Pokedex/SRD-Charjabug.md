@@ -2,9 +2,8 @@
 Ability1: Battery
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME737.png
-BookShinyImageName: HOME737_s.png
-BoxSprite: SRD-BoxSprite-charjabug.png
+BookSprite: SRD-charjabug-BookSprite.png
+BoxSprite: SRD-charjabug-BoxSprite.png
 DexCategory: Battery Pokemon
 DexDescription: Whatever this Pokemon eats is transformed to electricity. People often
   use them to power up small appliances in their homes. This Pokemon rarely moves
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-charjabug.png
+HomeSprite: SRD-charjabug-HomeSprite.png
 Learnset: '[[SRD-Charjabug-Learnset]]'
 Legendary: 'No'
 Name: Charjabug
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-charjabug.png|right]]
+![[SRD-charjabug-BookSprite.png|right wsmall]]
 
 *Battery Pokemon*
 *Whatever this Pokemon eats is transformed to electricity. People often use them to power up small appliances in their homes. This Pokemon rarely moves since it is preparing to evolve.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Battery|Battery]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-charjabug.png|right]]
+![[SRD-charjabug-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-charjabug-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

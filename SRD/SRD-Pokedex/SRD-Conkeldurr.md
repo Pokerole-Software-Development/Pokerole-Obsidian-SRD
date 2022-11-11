@@ -2,9 +2,8 @@
 Ability1: Guts
 Ability2: Sheer Force
 Baby: 'No'
-BookImageName: HOME534.png
-BookShinyImageName: HOME534_s.png
-BoxSprite: SRD-BoxSprite-conkeldurr.png
+BookSprite: SRD-conkeldurr-BookSprite.png
+BoxSprite: SRD-conkeldurr-BoxSprite.png
 DexCategory: Muscular Pokemon
 DexDescription: They use concrete pillars as walking canes and swing the pillars freely
   in battle. Anthropology research says that this Pokemon may have taught humans how
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Iron Fist
-HomeSprite: SRD-HomeSprite-conkeldurr.png
+HomeSprite: SRD-conkeldurr-HomeSprite.png
 Learnset: '[[SRD-Conkeldurr-Learnset]]'
 Legendary: 'No'
 Name: Conkeldurr
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-conkeldurr.png|right]]
+![[SRD-conkeldurr-BookSprite.png|right wsmall]]
 
 *Muscular Pokemon*
 *They use concrete pillars as walking canes and swing the pillars freely in battle. Anthropology research says that this Pokemon may have taught humans how to make concrete out of rocks thousands of years ago.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Guts|Guts]] / [[SRD-Sheer Force|Sheer Force]] ([[SRD-Iron Fist|Iron Fist]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-conkeldurr.png|right]]
+![[SRD-conkeldurr-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-conkeldurr-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

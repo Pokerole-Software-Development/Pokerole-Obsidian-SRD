@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME267.png
-BookShinyImageName: HOME267_s.png
-BoxSprite: SRD-BoxSprite-beautifly.png
+BookSprite: SRD-beautifly-BookSprite.png
+BoxSprite: SRD-beautifly-BoxSprite.png
 DexCategory: Butterfly Pokemon
 DexDescription: "They can\u2019t resist the pollen of flowers, if you leave one in\
   \ the window, a Beautifly is sure to come. Despite their appearance, they are aggressive,\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Rivalry
-HomeSprite: SRD-HomeSprite-beautifly.png
+HomeSprite: SRD-beautifly-HomeSprite.png
 Learnset: '[[SRD-Beautifly-Learnset]]'
 Legendary: 'No'
 Name: Beautifly
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-beautifly.png|right]]
+![[SRD-beautifly-BookSprite.png|right wsmall]]
 
 *Butterfly Pokemon*
 *They can’t resist the pollen of flowers, if you leave one in the window, a Beautifly is sure to come. Despite their appearance, they are aggressive, they drain living creatures of their fluids just as they do with flowers.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] ([[SRD-Rivalry|Rivalry]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-beautifly.png|right]]
+![[SRD-beautifly-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-beautifly-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

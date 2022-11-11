@@ -2,9 +2,8 @@
 Ability1: Poison Touch
 Ability2: Gluttony
 Baby: 'No'
-BookImageName: HOME089A.png
-BookShinyImageName: HOME089A_s.png
-BoxSprite: SRD-BoxSprite-muk-alola.png
+BookSprite: SRD-muk-alola-BookSprite.png
+BoxSprite: SRD-muk-alola-BoxSprite.png
 DexCategory: Sludge Pokemon
 DexDescription: It is as friendly as it is toxic, be careful for it tries to hug others
   regularly. A good diet does not help reduce its toxicity levels, it only makes it
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Power of Alchemy
-HomeSprite: SRD-HomeSprite-muk-alola.png
+HomeSprite: SRD-muk-alola-HomeSprite.png
 Learnset: '[[SRD-Alolan Muk-Learnset]]'
 Legendary: 'No'
 Name: Alolan Muk
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-muk-alola.png|right]]
+![[SRD-muk-alola-BookSprite.png|right wsmall]]
 
 *Sludge Pokemon*
 *It is as friendly as it is toxic, be careful for it tries to hug others regularly. A good diet does not help reduce its toxicity levels, it only makes it cranky and prone to destroy furniture. It releases toxic fumes all the time.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Poison Touch|Poison Touch]] / [[SRD-Gluttony|Gluttony]] ([[SRD-Power of Alchemy|Power of Alchemy]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-muk-alola.png|right]]
+![[SRD-muk-alola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-muk-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

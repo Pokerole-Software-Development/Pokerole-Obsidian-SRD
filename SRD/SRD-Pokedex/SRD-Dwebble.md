@@ -2,9 +2,8 @@
 Ability1: Sturdy
 Ability2: Shell Armor
 Baby: 'No'
-BookImageName: HOME557.png
-BookShinyImageName: HOME557_s.png
-BoxSprite: SRD-BoxSprite-dwebble.png
+BookSprite: SRD-dwebble-BookSprite.png
+BoxSprite: SRD-dwebble-BoxSprite.png
 DexCategory: Rock Inn Pokemon
 DexDescription: Their saliva is corrosive and it uses it to slowly cut pieces of rock.
   The rock becomes a shelter until it grows too large for it. If the rock breaks,
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Weak Armor
-HomeSprite: SRD-HomeSprite-dwebble.png
+HomeSprite: SRD-dwebble-HomeSprite.png
 Learnset: '[[SRD-Dwebble-Learnset]]'
 Legendary: 'No'
 Name: Dwebble
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dwebble.png|right]]
+![[SRD-dwebble-BookSprite.png|right wsmall]]
 
 *Rock Inn Pokemon*
 *Their saliva is corrosive and it uses it to slowly cut pieces of rock. The rock becomes a shelter until it grows too large for it. If the rock breaks, it stays anxious and agitated until it finds a replacement.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-dwebble.png|right]]
+![[SRD-dwebble-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-dwebble-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

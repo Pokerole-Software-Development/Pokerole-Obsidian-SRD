@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME420.png
-BookShinyImageName: HOME420_s.png
-BoxSprite: SRD-BoxSprite-cherubi.png
+BookSprite: SRD-cherubi-BookSprite.png
+BoxSprite: SRD-cherubi-BoxSprite.png
 DexCategory: Cherry Pokemon
 DexDescription: "It hides on bushes while absorbing the sunlight. Their small heads\
   \ store the energy needed for evolution, but this small head is frequently eaten\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-cherubi.png
+HomeSprite: SRD-cherubi-HomeSprite.png
 Learnset: '[[SRD-Cherubi-Learnset]]'
 Legendary: 'No'
 Name: Cherubi
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cherubi.png|right]]
+![[SRD-cherubi-BookSprite.png|right wsmall]]
 
 *Cherry Pokemon*
 *It hides on bushes while absorbing the sunlight. Their small heads store the energy needed for evolution, but this small head is frequently eaten by other Pokemon and people so it’s hard for them to evolve.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-cherubi.png|right]]
+![[SRD-cherubi-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-cherubi-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Serene Grace
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME648.png
-BookShinyImageName: HOME648_s.png
-BoxSprite: SRD-BoxSprite-meloetta.png
+BookSprite: SRD-meloetta-BookSprite.png
+BoxSprite: SRD-meloetta-BoxSprite.png
 DexCategory: No Data
 DexDescription: There are old songs about a beautiful Pokemon that inspired the hearts
   of artists through its graceful dance and singing.
@@ -16,7 +15,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-meloetta.png
+HomeSprite: SRD-meloetta-HomeSprite.png
 Learnset: '[[SRD-Meloetta-Learnset]]'
 Legendary: 'Yes'
 Name: Meloetta
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-meloetta.png|right]]
+![[SRD-meloetta-BookSprite.png|right wsmall]]
 
 *No Data*
 *There are old songs about a beautiful Pokemon that inspired the hearts of artists through its graceful dance and singing.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Serene Grace|Serene Grace]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-meloetta.png|right]]
+![[SRD-meloetta-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-meloetta-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

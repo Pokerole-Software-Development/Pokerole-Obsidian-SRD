@@ -2,9 +2,8 @@
 Ability1: Comatose
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME775.png
-BookShinyImageName: HOME775_s.png
-BoxSprite: SRD-BoxSprite-komala.png
+BookSprite: SRD-komala-BookSprite.png
+BoxSprite: SRD-komala-BoxSprite.png
 DexCategory: Drowsing Pokemon
 DexDescription: Komalas are born, live, and die asleep. They will have nightmares
   if you remove their log-pillow. Although it appears aware of its surroundings in
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-komala.png
+HomeSprite: SRD-komala-HomeSprite.png
 Learnset: '[[SRD-Komala-Learnset]]'
 Legendary: 'No'
 Name: Komala
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-komala.png|right]]
+![[SRD-komala-BookSprite.png|right wsmall]]
 
 *Drowsing Pokemon*
 *Komalas are born, live, and die asleep. They will have nightmares if you remove their log-pillow. Although it appears aware of its surroundings in reality it is just dreaming and reacting to the dream antics.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Comatose|Comatose]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-komala.png|right]]
+![[SRD-komala-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-komala-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

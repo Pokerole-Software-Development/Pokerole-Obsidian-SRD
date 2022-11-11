@@ -2,9 +2,8 @@
 Ability1: Honey Gather
 Ability2: Shield Dust
 Baby: 'No'
-BookImageName: HOME742.png
-BookShinyImageName: HOME742_s.png
-BoxSprite: SRD-BoxSprite-cutiefly.png
+BookSprite: SRD-cutiefly-BookSprite.png
+BoxSprite: SRD-cutiefly-BoxSprite.png
 DexCategory: Bee Fly Pokemon
 DexDescription: These delicate Pokemon gather by the numbers in flower meadows. They
   are attracted to happy and joyful people, the story says that Cutiefly see their
@@ -17,7 +16,7 @@ Height:
   Feet: 0.3
   Meters: 0.1
 HiddenAbility: Sweet Veil
-HomeSprite: SRD-HomeSprite-cutiefly.png
+HomeSprite: SRD-cutiefly-HomeSprite.png
 Learnset: '[[SRD-Cutiefly-Learnset]]'
 Legendary: 'No'
 Name: Cutiefly
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cutiefly.png|right]]
+![[SRD-cutiefly-BookSprite.png|right wsmall]]
 
 *Bee Fly Pokemon*
 *These delicate Pokemon gather by the numbers in flower meadows. They are attracted to happy and joyful people, the story says that Cutiefly see their auras and they resemble flowers.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Honey Gather|Honey Gather]] / [[SRD-Shield Dust|Shield Dust]] ([[SRD-Sweet Veil|Sweet Veil]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-cutiefly.png|right]]
+![[SRD-cutiefly-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-cutiefly-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

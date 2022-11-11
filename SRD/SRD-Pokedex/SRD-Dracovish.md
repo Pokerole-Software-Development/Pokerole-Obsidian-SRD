@@ -2,9 +2,8 @@
 Ability1: Water Absorb
 Ability2: Strong Jaw
 Baby: 'No'
-BookImageName: HOME882.png
-BookShinyImageName: HOME882_s.png
-BoxSprite: SRD-BoxSprite-dracovish.png
+BookSprite: SRD-dracovish-BookSprite.png
+BoxSprite: SRD-dracovish-BoxSprite.png
 DexCategory: Fossil Pokemon
 DexDescription: "The DNA of two apex predators combined. It can run at incredibly\
   \ high speeds and tear almost anything with its sharp teeth. Sadly, this Pokemon\
@@ -17,7 +16,7 @@ Height:
   Feet: 7.5
   Meters: 2.3
 HiddenAbility: Sand Rush
-HomeSprite: SRD-HomeSprite-dracovish.png
+HomeSprite: SRD-dracovish-HomeSprite.png
 Learnset: '[[SRD-Dracovish-Learnset]]'
 Legendary: 'No'
 Name: Dracovish
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dracovish.png|right]]
+![[SRD-dracovish-BookSprite.png|right wsmall]]
 
 *Fossil Pokemon*
 *The DNA of two apex predators combined. It can run at incredibly high speeds and tear almost anything with its sharp teeth. Sadly, this Pokemon can only breathe underwater and it’s a lousy swimmer.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] / [[SRD-Strong Jaw|Strong Jaw]] ([[SRD-Sand Rush|Sand Rush]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-dracovish.png|right]]
+![[SRD-dracovish-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-dracovish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

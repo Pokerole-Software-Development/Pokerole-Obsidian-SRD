@@ -2,9 +2,8 @@
 Ability1: Sturdy
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME205.png
-BookShinyImageName: HOME205_s.png
-BoxSprite: SRD-BoxSprite-forretress.png
+BookSprite: SRD-forretress-BookSprite.png
+BoxSprite: SRD-forretress-BoxSprite.png
 DexCategory: Bagworm Pokemon
 DexDescription: "It can be found completely rooted to huge tree trunks. It protects\
   \ itself and its tree by scattering spiked pieces from its shell and turning its\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Overcoat
-HomeSprite: SRD-HomeSprite-forretress.png
+HomeSprite: SRD-forretress-HomeSprite.png
 Learnset: '[[SRD-Forretress-Learnset]]'
 Legendary: 'No'
 Name: Forretress
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-forretress.png|right]]
+![[SRD-forretress-BookSprite.png|right wsmall]]
 
 *Bagworm Pokemon*
 *It can be found completely rooted to huge tree trunks. It protects itself and its tree by scattering spiked pieces from its shell and turning its home into a fortress that won’t go down without a fight.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sturdy|Sturdy]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-forretress.png|right]]
+![[SRD-forretress-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-forretress-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

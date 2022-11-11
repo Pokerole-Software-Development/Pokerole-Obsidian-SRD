@@ -2,9 +2,8 @@
 Ability1: Shed Skin
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME266.png
-BookShinyImageName: HOME266_s.png
-BoxSprite: SRD-BoxSprite-silcoon.png
+BookSprite: SRD-silcoon-BookSprite.png
+BoxSprite: SRD-silcoon-BoxSprite.png
 DexCategory: Cocoon Pokemon
 DexDescription: They tether themselves to tree branches while they wait to evolve.
   Sometimes they peek from a small hole in the cocoon. Silcoons feed only on raindrops.
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-silcoon.png
+HomeSprite: SRD-silcoon-HomeSprite.png
 Learnset: '[[SRD-Silcoon-Learnset]]'
 Legendary: 'No'
 Name: Silcoon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-silcoon.png|right]]
+![[SRD-silcoon-BookSprite.png|right wsmall]]
 
 *Cocoon Pokemon*
 *They tether themselves to tree branches while they wait to evolve. Sometimes they peek from a small hole in the cocoon. Silcoons feed only on raindrops. If Wrumple lived among flowers, it evolves to Silcoon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-silcoon.png|right]]
+![[SRD-silcoon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-silcoon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

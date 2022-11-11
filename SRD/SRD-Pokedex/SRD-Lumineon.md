@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Storm Drain
 Baby: 'No'
-BookImageName: HOME457.png
-BookShinyImageName: HOME457_s.png
-BoxSprite: SRD-BoxSprite-lumineon.png
+BookSprite: SRD-lumineon-BookSprite.png
+BoxSprite: SRD-lumineon-BoxSprite.png
 DexCategory: Neon Pokemon
 DexDescription: It lives in the deep-sea bottom. It attracts prey by flashing the
   patterns on its tail fins. In the wild it competes against Lanturn for food. Its
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Water Veil
-HomeSprite: SRD-HomeSprite-lumineon.png
+HomeSprite: SRD-lumineon-HomeSprite.png
 Learnset: '[[SRD-Lumineon-Learnset]]'
 Legendary: 'No'
 Name: Lumineon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lumineon.png|right]]
+![[SRD-lumineon-BookSprite.png|right wsmall]]
 
 *Neon Pokemon*
 *It lives in the deep-sea bottom. It attracts prey by flashing the patterns on its tail fins. In the wild it competes against Lanturn for food. Its main predators are Tentacruel and Sharpedo.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Storm Drain|Storm Drain]] ([[SRD-Water Veil|Water Veil]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-lumineon.png|right]]
+![[SRD-lumineon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-lumineon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

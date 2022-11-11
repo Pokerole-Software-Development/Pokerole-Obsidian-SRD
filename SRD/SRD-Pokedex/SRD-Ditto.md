@@ -2,9 +2,8 @@
 Ability1: Limber
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME132.png
-BookShinyImageName: HOME132_s.png
-BoxSprite: SRD-BoxSprite-ditto.png
+BookSprite: SRD-ditto-BookSprite.png
+BoxSprite: SRD-ditto-BoxSprite.png
 DexCategory: Transform Pokemon
 DexDescription: "This Pokemon is quite common but it\u2019s pretty difficult to spot.\
   \ It can transform into any other Pokemon and imitate their behavior. When it sleeps,\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Imposter
-HomeSprite: SRD-HomeSprite-ditto.png
+HomeSprite: SRD-ditto-HomeSprite.png
 Learnset: '[[SRD-Ditto-Learnset]]'
 Legendary: 'No'
 Name: Ditto
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ditto.png|right]]
+![[SRD-ditto-BookSprite.png|right wsmall]]
 
 *Transform Pokemon*
 *This Pokemon is quite common but it’s pretty difficult to spot. It can transform into any other Pokemon and imitate their behavior. When it sleeps, it changes into a stone to avoid being attacked.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Limber|Limber]] ([[SRD-Imposter|Imposter]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-ditto.png|right]]
+![[SRD-ditto-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-ditto-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

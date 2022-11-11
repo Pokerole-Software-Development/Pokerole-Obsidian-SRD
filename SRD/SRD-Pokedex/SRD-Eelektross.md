@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME604.png
-BookShinyImageName: HOME604_s.png
-BoxSprite: SRD-BoxSprite-eelektross.png
+BookSprite: SRD-eelektross-BookSprite.png
+BoxSprite: SRD-eelektross-BoxSprite.png
 DexCategory: EleFish Pokemon
 DexDescription: They crawl out of the water and attack anyone on shore by sucking
   them into their mouths, shocking them, and dragging them back into the ocean. They
@@ -17,7 +16,7 @@ Height:
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-eelektross.png
+HomeSprite: SRD-eelektross-HomeSprite.png
 Learnset: '[[SRD-Eelektross-Learnset]]'
 Legendary: 'No'
 Name: Eelektross
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-eelektross.png|right]]
+![[SRD-eelektross-BookSprite.png|right wsmall]]
 
 *EleFish Pokemon*
 *They crawl out of the water and attack anyone on shore by sucking them into their mouths, shocking them, and dragging them back into the ocean. They are aggressive and unpredictable, be very careful*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-eelektross.png|right]]
+![[SRD-eelektross-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-eelektross-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Poison Point
 Ability2: Rivalry
 Baby: 'No'
-BookImageName: HOME032.png
-BookShinyImageName: HOME032_s.png
-BoxSprite: SRD-BoxSprite-nidoran-m.png
+BookSprite: SRD-nidoran-m-BookSprite.png
+BoxSprite: SRD-nidoran-m-BoxSprite.png
 DexCategory: Poison Pin Pokemon
 DexDescription: "The male Nidoran has developed a great alertness to sounds. Its small\
   \ body is covered in spikes that are drenched in venom when he\u2019s threatened.\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Hustle
-HomeSprite: SRD-HomeSprite-nidoran-m.png
+HomeSprite: SRD-nidoran-m-HomeSprite.png
 Learnset: '[[SRD-Nidoran M-Learnset]]'
 Legendary: 'No'
 Name: Nidoran M
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-nidoran-m.png|right]]
+![[SRD-nidoran-m-BookSprite.png|right wsmall]]
 
 *Poison Pin Pokemon*
 *The male Nidoran has developed a great alertness to sounds. Its small body is covered in spikes that are drenched in venom when he’s threatened. He will defend his mate and home fiercely.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Rivalry|Rivalry]] ([[SRD-Hustle|Hustle]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-nidoran-m.png|right]]
+![[SRD-nidoran-m-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-nidoran-m-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME150.png
-BookShinyImageName: HOME150_s.png
-BoxSprite: SRD-BoxSprite-mewtwo.png
+BookSprite: SRD-mewtwo-BookSprite.png
+BoxSprite: SRD-mewtwo-BoxSprite.png
 DexCategory: No Data
 DexDescription: An article in a science magazine talked about how much cloning research
   was progressing, but... could it be?
@@ -16,7 +15,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Unnerve
-HomeSprite: SRD-HomeSprite-mewtwo.png
+HomeSprite: SRD-mewtwo-HomeSprite.png
 Learnset: '[[SRD-Mewtwo-Learnset]]'
 Legendary: 'Yes'
 MegaEvolutions:
@@ -41,7 +40,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mewtwo.png|right]]
+![[SRD-mewtwo-BookSprite.png|right wsmall]]
 
 *No Data*
 *An article in a science magazine talked about how much cloning research was progressing, but... could it be?*
@@ -52,7 +51,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-mewtwo.png|right]]
+![[SRD-mewtwo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -61,6 +60,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-mewtwo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

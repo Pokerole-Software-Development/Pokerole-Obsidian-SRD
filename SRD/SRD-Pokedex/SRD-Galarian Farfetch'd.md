@@ -2,9 +2,8 @@
 Ability1: Steadfast
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME083G.png
-BookShinyImageName: HOME083G_s.png
-BoxSprite: SRD-BoxSprite-farfetchd-galar.png
+BookSprite: SRD-farfetchd-galar-BookSprite.png
+BoxSprite: SRD-farfetchd-galar-BoxSprite.png
 DexCategory: Wild Duck Pokemon
 DexDescription: The stalks of leeks are thicker and longer in the Galar region, this
   has allowed Farfetch'd fare better than their Kanto counterparts. It has also made
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Scrappy
-HomeSprite: SRD-HomeSprite-farfetchd-galar.png
+HomeSprite: SRD-farfetchd-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Farfetch''d-Learnset]]'
 Legendary: 'No'
 Name: Galarian Farfetch'd
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-farfetchd-galar.png|right]]
+![[SRD-farfetchd-galar-BookSprite.png|right wsmall]]
 
 *Wild Duck Pokemon*
 *The stalks of leeks are thicker and longer in the Galar region, this has allowed Farfetch'd fare better than their Kanto counterparts. It has also made them hardier and warrior-like. They are still delicious, though.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Steadfast|Steadfast]] ([[SRD-Scrappy|Scrappy]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-farfetchd-galar.png|right]]
+![[SRD-farfetchd-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-farfetchd-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

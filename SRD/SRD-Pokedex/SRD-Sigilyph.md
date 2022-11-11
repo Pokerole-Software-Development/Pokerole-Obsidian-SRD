@@ -2,9 +2,8 @@
 Ability1: Wonder Skin
 Ability2: Magic Guard
 Baby: 'No'
-BookImageName: HOME561.png
-BookShinyImageName: HOME561_s.png
-BoxSprite: SRD-BoxSprite-sigilyph.png
+BookSprite: SRD-sigilyph-BookSprite.png
+BoxSprite: SRD-sigilyph-BoxSprite.png
 DexCategory: Avianoid Pokemon
 DexDescription: It is known that they worked as guards for an ancient civilization
   and a few can still be seen patrolling its borders, following the same route for
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Tinted Lens
-HomeSprite: SRD-HomeSprite-sigilyph.png
+HomeSprite: SRD-sigilyph-HomeSprite.png
 Learnset: '[[SRD-Sigilyph-Learnset]]'
 Legendary: 'No'
 Name: Sigilyph
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sigilyph.png|right]]
+![[SRD-sigilyph-BookSprite.png|right wsmall]]
 
 *Avianoid Pokemon*
 *It is known that they worked as guards for an ancient civilization and a few can still be seen patrolling its borders, following the same route for centuries. They attack people that sneak through their barriers.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Wonder Skin|Wonder Skin]] / [[SRD-Magic Guard|Magic Guard]] ([[SRD-Tinted Lens|Tinted Lens]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-sigilyph.png|right]]
+![[SRD-sigilyph-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-sigilyph-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

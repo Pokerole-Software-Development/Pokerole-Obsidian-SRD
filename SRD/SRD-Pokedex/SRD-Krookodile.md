@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: Moxie
 Baby: 'No'
-BookImageName: HOME553.png
-BookShinyImageName: HOME553_s.png
-BoxSprite: SRD-BoxSprite-krookodile.png
+BookSprite: SRD-krookodile-BookSprite.png
+BoxSprite: SRD-krookodile-BoxSprite.png
 DexCategory: Intimidation Pokemon
 DexDescription: "A very violent Pokemon. They try to clamp down on anything that moves\
   \ in front of their eyes and once grasped they never let the prey escape. It can\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Anger Point
-HomeSprite: SRD-HomeSprite-krookodile.png
+HomeSprite: SRD-krookodile-HomeSprite.png
 Learnset: '[[SRD-Krookodile-Learnset]]'
 Legendary: 'No'
 Name: Krookodile
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-krookodile.png|right]]
+![[SRD-krookodile-BookSprite.png|right wsmall]]
 
 *Intimidation Pokemon*
 *A very violent Pokemon. They try to clamp down on anything that moves in front of their eyes and once grasped they never let the prey escape. It can be very dangerous if it’s not tamed correctly.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Moxie|Moxie]] ([[SRD-Anger Point|Anger Point]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-krookodile.png|right]]
+![[SRD-krookodile-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-krookodile-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

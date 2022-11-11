@@ -2,9 +2,8 @@
 Ability1: Steadfast
 Ability2: Inner Focus
 Baby: 'No'
-BookImageName: HOME448.png
-BookShinyImageName: HOME448_s.png
-BoxSprite: SRD-BoxSprite-lucario.png
+BookSprite: SRD-lucario-BookSprite.png
+BoxSprite: SRD-lucario-BoxSprite.png
 DexCategory: Aura Pokemon
 DexDescription: This Pokemon is completely loyal to its trainer. It has the ability
   to not only see the auras but also to transform them into energy. It is also capable
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Justified
-HomeSprite: SRD-HomeSprite-lucario.png
+HomeSprite: SRD-lucario-HomeSprite.png
 Learnset: '[[SRD-Lucario-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lucario.png|right]]
+![[SRD-lucario-BookSprite.png|right wsmall]]
 
 *Aura Pokemon*
 *This Pokemon is completely loyal to its trainer. It has the ability to not only see the auras but also to transform them into energy. It is also capable of understanding human speech.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Steadfast|Steadfast]] / [[SRD-Inner Focus|Inner Focus]] ([[SRD-Justified|Justified]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-lucario.png|right]]
+![[SRD-lucario-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-lucario-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

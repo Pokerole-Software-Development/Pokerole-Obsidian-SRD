@@ -2,9 +2,8 @@
 Ability1: Inner Focus
 Ability2: Regenerator
 Baby: 'No'
-BookImageName: HOME619.png
-BookShinyImageName: HOME619_s.png
-BoxSprite: SRD-BoxSprite-mienfoo.png
+BookSprite: SRD-mienfoo-BookSprite.png
+BoxSprite: SRD-mienfoo-BoxSprite.png
 DexCategory: Martial Arts Pokemon
 DexDescription: They gather in small groups around the mountains to train and master
   new techniques. They use their sharp claws to damage their foes. Only those Mienfoo
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Reckless
-HomeSprite: SRD-HomeSprite-mienfoo.png
+HomeSprite: SRD-mienfoo-HomeSprite.png
 Learnset: '[[SRD-Mienfoo-Learnset]]'
 Legendary: 'No'
 Name: Mienfoo
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mienfoo.png|right]]
+![[SRD-mienfoo-BookSprite.png|right wsmall]]
 
 *Martial Arts Pokemon*
 *They gather in small groups around the mountains to train and master new techniques. They use their sharp claws to damage their foes. Only those Mienfoo that excel at fighting in the group evolve.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] / [[SRD-Regenerator|Regenerator]] ([[SRD-Reckless|Reckless]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-mienfoo.png|right]]
+![[SRD-mienfoo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-mienfoo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Oblivious
 Ability2: Own Tempo
 Baby: 'No'
-BookImageName: HOME080.png
-BookShinyImageName: HOME080_s.png
-BoxSprite: SRD-BoxSprite-slowbro.png
+BookSprite: SRD-slowbro-BookSprite.png
+BoxSprite: SRD-slowbro-BoxSprite.png
 DexCategory: Hermit Crab Pokemon
 DexDescription: "This Pokemon fused with a Shellder that bit into its tail. It\u2019\
   s a slow swimmer and doesn\u2019t react to pain but Shellder tends to keep it out\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-slowbro.png
+HomeSprite: SRD-slowbro-HomeSprite.png
 Learnset: '[[SRD-Slowbro-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-slowbro.png|right]]
+![[SRD-slowbro-BookSprite.png|right wsmall]]
 
 *Hermit Crab Pokemon*
 *This Pokemon fused with a Shellder that bit into its tail. It’s a slow swimmer and doesn’t react to pain but Shellder tends to keep it out of trouble.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-slowbro.png|right]]
+![[SRD-slowbro-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::4)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-slowbro-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

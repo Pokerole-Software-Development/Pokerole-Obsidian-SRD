@@ -2,9 +2,8 @@
 Ability1: Static
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME179.png
-BookShinyImageName: HOME179_s.png
-BoxSprite: SRD-BoxSprite-mareep.png
+BookSprite: SRD-mareep-BookSprite.png
+BoxSprite: SRD-mareep-BoxSprite.png
 DexCategory: Wool Pokemon
 DexDescription: Its fluffy coat of wool builds a static charge, the more static electricity,
   the more brightly the lightbulb at the tip of its tail glows. Farmers shed their
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Plus
-HomeSprite: SRD-HomeSprite-mareep.png
+HomeSprite: SRD-mareep-HomeSprite.png
 Learnset: '[[SRD-Mareep-Learnset]]'
 Legendary: 'No'
 Name: Mareep
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mareep.png|right]]
+![[SRD-mareep-BookSprite.png|right wsmall]]
 
 *Wool Pokemon*
 *Its fluffy coat of wool builds a static charge, the more static electricity, the more brightly the lightbulb at the tip of its tail glows. Farmers shed their wool by the summer but it grows back quickly.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Static|Static]] ([[SRD-Plus|Plus]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-mareep.png|right]]
+![[SRD-mareep-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-mareep-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Sturdy
 Ability2: Magnet Pull
 Baby: 'No'
-BookImageName: HOME299.png
-BookShinyImageName: HOME299_s.png
-BoxSprite: SRD-BoxSprite-nosepass.png
+BookSprite: SRD-nosepass-BookSprite.png
+BoxSprite: SRD-nosepass-BoxSprite.png
 DexCategory: Nosepass Pokemon
 DexDescription: Their magnetic noses always point to the north. They were thought
   to be immobile, but it was recently revealed that they actually move 3/8 of an inch
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Sand Force
-HomeSprite: SRD-HomeSprite-nosepass.png
+HomeSprite: SRD-nosepass-HomeSprite.png
 Learnset: '[[SRD-Nosepass-Learnset]]'
 Legendary: 'No'
 Name: Nosepass
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-nosepass.png|right]]
+![[SRD-nosepass-BookSprite.png|right wsmall]]
 
 *Nosepass Pokemon*
 *Their magnetic noses always point to the north. They were thought to be immobile, but it was recently revealed that they actually move 3/8 of an inch every year. They get a little crazy when magnets are close.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Magnet Pull|Magnet Pull]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-nosepass.png|right]]
+![[SRD-nosepass-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-nosepass-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

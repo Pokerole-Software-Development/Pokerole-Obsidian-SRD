@@ -2,9 +2,8 @@
 Ability1: Speed Boost
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME291.png
-BookShinyImageName: HOME291_s.png
-BoxSprite: SRD-BoxSprite-ninjask.png
+BookSprite: SRD-ninjask-BookSprite.png
+BoxSprite: SRD-ninjask-BoxSprite.png
 DexCategory: Ninja Pokemon
 DexDescription: Due to their speed and stealthiness, this Pokemon was believed to
   be invisible. They refuse to obey people and cry continuously if forced. People
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Infiltrator
-HomeSprite: SRD-HomeSprite-ninjask.png
+HomeSprite: SRD-ninjask-HomeSprite.png
 Learnset: '[[SRD-Ninjask-Learnset]]'
 Legendary: 'No'
 Name: Ninjask
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ninjask.png|right]]
+![[SRD-ninjask-BookSprite.png|right wsmall]]
 
 *Ninja Pokemon*
 *Due to their speed and stealthiness, this Pokemon was believed to be invisible. They refuse to obey people and cry continuously if forced. People burn their cocoons as they are said to be cursed.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Speed Boost|Speed Boost]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-ninjask.png|right]]
+![[SRD-ninjask-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-ninjask-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

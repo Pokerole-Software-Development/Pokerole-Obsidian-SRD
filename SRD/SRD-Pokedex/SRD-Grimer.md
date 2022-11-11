@@ -2,9 +2,8 @@
 Ability1: Stench
 Ability2: Sticky Hold
 Baby: 'No'
-BookImageName: HOME088.png
-BookShinyImageName: HOME088_s.png
-BoxSprite: SRD-BoxSprite-grimer.png
+BookSprite: SRD-grimer-BookSprite.png
+BoxSprite: SRD-grimer-BoxSprite.png
 DexCategory: Sludge Pokemon
 DexDescription: It was born from polluted sludge in the sea. Grimer's favorite food
   is anything filthy like waste water pumped out from factories. Grime and sludge
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Poison Touch
-HomeSprite: SRD-HomeSprite-grimer.png
+HomeSprite: SRD-grimer-HomeSprite.png
 Learnset: '[[SRD-Grimer-Learnset]]'
 Legendary: 'No'
 Name: Grimer
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-grimer.png|right]]
+![[SRD-grimer-BookSprite.png|right wsmall]]
 
 *Sludge Pokemon*
 *It was born from polluted sludge in the sea. Grimer's favorite food is anything filthy like waste water pumped out from factories. Grime and sludge stick to their body making them grow larger over time.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Stench|Stench]] / [[SRD-Sticky Hold|Sticky Hold]] ([[SRD-Poison Touch|Poison Touch]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-grimer.png|right]]
+![[SRD-grimer-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-grimer-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

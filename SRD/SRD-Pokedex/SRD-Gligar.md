@@ -2,9 +2,8 @@
 Ability1: Hyper Cutter
 Ability2: Sand Veil
 Baby: 'No'
-BookImageName: HOME207.png
-BookShinyImageName: HOME207_s.png
-BoxSprite: SRD-BoxSprite-gligar.png
+BookSprite: SRD-gligar-BookSprite.png
+BoxSprite: SRD-gligar-BoxSprite.png
 DexCategory: Fly Scorpion Pokemon
 DexDescription: "It hangs from cliffs waiting for its prey. It flies straight at the\
   \ target\u2019s face, grapples the victim with its pincers and clawed hind legs,\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Immunity
-HomeSprite: SRD-HomeSprite-gligar.png
+HomeSprite: SRD-gligar-HomeSprite.png
 Learnset: '[[SRD-Gligar-Learnset]]'
 Legendary: 'No'
 Name: Gligar
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gligar.png|right]]
+![[SRD-gligar-BookSprite.png|right wsmall]]
 
 *Fly Scorpion Pokemon*
 *It hangs from cliffs waiting for its prey. It flies straight at the target’s face, grapples the victim with its pincers and clawed hind legs, lastly, it injects poison with its tail. Gligar can glide without making any noise.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Sand Veil|Sand Veil]] ([[SRD-Immunity|Immunity]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-gligar.png|right]]
+![[SRD-gligar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-gligar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

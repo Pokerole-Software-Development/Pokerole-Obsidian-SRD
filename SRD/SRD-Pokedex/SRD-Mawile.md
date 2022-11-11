@@ -2,9 +2,8 @@
 Ability1: Hyper Cutter
 Ability2: Intimidate
 Baby: 'No'
-BookImageName: HOME303.png
-BookShinyImageName: HOME303_s.png
-BoxSprite: SRD-BoxSprite-mawile.png
+BookSprite: SRD-mawile-BookSprite.png
+BoxSprite: SRD-mawile-BoxSprite.png
 DexCategory: Deceiver Pokemon
 DexDescription: They appear to be cute and docile, luring their prey and lowering
   their guards, then, Mawile chomps the prey with huge steel jaws. They are very rare,
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-mawile.png
+HomeSprite: SRD-mawile-HomeSprite.png
 Learnset: '[[SRD-Mawile-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mawile.png|right]]
+![[SRD-mawile-BookSprite.png|right wsmall]]
 
 *Deceiver Pokemon*
 *They appear to be cute and docile, luring their prey and lowering their guards, then, Mawile chomps the prey with huge steel jaws. They are very rare, though. Only a few have been seen in Hoenn's Victory Road.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Intimidate|Intimidate]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-mawile.png|right]]
+![[SRD-mawile-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-mawile-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

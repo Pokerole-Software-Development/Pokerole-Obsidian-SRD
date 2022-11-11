@@ -2,9 +2,8 @@
 Ability1: Water Absorb
 Ability2: Ice Body
 Baby: 'No'
-BookImageName: HOME883.png
-BookShinyImageName: HOME883_s.png
-BoxSprite: SRD-BoxSprite-arctovish.png
+BookSprite: SRD-arctovish-BookSprite.png
+BoxSprite: SRD-arctovish-BoxSprite.png
 DexCategory: Fossil Pokemon
 DexDescription: "This mix of DNA made a more stable creature able to move, breathe\
   \ and resist cold weather, the only problem is that its head is upside down. If\
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Slush Rush
-HomeSprite: SRD-HomeSprite-arctovish.png
+HomeSprite: SRD-arctovish-HomeSprite.png
 Learnset: '[[SRD-Arctovish-Learnset]]'
 Legendary: 'No'
 Name: Arctovish
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-arctovish.png|right]]
+![[SRD-arctovish-BookSprite.png|right wsmall]]
 
 *Fossil Pokemon*
 *This mix of DNA made a more stable creature able to move, breathe and resist cold weather, the only problem is that its head is upside down. If it’s not fed it cannot hunt on its own and will die of hunger in a few days.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] / [[SRD-Ice Body|Ice Body]] ([[SRD-Slush Rush|Slush Rush]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-arctovish.png|right]]
+![[SRD-arctovish-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-arctovish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

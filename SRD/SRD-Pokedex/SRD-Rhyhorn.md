@@ -2,9 +2,8 @@
 Ability1: Lightning Rod
 Ability2: Rock Head
 Baby: 'No'
-BookImageName: HOME111.png
-BookShinyImageName: HOME111_s.png
-BoxSprite: SRD-BoxSprite-rhyhorn.png
+BookSprite: SRD-rhyhorn-BookSprite.png
+BoxSprite: SRD-rhyhorn-BoxSprite.png
 DexCategory: Spikes Pokemon
 DexDescription: It lives in grasslands and rough terrains. It is covered with a thick
   hide and it tramples any threats by running towards them. It is not very smart,
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Reckless
-HomeSprite: SRD-HomeSprite-rhyhorn.png
+HomeSprite: SRD-rhyhorn-HomeSprite.png
 Learnset: '[[SRD-Rhyhorn-Learnset]]'
 Legendary: 'No'
 Name: Rhyhorn
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rhyhorn.png|right]]
+![[SRD-rhyhorn-BookSprite.png|right wsmall]]
 
 *Spikes Pokemon*
 *It lives in grasslands and rough terrains. It is covered with a thick hide and it tramples any threats by running towards them. It is not very smart, though. It can keep trampling things for hours just because.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Lightning Rod|Lightning Rod]] / [[SRD-Rock Head|Rock Head]] ([[SRD-Reckless|Reckless]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-rhyhorn.png|right]]
+![[SRD-rhyhorn-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-rhyhorn-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Aura Break
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME718C.png
-BookShinyImageName: HOME718C_s.png
-BoxSprite: SRD-BoxSprite-zygarde-10.png
+BookSprite: SRD-zygarde-10-BookSprite.png
+BoxSprite: SRD-zygarde-10-BoxSprite.png
 DexCategory: No Data
 DexDescription: The complete form of Zygarde
 EventAbilities: ''
@@ -15,7 +14,7 @@ Height:
   Feet: 14.8
   Meters: 4.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-zygarde-10.png
+HomeSprite: SRD-zygarde-10-HomeSprite.png
 Learnset: '[[SRD-Zygarde 100%-Learnset]]'
 Legendary: 'Yes'
 Name: Zygarde 100%
@@ -35,7 +34,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zygarde-10.png|right]]
+![[SRD-zygarde-10-BookSprite.png|right wsmall]]
 
 *No Data*
 *The complete form of Zygarde*
@@ -46,7 +45,7 @@ Weight:
 **Abilities**:: [[SRD-Aura Break|Aura Break]]
 **Base HP**:: 11
 
-![[SRD-BoxSprite-zygarde-10.png|right]]
+![[SRD-zygarde-10-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -55,6 +54,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::7)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-zygarde-10-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

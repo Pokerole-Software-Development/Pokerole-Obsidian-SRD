@@ -2,9 +2,8 @@
 Ability1: Ripen
 Ability2: Gluttony
 Baby: 'No'
-BookImageName: HOME840.png
-BookShinyImageName: HOME840_s.png
-BoxSprite: SRD-BoxSprite-applin.png
+BookSprite: SRD-applin-BookSprite.png
+BoxSprite: SRD-applin-BoxSprite.png
 DexCategory: Apple Core Pokemon
 DexDescription: "As soon as it\u2019s born this tiny lizard Pokemon, it burrows into\
   \ an apple to protect itself from birds and predators. The apple serves as its food\
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Bulletproof
-HomeSprite: SRD-HomeSprite-applin.png
+HomeSprite: SRD-applin-HomeSprite.png
 Learnset: '[[SRD-Applin-Learnset]]'
 Legendary: 'No'
 Name: Applin
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-applin.png|right]]
+![[SRD-applin-BookSprite.png|right wsmall]]
 
 *Apple Core Pokemon*
 *As soon as it’s born this tiny lizard Pokemon, it burrows into an apple to protect itself from birds and predators. The apple serves as its food source and the flavor of it will determine its evolution.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Ripen|Ripen]] / [[SRD-Gluttony|Gluttony]] ([[SRD-Bulletproof|Bulletproof]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-applin.png|right]]
+![[SRD-applin-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-applin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

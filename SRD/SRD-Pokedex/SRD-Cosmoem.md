@@ -2,9 +2,8 @@
 Ability1: Sturdy
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME790.png
-BookShinyImageName: HOME790_s.png
-BoxSprite: SRD-BoxSprite-cosmoem.png
+BookSprite: SRD-cosmoem-BookSprite.png
+BoxSprite: SRD-cosmoem-BoxSprite.png
 DexCategory: No Data
 DexDescription: The creature observed through the telescope changed shapes and remained
   motionless for the rest of the investigation. A strange energy was gathering on
@@ -17,7 +16,7 @@ Height:
   Feet: 0.3
   Meters: 0.1
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-cosmoem.png
+HomeSprite: SRD-cosmoem-HomeSprite.png
 Learnset: '[[SRD-Cosmoem-Learnset]]'
 Legendary: 'Yes'
 Name: Cosmoem
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cosmoem.png|right]]
+![[SRD-cosmoem-BookSprite.png|right wsmall]]
 
 *No Data*
 *The creature observed through the telescope changed shapes and remained motionless for the rest of the investigation. A strange energy was gathering on its core.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sturdy|Sturdy]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-cosmoem.png|right]]
+![[SRD-cosmoem-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::7)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-cosmoem-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

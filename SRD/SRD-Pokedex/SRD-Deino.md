@@ -2,9 +2,8 @@
 Ability1: Hustle
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME633.png
-BookShinyImageName: HOME633_s.png
-BoxSprite: SRD-BoxSprite-deino.png
+BookSprite: SRD-deino-BookSprite.png
+BoxSprite: SRD-deino-BoxSprite.png
 DexCategory: Irate Pokemon
 DexDescription: This Pokemon is blind, It bites all it finds to be aware of its surroundings.
   It constantly bumps into things and attacks anything close to it. Their bodies are
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-deino.png
+HomeSprite: SRD-deino-HomeSprite.png
 Learnset: '[[SRD-Deino-Learnset]]'
 Legendary: 'No'
 Name: Deino
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-deino.png|right]]
+![[SRD-deino-BookSprite.png|right wsmall]]
 
 *Irate Pokemon*
 *This Pokemon is blind, It bites all it finds to be aware of its surroundings. It constantly bumps into things and attacks anything close to it. Their bodies are covered in wounds and they are very aggressive.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hustle|Hustle]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-deino.png|right]]
+![[SRD-deino-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-deino-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

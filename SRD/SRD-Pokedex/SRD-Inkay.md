@@ -2,9 +2,8 @@
 Ability1: Contrary
 Ability2: Suction Cups
 Baby: 'No'
-BookImageName: HOME686.png
-BookShinyImageName: HOME686_s.png
-BoxSprite: SRD-BoxSprite-inkay.png
+BookSprite: SRD-inkay-BookSprite.png
+BoxSprite: SRD-inkay-BoxSprite.png
 DexCategory: Revolving Pokemon
 DexDescription: "It lives at the darkest parts of the sea. The spots on its body flash\
   \ to confuse predators and give it the opportunity to scuttle away. From time to\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Infiltrator
-HomeSprite: SRD-HomeSprite-inkay.png
+HomeSprite: SRD-inkay-HomeSprite.png
 Learnset: '[[SRD-Inkay-Learnset]]'
 Legendary: 'No'
 Name: Inkay
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-inkay.png|right]]
+![[SRD-inkay-BookSprite.png|right wsmall]]
 
 *Revolving Pokemon*
 *It lives at the darkest parts of the sea. The spots on its body flash to confuse predators and give it the opportunity to scuttle away. From time to time it likes to float upside down, it means it’s close to evolving.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Contrary|Contrary]] / [[SRD-Suction Cups|Suction Cups]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-inkay.png|right]]
+![[SRD-inkay-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-inkay-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Pickup
 Ability2: Tough Claws
 Baby: 'No'
-BookImageName: HOME052G.png
-BookShinyImageName: HOME052G_s.png
-BoxSprite: SRD-BoxSprite-meowth-galar.png
+BookSprite: SRD-meowth-galar-BookSprite.png
+BoxSprite: SRD-meowth-galar-BoxSprite.png
 DexCategory: Scratch Cat Pokemon
 DexDescription: The coin on its head has rusted. Meowths were taken into viking ships
   on long travels through the sea, living for so long in such harsh conditions toughened
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Unnerve
-HomeSprite: SRD-HomeSprite-meowth-galar.png
+HomeSprite: SRD-meowth-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Meowth-Learnset]]'
 Legendary: 'No'
 Name: Galarian Meowth
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-meowth-galar.png|right]]
+![[SRD-meowth-galar-BookSprite.png|right wsmall]]
 
 *Scratch Cat Pokemon*
 *The coin on its head has rusted. Meowths were taken into viking ships on long travels through the sea, living for so long in such harsh conditions toughened it up so much that parts of it have turned to iron.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Tough Claws|Tough Claws]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-meowth-galar.png|right]]
+![[SRD-meowth-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-meowth-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

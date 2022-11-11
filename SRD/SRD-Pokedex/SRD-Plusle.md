@@ -2,9 +2,8 @@
 Ability1: Plus
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME311.png
-BookShinyImageName: HOME311_s.png
-BoxSprite: SRD-BoxSprite-plusle.png
+BookSprite: SRD-plusle-BookSprite.png
+BoxSprite: SRD-plusle-BoxSprite.png
 DexCategory: Cheering Pokemon
 DexDescription: They are often seen cheerleading their friends. When someone they
   like does a great job, they shower the field with sparks, but when they lose, Plusle
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Lightning Rod
-HomeSprite: SRD-HomeSprite-plusle.png
+HomeSprite: SRD-plusle-HomeSprite.png
 Learnset: '[[SRD-Plusle-Learnset]]'
 Legendary: 'No'
 Name: Plusle
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-plusle.png|right]]
+![[SRD-plusle-BookSprite.png|right wsmall]]
 
 *Cheering Pokemon*
 *They are often seen cheerleading their friends. When someone they like does a great job, they shower the field with sparks, but when they lose, Plusle cries loudly. This Pokemon drains power from telephone poles.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Plus|Plus]] ([[SRD-Lightning Rod|Lightning Rod]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-plusle.png|right]]
+![[SRD-plusle-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-plusle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

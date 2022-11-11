@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Sheer Force
 Baby: 'No'
-BookImageName: HOME627.png
-BookShinyImageName: HOME627_s.png
-BoxSprite: SRD-BoxSprite-rufflet.png
+BookSprite: SRD-rufflet-BookSprite.png
+BoxSprite: SRD-rufflet-BoxSprite.png
 DexCategory: Eaglet Pokemon
 DexDescription: This species only has males. They are independent from the moment
   they hatch. They will challenge even strong opponents, without fear. Their frequent
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Hustle
-HomeSprite: SRD-HomeSprite-rufflet.png
+HomeSprite: SRD-rufflet-HomeSprite.png
 Learnset: '[[SRD-Rufflet-Learnset]]'
 Legendary: 'No'
 Name: Rufflet
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rufflet.png|right]]
+![[SRD-rufflet-BookSprite.png|right wsmall]]
 
 *Eaglet Pokemon*
 *This species only has males. They are independent from the moment they hatch. They will challenge even strong opponents, without fear. Their frequent fights help them become stronger.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Sheer Force|Sheer Force]] ([[SRD-Hustle|Hustle]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-rufflet.png|right]]
+![[SRD-rufflet-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-rufflet-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

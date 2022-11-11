@@ -2,9 +2,8 @@
 Ability1: Beast Boost
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME804.png
-BookShinyImageName: HOME804_s.png
-BoxSprite: SRD-BoxSprite-naganadel.png
+BookSprite: SRD-naganadel-BookSprite.png
+BoxSprite: SRD-naganadel-BoxSprite.png
 DexCategory: 'Aether Foundation Log #164'
 DexDescription: One specimen of UB- Adhesive has apparently evolved. Its friendly
   demeanor is gone. The large streams of corrosive poison it shot seriously damaged
@@ -17,7 +16,7 @@ Height:
   Feet: 11.8
   Meters: 3.6
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-naganadel.png
+HomeSprite: SRD-naganadel-HomeSprite.png
 Learnset: '[[SRD-Naganadel-Learnset]]'
 Legendary: 'Yes'
 Name: Naganadel
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-naganadel.png|right]]
+![[SRD-naganadel-BookSprite.png|right wsmall]]
 
 *Aether Foundation Log #164*
 *One specimen of UB- Adhesive has apparently evolved. Its friendly demeanor is gone. The large streams of corrosive poison it shot seriously damaged our equipment, I must take a sample to study it*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-naganadel.png|right]]
+![[SRD-naganadel-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-naganadel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME500.png
-BookShinyImageName: HOME500_s.png
-BoxSprite: SRD-BoxSprite-emboar.png
+BookSprite: SRD-emboar-BookSprite.png
+BoxSprite: SRD-emboar-BoxSprite.png
 DexCategory: Mega Fire Pig Pokemon
 DexDescription: Although it has a scary exterior, it is a very gentle Pokemon that
   cares deeply for family and friends. It can burst its punches and beard on fire,
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Reckless
-HomeSprite: SRD-HomeSprite-emboar.png
+HomeSprite: SRD-emboar-HomeSprite.png
 Learnset: '[[SRD-Emboar-Learnset]]'
 Legendary: 'No'
 Name: Emboar
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-emboar.png|right]]
+![[SRD-emboar-BookSprite.png|right wsmall]]
 
 *Mega Fire Pig Pokemon*
 *Although it has a scary exterior, it is a very gentle Pokemon that cares deeply for family and friends. It can burst its punches and beard on fire, it also shows proficiency on martial arts like Judo.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Reckless|Reckless]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-emboar.png|right]]
+![[SRD-emboar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-emboar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

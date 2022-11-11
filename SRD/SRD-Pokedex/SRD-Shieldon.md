@@ -2,9 +2,8 @@
 Ability1: Sturdy
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME410.png
-BookShinyImageName: HOME410_s.png
-BoxSprite: SRD-BoxSprite-shieldon.png
+BookSprite: SRD-shieldon-BookSprite.png
+BoxSprite: SRD-shieldon-BoxSprite.png
 DexCategory: Shield Pokemon
 DexDescription: It was cloned from a fossil dug out from a layer of clay. It is outstandingly
   armored. As a result, it can eat grass and berries without having to fight many
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Soundproof
-HomeSprite: SRD-HomeSprite-shieldon.png
+HomeSprite: SRD-shieldon-HomeSprite.png
 Learnset: '[[SRD-Shieldon-Learnset]]'
 Legendary: 'No'
 Name: Shieldon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-shieldon.png|right]]
+![[SRD-shieldon-BookSprite.png|right wsmall]]
 
 *Shield Pokemon*
 *It was cloned from a fossil dug out from a layer of clay. It is outstandingly armored. As a result, it can eat grass and berries without having to fight many Pokemon who would dare to prey on it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sturdy|Sturdy]] ([[SRD-Soundproof|Soundproof]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-shieldon.png|right]]
+![[SRD-shieldon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-shieldon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

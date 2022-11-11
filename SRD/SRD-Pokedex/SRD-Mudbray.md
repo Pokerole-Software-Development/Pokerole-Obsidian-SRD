@@ -2,9 +2,8 @@
 Ability1: Own Tempo
 Ability2: Stamina
 Baby: 'No'
-BookImageName: HOME749.png
-BookShinyImageName: HOME749_s.png
-BoxSprite: SRD-BoxSprite-mudbray.png
+BookSprite: SRD-mudbray-BookSprite.png
+BoxSprite: SRD-mudbray-BoxSprite.png
 DexCategory: Donkey Pokemon
 DexDescription: They are very strong, the mud on their hooves serves them as grip
   to pull themselves forward. They enjoy prancing in muddy places and will become
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Inner Focus
-HomeSprite: SRD-HomeSprite-mudbray.png
+HomeSprite: SRD-mudbray-HomeSprite.png
 Learnset: '[[SRD-Mudbray-Learnset]]'
 Legendary: 'No'
 Name: Mudbray
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mudbray.png|right]]
+![[SRD-mudbray-BookSprite.png|right wsmall]]
 
 *Donkey Pokemon*
 *They are very strong, the mud on their hooves serves them as grip to pull themselves forward. They enjoy prancing in muddy places and will become stubborn and disobedient if denied that pleasure.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Own Tempo|Own Tempo]] / [[SRD-Stamina|Stamina]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-mudbray.png|right]]
+![[SRD-mudbray-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-mudbray-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

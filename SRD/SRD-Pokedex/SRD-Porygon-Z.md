@@ -2,9 +2,8 @@
 Ability1: Adaptability
 Ability2: Download
 Baby: 'No'
-BookImageName: HOME474.png
-BookShinyImageName: HOME474_s.png
-BoxSprite: SRD-BoxSprite-porygon-z.png
+BookSprite: SRD-porygon-z-BookSprite.png
+BoxSprite: SRD-porygon-z-BoxSprite.png
 DexCategory: Virtual Pokemon
 DexDescription: A software to explore another dimension was installed on Porygon.
   However, it began acting oddly due to glitches in the code. Since then, it has a
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Analytic
-HomeSprite: SRD-HomeSprite-porygon-z.png
+HomeSprite: SRD-porygon-z-HomeSprite.png
 Learnset: '[[SRD-Porygon-Z-Learnset]]'
 Legendary: 'No'
 Name: Porygon-Z
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-porygon-z.png|right]]
+![[SRD-porygon-z-BookSprite.png|right wsmall]]
 
 *Virtual Pokemon*
 *A software to explore another dimension was installed on Porygon. However, it began acting oddly due to glitches in the code. Since then, it has a fondness for videos of Meowth and Skitty on the internet*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Adaptability|Adaptability]] / [[SRD-Download|Download]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-porygon-z.png|right]]
+![[SRD-porygon-z-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-porygon-z-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

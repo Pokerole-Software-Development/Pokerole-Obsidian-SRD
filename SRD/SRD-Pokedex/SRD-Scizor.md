@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: Technician
 Baby: 'No'
-BookImageName: HOME212.png
-BookShinyImageName: HOME212_s.png
-BoxSprite: SRD-BoxSprite-scizor.png
+BookSprite: SRD-scizor-BookSprite.png
+BoxSprite: SRD-scizor-BoxSprite.png
 DexCategory: Pincer Pokemon
 DexDescription: Its pincers appear to be two more heads and its wings are not for
   flying, but to regulate its body temperature. Scizor's body can shrug off most attacks
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Light Metal
-HomeSprite: SRD-HomeSprite-scizor.png
+HomeSprite: SRD-scizor-HomeSprite.png
 Learnset: '[[SRD-Scizor-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-scizor.png|right]]
+![[SRD-scizor-BookSprite.png|right wsmall]]
 
 *Pincer Pokemon*
 *Its pincers appear to be two more heads and its wings are not for flying, but to regulate its body temperature. Scizor's body can shrug off most attacks and its pincers can crush almost any object.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Technician|Technician]] ([[SRD-Light Metal|Light Metal]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-scizor.png|right]]
+![[SRD-scizor-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-scizor-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

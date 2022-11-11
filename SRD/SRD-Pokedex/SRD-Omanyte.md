@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Shell Armor
 Baby: 'No'
-BookImageName: HOME138.png
-BookShinyImageName: HOME138_s.png
-BoxSprite: SRD-BoxSprite-omanyte.png
+BookSprite: SRD-omanyte-BookSprite.png
+BoxSprite: SRD-omanyte-BoxSprite.png
 DexCategory: Spiral Pokemon
 DexDescription: One of the ancient and extinct Pokemon that have been revived from
   fossils by science. If attacked, it withdraws into its hard shell. It is not found
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Weak Armor
-HomeSprite: SRD-HomeSprite-omanyte.png
+HomeSprite: SRD-omanyte-HomeSprite.png
 Learnset: '[[SRD-Omanyte-Learnset]]'
 Legendary: 'No'
 Name: Omanyte
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-omanyte.png|right]]
+![[SRD-omanyte-BookSprite.png|right wsmall]]
 
 *Spiral Pokemon*
 *One of the ancient and extinct Pokemon that have been revived from fossils by science. If attacked, it withdraws into its hard shell. It is not found in the wild anymore, but fossils can be found in the sea.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-omanyte.png|right]]
+![[SRD-omanyte-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-omanyte-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

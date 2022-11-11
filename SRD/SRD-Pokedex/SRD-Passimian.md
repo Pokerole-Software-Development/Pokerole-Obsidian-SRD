@@ -2,9 +2,8 @@
 Ability1: Receiver
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME766.png
-BookShinyImageName: HOME766_s.png
-BoxSprite: SRD-BoxSprite-passimian.png
+BookSprite: SRD-passimian-BookSprite.png
+BoxSprite: SRD-passimian-BoxSprite.png
 DexCategory: Teamwork Pokemon
 DexDescription: They live in packs of 20 members, they are all coordinated to pass
   around the food and to defend their nest. Their leader is not the strongest but
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Defiant
-HomeSprite: SRD-HomeSprite-passimian.png
+HomeSprite: SRD-passimian-HomeSprite.png
 Learnset: '[[SRD-Passimian-Learnset]]'
 Legendary: 'No'
 Name: Passimian
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-passimian.png|right]]
+![[SRD-passimian-BookSprite.png|right wsmall]]
 
 *Teamwork Pokemon*
 *They live in packs of 20 members, they are all coordinated to pass around the food and to defend their nest. Their leader is not the strongest but the best teamworker of the pack. A very loyal Pokemon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Receiver|Receiver]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-passimian.png|right]]
+![[SRD-passimian-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-passimian-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

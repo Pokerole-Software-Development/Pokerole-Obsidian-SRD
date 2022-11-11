@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME245.png
-BookShinyImageName: HOME245_s.png
-BoxSprite: SRD-BoxSprite-suicune.png
+BookSprite: SRD-suicune-BookSprite.png
+BoxSprite: SRD-suicune-BoxSprite.png
 DexCategory: No Data
 DexDescription: Johto Legends tell about a Pokemon that carries the north winds, sailing
   above the clouds as the aurora, purifying water fountains, pools and rivers.
@@ -16,7 +15,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Inner Focus
-HomeSprite: SRD-HomeSprite-suicune.png
+HomeSprite: SRD-suicune-HomeSprite.png
 Learnset: '[[SRD-Suicune-Learnset]]'
 Legendary: 'Yes'
 Name: Suicune
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-suicune.png|right]]
+![[SRD-suicune-BookSprite.png|right wsmall]]
 
 *No Data*
 *Johto Legends tell about a Pokemon that carries the north winds, sailing above the clouds as the aurora, purifying water fountains, pools and rivers.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-suicune.png|right]]
+![[SRD-suicune-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-suicune-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

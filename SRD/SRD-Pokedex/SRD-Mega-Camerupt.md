@@ -2,9 +2,8 @@
 Ability1: Sheer Force
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME323M.png
-BookShinyImageName: HOME323M_s.png
-BoxSprite: SRD-BoxSprite-camerupt-mega.png
+BookSprite: SRD-camerupt-mega-BookSprite.png
+BoxSprite: SRD-camerupt-mega-BoxSprite.png
 DexCategory: Eruption Pokemon
 DexDescription: The power of the Mega Stone melts its two humps into a single one.
   The single hump is heavier making it slower, but its newly renewed attitude makes
@@ -17,7 +16,7 @@ Height:
   Feet: 8.2
   Meters: 2.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-camerupt-mega.png
+HomeSprite: SRD-camerupt-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Camerupt-Learnset]]'
 Legendary: 'No'
 Name: Mega-Camerupt
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-camerupt-mega.png|right]]
+![[SRD-camerupt-mega-BookSprite.png|right wsmall]]
 
 *Eruption Pokemon*
 *The power of the Mega Stone melts its two humps into a single one. The single hump is heavier making it slower, but its newly renewed attitude makes the hump erupt in heavy bursts of molten lava.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sheer Force|Sheer Force]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-camerupt-mega.png|right]]
+![[SRD-camerupt-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-camerupt-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

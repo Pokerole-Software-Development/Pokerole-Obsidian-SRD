@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Vital Spirit
 Baby: 'No'
-BookImageName: HOME744.png
-BookShinyImageName: HOME744_s.png
-BoxSprite: SRD-BoxSprite-rockruff.png
+BookSprite: SRD-rockruff-BookSprite.png
+BoxSprite: SRD-rockruff-BoxSprite.png
 DexCategory: Puppy Pokemon
 DexDescription: Rockruff are very social and friendly, their keen sense of smell allows
   them to find their trainers easily. However, as they age they become wilder and
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Steadfast
-HomeSprite: SRD-HomeSprite-rockruff.png
+HomeSprite: SRD-rockruff-HomeSprite.png
 Learnset: '[[SRD-Rockruff-Learnset]]'
 Legendary: 'No'
 Name: Rockruff
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rockruff.png|right]]
+![[SRD-rockruff-BookSprite.png|right wsmall]]
 
 *Puppy Pokemon*
 *Rockruff are very social and friendly, their keen sense of smell allows them to find their trainers easily. However, as they age they become wilder and rebellious. Do not let them roam alone at night.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Vital Spirit|Vital Spirit]] ([[SRD-Steadfast|Steadfast]]) <[[SRD-Own Tempo|Own Tempo]]>
 **Base HP**:: 3
 
-![[SRD-BoxSprite-rockruff.png|right]]
+![[SRD-rockruff-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-rockruff-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

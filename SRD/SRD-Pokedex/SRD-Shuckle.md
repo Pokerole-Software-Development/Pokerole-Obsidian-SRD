@@ -2,9 +2,8 @@
 Ability1: Sturdy
 Ability2: Gluttony
 Baby: 'No'
-BookImageName: HOME213.png
-BookShinyImageName: HOME213_s.png
-BoxSprite: SRD-BoxSprite-shuckle.png
+BookSprite: SRD-shuckle-BookSprite.png
+BoxSprite: SRD-shuckle-BoxSprite.png
 DexCategory: Mold Pokemon
 DexDescription: Shuckle is a very peaceful and patient gooey worm. The fluids secreted
   by its toes can make holes in rocks. It hides inside those hallow stones and wears
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Contrary
-HomeSprite: SRD-HomeSprite-shuckle.png
+HomeSprite: SRD-shuckle-HomeSprite.png
 Learnset: '[[SRD-Shuckle-Learnset]]'
 Legendary: 'No'
 Name: Shuckle
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-shuckle.png|right]]
+![[SRD-shuckle-BookSprite.png|right wsmall]]
 
 *Mold Pokemon*
 *Shuckle is a very peaceful and patient gooey worm. The fluids secreted by its toes can make holes in rocks. It hides inside those hallow stones and wears them as a shell. It is known for storing berries inside.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Gluttony|Gluttony]] ([[SRD-Contrary|Contrary]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-shuckle.png|right]]
+![[SRD-shuckle-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::10)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::10)     |
+
+![[SRD-shuckle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

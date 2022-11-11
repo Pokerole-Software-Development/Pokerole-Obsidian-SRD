@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: Quick Feet
 Baby: 'No'
-BookImageName: HOME262.png
-BookShinyImageName: HOME262_s.png
-BoxSprite: SRD-BoxSprite-mightyena.png
+BookSprite: SRD-mightyena-BookSprite.png
+BoxSprite: SRD-mightyena-BoxSprite.png
 DexCategory: Bite Pokemon
 DexDescription: They attack savagely, travel in packs and hunt in groups. They will
   only obey trainers that show superior skills, which they recognize as the alpha
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Moxie
-HomeSprite: SRD-HomeSprite-mightyena.png
+HomeSprite: SRD-mightyena-HomeSprite.png
 Learnset: '[[SRD-Mightyena-Learnset]]'
 Legendary: 'No'
 Name: Mightyena
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mightyena.png|right]]
+![[SRD-mightyena-BookSprite.png|right wsmall]]
 
 *Bite Pokemon*
 *They attack savagely, travel in packs and hunt in groups. They will only obey trainers that show superior skills, which they recognize as the alpha leader. They are extremely obedient once they find a master.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Quick Feet|Quick Feet]] ([[SRD-Moxie|Moxie]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-mightyena.png|right]]
+![[SRD-mightyena-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-mightyena-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

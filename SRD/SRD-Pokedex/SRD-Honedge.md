@@ -2,9 +2,8 @@
 Ability1: No Guard
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME679.png
-BookShinyImageName: HOME679_s.png
-BoxSprite: SRD-BoxSprite-honedge.png
+BookSprite: SRD-honedge-BookSprite.png
+BoxSprite: SRD-honedge-BoxSprite.png
 DexCategory: Sword Pokemon
 DexDescription: During ancient war times this ruthless Pokemon was born from the spirits
   of warriors who died in battle. It is a cursed sword that seeks revenge and bloodshed.
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-honedge.png
+HomeSprite: SRD-honedge-HomeSprite.png
 Learnset: '[[SRD-Honedge-Learnset]]'
 Legendary: 'No'
 Name: Honedge
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-honedge.png|right]]
+![[SRD-honedge-BookSprite.png|right wsmall]]
 
 *Sword Pokemon*
 *During ancient war times this ruthless Pokemon was born from the spirits of warriors who died in battle. It is a cursed sword that seeks revenge and bloodshed. It will drain the life energy of anyone that wields it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-No Guard|No Guard]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-honedge.png|right]]
+![[SRD-honedge-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-honedge-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

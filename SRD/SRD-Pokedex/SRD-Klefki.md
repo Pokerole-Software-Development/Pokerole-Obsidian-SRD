@@ -2,9 +2,8 @@
 Ability1: Prankster
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME707.png
-BookShinyImageName: HOME707_s.png
-BoxSprite: SRD-BoxSprite-klefki.png
+BookSprite: SRD-klefki-BookSprite.png
+BoxSprite: SRD-klefki-BoxSprite.png
 DexCategory: Key Ring Pokemon
 DexDescription: It adapted well to live with humans. Klefki jingle the objects they
   collect when they are distressed. People trust them with their keys to vaults and
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Magician
-HomeSprite: SRD-HomeSprite-klefki.png
+HomeSprite: SRD-klefki-HomeSprite.png
 Learnset: '[[SRD-Klefki-Learnset]]'
 Legendary: 'No'
 Name: Klefki
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-klefki.png|right]]
+![[SRD-klefki-BookSprite.png|right wsmall]]
 
 *Key Ring Pokemon*
 *It adapted well to live with humans. Klefki jingle the objects they collect when they are distressed. People trust them with their keys to vaults and safes because they are very careful with their collection.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Prankster|Prankster]] ([[SRD-Magician|Magician]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-klefki.png|right]]
+![[SRD-klefki-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-klefki-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

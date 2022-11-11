@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME021.png
-BookShinyImageName: HOME021_s.png
-BoxSprite: SRD-BoxSprite-spearow.png
+BookSprite: SRD-spearow-BookSprite.png
+BoxSprite: SRD-spearow-BoxSprite.png
 DexCategory: Tiny Bird Pokemon
 DexDescription: Lives in flocks on grasslands. Very protective of its territory. It
   flaps its short wings to dart around at high speed. It is a little short-tempered
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Sniper
-HomeSprite: SRD-HomeSprite-spearow.png
+HomeSprite: SRD-spearow-HomeSprite.png
 Learnset: '[[SRD-Spearow-Learnset]]'
 Legendary: 'No'
 Name: Spearow
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-spearow.png|right]]
+![[SRD-spearow-BookSprite.png|right wsmall]]
 
 *Tiny Bird Pokemon*
 *Lives in flocks on grasslands. Very protective of its territory. It flaps its short wings to dart around at high speed. It is a little short-tempered - if disturbed, it will shriek, calling its flock for aid.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] ([[SRD-Sniper|Sniper]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-spearow.png|right]]
+![[SRD-spearow-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-spearow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

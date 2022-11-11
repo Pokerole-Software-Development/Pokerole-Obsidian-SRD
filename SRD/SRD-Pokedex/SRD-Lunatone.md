@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME337.png
-BookShinyImageName: HOME337_s.png
-BoxSprite: SRD-BoxSprite-lunatone.png
+BookSprite: SRD-lunatone-BookSprite.png
+BoxSprite: SRD-lunatone-BoxSprite.png
 DexCategory: Meteorite Pokemon
 DexDescription: "First found where a meteorite fell. For this reason it\u2019s believed\
   \ it came from space. Its eyes fill people with dread and lure them to sleep. They\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-lunatone.png
+HomeSprite: SRD-lunatone-HomeSprite.png
 Learnset: '[[SRD-Lunatone-Learnset]]'
 Legendary: 'No'
 Name: Lunatone
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lunatone.png|right]]
+![[SRD-lunatone-BookSprite.png|right wsmall]]
 
 *Meteorite Pokemon*
 *First found where a meteorite fell. For this reason it’s believed it came from space. Its eyes fill people with dread and lure them to sleep. They become very active and extremely powerful during full moons.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-lunatone.png|right]]
+![[SRD-lunatone-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-lunatone-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

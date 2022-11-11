@@ -2,9 +2,8 @@
 Ability1: Pixilate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME334M.png
-BookShinyImageName: HOME334M_s.png
-BoxSprite: SRD-BoxSprite-altaria-mega.png
+BookSprite: SRD-altaria-mega-BookSprite.png
+BoxSprite: SRD-altaria-mega-BoxSprite.png
 DexCategory: Humming Pokemon
 DexDescription: The power of the Mega Stone awakens a part of it full of wonder. Mega-Alatarias
   can be benevolent or ruthless depending on who they are dealing with. Its lush cloud-wings
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-altaria-mega.png
+HomeSprite: SRD-altaria-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Altaria-Learnset]]'
 Legendary: 'No'
 Name: Mega-Altaria
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-altaria-mega.png|right]]
+![[SRD-altaria-mega-BookSprite.png|right wsmall]]
 
 *Humming Pokemon*
 *The power of the Mega Stone awakens a part of it full of wonder. Mega-Alatarias can be benevolent or ruthless depending on who they are dealing with. Its lush cloud-wings turn dark whenever it gets angry.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pixilate|Pixilate]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-altaria-mega.png|right]]
+![[SRD-altaria-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-altaria-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

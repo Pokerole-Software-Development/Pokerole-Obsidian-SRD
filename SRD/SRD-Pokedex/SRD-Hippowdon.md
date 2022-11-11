@@ -2,9 +2,8 @@
 Ability1: Sand Stream
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME450.png
-BookShinyImageName: HOME450_s.png
-BoxSprite: SRD-BoxSprite-hippowdon.png
+BookSprite: SRD-hippowdon-BookSprite.png
+BoxSprite: SRD-hippowdon-BoxSprite.png
 DexCategory: Heavyweight Pokemon
 DexDescription: It becomes territorial and aggressive after evolving. Its open mouth
   stands over 7 ft. tall. There are records of one that came out of the sand and crushed
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Sand Force
-HomeSprite: SRD-HomeSprite-hippowdon.png
+HomeSprite: SRD-hippowdon-HomeSprite.png
 Learnset: '[[SRD-Hippowdon-Learnset]]'
 Legendary: 'No'
 Name: Hippowdon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-hippowdon.png|right]]
+![[SRD-hippowdon-BookSprite.png|right wsmall]]
 
 *Heavyweight Pokemon*
 *It becomes territorial and aggressive after evolving. Its open mouth stands over 7 ft. tall. There are records of one that came out of the sand and crushed a truck that was passing over its territory.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Stream|Sand Stream]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-hippowdon.png|right]]
+![[SRD-hippowdon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-hippowdon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

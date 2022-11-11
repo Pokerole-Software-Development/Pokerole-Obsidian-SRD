@@ -2,9 +2,8 @@
 Ability1: Prism Armor
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME800DW.png
-BookShinyImageName: HOME800DW_s.png
-BoxSprite: SRD-BoxSprite-necrozma-dusk.png
+BookSprite: SRD-necrozma-dusk-BookSprite.png
+BoxSprite: SRD-necrozma-dusk-BoxSprite.png
 DexCategory: 'Aether Foundation Log #182'
 DexDescription: The shadowy creature is in pain, and it hungers for any light it can
   find. I wonder how would it fare on the other side, back in our world. Would the
@@ -17,7 +16,7 @@ Height:
   Feet: 13.8
   Meters: 4.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-necrozma-dusk.png
+HomeSprite: SRD-necrozma-dusk-HomeSprite.png
 Learnset: '[[SRD-Necrozma Dawn Wings-Learnset]]'
 Legendary: 'Yes'
 Name: Necrozma Dawn Wings
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-necrozma-dusk.png|right]]
+![[SRD-necrozma-dusk-BookSprite.png|right wsmall]]
 
 *Aether Foundation Log #182*
 *The shadowy creature is in pain, and it hungers for any light it can find. I wonder how would it fare on the other side, back in our world. Would the moonlight ease its spirit or release a terrible monster?*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Prism Armor|Prism Armor]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-necrozma-dusk.png|right]]
+![[SRD-necrozma-dusk-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-necrozma-dusk-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

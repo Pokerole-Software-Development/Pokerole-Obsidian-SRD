@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Sturdy
 Baby: 'No'
-BookImageName: HOME227.png
-BookShinyImageName: HOME227_s.png
-BoxSprite: SRD-BoxSprite-skarmory.png
+BookSprite: SRD-skarmory-BookSprite.png
+BoxSprite: SRD-skarmory-BoxSprite.png
 DexCategory: Armor Bird Pokemon
 DexDescription: Their wings are hollow and light. They nest inside bramble bushes,
   growing harder from scratches made by thorns. Their wings were used as swords and
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Weak Armor
-HomeSprite: SRD-HomeSprite-skarmory.png
+HomeSprite: SRD-skarmory-HomeSprite.png
 Learnset: '[[SRD-Skarmory-Learnset]]'
 Legendary: 'No'
 Name: Skarmory
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-skarmory.png|right]]
+![[SRD-skarmory-BookSprite.png|right wsmall]]
 
 *Armor Bird Pokemon*
 *Their wings are hollow and light. They nest inside bramble bushes, growing harder from scratches made by thorns. Their wings were used as swords and knives in old times. Beware of their sharp beak.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-skarmory.png|right]]
+![[SRD-skarmory-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-skarmory-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

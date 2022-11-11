@@ -2,9 +2,8 @@
 Ability1: Tangled Feet
 Ability2: Screen Cleaner
 Baby: 'No'
-BookImageName: HOME866.png
-BookShinyImageName: HOME866_s.png
-BoxSprite: SRD-BoxSprite-mr-rime.png
+BookSprite: SRD-mr-rime-BookSprite.png
+BoxSprite: SRD-mr-rime-BoxSprite.png
 DexCategory: Comedian Pokemon
 DexDescription: "It\u2019s highly skilled at tap-dancing. It waves its cane of ice\
   \ in time, its amusing movements make it very popular and they love to entertain\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Ice Body
-HomeSprite: SRD-HomeSprite-mr-rime.png
+HomeSprite: SRD-mr-rime-HomeSprite.png
 Learnset: '[[SRD-Mr. Rime-Learnset]]'
 Legendary: 'No'
 Name: Mr. Rime
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mr-rime.png|right]]
+![[SRD-mr-rime-BookSprite.png|right wsmall]]
 
 *Comedian Pokemon*
 *It’s highly skilled at tap-dancing. It waves its cane of ice in time, its amusing movements make it very popular and they love to entertain children. It releases all of its psychic power from the pattern on its belly.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Tangled Feet|Tangled Feet]] / [[SRD-Screen Cleaner|Screen Cleaner]] ([[SRD-Ice Body|Ice Body]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-mr-rime.png|right]]
+![[SRD-mr-rime-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-mr-rime-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

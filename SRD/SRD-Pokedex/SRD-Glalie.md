@@ -2,9 +2,8 @@
 Ability1: Inner Focus
 Ability2: Ice Body
 Baby: 'No'
-BookImageName: HOME362.png
-BookShinyImageName: HOME362_s.png
-BoxSprite: SRD-BoxSprite-glalie.png
+BookSprite: SRD-glalie-BookSprite.png
+BoxSprite: SRD-glalie-BoxSprite.png
 DexCategory: Face Pokemon
 DexDescription: Its body is so hard it was thought to be made of rock. They can be
   aggressive if provoked. When they hunt, they freeze their prey solid before eating
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Moody
-HomeSprite: SRD-HomeSprite-glalie.png
+HomeSprite: SRD-glalie-HomeSprite.png
 Learnset: '[[SRD-Glalie-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-glalie.png|right]]
+![[SRD-glalie-BookSprite.png|right wsmall]]
 
 *Face Pokemon*
 *Its body is so hard it was thought to be made of rock. They can be aggressive if provoked. When they hunt, they freeze their prey solid before eating it. They can live in warm places without trouble.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] / [[SRD-Ice Body|Ice Body]] ([[SRD-Moody|Moody]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-glalie.png|right]]
+![[SRD-glalie-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-glalie-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

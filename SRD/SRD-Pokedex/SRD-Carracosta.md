@@ -2,9 +2,8 @@
 Ability1: Solid Rock
 Ability2: Sturdy
 Baby: 'No'
-BookImageName: HOME565.png
-BookShinyImageName: HOME565_s.png
-BoxSprite: SRD-BoxSprite-carracosta.png
+BookSprite: SRD-carracosta-BookSprite.png
+BoxSprite: SRD-carracosta-BoxSprite.png
 DexCategory: Prototurtle Pokemon
 DexDescription: They can live both in ocean and land. It can knock out a foe with
   a slap from one of its powerful front fins and chew it up whole. Fortunately, only
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Swift Swim
-HomeSprite: SRD-HomeSprite-carracosta.png
+HomeSprite: SRD-carracosta-HomeSprite.png
 Learnset: '[[SRD-Carracosta-Learnset]]'
 Legendary: 'No'
 Name: Carracosta
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-carracosta.png|right]]
+![[SRD-carracosta-BookSprite.png|right wsmall]]
 
 *Prototurtle Pokemon*
 *They can live both in ocean and land. It can knock out a foe with a slap from one of its powerful front fins and chew it up whole. Fortunately, only one specimen on captivity remains.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Solid Rock|Solid Rock]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-carracosta.png|right]]
+![[SRD-carracosta-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-carracosta-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Sap Sipper
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME672.png
-BookShinyImageName: HOME672_s.png
-BoxSprite: SRD-BoxSprite-skiddo.png
+BookSprite: SRD-skiddo-BookSprite.png
+BoxSprite: SRD-skiddo-BoxSprite.png
 DexCategory: Mount Pokemon
 DexDescription: "It\u2019s thought to be one of the first Pokemon to live in harmony\
   \ with humans. If it has sunshine and water it doesn\u2019t need to eat - the leaves\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Grass Pelt
-HomeSprite: SRD-HomeSprite-skiddo.png
+HomeSprite: SRD-skiddo-HomeSprite.png
 Learnset: '[[SRD-Skiddo-Learnset]]'
 Legendary: 'No'
 Name: Skiddo
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-skiddo.png|right]]
+![[SRD-skiddo-BookSprite.png|right wsmall]]
 
 *Mount Pokemon*
 *It’s thought to be one of the first Pokemon to live in harmony with humans. If it has sunshine and water it doesn’t need to eat - the leaves on its back will produce the energy for it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sap Sipper|Sap Sipper]] ([[SRD-Grass Pelt|Grass Pelt]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-skiddo.png|right]]
+![[SRD-skiddo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-skiddo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

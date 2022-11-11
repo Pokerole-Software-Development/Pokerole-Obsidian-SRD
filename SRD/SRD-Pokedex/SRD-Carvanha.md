@@ -2,9 +2,8 @@
 Ability1: Rough Skin
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME318.png
-BookShinyImageName: HOME318_s.png
-BoxSprite: SRD-BoxSprite-carvanha.png
+BookSprite: SRD-carvanha-BookSprite.png
+BoxSprite: SRD-carvanha-BoxSprite.png
 DexCategory: Savage Pokemon
 DexDescription: Anything near a Carvanha school will be swarmed, attacked and tore
   to bits. However, they are very timid when they are on their own. They live in rivers
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Speed Boost
-HomeSprite: SRD-HomeSprite-carvanha.png
+HomeSprite: SRD-carvanha-HomeSprite.png
 Learnset: '[[SRD-Carvanha-Learnset]]'
 Legendary: 'No'
 Name: Carvanha
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-carvanha.png|right]]
+![[SRD-carvanha-BookSprite.png|right wsmall]]
 
 *Savage Pokemon*
 *Anything near a Carvanha school will be swarmed, attacked and tore to bits. However, they are very timid when they are on their own. They live in rivers in the jungle and dislike salt water.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rough Skin|Rough Skin]] ([[SRD-Speed Boost|Speed Boost]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-carvanha.png|right]]
+![[SRD-carvanha-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-carvanha-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

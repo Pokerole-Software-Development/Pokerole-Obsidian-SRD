@@ -2,9 +2,8 @@
 Ability1: Magnet Pull
 Ability2: Sturdy
 Baby: 'No'
-BookImageName: HOME075A.png
-BookShinyImageName: HOME075A_s.png
-BoxSprite: SRD-BoxSprite-graveler-alola.png
+BookSprite: SRD-graveler-alola-BookSprite.png
+BoxSprite: SRD-graveler-alola-BoxSprite.png
 DexCategory: Rock Pokemon
 DexDescription: These Pokemon charge themselves by rolling around, it is dangerous
   if two of them collide, a loud noise and a flash of light will be seen and heard
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Galvanize
-HomeSprite: SRD-HomeSprite-graveler-alola.png
+HomeSprite: SRD-graveler-alola-HomeSprite.png
 Learnset: '[[SRD-Alolan Graveler-Learnset]]'
 Legendary: 'No'
 Name: Alolan Graveler
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-graveler-alola.png|right]]
+![[SRD-graveler-alola-BookSprite.png|right wsmall]]
 
 *Rock Pokemon*
 *These Pokemon charge themselves by rolling around, it is dangerous if two of them collide, a loud noise and a flash of light will be seen and heard at great distance. They feed on golden dravite.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Magnet Pull|Magnet Pull]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Galvanize|Galvanize]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-graveler-alola.png|right]]
+![[SRD-graveler-alola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-graveler-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Shed Skin
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME412.png
-BookShinyImageName: HOME412_s.png
-BoxSprite: SRD-BoxSprite-burmy.png
+BookSprite: SRD-burmy-BookSprite.png
+BoxSprite: SRD-burmy-BoxSprite.png
 DexCategory: Bagworm Pokemon
 DexDescription: This Pokemon has adapted to live in the forests, deserts and in the
   city. It makes a cloak with the materials close to it to protect itself from the
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Overcoat
-HomeSprite: SRD-HomeSprite-burmy.png
+HomeSprite: SRD-burmy-HomeSprite.png
 Learnset: '[[SRD-Burmy-Learnset]]'
 Legendary: 'No'
 Name: Burmy
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-burmy.png|right]]
+![[SRD-burmy-BookSprite.png|right wsmall]]
 
 *Bagworm Pokemon*
 *This Pokemon has adapted to live in the forests, deserts and in the city. It makes a cloak with the materials close to it to protect itself from the weather. Males evolve into a Mothim and females into a Wormadam.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-burmy.png|right]]
+![[SRD-burmy-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-burmy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

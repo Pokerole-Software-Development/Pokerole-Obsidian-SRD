@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME001.png
-BookShinyImageName: HOME001_s.png
-BoxSprite: SRD-BoxSprite-bulbasaur.png
+BookSprite: SRD-bulbasaur-BookSprite.png
+BoxSprite: SRD-bulbasaur-BoxSprite.png
 DexCategory: Seed Pokemon
 DexDescription: It carries a seed on its back since birth. As it grows older the seed
   also grows larger. It is known to be a well-behaved and loyal Pokemon, but pretty
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Chlorophyll
-HomeSprite: SRD-HomeSprite-bulbasaur.png
+HomeSprite: SRD-bulbasaur-HomeSprite.png
 Learnset: '[[SRD-Bulbasaur-Learnset]]'
 Legendary: 'No'
 Name: Bulbasaur
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-bulbasaur.png|right]]
+![[SRD-bulbasaur-BookSprite.png|right wsmall]]
 
 *Seed Pokemon*
 *It carries a seed on its back since birth. As it grows older the seed also grows larger. It is known to be a well-behaved and loyal Pokemon, but pretty rare to find in the wild.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Chlorophyll|Chlorophyll]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-bulbasaur.png|right]]
+![[SRD-bulbasaur-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-bulbasaur-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

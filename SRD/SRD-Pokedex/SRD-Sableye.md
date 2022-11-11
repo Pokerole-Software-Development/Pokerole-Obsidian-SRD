@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Stall
 Baby: 'No'
-BookImageName: HOME302.png
-BookShinyImageName: HOME302_s.png
-BoxSprite: SRD-BoxSprite-sableye.png
+BookSprite: SRD-sableye-BookSprite.png
+BoxSprite: SRD-sableye-BoxSprite.png
 DexCategory: Darkness Pokemon
 DexDescription: Feared for stealing the souls of men with their sinister eyes glowing
   in the dark. They lurk deep inside caves, eating rocks, gemstones and crystals.
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Prankster
-HomeSprite: SRD-HomeSprite-sableye.png
+HomeSprite: SRD-sableye-HomeSprite.png
 Learnset: '[[SRD-Sableye-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sableye.png|right]]
+![[SRD-sableye-BookSprite.png|right wsmall]]
 
 *Darkness Pokemon*
 *Feared for stealing the souls of men with their sinister eyes glowing in the dark. They lurk deep inside caves, eating rocks, gemstones and crystals. Luckily, Sableyes are rarely seen. They love jewels and treasure.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Stall|Stall]] ([[SRD-Prankster|Prankster]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-sableye.png|right]]
+![[SRD-sableye-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-sableye-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

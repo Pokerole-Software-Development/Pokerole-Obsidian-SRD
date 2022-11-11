@@ -2,9 +2,8 @@
 Ability1: Clear Body
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME374.png
-BookShinyImageName: HOME374_s.png
-BoxSprite: SRD-BoxSprite-beldum.png
+BookSprite: SRD-beldum-BookSprite.png
+BoxSprite: SRD-beldum-BoxSprite.png
 DexCategory: Iron Ball Pokemon
 DexDescription: Beldum uses magnetic pulses to float and communicate. When it finds
   others, they move in perfect unison. It needs to develop a new brain to evolve;
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Light Metal
-HomeSprite: SRD-HomeSprite-beldum.png
+HomeSprite: SRD-beldum-HomeSprite.png
 Learnset: '[[SRD-Beldum-Learnset]]'
 Legendary: 'No'
 Name: Beldum
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-beldum.png|right]]
+![[SRD-beldum-BookSprite.png|right wsmall]]
 
 *Iron Ball Pokemon*
 *Beldum uses magnetic pulses to float and communicate. When it finds others, they move in perfect unison. It needs to develop a new brain to evolve; two of them may merge or it could develop a new one with time.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Clear Body|Clear Body]] ([[SRD-Light Metal|Light Metal]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-beldum.png|right]]
+![[SRD-beldum-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-beldum-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

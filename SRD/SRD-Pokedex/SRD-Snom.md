@@ -2,9 +2,8 @@
 Ability1: Shield Dust
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME872.png
-BookShinyImageName: HOME872_s.png
-BoxSprite: SRD-BoxSprite-snom.png
+BookSprite: SRD-snom-BookSprite.png
+BoxSprite: SRD-snom-BoxSprite.png
 DexCategory: Worm Pokemon
 DexDescription: It spits out thread imbued with a frigid energy and uses it to tie
   its body to branches, disguising itself as an icicle while it sleeps. It feeds only
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Ice Scales
-HomeSprite: SRD-HomeSprite-snom.png
+HomeSprite: SRD-snom-HomeSprite.png
 Learnset: '[[SRD-Snom-Learnset]]'
 Legendary: 'No'
 Name: Snom
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-snom.png|right]]
+![[SRD-snom-BookSprite.png|right wsmall]]
 
 *Worm Pokemon*
 *It spits out thread imbued with a frigid energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps. It feeds only of snow, if it melts it will freeze it again to continue eating.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shield Dust|Shield Dust]] ([[SRD-Ice Scales|Ice Scales]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-snom.png|right]]
+![[SRD-snom-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-snom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

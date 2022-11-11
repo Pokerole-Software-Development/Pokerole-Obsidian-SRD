@@ -2,9 +2,8 @@
 Ability1: Leaf Guard
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME470.png
-BookShinyImageName: HOME470_s.png
-BoxSprite: SRD-BoxSprite-leafeon.png
+BookSprite: SRD-leafeon-BookSprite.png
+BoxSprite: SRD-leafeon-BoxSprite.png
 DexCategory: Verdant Pokemon
 DexDescription: "Eevee evolves to Leafeon when it\u2019s living near a special kind\
   \ of moss. Its cells are capable of performing photosynthesis. It is a calm Pokemon\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Chlorophyll
-HomeSprite: SRD-HomeSprite-leafeon.png
+HomeSprite: SRD-leafeon-HomeSprite.png
 Learnset: '[[SRD-Leafeon-Learnset]]'
 Legendary: 'No'
 Name: Leafeon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-leafeon.png|right]]
+![[SRD-leafeon-BookSprite.png|right wsmall]]
 
 *Verdant Pokemon*
 *Eevee evolves to Leafeon when it’s living near a special kind of moss. Its cells are capable of performing photosynthesis. It is a calm Pokemon and does not usually fight but its leaves are sharp and strong.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Leaf Guard|Leaf Guard]] ([[SRD-Chlorophyll|Chlorophyll]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-leafeon.png|right]]
+![[SRD-leafeon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-leafeon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

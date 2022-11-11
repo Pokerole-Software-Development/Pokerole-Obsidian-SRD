@@ -2,9 +2,8 @@
 Ability1: Iron Fist
 Ability2: Klutz
 Baby: 'No'
-BookImageName: HOME622.png
-BookShinyImageName: HOME622_s.png
-BoxSprite: SRD-BoxSprite-golett.png
+BookSprite: SRD-golett-BookSprite.png
+BoxSprite: SRD-golett-BoxSprite.png
 DexCategory: Automaton Pokemon
 DexDescription: Very few have been seen in old ruins. These Pokemon are thought to
   have been created by the science of an ancient and mysterious civilization. The
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: No Guard
-HomeSprite: SRD-HomeSprite-golett.png
+HomeSprite: SRD-golett-HomeSprite.png
 Learnset: '[[SRD-Golett-Learnset]]'
 Legendary: 'No'
 Name: Golett
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-golett.png|right]]
+![[SRD-golett-BookSprite.png|right wsmall]]
 
 *Automaton Pokemon*
 *Very few have been seen in old ruins. These Pokemon are thought to have been created by the science of an ancient and mysterious civilization. The energy inside of it comes from an unknown source.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Iron Fist|Iron Fist]] / [[SRD-Klutz|Klutz]] ([[SRD-No Guard|No Guard]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-golett.png|right]]
+![[SRD-golett-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-golett-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

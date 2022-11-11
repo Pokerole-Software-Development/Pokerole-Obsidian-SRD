@@ -2,9 +2,8 @@
 Ability1: Poison Point
 Ability2: Swift Swim
 Baby: 'No'
-BookImageName: HOME211.png
-BookShinyImageName: HOME211_s.png
-BoxSprite: SRD-BoxSprite-qwilfish.png
+BookSprite: SRD-qwilfish-BookSprite.png
+BoxSprite: SRD-qwilfish-BoxSprite.png
 DexCategory: Balloon Pokemon
 DexDescription: It swallows water to inflate its body to appear bigger than its foes.
   Qwilfish must swallow 2 gallons of water to be able to shoot its stings. The poison
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Intimidate
-HomeSprite: SRD-HomeSprite-qwilfish.png
+HomeSprite: SRD-qwilfish-HomeSprite.png
 Learnset: '[[SRD-Qwilfish-Learnset]]'
 Legendary: 'No'
 Name: Qwilfish
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-qwilfish.png|right]]
+![[SRD-qwilfish-BookSprite.png|right wsmall]]
 
 *Balloon Pokemon*
 *It swallows water to inflate its body to appear bigger than its foes. Qwilfish must swallow 2 gallons of water to be able to shoot its stings. The poison produced by Qwilfish is known to cause fainting.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Swift Swim|Swift Swim]] ([[SRD-Intimidate|Intimidate]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-qwilfish.png|right]]
+![[SRD-qwilfish-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-qwilfish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

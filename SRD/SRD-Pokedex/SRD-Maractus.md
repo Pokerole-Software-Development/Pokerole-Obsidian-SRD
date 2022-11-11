@@ -2,9 +2,8 @@
 Ability1: Water Absorb
 Ability2: Chlorophyll
 Baby: 'No'
-BookImageName: HOME556.png
-BookShinyImageName: HOME556_s.png
-BoxSprite: SRD-BoxSprite-maractus.png
+BookSprite: SRD-maractus-BookSprite.png
+BoxSprite: SRD-maractus-BoxSprite.png
 DexCategory: Cactus Pokemon
 DexDescription: "If you see a Maractus on the desert, follow it, as they make their\
   \ nests on water oasis. This pacific Pokemon makes a sound similar to a maraca to\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Storm Drain
-HomeSprite: SRD-HomeSprite-maractus.png
+HomeSprite: SRD-maractus-HomeSprite.png
 Learnset: '[[SRD-Maractus-Learnset]]'
 Legendary: 'No'
 Name: Maractus
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-maractus.png|right]]
+![[SRD-maractus-BookSprite.png|right wsmall]]
 
 *Cactus Pokemon*
 *If you see a Maractus on the desert, follow it, as they make their nests on water oasis. This pacific Pokemon makes a sound similar to a maraca to drive away bird Pokemon that prey on it’s seeds and fruit.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] / [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Storm Drain|Storm Drain]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-maractus.png|right]]
+![[SRD-maractus-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-maractus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

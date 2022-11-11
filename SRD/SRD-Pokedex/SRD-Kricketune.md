@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME402.png
-BookShinyImageName: HOME402_s.png
-BoxSprite: SRD-BoxSprite-kricketune.png
+BookSprite: SRD-kricketune-BookSprite.png
+BoxSprite: SRD-kricketune-BoxSprite.png
 DexCategory: Cricket Pokemon
 DexDescription: It can make all kind of sounds with its antennae, arms and mouth.
   It signals emotions with different tunes but scientists still cannot define what
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Technician
-HomeSprite: SRD-HomeSprite-kricketune.png
+HomeSprite: SRD-kricketune-HomeSprite.png
 Learnset: '[[SRD-Kricketune-Learnset]]'
 Legendary: 'No'
 Name: Kricketune
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-kricketune.png|right]]
+![[SRD-kricketune-BookSprite.png|right wsmall]]
 
 *Cricket Pokemon*
 *It can make all kind of sounds with its antennae, arms and mouth. It signals emotions with different tunes but scientists still cannot define what they mean. They imitate the songs they hear.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] ([[SRD-Technician|Technician]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-kricketune.png|right]]
+![[SRD-kricketune-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-kricketune-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Oblivious
 Ability2: Simple
 Baby: 'No'
-BookImageName: HOME322.png
-BookShinyImageName: HOME322_s.png
-BoxSprite: SRD-BoxSprite-numel.png
+BookSprite: SRD-numel-BookSprite.png
+BoxSprite: SRD-numel-BoxSprite.png
 DexCategory: Numb Pokemon
 DexDescription: "An incredibly dim-witted Pokemon. They don\u2019t notice being hit.\
   \ If they get hungry they faint. Numel's body is a cauldron of boiling magma. In\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Own Tempo
-HomeSprite: SRD-HomeSprite-numel.png
+HomeSprite: SRD-numel-HomeSprite.png
 Learnset: '[[SRD-Numel-Learnset]]'
 Legendary: 'No'
 Name: Numel
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-numel.png|right]]
+![[SRD-numel-BookSprite.png|right wsmall]]
 
 *Numb Pokemon*
 *An incredibly dim-witted Pokemon. They don’t notice being hit. If they get hungry they faint. Numel's body is a cauldron of boiling magma. In rainy days, the magma cools and its speed is lowered.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Simple|Simple]] ([[SRD-Own Tempo|Own Tempo]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-numel.png|right]]
+![[SRD-numel-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-numel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

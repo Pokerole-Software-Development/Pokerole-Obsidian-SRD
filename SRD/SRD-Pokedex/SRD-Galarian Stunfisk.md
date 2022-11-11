@@ -2,9 +2,8 @@
 Ability1: Mimicry
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME618G.png
-BookShinyImageName: HOME618G_s.png
-BoxSprite: SRD-BoxSprite-stunfisk-galar.png
+BookSprite: SRD-stunfisk-galar-BookSprite.png
+BoxSprite: SRD-stunfisk-galar-BoxSprite.png
 DexCategory: Trap Pokemon
 DexDescription: "Stunfisk lives in mud with high iron content. Those nutrients turned\
   \ its body into a Steel Type. Stunfisks\u2019 lips are hard to spot in the mud,\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-stunfisk-galar.png
+HomeSprite: SRD-stunfisk-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Stunfisk-Learnset]]'
 Legendary: 'No'
 Name: Galarian Stunfisk
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-stunfisk-galar.png|right]]
+![[SRD-stunfisk-galar-BookSprite.png|right wsmall]]
 
 *Trap Pokemon*
 *Stunfisk lives in mud with high iron content. Those nutrients turned its body into a Steel Type. Stunfisks’ lips are hard to spot in the mud, but if someone steps on it, its jagged steel clamps their prey.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Mimicry|Mimicry]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-stunfisk-galar.png|right]]
+![[SRD-stunfisk-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-stunfisk-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

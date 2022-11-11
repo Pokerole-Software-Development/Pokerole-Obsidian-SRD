@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: Flash Fire
 Baby: 'No'
-BookImageName: HOME058.png
-BookShinyImageName: HOME058_s.png
-BoxSprite: SRD-BoxSprite-growlithe.png
+BookSprite: SRD-growlithe-BookSprite.png
+BoxSprite: SRD-growlithe-BoxSprite.png
 DexCategory: Puppy Pokemon
 DexDescription: Friendly, loyal and fearless to defend its trainer. These traits have
   gained them a place working as police Pokemon. They are uncommon in the wild but
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Justified
-HomeSprite: SRD-HomeSprite-growlithe.png
+HomeSprite: SRD-growlithe-HomeSprite.png
 Learnset: '[[SRD-Growlithe-Learnset]]'
 Legendary: 'No'
 Name: Growlithe
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-growlithe.png|right]]
+![[SRD-growlithe-BookSprite.png|right wsmall]]
 
 *Puppy Pokemon*
 *Friendly, loyal and fearless to defend its trainer. These traits have gained them a place working as police Pokemon. They are uncommon in the wild but some packs can be seen in hot environments.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Flash Fire|Flash Fire]] ([[SRD-Justified|Justified]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-growlithe.png|right]]
+![[SRD-growlithe-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-growlithe-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

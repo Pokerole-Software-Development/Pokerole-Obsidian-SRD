@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME503.png
-BookShinyImageName: HOME503_s.png
-BoxSprite: SRD-BoxSprite-samurott.png
+BookSprite: SRD-samurott-BookSprite.png
+BoxSprite: SRD-samurott-BoxSprite.png
 DexCategory: Formidable Pokemon
 DexDescription: "It uses the horn on it\u2019s head and both scimitars attached to\
   \ it\u2019s front legs as weapons. In the late spring and fall, they gather on cold\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Shell Armor
-HomeSprite: SRD-HomeSprite-samurott.png
+HomeSprite: SRD-samurott-HomeSprite.png
 Learnset: '[[SRD-Samurott-Learnset]]'
 Legendary: 'No'
 Name: Samurott
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-samurott.png|right]]
+![[SRD-samurott-BookSprite.png|right wsmall]]
 
 *Formidable Pokemon*
 *It uses the horn on it’s head and both scimitars attached to it’s front legs as weapons. In the late spring and fall, they gather on cold beaches and fight each other. The winner lets out an intimidating roar.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Shell Armor|Shell Armor]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-samurott.png|right]]
+![[SRD-samurott-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-samurott-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

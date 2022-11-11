@@ -2,9 +2,8 @@
 Ability1: Soul Heart
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME801.png
-BookShinyImageName: HOME801_s.png
-BoxSprite: SRD-BoxSprite-magearna.png
+BookSprite: SRD-magearna-BookSprite.png
+BoxSprite: SRD-magearna-BoxSprite.png
 DexCategory: No Data
 DexDescription: 500 years ago a famous scientist left a manuscript with details on
   how to create a mechanic Pokemon. His investigation led to the creation of the modern
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-magearna.png
+HomeSprite: SRD-magearna-HomeSprite.png
 Learnset: '[[SRD-Magearna-Learnset]]'
 Legendary: 'Yes'
 Name: Magearna
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-magearna.png|right]]
+![[SRD-magearna-BookSprite.png|right wsmall]]
 
 *No Data*
 *500 years ago a famous scientist left a manuscript with details on how to create a mechanic Pokemon. His investigation led to the creation of the modern Pokeball.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Soul Heart|Soul Heart]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-magearna.png|right]]
+![[SRD-magearna-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-magearna-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

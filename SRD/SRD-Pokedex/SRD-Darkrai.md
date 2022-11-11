@@ -2,9 +2,8 @@
 Ability1: Bad Dreams
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME491.png
-BookShinyImageName: HOME491_s.png
-BoxSprite: SRD-BoxSprite-darkrai.png
+BookSprite: SRD-darkrai-BookSprite.png
+BoxSprite: SRD-darkrai-BoxSprite.png
 DexCategory: No Data
 DexDescription: "All around the world, young children have depicted a similar figure\
   \ in their drawings. They call it \u201CThe Boogeyman\u201D. People say it will\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-darkrai.png
+HomeSprite: SRD-darkrai-HomeSprite.png
 Learnset: '[[SRD-Darkrai-Learnset]]'
 Legendary: 'Yes'
 Name: Darkrai
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-darkrai.png|right]]
+![[SRD-darkrai-BookSprite.png|right wsmall]]
 
 *No Data*
 *All around the world, young children have depicted a similar figure in their drawings. They call it “The Boogeyman”. People say it will make all your nightmares come true.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Bad Dreams|Bad Dreams]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-darkrai.png|right]]
+![[SRD-darkrai-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-darkrai-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

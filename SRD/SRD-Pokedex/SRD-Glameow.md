@@ -2,9 +2,8 @@
 Ability1: Limber
 Ability2: Own Tempo
 Baby: 'No'
-BookImageName: HOME431.png
-BookShinyImageName: HOME431_s.png
-BoxSprite: SRD-BoxSprite-glameow.png
+BookSprite: SRD-glameow-BookSprite.png
+BoxSprite: SRD-glameow-BoxSprite.png
 DexCategory: Catty Pokemon
 DexDescription: "It is plentiful in urban areas, as it is a popular pet. It has a\
   \ very fickle nature, purring in happiness one second, then hooking its claws into\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Keen Eye
-HomeSprite: SRD-HomeSprite-glameow.png
+HomeSprite: SRD-glameow-HomeSprite.png
 Learnset: '[[SRD-Glameow-Learnset]]'
 Legendary: 'No'
 Name: Glameow
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-glameow.png|right]]
+![[SRD-glameow-BookSprite.png|right wsmall]]
 
 *Catty Pokemon*
 *It is plentiful in urban areas, as it is a popular pet. It has a very fickle nature, purring in happiness one second, then hooking its claws into its trainer’s nose. It loves to be admired and pampered.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Limber|Limber]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Keen Eye|Keen Eye]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-glameow.png|right]]
+![[SRD-glameow-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-glameow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

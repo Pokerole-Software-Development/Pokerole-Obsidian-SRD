@@ -2,9 +2,8 @@
 Ability1: Cute Charm
 Ability2: Technician
 Baby: 'No'
-BookImageName: HOME573.png
-BookShinyImageName: HOME573_s.png
-BoxSprite: SRD-BoxSprite-cinccino.png
+BookSprite: SRD-cinccino-BookSprite.png
+BoxSprite: SRD-cinccino-BoxSprite.png
 DexCategory: Scarf Pokemon
 DexDescription: Their fur feels amazing to the touch. It produces an oil that repels
   dust and prevents static electricity from building up. It loves to be groomed and
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Skill Link
-HomeSprite: SRD-HomeSprite-cinccino.png
+HomeSprite: SRD-cinccino-HomeSprite.png
 Learnset: '[[SRD-Cinccino-Learnset]]'
 Legendary: 'No'
 Name: Cinccino
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cinccino.png|right]]
+![[SRD-cinccino-BookSprite.png|right wsmall]]
 
 *Scarf Pokemon*
 *Their fur feels amazing to the touch. It produces an oil that repels dust and prevents static electricity from building up. It loves to be groomed and pampered. The fur it sheds is highly valued.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Technician|Technician]] ([[SRD-Skill Link|Skill Link]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-cinccino.png|right]]
+![[SRD-cinccino-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-cinccino-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

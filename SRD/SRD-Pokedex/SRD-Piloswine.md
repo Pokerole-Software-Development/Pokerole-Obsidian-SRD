@@ -2,9 +2,8 @@
 Ability1: Oblivious
 Ability2: Snow Cloak
 Baby: 'No'
-BookImageName: HOME221.png
-BookShinyImageName: HOME221_s.png
-BoxSprite: SRD-BoxSprite-piloswine.png
+BookSprite: SRD-piloswine-BookSprite.png
+BoxSprite: SRD-piloswine-BoxSprite.png
 DexCategory: Swine Pokemon
 DexDescription: "Their long hair obscure their sight, but they\u2019re sensitive to\
   \ sound and smells. Piloswine's rugged hooves prevent it from slipping on icy terrains.\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Thick Fat
-HomeSprite: SRD-HomeSprite-piloswine.png
+HomeSprite: SRD-piloswine-HomeSprite.png
 Learnset: '[[SRD-Piloswine-Learnset]]'
 Legendary: 'No'
 Name: Piloswine
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-piloswine.png|right]]
+![[SRD-piloswine-BookSprite.png|right wsmall]]
 
 *Swine Pokemon*
 *Their long hair obscure their sight, but they’re sensitive to sound and smells. Piloswine's rugged hooves prevent it from slipping on icy terrains. Amazingly, their tusks are made of solid ice.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Snow Cloak|Snow Cloak]] ([[SRD-Thick Fat|Thick Fat]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-piloswine.png|right]]
+![[SRD-piloswine-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-piloswine-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Thick Fat
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME003M.png
-BookShinyImageName: HOME003M_s.png
-BoxSprite: SRD-BoxSprite-venusaur-mega.png
+BookSprite: SRD-venusaur-mega-BookSprite.png
+BoxSprite: SRD-venusaur-mega-BoxSprite.png
 DexCategory: Seed Pokemon
 DexDescription: "With the power of the Mega Stone, this Pokemon grows taller and thicker.\
   \ It\u2019s bark and skin are now impervious to the elements.\nIts demeanor becomes\
@@ -17,7 +16,7 @@ Height:
   Feet: 7.9
   Meters: 2.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-venusaur-mega.png
+HomeSprite: SRD-venusaur-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Venusaur-Learnset]]'
 Legendary: 'No'
 Name: Mega-Venusaur
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-venusaur-mega.png|right]]
+![[SRD-venusaur-mega-BookSprite.png|right wsmall]]
 
 *Seed Pokemon*
 *With the power of the Mega Stone, this Pokemon grows taller and thicker. It’s bark and skin are now impervious to the elements.
@@ -49,7 +48,7 @@ Its demeanor becomes even more serious and determined.*
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-venusaur-mega.png|right]]
+![[SRD-venusaur-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -58,6 +57,8 @@ Its demeanor becomes even more serious and determined.*
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-venusaur-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

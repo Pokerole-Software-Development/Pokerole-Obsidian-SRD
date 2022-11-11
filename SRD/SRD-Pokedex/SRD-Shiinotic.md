@@ -2,9 +2,8 @@
 Ability1: Illuminate
 Ability2: Effect Spore
 Baby: 'No'
-BookImageName: HOME756.png
-BookShinyImageName: HOME756_s.png
-BoxSprite: SRD-BoxSprite-shiinotic.png
+BookSprite: SRD-shiinotic-BookSprite.png
+BoxSprite: SRD-shiinotic-BoxSprite.png
 DexCategory: Illuminating Pokemon
 DexDescription: Forests where Shiinotic live are treacherous to travel. People tell
   stories about strange lights that put others into a deep slumber who are then devoid
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Rain Dish
-HomeSprite: SRD-HomeSprite-shiinotic.png
+HomeSprite: SRD-shiinotic-HomeSprite.png
 Learnset: '[[SRD-Shiinotic-Learnset]]'
 Legendary: 'No'
 Name: Shiinotic
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-shiinotic.png|right]]
+![[SRD-shiinotic-BookSprite.png|right wsmall]]
 
 *Illuminating Pokemon*
 *Forests where Shiinotic live are treacherous to travel. People tell stories about strange lights that put others into a deep slumber who are then devoid of their energy by these Pokemon, never to return home.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Illuminate|Illuminate]] / [[SRD-Effect Spore|Effect Spore]] ([[SRD-Rain Dish|Rain Dish]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-shiinotic.png|right]]
+![[SRD-shiinotic-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-shiinotic-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

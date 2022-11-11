@@ -2,9 +2,8 @@
 Ability1: Hyper Cutter
 Ability2: Arena Trap
 Baby: 'No'
-BookImageName: HOME328.png
-BookShinyImageName: HOME328_s.png
-BoxSprite: SRD-BoxSprite-trapinch.png
+BookSprite: SRD-trapinch-BookSprite.png
+BoxSprite: SRD-trapinch-BoxSprite.png
 DexCategory: Ant Pit Pokemon
 DexDescription: "Their nest is like a bowl pit dug in sand. Trapinches wait for prey\
   \ to tumble down their pit, later to be crushed between this Pokemon\u2019s jaws.\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-trapinch.png
+HomeSprite: SRD-trapinch-HomeSprite.png
 Learnset: '[[SRD-Trapinch-Learnset]]'
 Legendary: 'No'
 Name: Trapinch
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-trapinch.png|right]]
+![[SRD-trapinch-BookSprite.png|right wsmall]]
 
 *Ant Pit Pokemon*
 *Their nest is like a bowl pit dug in sand. Trapinches wait for prey to tumble down their pit, later to be crushed between this Pokemon’s jaws. Beware of them as their bite can cause serious damage.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Arena Trap|Arena Trap]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-trapinch.png|right]]
+![[SRD-trapinch-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-trapinch-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

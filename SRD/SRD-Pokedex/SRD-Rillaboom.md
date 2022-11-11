@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME812.png
-BookShinyImageName: HOME812_s.png
-BoxSprite: SRD-BoxSprite-rillaboom.png
+BookSprite: SRD-rillaboom-BookSprite.png
+BoxSprite: SRD-rillaboom-BoxSprite.png
 DexCategory: Drummer Pokemon
 DexDescription: The leader owns the largest drum among its troop and has the best
   drumming technique which makes roots sprout to attack its foes. But they are peaceful
@@ -17,7 +16,7 @@ Height:
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: Grassy Surge
-HomeSprite: SRD-HomeSprite-rillaboom.png
+HomeSprite: SRD-rillaboom-HomeSprite.png
 Learnset: '[[SRD-Rillaboom-Learnset]]'
 Legendary: 'No'
 Name: Rillaboom
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rillaboom.png|right]]
+![[SRD-rillaboom-BookSprite.png|right wsmall]]
 
 *Drummer Pokemon*
 *The leader owns the largest drum among its troop and has the best drumming technique which makes roots sprout to attack its foes. But they are peaceful and kind, creatures that value harmony in their group.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Grassy Surge|Grassy Surge]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-rillaboom.png|right]]
+![[SRD-rillaboom-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-rillaboom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

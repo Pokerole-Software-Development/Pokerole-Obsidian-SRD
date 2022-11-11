@@ -2,9 +2,8 @@
 Ability1: Pickup
 Ability2: Frisk
 Baby: 'No'
-BookImageName: HOME710.png
-BookShinyImageName: HOME710_s.png
-BoxSprite: SRD-BoxSprite-pumpkaboo.png
+BookSprite: SRD-pumpkaboo-BookSprite.png
+BoxSprite: SRD-pumpkaboo-BoxSprite.png
 DexCategory: Pumpkin Pokemon
 DexDescription: "You can see them dwelling on farms during the autumn season. The\
   \ pumpkin body is inhabited by a spirit trapped in this world. As the sun sets,\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Insomnia
-HomeSprite: SRD-HomeSprite-pumpkaboo.png
+HomeSprite: SRD-pumpkaboo-HomeSprite.png
 Learnset: '[[SRD-Pumpkaboo-Learnset]]'
 Legendary: 'No'
 Name: Pumpkaboo
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pumpkaboo.png|right]]
+![[SRD-pumpkaboo-BookSprite.png|right wsmall]]
 
 *Pumpkin Pokemon*
 *You can see them dwelling on farms during the autumn season. The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active. Don’t ever follow their light at night.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Frisk|Frisk]] ([[SRD-Insomnia|Insomnia]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-pumpkaboo.png|right]]
+![[SRD-pumpkaboo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-pumpkaboo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

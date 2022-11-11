@@ -2,9 +2,8 @@
 Ability1: Cute Charm
 Ability2: Technician
 Baby: 'No'
-BookImageName: HOME572.png
-BookShinyImageName: HOME572_s.png
-BoxSprite: SRD-BoxSprite-minccino.png
+BookSprite: SRD-minccino-BookSprite.png
+BoxSprite: SRD-minccino-BoxSprite.png
 DexCategory: Chinchilla Pokemon
 DexDescription: They greet one another by rubbing their tails, which are always kept
   well groomed and clean. Housewives love to keep them as pets because they eagerly
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Skill Link
-HomeSprite: SRD-HomeSprite-minccino.png
+HomeSprite: SRD-minccino-HomeSprite.png
 Learnset: '[[SRD-Minccino-Learnset]]'
 Legendary: 'No'
 Name: Minccino
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-minccino.png|right]]
+![[SRD-minccino-BookSprite.png|right wsmall]]
 
 *Chinchilla Pokemon*
 *They greet one another by rubbing their tails, which are always kept well groomed and clean. Housewives love to keep them as pets because they eagerly help to clean the house.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Technician|Technician]] ([[SRD-Skill Link|Skill Link]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-minccino.png|right]]
+![[SRD-minccino-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-minccino-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

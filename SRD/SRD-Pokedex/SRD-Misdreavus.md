@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME200.png
-BookShinyImageName: HOME200_s.png
-BoxSprite: SRD-BoxSprite-misdreavus.png
+BookSprite: SRD-misdreavus-BookSprite.png
+BoxSprite: SRD-misdreavus-BoxSprite.png
 DexCategory: Screech Pokemon
 DexDescription: Misdreavus frightens people with a creepy, sobbing cry. It uses the
   red spheres on its neck to absorb fear as nutrition. It takes a wicked pleasure
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-misdreavus.png
+HomeSprite: SRD-misdreavus-HomeSprite.png
 Learnset: '[[SRD-Misdreavus-Learnset]]'
 Legendary: 'No'
 Name: Misdreavus
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-misdreavus.png|right]]
+![[SRD-misdreavus-BookSprite.png|right wsmall]]
 
 *Screech Pokemon*
 *Misdreavus frightens people with a creepy, sobbing cry. It uses the red spheres on its neck to absorb fear as nutrition. It takes a wicked pleasure in startling and scaring people.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-misdreavus.png|right]]
+![[SRD-misdreavus-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-misdreavus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

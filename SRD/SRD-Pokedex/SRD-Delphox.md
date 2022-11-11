@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME655.png
-BookShinyImageName: HOME655_s.png
-BoxSprite: SRD-BoxSprite-delphox.png
+BookSprite: SRD-delphox-BookSprite.png
+BoxSprite: SRD-delphox-BoxSprite.png
 DexCategory: Fox Pokemon
 DexDescription: It swirls its twig to create amazing flamethrowers. It gazes into
   the flame at the tip of its stick to achieve a focused state and rumor says that
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Magician
-HomeSprite: SRD-HomeSprite-delphox.png
+HomeSprite: SRD-delphox-HomeSprite.png
 Learnset: '[[SRD-Delphox-Learnset]]'
 Legendary: 'No'
 Name: Delphox
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-delphox.png|right]]
+![[SRD-delphox-BookSprite.png|right wsmall]]
 
 *Fox Pokemon*
 *It swirls its twig to create amazing flamethrowers. It gazes into the flame at the tip of its stick to achieve a focused state and rumor says that it can see the future within the glowing ember.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Magician|Magician]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-delphox.png|right]]
+![[SRD-delphox-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-delphox-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Immunity
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME335.png
-BookShinyImageName: HOME335_s.png
-BoxSprite: SRD-BoxSprite-zangoose.png
+BookSprite: SRD-zangoose-BookSprite.png
+BoxSprite: SRD-zangoose-BoxSprite.png
 DexCategory: Cat Ferret Pokemon
 DexDescription: The sole desire to battle Sevipers is embedded in their genes, they
   have been rivals since forever. Zangoose is a very agile quadruped, standing up
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Toxic Boost
-HomeSprite: SRD-HomeSprite-zangoose.png
+HomeSprite: SRD-zangoose-HomeSprite.png
 Learnset: '[[SRD-Zangoose-Learnset]]'
 Legendary: 'No'
 Name: Zangoose
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zangoose.png|right]]
+![[SRD-zangoose-BookSprite.png|right wsmall]]
 
 *Cat Ferret Pokemon*
 *The sole desire to battle Sevipers is embedded in their genes, they have been rivals since forever. Zangoose is a very agile quadruped, standing up on two legs only when ready to fight.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Immunity|Immunity]] ([[SRD-Toxic Boost|Toxic Boost]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-zangoose.png|right]]
+![[SRD-zangoose-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-zangoose-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

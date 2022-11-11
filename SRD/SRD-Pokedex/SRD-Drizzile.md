@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME817.png
-BookShinyImageName: HOME817_s.png
-BoxSprite: SRD-BoxSprite-drizzile.png
+BookSprite: SRD-drizzile-BookSprite.png
+BoxSprite: SRD-drizzile-BoxSprite.png
 DexCategory: Water Lizard Pokemon
 DexDescription: Its demeanor changes drastically from shy to aloof and lazy. It can
   create water balloons with the moisture secreted from its paws. It is incredibly
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Sniper
-HomeSprite: SRD-HomeSprite-drizzile.png
+HomeSprite: SRD-drizzile-HomeSprite.png
 Learnset: '[[SRD-Drizzile-Learnset]]'
 Legendary: 'No'
 Name: Drizzile
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-drizzile.png|right]]
+![[SRD-drizzile-BookSprite.png|right wsmall]]
 
 *Water Lizard Pokemon*
 *Its demeanor changes drastically from shy to aloof and lazy. It can create water balloons with the moisture secreted from its paws. It is incredibly intelligent and is known to lay traps for others in the wild.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Sniper|Sniper]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-drizzile.png|right]]
+![[SRD-drizzile-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-drizzile-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

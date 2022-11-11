@@ -2,9 +2,8 @@
 Ability1: Magnet Pull
 Ability2: Sturdy
 Baby: 'No'
-BookImageName: HOME462.png
-BookShinyImageName: HOME462_s.png
-BoxSprite: SRD-BoxSprite-magnezone.png
+BookSprite: SRD-magnezone-BookSprite.png
+BoxSprite: SRD-magnezone-BoxSprite.png
 DexCategory: Magnet Area Pokemon
 DexDescription: Magneton only evolves in very specific areas of the globe. It has
   the ability to repel itself from the ground using magnetism. If it is nervous it
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Analytic
-HomeSprite: SRD-HomeSprite-magnezone.png
+HomeSprite: SRD-magnezone-HomeSprite.png
 Learnset: '[[SRD-Magnezone-Learnset]]'
 Legendary: 'No'
 Name: Magnezone
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-magnezone.png|right]]
+![[SRD-magnezone-BookSprite.png|right wsmall]]
 
 *Magnet Area Pokemon*
 *Magneton only evolves in very specific areas of the globe. It has the ability to repel itself from the ground using magnetism. If it is nervous it pulls all the pieces of metal around until it relaxes.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Magnet Pull|Magnet Pull]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-magnezone.png|right]]
+![[SRD-magnezone-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-magnezone-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

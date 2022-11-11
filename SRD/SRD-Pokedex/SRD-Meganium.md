@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME154.png
-BookShinyImageName: HOME154_s.png
-BoxSprite: SRD-BoxSprite-meganium.png
+BookSprite: SRD-meganium-BookSprite.png
+BoxSprite: SRD-meganium-BoxSprite.png
 DexCategory: Herb Pokemon
 DexDescription: Meganium's breath has the power to revive dead grass and plants. The
   aroma that comes from its petals contains a substance that calms aggressive feelings
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Leaf Guard
-HomeSprite: SRD-HomeSprite-meganium.png
+HomeSprite: SRD-meganium-HomeSprite.png
 Learnset: '[[SRD-Meganium-Learnset]]'
 Legendary: 'No'
 Name: Meganium
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-meganium.png|right]]
+![[SRD-meganium-BookSprite.png|right wsmall]]
 
 *Herb Pokemon*
 *Meganium's breath has the power to revive dead grass and plants. The aroma that comes from its petals contains a substance that calms aggressive feelings and helps others to restore health.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Leaf Guard|Leaf Guard]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-meganium.png|right]]
+![[SRD-meganium-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-meganium-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

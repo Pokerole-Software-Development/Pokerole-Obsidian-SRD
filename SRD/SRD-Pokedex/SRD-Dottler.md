@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: Compound Eyes
 Baby: 'No'
-BookImageName: HOME825.png
-BookShinyImageName: HOME825_s.png
-BoxSprite: SRD-BoxSprite-dottler.png
+BookSprite: SRD-dottler-BookSprite.png
+BoxSprite: SRD-dottler-BoxSprite.png
 DexCategory: Radome Pokemon
 DexDescription: "It grows into its final stage inside a hard shell. It barely moves\
   \ and it won\u2019t eat or drink during this time, due to this many believe it to\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-dottler.png
+HomeSprite: SRD-dottler-HomeSprite.png
 Learnset: '[[SRD-Dottler-Learnset]]'
 Legendary: 'No'
 Name: Dottler
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dottler.png|right]]
+![[SRD-dottler-BookSprite.png|right wsmall]]
 
 *Radome Pokemon*
 *It grows into its final stage inside a hard shell. It barely moves and it won’t eat or drink during this time, due to this many believe it to be dead until its psychic powers awaken and it starts communicating telepathically.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Compound Eyes|Compound Eyes]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-dottler.png|right]]
+![[SRD-dottler-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-dottler-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

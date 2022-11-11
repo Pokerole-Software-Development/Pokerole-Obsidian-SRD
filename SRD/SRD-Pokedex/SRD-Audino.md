@@ -2,9 +2,8 @@
 Ability1: Healer
 Ability2: Regenerator
 Baby: 'No'
-BookImageName: HOME531.png
-BookShinyImageName: HOME531_s.png
-BoxSprite: SRD-BoxSprite-audino.png
+BookSprite: SRD-audino-BookSprite.png
+BoxSprite: SRD-audino-BoxSprite.png
 DexCategory: Hearing Pokemon
 DexDescription: "Its auditory sense is astounding, using the feelers on it\u2019s\
   \ ears it can know the health state of others. It is a caring Pokemon with a sweet\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Klutz
-HomeSprite: SRD-HomeSprite-audino.png
+HomeSprite: SRD-audino-HomeSprite.png
 Learnset: '[[SRD-Audino-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-audino.png|right]]
+![[SRD-audino-BookSprite.png|right wsmall]]
 
 *Hearing Pokemon*
 *Its auditory sense is astounding, using the feelers on it’s ears it can know the health state of others. It is a caring Pokemon with a sweet disposition to help, but it is not too common to see in the wild.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Healer|Healer]] / [[SRD-Regenerator|Regenerator]] ([[SRD-Klutz|Klutz]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-audino.png|right]]
+![[SRD-audino-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-audino-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

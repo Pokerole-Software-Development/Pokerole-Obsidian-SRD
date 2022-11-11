@@ -2,9 +2,8 @@
 Ability1: Sticky Hold
 Ability2: Storm Drain
 Baby: 'No'
-BookImageName: HOME423.png
-BookShinyImageName: HOME423_s.png
-BoxSprite: SRD-BoxSprite-gastrodon.png
+BookSprite: SRD-gastrodon-BookSprite.png
+BoxSprite: SRD-gastrodon-BoxSprite.png
 DexCategory: Sea Slug Pokemon
 DexDescription: It has a pliable body without any bones. If any part of its body is
   torn off, it will grow back in minutes. There is evidence that it had a hard shell
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Sand Force
-HomeSprite: SRD-HomeSprite-gastrodon.png
+HomeSprite: SRD-gastrodon-HomeSprite.png
 Learnset: '[[SRD-Gastrodon-Learnset]]'
 Legendary: 'No'
 Name: Gastrodon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gastrodon.png|right]]
+![[SRD-gastrodon-BookSprite.png|right wsmall]]
 
 *Sea Slug Pokemon*
 *It has a pliable body without any bones. If any part of its body is torn off, it will grow back in minutes. There is evidence that it had a hard shell on its back for protection in prehistoric times.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sticky Hold|Sticky Hold]] / [[SRD-Storm Drain|Storm Drain]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-gastrodon.png|right]]
+![[SRD-gastrodon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-gastrodon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME389.png
-BookShinyImageName: HOME389_s.png
-BoxSprite: SRD-BoxSprite-torterra.png
+BookSprite: SRD-torterra-BookSprite.png
+BoxSprite: SRD-torterra-BoxSprite.png
 DexCategory: Continent Pokemon
 DexDescription: Torterras travel in groups, mistaken as moving forests. Many pokemon
   make their nest on its back and live there for their entire lives. Ancient people
@@ -17,7 +16,7 @@ Height:
   Feet: 7.2
   Meters: 2.2
 HiddenAbility: Shell Armor
-HomeSprite: SRD-HomeSprite-torterra.png
+HomeSprite: SRD-torterra-HomeSprite.png
 Learnset: '[[SRD-Torterra-Learnset]]'
 Legendary: 'No'
 Name: Torterra
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-torterra.png|right]]
+![[SRD-torterra-BookSprite.png|right wsmall]]
 
 *Continent Pokemon*
 *Torterras travel in groups, mistaken as moving forests. Many pokemon make their nest on its back and live there for their entire lives. Ancient people thought that they lived on the back of a giant Torterra.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Shell Armor|Shell Armor]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-torterra.png|right]]
+![[SRD-torterra-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-torterra-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

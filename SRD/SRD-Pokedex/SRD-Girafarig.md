@@ -2,9 +2,8 @@
 Ability1: Inner Focus
 Ability2: Early Bird
 Baby: 'No'
-BookImageName: HOME203.png
-BookShinyImageName: HOME203_s.png
-BoxSprite: SRD-BoxSprite-girafarig.png
+BookSprite: SRD-girafarig-BookSprite.png
+BoxSprite: SRD-girafarig-BoxSprite.png
 DexCategory: Long Neck Pokemon
 DexDescription: "Its tail is a head on its own, it bites if anything comes close and\
   \ never rests. Some say that the sum of its two heads grant it psychic powers. Even\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Sap Sipper
-HomeSprite: SRD-HomeSprite-girafarig.png
+HomeSprite: SRD-girafarig-HomeSprite.png
 Learnset: '[[SRD-Girafarig-Learnset]]'
 Legendary: 'No'
 Name: Girafarig
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-girafarig.png|right]]
+![[SRD-girafarig-BookSprite.png|right wsmall]]
 
 *Long Neck Pokemon*
 *Its tail is a head on its own, it bites if anything comes close and never rests. Some say that the sum of its two heads grant it psychic powers. Even if that’s true, the tail isn’t very bright, but it is quite vicious.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Sap Sipper|Sap Sipper]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-girafarig.png|right]]
+![[SRD-girafarig-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-girafarig-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

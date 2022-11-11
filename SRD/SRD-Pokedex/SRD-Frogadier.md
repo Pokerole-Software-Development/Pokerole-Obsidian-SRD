@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME657.png
-BookShinyImageName: HOME657_s.png
-BoxSprite: SRD-BoxSprite-frogadier.png
+BookSprite: SRD-frogadier-BookSprite.png
+BoxSprite: SRD-frogadier-BoxSprite.png
 DexCategory: Bubble Frog Pokemon
 DexDescription: It is incredibly hard to catch. It starts practicing its skills by
   throwing foam covered pebbles at foes. Many trainers find this rebellious stage
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Protean
-HomeSprite: SRD-HomeSprite-frogadier.png
+HomeSprite: SRD-frogadier-HomeSprite.png
 Learnset: '[[SRD-Frogadier-Learnset]]'
 Legendary: 'No'
 Name: Frogadier
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-frogadier.png|right]]
+![[SRD-frogadier-BookSprite.png|right wsmall]]
 
 *Bubble Frog Pokemon*
 *It is incredibly hard to catch. It starts practicing its skills by throwing foam covered pebbles at foes. Many trainers find this rebellious stage very challenging to handle and end up being its targets of practice.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Protean|Protean]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-frogadier.png|right]]
+![[SRD-frogadier-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-frogadier-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

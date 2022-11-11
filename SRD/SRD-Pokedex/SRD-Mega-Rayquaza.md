@@ -2,9 +2,8 @@
 Ability1: Delta Stream
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME384M.png
-BookShinyImageName: HOME384M_s.png
-BoxSprite: SRD-BoxSprite-rayquaza-mega.png
+BookSprite: SRD-rayquaza-mega-BookSprite.png
+BoxSprite: SRD-rayquaza-mega-BoxSprite.png
 DexCategory: No Data
 DexDescription: What does the power of the Mega Stone truly entail? Is it the bond
   between a Trainer and their companion? Or is it all about taking a hold of a forbidden
@@ -17,7 +16,7 @@ Height:
   Feet: 35.4
   Meters: 10.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-rayquaza-mega.png
+HomeSprite: SRD-rayquaza-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Rayquaza-Learnset]]'
 Legendary: 'Yes'
 Name: Mega-Rayquaza
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rayquaza-mega.png|right]]
+![[SRD-rayquaza-mega-BookSprite.png|right wsmall]]
 
 *No Data*
 *What does the power of the Mega Stone truly entail? Is it the bond between a Trainer and their companion? Or is it all about taking a hold of a forbidden power?*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Delta Stream|Delta Stream]]
 **Base HP**:: 11
 
-![[SRD-BoxSprite-rayquaza-mega.png|right]]
+![[SRD-rayquaza-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::9)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-rayquaza-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

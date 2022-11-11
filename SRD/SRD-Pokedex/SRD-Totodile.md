@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME158.png
-BookShinyImageName: HOME158_s.png
-BoxSprite: SRD-BoxSprite-totodile.png
+BookSprite: SRD-totodile-BookSprite.png
+BoxSprite: SRD-totodile-BoxSprite.png
 DexCategory: Big Jaw Pokemon
 DexDescription: Despite its small body, Totodile's jaws are very powerful. While it
   may think it is just playfully nipping, its bite has enough strength to cause a
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-totodile.png
+HomeSprite: SRD-totodile-HomeSprite.png
 Learnset: '[[SRD-Totodile-Learnset]]'
 Legendary: 'No'
 Name: Totodile
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-totodile.png|right]]
+![[SRD-totodile-BookSprite.png|right wsmall]]
 
 *Big Jaw Pokemon*
 *Despite its small body, Totodile's jaws are very powerful. While it may think it is just playfully nipping, its bite has enough strength to cause a serious injury. It needs proper discipline to control its biting urges*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-totodile.png|right]]
+![[SRD-totodile-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-totodile-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

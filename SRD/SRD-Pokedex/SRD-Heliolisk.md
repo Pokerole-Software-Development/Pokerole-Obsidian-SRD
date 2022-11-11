@@ -2,9 +2,8 @@
 Ability1: Dry Skin
 Ability2: Sand Veil
 Baby: 'No'
-BookImageName: HOME695.png
-BookShinyImageName: HOME695_s.png
-BoxSprite: SRD-BoxSprite-heliolisk.png
+BookSprite: SRD-heliolisk-BookSprite.png
+BoxSprite: SRD-heliolisk-BoxSprite.png
 DexCategory: Generator Pokemon
 DexDescription: They flare their frills and generate energy. A single Heliolisk is
   able to generate enough power to light a skyscraper. Due to this, electricity companies
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Solar Power
-HomeSprite: SRD-HomeSprite-heliolisk.png
+HomeSprite: SRD-heliolisk-HomeSprite.png
 Learnset: '[[SRD-Heliolisk-Learnset]]'
 Legendary: 'No'
 Name: Heliolisk
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-heliolisk.png|right]]
+![[SRD-heliolisk-BookSprite.png|right wsmall]]
 
 *Generator Pokemon*
 *They flare their frills and generate energy. A single Heliolisk is able to generate enough power to light a skyscraper. Due to this, electricity companies are investing on breeding and research for this species.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Dry Skin|Dry Skin]] / [[SRD-Sand Veil|Sand Veil]] ([[SRD-Solar Power|Solar Power]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-heliolisk.png|right]]
+![[SRD-heliolisk-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-heliolisk-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Surge Surfer
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME026A.png
-BookShinyImageName: HOME026A_s.png
-BoxSprite: SRD-BoxSprite-raichu-alola.png
+BookSprite: SRD-raichu-alola-BookSprite.png
+BoxSprite: SRD-raichu-alola-BoxSprite.png
 DexCategory: Mouse Pokemon
 DexDescription: Scientists were baffled to discover Raichu's evolution in the Alola
   Region. There is no explanation as to how it gained Psychic abilities, but diet
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-raichu-alola.png
+HomeSprite: SRD-raichu-alola-HomeSprite.png
 Learnset: '[[SRD-Alolan Raichu-Learnset]]'
 Legendary: 'No'
 Name: Alolan Raichu
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-raichu-alola.png|right]]
+![[SRD-raichu-alola-BookSprite.png|right wsmall]]
 
 *Mouse Pokemon*
 *Scientists were baffled to discover Raichu's evolution in the Alola Region. There is no explanation as to how it gained Psychic abilities, but diet seems to be factor. It loves sweet food and pancakes.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Surge Surfer|Surge Surfer]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-raichu-alola.png|right]]
+![[SRD-raichu-alola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-raichu-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

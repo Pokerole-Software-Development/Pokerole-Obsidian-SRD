@@ -2,9 +2,8 @@
 Ability1: Magic Bounce
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME302M.png
-BookShinyImageName: HOME302M_s.png
-BoxSprite: SRD-BoxSprite-sableye-mega.png
+BookSprite: SRD-sableye-mega-BookSprite.png
+BoxSprite: SRD-sableye-mega-BoxSprite.png
 DexCategory: Darkness Pokemon
 DexDescription: The power of the Mega Stone made the jewel on its chest grow, it now
   uses it as a shield to repel any attack, but its movement is limited due to how
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-sableye-mega.png
+HomeSprite: SRD-sableye-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Sableye-Learnset]]'
 Legendary: 'No'
 Name: Mega-Sableye
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sableye-mega.png|right]]
+![[SRD-sableye-mega-BookSprite.png|right wsmall]]
 
 *Darkness Pokemon*
 *The power of the Mega Stone made the jewel on its chest grow, it now uses it as a shield to repel any attack, but its movement is limited due to how heavy it is. Its greed for the jewel can make it aggressive.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Magic Bounce|Magic Bounce]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-sableye-mega.png|right]]
+![[SRD-sableye-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-sableye-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

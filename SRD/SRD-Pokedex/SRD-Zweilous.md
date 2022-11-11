@@ -2,9 +2,8 @@
 Ability1: Hustle
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME634.png
-BookShinyImageName: HOME634_s.png
-BoxSprite: SRD-BoxSprite-zweilous.png
+BookSprite: SRD-zweilous-BookSprite.png
+BoxSprite: SRD-zweilous-BoxSprite.png
 DexCategory: Hostile Pokemon
 DexDescription: The two heads do not get along with each other as they compete for
   food. For this reason , Zweilous usually eats more than it should. Touching it carelessly
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-zweilous.png
+HomeSprite: SRD-zweilous-HomeSprite.png
 Learnset: '[[SRD-Zweilous-Learnset]]'
 Legendary: 'No'
 Name: Zweilous
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zweilous.png|right]]
+![[SRD-zweilous-BookSprite.png|right wsmall]]
 
 *Hostile Pokemon*
 *The two heads do not get along with each other as they compete for food. For this reason , Zweilous usually eats more than it should. Touching it carelessly can get you attacked by one or both heads.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hustle|Hustle]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-zweilous.png|right]]
+![[SRD-zweilous-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-zweilous-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

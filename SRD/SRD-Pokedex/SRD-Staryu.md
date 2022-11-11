@@ -2,9 +2,8 @@
 Ability1: Illuminate
 Ability2: Natural Cure
 Baby: 'No'
-BookImageName: HOME120.png
-BookShinyImageName: HOME120_s.png
-BoxSprite: SRD-BoxSprite-staryu.png
+BookSprite: SRD-staryu-BookSprite.png
+BoxSprite: SRD-staryu-BoxSprite.png
 DexCategory: Starshape Pokemon
 DexDescription: They come out to the shore in great numbers when the sky is full with
   stars. The core at its center glows to communicate with others. If a part of its
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Analytic
-HomeSprite: SRD-HomeSprite-staryu.png
+HomeSprite: SRD-staryu-HomeSprite.png
 Learnset: '[[SRD-Staryu-Learnset]]'
 Legendary: 'No'
 Name: Staryu
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-staryu.png|right]]
+![[SRD-staryu-BookSprite.png|right wsmall]]
 
 *Starshape Pokemon*
 *They come out to the shore in great numbers when the sky is full with stars. The core at its center glows to communicate with others. If a part of its body is injured it can regrow it in a few days.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Illuminate|Illuminate]] / [[SRD-Natural Cure|Natural Cure]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-staryu.png|right]]
+![[SRD-staryu-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-staryu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

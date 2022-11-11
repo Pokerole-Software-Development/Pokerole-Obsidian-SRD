@@ -2,9 +2,8 @@
 Ability1: Sand Force
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME645T.png
-BookShinyImageName: HOME645T_s.png
-BoxSprite: SRD-BoxSprite-landorus.png
+BookSprite: SRD-landorus-BookSprite.png
+BoxSprite: SRD-landorus-BoxSprite.png
 DexCategory: No Data
 DexDescription: Some Pokemon reveal their true forms after recovering power lost to
   them. Great forces of nature can help them recover their strength such as Tornadoes,
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-landorus.png
+HomeSprite: SRD-landorus-HomeSprite.png
 Learnset: '[[SRD-Form Landorus-Learnset]]'
 Legendary: 'Yes'
 Name: Form Landorus
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-landorus.png|right]]
+![[SRD-landorus-BookSprite.png|right wsmall]]
 
 *No Data*
 *Some Pokemon reveal their true forms after recovering power lost to them. Great forces of nature can help them recover their strength such as Tornadoes, Lightning, and even a Landslide.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Force|Sand Force]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-landorus.png|right]]
+![[SRD-landorus-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-landorus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

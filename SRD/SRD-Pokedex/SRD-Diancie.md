@@ -2,9 +2,8 @@
 Ability1: Clear Body
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME719.png
-BookShinyImageName: HOME719_s.png
-BoxSprite: SRD-BoxSprite-diancie.png
+BookSprite: SRD-diancie-BookSprite.png
+BoxSprite: SRD-diancie-BoxSprite.png
 DexCategory: 'Registered as #703 Carbink'
 DexDescription: "The popular saying goes like this: \u201CIf you put a Carbon under\
   \ pressure you will get a Diamond\u201D But it surely was not referring to a Pokemon...\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-diancie.png
+HomeSprite: SRD-diancie-HomeSprite.png
 Learnset: '[[SRD-Diancie-Learnset]]'
 Legendary: 'Yes'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-diancie.png|right]]
+![[SRD-diancie-BookSprite.png|right wsmall]]
 
 *Registered as #703 Carbink*
 *The popular saying goes like this: “If you put a Carbon under pressure you will get a Diamond” But it surely was not referring to a Pokemon... or was it?*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Clear Body|Clear Body]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-diancie.png|right]]
+![[SRD-diancie-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::8)/(MaxVitality::8)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::8)/(MaxInsight::8)     |
+
+![[SRD-diancie-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

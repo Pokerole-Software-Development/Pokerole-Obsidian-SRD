@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME257.png
-BookShinyImageName: HOME257_s.png
-BoxSprite: SRD-BoxSprite-blaziken.png
+BookSprite: SRD-blaziken-BookSprite.png
+BoxSprite: SRD-blaziken-BoxSprite.png
 DexCategory: Blaze Pokemon
 DexDescription: "They can jump incredible heights. As they grow older, their feathers\
   \ combust as new feathers grow back. They are courageous fighters and expert martial\
@@ -17,7 +16,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Speed Boost
-HomeSprite: SRD-HomeSprite-blaziken.png
+HomeSprite: SRD-blaziken-HomeSprite.png
 Learnset: '[[SRD-Blaziken-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-blaziken.png|right]]
+![[SRD-blaziken-BookSprite.png|right wsmall]]
 
 *Blaze Pokemon*
 *They can jump incredible heights. As they grow older, their feathers combust as new feathers grow back. They are courageous fighters and expert martial artists. Their wrists light in flames when it’s about to attack.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Speed Boost|Speed Boost]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-blaziken.png|right]]
+![[SRD-blaziken-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-blaziken-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

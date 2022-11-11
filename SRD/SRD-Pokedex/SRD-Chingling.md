@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'Yes'
-BookImageName: HOME433.png
-BookShinyImageName: HOME433_s.png
-BoxSprite: SRD-BoxSprite-chingling.png
+BookSprite: SRD-chingling-BookSprite.png
+BoxSprite: SRD-chingling-BoxSprite.png
 DexCategory: Bell Pokemon
 DexDescription: It has a ball inside its mouth that makes a ringing sound when it
   hops around. To defend itself, it will emit low frequency cries that deafen its
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-chingling.png
+HomeSprite: SRD-chingling-HomeSprite.png
 Learnset: '[[SRD-Chingling-Learnset]]'
 Legendary: 'No'
 Name: Chingling
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-chingling.png|right]]
+![[SRD-chingling-BookSprite.png|right wsmall]]
 
 *Bell Pokemon*
 *It has a ball inside its mouth that makes a ringing sound when it hops around. To defend itself, it will emit low frequency cries that deafen its foes. However this sound is not audible to humans.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-chingling.png|right]]
+![[SRD-chingling-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-chingling-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

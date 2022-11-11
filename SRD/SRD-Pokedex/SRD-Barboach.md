@@ -2,9 +2,8 @@
 Ability1: Oblivious
 Ability2: Anticipation
 Baby: 'No'
-BookImageName: HOME339.png
-BookShinyImageName: HOME339_s.png
-BoxSprite: SRD-BoxSprite-barboach.png
+BookSprite: SRD-barboach-BookSprite.png
+BoxSprite: SRD-barboach-BoxSprite.png
 DexCategory: Whiskers Pokemon
 DexDescription: Their whiskers work as a super sensitive radar. They hide in the mud
   with only their whiskers exposed, waiting for prey to come. If the mud dries, they
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Hydration
-HomeSprite: SRD-HomeSprite-barboach.png
+HomeSprite: SRD-barboach-HomeSprite.png
 Learnset: '[[SRD-Barboach-Learnset]]'
 Legendary: 'No'
 Name: Barboach
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-barboach.png|right]]
+![[SRD-barboach-BookSprite.png|right wsmall]]
 
 *Whiskers Pokemon*
 *Their whiskers work as a super sensitive radar. They hide in the mud with only their whiskers exposed, waiting for prey to come. If the mud dries, they move back into the water.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Anticipation|Anticipation]] ([[SRD-Hydration|Hydration]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-barboach.png|right]]
+![[SRD-barboach-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-barboach-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

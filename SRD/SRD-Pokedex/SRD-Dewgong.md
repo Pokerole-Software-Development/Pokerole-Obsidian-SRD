@@ -2,9 +2,8 @@
 Ability1: Thick Fat
 Ability2: Hydration
 Baby: 'No'
-BookImageName: HOME087.png
-BookShinyImageName: HOME087_s.png
-BoxSprite: SRD-BoxSprite-dewgong.png
+BookSprite: SRD-dewgong-BookSprite.png
+BoxSprite: SRD-dewgong-BoxSprite.png
 DexCategory: Sea Lion Pokemon
 DexDescription: "Its body is covered with a pure white fur. The colder the weather,\
   \ the more active it becomes. It hunts at night and it\u2019s excellent at catching\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Ice Body
-HomeSprite: SRD-HomeSprite-dewgong.png
+HomeSprite: SRD-dewgong-HomeSprite.png
 Learnset: '[[SRD-Dewgong-Learnset]]'
 Legendary: 'No'
 Name: Dewgong
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dewgong.png|right]]
+![[SRD-dewgong-BookSprite.png|right wsmall]]
 
 *Sea Lion Pokemon*
 *Its body is covered with a pure white fur. The colder the weather, the more active it becomes. It hunts at night and it’s excellent at catching fish Pokemon. It is also very intelligent and playful.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Hydration|Hydration]] ([[SRD-Ice Body|Ice Body]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-dewgong.png|right]]
+![[SRD-dewgong-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-dewgong-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Rough Skin
 Ability2: Sheer Force
 Baby: 'No'
-BookImageName: HOME621.png
-BookShinyImageName: HOME621_s.png
-BoxSprite: SRD-BoxSprite-druddigon.png
+BookSprite: SRD-druddigon-BookSprite.png
+BoxSprite: SRD-druddigon-BoxSprite.png
 DexCategory: Cave Pokemon
 DexDescription: It runs through the narrow tunnels dug by Excadrill and Onix and uses
   its sharp claws to catch prey. It is cold blooded, and regularly takes sun baths
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Mold Breaker
-HomeSprite: SRD-HomeSprite-druddigon.png
+HomeSprite: SRD-druddigon-HomeSprite.png
 Learnset: '[[SRD-Druddigon-Learnset]]'
 Legendary: 'No'
 Name: Druddigon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-druddigon.png|right]]
+![[SRD-druddigon-BookSprite.png|right wsmall]]
 
 *Cave Pokemon*
 *It runs through the narrow tunnels dug by Excadrill and Onix and uses its sharp claws to catch prey. It is cold blooded, and regularly takes sun baths to keep its energy. They are aggressive and territorial.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rough Skin|Rough Skin]] / [[SRD-Sheer Force|Sheer Force]] ([[SRD-Mold Breaker|Mold Breaker]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-druddigon.png|right]]
+![[SRD-druddigon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-druddigon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

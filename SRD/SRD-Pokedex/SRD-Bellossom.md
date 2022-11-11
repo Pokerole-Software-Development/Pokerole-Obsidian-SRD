@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME182.png
-BookShinyImageName: HOME182_s.png
-BoxSprite: SRD-BoxSprite-bellossom.png
+BookSprite: SRD-bellossom-BookSprite.png
+BoxSprite: SRD-bellossom-BoxSprite.png
 DexCategory: Flower Pokemon
 DexDescription: They are plentiful in tropical areas. The beauty of the flowers on
   its head depends on how stinky it was as a Gloom. Lots of sunshine will make the
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Healer
-HomeSprite: SRD-HomeSprite-bellossom.png
+HomeSprite: SRD-bellossom-HomeSprite.png
 Learnset: '[[SRD-Bellossom-Learnset]]'
 Legendary: 'No'
 Name: Bellossom
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-bellossom.png|right]]
+![[SRD-bellossom-BookSprite.png|right wsmall]]
 
 *Flower Pokemon*
 *They are plentiful in tropical areas. The beauty of the flowers on its head depends on how stinky it was as a Gloom. Lots of sunshine will make the skirt leaves swirl in a beautiful and rhythmic dance.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Healer|Healer]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-bellossom.png|right]]
+![[SRD-bellossom-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-bellossom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

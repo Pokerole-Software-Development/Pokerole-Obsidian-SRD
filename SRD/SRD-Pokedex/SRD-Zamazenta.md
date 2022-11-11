@@ -2,9 +2,8 @@
 Ability1: Dauntless Shield
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME889.png
-BookShinyImageName: HOME889_s.png
-BoxSprite: SRD-BoxSprite-zamazenta.png
+BookSprite: SRD-zamazenta-BookSprite.png
+BoxSprite: SRD-zamazenta-BoxSprite.png
 DexCategory: No Data
 DexDescription: There is a legend of a hero who through sheer might wielded the shield
   of heroes to protect the people from the greatest evil.
@@ -16,7 +15,7 @@ Height:
   Feet: 9.5
   Meters: 2.9
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-zamazenta.png
+HomeSprite: SRD-zamazenta-HomeSprite.png
 Learnset: '[[SRD-Zamazenta-Learnset]]'
 Legendary: 'Yes'
 Name: Zamazenta
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zamazenta.png|right]]
+![[SRD-zamazenta-BookSprite.png|right wsmall]]
 
 *No Data*
 *There is a legend of a hero who through sheer might wielded the shield of heroes to protect the people from the greatest evil.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Dauntless Shield|Dauntless Shield]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-zamazenta.png|right]]
+![[SRD-zamazenta-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-zamazenta-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

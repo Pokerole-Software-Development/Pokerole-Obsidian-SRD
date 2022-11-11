@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME146.png
-BookShinyImageName: HOME146_s.png
-BoxSprite: SRD-BoxSprite-moltres.png
+BookSprite: SRD-moltres-BookSprite.png
+BoxSprite: SRD-moltres-BoxSprite.png
 DexCategory: No Data
 DexDescription: "The legend speaks of a bird who came flying from the south. Its fiery\
   \ body melted the snow and brought the spring along. A children\u2018s book depicts\
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Flame Body
-HomeSprite: SRD-HomeSprite-moltres.png
+HomeSprite: SRD-moltres-HomeSprite.png
 Learnset: '[[SRD-Moltres-Learnset]]'
 Legendary: 'Yes'
 Name: Moltres
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-moltres.png|right]]
+![[SRD-moltres-BookSprite.png|right wsmall]]
 
 *No Data*
 *The legend speaks of a bird who came flying from the south. Its fiery body melted the snow and brought the spring along. A children‘s book depicts a similar Pokemon living inside of a volcano.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Flame Body|Flame Body]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-moltres.png|right]]
+![[SRD-moltres-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-moltres-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

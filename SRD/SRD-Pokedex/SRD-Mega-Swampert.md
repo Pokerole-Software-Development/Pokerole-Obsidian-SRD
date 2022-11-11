@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME260M.png
-BookShinyImageName: HOME260M_s.png
-BoxSprite: SRD-BoxSprite-swampert-mega.png
+BookSprite: SRD-swampert-mega-BookSprite.png
+BoxSprite: SRD-swampert-mega-BoxSprite.png
 DexCategory: Mud Fish Pokemon
 DexDescription: The power of the Mega Stone increases its muscle strength, it would
   appear to be slower but its skin is so slippy it allows it to quickly slide over
@@ -17,7 +16,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-swampert-mega.png
+HomeSprite: SRD-swampert-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Swampert-Learnset]]'
 Legendary: 'No'
 Name: Mega-Swampert
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-swampert-mega.png|right]]
+![[SRD-swampert-mega-BookSprite.png|right wsmall]]
 
 *Mud Fish Pokemon*
 *The power of the Mega Stone increases its muscle strength, it would appear to be slower but its skin is so slippy it allows it to quickly slide over puddles and mud. It also becomes a bit bolder and moody.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]]
 **Base HP**:: 7
 
-![[SRD-BoxSprite-swampert-mega.png|right]]
+![[SRD-swampert-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-swampert-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

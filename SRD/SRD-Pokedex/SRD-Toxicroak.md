@@ -2,9 +2,8 @@
 Ability1: Anticipation
 Ability2: Dry Skin
 Baby: 'No'
-BookImageName: HOME454.png
-BookShinyImageName: HOME454_s.png
-BoxSprite: SRD-BoxSprite-toxicroak.png
+BookSprite: SRD-toxicroak-BookSprite.png
+BoxSprite: SRD-toxicroak-BoxSprite.png
 DexCategory: Toxic Mouth Pokemon
 DexDescription: The toxin made in its poison sacs is pumped into the knuckle claws
   through tubes down its arms. Its toxins are so powerful that even a scratch from
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Poison Touch
-HomeSprite: SRD-HomeSprite-toxicroak.png
+HomeSprite: SRD-toxicroak-HomeSprite.png
 Learnset: '[[SRD-Toxicroak-Learnset]]'
 Legendary: 'No'
 Name: Toxicroak
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-toxicroak.png|right]]
+![[SRD-toxicroak-BookSprite.png|right wsmall]]
 
 *Toxic Mouth Pokemon*
 *The toxin made in its poison sacs is pumped into the knuckle claws through tubes down its arms. Its toxins are so powerful that even a scratch from its knuckles could be fatal in a few hours.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Anticipation|Anticipation]] / [[SRD-Dry Skin|Dry Skin]] ([[SRD-Poison Touch|Poison Touch]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-toxicroak.png|right]]
+![[SRD-toxicroak-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-toxicroak-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

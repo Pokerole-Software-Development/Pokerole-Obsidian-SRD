@@ -2,9 +2,8 @@
 Ability1: Gluttony
 Ability2: Hustle
 Baby: 'No'
-BookImageName: HOME019A.png
-BookShinyImageName: HOME019A_s.png
-BoxSprite: SRD-BoxSprite-rattata-alola.png
+BookSprite: SRD-rattata-alola-BookSprite.png
+BoxSprite: SRD-rattata-alola-BoxSprite.png
 DexCategory: Mouse Pokemon
 DexDescription: "Rattata first came to Alola through cargo ships, it thrived and almost\
   \ destroyed the region\u2019s ecosystem. Attempts to exterminate this Pokemon made\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Thick Fat
-HomeSprite: SRD-HomeSprite-rattata-alola.png
+HomeSprite: SRD-rattata-alola-HomeSprite.png
 Learnset: '[[SRD-Alolan Rattata-Learnset]]'
 Legendary: 'No'
 Name: Alolan Rattata
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rattata-alola.png|right]]
+![[SRD-rattata-alola-BookSprite.png|right wsmall]]
 
 *Mouse Pokemon*
 *Rattata first came to Alola through cargo ships, it thrived and almost destroyed the region’s ecosystem. Attempts to exterminate this Pokemon made it more vicious than its regular counterpart.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Gluttony|Gluttony]] / [[SRD-Hustle|Hustle]] ([[SRD-Thick Fat|Thick Fat]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-rattata-alola.png|right]]
+![[SRD-rattata-alola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-rattata-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

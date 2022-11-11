@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: Technician
 Baby: 'No'
-BookImageName: HOME123.png
-BookShinyImageName: HOME123_s.png
-BoxSprite: SRD-BoxSprite-scyther.png
+BookSprite: SRD-scyther-BookSprite.png
+BoxSprite: SRD-scyther-BoxSprite.png
 DexCategory: Mantis Pokemon
 DexDescription: "It\u2019s pretty rare but a few swarms have been seen in the grasslands.\
   \ It tears and shreds prey with its wickedly sharp scythes and very rarely spreads\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Steadfast
-HomeSprite: SRD-HomeSprite-scyther.png
+HomeSprite: SRD-scyther-HomeSprite.png
 Learnset: '[[SRD-Scyther-Learnset]]'
 Legendary: 'No'
 Name: Scyther
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-scyther.png|right]]
+![[SRD-scyther-BookSprite.png|right wsmall]]
 
 *Mantis Pokemon*
 *It’s pretty rare but a few swarms have been seen in the grasslands. It tears and shreds prey with its wickedly sharp scythes and very rarely spreads its wings to fly. This pokemon is stealthy and aggressive.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Technician|Technician]] ([[SRD-Steadfast|Steadfast]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-scyther.png|right]]
+![[SRD-scyther-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-scyther-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

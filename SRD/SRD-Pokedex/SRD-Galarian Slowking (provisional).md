@@ -2,9 +2,8 @@
 Ability1: Curious Medicine
 Ability2: Own Tempo
 Baby: 'No'
-BookImageName: HOME199G.png
-BookShinyImageName: HOME199G_s.png
-BoxSprite: SRD-BoxSprite-slowking-galar.png
+BookSprite: SRD-slowking-galar-BookSprite.png
+BoxSprite: SRD-slowking-galar-BoxSprite.png
 DexCategory: ''
 DexDescription: ''
 EventAbilities: ''
@@ -15,7 +14,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-slowking-galar.png
+HomeSprite: SRD-slowking-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Slowking (provisional)-Learnset]]'
 Legendary: 'No'
 Name: Galarian Slowking (provisional)
@@ -35,7 +34,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-slowking-galar.png|right]]
+![[SRD-slowking-galar-BookSprite.png|right wsmall]]
 
 **
 **
@@ -46,7 +45,7 @@ Weight:
 **Abilities**:: [[SRD-Curious Medicine|Curious Medicine]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-slowking-galar.png|right]]
+![[SRD-slowking-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -55,6 +54,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-slowking-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

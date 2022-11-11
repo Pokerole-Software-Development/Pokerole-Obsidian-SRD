@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: Neutralizing Gas
 Baby: 'No'
-BookImageName: HOME110G.png
-BookShinyImageName: HOME110G_s.png
-BoxSprite: SRD-BoxSprite-weezing-galar.png
+BookSprite: SRD-weezing-galar-BookSprite.png
+BoxSprite: SRD-weezing-galar-BoxSprite.png
 DexCategory: Poison Gas Pokemon
 DexDescription: This Pokemon eats the contamination in the air, and instead of droppings,
   it expels clean air. Its Galar Form was first spotted long ago when factories polluted
@@ -17,7 +16,7 @@ Height:
   Feet: 9.8
   Meters: 3.0
 HiddenAbility: Misty Surge
-HomeSprite: SRD-HomeSprite-weezing-galar.png
+HomeSprite: SRD-weezing-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Weezing-Learnset]]'
 Legendary: 'No'
 Name: Galarian Weezing
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-weezing-galar.png|right]]
+![[SRD-weezing-galar-BookSprite.png|right wsmall]]
 
 *Poison Gas Pokemon*
 *This Pokemon eats the contamination in the air, and instead of droppings, it expels clean air. Its Galar Form was first spotted long ago when factories polluted the City.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]] / [[SRD-Neutralizing Gas|Neutralizing Gas]] ([[SRD-Misty Surge|Misty Surge]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-weezing-galar.png|right]]
+![[SRD-weezing-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-weezing-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

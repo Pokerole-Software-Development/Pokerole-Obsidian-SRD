@@ -2,9 +2,8 @@
 Ability1: Poison Point
 Ability2: Rivalry
 Baby: 'No'
-BookImageName: HOME031.png
-BookShinyImageName: HOME031_s.png
-BoxSprite: SRD-BoxSprite-nidoqueen.png
+BookSprite: SRD-nidoqueen-BookSprite.png
+BoxSprite: SRD-nidoqueen-BoxSprite.png
 DexCategory: Drill Pokemon
 DexDescription: Motherly by nature, it uses its scaly rugged body to seal the entrance
   of its nest and protect its young from predators. There are records of angry Nidoqueens
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Sheer Force
-HomeSprite: SRD-HomeSprite-nidoqueen.png
+HomeSprite: SRD-nidoqueen-HomeSprite.png
 Learnset: '[[SRD-Nidoqueen-Learnset]]'
 Legendary: 'No'
 Name: Nidoqueen
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-nidoqueen.png|right]]
+![[SRD-nidoqueen-BookSprite.png|right wsmall]]
 
 *Drill Pokemon*
 *Motherly by nature, it uses its scaly rugged body to seal the entrance of its nest and protect its young from predators. There are records of angry Nidoqueens sending people flying with a single tackle.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Rivalry|Rivalry]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-nidoqueen.png|right]]
+![[SRD-nidoqueen-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-nidoqueen-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

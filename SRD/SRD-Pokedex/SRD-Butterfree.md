@@ -2,9 +2,8 @@
 Ability1: Compound Eyes
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME012.png
-BookShinyImageName: HOME012_s.png
-BoxSprite: SRD-BoxSprite-butterfree.png
+BookSprite: SRD-butterfree-BookSprite.png
+BoxSprite: SRD-butterfree-BoxSprite.png
 DexCategory: Butterfly Pokemon
 DexDescription: "It can be found in forests and plains. It loves the honey in some\
   \ flowers even with tiny amounts of pollen. Its wings are covered by dust that allows\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Tinted Lens
-HomeSprite: SRD-HomeSprite-butterfree.png
+HomeSprite: SRD-butterfree-HomeSprite.png
 Learnset: '[[SRD-Butterfree-Learnset]]'
 Legendary: 'No'
 Name: Butterfree
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-butterfree.png|right]]
+![[SRD-butterfree-BookSprite.png|right wsmall]]
 
 *Butterfly Pokemon*
 *It can be found in forests and plains. It loves the honey in some flowers even with tiny amounts of pollen. Its wings are covered by dust that allows it to fly even when it’s raining.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Compound Eyes|Compound Eyes]] ([[SRD-Tinted Lens|Tinted Lens]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-butterfree.png|right]]
+![[SRD-butterfree-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-butterfree-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

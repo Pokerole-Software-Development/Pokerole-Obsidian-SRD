@@ -2,9 +2,8 @@
 Ability1: Own Tempo
 Ability2: Oblivious
 Baby: 'No'
-BookImageName: HOME108.png
-BookShinyImageName: HOME108_s.png
-BoxSprite: SRD-BoxSprite-lickitung.png
+BookSprite: SRD-lickitung-BookSprite.png
+BoxSprite: SRD-lickitung-BoxSprite.png
 DexCategory: Licking Pokemon
 DexDescription: "Its tongue is twice as long as its body and it is used for everything,\
   \ from capturing prey to feeling it\u2019s surroundings and cleaning itself. It\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Cloud Nine
-HomeSprite: SRD-HomeSprite-lickitung.png
+HomeSprite: SRD-lickitung-HomeSprite.png
 Learnset: '[[SRD-Lickitung-Learnset]]'
 Legendary: 'No'
 Name: Lickitung
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lickitung.png|right]]
+![[SRD-lickitung-BookSprite.png|right wsmall]]
 
 *Licking Pokemon*
 *Its tongue is twice as long as its body and it is used for everything, from capturing prey to feeling it’s surroundings and cleaning itself. It really dislikes sour and bitter flavors.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Own Tempo|Own Tempo]] / [[SRD-Oblivious|Oblivious]] ([[SRD-Cloud Nine|Cloud Nine]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-lickitung.png|right]]
+![[SRD-lickitung-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-lickitung-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

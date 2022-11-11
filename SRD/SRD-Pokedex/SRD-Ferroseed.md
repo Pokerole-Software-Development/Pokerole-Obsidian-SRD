@@ -2,9 +2,8 @@
 Ability1: Iron Barbs
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME597.png
-BookShinyImageName: HOME597_s.png
-BoxSprite: SRD-BoxSprite-ferroseed.png
+BookSprite: SRD-ferroseed-BookSprite.png
+BoxSprite: SRD-ferroseed-BoxSprite.png
 DexCategory: Thorn Seed Pokemon
 DexDescription: They stick their thorns into cave walls and absorb the minerals from
   the rocks. When threatened, they attack by shooting a barrage of spikes, which gives
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-ferroseed.png
+HomeSprite: SRD-ferroseed-HomeSprite.png
 Learnset: '[[SRD-Ferroseed-Learnset]]'
 Legendary: 'No'
 Name: Ferroseed
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ferroseed.png|right]]
+![[SRD-ferroseed-BookSprite.png|right wsmall]]
 
 *Thorn Seed Pokemon*
 *They stick their thorns into cave walls and absorb the minerals from the rocks. When threatened, they attack by shooting a barrage of spikes, which gives them a chance to escape by rolling away.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Iron Barbs|Iron Barbs]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-ferroseed.png|right]]
+![[SRD-ferroseed-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-ferroseed-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

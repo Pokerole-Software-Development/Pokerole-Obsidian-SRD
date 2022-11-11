@@ -2,9 +2,8 @@
 Ability1: Limber
 Ability2: Unburden
 Baby: 'No'
-BookImageName: HOME701.png
-BookShinyImageName: HOME701_s.png
-BoxSprite: SRD-BoxSprite-hawlucha.png
+BookSprite: SRD-hawlucha-BookSprite.png
+BoxSprite: SRD-hawlucha-BoxSprite.png
 DexCategory: Wrestling Pokemon
 DexDescription: Although small in size, its proficient fighting skills enable it to
   keep up with big bruisers like Machamp and Hariyama. Using its wings to attack from
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Mold Breaker
-HomeSprite: SRD-HomeSprite-hawlucha.png
+HomeSprite: SRD-hawlucha-HomeSprite.png
 Learnset: '[[SRD-Hawlucha-Learnset]]'
 Legendary: 'No'
 Name: Hawlucha
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-hawlucha.png|right]]
+![[SRD-hawlucha-BookSprite.png|right wsmall]]
 
 *Wrestling Pokemon*
 *Although small in size, its proficient fighting skills enable it to keep up with big bruisers like Machamp and Hariyama. Using its wings to attack from above allows it to gain an edge in battle.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Limber|Limber]] / [[SRD-Unburden|Unburden]] ([[SRD-Mold Breaker|Mold Breaker]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-hawlucha.png|right]]
+![[SRD-hawlucha-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-hawlucha-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

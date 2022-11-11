@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME380M.png
-BookShinyImageName: HOME380M_s.png
-BoxSprite: SRD-BoxSprite-latias-mega.png
+BookSprite: SRD-latias-mega-BookSprite.png
+BoxSprite: SRD-latias-mega-BoxSprite.png
 DexCategory: No Data
 DexDescription: Latias is very in sync with human emotions, it can communicate using
   telepathy. With the power of the Mega Stone all of its capabilities are enhanced
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-latias-mega.png
+HomeSprite: SRD-latias-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Latias-Learnset]]'
 Legendary: 'Yes'
 Name: Mega-Latias
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-latias-mega.png|right]]
+![[SRD-latias-mega-BookSprite.png|right wsmall]]
 
 *No Data*
 *Latias is very in sync with human emotions, it can communicate using telepathy. With the power of the Mega Stone all of its capabilities are enhanced although its personality becomes more distant than usual.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-latias-mega.png|right]]
+![[SRD-latias-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::7)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::8)/(MaxInsight::8)     |
+
+![[SRD-latias-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

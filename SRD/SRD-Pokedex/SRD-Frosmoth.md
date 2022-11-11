@@ -2,9 +2,8 @@
 Ability1: Shield Dust
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME873.png
-BookShinyImageName: HOME873_s.png
-BoxSprite: SRD-BoxSprite-frosmoth.png
+BookSprite: SRD-frosmoth-BookSprite.png
+BoxSprite: SRD-frosmoth-BoxSprite.png
 DexCategory: Frost Moth Pokemon
 DexDescription: It shows no mercy to any who desecrates its snowfields and mountains.
   It will fly around on its icy wings, causing a blizzard to chase offenders away.
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Ice Scales
-HomeSprite: SRD-HomeSprite-frosmoth.png
+HomeSprite: SRD-frosmoth-HomeSprite.png
 Learnset: '[[SRD-Frosmoth-Learnset]]'
 Legendary: 'No'
 Name: Frosmoth
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-frosmoth.png|right]]
+![[SRD-frosmoth-BookSprite.png|right wsmall]]
 
 *Frost Moth Pokemon*
 *It shows no mercy to any who desecrates its snowfields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away. It is very regal and soft-mannered otherwise*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shield Dust|Shield Dust]] ([[SRD-Ice Scales|Ice Scales]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-frosmoth.png|right]]
+![[SRD-frosmoth-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-frosmoth-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

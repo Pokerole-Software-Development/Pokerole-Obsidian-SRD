@@ -2,9 +2,8 @@
 Ability1: Clear Body
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME377.png
-BookShinyImageName: HOME377_s.png
-BoxSprite: SRD-BoxSprite-regirock.png
+BookSprite: SRD-regirock-BookSprite.png
+BoxSprite: SRD-regirock-BoxSprite.png
 DexCategory: No Data
 DexDescription: It is said to be an immortal being the size of the peak of a mountain.
   Could he be a remnant from the most ancient times of this world?
@@ -16,7 +15,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Sturdy
-HomeSprite: SRD-HomeSprite-regirock.png
+HomeSprite: SRD-regirock-HomeSprite.png
 Learnset: '[[SRD-Regirock-Learnset]]'
 Legendary: 'Yes'
 Name: Regirock
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-regirock.png|right]]
+![[SRD-regirock-BookSprite.png|right wsmall]]
 
 *No Data*
 *It is said to be an immortal being the size of the peak of a mountain. Could he be a remnant from the most ancient times of this world?*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Clear Body|Clear Body]] ([[SRD-Sturdy|Sturdy]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-regirock.png|right]]
+![[SRD-regirock-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::10)/(MaxVitality::10)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-regirock-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

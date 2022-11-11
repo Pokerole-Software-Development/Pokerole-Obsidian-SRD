@@ -2,9 +2,8 @@
 Ability1: Sand Veil
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME332.png
-BookShinyImageName: HOME332_s.png
-BoxSprite: SRD-BoxSprite-cacturne.png
+BookSprite: SRD-cacturne-BookSprite.png
+BoxSprite: SRD-cacturne-BoxSprite.png
 DexCategory: Scarecrow Pokemon
 DexDescription: They only move during the night. If they spot a traveler, Cacturnes
   will stalk them in groups, waiting for the exhausted creatures to sleep before attacking.
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Water Absorb
-HomeSprite: SRD-HomeSprite-cacturne.png
+HomeSprite: SRD-cacturne-HomeSprite.png
 Learnset: '[[SRD-Cacturne-Learnset]]'
 Legendary: 'No'
 Name: Cacturne
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cacturne.png|right]]
+![[SRD-cacturne-BookSprite.png|right wsmall]]
 
 *Scarecrow Pokemon*
 *They only move during the night. If they spot a traveler, Cacturnes will stalk them in groups, waiting for the exhausted creatures to sleep before attacking. Their insides are actually sand.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] ([[SRD-Water Absorb|Water Absorb]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-cacturne.png|right]]
+![[SRD-cacturne-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-cacturne-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

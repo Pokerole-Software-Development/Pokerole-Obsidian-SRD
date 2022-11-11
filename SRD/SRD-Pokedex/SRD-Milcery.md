@@ -2,9 +2,8 @@
 Ability1: Sweet Veil
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME868.png
-BookShinyImageName: HOME868_s.png
-BoxSprite: SRD-BoxSprite-milcery.png
+BookSprite: SRD-milcery-BookSprite.png
+BoxSprite: SRD-milcery-BoxSprite.png
 DexCategory: Cream Pokemon
 DexDescription: This Pokemon was born from sweet-smelling particles in the air, its
   body is made of cream, Finding one in your kitchen means Good Fortune. Give them
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Aroma Veil
-HomeSprite: SRD-HomeSprite-milcery.png
+HomeSprite: SRD-milcery-HomeSprite.png
 Learnset: '[[SRD-Milcery-Learnset]]'
 Legendary: 'No'
 Name: Milcery
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-milcery.png|right]]
+![[SRD-milcery-BookSprite.png|right wsmall]]
 
 *Cream Pokemon*
 *This Pokemon was born from sweet-smelling particles in the air, its body is made of cream, Finding one in your kitchen means Good Fortune. Give them berries and whip them with a whisk so they can evolve.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sweet Veil|Sweet Veil]] ([[SRD-Aroma Veil|Aroma Veil]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-milcery.png|right]]
+![[SRD-milcery-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-milcery-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

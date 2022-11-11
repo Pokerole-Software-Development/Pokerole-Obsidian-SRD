@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME416.png
-BookShinyImageName: HOME416_s.png
-BoxSprite: SRD-BoxSprite-vespiquen.png
+BookSprite: SRD-vespiquen-BookSprite.png
+BoxSprite: SRD-vespiquen-BoxSprite.png
 DexCategory: Beehive Pokemon
 DexDescription: "This Pokemon is female only. It raises grubs in the holes in its\
   \ body and secretes pheromones to control Combee to fight and gather honey for her.\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Unnerve
-HomeSprite: SRD-HomeSprite-vespiquen.png
+HomeSprite: SRD-vespiquen-HomeSprite.png
 Learnset: '[[SRD-Vespiquen-Learnset]]'
 Legendary: 'No'
 Name: Vespiquen
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-vespiquen.png|right]]
+![[SRD-vespiquen-BookSprite.png|right wsmall]]
 
 *Beehive Pokemon*
 *This Pokemon is female only. It raises grubs in the holes in its body and secretes pheromones to control Combee to fight and gather honey for her. It is a royal Pokemon that won’t take orders from anyone.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-vespiquen.png|right]]
+![[SRD-vespiquen-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-vespiquen-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

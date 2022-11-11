@@ -2,9 +2,8 @@
 Ability1: Sand Force
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME208M.png
-BookShinyImageName: HOME208M_s.png
-BoxSprite: SRD-BoxSprite-steelix-mega.png
+BookSprite: SRD-steelix-mega-BookSprite.png
+BoxSprite: SRD-steelix-mega-BoxSprite.png
 DexCategory: Iron Snake Pokemon
 DexDescription: "With the power of the Mega Stone its body goes through so much pressure\
   \ that part of it becomes diamond crystals. Its defense is almost unbreakable but\
@@ -17,7 +16,7 @@ Height:
   Feet: 34.4
   Meters: 10.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-steelix-mega.png
+HomeSprite: SRD-steelix-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Steelix-Learnset]]'
 Legendary: 'No'
 Name: Mega-Steelix
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-steelix-mega.png|right]]
+![[SRD-steelix-mega-BookSprite.png|right wsmall]]
 
 *Iron Snake Pokemon*
 *With the power of the Mega Stone its body goes through so much pressure that part of it becomes diamond crystals. Its defense is almost unbreakable but its temper is short and it’s easily angered.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Force|Sand Force]]
 **Base HP**:: 10
 
-![[SRD-BoxSprite-steelix-mega.png|right]]
+![[SRD-steelix-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::11)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-steelix-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

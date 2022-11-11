@@ -2,9 +2,8 @@
 Ability1: Effect Spore
 Ability2: Dry Skin
 Baby: 'No'
-BookImageName: HOME047.png
-BookShinyImageName: HOME047_s.png
-BoxSprite: SRD-BoxSprite-parasect.png
+BookSprite: SRD-parasect-BookSprite.png
+BoxSprite: SRD-parasect-BoxSprite.png
 DexCategory: Mushroom Pokemon
 DexDescription: Their personality changes after evolution since the mushroom takes
   over its mind. Its body is now a husk devoid of nutrients. To survive they cling
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Damp
-HomeSprite: SRD-HomeSprite-parasect.png
+HomeSprite: SRD-parasect-HomeSprite.png
 Learnset: '[[SRD-Parasect-Learnset]]'
 Legendary: 'No'
 Name: Parasect
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-parasect.png|right]]
+![[SRD-parasect-BookSprite.png|right wsmall]]
 
 *Mushroom Pokemon*
 *Their personality changes after evolution since the mushroom takes over its mind. Its body is now a husk devoid of nutrients. To survive they cling to a tree and absorb the nutrients until the tree dies.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Effect Spore|Effect Spore]] / [[SRD-Dry Skin|Dry Skin]] ([[SRD-Damp|Damp]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-parasect.png|right]]
+![[SRD-parasect-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-parasect-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

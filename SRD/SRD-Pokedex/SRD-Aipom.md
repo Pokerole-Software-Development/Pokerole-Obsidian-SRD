@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Pickup
 Baby: 'No'
-BookImageName: HOME190.png
-BookShinyImageName: HOME190_s.png
-BoxSprite: SRD-BoxSprite-aipom.png
+BookSprite: SRD-aipom-BookSprite.png
+BoxSprite: SRD-aipom-BoxSprite.png
 DexCategory: Long Tail Pokemon
 DexDescription: It lives at the top of tall trees in forests and jungles. It uses
   its tail tip as a third hand. However, because the Pokemon uses its tail so much,
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Skill Link
-HomeSprite: SRD-HomeSprite-aipom.png
+HomeSprite: SRD-aipom-HomeSprite.png
 Learnset: '[[SRD-Aipom-Learnset]]'
 Legendary: 'No'
 Name: Aipom
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-aipom.png|right]]
+![[SRD-aipom-BookSprite.png|right wsmall]]
 
 *Long Tail Pokemon*
 *It lives at the top of tall trees in forests and jungles. It uses its tail tip as a third hand. However, because the Pokemon uses its tail so much, its real hands become rather clumsy. It is very playful.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Pickup|Pickup]] ([[SRD-Skill Link|Skill Link]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-aipom.png|right]]
+![[SRD-aipom-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-aipom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Overcoat
 Ability2: Magic Guard
 Baby: 'No'
-BookImageName: HOME579.png
-BookShinyImageName: HOME579_s.png
-BoxSprite: SRD-BoxSprite-reuniclus.png
+BookSprite: SRD-reuniclus-BookSprite.png
+BoxSprite: SRD-reuniclus-BoxSprite.png
 DexCategory: Multiplying Pokemon
 DexDescription: These intelligent Pokemon fight by controlling their arms with psychic
   energy. They have been seen forming networks of many Reuniclus holding hands and
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-reuniclus.png
+HomeSprite: SRD-reuniclus-HomeSprite.png
 Learnset: '[[SRD-Reuniclus-Learnset]]'
 Legendary: 'No'
 Name: Reuniclus
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-reuniclus.png|right]]
+![[SRD-reuniclus-BookSprite.png|right wsmall]]
 
 *Multiplying Pokemon*
 *These intelligent Pokemon fight by controlling their arms with psychic energy. They have been seen forming networks of many Reuniclus holding hands and unleashing an incredible psychic wave.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overcoat|Overcoat]] / [[SRD-Magic Guard|Magic Guard]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 6
 
-![[SRD-BoxSprite-reuniclus.png|right]]
+![[SRD-reuniclus-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-reuniclus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

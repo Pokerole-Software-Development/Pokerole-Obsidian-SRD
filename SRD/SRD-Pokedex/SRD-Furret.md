@@ -2,9 +2,8 @@
 Ability1: Run Away
 Ability2: Keen Eye
 Baby: 'No'
-BookImageName: HOME162.png
-BookShinyImageName: HOME162_s.png
-BoxSprite: SRD-BoxSprite-furret.png
+BookSprite: SRD-furret-BookSprite.png
+BoxSprite: SRD-furret-BoxSprite.png
 DexCategory: Long Body Pokemon
 DexDescription: It lives along its Sentret family and acts as the hunter and caregiver
   of the pack. It can move really fast. If it is cornered, it will squirm through
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Frisk
-HomeSprite: SRD-HomeSprite-furret.png
+HomeSprite: SRD-furret-HomeSprite.png
 Learnset: '[[SRD-Furret-Learnset]]'
 Legendary: 'No'
 Name: Furret
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-furret.png|right]]
+![[SRD-furret-BookSprite.png|right wsmall]]
 
 *Long Body Pokemon*
 *It lives along its Sentret family and acts as the hunter and caregiver of the pack. It can move really fast. If it is cornered, it will squirm through even the narrowest of gaps to escape safe and sound.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Keen Eye|Keen Eye]] ([[SRD-Frisk|Frisk]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-furret.png|right]]
+![[SRD-furret-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-furret-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: Heatproof
 Baby: 'No'
-BookImageName: HOME437.png
-BookShinyImageName: HOME437_s.png
-BoxSprite: SRD-BoxSprite-bronzor.png
+BookSprite: SRD-bronzor-BookSprite.png
+BoxSprite: SRD-bronzor-BoxSprite.png
 DexCategory: Bronze Bell Pokemon
 DexDescription: Ancient people revered Bronzong for bringing the rain and sun at will.
   One became a news sensation recently when it was dug up at a construction site after
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Heavy Metal
-HomeSprite: SRD-HomeSprite-bronzor.png
+HomeSprite: SRD-bronzor-HomeSprite.png
 Learnset: '[[SRD-Bronzong-Learnset]]'
 Legendary: 'No'
 Name: Bronzong
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-bronzor.png|right]]
+![[SRD-bronzor-BookSprite.png|right wsmall]]
 
 *Bronze Bell Pokemon*
 *Ancient people revered Bronzong for bringing the rain and sun at will. One became a news sensation recently when it was dug up at a construction site after a 2000-year sleep.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]] / [[SRD-Heatproof|Heatproof]] ([[SRD-Heavy Metal|Heavy Metal]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-bronzor.png|right]]
+![[SRD-bronzor-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-bronzor-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

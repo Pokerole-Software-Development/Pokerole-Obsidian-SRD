@@ -2,9 +2,8 @@
 Ability1: Fluffy
 Ability2: Klutz
 Baby: 'No'
-BookImageName: HOME759.png
-BookShinyImageName: HOME759_s.png
-BoxSprite: SRD-BoxSprite-stufful.png
+BookSprite: SRD-stufful-BookSprite.png
+BoxSprite: SRD-stufful-BoxSprite.png
 DexCategory: Flailing Pokemon
 DexDescription: Despite its adorable appearance it is a dangerous Pokemon. If anyone
   but its mother or Trainer touches it, it will respond by angrily flailing its arms
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Cute Charm
-HomeSprite: SRD-HomeSprite-stufful.png
+HomeSprite: SRD-stufful-HomeSprite.png
 Learnset: '[[SRD-Stufful-Learnset]]'
 Legendary: 'No'
 Name: Stufful
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-stufful.png|right]]
+![[SRD-stufful-BookSprite.png|right wsmall]]
 
 *Flailing Pokemon*
 *Despite its adorable appearance it is a dangerous Pokemon. If anyone but its mother or Trainer touches it, it will respond by angrily flailing its arms around. They are popular pets but owners always regret.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Fluffy|Fluffy]] / [[SRD-Klutz|Klutz]] ([[SRD-Cute Charm|Cute Charm]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-stufful.png|right]]
+![[SRD-stufful-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-stufful-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

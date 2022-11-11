@@ -2,9 +2,8 @@
 Ability1: Hustle
 Ability2: Serene Grace
 Baby: 'No'
-BookImageName: HOME176.png
-BookShinyImageName: HOME176_s.png
-BoxSprite: SRD-BoxSprite-togetic.png
+BookSprite: SRD-togetic-BookSprite.png
+BoxSprite: SRD-togetic-BoxSprite.png
 DexCategory: Happiness Pokemon
 DexDescription: Although there have been very few sightings of this Pokemon in the
   wild, it is known to appear before kind hearted people and grant them happiness.
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Super Luck
-HomeSprite: SRD-HomeSprite-togetic.png
+HomeSprite: SRD-togetic-HomeSprite.png
 Learnset: '[[SRD-Togetic-Learnset]]'
 Legendary: 'No'
 Name: Togetic
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-togetic.png|right]]
+![[SRD-togetic-BookSprite.png|right wsmall]]
 
 *Happiness Pokemon*
 *Although there have been very few sightings of this Pokemon in the wild, it is known to appear before kind hearted people and grant them happiness. It is very energetic and friendly.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hustle|Hustle]] / [[SRD-Serene Grace|Serene Grace]] ([[SRD-Super Luck|Super Luck]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-togetic.png|right]]
+![[SRD-togetic-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-togetic-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

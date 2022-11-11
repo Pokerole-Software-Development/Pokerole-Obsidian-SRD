@@ -2,9 +2,8 @@
 Ability1: Hydration
 Ability2: Shell Armor
 Baby: 'No'
-BookImageName: HOME616.png
-BookShinyImageName: HOME616_s.png
-BoxSprite: SRD-BoxSprite-shelmet.png
+BookSprite: SRD-shelmet-BookSprite.png
+BoxSprite: SRD-shelmet-BoxSprite.png
 DexCategory: Snail Pokemon
 DexDescription: When attacked, it defends itself by closing the lid of its shell or
   spits a sticky, poisonous liquid. It competes with Karrablast for food and shelter.
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Overcoat
-HomeSprite: SRD-HomeSprite-shelmet.png
+HomeSprite: SRD-shelmet-HomeSprite.png
 Learnset: '[[SRD-Shelmet-Learnset]]'
 Legendary: 'No'
 Name: Shelmet
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-shelmet.png|right]]
+![[SRD-shelmet-BookSprite.png|right wsmall]]
 
 *Snail Pokemon*
 *When attacked, it defends itself by closing the lid of its shell or spits a sticky, poisonous liquid. It competes with Karrablast for food and shelter. If it loses its shell the distress may kill it, only those who survive evolve.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hydration|Hydration]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-shelmet.png|right]]
+![[SRD-shelmet-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-shelmet-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

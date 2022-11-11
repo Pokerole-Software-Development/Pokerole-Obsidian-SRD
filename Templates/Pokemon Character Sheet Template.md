@@ -20,9 +20,11 @@ Clever: 0
 **Abilities**: `= this.Species.Abilities`
 **HP**: `= this.Species.Vitality + this.VitalityPoints + this.Species.base-hp`
 **Will**:: `= this.Species.Insight + this.InsightPoints + 2`
+**Initiative**:: `= this.Species.Dexterity+this.DexterityPoints+this.Alert`
 **Rank**: 
 **Nature**:
 **Gender**: 
+**Held Item**: 
 
 
 |           |                                                                                                                                                                            |                                                                               |        |                                                     |                     |
@@ -57,7 +59,8 @@ for (let i = 0; i < dv.current().Moves.length; i++) {
 
     if (MovePage.Accuracy1 === "Will")
     {
-        acc = SpeciesPage["Insight"] + dv.current()["InsightPoints"] + 2;
+        acc = SpeciesPage["Insight"] + dv.current()["InsightPoints"] + 2
+        + dv.current()[MovePage.Accuracy2];;
     } else
     {
         acc = (

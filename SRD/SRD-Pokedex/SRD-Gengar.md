@@ -2,9 +2,8 @@
 Ability1: Cursed Body
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME094.png
-BookShinyImageName: HOME094_s.png
-BoxSprite: SRD-BoxSprite-gengar.png
+BookSprite: SRD-gengar-BookSprite.png
+BoxSprite: SRD-gengar-BoxSprite.png
 DexCategory: Shadow Pokemon
 DexDescription: This Pokemon is mischievous but it can be downright evil. It takes
   joy in casting curses upon innocents and eating the life of people and Pokemon.
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-gengar.png
+HomeSprite: SRD-gengar-HomeSprite.png
 Learnset: '[[SRD-Gengar-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gengar.png|right]]
+![[SRD-gengar-BookSprite.png|right wsmall]]
 
 *Shadow Pokemon*
 *This Pokemon is mischievous but it can be downright evil. It takes joy in casting curses upon innocents and eating the life of people and Pokemon. It lurks in the shadows and disguises itself as one.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Cursed Body|Cursed Body]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-gengar.png|right]]
+![[SRD-gengar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-gengar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

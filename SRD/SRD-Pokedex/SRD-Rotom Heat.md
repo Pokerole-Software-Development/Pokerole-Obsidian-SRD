@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME479O.png
-BookShinyImageName: HOME479O_s.png
-BoxSprite: SRD-BoxSprite-rotom-heat.png
+BookSprite: SRD-rotom-heat-BookSprite.png
+BoxSprite: SRD-rotom-heat-BoxSprite.png
 DexCategory: Plasma Pokemon
 DexDescription: 'A Microwave possessed by a Rotom. It uses Fire powers and burns the
   food of unsuspecting people. While on this form it can use the move: Overheat.'
@@ -16,7 +15,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-rotom-heat.png
+HomeSprite: SRD-rotom-heat-HomeSprite.png
 Learnset: '[[SRD-Rotom Heat-Learnset]]'
 Legendary: 'No'
 Name: Rotom Heat
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rotom-heat.png|right]]
+![[SRD-rotom-heat-BookSprite.png|right wsmall]]
 
 *Plasma Pokemon*
 *A Microwave possessed by a Rotom. It uses Fire powers and burns the food of unsuspecting people. While on this form it can use the move: Overheat.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-rotom-heat.png|right]]
+![[SRD-rotom-heat-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-rotom-heat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

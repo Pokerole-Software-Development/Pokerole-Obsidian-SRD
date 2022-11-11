@@ -2,9 +2,8 @@
 Ability1: Volt Absorb
 Ability2: Hustle
 Baby: 'No'
-BookImageName: HOME880.png
-BookShinyImageName: HOME880_s.png
-BoxSprite: SRD-BoxSprite-dracozolt.png
+BookSprite: SRD-dracozolt-BookSprite.png
+BoxSprite: SRD-dracozolt-BoxSprite.png
 DexCategory: Fossil Pokemon
 DexDescription: A mix-up of DNA during the revival process resulted in this. Its lower
   body was an incredibly Strong Pokemon that probably preyed on the little one from
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Sand Rush
-HomeSprite: SRD-HomeSprite-dracozolt.png
+HomeSprite: SRD-dracozolt-HomeSprite.png
 Learnset: '[[SRD-Dracozolt-Learnset]]'
 Legendary: 'No'
 Name: Dracozolt
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-dracozolt.png|right]]
+![[SRD-dracozolt-BookSprite.png|right wsmall]]
 
 *Fossil Pokemon*
 *A mix-up of DNA during the revival process resulted in this. Its lower body was an incredibly Strong Pokemon that probably preyed on the little one from the upper body. Sometimes i1l t will try to run from itself.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Volt Absorb|Volt Absorb]] / [[SRD-Hustle|Hustle]] ([[SRD-Sand Rush|Sand Rush]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-dracozolt.png|right]]
+![[SRD-dracozolt-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-dracozolt-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

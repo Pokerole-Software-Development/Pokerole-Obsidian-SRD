@@ -2,9 +2,8 @@
 Ability1: Electric Surge
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME785.png
-BookShinyImageName: HOME785_s.png
-BoxSprite: SRD-BoxSprite-tapu-koko.png
+BookSprite: SRD-tapu-koko-BookSprite.png
+BoxSprite: SRD-tapu-koko-BoxSprite.png
 DexCategory: No Data
 DexDescription: People on Melemele island talk about a guardian spirit who punishes
   the evil doers with lightning strikes. If it appears in front of you who knows what
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-tapu-koko.png
+HomeSprite: SRD-tapu-koko-HomeSprite.png
 Learnset: '[[SRD-Tapu Koko-Learnset]]'
 Legendary: 'Yes'
 Name: Tapu Koko
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tapu-koko.png|right]]
+![[SRD-tapu-koko-BookSprite.png|right wsmall]]
 
 *No Data*
 *People on Melemele island talk about a guardian spirit who punishes the evil doers with lightning strikes. If it appears in front of you who knows what its intentions may be.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Electric Surge|Electric Surge]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-tapu-koko.png|right]]
+![[SRD-tapu-koko-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-tapu-koko-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

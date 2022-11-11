@@ -2,9 +2,8 @@
 Ability1: Prankster
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME354M.png
-BookShinyImageName: HOME354M_s.png
-BoxSprite: SRD-BoxSprite-banette-mega.png
+BookSprite: SRD-banette-mega-BookSprite.png
+BoxSprite: SRD-banette-mega-BoxSprite.png
 DexCategory: Marionette Pokemon
 DexDescription: "The power of the Mega Stone rips the layer keeping all the cursed\
   \ energy in. Its vindictive nature is so overwhelming that it can\u2019t help but\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-banette-mega.png
+HomeSprite: SRD-banette-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Banette-Learnset]]'
 Legendary: 'No'
 Name: Mega-Banette
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-banette-mega.png|right]]
+![[SRD-banette-mega-BookSprite.png|right wsmall]]
 
 *Marionette Pokemon*
 *The power of the Mega Stone rips the layer keeping all the cursed energy in. Its vindictive nature is so overwhelming that it can’t help but to curse its own Trainer.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Prankster|Prankster]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-banette-mega.png|right]]
+![[SRD-banette-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-banette-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

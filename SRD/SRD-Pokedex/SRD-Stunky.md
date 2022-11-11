@@ -2,9 +2,8 @@
 Ability1: Stench
 Ability2: Aftermath
 Baby: 'No'
-BookImageName: HOME434.png
-BookShinyImageName: HOME434_s.png
-BoxSprite: SRD-BoxSprite-stunky.png
+BookSprite: SRD-stunky-BookSprite.png
+BoxSprite: SRD-stunky-BoxSprite.png
 DexCategory: Skunk Pokemon
 DexDescription: Over the years they have moved closer to towns and other human settlements.
   They release a foul liquid from their rear that stinks for days to scare away predators.
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Keen Eye
-HomeSprite: SRD-HomeSprite-stunky.png
+HomeSprite: SRD-stunky-HomeSprite.png
 Learnset: '[[SRD-Stunky-Learnset]]'
 Legendary: 'No'
 Name: Stunky
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-stunky.png|right]]
+![[SRD-stunky-BookSprite.png|right wsmall]]
 
 *Skunk Pokemon*
 *Over the years they have moved closer to towns and other human settlements. They release a foul liquid from their rear that stinks for days to scare away predators. But sometimes they do it just for fun.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Stench|Stench]] / [[SRD-Aftermath|Aftermath]] ([[SRD-Keen Eye|Keen Eye]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-stunky.png|right]]
+![[SRD-stunky-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-stunky-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

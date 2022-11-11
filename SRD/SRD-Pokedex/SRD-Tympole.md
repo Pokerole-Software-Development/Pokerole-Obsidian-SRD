@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: Hydration
 Baby: 'No'
-BookImageName: HOME535.png
-BookShinyImageName: HOME535_s.png
-BoxSprite: SRD-BoxSprite-tympole.png
+BookSprite: SRD-tympole-BookSprite.png
+BoxSprite: SRD-tympole-BoxSprite.png
 DexCategory: Tadpole Pokemon
 DexDescription: They appear in great numbers on marshes and ponds after a heavy rainfall.
   They warn others of danger and predators by vibrating their cheeks to create a high-pitched
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Water Absorb
-HomeSprite: SRD-HomeSprite-tympole.png
+HomeSprite: SRD-tympole-HomeSprite.png
 Learnset: '[[SRD-Tympole-Learnset]]'
 Legendary: 'No'
 Name: Tympole
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tympole.png|right]]
+![[SRD-tympole-BookSprite.png|right wsmall]]
 
 *Tadpole Pokemon*
 *They appear in great numbers on marshes and ponds after a heavy rainfall. They warn others of danger and predators by vibrating their cheeks to create a high-pitched sound.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Hydration|Hydration]] ([[SRD-Water Absorb|Water Absorb]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-tympole.png|right]]
+![[SRD-tympole-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-tympole-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

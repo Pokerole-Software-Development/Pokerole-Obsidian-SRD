@@ -2,9 +2,8 @@
 Ability1: Merciless
 Ability2: Limber
 Baby: 'No'
-BookImageName: HOME747.png
-BookShinyImageName: HOME747_s.png
-BoxSprite: SRD-BoxSprite-mareanie.png
+BookSprite: SRD-mareanie-BookSprite.png
+BoxSprite: SRD-mareanie-BoxSprite.png
 DexCategory: Brutal Star Pokemon
 DexDescription: It can be found resting on the sea floor, waiting for an unsuspecting
   prey to sting. They are pretty toxic and attack with their ten barbed tentacles.
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-mareanie.png
+HomeSprite: SRD-mareanie-HomeSprite.png
 Learnset: '[[SRD-Mareanie-Learnset]]'
 Legendary: 'No'
 Name: Mareanie
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mareanie.png|right]]
+![[SRD-mareanie-BookSprite.png|right wsmall]]
 
 *Brutal Star Pokemon*
 *It can be found resting on the sea floor, waiting for an unsuspecting prey to sting. They are pretty toxic and attack with their ten barbed tentacles. Corsolas are one of its favorite meals.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Merciless|Merciless]] / [[SRD-Limber|Limber]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-mareanie.png|right]]
+![[SRD-mareanie-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-mareanie-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

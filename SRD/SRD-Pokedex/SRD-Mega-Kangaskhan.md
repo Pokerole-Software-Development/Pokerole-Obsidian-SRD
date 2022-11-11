@@ -2,9 +2,8 @@
 Ability1: Parental Bond
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME115M.png
-BookShinyImageName: HOME115M_s.png
-BoxSprite: SRD-BoxSprite-kangaskhan-mega.png
+BookSprite: SRD-kangaskhan-mega-BookSprite.png
+BoxSprite: SRD-kangaskhan-mega-BoxSprite.png
 DexCategory: Parent Pokemon
 DexDescription: "The mother gives all the power of the Mega Stone to her child. The\
   \ child grows violent and both team up as formidable fighters. But the mother worries\
@@ -17,7 +16,7 @@ Height:
   Feet: 7.2
   Meters: 2.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-kangaskhan-mega.png
+HomeSprite: SRD-kangaskhan-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Kangaskhan-Learnset]]'
 Legendary: 'No'
 Name: Mega-Kangaskhan
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-kangaskhan-mega.png|right]]
+![[SRD-kangaskhan-mega-BookSprite.png|right wsmall]]
 
 *Parent Pokemon*
 *The mother gives all the power of the Mega Stone to her child. The child grows violent and both team up as formidable fighters. But the mother worries about her child’s future as she raised it better than that.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Parental Bond|Parental Bond]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-kangaskhan-mega.png|right]]
+![[SRD-kangaskhan-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-kangaskhan-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

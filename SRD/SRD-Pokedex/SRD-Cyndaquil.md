@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME155.png
-BookShinyImageName: HOME155_s.png
-BoxSprite: SRD-BoxSprite-cyndaquil.png
+BookSprite: SRD-cyndaquil-BookSprite.png
+BoxSprite: SRD-cyndaquil-BoxSprite.png
 DexCategory: Fire Mouse Pokemon
 DexDescription: "A shy and elusive Pokemon. The flames from its back protect it. They\u2019\
   ll burn vigorously if Cyndaquil is angry otherwise they\u2019ll remain unlit. It\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Flash Fire
-HomeSprite: SRD-HomeSprite-cyndaquil.png
+HomeSprite: SRD-cyndaquil-HomeSprite.png
 Learnset: '[[SRD-Cyndaquil-Learnset]]'
 Legendary: 'No'
 Name: Cyndaquil
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cyndaquil.png|right]]
+![[SRD-cyndaquil-BookSprite.png|right wsmall]]
 
 *Fire Mouse Pokemon*
 *A shy and elusive Pokemon. The flames from its back protect it. They’ll burn vigorously if Cyndaquil is angry otherwise they’ll remain unlit. It lives in hot dens inside of mountains and volcanoes.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Flash Fire|Flash Fire]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-cyndaquil.png|right]]
+![[SRD-cyndaquil-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-cyndaquil-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

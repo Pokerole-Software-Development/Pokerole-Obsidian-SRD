@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME480.png
-BookShinyImageName: HOME480_s.png
-BoxSprite: SRD-BoxSprite-uxie.png
+BookSprite: SRD-uxie-BookSprite.png
+BoxSprite: SRD-uxie-BoxSprite.png
 DexCategory: No Data
 DexDescription: In the myths of Sinnoh they talk about three beings that came out
   from the same egg, the yellow one was the being of knowledge. Together they shaped
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-uxie.png
+HomeSprite: SRD-uxie-HomeSprite.png
 Learnset: '[[SRD-Uxie-Learnset]]'
 Legendary: 'Yes'
 Name: Uxie
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-uxie.png|right]]
+![[SRD-uxie-BookSprite.png|right wsmall]]
 
 *No Data*
 *In the myths of Sinnoh they talk about three beings that came out from the same egg, the yellow one was the being of knowledge. Together they shaped the human race to be complete.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-uxie.png|right]]
+![[SRD-uxie-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::7)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-uxie-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

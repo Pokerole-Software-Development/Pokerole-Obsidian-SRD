@@ -2,9 +2,8 @@
 Ability1: Color Change
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME352.png
-BookShinyImageName: HOME352_s.png
-BoxSprite: SRD-BoxSprite-kecleon.png
+BookSprite: SRD-kecleon-BookSprite.png
+BoxSprite: SRD-kecleon-BoxSprite.png
 DexCategory: Color Swap Pokemon
 DexDescription: "They are able to change their colors to blend with their surroundings.\
   \ The only part of its body that can\u2019t change is the red zigzag line on its\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Protean
-HomeSprite: SRD-HomeSprite-kecleon.png
+HomeSprite: SRD-kecleon-HomeSprite.png
 Learnset: '[[SRD-Kecleon-Learnset]]'
 Legendary: 'No'
 Name: Kecleon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-kecleon.png|right]]
+![[SRD-kecleon-BookSprite.png|right wsmall]]
 
 *Color Swap Pokemon*
 *They are able to change their colors to blend with their surroundings. The only part of its body that can’t change is the red zigzag line on its belly. Kecleon is very sneaky, smart and kind of insolent.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Color Change|Color Change]] ([[SRD-Protean|Protean]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-kecleon.png|right]]
+![[SRD-kecleon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-kecleon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Poison Point
 Ability2: Swarm
 Baby: 'No'
-BookImageName: HOME543.png
-BookShinyImageName: HOME543_s.png
-BoxSprite: SRD-BoxSprite-venipede.png
+BookSprite: SRD-venipede-BookSprite.png
+BoxSprite: SRD-venipede-BoxSprite.png
 DexCategory: Centipede Pokemon
 DexDescription: "Incredibly aggressive for a Pokemon that size. It uses the feelers\
   \ on it\u2019s front and back to locate things around. Its bite injects a potent\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Speed Boost
-HomeSprite: SRD-HomeSprite-venipede.png
+HomeSprite: SRD-venipede-HomeSprite.png
 Learnset: '[[SRD-Venipede-Learnset]]'
 Legendary: 'No'
 Name: Venipede
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-venipede.png|right]]
+![[SRD-venipede-BookSprite.png|right wsmall]]
 
 *Centipede Pokemon*
 *Incredibly aggressive for a Pokemon that size. It uses the feelers on it’s front and back to locate things around. Its bite injects a potent venom, enough to deter the large bird Pokemon that try to prey on it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Swarm|Swarm]] ([[SRD-Speed Boost|Speed Boost]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-venipede.png|right]]
+![[SRD-venipede-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-venipede-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

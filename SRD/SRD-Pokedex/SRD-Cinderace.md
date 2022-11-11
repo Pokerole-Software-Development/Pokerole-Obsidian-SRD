@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME815.png
-BookShinyImageName: HOME815_s.png
-BoxSprite: SRD-BoxSprite-cinderace.png
+BookSprite: SRD-cinderace-BookSprite.png
+BoxSprite: SRD-cinderace-BoxSprite.png
 DexCategory: Striker Pokemon
 DexDescription: They are confident and boastful of their abilities. They take a pebble
   and light it on fire to create a scorching weapon they kick towards their foes.
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Libero
-HomeSprite: SRD-HomeSprite-cinderace.png
+HomeSprite: SRD-cinderace-HomeSprite.png
 Learnset: '[[SRD-Cinderace-Learnset]]'
 Legendary: 'No'
 Name: Cinderace
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cinderace.png|right]]
+![[SRD-cinderace-BookSprite.png|right wsmall]]
 
 *Striker Pokemon*
 *They are confident and boastful of their abilities. They take a pebble and light it on fire to create a scorching weapon they kick towards their foes. They can grow arrogant if they feel cheered on.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Libero|Libero]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-cinderace.png|right]]
+![[SRD-cinderace-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-cinderace-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

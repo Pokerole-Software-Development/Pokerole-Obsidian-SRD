@@ -2,9 +2,8 @@
 Ability1: Misty Surge
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME788.png
-BookShinyImageName: HOME788_s.png
-BoxSprite: SRD-BoxSprite-tapu-fini.png
+BookSprite: SRD-tapu-fini-BookSprite.png
+BoxSprite: SRD-tapu-fini-BoxSprite.png
 DexCategory: No Data
 DexDescription: The people on Poni island are proud of the clean water on their land,
   for that they thank their guardian spirit who is said to be the ocean itself.
@@ -16,7 +15,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-tapu-fini.png
+HomeSprite: SRD-tapu-fini-HomeSprite.png
 Learnset: '[[SRD-Tapu Fini-Learnset]]'
 Legendary: 'Yes'
 Name: Tapu Fini
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tapu-fini.png|right]]
+![[SRD-tapu-fini-BookSprite.png|right wsmall]]
 
 *No Data*
 *The people on Poni island are proud of the clean water on their land, for that they thank their guardian spirit who is said to be the ocean itself.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Misty Surge|Misty Surge]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-tapu-fini.png|right]]
+![[SRD-tapu-fini-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-tapu-fini-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

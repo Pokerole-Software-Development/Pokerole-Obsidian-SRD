@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME646W.png
-BookShinyImageName: HOME646W_s.png
-BoxSprite: SRD-BoxSprite-kyurem-white.png
+BookSprite: SRD-kyurem-white-BookSprite.png
+BoxSprite: SRD-kyurem-white-BoxSprite.png
 DexCategory: No Data
 DexDescription: In the Icy mountains at the west of Unova, you can hear the wails
   of a creature suffering as if it missed a part of its very soul. Explosions and
@@ -17,7 +16,7 @@ Height:
   Feet: 11.8
   Meters: 3.6
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-kyurem-white.png
+HomeSprite: SRD-kyurem-white-HomeSprite.png
 Learnset: '[[SRD-White Kyurem-Learnset]]'
 Legendary: 'Yes'
 Name: White Kyurem
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-kyurem-white.png|right]]
+![[SRD-kyurem-white-BookSprite.png|right wsmall]]
 
 *No Data*
 *In the Icy mountains at the west of Unova, you can hear the wails of a creature suffering as if it missed a part of its very soul. Explosions and blue fires are sure to follow.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-kyurem-white.png|right]]
+![[SRD-kyurem-white-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::9)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-kyurem-white-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

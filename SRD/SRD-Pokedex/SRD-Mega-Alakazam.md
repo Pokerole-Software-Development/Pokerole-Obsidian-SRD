@@ -2,9 +2,8 @@
 Ability1: Trace
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME065M.png
-BookShinyImageName: HOME065M_s.png
-BoxSprite: SRD-BoxSprite-alakazam-mega.png
+BookSprite: SRD-alakazam-mega-BookSprite.png
+BoxSprite: SRD-alakazam-mega-BoxSprite.png
 DexCategory: Psi Pokemon
 DexDescription: With the power of the Mega Stone it is constantly plagued with visions
   of the future which make it great at evading attacks. Its body is feeble and it
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-alakazam-mega.png
+HomeSprite: SRD-alakazam-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Alakazam-Learnset]]'
 Legendary: 'No'
 Name: Mega-Alakazam
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-alakazam-mega.png|right]]
+![[SRD-alakazam-mega-BookSprite.png|right wsmall]]
 
 *Psi Pokemon*
 *With the power of the Mega Stone it is constantly plagued with visions of the future which make it great at evading attacks. Its body is feeble and it moves purely through psychic energy.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Trace|Trace]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-alakazam-mega.png|right]]
+![[SRD-alakazam-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-alakazam-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

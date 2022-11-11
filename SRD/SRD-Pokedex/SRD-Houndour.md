@@ -2,9 +2,8 @@
 Ability1: Early Bird
 Ability2: Flash Fire
 Baby: 'No'
-BookImageName: HOME228.png
-BookShinyImageName: HOME228_s.png
-BoxSprite: SRD-BoxSprite-houndour.png
+BookSprite: SRD-houndour-BookSprite.png
+BoxSprite: SRD-houndour-BoxSprite.png
 DexCategory: Dark Pokemon
 DexDescription: They hunt in coordinated packs to corner their prey. They howl at
   dawn to announce that this is their territory and bark to communicate tactics. Their
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Unnerve
-HomeSprite: SRD-HomeSprite-houndour.png
+HomeSprite: SRD-houndour-HomeSprite.png
 Learnset: '[[SRD-Houndour-Learnset]]'
 Legendary: 'No'
 Name: Houndour
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-houndour.png|right]]
+![[SRD-houndour-BookSprite.png|right wsmall]]
 
 *Dark Pokemon*
 *They hunt in coordinated packs to corner their prey. They howl at dawn to announce that this is their territory and bark to communicate tactics. Their teamwork is very efficient and they rarely welcome strangers.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Early Bird|Early Bird]] / [[SRD-Flash Fire|Flash Fire]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-houndour.png|right]]
+![[SRD-houndour-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-houndour-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

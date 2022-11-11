@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME393.png
-BookShinyImageName: HOME393_s.png
-BoxSprite: SRD-BoxSprite-piplup.png
+BookSprite: SRD-piplup-BookSprite.png
+BoxSprite: SRD-piplup-BoxSprite.png
 DexCategory: Penguin Pokemon
 DexDescription: "Piplups are extremely proud. They won\u2019t take anything from anyone\
   \ nor accept being taken care of. It lives along shores in northern countries. It\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Defiant
-HomeSprite: SRD-HomeSprite-piplup.png
+HomeSprite: SRD-piplup-HomeSprite.png
 Learnset: '[[SRD-Piplup-Learnset]]'
 Legendary: 'No'
 Name: Piplup
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-piplup.png|right]]
+![[SRD-piplup-BookSprite.png|right wsmall]]
 
 *Penguin Pokemon*
 *Piplups are extremely proud. They won’t take anything from anyone nor accept being taken care of. It lives along shores in northern countries. It is a good swimmer but terrible at walking, it trips over often.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-piplup.png|right]]
+![[SRD-piplup-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-piplup-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

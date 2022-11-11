@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME004.png
-BookShinyImageName: HOME004_s.png
-BoxSprite: SRD-BoxSprite-charmander.png
+BookSprite: SRD-charmander-BookSprite.png
+BoxSprite: SRD-charmander-BoxSprite.png
 DexCategory: Lizard Pokemon
 DexDescription: 'A rare Pokemon. The flame on its tail is an indicator of its feelings
   and life force. If it is healthy and happy, the flame burns brightly.
@@ -18,7 +17,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Solar Power
-HomeSprite: SRD-HomeSprite-charmander.png
+HomeSprite: SRD-charmander-HomeSprite.png
 Learnset: '[[SRD-Charmander-Learnset]]'
 Legendary: 'No'
 Name: Charmander
@@ -38,7 +37,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-charmander.png|right]]
+![[SRD-charmander-BookSprite.png|right wsmall]]
 
 *Lizard Pokemon*
 *A rare Pokemon. The flame on its tail is an indicator of its feelings and life force. If it is healthy and happy, the flame burns brightly.
@@ -50,7 +49,7 @@ It needs proper care and discipline or else it may rebel later on.*
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Solar Power|Solar Power]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-charmander.png|right]]
+![[SRD-charmander-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -59,6 +58,8 @@ It needs proper care and discipline or else it may rebel later on.*
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-charmander-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

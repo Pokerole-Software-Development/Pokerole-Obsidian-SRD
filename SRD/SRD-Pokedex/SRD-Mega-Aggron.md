@@ -2,9 +2,8 @@
 Ability1: Filter
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME306M.png
-BookShinyImageName: HOME306M_s.png
-BoxSprite: SRD-BoxSprite-aggron-mega.png
+BookSprite: SRD-aggron-mega-BookSprite.png
+BoxSprite: SRD-aggron-mega-BoxSprite.png
 DexCategory: Iron Armor Pokemon
 DexDescription: The power of the Mega Stone makes their already-small caring nature
   disappear. They become relentless and more machine-like, trampling their way around
@@ -17,7 +16,7 @@ Height:
   Feet: 7.2
   Meters: 2.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-aggron-mega.png
+HomeSprite: SRD-aggron-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Aggron-Learnset]]'
 Legendary: 'No'
 Name: Mega-Aggron
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-aggron-mega.png|right]]
+![[SRD-aggron-mega-BookSprite.png|right wsmall]]
 
 *Iron Armor Pokemon*
 *The power of the Mega Stone makes their already-small caring nature disappear. They become relentless and more machine-like, trampling their way around as nothing can penetrate their armor.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Filter|Filter]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-aggron-mega.png|right]]
+![[SRD-aggron-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::11)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-aggron-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

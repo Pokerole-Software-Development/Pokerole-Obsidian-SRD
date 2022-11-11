@@ -2,9 +2,8 @@
 Ability1: Thick Fat
 Ability2: Huge Power
 Baby: 'Yes'
-BookImageName: HOME298.png
-BookShinyImageName: HOME298_s.png
-BoxSprite: SRD-BoxSprite-azurill.png
+BookSprite: SRD-azurill-BookSprite.png
+BoxSprite: SRD-azurill-BoxSprite.png
 DexCategory: Polka Dot Pokemon
 DexDescription: They use their tail as a lasso. When they throw their ball, Azurills
   get dragged along with it. They are commonly seen bouncing and playing with other
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Sap Sipper
-HomeSprite: SRD-HomeSprite-azurill.png
+HomeSprite: SRD-azurill-HomeSprite.png
 Learnset: '[[SRD-Azurill-Learnset]]'
 Legendary: 'No'
 Name: Azurill
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-azurill.png|right]]
+![[SRD-azurill-BookSprite.png|right wsmall]]
 
 *Polka Dot Pokemon*
 *They use their tail as a lasso. When they throw their ball, Azurills get dragged along with it. They are commonly seen bouncing and playing with other Pokemon in the beach. They love fruit paps.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Huge Power|Huge Power]] ([[SRD-Sap Sipper|Sap Sipper]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-azurill.png|right]]
+![[SRD-azurill-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-azurill-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

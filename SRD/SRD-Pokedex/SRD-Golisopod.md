@@ -2,9 +2,8 @@
 Ability1: Emergency Exit
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME768.png
-BookShinyImageName: HOME768_s.png
-BoxSprite: SRD-BoxSprite-golisopod.png
+BookSprite: SRD-golisopod-BookSprite.png
+BoxSprite: SRD-golisopod-BoxSprite.png
 DexCategory: Hard Scale Pokemon
 DexDescription: This Pokemon is a rare sight, for most Wimpods never evolve and when
   they do, Golisopod spend most of their lives in deep sea caves, meditating. It is
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-golisopod.png
+HomeSprite: SRD-golisopod-HomeSprite.png
 Learnset: '[[SRD-Golisopod-Learnset]]'
 Legendary: 'No'
 Name: Golisopod
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-golisopod.png|right]]
+![[SRD-golisopod-BookSprite.png|right wsmall]]
 
 *Hard Scale Pokemon*
 *This Pokemon is a rare sight, for most Wimpods never evolve and when they do, Golisopod spend most of their lives in deep sea caves, meditating. It is extremely strong, its claws can tear through everything.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Emergency Exit|Emergency Exit]]
 **Base HP**:: 7
 
-![[SRD-BoxSprite-golisopod.png|right]]
+![[SRD-golisopod-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-golisopod-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

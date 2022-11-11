@@ -2,9 +2,8 @@
 Ability1: Speed Boost
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME257M.png
-BookShinyImageName: HOME257M_s.png
-BoxSprite: SRD-BoxSprite-blaziken-mega.png
+BookSprite: SRD-blaziken-mega-BookSprite.png
+BoxSprite: SRD-blaziken-mega-BoxSprite.png
 DexCategory: Blaze Pokemon
 DexDescription: The power of the Mega Stone makes its inner fire burn so strong that
   it sets its limbs ablaze. This allows it to move faster than ever but it also takes
@@ -17,7 +16,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-blaziken-mega.png
+HomeSprite: SRD-blaziken-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Blaziken-Learnset]]'
 Legendary: 'No'
 Name: Mega-Blaziken
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-blaziken-mega.png|right]]
+![[SRD-blaziken-mega-BookSprite.png|right wsmall]]
 
 *Blaze Pokemon*
 *The power of the Mega Stone makes its inner fire burn so strong that it sets its limbs ablaze. This allows it to move faster than ever but it also takes a toll on its feathers as they burn to black cinders.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Speed Boost|Speed Boost]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-blaziken-mega.png|right]]
+![[SRD-blaziken-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-blaziken-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

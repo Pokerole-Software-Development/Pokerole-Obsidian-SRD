@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME367.png
-BookShinyImageName: HOME367_s.png
-BoxSprite: SRD-BoxSprite-huntail.png
+BookSprite: SRD-huntail-BookSprite.png
+BoxSprite: SRD-huntail-BoxSprite.png
 DexCategory: Deep Sea Pokemon
 DexDescription: It lives at extreme depths of the sea. Their eyes can see perfectly
   in complete darkness. Huntails light up their tail to attract their prey, then swallow
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Water Veil
-HomeSprite: SRD-HomeSprite-huntail.png
+HomeSprite: SRD-huntail-HomeSprite.png
 Learnset: '[[SRD-Huntail-Learnset]]'
 Legendary: 'No'
 Name: Huntail
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-huntail.png|right]]
+![[SRD-huntail-BookSprite.png|right wsmall]]
 
 *Deep Sea Pokemon*
 *It lives at extreme depths of the sea. Their eyes can see perfectly in complete darkness. Huntails light up their tail to attract their prey, then swallow them whole with a single bite.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] ([[SRD-Water Veil|Water Veil]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-huntail.png|right]]
+![[SRD-huntail-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-huntail-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

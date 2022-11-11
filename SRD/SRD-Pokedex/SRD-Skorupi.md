@@ -2,9 +2,8 @@
 Ability1: Battle Armor
 Ability2: Sniper
 Baby: 'No'
-BookImageName: HOME451.png
-BookShinyImageName: HOME451_s.png
-BoxSprite: SRD-BoxSprite-skorupi.png
+BookSprite: SRD-skorupi-BookSprite.png
+BoxSprite: SRD-skorupi-BoxSprite.png
 DexCategory: Scorpion Pokemon
 DexDescription: It lives in deserts and arid regions. It buries itself under the sand,
   waiting for an unsuspecting prey to come nearby. It will then sting the prey and
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Keen Eye
-HomeSprite: SRD-HomeSprite-skorupi.png
+HomeSprite: SRD-skorupi-HomeSprite.png
 Learnset: '[[SRD-Skorupi-Learnset]]'
 Legendary: 'No'
 Name: Skorupi
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-skorupi.png|right]]
+![[SRD-skorupi-BookSprite.png|right wsmall]]
 
 *Scorpion Pokemon*
 *It lives in deserts and arid regions. It buries itself under the sand, waiting for an unsuspecting prey to come nearby. It will then sting the prey and cling to it tenaciously until the poison takes effect.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Battle Armor|Battle Armor]] / [[SRD-Sniper|Sniper]] ([[SRD-Keen Eye|Keen Eye]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-skorupi.png|right]]
+![[SRD-skorupi-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-skorupi-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Aftermath
 Ability2: Unburden
 Baby: 'No'
-BookImageName: HOME425.png
-BookShinyImageName: HOME425_s.png
-BoxSprite: SRD-BoxSprite-drifloon.png
+BookSprite: SRD-drifloon-BookSprite.png
+BoxSprite: SRD-drifloon-BoxSprite.png
 DexCategory: Balloon Pokemon
 DexDescription: "A Pokemon formed by the spirits of lost people and Pokemon. Children\
   \ who mistake it for a real balloon often end up missing. Because it floats aimlessly,\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Flare Boost
-HomeSprite: SRD-HomeSprite-drifloon.png
+HomeSprite: SRD-drifloon-HomeSprite.png
 Learnset: '[[SRD-Drifloon-Learnset]]'
 Legendary: 'No'
 Name: Drifloon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-drifloon.png|right]]
+![[SRD-drifloon-BookSprite.png|right wsmall]]
 
 *Balloon Pokemon*
 *A Pokemon formed by the spirits of lost people and Pokemon. Children who mistake it for a real balloon often end up missing. Because it floats aimlessly, an old folktale calls it the “Signpost for Wandering Spirits.”*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Aftermath|Aftermath]] / [[SRD-Unburden|Unburden]] ([[SRD-Flare Boost|Flare Boost]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-drifloon.png|right]]
+![[SRD-drifloon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-drifloon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

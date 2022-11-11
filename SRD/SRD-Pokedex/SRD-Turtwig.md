@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME387.png
-BookShinyImageName: HOME387_s.png
-BoxSprite: SRD-BoxSprite-turtwig.png
+BookSprite: SRD-turtwig-BookSprite.png
+BoxSprite: SRD-turtwig-BoxSprite.png
 DexCategory: Tiny Leaf Pokemon
 DexDescription: It makes its home close to lakes, although it is rare to find one.
   The shell on its back is made of hardened soil and should be moist for it to be
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Shell Armor
-HomeSprite: SRD-HomeSprite-turtwig.png
+HomeSprite: SRD-turtwig-HomeSprite.png
 Learnset: '[[SRD-Turtwig-Learnset]]'
 Legendary: 'No'
 Name: Turtwig
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-turtwig.png|right]]
+![[SRD-turtwig-BookSprite.png|right wsmall]]
 
 *Tiny Leaf Pokemon*
 *It makes its home close to lakes, although it is rare to find one. The shell on its back is made of hardened soil and should be moist for it to be healthy. It uses photosynthesis to get energy.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Shell Armor|Shell Armor]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-turtwig.png|right]]
+![[SRD-turtwig-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-turtwig-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Stench
 Ability2: Sticky Hold
 Baby: 'No'
-BookImageName: HOME089.png
-BookShinyImageName: HOME089_s.png
-BoxSprite: SRD-BoxSprite-muk.png
+BookSprite: SRD-muk-BookSprite.png
+BoxSprite: SRD-muk-BoxSprite.png
 DexCategory: Sludge Pokemon
 DexDescription: It gathers on polluted areas to eat filth. Its body is made of a powerful
   poison that kills any plant. Touching it can cause a fever that will require bed
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Poison Touch
-HomeSprite: SRD-HomeSprite-muk.png
+HomeSprite: SRD-muk-HomeSprite.png
 Learnset: '[[SRD-Muk-Learnset]]'
 Legendary: 'No'
 Name: Muk
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-muk.png|right]]
+![[SRD-muk-BookSprite.png|right wsmall]]
 
 *Sludge Pokemon*
 *It gathers on polluted areas to eat filth. Its body is made of a powerful poison that kills any plant. Touching it can cause a fever that will require bed rest. A good diet may reduce Muk's toxicity.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Stench|Stench]] / [[SRD-Sticky Hold|Sticky Hold]] ([[SRD-Poison Touch|Poison Touch]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-muk.png|right]]
+![[SRD-muk-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-muk-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

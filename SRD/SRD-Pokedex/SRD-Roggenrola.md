@@ -2,9 +2,8 @@
 Ability1: Sturdy
 Ability2: Weak Armor
 Baby: 'No'
-BookImageName: HOME524.png
-BookShinyImageName: HOME524_s.png
-BoxSprite: SRD-BoxSprite-roggenrola.png
+BookSprite: SRD-roggenrola-BookSprite.png
+BoxSprite: SRD-roggenrola-BoxSprite.png
 DexCategory: Mantle Pokemon
 DexDescription: "It is made from compressed rock, making it\u2019s body almost as\
   \ hard as steel. It is blind, what looks like it\u2019s eye is really an ear, for\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Sand Force
-HomeSprite: SRD-HomeSprite-roggenrola.png
+HomeSprite: SRD-roggenrola-HomeSprite.png
 Learnset: '[[SRD-Roggenrola-Learnset]]'
 Legendary: 'No'
 Name: Roggenrola
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-roggenrola.png|right]]
+![[SRD-roggenrola-BookSprite.png|right wsmall]]
 
 *Mantle Pokemon*
 *It is made from compressed rock, making it’s body almost as hard as steel. It is blind, what looks like it’s eye is really an ear, for this reason it can live in the darkest of caves feeding on rocks to grow stronger.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Weak Armor|Weak Armor]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-roggenrola.png|right]]
+![[SRD-roggenrola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-roggenrola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Cheek Pouch
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME820.png
-BookShinyImageName: HOME820_s.png
-BoxSprite: SRD-BoxSprite-greedent.png
+BookSprite: SRD-greedent-BookSprite.png
+BoxSprite: SRD-greedent-BoxSprite.png
 DexCategory: Greedy Pokemon
 DexDescription: They are a little dim-witted as they think on nothing but eating.
   Greedent hide and store berries on their tails, many of them fall of, becoming new
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Gluttony
-HomeSprite: SRD-HomeSprite-greedent.png
+HomeSprite: SRD-greedent-HomeSprite.png
 Learnset: '[[SRD-Greedent-Learnset]]'
 Legendary: 'No'
 Name: Greedent
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-greedent.png|right]]
+![[SRD-greedent-BookSprite.png|right wsmall]]
 
 *Greedy Pokemon*
 *They are a little dim-witted as they think on nothing but eating. Greedent hide and store berries on their tails, many of them fall of, becoming new trees the next year. Their teeth are very strong.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Cheek Pouch|Cheek Pouch]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-greedent.png|right]]
+![[SRD-greedent-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-greedent-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

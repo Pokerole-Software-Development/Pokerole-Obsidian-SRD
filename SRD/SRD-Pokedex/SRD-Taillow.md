@@ -2,9 +2,8 @@
 Ability1: Guts
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME276.png
-BookShinyImageName: HOME276_s.png
-BoxSprite: SRD-BoxSprite-taillow.png
+BookSprite: SRD-taillow-BookSprite.png
+BoxSprite: SRD-taillow-BoxSprite.png
 DexCategory: Tiny Swallow Pokemon
 DexDescription: They are brave and noble, facing bigger foes whoever they might be.
   However, being just a child, it usually feels lonely and cries at night. They can
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Scrappy
-HomeSprite: SRD-HomeSprite-taillow.png
+HomeSprite: SRD-taillow-HomeSprite.png
 Learnset: '[[SRD-Taillow-Learnset]]'
 Legendary: 'No'
 Name: Taillow
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-taillow.png|right]]
+![[SRD-taillow-BookSprite.png|right wsmall]]
 
 *Tiny Swallow Pokemon*
 *They are brave and noble, facing bigger foes whoever they might be. However, being just a child, it usually feels lonely and cries at night. They can be seen migrating south in the winter.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Guts|Guts]] ([[SRD-Scrappy|Scrappy]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-taillow.png|right]]
+![[SRD-taillow-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-taillow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

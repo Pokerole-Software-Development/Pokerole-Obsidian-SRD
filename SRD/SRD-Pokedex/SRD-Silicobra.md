@@ -2,9 +2,8 @@
 Ability1: Sand Spit
 Ability2: Shed Skin
 Baby: 'No'
-BookImageName: HOME843.png
-BookShinyImageName: HOME843_s.png
-BoxSprite: SRD-BoxSprite-silicobra.png
+BookSprite: SRD-silicobra-BookSprite.png
+BoxSprite: SRD-silicobra-BoxSprite.png
 DexCategory: Sand Snake Pokemon
 DexDescription: Silicobra can appear to be very aggressive but they just want to be
   left alone. They spew sand from their nostrils and while the foe is blinded, they
@@ -17,7 +16,7 @@ Height:
   Feet: 7.2
   Meters: 2.2
 HiddenAbility: Sand Veil
-HomeSprite: SRD-HomeSprite-silicobra.png
+HomeSprite: SRD-silicobra-HomeSprite.png
 Learnset: '[[SRD-Silicobra-Learnset]]'
 Legendary: 'No'
 Name: Silicobra
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-silicobra.png|right]]
+![[SRD-silicobra-BookSprite.png|right wsmall]]
 
 *Sand Snake Pokemon*
 *Silicobra can appear to be very aggressive but they just want to be left alone. They spew sand from their nostrils and while the foe is blinded, they burrow back into the ground to hide.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sand Spit|Sand Spit]] / [[SRD-Shed Skin|Shed Skin]] ([[SRD-Sand Veil|Sand Veil]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-silicobra.png|right]]
+![[SRD-silicobra-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-silicobra-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

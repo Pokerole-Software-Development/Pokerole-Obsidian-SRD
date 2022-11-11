@@ -2,9 +2,8 @@
 Ability1: Overgrow
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME253.png
-BookShinyImageName: HOME253_s.png
-BoxSprite: SRD-BoxSprite-grovyle.png
+BookSprite: SRD-grovyle-BookSprite.png
+BoxSprite: SRD-grovyle-BoxSprite.png
 DexCategory: Wood Gecko Pokemon
 DexDescription: "Their leaves provide camouflage in the jungles. They appear to fly\
   \ from tree to tree, jumping huge lengths with amazing speed. It\u2019s almost impossible\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Unburden
-HomeSprite: SRD-HomeSprite-grovyle.png
+HomeSprite: SRD-grovyle-HomeSprite.png
 Learnset: '[[SRD-Grovyle-Learnset]]'
 Legendary: 'No'
 Name: Grovyle
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-grovyle.png|right]]
+![[SRD-grovyle-BookSprite.png|right wsmall]]
 
 *Wood Gecko Pokemon*
 *Their leaves provide camouflage in the jungles. They appear to fly from tree to tree, jumping huge lengths with amazing speed. It’s almost impossible to catch them once they start running away..*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Unburden|Unburden]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-grovyle.png|right]]
+![[SRD-grovyle-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-grovyle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

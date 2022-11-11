@@ -2,9 +2,8 @@
 Ability1: Inner Focus
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME475M.png
-BookShinyImageName: HOME475M_s.png
-BoxSprite: SRD-BoxSprite-gallade-mega.png
+BookSprite: SRD-gallade-mega-BookSprite.png
+BoxSprite: SRD-gallade-mega-BoxSprite.png
 DexCategory: Blade Pokemon
 DexDescription: With the power of the Mega Stone it senses the emotions of others
   in a large radius and will go help anyone in need. It will only attack if it needs
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-gallade-mega.png
+HomeSprite: SRD-gallade-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Gallade-Learnset]]'
 Legendary: 'No'
 Name: Mega-Gallade
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gallade-mega.png|right]]
+![[SRD-gallade-mega-BookSprite.png|right wsmall]]
 
 *Blade Pokemon*
 *With the power of the Mega Stone it senses the emotions of others in a large radius and will go help anyone in need. It will only attack if it needs to defend someone or something. It is protective and brave.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-gallade-mega.png|right]]
+![[SRD-gallade-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-gallade-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

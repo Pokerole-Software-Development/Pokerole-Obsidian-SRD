@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME338.png
-BookShinyImageName: HOME338_s.png
-BoxSprite: SRD-BoxSprite-solrock.png
+BookSprite: SRD-solrock-BookSprite.png
+BoxSprite: SRD-solrock-BoxSprite.png
 DexCategory: Meteorite Pokemon
 DexDescription: People say it came from space. They release the purest light when
   they get angry. Usually found absorbing solar light during the day, Solrocks can
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-solrock.png
+HomeSprite: SRD-solrock-HomeSprite.png
 Learnset: '[[SRD-Solrock-Learnset]]'
 Legendary: 'No'
 Name: Solrock
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-solrock.png|right]]
+![[SRD-solrock-BookSprite.png|right wsmall]]
 
 *Meteorite Pokemon*
 *People say it came from space. They release the purest light when they get angry. Usually found absorbing solar light during the day, Solrocks can emit blinding lights and burning heat while spinning.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-solrock.png|right]]
+![[SRD-solrock-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-solrock-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

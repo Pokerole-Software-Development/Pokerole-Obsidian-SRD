@@ -2,9 +2,8 @@
 Ability1: Own Tempo
 Ability2: Tangled Feet
 Baby: 'No'
-BookImageName: HOME327.png
-BookShinyImageName: HOME327_s.png
-BoxSprite: SRD-BoxSprite-spinda.png
+BookSprite: SRD-spinda-BookSprite.png
+BoxSprite: SRD-spinda-BoxSprite.png
 DexCategory: Spot Panda Pokemon
 DexDescription: Spindas move while stumbling in dizziness. This teeter dance causes
   a severe confusion on whoever is looking. They are shy towards humans but sometimes
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Contrary
-HomeSprite: SRD-HomeSprite-spinda.png
+HomeSprite: SRD-spinda-HomeSprite.png
 Learnset: '[[SRD-Spinda-Learnset]]'
 Legendary: 'No'
 Name: Spinda
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-spinda.png|right]]
+![[SRD-spinda-BookSprite.png|right wsmall]]
 
 *Spot Panda Pokemon*
 *Spindas move while stumbling in dizziness. This teeter dance causes a severe confusion on whoever is looking. They are shy towards humans but sometimes they appear in towns looking really disoriented.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Own Tempo|Own Tempo]] / [[SRD-Tangled Feet|Tangled Feet]] ([[SRD-Contrary|Contrary]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-spinda.png|right]]
+![[SRD-spinda-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-spinda-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

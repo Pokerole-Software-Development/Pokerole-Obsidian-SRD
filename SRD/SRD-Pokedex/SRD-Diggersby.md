@@ -2,9 +2,8 @@
 Ability1: Pickup
 Ability2: Cheek Pouch
 Baby: 'No'
-BookImageName: HOME660.png
-BookShinyImageName: HOME660_s.png
-BoxSprite: SRD-BoxSprite-diggersby.png
+BookSprite: SRD-diggersby-BookSprite.png
+BoxSprite: SRD-diggersby-BoxSprite.png
 DexCategory: Digging Pokemon
 DexDescription: A powerful excavator, its ears can reduce dense bedrock to rubble.
   After it has finished digging, it just lounges lazily. Some of them have been trained
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Huge Power
-HomeSprite: SRD-HomeSprite-diggersby.png
+HomeSprite: SRD-diggersby-HomeSprite.png
 Learnset: '[[SRD-Diggersby-Learnset]]'
 Legendary: 'No'
 Name: Diggersby
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-diggersby.png|right]]
+![[SRD-diggersby-BookSprite.png|right wsmall]]
 
 *Digging Pokemon*
 *A powerful excavator, its ears can reduce dense bedrock to rubble. After it has finished digging, it just lounges lazily. Some of them have been trained to work at construction sites with good results.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Cheek Pouch|Cheek Pouch]] ([[SRD-Huge Power|Huge Power]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-diggersby.png|right]]
+![[SRD-diggersby-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-diggersby-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

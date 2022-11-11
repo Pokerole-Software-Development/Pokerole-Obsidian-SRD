@@ -2,9 +2,8 @@
 Ability1: Oblivious
 Ability2: Forewarn
 Baby: 'No'
-BookImageName: HOME124.png
-BookShinyImageName: HOME124_s.png
-BoxSprite: SRD-BoxSprite-jynx.png
+BookSprite: SRD-jynx-BookSprite.png
+BoxSprite: SRD-jynx-BoxSprite.png
 DexCategory: Humanshape Pokemon
 DexDescription: It is not common outside cold areas. This Pokemon is female only.
   Its cries sound like human speech. However, it is impossible to tell what it is
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Dry Skin
-HomeSprite: SRD-HomeSprite-jynx.png
+HomeSprite: SRD-jynx-HomeSprite.png
 Learnset: '[[SRD-Jynx-Learnset]]'
 Legendary: 'No'
 Name: Jynx
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-jynx.png|right]]
+![[SRD-jynx-BookSprite.png|right wsmall]]
 
 *Humanshape Pokemon*
 *It is not common outside cold areas. This Pokemon is female only. Its cries sound like human speech. However, it is impossible to tell what it is trying to say. The way it moves and talks induce others to dance.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Forewarn|Forewarn]] ([[SRD-Dry Skin|Dry Skin]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-jynx.png|right]]
+![[SRD-jynx-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-jynx-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

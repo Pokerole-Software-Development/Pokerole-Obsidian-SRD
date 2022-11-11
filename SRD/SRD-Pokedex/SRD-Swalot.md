@@ -2,9 +2,8 @@
 Ability1: Liquid Ooze
 Ability2: Sticky Hold
 Baby: 'No'
-BookImageName: HOME317.png
-BookShinyImageName: HOME317_s.png
-BoxSprite: SRD-BoxSprite-swalot.png
+BookSprite: SRD-swalot-BookSprite.png
+BoxSprite: SRD-swalot-BoxSprite.png
 DexCategory: Poison Bag Pokemon
 DexDescription: "Swalots spurt toxic fluids from their pores, and once the prey is\
   \ weak, it gets swallowed whole since they have no teeth. They may eat anything\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Gluttony
-HomeSprite: SRD-HomeSprite-swalot.png
+HomeSprite: SRD-swalot-HomeSprite.png
 Learnset: '[[SRD-Swalot-Learnset]]'
 Legendary: 'No'
 Name: Swalot
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-swalot.png|right]]
+![[SRD-swalot-BookSprite.png|right wsmall]]
 
 *Poison Bag Pokemon*
 *Swalots spurt toxic fluids from their pores, and once the prey is weak, it gets swallowed whole since they have no teeth. They may eat anything up to the size of a car’s tire. Do not get too close to them.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Liquid Ooze|Liquid Ooze]] / [[SRD-Sticky Hold|Sticky Hold]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-swalot.png|right]]
+![[SRD-swalot-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-swalot-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

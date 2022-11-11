@@ -2,9 +2,8 @@
 Ability1: Snow Cloak
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME027A.png
-BookShinyImageName: HOME027A_s.png
-BoxSprite: SRD-BoxSprite-sandshrew-alola.png
+BookSprite: SRD-sandshrew-alola-BookSprite.png
+BoxSprite: SRD-sandshrew-alola-BoxSprite.png
 DexCategory: Mouse Pokemon
 DexDescription: Sandshrew who became trapped in the merciless cold weather of Alola
   had to change their types to survive. They now depend on snow to roll around, without
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Slush Rush
-HomeSprite: SRD-HomeSprite-sandshrew-alola.png
+HomeSprite: SRD-sandshrew-alola-HomeSprite.png
 Learnset: '[[SRD-Alolan Sandshrew-Learnset]]'
 Legendary: 'No'
 Name: Alolan Sandshrew
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sandshrew-alola.png|right]]
+![[SRD-sandshrew-alola-BookSprite.png|right wsmall]]
 
 *Mouse Pokemon*
 *Sandshrew who became trapped in the merciless cold weather of Alola had to change their types to survive. They now depend on snow to roll around, without it they are unable to curl up into a ball.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Snow Cloak|Snow Cloak]] ([[SRD-Slush Rush|Slush Rush]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-sandshrew-alola.png|right]]
+![[SRD-sandshrew-alola-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-sandshrew-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

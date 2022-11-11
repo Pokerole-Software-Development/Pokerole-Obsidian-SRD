@@ -2,9 +2,8 @@
 Ability1: Cute Charm
 Ability2: Competitive
 Baby: 'No'
-BookImageName: HOME039.png
-BookShinyImageName: HOME039_s.png
-BoxSprite: SRD-BoxSprite-jigglypuff.png
+BookSprite: SRD-jigglypuff-BookSprite.png
+BoxSprite: SRD-jigglypuff-BoxSprite.png
 DexCategory: Balloon Pokemon
 DexDescription: They live in grassy fields near the mountains. To climb they inflate
   their bodies and bounce up. It captivates foes with its huge, round eyes, then lulls
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Friend Guard
-HomeSprite: SRD-HomeSprite-jigglypuff.png
+HomeSprite: SRD-jigglypuff-HomeSprite.png
 Learnset: '[[SRD-Jigglypuff-Learnset]]'
 Legendary: 'No'
 Name: Jigglypuff
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-jigglypuff.png|right]]
+![[SRD-jigglypuff-BookSprite.png|right wsmall]]
 
 *Balloon Pokemon*
 *They live in grassy fields near the mountains. To climb they inflate their bodies and bounce up. It captivates foes with its huge, round eyes, then lulls them to sleep by singing a sweet soothing melody.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Competitive|Competitive]] ([[SRD-Friend Guard|Friend Guard]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-jigglypuff.png|right]]
+![[SRD-jigglypuff-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-jigglypuff-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Volt Absorb
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME807.png
-BookShinyImageName: HOME807_s.png
-BoxSprite: SRD-BoxSprite-zeraora.png
+BookSprite: SRD-zeraora-BookSprite.png
+BoxSprite: SRD-zeraora-BoxSprite.png
 DexCategory: No Data
 DexDescription: An unfriendly creature was spotted in Alola, witnesses mentioned it
   electrified its claws and tore its foes apart with them. It disappeared into the
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-zeraora.png
+HomeSprite: SRD-zeraora-HomeSprite.png
 Learnset: '[[SRD-Zeraora-Learnset]]'
 Legendary: 'Yes'
 Name: Zeraora
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zeraora.png|right]]
+![[SRD-zeraora-BookSprite.png|right wsmall]]
 
 *No Data*
 *An unfriendly creature was spotted in Alola, witnesses mentioned it electrified its claws and tore its foes apart with them. It disappeared into the wilderness and has not been reported again.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Volt Absorb|Volt Absorb]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-zeraora.png|right]]
+![[SRD-zeraora-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-zeraora-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

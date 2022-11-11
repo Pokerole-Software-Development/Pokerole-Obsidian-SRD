@@ -2,9 +2,8 @@
 Ability1: Water Veil
 Ability2: Oblivious
 Baby: 'No'
-BookImageName: HOME321.png
-BookShinyImageName: HOME321_s.png
-BoxSprite: SRD-BoxSprite-wailord.png
+BookSprite: SRD-wailord-BookSprite.png
+BoxSprite: SRD-wailord-BoxSprite.png
 DexCategory: Float Whale Pokemon
 DexDescription: The largest Pokemon known to date. Wailords weight is really light
   so they can dive almost 10,000 feet with one breath. They live in open ocean herding
@@ -17,7 +16,7 @@ Height:
   Feet: 47.6
   Meters: 14.5
 HiddenAbility: Pressure
-HomeSprite: SRD-HomeSprite-wailord.png
+HomeSprite: SRD-wailord-HomeSprite.png
 Learnset: '[[SRD-Wailord-Learnset]]'
 Legendary: 'No'
 Name: Wailord
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-wailord.png|right]]
+![[SRD-wailord-BookSprite.png|right wsmall]]
 
 *Float Whale Pokemon*
 *The largest Pokemon known to date. Wailords weight is really light so they can dive almost 10,000 feet with one breath. They live in open ocean herding fish to swallow in one gulp. They are used to being free.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Water Veil|Water Veil]] / [[SRD-Oblivious|Oblivious]] ([[SRD-Pressure|Pressure]])
 **Base HP**:: 11
 
-![[SRD-BoxSprite-wailord.png|right]]
+![[SRD-wailord-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-wailord-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

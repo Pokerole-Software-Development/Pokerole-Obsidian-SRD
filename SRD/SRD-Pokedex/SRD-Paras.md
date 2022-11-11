@@ -2,9 +2,8 @@
 Ability1: Effect Spore
 Ability2: Dry Skin
 Baby: 'No'
-BookImageName: HOME046.png
-BookShinyImageName: HOME046_s.png
-BoxSprite: SRD-BoxSprite-paras.png
+BookSprite: SRD-paras-BookSprite.png
+BoxSprite: SRD-paras-BoxSprite.png
 DexCategory: Mushroom Pokemon
 DexDescription: Paras has two parasitic mushrooms growing on its back. They grow large
   by drawing nutrients from this Bug Pokemon. They are valued as a medicine for prolonging
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Damp
-HomeSprite: SRD-HomeSprite-paras.png
+HomeSprite: SRD-paras-HomeSprite.png
 Learnset: '[[SRD-Paras-Learnset]]'
 Legendary: 'No'
 Name: Paras
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-paras.png|right]]
+![[SRD-paras-BookSprite.png|right wsmall]]
 
 *Mushroom Pokemon*
 *Paras has two parasitic mushrooms growing on its back. They grow large by drawing nutrients from this Bug Pokemon. They are valued as a medicine for prolonging life. Paras can be found in humid areas.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Effect Spore|Effect Spore]] / [[SRD-Dry Skin|Dry Skin]] ([[SRD-Damp|Damp]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-paras.png|right]]
+![[SRD-paras-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-paras-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

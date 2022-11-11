@@ -2,9 +2,8 @@
 Ability1: Blaze
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME653.png
-BookShinyImageName: HOME653_s.png
-BoxSprite: SRD-BoxSprite-fennekin.png
+BookSprite: SRD-fennekin-BookSprite.png
+BoxSprite: SRD-fennekin-BoxSprite.png
 DexCategory: Fox Pokemon
 DexDescription: This small and elusive Pokemon intimidates opponents by puffing hot
   air out of its ears. It likes to keep twigs and sticks nearby to munch them instead
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Magician
-HomeSprite: SRD-HomeSprite-fennekin.png
+HomeSprite: SRD-fennekin-HomeSprite.png
 Learnset: '[[SRD-Fennekin-Learnset]]'
 Legendary: 'No'
 Name: Fennekin
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-fennekin.png|right]]
+![[SRD-fennekin-BookSprite.png|right wsmall]]
 
 *Fox Pokemon*
 *This small and elusive Pokemon intimidates opponents by puffing hot air out of its ears. It likes to keep twigs and sticks nearby to munch them instead of snacks. They make good pets but they are pretty rare.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Magician|Magician]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-fennekin.png|right]]
+![[SRD-fennekin-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-fennekin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

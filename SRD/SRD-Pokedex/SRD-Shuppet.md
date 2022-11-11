@@ -2,9 +2,8 @@
 Ability1: Insomnia
 Ability2: Frisk
 Baby: 'No'
-BookImageName: HOME353.png
-BookShinyImageName: HOME353_s.png
-BoxSprite: SRD-BoxSprite-shuppet.png
+BookSprite: SRD-shuppet-BookSprite.png
+BoxSprite: SRD-shuppet-BoxSprite.png
 DexCategory: Puppet Pokemon
 DexDescription: "They feed on dark emotions such as envy, jealousy and vengefulness.\
   \ If they sting you, they\u2019ll fill you with a vindictive desire. They don\u2019\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Cursed Body
-HomeSprite: SRD-HomeSprite-shuppet.png
+HomeSprite: SRD-shuppet-HomeSprite.png
 Learnset: '[[SRD-Shuppet-Learnset]]'
 Legendary: 'No'
 Name: Shuppet
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-shuppet.png|right]]
+![[SRD-shuppet-BookSprite.png|right wsmall]]
 
 *Puppet Pokemon*
 *They feed on dark emotions such as envy, jealousy and vengefulness. If they sting you, they’ll fill you with a vindictive desire. They don’t have bodies under their blanket and they are looking for a body to possess*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Insomnia|Insomnia]] / [[SRD-Frisk|Frisk]] ([[SRD-Cursed Body|Cursed Body]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-shuppet.png|right]]
+![[SRD-shuppet-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-shuppet-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

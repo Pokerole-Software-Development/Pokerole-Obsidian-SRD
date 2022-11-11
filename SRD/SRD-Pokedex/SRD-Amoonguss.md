@@ -2,9 +2,8 @@
 Ability1: Effect Spore
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME591.png
-BookShinyImageName: HOME591_s.png
-BoxSprite: SRD-BoxSprite-amoonguss.png
+BookSprite: SRD-amoonguss-BookSprite.png
+BoxSprite: SRD-amoonguss-BoxSprite.png
 DexCategory: Mushroom Pokemon
 DexDescription: In ancient times the tip of their caps had two eye-like patterns and
   it made a swaying motion to lure prey to itself, but as they became Pokeball-looking
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-amoonguss.png
+HomeSprite: SRD-amoonguss-HomeSprite.png
 Learnset: '[[SRD-Amoonguss-Learnset]]'
 Legendary: 'No'
 Name: Amoonguss
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-amoonguss.png|right]]
+![[SRD-amoonguss-BookSprite.png|right wsmall]]
 
 *Mushroom Pokemon*
 *In ancient times the tip of their caps had two eye-like patterns and it made a swaying motion to lure prey to itself, but as they became Pokeball-looking few Pokemon fall for it. It is still very venomous, though.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Effect Spore|Effect Spore]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-amoonguss.png|right]]
+![[SRD-amoonguss-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-amoonguss-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Shield Dust
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME265.png
-BookShinyImageName: HOME265_s.png
-BoxSprite: SRD-BoxSprite-wurmple.png
+BookSprite: SRD-wurmple-BookSprite.png
+BoxSprite: SRD-wurmple-BoxSprite.png
 DexCategory: Worm Pokemon
 DexDescription: It uses the spikes on its rear to peel the trees and feed on their
   sap. Their feet have suction pads to climb easily. Wurmples are plentiful and live
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Run Away
-HomeSprite: SRD-HomeSprite-wurmple.png
+HomeSprite: SRD-wurmple-HomeSprite.png
 Learnset: '[[SRD-Wurmple-Learnset]]'
 Legendary: 'No'
 Name: Wurmple
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-wurmple.png|right]]
+![[SRD-wurmple-BookSprite.png|right wsmall]]
 
 *Worm Pokemon*
 *It uses the spikes on its rear to peel the trees and feed on their sap. Their feet have suction pads to climb easily. Wurmples are plentiful and live in forests, but they are often attacked by bird Pokemon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shield Dust|Shield Dust]] ([[SRD-Run Away|Run Away]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-wurmple.png|right]]
+![[SRD-wurmple-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-wurmple-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Lightning Rod
 Ability2: Motor Drive
 Baby: 'No'
-BookImageName: HOME523.png
-BookShinyImageName: HOME523_s.png
-BoxSprite: SRD-BoxSprite-zebstrika.png
+BookSprite: SRD-zebstrika-BookSprite.png
+BoxSprite: SRD-zebstrika-BoxSprite.png
 DexCategory: Thunderbolt Pokemon
 DexDescription: "It is very ill tempered and wild, there have been very few cases\
   \ of it being successfully tamed. It can shoot lightning from it\u2019s mane in\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Sap Sipper
-HomeSprite: SRD-HomeSprite-zebstrika.png
+HomeSprite: SRD-zebstrika-HomeSprite.png
 Learnset: '[[SRD-Zebstrika-Learnset]]'
 Legendary: 'No'
 Name: Zebstrika
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zebstrika.png|right]]
+![[SRD-zebstrika-BookSprite.png|right wsmall]]
 
 *Thunderbolt Pokemon*
 *It is very ill tempered and wild, there have been very few cases of it being successfully tamed. It can shoot lightning from it’s mane in all directions. If you try to mount it without warning it will shock you.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Lightning Rod|Lightning Rod]] / [[SRD-Motor Drive|Motor Drive]] ([[SRD-Sap Sipper|Sap Sipper]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-zebstrika.png|right]]
+![[SRD-zebstrika-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-zebstrika-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

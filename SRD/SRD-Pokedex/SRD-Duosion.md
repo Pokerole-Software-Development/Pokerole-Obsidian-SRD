@@ -2,9 +2,8 @@
 Ability1: Overcoat
 Ability2: Magic Guard
 Baby: 'No'
-BookImageName: HOME578.png
-BookShinyImageName: HOME578_s.png
-BoxSprite: SRD-BoxSprite-duosion.png
+BookSprite: SRD-duosion-BookSprite.png
+BoxSprite: SRD-duosion-BoxSprite.png
 DexCategory: Mitosis Pokemon
 DexDescription: "It developed two brains when it evolved, due to this it has a split\
   \ personality. At times it may suddenly try to take two different actions at once.\
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-duosion.png
+HomeSprite: SRD-duosion-HomeSprite.png
 Learnset: '[[SRD-Duosion-Learnset]]'
 Legendary: 'No'
 Name: Duosion
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-duosion.png|right]]
+![[SRD-duosion-BookSprite.png|right wsmall]]
 
 *Mitosis Pokemon*
 *It developed two brains when it evolved, due to this it has a split personality. At times it may suddenly try to take two different actions at once. When the two brains finally synchronize it shows it’s max power.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Overcoat|Overcoat]] / [[SRD-Magic Guard|Magic Guard]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-duosion.png|right]]
+![[SRD-duosion-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-duosion-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

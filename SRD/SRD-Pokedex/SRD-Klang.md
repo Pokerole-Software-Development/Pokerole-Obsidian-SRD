@@ -2,9 +2,8 @@
 Ability1: Plus
 Ability2: Minus
 Baby: 'No'
-BookImageName: HOME600.png
-BookShinyImageName: HOME600_s.png
-BoxSprite: SRD-BoxSprite-klang.png
+BookSprite: SRD-klang-BookSprite.png
+BoxSprite: SRD-klang-BoxSprite.png
 DexCategory: Gear Pokemon
 DexDescription: Minigear and big gear comprise its body. If the minigear is detached
   it will turn off both gears. It communicates with others by rotating. When its angry
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Clear Body
-HomeSprite: SRD-HomeSprite-klang.png
+HomeSprite: SRD-klang-HomeSprite.png
 Learnset: '[[SRD-Klang-Learnset]]'
 Legendary: 'No'
 Name: Klang
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-klang.png|right]]
+![[SRD-klang-BookSprite.png|right wsmall]]
 
 *Gear Pokemon*
 *Minigear and big gear comprise its body. If the minigear is detached it will turn off both gears. It communicates with others by rotating. When its angry or afraid, it rotates faster.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Plus|Plus]] / [[SRD-Minus|Minus]] ([[SRD-Clear Body|Clear Body]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-klang.png|right]]
+![[SRD-klang-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-klang-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME386.png
-BookShinyImageName: HOME386_s.png
-BoxSprite: SRD-BoxSprite-deoxys.png
+BookSprite: SRD-deoxys-BookSprite.png
+BoxSprite: SRD-deoxys-BoxSprite.png
 DexCategory: No Data
 DexDescription: "A space expedition had to be aborted due to an emergency. The ship\u2019\
   s crew mentioned a creature attacking them inside their ship. They all gave different\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-deoxys.png
+HomeSprite: SRD-deoxys-HomeSprite.png
 Learnset: '[[SRD-Deoxys-Learnset]]'
 Legendary: 'Yes'
 Name: Deoxys
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-deoxys.png|right]]
+![[SRD-deoxys-BookSprite.png|right wsmall]]
 
 *No Data*
 *A space expedition had to be aborted due to an emergency. The ship’s crew mentioned a creature attacking them inside their ship. They all gave different descriptions of said creature.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-deoxys.png|right]]
+![[SRD-deoxys-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::4)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::4)/(MaxInsight::4)     |
+
+![[SRD-deoxys-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

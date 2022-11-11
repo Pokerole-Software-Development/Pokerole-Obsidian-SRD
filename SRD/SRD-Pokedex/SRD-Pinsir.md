@@ -2,9 +2,8 @@
 Ability1: Hyper Cutter
 Ability2: Mold Breaker
 Baby: 'No'
-BookImageName: HOME127.png
-BookShinyImageName: HOME127_s.png
-BoxSprite: SRD-BoxSprite-pinsir.png
+BookSprite: SRD-pinsir-BookSprite.png
+BoxSprite: SRD-pinsir-BoxSprite.png
 DexCategory: Stagbeetle Pokemon
 DexDescription: Their pincers are strong enough to shatter thick logs. Because they
   dislike cold, Pinsirs burrow and sleep under the ground on chilly nights. They like
@@ -17,7 +16,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Moxie
-HomeSprite: SRD-HomeSprite-pinsir.png
+HomeSprite: SRD-pinsir-HomeSprite.png
 Learnset: '[[SRD-Pinsir-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-pinsir.png|right]]
+![[SRD-pinsir-BookSprite.png|right wsmall]]
 
 *Stagbeetle Pokemon*
 *Their pincers are strong enough to shatter thick logs. Because they dislike cold, Pinsirs burrow and sleep under the ground on chilly nights. They like to eat sap and honey, but they are aggressive by nature.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Mold Breaker|Mold Breaker]] ([[SRD-Moxie|Moxie]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-pinsir.png|right]]
+![[SRD-pinsir-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-pinsir-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

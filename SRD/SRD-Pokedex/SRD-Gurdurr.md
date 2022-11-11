@@ -2,9 +2,8 @@
 Ability1: Guts
 Ability2: Sheer Force
 Baby: 'No'
-BookImageName: HOME533.png
-BookShinyImageName: HOME533_s.png
-BoxSprite: SRD-BoxSprite-gurdurr.png
+BookSprite: SRD-gurdurr-BookSprite.png
+BoxSprite: SRD-gurdurr-BoxSprite.png
 DexCategory: Muscular Pokemon
 DexDescription: "This Pokemon is very muscular and strongly built. It likes to show\
   \ off it\u2019s strength and muscles. Some years back a famous wrestler got defeated\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Iron Fist
-HomeSprite: SRD-HomeSprite-gurdurr.png
+HomeSprite: SRD-gurdurr-HomeSprite.png
 Learnset: '[[SRD-Gurdurr-Learnset]]'
 Legendary: 'No'
 Name: Gurdurr
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gurdurr.png|right]]
+![[SRD-gurdurr-BookSprite.png|right wsmall]]
 
 *Muscular Pokemon*
 *This Pokemon is very muscular and strongly built. It likes to show off it’s strength and muscles. Some years back a famous wrestler got defeated in just a few seconds by one of these Pokemon.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Guts|Guts]] / [[SRD-Sheer Force|Sheer Force]] ([[SRD-Iron Fist|Iron Fist]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-gurdurr.png|right]]
+![[SRD-gurdurr-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-gurdurr-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

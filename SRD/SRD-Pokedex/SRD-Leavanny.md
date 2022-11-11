@@ -2,9 +2,8 @@
 Ability1: Swarm
 Ability2: Chlorophyll
 Baby: 'No'
-BookImageName: HOME542.png
-BookShinyImageName: HOME542_s.png
-BoxSprite: SRD-BoxSprite-leavanny.png
+BookSprite: SRD-leavanny-BookSprite.png
+BoxSprite: SRD-leavanny-BoxSprite.png
 DexCategory: Nurturing Pokemon
 DexDescription: It is a gentle and caring Pokemon. Mostly known for making clothes
   out of leaves and silk for any small pokemon it finds. It warms and protects its
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Overcoat
-HomeSprite: SRD-HomeSprite-leavanny.png
+HomeSprite: SRD-leavanny-HomeSprite.png
 Learnset: '[[SRD-Leavanny-Learnset]]'
 Legendary: 'No'
 Name: Leavanny
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-leavanny.png|right]]
+![[SRD-leavanny-BookSprite.png|right wsmall]]
 
 *Nurturing Pokemon*
 *It is a gentle and caring Pokemon. Mostly known for making clothes out of leaves and silk for any small pokemon it finds. It warms and protects its eggs making nests of fermenting leaves.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-leavanny.png|right]]
+![[SRD-leavanny-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-leavanny-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

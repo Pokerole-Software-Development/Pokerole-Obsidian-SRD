@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME009.png
-BookShinyImageName: HOME009_s.png
-BoxSprite: SRD-BoxSprite-blastoise.png
+BookSprite: SRD-blastoise-BookSprite.png
+BoxSprite: SRD-blastoise-BoxSprite.png
 DexCategory: Shellfish Pokemon
 DexDescription: The jets of water it spouts from the rocket cannons on its shell have
   been recorded to punch through steel. It is confident on its great defense and water
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Rain Dish
-HomeSprite: SRD-HomeSprite-blastoise.png
+HomeSprite: SRD-blastoise-HomeSprite.png
 Learnset: '[[SRD-Blastoise-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-blastoise.png|right]]
+![[SRD-blastoise-BookSprite.png|right wsmall]]
 
 *Shellfish Pokemon*
 *The jets of water it spouts from the rocket cannons on its shell have been recorded to punch through steel. It is confident on its great defense and water spouts to overcome any obstacle.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Rain Dish|Rain Dish]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-blastoise.png|right]]
+![[SRD-blastoise-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-blastoise-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

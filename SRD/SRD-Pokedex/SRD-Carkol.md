@@ -2,9 +2,8 @@
 Ability1: Steam Engine
 Ability2: Flame Body
 Baby: 'No'
-BookImageName: HOME838.png
-BookShinyImageName: HOME838_s.png
-BoxSprite: SRD-BoxSprite-carkol.png
+BookSprite: SRD-carkol-BookSprite.png
+BoxSprite: SRD-carkol-BoxSprite.png
 DexCategory: Coal Pokemon
 DexDescription: It rolls its legs, their heavy weight creates parallel trackmarks
   that allow them to travel faster through caves and tunnels. In old times, people
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Flash Fire
-HomeSprite: SRD-HomeSprite-carkol.png
+HomeSprite: SRD-carkol-HomeSprite.png
 Learnset: '[[SRD-Carkol-Learnset]]'
 Legendary: 'No'
 Name: Carkol
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-carkol.png|right]]
+![[SRD-carkol-BookSprite.png|right wsmall]]
 
 *Coal Pokemon*
 *It rolls its legs, their heavy weight creates parallel trackmarks that allow them to travel faster through caves and tunnels. In old times, people used Carkol's coal as fuel for they can hold fire for a long time.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Steam Engine|Steam Engine]] / [[SRD-Flame Body|Flame Body]] ([[SRD-Flash Fire|Flash Fire]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-carkol.png|right]]
+![[SRD-carkol-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-carkol-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

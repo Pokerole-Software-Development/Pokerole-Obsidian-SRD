@@ -2,9 +2,8 @@
 Ability1: Rivalry
 Ability2: Mold Breaker
 Baby: 'No'
-BookImageName: HOME611.png
-BookShinyImageName: HOME611_s.png
-BoxSprite: SRD-BoxSprite-fraxure.png
+BookSprite: SRD-fraxure-BookSprite.png
+BoxSprite: SRD-fraxure-BoxSprite.png
 DexCategory: Axe Jaw Pokemon
 DexDescription: "Their tusks can shatter rocks. Territory battles between Fraxure\
   \ can be intensely violent. The tusks don\u2019t grow back anymore, if you find\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Unnerve
-HomeSprite: SRD-HomeSprite-fraxure.png
+HomeSprite: SRD-fraxure-HomeSprite.png
 Learnset: '[[SRD-Fraxure-Learnset]]'
 Legendary: 'No'
 Name: Fraxure
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-fraxure.png|right]]
+![[SRD-fraxure-BookSprite.png|right wsmall]]
 
 *Axe Jaw Pokemon*
 *Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent. The tusks don’t grow back anymore, if you find a Fraxure with both tusks whole, it means it’s one of the strongest.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Rivalry|Rivalry]] / [[SRD-Mold Breaker|Mold Breaker]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-fraxure.png|right]]
+![[SRD-fraxure-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-fraxure-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

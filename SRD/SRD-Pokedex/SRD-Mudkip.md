@@ -2,9 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME258.png
-BookShinyImageName: HOME258_s.png
-BoxSprite: SRD-BoxSprite-mudkip.png
+BookSprite: SRD-mudkip-BookSprite.png
+BoxSprite: SRD-mudkip-BoxSprite.png
 DexCategory: Mud Fish Pokemon
 DexDescription: "The fin on its head is a radar to sense movement underwater. They\
   \ bury themselves under the mud at the water\u2019s edge and at the bottom of rivers.\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Damp
-HomeSprite: SRD-HomeSprite-mudkip.png
+HomeSprite: SRD-mudkip-HomeSprite.png
 Learnset: '[[SRD-Mudkip-Learnset]]'
 Legendary: 'No'
 Name: Mudkip
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mudkip.png|right]]
+![[SRD-mudkip-BookSprite.png|right wsmall]]
 
 *Mud Fish Pokemon*
 *The fin on its head is a radar to sense movement underwater. They bury themselves under the mud at the water’s edge and at the bottom of rivers. They never back away even if their foe is bigger.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Damp|Damp]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-mudkip.png|right]]
+![[SRD-mudkip-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-mudkip-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

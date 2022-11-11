@@ -2,9 +2,8 @@
 Ability1: Shed Skin
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME011.png
-BookShinyImageName: HOME011_s.png
-BoxSprite: SRD-BoxSprite-metapod.png
+BookSprite: SRD-metapod-BookSprite.png
+BoxSprite: SRD-metapod-BoxSprite.png
 DexCategory: Cocoon Pokemon
 DexDescription: Its shell can be as hard as an iron slab. A Metapod does not move
   very much because it is preparing its soft innards for evolution inside the shell.
@@ -17,7 +16,7 @@ Height:
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-metapod.png
+HomeSprite: SRD-metapod-HomeSprite.png
 Learnset: '[[SRD-Metapod-Learnset]]'
 Legendary: 'No'
 Name: Metapod
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-metapod.png|right]]
+![[SRD-metapod-BookSprite.png|right wsmall]]
 
 *Cocoon Pokemon*
 *Its shell can be as hard as an iron slab. A Metapod does not move very much because it is preparing its soft innards for evolution inside the shell. It is known as one of the fastest evolving Pokemon in the world.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-metapod.png|right]]
+![[SRD-metapod-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-metapod-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

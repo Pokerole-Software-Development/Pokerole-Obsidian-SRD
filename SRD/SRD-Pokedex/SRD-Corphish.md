@@ -2,9 +2,8 @@
 Ability1: Hyper Cutter
 Ability2: Shell Armor
 Baby: 'No'
-BookImageName: HOME341.png
-BookShinyImageName: HOME341_s.png
-BoxSprite: SRD-BoxSprite-corphish.png
+BookSprite: SRD-corphish-BookSprite.png
+BoxSprite: SRD-corphish-BoxSprite.png
 DexCategory: Ruffian Pokemon
 DexDescription: Corphish were originally foreign Pokemon that were imported as pets.
   They eventually turned up in the wild and reproduced a lot. They are resilient and
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Adaptability
-HomeSprite: SRD-HomeSprite-corphish.png
+HomeSprite: SRD-corphish-HomeSprite.png
 Learnset: '[[SRD-Corphish-Learnset]]'
 Legendary: 'No'
 Name: Corphish
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-corphish.png|right]]
+![[SRD-corphish-BookSprite.png|right wsmall]]
 
 *Ruffian Pokemon*
 *Corphish were originally foreign Pokemon that were imported as pets. They eventually turned up in the wild and reproduced a lot. They are resilient and can live in polluted water. Beware of their pincers.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Adaptability|Adaptability]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-corphish.png|right]]
+![[SRD-corphish-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-corphish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

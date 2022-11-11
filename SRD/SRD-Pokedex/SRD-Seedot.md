@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: Early Bird
 Baby: 'No'
-BookImageName: HOME273.png
-BookShinyImageName: HOME273_s.png
-BoxSprite: SRD-BoxSprite-seedot.png
+BookSprite: SRD-seedot-BookSprite.png
+BoxSprite: SRD-seedot-BoxSprite.png
 DexCategory: Acorn Pokemon
 DexDescription: They attach to tree branches to suck moisture from them. While immobile,
   the young are identical to real acorns. They enjoy scaring other Pokemon, especially
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Pickpocket
-HomeSprite: SRD-HomeSprite-seedot.png
+HomeSprite: SRD-seedot-HomeSprite.png
 Learnset: '[[SRD-Seedot-Learnset]]'
 Legendary: 'No'
 Name: Seedot
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-seedot.png|right]]
+![[SRD-seedot-BookSprite.png|right wsmall]]
 
 *Acorn Pokemon*
 *They attach to tree branches to suck moisture from them. While immobile, the young are identical to real acorns. They enjoy scaring other Pokemon, especially Pidgeys. If they fall they are at risk of being eaten.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-seedot.png|right]]
+![[SRD-seedot-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-seedot-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

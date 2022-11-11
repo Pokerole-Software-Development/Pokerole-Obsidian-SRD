@@ -2,9 +2,8 @@
 Ability1: Rock Head
 Ability2: Pressure
 Baby: 'No'
-BookImageName: HOME142.png
-BookShinyImageName: HOME142_s.png
-BoxSprite: SRD-BoxSprite-aerodactyl.png
+BookSprite: SRD-aerodactyl-BookSprite.png
+BoxSprite: SRD-aerodactyl-BoxSprite.png
 DexCategory: Fossil Pokemon
 DexDescription: "A vicious Pokemon from the distant past. It appears to have flown\
   \ by spreading its wings and gliding. One has been revived from a fossil. It\u2019\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Unnerve
-HomeSprite: SRD-HomeSprite-aerodactyl.png
+HomeSprite: SRD-aerodactyl-HomeSprite.png
 Learnset: '[[SRD-Aerodactyl-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-aerodactyl.png|right]]
+![[SRD-aerodactyl-BookSprite.png|right wsmall]]
 
 *Fossil Pokemon*
 *A vicious Pokemon from the distant past. It appears to have flown by spreading its wings and gliding. One has been revived from a fossil. It’s very dangerous; it attacks with the intent to tear apart its victims.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Rock Head|Rock Head]] / [[SRD-Pressure|Pressure]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-aerodactyl.png|right]]
+![[SRD-aerodactyl-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-aerodactyl-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

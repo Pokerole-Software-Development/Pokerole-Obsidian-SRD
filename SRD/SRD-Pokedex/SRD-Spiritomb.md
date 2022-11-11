@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME442.png
-BookShinyImageName: HOME442_s.png
-BoxSprite: SRD-BoxSprite-spiritomb.png
+BookSprite: SRD-spiritomb-BookSprite.png
+BoxSprite: SRD-spiritomb-BoxSprite.png
 DexCategory: Forbidden Pokemon
 DexDescription: A legend from 500 years ago tells how it got bound into an Odd Keystone
   after cursing an entire town. Two have been found in recent times. It is said that
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Infiltrator
-HomeSprite: SRD-HomeSprite-spiritomb.png
+HomeSprite: SRD-spiritomb-HomeSprite.png
 Learnset: '[[SRD-Spiritomb-Learnset]]'
 Legendary: 'No'
 Name: Spiritomb
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-spiritomb.png|right]]
+![[SRD-spiritomb-BookSprite.png|right wsmall]]
 
 *Forbidden Pokemon*
 *A legend from 500 years ago tells how it got bound into an Odd Keystone after cursing an entire town. Two have been found in recent times. It is said that its vortex has more than 100 haunted souls.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-spiritomb.png|right]]
+![[SRD-spiritomb-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-spiritomb-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

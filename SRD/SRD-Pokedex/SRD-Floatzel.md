@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME419.png
-BookShinyImageName: HOME419_s.png
-BoxSprite: SRD-BoxSprite-floatzel.png
+BookSprite: SRD-floatzel-BookSprite.png
+BoxSprite: SRD-floatzel-BoxSprite.png
 DexCategory: Sea Weasel Pokemon
 DexDescription: It floats using its well-developed sack. They roam close to fishing
   spots to steal an easy meal. People allow them to hang around their boats because
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Water Veil
-HomeSprite: SRD-HomeSprite-floatzel.png
+HomeSprite: SRD-floatzel-HomeSprite.png
 Learnset: '[[SRD-Floatzel-Learnset]]'
 Legendary: 'No'
 Name: Floatzel
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-floatzel.png|right]]
+![[SRD-floatzel-BookSprite.png|right wsmall]]
 
 *Sea Weasel Pokemon*
 *It floats using its well-developed sack. They roam close to fishing spots to steal an easy meal. People allow them to hang around their boats because they help whenever a person falls into the water.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] ([[SRD-Water Veil|Water Veil]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-floatzel.png|right]]
+![[SRD-floatzel-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-floatzel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

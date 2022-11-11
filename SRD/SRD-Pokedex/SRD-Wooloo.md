@@ -2,9 +2,8 @@
 Ability1: Fluffy
 Ability2: Run Away
 Baby: 'No'
-BookImageName: HOME831.png
-BookShinyImageName: HOME831_s.png
-BoxSprite: SRD-BoxSprite-wooloo.png
+BookSprite: SRD-wooloo-BookSprite.png
+BoxSprite: SRD-wooloo-BoxSprite.png
 DexCategory: Sheep Pokemon
 DexDescription: Woolo's wool is incredibly resilient, it serves as a cushion when
   they fall from high mountain cliffs. They need to be sheared or their wool will
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Bulletproof
-HomeSprite: SRD-HomeSprite-wooloo.png
+HomeSprite: SRD-wooloo-HomeSprite.png
 Learnset: '[[SRD-Wooloo-Learnset]]'
 Legendary: 'No'
 Name: Wooloo
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-wooloo.png|right]]
+![[SRD-wooloo-BookSprite.png|right wsmall]]
 
 *Sheep Pokemon*
 *Woolo's wool is incredibly resilient, it serves as a cushion when they fall from high mountain cliffs. They need to be sheared or their wool will be too heavy to move. A sweater made with this wool will last for a lifetime.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Fluffy|Fluffy]] / [[SRD-Run Away|Run Away]] ([[SRD-Bulletproof|Bulletproof]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-wooloo.png|right]]
+![[SRD-wooloo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-wooloo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

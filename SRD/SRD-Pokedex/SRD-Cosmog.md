@@ -2,9 +2,8 @@
 Ability1: Unaware
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME789.png
-BookShinyImageName: HOME789_s.png
-BoxSprite: SRD-BoxSprite-cosmog.png
+BookSprite: SRD-cosmog-BookSprite.png
+BoxSprite: SRD-cosmog-BoxSprite.png
 DexCategory: No Data
 DexDescription: A creature like this was observed on a telescope. It is rumored to
   be a Pokemon from another world, but no specific details are known.
@@ -16,7 +15,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-cosmog.png
+HomeSprite: SRD-cosmog-HomeSprite.png
 Learnset: '[[SRD-Cosmog-Learnset]]'
 Legendary: 'No'
 Name: Cosmog
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cosmog.png|right]]
+![[SRD-cosmog-BookSprite.png|right wsmall]]
 
 *No Data*
 *A creature like this was observed on a telescope. It is rumored to be a Pokemon from another world, but no specific details are known.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Unaware|Unaware]]
 **Base HP**:: 3
 
-![[SRD-BoxSprite-cosmog.png|right]]
+![[SRD-cosmog-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-cosmog-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

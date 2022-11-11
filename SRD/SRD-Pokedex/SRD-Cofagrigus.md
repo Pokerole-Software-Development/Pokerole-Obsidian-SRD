@@ -2,9 +2,8 @@
 Ability1: Mummy
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME563.png
-BookShinyImageName: HOME563_s.png
-BoxSprite: SRD-BoxSprite-cofagrigus.png
+BookSprite: SRD-cofagrigus-BookSprite.png
+BoxSprite: SRD-cofagrigus-BoxSprite.png
 DexCategory: Coffin Pokemon
 DexDescription: This Pokemon has only been seen few times in the ruins and tombs of
   ancient civilizations. It curses and transforms people and Pokemon into mummy-like
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-cofagrigus.png
+HomeSprite: SRD-cofagrigus-HomeSprite.png
 Learnset: '[[SRD-Cofagrigus-Learnset]]'
 Legendary: 'No'
 Name: Cofagrigus
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cofagrigus.png|right]]
+![[SRD-cofagrigus-BookSprite.png|right wsmall]]
 
 *Coffin Pokemon*
 *This Pokemon has only been seen few times in the ruins and tombs of ancient civilizations. It curses and transforms people and Pokemon into mummy-like creatures. It is said it feeds on pure gold.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Mummy|Mummy]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-cofagrigus.png|right]]
+![[SRD-cofagrigus-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::4)/(MaxVitality::8)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-cofagrigus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

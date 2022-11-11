@@ -2,9 +2,8 @@
 Ability1: Oblivious
 Ability2: Forewarn
 Baby: 'Yes'
-BookImageName: HOME238.png
-BookShinyImageName: HOME238_s.png
-BoxSprite: SRD-BoxSprite-smoochum.png
+BookSprite: SRD-smoochum-BookSprite.png
+BoxSprite: SRD-smoochum-BoxSprite.png
 DexCategory: Kiss Pokemon
 DexDescription: They examine their surroundings with their lips. They love to smooch,
   but Pokemon dislike their kisses. Smoochums are always running excitedly, but they
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Hydration
-HomeSprite: SRD-HomeSprite-smoochum.png
+HomeSprite: SRD-smoochum-HomeSprite.png
 Learnset: '[[SRD-Smoochum-Learnset]]'
 Legendary: 'No'
 Name: Smoochum
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-smoochum.png|right]]
+![[SRD-smoochum-BookSprite.png|right wsmall]]
 
 *Kiss Pokemon*
 *They examine their surroundings with their lips. They love to smooch, but Pokemon dislike their kisses. Smoochums are always running excitedly, but they are clumsy and end up stumbling and crying.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Forewarn|Forewarn]] ([[SRD-Hydration|Hydration]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-smoochum.png|right]]
+![[SRD-smoochum-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::2)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-smoochum-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

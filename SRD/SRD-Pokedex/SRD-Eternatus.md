@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME890.png
-BookShinyImageName: HOME890_s.png
-BoxSprite: SRD-BoxSprite-eternatus.png
+BookSprite: SRD-eternatus-BookSprite.png
+BoxSprite: SRD-eternatus-BoxSprite.png
 DexCategory: No Data
 DexDescription: A large meteorite fell on the Galar region 20, 000 years ago, ever
   since this happened a power surge has been causing Pokemon to grow gigantic, this
@@ -17,7 +16,7 @@ Height:
   Feet: 65.6
   Meters: 20.0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-eternatus.png
+HomeSprite: SRD-eternatus-HomeSprite.png
 Learnset: '[[SRD-Eternatus-Learnset]]'
 Legendary: 'Yes'
 Name: Eternatus
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-eternatus.png|right]]
+![[SRD-eternatus-BookSprite.png|right wsmall]]
 
 *No Data*
 *A large meteorite fell on the Galar region 20, 000 years ago, ever since this happened a power surge has been causing Pokemon to grow gigantic, this phenomenon is happening more in recent years.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]]
 **Base HP**:: 10
 
-![[SRD-BoxSprite-eternatus.png|right]]
+![[SRD-eternatus-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-eternatus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME283.png
-BookShinyImageName: HOME283_s.png
-BoxSprite: SRD-BoxSprite-surskit.png
+BookSprite: SRD-surskit-BookSprite.png
+BoxSprite: SRD-surskit-BoxSprite.png
 DexCategory: Pond Skater Pokemon
 DexDescription: Surskit secretes oil from its feet to skate on water. It may be found
   on ponds, lakes and puddles in towns. The tip of its head produces a delicious sugary
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Rain Dish
-HomeSprite: SRD-HomeSprite-surskit.png
+HomeSprite: SRD-surskit-HomeSprite.png
 Learnset: '[[SRD-Surskit-Learnset]]'
 Legendary: 'No'
 Name: Surskit
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-surskit.png|right]]
+![[SRD-surskit-BookSprite.png|right wsmall]]
 
 *Pond Skater Pokemon*
 *Surskit secretes oil from its feet to skate on water. It may be found on ponds, lakes and puddles in towns. The tip of its head produces a delicious sugary syrup often used in desserts and sweets.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] ([[SRD-Rain Dish|Rain Dish]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-surskit.png|right]]
+![[SRD-surskit-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-surskit-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

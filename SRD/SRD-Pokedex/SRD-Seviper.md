@@ -2,9 +2,8 @@
 Ability1: Shed Skin
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME336.png
-BookShinyImageName: HOME336_s.png
-BoxSprite: SRD-BoxSprite-seviper.png
+BookSprite: SRD-seviper-BookSprite.png
+BoxSprite: SRD-seviper-BoxSprite.png
 DexCategory: Fang Snake Pokemon
 DexDescription: "Their hate for the Zangoose has been boiling for so long it\u2019\
   s now a basic instinct. They battle using their sword-edged poisonous tail, hiding\
@@ -17,7 +16,7 @@ Height:
   Feet: 8.9
   Meters: 2.7
 HiddenAbility: Infiltrator
-HomeSprite: SRD-HomeSprite-seviper.png
+HomeSprite: SRD-seviper-HomeSprite.png
 Learnset: '[[SRD-Seviper-Learnset]]'
 Legendary: 'No'
 Name: Seviper
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-seviper.png|right]]
+![[SRD-seviper-BookSprite.png|right wsmall]]
 
 *Fang Snake Pokemon*
 *Their hate for the Zangoose has been boiling for so long it’s now a basic instinct. They battle using their sword-edged poisonous tail, hiding in tall grass until an unwary prey gets close enough.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-seviper.png|right]]
+![[SRD-seviper-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-seviper-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

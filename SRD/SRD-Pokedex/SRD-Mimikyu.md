@@ -2,9 +2,8 @@
 Ability1: Disguise
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME778.png
-BookShinyImageName: HOME778_s.png
-BoxSprite: SRD-BoxSprite-mimikyu.png
+BookSprite: SRD-mimikyu-BookSprite.png
+BoxSprite: SRD-mimikyu-BoxSprite.png
 DexCategory: Disguise Pokemon
 DexDescription: No one really knows what its true form looks like, the only scholar
   that dared to look under the veil died on the spot from the horror. It disguises
@@ -17,7 +16,7 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-mimikyu.png
+HomeSprite: SRD-mimikyu-HomeSprite.png
 Learnset: '[[SRD-Mimikyu-Learnset]]'
 Legendary: 'No'
 Name: Mimikyu
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mimikyu.png|right]]
+![[SRD-mimikyu-BookSprite.png|right wsmall]]
 
 *Disguise Pokemon*
 *No one really knows what its true form looks like, the only scholar that dared to look under the veil died on the spot from the horror. It disguises itself as a Pikachu in an effort to make friends.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Disguise|Disguise]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-mimikyu.png|right]]
+![[SRD-mimikyu-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-mimikyu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

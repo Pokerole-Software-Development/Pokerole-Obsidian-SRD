@@ -2,9 +2,8 @@
 Ability1: Aerilate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME373M.png
-BookShinyImageName: HOME373M_s.png
-BoxSprite: SRD-BoxSprite-salamence-mega.png
+BookSprite: SRD-salamence-mega-BookSprite.png
+BoxSprite: SRD-salamence-mega-BoxSprite.png
 DexCategory: Dragon Pokemon
 DexDescription: "The power of the Mega Stone gives it the nickname \u201CThe blood-soaked\
   \ Crescent\u201D. It is violent and very unpredictable, even turning on their own\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-salamence-mega.png
+HomeSprite: SRD-salamence-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Salamence-Learnset]]'
 Legendary: 'No'
 Name: Mega-Salamence
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-salamence-mega.png|right]]
+![[SRD-salamence-mega-BookSprite.png|right wsmall]]
 
 *Dragon Pokemon*
 *The power of the Mega Stone gives it the nickname “The blood-soaked Crescent”. It is violent and very unpredictable, even turning on their own trainer. Many believe it is because its bent wings cause it pain.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Aerilate|Aerilate]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-salamence-mega.png|right]]
+![[SRD-salamence-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-salamence-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

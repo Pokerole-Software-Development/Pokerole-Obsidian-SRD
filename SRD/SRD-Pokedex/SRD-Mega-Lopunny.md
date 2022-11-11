@@ -2,9 +2,8 @@
 Ability1: Scrappy
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME428M.png
-BookShinyImageName: HOME428M_s.png
-BoxSprite: SRD-BoxSprite-lopunny-mega.png
+BookSprite: SRD-lopunny-mega-BookSprite.png
+BoxSprite: SRD-lopunny-mega-BoxSprite.png
 DexCategory: Rabbit Pokemon
 DexDescription: The power of the Mega Stone awakens its combative nature. Most of
   its fur is lost due to constant fighting, even its ears are used as weapons, whipping
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-lopunny-mega.png
+HomeSprite: SRD-lopunny-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Lopunny-Learnset]]'
 Legendary: 'No'
 Name: Mega-Lopunny
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lopunny-mega.png|right]]
+![[SRD-lopunny-mega-BookSprite.png|right wsmall]]
 
 *Rabbit Pokemon*
 *The power of the Mega Stone awakens its combative nature. Most of its fur is lost due to constant fighting, even its ears are used as weapons, whipping foes with heavy hits.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Scrappy|Scrappy]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-lopunny-mega.png|right]]
+![[SRD-lopunny-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-lopunny-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

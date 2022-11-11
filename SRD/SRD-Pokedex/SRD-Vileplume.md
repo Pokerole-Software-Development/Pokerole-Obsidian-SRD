@@ -2,9 +2,8 @@
 Ability1: Chlorophyll
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME045.png
-BookShinyImageName: HOME045_s.png
-BoxSprite: SRD-BoxSprite-vileplume.png
+BookSprite: SRD-vileplume-BookSprite.png
+BoxSprite: SRD-vileplume-BoxSprite.png
 DexCategory: Flower Pokemon
 DexDescription: "It lives in marshlands and jungles where it\u2019s often mistaken\
   \ for local flora. The air around a Vileplume turns yellow with the powder it releases\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Effect Spore
-HomeSprite: SRD-HomeSprite-vileplume.png
+HomeSprite: SRD-vileplume-HomeSprite.png
 Learnset: '[[SRD-Vileplume-Learnset]]'
 Legendary: 'No'
 Name: Vileplume
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-vileplume.png|right]]
+![[SRD-vileplume-BookSprite.png|right wsmall]]
 
 *Flower Pokemon*
 *It lives in marshlands and jungles where it’s often mistaken for local flora. The air around a Vileplume turns yellow with the powder it releases as it walks. The pollen is highly toxic and causes paralysis.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Effect Spore|Effect Spore]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-vileplume.png|right]]
+![[SRD-vileplume-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-vileplume-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

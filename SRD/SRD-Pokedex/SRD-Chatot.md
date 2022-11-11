@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Tangled Feet
 Baby: 'No'
-BookImageName: HOME441.png
-BookShinyImageName: HOME441_s.png
-BoxSprite: SRD-BoxSprite-chatot.png
+BookSprite: SRD-chatot-BookSprite.png
+BoxSprite: SRD-chatot-BoxSprite.png
 DexCategory: Music Note Pokemon
 DexDescription: "It mimics the cries of other Pokemon to trick them into thinking\
   \ it\u2019s one of them, this way they won\u2019t attack it. Chatots that live with\
@@ -18,7 +17,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Big Pecks
-HomeSprite: SRD-HomeSprite-chatot.png
+HomeSprite: SRD-chatot-HomeSprite.png
 Learnset: '[[SRD-Chatot-Learnset]]'
 Legendary: 'No'
 Name: Chatot
@@ -38,7 +37,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-chatot.png|right]]
+![[SRD-chatot-BookSprite.png|right wsmall]]
 
 *Music Note Pokemon*
 *It mimics the cries of other Pokemon to trick them into thinking it’s one of them, this way they won’t attack it. Chatots that live with humans learn words and phrases but it’s unknown it they really know their meaning.*
@@ -49,7 +48,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Tangled Feet|Tangled Feet]] ([[SRD-Big Pecks|Big Pecks]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-chatot.png|right]]
+![[SRD-chatot-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -58,6 +57,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-chatot-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

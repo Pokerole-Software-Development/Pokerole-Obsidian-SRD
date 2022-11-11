@@ -2,9 +2,8 @@
 Ability1: Full Metal Body
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME791.png
-BookShinyImageName: HOME791_s.png
-BoxSprite: SRD-BoxSprite-solgaleo.png
+BookSprite: SRD-solgaleo-BookSprite.png
+BoxSprite: SRD-solgaleo-BoxSprite.png
 DexCategory: No Data
 DexDescription: There are legends about a being that radiated with the sun, on its
   forehead a third eye that connected to another dimension.
@@ -16,7 +15,7 @@ Height:
   Feet: 11.2
   Meters: 3.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-solgaleo.png
+HomeSprite: SRD-solgaleo-HomeSprite.png
 Learnset: '[[SRD-Solgaleo-Learnset]]'
 Legendary: 'Yes'
 Name: Solgaleo
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-solgaleo.png|right]]
+![[SRD-solgaleo-BookSprite.png|right wsmall]]
 
 *No Data*
 *There are legends about a being that radiated with the sun, on its forehead a third eye that connected to another dimension.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Full Metal Body|Full Metal Body]]
 **Base HP**:: 7
 
-![[SRD-BoxSprite-solgaleo.png|right]]
+![[SRD-solgaleo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-solgaleo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Shell Armor
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME080M.png
-BookShinyImageName: HOME080M_s.png
-BoxSprite: SRD-BoxSprite-slowbro-mega.png
+BookSprite: SRD-slowbro-mega-BookSprite.png
+BoxSprite: SRD-slowbro-mega-BoxSprite.png
 DexCategory: Hermit Crab Pokemon
 DexDescription: "With the power of the Mega Stone the Shellder on its tail becomes\
   \ a bulletproof armor that swallows its host\u2019s whole body. Slowpoke doesn\u2019\
@@ -17,7 +16,7 @@ Height:
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-slowbro-mega.png
+HomeSprite: SRD-slowbro-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Slowbro-Learnset]]'
 Legendary: 'No'
 Name: Mega-Slowbro
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-slowbro-mega.png|right]]
+![[SRD-slowbro-mega-BookSprite.png|right wsmall]]
 
 *Hermit Crab Pokemon*
 *With the power of the Mega Stone the Shellder on its tail becomes a bulletproof armor that swallows its host’s whole body. Slowpoke doesn’t seem to mind and looks pretty comfy to nest inside.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shell Armor|Shell Armor]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-slowbro-mega.png|right]]
+![[SRD-slowbro-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::4)/(MaxVitality::9)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-slowbro-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

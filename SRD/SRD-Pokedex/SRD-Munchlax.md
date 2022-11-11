@@ -2,9 +2,8 @@
 Ability1: Pickup
 Ability2: Thick Fat
 Baby: 'Yes'
-BookImageName: HOME446.png
-BookShinyImageName: HOME446_s.png
-BoxSprite: SRD-BoxSprite-munchlax.png
+BookSprite: SRD-munchlax-BookSprite.png
+BoxSprite: SRD-munchlax-BoxSprite.png
 DexCategory: Big Eater Pokemon
 DexDescription: A Munchlaxes appetite is never really satisfied, it can eat its weight
   in food and will almost never care about what it is eating. They tend to pick up
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Gluttony
-HomeSprite: SRD-HomeSprite-munchlax.png
+HomeSprite: SRD-munchlax-HomeSprite.png
 Learnset: '[[SRD-Munchlax-Learnset]]'
 Legendary: 'No'
 Name: Munchlax
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-munchlax.png|right]]
+![[SRD-munchlax-BookSprite.png|right wsmall]]
 
 *Big Eater Pokemon*
 *A Munchlaxes appetite is never really satisfied, it can eat its weight in food and will almost never care about what it is eating. They tend to pick up anything that looks edible and save it for later.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Thick Fat|Thick Fat]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-munchlax.png|right]]
+![[SRD-munchlax-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-munchlax-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

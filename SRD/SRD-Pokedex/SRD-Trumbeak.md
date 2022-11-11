@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Skill Link
 Baby: 'No'
-BookImageName: HOME732.png
-BookShinyImageName: HOME732_s.png
-BoxSprite: SRD-BoxSprite-trumbeak.png
+BookSprite: SRD-trumbeak-BookSprite.png
+BoxSprite: SRD-trumbeak-BoxSprite.png
 DexCategory: Bugle Beak Pokemon
 DexDescription: This Pokemon bends its beak to produce a variety of sounds, much to
   the annoyance of the neighbors. It also shoots a burst of berry seeds to its foes,
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Pickup
-HomeSprite: SRD-HomeSprite-trumbeak.png
+HomeSprite: SRD-trumbeak-HomeSprite.png
 Learnset: '[[SRD-Trumbeak-Learnset]]'
 Legendary: 'No'
 Name: Trumbeak
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-trumbeak.png|right]]
+![[SRD-trumbeak-BookSprite.png|right wsmall]]
 
 *Bugle Beak Pokemon*
 *This Pokemon bends its beak to produce a variety of sounds, much to the annoyance of the neighbors. It also shoots a burst of berry seeds to its foes, prey, or an unsuspecting passerby.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Skill Link|Skill Link]] ([[SRD-Pickup|Pickup]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-trumbeak.png|right]]
+![[SRD-trumbeak-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-trumbeak-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

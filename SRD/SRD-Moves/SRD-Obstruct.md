@@ -8,7 +8,7 @@ Description: In a reckless action, the user charges against the foe to stop its 
   spots.
 DmgType: Support
 Effect: Priority 4. Shield Move. * If the Foe used a Non-Ranged Physical Move against
-  the user, Reduce the Foes Defense by 2.
+  the user, Reduce the Foes Defense by 2. Reduce 3 Dice from the foe's Damage Pool.
 Name: Obstruct
 Power: 0
 Target: User

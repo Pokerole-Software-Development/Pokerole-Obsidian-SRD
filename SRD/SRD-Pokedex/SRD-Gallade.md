@@ -2,9 +2,8 @@
 Ability1: Steadfast
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME475.png
-BookShinyImageName: HOME475_s.png
-BoxSprite: SRD-BoxSprite-gallade.png
+BookSprite: SRD-gallade-BookSprite.png
+BoxSprite: SRD-gallade-BoxSprite.png
 DexCategory: Blade Pokemon
 DexDescription: "This Pokemon is male only. He has an extreme sense of courtesy. In\
   \ a battle, it uses the blades on his arms as if they were swords. It is a loyal\
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Justified
-HomeSprite: SRD-HomeSprite-gallade.png
+HomeSprite: SRD-gallade-HomeSprite.png
 Learnset: '[[SRD-Gallade-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-gallade.png|right]]
+![[SRD-gallade-BookSprite.png|right wsmall]]
 
 *Blade Pokemon*
 *This Pokemon is male only. He has an extreme sense of courtesy. In a battle, it uses the blades on his arms as if they were swords. It is a loyal Pokemon and won’t doubt to fiercely protect its trainer.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Steadfast|Steadfast]] ([[SRD-Justified|Justified]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-gallade.png|right]]
+![[SRD-gallade-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-gallade-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

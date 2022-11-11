@@ -2,9 +2,8 @@
 Ability1: Pure Power
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME308M.png
-BookShinyImageName: HOME308M_s.png
-BoxSprite: SRD-BoxSprite-medicham-mega.png
+BookSprite: SRD-medicham-mega-BookSprite.png
+BoxSprite: SRD-medicham-mega-BoxSprite.png
 DexCategory: Meditate Pokemon
 DexDescription: The power of the Mega Stone is tempered thanks to its meditation skills.
   This makes it increase all of its capabilities but not as much as other mega-evolutions,
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-medicham-mega.png
+HomeSprite: SRD-medicham-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Medicham-Learnset]]'
 Legendary: 'No'
 Name: Mega-Medicham
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-medicham-mega.png|right]]
+![[SRD-medicham-mega-BookSprite.png|right wsmall]]
 
 *Meditate Pokemon*
 *The power of the Mega Stone is tempered thanks to its meditation skills. This makes it increase all of its capabilities but not as much as other mega-evolutions, all in favor of keeping control of its senses.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pure Power|Pure Power]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-medicham-mega.png|right]]
+![[SRD-medicham-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-medicham-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

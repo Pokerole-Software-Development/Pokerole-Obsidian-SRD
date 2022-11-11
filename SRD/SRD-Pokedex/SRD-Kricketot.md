@@ -2,9 +2,8 @@
 Ability1: Shed Skin
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME401.png
-BookShinyImageName: HOME401_s.png
-BoxSprite: SRD-BoxSprite-kricketot.png
+BookSprite: SRD-kricketot-BookSprite.png
+BoxSprite: SRD-kricketot-BoxSprite.png
 DexCategory: Cricket Pokemon
 DexDescription: If you hear a xilophone-like sound at night it means that this Pokemon
   is roaming close. It communicates by making rhythmic sounds with its antennae. It
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Run Away
-HomeSprite: SRD-HomeSprite-kricketot.png
+HomeSprite: SRD-kricketot-HomeSprite.png
 Learnset: '[[SRD-Kricketot-Learnset]]'
 Legendary: 'No'
 Name: Kricketot
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-kricketot.png|right]]
+![[SRD-kricketot-BookSprite.png|right wsmall]]
 
 *Cricket Pokemon*
 *If you hear a xilophone-like sound at night it means that this Pokemon is roaming close. It communicates by making rhythmic sounds with its antennae. It is not aggressive and feeds on honey and tree sap.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]] ([[SRD-Run Away|Run Away]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-kricketot.png|right]]
+![[SRD-kricketot-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-kricketot-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

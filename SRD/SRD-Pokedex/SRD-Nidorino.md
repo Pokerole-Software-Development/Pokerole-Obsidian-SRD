@@ -2,9 +2,8 @@
 Ability1: Poison Point
 Ability2: Rivalry
 Baby: 'No'
-BookImageName: HOME033.png
-BookShinyImageName: HOME033_s.png
-BoxSprite: SRD-BoxSprite-nidorino.png
+BookSprite: SRD-nidorino-BookSprite.png
+BoxSprite: SRD-nidorino-BoxSprite.png
 DexCategory: Poison Pin Pokemon
 DexDescription: An independent and fierce creature. It roams alone in search for a
   mate and will compete with other males around. It will violently charge with a venom
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Hustle
-HomeSprite: SRD-HomeSprite-nidorino.png
+HomeSprite: SRD-nidorino-HomeSprite.png
 Learnset: '[[SRD-Nidorino-Learnset]]'
 Legendary: 'No'
 Name: Nidorino
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-nidorino.png|right]]
+![[SRD-nidorino-BookSprite.png|right wsmall]]
 
 *Poison Pin Pokemon*
 *An independent and fierce creature. It roams alone in search for a mate and will compete with other males around. It will violently charge with a venom drenched horn against intruders.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Rivalry|Rivalry]] ([[SRD-Hustle|Hustle]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-nidorino.png|right]]
+![[SRD-nidorino-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-nidorino-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

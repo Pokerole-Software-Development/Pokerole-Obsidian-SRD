@@ -2,9 +2,8 @@
 Ability1: Snow Cloak
 Ability2: Slush Rush
 Baby: 'No'
-BookImageName: HOME613.png
-BookShinyImageName: HOME613_s.png
-BoxSprite: SRD-BoxSprite-cubchoo.png
+BookSprite: SRD-cubchoo-BookSprite.png
+BoxSprite: SRD-cubchoo-BoxSprite.png
 DexCategory: Chill Pokemon
 DexDescription: They are born by the end of winter and stay with their mothers for
   a couple of seasons. Their running nose is used to practice their ice powers. In
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Rattled
-HomeSprite: SRD-HomeSprite-cubchoo.png
+HomeSprite: SRD-cubchoo-HomeSprite.png
 Learnset: '[[SRD-Cubchoo-Learnset]]'
 Legendary: 'No'
 Name: Cubchoo
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cubchoo.png|right]]
+![[SRD-cubchoo-BookSprite.png|right wsmall]]
 
 *Chill Pokemon*
 *They are born by the end of winter and stay with their mothers for a couple of seasons. Their running nose is used to practice their ice powers. In fact, when they get sick their nose is completely dry.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Snow Cloak|Snow Cloak]] / [[SRD-Slush Rush|Slush Rush]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-cubchoo.png|right]]
+![[SRD-cubchoo-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-cubchoo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

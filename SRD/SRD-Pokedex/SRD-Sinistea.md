@@ -2,9 +2,8 @@
 Ability1: Weak Armor
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME854.png
-BookShinyImageName: HOME854_s.png
-BoxSprite: SRD-BoxSprite-sinistea.png
+BookSprite: SRD-sinistea-BookSprite.png
+BoxSprite: SRD-sinistea-BoxSprite.png
 DexCategory: Black Tea Pokemon
 DexDescription: This Pokemon is said to have been born when a lonely spirit possessed
   a cold, leftover cup of tea. It absorbs the life-force of those who drink it but
@@ -17,7 +16,7 @@ Height:
   Feet: 0.3
   Meters: 0.1
 HiddenAbility: Cursed Body
-HomeSprite: SRD-HomeSprite-sinistea.png
+HomeSprite: SRD-sinistea-HomeSprite.png
 Learnset: '[[SRD-Sinistea-Learnset]]'
 Legendary: 'No'
 Name: Sinistea
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-sinistea.png|right]]
+![[SRD-sinistea-BookSprite.png|right wsmall]]
 
 *Black Tea Pokemon*
 *This Pokemon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea. It absorbs the life-force of those who drink it but it tastes so bad that it gets spat out immediately.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Weak Armor|Weak Armor]] ([[SRD-Cursed Body|Cursed Body]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-sinistea.png|right]]
+![[SRD-sinistea-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-sinistea-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

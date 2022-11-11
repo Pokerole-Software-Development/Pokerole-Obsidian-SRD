@@ -2,9 +2,8 @@
 Ability1: Keen Eye
 Ability2: Infiltrator
 Baby: 'No'
-BookImageName: HOME677.png
-BookShinyImageName: HOME677_s.png
-BoxSprite: SRD-BoxSprite-espurr.png
+BookSprite: SRD-espurr-BookSprite.png
+BoxSprite: SRD-espurr-BoxSprite.png
 DexCategory: Restraint Pokemon
 DexDescription: The organs that emit its intense psychic power are tucked under its
   ears to keep energy from escaping. It still does not control its power and could
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Own Tempo
-HomeSprite: SRD-HomeSprite-espurr.png
+HomeSprite: SRD-espurr-HomeSprite.png
 Learnset: '[[SRD-Espurr-Learnset]]'
 Legendary: 'No'
 Name: Espurr
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-espurr.png|right]]
+![[SRD-espurr-BookSprite.png|right wsmall]]
 
 *Restraint Pokemon*
 *The organs that emit its intense psychic power are tucked under its ears to keep energy from escaping. It still does not control its power and could destroy something without realizing it.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Infiltrator|Infiltrator]] ([[SRD-Own Tempo|Own Tempo]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-espurr.png|right]]
+![[SRD-espurr-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-espurr-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

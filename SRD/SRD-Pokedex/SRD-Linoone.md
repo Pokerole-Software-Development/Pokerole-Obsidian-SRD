@@ -2,9 +2,8 @@
 Ability1: Pickup
 Ability2: Gluttony
 Baby: 'No'
-BookImageName: HOME264.png
-BookShinyImageName: HOME264_s.png
-BoxSprite: SRD-BoxSprite-linoone.png
+BookSprite: SRD-linoone-BookSprite.png
+BoxSprite: SRD-linoone-BoxSprite.png
 DexCategory: Rushing Pokemon
 DexDescription: Linoones are always running at full speed, but they can only do so
   in straight lines. They find it very difficult to deal with a curved road. They
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Quick Feet
-HomeSprite: SRD-HomeSprite-linoone.png
+HomeSprite: SRD-linoone-HomeSprite.png
 Learnset: '[[SRD-Linoone-Learnset]]'
 Legendary: 'No'
 Name: Linoone
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-linoone.png|right]]
+![[SRD-linoone-BookSprite.png|right wsmall]]
 
 *Rushing Pokemon*
 *Linoones are always running at full speed, but they can only do so in straight lines. They find it very difficult to deal with a curved road. They excel at hunting but tend to eat a lot to recover from their tiring runs.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Gluttony|Gluttony]] ([[SRD-Quick Feet|Quick Feet]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-linoone.png|right]]
+![[SRD-linoone-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-linoone-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Trace
 Ability2: Download
 Baby: 'No'
-BookImageName: HOME233.png
-BookShinyImageName: HOME233_s.png
-BoxSprite: SRD-BoxSprite-porygon2.png
+BookSprite: SRD-porygon2-BookSprite.png
+BoxSprite: SRD-porygon2-BoxSprite.png
 DexCategory: Virtual Pokemon
 DexDescription: This man-made Pokemon is an upgraded version of Porygon. Used for
   space exploration and planetary development, boasting the power of science. Its
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Analytic
-HomeSprite: SRD-HomeSprite-porygon2.png
+HomeSprite: SRD-porygon2-HomeSprite.png
 Learnset: '[[SRD-Porygon2-Learnset]]'
 Legendary: 'No'
 Name: Porygon2
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-porygon2.png|right]]
+![[SRD-porygon2-BookSprite.png|right wsmall]]
 
 *Virtual Pokemon*
 *This man-made Pokemon is an upgraded version of Porygon. Used for space exploration and planetary development, boasting the power of science. Its AI software allows it to learn on its own.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Trace|Trace]] / [[SRD-Download|Download]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-porygon2.png|right]]
+![[SRD-porygon2-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-porygon2-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

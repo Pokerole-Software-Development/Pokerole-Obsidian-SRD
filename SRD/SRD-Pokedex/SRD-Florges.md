@@ -2,9 +2,8 @@
 Ability1: Flower Veil
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME671.png
-BookShinyImageName: HOME671_s.png
-BoxSprite: SRD-BoxSprite-florges.png
+BookSprite: SRD-florges-BookSprite.png
+BoxSprite: SRD-florges-BoxSprite.png
 DexCategory: Garden Pokemon
 DexDescription: In times long past, castle rulers would invite Florges to create flower
   gardens to embellish their domains. Florges claim beautiful meadows as their territories
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Symbiosis
-HomeSprite: SRD-HomeSprite-florges.png
+HomeSprite: SRD-florges-HomeSprite.png
 Learnset: '[[SRD-Florges-Learnset]]'
 Legendary: 'No'
 Name: Florges
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-florges.png|right]]
+![[SRD-florges-BookSprite.png|right wsmall]]
 
 *Garden Pokemon*
 *In times long past, castle rulers would invite Florges to create flower gardens to embellish their domains. Florges claim beautiful meadows as their territories but they are kind and merciful with visitors.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Flower Veil|Flower Veil]] ([[SRD-Symbiosis|Symbiosis]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-florges.png|right]]
+![[SRD-florges-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
+
+![[SRD-florges-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

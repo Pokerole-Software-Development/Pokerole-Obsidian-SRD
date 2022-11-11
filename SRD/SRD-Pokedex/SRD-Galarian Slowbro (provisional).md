@@ -2,9 +2,8 @@
 Ability1: Quick Draw
 Ability2: Own Tempo
 Baby: 'No'
-BookImageName: HOME080G.png
-BookShinyImageName: HOME080G_s.png
-BoxSprite: SRD-BoxSprite-slowbro-galar.png
+BookSprite: SRD-slowbro-galar-BookSprite.png
+BoxSprite: SRD-slowbro-galar-BoxSprite.png
 DexCategory: ''
 DexDescription: ''
 EventAbilities: ''
@@ -15,7 +14,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-slowbro-galar.png
+HomeSprite: SRD-slowbro-galar-HomeSprite.png
 Learnset: '[[SRD-Galarian Slowbro (provisional)-Learnset]]'
 Legendary: 'No'
 Name: Galarian Slowbro (provisional)
@@ -35,7 +34,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-slowbro-galar.png|right]]
+![[SRD-slowbro-galar-BookSprite.png|right wsmall]]
 
 **
 **
@@ -46,7 +45,7 @@ Weight:
 **Abilities**:: [[SRD-Quick Draw|Quick Draw]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-slowbro-galar.png|right]]
+![[SRD-slowbro-galar-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -55,6 +54,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-slowbro-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

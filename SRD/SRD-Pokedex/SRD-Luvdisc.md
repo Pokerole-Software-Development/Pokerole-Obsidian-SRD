@@ -2,9 +2,8 @@
 Ability1: Swift Swim
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME370.png
-BookShinyImageName: HOME370_s.png
-BoxSprite: SRD-BoxSprite-luvdisc.png
+BookSprite: SRD-luvdisc-BookSprite.png
+BoxSprite: SRD-luvdisc-BoxSprite.png
 DexCategory: Rendezvous Pokemon
 DexDescription: Luvdisc is a symbol of romance. It lives in shallow seas, swimming
   after couples, bringing them closer and promising eternal love. During their spawning
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Hydration
-HomeSprite: SRD-HomeSprite-luvdisc.png
+HomeSprite: SRD-luvdisc-HomeSprite.png
 Learnset: '[[SRD-Luvdisc-Learnset]]'
 Legendary: 'No'
 Name: Luvdisc
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-luvdisc.png|right]]
+![[SRD-luvdisc-BookSprite.png|right wsmall]]
 
 *Rendezvous Pokemon*
 *Luvdisc is a symbol of romance. It lives in shallow seas, swimming after couples, bringing them closer and promising eternal love. During their spawning season, the waters around them turn pink.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] ([[SRD-Hydration|Hydration]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-luvdisc.png|right]]
+![[SRD-luvdisc-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-luvdisc-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Insomnia
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME150MY.png
-BookShinyImageName: HOME150MY_s.png
-BoxSprite: SRD-BoxSprite-mewtwo-mega-y.png
+BookSprite: SRD-mewtwo-mega-y-BookSprite.png
+BoxSprite: SRD-mewtwo-mega-y-BoxSprite.png
 DexCategory: No Data
 DexDescription: With the power of the Mega Stone its body got smaller but its power
   grew immensely. It can blow up even a skyscraper with just its thoughts
@@ -16,7 +15,7 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-mewtwo-mega-y.png
+HomeSprite: SRD-mewtwo-mega-y-HomeSprite.png
 Learnset: '[[SRD-Mega-Mewtwo Y-Learnset]]'
 Legendary: 'Yes'
 Name: Mega-Mewtwo Y
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-mewtwo-mega-y.png|right]]
+![[SRD-mewtwo-mega-y-BookSprite.png|right wsmall]]
 
 *No Data*
 *With the power of the Mega Stone its body got smaller but its power grew immensely. It can blow up even a skyscraper with just its thoughts*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Insomnia|Insomnia]]
 **Base HP**:: 6
 
-![[SRD-BoxSprite-mewtwo-mega-y.png|right]]
+![[SRD-mewtwo-mega-y-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::10)/(MaxSpecial::10)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-mewtwo-mega-y-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Solar Power
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME229M.png
-BookShinyImageName: HOME229M_s.png
-BoxSprite: SRD-BoxSprite-houndoom-mega.png
+BookSprite: SRD-houndoom-mega-BookSprite.png
+BoxSprite: SRD-houndoom-mega-BoxSprite.png
 DexCategory: Dark Pokemon
 DexDescription: With the power of the Mega Stone its whole body radiates tremendous
   heat, so much that its claws are searing hot and turn red as a result, for this
@@ -17,7 +16,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-houndoom-mega.png
+HomeSprite: SRD-houndoom-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Houndoom-Learnset]]'
 Legendary: 'No'
 Name: Mega-Houndoom
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-houndoom-mega.png|right]]
+![[SRD-houndoom-mega-BookSprite.png|right wsmall]]
 
 *Dark Pokemon*
 *With the power of the Mega Stone its whole body radiates tremendous heat, so much that its claws are searing hot and turn red as a result, for this reason it can be painful for it to walk or run.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Solar Power|Solar Power]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-houndoom-mega.png|right]]
+![[SRD-houndoom-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-houndoom-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

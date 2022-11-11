@@ -2,9 +2,8 @@
 Ability1: Regenerator
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME641T.png
-BookShinyImageName: HOME641T_s.png
-BoxSprite: SRD-BoxSprite-tornadus.png
+BookSprite: SRD-tornadus-BookSprite.png
+BoxSprite: SRD-tornadus-BoxSprite.png
 DexCategory: No Data
 DexDescription: Some Pokemon reveal their true forms after recovering power lost to
   them. Great forces of nature can help them recover their strength such as Tornadoes,
@@ -17,7 +16,7 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-tornadus.png
+HomeSprite: SRD-tornadus-HomeSprite.png
 Learnset: '[[SRD-Form Tornadus-Learnset]]'
 Legendary: 'Yes'
 Name: Form Tornadus
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tornadus.png|right]]
+![[SRD-tornadus-BookSprite.png|right wsmall]]
 
 *No Data*
 *Some Pokemon reveal their true forms after recovering power lost to them. Great forces of nature can help them recover their strength such as Tornadoes, Lightning, and even a Landslide.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Regenerator|Regenerator]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-tornadus.png|right]]
+![[SRD-tornadus-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
+
+![[SRD-tornadus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

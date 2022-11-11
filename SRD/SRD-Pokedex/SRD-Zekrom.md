@@ -2,9 +2,8 @@
 Ability1: Teravolt
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME644.png
-BookShinyImageName: HOME644_s.png
-BoxSprite: SRD-BoxSprite-zekrom.png
+BookSprite: SRD-zekrom-BookSprite.png
+BoxSprite: SRD-zekrom-BoxSprite.png
 DexCategory: No Data
 DexDescription: An old rock tablet full of ancient symbols tells the story of two
   brothers. One of them wanted a world of ideals built with the energy of the young.
@@ -17,7 +16,7 @@ Height:
   Feet: 9.5
   Meters: 2.9
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-zekrom.png
+HomeSprite: SRD-zekrom-HomeSprite.png
 Learnset: '[[SRD-Zekrom-Learnset]]'
 Legendary: 'Yes'
 Name: Zekrom
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-zekrom.png|right]]
+![[SRD-zekrom-BookSprite.png|right wsmall]]
 
 *No Data*
 *An old rock tablet full of ancient symbols tells the story of two brothers. One of them wanted a world of ideals built with the energy of the young. The rest of the stone is broken as if struck by lightning.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Teravolt|Teravolt]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-zekrom.png|right]]
+![[SRD-zekrom-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::7)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-zekrom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

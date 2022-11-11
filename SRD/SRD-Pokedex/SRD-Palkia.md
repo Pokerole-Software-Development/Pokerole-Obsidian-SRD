@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME484.png
-BookShinyImageName: HOME484_s.png
-BoxSprite: SRD-BoxSprite-palkia.png
+BookSprite: SRD-palkia-BookSprite.png
+BoxSprite: SRD-palkia-BoxSprite.png
 DexCategory: No Data
 DexDescription: A fantasy book describes a place where space bends in impossible ways
   and the master of that site was a Pokemon with a similar appearance.
@@ -16,7 +15,7 @@ Height:
   Feet: 13.8
   Meters: 4.2
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-palkia.png
+HomeSprite: SRD-palkia-HomeSprite.png
 Learnset: '[[SRD-Palkia-Learnset]]'
 Legendary: 'Yes'
 Name: Palkia
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-palkia.png|right]]
+![[SRD-palkia-BookSprite.png|right wsmall]]
 
 *No Data*
 *A fantasy book describes a place where space bends in impossible ways and the master of that site was a Pokemon with a similar appearance.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-palkia.png|right]]
+![[SRD-palkia-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-palkia-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

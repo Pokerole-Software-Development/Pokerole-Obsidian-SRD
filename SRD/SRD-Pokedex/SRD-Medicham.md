@@ -2,9 +2,8 @@
 Ability1: Pure Power
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME308.png
-BookShinyImageName: HOME308_s.png
-BoxSprite: SRD-BoxSprite-medicham.png
+BookSprite: SRD-medicham-BookSprite.png
+BoxSprite: SRD-medicham-BoxSprite.png
 DexCategory: Meditate Pokemon
 DexDescription: "They are thought to posses a sixth sense. Some of them can hide their\
   \ presence by lowering their ki. Medichams fight with expert yoga moves, foretelling\
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-medicham.png
+HomeSprite: SRD-medicham-HomeSprite.png
 Learnset: '[[SRD-Medicham-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-medicham.png|right]]
+![[SRD-medicham-BookSprite.png|right wsmall]]
 
 *Meditate Pokemon*
 *They are thought to posses a sixth sense. Some of them can hide their presence by lowering their ki. Medichams fight with expert yoga moves, foretelling their foe’s attacks and sensing their thoughts.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Pure Power|Pure Power]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-medicham.png|right]]
+![[SRD-medicham-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-medicham-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

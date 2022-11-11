@@ -2,9 +2,8 @@
 Ability1: Shadow Shield
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME792.png
-BookShinyImageName: HOME792_s.png
-BoxSprite: SRD-BoxSprite-lunala.png
+BookSprite: SRD-lunala-BookSprite.png
+BoxSprite: SRD-lunala-BoxSprite.png
 DexCategory: No Data
 DexDescription: There are legends about a being that shined with the moon, on its
   forehead a third eye that connected to another dimension.
@@ -16,7 +15,7 @@ Height:
   Feet: 13.1
   Meters: 4.0
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-lunala.png
+HomeSprite: SRD-lunala-HomeSprite.png
 Learnset: '[[SRD-Lunala-Learnset]]'
 Legendary: 'Yes'
 Name: Lunala
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-lunala.png|right]]
+![[SRD-lunala-BookSprite.png|right wsmall]]
 
 *No Data*
 *There are legends about a being that shined with the moon, on its forehead a third eye that connected to another dimension.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Shadow Shield|Shadow Shield]]
 **Base HP**:: 7
 
-![[SRD-BoxSprite-lunala.png|right]]
+![[SRD-lunala-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-lunala-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

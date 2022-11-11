@@ -2,9 +2,8 @@
 Ability1: Inner Focus
 Ability2: Synchronize
 Baby: 'No'
-BookImageName: HOME876.png
-BookShinyImageName: HOME876_s.png
-BoxSprite: SRD-BoxSprite-indeedee.png
+BookSprite: SRD-indeedee-BookSprite.png
+BoxSprite: SRD-indeedee-BoxSprite.png
 DexCategory: Emotion Pokemon
 DexDescription: These intelligent Pokemon touch horns with each other to share information
   between them. They love to help and be of service to people because they gather
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Psychic Surge
-HomeSprite: SRD-HomeSprite-indeedee.png
+HomeSprite: SRD-indeedee-HomeSprite.png
 Learnset: '[[SRD-Indeedee-Learnset]]'
 Legendary: 'No'
 Name: Indeedee
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-indeedee.png|right]]
+![[SRD-indeedee-BookSprite.png|right wsmall]]
 
 *Emotion Pokemon*
 *These intelligent Pokemon touch horns with each other to share information between them. They love to help and be of service to people because they gather power from feelings of gratitude.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] / [[SRD-Synchronize|Synchronize]] ([[SRD-Psychic Surge|Psychic Surge]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-indeedee.png|right]]
+![[SRD-indeedee-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-indeedee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

@@ -2,9 +2,8 @@
 Ability1: Static
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME180.png
-BookShinyImageName: HOME180_s.png
-BoxSprite: SRD-BoxSprite-flaaffy.png
+BookSprite: SRD-flaaffy-BookSprite.png
+BoxSprite: SRD-flaaffy-BoxSprite.png
 DexCategory: Wool Pokemon
 DexDescription: Its wool quality changes so that it can generate a higher amount of
   static electricity with a smaller amount of wool. The bare and slick parts of its
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Plus
-HomeSprite: SRD-HomeSprite-flaaffy.png
+HomeSprite: SRD-flaaffy-HomeSprite.png
 Learnset: '[[SRD-Flaaffy-Learnset]]'
 Legendary: 'No'
 Name: Flaaffy
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-flaaffy.png|right]]
+![[SRD-flaaffy-BookSprite.png|right wsmall]]
 
 *Wool Pokemon*
 *Its wool quality changes so that it can generate a higher amount of static electricity with a smaller amount of wool. The bare and slick parts of its hide are shielded with small electric impulses.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Static|Static]] ([[SRD-Plus|Plus]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-flaaffy.png|right]]
+![[SRD-flaaffy-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-flaaffy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

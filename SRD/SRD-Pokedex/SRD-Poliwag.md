@@ -2,9 +2,8 @@
 Ability1: Water Absorb
 Ability2: Damp
 Baby: 'No'
-BookImageName: HOME060.png
-BookShinyImageName: HOME060_s.png
-BoxSprite: SRD-BoxSprite-poliwag.png
+BookSprite: SRD-poliwag-BookSprite.png
+BoxSprite: SRD-poliwag-BoxSprite.png
 DexCategory: Tadpole Pokemon
 DexDescription: They are most common near ponds and lakes during the summer. Its legs
   take some weeks to develop after it hatches, making it inept at walking. It is,
@@ -17,7 +16,7 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Swift Swim
-HomeSprite: SRD-HomeSprite-poliwag.png
+HomeSprite: SRD-poliwag-HomeSprite.png
 Learnset: '[[SRD-Poliwag-Learnset]]'
 Legendary: 'No'
 Name: Poliwag
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-poliwag.png|right]]
+![[SRD-poliwag-BookSprite.png|right wsmall]]
 
 *Tadpole Pokemon*
 *They are most common near ponds and lakes during the summer. Its legs take some weeks to develop after it hatches, making it inept at walking. It is, however, a very fast swimmer.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] / [[SRD-Damp|Damp]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-poliwag.png|right]]
+![[SRD-poliwag-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-poliwag-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -2,9 +2,8 @@
 Ability1: Pressure
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME250.png
-BookShinyImageName: HOME250_s.png
-BoxSprite: SRD-BoxSprite-ho-oh.png
+BookSprite: SRD-ho-oh-BookSprite.png
+BoxSprite: SRD-ho-oh-BoxSprite.png
 DexCategory: No Data
 DexDescription: "Ho-oh inhabited the Bell Tower, where Pokemon were said to rest.\
   \ Ho-oh\u2019s Myth talks about a creature that brought eternal rest for those whose\
@@ -17,7 +16,7 @@ Height:
   Feet: 12.5
   Meters: 3.8
 HiddenAbility: Regenerator
-HomeSprite: SRD-HomeSprite-ho-oh.png
+HomeSprite: SRD-ho-oh-HomeSprite.png
 Learnset: '[[SRD-Ho-oh-Learnset]]'
 Legendary: 'Yes'
 Name: Ho-oh
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-ho-oh.png|right]]
+![[SRD-ho-oh-BookSprite.png|right wsmall]]
 
 *No Data*
 *Ho-oh inhabited the Bell Tower, where Pokemon were said to rest. Ho-oh’s Myth talks about a creature that brought eternal rest for those whose time was right, and also gave back life if death was premature.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-ho-oh.png|right]]
+![[SRD-ho-oh-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::5)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
+
+![[SRD-ho-oh-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

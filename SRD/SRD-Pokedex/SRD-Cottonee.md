@@ -2,9 +2,8 @@
 Ability1: Prankster
 Ability2: Infiltrator
 Baby: 'No'
-BookImageName: HOME546.png
-BookShinyImageName: HOME546_s.png
-BoxSprite: SRD-BoxSprite-cottonee.png
+BookSprite: SRD-cottonee-BookSprite.png
+BoxSprite: SRD-cottonee-BoxSprite.png
 DexCategory: Cotton Puff Pokemon
 DexDescription: "They go wherever the wind takes them. On rainy days they can\u2019\
   t float, so they take shelter beneath big trees. To defend from predators they shed\
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Chlorophyll
-HomeSprite: SRD-HomeSprite-cottonee.png
+HomeSprite: SRD-cottonee-HomeSprite.png
 Learnset: '[[SRD-Cottonee-Learnset]]'
 Legendary: 'No'
 Name: Cottonee
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-cottonee.png|right]]
+![[SRD-cottonee-BookSprite.png|right wsmall]]
 
 *Cotton Puff Pokemon*
 *They go wherever the wind takes them. On rainy days they can’t float, so they take shelter beneath big trees. To defend from predators they shed their cotton and leave it as a decoy while they escape.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Prankster|Prankster]] / [[SRD-Infiltrator|Infiltrator]] ([[SRD-Chlorophyll|Chlorophyll]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-cottonee.png|right]]
+![[SRD-cottonee-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-cottonee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

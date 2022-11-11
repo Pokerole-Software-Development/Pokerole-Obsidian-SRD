@@ -2,9 +2,8 @@
 Ability1: Dry Skin
 Ability2: Sand Veil
 Baby: 'No'
-BookImageName: HOME694.png
-BookShinyImageName: HOME694_s.png
-BoxSprite: SRD-BoxSprite-helioptile.png
+BookSprite: SRD-helioptile-BookSprite.png
+BoxSprite: SRD-helioptile-BoxSprite.png
 DexCategory: Generator Pokemon
 DexDescription: They make their home in deserts. Using the sun, they can generate
   their energy by basking their frills since food is scarce where they live. They
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Solar Power
-HomeSprite: SRD-HomeSprite-helioptile.png
+HomeSprite: SRD-helioptile-HomeSprite.png
 Learnset: '[[SRD-Helioptile-Learnset]]'
 Legendary: 'No'
 Name: Helioptile
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-helioptile.png|right]]
+![[SRD-helioptile-BookSprite.png|right wsmall]]
 
 *Generator Pokemon*
 *They make their home in deserts. Using the sun, they can generate their energy by basking their frills since food is scarce where they live. They run pretty fast as to not burn themselves with the hot sand.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Dry Skin|Dry Skin]] / [[SRD-Sand Veil|Sand Veil]] ([[SRD-Solar Power|Solar Power]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-helioptile.png|right]]
+![[SRD-helioptile-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-helioptile-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

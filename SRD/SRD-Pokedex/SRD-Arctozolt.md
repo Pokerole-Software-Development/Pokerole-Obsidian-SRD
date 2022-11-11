@@ -2,9 +2,8 @@
 Ability1: Volt Absorb
 Ability2: Static
 Baby: 'No'
-BookImageName: HOME881.png
-BookShinyImageName: HOME881_s.png
-BoxSprite: SRD-BoxSprite-arctozolt.png
+BookSprite: SRD-arctozolt-BookSprite.png
+BoxSprite: SRD-arctozolt-BoxSprite.png
 DexCategory: Fossil Pokemon
 DexDescription: This DNA hybrid has a hard time walking around. The bottom part is
   from a Pokemon from an arctic region and the upper lived in warm jungles. Poor thing
@@ -17,7 +16,7 @@ Height:
   Feet: 7.5
   Meters: 2.3
 HiddenAbility: Slush Rush
-HomeSprite: SRD-HomeSprite-arctozolt.png
+HomeSprite: SRD-arctozolt-HomeSprite.png
 Learnset: '[[SRD-Arctozolt-Learnset]]'
 Legendary: 'No'
 Name: Arctozolt
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-arctozolt.png|right]]
+![[SRD-arctozolt-BookSprite.png|right wsmall]]
 
 *Fossil Pokemon*
 *This DNA hybrid has a hard time walking around. The bottom part is from a Pokemon from an arctic region and the upper lived in warm jungles. Poor thing is always shivering and sneezing without control.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Volt Absorb|Volt Absorb]] / [[SRD-Static|Static]] ([[SRD-Slush Rush|Slush Rush]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-arctozolt.png|right]]
+![[SRD-arctozolt-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-arctozolt-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

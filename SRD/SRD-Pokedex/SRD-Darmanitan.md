@@ -2,9 +2,8 @@
 Ability1: Sheer Force
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME555.png
-BookShinyImageName: HOME555_s.png
-BoxSprite: SRD-BoxSprite-darmanitan.png
+BookSprite: SRD-darmanitan-BookSprite.png
+BoxSprite: SRD-darmanitan-BoxSprite.png
 DexCategory: Blazing Pokemon
 DexDescription: This Pokemon is shrouded in mystery as old writings and mural paintings
   describe it as being blue and using psychic powers, but years of study have not
@@ -17,7 +16,7 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Zen Mode
-HomeSprite: SRD-HomeSprite-darmanitan.png
+HomeSprite: SRD-darmanitan-HomeSprite.png
 Learnset: '[[SRD-Darmanitan-Learnset]]'
 Legendary: 'No'
 Name: Darmanitan
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-darmanitan.png|right]]
+![[SRD-darmanitan-BookSprite.png|right wsmall]]
 
 *Blazing Pokemon*
 *This Pokemon is shrouded in mystery as old writings and mural paintings describe it as being blue and using psychic powers, but years of study have not seen those traits on this Pokemon that relies on brute force.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Sheer Force|Sheer Force]] ([[SRD-Zen Mode|Zen Mode]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-darmanitan.png|right]]
+![[SRD-darmanitan-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-darmanitan-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

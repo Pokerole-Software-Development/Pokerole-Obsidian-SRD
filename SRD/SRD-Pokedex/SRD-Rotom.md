@@ -2,9 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME479.png
-BookShinyImageName: HOME479_s.png
-BoxSprite: SRD-BoxSprite-rotom.png
+BookSprite: SRD-rotom-BookSprite.png
+BoxSprite: SRD-rotom-BoxSprite.png
 DexCategory: Plasma Pokemon
 DexDescription: Its electric-like body can enter some kinds of machines and take control
   of them in order to cause mischief. It changes its form to that of the electric
@@ -17,7 +16,7 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-rotom.png
+HomeSprite: SRD-rotom-HomeSprite.png
 Learnset: '[[SRD-Rotom-Learnset]]'
 Legendary: 'No'
 Name: Rotom
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-rotom.png|right]]
+![[SRD-rotom-BookSprite.png|right wsmall]]
 
 *Plasma Pokemon*
 *Its electric-like body can enter some kinds of machines and take control of them in order to cause mischief. It changes its form to that of the electric appliance, allowing it to become more powerful.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-BoxSprite-rotom.png|right]]
+![[SRD-rotom-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::5)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-rotom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

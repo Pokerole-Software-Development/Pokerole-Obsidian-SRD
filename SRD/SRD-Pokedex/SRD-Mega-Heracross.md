@@ -2,9 +2,8 @@
 Ability1: Skill Link
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME214M.png
-BookShinyImageName: HOME214M_s.png
-BoxSprite: SRD-BoxSprite-heracross-mega.png
+BookSprite: SRD-heracross-mega-BookSprite.png
+BoxSprite: SRD-heracross-mega-BoxSprite.png
 DexCategory: Single Horn Pokemon
 DexDescription: With the power of the Mega Stone its muscles and exoskeleton grow
   in size and strength but after going back to normal its exoskeleton reduces size
@@ -17,7 +16,7 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
-HomeSprite: SRD-HomeSprite-heracross-mega.png
+HomeSprite: SRD-heracross-mega-HomeSprite.png
 Learnset: '[[SRD-Mega-Heracross-Learnset]]'
 Legendary: 'No'
 Name: Mega-Heracross
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-heracross-mega.png|right]]
+![[SRD-heracross-mega-BookSprite.png|right wsmall]]
 
 *Single Horn Pokemon*
 *With the power of the Mega Stone its muscles and exoskeleton grow in size and strength but after going back to normal its exoskeleton reduces size but its muscles do not and that causes it to feel sore.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Skill Link|Skill Link]]
 **Base HP**:: 5
 
-![[SRD-BoxSprite-heracross-mega.png|right]]
+![[SRD-heracross-mega-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-heracross-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

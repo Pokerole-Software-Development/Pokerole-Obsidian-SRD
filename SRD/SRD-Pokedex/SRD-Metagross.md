@@ -2,9 +2,8 @@
 Ability1: Clear Body
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME376.png
-BookShinyImageName: HOME376_s.png
-BoxSprite: SRD-BoxSprite-metagross.png
+BookSprite: SRD-metagross-BookSprite.png
+BoxSprite: SRD-metagross-BoxSprite.png
 DexCategory: Iron Leg Pokemon
 DexDescription: It has four powerful brains that allow it to react at the speed of
   a super computer. It pins its prey under its massive body, then eats it using the
@@ -17,7 +16,7 @@ Height:
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Light Metal
-HomeSprite: SRD-HomeSprite-metagross.png
+HomeSprite: SRD-metagross-HomeSprite.png
 Learnset: '[[SRD-Metagross-Learnset]]'
 Legendary: 'No'
 MegaEvolutions:
@@ -40,7 +39,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-metagross.png|right]]
+![[SRD-metagross-BookSprite.png|right wsmall]]
 
 *Iron Leg Pokemon*
 *It has four powerful brains that allow it to react at the speed of a super computer. It pins its prey under its massive body, then eats it using the large mouth on its stomach. A powerful and ruthless Pokemon.*
@@ -51,7 +50,7 @@ Weight:
 **Abilities**:: [[SRD-Clear Body|Clear Body]] ([[SRD-Light Metal|Light Metal]])
 **Base HP**:: 5
 
-![[SRD-BoxSprite-metagross.png|right]]
+![[SRD-metagross-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -60,6 +59,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::7)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-metagross-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

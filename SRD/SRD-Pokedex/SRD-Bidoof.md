@@ -2,9 +2,8 @@
 Ability1: Simple
 Ability2: Unaware
 Baby: 'No'
-BookImageName: HOME399.png
-BookShinyImageName: HOME399_s.png
-BoxSprite: SRD-BoxSprite-bidoof.png
+BookSprite: SRD-bidoof-BookSprite.png
+BoxSprite: SRD-bidoof-BoxSprite.png
 DexCategory: Plump Mouse Pokemon
 DexDescription: Steady as a mountain, Bidoof has nerves of steel so nothing can disturb
   its focus. It is agile, active and a great team worker. They live in huge packs
@@ -17,7 +16,7 @@ Height:
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Moody
-HomeSprite: SRD-HomeSprite-bidoof.png
+HomeSprite: SRD-bidoof-HomeSprite.png
 Learnset: '[[SRD-Bidoof-Learnset]]'
 Legendary: 'No'
 Name: Bidoof
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-bidoof.png|right]]
+![[SRD-bidoof-BookSprite.png|right wsmall]]
 
 *Plump Mouse Pokemon*
 *Steady as a mountain, Bidoof has nerves of steel so nothing can disturb its focus. It is agile, active and a great team worker. They live in huge packs alongside rivers; the dams they build are incredibly sturdy.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Simple|Simple]] / [[SRD-Unaware|Unaware]] ([[SRD-Moody|Moody]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-bidoof.png|right]]
+![[SRD-bidoof-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::1)/(MaxVitality::3)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-bidoof-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

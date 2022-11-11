@@ -2,9 +2,8 @@
 Ability1: Snow Cloak
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME471.png
-BookShinyImageName: HOME471_s.png
-BoxSprite: SRD-BoxSprite-glaceon.png
+BookSprite: SRD-glaceon-BookSprite.png
+BoxSprite: SRD-glaceon-BoxSprite.png
 DexCategory: Fresh Snow Pokemon
 DexDescription: Eevees that are forced to live in freezing temperatures evolve into
   this Pokemon. It can control its body temperature to below zero, freezing its fur
@@ -17,7 +16,7 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Ice Body
-HomeSprite: SRD-HomeSprite-glaceon.png
+HomeSprite: SRD-glaceon-HomeSprite.png
 Learnset: '[[SRD-Glaceon-Learnset]]'
 Legendary: 'No'
 Name: Glaceon
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-glaceon.png|right]]
+![[SRD-glaceon-BookSprite.png|right wsmall]]
 
 *Fresh Snow Pokemon*
 *Eevees that are forced to live in freezing temperatures evolve into this Pokemon. It can control its body temperature to below zero, freezing its fur and making it extremely tough.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Snow Cloak|Snow Cloak]] ([[SRD-Ice Body|Ice Body]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-glaceon.png|right]]
+![[SRD-glaceon-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::3)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
+
+![[SRD-glaceon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

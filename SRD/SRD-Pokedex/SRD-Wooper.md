@@ -2,9 +2,8 @@
 Ability1: Damp
 Ability2: Water Absorb
 Baby: 'No'
-BookImageName: HOME194.png
-BookShinyImageName: HOME194_s.png
-BoxSprite: SRD-BoxSprite-wooper.png
+BookSprite: SRD-wooper-BookSprite.png
+BoxSprite: SRD-wooper-BoxSprite.png
 DexCategory: Water Fish Pokemon
 DexDescription: Inhabits cold water sources and only comes out during the evening
   when the land has cooled, to find something to eat. Under this ideal environment
@@ -17,7 +16,7 @@ Height:
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Unaware
-HomeSprite: SRD-HomeSprite-wooper.png
+HomeSprite: SRD-wooper-HomeSprite.png
 Learnset: '[[SRD-Wooper-Learnset]]'
 Legendary: 'No'
 Name: Wooper
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-wooper.png|right]]
+![[SRD-wooper-BookSprite.png|right wsmall]]
 
 *Water Fish Pokemon*
 *Inhabits cold water sources and only comes out during the evening when the land has cooled, to find something to eat. Under this ideal environment it has rarely been seen at its evolved stage.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Damp|Damp]] / [[SRD-Water Absorb|Water Absorb]] ([[SRD-Unaware|Unaware]])
 **Base HP**:: 3
 
-![[SRD-BoxSprite-wooper.png|right]]
+![[SRD-wooper-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
+
+![[SRD-wooper-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

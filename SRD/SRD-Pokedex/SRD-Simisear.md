@@ -2,9 +2,8 @@
 Ability1: Gluttony
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME514.png
-BookShinyImageName: HOME514_s.png
-BoxSprite: SRD-BoxSprite-simisear.png
+BookSprite: SRD-simisear-BookSprite.png
+BoxSprite: SRD-simisear-BoxSprite.png
 DexCategory: Ember Pokemon
 DexDescription: A flame burns on top of its head. It scatters embers from its head
   and tail to sear its opponents. It loves sweets and is not afraid to go near humans
@@ -17,7 +16,7 @@ Height:
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Blaze
-HomeSprite: SRD-HomeSprite-simisear.png
+HomeSprite: SRD-simisear-HomeSprite.png
 Learnset: '[[SRD-Simisear-Learnset]]'
 Legendary: 'No'
 Name: Simisear
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-simisear.png|right]]
+![[SRD-simisear-BookSprite.png|right wsmall]]
 
 *Ember Pokemon*
 *A flame burns on top of its head. It scatters embers from its head and tail to sear its opponents. It loves sweets and is not afraid to go near humans to try to get some candy by begging or by stealing.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Gluttony|Gluttony]] ([[SRD-Blaze|Blaze]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-simisear.png|right]]
+![[SRD-simisear-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-simisear-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

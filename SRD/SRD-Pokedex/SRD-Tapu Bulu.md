@@ -2,9 +2,8 @@
 Ability1: Grassy Surge
 Ability2: ''
 Baby: 'No'
-BookImageName: HOME787.png
-BookShinyImageName: HOME787_s.png
-BoxSprite: SRD-BoxSprite-tapu-bulu.png
+BookSprite: SRD-tapu-bulu-BookSprite.png
+BoxSprite: SRD-tapu-bulu-BoxSprite.png
 DexCategory: No Data
 DexDescription: Through Ula'ula island runs the legend of a lazy guardian spirit who
   lives among the trees, which it commands to restrain its foes before beating them.
@@ -16,7 +15,7 @@ Height:
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Telepathy
-HomeSprite: SRD-HomeSprite-tapu-bulu.png
+HomeSprite: SRD-tapu-bulu-HomeSprite.png
 Learnset: '[[SRD-Tapu Bulu-Learnset]]'
 Legendary: 'Yes'
 Name: Tapu Bulu
@@ -36,7 +35,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-tapu-bulu.png|right]]
+![[SRD-tapu-bulu-BookSprite.png|right wsmall]]
 
 *No Data*
 *Through Ula'ula island runs the legend of a lazy guardian spirit who lives among the trees, which it commands to restrain its foes before beating them.*
@@ -47,7 +46,7 @@ Weight:
 **Abilities**:: [[SRD-Grassy Surge|Grassy Surge]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-tapu-bulu.png|right]]
+![[SRD-tapu-bulu-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -56,6 +55,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::6)/(MaxVitality::6)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
+
+![[SRD-tapu-bulu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

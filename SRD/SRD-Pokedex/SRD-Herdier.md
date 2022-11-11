@@ -2,9 +2,8 @@
 Ability1: Intimidate
 Ability2: Sand Rush
 Baby: 'No'
-BookImageName: HOME507.png
-BookShinyImageName: HOME507_s.png
-BoxSprite: SRD-BoxSprite-herdier.png
+BookSprite: SRD-herdier-BookSprite.png
+BoxSprite: SRD-herdier-BoxSprite.png
 DexCategory: Loyal Dog Pokemon
 DexDescription: "It loyally follows its Trainer\u2019s orders. For ages, they have\
   \ helped Trainers to raise well behaved Pokemon. It has black, cape-like fur that\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Scrappy
-HomeSprite: SRD-HomeSprite-herdier.png
+HomeSprite: SRD-herdier-HomeSprite.png
 Learnset: '[[SRD-Herdier-Learnset]]'
 Legendary: 'No'
 Name: Herdier
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-herdier.png|right]]
+![[SRD-herdier-BookSprite.png|right wsmall]]
 
 *Loyal Dog Pokemon*
 *It loyally follows its Trainer’s orders. For ages, they have helped Trainers to raise well behaved Pokemon. It has black, cape-like fur that is very hard and keeps it protected from the weather.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Sand Rush|Sand Rush]] ([[SRD-Scrappy|Scrappy]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-herdier.png|right]]
+![[SRD-herdier-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
+
+![[SRD-herdier-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

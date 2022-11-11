@@ -2,9 +2,8 @@
 Ability1: Ice Body
 Ability2: Snow Cloak
 Baby: 'No'
-BookImageName: HOME583.png
-BookShinyImageName: HOME583_s.png
-BoxSprite: SRD-BoxSprite-vanillish.png
+BookSprite: SRD-vanillish-BookSprite.png
+BoxSprite: SRD-vanillish-BoxSprite.png
 DexCategory: Icy Snow Pokemon
 DexDescription: "Snowy mountains are this Pokemon\u2019s habitat. It conceals itself\
   \ from enemy eyes by creating many small ice bundles and hiding around them. It\
@@ -17,7 +16,7 @@ Height:
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Weak Armor
-HomeSprite: SRD-HomeSprite-vanillish.png
+HomeSprite: SRD-vanillish-HomeSprite.png
 Learnset: '[[SRD-Vanillish-Learnset]]'
 Legendary: 'No'
 Name: Vanillish
@@ -37,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-HomeSprite-vanillish.png|right]]
+![[SRD-vanillish-BookSprite.png|right wsmall]]
 
 *Icy Snow Pokemon*
 *Snowy mountains are this Pokemon’s habitat. It conceals itself from enemy eyes by creating many small ice bundles and hiding around them. It may attach itself to the ceiling of ice caves to hide around the ice.*
@@ -48,7 +47,7 @@ Weight:
 **Abilities**:: [[SRD-Ice Body|Ice Body]] / [[SRD-Snow Cloak|Snow Cloak]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 4
 
-![[SRD-BoxSprite-vanillish.png|right]]
+![[SRD-vanillish-HomeSprite.png|right]]
 
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
@@ -57,6 +56,8 @@ Weight:
 | Vitality  | `= padleft(padright("",this.MaxVitality - this.Vitality,"⭘"),this.MaxVitality,"⬤")`    | (Vitality::2)/(MaxVitality::4)   |
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
+
+![[SRD-vanillish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
