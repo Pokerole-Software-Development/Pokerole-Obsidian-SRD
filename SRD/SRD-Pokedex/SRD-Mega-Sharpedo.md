@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Sharpedo]]
+
 **Height**: 8'2" / 2.5m
 **Weight**: 287.3lbs / 130.3kg
 

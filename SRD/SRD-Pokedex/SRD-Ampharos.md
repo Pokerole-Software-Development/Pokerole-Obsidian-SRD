@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Ampharos]]
+via [[SRD-Ampharosite]]
+
 **Height**: 4'6" / 1.4m
 **Weight**: 135.6lbs / 61.5kg
 

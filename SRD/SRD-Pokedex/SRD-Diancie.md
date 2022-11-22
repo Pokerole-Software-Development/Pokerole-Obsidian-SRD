@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Diancie]]
+via [[SRD-Diancite]]
+
 **Height**: 2'3" / 0.7m
 **Weight**: 19.4lbs / 8.8kg
 

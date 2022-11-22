@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Beginner
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Audino]]
+via [[SRD-Audinite]]
+
 **Height**: 3'6" / 1.1m
 **Weight**: 68.3lbs / 31.0kg
 

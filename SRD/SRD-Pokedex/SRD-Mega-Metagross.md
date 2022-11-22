@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Metagross]]
+
 **Height**: 8'2" / 2.5m
 **Weight**: 2078.7lbs / 942.9kg
 

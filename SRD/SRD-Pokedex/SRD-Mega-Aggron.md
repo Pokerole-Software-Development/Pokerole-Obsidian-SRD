@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Aggron]]
+
 **Height**: 7'2" / 2.2m
 **Weight**: 870.8lbs / 395.0kg
 

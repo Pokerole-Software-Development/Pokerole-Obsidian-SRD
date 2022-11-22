@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Steelix]]
+via [[SRD-Steelixite]]
+
 **Height**: 30'2" / 9.2m
 **Weight**: 881.8lbs / 400.0kg
 

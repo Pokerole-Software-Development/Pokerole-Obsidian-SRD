@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Altaria]]
+via [[SRD-Altarianite]]
+
 **Height**: 3'6" / 1.1m
 **Weight**: 45.4lbs / 20.6kg
 

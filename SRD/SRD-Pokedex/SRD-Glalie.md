@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Glalie]]
+via [[SRD-Glalitite]]
+
 **Height**: 4'9" / 1.5m
 **Weight**: 565.5lbs / 256.5kg
 

@@ -66,6 +66,11 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Charizard Y]]
+via [[SRD-Charizardite Y]]
+**MegaEvolution**:: [[SRD-Mega-Charizard X]]
+via [[SRD-Charizardite X]]
+
 **Height**: 5'6" / 1.7m
 **Weight**: 199.5lbs / 90.5kg
 

@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Banette]]
+
 **Height**: 3'9" / 1.2m
 **Weight**: 28.7lbs / 13.0kg
 

@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Gallade]]
+via [[SRD-Galladite]]
+
 **Height**: 5'2" / 1.6m
 **Weight**: 114.6lbs / 52.0kg
 

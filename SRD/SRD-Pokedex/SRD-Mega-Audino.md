@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Audino]]
+
 **Height**: 4'9" / 1.5m
 **Weight**: 70.5lbs / 32.0kg
 

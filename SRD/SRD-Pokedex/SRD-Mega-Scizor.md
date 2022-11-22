@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Scizor]]
+
 **Height**: 6'6" / 2.0m
 **Weight**: 275.6lbs / 125.0kg
 

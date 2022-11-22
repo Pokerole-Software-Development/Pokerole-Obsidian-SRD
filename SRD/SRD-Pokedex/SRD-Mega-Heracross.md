@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Heracross]]
+
 **Height**: 5'6" / 1.7m
 **Weight**: 137.8lbs / 62.5kg
 

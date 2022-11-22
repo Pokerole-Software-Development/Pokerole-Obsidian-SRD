@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Lopunny]]
+via [[SRD-Lopunnite]]
+
 **Height**: 3'9" / 1.2m
 **Weight**: 73.4lbs / 33.3kg
 

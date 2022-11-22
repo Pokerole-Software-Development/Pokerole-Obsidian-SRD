@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Blaziken]]
+
 **Height**: 6'2" / 1.9m
 **Weight**: 114.6lbs / 52.0kg
 

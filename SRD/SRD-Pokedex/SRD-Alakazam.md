@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Alakazam]]
+via [[SRD-Alakazite]]
+
 **Height**: 4'9" / 1.5m
 **Weight**: 105.8lbs / 48.0kg
 

@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Slowbro]]
+via [[SRD-Slowbronite]]
+
 **Height**: 5'2" / 1.6m
 **Weight**: 173.1lbs / 78.5kg
 

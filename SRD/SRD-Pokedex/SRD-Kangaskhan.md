@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Kangaskhan]]
+via [[SRD-Kangaskhanite]]
+
 **Height**: 7'2" / 2.2m
 **Weight**: 176.4lbs / 80.0kg
 

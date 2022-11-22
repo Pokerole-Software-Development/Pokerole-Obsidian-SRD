@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Rayquaza]]
+
 **Height**: 35'4" / 10.8m
 **Weight**: 864.2lbs / 392.0kg
 

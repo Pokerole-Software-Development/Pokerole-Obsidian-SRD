@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Salamence]]
+
 **Height**: 5'9" / 1.8m
 **Weight**: 248.2lbs / 112.6kg
 

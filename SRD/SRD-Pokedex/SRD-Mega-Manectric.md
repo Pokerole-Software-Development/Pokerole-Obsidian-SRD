@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Manectric]]
+
 **Height**: 5'9" / 1.8m
 **Weight**: 97.0lbs / 44.0kg
 

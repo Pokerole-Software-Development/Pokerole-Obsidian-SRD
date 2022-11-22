@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Latios]]
+
 **Height**: 7'5" / 2.3m
 **Weight**: 154.3lbs / 70.0kg
 

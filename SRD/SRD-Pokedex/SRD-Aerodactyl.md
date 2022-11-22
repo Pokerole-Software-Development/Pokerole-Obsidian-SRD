@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Aerodactyl]]
+via [[SRD-Aerodactylite]]
+
 **Height**: 5'9" / 1.8m
 **Weight**: 130.1lbs / 59.0kg
 

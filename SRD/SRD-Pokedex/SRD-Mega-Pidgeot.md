@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Pidgeot]]
+
 **Height**: 7'2" / 2.2m
 **Weight**: 111.3lbs / 50.5kg
 

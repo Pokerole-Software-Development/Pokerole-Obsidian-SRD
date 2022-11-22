@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Banette]]
+via [[SRD-Banettite]]
+
 **Height**: 3'6" / 1.1m
 **Weight**: 27.6lbs / 12.5kg
 

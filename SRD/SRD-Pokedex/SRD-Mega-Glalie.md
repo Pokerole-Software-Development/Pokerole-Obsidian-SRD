@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Glalie]]
+
 **Height**: 6'9" / 2.1m
 **Weight**: 772.1lbs / 350.2kg
 

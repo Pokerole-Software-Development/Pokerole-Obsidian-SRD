@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Scizor]]
+via [[SRD-Scizorite]]
+
 **Height**: 5'9" / 1.8m
 **Weight**: 260.1lbs / 118.0kg
 

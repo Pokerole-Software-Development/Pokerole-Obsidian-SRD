@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Pinsir]]
+via [[SRD-Pinsirite]]
+
 **Height**: 4'9" / 1.5m
 **Weight**: 121.3lbs / 55.0kg
 

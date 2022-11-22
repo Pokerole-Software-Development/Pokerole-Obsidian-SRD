@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Sceptile]]
+
 **Height**: 6'2" / 1.9m
 **Weight**: 121.7lbs / 55.2kg
 

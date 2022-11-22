@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Pidgeot]]
+via [[SRD-Pidgeotite]]
+
 **Height**: 4'9" / 1.5m
 **Weight**: 87.1lbs / 39.5kg
 

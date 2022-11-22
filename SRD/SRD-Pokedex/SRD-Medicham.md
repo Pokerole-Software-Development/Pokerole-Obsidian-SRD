@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Medicham]]
+via [[SRD-Medichamite]]
+
 **Height**: 4'3" / 1.3m
 **Weight**: 69.4lbs / 31.5kg
 

@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Abomasnow]]
+
 **Height**: 8'9" / 2.7m
 **Weight**: 407.9lbs / 185.0kg
 

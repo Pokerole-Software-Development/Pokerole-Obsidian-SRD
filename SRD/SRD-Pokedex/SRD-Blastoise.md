@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Blastoise]]
+via [[SRD-Blastoisinite]]
+
 **Height**: 5'2" / 1.6m
 **Weight**: 188.5lbs / 85.5kg
 

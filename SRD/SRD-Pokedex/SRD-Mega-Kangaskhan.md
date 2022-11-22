@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Kangaskhan]]
+
 **Height**: 7'2" / 2.2m
 **Weight**: 220.5lbs / 100.0kg
 

@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Gallade]]
+
 **Height**: 5'2" / 1.6m
 **Weight**: 124.3lbs / 56.4kg
 

@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Sceptile]]
+via [[SRD-Sceptilite]]
+
 **Height**: 5'6" / 1.7m
 **Weight**: 115.1lbs / 52.2kg
 

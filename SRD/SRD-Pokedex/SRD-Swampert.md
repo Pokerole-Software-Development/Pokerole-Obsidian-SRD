@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Swampert]]
+via [[SRD-Swampertite]]
+
 **Height**: 4'9" / 1.5m
 **Weight**: 180.6lbs / 81.9kg
 

@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Absol]]
+
 **Height**: 3'9" / 1.2m
 **Weight**: 108.0lbs / 49.0kg
 

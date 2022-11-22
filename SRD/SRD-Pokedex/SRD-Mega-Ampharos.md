@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Ampharos]]
+
 **Height**: 4'6" / 1.4m
 **Weight**: 135.6lbs / 61.5kg
 

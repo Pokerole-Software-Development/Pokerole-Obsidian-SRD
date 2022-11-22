@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Latias]]
+via [[SRD-Latiasite]]
+
 **Height**: 4'6" / 1.4m
 **Weight**: 88.2lbs / 40.0kg
 

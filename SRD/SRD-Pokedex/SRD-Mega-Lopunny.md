@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Lopunny]]
+
 **Height**: 4'3" / 1.3m
 **Weight**: 62.4lbs / 28.3kg
 

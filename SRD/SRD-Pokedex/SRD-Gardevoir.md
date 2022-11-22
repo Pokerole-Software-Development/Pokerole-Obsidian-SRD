@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Gardevoir]]
+via [[SRD-Gardevoirite]]
+
 **Height**: 5'2" / 1.6m
 **Weight**: 106.7lbs / 48.4kg
 

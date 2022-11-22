@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Absol]]
+via [[SRD-Absolite]]
+
 **Height**: 3'9" / 1.2m
 **Weight**: 103.6lbs / 47.0kg
 

@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Camerupt]]
+
 **Height**: 8'2" / 2.5m
 **Weight**: 706.6lbs / 320.5kg
 

@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Gyarados]]
+
 **Height**: 21'3" / 6.5m
 **Weight**: 672.4lbs / 305.0kg
 

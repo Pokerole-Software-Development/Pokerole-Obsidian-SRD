@@ -65,6 +65,11 @@ Weight:
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Mewtwo X]]
+via [[SRD-Mewtwonite X]]
+**MegaEvolution**:: [[SRD-Mega-Mewtwo Y]]
+via [[SRD-Mewtwonite Y]]
+
 **Height**: 6'6" / 2.0m
 **Weight**: 269.0lbs / 122.0kg
 

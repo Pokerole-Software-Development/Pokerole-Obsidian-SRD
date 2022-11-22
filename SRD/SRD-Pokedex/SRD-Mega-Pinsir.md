@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Pinsir]]
+
 **Height**: 5'6" / 1.7m
 **Weight**: 130.1lbs / 59.0kg
 

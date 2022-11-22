@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Beedrill]]
+via [[SRD-Beedrillite]]
+
 **Height**: 3'3" / 1.0m
 **Weight**: 65.0lbs / 29.5kg
 

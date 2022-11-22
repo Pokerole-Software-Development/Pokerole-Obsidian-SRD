@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Houndoom]]
+via [[SRD-Houndoominite]]
+
 **Height**: 4'6" / 1.4m
 **Weight**: 77.2lbs / 35.0kg
 

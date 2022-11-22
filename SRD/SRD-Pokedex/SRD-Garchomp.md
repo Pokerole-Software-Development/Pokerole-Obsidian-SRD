@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Garchomp]]
+via [[SRD-Garchompite]]
+
 **Height**: 6'2" / 1.9m
 **Weight**: 209.4lbs / 95.0kg
 

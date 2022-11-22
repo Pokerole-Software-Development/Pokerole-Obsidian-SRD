@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Blaziken]]
+via [[SRD-Blazikenite]]
+
 **Height**: 6'2" / 1.9m
 **Weight**: 114.6lbs / 52.0kg
 

@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Houndoom]]
+
 **Height**: 6'2" / 1.9m
 **Weight**: 109.1lbs / 49.5kg
 

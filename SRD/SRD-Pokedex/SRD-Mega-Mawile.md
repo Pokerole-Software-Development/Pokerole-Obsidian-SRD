@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Mawile]]
+
 **Height**: 3'3" / 1.0m
 **Weight**: 51.8lbs / 23.5kg
 

@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Alakazam]]
+
 **Height**: 3'9" / 1.2m
 **Weight**: 105.8lbs / 48.0kg
 

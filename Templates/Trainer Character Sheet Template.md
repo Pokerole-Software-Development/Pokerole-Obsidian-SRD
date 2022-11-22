@@ -18,8 +18,8 @@ Clever: 0
 **HP**: `= 4 + this.VitalityPoints`
 **Will**:: `= 1 + this.InsightPoints + 2`
 **Initiative**:: `= 1+this.DexterityPoints+this.Alert`
-**Rank**: 
-**Nature**:
+**Rank**:: 
+**Nature**::
 **Gender**: 
 
 

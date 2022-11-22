@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Gardevoir]]
+
 **Height**: 5'2" / 1.6m
 **Weight**: 106.7lbs / 48.4kg
 

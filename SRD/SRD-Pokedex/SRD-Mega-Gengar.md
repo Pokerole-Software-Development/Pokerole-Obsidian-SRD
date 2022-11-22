@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Gengar]]
+
 **Height**: 4'6" / 1.4m
 **Weight**: 89.3lbs / 40.5kg
 

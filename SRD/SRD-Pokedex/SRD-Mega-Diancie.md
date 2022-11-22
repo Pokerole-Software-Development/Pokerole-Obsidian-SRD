@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Diancie]]
+
 **Height**: 3'6" / 1.1m
 **Weight**: 61.3lbs / 27.8kg
 

@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Camerupt]]
+via [[SRD-Cameruptite]]
+
 **Height**: 6'2" / 1.9m
 **Weight**: 485.0lbs / 220.0kg
 

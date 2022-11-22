@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Salamence]]
+via [[SRD-Salamencite]]
+
 **Height**: 4'9" / 1.5m
 **Weight**: 226.2lbs / 102.6kg
 

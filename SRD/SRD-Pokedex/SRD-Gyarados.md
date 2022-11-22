@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Gyarados]]
+via [[SRD-Gyaradosite]]
+
 **Height**: 21'3" / 6.5m
 **Weight**: 518.1lbs / 235.0kg
 

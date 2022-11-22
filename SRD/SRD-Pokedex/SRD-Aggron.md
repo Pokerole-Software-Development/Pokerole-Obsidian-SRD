@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Aggron]]
+via [[SRD-Aggronite]]
+
 **Height**: 6'9" / 2.1m
 **Weight**: 793.7lbs / 360.0kg
 

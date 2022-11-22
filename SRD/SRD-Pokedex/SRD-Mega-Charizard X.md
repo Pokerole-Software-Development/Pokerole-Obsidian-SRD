@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Charizard]]
+
 **Height**: 5'6" / 1.7m
 **Weight**: 243.6lbs / 110.5kg
 

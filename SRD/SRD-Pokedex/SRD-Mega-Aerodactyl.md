@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Aerodactyl]]
+
 **Height**: 6'9" / 2.1m
 **Weight**: 174.2lbs / 79.0kg
 

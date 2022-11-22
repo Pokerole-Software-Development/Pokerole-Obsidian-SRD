@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Sableye]]
+via [[SRD-Sablenite]]
+
 **Height**: 1'6" / 0.5m
 **Weight**: 24.3lbs / 11.0kg
 

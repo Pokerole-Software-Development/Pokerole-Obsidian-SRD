@@ -60,6 +60,8 @@ Weight:
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Mewtwo]]
+
 **Height**: 4'9" / 1.5m
 **Weight**: 72.8lbs / 33.0kg
 

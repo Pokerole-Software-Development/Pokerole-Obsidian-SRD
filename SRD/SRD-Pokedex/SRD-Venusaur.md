@@ -65,6 +65,9 @@ If you find one in the wild, it must be the protector of the area.*
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Venusaur]]
+via [[SRD-Venusaurite]]
+
 **Height**: 6'6" / 2.0m
 **Weight**: 220.5lbs / 100.0kg
 

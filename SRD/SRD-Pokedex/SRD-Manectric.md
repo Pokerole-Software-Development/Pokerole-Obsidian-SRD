@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Manectric]]
+via [[SRD-Manectite]]
+
 **Height**: 4'9" / 1.5m
 **Weight**: 88.6lbs / 40.2kg
 

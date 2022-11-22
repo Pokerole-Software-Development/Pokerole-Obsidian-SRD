@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Altaria]]
+
 **Height**: 4'9" / 1.5m
 **Weight**: 45.4lbs / 20.6kg
 

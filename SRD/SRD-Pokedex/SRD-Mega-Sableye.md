@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Sableye]]
+
 **Height**: 1'6" / 0.5m
 **Weight**: 354.9lbs / 161.0kg
 

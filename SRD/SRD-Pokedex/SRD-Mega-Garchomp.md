@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Garchomp]]
+
 **Height**: 6'2" / 1.9m
 **Weight**: 209.4lbs / 95.0kg
 

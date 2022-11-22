@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Swampert]]
+
 **Height**: 6'2" / 1.9m
 **Weight**: 224.9lbs / 102.0kg
 

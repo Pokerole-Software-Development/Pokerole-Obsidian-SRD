@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Blastoise]]
+
 **Height**: 5'2" / 1.6m
 **Weight**: 222.9lbs / 101.1kg
 

@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Gengar]]
+via [[SRD-Gengarite]]
+
 **Height**: 4'9" / 1.5m
 **Weight**: 89.3lbs / 40.5kg
 

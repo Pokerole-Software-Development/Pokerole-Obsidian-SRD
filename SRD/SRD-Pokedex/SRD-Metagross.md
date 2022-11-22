@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Metagross]]
+via [[SRD-Metagrossite]]
+
 **Height**: 5'2" / 1.6m
 **Weight**: 1212.5lbs / 550.0kg
 

@@ -62,6 +62,8 @@ Its demeanor becomes even more serious and determined.*
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Venusaur]]
+
 **Height**: 7'9" / 2.4m
 **Weight**: 342.8lbs / 155.5kg
 

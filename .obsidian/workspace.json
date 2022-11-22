@@ -14,58 +14,72 @@
               "pos": 0,
               "stack": [
                 {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Readme.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{\"scroll\":7.625}"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD Data Structures.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{\"scroll\":54.544117647058826}"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Readme.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{\"scroll\":7.625}"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD Data Structures.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":31.23984375}"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Readme.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"scroll\":6.497138869504536}"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Natures/SRD-Adamant.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Natures/SRD-Bashful.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "state": "{}",
                   "eState": "{}"
                 },
                 {
                   "leaf": "205986ea69da3d41",
                   "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD Data Structures.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":54.544117647058826}",
+                  "title": "SRD Data Structures",
+                  "icon": "lines-of-text"
+                },
+                {
+                  "leaf": "205986ea69da3d41",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Readme.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":7.625}",
+                  "title": "Readme",
+                  "icon": "lines-of-text"
+                },
+                {
+                  "leaf": "205986ea69da3d41",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD Data Structures.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":31.23984375}",
+                  "title": "SRD Data Structures",
+                  "icon": "document"
+                },
+                {
+                  "leaf": "205986ea69da3d41",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Readme.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"scroll\":6.497138869504536}",
+                  "title": "Readme",
+                  "icon": "document"
+                },
+                {
+                  "leaf": "205986ea69da3d41",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Natures/SRD-Adamant.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}",
+                  "title": "SRD-Adamant",
+                  "icon": "document"
+                },
+                {
+                  "leaf": "205986ea69da3d41",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Natures/SRD-Bashful.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}",
+                  "title": "SRD-Bashful",
+                  "icon": "lines-of-text"
+                },
+                {
+                  "leaf": "205986ea69da3d41",
+                  "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Natures/SRD-Adamant.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{\"scroll\":0}"
+                  "eState": "{\"scroll\":0}",
+                  "title": "SRD-Adamant",
+                  "icon": "lines-of-text"
                 },
                 {
                   "leaf": "205986ea69da3d41",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Pokemon Character Sheet Template.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":3},\"to\":{\"line\":68,\"ch\":3}},\"scroll\":15.631542219120727}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":3},\"to\":{\"line\":68,\"ch\":3}},\"scroll\":15.631542219120727}",
+                  "title": "Pokemon Character Sheet Template",
+                  "icon": "document"
                 }
               ]
             },
@@ -96,7 +110,12 @@
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
-              "stack": []
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
             },
             "state": {
               "type": "file-explorer",

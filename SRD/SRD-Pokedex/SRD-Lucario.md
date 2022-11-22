@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Lucario]]
+via [[SRD-Lucarionite]]
+
 **Height**: 3'9" / 1.2m
 **Weight**: 119.0lbs / 54.0kg
 

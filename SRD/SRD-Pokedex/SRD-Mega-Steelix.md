@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Steelix]]
+
 **Height**: 34'4" / 10.5m
 **Weight**: 1631.4lbs / 740.0kg
 

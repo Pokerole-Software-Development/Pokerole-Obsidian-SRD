@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Mawile]]
+via [[SRD-Mawilite]]
+
 **Height**: 2'0" / 0.6m
 **Weight**: 25.4lbs / 11.5kg
 

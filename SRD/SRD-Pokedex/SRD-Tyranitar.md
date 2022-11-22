@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Tyranitar]]
+via [[SRD-Tyranitarite]]
+
 **Height**: 6'6" / 2.0m
 **Weight**: 445.3lbs / 202.0kg
 

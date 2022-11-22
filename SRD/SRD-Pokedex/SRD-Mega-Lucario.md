@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Pro
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Lucario]]
+
 **Height**: 4'3" / 1.3m
 **Weight**: 126.8lbs / 57.5kg
 

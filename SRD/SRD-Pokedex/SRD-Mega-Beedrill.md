@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Beedrill]]
+
 **Height**: 4'6" / 1.4m
 **Weight**: 89.3lbs / 40.5kg
 

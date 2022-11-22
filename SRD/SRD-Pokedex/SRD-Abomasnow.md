@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Abomasnow]]
+via [[SRD-Abomasite]]
+
 **Height**: 7'2" / 2.2m
 **Weight**: 298.7lbs / 135.5kg
 

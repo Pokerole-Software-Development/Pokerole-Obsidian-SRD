@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Slowbro]]
+
 **Height**: 6'6" / 2.0m
 **Weight**: 264.6lbs / 120.0kg
 

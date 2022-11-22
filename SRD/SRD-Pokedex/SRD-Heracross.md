@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Amateur
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Heracross]]
+via [[SRD-Heracronite]]
+
 **Height**: 4'9" / 1.5m
 **Weight**: 119.0lbs / 54.0kg
 

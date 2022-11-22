@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Rayquaza]]
+via [[SRD-Pokeball]]
+
 **Height**: 23'0" / 7.0m
 **Weight**: 455.3lbs / 206.5kg
 

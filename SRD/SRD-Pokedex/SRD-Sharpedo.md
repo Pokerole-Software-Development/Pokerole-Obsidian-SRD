@@ -64,6 +64,9 @@ Weight:
 **Recommended Rank**:: Ace
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaEvolution**:: [[SRD-Mega-Sharpedo]]
+via [[SRD-Sharpedonite]]
+
 **Height**: 5'9" / 1.8m
 **Weight**: 195.8lbs / 88.8kg
 

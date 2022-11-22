@@ -61,6 +61,8 @@ Weight:
 **Recommended Rank**:: Master
 **Good Starter**:: No
 **Can Evolve**:: No
+**MegaBaseForm**:: [[SRD-Tyranitar]]
+
 **Height**: 8'2" / 2.5m
 **Weight**: 562.2lbs / 255.0kg
 
