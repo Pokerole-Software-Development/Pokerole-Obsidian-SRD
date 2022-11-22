@@ -46,8 +46,6 @@ Weight:
 **Abilities**:: [[SRD-Drizzle|Drizzle]]
 **Base HP**:: 6
 
-![[SRD-kyogre-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::6)/(MaxStrength::6)   |
@@ -56,6 +54,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
+![[SRD-kyogre-HomeSprite.png|right]]
 ![[SRD-kyogre-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master

@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 5
 
-![[SRD-ho-oh-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::7)/(MaxStrength::7)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
+![[SRD-ho-oh-HomeSprite.png|right]]
 ![[SRD-ho-oh-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master

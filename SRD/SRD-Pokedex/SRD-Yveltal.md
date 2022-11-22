@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Dark Aura|Dark Aura]]
 **Base HP**:: 8
 
-![[SRD-yveltal-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::7)/(MaxStrength::7)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
+![[SRD-yveltal-HomeSprite.png|right]]
 ![[SRD-yveltal-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master

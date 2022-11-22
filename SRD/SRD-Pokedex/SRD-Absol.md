@@ -50,8 +50,6 @@ Weight:
 **Abilities**:: [[SRD-Pressure|Pressure]] / [[SRD-Super Luck|Super Luck]] ([[SRD-Justified|Justified]])
 **Base HP**:: 4
 
-![[SRD-absol-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::3)/(MaxStrength::7)   |
@@ -60,6 +58,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
+![[SRD-absol-HomeSprite.png|right]]
 ![[SRD-absol-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur

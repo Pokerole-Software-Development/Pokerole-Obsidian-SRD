@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Intrepid Sword|Intrepid Sword]]
 **Base HP**:: 5
 
-![[SRD-zacian-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::9)/(MaxStrength::9)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
+![[SRD-zacian-HomeSprite.png|right]]
 ![[SRD-zacian-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master

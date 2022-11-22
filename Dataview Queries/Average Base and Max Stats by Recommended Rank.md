@@ -1,6 +1,8 @@
 ```dataview
 Table without id 
-recommended-rank
+recommended-rank 
+,round(sum(rows.base-hp)/length(rows.base-hp),2) as HP
+,round(sum(rows.base-hp + rows.Vitality)/length(rows.base-hp),2) as "HP+BaseVit"
 ,round(sum(rows.Strength)/length(rows.Strength),2) as Strength
 ,round(sum(rows.Dexterity)/length(rows.Dexterity),2) as Dexterity
 ,round(sum(rows.Vitality)/length(rows.Vitality),2) as Vitality 
@@ -13,6 +15,8 @@ Group by recommended-rank sort round(sum(rows.Dexterity)/length(rows.Dexterity),
 ```dataview
 Table without id 
 recommended-rank
+,round(sum(rows.base-hp)/length(rows.base-hp),2) as HP
+,round(sum(rows.base-hp+rows.MaxVitality)/length(rows.base-hp),2) as "HP+MaxVit"
 ,round(sum(rows.MaxStrength)/length(rows.MaxStrength),2) as MaxStrength
 ,round(sum(rows.MaxDexterity)/length(rows.MaxDexterity),2) as MaxDexterity
 ,round(sum(rows.MaxVitality)/length(rows.MaxVitality),2) as MaxVitality 

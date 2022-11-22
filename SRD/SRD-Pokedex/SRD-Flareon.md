@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Flash Fire|Flash Fire]] ([[SRD-Guts|Guts]])
 **Base HP**:: 4
 
-![[SRD-flareon-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::3)/(MaxStrength::7)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
+![[SRD-flareon-HomeSprite.png|right]]
 ![[SRD-flareon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur

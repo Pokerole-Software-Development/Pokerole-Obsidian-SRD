@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Leaf Guard|Leaf Guard]] / [[SRD-Queenly Majesty|Queenly Majesty]] ([[SRD-Sweet Veil|Sweet Veil]])
 **Base HP**:: 5
 
-![[SRD-tsareena-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::3)/(MaxStrength::7)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
+![[SRD-tsareena-HomeSprite.png|right]]
 ![[SRD-tsareena-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur

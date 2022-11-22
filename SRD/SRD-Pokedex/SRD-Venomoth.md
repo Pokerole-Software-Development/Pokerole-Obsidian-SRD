@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Shield Dust|Shield Dust]] / [[SRD-Tinted Lens|Tinted Lens]] ([[SRD-Wonder Skin|Wonder Skin]])
 **Base HP**:: 4
 
-![[SRD-venomoth-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::4)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
+![[SRD-venomoth-HomeSprite.png|right]]
 ![[SRD-venomoth-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur

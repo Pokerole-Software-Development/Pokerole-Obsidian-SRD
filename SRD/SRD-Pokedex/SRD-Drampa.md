@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Berserk|Berserk]] / [[SRD-Sap Sipper|Sap Sipper]] ([[SRD-Cloud Nine|Cloud Nine]])
 **Base HP**:: 4
 
-![[SRD-drampa-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::5)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
+![[SRD-drampa-HomeSprite.png|right]]
 ![[SRD-drampa-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace

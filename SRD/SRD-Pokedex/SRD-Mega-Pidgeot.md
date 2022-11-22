@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-No Guard|No Guard]]
 **Base HP**:: 6
 
-![[SRD-pidgeot-mega-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::5)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
+![[SRD-pidgeot-mega-HomeSprite.png|right]]
 ![[SRD-pidgeot-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro

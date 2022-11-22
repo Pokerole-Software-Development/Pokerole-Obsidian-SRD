@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]]
 **Base HP**:: 4
 
-![[SRD-kakuna-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::1)/(MaxStrength::3)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
+![[SRD-kakuna-HomeSprite.png|right]]
 ![[SRD-kakuna-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner

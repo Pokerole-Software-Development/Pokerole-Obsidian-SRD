@@ -50,8 +50,6 @@ Weight:
 **Abilities**:: [[SRD-Clear Body|Clear Body]]
 **Base HP**:: 4
 
-![[SRD-diancie-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::6)/(MaxStrength::6)   |
@@ -60,6 +58,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::8)/(MaxInsight::8)     |
 
+![[SRD-diancie-HomeSprite.png|right]]
 ![[SRD-diancie-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro

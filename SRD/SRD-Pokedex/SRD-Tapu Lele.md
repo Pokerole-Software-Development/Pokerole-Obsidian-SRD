@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Psychic Surge|Psychic Surge]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 4
 
-![[SRD-tapu-lele-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::5)/(MaxStrength::5)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
+![[SRD-tapu-lele-HomeSprite.png|right]]
 ![[SRD-tapu-lele-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro

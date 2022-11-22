@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "5170d320f7a26c61",
+    "type": "split",
+    "children": [
+      {
+        "id": "13e5a8d0be1b0ec1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "205986ea69da3d41",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "205986ea69da3d41",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Readme.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":7.625}"
+                },
+                {
+                  "leaf": "205986ea69da3d41",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD Data Structures.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":54.544117647058826}"
+                },
+                {
+                  "leaf": "205986ea69da3d41",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Readme.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":7.625}"
+                },
+                {
+                  "leaf": "205986ea69da3d41",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD Data Structures.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":31.23984375}"
+                },
+                {
+                  "leaf": "205986ea69da3d41",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Readme.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"scroll\":6.497138869504536}"
+                },
+                {
+                  "leaf": "205986ea69da3d41",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Natures/SRD-Adamant.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "205986ea69da3d41",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Natures/SRD-Bashful.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "205986ea69da3d41",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Natures/SRD-Adamant.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "leaf": "205986ea69da3d41",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Pokemon Character Sheet Template.md\",\"mode\":\"source\",\"source\":true}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":3},\"to\":{\"line\":68,\"ch\":3}},\"scroll\":15.631542219120727}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Readme.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9d1426c2eefb2121",
+    "type": "split",
+    "children": [
+      {
+        "id": "1217d1bcb251ac27",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a530a77c26c314af",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            },
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d84f61527a7c7bcb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "052d5a9ff80416a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb2898854dbedfd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1bfa6d99f5e59a66",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Readme.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1a5db53db4be5dfd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Readme.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dabc8d0ecf30e22c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "84bbc5ab8861e6d7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Readme.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "205986ea69da3d41",
+  "lastOpenFiles": [
+    "SRD Data Structures.md",
+    "Readme.md",
+    "SRD/SRD-Natures/SRD-Adamant.md",
+    "SRD/SRD-Natures/SRD-Bashful.md",
+    "Templates/Pokemon Character Sheet Template.md"
+  ]
+}

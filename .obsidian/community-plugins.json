@@ -3,18 +3,14 @@
   "table-editor-obsidian",
   "emoji-shortcodes",
   "pane-relief",
-  "sliding-panes-obsidian",
   "remember-cursor-position",
   "cm-typewriter-scroll-obsidian",
   "obsidian-sort-and-permute-lines",
   "obsidian-regex-replace",
-  "obsidian-regex-pipeline",
   "tag-wrangler",
   "copy-url-in-preview",
-  "obsidian-csv-table",
   "hotkeysplus-obsidian",
   "image-window",
-  "novel-word-count",
   "dataview",
   "obsidian-imgur-plugin"
 ]

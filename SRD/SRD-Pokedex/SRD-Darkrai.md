@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Bad Dreams|Bad Dreams]]
 **Base HP**:: 4
 
-![[SRD-darkrai-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::5)/(MaxStrength::5)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
+![[SRD-darkrai-HomeSprite.png|right]]
 ![[SRD-darkrai-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro

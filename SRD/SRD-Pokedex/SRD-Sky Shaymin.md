@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Serene Grace|Serene Grace]]
 **Base HP**:: 5
 
-![[SRD-shaymin-sky-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::6)/(MaxStrength::6)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
+![[SRD-shaymin-sky-HomeSprite.png|right]]
 ![[SRD-shaymin-sky-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro

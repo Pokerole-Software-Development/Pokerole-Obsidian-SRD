@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Dauntless Shield|Dauntless Shield]]
 **Base HP**:: 5
 
-![[SRD-zamazenta-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::7)/(MaxStrength::7)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::8)/(MaxInsight::8)     |
 
+![[SRD-zamazenta-HomeSprite.png|right]]
 ![[SRD-zamazenta-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master

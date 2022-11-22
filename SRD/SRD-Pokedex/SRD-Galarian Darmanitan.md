@@ -46,8 +46,6 @@ Weight:
 **Abilities**:: [[SRD-Gorilla Tactics|Gorilla Tactics]] / [[SRD-Zen Mode|Zen Mode]]
 **Base HP**:: 4
 
-![[SRD-darmanitan-galar-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::3)/(MaxStrength::6)   |
@@ -56,6 +54,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
+![[SRD-darmanitan-galar-HomeSprite.png|right]]
 ![[SRD-darmanitan-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur

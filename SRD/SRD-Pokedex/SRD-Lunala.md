@@ -46,8 +46,6 @@ Weight:
 **Abilities**:: [[SRD-Shadow Shield|Shadow Shield]]
 **Base HP**:: 7
 
-![[SRD-lunala-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::6)/(MaxStrength::6)   |
@@ -56,6 +54,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
+![[SRD-lunala-HomeSprite.png|right]]
 ![[SRD-lunala-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master

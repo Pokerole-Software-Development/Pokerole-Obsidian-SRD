@@ -48,8 +48,6 @@ Weight:
 **Abilities**:: [[SRD-Schooling|Schooling]]
 **Base HP**:: 8
 
-![[SRD-wishiwashi-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::3)/(MaxStrength::7)   |
@@ -58,6 +56,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
+![[SRD-wishiwashi-HomeSprite.png|right]]
 ![[SRD-wishiwashi-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro

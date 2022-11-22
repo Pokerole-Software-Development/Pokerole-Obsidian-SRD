@@ -50,8 +50,6 @@ Weight:
 **Abilities**:: [[SRD-Magma Armor|Magma Armor]] / [[SRD-Solid Rock|Solid Rock]] ([[SRD-Anger Point|Anger Point]])
 **Base HP**:: 4
 
-![[SRD-camerupt-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::3)/(MaxStrength::6)   |
@@ -60,6 +58,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
+![[SRD-camerupt-HomeSprite.png|right]]
 ![[SRD-camerupt-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur

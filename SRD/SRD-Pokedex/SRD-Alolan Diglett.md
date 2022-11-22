@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] / [[SRD-Tangling Hair|Tangling Hair]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 3
 
-![[SRD-diglett-alola-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::4)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::4)     |
 
+![[SRD-diglett-alola-HomeSprite.png|right]]
 ![[SRD-diglett-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner

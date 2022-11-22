@@ -45,8 +45,6 @@ Weight:
 **Abilities**:: [[SRD-Aura Break|Aura Break]]
 **Base HP**:: 11
 
-![[SRD-zygarde-10-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::6)/(MaxStrength::6)   |
@@ -55,6 +53,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
+![[SRD-zygarde-10-HomeSprite.png|right]]
 ![[SRD-zygarde-10-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master

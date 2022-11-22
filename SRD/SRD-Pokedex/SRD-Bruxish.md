@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Dazzling|Dazzling]] / [[SRD-Strong Jaw|Strong Jaw]] ([[SRD-Wonder Skin|Wonder Skin]])
 **Base HP**:: 4
 
-![[SRD-bruxish-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::3)/(MaxStrength::6)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
+![[SRD-bruxish-HomeSprite.png|right]]
 ![[SRD-bruxish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur

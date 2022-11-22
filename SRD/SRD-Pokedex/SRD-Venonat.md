@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Compound Eyes|Compound Eyes]] / [[SRD-Tinted Lens|Tinted Lens]] ([[SRD-Run Away|Run Away]])
 **Base HP**:: 3
 
-![[SRD-venonat-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::4)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
+![[SRD-venonat-HomeSprite.png|right]]
 ![[SRD-venonat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner

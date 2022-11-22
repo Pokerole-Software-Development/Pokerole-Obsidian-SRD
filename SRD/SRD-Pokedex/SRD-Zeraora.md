@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Volt Absorb|Volt Absorb]]
 **Base HP**:: 4
 
-![[SRD-zeraora-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::6)/(MaxStrength::6)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
+![[SRD-zeraora-HomeSprite.png|right]]
 ![[SRD-zeraora-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro

@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Rock Head|Rock Head]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 4
 
-![[SRD-shelgon-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::3)/(MaxStrength::6)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
+![[SRD-shelgon-HomeSprite.png|right]]
 ![[SRD-shelgon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur

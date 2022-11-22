@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Strong Jaw|Strong Jaw]]
 **Base HP**:: 5
 
-![[SRD-sharpedo-mega-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::4)/(MaxStrength::8)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
+![[SRD-sharpedo-mega-HomeSprite.png|right]]
 ![[SRD-sharpedo-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro

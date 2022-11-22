@@ -50,8 +50,6 @@ Weight:
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Guts|Guts]] ([[SRD-Moxie|Moxie]])
 **Base HP**:: 4
 
-![[SRD-heracross-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::3)/(MaxStrength::6)   |
@@ -60,6 +58,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
+![[SRD-heracross-HomeSprite.png|right]]
 ![[SRD-heracross-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur

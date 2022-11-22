@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Tangled Feet|Tangled Feet]] / [[SRD-Screen Cleaner|Screen Cleaner]] ([[SRD-Ice Body|Ice Body]])
 **Base HP**:: 5
 
-![[SRD-mr-rime-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::5)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
+![[SRD-mr-rime-HomeSprite.png|right]]
 ![[SRD-mr-rime-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur

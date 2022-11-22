@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Desolate Land|Desolate Land]]
 **Base HP**:: 7
 
-![[SRD-groudon-primal-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::9)/(MaxStrength::9)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
+![[SRD-groudon-primal-HomeSprite.png|right]]
 ![[SRD-groudon-primal-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master

@@ -46,8 +46,6 @@ Weight:
 **Abilities**:: [[SRD-Serene Grace|Serene Grace]]
 **Base HP**:: 5
 
-![[SRD-meloetta-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::5)/(MaxStrength::5)   |
@@ -56,6 +54,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
+![[SRD-meloetta-HomeSprite.png|right]]
 ![[SRD-meloetta-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master

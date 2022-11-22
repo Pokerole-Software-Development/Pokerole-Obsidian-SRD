@@ -2,8 +2,8 @@
 Ability1: Levitate
 Ability2: ''
 Baby: 'No'
-BookSprite: SRD-rotom-BookSprite.png
-BoxSprite: SRD-rotom-BoxSprite.png
+BookSprite: SRD-rotom-dex-BookSprite.png
+BoxSprite: SRD-rotom-dex-BoxSprite.png
 DexCategory: Plasma Pokemon
 DexDescription: Its electric-like body can enter some kinds of machines and take control
   of them in order to cause mischief. It changes its form to that of the electric
@@ -16,14 +16,14 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-rotom-HomeSprite.png
+HomeSprite: SRD-rotom-dex-HomeSprite.png
 Learnset: '[[SRD-Rotom-Learnset]]'
 Legendary: 'No'
 Name: Rotom
 Number: 479
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
-Sprite: rotom.png
+Sprite: rotom-dex.png
 Type1: Electric
 Type2: Ghost
 Weight:
@@ -36,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rotom-BookSprite.png|right wsmall]]
+![[SRD-rotom-dex-BookSprite.png|right wsmall]]
 
 *Plasma Pokemon*
 *Its electric-like body can enter some kinds of machines and take control of them in order to cause mischief. It changes its form to that of the electric appliance, allowing it to become more powerful.*
@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
 
-![[SRD-rotom-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::4)   |
@@ -57,7 +55,8 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-rotom-BoxSprite.png|right]]
+![[SRD-rotom-dex-HomeSprite.png|right]]
+![[SRD-rotom-dex-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

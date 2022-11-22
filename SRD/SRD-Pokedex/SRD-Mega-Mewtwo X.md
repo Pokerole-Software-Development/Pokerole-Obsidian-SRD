@@ -46,8 +46,6 @@ Weight:
 **Abilities**:: [[SRD-Steadfast|Steadfast]]
 **Base HP**:: 6
 
-![[SRD-mewtwo-mega-x-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::9)/(MaxStrength::9)   |
@@ -56,6 +54,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
+![[SRD-mewtwo-mega-x-HomeSprite.png|right]]
 ![[SRD-mewtwo-mega-x-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master

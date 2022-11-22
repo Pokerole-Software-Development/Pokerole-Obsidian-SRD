@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Cursed Body|Cursed Body]] / [[SRD-Lightning Rod|Lightning Rod]] ([[SRD-Rock Head|Rock Head]])
 **Base HP**:: 4
 
-![[SRD-marowak-alola-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::5)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
+![[SRD-marowak-alola-HomeSprite.png|right]]
 ![[SRD-marowak-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur

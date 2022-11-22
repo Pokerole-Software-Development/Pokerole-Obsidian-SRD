@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Parental Bond|Parental Bond]]
 **Base HP**:: 6
 
-![[SRD-kangaskhan-mega-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::3)/(MaxStrength::7)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
+![[SRD-kangaskhan-mega-HomeSprite.png|right]]
 ![[SRD-kangaskhan-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace

@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Innards Out|Innards Out]] ([[SRD-Unaware|Unaware]])
 **Base HP**:: 4
 
-![[SRD-pyukumuku-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::4)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
+![[SRD-pyukumuku-HomeSprite.png|right]]
 ![[SRD-pyukumuku-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter

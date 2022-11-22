@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Delta Stream|Delta Stream]]
 **Base HP**:: 11
 
-![[SRD-rayquaza-mega-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::9)/(MaxStrength::9)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::9)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
+![[SRD-rayquaza-mega-HomeSprite.png|right]]
 ![[SRD-rayquaza-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master

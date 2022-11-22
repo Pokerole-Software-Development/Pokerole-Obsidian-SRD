@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Limber|Limber]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Keen Eye|Keen Eye]])
 **Base HP**:: 3
 
-![[SRD-glameow-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::4)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
+![[SRD-glameow-HomeSprite.png|right]]
 ![[SRD-glameow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter

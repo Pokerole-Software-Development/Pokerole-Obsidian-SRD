@@ -2,8 +2,8 @@
 Ability1: Synchronize
 Ability2: Early Bird
 Baby: 'No'
-BookSprite: SRD-xatu-BookSprite.png
-BoxSprite: SRD-xatu-BoxSprite.png
+BookSprite: SRD-natu-BookSprite.png
+BoxSprite: SRD-natu-BoxSprite.png
 DexCategory: Little Bird Pokemon
 DexDescription: It lives close to the deserts. Its wings are not fully developed so
   it hops to trees and cactus to peck something to eat. If you find one it will hold
@@ -16,14 +16,14 @@ Height:
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Magic Bounce
-HomeSprite: SRD-xatu-HomeSprite.png
+HomeSprite: SRD-natu-HomeSprite.png
 Learnset: '[[SRD-Natu-Learnset]]'
 Legendary: 'No'
 Name: Natu
 Number: 177
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
-Sprite: xatu.png
+Sprite: natu.png
 Type1: Psychic
 Type2: Flying
 Weight:
@@ -36,7 +36,7 @@ Weight:
 
 # `= this.name`
 
-![[SRD-xatu-BookSprite.png|right wsmall]]
+![[SRD-natu-BookSprite.png|right wsmall]]
 
 *Little Bird Pokemon*
 *It lives close to the deserts. Its wings are not fully developed so it hops to trees and cactus to peck something to eat. If you find one it will hold your stare, if you get closer it might disappear in an instant.*
@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Synchronize|Synchronize]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Magic Bounce|Magic Bounce]])
 **Base HP**:: 3
 
-![[SRD-xatu-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::4)   |
@@ -57,7 +55,8 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-xatu-BoxSprite.png|right]]
+![[SRD-natu-HomeSprite.png|right]]
+![[SRD-natu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

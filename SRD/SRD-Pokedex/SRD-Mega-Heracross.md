@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Skill Link|Skill Link]]
 **Base HP**:: 5
 
-![[SRD-heracross-mega-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::4)/(MaxStrength::9)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
+![[SRD-heracross-mega-HomeSprite.png|right]]
 ![[SRD-heracross-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace

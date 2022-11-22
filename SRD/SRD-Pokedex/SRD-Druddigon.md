@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Rough Skin|Rough Skin]] / [[SRD-Sheer Force|Sheer Force]] ([[SRD-Mold Breaker|Mold Breaker]])
 **Base HP**:: 4
 
-![[SRD-druddigon-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::3)/(MaxStrength::7)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
+![[SRD-druddigon-HomeSprite.png|right]]
 ![[SRD-druddigon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro

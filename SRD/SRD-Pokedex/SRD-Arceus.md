@@ -45,8 +45,6 @@ Weight:
 **Abilities**:: [[SRD-Multitype|Multitype]]
 **Base HP**:: 6
 
-![[SRD-arceus-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::12)/(MaxStrength::12)   |
@@ -55,6 +53,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::12)/(MaxSpecial::12)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::12)/(MaxInsight::12)     |
 
+![[SRD-arceus-HomeSprite.png|right]]
 ![[SRD-arceus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master

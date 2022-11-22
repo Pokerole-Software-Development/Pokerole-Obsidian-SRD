@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Color Change|Color Change]] ([[SRD-Protean|Protean]])
 **Base HP**:: 4
 
-![[SRD-kecleon-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::2)/(MaxStrength::5)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
+![[SRD-kecleon-HomeSprite.png|right]]
 ![[SRD-kecleon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur

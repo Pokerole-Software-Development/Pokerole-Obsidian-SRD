@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Lightning Rod|Lightning Rod]]
 **Base HP**:: 6
 
-![[SRD-sceptile-mega-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::3)/(MaxStrength::6)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
+![[SRD-sceptile-mega-HomeSprite.png|right]]
 ![[SRD-sceptile-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro

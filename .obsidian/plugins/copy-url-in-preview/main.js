@@ -20,26 +20,6 @@ var __copyProps = (to, from, except, desc) => {
   return to;
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
-var __async = (__this, __arguments, generator) => {
-  return new Promise((resolve, reject) => {
-    var fulfilled = (value) => {
-      try {
-        step(generator.next(value));
-      } catch (e) {
-        reject(e);
-      }
-    };
-    var rejected = (value) => {
-      try {
-        step(generator.throw(value));
-      } catch (e) {
-        reject(e);
-      }
-    };
-    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
-    step((generator = generator.apply(__this, __arguments)).next());
-  });
-};
 
 // src/main.ts
 var main_exports = {};
@@ -63,36 +43,34 @@ function withTimeout(ms, promise) {
     timeout
   ]);
 }
-function loadImageBlob(imgSrc) {
-  return __async(this, null, function* () {
-    const loadImageBlobCore = () => {
-      return new Promise((resolve, reject) => {
-        const image = new Image();
-        image.crossOrigin = "anonymous";
-        image.onload = () => {
-          const canvas = document.createElement("canvas");
-          canvas.width = image.width;
-          canvas.height = image.height;
-          const ctx = canvas.getContext("2d");
-          ctx.drawImage(image, 0, 0);
-          canvas.toBlob((blob) => {
-            resolve(blob);
-          });
-        };
-        image.onerror = () => __async(this, null, function* () {
-          try {
-            yield fetch(image.src, { "mode": "no-cors" });
-            const blob = yield loadImageBlob(`https://api.allorigins.win/raw?url=${encodeURIComponent(imgSrc)}`);
-            resolve(blob);
-          } catch (e) {
-            reject();
-          }
+async function loadImageBlob(imgSrc) {
+  const loadImageBlobCore = () => {
+    return new Promise((resolve, reject) => {
+      const image = new Image();
+      image.crossOrigin = "anonymous";
+      image.onload = () => {
+        const canvas = document.createElement("canvas");
+        canvas.width = image.width;
+        canvas.height = image.height;
+        const ctx = canvas.getContext("2d");
+        ctx.drawImage(image, 0, 0);
+        canvas.toBlob((blob) => {
+          resolve(blob);
         });
-        image.src = imgSrc;
-      });
-    };
-    return withTimeout(loadImageBlobTimeout, loadImageBlobCore());
-  });
+      };
+      image.onerror = async () => {
+        try {
+          await fetch(image.src, { "mode": "no-cors" });
+          const blob = await loadImageBlob(`https://api.allorigins.win/raw?url=${encodeURIComponent(imgSrc)}`);
+          resolve(blob);
+        } catch (e) {
+          reject();
+        }
+      };
+      image.src = imgSrc;
+    });
+  };
+  return withTimeout(loadImageBlobTimeout, loadImageBlobCore());
 }
 function onElement(el, event, selector, listener, options) {
   el.on(event, selector, listener, options);
@@ -159,7 +137,7 @@ var CopyUrlInPreview = class extends import_obsidian.Plugin {
     const pdfEmbed = el.closest(".pdf-embed");
     let pdfFile;
     if (pdfEmbed) {
-      let pdfLink = "";
+      let pdfLink;
       if (pdfEmbed.hasClass("popover")) {
         pdfLink = this.lastHoveredLinkTarget;
       } else {
@@ -174,18 +152,18 @@ var CopyUrlInPreview = class extends import_obsidian.Plugin {
     const menu = new import_obsidian.Menu();
     this.registerEscapeButton(menu);
     menu.onHide(() => this.openPdfMenu = null);
-    menu.addItem((item) => item.setIcon("pdf-file").setTitle("Open PDF externally").onClick(() => __async(this, null, function* () {
+    menu.addItem((item) => item.setIcon("pdf-file").setTitle("Open PDF externally").onClick(async () => {
       this.preventReopenPdfMenu = true;
       setTimeout(() => {
         this.preventReopenPdfMenu = false;
       }, OPEN_PDF_MENU_TIMEOUT);
       this.hideOpenPdfMenu();
       if (import_obsidian.Platform.isDesktop) {
-        yield this.app.openWithDefaultApp(pdfFile.path);
+        await this.app.openWithDefaultApp(pdfFile.path);
       } else {
-        yield this.app.vault.adapter.open(pdfFile.path);
+        await this.app.vault.adapter.open(pdfFile.path);
       }
-    })));
+    }));
     menu.showAtMouseEvent(event);
     this.openPdfMenu = menu;
     setTimeout(this.hideOpenPdfMenu.bind(this), OPEN_PDF_MENU_TIMEOUT);
@@ -220,39 +198,37 @@ var CopyUrlInPreview = class extends import_obsidian.Plugin {
       this.longTapTimeoutId = null;
     }
   }
-  processLongTap(event, img) {
-    return __async(this, null, function* () {
-      event.stopPropagation();
-      this.longTapTimeoutId = null;
-      const adapter = this.app.vault.adapter;
-      const electronWindow = window;
-      const basePath = adapter.getFullPath("");
-      const webviewServerUrl = electronWindow.WEBVIEW_SERVER_URL;
-      const localImagePrefixUrl = webviewServerUrl + IMAGE_URL_PREFIX + basePath;
-      if (img.src.startsWith(localImagePrefixUrl)) {
-        const encodedImageFileRelativePath = img.src.replace(localImagePrefixUrl, "");
-        const imageFileRelativePath = decodeURIComponent(encodedImageFileRelativePath);
-        yield adapter.open(imageFileRelativePath);
-      } else {
-        try {
-          const blob = yield loadImageBlob(img.src);
-          if (!blob.type.startsWith("image/")) {
-            new import_obsidian.Notice(`Unsupported mime type ${blob.type}`);
-            return;
-          }
-          const extension = blob.type.replace("image/", "");
-          const randomGuid = window.URL.createObjectURL(new Blob([])).split("/").pop();
-          const tempFileName = `/.temp-${randomGuid}.${extension}`;
-          const buffer = yield blob.arrayBuffer();
-          yield adapter.writeBinary(tempFileName, buffer);
-          setTimeout(() => adapter.remove(tempFileName), deleteTempFileTimeout);
-          new import_obsidian.Notice("Image was temporarily saved and will be removed in 1 minute");
-          yield adapter.open(tempFileName);
-        } catch (e) {
-          new import_obsidian.Notice("Cannot open image");
+  async processLongTap(event, img) {
+    event.stopPropagation();
+    this.longTapTimeoutId = null;
+    const adapter = this.app.vault.adapter;
+    const electronWindow = window;
+    const basePath = adapter.getFullPath("");
+    const webviewServerUrl = electronWindow.WEBVIEW_SERVER_URL;
+    const localImagePrefixUrl = webviewServerUrl + IMAGE_URL_PREFIX + basePath;
+    if (img.src.startsWith(localImagePrefixUrl)) {
+      const encodedImageFileRelativePath = img.src.replace(localImagePrefixUrl, "");
+      const imageFileRelativePath = decodeURIComponent(encodedImageFileRelativePath);
+      await adapter.open(imageFileRelativePath);
+    } else {
+      try {
+        const blob = await loadImageBlob(img.src);
+        if (!blob.type.startsWith("image/")) {
+          new import_obsidian.Notice(`Unsupported mime type ${blob.type}`);
+          return;
         }
+        const extension = blob.type.replace("image/", "");
+        const randomGuid = window.URL.createObjectURL(new Blob([])).split("/").pop();
+        const tempFileName = `/.temp-${randomGuid}.${extension}`;
+        const buffer = await blob.arrayBuffer();
+        await adapter.writeBinary(tempFileName, buffer);
+        setTimeout(() => adapter.remove(tempFileName), deleteTempFileTimeout);
+        new import_obsidian.Notice("Image was temporarily saved and will be removed in 1 minute");
+        await adapter.open(tempFileName);
+      } catch (e) {
+        new import_obsidian.Notice("Cannot open image");
       }
-    });
+    }
   }
   onClick(event) {
     event.preventDefault();
@@ -262,26 +238,36 @@ var CopyUrlInPreview = class extends import_obsidian.Plugin {
     switch (imgType) {
       case "img": {
         const image = target.currentSrc;
-        const thisURL = new URL(image);
-        const Proto = thisURL.protocol;
-        switch (Proto) {
+        const url = new URL(image);
+        const protocol = url.protocol;
+        switch (protocol) {
           case "app:":
           case "data:":
           case "http:":
           case "https:":
-            menu.addItem((item) => item.setIcon("image-file").setTitle("Copy image to clipboard").onClick(() => __async(this, null, function* () {
+            menu.addItem((item) => item.setIcon("image-file").setTitle("Copy image to clipboard").onClick(async () => {
               try {
-                const blob = yield loadImageBlob(image);
+                const blob = await loadImageBlob(image);
                 const data = new ClipboardItem({ [blob.type]: blob });
-                yield navigator.clipboard.write([data]);
+                await navigator.clipboard.write([data]);
                 new import_obsidian.Notice("Image copied to the clipboard!", SUCCESS_NOTICE_TIMEOUT);
               } catch (e) {
                 new import_obsidian.Notice("Error, could not copy the image!");
               }
-            })));
+            }));
+            if (protocol === "app:" && import_obsidian.Platform.isDesktop) {
+              const baseFilePath = app.vault.adapter.getFilePath("");
+              const baseFilePathName = baseFilePath.pathname;
+              const urlPathName = url.pathname;
+              if (urlPathName.startsWith(baseFilePathName)) {
+                let relativePath = urlPathName.replace(baseFilePathName, "");
+                relativePath = decodeURI(relativePath);
+                menu.addItem((item) => item.setIcon("arrow-up-right").setTitle("Open in default app").onClick(() => app.openWithDefaultApp(relativePath)));
+              }
+            }
             break;
           default:
-            new import_obsidian.Notice(`no handler for ${Proto} protocol`);
+            new import_obsidian.Notice(`no handler for ${protocol} protocol`);
             return;
         }
         break;

@@ -46,11 +46,11 @@ This is designed more for reference (like a Rival's Pokemon), less for on the fl
 5. Add moves by putting links to the SRD moves after the `**Moves**::` label. Multiple moves are comma separated. An example would be:
 > **Moves**:: [[SRD-Thunderbolt]], [[SRD-Iron Tail]], [[SRD-Electroweb]], [[SRD-Quick Attack]]
 
+[[Trainer Character Sheet Template]] functions almost identically to the Pokemon sheet for a Trainer. 
+
 # Credits and Contacts
 
 - This SRD was put together by myself, I can be contacted through Github (here) or Discord where my username is Willowlark#2359. 
-- The data that was used to generate the SRD was compiled out of the book by Shadeslayer into this [repository](https://github.com/XShadeSlayerXx/PokeRole-Discord.py-Base). 
-- Box sprites were compiled from this [repository](https://github.com/msikma/pokesprite).
-- Home sprites were ripped from [the spriter's resource](https://www.spriters-resource.com/nintendo_switch/pokemonhome/).
+- The data that was used to generate the SRD is compiled in [The Pokerole Data Repository](https://github.com/Willowlark/Pokerole-Data) by a number of dedicated members of the community. 
 - [Pokerole](https://www.pokeroleproject.com/) was written by it's own team, check them out.
 - Needless to say, Pokemon is owned by Nintendo

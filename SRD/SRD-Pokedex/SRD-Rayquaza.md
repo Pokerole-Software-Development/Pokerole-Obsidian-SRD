@@ -50,8 +50,6 @@ Weight:
 **Abilities**:: [[SRD-Air Lock|Air Lock]]
 **Base HP**:: 8
 
-![[SRD-rayquaza-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::8)/(MaxStrength::8)   |
@@ -60,6 +58,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
+![[SRD-rayquaza-HomeSprite.png|right]]
 ![[SRD-rayquaza-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master

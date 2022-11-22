@@ -47,8 +47,6 @@ Weight:
 **Abilities**:: [[SRD-Guts|Guts]] / [[SRD-Quick Feet|Quick Feet]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 4
 
-![[SRD-ursaring-HomeSprite.png|right]]
-
 |           |                                                                                        |                                          |
 | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------- |
 | Strength  | `= padleft(padright("",this.MaxStrength - this.Strength,"⭘"),this.MaxStrength,"⬤")`    | (Strength::3)/(MaxStrength::7)   |
@@ -57,6 +55,7 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
+![[SRD-ursaring-HomeSprite.png|right]]
 ![[SRD-ursaring-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
