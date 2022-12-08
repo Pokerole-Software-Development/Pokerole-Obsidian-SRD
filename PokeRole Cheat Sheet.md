@@ -1,6 +1,6 @@
 # Types
 
-![[Pasted image 20210818192148.png]]
+![[type chart.png]]
 
 # Skills
 
