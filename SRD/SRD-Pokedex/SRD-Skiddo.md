@@ -23,6 +23,7 @@ Name: Skiddo
 Number: 672
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-skiddo-ShuffleToken.png
 Sprite: skiddo.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-skiddo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-skiddo-BookSprite.png|wsmall]]
+> ![[SRD-skiddo-HomeSprite.png]]
+> ![[SRD-skiddo-BoxSprite.png|htiny]]
+> ![[SRD-skiddo-ShuffleToken.png|wsmall]]
+
 
 *Mount Pokemon*
 *It’s thought to be one of the first Pokemon to live in harmony with humans. If it has sunshine and water it doesn’t need to eat - the leaves on its back will produce the energy for it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-skiddo-HomeSprite.png|right]]
-![[SRD-skiddo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

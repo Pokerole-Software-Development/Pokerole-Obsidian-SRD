@@ -23,6 +23,7 @@ Name: Carbink
 Number: 703
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Mineral
+ShuffleToken: SRD-carbink-ShuffleToken.png
 Sprite: carbink.png
 Type1: Rock
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-carbink-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-carbink-BookSprite.png|wsmall]]
+> ![[SRD-carbink-HomeSprite.png]]
+> ![[SRD-carbink-BoxSprite.png|htiny]]
+> ![[SRD-carbink-ShuffleToken.png|wsmall]]
+
 
 *Jewel Pokemon*
 *It’s occasionally found at drilling zones and excavations in caves. Born from temperature and pressure deep underground, it shoots beams from the stone in its head. They can live for hundreds of years.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-carbink-HomeSprite.png|right]]
-![[SRD-carbink-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Baltoy
 Number: 343
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-baltoy-ShuffleToken.png
 Sprite: baltoy.png
 Type1: Ground
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-baltoy-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-baltoy-BookSprite.png|wsmall]]
+> ![[SRD-baltoy-HomeSprite.png]]
+> ![[SRD-baltoy-BoxSprite.png|htiny]]
+> ![[SRD-baltoy-ShuffleToken.png|wsmall]]
+
 
 *Clay Doll Pokemon*
 *They spin on their center to move around. When a group of them gathers they create a horrible, headache inducing noise at unison. Old paintings describe them living with people in ancient times.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-baltoy-HomeSprite.png|right]]
-![[SRD-baltoy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Talonflame
 Number: 663
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-talonflame-ShuffleToken.png
 Sprite: talonflame.png
 Type1: Fire
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-talonflame-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-talonflame-BookSprite.png|wsmall]]
+> ![[SRD-talonflame-HomeSprite.png]]
+> ![[SRD-talonflame-BoxSprite.png|htiny]]
+> ![[SRD-talonflame-ShuffleToken.png|wsmall]]
+
 
 *Scorching Pokemon*
 *They soar over desert canyons. If they spot prey they launch down at full speed to deliver a finishing blow. They are excellent hunters, with every wing flap they take, it leaves a trail of fire dust behind.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-talonflame-HomeSprite.png|right]]
-![[SRD-talonflame-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Mega-Gengar
 Number: 94
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gengar-mega-ShuffleToken.png
 Sprite: gengar-mega.png
 Type1: Ghost
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gengar-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gengar-mega-BookSprite.png|wsmall]]
+> ![[SRD-gengar-mega-HomeSprite.png]]
+> ![[SRD-gengar-mega-BoxSprite.png|htiny]]
+> ![[SRD-gengar-mega-ShuffleToken.png|wsmall]]
+
 
 *Shadow Pokemon*
 *With the power of the Mega Stone Gengar can now teleport through dimensions, whatever horrors it witnesses there make it try to curse anything or anyone it perceives as prey, even its beloved trainer!*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-gengar-mega-HomeSprite.png|right]]
-![[SRD-gengar-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

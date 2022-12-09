@@ -23,6 +23,7 @@ Name: Metang
 Number: 375
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-metang-ShuffleToken.png
 Sprite: metang.png
 Type1: Steel
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-metang-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-metang-BookSprite.png|wsmall]]
+> ![[SRD-metang-HomeSprite.png]]
+> ![[SRD-metang-BoxSprite.png|htiny]]
+> ![[SRD-metang-ShuffleToken.png|wsmall]]
+
 
 *Iron Claw Pokemon*
 *Its two brains are joined by a magnetic nervous system. This allows Metang to use psychokinetic powers. It is able to float and move in midair at 60 mph. To evolve further it will need more brain power.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-metang-HomeSprite.png|right]]
-![[SRD-metang-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

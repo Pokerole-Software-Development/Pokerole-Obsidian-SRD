@@ -23,6 +23,7 @@ Name: Slugma
 Number: 218
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-slugma-ShuffleToken.png
 Sprite: slugma.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-slugma-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-slugma-BookSprite.png|wsmall]]
+> ![[SRD-slugma-HomeSprite.png]]
+> ![[SRD-slugma-BoxSprite.png|htiny]]
+> ![[SRD-slugma-ShuffleToken.png|wsmall]]
+
 
 *Lava Pokemon*
 *They are extremely common in volcanic areas where they group together. They are made of molten magma instead of blood and flesh. Slugmas replenish parts of their body by absorbing molted rocks.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-slugma-HomeSprite.png|right]]
-![[SRD-slugma-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

@@ -21,6 +21,7 @@ Name: Galarian Zapdos (provisional)
 Number: 145
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zapdos-galar-ShuffleToken.png
 Sprite: zapdos-galar.png
 Type1: Fighting
 Type2: Flying
@@ -34,7 +35,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zapdos-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zapdos-galar-BookSprite.png|wsmall]]
+> ![[SRD-zapdos-galar-HomeSprite.png]]
+> ![[SRD-zapdos-galar-BoxSprite.png|htiny]]
+> ![[SRD-zapdos-galar-ShuffleToken.png|wsmall]]
+
 
 **
 **
@@ -53,8 +59,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-zapdos-galar-HomeSprite.png|right]]
-![[SRD-zapdos-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

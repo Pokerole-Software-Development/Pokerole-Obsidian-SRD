@@ -23,6 +23,7 @@ Name: Hatenna
 Number: 856
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-hatenna-ShuffleToken.png
 Sprite: hatenna.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-hatenna-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-hatenna-BookSprite.png|wsmall]]
+> ![[SRD-hatenna-HomeSprite.png]]
+> ![[SRD-hatenna-BoxSprite.png|htiny]]
+> ![[SRD-hatenna-ShuffleToken.png|wsmall]]
+
 
 *Calm Pokemon*
 *Though the protrusion on its head it senses other creatures’ emotions. If you don’t have a calm disposition, it will never warm up to you. They get overwhelmed in places with many people, preferring to hide alone.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-hatenna-HomeSprite.png|right]]
-![[SRD-hatenna-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

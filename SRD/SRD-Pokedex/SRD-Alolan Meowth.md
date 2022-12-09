@@ -23,6 +23,7 @@ Name: Alolan Meowth
 Number: 52
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-meowth-alola-ShuffleToken.png
 Sprite: meowth-alola.png
 Type1: Dark
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-meowth-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-meowth-alola-BookSprite.png|wsmall]]
+> ![[SRD-meowth-alola-HomeSprite.png]]
+> ![[SRD-meowth-alola-BoxSprite.png|htiny]]
+> ![[SRD-meowth-alola-ShuffleToken.png|wsmall]]
+
 
 *Scratch Cat Pokemon*
 *In old times, Meowth were taken to Alola as gifts for the tribe’s royals, this caused them to become incredibly greedy and pampered. Nowadays they are feral, but their prideful nature remained.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-meowth-alola-HomeSprite.png|right]]
-![[SRD-meowth-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

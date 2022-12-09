@@ -23,6 +23,7 @@ Name: Alolan Muk
 Number: 89
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-muk-alola-ShuffleToken.png
 Sprite: muk-alola.png
 Type1: Poison
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-muk-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-muk-alola-BookSprite.png|wsmall]]
+> ![[SRD-muk-alola-HomeSprite.png]]
+> ![[SRD-muk-alola-BoxSprite.png|htiny]]
+> ![[SRD-muk-alola-ShuffleToken.png|wsmall]]
+
 
 *Sludge Pokemon*
 *It is as friendly as it is toxic, be careful for it tries to hug others regularly. A good diet does not help reduce its toxicity levels, it only makes it cranky and prone to destroy furniture. It releases toxic fumes all the time.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-muk-alola-HomeSprite.png|right]]
-![[SRD-muk-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Rockruff
 Number: 744
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rockruff-ShuffleToken.png
 Sprite: rockruff.png
 Type1: Rock
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rockruff-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rockruff-BookSprite.png|wsmall]]
+> ![[SRD-rockruff-HomeSprite.png]]
+> ![[SRD-rockruff-BoxSprite.png|htiny]]
+> ![[SRD-rockruff-ShuffleToken.png|wsmall]]
+
 
 *Puppy Pokemon*
 *Rockruff are very social and friendly, their keen sense of smell allows them to find their trainers easily. However, as they age they become wilder and rebellious. Do not let them roam alone at night.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-rockruff-HomeSprite.png|right]]
-![[SRD-rockruff-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

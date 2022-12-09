@@ -23,6 +23,7 @@ Name: Fomantis
 Number: 753
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-fomantis-ShuffleToken.png
 Sprite: fomantis.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-fomantis-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-fomantis-BookSprite.png|wsmall]]
+> ![[SRD-fomantis-HomeSprite.png]]
+> ![[SRD-fomantis-BoxSprite.png|htiny]]
+> ![[SRD-fomantis-ShuffleToken.png|wsmall]]
+
 
 *Sickle Grass Pokemon*
 *They sleep during the day, absorbing sunlight in a flower meadow; by night they become active and search for another spot to sleep. Their arms are made or sharp grass leaves to defend themselves.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-fomantis-HomeSprite.png|right]]
-![[SRD-fomantis-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

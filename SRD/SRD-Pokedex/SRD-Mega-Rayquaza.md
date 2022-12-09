@@ -23,6 +23,7 @@ Name: Mega-Rayquaza
 Number: 384
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rayquaza-mega-ShuffleToken.png
 Sprite: rayquaza-mega.png
 Type1: Dragon
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rayquaza-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rayquaza-mega-BookSprite.png|wsmall]]
+> ![[SRD-rayquaza-mega-HomeSprite.png]]
+> ![[SRD-rayquaza-mega-BoxSprite.png|htiny]]
+> ![[SRD-rayquaza-mega-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *What does the power of the Mega Stone truly entail? Is it the bond between a Trainer and their companion? Or is it all about taking a hold of a forbidden power?*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::9)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-rayquaza-mega-HomeSprite.png|right]]
-![[SRD-rayquaza-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

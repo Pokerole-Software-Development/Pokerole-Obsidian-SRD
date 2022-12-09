@@ -23,6 +23,7 @@ Name: Dragapult
 Number: 887
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-dragapult-ShuffleToken.png
 Sprite: dragapult.png
 Type1: Dragon
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dragapult-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dragapult-BookSprite.png|wsmall]]
+> ![[SRD-dragapult-HomeSprite.png]]
+> ![[SRD-dragapult-BoxSprite.png|htiny]]
+> ![[SRD-dragapult-ShuffleToken.png|wsmall]]
+
 
 *Stealth Pokemon*
 *When it isn’t battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles. The smaller Pokemon appear happy to be shot and will reload themselves.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-dragapult-HomeSprite.png|right]]
-![[SRD-dragapult-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

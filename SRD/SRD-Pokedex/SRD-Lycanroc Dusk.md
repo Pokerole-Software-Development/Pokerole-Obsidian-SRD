@@ -23,6 +23,7 @@ Name: Lycanroc Dusk
 Number: 745
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-lycanroc-dusk-ShuffleToken.png
 Sprite: lycanroc-dusk.png
 Type1: Rock
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lycanroc-dusk-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lycanroc-dusk-BookSprite.png|wsmall]]
+> ![[SRD-lycanroc-dusk-HomeSprite.png]]
+> ![[SRD-lycanroc-dusk-BoxSprite.png|htiny]]
+> ![[SRD-lycanroc-dusk-ShuffleToken.png|wsmall]]
+
 
 *Wolf Pokemon*
 *An independent but loyal Rockruff will evolve at dusk. This evolved for is very hard to achieve. An intense fighting spirit lies underneath its calm exterior. Prone to act on its own.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-lycanroc-dusk-HomeSprite.png|right]]
-![[SRD-lycanroc-dusk-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

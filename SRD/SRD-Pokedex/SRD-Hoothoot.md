@@ -23,6 +23,7 @@ Name: Hoothoot
 Number: 163
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-hoothoot-ShuffleToken.png
 Sprite: hoothoot.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-hoothoot-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-hoothoot-BookSprite.png|wsmall]]
+> ![[SRD-hoothoot-HomeSprite.png]]
+> ![[SRD-hoothoot-BoxSprite.png|htiny]]
+> ![[SRD-hoothoot-ShuffleToken.png|wsmall]]
+
 
 *Owl Pokemon*
 *A nocturnal Pokemon found in dark forests. It has an internal organ that senses the earth’s rotation. By using this special organ a Hoothoot begins hooting at precisely the same time every day.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-hoothoot-HomeSprite.png|right]]
-![[SRD-hoothoot-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

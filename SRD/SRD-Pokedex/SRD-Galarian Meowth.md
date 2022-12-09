@@ -23,6 +23,7 @@ Name: Galarian Meowth
 Number: 52
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-meowth-galar-ShuffleToken.png
 Sprite: meowth-galar.png
 Type1: Steel
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-meowth-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-meowth-galar-BookSprite.png|wsmall]]
+> ![[SRD-meowth-galar-HomeSprite.png]]
+> ![[SRD-meowth-galar-BoxSprite.png|htiny]]
+> ![[SRD-meowth-galar-ShuffleToken.png|wsmall]]
+
 
 *Scratch Cat Pokemon*
 *The coin on its head has rusted. Meowths were taken into viking ships on long travels through the sea, living for so long in such harsh conditions toughened it up so much that parts of it have turned to iron.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-meowth-galar-HomeSprite.png|right]]
-![[SRD-meowth-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

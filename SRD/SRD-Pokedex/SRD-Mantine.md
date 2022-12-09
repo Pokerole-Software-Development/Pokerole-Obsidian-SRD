@@ -23,6 +23,7 @@ Name: Mantine
 Number: 226
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mantine-ShuffleToken.png
 Sprite: mantine.png
 Type1: Water
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mantine-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mantine-BookSprite.png|wsmall]]
+> ![[SRD-mantine-HomeSprite.png]]
+> ![[SRD-mantine-BoxSprite.png|htiny]]
+> ![[SRD-mantine-ShuffleToken.png|wsmall]]
+
 
 *Kite Pokemon*
 *Mantine swims under water and over the waves, gliding for 300 ft in the air. They are intelligent and docile, traveling elegantly in groups. Remoraids can be seen hanging from their fins from time to time.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-mantine-HomeSprite.png|right]]
-![[SRD-mantine-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

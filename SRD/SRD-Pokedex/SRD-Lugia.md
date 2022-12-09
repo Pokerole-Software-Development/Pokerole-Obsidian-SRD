@@ -23,6 +23,7 @@ Name: Lugia
 Number: 249
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-lugia-ShuffleToken.png
 Sprite: lugia.png
 Type1: Flying
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lugia-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lugia-BookSprite.png|wsmall]]
+> ![[SRD-lugia-HomeSprite.png]]
+> ![[SRD-lugia-BoxSprite.png|htiny]]
+> ![[SRD-lugia-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Known as the Guardian of the Sea. It used to live in the Brass Tower, where Pokemon awoke. Lugia's Myth is linked to the idea that those whose death was pure will be reborn in the sea.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-lugia-HomeSprite.png|right]]
-![[SRD-lugia-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

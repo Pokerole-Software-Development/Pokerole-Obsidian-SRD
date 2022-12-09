@@ -23,6 +23,7 @@ Name: Phanpy
 Number: 231
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-phanpy-ShuffleToken.png
 Sprite: phanpy.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-phanpy-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-phanpy-BookSprite.png|wsmall]]
+> ![[SRD-phanpy-HomeSprite.png]]
+> ![[SRD-phanpy-BoxSprite.png|htiny]]
+> ![[SRD-phanpy-ShuffleToken.png|wsmall]]
+
 
 *Long Nose Pokemon*
 *They are affectionate and playful, but their snout is so strong that they may hurt others while playing. They dig pits at the edge of rivers and mark them so everyone knows that place is taken.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-phanpy-HomeSprite.png|right]]
-![[SRD-phanpy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

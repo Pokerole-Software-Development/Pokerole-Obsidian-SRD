@@ -23,6 +23,7 @@ Name: Arcanine
 Number: 59
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-arcanine-ShuffleToken.png
 Sprite: arcanine.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-arcanine-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-arcanine-BookSprite.png|wsmall]]
+> ![[SRD-arcanine-HomeSprite.png]]
+> ![[SRD-arcanine-BoxSprite.png|htiny]]
+> ![[SRD-arcanine-ShuffleToken.png|wsmall]]
+
 
 *Legendary Pokemon*
 *Its proud and regal appearance has made it be revered by people of ancient societies. Its magnificent bark conveys a sense of majesty. Anyone in front of Arcanine can’t help but stare in awe.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-arcanine-HomeSprite.png|right]]
-![[SRD-arcanine-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

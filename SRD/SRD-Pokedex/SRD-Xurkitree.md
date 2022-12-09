@@ -23,6 +23,7 @@ Name: Xurkitree
 Number: 796
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-xurkitree-ShuffleToken.png
 Sprite: xurkitree.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-xurkitree-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-xurkitree-BookSprite.png|wsmall]]
+> ![[SRD-xurkitree-HomeSprite.png]]
+> ![[SRD-xurkitree-BoxSprite.png|htiny]]
+> ![[SRD-xurkitree-ShuffleToken.png|wsmall]]
+
 
 *Aether Foundation Log #067*
 *My superiors are furious. A lot of money had to be used to cover the damages UB-03 dealt in the power plant. On the bright side, it seems a lot livelier now that it appears to have recharged.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::9)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-xurkitree-HomeSprite.png|right]]
-![[SRD-xurkitree-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

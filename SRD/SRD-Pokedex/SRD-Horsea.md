@@ -23,6 +23,7 @@ Name: Horsea
 Number: 116
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-horsea-ShuffleToken.png
 Sprite: horsea.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-horsea-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-horsea-BookSprite.png|wsmall]]
+> ![[SRD-horsea-HomeSprite.png]]
+> ![[SRD-horsea-BoxSprite.png|htiny]]
+> ![[SRD-horsea-ShuffleToken.png|wsmall]]
+
 
 *Dragon Pokemon*
 *It makes its nest in the shade of corals in shallow parts of the sea. If it senses danger, it spits a murky ink and flees. It has been seen shooting down flying bugs to eat them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-horsea-HomeSprite.png|right]]
-![[SRD-horsea-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

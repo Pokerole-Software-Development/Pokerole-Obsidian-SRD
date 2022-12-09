@@ -22,6 +22,7 @@ Name: Regirock
 Number: 377
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-regirock-ShuffleToken.png
 Sprite: regirock.png
 Type1: Rock
 Type2: ''
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-regirock-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-regirock-BookSprite.png|wsmall]]
+> ![[SRD-regirock-HomeSprite.png]]
+> ![[SRD-regirock-BoxSprite.png|htiny]]
+> ![[SRD-regirock-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *It is said to be an immortal being the size of the peak of a mountain. Could he be a remnant from the most ancient times of this world?*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-regirock-HomeSprite.png|right]]
-![[SRD-regirock-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

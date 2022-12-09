@@ -23,6 +23,7 @@ Name: Nidorino
 Number: 33
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Field
+ShuffleToken: SRD-nidorino-ShuffleToken.png
 Sprite: nidorino.png
 Type1: Poison
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-nidorino-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-nidorino-BookSprite.png|wsmall]]
+> ![[SRD-nidorino-HomeSprite.png]]
+> ![[SRD-nidorino-BoxSprite.png|htiny]]
+> ![[SRD-nidorino-ShuffleToken.png|wsmall]]
+
 
 *Poison Pin Pokemon*
 *An independent and fierce creature. It roams alone in search for a mate and will compete with other males around. It will violently charge with a venom drenched horn against intruders.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-nidorino-HomeSprite.png|right]]
-![[SRD-nidorino-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

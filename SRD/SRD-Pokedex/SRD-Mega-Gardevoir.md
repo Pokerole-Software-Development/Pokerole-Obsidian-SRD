@@ -23,6 +23,7 @@ Name: Mega-Gardevoir
 Number: 282
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-gardevoir-mega-ShuffleToken.png
 Sprite: gardevoir-mega.png
 Type1: Psychic
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gardevoir-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gardevoir-mega-BookSprite.png|wsmall]]
+> ![[SRD-gardevoir-mega-HomeSprite.png]]
+> ![[SRD-gardevoir-mega-BoxSprite.png|htiny]]
+> ![[SRD-gardevoir-mega-ShuffleToken.png|wsmall]]
+
 
 *Embrace Pokemon*
 *The power of the Mega Stone makes its senses skyrocket. It is easily upset as it can feel the emotions from everyone in a wide radius. Its psychic powers are said to distort reality.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-gardevoir-mega-HomeSprite.png|right]]
-![[SRD-gardevoir-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Chimecho
 Number: 358
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-chimecho-ShuffleToken.png
 Sprite: chimecho.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-chimecho-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-chimecho-BookSprite.png|wsmall]]
+> ![[SRD-chimecho-HomeSprite.png]]
+> ![[SRD-chimecho-BoxSprite.png|htiny]]
+> ![[SRD-chimecho-ShuffleToken.png|wsmall]]
+
 
 *Wind Chime Pokemon*
 *They have seven different cries that resound with the wind. They can create ultrasonic waves when they are in danger. Using the suction cup on their head, they hang to branches on windy days.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-chimecho-HomeSprite.png|right]]
-![[SRD-chimecho-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

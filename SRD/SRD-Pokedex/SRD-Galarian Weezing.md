@@ -23,6 +23,7 @@ Name: Galarian Weezing
 Number: 110
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-weezing-galar-ShuffleToken.png
 Sprite: weezing-galar.png
 Type1: Poison
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-weezing-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-weezing-galar-BookSprite.png|wsmall]]
+> ![[SRD-weezing-galar-HomeSprite.png]]
+> ![[SRD-weezing-galar-BoxSprite.png|htiny]]
+> ![[SRD-weezing-galar-ShuffleToken.png|wsmall]]
+
 
 *Poison Gas Pokemon*
 *This Pokemon eats the contamination in the air, and instead of droppings, it expels clean air. Its Galar Form was first spotted long ago when factories polluted the City.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-weezing-galar-HomeSprite.png|right]]
-![[SRD-weezing-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

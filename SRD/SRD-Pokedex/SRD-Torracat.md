@@ -23,6 +23,7 @@ Name: Torracat
 Number: 726
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-torracat-ShuffleToken.png
 Sprite: torracat.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-torracat-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-torracat-BookSprite.png|wsmall]]
+> ![[SRD-torracat-HomeSprite.png]]
+> ![[SRD-torracat-BoxSprite.png|htiny]]
+> ![[SRD-torracat-ShuffleToken.png|wsmall]]
+
 
 *Fire Cat Pokemon*
 *The bell on its neck glows and chimes when it shots fire through it. Although it acts spoiled with its Trainer, it is a capable and relentless brawler, it will keep battling until its foes lose their fighting spirits.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-torracat-HomeSprite.png|right]]
-![[SRD-torracat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

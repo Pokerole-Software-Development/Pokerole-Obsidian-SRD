@@ -23,6 +23,7 @@ Name: Chinchou
 Number: 170
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-chinchou-ShuffleToken.png
 Sprite: chinchou.png
 Type1: Water
 Type2: Electric
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-chinchou-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-chinchou-BookSprite.png|wsmall]]
+> ![[SRD-chinchou-HomeSprite.png]]
+> ![[SRD-chinchou-BoxSprite.png|htiny]]
+> ![[SRD-chinchou-ShuffleToken.png|wsmall]]
+
 
 *Angler Pokemon*
 *In the dark ocean floor, its only mean of communication is to constantly flash its lights. It is a clumsy but friendly Pokemon. Its antennae can be used to power up small electric appliances.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-chinchou-HomeSprite.png|right]]
-![[SRD-chinchou-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

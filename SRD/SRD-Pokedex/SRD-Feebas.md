@@ -23,6 +23,7 @@ Name: Feebas
 Number: 349
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-feebas-ShuffleToken.png
 Sprite: feebas.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-feebas-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-feebas-BookSprite.png|wsmall]]
+> ![[SRD-feebas-HomeSprite.png]]
+> ![[SRD-feebas-BoxSprite.png|htiny]]
+> ![[SRD-feebas-ShuffleToken.png|wsmall]]
+
 
 *Fish Pokemon*
 *This Pokemon tastes awful, it is incredibly ugly, smelly, kind of dumb and a terrible fighter. To make things worse, it is actually extremely rare. For those reasons, people tend to avoid it and it’s usually ignored*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-feebas-HomeSprite.png|right]]
-![[SRD-feebas-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

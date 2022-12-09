@@ -23,6 +23,7 @@ Name: Dodrio
 Number: 85
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-dodrio-ShuffleToken.png
 Sprite: dodrio.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dodrio-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dodrio-BookSprite.png|wsmall]]
+> ![[SRD-dodrio-HomeSprite.png]]
+> ![[SRD-dodrio-BoxSprite.png|htiny]]
+> ![[SRD-dodrio-ShuffleToken.png|wsmall]]
+
 
 *Triple Bird Pokemon*
 *A third head comes to change the dynamic the two original had. It is common to see the three heads fighting. Each one has its own personality, but when they work as a team they can be very powerful.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-dodrio-HomeSprite.png|right]]
-![[SRD-dodrio-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

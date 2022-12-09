@@ -23,6 +23,7 @@ Name: Feraligatr
 Number: 160
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-feraligatr-ShuffleToken.png
 Sprite: feraligatr.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-feraligatr-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-feraligatr-BookSprite.png|wsmall]]
+> ![[SRD-feraligatr-HomeSprite.png]]
+> ![[SRD-feraligatr-BoxSprite.png|htiny]]
+> ![[SRD-feraligatr-ShuffleToken.png|wsmall]]
+
 
 *Big Jaw Pokemon*
 *While in the water, it opens its big jaw to intimidate anyone coming close. Whenever it bites, it shakes its head and savagely rolls to tear up its prey. It is a very dangerous Pokemon. Approach with caution*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-feraligatr-HomeSprite.png|right]]
-![[SRD-feraligatr-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Yamask
 Number: 562
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-yamask-ShuffleToken.png
 Sprite: yamask.png
 Type1: Ghost
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-yamask-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-yamask-BookSprite.png|wsmall]]
+> ![[SRD-yamask-HomeSprite.png]]
+> ![[SRD-yamask-BoxSprite.png|htiny]]
+> ![[SRD-yamask-ShuffleToken.png|wsmall]]
+
 
 *Spirit Pokemon*
 *This Pokemon arose from the spirit of a human or a Pokemon that died in the past and was buried with special ceremonies. Each one carries a mask that looks like the face it had in life. A sad Pokemon that weeps often.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-yamask-HomeSprite.png|right]]
-![[SRD-yamask-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

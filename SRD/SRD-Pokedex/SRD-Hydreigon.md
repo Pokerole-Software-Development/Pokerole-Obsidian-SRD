@@ -23,6 +23,7 @@ Name: Hydreigon
 Number: 635
 PrimaryEggGroup: Dragon
 SecondaryEggGroup: ''
+ShuffleToken: SRD-hydreigon-ShuffleToken.png
 Sprite: hydreigon.png
 Type1: Dark
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-hydreigon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-hydreigon-BookSprite.png|wsmall]]
+> ![[SRD-hydreigon-HomeSprite.png]]
+> ![[SRD-hydreigon-BoxSprite.png|htiny]]
+> ![[SRD-hydreigon-ShuffleToken.png|wsmall]]
+
 
 *Brutal Pokemon*
 *This brutal Pokemon flies in the sky. Anything that moves seems like a foe to it, triggering its aggression. The heads on its arms do not have brains. They use all three heads to consume and destroy everything.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-hydreigon-HomeSprite.png|right]]
-![[SRD-hydreigon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

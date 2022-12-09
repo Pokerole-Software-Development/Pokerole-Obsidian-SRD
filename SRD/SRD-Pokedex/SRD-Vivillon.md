@@ -23,6 +23,7 @@ Name: Vivillon
 Number: 666
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-vivillon-ShuffleToken.png
 Sprite: vivillon.png
 Type1: Bug
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-vivillon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-vivillon-BookSprite.png|wsmall]]
+> ![[SRD-vivillon-HomeSprite.png]]
+> ![[SRD-vivillon-BoxSprite.png|htiny]]
+> ![[SRD-vivillon-ShuffleToken.png|wsmall]]
+
 
 *Scale Pokemon*
 *The patterns on this Pokemon’s wings depend on the climate it grows and the flowers it feeds on. A famous Pokemon breeder made one develop a Pokeball pattern, it was sold for a million dollars.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-vivillon-HomeSprite.png|right]]
-![[SRD-vivillon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Pyroar
 Number: 668
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pyroar-ShuffleToken.png
 Sprite: pyroar.png
 Type1: Fire
 Type2: Normal
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pyroar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pyroar-BookSprite.png|wsmall]]
+> ![[SRD-pyroar-HomeSprite.png]]
+> ![[SRD-pyroar-BoxSprite.png|htiny]]
+> ![[SRD-pyroar-ShuffleToken.png|wsmall]]
+
 
 *Royal Pokemon*
 *The male with the largest fire mane is the leader of the pride. The females have a long mane strip. Whenever they roar they also let out a fiery breath. Not many Pokemon dare to mess with them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-pyroar-HomeSprite.png|right]]
-![[SRD-pyroar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

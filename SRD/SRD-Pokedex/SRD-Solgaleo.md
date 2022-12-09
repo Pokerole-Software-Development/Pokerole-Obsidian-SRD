@@ -22,6 +22,7 @@ Name: Solgaleo
 Number: 791
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-solgaleo-ShuffleToken.png
 Sprite: solgaleo.png
 Type1: Psychic
 Type2: Steel
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-solgaleo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-solgaleo-BookSprite.png|wsmall]]
+> ![[SRD-solgaleo-HomeSprite.png]]
+> ![[SRD-solgaleo-BoxSprite.png|htiny]]
+> ![[SRD-solgaleo-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *There are legends about a being that radiated with the sun, on its forehead a third eye that connected to another dimension.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-solgaleo-HomeSprite.png|right]]
-![[SRD-solgaleo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Weavile
 Number: 461
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-weavile-ShuffleToken.png
 Sprite: weavile.png
 Type1: Dark
 Type2: Ice
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-weavile-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-weavile-BookSprite.png|wsmall]]
+> ![[SRD-weavile-HomeSprite.png]]
+> ![[SRD-weavile-BoxSprite.png|htiny]]
+> ![[SRD-weavile-ShuffleToken.png|wsmall]]
+
 
 *Sharp Claw Pokemon*
 *They live in cold regions, forming groups of four that hunt prey with impressive coordination. They leave claw marks and patterns to indicate their territory. It is devious and loves to cause trouble.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-weavile-HomeSprite.png|right]]
-![[SRD-weavile-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

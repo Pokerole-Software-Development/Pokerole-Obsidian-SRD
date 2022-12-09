@@ -23,6 +23,7 @@ Name: Empoleon
 Number: 395
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-empoleon-ShuffleToken.png
 Sprite: empoleon.png
 Type1: Water
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-empoleon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-empoleon-BookSprite.png|wsmall]]
+> ![[SRD-empoleon-HomeSprite.png]]
+> ![[SRD-empoleon-BoxSprite.png|htiny]]
+> ![[SRD-empoleon-ShuffleToken.png|wsmall]]
+
 
 *Emperor Pokemon*
 *They are regal and arrogant. Their beaks slice apart the drifting ice while swimming as fast as a jet boat. They avoid unnecessary fights, but will crush and cleave anyone that hurts or threatens its pride.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-empoleon-HomeSprite.png|right]]
-![[SRD-empoleon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

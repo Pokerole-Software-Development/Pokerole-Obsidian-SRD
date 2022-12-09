@@ -23,6 +23,7 @@ Name: Applin
 Number: 840
 PrimaryEggGroup: Grass
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-applin-ShuffleToken.png
 Sprite: applin.png
 Type1: Grass
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-applin-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-applin-BookSprite.png|wsmall]]
+> ![[SRD-applin-HomeSprite.png]]
+> ![[SRD-applin-BoxSprite.png|htiny]]
+> ![[SRD-applin-ShuffleToken.png|wsmall]]
+
 
 *Apple Core Pokemon*
 *As soon as it’s born this tiny lizard Pokemon, it burrows into an apple to protect itself from birds and predators. The apple serves as its food source and the flavor of it will determine its evolution.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-applin-HomeSprite.png|right]]
-![[SRD-applin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

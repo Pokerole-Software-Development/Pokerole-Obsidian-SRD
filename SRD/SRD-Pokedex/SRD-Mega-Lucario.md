@@ -23,6 +23,7 @@ Name: Mega-Lucario
 Number: 448
 PrimaryEggGroup: Field
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-lucario-mega-ShuffleToken.png
 Sprite: lucario-mega.png
 Type1: Fighting
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lucario-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lucario-mega-BookSprite.png|wsmall]]
+> ![[SRD-lucario-mega-HomeSprite.png]]
+> ![[SRD-lucario-mega-BoxSprite.png|htiny]]
+> ![[SRD-lucario-mega-ShuffleToken.png|wsmall]]
+
 
 *Aura Pokemon*
 *The explosive, pulsing energy of the auras and the Mega Stone have awoken its combative instincts. Its fighting style can be summed up in a single word: heartless.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-lucario-mega-HomeSprite.png|right]]
-![[SRD-lucario-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

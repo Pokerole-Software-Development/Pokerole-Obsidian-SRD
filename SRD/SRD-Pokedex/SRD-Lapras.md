@@ -23,6 +23,7 @@ Name: Lapras
 Number: 131
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-lapras-ShuffleToken.png
 Sprite: lapras.png
 Type1: Water
 Type2: Ice
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lapras-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lapras-BookSprite.png|wsmall]]
+> ![[SRD-lapras-HomeSprite.png]]
+> ![[SRD-lapras-BoxSprite.png|htiny]]
+> ![[SRD-lapras-ShuffleToken.png|wsmall]]
+
 
 *Transport Pokemon*
 *People have driven Lapras near the point of extinction. In the evenings, this Pokemon is said to sing as it seeks what few others of its kind still remain. Their gentle nature has made them easy to lure and catch.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-lapras-HomeSprite.png|right]]
-![[SRD-lapras-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

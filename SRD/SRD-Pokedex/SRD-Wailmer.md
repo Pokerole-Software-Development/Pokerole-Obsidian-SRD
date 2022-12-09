@@ -23,6 +23,7 @@ Name: Wailmer
 Number: 320
 PrimaryEggGroup: Field
 SecondaryEggGroup: Water 2
+ShuffleToken: SRD-wailmer-ShuffleToken.png
 Sprite: wailmer.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-wailmer-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-wailmer-BookSprite.png|wsmall]]
+> ![[SRD-wailmer-HomeSprite.png]]
+> ![[SRD-wailmer-BoxSprite.png|htiny]]
+> ![[SRD-wailmer-ShuffleToken.png|wsmall]]
+
 
 *Ball Whale Pokemon*
 *Wailmer has a playful nature. They can store water inside their body to inflate like a ball and bounce, then startle people by snorting the water from their nostrils. This Pokemon needs lots of food everyday.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-wailmer-HomeSprite.png|right]]
-![[SRD-wailmer-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

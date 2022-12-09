@@ -23,6 +23,7 @@ Name: Leavanny
 Number: 542
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-leavanny-ShuffleToken.png
 Sprite: leavanny.png
 Type1: Bug
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-leavanny-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-leavanny-BookSprite.png|wsmall]]
+> ![[SRD-leavanny-HomeSprite.png]]
+> ![[SRD-leavanny-BoxSprite.png|htiny]]
+> ![[SRD-leavanny-ShuffleToken.png|wsmall]]
+
 
 *Nurturing Pokemon*
 *It is a gentle and caring Pokemon. Mostly known for making clothes out of leaves and silk for any small pokemon it finds. It warms and protects its eggs making nests of fermenting leaves.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-leavanny-HomeSprite.png|right]]
-![[SRD-leavanny-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

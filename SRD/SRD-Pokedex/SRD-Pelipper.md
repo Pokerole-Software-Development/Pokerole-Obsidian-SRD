@@ -23,6 +23,7 @@ Name: Pelipper
 Number: 279
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Flying
+ShuffleToken: SRD-pelipper-ShuffleToken.png
 Sprite: pelipper.png
 Type1: Water
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pelipper-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pelipper-BookSprite.png|wsmall]]
+> ![[SRD-pelipper-HomeSprite.png]]
+> ![[SRD-pelipper-BoxSprite.png|htiny]]
+> ![[SRD-pelipper-ShuffleToken.png|wsmall]]
+
 
 *Water Bird Pokemon*
 *Pelipper has been seen carrying eggs and other Pokemon inside its massive bill, protecting them from predators and storms, transporting the young through the great seas.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-pelipper-HomeSprite.png|right]]
-![[SRD-pelipper-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

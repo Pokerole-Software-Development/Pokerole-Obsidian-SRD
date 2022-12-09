@@ -23,6 +23,7 @@ Name: Claydol
 Number: 344
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-claydol-ShuffleToken.png
 Sprite: claydol.png
 Type1: Ground
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-claydol-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-claydol-BookSprite.png|wsmall]]
+> ![[SRD-claydol-HomeSprite.png]]
+> ![[SRD-claydol-BoxSprite.png|htiny]]
+> ![[SRD-claydol-ShuffleToken.png|wsmall]]
+
 
 *Clay Doll Pokemon*
 *It is made entirely of clay. The first one was discovered in ruins from 20,000 years ago. A strange light is said to be the source of its life and psychic abilities. Its eight eyes are always alert and always watching.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-claydol-HomeSprite.png|right]]
-![[SRD-claydol-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

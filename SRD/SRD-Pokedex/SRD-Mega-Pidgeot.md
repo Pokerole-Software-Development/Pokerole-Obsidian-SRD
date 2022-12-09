@@ -23,6 +23,7 @@ Name: Mega-Pidgeot
 Number: 18
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pidgeot-mega-ShuffleToken.png
 Sprite: pidgeot-mega.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pidgeot-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pidgeot-mega-BookSprite.png|wsmall]]
+> ![[SRD-pidgeot-mega-HomeSprite.png]]
+> ![[SRD-pidgeot-mega-BoxSprite.png|htiny]]
+> ![[SRD-pidgeot-mega-ShuffleToken.png|wsmall]]
+
 
 *Bird Pokemon*
 *With the power of the Mega Stone Pidgeot's flying becomes a blurred red stripe in the sky. It won’t stop soaring the skies while in this state without tiring or needing to rest for many days at a time.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-pidgeot-mega-HomeSprite.png|right]]
-![[SRD-pidgeot-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

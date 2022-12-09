@@ -23,6 +23,7 @@ Name: Pignite
 Number: 499
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pignite-ShuffleToken.png
 Sprite: pignite.png
 Type1: Fire
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pignite-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pignite-BookSprite.png|wsmall]]
+> ![[SRD-pignite-HomeSprite.png]]
+> ![[SRD-pignite-BoxSprite.png|htiny]]
+> ![[SRD-pignite-ShuffleToken.png|wsmall]]
+
 
 *Fire Pig Pokemon*
 *Whatever it eats becomes fuel for the flame on its stomach. When it is angered, the intensity of the flame increases. It is not common to see them the wild. They are mostly found living in warm places.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-pignite-HomeSprite.png|right]]
-![[SRD-pignite-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

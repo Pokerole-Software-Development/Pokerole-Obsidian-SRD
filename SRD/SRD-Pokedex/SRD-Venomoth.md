@@ -23,6 +23,7 @@ Name: Venomoth
 Number: 49
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-venomoth-ShuffleToken.png
 Sprite: venomoth.png
 Type1: Bug
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-venomoth-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-venomoth-BookSprite.png|wsmall]]
+> ![[SRD-venomoth-HomeSprite.png]]
+> ![[SRD-venomoth-BoxSprite.png|htiny]]
+> ![[SRD-venomoth-ShuffleToken.png|wsmall]]
+
 
 *Poison Moth Pokemon*
 *They are plentiful in forests but only come out at night. They possess an incredible eyesight and are attracted to light sources. Their wings scatter a toxic powder which they use to immobilize their prey.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-venomoth-HomeSprite.png|right]]
-![[SRD-venomoth-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

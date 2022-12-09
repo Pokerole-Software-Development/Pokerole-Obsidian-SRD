@@ -23,6 +23,7 @@ Name: Muk
 Number: 89
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-muk-ShuffleToken.png
 Sprite: muk.png
 Type1: Poison
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-muk-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-muk-BookSprite.png|wsmall]]
+> ![[SRD-muk-HomeSprite.png]]
+> ![[SRD-muk-BoxSprite.png|htiny]]
+> ![[SRD-muk-ShuffleToken.png|wsmall]]
+
 
 *Sludge Pokemon*
 *It gathers on polluted areas to eat filth. Its body is made of a powerful poison that kills any plant. Touching it can cause a fever that will require bed rest. A good diet may reduce Muk's toxicity.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-muk-HomeSprite.png|right]]
-![[SRD-muk-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

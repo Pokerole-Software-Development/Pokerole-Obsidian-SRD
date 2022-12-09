@@ -23,6 +23,7 @@ Name: Machamp
 Number: 68
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-machamp-ShuffleToken.png
 Sprite: machamp.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-machamp-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-machamp-BookSprite.png|wsmall]]
+> ![[SRD-machamp-HomeSprite.png]]
+> ![[SRD-machamp-BoxSprite.png|htiny]]
+> ![[SRD-machamp-ShuffleToken.png|wsmall]]
+
 
 *Superpower Pokemon*
 *There are a few roaming in the mountains. Machamp has the power to hurl anything aside. However, trying to do any work that requires care and dexterity may cause its arms to get tangled.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-machamp-HomeSprite.png|right]]
-![[SRD-machamp-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

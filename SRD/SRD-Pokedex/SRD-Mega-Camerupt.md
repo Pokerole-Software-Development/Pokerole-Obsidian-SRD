@@ -23,6 +23,7 @@ Name: Mega-Camerupt
 Number: 323
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-camerupt-mega-ShuffleToken.png
 Sprite: camerupt-mega.png
 Type1: Fire
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-camerupt-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-camerupt-mega-BookSprite.png|wsmall]]
+> ![[SRD-camerupt-mega-HomeSprite.png]]
+> ![[SRD-camerupt-mega-BoxSprite.png|htiny]]
+> ![[SRD-camerupt-mega-ShuffleToken.png|wsmall]]
+
 
 *Eruption Pokemon*
 *The power of the Mega Stone melts its two humps into a single one. The single hump is heavier making it slower, but its newly renewed attitude makes the hump erupt in heavy bursts of molten lava.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-camerupt-mega-HomeSprite.png|right]]
-![[SRD-camerupt-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

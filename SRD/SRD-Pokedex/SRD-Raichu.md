@@ -23,6 +23,7 @@ Name: Raichu
 Number: 26
 PrimaryEggGroup: Field
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-raichu-ShuffleToken.png
 Sprite: raichu.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-raichu-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-raichu-BookSprite.png|wsmall]]
+> ![[SRD-raichu-HomeSprite.png]]
+> ![[SRD-raichu-BoxSprite.png|htiny]]
+> ![[SRD-raichu-ShuffleToken.png|wsmall]]
+
 
 *Mouse Pokemon*
 *When electricity builds on its body, it starts to emit a faint glow and it becomes more aggressive than it normally is. They live in forests but are rare to find in the wild.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-raichu-HomeSprite.png|right]]
-![[SRD-raichu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

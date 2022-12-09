@@ -23,6 +23,7 @@ Name: Steenee
 Number: 762
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-steenee-ShuffleToken.png
 Sprite: steenee.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-steenee-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-steenee-BookSprite.png|wsmall]]
+> ![[SRD-steenee-HomeSprite.png]]
+> ![[SRD-steenee-BoxSprite.png|htiny]]
+> ![[SRD-steenee-ShuffleToken.png|wsmall]]
+
 
 *Fruit Pokemon*
 *Its sweet aroma keeps attracting predators but it fends them away with its hard and bitter head leaves. It likes to be taken seriously and can be hard to deal with, if you make it mad you’ll receive a kick.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-steenee-HomeSprite.png|right]]
-![[SRD-steenee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

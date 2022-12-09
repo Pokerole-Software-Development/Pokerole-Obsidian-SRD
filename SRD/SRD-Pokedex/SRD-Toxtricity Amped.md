@@ -23,6 +23,7 @@ Name: Toxtricity Amped
 Number: 849
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-toxtricity-ShuffleToken.png
 Sprite: toxtricity.png
 Type1: Electric
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-toxtricity-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-toxtricity-BookSprite.png|wsmall]]
+> ![[SRD-toxtricity-HomeSprite.png]]
+> ![[SRD-toxtricity-BoxSprite.png|htiny]]
+> ![[SRD-toxtricity-ShuffleToken.png|wsmall]]
+
 
 *Punk Pokemon*
 *Commonly called “Amped Form”, its nature determines its evolution, If a Toxel is extroverted it will evolve to be a short-tempered Toxtricity. They emit high pitched sounds and let out powerful discharges to provoke others.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-toxtricity-HomeSprite.png|right]]
-![[SRD-toxtricity-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

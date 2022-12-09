@@ -23,6 +23,7 @@ Name: Jirachi
 Number: 385
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-jirachi-ShuffleToken.png
 Sprite: jirachi.png
 Type1: Steel
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-jirachi-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-jirachi-BookSprite.png|wsmall]]
+> ![[SRD-jirachi-HomeSprite.png]]
+> ![[SRD-jirachi-BoxSprite.png|htiny]]
+> ![[SRD-jirachi-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *It is said that every 1000 years, a shooting star appears in the sky for 7 days, granting wishes to those of pure heart. Another common saying is: “Be careful what you wish for.”*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-jirachi-HomeSprite.png|right]]
-![[SRD-jirachi-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

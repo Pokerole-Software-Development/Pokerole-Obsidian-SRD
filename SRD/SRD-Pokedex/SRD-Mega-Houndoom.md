@@ -23,6 +23,7 @@ Name: Mega-Houndoom
 Number: 229
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-houndoom-mega-ShuffleToken.png
 Sprite: houndoom-mega.png
 Type1: Dark
 Type2: Fire
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-houndoom-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-houndoom-mega-BookSprite.png|wsmall]]
+> ![[SRD-houndoom-mega-HomeSprite.png]]
+> ![[SRD-houndoom-mega-BoxSprite.png|htiny]]
+> ![[SRD-houndoom-mega-ShuffleToken.png|wsmall]]
+
 
 *Dark Pokemon*
 *With the power of the Mega Stone its whole body radiates tremendous heat, so much that its claws are searing hot and turn red as a result, for this reason it can be painful for it to walk or run.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-houndoom-mega-HomeSprite.png|right]]
-![[SRD-houndoom-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

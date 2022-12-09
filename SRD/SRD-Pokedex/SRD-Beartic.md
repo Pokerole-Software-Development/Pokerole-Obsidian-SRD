@@ -23,6 +23,7 @@ Name: Beartic
 Number: 614
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-beartic-ShuffleToken.png
 Sprite: beartic.png
 Type1: Ice
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-beartic-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-beartic-BookSprite.png|wsmall]]
+> ![[SRD-beartic-HomeSprite.png]]
+> ![[SRD-beartic-BoxSprite.png|htiny]]
+> ![[SRD-beartic-ShuffleToken.png|wsmall]]
+
 
 *Freezing Pokemon*
 *They the cold northern seas and create pathways across the ocean's water by freezing their own breath. They dive in the sea to catch prey. They are not used to humans as they rarely see one.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-beartic-HomeSprite.png|right]]
-![[SRD-beartic-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

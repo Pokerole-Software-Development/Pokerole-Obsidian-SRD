@@ -23,6 +23,7 @@ Name: Gible
 Number: 443
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-gible-ShuffleToken.png
 Sprite: gible.png
 Type1: Dragon
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gible-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gible-BookSprite.png|wsmall]]
+> ![[SRD-gible-HomeSprite.png]]
+> ![[SRD-gible-BoxSprite.png|htiny]]
+> ![[SRD-gible-ShuffleToken.png|wsmall]]
+
 
 *Land Shark Pokemon*
 *It digs tunnels and follows prey while burrowed underground. If you see the fin on its back coming out the ground it means it is about to attack. It’s very aggressive but kind of clumsy. Beware of its big jaws.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-gible-HomeSprite.png|right]]
-![[SRD-gible-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Mesprit
 Number: 481
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mesprit-ShuffleToken.png
 Sprite: mesprit.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mesprit-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mesprit-BookSprite.png|wsmall]]
+> ![[SRD-mesprit-HomeSprite.png]]
+> ![[SRD-mesprit-BoxSprite.png|htiny]]
+> ![[SRD-mesprit-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *In the myths of Sinnoh they talk about three beings that came out from the same egg, the pink one was the being of emotion. Together they shaped the human race to be complete.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-mesprit-HomeSprite.png|right]]
-![[SRD-mesprit-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

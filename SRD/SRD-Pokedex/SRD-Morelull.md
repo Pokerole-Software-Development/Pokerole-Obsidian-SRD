@@ -23,6 +23,7 @@ Name: Morelull
 Number: 755
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-morelull-ShuffleToken.png
 Sprite: morelull.png
 Type1: Grass
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-morelull-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-morelull-BookSprite.png|wsmall]]
+> ![[SRD-morelull-HomeSprite.png]]
+> ![[SRD-morelull-BoxSprite.png|htiny]]
+> ![[SRD-morelull-ShuffleToken.png|wsmall]]
+
 
 *Illuminating Pokemon*
 *Morellul are nocturnal Pokemon whose headbulbs emit a faint glow. They root into a tree and use its nutrients to power their light, when the tree is all dried up they are ready to evolve.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-morelull-HomeSprite.png|right]]
-![[SRD-morelull-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

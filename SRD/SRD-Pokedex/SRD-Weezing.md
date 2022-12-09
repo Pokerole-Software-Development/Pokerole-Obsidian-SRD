@@ -23,6 +23,7 @@ Name: Weezing
 Number: 110
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-weezing-ShuffleToken.png
 Sprite: weezing.png
 Type1: Poison
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-weezing-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-weezing-BookSprite.png|wsmall]]
+> ![[SRD-weezing-HomeSprite.png]]
+> ![[SRD-weezing-BoxSprite.png|htiny]]
+> ![[SRD-weezing-ShuffleToken.png|wsmall]]
+
 
 *Poison Gas Pokemon*
 *They are considered a pest in urban areas. They wait until night to roam and eat from the trash cans in the neighborhood. If it finds a filthy and unkempt house it will make its nest in there.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-weezing-HomeSprite.png|right]]
-![[SRD-weezing-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

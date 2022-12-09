@@ -23,6 +23,7 @@ Name: Corviknight
 Number: 823
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-corviknight-ShuffleToken.png
 Sprite: corviknight.png
 Type1: Flying
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-corviknight-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-corviknight-BookSprite.png|wsmall]]
+> ![[SRD-corviknight-HomeSprite.png]]
+> ![[SRD-corviknight-BoxSprite.png|htiny]]
+> ![[SRD-corviknight-ShuffleToken.png|wsmall]]
+
 
 *Raven Pokemon*
 *With their great intellect and flying skills, these Pokemon very successfully take the place as the kings of the Galarian sky. When they fly, they cast giant shadows that strike fear upon foes and friends alike.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-corviknight-HomeSprite.png|right]]
-![[SRD-corviknight-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

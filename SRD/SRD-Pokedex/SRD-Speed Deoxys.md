@@ -23,6 +23,7 @@ Name: Speed Deoxys
 Number: 386
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-deoxys-speed-ShuffleToken.png
 Sprite: deoxys-speed.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-deoxys-speed-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-deoxys-speed-BookSprite.png|wsmall]]
+> ![[SRD-deoxys-speed-HomeSprite.png]]
+> ![[SRD-deoxys-speed-BoxSprite.png|htiny]]
+> ![[SRD-deoxys-speed-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *The First officer mentioned a slim creature that moved too fast for the radar to register and the eye to see. She saw it for a split second before it supposedly attacked the other end of the ship.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-deoxys-speed-HomeSprite.png|right]]
-![[SRD-deoxys-speed-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

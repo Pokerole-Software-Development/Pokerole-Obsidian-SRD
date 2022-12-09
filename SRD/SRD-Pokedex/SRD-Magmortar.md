@@ -23,6 +23,7 @@ Name: Magmortar
 Number: 467
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-magmortar-ShuffleToken.png
 Sprite: magmortar.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-magmortar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-magmortar-BookSprite.png|wsmall]]
+> ![[SRD-magmortar-HomeSprite.png]]
+> ![[SRD-magmortar-BoxSprite.png|htiny]]
+> ![[SRD-magmortar-ShuffleToken.png|wsmall]]
+
 
 *Blast Pokemon*
 *Magmortar is extremely rare, if you’re lucky you can find one living directly on volcanic craters. It rises the temperature of its body at will to the point of bursting into flames. The fire it produces is almost white.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-magmortar-HomeSprite.png|right]]
-![[SRD-magmortar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

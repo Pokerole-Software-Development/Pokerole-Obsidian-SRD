@@ -23,6 +23,7 @@ Name: Tentacruel
 Number: 73
 PrimaryEggGroup: Water 3
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tentacruel-ShuffleToken.png
 Sprite: tentacruel.png
 Type1: Water
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tentacruel-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tentacruel-BookSprite.png|wsmall]]
+> ![[SRD-tentacruel-HomeSprite.png]]
+> ![[SRD-tentacruel-BoxSprite.png|htiny]]
+> ![[SRD-tentacruel-ShuffleToken.png|wsmall]]
+
 
 *Jellyfish Pokemon*
 *Lives in rock formations at the bottom of the ocean. It can grow tentacles at will and uses them to immobilize prey. Records exist of a giant Tentacruel that sunk a fleet of pirate ships filled with treasure.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-tentacruel-HomeSprite.png|right]]
-![[SRD-tentacruel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

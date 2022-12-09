@@ -23,6 +23,7 @@ Name: Tauros
 Number: 128
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tauros-ShuffleToken.png
 Sprite: tauros.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tauros-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tauros-BookSprite.png|wsmall]]
+> ![[SRD-tauros-HomeSprite.png]]
+> ![[SRD-tauros-BoxSprite.png|htiny]]
+> ![[SRD-tauros-ShuffleToken.png|wsmall]]
+
 
 *Wild Bull Pokemon*
 *This is a Male species. They travel in herds around the plains and fight each other by locking horns. The herd’s protector takes pride in its battle-scarred horns. Miltank is the female of this species.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-tauros-HomeSprite.png|right]]
-![[SRD-tauros-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

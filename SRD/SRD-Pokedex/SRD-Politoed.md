@@ -23,6 +23,7 @@ Name: Politoed
 Number: 186
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-politoed-ShuffleToken.png
 Sprite: politoed.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-politoed-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-politoed-BookSprite.png|wsmall]]
+> ![[SRD-politoed-HomeSprite.png]]
+> ![[SRD-politoed-BoxSprite.png|htiny]]
+> ![[SRD-politoed-ShuffleToken.png|wsmall]]
+
 
 *Frog Pokemon*
 *It lives with Poliwags and Poliwhirls near ponds and lakes, but there’s rarely more than one. Politoed is the leader and acts as the king of the group. It is an easy-going but proud Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-politoed-HomeSprite.png|right]]
-![[SRD-politoed-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

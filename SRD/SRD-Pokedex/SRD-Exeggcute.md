@@ -23,6 +23,7 @@ Name: Exeggcute
 Number: 102
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-exeggcute-ShuffleToken.png
 Sprite: exeggcute.png
 Type1: Grass
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-exeggcute-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-exeggcute-BookSprite.png|wsmall]]
+> ![[SRD-exeggcute-HomeSprite.png]]
+> ![[SRD-exeggcute-BoxSprite.png|htiny]]
+> ![[SRD-exeggcute-ShuffleToken.png|wsmall]]
+
 
 *Egg Pokemon*
 *Even though it appears to be eggs of some sort, it is related more to a seed. It gathers in packs of six that have a mental link with each other. Each one of them has a different personality.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-exeggcute-HomeSprite.png|right]]
-![[SRD-exeggcute-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

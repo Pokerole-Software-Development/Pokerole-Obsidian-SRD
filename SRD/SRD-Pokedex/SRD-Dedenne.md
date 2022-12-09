@@ -23,6 +23,7 @@ Name: Dedenne
 Number: 702
 PrimaryEggGroup: Field
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-dedenne-ShuffleToken.png
 Sprite: dedenne.png
 Type1: Electric
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dedenne-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dedenne-BookSprite.png|wsmall]]
+> ![[SRD-dedenne-HomeSprite.png]]
+> ![[SRD-dedenne-BoxSprite.png|htiny]]
+> ![[SRD-dedenne-ShuffleToken.png|wsmall]]
+
 
 *Antenna Pokemon*
 *The tail is used to absorb electricity from power outlets. They communicate with each other by feeling the static on their whiskers. Its cute and cuddly appearance make it a favorite pet.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-dedenne-HomeSprite.png|right]]
-![[SRD-dedenne-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

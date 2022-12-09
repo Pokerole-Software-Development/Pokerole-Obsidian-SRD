@@ -23,6 +23,7 @@ Name: Farfetch'd
 Number: 83
 PrimaryEggGroup: Flying
 SecondaryEggGroup: Field
+ShuffleToken: SRD-farfetchd-ShuffleToken.png
 Sprite: farfetchd.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-farfetchd-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-farfetchd-BookSprite.png|wsmall]]
+> ![[SRD-farfetchd-HomeSprite.png]]
+> ![[SRD-farfetchd-BoxSprite.png|htiny]]
+> ![[SRD-farfetchd-ShuffleToken.png|wsmall]]
+
 
 *Wild Duck Pokemon*
 *There used to be whole flocks of them in meadows near the lakes. Now they are almost extinct because their meat is delicious. They are fond of leeks and celery, they carry them around as sticks.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-farfetchd-HomeSprite.png|right]]
-![[SRD-farfetchd-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

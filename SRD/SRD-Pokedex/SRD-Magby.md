@@ -23,6 +23,7 @@ Name: Magby
 Number: 240
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-magby-ShuffleToken.png
 Sprite: magby.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-magby-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-magby-BookSprite.png|wsmall]]
+> ![[SRD-magby-HomeSprite.png]]
+> ![[SRD-magby-BoxSprite.png|htiny]]
+> ![[SRD-magby-ShuffleToken.png|wsmall]]
+
 
 *Live Coal Pokemon*
 *They inhale and exhale embers from their mouth and nostrils. Their body temperature is so hot, they may ignite anything they touch and the floor they walk. Magby can be found in volcanoes.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-magby-HomeSprite.png|right]]
-![[SRD-magby-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

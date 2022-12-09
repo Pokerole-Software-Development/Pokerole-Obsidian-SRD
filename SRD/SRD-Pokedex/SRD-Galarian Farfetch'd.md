@@ -23,6 +23,7 @@ Name: Galarian Farfetch'd
 Number: 83
 PrimaryEggGroup: Flying
 SecondaryEggGroup: Field
+ShuffleToken: SRD-farfetchd-galar-ShuffleToken.png
 Sprite: farfetchd-galar.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-farfetchd-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-farfetchd-galar-BookSprite.png|wsmall]]
+> ![[SRD-farfetchd-galar-HomeSprite.png]]
+> ![[SRD-farfetchd-galar-BoxSprite.png|htiny]]
+> ![[SRD-farfetchd-galar-ShuffleToken.png|wsmall]]
+
 
 *Wild Duck Pokemon*
 *The stalks of leeks are thicker and longer in the Galar region, this has allowed Farfetch'd fare better than their Kanto counterparts. It has also made them hardier and warrior-like. They are still delicious, though.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-farfetchd-galar-HomeSprite.png|right]]
-![[SRD-farfetchd-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

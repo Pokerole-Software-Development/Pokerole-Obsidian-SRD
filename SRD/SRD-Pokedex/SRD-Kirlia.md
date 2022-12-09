@@ -23,6 +23,7 @@ Name: Kirlia
 Number: 281
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-kirlia-ShuffleToken.png
 Sprite: kirlia.png
 Type1: Psychic
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kirlia-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kirlia-BookSprite.png|wsmall]]
+> ![[SRD-kirlia-HomeSprite.png]]
+> ![[SRD-kirlia-BoxSprite.png|htiny]]
+> ![[SRD-kirlia-ShuffleToken.png|wsmall]]
+
 
 *Emotion Pokemon*
 *When they use their powers, their surroundings are distorted with mirages and illusory sceneries from the future and the past. Kirlias like to dance and dislike to be bossed around.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-kirlia-HomeSprite.png|right]]
-![[SRD-kirlia-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

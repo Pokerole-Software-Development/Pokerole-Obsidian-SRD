@@ -23,6 +23,7 @@ Name: Galarian Corsola
 Number: 222
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-corsola-galar-ShuffleToken.png
 Sprite: corsola-galar.png
 Type1: Ghost
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-corsola-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-corsola-galar-BookSprite.png|wsmall]]
+> ![[SRD-corsola-galar-HomeSprite.png]]
+> ![[SRD-corsola-galar-BoxSprite.png|htiny]]
+> ![[SRD-corsola-galar-ShuffleToken.png|wsmall]]
+
 
 *Coral Pokemon*
 *Watch your step when walking through shallow ocean waters  because this Pokemon looks like a stone and it will curse you if you kick it. Sudden climate change wiped out this ancient kind of Corsola.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-corsola-galar-HomeSprite.png|right]]
-![[SRD-corsola-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

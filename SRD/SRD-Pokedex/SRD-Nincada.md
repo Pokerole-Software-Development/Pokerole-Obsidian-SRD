@@ -23,6 +23,7 @@ Name: Nincada
 Number: 290
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-nincada-ShuffleToken.png
 Sprite: nincada.png
 Type1: Bug
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-nincada-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-nincada-BookSprite.png|wsmall]]
+> ![[SRD-nincada-HomeSprite.png]]
+> ![[SRD-nincada-BoxSprite.png|htiny]]
+> ![[SRD-nincada-ShuffleToken.png|wsmall]]
+
 
 *Trainee Pokemon*
 *They live underground for decades, absorbing nutrients from roots and waiting for evolution. Nincadas are nearly blind and cannot stand bright lights. They only come out to make a cocoon to evolve.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-nincada-HomeSprite.png|right]]
-![[SRD-nincada-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

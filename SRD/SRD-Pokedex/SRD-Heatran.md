@@ -22,6 +22,7 @@ Name: Heatran
 Number: 485
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-heatran-ShuffleToken.png
 Sprite: heatran.png
 Type1: Fire
 Type2: Steel
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-heatran-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-heatran-BookSprite.png|wsmall]]
+> ![[SRD-heatran-HomeSprite.png]]
+> ![[SRD-heatran-BoxSprite.png|htiny]]
+> ![[SRD-heatran-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *An old painting showed a similar Pokemon standing atop of an erupting Volcano.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-heatran-HomeSprite.png|right]]
-![[SRD-heatran-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

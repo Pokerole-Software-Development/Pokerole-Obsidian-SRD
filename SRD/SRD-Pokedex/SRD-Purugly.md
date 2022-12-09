@@ -23,6 +23,7 @@ Name: Purugly
 Number: 432
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-purugly-ShuffleToken.png
 Sprite: purugly.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-purugly-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-purugly-BookSprite.png|wsmall]]
+> ![[SRD-purugly-HomeSprite.png]]
+> ![[SRD-purugly-BoxSprite.png|htiny]]
+> ![[SRD-purugly-ShuffleToken.png|wsmall]]
+
 
 *Tiger Cat Pokemon*
 *It becomes wilder and aggressive after evolving. It is known to claim other Pokemon nests as its own. It will make itself appear bigger and glare with piercing eyes to achieve dominance over someone.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-purugly-HomeSprite.png|right]]
-![[SRD-purugly-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

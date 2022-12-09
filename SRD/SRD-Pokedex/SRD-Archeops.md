@@ -23,6 +23,7 @@ Name: Archeops
 Number: 567
 PrimaryEggGroup: Flying
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-archeops-ShuffleToken.png
 Sprite: archeops.png
 Type1: Rock
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-archeops-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-archeops-BookSprite.png|wsmall]]
+> ![[SRD-archeops-HomeSprite.png]]
+> ![[SRD-archeops-BoxSprite.png|htiny]]
+> ![[SRD-archeops-ShuffleToken.png|wsmall]]
+
 
 *First Bird Pokemon*
 *They used to form groups that cooperated to catch prey. From the ground, they used a running start to take flight. It is believed that they got extinct due to their poor tolerance to pain.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-archeops-HomeSprite.png|right]]
-![[SRD-archeops-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

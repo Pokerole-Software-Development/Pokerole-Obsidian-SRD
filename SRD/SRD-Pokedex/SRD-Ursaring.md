@@ -23,6 +23,7 @@ Name: Ursaring
 Number: 217
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-ursaring-ShuffleToken.png
 Sprite: ursaring.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ursaring-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ursaring-BookSprite.png|wsmall]]
+> ![[SRD-ursaring-HomeSprite.png]]
+> ![[SRD-ursaring-BoxSprite.png|htiny]]
+> ![[SRD-ursaring-ShuffleToken.png|wsmall]]
+
 
 *Hibernator Pokemon*
 *They are incredibly strong, great climbers and posses an amazing sense of smell. They snap trees and feed on their fruit as they eat quite a lot. A forest full of scratched trees marks the territory of Ursarings.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-ursaring-HomeSprite.png|right]]
-![[SRD-ursaring-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

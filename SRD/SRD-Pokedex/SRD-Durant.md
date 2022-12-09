@@ -23,6 +23,7 @@ Name: Durant
 Number: 632
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-durant-ShuffleToken.png
 Sprite: durant.png
 Type1: Bug
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-durant-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-durant-BookSprite.png|wsmall]]
+> ![[SRD-durant-HomeSprite.png]]
+> ![[SRD-durant-BoxSprite.png|htiny]]
+> ![[SRD-durant-ShuffleToken.png|wsmall]]
+
 
 *Iron Ant Pokemon*
 *Durant build complex mazes of tunnels in the mountains. Each colony has hundreds of Durant, all playing different roles in driving Heatmor away from their nest as it is their only predator.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-durant-HomeSprite.png|right]]
-![[SRD-durant-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

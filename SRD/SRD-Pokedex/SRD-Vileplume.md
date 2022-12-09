@@ -23,6 +23,7 @@ Name: Vileplume
 Number: 45
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-vileplume-ShuffleToken.png
 Sprite: vileplume.png
 Type1: Grass
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-vileplume-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-vileplume-BookSprite.png|wsmall]]
+> ![[SRD-vileplume-HomeSprite.png]]
+> ![[SRD-vileplume-BoxSprite.png|htiny]]
+> ![[SRD-vileplume-ShuffleToken.png|wsmall]]
+
 
 *Flower Pokemon*
 *It lives in marshlands and jungles where it’s often mistaken for local flora. The air around a Vileplume turns yellow with the powder it releases as it walks. The pollen is highly toxic and causes paralysis.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-vileplume-HomeSprite.png|right]]
-![[SRD-vileplume-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

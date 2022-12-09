@@ -48,5 +48,6 @@
     "obsidian-regex-replace:obsidian-regex-replace",
     "editor:paste"
   ],
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "showInlineTitle": false
 }

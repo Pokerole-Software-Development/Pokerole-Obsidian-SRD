@@ -23,6 +23,7 @@ Name: Honedge
 Number: 679
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-honedge-ShuffleToken.png
 Sprite: honedge.png
 Type1: Steel
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-honedge-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-honedge-BookSprite.png|wsmall]]
+> ![[SRD-honedge-HomeSprite.png]]
+> ![[SRD-honedge-BoxSprite.png|htiny]]
+> ![[SRD-honedge-ShuffleToken.png|wsmall]]
+
 
 *Sword Pokemon*
 *During ancient war times this ruthless Pokemon was born from the spirits of warriors who died in battle. It is a cursed sword that seeks revenge and bloodshed. It will drain the life energy of anyone that wields it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-honedge-HomeSprite.png|right]]
-![[SRD-honedge-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Shieldon
 Number: 410
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-shieldon-ShuffleToken.png
 Sprite: shieldon.png
 Type1: Rock
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-shieldon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-shieldon-BookSprite.png|wsmall]]
+> ![[SRD-shieldon-HomeSprite.png]]
+> ![[SRD-shieldon-BoxSprite.png|htiny]]
+> ![[SRD-shieldon-ShuffleToken.png|wsmall]]
+
 
 *Shield Pokemon*
 *It was cloned from a fossil dug out from a layer of clay. It is outstandingly armored. As a result, it can eat grass and berries without having to fight many Pokemon who would dare to prey on it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-shieldon-HomeSprite.png|right]]
-![[SRD-shieldon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

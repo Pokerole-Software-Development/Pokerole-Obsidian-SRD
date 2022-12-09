@@ -23,6 +23,7 @@ Name: Wobbuffet
 Number: 202
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-wobbuffet-ShuffleToken.png
 Sprite: wobbuffet.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-wobbuffet-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-wobbuffet-BookSprite.png|wsmall]]
+> ![[SRD-wobbuffet-HomeSprite.png]]
+> ![[SRD-wobbuffet-BoxSprite.png|htiny]]
+> ![[SRD-wobbuffet-ShuffleToken.png|wsmall]]
+
 
 *Patient Pokemon*
 *Wobbuffet looks somewhat deflated until it senses an aggressor, then it inflates. It will do nothing besides endure and counter attacks. It always keeps its black tail hidden, the reasons are still a mystery.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-wobbuffet-HomeSprite.png|right]]
-![[SRD-wobbuffet-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

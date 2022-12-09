@@ -22,6 +22,7 @@ Name: Dialga
 Number: 483
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-dialga-ShuffleToken.png
 Sprite: dialga.png
 Type1: Steel
 Type2: Dragon
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dialga-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dialga-BookSprite.png|wsmall]]
+> ![[SRD-dialga-HomeSprite.png]]
+> ![[SRD-dialga-BoxSprite.png|htiny]]
+> ![[SRD-dialga-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *In some religions there is a being called “The God of Time” whose first roar brought future, present and past.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-dialga-HomeSprite.png|right]]
-![[SRD-dialga-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

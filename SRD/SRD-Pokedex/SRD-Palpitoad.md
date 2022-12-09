@@ -23,6 +23,7 @@ Name: Palpitoad
 Number: 536
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-palpitoad-ShuffleToken.png
 Sprite: palpitoad.png
 Type1: Water
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-palpitoad-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-palpitoad-BookSprite.png|wsmall]]
+> ![[SRD-palpitoad-HomeSprite.png]]
+> ![[SRD-palpitoad-BoxSprite.png|htiny]]
+> ![[SRD-palpitoad-ShuffleToken.png|wsmall]]
+
 
 *Vibration Pokemon*
 *It lives both in water and land. It uses its long, sticky tongue to capture prey. When they vibrate the bumps on their heads, they can make waves in the water and even earthquake-like vibrations on land.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-palpitoad-HomeSprite.png|right]]
-![[SRD-palpitoad-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

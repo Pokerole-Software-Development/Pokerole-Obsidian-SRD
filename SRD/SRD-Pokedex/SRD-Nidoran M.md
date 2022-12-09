@@ -23,6 +23,7 @@ Name: Nidoran M
 Number: 32
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Field
+ShuffleToken: SRD-nidoran-m-ShuffleToken.png
 Sprite: nidoran-m.png
 Type1: Poison
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-nidoran-m-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-nidoran-m-BookSprite.png|wsmall]]
+> ![[SRD-nidoran-m-HomeSprite.png]]
+> ![[SRD-nidoran-m-BoxSprite.png|htiny]]
+> ![[SRD-nidoran-m-ShuffleToken.png|wsmall]]
+
 
 *Poison Pin Pokemon*
 *The male Nidoran has developed a great alertness to sounds. Its small body is covered in spikes that are drenched in venom when he’s threatened. He will defend his mate and home fiercely.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-nidoran-m-HomeSprite.png|right]]
-![[SRD-nidoran-m-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

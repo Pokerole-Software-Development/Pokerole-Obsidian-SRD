@@ -22,6 +22,7 @@ Name: Entei
 Number: 244
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-entei-ShuffleToken.png
 Sprite: entei.png
 Type1: Fire
 Type2: ''
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-entei-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-entei-BookSprite.png|wsmall]]
+> ![[SRD-entei-HomeSprite.png]]
+> ![[SRD-entei-BoxSprite.png|htiny]]
+> ![[SRD-entei-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Johto Legends tell about a Pokemon so powerful, its bark makes volcanoes erupt, traveling the lands cloaked in a cloud of volcanic smoke.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-entei-HomeSprite.png|right]]
-![[SRD-entei-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

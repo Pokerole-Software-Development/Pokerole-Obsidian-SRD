@@ -23,6 +23,7 @@ Name: Carracosta
 Number: 565
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-carracosta-ShuffleToken.png
 Sprite: carracosta.png
 Type1: Water
 Type2: Rock
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-carracosta-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-carracosta-BookSprite.png|wsmall]]
+> ![[SRD-carracosta-HomeSprite.png]]
+> ![[SRD-carracosta-BoxSprite.png|htiny]]
+> ![[SRD-carracosta-ShuffleToken.png|wsmall]]
+
 
 *Prototurtle Pokemon*
 *They can live both in ocean and land. It can knock out a foe with a slap from one of its powerful front fins and chew it up whole. Fortunately, only one specimen on captivity remains.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-carracosta-HomeSprite.png|right]]
-![[SRD-carracosta-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

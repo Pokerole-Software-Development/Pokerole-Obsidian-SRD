@@ -23,6 +23,7 @@ Name: Flaaffy
 Number: 180
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Field
+ShuffleToken: SRD-flaaffy-ShuffleToken.png
 Sprite: flaaffy.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-flaaffy-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-flaaffy-BookSprite.png|wsmall]]
+> ![[SRD-flaaffy-HomeSprite.png]]
+> ![[SRD-flaaffy-BoxSprite.png|htiny]]
+> ![[SRD-flaaffy-ShuffleToken.png|wsmall]]
+
 
 *Wool Pokemon*
 *Its wool quality changes so that it can generate a higher amount of static electricity with a smaller amount of wool. The bare and slick parts of its hide are shielded with small electric impulses.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-flaaffy-HomeSprite.png|right]]
-![[SRD-flaaffy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

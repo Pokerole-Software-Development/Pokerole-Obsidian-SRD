@@ -23,6 +23,7 @@ Name: Litwick
 Number: 607
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-litwick-ShuffleToken.png
 Sprite: litwick.png
 Type1: Ghost
 Type2: Fire
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-litwick-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-litwick-BookSprite.png|wsmall]]
+> ![[SRD-litwick-HomeSprite.png]]
+> ![[SRD-litwick-BoxSprite.png|htiny]]
+> ![[SRD-litwick-ShuffleToken.png|wsmall]]
+
 
 *Candle Pokemon*
 *Its flame is usually out, but it starts burning whenever it absorbs the life force from others. They trick lost people into thinking they are helping them find their way in the dark but those who follow them never return.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-litwick-HomeSprite.png|right]]
-![[SRD-litwick-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

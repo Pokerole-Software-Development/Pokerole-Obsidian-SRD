@@ -23,6 +23,7 @@ Name: Paras
 Number: 46
 PrimaryEggGroup: Bug
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-paras-ShuffleToken.png
 Sprite: paras.png
 Type1: Bug
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-paras-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-paras-BookSprite.png|wsmall]]
+> ![[SRD-paras-HomeSprite.png]]
+> ![[SRD-paras-BoxSprite.png|htiny]]
+> ![[SRD-paras-ShuffleToken.png|wsmall]]
+
 
 *Mushroom Pokemon*
 *Paras has two parasitic mushrooms growing on its back. They grow large by drawing nutrients from this Bug Pokemon. They are valued as a medicine for prolonging life. Paras can be found in humid areas.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-paras-HomeSprite.png|right]]
-![[SRD-paras-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

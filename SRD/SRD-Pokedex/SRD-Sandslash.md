@@ -23,6 +23,7 @@ Name: Sandslash
 Number: 28
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sandslash-ShuffleToken.png
 Sprite: sandslash.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sandslash-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sandslash-BookSprite.png|wsmall]]
+> ![[SRD-sandslash-HomeSprite.png]]
+> ![[SRD-sandslash-BoxSprite.png|htiny]]
+> ![[SRD-sandslash-ShuffleToken.png|wsmall]]
+
 
 *Mouse Pokemon*
 *It’s less shy than its first stage. It curls up in a ball to protect itself from enemy attacks. Surprisingly, it is a good climber that uses its sharp claws for grip and drilling tunnels underground.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-sandslash-HomeSprite.png|right]]
-![[SRD-sandslash-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

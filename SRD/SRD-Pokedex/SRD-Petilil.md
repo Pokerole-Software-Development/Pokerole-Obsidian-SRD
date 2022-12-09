@@ -23,6 +23,7 @@ Name: Petilil
 Number: 548
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-petilil-ShuffleToken.png
 Sprite: petilil.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-petilil-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-petilil-BookSprite.png|wsmall]]
+> ![[SRD-petilil-HomeSprite.png]]
+> ![[SRD-petilil-BoxSprite.png|htiny]]
+> ![[SRD-petilil-ShuffleToken.png|wsmall]]
+
 
 *Bulb Pokemon*
 *Since they prefer moist and nutritive soil, the areas where Petilil live are known to be good for growing plants. The leaves on its head can be used for medicinal purposes, but they are extra bitter.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-petilil-HomeSprite.png|right]]
-![[SRD-petilil-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -22,6 +22,7 @@ Name: Mega-Mewtwo Y
 Number: 150
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mewtwo-mega-y-ShuffleToken.png
 Sprite: mewtwo-mega-y.png
 Type1: Psychic
 Type2: ''
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mewtwo-mega-y-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mewtwo-mega-y-BookSprite.png|wsmall]]
+> ![[SRD-mewtwo-mega-y-HomeSprite.png]]
+> ![[SRD-mewtwo-mega-y-BoxSprite.png|htiny]]
+> ![[SRD-mewtwo-mega-y-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *With the power of the Mega Stone its body got smaller but its power grew immensely. It can blow up even a skyscraper with just its thoughts*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::10)/(MaxSpecial::10)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-mewtwo-mega-y-HomeSprite.png|right]]
-![[SRD-mewtwo-mega-y-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

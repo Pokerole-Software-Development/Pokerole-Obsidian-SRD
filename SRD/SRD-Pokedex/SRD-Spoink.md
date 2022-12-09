@@ -23,6 +23,7 @@ Name: Spoink
 Number: 325
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-spoink-ShuffleToken.png
 Sprite: spoink.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-spoink-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-spoink-BookSprite.png|wsmall]]
+> ![[SRD-spoink-HomeSprite.png]]
+> ![[SRD-spoink-BoxSprite.png|htiny]]
+> ![[SRD-spoink-ShuffleToken.png|wsmall]]
+
 
 *Bounce Pokemon*
 *They are always bouncing with their tail. If they ever stop, their heart wouldn’t beat anymore. Spoinks balance a pearl from Clamperl on their head, if it’s lost, they won’t be able to control their psychic powers.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-spoink-HomeSprite.png|right]]
-![[SRD-spoink-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

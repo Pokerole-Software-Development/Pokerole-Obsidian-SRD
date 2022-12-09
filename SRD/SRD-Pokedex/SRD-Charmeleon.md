@@ -23,6 +23,7 @@ Name: Charmeleon
 Number: 5
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-charmeleon-ShuffleToken.png
 Sprite: charmeleon.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-charmeleon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-charmeleon-BookSprite.png|wsmall]]
+> ![[SRD-charmeleon-HomeSprite.png]]
+> ![[SRD-charmeleon-BoxSprite.png|htiny]]
+> ![[SRD-charmeleon-ShuffleToken.png|wsmall]]
+
 
 *Flame Pokemon*
 *It turns aggressive after evolving, it is very hot-headed by nature, so it constantly starts fights. When it’s excited, the flame at the tip of its tail flares with a bluish white color.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-charmeleon-HomeSprite.png|right]]
-![[SRD-charmeleon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

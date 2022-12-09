@@ -23,6 +23,7 @@ Name: Bewear
 Number: 760
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-bewear-ShuffleToken.png
 Sprite: bewear.png
 Type1: Normal
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bewear-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bewear-BookSprite.png|wsmall]]
+> ![[SRD-bewear-HomeSprite.png]]
+> ![[SRD-bewear-BoxSprite.png|htiny]]
+> ![[SRD-bewear-ShuffleToken.png|wsmall]]
+
 
 *Strong Arm Pokemon*
 *They may look friendly but their brute strength makes them very dangerous. Many Trainers have been severely injured and even snapped in half by the “hugs” of a Bewear.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-bewear-HomeSprite.png|right]]
-![[SRD-bewear-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -26,6 +26,7 @@ Name: Latias
 Number: 380
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-latias-ShuffleToken.png
 Sprite: latias.png
 Type1: Dragon
 Type2: Psychic
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-latias-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-latias-BookSprite.png|wsmall]]
+> ![[SRD-latias-HomeSprite.png]]
+> ![[SRD-latias-BoxSprite.png|htiny]]
+> ![[SRD-latias-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *The legend tells about two Pokemon that could take human shapes, use psychic powers and become invisible. They were raised by an old couple as their own children. The little girl had a red dress.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-latias-HomeSprite.png|right]]
-![[SRD-latias-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

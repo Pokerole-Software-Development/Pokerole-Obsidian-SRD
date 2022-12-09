@@ -23,6 +23,7 @@ Name: Seedot
 Number: 273
 PrimaryEggGroup: Field
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-seedot-ShuffleToken.png
 Sprite: seedot.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-seedot-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-seedot-BookSprite.png|wsmall]]
+> ![[SRD-seedot-HomeSprite.png]]
+> ![[SRD-seedot-BoxSprite.png|htiny]]
+> ![[SRD-seedot-ShuffleToken.png|wsmall]]
+
 
 *Acorn Pokemon*
 *They attach to tree branches to suck moisture from them. While immobile, the young are identical to real acorns. They enjoy scaring other Pokemon, especially Pidgeys. If they fall they are at risk of being eaten.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-seedot-HomeSprite.png|right]]
-![[SRD-seedot-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

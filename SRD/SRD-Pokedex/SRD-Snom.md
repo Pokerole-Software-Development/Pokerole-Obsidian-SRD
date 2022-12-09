@@ -23,6 +23,7 @@ Name: Snom
 Number: 872
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-snom-ShuffleToken.png
 Sprite: snom.png
 Type1: Ice
 Type2: Bug
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-snom-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-snom-BookSprite.png|wsmall]]
+> ![[SRD-snom-HomeSprite.png]]
+> ![[SRD-snom-BoxSprite.png|htiny]]
+> ![[SRD-snom-ShuffleToken.png|wsmall]]
+
 
 *Worm Pokemon*
 *It spits out thread imbued with a frigid energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps. It feeds only of snow, if it melts it will freeze it again to continue eating.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-snom-HomeSprite.png|right]]
-![[SRD-snom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

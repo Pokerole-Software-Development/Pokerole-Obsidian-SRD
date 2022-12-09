@@ -23,6 +23,7 @@ Name: Bibarel
 Number: 400
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-bibarel-ShuffleToken.png
 Sprite: bibarel.png
 Type1: Normal
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bibarel-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bibarel-BookSprite.png|wsmall]]
+> ![[SRD-bibarel-HomeSprite.png]]
+> ![[SRD-bibarel-BoxSprite.png|htiny]]
+> ![[SRD-bibarel-ShuffleToken.png|wsmall]]
+
 
 *Beaver Pokemon*
 *Bibarels build dam streams with bark and mud. It is known as an industrious worker. Their constructions are very appreciated by people because a river dammed by Bibarel will never overflow.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-bibarel-HomeSprite.png|right]]
-![[SRD-bibarel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

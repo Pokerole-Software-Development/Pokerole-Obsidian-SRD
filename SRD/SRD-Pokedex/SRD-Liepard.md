@@ -23,6 +23,7 @@ Name: Liepard
 Number: 510
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-liepard-ShuffleToken.png
 Sprite: liepard.png
 Type1: Dark
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-liepard-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-liepard-BookSprite.png|wsmall]]
+> ![[SRD-liepard-HomeSprite.png]]
+> ![[SRD-liepard-BoxSprite.png|htiny]]
+> ![[SRD-liepard-ShuffleToken.png|wsmall]]
+
 
 *Cruel Pokemon*
 *It’s difficult to see one in the wild. These Pokemon vanish and appear attacking unexpectedly. Many Trainers are drawn to their beautiful fur and elegant appeal. But they can be quite dangerous.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-liepard-HomeSprite.png|right]]
-![[SRD-liepard-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

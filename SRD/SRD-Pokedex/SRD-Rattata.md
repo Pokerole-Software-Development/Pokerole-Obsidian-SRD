@@ -23,6 +23,7 @@ Name: Rattata
 Number: 19
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rattata-ShuffleToken.png
 Sprite: rattata.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rattata-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rattata-BookSprite.png|wsmall]]
+> ![[SRD-rattata-HomeSprite.png]]
+> ![[SRD-rattata-BoxSprite.png|htiny]]
+> ![[SRD-rattata-ShuffleToken.png|wsmall]]
+
 
 *Mouse Pokemon*
 *It can live anywhere it can find food, but they are often in cities and fields. They form large families in their burrows. Since they are often preyed on, Rattatas are always alert and quick to flee.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-rattata-HomeSprite.png|right]]
-![[SRD-rattata-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

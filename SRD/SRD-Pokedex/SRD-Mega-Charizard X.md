@@ -23,6 +23,7 @@ Name: Mega-Charizard X
 Number: 6
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-charizard-mega-x-ShuffleToken.png
 Sprite: charizard-mega-x.png
 Type1: Fire
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-charizard-mega-x-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-charizard-mega-x-BookSprite.png|wsmall]]
+> ![[SRD-charizard-mega-x-HomeSprite.png]]
+> ![[SRD-charizard-mega-x-BoxSprite.png|htiny]]
+> ![[SRD-charizard-mega-x-ShuffleToken.png|wsmall]]
+
 
 *Flame Pokemon*
 *The power of the Mega Stone make its inner flames burn so hot that its body turns black as coal and blue fire escapes constantly from its mouth. It is filled with rage and its demeanor is unpredictable*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-charizard-mega-x-HomeSprite.png|right]]
-![[SRD-charizard-mega-x-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

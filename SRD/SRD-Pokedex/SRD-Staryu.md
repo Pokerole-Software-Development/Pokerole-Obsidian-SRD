@@ -23,6 +23,7 @@ Name: Staryu
 Number: 120
 PrimaryEggGroup: Water 3
 SecondaryEggGroup: ''
+ShuffleToken: SRD-staryu-ShuffleToken.png
 Sprite: staryu.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-staryu-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-staryu-BookSprite.png|wsmall]]
+> ![[SRD-staryu-HomeSprite.png]]
+> ![[SRD-staryu-BoxSprite.png|htiny]]
+> ![[SRD-staryu-ShuffleToken.png|wsmall]]
+
 
 *Starshape Pokemon*
 *They come out to the shore in great numbers when the sky is full with stars. The core at its center glows to communicate with others. If a part of its body is injured it can regrow it in a few days.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-staryu-HomeSprite.png|right]]
-![[SRD-staryu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

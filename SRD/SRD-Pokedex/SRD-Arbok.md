@@ -23,6 +23,7 @@ Name: Arbok
 Number: 24
 PrimaryEggGroup: Field
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-arbok-ShuffleToken.png
 Sprite: arbok.png
 Type1: Poison
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-arbok-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-arbok-BookSprite.png|wsmall]]
+> ![[SRD-arbok-HomeSprite.png]]
+> ![[SRD-arbok-BoxSprite.png|htiny]]
+> ![[SRD-arbok-ShuffleToken.png|wsmall]]
+
 
 *Cobra Pokemon*
 *This Pokemon has an incredibly strong constricting power. Once it wraps its body around its foe, escaping is almost impossible. The pattern on its body glows in the dark like a terrifying face.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-arbok-HomeSprite.png|right]]
-![[SRD-arbok-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

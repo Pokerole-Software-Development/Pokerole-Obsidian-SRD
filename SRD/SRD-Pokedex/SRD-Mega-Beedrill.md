@@ -23,6 +23,7 @@ Name: Mega-Beedrill
 Number: 15
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-beedrill-mega-ShuffleToken.png
 Sprite: beedrill-mega.png
 Type1: Bug
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-beedrill-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-beedrill-mega-BookSprite.png|wsmall]]
+> ![[SRD-beedrill-mega-HomeSprite.png]]
+> ![[SRD-beedrill-mega-BoxSprite.png|htiny]]
+> ![[SRD-beedrill-mega-ShuffleToken.png|wsmall]]
+
 
 *Poison Bee Pokemon*
 *With the power of the Mega Stone all of its limbs are now powerful stingers. Their attack can be really vicious stinging and piercing its foe repeatedly until the finishing blow with the sting on its rear.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-beedrill-mega-HomeSprite.png|right]]
-![[SRD-beedrill-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Poliwhirl
 Number: 61
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-poliwhirl-ShuffleToken.png
 Sprite: poliwhirl.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-poliwhirl-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-poliwhirl-BookSprite.png|wsmall]]
+> ![[SRD-poliwhirl-HomeSprite.png]]
+> ![[SRD-poliwhirl-BoxSprite.png|htiny]]
+> ![[SRD-poliwhirl-ShuffleToken.png|wsmall]]
+
 
 *Tadpole Pokemon*
 *Though it is skilled at walking, it prefers to live underwater where there’s less danger. It sweats to keep its skin moist. Thanks to this, it can easily slip out of the clutches of any enemy.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-poliwhirl-HomeSprite.png|right]]
-![[SRD-poliwhirl-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

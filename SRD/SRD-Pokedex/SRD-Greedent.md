@@ -23,6 +23,7 @@ Name: Greedent
 Number: 820
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-greedent-ShuffleToken.png
 Sprite: greedent.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-greedent-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-greedent-BookSprite.png|wsmall]]
+> ![[SRD-greedent-HomeSprite.png]]
+> ![[SRD-greedent-BoxSprite.png|htiny]]
+> ![[SRD-greedent-ShuffleToken.png|wsmall]]
+
 
 *Greedy Pokemon*
 *They are a little dim-witted as they think on nothing but eating. Greedent hide and store berries on their tails, many of them fall of, becoming new trees the next year. Their teeth are very strong.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-greedent-HomeSprite.png|right]]
-![[SRD-greedent-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

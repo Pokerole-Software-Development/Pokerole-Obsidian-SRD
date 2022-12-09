@@ -23,6 +23,7 @@ Name: Azelf
 Number: 482
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-azelf-ShuffleToken.png
 Sprite: azelf.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-azelf-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-azelf-BookSprite.png|wsmall]]
+> ![[SRD-azelf-HomeSprite.png]]
+> ![[SRD-azelf-BoxSprite.png|htiny]]
+> ![[SRD-azelf-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *In the myths of Sinnoh they talk about three beings that came out from the same egg, the blue one was the being of willpower. Together they shaped the human race to be complete.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-azelf-HomeSprite.png|right]]
-![[SRD-azelf-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

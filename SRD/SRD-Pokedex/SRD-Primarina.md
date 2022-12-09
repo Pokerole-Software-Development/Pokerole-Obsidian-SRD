@@ -23,6 +23,7 @@ Name: Primarina
 Number: 730
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-primarina-ShuffleToken.png
 Sprite: primarina.png
 Type1: Water
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-primarina-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-primarina-BookSprite.png|wsmall]]
+> ![[SRD-primarina-HomeSprite.png]]
+> ![[SRD-primarina-BoxSprite.png|htiny]]
+> ![[SRD-primarina-ShuffleToken.png|wsmall]]
+
 
 *Soloist Pokemon*
 *All modern Primarina sing a song that has been passed down through generations. Legend says that you can hear their true song when you are in the deep of the sea. Make sure its throat doesn’t get sore.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-primarina-HomeSprite.png|right]]
-![[SRD-primarina-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

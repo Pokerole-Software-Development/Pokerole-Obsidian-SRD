@@ -23,6 +23,7 @@ Name: Meganium
 Number: 154
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-meganium-ShuffleToken.png
 Sprite: meganium.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-meganium-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-meganium-BookSprite.png|wsmall]]
+> ![[SRD-meganium-HomeSprite.png]]
+> ![[SRD-meganium-BoxSprite.png|htiny]]
+> ![[SRD-meganium-ShuffleToken.png|wsmall]]
+
 
 *Herb Pokemon*
 *Meganium's breath has the power to revive dead grass and plants. The aroma that comes from its petals contains a substance that calms aggressive feelings and helps others to restore health.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-meganium-HomeSprite.png|right]]
-![[SRD-meganium-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

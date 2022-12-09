@@ -23,6 +23,7 @@ Name: Shiinotic
 Number: 756
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-shiinotic-ShuffleToken.png
 Sprite: shiinotic.png
 Type1: Grass
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-shiinotic-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-shiinotic-BookSprite.png|wsmall]]
+> ![[SRD-shiinotic-HomeSprite.png]]
+> ![[SRD-shiinotic-BoxSprite.png|htiny]]
+> ![[SRD-shiinotic-ShuffleToken.png|wsmall]]
+
 
 *Illuminating Pokemon*
 *Forests where Shiinotic live are treacherous to travel. People tell stories about strange lights that put others into a deep slumber who are then devoid of their energy by these Pokemon, never to return home.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-shiinotic-HomeSprite.png|right]]
-![[SRD-shiinotic-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

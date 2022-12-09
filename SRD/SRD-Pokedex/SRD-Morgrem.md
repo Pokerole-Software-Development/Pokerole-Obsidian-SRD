@@ -23,6 +23,7 @@ Name: Morgrem
 Number: 860
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-morgrem-ShuffleToken.png
 Sprite: morgrem.png
 Type1: Dark
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-morgrem-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-morgrem-BookSprite.png|wsmall]]
+> ![[SRD-morgrem-HomeSprite.png]]
+> ![[SRD-morgrem-BoxSprite.png|htiny]]
+> ![[SRD-morgrem-ShuffleToken.png|wsmall]]
+
 
 *Devious Pokemon*
 *When it gets down on all fours as if to beg for forgiveness, it’s trying to lure opponents in so that it can stab them with its spear-like hair. It lures people into the woods to rob them and get them lost.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-morgrem-HomeSprite.png|right]]
-![[SRD-morgrem-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

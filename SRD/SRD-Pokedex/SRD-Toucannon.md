@@ -23,6 +23,7 @@ Name: Toucannon
 Number: 733
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-toucannon-ShuffleToken.png
 Sprite: toucannon.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-toucannon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-toucannon-BookSprite.png|wsmall]]
+> ![[SRD-toucannon-HomeSprite.png]]
+> ![[SRD-toucannon-BoxSprite.png|htiny]]
+> ![[SRD-toucannon-ShuffleToken.png|wsmall]]
+
 
 *Blade Quill Pokemon*
 *It can store and expel an extremely hot gas through its beak that ignites easily. The berry seeds it shoots can pierce boulders, leaving perfectly round holes on them. Fortunately, they nest deep in the jungle.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-toucannon-HomeSprite.png|right]]
-![[SRD-toucannon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

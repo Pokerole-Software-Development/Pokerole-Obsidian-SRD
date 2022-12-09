@@ -23,6 +23,7 @@ Name: Bellossom
 Number: 182
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-bellossom-ShuffleToken.png
 Sprite: bellossom.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bellossom-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bellossom-BookSprite.png|wsmall]]
+> ![[SRD-bellossom-HomeSprite.png]]
+> ![[SRD-bellossom-BoxSprite.png|htiny]]
+> ![[SRD-bellossom-ShuffleToken.png|wsmall]]
+
 
 *Flower Pokemon*
 *They are plentiful in tropical areas. The beauty of the flowers on its head depends on how stinky it was as a Gloom. Lots of sunshine will make the skirt leaves swirl in a beautiful and rhythmic dance.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-bellossom-HomeSprite.png|right]]
-![[SRD-bellossom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Eldegoss
 Number: 830
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-eldegoss-ShuffleToken.png
 Sprite: eldegoss.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-eldegoss-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-eldegoss-BookSprite.png|wsmall]]
+> ![[SRD-eldegoss-HomeSprite.png]]
+> ![[SRD-eldegoss-BoxSprite.png|htiny]]
+> ![[SRD-eldegoss-ShuffleToken.png|wsmall]]
+
 
 *Cotton Bloom Pokemon*
 *The cotton it produces has a glossy finish so clothes made with it are insanely expensive. In nature they are calm and selfless Pokemon who allow others to take nourishment from the cotton seeds in their head.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-eldegoss-HomeSprite.png|right]]
-![[SRD-eldegoss-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Slurpuff
 Number: 685
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-slurpuff-ShuffleToken.png
 Sprite: slurpuff.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-slurpuff-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-slurpuff-BookSprite.png|wsmall]]
+> ![[SRD-slurpuff-HomeSprite.png]]
+> ![[SRD-slurpuff-BoxSprite.png|htiny]]
+> ![[SRD-slurpuff-ShuffleToken.png|wsmall]]
+
 
 *Meringue Pokemon*
 *This Pokemon lives in human cities and towns. It has an extremely keen sense of smell. It puts its sensitive nose to use by helping bakers and chefs to find the most delicious ingredients.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-slurpuff-HomeSprite.png|right]]
-![[SRD-slurpuff-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

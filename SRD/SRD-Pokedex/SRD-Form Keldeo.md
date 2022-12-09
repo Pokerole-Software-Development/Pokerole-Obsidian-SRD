@@ -23,6 +23,7 @@ Name: Form Keldeo
 Number: 647
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-keldeo-ShuffleToken.png
 Sprite: keldeo.png
 Type1: Water
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-keldeo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-keldeo-BookSprite.png|wsmall]]
+> ![[SRD-keldeo-HomeSprite.png]]
+> ![[SRD-keldeo-BoxSprite.png|htiny]]
+> ![[SRD-keldeo-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *The old fairy tale ends with the youngest Pokemon rising above evil and injustice due to its resolute and determined desire for justice. The mentorship of the other Pokemon bearing fruits.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-keldeo-HomeSprite.png|right]]
-![[SRD-keldeo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Seel
 Number: 86
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-seel-ShuffleToken.png
 Sprite: seel.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-seel-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-seel-BookSprite.png|wsmall]]
+> ![[SRD-seel-HomeSprite.png]]
+> ![[SRD-seel-BoxSprite.png|htiny]]
+> ![[SRD-seel-ShuffleToken.png|wsmall]]
+
 
 *Sea Lion Pokemon*
 *A Pokemon that lives on icebergs. It swims in the sea using the point on its head to break up the ice. It sleeps a lot during the day, being most active at dawn when the temperature starts to cool.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-seel-HomeSprite.png|right]]
-![[SRD-seel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

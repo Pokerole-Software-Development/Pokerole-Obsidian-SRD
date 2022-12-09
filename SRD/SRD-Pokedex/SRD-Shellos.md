@@ -23,6 +23,7 @@ Name: Shellos
 Number: 422
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-shellos-ShuffleToken.png
 Sprite: shellos.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-shellos-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-shellos-BookSprite.png|wsmall]]
+> ![[SRD-shellos-HomeSprite.png]]
+> ![[SRD-shellos-BoxSprite.png|htiny]]
+> ![[SRD-shellos-ShuffleToken.png|wsmall]]
+
 
 *Sea Slug Pokemon*
 *Its shape and coloration change depending on its habitat of salt or sweet water. Their body is very soft and squishy but they can stretch long lengths. It releases a purple liquid from its body if threatened.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-shellos-HomeSprite.png|right]]
-![[SRD-shellos-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

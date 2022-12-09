@@ -23,6 +23,7 @@ Name: Archen
 Number: 566
 PrimaryEggGroup: Flying
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-archen-ShuffleToken.png
 Sprite: archen.png
 Type1: Rock
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-archen-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-archen-BookSprite.png|wsmall]]
+> ![[SRD-archen-HomeSprite.png]]
+> ![[SRD-archen-BoxSprite.png|htiny]]
+> ![[SRD-archen-ShuffleToken.png|wsmall]]
+
 
 *First Bird Pokemon*
 *Revived from a fossil, this Pokemon is thought to be the ancestor of all bird Pokemon. Its flight abilities are poor so it just hops up by jumping. They are ill tempered and will not eat processed Pokemon food.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-archen-HomeSprite.png|right]]
-![[SRD-archen-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

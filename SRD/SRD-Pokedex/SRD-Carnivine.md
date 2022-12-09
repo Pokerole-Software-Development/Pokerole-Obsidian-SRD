@@ -23,6 +23,7 @@ Name: Carnivine
 Number: 455
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-carnivine-ShuffleToken.png
 Sprite: carnivine.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-carnivine-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-carnivine-BookSprite.png|wsmall]]
+> ![[SRD-carnivine-HomeSprite.png]]
+> ![[SRD-carnivine-BoxSprite.png|htiny]]
+> ![[SRD-carnivine-ShuffleToken.png|wsmall]]
+
 
 *Bug Catcher Pokemon*
 *It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down in one bite. It can take it a whole day to digest a single prey but It won’t need to eat for at least a week.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-carnivine-HomeSprite.png|right]]
-![[SRD-carnivine-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

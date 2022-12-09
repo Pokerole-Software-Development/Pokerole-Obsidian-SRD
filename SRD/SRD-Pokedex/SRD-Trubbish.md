@@ -23,6 +23,7 @@ Name: Trubbish
 Number: 568
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-trubbish-ShuffleToken.png
 Sprite: trubbish.png
 Type1: Poison
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-trubbish-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-trubbish-BookSprite.png|wsmall]]
+> ![[SRD-trubbish-HomeSprite.png]]
+> ![[SRD-trubbish-BoxSprite.png|htiny]]
+> ![[SRD-trubbish-ShuffleToken.png|wsmall]]
+
 
 *Trash Bag Pokemon*
 *The combination of garbage bags and industrial waste caused the chemical reaction that created this Pokemon. It belches a poison gas, breathing it will leave you sick in bed for a week. It loves filthy places.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-trubbish-HomeSprite.png|right]]
-![[SRD-trubbish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

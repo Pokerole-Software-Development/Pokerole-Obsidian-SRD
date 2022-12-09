@@ -23,6 +23,7 @@ Name: Aegislash
 Number: 681
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-aegislash-ShuffleToken.png
 Sprite: aegislash.png
 Type1: Steel
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-aegislash-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-aegislash-BookSprite.png|wsmall]]
+> ![[SRD-aegislash-HomeSprite.png]]
+> ![[SRD-aegislash-BoxSprite.png|htiny]]
+> ![[SRD-aegislash-ShuffleToken.png|wsmall]]
+
 
 *Royal Sword Pokemon*
 *The legend tells of how this Pokemon lead the first King of Kalos to victory. A crushing grip can be felt on the arm of the wielder. While in this form it can only use Support moves.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::4)/(MaxInsight::8)     |
 
-![[SRD-aegislash-HomeSprite.png|right]]
-![[SRD-aegislash-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

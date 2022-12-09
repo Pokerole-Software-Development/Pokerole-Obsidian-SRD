@@ -23,6 +23,7 @@ Name: Ninjask
 Number: 291
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-ninjask-ShuffleToken.png
 Sprite: ninjask.png
 Type1: Bug
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ninjask-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ninjask-BookSprite.png|wsmall]]
+> ![[SRD-ninjask-HomeSprite.png]]
+> ![[SRD-ninjask-BoxSprite.png|htiny]]
+> ![[SRD-ninjask-ShuffleToken.png|wsmall]]
+
 
 *Ninja Pokemon*
 *Due to their speed and stealthiness, this Pokemon was believed to be invisible. They refuse to obey people and cry continuously if forced. People burn their cocoons as they are said to be cursed.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-ninjask-HomeSprite.png|right]]
-![[SRD-ninjask-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: White Kyurem
 Number: 646
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-kyurem-white-ShuffleToken.png
 Sprite: kyurem-white.png
 Type1: Dragon
 Type2: Ice
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kyurem-white-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kyurem-white-BookSprite.png|wsmall]]
+> ![[SRD-kyurem-white-HomeSprite.png]]
+> ![[SRD-kyurem-white-BoxSprite.png|htiny]]
+> ![[SRD-kyurem-white-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *In the Icy mountains at the west of Unova, you can hear the wails of a creature suffering as if it missed a part of its very soul. Explosions and blue fires are sure to follow.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::9)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-kyurem-white-HomeSprite.png|right]]
-![[SRD-kyurem-white-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

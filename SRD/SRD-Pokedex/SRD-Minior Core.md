@@ -23,6 +23,7 @@ Name: Minior Core
 Number: 774
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-minior-green-ShuffleToken.png
 Sprite: minior-green.png
 Type1: Rock
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-minior-green-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-minior-green-BookSprite.png|wsmall]]
+> ![[SRD-minior-green-HomeSprite.png]]
+> ![[SRD-minior-green-BoxSprite.png|htiny]]
+> ![[SRD-minior-green-ShuffleToken.png|wsmall]]
+
 
 *Meteor Pokemon*
 *Without its shell Minior can move faster. They have playful and colorful personalities. If a Minior wants to regrow their shell they must go to the stratosphere for a few days. Some of them never return, though.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-minior-green-HomeSprite.png|right]]
-![[SRD-minior-green-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

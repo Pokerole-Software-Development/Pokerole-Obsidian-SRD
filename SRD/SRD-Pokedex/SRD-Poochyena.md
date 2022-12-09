@@ -23,6 +23,7 @@ Name: Poochyena
 Number: 261
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-poochyena-ShuffleToken.png
 Sprite: poochyena.png
 Type1: Dark
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-poochyena-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-poochyena-BookSprite.png|wsmall]]
+> ![[SRD-poochyena-HomeSprite.png]]
+> ![[SRD-poochyena-BoxSprite.png|htiny]]
+> ![[SRD-poochyena-ShuffleToken.png|wsmall]]
+
 
 *Bite Pokemon*
 *Poochyena will bite anything that moves. They will chase people and other Pokemon for dozens of miles without loosing track. This Pokemon is persistent and tenacious. In the wild, they form small hunting packs.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-poochyena-HomeSprite.png|right]]
-![[SRD-poochyena-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

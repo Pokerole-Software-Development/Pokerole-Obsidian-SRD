@@ -23,6 +23,7 @@ Name: Ponyta
 Number: 77
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-ponyta-ShuffleToken.png
 Sprite: ponyta.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ponyta-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ponyta-BookSprite.png|wsmall]]
+> ![[SRD-ponyta-HomeSprite.png]]
+> ![[SRD-ponyta-BoxSprite.png|htiny]]
+> ![[SRD-ponyta-ShuffleToken.png|wsmall]]
+
 
 *Fire Horse Pokemon*
 *It’s not very common to see one stay still for more than a few seconds. Soon after it’s born, its flames begin to burn. It is weak at first but soon begins to develop a great speed chasing after its parents.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-ponyta-HomeSprite.png|right]]
-![[SRD-ponyta-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

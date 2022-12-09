@@ -23,6 +23,7 @@ Name: Clefairy
 Number: 35
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-clefairy-ShuffleToken.png
 Sprite: clefairy.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-clefairy-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-clefairy-BookSprite.png|wsmall]]
+> ![[SRD-clefairy-HomeSprite.png]]
+> ![[SRD-clefairy-BoxSprite.png|htiny]]
+> ![[SRD-clefairy-ShuffleToken.png|wsmall]]
+
 
 *Fairy Pokemon*
 *Very rare to find. Clefairies are said to come from the moon. They are drawn to the light of this celestial body and come out of hiding at night to dance and play in the moonlight.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-clefairy-HomeSprite.png|right]]
-![[SRD-clefairy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

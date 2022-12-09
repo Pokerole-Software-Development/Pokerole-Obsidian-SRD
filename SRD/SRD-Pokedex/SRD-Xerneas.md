@@ -23,6 +23,7 @@ Name: Xerneas
 Number: 716
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-xerneas-ShuffleToken.png
 Sprite: xerneas.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-xerneas-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-xerneas-BookSprite.png|wsmall]]
+> ![[SRD-xerneas-HomeSprite.png]]
+> ![[SRD-xerneas-BoxSprite.png|htiny]]
+> ![[SRD-xerneas-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *A Kalos legend tells about the eternal struggle between life and death. In the story an ancient King tried to obtain eternal life and the power to make its loved ones live again.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-xerneas-HomeSprite.png|right]]
-![[SRD-xerneas-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

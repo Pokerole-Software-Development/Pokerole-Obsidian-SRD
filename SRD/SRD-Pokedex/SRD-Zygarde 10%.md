@@ -22,6 +22,7 @@ Name: Zygarde 10%
 Number: 718
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zygarde-10-ShuffleToken.png
 Sprite: zygarde-10.png
 Type1: Dragon
 Type2: Ground
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zygarde-10-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zygarde-10-BookSprite.png|wsmall]]
+> ![[SRD-zygarde-10-HomeSprite.png]]
+> ![[SRD-zygarde-10-BoxSprite.png|htiny]]
+> ![[SRD-zygarde-10-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *When 10% of the Zygarde Cells gather, they form this Pokemon, the more cells it gathers the more its strength will increase.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-zygarde-10-HomeSprite.png|right]]
-![[SRD-zygarde-10-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

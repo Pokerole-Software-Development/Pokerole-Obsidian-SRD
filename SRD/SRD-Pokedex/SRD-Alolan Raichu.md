@@ -23,6 +23,7 @@ Name: Alolan Raichu
 Number: 26
 PrimaryEggGroup: Field
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-raichu-alola-ShuffleToken.png
 Sprite: raichu-alola.png
 Type1: Electric
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-raichu-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-raichu-alola-BookSprite.png|wsmall]]
+> ![[SRD-raichu-alola-HomeSprite.png]]
+> ![[SRD-raichu-alola-BoxSprite.png|htiny]]
+> ![[SRD-raichu-alola-ShuffleToken.png|wsmall]]
+
 
 *Mouse Pokemon*
 *Scientists were baffled to discover Raichu's evolution in the Alola Region. There is no explanation as to how it gained Psychic abilities, but diet seems to be factor. It loves sweet food and pancakes.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-raichu-alola-HomeSprite.png|right]]
-![[SRD-raichu-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

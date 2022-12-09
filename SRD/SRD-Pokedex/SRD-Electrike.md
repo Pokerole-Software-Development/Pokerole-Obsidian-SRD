@@ -23,6 +23,7 @@ Name: Electrike
 Number: 309
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-electrike-ShuffleToken.png
 Sprite: electrike.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-electrike-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-electrike-BookSprite.png|wsmall]]
+> ![[SRD-electrike-HomeSprite.png]]
+> ![[SRD-electrike-BoxSprite.png|htiny]]
+> ![[SRD-electrike-ShuffleToken.png|wsmall]]
+
 
 *Lightning Pokemon*
 *Their fur stores electricity, leaving a trail of sparks as they run. By stimulating their legs with voltage, Electrike's speed and power is greatly increased. They are not very common, though.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-electrike-HomeSprite.png|right]]
-![[SRD-electrike-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Igglybuff
 Number: 174
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-igglybuff-ShuffleToken.png
 Sprite: igglybuff.png
 Type1: Normal
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-igglybuff-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-igglybuff-BookSprite.png|wsmall]]
+> ![[SRD-igglybuff-HomeSprite.png]]
+> ![[SRD-igglybuff-BoxSprite.png|htiny]]
+> ![[SRD-igglybuff-ShuffleToken.png|wsmall]]
+
 
 *Balloon Pokemon*
 *It has a very light body that makes it float and bounce. If you are not careful it can bounce away without control. After being bottle fed it will not bounce but wiggle around. It gets cranky if it doesn’t take a nap.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-igglybuff-HomeSprite.png|right]]
-![[SRD-igglybuff-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

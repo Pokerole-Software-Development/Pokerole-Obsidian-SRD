@@ -23,6 +23,7 @@ Name: Rapidash
 Number: 78
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rapidash-ShuffleToken.png
 Sprite: rapidash.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rapidash-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rapidash-BookSprite.png|wsmall]]
+> ![[SRD-rapidash-HomeSprite.png]]
+> ![[SRD-rapidash-BoxSprite.png|htiny]]
+> ![[SRD-rapidash-ShuffleToken.png|wsmall]]
+
 
 *Fire Horse Pokemon*
 *It lives happily on prairies. It loves speed competitions - a herd can often be seen running alongside a train. It can regulate the heat of its mane as to let its trainer ride it, but only if it trusts him enough.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-rapidash-HomeSprite.png|right]]
-![[SRD-rapidash-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

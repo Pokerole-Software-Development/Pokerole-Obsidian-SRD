@@ -23,6 +23,7 @@ Name: Chingling
 Number: 433
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-chingling-ShuffleToken.png
 Sprite: chingling.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-chingling-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-chingling-BookSprite.png|wsmall]]
+> ![[SRD-chingling-HomeSprite.png]]
+> ![[SRD-chingling-BoxSprite.png|htiny]]
+> ![[SRD-chingling-ShuffleToken.png|wsmall]]
+
 
 *Bell Pokemon*
 *It has a ball inside its mouth that makes a ringing sound when it hops around. To defend itself, it will emit low frequency cries that deafen its foes. However this sound is not audible to humans.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-chingling-HomeSprite.png|right]]
-![[SRD-chingling-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

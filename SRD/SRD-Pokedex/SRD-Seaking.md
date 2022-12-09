@@ -23,6 +23,7 @@ Name: Seaking
 Number: 119
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-seaking-ShuffleToken.png
 Sprite: seaking.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-seaking-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-seaking-BookSprite.png|wsmall]]
+> ![[SRD-seaking-HomeSprite.png]]
+> ![[SRD-seaking-BoxSprite.png|htiny]]
+> ![[SRD-seaking-ShuffleToken.png|wsmall]]
+
 
 *Goldfish Pokemon*
 *In the autumn, Seaking males can be seen doing courtship dances to females. After getting a mate both will be seen swimming powerfully up rivers and creeks to make their nest.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-seaking-HomeSprite.png|right]]
-![[SRD-seaking-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

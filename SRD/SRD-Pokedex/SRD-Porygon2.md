@@ -23,6 +23,7 @@ Name: Porygon2
 Number: 233
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-porygon2-ShuffleToken.png
 Sprite: porygon2.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-porygon2-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-porygon2-BookSprite.png|wsmall]]
+> ![[SRD-porygon2-HomeSprite.png]]
+> ![[SRD-porygon2-BoxSprite.png|htiny]]
+> ![[SRD-porygon2-ShuffleToken.png|wsmall]]
+
 
 *Virtual Pokemon*
 *This man-made Pokemon is an upgraded version of Porygon. Used for space exploration and planetary development, boasting the power of science. Its AI software allows it to learn on its own.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-porygon2-HomeSprite.png|right]]
-![[SRD-porygon2-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

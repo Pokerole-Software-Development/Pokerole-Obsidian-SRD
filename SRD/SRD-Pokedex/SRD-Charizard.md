@@ -28,6 +28,7 @@ Name: Charizard
 Number: 6
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-charizard-ShuffleToken.png
 Sprite: charizard.png
 Type1: Fire
 Type2: Flying
@@ -41,7 +42,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-charizard-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-charizard-BookSprite.png|wsmall]]
+> ![[SRD-charizard-HomeSprite.png]]
+> ![[SRD-charizard-BoxSprite.png|htiny]]
+> ![[SRD-charizard-ShuffleToken.png|wsmall]]
+
 
 *Flame Pokemon*
 *A Charizard flies around looking for strong opponents. It breathes intense flames that can melt any material. However, it will never touch a weaker foe. Not many trainers are able to handle its bad temper.*
@@ -60,8 +66,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-charizard-HomeSprite.png|right]]
-![[SRD-charizard-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

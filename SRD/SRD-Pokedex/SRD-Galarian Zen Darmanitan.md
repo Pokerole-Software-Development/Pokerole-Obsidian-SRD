@@ -23,6 +23,7 @@ Name: Galarian Zen Darmanitan
 Number: 555
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-darmanitan-galar-zen-ShuffleToken.png
 Sprite: darmanitan-galar-zen.png
 Type1: Ice
 Type2: Fire
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-darmanitan-galar-zen-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-darmanitan-galar-zen-BookSprite.png|wsmall]]
+> ![[SRD-darmanitan-galar-zen-HomeSprite.png]]
+> ![[SRD-darmanitan-galar-zen-BoxSprite.png|htiny]]
+> ![[SRD-darmanitan-galar-zen-ShuffleToken.png|wsmall]]
+
 
 *Zen Charm Pokemon (Galarian)*
 *Zen Charm Pokemon (Galarian) When Darmanitan gets angry  atrophied fire core is reignited, This Pokemon breathes fire and  destroys everything on its path.. They must be calmed down or its own heat may melt their bodies.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-darmanitan-galar-zen-HomeSprite.png|right]]
-![[SRD-darmanitan-galar-zen-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

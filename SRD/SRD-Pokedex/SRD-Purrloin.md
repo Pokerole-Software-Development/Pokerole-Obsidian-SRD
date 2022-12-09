@@ -23,6 +23,7 @@ Name: Purrloin
 Number: 509
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-purrloin-ShuffleToken.png
 Sprite: purrloin.png
 Type1: Dark
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-purrloin-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-purrloin-BookSprite.png|wsmall]]
+> ![[SRD-purrloin-HomeSprite.png]]
+> ![[SRD-purrloin-BoxSprite.png|htiny]]
+> ![[SRD-purrloin-ShuffleToken.png|wsmall]]
+
 
 *Devious Pokemon*
 *They have adapted to live in the streets of big cities. They steal for fun but their victims can’t help but forgive them. Their cute act is a ruse. People who keep them as pets often regret it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-purrloin-HomeSprite.png|right]]
-![[SRD-purrloin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

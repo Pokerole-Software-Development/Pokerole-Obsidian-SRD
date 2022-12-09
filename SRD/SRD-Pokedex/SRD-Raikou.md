@@ -22,6 +22,7 @@ Name: Raikou
 Number: 243
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-raikou-ShuffleToken.png
 Sprite: raikou.png
 Type1: Electric
 Type2: ''
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-raikou-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-raikou-BookSprite.png|wsmall]]
+> ![[SRD-raikou-HomeSprite.png]]
+> ![[SRD-raikou-BoxSprite.png|htiny]]
+> ![[SRD-raikou-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Johto Legends tell about a Pokemon born from lightning, with barks like crashing thunder, soaring the lands, sending resounding shock-waves as it walks.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-raikou-HomeSprite.png|right]]
-![[SRD-raikou-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

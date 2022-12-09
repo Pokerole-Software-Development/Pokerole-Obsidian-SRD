@@ -23,6 +23,7 @@ Name: Skiploom
 Number: 188
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-skiploom-ShuffleToken.png
 Sprite: skiploom.png
 Type1: Grass
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-skiploom-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-skiploom-BookSprite.png|wsmall]]
+> ![[SRD-skiploom-HomeSprite.png]]
+> ![[SRD-skiploom-BoxSprite.png|htiny]]
+> ![[SRD-skiploom-ShuffleToken.png|wsmall]]
+
 
 *Cottonweed Pokemon*
 *It blooms when the weather is warm. If the weather gets cold, the bloom will close and it will stop flying. This is not an aggressive Pokemon but it can cause allergies if it floats directly above you.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-skiploom-HomeSprite.png|right]]
-![[SRD-skiploom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

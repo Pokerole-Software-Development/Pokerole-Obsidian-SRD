@@ -23,6 +23,7 @@ Name: Scrafty
 Number: 560
 PrimaryEggGroup: Field
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-scrafty-ShuffleToken.png
 Sprite: scrafty.png
 Type1: Dark
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-scrafty-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-scrafty-BookSprite.png|wsmall]]
+> ![[SRD-scrafty-HomeSprite.png]]
+> ![[SRD-scrafty-BoxSprite.png|htiny]]
+> ![[SRD-scrafty-ShuffleToken.png|wsmall]]
+
 
 *Hoodlum Pokemon*
 *They form gangs and beat anyone who trespasses their territory. The one with the biggest crest is the leader. They throw powerful kicks and their skin is an excellent shield. Be careful around them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-scrafty-HomeSprite.png|right]]
-![[SRD-scrafty-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

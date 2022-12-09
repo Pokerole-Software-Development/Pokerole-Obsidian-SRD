@@ -26,6 +26,7 @@ Name: Garchomp
 Number: 445
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-garchomp-ShuffleToken.png
 Sprite: garchomp.png
 Type1: Dragon
 Type2: Ground
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-garchomp-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-garchomp-BookSprite.png|wsmall]]
+> ![[SRD-garchomp-HomeSprite.png]]
+> ![[SRD-garchomp-BoxSprite.png|htiny]]
+> ![[SRD-garchomp-ShuffleToken.png|wsmall]]
+
 
 *Mach Pokemon*
 *Garchomps are scarce in the wild and very dangerous. It folds its arms and uses its fins to fly extremely fast at low heights. Territorial and aggressive it will not rest until it catches any daring trespasser.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-garchomp-HomeSprite.png|right]]
-![[SRD-garchomp-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

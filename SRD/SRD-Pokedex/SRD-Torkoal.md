@@ -23,6 +23,7 @@ Name: Torkoal
 Number: 324
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-torkoal-ShuffleToken.png
 Sprite: torkoal.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-torkoal-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-torkoal-BookSprite.png|wsmall]]
+> ![[SRD-torkoal-HomeSprite.png]]
+> ![[SRD-torkoal-BoxSprite.png|htiny]]
+> ![[SRD-torkoal-ShuffleToken.png|wsmall]]
+
 
 *Coal Pokemon*
 *They constantly search for coal to add to their shell, digging mountains tirelessly because it is the source of their power. If they run out of coal, they grow weak. They are commonly found in abandoned coal mines.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-torkoal-HomeSprite.png|right]]
-![[SRD-torkoal-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

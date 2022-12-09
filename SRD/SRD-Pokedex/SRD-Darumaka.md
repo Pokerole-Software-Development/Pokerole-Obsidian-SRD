@@ -23,6 +23,7 @@ Name: Darumaka
 Number: 554
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-darumaka-ShuffleToken.png
 Sprite: darumaka.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-darumaka-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-darumaka-BookSprite.png|wsmall]]
+> ![[SRD-darumaka-HomeSprite.png]]
+> ![[SRD-darumaka-BoxSprite.png|htiny]]
+> ![[SRD-darumaka-ShuffleToken.png|wsmall]]
+
 
 *Zen Charm Pokemon*
 *Lives on deserts and arid terrains. It has a flame inside its body. When the flame burns brightly it becomes very active running around, when the flame is low it falls asleep. Their droppings double as a bonfire.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-darumaka-HomeSprite.png|right]]
-![[SRD-darumaka-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Mienfoo
 Number: 619
 PrimaryEggGroup: Field
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-mienfoo-ShuffleToken.png
 Sprite: mienfoo.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mienfoo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mienfoo-BookSprite.png|wsmall]]
+> ![[SRD-mienfoo-HomeSprite.png]]
+> ![[SRD-mienfoo-BoxSprite.png|htiny]]
+> ![[SRD-mienfoo-ShuffleToken.png|wsmall]]
+
 
 *Martial Arts Pokemon*
 *They gather in small groups around the mountains to train and master new techniques. They use their sharp claws to damage their foes. Only those Mienfoo that excel at fighting in the group evolve.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-mienfoo-HomeSprite.png|right]]
-![[SRD-mienfoo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

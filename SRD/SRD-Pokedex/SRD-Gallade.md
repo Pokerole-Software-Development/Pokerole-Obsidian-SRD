@@ -26,6 +26,7 @@ Name: Gallade
 Number: 475
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-gallade-ShuffleToken.png
 Sprite: gallade.png
 Type1: Psychic
 Type2: Fighting
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gallade-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gallade-BookSprite.png|wsmall]]
+> ![[SRD-gallade-HomeSprite.png]]
+> ![[SRD-gallade-BoxSprite.png|htiny]]
+> ![[SRD-gallade-ShuffleToken.png|wsmall]]
+
 
 *Blade Pokemon*
 *This Pokemon is male only. He has an extreme sense of courtesy. In a battle, it uses the blades on his arms as if they were swords. It is a loyal Pokemon and won’t doubt to fiercely protect its trainer.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-gallade-HomeSprite.png|right]]
-![[SRD-gallade-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

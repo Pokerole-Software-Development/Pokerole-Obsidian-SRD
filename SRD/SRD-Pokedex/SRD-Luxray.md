@@ -23,6 +23,7 @@ Name: Luxray
 Number: 405
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-luxray-ShuffleToken.png
 Sprite: luxray.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-luxray-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-luxray-BookSprite.png|wsmall]]
+> ![[SRD-luxray-HomeSprite.png]]
+> ![[SRD-luxray-BoxSprite.png|htiny]]
+> ![[SRD-luxray-ShuffleToken.png|wsmall]]
+
 
 *Gleam Eyes Pokemon*
 *It is said that it can see through walls. This Pokemon can easily find hiding prey and locate its young. Male Luxrays can be found roaming alone, patrolling their territory; the females hunt in groups.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-luxray-HomeSprite.png|right]]
-![[SRD-luxray-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Kricketune
 Number: 402
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-kricketune-ShuffleToken.png
 Sprite: kricketune.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kricketune-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kricketune-BookSprite.png|wsmall]]
+> ![[SRD-kricketune-HomeSprite.png]]
+> ![[SRD-kricketune-BoxSprite.png|htiny]]
+> ![[SRD-kricketune-ShuffleToken.png|wsmall]]
+
 
 *Cricket Pokemon*
 *It can make all kind of sounds with its antennae, arms and mouth. It signals emotions with different tunes but scientists still cannot define what they mean. They imitate the songs they hear.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-kricketune-HomeSprite.png|right]]
-![[SRD-kricketune-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

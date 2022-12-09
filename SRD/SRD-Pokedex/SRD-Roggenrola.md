@@ -23,6 +23,7 @@ Name: Roggenrola
 Number: 524
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-roggenrola-ShuffleToken.png
 Sprite: roggenrola.png
 Type1: Rock
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-roggenrola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-roggenrola-BookSprite.png|wsmall]]
+> ![[SRD-roggenrola-HomeSprite.png]]
+> ![[SRD-roggenrola-BoxSprite.png|htiny]]
+> ![[SRD-roggenrola-ShuffleToken.png|wsmall]]
+
 
 *Mantle Pokemon*
 *It is made from compressed rock, making it’s body almost as hard as steel. It is blind, what looks like it’s eye is really an ear, for this reason it can live in the darkest of caves feeding on rocks to grow stronger.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-roggenrola-HomeSprite.png|right]]
-![[SRD-roggenrola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

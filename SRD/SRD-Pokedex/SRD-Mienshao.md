@@ -23,6 +23,7 @@ Name: Mienshao
 Number: 620
 PrimaryEggGroup: Field
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-mienshao-ShuffleToken.png
 Sprite: mienshao.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mienshao-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mienshao-BookSprite.png|wsmall]]
+> ![[SRD-mienshao-HomeSprite.png]]
+> ![[SRD-mienshao-BoxSprite.png|htiny]]
+> ![[SRD-mienshao-ShuffleToken.png|wsmall]]
+
 
 *Martial Arts Pokemon*
 *By the time they evolve they already have many years of experience in fighting. They use the long fur on their arms as a whip to strike their opponents and will not stop until the foe is defeated.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-mienshao-HomeSprite.png|right]]
-![[SRD-mienshao-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

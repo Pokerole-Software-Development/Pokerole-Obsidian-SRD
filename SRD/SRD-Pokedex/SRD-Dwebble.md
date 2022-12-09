@@ -23,6 +23,7 @@ Name: Dwebble
 Number: 557
 PrimaryEggGroup: Bug
 SecondaryEggGroup: Mineral
+ShuffleToken: SRD-dwebble-ShuffleToken.png
 Sprite: dwebble.png
 Type1: Bug
 Type2: Rock
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dwebble-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dwebble-BookSprite.png|wsmall]]
+> ![[SRD-dwebble-HomeSprite.png]]
+> ![[SRD-dwebble-BoxSprite.png|htiny]]
+> ![[SRD-dwebble-ShuffleToken.png|wsmall]]
+
 
 *Rock Inn Pokemon*
 *Their saliva is corrosive and it uses it to slowly cut pieces of rock. The rock becomes a shelter until it grows too large for it. If the rock breaks, it stays anxious and agitated until it finds a replacement.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-dwebble-HomeSprite.png|right]]
-![[SRD-dwebble-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

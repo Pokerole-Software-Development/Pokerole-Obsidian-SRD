@@ -23,6 +23,7 @@ Name: Doduo
 Number: 84
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-doduo-ShuffleToken.png
 Sprite: doduo.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-doduo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-doduo-BookSprite.png|wsmall]]
+> ![[SRD-doduo-HomeSprite.png]]
+> ![[SRD-doduo-BoxSprite.png|htiny]]
+> ![[SRD-doduo-ShuffleToken.png|wsmall]]
+
 
 *Twin Bird Pokemon*
 *It can fly, but it prefers to run in the prairies. The two heads usually get along. While one is eating or sleeping, the other one is alert for predators. It is known that they share a brain and their ideas are connected.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-doduo-HomeSprite.png|right]]
-![[SRD-doduo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Zubat
 Number: 41
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zubat-ShuffleToken.png
 Sprite: zubat.png
 Type1: Poison
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zubat-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zubat-BookSprite.png|wsmall]]
+> ![[SRD-zubat-HomeSprite.png]]
+> ![[SRD-zubat-BoxSprite.png|htiny]]
+> ![[SRD-zubat-ShuffleToken.png|wsmall]]
+
 
 *Bat Pokemon*
 *It lives in dark caves all around the world. Prolonged exposure to the sun will make it unhealthy. It is blind but uses echolocation to find its way. At night, they leave their cave to feed on fruit and bug Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-zubat-HomeSprite.png|right]]
-![[SRD-zubat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Jangmo-o
 Number: 782
 PrimaryEggGroup: Dragon
 SecondaryEggGroup: ''
+ShuffleToken: SRD-jangmo-o-ShuffleToken.png
 Sprite: jangmo-o.png
 Type1: Dragon
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-jangmo-o-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-jangmo-o-BookSprite.png|wsmall]]
+> ![[SRD-jangmo-o-HomeSprite.png]]
+> ![[SRD-jangmo-o-BoxSprite.png|htiny]]
+> ![[SRD-jangmo-o-ShuffleToken.png|wsmall]]
+
 
 *Scaly Pokemon*
 *They live in mountains rarely visited by humans. Although they are valiant and hard-working Pokemon they retain their independent nature. It uses the scale on its head for both attack and defense.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-jangmo-o-HomeSprite.png|right]]
-![[SRD-jangmo-o-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

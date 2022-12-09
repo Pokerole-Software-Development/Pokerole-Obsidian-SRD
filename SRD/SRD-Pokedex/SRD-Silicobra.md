@@ -23,6 +23,7 @@ Name: Silicobra
 Number: 843
 PrimaryEggGroup: Field
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-silicobra-ShuffleToken.png
 Sprite: silicobra.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-silicobra-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-silicobra-BookSprite.png|wsmall]]
+> ![[SRD-silicobra-HomeSprite.png]]
+> ![[SRD-silicobra-BoxSprite.png|htiny]]
+> ![[SRD-silicobra-ShuffleToken.png|wsmall]]
+
 
 *Sand Snake Pokemon*
 *Silicobra can appear to be very aggressive but they just want to be left alone. They spew sand from their nostrils and while the foe is blinded, they burrow back into the ground to hide.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-silicobra-HomeSprite.png|right]]
-![[SRD-silicobra-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

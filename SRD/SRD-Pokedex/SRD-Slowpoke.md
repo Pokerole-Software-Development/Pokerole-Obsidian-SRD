@@ -23,6 +23,7 @@ Name: Slowpoke
 Number: 79
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-slowpoke-ShuffleToken.png
 Sprite: slowpoke.png
 Type1: Water
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-slowpoke-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-slowpoke-BookSprite.png|wsmall]]
+> ![[SRD-slowpoke-HomeSprite.png]]
+> ![[SRD-slowpoke-BoxSprite.png|htiny]]
+> ![[SRD-slowpoke-ShuffleToken.png|wsmall]]
+
 
 *Dopey Pokemon*
 *It lives close to water. This Pokemon has a low intellect, and it’s slow to react to any stimuli. Its tail seeps a sweet substance it uses to lure prey to eat. When the tip turns white shellders will be attracted to it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-slowpoke-HomeSprite.png|right]]
-![[SRD-slowpoke-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

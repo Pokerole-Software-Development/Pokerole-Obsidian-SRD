@@ -23,6 +23,7 @@ Name: Finneon
 Number: 456
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-finneon-ShuffleToken.png
 Sprite: finneon.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-finneon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-finneon-BookSprite.png|wsmall]]
+> ![[SRD-finneon-HomeSprite.png]]
+> ![[SRD-finneon-BoxSprite.png|htiny]]
+> ![[SRD-finneon-ShuffleToken.png|wsmall]]
+
 
 *Wing Fish Pokemon*
 *The way its two-tail-fins flutter while it swims has earned Finneon the nickname “Beautifly of the Sea.” The line running down its side can store sunlight and glow brightly at night.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-finneon-HomeSprite.png|right]]
-![[SRD-finneon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

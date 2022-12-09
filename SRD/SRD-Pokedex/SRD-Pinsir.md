@@ -26,6 +26,7 @@ Name: Pinsir
 Number: 127
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pinsir-ShuffleToken.png
 Sprite: pinsir.png
 Type1: Bug
 Type2: ''
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pinsir-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pinsir-BookSprite.png|wsmall]]
+> ![[SRD-pinsir-HomeSprite.png]]
+> ![[SRD-pinsir-BoxSprite.png|htiny]]
+> ![[SRD-pinsir-ShuffleToken.png|wsmall]]
+
 
 *Stagbeetle Pokemon*
 *Their pincers are strong enough to shatter thick logs. Because they dislike cold, Pinsirs burrow and sleep under the ground on chilly nights. They like to eat sap and honey, but they are aggressive by nature.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-pinsir-HomeSprite.png|right]]
-![[SRD-pinsir-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

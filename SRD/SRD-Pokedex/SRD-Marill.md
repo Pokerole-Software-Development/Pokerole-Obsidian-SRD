@@ -23,6 +23,7 @@ Name: Marill
 Number: 183
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-marill-ShuffleToken.png
 Sprite: marill.png
 Type1: Water
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-marill-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-marill-BookSprite.png|wsmall]]
+> ![[SRD-marill-HomeSprite.png]]
+> ![[SRD-marill-BoxSprite.png|htiny]]
+> ![[SRD-marill-ShuffleToken.png|wsmall]]
+
 
 *Aquamouse Pokemon*
 *Marill's tail acts like a floater. Seeing its tail bobbing on the water’s surface is a sure indication that this Pokemon is diving to feed on algae and aquatic plants. This Pokemon is curious towards humans.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-marill-HomeSprite.png|right]]
-![[SRD-marill-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

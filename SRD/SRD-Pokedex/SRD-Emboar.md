@@ -23,6 +23,7 @@ Name: Emboar
 Number: 500
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-emboar-ShuffleToken.png
 Sprite: emboar.png
 Type1: Fire
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-emboar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-emboar-BookSprite.png|wsmall]]
+> ![[SRD-emboar-HomeSprite.png]]
+> ![[SRD-emboar-BoxSprite.png|htiny]]
+> ![[SRD-emboar-ShuffleToken.png|wsmall]]
+
 
 *Mega Fire Pig Pokemon*
 *Although it has a scary exterior, it is a very gentle Pokemon that cares deeply for family and friends. It can burst its punches and beard on fire, it also shows proficiency on martial arts like Judo.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-emboar-HomeSprite.png|right]]
-![[SRD-emboar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

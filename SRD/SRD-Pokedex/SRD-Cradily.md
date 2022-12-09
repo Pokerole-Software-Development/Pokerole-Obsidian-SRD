@@ -23,6 +23,7 @@ Name: Cradily
 Number: 346
 PrimaryEggGroup: Water 3
 SecondaryEggGroup: ''
+ShuffleToken: SRD-cradily-ShuffleToken.png
 Sprite: cradily.png
 Type1: Rock
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cradily-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cradily-BookSprite.png|wsmall]]
+> ![[SRD-cradily-HomeSprite.png]]
+> ![[SRD-cradily-BoxSprite.png|htiny]]
+> ![[SRD-cradily-ShuffleToken.png|wsmall]]
+
 
 *Barnacle Pokemon*
 *Cradily moves slowly at the bottom of the sea. It uses its body as an anchor and its tentacles as arms to catch prey. Their foes are melted with a potent acid before being consumed.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-cradily-HomeSprite.png|right]]
-![[SRD-cradily-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

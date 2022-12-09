@@ -23,6 +23,7 @@ Name: Diglett
 Number: 50
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-diglett-ShuffleToken.png
 Sprite: diglett.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-diglett-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-diglett-BookSprite.png|wsmall]]
+> ![[SRD-diglett-HomeSprite.png]]
+> ![[SRD-diglett-BoxSprite.png|htiny]]
+> ![[SRD-diglett-ShuffleToken.png|wsmall]]
+
 
 *Mole Pokemon*
 *It prefers dark places and spends most of its time underground. It has a very thin skin. It’s frail and has problems regulating its own temperature. Keep it burrowed or it will get sick.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-diglett-HomeSprite.png|right]]
-![[SRD-diglett-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

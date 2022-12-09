@@ -23,6 +23,7 @@ Name: Grimmsnarl
 Number: 861
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-grimmsnarl-ShuffleToken.png
 Sprite: grimmsnarl.png
 Type1: Dark
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-grimmsnarl-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-grimmsnarl-BookSprite.png|wsmall]]
+> ![[SRD-grimmsnarl-HomeSprite.png]]
+> ![[SRD-grimmsnarl-BoxSprite.png|htiny]]
+> ![[SRD-grimmsnarl-ShuffleToken.png|wsmall]]
+
 
 *Bulk Up Pokemon*
 *Its hairs work like muscle fibers. When its hairs unfurl, they latch on to opponents, ensnaring them as tentacles would. They often make others trip or get them hanging upside down to amuse themselves.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-grimmsnarl-HomeSprite.png|right]]
-![[SRD-grimmsnarl-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

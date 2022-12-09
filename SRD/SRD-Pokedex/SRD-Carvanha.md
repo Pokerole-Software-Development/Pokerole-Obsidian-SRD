@@ -23,6 +23,7 @@ Name: Carvanha
 Number: 318
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-carvanha-ShuffleToken.png
 Sprite: carvanha.png
 Type1: Water
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-carvanha-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-carvanha-BookSprite.png|wsmall]]
+> ![[SRD-carvanha-HomeSprite.png]]
+> ![[SRD-carvanha-BoxSprite.png|htiny]]
+> ![[SRD-carvanha-ShuffleToken.png|wsmall]]
+
 
 *Savage Pokemon*
 *Anything near a Carvanha school will be swarmed, attacked and tore to bits. However, they are very timid when they are on their own. They live in rivers in the jungle and dislike salt water.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-carvanha-HomeSprite.png|right]]
-![[SRD-carvanha-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

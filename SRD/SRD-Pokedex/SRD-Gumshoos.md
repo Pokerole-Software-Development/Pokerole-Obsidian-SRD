@@ -23,6 +23,7 @@ Name: Gumshoos
 Number: 735
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gumshoos-ShuffleToken.png
 Sprite: gumshoos.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gumshoos-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gumshoos-BookSprite.png|wsmall]]
+> ![[SRD-gumshoos-HomeSprite.png]]
+> ![[SRD-gumshoos-BoxSprite.png|htiny]]
+> ![[SRD-gumshoos-ShuffleToken.png|wsmall]]
+
 
 *Stakeout Pokemon*
 *Alolan Ratatta became nocturnal to evade this Pokemon, as it is their main Predator. Gumshoos now go hungry for days before they find something suitable to eat, they compensate by sleeping a lot.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-gumshoos-HomeSprite.png|right]]
-![[SRD-gumshoos-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

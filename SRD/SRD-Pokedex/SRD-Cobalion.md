@@ -23,6 +23,7 @@ Name: Cobalion
 Number: 638
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-cobalion-ShuffleToken.png
 Sprite: cobalion.png
 Type1: Steel
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cobalion-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cobalion-BookSprite.png|wsmall]]
+> ![[SRD-cobalion-HomeSprite.png]]
+> ![[SRD-cobalion-BoxSprite.png|htiny]]
+> ![[SRD-cobalion-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *There is a story in Unova about four Pokemon that brought justice to the wrongdoers. Their Leader was calm and composed but unforgiving. Its cold stare forced you to obey its law.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-cobalion-HomeSprite.png|right]]
-![[SRD-cobalion-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

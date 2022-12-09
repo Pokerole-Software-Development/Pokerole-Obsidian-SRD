@@ -23,6 +23,7 @@ Name: Goomy
 Number: 704
 PrimaryEggGroup: Dragon
 SecondaryEggGroup: ''
+ShuffleToken: SRD-goomy-ShuffleToken.png
 Sprite: goomy.png
 Type1: Dragon
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-goomy-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-goomy-BookSprite.png|wsmall]]
+> ![[SRD-goomy-HomeSprite.png]]
+> ![[SRD-goomy-BoxSprite.png|htiny]]
+> ![[SRD-goomy-ShuffleToken.png|wsmall]]
+
 
 *Soft Tissue Pokemon*
 *The weakest but best tempered Dragon Pokemon known. It lives in damp and shady places, so its body doesn’t dry out. It’s covered in a slimy membrane that makes things slide off of it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-goomy-HomeSprite.png|right]]
-![[SRD-goomy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

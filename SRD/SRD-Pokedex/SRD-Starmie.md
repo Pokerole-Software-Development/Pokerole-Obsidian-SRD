@@ -23,6 +23,7 @@ Name: Starmie
 Number: 121
 PrimaryEggGroup: Water 3
 SecondaryEggGroup: ''
+ShuffleToken: SRD-starmie-ShuffleToken.png
 Sprite: starmie.png
 Type1: Water
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-starmie-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-starmie-BookSprite.png|wsmall]]
+> ![[SRD-starmie-HomeSprite.png]]
+> ![[SRD-starmie-BoxSprite.png|htiny]]
+> ![[SRD-starmie-ShuffleToken.png|wsmall]]
+
 
 *Mysterious Pokemon*
 *This Pokemon has been given the nickname “the gem of the sea.” It swims through water by spinning its star-shaped body as if it were a propeller on a ship. The core at the center glows with different colors.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-starmie-HomeSprite.png|right]]
-![[SRD-starmie-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

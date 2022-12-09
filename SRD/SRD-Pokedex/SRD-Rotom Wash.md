@@ -23,6 +23,7 @@ Name: Rotom Wash
 Number: 479
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rotom-wash-ShuffleToken.png
 Sprite: rotom-wash.png
 Type1: Electric
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rotom-wash-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rotom-wash-BookSprite.png|wsmall]]
+> ![[SRD-rotom-wash-HomeSprite.png]]
+> ![[SRD-rotom-wash-BoxSprite.png|htiny]]
+> ![[SRD-rotom-wash-ShuffleToken.png|wsmall]]
+
 
 *Plasma Pokemon*
 *A Washing machine possessed by a Rotom. It uses Water powers and floods the houses with torrents of water. While on this form it can use the move: Hydro Pump.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-rotom-wash-HomeSprite.png|right]]
-![[SRD-rotom-wash-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

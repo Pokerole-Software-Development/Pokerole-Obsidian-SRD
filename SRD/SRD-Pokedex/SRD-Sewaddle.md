@@ -23,6 +23,7 @@ Name: Sewaddle
 Number: 540
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sewaddle-ShuffleToken.png
 Sprite: sewaddle.png
 Type1: Bug
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sewaddle-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sewaddle-BookSprite.png|wsmall]]
+> ![[SRD-sewaddle-HomeSprite.png]]
+> ![[SRD-sewaddle-BoxSprite.png|htiny]]
+> ![[SRD-sewaddle-ShuffleToken.png|wsmall]]
+
 
 *Sewing Pokemon*
 *It is a sweet Pokemon that loves its family. It hides its head in the leaf hood while it is sleeping. The silk they produce it’s highly valued to make expensive clothing, this makes it a popular pet for fashion designers.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-sewaddle-HomeSprite.png|right]]
-![[SRD-sewaddle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

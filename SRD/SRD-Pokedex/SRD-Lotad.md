@@ -23,6 +23,7 @@ Name: Lotad
 Number: 270
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-lotad-ShuffleToken.png
 Sprite: lotad.png
 Type1: Water
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lotad-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lotad-BookSprite.png|wsmall]]
+> ![[SRD-lotad-HomeSprite.png]]
+> ![[SRD-lotad-BoxSprite.png|htiny]]
+> ![[SRD-lotad-ShuffleToken.png|wsmall]]
+
 
 *Water Weed Pokemon*
 *They live in ponds and lakes, floating atop the water. The big leaf on their head is known to act as a ferry for smaller Pokemon. The leaf is delicate and needs constant watering or else Lotad will grow sick.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-lotad-HomeSprite.png|right]]
-![[SRD-lotad-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

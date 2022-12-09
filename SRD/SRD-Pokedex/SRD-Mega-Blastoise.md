@@ -23,6 +23,7 @@ Name: Mega-Blastoise
 Number: 9
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-blastoise-mega-ShuffleToken.png
 Sprite: blastoise-mega.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-blastoise-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-blastoise-mega-BookSprite.png|wsmall]]
+> ![[SRD-blastoise-mega-HomeSprite.png]]
+> ![[SRD-blastoise-mega-BoxSprite.png|htiny]]
+> ![[SRD-blastoise-mega-ShuffleToken.png|wsmall]]
+
 
 *Shellfish Pokemon*
 *With the power of the Mega Stone the canon on its back can shoot exploding water projectiles that can pierce through concrete. Its body is incredibly hard and its hind legs root themselves to prevent recoil.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-blastoise-mega-HomeSprite.png|right]]
-![[SRD-blastoise-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Golbat
 Number: 42
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-golbat-ShuffleToken.png
 Sprite: golbat.png
 Type1: Poison
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-golbat-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-golbat-BookSprite.png|wsmall]]
+> ![[SRD-golbat-HomeSprite.png]]
+> ![[SRD-golbat-BoxSprite.png|htiny]]
+> ![[SRD-golbat-ShuffleToken.png|wsmall]]
+
 
 *Bat Pokemon*
 *A stealthy Pokemon who loves the dark. Its fangs can puncture even a thick hide. It loves to feast on the blood of people and Pokemon alike. If it drinks too much, it gets heavy and can hardly fly.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-golbat-HomeSprite.png|right]]
-![[SRD-golbat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Amoonguss
 Number: 591
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-amoonguss-ShuffleToken.png
 Sprite: amoonguss.png
 Type1: Grass
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-amoonguss-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-amoonguss-BookSprite.png|wsmall]]
+> ![[SRD-amoonguss-HomeSprite.png]]
+> ![[SRD-amoonguss-BoxSprite.png|htiny]]
+> ![[SRD-amoonguss-ShuffleToken.png|wsmall]]
+
 
 *Mushroom Pokemon*
 *In ancient times the tip of their caps had two eye-like patterns and it made a swaying motion to lure prey to itself, but as they became Pokeball-looking few Pokemon fall for it. It is still very venomous, though.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-amoonguss-HomeSprite.png|right]]
-![[SRD-amoonguss-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

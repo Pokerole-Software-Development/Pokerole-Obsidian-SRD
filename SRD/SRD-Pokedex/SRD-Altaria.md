@@ -26,6 +26,7 @@ Name: Altaria
 Number: 334
 PrimaryEggGroup: Flying
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-altaria-ShuffleToken.png
 Sprite: altaria.png
 Type1: Dragon
 Type2: Flying
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-altaria-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-altaria-BookSprite.png|wsmall]]
+> ![[SRD-altaria-HomeSprite.png]]
+> ![[SRD-altaria-BoxSprite.png|htiny]]
+> ![[SRD-altaria-ShuffleToken.png|wsmall]]
+
 
 *Humming Pokemon*
 *Seen as dancing clouds in the sky, Altarias sing melodies in their sweet voices, evoking wonder, beauty and dreams to the listeners. They live far away from people and throw colorful fireballs at uninvited guests.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-altaria-HomeSprite.png|right]]
-![[SRD-altaria-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

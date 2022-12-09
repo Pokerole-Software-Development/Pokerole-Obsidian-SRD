@@ -23,6 +23,7 @@ Name: Wailord
 Number: 321
 PrimaryEggGroup: Field
 SecondaryEggGroup: Water 2
+ShuffleToken: SRD-wailord-ShuffleToken.png
 Sprite: wailord.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-wailord-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-wailord-BookSprite.png|wsmall]]
+> ![[SRD-wailord-HomeSprite.png]]
+> ![[SRD-wailord-BoxSprite.png|htiny]]
+> ![[SRD-wailord-ShuffleToken.png|wsmall]]
+
 
 *Float Whale Pokemon*
 *The largest Pokemon known to date. Wailords weight is really light so they can dive almost 10,000 feet with one breath. They live in open ocean herding fish to swallow in one gulp. They are used to being free.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-wailord-HomeSprite.png|right]]
-![[SRD-wailord-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

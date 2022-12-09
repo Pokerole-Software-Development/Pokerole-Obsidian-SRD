@@ -23,6 +23,7 @@ Name: Falinks
 Number: 870
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Mineral
+ShuffleToken: SRD-falinks-ShuffleToken.png
 Sprite: falinks.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-falinks-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-falinks-BookSprite.png|wsmall]]
+> ![[SRD-falinks-HomeSprite.png]]
+> ![[SRD-falinks-BoxSprite.png|htiny]]
+> ![[SRD-falinks-ShuffleToken.png|wsmall]]
+
 
 *Formation Pokemon*
 *It is formed by six of them, five are troopers, and one is the brass. The brass’s orders are absolute to the others, they work as a perfect team and can rearrange their formation to better suit them in battle.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-falinks-HomeSprite.png|right]]
-![[SRD-falinks-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

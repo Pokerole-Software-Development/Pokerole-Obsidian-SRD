@@ -23,6 +23,7 @@ Name: Gabite
 Number: 444
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-gabite-ShuffleToken.png
 Sprite: gabite.png
 Type1: Dragon
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gabite-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gabite-BookSprite.png|wsmall]]
+> ![[SRD-gabite-HomeSprite.png]]
+> ![[SRD-gabite-BoxSprite.png|htiny]]
+> ![[SRD-gabite-ShuffleToken.png|wsmall]]
+
 
 *Cave Pokemon*
 *It hoards a small treasure of sparkly things back in its cave. It will react aggressively towards any potential thief. It is also an excellent hunter, capable of running, swimming and gliding extremely fast.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-gabite-HomeSprite.png|right]]
-![[SRD-gabite-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

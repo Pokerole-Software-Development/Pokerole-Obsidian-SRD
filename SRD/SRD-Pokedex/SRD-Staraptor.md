@@ -23,6 +23,7 @@ Name: Staraptor
 Number: 398
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-staraptor-ShuffleToken.png
 Sprite: staraptor.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-staraptor-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-staraptor-BookSprite.png|wsmall]]
+> ![[SRD-staraptor-HomeSprite.png]]
+> ![[SRD-staraptor-BoxSprite.png|htiny]]
+> ![[SRD-staraptor-ShuffleToken.png|wsmall]]
+
 
 *Predator Pokemon*
 *Staraptor is a savage creature. They will never stop attacking even if they get injured,and will fight foes bigger than themselves. They are known to leave their flock to live on their own when they evolve.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-staraptor-HomeSprite.png|right]]
-![[SRD-staraptor-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

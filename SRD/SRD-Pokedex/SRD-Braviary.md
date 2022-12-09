@@ -23,6 +23,7 @@ Name: Braviary
 Number: 628
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-braviary-ShuffleToken.png
 Sprite: braviary.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-braviary-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-braviary-BookSprite.png|wsmall]]
+> ![[SRD-braviary-HomeSprite.png]]
+> ![[SRD-braviary-BoxSprite.png|htiny]]
+> ![[SRD-braviary-ShuffleToken.png|wsmall]]
+
 
 *Valiant Pokemon*
 *Brave, strong, loyal, and selfless; this Pokemon embodies the virtues of what a Pokemon companion should be. They are very rare and valued not only for their bravery but for their beautiful feathers.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-braviary-HomeSprite.png|right]]
-![[SRD-braviary-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

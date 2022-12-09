@@ -23,6 +23,7 @@ Name: Scyther
 Number: 123
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-scyther-ShuffleToken.png
 Sprite: scyther.png
 Type1: Bug
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-scyther-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-scyther-BookSprite.png|wsmall]]
+> ![[SRD-scyther-HomeSprite.png]]
+> ![[SRD-scyther-BoxSprite.png|htiny]]
+> ![[SRD-scyther-ShuffleToken.png|wsmall]]
+
 
 *Mantis Pokemon*
 *It’s pretty rare but a few swarms have been seen in the grasslands. It tears and shreds prey with its wickedly sharp scythes and very rarely spreads its wings to fly. This pokemon is stealthy and aggressive.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-scyther-HomeSprite.png|right]]
-![[SRD-scyther-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

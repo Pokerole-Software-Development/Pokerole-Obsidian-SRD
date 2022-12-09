@@ -23,6 +23,7 @@ Name: Lanturn
 Number: 171
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-lanturn-ShuffleToken.png
 Sprite: lanturn.png
 Type1: Water
 Type2: Electric
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lanturn-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lanturn-BookSprite.png|wsmall]]
+> ![[SRD-lanturn-HomeSprite.png]]
+> ![[SRD-lanturn-BoxSprite.png|htiny]]
+> ![[SRD-lanturn-ShuffleToken.png|wsmall]]
+
 
 *Light Pokemon*
 *It is known for its soft light glow. They are not aggressive Pokemon. If you look into the dark sea at night you can sometimes see this Pokemon’s light rising from the depths, making the sea look like a starry night.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-lanturn-HomeSprite.png|right]]
-![[SRD-lanturn-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

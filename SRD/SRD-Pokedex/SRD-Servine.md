@@ -23,6 +23,7 @@ Name: Servine
 Number: 496
 PrimaryEggGroup: Field
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-servine-ShuffleToken.png
 Sprite: servine.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-servine-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-servine-BookSprite.png|wsmall]]
+> ![[SRD-servine-HomeSprite.png]]
+> ![[SRD-servine-BoxSprite.png|htiny]]
+> ![[SRD-servine-ShuffleToken.png|wsmall]]
+
 
 *Grass Snake Pokemon*
 *It moves along the ground by sliding. Its swift movements befuddle its foes, then attacks with a vine whip. It always keeps itself clean and it demands care from its trainer, otherwise it will misbehave.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-servine-HomeSprite.png|right]]
-![[SRD-servine-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

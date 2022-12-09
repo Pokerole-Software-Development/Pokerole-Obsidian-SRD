@@ -23,6 +23,7 @@ Name: Stakataka
 Number: 805
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-stakataka-ShuffleToken.png
 Sprite: stakataka.png
 Type1: Rock
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-stakataka-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-stakataka-BookSprite.png|wsmall]]
+> ![[SRD-stakataka-HomeSprite.png]]
+> ![[SRD-stakataka-BoxSprite.png|htiny]]
+> ![[SRD-stakataka-ShuffleToken.png|wsmall]]
+
 
 *Aether Foundation Log #132*
 *We are finally on the other side. It has been so exciting. What we thought were the ruins of an abandoned civilization turned out to be small sentient creatures that stacked on each other to create a big UB.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-stakataka-HomeSprite.png|right]]
-![[SRD-stakataka-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

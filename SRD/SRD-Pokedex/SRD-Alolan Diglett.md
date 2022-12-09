@@ -23,6 +23,7 @@ Name: Alolan Diglett
 Number: 50
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-diglett-alola-ShuffleToken.png
 Sprite: diglett-alola.png
 Type1: Ground
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-diglett-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-diglett-alola-BookSprite.png|wsmall]]
+> ![[SRD-diglett-alola-HomeSprite.png]]
+> ![[SRD-diglett-alola-BoxSprite.png|htiny]]
+> ![[SRD-diglett-alola-ShuffleToken.png|wsmall]]
+
 
 *Mole Pokemon*
 *This variant of Diglett is only found in the Alola region. The small hairs on its head are used perceive its surroundings while burrowed, do not cut them or Diglett will become very sick.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::4)     |
 
-![[SRD-diglett-alola-HomeSprite.png|right]]
-![[SRD-diglett-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

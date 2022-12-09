@@ -23,6 +23,7 @@ Name: Sirfetch'd
 Number: 865
 PrimaryEggGroup: Flying
 SecondaryEggGroup: Field
+ShuffleToken: SRD-sirfetchd-ShuffleToken.png
 Sprite: sirfetchd.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sirfetchd-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sirfetchd-BookSprite.png|wsmall]]
+> ![[SRD-sirfetchd-HomeSprite.png]]
+> ![[SRD-sirfetchd-BoxSprite.png|htiny]]
+> ![[SRD-sirfetchd-ShuffleToken.png|wsmall]]
+
 
 *Wild Duck Pokemon*
 *Only Farfetch’d that have survived many battles can go thought this evolution. They are very proud of their leek spear and leafen shield, When this Pokemon's leek withers, it will retire from combat.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-sirfetchd-HomeSprite.png|right]]
-![[SRD-sirfetchd-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

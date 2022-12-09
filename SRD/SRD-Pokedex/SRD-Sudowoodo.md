@@ -23,6 +23,7 @@ Name: Sudowoodo
 Number: 185
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sudowoodo-ShuffleToken.png
 Sprite: sudowoodo.png
 Type1: Rock
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sudowoodo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sudowoodo-BookSprite.png|wsmall]]
+> ![[SRD-sudowoodo-HomeSprite.png]]
+> ![[SRD-sudowoodo-BoxSprite.png|htiny]]
+> ![[SRD-sudowoodo-ShuffleToken.png|wsmall]]
+
 
 *Imitation Pokemon*
 *Sudowoodo camouflages itself as a tree to avoid being attacked by enemies. However, because its arms remain green throughout the year, this Pokemon is easy to identify in winter. It’s a little wary of humans.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-sudowoodo-HomeSprite.png|right]]
-![[SRD-sudowoodo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

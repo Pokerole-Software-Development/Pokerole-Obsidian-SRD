@@ -23,6 +23,7 @@ Name: Silvally
 Number: 773
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-silvally-ShuffleToken.png
 Sprite: silvally.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-silvally-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-silvally-BookSprite.png|wsmall]]
+> ![[SRD-silvally-HomeSprite.png]]
+> ![[SRD-silvally-BoxSprite.png|htiny]]
+> ![[SRD-silvally-ShuffleToken.png|wsmall]]
+
 
 *Synthetic Pokemon*
 *Pokedex has no data. It was seen in the company of a boy. It appears to be a perfected or evolved form of Type: Null. The boy gave it some strange disks that allowed it to change its type.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-silvally-HomeSprite.png|right]]
-![[SRD-silvally-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

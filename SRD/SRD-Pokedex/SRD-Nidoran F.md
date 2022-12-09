@@ -23,6 +23,7 @@ Name: Nidoran F
 Number: 29
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Field
+ShuffleToken: SRD-nidoran-f-ShuffleToken.png
 Sprite: nidoran-f.png
 Type1: Poison
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-nidoran-f-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-nidoran-f-BookSprite.png|wsmall]]
+> ![[SRD-nidoran-f-HomeSprite.png]]
+> ![[SRD-nidoran-f-BoxSprite.png|htiny]]
+> ![[SRD-nidoran-f-ShuffleToken.png|wsmall]]
+
 
 *Poison Pin Pokemon*
 *A female only species. It lives close to meadows and forests. They are mellow Pokemon. To protect herself, she secretes a powerful toxin through her body. Her horn is small but venomous to the touch.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-nidoran-f-HomeSprite.png|right]]
-![[SRD-nidoran-f-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

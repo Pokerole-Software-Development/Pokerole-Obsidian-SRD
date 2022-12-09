@@ -23,6 +23,7 @@ Name: Drednaw
 Number: 834
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-drednaw-ShuffleToken.png
 Sprite: drednaw.png
 Type1: Water
 Type2: Rock
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-drednaw-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-drednaw-BookSprite.png|wsmall]]
+> ![[SRD-drednaw-HomeSprite.png]]
+> ![[SRD-drednaw-BoxSprite.png|htiny]]
+> ![[SRD-drednaw-ShuffleToken.png|wsmall]]
+
 
 *Bite Pokemon*
 *It stays immobile near rivers and lakes, disguised as a rock until it snaps at an unsuspecting prey. Once something is trapped by its sharp teeth there is no way to take it out as it is incredibly stubborn.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-drednaw-HomeSprite.png|right]]
-![[SRD-drednaw-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

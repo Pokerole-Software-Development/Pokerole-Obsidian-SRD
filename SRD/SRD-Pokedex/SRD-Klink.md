@@ -23,6 +23,7 @@ Name: Klink
 Number: 599
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-klink-ShuffleToken.png
 Sprite: klink.png
 Type1: Steel
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-klink-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-klink-BookSprite.png|wsmall]]
+> ![[SRD-klink-HomeSprite.png]]
+> ![[SRD-klink-BoxSprite.png|htiny]]
+> ![[SRD-klink-ShuffleToken.png|wsmall]]
+
 
 *Gear Pokemon*
 *This two strange Pokemon are merged into one. Interlocking their bodies and spinning around will generate the energy they need to live. Their only way to communicate is through their eyes.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-klink-HomeSprite.png|right]]
-![[SRD-klink-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

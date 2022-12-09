@@ -23,6 +23,7 @@ Name: Goodra
 Number: 706
 PrimaryEggGroup: Dragon
 SecondaryEggGroup: ''
+ShuffleToken: SRD-goodra-ShuffleToken.png
 Sprite: goodra.png
 Type1: Dragon
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-goodra-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-goodra-BookSprite.png|wsmall]]
+> ![[SRD-goodra-HomeSprite.png]]
+> ![[SRD-goodra-BoxSprite.png|htiny]]
+> ![[SRD-goodra-ShuffleToken.png|wsmall]]
+
 
 *Dragon Pokemon*
 *Definitely the friendliest of all Dragons. This Pokemon will hug its beloved Trainer, leaving them covered in sticky slime. In areas with heavy rainfall during the year, one or two may make an appearance.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-goodra-HomeSprite.png|right]]
-![[SRD-goodra-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

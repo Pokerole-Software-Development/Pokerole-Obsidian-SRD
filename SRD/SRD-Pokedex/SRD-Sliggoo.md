@@ -23,6 +23,7 @@ Name: Sliggoo
 Number: 705
 PrimaryEggGroup: Dragon
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sliggoo-ShuffleToken.png
 Sprite: sliggoo.png
 Type1: Dragon
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sliggoo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sliggoo-BookSprite.png|wsmall]]
+> ![[SRD-sliggoo-HomeSprite.png]]
+> ![[SRD-sliggoo-BoxSprite.png|htiny]]
+> ![[SRD-sliggoo-ShuffleToken.png|wsmall]]
+
 
 *Soft Tissue Pokemon*
 *It drives away foes by releasing a sticky and corrosive liquid. Its eyes devolved and it became blind, now it uses its four horns to sense sounds and smells, rather than using its ears or nose.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-sliggoo-HomeSprite.png|right]]
-![[SRD-sliggoo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

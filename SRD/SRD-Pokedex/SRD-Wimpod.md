@@ -23,6 +23,7 @@ Name: Wimpod
 Number: 767
 PrimaryEggGroup: Bug
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-wimpod-ShuffleToken.png
 Sprite: wimpod.png
 Type1: Bug
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-wimpod-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-wimpod-BookSprite.png|wsmall]]
+> ![[SRD-wimpod-HomeSprite.png]]
+> ![[SRD-wimpod-BoxSprite.png|htiny]]
+> ![[SRD-wimpod-ShuffleToken.png|wsmall]]
+
 
 *Turn Tail Pokemon*
 *They are curious but incredibly cowardly Pokemon. They are easily startled and will shoot a stenchy liquid as a warning. Even so, they are highly valued due to their ability to eat and clean any garbage.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-wimpod-HomeSprite.png|right]]
-![[SRD-wimpod-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

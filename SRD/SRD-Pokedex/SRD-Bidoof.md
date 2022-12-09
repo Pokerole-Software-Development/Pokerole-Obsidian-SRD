@@ -23,6 +23,7 @@ Name: Bidoof
 Number: 399
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-bidoof-ShuffleToken.png
 Sprite: bidoof.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bidoof-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bidoof-BookSprite.png|wsmall]]
+> ![[SRD-bidoof-HomeSprite.png]]
+> ![[SRD-bidoof-BoxSprite.png|htiny]]
+> ![[SRD-bidoof-ShuffleToken.png|wsmall]]
+
 
 *Plump Mouse Pokemon*
 *Steady as a mountain, Bidoof has nerves of steel so nothing can disturb its focus. It is agile, active and a great team worker. They live in huge packs alongside rivers; the dams they build are incredibly sturdy.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-bidoof-HomeSprite.png|right]]
-![[SRD-bidoof-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

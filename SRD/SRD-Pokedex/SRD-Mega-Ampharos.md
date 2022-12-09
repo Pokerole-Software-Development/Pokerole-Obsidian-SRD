@@ -23,6 +23,7 @@ Name: Mega-Ampharos
 Number: 181
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Field
+ShuffleToken: SRD-ampharos-mega-ShuffleToken.png
 Sprite: ampharos-mega.png
 Type1: Electric
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ampharos-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ampharos-mega-BookSprite.png|wsmall]]
+> ![[SRD-ampharos-mega-HomeSprite.png]]
+> ![[SRD-ampharos-mega-BoxSprite.png|htiny]]
+> ![[SRD-ampharos-mega-ShuffleToken.png|wsmall]]
+
 
 *Light Pokemon*
 *With the power of the Mega Stone the dormant dragon genes it has are awakened. Its wool grows back as a silky mane that flows and floats with the electricity its body is discharging.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-ampharos-mega-HomeSprite.png|right]]
-![[SRD-ampharos-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

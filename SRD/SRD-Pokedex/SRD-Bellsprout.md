@@ -23,6 +23,7 @@ Name: Bellsprout
 Number: 69
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-bellsprout-ShuffleToken.png
 Sprite: bellsprout.png
 Type1: Grass
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bellsprout-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bellsprout-BookSprite.png|wsmall]]
+> ![[SRD-bellsprout-HomeSprite.png]]
+> ![[SRD-bellsprout-BoxSprite.png|htiny]]
+> ![[SRD-bellsprout-ShuffleToken.png|wsmall]]
+
 
 *Flower Pokemon*
 *They live in hot and humid places, blending around with the flora. It is carnivorous and will try to eat anything smaller than itself. It digests its prey with an acid substance on its mouth.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-bellsprout-HomeSprite.png|right]]
-![[SRD-bellsprout-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

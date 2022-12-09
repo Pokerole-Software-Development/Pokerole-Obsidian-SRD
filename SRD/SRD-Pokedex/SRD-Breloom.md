@@ -23,6 +23,7 @@ Name: Breloom
 Number: 286
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-breloom-ShuffleToken.png
 Sprite: breloom.png
 Type1: Grass
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-breloom-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-breloom-BookSprite.png|wsmall]]
+> ![[SRD-breloom-HomeSprite.png]]
+> ![[SRD-breloom-BoxSprite.png|htiny]]
+> ![[SRD-breloom-ShuffleToken.png|wsmall]]
+
 
 *Mushroom Pokemon*
 *Their flexible arms and quick footwork can put good fighters to shame. The seeds on their tail and the cap on their head release poison spores. They love humid and hot climates.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-breloom-HomeSprite.png|right]]
-![[SRD-breloom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

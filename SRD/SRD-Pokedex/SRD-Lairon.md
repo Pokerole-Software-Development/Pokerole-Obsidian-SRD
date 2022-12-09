@@ -23,6 +23,7 @@ Name: Lairon
 Number: 305
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-lairon-ShuffleToken.png
 Sprite: lairon.png
 Type1: Steel
 Type2: Rock
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lairon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lairon-BookSprite.png|wsmall]]
+> ![[SRD-lairon-HomeSprite.png]]
+> ![[SRD-lairon-BoxSprite.png|htiny]]
+> ![[SRD-lairon-ShuffleToken.png|wsmall]]
+
 
 *Iron Armor Pokemon*
 *Their armors gets stronger by eating iron ores and drinking mineral spring water, usually nesting close to ponds. Lairons often attack human miners. They are territorial creatures, incredibly stubborn and resilient.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-lairon-HomeSprite.png|right]]
-![[SRD-lairon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

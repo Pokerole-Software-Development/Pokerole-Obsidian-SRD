@@ -23,6 +23,7 @@ Name: Chikorita
 Number: 152
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-chikorita-ShuffleToken.png
 Sprite: chikorita.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-chikorita-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-chikorita-BookSprite.png|wsmall]]
+> ![[SRD-chikorita-HomeSprite.png]]
+> ![[SRD-chikorita-BoxSprite.png|htiny]]
+> ![[SRD-chikorita-ShuffleToken.png|wsmall]]
+
 
 *Leaf Pokemon*
 *It is docile and loves to bathe in the sunlight. It waves its leaf around to keep foes at bay. The sweet fragrance from its leaf, has a strong calming and relaxing effect on people and Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-chikorita-HomeSprite.png|right]]
-![[SRD-chikorita-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

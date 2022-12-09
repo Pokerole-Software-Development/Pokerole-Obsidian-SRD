@@ -23,6 +23,7 @@ Name: Buneary
 Number: 427
 PrimaryEggGroup: Field
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-buneary-ShuffleToken.png
 Sprite: buneary.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-buneary-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-buneary-BookSprite.png|wsmall]]
+> ![[SRD-buneary-HomeSprite.png]]
+> ![[SRD-buneary-BoxSprite.png|htiny]]
+> ![[SRD-buneary-ShuffleToken.png|wsmall]]
+
 
 *Rabbit Pokemon*
 *Lives in forest, grasslands and even snowy mountains. It forms burrows and uses its soft fur to make nests and keep warm. You can see how it feels for the position of its ears. They are easily scared by humans.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-buneary-HomeSprite.png|right]]
-![[SRD-buneary-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

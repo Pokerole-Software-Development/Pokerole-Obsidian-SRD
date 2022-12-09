@@ -23,6 +23,7 @@ Name: Snivy
 Number: 495
 PrimaryEggGroup: Field
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-snivy-ShuffleToken.png
 Sprite: snivy.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-snivy-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-snivy-BookSprite.png|wsmall]]
+> ![[SRD-snivy-HomeSprite.png]]
+> ![[SRD-snivy-BoxSprite.png|htiny]]
+> ![[SRD-snivy-ShuffleToken.png|wsmall]]
+
 
 *Grass Snake Pokemon*
 *It is very intelligent and independent, although it seems calm it doesn’t like being bossed around. Being exposed to lots of sunlight makes its movements swifter. The tail drops if it is not feeling well.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-snivy-HomeSprite.png|right]]
-![[SRD-snivy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

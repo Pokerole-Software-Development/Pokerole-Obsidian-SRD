@@ -26,6 +26,7 @@ Name: Houndoom
 Number: 229
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-houndoom-ShuffleToken.png
 Sprite: houndoom.png
 Type1: Dark
 Type2: Fire
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-houndoom-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-houndoom-BookSprite.png|wsmall]]
+> ![[SRD-houndoom-HomeSprite.png]]
+> ![[SRD-houndoom-BoxSprite.png|htiny]]
+> ![[SRD-houndoom-ShuffleToken.png|wsmall]]
+
 
 *Dark Pokemon*
 *It is said the pain from its flames never goes away. Long ago, their howl was thought to be the call of the grim reaper. Pokemon and people who hear it, will always shiver in fear. They are pack leaders, not followers*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-houndoom-HomeSprite.png|right]]
-![[SRD-houndoom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

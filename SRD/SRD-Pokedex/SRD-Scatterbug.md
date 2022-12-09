@@ -23,6 +23,7 @@ Name: Scatterbug
 Number: 664
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-scatterbug-ShuffleToken.png
 Sprite: scatterbug.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-scatterbug-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-scatterbug-BookSprite.png|wsmall]]
+> ![[SRD-scatterbug-HomeSprite.png]]
+> ![[SRD-scatterbug-BoxSprite.png|htiny]]
+> ![[SRD-scatterbug-ShuffleToken.png|wsmall]]
+
 
 *Scatterdust Pokemon*
 *The powder that covers its body regulates its temperature so it is able to live in any region or climate. Whenever it is under attack it spews a black powder that causes paralysis on contact.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-scatterbug-HomeSprite.png|right]]
-![[SRD-scatterbug-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

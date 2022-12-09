@@ -23,6 +23,7 @@ Name: Huntail
 Number: 367
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-huntail-ShuffleToken.png
 Sprite: huntail.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-huntail-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-huntail-BookSprite.png|wsmall]]
+> ![[SRD-huntail-HomeSprite.png]]
+> ![[SRD-huntail-BoxSprite.png|htiny]]
+> ![[SRD-huntail-ShuffleToken.png|wsmall]]
+
 
 *Deep Sea Pokemon*
 *It lives at extreme depths of the sea. Their eyes can see perfectly in complete darkness. Huntails light up their tail to attract their prey, then swallow them whole with a single bite.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-huntail-HomeSprite.png|right]]
-![[SRD-huntail-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

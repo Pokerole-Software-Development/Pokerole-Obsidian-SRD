@@ -23,6 +23,7 @@ Name: Weedle
 Number: 13
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-weedle-ShuffleToken.png
 Sprite: weedle.png
 Type1: Bug
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-weedle-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-weedle-BookSprite.png|wsmall]]
+> ![[SRD-weedle-HomeSprite.png]]
+> ![[SRD-weedle-BoxSprite.png|htiny]]
+> ![[SRD-weedle-ShuffleToken.png|wsmall]]
+
 
 *Hairy Pokemon*
 *Often found in forests eating leaves. It has a sharp, venomous stinger on its head for defense. It has an acute sense of smell to find food, and its bright-colored body is intended to warn off predators.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-weedle-HomeSprite.png|right]]
-![[SRD-weedle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

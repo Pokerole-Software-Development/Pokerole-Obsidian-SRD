@@ -23,6 +23,7 @@ Name: Snover
 Number: 459
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-snover-ShuffleToken.png
 Sprite: snover.png
 Type1: Grass
 Type2: Ice
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-snover-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-snover-BookSprite.png|wsmall]]
+> ![[SRD-snover-HomeSprite.png]]
+> ![[SRD-snover-BoxSprite.png|htiny]]
+> ![[SRD-snover-ShuffleToken.png|wsmall]]
+
 
 *Frosted Tree Pokemon*
 *During cold seasons, it migrates to the mountain’s lower reaches and returns to the summit in the spring. They are rarely in contact with humans but are sought for the frozen berries they grow.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-snover-HomeSprite.png|right]]
-![[SRD-snover-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Pineco
 Number: 204
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pineco-ShuffleToken.png
 Sprite: pineco.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pineco-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pineco-BookSprite.png|wsmall]]
+> ![[SRD-pineco-HomeSprite.png]]
+> ![[SRD-pineco-BoxSprite.png|htiny]]
+> ![[SRD-pineco-ShuffleToken.png|wsmall]]
+
 
 *Bagworm Pokemon*
 *Pineco looks just like a regular pine cone. It adds layers of tree bark as a shield from harm. It waits for bugs to eat while hanging from branches. If anyone shakes its tree, it falls down and explodes. Be very careful.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-pineco-HomeSprite.png|right]]
-![[SRD-pineco-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

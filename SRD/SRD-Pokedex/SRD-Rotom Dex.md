@@ -23,6 +23,7 @@ Name: Rotom Dex
 Number: 479
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rotom-ShuffleToken.png
 Sprite: rotom.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rotom-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rotom-BookSprite.png|wsmall]]
+> ![[SRD-rotom-HomeSprite.png]]
+> ![[SRD-rotom-BoxSprite.png|htiny]]
+> ![[SRD-rotom-ShuffleToken.png|wsmall]]
+
 
 *Plasma Pokemon*
 *A Pokedex possessed by a Rotom, it has access to all the information inside the computer and uses the sounds to emulate speech. While on this form it can use the move: Light Screen.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-rotom-HomeSprite.png|right]]
-![[SRD-rotom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

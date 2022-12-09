@@ -23,6 +23,7 @@ Name: Garbodor
 Number: 569
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-garbodor-ShuffleToken.png
 Sprite: garbodor.png
 Type1: Poison
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-garbodor-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-garbodor-BookSprite.png|wsmall]]
+> ![[SRD-garbodor-HomeSprite.png]]
+> ![[SRD-garbodor-BoxSprite.png|htiny]]
+> ![[SRD-garbodor-ShuffleToken.png|wsmall]]
+
 
 *Trash Heap Pokemon*
 *They absorb garbage to make it part of their bodies and use it to produce toxic substances from their finger tips. They like to remain undisturbed and produce a terrible smell to repel others.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-garbodor-HomeSprite.png|right]]
-![[SRD-garbodor-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

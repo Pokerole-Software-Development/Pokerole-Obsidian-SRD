@@ -22,6 +22,7 @@ Name: Phione
 Number: 489
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-phione-ShuffleToken.png
 Sprite: phione.png
 Type1: Water
 Type2: ''
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-phione-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-phione-BookSprite.png|wsmall]]
+> ![[SRD-phione-HomeSprite.png]]
+> ![[SRD-phione-BoxSprite.png|htiny]]
+> ![[SRD-phione-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *There have been sightings of small groups of similar Pokemon but its existence has never been confirmed. It is said to be the offspring of Manaphy.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-phione-HomeSprite.png|right]]
-![[SRD-phione-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

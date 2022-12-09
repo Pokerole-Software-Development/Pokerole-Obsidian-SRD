@@ -23,6 +23,7 @@ Name: Mega-Charizard Y
 Number: 6
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-charizard-mega-y-ShuffleToken.png
 Sprite: charizard-mega-y.png
 Type1: Fire
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-charizard-mega-y-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-charizard-mega-y-BookSprite.png|wsmall]]
+> ![[SRD-charizard-mega-y-HomeSprite.png]]
+> ![[SRD-charizard-mega-y-BoxSprite.png|htiny]]
+> ![[SRD-charizard-mega-y-ShuffleToken.png|wsmall]]
+
 
 *Flame Pokemon*
 *With the power of the Mega Stone It becomes bold and confident. Its flying skills get better and t boasts speed and maneuverability. When it flies you cannot see it directly as its flames burn as bright as the sun.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-charizard-mega-y-HomeSprite.png|right]]
-![[SRD-charizard-mega-y-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

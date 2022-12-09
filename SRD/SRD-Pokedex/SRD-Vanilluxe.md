@@ -23,6 +23,7 @@ Name: Vanilluxe
 Number: 584
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-vanilluxe-ShuffleToken.png
 Sprite: vanilluxe.png
 Type1: Ice
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-vanilluxe-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-vanilluxe-BookSprite.png|wsmall]]
+> ![[SRD-vanilluxe-HomeSprite.png]]
+> ![[SRD-vanilluxe-BoxSprite.png|htiny]]
+> ![[SRD-vanilluxe-ShuffleToken.png|wsmall]]
+
 
 *Snowstorm Pokemon*
 *It grew a new head with evolution, and they get along really well. They need to drink a lot of water in order to keep cool outside a gelid weather. If both heads get angry they will expel a terrible blizzard around.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-vanilluxe-HomeSprite.png|right]]
-![[SRD-vanilluxe-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

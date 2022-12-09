@@ -23,6 +23,7 @@ Name: Chespin
 Number: 650
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-chespin-ShuffleToken.png
 Sprite: chespin.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-chespin-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-chespin-BookSprite.png|wsmall]]
+> ![[SRD-chespin-HomeSprite.png]]
+> ![[SRD-chespin-BoxSprite.png|htiny]]
+> ![[SRD-chespin-ShuffleToken.png|wsmall]]
+
 
 *Spiky Nut Pokemon*
 *A small and curious Pokemon. They are rare to find but their nests have been found on chestnut trees. Their heads are covered by spikes and if there’s a threat they roll into balls to protect themselves.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-chespin-HomeSprite.png|right]]
-![[SRD-chespin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

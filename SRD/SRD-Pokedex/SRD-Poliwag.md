@@ -23,6 +23,7 @@ Name: Poliwag
 Number: 60
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-poliwag-ShuffleToken.png
 Sprite: poliwag.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-poliwag-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-poliwag-BookSprite.png|wsmall]]
+> ![[SRD-poliwag-HomeSprite.png]]
+> ![[SRD-poliwag-BoxSprite.png|htiny]]
+> ![[SRD-poliwag-ShuffleToken.png|wsmall]]
+
 
 *Tadpole Pokemon*
 *They are most common near ponds and lakes during the summer. Its legs take some weeks to develop after it hatches, making it inept at walking. It is, however, a very fast swimmer.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-poliwag-HomeSprite.png|right]]
-![[SRD-poliwag-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -26,6 +26,7 @@ Name: Rayquaza
 Number: 384
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rayquaza-ShuffleToken.png
 Sprite: rayquaza.png
 Type1: Dragon
 Type2: Flying
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rayquaza-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rayquaza-BookSprite.png|wsmall]]
+> ![[SRD-rayquaza-HomeSprite.png]]
+> ![[SRD-rayquaza-BoxSprite.png|htiny]]
+> ![[SRD-rayquaza-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *The legend tells how Rayquaza lived in the outer layer of this world. It came to end the quarrel between Groudon and Kyogre, granted the world with blue skies and then left.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-rayquaza-HomeSprite.png|right]]
-![[SRD-rayquaza-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

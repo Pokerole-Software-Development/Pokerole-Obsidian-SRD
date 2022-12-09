@@ -21,6 +21,7 @@ Name: Galarian Slowpoke (provisional)
 Number: 79
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-slowpoke-galar-ShuffleToken.png
 Sprite: slowpoke-galar.png
 Type1: Psychic
 Type2: ''
@@ -34,7 +35,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-slowpoke-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-slowpoke-galar-BookSprite.png|wsmall]]
+> ![[SRD-slowpoke-galar-HomeSprite.png]]
+> ![[SRD-slowpoke-galar-BoxSprite.png|htiny]]
+> ![[SRD-slowpoke-galar-ShuffleToken.png|wsmall]]
+
 
 **
 **
@@ -53,8 +59,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-slowpoke-galar-HomeSprite.png|right]]
-![[SRD-slowpoke-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

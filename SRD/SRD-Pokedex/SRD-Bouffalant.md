@@ -23,6 +23,7 @@ Name: Bouffalant
 Number: 626
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-bouffalant-ShuffleToken.png
 Sprite: bouffalant.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bouffalant-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bouffalant-BookSprite.png|wsmall]]
+> ![[SRD-bouffalant-HomeSprite.png]]
+> ![[SRD-bouffalant-BoxSprite.png|htiny]]
+> ![[SRD-bouffalant-ShuffleToken.png|wsmall]]
+
 
 *Bash Buffalo Pokemon*
 *They form herds on the coldest plains. They bash and headbutt to attack their foes. The fluffy fur on their heads absorbs damage to their skulls. Years ago, a Bouffalant derailed a train with a bash.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-bouffalant-HomeSprite.png|right]]
-![[SRD-bouffalant-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

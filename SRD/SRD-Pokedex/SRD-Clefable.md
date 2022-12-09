@@ -23,6 +23,7 @@ Name: Clefable
 Number: 36
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-clefable-ShuffleToken.png
 Sprite: clefable.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-clefable-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-clefable-BookSprite.png|wsmall]]
+> ![[SRD-clefable-HomeSprite.png]]
+> ![[SRD-clefable-BoxSprite.png|htiny]]
+> ![[SRD-clefable-ShuffleToken.png|wsmall]]
+
 
 *Fairy Pokemon*
 *There are not many records about it in the wild. They are timid but playful. Clefable uses its wings to skip lightly as if it was flying. Its bouncy step lets it walk on water. On quiet, moonlit nights, it strolls near lakes.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-clefable-HomeSprite.png|right]]
-![[SRD-clefable-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

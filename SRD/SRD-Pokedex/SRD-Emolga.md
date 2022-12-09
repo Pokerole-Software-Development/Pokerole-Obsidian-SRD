@@ -23,6 +23,7 @@ Name: Emolga
 Number: 587
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-emolga-ShuffleToken.png
 Sprite: emolga.png
 Type1: Electric
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-emolga-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-emolga-BookSprite.png|wsmall]]
+> ![[SRD-emolga-HomeSprite.png]]
+> ![[SRD-emolga-BoxSprite.png|htiny]]
+> ![[SRD-emolga-ShuffleToken.png|wsmall]]
+
 
 *Sky Squirrel Pokemon*
 *They live on treetops and glide using the inside of a cape-like membrane. They discharge electricity to defend from other Pokemon. They carry nuts and berries back to their nest to eat during the winter.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-emolga-HomeSprite.png|right]]
-![[SRD-emolga-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

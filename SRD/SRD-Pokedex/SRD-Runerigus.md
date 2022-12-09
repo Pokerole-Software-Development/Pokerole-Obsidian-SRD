@@ -23,6 +23,7 @@ Name: Runerigus
 Number: 867
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-runerigus-ShuffleToken.png
 Sprite: runerigus.png
 Type1: Ground
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-runerigus-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-runerigus-BookSprite.png|wsmall]]
+> ![[SRD-runerigus-HomeSprite.png]]
+> ![[SRD-runerigus-BoxSprite.png|htiny]]
+> ![[SRD-runerigus-ShuffleToken.png|wsmall]]
+
 
 *Grudge Pokemon*
 *A powerful curse was woven into an ancient rune painting, the spirit of Yamask is absorbed by this curse and it evolves into a Runerigs. Do not touch the shadow parts of its body or you’ll see terrible visions of the past.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-runerigus-HomeSprite.png|right]]
-![[SRD-runerigus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Cresselia
 Number: 488
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-cresselia-ShuffleToken.png
 Sprite: cresselia.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cresselia-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cresselia-BookSprite.png|wsmall]]
+> ![[SRD-cresselia-HomeSprite.png]]
+> ![[SRD-cresselia-BoxSprite.png|htiny]]
+> ![[SRD-cresselia-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *The embodiment of dreams comes to life during the crescent moon nights. You will be blessed with peaceful bedtimes If you keep one of its feathers. Or so they say.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-cresselia-HomeSprite.png|right]]
-![[SRD-cresselia-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Metapod
 Number: 11
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-metapod-ShuffleToken.png
 Sprite: metapod.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-metapod-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-metapod-BookSprite.png|wsmall]]
+> ![[SRD-metapod-HomeSprite.png]]
+> ![[SRD-metapod-BoxSprite.png|htiny]]
+> ![[SRD-metapod-ShuffleToken.png|wsmall]]
+
 
 *Cocoon Pokemon*
 *Its shell can be as hard as an iron slab. A Metapod does not move very much because it is preparing its soft innards for evolution inside the shell. It is known as one of the fastest evolving Pokemon in the world.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-metapod-HomeSprite.png|right]]
-![[SRD-metapod-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

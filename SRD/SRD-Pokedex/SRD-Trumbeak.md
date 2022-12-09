@@ -23,6 +23,7 @@ Name: Trumbeak
 Number: 732
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-trumbeak-ShuffleToken.png
 Sprite: trumbeak.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-trumbeak-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-trumbeak-BookSprite.png|wsmall]]
+> ![[SRD-trumbeak-HomeSprite.png]]
+> ![[SRD-trumbeak-BoxSprite.png|htiny]]
+> ![[SRD-trumbeak-ShuffleToken.png|wsmall]]
+
 
 *Bugle Beak Pokemon*
 *This Pokemon bends its beak to produce a variety of sounds, much to the annoyance of the neighbors. It also shoots a burst of berry seeds to its foes, prey, or an unsuspecting passerby.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-trumbeak-HomeSprite.png|right]]
-![[SRD-trumbeak-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

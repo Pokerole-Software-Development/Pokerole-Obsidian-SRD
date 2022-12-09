@@ -23,6 +23,7 @@ Name: Sawk
 Number: 539
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sawk-ShuffleToken.png
 Sprite: sawk.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sawk-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sawk-BookSprite.png|wsmall]]
+> ![[SRD-sawk-HomeSprite.png]]
+> ![[SRD-sawk-BoxSprite.png|htiny]]
+> ![[SRD-sawk-ShuffleToken.png|wsmall]]
+
 
 *Karate Pokemon*
 *This Pokemon is entirely dedicated to becoming stronger. Many have secluded in the mountains to train all day. Wild ones make their clothes out of plants and vines they find. Sawk and Throh train together.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-sawk-HomeSprite.png|right]]
-![[SRD-sawk-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

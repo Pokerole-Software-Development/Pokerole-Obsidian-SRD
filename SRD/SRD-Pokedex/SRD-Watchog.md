@@ -23,6 +23,7 @@ Name: Watchog
 Number: 505
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-watchog-ShuffleToken.png
 Sprite: watchog.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-watchog-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-watchog-BookSprite.png|wsmall]]
+> ![[SRD-watchog-HomeSprite.png]]
+> ![[SRD-watchog-BoxSprite.png|htiny]]
+> ![[SRD-watchog-ShuffleToken.png|wsmall]]
+
 
 *Lookout Pokemon*
 *Their fur has a luminescent property. They make the patterns on their bodies glow in order to threaten predators. Their keen eyesight allows them to see in the dark. They are also good diggers.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-watchog-HomeSprite.png|right]]
-![[SRD-watchog-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Skuntank
 Number: 435
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-skuntank-ShuffleToken.png
 Sprite: skuntank.png
 Type1: Poison
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-skuntank-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-skuntank-BookSprite.png|wsmall]]
+> ![[SRD-skuntank-HomeSprite.png]]
+> ![[SRD-skuntank-BoxSprite.png|htiny]]
+> ![[SRD-skuntank-ShuffleToken.png|wsmall]]
+
 
 *Skunk Pokemon*
 *It sprays a reeking fluid from its tail. The fluid smells worse the longer it is allowed to fester. It is vulnerable to attacks that come from above due to its exuberant tail. When it’s relaxed it doesn’t smell bad.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-skuntank-HomeSprite.png|right]]
-![[SRD-skuntank-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

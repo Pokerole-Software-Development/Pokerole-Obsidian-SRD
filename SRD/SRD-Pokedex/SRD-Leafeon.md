@@ -23,6 +23,7 @@ Name: Leafeon
 Number: 470
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-leafeon-ShuffleToken.png
 Sprite: leafeon.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-leafeon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-leafeon-BookSprite.png|wsmall]]
+> ![[SRD-leafeon-HomeSprite.png]]
+> ![[SRD-leafeon-BoxSprite.png|htiny]]
+> ![[SRD-leafeon-ShuffleToken.png|wsmall]]
+
 
 *Verdant Pokemon*
 *Eevee evolves to Leafeon when it’s living near a special kind of moss. Its cells are capable of performing photosynthesis. It is a calm Pokemon and does not usually fight but its leaves are sharp and strong.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-leafeon-HomeSprite.png|right]]
-![[SRD-leafeon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

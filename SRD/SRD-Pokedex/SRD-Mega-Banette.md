@@ -23,6 +23,7 @@ Name: Mega-Banette
 Number: 354
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-banette-mega-ShuffleToken.png
 Sprite: banette-mega.png
 Type1: Ghost
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-banette-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-banette-mega-BookSprite.png|wsmall]]
+> ![[SRD-banette-mega-HomeSprite.png]]
+> ![[SRD-banette-mega-BoxSprite.png|htiny]]
+> ![[SRD-banette-mega-ShuffleToken.png|wsmall]]
+
 
 *Marionette Pokemon*
 *The power of the Mega Stone rips the layer keeping all the cursed energy in. Its vindictive nature is so overwhelming that it can’t help but to curse its own Trainer.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-banette-mega-HomeSprite.png|right]]
-![[SRD-banette-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Hitmonchan
 Number: 107
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-hitmonchan-ShuffleToken.png
 Sprite: hitmonchan.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-hitmonchan-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-hitmonchan-BookSprite.png|wsmall]]
+> ![[SRD-hitmonchan-HomeSprite.png]]
+> ![[SRD-hitmonchan-BoxSprite.png|htiny]]
+> ![[SRD-hitmonchan-ShuffleToken.png|wsmall]]
+
 
 *Punching Pokemon*
 *It specializes in punching as fast as it can. Using a corkscrew motion, it can even drill through concrete with it’s bare hands. This Pokemon takes its training very seriously. It’s very rare to see one in the wild.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-hitmonchan-HomeSprite.png|right]]
-![[SRD-hitmonchan-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

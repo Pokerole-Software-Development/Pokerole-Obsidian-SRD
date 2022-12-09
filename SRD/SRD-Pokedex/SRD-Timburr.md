@@ -23,6 +23,7 @@ Name: Timburr
 Number: 532
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-timburr-ShuffleToken.png
 Sprite: timburr.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-timburr-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-timburr-BookSprite.png|wsmall]]
+> ![[SRD-timburr-HomeSprite.png]]
+> ![[SRD-timburr-BoxSprite.png|htiny]]
+> ![[SRD-timburr-ShuffleToken.png|wsmall]]
+
 
 *Muscular Pokemon*
 *They carry a big log as a tool and as a weapon. You may see them helping with construction work as they strive to challenge their strength. When it can swing the log without problems it is close to evolve.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-timburr-HomeSprite.png|right]]
-![[SRD-timburr-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

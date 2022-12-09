@@ -23,6 +23,7 @@ Name: Ground Wormadam
 Number: 413
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-wormadamground-ShuffleToken.png
 Sprite: wormadamground.png
 Type1: Bug
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-wormadamground-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-wormadamground-BookSprite.png|wsmall]]
+> ![[SRD-wormadamground-HomeSprite.png]]
+> ![[SRD-wormadamground-BoxSprite.png|htiny]]
+> ![[SRD-wormadamground-ShuffleToken.png|wsmall]]
+
 
 *Bagworm Pokemon*
 *When Burmy evolved, its Sand cloak became a part of its body. For this reason there are many variations in body and type. It is a calm Pokemon that loves odd-shaped stones. This Pokemon is female only.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-wormadamground-HomeSprite.png|right]]
-![[SRD-wormadamground-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

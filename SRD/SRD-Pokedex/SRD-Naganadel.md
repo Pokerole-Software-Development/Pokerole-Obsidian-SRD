@@ -23,6 +23,7 @@ Name: Naganadel
 Number: 804
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-naganadel-ShuffleToken.png
 Sprite: naganadel.png
 Type1: Poison
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-naganadel-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-naganadel-BookSprite.png|wsmall]]
+> ![[SRD-naganadel-HomeSprite.png]]
+> ![[SRD-naganadel-BoxSprite.png|htiny]]
+> ![[SRD-naganadel-ShuffleToken.png|wsmall]]
+
 
 *Aether Foundation Log #164*
 *One specimen of UB- Adhesive has apparently evolved. Its friendly demeanor is gone. The large streams of corrosive poison it shot seriously damaged our equipment, I must take a sample to study it*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-naganadel-HomeSprite.png|right]]
-![[SRD-naganadel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

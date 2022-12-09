@@ -23,6 +23,7 @@ Name: Makuhita
 Number: 296
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-makuhita-ShuffleToken.png
 Sprite: makuhita.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-makuhita-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-makuhita-BookSprite.png|wsmall]]
+> ![[SRD-makuhita-HomeSprite.png]]
+> ![[SRD-makuhita-BoxSprite.png|htiny]]
+> ![[SRD-makuhita-ShuffleToken.png|wsmall]]
+
 
 *Guts Pokemon*
 *A tenacious Pokemon that will get back up no matter how many times he gets knocked down. They have a tireless spirit, and never give up hope. Makuhitas put all their hearts into everything they do.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-makuhita-HomeSprite.png|right]]
-![[SRD-makuhita-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

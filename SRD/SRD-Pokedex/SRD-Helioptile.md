@@ -23,6 +23,7 @@ Name: Helioptile
 Number: 694
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-helioptile-ShuffleToken.png
 Sprite: helioptile.png
 Type1: Electric
 Type2: Normal
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-helioptile-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-helioptile-BookSprite.png|wsmall]]
+> ![[SRD-helioptile-HomeSprite.png]]
+> ![[SRD-helioptile-BoxSprite.png|htiny]]
+> ![[SRD-helioptile-ShuffleToken.png|wsmall]]
+
 
 *Generator Pokemon*
 *They make their home in deserts. Using the sun, they can generate their energy by basking their frills since food is scarce where they live. They run pretty fast as to not burn themselves with the hot sand.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-helioptile-HomeSprite.png|right]]
-![[SRD-helioptile-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

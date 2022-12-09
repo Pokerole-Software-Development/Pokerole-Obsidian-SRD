@@ -23,6 +23,7 @@ Name: Bulbasaur
 Number: 1
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-bulbasaur-ShuffleToken.png
 Sprite: bulbasaur.png
 Type1: Grass
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bulbasaur-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bulbasaur-BookSprite.png|wsmall]]
+> ![[SRD-bulbasaur-HomeSprite.png]]
+> ![[SRD-bulbasaur-BoxSprite.png|htiny]]
+> ![[SRD-bulbasaur-ShuffleToken.png|wsmall]]
+
 
 *Seed Pokemon*
 *It carries a seed on its back since birth. As it grows older the seed also grows larger. It is known to be a well-behaved and loyal Pokemon, but pretty rare to find in the wild.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-bulbasaur-HomeSprite.png|right]]
-![[SRD-bulbasaur-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Ducklett
 Number: 580
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Flying
+ShuffleToken: SRD-ducklett-ShuffleToken.png
 Sprite: ducklett.png
 Type1: Water
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ducklett-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ducklett-BookSprite.png|wsmall]]
+> ![[SRD-ducklett-HomeSprite.png]]
+> ![[SRD-ducklett-BoxSprite.png|htiny]]
+> ![[SRD-ducklett-ShuffleToken.png|wsmall]]
+
 
 *Water Bird Pokemon*
 *These bird Pokemon are excellent divers. They swim around in the water eating their favorite food, peat moss. They can shoot a spray mist with their feathers to protect from any predator that comes.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-ducklett-HomeSprite.png|right]]
-![[SRD-ducklett-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

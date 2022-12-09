@@ -23,6 +23,7 @@ Name: Zweilous
 Number: 634
 PrimaryEggGroup: Dragon
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zweilous-ShuffleToken.png
 Sprite: zweilous.png
 Type1: Dark
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zweilous-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zweilous-BookSprite.png|wsmall]]
+> ![[SRD-zweilous-HomeSprite.png]]
+> ![[SRD-zweilous-BoxSprite.png|htiny]]
+> ![[SRD-zweilous-ShuffleToken.png|wsmall]]
+
 
 *Hostile Pokemon*
 *The two heads do not get along with each other as they compete for food. For this reason , Zweilous usually eats more than it should. Touching it carelessly can get you attacked by one or both heads.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-zweilous-HomeSprite.png|right]]
-![[SRD-zweilous-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

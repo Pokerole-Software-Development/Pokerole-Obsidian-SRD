@@ -23,6 +23,7 @@ Name: Primal Groudon
 Number: 383
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-groudon-primal-ShuffleToken.png
 Sprite: groudon-primal.png
 Type1: Ground
 Type2: Fire
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-groudon-primal-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-groudon-primal-BookSprite.png|wsmall]]
+> ![[SRD-groudon-primal-HomeSprite.png]]
+> ![[SRD-groudon-primal-BoxSprite.png|htiny]]
+> ![[SRD-groudon-primal-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Millions of years ago chaos reigned. Volcanoes erupting without control, and unbearable heat made all life dry out. Who was so angry inside the raging fire? For its fury has since ingrained into the earth as red rubies.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-groudon-primal-HomeSprite.png|right]]
-![[SRD-groudon-primal-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

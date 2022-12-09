@@ -23,6 +23,7 @@ Name: Rotom Frost
 Number: 479
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rotom-frost-ShuffleToken.png
 Sprite: rotom-frost.png
 Type1: Electric
 Type2: Ice
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rotom-frost-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rotom-frost-BookSprite.png|wsmall]]
+> ![[SRD-rotom-frost-HomeSprite.png]]
+> ![[SRD-rotom-frost-BoxSprite.png|htiny]]
+> ![[SRD-rotom-frost-ShuffleToken.png|wsmall]]
+
 
 *Plasma Pokemon*
 *A refrigerator possessed by a Rotom. It uses Ice powers, traps people inside and freezes them in solid ice blocks. While on this form it can use the move: Blizzard.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-rotom-frost-HomeSprite.png|right]]
-![[SRD-rotom-frost-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

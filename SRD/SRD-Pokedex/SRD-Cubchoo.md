@@ -23,6 +23,7 @@ Name: Cubchoo
 Number: 613
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-cubchoo-ShuffleToken.png
 Sprite: cubchoo.png
 Type1: Ice
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cubchoo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cubchoo-BookSprite.png|wsmall]]
+> ![[SRD-cubchoo-HomeSprite.png]]
+> ![[SRD-cubchoo-BoxSprite.png|htiny]]
+> ![[SRD-cubchoo-ShuffleToken.png|wsmall]]
+
 
 *Chill Pokemon*
 *They are born by the end of winter and stay with their mothers for a couple of seasons. Their running nose is used to practice their ice powers. In fact, when they get sick their nose is completely dry.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-cubchoo-HomeSprite.png|right]]
-![[SRD-cubchoo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

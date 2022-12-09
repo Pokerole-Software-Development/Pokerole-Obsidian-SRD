@@ -23,6 +23,7 @@ Name: Corphish
 Number: 341
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-corphish-ShuffleToken.png
 Sprite: corphish.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-corphish-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-corphish-BookSprite.png|wsmall]]
+> ![[SRD-corphish-HomeSprite.png]]
+> ![[SRD-corphish-BoxSprite.png|htiny]]
+> ![[SRD-corphish-ShuffleToken.png|wsmall]]
+
 
 *Ruffian Pokemon*
 *Corphish were originally foreign Pokemon that were imported as pets. They eventually turned up in the wild and reproduced a lot. They are resilient and can live in polluted water. Beware of their pincers.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-corphish-HomeSprite.png|right]]
-![[SRD-corphish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Victreebel
 Number: 71
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-victreebel-ShuffleToken.png
 Sprite: victreebel.png
 Type1: Grass
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-victreebel-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-victreebel-BookSprite.png|wsmall]]
+> ![[SRD-victreebel-HomeSprite.png]]
+> ![[SRD-victreebel-BoxSprite.png|htiny]]
+> ![[SRD-victreebel-ShuffleToken.png|wsmall]]
+
 
 *Flycatcher Pokemon*
 *They live together in small groups at tropical areas. Victreebel uses a sweet honey-like smell to lure and attract prey. They also use their long vines to rustle bushes around. They are territorial and aggressive.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-victreebel-HomeSprite.png|right]]
-![[SRD-victreebel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Pikachu
 Number: 25
 PrimaryEggGroup: Field
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-pikachu-ShuffleToken.png
 Sprite: pikachu.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pikachu-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pikachu-BookSprite.png|wsmall]]
+> ![[SRD-pikachu-HomeSprite.png]]
+> ![[SRD-pikachu-BoxSprite.png|htiny]]
+> ![[SRD-pikachu-ShuffleToken.png|wsmall]]
+
 
 *Mouse Pokemon*
 *Lives in small groups in forests but they tend to stay hidden. It stores electricity in the electric sacs on its cheeks and uses its tail to ground the excess charge. They can be stubborn and wary of strangers.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-pikachu-HomeSprite.png|right]]
-![[SRD-pikachu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

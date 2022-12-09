@@ -23,6 +23,7 @@ Name: Uxie
 Number: 480
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-uxie-ShuffleToken.png
 Sprite: uxie.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-uxie-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-uxie-BookSprite.png|wsmall]]
+> ![[SRD-uxie-HomeSprite.png]]
+> ![[SRD-uxie-BoxSprite.png|htiny]]
+> ![[SRD-uxie-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *In the myths of Sinnoh they talk about three beings that came out from the same egg, the yellow one was the being of knowledge. Together they shaped the human race to be complete.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-uxie-HomeSprite.png|right]]
-![[SRD-uxie-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

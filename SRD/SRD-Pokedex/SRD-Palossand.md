@@ -23,6 +23,7 @@ Name: Palossand
 Number: 770
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-palossand-ShuffleToken.png
 Sprite: palossand.png
 Type1: Ghost
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-palossand-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-palossand-BookSprite.png|wsmall]]
+> ![[SRD-palossand-HomeSprite.png]]
+> ![[SRD-palossand-BoxSprite.png|htiny]]
+> ![[SRD-palossand-ShuffleToken.png|wsmall]]
+
 
 *Sand Castle Pokemon*
 *The possessed people shaped this Pokemon into a castle, buried beneath the sand where it stands are the remains of all its victims. Some say these unmarked graves will give birth to a new Sandygast.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-palossand-HomeSprite.png|right]]
-![[SRD-palossand-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

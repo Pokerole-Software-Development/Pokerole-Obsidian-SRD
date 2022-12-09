@@ -23,6 +23,7 @@ Name: Electivire
 Number: 466
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-electivire-ShuffleToken.png
 Sprite: electivire.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-electivire-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-electivire-BookSprite.png|wsmall]]
+> ![[SRD-electivire-HomeSprite.png]]
+> ![[SRD-electivire-BoxSprite.png|htiny]]
+> ![[SRD-electivire-ShuffleToken.png|wsmall]]
+
 
 *Thunderbolt Pokemon*
 *This Pokemon is reckless and has a short temper. As its electric charge amplifies, blue sparks begin to crackle between its horns. It has registered charge levels of over 20,000 Volts.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-electivire-HomeSprite.png|right]]
-![[SRD-electivire-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

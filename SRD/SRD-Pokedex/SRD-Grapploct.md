@@ -23,6 +23,7 @@ Name: Grapploct
 Number: 853
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-grapploct-ShuffleToken.png
 Sprite: grapploct.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-grapploct-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-grapploct-BookSprite.png|wsmall]]
+> ![[SRD-grapploct-HomeSprite.png]]
+> ![[SRD-grapploct-BoxSprite.png|htiny]]
+> ![[SRD-grapploct-ShuffleToken.png|wsmall]]
+
 
 *Jujitsu Pokemon*
 *A body made up of nothing but muscle makes its tentacles very powerful. They come out of the ocean to find opponents to battle, once the fight is over they go back into the sea.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-grapploct-HomeSprite.png|right]]
-![[SRD-grapploct-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

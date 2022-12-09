@@ -23,6 +23,7 @@ Name: Copperajah
 Number: 879
 PrimaryEggGroup: Field
 SecondaryEggGroup: Mineral
+ShuffleToken: SRD-copperajah-ShuffleToken.png
 Sprite: copperajah.png
 Type1: Steel
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-copperajah-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-copperajah-BookSprite.png|wsmall]]
+> ![[SRD-copperajah-HomeSprite.png]]
+> ![[SRD-copperajah-BoxSprite.png|htiny]]
+> ![[SRD-copperajah-ShuffleToken.png|wsmall]]
+
 
 *Copperderm Pokemon*
 *They originally came from another region long ago, worked together with humans helping them pave new roads and building cities. They are usually calm and love spending time with their families.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-copperajah-HomeSprite.png|right]]
-![[SRD-copperajah-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

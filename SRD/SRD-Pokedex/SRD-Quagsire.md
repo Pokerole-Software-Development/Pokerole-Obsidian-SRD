@@ -23,6 +23,7 @@ Name: Quagsire
 Number: 195
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-quagsire-ShuffleToken.png
 Sprite: quagsire.png
 Type1: Water
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-quagsire-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-quagsire-BookSprite.png|wsmall]]
+> ![[SRD-quagsire-HomeSprite.png]]
+> ![[SRD-quagsire-BoxSprite.png|htiny]]
+> ![[SRD-quagsire-ShuffleToken.png|wsmall]]
+
 
 *Water Fish Pokemon*
 *You’ll find its home at the bottom of the river. It hunts by leaving its mouth wide open in water and waiting for its prey to get in. Because it doesn’t move a lot, it does not get very hungry.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-quagsire-HomeSprite.png|right]]
-![[SRD-quagsire-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

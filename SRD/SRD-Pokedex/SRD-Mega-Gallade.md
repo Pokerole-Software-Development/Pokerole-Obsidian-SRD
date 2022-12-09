@@ -23,6 +23,7 @@ Name: Mega-Gallade
 Number: 475
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-gallade-mega-ShuffleToken.png
 Sprite: gallade-mega.png
 Type1: Psychic
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gallade-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gallade-mega-BookSprite.png|wsmall]]
+> ![[SRD-gallade-mega-HomeSprite.png]]
+> ![[SRD-gallade-mega-BoxSprite.png|htiny]]
+> ![[SRD-gallade-mega-ShuffleToken.png|wsmall]]
+
 
 *Blade Pokemon*
 *With the power of the Mega Stone it senses the emotions of others in a large radius and will go help anyone in need. It will only attack if it needs to defend someone or something. It is protective and brave.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-gallade-mega-HomeSprite.png|right]]
-![[SRD-gallade-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

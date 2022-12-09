@@ -23,6 +23,7 @@ Name: Glameow
 Number: 431
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-glameow-ShuffleToken.png
 Sprite: glameow.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-glameow-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-glameow-BookSprite.png|wsmall]]
+> ![[SRD-glameow-HomeSprite.png]]
+> ![[SRD-glameow-BoxSprite.png|htiny]]
+> ![[SRD-glameow-ShuffleToken.png|wsmall]]
+
 
 *Catty Pokemon*
 *It is plentiful in urban areas, as it is a popular pet. It has a very fickle nature, purring in happiness one second, then hooking its claws into its trainer’s nose. It loves to be admired and pampered.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-glameow-HomeSprite.png|right]]
-![[SRD-glameow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

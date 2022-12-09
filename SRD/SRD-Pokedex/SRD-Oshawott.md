@@ -23,6 +23,7 @@ Name: Oshawott
 Number: 501
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-oshawott-ShuffleToken.png
 Sprite: oshawott.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-oshawott-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-oshawott-BookSprite.png|wsmall]]
+> ![[SRD-oshawott-HomeSprite.png]]
+> ![[SRD-oshawott-BoxSprite.png|htiny]]
+> ![[SRD-oshawott-ShuffleToken.png|wsmall]]
+
 
 *Sea Otter Pokemon*
 *It is only seen close to the sea in a few places in the world. Oshawott uses the scalchop on its chest as a tool for multiple purposes and as a weapon to slash and fight. It is small but brave and daring.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-oshawott-HomeSprite.png|right]]
-![[SRD-oshawott-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

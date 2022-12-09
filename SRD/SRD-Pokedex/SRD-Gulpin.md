@@ -23,6 +23,7 @@ Name: Gulpin
 Number: 316
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gulpin-ShuffleToken.png
 Sprite: gulpin.png
 Type1: Poison
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gulpin-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gulpin-BookSprite.png|wsmall]]
+> ![[SRD-gulpin-HomeSprite.png]]
+> ![[SRD-gulpin-BoxSprite.png|htiny]]
+> ![[SRD-gulpin-ShuffleToken.png|wsmall]]
+
 
 *Stomach Pokemon*
 *Gulpin's body is a huge stomach capable of swallowing anything of their size. Their fluids can corrode metal. This Pokemon releases hideous and vile gases while it digests its food.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-gulpin-HomeSprite.png|right]]
-![[SRD-gulpin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

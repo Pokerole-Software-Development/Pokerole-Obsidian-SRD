@@ -23,6 +23,7 @@ Name: Regice
 Number: 378
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-regice-ShuffleToken.png
 Sprite: regice.png
 Type1: Ice
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-regice-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-regice-BookSprite.png|wsmall]]
+> ![[SRD-regice-HomeSprite.png]]
+> ![[SRD-regice-BoxSprite.png|htiny]]
+> ![[SRD-regice-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *It is said to be indistinguishable from a gigantic iceberg. Its myth says its body can’t be melted even if submerged in magma. Regice could freeze the air to bring a new ice age.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::10)/(MaxInsight::10)     |
 
-![[SRD-regice-HomeSprite.png|right]]
-![[SRD-regice-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

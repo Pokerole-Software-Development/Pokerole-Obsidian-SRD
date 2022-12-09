@@ -23,6 +23,7 @@ Name: Mega-Steelix
 Number: 208
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-steelix-mega-ShuffleToken.png
 Sprite: steelix-mega.png
 Type1: Steel
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-steelix-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-steelix-mega-BookSprite.png|wsmall]]
+> ![[SRD-steelix-mega-HomeSprite.png]]
+> ![[SRD-steelix-mega-BoxSprite.png|htiny]]
+> ![[SRD-steelix-mega-ShuffleToken.png|wsmall]]
+
 
 *Iron Snake Pokemon*
 *With the power of the Mega Stone its body goes through so much pressure that part of it becomes diamond crystals. Its defense is almost unbreakable but its temper is short and it’s easily angered.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-steelix-mega-HomeSprite.png|right]]
-![[SRD-steelix-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

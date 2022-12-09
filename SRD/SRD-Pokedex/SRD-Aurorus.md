@@ -23,6 +23,7 @@ Name: Aurorus
 Number: 699
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-aurorus-ShuffleToken.png
 Sprite: aurorus.png
 Type1: Rock
 Type2: Ice
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-aurorus-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-aurorus-BookSprite.png|wsmall]]
+> ![[SRD-aurorus-HomeSprite.png]]
+> ![[SRD-aurorus-BoxSprite.png|htiny]]
+> ![[SRD-aurorus-ShuffleToken.png|wsmall]]
+
 
 *Tundra Pokemon*
 *It produced a freezing cold mist from the crystals on its sides and relied on size to deter predators. It also created tall walls of ice to block them. The one restored from the fossil is calm and has adapted well.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-aurorus-HomeSprite.png|right]]
-![[SRD-aurorus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

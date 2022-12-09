@@ -26,6 +26,7 @@ Name: Glalie
 Number: 362
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Mineral
+ShuffleToken: SRD-glalie-ShuffleToken.png
 Sprite: glalie.png
 Type1: Ice
 Type2: ''
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-glalie-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-glalie-BookSprite.png|wsmall]]
+> ![[SRD-glalie-HomeSprite.png]]
+> ![[SRD-glalie-BoxSprite.png|htiny]]
+> ![[SRD-glalie-ShuffleToken.png|wsmall]]
+
 
 *Face Pokemon*
 *Its body is so hard it was thought to be made of rock. They can be aggressive if provoked. When they hunt, they freeze their prey solid before eating it. They can live in warm places without trouble.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-glalie-HomeSprite.png|right]]
-![[SRD-glalie-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

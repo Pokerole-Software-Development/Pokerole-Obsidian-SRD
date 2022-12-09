@@ -23,6 +23,7 @@ Name: Beautifly
 Number: 267
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-beautifly-ShuffleToken.png
 Sprite: beautifly.png
 Type1: Bug
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-beautifly-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-beautifly-BookSprite.png|wsmall]]
+> ![[SRD-beautifly-HomeSprite.png]]
+> ![[SRD-beautifly-BoxSprite.png|htiny]]
+> ![[SRD-beautifly-ShuffleToken.png|wsmall]]
+
 
 *Butterfly Pokemon*
 *They can’t resist the pollen of flowers, if you leave one in the window, a Beautifly is sure to come. Despite their appearance, they are aggressive, they drain living creatures of their fluids just as they do with flowers.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-beautifly-HomeSprite.png|right]]
-![[SRD-beautifly-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

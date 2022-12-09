@@ -23,6 +23,7 @@ Name: Volcarona
 Number: 637
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-volcarona-ShuffleToken.png
 Sprite: volcarona.png
 Type1: Bug
 Type2: Fire
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-volcarona-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-volcarona-BookSprite.png|wsmall]]
+> ![[SRD-volcarona-HomeSprite.png]]
+> ![[SRD-volcarona-BoxSprite.png|htiny]]
+> ![[SRD-volcarona-ShuffleToken.png|wsmall]]
+
 
 *Sun Pokemon*
 *A sea of fire engulfs the surroundings of its battles, since it uses six wings to scatter blazing scales. There are stories of how its fire saved villages during winter and how it shone like the sun over the mountains.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-volcarona-HomeSprite.png|right]]
-![[SRD-volcarona-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

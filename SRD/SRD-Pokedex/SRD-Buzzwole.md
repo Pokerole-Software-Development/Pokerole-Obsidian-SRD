@@ -23,6 +23,7 @@ Name: Buzzwole
 Number: 794
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-buzzwole-ShuffleToken.png
 Sprite: buzzwole.png
 Type1: Bug
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-buzzwole-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-buzzwole-BookSprite.png|wsmall]]
+> ![[SRD-buzzwole-HomeSprite.png]]
+> ![[SRD-buzzwole-BoxSprite.png|htiny]]
+> ![[SRD-buzzwole-ShuffleToken.png|wsmall]]
+
 
 *Aether Foundation Log #071*
 *What we thought were harmless displays of strength were just the first warning signs. Today UB-02 destroyed the truck where it was being transported, it escaped and hasn’t been located.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::4)/(MaxInsight::4)     |
 
-![[SRD-buzzwole-HomeSprite.png|right]]
-![[SRD-buzzwole-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

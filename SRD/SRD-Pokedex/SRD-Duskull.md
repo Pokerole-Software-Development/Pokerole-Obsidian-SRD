@@ -23,6 +23,7 @@ Name: Duskull
 Number: 355
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-duskull-ShuffleToken.png
 Sprite: duskull.png
 Type1: Ghost
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-duskull-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-duskull-BookSprite.png|wsmall]]
+> ![[SRD-duskull-HomeSprite.png]]
+> ![[SRD-duskull-BoxSprite.png|htiny]]
+> ![[SRD-duskull-ShuffleToken.png|wsmall]]
+
 
 *Requiem Pokemon*
 *They wander at night. They can make themselves invisible and they follow travelers all night until dawn breaks. It loves the crying of little children, they can be seen scaring kids who misbehaved during the day.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-duskull-HomeSprite.png|right]]
-![[SRD-duskull-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

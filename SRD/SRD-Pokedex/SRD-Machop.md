@@ -23,6 +23,7 @@ Name: Machop
 Number: 66
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-machop-ShuffleToken.png
 Sprite: machop.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-machop-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-machop-BookSprite.png|wsmall]]
+> ![[SRD-machop-HomeSprite.png]]
+> ![[SRD-machop-BoxSprite.png|htiny]]
+> ![[SRD-machop-ShuffleToken.png|wsmall]]
+
 
 *Superpower Pokemon*
 *It lives in mountains, training its fists against strong rocks , lifting boulders and hurling Rock Pokemon around to build stronger muscles. Even with its small size, it can compete against expert humans and win.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-machop-HomeSprite.png|right]]
-![[SRD-machop-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Maractus
 Number: 556
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-maractus-ShuffleToken.png
 Sprite: maractus.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-maractus-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-maractus-BookSprite.png|wsmall]]
+> ![[SRD-maractus-HomeSprite.png]]
+> ![[SRD-maractus-BoxSprite.png|htiny]]
+> ![[SRD-maractus-ShuffleToken.png|wsmall]]
+
 
 *Cactus Pokemon*
 *If you see a Maractus on the desert, follow it, as they make their nests on water oasis. This pacific Pokemon makes a sound similar to a maraca to drive away bird Pokemon that prey on it’s seeds and fruit.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-maractus-HomeSprite.png|right]]
-![[SRD-maractus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

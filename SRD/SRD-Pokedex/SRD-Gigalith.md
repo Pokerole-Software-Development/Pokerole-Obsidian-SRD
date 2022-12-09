@@ -24,6 +24,7 @@ Name: Gigalith
 Number: 526
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gigalith-ShuffleToken.png
 Sprite: gigalith.png
 Type1: Rock
 Type2: ''
@@ -37,7 +38,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gigalith-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gigalith-BookSprite.png|wsmall]]
+> ![[SRD-gigalith-HomeSprite.png]]
+> ![[SRD-gigalith-BoxSprite.png|htiny]]
+> ![[SRD-gigalith-ShuffleToken.png|wsmall]]
+
 
 *Compressed Pokemon*
 *It is a serious Pokemon that doesn’t interact with others too much. It uses the sharp crystals in it’s body to recharge using the sun’s energy. If angered it can bury it’s foe under giant rock slides or explode at will.*
@@ -56,8 +62,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-gigalith-HomeSprite.png|right]]
-![[SRD-gigalith-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

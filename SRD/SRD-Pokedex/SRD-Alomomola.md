@@ -23,6 +23,7 @@ Name: Alomomola
 Number: 594
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 2
+ShuffleToken: SRD-alomomola-ShuffleToken.png
 Sprite: alomomola.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-alomomola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-alomomola-BookSprite.png|wsmall]]
+> ![[SRD-alomomola-HomeSprite.png]]
+> ![[SRD-alomomola-BoxSprite.png|htiny]]
+> ![[SRD-alomomola-ShuffleToken.png|wsmall]]
+
 
 *Caring Pokemon*
 *Floating in the open sea is how they live. When they find a wounded Pokemon, they embrace it and use their special membrane to heal their wounds. A caring, noble and selfless Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-alomomola-HomeSprite.png|right]]
-![[SRD-alomomola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

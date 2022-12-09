@@ -26,6 +26,7 @@ Name: Beedrill
 Number: 15
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-beedrill-ShuffleToken.png
 Sprite: beedrill.png
 Type1: Bug
 Type2: Poison
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-beedrill-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-beedrill-BookSprite.png|wsmall]]
+> ![[SRD-beedrill-HomeSprite.png]]
+> ![[SRD-beedrill-BoxSprite.png|htiny]]
+> ![[SRD-beedrill-ShuffleToken.png|wsmall]]
+
 
 *Poison Bee Pokemon*
 *Beedrill are extremely territorial. For safety reasons, no one should ever approach their nest. If disturbed, they will attack in swarm. It has three stings. The one on its tail secretes a powerful poison.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-beedrill-HomeSprite.png|right]]
-![[SRD-beedrill-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Quilladin
 Number: 651
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-quilladin-ShuffleToken.png
 Sprite: quilladin.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-quilladin-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-quilladin-BookSprite.png|wsmall]]
+> ![[SRD-quilladin-HomeSprite.png]]
+> ![[SRD-quilladin-BoxSprite.png|htiny]]
+> ![[SRD-quilladin-ShuffleToken.png|wsmall]]
+
 
 *Spiny Armor Pokemon*
 *It strengthens its lower body by running into sturdy things. It is a kind Pokemon that relies on its sturdy shell and sharp quills to deflect any foe trying to attack it. They never start a fight.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-quilladin-HomeSprite.png|right]]
-![[SRD-quilladin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Hoopa
 Number: 720
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-hoopa-ShuffleToken.png
 Sprite: hoopa.png
 Type1: Psychic
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-hoopa-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-hoopa-BookSprite.png|wsmall]]
+> ![[SRD-hoopa-HomeSprite.png]]
+> ![[SRD-hoopa-BoxSprite.png|htiny]]
+> ![[SRD-hoopa-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *There is a story of an old demon whose power had to be contained by a spell. The spell was a partial success as the demon could still roam free, but its power and evil was greatly diminished.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-hoopa-HomeSprite.png|right]]
-![[SRD-hoopa-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

@@ -22,6 +22,7 @@ Name: Cosmog
 Number: 789
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-cosmog-ShuffleToken.png
 Sprite: cosmog.png
 Type1: Psychic
 Type2: ''
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cosmog-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cosmog-BookSprite.png|wsmall]]
+> ![[SRD-cosmog-HomeSprite.png]]
+> ![[SRD-cosmog-BoxSprite.png|htiny]]
+> ![[SRD-cosmog-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *A creature like this was observed on a telescope. It is rumored to be a Pokemon from another world, but no specific details are known.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-cosmog-HomeSprite.png|right]]
-![[SRD-cosmog-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

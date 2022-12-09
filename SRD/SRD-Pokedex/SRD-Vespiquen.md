@@ -23,6 +23,7 @@ Name: Vespiquen
 Number: 416
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-vespiquen-ShuffleToken.png
 Sprite: vespiquen.png
 Type1: Bug
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-vespiquen-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-vespiquen-BookSprite.png|wsmall]]
+> ![[SRD-vespiquen-HomeSprite.png]]
+> ![[SRD-vespiquen-BoxSprite.png|htiny]]
+> ![[SRD-vespiquen-ShuffleToken.png|wsmall]]
+
 
 *Beehive Pokemon*
 *This Pokemon is female only. It raises grubs in the holes in its body and secretes pheromones to control Combee to fight and gather honey for her. It is a royal Pokemon that won’t take orders from anyone.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-vespiquen-HomeSprite.png|right]]
-![[SRD-vespiquen-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

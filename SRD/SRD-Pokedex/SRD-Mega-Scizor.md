@@ -23,6 +23,7 @@ Name: Mega-Scizor
 Number: 212
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-scizor-mega-ShuffleToken.png
 Sprite: scizor-mega.png
 Type1: Bug
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-scizor-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-scizor-mega-BookSprite.png|wsmall]]
+> ![[SRD-scizor-mega-HomeSprite.png]]
+> ![[SRD-scizor-mega-BoxSprite.png|htiny]]
+> ![[SRD-scizor-mega-ShuffleToken.png|wsmall]]
+
 
 *Pincer Pokemon*
 *The power of the Mega Stone puts its body trough tremendous stress, if it is inexperienced at wielding it and the battle is too long its pincers will feel heavy and even melt. They must be fast to rip their foes apart.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-scizor-mega-HomeSprite.png|right]]
-![[SRD-scizor-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

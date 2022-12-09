@@ -23,6 +23,7 @@ Name: Growlithe
 Number: 58
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-growlithe-ShuffleToken.png
 Sprite: growlithe.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-growlithe-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-growlithe-BookSprite.png|wsmall]]
+> ![[SRD-growlithe-HomeSprite.png]]
+> ![[SRD-growlithe-BoxSprite.png|htiny]]
+> ![[SRD-growlithe-ShuffleToken.png|wsmall]]
+
 
 *Puppy Pokemon*
 *Friendly, loyal and fearless to defend its trainer. These traits have gained them a place working as police Pokemon. They are uncommon in the wild but some packs can be seen in hot environments.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-growlithe-HomeSprite.png|right]]
-![[SRD-growlithe-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

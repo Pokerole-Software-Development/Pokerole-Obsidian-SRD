@@ -23,6 +23,7 @@ Name: Melmetal
 Number: 809
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-melmetal-ShuffleToken.png
 Sprite: melmetal.png
 Type1: Steel
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-melmetal-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-melmetal-BookSprite.png|wsmall]]
+> ![[SRD-melmetal-HomeSprite.png]]
+> ![[SRD-melmetal-BoxSprite.png|htiny]]
+> ![[SRD-melmetal-ShuffleToken.png|wsmall]]
+
 
 *Hex Nut Pokemon*
 *There is an ancient myth that a Pokemon once taught a group of humans how to work the iron, melt it and shape it into tools; but it was punished for this and cast away, never to be seen again.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-melmetal-HomeSprite.png|right]]
-![[SRD-melmetal-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

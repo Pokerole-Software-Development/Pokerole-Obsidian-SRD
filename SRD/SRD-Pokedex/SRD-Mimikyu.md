@@ -23,6 +23,7 @@ Name: Mimikyu
 Number: 778
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mimikyu-ShuffleToken.png
 Sprite: mimikyu.png
 Type1: Ghost
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mimikyu-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mimikyu-BookSprite.png|wsmall]]
+> ![[SRD-mimikyu-HomeSprite.png]]
+> ![[SRD-mimikyu-BoxSprite.png|htiny]]
+> ![[SRD-mimikyu-ShuffleToken.png|wsmall]]
+
 
 *Disguise Pokemon*
 *No one really knows what its true form looks like, the only scholar that dared to look under the veil died on the spot from the horror. It disguises itself as a Pikachu in an effort to make friends.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-mimikyu-HomeSprite.png|right]]
-![[SRD-mimikyu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

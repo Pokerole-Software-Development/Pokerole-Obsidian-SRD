@@ -23,6 +23,7 @@ Name: Elekid
 Number: 239
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-elekid-ShuffleToken.png
 Sprite: elekid.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-elekid-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-elekid-BookSprite.png|wsmall]]
+> ![[SRD-elekid-HomeSprite.png]]
+> ![[SRD-elekid-BoxSprite.png|htiny]]
+> ![[SRD-elekid-ShuffleToken.png|wsmall]]
+
 
 *Electric Pokemon*
 *They can be found following thunder storms. Elekids rotate their arms constantly to charge electricity. Beware, there is an electric current between their horns that may zap you if you touch them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-elekid-HomeSprite.png|right]]
-![[SRD-elekid-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

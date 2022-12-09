@@ -23,6 +23,7 @@ Name: Lumineon
 Number: 457
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-lumineon-ShuffleToken.png
 Sprite: lumineon.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lumineon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lumineon-BookSprite.png|wsmall]]
+> ![[SRD-lumineon-HomeSprite.png]]
+> ![[SRD-lumineon-BoxSprite.png|htiny]]
+> ![[SRD-lumineon-ShuffleToken.png|wsmall]]
+
 
 *Neon Pokemon*
 *It lives in the deep-sea bottom. It attracts prey by flashing the patterns on its tail fins. In the wild it competes against Lanturn for food. Its main predators are Tentacruel and Sharpedo.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-lumineon-HomeSprite.png|right]]
-![[SRD-lumineon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

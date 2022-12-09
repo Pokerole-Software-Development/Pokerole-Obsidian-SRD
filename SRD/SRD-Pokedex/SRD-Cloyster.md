@@ -23,6 +23,7 @@ Name: Cloyster
 Number: 91
 PrimaryEggGroup: Water 3
 SecondaryEggGroup: ''
+ShuffleToken: SRD-cloyster-ShuffleToken.png
 Sprite: cloyster.png
 Type1: Water
 Type2: Ice
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cloyster-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cloyster-BookSprite.png|wsmall]]
+> ![[SRD-cloyster-HomeSprite.png]]
+> ![[SRD-cloyster-BoxSprite.png|htiny]]
+> ![[SRD-cloyster-ShuffleToken.png|wsmall]]
+
 
 *Bivalve Pokemon*
 *If it lives in seas with harsh currents, it will grow larger and sharper spikes on its shells than those who live on calm waters. Its shell is extremely hard - you would need explosives to try to open it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-cloyster-HomeSprite.png|right]]
-![[SRD-cloyster-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

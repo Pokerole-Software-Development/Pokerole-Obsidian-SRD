@@ -23,6 +23,7 @@ Name: Shellder
 Number: 90
 PrimaryEggGroup: Water 3
 SecondaryEggGroup: ''
+ShuffleToken: SRD-shellder-ShuffleToken.png
 Sprite: shellder.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-shellder-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-shellder-BookSprite.png|wsmall]]
+> ![[SRD-shellder-HomeSprite.png]]
+> ![[SRD-shellder-BoxSprite.png|htiny]]
+> ![[SRD-shellder-ShuffleToken.png|wsmall]]
+
 
 *Bivalve Pokemon*
 *It lives at the bottom of the sea and rivers. It feeds on algae but it’s attracted to sweet substances. When frightened it will shut its clam and lock it to be almost impossible to open.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-shellder-HomeSprite.png|right]]
-![[SRD-shellder-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

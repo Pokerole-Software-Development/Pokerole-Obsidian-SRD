@@ -23,6 +23,7 @@ Name: Bagon
 Number: 371
 PrimaryEggGroup: Dragon
 SecondaryEggGroup: ''
+ShuffleToken: SRD-bagon-ShuffleToken.png
 Sprite: bagon.png
 Type1: Dragon
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bagon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bagon-BookSprite.png|wsmall]]
+> ![[SRD-bagon-HomeSprite.png]]
+> ![[SRD-bagon-BoxSprite.png|htiny]]
+> ![[SRD-bagon-ShuffleToken.png|wsmall]]
+
 
 *Rock Head Pokemon*
 *Bagons dream of soaring the sky. This leads to a lot of frustration that makes them dive off cliffs in an attempt to fly. Their head is tough enough to survive the fall. They are very ill tempered and violent.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-bagon-HomeSprite.png|right]]
-![[SRD-bagon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

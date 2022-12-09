@@ -26,6 +26,7 @@ Name: Sceptile
 Number: 254
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-sceptile-ShuffleToken.png
 Sprite: sceptile.png
 Type1: Grass
 Type2: ''
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sceptile-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sceptile-BookSprite.png|wsmall]]
+> ![[SRD-sceptile-HomeSprite.png]]
+> ![[SRD-sceptile-BoxSprite.png|htiny]]
+> ![[SRD-sceptile-ShuffleToken.png|wsmall]]
+
 
 *Forest Pokemon*
 *They raise trees with love and care and protect the jungles with their lives. Their tails can restore a plant’s beauty. Sceptiles power is truly unmatched in their habitats. They are very proud, though.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-sceptile-HomeSprite.png|right]]
-![[SRD-sceptile-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

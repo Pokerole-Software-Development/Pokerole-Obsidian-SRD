@@ -23,6 +23,7 @@ Name: Natu
 Number: 177
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-natu-ShuffleToken.png
 Sprite: natu.png
 Type1: Psychic
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-natu-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-natu-BookSprite.png|wsmall]]
+> ![[SRD-natu-HomeSprite.png]]
+> ![[SRD-natu-BoxSprite.png|htiny]]
+> ![[SRD-natu-ShuffleToken.png|wsmall]]
+
 
 *Little Bird Pokemon*
 *It lives close to the deserts. Its wings are not fully developed so it hops to trees and cactus to peck something to eat. If you find one it will hold your stare, if you get closer it might disappear in an instant.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-natu-HomeSprite.png|right]]
-![[SRD-natu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

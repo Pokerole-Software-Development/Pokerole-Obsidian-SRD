@@ -23,6 +23,7 @@ Name: Stantler
 Number: 234
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-stantler-ShuffleToken.png
 Sprite: stantler.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-stantler-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-stantler-BookSprite.png|wsmall]]
+> ![[SRD-stantler-HomeSprite.png]]
+> ![[SRD-stantler-BoxSprite.png|htiny]]
+> ![[SRD-stantler-ShuffleToken.png|wsmall]]
+
 
 *Bighorn Pokemon*
 *Their antlers create a distortion in space that causes confusion. They were hunted for their magnificent antlers that were traded at high prices. This drove Stantlers close to extinction.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-stantler-HomeSprite.png|right]]
-![[SRD-stantler-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

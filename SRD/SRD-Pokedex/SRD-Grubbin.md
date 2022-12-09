@@ -23,6 +23,7 @@ Name: Grubbin
 Number: 736
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-grubbin-ShuffleToken.png
 Sprite: grubbin.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-grubbin-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-grubbin-BookSprite.png|wsmall]]
+> ![[SRD-grubbin-HomeSprite.png]]
+> ![[SRD-grubbin-BoxSprite.png|htiny]]
+> ![[SRD-grubbin-ShuffleToken.png|wsmall]]
+
 
 *Larva Pokemon*
 *They tend to gather anywhere Electric Pokemon live to protect themselves from bird Pokemon who may prey on them. When they are ready to evolve they bury themselves underground.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-grubbin-HomeSprite.png|right]]
-![[SRD-grubbin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

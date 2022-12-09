@@ -23,6 +23,7 @@ Name: Prinplup
 Number: 394
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-prinplup-ShuffleToken.png
 Sprite: prinplup.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-prinplup-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-prinplup-BookSprite.png|wsmall]]
+> ![[SRD-prinplup-HomeSprite.png]]
+> ![[SRD-prinplup-BoxSprite.png|htiny]]
+> ![[SRD-prinplup-ShuffleToken.png|wsmall]]
+
 
 *Penguin Pokemon*
 *Prinplups hunt in icy seas. They live solitary lives because they cannot stand company and will never form a group or a team. They believe they are the most important thing in the world, it’s almost irritating.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-prinplup-HomeSprite.png|right]]
-![[SRD-prinplup-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Tangela
 Number: 114
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tangela-ShuffleToken.png
 Sprite: tangela.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tangela-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tangela-BookSprite.png|wsmall]]
+> ![[SRD-tangela-HomeSprite.png]]
+> ![[SRD-tangela-BoxSprite.png|htiny]]
+> ![[SRD-tangela-ShuffleToken.png|wsmall]]
+
 
 *Vine Pokemon*
 *It blends with foliage on jungle and forest areas. Its vines snap off easily and painlessly if they are grabbed, allowing it to make a quick getaway. The lost vines are replaced by new growth the very next day.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-tangela-HomeSprite.png|right]]
-![[SRD-tangela-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

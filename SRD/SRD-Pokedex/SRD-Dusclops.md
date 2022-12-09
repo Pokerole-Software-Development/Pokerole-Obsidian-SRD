@@ -23,6 +23,7 @@ Name: Dusclops
 Number: 356
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-dusclops-ShuffleToken.png
 Sprite: dusclops.png
 Type1: Ghost
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dusclops-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dusclops-BookSprite.png|wsmall]]
+> ![[SRD-dusclops-HomeSprite.png]]
+> ![[SRD-dusclops-BoxSprite.png|htiny]]
+> ![[SRD-dusclops-ShuffleToken.png|wsmall]]
+
 
 *Beckon Pokemon*
 *Its body is hollow. Some paranormal experts say there is a spectral energy ball inside them but it is not confirmed. If it absorbs an object or a creature there’s the risk that nothing will come back out.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-dusclops-HomeSprite.png|right]]
-![[SRD-dusclops-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

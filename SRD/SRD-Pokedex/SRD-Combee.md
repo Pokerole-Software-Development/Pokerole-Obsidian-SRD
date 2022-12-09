@@ -23,6 +23,7 @@ Name: Combee
 Number: 415
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-combee-ShuffleToken.png
 Sprite: combee.png
 Type1: Bug
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-combee-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-combee-BookSprite.png|wsmall]]
+> ![[SRD-combee-HomeSprite.png]]
+> ![[SRD-combee-BoxSprite.png|htiny]]
+> ![[SRD-combee-ShuffleToken.png|wsmall]]
+
 
 *Tiny Bee Pokemon*
 *It forms hives around trees. It flies all day sipping the nectar from flowers to make honey. It is usually born a male. If a female is born, it will grow into a Vespiqueen and start its own Hive.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-combee-HomeSprite.png|right]]
-![[SRD-combee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

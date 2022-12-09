@@ -23,6 +23,7 @@ Name: Nidoking
 Number: 34
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Field
+ShuffleToken: SRD-nidoking-ShuffleToken.png
 Sprite: nidoking.png
 Type1: Poison
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-nidoking-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-nidoking-BookSprite.png|wsmall]]
+> ![[SRD-nidoking-HomeSprite.png]]
+> ![[SRD-nidoking-BoxSprite.png|htiny]]
+> ![[SRD-nidoking-ShuffleToken.png|wsmall]]
+
 
 *Drill Pokemon*
 *It is recognized by its rock-hard hide and its extended horn. Be careful with the horn as it contains venom. There are records of one trampling and destroying a radio tower that was being built on his territory.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-nidoking-HomeSprite.png|right]]
-![[SRD-nidoking-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

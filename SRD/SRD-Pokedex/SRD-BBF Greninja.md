@@ -23,6 +23,7 @@ Name: BBF Greninja
 Number: 658
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-greninja-ShuffleToken.png
 Sprite: greninja.png
 Type1: Water
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-greninja-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-greninja-BookSprite.png|wsmall]]
+> ![[SRD-greninja-HomeSprite.png]]
+> ![[SRD-greninja-BoxSprite.png|htiny]]
+> ![[SRD-greninja-ShuffleToken.png|wsmall]]
+
 
 *Ninja Pokemon*
 *The mysteries of the Pokemon world are vast. There is something called “The Bond Phenomenon” were a Pokemon and its trainer share a connection so strong that the Pokemon changes due to it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-greninja-HomeSprite.png|right]]
-![[SRD-greninja-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

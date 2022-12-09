@@ -23,6 +23,7 @@ Name: Mega-Garchomp
 Number: 445
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-garchomp-mega-ShuffleToken.png
 Sprite: garchomp-mega.png
 Type1: Dragon
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-garchomp-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-garchomp-mega-BookSprite.png|wsmall]]
+> ![[SRD-garchomp-mega-HomeSprite.png]]
+> ![[SRD-garchomp-mega-BoxSprite.png|htiny]]
+> ![[SRD-garchomp-mega-ShuffleToken.png|wsmall]]
+
 
 *Mach Pokemon*
 *The excess of power from the Mega Stone melted its fins and claws together forming sharp, dangerous scythes. If its disposition was already violent, it grows now by a tenfold. They can be vicious and feral.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-garchomp-mega-HomeSprite.png|right]]
-![[SRD-garchomp-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

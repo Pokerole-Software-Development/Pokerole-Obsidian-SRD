@@ -23,6 +23,7 @@ Name: Mega-Venusaur
 Number: 3
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-venusaur-mega-ShuffleToken.png
 Sprite: venusaur-mega.png
 Type1: Grass
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-venusaur-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-venusaur-mega-BookSprite.png|wsmall]]
+> ![[SRD-venusaur-mega-HomeSprite.png]]
+> ![[SRD-venusaur-mega-BoxSprite.png|htiny]]
+> ![[SRD-venusaur-mega-ShuffleToken.png|wsmall]]
+
 
 *Seed Pokemon*
 *With the power of the Mega Stone, this Pokemon grows taller and thicker. It’s bark and skin are now impervious to the elements.
@@ -56,8 +62,6 @@ Its demeanor becomes even more serious and determined.*
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-venusaur-mega-HomeSprite.png|right]]
-![[SRD-venusaur-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

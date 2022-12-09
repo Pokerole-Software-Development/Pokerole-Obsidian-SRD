@@ -23,6 +23,7 @@ Name: Shelmet
 Number: 616
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-shelmet-ShuffleToken.png
 Sprite: shelmet.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-shelmet-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-shelmet-BookSprite.png|wsmall]]
+> ![[SRD-shelmet-HomeSprite.png]]
+> ![[SRD-shelmet-BoxSprite.png|htiny]]
+> ![[SRD-shelmet-ShuffleToken.png|wsmall]]
+
 
 *Snail Pokemon*
 *When attacked, it defends itself by closing the lid of its shell or spits a sticky, poisonous liquid. It competes with Karrablast for food and shelter. If it loses its shell the distress may kill it, only those who survive evolve.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-shelmet-HomeSprite.png|right]]
-![[SRD-shelmet-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Buizel
 Number: 418
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-buizel-ShuffleToken.png
 Sprite: buizel.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-buizel-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-buizel-BookSprite.png|wsmall]]
+> ![[SRD-buizel-HomeSprite.png]]
+> ![[SRD-buizel-BoxSprite.png|htiny]]
+> ![[SRD-buizel-ShuffleToken.png|wsmall]]
+
 
 *Sea Weasel Pokemon*
 *It is usually seen close to streams and rivers. Buizel swims by rotating its two tails like a screw, the sack around its neck swells to help it float or deflates to dive underwater and catch prey.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-buizel-HomeSprite.png|right]]
-![[SRD-buizel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Lycanroc Midnight
 Number: 745
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-lycanroc-midnight-ShuffleToken.png
 Sprite: lycanroc-midnight.png
 Type1: Rock
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lycanroc-midnight-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lycanroc-midnight-BookSprite.png|wsmall]]
+> ![[SRD-lycanroc-midnight-HomeSprite.png]]
+> ![[SRD-lycanroc-midnight-BoxSprite.png|htiny]]
+> ![[SRD-lycanroc-midnight-ShuffleToken.png|wsmall]]
+
 
 *Wolf Pokemon*
 *A poorly-behaved Rockruff will evolve at midnight. This Pokemon is savage and has no regard for its own safety. It taunts and provokes foes a lot stronger just to get its own blood boiling.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-lycanroc-midnight-HomeSprite.png|right]]
-![[SRD-lycanroc-midnight-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

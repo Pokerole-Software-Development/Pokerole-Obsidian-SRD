@@ -23,6 +23,7 @@ Name: Mamoswine
 Number: 473
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mamoswine-ShuffleToken.png
 Sprite: mamoswine.png
 Type1: Ice
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mamoswine-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mamoswine-BookSprite.png|wsmall]]
+> ![[SRD-mamoswine-HomeSprite.png]]
+> ![[SRD-mamoswine-BoxSprite.png|htiny]]
+> ![[SRD-mamoswine-ShuffleToken.png|wsmall]]
+
 
 *Twin Tusk Pokemon*
 *It was everywhere during the ice age but its population declined afterwards. This Pokemon uses strong tusks to remove the soil and snow and dig up roots and plants to eat. It has a bad temper.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-mamoswine-HomeSprite.png|right]]
-![[SRD-mamoswine-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Alolan Exeggutor
 Number: 103
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-exeggutor-alola-ShuffleToken.png
 Sprite: exeggutor-alola.png
 Type1: Grass
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-exeggutor-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-exeggutor-alola-BookSprite.png|wsmall]]
+> ![[SRD-exeggutor-alola-HomeSprite.png]]
+> ![[SRD-exeggutor-alola-BoxSprite.png|htiny]]
+> ![[SRD-exeggutor-alola-ShuffleToken.png|wsmall]]
+
 
 *Coconut Pokemon*
 *Alola is the native region for this Pokemon, only in there it can evolve into this form. With this size, its Psychic abilities are rarely needed and its trainer’s order’s rarely heard. They enjoy the sun in the beach..*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-exeggutor-alola-HomeSprite.png|right]]
-![[SRD-exeggutor-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

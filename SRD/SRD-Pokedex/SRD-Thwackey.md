@@ -23,6 +23,7 @@ Name: Thwackey
 Number: 811
 PrimaryEggGroup: Field
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-thwackey-ShuffleToken.png
 Sprite: thwackey.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-thwackey-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-thwackey-BookSprite.png|wsmall]]
+> ![[SRD-thwackey-HomeSprite.png]]
+> ![[SRD-thwackey-BoxSprite.png|htiny]]
+> ![[SRD-thwackey-ShuffleToken.png|wsmall]]
+
 
 *Beat Pokemon*
 *Thwakeys are passionate about their drumming, they can get so caught up in their music that they don’t notice the battle is already over. The faster they can beat their drums, the stronger they are.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-thwackey-HomeSprite.png|right]]
-![[SRD-thwackey-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

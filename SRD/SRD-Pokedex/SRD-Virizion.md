@@ -23,6 +23,7 @@ Name: Virizion
 Number: 640
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-virizion-ShuffleToken.png
 Sprite: virizion.png
 Type1: Grass
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-virizion-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-virizion-BookSprite.png|wsmall]]
+> ![[SRD-virizion-HomeSprite.png]]
+> ![[SRD-virizion-BoxSprite.png|htiny]]
+> ![[SRD-virizion-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *An old tale in Unova mentions four Pokemon that fought against an evil army. The most beautiful of them was also the most swift and graceful in combat, it created an army of trees that won the battle.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-virizion-HomeSprite.png|right]]
-![[SRD-virizion-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

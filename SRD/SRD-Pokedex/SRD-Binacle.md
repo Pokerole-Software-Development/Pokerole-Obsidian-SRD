@@ -23,6 +23,7 @@ Name: Binacle
 Number: 688
 PrimaryEggGroup: Water 3
 SecondaryEggGroup: ''
+ShuffleToken: SRD-binacle-ShuffleToken.png
 Sprite: binacle.png
 Type1: Rock
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-binacle-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-binacle-BookSprite.png|wsmall]]
+> ![[SRD-binacle-HomeSprite.png]]
+> ![[SRD-binacle-BoxSprite.png|htiny]]
+> ![[SRD-binacle-ShuffleToken.png|wsmall]]
+
 
 *Two-Handed Pokemon*
 *In the shallow sea, two Binacle live inside a hollow rock. If they don’t get along, one of them will move to a different rock. They eat the sea weed that washes up on the shore and help each other to survive.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-binacle-HomeSprite.png|right]]
-![[SRD-binacle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

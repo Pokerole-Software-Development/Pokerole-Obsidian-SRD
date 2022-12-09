@@ -23,6 +23,7 @@ Name: Swadloon
 Number: 541
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-swadloon-ShuffleToken.png
 Sprite: swadloon.png
 Type1: Bug
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-swadloon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-swadloon-BookSprite.png|wsmall]]
+> ![[SRD-swadloon-HomeSprite.png]]
+> ![[SRD-swadloon-BoxSprite.png|htiny]]
+> ![[SRD-swadloon-ShuffleToken.png|wsmall]]
+
 
 *Leaf-Wrapped Pokemon*
 *Preferring dark and damp places, it spends the entire day inside rotting logs. It protects itself from the cold by wrapping up in leaves. It’s kind of moody and it likes to remain undisturbed.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-swadloon-HomeSprite.png|right]]
-![[SRD-swadloon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Hoopa Unbound
 Number: 720
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-hoopa-unbound-ShuffleToken.png
 Sprite: hoopa-unbound.png
 Type1: Psychic
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-hoopa-unbound-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-hoopa-unbound-BookSprite.png|wsmall]]
+> ![[SRD-hoopa-unbound-HomeSprite.png]]
+> ![[SRD-hoopa-unbound-BoxSprite.png|htiny]]
+> ![[SRD-hoopa-unbound-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *There is a story of an old demon whose power unleashed horrors from other dimensions into earth, ripping the fabrics of existence, it opened portals to bring evil upon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::9)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-hoopa-unbound-HomeSprite.png|right]]
-![[SRD-hoopa-unbound-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

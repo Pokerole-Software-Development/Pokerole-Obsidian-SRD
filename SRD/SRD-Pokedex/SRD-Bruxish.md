@@ -23,6 +23,7 @@ Name: Bruxish
 Number: 779
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-bruxish-ShuffleToken.png
 Sprite: bruxish.png
 Type1: Water
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bruxish-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bruxish-BookSprite.png|wsmall]]
+> ![[SRD-bruxish-HomeSprite.png]]
+> ![[SRD-bruxish-BoxSprite.png|htiny]]
+> ![[SRD-bruxish-ShuffleToken.png|wsmall]]
+
 
 *Gnash Teeth Pokemon*
 *The protuberance on its head emits psychic waves that confuse its prey, while it is confused Bruxish grinds it with its sharp teeth. This grinding noise makes other Pokemon flee from the place in hurry.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-bruxish-HomeSprite.png|right]]
-![[SRD-bruxish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Wooloo
 Number: 831
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-wooloo-ShuffleToken.png
 Sprite: wooloo.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-wooloo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-wooloo-BookSprite.png|wsmall]]
+> ![[SRD-wooloo-HomeSprite.png]]
+> ![[SRD-wooloo-BoxSprite.png|htiny]]
+> ![[SRD-wooloo-ShuffleToken.png|wsmall]]
+
 
 *Sheep Pokemon*
 *Woolo's wool is incredibly resilient, it serves as a cushion when they fall from high mountain cliffs. They need to be sheared or their wool will be too heavy to move. A sweater made with this wool will last for a lifetime.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-wooloo-HomeSprite.png|right]]
-![[SRD-wooloo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

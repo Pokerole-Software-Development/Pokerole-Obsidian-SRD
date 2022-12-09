@@ -23,6 +23,7 @@ Name: Ivysaur
 Number: 2
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-ivysaur-ShuffleToken.png
 Sprite: ivysaur.png
 Type1: Grass
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ivysaur-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ivysaur-BookSprite.png|wsmall]]
+> ![[SRD-ivysaur-HomeSprite.png]]
+> ![[SRD-ivysaur-BoxSprite.png|htiny]]
+> ![[SRD-ivysaur-ShuffleToken.png|wsmall]]
+
 
 *Seed Pokemon*
 *There is a bud on this Pokemon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. It becomes kind of a loner after evolving and may stray away from its group to take sunbaths.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-ivysaur-HomeSprite.png|right]]
-![[SRD-ivysaur-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

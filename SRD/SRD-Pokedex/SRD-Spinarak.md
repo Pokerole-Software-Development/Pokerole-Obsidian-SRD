@@ -23,6 +23,7 @@ Name: Spinarak
 Number: 167
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-spinarak-ShuffleToken.png
 Sprite: spinarak.png
 Type1: Bug
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-spinarak-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-spinarak-BookSprite.png|wsmall]]
+> ![[SRD-spinarak-HomeSprite.png]]
+> ![[SRD-spinarak-BoxSprite.png|htiny]]
+> ![[SRD-spinarak-ShuffleToken.png|wsmall]]
+
 
 *String Spit Pokemon*
 *It sets a trap by spinning a web of thin but strong silk. Then it waits for the prey to arrive. It recognizes what kind of prey has fallen on its web by the vibrations received by each one of its eight legs.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-spinarak-HomeSprite.png|right]]
-![[SRD-spinarak-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

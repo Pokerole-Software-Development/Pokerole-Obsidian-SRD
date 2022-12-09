@@ -23,6 +23,7 @@ Name: Accelgor
 Number: 617
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-accelgor-ShuffleToken.png
 Sprite: accelgor.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-accelgor-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-accelgor-BookSprite.png|wsmall]]
+> ![[SRD-accelgor-HomeSprite.png]]
+> ![[SRD-accelgor-BoxSprite.png|htiny]]
+> ![[SRD-accelgor-ShuffleToken.png|wsmall]]
+
 
 *Shell Out Pokemon*
 *Having removed its heavy shell, it becomes very light and swift. When its body dries out, it weakens. To prevent dehydration, it wraps itself in many layers of a thin membrane. It is very rare to see one in the wild.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-accelgor-HomeSprite.png|right]]
-![[SRD-accelgor-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

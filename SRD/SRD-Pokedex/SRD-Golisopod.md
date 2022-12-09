@@ -23,6 +23,7 @@ Name: Golisopod
 Number: 768
 PrimaryEggGroup: Bug
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-golisopod-ShuffleToken.png
 Sprite: golisopod.png
 Type1: Bug
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-golisopod-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-golisopod-BookSprite.png|wsmall]]
+> ![[SRD-golisopod-HomeSprite.png]]
+> ![[SRD-golisopod-BoxSprite.png|htiny]]
+> ![[SRD-golisopod-ShuffleToken.png|wsmall]]
+
 
 *Hard Scale Pokemon*
 *This Pokemon is a rare sight, for most Wimpods never evolve and when they do, Golisopod spend most of their lives in deep sea caves, meditating. It is extremely strong, its claws can tear through everything.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-golisopod-HomeSprite.png|right]]
-![[SRD-golisopod-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

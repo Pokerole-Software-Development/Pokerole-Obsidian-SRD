@@ -23,6 +23,7 @@ Name: Porygon
 Number: 137
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-porygon-ShuffleToken.png
 Sprite: porygon.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-porygon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-porygon-BookSprite.png|wsmall]]
+> ![[SRD-porygon-HomeSprite.png]]
+> ![[SRD-porygon-BoxSprite.png|htiny]]
+> ![[SRD-porygon-ShuffleToken.png|wsmall]]
+
 
 *Virtual Pokemon*
 *The first case of a man-made Pokemon created as computer data. It is capable of reverting itself into a program in order to enter the cyberspace. Its software has a firewall so it cannot be copied.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-porygon-HomeSprite.png|right]]
-![[SRD-porygon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

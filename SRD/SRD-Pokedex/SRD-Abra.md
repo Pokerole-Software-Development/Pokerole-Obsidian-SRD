@@ -23,6 +23,7 @@ Name: Abra
 Number: 63
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-abra-ShuffleToken.png
 Sprite: abra.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-abra-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-abra-BookSprite.png|wsmall]]
+> ![[SRD-abra-HomeSprite.png]]
+> ![[SRD-abra-BoxSprite.png|htiny]]
+> ![[SRD-abra-ShuffleToken.png|wsmall]]
+
 
 *Psi Pokemon*
 *They are attracted to the cities and tend to live close to humans. Its Psychic abilities are still developing, it can sleep up to 18 hours a day or else it won’t be able to use them. When in danger, it teleports away.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-abra-HomeSprite.png|right]]
-![[SRD-abra-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

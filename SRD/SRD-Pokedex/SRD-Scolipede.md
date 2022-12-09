@@ -23,6 +23,7 @@ Name: Scolipede
 Number: 545
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-scolipede-ShuffleToken.png
 Sprite: scolipede.png
 Type1: Bug
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-scolipede-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-scolipede-BookSprite.png|wsmall]]
+> ![[SRD-scolipede-HomeSprite.png]]
+> ![[SRD-scolipede-BoxSprite.png|htiny]]
+> ![[SRD-scolipede-ShuffleToken.png|wsmall]]
+
 
 *Megapede Pokemon*
 *Highly aggressive, it uses the claws on its neck to immobilize its prey and then inject them with poison to finish them off. Be very careful around this Pokemon as it will chase you relentlessly until it gets you.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-scolipede-HomeSprite.png|right]]
-![[SRD-scolipede-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

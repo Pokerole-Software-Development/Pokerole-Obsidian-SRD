@@ -23,6 +23,7 @@ Name: Caterpie
 Number: 10
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-caterpie-ShuffleToken.png
 Sprite: caterpie.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-caterpie-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-caterpie-BookSprite.png|wsmall]]
+> ![[SRD-caterpie-HomeSprite.png]]
+> ![[SRD-caterpie-BoxSprite.png|htiny]]
+> ![[SRD-caterpie-ShuffleToken.png|wsmall]]
+
 
 *Worm Pokemon*
 *It is very common in the forests. Its voracious appetite compels it to devour leaves bigger than itself without hesitation. It releases a foul odor from its antennae if it feels threatened.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-caterpie-HomeSprite.png|right]]
-![[SRD-caterpie-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

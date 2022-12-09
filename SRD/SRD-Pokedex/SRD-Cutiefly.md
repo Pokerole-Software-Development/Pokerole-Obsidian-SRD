@@ -23,6 +23,7 @@ Name: Cutiefly
 Number: 742
 PrimaryEggGroup: Bug
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-cutiefly-ShuffleToken.png
 Sprite: cutiefly.png
 Type1: Bug
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cutiefly-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cutiefly-BookSprite.png|wsmall]]
+> ![[SRD-cutiefly-HomeSprite.png]]
+> ![[SRD-cutiefly-BoxSprite.png|htiny]]
+> ![[SRD-cutiefly-ShuffleToken.png|wsmall]]
+
 
 *Bee Fly Pokemon*
 *These delicate Pokemon gather by the numbers in flower meadows. They are attracted to happy and joyful people, the story says that Cutiefly see their auras and they resemble flowers.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-cutiefly-HomeSprite.png|right]]
-![[SRD-cutiefly-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

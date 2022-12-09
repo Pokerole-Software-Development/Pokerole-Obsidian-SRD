@@ -23,6 +23,7 @@ Name: Whiscash
 Number: 340
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-whiscash-ShuffleToken.png
 Sprite: whiscash.png
 Type1: Water
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-whiscash-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-whiscash-BookSprite.png|wsmall]]
+> ![[SRD-whiscash-HomeSprite.png]]
+> ![[SRD-whiscash-BoxSprite.png|htiny]]
+> ![[SRD-whiscash-ShuffleToken.png|wsmall]]
+
 
 *Whiskers Pokemon*
 *Dangerous and territorial, they claim entire ponds as their homes and will crush whoever dares to dive in with earthquakes. They eat anything alive in their pond or swamp. They have learned to foretell real tremors.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-whiscash-HomeSprite.png|right]]
-![[SRD-whiscash-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

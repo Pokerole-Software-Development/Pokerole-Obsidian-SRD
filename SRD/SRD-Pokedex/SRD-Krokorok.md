@@ -23,6 +23,7 @@ Name: Krokorok
 Number: 552
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-krokorok-ShuffleToken.png
 Sprite: krokorok.png
 Type1: Ground
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-krokorok-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-krokorok-BookSprite.png|wsmall]]
+> ![[SRD-krokorok-HomeSprite.png]]
+> ![[SRD-krokorok-BoxSprite.png|htiny]]
+> ![[SRD-krokorok-ShuffleToken.png|wsmall]]
+
 
 *Desert Croc Pokemon*
 *The protective membranes shield their eyes from sandstorms and allow them to see in the dark. They can be aggressive and territorial and love to destroy things with their fangs.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-krokorok-HomeSprite.png|right]]
-![[SRD-krokorok-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

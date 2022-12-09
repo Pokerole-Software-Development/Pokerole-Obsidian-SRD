@@ -23,6 +23,7 @@ Name: Braixen
 Number: 654
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-braixen-ShuffleToken.png
 Sprite: braixen.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-braixen-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-braixen-BookSprite.png|wsmall]]
+> ![[SRD-braixen-HomeSprite.png]]
+> ![[SRD-braixen-BoxSprite.png|htiny]]
+> ![[SRD-braixen-ShuffleToken.png|wsmall]]
+
 
 *Fox Pokemon*
 *Using friction from its tail fur, it sets the twig it carries on fire and launches into battle. The flame on the twig is used to send signals and to create patters out of the embers. It is said the twig is a magic wand.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-braixen-HomeSprite.png|right]]
-![[SRD-braixen-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

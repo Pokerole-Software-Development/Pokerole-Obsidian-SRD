@@ -23,6 +23,7 @@ Name: Groudon
 Number: 383
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-groudon-ShuffleToken.png
 Sprite: groudon.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-groudon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-groudon-BookSprite.png|wsmall]]
+> ![[SRD-groudon-HomeSprite.png]]
+> ![[SRD-groudon-BoxSprite.png|htiny]]
+> ![[SRD-groudon-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Described in mythology as the God creator of lands, mountains, volcanoes and continents. Any water or clouds evaporate in its presence. It is the mortal enemy of Kyogre.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-groudon-HomeSprite.png|right]]
-![[SRD-groudon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

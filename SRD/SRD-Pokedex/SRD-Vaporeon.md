@@ -23,6 +23,7 @@ Name: Vaporeon
 Number: 134
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-vaporeon-ShuffleToken.png
 Sprite: vaporeon.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-vaporeon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-vaporeon-BookSprite.png|wsmall]]
+> ![[SRD-vaporeon-HomeSprite.png]]
+> ![[SRD-vaporeon-BoxSprite.png|htiny]]
+> ![[SRD-vaporeon-ShuffleToken.png|wsmall]]
+
 
 *Bubble Jet Pokemon*
 *Vaporeon underwent through a strange mutation, it grew fins and gills that allow it to live underwater. This Pokemon has the ability to become translucent when it dives underwater.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-vaporeon-HomeSprite.png|right]]
-![[SRD-vaporeon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

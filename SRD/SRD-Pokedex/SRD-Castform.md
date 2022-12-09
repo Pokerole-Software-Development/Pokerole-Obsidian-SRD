@@ -23,6 +23,7 @@ Name: Castform
 Number: 351
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-castform-ShuffleToken.png
 Sprite: castform.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-castform-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-castform-BookSprite.png|wsmall]]
+> ![[SRD-castform-HomeSprite.png]]
+> ![[SRD-castform-BoxSprite.png|htiny]]
+> ![[SRD-castform-ShuffleToken.png|wsmall]]
+
 
 *Weather Pokemon*
 *This Pokemon reacts to the weather by changing its type and looks. It can also change the weather at will. When there is a drought, farmers lure them with small hanging dolls to ask them for rain.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-castform-HomeSprite.png|right]]
-![[SRD-castform-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

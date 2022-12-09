@@ -23,6 +23,7 @@ Name: Alolan Dugtrio
 Number: 51
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-dugtrio-alola-ShuffleToken.png
 Sprite: dugtrio-alola.png
 Type1: Ground
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dugtrio-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dugtrio-alola-BookSprite.png|wsmall]]
+> ![[SRD-dugtrio-alola-HomeSprite.png]]
+> ![[SRD-dugtrio-alola-BoxSprite.png|htiny]]
+> ![[SRD-dugtrio-alola-ShuffleToken.png|wsmall]]
+
 
 *Mole Pokemon*
 *Thanks to its golden mane, this Pokemon has been revered as a feminine deity. The triplets groom each other to help keep the hair glossy and dirt-free, they don’t like to be petted.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-dugtrio-alola-HomeSprite.png|right]]
-![[SRD-dugtrio-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

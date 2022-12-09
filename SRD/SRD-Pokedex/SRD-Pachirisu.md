@@ -23,6 +23,7 @@ Name: Pachirisu
 Number: 417
 PrimaryEggGroup: Field
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-pachirisu-ShuffleToken.png
 Sprite: pachirisu.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pachirisu-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pachirisu-BookSprite.png|wsmall]]
+> ![[SRD-pachirisu-HomeSprite.png]]
+> ![[SRD-pachirisu-BoxSprite.png|htiny]]
+> ![[SRD-pachirisu-ShuffleToken.png|wsmall]]
+
 
 *EleSquirrel Pokemon*
 *It lives on top of the trees, gathering food for the cold winter months. It keeps warm by making fur balls charged with static electricity. Like other electric rodents, it stores electricity on its cheek pouches.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-pachirisu-HomeSprite.png|right]]
-![[SRD-pachirisu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

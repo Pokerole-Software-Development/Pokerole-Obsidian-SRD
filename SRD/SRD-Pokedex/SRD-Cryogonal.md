@@ -23,6 +23,7 @@ Name: Cryogonal
 Number: 615
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-cryogonal-ShuffleToken.png
 Sprite: cryogonal.png
 Type1: Ice
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cryogonal-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cryogonal-BookSprite.png|wsmall]]
+> ![[SRD-cryogonal-HomeSprite.png]]
+> ![[SRD-cryogonal-BoxSprite.png|htiny]]
+> ![[SRD-cryogonal-ShuffleToken.png|wsmall]]
+
 
 *Crystallizing Pokemon*
 *They are born in snow clouds. Using chains made of ice crystals they capture prey. If their body temperature goes up, they turns into steam and vanish until it freezes and becomes ice again.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-cryogonal-HomeSprite.png|right]]
-![[SRD-cryogonal-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

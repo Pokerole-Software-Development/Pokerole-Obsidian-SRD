@@ -23,6 +23,7 @@ Name: Gligar
 Number: 207
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gligar-ShuffleToken.png
 Sprite: gligar.png
 Type1: Ground
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gligar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gligar-BookSprite.png|wsmall]]
+> ![[SRD-gligar-HomeSprite.png]]
+> ![[SRD-gligar-BoxSprite.png|htiny]]
+> ![[SRD-gligar-ShuffleToken.png|wsmall]]
+
 
 *Fly Scorpion Pokemon*
 *It hangs from cliffs waiting for its prey. It flies straight at the target’s face, grapples the victim with its pincers and clawed hind legs, lastly, it injects poison with its tail. Gligar can glide without making any noise.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-gligar-HomeSprite.png|right]]
-![[SRD-gligar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

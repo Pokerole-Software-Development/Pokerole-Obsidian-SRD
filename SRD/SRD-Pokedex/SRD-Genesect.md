@@ -23,6 +23,7 @@ Name: Genesect
 Number: 649
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-genesect-ShuffleToken.png
 Sprite: genesect.png
 Type1: Bug
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-genesect-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-genesect-BookSprite.png|wsmall]]
+> ![[SRD-genesect-HomeSprite.png]]
+> ![[SRD-genesect-BoxSprite.png|htiny]]
+> ![[SRD-genesect-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Fossil revival is now possible with our incredible technology. Recently, some researchers sparked a controversial debate by altering the original forms of the revived Pokemon through artificial means.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-genesect-HomeSprite.png|right]]
-![[SRD-genesect-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

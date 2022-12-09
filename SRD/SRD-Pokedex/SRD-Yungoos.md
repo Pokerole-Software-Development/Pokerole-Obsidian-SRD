@@ -23,6 +23,7 @@ Name: Yungoos
 Number: 734
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-yungoos-ShuffleToken.png
 Sprite: yungoos.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-yungoos-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-yungoos-BookSprite.png|wsmall]]
+> ![[SRD-yungoos-HomeSprite.png]]
+> ![[SRD-yungoos-BoxSprite.png|htiny]]
+> ![[SRD-yungoos-ShuffleToken.png|wsmall]]
+
 
 *Loitering Pokemon*
 *This Pokemon was brought to Alola in an attempt to eradicate Ratatta. It spends all day searching for prey and it’s constantly hungry. when the sun sets it falls asleep right where it was standing.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-yungoos-HomeSprite.png|right]]
-![[SRD-yungoos-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

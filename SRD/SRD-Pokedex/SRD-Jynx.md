@@ -23,6 +23,7 @@ Name: Jynx
 Number: 124
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-jynx-ShuffleToken.png
 Sprite: jynx.png
 Type1: Ice
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-jynx-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-jynx-BookSprite.png|wsmall]]
+> ![[SRD-jynx-HomeSprite.png]]
+> ![[SRD-jynx-BoxSprite.png|htiny]]
+> ![[SRD-jynx-ShuffleToken.png|wsmall]]
+
 
 *Humanshape Pokemon*
 *It is not common outside cold areas. This Pokemon is female only. Its cries sound like human speech. However, it is impossible to tell what it is trying to say. The way it moves and talks induce others to dance.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-jynx-HomeSprite.png|right]]
-![[SRD-jynx-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

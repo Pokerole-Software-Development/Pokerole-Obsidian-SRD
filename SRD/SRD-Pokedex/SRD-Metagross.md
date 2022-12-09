@@ -26,6 +26,7 @@ Name: Metagross
 Number: 376
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-metagross-ShuffleToken.png
 Sprite: metagross.png
 Type1: Steel
 Type2: Psychic
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-metagross-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-metagross-BookSprite.png|wsmall]]
+> ![[SRD-metagross-HomeSprite.png]]
+> ![[SRD-metagross-BoxSprite.png|htiny]]
+> ![[SRD-metagross-ShuffleToken.png|wsmall]]
+
 
 *Iron Leg Pokemon*
 *It has four powerful brains that allow it to react at the speed of a super computer. It pins its prey under its massive body, then eats it using the large mouth on its stomach. A powerful and ruthless Pokemon.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-metagross-HomeSprite.png|right]]
-![[SRD-metagross-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

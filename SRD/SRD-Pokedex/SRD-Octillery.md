@@ -23,6 +23,7 @@ Name: Octillery
 Number: 224
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 2
+ShuffleToken: SRD-octillery-ShuffleToken.png
 Sprite: octillery.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-octillery-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-octillery-BookSprite.png|wsmall]]
+> ![[SRD-octillery-HomeSprite.png]]
+> ![[SRD-octillery-BoxSprite.png|htiny]]
+> ![[SRD-octillery-ShuffleToken.png|wsmall]]
+
 
 *Jet Pokemon*
 *Octillery sprays ink, traps its foes with its tentacles and then hits them with its rock-hard head. If the enemy is too strong, they escape. They can be found inside rocky holes deep in the sea floor.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-octillery-HomeSprite.png|right]]
-![[SRD-octillery-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Furfrou
 Number: 676
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-furfrou-ShuffleToken.png
 Sprite: furfrou.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-furfrou-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-furfrou-BookSprite.png|wsmall]]
+> ![[SRD-furfrou-HomeSprite.png]]
+> ![[SRD-furfrou-BoxSprite.png|htiny]]
+> ![[SRD-furfrou-ShuffleToken.png|wsmall]]
+
 
 *Poodle Pokemon*
 *Historically, these Pokemon were the designated guardians of the kings. They are popular pets now and people love to trim their fur into exotic hairstyles. But their protective nature has never been lost.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-furfrou-HomeSprite.png|right]]
-![[SRD-furfrou-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

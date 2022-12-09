@@ -23,6 +23,7 @@ Name: Grovyle
 Number: 253
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-grovyle-ShuffleToken.png
 Sprite: grovyle.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-grovyle-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-grovyle-BookSprite.png|wsmall]]
+> ![[SRD-grovyle-HomeSprite.png]]
+> ![[SRD-grovyle-BoxSprite.png|htiny]]
+> ![[SRD-grovyle-ShuffleToken.png|wsmall]]
+
 
 *Wood Gecko Pokemon*
 *Their leaves provide camouflage in the jungles. They appear to fly from tree to tree, jumping huge lengths with amazing speed. It’s almost impossible to catch them once they start running away..*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-grovyle-HomeSprite.png|right]]
-![[SRD-grovyle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

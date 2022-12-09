@@ -23,6 +23,7 @@ Name: Terrakion
 Number: 639
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-terrakion-ShuffleToken.png
 Sprite: terrakion.png
 Type1: Rock
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-terrakion-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-terrakion-BookSprite.png|wsmall]]
+> ![[SRD-terrakion-HomeSprite.png]]
+> ![[SRD-terrakion-BoxSprite.png|htiny]]
+> ![[SRD-terrakion-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Legends in Unova tell about four Pokemon that rebelled against the unfair ruler. One of them trampled through the castle walls, destroying the fortress to free the trapped Pokemon inside.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-terrakion-HomeSprite.png|right]]
-![[SRD-terrakion-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

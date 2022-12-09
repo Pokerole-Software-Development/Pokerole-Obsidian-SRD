@@ -23,6 +23,7 @@ Name: Skwovet
 Number: 819
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-skwovet-ShuffleToken.png
 Sprite: skwovet.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-skwovet-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-skwovet-BookSprite.png|wsmall]]
+> ![[SRD-skwovet-HomeSprite.png]]
+> ![[SRD-skwovet-BoxSprite.png|htiny]]
+> ![[SRD-skwovet-ShuffleToken.png|wsmall]]
+
 
 *Cheeky Pokemon*
 *They love to feed on berries and nuts they store on their cheeks, they can get very anxious if its cheeks are empty. If you feed one of them they will follow you and call for others so you feed them as well.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-skwovet-HomeSprite.png|right]]
-![[SRD-skwovet-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

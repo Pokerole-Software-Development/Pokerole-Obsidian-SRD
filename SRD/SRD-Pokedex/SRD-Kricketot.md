@@ -23,6 +23,7 @@ Name: Kricketot
 Number: 401
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-kricketot-ShuffleToken.png
 Sprite: kricketot.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kricketot-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kricketot-BookSprite.png|wsmall]]
+> ![[SRD-kricketot-HomeSprite.png]]
+> ![[SRD-kricketot-BoxSprite.png|htiny]]
+> ![[SRD-kricketot-ShuffleToken.png|wsmall]]
+
 
 *Cricket Pokemon*
 *If you hear a xilophone-like sound at night it means that this Pokemon is roaming close. It communicates by making rhythmic sounds with its antennae. It is not aggressive and feeds on honey and tree sap.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-kricketot-HomeSprite.png|right]]
-![[SRD-kricketot-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

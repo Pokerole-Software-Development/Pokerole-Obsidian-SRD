@@ -23,6 +23,7 @@ Name: Tympole
 Number: 535
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tympole-ShuffleToken.png
 Sprite: tympole.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tympole-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tympole-BookSprite.png|wsmall]]
+> ![[SRD-tympole-HomeSprite.png]]
+> ![[SRD-tympole-BoxSprite.png|htiny]]
+> ![[SRD-tympole-ShuffleToken.png|wsmall]]
+
 
 *Tadpole Pokemon*
 *They appear in great numbers on marshes and ponds after a heavy rainfall. They warn others of danger and predators by vibrating their cheeks to create a high-pitched sound.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-tympole-HomeSprite.png|right]]
-![[SRD-tympole-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

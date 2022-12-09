@@ -23,6 +23,7 @@ Name: Barraskewda
 Number: 847
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-barraskewda-ShuffleToken.png
 Sprite: barraskewda.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-barraskewda-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-barraskewda-BookSprite.png|wsmall]]
+> ![[SRD-barraskewda-HomeSprite.png]]
+> ![[SRD-barraskewda-BoxSprite.png|htiny]]
+> ![[SRD-barraskewda-ShuffleToken.png|wsmall]]
+
 
 *Skewer Pokemon*
 *This Pokemon has a jaw that’s as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too. When they hunt, they have speed burst record of 100 knots.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-barraskewda-HomeSprite.png|right]]
-![[SRD-barraskewda-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

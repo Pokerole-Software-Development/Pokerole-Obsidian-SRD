@@ -23,6 +23,7 @@ Name: Throh
 Number: 538
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-throh-ShuffleToken.png
 Sprite: throh.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-throh-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-throh-BookSprite.png|wsmall]]
+> ![[SRD-throh-HomeSprite.png]]
+> ![[SRD-throh-BoxSprite.png|htiny]]
+> ![[SRD-throh-ShuffleToken.png|wsmall]]
+
 
 *Judo Pokemon*
 *When they encounter foes bigger than themselves, they try to throw them away. In the wild they always travel in packs of five and make their clothes and belts out of plants and vines.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-throh-HomeSprite.png|right]]
-![[SRD-throh-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

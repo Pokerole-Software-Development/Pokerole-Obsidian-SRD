@@ -23,6 +23,7 @@ Name: Seviper
 Number: 336
 PrimaryEggGroup: Field
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-seviper-ShuffleToken.png
 Sprite: seviper.png
 Type1: Poison
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-seviper-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-seviper-BookSprite.png|wsmall]]
+> ![[SRD-seviper-HomeSprite.png]]
+> ![[SRD-seviper-BoxSprite.png|htiny]]
+> ![[SRD-seviper-ShuffleToken.png|wsmall]]
+
 
 *Fang Snake Pokemon*
 *Their hate for the Zangoose has been boiling for so long it’s now a basic instinct. They battle using their sword-edged poisonous tail, hiding in tall grass until an unwary prey gets close enough.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-seviper-HomeSprite.png|right]]
-![[SRD-seviper-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

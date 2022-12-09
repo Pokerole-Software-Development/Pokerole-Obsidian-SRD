@@ -23,6 +23,7 @@ Name: Grumpig
 Number: 326
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-grumpig-ShuffleToken.png
 Sprite: grumpig.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-grumpig-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-grumpig-BookSprite.png|wsmall]]
+> ![[SRD-grumpig-HomeSprite.png]]
+> ![[SRD-grumpig-BoxSprite.png|htiny]]
+> ![[SRD-grumpig-ShuffleToken.png|wsmall]]
+
 
 *Manipulate Pokemon*
 *Grumpigs control their foes with their psychic powers amplified by the pearls on their head and a hypnotic dance. However, when they use their powers, they have a difficult time breathing.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-grumpig-HomeSprite.png|right]]
-![[SRD-grumpig-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

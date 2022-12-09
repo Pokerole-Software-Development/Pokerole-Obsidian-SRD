@@ -23,6 +23,7 @@ Name: Magneton
 Number: 82
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-magneton-ShuffleToken.png
 Sprite: magneton.png
 Type1: Electric
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-magneton-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-magneton-BookSprite.png|wsmall]]
+> ![[SRD-magneton-HomeSprite.png]]
+> ![[SRD-magneton-BoxSprite.png|htiny]]
+> ![[SRD-magneton-ShuffleToken.png|wsmall]]
+
 
 *Magnet Pokemon*
 *Sometimes three Magnemites fuse into this Pokemon; other times a single one sprouts two others. This species is greatly affected by magnetic fields. Magnetons are eager to please their trainers.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::6)     |
 
-![[SRD-magneton-HomeSprite.png|right]]
-![[SRD-magneton-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Hoppip
 Number: 187
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-hoppip-ShuffleToken.png
 Sprite: hoppip.png
 Type1: Grass
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-hoppip-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-hoppip-BookSprite.png|wsmall]]
+> ![[SRD-hoppip-HomeSprite.png]]
+> ![[SRD-hoppip-BoxSprite.png|htiny]]
+> ![[SRD-hoppip-ShuffleToken.png|wsmall]]
+
 
 *Cottonweed Pokemon*
 *This Pokemon drifts away by floating in the wind. Even the weakest current can lift them up. By the end of the winter you can see them flying above cities and fields. This means that spring is coming soon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-hoppip-HomeSprite.png|right]]
-![[SRD-hoppip-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

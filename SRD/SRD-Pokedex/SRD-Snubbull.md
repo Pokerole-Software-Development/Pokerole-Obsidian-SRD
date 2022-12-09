@@ -23,6 +23,7 @@ Name: Snubbull
 Number: 209
 PrimaryEggGroup: Field
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-snubbull-ShuffleToken.png
 Sprite: snubbull.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-snubbull-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-snubbull-BookSprite.png|wsmall]]
+> ![[SRD-snubbull-HomeSprite.png]]
+> ![[SRD-snubbull-BoxSprite.png|htiny]]
+> ![[SRD-snubbull-ShuffleToken.png|wsmall]]
+
 
 *Fairy Pokemon*
 *It may look frightening but it is a loving and caring creature, active and playful. Snubbulls are easily scared. When threatened by bigger foes they run away or make scary faces, that makes them sad though.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-snubbull-HomeSprite.png|right]]
-![[SRD-snubbull-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

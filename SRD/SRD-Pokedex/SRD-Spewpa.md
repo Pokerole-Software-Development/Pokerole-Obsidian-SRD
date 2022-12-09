@@ -23,6 +23,7 @@ Name: Spewpa
 Number: 665
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-spewpa-ShuffleToken.png
 Sprite: spewpa.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-spewpa-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-spewpa-BookSprite.png|wsmall]]
+> ![[SRD-spewpa-HomeSprite.png]]
+> ![[SRD-spewpa-BoxSprite.png|htiny]]
+> ![[SRD-spewpa-ShuffleToken.png|wsmall]]
+
 
 *Scatterdust Pokemon*
 *It remains hidden inside old logs. When predators attack, it quickly bristles the fur covering its body to scare them. Bird Pokemon have a hard time trying to eat it with all the dust it releases as protection.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-spewpa-HomeSprite.png|right]]
-![[SRD-spewpa-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

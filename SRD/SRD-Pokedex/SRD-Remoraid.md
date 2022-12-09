@@ -23,6 +23,7 @@ Name: Remoraid
 Number: 223
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 2
+ShuffleToken: SRD-remoraid-ShuffleToken.png
 Sprite: remoraid.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-remoraid-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-remoraid-BookSprite.png|wsmall]]
+> ![[SRD-remoraid-HomeSprite.png]]
+> ![[SRD-remoraid-BoxSprite.png|htiny]]
+> ![[SRD-remoraid-ShuffleToken.png|wsmall]]
+
 
 *Jet Pokemon*
 *Remoraid has a remarkable aim with its water gun. This ability is used to hunt down flying enemies above the sea. They can be seen clinging into Mantines to travel faster.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-remoraid-HomeSprite.png|right]]
-![[SRD-remoraid-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

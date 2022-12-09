@@ -23,6 +23,7 @@ Name: Dragonair
 Number: 148
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-dragonair-ShuffleToken.png
 Sprite: dragonair.png
 Type1: Dragon
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dragonair-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dragonair-BookSprite.png|wsmall]]
+> ![[SRD-dragonair-HomeSprite.png]]
+> ![[SRD-dragonair-BoxSprite.png|htiny]]
+> ![[SRD-dragonair-ShuffleToken.png|wsmall]]
+
 
 *Dragon Pokemon*
 *It is said to live in seas and lakes. Even though it has no wings, it has been depicted flying. There were legends of this Pokemon controlling the weather and ending the storms to leave a rainbow behind.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-dragonair-HomeSprite.png|right]]
-![[SRD-dragonair-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

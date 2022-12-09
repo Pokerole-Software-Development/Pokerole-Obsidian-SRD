@@ -23,6 +23,7 @@ Name: Haunter
 Number: 93
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-haunter-ShuffleToken.png
 Sprite: haunter.png
 Type1: Ghost
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-haunter-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-haunter-BookSprite.png|wsmall]]
+> ![[SRD-haunter-HomeSprite.png]]
+> ![[SRD-haunter-BoxSprite.png|htiny]]
+> ![[SRD-haunter-ShuffleToken.png|wsmall]]
+
 
 *Gas Pokemon*
 *Haunter is a dangerous Pokemon. it will try to lick you with its tongue to steal your life away. If you get the feeling of being watched in darkness when nobody is around, it means a Haunter is there.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-haunter-HomeSprite.png|right]]
-![[SRD-haunter-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

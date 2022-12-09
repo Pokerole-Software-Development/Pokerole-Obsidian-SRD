@@ -22,6 +22,7 @@ Name: Lunala
 Number: 792
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-lunala-ShuffleToken.png
 Sprite: lunala.png
 Type1: Psychic
 Type2: Ghost
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lunala-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lunala-BookSprite.png|wsmall]]
+> ![[SRD-lunala-HomeSprite.png]]
+> ![[SRD-lunala-BoxSprite.png|htiny]]
+> ![[SRD-lunala-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *There are legends about a being that shined with the moon, on its forehead a third eye that connected to another dimension.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-lunala-HomeSprite.png|right]]
-![[SRD-lunala-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

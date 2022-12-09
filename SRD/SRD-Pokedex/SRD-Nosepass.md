@@ -23,6 +23,7 @@ Name: Nosepass
 Number: 299
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-nosepass-ShuffleToken.png
 Sprite: nosepass.png
 Type1: Rock
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-nosepass-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-nosepass-BookSprite.png|wsmall]]
+> ![[SRD-nosepass-HomeSprite.png]]
+> ![[SRD-nosepass-BoxSprite.png|htiny]]
+> ![[SRD-nosepass-ShuffleToken.png|wsmall]]
+
 
 *Nosepass Pokemon*
 *Their magnetic noses always point to the north. They were thought to be immobile, but it was recently revealed that they actually move 3/8 of an inch every year. They get a little crazy when magnets are close.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-nosepass-HomeSprite.png|right]]
-![[SRD-nosepass-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

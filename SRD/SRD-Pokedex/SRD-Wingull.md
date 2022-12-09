@@ -23,6 +23,7 @@ Name: Wingull
 Number: 278
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Flying
+ShuffleToken: SRD-wingull-ShuffleToken.png
 Sprite: wingull.png
 Type1: Water
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-wingull-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-wingull-BookSprite.png|wsmall]]
+> ![[SRD-wingull-HomeSprite.png]]
+> ![[SRD-wingull-BoxSprite.png|htiny]]
+> ![[SRD-wingull-ShuffleToken.png|wsmall]]
+
 
 *Seagull Pokemon*
 *They carry prey and precious items in their beaks, hiding them in strange locations. They nest in sheer cliffs at the sea’s edge. They often harass fishing boats to steal an easy meal for themselves.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-wingull-HomeSprite.png|right]]
-![[SRD-wingull-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

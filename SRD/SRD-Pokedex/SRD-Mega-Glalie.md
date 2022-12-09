@@ -23,6 +23,7 @@ Name: Mega-Glalie
 Number: 362
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Mineral
+ShuffleToken: SRD-glalie-mega-ShuffleToken.png
 Sprite: glalie-mega.png
 Type1: Ice
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-glalie-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-glalie-mega-BookSprite.png|wsmall]]
+> ![[SRD-glalie-mega-HomeSprite.png]]
+> ![[SRD-glalie-mega-BoxSprite.png|htiny]]
+> ![[SRD-glalie-mega-ShuffleToken.png|wsmall]]
+
 
 *Face Pokemon*
 *The power of the Mega Stone bent its jaw at an unnatural angle, this helps it spew enormous blizzards but leaves it unable to eat any prey it catches. This makes it angry and will weaken it if it stays in this form.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-glalie-mega-HomeSprite.png|right]]
-![[SRD-glalie-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

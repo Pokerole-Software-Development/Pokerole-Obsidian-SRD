@@ -23,6 +23,7 @@ Name: Jumpluff
 Number: 189
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-jumpluff-ShuffleToken.png
 Sprite: jumpluff.png
 Type1: Grass
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-jumpluff-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-jumpluff-BookSprite.png|wsmall]]
+> ![[SRD-jumpluff-HomeSprite.png]]
+> ![[SRD-jumpluff-BoxSprite.png|htiny]]
+> ![[SRD-jumpluff-ShuffleToken.png|wsmall]]
+
 
 *Cottonweed Pokemon*
 *It flies along the wind and spreads its cotton-like spores all over the world to make more offspring. It is always looking for warm places, if it gets caught by a cold front, it will land to find shelter.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-jumpluff-HomeSprite.png|right]]
-![[SRD-jumpluff-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

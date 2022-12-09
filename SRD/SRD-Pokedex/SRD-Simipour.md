@@ -23,6 +23,7 @@ Name: Simipour
 Number: 516
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-simipour-ShuffleToken.png
 Sprite: simipour.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-simipour-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-simipour-BookSprite.png|wsmall]]
+> ![[SRD-simipour-HomeSprite.png]]
+> ![[SRD-simipour-BoxSprite.png|htiny]]
+> ![[SRD-simipour-ShuffleToken.png|wsmall]]
+
 
 *Geyser Pokemon*
 *It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning water up with its tail. It is said that if you see a Simipour Swimming in a pond, the water is safe to drink.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-simipour-HomeSprite.png|right]]
-![[SRD-simipour-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

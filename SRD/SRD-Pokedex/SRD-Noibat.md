@@ -23,6 +23,7 @@ Name: Noibat
 Number: 714
 PrimaryEggGroup: Flying
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-noibat-ShuffleToken.png
 Sprite: noibat.png
 Type1: Flying
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-noibat-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-noibat-BookSprite.png|wsmall]]
+> ![[SRD-noibat-HomeSprite.png]]
+> ![[SRD-noibat-BoxSprite.png|htiny]]
+> ![[SRD-noibat-ShuffleToken.png|wsmall]]
+
 
 *Sound Wave Pokemon*
 *They live in dark caves and use echolocation to move around. Their enormous ears can emit ultrasonic waves that cause dizziness. Groups of them can even take on prey several times their size.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-noibat-HomeSprite.png|right]]
-![[SRD-noibat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

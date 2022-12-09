@@ -23,6 +23,7 @@ Name: Spinda
 Number: 327
 PrimaryEggGroup: Field
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-spinda-ShuffleToken.png
 Sprite: spinda.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-spinda-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-spinda-BookSprite.png|wsmall]]
+> ![[SRD-spinda-HomeSprite.png]]
+> ![[SRD-spinda-BoxSprite.png|htiny]]
+> ![[SRD-spinda-ShuffleToken.png|wsmall]]
+
 
 *Spot Panda Pokemon*
 *Spindas move while stumbling in dizziness. This teeter dance causes a severe confusion on whoever is looking. They are shy towards humans but sometimes they appear in towns looking really disoriented.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-spinda-HomeSprite.png|right]]
-![[SRD-spinda-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

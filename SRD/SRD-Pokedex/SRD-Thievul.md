@@ -23,6 +23,7 @@ Name: Thievul
 Number: 828
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-thievul-ShuffleToken.png
 Sprite: thievul.png
 Type1: Dark
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-thievul-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-thievul-BookSprite.png|wsmall]]
+> ![[SRD-thievul-HomeSprite.png]]
+> ![[SRD-thievul-BoxSprite.png|htiny]]
+> ![[SRD-thievul-ShuffleToken.png|wsmall]]
+
 
 *Fox Pokemon*
 *They have long been hunted down by packs of Boltund because of all the trouble they cause in human settlements. They are experts at stealing food and Pokemon eggs, never leaving a trace behind.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-thievul-HomeSprite.png|right]]
-![[SRD-thievul-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

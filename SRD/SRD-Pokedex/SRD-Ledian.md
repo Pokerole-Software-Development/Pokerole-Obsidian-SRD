@@ -23,6 +23,7 @@ Name: Ledian
 Number: 166
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-ledian-ShuffleToken.png
 Sprite: ledian.png
 Type1: Bug
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ledian-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ledian-BookSprite.png|wsmall]]
+> ![[SRD-ledian-HomeSprite.png]]
+> ![[SRD-ledian-BoxSprite.png|htiny]]
+> ![[SRD-ledian-ShuffleToken.png|wsmall]]
+
 
 *Five Star Pokemon*
 *When the stars flicker in the night sky, it flutters about scattering a glowing powder. The spot patterns on its back grow larger or smaller at night depending on the number of stars in the sky.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-ledian-HomeSprite.png|right]]
-![[SRD-ledian-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

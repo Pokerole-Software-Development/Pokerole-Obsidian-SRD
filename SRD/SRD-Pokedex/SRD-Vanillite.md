@@ -23,6 +23,7 @@ Name: Vanillite
 Number: 582
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-vanillite-ShuffleToken.png
 Sprite: vanillite.png
 Type1: Ice
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-vanillite-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-vanillite-BookSprite.png|wsmall]]
+> ![[SRD-vanillite-HomeSprite.png]]
+> ![[SRD-vanillite-BoxSprite.png|htiny]]
+> ![[SRD-vanillite-ShuffleToken.png|wsmall]]
+
 
 *Fresh Snow Pokemon*
 *This Pokemon were born from icicles that bathed in the energy of the morning sun. It uses snow to cover its head and protect it from melting. They are playful and love to make snow fall around them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-vanillite-HomeSprite.png|right]]
-![[SRD-vanillite-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Grotle
 Number: 388
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-grotle-ShuffleToken.png
 Sprite: grotle.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-grotle-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-grotle-BookSprite.png|wsmall]]
+> ![[SRD-grotle-HomeSprite.png]]
+> ![[SRD-grotle-BoxSprite.png|htiny]]
+> ![[SRD-grotle-ShuffleToken.png|wsmall]]
+
 
 *Grove Pokemon*
 *Other Pokemon harass Grotle when the bushes on its back have berries or fruit. It patiently waits for others to finish eating before moving. It loves clear water and it’s good at finding cool ponds and springs.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-grotle-HomeSprite.png|right]]
-![[SRD-grotle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

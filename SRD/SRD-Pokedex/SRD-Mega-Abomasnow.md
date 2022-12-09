@@ -23,6 +23,7 @@ Name: Mega-Abomasnow
 Number: 460
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-abomasnow-mega-ShuffleToken.png
 Sprite: abomasnow-mega.png
 Type1: Grass
 Type2: Ice
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-abomasnow-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-abomasnow-mega-BookSprite.png|wsmall]]
+> ![[SRD-abomasnow-mega-HomeSprite.png]]
+> ![[SRD-abomasnow-mega-BoxSprite.png|htiny]]
+> ![[SRD-abomasnow-mega-ShuffleToken.png|wsmall]]
+
 
 *Frosted Tree Pokemon*
 *The power of the Mega Stone freezes part of its body creating pointy icicles that hail upon its enemies in a blizzard. The angrier it becomes the longer the storm will last.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-abomasnow-mega-HomeSprite.png|right]]
-![[SRD-abomasnow-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

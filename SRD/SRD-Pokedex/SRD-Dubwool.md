@@ -23,6 +23,7 @@ Name: Dubwool
 Number: 832
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-dubwool-ShuffleToken.png
 Sprite: dubwool.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dubwool-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dubwool-BookSprite.png|wsmall]]
+> ![[SRD-dubwool-HomeSprite.png]]
+> ![[SRD-dubwool-BoxSprite.png|htiny]]
+> ![[SRD-dubwool-ShuffleToken.png|wsmall]]
+
 
 *Sheep Pokemon*
 *Humble and calm, their wool has springy properties. A king in ancient times ordered a carpet made from 100 Dubwool, when it was done, those who step on it started to bounce the moment they set foot on it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-dubwool-HomeSprite.png|right]]
-![[SRD-dubwool-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

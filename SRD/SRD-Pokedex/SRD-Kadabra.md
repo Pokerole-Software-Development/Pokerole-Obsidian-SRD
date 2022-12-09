@@ -23,6 +23,7 @@ Name: Kadabra
 Number: 64
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-kadabra-ShuffleToken.png
 Sprite: kadabra.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kadabra-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kadabra-BookSprite.png|wsmall]]
+> ![[SRD-kadabra-HomeSprite.png]]
+> ![[SRD-kadabra-BoxSprite.png|htiny]]
+> ![[SRD-kadabra-ShuffleToken.png|wsmall]]
+
 
 *Psi Pokemon*
 *Kadabra holds a silver spoon in its hand. The spoon is used to amplify the alpha waves of its brain. When this Pokemon walks in, objects near to it go crazy, moving in ways they shouldn’t.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-kadabra-HomeSprite.png|right]]
-![[SRD-kadabra-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

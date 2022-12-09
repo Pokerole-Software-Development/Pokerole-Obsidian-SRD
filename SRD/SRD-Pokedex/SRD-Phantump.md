@@ -23,6 +23,7 @@ Name: Phantump
 Number: 708
 PrimaryEggGroup: Grass
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-phantump-ShuffleToken.png
 Sprite: phantump.png
 Type1: Ghost
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-phantump-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-phantump-BookSprite.png|wsmall]]
+> ![[SRD-phantump-HomeSprite.png]]
+> ![[SRD-phantump-BoxSprite.png|htiny]]
+> ![[SRD-phantump-ShuffleToken.png|wsmall]]
+
 
 *Stump Pokemon*
 *According to the old tales, these Pokemon are stumps possessed by the spirits of children who were lost in the forest. They prefer to live in abandoned woods and lure people to the darkness to play with them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-phantump-HomeSprite.png|right]]
-![[SRD-phantump-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

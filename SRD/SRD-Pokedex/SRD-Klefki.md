@@ -23,6 +23,7 @@ Name: Klefki
 Number: 707
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-klefki-ShuffleToken.png
 Sprite: klefki.png
 Type1: Steel
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-klefki-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-klefki-BookSprite.png|wsmall]]
+> ![[SRD-klefki-HomeSprite.png]]
+> ![[SRD-klefki-BoxSprite.png|htiny]]
+> ![[SRD-klefki-ShuffleToken.png|wsmall]]
+
 
 *Key Ring Pokemon*
 *It adapted well to live with humans. Klefki jingle the objects they collect when they are distressed. People trust them with their keys to vaults and safes because they are very careful with their collection.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-klefki-HomeSprite.png|right]]
-![[SRD-klefki-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

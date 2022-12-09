@@ -23,6 +23,7 @@ Name: Froakie
 Number: 656
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-froakie-ShuffleToken.png
 Sprite: froakie.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-froakie-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-froakie-BookSprite.png|wsmall]]
+> ![[SRD-froakie-HomeSprite.png]]
+> ![[SRD-froakie-BoxSprite.png|htiny]]
+> ![[SRD-froakie-ShuffleToken.png|wsmall]]
+
 
 *Bubble Frog Pokemon*
 *It protects its skin by covering its body in bubble foam. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings. It needs good discipline or it will be bad mannered with others.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-froakie-HomeSprite.png|right]]
-![[SRD-froakie-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

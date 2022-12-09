@@ -23,6 +23,7 @@ Name: Pidgeotto
 Number: 17
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pidgeotto-ShuffleToken.png
 Sprite: pidgeotto.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pidgeotto-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pidgeotto-BookSprite.png|wsmall]]
+> ![[SRD-pidgeotto-HomeSprite.png]]
+> ![[SRD-pidgeotto-BoxSprite.png|htiny]]
+> ![[SRD-pidgeotto-ShuffleToken.png|wsmall]]
+
 
 *Bird Pokemon*
 *Each Pidgeotto claims a large meadow area as its territory. This Pokemon flies around, patrolling its home and will attack any intruders with its sharp claws. It will challenge itself to fly a bit higher every day.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-pidgeotto-HomeSprite.png|right]]
-![[SRD-pidgeotto-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

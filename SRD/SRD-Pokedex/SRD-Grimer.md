@@ -23,6 +23,7 @@ Name: Grimer
 Number: 88
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-grimer-ShuffleToken.png
 Sprite: grimer.png
 Type1: Poison
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-grimer-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-grimer-BookSprite.png|wsmall]]
+> ![[SRD-grimer-HomeSprite.png]]
+> ![[SRD-grimer-BoxSprite.png|htiny]]
+> ![[SRD-grimer-ShuffleToken.png|wsmall]]
+
 
 *Sludge Pokemon*
 *It was born from polluted sludge in the sea. Grimer's favorite food is anything filthy like waste water pumped out from factories. Grime and sludge stick to their body making them grow larger over time.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-grimer-HomeSprite.png|right]]
-![[SRD-grimer-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

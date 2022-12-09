@@ -23,6 +23,7 @@ Name: Granbull
 Number: 210
 PrimaryEggGroup: Field
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-granbull-ShuffleToken.png
 Sprite: granbull.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-granbull-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-granbull-BookSprite.png|wsmall]]
+> ![[SRD-granbull-HomeSprite.png]]
+> ![[SRD-granbull-BoxSprite.png|htiny]]
+> ![[SRD-granbull-ShuffleToken.png|wsmall]]
+
 
 *Fairy Pokemon*
 *Granbull is usually a timid creature that is easily spooked. Its fangs are extremely powerful and scary so no one dares to mess with it or its loved ones. It will use its giant fangs to attack if it needs to.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-granbull-HomeSprite.png|right]]
-![[SRD-granbull-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

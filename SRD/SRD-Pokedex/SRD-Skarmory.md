@@ -23,6 +23,7 @@ Name: Skarmory
 Number: 227
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-skarmory-ShuffleToken.png
 Sprite: skarmory.png
 Type1: Steel
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-skarmory-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-skarmory-BookSprite.png|wsmall]]
+> ![[SRD-skarmory-HomeSprite.png]]
+> ![[SRD-skarmory-BoxSprite.png|htiny]]
+> ![[SRD-skarmory-ShuffleToken.png|wsmall]]
+
 
 *Armor Bird Pokemon*
 *Their wings are hollow and light. They nest inside bramble bushes, growing harder from scratches made by thorns. Their wings were used as swords and knives in old times. Beware of their sharp beak.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-skarmory-HomeSprite.png|right]]
-![[SRD-skarmory-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

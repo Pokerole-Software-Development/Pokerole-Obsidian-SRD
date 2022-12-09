@@ -23,6 +23,7 @@ Name: Stunfisk
 Number: 618
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-stunfisk-ShuffleToken.png
 Sprite: stunfisk.png
 Type1: Ground
 Type2: Electric
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-stunfisk-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-stunfisk-BookSprite.png|wsmall]]
+> ![[SRD-stunfisk-HomeSprite.png]]
+> ![[SRD-stunfisk-BoxSprite.png|htiny]]
+> ![[SRD-stunfisk-ShuffleToken.png|wsmall]]
+
 
 *Trap Pokemon*
 *It conceals itself in the mud of the seashore, then it waits. When prey touch it, it delivers a jolt of electricity. Its skin is very hard and it can position itself to keep unhurt even if stepped on by a heavy Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-stunfisk-HomeSprite.png|right]]
-![[SRD-stunfisk-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

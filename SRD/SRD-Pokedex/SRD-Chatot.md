@@ -24,6 +24,7 @@ Name: Chatot
 Number: 441
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-chatot-ShuffleToken.png
 Sprite: chatot.png
 Type1: Normal
 Type2: Flying
@@ -37,7 +38,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-chatot-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-chatot-BookSprite.png|wsmall]]
+> ![[SRD-chatot-HomeSprite.png]]
+> ![[SRD-chatot-BoxSprite.png|htiny]]
+> ![[SRD-chatot-ShuffleToken.png|wsmall]]
+
 
 *Music Note Pokemon*
 *It mimics the cries of other Pokemon to trick them into thinking it’s one of them, this way they won’t attack it. Chatots that live with humans learn words and phrases but it’s unknown it they really know their meaning.*
@@ -56,8 +62,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-chatot-HomeSprite.png|right]]
-![[SRD-chatot-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

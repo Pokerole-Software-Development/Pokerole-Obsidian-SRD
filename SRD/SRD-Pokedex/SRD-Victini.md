@@ -22,6 +22,7 @@ Name: Victini
 Number: 494
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-victini-ShuffleToken.png
 Sprite: victini.png
 Type1: Psychic
 Type2: Fire
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-victini-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-victini-BookSprite.png|wsmall]]
+> ![[SRD-victini-HomeSprite.png]]
+> ![[SRD-victini-BoxSprite.png|htiny]]
+> ![[SRD-victini-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *On tournament days, Trainers eat a “V” shaped apple as a sign of good luck. It is unknown if it has anything to do with this Pokemon.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-victini-HomeSprite.png|right]]
-![[SRD-victini-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

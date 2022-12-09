@@ -23,6 +23,7 @@ Name: Luvdisc
 Number: 370
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-luvdisc-ShuffleToken.png
 Sprite: luvdisc.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-luvdisc-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-luvdisc-BookSprite.png|wsmall]]
+> ![[SRD-luvdisc-HomeSprite.png]]
+> ![[SRD-luvdisc-BoxSprite.png|htiny]]
+> ![[SRD-luvdisc-ShuffleToken.png|wsmall]]
+
 
 *Rendezvous Pokemon*
 *Luvdisc is a symbol of romance. It lives in shallow seas, swimming after couples, bringing them closer and promising eternal love. During their spawning season, the waters around them turn pink.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-luvdisc-HomeSprite.png|right]]
-![[SRD-luvdisc-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

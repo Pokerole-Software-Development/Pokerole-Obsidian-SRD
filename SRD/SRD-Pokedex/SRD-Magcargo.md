@@ -23,6 +23,7 @@ Name: Magcargo
 Number: 219
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-magcargo-ShuffleToken.png
 Sprite: magcargo.png
 Type1: Fire
 Type2: Rock
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-magcargo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-magcargo-BookSprite.png|wsmall]]
+> ![[SRD-magcargo-HomeSprite.png]]
+> ![[SRD-magcargo-BoxSprite.png|htiny]]
+> ![[SRD-magcargo-ShuffleToken.png|wsmall]]
+
 
 *Lava Pokemon*
 *Their shell is molten body that cooled off and hardened, it may appear solid, but it may burst into flames with a single touch. Water vaporizes on contact and rain turns into a cloud of steam.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-magcargo-HomeSprite.png|right]]
-![[SRD-magcargo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

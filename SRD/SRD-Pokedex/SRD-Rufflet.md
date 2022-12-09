@@ -23,6 +23,7 @@ Name: Rufflet
 Number: 627
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rufflet-ShuffleToken.png
 Sprite: rufflet.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rufflet-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rufflet-BookSprite.png|wsmall]]
+> ![[SRD-rufflet-HomeSprite.png]]
+> ![[SRD-rufflet-BoxSprite.png|htiny]]
+> ![[SRD-rufflet-ShuffleToken.png|wsmall]]
+
 
 *Eaglet Pokemon*
 *This species only has males. They are independent from the moment they hatch. They will challenge even strong opponents, without fear. Their frequent fights help them become stronger.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-rufflet-HomeSprite.png|right]]
-![[SRD-rufflet-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

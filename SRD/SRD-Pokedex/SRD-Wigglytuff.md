@@ -23,6 +23,7 @@ Name: Wigglytuff
 Number: 40
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-wigglytuff-ShuffleToken.png
 Sprite: wigglytuff.png
 Type1: Normal
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-wigglytuff-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-wigglytuff-BookSprite.png|wsmall]]
+> ![[SRD-wigglytuff-HomeSprite.png]]
+> ![[SRD-wigglytuff-BoxSprite.png|htiny]]
+> ![[SRD-wigglytuff-ShuffleToken.png|wsmall]]
+
 
 *Balloon Pokemon*
 *Its fur is extremely fine and conveys an image of luxury. Its body is soft and rubbery. When angered, it will suck the air and inflate itself to an enormous size. It is a favorite pet and a nurse Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-wigglytuff-HomeSprite.png|right]]
-![[SRD-wigglytuff-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

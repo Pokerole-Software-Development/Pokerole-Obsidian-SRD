@@ -23,6 +23,7 @@ Name: Lurantis
 Number: 754
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-lurantis-ShuffleToken.png
 Sprite: lurantis.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lurantis-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lurantis-BookSprite.png|wsmall]]
+> ![[SRD-lurantis-HomeSprite.png]]
+> ![[SRD-lurantis-BoxSprite.png|htiny]]
+> ![[SRD-lurantis-ShuffleToken.png|wsmall]]
+
 
 *Bloom Sickle Pokemon*
 *Considered to be one of the mos beautiful Grass Pokemon due to its lovely coloration. They require a lot of maintenance and constant grooming, so they’ll only trust a Trainer who is up to the job.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-lurantis-HomeSprite.png|right]]
-![[SRD-lurantis-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Bronzor
 Number: 436
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-bronzor-ShuffleToken.png
 Sprite: bronzor.png
 Type1: Steel
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bronzor-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bronzor-BookSprite.png|wsmall]]
+> ![[SRD-bronzor-HomeSprite.png]]
+> ![[SRD-bronzor-BoxSprite.png|htiny]]
+> ![[SRD-bronzor-ShuffleToken.png|wsmall]]
+
 
 *Bronze Pokemon*
 *They are found in ancient tombs and temples. Objects shaped like Bronzor have been found within the vaults. Bronzors reflect images like mirrors, people say that this reflection shows the future.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-bronzor-HomeSprite.png|right]]
-![[SRD-bronzor-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

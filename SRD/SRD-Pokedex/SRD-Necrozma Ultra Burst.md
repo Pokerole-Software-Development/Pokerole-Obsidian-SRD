@@ -22,6 +22,7 @@ Name: Necrozma Ultra Burst
 Number: 800
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-necrozma-ultra-ShuffleToken.png
 Sprite: necrozma-ultra.png
 Type1: Psychic
 Type2: Dragon
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-necrozma-ultra-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-necrozma-ultra-BookSprite.png|wsmall]]
+> ![[SRD-necrozma-ultra-HomeSprite.png]]
+> ![[SRD-necrozma-ultra-BoxSprite.png|htiny]]
+> ![[SRD-necrozma-ultra-ShuffleToken.png|wsmall]]
+
 
 *Aether Foundation S.O.S Message*
 *Alert to national authorities we had a serious breach of security! This is an emergency! Close the port- (White Noise).*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-necrozma-ultra-HomeSprite.png|right]]
-![[SRD-necrozma-ultra-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

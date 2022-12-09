@@ -23,6 +23,7 @@ Name: Koffing
 Number: 109
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-koffing-ShuffleToken.png
 Sprite: koffing.png
 Type1: Poison
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-koffing-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-koffing-BookSprite.png|wsmall]]
+> ![[SRD-koffing-HomeSprite.png]]
+> ![[SRD-koffing-BoxSprite.png|htiny]]
+> ![[SRD-koffing-ShuffleToken.png|wsmall]]
+
 
 *Poison Gas Pokemon*
 *It is drawn to the smog and fumes of the cities. It fills its body with toxic gases to float like a balloon. When it gets nervous it releases a sickly green gas. Breathing this gas will give you a bad case of sniffles.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-koffing-HomeSprite.png|right]]
-![[SRD-koffing-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

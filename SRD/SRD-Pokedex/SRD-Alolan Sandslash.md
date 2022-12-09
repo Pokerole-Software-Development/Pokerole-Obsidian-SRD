@@ -23,6 +23,7 @@ Name: Alolan Sandslash
 Number: 28
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sandslash-alola-ShuffleToken.png
 Sprite: sandslash-alola.png
 Type1: Ice
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sandslash-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sandslash-alola-BookSprite.png|wsmall]]
+> ![[SRD-sandslash-alola-HomeSprite.png]]
+> ![[SRD-sandslash-alola-BoxSprite.png|htiny]]
+> ![[SRD-sandslash-alola-ShuffleToken.png|wsmall]]
+
 
 *Mouse Pokemon*
 *These Pokemon make their burrows on Alola's ice caverns, hidden in plain sight. Careful with its spikes, any puncture into the skin and you can get severe frostbite. They can’t stand high temperatures.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-sandslash-alola-HomeSprite.png|right]]
-![[SRD-sandslash-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -24,6 +24,7 @@ Name: Charmander
 Number: 4
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-charmander-ShuffleToken.png
 Sprite: charmander.png
 Type1: Fire
 Type2: ''
@@ -37,7 +38,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-charmander-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-charmander-BookSprite.png|wsmall]]
+> ![[SRD-charmander-HomeSprite.png]]
+> ![[SRD-charmander-BoxSprite.png|htiny]]
+> ![[SRD-charmander-ShuffleToken.png|wsmall]]
+
 
 *Lizard Pokemon*
 *A rare Pokemon. The flame on its tail is an indicator of its feelings and life force. If it is healthy and happy, the flame burns brightly.
@@ -57,8 +63,6 @@ It needs proper care and discipline or else it may rebel later on.*
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-charmander-HomeSprite.png|right]]
-![[SRD-charmander-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

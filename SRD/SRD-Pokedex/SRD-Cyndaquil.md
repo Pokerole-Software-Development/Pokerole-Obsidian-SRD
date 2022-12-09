@@ -23,6 +23,7 @@ Name: Cyndaquil
 Number: 155
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-cyndaquil-ShuffleToken.png
 Sprite: cyndaquil.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cyndaquil-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cyndaquil-BookSprite.png|wsmall]]
+> ![[SRD-cyndaquil-HomeSprite.png]]
+> ![[SRD-cyndaquil-BoxSprite.png|htiny]]
+> ![[SRD-cyndaquil-ShuffleToken.png|wsmall]]
+
 
 *Fire Mouse Pokemon*
 *A shy and elusive Pokemon. The flames from its back protect it. They’ll burn vigorously if Cyndaquil is angry otherwise they’ll remain unlit. It lives in hot dens inside of mountains and volcanoes.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-cyndaquil-HomeSprite.png|right]]
-![[SRD-cyndaquil-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

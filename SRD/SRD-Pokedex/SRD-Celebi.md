@@ -23,6 +23,7 @@ Name: Celebi
 Number: 251
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-celebi-ShuffleToken.png
 Sprite: celebi.png
 Type1: Grass
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-celebi-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-celebi-BookSprite.png|wsmall]]
+> ![[SRD-celebi-HomeSprite.png]]
+> ![[SRD-celebi-BoxSprite.png|htiny]]
+> ![[SRD-celebi-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Guardian of the Forest. Celebi is said to be able to travel through time, amending mistakes from people who hurt the land, and crafting a bright future for those who live nearby.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-celebi-HomeSprite.png|right]]
-![[SRD-celebi-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

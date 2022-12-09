@@ -22,6 +22,7 @@ Name: Suicune
 Number: 245
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-suicune-ShuffleToken.png
 Sprite: suicune.png
 Type1: Water
 Type2: ''
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-suicune-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-suicune-BookSprite.png|wsmall]]
+> ![[SRD-suicune-HomeSprite.png]]
+> ![[SRD-suicune-BoxSprite.png|htiny]]
+> ![[SRD-suicune-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Johto Legends tell about a Pokemon that carries the north winds, sailing above the clouds as the aurora, purifying water fountains, pools and rivers.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-suicune-HomeSprite.png|right]]
-![[SRD-suicune-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

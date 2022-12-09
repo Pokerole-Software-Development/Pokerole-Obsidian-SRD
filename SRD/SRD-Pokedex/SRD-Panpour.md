@@ -23,6 +23,7 @@ Name: Panpour
 Number: 515
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-panpour-ShuffleToken.png
 Sprite: panpour.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-panpour-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-panpour-BookSprite.png|wsmall]]
+> ![[SRD-panpour-HomeSprite.png]]
+> ![[SRD-panpour-BoxSprite.png|htiny]]
+> ![[SRD-panpour-ShuffleToken.png|wsmall]]
+
 
 *Spray Pokemon*
 *It does not thrive in dry climates. It keeps itself damp by shooting the water stored in its head tuft. Its water is valued by gardeners and Grass Pokemon breeders as it makes plants grow beautiful.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-panpour-HomeSprite.png|right]]
-![[SRD-panpour-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

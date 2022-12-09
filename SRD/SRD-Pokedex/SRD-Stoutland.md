@@ -23,6 +23,7 @@ Name: Stoutland
 Number: 508
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-stoutland-ShuffleToken.png
 Sprite: stoutland.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-stoutland-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-stoutland-BookSprite.png|wsmall]]
+> ![[SRD-stoutland-HomeSprite.png]]
+> ![[SRD-stoutland-BoxSprite.png|htiny]]
+> ![[SRD-stoutland-ShuffleToken.png|wsmall]]
+
 
 *Big-Hearted Pokemon*
 *For many years this Pokemon has helped with rescue missions in hostile places. Its outer coat is hard on the exterior but soft and silky on the inside. They keep people safe and warm while help is on the way.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-stoutland-HomeSprite.png|right]]
-![[SRD-stoutland-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

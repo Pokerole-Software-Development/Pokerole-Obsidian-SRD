@@ -23,6 +23,7 @@ Name: Sigilyph
 Number: 561
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sigilyph-ShuffleToken.png
 Sprite: sigilyph.png
 Type1: Psychic
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sigilyph-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sigilyph-BookSprite.png|wsmall]]
+> ![[SRD-sigilyph-HomeSprite.png]]
+> ![[SRD-sigilyph-BoxSprite.png|htiny]]
+> ![[SRD-sigilyph-ShuffleToken.png|wsmall]]
+
 
 *Avianoid Pokemon*
 *It is known that they worked as guards for an ancient civilization and a few can still be seen patrolling its borders, following the same route for centuries. They attack people that sneak through their barriers.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-sigilyph-HomeSprite.png|right]]
-![[SRD-sigilyph-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

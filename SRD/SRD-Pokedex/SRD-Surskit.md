@@ -23,6 +23,7 @@ Name: Surskit
 Number: 283
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Bug
+ShuffleToken: SRD-surskit-ShuffleToken.png
 Sprite: surskit.png
 Type1: Bug
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-surskit-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-surskit-BookSprite.png|wsmall]]
+> ![[SRD-surskit-HomeSprite.png]]
+> ![[SRD-surskit-BoxSprite.png|htiny]]
+> ![[SRD-surskit-ShuffleToken.png|wsmall]]
+
 
 *Pond Skater Pokemon*
 *Surskit secretes oil from its feet to skate on water. It may be found on ponds, lakes and puddles in towns. The tip of its head produces a delicious sugary syrup often used in desserts and sweets.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-surskit-HomeSprite.png|right]]
-![[SRD-surskit-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

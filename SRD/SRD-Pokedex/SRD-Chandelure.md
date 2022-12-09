@@ -23,6 +23,7 @@ Name: Chandelure
 Number: 609
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-chandelure-ShuffleToken.png
 Sprite: chandelure.png
 Type1: Ghost
 Type2: Fire
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-chandelure-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-chandelure-BookSprite.png|wsmall]]
+> ![[SRD-chandelure-HomeSprite.png]]
+> ![[SRD-chandelure-BoxSprite.png|htiny]]
+> ![[SRD-chandelure-ShuffleToken.png|wsmall]]
+
 
 *Luring Pokemon*
 *It consumes the spirits of the living, puts people in a hypnotic trance and consumes them with fire. Being consumed in Chandelure's flame burns up the spirit, leaving only the body behind.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-chandelure-HomeSprite.png|right]]
-![[SRD-chandelure-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

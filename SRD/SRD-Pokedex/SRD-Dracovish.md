@@ -23,6 +23,7 @@ Name: Dracovish
 Number: 882
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-dracovish-ShuffleToken.png
 Sprite: dracovish.png
 Type1: Water
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dracovish-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dracovish-BookSprite.png|wsmall]]
+> ![[SRD-dracovish-HomeSprite.png]]
+> ![[SRD-dracovish-BoxSprite.png|htiny]]
+> ![[SRD-dracovish-ShuffleToken.png|wsmall]]
+
 
 *Fossil Pokemon*
 *The DNA of two apex predators combined. It can run at incredibly high speeds and tear almost anything with its sharp teeth. Sadly, this Pokemon can only breathe underwater and it’s a lousy swimmer.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-dracovish-HomeSprite.png|right]]
-![[SRD-dracovish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

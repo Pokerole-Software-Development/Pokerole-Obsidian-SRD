@@ -22,6 +22,7 @@ Name: Zacian
 Number: 888
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zacian-ShuffleToken.png
 Sprite: zacian.png
 Type1: Fairy
 Type2: ''
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zacian-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zacian-BookSprite.png|wsmall]]
+> ![[SRD-zacian-HomeSprite.png]]
+> ![[SRD-zacian-BoxSprite.png|htiny]]
+> ![[SRD-zacian-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *There is a legend of a heroine who through sheer might wielded the blade of heroes and vanquished a great evil away.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-zacian-HomeSprite.png|right]]
-![[SRD-zacian-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

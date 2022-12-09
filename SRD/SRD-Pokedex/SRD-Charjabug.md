@@ -23,6 +23,7 @@ Name: Charjabug
 Number: 737
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-charjabug-ShuffleToken.png
 Sprite: charjabug.png
 Type1: Bug
 Type2: Electric
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-charjabug-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-charjabug-BookSprite.png|wsmall]]
+> ![[SRD-charjabug-HomeSprite.png]]
+> ![[SRD-charjabug-BoxSprite.png|htiny]]
+> ![[SRD-charjabug-ShuffleToken.png|wsmall]]
+
 
 *Battery Pokemon*
 *Whatever this Pokemon eats is transformed to electricity. People often use them to power up small appliances in their homes. This Pokemon rarely moves since it is preparing to evolve.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-charjabug-HomeSprite.png|right]]
-![[SRD-charjabug-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

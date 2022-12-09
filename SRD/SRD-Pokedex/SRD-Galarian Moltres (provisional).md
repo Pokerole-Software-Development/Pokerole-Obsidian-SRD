@@ -21,6 +21,7 @@ Name: Galarian Moltres (provisional)
 Number: 146
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-moltres-galar-ShuffleToken.png
 Sprite: moltres-galar.png
 Type1: Dark
 Type2: Flying
@@ -34,7 +35,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-moltres-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-moltres-galar-BookSprite.png|wsmall]]
+> ![[SRD-moltres-galar-HomeSprite.png]]
+> ![[SRD-moltres-galar-BoxSprite.png|htiny]]
+> ![[SRD-moltres-galar-ShuffleToken.png|wsmall]]
+
 
 **
 **
@@ -53,8 +59,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-moltres-galar-HomeSprite.png|right]]
-![[SRD-moltres-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

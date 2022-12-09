@@ -23,6 +23,7 @@ Name: Arctovish
 Number: 883
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-arctovish-ShuffleToken.png
 Sprite: arctovish.png
 Type1: Water
 Type2: Ice
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-arctovish-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-arctovish-BookSprite.png|wsmall]]
+> ![[SRD-arctovish-HomeSprite.png]]
+> ![[SRD-arctovish-BoxSprite.png|htiny]]
+> ![[SRD-arctovish-ShuffleToken.png|wsmall]]
+
 
 *Fossil Pokemon*
 *This mix of DNA made a more stable creature able to move, breathe and resist cold weather, the only problem is that its head is upside down. If it’s not fed it cannot hunt on its own and will die of hunger in a few days.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-arctovish-HomeSprite.png|right]]
-![[SRD-arctovish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

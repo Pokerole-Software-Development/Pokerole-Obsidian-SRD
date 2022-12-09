@@ -23,6 +23,7 @@ Name: Porygon-Z
 Number: 474
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-porygon-z-ShuffleToken.png
 Sprite: porygon-z.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-porygon-z-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-porygon-z-BookSprite.png|wsmall]]
+> ![[SRD-porygon-z-HomeSprite.png]]
+> ![[SRD-porygon-z-BoxSprite.png|htiny]]
+> ![[SRD-porygon-z-ShuffleToken.png|wsmall]]
+
 
 *Virtual Pokemon*
 *A software to explore another dimension was installed on Porygon. However, it began acting oddly due to glitches in the code. Since then, it has a fondness for videos of Meowth and Skitty on the internet*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-porygon-z-HomeSprite.png|right]]
-![[SRD-porygon-z-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

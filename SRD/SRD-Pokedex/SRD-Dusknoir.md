@@ -23,6 +23,7 @@ Name: Dusknoir
 Number: 477
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-dusknoir-ShuffleToken.png
 Sprite: dusknoir.png
 Type1: Ghost
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dusknoir-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dusknoir-BookSprite.png|wsmall]]
+> ![[SRD-dusknoir-HomeSprite.png]]
+> ![[SRD-dusknoir-BoxSprite.png|htiny]]
+> ![[SRD-dusknoir-ShuffleToken.png|wsmall]]
+
 
 *Gripper Pokemon*
 *This feared Pokemon is said to travel to the other world. Some even believe that it takes lost spirits along with it. It uses the antenna on it’s head to receive messages from the deceased.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-dusknoir-HomeSprite.png|right]]
-![[SRD-dusknoir-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

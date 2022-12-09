@@ -23,6 +23,7 @@ Name: Gliscor
 Number: 472
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gliscor-ShuffleToken.png
 Sprite: gliscor.png
 Type1: Ground
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gliscor-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gliscor-BookSprite.png|wsmall]]
+> ![[SRD-gliscor-HomeSprite.png]]
+> ![[SRD-gliscor-BoxSprite.png|htiny]]
+> ![[SRD-gliscor-ShuffleToken.png|wsmall]]
+
 
 *Fang Scorp Pokemon*
 *Its flight is soundless. It uses its lengthy tail to carry off its prey, then uses its long fangs to do the rest. It is more playful than aggressive but it is dangerous if you get close to the enormous claws.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-gliscor-HomeSprite.png|right]]
-![[SRD-gliscor-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

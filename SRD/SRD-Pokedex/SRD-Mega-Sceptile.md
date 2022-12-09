@@ -23,6 +23,7 @@ Name: Mega-Sceptile
 Number: 254
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-sceptile-mega-ShuffleToken.png
 Sprite: sceptile-mega.png
 Type1: Grass
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sceptile-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sceptile-mega-BookSprite.png|wsmall]]
+> ![[SRD-sceptile-mega-HomeSprite.png]]
+> ![[SRD-sceptile-mega-BoxSprite.png|htiny]]
+> ![[SRD-sceptile-mega-ShuffleToken.png|wsmall]]
+
 
 *Forest Pokemon*
 *With the power of the Mega Stone, it allows itself to grow more feral in order to gain draconian powers. Its movements are swifter than ever and when it attacks it seems like the jungle has come to life.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-sceptile-mega-HomeSprite.png|right]]
-![[SRD-sceptile-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

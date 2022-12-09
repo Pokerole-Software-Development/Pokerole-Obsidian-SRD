@@ -23,6 +23,7 @@ Name: Piplup
 Number: 393
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-piplup-ShuffleToken.png
 Sprite: piplup.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-piplup-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-piplup-BookSprite.png|wsmall]]
+> ![[SRD-piplup-HomeSprite.png]]
+> ![[SRD-piplup-BoxSprite.png|htiny]]
+> ![[SRD-piplup-ShuffleToken.png|wsmall]]
+
 
 *Penguin Pokemon*
 *Piplups are extremely proud. They won’t take anything from anyone nor accept being taken care of. It lives along shores in northern countries. It is a good swimmer but terrible at walking, it trips over often.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-piplup-HomeSprite.png|right]]
-![[SRD-piplup-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

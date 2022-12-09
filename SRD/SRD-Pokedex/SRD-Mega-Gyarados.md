@@ -23,6 +23,7 @@ Name: Mega-Gyarados
 Number: 130
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-gyarados-mega-ShuffleToken.png
 Sprite: gyarados-mega.png
 Type1: Water
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gyarados-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gyarados-mega-BookSprite.png|wsmall]]
+> ![[SRD-gyarados-mega-HomeSprite.png]]
+> ![[SRD-gyarados-mega-BoxSprite.png|htiny]]
+> ![[SRD-gyarados-mega-ShuffleToken.png|wsmall]]
+
 
 *Atrocious Pokemon*
 *With the power of the Mega Stone its body suffers a lot of strain, making it faster and stronger but also angrier and uncontrollable. It must have a strong bond or it will fall into a destructive rampage.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-gyarados-mega-HomeSprite.png|right]]
-![[SRD-gyarados-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Vibrava
 Number: 329
 PrimaryEggGroup: Bug
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-vibrava-ShuffleToken.png
 Sprite: vibrava.png
 Type1: Ground
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-vibrava-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-vibrava-BookSprite.png|wsmall]]
+> ![[SRD-vibrava-HomeSprite.png]]
+> ![[SRD-vibrava-BoxSprite.png|htiny]]
+> ![[SRD-vibrava-ShuffleToken.png|wsmall]]
+
 
 *Vibration Pokemon*
 *This Pokemon’s vibrations can cause severe headaches or even fainting. If their prey faints, they proceed to melt them with acid. Vibrava's wings are still growing, making it a clumsy flier with low endurance.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-vibrava-HomeSprite.png|right]]
-![[SRD-vibrava-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Pyukumuku
 Number: 771
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pyukumuku-ShuffleToken.png
 Sprite: pyukumuku.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pyukumuku-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pyukumuku-BookSprite.png|wsmall]]
+> ![[SRD-pyukumuku-HomeSprite.png]]
+> ![[SRD-pyukumuku-BoxSprite.png|htiny]]
+> ![[SRD-pyukumuku-ShuffleToken.png|wsmall]]
+
 
 *Sea Cucumber Pokemon*
 *Once this Pokemon finds a spot it likes it will remain there without moving, even if food is out of reach. It can expel its organs through its mouth and use them like an arm. It’s slimy and not many people like it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-pyukumuku-HomeSprite.png|right]]
-![[SRD-pyukumuku-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Gothitelle
 Number: 576
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gothitelle-ShuffleToken.png
 Sprite: gothitelle.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gothitelle-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gothitelle-BookSprite.png|wsmall]]
+> ![[SRD-gothitelle-HomeSprite.png]]
+> ![[SRD-gothitelle-BoxSprite.png|htiny]]
+> ![[SRD-gothitelle-ShuffleToken.png|wsmall]]
+
 
 *Astral Body Pokemon*
 *They can predict the future from the placement and movement of the stars. They get restless if someone they know will be in danger. They are emphatic creatures that can understand human emotion.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-gothitelle-HomeSprite.png|right]]
-![[SRD-gothitelle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

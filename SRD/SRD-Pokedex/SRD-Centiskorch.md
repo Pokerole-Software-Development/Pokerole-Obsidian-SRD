@@ -23,6 +23,7 @@ Name: Centiskorch
 Number: 851
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-centiskorch-ShuffleToken.png
 Sprite: centiskorch.png
 Type1: Fire
 Type2: Bug
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-centiskorch-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-centiskorch-BookSprite.png|wsmall]]
+> ![[SRD-centiskorch-HomeSprite.png]]
+> ![[SRD-centiskorch-BoxSprite.png|htiny]]
+> ![[SRD-centiskorch-ShuffleToken.png|wsmall]]
+
 
 *Radiator Pokemon*
 *It lashes its body like a whip and launches itself at enemies, while its burning body is already dangerous on its own, this excessively hostile Pokemon also has large and very sharp fangs.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-centiskorch-HomeSprite.png|right]]
-![[SRD-centiskorch-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

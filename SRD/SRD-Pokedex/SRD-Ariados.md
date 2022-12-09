@@ -23,6 +23,7 @@ Name: Ariados
 Number: 168
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-ariados-ShuffleToken.png
 Sprite: ariados.png
 Type1: Bug
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ariados-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ariados-BookSprite.png|wsmall]]
+> ![[SRD-ariados-HomeSprite.png]]
+> ![[SRD-ariados-BoxSprite.png|htiny]]
+> ![[SRD-ariados-ShuffleToken.png|wsmall]]
+
 
 *Long Leg Pokemon*
 *This Pokemon is silent and stealthy. It comes out at night. After attaching some silk to its prey, it sets it free. Later, it tracks the silk back to the prey and its friends. It can form big colonies in caves.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-ariados-HomeSprite.png|right]]
-![[SRD-ariados-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

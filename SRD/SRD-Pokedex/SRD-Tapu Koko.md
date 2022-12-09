@@ -23,6 +23,7 @@ Name: Tapu Koko
 Number: 785
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tapu-koko-ShuffleToken.png
 Sprite: tapu-koko.png
 Type1: Electric
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tapu-koko-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tapu-koko-BookSprite.png|wsmall]]
+> ![[SRD-tapu-koko-HomeSprite.png]]
+> ![[SRD-tapu-koko-BoxSprite.png|htiny]]
+> ![[SRD-tapu-koko-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *People on Melemele island talk about a guardian spirit who punishes the evil doers with lightning strikes. If it appears in front of you who knows what its intentions may be.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-tapu-koko-HomeSprite.png|right]]
-![[SRD-tapu-koko-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

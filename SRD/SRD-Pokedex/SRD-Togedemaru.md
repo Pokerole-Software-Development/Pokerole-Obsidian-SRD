@@ -23,6 +23,7 @@ Name: Togedemaru
 Number: 777
 PrimaryEggGroup: Field
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-togedemaru-ShuffleToken.png
 Sprite: togedemaru.png
 Type1: Electric
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-togedemaru-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-togedemaru-BookSprite.png|wsmall]]
+> ![[SRD-togedemaru-HomeSprite.png]]
+> ![[SRD-togedemaru-BoxSprite.png|htiny]]
+> ![[SRD-togedemaru-ShuffleToken.png|wsmall]]
+
 
 *Roly-Poly Pokemon*
 *On stormy days you can see groups of Togedemaru curled up into balls with their spikes out, waiting to be struck by lightning. These spikes also deter other Pokemon from attacking this cute creature.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-togedemaru-HomeSprite.png|right]]
-![[SRD-togedemaru-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

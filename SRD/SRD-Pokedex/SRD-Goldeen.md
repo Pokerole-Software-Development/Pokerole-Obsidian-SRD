@@ -23,6 +23,7 @@ Name: Goldeen
 Number: 118
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-goldeen-ShuffleToken.png
 Sprite: goldeen.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-goldeen-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-goldeen-BookSprite.png|wsmall]]
+> ![[SRD-goldeen-HomeSprite.png]]
+> ![[SRD-goldeen-BoxSprite.png|htiny]]
+> ![[SRD-goldeen-ShuffleToken.png|wsmall]]
+
 
 *Goldfish Pokemon*
 *Goldeen loves swimming wild and free in rivers and ponds. If one of these Pokemon is placed in an aquarium, it will shatter the glass with its horn and make its escape.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-goldeen-HomeSprite.png|right]]
-![[SRD-goldeen-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

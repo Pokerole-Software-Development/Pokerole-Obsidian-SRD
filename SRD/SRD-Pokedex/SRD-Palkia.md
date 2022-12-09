@@ -22,6 +22,7 @@ Name: Palkia
 Number: 484
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-palkia-ShuffleToken.png
 Sprite: palkia.png
 Type1: Water
 Type2: Dragon
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-palkia-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-palkia-BookSprite.png|wsmall]]
+> ![[SRD-palkia-HomeSprite.png]]
+> ![[SRD-palkia-BoxSprite.png|htiny]]
+> ![[SRD-palkia-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *A fantasy book describes a place where space bends in impossible ways and the master of that site was a Pokemon with a similar appearance.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-palkia-HomeSprite.png|right]]
-![[SRD-palkia-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

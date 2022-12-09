@@ -23,6 +23,7 @@ Name: Probopass
 Number: 476
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-probopass-ShuffleToken.png
 Sprite: probopass.png
 Type1: Rock
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-probopass-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-probopass-BookSprite.png|wsmall]]
+> ![[SRD-probopass-HomeSprite.png]]
+> ![[SRD-probopass-BoxSprite.png|htiny]]
+> ![[SRD-probopass-ShuffleToken.png|wsmall]]
+
 
 *Compass Pokemon*
 *It exudes strong magnetism from all over. It controls three small units called Mini-Noses that float around and act as arms. It usually stays motionless unless attacked or provoked.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::4)/(MaxInsight::8)     |
 
-![[SRD-probopass-HomeSprite.png|right]]
-![[SRD-probopass-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Omanyte
 Number: 138
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-omanyte-ShuffleToken.png
 Sprite: omanyte.png
 Type1: Rock
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-omanyte-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-omanyte-BookSprite.png|wsmall]]
+> ![[SRD-omanyte-HomeSprite.png]]
+> ![[SRD-omanyte-BoxSprite.png|htiny]]
+> ![[SRD-omanyte-ShuffleToken.png|wsmall]]
+
 
 *Spiral Pokemon*
 *One of the ancient and extinct Pokemon that have been revived from fossils by science. If attacked, it withdraws into its hard shell. It is not found in the wild anymore, but fossils can be found in the sea.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-omanyte-HomeSprite.png|right]]
-![[SRD-omanyte-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

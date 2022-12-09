@@ -23,6 +23,7 @@ Name: Form Eiscue
 Number: 875
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-eiscue-ShuffleToken.png
 Sprite: eiscue.png
 Type1: Ice
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-eiscue-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-eiscue-BookSprite.png|wsmall]]
+> ![[SRD-eiscue-HomeSprite.png]]
+> ![[SRD-eiscue-BoxSprite.png|htiny]]
+> ![[SRD-eiscue-ShuffleToken.png|wsmall]]
+
 
 *Penguin Pokemon*
 *Eiscue “No-Ice” Form is actually its true Form. Without the ice to protect it you can see its worried expression, it’s actually quite endearing. It can now move faster but you can see it feels anxious.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-eiscue-HomeSprite.png|right]]
-![[SRD-eiscue-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

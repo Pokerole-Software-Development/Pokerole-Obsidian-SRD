@@ -23,6 +23,7 @@ Name: Zoroark
 Number: 571
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zoroark-ShuffleToken.png
 Sprite: zoroark.png
 Type1: Dark
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zoroark-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zoroark-BookSprite.png|wsmall]]
+> ![[SRD-zoroark-HomeSprite.png]]
+> ![[SRD-zoroark-BoxSprite.png|htiny]]
+> ![[SRD-zoroark-ShuffleToken.png|wsmall]]
+
 
 *Illusion Fox Pokemon*
 *They live in groups, their lair’s entrance is protected with their illusions and mirages. They have been known to fool entire towns with their tricks. Their illusions can hide their tails now but they remain mute.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-zoroark-HomeSprite.png|right]]
-![[SRD-zoroark-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

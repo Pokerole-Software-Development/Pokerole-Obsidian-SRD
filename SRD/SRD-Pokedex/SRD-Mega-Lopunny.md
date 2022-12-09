@@ -23,6 +23,7 @@ Name: Mega-Lopunny
 Number: 428
 PrimaryEggGroup: Field
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-lopunny-mega-ShuffleToken.png
 Sprite: lopunny-mega.png
 Type1: Normal
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lopunny-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lopunny-mega-BookSprite.png|wsmall]]
+> ![[SRD-lopunny-mega-HomeSprite.png]]
+> ![[SRD-lopunny-mega-BoxSprite.png|htiny]]
+> ![[SRD-lopunny-mega-ShuffleToken.png|wsmall]]
+
 
 *Rabbit Pokemon*
 *The power of the Mega Stone awakens its combative nature. Most of its fur is lost due to constant fighting, even its ears are used as weapons, whipping foes with heavy hits.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-lopunny-mega-HomeSprite.png|right]]
-![[SRD-lopunny-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

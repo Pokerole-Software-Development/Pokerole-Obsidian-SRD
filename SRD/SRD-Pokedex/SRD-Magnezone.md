@@ -23,6 +23,7 @@ Name: Magnezone
 Number: 462
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-magnezone-ShuffleToken.png
 Sprite: magnezone.png
 Type1: Electric
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-magnezone-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-magnezone-BookSprite.png|wsmall]]
+> ![[SRD-magnezone-HomeSprite.png]]
+> ![[SRD-magnezone-BoxSprite.png|htiny]]
+> ![[SRD-magnezone-ShuffleToken.png|wsmall]]
+
 
 *Magnet Area Pokemon*
 *Magneton only evolves in very specific areas of the globe. It has the ability to repel itself from the ground using magnetism. If it is nervous it pulls all the pieces of metal around until it relaxes.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-magnezone-HomeSprite.png|right]]
-![[SRD-magnezone-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

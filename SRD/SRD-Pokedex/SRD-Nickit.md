@@ -23,6 +23,7 @@ Name: Nickit
 Number: 827
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-nickit-ShuffleToken.png
 Sprite: nickit.png
 Type1: Dark
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-nickit-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-nickit-BookSprite.png|wsmall]]
+> ![[SRD-nickit-HomeSprite.png]]
+> ![[SRD-nickit-BoxSprite.png|htiny]]
+> ![[SRD-nickit-ShuffleToken.png|wsmall]]
+
 
 *Fox Pokemon*
 *Cunning and cautious, Nickit survive by stealing food. It erases its tracks with swipes of its tail so it’s very difficult to track one. They have thrived in the cities and come at night to steal from stores.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-nickit-HomeSprite.png|right]]
-![[SRD-nickit-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

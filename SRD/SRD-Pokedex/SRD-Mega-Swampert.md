@@ -23,6 +23,7 @@ Name: Mega-Swampert
 Number: 260
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-swampert-mega-ShuffleToken.png
 Sprite: swampert-mega.png
 Type1: Water
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-swampert-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-swampert-mega-BookSprite.png|wsmall]]
+> ![[SRD-swampert-mega-HomeSprite.png]]
+> ![[SRD-swampert-mega-BoxSprite.png|htiny]]
+> ![[SRD-swampert-mega-ShuffleToken.png|wsmall]]
+
 
 *Mud Fish Pokemon*
 *The power of the Mega Stone increases its muscle strength, it would appear to be slower but its skin is so slippy it allows it to quickly slide over puddles and mud. It also becomes a bit bolder and moody.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-swampert-mega-HomeSprite.png|right]]
-![[SRD-swampert-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

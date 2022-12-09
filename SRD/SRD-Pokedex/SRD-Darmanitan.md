@@ -23,6 +23,7 @@ Name: Darmanitan
 Number: 555
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-darmanitan-ShuffleToken.png
 Sprite: darmanitan.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-darmanitan-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-darmanitan-BookSprite.png|wsmall]]
+> ![[SRD-darmanitan-HomeSprite.png]]
+> ![[SRD-darmanitan-BoxSprite.png|htiny]]
+> ![[SRD-darmanitan-ShuffleToken.png|wsmall]]
+
 
 *Blazing Pokemon*
 *This Pokemon is shrouded in mystery as old writings and mural paintings describe it as being blue and using psychic powers, but years of study have not seen those traits on this Pokemon that relies on brute force.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-darmanitan-HomeSprite.png|right]]
-![[SRD-darmanitan-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

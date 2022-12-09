@@ -23,6 +23,7 @@ Name: Exeggutor
 Number: 103
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-exeggutor-ShuffleToken.png
 Sprite: exeggutor.png
 Type1: Grass
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-exeggutor-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-exeggutor-BookSprite.png|wsmall]]
+> ![[SRD-exeggutor-HomeSprite.png]]
+> ![[SRD-exeggutor-BoxSprite.png|htiny]]
+> ![[SRD-exeggutor-ShuffleToken.png|wsmall]]
+
 
 *Coconut Pokemon*
 *Originally from tropical areas. Exeggutor's heads grow larger with strong sunlight. Each head thinks independently. They are friendly and provide their shade to other Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-exeggutor-HomeSprite.png|right]]
-![[SRD-exeggutor-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Form Aegislash
 Number: 681
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-aegislash-ShuffleToken.png
 Sprite: aegislash.png
 Type1: Steel
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-aegislash-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-aegislash-BookSprite.png|wsmall]]
+> ![[SRD-aegislash-HomeSprite.png]]
+> ![[SRD-aegislash-BoxSprite.png|htiny]]
+> ![[SRD-aegislash-ShuffleToken.png|wsmall]]
+
 
 *Royal Sword Pokemon*
 *Those who wield this sword hear whispers of bloodlust and power. This cursed sword has the souls of those who fell by its blade. While in this form it can only use Attack moves.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-aegislash-HomeSprite.png|right]]
-![[SRD-aegislash-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

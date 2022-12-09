@@ -23,6 +23,7 @@ Name: Misdreavus
 Number: 200
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-misdreavus-ShuffleToken.png
 Sprite: misdreavus.png
 Type1: Ghost
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-misdreavus-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-misdreavus-BookSprite.png|wsmall]]
+> ![[SRD-misdreavus-HomeSprite.png]]
+> ![[SRD-misdreavus-BoxSprite.png|htiny]]
+> ![[SRD-misdreavus-ShuffleToken.png|wsmall]]
+
 
 *Screech Pokemon*
 *Misdreavus frightens people with a creepy, sobbing cry. It uses the red spheres on its neck to absorb fear as nutrition. It takes a wicked pleasure in startling and scaring people.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-misdreavus-HomeSprite.png|right]]
-![[SRD-misdreavus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

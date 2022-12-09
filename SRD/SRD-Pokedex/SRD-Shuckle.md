@@ -23,6 +23,7 @@ Name: Shuckle
 Number: 213
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-shuckle-ShuffleToken.png
 Sprite: shuckle.png
 Type1: Bug
 Type2: Rock
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-shuckle-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-shuckle-BookSprite.png|wsmall]]
+> ![[SRD-shuckle-HomeSprite.png]]
+> ![[SRD-shuckle-BoxSprite.png|htiny]]
+> ![[SRD-shuckle-ShuffleToken.png|wsmall]]
+
 
 *Mold Pokemon*
 *Shuckle is a very peaceful and patient gooey worm. The fluids secreted by its toes can make holes in rocks. It hides inside those hallow stones and wears them as a shell. It is known for storing berries inside.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::10)     |
 
-![[SRD-shuckle-HomeSprite.png|right]]
-![[SRD-shuckle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

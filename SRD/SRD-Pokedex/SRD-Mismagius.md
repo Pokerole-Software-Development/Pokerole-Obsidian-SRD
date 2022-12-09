@@ -23,6 +23,7 @@ Name: Mismagius
 Number: 429
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mismagius-ShuffleToken.png
 Sprite: mismagius.png
 Type1: Ghost
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mismagius-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mismagius-BookSprite.png|wsmall]]
+> ![[SRD-mismagius-HomeSprite.png]]
+> ![[SRD-mismagius-BoxSprite.png|htiny]]
+> ![[SRD-mismagius-ShuffleToken.png|wsmall]]
+
 
 *Magical Pokemon*
 *Extremely rare. Their cries sound like incantations, hearing them gives you bad headaches and hallucinations. It is said that some Mismagius are benevolent and have granted good fortune to people they like.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-mismagius-HomeSprite.png|right]]
-![[SRD-mismagius-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

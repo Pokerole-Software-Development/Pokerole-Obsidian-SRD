@@ -23,6 +23,7 @@ Name: Keldeo
 Number: 647
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-keldeo-ShuffleToken.png
 Sprite: keldeo.png
 Type1: Water
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-keldeo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-keldeo-BookSprite.png|wsmall]]
+> ![[SRD-keldeo-HomeSprite.png]]
+> ![[SRD-keldeo-BoxSprite.png|htiny]]
+> ![[SRD-keldeo-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Age-old fairy tales of Unova tell the story of four Pokemon that brought the land to a golden age. The young of the group was brave and naive. It could gallop on the water surface leaving a rainbow behind.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-keldeo-HomeSprite.png|right]]
-![[SRD-keldeo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

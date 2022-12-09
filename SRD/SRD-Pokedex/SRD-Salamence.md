@@ -26,6 +26,7 @@ Name: Salamence
 Number: 373
 PrimaryEggGroup: Dragon
 SecondaryEggGroup: ''
+ShuffleToken: SRD-salamence-ShuffleToken.png
 Sprite: salamence.png
 Type1: Dragon
 Type2: Flying
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-salamence-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-salamence-BookSprite.png|wsmall]]
+> ![[SRD-salamence-HomeSprite.png]]
+> ![[SRD-salamence-BoxSprite.png|htiny]]
+> ![[SRD-salamence-ShuffleToken.png|wsmall]]
+
 
 *Dragon Pokemon*
 *After a lifetime of struggling for a dream, it finally grew its wings. Salamence, however, is extremely dangerous, it scorches entire fields and mountains. It’s easily angered and completely uncontrollable.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-salamence-HomeSprite.png|right]]
-![[SRD-salamence-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

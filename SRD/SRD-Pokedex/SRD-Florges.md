@@ -23,6 +23,7 @@ Name: Florges
 Number: 671
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-florges-ShuffleToken.png
 Sprite: florges.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-florges-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-florges-BookSprite.png|wsmall]]
+> ![[SRD-florges-HomeSprite.png]]
+> ![[SRD-florges-BoxSprite.png|htiny]]
+> ![[SRD-florges-ShuffleToken.png|wsmall]]
+
 
 *Garden Pokemon*
 *In times long past, castle rulers would invite Florges to create flower gardens to embellish their domains. Florges claim beautiful meadows as their territories but they are kind and merciful with visitors.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-florges-HomeSprite.png|right]]
-![[SRD-florges-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

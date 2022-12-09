@@ -23,6 +23,7 @@ Name: Necrozma
 Number: 800
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-necrozma-ShuffleToken.png
 Sprite: necrozma.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-necrozma-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-necrozma-BookSprite.png|wsmall]]
+> ![[SRD-necrozma-HomeSprite.png]]
+> ![[SRD-necrozma-BoxSprite.png|htiny]]
+> ![[SRD-necrozma-ShuffleToken.png|wsmall]]
+
 
 *Aether Foundation Log #179*
 *First it was just a passing shadow, a shady lurker on the other side of the abyss, but then today it made an appearance. the creature attached itself to our light sources, depleting them until it was all in darkness.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-necrozma-HomeSprite.png|right]]
-![[SRD-necrozma-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

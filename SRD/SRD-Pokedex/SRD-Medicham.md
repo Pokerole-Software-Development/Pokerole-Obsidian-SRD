@@ -26,6 +26,7 @@ Name: Medicham
 Number: 308
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-medicham-ShuffleToken.png
 Sprite: medicham.png
 Type1: Fighting
 Type2: Psychic
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-medicham-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-medicham-BookSprite.png|wsmall]]
+> ![[SRD-medicham-HomeSprite.png]]
+> ![[SRD-medicham-BoxSprite.png|htiny]]
+> ![[SRD-medicham-ShuffleToken.png|wsmall]]
+
 
 *Meditate Pokemon*
 *They are thought to posses a sixth sense. Some of them can hide their presence by lowering their ki. Medichams fight with expert yoga moves, foretelling their foe’s attacks and sensing their thoughts.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-medicham-HomeSprite.png|right]]
-![[SRD-medicham-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

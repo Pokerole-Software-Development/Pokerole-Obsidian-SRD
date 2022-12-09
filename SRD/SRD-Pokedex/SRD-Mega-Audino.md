@@ -23,6 +23,7 @@ Name: Mega-Audino
 Number: 531
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-audino-mega-ShuffleToken.png
 Sprite: audino-mega.png
 Type1: Normal
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-audino-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-audino-mega-BookSprite.png|wsmall]]
+> ![[SRD-audino-mega-HomeSprite.png]]
+> ![[SRD-audino-mega-BoxSprite.png|htiny]]
+> ![[SRD-audino-mega-ShuffleToken.png|wsmall]]
+
 
 *Hearing Pokemon*
 *The power of the Mega Stone increases the purity of this Pokemon, revealing its Fairy type. It is so caring and protective of its trainer that it can hear its cries for help from miles away. It loves to soothe and care for others.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-audino-mega-HomeSprite.png|right]]
-![[SRD-audino-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Aipom
 Number: 190
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-aipom-ShuffleToken.png
 Sprite: aipom.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-aipom-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-aipom-BookSprite.png|wsmall]]
+> ![[SRD-aipom-HomeSprite.png]]
+> ![[SRD-aipom-BoxSprite.png|htiny]]
+> ![[SRD-aipom-ShuffleToken.png|wsmall]]
+
 
 *Long Tail Pokemon*
 *It lives at the top of tall trees in forests and jungles. It uses its tail tip as a third hand. However, because the Pokemon uses its tail so much, its real hands become rather clumsy. It is very playful.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-aipom-HomeSprite.png|right]]
-![[SRD-aipom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

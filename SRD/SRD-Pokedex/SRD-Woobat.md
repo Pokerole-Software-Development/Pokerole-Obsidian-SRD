@@ -23,6 +23,7 @@ Name: Woobat
 Number: 527
 PrimaryEggGroup: Flying
 SecondaryEggGroup: Field
+ShuffleToken: SRD-woobat-ShuffleToken.png
 Sprite: woobat.png
 Type1: Psychic
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-woobat-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-woobat-BookSprite.png|wsmall]]
+> ![[SRD-woobat-HomeSprite.png]]
+> ![[SRD-woobat-BoxSprite.png|htiny]]
+> ![[SRD-woobat-ShuffleToken.png|wsmall]]
+
 
 *Bat Pokemon*
 *It lives in dark forests and caves. Emits ultrasonic waves from its nose it learns about its surroundings. The two small eyes it has get covered by its own fur. It clings to trees and cave walls to sleep at night.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-woobat-HomeSprite.png|right]]
-![[SRD-woobat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Beheeyem
 Number: 606
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-beheeyem-ShuffleToken.png
 Sprite: beheeyem.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-beheeyem-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-beheeyem-BookSprite.png|wsmall]]
+> ![[SRD-beheeyem-HomeSprite.png]]
+> ![[SRD-beheeyem-BoxSprite.png|htiny]]
+> ![[SRD-beheeyem-ShuffleToken.png|wsmall]]
+
 
 *Cerebral Pokemon*
 *Apparently, it communicates by flashing its three fingers, but the patterns haven’t been decoded. It uses psychic power to control an opponent’s brain and tampers with its memories and personality.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-beheeyem-HomeSprite.png|right]]
-![[SRD-beheeyem-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

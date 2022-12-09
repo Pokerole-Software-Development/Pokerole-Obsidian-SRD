@@ -23,6 +23,7 @@ Name: Sentret
 Number: 161
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sentret-ShuffleToken.png
 Sprite: sentret.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sentret-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sentret-BookSprite.png|wsmall]]
+> ![[SRD-sentret-HomeSprite.png]]
+> ![[SRD-sentret-BoxSprite.png|htiny]]
+> ![[SRD-sentret-ShuffleToken.png|wsmall]]
+
 
 *Scout Pokemon*
 *It lives underground with its family. It is cautious and nervous by nature. Sentret is always vigilant for any threat. It is very friendly among its kind and suffers a lot if separated from its pack.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-sentret-HomeSprite.png|right]]
-![[SRD-sentret-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

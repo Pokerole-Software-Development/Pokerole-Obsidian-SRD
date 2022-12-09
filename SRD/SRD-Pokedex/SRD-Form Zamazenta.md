@@ -23,6 +23,7 @@ Name: Form Zamazenta
 Number: 889
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zamazenta-ShuffleToken.png
 Sprite: zamazenta.png
 Type1: Fighting
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zamazenta-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zamazenta-BookSprite.png|wsmall]]
+> ![[SRD-zamazenta-HomeSprite.png]]
+> ![[SRD-zamazenta-BoxSprite.png|htiny]]
+> ![[SRD-zamazenta-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *There is a legend about a mighty shield able to deflect any attack, it became known as the Fighting Master’s Shield, not even the largest creatures could go through it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::8)/(MaxInsight::8)     |
 
-![[SRD-zamazenta-HomeSprite.png|right]]
-![[SRD-zamazenta-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

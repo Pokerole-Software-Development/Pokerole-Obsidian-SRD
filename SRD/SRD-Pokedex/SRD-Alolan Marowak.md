@@ -23,6 +23,7 @@ Name: Alolan Marowak
 Number: 105
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-marowak-alola-ShuffleToken.png
 Sprite: marowak-alola.png
 Type1: Fire
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-marowak-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-marowak-alola-BookSprite.png|wsmall]]
+> ![[SRD-marowak-alola-HomeSprite.png]]
+> ![[SRD-marowak-alola-BoxSprite.png|htiny]]
+> ![[SRD-marowak-alola-ShuffleToken.png|wsmall]]
+
 
 *Bone Keeper Pokemon*
 *Alola has many predators for an orphaned Cubone, so its mother’s spirit lingered close to protect her baby. This otherworldly influence made Marowak fiercer and changed its type completely.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-marowak-alola-HomeSprite.png|right]]
-![[SRD-marowak-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

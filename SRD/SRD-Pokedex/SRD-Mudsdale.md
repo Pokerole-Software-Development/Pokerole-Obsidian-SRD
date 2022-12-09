@@ -23,6 +23,7 @@ Name: Mudsdale
 Number: 750
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mudsdale-ShuffleToken.png
 Sprite: mudsdale.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mudsdale-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mudsdale-BookSprite.png|wsmall]]
+> ![[SRD-mudsdale-HomeSprite.png]]
+> ![[SRD-mudsdale-BoxSprite.png|htiny]]
+> ![[SRD-mudsdale-ShuffleToken.png|wsmall]]
+
 
 *Draft Horse Pokemon*
 *Hard tempered and resilient. The hooves of this Pokemon stomp through concrete, while it is not very fast it can keep a steady pace for days, even when dragging weight.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-mudsdale-HomeSprite.png|right]]
-![[SRD-mudsdale-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

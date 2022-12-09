@@ -23,6 +23,7 @@ Name: Alolan Persian
 Number: 53
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-persian-alola-ShuffleToken.png
 Sprite: persian-alola.png
 Type1: Dark
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-persian-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-persian-alola-BookSprite.png|wsmall]]
+> ![[SRD-persian-alola-HomeSprite.png]]
+> ![[SRD-persian-alola-BoxSprite.png|htiny]]
+> ![[SRD-persian-alola-ShuffleToken.png|wsmall]]
+
 
 *Classy Cat Pokemon*
 *They were bred for their silky fur and round faces, not for their temperament. This is an extremely proud Pokemon who will look down to anyone but itself, despite this, it’s very popular among Alola’s elite.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-persian-alola-HomeSprite.png|right]]
-![[SRD-persian-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

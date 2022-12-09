@@ -23,6 +23,7 @@ Name: Wynaut
 Number: 360
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-wynaut-ShuffleToken.png
 Sprite: wynaut.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-wynaut-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-wynaut-BookSprite.png|wsmall]]
+> ![[SRD-wynaut-HomeSprite.png]]
+> ![[SRD-wynaut-BoxSprite.png|htiny]]
+> ![[SRD-wynaut-ShuffleToken.png|wsmall]]
+
 
 *Bright Pokemon*
 *Its face always appears to be happy, but Wynaut can be deceitful. You can only discern its true emotions through its tail. They live together in caves and bump into each other to gain strength.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-wynaut-HomeSprite.png|right]]
-![[SRD-wynaut-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

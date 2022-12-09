@@ -23,6 +23,7 @@ Name: Electrode
 Number: 101
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-electrode-ShuffleToken.png
 Sprite: electrode.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-electrode-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-electrode-BookSprite.png|wsmall]]
+> ![[SRD-electrode-HomeSprite.png]]
+> ![[SRD-electrode-BoxSprite.png|htiny]]
+> ![[SRD-electrode-ShuffleToken.png|wsmall]]
+
 
 *Ball Pokemon*
 *It is known for causing blackouts in the cities. After evolving it explodes as a form to release excess electricity or simply to amuse itself. Trainers need to be careful around an Electrode.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-electrode-HomeSprite.png|right]]
-![[SRD-electrode-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Boldore
 Number: 525
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-boldore-ShuffleToken.png
 Sprite: boldore.png
 Type1: Rock
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-boldore-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-boldore-BookSprite.png|wsmall]]
+> ![[SRD-boldore-HomeSprite.png]]
+> ![[SRD-boldore-BoxSprite.png|htiny]]
+> ![[SRD-boldore-ShuffleToken.png|wsmall]]
+
 
 *Ore Pokemon*
 *It releases the excess of energy in the form of red crystals. It is still blind, it looks for for water sources inside underground caves by using echo location. It is a pacific creature that keeps to itself most of the time.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-boldore-HomeSprite.png|right]]
-![[SRD-boldore-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

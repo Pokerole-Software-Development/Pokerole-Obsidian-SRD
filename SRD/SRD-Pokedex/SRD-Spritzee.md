@@ -23,6 +23,7 @@ Name: Spritzee
 Number: 682
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-spritzee-ShuffleToken.png
 Sprite: spritzee.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-spritzee-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-spritzee-BookSprite.png|wsmall]]
+> ![[SRD-spritzee-HomeSprite.png]]
+> ![[SRD-spritzee-BoxSprite.png|htiny]]
+> ![[SRD-spritzee-ShuffleToken.png|wsmall]]
+
 
 *Perfume Pokemon*
 *In the past, rather than using a perfume, royal ladies had a Spritzee that would waft a fragrance they liked. They are popular today for this same reason. They are said to attract the opposite gender to you.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-spritzee-HomeSprite.png|right]]
-![[SRD-spritzee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

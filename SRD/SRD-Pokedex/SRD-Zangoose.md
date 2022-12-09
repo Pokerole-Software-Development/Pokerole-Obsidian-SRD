@@ -23,6 +23,7 @@ Name: Zangoose
 Number: 335
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zangoose-ShuffleToken.png
 Sprite: zangoose.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zangoose-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zangoose-BookSprite.png|wsmall]]
+> ![[SRD-zangoose-HomeSprite.png]]
+> ![[SRD-zangoose-BoxSprite.png|htiny]]
+> ![[SRD-zangoose-ShuffleToken.png|wsmall]]
+
 
 *Cat Ferret Pokemon*
 *The sole desire to battle Sevipers is embedded in their genes, they have been rivals since forever. Zangoose is a very agile quadruped, standing up on two legs only when ready to fight.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-zangoose-HomeSprite.png|right]]
-![[SRD-zangoose-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

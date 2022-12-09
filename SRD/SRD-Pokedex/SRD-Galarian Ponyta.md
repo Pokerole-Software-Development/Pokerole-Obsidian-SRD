@@ -23,6 +23,7 @@ Name: Galarian Ponyta
 Number: 77
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-ponyta-galar-ShuffleToken.png
 Sprite: ponyta-galar.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ponyta-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ponyta-galar-BookSprite.png|wsmall]]
+> ![[SRD-ponyta-galar-HomeSprite.png]]
+> ![[SRD-ponyta-galar-BoxSprite.png|htiny]]
+> ![[SRD-ponyta-galar-ShuffleToken.png|wsmall]]
+
 
 *Unique Horn Pokemonn*
 *The old magical forests of Galar made Ponytas adopt a mystic nature. Their miraculous horn can heal most wounds and sense the purity in your heart, if you hold evil, you’ll never see this Pokemon in the wild.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-ponyta-galar-HomeSprite.png|right]]
-![[SRD-ponyta-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

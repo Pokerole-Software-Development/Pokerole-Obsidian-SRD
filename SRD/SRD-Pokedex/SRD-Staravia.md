@@ -23,6 +23,7 @@ Name: Staravia
 Number: 397
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-staravia-ShuffleToken.png
 Sprite: staravia.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-staravia-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-staravia-BookSprite.png|wsmall]]
+> ![[SRD-staravia-HomeSprite.png]]
+> ![[SRD-staravia-BoxSprite.png|htiny]]
+> ![[SRD-staravia-ShuffleToken.png|wsmall]]
+
 
 *Starling Pokemon*
 *They lead a huge flock and fight other flocks for territory. If you leave it alone, it will start to make a horrible noise. It is a fierce but bad-mannered Pokemon. When they are too weak they abandon their flocks.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-staravia-HomeSprite.png|right]]
-![[SRD-staravia-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

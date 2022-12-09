@@ -22,6 +22,7 @@ Name: Kyogre
 Number: 382
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-kyogre-ShuffleToken.png
 Sprite: kyogre.png
 Type1: Water
 Type2: ''
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kyogre-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kyogre-BookSprite.png|wsmall]]
+> ![[SRD-kyogre-HomeSprite.png]]
+> ![[SRD-kyogre-BoxSprite.png|htiny]]
+> ![[SRD-kyogre-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Kyogre is named in mythology as the God that expanded the seas and oceans with torrential waters and huge tidal waves. It is the mortal enemy of Groudon.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-kyogre-HomeSprite.png|right]]
-![[SRD-kyogre-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

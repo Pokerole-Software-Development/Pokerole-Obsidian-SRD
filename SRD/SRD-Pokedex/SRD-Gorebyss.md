@@ -23,6 +23,7 @@ Name: Gorebyss
 Number: 368
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gorebyss-ShuffleToken.png
 Sprite: gorebyss.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gorebyss-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gorebyss-BookSprite.png|wsmall]]
+> ![[SRD-gorebyss-HomeSprite.png]]
+> ![[SRD-gorebyss-BoxSprite.png|htiny]]
+> ![[SRD-gorebyss-ShuffleToken.png|wsmall]]
+
 
 *South Sea Pokemon*
 *Found in the depths of the southern seas. Their body is built to withstand the sea pressure. While it appears to be beautiful and harmless, it is a cruel and deceitful creature.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-gorebyss-HomeSprite.png|right]]
-![[SRD-gorebyss-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

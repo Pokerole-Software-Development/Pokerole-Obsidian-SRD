@@ -23,6 +23,7 @@ Name: Marshadow
 Number: 802
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-marshadow-ShuffleToken.png
 Sprite: marshadow.png
 Type1: Fighting
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-marshadow-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-marshadow-BookSprite.png|wsmall]]
+> ![[SRD-marshadow-HomeSprite.png]]
+> ![[SRD-marshadow-BoxSprite.png|htiny]]
+> ![[SRD-marshadow-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *There is an old children’s story about a boy who lost his shadow and the shadow became a Pokemon. It is debated which Pokemon the story is making mention of.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-marshadow-HomeSprite.png|right]]
-![[SRD-marshadow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

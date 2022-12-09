@@ -23,6 +23,7 @@ Name: Yanmega
 Number: 469
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-yanmega-ShuffleToken.png
 Sprite: yanmega.png
 Type1: Bug
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-yanmega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-yanmega-BookSprite.png|wsmall]]
+> ![[SRD-yanmega-HomeSprite.png]]
+> ![[SRD-yanmega-BoxSprite.png|htiny]]
+> ![[SRD-yanmega-ShuffleToken.png|wsmall]]
+
 
 *Ogre Darner Pokemon*
 *It goes back to its prehistoric roots. It is a lot more violent than its pre-evolved form. Its jaw power is incredible and it is adept at biting apart foes while flying by at high speed. This Pokemon can be brutal*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-yanmega-HomeSprite.png|right]]
-![[SRD-yanmega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

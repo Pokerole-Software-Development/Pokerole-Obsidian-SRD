@@ -23,6 +23,7 @@ Name: Aromatisse
 Number: 683
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-aromatisse-ShuffleToken.png
 Sprite: aromatisse.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-aromatisse-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-aromatisse-BookSprite.png|wsmall]]
+> ![[SRD-aromatisse-HomeSprite.png]]
+> ![[SRD-aromatisse-BoxSprite.png|htiny]]
+> ![[SRD-aromatisse-ShuffleToken.png|wsmall]]
+
 
 *Fragance Pokemon*
 *Its scent is so overpowering that makes it difficult to simply be in close proximity to it. It emits scents that its foes dislike in order to gain an edge in battle. They can also produce pleasant and healing aromas.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-aromatisse-HomeSprite.png|right]]
-![[SRD-aromatisse-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

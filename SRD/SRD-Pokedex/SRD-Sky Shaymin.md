@@ -23,6 +23,7 @@ Name: Sky Shaymin
 Number: 492
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-shaymin-sky-ShuffleToken.png
 Sprite: shaymin-sky.png
 Type1: Grass
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-shaymin-sky-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-shaymin-sky-BookSprite.png|wsmall]]
+> ![[SRD-shaymin-sky-HomeSprite.png]]
+> ![[SRD-shaymin-sky-BoxSprite.png|htiny]]
+> ![[SRD-shaymin-sky-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *There are old traces of gigantic trees that once grew all over the earth. They were called the “Trees of Life” and their flowers granted the power of flight to the kindhearted, or so the legend says.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-shaymin-sky-HomeSprite.png|right]]
-![[SRD-shaymin-sky-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

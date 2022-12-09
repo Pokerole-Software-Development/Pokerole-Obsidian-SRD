@@ -23,6 +23,7 @@ Name: Alolan Sandshrew
 Number: 27
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sandshrew-alola-ShuffleToken.png
 Sprite: sandshrew-alola.png
 Type1: Ice
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sandshrew-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sandshrew-alola-BookSprite.png|wsmall]]
+> ![[SRD-sandshrew-alola-HomeSprite.png]]
+> ![[SRD-sandshrew-alola-BoxSprite.png|htiny]]
+> ![[SRD-sandshrew-alola-ShuffleToken.png|wsmall]]
+
 
 *Mouse Pokemon*
 *Sandshrew who became trapped in the merciless cold weather of Alola had to change their types to survive. They now depend on snow to roll around, without it they are unable to curl up into a ball.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-sandshrew-alola-HomeSprite.png|right]]
-![[SRD-sandshrew-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

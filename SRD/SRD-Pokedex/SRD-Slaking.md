@@ -23,6 +23,7 @@ Name: Slaking
 Number: 289
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-slaking-ShuffleToken.png
 Sprite: slaking.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-slaking-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-slaking-BookSprite.png|wsmall]]
+> ![[SRD-slaking-HomeSprite.png]]
+> ![[SRD-slaking-BoxSprite.png|htiny]]
+> ![[SRD-slaking-ShuffleToken.png|wsmall]]
+
 
 *Lazy Pokemon*
 *They spend all day sleeping and eating grass that grows within their reach. Sometimes they live beneath trees, waiting for fruits to fall. They dislike intruders on their territory but rarely do anything about them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-slaking-HomeSprite.png|right]]
-![[SRD-slaking-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

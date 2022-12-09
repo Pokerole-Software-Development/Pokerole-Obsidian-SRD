@@ -23,6 +23,7 @@ Name: Mega-Tyranitar
 Number: 248
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tyranitar-mega-ShuffleToken.png
 Sprite: tyranitar-mega.png
 Type1: Rock
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tyranitar-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tyranitar-mega-BookSprite.png|wsmall]]
+> ![[SRD-tyranitar-mega-HomeSprite.png]]
+> ![[SRD-tyranitar-mega-BoxSprite.png|htiny]]
+> ![[SRD-tyranitar-mega-ShuffleToken.png|wsmall]]
+
 
 *Armor Pokemon*
 *The power of the Mega Stone is so overwhelming it splits its back open. It becomes overwhelmed by its ferocious instincts and it’s unclear if it can even hear its Trainer through the pain and rage.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-tyranitar-mega-HomeSprite.png|right]]
-![[SRD-tyranitar-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

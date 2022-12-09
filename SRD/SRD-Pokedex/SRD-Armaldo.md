@@ -23,6 +23,7 @@ Name: Armaldo
 Number: 348
 PrimaryEggGroup: Water 3
 SecondaryEggGroup: ''
+ShuffleToken: SRD-armaldo-ShuffleToken.png
 Sprite: armaldo.png
 Type1: Rock
 Type2: Bug
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-armaldo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-armaldo-BookSprite.png|wsmall]]
+> ![[SRD-armaldo-HomeSprite.png]]
+> ![[SRD-armaldo-BoxSprite.png|htiny]]
+> ![[SRD-armaldo-ShuffleToken.png|wsmall]]
+
 
 *Plate Pokemon*
 *When the waters receded, this Pokemon was forced to evolve to live on land. Evidence suggests that its claws could extend to reach the prey that was far or underwater. Its tough shell made it very resilient.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-armaldo-HomeSprite.png|right]]
-![[SRD-armaldo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

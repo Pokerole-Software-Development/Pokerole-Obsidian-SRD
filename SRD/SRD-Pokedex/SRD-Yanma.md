@@ -23,6 +23,7 @@ Name: Yanma
 Number: 193
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-yanma-ShuffleToken.png
 Sprite: yanma.png
 Type1: Bug
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-yanma-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-yanma-BookSprite.png|wsmall]]
+> ![[SRD-yanma-HomeSprite.png]]
+> ![[SRD-yanma-BoxSprite.png|htiny]]
+> ![[SRD-yanma-ShuffleToken.png|wsmall]]
+
 
 *Clear Wing Pokemon*
 *It lives near water sources. Its eyes can see 360 degrees without even moving. Yanma is a great flyer capable of making sudden stops and turning midair to quickly chase down targeted prey.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-yanma-HomeSprite.png|right]]
-![[SRD-yanma-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

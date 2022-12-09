@@ -23,6 +23,7 @@ Name: Mega-Absol
 Number: 359
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-absol-mega-ShuffleToken.png
 Sprite: absol-mega.png
 Type1: Dark
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-absol-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-absol-mega-BookSprite.png|wsmall]]
+> ![[SRD-absol-mega-HomeSprite.png]]
+> ![[SRD-absol-mega-BoxSprite.png|htiny]]
+> ![[SRD-absol-mega-ShuffleToken.png|wsmall]]
+
 
 *Disaster Pokemon*
 *The power of the Mega Stone makes its fur elongate. What you see are not wings, just puffs of hair. It gets distressed by this form and dislikes going into fights, so it uses its intimidating aura to fend off foes.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-absol-mega-HomeSprite.png|right]]
-![[SRD-absol-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

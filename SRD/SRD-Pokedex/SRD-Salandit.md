@@ -23,6 +23,7 @@ Name: Salandit
 Number: 757
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-salandit-ShuffleToken.png
 Sprite: salandit.png
 Type1: Poison
 Type2: Fire
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-salandit-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-salandit-BookSprite.png|wsmall]]
+> ![[SRD-salandit-HomeSprite.png]]
+> ![[SRD-salandit-BoxSprite.png|htiny]]
+> ![[SRD-salandit-ShuffleToken.png|wsmall]]
+
 
 *Toxic Lizard Pokemon*
 *The markings at the end of its tail emit flames and a toxic gas, be careful as this gas smells sweet and specially appealing for the males of any species. Only female Salandit are known to evolve.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-salandit-HomeSprite.png|right]]
-![[SRD-salandit-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

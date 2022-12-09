@@ -23,6 +23,7 @@ Name: Masquerain
 Number: 284
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Bug
+ShuffleToken: SRD-masquerain-ShuffleToken.png
 Sprite: masquerain.png
 Type1: Bug
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-masquerain-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-masquerain-BookSprite.png|wsmall]]
+> ![[SRD-masquerain-HomeSprite.png]]
+> ![[SRD-masquerain-BoxSprite.png|htiny]]
+> ![[SRD-masquerain-ShuffleToken.png|wsmall]]
+
 
 *Eyeball Pokemon*
 *Their antennas look like terrifying eyes. Masquerains can fly in any direction like a helicopter, but their wings are soft and fragile, so they can’t fly when it’s raining. They cling to trees at night to sleep.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-masquerain-HomeSprite.png|right]]
-![[SRD-masquerain-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

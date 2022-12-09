@@ -23,6 +23,7 @@ Name: Wurmple
 Number: 265
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-wurmple-ShuffleToken.png
 Sprite: wurmple.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-wurmple-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-wurmple-BookSprite.png|wsmall]]
+> ![[SRD-wurmple-HomeSprite.png]]
+> ![[SRD-wurmple-BoxSprite.png|htiny]]
+> ![[SRD-wurmple-ShuffleToken.png|wsmall]]
+
 
 *Worm Pokemon*
 *It uses the spikes on its rear to peel the trees and feed on their sap. Their feet have suction pads to climb easily. Wurmples are plentiful and live in forests, but they are often attacked by bird Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-wurmple-HomeSprite.png|right]]
-![[SRD-wurmple-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

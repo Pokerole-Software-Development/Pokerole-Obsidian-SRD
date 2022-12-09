@@ -23,6 +23,7 @@ Name: Kingdra
 Number: 230
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-kingdra-ShuffleToken.png
 Sprite: kingdra.png
 Type1: Water
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kingdra-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kingdra-BookSprite.png|wsmall]]
+> ![[SRD-kingdra-HomeSprite.png]]
+> ![[SRD-kingdra-BoxSprite.png|htiny]]
+> ![[SRD-kingdra-ShuffleToken.png|wsmall]]
+
 
 *Dragon Pokemon*
 *Kingdra sleeps on the seafloor where it is otherwise devoid of life. When a storm arrives, it is said to awaken and wander about in search of prey. They are known for creating twisters in the sea.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-kingdra-HomeSprite.png|right]]
-![[SRD-kingdra-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

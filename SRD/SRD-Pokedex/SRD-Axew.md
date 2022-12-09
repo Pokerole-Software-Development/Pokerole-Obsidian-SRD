@@ -23,6 +23,7 @@ Name: Axew
 Number: 610
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-axew-ShuffleToken.png
 Sprite: axew.png
 Type1: Dragon
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-axew-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-axew-BookSprite.png|wsmall]]
+> ![[SRD-axew-HomeSprite.png]]
+> ![[SRD-axew-BoxSprite.png|htiny]]
+> ![[SRD-axew-ShuffleToken.png|wsmall]]
+
 
 *Tusk Pokemon*
 *They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows back quickly. They fight each other to see who’s got the sharpest tusks. Only the strongest ever evolve.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-axew-HomeSprite.png|right]]
-![[SRD-axew-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

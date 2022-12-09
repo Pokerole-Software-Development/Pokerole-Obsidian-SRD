@@ -23,6 +23,7 @@ Name: Onix
 Number: 95
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-onix-ShuffleToken.png
 Sprite: onix.png
 Type1: Rock
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-onix-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-onix-BookSprite.png|wsmall]]
+> ![[SRD-onix-HomeSprite.png]]
+> ![[SRD-onix-BoxSprite.png|htiny]]
+> ![[SRD-onix-ShuffleToken.png|wsmall]]
+
 
 *Rock Snake Pokemon*
 *It is not full-size when it’s born. Years of eating boulders make it a real giant. It lives on mountains and dark tunnels. Its frightening roars travel as echo through the cave. It is very aggressive towards others.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-onix-HomeSprite.png|right]]
-![[SRD-onix-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

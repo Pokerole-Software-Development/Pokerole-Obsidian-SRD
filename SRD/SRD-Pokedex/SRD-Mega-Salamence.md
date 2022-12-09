@@ -23,6 +23,7 @@ Name: Mega-Salamence
 Number: 373
 PrimaryEggGroup: Dragon
 SecondaryEggGroup: ''
+ShuffleToken: SRD-salamence-mega-ShuffleToken.png
 Sprite: salamence-mega.png
 Type1: Dragon
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-salamence-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-salamence-mega-BookSprite.png|wsmall]]
+> ![[SRD-salamence-mega-HomeSprite.png]]
+> ![[SRD-salamence-mega-BoxSprite.png|htiny]]
+> ![[SRD-salamence-mega-ShuffleToken.png|wsmall]]
+
 
 *Dragon Pokemon*
 *The power of the Mega Stone gives it the nickname “The blood-soaked Crescent”. It is violent and very unpredictable, even turning on their own trainer. Many believe it is because its bent wings cause it pain.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-salamence-mega-HomeSprite.png|right]]
-![[SRD-salamence-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

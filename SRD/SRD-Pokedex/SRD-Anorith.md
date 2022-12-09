@@ -23,6 +23,7 @@ Name: Anorith
 Number: 347
 PrimaryEggGroup: Water 3
 SecondaryEggGroup: ''
+ShuffleToken: SRD-anorith-ShuffleToken.png
 Sprite: anorith.png
 Type1: Rock
 Type2: Bug
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-anorith-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-anorith-BookSprite.png|wsmall]]
+> ![[SRD-anorith-HomeSprite.png]]
+> ![[SRD-anorith-BoxSprite.png|htiny]]
+> ![[SRD-anorith-ShuffleToken.png|wsmall]]
+
 
 *Old Shrimp Pokemon*
 *This ancient Pokemon is thought to be the common ancestor of many modern Bug Pokemon. The fossils show it lived in big schools and it preferred warm waters. Anoriths used their claws to catch small prey.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-anorith-HomeSprite.png|right]]
-![[SRD-anorith-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

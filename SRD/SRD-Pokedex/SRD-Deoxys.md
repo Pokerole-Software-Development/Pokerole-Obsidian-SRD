@@ -23,6 +23,7 @@ Name: Deoxys
 Number: 386
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-deoxys-ShuffleToken.png
 Sprite: deoxys.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-deoxys-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-deoxys-BookSprite.png|wsmall]]
+> ![[SRD-deoxys-HomeSprite.png]]
+> ![[SRD-deoxys-BoxSprite.png|htiny]]
+> ![[SRD-deoxys-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *A space expedition had to be aborted due to an emergency. The ship’s crew mentioned a creature attacking them inside their ship. They all gave different descriptions of said creature.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::4)/(MaxInsight::4)     |
 
-![[SRD-deoxys-HomeSprite.png|right]]
-![[SRD-deoxys-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

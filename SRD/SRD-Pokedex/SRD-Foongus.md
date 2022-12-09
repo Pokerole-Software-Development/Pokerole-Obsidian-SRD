@@ -23,6 +23,7 @@ Name: Foongus
 Number: 590
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-foongus-ShuffleToken.png
 Sprite: foongus.png
 Type1: Grass
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-foongus-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-foongus-BookSprite.png|wsmall]]
+> ![[SRD-foongus-HomeSprite.png]]
+> ![[SRD-foongus-BoxSprite.png|htiny]]
+> ![[SRD-foongus-ShuffleToken.png|wsmall]]
+
 
 *Mushroom Pokemon*
 *The top of fungus takes a pattern that resembles a predator to protect itself. In recent times this pattern has started to look like a Pokeball. It releases toxic spores in the air that help it move around safely.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-foongus-HomeSprite.png|right]]
-![[SRD-foongus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

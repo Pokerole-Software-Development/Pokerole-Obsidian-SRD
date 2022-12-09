@@ -23,6 +23,7 @@ Name: Mega-Sableye
 Number: 302
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sableye-mega-ShuffleToken.png
 Sprite: sableye-mega.png
 Type1: Dark
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sableye-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sableye-mega-BookSprite.png|wsmall]]
+> ![[SRD-sableye-mega-HomeSprite.png]]
+> ![[SRD-sableye-mega-BoxSprite.png|htiny]]
+> ![[SRD-sableye-mega-ShuffleToken.png|wsmall]]
+
 
 *Darkness Pokemon*
 *The power of the Mega Stone made the jewel on its chest grow, it now uses it as a shield to repel any attack, but its movement is limited due to how heavy it is. Its greed for the jewel can make it aggressive.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-sableye-mega-HomeSprite.png|right]]
-![[SRD-sableye-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

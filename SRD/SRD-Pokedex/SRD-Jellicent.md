@@ -23,6 +23,7 @@ Name: Jellicent
 Number: 593
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-jellicent-ShuffleToken.png
 Sprite: jellicent.png
 Type1: Water
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-jellicent-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-jellicent-BookSprite.png|wsmall]]
+> ![[SRD-jellicent-HomeSprite.png]]
+> ![[SRD-jellicent-BoxSprite.png|htiny]]
+> ![[SRD-jellicent-ShuffleToken.png|wsmall]]
+
 
 *Floating Pokemon*
 *Its body is mostly seawater. It feeds on the life energy of its victims. It is regal, pompous, and hates orders. The fate of the ships and crew that wander into Jellicent's territory: All sunken, all lost, all vanished.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-jellicent-HomeSprite.png|right]]
-![[SRD-jellicent-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

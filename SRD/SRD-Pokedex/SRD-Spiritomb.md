@@ -23,6 +23,7 @@ Name: Spiritomb
 Number: 442
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-spiritomb-ShuffleToken.png
 Sprite: spiritomb.png
 Type1: Ghost
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-spiritomb-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-spiritomb-BookSprite.png|wsmall]]
+> ![[SRD-spiritomb-HomeSprite.png]]
+> ![[SRD-spiritomb-BoxSprite.png|htiny]]
+> ![[SRD-spiritomb-ShuffleToken.png|wsmall]]
+
 
 *Forbidden Pokemon*
 *A legend from 500 years ago tells how it got bound into an Odd Keystone after cursing an entire town. Two have been found in recent times. It is said that its vortex has more than 100 haunted souls.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-spiritomb-HomeSprite.png|right]]
-![[SRD-spiritomb-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

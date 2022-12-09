@@ -23,6 +23,7 @@ Name: Wishiwashi
 Number: 746
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-wishiwashi-ShuffleToken.png
 Sprite: wishiwashi.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-wishiwashi-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-wishiwashi-BookSprite.png|wsmall]]
+> ![[SRD-wishiwashi-HomeSprite.png]]
+> ![[SRD-wishiwashi-BoxSprite.png|htiny]]
+> ![[SRD-wishiwashi-ShuffleToken.png|wsmall]]
+
 
 *Small Fry Pokemon*
 *People and Pokemon enjoy this tiny Pokemon's meat. Their eyes shine as a distress signal, other members of its species will travel far and wide to attend the call for help. When this happens you must run.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-wishiwashi-HomeSprite.png|right]]
-![[SRD-wishiwashi-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

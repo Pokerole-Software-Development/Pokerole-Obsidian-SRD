@@ -23,6 +23,7 @@ Name: Cherubi
 Number: 420
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-cherubi-ShuffleToken.png
 Sprite: cherubi.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cherubi-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cherubi-BookSprite.png|wsmall]]
+> ![[SRD-cherubi-HomeSprite.png]]
+> ![[SRD-cherubi-BoxSprite.png|htiny]]
+> ![[SRD-cherubi-ShuffleToken.png|wsmall]]
+
 
 *Cherry Pokemon*
 *It hides on bushes while absorbing the sunlight. Their small heads store the energy needed for evolution, but this small head is frequently eaten by other Pokemon and people so it’s hard for them to evolve.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-cherubi-HomeSprite.png|right]]
-![[SRD-cherubi-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

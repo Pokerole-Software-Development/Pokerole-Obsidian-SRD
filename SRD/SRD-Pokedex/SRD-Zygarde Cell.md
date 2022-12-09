@@ -22,6 +22,7 @@ Name: Zygarde Cell
 Number: 718
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zygarde-ShuffleToken.png
 Sprite: zygarde.png
 Type1: Dragon
 Type2: Ground
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zygarde-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zygarde-BookSprite.png|wsmall]]
+> ![[SRD-zygarde-HomeSprite.png]]
+> ![[SRD-zygarde-BoxSprite.png|htiny]]
+> ![[SRD-zygarde-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Only the the cores react to stimuli, the cells remain mostly inanimate. They gather in great numbers to create and strengthen Zygarde.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::1)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::1)     |
 
-![[SRD-zygarde-HomeSprite.png|right]]
-![[SRD-zygarde-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

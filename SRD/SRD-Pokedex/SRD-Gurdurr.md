@@ -23,6 +23,7 @@ Name: Gurdurr
 Number: 533
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gurdurr-ShuffleToken.png
 Sprite: gurdurr.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gurdurr-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gurdurr-BookSprite.png|wsmall]]
+> ![[SRD-gurdurr-HomeSprite.png]]
+> ![[SRD-gurdurr-BoxSprite.png|htiny]]
+> ![[SRD-gurdurr-ShuffleToken.png|wsmall]]
+
 
 *Muscular Pokemon*
 *This Pokemon is very muscular and strongly built. It likes to show off it’s strength and muscles. Some years back a famous wrestler got defeated in just a few seconds by one of these Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-gurdurr-HomeSprite.png|right]]
-![[SRD-gurdurr-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

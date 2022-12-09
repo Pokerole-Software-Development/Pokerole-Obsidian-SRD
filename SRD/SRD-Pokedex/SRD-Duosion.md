@@ -23,6 +23,7 @@ Name: Duosion
 Number: 578
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-duosion-ShuffleToken.png
 Sprite: duosion.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-duosion-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-duosion-BookSprite.png|wsmall]]
+> ![[SRD-duosion-HomeSprite.png]]
+> ![[SRD-duosion-BoxSprite.png|htiny]]
+> ![[SRD-duosion-ShuffleToken.png|wsmall]]
+
 
 *Mitosis Pokemon*
 *It developed two brains when it evolved, due to this it has a split personality. At times it may suddenly try to take two different actions at once. When the two brains finally synchronize it shows it’s max power.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-duosion-HomeSprite.png|right]]
-![[SRD-duosion-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

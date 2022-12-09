@@ -23,6 +23,7 @@ Name: Fennekin
 Number: 653
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-fennekin-ShuffleToken.png
 Sprite: fennekin.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-fennekin-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-fennekin-BookSprite.png|wsmall]]
+> ![[SRD-fennekin-HomeSprite.png]]
+> ![[SRD-fennekin-BoxSprite.png|htiny]]
+> ![[SRD-fennekin-ShuffleToken.png|wsmall]]
+
 
 *Fox Pokemon*
 *This small and elusive Pokemon intimidates opponents by puffing hot air out of its ears. It likes to keep twigs and sticks nearby to munch them instead of snacks. They make good pets but they are pretty rare.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-fennekin-HomeSprite.png|right]]
-![[SRD-fennekin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

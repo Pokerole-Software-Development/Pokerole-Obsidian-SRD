@@ -23,6 +23,7 @@ Name: Ribombee
 Number: 743
 PrimaryEggGroup: Bug
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-ribombee-ShuffleToken.png
 Sprite: ribombee.png
 Type1: Bug
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ribombee-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ribombee-BookSprite.png|wsmall]]
+> ![[SRD-ribombee-HomeSprite.png]]
+> ![[SRD-ribombee-BoxSprite.png|htiny]]
+> ![[SRD-ribombee-ShuffleToken.png|wsmall]]
+
 
 *Bee Fly Pokemon*
 *The pollen puff of a happy Ribombee are very nutritious and valuable supplements in Alola. It dislikes rain, for it wets its hair and makes it unable to fly, so if you see a Ribombee you know the weather will be nice.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-ribombee-HomeSprite.png|right]]
-![[SRD-ribombee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

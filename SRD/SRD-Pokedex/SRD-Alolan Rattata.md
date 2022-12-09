@@ -23,6 +23,7 @@ Name: Alolan Rattata
 Number: 19
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rattata-alola-ShuffleToken.png
 Sprite: rattata-alola.png
 Type1: Dark
 Type2: Normal
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rattata-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rattata-alola-BookSprite.png|wsmall]]
+> ![[SRD-rattata-alola-HomeSprite.png]]
+> ![[SRD-rattata-alola-BoxSprite.png|htiny]]
+> ![[SRD-rattata-alola-ShuffleToken.png|wsmall]]
+
 
 *Mouse Pokemon*
 *Rattata first came to Alola through cargo ships, it thrived and almost destroyed the region’s ecosystem. Attempts to exterminate this Pokemon made it more vicious than its regular counterpart.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-rattata-alola-HomeSprite.png|right]]
-![[SRD-rattata-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

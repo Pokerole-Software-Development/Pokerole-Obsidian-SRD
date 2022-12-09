@@ -23,6 +23,7 @@ Name: Dugtrio
 Number: 51
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-dugtrio-ShuffleToken.png
 Sprite: dugtrio.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dugtrio-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dugtrio-BookSprite.png|wsmall]]
+> ![[SRD-dugtrio-HomeSprite.png]]
+> ![[SRD-dugtrio-BoxSprite.png|htiny]]
+> ![[SRD-dugtrio-ShuffleToken.png|wsmall]]
+
 
 *Mole Pokemon*
 *Because the triplets originally split from one body, they think exactly alike. They work together to dig endlessly through the ground. They are known for destroying the foundations of roads and buildings.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-dugtrio-HomeSprite.png|right]]
-![[SRD-dugtrio-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

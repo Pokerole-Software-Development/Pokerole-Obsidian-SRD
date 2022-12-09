@@ -23,6 +23,7 @@ Name: Honchkrow
 Number: 430
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-honchkrow-ShuffleToken.png
 Sprite: honchkrow.png
 Type1: Dark
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-honchkrow-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-honchkrow-BookSprite.png|wsmall]]
+> ![[SRD-honchkrow-HomeSprite.png]]
+> ![[SRD-honchkrow-BoxSprite.png|htiny]]
+> ![[SRD-honchkrow-ShuffleToken.png|wsmall]]
+
 
 *Big Boss Pokemon*
 *It lets out a deep cry to summon Murkrows, which fetch food and shiny objects to Honchkrow. It is, however, a tyrant to the Murkrow. It only goes out at night to carry out evil deeds.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-honchkrow-HomeSprite.png|right]]
-![[SRD-honchkrow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Oddish
 Number: 43
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-oddish-ShuffleToken.png
 Sprite: oddish.png
 Type1: Grass
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-oddish-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-oddish-BookSprite.png|wsmall]]
+> ![[SRD-oddish-HomeSprite.png]]
+> ![[SRD-oddish-BoxSprite.png|htiny]]
+> ![[SRD-oddish-ShuffleToken.png|wsmall]]
+
 
 *Weed Pokemon*
 *This Pokemon grows by absorbing moonlight. During daytime, it buries itself in the ground, leaving only its leaves exposed to avoid detection by its predators. You can locate it by the smell its leaves release.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-oddish-HomeSprite.png|right]]
-![[SRD-oddish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

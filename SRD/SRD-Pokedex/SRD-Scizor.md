@@ -26,6 +26,7 @@ Name: Scizor
 Number: 212
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-scizor-ShuffleToken.png
 Sprite: scizor.png
 Type1: Bug
 Type2: Steel
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-scizor-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-scizor-BookSprite.png|wsmall]]
+> ![[SRD-scizor-HomeSprite.png]]
+> ![[SRD-scizor-BoxSprite.png|htiny]]
+> ![[SRD-scizor-ShuffleToken.png|wsmall]]
+
 
 *Pincer Pokemon*
 *Its pincers appear to be two more heads and its wings are not for flying, but to regulate its body temperature. Scizor's body can shrug off most attacks and its pincers can crush almost any object.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-scizor-HomeSprite.png|right]]
-![[SRD-scizor-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Mega-Latias
 Number: 380
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-latias-mega-ShuffleToken.png
 Sprite: latias-mega.png
 Type1: Dragon
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-latias-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-latias-mega-BookSprite.png|wsmall]]
+> ![[SRD-latias-mega-HomeSprite.png]]
+> ![[SRD-latias-mega-BoxSprite.png|htiny]]
+> ![[SRD-latias-mega-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Latias is very in sync with human emotions, it can communicate using telepathy. With the power of the Mega Stone all of its capabilities are enhanced although its personality becomes more distant than usual.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::8)/(MaxInsight::8)     |
 
-![[SRD-latias-mega-HomeSprite.png|right]]
-![[SRD-latias-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

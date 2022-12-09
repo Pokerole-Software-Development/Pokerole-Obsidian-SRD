@@ -23,6 +23,7 @@ Name: Sinistea
 Number: 854
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-sinistea-ShuffleToken.png
 Sprite: sinistea.png
 Type1: Ghost
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sinistea-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sinistea-BookSprite.png|wsmall]]
+> ![[SRD-sinistea-HomeSprite.png]]
+> ![[SRD-sinistea-BoxSprite.png|htiny]]
+> ![[SRD-sinistea-ShuffleToken.png|wsmall]]
+
 
 *Black Tea Pokemon*
 *This Pokemon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea. It absorbs the life-force of those who drink it but it tastes so bad that it gets spat out immediately.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-sinistea-HomeSprite.png|right]]
-![[SRD-sinistea-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

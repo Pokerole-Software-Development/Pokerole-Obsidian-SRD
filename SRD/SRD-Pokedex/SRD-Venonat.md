@@ -23,6 +23,7 @@ Name: Venonat
 Number: 48
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-venonat-ShuffleToken.png
 Sprite: venonat.png
 Type1: Bug
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-venonat-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-venonat-BookSprite.png|wsmall]]
+> ![[SRD-venonat-HomeSprite.png]]
+> ![[SRD-venonat-BoxSprite.png|htiny]]
+> ![[SRD-venonat-ShuffleToken.png|wsmall]]
+
 
 *Insect Pokemon*
 *It lives in the holes of trees in dense forests and jungles. Its large eyes never fail to spot even minuscule prey. Sometimes Venonat uses its powers to confuse travelers and make them lose their way.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-venonat-HomeSprite.png|right]]
-![[SRD-venonat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

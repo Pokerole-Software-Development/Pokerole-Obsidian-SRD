@@ -23,6 +23,7 @@ Name: Whismur
 Number: 293
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Field
+ShuffleToken: SRD-whismur-ShuffleToken.png
 Sprite: whismur.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-whismur-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-whismur-BookSprite.png|wsmall]]
+> ![[SRD-whismur-HomeSprite.png]]
+> ![[SRD-whismur-BoxSprite.png|htiny]]
+> ![[SRD-whismur-ShuffleToken.png|wsmall]]
+
 
 *Whisper Pokemon*
 *Their timid voice is barely audible, however, if it senses danger, they start crying loud enough to deafen anyone nearby. Their own noise scares them even more, so they cry harder until their ear covers shut.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-whismur-HomeSprite.png|right]]
-![[SRD-whismur-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

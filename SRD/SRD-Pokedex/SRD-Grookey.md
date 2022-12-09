@@ -23,6 +23,7 @@ Name: Grookey
 Number: 810
 PrimaryEggGroup: Field
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-grookey-ShuffleToken.png
 Sprite: grookey.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-grookey-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-grookey-BookSprite.png|wsmall]]
+> ![[SRD-grookey-HomeSprite.png]]
+> ![[SRD-grookey-BoxSprite.png|htiny]]
+> ![[SRD-grookey-ShuffleToken.png|wsmall]]
+
 
 *Chimp Pokemon*
 *They spend their early days looking for a stick with a certain sound, it then uses the stick to create rhythmic beats that makes plan glow and grow. Grookey are enthusiastic and kind creatures that love music.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-grookey-HomeSprite.png|right]]
-![[SRD-grookey-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

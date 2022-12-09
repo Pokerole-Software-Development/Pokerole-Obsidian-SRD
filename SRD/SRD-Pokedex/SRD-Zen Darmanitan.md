@@ -23,6 +23,7 @@ Name: Zen Darmanitan
 Number: 555
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-darmanitan-zen-ShuffleToken.png
 Sprite: darmanitan-zen.png
 Type1: Fire
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-darmanitan-zen-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-darmanitan-zen-BookSprite.png|wsmall]]
+> ![[SRD-darmanitan-zen-HomeSprite.png]]
+> ![[SRD-darmanitan-zen-BoxSprite.png|htiny]]
+> ![[SRD-darmanitan-zen-ShuffleToken.png|wsmall]]
+
 
 *Blazing Pokemon*
 *Apparently this Darmanitan just became a statue after receiving a lot of damage. It remained immobile, but as soon as it’s health recovered it returned to it’s original state and lost its psychic powers.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-darmanitan-zen-HomeSprite.png|right]]
-![[SRD-darmanitan-zen-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

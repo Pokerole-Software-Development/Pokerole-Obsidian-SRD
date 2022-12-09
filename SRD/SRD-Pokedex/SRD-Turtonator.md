@@ -23,6 +23,7 @@ Name: Turtonator
 Number: 776
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-turtonator-ShuffleToken.png
 Sprite: turtonator.png
 Type1: Fire
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-turtonator-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-turtonator-BookSprite.png|wsmall]]
+> ![[SRD-turtonator-HomeSprite.png]]
+> ![[SRD-turtonator-BoxSprite.png|htiny]]
+> ![[SRD-turtonator-ShuffleToken.png|wsmall]]
+
 
 *Blast Turtle Pokemon*
 *It leaves in the volcanic areas of Alola, where it disguises itself among the rocks, waiting for prey to step on it to detonate an explosion. The hole on its chest is a weak point, but it is very difficult to access.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-turtonator-HomeSprite.png|right]]
-![[SRD-turtonator-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Ho-oh
 Number: 250
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-ho-oh-ShuffleToken.png
 Sprite: ho-oh.png
 Type1: Fire
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ho-oh-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ho-oh-BookSprite.png|wsmall]]
+> ![[SRD-ho-oh-HomeSprite.png]]
+> ![[SRD-ho-oh-BoxSprite.png|htiny]]
+> ![[SRD-ho-oh-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Ho-oh inhabited the Bell Tower, where Pokemon were said to rest. Ho-oh’s Myth talks about a creature that brought eternal rest for those whose time was right, and also gave back life if death was premature.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-ho-oh-HomeSprite.png|right]]
-![[SRD-ho-oh-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

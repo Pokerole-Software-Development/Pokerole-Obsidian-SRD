@@ -23,6 +23,7 @@ Name: Galarian Mr. Mime
 Number: 122
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mr-mime-galar-ShuffleToken.png
 Sprite: mr-mime-galar.png
 Type1: Ice
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mr-mime-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mr-mime-galar-BookSprite.png|wsmall]]
+> ![[SRD-mr-mime-galar-HomeSprite.png]]
+> ![[SRD-mr-mime-galar-BoxSprite.png|htiny]]
+> ![[SRD-mr-mime-galar-ShuffleToken.png|wsmall]]
+
 
 *Barrier Pokemon*
 *Mime Jr. that endure the harsh winter of Galar are able to create invisible walls that suddenly turn to ice, as they evolve they start creating ice floors that allow them to tap-dance, which they enjoy more than anything.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-mr-mime-galar-HomeSprite.png|right]]
-![[SRD-mr-mime-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

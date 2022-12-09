@@ -23,6 +23,7 @@ Name: Pincurchin
 Number: 871
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-pincurchin-ShuffleToken.png
 Sprite: pincurchin.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pincurchin-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pincurchin-BookSprite.png|wsmall]]
+> ![[SRD-pincurchin-HomeSprite.png]]
+> ![[SRD-pincurchin-BoxSprite.png|htiny]]
+> ![[SRD-pincurchin-ShuffleToken.png|wsmall]]
+
 
 *Sea Urchin Pokemon*
 *This quiet pokemon feeds on sea weed, using its teeth to scrape it off rocks. It stores electricity in each of its spines. Even if one gets broken off, it will continue to emit electricity for a few more hours.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-pincurchin-HomeSprite.png|right]]
-![[SRD-pincurchin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

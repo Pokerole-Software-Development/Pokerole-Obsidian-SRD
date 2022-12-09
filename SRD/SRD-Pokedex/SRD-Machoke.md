@@ -23,6 +23,7 @@ Name: Machoke
 Number: 67
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-machoke-ShuffleToken.png
 Sprite: machoke.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-machoke-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-machoke-BookSprite.png|wsmall]]
+> ![[SRD-machoke-HomeSprite.png]]
+> ![[SRD-machoke-BoxSprite.png|htiny]]
+> ![[SRD-machoke-ShuffleToken.png|wsmall]]
+
 
 *Superpower Pokemon*
 *Even with its strong frame and power, it is a humble and helpful Pokemon. Many of them work for human companies. On their days off you can see them heading to the wild to train together.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-machoke-HomeSprite.png|right]]
-![[SRD-machoke-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

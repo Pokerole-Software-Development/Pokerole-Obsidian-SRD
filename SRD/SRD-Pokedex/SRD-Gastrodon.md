@@ -23,6 +23,7 @@ Name: Gastrodon
 Number: 423
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-gastrodon-ShuffleToken.png
 Sprite: gastrodon.png
 Type1: Water
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gastrodon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gastrodon-BookSprite.png|wsmall]]
+> ![[SRD-gastrodon-HomeSprite.png]]
+> ![[SRD-gastrodon-BoxSprite.png|htiny]]
+> ![[SRD-gastrodon-ShuffleToken.png|wsmall]]
+
 
 *Sea Slug Pokemon*
 *It has a pliable body without any bones. If any part of its body is torn off, it will grow back in minutes. There is evidence that it had a hard shell on its back for protection in prehistoric times.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-gastrodon-HomeSprite.png|right]]
-![[SRD-gastrodon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

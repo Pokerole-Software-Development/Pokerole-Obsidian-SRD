@@ -23,6 +23,7 @@ Name: Alcremie
 Number: 869
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-alcremie-ShuffleToken.png
 Sprite: alcremie.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-alcremie-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-alcremie-BookSprite.png|wsmall]]
+> ![[SRD-alcremie-HomeSprite.png]]
+> ![[SRD-alcremie-BoxSprite.png|htiny]]
+> ![[SRD-alcremie-ShuffleToken.png|wsmall]]
+
 
 *Cream Pokemon*
 *There is a vast number of recipes to evolve an Alcremie, changing their color and flavor, some are sweet, some are sour but they are all delicious. Cakes baked with its help can be sold for a lot of money.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-alcremie-HomeSprite.png|right]]
-![[SRD-alcremie-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

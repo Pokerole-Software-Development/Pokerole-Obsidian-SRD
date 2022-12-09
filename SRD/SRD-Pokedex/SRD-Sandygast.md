@@ -23,6 +23,7 @@ Name: Sandygast
 Number: 769
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sandygast-ShuffleToken.png
 Sprite: sandygast.png
 Type1: Ghost
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sandygast-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sandygast-BookSprite.png|wsmall]]
+> ![[SRD-sandygast-HomeSprite.png]]
+> ![[SRD-sandygast-BoxSprite.png|htiny]]
+> ![[SRD-sandygast-ShuffleToken.png|wsmall]]
+
 
 *Sand Heap Pokemon*
 *Some departed soul made a child’s sand mound its vessel. Anyone who puts their hand inside its mouth will have its vital energy absorbed and its mind possessed to add more sand until they collapse.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-sandygast-HomeSprite.png|right]]
-![[SRD-sandygast-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

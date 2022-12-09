@@ -23,6 +23,7 @@ Name: Cacturne
 Number: 332
 PrimaryEggGroup: Grass
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-cacturne-ShuffleToken.png
 Sprite: cacturne.png
 Type1: Grass
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cacturne-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cacturne-BookSprite.png|wsmall]]
+> ![[SRD-cacturne-HomeSprite.png]]
+> ![[SRD-cacturne-BoxSprite.png|htiny]]
+> ![[SRD-cacturne-ShuffleToken.png|wsmall]]
+
 
 *Scarecrow Pokemon*
 *They only move during the night. If they spot a traveler, Cacturnes will stalk them in groups, waiting for the exhausted creatures to sleep before attacking. Their insides are actually sand.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-cacturne-HomeSprite.png|right]]
-![[SRD-cacturne-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

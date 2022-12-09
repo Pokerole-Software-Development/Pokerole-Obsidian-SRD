@@ -23,6 +23,7 @@ Name: Golett
 Number: 622
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-golett-ShuffleToken.png
 Sprite: golett.png
 Type1: Ground
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-golett-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-golett-BookSprite.png|wsmall]]
+> ![[SRD-golett-HomeSprite.png]]
+> ![[SRD-golett-BoxSprite.png|htiny]]
+> ![[SRD-golett-ShuffleToken.png|wsmall]]
+
 
 *Automaton Pokemon*
 *Very few have been seen in old ruins. These Pokemon are thought to have been created by the science of an ancient and mysterious civilization. The energy inside of it comes from an unknown source.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-golett-HomeSprite.png|right]]
-![[SRD-golett-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

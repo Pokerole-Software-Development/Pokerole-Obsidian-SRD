@@ -23,6 +23,7 @@ Name: Form Tornadus
 Number: 641
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tornadus-ShuffleToken.png
 Sprite: tornadus.png
 Type1: Flying
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tornadus-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tornadus-BookSprite.png|wsmall]]
+> ![[SRD-tornadus-HomeSprite.png]]
+> ![[SRD-tornadus-BoxSprite.png|htiny]]
+> ![[SRD-tornadus-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Some Pokemon reveal their true forms after recovering power lost to them. Great forces of nature can help them recover their strength such as Tornadoes, Lightning, and even a Landslide.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-tornadus-HomeSprite.png|right]]
-![[SRD-tornadus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Froslass
 Number: 478
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Mineral
+ShuffleToken: SRD-froslass-ShuffleToken.png
 Sprite: froslass.png
 Type1: Ice
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-froslass-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-froslass-BookSprite.png|wsmall]]
+> ![[SRD-froslass-HomeSprite.png]]
+> ![[SRD-froslass-BoxSprite.png|htiny]]
+> ![[SRD-froslass-ShuffleToken.png|wsmall]]
+
 
 *Snow Land Pokemon*
 *This Pokemon is female only. Legends in snowy regions say that a woman who was lost at an icy mountain was reborn as Froslass. It appears during blizzards to take lost people away.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-froslass-HomeSprite.png|right]]
-![[SRD-froslass-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

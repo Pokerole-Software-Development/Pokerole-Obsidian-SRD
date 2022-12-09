@@ -23,6 +23,7 @@ Name: Walrein
 Number: 365
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-walrein-ShuffleToken.png
 Sprite: walrein.png
 Type1: Ice
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-walrein-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-walrein-BookSprite.png|wsmall]]
+> ![[SRD-walrein-HomeSprite.png]]
+> ![[SRD-walrein-BoxSprite.png|htiny]]
+> ![[SRD-walrein-ShuffleToken.png|wsmall]]
+
 
 *Ice Break Pokemon*
 *The leader of the herd is a powerful Walrein. They are very aggressive and will protect their herd even at the cost of their lives. Their tusks can shatter giant blocks of ice. It is relentless and unpredictable.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-walrein-HomeSprite.png|right]]
-![[SRD-walrein-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

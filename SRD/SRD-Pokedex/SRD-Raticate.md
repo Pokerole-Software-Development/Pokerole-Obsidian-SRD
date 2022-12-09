@@ -23,6 +23,7 @@ Name: Raticate
 Number: 20
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-raticate-ShuffleToken.png
 Sprite: raticate.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-raticate-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-raticate-BookSprite.png|wsmall]]
+> ![[SRD-raticate-HomeSprite.png]]
+> ![[SRD-raticate-BoxSprite.png|htiny]]
+> ![[SRD-raticate-ShuffleToken.png|wsmall]]
+
 
 *Mouse Pokemon*
 *Raticate's sturdy fangs grow quickly. To keep them ground down, it gnaws on hard materials. It may even chew on the walls of houses. Its has water-proof fur, webbed feet and its a capable swimmer.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-raticate-HomeSprite.png|right]]
-![[SRD-raticate-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

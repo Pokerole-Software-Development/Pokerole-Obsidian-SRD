@@ -23,6 +23,7 @@ Name: Treecko
 Number: 252
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-treecko-ShuffleToken.png
 Sprite: treecko.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-treecko-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-treecko-BookSprite.png|wsmall]]
+> ![[SRD-treecko-HomeSprite.png]]
+> ![[SRD-treecko-BoxSprite.png|htiny]]
+> ![[SRD-treecko-ShuffleToken.png|wsmall]]
+
 
 *Wood Gecko Pokemon*
 *They climb trees with their spiked feet. They remain cool under stress, calmed under pressure and collected when endangered. They are found protecting the trees ferociously.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-treecko-HomeSprite.png|right]]
-![[SRD-treecko-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

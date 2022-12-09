@@ -23,6 +23,7 @@ Name: Swalot
 Number: 317
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-swalot-ShuffleToken.png
 Sprite: swalot.png
 Type1: Poison
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-swalot-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-swalot-BookSprite.png|wsmall]]
+> ![[SRD-swalot-HomeSprite.png]]
+> ![[SRD-swalot-BoxSprite.png|htiny]]
+> ![[SRD-swalot-ShuffleToken.png|wsmall]]
+
 
 *Poison Bag Pokemon*
 *Swalots spurt toxic fluids from their pores, and once the prey is weak, it gets swallowed whole since they have no teeth. They may eat anything up to the size of a car’s tire. Do not get too close to them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-swalot-HomeSprite.png|right]]
-![[SRD-swalot-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

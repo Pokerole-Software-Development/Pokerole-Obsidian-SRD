@@ -23,6 +23,7 @@ Name: Obstagoon
 Number: 862
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-obstagoon-ShuffleToken.png
 Sprite: obstagoon.png
 Type1: Dark
 Type2: Normal
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-obstagoon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-obstagoon-BookSprite.png|wsmall]]
+> ![[SRD-obstagoon-HomeSprite.png]]
+> ![[SRD-obstagoon-BoxSprite.png|htiny]]
+> ![[SRD-obstagoon-ShuffleToken.png|wsmall]]
+
 
 *Blocking Pokemon*
 *Its voice has a very loud volume and it is a noisy and rude Pokemon. Obstagoon has a tendency to take on a threatening posture and shout at anyone that is in front of it. They rarely take things seriously.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-obstagoon-HomeSprite.png|right]]
-![[SRD-obstagoon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

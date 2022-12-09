@@ -23,6 +23,7 @@ Name: Lickilicky
 Number: 463
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-lickilicky-ShuffleToken.png
 Sprite: lickilicky.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lickilicky-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lickilicky-BookSprite.png|wsmall]]
+> ![[SRD-lickilicky-HomeSprite.png]]
+> ![[SRD-lickilicky-BoxSprite.png|htiny]]
+> ![[SRD-lickilicky-ShuffleToken.png|wsmall]]
+
 
 *Licking Pokemon*
 *It uses its tongue as an stretchable arm. It will wrap prey with it and then proceed to eat it. Its saliva causes numbness. Try not to touch its tongue, it might try to eat you by reflex.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-lickilicky-HomeSprite.png|right]]
-![[SRD-lickilicky-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Bayleef
 Number: 153
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-bayleef-ShuffleToken.png
 Sprite: bayleef.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bayleef-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bayleef-BookSprite.png|wsmall]]
+> ![[SRD-bayleef-HomeSprite.png]]
+> ![[SRD-bayleef-BoxSprite.png|htiny]]
+> ![[SRD-bayleef-ShuffleToken.png|wsmall]]
+
 
 *Leaf Pokemon*
 *A spicy fragrance emanates from around its neck that makes it feisty and impetuous. It sheds its leaves every couple of weeks after the aroma diminishes and its mood also becomes calmer.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-bayleef-HomeSprite.png|right]]
-![[SRD-bayleef-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

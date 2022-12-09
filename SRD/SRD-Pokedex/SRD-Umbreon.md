@@ -23,6 +23,7 @@ Name: Umbreon
 Number: 197
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-umbreon-ShuffleToken.png
 Sprite: umbreon.png
 Type1: Dark
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-umbreon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-umbreon-BookSprite.png|wsmall]]
+> ![[SRD-umbreon-HomeSprite.png]]
+> ![[SRD-umbreon-BoxSprite.png|htiny]]
+> ![[SRD-umbreon-ShuffleToken.png|wsmall]]
+
 
 *Moonlight Pokemon*
 *Umbreon evolved from exposure to the moon’s energy pulses. It lurks in darkness and waits for its foes to move. The rings on its body glow when it leaps to attack. Its fur is drenched with poison.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-umbreon-HomeSprite.png|right]]
-![[SRD-umbreon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

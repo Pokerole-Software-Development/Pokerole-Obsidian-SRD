@@ -23,6 +23,7 @@ Name: Torchic
 Number: 255
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-torchic-ShuffleToken.png
 Sprite: torchic.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-torchic-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-torchic-BookSprite.png|wsmall]]
+> ![[SRD-torchic-HomeSprite.png]]
+> ![[SRD-torchic-BoxSprite.png|htiny]]
+> ![[SRD-torchic-ShuffleToken.png|wsmall]]
+
 
 *Chick Pokemon*
 *They walk clumsily, but follow their trainers wherever they go. Torchics have a flame sac in their belly - burning all the time. If you hug them, they feel warm, but if you squeeze them, they may spit fire.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-torchic-HomeSprite.png|right]]
-![[SRD-torchic-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

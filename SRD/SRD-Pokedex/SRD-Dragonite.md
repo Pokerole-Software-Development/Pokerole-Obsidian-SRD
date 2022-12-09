@@ -23,6 +23,7 @@ Name: Dragonite
 Number: 149
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-dragonite-ShuffleToken.png
 Sprite: dragonite.png
 Type1: Dragon
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dragonite-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dragonite-BookSprite.png|wsmall]]
+> ![[SRD-dragonite-HomeSprite.png]]
+> ![[SRD-dragonite-BoxSprite.png|htiny]]
+> ![[SRD-dragonite-ShuffleToken.png|wsmall]]
+
 
 *Dragon Pokemon*
 *Very few people have ever seen this Pokemon. Its intelligence matches that of humans. There are records of a Pokemon with a similar description that helped rescue a ship full of people during a hurricane.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-dragonite-HomeSprite.png|right]]
-![[SRD-dragonite-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

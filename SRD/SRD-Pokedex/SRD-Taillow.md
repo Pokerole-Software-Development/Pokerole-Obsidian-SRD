@@ -23,6 +23,7 @@ Name: Taillow
 Number: 276
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-taillow-ShuffleToken.png
 Sprite: taillow.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-taillow-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-taillow-BookSprite.png|wsmall]]
+> ![[SRD-taillow-HomeSprite.png]]
+> ![[SRD-taillow-BoxSprite.png|htiny]]
+> ![[SRD-taillow-ShuffleToken.png|wsmall]]
+
 
 *Tiny Swallow Pokemon*
 *They are brave and noble, facing bigger foes whoever they might be. However, being just a child, it usually feels lonely and cries at night. They can be seen migrating south in the winter.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-taillow-HomeSprite.png|right]]
-![[SRD-taillow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Swanna
 Number: 581
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Flying
+ShuffleToken: SRD-swanna-ShuffleToken.png
 Sprite: swanna.png
 Type1: Water
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-swanna-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-swanna-BookSprite.png|wsmall]]
+> ![[SRD-swanna-HomeSprite.png]]
+> ![[SRD-swanna-BoxSprite.png|htiny]]
+> ![[SRD-swanna-ShuffleToken.png|wsmall]]
+
 
 *White Bird Pokemon*
 *Swanna come out to dance at dusk. The one dancing in the middle is the leader of the flock. Despite their elegant and frail appearance, they can flap their wings strongly and fly for thousands of miles.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-swanna-HomeSprite.png|right]]
-![[SRD-swanna-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

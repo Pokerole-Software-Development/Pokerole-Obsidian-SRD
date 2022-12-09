@@ -23,6 +23,7 @@ Name: Magikarp
 Number: 129
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-magikarp-ShuffleToken.png
 Sprite: magikarp.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-magikarp-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-magikarp-BookSprite.png|wsmall]]
+> ![[SRD-magikarp-HomeSprite.png]]
+> ![[SRD-magikarp-BoxSprite.png|htiny]]
+> ![[SRD-magikarp-ShuffleToken.png|wsmall]]
+
 
 *Fish Pokemon*
 *Magikarp is a pathetic excuse of a Pokemon that is not even good to eat. It’s only capable of flopping and splashing. However, it can survive in any body of water no matter how polluted it is.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-magikarp-HomeSprite.png|right]]
-![[SRD-magikarp-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

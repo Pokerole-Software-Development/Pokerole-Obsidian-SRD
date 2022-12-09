@@ -23,6 +23,7 @@ Name: Solrock
 Number: 338
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-solrock-ShuffleToken.png
 Sprite: solrock.png
 Type1: Rock
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-solrock-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-solrock-BookSprite.png|wsmall]]
+> ![[SRD-solrock-HomeSprite.png]]
+> ![[SRD-solrock-BoxSprite.png|htiny]]
+> ![[SRD-solrock-ShuffleToken.png|wsmall]]
+
 
 *Meteorite Pokemon*
 *People say it came from space. They release the purest light when they get angry. Usually found absorbing solar light during the day, Solrocks can emit blinding lights and burning heat while spinning.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-solrock-HomeSprite.png|right]]
-![[SRD-solrock-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Passimian
 Number: 766
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-passimian-ShuffleToken.png
 Sprite: passimian.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-passimian-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-passimian-BookSprite.png|wsmall]]
+> ![[SRD-passimian-HomeSprite.png]]
+> ![[SRD-passimian-BoxSprite.png|htiny]]
+> ![[SRD-passimian-ShuffleToken.png|wsmall]]
+
 
 *Teamwork Pokemon*
 *They live in packs of 20 members, they are all coordinated to pass around the food and to defend their nest. Their leader is not the strongest but the best teamworker of the pack. A very loyal Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-passimian-HomeSprite.png|right]]
-![[SRD-passimian-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -21,6 +21,7 @@ Name: Origin Giratina
 Number: 487
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-giratina-origin-ShuffleToken.png
 Sprite: giratina-origin.png
 Type1: Ghost
 Type2: Dragon
@@ -34,7 +35,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-giratina-origin-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-giratina-origin-BookSprite.png|wsmall]]
+> ![[SRD-giratina-origin-HomeSprite.png]]
+> ![[SRD-giratina-origin-BoxSprite.png|htiny]]
+> ![[SRD-giratina-origin-ShuffleToken.png|wsmall]]
+
 
 *Plot Device*
 *Plot Device*
@@ -53,8 +59,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-giratina-origin-HomeSprite.png|right]]
-![[SRD-giratina-origin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Dustox
 Number: 269
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-dustox-ShuffleToken.png
 Sprite: dustox.png
 Type1: Bug
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dustox-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dustox-BookSprite.png|wsmall]]
+> ![[SRD-dustox-HomeSprite.png]]
+> ![[SRD-dustox-BoxSprite.png|htiny]]
+> ![[SRD-dustox-ShuffleToken.png|wsmall]]
+
 
 *Poison Moth Pokemon*
 *They travel in big groups during the night, attracted to bright lights and big cities. Their flight releases a poisonous shining dust that causes mayhem in towns. For this reason people dislike them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-dustox-HomeSprite.png|right]]
-![[SRD-dustox-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

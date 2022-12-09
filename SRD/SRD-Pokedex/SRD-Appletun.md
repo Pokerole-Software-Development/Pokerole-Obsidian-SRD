@@ -23,6 +23,7 @@ Name: Appletun
 Number: 842
 PrimaryEggGroup: Grass
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-appletun-ShuffleToken.png
 Sprite: appletun.png
 Type1: Grass
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-appletun-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-appletun-BookSprite.png|wsmall]]
+> ![[SRD-appletun-HomeSprite.png]]
+> ![[SRD-appletun-BoxSprite.png|htiny]]
+> ![[SRD-appletun-ShuffleToken.png|wsmall]]
+
 
 *Apple Nectar Pokemon*
 *Eating a sweet apple caused its evolution. A nectarous scent wafts from its body, luring in the bug Pokemon it preys on, but it also attracts other Pokemon who eat the skins atop of its back.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-appletun-HomeSprite.png|right]]
-![[SRD-appletun-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

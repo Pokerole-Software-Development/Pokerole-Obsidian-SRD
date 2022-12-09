@@ -23,6 +23,7 @@ Name: Serperior
 Number: 497
 PrimaryEggGroup: Field
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-serperior-ShuffleToken.png
 Sprite: serperior.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-serperior-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-serperior-BookSprite.png|wsmall]]
+> ![[SRD-serperior-HomeSprite.png]]
+> ![[SRD-serperior-BoxSprite.png|htiny]]
+> ![[SRD-serperior-ShuffleToken.png|wsmall]]
+
 
 *Regal Pokemon*
 *It stops enemies dead in their tracks with just one intense glare. It is a noble and proud Pokemon. It is not aggressive but it can be very stubborn. It takes a really strong foe for it to take the fight seriously.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-serperior-HomeSprite.png|right]]
-![[SRD-serperior-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

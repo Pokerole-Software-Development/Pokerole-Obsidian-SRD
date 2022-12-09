@@ -23,6 +23,7 @@ Name: Cascoon
 Number: 268
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-cascoon-ShuffleToken.png
 Sprite: cascoon.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cascoon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cascoon-BookSprite.png|wsmall]]
+> ![[SRD-cascoon-HomeSprite.png]]
+> ![[SRD-cascoon-BoxSprite.png|htiny]]
+> ![[SRD-cascoon-ShuffleToken.png|wsmall]]
+
 
 *Cocoon Pokemon*
 *They hide between huge leaves and gaps between branches, if they were to move, their evolution would be weaker. Due to this, Cascoon will remain motionless. If Wrumple lived in a dark place, it evolves to Cascoon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-cascoon-HomeSprite.png|right]]
-![[SRD-cascoon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

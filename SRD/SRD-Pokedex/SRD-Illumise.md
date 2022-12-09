@@ -23,6 +23,7 @@ Name: Illumise
 Number: 314
 PrimaryEggGroup: Bug
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-illumise-ShuffleToken.png
 Sprite: illumise.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-illumise-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-illumise-BookSprite.png|wsmall]]
+> ![[SRD-illumise-HomeSprite.png]]
+> ![[SRD-illumise-BoxSprite.png|htiny]]
+> ![[SRD-illumise-ShuffleToken.png|wsmall]]
+
 
 *Firelfy Pokemon*
 *They attract swarms of Volbeat with their sweet fragrance and organize the swarm into drawing geometric shapes made of light. Illumises gain rank in their group if they make an amazing performance.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-illumise-HomeSprite.png|right]]
-![[SRD-illumise-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

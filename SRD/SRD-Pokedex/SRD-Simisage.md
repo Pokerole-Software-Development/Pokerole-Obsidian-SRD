@@ -23,6 +23,7 @@ Name: Simisage
 Number: 512
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-simisage-ShuffleToken.png
 Sprite: simisage.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-simisage-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-simisage-BookSprite.png|wsmall]]
+> ![[SRD-simisage-HomeSprite.png]]
+> ![[SRD-simisage-BoxSprite.png|htiny]]
+> ![[SRD-simisage-ShuffleToken.png|wsmall]]
+
 
 *Thorn Monkey Pokemon*
 *It becomes somewhat ill tempered after it evolves. The leaves on it’s head can be made into a bitter but effective medicine, however it will attack anyone trying to take them with it’s thorned tail.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-simisage-HomeSprite.png|right]]
-![[SRD-simisage-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

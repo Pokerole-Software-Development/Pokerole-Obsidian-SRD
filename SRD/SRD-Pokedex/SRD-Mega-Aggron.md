@@ -23,6 +23,7 @@ Name: Mega-Aggron
 Number: 306
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-aggron-mega-ShuffleToken.png
 Sprite: aggron-mega.png
 Type1: Steel
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-aggron-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-aggron-mega-BookSprite.png|wsmall]]
+> ![[SRD-aggron-mega-HomeSprite.png]]
+> ![[SRD-aggron-mega-BoxSprite.png|htiny]]
+> ![[SRD-aggron-mega-ShuffleToken.png|wsmall]]
+
 
 *Iron Armor Pokemon*
 *The power of the Mega Stone makes their already-small caring nature disappear. They become relentless and more machine-like, trampling their way around as nothing can penetrate their armor.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-aggron-mega-HomeSprite.png|right]]
-![[SRD-aggron-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

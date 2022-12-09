@@ -23,6 +23,7 @@ Name: Oranguru
 Number: 765
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-oranguru-ShuffleToken.png
 Sprite: oranguru.png
 Type1: Normal
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-oranguru-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-oranguru-BookSprite.png|wsmall]]
+> ![[SRD-oranguru-HomeSprite.png]]
+> ![[SRD-oranguru-BoxSprite.png|htiny]]
+> ![[SRD-oranguru-ShuffleToken.png|wsmall]]
+
 
 *Sage Pokemon*
 *These solitary Pokemon live deep in the forests where it provides food and herbal medicine to those in need. It is incredibly smart even learning how to use pokeballs, for that reason it dislikes being ordered around.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-oranguru-HomeSprite.png|right]]
-![[SRD-oranguru-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

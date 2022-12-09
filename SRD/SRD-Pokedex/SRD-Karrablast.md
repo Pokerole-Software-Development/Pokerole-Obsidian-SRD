@@ -23,6 +23,7 @@ Name: Karrablast
 Number: 588
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-karrablast-ShuffleToken.png
 Sprite: karrablast.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-karrablast-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-karrablast-BookSprite.png|wsmall]]
+> ![[SRD-karrablast-HomeSprite.png]]
+> ![[SRD-karrablast-BoxSprite.png|htiny]]
+> ![[SRD-karrablast-ShuffleToken.png|wsmall]]
+
 
 *Clamping Pokemon*
 *When they feel threatened, they spit an acidic liquid to drive attackers away. This Pokemon targets Shelmet as they compete for food. It only evolves when it has a Shelmet's shell as its new home.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-karrablast-HomeSprite.png|right]]
-![[SRD-karrablast-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

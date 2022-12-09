@@ -23,6 +23,7 @@ Name: Tentacool
 Number: 72
 PrimaryEggGroup: Water 3
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tentacool-ShuffleToken.png
 Sprite: tentacool.png
 Type1: Water
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tentacool-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tentacool-BookSprite.png|wsmall]]
+> ![[SRD-tentacool-HomeSprite.png]]
+> ![[SRD-tentacool-BoxSprite.png|htiny]]
+> ![[SRD-tentacool-ShuffleToken.png|wsmall]]
+
 
 *Jellyfish Pokemon*
 *It lives in the seas all around the world. They release a toxic ink if startled. It is a surprisingly intelligent Pokemon and can use its tentacles to briefly establish a link between its mind and another creature.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-tentacool-HomeSprite.png|right]]
-![[SRD-tentacool-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

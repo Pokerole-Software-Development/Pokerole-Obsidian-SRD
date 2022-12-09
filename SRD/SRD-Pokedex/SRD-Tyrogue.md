@@ -23,6 +23,7 @@ Name: Tyrogue
 Number: 236
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tyrogue-ShuffleToken.png
 Sprite: tyrogue.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tyrogue-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tyrogue-BookSprite.png|wsmall]]
+> ![[SRD-tyrogue-HomeSprite.png]]
+> ![[SRD-tyrogue-BoxSprite.png|htiny]]
+> ![[SRD-tyrogue-ShuffleToken.png|wsmall]]
+
 
 *Scuffle Pokemon*
 *Tyrogue is an energetic, competitive and fearless Pokemon that’s always looking to get stronger, fighting any enemies even if it looses. They attack anyone, any day, anytime, everyday, without warning.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-tyrogue-HomeSprite.png|right]]
-![[SRD-tyrogue-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Drapion
 Number: 452
 PrimaryEggGroup: Bug
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-drapion-ShuffleToken.png
 Sprite: drapion.png
 Type1: Poison
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-drapion-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-drapion-BookSprite.png|wsmall]]
+> ![[SRD-drapion-HomeSprite.png]]
+> ![[SRD-drapion-BoxSprite.png|htiny]]
+> ![[SRD-drapion-ShuffleToken.png|wsmall]]
+
 
 *Ogre Scorp Pokemon*
 *This Pokemon is very aggressive. It can completely rotate its head over its body, because of this, Drapion has no blind spots. Its venom is deadly and it won’t hesitate to use it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-drapion-HomeSprite.png|right]]
-![[SRD-drapion-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

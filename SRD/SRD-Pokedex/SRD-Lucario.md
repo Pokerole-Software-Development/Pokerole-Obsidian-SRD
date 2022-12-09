@@ -26,6 +26,7 @@ Name: Lucario
 Number: 448
 PrimaryEggGroup: Field
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-lucario-ShuffleToken.png
 Sprite: lucario.png
 Type1: Fighting
 Type2: Steel
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lucario-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lucario-BookSprite.png|wsmall]]
+> ![[SRD-lucario-HomeSprite.png]]
+> ![[SRD-lucario-BoxSprite.png|htiny]]
+> ![[SRD-lucario-ShuffleToken.png|wsmall]]
+
 
 *Aura Pokemon*
 *This Pokemon is completely loyal to its trainer. It has the ability to not only see the auras but also to transform them into energy. It is also capable of understanding human speech.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-lucario-HomeSprite.png|right]]
-![[SRD-lucario-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Shuppet
 Number: 353
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-shuppet-ShuffleToken.png
 Sprite: shuppet.png
 Type1: Ghost
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-shuppet-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-shuppet-BookSprite.png|wsmall]]
+> ![[SRD-shuppet-HomeSprite.png]]
+> ![[SRD-shuppet-BoxSprite.png|htiny]]
+> ![[SRD-shuppet-ShuffleToken.png|wsmall]]
+
 
 *Puppet Pokemon*
 *They feed on dark emotions such as envy, jealousy and vengefulness. If they sting you, they’ll fill you with a vindictive desire. They don’t have bodies under their blanket and they are looking for a body to possess*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-shuppet-HomeSprite.png|right]]
-![[SRD-shuppet-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Ambipom
 Number: 424
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-ambipom-ShuffleToken.png
 Sprite: ambipom.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ambipom-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ambipom-BookSprite.png|wsmall]]
+> ![[SRD-ambipom-HomeSprite.png]]
+> ![[SRD-ambipom-BoxSprite.png|htiny]]
+> ![[SRD-ambipom-ShuffleToken.png|wsmall]]
+
 
 *Long Tail Pokemon*
 *They live in large colonies on the tallest trees, linking their tails to show friendship among herd mates. It loves fresh fruit. Ambipom uses its two tails better than its own arms to swing around.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-ambipom-HomeSprite.png|right]]
-![[SRD-ambipom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Alolan Raticate
 Number: 20
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-raticate-alola-ShuffleToken.png
 Sprite: raticate-alola.png
 Type1: Dark
 Type2: Normal
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-raticate-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-raticate-alola-BookSprite.png|wsmall]]
+> ![[SRD-raticate-alola-HomeSprite.png]]
+> ![[SRD-raticate-alola-BoxSprite.png|htiny]]
+> ![[SRD-raticate-alola-ShuffleToken.png|wsmall]]
+
 
 *Mouse Pokemon*
 *Alolan Raticate command their Rattata underlings to bring them food every night. Five star restaurants often struggle with these aggressive Pokemon nesting close to their grounds.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-raticate-alola-HomeSprite.png|right]]
-![[SRD-raticate-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

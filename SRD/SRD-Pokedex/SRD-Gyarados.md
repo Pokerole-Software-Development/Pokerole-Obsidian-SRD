@@ -26,6 +26,7 @@ Name: Gyarados
 Number: 130
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-gyarados-ShuffleToken.png
 Sprite: gyarados.png
 Type1: Water
 Type2: Flying
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gyarados-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gyarados-BookSprite.png|wsmall]]
+> ![[SRD-gyarados-HomeSprite.png]]
+> ![[SRD-gyarados-BoxSprite.png|htiny]]
+> ![[SRD-gyarados-ShuffleToken.png|wsmall]]
+
 
 *Atrocious Pokemon*
 *It’s rarely seen in the wild. This huge and vicious Pokemon is known for the destruction it leaves in its wake. In ancient literature, there is a record of a Gyarados that razed a village when violence flared.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-gyarados-HomeSprite.png|right]]
-![[SRD-gyarados-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

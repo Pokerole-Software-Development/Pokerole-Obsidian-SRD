@@ -23,6 +23,7 @@ Name: Clawitzer
 Number: 693
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-clawitzer-ShuffleToken.png
 Sprite: clawitzer.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-clawitzer-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-clawitzer-BookSprite.png|wsmall]]
+> ![[SRD-clawitzer-HomeSprite.png]]
+> ![[SRD-clawitzer-BoxSprite.png|htiny]]
+> ![[SRD-clawitzer-ShuffleToken.png|wsmall]]
+
 
 *Howitzer Pokemon*
 *They can be seen swimming backwards using their launcher as A propulsor, but they usually stay at the bottom of the sea. Their meat is tough and bitter so people don’t use them as food anymore.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-clawitzer-HomeSprite.png|right]]
-![[SRD-clawitzer-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

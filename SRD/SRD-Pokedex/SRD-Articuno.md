@@ -23,6 +23,7 @@ Name: Articuno
 Number: 144
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-articuno-ShuffleToken.png
 Sprite: articuno.png
 Type1: Ice
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-articuno-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-articuno-BookSprite.png|wsmall]]
+> ![[SRD-articuno-HomeSprite.png]]
+> ![[SRD-articuno-BoxSprite.png|htiny]]
+> ![[SRD-articuno-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Rumor has it that one appeared during a blizzard in front of two lost hikers who followed its glistening trail until they found the main road. Others say its silhouette can be seen during raging snow storms.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-articuno-HomeSprite.png|right]]
-![[SRD-articuno-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

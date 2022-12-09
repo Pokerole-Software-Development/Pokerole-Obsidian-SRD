@@ -23,6 +23,7 @@ Name: Lunatone
 Number: 337
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-lunatone-ShuffleToken.png
 Sprite: lunatone.png
 Type1: Rock
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lunatone-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lunatone-BookSprite.png|wsmall]]
+> ![[SRD-lunatone-HomeSprite.png]]
+> ![[SRD-lunatone-BoxSprite.png|htiny]]
+> ![[SRD-lunatone-ShuffleToken.png|wsmall]]
+
 
 *Meteorite Pokemon*
 *First found where a meteorite fell. For this reason it’s believed it came from space. Its eyes fill people with dread and lure them to sleep. They become very active and extremely powerful during full moons.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-lunatone-HomeSprite.png|right]]
-![[SRD-lunatone-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

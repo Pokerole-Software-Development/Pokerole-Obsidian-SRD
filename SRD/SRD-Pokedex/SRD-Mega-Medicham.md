@@ -23,6 +23,7 @@ Name: Mega-Medicham
 Number: 308
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-medicham-mega-ShuffleToken.png
 Sprite: medicham-mega.png
 Type1: Fighting
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-medicham-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-medicham-mega-BookSprite.png|wsmall]]
+> ![[SRD-medicham-mega-HomeSprite.png]]
+> ![[SRD-medicham-mega-BoxSprite.png|htiny]]
+> ![[SRD-medicham-mega-ShuffleToken.png|wsmall]]
+
 
 *Meditate Pokemon*
 *The power of the Mega Stone is tempered thanks to its meditation skills. This makes it increase all of its capabilities but not as much as other mega-evolutions, all in favor of keeping control of its senses.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-medicham-mega-HomeSprite.png|right]]
-![[SRD-medicham-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

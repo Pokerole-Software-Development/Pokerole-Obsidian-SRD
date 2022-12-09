@@ -23,6 +23,7 @@ Name: Clauncher
 Number: 692
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-clauncher-ShuffleToken.png
 Sprite: clauncher.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-clauncher-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-clauncher-BookSprite.png|wsmall]]
+> ![[SRD-clauncher-HomeSprite.png]]
+> ![[SRD-clauncher-BoxSprite.png|htiny]]
+> ![[SRD-clauncher-ShuffleToken.png|wsmall]]
+
 
 *Water Gun Pokemon*
 *They live in beaches and shallow waters. They can knock down a flying prey by shooting water from their massive claws. Their shell is very though but their meat is delicious.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-clauncher-HomeSprite.png|right]]
-![[SRD-clauncher-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

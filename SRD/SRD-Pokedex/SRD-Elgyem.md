@@ -23,6 +23,7 @@ Name: Elgyem
 Number: 605
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-elgyem-ShuffleToken.png
 Sprite: elgyem.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-elgyem-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-elgyem-BookSprite.png|wsmall]]
+> ![[SRD-elgyem-HomeSprite.png]]
+> ![[SRD-elgyem-BoxSprite.png|htiny]]
+> ![[SRD-elgyem-ShuffleToken.png|wsmall]]
+
 
 *Cerebral Pokemon*
 *This Pokemon was never seen until it appeared far in the desert about 50 years ago. Rumor has it that it came from space. It uses its strong psychic power to squeeze its foe’s brain, causing awful headaches.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-elgyem-HomeSprite.png|right]]
-![[SRD-elgyem-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

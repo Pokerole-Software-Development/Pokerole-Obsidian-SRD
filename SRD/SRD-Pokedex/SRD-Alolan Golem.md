@@ -23,6 +23,7 @@ Name: Alolan Golem
 Number: 76
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-golem-alola-ShuffleToken.png
 Sprite: golem-alola.png
 Type1: Rock
 Type2: Electric
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-golem-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-golem-alola-BookSprite.png|wsmall]]
+> ![[SRD-golem-alola-HomeSprite.png]]
+> ![[SRD-golem-alola-BoxSprite.png|htiny]]
+> ![[SRD-golem-alola-ShuffleToken.png|wsmall]]
+
 
 *Megaton Pokemon*
 *The Alolan variant of Golem does not roll around like its counterpart, instead it loads rocks into the charger on its head and shoots them around, if the rocks miss, the electric shockwave doesn’t.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-golem-alola-HomeSprite.png|right]]
-![[SRD-golem-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

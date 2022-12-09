@@ -23,6 +23,7 @@ Name: Magmar
 Number: 126
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-magmar-ShuffleToken.png
 Sprite: magmar.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-magmar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-magmar-BookSprite.png|wsmall]]
+> ![[SRD-magmar-HomeSprite.png]]
+> ![[SRD-magmar-BoxSprite.png|htiny]]
+> ![[SRD-magmar-ShuffleToken.png|wsmall]]
+
 
 *Spitfire Pokemon*
 *It can be found living in volcanic areas. In battle, Magmar blows out intense flames all over its body to intimidate the opponent. This creates heat waves that ignite grass and trees in the surroundings.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-magmar-HomeSprite.png|right]]
-![[SRD-magmar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

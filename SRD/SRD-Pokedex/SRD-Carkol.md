@@ -23,6 +23,7 @@ Name: Carkol
 Number: 838
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-carkol-ShuffleToken.png
 Sprite: carkol.png
 Type1: Rock
 Type2: Fire
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-carkol-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-carkol-BookSprite.png|wsmall]]
+> ![[SRD-carkol-HomeSprite.png]]
+> ![[SRD-carkol-BoxSprite.png|htiny]]
+> ![[SRD-carkol-ShuffleToken.png|wsmall]]
+
 
 *Coal Pokemon*
 *It rolls its legs, their heavy weight creates parallel trackmarks that allow them to travel faster through caves and tunnels. In old times, people used Carkol's coal as fuel for they can hold fire for a long time.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-carkol-HomeSprite.png|right]]
-![[SRD-carkol-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

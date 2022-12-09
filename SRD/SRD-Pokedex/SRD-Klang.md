@@ -23,6 +23,7 @@ Name: Klang
 Number: 600
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-klang-ShuffleToken.png
 Sprite: klang.png
 Type1: Steel
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-klang-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-klang-BookSprite.png|wsmall]]
+> ![[SRD-klang-HomeSprite.png]]
+> ![[SRD-klang-BoxSprite.png|htiny]]
+> ![[SRD-klang-ShuffleToken.png|wsmall]]
+
 
 *Gear Pokemon*
 *Minigear and big gear comprise its body. If the minigear is detached it will turn off both gears. It communicates with others by rotating. When its angry or afraid, it rotates faster.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-klang-HomeSprite.png|right]]
-![[SRD-klang-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

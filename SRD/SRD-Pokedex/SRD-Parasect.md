@@ -23,6 +23,7 @@ Name: Parasect
 Number: 47
 PrimaryEggGroup: Bug
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-parasect-ShuffleToken.png
 Sprite: parasect.png
 Type1: Bug
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-parasect-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-parasect-BookSprite.png|wsmall]]
+> ![[SRD-parasect-HomeSprite.png]]
+> ![[SRD-parasect-BoxSprite.png|htiny]]
+> ![[SRD-parasect-ShuffleToken.png|wsmall]]
+
 
 *Mushroom Pokemon*
 *Their personality changes after evolution since the mushroom takes over its mind. Its body is now a husk devoid of nutrients. To survive they cling to a tree and absorb the nutrients until the tree dies.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-parasect-HomeSprite.png|right]]
-![[SRD-parasect-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

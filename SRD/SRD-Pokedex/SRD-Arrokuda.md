@@ -23,6 +23,7 @@ Name: Arrokuda
 Number: 846
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-arrokuda-ShuffleToken.png
 Sprite: arrokuda.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-arrokuda-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-arrokuda-BookSprite.png|wsmall]]
+> ![[SRD-arrokuda-HomeSprite.png]]
+> ![[SRD-arrokuda-BoxSprite.png|htiny]]
+> ![[SRD-arrokuda-ShuffleToken.png|wsmall]]
+
 
 *Rush Pokemon*
 *They propel themselves, swimming at high speeds to hunt their prey. After they have eaten their swim becomes sluggish and they are at risk of being eaten themselves. They are proud of their pointed jaw.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-arrokuda-HomeSprite.png|right]]
-![[SRD-arrokuda-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

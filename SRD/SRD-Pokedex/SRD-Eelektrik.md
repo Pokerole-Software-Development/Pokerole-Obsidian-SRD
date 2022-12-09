@@ -23,6 +23,7 @@ Name: Eelektrik
 Number: 603
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-eelektrik-ShuffleToken.png
 Sprite: eelektrik.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-eelektrik-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-eelektrik-BookSprite.png|wsmall]]
+> ![[SRD-eelektrik-HomeSprite.png]]
+> ![[SRD-eelektrik-BoxSprite.png|htiny]]
+> ![[SRD-eelektrik-ShuffleToken.png|wsmall]]
+
 
 *EleFish Pokemon*
 *These Pokemon have a really big appetite. When they spot their prey, they coil around it and shock it with their electricity-generating organs, which are the yellow circles on it’s skin.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-eelektrik-HomeSprite.png|right]]
-![[SRD-eelektrik-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

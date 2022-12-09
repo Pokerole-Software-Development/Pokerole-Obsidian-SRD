@@ -23,6 +23,7 @@ Name: Dhelmise
 Number: 781
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-dhelmise-ShuffleToken.png
 Sprite: dhelmise.png
 Type1: Ghost
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dhelmise-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dhelmise-BookSprite.png|wsmall]]
+> ![[SRD-dhelmise-HomeSprite.png]]
+> ![[SRD-dhelmise-BoxSprite.png|htiny]]
+> ![[SRD-dhelmise-ShuffleToken.png|wsmall]]
+
 
 *Sea Creeper Pokemon*
 *A spirit adrift in the sea came back to life through this Pokemon that rarely leaves the deepest waters of the sea. Through the sea some Wailord carcasses have been found covered in seaweed and gashes.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-dhelmise-HomeSprite.png|right]]
-![[SRD-dhelmise-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Lombre
 Number: 271
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-lombre-ShuffleToken.png
 Sprite: lombre.png
 Type1: Water
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lombre-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lombre-BookSprite.png|wsmall]]
+> ![[SRD-lombre-HomeSprite.png]]
+> ![[SRD-lombre-BoxSprite.png|htiny]]
+> ![[SRD-lombre-ShuffleToken.png|wsmall]]
+
 
 *Jolly Pokemon*
 *This nocturnal Pokemon has a mischievous and impish personality. While playing pranks on people, Lombres are commonly mistaken for human children. It enjoys to startle unaware swimmers.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-lombre-HomeSprite.png|right]]
-![[SRD-lombre-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

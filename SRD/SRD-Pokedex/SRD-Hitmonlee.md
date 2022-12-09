@@ -23,6 +23,7 @@ Name: Hitmonlee
 Number: 106
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-hitmonlee-ShuffleToken.png
 Sprite: hitmonlee.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-hitmonlee-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-hitmonlee-BookSprite.png|wsmall]]
+> ![[SRD-hitmonlee-HomeSprite.png]]
+> ![[SRD-hitmonlee-BoxSprite.png|htiny]]
+> ![[SRD-hitmonlee-ShuffleToken.png|wsmall]]
+
 
 *Kicking Pokemon*
 *Kicking Pokemon Its legs freely stretch and contract. It bowls over foes with devastating kicks. It is very disciplined and trains every day. It is very rare in the wild, and it is mostly found in urban areas*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-hitmonlee-HomeSprite.png|right]]
-![[SRD-hitmonlee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Kecleon
 Number: 352
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-kecleon-ShuffleToken.png
 Sprite: kecleon.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kecleon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kecleon-BookSprite.png|wsmall]]
+> ![[SRD-kecleon-HomeSprite.png]]
+> ![[SRD-kecleon-BoxSprite.png|htiny]]
+> ![[SRD-kecleon-ShuffleToken.png|wsmall]]
+
 
 *Color Swap Pokemon*
 *They are able to change their colors to blend with their surroundings. The only part of its body that can’t change is the red zigzag line on its belly. Kecleon is very sneaky, smart and kind of insolent.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-kecleon-HomeSprite.png|right]]
-![[SRD-kecleon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Stonjourner
 Number: 874
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-stonjourner-ShuffleToken.png
 Sprite: stonjourner.png
 Type1: Rock
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-stonjourner-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-stonjourner-BookSprite.png|wsmall]]
+> ![[SRD-stonjourner-HomeSprite.png]]
+> ![[SRD-stonjourner-BoxSprite.png|htiny]]
+> ![[SRD-stonjourner-ShuffleToken.png|wsmall]]
+
 
 *Big Rock Pokemon*
 *They spend almost all their lives immobile, looking as inconspicuous rocks, but once a year they gather out of nowhere and form up in a circle. They stay in formation for a few days and then disappear overnight.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-stonjourner-HomeSprite.png|right]]
-![[SRD-stonjourner-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

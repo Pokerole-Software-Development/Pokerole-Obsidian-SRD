@@ -23,6 +23,7 @@ Name: Riolu
 Number: 447
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-riolu-ShuffleToken.png
 Sprite: riolu.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-riolu-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-riolu-BookSprite.png|wsmall]]
+> ![[SRD-riolu-HomeSprite.png]]
+> ![[SRD-riolu-BoxSprite.png|htiny]]
+> ![[SRD-riolu-ShuffleToken.png|wsmall]]
+
 
 *Emanation Pokemon*
 *Scarce in the wild but they have been seen in the mountains. It has the ability to see the auras of others, through this power it is capable of sensing emotions. It won’t get close to those with selfish intentions.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-riolu-HomeSprite.png|right]]
-![[SRD-riolu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

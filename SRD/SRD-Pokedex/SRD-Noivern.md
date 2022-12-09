@@ -23,6 +23,7 @@ Name: Noivern
 Number: 715
 PrimaryEggGroup: Flying
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-noivern-ShuffleToken.png
 Sprite: noivern.png
 Type1: Flying
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-noivern-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-noivern-BookSprite.png|wsmall]]
+> ![[SRD-noivern-HomeSprite.png]]
+> ![[SRD-noivern-BoxSprite.png|htiny]]
+> ![[SRD-noivern-ShuffleToken.png|wsmall]]
+
 
 *Sound Wave Pokemon*
 *They fly during the new moon and attack careless prey. Nothing can beat them in a battle in the dark. To keep them calm you should feed them fruit or else they’ll release shocking ultrasonic waves.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-noivern-HomeSprite.png|right]]
-![[SRD-noivern-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

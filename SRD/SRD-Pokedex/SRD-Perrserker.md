@@ -23,6 +23,7 @@ Name: Perrserker
 Number: 863
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-perrserker-ShuffleToken.png
 Sprite: perrserker.png
 Type1: Steel
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-perrserker-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-perrserker-BookSprite.png|wsmall]]
+> ![[SRD-perrserker-HomeSprite.png]]
+> ![[SRD-perrserker-BoxSprite.png|htiny]]
+> ![[SRD-perrserker-ShuffleToken.png|wsmall]]
+
 
 *Viking Pokemon*
 *What appears to be an iron helmet is actually hardened hair. Unlike other Meowth evolutions, Perrserker does not want riches and luxury, it enjoys battles, the outdoors and traveling though the sea.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-perrserker-HomeSprite.png|right]]
-![[SRD-perrserker-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

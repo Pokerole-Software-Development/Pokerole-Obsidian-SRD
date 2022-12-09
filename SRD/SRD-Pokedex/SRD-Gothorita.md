@@ -23,6 +23,7 @@ Name: Gothorita
 Number: 575
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gothorita-ShuffleToken.png
 Sprite: gothorita.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gothorita-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gothorita-BookSprite.png|wsmall]]
+> ![[SRD-gothorita-HomeSprite.png]]
+> ![[SRD-gothorita-BoxSprite.png|htiny]]
+> ![[SRD-gothorita-ShuffleToken.png|wsmall]]
+
 
 *Manipulate Pokemon*
 *Starlight is the source of their power. At night, they mark star positions by using floating stones. According to many old tales, it creates friends for itself by controlling sleeping children on starry nights.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-gothorita-HomeSprite.png|right]]
-![[SRD-gothorita-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Duraludon
 Number: 884
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-duraludon-ShuffleToken.png
 Sprite: duraludon.png
 Type1: Steel
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-duraludon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-duraludon-BookSprite.png|wsmall]]
+> ![[SRD-duraludon-HomeSprite.png]]
+> ![[SRD-duraludon-BoxSprite.png|htiny]]
+> ![[SRD-duraludon-ShuffleToken.png|wsmall]]
+
 
 *Alloy Pokemon*
 *Its body resembles a shiny polished metal and it’s both lightweight and strong. The only drawback is that it rusts easily. It lives on dry climates and deep inside caves because rain and moisture make it cranky.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-duraludon-HomeSprite.png|right]]
-![[SRD-duraludon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

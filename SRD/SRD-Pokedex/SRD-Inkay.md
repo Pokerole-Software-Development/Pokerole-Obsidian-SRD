@@ -23,6 +23,7 @@ Name: Inkay
 Number: 686
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 2
+ShuffleToken: SRD-inkay-ShuffleToken.png
 Sprite: inkay.png
 Type1: Dark
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-inkay-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-inkay-BookSprite.png|wsmall]]
+> ![[SRD-inkay-HomeSprite.png]]
+> ![[SRD-inkay-BoxSprite.png|htiny]]
+> ![[SRD-inkay-ShuffleToken.png|wsmall]]
+
 
 *Revolving Pokemon*
 *It lives at the darkest parts of the sea. The spots on its body flash to confuse predators and give it the opportunity to scuttle away. From time to time it likes to float upside down, it means it’s close to evolving.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-inkay-HomeSprite.png|right]]
-![[SRD-inkay-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

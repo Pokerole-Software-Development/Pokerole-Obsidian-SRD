@@ -23,6 +23,7 @@ Name: Spheal
 Number: 363
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-spheal-ShuffleToken.png
 Sprite: spheal.png
 Type1: Ice
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-spheal-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-spheal-BookSprite.png|wsmall]]
+> ![[SRD-spheal-HomeSprite.png]]
+> ![[SRD-spheal-BoxSprite.png|htiny]]
+> ![[SRD-spheal-ShuffleToken.png|wsmall]]
+
 
 *Clap Pokemon*
 *They live in big herds with their families. They are bad swimmers but good floaters. To move on land, they roll like balls instead of walking. When they are happy, they clap and squeal, so they can be really noisy.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-spheal-HomeSprite.png|right]]
-![[SRD-spheal-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

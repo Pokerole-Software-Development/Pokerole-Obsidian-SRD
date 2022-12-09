@@ -23,6 +23,7 @@ Name: Nihilego
 Number: 793
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-nihilego-ShuffleToken.png
 Sprite: nihilego.png
 Type1: Rock
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-nihilego-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-nihilego-BookSprite.png|wsmall]]
+> ![[SRD-nihilego-HomeSprite.png]]
+> ![[SRD-nihilego-BoxSprite.png|htiny]]
+> ![[SRD-nihilego-ShuffleToken.png|wsmall]]
+
 
 *Aether Foundation Log #047*
 *We are unable to determine if the creature is sentient or not, it adapts its behavior depending on its last host. It hasn’t stopped behaving like a little girl since then, it’s both unsettling and fascinating.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-nihilego-HomeSprite.png|right]]
-![[SRD-nihilego-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

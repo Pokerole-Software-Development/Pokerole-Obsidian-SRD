@@ -23,6 +23,7 @@ Name: Jigglypuff
 Number: 39
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-jigglypuff-ShuffleToken.png
 Sprite: jigglypuff.png
 Type1: Normal
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-jigglypuff-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-jigglypuff-BookSprite.png|wsmall]]
+> ![[SRD-jigglypuff-HomeSprite.png]]
+> ![[SRD-jigglypuff-BoxSprite.png|htiny]]
+> ![[SRD-jigglypuff-ShuffleToken.png|wsmall]]
+
 
 *Balloon Pokemon*
 *They live in grassy fields near the mountains. To climb they inflate their bodies and bounce up. It captivates foes with its huge, round eyes, then lulls them to sleep by singing a sweet soothing melody.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-jigglypuff-HomeSprite.png|right]]
-![[SRD-jigglypuff-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

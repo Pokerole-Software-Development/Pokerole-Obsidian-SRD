@@ -23,6 +23,7 @@ Name: Mega-Diancie
 Number: 719
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-diancie-mega-ShuffleToken.png
 Sprite: diancie-mega.png
 Type1: Rock
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-diancie-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-diancie-mega-BookSprite.png|wsmall]]
+> ![[SRD-diancie-mega-HomeSprite.png]]
+> ![[SRD-diancie-mega-BoxSprite.png|htiny]]
+> ![[SRD-diancie-mega-ShuffleToken.png|wsmall]]
+
 
 *Registered as #703 Carbink*
 *The popular saying goes like this: “If you put a Carbon under pressure you will get a Diamond” But it surely was not referring to a Pokemon... or was it?*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-diancie-mega-HomeSprite.png|right]]
-![[SRD-diancie-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

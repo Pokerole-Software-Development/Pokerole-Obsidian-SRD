@@ -26,6 +26,7 @@ Name: Blaziken
 Number: 257
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-blaziken-ShuffleToken.png
 Sprite: blaziken.png
 Type1: Fire
 Type2: Fighting
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-blaziken-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-blaziken-BookSprite.png|wsmall]]
+> ![[SRD-blaziken-HomeSprite.png]]
+> ![[SRD-blaziken-BoxSprite.png|htiny]]
+> ![[SRD-blaziken-ShuffleToken.png|wsmall]]
+
 
 *Blaze Pokemon*
 *They can jump incredible heights. As they grow older, their feathers combust as new feathers grow back. They are courageous fighters and expert martial artists. Their wrists light in flames when it’s about to attack.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-blaziken-HomeSprite.png|right]]
-![[SRD-blaziken-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

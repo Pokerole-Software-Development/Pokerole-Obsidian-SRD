@@ -23,6 +23,7 @@ Name: Cacnea
 Number: 331
 PrimaryEggGroup: Grass
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-cacnea-ShuffleToken.png
 Sprite: cacnea.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cacnea-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cacnea-BookSprite.png|wsmall]]
+> ![[SRD-cacnea-HomeSprite.png]]
+> ![[SRD-cacnea-BoxSprite.png|htiny]]
+> ![[SRD-cacnea-ShuffleToken.png|wsmall]]
+
 
 *Cactus Pokemon*
 *They release a strong and sweet aroma to attract prey, if they get closer, Cacneas shoot sharp thorns to bring them down. They resemble cactuses and hide among them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-cacnea-HomeSprite.png|right]]
-![[SRD-cacnea-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

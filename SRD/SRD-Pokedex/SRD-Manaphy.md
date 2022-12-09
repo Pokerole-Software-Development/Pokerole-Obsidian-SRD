@@ -23,6 +23,7 @@ Name: Manaphy
 Number: 490
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-manaphy-ShuffleToken.png
 Sprite: manaphy.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-manaphy-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-manaphy-BookSprite.png|wsmall]]
+> ![[SRD-manaphy-HomeSprite.png]]
+> ![[SRD-manaphy-BoxSprite.png|htiny]]
+> ![[SRD-manaphy-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *It is said that after the war for land and sea was over, a tiny Pokemon was born from the bottom of the ocean to bond with all the creatures as a sign of peace.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-manaphy-HomeSprite.png|right]]
-![[SRD-manaphy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

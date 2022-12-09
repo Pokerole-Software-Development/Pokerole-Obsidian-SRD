@@ -23,6 +23,7 @@ Name: Vigoroth
 Number: 288
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-vigoroth-ShuffleToken.png
 Sprite: vigoroth.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-vigoroth-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-vigoroth-BookSprite.png|wsmall]]
+> ![[SRD-vigoroth-HomeSprite.png]]
+> ![[SRD-vigoroth-BoxSprite.png|htiny]]
+> ![[SRD-vigoroth-ShuffleToken.png|wsmall]]
+
 
 *Wild Monkey Pokemon*
 *They are always agitated, anxious, excited or upset, rampaging over anything. They can’t be still and they can’t sleep. They get angry if they get bored and violent if there is no activity for them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-vigoroth-HomeSprite.png|right]]
-![[SRD-vigoroth-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

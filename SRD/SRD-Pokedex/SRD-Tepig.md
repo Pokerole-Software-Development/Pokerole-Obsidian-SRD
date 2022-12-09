@@ -23,6 +23,7 @@ Name: Tepig
 Number: 498
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tepig-ShuffleToken.png
 Sprite: tepig.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tepig-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tepig-BookSprite.png|wsmall]]
+> ![[SRD-tepig-HomeSprite.png]]
+> ![[SRD-tepig-BoxSprite.png|htiny]]
+> ![[SRD-tepig-ShuffleToken.png|wsmall]]
+
 
 *Fire Pig Pokemon*
 *It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead. Tepig loves to eat roasted berries and its keen sense of smell allows it to find them easily.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-tepig-HomeSprite.png|right]]
-![[SRD-tepig-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

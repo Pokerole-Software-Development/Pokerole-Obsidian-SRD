@@ -23,6 +23,7 @@ Name: Slakoth
 Number: 287
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-slakoth-ShuffleToken.png
 Sprite: slakoth.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-slakoth-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-slakoth-BookSprite.png|wsmall]]
+> ![[SRD-slakoth-HomeSprite.png]]
+> ![[SRD-slakoth-BoxSprite.png|htiny]]
+> ![[SRD-slakoth-ShuffleToken.png|wsmall]]
+
 
 *Slacker Pokemon*
 *They laze around 20 hours a day barely eating. Slakoths remain motionless no matter what. It’s rare to see this Pokemon doing something, most of them never even bother to evolve.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-slakoth-HomeSprite.png|right]]
-![[SRD-slakoth-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Tyrantrum
 Number: 697
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-tyrantrum-ShuffleToken.png
 Sprite: tyrantrum.png
 Type1: Rock
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tyrantrum-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tyrantrum-BookSprite.png|wsmall]]
+> ![[SRD-tyrantrum-HomeSprite.png]]
+> ![[SRD-tyrantrum-BoxSprite.png|htiny]]
+> ![[SRD-tyrantrum-ShuffleToken.png|wsmall]]
+
 
 *Despot Pokemon*
 *Nothing could stop this Pokemon 100 million years ago, it was a prehistoric king. Thanks to its giant jaws, which could shred thick metal plates as if they were paper, this Pokemon takes orders from no one.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-tyrantrum-HomeSprite.png|right]]
-![[SRD-tyrantrum-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

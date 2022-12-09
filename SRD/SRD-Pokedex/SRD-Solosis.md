@@ -23,6 +23,7 @@ Name: Solosis
 Number: 577
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-solosis-ShuffleToken.png
 Sprite: solosis.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-solosis-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-solosis-BookSprite.png|wsmall]]
+> ![[SRD-solosis-HomeSprite.png]]
+> ![[SRD-solosis-BoxSprite.png|htiny]]
+> ![[SRD-solosis-ShuffleToken.png|wsmall]]
+
 
 *Cell Pokemon*
 *Because their bodies are enveloped in a special liquid, they can survive in any environment. They drive away attackers by unleashing their psychic power. They communicate with their minds.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-solosis-HomeSprite.png|right]]
-![[SRD-solosis-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

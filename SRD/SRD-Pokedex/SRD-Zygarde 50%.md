@@ -22,6 +22,7 @@ Name: Zygarde 50%
 Number: 718
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zygarde-ShuffleToken.png
 Sprite: zygarde.png
 Type1: Dragon
 Type2: Ground
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zygarde-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zygarde-BookSprite.png|wsmall]]
+> ![[SRD-zygarde-HomeSprite.png]]
+> ![[SRD-zygarde-BoxSprite.png|htiny]]
+> ![[SRD-zygarde-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Underground tunnels have been found all over the Kalos Region. There are rumors of a creature who lives in them that attacks people damaging the ecosystem.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-zygarde-HomeSprite.png|right]]
-![[SRD-zygarde-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Turtwig
 Number: 387
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-turtwig-ShuffleToken.png
 Sprite: turtwig.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-turtwig-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-turtwig-BookSprite.png|wsmall]]
+> ![[SRD-turtwig-HomeSprite.png]]
+> ![[SRD-turtwig-BoxSprite.png|htiny]]
+> ![[SRD-turtwig-ShuffleToken.png|wsmall]]
+
 
 *Tiny Leaf Pokemon*
 *It makes its home close to lakes, although it is rare to find one. The shell on its back is made of hardened soil and should be moist for it to be healthy. It uses photosynthesis to get energy.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-turtwig-HomeSprite.png|right]]
-![[SRD-turtwig-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

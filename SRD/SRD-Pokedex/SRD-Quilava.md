@@ -22,6 +22,7 @@ Name: Quilava
 Number: 156
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-quilava-ShuffleToken.png
 Sprite: quilava.png
 Type1: Fire
 Type2: ''
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-quilava-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-quilava-BookSprite.png|wsmall]]
+> ![[SRD-quilava-HomeSprite.png]]
+> ![[SRD-quilava-BoxSprite.png|htiny]]
+> ![[SRD-quilava-ShuffleToken.png|wsmall]]
+
 
 *Volcano Pokemon*
 *It intimidates foes with intense gusts of flames and superheated air. Beware if a Quilava turns its back on you, it is planing on using a fire move.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-quilava-HomeSprite.png|right]]
-![[SRD-quilava-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

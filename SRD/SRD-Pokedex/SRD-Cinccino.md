@@ -23,6 +23,7 @@ Name: Cinccino
 Number: 573
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-cinccino-ShuffleToken.png
 Sprite: cinccino.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cinccino-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cinccino-BookSprite.png|wsmall]]
+> ![[SRD-cinccino-HomeSprite.png]]
+> ![[SRD-cinccino-BoxSprite.png|htiny]]
+> ![[SRD-cinccino-ShuffleToken.png|wsmall]]
+
 
 *Scarf Pokemon*
 *Their fur feels amazing to the touch. It produces an oil that repels dust and prevents static electricity from building up. It loves to be groomed and pampered. The fur it sheds is highly valued.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-cinccino-HomeSprite.png|right]]
-![[SRD-cinccino-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

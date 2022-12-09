@@ -23,6 +23,7 @@ Name: Stunky
 Number: 434
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-stunky-ShuffleToken.png
 Sprite: stunky.png
 Type1: Poison
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-stunky-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-stunky-BookSprite.png|wsmall]]
+> ![[SRD-stunky-HomeSprite.png]]
+> ![[SRD-stunky-BoxSprite.png|htiny]]
+> ![[SRD-stunky-ShuffleToken.png|wsmall]]
+
 
 *Skunk Pokemon*
 *Over the years they have moved closer to towns and other human settlements. They release a foul liquid from their rear that stinks for days to scare away predators. But sometimes they do it just for fun.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-stunky-HomeSprite.png|right]]
-![[SRD-stunky-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

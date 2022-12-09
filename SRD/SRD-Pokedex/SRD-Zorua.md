@@ -23,6 +23,7 @@ Name: Zorua
 Number: 570
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zorua-ShuffleToken.png
 Sprite: zorua.png
 Type1: Dark
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zorua-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zorua-BookSprite.png|wsmall]]
+> ![[SRD-zorua-HomeSprite.png]]
+> ![[SRD-zorua-BoxSprite.png|htiny]]
+> ![[SRD-zorua-ShuffleToken.png|wsmall]]
+
 
 *Tricky Fox Pokemon*
 *They are very hard to find as they can transform into people and other Pokemon. They cannot speak when transformed and their tail remains visible. They ruin reputations by creating mischief in disguise.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-zorua-HomeSprite.png|right]]
-![[SRD-zorua-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

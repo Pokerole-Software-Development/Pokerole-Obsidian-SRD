@@ -23,6 +23,7 @@ Name: Blissey
 Number: 242
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-blissey-ShuffleToken.png
 Sprite: blissey.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-blissey-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-blissey-BookSprite.png|wsmall]]
+> ![[SRD-blissey-HomeSprite.png]]
+> ![[SRD-blissey-BoxSprite.png|htiny]]
+> ![[SRD-blissey-ShuffleToken.png|wsmall]]
+
 
 *Happiness Pokemon*
 *Whoever takes a bite on a Blissey's egg becomes loving and caring to everyone. They are compassionate, healing anyone who’s injured. Their presence makes everyone smile. An intelligent and emphatic Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-blissey-HomeSprite.png|right]]
-![[SRD-blissey-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

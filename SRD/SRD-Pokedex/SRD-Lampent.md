@@ -23,6 +23,7 @@ Name: Lampent
 Number: 608
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-lampent-ShuffleToken.png
 Sprite: lampent.png
 Type1: Ghost
 Type2: Fire
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lampent-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lampent-BookSprite.png|wsmall]]
+> ![[SRD-lampent-HomeSprite.png]]
+> ![[SRD-lampent-BoxSprite.png|htiny]]
+> ![[SRD-lampent-ShuffleToken.png|wsmall]]
+
 
 *Lamp Pokemon*
 *This ominous Pokemon is very feared. It always arrives at someone’s final moments and steals their spirit. It hangs close to hospitals and other places simply waiting. It is said that if it gets your soul you will never rest.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-lampent-HomeSprite.png|right]]
-![[SRD-lampent-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

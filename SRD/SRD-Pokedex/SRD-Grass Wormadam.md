@@ -23,6 +23,7 @@ Name: Grass Wormadam
 Number: 413
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-wormadamgrass-ShuffleToken.png
 Sprite: wormadamgrass.png
 Type1: Bug
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-wormadamgrass-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-wormadamgrass-BookSprite.png|wsmall]]
+> ![[SRD-wormadamgrass-HomeSprite.png]]
+> ![[SRD-wormadamgrass-BoxSprite.png|htiny]]
+> ![[SRD-wormadamgrass-ShuffleToken.png|wsmall]]
+
 
 *Bagworm Pokemon*
 *When Burmy evolved, its Grass cloak became a part of its body. For this reason there are many variations in body and type. It is a calm Pokemon that loves flowers. This Pokemon is female only.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-wormadamgrass-HomeSprite.png|right]]
-![[SRD-wormadamgrass-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Blitzle
 Number: 522
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-blitzle-ShuffleToken.png
 Sprite: blitzle.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-blitzle-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-blitzle-BookSprite.png|wsmall]]
+> ![[SRD-blitzle-HomeSprite.png]]
+> ![[SRD-blitzle-BoxSprite.png|htiny]]
+> ![[SRD-blitzle-ShuffleToken.png|wsmall]]
+
 
 *Electrified Pokemon*
 *When storm clouds cover the plains you can see them running around chasing the lightnings to absorb them on their mane. They form big herds and use the pattern on their skin to confuse predators.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-blitzle-HomeSprite.png|right]]
-![[SRD-blitzle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

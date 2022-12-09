@@ -23,6 +23,7 @@ Name: Dewpider
 Number: 751
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Bug
+ShuffleToken: SRD-dewpider-ShuffleToken.png
 Sprite: dewpider.png
 Type1: Water
 Type2: Bug
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dewpider-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dewpider-BookSprite.png|wsmall]]
+> ![[SRD-dewpider-HomeSprite.png]]
+> ![[SRD-dewpider-BoxSprite.png|htiny]]
+> ![[SRD-dewpider-ShuffleToken.png|wsmall]]
+
 
 *Water Bubble Pokemon*
 *It lives on shallow water pools, but goes into the land to find prey. Its water bubble allows it to breath outside of its pool and serves as a weapon to hunt or defend itself. As it grows its bubble grows as well.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-dewpider-HomeSprite.png|right]]
-![[SRD-dewpider-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

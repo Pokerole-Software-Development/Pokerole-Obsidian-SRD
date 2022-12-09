@@ -23,6 +23,7 @@ Name: Ralts
 Number: 280
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-ralts-ShuffleToken.png
 Sprite: ralts.png
 Type1: Psychic
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ralts-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ralts-BookSprite.png|wsmall]]
+> ![[SRD-ralts-HomeSprite.png]]
+> ![[SRD-ralts-BoxSprite.png|htiny]]
+> ![[SRD-ralts-ShuffleToken.png|wsmall]]
+
 
 *Feeling Pokemon*
 *They sense the emotions of people and Pokemon, usually sharing the mood of anyone nearby. They show if they feel joy and cheer, but hide if they sense hostility. They dislike fighting and negativity.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-ralts-HomeSprite.png|right]]
-![[SRD-ralts-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

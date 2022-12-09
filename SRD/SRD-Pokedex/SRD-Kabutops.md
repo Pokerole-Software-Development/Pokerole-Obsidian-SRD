@@ -23,6 +23,7 @@ Name: Kabutops
 Number: 141
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-kabutops-ShuffleToken.png
 Sprite: kabutops.png
 Type1: Rock
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kabutops-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kabutops-BookSprite.png|wsmall]]
+> ![[SRD-kabutops-HomeSprite.png]]
+> ![[SRD-kabutops-BoxSprite.png|htiny]]
+> ![[SRD-kabutops-ShuffleToken.png|wsmall]]
+
 
 *Shellfish Pokemon*
 *Kabutops swarmed underwater to hunt for prey. It was apparently evolving from being a water dweller to living on land. It’s evident from the changes in its gills and legs. Its fossils suggests it was aggressive.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-kabutops-HomeSprite.png|right]]
-![[SRD-kabutops-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

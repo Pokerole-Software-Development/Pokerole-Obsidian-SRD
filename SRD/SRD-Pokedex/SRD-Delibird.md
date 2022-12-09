@@ -23,6 +23,7 @@ Name: Delibird
 Number: 225
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-delibird-ShuffleToken.png
 Sprite: delibird.png
 Type1: Ice
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-delibird-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-delibird-BookSprite.png|wsmall]]
+> ![[SRD-delibird-HomeSprite.png]]
+> ![[SRD-delibird-BoxSprite.png|htiny]]
+> ![[SRD-delibird-ShuffleToken.png|wsmall]]
+
 
 *Delivery Pokemon*
 *Delibird is always carrying food for its chicks and people in need. They are related to the image of Santa Claus since they always carry presents for their good and naughty kids in their bag-looking tail.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-delibird-HomeSprite.png|right]]
-![[SRD-delibird-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

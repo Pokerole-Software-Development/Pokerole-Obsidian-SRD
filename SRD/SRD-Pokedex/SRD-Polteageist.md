@@ -23,6 +23,7 @@ Name: Polteageist
 Number: 855
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-polteageist-ShuffleToken.png
 Sprite: polteageist.png
 Type1: Ghost
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-polteageist-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-polteageist-BookSprite.png|wsmall]]
+> ![[SRD-polteageist-HomeSprite.png]]
+> ![[SRD-polteageist-BoxSprite.png|htiny]]
+> ![[SRD-polteageist-ShuffleToken.png|wsmall]]
+
 
 *Black Tea Pokemon*
 *This species lives in old ceramic teapots. They struggle to find real antiques, for most tea sets nowadays are just imitations. Never leave your tea unattended or a Poltegeist might come to haunt it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-polteageist-HomeSprite.png|right]]
-![[SRD-polteageist-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

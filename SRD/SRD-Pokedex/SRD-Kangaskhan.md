@@ -26,6 +26,7 @@ Name: Kangaskhan
 Number: 115
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-kangaskhan-ShuffleToken.png
 Sprite: kangaskhan.png
 Type1: Normal
 Type2: ''
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kangaskhan-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kangaskhan-BookSprite.png|wsmall]]
+> ![[SRD-kangaskhan-HomeSprite.png]]
+> ![[SRD-kangaskhan-BoxSprite.png|htiny]]
+> ![[SRD-kangaskhan-ShuffleToken.png|wsmall]]
+
 
 *Parent Pokemon*
 *A female only species. It raises its offspring in its belly pouch. The young leaves once it learns to find its own food. In the wild, mothers and daughters fiercely defend each other.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-kangaskhan-HomeSprite.png|right]]
-![[SRD-kangaskhan-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

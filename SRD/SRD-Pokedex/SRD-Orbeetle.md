@@ -23,6 +23,7 @@ Name: Orbeetle
 Number: 826
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-orbeetle-ShuffleToken.png
 Sprite: orbeetle.png
 Type1: Bug
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-orbeetle-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-orbeetle-BookSprite.png|wsmall]]
+> ![[SRD-orbeetle-HomeSprite.png]]
+> ![[SRD-orbeetle-BoxSprite.png|htiny]]
+> ![[SRD-orbeetle-ShuffleToken.png|wsmall]]
+
 
 *Seven Spot Pokemon*
 *It’s famous for its high intelligence and the large size of its brain. It has immense psychic power. They patrol their territory as floating sentries, focusing a ray of light over any  intruder, even if they are miles away.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-orbeetle-HomeSprite.png|right]]
-![[SRD-orbeetle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

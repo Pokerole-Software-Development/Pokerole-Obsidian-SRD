@@ -23,6 +23,7 @@ Name: Totodile
 Number: 158
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-totodile-ShuffleToken.png
 Sprite: totodile.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-totodile-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-totodile-BookSprite.png|wsmall]]
+> ![[SRD-totodile-HomeSprite.png]]
+> ![[SRD-totodile-BoxSprite.png|htiny]]
+> ![[SRD-totodile-ShuffleToken.png|wsmall]]
+
 
 *Big Jaw Pokemon*
 *Despite its small body, Totodile's jaws are very powerful. While it may think it is just playfully nipping, its bite has enough strength to cause a serious injury. It needs proper discipline to control its biting urges*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-totodile-HomeSprite.png|right]]
-![[SRD-totodile-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

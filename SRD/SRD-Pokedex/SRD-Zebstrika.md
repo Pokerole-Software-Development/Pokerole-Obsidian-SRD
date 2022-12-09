@@ -23,6 +23,7 @@ Name: Zebstrika
 Number: 523
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zebstrika-ShuffleToken.png
 Sprite: zebstrika.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zebstrika-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zebstrika-BookSprite.png|wsmall]]
+> ![[SRD-zebstrika-HomeSprite.png]]
+> ![[SRD-zebstrika-BoxSprite.png|htiny]]
+> ![[SRD-zebstrika-ShuffleToken.png|wsmall]]
+
 
 *Thunderbolt Pokemon*
 *It is very ill tempered and wild, there have been very few cases of it being successfully tamed. It can shoot lightning from it’s mane in all directions. If you try to mount it without warning it will shock you.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-zebstrika-HomeSprite.png|right]]
-![[SRD-zebstrika-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

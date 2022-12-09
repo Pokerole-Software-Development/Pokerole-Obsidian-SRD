@@ -21,6 +21,7 @@ Name: Giratina
 Number: 487
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-giratina-ShuffleToken.png
 Sprite: giratina.png
 Type1: Ghost
 Type2: Dragon
@@ -34,7 +35,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-giratina-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-giratina-BookSprite.png|wsmall]]
+> ![[SRD-giratina-HomeSprite.png]]
+> ![[SRD-giratina-BoxSprite.png|htiny]]
+> ![[SRD-giratina-ShuffleToken.png|wsmall]]
+
 
 *Plot Device*
 *Plot Device*
@@ -53,8 +59,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-giratina-HomeSprite.png|right]]
-![[SRD-giratina-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

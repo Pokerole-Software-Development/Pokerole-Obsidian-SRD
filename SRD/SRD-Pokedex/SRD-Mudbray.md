@@ -23,6 +23,7 @@ Name: Mudbray
 Number: 749
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mudbray-ShuffleToken.png
 Sprite: mudbray.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mudbray-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mudbray-BookSprite.png|wsmall]]
+> ![[SRD-mudbray-HomeSprite.png]]
+> ![[SRD-mudbray-BoxSprite.png|htiny]]
+> ![[SRD-mudbray-ShuffleToken.png|wsmall]]
+
 
 *Donkey Pokemon*
 *They are very strong, the mud on their hooves serves them as grip to pull themselves forward. They enjoy prancing in muddy places and will become stubborn and disobedient if denied that pleasure.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-mudbray-HomeSprite.png|right]]
-![[SRD-mudbray-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Swinub
 Number: 220
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-swinub-ShuffleToken.png
 Sprite: swinub.png
 Type1: Ice
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-swinub-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-swinub-BookSprite.png|wsmall]]
+> ![[SRD-swinub-HomeSprite.png]]
+> ![[SRD-swinub-BoxSprite.png|htiny]]
+> ![[SRD-swinub-ShuffleToken.png|wsmall]]
+
 
 *Pig Pokemon*
 *They rub their snout on the icy ground to find food and hot springs. Their favorite food is a mushroom that grows under frozen grass. They recognize everything by smell as their eyes can’t see very well.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-swinub-HomeSprite.png|right]]
-![[SRD-swinub-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

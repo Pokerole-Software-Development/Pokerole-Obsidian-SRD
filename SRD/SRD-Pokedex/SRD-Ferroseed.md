@@ -23,6 +23,7 @@ Name: Ferroseed
 Number: 597
 PrimaryEggGroup: Grass
 SecondaryEggGroup: Mineral
+ShuffleToken: SRD-ferroseed-ShuffleToken.png
 Sprite: ferroseed.png
 Type1: Grass
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ferroseed-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ferroseed-BookSprite.png|wsmall]]
+> ![[SRD-ferroseed-HomeSprite.png]]
+> ![[SRD-ferroseed-BoxSprite.png|htiny]]
+> ![[SRD-ferroseed-ShuffleToken.png|wsmall]]
+
 
 *Thorn Seed Pokemon*
 *They stick their thorns into cave walls and absorb the minerals from the rocks. When threatened, they attack by shooting a barrage of spikes, which gives them a chance to escape by rolling away.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-ferroseed-HomeSprite.png|right]]
-![[SRD-ferroseed-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

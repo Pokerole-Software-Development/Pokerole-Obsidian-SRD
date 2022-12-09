@@ -23,6 +23,7 @@ Name: Mightyena
 Number: 262
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mightyena-ShuffleToken.png
 Sprite: mightyena.png
 Type1: Dark
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mightyena-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mightyena-BookSprite.png|wsmall]]
+> ![[SRD-mightyena-HomeSprite.png]]
+> ![[SRD-mightyena-BoxSprite.png|htiny]]
+> ![[SRD-mightyena-ShuffleToken.png|wsmall]]
+
 
 *Bite Pokemon*
 *They attack savagely, travel in packs and hunt in groups. They will only obey trainers that show superior skills, which they recognize as the alpha leader. They are extremely obedient once they find a master.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-mightyena-HomeSprite.png|right]]
-![[SRD-mightyena-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

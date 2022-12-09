@@ -23,6 +23,7 @@ Name: Infernape
 Number: 392
 PrimaryEggGroup: Field
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-infernape-ShuffleToken.png
 Sprite: infernape.png
 Type1: Fire
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-infernape-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-infernape-BookSprite.png|wsmall]]
+> ![[SRD-infernape-HomeSprite.png]]
+> ![[SRD-infernape-BoxSprite.png|htiny]]
+> ![[SRD-infernape-ShuffleToken.png|wsmall]]
+
 
 *Flame Pokemon*
 *Its fire crown showcases its proud and fiery nature. Infernape won’t hesitate to fight bigger foes and will take on any challenge they face. Once Infernape enters a battle, it won’t back down until it wins.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-infernape-HomeSprite.png|right]]
-![[SRD-infernape-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -27,6 +27,7 @@ Name: Mewtwo
 Number: 150
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mewtwo-ShuffleToken.png
 Sprite: mewtwo.png
 Type1: Psychic
 Type2: ''
@@ -40,7 +41,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mewtwo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mewtwo-BookSprite.png|wsmall]]
+> ![[SRD-mewtwo-HomeSprite.png]]
+> ![[SRD-mewtwo-BoxSprite.png|htiny]]
+> ![[SRD-mewtwo-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *An article in a science magazine talked about how much cloning research was progressing, but... could it be?*
@@ -59,8 +65,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-mewtwo-HomeSprite.png|right]]
-![[SRD-mewtwo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Galarian Yamask
 Number: 562
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-yamask-galar-ShuffleToken.png
 Sprite: yamask-galar.png
 Type1: Ground
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-yamask-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-yamask-galar-BookSprite.png|wsmall]]
+> ![[SRD-yamask-galar-HomeSprite.png]]
+> ![[SRD-yamask-galar-BoxSprite.png|htiny]]
+> ![[SRD-yamask-galar-ShuffleToken.png|wsmall]]
+
 
 *Spirit Pokemon*
 *It’s said that this Pokemon was formed when an ancient clay tablet was drawn to the dark energy of a spirit. The clay slab seems to be absorbing Yamask's power that’s why it is so pale.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-yamask-galar-HomeSprite.png|right]]
-![[SRD-yamask-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

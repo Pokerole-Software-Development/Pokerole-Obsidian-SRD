@@ -23,6 +23,7 @@ Name: Togetic
 Number: 176
 PrimaryEggGroup: Flying
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-togetic-ShuffleToken.png
 Sprite: togetic.png
 Type1: Fairy
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-togetic-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-togetic-BookSprite.png|wsmall]]
+> ![[SRD-togetic-HomeSprite.png]]
+> ![[SRD-togetic-BoxSprite.png|htiny]]
+> ![[SRD-togetic-ShuffleToken.png|wsmall]]
+
 
 *Happiness Pokemon*
 *Although there have been very few sightings of this Pokemon in the wild, it is known to appear before kind hearted people and grant them happiness. It is very energetic and friendly.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-togetic-HomeSprite.png|right]]
-![[SRD-togetic-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

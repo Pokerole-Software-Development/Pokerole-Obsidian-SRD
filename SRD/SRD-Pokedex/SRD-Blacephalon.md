@@ -23,6 +23,7 @@ Name: Blacephalon
 Number: 806
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-blacephalon-ShuffleToken.png
 Sprite: blacephalon.png
 Type1: Fire
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-blacephalon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-blacephalon-BookSprite.png|wsmall]]
+> ![[SRD-blacephalon-HomeSprite.png]]
+> ![[SRD-blacephalon-BoxSprite.png|htiny]]
+> ![[SRD-blacephalon-ShuffleToken.png|wsmall]]
+
 
 *Aether Foundation Log #121*
 *It was horrible and so fast I could barely take a picture of the UB specimen. As soon as the portal opened it slithered through it, got close to one of the team members and exploded. His state is critical, the UB disappeared.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-blacephalon-HomeSprite.png|right]]
-![[SRD-blacephalon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

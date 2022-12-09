@@ -22,6 +22,7 @@ Name: Galarian Darmanitan
 Number: 555
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-darmanitan-galar-ShuffleToken.png
 Sprite: darmanitan-galar.png
 Type1: Ice
 Type2: ''
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-darmanitan-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-darmanitan-galar-BookSprite.png|wsmall]]
+> ![[SRD-darmanitan-galar-HomeSprite.png]]
+> ![[SRD-darmanitan-galar-BoxSprite.png|htiny]]
+> ![[SRD-darmanitan-galar-ShuffleToken.png|wsmall]]
+
 
 *Zen Charm Pokemon*
 *The Galarian form of Darmanitan. They walk into towns during the blizzards to steal food. Darmanitans seem mean, but they are gentle and shy.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-darmanitan-galar-HomeSprite.png|right]]
-![[SRD-darmanitan-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

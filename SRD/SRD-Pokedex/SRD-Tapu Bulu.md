@@ -22,6 +22,7 @@ Name: Tapu Bulu
 Number: 787
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tapu-bulu-ShuffleToken.png
 Sprite: tapu-bulu.png
 Type1: Grass
 Type2: Fairy
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tapu-bulu-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tapu-bulu-BookSprite.png|wsmall]]
+> ![[SRD-tapu-bulu-HomeSprite.png]]
+> ![[SRD-tapu-bulu-BoxSprite.png|htiny]]
+> ![[SRD-tapu-bulu-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Through Ula'ula island runs the legend of a lazy guardian spirit who lives among the trees, which it commands to restrain its foes before beating them.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-tapu-bulu-HomeSprite.png|right]]
-![[SRD-tapu-bulu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Pidove
 Number: 519
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pidove-ShuffleToken.png
 Sprite: pidove.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pidove-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pidove-BookSprite.png|wsmall]]
+> ![[SRD-pidove-HomeSprite.png]]
+> ![[SRD-pidove-BoxSprite.png|htiny]]
+> ![[SRD-pidove-ShuffleToken.png|wsmall]]
+
 
 *Tiny Pigeon Pokemon*
 *These Pokemon thrive in the cities. They are accustomed to people and they often gather in the parks. They are forgetful and not very smart, but they always remember the way back home.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-pidove-HomeSprite.png|right]]
-![[SRD-pidove-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

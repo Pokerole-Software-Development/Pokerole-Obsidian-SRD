@@ -23,6 +23,7 @@ Name: Darkrai
 Number: 491
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-darkrai-ShuffleToken.png
 Sprite: darkrai.png
 Type1: Dark
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-darkrai-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-darkrai-BookSprite.png|wsmall]]
+> ![[SRD-darkrai-HomeSprite.png]]
+> ![[SRD-darkrai-BoxSprite.png|htiny]]
+> ![[SRD-darkrai-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *All around the world, young children have depicted a similar figure in their drawings. They call it “The Boogeyman”. People say it will make all your nightmares come true.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-darkrai-HomeSprite.png|right]]
-![[SRD-darkrai-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Eternatus
 Number: 890
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-eternatus-ShuffleToken.png
 Sprite: eternatus.png
 Type1: Poison
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-eternatus-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-eternatus-BookSprite.png|wsmall]]
+> ![[SRD-eternatus-HomeSprite.png]]
+> ![[SRD-eternatus-BoxSprite.png|htiny]]
+> ![[SRD-eternatus-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *A large meteorite fell on the Galar region 20, 000 years ago, ever since this happened a power surge has been causing Pokemon to grow gigantic, this phenomenon is happening more in recent years.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-eternatus-HomeSprite.png|right]]
-![[SRD-eternatus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Azumarill
 Number: 184
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-azumarill-ShuffleToken.png
 Sprite: azumarill.png
 Type1: Water
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-azumarill-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-azumarill-BookSprite.png|wsmall]]
+> ![[SRD-azumarill-HomeSprite.png]]
+> ![[SRD-azumarill-BoxSprite.png|htiny]]
+> ![[SRD-azumarill-ShuffleToken.png|wsmall]]
+
 
 *Aquarabbit Pokemon*
 *It stays in water virtually all day long. Its blue fur makes it difficult to spot when submerged. Azumarril uses its sensitive ears to locate prey even underwater. They are not aggressive and even get close to humans.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-azumarill-HomeSprite.png|right]]
-![[SRD-azumarill-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

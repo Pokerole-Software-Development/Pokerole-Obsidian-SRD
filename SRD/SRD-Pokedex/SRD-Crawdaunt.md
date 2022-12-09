@@ -23,6 +23,7 @@ Name: Crawdaunt
 Number: 342
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-crawdaunt-ShuffleToken.png
 Sprite: crawdaunt.png
 Type1: Water
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-crawdaunt-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-crawdaunt-BookSprite.png|wsmall]]
+> ![[SRD-crawdaunt-HomeSprite.png]]
+> ![[SRD-crawdaunt-BoxSprite.png|htiny]]
+> ![[SRD-crawdaunt-ShuffleToken.png|wsmall]]
+
 
 *Rogue Pokemon*
 *Crawdaunt is extremely violent and territorial. The ponds where it lives look like desolated places due to them attacking anything that comes close. It sheds its shell once a year, this weakens it for a few days.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-crawdaunt-HomeSprite.png|right]]
-![[SRD-crawdaunt-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

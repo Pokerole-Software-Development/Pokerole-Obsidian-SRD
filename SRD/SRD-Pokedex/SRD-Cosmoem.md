@@ -23,6 +23,7 @@ Name: Cosmoem
 Number: 790
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-cosmoem-ShuffleToken.png
 Sprite: cosmoem.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cosmoem-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cosmoem-BookSprite.png|wsmall]]
+> ![[SRD-cosmoem-HomeSprite.png]]
+> ![[SRD-cosmoem-BoxSprite.png|htiny]]
+> ![[SRD-cosmoem-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *The creature observed through the telescope changed shapes and remained motionless for the rest of the investigation. A strange energy was gathering on its core.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-cosmoem-HomeSprite.png|right]]
-![[SRD-cosmoem-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

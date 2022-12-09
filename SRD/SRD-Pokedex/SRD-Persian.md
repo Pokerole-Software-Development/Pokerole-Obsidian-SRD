@@ -23,6 +23,7 @@ Name: Persian
 Number: 53
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-persian-ShuffleToken.png
 Sprite: persian.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-persian-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-persian-BookSprite.png|wsmall]]
+> ![[SRD-persian-HomeSprite.png]]
+> ![[SRD-persian-BoxSprite.png|htiny]]
+> ![[SRD-persian-ShuffleToken.png|wsmall]]
+
 
 *Classy Cat Pokemon*
 *They are proud and temperamental. They scratch their trainers with little to no provocation whatsoever. Their elegance and grace is very valued, although they can be vicious hunters.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-persian-HomeSprite.png|right]]
-![[SRD-persian-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

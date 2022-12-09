@@ -23,6 +23,7 @@ Name: Toxel
 Number: 848
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-toxel-ShuffleToken.png
 Sprite: toxel.png
 Type1: Electric
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-toxel-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-toxel-BookSprite.png|wsmall]]
+> ![[SRD-toxel-HomeSprite.png]]
+> ![[SRD-toxel-BoxSprite.png|htiny]]
+> ![[SRD-toxel-ShuffleToken.png|wsmall]]
+
 
 *Baby Pokemon*
 *Toxel secrete poison through their skin, the closer they are to evolving, the brighter their skin color becomes. They need a lot of nurturing but are bad tempered and ill mannered so not many take the task.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-toxel-HomeSprite.png|right]]
-![[SRD-toxel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Xatu
 Number: 178
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-xatu-ShuffleToken.png
 Sprite: xatu.png
 Type1: Psychic
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-xatu-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-xatu-BookSprite.png|wsmall]]
+> ![[SRD-xatu-HomeSprite.png]]
+> ![[SRD-xatu-BoxSprite.png|htiny]]
+> ![[SRD-xatu-ShuffleToken.png|wsmall]]
+
 
 *Mystic Pokemon*
 *Xatu is known to stand motionless while staring at the sun all day long. Some people revere it as a mystical Pokemon out of their belief that Xatus have the power to see into the future.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-xatu-HomeSprite.png|right]]
-![[SRD-xatu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Meditite
 Number: 307
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-meditite-ShuffleToken.png
 Sprite: meditite.png
 Type1: Fighting
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-meditite-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-meditite-BookSprite.png|wsmall]]
+> ![[SRD-meditite-HomeSprite.png]]
+> ![[SRD-meditite-BoxSprite.png|htiny]]
+> ![[SRD-meditite-ShuffleToken.png|wsmall]]
+
 
 *Meditate Pokemon*
 *Deep in the mountains they train their mind to increase their spiritual power, however they lack focus and get distracted easily. As part of their training, Meditites barely eat.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-meditite-HomeSprite.png|right]]
-![[SRD-meditite-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

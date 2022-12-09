@@ -23,6 +23,7 @@ Name: Necrozma Dawn Wings
 Number: 800
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-necrozma-dusk-ShuffleToken.png
 Sprite: necrozma-dusk.png
 Type1: Psychic
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-necrozma-dusk-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-necrozma-dusk-BookSprite.png|wsmall]]
+> ![[SRD-necrozma-dusk-HomeSprite.png]]
+> ![[SRD-necrozma-dusk-BoxSprite.png|htiny]]
+> ![[SRD-necrozma-dusk-ShuffleToken.png|wsmall]]
+
 
 *Aether Foundation Log #182*
 *The shadowy creature is in pain, and it hungers for any light it can find. I wonder how would it fare on the other side, back in our world. Would the moonlight ease its spirit or release a terrible monster?*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-necrozma-dusk-HomeSprite.png|right]]
-![[SRD-necrozma-dusk-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Fearow
 Number: 22
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-fearow-ShuffleToken.png
 Sprite: fearow.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-fearow-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-fearow-BookSprite.png|wsmall]]
+> ![[SRD-fearow-HomeSprite.png]]
+> ![[SRD-fearow-BoxSprite.png|htiny]]
+> ![[SRD-fearow-ShuffleToken.png|wsmall]]
+
 
 *Beak Pokemon*
 *Fearrows soar around wastelands and fields. It has the stamina to fly all day. It is easily annoyed and ill tempered. It attacks using its sharp beak to peck and pierce the foes.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-fearow-HomeSprite.png|right]]
-![[SRD-fearow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

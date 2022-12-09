@@ -23,6 +23,7 @@ Name: Kartana
 Number: 798
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-kartana-ShuffleToken.png
 Sprite: kartana.png
 Type1: Grass
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kartana-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kartana-BookSprite.png|wsmall]]
+> ![[SRD-kartana-HomeSprite.png]]
+> ![[SRD-kartana-BoxSprite.png|htiny]]
+> ![[SRD-kartana-ShuffleToken.png|wsmall]]
+
 
 *Aether Foundation Log #014*
 *Its paper-thin body and agility make it too dangerous to approach without serious risk of injury. Our team managed to immobilize it using a heat chamber, though I swear I feel its resentment to us.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::3)     |
 
-![[SRD-kartana-HomeSprite.png|right]]
-![[SRD-kartana-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

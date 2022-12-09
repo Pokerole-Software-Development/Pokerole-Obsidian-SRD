@@ -23,6 +23,7 @@ Name: Herdier
 Number: 507
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-herdier-ShuffleToken.png
 Sprite: herdier.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-herdier-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-herdier-BookSprite.png|wsmall]]
+> ![[SRD-herdier-HomeSprite.png]]
+> ![[SRD-herdier-BoxSprite.png|htiny]]
+> ![[SRD-herdier-ShuffleToken.png|wsmall]]
+
 
 *Loyal Dog Pokemon*
 *It loyally follows its Trainer’s orders. For ages, they have helped Trainers to raise well behaved Pokemon. It has black, cape-like fur that is very hard and keeps it protected from the weather.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-herdier-HomeSprite.png|right]]
-![[SRD-herdier-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Clobbopus
 Number: 852
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-clobbopus-ShuffleToken.png
 Sprite: clobbopus.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-clobbopus-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-clobbopus-BookSprite.png|wsmall]]
+> ![[SRD-clobbopus-HomeSprite.png]]
+> ![[SRD-clobbopus-BoxSprite.png|htiny]]
+> ![[SRD-clobbopus-ShuffleToken.png|wsmall]]
+
 
 *Tantrum Pokemon*
 *It’s very curious and child-like, but it investigates things by try to punch them with its tentacles, despite this, the tentacles tear off easily, but don’t be alarmed for they’ll regrow in a few days.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-clobbopus-HomeSprite.png|right]]
-![[SRD-clobbopus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

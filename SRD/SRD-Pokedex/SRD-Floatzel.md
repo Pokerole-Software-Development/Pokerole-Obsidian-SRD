@@ -23,6 +23,7 @@ Name: Floatzel
 Number: 419
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-floatzel-ShuffleToken.png
 Sprite: floatzel.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-floatzel-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-floatzel-BookSprite.png|wsmall]]
+> ![[SRD-floatzel-HomeSprite.png]]
+> ![[SRD-floatzel-BoxSprite.png|htiny]]
+> ![[SRD-floatzel-ShuffleToken.png|wsmall]]
+
 
 *Sea Weasel Pokemon*
 *It floats using its well-developed sack. They roam close to fishing spots to steal an easy meal. People allow them to hang around their boats because they help whenever a person falls into the water.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-floatzel-HomeSprite.png|right]]
-![[SRD-floatzel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

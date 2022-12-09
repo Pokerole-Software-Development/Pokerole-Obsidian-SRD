@@ -21,6 +21,7 @@ Name: Galarian Slowbro (provisional)
 Number: 80
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-slowbro-galar-ShuffleToken.png
 Sprite: slowbro-galar.png
 Type1: Poison
 Type2: Psychic
@@ -34,7 +35,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-slowbro-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-slowbro-galar-BookSprite.png|wsmall]]
+> ![[SRD-slowbro-galar-HomeSprite.png]]
+> ![[SRD-slowbro-galar-BoxSprite.png|htiny]]
+> ![[SRD-slowbro-galar-ShuffleToken.png|wsmall]]
+
 
 **
 **
@@ -53,8 +59,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-slowbro-galar-HomeSprite.png|right]]
-![[SRD-slowbro-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

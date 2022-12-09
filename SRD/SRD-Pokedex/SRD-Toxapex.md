@@ -23,6 +23,7 @@ Name: Toxapex
 Number: 748
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-toxapex-ShuffleToken.png
 Sprite: toxapex.png
 Type1: Poison
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-toxapex-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-toxapex-BookSprite.png|wsmall]]
+> ![[SRD-toxapex-HomeSprite.png]]
+> ![[SRD-toxapex-BoxSprite.png|htiny]]
+> ![[SRD-toxapex-ShuffleToken.png|wsmall]]
+
 
 *Brutal Star Pokemon*
 *It crawls through the ocean floor, using its tentacles as a fortress. Its venom has the victim suffering for three days and nights, and even if it’s healed there are aftereffects for it is a powerful toxin.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-toxapex-HomeSprite.png|right]]
-![[SRD-toxapex-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

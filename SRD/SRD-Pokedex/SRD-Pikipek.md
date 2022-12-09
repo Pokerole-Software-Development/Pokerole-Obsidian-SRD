@@ -23,6 +23,7 @@ Name: Pikipek
 Number: 731
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pikipek-ShuffleToken.png
 Sprite: pikipek.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pikipek-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pikipek-BookSprite.png|wsmall]]
+> ![[SRD-pikipek-HomeSprite.png]]
+> ![[SRD-pikipek-BoxSprite.png|htiny]]
+> ![[SRD-pikipek-ShuffleToken.png|wsmall]]
+
 
 *Woodpecker Pokemon*
 *Their beaks are incredibly strong, it takes them a few minutes to shatter rock. They eat berries and shoot the seeds to defend themselves. Pikipek don’t sing, but communicate with pecking sounds.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-pikipek-HomeSprite.png|right]]
-![[SRD-pikipek-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

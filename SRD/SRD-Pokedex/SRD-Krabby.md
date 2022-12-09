@@ -23,6 +23,7 @@ Name: Krabby
 Number: 98
 PrimaryEggGroup: Water 3
 SecondaryEggGroup: ''
+ShuffleToken: SRD-krabby-ShuffleToken.png
 Sprite: krabby.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-krabby-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-krabby-BookSprite.png|wsmall]]
+> ![[SRD-krabby-HomeSprite.png]]
+> ![[SRD-krabby-BoxSprite.png|htiny]]
+> ![[SRD-krabby-ShuffleToken.png|wsmall]]
+
 
 *River Crab Pokemon*
 *A Krabby dig holes in the sand near the sea. They can be seen squabbling with each other over food and territory. They usually avoid humans but will fight if provoked.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-krabby-HomeSprite.png|right]]
-![[SRD-krabby-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

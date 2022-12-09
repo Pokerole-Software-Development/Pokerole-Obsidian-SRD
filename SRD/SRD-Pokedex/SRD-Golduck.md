@@ -23,6 +23,7 @@ Name: Golduck
 Number: 55
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-golduck-ShuffleToken.png
 Sprite: golduck.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-golduck-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-golduck-BookSprite.png|wsmall]]
+> ![[SRD-golduck-HomeSprite.png]]
+> ![[SRD-golduck-BoxSprite.png|htiny]]
+> ![[SRD-golduck-ShuffleToken.png|wsmall]]
+
 
 *Duck Pokemon*
 *A Golduck is an adept swimmer and can be found near most bodies of water. Its forehead shimmers with light when using its psychic abilities. There are records of wild Golducks that rescued people in the water.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-golduck-HomeSprite.png|right]]
-![[SRD-golduck-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

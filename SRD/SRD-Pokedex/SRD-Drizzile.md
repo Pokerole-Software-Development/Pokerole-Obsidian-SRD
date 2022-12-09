@@ -23,6 +23,7 @@ Name: Drizzile
 Number: 817
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-drizzile-ShuffleToken.png
 Sprite: drizzile.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-drizzile-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-drizzile-BookSprite.png|wsmall]]
+> ![[SRD-drizzile-HomeSprite.png]]
+> ![[SRD-drizzile-BoxSprite.png|htiny]]
+> ![[SRD-drizzile-ShuffleToken.png|wsmall]]
+
 
 *Water Lizard Pokemon*
 *Its demeanor changes drastically from shy to aloof and lazy. It can create water balloons with the moisture secreted from its paws. It is incredibly intelligent and is known to lay traps for others in the wild.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-drizzile-HomeSprite.png|right]]
-![[SRD-drizzile-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Weepinbell
 Number: 70
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-weepinbell-ShuffleToken.png
 Sprite: weepinbell.png
 Type1: Grass
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-weepinbell-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-weepinbell-BookSprite.png|wsmall]]
+> ![[SRD-weepinbell-HomeSprite.png]]
+> ![[SRD-weepinbell-BoxSprite.png|htiny]]
+> ![[SRD-weepinbell-ShuffleToken.png|wsmall]]
+
 
 *Flycatcher Pokemon*
 *It sprays its stun powder to immobilize a prey coming close to it, then eats it calmly. If the prey is bigger than itself, it uses its sharp leaves to slice it into smaller pieces. Beware of the toxic liquid in its mouth.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-weepinbell-HomeSprite.png|right]]
-![[SRD-weepinbell-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Lycanroc Midday
 Number: 745
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-lycanroc-midnight-ShuffleToken.png
 Sprite: lycanroc-midnight.png
 Type1: Rock
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lycanroc-midnight-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lycanroc-midnight-BookSprite.png|wsmall]]
+> ![[SRD-lycanroc-midnight-HomeSprite.png]]
+> ![[SRD-lycanroc-midnight-BoxSprite.png|htiny]]
+> ![[SRD-lycanroc-midnight-ShuffleToken.png|wsmall]]
+
 
 *Wolf Pokemon*
 *A well-disciplined Rockruff will evolve at Dawn. This Pokemon is very Loyal and trustworthy. It can climb mountains fast and is a quick runner. The rocks on its mane are its main weapons.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-lycanroc-midnight-HomeSprite.png|right]]
-![[SRD-lycanroc-midnight-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

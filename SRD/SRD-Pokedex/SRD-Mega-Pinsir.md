@@ -23,6 +23,7 @@ Name: Mega-Pinsir
 Number: 127
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pinsir-mega-ShuffleToken.png
 Sprite: pinsir-mega.png
 Type1: Bug
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pinsir-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pinsir-mega-BookSprite.png|wsmall]]
+> ![[SRD-pinsir-mega-HomeSprite.png]]
+> ![[SRD-pinsir-mega-BoxSprite.png|htiny]]
+> ![[SRD-pinsir-mega-ShuffleToken.png|wsmall]]
+
 
 *Stagbeetle Pokemon*
 *With the power of the Mega Stone it develops wings and inhuman strength. It can lift foes heavier than itself and still fly with ease. Its mind is in a constant state of excitement and it cannot stay still.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-pinsir-mega-HomeSprite.png|right]]
-![[SRD-pinsir-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

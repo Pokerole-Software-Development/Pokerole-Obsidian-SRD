@@ -23,6 +23,7 @@ Name: Lileep
 Number: 345
 PrimaryEggGroup: Water 3
 SecondaryEggGroup: ''
+ShuffleToken: SRD-lileep-ShuffleToken.png
 Sprite: lileep.png
 Type1: Rock
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lileep-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lileep-BookSprite.png|wsmall]]
+> ![[SRD-lileep-HomeSprite.png]]
+> ![[SRD-lileep-BoxSprite.png|htiny]]
+> ![[SRD-lileep-ShuffleToken.png|wsmall]]
+
 
 *Sea Lily Pokemon*
 *Over 100 million years ago, Lileep used to attach themselves to rocks at the bottom of the sea. A catastrophe led them all to extinction. A few fossils were found and some were revived by scientists.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-lileep-HomeSprite.png|right]]
-![[SRD-lileep-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

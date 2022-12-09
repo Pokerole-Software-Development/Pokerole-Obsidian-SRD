@@ -23,6 +23,7 @@ Name: Vulpix
 Number: 37
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-vulpix-ShuffleToken.png
 Sprite: vulpix.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-vulpix-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-vulpix-BookSprite.png|wsmall]]
+> ![[SRD-vulpix-HomeSprite.png]]
+> ![[SRD-vulpix-BoxSprite.png|htiny]]
+> ![[SRD-vulpix-ShuffleToken.png|wsmall]]
+
 
 *Fox Pokemon*
 *It is born with just one tail. As it grows, its single white tail gains color and splits into six. It is quite warm and cuddly - very popular with the ladies . It is, however, uncommon to see one in the wild.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-vulpix-HomeSprite.png|right]]
-![[SRD-vulpix-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

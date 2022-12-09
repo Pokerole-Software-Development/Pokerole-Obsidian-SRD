@@ -23,6 +23,7 @@ Name: Luxio
 Number: 404
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-luxio-ShuffleToken.png
 Sprite: luxio.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-luxio-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-luxio-BookSprite.png|wsmall]]
+> ![[SRD-luxio-HomeSprite.png]]
+> ![[SRD-luxio-BoxSprite.png|htiny]]
+> ![[SRD-luxio-ShuffleToken.png|wsmall]]
+
 
 *Spark Pokemon*
 *Female Luxios stay with the pride but males roam in marauding groups, trying to become strong enough to make their own pride. Its claws and teeth are charged with electricity, approach with caution.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-luxio-HomeSprite.png|right]]
-![[SRD-luxio-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

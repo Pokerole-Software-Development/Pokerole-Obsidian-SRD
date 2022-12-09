@@ -23,6 +23,7 @@ Name: Gastly
 Number: 92
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gastly-ShuffleToken.png
 Sprite: gastly.png
 Type1: Ghost
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gastly-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gastly-BookSprite.png|wsmall]]
+> ![[SRD-gastly-HomeSprite.png]]
+> ![[SRD-gastly-BoxSprite.png|htiny]]
+> ![[SRD-gastly-ShuffleToken.png|wsmall]]
+
 
 *Gas Pokemon*
 *Its body is made of a toxic gas - anyone would faint if engulfed by it. It has been seen in abandoned places scaring people and other pokemon for fun. It is elusive and escapes through the walls.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-gastly-HomeSprite.png|right]]
-![[SRD-gastly-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

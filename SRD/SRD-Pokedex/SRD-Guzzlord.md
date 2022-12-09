@@ -23,6 +23,7 @@ Name: Guzzlord
 Number: 799
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-guzzlord-ShuffleToken.png
 Sprite: guzzlord.png
 Type1: Dark
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-guzzlord-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-guzzlord-BookSprite.png|wsmall]]
+> ![[SRD-guzzlord-HomeSprite.png]]
+> ![[SRD-guzzlord-BoxSprite.png|htiny]]
+> ![[SRD-guzzlord-ShuffleToken.png|wsmall]]
+
 
 *Aether Foundation Log #074*
 *One disaster after another. This time we lost an entire facility, UB-05 is a monster, there is no other way to call it, it swallowed documents, vehicles and even an entire building, there is no end to its hunger.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::4)/(MaxInsight::4)     |
 
-![[SRD-guzzlord-HomeSprite.png|right]]
-![[SRD-guzzlord-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Lilligant
 Number: 549
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-lilligant-ShuffleToken.png
 Sprite: lilligant.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lilligant-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lilligant-BookSprite.png|wsmall]]
+> ![[SRD-lilligant-HomeSprite.png]]
+> ![[SRD-lilligant-BoxSprite.png|htiny]]
+> ![[SRD-lilligant-ShuffleToken.png|wsmall]]
+
 
 *Flowering Pokemon*
 *Even veteran gardeners face a challenge in getting its beautiful flower to bloom as it withers with ease. This Pokemon is popular among celebrities due to it’s grace, elegance and delicious aroma.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-lilligant-HomeSprite.png|right]]
-![[SRD-lilligant-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

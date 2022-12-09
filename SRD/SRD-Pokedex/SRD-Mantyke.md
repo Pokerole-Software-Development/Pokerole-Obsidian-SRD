@@ -23,6 +23,7 @@ Name: Mantyke
 Number: 458
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mantyke-ShuffleToken.png
 Sprite: mantyke.png
 Type1: Water
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mantyke-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mantyke-BookSprite.png|wsmall]]
+> ![[SRD-mantyke-HomeSprite.png]]
+> ![[SRD-mantyke-BoxSprite.png|htiny]]
+> ![[SRD-mantyke-ShuffleToken.png|wsmall]]
+
 
 *Kite Pokemon*
 *When it swims close the ocean’s surface people aboard ships are able to observe the pattern on its back as it is different in every region. Mantyke is an intelligent and friendly Pokemon that rarely attacks others.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-mantyke-HomeSprite.png|right]]
-![[SRD-mantyke-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

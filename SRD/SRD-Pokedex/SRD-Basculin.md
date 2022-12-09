@@ -23,6 +23,7 @@ Name: Basculin
 Number: 550
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-basculin-ShuffleToken.png
 Sprite: basculin.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-basculin-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-basculin-BookSprite.png|wsmall]]
+> ![[SRD-basculin-HomeSprite.png]]
+> ![[SRD-basculin-BoxSprite.png|htiny]]
+> ![[SRD-basculin-ShuffleToken.png|wsmall]]
+
 
 *Hostile Pokemon*
 *Two variants exist of the same Pokemon, a blue one and a red one but they don’t get along as they compete for territory and prey. These Pokemon are very hostile, but also delicious when grilled.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-basculin-HomeSprite.png|right]]
-![[SRD-basculin-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

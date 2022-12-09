@@ -23,6 +23,7 @@ Name: Sobble
 Number: 816
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-sobble-ShuffleToken.png
 Sprite: sobble.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sobble-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sobble-BookSprite.png|wsmall]]
+> ![[SRD-sobble-HomeSprite.png]]
+> ![[SRD-sobble-BoxSprite.png|htiny]]
+> ![[SRD-sobble-ShuffleToken.png|wsmall]]
+
 
 *Water Lizard Pokemon*
 *This shy Pokemon does not like to attract too much attention. It hides in shallow pools of water.. When it feels threatened it cries and its tears pack release a chemical that will make its foes cry too.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-sobble-HomeSprite.png|right]]
-![[SRD-sobble-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

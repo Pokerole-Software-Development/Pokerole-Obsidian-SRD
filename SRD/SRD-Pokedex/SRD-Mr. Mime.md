@@ -23,6 +23,7 @@ Name: Mr. Mime
 Number: 122
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mr-mime-ShuffleToken.png
 Sprite: mr-mime.png
 Type1: Psychic
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mr-mime-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mr-mime-BookSprite.png|wsmall]]
+> ![[SRD-mr-mime-HomeSprite.png]]
+> ![[SRD-mr-mime-BoxSprite.png|htiny]]
+> ![[SRD-mr-mime-ShuffleToken.png|wsmall]]
+
 
 *Barrier Pokemon*
 *You don’t find this Pokemon, it finds you. It is really smart and amuses itself by showing people its power to create barriers with pantomime. It creates an invisible box and flees when you try to figure out the exit.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-mr-mime-HomeSprite.png|right]]
-![[SRD-mr-mime-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

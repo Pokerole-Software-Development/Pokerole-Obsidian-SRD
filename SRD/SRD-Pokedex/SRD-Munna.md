@@ -23,6 +23,7 @@ Name: Munna
 Number: 517
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-munna-ShuffleToken.png
 Sprite: munna.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-munna-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-munna-BookSprite.png|wsmall]]
+> ![[SRD-munna-HomeSprite.png]]
+> ![[SRD-munna-BoxSprite.png|htiny]]
+> ![[SRD-munna-ShuffleToken.png|wsmall]]
+
 
 *Dream Eater Pokemon*
 *It lurks close to towns and eats the dreams of people and Pokemon. When it eats a pleasant dream, it expels pink-colored mist. If you forgot what you dreamed, a Munna must have eaten your dream.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-munna-HomeSprite.png|right]]
-![[SRD-munna-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

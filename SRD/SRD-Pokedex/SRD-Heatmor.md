@@ -23,6 +23,7 @@ Name: Heatmor
 Number: 631
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-heatmor-ShuffleToken.png
 Sprite: heatmor.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-heatmor-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-heatmor-BookSprite.png|wsmall]]
+> ![[SRD-heatmor-HomeSprite.png]]
+> ![[SRD-heatmor-BoxSprite.png|htiny]]
+> ![[SRD-heatmor-ShuffleToken.png|wsmall]]
+
 
 *Anteater Pokemon*
 *It draws in air through its tail, then transforms it into fire and uses it like a tongue. You can see them defending Durant’s colonies from predators so they can be the only ones who can eat them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-heatmor-HomeSprite.png|right]]
-![[SRD-heatmor-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

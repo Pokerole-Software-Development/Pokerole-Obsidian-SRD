@@ -23,6 +23,7 @@ Name: Relicanth
 Number: 369
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 2
+ShuffleToken: SRD-relicanth-ShuffleToken.png
 Sprite: relicanth.png
 Type1: Water
 Type2: Rock
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-relicanth-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-relicanth-BookSprite.png|wsmall]]
+> ![[SRD-relicanth-HomeSprite.png]]
+> ![[SRD-relicanth-BoxSprite.png|htiny]]
+> ![[SRD-relicanth-ShuffleToken.png|wsmall]]
+
 
 *Longevity Pokemon*
 *It has remained unchanged for millions of years. Relicanth was discovered in a deep sea expedition. It feeds on plankton. Their scales are like craggy rocks, they can endure the pressure of the deep sea.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-relicanth-HomeSprite.png|right]]
-![[SRD-relicanth-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

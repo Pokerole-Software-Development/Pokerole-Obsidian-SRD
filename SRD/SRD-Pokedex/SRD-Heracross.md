@@ -26,6 +26,7 @@ Name: Heracross
 Number: 214
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-heracross-ShuffleToken.png
 Sprite: heracross.png
 Type1: Bug
 Type2: Fighting
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-heracross-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-heracross-BookSprite.png|wsmall]]
+> ![[SRD-heracross-HomeSprite.png]]
+> ![[SRD-heracross-BoxSprite.png|htiny]]
+> ![[SRD-heracross-ShuffleToken.png|wsmall]]
+
 
 *Single Horn Pokemon*
 *A docile creature that loves honey. They batter down trees with their powerful horn and chase off anyone who gets close to their prized honey. Not many Pokemon dare to mess with it in the wild.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-heracross-HomeSprite.png|right]]
-![[SRD-heracross-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

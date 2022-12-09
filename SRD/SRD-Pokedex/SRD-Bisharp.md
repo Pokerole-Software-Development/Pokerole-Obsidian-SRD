@@ -23,6 +23,7 @@ Name: Bisharp
 Number: 625
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-bisharp-ShuffleToken.png
 Sprite: bisharp.png
 Type1: Dark
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bisharp-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bisharp-BookSprite.png|wsmall]]
+> ![[SRD-bisharp-HomeSprite.png]]
+> ![[SRD-bisharp-BoxSprite.png|htiny]]
+> ![[SRD-bisharp-ShuffleToken.png|wsmall]]
+
 
 *Sword Blade Pokemon*
 *It leads a group of Pawniard. It battles to become the boss, but will be driven from the group if it loses. They are ruthless leaders and merciless with their foes. Weakness has no place among them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-bisharp-HomeSprite.png|right]]
-![[SRD-bisharp-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

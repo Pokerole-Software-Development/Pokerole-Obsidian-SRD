@@ -23,6 +23,7 @@ Name: Frosmoth
 Number: 873
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-frosmoth-ShuffleToken.png
 Sprite: frosmoth.png
 Type1: Ice
 Type2: Bug
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-frosmoth-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-frosmoth-BookSprite.png|wsmall]]
+> ![[SRD-frosmoth-HomeSprite.png]]
+> ![[SRD-frosmoth-BoxSprite.png|htiny]]
+> ![[SRD-frosmoth-ShuffleToken.png|wsmall]]
+
 
 *Frost Moth Pokemon*
 *It shows no mercy to any who desecrates its snowfields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away. It is very regal and soft-mannered otherwise*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-frosmoth-HomeSprite.png|right]]
-![[SRD-frosmoth-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Dracozolt
 Number: 880
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-dracozolt-ShuffleToken.png
 Sprite: dracozolt.png
 Type1: Electric
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dracozolt-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dracozolt-BookSprite.png|wsmall]]
+> ![[SRD-dracozolt-HomeSprite.png]]
+> ![[SRD-dracozolt-BoxSprite.png|htiny]]
+> ![[SRD-dracozolt-ShuffleToken.png|wsmall]]
+
 
 *Fossil Pokemon*
 *A mix-up of DNA during the revival process resulted in this. Its lower body was an incredibly Strong Pokemon that probably preyed on the little one from the upper body. Sometimes i1l t will try to run from itself.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-dracozolt-HomeSprite.png|right]]
-![[SRD-dracozolt-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

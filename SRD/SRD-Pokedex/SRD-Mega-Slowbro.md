@@ -23,6 +23,7 @@ Name: Mega-Slowbro
 Number: 80
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-slowbro-mega-ShuffleToken.png
 Sprite: slowbro-mega.png
 Type1: Water
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-slowbro-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-slowbro-mega-BookSprite.png|wsmall]]
+> ![[SRD-slowbro-mega-HomeSprite.png]]
+> ![[SRD-slowbro-mega-BoxSprite.png|htiny]]
+> ![[SRD-slowbro-mega-ShuffleToken.png|wsmall]]
+
 
 *Hermit Crab Pokemon*
 *With the power of the Mega Stone the Shellder on its tail becomes a bulletproof armor that swallows its host’s whole body. Slowpoke doesn’t seem to mind and looks pretty comfy to nest inside.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-slowbro-mega-HomeSprite.png|right]]
-![[SRD-slowbro-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

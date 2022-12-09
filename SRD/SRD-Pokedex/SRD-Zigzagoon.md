@@ -23,6 +23,7 @@ Name: Zigzagoon
 Number: 263
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zigzagoon-ShuffleToken.png
 Sprite: zigzagoon.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zigzagoon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zigzagoon-BookSprite.png|wsmall]]
+> ![[SRD-zigzagoon-HomeSprite.png]]
+> ![[SRD-zigzagoon-BoxSprite.png|htiny]]
+> ![[SRD-zigzagoon-ShuffleToken.png|wsmall]]
+
 
 *Tiny Raccoon Pokemon*
 *They are extremely curious and want to know all about everything. Due to their innate curiosity, they usually find hidden objects. Sometimes they play dead to avoid being attacked.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-zigzagoon-HomeSprite.png|right]]
-![[SRD-zigzagoon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

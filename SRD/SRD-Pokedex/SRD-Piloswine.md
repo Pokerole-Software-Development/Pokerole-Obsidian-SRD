@@ -23,6 +23,7 @@ Name: Piloswine
 Number: 221
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-piloswine-ShuffleToken.png
 Sprite: piloswine.png
 Type1: Ice
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-piloswine-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-piloswine-BookSprite.png|wsmall]]
+> ![[SRD-piloswine-HomeSprite.png]]
+> ![[SRD-piloswine-BoxSprite.png|htiny]]
+> ![[SRD-piloswine-ShuffleToken.png|wsmall]]
+
 
 *Swine Pokemon*
 *Their long hair obscure their sight, but they’re sensitive to sound and smells. Piloswine's rugged hooves prevent it from slipping on icy terrains. Amazingly, their tusks are made of solid ice.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-piloswine-HomeSprite.png|right]]
-![[SRD-piloswine-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

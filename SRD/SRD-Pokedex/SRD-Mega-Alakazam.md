@@ -23,6 +23,7 @@ Name: Mega-Alakazam
 Number: 65
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-alakazam-mega-ShuffleToken.png
 Sprite: alakazam-mega.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-alakazam-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-alakazam-mega-BookSprite.png|wsmall]]
+> ![[SRD-alakazam-mega-HomeSprite.png]]
+> ![[SRD-alakazam-mega-BoxSprite.png|htiny]]
+> ![[SRD-alakazam-mega-ShuffleToken.png|wsmall]]
+
 
 *Psi Pokemon*
 *With the power of the Mega Stone it is constantly plagued with visions of the future which make it great at evading attacks. Its body is feeble and it moves purely through psychic energy.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-alakazam-mega-HomeSprite.png|right]]
-![[SRD-alakazam-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

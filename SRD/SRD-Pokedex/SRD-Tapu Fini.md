@@ -22,6 +22,7 @@ Name: Tapu Fini
 Number: 788
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tapu-fini-ShuffleToken.png
 Sprite: tapu-fini.png
 Type1: Water
 Type2: Fairy
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tapu-fini-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tapu-fini-BookSprite.png|wsmall]]
+> ![[SRD-tapu-fini-HomeSprite.png]]
+> ![[SRD-tapu-fini-BoxSprite.png|htiny]]
+> ![[SRD-tapu-fini-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *The people on Poni island are proud of the clean water on their land, for that they thank their guardian spirit who is said to be the ocean itself.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-tapu-fini-HomeSprite.png|right]]
-![[SRD-tapu-fini-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

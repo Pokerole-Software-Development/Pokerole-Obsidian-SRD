@@ -23,6 +23,7 @@ Name: Sunflora
 Number: 192
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sunflora-ShuffleToken.png
 Sprite: sunflora.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sunflora-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sunflora-BookSprite.png|wsmall]]
+> ![[SRD-sunflora-HomeSprite.png]]
+> ![[SRD-sunflora-BoxSprite.png|htiny]]
+> ![[SRD-sunflora-ShuffleToken.png|wsmall]]
+
 
 *Sun Pokemon*
 *Sunfloras live in flower patches. They convert solar energy into nutrition and are highly active in the warm daytime but suddenly stop moving as soon as the sun sets, closing their petals to cover their face.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-sunflora-HomeSprite.png|right]]
-![[SRD-sunflora-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

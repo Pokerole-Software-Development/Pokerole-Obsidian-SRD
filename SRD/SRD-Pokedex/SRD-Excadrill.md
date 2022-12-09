@@ -23,6 +23,7 @@ Name: Excadrill
 Number: 530
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-excadrill-ShuffleToken.png
 Sprite: excadrill.png
 Type1: Ground
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-excadrill-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-excadrill-BookSprite.png|wsmall]]
+> ![[SRD-excadrill-HomeSprite.png]]
+> ![[SRD-excadrill-BoxSprite.png|htiny]]
+> ![[SRD-excadrill-ShuffleToken.png|wsmall]]
+
 
 *Subterrene Pokemon*
 *They build maze-like nests deep underground. Humans make use of their drilling abilities to dig tunnels for subway trains. This Pokemon does not back out from foes and can be a formidable opponent.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-excadrill-HomeSprite.png|right]]
-![[SRD-excadrill-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

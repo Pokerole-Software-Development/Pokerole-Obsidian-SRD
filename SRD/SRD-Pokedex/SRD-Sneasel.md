@@ -23,6 +23,7 @@ Name: Sneasel
 Number: 215
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sneasel-ShuffleToken.png
 Sprite: sneasel.png
 Type1: Dark
 Type2: Ice
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sneasel-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sneasel-BookSprite.png|wsmall]]
+> ![[SRD-sneasel-HomeSprite.png]]
+> ![[SRD-sneasel-BoxSprite.png|htiny]]
+> ![[SRD-sneasel-ShuffleToken.png|wsmall]]
+
 
 *Sharp Claw Pokemon*
 *It drives weaker Pokemon from their homes and eats their eggs. They are vicious and cunning. They wait for prey hidden in the darkness and enjoy slashing their foes until they get tired or the foe stops moving.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-sneasel-HomeSprite.png|right]]
-![[SRD-sneasel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

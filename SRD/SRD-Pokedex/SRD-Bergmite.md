@@ -23,6 +23,7 @@ Name: Bergmite
 Number: 712
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Mineral
+ShuffleToken: SRD-bergmite-ShuffleToken.png
 Sprite: bergmite.png
 Type1: Ice
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bergmite-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bergmite-BookSprite.png|wsmall]]
+> ![[SRD-bergmite-HomeSprite.png]]
+> ![[SRD-bergmite-BoxSprite.png|htiny]]
+> ![[SRD-bergmite-ShuffleToken.png|wsmall]]
+
 
 *Ice Chunk Pokemon*
 *They live in small herds close to the mountains. It blocks attacks with the ice that shields its body and uses cold air to repair any cracks with new ice. They are wary of humans as they rarely get to see one.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-bergmite-HomeSprite.png|right]]
-![[SRD-bergmite-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

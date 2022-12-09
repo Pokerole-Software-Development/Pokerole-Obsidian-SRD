@@ -23,6 +23,7 @@ Name: Registeel
 Number: 379
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-registeel-ShuffleToken.png
 Sprite: registeel.png
 Type1: Steel
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-registeel-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-registeel-BookSprite.png|wsmall]]
+> ![[SRD-registeel-HomeSprite.png]]
+> ![[SRD-registeel-BoxSprite.png|htiny]]
+> ![[SRD-registeel-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *His body was indestructible. A flexible metal out of this world that can shrink, expand, made solid or liquid at the speed of thought. Could the myths be true?*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::8)/(MaxInsight::8)     |
 
-![[SRD-registeel-HomeSprite.png|right]]
-![[SRD-registeel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Delphox
 Number: 655
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-delphox-ShuffleToken.png
 Sprite: delphox.png
 Type1: Fire
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-delphox-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-delphox-BookSprite.png|wsmall]]
+> ![[SRD-delphox-HomeSprite.png]]
+> ![[SRD-delphox-BoxSprite.png|htiny]]
+> ![[SRD-delphox-ShuffleToken.png|wsmall]]
+
 
 *Fox Pokemon*
 *It swirls its twig to create amazing flamethrowers. It gazes into the flame at the tip of its stick to achieve a focused state and rumor says that it can see the future within the glowing ember.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-delphox-HomeSprite.png|right]]
-![[SRD-delphox-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

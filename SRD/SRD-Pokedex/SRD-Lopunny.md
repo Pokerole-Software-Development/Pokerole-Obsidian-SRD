@@ -26,6 +26,7 @@ Name: Lopunny
 Number: 428
 PrimaryEggGroup: Field
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-lopunny-ShuffleToken.png
 Sprite: lopunny.png
 Type1: Normal
 Type2: ''
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lopunny-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lopunny-BookSprite.png|wsmall]]
+> ![[SRD-lopunny-HomeSprite.png]]
+> ![[SRD-lopunny-BoxSprite.png|htiny]]
+> ![[SRD-lopunny-ShuffleToken.png|wsmall]]
+
 
 *Rabbit Pokemon*
 *Lopunny is extremely cautious, it quickly bounds off when it senses danger. If they are touched roughly, they throw kicks and jump away. Keep the fur it sheds as it’s highly valued to make quality yarn.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-lopunny-HomeSprite.png|right]]
-![[SRD-lopunny-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

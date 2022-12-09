@@ -23,6 +23,7 @@ Name: Roselia
 Number: 315
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-roselia-ShuffleToken.png
 Sprite: roselia.png
 Type1: Grass
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-roselia-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-roselia-BookSprite.png|wsmall]]
+> ![[SRD-roselia-HomeSprite.png]]
+> ![[SRD-roselia-BoxSprite.png|htiny]]
+> ![[SRD-roselia-ShuffleToken.png|wsmall]]
+
 
 *Thorn Pokemon*
 *They live among rose bushes, shooting sharp poisonous thorns to anyone who tries to steal one of their flowers. Their aroma brings serenity. They need clean water to grow beautiful.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-roselia-HomeSprite.png|right]]
-![[SRD-roselia-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

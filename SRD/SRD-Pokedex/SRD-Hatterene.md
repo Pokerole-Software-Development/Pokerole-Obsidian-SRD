@@ -24,6 +24,7 @@ Name: Hatterene
 Number: 858
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-hatterene-ShuffleToken.png
 Sprite: hatterene.png
 Type1: Psychic
 Type2: Fairy
@@ -37,7 +38,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-hatterene-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-hatterene-BookSprite.png|wsmall]]
+> ![[SRD-hatterene-HomeSprite.png]]
+> ![[SRD-hatterene-BoxSprite.png|htiny]]
+> ![[SRD-hatterene-ShuffleToken.png|wsmall]]
+
 
 *Silent Pokemon*
 *If you’re too loud around it, you risk being torn apart by the claws on its tentacle. This Pokemon is also known as the Forest Witch. It is very sensitive to the emotions of others if it senses doubt, fear or anger it will attack you.*
@@ -56,8 +62,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-hatterene-HomeSprite.png|right]]
-![[SRD-hatterene-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

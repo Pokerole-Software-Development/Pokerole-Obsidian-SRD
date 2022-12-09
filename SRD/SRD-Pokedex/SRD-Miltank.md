@@ -23,6 +23,7 @@ Name: Miltank
 Number: 241
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-miltank-ShuffleToken.png
 Sprite: miltank.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-miltank-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-miltank-BookSprite.png|wsmall]]
+> ![[SRD-miltank-HomeSprite.png]]
+> ![[SRD-miltank-BoxSprite.png|htiny]]
+> ![[SRD-miltank-ShuffleToken.png|wsmall]]
+
 
 *Milk Cow Pokemon*
 *Their male counterpart is Tauros. A Miltank's milk is full of nutrients that may heal the sick and the injured, and they can produce up to 5 gallons a day. Healing serious injuries may require a lot of milk.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-miltank-HomeSprite.png|right]]
-![[SRD-miltank-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

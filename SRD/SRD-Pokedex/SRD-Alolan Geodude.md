@@ -23,6 +23,7 @@ Name: Alolan Geodude
 Number: 74
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-geodude-alola-ShuffleToken.png
 Sprite: geodude-alola.png
 Type1: Rock
 Type2: Electric
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-geodude-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-geodude-alola-BookSprite.png|wsmall]]
+> ![[SRD-geodude-alola-HomeSprite.png]]
+> ![[SRD-geodude-alola-BoxSprite.png|htiny]]
+> ![[SRD-geodude-alola-ShuffleToken.png|wsmall]]
+
 
 *Rock Pokemon*
 *The magnetic fields on Alola’s Blush Mountain made Geodude develop Electric chargers on its body. They tend to disguise themselves as regular rocks, caution is advised as they shock you if you step on them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-geodude-alola-HomeSprite.png|right]]
-![[SRD-geodude-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

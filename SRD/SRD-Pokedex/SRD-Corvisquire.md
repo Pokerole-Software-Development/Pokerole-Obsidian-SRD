@@ -23,6 +23,7 @@ Name: Corvisquire
 Number: 822
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-corvisquire-ShuffleToken.png
 Sprite: corvisquire.png
 Type1: Flying
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-corvisquire-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-corvisquire-BookSprite.png|wsmall]]
+> ![[SRD-corvisquire-HomeSprite.png]]
+> ![[SRD-corvisquire-BoxSprite.png|htiny]]
+> ![[SRD-corvisquire-ShuffleToken.png|wsmall]]
+
 
 *Raven Pokemon*
 *They are smart enough to use tools in battle, these Pokemon have been seen picking up rocks and flinging them or using ropes to wrap up foes. They choose their battles carefully and do not retreat.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-corvisquire-HomeSprite.png|right]]
-![[SRD-corvisquire-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

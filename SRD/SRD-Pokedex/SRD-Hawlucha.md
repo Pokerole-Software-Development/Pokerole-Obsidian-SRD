@@ -23,6 +23,7 @@ Name: Hawlucha
 Number: 701
 PrimaryEggGroup: Flying
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-hawlucha-ShuffleToken.png
 Sprite: hawlucha.png
 Type1: Fighting
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-hawlucha-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-hawlucha-BookSprite.png|wsmall]]
+> ![[SRD-hawlucha-HomeSprite.png]]
+> ![[SRD-hawlucha-BoxSprite.png|htiny]]
+> ![[SRD-hawlucha-ShuffleToken.png|wsmall]]
+
 
 *Wrestling Pokemon*
 *Although small in size, its proficient fighting skills enable it to keep up with big bruisers like Machamp and Hariyama. Using its wings to attack from above allows it to gain an edge in battle.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-hawlucha-HomeSprite.png|right]]
-![[SRD-hawlucha-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

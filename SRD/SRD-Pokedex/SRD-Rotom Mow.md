@@ -23,6 +23,7 @@ Name: Rotom Mow
 Number: 479
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rotom-mow-ShuffleToken.png
 Sprite: rotom-mow.png
 Type1: Electric
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rotom-mow-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rotom-mow-BookSprite.png|wsmall]]
+> ![[SRD-rotom-mow-HomeSprite.png]]
+> ![[SRD-rotom-mow-BoxSprite.png|htiny]]
+> ![[SRD-rotom-mow-ShuffleToken.png|wsmall]]
+
 
 *Plasma Pokemon*
 *A Lawnmower possessed by a Rotom. It uses Grass powers, mows awful patterns on the grass and chases people with the blades out. While on this form it can use the move: Leaf Storm.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-rotom-mow-HomeSprite.png|right]]
-![[SRD-rotom-mow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

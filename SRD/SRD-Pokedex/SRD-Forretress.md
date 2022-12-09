@@ -23,6 +23,7 @@ Name: Forretress
 Number: 205
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-forretress-ShuffleToken.png
 Sprite: forretress.png
 Type1: Bug
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-forretress-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-forretress-BookSprite.png|wsmall]]
+> ![[SRD-forretress-HomeSprite.png]]
+> ![[SRD-forretress-BoxSprite.png|htiny]]
+> ![[SRD-forretress-ShuffleToken.png|wsmall]]
+
 
 *Bagworm Pokemon*
 *It can be found completely rooted to huge tree trunks. It protects itself and its tree by scattering spiked pieces from its shell and turning its home into a fortress that won’t go down without a fight.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-forretress-HomeSprite.png|right]]
-![[SRD-forretress-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

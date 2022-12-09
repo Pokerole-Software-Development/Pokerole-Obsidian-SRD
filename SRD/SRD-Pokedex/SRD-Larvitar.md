@@ -23,6 +23,7 @@ Name: Larvitar
 Number: 246
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-larvitar-ShuffleToken.png
 Sprite: larvitar.png
 Type1: Rock
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-larvitar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-larvitar-BookSprite.png|wsmall]]
+> ![[SRD-larvitar-HomeSprite.png]]
+> ![[SRD-larvitar-BoxSprite.png|htiny]]
+> ![[SRD-larvitar-ShuffleToken.png|wsmall]]
+
 
 *Rock Skin Pokemon*
 *Born deep underground, they don’t emerge until they’ve eaten a whole mountain of soil. Only the strongest and more ferocious ever come out to roam about. They hate being disturbed.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-larvitar-HomeSprite.png|right]]
-![[SRD-larvitar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

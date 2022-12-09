@@ -23,6 +23,7 @@ Name: Eelektross
 Number: 604
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-eelektross-ShuffleToken.png
 Sprite: eelektross.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-eelektross-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-eelektross-BookSprite.png|wsmall]]
+> ![[SRD-eelektross-HomeSprite.png]]
+> ![[SRD-eelektross-BoxSprite.png|htiny]]
+> ![[SRD-eelektross-ShuffleToken.png|wsmall]]
+
 
 *EleFish Pokemon*
 *They crawl out of the water and attack anyone on shore by sucking them into their mouths, shocking them, and dragging them back into the ocean. They are aggressive and unpredictable, be very careful*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-eelektross-HomeSprite.png|right]]
-![[SRD-eelektross-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

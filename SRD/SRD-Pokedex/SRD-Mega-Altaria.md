@@ -23,6 +23,7 @@ Name: Mega-Altaria
 Number: 334
 PrimaryEggGroup: Flying
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-altaria-mega-ShuffleToken.png
 Sprite: altaria-mega.png
 Type1: Dragon
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-altaria-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-altaria-mega-BookSprite.png|wsmall]]
+> ![[SRD-altaria-mega-HomeSprite.png]]
+> ![[SRD-altaria-mega-BoxSprite.png|htiny]]
+> ![[SRD-altaria-mega-ShuffleToken.png|wsmall]]
+
 
 *Humming Pokemon*
 *The power of the Mega Stone awakens a part of it full of wonder. Mega-Alatarias can be benevolent or ruthless depending on who they are dealing with. Its lush cloud-wings turn dark whenever it gets angry.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-altaria-mega-HomeSprite.png|right]]
-![[SRD-altaria-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

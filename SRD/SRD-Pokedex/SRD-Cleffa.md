@@ -23,6 +23,7 @@ Name: Cleffa
 Number: 173
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-cleffa-ShuffleToken.png
 Sprite: cleffa.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cleffa-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cleffa-BookSprite.png|wsmall]]
+> ![[SRD-cleffa-HomeSprite.png]]
+> ![[SRD-cleffa-BoxSprite.png|htiny]]
+> ![[SRD-cleffa-ShuffleToken.png|wsmall]]
+
 
 *Star Shape Pokemon*
 *An extremely elusive Pokemon. A few have appeared when the night skies are filled with shooting stars - but they always disappear at dawn. Friendship and love allows it to go into the next step of life.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-cleffa-HomeSprite.png|right]]
-![[SRD-cleffa-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Crabrawler
 Number: 739
 PrimaryEggGroup: Water 3
 SecondaryEggGroup: ''
+ShuffleToken: SRD-crabrawler-ShuffleToken.png
 Sprite: crabrawler.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-crabrawler-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-crabrawler-BookSprite.png|wsmall]]
+> ![[SRD-crabrawler-HomeSprite.png]]
+> ![[SRD-crabrawler-BoxSprite.png|htiny]]
+> ![[SRD-crabrawler-ShuffleToken.png|wsmall]]
+
 
 *Boxing Pokemon*
 *They can be found on the beach, but as they grow stronger they also venture more into the land where they fight for ripe berries. They punch with their pincers, which are delicious with butter by the way.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-crabrawler-HomeSprite.png|right]]
-![[SRD-crabrawler-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Reshiram
 Number: 643
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-reshiram-ShuffleToken.png
 Sprite: reshiram.png
 Type1: Dragon
 Type2: Fire
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-reshiram-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-reshiram-BookSprite.png|wsmall]]
+> ![[SRD-reshiram-HomeSprite.png]]
+> ![[SRD-reshiram-BoxSprite.png|htiny]]
+> ![[SRD-reshiram-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *An Incredibly old scroll written in an ancient language, tells about a world of truth built by purifying fire. It also tells about a big dispute. The rest of the scroll is burned…*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-![[SRD-reshiram-HomeSprite.png|right]]
-![[SRD-reshiram-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

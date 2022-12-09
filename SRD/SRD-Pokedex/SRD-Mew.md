@@ -23,6 +23,7 @@ Name: Mew
 Number: 151
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mew-ShuffleToken.png
 Sprite: mew.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mew-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mew-BookSprite.png|wsmall]]
+> ![[SRD-mew-HomeSprite.png]]
+> ![[SRD-mew-BoxSprite.png|htiny]]
+> ![[SRD-mew-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Recent investigations declare that this Pokemon could be the common ancestor of all actual Pokemon, but it has been extinct for centuries. Some people claim to have seen one to get their 15 minutes of fame.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-mew-HomeSprite.png|right]]
-![[SRD-mew-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

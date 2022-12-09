@@ -23,6 +23,7 @@ Name: Clamperl
 Number: 366
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-clamperl-ShuffleToken.png
 Sprite: clamperl.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-clamperl-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-clamperl-BookSprite.png|wsmall]]
+> ![[SRD-clamperl-HomeSprite.png]]
+> ![[SRD-clamperl-BoxSprite.png|htiny]]
+> ![[SRD-clamperl-ShuffleToken.png|wsmall]]
+
 
 *Bivalve Pokemon*
 *It is protected by a sturdy shell which is used to catch its prey. Clamperl will produce a magnificent pearl once in a lifetime. That pearl is said to increase psychic powers and will sell for a lot of money.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-clamperl-HomeSprite.png|right]]
-![[SRD-clamperl-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

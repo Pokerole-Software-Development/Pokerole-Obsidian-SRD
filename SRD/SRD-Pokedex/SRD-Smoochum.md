@@ -23,6 +23,7 @@ Name: Smoochum
 Number: 238
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-smoochum-ShuffleToken.png
 Sprite: smoochum.png
 Type1: Ice
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-smoochum-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-smoochum-BookSprite.png|wsmall]]
+> ![[SRD-smoochum-HomeSprite.png]]
+> ![[SRD-smoochum-BoxSprite.png|htiny]]
+> ![[SRD-smoochum-ShuffleToken.png|wsmall]]
+
 
 *Kiss Pokemon*
 *They examine their surroundings with their lips. They love to smooch, but Pokemon dislike their kisses. Smoochums are always running excitedly, but they are clumsy and end up stumbling and crying.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-smoochum-HomeSprite.png|right]]
-![[SRD-smoochum-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

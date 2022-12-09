@@ -23,6 +23,7 @@ Name: Murkrow
 Number: 198
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-murkrow-ShuffleToken.png
 Sprite: murkrow.png
 Type1: Dark
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-murkrow-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-murkrow-BookSprite.png|wsmall]]
+> ![[SRD-murkrow-HomeSprite.png]]
+> ![[SRD-murkrow-BoxSprite.png|htiny]]
+> ![[SRD-murkrow-ShuffleToken.png|wsmall]]
+
 
 *Darkness Pokemon*
 *Murkrows are feared and loathed as the alleged bearers of ill fortune. This Pokemon will steal anything that sparkles. They are infamous for luring people and get them lost in the mountains.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-murkrow-HomeSprite.png|right]]
-![[SRD-murkrow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

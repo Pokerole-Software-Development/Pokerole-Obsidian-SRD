@@ -23,6 +23,7 @@ Name: Wooper
 Number: 194
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-wooper-ShuffleToken.png
 Sprite: wooper.png
 Type1: Water
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-wooper-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-wooper-BookSprite.png|wsmall]]
+> ![[SRD-wooper-HomeSprite.png]]
+> ![[SRD-wooper-BoxSprite.png|htiny]]
+> ![[SRD-wooper-ShuffleToken.png|wsmall]]
+
 
 *Water Fish Pokemon*
 *Inhabits cold water sources and only comes out during the evening when the land has cooled, to find something to eat. Under this ideal environment it has rarely been seen at its evolved stage.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-wooper-HomeSprite.png|right]]
-![[SRD-wooper-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

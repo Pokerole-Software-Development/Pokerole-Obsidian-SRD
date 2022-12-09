@@ -23,6 +23,7 @@ Name: Morpeko
 Number: 877
 PrimaryEggGroup: Field
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-morpeko-ShuffleToken.png
 Sprite: morpeko.png
 Type1: Electric
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-morpeko-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-morpeko-BookSprite.png|wsmall]]
+> ![[SRD-morpeko-HomeSprite.png]]
+> ![[SRD-morpeko-BoxSprite.png|htiny]]
+> ![[SRD-morpeko-ShuffleToken.png|wsmall]]
+
 
 *Two-Sided Pokemon*
 *It’s Full-Belly Mode is friendly and playful, it treasures food and treats. But intense hunger drives it to extremes of violence, and the electricity in its cheek sacs turn into a Dark-type energy*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-morpeko-HomeSprite.png|right]]
-![[SRD-morpeko-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

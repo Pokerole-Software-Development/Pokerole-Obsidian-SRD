@@ -23,6 +23,7 @@ Name: Rowlet
 Number: 722
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rowlet-ShuffleToken.png
 Sprite: rowlet.png
 Type1: Grass
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rowlet-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rowlet-BookSprite.png|wsmall]]
+> ![[SRD-rowlet-HomeSprite.png]]
+> ![[SRD-rowlet-BoxSprite.png|htiny]]
+> ![[SRD-rowlet-ShuffleToken.png|wsmall]]
+
 
 *Grass Quill Pokemon*
 *This is a shy Pokemon, it sleeps during the day, absorbing sunlight through its feathers, then at night becomes more active. It likes to keep sight of its trainer at all times, rotating its head 180° to do so.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-rowlet-HomeSprite.png|right]]
-![[SRD-rowlet-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

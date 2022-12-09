@@ -23,6 +23,7 @@ Name: Alolan Graveler
 Number: 75
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-graveler-alola-ShuffleToken.png
 Sprite: graveler-alola.png
 Type1: Rock
 Type2: Electric
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-graveler-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-graveler-alola-BookSprite.png|wsmall]]
+> ![[SRD-graveler-alola-HomeSprite.png]]
+> ![[SRD-graveler-alola-BoxSprite.png|htiny]]
+> ![[SRD-graveler-alola-ShuffleToken.png|wsmall]]
+
 
 *Rock Pokemon*
 *These Pokemon charge themselves by rolling around, it is dangerous if two of them collide, a loud noise and a flash of light will be seen and heard at great distance. They feed on golden dravite.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-graveler-alola-HomeSprite.png|right]]
-![[SRD-graveler-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

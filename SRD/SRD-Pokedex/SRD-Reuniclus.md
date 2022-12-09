@@ -23,6 +23,7 @@ Name: Reuniclus
 Number: 579
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-reuniclus-ShuffleToken.png
 Sprite: reuniclus.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-reuniclus-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-reuniclus-BookSprite.png|wsmall]]
+> ![[SRD-reuniclus-HomeSprite.png]]
+> ![[SRD-reuniclus-BoxSprite.png|htiny]]
+> ![[SRD-reuniclus-ShuffleToken.png|wsmall]]
+
 
 *Multiplying Pokemon*
 *These intelligent Pokemon fight by controlling their arms with psychic energy. They have been seen forming networks of many Reuniclus holding hands and unleashing an incredible psychic wave.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-reuniclus-HomeSprite.png|right]]
-![[SRD-reuniclus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Barboach
 Number: 339
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-barboach-ShuffleToken.png
 Sprite: barboach.png
 Type1: Water
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-barboach-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-barboach-BookSprite.png|wsmall]]
+> ![[SRD-barboach-HomeSprite.png]]
+> ![[SRD-barboach-BoxSprite.png|htiny]]
+> ![[SRD-barboach-ShuffleToken.png|wsmall]]
+
 
 *Whiskers Pokemon*
 *Their whiskers work as a super sensitive radar. They hide in the mud with only their whiskers exposed, waiting for prey to come. If the mud dries, they move back into the water.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-barboach-HomeSprite.png|right]]
-![[SRD-barboach-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

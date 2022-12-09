@@ -23,6 +23,7 @@ Name: Klinklang
 Number: 601
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-klinklang-ShuffleToken.png
 Sprite: klinklang.png
 Type1: Steel
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-klinklang-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-klinklang-BookSprite.png|wsmall]]
+> ![[SRD-klinklang-HomeSprite.png]]
+> ![[SRD-klinklang-BoxSprite.png|htiny]]
+> ![[SRD-klinklang-ShuffleToken.png|wsmall]]
+
 
 *Gear Pokemon*
 *The gear with the red core rotates at high speed for a quick energy charge. The mini gears shoot rays through the spikes around it. This inorganic Pokemon will trap and crush foes between its gears.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-klinklang-HomeSprite.png|right]]
-![[SRD-klinklang-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Dottler
 Number: 825
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-dottler-ShuffleToken.png
 Sprite: dottler.png
 Type1: Bug
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dottler-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dottler-BookSprite.png|wsmall]]
+> ![[SRD-dottler-HomeSprite.png]]
+> ![[SRD-dottler-BoxSprite.png|htiny]]
+> ![[SRD-dottler-ShuffleToken.png|wsmall]]
+
 
 *Radome Pokemon*
 *It grows into its final stage inside a hard shell. It barely moves and it won’t eat or drink during this time, due to this many believe it to be dead until its psychic powers awaken and it starts communicating telepathically.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-dottler-HomeSprite.png|right]]
-![[SRD-dottler-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Flabebe
 Number: 669
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-flabebe-ShuffleToken.png
 Sprite: flabebe.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-flabebe-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-flabebe-BookSprite.png|wsmall]]
+> ![[SRD-flabebe-HomeSprite.png]]
+> ![[SRD-flabebe-BoxSprite.png|htiny]]
+> ![[SRD-flabebe-ShuffleToken.png|wsmall]]
+
 
 *Single Bloom Pokemon*
 *This species is female only. They are so tiny it is difficult to spot them in the wild. They pick a flower as soon as they are born and it becomes a part of their body. These small Pokemon are shy but adorable.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-flabebe-HomeSprite.png|right]]
-![[SRD-flabebe-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Omastar
 Number: 139
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-omastar-ShuffleToken.png
 Sprite: omastar.png
 Type1: Rock
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-omastar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-omastar-BookSprite.png|wsmall]]
+> ![[SRD-omastar-HomeSprite.png]]
+> ![[SRD-omastar-BoxSprite.png|htiny]]
+> ![[SRD-omastar-ShuffleToken.png|wsmall]]
+
 
 *Spiral Pokemon*
 *An Omastar used its tentacles to ensnare and capture its prey. It is believed to have become extinct because the shell grew too large, making it slow and ponderous. It is not found in the wild anymore.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-omastar-HomeSprite.png|right]]
-![[SRD-omastar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

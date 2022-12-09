@@ -23,6 +23,7 @@ Name: Flygon
 Number: 330
 PrimaryEggGroup: Bug
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-flygon-ShuffleToken.png
 Sprite: flygon.png
 Type1: Ground
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-flygon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-flygon-BookSprite.png|wsmall]]
+> ![[SRD-flygon-HomeSprite.png]]
+> ![[SRD-flygon-BoxSprite.png|htiny]]
+> ![[SRD-flygon-ShuffleToken.png|wsmall]]
+
 
 *Mystic Pokemon*
 *Known as the “Elemental Spirit of the Desert”. Their wings create a cloud of dust that surrounds this Pokemon while flying, while their flapping produces a sound that resembles a woman singing.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-flygon-HomeSprite.png|right]]
-![[SRD-flygon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Litten
 Number: 725
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-litten-ShuffleToken.png
 Sprite: litten.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-litten-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-litten-BookSprite.png|wsmall]]
+> ![[SRD-litten-HomeSprite.png]]
+> ![[SRD-litten-BoxSprite.png|htiny]]
+> ![[SRD-litten-ShuffleToken.png|wsmall]]
+
 
 *Fire Cat Pokemon*
 *It has an aloof personality and likes to be alone. Its fur produces flammable oils and its rough tongue lights them every time it grooms itself. Not recommended as a pet for they can cause house fires easily.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-litten-HomeSprite.png|right]]
-![[SRD-litten-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Crustle
 Number: 558
 PrimaryEggGroup: Bug
 SecondaryEggGroup: Mineral
+ShuffleToken: SRD-crustle-ShuffleToken.png
 Sprite: crustle.png
 Type1: Bug
 Type2: Rock
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-crustle-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-crustle-BookSprite.png|wsmall]]
+> ![[SRD-crustle-HomeSprite.png]]
+> ![[SRD-crustle-BoxSprite.png|htiny]]
+> ![[SRD-crustle-ShuffleToken.png|wsmall]]
+
 
 *Stone Home Pokemon*
 *They carry enormous boulders as a protective shell. When competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle. They feed on the moss that grows in their rock.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-crustle-HomeSprite.png|right]]
-![[SRD-crustle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

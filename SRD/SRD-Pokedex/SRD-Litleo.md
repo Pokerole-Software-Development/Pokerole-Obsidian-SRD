@@ -23,6 +23,7 @@ Name: Litleo
 Number: 667
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-litleo-ShuffleToken.png
 Sprite: litleo.png
 Type1: Fire
 Type2: Normal
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-litleo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-litleo-BookSprite.png|wsmall]]
+> ![[SRD-litleo-HomeSprite.png]]
+> ![[SRD-litleo-BoxSprite.png|htiny]]
+> ![[SRD-litleo-ShuffleToken.png|wsmall]]
+
 
 *Lion Cub Pokemon*
 *Quick on temper and to take on a fight. They use their mane to scorch their enemies. Some of them set off from their pride to live alone. Only those who develop a full mane get to lead their own pride.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-litleo-HomeSprite.png|right]]
-![[SRD-litleo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

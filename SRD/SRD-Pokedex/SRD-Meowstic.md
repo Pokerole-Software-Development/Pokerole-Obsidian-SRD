@@ -23,6 +23,7 @@ Name: Meowstic
 Number: 678
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-meowstic-ShuffleToken.png
 Sprite: meowstic.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-meowstic-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-meowstic-BookSprite.png|wsmall]]
+> ![[SRD-meowstic-HomeSprite.png]]
+> ![[SRD-meowstic-BoxSprite.png|htiny]]
+> ![[SRD-meowstic-ShuffleToken.png|wsmall]]
+
 
 *Constraint Pokemon*
 *The eye patterns on the interior of its ears emit psychic energy. It keeps them tightly covered because the power can be overwhelming. Females are white in color and more aggressive than the males.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-meowstic-HomeSprite.png|right]]
-![[SRD-meowstic-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Zapdos
 Number: 145
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zapdos-ShuffleToken.png
 Sprite: zapdos.png
 Type1: Electric
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zapdos-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zapdos-BookSprite.png|wsmall]]
+> ![[SRD-zapdos-HomeSprite.png]]
+> ![[SRD-zapdos-BoxSprite.png|htiny]]
+> ![[SRD-zapdos-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *The myth tells of a bird who lived inside the thunderstorms of the region. It covered itself in lightning while flying in the dark clouds. A news report said it was involved in the closure of an energy plant.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-zapdos-HomeSprite.png|right]]
-![[SRD-zapdos-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Cottonee
 Number: 546
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-cottonee-ShuffleToken.png
 Sprite: cottonee.png
 Type1: Grass
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cottonee-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cottonee-BookSprite.png|wsmall]]
+> ![[SRD-cottonee-HomeSprite.png]]
+> ![[SRD-cottonee-BoxSprite.png|htiny]]
+> ![[SRD-cottonee-ShuffleToken.png|wsmall]]
+
 
 *Cotton Puff Pokemon*
 *They go wherever the wind takes them. On rainy days they can’t float, so they take shelter beneath big trees. To defend from predators they shed their cotton and leave it as a decoy while they escape.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-cottonee-HomeSprite.png|right]]
-![[SRD-cottonee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

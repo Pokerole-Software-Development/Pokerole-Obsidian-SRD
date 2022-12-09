@@ -23,6 +23,7 @@ Name: Milcery
 Number: 868
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-milcery-ShuffleToken.png
 Sprite: milcery.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-milcery-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-milcery-BookSprite.png|wsmall]]
+> ![[SRD-milcery-HomeSprite.png]]
+> ![[SRD-milcery-BoxSprite.png|htiny]]
+> ![[SRD-milcery-ShuffleToken.png|wsmall]]
+
 
 *Cream Pokemon*
 *This Pokemon was born from sweet-smelling particles in the air, its body is made of cream, Finding one in your kitchen means Good Fortune. Give them berries and whip them with a whisk so they can evolve.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-milcery-HomeSprite.png|right]]
-![[SRD-milcery-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

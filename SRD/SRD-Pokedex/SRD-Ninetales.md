@@ -23,6 +23,7 @@ Name: Ninetales
 Number: 38
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-ninetales-ShuffleToken.png
 Sprite: ninetales.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ninetales-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ninetales-BookSprite.png|wsmall]]
+> ![[SRD-ninetales-HomeSprite.png]]
+> ![[SRD-ninetales-BoxSprite.png|htiny]]
+> ![[SRD-ninetales-ShuffleToken.png|wsmall]]
+
 
 *Fox Pokemon*
 *It is known to understand human speech. It is very valued for its exuberant golden fur and the mystical power of its nine tails. It is, however, known to hold a grudge against those who mistreat it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-ninetales-HomeSprite.png|right]]
-![[SRD-ninetales-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

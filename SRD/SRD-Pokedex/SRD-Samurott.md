@@ -23,6 +23,7 @@ Name: Samurott
 Number: 503
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-samurott-ShuffleToken.png
 Sprite: samurott.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-samurott-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-samurott-BookSprite.png|wsmall]]
+> ![[SRD-samurott-HomeSprite.png]]
+> ![[SRD-samurott-BoxSprite.png|htiny]]
+> ![[SRD-samurott-ShuffleToken.png|wsmall]]
+
 
 *Formidable Pokemon*
 *It uses the horn on it’s head and both scimitars attached to it’s front legs as weapons. In the late spring and fall, they gather on cold beaches and fight each other. The winner lets out an intimidating roar.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-samurott-HomeSprite.png|right]]
-![[SRD-samurott-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

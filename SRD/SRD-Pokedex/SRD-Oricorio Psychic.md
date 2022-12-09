@@ -23,6 +23,7 @@ Name: Oricorio Psychic
 Number: 741
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-oricorio-ShuffleToken.png
 Sprite: oricorio.png
 Type1: Psychic
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-oricorio-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-oricorio-BookSprite.png|wsmall]]
+> ![[SRD-oricorio-HomeSprite.png]]
+> ![[SRD-oricorio-BoxSprite.png|htiny]]
+> ![[SRD-oricorio-ShuffleToken.png|wsmall]]
+
 
 *Dancing Pokemon*
 *What was thought to be different species ended up being a single Pokemon. Oricorio Pa'u has an aloof but ultimately relaxed nature. Its dance is focused and has an hypnotic rhythm.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-oricorio-HomeSprite.png|right]]
-![[SRD-oricorio-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

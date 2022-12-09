@@ -23,6 +23,7 @@ Name: Barbaracle
 Number: 689
 PrimaryEggGroup: Water 3
 SecondaryEggGroup: ''
+ShuffleToken: SRD-barbaracle-ShuffleToken.png
 Sprite: barbaracle.png
 Type1: Rock
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-barbaracle-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-barbaracle-BookSprite.png|wsmall]]
+> ![[SRD-barbaracle-HomeSprite.png]]
+> ![[SRD-barbaracle-BoxSprite.png|htiny]]
+> ![[SRD-barbaracle-ShuffleToken.png|wsmall]]
+
 
 *Collective Pokemon*
 *When they evolve, the two Binacle multiply into seven. They all defend the rock they live in but each one has a mind of their own and will move independently - They tend to follow the head’s orders, though.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-barbaracle-HomeSprite.png|right]]
-![[SRD-barbaracle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

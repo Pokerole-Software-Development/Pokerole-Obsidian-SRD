@@ -23,6 +23,7 @@ Name: Doublade
 Number: 680
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-doublade-ShuffleToken.png
 Sprite: doublade.png
 Type1: Steel
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-doublade-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-doublade-BookSprite.png|wsmall]]
+> ![[SRD-doublade-HomeSprite.png]]
+> ![[SRD-doublade-BoxSprite.png|htiny]]
+> ![[SRD-doublade-ShuffleToken.png|wsmall]]
+
 
 *Sword Pokemon*
 *Both swords share a telepathic link to coordinate attacks and slash their enemies to shreds. They feed on the rage of their wielder and promise to make him unbeatable at the cost of his flesh and soul.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-doublade-HomeSprite.png|right]]
-![[SRD-doublade-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

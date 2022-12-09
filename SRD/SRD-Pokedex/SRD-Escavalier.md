@@ -23,6 +23,7 @@ Name: Escavalier
 Number: 589
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-escavalier-ShuffleToken.png
 Sprite: escavalier.png
 Type1: Bug
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-escavalier-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-escavalier-BookSprite.png|wsmall]]
+> ![[SRD-escavalier-HomeSprite.png]]
+> ![[SRD-escavalier-BoxSprite.png|htiny]]
+> ![[SRD-escavalier-ShuffleToken.png|wsmall]]
+
 
 *Cavalry Pokemon*
 *Wearing the shell covering it stole from a Shelmet, it defends itself and attacks with two stings. It can fly to move around but its wings are too small to carry its weight to high altitudes.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-escavalier-HomeSprite.png|right]]
-![[SRD-escavalier-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Combusken
 Number: 256
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-combusken-ShuffleToken.png
 Sprite: combusken.png
 Type1: Fire
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-combusken-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-combusken-BookSprite.png|wsmall]]
+> ![[SRD-combusken-HomeSprite.png]]
+> ![[SRD-combusken-BoxSprite.png|htiny]]
+> ![[SRD-combusken-ShuffleToken.png|wsmall]]
+
 
 *Young Fowl Pokemon*
 *Once Torchic toughened up its legs and thighs, they like to run and love to kick. They have an offensive instinct to keep attacking no matter what. They sqwak loudly every morning when they start to train.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-combusken-HomeSprite.png|right]]
-![[SRD-combusken-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

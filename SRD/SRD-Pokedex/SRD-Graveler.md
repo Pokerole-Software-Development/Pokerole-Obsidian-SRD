@@ -23,6 +23,7 @@ Name: Graveler
 Number: 75
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-graveler-ShuffleToken.png
 Sprite: graveler.png
 Type1: Rock
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-graveler-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-graveler-BookSprite.png|wsmall]]
+> ![[SRD-graveler-HomeSprite.png]]
+> ![[SRD-graveler-BoxSprite.png|htiny]]
+> ![[SRD-graveler-ShuffleToken.png|wsmall]]
+
 
 *Rock Pokemon*
 *It walks slowly, but it can get a nice speed by rolling downhill. It is good at climbing. Groups of them have been seen clinging from rock formations and cliffs to eat the tasty rocks covered in moss.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-graveler-HomeSprite.png|right]]
-![[SRD-graveler-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

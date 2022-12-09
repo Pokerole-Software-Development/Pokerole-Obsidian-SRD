@@ -23,6 +23,7 @@ Name: Kabuto
 Number: 140
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-kabuto-ShuffleToken.png
 Sprite: kabuto.png
 Type1: Rock
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kabuto-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kabuto-BookSprite.png|wsmall]]
+> ![[SRD-kabuto-HomeSprite.png]]
+> ![[SRD-kabuto-BoxSprite.png|htiny]]
+> ![[SRD-kabuto-ShuffleToken.png|wsmall]]
+
 
 *Shellfish Pokemon*
 *Kabuto is a Pokemon that has been regenerated from a fossil. However, in extremely rare cases, living specimens have been found. The Pokemon has not changed at all for 300 million years.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-kabuto-HomeSprite.png|right]]
-![[SRD-kabuto-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

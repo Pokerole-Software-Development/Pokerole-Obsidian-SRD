@@ -23,6 +23,7 @@ Name: Mothim
 Number: 414
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mothim-ShuffleToken.png
 Sprite: mothim.png
 Type1: Bug
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mothim-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mothim-BookSprite.png|wsmall]]
+> ![[SRD-mothim-HomeSprite.png]]
+> ![[SRD-mothim-BoxSprite.png|htiny]]
+> ![[SRD-mothim-ShuffleToken.png|wsmall]]
+
 
 *Moth Pokemon*
 *It flies near the mountains in search of honey. It is an opportunist and won’t gather any honey by itself, instead Mothim steals from Combee hives and other Pokemon. This Pokemon is male only.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-mothim-HomeSprite.png|right]]
-![[SRD-mothim-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Steel Wormadam
 Number: 413
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-wormadamsteel-ShuffleToken.png
 Sprite: wormadamsteel.png
 Type1: Bug
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-wormadamsteel-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-wormadamsteel-BookSprite.png|wsmall]]
+> ![[SRD-wormadamsteel-HomeSprite.png]]
+> ![[SRD-wormadamsteel-BoxSprite.png|htiny]]
+> ![[SRD-wormadamsteel-ShuffleToken.png|wsmall]]
+
 
 *Bagworm Pokemon*
 *When Burmy evolved, its Trash cloak became a part of its body. For this reason there are many variations in body and type. It is a calm Pokemon that loves foil wrapping. This Pokemon is female only.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::6)     |
 
-![[SRD-wormadamsteel-HomeSprite.png|right]]
-![[SRD-wormadamsteel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

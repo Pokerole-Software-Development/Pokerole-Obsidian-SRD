@@ -26,6 +26,7 @@ Name: Latios
 Number: 381
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-latios-ShuffleToken.png
 Sprite: latios.png
 Type1: Dragon
 Type2: Psychic
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-latios-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-latios-BookSprite.png|wsmall]]
+> ![[SRD-latios-HomeSprite.png]]
+> ![[SRD-latios-BoxSprite.png|htiny]]
+> ![[SRD-latios-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *The legend tells about two Pokemon that could take human shapes, use psychic powers and become invisible. They were raised by an old couple as their own children. The boy was the oldest and wore a blue shirt.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-latios-HomeSprite.png|right]]
-![[SRD-latios-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

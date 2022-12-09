@@ -23,6 +23,7 @@ Name: Poipole
 Number: 803
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-poipole-ShuffleToken.png
 Sprite: poipole.png
 Type1: Poison
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-poipole-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-poipole-BookSprite.png|wsmall]]
+> ![[SRD-poipole-HomeSprite.png]]
+> ![[SRD-poipole-BoxSprite.png|htiny]]
+> ![[SRD-poipole-ShuffleToken.png|wsmall]]
+
 
 *Aether Foundation Log #162*
 *Thanks to the Recon Squad we’ve managed to secure a location on the other side. UB- Adhesive have been a great help; their intelligence and friendliness would make them very popular in our world.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-poipole-HomeSprite.png|right]]
-![[SRD-poipole-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

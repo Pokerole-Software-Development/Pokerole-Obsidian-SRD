@@ -23,6 +23,7 @@ Name: Rhyhorn
 Number: 111
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Field
+ShuffleToken: SRD-rhyhorn-ShuffleToken.png
 Sprite: rhyhorn.png
 Type1: Ground
 Type2: Rock
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rhyhorn-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rhyhorn-BookSprite.png|wsmall]]
+> ![[SRD-rhyhorn-HomeSprite.png]]
+> ![[SRD-rhyhorn-BoxSprite.png|htiny]]
+> ![[SRD-rhyhorn-ShuffleToken.png|wsmall]]
+
 
 *Spikes Pokemon*
 *It lives in grasslands and rough terrains. It is covered with a thick hide and it tramples any threats by running towards them. It is not very smart, though. It can keep trampling things for hours just because.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-rhyhorn-HomeSprite.png|right]]
-![[SRD-rhyhorn-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

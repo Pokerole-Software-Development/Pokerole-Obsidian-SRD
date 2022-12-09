@@ -26,6 +26,7 @@ Name: Pidgeot
 Number: 18
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pidgeot-ShuffleToken.png
 Sprite: pidgeot.png
 Type1: Normal
 Type2: Flying
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pidgeot-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pidgeot-BookSprite.png|wsmall]]
+> ![[SRD-pidgeot-HomeSprite.png]]
+> ![[SRD-pidgeot-BoxSprite.png|htiny]]
+> ![[SRD-pidgeot-ShuffleToken.png|wsmall]]
+
 
 *Bird Pokemon*
 *This Pokemon’s plumage is made of beautiful glossy feathers. Pidgeot is an excellent hunter with well developed wing muscles that make it strong enough to whip up a gusty windstorm with just a few flaps.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-pidgeot-HomeSprite.png|right]]
-![[SRD-pidgeot-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

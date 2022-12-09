@@ -23,6 +23,7 @@ Name: Silcoon
 Number: 266
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-silcoon-ShuffleToken.png
 Sprite: silcoon.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-silcoon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-silcoon-BookSprite.png|wsmall]]
+> ![[SRD-silcoon-HomeSprite.png]]
+> ![[SRD-silcoon-BoxSprite.png|htiny]]
+> ![[SRD-silcoon-ShuffleToken.png|wsmall]]
+
 
 *Cocoon Pokemon*
 *They tether themselves to tree branches while they wait to evolve. Sometimes they peek from a small hole in the cocoon. Silcoons feed only on raindrops. If Wrumple lived among flowers, it evolves to Silcoon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-silcoon-HomeSprite.png|right]]
-![[SRD-silcoon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

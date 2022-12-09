@@ -23,6 +23,7 @@ Name: Primal Kyogre
 Number: 382
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-kyogre-primal-ShuffleToken.png
 Sprite: kyogre-primal.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kyogre-primal-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kyogre-primal-BookSprite.png|wsmall]]
+> ![[SRD-kyogre-primal-HomeSprite.png]]
+> ![[SRD-kyogre-primal-BoxSprite.png|htiny]]
+> ![[SRD-kyogre-primal-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Millions of years ago chaos reigned. Neverending typhoons drowning all life under unforgiving waters. Who was so sad and hurt in the deep darkness of the sea? As its sapphire tears still flood the world.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::9)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::8)/(MaxInsight::8)     |
 
-![[SRD-kyogre-primal-HomeSprite.png|right]]
-![[SRD-kyogre-primal-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

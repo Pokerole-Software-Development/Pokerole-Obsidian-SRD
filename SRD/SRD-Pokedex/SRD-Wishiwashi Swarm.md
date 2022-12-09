@@ -24,6 +24,7 @@ Name: Wishiwashi Swarm
 Number: 746
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-wishiwashi-ShuffleToken.png
 Sprite: wishiwashi.png
 Type1: Water
 Type2: ''
@@ -37,7 +38,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-wishiwashi-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-wishiwashi-BookSprite.png|wsmall]]
+> ![[SRD-wishiwashi-HomeSprite.png]]
+> ![[SRD-wishiwashi-BoxSprite.png|htiny]]
+> ![[SRD-wishiwashi-ShuffleToken.png|wsmall]]
+
 
 *Small Fry Pokemon*
 *A school of Wishiwashi is the demon of the sea. Even Gyarados flee in terror when one approaches. Since it is formed by lots of members, it’s impossible to control. They disband after the threat is “neutralized”.*
@@ -56,8 +62,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-wishiwashi-HomeSprite.png|right]]
-![[SRD-wishiwashi-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

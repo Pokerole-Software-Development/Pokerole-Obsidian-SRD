@@ -23,6 +23,7 @@ Name: Heliolisk
 Number: 695
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-heliolisk-ShuffleToken.png
 Sprite: heliolisk.png
 Type1: Electric
 Type2: Normal
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-heliolisk-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-heliolisk-BookSprite.png|wsmall]]
+> ![[SRD-heliolisk-HomeSprite.png]]
+> ![[SRD-heliolisk-BoxSprite.png|htiny]]
+> ![[SRD-heliolisk-ShuffleToken.png|wsmall]]
+
 
 *Generator Pokemon*
 *They flare their frills and generate energy. A single Heliolisk is able to generate enough power to light a skyscraper. Due to this, electricity companies are investing on breeding and research for this species.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-heliolisk-HomeSprite.png|right]]
-![[SRD-heliolisk-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

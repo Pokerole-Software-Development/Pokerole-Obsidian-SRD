@@ -23,6 +23,7 @@ Name: Burmy
 Number: 412
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-burmy-ShuffleToken.png
 Sprite: burmy.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-burmy-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-burmy-BookSprite.png|wsmall]]
+> ![[SRD-burmy-HomeSprite.png]]
+> ![[SRD-burmy-BoxSprite.png|htiny]]
+> ![[SRD-burmy-ShuffleToken.png|wsmall]]
+
 
 *Bagworm Pokemon*
 *This Pokemon has adapted to live in the forests, deserts and in the city. It makes a cloak with the materials close to it to protect itself from the weather. Males evolve into a Mothim and females into a Wormadam.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-burmy-HomeSprite.png|right]]
-![[SRD-burmy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

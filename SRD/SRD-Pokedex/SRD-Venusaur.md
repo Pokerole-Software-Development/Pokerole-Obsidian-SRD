@@ -26,6 +26,7 @@ Name: Venusaur
 Number: 3
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-venusaur-ShuffleToken.png
 Sprite: venusaur.png
 Type1: Grass
 Type2: Poison
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-venusaur-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-venusaur-BookSprite.png|wsmall]]
+> ![[SRD-venusaur-HomeSprite.png]]
+> ![[SRD-venusaur-BoxSprite.png|htiny]]
+> ![[SRD-venusaur-ShuffleToken.png|wsmall]]
+
 
 *Seed Pokemon*
 *Venusaur's flower is said to take on vivid colors if it gets plenty of sun light. The flower’s aroma soothes the emotions of others.
@@ -59,8 +65,6 @@ If you find one in the wild, it must be the protector of the area.*
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-venusaur-HomeSprite.png|right]]
-![[SRD-venusaur-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

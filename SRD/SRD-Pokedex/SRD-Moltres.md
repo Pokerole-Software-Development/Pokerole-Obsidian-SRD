@@ -23,6 +23,7 @@ Name: Moltres
 Number: 146
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-moltres-ShuffleToken.png
 Sprite: moltres.png
 Type1: Fire
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-moltres-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-moltres-BookSprite.png|wsmall]]
+> ![[SRD-moltres-HomeSprite.png]]
+> ![[SRD-moltres-BoxSprite.png|htiny]]
+> ![[SRD-moltres-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *The legend speaks of a bird who came flying from the south. Its fiery body melted the snow and brought the spring along. A children‘s book depicts a similar Pokemon living inside of a volcano.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-moltres-HomeSprite.png|right]]
-![[SRD-moltres-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

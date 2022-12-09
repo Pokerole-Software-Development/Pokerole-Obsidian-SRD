@@ -23,6 +23,7 @@ Name: Chesnaught
 Number: 652
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-chesnaught-ShuffleToken.png
 Sprite: chesnaught.png
 Type1: Grass
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-chesnaught-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-chesnaught-BookSprite.png|wsmall]]
+> ![[SRD-chesnaught-HomeSprite.png]]
+> ![[SRD-chesnaught-BoxSprite.png|htiny]]
+> ![[SRD-chesnaught-ShuffleToken.png|wsmall]]
+
 
 *Spiny Armor Pokemon*
 *These Pokemon are known for taking defensive stances instead of charging into battle. Many stories tell how during the old wars, Chesnaught protected their allies using their bodies.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-chesnaught-HomeSprite.png|right]]
-![[SRD-chesnaught-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Cubone
 Number: 104
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-cubone-ShuffleToken.png
 Sprite: cubone.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cubone-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cubone-BookSprite.png|wsmall]]
+> ![[SRD-cubone-HomeSprite.png]]
+> ![[SRD-cubone-BoxSprite.png|htiny]]
+> ![[SRD-cubone-ShuffleToken.png|wsmall]]
+
 
 *Lonely Pokemon*
 *Cubone wears a skull helmet it never removes. It is said to be from its mother or someone dear to it. Lives in the mountains where it cries at night due to the sadness it feels. It is distrustful of humans.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-cubone-HomeSprite.png|right]]
-![[SRD-cubone-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

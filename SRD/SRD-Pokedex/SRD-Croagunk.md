@@ -23,6 +23,7 @@ Name: Croagunk
 Number: 453
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-croagunk-ShuffleToken.png
 Sprite: croagunk.png
 Type1: Poison
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-croagunk-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-croagunk-BookSprite.png|wsmall]]
+> ![[SRD-croagunk-HomeSprite.png]]
+> ![[SRD-croagunk-BoxSprite.png|htiny]]
+> ![[SRD-croagunk-ShuffleToken.png|wsmall]]
+
 
 *Toxic Mouth Pokemon*
 *It is commonly found in marshes. It inflates the sacks on its cheeks and makes croaking sounds. The fluid squeezed from its fingers is poisonous, but it is a common ingredient in medicinal ointments.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-croagunk-HomeSprite.png|right]]
-![[SRD-croagunk-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

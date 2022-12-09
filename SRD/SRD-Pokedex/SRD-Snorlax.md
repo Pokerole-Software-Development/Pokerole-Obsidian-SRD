@@ -23,6 +23,7 @@ Name: Snorlax
 Number: 143
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-snorlax-ShuffleToken.png
 Sprite: snorlax.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-snorlax-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-snorlax-BookSprite.png|wsmall]]
+> ![[SRD-snorlax-HomeSprite.png]]
+> ![[SRD-snorlax-BoxSprite.png|htiny]]
+> ![[SRD-snorlax-ShuffleToken.png|wsmall]]
+
 
 *Sleeping Pokemon*
 *Snorlax's typical day consists of eating and sleeping. It is such a docile Pokemon that children use its big belly as a place to play. It only attacks when it’s awoken harshly. Fortunately it is a heavy sleeper.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-snorlax-HomeSprite.png|right]]
-![[SRD-snorlax-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

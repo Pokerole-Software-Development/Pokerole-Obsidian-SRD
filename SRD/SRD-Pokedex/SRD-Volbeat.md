@@ -23,6 +23,7 @@ Name: Volbeat
 Number: 313
 PrimaryEggGroup: Bug
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-volbeat-ShuffleToken.png
 Sprite: volbeat.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-volbeat-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-volbeat-BookSprite.png|wsmall]]
+> ![[SRD-volbeat-HomeSprite.png]]
+> ![[SRD-volbeat-BoxSprite.png|htiny]]
+> ![[SRD-volbeat-ShuffleToken.png|wsmall]]
+
 
 *Firelfy Pokemon*
 *The male of its species. Their tail shines bright during the night, drawing geometric shapes in the sky. Volbeats live in swarms around clean ponds. They are attracted to Illumise's sweet aroma.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-volbeat-HomeSprite.png|right]]
-![[SRD-volbeat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

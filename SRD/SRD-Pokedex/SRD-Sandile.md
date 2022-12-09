@@ -23,6 +23,7 @@ Name: Sandile
 Number: 551
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sandile-ShuffleToken.png
 Sprite: sandile.png
 Type1: Ground
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sandile-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sandile-BookSprite.png|wsmall]]
+> ![[SRD-sandile-HomeSprite.png]]
+> ![[SRD-sandile-BoxSprite.png|htiny]]
+> ![[SRD-sandile-ShuffleToken.png|wsmall]]
+
 
 *Desert Croc Pokemon*
 *They live hidden under the desert sands with only their eyes and nostrils visible. They don’t prey on anything bigger than themselves but can be troublesome if they are being leaded by one of it’s evolved forms.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-sandile-HomeSprite.png|right]]
-![[SRD-sandile-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

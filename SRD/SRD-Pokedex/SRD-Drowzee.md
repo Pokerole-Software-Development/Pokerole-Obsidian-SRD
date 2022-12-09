@@ -23,6 +23,7 @@ Name: Drowzee
 Number: 96
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-drowzee-ShuffleToken.png
 Sprite: drowzee.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-drowzee-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-drowzee-BookSprite.png|wsmall]]
+> ![[SRD-drowzee-HomeSprite.png]]
+> ![[SRD-drowzee-BoxSprite.png|htiny]]
+> ![[SRD-drowzee-ShuffleToken.png|wsmall]]
+
 
 *Hypnosis Pokemon*
 *It eats the dreams of a sleeping person or Pokemon and shows fondness to the dreams of young children. Once the victim is deep in slumber it will extract and eat the dream through the nose.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-drowzee-HomeSprite.png|right]]
-![[SRD-drowzee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

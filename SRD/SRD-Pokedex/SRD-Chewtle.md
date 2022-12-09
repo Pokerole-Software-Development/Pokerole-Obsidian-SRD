@@ -23,6 +23,7 @@ Name: Chewtle
 Number: 833
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-chewtle-ShuffleToken.png
 Sprite: chewtle.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-chewtle-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-chewtle-BookSprite.png|wsmall]]
+> ![[SRD-chewtle-HomeSprite.png]]
+> ![[SRD-chewtle-BoxSprite.png|htiny]]
+> ![[SRD-chewtle-ShuffleToken.png|wsmall]]
+
 
 *Snapping Pokemon*
 *It uses its horn as its primary weapon, but it has a reputation as a biter. Apparently its gums are itchy and the only way to soothe them is biting and chewing on stuff. It is kinda cranky but relatively harmless.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-chewtle-HomeSprite.png|right]]
-![[SRD-chewtle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

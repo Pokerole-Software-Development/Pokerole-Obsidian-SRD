@@ -23,6 +23,7 @@ Name: Sylveon
 Number: 700
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sylveon-ShuffleToken.png
 Sprite: sylveon.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sylveon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sylveon-BookSprite.png|wsmall]]
+> ![[SRD-sylveon-HomeSprite.png]]
+> ![[SRD-sylveon-BoxSprite.png|htiny]]
+> ![[SRD-sylveon-ShuffleToken.png|wsmall]]
+
 
 *Intertwining Pokemon*
 *This rare and adorable Pokemon emanates a soothing aura to calm disturbances. It is said that only the Trainers who form an unbreakable bond with their Eevee can ever see this Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-sylveon-HomeSprite.png|right]]
-![[SRD-sylveon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

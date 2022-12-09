@@ -23,6 +23,7 @@ Name: Bastiodon
 Number: 411
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-bastiodon-ShuffleToken.png
 Sprite: bastiodon.png
 Type1: Rock
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bastiodon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bastiodon-BookSprite.png|wsmall]]
+> ![[SRD-bastiodon-HomeSprite.png]]
+> ![[SRD-bastiodon-BoxSprite.png|htiny]]
+> ![[SRD-bastiodon-ShuffleToken.png|wsmall]]
+
 
 *Shield Pokemon*
 *They lived in herds, millions of years ago. They would line together to shield their young. Despite its rough and scary exterior, this Pokemon is calm, gentle natured and a strict herbivore.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-bastiodon-HomeSprite.png|right]]
-![[SRD-bastiodon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

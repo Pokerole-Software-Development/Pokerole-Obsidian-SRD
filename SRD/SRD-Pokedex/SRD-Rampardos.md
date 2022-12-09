@@ -23,6 +23,7 @@ Name: Rampardos
 Number: 409
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rampardos-ShuffleToken.png
 Sprite: rampardos.png
 Type1: Rock
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rampardos-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rampardos-BookSprite.png|wsmall]]
+> ![[SRD-rampardos-HomeSprite.png]]
+> ![[SRD-rampardos-BoxSprite.png|htiny]]
+> ![[SRD-rampardos-ShuffleToken.png|wsmall]]
+
 
 *Head Butt Pokemon*
 *Its skull withstands any magnitude of impact. As a result, its brain never gets the chance to grow, this may have been the cause of its extinction. It is capable of rolling a truck over with a single strike.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-rampardos-HomeSprite.png|right]]
-![[SRD-rampardos-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

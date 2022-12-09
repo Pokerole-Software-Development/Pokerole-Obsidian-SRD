@@ -23,6 +23,7 @@ Name: Galarian Rapidash
 Number: 78
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rapidash-galar-ShuffleToken.png
 Sprite: rapidash-galar.png
 Type1: Psychic
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rapidash-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rapidash-galar-BookSprite.png|wsmall]]
+> ![[SRD-rapidash-galar-HomeSprite.png]]
+> ![[SRD-rapidash-galar-BoxSprite.png|htiny]]
+> ![[SRD-rapidash-galar-ShuffleToken.png|wsmall]]
+
 
 *Unique Horn Pokemonn*
 *Those with evil in their hearts will be disdained by this proud and beautiful Pokemon as it dashes on the air using its psychic power. It is said that only a true princess can mount a Galarian Rapidash.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-rapidash-galar-HomeSprite.png|right]]
-![[SRD-rapidash-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

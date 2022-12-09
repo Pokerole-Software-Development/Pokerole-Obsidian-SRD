@@ -23,6 +23,7 @@ Name: Jolteon
 Number: 135
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-jolteon-ShuffleToken.png
 Sprite: jolteon.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-jolteon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-jolteon-BookSprite.png|wsmall]]
+> ![[SRD-jolteon-HomeSprite.png]]
+> ![[SRD-jolteon-BoxSprite.png|htiny]]
+> ![[SRD-jolteon-ShuffleToken.png|wsmall]]
+
 
 *Lightning Pokemon*
 *This Pokemon evolved after being affected by electric radiation. Every hair on its body starts to stand sharply if it becomes charged with electricity. It shoots lightning from all around its body.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-jolteon-HomeSprite.png|right]]
-![[SRD-jolteon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

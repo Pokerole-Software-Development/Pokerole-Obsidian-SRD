@@ -23,6 +23,7 @@ Name: Form Zacian
 Number: 888
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zacian-ShuffleToken.png
 Sprite: zacian.png
 Type1: Fairy
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zacian-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zacian-BookSprite.png|wsmall]]
+> ![[SRD-zacian-HomeSprite.png]]
+> ![[SRD-zacian-BoxSprite.png|htiny]]
+> ![[SRD-zacian-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *There is a legend about a mighty sword able to cut down anything with a single strike, it became known as the Fairy King’s Sword, and it inspired awe in friend and foe alike.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-zacian-HomeSprite.png|right]]
-![[SRD-zacian-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

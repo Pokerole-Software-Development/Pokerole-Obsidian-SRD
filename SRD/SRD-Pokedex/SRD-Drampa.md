@@ -23,6 +23,7 @@ Name: Drampa
 Number: 780
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-drampa-ShuffleToken.png
 Sprite: drampa.png
 Type1: Normal
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-drampa-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-drampa-BookSprite.png|wsmall]]
+> ![[SRD-drampa-HomeSprite.png]]
+> ![[SRD-drampa-BoxSprite.png|htiny]]
+> ![[SRD-drampa-ShuffleToken.png|wsmall]]
+
 
 *Placid Pokemon*
 *They live alone at the top of high mountains but come down in the morning to eat berries. It is a caring Pokemon, specially towards children and will fiercely protect any children it cares for with tremendous force.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-drampa-HomeSprite.png|right]]
-![[SRD-drampa-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

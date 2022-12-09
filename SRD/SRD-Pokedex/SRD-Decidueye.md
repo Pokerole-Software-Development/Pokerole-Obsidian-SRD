@@ -23,6 +23,7 @@ Name: Decidueye
 Number: 724
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-decidueye-ShuffleToken.png
 Sprite: decidueye.png
 Type1: Grass
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-decidueye-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-decidueye-BookSprite.png|wsmall]]
+> ![[SRD-decidueye-HomeSprite.png]]
+> ![[SRD-decidueye-BoxSprite.png|htiny]]
+> ![[SRD-decidueye-ShuffleToken.png|wsmall]]
+
 
 *Arrow Quill Pokemob*
 *This Pokemon can shoot its own feathers as arrows in just a split of second. They are usually calm and collected but they are easily startled if taken by surprise. It is very rare as most of them are extinct.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-decidueye-HomeSprite.png|right]]
-![[SRD-decidueye-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Ditto
 Number: 132
 PrimaryEggGroup: Ditto
 SecondaryEggGroup: ''
+ShuffleToken: SRD-ditto-ShuffleToken.png
 Sprite: ditto.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ditto-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ditto-BookSprite.png|wsmall]]
+> ![[SRD-ditto-HomeSprite.png]]
+> ![[SRD-ditto-BoxSprite.png|htiny]]
+> ![[SRD-ditto-ShuffleToken.png|wsmall]]
+
 
 *Transform Pokemon*
 *This Pokemon is quite common but it’s pretty difficult to spot. It can transform into any other Pokemon and imitate their behavior. When it sleeps, it changes into a stone to avoid being attacked.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-ditto-HomeSprite.png|right]]
-![[SRD-ditto-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

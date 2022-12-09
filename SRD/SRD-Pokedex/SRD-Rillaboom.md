@@ -23,6 +23,7 @@ Name: Rillaboom
 Number: 812
 PrimaryEggGroup: Field
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-rillaboom-ShuffleToken.png
 Sprite: rillaboom.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rillaboom-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rillaboom-BookSprite.png|wsmall]]
+> ![[SRD-rillaboom-HomeSprite.png]]
+> ![[SRD-rillaboom-BoxSprite.png|htiny]]
+> ![[SRD-rillaboom-ShuffleToken.png|wsmall]]
+
 
 *Drummer Pokemon*
 *The leader owns the largest drum among its troop and has the best drumming technique which makes roots sprout to attack its foes. But they are peaceful and kind, creatures that value harmony in their group.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-rillaboom-HomeSprite.png|right]]
-![[SRD-rillaboom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

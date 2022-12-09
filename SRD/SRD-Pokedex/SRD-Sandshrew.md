@@ -23,6 +23,7 @@ Name: Sandshrew
 Number: 27
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sandshrew-ShuffleToken.png
 Sprite: sandshrew.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sandshrew-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sandshrew-BookSprite.png|wsmall]]
+> ![[SRD-sandshrew-HomeSprite.png]]
+> ![[SRD-sandshrew-BoxSprite.png|htiny]]
+> ![[SRD-sandshrew-ShuffleToken.png|wsmall]]
+
 
 *Mouse Pokemon*
 *They usually hide burrowed under caves and grasslands. A few have been sighted living in the desert. They are shy by nature - they dig and curl in a ball when facing a threat.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-sandshrew-HomeSprite.png|right]]
-![[SRD-sandshrew-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

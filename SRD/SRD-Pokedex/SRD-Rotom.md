@@ -23,6 +23,7 @@ Name: Rotom
 Number: 479
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rotom-dex-ShuffleToken.png
 Sprite: rotom-dex.png
 Type1: Electric
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rotom-dex-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rotom-dex-BookSprite.png|wsmall]]
+> ![[SRD-rotom-dex-HomeSprite.png]]
+> ![[SRD-rotom-dex-BoxSprite.png|htiny]]
+> ![[SRD-rotom-dex-ShuffleToken.png|wsmall]]
+
 
 *Plasma Pokemon*
 *Its electric-like body can enter some kinds of machines and take control of them in order to cause mischief. It changes its form to that of the electric appliance, allowing it to become more powerful.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-rotom-dex-HomeSprite.png|right]]
-![[SRD-rotom-dex-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

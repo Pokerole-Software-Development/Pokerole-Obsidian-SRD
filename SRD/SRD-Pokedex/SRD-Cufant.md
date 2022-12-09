@@ -23,6 +23,7 @@ Name: Cufant
 Number: 878
 PrimaryEggGroup: Field
 SecondaryEggGroup: Mineral
+ShuffleToken: SRD-cufant-ShuffleToken.png
 Sprite: cufant.png
 Type1: Steel
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cufant-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cufant-BookSprite.png|wsmall]]
+> ![[SRD-cufant-HomeSprite.png]]
+> ![[SRD-cufant-BoxSprite.png|htiny]]
+> ![[SRD-cufant-ShuffleToken.png|wsmall]]
+
 
 *Copperderm Pokemon*
 *If a job requires serious strength, this Pokemon will excel at it. Its copper body tarnishes in the rain, turning a vibrant green color. Its trunk is specially designed to dig the ground, in the wild they uproot trees to eat.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-cufant-HomeSprite.png|right]]
-![[SRD-cufant-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

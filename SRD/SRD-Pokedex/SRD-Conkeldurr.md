@@ -23,6 +23,7 @@ Name: Conkeldurr
 Number: 534
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-conkeldurr-ShuffleToken.png
 Sprite: conkeldurr.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-conkeldurr-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-conkeldurr-BookSprite.png|wsmall]]
+> ![[SRD-conkeldurr-HomeSprite.png]]
+> ![[SRD-conkeldurr-BoxSprite.png|htiny]]
+> ![[SRD-conkeldurr-ShuffleToken.png|wsmall]]
+
 
 *Muscular Pokemon*
 *They use concrete pillars as walking canes and swing the pillars freely in battle. Anthropology research says that this Pokemon may have taught humans how to make concrete out of rocks thousands of years ago.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-conkeldurr-HomeSprite.png|right]]
-![[SRD-conkeldurr-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

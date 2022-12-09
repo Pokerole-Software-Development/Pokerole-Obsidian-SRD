@@ -23,6 +23,7 @@ Name: Fraxure
 Number: 611
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-fraxure-ShuffleToken.png
 Sprite: fraxure.png
 Type1: Dragon
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-fraxure-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-fraxure-BookSprite.png|wsmall]]
+> ![[SRD-fraxure-HomeSprite.png]]
+> ![[SRD-fraxure-BoxSprite.png|htiny]]
+> ![[SRD-fraxure-ShuffleToken.png|wsmall]]
+
 
 *Axe Jaw Pokemon*
 *Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent. The tusks don’t grow back anymore, if you find a Fraxure with both tusks whole, it means it’s one of the strongest.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-fraxure-HomeSprite.png|right]]
-![[SRD-fraxure-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

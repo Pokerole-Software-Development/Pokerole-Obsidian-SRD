@@ -23,6 +23,7 @@ Name: Scorbunny
 Number: 813
 PrimaryEggGroup: Field
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-scorbunny-ShuffleToken.png
 Sprite: scorbunny.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-scorbunny-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-scorbunny-BookSprite.png|wsmall]]
+> ![[SRD-scorbunny-HomeSprite.png]]
+> ![[SRD-scorbunny-BoxSprite.png|htiny]]
+> ![[SRD-scorbunny-ShuffleToken.png|wsmall]]
+
 
 *Rabbit Pokemon*
 *Scorbunny is small and energetic, they love to run in large fields from one side to another for hours. There are heat pads on its feet and nose, as it runs or battles they can get burning hot.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-scorbunny-HomeSprite.png|right]]
-![[SRD-scorbunny-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

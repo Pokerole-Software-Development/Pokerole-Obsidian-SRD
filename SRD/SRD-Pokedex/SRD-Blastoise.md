@@ -26,6 +26,7 @@ Name: Blastoise
 Number: 9
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-blastoise-ShuffleToken.png
 Sprite: blastoise.png
 Type1: Water
 Type2: ''
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-blastoise-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-blastoise-BookSprite.png|wsmall]]
+> ![[SRD-blastoise-HomeSprite.png]]
+> ![[SRD-blastoise-BoxSprite.png|htiny]]
+> ![[SRD-blastoise-ShuffleToken.png|wsmall]]
+
 
 *Shellfish Pokemon*
 *The jets of water it spouts from the rocket cannons on its shell have been recorded to punch through steel. It is confident on its great defense and water spouts to overcome any obstacle.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-blastoise-HomeSprite.png|right]]
-![[SRD-blastoise-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

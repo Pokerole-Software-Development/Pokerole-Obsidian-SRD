@@ -23,6 +23,7 @@ Name: Alolan Grimer
 Number: 88
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-grimer-alola-ShuffleToken.png
 Sprite: grimer-alola.png
 Type1: Poison
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-grimer-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-grimer-alola-BookSprite.png|wsmall]]
+> ![[SRD-grimer-alola-HomeSprite.png]]
+> ![[SRD-grimer-alola-BoxSprite.png|htiny]]
+> ![[SRD-grimer-alola-ShuffleToken.png|wsmall]]
+
 
 *Sludge Pokemon*
 *Grimer were brought into Alola to eat garbage on the region. It seemed like a counterintuitive measure but ended up solving the problem. But now Grimer are incredibly noxious, much more toxic than usual.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-grimer-alola-HomeSprite.png|right]]
-![[SRD-grimer-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

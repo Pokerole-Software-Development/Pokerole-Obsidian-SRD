@@ -23,6 +23,7 @@ Name: Hippowdon
 Number: 450
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-hippowdon-ShuffleToken.png
 Sprite: hippowdon.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-hippowdon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-hippowdon-BookSprite.png|wsmall]]
+> ![[SRD-hippowdon-HomeSprite.png]]
+> ![[SRD-hippowdon-BoxSprite.png|htiny]]
+> ![[SRD-hippowdon-ShuffleToken.png|wsmall]]
+
 
 *Heavyweight Pokemon*
 *It becomes territorial and aggressive after evolving. Its open mouth stands over 7 ft. tall. There are records of one that came out of the sand and crushed a truck that was passing over its territory.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-hippowdon-HomeSprite.png|right]]
-![[SRD-hippowdon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

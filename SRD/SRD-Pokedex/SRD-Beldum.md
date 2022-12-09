@@ -23,6 +23,7 @@ Name: Beldum
 Number: 374
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-beldum-ShuffleToken.png
 Sprite: beldum.png
 Type1: Steel
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-beldum-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-beldum-BookSprite.png|wsmall]]
+> ![[SRD-beldum-HomeSprite.png]]
+> ![[SRD-beldum-BoxSprite.png|htiny]]
+> ![[SRD-beldum-ShuffleToken.png|wsmall]]
+
 
 *Iron Ball Pokemon*
 *Beldum uses magnetic pulses to float and communicate. When it finds others, they move in perfect unison. It needs to develop a new brain to evolve; two of them may merge or it could develop a new one with time.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-beldum-HomeSprite.png|right]]
-![[SRD-beldum-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

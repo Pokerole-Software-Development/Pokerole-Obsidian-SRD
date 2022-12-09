@@ -23,6 +23,7 @@ Name: Psyduck
 Number: 54
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-psyduck-ShuffleToken.png
 Sprite: psyduck.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-psyduck-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-psyduck-BookSprite.png|wsmall]]
+> ![[SRD-psyduck-HomeSprite.png]]
+> ![[SRD-psyduck-BoxSprite.png|htiny]]
+> ![[SRD-psyduck-ShuffleToken.png|wsmall]]
+
 
 *Duck Pokemon*
 *It lives near lakes and ponds but it’s not very good at swimming. It is always tormented by headaches that worsen when it uses psychic powers. Psyducks seem unaware of their own power.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-psyduck-HomeSprite.png|right]]
-![[SRD-psyduck-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

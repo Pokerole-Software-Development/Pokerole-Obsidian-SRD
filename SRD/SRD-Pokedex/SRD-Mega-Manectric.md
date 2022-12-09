@@ -23,6 +23,7 @@ Name: Mega-Manectric
 Number: 310
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-manectric-mega-ShuffleToken.png
 Sprite: manectric-mega.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-manectric-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-manectric-mega-BookSprite.png|wsmall]]
+> ![[SRD-manectric-mega-HomeSprite.png]]
+> ![[SRD-manectric-mega-BoxSprite.png|htiny]]
+> ![[SRD-manectric-mega-ShuffleToken.png|wsmall]]
+
 
 *Discharge Pokemon*
 *The power of the Mega Stone gives it an insurmountable amount of electricity that gives it an explosive velocity, but it is too much for it to bear. Its mane grows uncomfortably large, making it moody.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-manectric-mega-HomeSprite.png|right]]
-![[SRD-manectric-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Linoone
 Number: 264
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-linoone-ShuffleToken.png
 Sprite: linoone.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-linoone-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-linoone-BookSprite.png|wsmall]]
+> ![[SRD-linoone-HomeSprite.png]]
+> ![[SRD-linoone-BoxSprite.png|htiny]]
+> ![[SRD-linoone-ShuffleToken.png|wsmall]]
+
 
 *Rushing Pokemon*
 *Linoones are always running at full speed, but they can only do so in straight lines. They find it very difficult to deal with a curved road. They excel at hunting but tend to eat a lot to recover from their tiring runs.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-linoone-HomeSprite.png|right]]
-![[SRD-linoone-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

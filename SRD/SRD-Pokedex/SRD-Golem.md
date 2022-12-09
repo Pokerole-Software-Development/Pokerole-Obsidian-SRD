@@ -23,6 +23,7 @@ Name: Golem
 Number: 76
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-golem-ShuffleToken.png
 Sprite: golem.png
 Type1: Rock
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-golem-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-golem-BookSprite.png|wsmall]]
+> ![[SRD-golem-HomeSprite.png]]
+> ![[SRD-golem-BoxSprite.png|htiny]]
+> ![[SRD-golem-ShuffleToken.png|wsmall]]
+
 
 *Megaton Pokemon*
 *It is rare to see in the wild since it lives high on the mountains. It withdraws its head and legs as if it were a turtle to roll around. There have been cases of Golem that resist dynamite blasts unscathed.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-golem-HomeSprite.png|right]]
-![[SRD-golem-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

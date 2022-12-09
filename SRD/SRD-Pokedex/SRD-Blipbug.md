@@ -23,6 +23,7 @@ Name: Blipbug
 Number: 824
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-blipbug-ShuffleToken.png
 Sprite: blipbug.png
 Type1: Bug
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-blipbug-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-blipbug-BookSprite.png|wsmall]]
+> ![[SRD-blipbug-HomeSprite.png]]
+> ![[SRD-blipbug-BoxSprite.png|htiny]]
+> ![[SRD-blipbug-ShuffleToken.png|wsmall]]
+
 
 *Larva Pokemon*
 *Often found in gardens, Blipbug has hairs on its body that it uses to assess its surroundings. They are very smart and easy to teach but they are not very strong and other Pokemon bully them often.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-blipbug-HomeSprite.png|right]]
-![[SRD-blipbug-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Ledyba
 Number: 165
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-ledyba-ShuffleToken.png
 Sprite: ledyba.png
 Type1: Bug
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ledyba-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ledyba-BookSprite.png|wsmall]]
+> ![[SRD-ledyba-HomeSprite.png]]
+> ![[SRD-ledyba-BoxSprite.png|htiny]]
+> ![[SRD-ledyba-ShuffleToken.png|wsmall]]
+
 
 *Five Star Pokemon*
 *These timid Pokemon swarm in groups to keep each other warm during the winter. It communicates with others through a special scent. They often appear covered in the morning dew.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-ledyba-HomeSprite.png|right]]
-![[SRD-ledyba-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

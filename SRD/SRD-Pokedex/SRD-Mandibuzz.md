@@ -23,6 +23,7 @@ Name: Mandibuzz
 Number: 630
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mandibuzz-ShuffleToken.png
 Sprite: mandibuzz.png
 Type1: Dark
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mandibuzz-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mandibuzz-BookSprite.png|wsmall]]
+> ![[SRD-mandibuzz-HomeSprite.png]]
+> ![[SRD-mandibuzz-BoxSprite.png|htiny]]
+> ![[SRD-mandibuzz-ShuffleToken.png|wsmall]]
+
 
 *Bone Vulture Pokemon*
 *They fly in circles around the sky when they spot prey. They carry the carcass back to their nest with ease. They like to look beautiful and create ornaments and jewelry using bone pieces.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-mandibuzz-HomeSprite.png|right]]
-![[SRD-mandibuzz-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

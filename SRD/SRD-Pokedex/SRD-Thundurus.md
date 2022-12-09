@@ -23,6 +23,7 @@ Name: Thundurus
 Number: 642
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-thundurus-ShuffleToken.png
 Sprite: thundurus.png
 Type1: Electric
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-thundurus-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-thundurus-BookSprite.png|wsmall]]
+> ![[SRD-thundurus-HomeSprite.png]]
+> ![[SRD-thundurus-BoxSprite.png|htiny]]
+> ![[SRD-thundurus-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *There are constant forest fires all through the Unova region. These fires are always the result of a giant thunder storm. Forest rangers tell about a blue demon’s shadow that was inside the storm clouds.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-thundurus-HomeSprite.png|right]]
-![[SRD-thundurus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

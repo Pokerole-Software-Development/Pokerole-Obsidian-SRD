@@ -26,6 +26,7 @@ Name: Camerupt
 Number: 323
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-camerupt-ShuffleToken.png
 Sprite: camerupt.png
 Type1: Fire
 Type2: Ground
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-camerupt-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-camerupt-BookSprite.png|wsmall]]
+> ![[SRD-camerupt-HomeSprite.png]]
+> ![[SRD-camerupt-BoxSprite.png|htiny]]
+> ![[SRD-camerupt-ShuffleToken.png|wsmall]]
+
 
 *Eruption Pokemon*
 *Sometimes the humps on their back make an eruption when they get really angry, otherwise they’d only erupt every 10 years. Camerupts live inside the craters of volcanoes. They are indifferent to humans.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-camerupt-HomeSprite.png|right]]
-![[SRD-camerupt-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

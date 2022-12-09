@@ -23,6 +23,7 @@ Name: Deino
 Number: 633
 PrimaryEggGroup: Dragon
 SecondaryEggGroup: ''
+ShuffleToken: SRD-deino-ShuffleToken.png
 Sprite: deino.png
 Type1: Dark
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-deino-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-deino-BookSprite.png|wsmall]]
+> ![[SRD-deino-HomeSprite.png]]
+> ![[SRD-deino-BoxSprite.png|htiny]]
+> ![[SRD-deino-ShuffleToken.png|wsmall]]
+
 
 *Irate Pokemon*
 *This Pokemon is blind, It bites all it finds to be aware of its surroundings. It constantly bumps into things and attacks anything close to it. Their bodies are covered in wounds and they are very aggressive.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-deino-HomeSprite.png|right]]
-![[SRD-deino-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

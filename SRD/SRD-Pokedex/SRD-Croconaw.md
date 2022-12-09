@@ -24,6 +24,7 @@ Name: Croconaw
 Number: 159
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-croconaw-ShuffleToken.png
 Sprite: croconaw.png
 Type1: Water
 Type2: ''
@@ -37,7 +38,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-croconaw-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-croconaw-BookSprite.png|wsmall]]
+> ![[SRD-croconaw-HomeSprite.png]]
+> ![[SRD-croconaw-BoxSprite.png|htiny]]
+> ![[SRD-croconaw-ShuffleToken.png|wsmall]]
+
 
 *Big Jaw Pokemon*
 *This Pokemon is really tenacious. Once it bites something it won’t let go until it tears it down - even if its trainer is ordering to let go. If it loses any of it’s fangs, they’ll regrow in a few days. It’s a very wild Pokemon.*
@@ -56,8 +62,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-croconaw-HomeSprite.png|right]]
-![[SRD-croconaw-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

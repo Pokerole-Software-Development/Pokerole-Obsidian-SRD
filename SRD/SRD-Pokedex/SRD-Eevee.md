@@ -23,6 +23,7 @@ Name: Eevee
 Number: 133
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-eevee-ShuffleToken.png
 Sprite: eevee.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-eevee-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-eevee-BookSprite.png|wsmall]]
+> ![[SRD-eevee-HomeSprite.png]]
+> ![[SRD-eevee-BoxSprite.png|htiny]]
+> ![[SRD-eevee-ShuffleToken.png|wsmall]]
+
 
 *Evolution Pokemon*
 *This Pokemon is extremely rare to find. Eevee has an unstable genetic makeup that suddenly mutates to fit its environment. Radiation from various stones causes this Pokemon to evolve.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-eevee-HomeSprite.png|right]]
-![[SRD-eevee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

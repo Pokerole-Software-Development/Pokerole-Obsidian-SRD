@@ -23,6 +23,7 @@ Name: Dewott
 Number: 502
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-dewott-ShuffleToken.png
 Sprite: dewott.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dewott-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dewott-BookSprite.png|wsmall]]
+> ![[SRD-dewott-HomeSprite.png]]
+> ![[SRD-dewott-BoxSprite.png|htiny]]
+> ![[SRD-dewott-ShuffleToken.png|wsmall]]
+
 
 *Discipline Pokemon*
 *It isolates itself from others and trains every day to perform a double scalchop slash technique. This Pokemon takes itself very seriously and won’t back down from any challenge.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-dewott-HomeSprite.png|right]]
-![[SRD-dewott-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Milotic
 Number: 350
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-milotic-ShuffleToken.png
 Sprite: milotic.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-milotic-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-milotic-BookSprite.png|wsmall]]
+> ![[SRD-milotic-HomeSprite.png]]
+> ![[SRD-milotic-BoxSprite.png|htiny]]
+> ![[SRD-milotic-ShuffleToken.png|wsmall]]
+
 
 *Tender Pokemon*
 *Milotic is considered to be one of the most beautiful Pokemon in existence. It has inspired music, paintings and statues. It has the power to calm the anger and hostility of its foes.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-milotic-HomeSprite.png|right]]
-![[SRD-milotic-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

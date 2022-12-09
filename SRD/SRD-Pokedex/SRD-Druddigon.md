@@ -23,6 +23,7 @@ Name: Druddigon
 Number: 621
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-druddigon-ShuffleToken.png
 Sprite: druddigon.png
 Type1: Dragon
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-druddigon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-druddigon-BookSprite.png|wsmall]]
+> ![[SRD-druddigon-HomeSprite.png]]
+> ![[SRD-druddigon-BoxSprite.png|htiny]]
+> ![[SRD-druddigon-ShuffleToken.png|wsmall]]
+
 
 *Cave Pokemon*
 *It runs through the narrow tunnels dug by Excadrill and Onix and uses its sharp claws to catch prey. It is cold blooded, and regularly takes sun baths to keep its energy. They are aggressive and territorial.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-druddigon-HomeSprite.png|right]]
-![[SRD-druddigon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

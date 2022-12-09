@@ -26,6 +26,7 @@ Name: Gardevoir
 Number: 282
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-gardevoir-ShuffleToken.png
 Sprite: gardevoir.png
 Type1: Psychic
 Type2: Fairy
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gardevoir-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gardevoir-BookSprite.png|wsmall]]
+> ![[SRD-gardevoir-HomeSprite.png]]
+> ![[SRD-gardevoir-BoxSprite.png|htiny]]
+> ![[SRD-gardevoir-ShuffleToken.png|wsmall]]
+
 
 *Embrace Pokemon*
 *If they sense danger, Gardevoir unleash a wave of psychic energy. They can distort this dimension, defy the laws of matter and physics. They risk their lives to protect their fellows.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-gardevoir-HomeSprite.png|right]]
-![[SRD-gardevoir-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

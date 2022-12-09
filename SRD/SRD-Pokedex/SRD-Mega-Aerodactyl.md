@@ -23,6 +23,7 @@ Name: Mega-Aerodactyl
 Number: 142
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-aerodactyl-mega-ShuffleToken.png
 Sprite: aerodactyl-mega.png
 Type1: Rock
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-aerodactyl-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-aerodactyl-mega-BookSprite.png|wsmall]]
+> ![[SRD-aerodactyl-mega-HomeSprite.png]]
+> ![[SRD-aerodactyl-mega-BoxSprite.png|htiny]]
+> ![[SRD-aerodactyl-mega-ShuffleToken.png|wsmall]]
+
 
 *Fossil Pokemon*
 *With the power of the Mega Stone it restores the original appearance it had millions of years ago with its body covered in sharp rocks. It is very aggressive and will attack anything that moves.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-aerodactyl-mega-HomeSprite.png|right]]
-![[SRD-aerodactyl-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

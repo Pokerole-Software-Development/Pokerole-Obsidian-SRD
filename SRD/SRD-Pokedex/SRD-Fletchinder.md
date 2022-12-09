@@ -23,6 +23,7 @@ Name: Fletchinder
 Number: 662
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-fletchinder-ShuffleToken.png
 Sprite: fletchinder.png
 Type1: Fire
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-fletchinder-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-fletchinder-BookSprite.png|wsmall]]
+> ![[SRD-fletchinder-HomeSprite.png]]
+> ![[SRD-fletchinder-BoxSprite.png|htiny]]
+> ![[SRD-fletchinder-ShuffleToken.png|wsmall]]
+
 
 *Ember Pokemon*
 *From its beak, it expels embers to set tall grass on fire, then it pounces on the bewildered prey that pop out of the grass. Its body becomes engulfed in flames when it starts to battle. It is a fierce Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-fletchinder-HomeSprite.png|right]]
-![[SRD-fletchinder-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

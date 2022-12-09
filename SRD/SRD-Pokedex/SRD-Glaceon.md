@@ -23,6 +23,7 @@ Name: Glaceon
 Number: 471
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-glaceon-ShuffleToken.png
 Sprite: glaceon.png
 Type1: Ice
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-glaceon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-glaceon-BookSprite.png|wsmall]]
+> ![[SRD-glaceon-HomeSprite.png]]
+> ![[SRD-glaceon-BoxSprite.png|htiny]]
+> ![[SRD-glaceon-ShuffleToken.png|wsmall]]
+
 
 *Fresh Snow Pokemon*
 *Eevees that are forced to live in freezing temperatures evolve into this Pokemon. It can control its body temperature to below zero, freezing its fur and making it extremely tough.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-glaceon-HomeSprite.png|right]]
-![[SRD-glaceon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Kingler
 Number: 99
 PrimaryEggGroup: Water 3
 SecondaryEggGroup: ''
+ShuffleToken: SRD-kingler-ShuffleToken.png
 Sprite: kingler.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kingler-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kingler-BookSprite.png|wsmall]]
+> ![[SRD-kingler-HomeSprite.png]]
+> ![[SRD-kingler-BoxSprite.png|htiny]]
+> ![[SRD-kingler-ShuffleToken.png|wsmall]]
+
 
 *Pincer Pokemon*
 *Its pincers grow peculiarly large. If it lifts the pincers too fast, it may lose its balance and stagger. If one of its pincers is damaged, it will detach it from its body. It will regrow after a few days..*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-kingler-HomeSprite.png|right]]
-![[SRD-kingler-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Hakamo-o
 Number: 783
 PrimaryEggGroup: Dragon
 SecondaryEggGroup: ''
+ShuffleToken: SRD-hakamo-o-ShuffleToken.png
 Sprite: hakamo-o.png
 Type1: Dragon
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-hakamo-o-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-hakamo-o-BookSprite.png|wsmall]]
+> ![[SRD-hakamo-o-HomeSprite.png]]
+> ![[SRD-hakamo-o-BoxSprite.png|htiny]]
+> ![[SRD-hakamo-o-ShuffleToken.png|wsmall]]
+
 
 *Scaly Pokemon*
 *The scales on its body are shed and regrow sharper each time. It is a courageous and diligent Pokemon who always lets out a war cry before the battle. Any marks on its scale armor is worn with pride.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-hakamo-o-HomeSprite.png|right]]
-![[SRD-hakamo-o-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

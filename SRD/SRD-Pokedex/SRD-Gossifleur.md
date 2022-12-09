@@ -23,6 +23,7 @@ Name: Gossifleur
 Number: 829
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gossifleur-ShuffleToken.png
 Sprite: gossifleur.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gossifleur-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gossifleur-BookSprite.png|wsmall]]
+> ![[SRD-gossifleur-HomeSprite.png]]
+> ![[SRD-gossifleur-BoxSprite.png|htiny]]
+> ![[SRD-gossifleur-ShuffleToken.png|wsmall]]
+
 
 *Flowering Pokemon*
 *You’ll find them in fields, basking in the sun, they let the wind sway them while they sing a joyful song. Afterwards their flowers bloom and glow. This delightful display makes it very popular among Trainers.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-gossifleur-HomeSprite.png|right]]
-![[SRD-gossifleur-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

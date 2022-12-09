@@ -23,6 +23,7 @@ Name: Vikavolt
 Number: 738
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-vikavolt-ShuffleToken.png
 Sprite: vikavolt.png
 Type1: Bug
 Type2: Electric
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-vikavolt-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-vikavolt-BookSprite.png|wsmall]]
+> ![[SRD-vikavolt-HomeSprite.png]]
+> ![[SRD-vikavolt-BoxSprite.png|htiny]]
+> ![[SRD-vikavolt-ShuffleToken.png|wsmall]]
+
 
 *Stag Beetle Pokemon*
 *The electricity it shoots through its jaws is very dangerous, it zaps bird Pokemon trying to eat it. Its flight is peculiar, for it bends in a 90° angle or flies backwards without a problem.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-vikavolt-HomeSprite.png|right]]
-![[SRD-vikavolt-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

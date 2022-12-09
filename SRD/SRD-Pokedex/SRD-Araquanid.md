@@ -23,6 +23,7 @@ Name: Araquanid
 Number: 752
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Bug
+ShuffleToken: SRD-araquanid-ShuffleToken.png
 Sprite: araquanid.png
 Type1: Water
 Type2: Bug
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-araquanid-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-araquanid-BookSprite.png|wsmall]]
+> ![[SRD-araquanid-HomeSprite.png]]
+> ![[SRD-araquanid-BoxSprite.png|htiny]]
+> ![[SRD-araquanid-ShuffleToken.png|wsmall]]
+
 
 *Water Bubble Pokemon*
 *It’s debated whether this is a caring or cruel Pokemon. It looks around for any vulnerable or weak pokemon, tenderly carries them and deposits them into its water bubble where they end up drowning.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-araquanid-HomeSprite.png|right]]
-![[SRD-araquanid-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

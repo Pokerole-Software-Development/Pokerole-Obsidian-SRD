@@ -23,6 +23,7 @@ Name: Pidgey
 Number: 16
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pidgey-ShuffleToken.png
 Sprite: pidgey.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pidgey-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pidgey-BookSprite.png|wsmall]]
+> ![[SRD-pidgey-HomeSprite.png]]
+> ![[SRD-pidgey-BoxSprite.png|htiny]]
+> ![[SRD-pidgey-ShuffleToken.png|wsmall]]
+
 
 *Tiny Bird Pokemon*
 *Very common around the world, it prefers to live in forests but can be seen around cities and plains too. It’s a docile Pokemon that tends to avoid trouble. It flaps its wings to lure prey out of hiding.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-pidgey-HomeSprite.png|right]]
-![[SRD-pidgey-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

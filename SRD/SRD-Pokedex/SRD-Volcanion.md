@@ -23,6 +23,7 @@ Name: Volcanion
 Number: 721
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-volcanion-ShuffleToken.png
 Sprite: volcanion.png
 Type1: Fire
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-volcanion-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-volcanion-BookSprite.png|wsmall]]
+> ![[SRD-volcanion-HomeSprite.png]]
+> ![[SRD-volcanion-BoxSprite.png|htiny]]
+> ![[SRD-volcanion-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *In the early days of world exploring, there are records of an entire mountain blowing up in a cloud of steam. The explorers claimed that a creature in the fog was responsible.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-volcanion-HomeSprite.png|right]]
-![[SRD-volcanion-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

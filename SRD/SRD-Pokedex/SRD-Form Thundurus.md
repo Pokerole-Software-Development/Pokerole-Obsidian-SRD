@@ -23,6 +23,7 @@ Name: Form Thundurus
 Number: 642
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-thundurus-ShuffleToken.png
 Sprite: thundurus.png
 Type1: Electric
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-thundurus-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-thundurus-BookSprite.png|wsmall]]
+> ![[SRD-thundurus-HomeSprite.png]]
+> ![[SRD-thundurus-BoxSprite.png|htiny]]
+> ![[SRD-thundurus-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Some Pokemon reveal their true forms after recovering power lost to them. Great forces of nature can help them recover their strength such as Tornadoes, Lightning, and even a Landslide.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-thundurus-HomeSprite.png|right]]
-![[SRD-thundurus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Electabuzz
 Number: 125
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-electabuzz-ShuffleToken.png
 Sprite: electabuzz.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-electabuzz-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-electabuzz-BookSprite.png|wsmall]]
+> ![[SRD-electabuzz-HomeSprite.png]]
+> ![[SRD-electabuzz-BoxSprite.png|htiny]]
+> ![[SRD-electabuzz-ShuffleToken.png|wsmall]]
+
 
 *Electric Pokemon*
 *A violent Pokemon. It searches for spots where it can feed on electricity and has been seen absorbing lightning from the sky. It’s competitive and aggressive with others.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-electabuzz-HomeSprite.png|right]]
-![[SRD-electabuzz-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Pansage
 Number: 511
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pansage-ShuffleToken.png
 Sprite: pansage.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pansage-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pansage-BookSprite.png|wsmall]]
+> ![[SRD-pansage-HomeSprite.png]]
+> ![[SRD-pansage-BoxSprite.png|htiny]]
+> ![[SRD-pansage-ShuffleToken.png|wsmall]]
+
 
 *Grass Monkey Pokemon*
 *Pansage is a friendly Pokemon. It is good at finding berries and will share them with other Pokemon. The leaves on it’s head have medicinal properties, if it finds a sick Pokemon it will offer some to heal it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-pansage-HomeSprite.png|right]]
-![[SRD-pansage-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

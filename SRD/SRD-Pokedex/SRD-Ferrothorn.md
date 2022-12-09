@@ -23,6 +23,7 @@ Name: Ferrothorn
 Number: 598
 PrimaryEggGroup: Grass
 SecondaryEggGroup: Mineral
+ShuffleToken: SRD-ferrothorn-ShuffleToken.png
 Sprite: ferrothorn.png
 Type1: Grass
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ferrothorn-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ferrothorn-BookSprite.png|wsmall]]
+> ![[SRD-ferrothorn-HomeSprite.png]]
+> ![[SRD-ferrothorn-BoxSprite.png|htiny]]
+> ![[SRD-ferrothorn-ShuffleToken.png|wsmall]]
+
 
 *Thorn Pod Pokemon*
 *It attaches itself to cave ceilings by swinging around its spiky feelers. It shoots spikes at targets passing beneath. It is incredibly resilient and stubborn, it will whip you if you try to take its spot in the cave walls..*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-ferrothorn-HomeSprite.png|right]]
-![[SRD-ferrothorn-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

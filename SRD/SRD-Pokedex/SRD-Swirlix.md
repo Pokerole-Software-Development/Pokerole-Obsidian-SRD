@@ -23,6 +23,7 @@ Name: Swirlix
 Number: 684
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-swirlix-ShuffleToken.png
 Sprite: swirlix.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-swirlix-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-swirlix-BookSprite.png|wsmall]]
+> ![[SRD-swirlix-HomeSprite.png]]
+> ![[SRD-swirlix-BoxSprite.png|htiny]]
+> ![[SRD-swirlix-ShuffleToken.png|wsmall]]
+
 
 *Cotton Candy Pokemon*
 *Because it eats nothing but sweet fruit, honey and sugars, its fur is as sticky and sweet as cotton candy. To entangle its opponents in battle, it extrudes white and sticky threads but the foes end up eating them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-swirlix-HomeSprite.png|right]]
-![[SRD-swirlix-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

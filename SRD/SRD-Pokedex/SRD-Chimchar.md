@@ -23,6 +23,7 @@ Name: Chimchar
 Number: 390
 PrimaryEggGroup: Field
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-chimchar-ShuffleToken.png
 Sprite: chimchar.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-chimchar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-chimchar-BookSprite.png|wsmall]]
+> ![[SRD-chimchar-HomeSprite.png]]
+> ![[SRD-chimchar-BoxSprite.png|htiny]]
+> ![[SRD-chimchar-ShuffleToken.png|wsmall]]
+
 
 *Chimp Pokemon*
 *They climb sheer cliffs to live at the top of the mountains. Small groups of them tend to visit human camping sites to steal food and objects. They are playful and will wreak havoc if they want to have fun.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-chimchar-HomeSprite.png|right]]
-![[SRD-chimchar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

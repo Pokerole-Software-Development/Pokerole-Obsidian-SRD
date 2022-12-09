@@ -23,6 +23,7 @@ Name: Floette
 Number: 670
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-floette-ShuffleToken.png
 Sprite: floette.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-floette-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-floette-BookSprite.png|wsmall]]
+> ![[SRD-floette-HomeSprite.png]]
+> ![[SRD-floette-BoxSprite.png|htiny]]
+> ![[SRD-floette-ShuffleToken.png|wsmall]]
+
 
 *Fairy Pokemon*
 *It flutters around flower meadows and takes care of buds that are starting to wilt. People who fill their gardens with their preferred flower receive its visit every spring. They are loyal and caring Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-floette-HomeSprite.png|right]]
-![[SRD-floette-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

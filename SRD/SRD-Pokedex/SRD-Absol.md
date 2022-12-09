@@ -26,6 +26,7 @@ Name: Absol
 Number: 359
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-absol-ShuffleToken.png
 Sprite: absol.png
 Type1: Dark
 Type2: ''
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-absol-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-absol-BookSprite.png|wsmall]]
+> ![[SRD-absol-HomeSprite.png]]
+> ![[SRD-absol-BoxSprite.png|htiny]]
+> ![[SRD-absol-ShuffleToken.png|wsmall]]
+
 
 *Disaster Pokemon*
 *It is said that this Pokemon can live for 100 years. It has a bad reputation: Whenever one is seen, a disaster is soon to follow - earthquakes, forest fires and tidal waves. Absols lead a lonely life.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-absol-HomeSprite.png|right]]
-![[SRD-absol-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

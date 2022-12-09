@@ -23,6 +23,7 @@ Name: Dragalge
 Number: 691
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-dragalge-ShuffleToken.png
 Sprite: dragalge.png
 Type1: Poison
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dragalge-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dragalge-BookSprite.png|wsmall]]
+> ![[SRD-dragalge-HomeSprite.png]]
+> ![[SRD-dragalge-BoxSprite.png|htiny]]
+> ![[SRD-dragalge-ShuffleToken.png|wsmall]]
+
 
 *Mock Kelp Pokemon*
 *Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory. Touching them can be fatal if you are not treated within a few hours.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-![[SRD-dragalge-HomeSprite.png|right]]
-![[SRD-dragalge-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Tangrowth
 Number: 465
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tangrowth-ShuffleToken.png
 Sprite: tangrowth.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tangrowth-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tangrowth-BookSprite.png|wsmall]]
+> ![[SRD-tangrowth-HomeSprite.png]]
+> ![[SRD-tangrowth-BoxSprite.png|htiny]]
+> ![[SRD-tangrowth-ShuffleToken.png|wsmall]]
+
 
 *Vine Pokemon*
 *While it remains still, it appears to be a large shrub. Unsuspecting prey that wander near get ensnared by its vines. In the summer months, its vines grow so large that you can’t even see its eyes.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-tangrowth-HomeSprite.png|right]]
-![[SRD-tangrowth-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -26,6 +26,7 @@ Name: Banette
 Number: 354
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-banette-ShuffleToken.png
 Sprite: banette.png
 Type1: Ghost
 Type2: ''
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-banette-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-banette-BookSprite.png|wsmall]]
+> ![[SRD-banette-HomeSprite.png]]
+> ![[SRD-banette-BoxSprite.png|htiny]]
+> ![[SRD-banette-ShuffleToken.png|wsmall]]
+
 
 *Marionette Pokemon*
 *It’s body is usually a discarded doll or toy. Its spirit is made of dark feelings and is overrun by the desire of revenge towards the kid that threw the toy away. If you open its mouth, all the cursed energy will escape.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-banette-HomeSprite.png|right]]
-![[SRD-banette-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

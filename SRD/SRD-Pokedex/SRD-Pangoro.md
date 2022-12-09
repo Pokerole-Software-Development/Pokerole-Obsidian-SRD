@@ -23,6 +23,7 @@ Name: Pangoro
 Number: 675
 PrimaryEggGroup: Field
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-pangoro-ShuffleToken.png
 Sprite: pangoro.png
 Type1: Fighting
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pangoro-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pangoro-BookSprite.png|wsmall]]
+> ![[SRD-pangoro-HomeSprite.png]]
+> ![[SRD-pangoro-BoxSprite.png|htiny]]
+> ![[SRD-pangoro-ShuffleToken.png|wsmall]]
+
 
 *Daunting Pokemon*
 *Although this pokemon has a violent temperament, it won’t put up with bullying. It charges ahead and slams its opponents like a berserker, totally disregarding its own safety. Its mighty arms can send you flying.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-pangoro-HomeSprite.png|right]]
-![[SRD-pangoro-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

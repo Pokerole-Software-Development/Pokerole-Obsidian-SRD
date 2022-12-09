@@ -23,6 +23,7 @@ Name: Starly
 Number: 396
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-starly-ShuffleToken.png
 Sprite: starly.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-starly-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-starly-BookSprite.png|wsmall]]
+> ![[SRD-starly-HomeSprite.png]]
+> ![[SRD-starly-BoxSprite.png|htiny]]
+> ![[SRD-starly-ShuffleToken.png|wsmall]]
+
 
 *Starling Pokemon*
 *They flock in dozens because they are very weak on their own. They live around mountains and fields, chasing Bug Pokemon. Everyone hates their annoying and strident singing.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-starly-HomeSprite.png|right]]
-![[SRD-starly-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

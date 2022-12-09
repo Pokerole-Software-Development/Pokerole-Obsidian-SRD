@@ -23,6 +23,7 @@ Name: Pichu
 Number: 172
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pichu-ShuffleToken.png
 Sprite: pichu.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pichu-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pichu-BookSprite.png|wsmall]]
+> ![[SRD-pichu-HomeSprite.png]]
+> ![[SRD-pichu-BoxSprite.png|htiny]]
+> ![[SRD-pichu-ShuffleToken.png|wsmall]]
+
 
 *Tiny Mouse Pokemon*
 *Its cheek pouches are not fully developed yet. Pichu gets startled if its cheeks release electricity jolts. It needs a friendly environment to grow happy. It can be quite the rascal, though.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-pichu-HomeSprite.png|right]]
-![[SRD-pichu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Togekiss
 Number: 468
 PrimaryEggGroup: Flying
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-togekiss-ShuffleToken.png
 Sprite: togekiss.png
 Type1: Fairy
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-togekiss-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-togekiss-BookSprite.png|wsmall]]
+> ![[SRD-togekiss-HomeSprite.png]]
+> ![[SRD-togekiss-BoxSprite.png|htiny]]
+> ![[SRD-togekiss-ShuffleToken.png|wsmall]]
+
 
 *Jubilee Pokemon*
 *Sightings of these Pokemon have become rare nowadays. They used to visit peaceful regions, bringing them gifts of kindness and great blessings. But they appear to have vanished in this times of conflict.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-togekiss-HomeSprite.png|right]]
-![[SRD-togekiss-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

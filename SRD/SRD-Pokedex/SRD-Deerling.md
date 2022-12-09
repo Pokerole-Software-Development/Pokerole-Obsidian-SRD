@@ -23,6 +23,7 @@ Name: Deerling
 Number: 585
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-deerling-ShuffleToken.png
 Sprite: deerling.png
 Type1: Normal
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-deerling-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-deerling-BookSprite.png|wsmall]]
+> ![[SRD-deerling-HomeSprite.png]]
+> ![[SRD-deerling-BoxSprite.png|htiny]]
+> ![[SRD-deerling-ShuffleToken.png|wsmall]]
+
 
 *Season Pokemon*
 *They are born at the beginning of the spring. Their coloring changes according to the season and can be affected by temperature as well. It usually stays hidden in tall grass while its mother is away.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-deerling-HomeSprite.png|right]]
-![[SRD-deerling-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

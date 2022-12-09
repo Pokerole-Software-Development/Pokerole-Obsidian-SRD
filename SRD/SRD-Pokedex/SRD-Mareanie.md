@@ -23,6 +23,7 @@ Name: Mareanie
 Number: 747
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mareanie-ShuffleToken.png
 Sprite: mareanie.png
 Type1: Poison
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mareanie-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mareanie-BookSprite.png|wsmall]]
+> ![[SRD-mareanie-HomeSprite.png]]
+> ![[SRD-mareanie-BoxSprite.png|htiny]]
+> ![[SRD-mareanie-ShuffleToken.png|wsmall]]
+
 
 *Brutal Star Pokemon*
 *It can be found resting on the sea floor, waiting for an unsuspecting prey to sting. They are pretty toxic and attack with their ten barbed tentacles. Corsolas are one of its favorite meals.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-mareanie-HomeSprite.png|right]]
-![[SRD-mareanie-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Crobat
 Number: 169
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-crobat-ShuffleToken.png
 Sprite: crobat.png
 Type1: Poison
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-crobat-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-crobat-BookSprite.png|wsmall]]
+> ![[SRD-crobat-HomeSprite.png]]
+> ![[SRD-crobat-BoxSprite.png|htiny]]
+> ![[SRD-crobat-ShuffleToken.png|wsmall]]
+
 
 *Bat Pokemon*
 *Very rare in the wild. People have called it a vampire. It sneaks up on its intended prey using wings that barely make a sound. Crobat is a surprisingly loyal Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-crobat-HomeSprite.png|right]]
-![[SRD-crobat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

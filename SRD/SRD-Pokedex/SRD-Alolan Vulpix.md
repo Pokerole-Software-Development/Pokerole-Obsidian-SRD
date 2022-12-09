@@ -23,6 +23,7 @@ Name: Alolan Vulpix
 Number: 37
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-vulpix-alola-ShuffleToken.png
 Sprite: vulpix-alola.png
 Type1: Ice
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-vulpix-alola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-vulpix-alola-BookSprite.png|wsmall]]
+> ![[SRD-vulpix-alola-HomeSprite.png]]
+> ![[SRD-vulpix-alola-BoxSprite.png|htiny]]
+> ![[SRD-vulpix-alola-ShuffleToken.png|wsmall]]
+
 
 *Fox Pokemon*
 *The Vulpix who became stranded in Alola had to change type in order to survive. Alola’s local name for this Pokemon is Keokeo. They use their tails as a fan to cool themselves in hot climates.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-vulpix-alola-HomeSprite.png|right]]
-![[SRD-vulpix-alola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Celesteela
 Number: 797
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-celesteela-ShuffleToken.png
 Sprite: celesteela.png
 Type1: Steel
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-celesteela-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-celesteela-BookSprite.png|wsmall]]
+> ![[SRD-celesteela-HomeSprite.png]]
+> ![[SRD-celesteela-BoxSprite.png|htiny]]
+> ![[SRD-celesteela-ShuffleToken.png|wsmall]]
+
 
 *Aether Foundation Log #019*
 *Finally some progress from the excavation site. What we thought was a 200 year-old relic turned out to be a creature capable of blasting itself into the air, we managed to restrain it, more research is due.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-celesteela-HomeSprite.png|right]]
-![[SRD-celesteela-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

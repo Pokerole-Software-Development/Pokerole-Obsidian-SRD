@@ -23,6 +23,7 @@ Name: Galvantula
 Number: 596
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-galvantula-ShuffleToken.png
 Sprite: galvantula.png
 Type1: Bug
 Type2: Electric
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-galvantula-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-galvantula-BookSprite.png|wsmall]]
+> ![[SRD-galvantula-HomeSprite.png]]
+> ![[SRD-galvantula-BoxSprite.png|htiny]]
+> ![[SRD-galvantula-ShuffleToken.png|wsmall]]
+
 
 *EleSpider Pokemon*
 *They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it. They usually live alone but there have been cases of large swarms living together in caves.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-galvantula-HomeSprite.png|right]]
-![[SRD-galvantula-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

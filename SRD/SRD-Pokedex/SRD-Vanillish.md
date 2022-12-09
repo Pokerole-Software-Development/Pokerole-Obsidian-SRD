@@ -23,6 +23,7 @@ Name: Vanillish
 Number: 583
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-vanillish-ShuffleToken.png
 Sprite: vanillish.png
 Type1: Ice
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-vanillish-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-vanillish-BookSprite.png|wsmall]]
+> ![[SRD-vanillish-HomeSprite.png]]
+> ![[SRD-vanillish-BoxSprite.png|htiny]]
+> ![[SRD-vanillish-ShuffleToken.png|wsmall]]
+
 
 *Icy Snow Pokemon*
 *Snowy mountains are this Pokemon’s habitat. It conceals itself from enemy eyes by creating many small ice bundles and hiding around them. It may attach itself to the ceiling of ice caves to hide around the ice.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-vanillish-HomeSprite.png|right]]
-![[SRD-vanillish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

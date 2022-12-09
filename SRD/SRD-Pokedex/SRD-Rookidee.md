@@ -23,6 +23,7 @@ Name: Rookidee
 Number: 821
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rookidee-ShuffleToken.png
 Sprite: rookidee.png
 Type1: Flying
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rookidee-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rookidee-BookSprite.png|wsmall]]
+> ![[SRD-rookidee-HomeSprite.png]]
+> ![[SRD-rookidee-BoxSprite.png|htiny]]
+> ![[SRD-rookidee-ShuffleToken.png|wsmall]]
+
 
 *Tiny Bird Pokemon*
 *Feisty little creatures, Rookidee are know for challenging foes much larger than themselves, and even if they are defeated they don’t give up and try again later. They use their small size as an advantage.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-rookidee-HomeSprite.png|right]]
-![[SRD-rookidee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

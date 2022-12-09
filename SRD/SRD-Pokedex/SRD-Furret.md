@@ -23,6 +23,7 @@ Name: Furret
 Number: 162
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-furret-ShuffleToken.png
 Sprite: furret.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-furret-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-furret-BookSprite.png|wsmall]]
+> ![[SRD-furret-HomeSprite.png]]
+> ![[SRD-furret-BoxSprite.png|htiny]]
+> ![[SRD-furret-ShuffleToken.png|wsmall]]
+
 
 *Long Body Pokemon*
 *It lives along its Sentret family and acts as the hunter and caregiver of the pack. It can move really fast. If it is cornered, it will squirm through even the narrowest of gaps to escape safe and sound.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-furret-HomeSprite.png|right]]
-![[SRD-furret-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

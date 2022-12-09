@@ -23,6 +23,7 @@ Name: Trevenant
 Number: 709
 PrimaryEggGroup: Grass
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-trevenant-ShuffleToken.png
 Sprite: trevenant.png
 Type1: Ghost
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-trevenant-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-trevenant-BookSprite.png|wsmall]]
+> ![[SRD-trevenant-HomeSprite.png]]
+> ![[SRD-trevenant-BoxSprite.png|htiny]]
+> ![[SRD-trevenant-ShuffleToken.png|wsmall]]
+
 
 *Elder Tree Pokemon*
 *Using its roots as a nervous system it controls the trees in the forest. It’s kind to the Pokemon that reside inside its body but it is ruthless to anyone that harms its forest, turning them into haunted trees forever.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-trevenant-HomeSprite.png|right]]
-![[SRD-trevenant-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

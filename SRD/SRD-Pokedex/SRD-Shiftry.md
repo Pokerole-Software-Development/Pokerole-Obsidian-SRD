@@ -23,6 +23,7 @@ Name: Shiftry
 Number: 275
 PrimaryEggGroup: Field
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-shiftry-ShuffleToken.png
 Sprite: shiftry.png
 Type1: Grass
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-shiftry-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-shiftry-BookSprite.png|wsmall]]
+> ![[SRD-shiftry-HomeSprite.png]]
+> ![[SRD-shiftry-BoxSprite.png|htiny]]
+> ![[SRD-shiftry-ShuffleToken.png|wsmall]]
+
 
 *Wicked Pokemon*
 *Feared as protectors of the forest. They are said to live atop towering trees dating back thousands of years, creating terrible wind storms. It is said they can read people’s minds to prey on their fears.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-shiftry-HomeSprite.png|right]]
-![[SRD-shiftry-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

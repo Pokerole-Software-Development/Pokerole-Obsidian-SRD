@@ -23,6 +23,7 @@ Name: Dewgong
 Number: 87
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-dewgong-ShuffleToken.png
 Sprite: dewgong.png
 Type1: Water
 Type2: Ice
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dewgong-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dewgong-BookSprite.png|wsmall]]
+> ![[SRD-dewgong-HomeSprite.png]]
+> ![[SRD-dewgong-BoxSprite.png|htiny]]
+> ![[SRD-dewgong-ShuffleToken.png|wsmall]]
+
 
 *Sea Lion Pokemon*
 *Its body is covered with a pure white fur. The colder the weather, the more active it becomes. It hunts at night and it’s excellent at catching fish Pokemon. It is also very intelligent and playful.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-dewgong-HomeSprite.png|right]]
-![[SRD-dewgong-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

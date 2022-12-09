@@ -23,6 +23,7 @@ Name: Spearow
 Number: 21
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-spearow-ShuffleToken.png
 Sprite: spearow.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-spearow-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-spearow-BookSprite.png|wsmall]]
+> ![[SRD-spearow-HomeSprite.png]]
+> ![[SRD-spearow-BoxSprite.png|htiny]]
+> ![[SRD-spearow-ShuffleToken.png|wsmall]]
+
 
 *Tiny Bird Pokemon*
 *Lives in flocks on grasslands. Very protective of its territory. It flaps its short wings to dart around at high speed. It is a little short-tempered - if disturbed, it will shriek, calling its flock for aid.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-spearow-HomeSprite.png|right]]
-![[SRD-spearow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

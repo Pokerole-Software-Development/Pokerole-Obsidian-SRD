@@ -23,6 +23,7 @@ Name: Magnemite
 Number: 81
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-magnemite-ShuffleToken.png
 Sprite: magnemite.png
 Type1: Electric
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-magnemite-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-magnemite-BookSprite.png|wsmall]]
+> ![[SRD-magnemite-HomeSprite.png]]
+> ![[SRD-magnemite-BoxSprite.png|htiny]]
+> ![[SRD-magnemite-ShuffleToken.png|wsmall]]
+
 
 *Magnet Pokemon*
 *It lurks near electric facilities and mountains as it is attracted by big magnetic fields. It is not aggressive and usually defends itself with a screech or a weak electric impulse to deter other from attacking.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-magnemite-HomeSprite.png|right]]
-![[SRD-magnemite-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

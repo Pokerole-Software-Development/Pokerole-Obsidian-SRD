@@ -23,6 +23,7 @@ Name: Poliwrath
 Number: 62
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-poliwrath-ShuffleToken.png
 Sprite: poliwrath.png
 Type1: Water
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-poliwrath-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-poliwrath-BookSprite.png|wsmall]]
+> ![[SRD-poliwrath-HomeSprite.png]]
+> ![[SRD-poliwrath-BoxSprite.png|htiny]]
+> ![[SRD-poliwrath-ShuffleToken.png|wsmall]]
+
 
 *Tadpole Pokemon*
 *It’s not common to find it in the wild. Most sightings take place when it is on land. Once he is inside the water, it will swim far away. This Pokemon is an outstanding swimmer, capable of beating any human.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-poliwrath-HomeSprite.png|right]]
-![[SRD-poliwrath-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

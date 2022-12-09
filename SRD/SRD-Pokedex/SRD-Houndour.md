@@ -23,6 +23,7 @@ Name: Houndour
 Number: 228
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-houndour-ShuffleToken.png
 Sprite: houndour.png
 Type1: Dark
 Type2: Fire
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-houndour-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-houndour-BookSprite.png|wsmall]]
+> ![[SRD-houndour-HomeSprite.png]]
+> ![[SRD-houndour-BoxSprite.png|htiny]]
+> ![[SRD-houndour-ShuffleToken.png|wsmall]]
+
 
 *Dark Pokemon*
 *They hunt in coordinated packs to corner their prey. They howl at dawn to announce that this is their territory and bark to communicate tactics. Their teamwork is very efficient and they rarely welcome strangers.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-houndour-HomeSprite.png|right]]
-![[SRD-houndour-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Primeape
 Number: 57
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-primeape-ShuffleToken.png
 Sprite: primeape.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-primeape-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-primeape-BookSprite.png|wsmall]]
+> ![[SRD-primeape-HomeSprite.png]]
+> ![[SRD-primeape-BoxSprite.png|htiny]]
+> ![[SRD-primeape-ShuffleToken.png|wsmall]]
+
 
 *Pig Monkey Pokemon*
 *It grows angry if you see its eyes and gets angrier if you run. If you fight it will go mad with rage. Not many trainers are capable of handling it, the angrier it gets the less intelligent it becomes.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-primeape-HomeSprite.png|right]]
-![[SRD-primeape-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

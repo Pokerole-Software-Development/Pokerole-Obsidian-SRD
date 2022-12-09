@@ -23,6 +23,7 @@ Name: Hippopotas
 Number: 449
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-hippopotas-ShuffleToken.png
 Sprite: hippopotas.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-hippopotas-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-hippopotas-BookSprite.png|wsmall]]
+> ![[SRD-hippopotas-HomeSprite.png]]
+> ![[SRD-hippopotas-BoxSprite.png|htiny]]
+> ![[SRD-hippopotas-ShuffleToken.png|wsmall]]
+
 
 *Hippo Pokemon*
 *It lives in arid places where it joins small groups. It closes its nostrils and submerges under the sand to rest. Females have a different coloration, usually a darker and duller color.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-hippopotas-HomeSprite.png|right]]
-![[SRD-hippopotas-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

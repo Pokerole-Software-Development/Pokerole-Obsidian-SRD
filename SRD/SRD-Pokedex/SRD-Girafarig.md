@@ -23,6 +23,7 @@ Name: Girafarig
 Number: 203
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-girafarig-ShuffleToken.png
 Sprite: girafarig.png
 Type1: Normal
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-girafarig-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-girafarig-BookSprite.png|wsmall]]
+> ![[SRD-girafarig-HomeSprite.png]]
+> ![[SRD-girafarig-BoxSprite.png|htiny]]
+> ![[SRD-girafarig-ShuffleToken.png|wsmall]]
+
 
 *Long Neck Pokemon*
 *Its tail is a head on its own, it bites if anything comes close and never rests. Some say that the sum of its two heads grant it psychic powers. Even if that’s true, the tail isn’t very bright, but it is quite vicious.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-girafarig-HomeSprite.png|right]]
-![[SRD-girafarig-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Shroomish
 Number: 285
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-shroomish-ShuffleToken.png
 Sprite: shroomish.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-shroomish-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-shroomish-BookSprite.png|wsmall]]
+> ![[SRD-shroomish-HomeSprite.png]]
+> ![[SRD-shroomish-BoxSprite.png|htiny]]
+> ![[SRD-shroomish-ShuffleToken.png|wsmall]]
+
 
 *Mushroom Pokemon*
 *They live in damp soil in forests, surrounded by moss. They suddenly release toxic spores that make plants dry up. These spores cause serious pain if inhaled. They grow taller with moisture and heat.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-shroomish-HomeSprite.png|right]]
-![[SRD-shroomish-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

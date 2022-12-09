@@ -23,6 +23,7 @@ Name: Lickitung
 Number: 108
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-lickitung-ShuffleToken.png
 Sprite: lickitung.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lickitung-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lickitung-BookSprite.png|wsmall]]
+> ![[SRD-lickitung-HomeSprite.png]]
+> ![[SRD-lickitung-BoxSprite.png|htiny]]
+> ![[SRD-lickitung-ShuffleToken.png|wsmall]]
+
 
 *Licking Pokemon*
 *Its tongue is twice as long as its body and it is used for everything, from capturing prey to feeling it’s surroundings and cleaning itself. It really dislikes sour and bitter flavors.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-lickitung-HomeSprite.png|right]]
-![[SRD-lickitung-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

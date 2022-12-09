@@ -23,6 +23,7 @@ Name: Sealeo
 Number: 364
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-sealeo-ShuffleToken.png
 Sprite: sealeo.png
 Type1: Ice
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sealeo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sealeo-BookSprite.png|wsmall]]
+> ![[SRD-sealeo-HomeSprite.png]]
+> ![[SRD-sealeo-BoxSprite.png|htiny]]
+> ![[SRD-sealeo-ShuffleToken.png|wsmall]]
+
 
 *Ball Roll Pokemon*
 *They play with the Spheal in the herd by spinning them with their noses. When they are not in the wild they’ll spin almost any round object, even Pokeballs. Sealeos are great hunters underwater.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-sealeo-HomeSprite.png|right]]
-![[SRD-sealeo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

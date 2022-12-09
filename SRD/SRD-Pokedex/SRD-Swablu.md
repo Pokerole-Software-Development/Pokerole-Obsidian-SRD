@@ -23,6 +23,7 @@ Name: Swablu
 Number: 333
 PrimaryEggGroup: Flying
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-swablu-ShuffleToken.png
 Sprite: swablu.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-swablu-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-swablu-BookSprite.png|wsmall]]
+> ![[SRD-swablu-HomeSprite.png]]
+> ![[SRD-swablu-BoxSprite.png|htiny]]
+> ![[SRD-swablu-ShuffleToken.png|wsmall]]
+
 
 *Cotton Bird Pokemon*
 *Their wings are made of cotton clouds. They are friendly creatures that love to be near humans, usually sitting on their heads as cotton hats. They travel in flocks and live near towns during the Spring.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-swablu-HomeSprite.png|right]]
-![[SRD-swablu-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

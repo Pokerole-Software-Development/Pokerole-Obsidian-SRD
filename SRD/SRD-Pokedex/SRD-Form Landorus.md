@@ -23,6 +23,7 @@ Name: Form Landorus
 Number: 645
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-landorus-ShuffleToken.png
 Sprite: landorus.png
 Type1: Ground
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-landorus-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-landorus-BookSprite.png|wsmall]]
+> ![[SRD-landorus-HomeSprite.png]]
+> ![[SRD-landorus-BoxSprite.png|htiny]]
+> ![[SRD-landorus-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Some Pokemon reveal their true forms after recovering power lost to them. Great forces of nature can help them recover their strength such as Tornadoes, Lightning, and even a Landslide.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-landorus-HomeSprite.png|right]]
-![[SRD-landorus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

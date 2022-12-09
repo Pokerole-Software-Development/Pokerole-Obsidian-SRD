@@ -23,6 +23,7 @@ Name: Mankey
 Number: 56
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mankey-ShuffleToken.png
 Sprite: mankey.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mankey-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mankey-BookSprite.png|wsmall]]
+> ![[SRD-mankey-HomeSprite.png]]
+> ![[SRD-mankey-BoxSprite.png|htiny]]
+> ![[SRD-mankey-ShuffleToken.png|wsmall]]
+
 
 *Pig Monkey Pokemon*
 *It lives on the mountains or at the top of fruit trees. Light and agile on its feet and ferocious in temperament. When it gets angry, it goes into a frenzy and cannot be controlled.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-mankey-HomeSprite.png|right]]
-![[SRD-mankey-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

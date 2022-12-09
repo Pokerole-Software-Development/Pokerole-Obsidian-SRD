@@ -23,6 +23,7 @@ Name: Rhyperior
 Number: 464
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Field
+ShuffleToken: SRD-rhyperior-ShuffleToken.png
 Sprite: rhyperior.png
 Type1: Ground
 Type2: Rock
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rhyperior-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rhyperior-BookSprite.png|wsmall]]
+> ![[SRD-rhyperior-HomeSprite.png]]
+> ![[SRD-rhyperior-BoxSprite.png|htiny]]
+> ![[SRD-rhyperior-ShuffleToken.png|wsmall]]
+
 
 *Drill Pokemon*
 *They have rarely been seen in the wild and only in the tallest mountains. It has holes on its hands which are used like canons to shoot boulders. Be careful, they are very aggressive but not very smart.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-rhyperior-HomeSprite.png|right]]
-![[SRD-rhyperior-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

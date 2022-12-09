@@ -23,6 +23,7 @@ Name: Nuzleaf
 Number: 274
 PrimaryEggGroup: Field
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-nuzleaf-ShuffleToken.png
 Sprite: nuzleaf.png
 Type1: Grass
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-nuzleaf-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-nuzleaf-BookSprite.png|wsmall]]
+> ![[SRD-nuzleaf-HomeSprite.png]]
+> ![[SRD-nuzleaf-BoxSprite.png|htiny]]
+> ![[SRD-nuzleaf-ShuffleToken.png|wsmall]]
+
 
 *Wily Pokemon*
 *They live inside holes on big trees. Their leaves are played like flutes to strike fear and discomfort in lost people’s hearts. They like to go out and startle people. Their noses are really sensitive and frail.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-nuzleaf-HomeSprite.png|right]]
-![[SRD-nuzleaf-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Raboot
 Number: 814
 PrimaryEggGroup: Field
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-raboot-ShuffleToken.png
 Sprite: raboot.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-raboot-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-raboot-BookSprite.png|wsmall]]
+> ![[SRD-raboot-HomeSprite.png]]
+> ![[SRD-raboot-BoxSprite.png|htiny]]
+> ![[SRD-raboot-ShuffleToken.png|wsmall]]
+
 
 *Rabbit Pokemon*
 *This Pokemon loves to kick and trains each day to get better at it. Its fur is now very thick, some debate it is to protect it from the cold weather others say it is to produce hotter flames.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-raboot-HomeSprite.png|right]]
-![[SRD-raboot-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

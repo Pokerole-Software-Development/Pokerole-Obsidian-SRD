@@ -23,6 +23,7 @@ Name: Type Null
 Number: 772
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-type-null-ShuffleToken.png
 Sprite: type-null.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-type-null-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-type-null-BookSprite.png|wsmall]]
+> ![[SRD-type-null-HomeSprite.png]]
+> ![[SRD-type-null-BoxSprite.png|htiny]]
+> ![[SRD-type-null-ShuffleToken.png|wsmall]]
+
 
 *Synthetic Pokemon*
 *A synthetic Pokemon made by the Aether Foundation. Currently only three specimens exist in cryogenic stasis, but they are deemed too dangerous even with a limiter helmet on. They must never be reanimated.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-type-null-HomeSprite.png|right]]
-![[SRD-type-null-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Sandaconda
 Number: 844
 PrimaryEggGroup: Field
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-sandaconda-ShuffleToken.png
 Sprite: sandaconda.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sandaconda-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sandaconda-BookSprite.png|wsmall]]
+> ![[SRD-sandaconda-HomeSprite.png]]
+> ![[SRD-sandaconda-BoxSprite.png|htiny]]
+> ![[SRD-sandaconda-ShuffleToken.png|wsmall]]
+
 
 *Sand Snake Pokemon*
 *It has a sack that can carry up to 220 lbs of sand, the way it coils allow it to spray the sand to its foes. If it sack ever runs out of sand it becomes limp and depressed. They are unfriendly but not really aggressive.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-sandaconda-HomeSprite.png|right]]
-![[SRD-sandaconda-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

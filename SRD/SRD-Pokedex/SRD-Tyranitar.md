@@ -26,6 +26,7 @@ Name: Tyranitar
 Number: 248
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tyranitar-ShuffleToken.png
 Sprite: tyranitar.png
 Type1: Rock
 Type2: Dark
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tyranitar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tyranitar-BookSprite.png|wsmall]]
+> ![[SRD-tyranitar-HomeSprite.png]]
+> ![[SRD-tyranitar-BoxSprite.png|htiny]]
+> ![[SRD-tyranitar-ShuffleToken.png|wsmall]]
+
 
 *Armor Pokemon*
 *Its body is hardly damaged by any attack, so it’s always eager to fight. They are extremely strong, their rage can change landscapes. Tyranitars are insolents, rebels and they care about no one.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-tyranitar-HomeSprite.png|right]]
-![[SRD-tyranitar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

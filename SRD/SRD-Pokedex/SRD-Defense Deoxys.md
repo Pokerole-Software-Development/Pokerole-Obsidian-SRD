@@ -23,6 +23,7 @@ Name: Defense Deoxys
 Number: 386
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-deoxys-defense-ShuffleToken.png
 Sprite: deoxys-defense.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-deoxys-defense-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-deoxys-defense-BookSprite.png|wsmall]]
+> ![[SRD-deoxys-defense-HomeSprite.png]]
+> ![[SRD-deoxys-defense-BoxSprite.png|htiny]]
+> ![[SRD-deoxys-defense-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *One member of the space crew mentioned a broad creature that could reflect their weapon’s attacks back at them. There was an explosion and the creature left, unscathed.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::9)/(MaxInsight::9)     |
 
-![[SRD-deoxys-defense-HomeSprite.png|right]]
-![[SRD-deoxys-defense-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Hitmontop
 Number: 237
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-hitmontop-ShuffleToken.png
 Sprite: hitmontop.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-hitmontop-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-hitmontop-BookSprite.png|wsmall]]
+> ![[SRD-hitmontop-HomeSprite.png]]
+> ![[SRD-hitmontop-BoxSprite.png|htiny]]
+> ![[SRD-hitmontop-ShuffleToken.png|wsmall]]
+
 
 *Handstand Pokemon*
 *They launch high speed kicks while spinning so fast that they get drilled into the ground. They move quicker by spinning than they do walking. They are very smart and like to perform dance-like kicks.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-hitmontop-HomeSprite.png|right]]
-![[SRD-hitmontop-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

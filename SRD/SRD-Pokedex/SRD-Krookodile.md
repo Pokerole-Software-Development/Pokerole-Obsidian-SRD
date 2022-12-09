@@ -23,6 +23,7 @@ Name: Krookodile
 Number: 553
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-krookodile-ShuffleToken.png
 Sprite: krookodile.png
 Type1: Ground
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-krookodile-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-krookodile-BookSprite.png|wsmall]]
+> ![[SRD-krookodile-HomeSprite.png]]
+> ![[SRD-krookodile-BoxSprite.png|htiny]]
+> ![[SRD-krookodile-ShuffleToken.png|wsmall]]
+
 
 *Intimidation Pokemon*
 *A very violent Pokemon. They try to clamp down on anything that moves in front of their eyes and once grasped they never let the prey escape. It can be very dangerous if it’s not tamed correctly.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-krookodile-HomeSprite.png|right]]
-![[SRD-krookodile-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

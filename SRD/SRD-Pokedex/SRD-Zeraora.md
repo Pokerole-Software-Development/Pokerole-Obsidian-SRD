@@ -23,6 +23,7 @@ Name: Zeraora
 Number: 807
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zeraora-ShuffleToken.png
 Sprite: zeraora.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zeraora-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zeraora-BookSprite.png|wsmall]]
+> ![[SRD-zeraora-HomeSprite.png]]
+> ![[SRD-zeraora-BoxSprite.png|htiny]]
+> ![[SRD-zeraora-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *An unfriendly creature was spotted in Alola, witnesses mentioned it electrified its claws and tore its foes apart with them. It disappeared into the wilderness and has not been reported again.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-zeraora-HomeSprite.png|right]]
-![[SRD-zeraora-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

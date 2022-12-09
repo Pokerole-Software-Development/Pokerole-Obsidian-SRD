@@ -26,6 +26,7 @@ Name: Steelix
 Number: 208
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-steelix-ShuffleToken.png
 Sprite: steelix.png
 Type1: Steel
 Type2: Ground
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-steelix-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-steelix-BookSprite.png|wsmall]]
+> ![[SRD-steelix-HomeSprite.png]]
+> ![[SRD-steelix-BoxSprite.png|htiny]]
+> ![[SRD-steelix-ShuffleToken.png|wsmall]]
+
 
 *Iron Snake Pokemon*
 *Some say that when an Onix lives underground for 100 years it’s body becomes hard as steel. Steelix lives deep underground, tempered by high pressure and heat. It can see in the darkness.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-steelix-HomeSprite.png|right]]
-![[SRD-steelix-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

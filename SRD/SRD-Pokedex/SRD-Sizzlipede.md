@@ -23,6 +23,7 @@ Name: Sizzlipede
 Number: 850
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sizzlipede-ShuffleToken.png
 Sprite: sizzlipede.png
 Type1: Fire
 Type2: Bug
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sizzlipede-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sizzlipede-BookSprite.png|wsmall]]
+> ![[SRD-sizzlipede-HomeSprite.png]]
+> ![[SRD-sizzlipede-BoxSprite.png|htiny]]
+> ![[SRD-sizzlipede-ShuffleToken.png|wsmall]]
+
 
 *Radiator Pokemon*
 *It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get very hot. It wraps prey with its body heated to cook them, the it nibbles them down until nothing remains.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-sizzlipede-HomeSprite.png|right]]
-![[SRD-sizzlipede-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Incineroar
 Number: 727
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-incineroar-ShuffleToken.png
 Sprite: incineroar.png
 Type1: Fire
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-incineroar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-incineroar-BookSprite.png|wsmall]]
+> ![[SRD-incineroar-HomeSprite.png]]
+> ![[SRD-incineroar-BoxSprite.png|htiny]]
+> ![[SRD-incineroar-ShuffleToken.png|wsmall]]
+
 
 *Heel Pokemon*
 *It has a bad reputation, some of them have attacked the opposing Trainer during battles. They are also prone to disobey their own Trainer, going for a more brutal fighting style to shred their foes to pieces.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-incineroar-HomeSprite.png|right]]
-![[SRD-incineroar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Patrat
 Number: 504
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-patrat-ShuffleToken.png
 Sprite: patrat.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-patrat-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-patrat-BookSprite.png|wsmall]]
+> ![[SRD-patrat-HomeSprite.png]]
+> ![[SRD-patrat-BoxSprite.png|htiny]]
+> ![[SRD-patrat-ShuffleToken.png|wsmall]]
+
 
 *Scout Pokemon*
 *They live in grass fields in big groups. One of them is always looking out for predators. The group gathers food they store on their cheeks to bring it back home. They are wary and alert all the time.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-patrat-HomeSprite.png|right]]
-![[SRD-patrat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

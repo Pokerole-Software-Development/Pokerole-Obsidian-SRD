@@ -23,6 +23,7 @@ Name: Crabominable
 Number: 740
 PrimaryEggGroup: Water 3
 SecondaryEggGroup: ''
+ShuffleToken: SRD-crabominable-ShuffleToken.png
 Sprite: crabominable.png
 Type1: Fighting
 Type2: Ice
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-crabominable-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-crabominable-BookSprite.png|wsmall]]
+> ![[SRD-crabominable-HomeSprite.png]]
+> ![[SRD-crabominable-BoxSprite.png|htiny]]
+> ![[SRD-crabominable-ShuffleToken.png|wsmall]]
+
 
 *Woolly Crab Pokemon*
 *Crawbrawlers who get lost in the snowy mountains of Alola are forced to evolve into a more suited form. Crabominables are not very smart and throw punches to friends and foes alike when they panic.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-crabominable-HomeSprite.png|right]]
-![[SRD-crabominable-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

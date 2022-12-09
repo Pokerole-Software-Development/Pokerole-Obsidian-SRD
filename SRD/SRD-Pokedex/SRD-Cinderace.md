@@ -23,6 +23,7 @@ Name: Cinderace
 Number: 815
 PrimaryEggGroup: Field
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-cinderace-ShuffleToken.png
 Sprite: cinderace.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cinderace-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cinderace-BookSprite.png|wsmall]]
+> ![[SRD-cinderace-HomeSprite.png]]
+> ![[SRD-cinderace-BoxSprite.png|htiny]]
+> ![[SRD-cinderace-ShuffleToken.png|wsmall]]
+
 
 *Striker Pokemon*
 *They are confident and boastful of their abilities. They take a pebble and light it on fire to create a scorching weapon they kick towards their foes. They can grow arrogant if they feel cheered on.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-cinderace-HomeSprite.png|right]]
-![[SRD-cinderace-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

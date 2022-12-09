@@ -23,6 +23,7 @@ Name: Scraggy
 Number: 559
 PrimaryEggGroup: Field
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-scraggy-ShuffleToken.png
 Sprite: scraggy.png
 Type1: Dark
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-scraggy-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-scraggy-BookSprite.png|wsmall]]
+> ![[SRD-scraggy-HomeSprite.png]]
+> ![[SRD-scraggy-BoxSprite.png|htiny]]
+> ![[SRD-scraggy-ShuffleToken.png|wsmall]]
+
 
 *Shedding Pokemon*
 *It sheds skin constantly, but keeps wearing it since the old skin has a rubber-like texture and it can pull it all the way up to its head. It bashes foes with headbutts and is known for making dirty moves on fights.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-scraggy-HomeSprite.png|right]]
-![[SRD-scraggy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

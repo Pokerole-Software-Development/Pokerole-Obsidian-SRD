@@ -23,6 +23,7 @@ Name: Arctozolt
 Number: 881
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-arctozolt-ShuffleToken.png
 Sprite: arctozolt.png
 Type1: Electric
 Type2: Ice
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-arctozolt-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-arctozolt-BookSprite.png|wsmall]]
+> ![[SRD-arctozolt-HomeSprite.png]]
+> ![[SRD-arctozolt-BoxSprite.png|htiny]]
+> ![[SRD-arctozolt-ShuffleToken.png|wsmall]]
+
 
 *Fossil Pokemon*
 *This DNA hybrid has a hard time walking around. The bottom part is from a Pokemon from an arctic region and the upper lived in warm jungles. Poor thing is always shivering and sneezing without control.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-arctozolt-HomeSprite.png|right]]
-![[SRD-arctozolt-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

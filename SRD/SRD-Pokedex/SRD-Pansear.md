@@ -23,6 +23,7 @@ Name: Pansear
 Number: 513
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pansear-ShuffleToken.png
 Sprite: pansear.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pansear-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pansear-BookSprite.png|wsmall]]
+> ![[SRD-pansear-HomeSprite.png]]
+> ![[SRD-pansear-BoxSprite.png|htiny]]
+> ![[SRD-pansear-ShuffleToken.png|wsmall]]
+
 
 *High Temp Pokemon*
 *It lives close to volcanic mountains. It’s very intelligent, it roasts berries before eating them and helps lost people. When angered the tuft of hair on it’s head and tail can burst into flames.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-pansear-HomeSprite.png|right]]
-![[SRD-pansear-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

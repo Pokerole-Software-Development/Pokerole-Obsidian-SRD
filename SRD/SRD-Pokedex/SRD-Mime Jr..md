@@ -23,6 +23,7 @@ Name: Mime Jr.
 Number: 439
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mime-jr-ShuffleToken.png
 Sprite: mime-jr.png
 Type1: Psychic
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mime-jr-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mime-jr-BookSprite.png|wsmall]]
+> ![[SRD-mime-jr-HomeSprite.png]]
+> ![[SRD-mime-jr-BoxSprite.png|htiny]]
+> ![[SRD-mime-jr-ShuffleToken.png|wsmall]]
+
 
 *Mime Pokemon*
 *It likes places where people gather and imitates their expressions to try to understand their feelings. It mimics foes, confuses them, then it escapes. It doesn’t take long to become a master mime.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-mime-jr-HomeSprite.png|right]]
-![[SRD-mime-jr-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

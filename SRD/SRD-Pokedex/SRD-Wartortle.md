@@ -23,6 +23,7 @@ Name: Wartortle
 Number: 8
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-wartortle-ShuffleToken.png
 Sprite: wartortle.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-wartortle-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-wartortle-BookSprite.png|wsmall]]
+> ![[SRD-wartortle-HomeSprite.png]]
+> ![[SRD-wartortle-BoxSprite.png|htiny]]
+> ![[SRD-wartortle-ShuffleToken.png|wsmall]]
+
 
 *Turtle Pokemon*
 *Its large tail is covered with rich, thick fur that deepens in color with age. The scratches on its shell are evidence of this Pokemon’s tough attitude in battle. It is a good hunter underwater.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-wartortle-HomeSprite.png|right]]
-![[SRD-wartortle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

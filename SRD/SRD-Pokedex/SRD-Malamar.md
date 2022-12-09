@@ -23,6 +23,7 @@ Name: Malamar
 Number: 687
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 2
+ShuffleToken: SRD-malamar-ShuffleToken.png
 Sprite: malamar.png
 Type1: Dark
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-malamar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-malamar-BookSprite.png|wsmall]]
+> ![[SRD-malamar-HomeSprite.png]]
+> ![[SRD-malamar-BoxSprite.png|htiny]]
+> ![[SRD-malamar-ShuffleToken.png|wsmall]]
+
 
 *Overturning Pokemon*
 *It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off to eat it. This Pokemon are difficult to handle as they use their psychic abilities to do evil.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-malamar-HomeSprite.png|right]]
-![[SRD-malamar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

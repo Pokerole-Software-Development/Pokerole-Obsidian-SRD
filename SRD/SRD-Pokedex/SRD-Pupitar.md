@@ -23,6 +23,7 @@ Name: Pupitar
 Number: 247
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pupitar-ShuffleToken.png
 Sprite: pupitar.png
 Type1: Rock
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pupitar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pupitar-BookSprite.png|wsmall]]
+> ![[SRD-pupitar-HomeSprite.png]]
+> ![[SRD-pupitar-BoxSprite.png|htiny]]
+> ![[SRD-pupitar-ShuffleToken.png|wsmall]]
+
 
 *Hard Shell Pokemon*
 *Even in their shell, they are fast, aggressive and extremely destructive. They never stay still. This pupa propels itself using a jet of pressurized gas. It is bad tempered and very aggressive.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-pupitar-HomeSprite.png|right]]
-![[SRD-pupitar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

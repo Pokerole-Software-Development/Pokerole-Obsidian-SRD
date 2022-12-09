@@ -23,6 +23,7 @@ Name: Inteleon
 Number: 818
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-inteleon-ShuffleToken.png
 Sprite: inteleon.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-inteleon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-inteleon-BookSprite.png|wsmall]]
+> ![[SRD-inteleon-HomeSprite.png]]
+> ![[SRD-inteleon-BoxSprite.png|htiny]]
+> ![[SRD-inteleon-ShuffleToken.png|wsmall]]
+
 
 *Secret Agent Pokemon*
 *Its fingertips can create quick jets of water that travel at incredibly high speeds, these jets can even pierce thick metal plates. It usually hunts from a high place, shoots, and then glides down to eat its prey.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-inteleon-HomeSprite.png|right]]
-![[SRD-inteleon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Tapu Lele
 Number: 786
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tapu-lele-ShuffleToken.png
 Sprite: tapu-lele.png
 Type1: Psychic
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tapu-lele-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tapu-lele-BookSprite.png|wsmall]]
+> ![[SRD-tapu-lele-HomeSprite.png]]
+> ![[SRD-tapu-lele-BoxSprite.png|htiny]]
+> ![[SRD-tapu-lele-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *It is said that an innocent but cruel spirit guards Akala island. When the spirit is feeling benevolent it scatters some of its scales around, these scales have healing powers.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-tapu-lele-HomeSprite.png|right]]
-![[SRD-tapu-lele-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

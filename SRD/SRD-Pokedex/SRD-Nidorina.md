@@ -23,6 +23,7 @@ Name: Nidorina
 Number: 30
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-nidorina-ShuffleToken.png
 Sprite: nidorina.png
 Type1: Poison
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-nidorina-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-nidorina-BookSprite.png|wsmall]]
+> ![[SRD-nidorina-HomeSprite.png]]
+> ![[SRD-nidorina-BoxSprite.png|htiny]]
+> ![[SRD-nidorina-ShuffleToken.png|wsmall]]
+
 
 *Poison Pin Pokemon*
 *Nidorinas are jealous creatures. They don’t like other females near their mates. Otherwise, they are very social creatures. When it’s around friends or family, its barbs are tucked away to prevent injury.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-nidorina-HomeSprite.png|right]]
-![[SRD-nidorina-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Avalugg
 Number: 713
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Mineral
+ShuffleToken: SRD-avalugg-ShuffleToken.png
 Sprite: avalugg.png
 Type1: Ice
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-avalugg-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-avalugg-BookSprite.png|wsmall]]
+> ![[SRD-avalugg-HomeSprite.png]]
+> ![[SRD-avalugg-BoxSprite.png|htiny]]
+> ![[SRD-avalugg-ShuffleToken.png|wsmall]]
+
 
 *Iceberg Pokemon*
 *They carry their Bergmite offspring on their backs. Its Ice body is hard as steel and its cumbersome frame crushes anything that stands in its way. They are capable of swimming but they move very slowly.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-avalugg-HomeSprite.png|right]]
-![[SRD-avalugg-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

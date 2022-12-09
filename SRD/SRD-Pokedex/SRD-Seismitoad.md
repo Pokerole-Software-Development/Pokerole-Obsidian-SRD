@@ -23,6 +23,7 @@ Name: Seismitoad
 Number: 537
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-seismitoad-ShuffleToken.png
 Sprite: seismitoad.png
 Type1: Water
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-seismitoad-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-seismitoad-BookSprite.png|wsmall]]
+> ![[SRD-seismitoad-HomeSprite.png]]
+> ![[SRD-seismitoad-BoxSprite.png|htiny]]
+> ![[SRD-seismitoad-ShuffleToken.png|wsmall]]
+
 
 *Vibration Pokemon*
 *It is only found in a few marshes, and rarely seen on clean water. They shoot a paralyzing liquid from their head bumps and use the vibrations on their bumps to harm their foes.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-seismitoad-HomeSprite.png|right]]
-![[SRD-seismitoad-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

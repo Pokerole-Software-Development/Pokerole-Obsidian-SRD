@@ -23,6 +23,7 @@ Name: Minun
 Number: 312
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-minun-ShuffleToken.png
 Sprite: minun.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-minun-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-minun-BookSprite.png|wsmall]]
+> ![[SRD-minun-HomeSprite.png]]
+> ![[SRD-minun-BoxSprite.png|htiny]]
+> ![[SRD-minun-ShuffleToken.png|wsmall]]
+
 
 *Cheering Pokemon*
 *They will cheer their friends with their lives and will keep on cheering to their last breath. If a partner is in trouble, this Pokemon will create a curtain of sparks on its friend’s side to boost its spirit.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-minun-HomeSprite.png|right]]
-![[SRD-minun-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

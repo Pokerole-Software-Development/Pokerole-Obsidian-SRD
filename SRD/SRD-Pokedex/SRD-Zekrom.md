@@ -23,6 +23,7 @@ Name: Zekrom
 Number: 644
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zekrom-ShuffleToken.png
 Sprite: zekrom.png
 Type1: Dragon
 Type2: Electric
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zekrom-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zekrom-BookSprite.png|wsmall]]
+> ![[SRD-zekrom-HomeSprite.png]]
+> ![[SRD-zekrom-BoxSprite.png|htiny]]
+> ![[SRD-zekrom-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *An old rock tablet full of ancient symbols tells the story of two brothers. One of them wanted a world of ideals built with the energy of the young. The rest of the stone is broken as if struck by lightning.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-zekrom-HomeSprite.png|right]]
-![[SRD-zekrom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

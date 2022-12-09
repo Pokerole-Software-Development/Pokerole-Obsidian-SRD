@@ -23,6 +23,7 @@ Name: Meowth
 Number: 52
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-meowth-ShuffleToken.png
 Sprite: meowth.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-meowth-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-meowth-BookSprite.png|wsmall]]
+> ![[SRD-meowth-HomeSprite.png]]
+> ![[SRD-meowth-BoxSprite.png|htiny]]
+> ![[SRD-meowth-ShuffleToken.png|wsmall]]
+
 
 *Scratch Cat Pokemon*
 *They used to live in grasslands but have adapted really well to life in the city. Shiny things fascinate them and they keep a little treasure hidden. The coin on its head is its most prized possession.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-meowth-HomeSprite.png|right]]
-![[SRD-meowth-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

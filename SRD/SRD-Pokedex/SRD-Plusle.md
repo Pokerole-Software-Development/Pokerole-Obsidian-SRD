@@ -23,6 +23,7 @@ Name: Plusle
 Number: 311
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-plusle-ShuffleToken.png
 Sprite: plusle.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-plusle-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-plusle-BookSprite.png|wsmall]]
+> ![[SRD-plusle-HomeSprite.png]]
+> ![[SRD-plusle-BoxSprite.png|htiny]]
+> ![[SRD-plusle-ShuffleToken.png|wsmall]]
+
 
 *Cheering Pokemon*
 *They are often seen cheerleading their friends. When someone they like does a great job, they shower the field with sparks, but when they lose, Plusle cries loudly. This Pokemon drains power from telephone poles.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-plusle-HomeSprite.png|right]]
-![[SRD-plusle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

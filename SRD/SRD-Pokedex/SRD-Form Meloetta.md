@@ -22,6 +22,7 @@ Name: Form Meloetta
 Number: 648
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-meloetta-ShuffleToken.png
 Sprite: meloetta.png
 Type1: Normal
 Type2: Fighting
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-meloetta-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-meloetta-BookSprite.png|wsmall]]
+> ![[SRD-meloetta-HomeSprite.png]]
+> ![[SRD-meloetta-BoxSprite.png|htiny]]
+> ![[SRD-meloetta-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *There are old songs about a beautiful Pokemon that inspired the hearts of artists through its graceful dance and singing.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-meloetta-HomeSprite.png|right]]
-![[SRD-meloetta-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

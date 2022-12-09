@@ -23,6 +23,7 @@ Name: Lillipup
 Number: 506
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-lillipup-ShuffleToken.png
 Sprite: lillipup.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-lillipup-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-lillipup-BookSprite.png|wsmall]]
+> ![[SRD-lillipup-HomeSprite.png]]
+> ![[SRD-lillipup-BoxSprite.png|htiny]]
+> ![[SRD-lillipup-ShuffleToken.png|wsmall]]
+
 
 *Puppy Pokemon*
 *Good with children and old people, this gentle Pokemon is a favorite to keep as pet. It is very brave and smart and will protect it’s trainer against any threat. It uses the hair on its head to feel its surroundings.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-lillipup-HomeSprite.png|right]]
-![[SRD-lillipup-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

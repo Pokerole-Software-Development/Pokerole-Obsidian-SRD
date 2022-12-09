@@ -21,6 +21,7 @@ Name: Galarian Articuno (provisional)
 Number: 144
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-articuno-galar-ShuffleToken.png
 Sprite: articuno-galar.png
 Type1: Psychic
 Type2: Flying
@@ -34,7 +35,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-articuno-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-articuno-galar-BookSprite.png|wsmall]]
+> ![[SRD-articuno-galar-HomeSprite.png]]
+> ![[SRD-articuno-galar-BoxSprite.png|htiny]]
+> ![[SRD-articuno-galar-ShuffleToken.png|wsmall]]
+
 
 **
 **
@@ -53,8 +59,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-articuno-galar-HomeSprite.png|right]]
-![[SRD-articuno-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

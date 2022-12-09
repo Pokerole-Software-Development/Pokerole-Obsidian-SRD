@@ -23,6 +23,7 @@ Name: Diggersby
 Number: 660
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-diggersby-ShuffleToken.png
 Sprite: diggersby.png
 Type1: Normal
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-diggersby-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-diggersby-BookSprite.png|wsmall]]
+> ![[SRD-diggersby-HomeSprite.png]]
+> ![[SRD-diggersby-BoxSprite.png|htiny]]
+> ![[SRD-diggersby-ShuffleToken.png|wsmall]]
+
 
 *Digging Pokemon*
 *A powerful excavator, its ears can reduce dense bedrock to rubble. After it has finished digging, it just lounges lazily. Some of them have been trained to work at construction sites with good results.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-diggersby-HomeSprite.png|right]]
-![[SRD-diggersby-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

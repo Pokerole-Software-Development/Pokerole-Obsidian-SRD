@@ -23,6 +23,7 @@ Name: Bonsly
 Number: 438
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-bonsly-ShuffleToken.png
 Sprite: bonsly.png
 Type1: Rock
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bonsly-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bonsly-BookSprite.png|wsmall]]
+> ![[SRD-bonsly-HomeSprite.png]]
+> ![[SRD-bonsly-BoxSprite.png|htiny]]
+> ![[SRD-bonsly-ShuffleToken.png|wsmall]]
+
 
 *Bonsai Pokemon*
 *They thrive in arid places. It looks like it’s crying all the time but it’s actually adjusting the moisture of its body and releasing excess water. Over time they become excellent at impersonating trees.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-bonsly-HomeSprite.png|right]]
-![[SRD-bonsly-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

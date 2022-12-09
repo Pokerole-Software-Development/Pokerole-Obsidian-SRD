@@ -23,6 +23,7 @@ Name: Mega-Metagross
 Number: 376
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-metagross-mega-ShuffleToken.png
 Sprite: metagross-mega.png
 Type1: Steel
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-metagross-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-metagross-mega-BookSprite.png|wsmall]]
+> ![[SRD-metagross-mega-HomeSprite.png]]
+> ![[SRD-metagross-mega-BoxSprite.png|htiny]]
+> ![[SRD-metagross-mega-ShuffleToken.png|wsmall]]
+
 
 *Iron Leg Pokemon*
 *The power of the Mega Stone made its four minds combine. It is now a merciless machine-like beast. If it calculates its chances to win are diminishing it will clutch itself into its foe and self-destruct.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-metagross-mega-HomeSprite.png|right]]
-![[SRD-metagross-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

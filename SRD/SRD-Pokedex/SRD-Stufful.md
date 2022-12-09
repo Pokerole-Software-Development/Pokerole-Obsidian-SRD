@@ -23,6 +23,7 @@ Name: Stufful
 Number: 759
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-stufful-ShuffleToken.png
 Sprite: stufful.png
 Type1: Normal
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-stufful-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-stufful-BookSprite.png|wsmall]]
+> ![[SRD-stufful-HomeSprite.png]]
+> ![[SRD-stufful-BoxSprite.png|htiny]]
+> ![[SRD-stufful-ShuffleToken.png|wsmall]]
+
 
 *Flailing Pokemon*
 *Despite its adorable appearance it is a dangerous Pokemon. If anyone but its mother or Trainer touches it, it will respond by angrily flailing its arms around. They are popular pets but owners always regret.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-stufful-HomeSprite.png|right]]
-![[SRD-stufful-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

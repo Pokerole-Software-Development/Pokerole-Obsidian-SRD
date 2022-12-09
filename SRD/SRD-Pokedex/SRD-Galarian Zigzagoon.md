@@ -23,6 +23,7 @@ Name: Galarian Zigzagoon
 Number: 263
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-zigzagoon-galar-ShuffleToken.png
 Sprite: zigzagoon-galar.png
 Type1: Dark
 Type2: Normal
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-zigzagoon-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-zigzagoon-galar-BookSprite.png|wsmall]]
+> ![[SRD-zigzagoon-galar-HomeSprite.png]]
+> ![[SRD-zigzagoon-galar-BoxSprite.png|htiny]]
+> ![[SRD-zigzagoon-galar-ShuffleToken.png|wsmall]]
+
 
 *Tiny Racoon Pokemon*
 *Zigzagoons raised in Galar grow to be punks. If they see another Pokemon, they will purposely run into them to start a fight. The only way to calm them down is with a lot of loud noise.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-zigzagoon-galar-HomeSprite.png|right]]
-![[SRD-zigzagoon-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

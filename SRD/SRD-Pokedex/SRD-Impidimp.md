@@ -23,6 +23,7 @@ Name: Impidimp
 Number: 859
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-impidimp-ShuffleToken.png
 Sprite: impidimp.png
 Type1: Dark
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-impidimp-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-impidimp-BookSprite.png|wsmall]]
+> ![[SRD-impidimp-HomeSprite.png]]
+> ![[SRD-impidimp-BoxSprite.png|htiny]]
+> ![[SRD-impidimp-ShuffleToken.png|wsmall]]
+
 
 *Wily Pokemon*
 *Through its nose, it sucks in the dark emanations produced by people and Pokemon when they feel annoyed. It thrives off this negative energy. They love to take things that don’t belong to them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-impidimp-HomeSprite.png|right]]
-![[SRD-impidimp-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

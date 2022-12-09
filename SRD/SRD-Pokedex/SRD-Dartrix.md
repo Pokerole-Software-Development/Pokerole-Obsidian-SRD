@@ -23,6 +23,7 @@ Name: Dartrix
 Number: 723
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-dartrix-ShuffleToken.png
 Sprite: dartrix.png
 Type1: Grass
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dartrix-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dartrix-BookSprite.png|wsmall]]
+> ![[SRD-dartrix-HomeSprite.png]]
+> ![[SRD-dartrix-BoxSprite.png|htiny]]
+> ![[SRD-dartrix-ShuffleToken.png|wsmall]]
+
 
 *Blade Quill Pokemon*
 *Dartix are vain creatures, they dislike it when their feathers are ruffled, even stopping midfight to groom them. Despite its elegant demeanor it hides an awkward personality, prone to panic and clumsiness.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-dartrix-HomeSprite.png|right]]
-![[SRD-dartrix-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Monferno
 Number: 391
 PrimaryEggGroup: Field
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-monferno-ShuffleToken.png
 Sprite: monferno.png
 Type1: Fire
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-monferno-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-monferno-BookSprite.png|wsmall]]
+> ![[SRD-monferno-HomeSprite.png]]
+> ![[SRD-monferno-BoxSprite.png|htiny]]
+> ![[SRD-monferno-ShuffleToken.png|wsmall]]
+
 
 *Playful Pokemon*
 *It bounces off walls and ceilings to launch aerial attacks. They live in packs in distant mountains. The size of their flame and the blue pattern on their faces determine their rank. They are small but very strong.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-monferno-HomeSprite.png|right]]
-![[SRD-monferno-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

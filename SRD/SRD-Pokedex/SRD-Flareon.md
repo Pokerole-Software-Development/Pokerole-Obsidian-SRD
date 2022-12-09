@@ -23,6 +23,7 @@ Name: Flareon
 Number: 136
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-flareon-ShuffleToken.png
 Sprite: flareon.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-flareon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-flareon-BookSprite.png|wsmall]]
+> ![[SRD-flareon-HomeSprite.png]]
+> ![[SRD-flareon-BoxSprite.png|htiny]]
+> ![[SRD-flareon-ShuffleToken.png|wsmall]]
+
 
 *Flame Pokemon*
 *A few have been seen in volcanic areas but just like its counterparts is more common to see it being the pet of wealthy people. Its flaming fur is most appreciated for its warm glow and silky touch.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-flareon-HomeSprite.png|right]]
-![[SRD-flareon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

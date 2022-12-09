@@ -23,6 +23,7 @@ Name: Ekans
 Number: 23
 PrimaryEggGroup: Field
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-ekans-ShuffleToken.png
 Sprite: ekans.png
 Type1: Poison
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ekans-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ekans-BookSprite.png|wsmall]]
+> ![[SRD-ekans-HomeSprite.png]]
+> ![[SRD-ekans-BoxSprite.png|htiny]]
+> ![[SRD-ekans-ShuffleToken.png|wsmall]]
+
 
 *Snake Pokemon*
 *Lives on grasslands. Preys on Rattatas and Pokemon Eggs it finds. It’s jaw can detach itself to swallow any prey whole. It coils and sleeps after eating. Ekans grow bigger with age.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-ekans-HomeSprite.png|right]]
-![[SRD-ekans-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

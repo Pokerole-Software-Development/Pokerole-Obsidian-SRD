@@ -26,6 +26,7 @@ Name: Sableye
 Number: 302
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sableye-ShuffleToken.png
 Sprite: sableye.png
 Type1: Dark
 Type2: Ghost
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sableye-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sableye-BookSprite.png|wsmall]]
+> ![[SRD-sableye-HomeSprite.png]]
+> ![[SRD-sableye-BoxSprite.png|htiny]]
+> ![[SRD-sableye-ShuffleToken.png|wsmall]]
+
 
 *Darkness Pokemon*
 *Feared for stealing the souls of men with their sinister eyes glowing in the dark. They lurk deep inside caves, eating rocks, gemstones and crystals. Luckily, Sableyes are rarely seen. They love jewels and treasure.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-sableye-HomeSprite.png|right]]
-![[SRD-sableye-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

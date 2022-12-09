@@ -23,6 +23,7 @@ Name: Drifblim
 Number: 426
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-drifblim-ShuffleToken.png
 Sprite: drifblim.png
 Type1: Ghost
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-drifblim-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-drifblim-BookSprite.png|wsmall]]
+> ![[SRD-drifblim-HomeSprite.png]]
+> ![[SRD-drifblim-BoxSprite.png|htiny]]
+> ![[SRD-drifblim-ShuffleToken.png|wsmall]]
+
 
 *Blimp Pokemon*
 *They float in groups in the evenings, sometimes carrying people or Pokemon. If you notice them, they suddenly vanish. No one knows where they go at night, and those who follow them never return.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-drifblim-HomeSprite.png|right]]
-![[SRD-drifblim-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

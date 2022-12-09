@@ -23,6 +23,7 @@ Name: Pancham
 Number: 674
 PrimaryEggGroup: Field
 SecondaryEggGroup: Human-Like
+ShuffleToken: SRD-pancham-ShuffleToken.png
 Sprite: pancham.png
 Type1: Fighting
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pancham-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pancham-BookSprite.png|wsmall]]
+> ![[SRD-pancham-HomeSprite.png]]
+> ![[SRD-pancham-BoxSprite.png|htiny]]
+> ![[SRD-pancham-ShuffleToken.png|wsmall]]
+
 
 *Playful Pokemon*
 *It lives in bamboo forests. It is very energetic and playful, but wants to be taken seriously. It has a hard time due to its cute appearance, for this reason it may start hanging out with the wrong crowd.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-pancham-HomeSprite.png|right]]
-![[SRD-pancham-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

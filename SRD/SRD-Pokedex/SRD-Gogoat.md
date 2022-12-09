@@ -23,6 +23,7 @@ Name: Gogoat
 Number: 673
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gogoat-ShuffleToken.png
 Sprite: gogoat.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gogoat-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gogoat-BookSprite.png|wsmall]]
+> ![[SRD-gogoat-HomeSprite.png]]
+> ![[SRD-gogoat-BoxSprite.png|htiny]]
+> ![[SRD-gogoat-ShuffleToken.png|wsmall]]
+
 
 *Mount Pokemon*
 *In the wild, they inhabit mountain regions with the leader of the herd decided by a battle of clashing horns. People rely on Gogoat to get them through harsh terrains as it always knows where you want to go.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-gogoat-HomeSprite.png|right]]
-![[SRD-gogoat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Indeedee
 Number: 876
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-indeedee-ShuffleToken.png
 Sprite: indeedee.png
 Type1: Psychic
 Type2: Normal
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-indeedee-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-indeedee-BookSprite.png|wsmall]]
+> ![[SRD-indeedee-HomeSprite.png]]
+> ![[SRD-indeedee-BoxSprite.png|htiny]]
+> ![[SRD-indeedee-ShuffleToken.png|wsmall]]
+
 
 *Emotion Pokemon*
 *These intelligent Pokemon touch horns with each other to share information between them. They love to help and be of service to people because they gather power from feelings of gratitude.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-indeedee-HomeSprite.png|right]]
-![[SRD-indeedee-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

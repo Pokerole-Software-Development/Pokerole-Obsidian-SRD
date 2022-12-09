@@ -23,6 +23,7 @@ Name: Meltan
 Number: 808
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-meltan-ShuffleToken.png
 Sprite: meltan.png
 Type1: Steel
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-meltan-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-meltan-BookSprite.png|wsmall]]
+> ![[SRD-meltan-HomeSprite.png]]
+> ![[SRD-meltan-BoxSprite.png|htiny]]
+> ![[SRD-meltan-ShuffleToken.png|wsmall]]
+
 
 *Hex Nut Pokemon*
 *They are elusive as they can liquefy their body to move through small spaces. They live in groups, but when the time comes, one strong Meltan will absorb all the others and evolve.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-meltan-HomeSprite.png|right]]
-![[SRD-meltan-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

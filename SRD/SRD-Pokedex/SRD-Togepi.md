@@ -24,6 +24,7 @@ Name: Togepi
 Number: 175
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-togepi-ShuffleToken.png
 Sprite: togepi.png
 Type1: Fairy
 Type2: ''
@@ -37,7 +38,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-togepi-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-togepi-BookSprite.png|wsmall]]
+> ![[SRD-togepi-HomeSprite.png]]
+> ![[SRD-togepi-BoxSprite.png|htiny]]
+> ![[SRD-togepi-ShuffleToken.png|wsmall]]
+
 
 *Spike Ball Pokemon*
 *This Pokemon stores all the kindness and good feelings inside of it’s shell and shares them with others, when the shell is full it becomes so happy that it finally evolves. It is said that it’ll bring good fortune to its trainer.*
@@ -56,8 +62,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-togepi-HomeSprite.png|right]]
-![[SRD-togepi-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

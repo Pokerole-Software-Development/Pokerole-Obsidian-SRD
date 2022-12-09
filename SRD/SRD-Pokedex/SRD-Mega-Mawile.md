@@ -23,6 +23,7 @@ Name: Mega-Mawile
 Number: 303
 PrimaryEggGroup: Field
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-mawile-mega-ShuffleToken.png
 Sprite: mawile-mega.png
 Type1: Steel
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mawile-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mawile-mega-BookSprite.png|wsmall]]
+> ![[SRD-mawile-mega-HomeSprite.png]]
+> ![[SRD-mawile-mega-BoxSprite.png|htiny]]
+> ![[SRD-mawile-mega-ShuffleToken.png|wsmall]]
+
 
 *Deceiver Pokemon*
 *The power of the Mega Stone makes its back jaws develop a mind of their own, they are vicious and won’t release anything they bite until it’s crushed into pieces. They growl and howl in a haunting way.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-mawile-mega-HomeSprite.png|right]]
-![[SRD-mawile-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

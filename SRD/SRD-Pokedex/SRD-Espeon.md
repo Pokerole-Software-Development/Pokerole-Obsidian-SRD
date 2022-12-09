@@ -23,6 +23,7 @@ Name: Espeon
 Number: 196
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-espeon-ShuffleToken.png
 Sprite: espeon.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-espeon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-espeon-BookSprite.png|wsmall]]
+> ![[SRD-espeon-HomeSprite.png]]
+> ![[SRD-espeon-BoxSprite.png|htiny]]
+> ![[SRD-espeon-ShuffleToken.png|wsmall]]
+
 
 *Sun Pokemon*
 *Espeon is extremely loyal to the trainer it considers worthy. It is said to have developed precognitive powers to protect its trainer from harm. The orb on its forehead glows whenever it uses psychic energy.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-espeon-HomeSprite.png|right]]
-![[SRD-espeon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

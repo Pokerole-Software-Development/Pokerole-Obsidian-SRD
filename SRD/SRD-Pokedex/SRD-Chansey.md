@@ -23,6 +23,7 @@ Name: Chansey
 Number: 113
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-chansey-ShuffleToken.png
 Sprite: chansey.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-chansey-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-chansey-BookSprite.png|wsmall]]
+> ![[SRD-chansey-HomeSprite.png]]
+> ![[SRD-chansey-BoxSprite.png|htiny]]
+> ![[SRD-chansey-ShuffleToken.png|wsmall]]
+
 
 *Egg Pokemon*
 *There are only females in this species. Chansey lays a nutritive egg every day. These eggs are fed to the sick to give them strength. It is a loving and smart Pokemon, but it’s pretty rare and elusive in the wild.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-chansey-HomeSprite.png|right]]
-![[SRD-chansey-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

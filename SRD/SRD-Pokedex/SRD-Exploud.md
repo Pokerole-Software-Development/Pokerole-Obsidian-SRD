@@ -23,6 +23,7 @@ Name: Exploud
 Number: 295
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Field
+ShuffleToken: SRD-exploud-ShuffleToken.png
 Sprite: exploud.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-exploud-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-exploud-BookSprite.png|wsmall]]
+> ![[SRD-exploud-HomeSprite.png]]
+> ![[SRD-exploud-BoxSprite.png|htiny]]
+> ![[SRD-exploud-ShuffleToken.png|wsmall]]
+
 
 *Loud Noise Pokemon*
 *It is said that some tremors are caused by the roars of this Pokemon. They communicate with soft noises, raising their voice only in battle. They can emit many different kinds of sounds.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-exploud-HomeSprite.png|right]]
-![[SRD-exploud-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

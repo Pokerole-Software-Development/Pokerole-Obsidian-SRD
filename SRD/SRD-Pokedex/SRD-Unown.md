@@ -23,6 +23,7 @@ Name: Unown
 Number: 201
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-unown-ShuffleToken.png
 Sprite: unown.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-unown-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-unown-BookSprite.png|wsmall]]
+> ![[SRD-unown-HomeSprite.png]]
+> ![[SRD-unown-BoxSprite.png|htiny]]
+> ![[SRD-unown-ShuffleToken.png|wsmall]]
+
 
 *Symbol Pokemon*
 *There are depictions of it in ancient ruins. When Unowns are gathered together, it is said that a strange power capable of anything emerges. They are all shaped like letters, each one of them with a unique power.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-unown-HomeSprite.png|right]]
-![[SRD-unown-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

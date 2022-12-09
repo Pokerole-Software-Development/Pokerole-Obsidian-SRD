@@ -23,6 +23,7 @@ Name: Cranidos
 Number: 408
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-cranidos-ShuffleToken.png
 Sprite: cranidos.png
 Type1: Rock
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cranidos-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cranidos-BookSprite.png|wsmall]]
+> ![[SRD-cranidos-HomeSprite.png]]
+> ![[SRD-cranidos-BoxSprite.png|htiny]]
+> ![[SRD-cranidos-ShuffleToken.png|wsmall]]
+
 
 *Head Butt Pokemon*
 *It was resurrected from an iron ball-like fossil. It downs prey with headbutts and tramples trees and walls with ease. They were plentiful 100 million years ago. You can’t find one nowadays except as a fossil.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-cranidos-HomeSprite.png|right]]
-![[SRD-cranidos-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Larvesta
 Number: 636
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-larvesta-ShuffleToken.png
 Sprite: larvesta.png
 Type1: Bug
 Type2: Fire
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-larvesta-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-larvesta-BookSprite.png|wsmall]]
+> ![[SRD-larvesta-HomeSprite.png]]
+> ![[SRD-larvesta-BoxSprite.png|htiny]]
+> ![[SRD-larvesta-ShuffleToken.png|wsmall]]
+
 
 *Torch Pokemon*
 *Very Rare. The base of volcanoes is where they make their homes. They shoot fire from their horns to repel attacks from enemies. It becomes a flaming cocoon for months before it finally evolves.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-larvesta-HomeSprite.png|right]]
-![[SRD-larvesta-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

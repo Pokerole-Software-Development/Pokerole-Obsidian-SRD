@@ -23,6 +23,7 @@ Name: Mr. Rime
 Number: 866
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mr-rime-ShuffleToken.png
 Sprite: mr-rime.png
 Type1: Ice
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mr-rime-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mr-rime-BookSprite.png|wsmall]]
+> ![[SRD-mr-rime-HomeSprite.png]]
+> ![[SRD-mr-rime-BoxSprite.png|htiny]]
+> ![[SRD-mr-rime-ShuffleToken.png|wsmall]]
+
 
 *Comedian Pokemon*
 *It’s highly skilled at tap-dancing. It waves its cane of ice in time, its amusing movements make it very popular and they love to entertain children. It releases all of its psychic power from the pattern on its belly.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-mr-rime-HomeSprite.png|right]]
-![[SRD-mr-rime-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

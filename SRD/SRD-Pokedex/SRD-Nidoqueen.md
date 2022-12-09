@@ -23,6 +23,7 @@ Name: Nidoqueen
 Number: 31
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-nidoqueen-ShuffleToken.png
 Sprite: nidoqueen.png
 Type1: Poison
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-nidoqueen-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-nidoqueen-BookSprite.png|wsmall]]
+> ![[SRD-nidoqueen-HomeSprite.png]]
+> ![[SRD-nidoqueen-BoxSprite.png|htiny]]
+> ![[SRD-nidoqueen-ShuffleToken.png|wsmall]]
+
 
 *Drill Pokemon*
 *Motherly by nature, it uses its scaly rugged body to seal the entrance of its nest and protect its young from predators. There are records of angry Nidoqueens sending people flying with a single tackle.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-nidoqueen-HomeSprite.png|right]]
-![[SRD-nidoqueen-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Egg
 Number: 0
 PrimaryEggGroup: ''
 SecondaryEggGroup: ''
+ShuffleToken: SRD-egg-ShuffleToken.png
 Sprite: egg.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-egg-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-egg-BookSprite.png|wsmall]]
+> ![[SRD-egg-HomeSprite.png]]
+> ![[SRD-egg-BoxSprite.png|htiny]]
+> ![[SRD-egg-ShuffleToken.png|wsmall]]
+
 
 **
 **
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::1)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::1)     |
 
-![[SRD-egg-HomeSprite.png|right]]
-![[SRD-egg-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

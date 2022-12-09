@@ -23,6 +23,7 @@ Name: Slowking
 Number: 199
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-slowking-ShuffleToken.png
 Sprite: slowking.png
 Type1: Water
 Type2: Psychic
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-slowking-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-slowking-BookSprite.png|wsmall]]
+> ![[SRD-slowking-HomeSprite.png]]
+> ![[SRD-slowking-BoxSprite.png|htiny]]
+> ![[SRD-slowking-ShuffleToken.png|wsmall]]
+
 
 *Royal Pokemon*
 *It is extremely rare. The Shellder on its head injects a poison that made it super intelligent. It takes a lot of interest in learning about Pokemon lore and legends. But if Shellder is knocked out it will forget everything.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-slowking-HomeSprite.png|right]]
-![[SRD-slowking-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

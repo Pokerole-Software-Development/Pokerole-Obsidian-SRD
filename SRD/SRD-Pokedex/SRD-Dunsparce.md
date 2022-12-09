@@ -23,6 +23,7 @@ Name: Dunsparce
 Number: 206
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-dunsparce-ShuffleToken.png
 Sprite: dunsparce.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dunsparce-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dunsparce-BookSprite.png|wsmall]]
+> ![[SRD-dunsparce-HomeSprite.png]]
+> ![[SRD-dunsparce-BoxSprite.png|htiny]]
+> ![[SRD-dunsparce-ShuffleToken.png|wsmall]]
+
 
 *Land Snake Pokemon*
 *If seen, Dunsparce is quick to escape by boring into the ground with its drill tail. It can float slightly with its wings. It is almost blind but finds its way in the huge underground mazes where it lives.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-dunsparce-HomeSprite.png|right]]
-![[SRD-dunsparce-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

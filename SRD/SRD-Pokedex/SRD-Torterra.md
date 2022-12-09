@@ -23,6 +23,7 @@ Name: Torterra
 Number: 389
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-torterra-ShuffleToken.png
 Sprite: torterra.png
 Type1: Grass
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-torterra-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-torterra-BookSprite.png|wsmall]]
+> ![[SRD-torterra-HomeSprite.png]]
+> ![[SRD-torterra-BoxSprite.png|htiny]]
+> ![[SRD-torterra-ShuffleToken.png|wsmall]]
+
 
 *Continent Pokemon*
 *Torterras travel in groups, mistaken as moving forests. Many pokemon make their nest on its back and live there for their entire lives. Ancient people thought that they lived on the back of a giant Torterra.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-torterra-HomeSprite.png|right]]
-![[SRD-torterra-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Greninja
 Number: 658
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-greninja-ShuffleToken.png
 Sprite: greninja.png
 Type1: Water
 Type2: Dark
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-greninja-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-greninja-BookSprite.png|wsmall]]
+> ![[SRD-greninja-HomeSprite.png]]
+> ![[SRD-greninja-BoxSprite.png|htiny]]
+> ![[SRD-greninja-ShuffleToken.png|wsmall]]
+
 
 *Ninja Pokemon*
 *It appears and vanishes with a ninja’s grace. It toys with its enemies using swift movements, then slices them with throwing sharp water stars. If it was not properly disciplined, it will never listen any master.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-greninja-HomeSprite.png|right]]
-![[SRD-greninja-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

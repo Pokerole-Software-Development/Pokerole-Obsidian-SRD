@@ -23,6 +23,7 @@ Name: Donphan
 Number: 232
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-donphan-ShuffleToken.png
 Sprite: donphan.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-donphan-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-donphan-BookSprite.png|wsmall]]
+> ![[SRD-donphan-HomeSprite.png]]
+> ![[SRD-donphan-BoxSprite.png|htiny]]
+> ![[SRD-donphan-ShuffleToken.png|wsmall]]
+
 
 *Armor Pokemon*
 *Strong enough to knock down a house. They like to attack by rolling as a ball at high speed, however once they start rolling, they have a hard time stopping. Some may keep their loving Phanpy nature.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-donphan-HomeSprite.png|right]]
-![[SRD-donphan-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

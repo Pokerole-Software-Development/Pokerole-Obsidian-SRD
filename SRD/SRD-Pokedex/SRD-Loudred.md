@@ -23,6 +23,7 @@ Name: Loudred
 Number: 294
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Field
+ShuffleToken: SRD-loudred-ShuffleToken.png
 Sprite: loudred.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-loudred-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-loudred-BookSprite.png|wsmall]]
+> ![[SRD-loudred-HomeSprite.png]]
+> ![[SRD-loudred-BoxSprite.png|htiny]]
+> ![[SRD-loudred-ShuffleToken.png|wsmall]]
+
 
 *Big Voice Pokemon*
 *Their ears work as loudspeakers capable of breaking glass or even blowing apart a wooden house. When it finishes shouting, even they are deafened for a while. They have noisy competitions in their packs.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-loudred-HomeSprite.png|right]]
-![[SRD-loudred-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

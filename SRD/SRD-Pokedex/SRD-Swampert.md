@@ -26,6 +26,7 @@ Name: Swampert
 Number: 260
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-swampert-ShuffleToken.png
 Sprite: swampert.png
 Type1: Water
 Type2: Ground
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-swampert-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-swampert-BookSprite.png|wsmall]]
+> ![[SRD-swampert-HomeSprite.png]]
+> ![[SRD-swampert-BoxSprite.png|htiny]]
+> ![[SRD-swampert-ShuffleToken.png|wsmall]]
+
 
 *Mud Fish Pokemon*
 *They have an incredible sight that allows them to see in muddy water. They nest in beaches, and shield their young with their strong arms. When a storm is coming, Swamperts build a fort with big rocks.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-swampert-HomeSprite.png|right]]
-![[SRD-swampert-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

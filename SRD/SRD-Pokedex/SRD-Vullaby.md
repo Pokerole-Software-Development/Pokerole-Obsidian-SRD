@@ -23,6 +23,7 @@ Name: Vullaby
 Number: 629
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-vullaby-ShuffleToken.png
 Sprite: vullaby.png
 Type1: Dark
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-vullaby-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-vullaby-BookSprite.png|wsmall]]
+> ![[SRD-vullaby-HomeSprite.png]]
+> ![[SRD-vullaby-BoxSprite.png|htiny]]
+> ![[SRD-vullaby-ShuffleToken.png|wsmall]]
+
 
 *Diapered Pokemon*
 *This is a female-only species. They stay with their Mandibuzz mothers from birth until they can finally fly. They feed on the carrion meat the mothers bring back to the nest and keep the bones to make accessories.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-vullaby-HomeSprite.png|right]]
-![[SRD-vullaby-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Skorupi
 Number: 451
 PrimaryEggGroup: Bug
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-skorupi-ShuffleToken.png
 Sprite: skorupi.png
 Type1: Poison
 Type2: Bug
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-skorupi-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-skorupi-BookSprite.png|wsmall]]
+> ![[SRD-skorupi-HomeSprite.png]]
+> ![[SRD-skorupi-BoxSprite.png|htiny]]
+> ![[SRD-skorupi-ShuffleToken.png|wsmall]]
+
 
 *Scorpion Pokemon*
 *It lives in deserts and arid regions. It buries itself under the sand, waiting for an unsuspecting prey to come nearby. It will then sting the prey and cling to it tenaciously until the poison takes effect.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-skorupi-HomeSprite.png|right]]
-![[SRD-skorupi-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

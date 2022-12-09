@@ -23,6 +23,7 @@ Name: Drifloon
 Number: 425
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-drifloon-ShuffleToken.png
 Sprite: drifloon.png
 Type1: Ghost
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-drifloon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-drifloon-BookSprite.png|wsmall]]
+> ![[SRD-drifloon-HomeSprite.png]]
+> ![[SRD-drifloon-BoxSprite.png|htiny]]
+> ![[SRD-drifloon-ShuffleToken.png|wsmall]]
+
 
 *Balloon Pokemon*
 *A Pokemon formed by the spirits of lost people and Pokemon. Children who mistake it for a real balloon often end up missing. Because it floats aimlessly, an old folktale calls it the “Signpost for Wandering Spirits.”*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-drifloon-HomeSprite.png|right]]
-![[SRD-drifloon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

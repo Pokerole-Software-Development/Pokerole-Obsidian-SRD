@@ -23,6 +23,7 @@ Name: Budew
 Number: 406
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-budew-ShuffleToken.png
 Sprite: budew.png
 Type1: Grass
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-budew-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-budew-BookSprite.png|wsmall]]
+> ![[SRD-budew-HomeSprite.png]]
+> ![[SRD-budew-BoxSprite.png|htiny]]
+> ![[SRD-budew-ShuffleToken.png|wsmall]]
+
 
 *Bud Pokemon*
 *It blossoms near clear ponds. Budew needs nurturing and care to grow healthy and beautiful, otherwise its bud will never bloom. If threatened, they will reveal their small but poisonous thorns.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-budew-HomeSprite.png|right]]
-![[SRD-budew-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

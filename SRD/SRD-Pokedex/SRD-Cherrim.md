@@ -23,6 +23,7 @@ Name: Cherrim
 Number: 421
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-cherrim-ShuffleToken.png
 Sprite: cherrim.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cherrim-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cherrim-BookSprite.png|wsmall]]
+> ![[SRD-cherrim-HomeSprite.png]]
+> ![[SRD-cherrim-BoxSprite.png|htiny]]
+> ![[SRD-cherrim-ShuffleToken.png|wsmall]]
+
 
 *Blossom Pokemon*
 *Cherrims bloom during times of strong sunlight, their petals open fully and radiant. If the sun is not visible, it will remain as a closed bud, barely moving trying to preserve its energy.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-cherrim-HomeSprite.png|right]]
-![[SRD-cherrim-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

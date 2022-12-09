@@ -23,6 +23,7 @@ Name: Galarian Darumaka
 Number: 554
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-darumaka-galar-ShuffleToken.png
 Sprite: darumaka-galar.png
 Type1: Ice
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-darumaka-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-darumaka-galar-BookSprite.png|wsmall]]
+> ![[SRD-darumaka-galar-HomeSprite.png]]
+> ![[SRD-darumaka-galar-BoxSprite.png|htiny]]
+> ![[SRD-darumaka-galar-ShuffleToken.png|wsmall]]
+
 
 *Zen Charm Pokemon*
 *When forced to live on snow, its fire sac froze and now it generates cold. Darumaka uses low temperatures as energy, making it very energetic on winter. It is playful and likes to throw Snowballs.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-darumaka-galar-HomeSprite.png|right]]
-![[SRD-darumaka-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

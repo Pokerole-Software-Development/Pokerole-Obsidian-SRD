@@ -23,6 +23,7 @@ Name: Musharna
 Number: 518
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-musharna-ShuffleToken.png
 Sprite: musharna.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-musharna-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-musharna-BookSprite.png|wsmall]]
+> ![[SRD-musharna-HomeSprite.png]]
+> ![[SRD-musharna-BoxSprite.png|htiny]]
+> ![[SRD-musharna-ShuffleToken.png|wsmall]]
+
 
 *Drowsing Pokemon*
 *It communicates with the mist on its forehead, it can create shapes and images from dreams it has eaten. It is said that this Pokemon is a link between this world and a another one made entirely of dreams.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-musharna-HomeSprite.png|right]]
-![[SRD-musharna-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

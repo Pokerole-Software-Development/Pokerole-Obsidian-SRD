@@ -23,6 +23,7 @@ Name: Gloom
 Number: 44
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gloom-ShuffleToken.png
 Sprite: gloom.png
 Type1: Grass
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gloom-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gloom-BookSprite.png|wsmall]]
+> ![[SRD-gloom-HomeSprite.png]]
+> ![[SRD-gloom-BoxSprite.png|htiny]]
+> ![[SRD-gloom-ShuffleToken.png|wsmall]]
+
 
 *Weed Pokemon*
 *A horribly noxious honey drools from its mouth. One whiff of the honey can result in sickness. Some fans are said to enjoy its overwhelming stink, though. You can control this foul smell with lots of love and care.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-gloom-HomeSprite.png|right]]
-![[SRD-gloom-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

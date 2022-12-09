@@ -23,6 +23,7 @@ Name: Bounsweet
 Number: 761
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-bounsweet-ShuffleToken.png
 Sprite: bounsweet.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bounsweet-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bounsweet-BookSprite.png|wsmall]]
+> ![[SRD-bounsweet-HomeSprite.png]]
+> ![[SRD-bounsweet-BoxSprite.png|htiny]]
+> ![[SRD-bounsweet-ShuffleToken.png|wsmall]]
+
 
 *Fruit Pokemon*
 *This happy-go-lucky Pokemon produces a delicious aroma that unfortunately attracts predators to it, when it escapes, it looks as if it’s happily skipping around so it rarely gets help.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-bounsweet-HomeSprite.png|right]]
-![[SRD-bounsweet-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

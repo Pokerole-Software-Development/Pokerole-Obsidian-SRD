@@ -26,6 +26,7 @@ Name: Aerodactyl
 Number: 142
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-aerodactyl-ShuffleToken.png
 Sprite: aerodactyl.png
 Type1: Rock
 Type2: Flying
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-aerodactyl-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-aerodactyl-BookSprite.png|wsmall]]
+> ![[SRD-aerodactyl-HomeSprite.png]]
+> ![[SRD-aerodactyl-BoxSprite.png|htiny]]
+> ![[SRD-aerodactyl-ShuffleToken.png|wsmall]]
+
 
 *Fossil Pokemon*
 *A vicious Pokemon from the distant past. It appears to have flown by spreading its wings and gliding. One has been revived from a fossil. It’s very dangerous; it attacks with the intent to tear apart its victims.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-aerodactyl-HomeSprite.png|right]]
-![[SRD-aerodactyl-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

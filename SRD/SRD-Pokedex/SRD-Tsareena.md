@@ -23,6 +23,7 @@ Name: Tsareena
 Number: 763
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tsareena-ShuffleToken.png
 Sprite: tsareena.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tsareena-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tsareena-BookSprite.png|wsmall]]
+> ![[SRD-tsareena-HomeSprite.png]]
+> ![[SRD-tsareena-BoxSprite.png|htiny]]
+> ![[SRD-tsareena-ShuffleToken.png|wsmall]]
+
 
 *Fruit Pokemon*
 *Tsareena's elegant appearance is only matched by its boastful fight spirit. It is known for disobeying any Trainer giving it orders it dislikes, and will celebrate its victories by kicking its defeated foes while laughing.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-tsareena-HomeSprite.png|right]]
-![[SRD-tsareena-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

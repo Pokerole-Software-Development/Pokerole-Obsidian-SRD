@@ -23,6 +23,7 @@ Name: Swellow
 Number: 277
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-swellow-ShuffleToken.png
 Sprite: swellow.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-swellow-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-swellow-BookSprite.png|wsmall]]
+> ![[SRD-swellow-HomeSprite.png]]
+> ![[SRD-swellow-BoxSprite.png|htiny]]
+> ![[SRD-swellow-ShuffleToken.png|wsmall]]
+
 
 *Swallow Pokemon*
 *They are vain Pokemon, acting with grace and elegance. Swellows are seen circling the skies looking for prey. They can be incredibly fast. If two Swellows meet, they will clean each other’s wings as a sign of peace.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-swellow-HomeSprite.png|right]]
-![[SRD-swellow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

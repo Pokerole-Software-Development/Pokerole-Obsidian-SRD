@@ -26,6 +26,7 @@ Name: Aggron
 Number: 306
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-aggron-ShuffleToken.png
 Sprite: aggron.png
 Type1: Steel
 Type2: Rock
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-aggron-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-aggron-BookSprite.png|wsmall]]
+> ![[SRD-aggron-HomeSprite.png]]
+> ![[SRD-aggron-BoxSprite.png|htiny]]
+> ![[SRD-aggron-ShuffleToken.png|wsmall]]
+
 
 *Iron Armor Pokemon*
 *Aggron claims ownership of entire mountains, mercilessly beating up anything that crosses their path. Aggrons are violent and patrol their territory at all times, but also plant trees, stop fires and protect nature.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-aggron-HomeSprite.png|right]]
-![[SRD-aggron-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

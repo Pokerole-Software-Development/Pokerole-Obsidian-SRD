@@ -23,6 +23,7 @@ Name: Hattrem
 Number: 857
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-hattrem-ShuffleToken.png
 Sprite: hattrem.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-hattrem-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-hattrem-BookSprite.png|wsmall]]
+> ![[SRD-hattrem-HomeSprite.png]]
+> ![[SRD-hattrem-BoxSprite.png|htiny]]
+> ![[SRD-hattrem-ShuffleToken.png|wsmall]]
+
 
 *Serene Pokemon*
 *It may seem friendly but it is actually quite the loner. No matter who you are, if you bring strong emotions near it, it will silence you violently by hitting you with its braids. It dislikes crowded places.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-hattrem-HomeSprite.png|right]]
-![[SRD-hattrem-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

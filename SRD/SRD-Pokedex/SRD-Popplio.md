@@ -23,6 +23,7 @@ Name: Popplio
 Number: 728
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-popplio-ShuffleToken.png
 Sprite: popplio.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-popplio-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-popplio-BookSprite.png|wsmall]]
+> ![[SRD-popplio-HomeSprite.png]]
+> ![[SRD-popplio-BoxSprite.png|htiny]]
+> ![[SRD-popplio-ShuffleToken.png|wsmall]]
+
 
 *Sea Lion Pokemon*
 *A fun-loving Pokemon. It snorts water bubbles from its nose and balances them around, it is tenacious and diligent to train. They are agile swimmers and prefer acrobatic stunts to move on the ground.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-popplio-HomeSprite.png|right]]
-![[SRD-popplio-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

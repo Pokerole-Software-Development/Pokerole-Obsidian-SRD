@@ -23,6 +23,7 @@ Name: Dratini
 Number: 147
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-dratini-ShuffleToken.png
 Sprite: dratini.png
 Type1: Dragon
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dratini-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dratini-BookSprite.png|wsmall]]
+> ![[SRD-dratini-HomeSprite.png]]
+> ![[SRD-dratini-BoxSprite.png|htiny]]
+> ![[SRD-dratini-ShuffleToken.png|wsmall]]
+
 
 *Dragon Pokemon*
 *Up until recently its existence was debated as being a mere legend, then a small colony was found underwater. It is still extremely rare to find. It sheds skin and grows larger every day.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-dratini-HomeSprite.png|right]]
-![[SRD-dratini-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

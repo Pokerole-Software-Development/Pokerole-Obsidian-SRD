@@ -23,6 +23,7 @@ Name: Smeargle
 Number: 235
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-smeargle-ShuffleToken.png
 Sprite: smeargle.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-smeargle-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-smeargle-BookSprite.png|wsmall]]
+> ![[SRD-smeargle-HomeSprite.png]]
+> ![[SRD-smeargle-BoxSprite.png|htiny]]
+> ![[SRD-smeargle-ShuffleToken.png|wsmall]]
+
 
 *Painter Pokemon*
 *A special ink oozes from its tail to mark its territory. They are skilled artists, known for painting action scenes from great battles. If they study their painting for a long time, they learn those moves.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-smeargle-HomeSprite.png|right]]
-![[SRD-smeargle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

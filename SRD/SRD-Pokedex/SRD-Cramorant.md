@@ -23,6 +23,7 @@ Name: Cramorant
 Number: 845
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Flying
+ShuffleToken: SRD-cramorant-ShuffleToken.png
 Sprite: cramorant.png
 Type1: Flying
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cramorant-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cramorant-BookSprite.png|wsmall]]
+> ![[SRD-cramorant-HomeSprite.png]]
+> ![[SRD-cramorant-BoxSprite.png|htiny]]
+> ![[SRD-cramorant-ShuffleToken.png|wsmall]]
+
 
 *Gulp Pokemon*
 *Cramorant hunt for fish Pokemon to eat near seashores and lakes. They often try to engulf prey that is too large and it ends up blocking their gullets. They are airheaded and often forget what they were doing.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-cramorant-HomeSprite.png|right]]
-![[SRD-cramorant-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

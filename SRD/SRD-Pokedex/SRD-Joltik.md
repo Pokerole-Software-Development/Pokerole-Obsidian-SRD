@@ -23,6 +23,7 @@ Name: Joltik
 Number: 595
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-joltik-ShuffleToken.png
 Sprite: joltik.png
 Type1: Bug
 Type2: Electric
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-joltik-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-joltik-BookSprite.png|wsmall]]
+> ![[SRD-joltik-HomeSprite.png]]
+> ![[SRD-joltik-BoxSprite.png|htiny]]
+> ![[SRD-joltik-ShuffleToken.png|wsmall]]
+
 
 *Attaching Pokemon*
 *Since it can’t generate its own charge, it sticks into larger Pokemon and absorbs the static electricity of their fur. In the cities they suck electricity from the outlets they find, skyrocketting the power bill.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-joltik-HomeSprite.png|right]]
-![[SRD-joltik-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

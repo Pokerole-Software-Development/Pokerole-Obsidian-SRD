@@ -23,6 +23,7 @@ Name: Kommo-o
 Number: 784
 PrimaryEggGroup: Dragon
 SecondaryEggGroup: ''
+ShuffleToken: SRD-kommo-o-ShuffleToken.png
 Sprite: kommo-o.png
 Type1: Dragon
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kommo-o-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kommo-o-BookSprite.png|wsmall]]
+> ![[SRD-kommo-o-HomeSprite.png]]
+> ![[SRD-kommo-o-BoxSprite.png|htiny]]
+> ![[SRD-kommo-o-ShuffleToken.png|wsmall]]
+
 
 *Scaly Pokemon*
 *It completed its harsh training and returns to the mountain where it was born to look after the young Jangmo-o, watching them from afar. It is constantly looking for strong opponents.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-kommo-o-HomeSprite.png|right]]
-![[SRD-kommo-o-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

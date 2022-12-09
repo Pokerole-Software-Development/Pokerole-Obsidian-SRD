@@ -23,6 +23,7 @@ Name: Trapinch
 Number: 328
 PrimaryEggGroup: Bug
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-trapinch-ShuffleToken.png
 Sprite: trapinch.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-trapinch-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-trapinch-BookSprite.png|wsmall]]
+> ![[SRD-trapinch-HomeSprite.png]]
+> ![[SRD-trapinch-BoxSprite.png|htiny]]
+> ![[SRD-trapinch-ShuffleToken.png|wsmall]]
+
 
 *Ant Pit Pokemon*
 *Their nest is like a bowl pit dug in sand. Trapinches wait for prey to tumble down their pit, later to be crushed between this Pokemon’s jaws. Beware of them as their bite can cause serious damage.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-trapinch-HomeSprite.png|right]]
-![[SRD-trapinch-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

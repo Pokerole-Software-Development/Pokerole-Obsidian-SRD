@@ -23,6 +23,7 @@ Name: Salazzle
 Number: 758
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-salazzle-ShuffleToken.png
 Sprite: salazzle.png
 Type1: Poison
 Type2: Fire
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-salazzle-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-salazzle-BookSprite.png|wsmall]]
+> ![[SRD-salazzle-HomeSprite.png]]
+> ![[SRD-salazzle-BoxSprite.png|htiny]]
+> ![[SRD-salazzle-ShuffleToken.png|wsmall]]
+
 
 *Toxic Lizard Pokemon*
 *This Pokemon is Female only. It releases a powerful toxic gas that is filled with pheromones that help her keep her reverse harem of Salandit in check. This gas can be purified into expensive perfumes.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-salazzle-HomeSprite.png|right]]
-![[SRD-salazzle-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

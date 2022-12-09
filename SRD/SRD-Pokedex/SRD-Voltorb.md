@@ -23,6 +23,7 @@ Name: Voltorb
 Number: 100
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-voltorb-ShuffleToken.png
 Sprite: voltorb.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-voltorb-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-voltorb-BookSprite.png|wsmall]]
+> ![[SRD-voltorb-HomeSprite.png]]
+> ![[SRD-voltorb-BoxSprite.png|htiny]]
+> ![[SRD-voltorb-ShuffleToken.png|wsmall]]
+
 
 *Ball Pokemon*
 *They live near factories and electric generators. It bears an uncanny and unexplained resemblance to a Pokeball. Since it explodes at the slightest provocation, even veteran trainers treat it with caution.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-voltorb-HomeSprite.png|right]]
-![[SRD-voltorb-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

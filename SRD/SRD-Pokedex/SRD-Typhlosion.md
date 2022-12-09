@@ -23,6 +23,7 @@ Name: Typhlosion
 Number: 157
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-typhlosion-ShuffleToken.png
 Sprite: typhlosion.png
 Type1: Fire
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-typhlosion-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-typhlosion-BookSprite.png|wsmall]]
+> ![[SRD-typhlosion-HomeSprite.png]]
+> ![[SRD-typhlosion-BoxSprite.png|htiny]]
+> ![[SRD-typhlosion-ShuffleToken.png|wsmall]]
+
 
 *Volcano Pokemon*
 *Very rare to see in the wild. It hides behind a shimmering heat haze created using its fire. Typhlosion can create eruptions and explosive blasts that can burn everything to the ground.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-typhlosion-HomeSprite.png|right]]
-![[SRD-typhlosion-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

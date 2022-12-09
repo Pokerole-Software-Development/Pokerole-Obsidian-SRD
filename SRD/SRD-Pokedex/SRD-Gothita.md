@@ -23,6 +23,7 @@ Name: Gothita
 Number: 574
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gothita-ShuffleToken.png
 Sprite: gothita.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gothita-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gothita-BookSprite.png|wsmall]]
+> ![[SRD-gothita-HomeSprite.png]]
+> ![[SRD-gothita-BoxSprite.png|htiny]]
+> ![[SRD-gothita-ShuffleToken.png|wsmall]]
+
 
 *Fixation Pokemon*
 *They continuously observe both Trainers and Pokemon. Apparently, they are looking at something that only they can see. The ribbon-like feelers on their body increase their psychic power.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-gothita-HomeSprite.png|right]]
-![[SRD-gothita-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

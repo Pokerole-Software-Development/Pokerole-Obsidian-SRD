@@ -26,6 +26,7 @@ Name: Mawile
 Number: 303
 PrimaryEggGroup: Field
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-mawile-ShuffleToken.png
 Sprite: mawile.png
 Type1: Steel
 Type2: Fairy
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mawile-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mawile-BookSprite.png|wsmall]]
+> ![[SRD-mawile-HomeSprite.png]]
+> ![[SRD-mawile-BoxSprite.png|htiny]]
+> ![[SRD-mawile-ShuffleToken.png|wsmall]]
+
 
 *Deceiver Pokemon*
 *They appear to be cute and docile, luring their prey and lowering their guards, then, Mawile chomps the prey with huge steel jaws. They are very rare, though. Only a few have been seen in Hoenn's Victory Road.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-mawile-HomeSprite.png|right]]
-![[SRD-mawile-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

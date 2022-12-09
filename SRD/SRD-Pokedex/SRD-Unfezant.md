@@ -23,6 +23,7 @@ Name: Unfezant
 Number: 521
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-unfezant-ShuffleToken.png
 Sprite: unfezant.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-unfezant-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-unfezant-BookSprite.png|wsmall]]
+> ![[SRD-unfezant-HomeSprite.png]]
+> ![[SRD-unfezant-BoxSprite.png|htiny]]
+> ![[SRD-unfezant-ShuffleToken.png|wsmall]]
+
 
 *Proud Pokemon*
 *Males swing the beautiful plumage on their heads to threaten others and to court females. Although less visually appealing, females are better at flying. Once they form a pair they are mated for life.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-unfezant-HomeSprite.png|right]]
-![[SRD-unfezant-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

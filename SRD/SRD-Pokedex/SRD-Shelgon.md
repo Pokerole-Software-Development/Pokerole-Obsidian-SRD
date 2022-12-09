@@ -23,6 +23,7 @@ Name: Shelgon
 Number: 372
 PrimaryEggGroup: Dragon
 SecondaryEggGroup: ''
+ShuffleToken: SRD-shelgon-ShuffleToken.png
 Sprite: shelgon.png
 Type1: Dragon
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-shelgon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-shelgon-BookSprite.png|wsmall]]
+> ![[SRD-shelgon-HomeSprite.png]]
+> ![[SRD-shelgon-BoxSprite.png|htiny]]
+> ![[SRD-shelgon-ShuffleToken.png|wsmall]]
+
 
 *Endurance Pokemon*
 *The body is covered in a powerful armor that resembles bones. It hides in caves awaiting evolution, enduring hunger and harm while its cells prepare for its final transformation.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-shelgon-HomeSprite.png|right]]
-![[SRD-shelgon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

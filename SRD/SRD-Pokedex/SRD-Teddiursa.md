@@ -23,6 +23,7 @@ Name: Teddiursa
 Number: 216
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-teddiursa-ShuffleToken.png
 Sprite: teddiursa.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-teddiursa-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-teddiursa-BookSprite.png|wsmall]]
+> ![[SRD-teddiursa-HomeSprite.png]]
+> ![[SRD-teddiursa-BoxSprite.png|htiny]]
+> ![[SRD-teddiursa-ShuffleToken.png|wsmall]]
+
 
 *Little Bear Pokemon*
 *If they find honey, their crescent moon mark glows. They hoard food for winter and concoct their own honey by mixing fruits and pollen collected by Beedrills. They live in forests with their mothers.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-teddiursa-HomeSprite.png|right]]
-![[SRD-teddiursa-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

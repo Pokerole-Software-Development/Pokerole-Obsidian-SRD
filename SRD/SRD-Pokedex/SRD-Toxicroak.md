@@ -23,6 +23,7 @@ Name: Toxicroak
 Number: 454
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-toxicroak-ShuffleToken.png
 Sprite: toxicroak.png
 Type1: Poison
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-toxicroak-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-toxicroak-BookSprite.png|wsmall]]
+> ![[SRD-toxicroak-HomeSprite.png]]
+> ![[SRD-toxicroak-BoxSprite.png|htiny]]
+> ![[SRD-toxicroak-ShuffleToken.png|wsmall]]
+
 
 *Toxic Mouth Pokemon*
 *The toxin made in its poison sacs is pumped into the knuckle claws through tubes down its arms. Its toxins are so powerful that even a scratch from its knuckles could be fatal in a few hours.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-toxicroak-HomeSprite.png|right]]
-![[SRD-toxicroak-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

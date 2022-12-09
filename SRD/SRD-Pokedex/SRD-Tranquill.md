@@ -23,6 +23,7 @@ Name: Tranquill
 Number: 520
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tranquill-ShuffleToken.png
 Sprite: tranquill.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tranquill-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tranquill-BookSprite.png|wsmall]]
+> ![[SRD-tranquill-HomeSprite.png]]
+> ![[SRD-tranquill-BoxSprite.png|htiny]]
+> ![[SRD-tranquill-ShuffleToken.png|wsmall]]
+
 
 *Wild Pigeon Pokemon*
 *During war and old times people made use of Tranquil’s sense of location to send letters. It will never fail to find it’s way back home. They like quiet forests and enjoy to relax in the peace and quiet.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-tranquill-HomeSprite.png|right]]
-![[SRD-tranquill-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

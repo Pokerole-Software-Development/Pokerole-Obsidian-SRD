@@ -23,6 +23,7 @@ Name: Pawniard
 Number: 624
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pawniard-ShuffleToken.png
 Sprite: pawniard.png
 Type1: Dark
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pawniard-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pawniard-BookSprite.png|wsmall]]
+> ![[SRD-pawniard-HomeSprite.png]]
+> ![[SRD-pawniard-BoxSprite.png|htiny]]
+> ![[SRD-pawniard-ShuffleToken.png|wsmall]]
+
 
 *Sharp Blade Pokemon*
 *They live in groups commanded by Bisharp. They cling to their prey and inflict damage by sinking their blades. If battling dulls the blades, it sharpens them on stones by the river. It takes them years to evolve.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-pawniard-HomeSprite.png|right]]
-![[SRD-pawniard-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

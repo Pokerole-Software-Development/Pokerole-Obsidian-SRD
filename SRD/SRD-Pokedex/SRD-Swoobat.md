@@ -23,6 +23,7 @@ Name: Swoobat
 Number: 528
 PrimaryEggGroup: Flying
 SecondaryEggGroup: Field
+ShuffleToken: SRD-swoobat-ShuffleToken.png
 Sprite: swoobat.png
 Type1: Psychic
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-swoobat-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-swoobat-BookSprite.png|wsmall]]
+> ![[SRD-swoobat-HomeSprite.png]]
+> ![[SRD-swoobat-BoxSprite.png|htiny]]
+> ![[SRD-swoobat-ShuffleToken.png|wsmall]]
+
 
 *Courting Pokemon*
 *They communicate by emitting ultrasonic waves through their noses. This sound is not perceived by humans but it can affect their mood and emotions. It hunts Bug Pokemon and loves fresh fruit.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-swoobat-HomeSprite.png|right]]
-![[SRD-swoobat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

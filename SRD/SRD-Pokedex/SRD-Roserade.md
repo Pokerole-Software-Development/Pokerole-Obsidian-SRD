@@ -23,6 +23,7 @@ Name: Roserade
 Number: 407
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-roserade-ShuffleToken.png
 Sprite: roserade.png
 Type1: Grass
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-roserade-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-roserade-BookSprite.png|wsmall]]
+> ![[SRD-roserade-HomeSprite.png]]
+> ![[SRD-roserade-BoxSprite.png|htiny]]
+> ![[SRD-roserade-ShuffleToken.png|wsmall]]
+
 
 *Bouquet Pokemon*
 *Luring prey with a sweet scent, it uses the poison on its thorn-filled arm-whips to poison, bind and finish off the prey. It has a dangerous appeal mixed with a graceful personality. It’s very rare in the wild.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-roserade-HomeSprite.png|right]]
-![[SRD-roserade-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

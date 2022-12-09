@@ -23,6 +23,7 @@ Name: Seadra
 Number: 117
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-seadra-ShuffleToken.png
 Sprite: seadra.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-seadra-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-seadra-BookSprite.png|wsmall]]
+> ![[SRD-seadra-HomeSprite.png]]
+> ![[SRD-seadra-BoxSprite.png|htiny]]
+> ![[SRD-seadra-ShuffleToken.png|wsmall]]
+
 
 *Dragon Pokemon*
 *The poisonous barbs all over its body are highly valued as ingredients for making traditional medicine. It will show no mercy if anything approaches its nest. Its back fin has a numbing substance*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-seadra-HomeSprite.png|right]]
-![[SRD-seadra-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

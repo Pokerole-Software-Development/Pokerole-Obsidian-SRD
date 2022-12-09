@@ -23,6 +23,7 @@ Name: Shedinja
 Number: 292
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-shedinja-ShuffleToken.png
 Sprite: shedinja.png
 Type1: Bug
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-shedinja-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-shedinja-BookSprite.png|wsmall]]
+> ![[SRD-shedinja-HomeSprite.png]]
+> ![[SRD-shedinja-BoxSprite.png|htiny]]
+> ![[SRD-shedinja-ShuffleToken.png|wsmall]]
+
 
 *Shed Pokemon*
 *On extremely rare occasions; when Nincada evolves, the empty cocoon comes to life. They don’t move, they only float unnaturally around. It is said that it will steal the soul of anyone looking directly at them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-shedinja-HomeSprite.png|right]]
-![[SRD-shedinja-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

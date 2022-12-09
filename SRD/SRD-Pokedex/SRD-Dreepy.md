@@ -23,6 +23,7 @@ Name: Dreepy
 Number: 885
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-dreepy-ShuffleToken.png
 Sprite: dreepy.png
 Type1: Dragon
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-dreepy-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-dreepy-BookSprite.png|wsmall]]
+> ![[SRD-dreepy-HomeSprite.png]]
+> ![[SRD-dreepy-BoxSprite.png|htiny]]
+> ![[SRD-dreepy-ShuffleToken.png|wsmall]]
+
 
 *Lingering Pokemon*
 *After being reborn as a ghost, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas. Alone they do not pose much of a threat but if they gather in packs you’ll be in trouble.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-dreepy-HomeSprite.png|right]]
-![[SRD-dreepy-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

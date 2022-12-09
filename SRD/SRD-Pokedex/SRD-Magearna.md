@@ -23,6 +23,7 @@ Name: Magearna
 Number: 801
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-magearna-ShuffleToken.png
 Sprite: magearna.png
 Type1: Steel
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-magearna-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-magearna-BookSprite.png|wsmall]]
+> ![[SRD-magearna-HomeSprite.png]]
+> ![[SRD-magearna-BoxSprite.png|htiny]]
+> ![[SRD-magearna-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *500 years ago a famous scientist left a manuscript with details on how to create a mechanic Pokemon. His investigation led to the creation of the modern Pokeball.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-magearna-HomeSprite.png|right]]
-![[SRD-magearna-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

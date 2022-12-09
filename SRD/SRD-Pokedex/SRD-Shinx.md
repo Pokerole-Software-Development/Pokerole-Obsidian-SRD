@@ -23,6 +23,7 @@ Name: Shinx
 Number: 403
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-shinx-ShuffleToken.png
 Sprite: shinx.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-shinx-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-shinx-BookSprite.png|wsmall]]
+> ![[SRD-shinx-HomeSprite.png]]
+> ![[SRD-shinx-BoxSprite.png|htiny]]
+> ![[SRD-shinx-ShuffleToken.png|wsmall]]
+
 
 *Flash Pokemon*
 *Its body transforms the energy of its own muscles into electricity. When in danger, their whole fur shines in a flash to blind the foes. They live with their parents and siblings in small prides.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-shinx-HomeSprite.png|right]]
-![[SRD-shinx-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

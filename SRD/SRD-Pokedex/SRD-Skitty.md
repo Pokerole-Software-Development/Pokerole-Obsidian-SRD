@@ -23,6 +23,7 @@ Name: Skitty
 Number: 300
 PrimaryEggGroup: Field
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-skitty-ShuffleToken.png
 Sprite: skitty.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-skitty-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-skitty-BookSprite.png|wsmall]]
+> ![[SRD-skitty-HomeSprite.png]]
+> ![[SRD-skitty-BoxSprite.png|htiny]]
+> ![[SRD-skitty-ShuffleToken.png|wsmall]]
+
 
 *Kitten Pokemon*
 *They are fascinated by moving objects, even chasing their own tail without hesitation. They are cute by nature, and popular pets, but it’s hard to earn their trust in the wild. They are quite affectionate.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-skitty-HomeSprite.png|right]]
-![[SRD-skitty-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Yveltal
 Number: 717
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-yveltal-ShuffleToken.png
 Sprite: yveltal.png
 Type1: Dark
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-yveltal-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-yveltal-BookSprite.png|wsmall]]
+> ![[SRD-yveltal-HomeSprite.png]]
+> ![[SRD-yveltal-BoxSprite.png|htiny]]
+> ![[SRD-yveltal-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *A Kalos legend tells about the eternal struggle between life and death. The main tale is about a King full of grief and hate who built a doomsday machine to kill everyone in the world.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-yveltal-HomeSprite.png|right]]
-![[SRD-yveltal-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

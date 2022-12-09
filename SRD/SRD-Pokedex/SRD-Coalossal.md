@@ -23,6 +23,7 @@ Name: Coalossal
 Number: 839
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-coalossal-ShuffleToken.png
 Sprite: coalossal.png
 Type1: Rock
 Type2: Fire
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-coalossal-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-coalossal-BookSprite.png|wsmall]]
+> ![[SRD-coalossal-HomeSprite.png]]
+> ![[SRD-coalossal-BoxSprite.png|htiny]]
+> ![[SRD-coalossal-ShuffleToken.png|wsmall]]
+
 
 *Coal Pokemon*
 *They are usually calm creatures, if they see you are kind they’ll share their warmth with you but if you enrage one you risk being burned down to ashes. They spit tarry substance that is very flammable.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-coalossal-HomeSprite.png|right]]
-![[SRD-coalossal-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

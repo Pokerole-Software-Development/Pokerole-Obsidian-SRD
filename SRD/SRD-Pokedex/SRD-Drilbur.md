@@ -23,6 +23,7 @@ Name: Drilbur
 Number: 529
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-drilbur-ShuffleToken.png
 Sprite: drilbur.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-drilbur-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-drilbur-BookSprite.png|wsmall]]
+> ![[SRD-drilbur-HomeSprite.png]]
+> ![[SRD-drilbur-BoxSprite.png|htiny]]
+> ![[SRD-drilbur-ShuffleToken.png|wsmall]]
+
 
 *Mole Pokemon*
 *They can be found in caves and wreaking havoc on vegetable farms. It makes its way swiftly through the soil by putting both claws together and rotating at high speed. It is friendly and not afraid of humans.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-drilbur-HomeSprite.png|right]]
-![[SRD-drilbur-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

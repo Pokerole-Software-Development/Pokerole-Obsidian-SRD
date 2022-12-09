@@ -21,6 +21,7 @@ Name: Galarian Slowking (provisional)
 Number: 199
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-slowking-galar-ShuffleToken.png
 Sprite: slowking-galar.png
 Type1: Poison
 Type2: Psychic
@@ -34,7 +35,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-slowking-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-slowking-galar-BookSprite.png|wsmall]]
+> ![[SRD-slowking-galar-HomeSprite.png]]
+> ![[SRD-slowking-galar-BoxSprite.png|htiny]]
+> ![[SRD-slowking-galar-ShuffleToken.png|wsmall]]
+
 
 **
 **
@@ -53,8 +59,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-slowking-galar-HomeSprite.png|right]]
-![[SRD-slowking-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

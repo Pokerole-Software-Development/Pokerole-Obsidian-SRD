@@ -23,6 +23,7 @@ Name: Corsola
 Number: 222
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-corsola-ShuffleToken.png
 Sprite: corsola.png
 Type1: Water
 Type2: Rock
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-corsola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-corsola-BookSprite.png|wsmall]]
+> ![[SRD-corsola-HomeSprite.png]]
+> ![[SRD-corsola-BoxSprite.png|htiny]]
+> ![[SRD-corsola-ShuffleToken.png|wsmall]]
+
 
 *Coral Pokemon*
 *People and Pokemon build their communities on top of reefs of these creatures which shine with seven colors in sunlight. Their corals have healing qualities and their presence wards against disasters.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-corsola-HomeSprite.png|right]]
-![[SRD-corsola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

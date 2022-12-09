@@ -23,6 +23,7 @@ Name: Minior
 Number: 774
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-minior-ShuffleToken.png
 Sprite: minior.png
 Type1: Rock
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-minior-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-minior-BookSprite.png|wsmall]]
+> ![[SRD-minior-HomeSprite.png]]
+> ![[SRD-minior-BoxSprite.png|htiny]]
+> ![[SRD-minior-ShuffleToken.png|wsmall]]
+
 
 *Meteor Pokemon*
 *They live on the stratosphere, absorbing particles to grow their cores and shells, when they become too heavy they fall to the ground. Move damage can break the shell and leave the core exposed.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-minior-HomeSprite.png|right]]
-![[SRD-minior-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

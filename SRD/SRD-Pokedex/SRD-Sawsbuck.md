@@ -23,6 +23,7 @@ Name: Sawsbuck
 Number: 586
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sawsbuck-ShuffleToken.png
 Sprite: sawsbuck.png
 Type1: Normal
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sawsbuck-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sawsbuck-BookSprite.png|wsmall]]
+> ![[SRD-sawsbuck-HomeSprite.png]]
+> ![[SRD-sawsbuck-BoxSprite.png|htiny]]
+> ![[SRD-sawsbuck-ShuffleToken.png|wsmall]]
+
 
 *Season Pokemon*
 *The plants growing on its horns change according to the season. They live in herds that migrate in search of grass. The leaders of the herd possess magnificent horns. They tend to be peaceful creatures.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-sawsbuck-HomeSprite.png|right]]
-![[SRD-sawsbuck-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

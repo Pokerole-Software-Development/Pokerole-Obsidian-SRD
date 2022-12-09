@@ -23,6 +23,7 @@ Name: Fletchling
 Number: 661
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-fletchling-ShuffleToken.png
 Sprite: fletchling.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-fletchling-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-fletchling-BookSprite.png|wsmall]]
+> ![[SRD-fletchling-HomeSprite.png]]
+> ![[SRD-fletchling-BoxSprite.png|htiny]]
+> ![[SRD-fletchling-ShuffleToken.png|wsmall]]
+
 
 *Tiny Robin Pokemon*
 *These cute Pokemon send signals to one another with beautiful chirps and feather movements. But despite the beauty of its lilting voice it is merciless to intruders that come close to its nest.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-fletchling-HomeSprite.png|right]]
-![[SRD-fletchling-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

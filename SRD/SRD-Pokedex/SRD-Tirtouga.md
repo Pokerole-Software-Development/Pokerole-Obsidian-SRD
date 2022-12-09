@@ -23,6 +23,7 @@ Name: Tirtouga
 Number: 564
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-tirtouga-ShuffleToken.png
 Sprite: tirtouga.png
 Type1: Water
 Type2: Rock
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tirtouga-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tirtouga-BookSprite.png|wsmall]]
+> ![[SRD-tirtouga-HomeSprite.png]]
+> ![[SRD-tirtouga-BoxSprite.png|htiny]]
+> ![[SRD-tirtouga-ShuffleToken.png|wsmall]]
+
 
 *Prototurtle Pokemon*
 *About 100 million years ago, these Pokemon swam in oceans. It is thought they also went on land to attack prey. One has been cloned from a fossil that was found a mile deep underwater.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-tirtouga-HomeSprite.png|right]]
-![[SRD-tirtouga-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

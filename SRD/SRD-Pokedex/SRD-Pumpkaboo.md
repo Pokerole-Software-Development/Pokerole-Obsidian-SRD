@@ -23,6 +23,7 @@ Name: Pumpkaboo
 Number: 710
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pumpkaboo-ShuffleToken.png
 Sprite: pumpkaboo.png
 Type1: Ghost
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pumpkaboo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pumpkaboo-BookSprite.png|wsmall]]
+> ![[SRD-pumpkaboo-HomeSprite.png]]
+> ![[SRD-pumpkaboo-BoxSprite.png|htiny]]
+> ![[SRD-pumpkaboo-ShuffleToken.png|wsmall]]
+
 
 *Pumpkin Pokemon*
 *You can see them dwelling on farms during the autumn season. The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active. Don’t ever follow their light at night.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-pumpkaboo-HomeSprite.png|right]]
-![[SRD-pumpkaboo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

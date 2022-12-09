@@ -23,6 +23,7 @@ Name: Galarian Stunfisk
 Number: 618
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-stunfisk-galar-ShuffleToken.png
 Sprite: stunfisk-galar.png
 Type1: Ground
 Type2: Steel
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-stunfisk-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-stunfisk-galar-BookSprite.png|wsmall]]
+> ![[SRD-stunfisk-galar-HomeSprite.png]]
+> ![[SRD-stunfisk-galar-BoxSprite.png|htiny]]
+> ![[SRD-stunfisk-galar-ShuffleToken.png|wsmall]]
+
 
 *Trap Pokemon*
 *Stunfisk lives in mud with high iron content. Those nutrients turned its body into a Steel Type. Stunfisks’ lips are hard to spot in the mud, but if someone steps on it, its jagged steel clamps their prey.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-stunfisk-galar-HomeSprite.png|right]]
-![[SRD-stunfisk-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

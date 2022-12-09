@@ -23,6 +23,7 @@ Name: Tyrunt
 Number: 696
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-tyrunt-ShuffleToken.png
 Sprite: tyrunt.png
 Type1: Rock
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tyrunt-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tyrunt-BookSprite.png|wsmall]]
+> ![[SRD-tyrunt-HomeSprite.png]]
+> ![[SRD-tyrunt-BoxSprite.png|htiny]]
+> ![[SRD-tyrunt-ShuffleToken.png|wsmall]]
+
 
 *Royal Heir Pokemon*
 *This Pokemon was restored from a fossil. If something happens that it doesn’t like, it throws a tantrum and runs wild. Many of the researchers that brought it back were attacked by its powerful jaws.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-tyrunt-HomeSprite.png|right]]
-![[SRD-tyrunt-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

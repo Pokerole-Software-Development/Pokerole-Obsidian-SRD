@@ -21,6 +21,7 @@ Name: Arceus
 Number: 493
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-arceus-ShuffleToken.png
 Sprite: arceus.png
 Type1: Normal
 Type2: ''
@@ -34,7 +35,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-arceus-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-arceus-BookSprite.png|wsmall]]
+> ![[SRD-arceus-HomeSprite.png]]
+> ![[SRD-arceus-BoxSprite.png|htiny]]
+> ![[SRD-arceus-ShuffleToken.png|wsmall]]
+
 
 *Plot Device*
 *Plot Device*
@@ -53,8 +59,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::12)/(MaxSpecial::12)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::12)/(MaxInsight::12)     |
 
-![[SRD-arceus-HomeSprite.png|right]]
-![[SRD-arceus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

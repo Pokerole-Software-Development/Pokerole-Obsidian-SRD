@@ -23,6 +23,7 @@ Name: Rolycoly
 Number: 837
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rolycoly-ShuffleToken.png
 Sprite: rolycoly.png
 Type1: Rock
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rolycoly-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rolycoly-BookSprite.png|wsmall]]
+> ![[SRD-rolycoly-HomeSprite.png]]
+> ![[SRD-rolycoly-BoxSprite.png|htiny]]
+> ![[SRD-rolycoly-ShuffleToken.png|wsmall]]
+
 
 *Coal Pokemon*
 *This Pokemon was discovered inside a coal mine. It looks like a clump of coal only it moves like a unicycle. When it gets angry it glows burning hot but when it’s happy it lets out soft crackles and keeps a steady warmth.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-rolycoly-HomeSprite.png|right]]
-![[SRD-rolycoly-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

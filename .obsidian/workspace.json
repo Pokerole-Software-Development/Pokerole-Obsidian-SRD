@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "13e5a8d0be1b0ec1",
+        "id": "372b7a09c6ff3ec2",
         "type": "tabs",
         "children": [
           {
-            "id": "205986ea69da3d41",
+            "id": "f48c32e4b88b866e",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,81 +18,120 @@
                   "eState": "{}"
                 },
                 {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD Data Structures.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{\"scroll\":54.544117647058826}",
-                  "title": "SRD Data Structures",
-                  "icon": "lines-of-text"
+                  "title": "Alice",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Campaign/Player Characters/Alice.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
                 },
                 {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Readme.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{\"scroll\":7.625}",
-                  "title": "Readme",
-                  "icon": "lines-of-text"
+                  "title": "Trainer Character Sheet Template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Trainer Character Sheet Template.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
                 },
                 {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD Data Structures.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":31.23984375}",
-                  "title": "SRD Data Structures",
-                  "icon": "document"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Readme.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"scroll\":6.497138869504536}",
-                  "title": "Readme",
-                  "icon": "document"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Natures/SRD-Adamant.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}",
-                  "title": "SRD-Adamant",
-                  "icon": "document"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Natures/SRD-Bashful.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{}",
-                  "title": "SRD-Bashful",
-                  "icon": "lines-of-text"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Natures/SRD-Adamant.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{\"scroll\":0}",
-                  "title": "SRD-Adamant",
-                  "icon": "lines-of-text"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Pokemon Character Sheet Template.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":3},\"to\":{\"line\":68,\"ch\":3}},\"scroll\":15.631542219120727}",
                   "title": "Pokemon Character Sheet Template",
-                  "icon": "document"
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Pokemon Character Sheet Template.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Pokemon Trainer",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Pokemon Trainer.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Trainer Character Sheet Template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Trainer Character Sheet Template.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Trainer Classes Table",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Trainer Classes Table.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":0.24299065420560748}"
+                },
+                {
+                  "title": "SRD-Absol",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Pokedex/SRD-Absol.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "SRD-Aipom",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Pokedex/SRD-Aipom.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":18.229166666666668}"
+                },
+                {
+                  "title": "type chart",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"SRD/type chart.png\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "SRD-Bashful",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Natures/SRD-Bashful.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "SRD-Aerodactyl",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Pokedex/SRD-Aerodactyl.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "SRD-Aegislash",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Pokedex/SRD-Aegislash.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "SRD-Aerodactyl",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Pokedex/SRD-Aerodactyl.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "SRD-Aegislash",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Pokedex/SRD-Aegislash.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "SRD-Absol",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Pokedex/SRD-Absol.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "SRD-Abra",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Pokedex/SRD-Abra.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "SRD-Abomasnow",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Pokedex/SRD-Abomasnow.md\",\"mode\":\"preview\",\"source\":true}}",
+                  "eState": "{\"scroll\":0}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
-                "mode": "source",
+                "file": "SRD/SRD-Pokedex/SRD-Absol.md",
+                "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -159,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "SRD/SRD-Pokedex/SRD-Absol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "SRD/SRD-Pokedex/SRD-Absol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "SRD/SRD-Pokedex/SRD-Absol.md"
               }
             }
           }
@@ -210,12 +249,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "205986ea69da3d41",
+  "active": "f48c32e4b88b866e",
   "lastOpenFiles": [
-    "SRD Data Structures.md",
-    "Readme.md",
-    "SRD/SRD-Natures/SRD-Adamant.md",
+    "Campaign/Player Characters/Alice.md",
+    "Templates/Trainer Character Sheet Template.md",
+    "Templates/Pokemon Character Sheet Template.md",
+    "Templates/Pokemon Trainer.md",
+    "Trainer Classes Table.md",
+    "SRD/SRD-Pokedex/SRD-Absol.md",
+    "SRD/SRD-Pokedex/SRD-Aipom.md",
+    "SRD/type chart.png",
     "SRD/SRD-Natures/SRD-Bashful.md",
-    "Templates/Pokemon Character Sheet Template.md"
+    "SRD/SRD-Pokedex/SRD-Aegislash.md"
   ]
 }

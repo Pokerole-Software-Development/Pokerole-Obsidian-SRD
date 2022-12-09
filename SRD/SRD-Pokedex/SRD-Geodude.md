@@ -23,6 +23,7 @@ Name: Geodude
 Number: 74
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-geodude-ShuffleToken.png
 Sprite: geodude.png
 Type1: Rock
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-geodude-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-geodude-BookSprite.png|wsmall]]
+> ![[SRD-geodude-HomeSprite.png]]
+> ![[SRD-geodude-BoxSprite.png|htiny]]
+> ![[SRD-geodude-ShuffleToken.png|wsmall]]
+
 
 *Rock Pokemon*
 *Lives in mountains and caves. It looks indistinguishable from other rocks around. Because of this, many trainers step on them and are attacked. It rolls to move around and eats whatever it finds on the floor.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-geodude-HomeSprite.png|right]]
-![[SRD-geodude-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

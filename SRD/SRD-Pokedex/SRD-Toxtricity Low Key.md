@@ -23,6 +23,7 @@ Name: Toxtricity Low Key
 Number: 849
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-toxtricity-low-key-ShuffleToken.png
 Sprite: toxtricity-low-key.png
 Type1: Electric
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-toxtricity-low-key-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-toxtricity-low-key-BookSprite.png|wsmall]]
+> ![[SRD-toxtricity-low-key-HomeSprite.png]]
+> ![[SRD-toxtricity-low-key-BoxSprite.png|htiny]]
+> ![[SRD-toxtricity-low-key-ShuffleToken.png|wsmall]]
+
 
 *Punk Pokemon*
 *Commonly called “Low Key Form”, its nature determines its evolution, If a Toxel is introverted it will evolve to be a chill Toxtricity. They emit low pitched sounds and look down on others who try to provoke them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-toxtricity-low-key-HomeSprite.png|right]]
-![[SRD-toxtricity-low-key-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

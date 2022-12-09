@@ -26,6 +26,7 @@ Name: Ampharos
 Number: 181
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Field
+ShuffleToken: SRD-ampharos-ShuffleToken.png
 Sprite: ampharos.png
 Type1: Electric
 Type2: ''
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ampharos-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ampharos-BookSprite.png|wsmall]]
+> ![[SRD-ampharos-HomeSprite.png]]
+> ![[SRD-ampharos-BoxSprite.png|htiny]]
+> ![[SRD-ampharos-ShuffleToken.png|wsmall]]
+
 
 *Light Pokemon*
 *It’s not common to see it in the wild. The tip of its tail shines brightly and in the old days, people sent light signals with the help of this Pokemon. It has a good disposition towards people in general.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-ampharos-HomeSprite.png|right]]
-![[SRD-ampharos-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

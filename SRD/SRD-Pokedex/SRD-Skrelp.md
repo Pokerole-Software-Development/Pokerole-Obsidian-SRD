@@ -23,6 +23,7 @@ Name: Skrelp
 Number: 690
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-skrelp-ShuffleToken.png
 Sprite: skrelp.png
 Type1: Poison
 Type2: Water
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-skrelp-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-skrelp-BookSprite.png|wsmall]]
+> ![[SRD-skrelp-HomeSprite.png]]
+> ![[SRD-skrelp-BoxSprite.png|htiny]]
+> ![[SRD-skrelp-ShuffleToken.png|wsmall]]
+
 
 *Mock Kelp Pokemon*
 *Camouflaged as rotten kelp they spray liquid poison on a prey that approaches unaware. It needs to store a lot of energy to be able to evolve so it takes them a long time. Touching one will give you a fever.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-skrelp-HomeSprite.png|right]]
-![[SRD-skrelp-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

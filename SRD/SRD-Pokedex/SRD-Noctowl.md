@@ -23,6 +23,7 @@ Name: Noctowl
 Number: 164
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
+ShuffleToken: SRD-noctowl-ShuffleToken.png
 Sprite: noctowl.png
 Type1: Normal
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-noctowl-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-noctowl-BookSprite.png|wsmall]]
+> ![[SRD-noctowl-HomeSprite.png]]
+> ![[SRD-noctowl-BoxSprite.png|htiny]]
+> ![[SRD-noctowl-ShuffleToken.png|wsmall]]
+
 
 *Owl Pokemon*
 *It can hunt in full darkness without fail. All Noctowls owe their success to their superior vision - that allows them to see in minimal light, and to their agile and silent wings. They are very intelligent and critic Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-noctowl-HomeSprite.png|right]]
-![[SRD-noctowl-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

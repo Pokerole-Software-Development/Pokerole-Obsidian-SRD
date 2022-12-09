@@ -23,6 +23,7 @@ Name: Pheromosa
 Number: 795
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-pheromosa-ShuffleToken.png
 Sprite: pheromosa.png
 Type1: Bug
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-pheromosa-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-pheromosa-BookSprite.png|wsmall]]
+> ![[SRD-pheromosa-HomeSprite.png]]
+> ![[SRD-pheromosa-BoxSprite.png|htiny]]
+> ![[SRD-pheromosa-ShuffleToken.png|wsmall]]
+
 
 *Aether Foundation Log #012*
 *This one also appears to be unable to enter a Pokeball, the rays just won’t surround them. This one has refused to touch anything we give to it and appears displeased by my mere presence.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::3)     |
 
-![[SRD-pheromosa-HomeSprite.png|right]]
-![[SRD-pheromosa-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Bunnelby
 Number: 659
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-bunnelby-ShuffleToken.png
 Sprite: bunnelby.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-bunnelby-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-bunnelby-BookSprite.png|wsmall]]
+> ![[SRD-bunnelby-HomeSprite.png]]
+> ![[SRD-bunnelby-BoxSprite.png|htiny]]
+> ![[SRD-bunnelby-ShuffleToken.png|wsmall]]
+
 
 *Digging Pokemon*
 *It uses its ears as shovels, digging holes strengthens them so much that they can sever thick roots easily. They reproduce quickly and a handful of them can ravage a field of vegetables in just a few hours.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-bunnelby-HomeSprite.png|right]]
-![[SRD-bunnelby-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

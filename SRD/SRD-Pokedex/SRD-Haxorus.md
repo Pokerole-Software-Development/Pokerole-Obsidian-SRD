@@ -23,6 +23,7 @@ Name: Haxorus
 Number: 612
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-haxorus-ShuffleToken.png
 Sprite: haxorus.png
 Type1: Dragon
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-haxorus-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-haxorus-BookSprite.png|wsmall]]
+> ![[SRD-haxorus-HomeSprite.png]]
+> ![[SRD-haxorus-BoxSprite.png|htiny]]
+> ![[SRD-haxorus-ShuffleToken.png|wsmall]]
+
 
 *Axe Jaw Pokemon*
 *Their sturdy tusks will stay sharp even if they are used to cut steel. These Pokemon are covered in hard armor. They incredibly aggressive, if their territory is trespassed, they chase and slash mercilessly.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-haxorus-HomeSprite.png|right]]
-![[SRD-haxorus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

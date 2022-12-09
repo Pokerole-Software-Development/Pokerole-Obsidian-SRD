@@ -23,6 +23,7 @@ Name: Ludicolo
 Number: 272
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-ludicolo-ShuffleToken.png
 Sprite: ludicolo.png
 Type1: Water
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-ludicolo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-ludicolo-BookSprite.png|wsmall]]
+> ![[SRD-ludicolo-HomeSprite.png]]
+> ![[SRD-ludicolo-BoxSprite.png|htiny]]
+> ![[SRD-ludicolo-ShuffleToken.png|wsmall]]
+
 
 *Carefree Pokemon*
 *Ludicolo starts dancing at the sound of music. Pokemon and people will dance as well. They are said to appear when children sing. They love festive places and parties.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-ludicolo-HomeSprite.png|right]]
-![[SRD-ludicolo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Cofagrigus
 Number: 563
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: Amorphous
+ShuffleToken: SRD-cofagrigus-ShuffleToken.png
 Sprite: cofagrigus.png
 Type1: Ghost
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cofagrigus-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cofagrigus-BookSprite.png|wsmall]]
+> ![[SRD-cofagrigus-HomeSprite.png]]
+> ![[SRD-cofagrigus-BoxSprite.png|htiny]]
+> ![[SRD-cofagrigus-ShuffleToken.png|wsmall]]
+
 
 *Coffin Pokemon*
 *This Pokemon has only been seen few times in the ruins and tombs of ancient civilizations. It curses and transforms people and Pokemon into mummy-like creatures. It is said it feeds on pure gold.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-cofagrigus-HomeSprite.png|right]]
-![[SRD-cofagrigus-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

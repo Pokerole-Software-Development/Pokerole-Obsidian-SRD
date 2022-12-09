@@ -23,6 +23,7 @@ Name: Minccino
 Number: 572
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-minccino-ShuffleToken.png
 Sprite: minccino.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-minccino-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-minccino-BookSprite.png|wsmall]]
+> ![[SRD-minccino-HomeSprite.png]]
+> ![[SRD-minccino-BoxSprite.png|htiny]]
+> ![[SRD-minccino-ShuffleToken.png|wsmall]]
+
 
 *Chinchilla Pokemon*
 *They greet one another by rubbing their tails, which are always kept well groomed and clean. Housewives love to keep them as pets because they eagerly help to clean the house.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-minccino-HomeSprite.png|right]]
-![[SRD-minccino-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

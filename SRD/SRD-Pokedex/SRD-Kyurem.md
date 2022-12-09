@@ -23,6 +23,7 @@ Name: Kyurem
 Number: 646
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-kyurem-ShuffleToken.png
 Sprite: kyurem.png
 Type1: Dragon
 Type2: Ice
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kyurem-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kyurem-BookSprite.png|wsmall]]
+> ![[SRD-kyurem-HomeSprite.png]]
+> ![[SRD-kyurem-BoxSprite.png|htiny]]
+> ![[SRD-kyurem-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *Inside a remote and frozen cave there are some old paintings. They depict a giant dragon being thorn apart into a black and white shards Of the rest of the picture only shattered fragments of ice remain.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-![[SRD-kyurem-HomeSprite.png|right]]
-![[SRD-kyurem-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

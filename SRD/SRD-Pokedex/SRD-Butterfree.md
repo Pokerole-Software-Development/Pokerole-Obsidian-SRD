@@ -23,6 +23,7 @@ Name: Butterfree
 Number: 12
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-butterfree-ShuffleToken.png
 Sprite: butterfree.png
 Type1: Bug
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-butterfree-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-butterfree-BookSprite.png|wsmall]]
+> ![[SRD-butterfree-HomeSprite.png]]
+> ![[SRD-butterfree-BoxSprite.png|htiny]]
+> ![[SRD-butterfree-ShuffleToken.png|wsmall]]
+
 
 *Butterfly Pokemon*
 *It can be found in forests and plains. It loves the honey in some flowers even with tiny amounts of pollen. Its wings are covered by dust that allows it to fly even when it’s raining.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-butterfree-HomeSprite.png|right]]
-![[SRD-butterfree-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

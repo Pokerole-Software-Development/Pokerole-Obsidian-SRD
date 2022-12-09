@@ -26,6 +26,7 @@ Name: Abomasnow
 Number: 460
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-abomasnow-ShuffleToken.png
 Sprite: abomasnow.png
 Type1: Grass
 Type2: Ice
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-abomasnow-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-abomasnow-BookSprite.png|wsmall]]
+> ![[SRD-abomasnow-HomeSprite.png]]
+> ![[SRD-abomasnow-BoxSprite.png|htiny]]
+> ![[SRD-abomasnow-ShuffleToken.png|wsmall]]
+
 
 *Frosted Tree Pokemon*
 *There was a legend for a long time that called this Pokemon “The Ice Monster”. Now we know it is a Pokemon that can cover everything around with deep snow. It likes quiet places and only attacks if provoked.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-abomasnow-HomeSprite.png|right]]
-![[SRD-abomasnow-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

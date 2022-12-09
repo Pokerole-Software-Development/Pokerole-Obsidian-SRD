@@ -26,6 +26,7 @@ Name: Manectric
 Number: 310
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-manectric-ShuffleToken.png
 Sprite: manectric.png
 Type1: Electric
 Type2: ''
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-manectric-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-manectric-BookSprite.png|wsmall]]
+> ![[SRD-manectric-HomeSprite.png]]
+> ![[SRD-manectric-BoxSprite.png|htiny]]
+> ![[SRD-manectric-ShuffleToken.png|wsmall]]
+
 
 *Discharge Pokemon*
 *Their manes are constantly releasing dangerous sparks that often end up in forest fires. When they get in battle, thunderclouds show up with them. They are extremely rare to see in the wild.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-manectric-HomeSprite.png|right]]
-![[SRD-manectric-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

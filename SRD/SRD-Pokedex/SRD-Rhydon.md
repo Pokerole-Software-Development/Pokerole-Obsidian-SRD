@@ -23,6 +23,7 @@ Name: Rhydon
 Number: 112
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Field
+ShuffleToken: SRD-rhydon-ShuffleToken.png
 Sprite: rhydon.png
 Type1: Ground
 Type2: Rock
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rhydon-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rhydon-BookSprite.png|wsmall]]
+> ![[SRD-rhydon-HomeSprite.png]]
+> ![[SRD-rhydon-BoxSprite.png|htiny]]
+> ![[SRD-rhydon-ShuffleToken.png|wsmall]]
+
 
 *Drill Pokemon*
 *It has a horn that serves as a drill for destroying rocks and boulders. Rhydon occasionally goes for a swim in rivers and even magma pools. Its great resistance prevents it from taking any damage.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-rhydon-HomeSprite.png|right]]
-![[SRD-rhydon-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

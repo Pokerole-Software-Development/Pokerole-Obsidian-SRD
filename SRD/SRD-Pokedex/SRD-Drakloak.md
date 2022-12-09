@@ -23,6 +23,7 @@ Name: Drakloak
 Number: 886
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-drakloak-ShuffleToken.png
 Sprite: drakloak.png
 Type1: Dragon
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-drakloak-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-drakloak-BookSprite.png|wsmall]]
+> ![[SRD-drakloak-HomeSprite.png]]
+> ![[SRD-drakloak-BoxSprite.png|htiny]]
+> ![[SRD-drakloak-ShuffleToken.png|wsmall]]
+
 
 *Caretaker Pokemon*
 *It battles alongside Dreepy and dotes on them until they evolve. Without a Dreepy to place on its head and care for, it gets so uneasy it’ll try to substitute it with any Pokemon it finds*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-drakloak-HomeSprite.png|right]]
-![[SRD-drakloak-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Numel
 Number: 322
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-numel-ShuffleToken.png
 Sprite: numel.png
 Type1: Fire
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-numel-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-numel-BookSprite.png|wsmall]]
+> ![[SRD-numel-HomeSprite.png]]
+> ![[SRD-numel-BoxSprite.png|htiny]]
+> ![[SRD-numel-ShuffleToken.png|wsmall]]
+
 
 *Numb Pokemon*
 *An incredibly dim-witted Pokemon. They don’t notice being hit. If they get hungry they faint. Numel's body is a cauldron of boiling magma. In rainy days, the magma cools and its speed is lowered.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-numel-HomeSprite.png|right]]
-![[SRD-numel-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

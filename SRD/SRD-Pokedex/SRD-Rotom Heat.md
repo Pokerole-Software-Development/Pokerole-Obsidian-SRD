@@ -22,6 +22,7 @@ Name: Rotom Heat
 Number: 479
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-rotom-heat-ShuffleToken.png
 Sprite: rotom-heat.png
 Type1: Electric
 Type2: Fire
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-rotom-heat-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-rotom-heat-BookSprite.png|wsmall]]
+> ![[SRD-rotom-heat-HomeSprite.png]]
+> ![[SRD-rotom-heat-BoxSprite.png|htiny]]
+> ![[SRD-rotom-heat-ShuffleToken.png|wsmall]]
+
 
 *Plasma Pokemon*
 *A Microwave possessed by a Rotom. It uses Fire powers and burns the food of unsuspecting people. While on this form it can use the move: Overheat.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-rotom-heat-HomeSprite.png|right]]
-![[SRD-rotom-heat-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

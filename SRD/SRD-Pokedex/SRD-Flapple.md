@@ -23,6 +23,7 @@ Name: Flapple
 Number: 841
 PrimaryEggGroup: Grass
 SecondaryEggGroup: Dragon
+ShuffleToken: SRD-flapple-ShuffleToken.png
 Sprite: flapple.png
 Type1: Grass
 Type2: Dragon
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-flapple-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-flapple-BookSprite.png|wsmall]]
+> ![[SRD-flapple-HomeSprite.png]]
+> ![[SRD-flapple-BoxSprite.png|htiny]]
+> ![[SRD-flapple-ShuffleToken.png|wsmall]]
+
 
 *Apple Wing Pokemon*
 *It grew inside a sour apple, and thus developed an acid that can cause chemical burns. It uses the discarded apple skin to fly or disguise itself as a rancid apple. They are loners as not many like how it looks or smells.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-flapple-HomeSprite.png|right]]
-![[SRD-flapple-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

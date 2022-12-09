@@ -23,6 +23,7 @@ Name: Snorunt
 Number: 361
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Mineral
+ShuffleToken: SRD-snorunt-ShuffleToken.png
 Sprite: snorunt.png
 Type1: Ice
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-snorunt-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-snorunt-BookSprite.png|wsmall]]
+> ![[SRD-snorunt-HomeSprite.png]]
+> ![[SRD-snorunt-BoxSprite.png|htiny]]
+> ![[SRD-snorunt-ShuffleToken.png|wsmall]]
+
 
 *Snow Hat Pokemon*
 *This friendly Pokemon lives in cold mountains and deserted snowlands. It survives by eating snow and ice. They form small groups to protect themselves from predators. If you take their hat off, they will get angry.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-snorunt-HomeSprite.png|right]]
-![[SRD-snorunt-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

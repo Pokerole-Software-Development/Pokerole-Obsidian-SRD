@@ -23,6 +23,7 @@ Name: Marshtomp
 Number: 259
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-marshtomp-ShuffleToken.png
 Sprite: marshtomp.png
 Type1: Water
 Type2: Ground
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-marshtomp-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-marshtomp-BookSprite.png|wsmall]]
+> ![[SRD-marshtomp-HomeSprite.png]]
+> ![[SRD-marshtomp-BoxSprite.png|htiny]]
+> ![[SRD-marshtomp-ShuffleToken.png|wsmall]]
+
 
 *Mud Fish Pokemon*
 *A sticky film allows them to live out of water. They are seen playing in the mud at beaches to rehydrate their dry bodies. They are slow runners and swimmers but they can be fast sliding through the mud.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-marshtomp-HomeSprite.png|right]]
-![[SRD-marshtomp-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

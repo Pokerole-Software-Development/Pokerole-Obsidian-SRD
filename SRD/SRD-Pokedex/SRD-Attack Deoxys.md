@@ -23,6 +23,7 @@ Name: Attack Deoxys
 Number: 386
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-deoxys-attack-ShuffleToken.png
 Sprite: deoxys-attack.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-deoxys-attack-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-deoxys-attack-BookSprite.png|wsmall]]
+> ![[SRD-deoxys-attack-HomeSprite.png]]
+> ![[SRD-deoxys-attack-BoxSprite.png|htiny]]
+> ![[SRD-deoxys-attack-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *The main engineer of the space crew reported a tentacled creature that ripped with ease through the thick metal hull of the ship to escape. The ship was recovered and was indeed torn in two sections.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::10)/(MaxSpecial::10)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::2)     |
 
-![[SRD-deoxys-attack-HomeSprite.png|right]]
-![[SRD-deoxys-attack-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

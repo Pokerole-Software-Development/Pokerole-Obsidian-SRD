@@ -23,6 +23,7 @@ Name: Yamper
 Number: 835
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-yamper-ShuffleToken.png
 Sprite: yamper.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-yamper-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-yamper-BookSprite.png|wsmall]]
+> ![[SRD-yamper-HomeSprite.png]]
+> ![[SRD-yamper-BoxSprite.png|htiny]]
+> ![[SRD-yamper-ShuffleToken.png|wsmall]]
+
 
 *Puppy Pokemon*
 *Its energy and big smile make this Pokemon very popular as a herding dog. When it runs, it generates electricity from the base of its tail. It loves to fetch balls and if you give it some treats it will love you forever.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-yamper-HomeSprite.png|right]]
-![[SRD-yamper-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

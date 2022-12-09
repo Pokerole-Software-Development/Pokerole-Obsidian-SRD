@@ -22,6 +22,7 @@ Name: Regigigas
 Number: 486
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-regigigas-ShuffleToken.png
 Sprite: regigigas.png
 Type1: Normal
 Type2: ''
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-regigigas-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-regigigas-BookSprite.png|wsmall]]
+> ![[SRD-regigigas-HomeSprite.png]]
+> ![[SRD-regigigas-BoxSprite.png|htiny]]
+> ![[SRD-regigigas-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *A very old legend tells about the King of Giants, who could crush a mountain with its grip and mold living titans from the rubble.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-regigigas-HomeSprite.png|right]]
-![[SRD-regigigas-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

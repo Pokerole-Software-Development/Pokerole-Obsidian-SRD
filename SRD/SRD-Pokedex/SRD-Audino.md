@@ -26,6 +26,7 @@ Name: Audino
 Number: 531
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: ''
+ShuffleToken: SRD-audino-ShuffleToken.png
 Sprite: audino.png
 Type1: Normal
 Type2: ''
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-audino-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-audino-BookSprite.png|wsmall]]
+> ![[SRD-audino-HomeSprite.png]]
+> ![[SRD-audino-BoxSprite.png|htiny]]
+> ![[SRD-audino-ShuffleToken.png|wsmall]]
+
 
 *Hearing Pokemon*
 *Its auditory sense is astounding, using the feelers on it’s ears it can know the health state of others. It is a caring Pokemon with a sweet disposition to help, but it is not too common to see in the wild.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-audino-HomeSprite.png|right]]
-![[SRD-audino-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

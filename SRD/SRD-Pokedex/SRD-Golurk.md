@@ -23,6 +23,7 @@ Name: Golurk
 Number: 623
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
+ShuffleToken: SRD-golurk-ShuffleToken.png
 Sprite: golurk.png
 Type1: Ground
 Type2: Ghost
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-golurk-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-golurk-BookSprite.png|wsmall]]
+> ![[SRD-golurk-HomeSprite.png]]
+> ![[SRD-golurk-BoxSprite.png|htiny]]
+> ![[SRD-golurk-ShuffleToken.png|wsmall]]
+
 
 *Automaton Pokemon*
 *It is said that Golurk were ordered to protect people and Pokemon by the ancient people who created them. There are records of only one still alive found on the ruin, the rest are just statues now.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-golurk-HomeSprite.png|right]]
-![[SRD-golurk-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

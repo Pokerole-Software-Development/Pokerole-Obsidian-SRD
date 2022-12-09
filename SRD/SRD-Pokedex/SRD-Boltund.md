@@ -23,6 +23,7 @@ Name: Boltund
 Number: 836
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-boltund-ShuffleToken.png
 Sprite: boltund.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-boltund-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-boltund-BookSprite.png|wsmall]]
+> ![[SRD-boltund-HomeSprite.png]]
+> ![[SRD-boltund-BoxSprite.png|htiny]]
+> ![[SRD-boltund-ShuffleToken.png|wsmall]]
+
 
 *Dog Pokemon*
 *It sends electricity through its legs to boost their speed, it easily breaks 50 mph. They get destructive and stressed if you do not take them out to run daily, otherwise they are chill and easygoing Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-boltund-HomeSprite.png|right]]
-![[SRD-boltund-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

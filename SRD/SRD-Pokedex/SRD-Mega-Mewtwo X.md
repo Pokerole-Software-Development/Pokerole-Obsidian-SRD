@@ -22,6 +22,7 @@ Name: Mega-Mewtwo X
 Number: 150
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-mewtwo-mega-x-ShuffleToken.png
 Sprite: mewtwo-mega-x.png
 Type1: Psychic
 Type2: Fighting
@@ -35,7 +36,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mewtwo-mega-x-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mewtwo-mega-x-BookSprite.png|wsmall]]
+> ![[SRD-mewtwo-mega-x-HomeSprite.png]]
+> ![[SRD-mewtwo-mega-x-BoxSprite.png|htiny]]
+> ![[SRD-mewtwo-mega-x-ShuffleToken.png|wsmall]]
+
 
 *No Data*
 *The power of the Mega Stone was absorbed into its muscles if it grapples you and its psychic force does not crack you its strong arms will.*
@@ -54,8 +60,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-![[SRD-mewtwo-mega-x-HomeSprite.png|right]]
-![[SRD-mewtwo-mega-x-BoxSprite.png|right]]
 
 **Recommended Rank**:: Master
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Whimsicott
 Number: 547
 PrimaryEggGroup: Fairy
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-whimsicott-ShuffleToken.png
 Sprite: whimsicott.png
 Type1: Grass
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-whimsicott-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-whimsicott-BookSprite.png|wsmall]]
+> ![[SRD-whimsicott-HomeSprite.png]]
+> ![[SRD-whimsicott-BoxSprite.png|htiny]]
+> ![[SRD-whimsicott-ShuffleToken.png|wsmall]]
+
 
 *Windveiled Pokemon*
 *Riding whirlwinds, they appear and disappear. These Pokemon sneak through even the smallest gaps into houses and cause all sorts of mischief the balls of white fluff it leaves behind reveal its presence.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-whimsicott-HomeSprite.png|right]]
-![[SRD-whimsicott-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

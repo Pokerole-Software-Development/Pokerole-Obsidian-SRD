@@ -23,6 +23,7 @@ Name: Whirlipede
 Number: 544
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-whirlipede-ShuffleToken.png
 Sprite: whirlipede.png
 Type1: Bug
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-whirlipede-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-whirlipede-BookSprite.png|wsmall]]
+> ![[SRD-whirlipede-HomeSprite.png]]
+> ![[SRD-whirlipede-BoxSprite.png|htiny]]
+> ![[SRD-whirlipede-ShuffleToken.png|wsmall]]
+
 
 *Curlipede Pokemon*
 *It is usually motionless, when it is attacked, it rotates at high speed and then crashes into its opponent with its body full of poison spikes. Inside it is storing energy for evolving, which normally takes a few months.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-whirlipede-HomeSprite.png|right]]
-![[SRD-whirlipede-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Marowak
 Number: 105
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-marowak-ShuffleToken.png
 Sprite: marowak.png
 Type1: Ground
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-marowak-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-marowak-BookSprite.png|wsmall]]
+> ![[SRD-marowak-HomeSprite.png]]
+> ![[SRD-marowak-BoxSprite.png|htiny]]
+> ![[SRD-marowak-ShuffleToken.png|wsmall]]
+
 
 *Bone Keeper Pokemon*
 *Its rough past has hardened its heart. Now tenacious and violent, this Pokemon will use its Bone club as a weapon against foes. Marowak's den is usually full of the bones it has collected.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-marowak-HomeSprite.png|right]]
-![[SRD-marowak-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

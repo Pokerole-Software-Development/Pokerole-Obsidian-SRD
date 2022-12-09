@@ -23,6 +23,7 @@ Name: Mareep
 Number: 179
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Field
+ShuffleToken: SRD-mareep-ShuffleToken.png
 Sprite: mareep.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mareep-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mareep-BookSprite.png|wsmall]]
+> ![[SRD-mareep-HomeSprite.png]]
+> ![[SRD-mareep-BoxSprite.png|htiny]]
+> ![[SRD-mareep-ShuffleToken.png|wsmall]]
+
 
 *Wool Pokemon*
 *Its fluffy coat of wool builds a static charge, the more static electricity, the more brightly the lightbulb at the tip of its tail glows. Farmers shed their wool by the summer but it grows back quickly.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-mareep-HomeSprite.png|right]]
-![[SRD-mareep-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -26,6 +26,7 @@ Name: Sharpedo
 Number: 319
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sharpedo-ShuffleToken.png
 Sprite: sharpedo.png
 Type1: Water
 Type2: Dark
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sharpedo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sharpedo-BookSprite.png|wsmall]]
+> ![[SRD-sharpedo-HomeSprite.png]]
+> ![[SRD-sharpedo-BoxSprite.png|htiny]]
+> ![[SRD-sharpedo-ShuffleToken.png|wsmall]]
+
 
 *Brutal Pokemon*
 *Known as the “Bully of the Sea”, widely feared for its cruelty, malice and gangster attitude. They hurt Pokemon for fun and sink boats for sport. Sharpedos are among the fastest swimmers.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-sharpedo-HomeSprite.png|right]]
-![[SRD-sharpedo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

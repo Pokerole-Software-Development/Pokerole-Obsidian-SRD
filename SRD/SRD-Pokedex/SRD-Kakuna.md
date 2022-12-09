@@ -23,6 +23,7 @@ Name: Kakuna
 Number: 14
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-kakuna-ShuffleToken.png
 Sprite: kakuna.png
 Type1: Bug
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kakuna-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kakuna-BookSprite.png|wsmall]]
+> ![[SRD-kakuna-HomeSprite.png]]
+> ![[SRD-kakuna-BoxSprite.png|htiny]]
+> ![[SRD-kakuna-ShuffleToken.png|wsmall]]
+
 
 *Cocoon Pokemon*
 *It remains virtually immobile while it clings to a tree. On the inside, it is preparing for evolution by rising the temperature of its shell. Beware of Beedrills that may roam close to it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-kakuna-HomeSprite.png|right]]
-![[SRD-kakuna-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

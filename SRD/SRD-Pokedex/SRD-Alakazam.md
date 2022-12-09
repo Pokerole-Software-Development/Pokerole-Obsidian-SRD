@@ -26,6 +26,7 @@ Name: Alakazam
 Number: 65
 PrimaryEggGroup: Human-Like
 SecondaryEggGroup: ''
+ShuffleToken: SRD-alakazam-ShuffleToken.png
 Sprite: alakazam.png
 Type1: Psychic
 Type2: ''
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-alakazam-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-alakazam-BookSprite.png|wsmall]]
+> ![[SRD-alakazam-HomeSprite.png]]
+> ![[SRD-alakazam-BoxSprite.png|htiny]]
+> ![[SRD-alakazam-ShuffleToken.png|wsmall]]
+
 
 *Psi Pokemon*
 *A Pokemon that can memorize anything and never forgets what it learns. Over time it becomes too smart to allow anyone to be its master. Alakazam's psychic powers can be terrifying.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-alakazam-HomeSprite.png|right]]
-![[SRD-alakazam-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

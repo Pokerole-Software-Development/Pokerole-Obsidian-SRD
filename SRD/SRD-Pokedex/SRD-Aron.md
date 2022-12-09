@@ -23,6 +23,7 @@ Name: Aron
 Number: 304
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-aron-ShuffleToken.png
 Sprite: aron.png
 Type1: Steel
 Type2: Rock
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-aron-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-aron-BookSprite.png|wsmall]]
+> ![[SRD-aron-HomeSprite.png]]
+> ![[SRD-aron-BoxSprite.png|htiny]]
+> ![[SRD-aron-ShuffleToken.png|wsmall]]
+
 
 *Iron Armor Pokemon*
 *They can be seen feeding on iron ore in the mountains or causing trouble by eating rails, bridges and vehicles. When they evolve, Arons shed their steel armors and develop a stronger one.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-aron-HomeSprite.png|right]]
-![[SRD-aron-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

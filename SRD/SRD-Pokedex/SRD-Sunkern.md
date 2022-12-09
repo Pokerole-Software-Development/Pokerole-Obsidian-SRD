@@ -23,6 +23,7 @@ Name: Sunkern
 Number: 191
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-sunkern-ShuffleToken.png
 Sprite: sunkern.png
 Type1: Grass
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-sunkern-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-sunkern-BookSprite.png|wsmall]]
+> ![[SRD-sunkern-HomeSprite.png]]
+> ![[SRD-sunkern-BoxSprite.png|htiny]]
+> ![[SRD-sunkern-ShuffleToken.png|wsmall]]
+
 
 *Seed Pokemon*
 *They suddenly appear after a cold winter. They survive by drinking only dewdrops from under the leaves of plants. It tries not to move a lot since lots of bird Pokemon prey on them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-sunkern-HomeSprite.png|right]]
-![[SRD-sunkern-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

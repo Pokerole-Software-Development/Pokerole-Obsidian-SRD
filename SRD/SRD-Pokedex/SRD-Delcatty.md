@@ -23,6 +23,7 @@ Name: Delcatty
 Number: 301
 PrimaryEggGroup: Field
 SecondaryEggGroup: Fairy
+ShuffleToken: SRD-delcatty-ShuffleToken.png
 Sprite: delcatty.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-delcatty-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-delcatty-BookSprite.png|wsmall]]
+> ![[SRD-delcatty-HomeSprite.png]]
+> ![[SRD-delcatty-BoxSprite.png|htiny]]
+> ![[SRD-delcatty-ShuffleToken.png|wsmall]]
+
 
 *Prim Pokemon*
 *They like to live without restrictions, spending their time eating and sleeping whenever they feel like it. Popular among females. Delcatties love clean places, good food and to groom themselves.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-delcatty-HomeSprite.png|right]]
-![[SRD-delcatty-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: No

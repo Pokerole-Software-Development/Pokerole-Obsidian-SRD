@@ -23,6 +23,7 @@ Name: Frogadier
 Number: 657
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
+ShuffleToken: SRD-frogadier-ShuffleToken.png
 Sprite: frogadier.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-frogadier-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-frogadier-BookSprite.png|wsmall]]
+> ![[SRD-frogadier-HomeSprite.png]]
+> ![[SRD-frogadier-BoxSprite.png|htiny]]
+> ![[SRD-frogadier-ShuffleToken.png|wsmall]]
+
 
 *Bubble Frog Pokemon*
 *It is incredibly hard to catch. It starts practicing its skills by throwing foam covered pebbles at foes. Many trainers find this rebellious stage very challenging to handle and end up being its targets of practice.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-frogadier-HomeSprite.png|right]]
-![[SRD-frogadier-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

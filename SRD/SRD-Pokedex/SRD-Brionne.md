@@ -23,6 +23,7 @@ Name: Brionne
 Number: 729
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
+ShuffleToken: SRD-brionne-ShuffleToken.png
 Sprite: brionne.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-brionne-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-brionne-BookSprite.png|wsmall]]
+> ![[SRD-brionne-HomeSprite.png]]
+> ![[SRD-brionne-BoxSprite.png|htiny]]
+> ![[SRD-brionne-ShuffleToken.png|wsmall]]
+
 
 *Pop Star Pokemon*
 *In the wild, each pack has their own songs and dances, Brionne practice them in the moonlight. It is cheerful and not timid at all, it forms friendships easily through dance movements.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-brionne-HomeSprite.png|right]]
-![[SRD-brionne-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

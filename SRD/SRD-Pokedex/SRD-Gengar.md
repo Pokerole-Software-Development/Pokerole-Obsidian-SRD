@@ -26,6 +26,7 @@ Name: Gengar
 Number: 94
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gengar-ShuffleToken.png
 Sprite: gengar.png
 Type1: Ghost
 Type2: Poison
@@ -39,7 +40,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gengar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gengar-BookSprite.png|wsmall]]
+> ![[SRD-gengar-HomeSprite.png]]
+> ![[SRD-gengar-BoxSprite.png|htiny]]
+> ![[SRD-gengar-ShuffleToken.png|wsmall]]
+
 
 *Shadow Pokemon*
 *This Pokemon is mischievous but it can be downright evil. It takes joy in casting curses upon innocents and eating the life of people and Pokemon. It lurks in the shadows and disguises itself as one.*
@@ -58,8 +64,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-gengar-HomeSprite.png|right]]
-![[SRD-gengar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

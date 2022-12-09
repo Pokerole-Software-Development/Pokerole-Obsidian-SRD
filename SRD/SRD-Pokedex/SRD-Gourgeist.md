@@ -23,6 +23,7 @@ Name: Gourgeist
 Number: 711
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-gourgeist-ShuffleToken.png
 Sprite: gourgeist.png
 Type1: Ghost
 Type2: Grass
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-gourgeist-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-gourgeist-BookSprite.png|wsmall]]
+> ![[SRD-gourgeist-HomeSprite.png]]
+> ![[SRD-gourgeist-BoxSprite.png|htiny]]
+> ![[SRD-gourgeist-ShuffleToken.png|wsmall]]
+
 
 *Pumpkin Pokemon*
 *They wander in the town streets every new moon. It wraps its prey on its arms and sings joyfully as it observes the suffering of the victim. Hearing it sing will give you horrible nightmares.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-gourgeist-HomeSprite.png|right]]
-![[SRD-gourgeist-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

@@ -23,6 +23,7 @@ Name: Mudkip
 Number: 258
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Water 1
+ShuffleToken: SRD-mudkip-ShuffleToken.png
 Sprite: mudkip.png
 Type1: Water
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-mudkip-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-mudkip-BookSprite.png|wsmall]]
+> ![[SRD-mudkip-HomeSprite.png]]
+> ![[SRD-mudkip-BoxSprite.png|htiny]]
+> ![[SRD-mudkip-ShuffleToken.png|wsmall]]
+
 
 *Mud Fish Pokemon*
 *The fin on its head is a radar to sense movement underwater. They bury themselves under the mud at the water’s edge and at the bottom of rivers. They never back away even if their foe is bigger.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-mudkip-HomeSprite.png|right]]
-![[SRD-mudkip-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

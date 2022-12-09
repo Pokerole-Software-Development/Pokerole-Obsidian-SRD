@@ -23,6 +23,7 @@ Name: Mega-Kangaskhan
 Number: 115
 PrimaryEggGroup: Monster
 SecondaryEggGroup: ''
+ShuffleToken: SRD-kangaskhan-mega-ShuffleToken.png
 Sprite: kangaskhan-mega.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-kangaskhan-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-kangaskhan-mega-BookSprite.png|wsmall]]
+> ![[SRD-kangaskhan-mega-HomeSprite.png]]
+> ![[SRD-kangaskhan-mega-BoxSprite.png|htiny]]
+> ![[SRD-kangaskhan-mega-ShuffleToken.png|wsmall]]
+
 
 *Parent Pokemon*
 *The mother gives all the power of the Mega Stone to her child. The child grows violent and both team up as formidable fighters. But the mother worries about her child’s future as she raised it better than that.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-kangaskhan-mega-HomeSprite.png|right]]
-![[SRD-kangaskhan-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

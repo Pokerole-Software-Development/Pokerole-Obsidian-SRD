@@ -23,6 +23,7 @@ Name: Espurr
 Number: 677
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-espurr-ShuffleToken.png
 Sprite: espurr.png
 Type1: Psychic
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-espurr-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-espurr-BookSprite.png|wsmall]]
+> ![[SRD-espurr-HomeSprite.png]]
+> ![[SRD-espurr-BoxSprite.png|htiny]]
+> ![[SRD-espurr-ShuffleToken.png|wsmall]]
+
 
 *Restraint Pokemon*
 *The organs that emit its intense psychic power are tucked under its ears to keep energy from escaping. It still does not control its power and could destroy something without realizing it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-espurr-HomeSprite.png|right]]
-![[SRD-espurr-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

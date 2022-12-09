@@ -23,6 +23,7 @@ Name: Mega-Blaziken
 Number: 257
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-blaziken-mega-ShuffleToken.png
 Sprite: blaziken-mega.png
 Type1: Fire
 Type2: Fighting
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-blaziken-mega-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-blaziken-mega-BookSprite.png|wsmall]]
+> ![[SRD-blaziken-mega-HomeSprite.png]]
+> ![[SRD-blaziken-mega-BoxSprite.png|htiny]]
+> ![[SRD-blaziken-mega-ShuffleToken.png|wsmall]]
+
 
 *Blaze Pokemon*
 *The power of the Mega Stone makes its inner fire burn so strong that it sets its limbs ablaze. This allows it to move faster than ever but it also takes a toll on its feathers as they burn to black cinders.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-blaziken-mega-HomeSprite.png|right]]
-![[SRD-blaziken-mega-BoxSprite.png|right]]
 
 **Recommended Rank**:: Pro
 **Good Starter**:: No

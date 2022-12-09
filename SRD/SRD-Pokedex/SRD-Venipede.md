@@ -23,6 +23,7 @@ Name: Venipede
 Number: 543
 PrimaryEggGroup: Bug
 SecondaryEggGroup: ''
+ShuffleToken: SRD-venipede-ShuffleToken.png
 Sprite: venipede.png
 Type1: Bug
 Type2: Poison
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-venipede-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-venipede-BookSprite.png|wsmall]]
+> ![[SRD-venipede-HomeSprite.png]]
+> ![[SRD-venipede-BoxSprite.png|htiny]]
+> ![[SRD-venipede-ShuffleToken.png|wsmall]]
+
 
 *Centipede Pokemon*
 *Incredibly aggressive for a Pokemon that size. It uses the feelers on it’s front and back to locate things around. Its bite injects a potent venom, enough to deter the large bird Pokemon that try to prey on it.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-venipede-HomeSprite.png|right]]
-![[SRD-venipede-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: Yes

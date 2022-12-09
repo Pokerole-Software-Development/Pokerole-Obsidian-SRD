@@ -23,6 +23,7 @@ Name: Tropius
 Number: 357
 PrimaryEggGroup: Monster
 SecondaryEggGroup: Grass
+ShuffleToken: SRD-tropius-ShuffleToken.png
 Sprite: tropius.png
 Type1: Grass
 Type2: Flying
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tropius-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tropius-BookSprite.png|wsmall]]
+> ![[SRD-tropius-HomeSprite.png]]
+> ![[SRD-tropius-BoxSprite.png|htiny]]
+> ![[SRD-tropius-ShuffleToken.png|wsmall]]
+
 
 *Fruit Pokemon*
 *It is very common in humid and hot regions. It can grow back the fruit it has eaten. Mothers prefer Tropius fruits to feed their children as it is more nutritive and sweet. They are mellow and friendly Pokemon.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-tropius-HomeSprite.png|right]]
-![[SRD-tropius-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

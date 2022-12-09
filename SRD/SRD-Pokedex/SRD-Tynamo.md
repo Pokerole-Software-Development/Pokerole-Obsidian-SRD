@@ -23,6 +23,7 @@ Name: Tynamo
 Number: 602
 PrimaryEggGroup: Amorphous
 SecondaryEggGroup: ''
+ShuffleToken: SRD-tynamo-ShuffleToken.png
 Sprite: tynamo.png
 Type1: Electric
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-tynamo-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-tynamo-BookSprite.png|wsmall]]
+> ![[SRD-tynamo-HomeSprite.png]]
+> ![[SRD-tynamo-BoxSprite.png|htiny]]
+> ![[SRD-tynamo-ShuffleToken.png|wsmall]]
+
 
 *EleFish Pokemon*
 *These Pokemon move in schools. They have an electricity-storing organ at their sides but they can’t generate their own power. They only discharge electricity if they are in danger.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-tynamo-HomeSprite.png|right]]
-![[SRD-tynamo-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

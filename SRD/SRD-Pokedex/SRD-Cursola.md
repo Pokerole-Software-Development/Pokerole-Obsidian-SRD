@@ -23,6 +23,7 @@ Name: Cursola
 Number: 864
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Water 3
+ShuffleToken: SRD-cursola-ShuffleToken.png
 Sprite: cursola.png
 Type1: Ghost
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-cursola-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-cursola-BookSprite.png|wsmall]]
+> ![[SRD-cursola-HomeSprite.png]]
+> ![[SRD-cursola-BoxSprite.png|htiny]]
+> ![[SRD-cursola-ShuffleToken.png|wsmall]]
+
 
 *Coral Pokemon*
 *The ectoplasm serves as protection for its soul, do not touch it or you’ll become stiff as stone. This Pokemon longs for the days where coral reefs were full of life, it holds a grudge to those who destroyed them.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-cursola-HomeSprite.png|right]]
-![[SRD-cursola-BoxSprite.png|right]]
 
 **Recommended Rank**:: Ace
 **Good Starter**:: No

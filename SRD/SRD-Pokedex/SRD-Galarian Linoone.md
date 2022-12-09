@@ -23,6 +23,7 @@ Name: Galarian Linoone
 Number: 264
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
+ShuffleToken: SRD-linoone-galar-ShuffleToken.png
 Sprite: linoone-galar.png
 Type1: Dark
 Type2: Normal
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-linoone-galar-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-linoone-galar-BookSprite.png|wsmall]]
+> ![[SRD-linoone-galar-HomeSprite.png]]
+> ![[SRD-linoone-galar-BoxSprite.png|htiny]]
+> ![[SRD-linoone-galar-ShuffleToken.png|wsmall]]
+
 
 *Rush Pokemon*
 *It uses its long tongue to taunt its opponents. Once the foe is enraged, this Pokemon hurls itself at it, tackling them forcefully. They are bad-mannered and enjoy to thrash things about.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-![[SRD-linoone-galar-HomeSprite.png|right]]
-![[SRD-linoone-galar-BoxSprite.png|right]]
 
 **Recommended Rank**:: Amateur
 **Good Starter**:: No

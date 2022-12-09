@@ -23,6 +23,7 @@ Name: Comfey
 Number: 764
 PrimaryEggGroup: Grass
 SecondaryEggGroup: ''
+ShuffleToken: SRD-comfey-ShuffleToken.png
 Sprite: comfey.png
 Type1: Fairy
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-comfey-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-comfey-BookSprite.png|wsmall]]
+> ![[SRD-comfey-HomeSprite.png]]
+> ![[SRD-comfey-BoxSprite.png|htiny]]
+> ![[SRD-comfey-ShuffleToken.png|wsmall]]
+
 
 *Posy Picker Pokemon*
 *This tiny Pokemon gathers flowers and connects them to itself forming a ring. The flowers never wither and their aroma becomes soothing and therapeutic. If it likes you it will create a flower ring just for you.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-![[SRD-comfey-HomeSprite.png|right]]
-![[SRD-comfey-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: No

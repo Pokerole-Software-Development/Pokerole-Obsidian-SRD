@@ -23,6 +23,7 @@ Name: Munchlax
 Number: 446
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-munchlax-ShuffleToken.png
 Sprite: munchlax.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-munchlax-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-munchlax-BookSprite.png|wsmall]]
+> ![[SRD-munchlax-HomeSprite.png]]
+> ![[SRD-munchlax-BoxSprite.png|htiny]]
+> ![[SRD-munchlax-ShuffleToken.png|wsmall]]
+
 
 *Big Eater Pokemon*
 *A Munchlaxes appetite is never really satisfied, it can eat its weight in food and will almost never care about what it is eating. They tend to pick up anything that looks edible and save it for later.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-![[SRD-munchlax-HomeSprite.png|right]]
-![[SRD-munchlax-BoxSprite.png|right]]
 
 **Recommended Rank**:: Beginner
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Azurill
 Number: 298
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-azurill-ShuffleToken.png
 Sprite: azurill.png
 Type1: Normal
 Type2: Fairy
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-azurill-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-azurill-BookSprite.png|wsmall]]
+> ![[SRD-azurill-HomeSprite.png]]
+> ![[SRD-azurill-BoxSprite.png|htiny]]
+> ![[SRD-azurill-ShuffleToken.png|wsmall]]
+
 
 *Polka Dot Pokemon*
 *They use their tail as a lasso. When they throw their ball, Azurills get dragged along with it. They are commonly seen bouncing and playing with other Pokemon in the beach. They love fruit paps.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-azurill-HomeSprite.png|right]]
-![[SRD-azurill-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes

@@ -23,6 +23,7 @@ Name: Happiny
 Number: 440
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
+ShuffleToken: SRD-happiny-ShuffleToken.png
 Sprite: happiny.png
 Type1: Normal
 Type2: ''
@@ -36,7 +37,12 @@ Weight:
 
 # `= this.name`
 
-![[SRD-happiny-BookSprite.png|right wsmall]]
+> [!grid]
+> ![[SRD-happiny-BookSprite.png|wsmall]]
+> ![[SRD-happiny-HomeSprite.png]]
+> ![[SRD-happiny-BoxSprite.png|htiny]]
+> ![[SRD-happiny-ShuffleToken.png|wsmall]]
+
 
 *Playhouse Pokemon*
 *It is not common to see Happinies. This baby Pokemon cannot produce eggs yet, so she searches for white stones and carries them on its pouch. It likes to look pretty and tries to always be adorable.*
@@ -55,8 +61,6 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-![[SRD-happiny-HomeSprite.png|right]]
-![[SRD-happiny-BoxSprite.png|right]]
 
 **Recommended Rank**:: Starter
 **Good Starter**:: Yes
