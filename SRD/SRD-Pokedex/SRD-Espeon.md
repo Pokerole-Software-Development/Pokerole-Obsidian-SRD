@@ -9,6 +9,13 @@ DexDescription: Espeon is extremely loyal to the trainer it considers worthy. It
   said to have developed precognitive powers to protect its trainer from harm. The
   orb on its forehead glows whenever it uses psychic energy.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Special
+  Pokemon: '[[SRD-Eevee]]'
+  Special: Sunlight
+  Stat: Happiness
+  Value: 4
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +68,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'0" / 0.9m
 **Weight**: 58.4lbs / 26.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon       | Kind    | Stat      |   Value | Special   |
+|:----------|:--------------|:--------|:----------|--------:|:----------|
+| From      | [[SRD-Eevee]] | Special | Happiness |       4 | Sunlight  |
 
 ![[SRD-Espeon-Learnset]]

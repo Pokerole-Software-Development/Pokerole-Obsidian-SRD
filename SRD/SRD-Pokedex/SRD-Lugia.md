@@ -9,6 +9,7 @@ DexDescription: Known as the Guardian of the Sea. It used to live in the Brass T
   where Pokemon awoke. Lugia's Myth is linked to the idea that those whose death was
   pure will be reborn in the sea.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 17'1" / 5.2m
 **Weight**: 476.2lbs / 216.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Lugia-Learnset]]

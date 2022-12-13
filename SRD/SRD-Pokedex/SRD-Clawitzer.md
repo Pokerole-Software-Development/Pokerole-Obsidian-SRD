@@ -9,6 +9,11 @@ DexDescription: "They can be seen swimming backwards using their launcher as A p
   \ but they usually stay at the bottom of the sea. Their meat is tough and bitter\
   \ so people don\u2019t use them as food anymore."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Clauncher]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'3" / 1.3m
 **Weight**: 77.8lbs / 35.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| From      | [[SRD-Clauncher]] | Level  | Medium  |
 
 ![[SRD-Clawitzer-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: It lives near water sources. Its eyes can see 360 degrees withou
   even moving. Yanma is a great flyer capable of making sudden stops and turning midair
   to quickly chase down targeted prey.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Yanmega]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 3'9" / 1.2m
 **Weight**: 83.8lbs / 38.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| To        | [[SRD-Yanmega]] | Level  | Medium  |
 
 ![[SRD-Yanma-Learnset]]

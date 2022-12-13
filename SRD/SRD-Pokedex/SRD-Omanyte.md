@@ -9,6 +9,11 @@ DexDescription: One of the ancient and extinct Pokemon that have been revived fr
   fossils by science. If attacked, it withdraws into its hard shell. It is not found
   in the wild anymore, but fossils can be found in the sea.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Omastar]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 16.5lbs / 7.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| To        | [[SRD-Omastar]] | Level  | Slow    |
 
 ![[SRD-Omanyte-Learnset]]

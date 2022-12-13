@@ -9,6 +9,11 @@ DexDescription: They are curious but incredibly cowardly Pokemon. They are easil
   startled and will shoot a stenchy liquid as a warning. Even so, they are highly
   valued due to their ability to eat and clean any garbage.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Golisopod]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'6" / 0.5m
 **Weight**: 26.5lbs / 12.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| To        | [[SRD-Golisopod]] | Level  | Slow    |
 
 ![[SRD-Wimpod-Learnset]]

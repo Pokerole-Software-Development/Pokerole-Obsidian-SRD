@@ -9,6 +9,11 @@ DexDescription: They love to feed on berries and nuts they store on their cheeks
   they can get very anxious if its cheeks are empty. If you feed one of them they
   will follow you and call for others so you feed them as well.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Greedent]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'0" / 0.3m
 **Weight**: 5.5lbs / 2.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| To        | [[SRD-Greedent]] | Level  | Medium  |
 
 ![[SRD-Skwovet-Learnset]]

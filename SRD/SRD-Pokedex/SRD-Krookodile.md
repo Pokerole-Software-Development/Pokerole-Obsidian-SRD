@@ -9,6 +9,11 @@ DexDescription: "A very violent Pokemon. They try to clamp down on anything that
   \ in front of their eyes and once grasped they never let the prey escape. It can\
   \ be very dangerous if it\u2019s not tamed correctly."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Krokorok]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 212.3lbs / 96.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| From      | [[SRD-Krokorok]] | Level  | Medium  |
 
 ![[SRD-Krookodile-Learnset]]

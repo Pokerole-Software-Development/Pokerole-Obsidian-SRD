@@ -9,6 +9,11 @@ DexDescription: Very few have been seen in old ruins. These Pokemon are thought 
   have been created by the science of an ancient and mysterious civilization. The
   energy inside of it comes from an unknown source.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Golurk]]'
+  Speed: Medium
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 3'3" / 1.0m
 **Weight**: 202.8lbs / 92.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon        | Kind   | Speed   |
+|:----------|:---------------|:-------|:--------|
+| To        | [[SRD-Golurk]] | Level  | Medium  |
 
 ![[SRD-Golett-Learnset]]

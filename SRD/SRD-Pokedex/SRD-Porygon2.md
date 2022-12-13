@@ -9,6 +9,15 @@ DexDescription: This man-made Pokemon is an upgraded version of Porygon. Used fo
   space exploration and planetary development, boasting the power of science. Its
   AI software allows it to learn on its own.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: 'Upgrade '
+  Kind: Trade
+  Pokemon: '[[SRD-Porygon]]'
+- Evolves: To
+  Item: Dubious Disc
+  Kind: Trade
+  Pokemon: '[[SRD-Porygon-Z]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 71.7lbs / 32.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon           | Kind   | Item         |
+|:----------|:------------------|:-------|:-------------|
+| From      | [[SRD-Porygon]]   | Trade  | Upgrade      |
+| To        | [[SRD-Porygon-Z]] | Trade  | Dubious Disc |
 
 ![[SRD-Porygon2-Learnset]]

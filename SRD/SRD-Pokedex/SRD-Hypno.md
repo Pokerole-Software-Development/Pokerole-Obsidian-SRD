@@ -9,6 +9,11 @@ DexDescription: Old children stories tell of an Hypno who takes away naughty kid
   and feasts on their dreams until they are old men. They have an urge to eat the
   dreams of others since they cannot sleep themselves.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Drowzee]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'2" / 1.6m
 **Weight**: 166.7lbs / 75.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| From      | [[SRD-Drowzee]] | Level  | Slow    |
 
 ![[SRD-Hypno-Learnset]]

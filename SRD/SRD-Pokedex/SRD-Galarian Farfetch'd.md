@@ -9,6 +9,11 @@ DexDescription: The stalks of leeks are thicker and longer in the Galar region, 
   has allowed Farfetch'd fare better than their Kanto counterparts. It has also made
   them hardier and warrior-like. They are still delicious, though.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Special
+  Pokemon: '[[SRD-Sirfetch''d]]'
+  Special: Score 3 Critical hits in 1 battle
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'6" / 0.8m
 **Weight**: 92.6lbs / 42.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon            | Kind    | Special                           |
+|:----------|:-------------------|:--------|:----------------------------------|
+| To        | [[SRD-Sirfetch'd]] | Special | Score 3 Critical hits in 1 battle |
 
 ![[SRD-Galarian Farfetch'd-Learnset]]

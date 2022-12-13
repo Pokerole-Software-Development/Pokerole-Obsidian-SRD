@@ -9,6 +9,14 @@ DexDescription: A Pokemon that can memorize anything and never forgets what it l
   Over time it becomes too smart to allow anyone to be its master. Alakazam's psychic
   powers can be terrifying.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Trade
+  Pokemon: '[[SRD-Kadabra]]'
+- Evolves: To
+  Item: Alakazite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Alakazam]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +27,6 @@ HiddenAbility: Magic Guard
 HomeSprite: SRD-alakazam-HomeSprite.png
 Learnset: '[[SRD-Alakazam-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Alakazite
-  Name: Mega-Alakazam
 Name: Alakazam
 Number: 65
 PrimaryEggGroup: Human-Like
@@ -64,14 +69,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Alakazam]]
-via [[SRD-Alakazite]]
-
 **Height**: 4'9" / 1.5m
 **Weight**: 105.8lbs / 48.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon               | Kind   | Item      |
+|:----------|:----------------------|:-------|:----------|
+| From      | [[SRD-Kadabra]]       | Trade  |           |
+| To        | [[SRD-Mega-Alakazam]] | Mega   | Alakazite |
 
 ![[SRD-Alakazam-Learnset]]

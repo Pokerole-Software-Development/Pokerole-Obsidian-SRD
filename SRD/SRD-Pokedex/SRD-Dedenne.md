@@ -9,6 +9,7 @@ DexDescription: The tail is used to absorb electricity from power outlets. They 
   with each other by feeling the static on their whiskers. Its cute and cuddly appearance
   make it a favorite pet.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 0'7" / 0.2m
 **Weight**: 4.9lbs / 2.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Starter
 
 ![[SRD-Dedenne-Learnset]]

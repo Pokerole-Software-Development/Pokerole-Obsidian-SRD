@@ -9,6 +9,12 @@ DexDescription: Very rare in the wild. People have called it a vampire. It sneak
   up on its intended prey using wings that barely make a sound. Crobat is a surprisingly
   loyal Pokemon.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Golbat]]'
+  Stat: Happiness
+  Value: 4
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'9" / 1.8m
 **Weight**: 165.3lbs / 75.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon        | Kind   | Stat      |   Value |
+|:----------|:---------------|:-------|:----------|--------:|
+| From      | [[SRD-Golbat]] | Stat   | Happiness |       4 |
 
 ![[SRD-Crobat-Learnset]]

@@ -9,6 +9,12 @@ DexDescription: A well-disciplined Rockruff will evolve at Dawn. This Pokemon is
   Loyal and trustworthy. It can climb mountains fast and is a quick runner. The rocks
   on its mane are its main weapons.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Rockruff]]'
+  Special: Day
+  Speed: Medium
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'6" / 0.8m
 **Weight**: 55.1lbs / 25.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Speed   | Special   |
+|:----------|:-----------------|:-------|:--------|:----------|
+| From      | [[SRD-Rockruff]] | Level  | Medium  | Day       |
 
 ![[SRD-Lycanroc Midday-Learnset]]

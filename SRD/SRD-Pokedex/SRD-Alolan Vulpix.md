@@ -9,6 +9,11 @@ DexDescription: "The Vulpix who became stranded in Alola had to change type in o
   \ to survive. Alola\u2019s local name for this Pokemon is Keokeo. They use their\
   \ tails as a fan to cool themselves in hot climates."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Ice Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Alolan Ninetales]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 21.8lbs / 9.9kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon                  | Kind   | Item      |
+|:----------|:-------------------------|:-------|:----------|
+| To        | [[SRD-Alolan Ninetales]] | Stone  | Ice Stone |
 
 ![[SRD-Alolan Vulpix-Learnset]]

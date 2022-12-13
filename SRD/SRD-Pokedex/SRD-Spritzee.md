@@ -9,6 +9,11 @@ DexDescription: In the past, rather than using a perfume, royal ladies had a Spr
   that would waft a fragrance they liked. They are popular today for this same reason.
   They are said to attract the opposite gender to you.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Sachet
+  Kind: Trade
+  Pokemon: '[[SRD-Aromatisse]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 0'7" / 0.2m
 **Weight**: 1.1lbs / 0.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon            | Kind   | Item   |
+|:----------|:-------------------|:-------|:-------|
+| To        | [[SRD-Aromatisse]] | Trade  | Sachet |
 
 ![[SRD-Spritzee-Learnset]]

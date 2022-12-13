@@ -9,6 +9,11 @@ DexDescription: Their timid voice is barely audible, however, if it senses dange
   they start crying loud enough to deafen anyone nearby. Their own noise scares them
   even more, so they cry harder until their ear covers shut.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Loudred]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 35.9lbs / 16.3kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| To        | [[SRD-Loudred]] | Level  | Medium  |
 
 ![[SRD-Whismur-Learnset]]

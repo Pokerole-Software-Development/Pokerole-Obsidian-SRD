@@ -9,6 +9,11 @@ DexDescription: They can be found on the beach, but as they grow stronger they a
   venture more into the land where they fight for ripe berries. They punch with their
   pincers, which are delicious with butter by the way.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Crabominable]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 15.4lbs / 7.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon              | Kind   | Speed   |
+|:----------|:---------------------|:-------|:--------|
+| To        | [[SRD-Crabominable]] | Level  | Medium  |
 
 ![[SRD-Crabrawler-Learnset]]

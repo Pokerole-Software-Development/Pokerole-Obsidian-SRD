@@ -9,6 +9,11 @@ DexDescription: Its fluffy coat of wool builds a static charge, the more static 
   the more brightly the lightbulb at the tip of its tail glows. Farmers shed their
   wool by the summer but it grows back quickly.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Flaaffy]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 17.2lbs / 7.8kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| To        | [[SRD-Flaaffy]] | Level  | Medium  |
 
 ![[SRD-Mareep-Learnset]]

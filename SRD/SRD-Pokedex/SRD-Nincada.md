@@ -9,6 +9,15 @@ DexDescription: They live underground for decades, absorbing nutrients from root
   and waiting for evolution. Nincadas are nearly blind and cannot stand bright lights.
   They only come out to make a cocoon to evolve.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Ninjask]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Shedinja]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'6" / 0.5m
 **Weight**: 12.1lbs / 5.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| To        | [[SRD-Ninjask]]  | Level  | Medium  |
+| To        | [[SRD-Shedinja]] | Level  | Medium  |
 
 ![[SRD-Nincada-Learnset]]

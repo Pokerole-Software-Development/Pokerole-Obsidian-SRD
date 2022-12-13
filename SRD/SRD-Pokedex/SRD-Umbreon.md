@@ -9,6 +9,13 @@ DexDescription: "Umbreon evolved from exposure to the moon\u2019s energy pulses.
   \ lurks in darkness and waits for its foes to move. The rings on its body glow when\
   \ it leaps to attack. Its fur is drenched with poison."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Special
+  Pokemon: '[[SRD-Eevee]]'
+  Special: Moonlight
+  Stat: Happiness
+  Value: 4
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +68,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 59.5lbs / 27.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon       | Kind    | Stat      |   Value | Special   |
+|:----------|:--------------|:--------|:----------|--------:|:----------|
+| From      | [[SRD-Eevee]] | Special | Happiness |       4 | Moonlight |
 
 ![[SRD-Umbreon-Learnset]]

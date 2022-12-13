@@ -9,6 +9,11 @@ DexDescription: It floats using its well-developed sack. They roam close to fish
   spots to steal an easy meal. People allow them to hang around their boats because
   they help whenever a person falls into the water.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Buizel]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'6" / 1.1m
 **Weight**: 73.9lbs / 33.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon        | Kind   | Speed   |
+|:----------|:---------------|:-------|:--------|
+| From      | [[SRD-Buizel]] | Level  | Medium  |
 
 ![[SRD-Floatzel-Learnset]]

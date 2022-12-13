@@ -9,6 +9,11 @@ DexDescription: When electricity builds on its body, it starts to emit a faint g
   and it becomes more aggressive than it normally is. They live in forests but are
   rare to find in the wild.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Thunder Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Pikachu]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'6" / 0.8m
 **Weight**: 66.1lbs / 30.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Item          |
+|:----------|:----------------|:-------|:--------------|
+| From      | [[SRD-Pikachu]] | Stone  | Thunder Stone |
 
 ![[SRD-Raichu-Learnset]]

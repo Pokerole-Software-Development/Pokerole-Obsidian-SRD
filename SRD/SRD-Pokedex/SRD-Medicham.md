@@ -9,6 +9,15 @@ DexDescription: "They are thought to posses a sixth sense. Some of them can hide
   \ presence by lowering their ki. Medichams fight with expert yoga moves, foretelling\
   \ their foe\u2019s attacks and sensing their thoughts."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Meditite]]'
+  Speed: Medium
+- Evolves: To
+  Item: Medichamite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Medicham]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Telepathy
 HomeSprite: SRD-medicham-HomeSprite.png
 Learnset: '[[SRD-Medicham-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Medichamite
-  Name: Mega-Medicham
 Name: Medicham
 Number: 308
 PrimaryEggGroup: Human-Like
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Medicham]]
-via [[SRD-Medichamite]]
-
 **Height**: 4'3" / 1.3m
 **Weight**: 69.4lbs / 31.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon               | Kind   | Speed   | Item        |
+|:----------|:----------------------|:-------|:--------|:------------|
+| From      | [[SRD-Meditite]]      | Level  | Medium  |             |
+| To        | [[SRD-Mega-Medicham]] | Mega   |         | Medichamite |
 
 ![[SRD-Medicham-Learnset]]

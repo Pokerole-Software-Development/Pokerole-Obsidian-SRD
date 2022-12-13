@@ -9,6 +9,11 @@ DexDescription: Kabuto is a Pokemon that has been regenerated from a fossil. How
   in extremely rare cases, living specimens have been found. The Pokemon has not changed
   at all for 300 million years.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Kabutops]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 1'6" / 0.5m
 **Weight**: 25.4lbs / 11.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| To        | [[SRD-Kabutops]] | Level  | Slow    |
 
 ![[SRD-Kabuto-Learnset]]

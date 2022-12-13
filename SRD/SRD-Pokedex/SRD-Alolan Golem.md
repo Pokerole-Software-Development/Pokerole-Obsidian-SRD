@@ -9,6 +9,10 @@ DexDescription: "The Alolan variant of Golem does not roll around like its count
   \ instead it loads rocks into the charger on its head and shoots them around, if\
   \ the rocks miss, the electric shockwave doesn\u2019t."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Trade
+  Pokemon: '[[SRD-Alolan Graveler]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 696.7lbs / 316.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon                 | Kind   |
+|:----------|:------------------------|:-------|
+| From      | [[SRD-Alolan Graveler]] | Trade  |
 
 ![[SRD-Alolan Golem-Learnset]]

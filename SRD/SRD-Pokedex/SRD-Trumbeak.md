@@ -9,6 +9,15 @@ DexDescription: This Pokemon bends its beak to produce a variety of sounds, much
   the annoyance of the neighbors. It also shoots a burst of berry seeds to its foes,
   prey, or an unsuspecting passerby.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Pikipek]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Toucannon]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 32.6lbs / 14.8kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| From      | [[SRD-Pikipek]]   | Level  | Medium  |
+| To        | [[SRD-Toucannon]] | Level  | Medium  |
 
 ![[SRD-Trumbeak-Learnset]]

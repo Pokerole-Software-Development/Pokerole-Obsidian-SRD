@@ -9,6 +9,7 @@ DexDescription: Although small in size, its proficient fighting skills enable it
   keep up with big bruisers like Machamp and Hariyama. Using its wings to attack from
   above allows it to gain an edge in battle.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'6" / 0.8m
 **Weight**: 47.4lbs / 21.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Hawlucha-Learnset]]

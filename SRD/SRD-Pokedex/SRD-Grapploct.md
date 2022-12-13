@@ -9,6 +9,11 @@ DexDescription: A body made up of nothing but muscle makes its tentacles very po
   They come out of the ocean to find opponents to battle, once the fight is over they
   go back into the sea.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Clobbopus]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'2" / 1.6m
 **Weight**: 86.0lbs / 39.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| From      | [[SRD-Clobbopus]] | Level  | Medium  |
 
 ![[SRD-Grapploct-Learnset]]

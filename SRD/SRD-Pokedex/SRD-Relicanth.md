@@ -9,6 +9,7 @@ DexDescription: It has remained unchanged for millions of years. Relicanth was d
   in a deep sea expedition. It feeds on plankton. Their scales are like craggy rocks,
   they can endure the pressure of the deep sea.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 51.6lbs / 23.4kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Relicanth-Learnset]]

@@ -9,6 +9,7 @@ DexDescription: A Kalos legend tells about the eternal struggle between life and
   In the story an ancient King tried to obtain eternal life and the power to make
   its loved ones live again.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 9'8" / 3.0m
 **Weight**: 474.0lbs / 215.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Xerneas-Learnset]]

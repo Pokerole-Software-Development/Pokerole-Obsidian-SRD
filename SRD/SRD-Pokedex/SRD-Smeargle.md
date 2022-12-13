@@ -9,6 +9,7 @@ DexDescription: A special ink oozes from its tail to mark its territory. They ar
   skilled artists, known for painting action scenes from great battles. If they study
   their painting for a long time, they learn those moves.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'9" / 1.2m
 **Weight**: 127.9lbs / 58.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Smeargle-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: A Pokemon that lives on icebergs. It swims in the sea using the 
   on its head to break up the ice. It sleeps a lot during the day, being most active
   at dawn when the temperature starts to cool.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Dewgong]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 3'6" / 1.1m
 **Weight**: 198.4lbs / 90.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| To        | [[SRD-Dewgong]] | Level  | Slow    |
 
 ![[SRD-Seel-Learnset]]

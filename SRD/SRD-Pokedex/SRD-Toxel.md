@@ -9,6 +9,17 @@ DexDescription: Toxel secrete poison through their skin, the closer they are to 
   the brighter their skin color becomes. They need a lot of nurturing but are bad
   tempered and ill mannered so not many take the task.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Toxtricity Amped]]'
+  Special: Extrovert
+  Speed: Slow
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Toxtricity Low Key]]'
+  Special: Introvert
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +72,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 24.3lbs / 11.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon                    | Kind   | Speed   | Special   |
+|:----------|:---------------------------|:-------|:--------|:----------|
+| To        | [[SRD-Toxtricity Amped]]   | Level  | Slow    | Extrovert |
+| To        | [[SRD-Toxtricity Low Key]] | Level  | Slow    | Introvert |
 
 ![[SRD-Toxel-Learnset]]

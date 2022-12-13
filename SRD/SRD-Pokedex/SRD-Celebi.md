@@ -9,6 +9,7 @@ DexDescription: Guardian of the Forest. Celebi is said to be able to travel thro
   time, amending mistakes from people who hurt the land, and crafting a bright future
   for those who live nearby.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'0" / 0.6m
 **Weight**: 11.0lbs / 5.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Celebi-Learnset]]

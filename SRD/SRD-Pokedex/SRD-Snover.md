@@ -9,6 +9,11 @@ DexDescription: "During cold seasons, it migrates to the mountain\u2019s lower r
   \ and returns to the summit in the spring. They are rarely in contact with humans\
   \ but are sought for the frozen berries they grow."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Abomasnow]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 3'3" / 1.0m
 **Weight**: 111.3lbs / 50.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| To        | [[SRD-Abomasnow]] | Level  | Medium  |
 
 ![[SRD-Snover-Learnset]]

@@ -9,6 +9,15 @@ DexDescription: "Prinplups hunt in icy seas. They live solitary lives because th
   \ cannot stand company and will never form a group or a team. They believe they\
   \ are the most important thing in the world, it\u2019s almost irritating."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Piplup]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Empoleon]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'6" / 0.8m
 **Weight**: 50.7lbs / 23.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| From      | [[SRD-Piplup]]   | Level  | Medium  |
+| To        | [[SRD-Empoleon]] | Level  | Medium  |
 
 ![[SRD-Prinplup-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: "It was resurrected from an iron ball-like fossil. It downs prey
   \ headbutts and tramples trees and walls with ease. They were plentiful 100 million\
   \ years ago. You can\u2019t find one nowadays except as a fossil."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Rampardos]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'0" / 0.9m
 **Weight**: 69.4lbs / 31.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| To        | [[SRD-Rampardos]] | Level  | Medium  |
 
 ![[SRD-Cranidos-Learnset]]

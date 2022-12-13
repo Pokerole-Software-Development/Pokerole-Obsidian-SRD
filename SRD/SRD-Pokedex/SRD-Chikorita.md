@@ -9,6 +9,11 @@ DexDescription: It is docile and loves to bathe in the sunlight. It waves its le
   around to keep foes at bay. The sweet fragrance from its leaf, has a strong calming
   and relaxing effect on people and Pokemon.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Bayleef]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 3'0" / 0.9m
 **Weight**: 14.1lbs / 6.4kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| To        | [[SRD-Bayleef]] | Level  | Medium  |
 
 ![[SRD-Chikorita-Learnset]]

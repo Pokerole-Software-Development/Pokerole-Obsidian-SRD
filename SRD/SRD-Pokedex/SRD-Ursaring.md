@@ -9,6 +9,11 @@ DexDescription: They are incredibly strong, great climbers and posses an amazing
   of smell. They snap trees and feed on their fruit as they eat quite a lot. A forest
   full of scratched trees marks the territory of Ursarings.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Teddiursa]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'9" / 1.8m
 **Weight**: 277.3lbs / 125.8kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| From      | [[SRD-Teddiursa]] | Level  | Slow    |
 
 ![[SRD-Ursaring-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: Misdreavus frightens people with a creepy, sobbing cry. It uses 
   red spheres on its neck to absorb fear as nutrition. It takes a wicked pleasure
   in startling and scaring people.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Dusk Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Mismagius]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'3" / 0.7m
 **Weight**: 2.2lbs / 1.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Item       |
+|:----------|:------------------|:-------|:-----------|
+| To        | [[SRD-Mismagius]] | Stone  | Dusk Stone |
 
 ![[SRD-Misdreavus-Learnset]]

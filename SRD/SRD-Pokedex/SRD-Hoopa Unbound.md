@@ -9,6 +9,10 @@ DexDescription: There is a story of an old demon whose power unleashed horrors f
   other dimensions into earth, ripping the fabrics of existence, it opened portals
   to bring evil upon.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Hoopa]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::9)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 21'3" / 6.5m
 **Weight**: 1080.3lbs / 490.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon       | Kind   |
+|:----------|:--------------|:-------|
+| From      | [[SRD-Hoopa]] | Form   |
 
 ![[SRD-Hoopa Unbound-Learnset]]

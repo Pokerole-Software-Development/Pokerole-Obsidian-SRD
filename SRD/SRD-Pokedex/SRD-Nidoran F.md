@@ -9,6 +9,11 @@ DexDescription: A female only species. It lives close to meadows and forests. Th
   are mellow Pokemon. To protect herself, she secretes a powerful toxin through her
   body. Her horn is small but venomous to the touch.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Nidorina]]'
+  Speed: Medium
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 15.4lbs / 7.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| To        | [[SRD-Nidorina]] | Level  | Medium  |
 
 ![[SRD-Nidoran F-Learnset]]

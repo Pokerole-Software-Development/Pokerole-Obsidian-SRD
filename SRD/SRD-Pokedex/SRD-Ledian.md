@@ -9,6 +9,11 @@ DexDescription: When the stars flicker in the night sky, it flutters about scatt
   a glowing powder. The spot patterns on its back grow larger or smaller at night
   depending on the number of stars in the sky.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Ledyba]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'6" / 1.4m
 **Weight**: 78.5lbs / 35.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon        | Kind   | Speed   |
+|:----------|:---------------|:-------|:--------|
+| From      | [[SRD-Ledyba]] | Level  | Medium  |
 
 ![[SRD-Ledian-Learnset]]

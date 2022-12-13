@@ -9,6 +9,11 @@ DexDescription: Quick on temper and to take on a fight. They use their mane to s
   their enemies. Some of them set off from their pride to live alone. Only those who
   develop a full mane get to lead their own pride.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Pyroar]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 29.8lbs / 13.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon        | Kind   | Speed   |
+|:----------|:---------------|:-------|:--------|
+| To        | [[SRD-Pyroar]] | Level  | Medium  |
 
 ![[SRD-Litleo-Learnset]]

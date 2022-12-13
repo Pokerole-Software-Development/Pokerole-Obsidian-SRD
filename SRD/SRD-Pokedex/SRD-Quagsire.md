@@ -9,6 +9,11 @@ DexDescription: "You\u2019ll find its home at the bottom of the river. It hunts 
   \ leaving its mouth wide open in water and waiting for its prey to get in. Because\
   \ it doesn\u2019t move a lot, it does not get very hungry."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Wooper]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'6" / 1.4m
 **Weight**: 165.3lbs / 75.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon        | Kind   | Speed   |
+|:----------|:---------------|:-------|:--------|
+| From      | [[SRD-Wooper]] | Level  | Medium  |
 
 ![[SRD-Quagsire-Learnset]]

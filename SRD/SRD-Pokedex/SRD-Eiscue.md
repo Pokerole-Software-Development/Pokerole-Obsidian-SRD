@@ -9,6 +9,10 @@ DexDescription: This Pokemon keeps its head cool with ice. It fishes for its foo
   by dangling its single hair into the sea to lure in prey. When they tire of swimming
   they simply let their ice hear be drifted away by the sea.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Form Eiscue]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'6" / 1.4m
 **Weight**: 196.2lbs / 89.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon             | Kind   |
+|:----------|:--------------------|:-------|
+| To        | [[SRD-Form Eiscue]] | Form   |
 
 ![[SRD-Eiscue-Learnset]]

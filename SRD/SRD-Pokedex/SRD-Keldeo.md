@@ -9,6 +9,10 @@ DexDescription: Age-old fairy tales of Unova tell the story of four Pokemon that
   the land to a golden age. The young of the group was brave and naive. It could gallop
   on the water surface leaving a rainbow behind.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Form Keldeo]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'6" / 1.4m
 **Weight**: 106.9lbs / 48.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon             | Kind   |
+|:----------|:--------------------|:-------|
+| To        | [[SRD-Form Keldeo]] | Form   |
 
 ![[SRD-Keldeo-Learnset]]

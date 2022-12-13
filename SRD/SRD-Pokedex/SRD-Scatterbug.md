@@ -9,6 +9,11 @@ DexDescription: The powder that covers its body regulates its temperature so it 
   able to live in any region or climate. Whenever it is under attack it spews a black
   powder that causes paralysis on contact.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Spewpa]]'
+  Speed: Fast
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'0" / 0.3m
 **Weight**: 5.5lbs / 2.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon        | Kind   | Speed   |
+|:----------|:---------------|:-------|:--------|
+| To        | [[SRD-Spewpa]] | Level  | Fast    |
 
 ![[SRD-Scatterbug-Learnset]]

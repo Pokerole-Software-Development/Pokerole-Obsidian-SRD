@@ -9,6 +9,11 @@ DexDescription: Very few people have ever seen this Pokemon. Its intelligence ma
   that of humans. There are records of a Pokemon with a similar description that helped
   rescue a ship full of people during a hurricane.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Dragonair]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 7'2" / 2.2m
 **Weight**: 463.0lbs / 210.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| From      | [[SRD-Dragonair]] | Level  | Slow    |
 
 ![[SRD-Dragonite-Learnset]]

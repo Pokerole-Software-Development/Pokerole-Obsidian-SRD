@@ -9,6 +9,7 @@ DexDescription: It is said that after the war for land and sea was over, a tiny 
   was born from the bottom of the ocean to bond with all the creatures as a sign of
   peace.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'0" / 0.3m
 **Weight**: 3.1lbs / 1.4kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Manaphy-Learnset]]

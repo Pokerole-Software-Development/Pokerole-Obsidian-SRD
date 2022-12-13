@@ -9,6 +9,11 @@ DexDescription: "It\u2019s highly skilled at tap-dancing. It waves its cane of i
   \ in time, its amusing movements make it very popular and they love to entertain\
   \ children. It releases all of its psychic power from the pattern on its belly."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Galarian Mr. Mime]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 128.3lbs / 58.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon                   | Kind   | Speed   |
+|:----------|:--------------------------|:-------|:--------|
+| From      | [[SRD-Galarian Mr. Mime]] | Level  | Medium  |
 
 ![[SRD-Mr. Rime-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: "When it swims close the ocean\u2019s surface people aboard ship
   \ are able to observe the pattern on its back as it is different in every region.\
   \ Mantyke is an intelligent and friendly Pokemon that rarely attacks others."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Special
+  Pokemon: '[[SRD-Mantine]]'
+  Special: Hit by Remoraid
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 3'3" / 1.0m
 **Weight**: 143.3lbs / 65.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon         | Kind    | Special         |
+|:----------|:----------------|:--------|:----------------|
+| To        | [[SRD-Mantine]] | Special | Hit by Remoraid |
 
 ![[SRD-Mantyke-Learnset]]

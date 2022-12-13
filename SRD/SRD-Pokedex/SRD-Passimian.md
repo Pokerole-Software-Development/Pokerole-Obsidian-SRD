@@ -9,6 +9,7 @@ DexDescription: They live in packs of 20 members, they are all coordinated to pa
   around the food and to defend their nest. Their leader is not the strongest but
   the best teamworker of the pack. A very loyal Pokemon.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'6" / 2.0m
 **Weight**: 182.5lbs / 82.8kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Passimian-Learnset]]

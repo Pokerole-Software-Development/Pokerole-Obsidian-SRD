@@ -9,6 +9,11 @@ DexDescription: This ancient Pokemon is thought to be the common ancestor of man
   modern Bug Pokemon. The fossils show it lived in big schools and it preferred warm
   waters. Anoriths used their claws to catch small prey.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Armaldo]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'3" / 0.7m
 **Weight**: 27.6lbs / 12.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| To        | [[SRD-Armaldo]] | Level  | Medium  |
 
 ![[SRD-Anorith-Learnset]]

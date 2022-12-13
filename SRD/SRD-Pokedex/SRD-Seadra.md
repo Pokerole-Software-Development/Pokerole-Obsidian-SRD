@@ -9,6 +9,15 @@ DexDescription: The poisonous barbs all over its body are highly valued as ingre
   for making traditional medicine. It will show no mercy if anything approaches its
   nest. Its back fin has a numbing substance
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Horsea]]'
+  Speed: Slow
+- Evolves: To
+  Item: Dragon Scale
+  Kind: Trade
+  Pokemon: '[[SRD-Kingdra]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'9" / 1.2m
 **Weight**: 55.1lbs / 25.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Speed   | Item         |
+|:----------|:----------------|:-------|:--------|:-------------|
+| From      | [[SRD-Horsea]]  | Level  | Slow    |              |
+| To        | [[SRD-Kingdra]] | Trade  |         | Dragon Scale |
 
 ![[SRD-Seadra-Learnset]]

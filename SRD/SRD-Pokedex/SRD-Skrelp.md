@@ -9,6 +9,11 @@ DexDescription: Camouflaged as rotten kelp they spray liquid poison on a prey th
   approaches unaware. It needs to store a lot of energy to be able to evolve so it
   takes them a long time. Touching one will give you a fever.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Dragalge]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'6" / 0.5m
 **Weight**: 16.1lbs / 7.3kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| To        | [[SRD-Dragalge]] | Level  | Slow    |
 
 ![[SRD-Skrelp-Learnset]]

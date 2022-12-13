@@ -9,6 +9,11 @@ DexDescription: "It hangs from cliffs waiting for its prey. It flies straight at
   \ target\u2019s face, grapples the victim with its pincers and clawed hind legs,\
   \ lastly, it injects poison with its tail. Gligar can glide without making any noise."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Razor Fang
+  Kind: Level
+  Pokemon: '[[SRD-Gliscor]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 3'6" / 1.1m
 **Weight**: 142.9lbs / 64.8kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon         | Kind   | Item       |
+|:----------|:----------------|:-------|:-----------|
+| To        | [[SRD-Gliscor]] | Level  | Razor Fang |
 
 ![[SRD-Gligar-Learnset]]

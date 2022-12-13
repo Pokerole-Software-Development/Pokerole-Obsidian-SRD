@@ -9,6 +9,11 @@ DexDescription: The power of the Mega Stone gives it an insurmountable amount of
   that gives it an explosive velocity, but it is too much for it to bear. Its mane
   grows uncomfortably large, making it moody.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Manectite
+  Kind: Mega
+  Pokemon: '[[SRD-Manectric]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Manectric]]
-
 **Height**: 5'9" / 1.8m
 **Weight**: 97.0lbs / 44.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon           | Kind   | Item      |
+|:----------|:------------------|:-------|:----------|
+| From      | [[SRD-Manectric]] | Mega   | Manectite |
 
 ![[SRD-Mega-Manectric-Learnset]]

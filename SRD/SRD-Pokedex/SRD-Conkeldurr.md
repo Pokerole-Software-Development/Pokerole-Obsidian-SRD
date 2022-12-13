@@ -9,6 +9,10 @@ DexDescription: They use concrete pillars as walking canes and swing the pillars
   in battle. Anthropology research says that this Pokemon may have taught humans how
   to make concrete out of rocks thousands of years ago.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Trade
+  Pokemon: '[[SRD-Gurdurr]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'6" / 1.4m
 **Weight**: 191.8lbs / 87.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon         | Kind   |
+|:----------|:----------------|:-------|
+| From      | [[SRD-Gurdurr]] | Trade  |
 
 ![[SRD-Conkeldurr-Learnset]]

@@ -9,6 +9,22 @@ DexDescription: Rockruff are very social and friendly, their keen sense of smell
   them to find their trainers easily. However, as they age they become wilder and
   rebellious. Do not let them roam alone at night.
 EventAbilities: Own Tempo
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Lycanroc Midday]]'
+  Special: Day
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Lycanroc Dusk]]'
+  Special: Dawn
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Lycanroc Midnight]]'
+  Special: Night
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +77,15 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'6" / 0.5m
 **Weight**: 20.3lbs / 9.2kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon                   | Kind   | Speed   | Special   |
+|:----------|:--------------------------|:-------|:--------|:----------|
+| To        | [[SRD-Lycanroc Midday]]   | Level  | Medium  | Day       |
+| To        | [[SRD-Lycanroc Dusk]]     | Level  | Medium  | Dawn      |
+| To        | [[SRD-Lycanroc Midnight]] | Level  | Medium  | Night     |
 
 ![[SRD-Rockruff-Learnset]]

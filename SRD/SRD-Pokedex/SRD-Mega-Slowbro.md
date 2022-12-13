@@ -9,6 +9,11 @@ DexDescription: "With the power of the Mega Stone the Shellder on its tail becom
   \ a bulletproof armor that swallows its host\u2019s whole body. Slowpoke doesn\u2019\
   t seem to mind and looks pretty comfy to nest inside."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Slowbronite
+  Kind: Mega
+  Pokemon: '[[SRD-Slowbro]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Slowbro]]
-
 **Height**: 6'6" / 2.0m
 **Weight**: 264.6lbs / 120.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon         | Kind   | Item        |
+|:----------|:----------------|:-------|:------------|
+| From      | [[SRD-Slowbro]] | Mega   | Slowbronite |
 
 ![[SRD-Mega-Slowbro-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: "This Pokemon has been given the nickname \u201Cthe gem of the s
   \ It swims through water by spinning its star-shaped body as if it were a propeller\
   \ on a ship. The core at the center glows with different colors."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Water Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Staryu]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'6" / 1.1m
 **Weight**: 176.4lbs / 80.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon        | Kind   | Item        |
+|:----------|:---------------|:-------|:------------|
+| From      | [[SRD-Staryu]] | Stone  | Water Stone |
 
 ![[SRD-Starmie-Learnset]]

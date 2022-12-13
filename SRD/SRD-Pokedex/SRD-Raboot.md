@@ -9,6 +9,15 @@ DexDescription: This Pokemon loves to kick and trains each day to get better at 
   Its fur is now very thick, some debate it is to protect it from the cold weather
   others say it is to produce hotter flames.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Scorbunny]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Cinderace]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 19.8lbs / 9.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| From      | [[SRD-Scorbunny]] | Level  | Medium  |
+| To        | [[SRD-Cinderace]] | Level  | Medium  |
 
 ![[SRD-Raboot-Learnset]]

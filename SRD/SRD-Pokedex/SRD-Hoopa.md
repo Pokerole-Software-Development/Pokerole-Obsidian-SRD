@@ -9,6 +9,10 @@ DexDescription: There is a story of an old demon whose power had to be contained
   a spell. The spell was a partial success as the demon could still roam free, but
   its power and evil was greatly diminished.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Hoopa Unbound]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'6" / 0.5m
 **Weight**: 19.8lbs / 9.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon               | Kind   |
+|:----------|:----------------------|:-------|
+| To        | [[SRD-Hoopa Unbound]] | Form   |
 
 ![[SRD-Hoopa-Learnset]]

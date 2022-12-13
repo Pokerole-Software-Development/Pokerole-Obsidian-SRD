@@ -9,6 +9,15 @@ DexDescription: This nocturnal Pokemon has a mischievous and impish personality.
   playing pranks on people, Lombres are commonly mistaken for human children. It enjoys
   to startle unaware swimmers.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Lotad]]'
+  Speed: Medium
+- Evolves: To
+  Item: Water Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Ludicolo]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'9" / 1.2m
 **Weight**: 71.7lbs / 32.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Speed   | Item        |
+|:----------|:-----------------|:-------|:--------|:------------|
+| From      | [[SRD-Lotad]]    | Level  | Medium  |             |
+| To        | [[SRD-Ludicolo]] | Stone  |         | Water Stone |
 
 ![[SRD-Lombre-Learnset]]

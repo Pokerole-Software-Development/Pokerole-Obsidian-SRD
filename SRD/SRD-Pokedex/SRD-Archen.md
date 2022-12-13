@@ -9,6 +9,11 @@ DexDescription: Revived from a fossil, this Pokemon is thought to be the ancesto
   of all bird Pokemon. Its flight abilities are poor so it just hops up by jumping.
   They are ill tempered and will not eat processed Pokemon food.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Archeops]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 1'6" / 0.5m
 **Weight**: 20.9lbs / 9.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| To        | [[SRD-Archeops]] | Level  | Medium  |
 
 ![[SRD-Archen-Learnset]]

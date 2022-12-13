@@ -9,6 +9,11 @@ DexDescription: Its flight is soundless. It uses its lengthy tail to carry off i
   prey, then uses its long fangs to do the rest. It is more playful than aggressive
   but it is dangerous if you get close to the enormous claws.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Razor Fang
+  Kind: Level
+  Pokemon: '[[SRD-Gligar]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'6" / 2.0m
 **Weight**: 93.7lbs / 42.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon        | Kind   | Item       |
+|:----------|:---------------|:-------|:-----------|
+| From      | [[SRD-Gligar]] | Level  | Razor Fang |
 
 ![[SRD-Gliscor-Learnset]]

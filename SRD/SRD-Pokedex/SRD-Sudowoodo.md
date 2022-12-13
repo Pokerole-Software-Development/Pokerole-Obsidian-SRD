@@ -9,6 +9,11 @@ DexDescription: "Sudowoodo camouflages itself as a tree to avoid being attacked 
   \ enemies. However, because its arms remain green throughout the year, this Pokemon\
   \ is easy to identify in winter. It\u2019s a little wary of humans."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Move: Mimic
+  Pokemon: '[[SRD-Bonsly]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'9" / 1.2m
 **Weight**: 83.8lbs / 38.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon        | Kind   | Move   |
+|:----------|:---------------|:-------|:-------|
+| From      | [[SRD-Bonsly]] | Level  | Mimic  |
 
 ![[SRD-Sudowoodo-Learnset]]

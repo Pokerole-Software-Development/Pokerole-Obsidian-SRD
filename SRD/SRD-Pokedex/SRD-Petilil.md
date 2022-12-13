@@ -9,6 +9,11 @@ DexDescription: Since they prefer moist and nutritive soil, the areas where Peti
   live are known to be good for growing plants. The leaves on its head can be used
   for medicinal purposes, but they are extra bitter.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Sun Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Lilligant]]'
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'6" / 0.5m
 **Weight**: 14.6lbs / 6.6kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon           | Kind   | Item      |
+|:----------|:------------------|:-------|:----------|
+| To        | [[SRD-Lilligant]] | Stone  | Sun Stone |
 
 ![[SRD-Petilil-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: "When it isn\u2019t battling, it keeps Dreepy in the holes on it
   \ horns. Once a fight starts, it launches the Dreepy like supersonic missiles. The\
   \ smaller Pokemon appear happy to be shot and will reload themselves."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Drakloak]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 9'8" / 3.0m
 **Weight**: 110.2lbs / 50.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| From      | [[SRD-Drakloak]] | Level  | Slow    |
 
 ![[SRD-Dragapult-Learnset]]

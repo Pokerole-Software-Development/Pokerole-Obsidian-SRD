@@ -9,6 +9,7 @@ DexDescription: "Stunfisk lives in mud with high iron content. Those nutrients t
   \ its body into a Steel Type. Stunfisks\u2019 lips are hard to spot in the mud,\
   \ but if someone steps on it, its jagged steel clamps their prey."
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'3" / 0.7m
 **Weight**: 45.2lbs / 20.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
 
 ![[SRD-Galarian Stunfisk-Learnset]]

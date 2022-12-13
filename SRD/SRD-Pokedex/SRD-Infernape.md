@@ -9,6 +9,11 @@ DexDescription: "Its fire crown showcases its proud and fiery nature. Infernape 
   t hesitate to fight bigger foes and will take on any challenge they face. Once Infernape\
   \ enters a battle, it won\u2019t back down until it wins."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Monferno]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'9" / 1.2m
 **Weight**: 121.3lbs / 55.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| From      | [[SRD-Monferno]] | Level  | Medium  |
 
 ![[SRD-Infernape-Learnset]]

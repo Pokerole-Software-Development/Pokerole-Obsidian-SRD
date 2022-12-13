@@ -8,6 +8,19 @@ DexCategory: No Data
 DexDescription: Only the the cores react to stimuli, the cells remain mostly inanimate.
   They gather in great numbers to create and strengthen Zygarde.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Zyguarde cells
+  Kind: Special
+  Pokemon: '[[SRD-Zygarde 10%]]'
+- Evolves: To
+  Item: Zyguarde cells
+  Kind: Special
+  Pokemon: '[[SRD-Zygarde 50%]]'
+- Evolves: To
+  Item: Zyguarde cells
+  Kind: Special
+  Pokemon: '[[SRD-Zygarde 100%]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -60,11 +73,15 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::1)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::1)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 0'7" / 0.2m
 **Weight**: 0.2lbs / 0.1kg
+**Good Starter**:: No
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon              | Kind    | Item           |
+|:----------|:---------------------|:--------|:---------------|
+| To        | [[SRD-Zygarde 10%]]  | Special | Zyguarde cells |
+| To        | [[SRD-Zygarde 50%]]  | Special | Zyguarde cells |
+| To        | [[SRD-Zygarde 100%]] | Special | Zyguarde cells |
 
 ![[SRD-Zygarde Cell-Learnset]]

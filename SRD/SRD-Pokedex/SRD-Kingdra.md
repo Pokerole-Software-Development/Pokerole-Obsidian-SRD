@@ -9,6 +9,11 @@ DexDescription: Kingdra sleeps on the seafloor where it is otherwise devoid of l
   When a storm arrives, it is said to awaken and wander about in search of prey. They
   are known for creating twisters in the sea.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Dragon Scale
+  Kind: Trade
+  Pokemon: '[[SRD-Seadra]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'9" / 1.8m
 **Weight**: 335.1lbs / 152.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon        | Kind   | Item         |
+|:----------|:---------------|:-------|:-------------|
+| From      | [[SRD-Seadra]] | Trade  | Dragon Scale |
 
 ![[SRD-Kingdra-Learnset]]

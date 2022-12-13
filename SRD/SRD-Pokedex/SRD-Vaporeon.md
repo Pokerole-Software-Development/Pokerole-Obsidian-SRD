@@ -9,6 +9,11 @@ DexDescription: Vaporeon underwent through a strange mutation, it grew fins and 
   that allow it to live underwater. This Pokemon has the ability to become translucent
   when it dives underwater.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Water Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Eevee]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 63.9lbs / 29.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon       | Kind   | Item        |
+|:----------|:--------------|:-------|:------------|
+| From      | [[SRD-Eevee]] | Stone  | Water Stone |
 
 ![[SRD-Vaporeon-Learnset]]

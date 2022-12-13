@@ -9,6 +9,11 @@ DexDescription: Alolan Raticate command their Rattata underlings to bring them f
   every night. Five star restaurants often struggle with these aggressive Pokemon
   nesting close to their grounds.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Alolan Rattata]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'3" / 0.7m
 **Weight**: 56.2lbs / 25.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon                | Kind   | Speed   |
+|:----------|:-----------------------|:-------|:--------|
+| From      | [[SRD-Alolan Rattata]] | Level  | Medium  |
 
 ![[SRD-Alolan Raticate-Learnset]]

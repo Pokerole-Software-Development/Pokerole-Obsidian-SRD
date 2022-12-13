@@ -9,6 +9,11 @@ DexDescription: This Pokemon has only been seen few times in the ruins and tombs
   ancient civilizations. It curses and transforms people and Pokemon into mummy-like
   creatures. It is said it feeds on pure gold.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Yamask]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 168.7lbs / 76.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon        | Kind   | Speed   |
+|:----------|:---------------|:-------|:--------|
+| From      | [[SRD-Yamask]] | Level  | Slow    |
 
 ![[SRD-Cofagrigus-Learnset]]

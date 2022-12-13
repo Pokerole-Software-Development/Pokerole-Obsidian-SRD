@@ -9,6 +9,11 @@ DexDescription: They come out to the shore in great numbers when the sky is full
   stars. The core at its center glows to communicate with others. If a part of its
   body is injured it can regrow it in a few days.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Water Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Starmie]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'6" / 0.8m
 **Weight**: 76.1lbs / 34.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon         | Kind   | Item        |
+|:----------|:----------------|:-------|:------------|
+| To        | [[SRD-Starmie]] | Stone  | Water Stone |
 
 ![[SRD-Staryu-Learnset]]

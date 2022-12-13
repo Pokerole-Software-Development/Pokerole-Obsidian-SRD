@@ -9,6 +9,11 @@ DexDescription: They live in hot and humid places, blending around with the flor
   It is carnivorous and will try to eat anything smaller than itself. It digests its
   prey with an acid substance on its mouth.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Weepinbell]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'3" / 0.7m
 **Weight**: 8.8lbs / 4.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon            | Kind   | Speed   |
+|:----------|:-------------------|:-------|:--------|
+| To        | [[SRD-Weepinbell]] | Level  | Medium  |
 
 ![[SRD-Bellsprout-Learnset]]

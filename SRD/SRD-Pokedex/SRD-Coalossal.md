@@ -9,6 +9,11 @@ DexDescription: "They are usually calm creatures, if they see you are kind they\
   ll share their warmth with you but if you enrage one you risk being burned down\
   \ to ashes. They spit tarry substance that is very flammable."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Carkol]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 9'2" / 2.8m
 **Weight**: 684.5lbs / 310.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon        | Kind   | Speed   |
+|:----------|:---------------|:-------|:--------|
+| From      | [[SRD-Carkol]] | Level  | Medium  |
 
 ![[SRD-Coalossal-Learnset]]

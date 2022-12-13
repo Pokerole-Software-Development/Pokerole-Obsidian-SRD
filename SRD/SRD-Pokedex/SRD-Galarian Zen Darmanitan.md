@@ -9,6 +9,10 @@ DexDescription: Zen Charm Pokemon (Galarian) When Darmanitan gets angry  atrophi
   fire core is reignited, This Pokemon breathes fire and  destroys everything on its
   path.. They must be calmed down or its own heat may melt their bodies.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Galarian Darmanitan]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 264.6lbs / 120.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon                     | Kind   |
+|:----------|:----------------------------|:-------|
+| From      | [[SRD-Galarian Darmanitan]] | Form   |
 
 ![[SRD-Galarian Zen Darmanitan-Learnset]]

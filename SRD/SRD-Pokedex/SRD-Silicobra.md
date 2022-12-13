@@ -9,6 +9,11 @@ DexDescription: Silicobra can appear to be very aggressive but they just want to
   left alone. They spew sand from their nostrils and while the foe is blinded, they
   burrow back into the ground to hide.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Sandaconda]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 7'2" / 2.2m
 **Weight**: 16.8lbs / 7.6kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon            | Kind   | Speed   |
+|:----------|:-------------------|:-------|:--------|
+| To        | [[SRD-Sandaconda]] | Level  | Slow    |
 
 ![[SRD-Silicobra-Learnset]]

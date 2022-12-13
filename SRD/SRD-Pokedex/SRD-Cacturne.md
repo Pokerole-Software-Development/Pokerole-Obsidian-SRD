@@ -9,6 +9,11 @@ DexDescription: They only move during the night. If they spot a traveler, Cactur
   will stalk them in groups, waiting for the exhausted creatures to sleep before attacking.
   Their insides are actually sand.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Cacnea]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'3" / 1.3m
 **Weight**: 170.6lbs / 77.4kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon        | Kind   | Speed   |
+|:----------|:---------------|:-------|:--------|
+| From      | [[SRD-Cacnea]] | Level  | Medium  |
 
 ![[SRD-Cacturne-Learnset]]

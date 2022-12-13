@@ -9,6 +9,16 @@ DexDescription: "Marill's tail acts like a floater. Seeing its tail bobbing on t
   \ water\u2019s surface is a sure indication that this Pokemon is diving to feed\
   \ on algae and aquatic plants. This Pokemon is curious towards humans."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Azurill]]'
+  Stat: Happiness
+  Value: 4
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Azumarill]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 18.7lbs / 8.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon           | Kind   | Stat      | Value   | Speed   |
+|:----------|:------------------|:-------|:----------|:--------|:--------|
+| From      | [[SRD-Azurill]]   | Stat   | Happiness | 4.0     |         |
+| To        | [[SRD-Azumarill]] | Level  |           |         | Medium  |
 
 ![[SRD-Marill-Learnset]]

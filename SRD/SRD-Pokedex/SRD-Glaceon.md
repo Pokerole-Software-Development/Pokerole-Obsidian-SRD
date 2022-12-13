@@ -9,6 +9,11 @@ DexDescription: Eevees that are forced to live in freezing temperatures evolve i
   this Pokemon. It can control its body temperature to below zero, freezing its fur
   and making it extremely tough.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Ice Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Eevee]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'6" / 0.8m
 **Weight**: 57.1lbs / 25.9kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon       | Kind   | Item      |
+|:----------|:--------------|:-------|:----------|
+| From      | [[SRD-Eevee]] | Stone  | Ice Stone |
 
 ![[SRD-Glaceon-Learnset]]

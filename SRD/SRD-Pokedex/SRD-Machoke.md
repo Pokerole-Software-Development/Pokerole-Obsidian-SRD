@@ -9,6 +9,14 @@ DexDescription: Even with its strong frame and power, it is a humble and helpful
   Many of them work for human companies. On their days off you can see them heading
   to the wild to train together.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Machop]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Trade
+  Pokemon: '[[SRD-Machamp]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +69,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 4'9" / 1.5m
 **Weight**: 155.4lbs / 70.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| From      | [[SRD-Machop]]  | Level  | Medium  |
+| To        | [[SRD-Machamp]] | Trade  |         |
 
 ![[SRD-Machoke-Learnset]]

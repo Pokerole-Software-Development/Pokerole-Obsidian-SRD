@@ -9,6 +9,15 @@ DexDescription: They have an incredible sight that allows them to see in muddy w
   They nest in beaches, and shield their young with their strong arms. When a storm
   is coming, Swamperts build a fort with big rocks.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Marshtomp]]'
+  Speed: Medium
+- Evolves: To
+  Item: Swampertite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Swampert]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Damp
 HomeSprite: SRD-swampert-HomeSprite.png
 Learnset: '[[SRD-Swampert-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Swampertite
-  Name: Mega-Swampert
 Name: Swampert
 Number: 260
 PrimaryEggGroup: Monster
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Swampert]]
-via [[SRD-Swampertite]]
-
 **Height**: 4'9" / 1.5m
 **Weight**: 180.6lbs / 81.9kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon               | Kind   | Speed   | Item        |
+|:----------|:----------------------|:-------|:--------|:------------|
+| From      | [[SRD-Marshtomp]]     | Level  | Medium  |             |
+| To        | [[SRD-Mega-Swampert]] | Mega   |         | Swampertite |
 
 ![[SRD-Swampert-Learnset]]

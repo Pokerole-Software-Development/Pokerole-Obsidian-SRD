@@ -9,6 +9,7 @@ DexDescription: Luvdisc is a symbol of romance. It lives in shallow seas, swimmi
   after couples, bringing them closer and promising eternal love. During their spawning
   season, the waters around them turn pink.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'0" / 0.6m
 **Weight**: 19.2lbs / 8.7kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
 
 ![[SRD-Luvdisc-Learnset]]

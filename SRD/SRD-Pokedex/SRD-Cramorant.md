@@ -9,6 +9,7 @@ DexDescription: Cramorant hunt for fish Pokemon to eat near seashores and lakes.
   often try to engulf prey that is too large and it ends up blocking their gullets.
   They are airheaded and often forget what they were doing.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'6" / 0.8m
 **Weight**: 39.7lbs / 18.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Cramorant-Learnset]]

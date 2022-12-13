@@ -9,6 +9,15 @@ DexDescription: "Their leaves provide camouflage in the jungles. They appear to 
   \ from tree to tree, jumping huge lengths with amazing speed. It\u2019s almost impossible\
   \ to catch them once they start running away.."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Treecko]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Sceptile]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'0" / 0.9m
 **Weight**: 47.6lbs / 21.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| From      | [[SRD-Treecko]]  | Level  | Medium  |
+| To        | [[SRD-Sceptile]] | Level  | Medium  |
 
 ![[SRD-Grovyle-Learnset]]

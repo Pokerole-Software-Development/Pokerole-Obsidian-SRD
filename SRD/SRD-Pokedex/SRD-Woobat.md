@@ -9,6 +9,12 @@ DexDescription: It lives in dark forests and caves. Emits ultrasonic waves from 
   nose it learns about its surroundings. The two small eyes it has get covered by
   its own fur. It clings to trees and cave walls to sleep at night.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Swoobat]]'
+  Stat: Happiness
+  Value: 4
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 4.6lbs / 2.1kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon         | Kind   | Stat      |   Value |
+|:----------|:----------------|:-------|:----------|--------:|
+| To        | [[SRD-Swoobat]] | Stat   | Happiness |       4 |
 
 ![[SRD-Woobat-Learnset]]

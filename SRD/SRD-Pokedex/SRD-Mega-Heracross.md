@@ -9,6 +9,11 @@ DexDescription: With the power of the Mega Stone its muscles and exoskeleton gro
   in size and strength but after going back to normal its exoskeleton reduces size
   but its muscles do not and that causes it to feel sore.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Heracronite
+  Kind: Mega
+  Pokemon: '[[SRD-Heracross]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Heracross]]
-
 **Height**: 5'6" / 1.7m
 **Weight**: 137.8lbs / 62.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon           | Kind   | Item        |
+|:----------|:------------------|:-------|:------------|
+| From      | [[SRD-Heracross]] | Mega   | Heracronite |
 
 ![[SRD-Mega-Heracross-Learnset]]

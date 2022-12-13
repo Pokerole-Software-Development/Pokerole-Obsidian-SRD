@@ -9,6 +9,11 @@ DexDescription: Feared for stealing the souls of men with their sinister eyes gl
   in the dark. They lurk deep inside caves, eating rocks, gemstones and crystals.
   Luckily, Sableyes are rarely seen. They love jewels and treasure.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Sablenite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Sableye]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +24,6 @@ HiddenAbility: Prankster
 HomeSprite: SRD-sableye-HomeSprite.png
 Learnset: '[[SRD-Sableye-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Sablenite
-  Name: Mega-Sableye
 Name: Sableye
 Number: 302
 PrimaryEggGroup: Human-Like
@@ -64,14 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Sableye]]
-via [[SRD-Sablenite]]
-
 **Height**: 1'6" / 0.5m
 **Weight**: 24.3lbs / 11.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon              | Kind   | Item      |
+|:----------|:---------------------|:-------|:----------|
+| To        | [[SRD-Mega-Sableye]] | Mega   | Sablenite |
 
 ![[SRD-Sableye-Learnset]]

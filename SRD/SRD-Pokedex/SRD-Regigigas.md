@@ -8,6 +8,7 @@ DexCategory: No Data
 DexDescription: A very old legend tells about the King of Giants, who could crush
   a mountain with its grip and mold living titans from the rubble.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -60,11 +61,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 12'1" / 3.7m
 **Weight**: 925.9lbs / 420.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Regigigas-Learnset]]

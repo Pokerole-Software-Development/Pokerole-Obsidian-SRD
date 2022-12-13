@@ -9,6 +9,11 @@ DexDescription: They can be found following thunder storms. Elekids rotate their
   constantly to charge electricity. Beware, there is an electric current between their
   horns that may zap you if you touch them.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Electabuzz]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 51.8lbs / 23.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon            | Kind   | Speed   |
+|:----------|:-------------------|:-------|:--------|
+| To        | [[SRD-Electabuzz]] | Level  | Medium  |
 
 ![[SRD-Elekid-Learnset]]

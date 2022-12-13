@@ -9,6 +9,11 @@ DexDescription: Latias is very in sync with human emotions, it can communicate u
   telepathy. With the power of the Mega Stone all of its capabilities are enhanced
   although its personality becomes more distant than usual.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Latiasite
+  Kind: Mega
+  Pokemon: '[[SRD-Latias]]'
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::8)/(MaxInsight::8)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Latias]]
-
 **Height**: 5'9" / 1.8m
 **Weight**: 114.6lbs / 52.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon        | Kind   | Item      |
+|:----------|:---------------|:-------|:----------|
+| From      | [[SRD-Latias]] | Mega   | Latiasite |
 
 ![[SRD-Mega-Latias-Learnset]]

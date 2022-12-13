@@ -10,6 +10,7 @@ DexDescription: "It mimics the cries of other Pokemon to trick them into thinkin
   \ humans learn words and phrases but it\u2019s unknown it they really know their\
   \ meaning."
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -62,11 +63,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'6" / 0.5m
 **Weight**: 4.2lbs / 1.9kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Chatot-Learnset]]

@@ -9,6 +9,13 @@ DexDescription: Inside a remote and frozen cave there are some old paintings. Th
   depict a giant dragon being thorn apart into a black and white shards Of the rest
   of the picture only shattered fragments of ice remain.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Black Kyurem]]'
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-White Kyurem]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +68,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 9'8" / 3.0m
 **Weight**: 716.5lbs / 325.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon              | Kind   |
+|:----------|:---------------------|:-------|
+| To        | [[SRD-Black Kyurem]] | Form   |
+| To        | [[SRD-White Kyurem]] | Form   |
 
 ![[SRD-Kyurem-Learnset]]

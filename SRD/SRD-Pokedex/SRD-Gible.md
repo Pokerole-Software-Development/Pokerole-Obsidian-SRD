@@ -9,6 +9,11 @@ DexDescription: "It digs tunnels and follows prey while burrowed underground. If
   \ see the fin on its back coming out the ground it means it is about to attack.\
   \ It\u2019s very aggressive but kind of clumsy. Beware of its big jaws."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Gabite]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'3" / 0.7m
 **Weight**: 45.2lbs / 20.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon        | Kind   | Speed   |
+|:----------|:---------------|:-------|:--------|
+| To        | [[SRD-Gabite]] | Level  | Slow    |
 
 ![[SRD-Gible-Learnset]]

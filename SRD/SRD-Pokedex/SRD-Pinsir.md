@@ -9,6 +9,11 @@ DexDescription: Their pincers are strong enough to shatter thick logs. Because t
   dislike cold, Pinsirs burrow and sleep under the ground on chilly nights. They like
   to eat sap and honey, but they are aggressive by nature.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Pinsirite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Pinsir]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +24,6 @@ HiddenAbility: Moxie
 HomeSprite: SRD-pinsir-HomeSprite.png
 Learnset: '[[SRD-Pinsir-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Pinsirite
-  Name: Mega-Pinsir
 Name: Pinsir
 Number: 127
 PrimaryEggGroup: Bug
@@ -64,14 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Pinsir]]
-via [[SRD-Pinsirite]]
-
 **Height**: 4'9" / 1.5m
 **Weight**: 121.3lbs / 55.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon             | Kind   | Item      |
+|:----------|:--------------------|:-------|:----------|
+| To        | [[SRD-Mega-Pinsir]] | Mega   | Pinsirite |
 
 ![[SRD-Pinsir-Learnset]]

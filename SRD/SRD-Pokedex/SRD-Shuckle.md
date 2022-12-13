@@ -9,6 +9,7 @@ DexDescription: Shuckle is a very peaceful and patient gooey worm. The fluids se
   by its toes can make holes in rocks. It hides inside those hallow stones and wears
   them as a shell. It is known for storing berries inside.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::10)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'0" / 0.6m
 **Weight**: 45.2lbs / 20.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Shuckle-Learnset]]

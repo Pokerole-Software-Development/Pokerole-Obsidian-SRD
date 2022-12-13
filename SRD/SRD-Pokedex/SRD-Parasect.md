@@ -9,6 +9,11 @@ DexDescription: Their personality changes after evolution since the mushroom tak
   over its mind. Its body is now a husk devoid of nutrients. To survive they cling
   to a tree and absorb the nutrients until the tree dies.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Paras]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 65.0lbs / 29.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon       | Kind   | Speed   |
+|:----------|:--------------|:-------|:--------|
+| From      | [[SRD-Paras]] | Level  | Medium  |
 
 ![[SRD-Parasect-Learnset]]

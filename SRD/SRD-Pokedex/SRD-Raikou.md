@@ -8,6 +8,7 @@ DexCategory: No Data
 DexDescription: Johto Legends tell about a Pokemon born from lightning, with barks
   like crashing thunder, soaring the lands, sending resounding shock-waves as it walks.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -60,11 +61,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'2" / 1.9m
 **Weight**: 392.4lbs / 178.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Raikou-Learnset]]

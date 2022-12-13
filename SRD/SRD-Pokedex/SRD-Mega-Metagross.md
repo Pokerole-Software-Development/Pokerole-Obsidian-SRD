@@ -9,6 +9,11 @@ DexDescription: The power of the Mega Stone made its four minds combine. It is n
   a merciless machine-like beast. If it calculates its chances to win are diminishing
   it will clutch itself into its foe and self-destruct.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Metagrossite
+  Kind: Mega
+  Pokemon: '[[SRD-Metagross]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Metagross]]
-
 **Height**: 8'2" / 2.5m
 **Weight**: 2078.7lbs / 942.9kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon           | Kind   | Item         |
+|:----------|:------------------|:-------|:-------------|
+| From      | [[SRD-Metagross]] | Mega   | Metagrossite |
 
 ![[SRD-Mega-Metagross-Learnset]]

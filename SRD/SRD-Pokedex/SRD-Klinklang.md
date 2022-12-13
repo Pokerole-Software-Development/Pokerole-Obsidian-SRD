@@ -9,6 +9,11 @@ DexDescription: The gear with the red core rotates at high speed for a quick ene
   charge. The mini gears shoot rays through the spikes around it. This inorganic Pokemon
   will trap and crush foes between its gears.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Klang]]'
+  Speed: Medium
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'0" / 0.6m
 **Weight**: 178.6lbs / 81.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon       | Kind   | Speed   |
+|:----------|:--------------|:-------|:--------|
+| From      | [[SRD-Klang]] | Level  | Medium  |
 
 ![[SRD-Klinklang-Learnset]]

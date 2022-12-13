@@ -9,6 +9,11 @@ DexDescription: It lets out a deep cry to summon Murkrows, which fetch food and 
   objects to Honchkrow. It is, however, a tyrant to the Murkrow. It only goes out
   at night to carry out evil deeds.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Dusk Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Murkrow]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'0" / 0.9m
 **Weight**: 60.2lbs / 27.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Item       |
+|:----------|:----------------|:-------|:-----------|
+| From      | [[SRD-Murkrow]] | Stone  | Dusk Stone |
 
 ![[SRD-Honchkrow-Learnset]]

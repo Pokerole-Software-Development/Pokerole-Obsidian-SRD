@@ -9,6 +9,7 @@ DexDescription: "Its tail is a head on its own, it bites if anything comes close
   \ never rests. Some say that the sum of its two heads grant it psychic powers. Even\
   \ if that\u2019s true, the tail isn\u2019t very bright, but it is quite vicious."
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 91.5lbs / 41.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Girafarig-Learnset]]

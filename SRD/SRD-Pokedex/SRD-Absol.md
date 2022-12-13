@@ -9,6 +9,11 @@ DexDescription: 'It is said that this Pokemon can live for 100 years. It has a b
   reputation: Whenever one is seen, a disaster is soon to follow - earthquakes, forest
   fires and tidal waves. Absols lead a lonely life.'
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Absolite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Absol]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +24,6 @@ HiddenAbility: Justified
 HomeSprite: SRD-absol-HomeSprite.png
 Learnset: '[[SRD-Absol-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Absolite
-  Name: Mega-Absol
 Name: Absol
 Number: 359
 PrimaryEggGroup: Field
@@ -64,14 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Absol]]
-via [[SRD-Absolite]]
-
 **Height**: 3'9" / 1.2m
 **Weight**: 103.6lbs / 47.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon            | Kind   | Item     |
+|:----------|:-------------------|:-------|:---------|
+| To        | [[SRD-Mega-Absol]] | Mega   | Absolite |
 
 ![[SRD-Absol-Learnset]]

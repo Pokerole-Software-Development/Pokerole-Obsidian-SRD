@@ -9,6 +9,11 @@ DexDescription: They spend all day sleeping and eating grass that grows within t
   reach. Sometimes they live beneath trees, waiting for fruits to fall. They dislike
   intruders on their territory but rarely do anything about them.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Vigoroth]]'
+  Speed: Fast
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'6" / 2.0m
 **Weight**: 287.7lbs / 130.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| From      | [[SRD-Vigoroth]] | Level  | Fast    |
 
 ![[SRD-Slaking-Learnset]]

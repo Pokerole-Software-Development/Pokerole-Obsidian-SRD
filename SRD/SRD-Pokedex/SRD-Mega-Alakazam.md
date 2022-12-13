@@ -9,6 +9,11 @@ DexDescription: With the power of the Mega Stone it is constantly plagued with v
   of the future which make it great at evading attacks. Its body is feeble and it
   moves purely through psychic energy.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Alakazite
+  Kind: Mega
+  Pokemon: '[[SRD-Alakazam]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Alakazam]]
-
 **Height**: 3'9" / 1.2m
 **Weight**: 105.8lbs / 48.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon          | Kind   | Item      |
+|:----------|:-----------------|:-------|:----------|
+| From      | [[SRD-Alakazam]] | Mega   | Alakazite |
 
 ![[SRD-Mega-Alakazam-Learnset]]

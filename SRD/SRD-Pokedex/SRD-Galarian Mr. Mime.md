@@ -9,6 +9,16 @@ DexDescription: Mime Jr. that endure the harsh winter of Galar are able to creat
   invisible walls that suddenly turn to ice, as they evolve they start creating ice
   floors that allow them to tap-dance, which they enjoy more than anything.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Move: Mimic
+  Pokemon: '[[SRD-Mime Jr.]]'
+  Region: Galar
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Mr. Rime]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'6" / 1.4m
 **Weight**: 125.2lbs / 56.8kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Move   | Region   | Speed   |
+|:----------|:-----------------|:-------|:-------|:---------|:--------|
+| From      | [[SRD-Mime Jr.]] | Level  | Mimic  | Galar    |         |
+| To        | [[SRD-Mr. Rime]] | Level  |        |          | Medium  |
 
 ![[SRD-Galarian Mr. Mime-Learnset]]

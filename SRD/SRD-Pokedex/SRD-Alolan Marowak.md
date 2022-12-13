@@ -9,6 +9,12 @@ DexDescription: "Alola has many predators for an orphaned Cubone, so its mother\
   s spirit lingered close to protect her baby. This otherworldly influence made Marowak\
   \ fiercer and changed its type completely."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Cubone]]'
+  Region: Alola
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 75.0lbs / 34.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon        | Kind   | Speed   | Region   |
+|:----------|:---------------|:-------|:--------|:---------|
+| From      | [[SRD-Cubone]] | Level  | Slow    | Alola    |
 
 ![[SRD-Alolan Marowak-Learnset]]

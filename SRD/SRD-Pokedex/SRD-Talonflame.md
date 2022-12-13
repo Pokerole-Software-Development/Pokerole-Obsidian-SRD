@@ -9,6 +9,11 @@ DexDescription: They soar over desert canyons. If they spot prey they launch dow
   at full speed to deliver a finishing blow. They are excellent hunters, with every
   wing flap they take, it leaves a trail of fire dust behind.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Fletchinder]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'9" / 1.2m
 **Weight**: 54.0lbs / 24.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon             | Kind   | Speed   |
+|:----------|:--------------------|:-------|:--------|
+| From      | [[SRD-Fletchinder]] | Level  | Medium  |
 
 ![[SRD-Talonflame-Learnset]]

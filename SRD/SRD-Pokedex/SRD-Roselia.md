@@ -9,6 +9,16 @@ DexDescription: They live among rose bushes, shooting sharp poisonous thorns to 
   who tries to steal one of their flowers. Their aroma brings serenity. They need
   clean water to grow beautiful.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Budew]]'
+  Stat: Happiness
+  Value: 4
+- Evolves: To
+  Item: Shiny Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Roserade]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'0" / 0.3m
 **Weight**: 4.4lbs / 2.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Stat      | Value   | Item        |
+|:----------|:-----------------|:-------|:----------|:--------|:------------|
+| From      | [[SRD-Budew]]    | Stat   | Happiness | 4.0     |             |
+| To        | [[SRD-Roserade]] | Stone  |           |         | Shiny Stone |
 
 ![[SRD-Roselia-Learnset]]

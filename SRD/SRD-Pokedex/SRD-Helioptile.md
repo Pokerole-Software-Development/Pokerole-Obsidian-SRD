@@ -9,6 +9,11 @@ DexDescription: They make their home in deserts. Using the sun, they can generat
   their energy by basking their frills since food is scarce where they live. They
   run pretty fast as to not burn themselves with the hot sand.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Sun Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Heliolisk]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'6" / 0.5m
 **Weight**: 13.2lbs / 6.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon           | Kind   | Item      |
+|:----------|:------------------|:-------|:----------|
+| To        | [[SRD-Heliolisk]] | Stone  | Sun Stone |
 
 ![[SRD-Helioptile-Learnset]]

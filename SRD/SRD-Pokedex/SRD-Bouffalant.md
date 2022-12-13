@@ -9,6 +9,7 @@ DexDescription: They form herds on the coldest plains. They bash and headbutt to
   their foes. The fluffy fur on their heads absorbs damage to their skulls. Years
   ago, a Bouffalant derailed a train with a bash.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'2" / 1.6m
 **Weight**: 208.6lbs / 94.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Bouffalant-Learnset]]

@@ -9,6 +9,7 @@ DexDescription: Historically, these Pokemon were the designated guardians of the
   They are popular pets now and people love to trim their fur into exotic hairstyles.
   But their protective nature has never been lost.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'9" / 1.2m
 **Weight**: 61.7lbs / 28.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Furfrou-Learnset]]

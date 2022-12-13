@@ -9,6 +9,11 @@ DexDescription: They like to live without restrictions, spending their time eati
   and sleeping whenever they feel like it. Popular among females. Delcatties love
   clean places, good food and to groom themselves.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Moon Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Skitty]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'6" / 1.1m
 **Weight**: 71.9lbs / 32.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon        | Kind   | Item       |
+|:----------|:---------------|:-------|:-----------|
+| From      | [[SRD-Skitty]] | Stone  | Moon Stone |
 
 ![[SRD-Delcatty-Learnset]]

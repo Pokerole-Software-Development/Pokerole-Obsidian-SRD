@@ -9,6 +9,10 @@ DexDescription: "The mysteries of the Pokemon world are vast. There is something
   \ \u201CThe Bond Phenomenon\u201D were a Pokemon and its trainer share a connection\
   \ so strong that the Pokemon changes due to it."
 EventAbilities: Battle Bond
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Frogadier]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 88.2lbs / 40.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon           | Kind   |
+|:----------|:------------------|:-------|
+| From      | [[SRD-Frogadier]] | Form   |
 
 ![[SRD-BBF Greninja-Learnset]]

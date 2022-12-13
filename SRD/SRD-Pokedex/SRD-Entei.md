@@ -8,6 +8,7 @@ DexCategory: No Data
 DexDescription: Johto Legends tell about a Pokemon so powerful, its bark makes volcanoes
   erupt, traveling the lands cloaked in a cloud of volcanic smoke.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -60,11 +61,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'9" / 2.1m
 **Weight**: 436.5lbs / 198.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Entei-Learnset]]

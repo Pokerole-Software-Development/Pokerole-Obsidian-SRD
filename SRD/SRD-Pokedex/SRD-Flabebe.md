@@ -9,6 +9,11 @@ DexDescription: This species is female only. They are so tiny it is difficult to
   them in the wild. They pick a flower as soon as they are born and it becomes a part
   of their body. These small Pokemon are shy but adorable.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Floette]]'
+  Speed: Fast
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 0'3" / 0.1m
 **Weight**: 0.2lbs / 0.1kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| To        | [[SRD-Floette]] | Level  | Fast    |
 
 ![[SRD-Flabebe-Learnset]]

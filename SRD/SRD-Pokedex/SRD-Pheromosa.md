@@ -9,6 +9,7 @@ DexDescription: "This one also appears to be unable to enter a Pokeball, the ray
   \ just won\u2019t surround them. This one has refused to touch anything we give\
   \ to it and appears displeased by my mere presence."
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'9" / 1.8m
 **Weight**: 55.1lbs / 25.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Pheromosa-Learnset]]

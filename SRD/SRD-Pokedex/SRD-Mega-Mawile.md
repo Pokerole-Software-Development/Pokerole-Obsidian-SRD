@@ -9,6 +9,11 @@ DexDescription: "The power of the Mega Stone makes its back jaws develop a mind 
   \ their own, they are vicious and won\u2019t release anything they bite until it\u2019\
   s crushed into pieces. They growl and howl in a haunting way."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Mawilite
+  Kind: Mega
+  Pokemon: '[[SRD-Mawile]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Mawile]]
-
 **Height**: 3'3" / 1.0m
 **Weight**: 51.8lbs / 23.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon        | Kind   | Item     |
+|:----------|:---------------|:-------|:---------|
+| From      | [[SRD-Mawile]] | Mega   | Mawilite |
 
 ![[SRD-Mega-Mawile-Learnset]]

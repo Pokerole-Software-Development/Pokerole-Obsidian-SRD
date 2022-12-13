@@ -9,6 +9,10 @@ DexDescription: According to the old tales, these Pokemon are stumps possessed b
   the spirits of children who were lost in the forest. They prefer to live in abandoned
   woods and lure people to the darkness to play with them.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Trade
+  Pokemon: '[[SRD-Trevenant]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 15.4lbs / 7.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon           | Kind   |
+|:----------|:------------------|:-------|
+| To        | [[SRD-Trevenant]] | Trade  |
 
 ![[SRD-Phantump-Learnset]]

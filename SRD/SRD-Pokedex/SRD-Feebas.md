@@ -9,6 +9,12 @@ DexDescription: "This Pokemon tastes awful, it is incredibly ugly, smelly, kind 
   \ dumb and a terrible fighter. To make things worse, it is actually extremely rare.\
   \ For those reasons, people tend to avoid it and it\u2019s usually ignored"
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Milotic]]'
+  Stat: Beauty
+  Value: 5
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 16.3lbs / 7.4kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon         | Kind   | Stat   |   Value |
+|:----------|:----------------|:-------|:-------|--------:|
+| To        | [[SRD-Milotic]] | Stat   | Beauty |       5 |
 
 ![[SRD-Feebas-Learnset]]

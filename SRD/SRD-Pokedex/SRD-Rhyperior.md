@@ -9,6 +9,11 @@ DexDescription: They have rarely been seen in the wild and only in the tallest m
   It has holes on its hands which are used like canons to shoot boulders. Be careful,
   they are very aggressive but not very smart.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Protector
+  Kind: Trade
+  Pokemon: '[[SRD-Rhydon]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 7'9" / 2.4m
 **Weight**: 623.5lbs / 282.8kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon        | Kind   | Item      |
+|:----------|:---------------|:-------|:----------|
+| From      | [[SRD-Rhydon]] | Trade  | Protector |
 
 ![[SRD-Rhyperior-Learnset]]

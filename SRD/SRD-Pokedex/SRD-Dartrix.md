@@ -9,6 +9,15 @@ DexDescription: Dartix are vain creatures, they dislike it when their feathers a
   ruffled, even stopping midfight to groom them. Despite its elegant demeanor it hides
   an awkward personality, prone to panic and clumsiness.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Rowlet]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Decidueye]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'3" / 0.7m
 **Weight**: 35.3lbs / 16.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| From      | [[SRD-Rowlet]]    | Level  | Medium  |
+| To        | [[SRD-Decidueye]] | Level  | Medium  |
 
 ![[SRD-Dartrix-Learnset]]

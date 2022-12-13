@@ -9,6 +9,10 @@ DexDescription: Some Pokemon reveal their true forms after recovering power lost
   them. Great forces of nature can help them recover their strength such as Tornadoes,
   Lightning, and even a Landslide.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Thundurus]]'
 GenderType: M
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 9'8" / 3.0m
 **Weight**: 134.5lbs / 61.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon           | Kind   |
+|:----------|:------------------|:-------|
+| From      | [[SRD-Thundurus]] | Form   |
 
 ![[SRD-Form Thundurus-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: This Pokemon is reckless and has a short temper. As its electric
   amplifies, blue sparks begin to crackle between its horns. It has registered charge
   levels of over 20,000 Volts.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Electirizer
+  Kind: Trade
+  Pokemon: '[[SRD-Electabuzz]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'9" / 1.8m
 **Weight**: 305.6lbs / 138.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon            | Kind   | Item        |
+|:----------|:-------------------|:-------|:------------|
+| From      | [[SRD-Electabuzz]] | Trade  | Electirizer |
 
 ![[SRD-Electivire-Learnset]]

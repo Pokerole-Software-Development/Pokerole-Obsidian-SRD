@@ -9,6 +9,16 @@ DexDescription: What was thought to be different species ended up being a single
   Oricorio Baile is an intense and passionate Pokemon, every flap of its wings produces
   embers, its fiery dance has inspired many.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Oricorio Electric]]'
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Oricorio Psychic]]'
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Oricorio Ghost]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +71,15 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'0" / 0.6m
 **Weight**: 7.5lbs / 3.4kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon                   | Kind   |
+|:----------|:--------------------------|:-------|
+| To        | [[SRD-Oricorio Electric]] | Form   |
+| To        | [[SRD-Oricorio Psychic]]  | Form   |
+| To        | [[SRD-Oricorio Ghost]]    | Form   |
 
 ![[SRD-Oricorio Fire-Learnset]]

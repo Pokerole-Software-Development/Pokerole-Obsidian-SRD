@@ -9,6 +9,7 @@ DexDescription: "There is an old children\u2019s story about a boy who lost his 
   \ and the shadow became a Pokemon. It is debated which Pokemon the story is making\
   \ mention of."
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'3" / 0.7m
 **Weight**: 48.9lbs / 22.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Marshadow-Learnset]]

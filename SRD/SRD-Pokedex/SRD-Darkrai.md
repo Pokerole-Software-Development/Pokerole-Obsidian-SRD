@@ -9,6 +9,7 @@ DexDescription: "All around the world, young children have depicted a similar fi
   \ in their drawings. They call it \u201CThe Boogeyman\u201D. People say it will\
   \ make all your nightmares come true."
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 111.3lbs / 50.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Darkrai-Learnset]]

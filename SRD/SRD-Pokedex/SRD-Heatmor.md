@@ -9,6 +9,7 @@ DexDescription: "It draws in air through its tail, then transforms it into fire 
   \ uses it like a tongue. You can see them defending Durant\u2019s colonies from\
   \ predators so they can be the only ones who can eat them."
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'6" / 1.4m
 **Weight**: 127.9lbs / 58.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Heatmor-Learnset]]

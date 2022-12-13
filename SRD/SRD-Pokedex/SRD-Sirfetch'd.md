@@ -9,6 +9,11 @@ DexDescription: "Only Farfetch\u2019d that have survived many battles can go tho
   \ this evolution. They are very proud of their leek spear and leafen shield, When\
   \ this Pokemon's leek withers, it will retire from combat."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Special
+  Pokemon: '[[SRD-Galarian Farfetch''d]]'
+  Special: Score 3 Critical hits in 1 battle
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'6" / 0.8m
 **Weight**: 257.9lbs / 117.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon                     | Kind    | Special                           |
+|:----------|:----------------------------|:--------|:----------------------------------|
+| From      | [[SRD-Galarian Farfetch'd]] | Special | Score 3 Critical hits in 1 battle |
 
 ![[SRD-Sirfetch'd-Learnset]]

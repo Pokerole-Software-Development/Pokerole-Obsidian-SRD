@@ -9,6 +9,12 @@ DexDescription: They use their tail as a lasso. When they throw their ball, Azur
   get dragged along with it. They are commonly seen bouncing and playing with other
   Pokemon in the beach. They love fruit paps.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Marill]]'
+  Stat: Happiness
+  Value: 4
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 0'7" / 0.2m
 **Weight**: 4.4lbs / 2.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon        | Kind   | Stat      |   Value |
+|:----------|:---------------|:-------|:----------|--------:|
+| To        | [[SRD-Marill]] | Stat   | Happiness |       4 |
 
 ![[SRD-Azurill-Learnset]]

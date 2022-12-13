@@ -9,6 +9,11 @@ DexDescription: It communicates with the mist on its forehead, it can create sha
   and images from dreams it has eaten. It is said that this Pokemon is a link between
   this world and a another one made entirely of dreams.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Moon Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Munna]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'6" / 1.1m
 **Weight**: 133.4lbs / 60.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon       | Kind   | Item       |
+|:----------|:--------------|:-------|:-----------|
+| From      | [[SRD-Munna]] | Stone  | Moon Stone |
 
 ![[SRD-Musharna-Learnset]]

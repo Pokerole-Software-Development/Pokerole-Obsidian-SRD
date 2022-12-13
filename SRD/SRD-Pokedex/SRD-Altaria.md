@@ -9,6 +9,15 @@ DexDescription: Seen as dancing clouds in the sky, Altarias sing melodies in the
   sweet voices, evoking wonder, beauty and dreams to the listeners. They live far
   away from people and throw colorful fireballs at uninvited guests.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Swablu]]'
+  Speed: Slow
+- Evolves: To
+  Item: Altarianite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Altaria]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Cloud Nine
 HomeSprite: SRD-altaria-HomeSprite.png
 Learnset: '[[SRD-Altaria-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Altarianite
-  Name: Mega-Altaria
 Name: Altaria
 Number: 334
 PrimaryEggGroup: Flying
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Altaria]]
-via [[SRD-Altarianite]]
-
 **Height**: 3'6" / 1.1m
 **Weight**: 45.4lbs / 20.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon              | Kind   | Speed   | Item        |
+|:----------|:---------------------|:-------|:--------|:------------|
+| From      | [[SRD-Swablu]]       | Level  | Slow    |             |
+| To        | [[SRD-Mega-Altaria]] | Mega   |         | Altarianite |
 
 ![[SRD-Altaria-Learnset]]

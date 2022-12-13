@@ -9,6 +9,10 @@ DexDescription: Described in mythology as the God creator of lands, mountains, v
   and continents. Any water or clouds evaporate in its presence. It is the mortal
   enemy of Kyogre.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Primal Groudon]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 11'5" / 3.5m
 **Weight**: 2094.4lbs / 950.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon                | Kind   |
+|:----------|:-----------------------|:-------|
+| To        | [[SRD-Primal Groudon]] | Form   |
 
 ![[SRD-Groudon-Learnset]]

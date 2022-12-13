@@ -9,6 +9,21 @@ DexDescription: Lives in small groups in forests but they tend to stay hidden. I
   stores electricity in the electric sacs on its cheeks and uses its tail to ground
   the excess charge. They can be stubborn and wary of strangers.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Pichu]]'
+  Stat: Happiness
+  Value: 4
+- Evolves: To
+  Item: Thunder Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Raichu]]'
+- Evolves: To
+  Item: Thunder Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Alolan Raichu]]'
+  Region: Alola
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +76,15 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 13.2lbs / 6.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon               | Kind   | Stat      | Value   | Item          | Region   |
+|:----------|:----------------------|:-------|:----------|:--------|:--------------|:---------|
+| From      | [[SRD-Pichu]]         | Stat   | Happiness | 4.0     |               |          |
+| To        | [[SRD-Raichu]]        | Stone  |           |         | Thunder Stone |          |
+| To        | [[SRD-Alolan Raichu]] | Stone  |           |         | Thunder Stone | Alola    |
 
 ![[SRD-Pikachu-Learnset]]

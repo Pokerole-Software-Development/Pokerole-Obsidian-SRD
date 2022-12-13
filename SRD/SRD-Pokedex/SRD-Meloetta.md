@@ -8,6 +8,10 @@ DexCategory: No Data
 DexDescription: There are old songs about a beautiful Pokemon that inspired the hearts
   of artists through its graceful dance and singing.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Form Meloetta]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -60,11 +64,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'0" / 0.6m
 **Weight**: 14.3lbs / 6.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon               | Kind   |
+|:----------|:----------------------|:-------|
+| To        | [[SRD-Form Meloetta]] | Form   |
 
 ![[SRD-Meloetta-Learnset]]

@@ -7,6 +7,7 @@ BoxSprite: SRD-slowking-galar-BoxSprite.png
 DexCategory: ''
 DexDescription: ''
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -59,11 +60,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'9" / 1.8m
 **Weight**: 175.3lbs / 79.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
 
 ![[SRD-Galarian Slowking (provisional)-Learnset]]

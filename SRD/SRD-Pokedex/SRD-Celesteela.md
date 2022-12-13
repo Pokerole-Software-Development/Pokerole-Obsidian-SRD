@@ -9,6 +9,7 @@ DexDescription: Finally some progress from the excavation site. What we thought 
   a 200 year-old relic turned out to be a creature capable of blasting itself into
   the air, we managed to restrain it, more research is due.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 30'2" / 9.2m
 **Weight**: 2204.4lbs / 999.9kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Celesteela-Learnset]]

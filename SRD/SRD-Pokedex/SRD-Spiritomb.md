@@ -9,6 +9,7 @@ DexDescription: A legend from 500 years ago tells how it got bound into an Odd K
   after cursing an entire town. Two have been found in recent times. It is said that
   its vortex has more than 100 haunted souls.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 238.1lbs / 108.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Spiritomb-Learnset]]

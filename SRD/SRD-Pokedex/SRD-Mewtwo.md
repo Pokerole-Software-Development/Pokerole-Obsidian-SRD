@@ -8,6 +8,15 @@ DexCategory: No Data
 DexDescription: An article in a science magazine talked about how much cloning research
   was progressing, but... could it be?
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Mewtwonite Y
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Mewtwo Y]]'
+- Evolves: To
+  Item: Mewtwonite X
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Mewtwo X]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -18,11 +27,6 @@ HiddenAbility: Unnerve
 HomeSprite: SRD-mewtwo-HomeSprite.png
 Learnset: '[[SRD-Mewtwo-Learnset]]'
 Legendary: 'Yes'
-MegaEvolutions:
-- Item: Mewtwonite X
-  Name: Mega-Mewtwo X
-- Item: Mewtwonite Y
-  Name: Mega-Mewtwo Y
 Name: Mewtwo
 Number: 150
 PrimaryEggGroup: Undiscovered
@@ -65,16 +69,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Mewtwo X]]
-via [[SRD-Mewtwonite X]]
-**MegaEvolution**:: [[SRD-Mega-Mewtwo Y]]
-via [[SRD-Mewtwonite Y]]
-
 **Height**: 6'6" / 2.0m
 **Weight**: 269.0lbs / 122.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon               | Kind   | Item         |
+|:----------|:----------------------|:-------|:-------------|
+| To        | [[SRD-Mega-Mewtwo Y]] | Mega   | Mewtwonite Y |
+| To        | [[SRD-Mega-Mewtwo X]] | Mega   | Mewtwonite X |
 
 ![[SRD-Mewtwo-Learnset]]

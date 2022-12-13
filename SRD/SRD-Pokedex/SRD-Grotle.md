@@ -9,6 +9,15 @@ DexDescription: "Other Pokemon harass Grotle when the bushes on its back have be
   \ or fruit. It patiently waits for others to finish eating before moving. It loves\
   \ clear water and it\u2019s good at finding cool ponds and springs."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Turtwig]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Torterra]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'6" / 1.1m
 **Weight**: 213.8lbs / 97.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| From      | [[SRD-Turtwig]]  | Level  | Medium  |
+| To        | [[SRD-Torterra]] | Level  | Medium  |
 
 ![[SRD-Grotle-Learnset]]

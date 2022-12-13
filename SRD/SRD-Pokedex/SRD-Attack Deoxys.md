@@ -9,6 +9,10 @@ DexDescription: The main engineer of the space crew reported a tentacled creatur
   that ripped with ease through the thick metal hull of the ship to escape. The ship
   was recovered and was indeed torn in two sections.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Deoxys]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::10)/(MaxSpecial::10)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::2)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 134.0lbs / 60.8kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon        | Kind   |
+|:----------|:---------------|:-------|
+| From      | [[SRD-Deoxys]] | Form   |
 
 ![[SRD-Attack Deoxys-Learnset]]

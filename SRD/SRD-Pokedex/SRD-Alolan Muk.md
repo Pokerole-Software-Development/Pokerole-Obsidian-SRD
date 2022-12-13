@@ -9,6 +9,11 @@ DexDescription: It is as friendly as it is toxic, be careful for it tries to hug
   regularly. A good diet does not help reduce its toxicity levels, it only makes it
   cranky and prone to destroy furniture. It releases toxic fumes all the time.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Alolan Grimer]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 114.6lbs / 52.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon               | Kind   | Speed   |
+|:----------|:----------------------|:-------|:--------|
+| From      | [[SRD-Alolan Grimer]] | Level  | Slow    |
 
 ![[SRD-Alolan Muk-Learnset]]

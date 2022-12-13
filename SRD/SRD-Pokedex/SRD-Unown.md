@@ -9,6 +9,7 @@ DexDescription: There are depictions of it in ancient ruins. When Unowns are gat
   together, it is said that a strange power capable of anything emerges. They are
   all shaped like letters, each one of them with a unique power.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'6" / 0.5m
 **Weight**: 11.0lbs / 5.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Starter
 
 ![[SRD-Unown-Learnset]]

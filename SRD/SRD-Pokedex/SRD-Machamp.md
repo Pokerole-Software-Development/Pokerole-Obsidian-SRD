@@ -9,6 +9,10 @@ DexDescription: There are a few roaming in the mountains. Machamp has the power 
   hurl anything aside. However, trying to do any work that requires care and dexterity
   may cause its arms to get tangled.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Trade
+  Pokemon: '[[SRD-Machoke]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'2" / 1.6m
 **Weight**: 286.6lbs / 130.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon         | Kind   |
+|:----------|:----------------|:-------|
+| From      | [[SRD-Machoke]] | Trade  |
 
 ![[SRD-Machamp-Learnset]]

@@ -9,6 +9,15 @@ DexDescription: Its two brains are joined by a magnetic nervous system. This all
   Metang to use psychokinetic powers. It is able to float and move in midair at 60
   mph. To evolve further it will need more brain power.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Beldum]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Metagross]]'
+  Speed: Slow
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'9" / 1.2m
 **Weight**: 446.4lbs / 202.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| From      | [[SRD-Beldum]]    | Level  | Medium  |
+| To        | [[SRD-Metagross]] | Level  | Slow    |
 
 ![[SRD-Metang-Learnset]]

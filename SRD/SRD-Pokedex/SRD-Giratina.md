@@ -7,6 +7,10 @@ BoxSprite: SRD-giratina-BoxSprite.png
 DexCategory: Plot Device
 DexDescription: Plot Device
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Origin Giratina]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -59,11 +63,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 14'8" / 4.5m
 **Weight**: 1653.5lbs / 750.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon                 | Kind   |
+|:----------|:------------------------|:-------|
+| To        | [[SRD-Origin Giratina]] | Form   |
 
 ![[SRD-Giratina-Learnset]]

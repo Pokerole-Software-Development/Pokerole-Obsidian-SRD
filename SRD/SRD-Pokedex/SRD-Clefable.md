@@ -9,6 +9,11 @@ DexDescription: There are not many records about it in the wild. They are timid 
   playful. Clefable uses its wings to skip lightly as if it was flying. Its bouncy
   step lets it walk on water. On quiet, moonlit nights, it strolls near lakes.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Moon Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Clefairy]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'3" / 1.3m
 **Weight**: 88.2lbs / 40.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Item       |
+|:----------|:-----------------|:-------|:-----------|
+| From      | [[SRD-Clefairy]] | Stone  | Moon Stone |
 
 ![[SRD-Clefable-Learnset]]

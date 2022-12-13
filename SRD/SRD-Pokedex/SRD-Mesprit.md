@@ -9,6 +9,7 @@ DexDescription: In the myths of Sinnoh they talk about three beings that came ou
   from the same egg, the pink one was the being of emotion. Together they shaped the
   human race to be complete.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'0" / 0.3m
 **Weight**: 0.7lbs / 0.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Mesprit-Learnset]]

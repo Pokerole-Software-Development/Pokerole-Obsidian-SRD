@@ -9,6 +9,7 @@ DexDescription: People have driven Lapras near the point of extinction. In the e
   this Pokemon is said to sing as it seeks what few others of its kind still remain.
   Their gentle nature has made them easy to lure and catch.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 8'2" / 2.5m
 **Weight**: 485.0lbs / 220.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Lapras-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: The power of the Mega Stone makes its senses skyrocket. It is ea
   upset as it can feel the emotions from everyone in a wide radius. Its psychic powers
   are said to distort reality.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Gardevoirite
+  Kind: Mega
+  Pokemon: '[[SRD-Gardevoir]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Gardevoir]]
-
 **Height**: 5'2" / 1.6m
 **Weight**: 106.7lbs / 48.4kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon           | Kind   | Item         |
+|:----------|:------------------|:-------|:-------------|
+| From      | [[SRD-Gardevoir]] | Mega   | Gardevoirite |
 
 ![[SRD-Mega-Gardevoir-Learnset]]

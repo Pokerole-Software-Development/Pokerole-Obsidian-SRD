@@ -9,6 +9,10 @@ DexDescription: "Eiscue \u201CNo-Ice\u201D Form is actually its true Form. Witho
   \ the ice to protect it you can see its worried expression, it\u2019s actually quite\
   \ endearing. It can now move faster but you can see it feels anxious."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Eiscue]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'6" / 1.4m
 **Weight**: 196.2lbs / 89.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon        | Kind   |
+|:----------|:---------------|:-------|
+| From      | [[SRD-Eiscue]] | Form   |
 
 ![[SRD-Form Eiscue-Learnset]]

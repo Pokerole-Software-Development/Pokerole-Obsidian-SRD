@@ -9,6 +9,14 @@ DexDescription: It releases the excess of energy in the form of red crystals. It
   still blind, it looks for for water sources inside underground caves by using echo
   location. It is a pacific creature that keeps to itself most of the time.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Roggenrola]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Trade
+  Pokemon: '[[SRD-Gigalith]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +69,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'0" / 0.9m
 **Weight**: 224.9lbs / 102.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon            | Kind   | Speed   |
+|:----------|:-------------------|:-------|:--------|
+| From      | [[SRD-Roggenrola]] | Level  | Medium  |
+| To        | [[SRD-Gigalith]]   | Trade  |         |
 
 ![[SRD-Boldore-Learnset]]

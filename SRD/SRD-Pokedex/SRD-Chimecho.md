@@ -9,6 +9,12 @@ DexDescription: They have seven different cries that resound with the wind. They
   create ultrasonic waves when they are in danger. Using the suction cup on their
   head, they hang to branches on windy days.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Chingling]]'
+  Stat: Happiness
+  Value: 4
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: Yes
-**Can Evolve**:: No
 **Height**: 2'0" / 0.6m
 **Weight**: 2.2lbs / 1.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Stat      |   Value |
+|:----------|:------------------|:-------|:----------|--------:|
+| From      | [[SRD-Chingling]] | Stat   | Happiness |       4 |
 
 ![[SRD-Chimecho-Learnset]]

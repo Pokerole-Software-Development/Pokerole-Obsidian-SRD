@@ -9,6 +9,7 @@ DexDescription: They attract swarms of Volbeat with their sweet fragrance and or
   the swarm into drawing geometric shapes made of light. Illumises gain rank in their
   group if they make an amazing performance.
 EventAbilities: ''
+Evolutions: []
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'0" / 0.6m
 **Weight**: 39.0lbs / 17.7kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
 
 ![[SRD-Illumise-Learnset]]

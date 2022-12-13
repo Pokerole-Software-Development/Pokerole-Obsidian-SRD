@@ -9,6 +9,11 @@ DexDescription: "The old magical forests of Galar made Ponytas adopt a mystic na
   \ Their miraculous horn can heal most wounds and sense the purity in your heart,\
   \ if you hold evil, you\u2019ll never see this Pokemon in the wild."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Galarian Rapidash]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'6" / 0.8m
 **Weight**: 52.9lbs / 24.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon                   | Kind   | Speed   |
+|:----------|:--------------------------|:-------|:--------|
+| To        | [[SRD-Galarian Rapidash]] | Level  | Medium  |
 
 ![[SRD-Galarian Ponyta-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: A few have been seen in volcanic areas but just like its counter
   is more common to see it being the pet of wealthy people. Its flaming fur is most
   appreciated for its warm glow and silky touch.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Fire Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Eevee]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'0" / 0.9m
 **Weight**: 55.1lbs / 25.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon       | Kind   | Item       |
+|:----------|:--------------|:-------|:-----------|
+| From      | [[SRD-Eevee]] | Stone  | Fire Stone |
 
 ![[SRD-Flareon-Learnset]]

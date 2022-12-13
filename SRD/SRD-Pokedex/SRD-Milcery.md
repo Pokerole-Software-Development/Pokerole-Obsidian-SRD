@@ -9,6 +9,11 @@ DexDescription: This Pokemon was born from sweet-smelling particles in the air, 
   body is made of cream, Finding one in your kitchen means Good Fortune. Give them
   berries and whip them with a whisk so they can evolve.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Special
+  Pokemon: '[[SRD-Alcremie]]'
+  Special: Berry & spin
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 0'7" / 0.2m
 **Weight**: 0.7lbs / 0.3kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon          | Kind    | Special      |
+|:----------|:-----------------|:--------|:-------------|
+| To        | [[SRD-Alcremie]] | Special | Berry & spin |
 
 ![[SRD-Milcery-Learnset]]

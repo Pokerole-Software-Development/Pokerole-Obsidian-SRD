@@ -9,6 +9,7 @@ DexDescription: His body was indestructible. A flexible metal out of this world 
   can shrink, expand, made solid or liquid at the speed of thought. Could the myths
   be true?
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::8)/(MaxInsight::8)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'2" / 1.9m
 **Weight**: 451.9lbs / 205.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Registeel-Learnset]]

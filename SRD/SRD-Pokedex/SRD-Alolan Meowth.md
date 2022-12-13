@@ -9,6 +9,11 @@ DexDescription: "In old times, Meowth were taken to Alola as gifts for the tribe
   s royals, this caused them to become incredibly greedy and pampered. Nowadays they\
   \ are feral, but their prideful nature remained."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Alolan Persian]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 9.3lbs / 4.2kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon                | Kind   | Speed   |
+|:----------|:-----------------------|:-------|:--------|
+| To        | [[SRD-Alolan Persian]] | Level  | Medium  |
 
 ![[SRD-Alolan Meowth-Learnset]]

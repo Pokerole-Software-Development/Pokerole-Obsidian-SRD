@@ -9,6 +9,7 @@ DexDescription: A large meteorite fell on the Galar region 20, 000 years ago, ev
   since this happened a power surge has been causing Pokemon to grow gigantic, this
   phenomenon is happening more in recent years.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 65'6" / 20.0m
 **Weight**: 2094.4lbs / 950.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Eternatus-Learnset]]

@@ -9,6 +9,14 @@ DexDescription: The legend tells of how this Pokemon lead the first King of Kalo
   to victory. A crushing grip can be felt on the arm of the wielder. While in this
   form it can only use Support moves.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Dusk Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Doublade]]'
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Form Aegislash]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +69,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::4)/(MaxInsight::8)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 116.8lbs / 53.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon                | Kind   | Item       |
+|:----------|:-----------------------|:-------|:-----------|
+| From      | [[SRD-Doublade]]       | Stone  | Dusk Stone |
+| To        | [[SRD-Form Aegislash]] | Form   |            |
 
 ![[SRD-Aegislash-Learnset]]

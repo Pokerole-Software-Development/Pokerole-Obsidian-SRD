@@ -9,6 +9,15 @@ DexDescription: Minigear and big gear comprise its body. If the minigear is deta
   it will turn off both gears. It communicates with others by rotating. When its angry
   or afraid, it rotates faster.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Klink]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Klinklang]]'
+  Speed: Medium
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 112.4lbs / 51.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| From      | [[SRD-Klink]]     | Level  | Medium  |
+| To        | [[SRD-Klinklang]] | Level  | Medium  |
 
 ![[SRD-Klang-Learnset]]

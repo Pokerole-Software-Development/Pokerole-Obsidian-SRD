@@ -9,6 +9,15 @@ DexDescription: It uses the spikes on its rear to peel the trees and feed on the
   sap. Their feet have suction pads to climb easily. Wurmples are plentiful and live
   in forests, but they are often attacked by bird Pokemon.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Silcoon]]'
+  Speed: Fast
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Cascoon]]'
+  Speed: Fast
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'0" / 0.3m
 **Weight**: 7.9lbs / 3.6kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| To        | [[SRD-Silcoon]] | Level  | Fast    |
+| To        | [[SRD-Cascoon]] | Level  | Fast    |
 
 ![[SRD-Wurmple-Learnset]]

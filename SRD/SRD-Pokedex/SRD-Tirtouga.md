@@ -9,6 +9,11 @@ DexDescription: About 100 million years ago, these Pokemon swam in oceans. It is
   they also went on land to attack prey. One has been cloned from a fossil that was
   found a mile deep underwater.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Carracosta]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'3" / 0.7m
 **Weight**: 36.4lbs / 16.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon            | Kind   | Speed   |
+|:----------|:-------------------|:-------|:--------|
+| To        | [[SRD-Carracosta]] | Level  | Medium  |
 
 ![[SRD-Tirtouga-Learnset]]

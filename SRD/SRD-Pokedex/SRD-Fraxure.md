@@ -9,6 +9,15 @@ DexDescription: "Their tusks can shatter rocks. Territory battles between Fraxur
   \ can be intensely violent. The tusks don\u2019t grow back anymore, if you find\
   \ a Fraxure with both tusks whole, it means it\u2019s one of the strongest."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Axew]]'
+  Speed: Slow
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Haxorus]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'3" / 1.0m
 **Weight**: 79.4lbs / 36.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| From      | [[SRD-Axew]]    | Level  | Slow    |
+| To        | [[SRD-Haxorus]] | Level  | Slow    |
 
 ![[SRD-Fraxure-Learnset]]

@@ -9,6 +9,10 @@ DexDescription: The First officer mentioned a slim creature that moved too fast 
   the radar to register and the eye to see. She saw it for a split second before it
   supposedly attacked the other end of the ship.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Deoxys]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 134.0lbs / 60.8kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon        | Kind   |
+|:----------|:---------------|:-------|
+| From      | [[SRD-Deoxys]] | Form   |
 
 ![[SRD-Speed Deoxys-Learnset]]

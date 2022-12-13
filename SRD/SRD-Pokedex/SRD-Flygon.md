@@ -9,6 +9,11 @@ DexDescription: "Known as the \u201CElemental Spirit of the Desert\u201D. Their 
   \ create a cloud of dust that surrounds this Pokemon while flying, while their flapping\
   \ produces a sound that resembles a woman singing."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Vibrava]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'6" / 2.0m
 **Weight**: 180.8lbs / 82.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| From      | [[SRD-Vibrava]] | Level  | Slow    |
 
 ![[SRD-Flygon-Learnset]]

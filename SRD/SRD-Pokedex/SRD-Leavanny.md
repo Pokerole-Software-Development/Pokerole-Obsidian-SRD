@@ -9,6 +9,12 @@ DexDescription: It is a gentle and caring Pokemon. Mostly known for making cloth
   out of leaves and silk for any small pokemon it finds. It warms and protects its
   eggs making nests of fermenting leaves.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Swadloon]]'
+  Stat: Happiness
+  Value: 4
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'9" / 1.2m
 **Weight**: 45.2lbs / 20.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Stat      |   Value |
+|:----------|:-----------------|:-------|:----------|--------:|
+| From      | [[SRD-Swadloon]] | Stat   | Happiness |       4 |
 
 ![[SRD-Leavanny-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: "It\u2019s not common to find it in the wild. Most sightings tak
   \ place when it is on land. Once he is inside the water, it will swim far away.\
   \ This Pokemon is an outstanding swimmer, capable of beating any human."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Water Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Poliwhirl]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'3" / 1.3m
 **Weight**: 119.0lbs / 54.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon           | Kind   | Item        |
+|:----------|:------------------|:-------|:------------|
+| From      | [[SRD-Poliwhirl]] | Stone  | Water Stone |
 
 ![[SRD-Poliwrath-Learnset]]

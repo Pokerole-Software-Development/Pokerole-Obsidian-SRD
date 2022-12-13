@@ -9,6 +9,12 @@ DexDescription: This rare and adorable Pokemon emanates a soothing aura to calm 
   It is said that only the Trainers who form an unbreakable bond with their Eevee
   can ever see this Pokemon.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Eevee]]'
+  Stat: Loyalty
+  Value: 5
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 51.8lbs / 23.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon       | Kind   | Stat    |   Value |
+|:----------|:--------------|:-------|:--------|--------:|
+| From      | [[SRD-Eevee]] | Stat   | Loyalty |       5 |
 
 ![[SRD-Sylveon-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: This species lives in old ceramic teapots. They struggle to find
   antiques, for most tea sets nowadays are just imitations. Never leave your tea unattended
   or a Poltegeist might come to haunt it.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Cracked Pot
+  Kind: Item
+  Pokemon: '[[SRD-Sinistea]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 0'7" / 0.2m
 **Weight**: 0.9lbs / 0.4kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Item        |
+|:----------|:-----------------|:-------|:------------|
+| From      | [[SRD-Sinistea]] | Item   | Cracked Pot |
 
 ![[SRD-Polteageist-Learnset]]

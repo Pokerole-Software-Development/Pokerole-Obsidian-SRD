@@ -9,6 +9,10 @@ DexDescription: "Using its roots as a nervous system it controls the trees in th
   \ forest. It\u2019s kind to the Pokemon that reside inside its body but it is ruthless\
   \ to anyone that harms its forest, turning them into haunted trees forever."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Trade
+  Pokemon: '[[SRD-Phantump]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 156.5lbs / 71.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon          | Kind   |
+|:----------|:-----------------|:-------|
+| From      | [[SRD-Phantump]] | Trade  |
 
 ![[SRD-Trevenant-Learnset]]

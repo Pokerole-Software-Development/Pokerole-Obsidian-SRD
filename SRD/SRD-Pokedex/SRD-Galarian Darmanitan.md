@@ -8,6 +8,14 @@ DexCategory: Zen Charm Pokemon
 DexDescription: The Galarian form of Darmanitan. They walk into towns during the blizzards
   to steal food. Darmanitans seem mean, but they are gentle and shy.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Ice Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Galarian Darumaka]]'
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Galarian Zen Darmanitan]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -60,11 +68,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 264.6lbs / 120.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon                         | Kind   | Item      |
+|:----------|:--------------------------------|:-------|:----------|
+| From      | [[SRD-Galarian Darumaka]]       | Stone  | Ice Stone |
+| To        | [[SRD-Galarian Zen Darmanitan]] | Form   |           |
 
 ![[SRD-Galarian Darmanitan-Learnset]]

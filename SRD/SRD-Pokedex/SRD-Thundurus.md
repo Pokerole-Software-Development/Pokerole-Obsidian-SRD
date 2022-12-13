@@ -9,6 +9,10 @@ DexDescription: "There are constant forest fires all through the Unova region. T
   \ fires are always the result of a giant thunder storm. Forest rangers tell about\
   \ a blue demon\u2019s shadow that was inside the storm clouds."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Form Thundurus]]'
 GenderType: M
 HasForm: 'Yes'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 134.5lbs / 61.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon                | Kind   |
+|:----------|:-----------------------|:-------|
+| To        | [[SRD-Form Thundurus]] | Form   |
 
 ![[SRD-Thundurus-Learnset]]

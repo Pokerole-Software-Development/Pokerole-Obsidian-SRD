@@ -9,6 +9,15 @@ DexDescription: "It turns aggressive after evolving, it is very hot-headed by na
   \ so it constantly starts fights. When it\u2019s excited, the flame at the tip of\
   \ its tail flares with a bluish white color."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Charmander]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Charizard]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'6" / 1.1m
 **Weight**: 41.9lbs / 19.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon            | Kind   | Speed   |
+|:----------|:-------------------|:-------|:--------|
+| From      | [[SRD-Charmander]] | Level  | Medium  |
+| To        | [[SRD-Charizard]]  | Level  | Medium  |
 
 ![[SRD-Charmeleon-Learnset]]

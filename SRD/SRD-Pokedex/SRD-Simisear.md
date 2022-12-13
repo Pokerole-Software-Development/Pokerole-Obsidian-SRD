@@ -9,6 +9,11 @@ DexDescription: A flame burns on top of its head. It scatters embers from its he
   and tail to sear its opponents. It loves sweets and is not afraid to go near humans
   to try to get some candy by begging or by stealing.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Fire Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Pansear]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 61.7lbs / 28.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Item       |
+|:----------|:----------------|:-------|:-----------|
+| From      | [[SRD-Pansear]] | Stone  | Fire Stone |
 
 ![[SRD-Simisear-Learnset]]

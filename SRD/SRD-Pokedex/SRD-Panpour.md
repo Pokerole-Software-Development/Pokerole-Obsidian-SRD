@@ -9,6 +9,11 @@ DexDescription: It does not thrive in dry climates. It keeps itself damp by shoo
   the water stored in its head tuft. Its water is valued by gardeners and Grass Pokemon
   breeders as it makes plants grow beautiful.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Water Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Simipour]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 29.8lbs / 13.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Item        |
+|:----------|:-----------------|:-------|:------------|
+| To        | [[SRD-Simipour]] | Stone  | Water Stone |
 
 ![[SRD-Panpour-Learnset]]

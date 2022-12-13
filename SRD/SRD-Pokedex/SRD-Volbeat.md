@@ -9,6 +9,7 @@ DexDescription: The male of its species. Their tail shines bright during the nig
   drawing geometric shapes in the sky. Volbeats live in swarms around clean ponds.
   They are attracted to Illumise's sweet aroma.
 EventAbilities: ''
+Evolutions: []
 GenderType: M
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'3" / 0.7m
 **Weight**: 39.0lbs / 17.7kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
 
 ![[SRD-Volbeat-Learnset]]

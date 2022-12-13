@@ -9,6 +9,15 @@ DexDescription: Each Pidgeotto claims a large meadow area as its territory. This
   flies around, patrolling its home and will attack any intruders with its sharp claws.
   It will challenge itself to fly a bit higher every day.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Pidgey]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Pidgeot]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'6" / 1.1m
 **Weight**: 66.1lbs / 30.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| From      | [[SRD-Pidgey]]  | Level  | Medium  |
+| To        | [[SRD-Pidgeot]] | Level  | Medium  |
 
 ![[SRD-Pidgeotto-Learnset]]

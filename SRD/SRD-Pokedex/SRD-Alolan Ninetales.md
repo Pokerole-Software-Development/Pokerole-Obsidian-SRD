@@ -9,6 +9,11 @@ DexDescription: In old times, Alolan natives revered this Pokemon as a god incar
   It is usually calm and benevolent, but it can be ruthless when disturbed, leaving
   its foes as a cold block of ice in the snow.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Ice Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Alolan Vulpix]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'6" / 1.1m
 **Weight**: 43.9lbs / 19.9kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon               | Kind   | Item      |
+|:----------|:----------------------|:-------|:----------|
+| From      | [[SRD-Alolan Vulpix]] | Stone  | Ice Stone |
 
 ![[SRD-Alolan Ninetales-Learnset]]

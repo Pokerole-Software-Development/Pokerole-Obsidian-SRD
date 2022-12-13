@@ -9,6 +9,10 @@ DexDescription: Millions of years ago chaos reigned. Neverending typhoons drowni
   all life under unforgiving waters. Who was so sad and hurt in the deep darkness
   of the sea? As its sapphire tears still flood the world.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Kyogre]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::9)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::8)/(MaxInsight::8)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 32'2" / 9.8m
 **Weight**: 948.0lbs / 430.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon        | Kind   |
+|:----------|:---------------|:-------|
+| From      | [[SRD-Kyogre]] | Form   |
 
 ![[SRD-Primal Kyogre-Learnset]]

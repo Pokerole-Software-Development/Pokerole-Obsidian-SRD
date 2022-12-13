@@ -9,6 +9,10 @@ DexDescription: "Apparently this Darmanitan just became a statue after receiving
   \ lot of damage. It remained immobile, but as soon as it\u2019s health recovered\
   \ it returned to it\u2019s original state and lost its psychic powers."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Darmanitan]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'3" / 1.3m
 **Weight**: 204.8lbs / 92.9kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon            | Kind   |
+|:----------|:-------------------|:-------|
+| From      | [[SRD-Darmanitan]] | Form   |
 
 ![[SRD-Zen Darmanitan-Learnset]]

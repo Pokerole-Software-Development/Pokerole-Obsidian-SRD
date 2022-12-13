@@ -9,6 +9,11 @@ DexDescription: Friendly, loyal and fearless to defend its trainer. These traits
   gained them a place working as police Pokemon. They are uncommon in the wild but
   some packs can be seen in hot environments.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Fire Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Arcanine]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'3" / 0.7m
 **Weight**: 41.9lbs / 19.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Item       |
+|:----------|:-----------------|:-------|:-----------|
+| To        | [[SRD-Arcanine]] | Stone  | Fire Stone |
 
 ![[SRD-Growlithe-Learnset]]

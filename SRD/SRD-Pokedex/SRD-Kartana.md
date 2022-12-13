@@ -9,6 +9,7 @@ DexDescription: Its paper-thin body and agility make it too dangerous to approac
   without serious risk of injury. Our team managed to immobilize it using a heat chamber,
   though I swear I feel its resentment to us.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'0" / 0.3m
 **Weight**: 0.2lbs / 0.1kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Kartana-Learnset]]

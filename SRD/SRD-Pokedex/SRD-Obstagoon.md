@@ -9,6 +9,11 @@ DexDescription: Its voice has a very loud volume and it is a noisy and rude Poke
   Obstagoon has a tendency to take on a threatening posture and shout at anyone that
   is in front of it. They rarely take things seriously.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Galarian Linoone]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'2" / 1.6m
 **Weight**: 101.4lbs / 46.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon                  | Kind   | Speed   |
+|:----------|:-------------------------|:-------|:--------|
+| From      | [[SRD-Galarian Linoone]] | Level  | Medium  |
 
 ![[SRD-Obstagoon-Learnset]]

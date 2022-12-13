@@ -9,6 +9,11 @@ DexDescription: "Rattata first came to Alola through cargo ships, it thrived and
   \ destroyed the region\u2019s ecosystem. Attempts to exterminate this Pokemon made\
   \ it more vicious than its regular counterpart."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Alolan Raticate]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'0" / 0.3m
 **Weight**: 8.4lbs / 3.8kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon                 | Kind   | Speed   |
+|:----------|:------------------------|:-------|:--------|
+| To        | [[SRD-Alolan Raticate]] | Level  | Medium  |
 
 ![[SRD-Alolan Rattata-Learnset]]

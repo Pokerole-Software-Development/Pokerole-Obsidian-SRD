@@ -9,6 +9,11 @@ DexDescription: It goes back to its prehistoric roots. It is a lot more violent 
   its pre-evolved form. Its jaw power is incredible and it is adept at biting apart
   foes while flying by at high speed. This Pokemon can be brutal
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Yanma]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'2" / 1.9m
 **Weight**: 113.5lbs / 51.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon       | Kind   | Speed   |
+|:----------|:--------------|:-------|:--------|
+| From      | [[SRD-Yanma]] | Level  | Medium  |
 
 ![[SRD-Yanmega-Learnset]]

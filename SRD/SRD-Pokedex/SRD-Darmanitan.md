@@ -9,6 +9,14 @@ DexDescription: This Pokemon is shrouded in mystery as old writings and mural pa
   describe it as being blue and using psychic powers, but years of study have not
   seen those traits on this Pokemon that relies on brute force.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Darumaka]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Zen Darmanitan]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +69,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'3" / 1.3m
 **Weight**: 204.8lbs / 92.9kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon                | Kind   | Speed   |
+|:----------|:-----------------------|:-------|:--------|
+| From      | [[SRD-Darumaka]]       | Level  | Medium  |
+| To        | [[SRD-Zen Darmanitan]] | Form   |         |
 
 ![[SRD-Darmanitan-Learnset]]

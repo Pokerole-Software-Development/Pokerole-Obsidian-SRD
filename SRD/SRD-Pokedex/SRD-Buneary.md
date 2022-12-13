@@ -9,6 +9,12 @@ DexDescription: Lives in forest, grasslands and even snowy mountains. It forms b
   and uses its soft fur to make nests and keep warm. You can see how it feels for
   the position of its ears. They are easily scared by humans.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Lopunny]]'
+  Stat: Happiness
+  Value: 4
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 12.1lbs / 5.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon         | Kind   | Stat      |   Value |
+|:----------|:----------------|:-------|:----------|--------:|
+| To        | [[SRD-Lopunny]] | Stat   | Happiness |       4 |
 
 ![[SRD-Buneary-Learnset]]

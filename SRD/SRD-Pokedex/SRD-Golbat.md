@@ -9,6 +9,16 @@ DexDescription: A stealthy Pokemon who loves the dark. Its fangs can puncture ev
   a thick hide. It loves to feast on the blood of people and Pokemon alike. If it
   drinks too much, it gets heavy and can hardly fly.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Zubat]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Crobat]]'
+  Stat: Happiness
+  Value: 4
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 5'2" / 1.6m
 **Weight**: 121.3lbs / 55.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon        | Kind   | Speed   | Stat      | Value   |
+|:----------|:---------------|:-------|:--------|:----------|:--------|
+| From      | [[SRD-Zubat]]  | Level  | Medium  |           |         |
+| To        | [[SRD-Crobat]] | Stat   |         | Happiness | 4.0     |
 
 ![[SRD-Golbat-Learnset]]

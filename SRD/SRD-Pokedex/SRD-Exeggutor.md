@@ -9,6 +9,11 @@ DexDescription: Originally from tropical areas. Exeggutor's heads grow larger wi
   strong sunlight. Each head thinks independently. They are friendly and provide their
   shade to other Pokemon.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Leaf Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Exeggcute]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'6" / 2.0m
 **Weight**: 264.6lbs / 120.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Item       |
+|:----------|:------------------|:-------|:-----------|
+| From      | [[SRD-Exeggcute]] | Stone  | Leaf Stone |
 
 ![[SRD-Exeggutor-Learnset]]

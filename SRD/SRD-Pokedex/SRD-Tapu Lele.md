@@ -9,6 +9,7 @@ DexDescription: It is said that an innocent but cruel spirit guards Akala island
   When the spirit is feeling benevolent it scatters some of its scales around, these
   scales have healing powers.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'9" / 1.2m
 **Weight**: 41.0lbs / 18.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Tapu Lele-Learnset]]

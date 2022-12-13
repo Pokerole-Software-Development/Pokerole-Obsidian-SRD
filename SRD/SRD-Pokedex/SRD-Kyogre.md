@@ -8,6 +8,10 @@ DexCategory: No Data
 DexDescription: Kyogre is named in mythology as the God that expanded the seas and
   oceans with torrential waters and huge tidal waves. It is the mortal enemy of Groudon.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Primal Kyogre]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -60,11 +64,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 14'8" / 4.5m
 **Weight**: 776.0lbs / 352.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon               | Kind   |
+|:----------|:----------------------|:-------|
+| To        | [[SRD-Primal Kyogre]] | Form   |
 
 ![[SRD-Kyogre-Learnset]]

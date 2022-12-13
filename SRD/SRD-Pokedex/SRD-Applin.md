@@ -9,6 +9,11 @@ DexDescription: "As soon as it\u2019s born this tiny lizard Pokemon, it burrows 
   \ an apple to protect itself from birds and predators. The apple serves as its food\
   \ source and the flavor of it will determine its evolution."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Tart Apple
+  Kind: Item
+  Pokemon: '[[SRD-Flapple]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 0'7" / 0.2m
 **Weight**: 1.1lbs / 0.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon         | Kind   | Item       |
+|:----------|:----------------|:-------|:-----------|
+| To        | [[SRD-Flapple]] | Item   | Tart Apple |
 
 ![[SRD-Applin-Learnset]]

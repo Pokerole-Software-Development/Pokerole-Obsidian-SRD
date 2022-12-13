@@ -9,6 +9,14 @@ DexDescription: Haunter is a dangerous Pokemon. it will try to lick you with its
   to steal your life away. If you get the feeling of being watched in darkness when
   nobody is around, it means a Haunter is there.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Gastly]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Trade
+  Pokemon: '[[SRD-Gengar]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +69,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 5'2" / 1.6m
 **Weight**: 0.2lbs / 0.1kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon        | Kind   | Speed   |
+|:----------|:---------------|:-------|:--------|
+| From      | [[SRD-Gastly]] | Level  | Medium  |
+| To        | [[SRD-Gengar]] | Trade  |         |
 
 ![[SRD-Haunter-Learnset]]

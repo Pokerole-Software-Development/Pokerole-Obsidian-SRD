@@ -9,6 +9,7 @@ DexDescription: "It is said to be indistinguishable from a gigantic iceberg. Its
   \ says its body can\u2019t be melted even if submerged in magma. Regice could freeze\
   \ the air to bring a new ice age."
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::10)/(MaxInsight::10)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'9" / 1.8m
 **Weight**: 385.8lbs / 175.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Regice-Learnset]]

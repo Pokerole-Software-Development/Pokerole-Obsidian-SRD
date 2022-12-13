@@ -9,6 +9,11 @@ DexDescription: It eats the dreams of a sleeping person or Pokemon and shows fon
   to the dreams of young children. Once the victim is deep in slumber it will extract
   and eat the dream through the nose.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Hypno]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 3'3" / 1.0m
 **Weight**: 71.4lbs / 32.4kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon       | Kind   | Speed   |
+|:----------|:--------------|:-------|:--------|
+| To        | [[SRD-Hypno]] | Level  | Slow    |
 
 ![[SRD-Drowzee-Learnset]]

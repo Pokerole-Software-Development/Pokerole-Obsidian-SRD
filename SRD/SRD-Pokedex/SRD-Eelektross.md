@@ -9,6 +9,11 @@ DexDescription: They crawl out of the water and attack anyone on shore by suckin
   them into their mouths, shocking them, and dragging them back into the ocean. They
   are aggressive and unpredictable, be very careful
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Thunder Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Eelektrik]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'9" / 2.1m
 **Weight**: 177.5lbs / 80.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Item          |
+|:----------|:------------------|:-------|:--------------|
+| From      | [[SRD-Eelektrik]] | Stone  | Thunder Stone |
 
 ![[SRD-Eelektross-Learnset]]

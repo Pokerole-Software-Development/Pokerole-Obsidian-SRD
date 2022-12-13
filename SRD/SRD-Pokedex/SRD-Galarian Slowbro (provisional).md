@@ -7,6 +7,7 @@ BoxSprite: SRD-slowbro-galar-BoxSprite.png
 DexCategory: ''
 DexDescription: ''
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -59,11 +60,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'2" / 1.6m
 **Weight**: 155.4lbs / 70.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Galarian Slowbro (provisional)-Learnset]]

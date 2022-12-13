@@ -9,6 +9,15 @@ DexDescription: "This Pokemon\u2019s vibrations can cause severe headaches or ev
   \ fainting. If their prey faints, they proceed to melt them with acid. Vibrava's\
   \ wings are still growing, making it a clumsy flier with low endurance."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Trapinch]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Flygon]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'6" / 1.1m
 **Weight**: 33.7lbs / 15.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| From      | [[SRD-Trapinch]] | Level  | Medium  |
+| To        | [[SRD-Flygon]]   | Level  | Slow    |
 
 ![[SRD-Vibrava-Learnset]]

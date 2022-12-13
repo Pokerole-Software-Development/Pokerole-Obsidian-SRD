@@ -9,6 +9,11 @@ DexDescription: With the power of the Mega Stone, it allows itself to grow more 
   in order to gain draconian powers. Its movements are swifter than ever and when
   it attacks it seems like the jungle has come to life.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Sceptilite
+  Kind: Mega
+  Pokemon: '[[SRD-Sceptile]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Sceptile]]
-
 **Height**: 6'2" / 1.9m
 **Weight**: 121.7lbs / 55.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon          | Kind   | Item       |
+|:----------|:-----------------|:-------|:-----------|
+| From      | [[SRD-Sceptile]] | Mega   | Sceptilite |
 
 ![[SRD-Mega-Sceptile-Learnset]]

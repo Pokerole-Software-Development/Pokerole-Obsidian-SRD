@@ -9,6 +9,12 @@ DexDescription: Kicking Pokemon Its legs freely stretch and contract. It bowls o
   foes with devastating kicks. It is very disciplined and trains every day. It is
   very rare in the wild, and it is mostly found in urban areas
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Tyrogue]]'
+  Stat: Strength
+  Value: -1
 GenderType: M
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 109.8lbs / 49.8kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Stat     |   Value |
+|:----------|:----------------|:-------|:---------|--------:|
+| From      | [[SRD-Tyrogue]] | Stat   | Strength |      -1 |
 
 ![[SRD-Hitmonlee-Learnset]]

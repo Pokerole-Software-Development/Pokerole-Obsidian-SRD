@@ -9,6 +9,10 @@ DexDescription: They live on the stratosphere, absorbing particles to grow their
   and shells, when they become too heavy they fall to the ground. Move damage can
   break the shell and leave the core exposed.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Minior Core]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'0" / 0.3m
 **Weight**: 88.2lbs / 40.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon             | Kind   |
+|:----------|:--------------------|:-------|
+| To        | [[SRD-Minior Core]] | Form   |
 
 ![[SRD-Minior-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: The power of the Mega Stone increases its muscle strength, it wo
   appear to be slower but its skin is so slippy it allows it to quickly slide over
   puddles and mud. It also becomes a bit bolder and moody.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Swampertite
+  Kind: Mega
+  Pokemon: '[[SRD-Swampert]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Swampert]]
-
 **Height**: 6'2" / 1.9m
 **Weight**: 224.9lbs / 102.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon          | Kind   | Item        |
+|:----------|:-----------------|:-------|:------------|
+| From      | [[SRD-Swampert]] | Mega   | Swampertite |
 
 ![[SRD-Mega-Swampert-Learnset]]

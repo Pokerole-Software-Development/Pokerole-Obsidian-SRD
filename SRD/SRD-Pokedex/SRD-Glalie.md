@@ -9,6 +9,16 @@ DexDescription: Its body is so hard it was thought to be made of rock. They can 
   aggressive if provoked. When they hunt, they freeze their prey solid before eating
   it. They can live in warm places without trouble.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Gender: Male
+  Kind: Level
+  Pokemon: '[[SRD-Snorunt]]'
+  Speed: Medium
+- Evolves: To
+  Item: Glalitite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Glalie]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -19,9 +29,6 @@ HiddenAbility: Moody
 HomeSprite: SRD-glalie-HomeSprite.png
 Learnset: '[[SRD-Glalie-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Glalitite
-  Name: Mega-Glalie
 Name: Glalie
 Number: 362
 PrimaryEggGroup: Fairy
@@ -64,14 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Glalie]]
-via [[SRD-Glalitite]]
-
 **Height**: 4'9" / 1.5m
 **Weight**: 565.5lbs / 256.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon             | Kind   | Speed   | Gender   | Item      |
+|:----------|:--------------------|:-------|:--------|:---------|:----------|
+| From      | [[SRD-Snorunt]]     | Level  | Medium  | Male     |           |
+| To        | [[SRD-Mega-Glalie]] | Mega   |         |          | Glalitite |
 
 ![[SRD-Glalie-Learnset]]

@@ -9,6 +9,7 @@ DexDescription: When they encounter foes bigger than themselves, they try to thr
   them away. In the wild they always travel in packs of five and make their clothes
   and belts out of plants and vines.
 EventAbilities: ''
+Evolutions: []
 GenderType: M
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'3" / 1.3m
 **Weight**: 122.4lbs / 55.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Throh-Learnset]]

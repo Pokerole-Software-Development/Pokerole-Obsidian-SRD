@@ -9,6 +9,15 @@ DexDescription: "Venusaur's flower is said to take on vivid colors if it gets pl
   \ of sun light. The flower\u2019s aroma soothes the emotions of others.\nIf you\
   \ find one in the wild, it must be the protector of the area."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Ivysaur]]'
+  Speed: Medium
+- Evolves: To
+  Item: Venusaurite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Venusaur]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Chlorophyll
 HomeSprite: SRD-venusaur-HomeSprite.png
 Learnset: '[[SRD-Venusaur-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Venusaurite
-  Name: Mega-Venusaur
 Name: Venusaur
 Number: 3
 PrimaryEggGroup: Monster
@@ -65,14 +71,14 @@ If you find one in the wild, it must be the protector of the area.*
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Venusaur]]
-via [[SRD-Venusaurite]]
-
 **Height**: 6'6" / 2.0m
 **Weight**: 220.5lbs / 100.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon               | Kind   | Speed   | Item        |
+|:----------|:----------------------|:-------|:--------|:------------|
+| From      | [[SRD-Ivysaur]]       | Level  | Medium  |             |
+| To        | [[SRD-Mega-Venusaur]] | Mega   |         | Venusaurite |
 
 ![[SRD-Venusaur-Learnset]]

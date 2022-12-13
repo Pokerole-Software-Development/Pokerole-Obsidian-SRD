@@ -9,6 +9,7 @@ DexDescription: "It\u2019s Full-Belly Mode is friendly and playful, it treasures
   \ and treats. But intense hunger drives it to extremes of violence, and the electricity\
   \ in its cheek sacs turn into a Dark-type energy"
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'0" / 0.3m
 **Weight**: 6.6lbs / 3.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
 
 ![[SRD-Morpeko-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: "Since it can\u2019t generate its own charge, it sticks into lar
   \ Pokemon and absorbs the static electricity of their fur. In the cities they suck\
   \ electricity from the outlets they find, skyrocketting the power bill."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Galvantula]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 0'3" / 0.1m
 **Weight**: 1.3lbs / 0.6kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon            | Kind   | Speed   |
+|:----------|:-------------------|:-------|:--------|
+| To        | [[SRD-Galvantula]] | Level  | Medium  |
 
 ![[SRD-Joltik-Learnset]]

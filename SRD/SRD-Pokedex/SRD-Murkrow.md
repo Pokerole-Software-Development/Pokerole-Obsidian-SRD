@@ -9,6 +9,11 @@ DexDescription: Murkrows are feared and loathed as the alleged bearers of ill fo
   This Pokemon will steal anything that sparkles. They are infamous for luring people
   and get them lost in the mountains.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Dusk Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Honchkrow]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'6" / 0.5m
 **Weight**: 4.6lbs / 2.1kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon           | Kind   | Item       |
+|:----------|:------------------|:-------|:-----------|
+| To        | [[SRD-Honchkrow]] | Stone  | Dusk Stone |
 
 ![[SRD-Murkrow-Learnset]]

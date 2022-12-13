@@ -8,6 +8,7 @@ DexCategory: No Data
 DexDescription: The people on Poni island are proud of the clean water on their land,
   for that they thank their guardian spirit who is said to be the ocean itself.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -60,11 +61,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'3" / 1.3m
 **Weight**: 46.7lbs / 21.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Tapu Fini-Learnset]]

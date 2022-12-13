@@ -9,6 +9,15 @@ DexDescription: "These Pokemon have a really big appetite. When they spot their 
   \ they coil around it and shock it with their electricity-generating organs, which\
   \ are the yellow circles on it\u2019s skin."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Tynamo]]'
+  Speed: Medium
+- Evolves: To
+  Item: Thunder Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Eelektross]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'9" / 1.2m
 **Weight**: 48.5lbs / 22.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon            | Kind   | Speed   | Item          |
+|:----------|:-------------------|:-------|:--------|:--------------|
+| From      | [[SRD-Tynamo]]     | Level  | Medium  |               |
+| To        | [[SRD-Eelektross]] | Stone  |         | Thunder Stone |
 
 ![[SRD-Eelektrik-Learnset]]

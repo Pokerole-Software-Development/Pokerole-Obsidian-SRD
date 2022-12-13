@@ -9,6 +9,7 @@ DexDescription: These intelligent Pokemon touch horns with each other to share i
   between them. They love to help and be of service to people because they gather
   power from feelings of gratitude.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'0" / 0.9m
 **Weight**: 61.7lbs / 28.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Starter
 
 ![[SRD-Indeedee-Learnset]]

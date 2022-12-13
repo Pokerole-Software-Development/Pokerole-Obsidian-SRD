@@ -8,6 +8,10 @@ DexCategory: No Data
 DexDescription: There is a legend of a hero who through sheer might wielded the shield
   of heroes to protect the people from the greatest evil.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Form Zamazenta]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -60,11 +64,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 9'5" / 2.9m
 **Weight**: 463.0lbs / 210.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon                | Kind   |
+|:----------|:-----------------------|:-------|
+| To        | [[SRD-Form Zamazenta]] | Form   |
 
 ![[SRD-Zamazenta-Learnset]]

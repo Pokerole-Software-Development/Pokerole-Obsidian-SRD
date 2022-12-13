@@ -9,6 +9,11 @@ DexDescription: It drives weaker Pokemon from their homes and eats their eggs. T
   are vicious and cunning. They wait for prey hidden in the darkness and enjoy slashing
   their foes until they get tired or the foe stops moving.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Razor Claw
+  Kind: Level
+  Pokemon: '[[SRD-Weavile]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 3'0" / 0.9m
 **Weight**: 61.7lbs / 28.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Item       |
+|:----------|:----------------|:-------|:-----------|
+| To        | [[SRD-Weavile]] | Level  | Razor Claw |
 
 ![[SRD-Sneasel-Learnset]]

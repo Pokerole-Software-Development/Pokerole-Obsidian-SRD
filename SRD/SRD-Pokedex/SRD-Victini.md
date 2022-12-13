@@ -8,6 +8,7 @@ DexCategory: No Data
 DexDescription: "On tournament days, Trainers eat a \u201CV\u201D shaped apple as\
   \ a sign of good luck. It is unknown if it has anything to do with this Pokemon."
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -60,11 +61,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'3" / 0.4m
 **Weight**: 8.8lbs / 4.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Victini-Learnset]]

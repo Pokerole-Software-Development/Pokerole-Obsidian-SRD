@@ -9,6 +9,11 @@ DexDescription: In times long past, castle rulers would invite Florges to create
   gardens to embellish their domains. Florges claim beautiful meadows as their territories
   but they are kind and merciful with visitors.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Shiny Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Floette]]'
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'6" / 1.1m
 **Weight**: 22.0lbs / 10.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Item        |
+|:----------|:----------------|:-------|:------------|
+| From      | [[SRD-Floette]] | Stone  | Shiny Stone |
 
 ![[SRD-Florges-Learnset]]

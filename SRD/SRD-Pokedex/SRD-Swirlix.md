@@ -9,6 +9,11 @@ DexDescription: Because it eats nothing but sweet fruit, honey and sugars, its f
   is as sticky and sweet as cotton candy. To entangle its opponents in battle, it
   extrudes white and sticky threads but the foes end up eating them.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Whipped Dream
+  Kind: Trade
+  Pokemon: '[[SRD-Slurpuff]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 7.7lbs / 3.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Item          |
+|:----------|:-----------------|:-------|:--------------|
+| To        | [[SRD-Slurpuff]] | Trade  | Whipped Dream |
 
 ![[SRD-Swirlix-Learnset]]

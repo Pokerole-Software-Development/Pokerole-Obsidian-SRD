@@ -9,6 +9,11 @@ DexDescription: "Thanks to its golden mane, this Pokemon has been revered as a f
   \ deity. The triplets groom each other to help keep the hair glossy and dirt-free,\
   \ they don\u2019t like to be petted."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Alolan Diglett]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'3" / 0.7m
 **Weight**: 146.8lbs / 66.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon                | Kind   | Speed   |
+|:----------|:-----------------------|:-------|:--------|
+| From      | [[SRD-Alolan Diglett]] | Level  | Medium  |
 
 ![[SRD-Alolan Dugtrio-Learnset]]

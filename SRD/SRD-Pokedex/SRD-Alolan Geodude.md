@@ -9,6 +9,11 @@ DexDescription: "The magnetic fields on Alola\u2019s Blush Mountain made Geodude
   \ Electric chargers on its body. They tend to disguise themselves as regular rocks,\
   \ caution is advised as they shock you if you step on them."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Alolan Graveler]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 44.8lbs / 20.3kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon                 | Kind   | Speed   |
+|:----------|:------------------------|:-------|:--------|
+| To        | [[SRD-Alolan Graveler]] | Level  | Medium  |
 
 ![[SRD-Alolan Geodude-Learnset]]

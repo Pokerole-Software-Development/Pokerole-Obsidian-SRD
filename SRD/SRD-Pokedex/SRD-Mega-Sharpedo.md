@@ -9,6 +9,11 @@ DexDescription: As soon as it feels the power of the Mega Stone surge through it
   body, its mind goes blank with fury and violence. Its sharp spikes and teeth regrow
   sharper if it loses them. The yellow marks on its body are scars
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Sharpedonite
+  Kind: Mega
+  Pokemon: '[[SRD-Sharpedo]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Sharpedo]]
-
 **Height**: 8'2" / 2.5m
 **Weight**: 287.3lbs / 130.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon          | Kind   | Item         |
+|:----------|:-----------------|:-------|:-------------|
+| From      | [[SRD-Sharpedo]] | Mega   | Sharpedonite |
 
 ![[SRD-Mega-Sharpedo-Learnset]]

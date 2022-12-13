@@ -9,6 +9,11 @@ DexDescription: What does the power of the Mega Stone truly entail? Is it the bo
   between a Trainer and their companion? Or is it all about taking a hold of a forbidden
   power?
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Pokeball
+  Kind: Mega
+  Pokemon: '[[SRD-Rayquaza]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::9)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Rayquaza]]
-
 **Height**: 35'4" / 10.8m
 **Weight**: 864.2lbs / 392.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon          | Kind   | Item     |
+|:----------|:-----------------|:-------|:---------|
+| From      | [[SRD-Rayquaza]] | Mega   | Pokeball |
 
 ![[SRD-Mega-Rayquaza-Learnset]]

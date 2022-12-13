@@ -9,6 +9,11 @@ DexDescription: It consumes the spirits of the living, puts people in a hypnotic
   and consumes them with fire. Being consumed in Chandelure's flame burns up the spirit,
   leaving only the body behind.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Dusk Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Lampent]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 75.6lbs / 34.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon         | Kind   | Item       |
+|:----------|:----------------|:-------|:-----------|
+| From      | [[SRD-Lampent]] | Stone  | Dusk Stone |
 
 ![[SRD-Chandelure-Learnset]]

@@ -9,6 +9,25 @@ DexDescription: Its electric-like body can enter some kinds of machines and take
   of them in order to cause mischief. It changes its form to that of the electric
   appliance, allowing it to become more powerful.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Rotom Heat]]'
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Rotom Fan]]'
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Rotom Mow]]'
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Rotom Frost]]'
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Rotom Wash]]'
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Rotom Dex]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -61,11 +80,18 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'0" / 0.3m
 **Weight**: 0.7lbs / 0.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon             | Kind   |
+|:----------|:--------------------|:-------|
+| To        | [[SRD-Rotom Heat]]  | Form   |
+| To        | [[SRD-Rotom Fan]]   | Form   |
+| To        | [[SRD-Rotom Mow]]   | Form   |
+| To        | [[SRD-Rotom Frost]] | Form   |
+| To        | [[SRD-Rotom Wash]]  | Form   |
+| To        | [[SRD-Rotom Dex]]   | Form   |
 
 ![[SRD-Rotom-Learnset]]

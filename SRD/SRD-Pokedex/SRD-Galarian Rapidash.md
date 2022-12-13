@@ -9,6 +9,11 @@ DexDescription: Those with evil in their hearts will be disdained by this proud 
   beautiful Pokemon as it dashes on the air using its psychic power. It is said that
   only a true princess can mount a Galarian Rapidash.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Galarian Ponyta]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 176.4lbs / 80.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon                 | Kind   | Speed   |
+|:----------|:------------------------|:-------|:--------|
+| From      | [[SRD-Galarian Ponyta]] | Level  | Medium  |
 
 ![[SRD-Galarian Rapidash-Learnset]]

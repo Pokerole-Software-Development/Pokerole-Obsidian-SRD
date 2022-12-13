@@ -9,6 +9,11 @@ DexDescription: 'The explosive, pulsing energy of the auras and the Mega Stone h
   awoken its combative instincts. Its fighting style can be summed up in a single
   word: heartless.'
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Lucarionite
+  Kind: Mega
+  Pokemon: '[[SRD-Lucario]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Lucario]]
-
 **Height**: 4'3" / 1.3m
 **Weight**: 126.8lbs / 57.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon         | Kind   | Item        |
+|:----------|:----------------|:-------|:------------|
+| From      | [[SRD-Lucario]] | Mega   | Lucarionite |
 
 ![[SRD-Mega-Lucario-Learnset]]

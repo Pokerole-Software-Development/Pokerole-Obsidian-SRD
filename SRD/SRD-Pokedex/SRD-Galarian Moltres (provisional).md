@@ -7,6 +7,7 @@ BoxSprite: SRD-moltres-galar-BoxSprite.png
 DexCategory: ''
 DexDescription: ''
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -59,11 +60,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'6" / 2.0m
 **Weight**: 145.5lbs / 66.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Galarian Moltres (provisional)-Learnset]]

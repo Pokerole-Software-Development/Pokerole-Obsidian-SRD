@@ -9,6 +9,12 @@ DexDescription: "Snorlax's typical day consists of eating and sleeping. It is su
   \ a docile Pokemon that children use its big belly as a place to play. It only attacks\
   \ when it\u2019s awoken harshly. Fortunately it is a heavy sleeper."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Munchlax]]'
+  Stat: Happiness
+  Value: 4
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'9" / 2.1m
 **Weight**: 1014.1lbs / 460.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Stat      |   Value |
+|:----------|:-----------------|:-------|:----------|--------:|
+| From      | [[SRD-Munchlax]] | Stat   | Happiness |       4 |
 
 ![[SRD-Snorlax-Learnset]]

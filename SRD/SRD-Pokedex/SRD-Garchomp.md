@@ -9,6 +9,15 @@ DexDescription: Garchomps are scarce in the wild and very dangerous. It folds it
   arms and uses its fins to fly extremely fast at low heights. Territorial and aggressive
   it will not rest until it catches any daring trespasser.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Gabite]]'
+  Speed: Slow
+- Evolves: To
+  Item: Garchompite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Garchomp]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Rough Skin
 HomeSprite: SRD-garchomp-HomeSprite.png
 Learnset: '[[SRD-Garchomp-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Garchompite
-  Name: Mega-Garchomp
 Name: Garchomp
 Number: 445
 PrimaryEggGroup: Monster
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Garchomp]]
-via [[SRD-Garchompite]]
-
 **Height**: 6'2" / 1.9m
 **Weight**: 209.4lbs / 95.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon               | Kind   | Speed   | Item        |
+|:----------|:----------------------|:-------|:--------|:------------|
+| From      | [[SRD-Gabite]]        | Level  | Slow    |             |
+| To        | [[SRD-Mega-Garchomp]] | Mega   |         | Garchompite |
 
 ![[SRD-Garchomp-Learnset]]

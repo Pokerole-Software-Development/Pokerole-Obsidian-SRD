@@ -9,6 +9,7 @@ DexDescription: "The DNA of two apex predators combined. It can run at incredibl
   \ high speeds and tear almost anything with its sharp teeth. Sadly, this Pokemon\
   \ can only breathe underwater and it\u2019s a lousy swimmer."
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 7'5" / 2.3m
 **Weight**: 474.0lbs / 215.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
 
 ![[SRD-Dracovish-Learnset]]

@@ -9,6 +9,16 @@ DexDescription: Although there have been very few sightings of this Pokemon in t
   wild, it is known to appear before kind hearted people and grant them happiness.
   It is very energetic and friendly.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Togepi]]'
+  Stat: Happiness
+  Value: 5
+- Evolves: To
+  Item: Shiny Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Togekiss]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 7.1lbs / 3.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Stat      | Value   | Item        |
+|:----------|:-----------------|:-------|:----------|:--------|:------------|
+| From      | [[SRD-Togepi]]   | Stat   | Happiness | 5.0     |             |
+| To        | [[SRD-Togekiss]] | Stone  |           |         | Shiny Stone |
 
 ![[SRD-Togetic-Learnset]]

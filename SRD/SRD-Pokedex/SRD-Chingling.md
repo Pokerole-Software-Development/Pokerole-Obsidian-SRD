@@ -9,6 +9,12 @@ DexDescription: It has a ball inside its mouth that makes a ringing sound when i
   hops around. To defend itself, it will emit low frequency cries that deafen its
   foes. However this sound is not audible to humans.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Chimecho]]'
+  Stat: Happiness
+  Value: 4
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 0'7" / 0.2m
 **Weight**: 1.3lbs / 0.6kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon          | Kind   | Stat      |   Value |
+|:----------|:-----------------|:-------|:----------|--------:|
+| To        | [[SRD-Chimecho]] | Stat   | Happiness |       4 |
 
 ![[SRD-Chingling-Learnset]]

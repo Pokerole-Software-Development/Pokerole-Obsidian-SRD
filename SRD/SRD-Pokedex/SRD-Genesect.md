@@ -9,6 +9,7 @@ DexDescription: Fossil revival is now possible with our incredible technology. R
   some researchers sparked a controversial debate by altering the original forms of
   the revived Pokemon through artificial means.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 181.9lbs / 82.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Genesect-Learnset]]

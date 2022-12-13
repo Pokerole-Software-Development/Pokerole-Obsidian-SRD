@@ -9,6 +9,12 @@ DexDescription: This Pokemon is Female only. It releases a powerful toxic gas th
   is filled with pheromones that help her keep her reverse harem of Salandit in check.
   This gas can be purified into expensive perfumes.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Gender: Female
+  Kind: Level
+  Pokemon: '[[SRD-Salandit]]'
+  Speed: Medium
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'9" / 1.2m
 **Weight**: 48.9lbs / 22.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Speed   | Gender   |
+|:----------|:-----------------|:-------|:--------|:---------|
+| From      | [[SRD-Salandit]] | Level  | Medium  | Female   |
 
 ![[SRD-Salazzle-Learnset]]

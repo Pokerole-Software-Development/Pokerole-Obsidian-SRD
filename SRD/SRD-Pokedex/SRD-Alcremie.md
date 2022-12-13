@@ -9,6 +9,11 @@ DexDescription: There is a vast number of recipes to evolve an Alcremie, changin
   their color and flavor, some are sweet, some are sour but they are all delicious.
   Cakes baked with its help can be sold for a lot of money.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Special
+  Pokemon: '[[SRD-Milcery]]'
+  Special: Berry & spin
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'0" / 0.3m
 **Weight**: 1.1lbs / 0.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon         | Kind    | Special      |
+|:----------|:----------------|:--------|:-------------|
+| From      | [[SRD-Milcery]] | Special | Berry & spin |
 
 ![[SRD-Alcremie-Learnset]]

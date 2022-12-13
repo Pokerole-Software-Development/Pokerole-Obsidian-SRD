@@ -9,6 +9,7 @@ DexDescription: A mix-up of DNA during the revival process resulted in this. Its
   body was an incredibly Strong Pokemon that probably preyed on the little one from
   the upper body. Sometimes i1l t will try to run from itself.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'9" / 1.8m
 **Weight**: 418.9lbs / 190.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
 
 ![[SRD-Dracozolt-Learnset]]

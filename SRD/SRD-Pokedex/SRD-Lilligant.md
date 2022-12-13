@@ -9,6 +9,11 @@ DexDescription: "Even veteran gardeners face a challenge in getting its beautifu
   \ flower to bloom as it withers with ease. This Pokemon is popular among celebrities\
   \ due to it\u2019s grace, elegance and delicious aroma."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Sun Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Petilil]]'
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'6" / 1.1m
 **Weight**: 35.9lbs / 16.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Item      |
+|:----------|:----------------|:-------|:----------|
+| From      | [[SRD-Petilil]] | Stone  | Sun Stone |
 
 ![[SRD-Lilligant-Learnset]]

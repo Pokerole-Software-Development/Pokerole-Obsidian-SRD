@@ -9,6 +9,12 @@ DexDescription: It shows no mercy to any who desecrates its snowfields and mount
   It will fly around on its icy wings, causing a blizzard to chase offenders away.
   It is very regal and soft-mannered otherwise
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Snom]]'
+  Stat: Happiness
+  Value: 5
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'3" / 1.3m
 **Weight**: 92.6lbs / 42.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon      | Kind   | Stat      |   Value |
+|:----------|:-------------|:-------|:----------|--------:|
+| From      | [[SRD-Snom]] | Stat   | Happiness |       5 |
 
 ![[SRD-Frosmoth-Learnset]]

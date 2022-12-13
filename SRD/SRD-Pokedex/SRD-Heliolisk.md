@@ -9,6 +9,11 @@ DexDescription: They flare their frills and generate energy. A single Heliolisk 
   able to generate enough power to light a skyscraper. Due to this, electricity companies
   are investing on breeding and research for this species.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Sun Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Helioptile]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 46.3lbs / 21.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon            | Kind   | Item      |
+|:----------|:-------------------|:-------|:----------|
+| From      | [[SRD-Helioptile]] | Stone  | Sun Stone |
 
 ![[SRD-Heliolisk-Learnset]]

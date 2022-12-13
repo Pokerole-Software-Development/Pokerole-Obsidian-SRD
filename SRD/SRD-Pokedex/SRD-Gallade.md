@@ -9,6 +9,16 @@ DexDescription: "This Pokemon is male only. He has an extreme sense of courtesy.
   \ a battle, it uses the blades on his arms as if they were swords. It is a loyal\
   \ Pokemon and won\u2019t doubt to fiercely protect its trainer."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Gender: Male
+  Item: Dawn Stone
+  Kind: Special
+  Pokemon: '[[SRD-Kirlia]]'
+- Evolves: To
+  Item: Galladite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Gallade]]'
 GenderType: M
 HasForm: 'Yes'
 Height:
@@ -19,9 +29,6 @@ HiddenAbility: Justified
 HomeSprite: SRD-gallade-HomeSprite.png
 Learnset: '[[SRD-Gallade-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Galladite
-  Name: Mega-Gallade
 Name: Gallade
 Number: 475
 PrimaryEggGroup: Human-Like
@@ -64,14 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Gallade]]
-via [[SRD-Galladite]]
-
 **Height**: 5'2" / 1.6m
 **Weight**: 114.6lbs / 52.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon              | Kind    | Item       | Gender   |
+|:----------|:---------------------|:--------|:-----------|:---------|
+| From      | [[SRD-Kirlia]]       | Special | Dawn Stone | Male     |
+| To        | [[SRD-Mega-Gallade]] | Mega    | Galladite  |          |
 
 ![[SRD-Gallade-Learnset]]

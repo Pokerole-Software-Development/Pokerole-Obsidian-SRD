@@ -9,6 +9,11 @@ DexDescription: The power of the Mega Stone make its inner flames burn so hot th
   its body turns black as coal and blue fire escapes constantly from its mouth. It
   is filled with rage and its demeanor is unpredictable
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Charizardite X
+  Kind: Mega
+  Pokemon: '[[SRD-Charizard]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Charizard]]
-
 **Height**: 5'6" / 1.7m
 **Weight**: 243.6lbs / 110.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon           | Kind   | Item           |
+|:----------|:------------------|:-------|:---------------|
+| From      | [[SRD-Charizard]] | Mega   | Charizardite X |
 
 ![[SRD-Mega-Charizard X-Learnset]]

@@ -9,6 +9,17 @@ DexDescription: This friendly Pokemon lives in cold mountains and deserted snowl
   It survives by eating snow and ice. They form small groups to protect themselves
   from predators. If you take their hat off, they will get angry.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Gender: Male
+  Kind: Level
+  Pokemon: '[[SRD-Glalie]]'
+  Speed: Medium
+- Evolves: To
+  Gender: Female
+  Item: Dawn Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Froslass]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +72,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'3" / 0.7m
 **Weight**: 37.0lbs / 16.8kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Speed   | Gender   | Item       |
+|:----------|:-----------------|:-------|:--------|:---------|:-----------|
+| To        | [[SRD-Glalie]]   | Level  | Medium  | Male     |            |
+| To        | [[SRD-Froslass]] | Stone  |         | Female   | Dawn Stone |
 
 ![[SRD-Snorunt-Learnset]]

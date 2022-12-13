@@ -9,6 +9,11 @@ DexDescription: Eating a sweet apple caused its evolution. A nectarous scent waf
   from its body, luring in the bug Pokemon it preys on, but it also attracts other
   Pokemon who eat the skins atop of its back.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Sweet Apple
+  Kind: Item
+  Pokemon: '[[SRD-Flapple]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'3" / 0.4m
 **Weight**: 28.7lbs / 13.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon         | Kind   | Item        |
+|:----------|:----------------|:-------|:------------|
+| From      | [[SRD-Flapple]] | Item   | Sweet Apple |
 
 ![[SRD-Appletun-Learnset]]

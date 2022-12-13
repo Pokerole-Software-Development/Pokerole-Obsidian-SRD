@@ -9,6 +9,15 @@ DexDescription: It remains hidden inside old logs. When predators attack, it qui
   bristles the fur covering its body to scare them. Bird Pokemon have a hard time
   trying to eat it with all the dust it releases as protection.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Scatterbug]]'
+  Speed: Fast
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Vivillon]]'
+  Speed: Fast
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'0" / 0.3m
 **Weight**: 18.5lbs / 8.4kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon            | Kind   | Speed   |
+|:----------|:-------------------|:-------|:--------|
+| From      | [[SRD-Scatterbug]] | Level  | Fast    |
+| To        | [[SRD-Vivillon]]   | Level  | Fast    |
 
 ![[SRD-Spewpa-Learnset]]

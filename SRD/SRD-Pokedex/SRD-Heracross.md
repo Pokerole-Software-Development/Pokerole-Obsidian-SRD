@@ -9,6 +9,11 @@ DexDescription: A docile creature that loves honey. They batter down trees with 
   powerful horn and chase off anyone who gets close to their prized honey. Not many
   Pokemon dare to mess with it in the wild.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Heracronite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Heracross]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +24,6 @@ HiddenAbility: Moxie
 HomeSprite: SRD-heracross-HomeSprite.png
 Learnset: '[[SRD-Heracross-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Heracronite
-  Name: Mega-Heracross
 Name: Heracross
 Number: 214
 PrimaryEggGroup: Bug
@@ -64,14 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Heracross]]
-via [[SRD-Heracronite]]
-
 **Height**: 4'9" / 1.5m
 **Weight**: 119.0lbs / 54.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon                | Kind   | Item        |
+|:----------|:-----------------------|:-------|:------------|
+| To        | [[SRD-Mega-Heracross]] | Mega   | Heracronite |
 
 ![[SRD-Heracross-Learnset]]

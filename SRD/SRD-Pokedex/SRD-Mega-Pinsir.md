@@ -9,6 +9,11 @@ DexDescription: With the power of the Mega Stone it develops wings and inhuman s
   It can lift foes heavier than itself and still fly with ease. Its mind is in a constant
   state of excitement and it cannot stay still.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Pinsirite
+  Kind: Mega
+  Pokemon: '[[SRD-Pinsir]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Pinsir]]
-
 **Height**: 5'6" / 1.7m
 **Weight**: 130.1lbs / 59.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon        | Kind   | Item      |
+|:----------|:---------------|:-------|:----------|
+| From      | [[SRD-Pinsir]] | Mega   | Pinsirite |
 
 ![[SRD-Mega-Pinsir-Learnset]]

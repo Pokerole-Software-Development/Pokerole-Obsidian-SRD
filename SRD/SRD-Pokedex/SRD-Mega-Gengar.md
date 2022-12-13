@@ -9,6 +9,11 @@ DexDescription: With the power of the Mega Stone Gengar can now teleport through
   whatever horrors it witnesses there make it try to curse anything or anyone it perceives
   as prey, even its beloved trainer!
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Gengarite
+  Kind: Mega
+  Pokemon: '[[SRD-Gengar]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Gengar]]
-
 **Height**: 4'6" / 1.4m
 **Weight**: 89.3lbs / 40.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon        | Kind   | Item      |
+|:----------|:---------------|:-------|:----------|
+| From      | [[SRD-Gengar]] | Mega   | Gengarite |
 
 ![[SRD-Mega-Gengar-Learnset]]

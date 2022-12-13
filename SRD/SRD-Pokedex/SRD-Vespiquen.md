@@ -9,6 +9,12 @@ DexDescription: "This Pokemon is female only. It raises grubs in the holes in it
   \ body and secretes pheromones to control Combee to fight and gather honey for her.\
   \ It is a royal Pokemon that won\u2019t take orders from anyone."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Gender: Female
+  Kind: Level
+  Pokemon: '[[SRD-Combee]]'
+  Speed: Slow
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'9" / 1.2m
 **Weight**: 84.9lbs / 38.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon        | Kind   | Speed   | Gender   |
+|:----------|:---------------|:-------|:--------|:---------|
+| From      | [[SRD-Combee]] | Level  | Slow    | Female   |
 
 ![[SRD-Vespiquen-Learnset]]

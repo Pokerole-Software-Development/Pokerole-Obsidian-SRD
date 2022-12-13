@@ -9,6 +9,16 @@ DexDescription: Even though it appears to be eggs of some sort, it is related mo
   to a seed. It gathers in packs of six that have a mental link with each other. Each
   one of them has a different personality.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Leaf Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Exeggutor]]'
+- Evolves: To
+  Item: Leaf Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Alolan Exeggutor]]'
+  Region: Alola
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 5.5lbs / 2.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon                  | Kind   | Item       | Region   |
+|:----------|:-------------------------|:-------|:-----------|:---------|
+| To        | [[SRD-Exeggutor]]        | Stone  | Leaf Stone |          |
+| To        | [[SRD-Alolan Exeggutor]] | Stone  | Leaf Stone | Alola    |
 
 ![[SRD-Exeggcute-Learnset]]

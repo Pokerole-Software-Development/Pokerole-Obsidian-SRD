@@ -9,6 +9,11 @@ DexDescription: Found in the depths of the southern seas. Their body is built to
   the sea pressure. While it appears to be beautiful and harmless, it is a cruel and
   deceitful creature.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Dragon Scale
+  Kind: Trade
+  Pokemon: '[[SRD-Clamperl]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'9" / 1.8m
 **Weight**: 49.8lbs / 22.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Item         |
+|:----------|:-----------------|:-------|:-------------|
+| From      | [[SRD-Clamperl]] | Trade  | Dragon Scale |
 
 ![[SRD-Gorebyss-Learnset]]

@@ -9,6 +9,10 @@ DexDescription: It is rare to see in the wild since it lives high on the mountai
   It withdraws its head and legs as if it were a turtle to roll around. There have
   been cases of Golem that resist dynamite blasts unscathed.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Trade
+  Pokemon: '[[SRD-Graveler]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'6" / 1.4m
 **Weight**: 661.4lbs / 300.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon          | Kind   |
+|:----------|:-----------------|:-------|
+| From      | [[SRD-Graveler]] | Trade  |
 
 ![[SRD-Golem-Learnset]]

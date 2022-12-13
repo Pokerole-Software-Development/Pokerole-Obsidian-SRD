@@ -9,6 +9,7 @@ DexDescription: Their male counterpart is Tauros. A Miltank's milk is full of nu
   that may heal the sick and the injured, and they can produce up to 5 gallons a day.
   Healing serious injuries may require a lot of milk.
 EventAbilities: ''
+Evolutions: []
 GenderType: F
 HasForm: 'Yes'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'9" / 1.2m
 **Weight**: 166.4lbs / 75.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Miltank-Learnset]]

@@ -9,6 +9,16 @@ DexDescription: First it was just a passing shadow, a shady lurker on the other 
   of the abyss, but then today it made an appearance. the creature attached itself
   to our light sources, depleting them until it was all in darkness.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Special
+  Pokemon: '[[SRD-Necrozma Dusk Mane]]'
+- Evolves: To
+  Kind: Special
+  Pokemon: '[[SRD-Necrozma Dawn Wings]]'
+- Evolves: To
+  Kind: Special
+  Pokemon: '[[SRD-Necrozma Ultra Burst]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -61,11 +71,15 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 7'9" / 2.4m
 **Weight**: 507.1lbs / 230.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon                      | Kind    |
+|:----------|:-----------------------------|:--------|
+| To        | [[SRD-Necrozma Dusk Mane]]   | Special |
+| To        | [[SRD-Necrozma Dawn Wings]]  | Special |
+| To        | [[SRD-Necrozma Ultra Burst]] | Special |
 
 ![[SRD-Necrozma-Learnset]]

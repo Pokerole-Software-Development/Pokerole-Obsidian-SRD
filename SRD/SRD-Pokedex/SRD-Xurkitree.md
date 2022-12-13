@@ -9,6 +9,7 @@ DexDescription: My superiors are furious. A lot of money had to be used to cover
   damages UB-03 dealt in the power plant. On the bright side, it seems a lot livelier
   now that it appears to have recharged.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::9)/(MaxSpecial::9)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 12'5" / 3.8m
 **Weight**: 220.5lbs / 100.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Xurkitree-Learnset]]

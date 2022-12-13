@@ -9,6 +9,12 @@ DexDescription: This Pokemon eats the contamination in the air, and instead of d
   it expels clean air. Its Galar Form was first spotted long ago when factories polluted
   the City.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Koffing]]'
+  Region: Galar
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 9'8" / 3.0m
 **Weight**: 35.3lbs / 16.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Speed   | Region   |
+|:----------|:----------------|:-------|:--------|:---------|
+| From      | [[SRD-Koffing]] | Level  | Slow    | Galar    |
 
 ![[SRD-Galarian Weezing-Learnset]]

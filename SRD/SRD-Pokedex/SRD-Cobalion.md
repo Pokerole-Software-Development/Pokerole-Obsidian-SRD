@@ -9,6 +9,7 @@ DexDescription: There is a story in Unova about four Pokemon that brought justic
   to the wrongdoers. Their Leader was calm and composed but unforgiving. Its cold
   stare forced you to obey its law.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'9" / 2.1m
 **Weight**: 551.2lbs / 250.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Cobalion-Learnset]]

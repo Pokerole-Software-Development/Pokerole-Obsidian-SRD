@@ -9,6 +9,7 @@ DexDescription: Legends in Unova tell about four Pokemon that rebelled against t
   unfair ruler. One of them trampled through the castle walls, destroying the fortress
   to free the trapped Pokemon inside.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'2" / 1.9m
 **Weight**: 573.2lbs / 260.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Terrakion-Learnset]]

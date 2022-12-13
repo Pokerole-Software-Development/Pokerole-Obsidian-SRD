@@ -10,6 +10,15 @@ DexDescription: "This Pokemon is really tenacious. Once it bites something it wo
   \ it loses any of it\u2019s fangs, they\u2019ll regrow in a few days. It\u2019s\
   \ a very wild Pokemon."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Totodile]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Feraligatr]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -62,11 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'6" / 1.1m
 **Weight**: 55.1lbs / 25.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon            | Kind   | Speed   |
+|:----------|:-------------------|:-------|:--------|
+| From      | [[SRD-Totodile]]   | Level  | Medium  |
+| To        | [[SRD-Feraligatr]] | Level  | Medium  |
 
 ![[SRD-Croconaw-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: It lurks close to towns and eats the dreams of people and Pokemo
   When it eats a pleasant dream, it expels pink-colored mist. If you forgot what you
   dreamed, a Munna must have eaten your dream.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Moon Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Musharna]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 51.4lbs / 23.3kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Item       |
+|:----------|:-----------------|:-------|:-----------|
+| To        | [[SRD-Musharna]] | Stone  | Moon Stone |
 
 ![[SRD-Munna-Learnset]]

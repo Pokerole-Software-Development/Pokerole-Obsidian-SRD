@@ -9,6 +9,11 @@ DexDescription: It lives at extreme depths of the sea. Their eyes can see perfec
   in complete darkness. Huntails light up their tail to attract their prey, then swallow
   them whole with a single bite.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Dragon Fang
+  Kind: Trade
+  Pokemon: '[[SRD-Clamperl]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 59.5lbs / 27.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Item        |
+|:----------|:-----------------|:-------|:------------|
+| From      | [[SRD-Clamperl]] | Trade  | Dragon Fang |
 
 ![[SRD-Huntail-Learnset]]

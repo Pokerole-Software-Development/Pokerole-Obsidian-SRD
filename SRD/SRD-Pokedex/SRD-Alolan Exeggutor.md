@@ -9,6 +9,12 @@ DexDescription: "Alola is the native region for this Pokemon, only in there it c
   \ evolve into this form. With this size, its Psychic abilities are rarely needed\
   \ and its trainer\u2019s order\u2019s rarely heard. They enjoy the sun in the beach.."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Leaf Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Exeggcute]]'
+  Region: Alola
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 35'8" / 10.9m
 **Weight**: 916.2lbs / 415.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Item       | Region   |
+|:----------|:------------------|:-------|:-----------|:---------|
+| From      | [[SRD-Exeggcute]] | Stone  | Leaf Stone | Alola    |
 
 ![[SRD-Alolan Exeggutor-Learnset]]

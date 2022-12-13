@@ -9,6 +9,10 @@ DexDescription: Millions of years ago chaos reigned. Volcanoes erupting without 
   and unbearable heat made all life dry out. Who was so angry inside the raging fire?
   For its fury has since ingrained into the earth as red rubies.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Groudon]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 16'4" / 5.0m
 **Weight**: 2204.0lbs / 999.7kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon         | Kind   |
+|:----------|:----------------|:-------|
+| From      | [[SRD-Groudon]] | Form   |
 
 ![[SRD-Primal Groudon-Learnset]]

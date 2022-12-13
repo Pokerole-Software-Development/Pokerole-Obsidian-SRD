@@ -9,6 +9,11 @@ DexDescription: "They are fascinated by moving objects, even chasing their own t
   \ without hesitation. They are cute by nature, and popular pets, but it\u2019s hard\
   \ to earn their trust in the wild. They are quite affectionate."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Moon Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Delcatty]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 24.3lbs / 11.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon          | Kind   | Item       |
+|:----------|:-----------------|:-------|:-----------|
+| To        | [[SRD-Delcatty]] | Stone  | Moon Stone |
 
 ![[SRD-Skitty-Learnset]]

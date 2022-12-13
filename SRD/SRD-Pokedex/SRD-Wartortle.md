@@ -9,6 +9,15 @@ DexDescription: "Its large tail is covered with rich, thick fur that deepens in 
   \ with age. The scratches on its shell are evidence of this Pokemon\u2019s tough\
   \ attitude in battle. It is a good hunter underwater."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Squirtle]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Blastoise]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'3" / 1.0m
 **Weight**: 49.6lbs / 22.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| From      | [[SRD-Squirtle]]  | Level  | Medium  |
+| To        | [[SRD-Blastoise]] | Level  | Medium  |
 
 ![[SRD-Wartortle-Learnset]]

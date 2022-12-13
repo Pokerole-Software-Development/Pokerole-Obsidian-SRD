@@ -9,6 +9,11 @@ DexDescription: A female only species. It raises its offspring in its belly pouc
   The young leaves once it learns to find its own food. In the wild, mothers and daughters
   fiercely defend each other.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Kangaskhanite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Kangaskhan]]'
 GenderType: F
 HasForm: 'Yes'
 Height:
@@ -19,9 +24,6 @@ HiddenAbility: Inner Focus
 HomeSprite: SRD-kangaskhan-HomeSprite.png
 Learnset: '[[SRD-Kangaskhan-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Kangaskhanite
-  Name: Mega-Kangaskhan
 Name: Kangaskhan
 Number: 115
 PrimaryEggGroup: Monster
@@ -64,14 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Kangaskhan]]
-via [[SRD-Kangaskhanite]]
-
 **Height**: 7'2" / 2.2m
 **Weight**: 176.4lbs / 80.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon                 | Kind   | Item          |
+|:----------|:------------------------|:-------|:--------------|
+| To        | [[SRD-Mega-Kangaskhan]] | Mega   | Kangaskhanite |
 
 ![[SRD-Kangaskhan-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: "With the power of the Mega Stone its body goes through so much 
   \ that part of it becomes diamond crystals. Its defense is almost unbreakable but\
   \ its temper is short and it\u2019s easily angered."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Steelixite
+  Kind: Mega
+  Pokemon: '[[SRD-Steelix]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Steelix]]
-
 **Height**: 34'4" / 10.5m
 **Weight**: 1631.4lbs / 740.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon         | Kind   | Item       |
+|:----------|:----------------|:-------|:-----------|
+| From      | [[SRD-Steelix]] | Mega   | Steelixite |
 
 ![[SRD-Mega-Steelix-Learnset]]

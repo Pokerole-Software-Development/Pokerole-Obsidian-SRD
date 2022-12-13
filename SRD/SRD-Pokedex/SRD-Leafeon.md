@@ -9,6 +9,11 @@ DexDescription: "Eevee evolves to Leafeon when it\u2019s living near a special k
   \ of moss. Its cells are capable of performing photosynthesis. It is a calm Pokemon\
   \ and does not usually fight but its leaves are sharp and strong."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Leaf Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Eevee]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 56.2lbs / 25.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon       | Kind   | Item       |
+|:----------|:--------------|:-------|:-----------|
+| From      | [[SRD-Eevee]] | Stone  | Leaf Stone |
 
 ![[SRD-Leafeon-Learnset]]

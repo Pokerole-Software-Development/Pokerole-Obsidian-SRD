@@ -9,6 +9,10 @@ DexDescription: What was thought to be different species ended up being a single
   Oricorio Pa'u has an aloof but ultimately relaxed nature. Its dance is focused and
   has an hypnotic rhythm.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Oricorio Fire]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'0" / 0.6m
 **Weight**: 7.5lbs / 3.4kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon               | Kind   |
+|:----------|:----------------------|:-------|
+| From      | [[SRD-Oricorio Fire]] | Form   |
 
 ![[SRD-Oricorio Psychic-Learnset]]

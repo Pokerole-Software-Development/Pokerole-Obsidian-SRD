@@ -9,6 +9,20 @@ DexDescription: When they use their powers, their surroundings are distorted wit
   mirages and illusory sceneries from the future and the past. Kirlias like to dance
   and dislike to be bossed around.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Ralts]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Gardevoir]]'
+  Speed: Medium
+- Evolves: To
+  Gender: Male
+  Item: Dawn Stone
+  Kind: Special
+  Pokemon: '[[SRD-Gallade]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +75,15 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'6" / 0.8m
 **Weight**: 44.5lbs / 20.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind    | Speed   | Item       | Gender   |
+|:----------|:------------------|:--------|:--------|:-----------|:---------|
+| From      | [[SRD-Ralts]]     | Level   | Medium  |            |          |
+| To        | [[SRD-Gardevoir]] | Level   | Medium  |            |          |
+| To        | [[SRD-Gallade]]   | Special |         | Dawn Stone | Male     |
 
 ![[SRD-Kirlia-Learnset]]

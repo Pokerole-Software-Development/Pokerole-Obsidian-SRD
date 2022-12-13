@@ -9,6 +9,15 @@ DexDescription: "After a lifetime of struggling for a dream, it finally grew its
   \ Salamence, however, is extremely dangerous, it scorches entire fields and mountains.\
   \ It\u2019s easily angered and completely uncontrollable."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Shelgon]]'
+  Speed: Slow
+- Evolves: To
+  Item: Salamencite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Salamence]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Moxie
 HomeSprite: SRD-salamence-HomeSprite.png
 Learnset: '[[SRD-Salamence-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Salamencite
-  Name: Mega-Salamence
 Name: Salamence
 Number: 373
 PrimaryEggGroup: Dragon
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Salamence]]
-via [[SRD-Salamencite]]
-
 **Height**: 4'9" / 1.5m
 **Weight**: 226.2lbs / 102.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon                | Kind   | Speed   | Item        |
+|:----------|:-----------------------|:-------|:--------|:------------|
+| From      | [[SRD-Shelgon]]        | Level  | Slow    |             |
+| To        | [[SRD-Mega-Salamence]] | Mega   |         | Salamencite |
 
 ![[SRD-Salamence-Learnset]]

@@ -9,6 +9,7 @@ DexDescription: Spindas move while stumbling in dizziness. This teeter dance cau
   a severe confusion on whoever is looking. They are shy towards humans but sometimes
   they appear in towns looking really disoriented.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'6" / 1.1m
 **Weight**: 11.0lbs / 5.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
 
 ![[SRD-Spinda-Learnset]]

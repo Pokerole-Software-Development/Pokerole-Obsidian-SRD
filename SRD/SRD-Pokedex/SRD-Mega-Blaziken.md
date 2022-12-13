@@ -9,6 +9,11 @@ DexDescription: The power of the Mega Stone makes its inner fire burn so strong 
   it sets its limbs ablaze. This allows it to move faster than ever but it also takes
   a toll on its feathers as they burn to black cinders.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Blazikenite
+  Kind: Mega
+  Pokemon: '[[SRD-Blaziken]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Blaziken]]
-
 **Height**: 6'2" / 1.9m
 **Weight**: 114.6lbs / 52.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon          | Kind   | Item        |
+|:----------|:-----------------|:-------|:------------|
+| From      | [[SRD-Blaziken]] | Mega   | Blazikenite |
 
 ![[SRD-Mega-Blaziken-Learnset]]

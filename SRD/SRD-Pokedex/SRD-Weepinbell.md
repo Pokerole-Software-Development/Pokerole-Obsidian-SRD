@@ -9,6 +9,15 @@ DexDescription: It sprays its stun powder to immobilize a prey coming close to i
   then eats it calmly. If the prey is bigger than itself, it uses its sharp leaves
   to slice it into smaller pieces. Beware of the toxic liquid in its mouth.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Bellsprout]]'
+  Speed: Medium
+- Evolves: To
+  Item: Leaf Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Victreebel]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'3" / 1.0m
 **Weight**: 14.1lbs / 6.4kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon            | Kind   | Speed   | Item       |
+|:----------|:-------------------|:-------|:--------|:-----------|
+| From      | [[SRD-Bellsprout]] | Level  | Medium  |            |
+| To        | [[SRD-Victreebel]] | Stone  |         | Leaf Stone |
 
 ![[SRD-Weepinbell-Learnset]]

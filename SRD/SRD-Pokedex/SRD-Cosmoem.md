@@ -9,6 +9,19 @@ DexDescription: The creature observed through the telescope changed shapes and r
   motionless for the rest of the investigation. A strange energy was gathering on
   its core.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Cosmog]]'
+  Speed: Unknown
+- Evolves: To
+  Game: Sword
+  Kind: Level
+  Pokemon: '[[SRD-Solgaleo]]'
+- Evolves: To
+  Game: Shield
+  Kind: Level
+  Pokemon: '[[SRD-Lunala]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +74,15 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 0'3" / 0.1m
 **Weight**: 2204.4lbs / 999.9kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Speed   | Game   |
+|:----------|:-----------------|:-------|:--------|:-------|
+| From      | [[SRD-Cosmog]]   | Level  | Unknown |        |
+| To        | [[SRD-Solgaleo]] | Level  |         | Sword  |
+| To        | [[SRD-Lunala]]   | Level  |         | Shield |
 
 ![[SRD-Cosmoem-Learnset]]

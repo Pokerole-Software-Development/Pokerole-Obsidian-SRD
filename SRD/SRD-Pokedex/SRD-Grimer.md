@@ -9,6 +9,11 @@ DexDescription: It was born from polluted sludge in the sea. Grimer's favorite f
   is anything filthy like waste water pumped out from factories. Grime and sludge
   stick to their body making them grow larger over time.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Muk]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 3'0" / 0.9m
 **Weight**: 66.1lbs / 30.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon     | Kind   | Speed   |
+|:----------|:------------|:-------|:--------|
+| To        | [[SRD-Muk]] | Level  | Slow    |
 
 ![[SRD-Grimer-Learnset]]

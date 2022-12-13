@@ -9,6 +9,16 @@ DexDescription: This Pokemon is completely loyal to its trainer. It has the abil
   to not only see the auras but also to transform them into energy. It is also capable
   of understanding human speech.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Riolu]]'
+  Stat: Loyalty
+  Value: 5
+- Evolves: To
+  Item: Lucarionite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Lucario]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +29,6 @@ HiddenAbility: Justified
 HomeSprite: SRD-lucario-HomeSprite.png
 Learnset: '[[SRD-Lucario-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Lucarionite
-  Name: Mega-Lucario
 Name: Lucario
 Number: 448
 PrimaryEggGroup: Field
@@ -64,14 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Lucario]]
-via [[SRD-Lucarionite]]
-
 **Height**: 3'9" / 1.2m
 **Weight**: 119.0lbs / 54.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon              | Kind   | Stat    | Value   | Item        |
+|:----------|:---------------------|:-------|:--------|:--------|:------------|
+| From      | [[SRD-Riolu]]        | Stat   | Loyalty | 5.0     |             |
+| To        | [[SRD-Mega-Lucario]] | Mega   |         |         | Lucarionite |
 
 ![[SRD-Lucario-Learnset]]

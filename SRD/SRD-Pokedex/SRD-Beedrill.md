@@ -9,6 +9,15 @@ DexDescription: Beedrill are extremely territorial. For safety reasons, no one s
   ever approach their nest. If disturbed, they will attack in swarm. It has three
   stings. The one on its tail secretes a powerful poison.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Kakuna]]'
+  Speed: Fast
+- Evolves: To
+  Item: Beedrillite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Beedrill]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Sniper
 HomeSprite: SRD-beedrill-HomeSprite.png
 Learnset: '[[SRD-Beedrill-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Beedrillite
-  Name: Mega-Beedrill
 Name: Beedrill
 Number: 15
 PrimaryEggGroup: Bug
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Beedrill]]
-via [[SRD-Beedrillite]]
-
 **Height**: 3'3" / 1.0m
 **Weight**: 65.0lbs / 29.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon               | Kind   | Speed   | Item        |
+|:----------|:----------------------|:-------|:--------|:------------|
+| From      | [[SRD-Kakuna]]        | Level  | Fast    |             |
+| To        | [[SRD-Mega-Beedrill]] | Mega   |         | Beedrillite |
 
 ![[SRD-Beedrill-Learnset]]

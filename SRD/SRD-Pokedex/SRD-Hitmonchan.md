@@ -9,6 +9,12 @@ DexDescription: "It specializes in punching as fast as it can. Using a corkscrew
   \ it can even drill through concrete with it\u2019s bare hands. This Pokemon takes\
   \ its training very seriously. It\u2019s very rare to see one in the wild."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Tyrogue]]'
+  Stat: Vitality
+  Value: -1
 GenderType: M
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'6" / 1.4m
 **Weight**: 110.7lbs / 50.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Stat     |   Value |
+|:----------|:----------------|:-------|:---------|--------:|
+| From      | [[SRD-Tyrogue]] | Stat   | Vitality |      -1 |
 
 ![[SRD-Hitmonchan-Learnset]]

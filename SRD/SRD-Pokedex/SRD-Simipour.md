@@ -9,6 +9,11 @@ DexDescription: It prefers places with clean water. When its tuft runs low, it r
   it by siphoning water up with its tail. It is said that if you see a Simipour Swimming
   in a pond, the water is safe to drink.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Water Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Panpour]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 63.9lbs / 29.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Item        |
+|:----------|:----------------|:-------|:------------|
+| From      | [[SRD-Panpour]] | Stone  | Water Stone |
 
 ![[SRD-Simipour-Learnset]]

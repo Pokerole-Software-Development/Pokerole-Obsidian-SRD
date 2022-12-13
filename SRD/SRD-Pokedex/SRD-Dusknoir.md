@@ -9,6 +9,11 @@ DexDescription: "This feared Pokemon is said to travel to the other world. Some 
   \ believe that it takes lost spirits along with it. It uses the antenna on it\u2019\
   s head to receive messages from the deceased."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Reaper Cloth
+  Kind: Trade
+  Pokemon: '[[SRD-Dusclops]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 7'2" / 2.2m
 **Weight**: 235.0lbs / 106.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon          | Kind   | Item         |
+|:----------|:-----------------|:-------|:-------------|
+| From      | [[SRD-Dusclops]] | Trade  | Reaper Cloth |
 
 ![[SRD-Dusknoir-Learnset]]

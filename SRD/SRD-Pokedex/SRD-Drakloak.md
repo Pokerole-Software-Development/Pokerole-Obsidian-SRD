@@ -9,6 +9,15 @@ DexDescription: "It battles alongside Dreepy and dotes on them until they evolve
   \ Without a Dreepy to place on its head and care for, it gets so uneasy it\u2019\
   ll try to substitute it with any Pokemon it finds"
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Dreepy]]'
+  Speed: Slow
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Dragapult]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 4'6" / 1.4m
 **Weight**: 24.3lbs / 11.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| From      | [[SRD-Dreepy]]    | Level  | Slow    |
+| To        | [[SRD-Dragapult]] | Level  | Slow    |
 
 ![[SRD-Drakloak-Learnset]]

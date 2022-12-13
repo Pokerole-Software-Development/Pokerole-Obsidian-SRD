@@ -9,6 +9,11 @@ DexDescription: This variant of Diglett is only found in the Alola region. The s
   hairs on its head are used perceive its surroundings while burrowed, do not cut
   them or Diglett will become very sick.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Alolan Dugtrio]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 0'7" / 0.2m
 **Weight**: 2.2lbs / 1.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon                | Kind   | Speed   |
+|:----------|:-----------------------|:-------|:--------|
+| To        | [[SRD-Alolan Dugtrio]] | Level  | Medium  |
 
 ![[SRD-Alolan Diglett-Learnset]]

@@ -9,6 +9,7 @@ DexDescription: "We are unable to determine if the creature is sentient or not, 
   \ adapts its behavior depending on its last host. It hasn\u2019t stopped behaving\
   \ like a little girl since then, it\u2019s both unsettling and fascinating."
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'9" / 1.2m
 **Weight**: 122.4lbs / 55.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Nihilego-Learnset]]

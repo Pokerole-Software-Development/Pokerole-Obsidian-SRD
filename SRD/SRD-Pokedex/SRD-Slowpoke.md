@@ -9,6 +9,15 @@ DexDescription: "It lives close to water. This Pokemon has a low intellect, and 
   s slow to react to any stimuli. Its tail seeps a sweet substance it uses to lure\
   \ prey to eat. When the tip turns white shellders will be attracted to it."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Slowbro]]'
+  Speed: Slow
+- Evolves: To
+  Item: King's Rock
+  Kind: Trade
+  Pokemon: '[[SRD-Slowking]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 3'9" / 1.2m
 **Weight**: 79.4lbs / 36.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Speed   | Item        |
+|:----------|:-----------------|:-------|:--------|:------------|
+| To        | [[SRD-Slowbro]]  | Level  | Slow    |             |
+| To        | [[SRD-Slowking]] | Trade  |         | King's Rock |
 
 ![[SRD-Slowpoke-Learnset]]

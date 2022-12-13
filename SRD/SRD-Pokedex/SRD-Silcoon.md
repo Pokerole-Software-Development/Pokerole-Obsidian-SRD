@@ -9,6 +9,15 @@ DexDescription: They tether themselves to tree branches while they wait to evolv
   Sometimes they peek from a small hole in the cocoon. Silcoons feed only on raindrops.
   If Wrumple lived among flowers, it evolves to Silcoon.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Wurmple]]'
+  Speed: Fast
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Beautifly]]'
+  Speed: Fast
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 22.0lbs / 10.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| From      | [[SRD-Wurmple]]   | Level  | Fast    |
+| To        | [[SRD-Beautifly]] | Level  | Fast    |
 
 ![[SRD-Silcoon-Learnset]]

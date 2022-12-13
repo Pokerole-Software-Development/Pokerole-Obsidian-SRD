@@ -7,6 +7,7 @@ BoxSprite: SRD-slowpoke-galar-BoxSprite.png
 DexCategory: ''
 DexDescription: ''
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -59,11 +60,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'9" / 1.2m
 **Weight**: 79.4lbs / 36.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
 
 ![[SRD-Galarian Slowpoke (provisional)-Learnset]]

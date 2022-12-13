@@ -9,6 +9,7 @@ DexDescription: They are often seen cheerleading their friends. When someone the
   like does a great job, they shower the field with sparks, but when they lose, Plusle
   cries loudly. This Pokemon drains power from telephone poles.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'3" / 0.4m
 **Weight**: 9.3lbs / 4.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Starter
 
 ![[SRD-Plusle-Learnset]]

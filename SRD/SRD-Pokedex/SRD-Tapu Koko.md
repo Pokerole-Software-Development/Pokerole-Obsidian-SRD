@@ -9,6 +9,7 @@ DexDescription: People on Melemele island talk about a guardian spirit who punis
   the evil doers with lightning strikes. If it appears in front of you who knows what
   its intentions may be.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'9" / 1.8m
 **Weight**: 45.2lbs / 20.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Tapu Koko-Learnset]]

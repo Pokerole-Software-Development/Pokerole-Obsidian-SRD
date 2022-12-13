@@ -9,6 +9,15 @@ DexDescription: "Sometimes the humps on their back make an eruption when they ge
   \ really angry, otherwise they\u2019d only erupt every 10 years. Camerupts live\
   \ inside the craters of volcanoes. They are indifferent to humans."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Numel]]'
+  Speed: Medium
+- Evolves: To
+  Item: Cameruptite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Camerupt]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Anger Point
 HomeSprite: SRD-camerupt-HomeSprite.png
 Learnset: '[[SRD-Camerupt-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Cameruptite
-  Name: Mega-Camerupt
 Name: Camerupt
 Number: 323
 PrimaryEggGroup: Field
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Camerupt]]
-via [[SRD-Cameruptite]]
-
 **Height**: 6'2" / 1.9m
 **Weight**: 485.0lbs / 220.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon               | Kind   | Speed   | Item        |
+|:----------|:----------------------|:-------|:--------|:------------|
+| From      | [[SRD-Numel]]         | Level  | Medium  |             |
+| To        | [[SRD-Mega-Camerupt]] | Mega   |         | Cameruptite |
 
 ![[SRD-Camerupt-Learnset]]

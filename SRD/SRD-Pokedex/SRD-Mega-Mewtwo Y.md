@@ -8,6 +8,11 @@ DexCategory: No Data
 DexDescription: With the power of the Mega Stone its body got smaller but its power
   grew immensely. It can blow up even a skyscraper with just its thoughts
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Mewtwonite Y
+  Kind: Mega
+  Pokemon: '[[SRD-Mewtwo]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -60,13 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::10)/(MaxSpecial::10)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Mewtwo]]
-
 **Height**: 4'9" / 1.5m
 **Weight**: 72.8lbs / 33.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon        | Kind   | Item         |
+|:----------|:---------------|:-------|:-------------|
+| From      | [[SRD-Mewtwo]] | Mega   | Mewtwonite Y |
 
 ![[SRD-Mega-Mewtwo Y-Learnset]]

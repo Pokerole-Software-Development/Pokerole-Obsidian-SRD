@@ -9,6 +9,7 @@ DexDescription: It swallows water to inflate its body to appear bigger than its 
   Qwilfish must swallow 2 gallons of water to be able to shoot its stings. The poison
   produced by Qwilfish is known to cause fainting.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'6" / 0.5m
 **Weight**: 8.6lbs / 3.9kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Qwilfish-Learnset]]

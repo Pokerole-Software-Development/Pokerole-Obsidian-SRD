@@ -9,6 +9,7 @@ DexDescription: There used to be whole flocks of them in meadows near the lakes.
   they are almost extinct because their meat is delicious. They are fond of leeks
   and celery, they carry them around as sticks.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'6" / 0.8m
 **Weight**: 33.1lbs / 15.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
 
 ![[SRD-Farfetch'd-Learnset]]

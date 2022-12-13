@@ -9,6 +9,11 @@ DexDescription: "These Pokemon make their burrows on Alola's ice caverns, hidden
   \ plain sight. Careful with its spikes, any puncture into the skin and you can get\
   \ severe frostbite. They can\u2019t stand high temperatures."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Alolan Sandshrew]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'9" / 1.2m
 **Weight**: 121.3lbs / 55.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon                  | Kind   | Speed   |
+|:----------|:-------------------------|:-------|:--------|
+| From      | [[SRD-Alolan Sandshrew]] | Level  | Medium  |
 
 ![[SRD-Alolan Sandslash-Learnset]]

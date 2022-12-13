@@ -9,6 +9,11 @@ DexDescription: "There are old traces of gigantic trees that once grew all over 
   \ earth. They were called the \u201CTrees of Life\u201D and their flowers granted\
   \ the power of flight to the kindhearted, or so the legend says."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Gracidea flower
+  Kind: Special
+  Pokemon: '[[SRD-Shaymin]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'3" / 0.4m
 **Weight**: 11.5lbs / 5.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon         | Kind    | Item            |
+|:----------|:----------------|:--------|:----------------|
+| From      | [[SRD-Shaymin]] | Special | Gracidea flower |
 
 ![[SRD-Sky Shaymin-Learnset]]

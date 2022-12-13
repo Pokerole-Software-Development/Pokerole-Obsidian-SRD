@@ -9,6 +9,12 @@ DexDescription: A poorly-behaved Rockruff will evolve at midnight. This Pokemon 
   savage and has no regard for its own safety. It taunts and provokes foes a lot stronger
   just to get its own blood boiling.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Rockruff]]'
+  Special: Night
+  Speed: Medium
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'6" / 1.1m
 **Weight**: 55.1lbs / 25.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Speed   | Special   |
+|:----------|:-----------------|:-------|:--------|:----------|
+| From      | [[SRD-Rockruff]] | Level  | Medium  | Night     |
 
 ![[SRD-Lycanroc Midnight-Learnset]]

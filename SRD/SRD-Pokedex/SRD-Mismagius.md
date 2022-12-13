@@ -9,6 +9,11 @@ DexDescription: Extremely rare. Their cries sound like incantations, hearing the
   gives you bad headaches and hallucinations. It is said that some Mismagius are benevolent
   and have granted good fortune to people they like.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Dusk Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Misdreavus]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'0" / 0.9m
 **Weight**: 9.7lbs / 4.4kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon            | Kind   | Item       |
+|:----------|:-------------------|:-------|:-----------|
+| From      | [[SRD-Misdreavus]] | Stone  | Dusk Stone |
 
 ![[SRD-Mismagius-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: Their fur feels amazing to the touch. It produces an oil that re
   dust and prevents static electricity from building up. It loves to be groomed and
   pampered. The fur it sheds is highly valued.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Shiny Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Minccino]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'6" / 0.5m
 **Weight**: 16.5lbs / 7.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Item        |
+|:----------|:-----------------|:-------|:------------|
+| From      | [[SRD-Minccino]] | Stone  | Shiny Stone |
 
 ![[SRD-Cinccino-Learnset]]

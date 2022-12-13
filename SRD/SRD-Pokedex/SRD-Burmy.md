@@ -9,6 +9,27 @@ DexDescription: This Pokemon has adapted to live in the forests, deserts and in 
   city. It makes a cloak with the materials close to it to protect itself from the
   weather. Males evolve into a Mothim and females into a Wormadam.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Gender: Female
+  Kind: Level
+  Pokemon: '[[SRD-Grass Wormadam]]'
+  Speed: Fast
+- Evolves: To
+  Gender: Female
+  Kind: Level
+  Pokemon: '[[SRD-Steel Wormadam]]'
+  Speed: Fast
+- Evolves: To
+  Gender: Female
+  Kind: Level
+  Pokemon: '[[SRD-Ground Wormadam]]'
+  Speed: Fast
+- Evolves: To
+  Gender: Male
+  Kind: Level
+  Pokemon: '[[SRD-Mothim]]'
+  Speed: Fast
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +82,16 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 0'7" / 0.2m
 **Weight**: 7.5lbs / 3.4kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon                 | Kind   | Speed   | Gender   |
+|:----------|:------------------------|:-------|:--------|:---------|
+| To        | [[SRD-Grass Wormadam]]  | Level  | Fast    | Female   |
+| To        | [[SRD-Steel Wormadam]]  | Level  | Fast    | Female   |
+| To        | [[SRD-Ground Wormadam]] | Level  | Fast    | Female   |
+| To        | [[SRD-Mothim]]          | Level  | Fast    | Male     |
 
 ![[SRD-Burmy-Learnset]]

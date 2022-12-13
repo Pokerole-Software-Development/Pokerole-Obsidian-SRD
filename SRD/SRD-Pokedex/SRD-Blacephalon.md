@@ -9,6 +9,7 @@ DexDescription: It was horrible and so fast I could barely take a picture of the
   specimen. As soon as the portal opened it slithered through it, got close to one
   of the team members and exploded. His state is critical, the UB disappeared.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'9" / 1.8m
 **Weight**: 28.7lbs / 13.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Blacephalon-Learnset]]

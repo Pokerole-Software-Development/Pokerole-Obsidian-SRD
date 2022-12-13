@@ -9,6 +9,11 @@ DexDescription: "Its auditory sense is astounding, using the feelers on it\u2019
   \ ears it can know the health state of others. It is a caring Pokemon with a sweet\
   \ disposition to help, but it is not too common to see in the wild."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Audinite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Audino]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +24,6 @@ HiddenAbility: Klutz
 HomeSprite: SRD-audino-HomeSprite.png
 Learnset: '[[SRD-Audino-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Audinite
-  Name: Mega-Audino
 Name: Audino
 Number: 531
 PrimaryEggGroup: Fairy
@@ -64,14 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Audino]]
-via [[SRD-Audinite]]
-
 **Height**: 3'6" / 1.1m
 **Weight**: 68.3lbs / 31.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon             | Kind   | Item     |
+|:----------|:--------------------|:-------|:---------|
+| To        | [[SRD-Mega-Audino]] | Mega   | Audinite |
 
 ![[SRD-Audino-Learnset]]

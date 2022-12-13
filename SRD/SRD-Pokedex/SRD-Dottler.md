@@ -9,6 +9,15 @@ DexDescription: "It grows into its final stage inside a hard shell. It barely mo
   \ and it won\u2019t eat or drink during this time, due to this many believe it to\
   \ be dead until its psychic powers awaken and it starts communicating telepathically."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Blipbug]]'
+  Speed: Fast
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Orbeetle]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 43.0lbs / 19.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| From      | [[SRD-Blipbug]]  | Level  | Fast    |
+| To        | [[SRD-Orbeetle]] | Level  | Medium  |
 
 ![[SRD-Dottler-Learnset]]

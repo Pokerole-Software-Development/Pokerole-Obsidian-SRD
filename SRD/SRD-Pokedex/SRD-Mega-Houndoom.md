@@ -9,6 +9,11 @@ DexDescription: With the power of the Mega Stone its whole body radiates tremend
   heat, so much that its claws are searing hot and turn red as a result, for this
   reason it can be painful for it to walk or run.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Houndoominite
+  Kind: Mega
+  Pokemon: '[[SRD-Houndoom]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Houndoom]]
-
 **Height**: 6'2" / 1.9m
 **Weight**: 109.1lbs / 49.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon          | Kind   | Item          |
+|:----------|:-----------------|:-------|:--------------|
+| From      | [[SRD-Houndoom]] | Mega   | Houndoominite |
 
 ![[SRD-Mega-Houndoom-Learnset]]

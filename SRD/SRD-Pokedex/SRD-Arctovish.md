@@ -9,6 +9,7 @@ DexDescription: "This mix of DNA made a more stable creature able to move, breat
   \ and resist cold weather, the only problem is that its head is upside down. If\
   \ it\u2019s not fed it cannot hunt on its own and will die of hunger in a few days."
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'6" / 2.0m
 **Weight**: 385.8lbs / 175.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
 
 ![[SRD-Arctovish-Learnset]]

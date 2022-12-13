@@ -9,6 +9,15 @@ DexDescription: "It\u2019s not common to see it in the wild. The tip of its tail
   \ brightly and in the old days, people sent light signals with the help of this\
   \ Pokemon. It has a good disposition towards people in general."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Flaaffy]]'
+  Speed: Medium
+- Evolves: To
+  Item: Ampharosite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Ampharos]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Plus
 HomeSprite: SRD-ampharos-HomeSprite.png
 Learnset: '[[SRD-Ampharos-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Ampharosite
-  Name: Mega-Ampharos
 Name: Ampharos
 Number: 181
 PrimaryEggGroup: Monster
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Ampharos]]
-via [[SRD-Ampharosite]]
-
 **Height**: 4'6" / 1.4m
 **Weight**: 135.6lbs / 61.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon               | Kind   | Speed   | Item        |
+|:----------|:----------------------|:-------|:--------|:------------|
+| From      | [[SRD-Flaaffy]]       | Level  | Medium  |             |
+| To        | [[SRD-Mega-Ampharos]] | Mega   |         | Ampharosite |
 
 ![[SRD-Ampharos-Learnset]]

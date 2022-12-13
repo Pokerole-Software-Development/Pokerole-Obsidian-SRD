@@ -9,6 +9,11 @@ DexDescription: The legend tells about two Pokemon that could take human shapes,
   psychic powers and become invisible. They were raised by an old couple as their
   own children. The little girl had a red dress.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Latiasite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Latias]]'
 GenderType: F
 HasForm: 'Yes'
 Height:
@@ -19,9 +24,6 @@ HiddenAbility: ''
 HomeSprite: SRD-latias-HomeSprite.png
 Learnset: '[[SRD-Latias-Learnset]]'
 Legendary: 'Yes'
-MegaEvolutions:
-- Item: Latiasite
-  Name: Mega-Latias
 Name: Latias
 Number: 380
 PrimaryEggGroup: Undiscovered
@@ -64,14 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Latias]]
-via [[SRD-Latiasite]]
-
 **Height**: 4'6" / 1.4m
 **Weight**: 88.2lbs / 40.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon             | Kind   | Item      |
+|:----------|:--------------------|:-------|:----------|
+| To        | [[SRD-Mega-Latias]] | Mega   | Latiasite |
 
 ![[SRD-Latias-Learnset]]

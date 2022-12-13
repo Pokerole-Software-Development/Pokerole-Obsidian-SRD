@@ -9,6 +9,15 @@ DexDescription: It hoards a small treasure of sparkly things back in its cave. I
   will react aggressively towards any potential thief. It is also an excellent hunter,
   capable of running, swimming and gliding extremely fast.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Gible]]'
+  Speed: Slow
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Garchomp]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 4'6" / 1.4m
 **Weight**: 123.5lbs / 56.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| From      | [[SRD-Gible]]    | Level  | Slow    |
+| To        | [[SRD-Garchomp]] | Level  | Slow    |
 
 ![[SRD-Gabite-Learnset]]

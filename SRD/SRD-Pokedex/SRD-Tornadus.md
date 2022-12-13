@@ -9,6 +9,10 @@ DexDescription: Unova suffers from terrible tornadoes and devastating wind curre
   that leave houses and buildings in ruins. Some people claim a Pokemon riding the
   winds is responsible for all the devastation.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Form Tornadus]]'
 GenderType: M
 HasForm: 'Yes'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 138.9lbs / 63.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon               | Kind   |
+|:----------|:----------------------|:-------|
+| To        | [[SRD-Form Tornadus]] | Form   |
 
 ![[SRD-Tornadus-Learnset]]

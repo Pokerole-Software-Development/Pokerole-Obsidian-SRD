@@ -9,6 +9,12 @@ DexDescription: "Scarce in the wild but they have been seen in the mountains. It
   \ the ability to see the auras of others, through this power it is capable of sensing\
   \ emotions. It won\u2019t get close to those with selfish intentions."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Lucario]]'
+  Stat: Loyalty
+  Value: 5
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'3" / 0.7m
 **Weight**: 44.5lbs / 20.2kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Stat    |   Value |
+|:----------|:----------------|:-------|:--------|--------:|
+| To        | [[SRD-Lucario]] | Stat   | Loyalty |       5 |
 
 ![[SRD-Riolu-Learnset]]

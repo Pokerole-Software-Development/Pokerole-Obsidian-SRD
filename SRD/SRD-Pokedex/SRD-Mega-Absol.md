@@ -9,6 +9,11 @@ DexDescription: The power of the Mega Stone makes its fur elongate. What you see
   not wings, just puffs of hair. It gets distressed by this form and dislikes going
   into fights, so it uses its intimidating aura to fend off foes.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Absolite
+  Kind: Mega
+  Pokemon: '[[SRD-Absol]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Absol]]
-
 **Height**: 3'9" / 1.2m
 **Weight**: 108.0lbs / 49.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon       | Kind   | Item     |
+|:----------|:--------------|:-------|:---------|
+| From      | [[SRD-Absol]] | Mega   | Absolite |
 
 ![[SRD-Mega-Absol-Learnset]]

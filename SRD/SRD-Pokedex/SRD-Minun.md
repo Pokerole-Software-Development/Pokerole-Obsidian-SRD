@@ -9,6 +9,7 @@ DexDescription: "They will cheer their friends with their lives and will keep on
   \ to their last breath. If a partner is in trouble, this Pokemon will create a curtain\
   \ of sparks on its friend\u2019s side to boost its spirit."
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'3" / 0.4m
 **Weight**: 9.3lbs / 4.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Starter
 
 ![[SRD-Minun-Learnset]]

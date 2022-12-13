@@ -9,6 +9,11 @@ DexDescription: "Luring prey with a sweet scent, it uses the poison on its thorn
   \ arm-whips to poison, bind and finish off the prey. It has a dangerous appeal mixed\
   \ with a graceful personality. It\u2019s very rare in the wild."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Shiny Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Roselia]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'0" / 0.9m
 **Weight**: 32.0lbs / 14.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Item        |
+|:----------|:----------------|:-------|:------------|
+| From      | [[SRD-Roselia]] | Stone  | Shiny Stone |
 
 ![[SRD-Roserade-Learnset]]

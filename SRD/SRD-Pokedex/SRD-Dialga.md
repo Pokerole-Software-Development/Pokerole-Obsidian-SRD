@@ -8,6 +8,7 @@ DexCategory: No Data
 DexDescription: "In some religions there is a being called \u201CThe God of Time\u201D\
   \ whose first roar brought future, present and past."
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -60,11 +61,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 17'7" / 5.4m
 **Weight**: 1505.8lbs / 683.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Dialga-Learnset]]

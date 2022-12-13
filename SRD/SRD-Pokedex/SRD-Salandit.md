@@ -9,6 +9,12 @@ DexDescription: The markings at the end of its tail emit flames and a toxic gas,
   careful as this gas smells sweet and specially appealing for the males of any species.
   Only female Salandit are known to evolve.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Gender: Female
+  Kind: Level
+  Pokemon: '[[SRD-Salazzle]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 10.6lbs / 4.8kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Speed   | Gender   |
+|:----------|:-----------------|:-------|:--------|:---------|
+| To        | [[SRD-Salazzle]] | Level  | Medium  | Female   |
 
 ![[SRD-Salandit-Learnset]]

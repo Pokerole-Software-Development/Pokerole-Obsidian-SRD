@@ -9,6 +9,11 @@ DexDescription: With the power of the Mega Stone it senses the emotions of other
   in a large radius and will go help anyone in need. It will only attack if it needs
   to defend someone or something. It is protective and brave.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Galladite
+  Kind: Mega
+  Pokemon: '[[SRD-Gallade]]'
 GenderType: M
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Gallade]]
-
 **Height**: 5'2" / 1.6m
 **Weight**: 124.3lbs / 56.4kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon         | Kind   | Item      |
+|:----------|:----------------|:-------|:----------|
+| From      | [[SRD-Gallade]] | Mega   | Galladite |
 
 ![[SRD-Mega-Gallade-Learnset]]

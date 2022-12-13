@@ -9,6 +9,11 @@ DexDescription: The excess of power from the Mega Stone melted its fins and claw
   together forming sharp, dangerous scythes. If its disposition was already violent,
   it grows now by a tenfold. They can be vicious and feral.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Garchompite
+  Kind: Mega
+  Pokemon: '[[SRD-Garchomp]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Garchomp]]
-
 **Height**: 6'2" / 1.9m
 **Weight**: 209.4lbs / 95.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon          | Kind   | Item        |
+|:----------|:-----------------|:-------|:------------|
+| From      | [[SRD-Garchomp]] | Mega   | Garchompite |
 
 ![[SRD-Mega-Garchomp-Learnset]]

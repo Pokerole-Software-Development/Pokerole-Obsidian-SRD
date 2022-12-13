@@ -10,6 +10,11 @@ DexDescription: "If you\u2019re too loud around it, you risk being torn apart by
   \ sensitive to the emotions of others if it senses doubt, fear or anger it will\
   \ attack you."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Hattrem]]'
+  Speed: Medium
 GenderType: F
 HasForm: 'No'
 Height:
@@ -62,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'9" / 2.1m
 **Weight**: 11.2lbs / 5.1kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| From      | [[SRD-Hattrem]] | Level  | Medium  |
 
 ![[SRD-Hatterene-Learnset]]

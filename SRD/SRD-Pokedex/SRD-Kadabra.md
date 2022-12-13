@@ -9,6 +9,14 @@ DexDescription: "Kadabra holds a silver spoon in its hand. The spoon is used to 
   \ the alpha waves of its brain. When this Pokemon walks in, objects near to it go\
   \ crazy, moving in ways they shouldn\u2019t."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Abra]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Trade
+  Pokemon: '[[SRD-Alakazam]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +69,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 4'3" / 1.3m
 **Weight**: 124.6lbs / 56.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| From      | [[SRD-Abra]]     | Level  | Medium  |
+| To        | [[SRD-Alakazam]] | Trade  |         |
 
 ![[SRD-Kadabra-Learnset]]

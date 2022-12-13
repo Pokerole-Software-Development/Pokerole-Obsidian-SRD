@@ -9,6 +9,7 @@ DexDescription: "What we thought were harmless displays of strength were just th
   \ first warning signs. Today UB-02 destroyed the truck where it was being transported,\
   \ it escaped and hasn\u2019t been located."
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::4)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 7'9" / 2.4m
 **Weight**: 735.5lbs / 333.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Buzzwole-Learnset]]

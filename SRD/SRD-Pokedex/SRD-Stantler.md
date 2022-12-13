@@ -9,6 +9,7 @@ DexDescription: Their antlers create a distortion in space that causes confusion
   They were hunted for their magnificent antlers that were traded at high prices.
   This drove Stantlers close to extinction.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'6" / 1.4m
 **Weight**: 157.0lbs / 71.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Stantler-Learnset]]

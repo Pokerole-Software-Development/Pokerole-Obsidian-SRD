@@ -8,6 +8,7 @@ DexCategory: No Data
 DexDescription: A fantasy book describes a place where space bends in impossible ways
   and the master of that site was a Pokemon with a similar appearance.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -60,11 +61,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 13'8" / 4.2m
 **Weight**: 740.8lbs / 336.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Palkia-Learnset]]

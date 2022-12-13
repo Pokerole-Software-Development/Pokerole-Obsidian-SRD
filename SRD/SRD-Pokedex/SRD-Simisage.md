@@ -9,6 +9,11 @@ DexDescription: "It becomes somewhat ill tempered after it evolves. The leaves o
   \ it\u2019s head can be made into a bitter but effective medicine, however it will\
   \ attack anyone trying to take them with it\u2019s thorned tail."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Leaf Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Pansage]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'6" / 1.1m
 **Weight**: 67.2lbs / 30.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Item       |
+|:----------|:----------------|:-------|:-----------|
+| From      | [[SRD-Pansage]] | Stone  | Leaf Stone |
 
 ![[SRD-Simisage-Learnset]]

@@ -9,6 +9,7 @@ DexDescription: "Two variants exist of the same Pokemon, a blue one and a red on
   \ but they don\u2019t get along as they compete for territory and prey. These Pokemon\
   \ are very hostile, but also delicious when grilled."
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 39.7lbs / 18.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Basculin-Learnset]]

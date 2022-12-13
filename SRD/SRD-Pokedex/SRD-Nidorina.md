@@ -9,6 +9,15 @@ DexDescription: "Nidorinas are jealous creatures. They don\u2019t like other fem
   \ near their mates. Otherwise, they are very social creatures. When it\u2019s around\
   \ friends or family, its barbs are tucked away to prevent injury."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Nidoran F]]'
+  Speed: Medium
+- Evolves: To
+  Item: Moon Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Nidoqueen]]'
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'6" / 0.8m
 **Weight**: 44.1lbs / 20.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Speed   | Item       |
+|:----------|:------------------|:-------|:--------|:-----------|
+| From      | [[SRD-Nidoran F]] | Level  | Medium  |            |
+| To        | [[SRD-Nidoqueen]] | Stone  |         | Moon Stone |
 
 ![[SRD-Nidorina-Learnset]]

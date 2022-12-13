@@ -9,6 +9,11 @@ DexDescription: "You don\u2019t find this Pokemon, it finds you. It is really sm
   \ and amuses itself by showing people its power to create barriers with pantomime.\
   \ It creates an invisible box and flees when you try to figure out the exit."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Move: Mimic
+  Pokemon: '[[SRD-Mime Jr.]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'3" / 1.3m
 **Weight**: 120.2lbs / 54.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Move   |
+|:----------|:-----------------|:-------|:-------|
+| From      | [[SRD-Mime Jr.]] | Level  | Mimic  |
 
 ![[SRD-Mr. Mime-Learnset]]

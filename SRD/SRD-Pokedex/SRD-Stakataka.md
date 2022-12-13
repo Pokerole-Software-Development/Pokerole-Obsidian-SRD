@@ -9,6 +9,7 @@ DexDescription: We are finally on the other side. It has been so exciting. What 
   thought were the ruins of an abandoned civilization turned out to be small sentient
   creatures that stacked on each other to create a big UB.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 18'0" / 5.5m
 **Weight**: 1807.8lbs / 820.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Stakataka-Learnset]]

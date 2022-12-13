@@ -7,6 +7,11 @@ BoxSprite: SRD-zygarde-10-BoxSprite.png
 DexCategory: No Data
 DexDescription: The complete form of Zygarde
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Zyguarde cells
+  Kind: Special
+  Pokemon: '[[SRD-Zygarde Cell]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -59,11 +64,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 14'8" / 4.5m
 **Weight**: 1344.8lbs / 610.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon              | Kind    | Item           |
+|:----------|:---------------------|:--------|:---------------|
+| From      | [[SRD-Zygarde Cell]] | Special | Zyguarde cells |
 
 ![[SRD-Zygarde 100%-Learnset]]

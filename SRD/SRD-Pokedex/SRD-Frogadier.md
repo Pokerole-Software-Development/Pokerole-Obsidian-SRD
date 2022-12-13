@@ -9,6 +9,18 @@ DexDescription: It is incredibly hard to catch. It starts practicing its skills 
   throwing foam covered pebbles at foes. Many trainers find this rebellious stage
   very challenging to handle and end up being its targets of practice.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Froakie]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Greninja]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-BBF Greninja]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +73,15 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 24.0lbs / 10.9kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon              | Kind   | Speed   |
+|:----------|:---------------------|:-------|:--------|
+| From      | [[SRD-Froakie]]      | Level  | Medium  |
+| To        | [[SRD-Greninja]]     | Level  | Medium  |
+| To        | [[SRD-BBF Greninja]] | Form   |         |
 
 ![[SRD-Frogadier-Learnset]]

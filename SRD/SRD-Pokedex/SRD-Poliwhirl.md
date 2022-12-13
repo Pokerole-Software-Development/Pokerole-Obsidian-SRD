@@ -9,6 +9,19 @@ DexDescription: "Though it is skilled at walking, it prefers to live underwater 
   \ there\u2019s less danger. It sweats to keep its skin moist. Thanks to this, it\
   \ can easily slip out of the clutches of any enemy."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Poliwag]]'
+  Speed: Medium
+- Evolves: To
+  Item: Water Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Poliwrath]]'
+- Evolves: To
+  Item: King's Rock
+  Kind: Trade
+  Pokemon: '[[SRD-Politoed]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +74,15 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'3" / 1.0m
 **Weight**: 44.1lbs / 20.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Speed   | Item        |
+|:----------|:------------------|:-------|:--------|:------------|
+| From      | [[SRD-Poliwag]]   | Level  | Medium  |             |
+| To        | [[SRD-Poliwrath]] | Stone  |         | Water Stone |
+| To        | [[SRD-Politoed]]  | Trade  |         | King's Rock |
 
 ![[SRD-Poliwhirl-Learnset]]

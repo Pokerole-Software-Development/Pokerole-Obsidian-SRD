@@ -9,6 +9,7 @@ DexDescription: "Its body resembles a shiny polished metal and it\u2019s both li
   \ and strong. The only drawback is that it rusts easily. It lives on dry climates\
   \ and deep inside caves because rain and moisture make it cranky."
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'9" / 1.8m
 **Weight**: 88.2lbs / 40.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
 
 ![[SRD-Duraludon-Learnset]]

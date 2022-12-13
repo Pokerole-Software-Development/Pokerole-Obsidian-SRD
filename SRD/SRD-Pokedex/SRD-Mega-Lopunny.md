@@ -9,6 +9,11 @@ DexDescription: The power of the Mega Stone awakens its combative nature. Most o
   its fur is lost due to constant fighting, even its ears are used as weapons, whipping
   foes with heavy hits.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Lopunnite
+  Kind: Mega
+  Pokemon: '[[SRD-Lopunny]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Lopunny]]
-
 **Height**: 4'3" / 1.3m
 **Weight**: 62.4lbs / 28.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon         | Kind   | Item      |
+|:----------|:----------------|:-------|:----------|
+| From      | [[SRD-Lopunny]] | Mega   | Lopunnite |
 
 ![[SRD-Mega-Lopunny-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: One specimen of UB- Adhesive has apparently evolved. Its friendl
   demeanor is gone. The large streams of corrosive poison it shot seriously damaged
   our equipment, I must take a sample to study it
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Move: Dragon Pulse
+  Pokemon: '[[SRD-Poipole]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 11'8" / 3.6m
 **Weight**: 330.7lbs / 150.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon         | Kind   | Move         |
+|:----------|:----------------|:-------|:-------------|
+| From      | [[SRD-Poipole]] | Level  | Dragon Pulse |
 
 ![[SRD-Naganadel-Learnset]]

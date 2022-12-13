@@ -9,6 +9,15 @@ DexDescription: The jets of water it spouts from the rocket cannons on its shell
   been recorded to punch through steel. It is confident on its great defense and water
   spouts to overcome any obstacle.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Wartortle]]'
+  Speed: Medium
+- Evolves: To
+  Item: Blastoisinite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Blastoise]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Rain Dish
 HomeSprite: SRD-blastoise-HomeSprite.png
 Learnset: '[[SRD-Blastoise-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Blastoisinite
-  Name: Mega-Blastoise
 Name: Blastoise
 Number: 9
 PrimaryEggGroup: Monster
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Blastoise]]
-via [[SRD-Blastoisinite]]
-
 **Height**: 5'2" / 1.6m
 **Weight**: 188.5lbs / 85.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon                | Kind   | Speed   | Item          |
+|:----------|:-----------------------|:-------|:--------|:--------------|
+| From      | [[SRD-Wartortle]]      | Level  | Medium  |               |
+| To        | [[SRD-Mega-Blastoise]] | Mega   |         | Blastoisinite |
 
 ![[SRD-Blastoise-Learnset]]

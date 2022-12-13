@@ -9,6 +9,10 @@ DexDescription: They wander in the town streets every new moon. It wraps its pre
   on its arms and sings joyfully as it observes the suffering of the victim. Hearing
   it sing will give you horrible nightmares.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Trade
+  Pokemon: '[[SRD-Pumpkaboo]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'0" / 0.9m
 **Weight**: 27.6lbs / 12.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   |
+|:----------|:------------------|:-------|
+| From      | [[SRD-Pumpkaboo]] | Trade  |
 
 ![[SRD-Gourgeist-Learnset]]

@@ -9,6 +9,12 @@ DexDescription: "It flies near the mountains in search of honey. It is an opport
   \ and won\u2019t gather any honey by itself, instead Mothim steals from Combee hives\
   \ and other Pokemon. This Pokemon is male only."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Gender: Male
+  Kind: Level
+  Pokemon: '[[SRD-Burmy]]'
+  Speed: Fast
 GenderType: M
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'0" / 0.9m
 **Weight**: 51.4lbs / 23.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon       | Kind   | Speed   | Gender   |
+|:----------|:--------------|:-------|:--------|:---------|
+| From      | [[SRD-Burmy]] | Level  | Fast    | Male     |
 
 ![[SRD-Mothim-Learnset]]

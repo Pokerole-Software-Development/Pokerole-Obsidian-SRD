@@ -9,6 +9,7 @@ DexDescription: The sole desire to battle Sevipers is embedded in their genes, t
   have been rivals since forever. Zangoose is a very agile quadruped, standing up
   on two legs only when ready to fight.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'3" / 1.3m
 **Weight**: 88.8lbs / 40.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Zangoose-Learnset]]

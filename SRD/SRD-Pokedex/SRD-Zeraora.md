@@ -9,6 +9,7 @@ DexDescription: An unfriendly creature was spotted in Alola, witnesses mentioned
   electrified its claws and tore its foes apart with them. It disappeared into the
   wilderness and has not been reported again.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 98.1lbs / 44.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Zeraora-Learnset]]

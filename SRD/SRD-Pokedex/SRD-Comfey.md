@@ -9,6 +9,7 @@ DexDescription: This tiny Pokemon gathers flowers and connects them to itself fo
   a ring. The flowers never wither and their aroma becomes soothing and therapeutic.
   If it likes you it will create a flower ring just for you.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 0'3" / 0.1m
 **Weight**: 0.7lbs / 0.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Starter
 
 ![[SRD-Comfey-Learnset]]

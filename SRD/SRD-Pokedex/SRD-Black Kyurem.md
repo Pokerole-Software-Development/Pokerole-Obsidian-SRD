@@ -9,6 +9,10 @@ DexDescription: In the Icy mountains at the east of Unova, you can hear the wail
   of a creature suffering as if it missed a part of its very soul. Dark clouds and
   lightning are sure to follow.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Kyurem]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 10'8" / 3.3m
 **Weight**: 716.5lbs / 325.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon        | Kind   |
+|:----------|:---------------|:-------|
+| From      | [[SRD-Kyurem]] | Form   |
 
 ![[SRD-Black Kyurem-Learnset]]

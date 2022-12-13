@@ -9,6 +9,11 @@ DexDescription: "Feared as protectors of the forest. They are said to live atop 
   \ trees dating back thousands of years, creating terrible wind storms. It is said\
   \ they can read people\u2019s minds to prey on their fears."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Leaf Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Nuzleaf]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'3" / 1.3m
 **Weight**: 131.4lbs / 59.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Item       |
+|:----------|:----------------|:-------|:-----------|
+| From      | [[SRD-Nuzleaf]] | Stone  | Leaf Stone |
 
 ![[SRD-Shiftry-Learnset]]

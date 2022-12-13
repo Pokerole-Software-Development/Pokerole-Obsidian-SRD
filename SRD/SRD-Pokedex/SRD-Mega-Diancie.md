@@ -9,6 +9,11 @@ DexDescription: "The popular saying goes like this: \u201CIf you put a Carbon un
   \ pressure you will get a Diamond\u201D But it surely was not referring to a Pokemon...\
   \ or was it?"
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Diancite
+  Kind: Mega
+  Pokemon: '[[SRD-Diancie]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Diancie]]
-
 **Height**: 3'6" / 1.1m
 **Weight**: 61.3lbs / 27.8kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon         | Kind   | Item     |
+|:----------|:----------------|:-------|:---------|
+| From      | [[SRD-Diancie]] | Mega   | Diancite |
 
 ![[SRD-Mega-Diancie-Learnset]]

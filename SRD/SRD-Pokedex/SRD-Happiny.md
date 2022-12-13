@@ -9,6 +9,11 @@ DexDescription: It is not common to see Happinies. This baby Pokemon cannot prod
   eggs yet, so she searches for white stones and carries them on its pouch. It likes
   to look pretty and tries to always be adorable.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Oval Stone
+  Kind: Level
+  Pokemon: '[[SRD-Chansey]]'
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 53.8lbs / 24.4kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon         | Kind   | Item       |
+|:----------|:----------------|:-------|:-----------|
+| To        | [[SRD-Chansey]] | Level  | Oval Stone |
 
 ![[SRD-Happiny-Learnset]]

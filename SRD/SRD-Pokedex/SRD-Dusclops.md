@@ -9,6 +9,15 @@ DexDescription: "Its body is hollow. Some paranormal experts say there is a spec
   \ energy ball inside them but it is not confirmed. If it absorbs an object or a\
   \ creature there\u2019s the risk that nothing will come back out."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Duskull]]'
+  Speed: Medium
+- Evolves: To
+  Item: Reaper Cloth
+  Kind: Trade
+  Pokemon: '[[SRD-Dusknoir]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 5'2" / 1.6m
 **Weight**: 67.5lbs / 30.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Speed   | Item         |
+|:----------|:-----------------|:-------|:--------|:-------------|
+| From      | [[SRD-Duskull]]  | Level  | Medium  |              |
+| To        | [[SRD-Dusknoir]] | Trade  |         | Reaper Cloth |
 
 ![[SRD-Dusclops-Learnset]]

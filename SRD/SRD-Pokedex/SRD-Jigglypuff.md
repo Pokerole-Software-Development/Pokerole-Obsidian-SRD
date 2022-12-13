@@ -9,6 +9,16 @@ DexDescription: They live in grassy fields near the mountains. To climb they inf
   their bodies and bounce up. It captivates foes with its huge, round eyes, then lulls
   them to sleep by singing a sweet soothing melody.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Igglybuff]]'
+  Stat: Happiness
+  Value: 4
+- Evolves: To
+  Item: Moon Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Wigglytuff]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'6" / 0.5m
 **Weight**: 12.1lbs / 5.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon            | Kind   | Stat      | Value   | Item       |
+|:----------|:-------------------|:-------|:----------|:--------|:-----------|
+| From      | [[SRD-Igglybuff]]  | Stat   | Happiness | 4.0     |            |
+| To        | [[SRD-Wigglytuff]] | Stone  |           |         | Moon Stone |
 
 ![[SRD-Jigglypuff-Learnset]]

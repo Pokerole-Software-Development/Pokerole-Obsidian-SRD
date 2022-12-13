@@ -9,6 +9,15 @@ DexDescription: "There was a legend for a long time that called this Pokemon \u2
   The Ice Monster\u201D. Now we know it is a Pokemon that can cover everything around\
   \ with deep snow. It likes quiet places and only attacks if provoked."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Snover]]'
+  Speed: Medium
+- Evolves: To
+  Item: Abomasite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Abomasnow]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Soundproof
 HomeSprite: SRD-abomasnow-HomeSprite.png
 Learnset: '[[SRD-Abomasnow-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Abomasite
-  Name: Mega-Abomasnow
 Name: Abomasnow
 Number: 460
 PrimaryEggGroup: Monster
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Abomasnow]]
-via [[SRD-Abomasite]]
-
 **Height**: 7'2" / 2.2m
 **Weight**: 298.7lbs / 135.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon                | Kind   | Speed   | Item      |
+|:----------|:-----------------------|:-------|:--------|:----------|
+| From      | [[SRD-Snover]]         | Level  | Medium  |           |
+| To        | [[SRD-Mega-Abomasnow]] | Mega   |         | Abomasite |
 
 ![[SRD-Abomasnow-Learnset]]

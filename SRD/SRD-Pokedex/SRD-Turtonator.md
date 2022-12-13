@@ -9,6 +9,7 @@ DexDescription: It leaves in the volcanic areas of Alola, where it disguises its
   among the rocks, waiting for prey to step on it to detonate an explosion. The hole
   on its chest is a weak point, but it is very difficult to access.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'6" / 2.0m
 **Weight**: 467.4lbs / 212.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
 
 ![[SRD-Turtonator-Learnset]]

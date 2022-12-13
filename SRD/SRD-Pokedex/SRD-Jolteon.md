@@ -9,6 +9,11 @@ DexDescription: This Pokemon evolved after being affected by electric radiation.
   hair on its body starts to stand sharply if it becomes charged with electricity.
   It shoots lightning from all around its body.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Thunder Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Eevee]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'6" / 0.8m
 **Weight**: 54.0lbs / 24.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon       | Kind   | Item          |
+|:----------|:--------------|:-------|:--------------|
+| From      | [[SRD-Eevee]] | Stone  | Thunder Stone |
 
 ![[SRD-Jolteon-Learnset]]

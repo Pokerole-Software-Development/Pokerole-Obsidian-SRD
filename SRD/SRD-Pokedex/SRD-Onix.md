@@ -9,6 +9,11 @@ DexDescription: "It is not full-size when it\u2019s born. Years of eating boulde
   \ make it a real giant. It lives on mountains and dark tunnels. Its frightening\
   \ roars travel as echo through the cave. It is very aggressive towards others."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Metal Coat
+  Kind: Trade
+  Pokemon: '[[SRD-Steelix]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 28'9" / 8.8m
 **Weight**: 463.0lbs / 210.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Item       |
+|:----------|:----------------|:-------|:-----------|
+| To        | [[SRD-Steelix]] | Trade  | Metal Coat |
 
 ![[SRD-Onix-Learnset]]

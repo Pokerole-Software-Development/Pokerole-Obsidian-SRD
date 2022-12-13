@@ -9,6 +9,11 @@ DexDescription: This Pokemon lives in human cities and towns. It has an extremel
   keen sense of smell. It puts its sensitive nose to use by helping bakers and chefs
   to find the most delicious ingredients.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Whipped Dream
+  Kind: Trade
+  Pokemon: '[[SRD-Swirlix]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'6" / 0.8m
 **Weight**: 11.0lbs / 5.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Item          |
+|:----------|:----------------|:-------|:--------------|
+| From      | [[SRD-Swirlix]] | Trade  | Whipped Dream |
 
 ![[SRD-Slurpuff-Learnset]]

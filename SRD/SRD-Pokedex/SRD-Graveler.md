@@ -9,6 +9,14 @@ DexDescription: It walks slowly, but it can get a nice speed by rolling downhill
   It is good at climbing. Groups of them have been seen clinging from rock formations
   and cliffs to eat the tasty rocks covered in moss.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Geodude]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Trade
+  Pokemon: '[[SRD-Golem]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +69,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'3" / 1.0m
 **Weight**: 231.5lbs / 105.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| From      | [[SRD-Geodude]] | Level  | Medium  |
+| To        | [[SRD-Golem]]   | Trade  |         |
 
 ![[SRD-Graveler-Learnset]]

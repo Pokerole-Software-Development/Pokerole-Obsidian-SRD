@@ -9,6 +9,15 @@ DexDescription: It grew inside a sour apple, and thus developed an acid that can
   chemical burns. It uses the discarded apple skin to fly or disguise itself as a
   rancid apple. They are loners as not many like how it looks or smells.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Tart Apple
+  Kind: Item
+  Pokemon: '[[SRD-Applin]]'
+- Evolves: To
+  Item: Sweet Apple
+  Kind: Item
+  Pokemon: '[[SRD-Appletun]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'0" / 0.3m
 **Weight**: 2.2lbs / 1.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon          | Kind   | Item        |
+|:----------|:-----------------|:-------|:------------|
+| From      | [[SRD-Applin]]   | Item   | Tart Apple  |
+| To        | [[SRD-Appletun]] | Item   | Sweet Apple |
 
 ![[SRD-Flapple-Learnset]]

@@ -8,6 +8,10 @@ DexCategory: No Data
 DexDescription: There is a legend of a heroine who through sheer might wielded the
   blade of heroes and vanquished a great evil away.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Form Zacian]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -60,11 +64,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 9'2" / 2.8m
 **Weight**: 242.5lbs / 110.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon             | Kind   |
+|:----------|:--------------------|:-------|
+| To        | [[SRD-Form Zacian]] | Form   |
 
 ![[SRD-Zacian-Learnset]]

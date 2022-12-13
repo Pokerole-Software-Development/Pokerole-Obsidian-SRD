@@ -9,6 +9,11 @@ DexDescription: It stores flammable gas in its body and uses it to generate heat
   The yellow sections on its belly get very hot. It wraps prey with its body heated
   to cook them, the it nibbles them down until nothing remains.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Centiskorch]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'3" / 0.7m
 **Weight**: 2.2lbs / 1.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon             | Kind   | Speed   |
+|:----------|:--------------------|:-------|:--------|
+| To        | [[SRD-Centiskorch]] | Level  | Slow    |
 
 ![[SRD-Sizzlipede-Learnset]]

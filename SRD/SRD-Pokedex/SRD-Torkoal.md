@@ -9,6 +9,7 @@ DexDescription: They constantly search for coal to add to their shell, digging m
   tirelessly because it is the source of their power. If they run out of coal, they
   grow weak. They are commonly found in abandoned coal mines.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'6" / 0.5m
 **Weight**: 177.3lbs / 80.4kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Torkoal-Learnset]]

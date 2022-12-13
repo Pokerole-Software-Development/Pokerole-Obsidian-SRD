@@ -9,6 +9,12 @@ DexDescription: It spits out thread imbued with a frigid energy and uses it to t
   its body to branches, disguising itself as an icicle while it sleeps. It feeds only
   of snow, if it melts it will freeze it again to continue eating.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Frosmoth]]'
+  Stat: Happiness
+  Value: 5
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'0" / 0.3m
 **Weight**: 8.4lbs / 3.8kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon          | Kind   | Stat      |   Value |
+|:----------|:-----------------|:-------|:----------|--------:|
+| To        | [[SRD-Frosmoth]] | Stat   | Happiness |       5 |
 
 ![[SRD-Snom-Learnset]]

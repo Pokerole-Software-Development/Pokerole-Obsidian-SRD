@@ -9,6 +9,10 @@ DexDescription: What was thought to be different species ended up being a single
   Oricorio Pom-Pom is full of cheer and energy, it charges its feathers with static
   electricity, releasing sparks with every swing.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Oricorio Fire]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'0" / 0.6m
 **Weight**: 7.5lbs / 3.4kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon               | Kind   |
+|:----------|:----------------------|:-------|
+| From      | [[SRD-Oricorio Fire]] | Form   |
 
 ![[SRD-Oricorio Electric-Learnset]]

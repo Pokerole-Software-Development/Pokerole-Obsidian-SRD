@@ -9,6 +9,7 @@ DexDescription: 500 years ago a famous scientist left a manuscript with details 
   how to create a mechanic Pokemon. His investigation led to the creation of the modern
   Pokeball.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 177.5lbs / 80.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Magearna-Learnset]]

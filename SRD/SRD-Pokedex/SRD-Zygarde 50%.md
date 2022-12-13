@@ -8,6 +8,11 @@ DexCategory: No Data
 DexDescription: Underground tunnels have been found all over the Kalos Region. There
   are rumors of a creature who lives in them that attacks people damaging the ecosystem.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Zyguarde cells
+  Kind: Special
+  Pokemon: '[[SRD-Zygarde Cell]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -60,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 16'4" / 5.0m
 **Weight**: 672.4lbs / 305.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon              | Kind    | Item           |
+|:----------|:---------------------|:--------|:---------------|
+| From      | [[SRD-Zygarde Cell]] | Special | Zyguarde cells |
 
 ![[SRD-Zygarde 50%-Learnset]]

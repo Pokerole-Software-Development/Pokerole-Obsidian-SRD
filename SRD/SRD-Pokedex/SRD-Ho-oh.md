@@ -9,6 +9,7 @@ DexDescription: "Ho-oh inhabited the Bell Tower, where Pokemon were said to rest
   \ Ho-oh\u2019s Myth talks about a creature that brought eternal rest for those whose\
   \ time was right, and also gave back life if death was premature."
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 12'5" / 3.8m
 **Weight**: 438.7lbs / 199.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Ho-oh-Learnset]]

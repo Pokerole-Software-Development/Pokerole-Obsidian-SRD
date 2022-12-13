@@ -9,6 +9,7 @@ DexDescription: An old tale in Unova mentions four Pokemon that fought against a
   evil army. The most beautiful of them was also the most swift and graceful in combat,
   it created an army of trees that won the battle.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'6" / 2.0m
 **Weight**: 440.9lbs / 200.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Virizion-Learnset]]

@@ -9,6 +9,7 @@ DexDescription: "It\u2019s occasionally found at drilling zones and excavations 
   \ caves. Born from temperature and pressure deep underground, it shoots beams from\
   \ the stone in its head. They can live for hundreds of years."
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'0" / 0.3m
 **Weight**: 12.6lbs / 5.7kg
+**Good Starter**:: No
+**Recommended Rank**:: Starter
 
 ![[SRD-Carbink-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: "It lives in marshlands and jungles where it\u2019s often mistak
   \ for local flora. The air around a Vileplume turns yellow with the powder it releases\
   \ as it walks. The pollen is highly toxic and causes paralysis."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Leaf Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Gloom]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'9" / 1.2m
 **Weight**: 41.0lbs / 18.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon       | Kind   | Item       |
+|:----------|:--------------|:-------|:-----------|
+| From      | [[SRD-Gloom]] | Stone  | Leaf Stone |
 
 ![[SRD-Vileplume-Learnset]]

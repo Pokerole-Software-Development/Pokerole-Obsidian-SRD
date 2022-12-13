@@ -10,6 +10,10 @@ DexDescription: "It is a serious Pokemon that doesn\u2019t interact with others 
   s energy. If angered it can bury it\u2019s foe under giant rock slides or explode\
   \ at will."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Trade
+  Pokemon: '[[SRD-Boldore]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -62,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 573.2lbs / 260.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon         | Kind   |
+|:----------|:----------------|:-------|
+| From      | [[SRD-Boldore]] | Trade  |
 
 ![[SRD-Gigalith-Learnset]]

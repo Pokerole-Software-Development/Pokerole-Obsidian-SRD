@@ -9,6 +9,15 @@ DexDescription: The two heads do not get along with each other as they compete f
   food. For this reason , Zweilous usually eats more than it should. Touching it carelessly
   can get you attacked by one or both heads.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Deino]]'
+  Speed: Slow
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Hydreigon]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 4'6" / 1.4m
 **Weight**: 110.2lbs / 50.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| From      | [[SRD-Deino]]     | Level  | Slow    |
+| To        | [[SRD-Hydreigon]] | Level  | Slow    |
 
 ![[SRD-Zweilous-Learnset]]

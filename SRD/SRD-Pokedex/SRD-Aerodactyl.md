@@ -9,6 +9,11 @@ DexDescription: "A vicious Pokemon from the distant past. It appears to have flo
   \ by spreading its wings and gliding. One has been revived from a fossil. It\u2019\
   s very dangerous; it attacks with the intent to tear apart its victims."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Aerodactylite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Aerodactyl]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +24,6 @@ HiddenAbility: Unnerve
 HomeSprite: SRD-aerodactyl-HomeSprite.png
 Learnset: '[[SRD-Aerodactyl-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Aerodactylite
-  Name: Mega-Aerodactyl
 Name: Aerodactyl
 Number: 142
 PrimaryEggGroup: Flying
@@ -64,14 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Aerodactyl]]
-via [[SRD-Aerodactylite]]
-
 **Height**: 5'9" / 1.8m
 **Weight**: 130.1lbs / 59.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon                 | Kind   | Item          |
+|:----------|:------------------------|:-------|:--------------|
+| To        | [[SRD-Mega-Aerodactyl]] | Mega   | Aerodactylite |
 
 ![[SRD-Aerodactyl-Learnset]]

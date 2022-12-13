@@ -9,6 +9,15 @@ DexDescription: "When it gets down on all fours as if to beg for forgiveness, it
   s trying to lure opponents in so that it can stab them with its spear-like hair.\
   \ It lures people into the woods to rob them and get them lost."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Impidimp]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Grimmsnarl]]'
+  Speed: Medium
 GenderType: M
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'6" / 0.8m
 **Weight**: 27.6lbs / 12.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon            | Kind   | Speed   |
+|:----------|:-------------------|:-------|:--------|
+| From      | [[SRD-Impidimp]]   | Level  | Medium  |
+| To        | [[SRD-Grimmsnarl]] | Level  | Medium  |
 
 ![[SRD-Morgrem-Learnset]]

@@ -9,6 +9,15 @@ DexDescription: It has a horn that serves as a drill for destroying rocks and bo
   Rhydon occasionally goes for a swim in rivers and even magma pools. Its great resistance
   prevents it from taking any damage.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Rhyhorn]]'
+  Speed: Slow
+- Evolves: To
+  Item: Protector
+  Kind: Trade
+  Pokemon: '[[SRD-Rhyperior]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 6'2" / 1.9m
 **Weight**: 264.6lbs / 120.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Speed   | Item      |
+|:----------|:------------------|:-------|:--------|:----------|
+| From      | [[SRD-Rhyhorn]]   | Level  | Slow    |           |
+| To        | [[SRD-Rhyperior]] | Trade  |         | Protector |
 
 ![[SRD-Rhydon-Learnset]]

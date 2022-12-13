@@ -9,6 +9,11 @@ DexDescription: With their great intellect and flying skills, these Pokemon very
   take the place as the kings of the Galarian sky. When they fly, they cast giant
   shadows that strike fear upon foes and friends alike.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Corvisquire]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 7'2" / 2.2m
 **Weight**: 165.3lbs / 75.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon             | Kind   | Speed   |
+|:----------|:--------------------|:-------|:--------|
+| From      | [[SRD-Corvisquire]] | Level  | Medium  |
 
 ![[SRD-Corviknight-Learnset]]

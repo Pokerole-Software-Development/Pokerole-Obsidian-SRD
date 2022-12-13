@@ -9,6 +9,11 @@ DexDescription: They suddenly appear after a cold winter. They survive by drinki
   only dewdrops from under the leaves of plants. It tries not to move a lot since
   lots of bird Pokemon prey on them.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Sun Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Sunflora]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'0" / 0.3m
 **Weight**: 4.0lbs / 1.8kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon          | Kind   | Item      |
+|:----------|:-----------------|:-------|:----------|
+| To        | [[SRD-Sunflora]] | Stone  | Sun Stone |
 
 ![[SRD-Sunkern-Learnset]]

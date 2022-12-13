@@ -9,6 +9,15 @@ DexDescription: "This Pokemon fused with a Shellder that bit into its tail. It\u
   s a slow swimmer and doesn\u2019t react to pain but Shellder tends to keep it out\
   \ of trouble."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Slowpoke]]'
+  Speed: Slow
+- Evolves: To
+  Item: Slowbronite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Slowbro]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Regenerator
 HomeSprite: SRD-slowbro-HomeSprite.png
 Learnset: '[[SRD-Slowbro-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Slowbronite
-  Name: Mega-Slowbro
 Name: Slowbro
 Number: 80
 PrimaryEggGroup: Monster
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Slowbro]]
-via [[SRD-Slowbronite]]
-
 **Height**: 5'2" / 1.6m
 **Weight**: 173.1lbs / 78.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon              | Kind   | Speed   | Item        |
+|:----------|:---------------------|:-------|:--------|:------------|
+| From      | [[SRD-Slowpoke]]     | Level  | Slow    |             |
+| To        | [[SRD-Mega-Slowbro]] | Mega   |         | Slowbronite |
 
 ![[SRD-Slowbro-Learnset]]

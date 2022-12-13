@@ -9,6 +9,16 @@ DexDescription: "There are only females in this species. Chansey lays a nutritiv
   \ egg every day. These eggs are fed to the sick to give them strength. It is a loving\
   \ and smart Pokemon, but it\u2019s pretty rare and elusive in the wild."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Oval Stone
+  Kind: Level
+  Pokemon: '[[SRD-Happiny]]'
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Blissey]]'
+  Stat: Happiness
+  Value: 5
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 3'6" / 1.1m
 **Weight**: 76.3lbs / 34.6kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon         | Kind   | Item       | Stat      | Value   |
+|:----------|:----------------|:-------|:-----------|:----------|:--------|
+| From      | [[SRD-Happiny]] | Level  | Oval Stone |           |         |
+| To        | [[SRD-Blissey]] | Stat   |            | Happiness | 5.0     |
 
 ![[SRD-Chansey-Learnset]]

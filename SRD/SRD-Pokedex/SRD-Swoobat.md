@@ -9,6 +9,12 @@ DexDescription: They communicate by emitting ultrasonic waves through their nose
   This sound is not perceived by humans but it can affect their mood and emotions.
   It hunts Bug Pokemon and loves fresh fruit.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Woobat]]'
+  Stat: Happiness
+  Value: 4
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'0" / 0.9m
 **Weight**: 23.1lbs / 10.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon        | Kind   | Stat      |   Value |
+|:----------|:---------------|:-------|:----------|--------:|
+| From      | [[SRD-Woobat]] | Stat   | Happiness |       4 |
 
 ![[SRD-Swoobat-Learnset]]

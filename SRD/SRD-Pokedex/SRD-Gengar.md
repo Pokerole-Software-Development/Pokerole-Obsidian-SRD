@@ -9,6 +9,14 @@ DexDescription: This Pokemon is mischievous but it can be downright evil. It tak
   joy in casting curses upon innocents and eating the life of people and Pokemon.
   It lurks in the shadows and disguises itself as one.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Trade
+  Pokemon: '[[SRD-Haunter]]'
+- Evolves: To
+  Item: Gengarite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Gengar]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +27,6 @@ HiddenAbility: ''
 HomeSprite: SRD-gengar-HomeSprite.png
 Learnset: '[[SRD-Gengar-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Gengarite
-  Name: Mega-Gengar
 Name: Gengar
 Number: 94
 PrimaryEggGroup: Amorphous
@@ -64,14 +69,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Gengar]]
-via [[SRD-Gengarite]]
-
 **Height**: 4'9" / 1.5m
 **Weight**: 89.3lbs / 40.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon             | Kind   | Item      |
+|:----------|:--------------------|:-------|:----------|
+| From      | [[SRD-Haunter]]     | Trade  |           |
+| To        | [[SRD-Mega-Gengar]] | Mega   | Gengarite |
 
 ![[SRD-Gengar-Learnset]]

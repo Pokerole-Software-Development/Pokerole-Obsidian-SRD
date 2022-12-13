@@ -9,6 +9,11 @@ DexDescription: The power of the Mega Stone melts its two humps into a single on
   The single hump is heavier making it slower, but its newly renewed attitude makes
   the hump erupt in heavy bursts of molten lava.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Cameruptite
+  Kind: Mega
+  Pokemon: '[[SRD-Camerupt]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Camerupt]]
-
 **Height**: 8'2" / 2.5m
 **Weight**: 706.6lbs / 320.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon          | Kind   | Item        |
+|:----------|:-----------------|:-------|:------------|
+| From      | [[SRD-Camerupt]] | Mega   | Cameruptite |
 
 ![[SRD-Mega-Camerupt-Learnset]]

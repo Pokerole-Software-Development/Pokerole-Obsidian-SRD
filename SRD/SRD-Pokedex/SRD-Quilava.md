@@ -8,6 +8,15 @@ DexCategory: Volcano Pokemon
 DexDescription: It intimidates foes with intense gusts of flames and superheated air.
   Beware if a Quilava turns its back on you, it is planing on using a fire move.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Cyndaquil]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Typhlosion]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -60,11 +69,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'0" / 0.9m
 **Weight**: 41.9lbs / 19.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon            | Kind   | Speed   |
+|:----------|:-------------------|:-------|:--------|
+| From      | [[SRD-Cyndaquil]]  | Level  | Medium  |
+| To        | [[SRD-Typhlosion]] | Level  | Medium  |
 
 ![[SRD-Quilava-Learnset]]

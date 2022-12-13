@@ -9,6 +9,11 @@ DexDescription: Its fur is extremely fine and conveys an image of luxury. Its bo
   is soft and rubbery. When angered, it will suck the air and inflate itself to an
   enormous size. It is a favorite pet and a nurse Pokemon.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Moon Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Jigglypuff]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 26.5lbs / 12.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon            | Kind   | Item       |
+|:----------|:-------------------|:-------|:-----------|
+| From      | [[SRD-Jigglypuff]] | Stone  | Moon Stone |
 
 ![[SRD-Wigglytuff-Learnset]]

@@ -9,6 +9,7 @@ DexDescription: It lives on top of the trees, gathering food for the cold winter
   It keeps warm by making fur balls charged with static electricity. Like other electric
   rodents, it stores electricity on its cheek pouches.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'3" / 0.4m
 **Weight**: 8.6lbs / 3.9kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
 
 ![[SRD-Pachirisu-Learnset]]

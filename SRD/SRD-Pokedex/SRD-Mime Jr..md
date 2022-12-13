@@ -9,6 +9,16 @@ DexDescription: "It likes places where people gather and imitates their expressi
   \ to try to understand their feelings. It mimics foes, confuses them, then it escapes.\
   \ It doesn\u2019t take long to become a master mime."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Move: Mimic
+  Pokemon: '[[SRD-Mr. Mime]]'
+- Evolves: To
+  Kind: Level
+  Move: Mimic
+  Pokemon: '[[SRD-Galarian Mr. Mime]]'
+  Region: Galar
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 28.7lbs / 13.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon                   | Kind   | Move   | Region   |
+|:----------|:--------------------------|:-------|:-------|:---------|
+| To        | [[SRD-Mr. Mime]]          | Level  | Mimic  |          |
+| To        | [[SRD-Galarian Mr. Mime]] | Level  | Mimic  | Galar    |
 
 ![[SRD-Mime Jr.-Learnset]]

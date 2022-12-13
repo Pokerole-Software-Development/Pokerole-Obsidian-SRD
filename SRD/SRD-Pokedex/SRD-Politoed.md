@@ -9,6 +9,11 @@ DexDescription: "It lives with Poliwags and Poliwhirls near ponds and lakes, but
   s rarely more than one. Politoed is the leader and acts as the king of the group.\
   \ It is an easy-going but proud Pokemon."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: King's Rock
+  Kind: Trade
+  Pokemon: '[[SRD-Poliwhirl]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'6" / 1.1m
 **Weight**: 74.7lbs / 33.9kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Item        |
+|:----------|:------------------|:-------|:------------|
+| From      | [[SRD-Poliwhirl]] | Trade  | King's Rock |
 
 ![[SRD-Politoed-Learnset]]

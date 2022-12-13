@@ -9,6 +9,11 @@ DexDescription: When forced to live on snow, its fire sac froze and now it gener
   cold. Darumaka uses low temperatures as energy, making it very energetic on winter.
   It is playful and likes to throw Snowballs.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Ice Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Galarian Darmanitan]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: No
 **Height**: 2'3" / 0.7m
 **Weight**: 88.2lbs / 40.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon                     | Kind   | Item      |
+|:----------|:----------------------------|:-------|:----------|
+| To        | [[SRD-Galarian Darmanitan]] | Stone  | Ice Stone |
 
 ![[SRD-Galarian Darumaka-Learnset]]

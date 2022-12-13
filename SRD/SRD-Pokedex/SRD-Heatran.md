@@ -8,6 +8,7 @@ DexCategory: No Data
 DexDescription: An old painting showed a similar Pokemon standing atop of an erupting
   Volcano.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -60,11 +61,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 948.0lbs / 430.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
 
 ![[SRD-Heatran-Learnset]]

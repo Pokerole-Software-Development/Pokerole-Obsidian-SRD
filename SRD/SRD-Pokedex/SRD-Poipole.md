@@ -9,6 +9,11 @@ DexDescription: "Thanks to the Recon Squad we\u2019ve managed to secure a locati
   \ on the other side. UB- Adhesive have been a great help; their intelligence and\
   \ friendliness would make them very popular in our world."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Move: Dragon Pulse
+  Pokemon: '[[SRD-Naganadel]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'0" / 0.6m
 **Weight**: 4.0lbs / 1.8kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Move         |
+|:----------|:------------------|:-------|:-------------|
+| To        | [[SRD-Naganadel]] | Level  | Dragon Pulse |
 
 ![[SRD-Poipole-Learnset]]

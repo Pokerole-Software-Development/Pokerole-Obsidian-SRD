@@ -9,6 +9,15 @@ DexDescription: Aggron claims ownership of entire mountains, mercilessly beating
   anything that crosses their path. Aggrons are violent and patrol their territory
   at all times, but also plant trees, stop fires and protect nature.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Lairon]]'
+  Speed: Slow
+- Evolves: To
+  Item: Aggronite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Aggron]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Heavy Metal
 HomeSprite: SRD-aggron-HomeSprite.png
 Learnset: '[[SRD-Aggron-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Aggronite
-  Name: Mega-Aggron
 Name: Aggron
 Number: 306
 PrimaryEggGroup: Monster
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Aggron]]
-via [[SRD-Aggronite]]
-
 **Height**: 6'9" / 2.1m
 **Weight**: 793.7lbs / 360.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon             | Kind   | Speed   | Item      |
+|:----------|:--------------------|:-------|:--------|:----------|
+| From      | [[SRD-Lairon]]      | Level  | Slow    |           |
+| To        | [[SRD-Mega-Aggron]] | Mega   |         | Aggronite |
 
 ![[SRD-Aggron-Learnset]]

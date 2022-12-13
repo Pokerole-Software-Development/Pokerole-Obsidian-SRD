@@ -9,6 +9,10 @@ DexDescription: 'A Pokedex possessed by a Rotom, it has access to all the inform
   inside the computer and uses the sounds to emulate speech. While on this form it
   can use the move: Light Screen.'
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Rotom]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'0" / 0.3m
 **Weight**: 0.7lbs / 0.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon       | Kind   |
+|:----------|:--------------|:-------|
+| From      | [[SRD-Rotom]] | Form   |
 
 ![[SRD-Rotom Dex-Learnset]]

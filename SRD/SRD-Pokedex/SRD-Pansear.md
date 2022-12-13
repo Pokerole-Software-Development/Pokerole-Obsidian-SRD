@@ -9,6 +9,11 @@ DexDescription: "It lives close to volcanic mountains. It\u2019s very intelligen
   \ it roasts berries before eating them and helps lost people. When angered the tuft\
   \ of hair on it\u2019s head and tail can burst into flames."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Fire Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Simisear]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 24.3lbs / 11.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Item       |
+|:----------|:-----------------|:-------|:-----------|
+| To        | [[SRD-Simisear]] | Stone  | Fire Stone |
 
 ![[SRD-Pansear-Learnset]]

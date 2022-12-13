@@ -9,6 +9,15 @@ DexDescription: "They are always agitated, anxious, excited or upset, rampaging 
   \ anything. They can\u2019t be still and they can\u2019t sleep. They get angry if\
   \ they get bored and violent if there is no activity for them."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Slakoth]]'
+  Speed: Slow
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Slaking]]'
+  Speed: Fast
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 4'6" / 1.4m
 **Weight**: 102.5lbs / 46.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| From      | [[SRD-Slakoth]] | Level  | Slow    |
+| To        | [[SRD-Slaking]] | Level  | Fast    |
 
 ![[SRD-Vigoroth-Learnset]]

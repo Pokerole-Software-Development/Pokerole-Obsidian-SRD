@@ -9,6 +9,11 @@ DexDescription: "With the power of the Mega Stone Pidgeot's flying becomes a blu
   \ red stripe in the sky. It won\u2019t stop soaring the skies while in this state\
   \ without tiring or needing to rest for many days at a time."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Pidgeotite
+  Kind: Mega
+  Pokemon: '[[SRD-Pidgeot]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Pidgeot]]
-
 **Height**: 7'2" / 2.2m
 **Weight**: 111.3lbs / 50.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon         | Kind   | Item       |
+|:----------|:----------------|:-------|:-----------|
+| From      | [[SRD-Pidgeot]] | Mega   | Pidgeotite |
 
 ![[SRD-Mega-Pidgeot-Learnset]]

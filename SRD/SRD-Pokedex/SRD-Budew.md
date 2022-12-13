@@ -9,6 +9,12 @@ DexDescription: It blossoms near clear ponds. Budew needs nurturing and care to 
   healthy and beautiful, otherwise its bud will never bloom. If threatened, they will
   reveal their small but poisonous thorns.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Roselia]]'
+  Stat: Happiness
+  Value: 4
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 0'7" / 0.2m
 **Weight**: 2.6lbs / 1.2kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon         | Kind   | Stat      |   Value |
+|:----------|:----------------|:-------|:----------|--------:|
+| To        | [[SRD-Roselia]] | Stat   | Happiness |       4 |
 
 ![[SRD-Budew-Learnset]]

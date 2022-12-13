@@ -9,6 +9,11 @@ DexDescription: The power of the Mega Stone freezes part of its body creating po
   icicles that hail upon its enemies in a blizzard. The angrier it becomes the longer
   the storm will last.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Abomasite
+  Kind: Mega
+  Pokemon: '[[SRD-Abomasnow]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Abomasnow]]
-
 **Height**: 8'9" / 2.7m
 **Weight**: 407.9lbs / 185.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon           | Kind   | Item      |
+|:----------|:------------------|:-------|:----------|
+| From      | [[SRD-Abomasnow]] | Mega   | Abomasite |
 
 ![[SRD-Mega-Abomasnow-Learnset]]

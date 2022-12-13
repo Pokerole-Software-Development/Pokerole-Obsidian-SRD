@@ -9,6 +9,12 @@ DexDescription: This Pokemon is female only. Legends in snowy regions say that a
   who was lost at an icy mountain was reborn as Froslass. It appears during blizzards
   to take lost people away.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Gender: Female
+  Item: Dawn Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Snorunt]]'
 GenderType: F
 HasForm: 'Yes'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'3" / 1.3m
 **Weight**: 58.6lbs / 26.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon         | Kind   | Item       | Gender   |
+|:----------|:----------------|:-------|:-----------|:---------|
+| From      | [[SRD-Snorunt]] | Stone  | Dawn Stone | Female   |
 
 ![[SRD-Froslass-Learnset]]

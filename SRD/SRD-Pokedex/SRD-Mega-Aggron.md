@@ -9,6 +9,11 @@ DexDescription: The power of the Mega Stone makes their already-small caring nat
   disappear. They become relentless and more machine-like, trampling their way around
   as nothing can penetrate their armor.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Aggronite
+  Kind: Mega
+  Pokemon: '[[SRD-Aggron]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Aggron]]
-
 **Height**: 7'2" / 2.2m
 **Weight**: 870.8lbs / 395.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon        | Kind   | Item      |
+|:----------|:---------------|:-------|:----------|
+| From      | [[SRD-Aggron]] | Mega   | Aggronite |
 
 ![[SRD-Mega-Aggron-Learnset]]

@@ -9,6 +9,15 @@ DexDescription: It flutters around flower meadows and takes care of buds that ar
   starting to wilt. People who fill their gardens with their preferred flower receive
   its visit every spring. They are loyal and caring Pokemon.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Flabebe]]'
+  Speed: Fast
+- Evolves: To
+  Item: Shiny Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Florges]]'
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 0'7" / 0.2m
 **Weight**: 2.0lbs / 0.9kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon         | Kind   | Speed   | Item        |
+|:----------|:----------------|:-------|:--------|:------------|
+| From      | [[SRD-Flabebe]] | Level  | Fast    |             |
+| To        | [[SRD-Florges]] | Stone  |         | Shiny Stone |
 
 ![[SRD-Floette-Learnset]]

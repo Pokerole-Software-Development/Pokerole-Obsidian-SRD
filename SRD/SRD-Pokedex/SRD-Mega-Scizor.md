@@ -9,6 +9,11 @@ DexDescription: The power of the Mega Stone puts its body trough tremendous stre
   if it is inexperienced at wielding it and the battle is too long its pincers will
   feel heavy and even melt. They must be fast to rip their foes apart.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Scizorite
+  Kind: Mega
+  Pokemon: '[[SRD-Scizor]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Scizor]]
-
 **Height**: 6'6" / 2.0m
 **Weight**: 275.6lbs / 125.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon        | Kind   | Item      |
+|:----------|:---------------|:-------|:----------|
+| From      | [[SRD-Scizor]] | Mega   | Scizorite |
 
 ![[SRD-Mega-Scizor-Learnset]]

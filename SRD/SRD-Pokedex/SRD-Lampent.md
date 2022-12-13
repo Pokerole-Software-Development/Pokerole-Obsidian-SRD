@@ -9,6 +9,15 @@ DexDescription: "This ominous Pokemon is very feared. It always arrives at someo
   s final moments and steals their spirit. It hangs close to hospitals and other places\
   \ simply waiting. It is said that if it gets your soul you will never rest."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Litwick]]'
+  Speed: Medium
+- Evolves: To
+  Item: Dusk Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Chandelure]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 28.7lbs / 13.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon            | Kind   | Speed   | Item       |
+|:----------|:-------------------|:-------|:--------|:-----------|
+| From      | [[SRD-Litwick]]    | Level  | Medium  |            |
+| To        | [[SRD-Chandelure]] | Stone  |         | Dusk Stone |
 
 ![[SRD-Lampent-Learnset]]

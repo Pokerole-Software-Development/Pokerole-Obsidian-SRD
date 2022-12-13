@@ -9,6 +9,7 @@ DexDescription: No one really knows what its true form looks like, the only scho
   that dared to look under the veil died on the spot from the horror. It disguises
   itself as a Pikachu in an effort to make friends.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 0'7" / 0.2m
 **Weight**: 1.5lbs / 0.7kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Mimikyu-Learnset]]

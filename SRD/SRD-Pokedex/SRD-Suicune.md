@@ -8,6 +8,7 @@ DexCategory: No Data
 DexDescription: Johto Legends tell about a Pokemon that carries the north winds, sailing
   above the clouds as the aurora, purifying water fountains, pools and rivers.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -60,11 +61,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'6" / 2.0m
 **Weight**: 412.3lbs / 187.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Suicune-Learnset]]

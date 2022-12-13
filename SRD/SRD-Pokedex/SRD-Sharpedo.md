@@ -9,6 +9,15 @@ DexDescription: "Known as the \u201CBully of the Sea\u201D, widely feared for it
   \ cruelty, malice and gangster attitude. They hurt Pokemon for fun and sink boats\
   \ for sport. Sharpedos are among the fastest swimmers."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Carvanha]]'
+  Speed: Medium
+- Evolves: To
+  Item: Sharpedonite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Sharpedo]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Speed Boost
 HomeSprite: SRD-sharpedo-HomeSprite.png
 Learnset: '[[SRD-Sharpedo-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Sharpedonite
-  Name: Mega-Sharpedo
 Name: Sharpedo
 Number: 319
 PrimaryEggGroup: Water 2
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Sharpedo]]
-via [[SRD-Sharpedonite]]
-
 **Height**: 5'9" / 1.8m
 **Weight**: 195.8lbs / 88.8kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon               | Kind   | Speed   | Item         |
+|:----------|:----------------------|:-------|:--------|:-------------|
+| From      | [[SRD-Carvanha]]      | Level  | Medium  |              |
+| To        | [[SRD-Mega-Sharpedo]] | Mega   |         | Sharpedonite |
 
 ![[SRD-Sharpedo-Learnset]]

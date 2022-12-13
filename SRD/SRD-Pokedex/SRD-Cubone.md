@@ -9,6 +9,16 @@ DexDescription: Cubone wears a skull helmet it never removes. It is said to be f
   its mother or someone dear to it. Lives in the mountains where it cries at night
   due to the sadness it feels. It is distrustful of humans.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Marowak]]'
+  Speed: Slow
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Alolan Marowak]]'
+  Region: Alola
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 14.3lbs / 6.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon                | Kind   | Speed   | Region   |
+|:----------|:-----------------------|:-------|:--------|:---------|
+| To        | [[SRD-Marowak]]        | Level  | Slow    |          |
+| To        | [[SRD-Alolan Marowak]] | Level  | Slow    | Alola    |
 
 ![[SRD-Cubone-Learnset]]

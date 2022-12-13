@@ -9,6 +9,44 @@ DexDescription: This Pokemon is extremely rare to find. Eevee has an unstable ge
   makeup that suddenly mutates to fit its environment. Radiation from various stones
   causes this Pokemon to evolve.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Water Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Vaporeon]]'
+- Evolves: To
+  Item: Thunder Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Jolteon]]'
+- Evolves: To
+  Item: Fire Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Flareon]]'
+- Evolves: To
+  Kind: Special
+  Pokemon: '[[SRD-Espeon]]'
+  Special: Sunlight
+  Stat: Happiness
+  Value: 4
+- Evolves: To
+  Kind: Special
+  Pokemon: '[[SRD-Umbreon]]'
+  Special: Moonlight
+  Stat: Happiness
+  Value: 4
+- Evolves: To
+  Item: Leaf Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Leafeon]]'
+- Evolves: To
+  Item: Ice Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Glaceon]]'
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Sylveon]]'
+  Stat: Loyalty
+  Value: 5
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +99,20 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'0" / 0.3m
 **Weight**: 14.3lbs / 6.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind    | Item          | Stat      | Value   | Special   |
+|:----------|:-----------------|:--------|:--------------|:----------|:--------|:----------|
+| To        | [[SRD-Vaporeon]] | Stone   | Water Stone   |           |         |           |
+| To        | [[SRD-Jolteon]]  | Stone   | Thunder Stone |           |         |           |
+| To        | [[SRD-Flareon]]  | Stone   | Fire Stone    |           |         |           |
+| To        | [[SRD-Espeon]]   | Special |               | Happiness | 4.0     | Sunlight  |
+| To        | [[SRD-Umbreon]]  | Special |               | Happiness | 4.0     | Moonlight |
+| To        | [[SRD-Leafeon]]  | Stone   | Leaf Stone    |           |         |           |
+| To        | [[SRD-Glaceon]]  | Stone   | Ice Stone     |           |         |           |
+| To        | [[SRD-Sylveon]]  | Stat    |               | Loyalty   | 5.0     |           |
 
 ![[SRD-Eevee-Learnset]]

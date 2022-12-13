@@ -9,6 +9,11 @@ DexDescription: The power of the Mega Stone bent its jaw at an unnatural angle, 
   helps it spew enormous blizzards but leaves it unable to eat any prey it catches.
   This makes it angry and will weaken it if it stays in this form.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Glalitite
+  Kind: Mega
+  Pokemon: '[[SRD-Glalie]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Glalie]]
-
 **Height**: 6'9" / 2.1m
 **Weight**: 772.1lbs / 350.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon        | Kind   | Item      |
+|:----------|:---------------|:-------|:----------|
+| From      | [[SRD-Glalie]] | Mega   | Glalitite |
 
 ![[SRD-Mega-Glalie-Learnset]]

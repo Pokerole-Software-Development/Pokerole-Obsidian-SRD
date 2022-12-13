@@ -8,6 +8,11 @@ DexCategory: No Data
 DexDescription: There are legends about a being that shined with the moon, on its
   forehead a third eye that connected to another dimension.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Game: Shield
+  Kind: Level
+  Pokemon: '[[SRD-Cosmoem]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -60,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 13'1" / 4.0m
 **Weight**: 264.6lbs / 120.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon         | Kind   | Game   |
+|:----------|:----------------|:-------|:-------|
+| From      | [[SRD-Cosmoem]] | Level  | Shield |
 
 ![[SRD-Lunala-Learnset]]

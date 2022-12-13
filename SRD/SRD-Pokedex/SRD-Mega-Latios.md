@@ -9,6 +9,11 @@ DexDescription: Latios is very in sync with human logic, it can communicate usin
   telepathy. With the power of the Mega Stone all of its capabilities are enhanced
   although its personality becomes more caring than usual.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Latiasite
+  Kind: Mega
+  Pokemon: '[[SRD-Latios]]'
 GenderType: M
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Latios]]
-
 **Height**: 7'5" / 2.3m
 **Weight**: 154.3lbs / 70.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon        | Kind   | Item      |
+|:----------|:---------------|:-------|:----------|
+| From      | [[SRD-Latios]] | Mega   | Latiasite |
 
 ![[SRD-Mega-Latios-Learnset]]

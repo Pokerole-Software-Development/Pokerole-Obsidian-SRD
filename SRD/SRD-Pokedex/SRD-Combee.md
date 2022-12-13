@@ -9,6 +9,12 @@ DexDescription: It forms hives around trees. It flies all day sipping the nectar
   flowers to make honey. It is usually born a male. If a female is born, it will grow
   into a Vespiqueen and start its own Hive.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Gender: Female
+  Kind: Level
+  Pokemon: '[[SRD-Vespiquen]]'
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'0" / 0.3m
 **Weight**: 12.1lbs / 5.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon           | Kind   | Speed   | Gender   |
+|:----------|:------------------|:-------|:--------|:---------|
+| To        | [[SRD-Vespiquen]] | Level  | Slow    | Female   |
 
 ![[SRD-Combee-Learnset]]

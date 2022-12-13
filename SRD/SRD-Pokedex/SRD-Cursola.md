@@ -9,6 +9,11 @@ DexDescription: "The ectoplasm serves as protection for its soul, do not touch i
   \ or you\u2019ll become stiff as stone. This Pokemon longs for the days where coral\
   \ reefs were full of life, it holds a grudge to those who destroyed them."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Galarian Corsola]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'3" / 1.0m
 **Weight**: 0.9lbs / 0.4kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon                  | Kind   | Speed   |
+|:----------|:-------------------------|:-------|:--------|
+| From      | [[SRD-Galarian Corsola]] | Level  | Medium  |
 
 ![[SRD-Cursola-Learnset]]

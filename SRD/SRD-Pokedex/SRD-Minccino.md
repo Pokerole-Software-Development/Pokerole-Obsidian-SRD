@@ -9,6 +9,11 @@ DexDescription: They greet one another by rubbing their tails, which are always 
   well groomed and clean. Housewives love to keep them as pets because they eagerly
   help to clean the house.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Shiny Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Cinccino]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 12.8lbs / 5.8kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Item        |
+|:----------|:-----------------|:-------|:------------|
+| To        | [[SRD-Cinccino]] | Stone  | Shiny Stone |
 
 ![[SRD-Minccino-Learnset]]

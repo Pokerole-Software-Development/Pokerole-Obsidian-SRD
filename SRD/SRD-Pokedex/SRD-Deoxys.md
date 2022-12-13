@@ -9,6 +9,16 @@ DexDescription: "A space expedition had to be aborted due to an emergency. The s
   s crew mentioned a creature attacking them inside their ship. They all gave different\
   \ descriptions of said creature."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Attack Deoxys]]'
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Defense Deoxys]]'
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Speed Deoxys]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -61,11 +71,15 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::4)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 134.0lbs / 60.8kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon                | Kind   |
+|:----------|:-----------------------|:-------|
+| To        | [[SRD-Attack Deoxys]]  | Form   |
+| To        | [[SRD-Defense Deoxys]] | Form   |
+| To        | [[SRD-Speed Deoxys]]   | Form   |
 
 ![[SRD-Deoxys-Learnset]]

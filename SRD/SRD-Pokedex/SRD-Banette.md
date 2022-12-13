@@ -9,6 +9,15 @@ DexDescription: "It\u2019s body is usually a discarded doll or toy. Its spirit i
   \ made of dark feelings and is overrun by the desire of revenge towards the kid\
   \ that threw the toy away. If you open its mouth, all the cursed energy will escape."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Shuppet]]'
+  Speed: Medium
+- Evolves: To
+  Item: Banettite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Banette]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Cursed Body
 HomeSprite: SRD-banette-HomeSprite.png
 Learnset: '[[SRD-Banette-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Banettite
-  Name: Mega-Banette
 Name: Banette
 Number: 354
 PrimaryEggGroup: Amorphous
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Banette]]
-via [[SRD-Banettite]]
-
 **Height**: 3'6" / 1.1m
 **Weight**: 27.6lbs / 12.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon              | Kind   | Speed   | Item      |
+|:----------|:---------------------|:-------|:--------|:----------|
+| From      | [[SRD-Shuppet]]      | Level  | Medium  |           |
+| To        | [[SRD-Mega-Banette]] | Mega   |         | Banettite |
 
 ![[SRD-Banette-Learnset]]

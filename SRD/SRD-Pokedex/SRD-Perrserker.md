@@ -9,6 +9,11 @@ DexDescription: What appears to be an iron helmet is actually hardened hair. Unl
   other Meowth evolutions, Perrserker does not want riches and luxury, it enjoys battles,
   the outdoors and traveling though the sea.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Galarian Meowth]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'6" / 0.8m
 **Weight**: 61.7lbs / 28.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon                 | Kind   | Speed   |
+|:----------|:------------------------|:-------|:--------|
+| From      | [[SRD-Galarian Meowth]] | Level  | Medium  |
 
 ![[SRD-Perrserker-Learnset]]

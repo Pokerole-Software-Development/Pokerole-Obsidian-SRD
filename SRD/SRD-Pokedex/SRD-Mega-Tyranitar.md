@@ -9,6 +9,11 @@ DexDescription: "The power of the Mega Stone is so overwhelming it splits its ba
   \ open. It becomes overwhelmed by its ferocious instincts and it\u2019s unclear\
   \ if it can even hear its Trainer through the pain and rage."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Tyranitarite
+  Kind: Mega
+  Pokemon: '[[SRD-Tyranitar]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Tyranitar]]
-
 **Height**: 8'2" / 2.5m
 **Weight**: 562.2lbs / 255.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon           | Kind   | Item         |
+|:----------|:------------------|:-------|:-------------|
+| From      | [[SRD-Tyranitar]] | Mega   | Tyranitarite |
 
 ![[SRD-Mega-Tyranitar-Learnset]]

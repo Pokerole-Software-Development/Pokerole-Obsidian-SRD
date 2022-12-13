@@ -8,6 +8,7 @@ DexCategory: No Data
 DexDescription: There have been sightings of small groups of similar Pokemon but its
   existence has never been confirmed. It is said to be the offspring of Manaphy.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -60,11 +61,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'3" / 0.4m
 **Weight**: 6.8lbs / 3.1kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Phione-Learnset]]

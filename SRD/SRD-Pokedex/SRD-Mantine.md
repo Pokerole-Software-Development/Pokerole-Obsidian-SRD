@@ -9,6 +9,11 @@ DexDescription: Mantine swims under water and over the waves, gliding for 300 ft
   the air. They are intelligent and docile, traveling elegantly in groups. Remoraids
   can be seen hanging from their fins from time to time.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Special
+  Pokemon: '[[SRD-Mantyke]]'
+  Special: Hit by Remoraid
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'9" / 2.1m
 **Weight**: 485.0lbs / 220.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind    | Special         |
+|:----------|:----------------|:--------|:----------------|
+| From      | [[SRD-Mantyke]] | Special | Hit by Remoraid |
 
 ![[SRD-Mantine-Learnset]]

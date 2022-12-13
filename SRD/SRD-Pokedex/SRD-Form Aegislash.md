@@ -9,6 +9,10 @@ DexDescription: Those who wield this sword hear whispers of bloodlust and power.
   cursed sword has the souls of those who fell by its blade. While in this form it
   can only use Attack moves.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Aegislash]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 116.8lbs / 53.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon           | Kind   |
+|:----------|:------------------|:-------|
+| From      | [[SRD-Aegislash]] | Form   |
 
 ![[SRD-Form Aegislash-Learnset]]

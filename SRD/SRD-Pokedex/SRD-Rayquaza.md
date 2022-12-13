@@ -9,6 +9,11 @@ DexDescription: The legend tells how Rayquaza lived in the outer layer of this w
   It came to end the quarrel between Groudon and Kyogre, granted the world with blue
   skies and then left.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Pokeball
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Rayquaza]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -19,9 +24,6 @@ HiddenAbility: ''
 HomeSprite: SRD-rayquaza-HomeSprite.png
 Learnset: '[[SRD-Rayquaza-Learnset]]'
 Legendary: 'Yes'
-MegaEvolutions:
-- Item: Pokeball
-  Name: Mega-Rayquaza
 Name: Rayquaza
 Number: 384
 PrimaryEggGroup: Undiscovered
@@ -64,14 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Rayquaza]]
-via [[SRD-Pokeball]]
-
 **Height**: 23'0" / 7.0m
 **Weight**: 455.3lbs / 206.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon               | Kind   | Item     |
+|:----------|:----------------------|:-------|:---------|
+| To        | [[SRD-Mega-Rayquaza]] | Mega   | Pokeball |
 
 ![[SRD-Rayquaza-Learnset]]

@@ -9,6 +9,15 @@ DexDescription: "A violent Pokemon. It searches for spots where it can feed on e
   \ and has been seen absorbing lightning from the sky. It\u2019s competitive and\
   \ aggressive with others."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Elekid]]'
+  Speed: Medium
+- Evolves: To
+  Item: Electirizer
+  Kind: Trade
+  Pokemon: '[[SRD-Electivire]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'6" / 1.1m
 **Weight**: 66.1lbs / 30.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon            | Kind   | Speed   | Item        |
+|:----------|:-------------------|:-------|:--------|:------------|
+| From      | [[SRD-Elekid]]     | Level  | Medium  |             |
+| To        | [[SRD-Electivire]] | Trade  |         | Electirizer |
 
 ![[SRD-Electabuzz-Learnset]]

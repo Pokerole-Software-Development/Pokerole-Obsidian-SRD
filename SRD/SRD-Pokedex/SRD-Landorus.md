@@ -9,6 +9,10 @@ DexDescription: Earthquakes and landslides raze Unova with frequency, but the pl
   who suffer them are left with a plentiful harvest that year. Feared by some, revered
   by others who claim to have seen it.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Form Landorus]]'
 GenderType: M
 HasForm: 'Yes'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 149.9lbs / 68.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon               | Kind   |
+|:----------|:----------------------|:-------|
+| To        | [[SRD-Form Landorus]] | Form   |
 
 ![[SRD-Landorus-Learnset]]

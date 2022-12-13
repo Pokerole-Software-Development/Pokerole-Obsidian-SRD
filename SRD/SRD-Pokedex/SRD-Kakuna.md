@@ -9,6 +9,15 @@ DexDescription: It remains virtually immobile while it clings to a tree. On the 
   it is preparing for evolution by rising the temperature of its shell. Beware of
   Beedrills that may roam close to it.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Weedle]]'
+  Speed: Fast
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Beedrill]]'
+  Speed: Fast
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 22.0lbs / 10.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Speed   |
+|:----------|:-----------------|:-------|:--------|
+| From      | [[SRD-Weedle]]   | Level  | Fast    |
+| To        | [[SRD-Beedrill]] | Level  | Fast    |
 
 ![[SRD-Kakuna-Learnset]]

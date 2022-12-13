@@ -9,6 +9,15 @@ DexDescription: It has four powerful brains that allow it to react at the speed 
   a super computer. It pins its prey under its massive body, then eats it using the
   large mouth on its stomach. A powerful and ruthless Pokemon.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Metang]]'
+  Speed: Slow
+- Evolves: To
+  Item: Metagrossite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Metagross]]'
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Light Metal
 HomeSprite: SRD-metagross-HomeSprite.png
 Learnset: '[[SRD-Metagross-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Metagrossite
-  Name: Mega-Metagross
 Name: Metagross
 Number: 376
 PrimaryEggGroup: Mineral
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Metagross]]
-via [[SRD-Metagrossite]]
-
 **Height**: 5'2" / 1.6m
 **Weight**: 1212.5lbs / 550.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon                | Kind   | Speed   | Item         |
+|:----------|:-----------------------|:-------|:--------|:-------------|
+| From      | [[SRD-Metang]]         | Level  | Slow    |              |
+| To        | [[SRD-Mega-Metagross]] | Mega   |         | Metagrossite |
 
 ![[SRD-Metagross-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: With the power of the Mega Stone the dormant dragon genes it has
   awakened. Its wool grows back as a silky mane that flows and floats with the electricity
   its body is discharging.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Ampharosite
+  Kind: Mega
+  Pokemon: '[[SRD-Ampharos]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Ampharos]]
-
 **Height**: 4'6" / 1.4m
 **Weight**: 135.6lbs / 61.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon          | Kind   | Item        |
+|:----------|:-----------------|:-------|:------------|
+| From      | [[SRD-Ampharos]] | Mega   | Ampharosite |
 
 ![[SRD-Mega-Ampharos-Learnset]]

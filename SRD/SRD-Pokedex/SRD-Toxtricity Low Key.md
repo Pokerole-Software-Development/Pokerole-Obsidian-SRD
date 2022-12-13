@@ -9,6 +9,12 @@ DexDescription: "Commonly called \u201CLow Key Form\u201D, its nature determines
   \ evolution, If a Toxel is introverted it will evolve to be a chill Toxtricity.\
   \ They emit low pitched sounds and look down on others who try to provoke them."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Toxel]]'
+  Special: Introvert
+  Speed: Slow
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'2" / 1.6m
 **Weight**: 88.2lbs / 40.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon       | Kind   | Speed   | Special   |
+|:----------|:--------------|:-------|:--------|:----------|
+| From      | [[SRD-Toxel]] | Level  | Slow    | Introvert |
 
 ![[SRD-Toxtricity Low Key-Learnset]]

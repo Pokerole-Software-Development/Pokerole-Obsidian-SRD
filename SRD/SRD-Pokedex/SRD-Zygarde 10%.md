@@ -8,6 +8,11 @@ DexCategory: No Data
 DexDescription: When 10% of the Zygarde Cells gather, they form this Pokemon, the
   more cells it gathers the more its strength will increase.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Zyguarde cells
+  Kind: Special
+  Pokemon: '[[SRD-Zygarde Cell]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -60,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'9" / 1.2m
 **Weight**: 73.9lbs / 33.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon              | Kind    | Item           |
+|:----------|:---------------------|:--------|:---------------|
+| From      | [[SRD-Zygarde Cell]] | Special | Zyguarde cells |
 
 ![[SRD-Zygarde 10%-Learnset]]

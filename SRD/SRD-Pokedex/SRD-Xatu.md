@@ -9,6 +9,11 @@ DexDescription: Xatu is known to stand motionless while staring at the sun all d
   long. Some people revere it as a mystical Pokemon out of their belief that Xatus
   have the power to see into the future.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Natu]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 33.1lbs / 15.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon      | Kind   | Speed   |
+|:----------|:-------------|:-------|:--------|
+| From      | [[SRD-Natu]] | Level  | Medium  |
 
 ![[SRD-Xatu-Learnset]]

@@ -9,6 +9,15 @@ DexDescription: "They raise trees with love and care and protect the jungles wit
   \ their lives. Their tails can restore a plant\u2019s beauty. Sceptiles power is\
   \ truly unmatched in their habitats. They are very proud, though."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Grovyle]]'
+  Speed: Medium
+- Evolves: To
+  Item: Sceptilite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Sceptile]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Unburden
 HomeSprite: SRD-sceptile-HomeSprite.png
 Learnset: '[[SRD-Sceptile-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Sceptilite
-  Name: Mega-Sceptile
 Name: Sceptile
 Number: 254
 PrimaryEggGroup: Monster
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Sceptile]]
-via [[SRD-Sceptilite]]
-
 **Height**: 5'6" / 1.7m
 **Weight**: 115.1lbs / 52.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon               | Kind   | Speed   | Item       |
+|:----------|:----------------------|:-------|:--------|:-----------|
+| From      | [[SRD-Grovyle]]       | Level  | Medium  |            |
+| To        | [[SRD-Mega-Sceptile]] | Mega   |         | Sceptilite |
 
 ![[SRD-Sceptile-Learnset]]

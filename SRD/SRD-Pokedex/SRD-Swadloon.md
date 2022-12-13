@@ -9,6 +9,16 @@ DexDescription: "Preferring dark and damp places, it spends the entire day insid
   \ rotting logs. It protects itself from the cold by wrapping up in leaves. It\u2019\
   s kind of moody and it likes to remain undisturbed."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Sewaddle]]'
+  Speed: Fast
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Leavanny]]'
+  Stat: Happiness
+  Value: 4
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 1'6" / 0.5m
 **Weight**: 16.1lbs / 7.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Speed   | Stat      | Value   |
+|:----------|:-----------------|:-------|:--------|:----------|:--------|
+| From      | [[SRD-Sewaddle]] | Level  | Fast    |           |         |
+| To        | [[SRD-Leavanny]] | Stat   |         | Happiness | 4.0     |
 
 ![[SRD-Swadloon-Learnset]]

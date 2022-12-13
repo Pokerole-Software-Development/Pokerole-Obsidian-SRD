@@ -9,6 +9,15 @@ DexDescription: "Its body is hardly damaged by any attack, so it\u2019s always e
   \ to fight. They are extremely strong, their rage can change landscapes. Tyranitars\
   \ are insolents, rebels and they care about no one."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Pupitar]]'
+  Speed: Slow
+- Evolves: To
+  Item: Tyranitarite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Tyranitar]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Unnerve
 HomeSprite: SRD-tyranitar-HomeSprite.png
 Learnset: '[[SRD-Tyranitar-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Tyranitarite
-  Name: Mega-Tyranitar
 Name: Tyranitar
 Number: 248
 PrimaryEggGroup: Monster
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Tyranitar]]
-via [[SRD-Tyranitarite]]
-
 **Height**: 6'6" / 2.0m
 **Weight**: 445.3lbs / 202.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon                | Kind   | Speed   | Item         |
+|:----------|:-----------------------|:-------|:--------|:-------------|
+| From      | [[SRD-Pupitar]]        | Level  | Slow    |              |
+| To        | [[SRD-Mega-Tyranitar]] | Mega   |         | Tyranitarite |
 
 ![[SRD-Tyranitar-Learnset]]

@@ -9,6 +9,12 @@ DexDescription: Its cheek pouches are not fully developed yet. Pichu gets startl
   if its cheeks release electricity jolts. It needs a friendly environment to grow
   happy. It can be quite the rascal, though.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Pikachu]]'
+  Stat: Happiness
+  Value: 4
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'0" / 0.3m
 **Weight**: 4.4lbs / 2.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon         | Kind   | Stat      |   Value |
+|:----------|:----------------|:-------|:----------|--------:|
+| To        | [[SRD-Pikachu]] | Stat   | Happiness |       4 |
 
 ![[SRD-Pichu-Learnset]]

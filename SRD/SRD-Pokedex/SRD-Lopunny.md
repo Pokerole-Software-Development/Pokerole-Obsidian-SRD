@@ -9,6 +9,16 @@ DexDescription: "Lopunny is extremely cautious, it quickly bounds off when it se
   \ danger. If they are touched roughly, they throw kicks and jump away. Keep the\
   \ fur it sheds as it\u2019s highly valued to make quality yarn."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Buneary]]'
+  Stat: Happiness
+  Value: 4
+- Evolves: To
+  Item: Lopunnite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Lopunny]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +29,6 @@ HiddenAbility: Limber
 HomeSprite: SRD-lopunny-HomeSprite.png
 Learnset: '[[SRD-Lopunny-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Lopunnite
-  Name: Mega-Lopunny
 Name: Lopunny
 Number: 428
 PrimaryEggGroup: Field
@@ -64,14 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Lopunny]]
-via [[SRD-Lopunnite]]
-
 **Height**: 3'9" / 1.2m
 **Weight**: 73.4lbs / 33.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon              | Kind   | Stat      | Value   | Item      |
+|:----------|:---------------------|:-------|:----------|:--------|:----------|
+| From      | [[SRD-Buneary]]      | Stat   | Happiness | 4.0     |           |
+| To        | [[SRD-Mega-Lopunny]] | Mega   |           |         | Lopunnite |
 
 ![[SRD-Lopunny-Learnset]]

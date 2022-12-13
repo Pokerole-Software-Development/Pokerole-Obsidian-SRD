@@ -9,6 +9,22 @@ DexDescription: "Tyrogue is an energetic, competitive and fearless Pokemon that\
   s always looking to get stronger, fighting any enemies even if it looses. They attack\
   \ anyone, any day, anytime, everyday, without warning."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Hitmontop]]'
+  Stat: Dexterity
+  Value: -1
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Hitmonlee]]'
+  Stat: Strength
+  Value: -1
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Hitmonchan]]'
+  Stat: Vitality
+  Value: -1
 GenderType: M
 HasForm: 'No'
 Height:
@@ -61,11 +77,15 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'3" / 0.7m
 **Weight**: 46.3lbs / 21.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon            | Kind   | Stat      |   Value |
+|:----------|:-------------------|:-------|:----------|--------:|
+| To        | [[SRD-Hitmontop]]  | Stat   | Dexterity |      -1 |
+| To        | [[SRD-Hitmonlee]]  | Stat   | Strength  |      -1 |
+| To        | [[SRD-Hitmonchan]] | Stat   | Vitality  |      -1 |
 
 ![[SRD-Tyrogue-Learnset]]

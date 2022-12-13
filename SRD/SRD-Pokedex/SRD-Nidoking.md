@@ -9,6 +9,11 @@ DexDescription: It is recognized by its rock-hard hide and its extended horn. Be
   with the horn as it contains venom. There are records of one trampling and destroying
   a radio tower that was being built on his territory.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Moon Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Nidorino]]'
 GenderType: M
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'6" / 1.4m
 **Weight**: 136.7lbs / 62.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon          | Kind   | Item       |
+|:----------|:-----------------|:-------|:-----------|
+| From      | [[SRD-Nidorino]] | Stone  | Moon Stone |
 
 ![[SRD-Nidoking-Learnset]]

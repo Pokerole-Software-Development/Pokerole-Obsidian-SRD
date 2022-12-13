@@ -9,6 +9,15 @@ DexDescription: If they sense danger, Gardevoir unleash a wave of psychic energy
   They can distort this dimension, defy the laws of matter and physics. They risk
   their lives to protect their fellows.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Kirlia]]'
+  Speed: Medium
+- Evolves: To
+  Item: Gardevoirite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Gardevoir]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Telepathy
 HomeSprite: SRD-gardevoir-HomeSprite.png
 Learnset: '[[SRD-Gardevoir-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Gardevoirite
-  Name: Mega-Gardevoir
 Name: Gardevoir
 Number: 282
 PrimaryEggGroup: Human-Like
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Gardevoir]]
-via [[SRD-Gardevoirite]]
-
 **Height**: 5'2" / 1.6m
 **Weight**: 106.7lbs / 48.4kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon                | Kind   | Speed   | Item         |
+|:----------|:-----------------------|:-------|:--------|:-------------|
+| From      | [[SRD-Kirlia]]         | Level  | Medium  |              |
+| To        | [[SRD-Mega-Gardevoir]] | Mega   |         | Gardevoirite |
 
 ![[SRD-Gardevoir-Learnset]]

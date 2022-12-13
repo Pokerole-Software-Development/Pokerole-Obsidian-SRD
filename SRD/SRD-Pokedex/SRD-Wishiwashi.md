@@ -9,6 +9,10 @@ DexDescription: People and Pokemon enjoy this tiny Pokemon's meat. Their eyes sh
   as a distress signal, other members of its species will travel far and wide to attend
   the call for help. When this happens you must run.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Form
+  Pokemon: '[[SRD-Wishiwashi Swarm]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 0'7" / 0.2m
 **Weight**: 0.7lbs / 0.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon                  | Kind   |
+|:----------|:-------------------------|:-------|
+| To        | [[SRD-Wishiwashi Swarm]] | Form   |
 
 ![[SRD-Wishiwashi-Learnset]]

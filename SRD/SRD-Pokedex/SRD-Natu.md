@@ -9,6 +9,11 @@ DexDescription: It lives close to the deserts. Its wings are not fully developed
   it hops to trees and cactus to peck something to eat. If you find one it will hold
   your stare, if you get closer it might disappear in an instant.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Xatu]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 0'7" / 0.2m
 **Weight**: 4.4lbs / 2.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon      | Kind   | Speed   |
+|:----------|:-------------|:-------|:--------|
+| To        | [[SRD-Xatu]] | Level  | Medium  |
 
 ![[SRD-Natu-Learnset]]

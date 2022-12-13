@@ -9,6 +9,11 @@ DexDescription: With the power of the Mega Stone It becomes bold and confident. 
   flying skills get better and t boasts speed and maneuverability. When it flies you
   cannot see it directly as its flames burn as bright as the sun.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Charizardite Y
+  Kind: Mega
+  Pokemon: '[[SRD-Charizard]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::4)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Charizard]]
-
 **Height**: 5'6" / 1.7m
 **Weight**: 221.6lbs / 100.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon           | Kind   | Item           |
+|:----------|:------------------|:-------|:---------------|
+| From      | [[SRD-Charizard]] | Mega   | Charizardite Y |
 
 ![[SRD-Mega-Charizard Y-Learnset]]

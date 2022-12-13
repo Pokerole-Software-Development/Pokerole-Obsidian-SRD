@@ -8,6 +8,10 @@ DexCategory: Aether Foundation S.O.S Message
 DexDescription: Alert to national authorities we had a serious breach of security!
   This is an emergency! Close the port- (White Noise).
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Special
+  Pokemon: '[[SRD-Necrozma]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -60,11 +64,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 24'6" / 7.5m
 **Weight**: 507.1lbs / 230.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon          | Kind    |
+|:----------|:-----------------|:--------|
+| From      | [[SRD-Necrozma]] | Special |
 
 ![[SRD-Necrozma Ultra Burst-Learnset]]

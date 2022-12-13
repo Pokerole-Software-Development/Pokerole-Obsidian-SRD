@@ -9,6 +9,15 @@ DexDescription: "They live inside holes on big trees. Their leaves are played li
   \ flutes to strike fear and discomfort in lost people\u2019s hearts. They like to\
   \ go out and startle people. Their noses are really sensitive and frail."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Seedot]]'
+  Speed: Medium
+- Evolves: To
+  Item: Leaf Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Shiftry]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 3'3" / 1.0m
 **Weight**: 61.7lbs / 28.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon         | Kind   | Speed   | Item       |
+|:----------|:----------------|:-------|:--------|:-----------|
+| From      | [[SRD-Seedot]]  | Level  | Medium  |            |
+| To        | [[SRD-Shiftry]] | Stone  |         | Leaf Stone |
 
 ![[SRD-Nuzleaf-Learnset]]

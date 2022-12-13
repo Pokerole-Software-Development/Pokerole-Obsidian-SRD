@@ -9,6 +9,11 @@ DexDescription: They propel themselves, swimming at high speeds to hunt their pr
   After they have eaten their swim becomes sluggish and they are at risk of being
   eaten themselves. They are proud of their pointed jaw.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Barraskewda]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'6" / 0.5m
 **Weight**: 2.2lbs / 1.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon             | Kind   | Speed   |
+|:----------|:--------------------|:-------|:--------|
+| To        | [[SRD-Barraskewda]] | Level  | Medium  |
 
 ![[SRD-Arrokuda-Learnset]]

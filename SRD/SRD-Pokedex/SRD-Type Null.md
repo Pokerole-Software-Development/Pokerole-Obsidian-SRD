@@ -9,6 +9,7 @@ DexDescription: A synthetic Pokemon made by the Aether Foundation. Currently onl
   three specimens exist in cryogenic stasis, but they are deemed too dangerous even
   with a limiter helmet on. They must never be reanimated.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 6'2" / 1.9m
 **Weight**: 265.7lbs / 120.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
 
 ![[SRD-Type Null-Learnset]]

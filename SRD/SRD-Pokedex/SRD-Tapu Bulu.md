@@ -8,6 +8,7 @@ DexCategory: No Data
 DexDescription: Through Ula'ula island runs the legend of a lazy guardian spirit who
   lives among the trees, which it commands to restrain its foes before beating them.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -60,11 +61,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'2" / 1.9m
 **Weight**: 100.3lbs / 45.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Tapu Bulu-Learnset]]

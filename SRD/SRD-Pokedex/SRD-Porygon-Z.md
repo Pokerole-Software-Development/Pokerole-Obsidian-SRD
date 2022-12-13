@@ -9,6 +9,11 @@ DexDescription: A software to explore another dimension was installed on Porygon
   However, it began acting oddly due to glitches in the code. Since then, it has a
   fondness for videos of Meowth and Skitty on the internet
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Dubious Disc
+  Kind: Trade
+  Pokemon: '[[SRD-Porygon2]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'0" / 0.9m
 **Weight**: 75.0lbs / 34.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon          | Kind   | Item         |
+|:----------|:-----------------|:-------|:-------------|
+| From      | [[SRD-Porygon2]] | Trade  | Dubious Disc |
 
 ![[SRD-Porygon-Z-Learnset]]

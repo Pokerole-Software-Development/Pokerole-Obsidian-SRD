@@ -9,6 +9,11 @@ DexDescription: With the power of the Mega Stone the canon on its back can shoot
   water projectiles that can pierce through concrete. Its body is incredibly hard
   and its hind legs root themselves to prevent recoil.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Blastoisinite
+  Kind: Mega
+  Pokemon: '[[SRD-Blastoise]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Blastoise]]
-
 **Height**: 5'2" / 1.6m
 **Weight**: 222.9lbs / 101.1kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon           | Kind   | Item          |
+|:----------|:------------------|:-------|:--------------|
+| From      | [[SRD-Blastoise]] | Mega   | Blastoisinite |
 
 ![[SRD-Mega-Blastoise-Learnset]]

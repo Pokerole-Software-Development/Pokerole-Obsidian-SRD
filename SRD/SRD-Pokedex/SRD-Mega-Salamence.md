@@ -9,6 +9,11 @@ DexDescription: "The power of the Mega Stone gives it the nickname \u201CThe blo
   \ Crescent\u201D. It is violent and very unpredictable, even turning on their own\
   \ trainer. Many believe it is because its bent wings cause it pain."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Salamencite
+  Kind: Mega
+  Pokemon: '[[SRD-Salamence]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Salamence]]
-
 **Height**: 5'9" / 1.8m
 **Weight**: 248.2lbs / 112.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon           | Kind   | Item        |
+|:----------|:------------------|:-------|:------------|
+| From      | [[SRD-Salamence]] | Mega   | Salamencite |
 
 ![[SRD-Mega-Salamence-Learnset]]

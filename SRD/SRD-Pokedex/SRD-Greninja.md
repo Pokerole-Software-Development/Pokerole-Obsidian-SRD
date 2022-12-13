@@ -9,6 +9,11 @@ DexDescription: "It appears and vanishes with a ninja\u2019s grace. It toys with
   \ enemies using swift movements, then slices them with throwing sharp water stars.\
   \ If it was not properly disciplined, it will never listen any master."
 EventAbilities: Battle Bond
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Frogadier]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 88.2lbs / 40.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon           | Kind   | Speed   |
+|:----------|:------------------|:-------|:--------|
+| From      | [[SRD-Frogadier]] | Level  | Medium  |
 
 ![[SRD-Greninja-Learnset]]

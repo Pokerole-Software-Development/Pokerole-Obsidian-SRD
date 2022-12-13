@@ -9,6 +9,10 @@ DexDescription: The shadowy creature is in pain, and it hungers for any light it
   find. I wonder how would it fare on the other side, back in our world. Would the
   sunlight ease its spirit or release a terrible monster?
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Special
+  Pokemon: '[[SRD-Necrozma]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 12'5" / 3.8m
 **Weight**: 1014.1lbs / 460.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon          | Kind    |
+|:----------|:-----------------|:--------|
+| From      | [[SRD-Necrozma]] | Special |
 
 ![[SRD-Necrozma Dusk Mane-Learnset]]

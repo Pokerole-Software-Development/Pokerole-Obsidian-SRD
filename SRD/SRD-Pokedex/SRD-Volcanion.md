@@ -9,6 +9,7 @@ DexDescription: In the early days of world exploring, there are records of an en
   mountain blowing up in a cloud of steam. The explorers claimed that a creature in
   the fog was responsible.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 429.9lbs / 195.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Volcanion-Learnset]]

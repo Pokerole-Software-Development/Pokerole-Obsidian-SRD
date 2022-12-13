@@ -9,6 +9,7 @@ DexDescription: "It is said that every 1000 years, a shooting star appears in th
   \ sky for 7 days, granting wishes to those of pure heart. Another common saying\
   \ is: \u201CBe careful what you wish for.\u201D"
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'Yes'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'0" / 0.3m
 **Weight**: 2.4lbs / 1.1kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Jirachi-Learnset]]

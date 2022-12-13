@@ -9,6 +9,19 @@ DexDescription: A Charizard flies around looking for strong opponents. It breath
   intense flames that can melt any material. However, it will never touch a weaker
   foe. Not many trainers are able to handle its bad temper.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Charmeleon]]'
+  Speed: Medium
+- Evolves: To
+  Item: Charizardite Y
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Charizard Y]]'
+- Evolves: To
+  Item: Charizardite X
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Charizard X]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,11 +32,6 @@ HiddenAbility: Solar Power
 HomeSprite: SRD-charizard-HomeSprite.png
 Learnset: '[[SRD-Charizard-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Charizardite Y
-  Name: Mega-Charizard Y
-- Item: Charizardite X
-  Name: Mega-Charizard X
 Name: Charizard
 Number: 6
 PrimaryEggGroup: Monster
@@ -66,16 +74,15 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Charizard Y]]
-via [[SRD-Charizardite Y]]
-**MegaEvolution**:: [[SRD-Mega-Charizard X]]
-via [[SRD-Charizardite X]]
-
 **Height**: 5'6" / 1.7m
 **Weight**: 199.5lbs / 90.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon                  | Kind   | Speed   | Item           |
+|:----------|:-------------------------|:-------|:--------|:---------------|
+| From      | [[SRD-Charmeleon]]       | Level  | Medium  |                |
+| To        | [[SRD-Mega-Charizard Y]] | Mega   |         | Charizardite Y |
+| To        | [[SRD-Mega-Charizard X]] | Mega   |         | Charizardite X |
 
 ![[SRD-Charizard-Learnset]]

@@ -9,6 +9,7 @@ DexDescription: Rumor has it that one appeared during a blizzard in front of two
   hikers who followed its glistening trail until they found the main road. Others
   say its silhouette can be seen during raging snow storms.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 122.1lbs / 55.4kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Articuno-Learnset]]

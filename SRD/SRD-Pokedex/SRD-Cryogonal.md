@@ -9,6 +9,7 @@ DexDescription: They are born in snow clouds. Using chains made of ice crystals 
   capture prey. If their body temperature goes up, they turns into steam and vanish
   until it freezes and becomes ice again.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'6" / 1.1m
 **Weight**: 326.3lbs / 148.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Starter
 
 ![[SRD-Cryogonal-Learnset]]

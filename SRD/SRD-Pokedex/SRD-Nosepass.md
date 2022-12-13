@@ -9,6 +9,11 @@ DexDescription: Their magnetic noses always point to the north. They were though
   to be immobile, but it was recently revealed that they actually move 3/8 of an inch
   every year. They get a little crazy when magnets are close.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Special
+  Pokemon: '[[SRD-Probopass]]'
+  Special: A trip to New Mauville
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 3'3" / 1.0m
 **Weight**: 213.8lbs / 97.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon           | Kind    | Special                |
+|:----------|:------------------|:--------|:-----------------------|
+| To        | [[SRD-Probopass]] | Special | A trip to New Mauville |
 
 ![[SRD-Nosepass-Learnset]]

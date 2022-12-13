@@ -9,6 +9,15 @@ DexDescription: "Some say that when an Onix lives underground for 100 years it\u
   s body becomes hard as steel. Steelix lives deep underground, tempered by high pressure\
   \ and heat. It can see in the darkness."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Metal Coat
+  Kind: Trade
+  Pokemon: '[[SRD-Onix]]'
+- Evolves: To
+  Item: Steelixite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Steelix]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Sheer Force
 HomeSprite: SRD-steelix-HomeSprite.png
 Learnset: '[[SRD-Steelix-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Steelixite
-  Name: Mega-Steelix
 Name: Steelix
 Number: 208
 PrimaryEggGroup: Mineral
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Steelix]]
-via [[SRD-Steelixite]]
-
 **Height**: 30'2" / 9.2m
 **Weight**: 881.8lbs / 400.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon              | Kind   | Item       |
+|:----------|:---------------------|:-------|:-----------|
+| From      | [[SRD-Onix]]         | Trade  | Metal Coat |
+| To        | [[SRD-Mega-Steelix]] | Mega   | Steelixite |
 
 ![[SRD-Steelix-Learnset]]

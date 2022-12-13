@@ -9,6 +9,15 @@ DexDescription: Both swords share a telepathic link to coordinate attacks and sl
   their enemies to shreds. They feed on the rage of their wielder and promise to make
   him unbeatable at the cost of his flesh and soul.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Honedge]]'
+  Speed: Slow
+- Evolves: To
+  Item: Dusk Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Aegislash]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'6" / 0.8m
 **Weight**: 9.9lbs / 4.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon           | Kind   | Speed   | Item       |
+|:----------|:------------------|:-------|:--------|:-----------|
+| From      | [[SRD-Honedge]]   | Level  | Slow    |            |
+| To        | [[SRD-Aegislash]] | Stone  |         | Dusk Stone |
 
 ![[SRD-Doublade-Learnset]]

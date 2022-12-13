@@ -9,6 +9,7 @@ DexDescription: Their wings are hollow and light. They nest inside bramble bushe
   growing harder from scratches made by thorns. Their wings were used as swords and
   knives in old times. Beware of their sharp beak.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 111.3lbs / 50.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
 
 ![[SRD-Skarmory-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: "A powerful curse was woven into an ancient rune painting, the s
   \ of Yamask is absorbed by this curse and it evolves into a Runerigs. Do not touch\
   \ the shadow parts of its body or you\u2019ll see terrible visions of the past."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Special
+  Pokemon: '[[SRD-Galarian Yamask]]'
+  Special: Walk near a rune Painting
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'2" / 1.6m
 **Weight**: 146.8lbs / 66.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon                 | Kind    | Special                   |
+|:----------|:------------------------|:--------|:--------------------------|
+| From      | [[SRD-Galarian Yamask]] | Special | Walk near a rune Painting |
 
 ![[SRD-Runerigus-Learnset]]

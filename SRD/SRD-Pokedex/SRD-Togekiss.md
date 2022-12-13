@@ -9,6 +9,11 @@ DexDescription: Sightings of these Pokemon have become rare nowadays. They used 
   visit peaceful regions, bringing them gifts of kindness and great blessings. But
   they appear to have vanished in this times of conflict.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Shiny Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Togetic]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 83.8lbs / 38.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon         | Kind   | Item        |
+|:----------|:----------------|:-------|:------------|
+| From      | [[SRD-Togetic]] | Stone  | Shiny Stone |
 
 ![[SRD-Togekiss-Learnset]]

@@ -9,6 +9,7 @@ DexDescription: They live alone at the top of high mountains but come down in th
   morning to eat berries. It is a caring Pokemon, specially towards children and will
   fiercely protect any children it cares for with tremendous force.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 9'8" / 3.0m
 **Weight**: 407.9lbs / 185.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
 
 ![[SRD-Drampa-Learnset]]

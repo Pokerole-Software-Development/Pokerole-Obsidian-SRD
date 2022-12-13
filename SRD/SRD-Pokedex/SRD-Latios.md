@@ -9,6 +9,11 @@ DexDescription: The legend tells about two Pokemon that could take human shapes,
   psychic powers and become invisible. They were raised by an old couple as their
   own children. The boy was the oldest and wore a blue shirt.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Latiasite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Latios]]'
 GenderType: M
 HasForm: 'Yes'
 Height:
@@ -19,9 +24,6 @@ HiddenAbility: ''
 HomeSprite: SRD-latios-HomeSprite.png
 Learnset: '[[SRD-Latios-Learnset]]'
 Legendary: 'Yes'
-MegaEvolutions:
-- Item: Latiasite
-  Name: Mega-Latios
 Name: Latios
 Number: 381
 PrimaryEggGroup: Undiscovered
@@ -64,14 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Latios]]
-via [[SRD-Latiasite]]
-
 **Height**: 6'6" / 2.0m
 **Weight**: 132.3lbs / 60.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon             | Kind   | Item      |
+|:----------|:--------------------|:-------|:----------|
+| To        | [[SRD-Mega-Latios]] | Mega   | Latiasite |
 
 ![[SRD-Latios-Learnset]]

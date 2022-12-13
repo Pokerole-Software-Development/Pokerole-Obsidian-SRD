@@ -9,6 +9,11 @@ DexDescription: The power of the Mega Stone increases the purity of this Pokemon
   revealing its Fairy type. It is so caring and protective of its trainer that it
   can hear its cries for help from miles away. It loves to soothe and care for others.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Audinite
+  Kind: Mega
+  Pokemon: '[[SRD-Audino]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Audino]]
-
 **Height**: 4'9" / 1.5m
 **Weight**: 70.5lbs / 32.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon        | Kind   | Item     |
+|:----------|:---------------|:-------|:---------|
+| From      | [[SRD-Audino]] | Mega   | Audinite |
 
 ![[SRD-Mega-Audino-Learnset]]

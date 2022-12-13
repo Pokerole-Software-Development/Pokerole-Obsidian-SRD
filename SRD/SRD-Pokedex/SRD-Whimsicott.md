@@ -9,6 +9,11 @@ DexDescription: Riding whirlwinds, they appear and disappear. These Pokemon snea
   through even the smallest gaps into houses and cause all sorts of mischief the balls
   of white fluff it leaves behind reveal its presence.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Sun Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Cottonee]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'3" / 0.7m
 **Weight**: 14.6lbs / 6.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Item      |
+|:----------|:-----------------|:-------|:----------|
+| From      | [[SRD-Cottonee]] | Stone  | Sun Stone |
 
 ![[SRD-Whimsicott-Learnset]]

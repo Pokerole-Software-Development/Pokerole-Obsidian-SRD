@@ -9,6 +9,11 @@ DexDescription: "Lives on grasslands. Preys on Rattatas and Pokemon Eggs it find
   \ It\u2019s jaw can detach itself to swallow any prey whole. It coils and sleeps\
   \ after eating. Ekans grow bigger with age."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Arbok]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 6'6" / 2.0m
 **Weight**: 15.2lbs / 6.9kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon       | Kind   | Speed   |
+|:----------|:--------------|:-------|:--------|
+| To        | [[SRD-Arbok]] | Level  | Medium  |
 
 ![[SRD-Ekans-Learnset]]

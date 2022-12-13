@@ -9,6 +9,11 @@ DexDescription: These cute Pokemon send signals to one another with beautiful ch
   and feather movements. But despite the beauty of its lilting voice it is merciless
   to intruders that come close to its nest.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Fletchinder]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'0" / 0.3m
 **Weight**: 3.7lbs / 1.7kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon             | Kind   | Speed   |
+|:----------|:--------------------|:-------|:--------|
+| To        | [[SRD-Fletchinder]] | Level  | Medium  |
 
 ![[SRD-Fletchling-Learnset]]

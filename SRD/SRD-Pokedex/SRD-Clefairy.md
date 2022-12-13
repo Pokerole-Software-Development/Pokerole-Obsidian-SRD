@@ -9,6 +9,16 @@ DexDescription: Very rare to find. Clefairies are said to come from the moon. Th
   are drawn to the light of this celestial body and come out of hiding at night to
   dance and play in the moonlight.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Cleffa]]'
+  Stat: Happiness
+  Value: 4
+- Evolves: To
+  Item: Moon Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Clefable]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 16.5lbs / 7.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Stat      | Value   | Item       |
+|:----------|:-----------------|:-------|:----------|:--------|:-----------|
+| From      | [[SRD-Cleffa]]   | Stat   | Happiness | 4.0     |            |
+| To        | [[SRD-Clefable]] | Stone  |           |         | Moon Stone |
 
 ![[SRD-Clefairy-Learnset]]

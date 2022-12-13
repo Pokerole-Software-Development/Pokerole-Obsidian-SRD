@@ -9,6 +9,7 @@ DexDescription: It runs through the narrow tunnels dug by Excadrill and Onix and
   its sharp claws to catch prey. It is cold blooded, and regularly takes sun baths
   to keep its energy. They are aggressive and territorial.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'2" / 1.6m
 **Weight**: 306.4lbs / 139.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Druddigon-Learnset]]

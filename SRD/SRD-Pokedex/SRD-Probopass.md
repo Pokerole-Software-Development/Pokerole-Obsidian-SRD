@@ -9,6 +9,11 @@ DexDescription: It exudes strong magnetism from all over. It controls three smal
   units called Mini-Noses that float around and act as arms. It usually stays motionless
   unless attacked or provoked.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Special
+  Pokemon: '[[SRD-Nosepass]]'
+  Special: A trip to New Mauville
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::4)/(MaxInsight::8)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'6" / 1.4m
 **Weight**: 749.6lbs / 340.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind    | Special                |
+|:----------|:-----------------|:--------|:-----------------------|
+| From      | [[SRD-Nosepass]] | Special | A trip to New Mauville |
 
 ![[SRD-Probopass-Learnset]]

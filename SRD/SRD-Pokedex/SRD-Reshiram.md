@@ -9,6 +9,7 @@ DexDescription: "An Incredibly old scroll written in an ancient language, tells 
   \ a world of truth built by purifying fire. It also tells about a big dispute. The\
   \ rest of the scroll is burned\u2026"
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::8)/(MaxSpecial::8)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 10'5" / 3.2m
 **Weight**: 727.5lbs / 330.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Reshiram-Learnset]]

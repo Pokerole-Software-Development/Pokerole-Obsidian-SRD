@@ -9,6 +9,7 @@ DexDescription: This Pokemon is entirely dedicated to becoming stronger. Many ha
   secluded in the mountains to train all day. Wild ones make their clothes out of
   plants and vines they find. Sawk and Throh train together.
 EventAbilities: ''
+Evolutions: []
 GenderType: M
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'6" / 1.4m
 **Weight**: 112.4lbs / 51.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Sawk-Learnset]]

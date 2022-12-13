@@ -8,6 +8,11 @@ DexCategory: No Data
 DexDescription: A creature like this was observed on a telescope. It is rumored to
   be a Pokemon from another world, but no specific details are known.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Cosmoem]]'
+  Speed: Unknown
 GenderType: N
 HasForm: 'No'
 Height:
@@ -60,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 0'7" / 0.2m
 **Weight**: 0.2lbs / 0.1kg
+**Good Starter**:: No
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| To        | [[SRD-Cosmoem]] | Level  | Unknown |
 
 ![[SRD-Cosmog-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: "The mother gives all the power of the Mega Stone to her child. 
   \ child grows violent and both team up as formidable fighters. But the mother worries\
   \ about her child\u2019s future as she raised it better than that."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Kangaskhanite
+  Kind: Mega
+  Pokemon: '[[SRD-Kangaskhan]]'
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Kangaskhan]]
-
 **Height**: 7'2" / 2.2m
 **Weight**: 220.5lbs / 100.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon            | Kind   | Item          |
+|:----------|:-------------------|:-------|:--------------|
+| From      | [[SRD-Kangaskhan]] | Mega   | Kangaskhanite |
 
 ![[SRD-Mega-Kangaskhan-Learnset]]

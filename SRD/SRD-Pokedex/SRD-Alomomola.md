@@ -9,6 +9,7 @@ DexDescription: Floating in the open sea is how they live. When they find a woun
   Pokemon, they embrace it and use their special membrane to heal their wounds. A
   caring, noble and selfless Pokemon.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'9" / 1.2m
 **Weight**: 69.7lbs / 31.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Alomomola-Learnset]]

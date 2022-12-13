@@ -9,6 +9,12 @@ DexDescription: A Munchlaxes appetite is never really satisfied, it can eat its 
   in food and will almost never care about what it is eating. They tend to pick up
   anything that looks edible and save it for later.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Snorlax]]'
+  Stat: Happiness
+  Value: 4
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 231.5lbs / 105.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon         | Kind   | Stat      |   Value |
+|:----------|:----------------|:-------|:----------|--------:|
+| To        | [[SRD-Snorlax]] | Stat   | Happiness |       4 |
 
 ![[SRD-Munchlax-Learnset]]

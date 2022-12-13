@@ -9,6 +9,12 @@ DexDescription: "Whoever takes a bite on a Blissey's egg becomes loving and cari
   \ to everyone. They are compassionate, healing anyone who\u2019s injured. Their\
   \ presence makes everyone smile. An intelligent and emphatic Pokemon."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Chansey]]'
+  Stat: Happiness
+  Value: 5
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 103.2lbs / 46.8kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon         | Kind   | Stat      |   Value |
+|:----------|:----------------|:-------|:----------|--------:|
+| From      | [[SRD-Chansey]] | Stat   | Happiness |       5 |
 
 ![[SRD-Blissey-Learnset]]

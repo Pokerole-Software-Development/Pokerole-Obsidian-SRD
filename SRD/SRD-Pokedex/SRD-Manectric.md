@@ -9,6 +9,15 @@ DexDescription: Their manes are constantly releasing dangerous sparks that often
   up in forest fires. When they get in battle, thunderclouds show up with them. They
   are extremely rare to see in the wild.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Electrike]]'
+  Speed: Medium
+- Evolves: To
+  Item: Manectite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Manectric]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Minus
 HomeSprite: SRD-manectric-HomeSprite.png
 Learnset: '[[SRD-Manectric-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Manectite
-  Name: Mega-Manectric
 Name: Manectric
 Number: 310
 PrimaryEggGroup: Field
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Manectric]]
-via [[SRD-Manectite]]
-
 **Height**: 4'9" / 1.5m
 **Weight**: 88.6lbs / 40.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon                | Kind   | Speed   | Item      |
+|:----------|:-----------------------|:-------|:--------|:----------|
+| From      | [[SRD-Electrike]]      | Level  | Medium  |           |
+| To        | [[SRD-Mega-Manectric]] | Mega   |         | Manectite |
 
 ![[SRD-Manectric-Learnset]]

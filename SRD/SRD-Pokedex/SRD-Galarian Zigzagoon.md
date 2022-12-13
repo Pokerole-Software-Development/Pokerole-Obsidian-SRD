@@ -9,6 +9,11 @@ DexDescription: Zigzagoons raised in Galar grow to be punks. If they see another
   they will purposely run into them to start a fight. The only way to calm them down
   is with a lot of loud noise.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Galarian Linoone]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: No
 **Height**: 1'3" / 0.4m
 **Weight**: 38.6lbs / 17.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon                  | Kind   | Speed   |
+|:----------|:-------------------------|:-------|:--------|
+| To        | [[SRD-Galarian Linoone]] | Level  | Medium  |
 
 ![[SRD-Galarian Zigzagoon-Learnset]]

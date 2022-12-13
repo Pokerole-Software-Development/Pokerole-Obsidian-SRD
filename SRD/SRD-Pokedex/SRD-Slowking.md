@@ -9,6 +9,11 @@ DexDescription: It is extremely rare. The Shellder on its head injects a poison 
   made it super intelligent. It takes a lot of interest in learning about Pokemon
   lore and legends. But if Shellder is knocked out it will forget everything.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: King's Rock
+  Kind: Trade
+  Pokemon: '[[SRD-Slowpoke]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'6" / 2.0m
 **Weight**: 175.3lbs / 79.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon          | Kind   | Item        |
+|:----------|:-----------------|:-------|:------------|
+| From      | [[SRD-Slowpoke]] | Trade  | King's Rock |
 
 ![[SRD-Slowking-Learnset]]

@@ -9,6 +9,7 @@ DexDescription: "This is a Male species. They travel in herds around the plains 
   \ fight each other by locking horns. The herd\u2019s protector takes pride in its\
   \ battle-scarred horns. Miltank is the female of this species."
 EventAbilities: ''
+Evolutions: []
 GenderType: M
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'6" / 1.4m
 **Weight**: 194.9lbs / 88.4kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Tauros-Learnset]]

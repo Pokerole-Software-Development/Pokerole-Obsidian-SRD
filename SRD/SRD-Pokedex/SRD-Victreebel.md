@@ -9,6 +9,11 @@ DexDescription: They live together in small groups at tropical areas. Victreebel
   a sweet honey-like smell to lure and attract prey. They also use their long vines
   to rustle bushes around. They are territorial and aggressive.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Leaf Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Weepinbell]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'6" / 1.7m
 **Weight**: 34.2lbs / 15.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon            | Kind   | Item       |
+|:----------|:-------------------|:-------|:-----------|
+| From      | [[SRD-Weepinbell]] | Stone  | Leaf Stone |
 
 ![[SRD-Victreebel-Learnset]]

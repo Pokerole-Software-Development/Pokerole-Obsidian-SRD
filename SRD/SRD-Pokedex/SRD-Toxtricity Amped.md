@@ -9,6 +9,12 @@ DexDescription: "Commonly called \u201CAmped Form\u201D, its nature determines i
   \ evolution, If a Toxel is extroverted it will evolve to be a short-tempered Toxtricity.\
   \ They emit high pitched sounds and let out powerful discharges to provoke others."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Toxel]]'
+  Special: Extrovert
+  Speed: Slow
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'2" / 1.6m
 **Weight**: 88.2lbs / 40.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon       | Kind   | Speed   | Special   |
+|:----------|:--------------|:-------|:--------|:----------|
+| From      | [[SRD-Toxel]] | Level  | Slow    | Extrovert |
 
 ![[SRD-Toxtricity Amped-Learnset]]

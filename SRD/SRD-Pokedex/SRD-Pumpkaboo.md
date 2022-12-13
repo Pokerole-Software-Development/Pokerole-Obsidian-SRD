@@ -9,6 +9,10 @@ DexDescription: "You can see them dwelling on farms during the autumn season. Th
   \ pumpkin body is inhabited by a spirit trapped in this world. As the sun sets,\
   \ it becomes restless and active. Don\u2019t ever follow their light at night."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Trade
+  Pokemon: '[[SRD-Gourgeist]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 11.0lbs / 5.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon           | Kind   |
+|:----------|:------------------|:-------|
+| To        | [[SRD-Gourgeist]] | Trade  |
 
 ![[SRD-Pumpkaboo-Learnset]]

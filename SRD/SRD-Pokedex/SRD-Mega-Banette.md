@@ -9,6 +9,11 @@ DexDescription: "The power of the Mega Stone rips the layer keeping all the curs
   \ energy in. Its vindictive nature is so overwhelming that it can\u2019t help but\
   \ to curse its own Trainer."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Banettite
+  Kind: Mega
+  Pokemon: '[[SRD-Banette]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Banette]]
-
 **Height**: 3'9" / 1.2m
 **Weight**: 28.7lbs / 13.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon         | Kind   | Item      |
+|:----------|:----------------|:-------|:----------|
+| From      | [[SRD-Banette]] | Mega   | Banettite |
 
 ![[SRD-Mega-Banette-Learnset]]

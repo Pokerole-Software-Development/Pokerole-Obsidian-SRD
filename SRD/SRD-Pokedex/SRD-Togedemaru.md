@@ -9,6 +9,7 @@ DexDescription: On stormy days you can see groups of Togedemaru curled up into b
   with their spikes out, waiting to be struck by lightning. These spikes also deter
   other Pokemon from attacking this cute creature.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'0" / 0.3m
 **Weight**: 7.3lbs / 3.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
 
 ![[SRD-Togedemaru-Learnset]]

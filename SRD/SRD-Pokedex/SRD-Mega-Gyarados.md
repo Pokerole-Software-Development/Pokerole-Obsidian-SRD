@@ -9,6 +9,11 @@ DexDescription: With the power of the Mega Stone its body suffers a lot of strai
   making it faster and stronger but also angrier and uncontrollable. It must have
   a strong bond or it will fall into a destructive rampage.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Gyaradosite
+  Kind: Mega
+  Pokemon: '[[SRD-Gyarados]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Gyarados]]
-
 **Height**: 21'3" / 6.5m
 **Weight**: 672.4lbs / 305.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon          | Kind   | Item        |
+|:----------|:-----------------|:-------|:------------|
+| From      | [[SRD-Gyarados]] | Mega   | Gyaradosite |
 
 ![[SRD-Mega-Gyarados-Learnset]]

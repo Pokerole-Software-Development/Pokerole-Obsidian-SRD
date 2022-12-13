@@ -9,6 +9,11 @@ DexDescription: This Pokemon is said to have been born when a lonely spirit poss
   a cold, leftover cup of tea. It absorbs the life-force of those who drink it but
   it tastes so bad that it gets spat out immediately.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Cracked Pot
+  Kind: Item
+  Pokemon: '[[SRD-Polteageist]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 0'3" / 0.1m
 **Weight**: 0.4lbs / 0.2kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon             | Kind   | Item        |
+|:----------|:--------------------|:-------|:------------|
+| To        | [[SRD-Polteageist]] | Item   | Cracked Pot |
 
 ![[SRD-Sinistea-Learnset]]

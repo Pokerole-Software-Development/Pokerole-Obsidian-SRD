@@ -9,6 +9,11 @@ DexDescription: "It\u2019s said that this Pokemon was formed when an ancient cla
   \ tablet was drawn to the dark energy of a spirit. The clay slab seems to be absorbing\
   \ Yamask's power that\u2019s why it is so pale."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Special
+  Pokemon: '[[SRD-Runerigus]]'
+  Special: Walk near a rune Painting
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'6" / 0.5m
 **Weight**: 3.3lbs / 1.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind    | Special                   |
+|:----------|:------------------|:--------|:--------------------------|
+| To        | [[SRD-Runerigus]] | Special | Walk near a rune Painting |
 
 ![[SRD-Galarian Yamask-Learnset]]

@@ -10,6 +10,10 @@ DexDescription: "A school of Wishiwashi is the demon of the sea. Even Gyarados f
   s impossible to control. They disband after the threat is \u201Cneutralized\u201D\
   ."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Wishiwashi]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -62,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 26'9" / 8.2m
 **Weight**: 173.3lbs / 78.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon            | Kind   |
+|:----------|:-------------------|:-------|
+| From      | [[SRD-Wishiwashi]] | Form   |
 
 ![[SRD-Wishiwashi Swarm-Learnset]]

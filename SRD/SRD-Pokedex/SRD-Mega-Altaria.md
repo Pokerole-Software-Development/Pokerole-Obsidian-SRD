@@ -9,6 +9,11 @@ DexDescription: The power of the Mega Stone awakens a part of it full of wonder.
   can be benevolent or ruthless depending on who they are dealing with. Its lush cloud-wings
   turn dark whenever it gets angry.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Altarianite
+  Kind: Mega
+  Pokemon: '[[SRD-Altaria]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Altaria]]
-
 **Height**: 4'9" / 1.5m
 **Weight**: 45.4lbs / 20.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon         | Kind   | Item        |
+|:----------|:----------------|:-------|:------------|
+| From      | [[SRD-Altaria]] | Mega   | Altarianite |
 
 ![[SRD-Mega-Altaria-Learnset]]

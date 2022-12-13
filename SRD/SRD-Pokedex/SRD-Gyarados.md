@@ -9,6 +9,15 @@ DexDescription: "It\u2019s rarely seen in the wild. This huge and vicious Pokemo
   \ is known for the destruction it leaves in its wake. In ancient literature, there\
   \ is a record of a Gyarados that razed a village when violence flared."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Magikarp]]'
+  Speed: Slow
+- Evolves: To
+  Item: Gyaradosite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Gyarados]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Moxie
 HomeSprite: SRD-gyarados-HomeSprite.png
 Learnset: '[[SRD-Gyarados-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Gyaradosite
-  Name: Mega-Gyarados
 Name: Gyarados
 Number: 130
 PrimaryEggGroup: Water 2
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Gyarados]]
-via [[SRD-Gyaradosite]]
-
 **Height**: 21'3" / 6.5m
 **Weight**: 518.1lbs / 235.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon               | Kind   | Speed   | Item        |
+|:----------|:----------------------|:-------|:--------|:------------|
+| From      | [[SRD-Magikarp]]      | Level  | Slow    |             |
+| To        | [[SRD-Mega-Gyarados]] | Mega   |         | Gyaradosite |
 
 ![[SRD-Gyarados-Learnset]]

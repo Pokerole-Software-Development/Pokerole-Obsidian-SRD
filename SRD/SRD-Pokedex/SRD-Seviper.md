@@ -9,6 +9,7 @@ DexDescription: "Their hate for the Zangoose has been boiling for so long it\u20
   s now a basic instinct. They battle using their sword-edged poisonous tail, hiding\
   \ in tall grass until an unwary prey gets close enough."
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 8'9" / 2.7m
 **Weight**: 115.7lbs / 52.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
 
 ![[SRD-Seviper-Learnset]]

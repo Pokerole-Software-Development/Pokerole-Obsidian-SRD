@@ -9,6 +9,19 @@ DexDescription: A horribly noxious honey drools from its mouth. One whiff of the
   can result in sickness. Some fans are said to enjoy its overwhelming stink, though.
   You can control this foul smell with lots of love and care.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Oddish]]'
+  Speed: Medium
+- Evolves: To
+  Item: Leaf Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Vileplume]]'
+- Evolves: To
+  Item: Sun Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Bellossom]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +74,15 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 2'6" / 0.8m
 **Weight**: 19.0lbs / 8.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Speed   | Item       |
+|:----------|:------------------|:-------|:--------|:-----------|
+| From      | [[SRD-Oddish]]    | Level  | Medium  |            |
+| To        | [[SRD-Vileplume]] | Stone  |         | Leaf Stone |
+| To        | [[SRD-Bellossom]] | Stone  |         | Sun Stone  |
 
 ![[SRD-Gloom-Learnset]]

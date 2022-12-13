@@ -9,6 +9,12 @@ DexDescription: An independent but loyal Rockruff will evolve at dusk. This evol
   for is very hard to achieve. An intense fighting spirit lies underneath its calm
   exterior. Prone to act on its own.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Rockruff]]'
+  Special: Dawn
+  Speed: Medium
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'6" / 0.8m
 **Weight**: 55.1lbs / 25.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon          | Kind   | Speed   | Special   |
+|:----------|:-----------------|:-------|:--------|:----------|
+| From      | [[SRD-Rockruff]] | Level  | Medium  | Dawn      |
 
 ![[SRD-Lycanroc Dusk-Learnset]]

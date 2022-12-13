@@ -9,6 +9,7 @@ DexDescription: An old rock tablet full of ancient symbols tells the story of tw
   brothers. One of them wanted a world of ideals built with the energy of the young.
   The rest of the stone is broken as if struck by lightning.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 9'5" / 2.9m
 **Weight**: 760.6lbs / 345.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Zekrom-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: Sandshrew who became trapped in the merciless cold weather of Al
   had to change their types to survive. They now depend on snow to roll around, without
   it they are unable to curl up into a ball.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Alolan Sandslash]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::1)/(MaxInsight::3)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'3" / 0.7m
 **Weight**: 88.2lbs / 40.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon                  | Kind   | Speed   |
+|:----------|:-------------------------|:-------|:--------|
+| To        | [[SRD-Alolan Sandslash]] | Level  | Medium  |
 
 ![[SRD-Alolan Sandshrew-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: With the power of the Mega Stone all of its limbs are now powerf
   stingers. Their attack can be really vicious stinging and piercing its foe repeatedly
   until the finishing blow with the sting on its rear.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Beedrillite
+  Kind: Mega
+  Pokemon: '[[SRD-Beedrill]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Beedrill]]
-
 **Height**: 4'6" / 1.4m
 **Weight**: 89.3lbs / 40.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon          | Kind   | Item        |
+|:----------|:-----------------|:-------|:------------|
+| From      | [[SRD-Beedrill]] | Mega   | Beedrillite |
 
 ![[SRD-Mega-Beedrill-Learnset]]

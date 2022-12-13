@@ -9,6 +9,11 @@ DexDescription: "Its proud and regal appearance has made it be revered by people
   \ ancient societies. Its magnificent bark conveys a sense of majesty. Anyone in\
   \ front of Arcanine can\u2019t help but stare in awe."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Fire Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Growlithe]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 6'2" / 1.9m
 **Weight**: 341.7lbs / 155.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon           | Kind   | Item       |
+|:----------|:------------------|:-------|:-----------|
+| From      | [[SRD-Growlithe]] | Stone  | Fire Stone |
 
 ![[SRD-Arcanine-Learnset]]

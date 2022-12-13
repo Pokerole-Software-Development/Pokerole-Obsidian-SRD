@@ -9,6 +9,15 @@ DexDescription: It is said the pain from its flames never goes away. Long ago, t
   howl was thought to be the call of the grim reaper. Pokemon and people who hear
   it, will always shiver in fear. They are pack leaders, not followers
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Houndour]]'
+  Speed: Medium
+- Evolves: To
+  Item: Houndoominite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Houndoom]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Unnerve
 HomeSprite: SRD-houndoom-HomeSprite.png
 Learnset: '[[SRD-Houndoom-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Houndoominite
-  Name: Mega-Houndoom
 Name: Houndoom
 Number: 229
 PrimaryEggGroup: Field
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Houndoom]]
-via [[SRD-Houndoominite]]
-
 **Height**: 4'6" / 1.4m
 **Weight**: 77.2lbs / 35.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon               | Kind   | Speed   | Item          |
+|:----------|:----------------------|:-------|:--------|:--------------|
+| From      | [[SRD-Houndour]]      | Level  | Medium  |               |
+| To        | [[SRD-Mega-Houndoom]] | Mega   |         | Houndoominite |
 
 ![[SRD-Houndoom-Learnset]]

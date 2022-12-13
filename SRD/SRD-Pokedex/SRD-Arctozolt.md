@@ -9,6 +9,7 @@ DexDescription: This DNA hybrid has a hard time walking around. The bottom part 
   from a Pokemon from an arctic region and the upper lived in warm jungles. Poor thing
   is always shivering and sneezing without control.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 7'5" / 2.3m
 **Weight**: 330.7lbs / 150.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
 
 ![[SRD-Arctozolt-Learnset]]

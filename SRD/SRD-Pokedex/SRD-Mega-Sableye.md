@@ -9,6 +9,11 @@ DexDescription: The power of the Mega Stone made the jewel on its chest grow, it
   uses it as a shield to repel any attack, but its movement is limited due to how
   heavy it is. Its greed for the jewel can make it aggressive.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Sablenite
+  Kind: Mega
+  Pokemon: '[[SRD-Sableye]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Sableye]]
-
 **Height**: 1'6" / 0.5m
 **Weight**: 354.9lbs / 161.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon         | Kind   | Item      |
+|:----------|:----------------|:-------|:----------|
+| From      | [[SRD-Sableye]] | Mega   | Sablenite |
 
 ![[SRD-Mega-Sableye-Learnset]]

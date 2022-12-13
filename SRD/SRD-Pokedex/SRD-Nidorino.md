@@ -9,6 +9,15 @@ DexDescription: An independent and fierce creature. It roams alone in search for
   mate and will compete with other males around. It will violently charge with a venom
   drenched horn against intruders.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Nidoran M]]'
+  Speed: Medium
+- Evolves: To
+  Item: Moon Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Nidoking]]'
 GenderType: M
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'0" / 0.9m
 **Weight**: 43.0lbs / 19.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Speed   | Item       |
+|:----------|:------------------|:-------|:--------|:-----------|
+| From      | [[SRD-Nidoran M]] | Level  | Medium  |            |
+| To        | [[SRD-Nidoking]]  | Stone  |         | Moon Stone |
 
 ![[SRD-Nidorino-Learnset]]

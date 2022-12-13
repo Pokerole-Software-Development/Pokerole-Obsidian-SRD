@@ -9,6 +9,11 @@ DexDescription: Sunfloras live in flower patches. They convert solar energy into
   and are highly active in the warm daytime but suddenly stop moving as soon as the
   sun sets, closing their petals to cover their face.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Sun Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Sunkern]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'6" / 0.8m
 **Weight**: 18.7lbs / 8.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon         | Kind   | Item      |
+|:----------|:----------------|:-------|:----------|
+| From      | [[SRD-Sunkern]] | Stone  | Sun Stone |
 
 ![[SRD-Sunflora-Learnset]]

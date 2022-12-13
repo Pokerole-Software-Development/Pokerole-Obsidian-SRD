@@ -9,6 +9,11 @@ DexDescription: "The popular saying goes like this: \u201CIf you put a Carbon un
   \ pressure you will get a Diamond\u201D But it surely was not referring to a Pokemon...\
   \ or was it?"
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Diancite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Diancie]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -19,9 +24,6 @@ HiddenAbility: ''
 HomeSprite: SRD-diancie-HomeSprite.png
 Learnset: '[[SRD-Diancie-Learnset]]'
 Legendary: 'Yes'
-MegaEvolutions:
-- Item: Diancite
-  Name: Mega-Diancie
 Name: Diancie
 Number: 719
 PrimaryEggGroup: Undiscovered
@@ -64,14 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::8)/(MaxInsight::8)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Diancie]]
-via [[SRD-Diancite]]
-
 **Height**: 2'3" / 0.7m
 **Weight**: 19.4lbs / 8.8kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon              | Kind   | Item     |
+|:----------|:---------------------|:-------|:---------|
+| To        | [[SRD-Mega-Diancie]] | Mega   | Diancite |
 
 ![[SRD-Diancie-Learnset]]

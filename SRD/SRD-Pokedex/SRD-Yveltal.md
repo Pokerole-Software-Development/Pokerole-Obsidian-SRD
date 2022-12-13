@@ -9,6 +9,7 @@ DexDescription: A Kalos legend tells about the eternal struggle between life and
   The main tale is about a King full of grief and hate who built a doomsday machine
   to kill everyone in the world.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 19'0" / 5.8m
 **Weight**: 447.5lbs / 203.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Yveltal-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: They are plentiful in tropical areas. The beauty of the flowers 
   its head depends on how stinky it was as a Gloom. Lots of sunshine will make the
   skirt leaves swirl in a beautiful and rhythmic dance.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Sun Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Gloom]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'3" / 0.4m
 **Weight**: 12.8lbs / 5.8kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon       | Kind   | Item      |
+|:----------|:--------------|:-------|:----------|
+| From      | [[SRD-Gloom]] | Stone  | Sun Stone |
 
 ![[SRD-Bellossom-Learnset]]

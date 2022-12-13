@@ -9,6 +9,7 @@ DexDescription: The embodiment of dreams comes to life during the crescent moon 
   You will be blessed with peaceful bedtimes If you keep one of its feathers. Or so
   they say.
 EventAbilities: ''
+Evolutions: []
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::7)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 188.7lbs / 85.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Cresselia-Learnset]]

@@ -9,6 +9,11 @@ DexDescription: "This ancient Pokemon was restored from part of its body that ha
   \ been frozen for over 100 million years. This calm Pokemon lived in the cold lands\
   \ where violent predators like Tyrantrum couldn\u2019t reach it."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Aurorus]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 4'3" / 1.3m
 **Weight**: 55.6lbs / 25.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon         | Kind   | Speed   |
+|:----------|:----------------|:-------|:--------|
+| To        | [[SRD-Aurorus]] | Level  | Medium  |
 
 ![[SRD-Amaura-Learnset]]

@@ -9,6 +9,12 @@ DexDescription: When Burmy evolved, its Trash cloak became a part of its body. F
   this reason there are many variations in body and type. It is a calm Pokemon that
   loves foil wrapping. This Pokemon is female only.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Gender: Female
+  Kind: Level
+  Pokemon: '[[SRD-Burmy]]'
+  Speed: Fast
 GenderType: F
 HasForm: 'Yes'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'6" / 0.5m
 **Weight**: 14.3lbs / 6.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon       | Kind   | Speed   | Gender   |
+|:----------|:--------------|:-------|:--------|:---------|
+| From      | [[SRD-Burmy]] | Level  | Fast    | Female   |
 
 ![[SRD-Steel Wormadam-Learnset]]

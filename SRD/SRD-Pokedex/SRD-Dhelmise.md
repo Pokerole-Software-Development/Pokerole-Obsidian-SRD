@@ -9,6 +9,7 @@ DexDescription: A spirit adrift in the sea came back to life through this Pokemo
   that rarely leaves the deepest waters of the sea. Through the sea some Wailord carcasses
   have been found covered in seaweed and gashes.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 12'8" / 3.9m
 **Weight**: 463.0lbs / 210.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
 
 ![[SRD-Dhelmise-Learnset]]

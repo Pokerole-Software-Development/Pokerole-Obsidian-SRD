@@ -9,6 +9,7 @@ DexDescription: Komalas are born, live, and die asleep. They will have nightmare
   if you remove their log-pillow. Although it appears aware of its surroundings in
   reality it is just dreaming and reacting to the dream antics.
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'3" / 0.4m
 **Weight**: 43.9lbs / 19.9kg
+**Good Starter**:: No
+**Recommended Rank**:: Starter
 
 ![[SRD-Komala-Learnset]]

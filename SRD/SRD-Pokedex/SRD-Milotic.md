@@ -9,6 +9,12 @@ DexDescription: Milotic is considered to be one of the most beautiful Pokemon in
   It has inspired music, paintings and statues. It has the power to calm the anger
   and hostility of its foes.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Stat
+  Pokemon: '[[SRD-Feebas]]'
+  Stat: Beauty
+  Value: 5
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 20'3" / 6.2m
 **Weight**: 357.1lbs / 162.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon        | Kind   | Stat   |   Value |
+|:----------|:---------------|:-------|:-------|--------:|
+| From      | [[SRD-Feebas]] | Stat   | Beauty |       5 |
 
 ![[SRD-Milotic-Learnset]]

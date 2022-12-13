@@ -9,6 +9,11 @@ DexDescription: They appear to be cute and docile, luring their prey and lowerin
   their guards, then, Mawile chomps the prey with huge steel jaws. They are very rare,
   though. Only a few have been seen in Hoenn's Victory Road.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Mawilite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Mawile]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +24,6 @@ HiddenAbility: Sheer Force
 HomeSprite: SRD-mawile-HomeSprite.png
 Learnset: '[[SRD-Mawile-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Mawilite
-  Name: Mega-Mawile
 Name: Mawile
 Number: 303
 PrimaryEggGroup: Field
@@ -64,14 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Mawile]]
-via [[SRD-Mawilite]]
-
 **Height**: 2'0" / 0.6m
 **Weight**: 25.4lbs / 11.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon             | Kind   | Item     |
+|:----------|:--------------------|:-------|:---------|
+| To        | [[SRD-Mega-Mawile]] | Mega   | Mawilite |
 
 ![[SRD-Mawile-Learnset]]

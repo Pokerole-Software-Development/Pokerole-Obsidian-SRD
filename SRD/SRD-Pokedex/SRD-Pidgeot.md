@@ -9,6 +9,15 @@ DexDescription: "This Pokemon\u2019s plumage is made of beautiful glossy feather
   \ Pidgeot is an excellent hunter with well developed wing muscles that make it strong\
   \ enough to whip up a gusty windstorm with just a few flaps."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Pidgeotto]]'
+  Speed: Medium
+- Evolves: To
+  Item: Pidgeotite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Pidgeot]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Big Pecks
 HomeSprite: SRD-pidgeot-HomeSprite.png
 Learnset: '[[SRD-Pidgeot-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Pidgeotite
-  Name: Mega-Pidgeot
 Name: Pidgeot
 Number: 18
 PrimaryEggGroup: Flying
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Pidgeot]]
-via [[SRD-Pidgeotite]]
-
 **Height**: 4'9" / 1.5m
 **Weight**: 87.1lbs / 39.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon              | Kind   | Speed   | Item       |
+|:----------|:---------------------|:-------|:--------|:-----------|
+| From      | [[SRD-Pidgeotto]]    | Level  | Medium  |            |
+| To        | [[SRD-Mega-Pidgeot]] | Mega   |         | Pidgeotite |
 
 ![[SRD-Pidgeot-Learnset]]

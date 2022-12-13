@@ -9,6 +9,15 @@ DexDescription: It uses its long tongue to taunt its opponents. Once the foe is 
   this Pokemon hurls itself at it, tackling them forcefully. They are bad-mannered
   and enjoy to thrash things about.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Galarian Zigzagoon]]'
+  Speed: Medium
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Obstagoon]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 1'6" / 0.5m
 **Weight**: 71.7lbs / 32.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon                    | Kind   | Speed   |
+|:----------|:---------------------------|:-------|:--------|
+| From      | [[SRD-Galarian Zigzagoon]] | Level  | Medium  |
+| To        | [[SRD-Obstagoon]]          | Level  | Medium  |
 
 ![[SRD-Galarian Linoone-Learnset]]

@@ -9,6 +9,7 @@ DexDescription: Recent investigations declare that this Pokemon could be the com
   ancestor of all actual Pokemon, but it has been extinct for centuries. Some people
   claim to have seen one to get their 15 minutes of fame.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'3" / 0.4m
 **Weight**: 8.8lbs / 4.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Mew-Learnset]]

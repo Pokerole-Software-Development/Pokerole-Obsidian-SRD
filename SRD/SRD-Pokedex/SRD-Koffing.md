@@ -9,6 +9,16 @@ DexDescription: It is drawn to the smog and fumes of the cities. It fills its bo
   with toxic gases to float like a balloon. When it gets nervous it releases a sickly
   green gas. Breathing this gas will give you a bad case of sniffles.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Weezing]]'
+  Speed: Slow
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Galarian Weezing]]'
+  Region: Galar
+  Speed: Slow
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +71,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 2.2lbs / 1.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon                  | Kind   | Speed   | Region   |
+|:----------|:-------------------------|:-------|:--------|:---------|
+| To        | [[SRD-Weezing]]          | Level  | Slow    |          |
+| To        | [[SRD-Galarian Weezing]] | Level  | Slow    | Galar    |
 
 ![[SRD-Koffing-Learnset]]

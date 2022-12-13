@@ -7,6 +7,7 @@ BoxSprite: SRD-zapdos-galar-BoxSprite.png
 DexCategory: ''
 DexDescription: ''
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -59,11 +60,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::5)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'2" / 1.6m
 **Weight**: 128.3lbs / 58.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Galarian Zapdos (provisional)-Learnset]]

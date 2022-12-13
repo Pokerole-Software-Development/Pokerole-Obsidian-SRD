@@ -9,6 +9,11 @@ DexDescription: "Magmortar is extremely rare, if you\u2019re lucky you can find 
   \ living directly on volcanic craters. It rises the temperature of its body at will\
   \ to the point of bursting into flames. The fire it produces is almost white."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Magmarizer
+  Kind: Trade
+  Pokemon: '[[SRD-Magmar]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'2" / 1.6m
 **Weight**: 149.9lbs / 68.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon        | Kind   | Item       |
+|:----------|:---------------|:-------|:-----------|
+| From      | [[SRD-Magmar]] | Trade  | Magmarizer |
 
 ![[SRD-Magmortar-Learnset]]

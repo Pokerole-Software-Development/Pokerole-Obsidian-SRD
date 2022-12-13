@@ -9,6 +9,11 @@ DexDescription: "They go wherever the wind takes them. On rainy days they can\u2
   t float, so they take shelter beneath big trees. To defend from predators they shed\
   \ their cotton and leave it as a decoy while they escape."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: Sun Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Whimsicott]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'0" / 0.3m
 **Weight**: 1.3lbs / 0.6kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon            | Kind   | Item      |
+|:----------|:-------------------|:-------|:----------|
+| To        | [[SRD-Whimsicott]] | Stone  | Sun Stone |
 
 ![[SRD-Cottonee-Learnset]]

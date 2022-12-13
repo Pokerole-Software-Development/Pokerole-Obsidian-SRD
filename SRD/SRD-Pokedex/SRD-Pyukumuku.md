@@ -9,6 +9,7 @@ DexDescription: "Once this Pokemon finds a spot it likes it will remain there wi
   \ moving, even if food is out of reach. It can expel its organs through its mouth\
   \ and use them like an arm. It\u2019s slimy and not many people like it."
 EventAbilities: ''
+Evolutions: []
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::7)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 1'0" / 0.3m
 **Weight**: 2.6lbs / 1.2kg
+**Good Starter**:: No
+**Recommended Rank**:: Starter
 
 ![[SRD-Pyukumuku-Learnset]]

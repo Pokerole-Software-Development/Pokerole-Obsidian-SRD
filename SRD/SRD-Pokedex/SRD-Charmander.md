@@ -10,6 +10,11 @@ DexDescription: 'A rare Pokemon. The flame on its tail is an indicator of its fe
 
   It needs proper care and discipline or else it may rebel later on.'
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Charmeleon]]'
+  Speed: Medium
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -63,11 +68,13 @@ It needs proper care and discipline or else it may rebel later on.*
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'0" / 0.6m
 **Weight**: 18.7lbs / 8.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon            | Kind   | Speed   |
+|:----------|:-------------------|:-------|:--------|
+| To        | [[SRD-Charmeleon]] | Level  | Medium  |
 
 ![[SRD-Charmander-Learnset]]

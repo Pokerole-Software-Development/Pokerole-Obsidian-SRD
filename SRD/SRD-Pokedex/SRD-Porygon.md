@@ -9,6 +9,11 @@ DexDescription: The first case of a man-made Pokemon created as computer data. I
   is capable of reverting itself into a program in order to enter the cyberspace.
   Its software has a firewall so it cannot be copied.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Item: 'Upgrade '
+  Kind: Trade
+  Pokemon: '[[SRD-Porygon2]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Beginner
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 2'6" / 0.8m
 **Weight**: 80.5lbs / 36.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Beginner
+
+| Evolves   | Pokemon          | Kind   | Item    |
+|:----------|:-----------------|:-------|:--------|
+| To        | [[SRD-Porygon2]] | Trade  | Upgrade |
 
 ![[SRD-Porygon-Learnset]]

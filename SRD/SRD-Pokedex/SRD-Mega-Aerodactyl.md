@@ -9,6 +9,11 @@ DexDescription: With the power of the Mega Stone it restores the original appear
   it had millions of years ago with its body covered in sharp rocks. It is very aggressive
   and will attack anything that moves.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Aerodactylite
+  Kind: Mega
+  Pokemon: '[[SRD-Aerodactyl]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,13 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Aerodactyl]]
-
 **Height**: 6'9" / 2.1m
 **Weight**: 174.2lbs / 79.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
+
+| Evolves   | Pokemon            | Kind   | Item          |
+|:----------|:-------------------|:-------|:--------------|
+| From      | [[SRD-Aerodactyl]] | Mega   | Aerodactylite |
 
 ![[SRD-Mega-Aerodactyl-Learnset]]

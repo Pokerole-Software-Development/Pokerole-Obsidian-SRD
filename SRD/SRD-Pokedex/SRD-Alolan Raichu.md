@@ -9,6 +9,12 @@ DexDescription: Scientists were baffled to discover Raichu's evolution in the Al
   Region. There is no explanation as to how it gained Psychic abilities, but diet
   seems to be factor. It loves sweet food and pancakes.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Thunder Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Pikachu]]'
+  Region: Alola
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +67,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 2'3" / 0.7m
 **Weight**: 46.3lbs / 21.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Item          | Region   |
+|:----------|:----------------|:-------|:--------------|:---------|
+| From      | [[SRD-Pikachu]] | Stone  | Thunder Stone | Alola    |
 
 ![[SRD-Alolan Raichu-Learnset]]

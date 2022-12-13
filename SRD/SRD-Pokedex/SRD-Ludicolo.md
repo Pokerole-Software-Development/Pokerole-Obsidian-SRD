@@ -9,6 +9,11 @@ DexDescription: Ludicolo starts dancing at the sound of music. Pokemon and peopl
   will dance as well. They are said to appear when children sing. They love festive
   places and parties.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Water Stone
+  Kind: Stone
+  Pokemon: '[[SRD-Lombre]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::3)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 4'9" / 1.5m
 **Weight**: 121.3lbs / 55.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon        | Kind   | Item        |
+|:----------|:---------------|:-------|:------------|
+| From      | [[SRD-Lombre]] | Stone  | Water Stone |
 
 ![[SRD-Ludicolo-Learnset]]

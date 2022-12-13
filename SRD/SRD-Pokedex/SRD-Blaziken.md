@@ -9,6 +9,15 @@ DexDescription: "They can jump incredible heights. As they grow older, their fea
   \ combust as new feathers grow back. They are courageous fighters and expert martial\
   \ artists. Their wrists light in flames when it\u2019s about to attack."
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Combusken]]'
+  Speed: Medium
+- Evolves: To
+  Item: Blazikenite
+  Kind: Mega
+  Pokemon: '[[SRD-Mega-Blaziken]]'
 GenderType: ''
 HasForm: 'Yes'
 Height:
@@ -19,9 +28,6 @@ HiddenAbility: Speed Boost
 HomeSprite: SRD-blaziken-HomeSprite.png
 Learnset: '[[SRD-Blaziken-Learnset]]'
 Legendary: 'No'
-MegaEvolutions:
-- Item: Blazikenite
-  Name: Mega-Blaziken
 Name: Blaziken
 Number: 257
 PrimaryEggGroup: Field
@@ -64,14 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Ace
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaEvolution**:: [[SRD-Mega-Blaziken]]
-via [[SRD-Blazikenite]]
-
 **Height**: 6'2" / 1.9m
 **Weight**: 114.6lbs / 52.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon               | Kind   | Speed   | Item        |
+|:----------|:----------------------|:-------|:--------|:------------|
+| From      | [[SRD-Combusken]]     | Level  | Medium  |             |
+| To        | [[SRD-Mega-Blaziken]] | Mega   |         | Blazikenite |
 
 ![[SRD-Blaziken-Learnset]]

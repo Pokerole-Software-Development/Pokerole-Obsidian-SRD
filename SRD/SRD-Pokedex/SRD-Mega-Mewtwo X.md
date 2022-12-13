@@ -8,6 +8,11 @@ DexCategory: No Data
 DexDescription: The power of the Mega Stone was absorbed into its muscles if it grapples
   you and its psychic force does not crack you its strong arms will.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Mewtwonite X
+  Kind: Mega
+  Pokemon: '[[SRD-Mewtwo]]'
 GenderType: N
 HasForm: 'No'
 Height:
@@ -60,13 +65,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::6)/(MaxInsight::6)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
-**MegaBaseForm**:: [[SRD-Mewtwo]]
-
 **Height**: 7'5" / 2.3m
 **Weight**: 280.0lbs / 127.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
+
+| Evolves   | Pokemon        | Kind   | Item         |
+|:----------|:---------------|:-------|:-------------|
+| From      | [[SRD-Mewtwo]] | Mega   | Mewtwonite X |
 
 ![[SRD-Mega-Mewtwo X-Learnset]]

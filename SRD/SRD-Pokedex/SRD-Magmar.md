@@ -9,6 +9,15 @@ DexDescription: It can be found living in volcanic areas. In battle, Magmar blow
   out intense flames all over its body to intimidate the opponent. This creates heat
   waves that ignite grass and trees in the surroundings.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Level
+  Pokemon: '[[SRD-Magby]]'
+  Speed: Medium
+- Evolves: To
+  Item: Magmarizer
+  Kind: Trade
+  Pokemon: '[[SRD-Magmortar]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +70,14 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::3)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: Yes
 **Height**: 4'3" / 1.3m
 **Weight**: 98.1lbs / 44.5kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon           | Kind   | Speed   | Item       |
+|:----------|:------------------|:-------|:--------|:-----------|
+| From      | [[SRD-Magby]]     | Level  | Medium  |            |
+| To        | [[SRD-Magmortar]] | Trade  |         | Magmarizer |
 
 ![[SRD-Magmar-Learnset]]

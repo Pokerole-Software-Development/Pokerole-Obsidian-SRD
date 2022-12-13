@@ -9,6 +9,11 @@ DexDescription: "They thrive in arid places. It looks like it\u2019s crying all 
   \ time but it\u2019s actually adjusting the moisture of its body and releasing excess\
   \ water. Over time they become excellent at impersonating trees."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Move: Mimic
+  Pokemon: '[[SRD-Sudowoodo]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::2)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'6" / 0.5m
 **Weight**: 33.1lbs / 15.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon           | Kind   | Move   |
+|:----------|:------------------|:-------|:-------|
+| To        | [[SRD-Sudowoodo]] | Level  | Mimic  |
 
 ![[SRD-Bonsly-Learnset]]

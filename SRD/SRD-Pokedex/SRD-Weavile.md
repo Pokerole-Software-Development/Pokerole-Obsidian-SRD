@@ -9,6 +9,11 @@ DexDescription: They live in cold regions, forming groups of four that hunt prey
   impressive coordination. They leave claw marks and patterns to indicate their territory.
   It is devious and loves to cause trouble.
 EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Item: Razor Claw
+  Kind: Level
+  Pokemon: '[[SRD-Sneasel]]'
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::4)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Amateur
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 3'6" / 1.1m
 **Weight**: 75.0lbs / 34.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Amateur
+
+| Evolves   | Pokemon         | Kind   | Item       |
+|:----------|:----------------|:-------|:-----------|
+| From      | [[SRD-Sneasel]] | Level  | Razor Claw |
 
 ![[SRD-Weavile-Learnset]]

@@ -9,6 +9,7 @@ DexDescription: The myth tells of a bird who lived inside the thunderstorms of t
   region. It covered itself in lightning while flying in the dark clouds. A news report
   said it was involved in the closure of an energy plant.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::7)/(MaxSpecial::7)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::5)/(MaxInsight::5)     |
 
-
-**Recommended Rank**:: Master
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 5'2" / 1.6m
 **Weight**: 116.0lbs / 52.6kg
+**Good Starter**:: No
+**Recommended Rank**:: Master
 
 ![[SRD-Zapdos-Learnset]]

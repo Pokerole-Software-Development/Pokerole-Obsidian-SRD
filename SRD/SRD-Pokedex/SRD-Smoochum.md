@@ -9,6 +9,11 @@ DexDescription: They examine their surroundings with their lips. They love to sm
   but Pokemon dislike their kisses. Smoochums are always running excitedly, but they
   are clumsy and end up stumbling and crying.
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Level
+  Pokemon: '[[SRD-Jynx]]'
+  Speed: Medium
 GenderType: F
 HasForm: 'No'
 Height:
@@ -61,11 +66,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::2)/(MaxSpecial::5)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'3" / 0.4m
 **Weight**: 13.2lbs / 6.0kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon      | Kind   | Speed   |
+|:----------|:-------------|:-------|:--------|
+| To        | [[SRD-Jynx]] | Level  | Medium  |
 
 ![[SRD-Smoochum-Learnset]]

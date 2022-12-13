@@ -10,6 +10,12 @@ DexDescription: "This Pokemon stores all the kindness and good feelings inside o
   \ so happy that it finally evolves. It is said that it\u2019ll bring good fortune\
   \ to its trainer."
 EventAbilities: ''
+Evolutions:
+- Evolves: To
+  Kind: Stat
+  Pokemon: '[[SRD-Togetic]]'
+  Stat: Happiness
+  Value: 5
 GenderType: ''
 HasForm: 'No'
 Height:
@@ -62,11 +68,13 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::1)/(MaxSpecial::3)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::2)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Starter
-**Good Starter**:: Yes
-**Can Evolve**:: Yes
 **Height**: 1'0" / 0.3m
 **Weight**: 3.3lbs / 1.5kg
+**Good Starter**:: Yes
+**Recommended Rank**:: Starter
+
+| Evolves   | Pokemon         | Kind   | Stat      |   Value |
+|:----------|:----------------|:-------|:----------|--------:|
+| To        | [[SRD-Togetic]] | Stat   | Happiness |       5 |
 
 ![[SRD-Togepi-Learnset]]

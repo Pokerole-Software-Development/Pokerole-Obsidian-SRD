@@ -9,6 +9,7 @@ DexDescription: One disaster after another. This time we lost an entire facility
   UB-05 is a monster, there is no other way to call it, it swallowed documents, vehicles
   and even an entire building, there is no end to its hunger.
 EventAbilities: ''
+Evolutions: []
 GenderType: N
 HasForm: 'No'
 Height:
@@ -61,11 +62,9 @@ Weight:
 | Special   | `= padleft(padright("",this.MaxSpecial - this.Special,"⭘"),this.MaxSpecial,"⬤")`       | (Special::6)/(MaxSpecial::6)     |
 | Insight   | `= padleft(padright("",this.MaxInsight - this.Insight,"⭘"),this.MaxInsight,"⬤")`       | (Insight::4)/(MaxInsight::4)     |
 
-
-**Recommended Rank**:: Pro
-**Good Starter**:: No
-**Can Evolve**:: No
 **Height**: 18'0" / 5.5m
 **Weight**: 1957.7lbs / 888.0kg
+**Good Starter**:: No
+**Recommended Rank**:: Pro
 
 ![[SRD-Guzzlord-Learnset]]
