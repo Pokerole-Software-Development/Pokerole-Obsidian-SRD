@@ -1,6 +1,12 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Poison
+Attributes:
+  AccuracyReduction: 1
 Damage1: ''
 Damage2: ''
 Description: The Pokemon releases a big cloud of toxic gas, anyone who takes a breath

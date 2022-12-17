@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  FistBased: true
+  Priority: 1
 Damage1: Strength
 Damage2: ''
 Description: The user launches itself against the foe to strike it with an iron fist.

@@ -1,6 +1,15 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 1
+    Stages: -1
+    Stats:
+    - Def
+Attributes:
+  Lethal: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its fangs to viciously tear whatever it is biting.

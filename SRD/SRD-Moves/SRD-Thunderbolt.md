@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Paralyze
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: A strong electric attack that shocks and harms the foe. It can destroy

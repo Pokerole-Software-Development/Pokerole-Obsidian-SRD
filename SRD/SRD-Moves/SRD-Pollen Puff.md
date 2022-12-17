@@ -1,6 +1,8 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon creates a puff of pollen that explodes on the foe's face

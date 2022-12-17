@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user attacks with a ray of light that comes out of the gem on its

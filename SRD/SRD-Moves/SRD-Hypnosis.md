@@ -1,6 +1,12 @@
 ---
 Accuracy1: Insight
 Accuracy2: Allure
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Sleep
+Attributes:
+  AccuracyReduction: 4
 Damage1: ''
 Damage2: ''
 Description: Employ a hypnotic suggestion to make the target feel drowsy and fall

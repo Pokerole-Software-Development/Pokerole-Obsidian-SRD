@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Def
+Attributes:
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon rises on top of its foe and drops an apple on their head.

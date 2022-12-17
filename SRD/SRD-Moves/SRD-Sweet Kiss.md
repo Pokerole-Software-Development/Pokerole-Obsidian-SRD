@@ -1,6 +1,12 @@
 ---
 Accuracy1: Cute
 Accuracy2: Allure
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Confuse
+Attributes:
+  AccuracyReduction: 2
 Damage1: ''
 Damage2: ''
 Description: The Pokemon moves towards the foe and plants a delicate kiss on its cheek,

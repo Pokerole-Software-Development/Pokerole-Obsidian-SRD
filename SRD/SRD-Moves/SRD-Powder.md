@@ -1,6 +1,11 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Powder
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The foe is fully covered with a flammable powder, a source of fire might

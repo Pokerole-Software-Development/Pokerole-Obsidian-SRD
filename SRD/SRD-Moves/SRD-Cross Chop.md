@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 2
+  HighCritical: true
 Damage1: Strength
 Damage2: ''
 Description: The user delivers a chop with its arms crossed trying to hot a weak spot.

@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Block
+Attributes:
+  AccuracyReduction: 2
+  BlockDamagePool: 2
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon creates a shifting sand pit around the foe, leaving it unable

@@ -1,6 +1,8 @@
 ---
 Accuracy1: Insight
 Accuracy2: Channel
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon mentalizes itself stronger than anyone. They feel good. They

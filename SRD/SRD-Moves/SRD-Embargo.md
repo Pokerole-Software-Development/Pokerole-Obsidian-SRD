@@ -1,6 +1,11 @@
 ---
 Accuracy1: Tough
 Accuracy2: Intimidate
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Embargo
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user quickly takes out the held item of a Pokemon. It also empties

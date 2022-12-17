@@ -1,6 +1,11 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Spite
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user enters the target's dream to torment it.

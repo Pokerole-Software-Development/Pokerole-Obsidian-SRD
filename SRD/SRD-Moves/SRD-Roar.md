@@ -1,6 +1,10 @@
 ---
 Accuracy1: Tough
 Accuracy2: Intimidate
+AddedEffects: {}
+Attributes:
+  Priority: -6
+  SwitcherMove: true
 Damage1: ''
 Damage2: ''
 Description: A mighty roar that scares the foe.

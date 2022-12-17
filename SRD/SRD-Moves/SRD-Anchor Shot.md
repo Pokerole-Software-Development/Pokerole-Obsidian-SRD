@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Block
+Attributes:
+  BlockDamagePool: 0
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon hurls an anchor towards its foe and entangles it with seaweed,

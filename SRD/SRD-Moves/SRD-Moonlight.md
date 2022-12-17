@@ -1,6 +1,10 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  Heal:
+    Type: Basic
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user gathers power from the light of the moon, the energy absorbed

@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon strikes with a wind covered in fairy dust. It causes itching.

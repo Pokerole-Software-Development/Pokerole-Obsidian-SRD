@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The user gets angry and throws a tantrum at the foe. If the attacker

@@ -1,6 +1,8 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes: {}
 Damage1: Vitality
 Damage2: ''
 Description: The Pokemon makes a judo maneuver, using its body mass instead of its

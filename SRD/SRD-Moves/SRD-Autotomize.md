@@ -1,6 +1,16 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Target
+    Type: Autotomize
+  StatChanges:
+  - Affects: User
+    Stages: 2
+    Stats:
+    - Dexterity
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon sheds pieces and starts rotating other parts of its body

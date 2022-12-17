@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Heal:
+    Percentage: 0.5
+    Type: Leech
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user eats the dreams of a sleeping target. When the foe wakes up,

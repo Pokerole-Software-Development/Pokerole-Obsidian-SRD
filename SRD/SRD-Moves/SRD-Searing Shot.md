@@ -1,6 +1,13 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Burn2
+Attributes:
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: The User torches everything around itself in a sudden burst of scarlet

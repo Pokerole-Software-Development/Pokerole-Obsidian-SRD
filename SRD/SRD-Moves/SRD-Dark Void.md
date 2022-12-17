@@ -1,6 +1,12 @@
 ---
 Accuracy1: Insight
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Sleep
+Attributes:
+  AccuracyReduction: 3
 Damage1: ''
 Damage2: ''
 Description: A portal opens and transports all foes to a world of darkness, inside

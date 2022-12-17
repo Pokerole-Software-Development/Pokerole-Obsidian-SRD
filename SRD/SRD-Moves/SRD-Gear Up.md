@@ -1,6 +1,14 @@
 ---
 Accuracy1: Vitality
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Target
+    Stages: 1
+    Stats:
+    - Strength
+    - Special
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user engages its gears on an ally to leave the ally's body working

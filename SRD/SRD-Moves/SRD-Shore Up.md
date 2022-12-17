@@ -1,6 +1,10 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  Heal:
+    Type: Basic
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon gathers the sand around itself to restore its body to shape.

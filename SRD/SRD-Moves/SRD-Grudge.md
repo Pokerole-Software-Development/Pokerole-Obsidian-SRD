@@ -1,6 +1,8 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user leaves an imprinting grudge over the foe, this makes the target

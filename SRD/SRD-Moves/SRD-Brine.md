@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user blasts the foe with extremely dense water, if the target is

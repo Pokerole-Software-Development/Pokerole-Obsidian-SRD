@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The user strikes the foe but lowers the power of the blow at the last

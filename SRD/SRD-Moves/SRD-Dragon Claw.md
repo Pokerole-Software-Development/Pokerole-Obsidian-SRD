@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its strong claws to deliver a fierce tearing blow.

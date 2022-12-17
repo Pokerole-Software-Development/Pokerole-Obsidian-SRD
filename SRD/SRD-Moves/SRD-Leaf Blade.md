@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  HighCritical: true
+  Lethal: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses the sharp leaves on its body to cut through the foe.

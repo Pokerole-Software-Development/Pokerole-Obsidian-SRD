@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Def
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: With a whip of fire, the Pokemon ensnares its foe, who is left defenseless

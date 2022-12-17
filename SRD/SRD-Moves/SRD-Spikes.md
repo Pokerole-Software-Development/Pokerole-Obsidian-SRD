@@ -1,6 +1,8 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon shoots pointy pebbles or thorns around the field that deal

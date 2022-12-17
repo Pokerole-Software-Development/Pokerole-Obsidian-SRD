@@ -1,6 +1,9 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Recoil: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon flies straight at the foe at full speed, the collision might

@@ -1,6 +1,15 @@
 ---
 Accuracy1: Beauty
 Accuracy2: Perform
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: 1
+    Stats:
+    - Dexterity
+    - Special
+    - SpDef
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: A mystical and beautiful dance that boosts a Pokemon's dexterity and

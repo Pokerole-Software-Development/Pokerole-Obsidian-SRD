@@ -2,8 +2,8 @@
 Ability1: Prism Armor
 Ability2: ''
 Baby: 'No'
-BookSprite: SRD-necrozma-dusk-BookSprite.png
-BoxSprite: SRD-necrozma-dusk-BoxSprite.png
+BookSprite: SRD-necrozma-dawn-BookSprite.png
+BoxSprite: SRD-necrozma-dawn-BoxSprite.png
 DexCategory: 'Aether Foundation Log #182'
 DexDescription: The shadowy creature is in pain, and it hungers for any light it can
   find. I wonder how would it fare on the other side, back in our world. Would the
@@ -20,15 +20,15 @@ Height:
   Feet: 13.8
   Meters: 4.2
 HiddenAbility: ''
-HomeSprite: SRD-necrozma-dusk-HomeSprite.png
+HomeSprite: SRD-necrozma-dawn-HomeSprite.png
 Learnset: '[[SRD-Necrozma Dawn Wings-Learnset]]'
 Legendary: 'Yes'
 Name: Necrozma Dawn Wings
 Number: 800
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
-ShuffleToken: SRD-necrozma-dusk-ShuffleToken.png
-Sprite: necrozma-dusk.png
+ShuffleToken: SRD-necrozma-dawn-ShuffleToken.png
+Sprite: necrozma-dawn.png
 Type1: Psychic
 Type2: Ghost
 Weight:
@@ -42,10 +42,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-necrozma-dusk-BookSprite.png|wsmall]]
-> ![[SRD-necrozma-dusk-HomeSprite.png]]
-> ![[SRD-necrozma-dusk-BoxSprite.png|htiny]]
-> ![[SRD-necrozma-dusk-ShuffleToken.png|wsmall]]
+> ![[SRD-necrozma-dawn-BookSprite.png|wsmall]]
+> ![[SRD-necrozma-dawn-HomeSprite.png]]
+> ![[SRD-necrozma-dawn-BoxSprite.png|htiny]]
+> ![[SRD-necrozma-dawn-ShuffleToken.png|wsmall]]
 
 
 *Aether Foundation Log #182*

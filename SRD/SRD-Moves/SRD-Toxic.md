@@ -1,6 +1,12 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: BadlyPoison
+Attributes:
+  AccuracyReduction: 1
 Damage1: ''
 Damage2: ''
 Description: With a disgusting diet and training, the user learns how to turn its

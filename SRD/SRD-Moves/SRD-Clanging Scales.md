@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Perform
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: -1
+    Stats:
+    - Def
+Attributes:
+  SoundBased: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon rattles the scales of its armor creating a frightening noise

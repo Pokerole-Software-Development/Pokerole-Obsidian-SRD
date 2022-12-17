@@ -1,6 +1,14 @@
 ---
 Accuracy1: Tough
 Accuracy2: Perform
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Strength
+Attributes:
+  SoundBased: true
 Damage1: ''
 Damage2: ''
 Description: The user exhibits a menacing attitude, making the foe unsure about attacking

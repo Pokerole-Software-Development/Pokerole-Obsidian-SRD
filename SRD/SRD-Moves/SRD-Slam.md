@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 2
 Damage1: Strength
 Damage2: ''
 Description: The user slams the foe with its tail, vines, etc. to deal a decent amount

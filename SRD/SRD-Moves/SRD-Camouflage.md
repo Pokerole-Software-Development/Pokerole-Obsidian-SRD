@@ -1,6 +1,8 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user mimics the environment, it becomes one with the surroundings.

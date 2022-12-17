@@ -2,8 +2,8 @@
 Ability1: Keen Eye
 Ability2: Sand Rush
 Baby: 'No'
-BookSprite: SRD-lycanroc-midnight-BookSprite.png
-BoxSprite: SRD-lycanroc-midnight-BoxSprite.png
+BookSprite: SRD-lycanroc-midday-BookSprite.png
+BoxSprite: SRD-lycanroc-midday-BoxSprite.png
 DexCategory: Wolf Pokemon
 DexDescription: A well-disciplined Rockruff will evolve at Dawn. This Pokemon is very
   Loyal and trustworthy. It can climb mountains fast and is a quick runner. The rocks
@@ -22,15 +22,15 @@ Height:
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Steadfast
-HomeSprite: SRD-lycanroc-midnight-HomeSprite.png
+HomeSprite: SRD-lycanroc-midday-HomeSprite.png
 Learnset: '[[SRD-Lycanroc Midday-Learnset]]'
 Legendary: 'No'
 Name: Lycanroc Midday
 Number: 745
 PrimaryEggGroup: Field
 SecondaryEggGroup: ''
-ShuffleToken: SRD-lycanroc-midnight-ShuffleToken.png
-Sprite: lycanroc-midnight.png
+ShuffleToken: SRD-lycanroc-midday-ShuffleToken.png
+Sprite: lycanroc-midday.png
 Type1: Rock
 Type2: ''
 Weight:
@@ -44,10 +44,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-lycanroc-midnight-BookSprite.png|wsmall]]
-> ![[SRD-lycanroc-midnight-HomeSprite.png]]
-> ![[SRD-lycanroc-midnight-BoxSprite.png|htiny]]
-> ![[SRD-lycanroc-midnight-ShuffleToken.png|wsmall]]
+> ![[SRD-lycanroc-midday-BookSprite.png|wsmall]]
+> ![[SRD-lycanroc-midday-HomeSprite.png]]
+> ![[SRD-lycanroc-midday-BoxSprite.png|htiny]]
+> ![[SRD-lycanroc-midday-ShuffleToken.png|wsmall]]
 
 
 *Wolf Pokemon*

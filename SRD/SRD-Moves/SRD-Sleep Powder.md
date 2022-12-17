@@ -1,6 +1,12 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Sleep
+Attributes:
+  AccuracyReduction: 2
 Damage1: ''
 Damage2: ''
 Description: The user scatters powder around, anyone who comes in contact with it

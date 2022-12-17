@@ -1,6 +1,10 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects: {}
+Attributes:
+  Priority: 3
+  ShieldMove: true
 Damage1: ''
 Damage2: ''
 Description: The Pokemon creates a magic shield to protect everyone from the bad tricks

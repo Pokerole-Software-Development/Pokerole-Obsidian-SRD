@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 1
+    Stages: -1
+    Stats:
+    - SpDef
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user sends out a subterranean wave that bursts on the ground bellow

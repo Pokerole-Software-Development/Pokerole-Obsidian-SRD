@@ -1,6 +1,10 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Lethal: true
+  UserFaints: true
 Damage1: Strength
 Damage2: ''
 Description: The user focuses on exploding its body, the explosion deals a massive

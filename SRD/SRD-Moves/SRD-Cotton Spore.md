@@ -1,6 +1,13 @@
 ---
 Accuracy1: Insight
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -2
+    Stats:
+    - Dexterity
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon covers the foe in cotton, disrupting its movement speed.

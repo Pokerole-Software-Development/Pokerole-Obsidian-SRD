@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: PlasmaFists
+Attributes:
+  FistBased: true
 Damage1: Strength
 Damage2: ''
 Description: The user charges its fists with electricity, and upon impact the charge

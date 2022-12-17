@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 2
+    Stats:
+    - Dexterity
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user polishes the rough ends of its rock body for easier and faster

@@ -1,6 +1,11 @@
 ---
 Accuracy1: Clever
 Accuracy2: Perform
+AddedEffects:
+  Ailments:
+  - Affects: User
+    Type: ChangedAbility
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user mimics the target and takes on the most basic features from

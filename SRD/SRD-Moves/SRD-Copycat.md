@@ -1,6 +1,8 @@
 ---
 Accuracy1: Same as the copied move
 Accuracy2: ''
+AddedEffects: {}
+Attributes: {}
 Damage1: Same as the copied move
 Damage2: ''
 Description: The user will closely watch the movements of the target and will imitate

@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  TerrainEffect: PsychicTerrain
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The arena becomes radiated by psychic waves. Everyone begins to think

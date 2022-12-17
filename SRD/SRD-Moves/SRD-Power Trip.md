@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: In the heat of the battle, the Pokemon gets carried away, relishing in

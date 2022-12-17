@@ -1,6 +1,20 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 2
+    Stats:
+    - Strength
+    - Special
+    - Dexterity
+  - Affects: User
+    Stages: -2
+    Stats:
+    - Def
+    - SpDef
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: By breaking its own shell, the user sacrifices defense in exchange of

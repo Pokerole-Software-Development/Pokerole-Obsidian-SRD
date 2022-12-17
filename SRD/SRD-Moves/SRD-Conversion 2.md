@@ -1,6 +1,11 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: User
+    Type: Conversion2
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon downloads the data of a move that was used against it. Change

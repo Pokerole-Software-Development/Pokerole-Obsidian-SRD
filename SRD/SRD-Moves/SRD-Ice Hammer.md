@@ -1,6 +1,14 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: -1
+    Stats:
+    - Dexterity
+Attributes:
+  AccuracyReduction: 1
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its powerful gelid arms and strikes the foe with a swinging

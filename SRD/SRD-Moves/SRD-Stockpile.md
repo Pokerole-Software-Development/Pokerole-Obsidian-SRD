@@ -1,6 +1,17 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Stockpile
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Def
+    - SpDef
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon swells up by storing power with its mouth, this makes the

@@ -1,6 +1,13 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Target
+    Type: Telekinesis
+  - Affects: Target
+    Type: Hovering
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user can manipulate objects and creatures with his mind. Pokemon

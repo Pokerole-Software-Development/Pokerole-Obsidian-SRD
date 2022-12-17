@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  NeverFail: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon approaches the foe disarmingly then attacks suddenly without

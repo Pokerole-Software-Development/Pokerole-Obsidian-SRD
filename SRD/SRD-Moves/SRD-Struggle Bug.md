@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Special
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon lays on its back and struggles with the foe, disrupting the

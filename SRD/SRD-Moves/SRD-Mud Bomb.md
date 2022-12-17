@@ -1,6 +1,15 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 3
+    Stages: -1
+    Stats:
+    - Accuracy
+Attributes:
+  AccuracyReduction: 2
 Damage1: Special
 Damage2: ''
 Description: The Pokemon shoots a ball made of mud that bursts on the target, some

@@ -1,6 +1,9 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  UserFaints: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon makes use of its ability to blow up parts of its own body

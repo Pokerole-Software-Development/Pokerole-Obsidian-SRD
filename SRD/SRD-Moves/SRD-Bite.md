@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Flinch
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The user lands a vicious bite that may leave an ugly bruise.

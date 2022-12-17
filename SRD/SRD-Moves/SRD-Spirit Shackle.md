@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Block
+Attributes:
+  BlockDamagePool: 0
 Damage1: Strength
 Damage2: ''
 Description: While attacking, the user sneakily binds its foe's shadow to the ground,

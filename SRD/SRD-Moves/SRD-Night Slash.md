@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  HighCritical: true
+  Lethal: true
 Damage1: Strength
 Damage2: ''
 Description: The user quickly slashes through the target as soon as it gets the chance.

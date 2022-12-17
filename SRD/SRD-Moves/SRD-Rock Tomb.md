@@ -1,6 +1,15 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Dexterity
+Attributes:
+  AccuracyReduction: 1
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon covers the foe in gravel and rocks, leaving it unable to

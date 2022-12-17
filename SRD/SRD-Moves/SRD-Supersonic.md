@@ -1,6 +1,12 @@
 ---
 Accuracy1: Tough
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Confuse
+Attributes:
+  AccuracyReduction: 3
 Damage1: ''
 Damage2: ''
 Description: The Pokemon emits a series of ultrasonic waves that make the foe dizzy

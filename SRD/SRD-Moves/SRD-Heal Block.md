@@ -1,6 +1,12 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Rounds: 4
+    Type: Psychic
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user forces everyone's wounds to stay open by using its immense psychic

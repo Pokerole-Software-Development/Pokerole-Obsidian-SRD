@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Perform
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: LuckyChant
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user chants an incantation to the skies. The beautiful performance

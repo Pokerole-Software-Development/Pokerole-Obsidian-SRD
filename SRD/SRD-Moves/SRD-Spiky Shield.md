@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Priority: 3
+  ShieldMove: true
 Damage1: ''
 Damage2: ''
 Description: The Pokemon covers itself with a thorn filled shell, the foe will be

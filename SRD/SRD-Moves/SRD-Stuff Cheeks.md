@@ -1,6 +1,13 @@
 ---
 Accuracy1: Clever
 Accuracy2: Nature
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 2
+    Stats:
+    - Def
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon munches its berry but keeps part of it on its cheeks. Looks

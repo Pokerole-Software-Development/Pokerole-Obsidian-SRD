@@ -1,6 +1,8 @@
 ---
 Accuracy1: Vitality
 Accuracy2: Nature
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon swallows the energy she was storing to restore some damage,

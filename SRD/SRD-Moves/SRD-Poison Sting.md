@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Poison
+Attributes:
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The user shoots a small sting that injects venom into the foe.

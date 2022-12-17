@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 2
+    Type: Confuse
+Attributes:
+  AccuracyReduction: 2
 Damage1: Strength
 Damage2: ''
 Description: The user climbs on top of the foe. This may be confusing for some Pokemon.

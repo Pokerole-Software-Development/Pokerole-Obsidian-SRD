@@ -1,6 +1,11 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  DoubleAction: true
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon throws a bone to hit the foe. The bone returns like a boomerang,

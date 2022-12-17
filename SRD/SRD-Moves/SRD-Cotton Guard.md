@@ -1,6 +1,13 @@
 ---
 Accuracy1: Insight
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 3
+    Stats:
+    - Def
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user covers itself in cotton puffs that severely reduce the impact

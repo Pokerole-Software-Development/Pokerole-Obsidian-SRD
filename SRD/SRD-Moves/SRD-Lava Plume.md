@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Burn
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user shoots up bits of molten lava that fall scattered around the

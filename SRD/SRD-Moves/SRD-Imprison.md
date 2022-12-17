@@ -1,6 +1,11 @@
 ---
 Accuracy1: Clever
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Imprison
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: This move blocks specific parts of the memory the user is well aware

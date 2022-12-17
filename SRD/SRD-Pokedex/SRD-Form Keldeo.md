@@ -2,8 +2,8 @@
 Ability1: Justified
 Ability2: ''
 Baby: 'No'
-BookSprite: SRD-keldeo-BookSprite.png
-BoxSprite: SRD-keldeo-BoxSprite.png
+BookSprite: SRD-form-keldeo-BookSprite.png
+BoxSprite: SRD-form-keldeo-BoxSprite.png
 DexCategory: No Data
 DexDescription: The old fairy tale ends with the youngest Pokemon rising above evil
   and injustice due to its resolute and determined desire for justice. The mentorship
@@ -20,15 +20,15 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: ''
-HomeSprite: SRD-keldeo-HomeSprite.png
+HomeSprite: SRD-form-keldeo-HomeSprite.png
 Learnset: '[[SRD-Form Keldeo-Learnset]]'
 Legendary: 'Yes'
 Name: Form Keldeo
 Number: 647
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
-ShuffleToken: SRD-keldeo-ShuffleToken.png
-Sprite: keldeo.png
+ShuffleToken: SRD-form-keldeo-ShuffleToken.png
+Sprite: form-keldeo.png
 Type1: Water
 Type2: Fighting
 Weight:
@@ -42,10 +42,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-keldeo-BookSprite.png|wsmall]]
-> ![[SRD-keldeo-HomeSprite.png]]
-> ![[SRD-keldeo-BoxSprite.png|htiny]]
-> ![[SRD-keldeo-ShuffleToken.png|wsmall]]
+> ![[SRD-form-keldeo-BookSprite.png|wsmall]]
+> ![[SRD-form-keldeo-HomeSprite.png]]
+> ![[SRD-form-keldeo-BoxSprite.png|htiny]]
+> ![[SRD-form-keldeo-ShuffleToken.png|wsmall]]
 
 
 *No Data*

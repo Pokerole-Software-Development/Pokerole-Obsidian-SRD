@@ -1,6 +1,11 @@
 ---
 Accuracy1: Insight
 Accuracy2: Alert
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: ForesightOdorSleuth
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses its developed senses and mental ability to foresee the

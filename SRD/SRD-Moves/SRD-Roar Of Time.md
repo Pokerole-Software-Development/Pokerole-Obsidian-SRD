@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  Lethal: true
+  MustRecharge: true
 Damage1: Special
 Damage2: ''
 Description: Through a terrifying roar, Dialga bounds the forces of time on a single

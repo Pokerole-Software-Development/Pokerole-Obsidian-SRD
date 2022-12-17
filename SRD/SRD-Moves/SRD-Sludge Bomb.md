@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Poison
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user hurls a ball of toxic sludge that explodes on contact and covers

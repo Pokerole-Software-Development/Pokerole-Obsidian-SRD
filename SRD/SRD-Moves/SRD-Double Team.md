@@ -1,6 +1,11 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Evasion
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: SpedUp
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user moves rapidly around the foe, creating illusory copies of itself.

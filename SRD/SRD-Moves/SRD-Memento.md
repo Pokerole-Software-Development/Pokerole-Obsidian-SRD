@@ -1,6 +1,17 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -2
+    Stats:
+    - Strength
+    - Dexterity
+    - Special
+    - Def
+    - SpDef
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user unleashes all its remaining power to send a wave of hopeless

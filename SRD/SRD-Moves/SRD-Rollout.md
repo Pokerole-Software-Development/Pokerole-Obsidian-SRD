@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  SuccessiveActions: true
 Damage1: Strength
 Damage2: ''
 Description: The user curls up into a ball and starts rolling towards its foe, trampling

@@ -1,6 +1,10 @@
 ---
 Accuracy1: Vitality
 Accuracy2: Nature
+AddedEffects:
+  Heal:
+    Type: Basic
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon gets lazy and loafs around instead of fighting. This makes

@@ -1,6 +1,9 @@
 ---
 Accuracy1: Cool
 Accuracy2: Allure
+AddedEffects: {}
+Attributes:
+  Priority: 3
 Damage1: ''
 Damage2: ''
 Description: The user claps and cheers at the target to encourage it to repeat what

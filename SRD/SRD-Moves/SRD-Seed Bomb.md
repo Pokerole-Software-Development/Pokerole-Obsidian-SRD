@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The user throws a big seed that explodes on contact with the foe.

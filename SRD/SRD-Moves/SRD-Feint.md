@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  IgnoreShield: true
+  Priority: 2
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon feints a strike then hits for real even if the foe attempts

@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Perform
+AddedEffects: {}
+Attributes:
+  SoundBased: true
 Damage1: Special
 Damage2: ''
 Description: The user vibrates with any particular energy Type he chooses. All nearby

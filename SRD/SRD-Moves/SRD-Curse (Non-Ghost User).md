@@ -1,6 +1,18 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Strength
+    - Def
+  - Affects: User
+    Stages: -1
+    Stats:
+    - Dexterity
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon prepares to deal and receive damage by muttering something

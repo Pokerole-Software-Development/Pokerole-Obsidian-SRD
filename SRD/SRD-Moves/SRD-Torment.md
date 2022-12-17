@@ -1,6 +1,11 @@
 ---
 Accuracy1: Tough
 Accuracy2: Intimidate
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Torment
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user torments and enrages the foe, making it unable to keep using

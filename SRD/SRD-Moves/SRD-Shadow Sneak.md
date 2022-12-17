@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Priority: 1
 Damage1: Strength
 Damage2: ''
 Description: The user sneaks through darkness and strikes out of the target's shadow.

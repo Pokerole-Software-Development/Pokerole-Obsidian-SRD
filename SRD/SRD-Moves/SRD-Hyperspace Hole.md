@@ -1,6 +1,9 @@
 ---
 Accuracy1: Insight
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  IgnoreShield: true
 Damage1: Special
 Damage2: ''
 Description: The user knows the laws of physics bind it from being in many places

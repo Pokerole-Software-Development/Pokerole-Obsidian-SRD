@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
 Damage1: Special
 Damage2: ''
 Description: The user lets out a horrible belch on the target. The air contains toxins

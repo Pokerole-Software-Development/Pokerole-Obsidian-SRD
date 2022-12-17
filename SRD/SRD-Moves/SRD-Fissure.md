@@ -1,6 +1,13 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  FixedDamage:
+    BasedOn: Hp
+    Percentage: 1
+Attributes:
+  AccuracyReduction: 5
+  PhysicalRanged: true
 Damage1: ''
 Damage2: ''
 Description: The user tears the ground apart in a monstrous display of force. If the

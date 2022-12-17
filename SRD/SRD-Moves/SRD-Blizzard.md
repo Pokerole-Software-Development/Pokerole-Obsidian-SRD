@@ -1,6 +1,13 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Freeze
+Attributes:
+  AccuracyReduction: 2
 Damage1: Special
 Damage2: ''
 Description: The user swirls a violent gelid wind around the foes. This blizzard may

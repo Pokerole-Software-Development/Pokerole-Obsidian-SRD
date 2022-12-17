@@ -1,6 +1,13 @@
 ---
 Accuracy1: Clever
 Accuracy2: Alert
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 2
+    Stats:
+    - Special
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon starts plotting on how to defeat the enemy. Its evil laugh

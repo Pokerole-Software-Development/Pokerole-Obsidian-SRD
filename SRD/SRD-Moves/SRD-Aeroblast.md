@@ -1,6 +1,10 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  HighCritical: true
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: The victim is trapped in a violently swirling vortex. The strong wind

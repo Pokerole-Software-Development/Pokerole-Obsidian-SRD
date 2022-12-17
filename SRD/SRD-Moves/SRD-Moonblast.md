@@ -1,6 +1,14 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 3
+    Stages: -1
+    Stats:
+    - Special
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: Summon power directly from the moon. The Pokemon blasts the foe with

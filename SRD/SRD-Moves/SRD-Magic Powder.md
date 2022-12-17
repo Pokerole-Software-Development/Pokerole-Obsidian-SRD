@@ -1,6 +1,12 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    TargetType: Psychic
+    Type: ChangedType
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon recites an enchantment and blows a cloud of pink dust on

@@ -1,6 +1,12 @@
 ---
 Accuracy1: Insight
 Accuracy2: Intimidate
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: CenterOfAttention
+Attributes:
+  Priority: 2
 Damage1: ''
 Damage2: ''
 Description: The Pokemon releases an irritating powder that annoys and enrages foes

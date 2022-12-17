@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Athletic
+AddedEffects: {}
+Attributes:
+  ShieldMove: true
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses a mat or something similar as a shield.

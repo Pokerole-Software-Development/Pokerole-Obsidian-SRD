@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Strength
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon will use its tail to make a long swipe at its foes. A few

@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: ExtremeSpeed
+Attributes:
+  Priority: 2
 Damage1: Strength
 Damage2: ''
 Description: The user charges at a blinding speed against the target.

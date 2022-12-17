@@ -1,6 +1,10 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  HighCritical: true
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: With a flicker of its claws, Palkia defragments the space around its

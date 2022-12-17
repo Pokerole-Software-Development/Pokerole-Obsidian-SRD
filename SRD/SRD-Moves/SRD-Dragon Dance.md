@@ -1,6 +1,14 @@
 ---
 Accuracy1: Tough
 Accuracy2: Perform
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Strength
+    - Dexterity
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user performs a vigorous and mystical dance that boosts the fighting

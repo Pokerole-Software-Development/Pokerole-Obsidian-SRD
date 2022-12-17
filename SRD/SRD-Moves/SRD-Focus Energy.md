@@ -1,6 +1,12 @@
 ---
 Accuracy1: Insight
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: FocusEnergy
+Attributes:
+  HighCritical: true
 Damage1: ''
 Damage2: ''
 Description: The Pokemon's energy is raised to make all strikes much more precise.

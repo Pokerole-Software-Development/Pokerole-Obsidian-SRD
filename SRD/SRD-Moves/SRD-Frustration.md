@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: BRAWL
+AddedEffects: {}
+Attributes: {}
 Damage1: Strength
 Damage2: Missing happiness
 Description: A move that relies on how badly a Pokemon has been treated to make it

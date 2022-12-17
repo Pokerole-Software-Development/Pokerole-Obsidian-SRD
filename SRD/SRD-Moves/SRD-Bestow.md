@@ -1,6 +1,8 @@
 ---
 Accuracy1: Cool
 Accuracy2: Etiquette
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon respectfully offers an item, the target will take it and

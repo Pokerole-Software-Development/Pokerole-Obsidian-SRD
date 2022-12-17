@@ -1,6 +1,13 @@
 ---
 Accuracy1: Cute
 Accuracy2: Perform
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -2
+    Stats:
+    - SpDef
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user stops battling and feigns to be crying, disrupting the foe's

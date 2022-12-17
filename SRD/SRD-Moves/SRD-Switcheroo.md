@@ -1,6 +1,8 @@
 ---
 Accuracy1: Insight
 Accuracy2: Stealth
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user quickly switches the held items before the foe can realize what

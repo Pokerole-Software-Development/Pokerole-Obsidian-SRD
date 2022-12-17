@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: MagicRoom
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: Inside the effects of Magic Room, technology, tools, and items manually

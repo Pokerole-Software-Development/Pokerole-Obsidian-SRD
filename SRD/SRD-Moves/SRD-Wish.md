@@ -1,6 +1,10 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects:
+  Heal:
+    Type: Basic
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon makes a wish with all its might and somehow it becomes true.

@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  HighCritical: true
+  Lethal: true
 Damage1: Strength
 Damage2: ''
 Description: Using parts of its body as a blade the Pokemon pierces and tears the

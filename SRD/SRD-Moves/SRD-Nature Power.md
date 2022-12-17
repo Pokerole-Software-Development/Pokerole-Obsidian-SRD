@@ -1,6 +1,8 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects: {}
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon makes use of the terrain and asks the nature for aid in battle.

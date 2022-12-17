@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Reflect
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user manifests its mental power on the world, creating invisible

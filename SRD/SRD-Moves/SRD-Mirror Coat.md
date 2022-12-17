@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  IgnoreDefenses: true
 Damage1: ''
 Damage2: ''
 Description: The user canalizes the damage received by energies and bounces them back

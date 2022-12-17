@@ -1,6 +1,13 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: User
+    Type: Grounded
+  Heal:
+    Type: Basic
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses its action to land on the ground and relax.

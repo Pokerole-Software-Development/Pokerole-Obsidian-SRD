@@ -1,6 +1,8 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon quickly covers the arena with a sticky web, newly arrived

@@ -1,6 +1,14 @@
 ---
 Accuracy1: Vitality
 Accuracy2: Athletic
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Strength
+    - Def
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon shows its muscles with intimidating poses to look bigger

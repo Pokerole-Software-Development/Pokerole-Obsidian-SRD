@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Athletic
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Strength
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user cuts down the rough edges of its body to make it as sharp as

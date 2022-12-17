@@ -1,6 +1,13 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Endure
+Attributes:
+  Priority: 5
+  ShieldMove: true
 Damage1: ''
 Damage2: ''
 Description: The user gets prepared to receive a fatal blow. It resists the pain despite

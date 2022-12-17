@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  TerrainEffect: Hail
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user summons a hailstorm that will stay on the battlefield for some

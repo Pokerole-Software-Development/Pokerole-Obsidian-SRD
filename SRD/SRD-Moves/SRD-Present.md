@@ -1,6 +1,9 @@
 ---
 Accuracy1: Cute
 Accuracy2: Allure
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
 Damage1: ''
 Damage2: ''
 Description: The user approaches its foe and gives it a lovely present that may be

@@ -1,6 +1,13 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Dexterity
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user shoots a silk string that ties and limits the movement of its

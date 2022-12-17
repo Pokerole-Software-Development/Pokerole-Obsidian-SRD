@@ -1,6 +1,8 @@
 ---
 Accuracy1: Clever
 Accuracy2: Perform
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: Making use of its acting talents, the Pokemon imitates what the target

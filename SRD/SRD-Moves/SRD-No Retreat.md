@@ -1,6 +1,20 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: User
+    Type: Block
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Strength
+    - Dexterity
+    - Special
+    - Def
+    - SpDef
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: No surrender. No retreat. Until victory always.

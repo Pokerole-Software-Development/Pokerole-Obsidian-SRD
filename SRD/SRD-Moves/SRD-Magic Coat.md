@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  Priority: 4
 Damage1: ''
 Damage2: ''
 Description: The user quickly creates a barrier that reflects any minor attack, status

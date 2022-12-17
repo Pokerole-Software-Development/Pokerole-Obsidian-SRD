@@ -1,6 +1,16 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  AilmentHeal:
+  - Burn1
+  - Burn2
+  - Burn3
+  - Freeze
+  - Paralysis
+  - Poison
+  - Sleep
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon releases medicinal scents and vapors to refresh the user

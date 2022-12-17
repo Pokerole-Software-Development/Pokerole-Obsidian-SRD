@@ -1,6 +1,8 @@
 ---
 Accuracy1: Will
 Accuracy2: Allure
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon takes the target Trick-or-Treating. The target gets a ghost

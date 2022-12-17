@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  HighCritical: true
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon shoots one or more sharp leaves that cut through all targets

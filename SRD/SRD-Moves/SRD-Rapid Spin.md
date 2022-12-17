@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Dexterity
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon spins swiftly to strike the foe. Anything near will be scattered

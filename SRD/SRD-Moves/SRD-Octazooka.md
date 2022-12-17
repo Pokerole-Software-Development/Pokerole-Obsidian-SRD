@@ -1,6 +1,15 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 5
+    Stages: -1
+    Stats:
+    - Accuracy
+Attributes:
+  AccuracyReduction: 2
 Damage1: Special
 Damage2: ''
 Description: The user sprays ink at the target's face to obstruct its vison.

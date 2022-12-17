@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Paralyze
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: A powerful open palm hit that knocks the foe away and may leave him unable

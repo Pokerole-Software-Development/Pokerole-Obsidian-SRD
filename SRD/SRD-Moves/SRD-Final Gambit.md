@@ -1,6 +1,10 @@
 ---
 Accuracy1: Will
 Accuracy2: Athletic
+AddedEffects: {}
+Attributes:
+  IgnoreDefenses: true
+  UserFaints: true
 Damage1: ''
 Damage2: ''
 Description: The Pokemon puts its last strength into an all-or-nothing attack. After

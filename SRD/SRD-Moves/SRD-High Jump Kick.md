@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
 Damage1: Strength
 Damage2: ''
 Description: The user launches itself up and falls down with a brutal kick. It might

@@ -1,6 +1,11 @@
 ---
 Accuracy1: Insight
 Accuracy2: Alert
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: LaserFocus
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: Through its incredible awareness the Pokemon finds a straight path into

@@ -1,6 +1,13 @@
 ---
 Accuracy1: Cute
 Accuracy2: Perform
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Def
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon moves its tail in such a cute way that the foe will easily

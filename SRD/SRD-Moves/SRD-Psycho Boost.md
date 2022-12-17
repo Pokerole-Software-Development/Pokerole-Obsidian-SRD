@@ -1,6 +1,15 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: -2
+    Stats:
+    - Special
+Attributes:
+  AccuracyReduction: 1
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon releases an explosion of all of its concentrated psychic

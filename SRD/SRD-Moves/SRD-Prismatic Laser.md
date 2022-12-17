@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  Lethal: true
+  MustRecharge: true
 Damage1: Special
 Damage2: ''
 Description: Through a prism, the user shoots a concentrated laser beam that pierces

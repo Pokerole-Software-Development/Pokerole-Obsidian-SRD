@@ -1,6 +1,12 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Paralyze
+Attributes:
+  AccuracyReduction: 2
 Damage1: ''
 Damage2: ''
 Description: A blow of dust that paralyzes the target on the spot and cramps its muscles.

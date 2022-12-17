@@ -1,6 +1,10 @@
 ---
 Accuracy1: Vitality
 Accuracy2: Nature
+AddedEffects: {}
+Attributes:
+  Priority: 4
+  ShieldMove: true
 Damage1: ''
 Damage2: ''
 Description: The user encloses itself inside its sturdy shell, which is covered by

@@ -1,6 +1,13 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Block
+Attributes:
+  AccuracyReduction: 2
+  BlockDamagePool: 3
 Damage1: Special
 Damage2: ''
 Description: The Pokemon shoots a fiery eruption to its foe. Unable to escape and

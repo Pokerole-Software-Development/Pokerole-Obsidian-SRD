@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Lethal: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon starts attacking at full force with its claws, anyone unfortunate

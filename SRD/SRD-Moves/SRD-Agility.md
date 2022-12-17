@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Athletic
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 2
+    Stats:
+    - Dexterity
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user relaxes and lightens its body to move faster.

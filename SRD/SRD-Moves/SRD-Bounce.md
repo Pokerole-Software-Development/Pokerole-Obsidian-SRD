@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Paralyze
+Attributes:
+  Charge: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon will jump 30 feet in the air before landing on top of the

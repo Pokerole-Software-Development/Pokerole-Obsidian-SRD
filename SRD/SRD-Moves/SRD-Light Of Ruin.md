@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  Lethal: true
+  Recoil: true
 Damage1: Special
 Damage2: ''
 Description: By drawing energy from the Eternal Flower, the Pokemon unleashes all

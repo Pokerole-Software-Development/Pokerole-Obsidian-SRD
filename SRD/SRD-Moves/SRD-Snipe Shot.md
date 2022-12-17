@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  HighCritical: true
 Damage1: Special
 Damage2: ''
 Description: The User Shoots a piercing water jet with incredible precision.

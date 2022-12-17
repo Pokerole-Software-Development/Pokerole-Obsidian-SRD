@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Burn2
+Attributes:
+  AccuracyReduction: 1
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: In less than a second, the sound of steam boiling over a raging engine

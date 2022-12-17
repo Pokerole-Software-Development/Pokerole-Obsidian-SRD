@@ -1,6 +1,12 @@
 ---
 Accuracy1: Insight
 Accuracy2: Allure
+AddedEffects:
+  Ailments:
+  - Affects: Target
+    Rounds: 1
+    Type: DoomDesire
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: Be careful what you wish for, this Pokemon will read your most intimate

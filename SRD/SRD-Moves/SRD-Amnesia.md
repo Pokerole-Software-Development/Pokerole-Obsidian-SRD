@@ -1,6 +1,13 @@
 ---
 Accuracy1: Insight
 Accuracy2: Alert
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 2
+    Stats:
+    - SpDef
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: As a fine example of mind over matter, the user temporarily empties its

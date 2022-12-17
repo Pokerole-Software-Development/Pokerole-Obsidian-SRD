@@ -1,6 +1,8 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user sends out a haze that disturbs all the Pokemon engaged in battle.

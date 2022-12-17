@@ -1,6 +1,15 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 2
+    Stages: -1
+    Stats:
+    - Def
+Attributes:
+  Lethal: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon gets close to its foe then strikes while bursting a full-force

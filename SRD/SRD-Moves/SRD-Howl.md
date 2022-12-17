@@ -1,6 +1,13 @@
 ---
 Accuracy1: Cool
 Accuracy2: Intimidate
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Strength
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon lets out an impressive howl, making it appear a lot more

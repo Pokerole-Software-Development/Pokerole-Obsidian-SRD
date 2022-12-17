@@ -1,6 +1,13 @@
 ---
 Accuracy1: Tough
 Accuracy2: Intimidate
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -2
+    Stats:
+    - Dexterity
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: By making a frightening face, the Pokemon makes others think twice about

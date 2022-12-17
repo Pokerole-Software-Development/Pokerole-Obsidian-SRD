@@ -1,6 +1,15 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 5
+    Stages: -1
+    Stats:
+    - Accuracy
+Attributes:
+  AccuracyReduction: 1
 Damage1: Special
 Damage2: ''
 Description: A bush worth of sharp leaves swirls around the foe making it harder for

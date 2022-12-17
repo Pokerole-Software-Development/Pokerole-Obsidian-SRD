@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  SuccessiveActions: true
 Damage1: Strength
 Damage2: ''
 Description: The user curls into a snowball, rolling against the foe. The ball grows

@@ -1,6 +1,14 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: -2
+    Stats:
+    - Special
+Attributes:
+  AccuracyReduction: 1
 Damage1: Special
 Damage2: ''
 Description: A furious storm of sharp leaves swirls and pierces the target. The user

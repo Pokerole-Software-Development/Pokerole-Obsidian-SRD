@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 2
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon violently lashes the foe with its vines or a part of its

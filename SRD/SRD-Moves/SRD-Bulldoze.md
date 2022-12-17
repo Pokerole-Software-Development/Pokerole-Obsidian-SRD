@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Dexterity
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The user stomps and tramples the place, breaking stones, trees, and everything

@@ -1,6 +1,15 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -2
+    Stats:
+    - Strength
+Attributes:
+  Priority: 3
+  ShieldMove: true
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses a ghostly shield to protect itself. If the foe managed

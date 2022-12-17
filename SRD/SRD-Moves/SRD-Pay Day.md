@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: PayDay
+Attributes:
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: This move grants good fortune, making it more likely to get more money

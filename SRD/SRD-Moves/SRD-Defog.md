@@ -1,6 +1,10 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects: {}
+Attributes:
+  DestroyShield: true
+  ResetTerrain: true
 Damage1: ''
 Damage2: ''
 Description: A strong current of wind that blows away any fog and even invisible barriers.

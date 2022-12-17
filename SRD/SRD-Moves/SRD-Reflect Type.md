@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: ReflectType
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon appears to change its own physiology. This effect changes

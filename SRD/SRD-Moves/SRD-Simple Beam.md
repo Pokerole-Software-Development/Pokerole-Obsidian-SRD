@@ -1,6 +1,11 @@
 ---
 Accuracy1: Insight
 Accuracy2: Empathy
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: SimpleBeam
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon sends a small psychic wave to its target, giving it a simpler

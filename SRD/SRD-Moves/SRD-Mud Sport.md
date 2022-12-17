@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  TerrainEffect: MudSport
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user covers everything with mud, reducing the effectiveness of electric

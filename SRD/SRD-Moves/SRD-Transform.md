@@ -1,6 +1,8 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user modifies its own DNA structure to become an identical clone

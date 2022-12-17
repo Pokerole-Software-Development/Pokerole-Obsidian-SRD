@@ -1,6 +1,9 @@
 ---
 Accuracy1: Insight
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  IgnoreDefenses: true
 Damage1: ''
 Damage2: ''
 Description: The user casts a shade with a frightening mirage inside that torments

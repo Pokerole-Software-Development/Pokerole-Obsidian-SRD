@@ -1,6 +1,8 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: Foes are drenched in an odd poisonous liquid that targets their weakened

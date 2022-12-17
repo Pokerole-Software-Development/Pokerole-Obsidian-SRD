@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Burn
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The user cloaks itself in flames and rolls to tackle the target.

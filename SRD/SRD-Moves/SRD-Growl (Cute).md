@@ -1,6 +1,14 @@
 ---
 Accuracy1: Cute
 Accuracy2: Perform
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Strength
+Attributes:
+  SoundBased: true
 Damage1: ''
 Damage2: ''
 Description: The user shows its cute demeanor, making the foe unsure about attacking

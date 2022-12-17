@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Stealth
+AddedEffects:
+  Ailments:
+  - Affects: Target
+    Rounds: 4
+    Type: Block
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The user is so flat that you can barely see it in the tall grass, it

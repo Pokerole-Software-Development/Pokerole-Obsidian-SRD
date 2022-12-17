@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Block
+Attributes:
+  BlockDamagePool: 2
 Damage1: Special
 Damage2: ''
 Description: The Pokemon summons a huge swarm of bugs to prevent the foe from escaping.

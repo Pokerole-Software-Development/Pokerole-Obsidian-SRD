@@ -1,6 +1,14 @@
 ---
 Accuracy1: Tough
 Accuracy2: Perform
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -2
+    Stats:
+    - SpDef
+Attributes:
+  SoundBased: true
 Damage1: ''
 Damage2: ''
 Description: The user produces a horrible noise that impedes the foe from focusing

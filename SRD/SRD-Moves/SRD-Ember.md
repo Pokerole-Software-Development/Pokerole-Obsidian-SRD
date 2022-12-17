@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Burn
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user shoots a small flame against the target that may cause a first-degree

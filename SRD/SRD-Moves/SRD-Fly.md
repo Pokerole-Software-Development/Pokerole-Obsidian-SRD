@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: User
+    Type: Fly
+Attributes:
+  Charge: true
 Damage1: Strength
 Damage2: ''
 Description: The user flies up high in one action, then drops and strikes in the next

@@ -1,6 +1,14 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Strength
+    - Special
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon expands its body. It grows bigger and stronger.

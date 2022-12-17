@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Poison
+Attributes:
+  HighCritical: true
 Damage1: Strength
 Damage2: ''
 Description: The tail of this Pokemon is sharp like a blade, it attacks with slashing

@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  FixedDamage:
+    Value: 2
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: A dual colored flame that always leaves the same burn marks on everything

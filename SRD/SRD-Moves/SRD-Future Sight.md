@@ -1,6 +1,11 @@
 ---
 Accuracy1: Insight
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: FutureSight
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon foresses something terrible happening to the target. It may

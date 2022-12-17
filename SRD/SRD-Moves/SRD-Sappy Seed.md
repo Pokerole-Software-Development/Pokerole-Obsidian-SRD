@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
 Damage1: Strength
 Damage2: ''
 Description: From a magical bean, the user grows a cute stalk that will attach itself

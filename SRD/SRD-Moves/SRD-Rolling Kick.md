@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Flinch
+Attributes:
+  AccuracyReduction: 2
 Damage1: Strength
 Damage2: ''
 Description: The user spins in the air landing an impressive kick that may daze the

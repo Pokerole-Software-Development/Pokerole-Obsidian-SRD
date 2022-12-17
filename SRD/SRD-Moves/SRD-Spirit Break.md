@@ -1,6 +1,13 @@
 ---
 Accuracy1: Insight
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Special
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: Sometimes words hurt a lot more than blows. With this Move the Pokemon

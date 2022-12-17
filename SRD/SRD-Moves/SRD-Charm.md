@@ -1,6 +1,13 @@
 ---
 Accuracy1: Cute
 Accuracy2: Allure
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -2
+    Stats:
+    - Strength
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses a cute and harmless attitude to make the foe less wary

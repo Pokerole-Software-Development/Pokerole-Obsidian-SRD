@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  SwitcherMove: true
 Damage1: ''
 Damage2: ''
 Description: The user stores part of its power on a twig or a stick, anyone who touch

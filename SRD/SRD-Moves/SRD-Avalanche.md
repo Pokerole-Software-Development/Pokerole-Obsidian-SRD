@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Priority: -4
 Damage1: Strength
 Damage2: ''
 Description: The user builds up a lot of snow around itself. If anything disturbs

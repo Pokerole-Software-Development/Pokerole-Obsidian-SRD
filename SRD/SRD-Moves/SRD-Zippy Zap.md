@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AlwaysCrit: true
+  Priority: 2
 Damage1: Strength
 Damage2: ''
 Description: The user zips and zaps from one place to another to strike the foe moving

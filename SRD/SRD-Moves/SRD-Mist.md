@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Mist
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user cloaks itself and its allies within cold mist with mystic properties,

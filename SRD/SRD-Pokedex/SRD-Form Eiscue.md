@@ -2,8 +2,8 @@
 Ability1: Ice Face
 Ability2: ''
 Baby: 'No'
-BookSprite: SRD-eiscue-BookSprite.png
-BoxSprite: SRD-eiscue-BoxSprite.png
+BookSprite: SRD-form-eiscue-BookSprite.png
+BoxSprite: SRD-form-eiscue-BoxSprite.png
 DexCategory: Penguin Pokemon
 DexDescription: "Eiscue \u201CNo-Ice\u201D Form is actually its true Form. Without\
   \ the ice to protect it you can see its worried expression, it\u2019s actually quite\
@@ -20,15 +20,15 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: ''
-HomeSprite: SRD-eiscue-HomeSprite.png
+HomeSprite: SRD-form-eiscue-HomeSprite.png
 Learnset: '[[SRD-Form Eiscue-Learnset]]'
 Legendary: 'No'
 Name: Form Eiscue
 Number: 875
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: Field
-ShuffleToken: SRD-eiscue-ShuffleToken.png
-Sprite: eiscue.png
+ShuffleToken: SRD-form-eiscue-ShuffleToken.png
+Sprite: form-eiscue.png
 Type1: Ice
 Type2: ''
 Weight:
@@ -42,10 +42,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-eiscue-BookSprite.png|wsmall]]
-> ![[SRD-eiscue-HomeSprite.png]]
-> ![[SRD-eiscue-BoxSprite.png|htiny]]
-> ![[SRD-eiscue-ShuffleToken.png|wsmall]]
+> ![[SRD-form-eiscue-BookSprite.png|wsmall]]
+> ![[SRD-form-eiscue-HomeSprite.png]]
+> ![[SRD-form-eiscue-BoxSprite.png|htiny]]
+> ![[SRD-form-eiscue-ShuffleToken.png|wsmall]]
 
 
 *Penguin Pokemon*

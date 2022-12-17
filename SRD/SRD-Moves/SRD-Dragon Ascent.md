@@ -1,6 +1,15 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: -1
+    Stats:
+    - Def
+    - SpDef
+Attributes:
+  Lethal: true
 Damage1: Strength
 Damage2: ''
 Description: The user rises above the clouds and then comes crashing down against

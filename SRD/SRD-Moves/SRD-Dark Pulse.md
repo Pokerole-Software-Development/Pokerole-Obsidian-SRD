@@ -1,6 +1,12 @@
 ---
 Accuracy1: Insight
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 2
+    Type: Flinch
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon sends a wave of dark feelings that affect those who are most

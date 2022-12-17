@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 1
+    Stages: -1
+    Stats:
+    - SpDef
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon hurls a sphere made of shadow and dark matter to harm the

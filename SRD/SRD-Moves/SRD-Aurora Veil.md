@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: AuroraVeil
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: Aurora lights and hail spin around the Pokemon and its Allies, deflecting

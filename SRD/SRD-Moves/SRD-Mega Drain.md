@@ -1,6 +1,11 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Heal:
+    Percentage: 0.5
+    Type: Leech
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user absorbs a big amount of vital energy from the target.

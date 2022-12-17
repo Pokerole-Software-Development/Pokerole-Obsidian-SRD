@@ -1,6 +1,13 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 2
+    Type: Paralyze
+Attributes:
+  AccuracyReduction: 2
 Damage1: Strength
 Damage2: ''
 Description: Zekrom delivers a powerful tackle while discharging lightning through

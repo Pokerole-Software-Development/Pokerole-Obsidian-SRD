@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Confuse
+Attributes:
+  AccuracyReduction: 2
 Damage1: Special
 Damage2: ''
 Description: The user dazes the foe with a beam of light. Those who have experienced

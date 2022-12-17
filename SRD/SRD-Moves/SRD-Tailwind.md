@@ -1,6 +1,11 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Tailwind
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: User flaps its wings and casts a turbulent wind that helps the team move

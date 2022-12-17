@@ -1,6 +1,8 @@
 ---
 Accuracy1: Special
 Accuracy2: Allure
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: Control the target's mind to perform a simple non-hostile action, such

@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Lethal: true
+  NeverFail: true
 Damage1: Strength
 Damage2: ''
 Description: The user stabs the foe using one of its sharp horns with astounding precision,

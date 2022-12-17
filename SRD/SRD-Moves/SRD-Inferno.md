@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Burn3
+Attributes:
+  AccuracyReduction: 3
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon sets the foe on fire. These flames rise up to 6 feet. A very

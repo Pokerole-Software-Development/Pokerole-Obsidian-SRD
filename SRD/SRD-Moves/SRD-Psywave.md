@@ -1,6 +1,9 @@
 ---
 Accuracy1: Insight
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  IgnoreDefenses: true
 Damage1: ''
 Damage2: ''
 Description: Releases the inner power of the mind to emanate psychic waves that hurt

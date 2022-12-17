@@ -1,6 +1,13 @@
 ---
 Accuracy1: Beauty
 Accuracy2: Allure
+AddedEffects:
+  StatChanges:
+  - Affects: Target
+    Stages: -2
+    Stats:
+    - Special
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: "The Pokemon shows off its attractiveness and even flirts with the opponents,\

@@ -1,6 +1,9 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Rampage: true
 Damage1: Strength
 Damage2: ''
 Description: The user awakens their primal instinct as a dragon and unleashes its

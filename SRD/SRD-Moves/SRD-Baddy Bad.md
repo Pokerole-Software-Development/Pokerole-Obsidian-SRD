@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: User
+    Rounds: 4
+    Type: BaddyBad
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon acts like a thug and channels its own dark aura as protection

@@ -1,6 +1,12 @@
 ---
 Accuracy1: Cool
 Accuracy2: Perform
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: FollowMeSpotlight
+Attributes:
+  Priority: 3
 Damage1: ''
 Damage2: ''
 Description: The user points a focused light onto one of its allies as if it were

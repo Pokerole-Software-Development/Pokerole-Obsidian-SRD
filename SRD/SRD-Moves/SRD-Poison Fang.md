@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 5
+    Type: BadlyPoison
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon bites the foe and injects its poison directly through its

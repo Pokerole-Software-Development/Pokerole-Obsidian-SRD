@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  SoundBased: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon shouts and screams and squaks so hard the noise really hurts

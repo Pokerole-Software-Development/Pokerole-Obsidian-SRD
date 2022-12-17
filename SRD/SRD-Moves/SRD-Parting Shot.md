@@ -1,6 +1,15 @@
 ---
 Accuracy1: Tough
 Accuracy2: Intimidate
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Strength
+    - Special
+Attributes:
+  SwitcherMove: true
 Damage1: ''
 Damage2: ''
 Description: The user threatens the foe, leaving it too scared to pursuit the user

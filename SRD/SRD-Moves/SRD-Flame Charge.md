@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Dexterity
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its flames as propulsion to strike the foe.

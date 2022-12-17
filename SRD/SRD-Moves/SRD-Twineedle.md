@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 2
+    Type: Poison
+Attributes:
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon stabs the foe with its stinger, claws or spikes infused with

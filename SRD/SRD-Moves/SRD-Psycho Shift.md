@@ -1,6 +1,8 @@
 ---
 Accuracy1: Clever
 Accuracy2: Channel
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: With psychic suggestion, the target feels afflicted by the same status

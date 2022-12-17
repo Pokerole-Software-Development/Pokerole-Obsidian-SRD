@@ -1,6 +1,11 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Charge
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user concentrates all the electricity in its body to be released.

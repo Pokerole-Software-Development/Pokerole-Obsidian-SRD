@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  SuccessiveActions: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon makes use of its claws or scythes to land as many hits as

@@ -1,6 +1,15 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    ChanceDice: 5
+    Stages: 1
+    Stats:
+    - Special
+Attributes:
+  AccuracyReduction: 1
 Damage1: Special
 Damage2: ''
 Description: The Pokemon lets out an electric beam then uses the remaining charge

@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Freeze
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user shoots a freezing ray that greatly lowers the temperature of

@@ -1,6 +1,8 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects: {}
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The more exhausted the user is, the stronger this attack will become.

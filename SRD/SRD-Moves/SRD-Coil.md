@@ -1,6 +1,15 @@
 ---
 Accuracy1: Tough
 Accuracy2: Intimidate
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Strength
+    - Def
+    - Accuracy
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon curls up its body. In a calm but menacing position it prepares

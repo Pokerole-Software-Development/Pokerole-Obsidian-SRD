@@ -1,6 +1,9 @@
 ---
 Accuracy1: Insight
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  Recoil: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon has had a terrible day and has a very bad headache, try not

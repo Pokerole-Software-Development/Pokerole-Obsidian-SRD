@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  DoubleAction: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon strikes the foe with brutal blows.

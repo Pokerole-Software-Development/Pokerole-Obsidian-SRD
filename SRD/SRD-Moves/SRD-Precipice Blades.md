@@ -1,6 +1,11 @@
 ---
 Accuracy1: Strength
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 2
+  Lethal: true
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: Giant blades emerge from the earth with every step of the user. If you

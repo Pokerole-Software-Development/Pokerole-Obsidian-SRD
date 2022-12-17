@@ -2,8 +2,8 @@
 Ability1: Intrepid Sword
 Ability2: ''
 Baby: 'No'
-BookSprite: SRD-zacian-BookSprite.png
-BoxSprite: SRD-zacian-BoxSprite.png
+BookSprite: SRD-form-zacian-BookSprite.png
+BoxSprite: SRD-form-zacian-BoxSprite.png
 DexCategory: No Data
 DexDescription: "There is a legend about a mighty sword able to cut down anything\
   \ with a single strike, it became known as the Fairy King\u2019s Sword, and it inspired\
@@ -20,15 +20,15 @@ Height:
   Feet: 9.2
   Meters: 2.8
 HiddenAbility: ''
-HomeSprite: SRD-zacian-HomeSprite.png
+HomeSprite: SRD-form-zacian-HomeSprite.png
 Learnset: '[[SRD-Form Zacian-Learnset]]'
 Legendary: 'Yes'
 Name: Form Zacian
 Number: 888
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
-ShuffleToken: SRD-zacian-ShuffleToken.png
-Sprite: zacian.png
+ShuffleToken: SRD-form-zacian-ShuffleToken.png
+Sprite: form-zacian.png
 Type1: Fairy
 Type2: Steel
 Weight:
@@ -42,10 +42,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-zacian-BookSprite.png|wsmall]]
-> ![[SRD-zacian-HomeSprite.png]]
-> ![[SRD-zacian-BoxSprite.png|htiny]]
-> ![[SRD-zacian-ShuffleToken.png|wsmall]]
+> ![[SRD-form-zacian-BookSprite.png|wsmall]]
+> ![[SRD-form-zacian-HomeSprite.png]]
+> ![[SRD-form-zacian-BoxSprite.png|htiny]]
+> ![[SRD-form-zacian-ShuffleToken.png|wsmall]]
 
 
 *No Data*

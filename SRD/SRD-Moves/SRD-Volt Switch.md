@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  SwitcherMove: true
 Damage1: Special
 Damage2: ''
 Description: The User quickly shoots an electic jolt, then switches places with an

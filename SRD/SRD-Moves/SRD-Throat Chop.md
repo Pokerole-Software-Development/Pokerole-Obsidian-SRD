@@ -1,6 +1,11 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Silence
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: A heinous attack to a Pokemon's throat that will leave them unable to

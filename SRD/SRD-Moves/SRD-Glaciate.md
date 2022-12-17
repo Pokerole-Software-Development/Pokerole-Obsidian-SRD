@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Dexterity
+Attributes:
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: The air is so cold it hurts to move, to see, to breath. Escaping should

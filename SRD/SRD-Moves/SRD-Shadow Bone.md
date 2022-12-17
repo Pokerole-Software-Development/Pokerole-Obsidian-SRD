@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 2
+    Stages: -1
+    Stats:
+    - Def
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The bone that this Pokemon uses as a weapon contains a spirit, that spirit

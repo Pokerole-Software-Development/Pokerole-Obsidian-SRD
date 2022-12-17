@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  FistBased: true
+  NeverFail: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon punches through its own shadow. The attack comes out from

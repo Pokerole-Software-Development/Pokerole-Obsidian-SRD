@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  FixedDamage:
+    BasedOn: Hp
+    MaxValue: 10
+    Percentage: 0.5
+Attributes:
+  AccuracyReduction: 1
+  IgnoreDefenses: true
 Damage1: ''
 Damage2: ''
 Description: The Pokemon jumps at the foe to crush it with an awful bite.

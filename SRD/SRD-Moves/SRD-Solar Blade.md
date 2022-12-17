@@ -1,6 +1,9 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Charge: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon focuses the sunlight on its sharp leaves, then releases the

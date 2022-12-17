@@ -1,6 +1,8 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon shoots a heavy projectile, if the foe is under the effects

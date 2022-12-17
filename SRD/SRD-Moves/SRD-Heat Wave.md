@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Burn
+Attributes:
+  AccuracyReduction: 1
 Damage1: Special
 Damage2: ''
 Description: The user breathes a giant wave of incandescent air that might set fire

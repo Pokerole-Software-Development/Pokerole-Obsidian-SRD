@@ -1,6 +1,9 @@
 ---
 Accuracy1: Insight
 Accuracy2: Alert
+AddedEffects: {}
+Attributes:
+  ShieldMove: true
 Damage1: ''
 Damage2: ''
 Description: The user detects the intentions of the attacker and acts out to minimize

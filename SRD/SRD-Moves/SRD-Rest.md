@@ -1,6 +1,14 @@
 ---
 Accuracy1: Vitality
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: User
+    Rounds: 1
+    Type: Sleep
+  Heal:
+    Type: Complete
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user falls asleep. During this period the body benefits from a super

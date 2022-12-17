@@ -1,6 +1,8 @@
 ---
 Accuracy1: Clever
 Accuracy2: Perform
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon sends a psychic command to one of its allies or foes to enable

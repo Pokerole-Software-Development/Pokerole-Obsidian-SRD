@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Heal:
+    Percentage: 0.5
+    Type: Leech
+Attributes:
+  FistBased: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon strikes with a powerful punch. Through contact, it absorbs

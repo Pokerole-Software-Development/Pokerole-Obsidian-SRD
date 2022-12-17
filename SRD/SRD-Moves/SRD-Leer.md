@@ -1,6 +1,13 @@
 ---
 Accuracy1: Tough
 Accuracy2: Intimidate
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Def
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: A vicious glare that will make any opponent doubt its own strength in

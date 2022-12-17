@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Block
+Attributes:
+  AccuracyReduction: 1
+  BlockDamagePool: 2
 Damage1: Strength
 Damage2: ''
 Description: The user traps and crushes the opponent using its thick and sturdy shell.

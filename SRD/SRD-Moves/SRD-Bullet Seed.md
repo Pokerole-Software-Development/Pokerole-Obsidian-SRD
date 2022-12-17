@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  PhysicalRanged: true
+  SuccessiveActions: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon shoots seeds rapidly as if they were bullets.

@@ -1,6 +1,8 @@
 ---
 Accuracy1: ''
 Accuracy2: ''
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: Every Pokemon has an unknown power that can be released with surprising

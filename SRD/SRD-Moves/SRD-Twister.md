@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 2
+    Type: Flinch
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon lets out a spiral current that surrounds the foes. They can't

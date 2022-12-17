@@ -1,6 +1,13 @@
 ---
 Accuracy1: Vitality
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 2
+    Stats:
+    - Def
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon hardens its body surface as if it was made from the strongest

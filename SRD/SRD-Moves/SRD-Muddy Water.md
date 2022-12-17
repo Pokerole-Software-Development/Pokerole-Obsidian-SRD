@@ -1,6 +1,15 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 3
+    Stages: -1
+    Stats:
+    - Accuracy
+Attributes:
+  AccuracyReduction: 2
 Damage1: Special
 Damage2: ''
 Description: The user fills its mouth with dirt and spits a torrent of mud at the

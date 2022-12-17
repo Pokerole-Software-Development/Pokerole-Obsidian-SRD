@@ -1,6 +1,16 @@
 ---
 Accuracy1: Cool
 Accuracy2: Allure
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Confuse
+  StatChanges:
+  - Affects: Targets
+    Stages: 1
+    Stats:
+    - Special
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user starts flattering and admiring its opponent. It sure makes it

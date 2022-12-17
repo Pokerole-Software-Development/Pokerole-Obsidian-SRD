@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  HighCritical: true
 Damage1: Strength
 Damage2: ''
 Description: A large pincer strikes with the power of a hammer. The demolition power

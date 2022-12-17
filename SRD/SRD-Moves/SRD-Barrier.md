@@ -1,6 +1,13 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 2
+    Stats:
+    - Def
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user casts a protective field around itself.

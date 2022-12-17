@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  NeverFail: true
 Damage1: Special
 Damage2: ''
 Description: The user quickly releases jolts of electricity that are too fast for

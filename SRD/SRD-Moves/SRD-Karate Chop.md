@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  HighCritical: true
 Damage1: Strength
 Damage2: ''
 Description: A basic fighting chop that has been practiced and mastered.

@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  Rampage: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon starts swirling petals around in a true display of nature's

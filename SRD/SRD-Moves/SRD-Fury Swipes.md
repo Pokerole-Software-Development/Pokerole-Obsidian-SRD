@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  SuccessiveActions: true
 Damage1: Strength
 Damage2: ''
 Description: The user swiftly uses its claws to strike the foe multiple times.

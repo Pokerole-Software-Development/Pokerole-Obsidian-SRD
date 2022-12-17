@@ -1,6 +1,12 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Grounded
+  TerrainEffect: Gravity
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The gravity is intensified, bringing everyone to their knees. Flying

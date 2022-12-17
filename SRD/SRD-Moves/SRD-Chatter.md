@@ -1,6 +1,13 @@
 ---
 Accuracy1: Insight
 Accuracy2: Perform
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Confuse
+Attributes:
+  SoundBased: true
 Damage1: Special
 Damage2: ''
 Description: The user starts talking and giving orders in human language. It may be

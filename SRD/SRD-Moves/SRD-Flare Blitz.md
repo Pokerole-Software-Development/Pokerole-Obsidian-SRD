@@ -1,6 +1,13 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Burn3
+Attributes:
+  Recoil: true
 Damage1: Strength
 Damage2: ''
 Description: The user sets itself on fire, recklessly charging against the target

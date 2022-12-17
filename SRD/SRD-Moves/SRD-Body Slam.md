@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Paralyze
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The user charges against the foe using its body to knock it down, leaving

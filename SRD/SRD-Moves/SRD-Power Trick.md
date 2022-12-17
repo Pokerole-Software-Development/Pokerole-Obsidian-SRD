@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: PowerTrick
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user's mind is tricked into thinking that strength comes from their

@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 5
+    Type: Burn3
+Attributes:
+  Lethal: true
 Damage1: Strength
 Damage2: ''
 Description: A blazing pillar of rainbow-colored flames crashes upon the foe, it burns

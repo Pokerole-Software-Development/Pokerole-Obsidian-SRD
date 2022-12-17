@@ -1,6 +1,15 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 1
+    Stages: -1
+    Stats:
+    - SpDef
+Attributes:
+  AccuracyReduction: 2
 Damage1: Special
 Damage2: ''
 Description: The user concentrates and releases a blast of energy.

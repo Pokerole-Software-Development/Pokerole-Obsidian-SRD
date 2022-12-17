@@ -1,6 +1,14 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Def
+    - SpDef
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user absorbs power from space. This Pokemon glows faintly with energy

@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  HighCritical: true
 Damage1: Strength
 Damage2: ''
 Description: Claws become semi-ethereal and are able to briefly pierce armor, hide,

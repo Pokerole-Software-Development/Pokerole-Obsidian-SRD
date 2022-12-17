@@ -1,6 +1,13 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Def
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon withdraws to its shell then charges against the foe.

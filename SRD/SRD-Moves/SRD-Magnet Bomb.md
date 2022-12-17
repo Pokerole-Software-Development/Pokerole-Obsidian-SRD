@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  NeverFail: true
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon hurls a metal bomb that is attracted to the target like a

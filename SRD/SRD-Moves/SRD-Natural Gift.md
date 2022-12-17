@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The user throws its berry at the foe. The results can be quite surprising.

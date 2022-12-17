@@ -1,6 +1,8 @@
 ---
 Accuracy1: Cool
 Accuracy2: Etiquette
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user bows and courteously lets an ally or foe use their action first.

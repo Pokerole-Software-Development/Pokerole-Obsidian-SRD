@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Perform
+AddedEffects: {}
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon performa a dance. The dance's energy influences the Type

@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  FistBased: true
+  Priority: 1
 Damage1: Strength
 Damage2: ''
 Description: The user launches a punch so quickly that it's barely seen.

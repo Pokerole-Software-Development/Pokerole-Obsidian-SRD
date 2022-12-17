@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  HighCritical: true
 Damage1: Strength
 Damage2: ''
 Description: The user rotates its body imitating a drill and crashes against the foe.

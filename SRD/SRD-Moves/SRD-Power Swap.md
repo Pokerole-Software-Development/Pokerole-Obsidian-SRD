@@ -1,6 +1,13 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: PowerSwap
+  - Affects: User
+    Type: PowerSwap
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon employs its psychic power to make the opponent feel like

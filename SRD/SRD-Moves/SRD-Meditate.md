@@ -1,6 +1,13 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Strength
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon meditates to unleash a power that's been sleeping deep inside

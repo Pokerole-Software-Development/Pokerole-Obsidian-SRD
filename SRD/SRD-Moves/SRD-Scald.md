@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Burn
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user shoots a torrent of boiling water, it may leave the foe sopping

@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Charge: true
 Damage1: Strength
 Damage2: ''
 Description: The user carries the opponent to the sky, then drops the target from

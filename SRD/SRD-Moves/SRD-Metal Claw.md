@@ -1,6 +1,15 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    ChanceDice: 1
+    Stages: 1
+    Stats:
+    - Strength
+Attributes:
+  AccuracyReduction: 1
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon attacks using its sharp claws, the friction may leave them

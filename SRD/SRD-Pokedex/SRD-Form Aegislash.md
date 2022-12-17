@@ -2,8 +2,8 @@
 Ability1: Stance Change
 Ability2: ''
 Baby: 'No'
-BookSprite: SRD-aegislash-BookSprite.png
-BoxSprite: SRD-aegislash-BoxSprite.png
+BookSprite: SRD-form-aegislash-BookSprite.png
+BoxSprite: SRD-form-aegislash-BoxSprite.png
 DexCategory: Royal Sword Pokemon
 DexDescription: Those who wield this sword hear whispers of bloodlust and power. This
   cursed sword has the souls of those who fell by its blade. While in this form it
@@ -20,15 +20,15 @@ Height:
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
-HomeSprite: SRD-aegislash-HomeSprite.png
+HomeSprite: SRD-form-aegislash-HomeSprite.png
 Learnset: '[[SRD-Form Aegislash-Learnset]]'
 Legendary: 'No'
 Name: Form Aegislash
 Number: 681
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
-ShuffleToken: SRD-aegislash-ShuffleToken.png
-Sprite: aegislash.png
+ShuffleToken: SRD-form-aegislash-ShuffleToken.png
+Sprite: form-aegislash.png
 Type1: Steel
 Type2: Ghost
 Weight:
@@ -42,10 +42,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-aegislash-BookSprite.png|wsmall]]
-> ![[SRD-aegislash-HomeSprite.png]]
-> ![[SRD-aegislash-BoxSprite.png|htiny]]
-> ![[SRD-aegislash-ShuffleToken.png|wsmall]]
+> ![[SRD-form-aegislash-BookSprite.png|wsmall]]
+> ![[SRD-form-aegislash-HomeSprite.png]]
+> ![[SRD-form-aegislash-BoxSprite.png|htiny]]
+> ![[SRD-form-aegislash-ShuffleToken.png|wsmall]]
 
 
 *Royal Sword Pokemon*

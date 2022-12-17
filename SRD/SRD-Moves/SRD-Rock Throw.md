@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The user picks up a rock or pebble and throws it at the foe.

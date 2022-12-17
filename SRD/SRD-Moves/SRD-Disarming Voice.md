@@ -1,6 +1,10 @@
 ---
 Accuracy1: Insight
 Accuracy2: Perform
+AddedEffects: {}
+Attributes:
+  NeverFail: true
+  SoundBased: true
 Damage1: Special
 Damage2: ''
 Description: With a charming and manipulative cry, the user deals emotional damage

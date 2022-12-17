@@ -1,6 +1,8 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: Teleport the user and one more creature to a place of tranquility and

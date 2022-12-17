@@ -1,6 +1,18 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Block
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Def
+    - SpDef
+Attributes:
+  BlockDamagePool: 0
 Damage1: ''
 Damage2: ''
 Description: The user wraps its tentacles to immobilize the foe. Being so close enables

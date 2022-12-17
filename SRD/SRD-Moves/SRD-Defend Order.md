@@ -1,6 +1,14 @@
 ---
 Accuracy1: Tough
 Accuracy2: Nature
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: 1
+    Stats:
+    - Defense
+    - SpDefense
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: A swarm of bugs flies around the user, creating a barrier to protect

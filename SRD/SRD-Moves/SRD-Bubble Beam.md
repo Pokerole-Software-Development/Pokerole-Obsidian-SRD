@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 1
+    Stages: -1
+    Stats:
+    - Dexterity
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: A long stream of bubbles hits the foe, the bubble foam may prevent the

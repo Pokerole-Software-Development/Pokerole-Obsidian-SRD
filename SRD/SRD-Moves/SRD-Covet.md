@@ -1,6 +1,8 @@
 ---
 Accuracy1: Clever
 Accuracy2: Stealth
+AddedEffects: {}
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The User approaches with caution, deals a quick strike and takes the

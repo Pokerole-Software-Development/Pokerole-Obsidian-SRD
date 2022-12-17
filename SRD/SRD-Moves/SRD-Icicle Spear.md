@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  PhysicalRanged: true
+  SuccessiveActions: true
 Damage1: Strength
 Damage2: ''
 Description: The user launches a wave of small but pointy icicles towards the target.

@@ -1,6 +1,9 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  IgnoreDefenses: true
 Damage1: ''
 Damage2: ''
 Description: With pure willpower, the user struggles with its foe despite the pain

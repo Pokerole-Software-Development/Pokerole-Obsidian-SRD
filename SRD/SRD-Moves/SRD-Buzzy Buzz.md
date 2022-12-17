@@ -1,6 +1,11 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Paralyze
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon releases a jolt of static electricity from its fur, that

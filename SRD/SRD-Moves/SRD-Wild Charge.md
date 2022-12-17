@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Recoil: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon surrounds itself with wild botls of lightning, then tackles

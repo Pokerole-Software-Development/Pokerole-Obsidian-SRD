@@ -1,6 +1,11 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Perform
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Confuse
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user starts dancing around with wobbly movements. Friends and foes

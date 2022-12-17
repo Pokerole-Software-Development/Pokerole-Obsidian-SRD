@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Flinch
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user will surround the foe with razor-like wind that may knock it

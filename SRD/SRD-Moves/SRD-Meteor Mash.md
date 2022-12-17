@@ -1,6 +1,16 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    ChanceDice: 2
+    Stages: 1
+    Stats:
+    - Strength
+Attributes:
+  AccuracyReduction: 1
+  FistBased: true
 Damage1: Strength
 Damage2: ''
 Description: The user charges with a strong fist and strikes like a meteor.

@@ -1,6 +1,14 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  StatChanges:
+  - Affects: Target
+    Stages: 1
+    Stats:
+    - Def
+    - SpDef
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon showers an ally in a mist with a revitalizing armoa.

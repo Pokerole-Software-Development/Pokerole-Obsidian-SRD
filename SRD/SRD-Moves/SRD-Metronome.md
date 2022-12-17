@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Perform
+AddedEffects: {}
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon waves its hands with rhythm. The energy around follows the

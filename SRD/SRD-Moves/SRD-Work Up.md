@@ -1,6 +1,14 @@
 ---
 Accuracy1: Strength
 Accuracy2: Athletic
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Strength
+    - Special
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon excercises with vigor to be physically and mentally prepared

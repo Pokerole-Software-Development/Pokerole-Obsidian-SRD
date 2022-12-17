@@ -1,6 +1,13 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 3
+    Stats:
+    - Special
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user emits a strong light. This Pokemon will stare at its brightness

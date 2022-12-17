@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  NeverFail: true
 Damage1: Special
 Damage2: ''
 Description: The user shoots a star shaped light beam that hits the target at blinding

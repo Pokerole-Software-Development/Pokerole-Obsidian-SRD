@@ -1,6 +1,8 @@
 ---
 Accuracy1: ''
 Accuracy2: ''
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: After falling asleep, the Pokemon is still dreaming about the fight.

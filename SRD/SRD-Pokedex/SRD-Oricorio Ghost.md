@@ -2,8 +2,8 @@
 Ability1: Dancer
 Ability2: ''
 Baby: 'No'
-BookSprite: SRD-oricorio-BookSprite.png
-BoxSprite: SRD-oricorio-BoxSprite.png
+BookSprite: SRD-oricorio-ghost-BookSprite.png
+BoxSprite: SRD-oricorio-ghost-BoxSprite.png
 DexCategory: Dancing Pokemon
 DexDescription: What was thought to be different species ended up being a single Pokemon.
   Oricorio Sensu is calm and indifferent, its dance is said to attract evil spirits.
@@ -20,15 +20,15 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: ''
-HomeSprite: SRD-oricorio-HomeSprite.png
+HomeSprite: SRD-oricorio-ghost-HomeSprite.png
 Learnset: '[[SRD-Oricorio Ghost-Learnset]]'
 Legendary: 'No'
 Name: Oricorio Ghost
 Number: 741
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
-ShuffleToken: SRD-oricorio-ShuffleToken.png
-Sprite: oricorio.png
+ShuffleToken: SRD-oricorio-ghost-ShuffleToken.png
+Sprite: oricorio-ghost.png
 Type1: Ghost
 Type2: Flying
 Weight:
@@ -42,10 +42,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-oricorio-BookSprite.png|wsmall]]
-> ![[SRD-oricorio-HomeSprite.png]]
-> ![[SRD-oricorio-BoxSprite.png|htiny]]
-> ![[SRD-oricorio-ShuffleToken.png|wsmall]]
+> ![[SRD-oricorio-ghost-BookSprite.png|wsmall]]
+> ![[SRD-oricorio-ghost-HomeSprite.png]]
+> ![[SRD-oricorio-ghost-BoxSprite.png|htiny]]
+> ![[SRD-oricorio-ghost-ShuffleToken.png|wsmall]]
 
 
 *Dancing Pokemon*

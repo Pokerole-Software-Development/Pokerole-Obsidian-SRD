@@ -1,6 +1,11 @@
 ---
 Accuracy1: Beauty
 Accuracy2: Allure
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Infaturate
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user makes use of its good looks and attitude to infatuate its foe.

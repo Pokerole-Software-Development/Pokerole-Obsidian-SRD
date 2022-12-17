@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: After receiving damage, the user bursts the tiny but sharp metal piece

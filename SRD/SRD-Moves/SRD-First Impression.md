@@ -1,6 +1,9 @@
 ---
 Accuracy1: Strength
 Accuracy2: Intimidate
+AddedEffects: {}
+Attributes:
+  Priority: 2
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon makes a dramatic entrance to the battlefield, taking the

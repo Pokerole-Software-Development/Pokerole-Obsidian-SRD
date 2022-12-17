@@ -2,8 +2,8 @@
 Ability1: Sand Force
 Ability2: ''
 Baby: 'No'
-BookSprite: SRD-landorus-BookSprite.png
-BoxSprite: SRD-landorus-BoxSprite.png
+BookSprite: SRD-landorus-form-BookSprite.png
+BoxSprite: SRD-landorus-form-BoxSprite.png
 DexCategory: No Data
 DexDescription: Some Pokemon reveal their true forms after recovering power lost to
   them. Great forces of nature can help them recover their strength such as Tornadoes,
@@ -20,15 +20,15 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Sheer Force
-HomeSprite: SRD-landorus-HomeSprite.png
+HomeSprite: SRD-landorus-form-HomeSprite.png
 Learnset: '[[SRD-Form Landorus-Learnset]]'
 Legendary: 'Yes'
 Name: Form Landorus
 Number: 645
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
-ShuffleToken: SRD-landorus-ShuffleToken.png
-Sprite: landorus.png
+ShuffleToken: SRD-landorus-form-ShuffleToken.png
+Sprite: landorus-form.png
 Type1: Ground
 Type2: Flying
 Weight:
@@ -42,10 +42,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-landorus-BookSprite.png|wsmall]]
-> ![[SRD-landorus-HomeSprite.png]]
-> ![[SRD-landorus-BoxSprite.png|htiny]]
-> ![[SRD-landorus-ShuffleToken.png|wsmall]]
+> ![[SRD-landorus-form-BookSprite.png|wsmall]]
+> ![[SRD-landorus-form-HomeSprite.png]]
+> ![[SRD-landorus-form-BoxSprite.png|htiny]]
+> ![[SRD-landorus-form-ShuffleToken.png|wsmall]]
 
 
 *No Data*

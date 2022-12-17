@@ -1,6 +1,10 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  Priority: 5
+  ShieldMove: true
 Damage1: ''
 Damage2: ''
 Description: The user creates an energy shield to deflect a blow. Some Pokemon may

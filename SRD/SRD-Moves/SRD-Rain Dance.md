@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  TerrainEffect: Rain
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user performs a curious mystic dance that summons a heavy rainfall.

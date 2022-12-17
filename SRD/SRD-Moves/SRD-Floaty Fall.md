@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Flinch
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: With the help of some air balloons, the user jumps up high and falls

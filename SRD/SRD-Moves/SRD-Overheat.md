@@ -1,6 +1,15 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: -2
+    Stats:
+    - Special
+Attributes:
+  AccuracyReduction: 1
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: A furious wave of scorching fire that will turn to ashes everything it

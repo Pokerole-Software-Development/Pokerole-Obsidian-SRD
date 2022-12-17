@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Confuse
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon attacks with a pulsing blast of water, this leaves the foe

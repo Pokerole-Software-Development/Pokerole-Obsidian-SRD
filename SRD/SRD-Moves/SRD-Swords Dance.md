@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Perform
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 2
+    Stats:
+    - Strength
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon makes a dance that raises its battle spirit.

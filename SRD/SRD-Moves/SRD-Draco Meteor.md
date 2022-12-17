@@ -1,6 +1,15 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: -2
+    Stats:
+    - Special
+Attributes:
+  AccuracyReduction: 1
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon calls a comet that falls from the sky to deal a brutal amount

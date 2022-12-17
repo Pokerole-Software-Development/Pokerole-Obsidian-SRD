@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Safeguard
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon creates an energy shield that protects everyone from harm.

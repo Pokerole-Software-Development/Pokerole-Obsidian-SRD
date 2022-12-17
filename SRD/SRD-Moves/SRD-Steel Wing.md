@@ -1,6 +1,15 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    ChanceDice: 1
+    Stages: 1
+    Stats:
+    - Def
+Attributes:
+  AccuracyReduction: 1
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its sharp feathers as if they were razors.

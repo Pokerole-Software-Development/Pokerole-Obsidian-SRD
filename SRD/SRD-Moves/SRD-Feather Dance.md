@@ -1,6 +1,13 @@
 ---
 Accuracy1: Beauty
 Accuracy2: Perform
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -2
+    Stats:
+    - Strength
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: A beautiful dance that soothes the hearts of those who watch it, reducing

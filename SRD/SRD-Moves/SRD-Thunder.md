@@ -1,6 +1,14 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Paralyze
+Attributes:
+  AccuracyReduction: 2
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon commands a tremendous lightning to strike a specific point

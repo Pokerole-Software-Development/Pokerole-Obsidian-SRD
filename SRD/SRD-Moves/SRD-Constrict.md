@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Block
+Attributes:
+  BlockDamagePool: 2
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its body to hold and constrict the foe. It won't let

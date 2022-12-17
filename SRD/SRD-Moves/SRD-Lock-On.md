@@ -1,6 +1,11 @@
 ---
 Accuracy1: Insight
 Accuracy2: Alert
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: LockOn
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon's eyes zoom at a moving target to ensure that the next attack

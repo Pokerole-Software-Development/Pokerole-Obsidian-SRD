@@ -1,6 +1,8 @@
 ---
 Accuracy1: Clever
 Accuracy2: Stealth
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user analyzes the advantages of the foe then makes them their own.

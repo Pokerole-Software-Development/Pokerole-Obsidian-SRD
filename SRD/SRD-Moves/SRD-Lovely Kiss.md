@@ -1,6 +1,11 @@
 ---
 Accuracy1: Missing beauty
 Accuracy2: ALLURE
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Sleep
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon approaches the foe with a kiss. Its ugly face and awful smooch

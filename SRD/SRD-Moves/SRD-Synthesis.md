@@ -1,6 +1,10 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  Heal:
+    Type: Basic
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses the sunlight as energy to regain its vitality.

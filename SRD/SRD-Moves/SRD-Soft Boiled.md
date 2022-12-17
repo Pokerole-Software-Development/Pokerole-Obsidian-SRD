@@ -1,6 +1,10 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  Heal:
+    Type: Basic
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user boils a freshly layed egg and restores Health with the energy

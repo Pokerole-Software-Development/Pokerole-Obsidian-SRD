@@ -1,6 +1,9 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Lethal: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon grips the foe and starts crushing it. Small targets are difficult

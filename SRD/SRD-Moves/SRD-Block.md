@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Block
+Attributes:
+  BlockDamagePool: 0
 Damage1: ''
 Damage2: ''
 Description: The user moves swiftly, blocking the escape routes of the foe.

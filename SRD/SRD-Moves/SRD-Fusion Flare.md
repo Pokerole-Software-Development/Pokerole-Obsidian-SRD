@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon sets ablaze a swirling pillar upon the target, said pillar

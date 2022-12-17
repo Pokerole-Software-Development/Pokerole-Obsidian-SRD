@@ -1,6 +1,12 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    TargetType: Water
+    Type: ChangedType
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user shoots a stream of water and moisture that clings to the foe's

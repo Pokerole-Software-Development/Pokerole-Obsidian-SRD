@@ -1,6 +1,13 @@
 ---
 Accuracy1: Special
 Accuracy2: Perform
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Sleep
+Attributes:
+  SoundBased: true
 Damage1: Special
 Damage2: ''
 Description: The user sings and dances to a melody so beautiful you won't notice you

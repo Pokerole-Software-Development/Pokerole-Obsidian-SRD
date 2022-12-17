@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  NeverFail: true
+  Priority: -1
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon awaits for the perfect moment to strike the foe.

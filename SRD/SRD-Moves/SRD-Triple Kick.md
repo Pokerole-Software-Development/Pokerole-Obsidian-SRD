@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  SuccessiveActions: true
 Damage1: Strength
 Damage2: ''
 Description: The user throws three or more kicks, leaving the harder blow for the

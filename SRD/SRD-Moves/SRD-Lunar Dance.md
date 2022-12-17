@@ -1,6 +1,9 @@
 ---
 Accuracy1: Insight
 Accuracy2: Perform
+AddedEffects: {}
+Attributes:
+  UserFaints: true
 Damage1: ''
 Damage2: ''
 Description: The moon shines at the darkest hours, reflecting the sun's lifebringer

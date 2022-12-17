@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Stealth
+AddedEffects:
+  TerrainEffect: ToxicSpikes
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user lays a trap of scattered poison spikes that attach to the opponent's

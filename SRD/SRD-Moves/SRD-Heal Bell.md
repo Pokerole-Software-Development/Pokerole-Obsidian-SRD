@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Perform
+AddedEffects:
+  AilmentHeal:
+  - All
+Attributes:
+  SoundBased: true
 Damage1: ''
 Damage2: ''
 Description: The Pokemon chimes a magical bell. Legend says the soothing sound has

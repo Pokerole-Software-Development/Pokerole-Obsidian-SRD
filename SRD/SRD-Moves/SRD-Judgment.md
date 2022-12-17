@@ -1,6 +1,9 @@
 ---
 Accuracy1: Insight
 Accuracy2: Intimidate
+AddedEffects: {}
+Attributes:
+  IgnoreDefenses: true
 Damage1: Special
 Damage2: ''
 Description: Eventually, everyone gets what they deserve.

@@ -1,6 +1,13 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: PowerSplit
+  - Affects: User
+    Type: PowerSplit
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user employs its psychic power to average its capabilities with the

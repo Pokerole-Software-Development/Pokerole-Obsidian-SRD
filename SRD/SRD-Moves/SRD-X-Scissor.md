@@ -1,6 +1,8 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its scythes or claws as if they were a pair of scissors

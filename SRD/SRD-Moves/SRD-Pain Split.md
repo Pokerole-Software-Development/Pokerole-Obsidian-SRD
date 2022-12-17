@@ -1,6 +1,13 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: User
+    Type: PainSplitUser
+  - Affects: Targets
+    Type: PainSplitTarget
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user shares its pain with the foe. After a short while it becomes

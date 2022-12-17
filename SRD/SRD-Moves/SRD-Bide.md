@@ -1,6 +1,11 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: User
+    Type: Bide
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user endures the hit then unleashes an attack even greater.

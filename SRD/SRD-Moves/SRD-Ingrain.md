@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Ingrain
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon roots itself to the ground, absorbing the nutrients and recovering

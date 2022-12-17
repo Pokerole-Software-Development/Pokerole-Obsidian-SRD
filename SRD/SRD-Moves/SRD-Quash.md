@@ -1,6 +1,8 @@
 ---
 Accuracy1: Tough
 Accuracy2: Intimidate
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user represses the foe with intimidation so it has to think twice

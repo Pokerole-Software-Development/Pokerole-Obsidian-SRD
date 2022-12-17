@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Priority: 1
 Damage1: Strength
 Damage2: ''
 Description: The user propels itself with a blast of water and strikes at high speed.

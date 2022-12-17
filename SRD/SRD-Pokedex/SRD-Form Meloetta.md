@@ -2,8 +2,8 @@
 Ability1: Serene Grace
 Ability2: ''
 Baby: 'No'
-BookSprite: SRD-meloetta-BookSprite.png
-BoxSprite: SRD-meloetta-BoxSprite.png
+BookSprite: SRD-form-meloetta-BookSprite.png
+BoxSprite: SRD-form-meloetta-BoxSprite.png
 DexCategory: No Data
 DexDescription: There are old songs about a beautiful Pokemon that inspired the hearts
   of artists through its graceful dance and singing.
@@ -19,15 +19,15 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: ''
-HomeSprite: SRD-meloetta-HomeSprite.png
+HomeSprite: SRD-form-meloetta-HomeSprite.png
 Learnset: '[[SRD-Form Meloetta-Learnset]]'
 Legendary: 'Yes'
 Name: Form Meloetta
 Number: 648
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
-ShuffleToken: SRD-meloetta-ShuffleToken.png
-Sprite: meloetta.png
+ShuffleToken: SRD-form-meloetta-ShuffleToken.png
+Sprite: form-meloetta.png
 Type1: Normal
 Type2: Fighting
 Weight:
@@ -41,10 +41,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-meloetta-BookSprite.png|wsmall]]
-> ![[SRD-meloetta-HomeSprite.png]]
-> ![[SRD-meloetta-BoxSprite.png|htiny]]
-> ![[SRD-meloetta-ShuffleToken.png|wsmall]]
+> ![[SRD-form-meloetta-BookSprite.png|wsmall]]
+> ![[SRD-form-meloetta-HomeSprite.png]]
+> ![[SRD-form-meloetta-BoxSprite.png|htiny]]
+> ![[SRD-form-meloetta-ShuffleToken.png|wsmall]]
 
 
 *No Data*

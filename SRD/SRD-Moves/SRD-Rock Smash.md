@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 5
+    Stages: -1
+    Stats:
+    - Def
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: A powerful hit that can crush rocks. Used against a foe it is sure to

@@ -1,6 +1,8 @@
 ---
 Accuracy1: Cool
 Accuracy2: Perform
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon dances with a catchy rhythm. The target starts dancing too

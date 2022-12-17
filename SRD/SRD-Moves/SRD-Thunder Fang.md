@@ -1,6 +1,15 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 2
+    Type: Flinch
+  - Affects: Targets
+    ChanceDice: 2
+    Type: Paralyze
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The user lands an electrified bite on the foe. The direct current may

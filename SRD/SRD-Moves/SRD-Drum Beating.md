@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Perform
+AddedEffects:
+  StatChanges:
+  - Affects: Target
+    Stages: 1
+    Stats:
+    - Dexterity
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon has a perfectly good drum and you'd think it would use it.

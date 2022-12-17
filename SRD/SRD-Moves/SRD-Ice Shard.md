@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  PhysicalRanged: true
+  Priority: 1
 Damage1: Strength
 Damage2: ''
 Description: The user quickly freezes some bits of ice and throws them at the target.

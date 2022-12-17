@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: -1
+    Stats:
+    - Dexterity
+Attributes:
+  AccuracyReduction: 1
 Damage1: Strength
 Damage2: ''
 Description: A mighty arm thrust that leaves the user quite tired.

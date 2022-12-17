@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  AlwaysCrit: true
 Damage1: Special
 Damage2: ''
 Description: The user shoots a gelid breath against the target that sends a chill

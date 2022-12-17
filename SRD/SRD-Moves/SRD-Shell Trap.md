@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Stealth
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: ShellTrap
+Attributes:
+  Priority: -3
 Damage1: Special
 Damage2: ''
 Description: It apparently just buries underground, but secretely the Pokemon prepares

@@ -1,6 +1,11 @@
 ---
 Accuracy1: Tough
 Accuracy2: Intimidate
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Taunt
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user mocks and teases the target to make it attack in a raging fury.

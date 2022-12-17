@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  IgnoreDefenses: true
 Damage1: Strength
 Damage2: ''
 Description: The user looks for an opening and strikes directly there. It nibbles

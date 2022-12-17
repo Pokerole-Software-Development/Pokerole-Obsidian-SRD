@@ -1,6 +1,14 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Poison
+Attributes:
+  AccuracyReduction: 2
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon shoots a stream of corrosive sludge made with the most toxic

@@ -1,6 +1,8 @@
 ---
 Accuracy1: Clever
 Accuracy2: Perform
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon hurriedly remembers one action performed by a partner. Some

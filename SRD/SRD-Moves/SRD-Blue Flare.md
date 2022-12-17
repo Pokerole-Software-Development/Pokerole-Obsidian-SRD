@@ -1,6 +1,13 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 2
+    Type: Burn3
+Attributes:
+  AccuracyReduction: 2
 Damage1: Special
 Damage2: ''
 Description: Reshiram surrounds itself with a giant blue flame that is unleashed with

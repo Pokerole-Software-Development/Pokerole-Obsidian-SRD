@@ -1,6 +1,11 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  PhysicalRanged: true
+  SuccessiveActions: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon Throws many round objects at the target, one after the other.

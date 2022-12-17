@@ -1,6 +1,8 @@
 ---
 Accuracy1: Clever
 Accuracy2: Etiquette
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon signals the referee for half-time, the referee complies and

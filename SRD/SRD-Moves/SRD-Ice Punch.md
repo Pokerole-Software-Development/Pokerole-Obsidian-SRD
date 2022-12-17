@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Freeze
+Attributes:
+  FistBased: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon delivers a strike covered in ice. The user's hands can freeze

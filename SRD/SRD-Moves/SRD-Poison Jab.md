@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Poison
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon stabs its foe with a sting or tentacle drenched with venom.

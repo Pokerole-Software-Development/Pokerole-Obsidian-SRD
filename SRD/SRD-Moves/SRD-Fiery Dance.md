@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Perform
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    ChanceDice: 5
+    Stages: 1
+    Stats:
+    - Special
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user cloaks itself in flames and shoots them while dancing gracefully.

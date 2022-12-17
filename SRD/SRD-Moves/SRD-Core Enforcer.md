@@ -1,6 +1,8 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: Zygarde shoots a beam that fractures the target to its core, rendering

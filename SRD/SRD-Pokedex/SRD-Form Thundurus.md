@@ -2,8 +2,8 @@
 Ability1: Prankster
 Ability2: ''
 Baby: 'No'
-BookSprite: SRD-thundurus-BookSprite.png
-BoxSprite: SRD-thundurus-BoxSprite.png
+BookSprite: SRD-form-thundurus-BookSprite.png
+BoxSprite: SRD-form-thundurus-BoxSprite.png
 DexCategory: No Data
 DexDescription: Some Pokemon reveal their true forms after recovering power lost to
   them. Great forces of nature can help them recover their strength such as Tornadoes,
@@ -20,15 +20,15 @@ Height:
   Feet: 9.8
   Meters: 3.0
 HiddenAbility: Defiant
-HomeSprite: SRD-thundurus-HomeSprite.png
+HomeSprite: SRD-form-thundurus-HomeSprite.png
 Learnset: '[[SRD-Form Thundurus-Learnset]]'
 Legendary: 'Yes'
 Name: Form Thundurus
 Number: 642
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
-ShuffleToken: SRD-thundurus-ShuffleToken.png
-Sprite: thundurus.png
+ShuffleToken: SRD-form-thundurus-ShuffleToken.png
+Sprite: form-thundurus.png
 Type1: Electric
 Type2: Flying
 Weight:
@@ -42,10 +42,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-thundurus-BookSprite.png|wsmall]]
-> ![[SRD-thundurus-HomeSprite.png]]
-> ![[SRD-thundurus-BoxSprite.png|htiny]]
-> ![[SRD-thundurus-ShuffleToken.png|wsmall]]
+> ![[SRD-form-thundurus-BookSprite.png|wsmall]]
+> ![[SRD-form-thundurus-HomeSprite.png]]
+> ![[SRD-form-thundurus-BoxSprite.png|htiny]]
+> ![[SRD-form-thundurus-ShuffleToken.png|wsmall]]
 
 
 *No Data*

@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 2
+    Type: Confuse
+Attributes:
+  FistBased: true
 Damage1: Strength
 Damage2: ''
 Description: A swift punch to the jaw that spins the target and may leave it quite

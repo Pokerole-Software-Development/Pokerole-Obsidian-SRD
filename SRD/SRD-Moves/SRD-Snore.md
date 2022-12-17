@@ -1,6 +1,13 @@
 ---
 Accuracy1: Special
 Accuracy2: Perform
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Flinch
+Attributes:
+  SoundBased: true
 Damage1: Special
 Damage2: ''
 Description: After falling asleep the user lets out a powerful snore, disrupting any

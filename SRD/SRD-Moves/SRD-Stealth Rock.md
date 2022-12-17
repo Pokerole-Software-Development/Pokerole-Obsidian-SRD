@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Stealth
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon hides sharp and point rocks all over the foe's side of the

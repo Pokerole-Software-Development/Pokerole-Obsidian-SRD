@@ -1,6 +1,14 @@
 ---
 Accuracy1: Insight
 Accuracy2: Perform
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Special
+Attributes:
+  SoundBased: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon viciously snarls showing its teeth. Its menacing look will

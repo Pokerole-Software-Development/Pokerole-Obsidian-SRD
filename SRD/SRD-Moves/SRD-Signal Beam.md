@@ -1,6 +1,12 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Confuse
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user emits an intense light that harms the foes and may leave them

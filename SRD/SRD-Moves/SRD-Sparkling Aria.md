@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Perform
+AddedEffects: {}
+Attributes:
+  SoundBased: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon sings a beautiful melody, the song comes out as a sparkling

@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Burn2
+Attributes:
+  FistBased: true
 Damage1: Strength
 Damage2: ''
 Description: The User can ignite its fists for a brief moment without any danger of

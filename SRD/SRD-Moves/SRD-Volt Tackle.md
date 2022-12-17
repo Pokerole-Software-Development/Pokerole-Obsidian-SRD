@@ -1,6 +1,13 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Paralyze
+Attributes:
+  Recoil: true
 Damage1: Strength
 Damage2: ''
 Description: The user surrounds itself with big bolts of electricity, then it crashes

@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  TerrainEffect: GrassyTerrain
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon calls upon the healing power of nature to grow a patch of

@@ -1,6 +1,15 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 5
+    Stages: -2
+    Stats:
+    - Def
+Attributes:
+  Lethal: true
 Damage1: Strength
 Damage2: ''
 Description: The user crushes its claws against the foe, it may pierce the skin of

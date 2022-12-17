@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  Priority: 1
 Damage1: Special
 Damage2: ''
 Description: The user pulls the enemy closer using the power of its ki. This traction

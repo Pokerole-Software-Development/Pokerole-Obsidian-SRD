@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: SpedUp
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon compacts its body, appearing smaller than its normal size.

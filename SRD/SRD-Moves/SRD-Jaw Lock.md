@@ -1,6 +1,13 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Block
+  - Affects: User
+    Type: Block
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The user will capture its foe in a crushing jaw grip. It won't let go

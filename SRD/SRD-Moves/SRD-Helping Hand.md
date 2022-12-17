@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Perform
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: HelpingHand
+Attributes:
+  Priority: 5
 Damage1: ''
 Damage2: ''
 Description: The Pokemon assists an ally. Together they are stronger.

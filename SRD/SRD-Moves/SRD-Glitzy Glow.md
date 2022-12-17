@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: GlitzyGlow
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user surrounds itself with a glamorous light, releasing it as a psychic

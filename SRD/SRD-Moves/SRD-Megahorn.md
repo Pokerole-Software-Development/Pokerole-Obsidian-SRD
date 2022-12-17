@@ -1,6 +1,10 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 2
+  Lethal: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its strong horn(s) to pierce its foe and deal massive

@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Strength
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The user strikes with an intense and alluring kick.

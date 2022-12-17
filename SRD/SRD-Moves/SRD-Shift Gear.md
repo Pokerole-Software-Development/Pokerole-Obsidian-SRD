@@ -1,6 +1,17 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Target
+    Stages: 1
+    Stats:
+    - Strength
+  - Affects: Target
+    Stages: 2
+    Stats:
+    - Dexterity
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon has its gears rotate quickly,. Working like a powerful machine.

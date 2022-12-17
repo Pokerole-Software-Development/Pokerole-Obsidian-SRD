@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Dexterity
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon chants to invoke the power of Grass. Its pledge is heard

@@ -1,6 +1,13 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Accuracy
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: A basic psychic power to exert force on objects. You can touch, move,

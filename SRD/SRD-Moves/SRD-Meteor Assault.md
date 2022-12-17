@@ -1,6 +1,11 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  Lethal: true
+  MustRecharge: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon will make an incredible jump to the sky, then lunge towards

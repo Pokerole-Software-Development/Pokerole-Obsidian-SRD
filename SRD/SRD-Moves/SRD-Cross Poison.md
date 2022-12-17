@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Poison
+Attributes:
+  HighCritical: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon drenches poison into its pincers to slash the enemy in a

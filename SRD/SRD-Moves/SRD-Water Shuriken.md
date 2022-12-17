@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  Priority: 1
+  SuccessiveActions: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon quickly throws sharp jets of water in the shape of a shuriken.

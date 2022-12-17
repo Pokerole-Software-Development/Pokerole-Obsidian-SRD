@@ -1,6 +1,12 @@
 ---
 Accuracy1: Tough
 Accuracy2: Intimidate
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Block
+Attributes:
+  BlockDamagePool: 0
 Damage1: ''
 Damage2: ''
 Description: The Pokemon gives a menacing look that freezes the foe on the spot with

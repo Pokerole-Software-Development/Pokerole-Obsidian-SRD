@@ -1,6 +1,13 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 2
+    Stats:
+    - Def
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: A liquid acid substance seeps through this Pokemon's body turning it

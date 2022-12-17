@@ -1,6 +1,13 @@
 ---
 Accuracy1: Vitality
 Accuracy2: Nature
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Def
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user stiffins its body and prepares for any incoming attack.

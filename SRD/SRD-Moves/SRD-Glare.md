@@ -1,6 +1,12 @@
 ---
 Accuracy1: Tough
 Accuracy2: Intimidate
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Paralyze
+Attributes:
+  AccuracyReduction: 1
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses its intimidating glare to paralyze the foe with sheer

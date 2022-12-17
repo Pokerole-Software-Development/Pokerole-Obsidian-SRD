@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: A fierce burst of lava coming from the user at full force charring whatever

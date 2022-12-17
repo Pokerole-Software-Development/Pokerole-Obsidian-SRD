@@ -2,8 +2,8 @@
 Ability1: Regenerator
 Ability2: ''
 Baby: 'No'
-BookSprite: SRD-tornadus-BookSprite.png
-BoxSprite: SRD-tornadus-BoxSprite.png
+BookSprite: SRD-form-tornadus-BookSprite.png
+BoxSprite: SRD-form-tornadus-BoxSprite.png
 DexCategory: No Data
 DexDescription: Some Pokemon reveal their true forms after recovering power lost to
   them. Great forces of nature can help them recover their strength such as Tornadoes,
@@ -20,15 +20,15 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: ''
-HomeSprite: SRD-tornadus-HomeSprite.png
+HomeSprite: SRD-form-tornadus-HomeSprite.png
 Learnset: '[[SRD-Form Tornadus-Learnset]]'
 Legendary: 'Yes'
 Name: Form Tornadus
 Number: 641
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
-ShuffleToken: SRD-tornadus-ShuffleToken.png
-Sprite: tornadus.png
+ShuffleToken: SRD-form-tornadus-ShuffleToken.png
+Sprite: form-tornadus.png
 Type1: Flying
 Type2: ''
 Weight:
@@ -42,10 +42,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-tornadus-BookSprite.png|wsmall]]
-> ![[SRD-tornadus-HomeSprite.png]]
-> ![[SRD-tornadus-BoxSprite.png|htiny]]
-> ![[SRD-tornadus-ShuffleToken.png|wsmall]]
+> ![[SRD-form-tornadus-BookSprite.png|wsmall]]
+> ![[SRD-form-tornadus-HomeSprite.png]]
+> ![[SRD-form-tornadus-BoxSprite.png|htiny]]
+> ![[SRD-form-tornadus-ShuffleToken.png|wsmall]]
 
 
 *No Data*

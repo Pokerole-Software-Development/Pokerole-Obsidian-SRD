@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 2
+  SuccessiveActions: true
 Damage1: Strength
 Damage2: ''
 Description: The user attacks its foe with two or more slaps in the face.

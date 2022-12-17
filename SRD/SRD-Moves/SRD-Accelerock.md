@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Priority: 1
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon dashes at great speed using the rocks on its body to strike

@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: A laser briefly beams away from the Pokemon, whatever it hits explodes

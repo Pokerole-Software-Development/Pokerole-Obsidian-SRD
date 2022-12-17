@@ -1,6 +1,14 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects:
+  AilmentHeal:
+  - All
+  Heal:
+    RequiresWill: false
+    Type: Complete
+Attributes:
+  UserFaints: true
 Damage1: ''
 Damage2: ''
 Description: The power of ultimate love and sacrifice. The user wishes to completely

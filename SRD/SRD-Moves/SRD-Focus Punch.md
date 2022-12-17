@@ -1,6 +1,10 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Charge: true
+  FistBased: true
 Damage1: Strength
 Damage2: ''
 Description: A brutal punch that requires calm and concentration

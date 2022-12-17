@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Flinch
+Attributes:
+  Priority: 1
 Damage1: Strength
 Damage2: ''
 Description: While still preparing for battle, the user will suddenly attack the foe.

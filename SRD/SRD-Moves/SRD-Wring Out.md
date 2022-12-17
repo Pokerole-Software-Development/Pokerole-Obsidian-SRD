@@ -1,6 +1,8 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon literally squeezes the life out of its target. As life is

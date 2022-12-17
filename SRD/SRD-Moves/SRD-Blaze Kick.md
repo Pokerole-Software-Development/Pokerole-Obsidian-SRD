@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 2
+    Type: Burn2
+Attributes:
+  AccuracyReduction: 1
+  HighCritical: true
 Damage1: Strength
 Damage2: ''
 Description: The user throws a mighty kick engulfed in fire that may leave a bad looking

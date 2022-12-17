@@ -1,6 +1,8 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses a mysterious power that causes flowers to bloom beneath

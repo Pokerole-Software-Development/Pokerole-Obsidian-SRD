@@ -1,6 +1,13 @@
 ---
 Accuracy1: Cute
 Accuracy2: Allure
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Special
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon tells a secret to the target. The foe loses its ability to

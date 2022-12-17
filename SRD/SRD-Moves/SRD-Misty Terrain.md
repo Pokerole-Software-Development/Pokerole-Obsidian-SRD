@@ -1,6 +1,9 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  TerrainEffect: MistyTerrain
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user surrounds the battlefield with a mystical mist that feels protective.

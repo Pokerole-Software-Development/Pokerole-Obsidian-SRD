@@ -1,6 +1,12 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 2
+    Type: Confuse
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user releases an addictive sweet-smelling steam, do not be fooled

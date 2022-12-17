@@ -1,6 +1,8 @@
 ---
 Accuracy1: Vitality
 Accuracy2: Nature
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: One Pokemon's trash is another one's treasure.

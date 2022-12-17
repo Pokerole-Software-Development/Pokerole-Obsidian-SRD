@@ -1,6 +1,9 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Recoil: true
 Damage1: Strength
 Damage2: ''
 Description: The user recklessly slams its foe to deal a lot of damage, but it may

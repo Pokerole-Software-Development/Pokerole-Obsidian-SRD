@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Priority: 1
 Damage1: ''
 Damage2: ''
 Description: The user anticipates the next attack so it can hit the target with an

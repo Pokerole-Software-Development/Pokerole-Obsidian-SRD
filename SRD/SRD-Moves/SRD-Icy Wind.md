@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Dexterity
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: A breeze so cold that it chills you to the bone, making it harder to

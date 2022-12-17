@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Nature
+AddedEffects: {}
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user creates a ball of energy that will use the climate around it

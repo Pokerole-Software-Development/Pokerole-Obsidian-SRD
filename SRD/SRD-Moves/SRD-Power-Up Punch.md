@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Strength
+Attributes:
+  FistBased: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses this punch to test the surface of an object. The user

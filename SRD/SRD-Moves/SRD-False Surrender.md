@@ -1,6 +1,9 @@
 ---
 Accuracy1: Insight
 Accuracy2: Allure
+AddedEffects: {}
+Attributes:
+  NeverFail: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon bows in defeat, begging for forgiveness, then backstabs its

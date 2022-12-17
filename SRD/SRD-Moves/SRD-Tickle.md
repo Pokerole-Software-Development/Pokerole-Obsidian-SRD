@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Strength
+    - Def
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon tickles the foe. The laughter really disturbs the foe's fighting

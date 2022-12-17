@@ -1,6 +1,11 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Float
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses the magnetic field of the earth to repel itself from

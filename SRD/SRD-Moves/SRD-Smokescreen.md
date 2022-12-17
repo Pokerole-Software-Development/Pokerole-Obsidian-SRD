@@ -1,6 +1,13 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Accuracy
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user convers its foe with a cloud of smoke. Some Pokemon hide inside

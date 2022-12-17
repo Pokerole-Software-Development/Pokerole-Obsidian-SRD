@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  Charge: true
 Damage1: Special
 Damage2: ''
 Description: The user focuses the sunlight it has absorbed into a powerful and devastating

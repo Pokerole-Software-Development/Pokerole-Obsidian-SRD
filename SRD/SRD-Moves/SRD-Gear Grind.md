@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  DoubleAction: true
 Damage1: Strength
 Damage2: ''
 Description: The user traps the foe between its gears and crushes it with two painful

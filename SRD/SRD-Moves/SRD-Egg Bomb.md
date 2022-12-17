@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 2
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The user throws a big egg with great force against its foe.

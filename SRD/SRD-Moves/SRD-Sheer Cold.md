@@ -1,6 +1,13 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  FixedDamage:
+    BasedOn: Hp
+    Percentage: 1
+Attributes:
+  AccuracyReduction: 5
+  Lethal: true
 Damage1: ''
 Damage2: ''
 Description: The user freezes the foe from the inside out. Victims of this attack

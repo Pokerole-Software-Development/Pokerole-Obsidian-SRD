@@ -1,6 +1,14 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 5
+    Stages: -1
+    Stats:
+    - SpDef
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user engulfs itself in a blinding light and shoots a beam at its

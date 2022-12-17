@@ -1,6 +1,11 @@
 ---
 Accuracy1: Insight
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: MindReader
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user reads the foe's mind. It knows exactly what to do next.

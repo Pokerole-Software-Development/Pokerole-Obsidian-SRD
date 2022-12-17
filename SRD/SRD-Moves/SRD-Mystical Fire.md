@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Special
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: This mystical fire not only burns the foe, it also drains its power.

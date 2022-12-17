@@ -1,6 +1,11 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Burn
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The user slides on the floor as if it was ice-skating, only there is

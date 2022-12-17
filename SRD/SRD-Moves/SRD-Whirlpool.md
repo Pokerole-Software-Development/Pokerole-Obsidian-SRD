@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Block
+Attributes:
+  AccuracyReduction: 2
+  BlockDamagePool: 2
 Damage1: Special
 Damage2: ''
 Description: Trap the foe inside a violent swirling whirlpool that makes the foe unable

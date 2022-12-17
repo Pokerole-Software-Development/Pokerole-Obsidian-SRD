@@ -1,6 +1,12 @@
 ---
 Accuracy1: Strength
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  Lethal: true
+  MustRecharge: true
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The user shoots a huge boulder as if it were a cannon ball that can even

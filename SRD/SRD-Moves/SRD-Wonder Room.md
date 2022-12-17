@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Target
+    Type: WonderRoom
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: Inside the Wonder Room, a strong mind makes a strong body and a resilient

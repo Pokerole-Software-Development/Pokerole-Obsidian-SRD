@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: User
+    Type: BeakBlast
+Attributes:
+  Charge: true
+  PhysicalRanged: true
+  Priority: -3
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon gets ready to release a boiling gas through its beak, which

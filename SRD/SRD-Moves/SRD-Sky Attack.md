@@ -1,6 +1,16 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Flinch
+Attributes:
+  AccuracyReduction: 1
+  Charge: true
+  HighCritical: true
+  Lethal: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon darts from the sky with a graceful and lethal strike, propelling

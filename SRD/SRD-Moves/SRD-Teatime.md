@@ -1,6 +1,8 @@
 ---
 Accuracy1: Insight
 Accuracy2: Etiquette
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon gathers everyone for a cup of delicious tea. Not eating a

@@ -1,6 +1,10 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 2
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon sends a giant pulse underwater that creates a chain reaction

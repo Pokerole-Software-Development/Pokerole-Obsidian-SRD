@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Drowzy
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user lets out an infectious yawn that will make anyone drowsy enough

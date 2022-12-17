@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - SpDef
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon produces a sap from the tart apples it feeds on, if the apples,

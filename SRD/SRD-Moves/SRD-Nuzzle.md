@@ -1,6 +1,11 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Paralyze
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon rubs its electrified cheeks against the foe, it looks very

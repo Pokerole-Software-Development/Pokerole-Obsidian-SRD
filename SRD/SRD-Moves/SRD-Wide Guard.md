@@ -1,6 +1,10 @@
 ---
 Accuracy1: Vitality
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Priority: 3
+  ShieldMove: true
 Damage1: ''
 Damage2: ''
 Description: The Pokemon uses its whole body to provide coverage and protection to

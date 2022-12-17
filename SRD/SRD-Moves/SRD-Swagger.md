@@ -1,6 +1,16 @@
 ---
 Accuracy1: Tough
 Accuracy2: Intimidate
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Confuse
+  StatChanges:
+  - Affects: Targets
+    Stages: 2
+    Stats:
+    - Strength
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon enrages the foe with its arrogant demeanor, making it lose

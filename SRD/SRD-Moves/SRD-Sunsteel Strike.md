@@ -1,6 +1,10 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  IgnoreShield: true
+Attributes:
+  Lethal: true
 Damage1: Strength
 Damage2: ''
 Description: You suddenly stop your in tracks as you see a bright and blinding light

@@ -1,6 +1,12 @@
 ---
 Accuracy1: Cool
 Accuracy2: Perform
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: FollowMeSpotlight
+Attributes:
+  Priority: 5
 Damage1: ''
 Damage2: ''
 Description: The Pokemon will draw everyone's attention. All foes are taunted to do

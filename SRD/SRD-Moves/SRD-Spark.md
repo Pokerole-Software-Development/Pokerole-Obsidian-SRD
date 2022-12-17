@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Paralyze
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The user tackles the foe, releasing a powerful spark on contact.

@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Flinch
+Attributes:
+  AccuracyReduction: 1
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon creates a slide of falling rocks against its foes that may

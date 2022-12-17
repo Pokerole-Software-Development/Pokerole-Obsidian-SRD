@@ -1,6 +1,11 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: DestinyBond
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon creates a mystical bond with anyone that causes it harm.

@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Confuse
+Attributes:
+  AccuracyReduction: 3
+  FistBased: true
 Damage1: Strength
 Damage2: ''
 Description: A punch that hits a small pressure point. It leavers the foe disoriented.

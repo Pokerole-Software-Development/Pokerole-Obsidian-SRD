@@ -2,8 +2,8 @@
 Ability1: Dauntless Shield
 Ability2: ''
 Baby: 'No'
-BookSprite: SRD-zamazenta-BookSprite.png
-BoxSprite: SRD-zamazenta-BoxSprite.png
+BookSprite: SRD-form-zamazenta-BookSprite.png
+BoxSprite: SRD-form-zamazenta-BoxSprite.png
 DexCategory: No Data
 DexDescription: "There is a legend about a mighty shield able to deflect any attack,\
   \ it became known as the Fighting Master\u2019s Shield, not even the largest creatures\
@@ -20,15 +20,15 @@ Height:
   Feet: 9.5
   Meters: 2.9
 HiddenAbility: ''
-HomeSprite: SRD-zamazenta-HomeSprite.png
+HomeSprite: SRD-form-zamazenta-HomeSprite.png
 Learnset: '[[SRD-Form Zamazenta-Learnset]]'
 Legendary: 'Yes'
 Name: Form Zamazenta
 Number: 889
 PrimaryEggGroup: Undiscovered
 SecondaryEggGroup: ''
-ShuffleToken: SRD-zamazenta-ShuffleToken.png
-Sprite: zamazenta.png
+ShuffleToken: SRD-form-zamazenta-ShuffleToken.png
+Sprite: form-zamazenta.png
 Type1: Fighting
 Type2: Steel
 Weight:
@@ -42,10 +42,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-zamazenta-BookSprite.png|wsmall]]
-> ![[SRD-zamazenta-HomeSprite.png]]
-> ![[SRD-zamazenta-BoxSprite.png|htiny]]
-> ![[SRD-zamazenta-ShuffleToken.png|wsmall]]
+> ![[SRD-form-zamazenta-BookSprite.png|wsmall]]
+> ![[SRD-form-zamazenta-HomeSprite.png]]
+> ![[SRD-form-zamazenta-BoxSprite.png|htiny]]
+> ![[SRD-form-zamazenta-ShuffleToken.png|wsmall]]
 
 
 *No Data*

@@ -1,6 +1,13 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  FixedDamage:
+    BasedOn: Hp
+    Percentage: 0.5
+Attributes:
+  AccuracyReduction: 1
+  IgnoreDefenses: true
 Damage1: ''
 Damage2: ''
 Description: The forces of nature attack as if they had a will of their own. Water

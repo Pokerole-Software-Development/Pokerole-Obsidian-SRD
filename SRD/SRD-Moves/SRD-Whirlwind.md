@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Nature
+AddedEffects: {}
+Attributes:
+  Priority: -6
+  SwitcherMove: true
 Damage1: ''
 Damage2: ''
 Description: The Pokemon creates a powerful wind current that swirls the enemy around

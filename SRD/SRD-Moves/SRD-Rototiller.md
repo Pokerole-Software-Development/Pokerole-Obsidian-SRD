@@ -1,6 +1,8 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon digs around and moves the soil to make it ideal for plant

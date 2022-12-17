@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  FixedDamage:
+    BasedOn: Hp
+    Percentage: 1
+Attributes:
+  AccuracyReduction: 5
+  Lethal: true
 Damage1: ''
 Damage2: ''
 Description: The user stabs the target with a horn used like a drill. The foe is often

@@ -1,6 +1,12 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Target
+    Rounds: 4
+    Type: AquaRingLifeDew
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user creates a fresh-water dew that makes it and its allies full

@@ -1,6 +1,15 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 4
+    Stages: -2
+    Stats:
+    - SpDef
+Attributes:
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: Shaymin releases an explosion of pollen and seeds that the foe cannot

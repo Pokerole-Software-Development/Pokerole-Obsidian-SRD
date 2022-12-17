@@ -1,6 +1,11 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Curse
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user mutters words that become an evil incantation, the curse may

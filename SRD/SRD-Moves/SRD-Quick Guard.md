@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Athletic
+AddedEffects: {}
+Attributes:
+  Priority: 3
+  ShieldMove: true
 Damage1: ''
 Damage2: ''
 Description: The user reacts instinctively and defends itself and its teammates, nullifying

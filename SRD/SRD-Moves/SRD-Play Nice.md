@@ -1,6 +1,13 @@
 ---
 Accuracy1: Cute
 Accuracy2: Allure
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Strength
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user starts playing with the foe in a friendly way. This makes the

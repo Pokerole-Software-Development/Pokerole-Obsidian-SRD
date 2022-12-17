@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 1
+    Stages: -1
+    Stats:
+    - Strength
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon shoots a beautiful rainbow colored beam that may leave the

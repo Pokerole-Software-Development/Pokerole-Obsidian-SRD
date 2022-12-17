@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  Lethal: true
+  MustRecharge: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon shoots an incredibly powerful beam towards the sky. The energy

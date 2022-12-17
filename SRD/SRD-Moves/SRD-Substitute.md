@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Stealth
+AddedEffects:
+  FixedDamage:
+    Value: 2
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon dissapears in a poof of smoke. When the smoke vanishes, an

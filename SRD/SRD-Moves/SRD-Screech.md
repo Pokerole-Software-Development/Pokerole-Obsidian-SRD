@@ -1,6 +1,14 @@
 ---
 Accuracy1: Tough
 Accuracy2: Perform
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -2
+    Stats:
+    - Def
+Attributes:
+  SoundBased: true
 Damage1: ''
 Damage2: ''
 Description: The user disrupts the fighting stance of its foe by sending a sharp sound

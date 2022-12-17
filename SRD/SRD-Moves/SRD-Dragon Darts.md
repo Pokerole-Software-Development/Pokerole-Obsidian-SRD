@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  DoubleAction: true
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon's head is a nest for its less evolved forms, the younglings

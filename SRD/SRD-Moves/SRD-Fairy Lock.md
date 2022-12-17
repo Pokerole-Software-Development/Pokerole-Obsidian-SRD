@@ -1,6 +1,12 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Block
+Attributes:
+  BlockDamagePool: 0
 Damage1: ''
 Damage2: ''
 Description: The user moves as if locking a door. It takes a few moments before everyone

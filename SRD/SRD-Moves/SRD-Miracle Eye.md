@@ -1,6 +1,16 @@
 ---
 Accuracy1: Insight
 Accuracy2: Alert
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: MiracleEye
+  StatChanges:
+  - Affects: User
+    Stages: -1
+    Stats:
+    - Accuracy
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user's sight transcends the flesh and can look directly into the

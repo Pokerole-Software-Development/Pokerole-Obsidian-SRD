@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Priority: 1
 Damage1: Strength
 Damage2: ''
 Description: An attack as fast as lightning.

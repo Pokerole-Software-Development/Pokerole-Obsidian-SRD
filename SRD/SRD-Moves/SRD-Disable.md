@@ -1,6 +1,11 @@
 ---
 Accuracy1: Insight
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Disable
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user hits a nerve on the foe, impeding it from performing its previous

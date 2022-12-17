@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Sleep
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: A powerful somniferous spore that is shot at the target to make it fall

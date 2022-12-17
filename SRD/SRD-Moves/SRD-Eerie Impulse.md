@@ -1,6 +1,13 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -2
+    Stats:
+    - Special
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user radiates electricity around itself, the foe will think twice

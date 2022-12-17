@@ -1,6 +1,10 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  IgnoreShield: true
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: A cold reflection of the moon shines upon the target, it doesn't hurt

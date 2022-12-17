@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Paralyze
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon rides a giant surge of electricity as if surfing. It looks

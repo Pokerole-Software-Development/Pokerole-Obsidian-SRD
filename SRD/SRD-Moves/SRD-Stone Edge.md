@@ -1,6 +1,12 @@
 ---
 Accuracy1: Strength
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 2
+  HighCritical: true
+  Lethal: true
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The user hurls sharp stones at the foe. The speed and weight of the stones

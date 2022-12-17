@@ -1,6 +1,8 @@
 ---
 Accuracy1: Special
 Accuracy2: Perform
+AddedEffects: {}
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user attacks the foe with a song. If a teammate joins the song the

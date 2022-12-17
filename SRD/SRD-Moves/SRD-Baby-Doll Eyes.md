@@ -1,6 +1,14 @@
 ---
 Accuracy1: Cute
 Accuracy2: Allure
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Strength
+Attributes:
+  Priority: 1
 Damage1: ''
 Damage2: ''
 Description: Before anyone acts in battle, the user looks at the foe with the cutest

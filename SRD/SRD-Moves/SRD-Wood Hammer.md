@@ -1,6 +1,9 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Recoil: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon recklessly slams the foe with a part of its rugged body,

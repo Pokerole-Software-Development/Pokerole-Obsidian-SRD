@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Block
+Attributes:
+  AccuracyReduction: 2
+  BlockDamagePool: 2
 Damage1: Special
 Damage2: ''
 Description: The user creates a vortex of fire that remains spinning in the battlefield,

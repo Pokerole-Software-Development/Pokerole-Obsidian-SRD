@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  ResistedWithDefense: true
 Damage1: Special
 Damage2: ''
 Description: Materialize a psychic wave that pushes the target with real physical

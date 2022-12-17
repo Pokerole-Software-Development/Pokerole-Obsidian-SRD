@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  NeverFail: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon rises up in the air towards a light source, momentarily blinding

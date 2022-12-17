@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Flinch
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user attacks with an odd, almost invisible power.

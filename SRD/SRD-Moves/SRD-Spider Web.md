@@ -1,6 +1,12 @@
 ---
 Accuracy1: Insight
 Accuracy2: Stealth
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Block
+Attributes:
+  BlockDamagePool: 0
 Damage1: ''
 Damage2: ''
 Description: The User quietly releases a web on the field. All foes will be trapped.

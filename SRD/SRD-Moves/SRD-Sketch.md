@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Perform
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon draws its foe performing a move. It learns how to perform

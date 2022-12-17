@@ -1,6 +1,8 @@
 ---
 Accuracy1: Vitality
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon becomes a giant energy shield that tramples everything in

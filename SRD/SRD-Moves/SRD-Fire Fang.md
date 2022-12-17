@@ -1,6 +1,16 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 2
+    Type: Flinch
+  - Affects: Targets
+    ChanceDice: 2
+    Type: Burn
+Attributes:
+  AccuracyReduction: 1
 Damage1: Strength
 Damage2: ''
 Description: The user breathes fire from its mouth while biting the target.

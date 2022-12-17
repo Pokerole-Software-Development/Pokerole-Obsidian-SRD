@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -2
+    Stats:
+    - Special
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user spits a corrosive substance, the burning sensation doesn't allow

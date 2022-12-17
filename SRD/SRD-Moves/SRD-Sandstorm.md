@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  TerrainEffect: Sandstorm
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon casts a fierce wind that carries millions of rough sand particles.

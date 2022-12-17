@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  ResistedWithDefense: true
 Damage1: Special
 Damage2: ''
 Description: Through sheer psychic power, the user materializes its energy to deal

@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 1
+    Stages: -1
+    Stats:
+    - Def
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its sharp shell as a weapon to cut the target's fur,

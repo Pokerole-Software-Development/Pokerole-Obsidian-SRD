@@ -1,6 +1,14 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 4
+    Stages: -1
+    Stats:
+    - Accuracy
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user forms a pitch black wave that hurts the foe. This darkness may

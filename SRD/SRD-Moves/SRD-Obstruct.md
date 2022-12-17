@@ -1,6 +1,15 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Intimidate
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -2
+    Stats:
+    - Def
+Attributes:
+  Priority: 4
+  ShieldMove: true
 Damage1: ''
 Damage2: ''
 Description: In a reckless action, the user charges against the foe to stop its momentum

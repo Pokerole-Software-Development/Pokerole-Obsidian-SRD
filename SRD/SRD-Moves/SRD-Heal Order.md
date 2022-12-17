@@ -1,6 +1,10 @@
 ---
 Accuracy1: Tough
 Accuracy2: Nature
+AddedEffects:
+  Heal:
+    Type: Basic
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon commands its swarm to bring some healing honey.

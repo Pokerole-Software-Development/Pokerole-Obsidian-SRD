@@ -1,6 +1,8 @@
 ---
 Accuracy1: Will
 Accuracy2: Nature
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user calls the forest to lay a curse upon the target, making it grow

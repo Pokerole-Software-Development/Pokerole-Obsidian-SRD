@@ -1,6 +1,10 @@
 ---
 Accuracy1: Vitality
 Accuracy2: Nature
+AddedEffects:
+  Heal:
+    Type: Basic
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The sun shines brightly on the Pokemon and makes it feel rejuvenated

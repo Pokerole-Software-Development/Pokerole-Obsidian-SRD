@@ -1,6 +1,18 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 2
+    Type: Paralyze
+  - Affects: Targets
+    ChanceDice: 2
+    Type: Burn
+  - Affects: Targets
+    ChanceDice: 2
+    Type: Freeze
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user shoots three beams. Each one is charged with a different kind

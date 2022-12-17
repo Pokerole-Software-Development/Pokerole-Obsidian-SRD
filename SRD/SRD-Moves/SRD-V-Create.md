@@ -1,6 +1,15 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: -1
+    Stats:
+    - Dexterity
+    - Def
+    - SpDef
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The user slams its foe with a V-Shaped flame on its forehead. Upon impact,

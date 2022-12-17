@@ -1,6 +1,14 @@
 ---
 Accuracy1: Cute
 Accuracy2: Allure
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Strength
+    - Special
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon's eyes start watering as if it were about to cry, it's foe

@@ -1,6 +1,13 @@
 ---
 Accuracy1: Cute
 Accuracy2: Perform
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Sleep
+Attributes:
+  AccuracyReduction: 3
+  SoundBased: true
 Damage1: ''
 Damage2: ''
 Description: With a charming song, the user lulls its foe to sleep.

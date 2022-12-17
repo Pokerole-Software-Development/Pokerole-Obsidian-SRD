@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  Recoil: true
 Damage1: Special
 Damage2: ''
 Description: A concentrated ray of light that is capable of melting even the thickest

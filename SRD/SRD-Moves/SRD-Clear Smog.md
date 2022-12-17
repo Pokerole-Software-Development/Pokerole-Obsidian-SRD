@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  NeverFail: true
 Damage1: Special
 Damage2: ''
 Description: The user sucks all gases to clear away all impurities. The target is

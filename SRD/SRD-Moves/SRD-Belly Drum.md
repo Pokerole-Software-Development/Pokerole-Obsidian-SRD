@@ -1,6 +1,16 @@
 ---
 Accuracy1: Tough
 Accuracy2: Perform
+AddedEffects:
+  FixedDamage:
+    BasedOn: MaxHp
+    Percentage: 0.5
+  StatChanges:
+  - Affects: User
+    Stages: 3
+    Stats:
+    - Strength
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon Roars a war cry while hitting its Belly.

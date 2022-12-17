@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: SuppressAbility
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user spits some of its own gastric juices, the acid prevents the

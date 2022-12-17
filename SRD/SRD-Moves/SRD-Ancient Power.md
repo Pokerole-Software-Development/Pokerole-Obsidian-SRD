@@ -1,6 +1,18 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    ChanceDice: 1
+    Stages: 1
+    Stats:
+    - Strength
+    - Dexterity
+    - Special
+    - Def
+    - SpDef
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: the Pokemon calls upon an energy fron ancient times that strikes the

@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Flash
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user suddenly emits a blinding light around its body, dazing its

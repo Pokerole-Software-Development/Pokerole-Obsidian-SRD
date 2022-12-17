@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Poison
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The foe is covered with a disgusting sludge, the fumes and toxins on

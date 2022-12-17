@@ -1,6 +1,10 @@
 ---
 Accuracy1: Tough
 Accuracy2: Nature
+AddedEffects: {}
+Attributes:
+  HighCritical: true
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The user calls upon her swarm and heeds them to charge against you. No

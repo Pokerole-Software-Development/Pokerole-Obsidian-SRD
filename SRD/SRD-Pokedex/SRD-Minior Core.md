@@ -2,8 +2,8 @@
 Ability1: Shields Down
 Ability2: ''
 Baby: 'No'
-BookSprite: SRD-minior-green-BookSprite.png
-BoxSprite: SRD-minior-green-BoxSprite.png
+BookSprite: SRD-minior-core-BookSprite.png
+BoxSprite: SRD-minior-core-BoxSprite.png
 DexCategory: Meteor Pokemon
 DexDescription: Without its shell Minior can move faster. They have playful and colorful
   personalities. If a Minior wants to regrow their shell they must go to the stratosphere
@@ -20,15 +20,15 @@ Height:
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-minior-green-HomeSprite.png
+HomeSprite: SRD-minior-core-HomeSprite.png
 Learnset: '[[SRD-Minior Core-Learnset]]'
 Legendary: 'No'
 Name: Minior Core
 Number: 774
 PrimaryEggGroup: Mineral
 SecondaryEggGroup: ''
-ShuffleToken: SRD-minior-green-ShuffleToken.png
-Sprite: minior-green.png
+ShuffleToken: SRD-minior-core-ShuffleToken.png
+Sprite: minior-core.png
 Type1: Rock
 Type2: Flying
 Weight:
@@ -42,10 +42,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-minior-green-BookSprite.png|wsmall]]
-> ![[SRD-minior-green-HomeSprite.png]]
-> ![[SRD-minior-green-BoxSprite.png|htiny]]
-> ![[SRD-minior-green-ShuffleToken.png|wsmall]]
+> ![[SRD-minior-core-BookSprite.png|wsmall]]
+> ![[SRD-minior-core-HomeSprite.png]]
+> ![[SRD-minior-core-BoxSprite.png|htiny]]
+> ![[SRD-minior-core-ShuffleToken.png|wsmall]]
 
 
 *Meteor Pokemon*

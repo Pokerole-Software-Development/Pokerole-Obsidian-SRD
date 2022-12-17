@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  DestroyShield: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its palm or claws to perform a one-armed chop that shatters

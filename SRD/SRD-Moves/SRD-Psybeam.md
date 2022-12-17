@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Confuse
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: Attack with a beam of psychic energy that hits the mind of the target.

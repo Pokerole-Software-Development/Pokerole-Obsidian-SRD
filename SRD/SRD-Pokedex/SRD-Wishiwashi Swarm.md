@@ -2,8 +2,8 @@
 Ability1: Schooling
 Ability2: ''
 Baby: 'No'
-BookSprite: SRD-wishiwashi-BookSprite.png
-BoxSprite: SRD-wishiwashi-BoxSprite.png
+BookSprite: SRD-wishiwashi-swarm-BookSprite.png
+BoxSprite: SRD-wishiwashi-swarm-BoxSprite.png
 DexCategory: Small Fry Pokemon
 DexDescription: "A school of Wishiwashi is the demon of the sea. Even Gyarados flee\
   \ in terror when one approaches. Since it is formed by lots of members, it\u2019\
@@ -21,15 +21,15 @@ Height:
   Feet: 26.9
   Meters: 8.2
 HiddenAbility: ''
-HomeSprite: SRD-wishiwashi-HomeSprite.png
+HomeSprite: SRD-wishiwashi-swarm-HomeSprite.png
 Learnset: '[[SRD-Wishiwashi Swarm-Learnset]]'
 Legendary: 'No'
 Name: Wishiwashi Swarm
 Number: 746
 PrimaryEggGroup: Water 2
 SecondaryEggGroup: ''
-ShuffleToken: SRD-wishiwashi-ShuffleToken.png
-Sprite: wishiwashi.png
+ShuffleToken: SRD-wishiwashi-swarm-ShuffleToken.png
+Sprite: wishiwashi-swarm.png
 Type1: Water
 Type2: ''
 Weight:
@@ -43,10 +43,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-wishiwashi-BookSprite.png|wsmall]]
-> ![[SRD-wishiwashi-HomeSprite.png]]
-> ![[SRD-wishiwashi-BoxSprite.png|htiny]]
-> ![[SRD-wishiwashi-ShuffleToken.png|wsmall]]
+> ![[SRD-wishiwashi-swarm-BookSprite.png|wsmall]]
+> ![[SRD-wishiwashi-swarm-HomeSprite.png]]
+> ![[SRD-wishiwashi-swarm-BoxSprite.png|htiny]]
+> ![[SRD-wishiwashi-swarm-ShuffleToken.png|wsmall]]
 
 
 *Small Fry Pokemon*

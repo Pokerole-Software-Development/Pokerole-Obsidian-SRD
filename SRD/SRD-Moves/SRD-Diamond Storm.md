@@ -1,6 +1,15 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    ChanceDice: 5
+    Stages: 2
+    Stats:
+    - Def
+Attributes:
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon summons a storm of diamonds over the field, these diamonds

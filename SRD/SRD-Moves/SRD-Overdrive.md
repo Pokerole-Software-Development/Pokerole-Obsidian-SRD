@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Perform
+AddedEffects: {}
+Attributes:
+  SoundBased: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon uses its own body as an amplifier for the energizing sounds

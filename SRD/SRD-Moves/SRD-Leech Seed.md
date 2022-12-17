@@ -1,6 +1,12 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Leech Seed
+Attributes:
+  AccuracyReduction: 1
 Damage1: ''
 Damage2: ''
 Description: The user plants some seeds on the target, the seeds sprout and restore

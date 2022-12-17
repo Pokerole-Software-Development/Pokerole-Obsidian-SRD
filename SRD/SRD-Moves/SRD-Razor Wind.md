@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  HighCritical: true
 Damage1: Special
 Damage2: ''
 Description: A sharp wind current is unleased against anyone standing against this

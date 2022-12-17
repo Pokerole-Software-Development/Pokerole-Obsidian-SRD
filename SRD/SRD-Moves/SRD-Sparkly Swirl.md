@@ -1,6 +1,11 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  AilmentHeal:
+  - All
+Attributes:
+  AccuracyReduction: 1
 Damage1: Special
 Damage2: ''
 Description: The Pokemon unleashes a swirling and glittery energy that releases a

@@ -1,6 +1,9 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Recoil: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon clashes against the foe using its head aas a boulder.

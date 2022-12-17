@@ -1,6 +1,13 @@
 ---
 Accuracy1: Strength
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Burn2
+Attributes:
+  AccuracyReduction: 1
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon lights a heavy stone on fire and kicks it while it's ablaze.

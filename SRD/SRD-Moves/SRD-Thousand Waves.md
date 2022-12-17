@@ -1,6 +1,13 @@
 ---
 Accuracy1: Special
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Block
+Attributes:
+  BlockDamagePool: 0
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: Solid ground becomes a sandtrap, cracked earth will close to ensnare

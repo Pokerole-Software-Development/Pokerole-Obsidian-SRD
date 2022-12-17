@@ -1,6 +1,11 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: IonDeluge
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user amplifies all electrically charged particles in the environment.

@@ -1,6 +1,10 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 2
+  Recoil: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon recklessly grapples the foe to smash it on the ground.

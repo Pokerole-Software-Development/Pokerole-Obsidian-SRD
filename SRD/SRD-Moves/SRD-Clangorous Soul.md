@@ -1,6 +1,20 @@
 ---
 Accuracy1: Tough
 Accuracy2: Perform
+AddedEffects:
+  FixedDamage:
+    BasedOn: MaxHp
+    Percentage: 0.5
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Strength
+    - Dexterity
+    - Special
+    - Def
+    - SpDef
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon shakes its scales around, to sharpen, shed, and rearrange

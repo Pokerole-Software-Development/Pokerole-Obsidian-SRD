@@ -1,6 +1,10 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  Heal:
+    Type: Basic
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon concentrates on restoring its own cells faster than anything

@@ -1,6 +1,9 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Rampage: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon rampages and starts to attack and destroy everything on its

@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: SweetScent
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon releases an aroma that its enemies will love.

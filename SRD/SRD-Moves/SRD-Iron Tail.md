@@ -1,6 +1,15 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 3
+    Stages: -1
+    Stats:
+    - Def
+Attributes:
+  AccuracyReduction: 3
 Damage1: Strength
 Damage2: ''
 Description: The user hits the foe with its hardened tail. The target is left vulnerable

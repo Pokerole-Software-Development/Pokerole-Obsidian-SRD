@@ -1,6 +1,9 @@
 ---
 Accuracy1: Insight
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  IgnoreDefenses: true
 Damage1: ''
 Damage2: ''
 Description: The user prepares to receive damage, then returns the same damage and

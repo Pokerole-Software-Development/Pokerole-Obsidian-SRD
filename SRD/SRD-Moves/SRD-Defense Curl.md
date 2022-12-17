@@ -1,6 +1,13 @@
 ---
 Accuracy1: Vitality
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Def
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user curls like a ball to protect against most threats.

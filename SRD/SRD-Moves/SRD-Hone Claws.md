@@ -1,6 +1,14 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Strength
+    - Accuracy
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon sharpens its claws to perform more precise attacks.

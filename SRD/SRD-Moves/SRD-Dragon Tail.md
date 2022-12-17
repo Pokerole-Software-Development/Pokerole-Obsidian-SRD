@@ -1,6 +1,11 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  Priority: -1
+  SwitcherMove: true
 Damage1: Strength
 Damage2: ''
 Description: This Powerful tail strike can knockdown anyone up to 100 feet away!

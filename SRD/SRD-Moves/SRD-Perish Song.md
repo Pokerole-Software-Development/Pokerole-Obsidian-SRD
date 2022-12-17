@@ -1,6 +1,12 @@
 ---
 Accuracy1: Beauty
 Accuracy2: Perform
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: PerishSong
+Attributes:
+  SoundBased: true
 Damage1: ''
 Damage2: ''
 Description: A song of mourning and despair that resonates on the minds of anyone

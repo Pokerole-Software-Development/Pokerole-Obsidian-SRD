@@ -1,6 +1,11 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  Priority: -1
+  SwitcherMove: true
 Damage1: Strength
 Damage2: ''
 Description: The user throws the target 60 feet out of the battlefield.

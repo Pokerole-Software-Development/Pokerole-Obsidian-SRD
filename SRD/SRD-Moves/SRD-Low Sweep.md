@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -2
+    Stats:
+    - Dexterity
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon strikes the foe's legs, leaving it unable to walk normally

@@ -1,6 +1,11 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Charge: true
+  DestroyShield: true
+  Lethal: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon disappears into a dark dimension to strike its foe at the

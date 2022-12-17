@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 1
+    Type: Burn2
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The user lets out a powerful fire stream that leaves a scorched trail.

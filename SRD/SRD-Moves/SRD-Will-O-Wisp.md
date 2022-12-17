@@ -1,6 +1,12 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Burn
+Attributes:
+  AccuracyReduction: 2
 Damage1: ''
 Damage2: ''
 Description: The user calls a floating ember to consume the foe.

@@ -1,6 +1,11 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Electrify
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user hurls an electric projectile to the target, the foe is charged

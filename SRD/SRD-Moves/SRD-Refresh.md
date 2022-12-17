@@ -1,6 +1,14 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects:
+  AilmentHeal:
+  - Burn1
+  - Burn2
+  - Burn3
+  - Paralysis
+  - Poison
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon takes a few seconds to cool down and get back in the game.

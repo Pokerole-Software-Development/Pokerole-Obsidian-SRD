@@ -1,6 +1,9 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: The User unleashes all of its might through a massive blast of raging

@@ -1,6 +1,14 @@
 ---
 Accuracy1: Tough
 Accuracy2: Intimidate
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    Stages: -1
+    Stats:
+    - Strength
+    - Special
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon makes a roar that commands respect and authority over anyone

@@ -1,6 +1,9 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects: {}
+Attributes:
+  Charge: true
 Damage1: ''
 Damage2: ''
 Description: Through a mystical connection this Pokemon absorbs the life force of

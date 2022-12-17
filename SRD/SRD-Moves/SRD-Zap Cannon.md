@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Paralyze
+Attributes:
+  AccuracyReduction: 3
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: The user hurls a dreadful bombardment of electric explosions. Anyone

@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  SuccessiveActions: true
 Damage1: Strength
 Damage2: ''
 Description: The user quickly throws blows of open-palmed thrusts against the foe.

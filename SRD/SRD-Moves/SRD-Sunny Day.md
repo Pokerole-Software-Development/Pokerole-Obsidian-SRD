@@ -1,6 +1,9 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  TerrainEffect: Sunny
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon will raise the temperature along with the sun, it doesn't

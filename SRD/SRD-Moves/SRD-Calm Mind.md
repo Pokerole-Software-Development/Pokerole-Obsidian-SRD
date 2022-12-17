@@ -1,6 +1,14 @@
 ---
 Accuracy1: Insight
 Accuracy2: Channel
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Special
+    - SpDef
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user quietly calms its spirit to strengthen its mind and body.

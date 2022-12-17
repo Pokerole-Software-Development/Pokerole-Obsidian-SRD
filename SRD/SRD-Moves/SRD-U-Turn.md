@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  SwitcherMove: true
 Damage1: Strength
 Damage2: ''
 Description: The user strikes its foe, then quickly goes back to safety while another

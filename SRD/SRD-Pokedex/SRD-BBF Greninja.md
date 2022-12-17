@@ -2,8 +2,8 @@
 Ability1: Torrent
 Ability2: ''
 Baby: 'No'
-BookSprite: SRD-greninja-BookSprite.png
-BoxSprite: SRD-greninja-BoxSprite.png
+BookSprite: SRD-form-greninja-BookSprite.png
+BoxSprite: SRD-form-greninja-BoxSprite.png
 DexCategory: Ninja Pokemon
 DexDescription: "The mysteries of the Pokemon world are vast. There is something called\
   \ \u201CThe Bond Phenomenon\u201D were a Pokemon and its trainer share a connection\
@@ -20,15 +20,15 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Protean
-HomeSprite: SRD-greninja-HomeSprite.png
+HomeSprite: SRD-form-greninja-HomeSprite.png
 Learnset: '[[SRD-BBF Greninja-Learnset]]'
 Legendary: 'No'
 Name: BBF Greninja
 Number: 658
 PrimaryEggGroup: Water 1
 SecondaryEggGroup: ''
-ShuffleToken: SRD-greninja-ShuffleToken.png
-Sprite: greninja.png
+ShuffleToken: SRD-form-greninja-ShuffleToken.png
+Sprite: form-greninja.png
 Type1: Water
 Type2: Dark
 Weight:
@@ -42,10 +42,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-greninja-BookSprite.png|wsmall]]
-> ![[SRD-greninja-HomeSprite.png]]
-> ![[SRD-greninja-BoxSprite.png|htiny]]
-> ![[SRD-greninja-ShuffleToken.png|wsmall]]
+> ![[SRD-form-greninja-BookSprite.png|wsmall]]
+> ![[SRD-form-greninja-HomeSprite.png]]
+> ![[SRD-form-greninja-BoxSprite.png|htiny]]
+> ![[SRD-form-greninja-ShuffleToken.png|wsmall]]
 
 
 *Ninja Pokemon*

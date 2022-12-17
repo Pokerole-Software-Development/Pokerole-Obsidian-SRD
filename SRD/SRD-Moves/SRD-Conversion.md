@@ -1,6 +1,11 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: User
+    Type: Conversion
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon downloads the data of a Move to add it to its code.

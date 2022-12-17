@@ -1,6 +1,12 @@
 ---
 Accuracy1: Insight
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Paralyze
+Attributes:
+  AccuracyReduction: 1
 Damage1: ''
 Damage2: ''
 Description: A tide of bright lightning streams from the floor onto the foe. The target's

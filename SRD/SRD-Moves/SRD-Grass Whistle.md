@@ -1,6 +1,13 @@
 ---
 Accuracy1: Special
 Accuracy2: Perform
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Sleep
+Attributes:
+  AccuracyReduction: 3
+  SoundBased: true
 Damage1: ''
 Damage2: ''
 Description: The user plays a beautiful and soothing melody that lulls the target

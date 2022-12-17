@@ -1,6 +1,10 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
+AddedEffects:
+  Heal:
+    Type: Basic
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user emits a pulse of energy that heals the wounds of its allies.

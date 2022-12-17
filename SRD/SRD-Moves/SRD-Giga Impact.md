@@ -1,6 +1,11 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  Lethal: true
+  MustRecharge: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon strikes with a brutal force using all its body. The impact

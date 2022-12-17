@@ -1,6 +1,9 @@
 ---
 Accuracy1: Strength
 Accuracy2: Athletic
+AddedEffects: {}
+Attributes:
+  IgnoreDefenses: true
 Damage1: ''
 Damage2: ''
 Description: The target gets launched up then falls face first into the ground, the

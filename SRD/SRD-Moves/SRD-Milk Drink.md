@@ -1,6 +1,10 @@
 ---
 Accuracy1: Vitality
 Accuracy2: Nature
+AddedEffects:
+  Heal:
+    Type: Basic
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon drinks a glass of its own milk. The rich taste and nutrients

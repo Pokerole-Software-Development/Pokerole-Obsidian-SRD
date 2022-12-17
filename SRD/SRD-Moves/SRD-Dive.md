@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Ailments:
+  - Affects: Target
+    Rounds: 1
+    Type: Diving
+Attributes:
+  Charge: true
 Damage1: Strength
 Damage2: ''
 Description: The user submerges into the water and continues diving at an insane speed.

@@ -1,6 +1,12 @@
 ---
 Accuracy1: Insight
 Accuracy2: Allure
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Flinch
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: This move controls the emotions of the target, making it feel loved and

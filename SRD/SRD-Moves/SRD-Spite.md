@@ -1,6 +1,8 @@
 ---
 Accuracy1: Will
 Accuracy2: Intimidate
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The target feels overwhelmed by feelings of dread.

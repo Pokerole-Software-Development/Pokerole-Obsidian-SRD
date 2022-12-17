@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Nature
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user starts pushing its pressure points, releasing the energy that

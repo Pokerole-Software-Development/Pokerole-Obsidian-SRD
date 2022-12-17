@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AlwaysCrit: true
 Damage1: Strength
 Damage2: ''
 Description: The user impacts a weak spot with a powerful blow.

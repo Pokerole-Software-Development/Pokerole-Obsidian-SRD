@@ -1,6 +1,10 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 2
+  Recoil: true
 Damage1: Strength
 Damage2: ''
 Description: The user charges head first to attack the foe, the strike is devastating

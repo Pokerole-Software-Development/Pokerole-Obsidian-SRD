@@ -1,6 +1,14 @@
 ---
 Accuracy1: Beauty
 Accuracy2: Nature
+AddedEffects:
+  StatChanges:
+  - Affects: Target
+    Stages: 2
+    Stats:
+    - Strength
+    - Special
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: Using some frosting the Pokemon decorates their target to look bigger,

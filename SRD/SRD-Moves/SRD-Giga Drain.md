@@ -1,6 +1,11 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects:
+  Heal:
+    Percentage: 0.5
+    Type: Leech
+Attributes: {}
 Damage1: Special
 Damage2: ''
 Description: The Pokemon extracts a great amount of vital energy from the foe's body.

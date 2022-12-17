@@ -1,6 +1,10 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  AccuracyReduction: 1
+  MustRecharge: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon blasts the foe with a water surge that could bring down a

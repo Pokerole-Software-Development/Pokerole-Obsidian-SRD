@@ -1,6 +1,13 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 2
+    Stats:
+    - Strength
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon stings the target. If the foe is too weakened to move it

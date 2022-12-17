@@ -1,6 +1,10 @@
 ---
 Accuracy1: Strength
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  Lethal: true
+  PhysicalRanged: true
 Damage1: Strength
 Damage2: ''
 Description: The earth moves on its own, no attacker in sight. The floor crumbles

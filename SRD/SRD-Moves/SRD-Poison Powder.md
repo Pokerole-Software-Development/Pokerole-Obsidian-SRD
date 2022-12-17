@@ -1,6 +1,12 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    Type: Poison
+Attributes:
+  AccuracyReduction: 2
 Damage1: ''
 Damage2: ''
 Description: The user scatters a small cloud of venomous dust that immediately causes

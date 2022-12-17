@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  DestroyShield: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon bares its fangs to bite the foe, psychic energy begins piercing

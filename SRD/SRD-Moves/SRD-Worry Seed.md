@@ -1,6 +1,11 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  Ailments:
+  - Affects: Target
+    Type: WorrySeed
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user plants a seed in its foe. It causes a restless preoccupation

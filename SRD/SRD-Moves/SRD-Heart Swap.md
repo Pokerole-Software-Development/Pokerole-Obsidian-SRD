@@ -1,6 +1,8 @@
 ---
 Accuracy1: Insight
 Accuracy2: Allure
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The user and the target swap their feelings of powerr and weakness, insecurity

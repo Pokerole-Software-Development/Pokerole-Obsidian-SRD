@@ -1,6 +1,15 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: -1
+    Stats:
+    - Strength
+    - Def
+Attributes:
+  Lethal: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon makes use of all its force to deliver a crushing strike to

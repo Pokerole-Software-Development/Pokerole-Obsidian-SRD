@@ -1,6 +1,10 @@
 ---
 Accuracy1: Special
 Accuracy2: Nature
+AddedEffects:
+  AilmentHeal:
+  - All
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon is covered by a gelatinous goo that can be used to treat

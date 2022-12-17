@@ -2,8 +2,8 @@
 Ability1: Dancer
 Ability2: ''
 Baby: 'No'
-BookSprite: SRD-oricorio-BookSprite.png
-BoxSprite: SRD-oricorio-BoxSprite.png
+BookSprite: SRD-oricorio-fire-BookSprite.png
+BoxSprite: SRD-oricorio-fire-BoxSprite.png
 DexCategory: Dancing Pokemon
 DexDescription: What was thought to be different species ended up being a single Pokemon.
   Oricorio Baile is an intense and passionate Pokemon, every flap of its wings produces
@@ -26,15 +26,15 @@ Height:
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: ''
-HomeSprite: SRD-oricorio-HomeSprite.png
+HomeSprite: SRD-oricorio-fire-HomeSprite.png
 Learnset: '[[SRD-Oricorio Fire-Learnset]]'
 Legendary: 'No'
 Name: Oricorio Fire
 Number: 741
 PrimaryEggGroup: Flying
 SecondaryEggGroup: ''
-ShuffleToken: SRD-oricorio-ShuffleToken.png
-Sprite: oricorio.png
+ShuffleToken: SRD-oricorio-fire-ShuffleToken.png
+Sprite: oricorio-fire.png
 Type1: Fire
 Type2: Flying
 Weight:
@@ -48,10 +48,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-oricorio-BookSprite.png|wsmall]]
-> ![[SRD-oricorio-HomeSprite.png]]
-> ![[SRD-oricorio-BoxSprite.png|htiny]]
-> ![[SRD-oricorio-ShuffleToken.png|wsmall]]
+> ![[SRD-oricorio-fire-BookSprite.png|wsmall]]
+> ![[SRD-oricorio-fire-HomeSprite.png]]
+> ![[SRD-oricorio-fire-BoxSprite.png|htiny]]
+> ![[SRD-oricorio-fire-ShuffleToken.png|wsmall]]
 
 
 *Dancing Pokemon*

@@ -1,6 +1,15 @@
 ---
 Accuracy1: Special
 Accuracy2: Perform
+AddedEffects:
+  StatChanges:
+  - Affects: Targets
+    ChanceDice: 1
+    Stages: -1
+    Stats:
+    - SpDef
+Attributes:
+  SoundBased: true
 Damage1: Special
 Damage2: ''
 Description: The Pokemon uses its wings or part of its body to emit sound waves that

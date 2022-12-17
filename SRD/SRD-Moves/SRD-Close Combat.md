@@ -1,6 +1,14 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: -1
+    Stats:
+    - Def
+    - SpDef
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The user attacks at a close distance to deal lots of damage. The foe

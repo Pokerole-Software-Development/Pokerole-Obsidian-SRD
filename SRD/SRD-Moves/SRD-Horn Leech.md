@@ -1,6 +1,11 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects:
+  Heal:
+    Percentage: 0.5
+    Type: Leech
+Attributes: {}
 Damage1: Strength
 Damage2: ''
 Description: The user rams the foe and absorbs some of its vital energy with its horns.

@@ -1,6 +1,15 @@
 ---
 Accuracy1: Special
 Accuracy2: Channel
+AddedEffects:
+  Ailments:
+  - Affects: Targets
+    ChanceDice: 3
+    Type: Burn
+Attributes:
+  AccuracyReduction: 1
+  Charge: true
+  Lethal: true
 Damage1: Special
 Damage2: ''
 Description: The user appears to become a block of ice, then it releases itself from

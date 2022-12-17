@@ -1,6 +1,9 @@
 ---
 Accuracy1: Strength
 Accuracy2: Channel
+AddedEffects: {}
+Attributes:
+  Lethal: true
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon strikes with a devastating electric impact, said impact will

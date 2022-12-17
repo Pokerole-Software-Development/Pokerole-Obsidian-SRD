@@ -1,6 +1,9 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  DoubleAction: true
 Damage1: Strength
 Damage2: ''
 Description: The user throws two powerful kicks.
