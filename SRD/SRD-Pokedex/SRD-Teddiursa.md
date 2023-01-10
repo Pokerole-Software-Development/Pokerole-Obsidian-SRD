@@ -1,7 +1,6 @@
 ---
 Ability1: Pickup
 Ability2: Quick Feet
-Baby: 'No'
 BookSprite: SRD-teddiursa-BookSprite.png
 BoxSprite: SRD-teddiursa-BoxSprite.png
 DexCategory: Little Bear Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Ursaring]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Honey Gather
 HomeSprite: SRD-teddiursa-HomeSprite.png
+Image: teddiursa.png
 Learnset: '[[SRD-Teddiursa-Learnset]]'
 Legendary: 'No'
-Name: Teddiursa
 Number: 216
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-teddiursa-ShuffleToken.png
-Sprite: teddiursa.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 88
   Kilograms: 8.8
   Pounds: 19.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *If they find honey, their crescent moon mark glows. They hoard food for winter and concoct their own honey by mixing fruits and pollen collected by Beedrills. They live in forests with their mothers.*
 
 **DexID**:: 0216
-**Species**:: Teddiursa
+**Name**:: Teddiursa
 **Type**:: Normal
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Quick Feet|Quick Feet]] ([[SRD-Honey Gather|Honey Gather]])
 **Base HP**:: 3

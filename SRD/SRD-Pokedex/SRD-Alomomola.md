@@ -1,7 +1,6 @@
 ---
 Ability1: Healer
 Ability2: Hydration
-Baby: 'No'
 BookSprite: SRD-alomomola-BookSprite.png
 BoxSprite: SRD-alomomola-BoxSprite.png
 DexCategory: Caring Pokemon
@@ -11,25 +10,19 @@ DexDescription: Floating in the open sea is how they live. When they find a woun
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Regenerator
 HomeSprite: SRD-alomomola-HomeSprite.png
+Image: alomomola.png
 Learnset: '[[SRD-Alomomola-Learnset]]'
 Legendary: 'No'
-Name: Alomomola
 Number: 594
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Water 2
 ShuffleToken: SRD-alomomola-ShuffleToken.png
-Sprite: alomomola.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 316
   Kilograms: 31.6
   Pounds: 69.7
 ---
@@ -49,7 +42,7 @@ Weight:
 *Floating in the open sea is how they live. When they find a wounded Pokemon, they embrace it and use their special membrane to heal their wounds. A caring, noble and selfless Pokemon.*
 
 **DexID**:: 0594
-**Species**:: Alomomola
+**Name**:: Alomomola
 **Type**:: Water
 **Abilities**:: [[SRD-Healer|Healer]] / [[SRD-Hydration|Hydration]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 8

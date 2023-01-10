@@ -1,7 +1,6 @@
 ---
 Ability1: Water Absorb
 Ability2: Chlorophyll
-Baby: 'No'
 BookSprite: SRD-maractus-BookSprite.png
 BoxSprite: SRD-maractus-BoxSprite.png
 DexCategory: Cactus Pokemon
@@ -11,25 +10,19 @@ DexDescription: "If you see a Maractus on the desert, follow it, as they make th
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Storm Drain
 HomeSprite: SRD-maractus-HomeSprite.png
+Image: maractus.png
 Learnset: '[[SRD-Maractus-Learnset]]'
 Legendary: 'No'
-Name: Maractus
 Number: 556
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-maractus-ShuffleToken.png
-Sprite: maractus.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 280
   Kilograms: 28.0
   Pounds: 61.7
 ---
@@ -49,7 +42,7 @@ Weight:
 *If you see a Maractus on the desert, follow it, as they make their nests on water oasis. This pacific Pokemon makes a sound similar to a maraca to drive away bird Pokemon that prey on it’s seeds and fruit.*
 
 **DexID**:: 0556
-**Species**:: Maractus
+**Name**:: Maractus
 **Type**:: Grass
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] / [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Storm Drain|Storm Drain]])
 **Base HP**:: 4

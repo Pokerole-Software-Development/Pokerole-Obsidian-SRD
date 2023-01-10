@@ -1,5 +1,4 @@
 ---
-DexID: 0381
 Moves:
 - - Starter
   - '[[SRD-Helping Hand|Helping Hand]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Role Play|Role Play]]'
 Name: Latios
-Species: '[[SRD-Latios|Latios]]'
+Pokedex: '[[SRD-Latios|Latios]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

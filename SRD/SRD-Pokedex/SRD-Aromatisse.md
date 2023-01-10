@@ -1,7 +1,6 @@
 ---
 Ability1: Healer
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-aromatisse-BookSprite.png
 BoxSprite: SRD-aromatisse-BoxSprite.png
 DexCategory: Fragance Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Spritzee]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Aroma Veil
 HomeSprite: SRD-aromatisse-HomeSprite.png
+Image: aromatisse.png
 Learnset: '[[SRD-Aromatisse-Learnset]]'
 Legendary: 'No'
-Name: Aromatisse
 Number: 683
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-aromatisse-ShuffleToken.png
-Sprite: aromatisse.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 155
   Kilograms: 15.5
   Pounds: 34.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *Its scent is so overpowering that makes it difficult to simply be in close proximity to it. It emits scents that its foes dislike in order to gain an edge in battle. They can also produce pleasant and healing aromas.*
 
 **DexID**:: 0683
-**Species**:: Aromatisse
+**Name**:: Aromatisse
 **Type**:: Fairy
 **Abilities**:: [[SRD-Healer|Healer]] ([[SRD-Aroma Veil|Aroma Veil]])
 **Base HP**:: 5

@@ -1,5 +1,4 @@
 ---
-DexID: '0346'
 Moves:
 - - Starter
   - '[[SRD-Constrict|Constrict]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Cradily
-Species: '[[SRD-Cradily|Cradily]]'
+Pokedex: '[[SRD-Cradily|Cradily]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0060'
 Moves:
 - - Starter
   - '[[SRD-Water Sport|Water Sport]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Refresh|Refresh]]'
 Name: Poliwag
-Species: '[[SRD-Poliwag|Poliwag]]'
+Pokedex: '[[SRD-Poliwag|Poliwag]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

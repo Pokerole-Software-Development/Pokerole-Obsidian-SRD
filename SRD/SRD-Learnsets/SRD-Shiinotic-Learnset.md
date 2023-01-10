@@ -1,5 +1,4 @@
 ---
-DexID: '0757'
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Light Screen|Light Screen]]'
 Name: Shiinotic
-Species: '[[SRD-Shiinotic|Shiinotic]]'
+Pokedex: '[[SRD-Shiinotic|Shiinotic]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

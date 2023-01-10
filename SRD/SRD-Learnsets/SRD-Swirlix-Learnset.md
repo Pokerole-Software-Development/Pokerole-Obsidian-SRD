@@ -1,5 +1,4 @@
 ---
-DexID: 0683
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Copycat|Copycat]]'
 Name: Swirlix
-Species: '[[SRD-Swirlix|Swirlix]]'
+Pokedex: '[[SRD-Swirlix|Swirlix]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-buzzwole-BookSprite.png
 BoxSprite: SRD-buzzwole-BoxSprite.png
 DexCategory: 'Aether Foundation Log #071'
@@ -11,25 +10,19 @@ DexDescription: "What we thought were harmless displays of strength were just th
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 24
   Feet: 7.9
   Meters: 2.4
 HiddenAbility: ''
 HomeSprite: SRD-buzzwole-HomeSprite.png
+Image: buzzwole.png
 Learnset: '[[SRD-Buzzwole-Learnset]]'
 Legendary: 'Yes'
-Name: Buzzwole
 Number: 794
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-buzzwole-ShuffleToken.png
-Sprite: buzzwole.png
 Type1: Bug
 Type2: Fighting
 Weight:
-  Hectograms: 3336
   Kilograms: 333.6
   Pounds: 735.5
 ---
@@ -49,7 +42,7 @@ Weight:
 *What we thought were harmless displays of strength were just the first warning signs. Today UB-02 destroyed the truck where it was being transported, it escaped and hasn’t been located.*
 
 **DexID**:: 0794
-**Species**:: Buzzwole
+**Name**:: Buzzwole
 **Type**:: Bug / Fighting
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 5

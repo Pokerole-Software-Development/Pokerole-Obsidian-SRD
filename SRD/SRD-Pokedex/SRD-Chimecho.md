@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-chimecho-BookSprite.png
 BoxSprite: SRD-chimecho-BoxSprite.png
 DexCategory: Wind Chime Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Happiness
   Value: 4
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: ''
 HomeSprite: SRD-chimecho-HomeSprite.png
+Image: chimecho.png
 Learnset: '[[SRD-Chimecho-Learnset]]'
 Legendary: 'No'
-Name: Chimecho
 Number: 358
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-chimecho-ShuffleToken.png
-Sprite: chimecho.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 10
   Kilograms: 1.0
   Pounds: 2.2
 ---
@@ -54,7 +47,7 @@ Weight:
 *They have seven different cries that resound with the wind. They can create ultrasonic waves when they are in danger. Using the suction cup on their head, they hang to branches on windy days.*
 
 **DexID**:: 0358
-**Species**:: Chimecho
+**Name**:: Chimecho
 **Type**:: Psychic
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4

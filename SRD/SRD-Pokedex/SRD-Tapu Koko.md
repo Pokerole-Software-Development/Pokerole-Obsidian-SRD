@@ -1,7 +1,6 @@
 ---
 Ability1: Electric Surge
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-tapu-koko-BookSprite.png
 BoxSprite: SRD-tapu-koko-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: People on Melemele island talk about a guardian spirit who punis
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Telepathy
 HomeSprite: SRD-tapu-koko-HomeSprite.png
+Image: tapu-koko.png
 Learnset: '[[SRD-Tapu Koko-Learnset]]'
 Legendary: 'Yes'
-Name: Tapu Koko
 Number: 785
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-tapu-koko-ShuffleToken.png
-Sprite: tapu-koko.png
 Type1: Electric
 Type2: Fairy
 Weight:
-  Hectograms: 205
   Kilograms: 20.5
   Pounds: 45.2
 ---
@@ -49,7 +42,7 @@ Weight:
 *People on Melemele island talk about a guardian spirit who punishes the evil doers with lightning strikes. If it appears in front of you who knows what its intentions may be.*
 
 **DexID**:: 0785
-**Species**:: Tapu Koko
+**Name**:: Tapu Koko
 **Type**:: Electric / Fairy
 **Abilities**:: [[SRD-Electric Surge|Electric Surge]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 4

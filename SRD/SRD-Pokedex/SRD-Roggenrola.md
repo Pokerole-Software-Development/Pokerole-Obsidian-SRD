@@ -1,7 +1,6 @@
 ---
 Ability1: Sturdy
 Ability2: Weak Armor
-Baby: 'No'
 BookSprite: SRD-roggenrola-BookSprite.png
 BoxSprite: SRD-roggenrola-BoxSprite.png
 DexCategory: Mantle Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Boldore]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Sand Force
 HomeSprite: SRD-roggenrola-HomeSprite.png
+Image: roggenrola.png
 Learnset: '[[SRD-Roggenrola-Learnset]]'
 Legendary: 'No'
-Name: Roggenrola
 Number: 524
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-roggenrola-ShuffleToken.png
-Sprite: roggenrola.png
 Type1: Rock
 Type2: ''
 Weight:
-  Hectograms: 180
   Kilograms: 18.0
   Pounds: 39.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is made from compressed rock, making it’s body almost as hard as steel. It is blind, what looks like it’s eye is really an ear, for this reason it can live in the darkest of caves feeding on rocks to grow stronger.*
 
 **DexID**:: 0524
-**Species**:: Roggenrola
+**Name**:: Roggenrola
 **Type**:: Rock
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Weak Armor|Weak Armor]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 3

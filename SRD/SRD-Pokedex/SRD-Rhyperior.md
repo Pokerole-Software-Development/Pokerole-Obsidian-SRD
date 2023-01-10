@@ -1,7 +1,6 @@
 ---
 Ability1: Lightning Rod
 Ability2: Solid Rock
-Baby: 'No'
 BookSprite: SRD-rhyperior-BookSprite.png
 BoxSprite: SRD-rhyperior-BoxSprite.png
 DexCategory: Drill Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Rhydon]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 24
   Feet: 7.9
   Meters: 2.4
 HiddenAbility: Reckless
 HomeSprite: SRD-rhyperior-HomeSprite.png
+Image: rhyperior.png
 Learnset: '[[SRD-Rhyperior-Learnset]]'
 Legendary: 'No'
-Name: Rhyperior
 Number: 464
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Field
 ShuffleToken: SRD-rhyperior-ShuffleToken.png
-Sprite: rhyperior.png
 Type1: Ground
 Type2: Rock
 Weight:
-  Hectograms: 2828
   Kilograms: 282.8
   Pounds: 623.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *They have rarely been seen in the wild and only in the tallest mountains. It has holes on its hands which are used like canons to shoot boulders. Be careful, they are very aggressive but not very smart.*
 
 **DexID**:: 0464
-**Species**:: Rhyperior
+**Name**:: Rhyperior
 **Type**:: Ground / Rock
 **Abilities**:: [[SRD-Lightning Rod|Lightning Rod]] / [[SRD-Solid Rock|Solid Rock]] ([[SRD-Reckless|Reckless]])
 **Base HP**:: 6

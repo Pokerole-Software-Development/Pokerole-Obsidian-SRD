@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-brionne-BookSprite.png
 BoxSprite: SRD-brionne-BoxSprite.png
 DexCategory: Pop Star Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Primarina]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Liquid Voice
 HomeSprite: SRD-brionne-HomeSprite.png
+Image: brionne.png
 Learnset: '[[SRD-Brionne-Learnset]]'
 Legendary: 'No'
-Name: Brionne
 Number: 729
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Field
 ShuffleToken: SRD-brionne-ShuffleToken.png
-Sprite: brionne.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 175
   Kilograms: 17.5
   Pounds: 38.6
 ---
@@ -57,7 +50,7 @@ Weight:
 *In the wild, each pack has their own songs and dances, Brionne practice them in the moonlight. It is cheerful and not timid at all, it forms friendships easily through dance movements.*
 
 **DexID**:: 0729
-**Species**:: Brionne
+**Name**:: Brionne
 **Type**:: Water
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Liquid Voice|Liquid Voice]])
 **Base HP**:: 4

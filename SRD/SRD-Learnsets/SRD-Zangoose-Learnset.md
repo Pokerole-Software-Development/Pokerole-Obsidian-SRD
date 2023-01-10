@@ -1,5 +1,4 @@
 ---
-DexID: '0335'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Metal Claw|Metal Claw]]'
 Name: Zangoose
-Species: '[[SRD-Zangoose|Zangoose]]'
+Pokedex: '[[SRD-Zangoose|Zangoose]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

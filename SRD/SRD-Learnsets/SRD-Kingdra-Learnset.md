@@ -1,5 +1,4 @@
 ---
-DexID: '0230'
 Moves:
 - - Starter
   - '[[SRD-Bubble|Bubble]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Muddy Water|Muddy Water]]'
 Name: Kingdra
-Species: '[[SRD-Kingdra|Kingdra]]'
+Pokedex: '[[SRD-Kingdra|Kingdra]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0511'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Giga Drain|Giga Drain]]'
 Name: Pansage
-Species: '[[SRD-Pansage|Pansage]]'
+Pokedex: '[[SRD-Pansage|Pansage]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

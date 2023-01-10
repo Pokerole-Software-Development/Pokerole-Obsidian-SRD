@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-grotle-BookSprite.png
 BoxSprite: SRD-grotle-BoxSprite.png
 DexCategory: Grove Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Torterra]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Shell Armor
 HomeSprite: SRD-grotle-HomeSprite.png
+Image: grotle.png
 Learnset: '[[SRD-Grotle-Learnset]]'
 Legendary: 'No'
-Name: Grotle
 Number: 388
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-grotle-ShuffleToken.png
-Sprite: grotle.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 970
   Kilograms: 97.0
   Pounds: 213.8
 ---
@@ -57,7 +50,7 @@ Weight:
 *Other Pokemon harass Grotle when the bushes on its back have berries or fruit. It patiently waits for others to finish eating before moving. It loves clear water and it’s good at finding cool ponds and springs.*
 
 **DexID**:: 0388
-**Species**:: Grotle
+**Name**:: Grotle
 **Type**:: Grass
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Shell Armor|Shell Armor]])
 **Base HP**:: 4

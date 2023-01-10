@@ -1,5 +1,4 @@
 ---
-DexID: '0116'
 Moves:
 - - Starter
   - '[[SRD-Water Gun|Water Gun]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Octazooka|Octazooka]]'
 Name: Horsea
-Species: '[[SRD-Horsea|Horsea]]'
+Pokedex: '[[SRD-Horsea|Horsea]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

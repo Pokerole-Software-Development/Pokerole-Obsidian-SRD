@@ -1,7 +1,6 @@
 ---
 Ability1: Emergency Exit
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-golisopod-BookSprite.png
 BoxSprite: SRD-golisopod-BoxSprite.png
 DexCategory: Hard Scale Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Wimpod]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 20
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: ''
 HomeSprite: SRD-golisopod-HomeSprite.png
+Image: golisopod.png
 Learnset: '[[SRD-Golisopod-Learnset]]'
 Legendary: 'No'
-Name: Golisopod
 Number: 768
-PrimaryEggGroup: Bug
-SecondaryEggGroup: Water 3
 ShuffleToken: SRD-golisopod-ShuffleToken.png
-Sprite: golisopod.png
 Type1: Bug
 Type2: Water
 Weight:
-  Hectograms: 1080
   Kilograms: 108.0
   Pounds: 238.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *This Pokemon is a rare sight, for most Wimpods never evolve and when they do, Golisopod spend most of their lives in deep sea caves, meditating. It is extremely strong, its claws can tear through everything.*
 
 **DexID**:: 0768
-**Species**:: Golisopod
+**Name**:: Golisopod
 **Type**:: Bug / Water
 **Abilities**:: [[SRD-Emergency Exit|Emergency Exit]]
 **Base HP**:: 7

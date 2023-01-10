@@ -1,5 +1,4 @@
 ---
-DexID: '0310'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Crunch|Crunch]]'
 Name: Manectric
-Species: '[[SRD-Manectric|Manectric]]'
+Pokedex: '[[SRD-Manectric|Manectric]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

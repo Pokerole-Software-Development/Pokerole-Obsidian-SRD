@@ -1,7 +1,6 @@
 ---
 Ability1: Sturdy
 Ability2: Rock Head
-Baby: 'No'
 BookSprite: SRD-sudowoodo-BookSprite.png
 BoxSprite: SRD-sudowoodo-BoxSprite.png
 DexCategory: Imitation Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Move: Mimic
   Pokemon: '[[SRD-Bonsly]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Rattled
 HomeSprite: SRD-sudowoodo-HomeSprite.png
+Image: sudowoodo.png
 Learnset: '[[SRD-Sudowoodo-Learnset]]'
 Legendary: 'No'
-Name: Sudowoodo
 Number: 185
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-sudowoodo-ShuffleToken.png
-Sprite: sudowoodo.png
 Type1: Rock
 Type2: ''
 Weight:
-  Hectograms: 380
   Kilograms: 38.0
   Pounds: 83.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Sudowoodo camouflages itself as a tree to avoid being attacked by enemies. However, because its arms remain green throughout the year, this Pokemon is easy to identify in winter. It’s a little wary of humans.*
 
 **DexID**:: 0185
-**Species**:: Sudowoodo
+**Name**:: Sudowoodo
 **Type**:: Rock
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Rock Head|Rock Head]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 4

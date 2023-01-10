@@ -1,7 +1,6 @@
 ---
 Ability1: Clear Body
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-metang-BookSprite.png
 BoxSprite: SRD-metang-BoxSprite.png
 DexCategory: Iron Claw Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Metagross]]'
   Speed: Slow
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Light Metal
 HomeSprite: SRD-metang-HomeSprite.png
+Image: metang.png
 Learnset: '[[SRD-Metang-Learnset]]'
 Legendary: 'No'
-Name: Metang
 Number: 375
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-metang-ShuffleToken.png
-Sprite: metang.png
 Type1: Steel
 Type2: Psychic
 Weight:
-  Hectograms: 2025
   Kilograms: 202.5
   Pounds: 446.4
 ---
@@ -57,7 +50,7 @@ Weight:
 *Its two brains are joined by a magnetic nervous system. This allows Metang to use psychokinetic powers. It is able to float and move in midair at 60 mph. To evolve further it will need more brain power.*
 
 **DexID**:: 0375
-**Species**:: Metang
+**Name**:: Metang
 **Type**:: Steel / Psychic
 **Abilities**:: [[SRD-Clear Body|Clear Body]] ([[SRD-Light Metal|Light Metal]])
 **Base HP**:: 4

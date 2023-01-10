@@ -1,7 +1,6 @@
 ---
 Ability1: Synchronize
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-espeon-BookSprite.png
 BoxSprite: SRD-espeon-BoxSprite.png
 DexCategory: Sun Pokemon
@@ -17,25 +16,19 @@ Evolutions:
   Stat: Happiness
   Value: 4
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Magic Bounce
 HomeSprite: SRD-espeon-HomeSprite.png
+Image: espeon.png
 Learnset: '[[SRD-Espeon-Learnset]]'
 Legendary: 'No'
-Name: Espeon
 Number: 196
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-espeon-ShuffleToken.png
-Sprite: espeon.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 265
   Kilograms: 26.5
   Pounds: 58.4
 ---
@@ -55,7 +48,7 @@ Weight:
 *Espeon is extremely loyal to the trainer it considers worthy. It is said to have developed precognitive powers to protect its trainer from harm. The orb on its forehead glows whenever it uses psychic energy.*
 
 **DexID**:: 0196
-**Species**:: Espeon
+**Name**:: Espeon
 **Type**:: Psychic
 **Abilities**:: [[SRD-Synchronize|Synchronize]] ([[SRD-Magic Bounce|Magic Bounce]])
 **Base HP**:: 4

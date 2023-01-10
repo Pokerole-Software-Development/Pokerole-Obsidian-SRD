@@ -1,7 +1,6 @@
 ---
 Ability1: Illuminate
 Ability2: Swarm
-Baby: 'No'
 BookSprite: SRD-volbeat-BookSprite.png
 BoxSprite: SRD-volbeat-BoxSprite.png
 DexCategory: Firelfy Pokemon
@@ -11,25 +10,19 @@ DexDescription: The male of its species. Their tail shines bright during the nig
 EventAbilities: ''
 Evolutions: []
 GenderType: M
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Prankster
 HomeSprite: SRD-volbeat-HomeSprite.png
+Image: volbeat.png
 Learnset: '[[SRD-Volbeat-Learnset]]'
 Legendary: 'No'
-Name: Volbeat
 Number: 313
-PrimaryEggGroup: Bug
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-volbeat-ShuffleToken.png
-Sprite: volbeat.png
 Type1: Bug
 Type2: ''
 Weight:
-  Hectograms: 177
   Kilograms: 17.7
   Pounds: 39.0
 ---
@@ -49,7 +42,7 @@ Weight:
 *The male of its species. Their tail shines bright during the night, drawing geometric shapes in the sky. Volbeats live in swarms around clean ponds. They are attracted to Illumise's sweet aroma.*
 
 **DexID**:: 0313
-**Species**:: Volbeat
+**Name**:: Volbeat
 **Type**:: Bug
 **Abilities**:: [[SRD-Illuminate|Illuminate]] / [[SRD-Swarm|Swarm]] ([[SRD-Prankster|Prankster]])
 **Base HP**:: 4

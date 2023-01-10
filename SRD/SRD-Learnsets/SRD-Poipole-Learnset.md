@@ -1,5 +1,4 @@
 ---
-DexID: 0802
 Moves:
 - - Master
   - '[[SRD-Dragon Pulse|Dragon Pulse]]'
@@ -34,14 +33,14 @@ Moves:
 - - Master
   - '[[SRD-Signal Beam|Signal Beam]]'
 Name: Poipole
-Species: '[[SRD-Poipole|Poipole]]'
+Pokedex: '[[SRD-Poipole|Poipole]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

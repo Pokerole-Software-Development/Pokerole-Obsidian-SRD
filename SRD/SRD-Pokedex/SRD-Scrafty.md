@@ -1,7 +1,6 @@
 ---
 Ability1: Shed Skin
 Ability2: Moxie
-Baby: 'No'
 BookSprite: SRD-scrafty-BookSprite.png
 BoxSprite: SRD-scrafty-BoxSprite.png
 DexCategory: Hoodlum Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Scraggy]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Intimidate
 HomeSprite: SRD-scrafty-HomeSprite.png
+Image: scrafty.png
 Learnset: '[[SRD-Scrafty-Learnset]]'
 Legendary: 'No'
-Name: Scrafty
 Number: 560
-PrimaryEggGroup: Field
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-scrafty-ShuffleToken.png
-Sprite: scrafty.png
 Type1: Dark
 Type2: Fighting
 Weight:
-  Hectograms: 300
   Kilograms: 30.0
   Pounds: 66.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *They form gangs and beat anyone who trespasses their territory. The one with the biggest crest is the leader. They throw powerful kicks and their skin is an excellent shield. Be careful around them.*
 
 **DexID**:: 0560
-**Species**:: Scrafty
+**Name**:: Scrafty
 **Type**:: Dark / Fighting
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]] / [[SRD-Moxie|Moxie]] ([[SRD-Intimidate|Intimidate]])
 **Base HP**:: 4

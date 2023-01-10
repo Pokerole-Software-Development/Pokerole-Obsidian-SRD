@@ -1,7 +1,6 @@
 ---
 Ability1: Frisk
 Ability2: Infiltrator
-Baby: 'No'
 BookSprite: SRD-noivern-BookSprite.png
 BoxSprite: SRD-noivern-BoxSprite.png
 DexCategory: Sound Wave Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Noibat]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Telepathy
 HomeSprite: SRD-noivern-HomeSprite.png
+Image: noivern.png
 Learnset: '[[SRD-Noivern-Learnset]]'
 Legendary: 'No'
-Name: Noivern
 Number: 715
-PrimaryEggGroup: Flying
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-noivern-ShuffleToken.png
-Sprite: noivern.png
 Type1: Flying
 Type2: Dragon
 Weight:
-  Hectograms: 850
   Kilograms: 85.0
   Pounds: 187.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *They fly during the new moon and attack careless prey. Nothing can beat them in a battle in the dark. To keep them calm you should feed them fruit or else they’ll release shocking ultrasonic waves.*
 
 **DexID**:: 0715
-**Species**:: Noivern
+**Name**:: Noivern
 **Type**:: Flying / Dragon
 **Abilities**:: [[SRD-Frisk|Frisk]] / [[SRD-Infiltrator|Infiltrator]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 4

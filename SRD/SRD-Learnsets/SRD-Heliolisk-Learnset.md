@@ -1,5 +1,4 @@
 ---
-DexID: 0696
 Moves:
 - - Beginner
   - '[[SRD-Charge|Charge]]'
@@ -28,14 +27,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Punch|Fire Punch]]'
 Name: Heliolisk
-Species: '[[SRD-Heliolisk|Heliolisk]]'
+Pokedex: '[[SRD-Heliolisk|Heliolisk]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

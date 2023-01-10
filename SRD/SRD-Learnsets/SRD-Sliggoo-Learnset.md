@@ -1,5 +1,4 @@
 ---
-DexID: '0706'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Counter|Counter]]'
 Name: Sliggoo
-Species: '[[SRD-Sliggoo|Sliggoo]]'
+Pokedex: '[[SRD-Sliggoo|Sliggoo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: Infiltrator
-Baby: 'No'
 BookSprite: SRD-espurr-BookSprite.png
 BoxSprite: SRD-espurr-BoxSprite.png
 DexCategory: Restraint Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Meowstic]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Own Tempo
 HomeSprite: SRD-espurr-HomeSprite.png
+Image: espurr.png
 Learnset: '[[SRD-Espurr-Learnset]]'
 Legendary: 'No'
-Name: Espurr
 Number: 677
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-espurr-ShuffleToken.png
-Sprite: espurr.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 35
   Kilograms: 3.5
   Pounds: 7.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *The organs that emit its intense psychic power are tucked under its ears to keep energy from escaping. It still does not control its power and could destroy something without realizing it.*
 
 **DexID**:: 0677
-**Species**:: Espurr
+**Name**:: Espurr
 **Type**:: Psychic
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Infiltrator|Infiltrator]] ([[SRD-Own Tempo|Own Tempo]])
 **Base HP**:: 3

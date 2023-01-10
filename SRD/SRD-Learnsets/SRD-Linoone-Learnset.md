@@ -1,5 +1,4 @@
 ---
-DexID: '0264'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Linoone
-Species: '[[SRD-Linoone|Linoone]]'
+Pokedex: '[[SRD-Linoone|Linoone]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

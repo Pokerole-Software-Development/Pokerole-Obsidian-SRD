@@ -1,7 +1,6 @@
 ---
 Ability1: Cheek Pouch
 Ability2: Pickup
-Baby: 'No'
 BookSprite: SRD-dedenne-BookSprite.png
 BoxSprite: SRD-dedenne-BoxSprite.png
 DexCategory: Antenna Pokemon
@@ -11,25 +10,19 @@ DexDescription: The tail is used to absorb electricity from power outlets. They 
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Plus
 HomeSprite: SRD-dedenne-HomeSprite.png
+Image: dedenne.png
 Learnset: '[[SRD-Dedenne-Learnset]]'
 Legendary: 'No'
-Name: Dedenne
 Number: 702
-PrimaryEggGroup: Field
-SecondaryEggGroup: Fairy
 ShuffleToken: SRD-dedenne-ShuffleToken.png
-Sprite: dedenne.png
 Type1: Electric
 Type2: Fairy
 Weight:
-  Hectograms: 22
   Kilograms: 2.2
   Pounds: 4.9
 ---
@@ -49,7 +42,7 @@ Weight:
 *The tail is used to absorb electricity from power outlets. They communicate with each other by feeling the static on their whiskers. Its cute and cuddly appearance make it a favorite pet.*
 
 **DexID**:: 0702
-**Species**:: Dedenne
+**Name**:: Dedenne
 **Type**:: Electric / Fairy
 **Abilities**:: [[SRD-Cheek Pouch|Cheek Pouch]] / [[SRD-Pickup|Pickup]] ([[SRD-Plus|Plus]])
 **Base HP**:: 4

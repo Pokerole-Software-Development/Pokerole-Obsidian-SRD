@@ -1,7 +1,6 @@
 ---
 Ability1: Leaf Guard
 Ability2: Oblivious
-Baby: 'No'
 BookSprite: SRD-steenee-BookSprite.png
 BoxSprite: SRD-steenee-BoxSprite.png
 DexCategory: Fruit Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Tsareena]]'
   Speed: Medium
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Sweet Veil
 HomeSprite: SRD-steenee-HomeSprite.png
+Image: steenee.png
 Learnset: '[[SRD-Steenee-Learnset]]'
 Legendary: 'No'
-Name: Steenee
 Number: 762
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-steenee-ShuffleToken.png
-Sprite: steenee.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 82
   Kilograms: 8.2
   Pounds: 18.1
 ---
@@ -57,7 +50,7 @@ Weight:
 *Its sweet aroma keeps attracting predators but it fends them away with its hard and bitter head leaves. It likes to be taken seriously and can be hard to deal with, if you make it mad you’ll receive a kick.*
 
 **DexID**:: 0762
-**Species**:: Steenee
+**Name**:: Steenee
 **Type**:: Grass
 **Abilities**:: [[SRD-Leaf Guard|Leaf Guard]] / [[SRD-Oblivious|Oblivious]] ([[SRD-Sweet Veil|Sweet Veil]])
 **Base HP**:: 4

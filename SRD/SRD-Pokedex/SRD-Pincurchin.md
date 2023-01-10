@@ -1,7 +1,6 @@
 ---
 Ability1: Lightning Rod
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-pincurchin-BookSprite.png
 BoxSprite: SRD-pincurchin-BoxSprite.png
 DexCategory: Sea Urchin Pokemon
@@ -11,25 +10,19 @@ DexDescription: This quiet pokemon feeds on sea weed, using its teeth to scrape 
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Electric Surge
 HomeSprite: SRD-pincurchin-HomeSprite.png
+Image: pincurchin.png
 Learnset: '[[SRD-Pincurchin-Learnset]]'
 Legendary: 'No'
-Name: Pincurchin
 Number: 871
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Amorphous
 ShuffleToken: SRD-pincurchin-ShuffleToken.png
-Sprite: pincurchin.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 10
   Kilograms: 1.0
   Pounds: 2.2
 ---
@@ -49,7 +42,7 @@ Weight:
 *This quiet pokemon feeds on sea weed, using its teeth to scrape it off rocks. It stores electricity in each of its spines. Even if one gets broken off, it will continue to emit electricity for a few more hours.*
 
 **DexID**:: 0871
-**Species**:: Pincurchin
+**Name**:: Pincurchin
 **Type**:: Electric
 **Abilities**:: [[SRD-Lightning Rod|Lightning Rod]] ([[SRD-Electric Surge|Electric Surge]])
 **Base HP**:: 4

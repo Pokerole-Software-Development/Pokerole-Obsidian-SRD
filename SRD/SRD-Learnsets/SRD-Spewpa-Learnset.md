@@ -1,5 +1,4 @@
 ---
-DexID: '0664'
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -14,14 +13,14 @@ Moves:
 - - Pro
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Spewpa
-Species: '[[SRD-Spewpa|Spewpa]]'
+Pokedex: '[[SRD-Spewpa|Spewpa]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

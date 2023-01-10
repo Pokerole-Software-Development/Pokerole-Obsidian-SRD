@@ -1,5 +1,4 @@
 ---
-DexID: 0855
 Moves:
 - - Starter
   - '[[SRD-Confusion|Confusion]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Aromatic Mist|Aromatic Mist]]'
 Name: Hatenna
-Species: '[[SRD-Hatenna|Hatenna]]'
+Pokedex: '[[SRD-Hatenna|Hatenna]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

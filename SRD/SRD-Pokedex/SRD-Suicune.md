@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-suicune-BookSprite.png
 BoxSprite: SRD-suicune-BoxSprite.png
 DexCategory: No Data
@@ -10,25 +9,19 @@ DexDescription: Johto Legends tell about a Pokemon that carries the north winds,
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 20
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Inner Focus
 HomeSprite: SRD-suicune-HomeSprite.png
+Image: suicune.png
 Learnset: '[[SRD-Suicune-Learnset]]'
 Legendary: 'Yes'
-Name: Suicune
 Number: 245
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-suicune-ShuffleToken.png
-Sprite: suicune.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 1870
   Kilograms: 187.0
   Pounds: 412.3
 ---
@@ -48,7 +41,7 @@ Weight:
 *Johto Legends tell about a Pokemon that carries the north winds, sailing above the clouds as the aurora, purifying water fountains, pools and rivers.*
 
 **DexID**:: 0245
-**Species**:: Suicune
+**Name**:: Suicune
 **Type**:: Water
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 5

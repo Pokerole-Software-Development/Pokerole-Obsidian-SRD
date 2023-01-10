@@ -1,7 +1,6 @@
 ---
 Ability1: Cute Charm
 Ability2: Competitive
-Baby: 'Yes'
 BookSprite: SRD-igglybuff-BookSprite.png
 BoxSprite: SRD-igglybuff-BoxSprite.png
 DexCategory: Balloon Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Happiness
   Value: 4
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Friend Guard
 HomeSprite: SRD-igglybuff-HomeSprite.png
+Image: igglybuff.png
 Learnset: '[[SRD-Igglybuff-Learnset]]'
 Legendary: 'No'
-Name: Igglybuff
 Number: 174
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-igglybuff-ShuffleToken.png
-Sprite: igglybuff.png
 Type1: Normal
 Type2: Fairy
 Weight:
-  Hectograms: 10
   Kilograms: 1.0
   Pounds: 2.2
 ---
@@ -54,7 +47,7 @@ Weight:
 *It has a very light body that makes it float and bounce. If you are not careful it can bounce away without control. After being bottle fed it will not bounce but wiggle around. It gets cranky if it doesn’t take a nap.*
 
 **DexID**:: 0174
-**Species**:: Igglybuff
+**Name**:: Igglybuff
 **Type**:: Normal / Fairy
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Competitive|Competitive]] ([[SRD-Friend Guard|Friend Guard]])
 **Base HP**:: 3

@@ -1,5 +1,4 @@
 ---
-DexID: '0761'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Giga Impact|Giga Impact]]'
 Name: Bewear
-Species: '[[SRD-Bewear|Bewear]]'
+Pokedex: '[[SRD-Bewear|Bewear]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

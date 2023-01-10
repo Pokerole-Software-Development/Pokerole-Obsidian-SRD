@@ -1,7 +1,6 @@
 ---
 Ability1: Inner Focus
 Ability2: Regenerator
-Baby: 'No'
 BookSprite: SRD-mienshao-BookSprite.png
 BoxSprite: SRD-mienshao-BoxSprite.png
 DexCategory: Martial Arts Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Mienfoo]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Reckless
 HomeSprite: SRD-mienshao-HomeSprite.png
+Image: mienshao.png
 Learnset: '[[SRD-Mienshao-Learnset]]'
 Legendary: 'No'
-Name: Mienshao
 Number: 620
-PrimaryEggGroup: Field
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-mienshao-ShuffleToken.png
-Sprite: mienshao.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 355
   Kilograms: 35.5
   Pounds: 78.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *By the time they evolve they already have many years of experience in fighting. They use the long fur on their arms as a whip to strike their opponents and will not stop until the foe is defeated.*
 
 **DexID**:: 0620
-**Species**:: Mienshao
+**Name**:: Mienshao
 **Type**:: Fighting
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] / [[SRD-Regenerator|Regenerator]] ([[SRD-Reckless|Reckless]])
 **Base HP**:: 4

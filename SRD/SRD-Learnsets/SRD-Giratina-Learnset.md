@@ -1,5 +1,4 @@
 ---
-DexID: 0487
 Moves:
 - - Master
   - '[[SRD-Dragon Breath|Dragon Breath]]'
@@ -42,14 +41,14 @@ Moves:
 - - Master
   - '[[SRD-Gravity|Gravity]]'
 Name: Giratina
-Species: '[[SRD-Giratina|Giratina]]'
+Pokedex: '[[SRD-Giratina|Giratina]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

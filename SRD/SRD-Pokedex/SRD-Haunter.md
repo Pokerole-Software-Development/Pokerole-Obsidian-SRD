@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-haunter-BookSprite.png
 BoxSprite: SRD-haunter-BoxSprite.png
 DexCategory: Gas Pokemon
@@ -18,25 +17,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Gengar]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: ''
 HomeSprite: SRD-haunter-HomeSprite.png
+Image: haunter.png
 Learnset: '[[SRD-Haunter-Learnset]]'
 Legendary: 'No'
-Name: Haunter
 Number: 93
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-haunter-ShuffleToken.png
-Sprite: haunter.png
 Type1: Ghost
 Type2: Poison
 Weight:
-  Hectograms: 1
   Kilograms: 0.1
   Pounds: 0.2
 ---
@@ -56,7 +49,7 @@ Weight:
 *Haunter is a dangerous Pokemon. it will try to lick you with its tongue to steal your life away. If you get the feeling of being watched in darkness when nobody is around, it means a Haunter is there.*
 
 **DexID**:: 0093
-**Species**:: Haunter
+**Name**:: Haunter
 **Type**:: Ghost / Poison
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4

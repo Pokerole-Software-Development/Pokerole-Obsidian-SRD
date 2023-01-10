@@ -1,7 +1,6 @@
 ---
 Ability1: Unaware
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-cosmog-BookSprite.png
 BoxSprite: SRD-cosmog-BoxSprite.png
 DexCategory: No Data
@@ -14,25 +13,19 @@ Evolutions:
   Pokemon: '[[SRD-Cosmoem]]'
   Speed: Unknown
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: ''
 HomeSprite: SRD-cosmog-HomeSprite.png
+Image: cosmog.png
 Learnset: '[[SRD-Cosmog-Learnset]]'
 Legendary: 'No'
-Name: Cosmog
 Number: 789
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-cosmog-ShuffleToken.png
-Sprite: cosmog.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 1
   Kilograms: 0.1
   Pounds: 0.2
 ---
@@ -52,7 +45,7 @@ Weight:
 *A creature like this was observed on a telescope. It is rumored to be a Pokemon from another world, but no specific details are known.*
 
 **DexID**:: 0789
-**Species**:: Cosmog
+**Name**:: Cosmog
 **Type**:: Psychic
 **Abilities**:: [[SRD-Unaware|Unaware]]
 **Base HP**:: 3

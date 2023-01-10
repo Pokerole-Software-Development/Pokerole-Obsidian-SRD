@@ -1,5 +1,4 @@
 ---
-DexID: 0282
 Moves:
 - - Starter
   - '[[SRD-Double Team|Double Team]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Wonder Room|Wonder Room]]'
 Name: Gardevoir
-Species: '[[SRD-Gardevoir|Gardevoir]]'
+Pokedex: '[[SRD-Gardevoir|Gardevoir]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

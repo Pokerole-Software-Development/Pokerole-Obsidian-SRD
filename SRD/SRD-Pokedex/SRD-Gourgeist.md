@@ -1,7 +1,6 @@
 ---
 Ability1: Pickup
 Ability2: Frisk
-Baby: 'No'
 BookSprite: SRD-gourgeist-BookSprite.png
 BoxSprite: SRD-gourgeist-BoxSprite.png
 DexCategory: Pumpkin Pokemon
@@ -14,25 +13,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Pumpkaboo]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Insomnia
 HomeSprite: SRD-gourgeist-HomeSprite.png
+Image: gourgeist.png
 Learnset: '[[SRD-Gourgeist-Learnset]]'
 Legendary: 'No'
-Name: Gourgeist
 Number: 711
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-gourgeist-ShuffleToken.png
-Sprite: gourgeist.png
 Type1: Ghost
 Type2: Grass
 Weight:
-  Hectograms: 125
   Kilograms: 12.5
   Pounds: 27.6
 ---
@@ -52,7 +45,7 @@ Weight:
 *They wander in the town streets every new moon. It wraps its prey on its arms and sings joyfully as it observes the suffering of the victim. Hearing it sing will give you horrible nightmares.*
 
 **DexID**:: 0711
-**Species**:: Gourgeist
+**Name**:: Gourgeist
 **Type**:: Ghost / Grass
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Frisk|Frisk]] ([[SRD-Insomnia|Insomnia]])
 **Base HP**:: 4

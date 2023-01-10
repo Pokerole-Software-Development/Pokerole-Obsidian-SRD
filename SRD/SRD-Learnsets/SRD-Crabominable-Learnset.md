@@ -1,5 +1,4 @@
 ---
-DexID: '0741'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Crabominable
-Species: '[[SRD-Crabominable|Crabominable]]'
+Pokedex: '[[SRD-Crabominable|Crabominable]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

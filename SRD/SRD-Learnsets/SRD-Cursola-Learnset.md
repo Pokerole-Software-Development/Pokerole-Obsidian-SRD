@@ -1,5 +1,4 @@
 ---
-DexID: 0863
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Destiny Bond|Destiny Bond]]'
 Name: Cursola
-Species: '[[SRD-Cursola|Cursola]]'
+Pokedex: '[[SRD-Cursola|Cursola]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0034'
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -32,14 +31,14 @@ Moves:
 - - Pro
   - '[[SRD-Head Smash|Head Smash]]'
 Name: Nidoking
-Species: '[[SRD-Nidoking|Nidoking]]'
+Pokedex: '[[SRD-Nidoking|Nidoking]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

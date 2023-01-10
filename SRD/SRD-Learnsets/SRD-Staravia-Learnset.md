@@ -1,5 +1,4 @@
 ---
-DexID: 0397
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Detect|Detect]]'
 Name: Staravia
-Species: '[[SRD-Staravia|Staravia]]'
+Pokedex: '[[SRD-Staravia|Staravia]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

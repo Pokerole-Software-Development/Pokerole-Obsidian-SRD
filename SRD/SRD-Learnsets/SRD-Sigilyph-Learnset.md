@@ -1,5 +1,4 @@
 ---
-DexID: '0561'
 Moves:
 - - Starter
   - '[[SRD-Gust|Gust]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Psycho Shift|Psycho Shift]]'
 Name: Sigilyph
-Species: '[[SRD-Sigilyph|Sigilyph]]'
+Pokedex: '[[SRD-Sigilyph|Sigilyph]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

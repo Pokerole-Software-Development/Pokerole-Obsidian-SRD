@@ -1,7 +1,6 @@
 ---
 Ability1: Misty Surge
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-tapu-fini-BookSprite.png
 BoxSprite: SRD-tapu-fini-BoxSprite.png
 DexCategory: No Data
@@ -10,25 +9,19 @@ DexDescription: The people on Poni island are proud of the clean water on their 
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Telepathy
 HomeSprite: SRD-tapu-fini-HomeSprite.png
+Image: tapu-fini.png
 Learnset: '[[SRD-Tapu Fini-Learnset]]'
 Legendary: 'Yes'
-Name: Tapu Fini
 Number: 788
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-tapu-fini-ShuffleToken.png
-Sprite: tapu-fini.png
 Type1: Water
 Type2: Fairy
 Weight:
-  Hectograms: 212
   Kilograms: 21.2
   Pounds: 46.7
 ---
@@ -48,7 +41,7 @@ Weight:
 *The people on Poni island are proud of the clean water on their land, for that they thank their guardian spirit who is said to be the ocean itself.*
 
 **DexID**:: 0788
-**Species**:: Tapu Fini
+**Name**:: Tapu Fini
 **Type**:: Water / Fairy
 **Abilities**:: [[SRD-Misty Surge|Misty Surge]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 4

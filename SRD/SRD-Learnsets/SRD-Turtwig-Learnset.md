@@ -1,5 +1,4 @@
 ---
-DexID: 0387
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Grass Pledge|Grass Pledge]]'
 Name: Turtwig
-Species: '[[SRD-Turtwig|Turtwig]]'
+Pokedex: '[[SRD-Turtwig|Turtwig]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

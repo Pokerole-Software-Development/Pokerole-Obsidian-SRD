@@ -1,7 +1,6 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-pheromosa-BookSprite.png
 BoxSprite: SRD-pheromosa-BoxSprite.png
 DexCategory: 'Aether Foundation Log #012'
@@ -11,25 +10,19 @@ DexDescription: "This one also appears to be unable to enter a Pokeball, the ray
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: ''
 HomeSprite: SRD-pheromosa-HomeSprite.png
+Image: pheromosa.png
 Learnset: '[[SRD-Pheromosa-Learnset]]'
 Legendary: 'Yes'
-Name: Pheromosa
 Number: 795
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-pheromosa-ShuffleToken.png
-Sprite: pheromosa.png
 Type1: Bug
 Type2: Fighting
 Weight:
-  Hectograms: 250
   Kilograms: 25.0
   Pounds: 55.1
 ---
@@ -49,7 +42,7 @@ Weight:
 *This one also appears to be unable to enter a Pokeball, the rays just won’t surround them. This one has refused to touch anything we give to it and appears displeased by my mere presence.*
 
 **DexID**:: 0795
-**Species**:: Pheromosa
+**Name**:: Pheromosa
 **Type**:: Bug / Fighting
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 4

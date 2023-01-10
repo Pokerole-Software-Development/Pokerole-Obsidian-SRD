@@ -1,5 +1,4 @@
 ---
-DexID: '0165'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Ledyba
-Species: '[[SRD-Ledyba|Ledyba]]'
+Pokedex: '[[SRD-Ledyba|Ledyba]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

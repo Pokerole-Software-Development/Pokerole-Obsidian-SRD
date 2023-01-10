@@ -1,5 +1,4 @@
 ---
-DexID: '0261'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Poochyena
-Species: '[[SRD-Poochyena|Poochyena]]'
+Pokedex: '[[SRD-Poochyena|Poochyena]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

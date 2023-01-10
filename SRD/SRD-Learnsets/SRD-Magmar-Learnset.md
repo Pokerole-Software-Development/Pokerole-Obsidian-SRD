@@ -1,5 +1,4 @@
 ---
-DexID: '0126'
 Moves:
 - - Starter
   - '[[SRD-Smog|Smog]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Dual Chop|Dual Chop]]'
 Name: Magmar
-Species: '[[SRD-Magmar|Magmar]]'
+Pokedex: '[[SRD-Magmar|Magmar]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

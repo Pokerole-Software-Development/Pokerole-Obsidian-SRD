@@ -1,5 +1,4 @@
 ---
-DexID: 0782
 Moves:
 - - Starter
   - '[[SRD-Growth|Growth]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Brutal Swing|Brutal Swing]]'
 Name: Dhelmise
-Species: '[[SRD-Dhelmise|Dhelmise]]'
+Pokedex: '[[SRD-Dhelmise|Dhelmise]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

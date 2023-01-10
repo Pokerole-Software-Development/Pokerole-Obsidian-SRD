@@ -1,5 +1,4 @@
 ---
-DexID: 0584
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Ice Shard|Ice Shard]]'
 Name: Vanilluxe
-Species: '[[SRD-Vanilluxe|Vanilluxe]]'
+Pokedex: '[[SRD-Vanilluxe|Vanilluxe]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

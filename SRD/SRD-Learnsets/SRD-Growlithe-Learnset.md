@@ -1,5 +1,4 @@
 ---
-DexID: 0058
 Moves:
 - - Starter
   - '[[SRD-Roar|Roar]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Charm|Charm]]'
 Name: Growlithe
-Species: '[[SRD-Growlithe|Growlithe]]'
+Pokedex: '[[SRD-Growlithe|Growlithe]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

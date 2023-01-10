@@ -1,5 +1,4 @@
 ---
-DexID: '0547'
 Moves:
 - - Starter
   - '[[SRD-Growth|Growth]]'
@@ -32,14 +31,14 @@ Moves:
 - - Pro
   - '[[SRD-Encore|Encore]]'
 Name: Whimsicott
-Species: '[[SRD-Whimsicott|Whimsicott]]'
+Pokedex: '[[SRD-Whimsicott|Whimsicott]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

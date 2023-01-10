@@ -1,5 +1,4 @@
 ---
-DexID: 0192
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Sunflora
-Species: '[[SRD-Sunflora|Sunflora]]'
+Pokedex: '[[SRD-Sunflora|Sunflora]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

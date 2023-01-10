@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: Big Pecks
-Baby: 'No'
 BookSprite: SRD-swanna-BookSprite.png
 BoxSprite: SRD-swanna-BoxSprite.png
 DexCategory: White Bird Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Ducklett]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Hydration
 HomeSprite: SRD-swanna-HomeSprite.png
+Image: swanna.png
 Learnset: '[[SRD-Swanna-Learnset]]'
 Legendary: 'No'
-Name: Swanna
 Number: 581
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Flying
 ShuffleToken: SRD-swanna-ShuffleToken.png
-Sprite: swanna.png
 Type1: Water
 Type2: Flying
 Weight:
-  Hectograms: 242
   Kilograms: 24.2
   Pounds: 53.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *Swanna come out to dance at dusk. The one dancing in the middle is the leader of the flock. Despite their elegant and frail appearance, they can flap their wings strongly and fly for thousands of miles.*
 
 **DexID**:: 0581
-**Species**:: Swanna
+**Name**:: Swanna
 **Type**:: Water / Flying
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Big Pecks|Big Pecks]] ([[SRD-Hydration|Hydration]])
 **Base HP**:: 4

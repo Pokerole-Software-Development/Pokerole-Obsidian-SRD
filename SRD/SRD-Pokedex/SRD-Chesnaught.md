@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-chesnaught-BookSprite.png
 BoxSprite: SRD-chesnaught-BoxSprite.png
 DexCategory: Spiny Armor Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Quilladin]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Bulletproof
 HomeSprite: SRD-chesnaught-HomeSprite.png
+Image: chesnaught.png
 Learnset: '[[SRD-Chesnaught-Learnset]]'
 Legendary: 'No'
-Name: Chesnaught
 Number: 652
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-chesnaught-ShuffleToken.png
-Sprite: chesnaught.png
 Type1: Grass
 Type2: Fighting
 Weight:
-  Hectograms: 900
   Kilograms: 90.0
   Pounds: 198.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *These Pokemon are known for taking defensive stances instead of charging into battle. Many stories tell how during the old wars, Chesnaught protected their allies using their bodies.*
 
 **DexID**:: 0652
-**Species**:: Chesnaught
+**Name**:: Chesnaught
 **Type**:: Grass / Fighting
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Bulletproof|Bulletproof]])
 **Base HP**:: 5

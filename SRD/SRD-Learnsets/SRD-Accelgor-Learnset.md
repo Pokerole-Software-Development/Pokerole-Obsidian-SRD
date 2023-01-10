@@ -1,5 +1,4 @@
 ---
-DexID: 0618
 Moves:
 - - Starter
   - '[[SRD-Power Swap|Power Swap]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Pursuit|Pursuit]]'
 Name: Accelgor
-Species: '[[SRD-Accelgor|Accelgor]]'
+Pokedex: '[[SRD-Accelgor|Accelgor]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

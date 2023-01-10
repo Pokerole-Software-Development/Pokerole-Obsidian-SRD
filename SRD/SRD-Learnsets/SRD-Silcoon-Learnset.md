@@ -1,5 +1,4 @@
 ---
-DexID: '0266'
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -12,14 +11,14 @@ Moves:
 - - Pro
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Silcoon
-Species: '[[SRD-Silcoon|Silcoon]]'
+Pokedex: '[[SRD-Silcoon|Silcoon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

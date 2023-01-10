@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-eternatus-BookSprite.png
 BoxSprite: SRD-eternatus-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: A large meteorite fell on the Galar region 20, 000 years ago, ev
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 200
   Feet: 65.6
   Meters: 20.0
 HiddenAbility: ''
 HomeSprite: SRD-eternatus-HomeSprite.png
+Image: eternatus.png
 Learnset: '[[SRD-Eternatus-Learnset]]'
 Legendary: 'Yes'
-Name: Eternatus
 Number: 890
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-eternatus-ShuffleToken.png
-Sprite: eternatus.png
 Type1: Poison
 Type2: Dragon
 Weight:
-  Hectograms: 9500
   Kilograms: 950.0
   Pounds: 2094.4
 ---
@@ -49,7 +42,7 @@ Weight:
 *A large meteorite fell on the Galar region 20, 000 years ago, ever since this happened a power surge has been causing Pokemon to grow gigantic, this phenomenon is happening more in recent years.*
 
 **DexID**:: 0890
-**Species**:: Eternatus
+**Name**:: Eternatus
 **Type**:: Poison / Dragon
 **Abilities**:: [[SRD-Pressure|Pressure]]
 **Base HP**:: 10

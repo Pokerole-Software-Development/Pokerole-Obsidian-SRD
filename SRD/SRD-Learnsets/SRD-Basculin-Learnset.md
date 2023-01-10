@@ -1,5 +1,4 @@
 ---
-DexID: '0550'
 Moves:
 - - Starter
   - '[[SRD-Tail Whip|Tail Whip]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Basculin
-Species: '[[SRD-Basculin|Basculin]]'
+Pokedex: '[[SRD-Basculin|Basculin]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

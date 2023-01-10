@@ -1,7 +1,6 @@
 ---
 Ability1: Dry Skin
 Ability2: Sand Veil
-Baby: 'No'
 BookSprite: SRD-heliolisk-BookSprite.png
 BoxSprite: SRD-heliolisk-BoxSprite.png
 DexCategory: Generator Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Helioptile]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Solar Power
 HomeSprite: SRD-heliolisk-HomeSprite.png
+Image: heliolisk.png
 Learnset: '[[SRD-Heliolisk-Learnset]]'
 Legendary: 'No'
-Name: Heliolisk
 Number: 695
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-heliolisk-ShuffleToken.png
-Sprite: heliolisk.png
 Type1: Electric
 Type2: Normal
 Weight:
-  Hectograms: 210
   Kilograms: 21.0
   Pounds: 46.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *They flare their frills and generate energy. A single Heliolisk is able to generate enough power to light a skyscraper. Due to this, electricity companies are investing on breeding and research for this species.*
 
 **DexID**:: 0695
-**Species**:: Heliolisk
+**Name**:: Heliolisk
 **Type**:: Electric / Normal
 **Abilities**:: [[SRD-Dry Skin|Dry Skin]] / [[SRD-Sand Veil|Sand Veil]] ([[SRD-Solar Power|Solar Power]])
 **Base HP**:: 4

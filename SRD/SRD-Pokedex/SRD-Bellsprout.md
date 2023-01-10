@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-bellsprout-BookSprite.png
 BoxSprite: SRD-bellsprout-BoxSprite.png
 DexCategory: Flower Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Weepinbell]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Gluttony
 HomeSprite: SRD-bellsprout-HomeSprite.png
+Image: bellsprout.png
 Learnset: '[[SRD-Bellsprout-Learnset]]'
 Legendary: 'No'
-Name: Bellsprout
 Number: 69
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-bellsprout-ShuffleToken.png
-Sprite: bellsprout.png
 Type1: Grass
 Type2: Poison
 Weight:
-  Hectograms: 40
   Kilograms: 4.0
   Pounds: 8.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *They live in hot and humid places, blending around with the flora. It is carnivorous and will try to eat anything smaller than itself. It digests its prey with an acid substance on its mouth.*
 
 **DexID**:: 0069
-**Species**:: Bellsprout
+**Name**:: Bellsprout
 **Type**:: Grass / Poison
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 3

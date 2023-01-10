@@ -1,5 +1,4 @@
 ---
-DexID: 0825
 Moves:
 - - Starter
   - '[[SRD-Struggle Bug|Struggle Bug]]'
@@ -12,14 +11,14 @@ Moves:
 - - Pro
   - '[[SRD-Infestation|Infestation]]'
 Name: Blipbug
-Species: '[[SRD-Blipbug|Blipbug]]'
+Pokedex: '[[SRD-Blipbug|Blipbug]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0532'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Detect|Detect]]'
 Name: Timburr
-Species: '[[SRD-Timburr|Timburr]]'
+Pokedex: '[[SRD-Timburr|Timburr]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

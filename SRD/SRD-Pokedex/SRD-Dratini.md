@@ -1,7 +1,6 @@
 ---
 Ability1: Shed Skin
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-dratini-BookSprite.png
 BoxSprite: SRD-dratini-BoxSprite.png
 DexCategory: Dragon Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Dragonair]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Marvel Scale
 HomeSprite: SRD-dratini-HomeSprite.png
+Image: dratini.png
 Learnset: '[[SRD-Dratini-Learnset]]'
 Legendary: 'No'
-Name: Dratini
 Number: 147
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-dratini-ShuffleToken.png
-Sprite: dratini.png
 Type1: Dragon
 Type2: ''
 Weight:
-  Hectograms: 33
   Kilograms: 3.3
   Pounds: 7.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *Up until recently its existence was debated as being a mere legend, then a small colony was found underwater. It is still extremely rare to find. It sheds skin and grows larger every day.*
 
 **DexID**:: 0147
-**Species**:: Dratini
+**Name**:: Dratini
 **Type**:: Dragon
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]] ([[SRD-Marvel Scale|Marvel Scale]])
 **Base HP**:: 3

@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-grovyle-BookSprite.png
 BoxSprite: SRD-grovyle-BoxSprite.png
 DexCategory: Wood Gecko Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Sceptile]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Unburden
 HomeSprite: SRD-grovyle-HomeSprite.png
+Image: grovyle.png
 Learnset: '[[SRD-Grovyle-Learnset]]'
 Legendary: 'No'
-Name: Grovyle
 Number: 253
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-grovyle-ShuffleToken.png
-Sprite: grovyle.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 216
   Kilograms: 21.6
   Pounds: 47.6
 ---
@@ -57,7 +50,7 @@ Weight:
 *Their leaves provide camouflage in the jungles. They appear to fly from tree to tree, jumping huge lengths with amazing speed. It’s almost impossible to catch them once they start running away..*
 
 **DexID**:: 0253
-**Species**:: Grovyle
+**Name**:: Grovyle
 **Type**:: Grass
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Unburden|Unburden]])
 **Base HP**:: 4

@@ -1,5 +1,4 @@
 ---
-DexID: '0072'
 Moves:
 - - Starter
   - '[[SRD-Poison Sting|Poison Sting]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Magic Coat|Magic Coat]]'
 Name: Tentacool
-Species: '[[SRD-Tentacool|Tentacool]]'
+Pokedex: '[[SRD-Tentacool|Tentacool]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

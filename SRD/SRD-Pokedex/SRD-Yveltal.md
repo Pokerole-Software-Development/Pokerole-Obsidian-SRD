@@ -1,7 +1,6 @@
 ---
 Ability1: Dark Aura
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-yveltal-BookSprite.png
 BoxSprite: SRD-yveltal-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: A Kalos legend tells about the eternal struggle between life and
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 58
   Feet: 19.0
   Meters: 5.8
 HiddenAbility: ''
 HomeSprite: SRD-yveltal-HomeSprite.png
+Image: yveltal.png
 Learnset: '[[SRD-Yveltal-Learnset]]'
 Legendary: 'Yes'
-Name: Yveltal
 Number: 717
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-yveltal-ShuffleToken.png
-Sprite: yveltal.png
 Type1: Dark
 Type2: Flying
 Weight:
-  Hectograms: 2030
   Kilograms: 203.0
   Pounds: 447.5
 ---
@@ -49,7 +42,7 @@ Weight:
 *A Kalos legend tells about the eternal struggle between life and death. The main tale is about a King full of grief and hate who built a doomsday machine to kill everyone in the world.*
 
 **DexID**:: 0717
-**Species**:: Yveltal
+**Name**:: Yveltal
 **Type**:: Dark / Flying
 **Abilities**:: [[SRD-Dark Aura|Dark Aura]]
 **Base HP**:: 8

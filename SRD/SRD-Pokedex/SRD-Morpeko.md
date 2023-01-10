@@ -1,7 +1,6 @@
 ---
 Ability1: Hunger Switch
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-morpeko-BookSprite.png
 BoxSprite: SRD-morpeko-BoxSprite.png
 DexCategory: Two-Sided Pokemon
@@ -11,25 +10,19 @@ DexDescription: "It\u2019s Full-Belly Mode is friendly and playful, it treasures
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-morpeko-HomeSprite.png
+Image: morpeko.png
 Learnset: '[[SRD-Morpeko-Learnset]]'
 Legendary: 'No'
-Name: Morpeko
 Number: 877
-PrimaryEggGroup: Field
-SecondaryEggGroup: Fairy
 ShuffleToken: SRD-morpeko-ShuffleToken.png
-Sprite: morpeko.png
 Type1: Electric
 Type2: Dark
 Weight:
-  Hectograms: 30
   Kilograms: 3.0
   Pounds: 6.6
 ---
@@ -49,7 +42,7 @@ Weight:
 *It’s Full-Belly Mode is friendly and playful, it treasures food and treats. But intense hunger drives it to extremes of violence, and the electricity in its cheek sacs turn into a Dark-type energy*
 
 **DexID**:: 0877
-**Species**:: Morpeko
+**Name**:: Morpeko
 **Type**:: Electric / Dark
 **Abilities**:: [[SRD-Hunger Switch|Hunger Switch]]
 **Base HP**:: 4

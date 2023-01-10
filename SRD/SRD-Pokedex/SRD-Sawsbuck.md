@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: Sap Sipper
-Baby: 'No'
 BookSprite: SRD-sawsbuck-BookSprite.png
 BoxSprite: SRD-sawsbuck-BoxSprite.png
 DexCategory: Season Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Deerling]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 19
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Serene Grace
 HomeSprite: SRD-sawsbuck-HomeSprite.png
+Image: sawsbuck.png
 Learnset: '[[SRD-Sawsbuck-Learnset]]'
 Legendary: 'No'
-Name: Sawsbuck
 Number: 586
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-sawsbuck-ShuffleToken.png
-Sprite: sawsbuck.png
 Type1: Normal
 Type2: Grass
 Weight:
-  Hectograms: 925
   Kilograms: 92.5
   Pounds: 203.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *The plants growing on its horns change according to the season. They live in herds that migrate in search of grass. The leaders of the herd possess magnificent horns. They tend to be peaceful creatures.*
 
 **DexID**:: 0586
-**Species**:: Sawsbuck
+**Name**:: Sawsbuck
 **Type**:: Normal / Grass
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Sap Sipper|Sap Sipper]] ([[SRD-Serene Grace|Serene Grace]])
 **Base HP**:: 4

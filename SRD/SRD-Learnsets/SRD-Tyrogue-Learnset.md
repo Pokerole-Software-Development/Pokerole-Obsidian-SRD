@@ -1,5 +1,4 @@
 ---
-DexID: '0236'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -22,14 +21,14 @@ Moves:
 - - Pro
   - '[[SRD-Seismic Toss|Seismic Toss]]'
 Name: Tyrogue
-Species: '[[SRD-Tyrogue|Tyrogue]]'
+Pokedex: '[[SRD-Tyrogue|Tyrogue]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

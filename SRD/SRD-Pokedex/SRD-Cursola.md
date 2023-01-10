@@ -1,7 +1,6 @@
 ---
 Ability1: Weak Armor
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-cursola-BookSprite.png
 BoxSprite: SRD-cursola-BoxSprite.png
 DexCategory: Coral Pokemon
@@ -12,28 +11,22 @@ EventAbilities: ''
 Evolutions:
 - Evolves: From
   Kind: Level
-  Pokemon: '[[SRD-Galarian Corsola]]'
+  Pokemon: '[[SRD-Corsola (Galarian Form)]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Perish Body
 HomeSprite: SRD-cursola-HomeSprite.png
+Image: cursola.png
 Learnset: '[[SRD-Cursola-Learnset]]'
 Legendary: 'No'
-Name: Cursola
 Number: 864
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Water 3
 ShuffleToken: SRD-cursola-ShuffleToken.png
-Sprite: cursola.png
 Type1: Ghost
 Type2: ''
 Weight:
-  Hectograms: 4
   Kilograms: 0.4
   Pounds: 0.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *The ectoplasm serves as protection for its soul, do not touch it or you’ll become stiff as stone. This Pokemon longs for the days where coral reefs were full of life, it holds a grudge to those who destroyed them.*
 
 **DexID**:: 0864
-**Species**:: Cursola
+**Name**:: Cursola
 **Type**:: Ghost
 **Abilities**:: [[SRD-Weak Armor|Weak Armor]] ([[SRD-Perish Body|Perish Body]])
 **Base HP**:: 4
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon                  | Kind   | Speed   |
-|:----------|:-------------------------|:-------|:--------|
-| From      | [[SRD-Galarian Corsola]] | Level  | Medium  |
+| Evolves   | Pokemon                         | Kind   | Speed   |
+|:----------|:--------------------------------|:-------|:--------|
+| From      | [[SRD-Corsola (Galarian Form)]] | Level  | Medium  |
 
 ![[SRD-Cursola-Learnset]]

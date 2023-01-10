@@ -1,5 +1,4 @@
 ---
-DexID: 0298
 Moves:
 - - Starter
   - '[[SRD-Splash|Splash]]'
@@ -36,14 +35,14 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Azurill
-Species: '[[SRD-Azurill|Azurill]]'
+Pokedex: '[[SRD-Azurill|Azurill]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

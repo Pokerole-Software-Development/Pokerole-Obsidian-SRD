@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-gloom-BookSprite.png
 BoxSprite: SRD-gloom-BoxSprite.png
 DexCategory: Weed Pokemon
@@ -23,25 +22,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Bellossom]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Stench
 HomeSprite: SRD-gloom-HomeSprite.png
+Image: gloom.png
 Learnset: '[[SRD-Gloom-Learnset]]'
 Legendary: 'No'
-Name: Gloom
 Number: 44
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-gloom-ShuffleToken.png
-Sprite: gloom.png
 Type1: Grass
 Type2: Poison
 Weight:
-  Hectograms: 86
   Kilograms: 8.6
   Pounds: 19.0
 ---
@@ -61,7 +54,7 @@ Weight:
 *A horribly noxious honey drools from its mouth. One whiff of the honey can result in sickness. Some fans are said to enjoy its overwhelming stink, though. You can control this foul smell with lots of love and care.*
 
 **DexID**:: 0044
-**Species**:: Gloom
+**Name**:: Gloom
 **Type**:: Grass / Poison
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Stench|Stench]])
 **Base HP**:: 4

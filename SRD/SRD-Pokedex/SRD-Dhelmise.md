@@ -1,7 +1,6 @@
 ---
 Ability1: Steelworker
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-dhelmise-BookSprite.png
 BoxSprite: SRD-dhelmise-BoxSprite.png
 DexCategory: Sea Creeper Pokemon
@@ -11,25 +10,19 @@ DexDescription: A spirit adrift in the sea came back to life through this Pokemo
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 39
   Feet: 12.8
   Meters: 3.9
 HiddenAbility: ''
 HomeSprite: SRD-dhelmise-HomeSprite.png
+Image: dhelmise.png
 Learnset: '[[SRD-Dhelmise-Learnset]]'
 Legendary: 'No'
-Name: Dhelmise
 Number: 781
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-dhelmise-ShuffleToken.png
-Sprite: dhelmise.png
 Type1: Ghost
 Type2: Grass
 Weight:
-  Hectograms: 2100
   Kilograms: 210.0
   Pounds: 463.0
 ---
@@ -49,7 +42,7 @@ Weight:
 *A spirit adrift in the sea came back to life through this Pokemon that rarely leaves the deepest waters of the sea. Through the sea some Wailord carcasses have been found covered in seaweed and gashes.*
 
 **DexID**:: 0781
-**Species**:: Dhelmise
+**Name**:: Dhelmise
 **Type**:: Ghost / Grass
 **Abilities**:: [[SRD-Steelworker|Steelworker]]
 **Base HP**:: 5

@@ -1,5 +1,4 @@
 ---
-DexID: '0020'
 Moves:
 - - Starter
   - '[[SRD-Tail Whip|Tail Whip]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Final Gambit|Final Gambit]]'
 Name: Raticate
-Species: '[[SRD-Raticate|Raticate]]'
+Pokedex: '[[SRD-Raticate|Raticate]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

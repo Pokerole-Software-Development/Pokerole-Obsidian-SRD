@@ -1,5 +1,4 @@
 ---
-DexID: '0224'
 Moves:
 - - Starter
   - '[[SRD-Rock Blast|Rock Blast]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Dive|Dive]]'
 Name: Octillery
-Species: '[[SRD-Octillery|Octillery]]'
+Pokedex: '[[SRD-Octillery|Octillery]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

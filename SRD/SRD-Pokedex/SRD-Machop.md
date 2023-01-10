@@ -1,7 +1,6 @@
 ---
 Ability1: Guts
 Ability2: No Guard
-Baby: 'No'
 BookSprite: SRD-machop-BookSprite.png
 BoxSprite: SRD-machop-BoxSprite.png
 DexCategory: Superpower Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Machoke]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Steadfast
 HomeSprite: SRD-machop-HomeSprite.png
+Image: machop.png
 Learnset: '[[SRD-Machop-Learnset]]'
 Legendary: 'No'
-Name: Machop
 Number: 66
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-machop-ShuffleToken.png
-Sprite: machop.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 195
   Kilograms: 19.5
   Pounds: 43.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lives in mountains, training its fists against strong rocks , lifting boulders and hurling Rock Pokemon around to build stronger muscles. Even with its small size, it can compete against expert humans and win.*
 
 **DexID**:: 0066
-**Species**:: Machop
+**Name**:: Machop
 **Type**:: Fighting
 **Abilities**:: [[SRD-Guts|Guts]] / [[SRD-No Guard|No Guard]] ([[SRD-Steadfast|Steadfast]])
 **Base HP**:: 3

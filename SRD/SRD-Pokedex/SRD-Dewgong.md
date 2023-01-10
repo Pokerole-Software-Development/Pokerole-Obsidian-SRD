@@ -1,7 +1,6 @@
 ---
 Ability1: Thick Fat
 Ability2: Hydration
-Baby: 'No'
 BookSprite: SRD-dewgong-BookSprite.png
 BoxSprite: SRD-dewgong-BoxSprite.png
 DexCategory: Sea Lion Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Seel]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 17
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Ice Body
 HomeSprite: SRD-dewgong-HomeSprite.png
+Image: dewgong.png
 Learnset: '[[SRD-Dewgong-Learnset]]'
 Legendary: 'No'
-Name: Dewgong
 Number: 87
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Field
 ShuffleToken: SRD-dewgong-ShuffleToken.png
-Sprite: dewgong.png
 Type1: Water
 Type2: Ice
 Weight:
-  Hectograms: 1200
   Kilograms: 120.0
   Pounds: 264.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *Its body is covered with a pure white fur. The colder the weather, the more active it becomes. It hunts at night and it’s excellent at catching fish Pokemon. It is also very intelligent and playful.*
 
 **DexID**:: 0087
-**Species**:: Dewgong
+**Name**:: Dewgong
 **Type**:: Water / Ice
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Hydration|Hydration]] ([[SRD-Ice Body|Ice Body]])
 **Base HP**:: 4

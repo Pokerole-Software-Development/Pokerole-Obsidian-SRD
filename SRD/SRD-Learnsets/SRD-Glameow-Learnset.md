@@ -1,5 +1,4 @@
 ---
-DexID: '0431'
 Moves:
 - - Starter
   - '[[SRD-Fake Out|Fake Out]]'
@@ -36,14 +35,14 @@ Moves:
 - - Pro
   - '[[SRD-Hone Claws|Hone Claws]]'
 Name: Glameow
-Species: '[[SRD-Glameow|Glameow]]'
+Pokedex: '[[SRD-Glameow|Glameow]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

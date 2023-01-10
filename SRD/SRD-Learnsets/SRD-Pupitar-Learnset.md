@@ -1,5 +1,4 @@
 ---
-DexID: '0247'
 Moves:
 - - Starter
   - '[[SRD-Bite|Bite]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Focus Energy|Focus Energy]]'
 Name: Pupitar
-Species: '[[SRD-Pupitar|Pupitar]]'
+Pokedex: '[[SRD-Pupitar|Pupitar]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

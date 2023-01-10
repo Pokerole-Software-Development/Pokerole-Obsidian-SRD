@@ -1,7 +1,6 @@
 ---
 Ability1: Pickup
 Ability2: Gluttony
-Baby: 'No'
 BookSprite: SRD-zigzagoon-BookSprite.png
 BoxSprite: SRD-zigzagoon-BoxSprite.png
 DexCategory: Tiny Raccoon Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Linoone]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Quick Feet
 HomeSprite: SRD-zigzagoon-HomeSprite.png
+Image: zigzagoon.png
 Learnset: '[[SRD-Zigzagoon-Learnset]]'
 Legendary: 'No'
-Name: Zigzagoon
 Number: 263
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-zigzagoon-ShuffleToken.png
-Sprite: zigzagoon.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 175
   Kilograms: 17.5
   Pounds: 38.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are extremely curious and want to know all about everything. Due to their innate curiosity, they usually find hidden objects. Sometimes they play dead to avoid being attacked.*
 
 **DexID**:: 0263
-**Species**:: Zigzagoon
+**Name**:: Zigzagoon
 **Type**:: Normal
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Gluttony|Gluttony]] ([[SRD-Quick Feet|Quick Feet]])
 **Base HP**:: 3

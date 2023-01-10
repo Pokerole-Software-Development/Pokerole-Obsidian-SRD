@@ -1,5 +1,4 @@
 ---
-DexID: 0820
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Sand Attack|Sand Attack]]'
 Name: Rookidee
-Species: '[[SRD-Rookidee|Rookidee]]'
+Pokedex: '[[SRD-Rookidee|Rookidee]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

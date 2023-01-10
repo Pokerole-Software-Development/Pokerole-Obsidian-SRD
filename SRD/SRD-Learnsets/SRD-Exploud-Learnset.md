@@ -1,5 +1,4 @@
 ---
-DexID: 0295
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Whirlpool|Whirlpool]]'
 Name: Exploud
-Species: '[[SRD-Exploud|Exploud]]'
+Pokedex: '[[SRD-Exploud|Exploud]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

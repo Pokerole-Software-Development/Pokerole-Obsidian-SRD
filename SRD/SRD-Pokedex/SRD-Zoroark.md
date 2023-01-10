@@ -1,7 +1,6 @@
 ---
 Ability1: Illusion
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-zoroark-BookSprite.png
 BoxSprite: SRD-zoroark-BoxSprite.png
 DexCategory: Illusion Fox Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Zorua]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: ''
 HomeSprite: SRD-zoroark-HomeSprite.png
+Image: zoroark.png
 Learnset: '[[SRD-Zoroark-Learnset]]'
 Legendary: 'No'
-Name: Zoroark
 Number: 571
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-zoroark-ShuffleToken.png
-Sprite: zoroark.png
 Type1: Dark
 Type2: ''
 Weight:
-  Hectograms: 811
   Kilograms: 81.1
   Pounds: 178.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *They live in groups, their lair’s entrance is protected with their illusions and mirages. They have been known to fool entire towns with their tricks. Their illusions can hide their tails now but they remain mute.*
 
 **DexID**:: 0571
-**Species**:: Zoroark
+**Name**:: Zoroark
 **Type**:: Dark
 **Abilities**:: [[SRD-Illusion|Illusion]]
 **Base HP**:: 4

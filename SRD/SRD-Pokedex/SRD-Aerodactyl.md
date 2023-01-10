@@ -1,7 +1,6 @@
 ---
 Ability1: Rock Head
 Ability2: Pressure
-Baby: 'No'
 BookSprite: SRD-aerodactyl-BookSprite.png
 BoxSprite: SRD-aerodactyl-BoxSprite.png
 DexCategory: Fossil Pokemon
@@ -13,27 +12,21 @@ Evolutions:
 - Evolves: To
   Item: Aerodactylite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Aerodactyl]]'
+  Pokemon: '[[SRD-Aerodactyl (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Unnerve
 HomeSprite: SRD-aerodactyl-HomeSprite.png
+Image: aerodactyl.png
 Learnset: '[[SRD-Aerodactyl-Learnset]]'
 Legendary: 'No'
-Name: Aerodactyl
 Number: 142
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-aerodactyl-ShuffleToken.png
-Sprite: aerodactyl.png
 Type1: Rock
 Type2: Flying
 Weight:
-  Hectograms: 590
   Kilograms: 59.0
   Pounds: 130.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *A vicious Pokemon from the distant past. It appears to have flown by spreading its wings and gliding. One has been revived from a fossil. It’s very dangerous; it attacks with the intent to tear apart its victims.*
 
 **DexID**:: 0142
-**Species**:: Aerodactyl
+**Name**:: Aerodactyl
 **Type**:: Rock / Flying
 **Abilities**:: [[SRD-Rock Head|Rock Head]] / [[SRD-Pressure|Pressure]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 4
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon                 | Kind   | Item          |
-|:----------|:------------------------|:-------|:--------------|
-| To        | [[SRD-Mega-Aerodactyl]] | Mega   | Aerodactylite |
+| Evolves   | Pokemon                        | Kind   | Item          |
+|:----------|:-------------------------------|:-------|:--------------|
+| To        | [[SRD-Aerodactyl (Mega Form)]] | Mega   | Aerodactylite |
 
 ![[SRD-Aerodactyl-Learnset]]

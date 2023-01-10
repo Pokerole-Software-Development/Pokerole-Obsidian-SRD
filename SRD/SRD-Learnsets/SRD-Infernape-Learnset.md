@@ -1,5 +1,4 @@
 ---
-DexID: 0392
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Blast Burn|Blast Burn]]'
 Name: Infernape
-Species: '[[SRD-Infernape|Infernape]]'
+Pokedex: '[[SRD-Infernape|Infernape]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

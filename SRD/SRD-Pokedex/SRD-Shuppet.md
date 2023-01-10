@@ -1,7 +1,6 @@
 ---
 Ability1: Insomnia
 Ability2: Frisk
-Baby: 'No'
 BookSprite: SRD-shuppet-BookSprite.png
 BoxSprite: SRD-shuppet-BoxSprite.png
 DexCategory: Puppet Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Banette]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Cursed Body
 HomeSprite: SRD-shuppet-HomeSprite.png
+Image: shuppet.png
 Learnset: '[[SRD-Shuppet-Learnset]]'
 Legendary: 'No'
-Name: Shuppet
 Number: 353
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-shuppet-ShuffleToken.png
-Sprite: shuppet.png
 Type1: Ghost
 Type2: ''
 Weight:
-  Hectograms: 23
   Kilograms: 2.3
   Pounds: 5.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *They feed on dark emotions such as envy, jealousy and vengefulness. If they sting you, they’ll fill you with a vindictive desire. They don’t have bodies under their blanket and they are looking for a body to possess*
 
 **DexID**:: 0353
-**Species**:: Shuppet
+**Name**:: Shuppet
 **Type**:: Ghost
 **Abilities**:: [[SRD-Insomnia|Insomnia]] / [[SRD-Frisk|Frisk]] ([[SRD-Cursed Body|Cursed Body]])
 **Base HP**:: 3

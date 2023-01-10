@@ -1,5 +1,4 @@
 ---
-DexID: '0257'
 Moves:
 - - Starter
   - '[[SRD-Ember|Ember]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Blast Burn|Blast Burn]]'
 Name: Blaziken
-Species: '[[SRD-Blaziken|Blaziken]]'
+Pokedex: '[[SRD-Blaziken|Blaziken]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

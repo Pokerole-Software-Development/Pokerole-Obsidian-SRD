@@ -1,5 +1,4 @@
 ---
-DexID: '0172'
 Moves:
 - - Starter
   - '[[SRD-Thunder Shock|Thunder Shock]]'
@@ -28,14 +27,14 @@ Moves:
 - - Pro
   - '[[SRD-Disarming Voice|Disarming Voice]]'
 Name: Pichu
-Species: '[[SRD-Pichu|Pichu]]'
+Pokedex: '[[SRD-Pichu|Pichu]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

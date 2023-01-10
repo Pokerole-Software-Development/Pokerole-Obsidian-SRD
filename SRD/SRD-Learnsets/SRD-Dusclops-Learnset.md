@@ -1,5 +1,4 @@
 ---
-DexID: '0356'
 Moves:
 - - Starter
   - '[[SRD-Night Shade|Night Shade]]'
@@ -58,14 +57,14 @@ Moves:
 - - Pro
   - '[[SRD-Pain Split|Pain Split]]'
 Name: Dusclops
-Species: '[[SRD-Dusclops|Dusclops]]'
+Pokedex: '[[SRD-Dusclops|Dusclops]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

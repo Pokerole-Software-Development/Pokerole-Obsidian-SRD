@@ -1,7 +1,6 @@
 ---
 Ability1: Flash Fire
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-vulpix-BookSprite.png
 BoxSprite: SRD-vulpix-BoxSprite.png
 DexCategory: Fox Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Ninetales]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Drought
 HomeSprite: SRD-vulpix-HomeSprite.png
+Image: vulpix.png
 Learnset: '[[SRD-Vulpix-Learnset]]'
 Legendary: 'No'
-Name: Vulpix
 Number: 37
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-vulpix-ShuffleToken.png
-Sprite: vulpix.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 99
   Kilograms: 9.9
   Pounds: 21.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is born with just one tail. As it grows, its single white tail gains color and splits into six. It is quite warm and cuddly - very popular with the ladies . It is, however, uncommon to see one in the wild.*
 
 **DexID**:: 0037
-**Species**:: Vulpix
+**Name**:: Vulpix
 **Type**:: Fire
 **Abilities**:: [[SRD-Flash Fire|Flash Fire]] ([[SRD-Drought|Drought]])
 **Base HP**:: 3

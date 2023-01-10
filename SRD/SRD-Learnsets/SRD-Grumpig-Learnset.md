@@ -1,5 +1,4 @@
 ---
-DexID: '0326'
 Moves:
 - - Starter
   - '[[SRD-Splash|Splash]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Grumpig
-Species: '[[SRD-Grumpig|Grumpig]]'
+Pokedex: '[[SRD-Grumpig|Grumpig]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

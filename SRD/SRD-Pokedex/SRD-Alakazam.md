@@ -1,7 +1,6 @@
 ---
 Ability1: Synchronize
 Ability2: Inner Focus
-Baby: 'No'
 BookSprite: SRD-alakazam-BookSprite.png
 BoxSprite: SRD-alakazam-BoxSprite.png
 DexCategory: Psi Pokemon
@@ -16,27 +15,21 @@ Evolutions:
 - Evolves: To
   Item: Alakazite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Alakazam]]'
+  Pokemon: '[[SRD-Alakazam (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Magic Guard
 HomeSprite: SRD-alakazam-HomeSprite.png
+Image: alakazam.png
 Learnset: '[[SRD-Alakazam-Learnset]]'
 Legendary: 'No'
-Name: Alakazam
 Number: 65
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-alakazam-ShuffleToken.png
-Sprite: alakazam.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 480
   Kilograms: 48.0
   Pounds: 105.8
 ---
@@ -56,7 +49,7 @@ Weight:
 *A Pokemon that can memorize anything and never forgets what it learns. Over time it becomes too smart to allow anyone to be its master. Alakazam's psychic powers can be terrifying.*
 
 **DexID**:: 0065
-**Species**:: Alakazam
+**Name**:: Alakazam
 **Type**:: Psychic
 **Abilities**:: [[SRD-Synchronize|Synchronize]] / [[SRD-Inner Focus|Inner Focus]] ([[SRD-Magic Guard|Magic Guard]])
 **Base HP**:: 5
@@ -74,9 +67,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon               | Kind   | Item      |
-|:----------|:----------------------|:-------|:----------|
-| From      | [[SRD-Kadabra]]       | Trade  |           |
-| To        | [[SRD-Mega-Alakazam]] | Mega   | Alakazite |
+| Evolves   | Pokemon                      | Kind   | Item      |
+|:----------|:-----------------------------|:-------|:----------|
+| From      | [[SRD-Kadabra]]              | Trade  |           |
+| To        | [[SRD-Alakazam (Mega Form)]] | Mega   | Alakazite |
 
 ![[SRD-Alakazam-Learnset]]

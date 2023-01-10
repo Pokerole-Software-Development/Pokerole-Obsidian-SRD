@@ -1,7 +1,6 @@
 ---
 Ability1: Ice Face
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-eiscue-BookSprite.png
 BoxSprite: SRD-eiscue-BoxSprite.png
 DexCategory: Penguin Pokemon
@@ -12,27 +11,21 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Form Eiscue]]'
+  Pokemon: '[[SRD-Eiscue (No Ice Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: ''
 HomeSprite: SRD-eiscue-HomeSprite.png
+Image: eiscue.png
 Learnset: '[[SRD-Eiscue-Learnset]]'
 Legendary: 'No'
-Name: Eiscue
 Number: 875
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Field
 ShuffleToken: SRD-eiscue-ShuffleToken.png
-Sprite: eiscue.png
 Type1: Ice
 Type2: ''
 Weight:
-  Hectograms: 890
   Kilograms: 89.0
   Pounds: 196.2
 ---
@@ -52,7 +45,7 @@ Weight:
 *This Pokemon keeps its head cool with ice. It fishes for its food by dangling its single hair into the sea to lure in prey. When they tire of swimming they simply let their ice hear be drifted away by the sea.*
 
 **DexID**:: 0875
-**Species**:: Eiscue
+**Name**:: Eiscue
 **Type**:: Ice
 **Abilities**:: [[SRD-Ice Face|Ice Face]]
 **Base HP**:: 4
@@ -70,8 +63,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon             | Kind   |
-|:----------|:--------------------|:-------|
-| To        | [[SRD-Form Eiscue]] | Form   |
+| Evolves   | Pokemon                      | Kind   |
+|:----------|:-----------------------------|:-------|
+| To        | [[SRD-Eiscue (No Ice Form)]] | Form   |
 
 ![[SRD-Eiscue-Learnset]]

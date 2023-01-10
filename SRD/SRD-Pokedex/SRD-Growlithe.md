@@ -1,7 +1,6 @@
 ---
 Ability1: Intimidate
 Ability2: Flash Fire
-Baby: 'No'
 BookSprite: SRD-growlithe-BookSprite.png
 BoxSprite: SRD-growlithe-BoxSprite.png
 DexCategory: Puppy Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Arcanine]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Justified
 HomeSprite: SRD-growlithe-HomeSprite.png
+Image: growlithe.png
 Learnset: '[[SRD-Growlithe-Learnset]]'
 Legendary: 'No'
-Name: Growlithe
 Number: 58
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-growlithe-ShuffleToken.png
-Sprite: growlithe.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 190
   Kilograms: 19.0
   Pounds: 41.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *Friendly, loyal and fearless to defend its trainer. These traits have gained them a place working as police Pokemon. They are uncommon in the wild but some packs can be seen in hot environments.*
 
 **DexID**:: 0058
-**Species**:: Growlithe
+**Name**:: Growlithe
 **Type**:: Fire
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Flash Fire|Flash Fire]] ([[SRD-Justified|Justified]])
 **Base HP**:: 3

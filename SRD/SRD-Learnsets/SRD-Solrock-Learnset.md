@@ -1,5 +1,4 @@
 ---
-DexID: 0338
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Skill Swap|Skill Swap]]'
 Name: Solrock
-Species: '[[SRD-Solrock|Solrock]]'
+Pokedex: '[[SRD-Solrock|Solrock]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

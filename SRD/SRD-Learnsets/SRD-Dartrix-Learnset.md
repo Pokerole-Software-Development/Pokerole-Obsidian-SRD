@@ -1,5 +1,4 @@
 ---
-DexID: '0722'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Grass Pledge|Grass Pledge]]'
 Name: Dartrix
-Species: '[[SRD-Dartrix|Dartrix]]'
+Pokedex: '[[SRD-Dartrix|Dartrix]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

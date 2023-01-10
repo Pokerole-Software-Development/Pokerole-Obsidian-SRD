@@ -1,7 +1,6 @@
 ---
 Ability1: Big Pecks
 Ability2: Super Luck
-Baby: 'No'
 BookSprite: SRD-tranquill-BookSprite.png
 BoxSprite: SRD-tranquill-BoxSprite.png
 DexCategory: Wild Pigeon Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Unfezant]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Rivalry
 HomeSprite: SRD-tranquill-HomeSprite.png
+Image: tranquill.png
 Learnset: '[[SRD-Tranquill-Learnset]]'
 Legendary: 'No'
-Name: Tranquill
 Number: 520
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-tranquill-ShuffleToken.png
-Sprite: tranquill.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 150
   Kilograms: 15.0
   Pounds: 33.1
 ---
@@ -57,7 +50,7 @@ Weight:
 *During war and old times people made use of Tranquil’s sense of location to send letters. It will never fail to find it’s way back home. They like quiet forests and enjoy to relax in the peace and quiet.*
 
 **DexID**:: 0520
-**Species**:: Tranquill
+**Name**:: Tranquill
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Big Pecks|Big Pecks]] / [[SRD-Super Luck|Super Luck]] ([[SRD-Rivalry|Rivalry]])
 **Base HP**:: 4

@@ -1,7 +1,6 @@
 ---
 Ability1: Stench
 Ability2: Sticky Hold
-Baby: 'No'
 BookSprite: SRD-trubbish-BookSprite.png
 BoxSprite: SRD-trubbish-BoxSprite.png
 DexCategory: Trash Bag Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Garbodor]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Aftermath
 HomeSprite: SRD-trubbish-HomeSprite.png
+Image: trubbish.png
 Learnset: '[[SRD-Trubbish-Learnset]]'
 Legendary: 'No'
-Name: Trubbish
 Number: 568
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-trubbish-ShuffleToken.png
-Sprite: trubbish.png
 Type1: Poison
 Type2: ''
 Weight:
-  Hectograms: 310
   Kilograms: 31.0
   Pounds: 68.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *The combination of garbage bags and industrial waste caused the chemical reaction that created this Pokemon. It belches a poison gas, breathing it will leave you sick in bed for a week. It loves filthy places.*
 
 **DexID**:: 0568
-**Species**:: Trubbish
+**Name**:: Trubbish
 **Type**:: Poison
 **Abilities**:: [[SRD-Stench|Stench]] / [[SRD-Sticky Hold|Sticky Hold]] ([[SRD-Aftermath|Aftermath]])
 **Base HP**:: 3

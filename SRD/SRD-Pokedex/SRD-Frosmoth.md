@@ -1,7 +1,6 @@
 ---
 Ability1: Shield Dust
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-frosmoth-BookSprite.png
 BoxSprite: SRD-frosmoth-BoxSprite.png
 DexCategory: Frost Moth Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Happiness
   Value: 5
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Ice Scales
 HomeSprite: SRD-frosmoth-HomeSprite.png
+Image: frosmoth.png
 Learnset: '[[SRD-Frosmoth-Learnset]]'
 Legendary: 'No'
-Name: Frosmoth
 Number: 873
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-frosmoth-ShuffleToken.png
-Sprite: frosmoth.png
 Type1: Ice
 Type2: Bug
 Weight:
-  Hectograms: 420
   Kilograms: 42.0
   Pounds: 92.6
 ---
@@ -54,7 +47,7 @@ Weight:
 *It shows no mercy to any who desecrates its snowfields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away. It is very regal and soft-mannered otherwise*
 
 **DexID**:: 0873
-**Species**:: Frosmoth
+**Name**:: Frosmoth
 **Type**:: Ice / Bug
 **Abilities**:: [[SRD-Shield Dust|Shield Dust]] ([[SRD-Ice Scales|Ice Scales]])
 **Base HP**:: 4

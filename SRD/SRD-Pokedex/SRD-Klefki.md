@@ -1,7 +1,6 @@
 ---
 Ability1: Prankster
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-klefki-BookSprite.png
 BoxSprite: SRD-klefki-BoxSprite.png
 DexCategory: Key Ring Pokemon
@@ -11,25 +10,19 @@ DexDescription: It adapted well to live with humans. Klefki jingle the objects t
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Magician
 HomeSprite: SRD-klefki-HomeSprite.png
+Image: klefki.png
 Learnset: '[[SRD-Klefki-Learnset]]'
 Legendary: 'No'
-Name: Klefki
 Number: 707
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-klefki-ShuffleToken.png
-Sprite: klefki.png
 Type1: Steel
 Type2: Fairy
 Weight:
-  Hectograms: 30
   Kilograms: 3.0
   Pounds: 6.6
 ---
@@ -49,7 +42,7 @@ Weight:
 *It adapted well to live with humans. Klefki jingle the objects they collect when they are distressed. People trust them with their keys to vaults and safes because they are very careful with their collection.*
 
 **DexID**:: 0707
-**Species**:: Klefki
+**Name**:: Klefki
 **Type**:: Steel / Fairy
 **Abilities**:: [[SRD-Prankster|Prankster]] ([[SRD-Magician|Magician]])
 **Base HP**:: 4

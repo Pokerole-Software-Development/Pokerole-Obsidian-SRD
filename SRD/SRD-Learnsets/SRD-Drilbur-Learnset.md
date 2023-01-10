@@ -1,5 +1,4 @@
 ---
-DexID: 0529
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Submission|Submission]]'
 Name: Drilbur
-Species: '[[SRD-Drilbur|Drilbur]]'
+Pokedex: '[[SRD-Drilbur|Drilbur]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

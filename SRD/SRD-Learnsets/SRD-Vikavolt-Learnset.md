@@ -1,5 +1,4 @@
 ---
-DexID: 0739
 Moves:
 - - Starter
   - '[[SRD-String Shot|String Shot]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Charge Beam|Charge Beam]]'
 Name: Vikavolt
-Species: '[[SRD-Vikavolt|Vikavolt]]'
+Pokedex: '[[SRD-Vikavolt|Vikavolt]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

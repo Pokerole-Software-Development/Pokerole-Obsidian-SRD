@@ -1,7 +1,6 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-guzzlord-BookSprite.png
 BoxSprite: SRD-guzzlord-BoxSprite.png
 DexCategory: 'Aether Foundation Log #074'
@@ -11,25 +10,19 @@ DexDescription: One disaster after another. This time we lost an entire facility
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 55
   Feet: 18.0
   Meters: 5.5
 HiddenAbility: ''
 HomeSprite: SRD-guzzlord-HomeSprite.png
+Image: guzzlord.png
 Learnset: '[[SRD-Guzzlord-Learnset]]'
 Legendary: 'Yes'
-Name: Guzzlord
 Number: 799
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-guzzlord-ShuffleToken.png
-Sprite: guzzlord.png
 Type1: Dark
 Type2: Dragon
 Weight:
-  Hectograms: 8880
   Kilograms: 888.0
   Pounds: 1957.7
 ---
@@ -49,7 +42,7 @@ Weight:
 *One disaster after another. This time we lost an entire facility, UB-05 is a monster, there is no other way to call it, it swallowed documents, vehicles and even an entire building, there is no end to its hunger.*
 
 **DexID**:: 0799
-**Species**:: Guzzlord
+**Name**:: Guzzlord
 **Type**:: Dark / Dragon
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 11

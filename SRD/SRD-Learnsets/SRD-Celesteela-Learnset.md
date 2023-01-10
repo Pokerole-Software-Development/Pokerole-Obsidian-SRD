@@ -1,5 +1,4 @@
 ---
-DexID: 0798
 Moves:
 - - Master
   - '[[SRD-Wide Guard|Wide Guard]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Fly|Fly]]'
 Name: Celesteela
-Species: '[[SRD-Celesteela|Celesteela]]'
+Pokedex: '[[SRD-Celesteela|Celesteela]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

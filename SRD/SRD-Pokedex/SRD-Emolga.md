@@ -1,7 +1,6 @@
 ---
 Ability1: Static
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-emolga-BookSprite.png
 BoxSprite: SRD-emolga-BoxSprite.png
 DexCategory: Sky Squirrel Pokemon
@@ -11,25 +10,19 @@ DexDescription: They live on treetops and glide using the inside of a cape-like 
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Motor Drive
 HomeSprite: SRD-emolga-HomeSprite.png
+Image: emolga.png
 Learnset: '[[SRD-Emolga-Learnset]]'
 Legendary: 'No'
-Name: Emolga
 Number: 587
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-emolga-ShuffleToken.png
-Sprite: emolga.png
 Type1: Electric
 Type2: Flying
 Weight:
-  Hectograms: 50
   Kilograms: 5.0
   Pounds: 11.0
 ---
@@ -49,7 +42,7 @@ Weight:
 *They live on treetops and glide using the inside of a cape-like membrane. They discharge electricity to defend from other Pokemon. They carry nuts and berries back to their nest to eat during the winter.*
 
 **DexID**:: 0587
-**Species**:: Emolga
+**Name**:: Emolga
 **Type**:: Electric / Flying
 **Abilities**:: [[SRD-Static|Static]] ([[SRD-Motor Drive|Motor Drive]])
 **Base HP**:: 4

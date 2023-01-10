@@ -1,7 +1,6 @@
 ---
 Ability1: Mega Launcher
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-clawitzer-BookSprite.png
 BoxSprite: SRD-clawitzer-BoxSprite.png
 DexCategory: Howitzer Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Clauncher]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: ''
 HomeSprite: SRD-clawitzer-HomeSprite.png
+Image: clawitzer.png
 Learnset: '[[SRD-Clawitzer-Learnset]]'
 Legendary: 'No'
-Name: Clawitzer
 Number: 693
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Water 3
 ShuffleToken: SRD-clawitzer-ShuffleToken.png
-Sprite: clawitzer.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 353
   Kilograms: 35.3
   Pounds: 77.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *They can be seen swimming backwards using their launcher as A propulsor, but they usually stay at the bottom of the sea. Their meat is tough and bitter so people don’t use them as food anymore.*
 
 **DexID**:: 0693
-**Species**:: Clawitzer
+**Name**:: Clawitzer
 **Type**:: Water
 **Abilities**:: [[SRD-Mega Launcher|Mega Launcher]]
 **Base HP**:: 4

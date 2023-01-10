@@ -1,5 +1,4 @@
 ---
-DexID: 0185
 Moves:
 - - Starter
   - '[[SRD-Flail|Flail]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Self Destruct|Self Destruct]]'
 Name: Sudowoodo
-Species: '[[SRD-Sudowoodo|Sudowoodo]]'
+Pokedex: '[[SRD-Sudowoodo|Sudowoodo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

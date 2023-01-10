@@ -1,5 +1,4 @@
 ---
-DexID: '0430'
 Moves:
 - - Starter
   - '[[SRD-Astonish|Astonish]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Air Cutter|Air Cutter]]'
 Name: Honchkrow
-Species: '[[SRD-Honchkrow|Honchkrow]]'
+Pokedex: '[[SRD-Honchkrow|Honchkrow]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0821
 Moves:
 - - Starter
   - '[[SRD-Covet|Covet]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Crunch|Crunch]]'
 Name: Greedent
-Species: '[[SRD-Greedent|Greedent]]'
+Pokedex: '[[SRD-Greedent|Greedent]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0684
 Moves:
 - - Starter
   - '[[SRD-Sweet Scent|Sweet Scent]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Aromatisse
-Species: '[[SRD-Aromatisse|Aromatisse]]'
+Pokedex: '[[SRD-Aromatisse|Aromatisse]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

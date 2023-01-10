@@ -1,5 +1,4 @@
 ---
-DexID: '0324'
 Moves:
 - - Starter
   - '[[SRD-Ember|Ember]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Fissure|Fissure]]'
 Name: Torkoal
-Species: '[[SRD-Torkoal|Torkoal]]'
+Pokedex: '[[SRD-Torkoal|Torkoal]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

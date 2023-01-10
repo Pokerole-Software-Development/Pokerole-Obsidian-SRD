@@ -1,5 +1,4 @@
 ---
-DexID: '0713'
 Moves:
 - - Starter
   - '[[SRD-Screech|Screech]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Noibat
-Species: '[[SRD-Noibat|Noibat]]'
+Pokedex: '[[SRD-Noibat|Noibat]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

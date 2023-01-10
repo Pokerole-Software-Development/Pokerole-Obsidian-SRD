@@ -1,5 +1,4 @@
 ---
-DexID: 0586
 Moves:
 - - Starter
   - '[[SRD-Camouflage|Camouflage]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Last Resort|Last Resort]]'
 Name: Sawsbuck
-Species: '[[SRD-Sawsbuck|Sawsbuck]]'
+Pokedex: '[[SRD-Sawsbuck|Sawsbuck]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

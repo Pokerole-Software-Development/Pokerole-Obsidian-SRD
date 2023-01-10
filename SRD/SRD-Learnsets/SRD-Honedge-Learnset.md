@@ -1,5 +1,4 @@
 ---
-DexID: 0678
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Wide Guard|Wide Guard]]'
 Name: Honedge
-Species: '[[SRD-Honedge|Honedge]]'
+Pokedex: '[[SRD-Honedge|Honedge]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

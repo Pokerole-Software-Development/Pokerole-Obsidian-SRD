@@ -1,5 +1,4 @@
 ---
-DexID: '0321'
 Moves:
 - - Starter
   - '[[SRD-Splash|Splash]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Defense Curl|Defense Curl]]'
 Name: Wailord
-Species: '[[SRD-Wailord|Wailord]]'
+Pokedex: '[[SRD-Wailord|Wailord]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

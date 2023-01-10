@@ -1,7 +1,6 @@
 ---
 Ability1: Flash Fire
 Ability2: Flame Body
-Baby: 'No'
 BookSprite: SRD-chandelure-BookSprite.png
 BoxSprite: SRD-chandelure-BoxSprite.png
 DexCategory: Luring Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Lampent]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Infiltrator
 HomeSprite: SRD-chandelure-HomeSprite.png
+Image: chandelure.png
 Learnset: '[[SRD-Chandelure-Learnset]]'
 Legendary: 'No'
-Name: Chandelure
 Number: 609
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-chandelure-ShuffleToken.png
-Sprite: chandelure.png
 Type1: Ghost
 Type2: Fire
 Weight:
-  Hectograms: 343
   Kilograms: 34.3
   Pounds: 75.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *It consumes the spirits of the living, puts people in a hypnotic trance and consumes them with fire. Being consumed in Chandelure's flame burns up the spirit, leaving only the body behind.*
 
 **DexID**:: 0609
-**Species**:: Chandelure
+**Name**:: Chandelure
 **Type**:: Ghost / Fire
 **Abilities**:: [[SRD-Flash Fire|Flash Fire]] / [[SRD-Flame Body|Flame Body]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 5

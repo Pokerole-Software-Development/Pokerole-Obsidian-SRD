@@ -1,7 +1,6 @@
 ---
 Ability1: Shields Down
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-minior-BookSprite.png
 BoxSprite: SRD-minior-BoxSprite.png
 DexCategory: Meteor Pokemon
@@ -14,25 +13,19 @@ Evolutions:
   Kind: Form
   Pokemon: '[[SRD-Minior Core]]'
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-minior-HomeSprite.png
+Image: minior.png
 Learnset: '[[SRD-Minior-Learnset]]'
 Legendary: 'No'
-Name: Minior
 Number: 774
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-minior-ShuffleToken.png
-Sprite: minior.png
 Type1: Rock
 Type2: Flying
 Weight:
-  Hectograms: 400
   Kilograms: 40.0
   Pounds: 88.2
 ---
@@ -52,7 +45,7 @@ Weight:
 *They live on the stratosphere, absorbing particles to grow their cores and shells, when they become too heavy they fall to the ground. Move damage can break the shell and leave the core exposed.*
 
 **DexID**:: 0774
-**Species**:: Minior
+**Name**:: Minior
 **Type**:: Rock / Flying
 **Abilities**:: [[SRD-Shields Down|Shields Down]]
 **Base HP**:: 4

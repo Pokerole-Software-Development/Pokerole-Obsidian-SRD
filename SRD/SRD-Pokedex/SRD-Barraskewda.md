@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-barraskewda-BookSprite.png
 BoxSprite: SRD-barraskewda-BoxSprite.png
 DexCategory: Skewer Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Arrokuda]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Propeller Tail
 HomeSprite: SRD-barraskewda-HomeSprite.png
+Image: barraskewda.png
 Learnset: '[[SRD-Barraskewda-Learnset]]'
 Legendary: 'No'
-Name: Barraskewda
 Number: 847
-PrimaryEggGroup: Water 2
-SecondaryEggGroup: ''
 ShuffleToken: SRD-barraskewda-ShuffleToken.png
-Sprite: barraskewda.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 300
   Kilograms: 30.0
   Pounds: 66.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *This Pokemon has a jaw that’s as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too. When they hunt, they have speed burst record of 100 knots.*
 
 **DexID**:: 0847
-**Species**:: Barraskewda
+**Name**:: Barraskewda
 **Type**:: Water
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] ([[SRD-Propeller Tail|Propeller Tail]])
 **Base HP**:: 4

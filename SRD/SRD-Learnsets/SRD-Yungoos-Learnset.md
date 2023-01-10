@@ -1,5 +1,4 @@
 ---
-DexID: '0735'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Last Resort|Last Resort]]'
 Name: Yungoos
-Species: '[[SRD-Yungoos|Yungoos]]'
+Pokedex: '[[SRD-Yungoos|Yungoos]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

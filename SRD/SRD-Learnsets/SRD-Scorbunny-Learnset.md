@@ -1,5 +1,4 @@
 ---
-DexID: 0812
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Super Fang|Super Fang]]'
 Name: Scorbunny
-Species: '[[SRD-Scorbunny|Scorbunny]]'
+Pokedex: '[[SRD-Scorbunny|Scorbunny]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

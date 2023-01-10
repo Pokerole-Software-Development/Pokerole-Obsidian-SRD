@@ -1,5 +1,4 @@
 ---
-DexID: '0601'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -16,14 +15,14 @@ Moves:
 - - Ace
   - '[[SRD-Charge Beam|Charge Beam]]'
 Name: Tynamo
-Species: '[[SRD-Tynamo|Tynamo]]'
+Pokedex: '[[SRD-Tynamo|Tynamo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

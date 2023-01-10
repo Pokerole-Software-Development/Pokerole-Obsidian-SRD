@@ -1,7 +1,6 @@
 ---
 Ability1: Hyper Cutter
 Ability2: Shell Armor
-Baby: 'No'
 BookSprite: SRD-crawdaunt-BookSprite.png
 BoxSprite: SRD-crawdaunt-BoxSprite.png
 DexCategory: Rogue Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Corphish]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Adaptability
 HomeSprite: SRD-crawdaunt-HomeSprite.png
+Image: crawdaunt.png
 Learnset: '[[SRD-Crawdaunt-Learnset]]'
 Legendary: 'No'
-Name: Crawdaunt
 Number: 342
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Water 3
 ShuffleToken: SRD-crawdaunt-ShuffleToken.png
-Sprite: crawdaunt.png
 Type1: Water
 Type2: Dark
 Weight:
-  Hectograms: 328
   Kilograms: 32.8
   Pounds: 72.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *Crawdaunt is extremely violent and territorial. The ponds where it lives look like desolated places due to them attacking anything that comes close. It sheds its shell once a year, this weakens it for a few days.*
 
 **DexID**:: 0342
-**Species**:: Crawdaunt
+**Name**:: Crawdaunt
 **Type**:: Water / Dark
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Adaptability|Adaptability]])
 **Base HP**:: 4

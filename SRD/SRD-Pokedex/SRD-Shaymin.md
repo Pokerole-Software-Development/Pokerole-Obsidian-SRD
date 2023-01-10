@@ -1,7 +1,6 @@
 ---
 Ability1: Natural Cure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-shaymin-BookSprite.png
 BoxSprite: SRD-shaymin-BoxSprite.png
 DexCategory: No Data
@@ -13,27 +12,21 @@ Evolutions:
 - Evolves: To
   Item: Gracidea flower
   Kind: Special
-  Pokemon: '[[SRD-Sky Shaymin]]'
+  Pokemon: '[[SRD-Shaymin (Sky Form)]]'
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: ''
 HomeSprite: SRD-shaymin-HomeSprite.png
+Image: shaymin.png
 Learnset: '[[SRD-Shaymin-Learnset]]'
 Legendary: 'Yes'
-Name: Shaymin
 Number: 492
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-shaymin-ShuffleToken.png
-Sprite: shaymin.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 21
   Kilograms: 2.1
   Pounds: 4.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *There are old traces of gigantic trees that once grew all over the earth. They were called the “Trees of Life” and their flowers granted the power of flight to the kindhearted, or so the legend says.*
 
 **DexID**:: 0492
-**Species**:: Shaymin
+**Name**:: Shaymin
 **Type**:: Grass
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]]
 **Base HP**:: 5
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-| Evolves   | Pokemon             | Kind    | Item            |
-|:----------|:--------------------|:--------|:----------------|
-| To        | [[SRD-Sky Shaymin]] | Special | Gracidea flower |
+| Evolves   | Pokemon                    | Kind    | Item            |
+|:----------|:---------------------------|:--------|:----------------|
+| To        | [[SRD-Shaymin (Sky Form)]] | Special | Gracidea flower |
 
 ![[SRD-Shaymin-Learnset]]

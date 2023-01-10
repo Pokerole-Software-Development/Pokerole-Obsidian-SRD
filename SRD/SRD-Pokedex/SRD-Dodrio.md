@@ -1,7 +1,6 @@
 ---
 Ability1: Run Away
 Ability2: Early Bird
-Baby: 'No'
 BookSprite: SRD-dodrio-BookSprite.png
 BoxSprite: SRD-dodrio-BoxSprite.png
 DexCategory: Triple Bird Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Doduo]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Tangled Feet
 HomeSprite: SRD-dodrio-HomeSprite.png
+Image: dodrio.png
 Learnset: '[[SRD-Dodrio-Learnset]]'
 Legendary: 'No'
-Name: Dodrio
 Number: 85
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-dodrio-ShuffleToken.png
-Sprite: dodrio.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 852
   Kilograms: 85.2
   Pounds: 187.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *A third head comes to change the dynamic the two original had. It is common to see the three heads fighting. Each one has its own personality, but when they work as a team they can be very powerful.*
 
 **DexID**:: 0085
-**Species**:: Dodrio
+**Name**:: Dodrio
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Tangled Feet|Tangled Feet]])
 **Base HP**:: 4

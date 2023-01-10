@@ -1,7 +1,6 @@
 ---
 Ability1: Ice Body
 Ability2: Snow Warning
-Baby: 'No'
 BookSprite: SRD-vanilluxe-BookSprite.png
 BoxSprite: SRD-vanilluxe-BoxSprite.png
 DexCategory: Snowstorm Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Vanillish]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Weak Armor
 HomeSprite: SRD-vanilluxe-HomeSprite.png
+Image: vanilluxe.png
 Learnset: '[[SRD-Vanilluxe-Learnset]]'
 Legendary: 'No'
-Name: Vanilluxe
 Number: 584
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-vanilluxe-ShuffleToken.png
-Sprite: vanilluxe.png
 Type1: Ice
 Type2: ''
 Weight:
-  Hectograms: 575
   Kilograms: 57.5
   Pounds: 126.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *It grew a new head with evolution, and they get along really well. They need to drink a lot of water in order to keep cool outside a gelid weather. If both heads get angry they will expel a terrible blizzard around.*
 
 **DexID**:: 0584
-**Species**:: Vanilluxe
+**Name**:: Vanilluxe
 **Type**:: Ice
 **Abilities**:: [[SRD-Ice Body|Ice Body]] / [[SRD-Snow Warning|Snow Warning]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 5

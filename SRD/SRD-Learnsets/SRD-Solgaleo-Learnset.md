@@ -1,5 +1,4 @@
 ---
-DexID: 0792
 Moves:
 - - Master
   - '[[SRD-Sunsteel Strike|Sunsteel Strike]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Dazzling Gleam|Dazzling Gleam]]'
 Name: Solgaleo
-Species: '[[SRD-Solgaleo|Solgaleo]]'
+Pokedex: '[[SRD-Solgaleo|Solgaleo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

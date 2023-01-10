@@ -1,5 +1,4 @@
 ---
-DexID: '0551'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Tail|Aqua Tail]]'
 Name: Sandile
-Species: '[[SRD-Sandile|Sandile]]'
+Pokedex: '[[SRD-Sandile|Sandile]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Shell Armor
 Ability2: Skill Link
-Baby: 'No'
 BookSprite: SRD-cloyster-BookSprite.png
 BoxSprite: SRD-cloyster-BoxSprite.png
 DexCategory: Bivalve Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Shellder]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Overcoat
 HomeSprite: SRD-cloyster-HomeSprite.png
+Image: cloyster.png
 Learnset: '[[SRD-Cloyster-Learnset]]'
 Legendary: 'No'
-Name: Cloyster
 Number: 91
-PrimaryEggGroup: Water 3
-SecondaryEggGroup: ''
 ShuffleToken: SRD-cloyster-ShuffleToken.png
-Sprite: cloyster.png
 Type1: Water
 Type2: Ice
 Weight:
-  Hectograms: 1325
   Kilograms: 132.5
   Pounds: 292.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *If it lives in seas with harsh currents, it will grow larger and sharper spikes on its shells than those who live on calm waters. Its shell is extremely hard - you would need explosives to try to open it.*
 
 **DexID**:: 0091
-**Species**:: Cloyster
+**Name**:: Cloyster
 **Type**:: Water / Ice
 **Abilities**:: [[SRD-Shell Armor|Shell Armor]] / [[SRD-Skill Link|Skill Link]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 4

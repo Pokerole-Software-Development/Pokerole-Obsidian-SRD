@@ -1,5 +1,4 @@
 ---
-DexID: '0570'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Zorua
-Species: '[[SRD-Zorua|Zorua]]'
+Pokedex: '[[SRD-Zorua|Zorua]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: Iron Fist
-Baby: 'No'
 BookSprite: SRD-hitmonchan-BookSprite.png
 BoxSprite: SRD-hitmonchan-BoxSprite.png
 DexCategory: Punching Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Vitality
   Value: -1
 GenderType: M
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Inner Focus
 HomeSprite: SRD-hitmonchan-HomeSprite.png
+Image: hitmonchan.png
 Learnset: '[[SRD-Hitmonchan-Learnset]]'
 Legendary: 'No'
-Name: Hitmonchan
 Number: 107
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-hitmonchan-ShuffleToken.png
-Sprite: hitmonchan.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 502
   Kilograms: 50.2
   Pounds: 110.7
 ---
@@ -54,7 +47,7 @@ Weight:
 *It specializes in punching as fast as it can. Using a corkscrew motion, it can even drill through concrete with it’s bare hands. This Pokemon takes its training very seriously. It’s very rare to see one in the wild.*
 
 **DexID**:: 0107
-**Species**:: Hitmonchan
+**Name**:: Hitmonchan
 **Type**:: Fighting
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Iron Fist|Iron Fist]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 4

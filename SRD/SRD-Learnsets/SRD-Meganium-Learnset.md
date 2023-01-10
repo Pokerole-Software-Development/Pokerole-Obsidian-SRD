@@ -1,5 +1,4 @@
 ---
-DexID: '0154'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Grassy Terrain|Grassy Terrain]]'
 Name: Meganium
-Species: '[[SRD-Meganium|Meganium]]'
+Pokedex: '[[SRD-Meganium|Meganium]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

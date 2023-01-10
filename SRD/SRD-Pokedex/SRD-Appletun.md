@@ -1,7 +1,6 @@
 ---
 Ability1: Ripen
 Ability2: Gluttony
-Baby: 'No'
 BookSprite: SRD-appletun-BookSprite.png
 BoxSprite: SRD-appletun-BoxSprite.png
 DexCategory: Apple Nectar Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Item
   Pokemon: '[[SRD-Flapple]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Thick Fat
 HomeSprite: SRD-appletun-HomeSprite.png
+Image: appletun.png
 Learnset: '[[SRD-Appletun-Learnset]]'
 Legendary: 'No'
-Name: Appletun
 Number: 842
-PrimaryEggGroup: Grass
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-appletun-ShuffleToken.png
-Sprite: appletun.png
 Type1: Grass
 Type2: Dragon
 Weight:
-  Hectograms: 130
   Kilograms: 13.0
   Pounds: 28.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *Eating a sweet apple caused its evolution. A nectarous scent wafts from its body, luring in the bug Pokemon it preys on, but it also attracts other Pokemon who eat the skins atop of its back.*
 
 **DexID**:: 0842
-**Species**:: Appletun
+**Name**:: Appletun
 **Type**:: Grass / Dragon
 **Abilities**:: [[SRD-Ripen|Ripen]] / [[SRD-Gluttony|Gluttony]] ([[SRD-Thick Fat|Thick Fat]])
 **Base HP**:: 5

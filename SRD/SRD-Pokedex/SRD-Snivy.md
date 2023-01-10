@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-snivy-BookSprite.png
 BoxSprite: SRD-snivy-BoxSprite.png
 DexCategory: Grass Snake Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Servine]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Contrary
 HomeSprite: SRD-snivy-HomeSprite.png
+Image: snivy.png
 Learnset: '[[SRD-Snivy-Learnset]]'
 Legendary: 'No'
-Name: Snivy
 Number: 495
-PrimaryEggGroup: Field
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-snivy-ShuffleToken.png
-Sprite: snivy.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 81
   Kilograms: 8.1
   Pounds: 17.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is very intelligent and independent, although it seems calm it doesn’t like being bossed around. Being exposed to lots of sunlight makes its movements swifter. The tail drops if it is not feeling well.*
 
 **DexID**:: 0495
-**Species**:: Snivy
+**Name**:: Snivy
 **Type**:: Grass
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Contrary|Contrary]])
 **Base HP**:: 3

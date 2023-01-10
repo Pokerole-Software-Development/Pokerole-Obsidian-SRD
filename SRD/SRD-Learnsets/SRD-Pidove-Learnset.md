@@ -1,5 +1,4 @@
 ---
-DexID: 0519
 Moves:
 - - Starter
   - '[[SRD-Gust|Gust]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Hypnosis|Hypnosis]]'
 Name: Pidove
-Species: '[[SRD-Pidove|Pidove]]'
+Pokedex: '[[SRD-Pidove|Pidove]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

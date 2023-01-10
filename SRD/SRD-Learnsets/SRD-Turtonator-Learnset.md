@@ -1,5 +1,4 @@
 ---
-DexID: '0775'
 Moves:
 - - Starter
   - '[[SRD-Ember|Ember]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Wide Guard|Wide Guard]]'
 Name: Turtonator
-Species: '[[SRD-Turtonator|Turtonator]]'
+Pokedex: '[[SRD-Turtonator|Turtonator]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

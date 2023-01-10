@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: Leaf Guard
-Baby: 'No'
 BookSprite: SRD-hoppip-BookSprite.png
 BoxSprite: SRD-hoppip-BoxSprite.png
 DexCategory: Cottonweed Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Skiploom]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Infiltrator
 HomeSprite: SRD-hoppip-HomeSprite.png
+Image: hoppip.png
 Learnset: '[[SRD-Hoppip-Learnset]]'
 Legendary: 'No'
-Name: Hoppip
 Number: 187
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-hoppip-ShuffleToken.png
-Sprite: hoppip.png
 Type1: Grass
 Type2: Flying
 Weight:
-  Hectograms: 5
   Kilograms: 0.5
   Pounds: 1.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *This Pokemon drifts away by floating in the wind. Even the weakest current can lift them up. By the end of the winter you can see them flying above cities and fields. This means that spring is coming soon.*
 
 **DexID**:: 0187
-**Species**:: Hoppip
+**Name**:: Hoppip
 **Type**:: Grass / Flying
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Leaf Guard|Leaf Guard]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 3

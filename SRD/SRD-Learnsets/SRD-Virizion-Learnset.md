@@ -1,5 +1,4 @@
 ---
-DexID: '0641'
 Moves:
 - - Master
   - '[[SRD-Quick Attack|Quick Attack]]'
@@ -36,14 +35,14 @@ Moves:
 - - Master
   - '[[SRD-Attract|Attract]]'
 Name: Virizion
-Species: '[[SRD-Virizion|Virizion]]'
+Pokedex: '[[SRD-Virizion|Virizion]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

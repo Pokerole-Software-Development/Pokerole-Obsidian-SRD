@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'Yes'
 BookSprite: SRD-chingling-BookSprite.png
 BoxSprite: SRD-chingling-BoxSprite.png
 DexCategory: Bell Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Happiness
   Value: 4
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: ''
 HomeSprite: SRD-chingling-HomeSprite.png
+Image: chingling.png
 Learnset: '[[SRD-Chingling-Learnset]]'
 Legendary: 'No'
-Name: Chingling
 Number: 433
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-chingling-ShuffleToken.png
-Sprite: chingling.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 6
   Kilograms: 0.6
   Pounds: 1.3
 ---
@@ -54,7 +47,7 @@ Weight:
 *It has a ball inside its mouth that makes a ringing sound when it hops around. To defend itself, it will emit low frequency cries that deafen its foes. However this sound is not audible to humans.*
 
 **DexID**:: 0433
-**Species**:: Chingling
+**Name**:: Chingling
 **Type**:: Psychic
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 3

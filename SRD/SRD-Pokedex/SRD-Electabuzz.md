@@ -1,7 +1,6 @@
 ---
 Ability1: Static
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-electabuzz-BookSprite.png
 BoxSprite: SRD-electabuzz-BoxSprite.png
 DexCategory: Electric Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Electivire]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Vital Spirit
 HomeSprite: SRD-electabuzz-HomeSprite.png
+Image: electabuzz.png
 Learnset: '[[SRD-Electabuzz-Learnset]]'
 Legendary: 'No'
-Name: Electabuzz
 Number: 125
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-electabuzz-ShuffleToken.png
-Sprite: electabuzz.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 300
   Kilograms: 30.0
   Pounds: 66.1
 ---
@@ -57,7 +50,7 @@ Weight:
 *A violent Pokemon. It searches for spots where it can feed on electricity and has been seen absorbing lightning from the sky. It’s competitive and aggressive with others.*
 
 **DexID**:: 0125
-**Species**:: Electabuzz
+**Name**:: Electabuzz
 **Type**:: Electric
 **Abilities**:: [[SRD-Static|Static]] ([[SRD-Vital Spirit|Vital Spirit]])
 **Base HP**:: 4

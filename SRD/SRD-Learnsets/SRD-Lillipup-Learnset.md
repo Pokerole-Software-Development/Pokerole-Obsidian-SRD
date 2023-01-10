@@ -1,5 +1,4 @@
 ---
-DexID: '0506'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Yawn|Yawn]]'
 Name: Lillipup
-Species: '[[SRD-Lillipup|Lillipup]]'
+Pokedex: '[[SRD-Lillipup|Lillipup]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

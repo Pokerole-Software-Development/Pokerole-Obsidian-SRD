@@ -1,5 +1,4 @@
 ---
-DexID: 0178
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Xatu
-Species: '[[SRD-Xatu|Xatu]]'
+Pokedex: '[[SRD-Xatu|Xatu]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0395
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Hydro Cannon|Hydro Cannon]]'
 Name: Empoleon
-Species: '[[SRD-Empoleon|Empoleon]]'
+Pokedex: '[[SRD-Empoleon|Empoleon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

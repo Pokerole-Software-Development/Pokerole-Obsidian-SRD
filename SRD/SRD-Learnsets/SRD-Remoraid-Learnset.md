@@ -1,5 +1,4 @@
 ---
-DexID: '0223'
 Moves:
 - - Starter
   - '[[SRD-Water Gun|Water Gun]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Supersonic|Supersonic]]'
 Name: Remoraid
-Species: '[[SRD-Remoraid|Remoraid]]'
+Pokedex: '[[SRD-Remoraid|Remoraid]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

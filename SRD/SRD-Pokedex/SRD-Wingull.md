@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: Hydration
-Baby: 'No'
 BookSprite: SRD-wingull-BookSprite.png
 BoxSprite: SRD-wingull-BoxSprite.png
 DexCategory: Seagull Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Pelipper]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Rain Dish
 HomeSprite: SRD-wingull-HomeSprite.png
+Image: wingull.png
 Learnset: '[[SRD-Wingull-Learnset]]'
 Legendary: 'No'
-Name: Wingull
 Number: 278
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Flying
 ShuffleToken: SRD-wingull-ShuffleToken.png
-Sprite: wingull.png
 Type1: Water
 Type2: Flying
 Weight:
-  Hectograms: 95
   Kilograms: 9.5
   Pounds: 20.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *They carry prey and precious items in their beaks, hiding them in strange locations. They nest in sheer cliffs at the sea’s edge. They often harass fishing boats to steal an easy meal for themselves.*
 
 **DexID**:: 0278
-**Species**:: Wingull
+**Name**:: Wingull
 **Type**:: Water / Flying
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Hydration|Hydration]] ([[SRD-Rain Dish|Rain Dish]])
 **Base HP**:: 3

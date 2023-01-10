@@ -1,5 +1,4 @@
 ---
-DexID: '0450'
 Moves:
 - - Starter
   - '[[SRD-Sand Attack|Sand Attack]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Revenge|Revenge]]'
 Name: Hippowdon
-Species: '[[SRD-Hippowdon|Hippowdon]]'
+Pokedex: '[[SRD-Hippowdon|Hippowdon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

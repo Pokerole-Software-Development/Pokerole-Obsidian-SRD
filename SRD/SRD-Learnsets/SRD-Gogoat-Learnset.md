@@ -1,5 +1,4 @@
 ---
-DexID: '0672'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Gogoat
-Species: '[[SRD-Gogoat|Gogoat]]'
+Pokedex: '[[SRD-Gogoat|Gogoat]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

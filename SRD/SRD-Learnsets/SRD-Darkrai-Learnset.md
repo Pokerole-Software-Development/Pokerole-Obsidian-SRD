@@ -1,5 +1,4 @@
 ---
-DexID: 0491
 Moves:
 - - Master
   - '[[SRD-Ominous Wind|Ominous Wind]]'
@@ -34,14 +33,14 @@ Moves:
 - - Master
   - '[[SRD-Spite|Spite]]'
 Name: Darkrai
-Species: '[[SRD-Darkrai|Darkrai]]'
+Pokedex: '[[SRD-Darkrai|Darkrai]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

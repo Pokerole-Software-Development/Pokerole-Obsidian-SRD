@@ -1,7 +1,6 @@
 ---
 Ability1: Plus
 Ability2: Minus
-Baby: 'No'
 BookSprite: SRD-klinklang-BookSprite.png
 BoxSprite: SRD-klinklang-BoxSprite.png
 DexCategory: Gear Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Klang]]'
   Speed: Medium
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Clear Body
 HomeSprite: SRD-klinklang-HomeSprite.png
+Image: klinklang.png
 Learnset: '[[SRD-Klinklang-Learnset]]'
 Legendary: 'No'
-Name: Klinklang
 Number: 601
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-klinklang-ShuffleToken.png
-Sprite: klinklang.png
 Type1: Steel
 Type2: ''
 Weight:
-  Hectograms: 810
   Kilograms: 81.0
   Pounds: 178.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *The gear with the red core rotates at high speed for a quick energy charge. The mini gears shoot rays through the spikes around it. This inorganic Pokemon will trap and crush foes between its gears.*
 
 **DexID**:: 0601
-**Species**:: Klinklang
+**Name**:: Klinklang
 **Type**:: Steel
 **Abilities**:: [[SRD-Plus|Plus]] / [[SRD-Minus|Minus]] ([[SRD-Clear Body|Clear Body]])
 **Base HP**:: 5

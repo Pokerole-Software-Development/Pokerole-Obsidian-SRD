@@ -1,5 +1,4 @@
 ---
-DexID: 0805
 Moves:
 - - Master
   - '[[SRD-Air Cutter|Air Cutter]]'
@@ -40,14 +39,14 @@ Moves:
 - - Master
   - '[[SRD-Sky Attack|Sky Attack]]'
 Name: Naganadel
-Species: '[[SRD-Naganadel|Naganadel]]'
+Pokedex: '[[SRD-Naganadel|Naganadel]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

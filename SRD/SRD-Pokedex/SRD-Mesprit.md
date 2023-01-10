@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-mesprit-BookSprite.png
 BoxSprite: SRD-mesprit-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: In the myths of Sinnoh they talk about three beings that came ou
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-mesprit-HomeSprite.png
+Image: mesprit.png
 Learnset: '[[SRD-Mesprit-Learnset]]'
 Legendary: 'Yes'
-Name: Mesprit
 Number: 481
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-mesprit-ShuffleToken.png
-Sprite: mesprit.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 3
   Kilograms: 0.3
   Pounds: 0.7
 ---
@@ -49,7 +42,7 @@ Weight:
 *In the myths of Sinnoh they talk about three beings that came out from the same egg, the pink one was the being of emotion. Together they shaped the human race to be complete.*
 
 **DexID**:: 0481
-**Species**:: Mesprit
+**Name**:: Mesprit
 **Type**:: Psychic
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4

@@ -1,5 +1,4 @@
 ---
-DexID: 0558
 Moves:
 - - Starter
   - '[[SRD-Fury Cutter|Fury Cutter]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Night Slash|Night Slash]]'
 Name: Crustle
-Species: '[[SRD-Crustle|Crustle]]'
+Pokedex: '[[SRD-Crustle|Crustle]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

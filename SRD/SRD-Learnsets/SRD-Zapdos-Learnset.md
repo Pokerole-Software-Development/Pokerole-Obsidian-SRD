@@ -1,5 +1,4 @@
 ---
-DexID: '0145'
 Moves:
 - - Master
   - '[[SRD-Peck|Peck]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Fly|Fly]]'
 Name: Zapdos
-Species: '[[SRD-Zapdos|Zapdos]]'
+Pokedex: '[[SRD-Zapdos|Zapdos]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

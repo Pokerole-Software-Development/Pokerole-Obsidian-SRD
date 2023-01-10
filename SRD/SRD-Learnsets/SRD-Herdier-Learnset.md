@@ -1,5 +1,4 @@
 ---
-DexID: '0507'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Yawn|Yawn]]'
 Name: Herdier
-Species: '[[SRD-Herdier|Herdier]]'
+Pokedex: '[[SRD-Herdier|Herdier]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

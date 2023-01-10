@@ -1,5 +1,4 @@
 ---
-DexID: '0553'
 Moves:
 - - Starter
   - '[[SRD-Rage|Rage]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Krookodile
-Species: '[[SRD-Krookodile|Krookodile]]'
+Pokedex: '[[SRD-Krookodile|Krookodile]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

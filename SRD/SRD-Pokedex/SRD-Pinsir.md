@@ -1,7 +1,6 @@
 ---
 Ability1: Hyper Cutter
 Ability2: Mold Breaker
-Baby: 'No'
 BookSprite: SRD-pinsir-BookSprite.png
 BoxSprite: SRD-pinsir-BoxSprite.png
 DexCategory: Stagbeetle Pokemon
@@ -13,27 +12,21 @@ Evolutions:
 - Evolves: To
   Item: Pinsirite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Pinsir]]'
+  Pokemon: '[[SRD-Pinsir (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Moxie
 HomeSprite: SRD-pinsir-HomeSprite.png
+Image: pinsir.png
 Learnset: '[[SRD-Pinsir-Learnset]]'
 Legendary: 'No'
-Name: Pinsir
 Number: 127
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-pinsir-ShuffleToken.png
-Sprite: pinsir.png
 Type1: Bug
 Type2: ''
 Weight:
-  Hectograms: 550
   Kilograms: 55.0
   Pounds: 121.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *Their pincers are strong enough to shatter thick logs. Because they dislike cold, Pinsirs burrow and sleep under the ground on chilly nights. They like to eat sap and honey, but they are aggressive by nature.*
 
 **DexID**:: 0127
-**Species**:: Pinsir
+**Name**:: Pinsir
 **Type**:: Bug
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Mold Breaker|Mold Breaker]] ([[SRD-Moxie|Moxie]])
 **Base HP**:: 4
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon             | Kind   | Item      |
-|:----------|:--------------------|:-------|:----------|
-| To        | [[SRD-Mega-Pinsir]] | Mega   | Pinsirite |
+| Evolves   | Pokemon                    | Kind   | Item      |
+|:----------|:---------------------------|:-------|:----------|
+| To        | [[SRD-Pinsir (Mega Form)]] | Mega   | Pinsirite |
 
 ![[SRD-Pinsir-Learnset]]

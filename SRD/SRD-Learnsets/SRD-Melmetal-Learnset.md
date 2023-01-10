@@ -1,5 +1,4 @@
 ---
-DexID: 0808
 Moves:
 - - Starter
   - '[[SRD-Thunder Punch|Thunder Punch]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Self Destruct|Self Destruct]]'
 Name: Melmetal
-Species: '[[SRD-Melmetal|Melmetal]]'
+Pokedex: '[[SRD-Melmetal|Melmetal]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

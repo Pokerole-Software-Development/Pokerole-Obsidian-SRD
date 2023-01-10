@@ -1,7 +1,6 @@
 ---
 Ability1: No Guard
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-doublade-BookSprite.png
 BoxSprite: SRD-doublade-BoxSprite.png
 DexCategory: Sword Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Aegislash]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: ''
 HomeSprite: SRD-doublade-HomeSprite.png
+Image: doublade.png
 Learnset: '[[SRD-Doublade-Learnset]]'
 Legendary: 'No'
-Name: Doublade
 Number: 680
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-doublade-ShuffleToken.png
-Sprite: doublade.png
 Type1: Steel
 Type2: Ghost
 Weight:
-  Hectograms: 45
   Kilograms: 4.5
   Pounds: 9.9
 ---
@@ -57,7 +50,7 @@ Weight:
 *Both swords share a telepathic link to coordinate attacks and slash their enemies to shreds. They feed on the rage of their wielder and promise to make him unbeatable at the cost of his flesh and soul.*
 
 **DexID**:: 0680
-**Species**:: Doublade
+**Name**:: Doublade
 **Type**:: Steel / Ghost
 **Abilities**:: [[SRD-No Guard|No Guard]]
 **Base HP**:: 4

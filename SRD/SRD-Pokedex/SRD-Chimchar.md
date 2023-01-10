@@ -1,7 +1,6 @@
 ---
 Ability1: Blaze
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-chimchar-BookSprite.png
 BoxSprite: SRD-chimchar-BoxSprite.png
 DexCategory: Chimp Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Monferno]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Iron Fist
 HomeSprite: SRD-chimchar-HomeSprite.png
+Image: chimchar.png
 Learnset: '[[SRD-Chimchar-Learnset]]'
 Legendary: 'No'
-Name: Chimchar
 Number: 390
-PrimaryEggGroup: Field
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-chimchar-ShuffleToken.png
-Sprite: chimchar.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 62
   Kilograms: 6.2
   Pounds: 13.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *They climb sheer cliffs to live at the top of the mountains. Small groups of them tend to visit human camping sites to steal food and objects. They are playful and will wreak havoc if they want to have fun.*
 
 **DexID**:: 0390
-**Species**:: Chimchar
+**Name**:: Chimchar
 **Type**:: Fire
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Iron Fist|Iron Fist]])
 **Base HP**:: 3

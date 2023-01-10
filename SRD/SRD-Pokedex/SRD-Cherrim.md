@@ -1,7 +1,6 @@
 ---
 Ability1: Flower Gift
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-cherrim-BookSprite.png
 BoxSprite: SRD-cherrim-BoxSprite.png
 DexCategory: Blossom Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Cherubi]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
 HomeSprite: SRD-cherrim-HomeSprite.png
+Image: cherrim.png
 Learnset: '[[SRD-Cherrim-Learnset]]'
 Legendary: 'No'
-Name: Cherrim
 Number: 421
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-cherrim-ShuffleToken.png
-Sprite: cherrim.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 93
   Kilograms: 9.3
   Pounds: 20.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *Cherrims bloom during times of strong sunlight, their petals open fully and radiant. If the sun is not visible, it will remain as a closed bud, barely moving trying to preserve its energy.*
 
 **DexID**:: 0421
-**Species**:: Cherrim
+**Name**:: Cherrim
 **Type**:: Grass
 **Abilities**:: [[SRD-Flower Gift|Flower Gift]]
 **Base HP**:: 4

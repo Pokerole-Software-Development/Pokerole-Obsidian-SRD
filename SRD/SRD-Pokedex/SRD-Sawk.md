@@ -1,7 +1,6 @@
 ---
 Ability1: Sturdy
 Ability2: Inner Focus
-Baby: 'No'
 BookSprite: SRD-sawk-BookSprite.png
 BoxSprite: SRD-sawk-BoxSprite.png
 DexCategory: Karate Pokemon
@@ -11,25 +10,19 @@ DexDescription: This Pokemon is entirely dedicated to becoming stronger. Many ha
 EventAbilities: ''
 Evolutions: []
 GenderType: M
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-sawk-HomeSprite.png
+Image: sawk.png
 Learnset: '[[SRD-Sawk-Learnset]]'
 Legendary: 'No'
-Name: Sawk
 Number: 539
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-sawk-ShuffleToken.png
-Sprite: sawk.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 510
   Kilograms: 51.0
   Pounds: 112.4
 ---
@@ -49,7 +42,7 @@ Weight:
 *This Pokemon is entirely dedicated to becoming stronger. Many have secluded in the mountains to train all day. Wild ones make their clothes out of plants and vines they find. Sawk and Throh train together.*
 
 **DexID**:: 0539
-**Species**:: Sawk
+**Name**:: Sawk
 **Type**:: Fighting
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Inner Focus|Inner Focus]] ([[SRD-Mold Breaker|Mold Breaker]])
 **Base HP**:: 4

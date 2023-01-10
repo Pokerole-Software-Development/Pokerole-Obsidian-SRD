@@ -1,5 +1,4 @@
 ---
-DexID: '0315'
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Extrasensory|Extrasensory]]'
 Name: Roselia
-Species: '[[SRD-Roselia|Roselia]]'
+Pokedex: '[[SRD-Roselia|Roselia]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

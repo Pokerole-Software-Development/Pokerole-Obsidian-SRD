@@ -1,5 +1,4 @@
 ---
-DexID: 0248
 Moves:
 - - Starter
   - '[[SRD-Bite|Bite]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Tyranitar
-Species: '[[SRD-Tyranitar|Tyranitar]]'
+Pokedex: '[[SRD-Tyranitar|Tyranitar]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

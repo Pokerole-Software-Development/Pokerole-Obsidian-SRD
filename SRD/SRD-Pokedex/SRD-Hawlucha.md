@@ -1,7 +1,6 @@
 ---
 Ability1: Limber
 Ability2: Unburden
-Baby: 'No'
 BookSprite: SRD-hawlucha-BookSprite.png
 BoxSprite: SRD-hawlucha-BoxSprite.png
 DexCategory: Wrestling Pokemon
@@ -11,25 +10,19 @@ DexDescription: Although small in size, its proficient fighting skills enable it
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-hawlucha-HomeSprite.png
+Image: hawlucha.png
 Learnset: '[[SRD-Hawlucha-Learnset]]'
 Legendary: 'No'
-Name: Hawlucha
 Number: 701
-PrimaryEggGroup: Flying
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-hawlucha-ShuffleToken.png
-Sprite: hawlucha.png
 Type1: Fighting
 Type2: Flying
 Weight:
-  Hectograms: 215
   Kilograms: 21.5
   Pounds: 47.4
 ---
@@ -49,7 +42,7 @@ Weight:
 *Although small in size, its proficient fighting skills enable it to keep up with big bruisers like Machamp and Hariyama. Using its wings to attack from above allows it to gain an edge in battle.*
 
 **DexID**:: 0701
-**Species**:: Hawlucha
+**Name**:: Hawlucha
 **Type**:: Fighting / Flying
 **Abilities**:: [[SRD-Limber|Limber]] / [[SRD-Unburden|Unburden]] ([[SRD-Mold Breaker|Mold Breaker]])
 **Base HP**:: 4

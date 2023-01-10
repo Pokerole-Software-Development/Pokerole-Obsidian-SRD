@@ -1,7 +1,6 @@
 ---
 Ability1: Sweet Veil
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-swirlix-BookSprite.png
 BoxSprite: SRD-swirlix-BoxSprite.png
 DexCategory: Cotton Candy Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Slurpuff]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Unburden
 HomeSprite: SRD-swirlix-HomeSprite.png
+Image: swirlix.png
 Learnset: '[[SRD-Swirlix-Learnset]]'
 Legendary: 'No'
-Name: Swirlix
 Number: 684
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-swirlix-ShuffleToken.png
-Sprite: swirlix.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 35
   Kilograms: 3.5
   Pounds: 7.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *Because it eats nothing but sweet fruit, honey and sugars, its fur is as sticky and sweet as cotton candy. To entangle its opponents in battle, it extrudes white and sticky threads but the foes end up eating them.*
 
 **DexID**:: 0684
-**Species**:: Swirlix
+**Name**:: Swirlix
 **Type**:: Fairy
 **Abilities**:: [[SRD-Sweet Veil|Sweet Veil]] ([[SRD-Unburden|Unburden]])
 **Base HP**:: 3

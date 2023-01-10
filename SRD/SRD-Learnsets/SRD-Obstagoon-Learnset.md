@@ -1,5 +1,4 @@
 ---
-DexID: 0861
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -58,14 +57,14 @@ Moves:
 - - Pro
   - '[[SRD-Hyper Voice|Hyper Voice]]'
 Name: Obstagoon
-Species: '[[SRD-Obstagoon|Obstagoon]]'
+Pokedex: '[[SRD-Obstagoon|Obstagoon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

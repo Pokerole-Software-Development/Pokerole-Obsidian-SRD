@@ -1,7 +1,6 @@
 ---
 Ability1: Plus
 Ability2: Minus
-Baby: 'No'
 BookSprite: SRD-klang-BookSprite.png
 BoxSprite: SRD-klang-BoxSprite.png
 DexCategory: Gear Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Klinklang]]'
   Speed: Medium
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Clear Body
 HomeSprite: SRD-klang-HomeSprite.png
+Image: klang.png
 Learnset: '[[SRD-Klang-Learnset]]'
 Legendary: 'No'
-Name: Klang
 Number: 600
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-klang-ShuffleToken.png
-Sprite: klang.png
 Type1: Steel
 Type2: ''
 Weight:
-  Hectograms: 510
   Kilograms: 51.0
   Pounds: 112.4
 ---
@@ -57,7 +50,7 @@ Weight:
 *Minigear and big gear comprise its body. If the minigear is detached it will turn off both gears. It communicates with others by rotating. When its angry or afraid, it rotates faster.*
 
 **DexID**:: 0600
-**Species**:: Klang
+**Name**:: Klang
 **Type**:: Steel
 **Abilities**:: [[SRD-Plus|Plus]] / [[SRD-Minus|Minus]] ([[SRD-Clear Body|Clear Body]])
 **Base HP**:: 4

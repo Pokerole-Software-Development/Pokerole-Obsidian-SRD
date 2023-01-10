@@ -1,5 +1,4 @@
 ---
-DexID: '0123'
 Moves:
 - - Starter
   - '[[SRD-Quick Attack|Quick Attack]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Steel Wing|Steel Wing]]'
 Name: Scyther
-Species: '[[SRD-Scyther|Scyther]]'
+Pokedex: '[[SRD-Scyther|Scyther]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

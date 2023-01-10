@@ -1,5 +1,4 @@
 ---
-DexID: 0780
 Moves:
 - - Starter
   - '[[SRD-Water Gun|Water Gun]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Waterfall|Waterfall]]'
 Name: Bruxish
-Species: '[[SRD-Bruxish|Bruxish]]'
+Pokedex: '[[SRD-Bruxish|Bruxish]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

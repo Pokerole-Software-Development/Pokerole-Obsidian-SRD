@@ -1,5 +1,4 @@
 ---
-DexID: '0426'
 Moves:
 - - Starter
   - '[[SRD-Constrict|Constrict]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Icy Wind|Icy Wind]]'
 Name: Drifblim
-Species: '[[SRD-Drifblim|Drifblim]]'
+Pokedex: '[[SRD-Drifblim|Drifblim]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

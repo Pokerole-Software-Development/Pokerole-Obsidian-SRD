@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-baltoy-BookSprite.png
 BoxSprite: SRD-baltoy-BoxSprite.png
 DexCategory: Clay Doll Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Claydol]]'
   Speed: Medium
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
 HomeSprite: SRD-baltoy-HomeSprite.png
+Image: baltoy.png
 Learnset: '[[SRD-Baltoy-Learnset]]'
 Legendary: 'No'
-Name: Baltoy
 Number: 343
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-baltoy-ShuffleToken.png
-Sprite: baltoy.png
 Type1: Ground
 Type2: Psychic
 Weight:
-  Hectograms: 215
   Kilograms: 21.5
   Pounds: 47.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *They spin on their center to move around. When a group of them gathers they create a horrible, headache inducing noise at unison. Old paintings describe them living with people in ancient times.*
 
 **DexID**:: 0343
-**Species**:: Baltoy
+**Name**:: Baltoy
 **Type**:: Ground / Psychic
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 3

@@ -1,7 +1,6 @@
 ---
 Ability1: Run Away
 Ability2: Adaptability
-Baby: 'No'
 BookSprite: SRD-eevee-BookSprite.png
 BoxSprite: SRD-eevee-BoxSprite.png
 DexCategory: Evolution Pokemon
@@ -48,25 +47,19 @@ Evolutions:
   Stat: Loyalty
   Value: 5
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Anticipation
 HomeSprite: SRD-eevee-HomeSprite.png
+Image: eevee.png
 Learnset: '[[SRD-Eevee-Learnset]]'
 Legendary: 'No'
-Name: Eevee
 Number: 133
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-eevee-ShuffleToken.png
-Sprite: eevee.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 65
   Kilograms: 6.5
   Pounds: 14.3
 ---
@@ -86,7 +79,7 @@ Weight:
 *This Pokemon is extremely rare to find. Eevee has an unstable genetic makeup that suddenly mutates to fit its environment. Radiation from various stones causes this Pokemon to evolve.*
 
 **DexID**:: 0133
-**Species**:: Eevee
+**Name**:: Eevee
 **Type**:: Normal
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Adaptability|Adaptability]] ([[SRD-Anticipation|Anticipation]])
 **Base HP**:: 3

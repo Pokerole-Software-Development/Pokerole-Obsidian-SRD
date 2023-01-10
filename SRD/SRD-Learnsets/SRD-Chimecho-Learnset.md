@@ -1,5 +1,4 @@
 ---
-DexID: 0358
 Moves:
 - - Starter
   - '[[SRD-Wrap|Wrap]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Stored Power|Stored Power]]'
 Name: Chimecho
-Species: '[[SRD-Chimecho|Chimecho]]'
+Pokedex: '[[SRD-Chimecho|Chimecho]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

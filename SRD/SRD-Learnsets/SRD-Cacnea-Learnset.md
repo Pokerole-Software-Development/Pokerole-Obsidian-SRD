@@ -1,5 +1,4 @@
 ---
-DexID: '0331'
 Moves:
 - - Starter
   - '[[SRD-Poison Sting|Poison Sting]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Cacnea
-Species: '[[SRD-Cacnea|Cacnea]]'
+Pokedex: '[[SRD-Cacnea|Cacnea]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

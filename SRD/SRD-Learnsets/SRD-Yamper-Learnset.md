@@ -1,5 +1,4 @@
 ---
-DexID: 0834
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Howl|Howl]]'
 Name: Yamper
-Species: '[[SRD-Yamper|Yamper]]'
+Pokedex: '[[SRD-Yamper|Yamper]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

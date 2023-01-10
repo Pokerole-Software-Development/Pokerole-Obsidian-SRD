@@ -1,7 +1,6 @@
 ---
 Ability1: Run Away
 Ability2: Unburden
-Baby: 'No'
 BookSprite: SRD-nickit-BookSprite.png
 BoxSprite: SRD-nickit-BoxSprite.png
 DexCategory: Fox Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Thievul]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Stakeout
 HomeSprite: SRD-nickit-HomeSprite.png
+Image: nickit.png
 Learnset: '[[SRD-Nickit-Learnset]]'
 Legendary: 'No'
-Name: Nickit
 Number: 827
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-nickit-ShuffleToken.png
-Sprite: nickit.png
 Type1: Dark
 Type2: ''
 Weight:
-  Hectograms: 89
   Kilograms: 8.9
   Pounds: 19.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *Cunning and cautious, Nickit survive by stealing food. It erases its tracks with swipes of its tail so it’s very difficult to track one. They have thrived in the cities and come at night to steal from stores.*
 
 **DexID**:: 0827
-**Species**:: Nickit
+**Name**:: Nickit
 **Type**:: Dark
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Unburden|Unburden]] ([[SRD-Stakeout|Stakeout]])
 **Base HP**:: 3

@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: Battle Armor
-Baby: 'No'
 BookSprite: SRD-kabuto-BookSprite.png
 BoxSprite: SRD-kabuto-BoxSprite.png
 DexCategory: Shellfish Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Kabutops]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Weak Armor
 HomeSprite: SRD-kabuto-HomeSprite.png
+Image: kabuto.png
 Learnset: '[[SRD-Kabuto-Learnset]]'
 Legendary: 'No'
-Name: Kabuto
 Number: 140
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Water 3
 ShuffleToken: SRD-kabuto-ShuffleToken.png
-Sprite: kabuto.png
 Type1: Rock
 Type2: Water
 Weight:
-  Hectograms: 115
   Kilograms: 11.5
   Pounds: 25.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *Kabuto is a Pokemon that has been regenerated from a fossil. However, in extremely rare cases, living specimens have been found. The Pokemon has not changed at all for 300 million years.*
 
 **DexID**:: 0140
-**Species**:: Kabuto
+**Name**:: Kabuto
 **Type**:: Rock / Water
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Battle Armor|Battle Armor]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 3

@@ -1,7 +1,6 @@
 ---
 Ability1: Sand Spit
 Ability2: Shed Skin
-Baby: 'No'
 BookSprite: SRD-sandaconda-BookSprite.png
 BoxSprite: SRD-sandaconda-BoxSprite.png
 DexCategory: Sand Snake Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Silicobra]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 38
   Feet: 12.5
   Meters: 3.8
 HiddenAbility: Sand Veil
 HomeSprite: SRD-sandaconda-HomeSprite.png
+Image: sandaconda.png
 Learnset: '[[SRD-Sandaconda-Learnset]]'
 Legendary: 'No'
-Name: Sandaconda
 Number: 844
-PrimaryEggGroup: Field
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-sandaconda-ShuffleToken.png
-Sprite: sandaconda.png
 Type1: Ground
 Type2: ''
 Weight:
-  Hectograms: 655
   Kilograms: 65.5
   Pounds: 144.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *It has a sack that can carry up to 220 lbs of sand, the way it coils allow it to spray the sand to its foes. If it sack ever runs out of sand it becomes limp and depressed. They are unfriendly but not really aggressive.*
 
 **DexID**:: 0844
-**Species**:: Sandaconda
+**Name**:: Sandaconda
 **Type**:: Ground
 **Abilities**:: [[SRD-Sand Spit|Sand Spit]] / [[SRD-Shed Skin|Shed Skin]] ([[SRD-Sand Veil|Sand Veil]])
 **Base HP**:: 6

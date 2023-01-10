@@ -1,7 +1,6 @@
 ---
 Ability1: Blaze
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-pignite-BookSprite.png
 BoxSprite: SRD-pignite-BoxSprite.png
 DexCategory: Fire Pig Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Emboar]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Thick Fat
 HomeSprite: SRD-pignite-HomeSprite.png
+Image: pignite.png
 Learnset: '[[SRD-Pignite-Learnset]]'
 Legendary: 'No'
-Name: Pignite
 Number: 499
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-pignite-ShuffleToken.png
-Sprite: pignite.png
 Type1: Fire
 Type2: Fighting
 Weight:
-  Hectograms: 555
   Kilograms: 55.5
   Pounds: 122.4
 ---
@@ -57,7 +50,7 @@ Weight:
 *Whatever it eats becomes fuel for the flame on its stomach. When it is angered, the intensity of the flame increases. It is not common to see them the wild. They are mostly found living in warm places.*
 
 **DexID**:: 0499
-**Species**:: Pignite
+**Name**:: Pignite
 **Type**:: Fire / Fighting
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Thick Fat|Thick Fat]])
 **Base HP**:: 4

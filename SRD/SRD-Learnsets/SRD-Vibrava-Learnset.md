@@ -1,5 +1,4 @@
 ---
-DexID: 0329
 Moves:
 - - Starter
   - '[[SRD-Sonic Boom|Sonic Boom]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Vibrava
-Species: '[[SRD-Vibrava|Vibrava]]'
+Pokedex: '[[SRD-Vibrava|Vibrava]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

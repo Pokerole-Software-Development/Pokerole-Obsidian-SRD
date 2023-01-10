@@ -1,5 +1,4 @@
 ---
-DexID: 0587
 Moves:
 - - Starter
   - '[[SRD-Thunder Shock|Thunder Shock]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Charm|Charm]]'
 Name: Emolga
-Species: '[[SRD-Emolga|Emolga]]'
+Pokedex: '[[SRD-Emolga|Emolga]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

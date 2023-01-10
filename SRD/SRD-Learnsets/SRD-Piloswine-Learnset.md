@@ -1,5 +1,4 @@
 ---
-DexID: '0221'
 Moves:
 - - Starter
   - '[[SRD-Odor Sleuth|Odor Sleuth]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Avalanche|Avalanche]]'
 Name: Piloswine
-Species: '[[SRD-Piloswine|Piloswine]]'
+Pokedex: '[[SRD-Piloswine|Piloswine]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

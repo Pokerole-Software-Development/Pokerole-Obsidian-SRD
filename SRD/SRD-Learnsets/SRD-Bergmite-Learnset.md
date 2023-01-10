@@ -1,5 +1,4 @@
 ---
-DexID: '0711'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Bergmite
-Species: '[[SRD-Bergmite|Bergmite]]'
+Pokedex: '[[SRD-Bergmite|Bergmite]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

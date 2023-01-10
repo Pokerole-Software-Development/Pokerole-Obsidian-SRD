@@ -1,5 +1,4 @@
 ---
-DexID: 0695
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Ice Fang|Ice Fang]]'
 Name: Tyrunt
-Species: '[[SRD-Tyrunt|Tyrunt]]'
+Pokedex: '[[SRD-Tyrunt|Tyrunt]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

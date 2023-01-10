@@ -1,5 +1,4 @@
 ---
-DexID: '0545'
 Moves:
 - - Starter
   - '[[SRD-Defense Curl|Defense Curl]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Scolipede
-Species: '[[SRD-Scolipede|Scolipede]]'
+Pokedex: '[[SRD-Scolipede|Scolipede]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0204'
 Moves:
 - - Starter
   - '[[SRD-Protect|Protect]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Pin Missile|Pin Missile]]'
 Name: Pineco
-Species: '[[SRD-Pineco|Pineco]]'
+Pokedex: '[[SRD-Pineco|Pineco]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

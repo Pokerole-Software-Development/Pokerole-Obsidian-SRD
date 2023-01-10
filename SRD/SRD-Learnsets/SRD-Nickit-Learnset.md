@@ -1,5 +1,4 @@
 ---
-DexID: 0826
 Moves:
 - - Starter
   - '[[SRD-Quick Attack|Quick Attack]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Nickit
-Species: '[[SRD-Nickit|Nickit]]'
+Pokedex: '[[SRD-Nickit|Nickit]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

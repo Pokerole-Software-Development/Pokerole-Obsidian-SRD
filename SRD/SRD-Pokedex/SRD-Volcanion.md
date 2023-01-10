@@ -1,7 +1,6 @@
 ---
 Ability1: Water Absorb
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-volcanion-BookSprite.png
 BoxSprite: SRD-volcanion-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: In the early days of world exploring, there are records of an en
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 17
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
 HomeSprite: SRD-volcanion-HomeSprite.png
+Image: volcanion.png
 Learnset: '[[SRD-Volcanion-Learnset]]'
 Legendary: 'Yes'
-Name: Volcanion
 Number: 721
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-volcanion-ShuffleToken.png
-Sprite: volcanion.png
 Type1: Fire
 Type2: Water
 Weight:
-  Hectograms: 1950
   Kilograms: 195.0
   Pounds: 429.9
 ---
@@ -49,7 +42,7 @@ Weight:
 *In the early days of world exploring, there are records of an entire mountain blowing up in a cloud of steam. The explorers claimed that a creature in the fog was responsible.*
 
 **DexID**:: 0721
-**Species**:: Volcanion
+**Name**:: Volcanion
 **Type**:: Fire / Water
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]]
 **Base HP**:: 4

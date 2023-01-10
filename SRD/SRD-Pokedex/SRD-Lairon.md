@@ -1,7 +1,6 @@
 ---
 Ability1: Sturdy
 Ability2: Rock Head
-Baby: 'No'
 BookSprite: SRD-lairon-BookSprite.png
 BoxSprite: SRD-lairon-BoxSprite.png
 DexCategory: Iron Armor Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Aggron]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Heavy Metal
 HomeSprite: SRD-lairon-HomeSprite.png
+Image: lairon.png
 Learnset: '[[SRD-Lairon-Learnset]]'
 Legendary: 'No'
-Name: Lairon
 Number: 305
-PrimaryEggGroup: Monster
-SecondaryEggGroup: ''
 ShuffleToken: SRD-lairon-ShuffleToken.png
-Sprite: lairon.png
 Type1: Steel
 Type2: Rock
 Weight:
-  Hectograms: 1200
   Kilograms: 120.0
   Pounds: 264.6
 ---
@@ -57,7 +50,7 @@ Weight:
 *Their armors gets stronger by eating iron ores and drinking mineral spring water, usually nesting close to ponds. Lairons often attack human miners. They are territorial creatures, incredibly stubborn and resilient.*
 
 **DexID**:: 0305
-**Species**:: Lairon
+**Name**:: Lairon
 **Type**:: Steel / Rock
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Rock Head|Rock Head]] ([[SRD-Heavy Metal|Heavy Metal]])
 **Base HP**:: 4

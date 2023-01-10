@@ -1,5 +1,4 @@
 ---
-DexID: '0011'
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -10,14 +9,14 @@ Moves:
 - - Amateur
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Metapod
-Species: '[[SRD-Metapod|Metapod]]'
+Pokedex: '[[SRD-Metapod|Metapod]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

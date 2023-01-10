@@ -1,7 +1,6 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-xurkitree-BookSprite.png
 BoxSprite: SRD-xurkitree-BoxSprite.png
 DexCategory: 'Aether Foundation Log #067'
@@ -11,25 +10,19 @@ DexDescription: My superiors are furious. A lot of money had to be used to cover
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 38
   Feet: 12.5
   Meters: 3.8
 HiddenAbility: ''
 HomeSprite: SRD-xurkitree-HomeSprite.png
+Image: xurkitree.png
 Learnset: '[[SRD-Xurkitree-Learnset]]'
 Legendary: 'Yes'
-Name: Xurkitree
 Number: 796
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-xurkitree-ShuffleToken.png
-Sprite: xurkitree.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 1000
   Kilograms: 100.0
   Pounds: 220.5
 ---
@@ -49,7 +42,7 @@ Weight:
 *My superiors are furious. A lot of money had to be used to cover the damages UB-03 dealt in the power plant. On the bright side, it seems a lot livelier now that it appears to have recharged.*
 
 **DexID**:: 0796
-**Species**:: Xurkitree
+**Name**:: Xurkitree
 **Type**:: Electric
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 4

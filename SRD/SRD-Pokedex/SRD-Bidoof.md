@@ -1,7 +1,6 @@
 ---
 Ability1: Simple
 Ability2: Unaware
-Baby: 'No'
 BookSprite: SRD-bidoof-BookSprite.png
 BoxSprite: SRD-bidoof-BoxSprite.png
 DexCategory: Plump Mouse Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Bibarel]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Moody
 HomeSprite: SRD-bidoof-HomeSprite.png
+Image: bidoof.png
 Learnset: '[[SRD-Bidoof-Learnset]]'
 Legendary: 'No'
-Name: Bidoof
 Number: 399
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Field
 ShuffleToken: SRD-bidoof-ShuffleToken.png
-Sprite: bidoof.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 200
   Kilograms: 20.0
   Pounds: 44.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *Steady as a mountain, Bidoof has nerves of steel so nothing can disturb its focus. It is agile, active and a great team worker. They live in huge packs alongside rivers; the dams they build are incredibly sturdy.*
 
 **DexID**:: 0399
-**Species**:: Bidoof
+**Name**:: Bidoof
 **Type**:: Normal
 **Abilities**:: [[SRD-Simple|Simple]] / [[SRD-Unaware|Unaware]] ([[SRD-Moody|Moody]])
 **Base HP**:: 3

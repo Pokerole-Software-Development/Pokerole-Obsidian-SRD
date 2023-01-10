@@ -1,5 +1,4 @@
 ---
-DexID: '0514'
 Moves:
 - - Beginner
   - '[[SRD-Leer|Leer]]'
@@ -22,14 +21,14 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Simisear
-Species: '[[SRD-Simisear|Simisear]]'
+Pokedex: '[[SRD-Simisear|Simisear]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

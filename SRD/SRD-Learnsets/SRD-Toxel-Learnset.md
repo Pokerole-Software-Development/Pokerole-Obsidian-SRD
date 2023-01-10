@@ -1,5 +1,4 @@
 ---
-DexID: 0849
 Moves:
 - - Starter
   - '[[SRD-Nuzzle|Nuzzle]]'
@@ -26,14 +25,14 @@ Moves:
 - - Pro
   - '[[SRD-Round|Round]]'
 Name: Toxel
-Species: '[[SRD-Toxel|Toxel]]'
+Pokedex: '[[SRD-Toxel|Toxel]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0343'
 Moves:
 - - Starter
   - '[[SRD-Confusion|Confusion]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Baltoy
-Species: '[[SRD-Baltoy|Baltoy]]'
+Pokedex: '[[SRD-Baltoy|Baltoy]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

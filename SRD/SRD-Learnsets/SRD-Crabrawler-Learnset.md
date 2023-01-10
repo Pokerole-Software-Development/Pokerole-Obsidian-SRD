@@ -1,5 +1,4 @@
 ---
-DexID: 0738
 Moves:
 - - Starter
   - '[[SRD-Bubble|Bubble]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Wide Guard|Wide Guard]]'
 Name: Crabrawler
-Species: '[[SRD-Crabrawler|Crabrawler]]'
+Pokedex: '[[SRD-Crabrawler|Crabrawler]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

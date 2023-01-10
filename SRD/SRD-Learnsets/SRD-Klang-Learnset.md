@@ -1,5 +1,4 @@
 ---
-DexID: 0599
 Moves:
 - - Starter
   - '[[SRD-Vice Grip|Vice Grip]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Gravity|Gravity]]'
 Name: Klang
-Species: '[[SRD-Klang|Klang]]'
+Pokedex: '[[SRD-Klang|Klang]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

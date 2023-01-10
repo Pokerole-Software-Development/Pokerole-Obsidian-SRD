@@ -1,7 +1,6 @@
 ---
 Ability1: Berserk
 Ability2: Sap Sipper
-Baby: 'No'
 BookSprite: SRD-drampa-BookSprite.png
 BoxSprite: SRD-drampa-BoxSprite.png
 DexCategory: Placid Pokemon
@@ -11,25 +10,19 @@ DexDescription: They live alone at the top of high mountains but come down in th
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 30
   Feet: 9.8
   Meters: 3.0
 HiddenAbility: Cloud Nine
 HomeSprite: SRD-drampa-HomeSprite.png
+Image: drampa.png
 Learnset: '[[SRD-Drampa-Learnset]]'
 Legendary: 'No'
-Name: Drampa
 Number: 780
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-drampa-ShuffleToken.png
-Sprite: drampa.png
 Type1: Normal
 Type2: Dragon
 Weight:
-  Hectograms: 1850
   Kilograms: 185.0
   Pounds: 407.9
 ---
@@ -49,7 +42,7 @@ Weight:
 *They live alone at the top of high mountains but come down in the morning to eat berries. It is a caring Pokemon, specially towards children and will fiercely protect any children it cares for with tremendous force.*
 
 **DexID**:: 0780
-**Species**:: Drampa
+**Name**:: Drampa
 **Type**:: Normal / Dragon
 **Abilities**:: [[SRD-Berserk|Berserk]] / [[SRD-Sap Sipper|Sap Sipper]] ([[SRD-Cloud Nine|Cloud Nine]])
 **Base HP**:: 4

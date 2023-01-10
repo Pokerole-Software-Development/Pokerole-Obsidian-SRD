@@ -1,5 +1,4 @@
 ---
-DexID: '0327'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Helping Hand|Helping Hand]]'
 Name: Spinda
-Species: '[[SRD-Spinda|Spinda]]'
+Pokedex: '[[SRD-Spinda|Spinda]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,9 +1,8 @@
 ---
 Ability1: Power Construct
 Ability2: ''
-Baby: 'No'
-BookSprite: SRD-zygarde-BookSprite.png
-BoxSprite: SRD-zygarde-BoxSprite.png
+BookSprite: SRD-zygarde-cell-BookSprite.png
+BoxSprite: SRD-zygarde-cell-BoxSprite.png
 DexCategory: No Data
 DexDescription: Only the the cores react to stimuli, the cells remain mostly inanimate.
   They gather in great numbers to create and strengthen Zygarde.
@@ -22,25 +21,19 @@ Evolutions:
   Kind: Special
   Pokemon: '[[SRD-Zygarde 100%]]'
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: ''
-HomeSprite: SRD-zygarde-HomeSprite.png
+HomeSprite: SRD-zygarde-cell-HomeSprite.png
+Image: zygarde-cell.png
 Learnset: '[[SRD-Zygarde Cell-Learnset]]'
 Legendary: 'Yes'
-Name: Zygarde Cell
 Number: 718
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
-ShuffleToken: SRD-zygarde-ShuffleToken.png
-Sprite: zygarde.png
+ShuffleToken: SRD-zygarde-cell-ShuffleToken.png
 Type1: Dragon
 Type2: Ground
 Weight:
-  Hectograms: 1
   Kilograms: 0.1
   Pounds: 0.2
 ---
@@ -50,17 +43,17 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-zygarde-BookSprite.png|wsmall]]
-> ![[SRD-zygarde-HomeSprite.png]]
-> ![[SRD-zygarde-BoxSprite.png|htiny]]
-> ![[SRD-zygarde-ShuffleToken.png|wsmall]]
+> ![[SRD-zygarde-cell-BookSprite.png|wsmall]]
+> ![[SRD-zygarde-cell-HomeSprite.png]]
+> ![[SRD-zygarde-cell-BoxSprite.png|htiny]]
+> ![[SRD-zygarde-cell-ShuffleToken.png|wsmall]]
 
 
 *No Data*
 *Only the the cores react to stimuli, the cells remain mostly inanimate. They gather in great numbers to create and strengthen Zygarde.*
 
 **DexID**:: 0718
-**Species**:: Zygarde Cell
+**Name**:: Zygarde Cell
 **Type**:: Dragon / Ground
 **Abilities**:: [[SRD-Power Construct|Power Construct]]
 **Base HP**:: 1

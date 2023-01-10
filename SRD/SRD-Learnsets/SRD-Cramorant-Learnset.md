@@ -1,5 +1,4 @@
 ---
-DexID: 0844
 Moves:
 - - Starter
   - '[[SRD-Belch|Belch]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Feather Dance|Feather Dance]]'
 Name: Cramorant
-Species: '[[SRD-Cramorant|Cramorant]]'
+Pokedex: '[[SRD-Cramorant|Cramorant]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

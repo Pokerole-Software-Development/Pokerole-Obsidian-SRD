@@ -1,5 +1,4 @@
 ---
-DexID: 0128
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Sleep Talk|Sleep Talk]]'
 Name: Tauros
-Species: '[[SRD-Tauros|Tauros]]'
+Pokedex: '[[SRD-Tauros|Tauros]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

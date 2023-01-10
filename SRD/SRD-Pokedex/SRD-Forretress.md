@@ -1,7 +1,6 @@
 ---
 Ability1: Sturdy
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-forretress-BookSprite.png
 BoxSprite: SRD-forretress-BoxSprite.png
 DexCategory: Bagworm Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Pineco]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Overcoat
 HomeSprite: SRD-forretress-HomeSprite.png
+Image: forretress.png
 Learnset: '[[SRD-Forretress-Learnset]]'
 Legendary: 'No'
-Name: Forretress
 Number: 205
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-forretress-ShuffleToken.png
-Sprite: forretress.png
 Type1: Bug
 Type2: Steel
 Weight:
-  Hectograms: 1258
   Kilograms: 125.8
   Pounds: 277.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *It can be found completely rooted to huge tree trunks. It protects itself and its tree by scattering spiked pieces from its shell and turning its home into a fortress that won’t go down without a fight.*
 
 **DexID**:: 0205
-**Species**:: Forretress
+**Name**:: Forretress
 **Type**:: Bug / Steel
 **Abilities**:: [[SRD-Sturdy|Sturdy]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 4

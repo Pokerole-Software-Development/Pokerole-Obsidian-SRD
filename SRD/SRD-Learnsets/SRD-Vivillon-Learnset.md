@@ -1,5 +1,4 @@
 ---
-DexID: '0667'
 Moves:
 - - Starter
   - '[[SRD-Powder|Powder]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Vivillon
-Species: '[[SRD-Vivillon|Vivillon]]'
+Pokedex: '[[SRD-Vivillon|Vivillon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

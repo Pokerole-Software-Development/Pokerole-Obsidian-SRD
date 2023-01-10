@@ -1,7 +1,6 @@
 ---
 Ability1: Soul Heart
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-magearna-BookSprite.png
 BoxSprite: SRD-magearna-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: 500 years ago a famous scientist left a manuscript with details 
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: ''
 HomeSprite: SRD-magearna-HomeSprite.png
+Image: magearna.png
 Learnset: '[[SRD-Magearna-Learnset]]'
 Legendary: 'Yes'
-Name: Magearna
 Number: 801
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-magearna-ShuffleToken.png
-Sprite: magearna.png
 Type1: Steel
 Type2: Fairy
 Weight:
-  Hectograms: 805
   Kilograms: 80.5
   Pounds: 177.5
 ---
@@ -49,7 +42,7 @@ Weight:
 *500 years ago a famous scientist left a manuscript with details on how to create a mechanic Pokemon. His investigation led to the creation of the modern Pokeball.*
 
 **DexID**:: 0801
-**Species**:: Magearna
+**Name**:: Magearna
 **Type**:: Steel / Fairy
 **Abilities**:: [[SRD-Soul Heart|Soul Heart]]
 **Base HP**:: 4

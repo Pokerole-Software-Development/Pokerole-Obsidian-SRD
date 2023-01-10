@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-flygon-BookSprite.png
 BoxSprite: SRD-flygon-BoxSprite.png
 DexCategory: Mystic Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Vibrava]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 20
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: ''
 HomeSprite: SRD-flygon-HomeSprite.png
+Image: flygon.png
 Learnset: '[[SRD-Flygon-Learnset]]'
 Legendary: 'No'
-Name: Flygon
 Number: 330
-PrimaryEggGroup: Bug
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-flygon-ShuffleToken.png
-Sprite: flygon.png
 Type1: Ground
 Type2: Dragon
 Weight:
-  Hectograms: 820
   Kilograms: 82.0
   Pounds: 180.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Known as the “Elemental Spirit of the Desert”. Their wings create a cloud of dust that surrounds this Pokemon while flying, while their flapping produces a sound that resembles a woman singing.*
 
 **DexID**:: 0330
-**Species**:: Flygon
+**Name**:: Flygon
 **Type**:: Ground / Dragon
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 5

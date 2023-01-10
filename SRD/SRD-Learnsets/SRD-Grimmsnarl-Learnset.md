@@ -1,5 +1,4 @@
 ---
-DexID: 0862
 Moves:
 - - Starter
   - '[[SRD-Fake Out|Fake Out]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Reflect|Reflect]]'
 Name: Grimmsnarl
-Species: '[[SRD-Grimmsnarl|Grimmsnarl]]'
+Pokedex: '[[SRD-Grimmsnarl|Grimmsnarl]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

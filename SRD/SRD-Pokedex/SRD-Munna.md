@@ -1,7 +1,6 @@
 ---
 Ability1: Forewarn
 Ability2: Synchronize
-Baby: 'No'
 BookSprite: SRD-munna-BookSprite.png
 BoxSprite: SRD-munna-BoxSprite.png
 DexCategory: Dream Eater Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Musharna]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Telepathy
 HomeSprite: SRD-munna-HomeSprite.png
+Image: munna.png
 Learnset: '[[SRD-Munna-Learnset]]'
 Legendary: 'No'
-Name: Munna
 Number: 517
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-munna-ShuffleToken.png
-Sprite: munna.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 233
   Kilograms: 23.3
   Pounds: 51.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lurks close to towns and eats the dreams of people and Pokemon. When it eats a pleasant dream, it expels pink-colored mist. If you forgot what you dreamed, a Munna must have eaten your dream.*
 
 **DexID**:: 0517
-**Species**:: Munna
+**Name**:: Munna
 **Type**:: Psychic
 **Abilities**:: [[SRD-Forewarn|Forewarn]] / [[SRD-Synchronize|Synchronize]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 3

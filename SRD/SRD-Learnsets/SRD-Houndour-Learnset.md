@@ -1,5 +1,4 @@
 ---
-DexID: 0228
 Moves:
 - - Starter
   - '[[SRD-Ember|Ember]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Feint|Feint]]'
 Name: Houndour
-Species: '[[SRD-Houndour|Houndour]]'
+Pokedex: '[[SRD-Houndour|Houndour]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

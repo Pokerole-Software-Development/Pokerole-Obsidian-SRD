@@ -1,7 +1,6 @@
 ---
 Ability1: Prankster
 Ability2: Frisk
-Baby: 'No'
 BookSprite: SRD-obstagoon-BookSprite.png
 BoxSprite: SRD-obstagoon-BoxSprite.png
 DexCategory: Blocking Pokemon
@@ -12,28 +11,22 @@ EventAbilities: ''
 Evolutions:
 - Evolves: From
   Kind: Level
-  Pokemon: '[[SRD-Galarian Linoone]]'
+  Pokemon: '[[SRD-Linoone (Galarian Form)]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Pickpocket
 HomeSprite: SRD-obstagoon-HomeSprite.png
+Image: obstagoon.png
 Learnset: '[[SRD-Obstagoon-Learnset]]'
 Legendary: 'No'
-Name: Obstagoon
 Number: 862
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-obstagoon-ShuffleToken.png
-Sprite: obstagoon.png
 Type1: Dark
 Type2: Normal
 Weight:
-  Hectograms: 460
   Kilograms: 46.0
   Pounds: 101.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *Its voice has a very loud volume and it is a noisy and rude Pokemon. Obstagoon has a tendency to take on a threatening posture and shout at anyone that is in front of it. They rarely take things seriously.*
 
 **DexID**:: 0862
-**Species**:: Obstagoon
+**Name**:: Obstagoon
 **Type**:: Dark / Normal
 **Abilities**:: [[SRD-Prankster|Prankster]] / [[SRD-Frisk|Frisk]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 5
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon                  | Kind   | Speed   |
-|:----------|:-------------------------|:-------|:--------|
-| From      | [[SRD-Galarian Linoone]] | Level  | Medium  |
+| Evolves   | Pokemon                         | Kind   | Speed   |
+|:----------|:--------------------------------|:-------|:--------|
+| From      | [[SRD-Linoone (Galarian Form)]] | Level  | Medium  |
 
 ![[SRD-Obstagoon-Learnset]]

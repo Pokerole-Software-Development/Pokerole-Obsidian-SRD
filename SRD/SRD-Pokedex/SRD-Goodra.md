@@ -1,7 +1,6 @@
 ---
 Ability1: Sap Sipper
 Ability2: Hydration
-Baby: 'No'
 BookSprite: SRD-goodra-BookSprite.png
 BoxSprite: SRD-goodra-BoxSprite.png
 DexCategory: Dragon Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Sliggoo]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 20
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Gooey
 HomeSprite: SRD-goodra-HomeSprite.png
+Image: goodra.png
 Learnset: '[[SRD-Goodra-Learnset]]'
 Legendary: 'No'
-Name: Goodra
 Number: 706
-PrimaryEggGroup: Dragon
-SecondaryEggGroup: ''
 ShuffleToken: SRD-goodra-ShuffleToken.png
-Sprite: goodra.png
 Type1: Dragon
 Type2: ''
 Weight:
-  Hectograms: 1505
   Kilograms: 150.5
   Pounds: 331.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Definitely the friendliest of all Dragons. This Pokemon will hug its beloved Trainer, leaving them covered in sticky slime. In areas with heavy rainfall during the year, one or two may make an appearance.*
 
 **DexID**:: 0706
-**Species**:: Goodra
+**Name**:: Goodra
 **Type**:: Dragon
 **Abilities**:: [[SRD-Sap Sipper|Sap Sipper]] / [[SRD-Hydration|Hydration]] ([[SRD-Gooey|Gooey]])
 **Base HP**:: 5

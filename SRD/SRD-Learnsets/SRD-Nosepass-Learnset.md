@@ -1,5 +1,4 @@
 ---
-DexID: 0299
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Magic Coat|Magic Coat]]'
 Name: Nosepass
-Species: '[[SRD-Nosepass|Nosepass]]'
+Pokedex: '[[SRD-Nosepass|Nosepass]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

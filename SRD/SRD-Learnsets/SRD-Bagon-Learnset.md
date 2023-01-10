@@ -1,5 +1,4 @@
 ---
-DexID: '0371'
 Moves:
 - - Starter
   - '[[SRD-Rage|Rage]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Bagon
-Species: '[[SRD-Bagon|Bagon]]'
+Pokedex: '[[SRD-Bagon|Bagon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

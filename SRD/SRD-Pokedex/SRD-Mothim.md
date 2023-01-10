@@ -1,7 +1,6 @@
 ---
 Ability1: Swarm
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-mothim-BookSprite.png
 BoxSprite: SRD-mothim-BoxSprite.png
 DexCategory: Moth Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Pokemon: '[[SRD-Burmy]]'
   Speed: Fast
 GenderType: M
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Tinted Lens
 HomeSprite: SRD-mothim-HomeSprite.png
+Image: mothim.png
 Learnset: '[[SRD-Mothim-Learnset]]'
 Legendary: 'No'
-Name: Mothim
 Number: 414
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-mothim-ShuffleToken.png
-Sprite: mothim.png
 Type1: Bug
 Type2: Flying
 Weight:
-  Hectograms: 233
   Kilograms: 23.3
   Pounds: 51.4
 ---
@@ -54,7 +47,7 @@ Weight:
 *It flies near the mountains in search of honey. It is an opportunist and won’t gather any honey by itself, instead Mothim steals from Combee hives and other Pokemon. This Pokemon is male only.*
 
 **DexID**:: 0414
-**Species**:: Mothim
+**Name**:: Mothim
 **Type**:: Bug / Flying
 **Abilities**:: [[SRD-Swarm|Swarm]] ([[SRD-Tinted Lens|Tinted Lens]])
 **Base HP**:: 4

@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: Own Tempo
-Baby: 'No'
 BookSprite: SRD-lilligant-BookSprite.png
 BoxSprite: SRD-lilligant-BoxSprite.png
 DexCategory: Flowering Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Petilil]]'
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-lilligant-HomeSprite.png
+Image: lilligant.png
 Learnset: '[[SRD-Lilligant-Learnset]]'
 Legendary: 'No'
-Name: Lilligant
 Number: 549
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-lilligant-ShuffleToken.png
-Sprite: lilligant.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 163
   Kilograms: 16.3
   Pounds: 35.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *Even veteran gardeners face a challenge in getting its beautiful flower to bloom as it withers with ease. This Pokemon is popular among celebrities due to it’s grace, elegance and delicious aroma.*
 
 **DexID**:: 0549
-**Species**:: Lilligant
+**Name**:: Lilligant
 **Type**:: Grass
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Leaf Guard|Leaf Guard]])
 **Base HP**:: 4

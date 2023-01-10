@@ -1,5 +1,4 @@
 ---
-DexID: '0752'
 Moves:
 - - Starter
   - '[[SRD-Fury Cutter|Fury Cutter]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Aromatherapy|Aromatherapy]]'
 Name: Fomantis
-Species: '[[SRD-Fomantis|Fomantis]]'
+Pokedex: '[[SRD-Fomantis|Fomantis]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

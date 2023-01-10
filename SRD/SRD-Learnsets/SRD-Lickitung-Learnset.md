@@ -1,5 +1,4 @@
 ---
-DexID: 0108
 Moves:
 - - Starter
   - '[[SRD-Lick|Lick]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Zen Headbutt|Zen Headbutt]]'
 Name: Lickitung
-Species: '[[SRD-Lickitung|Lickitung]]'
+Pokedex: '[[SRD-Lickitung|Lickitung]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0364'
 Moves:
 - - Starter
   - '[[SRD-Defense Curl|Defense Curl]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Super Fang|Super Fang]]'
 Name: Sealeo
-Species: '[[SRD-Sealeo|Sealeo]]'
+Pokedex: '[[SRD-Sealeo|Sealeo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

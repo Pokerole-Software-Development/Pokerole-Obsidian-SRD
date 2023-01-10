@@ -1,7 +1,6 @@
 ---
 Ability1: Insomnia
 Ability2: Frisk
-Baby: 'No'
 BookSprite: SRD-banette-BookSprite.png
 BoxSprite: SRD-banette-BoxSprite.png
 DexCategory: Marionette Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Banettite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Banette]]'
+  Pokemon: '[[SRD-Banette (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Cursed Body
 HomeSprite: SRD-banette-HomeSprite.png
+Image: banette.png
 Learnset: '[[SRD-Banette-Learnset]]'
 Legendary: 'No'
-Name: Banette
 Number: 354
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-banette-ShuffleToken.png
-Sprite: banette.png
 Type1: Ghost
 Type2: ''
 Weight:
-  Hectograms: 125
   Kilograms: 12.5
   Pounds: 27.6
 ---
@@ -57,7 +50,7 @@ Weight:
 *It’s body is usually a discarded doll or toy. Its spirit is made of dark feelings and is overrun by the desire of revenge towards the kid that threw the toy away. If you open its mouth, all the cursed energy will escape.*
 
 **DexID**:: 0354
-**Species**:: Banette
+**Name**:: Banette
 **Type**:: Ghost
 **Abilities**:: [[SRD-Insomnia|Insomnia]] / [[SRD-Frisk|Frisk]] ([[SRD-Cursed Body|Cursed Body]])
 **Base HP**:: 4
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon              | Kind   | Speed   | Item      |
-|:----------|:---------------------|:-------|:--------|:----------|
-| From      | [[SRD-Shuppet]]      | Level  | Medium  |           |
-| To        | [[SRD-Mega-Banette]] | Mega   |         | Banettite |
+| Evolves   | Pokemon                     | Kind   | Speed   | Item      |
+|:----------|:----------------------------|:-------|:--------|:----------|
+| From      | [[SRD-Shuppet]]             | Level  | Medium  |           |
+| To        | [[SRD-Banette (Mega Form)]] | Mega   |         | Banettite |
 
 ![[SRD-Banette-Learnset]]

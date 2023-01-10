@@ -1,7 +1,6 @@
 ---
 Ability1: Damp
 Ability2: Water Absorb
-Baby: 'No'
 BookSprite: SRD-quagsire-BookSprite.png
 BoxSprite: SRD-quagsire-BoxSprite.png
 DexCategory: Water Fish Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Wooper]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Unaware
 HomeSprite: SRD-quagsire-HomeSprite.png
+Image: quagsire.png
 Learnset: '[[SRD-Quagsire-Learnset]]'
 Legendary: 'No'
-Name: Quagsire
 Number: 195
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Field
 ShuffleToken: SRD-quagsire-ShuffleToken.png
-Sprite: quagsire.png
 Type1: Water
 Type2: Ground
 Weight:
-  Hectograms: 750
   Kilograms: 75.0
   Pounds: 165.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *You’ll find its home at the bottom of the river. It hunts by leaving its mouth wide open in water and waiting for its prey to get in. Because it doesn’t move a lot, it does not get very hungry.*
 
 **DexID**:: 0195
-**Species**:: Quagsire
+**Name**:: Quagsire
 **Type**:: Water / Ground
 **Abilities**:: [[SRD-Damp|Damp]] / [[SRD-Water Absorb|Water Absorb]] ([[SRD-Unaware|Unaware]])
 **Base HP**:: 4

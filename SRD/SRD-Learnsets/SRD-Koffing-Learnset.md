@@ -1,5 +1,4 @@
 ---
-DexID: 0109
 Moves:
 - - Starter
   - '[[SRD-Poison Gas|Poison Gas]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Rollout|Rollout]]'
 Name: Koffing
-Species: '[[SRD-Koffing|Koffing]]'
+Pokedex: '[[SRD-Koffing|Koffing]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

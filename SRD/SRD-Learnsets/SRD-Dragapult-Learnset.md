@@ -1,5 +1,4 @@
 ---
-DexID: 0888
 Moves:
 - - Starter
   - '[[SRD-Astonish|Astonish]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Dragapult
-Species: '[[SRD-Dragapult|Dragapult]]'
+Pokedex: '[[SRD-Dragapult|Dragapult]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

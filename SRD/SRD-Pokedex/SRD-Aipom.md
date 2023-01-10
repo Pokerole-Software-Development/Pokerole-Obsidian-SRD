@@ -1,7 +1,6 @@
 ---
 Ability1: Run Away
 Ability2: Pickup
-Baby: 'No'
 BookSprite: SRD-aipom-BookSprite.png
 BoxSprite: SRD-aipom-BoxSprite.png
 DexCategory: Long Tail Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Ambipom]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Skill Link
 HomeSprite: SRD-aipom-HomeSprite.png
+Image: aipom.png
 Learnset: '[[SRD-Aipom-Learnset]]'
 Legendary: 'No'
-Name: Aipom
 Number: 190
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-aipom-ShuffleToken.png
-Sprite: aipom.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 115
   Kilograms: 11.5
   Pounds: 25.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lives at the top of tall trees in forests and jungles. It uses its tail tip as a third hand. However, because the Pokemon uses its tail so much, its real hands become rather clumsy. It is very playful.*
 
 **DexID**:: 0190
-**Species**:: Aipom
+**Name**:: Aipom
 **Type**:: Normal
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Pickup|Pickup]] ([[SRD-Skill Link|Skill Link]])
 **Base HP**:: 3

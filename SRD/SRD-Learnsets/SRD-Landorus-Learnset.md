@@ -1,5 +1,4 @@
 ---
-DexID: '0644'
 Moves:
 - - Master
   - '[[SRD-Block|Block]]'
@@ -40,14 +39,14 @@ Moves:
 - - Master
   - '[[SRD-Dig|Dig]]'
 Name: Landorus
-Species: '[[SRD-Landorus|Landorus]]'
+Pokedex: '[[SRD-Landorus|Landorus]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

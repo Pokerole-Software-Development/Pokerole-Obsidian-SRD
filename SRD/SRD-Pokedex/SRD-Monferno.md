@@ -1,7 +1,6 @@
 ---
 Ability1: Blaze
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-monferno-BookSprite.png
 BoxSprite: SRD-monferno-BoxSprite.png
 DexCategory: Playful Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Infernape]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Iron Fist
 HomeSprite: SRD-monferno-HomeSprite.png
+Image: monferno.png
 Learnset: '[[SRD-Monferno-Learnset]]'
 Legendary: 'No'
-Name: Monferno
 Number: 391
-PrimaryEggGroup: Field
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-monferno-ShuffleToken.png
-Sprite: monferno.png
 Type1: Fire
 Type2: Fighting
 Weight:
-  Hectograms: 220
   Kilograms: 22.0
   Pounds: 48.5
 ---
@@ -57,7 +50,7 @@ Weight:
 *It bounces off walls and ceilings to launch aerial attacks. They live in packs in distant mountains. The size of their flame and the blue pattern on their faces determine their rank. They are small but very strong.*
 
 **DexID**:: 0391
-**Species**:: Monferno
+**Name**:: Monferno
 **Type**:: Fire / Fighting
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Iron Fist|Iron Fist]])
 **Base HP**:: 4

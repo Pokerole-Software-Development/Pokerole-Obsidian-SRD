@@ -1,7 +1,6 @@
 ---
 Ability1: Oblivious
 Ability2: Forewarn
-Baby: 'Yes'
 BookSprite: SRD-smoochum-BookSprite.png
 BoxSprite: SRD-smoochum-BoxSprite.png
 DexCategory: Kiss Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Jynx]]'
   Speed: Medium
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Hydration
 HomeSprite: SRD-smoochum-HomeSprite.png
+Image: smoochum.png
 Learnset: '[[SRD-Smoochum-Learnset]]'
 Legendary: 'No'
-Name: Smoochum
 Number: 238
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-smoochum-ShuffleToken.png
-Sprite: smoochum.png
 Type1: Ice
 Type2: Psychic
 Weight:
-  Hectograms: 60
   Kilograms: 6.0
   Pounds: 13.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *They examine their surroundings with their lips. They love to smooch, but Pokemon dislike their kisses. Smoochums are always running excitedly, but they are clumsy and end up stumbling and crying.*
 
 **DexID**:: 0238
-**Species**:: Smoochum
+**Name**:: Smoochum
 **Type**:: Ice / Psychic
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Forewarn|Forewarn]] ([[SRD-Hydration|Hydration]])
 **Base HP**:: 3

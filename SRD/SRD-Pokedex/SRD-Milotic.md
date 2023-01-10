@@ -1,7 +1,6 @@
 ---
 Ability1: Marvel Scale
 Ability2: Competitive
-Baby: 'No'
 BookSprite: SRD-milotic-BookSprite.png
 BoxSprite: SRD-milotic-BoxSprite.png
 DexCategory: Tender Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Beauty
   Value: 5
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 62
   Feet: 20.3
   Meters: 6.2
 HiddenAbility: Cute Charm
 HomeSprite: SRD-milotic-HomeSprite.png
+Image: milotic.png
 Learnset: '[[SRD-Milotic-Learnset]]'
 Legendary: 'No'
-Name: Milotic
 Number: 350
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-milotic-ShuffleToken.png
-Sprite: milotic.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 1620
   Kilograms: 162.0
   Pounds: 357.1
 ---
@@ -54,7 +47,7 @@ Weight:
 *Milotic is considered to be one of the most beautiful Pokemon in existence. It has inspired music, paintings and statues. It has the power to calm the anger and hostility of its foes.*
 
 **DexID**:: 0350
-**Species**:: Milotic
+**Name**:: Milotic
 **Type**:: Water
 **Abilities**:: [[SRD-Marvel Scale|Marvel Scale]] / [[SRD-Competitive|Competitive]] ([[SRD-Cute Charm|Cute Charm]])
 **Base HP**:: 7

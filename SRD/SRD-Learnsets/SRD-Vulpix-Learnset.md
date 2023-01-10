@@ -1,5 +1,4 @@
 ---
-DexID: '0037'
 Moves:
 - - Starter
   - '[[SRD-Ember|Ember]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Vulpix
-Species: '[[SRD-Vulpix|Vulpix]]'
+Pokedex: '[[SRD-Vulpix|Vulpix]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

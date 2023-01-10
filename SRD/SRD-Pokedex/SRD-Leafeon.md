@@ -1,7 +1,6 @@
 ---
 Ability1: Leaf Guard
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-leafeon-BookSprite.png
 BoxSprite: SRD-leafeon-BoxSprite.png
 DexCategory: Verdant Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Eevee]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-leafeon-HomeSprite.png
+Image: leafeon.png
 Learnset: '[[SRD-Leafeon-Learnset]]'
 Legendary: 'No'
-Name: Leafeon
 Number: 470
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-leafeon-ShuffleToken.png
-Sprite: leafeon.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 255
   Kilograms: 25.5
   Pounds: 56.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *Eevee evolves to Leafeon when it’s living near a special kind of moss. Its cells are capable of performing photosynthesis. It is a calm Pokemon and does not usually fight but its leaves are sharp and strong.*
 
 **DexID**:: 0470
-**Species**:: Leafeon
+**Name**:: Leafeon
 **Type**:: Grass
 **Abilities**:: [[SRD-Leaf Guard|Leaf Guard]] ([[SRD-Chlorophyll|Chlorophyll]])
 **Base HP**:: 4

@@ -1,5 +1,4 @@
 ---
-DexID: 0139
 Moves:
 - - Starter
   - '[[SRD-Constrict|Constrict]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Omastar
-Species: '[[SRD-Omastar|Omastar]]'
+Pokedex: '[[SRD-Omastar|Omastar]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0102'
 Moves:
 - - Starter
   - '[[SRD-Barrage|Barrage]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Curse|Curse]]'
 Name: Exeggcute
-Species: '[[SRD-Exeggcute|Exeggcute]]'
+Pokedex: '[[SRD-Exeggcute|Exeggcute]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

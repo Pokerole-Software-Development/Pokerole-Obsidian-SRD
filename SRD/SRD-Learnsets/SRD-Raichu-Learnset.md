@@ -1,5 +1,4 @@
 ---
-DexID: '0026'
 Moves:
 - - Starter
   - '[[SRD-Thunder Shock|Thunder Shock]]'
@@ -24,14 +23,14 @@ Moves:
 - - Pro
   - '[[SRD-Volt Tackle|Volt Tackle]]'
 Name: Raichu
-Species: '[[SRD-Raichu|Raichu]]'
+Pokedex: '[[SRD-Raichu|Raichu]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

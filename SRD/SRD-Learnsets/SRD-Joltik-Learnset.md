@@ -1,5 +1,4 @@
 ---
-DexID: 0596
 Moves:
 - - Starter
   - '[[SRD-String Shot|String Shot]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Giga Drain|Giga Drain]]'
 Name: Joltik
-Species: '[[SRD-Joltik|Joltik]]'
+Pokedex: '[[SRD-Joltik|Joltik]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

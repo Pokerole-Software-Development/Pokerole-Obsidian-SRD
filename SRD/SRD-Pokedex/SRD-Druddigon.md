@@ -1,7 +1,6 @@
 ---
 Ability1: Rough Skin
 Ability2: Sheer Force
-Baby: 'No'
 BookSprite: SRD-druddigon-BookSprite.png
 BoxSprite: SRD-druddigon-BoxSprite.png
 DexCategory: Cave Pokemon
@@ -11,25 +10,19 @@ DexDescription: It runs through the narrow tunnels dug by Excadrill and Onix and
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-druddigon-HomeSprite.png
+Image: druddigon.png
 Learnset: '[[SRD-Druddigon-Learnset]]'
 Legendary: 'No'
-Name: Druddigon
 Number: 621
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-druddigon-ShuffleToken.png
-Sprite: druddigon.png
 Type1: Dragon
 Type2: ''
 Weight:
-  Hectograms: 1390
   Kilograms: 139.0
   Pounds: 306.4
 ---
@@ -49,7 +42,7 @@ Weight:
 *It runs through the narrow tunnels dug by Excadrill and Onix and uses its sharp claws to catch prey. It is cold blooded, and regularly takes sun baths to keep its energy. They are aggressive and territorial.*
 
 **DexID**:: 0621
-**Species**:: Druddigon
+**Name**:: Druddigon
 **Type**:: Dragon
 **Abilities**:: [[SRD-Rough Skin|Rough Skin]] / [[SRD-Sheer Force|Sheer Force]] ([[SRD-Mold Breaker|Mold Breaker]])
 **Base HP**:: 4

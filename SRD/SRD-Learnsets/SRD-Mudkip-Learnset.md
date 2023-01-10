@@ -1,5 +1,4 @@
 ---
-DexID: 0258
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Mudkip
-Species: '[[SRD-Mudkip|Mudkip]]'
+Pokedex: '[[SRD-Mudkip|Mudkip]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

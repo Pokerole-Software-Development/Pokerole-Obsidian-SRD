@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-claydol-BookSprite.png
 BoxSprite: SRD-claydol-BoxSprite.png
 DexCategory: Clay Doll Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Baltoy]]'
   Speed: Medium
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: ''
 HomeSprite: SRD-claydol-HomeSprite.png
+Image: claydol.png
 Learnset: '[[SRD-Claydol-Learnset]]'
 Legendary: 'No'
-Name: Claydol
 Number: 344
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-claydol-ShuffleToken.png
-Sprite: claydol.png
 Type1: Ground
 Type2: Psychic
 Weight:
-  Hectograms: 1080
   Kilograms: 108.0
   Pounds: 238.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is made entirely of clay. The first one was discovered in ruins from 20,000 years ago. A strange light is said to be the source of its life and psychic abilities. Its eight eyes are always alert and always watching.*
 
 **DexID**:: 0344
-**Species**:: Claydol
+**Name**:: Claydol
 **Type**:: Ground / Psychic
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4

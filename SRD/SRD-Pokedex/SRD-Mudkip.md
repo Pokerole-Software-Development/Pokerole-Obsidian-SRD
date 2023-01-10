@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-mudkip-BookSprite.png
 BoxSprite: SRD-mudkip-BoxSprite.png
 DexCategory: Mud Fish Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Marshtomp]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Damp
 HomeSprite: SRD-mudkip-HomeSprite.png
+Image: mudkip.png
 Learnset: '[[SRD-Mudkip-Learnset]]'
 Legendary: 'No'
-Name: Mudkip
 Number: 258
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Water 1
 ShuffleToken: SRD-mudkip-ShuffleToken.png
-Sprite: mudkip.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 76
   Kilograms: 7.6
   Pounds: 16.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *The fin on its head is a radar to sense movement underwater. They bury themselves under the mud at the water’s edge and at the bottom of rivers. They never back away even if their foe is bigger.*
 
 **DexID**:: 0258
-**Species**:: Mudkip
+**Name**:: Mudkip
 **Type**:: Water
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Damp|Damp]])
 **Base HP**:: 3

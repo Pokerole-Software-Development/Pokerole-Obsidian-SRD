@@ -1,7 +1,6 @@
 ---
 Ability1: Poison Point
 Ability2: Rivalry
-Baby: 'No'
 BookSprite: SRD-nidorina-BookSprite.png
 BoxSprite: SRD-nidorina-BoxSprite.png
 DexCategory: Poison Pin Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Nidoqueen]]'
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Hustle
 HomeSprite: SRD-nidorina-HomeSprite.png
+Image: nidorina.png
 Learnset: '[[SRD-Nidorina-Learnset]]'
 Legendary: 'No'
-Name: Nidorina
 Number: 30
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-nidorina-ShuffleToken.png
-Sprite: nidorina.png
 Type1: Poison
 Type2: ''
 Weight:
-  Hectograms: 200
   Kilograms: 20.0
   Pounds: 44.1
 ---
@@ -57,7 +50,7 @@ Weight:
 *Nidorinas are jealous creatures. They don’t like other females near their mates. Otherwise, they are very social creatures. When it’s around friends or family, its barbs are tucked away to prevent injury.*
 
 **DexID**:: 0030
-**Species**:: Nidorina
+**Name**:: Nidorina
 **Type**:: Poison
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Rivalry|Rivalry]] ([[SRD-Hustle|Hustle]])
 **Base HP**:: 4

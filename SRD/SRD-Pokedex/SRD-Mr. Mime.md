@@ -1,9 +1,8 @@
 ---
 Ability1: Soundproof
 Ability2: Filter
-Baby: 'No'
-BookSprite: SRD-mr-mime-BookSprite.png
-BoxSprite: SRD-mr-mime-BoxSprite.png
+BookSprite: SRD-mr-BookSprite.-mime
+BoxSprite: SRD-mr-BoxSprite.-mime
 DexCategory: Barrier Pokemon
 DexDescription: "You don\u2019t find this Pokemon, it finds you. It is really smart\
   \ and amuses itself by showing people its power to create barriers with pantomime.\
@@ -13,27 +12,21 @@ Evolutions:
 - Evolves: From
   Kind: Level
   Move: Mimic
-  Pokemon: '[[SRD-Mime Jr.]]'
+  Pokemon: '[[SRD-Mime Jr]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Technician
-HomeSprite: SRD-mr-mime-HomeSprite.png
+HomeSprite: SRD-mr-HomeSprite.-mime
+Image: mr.-mime.png
 Learnset: '[[SRD-Mr. Mime-Learnset]]'
 Legendary: 'No'
-Name: Mr. Mime
 Number: 122
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
-ShuffleToken: SRD-mr-mime-ShuffleToken.png
-Sprite: mr-mime.png
+ShuffleToken: SRD-mr-ShuffleToken.-mime
 Type1: Psychic
 Type2: Fairy
 Weight:
-  Hectograms: 545
   Kilograms: 54.5
   Pounds: 120.2
 ---
@@ -43,17 +36,17 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-mr-mime-BookSprite.png|wsmall]]
-> ![[SRD-mr-mime-HomeSprite.png]]
-> ![[SRD-mr-mime-BoxSprite.png|htiny]]
-> ![[SRD-mr-mime-ShuffleToken.png|wsmall]]
+> ![[SRD-mr-BookSprite.-mime|wsmall]]
+> ![[SRD-mr-HomeSprite.-mime]]
+> ![[SRD-mr-BoxSprite.-mime|htiny]]
+> ![[SRD-mr-ShuffleToken.-mime|wsmall]]
 
 
 *Barrier Pokemon*
 *You don’t find this Pokemon, it finds you. It is really smart and amuses itself by showing people its power to create barriers with pantomime. It creates an invisible box and flees when you try to figure out the exit.*
 
 **DexID**:: 0122
-**Species**:: Mr. Mime
+**Name**:: Mr. Mime
 **Type**:: Psychic / Fairy
 **Abilities**:: [[SRD-Soundproof|Soundproof]] / [[SRD-Filter|Filter]] ([[SRD-Technician|Technician]])
 **Base HP**:: 4
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Beginner
 
-| Evolves   | Pokemon          | Kind   | Move   |
-|:----------|:-----------------|:-------|:-------|
-| From      | [[SRD-Mime Jr.]] | Level  | Mimic  |
+| Evolves   | Pokemon         | Kind   | Move   |
+|:----------|:----------------|:-------|:-------|
+| From      | [[SRD-Mime Jr]] | Level  | Mimic  |
 
 ![[SRD-Mr. Mime-Learnset]]

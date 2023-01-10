@@ -1,7 +1,6 @@
 ---
 Ability1: Swarm
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-beedrill-BookSprite.png
 BoxSprite: SRD-beedrill-BoxSprite.png
 DexCategory: Poison Bee Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Beedrillite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Beedrill]]'
+  Pokemon: '[[SRD-Beedrill (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Sniper
 HomeSprite: SRD-beedrill-HomeSprite.png
+Image: beedrill.png
 Learnset: '[[SRD-Beedrill-Learnset]]'
 Legendary: 'No'
-Name: Beedrill
 Number: 15
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-beedrill-ShuffleToken.png
-Sprite: beedrill.png
 Type1: Bug
 Type2: Poison
 Weight:
-  Hectograms: 295
   Kilograms: 29.5
   Pounds: 65.0
 ---
@@ -57,7 +50,7 @@ Weight:
 *Beedrill are extremely territorial. For safety reasons, no one should ever approach their nest. If disturbed, they will attack in swarm. It has three stings. The one on its tail secretes a powerful poison.*
 
 **DexID**:: 0015
-**Species**:: Beedrill
+**Name**:: Beedrill
 **Type**:: Bug / Poison
 **Abilities**:: [[SRD-Swarm|Swarm]] ([[SRD-Sniper|Sniper]])
 **Base HP**:: 5
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon               | Kind   | Speed   | Item        |
-|:----------|:----------------------|:-------|:--------|:------------|
-| From      | [[SRD-Kakuna]]        | Level  | Fast    |             |
-| To        | [[SRD-Mega-Beedrill]] | Mega   |         | Beedrillite |
+| Evolves   | Pokemon                      | Kind   | Speed   | Item        |
+|:----------|:-----------------------------|:-------|:--------|:------------|
+| From      | [[SRD-Kakuna]]               | Level  | Fast    |             |
+| To        | [[SRD-Beedrill (Mega Form)]] | Mega   |         | Beedrillite |
 
 ![[SRD-Beedrill-Learnset]]

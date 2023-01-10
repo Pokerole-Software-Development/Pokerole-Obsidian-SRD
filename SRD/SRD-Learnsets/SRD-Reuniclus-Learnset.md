@@ -1,5 +1,4 @@
 ---
-DexID: 0579
 Moves:
 - - Starter
   - '[[SRD-Psywave|Psywave]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Confuse Ray|Confuse Ray]]'
 Name: Reuniclus
-Species: '[[SRD-Reuniclus|Reuniclus]]'
+Pokedex: '[[SRD-Reuniclus|Reuniclus]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

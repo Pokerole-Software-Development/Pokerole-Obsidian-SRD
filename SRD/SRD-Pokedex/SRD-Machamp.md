@@ -1,7 +1,6 @@
 ---
 Ability1: Guts
 Ability2: No Guard
-Baby: 'No'
 BookSprite: SRD-machamp-BookSprite.png
 BoxSprite: SRD-machamp-BoxSprite.png
 DexCategory: Superpower Pokemon
@@ -14,25 +13,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Machoke]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Steadfast
 HomeSprite: SRD-machamp-HomeSprite.png
+Image: machamp.png
 Learnset: '[[SRD-Machamp-Learnset]]'
 Legendary: 'No'
-Name: Machamp
 Number: 68
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-machamp-ShuffleToken.png
-Sprite: machamp.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 1300
   Kilograms: 130.0
   Pounds: 286.6
 ---
@@ -52,7 +45,7 @@ Weight:
 *There are a few roaming in the mountains. Machamp has the power to hurl anything aside. However, trying to do any work that requires care and dexterity may cause its arms to get tangled.*
 
 **DexID**:: 0068
-**Species**:: Machamp
+**Name**:: Machamp
 **Type**:: Fighting
 **Abilities**:: [[SRD-Guts|Guts]] / [[SRD-No Guard|No Guard]] ([[SRD-Steadfast|Steadfast]])
 **Base HP**:: 5

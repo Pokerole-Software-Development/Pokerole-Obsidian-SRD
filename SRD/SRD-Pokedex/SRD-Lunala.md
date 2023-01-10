@@ -1,7 +1,6 @@
 ---
 Ability1: Shadow Shield
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-lunala-BookSprite.png
 BoxSprite: SRD-lunala-BoxSprite.png
 DexCategory: No Data
@@ -14,25 +13,19 @@ Evolutions:
   Kind: Level
   Pokemon: '[[SRD-Cosmoem]]'
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 40
   Feet: 13.1
   Meters: 4.0
 HiddenAbility: ''
 HomeSprite: SRD-lunala-HomeSprite.png
+Image: lunala.png
 Learnset: '[[SRD-Lunala-Learnset]]'
 Legendary: 'Yes'
-Name: Lunala
 Number: 792
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-lunala-ShuffleToken.png
-Sprite: lunala.png
 Type1: Psychic
 Type2: Ghost
 Weight:
-  Hectograms: 1200
   Kilograms: 120.0
   Pounds: 264.6
 ---
@@ -52,7 +45,7 @@ Weight:
 *There are legends about a being that shined with the moon, on its forehead a third eye that connected to another dimension.*
 
 **DexID**:: 0792
-**Species**:: Lunala
+**Name**:: Lunala
 **Type**:: Psychic / Ghost
 **Abilities**:: [[SRD-Shadow Shield|Shadow Shield]]
 **Base HP**:: 7

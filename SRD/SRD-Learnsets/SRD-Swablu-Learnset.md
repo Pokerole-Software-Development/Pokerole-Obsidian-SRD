@@ -1,5 +1,4 @@
 ---
-DexID: '0333'
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Agility|Agility]]'
 Name: Swablu
-Species: '[[SRD-Swablu|Swablu]]'
+Pokedex: '[[SRD-Swablu|Swablu]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

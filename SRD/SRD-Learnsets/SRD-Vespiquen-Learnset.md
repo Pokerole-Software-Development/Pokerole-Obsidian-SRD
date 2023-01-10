@@ -1,5 +1,4 @@
 ---
-DexID: '0416'
 Moves:
 - - Starter
   - '[[SRD-Sweet Scent|Sweet Scent]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Ominous Wind|Ominous Wind]]'
 Name: Vespiquen
-Species: '[[SRD-Vespiquen|Vespiquen]]'
+Pokedex: '[[SRD-Vespiquen|Vespiquen]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

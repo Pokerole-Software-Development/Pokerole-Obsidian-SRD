@@ -1,5 +1,4 @@
 ---
-DexID: '0611'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Haxorus
-Species: '[[SRD-Haxorus|Haxorus]]'
+Pokedex: '[[SRD-Haxorus|Haxorus]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

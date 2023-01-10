@@ -1,7 +1,6 @@
 ---
 Ability1: Grassy Surge
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-tapu-bulu-BookSprite.png
 BoxSprite: SRD-tapu-bulu-BoxSprite.png
 DexCategory: No Data
@@ -10,25 +9,19 @@ DexDescription: Through Ula'ula island runs the legend of a lazy guardian spirit
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 19
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Telepathy
 HomeSprite: SRD-tapu-bulu-HomeSprite.png
+Image: tapu-bulu.png
 Learnset: '[[SRD-Tapu Bulu-Learnset]]'
 Legendary: 'Yes'
-Name: Tapu Bulu
 Number: 787
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-tapu-bulu-ShuffleToken.png
-Sprite: tapu-bulu.png
 Type1: Grass
 Type2: Fairy
 Weight:
-  Hectograms: 455
   Kilograms: 45.5
   Pounds: 100.3
 ---
@@ -48,7 +41,7 @@ Weight:
 *Through Ula'ula island runs the legend of a lazy guardian spirit who lives among the trees, which it commands to restrain its foes before beating them.*
 
 **DexID**:: 0787
-**Species**:: Tapu Bulu
+**Name**:: Tapu Bulu
 **Type**:: Grass / Fairy
 **Abilities**:: [[SRD-Grassy Surge|Grassy Surge]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 4

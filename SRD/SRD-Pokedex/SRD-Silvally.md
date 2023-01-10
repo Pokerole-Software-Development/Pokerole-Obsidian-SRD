@@ -1,7 +1,6 @@
 ---
 Ability1: RKS System
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-silvally-BookSprite.png
 BoxSprite: SRD-silvally-BoxSprite.png
 DexCategory: Synthetic Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Type: Null]]'
   Speed: Slow
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 23
   Feet: 7.5
   Meters: 2.3
 HiddenAbility: ''
 HomeSprite: SRD-silvally-HomeSprite.png
+Image: silvally.png
 Learnset: '[[SRD-Silvally-Learnset]]'
 Legendary: 'No'
-Name: Silvally
 Number: 773
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-silvally-ShuffleToken.png
-Sprite: silvally.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 1005
   Kilograms: 100.5
   Pounds: 221.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *Pokedex has no data. It was seen in the company of a boy. It appears to be a perfected or evolved form of Type: Null. The boy gave it some strange disks that allowed it to change its type.*
 
 **DexID**:: 0773
-**Species**:: Silvally
+**Name**:: Silvally
 **Type**:: Normal
 **Abilities**:: [[SRD-RKS System|RKS System]]
 **Base HP**:: 4

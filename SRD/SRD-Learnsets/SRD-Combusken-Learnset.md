@@ -1,5 +1,4 @@
 ---
-DexID: '0256'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Combusken
-Species: '[[SRD-Combusken|Combusken]]'
+Pokedex: '[[SRD-Combusken|Combusken]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

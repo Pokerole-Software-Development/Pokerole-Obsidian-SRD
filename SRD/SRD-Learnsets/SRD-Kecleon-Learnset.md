@@ -1,5 +1,4 @@
 ---
-DexID: '0352'
 Moves:
 - - Starter
   - '[[SRD-Tail Whip|Tail Whip]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Kecleon
-Species: '[[SRD-Kecleon|Kecleon]]'
+Pokedex: '[[SRD-Kecleon|Kecleon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

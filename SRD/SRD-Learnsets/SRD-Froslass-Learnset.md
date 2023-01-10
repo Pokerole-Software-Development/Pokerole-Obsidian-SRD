@@ -1,5 +1,4 @@
 ---
-DexID: 0478
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Weather Ball|Weather Ball]]'
 Name: Froslass
-Species: '[[SRD-Froslass|Froslass]]'
+Pokedex: '[[SRD-Froslass|Froslass]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

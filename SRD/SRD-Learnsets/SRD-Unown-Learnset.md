@@ -1,17 +1,16 @@
 ---
-DexID: '0201'
 Moves:
 - - Starter
   - '[[SRD-Hidden Power|Hidden Power]]'
 Name: Unown
-Species: '[[SRD-Unown|Unown]]'
+Pokedex: '[[SRD-Unown|Unown]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

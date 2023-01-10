@@ -1,5 +1,4 @@
 ---
-DexID: '0475'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Gallade
-Species: '[[SRD-Gallade|Gallade]]'
+Pokedex: '[[SRD-Gallade|Gallade]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

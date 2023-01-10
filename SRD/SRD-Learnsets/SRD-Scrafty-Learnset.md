@@ -1,5 +1,4 @@
 ---
-DexID: '0560'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Scrafty
-Species: '[[SRD-Scrafty|Scrafty]]'
+Pokedex: '[[SRD-Scrafty|Scrafty]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

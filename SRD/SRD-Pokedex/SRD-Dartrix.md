@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-dartrix-BookSprite.png
 BoxSprite: SRD-dartrix-BoxSprite.png
 DexCategory: Blade Quill Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Decidueye]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Long Reach
 HomeSprite: SRD-dartrix-HomeSprite.png
+Image: dartrix.png
 Learnset: '[[SRD-Dartrix-Learnset]]'
 Legendary: 'No'
-Name: Dartrix
 Number: 723
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-dartrix-ShuffleToken.png
-Sprite: dartrix.png
 Type1: Grass
 Type2: Flying
 Weight:
-  Hectograms: 160
   Kilograms: 16.0
   Pounds: 35.3
 ---
@@ -57,7 +50,7 @@ Weight:
 *Dartix are vain creatures, they dislike it when their feathers are ruffled, even stopping midfight to groom them. Despite its elegant demeanor it hides an awkward personality, prone to panic and clumsiness.*
 
 **DexID**:: 0723
-**Species**:: Dartrix
+**Name**:: Dartrix
 **Type**:: Grass / Flying
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Long Reach|Long Reach]])
 **Base HP**:: 4

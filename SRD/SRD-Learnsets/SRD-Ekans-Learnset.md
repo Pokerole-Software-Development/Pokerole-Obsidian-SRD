@@ -1,5 +1,4 @@
 ---
-DexID: '0023'
 Moves:
 - - Starter
   - '[[SRD-Wrap|Wrap]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Disable|Disable]]'
 Name: Ekans
-Species: '[[SRD-Ekans|Ekans]]'
+Pokedex: '[[SRD-Ekans|Ekans]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

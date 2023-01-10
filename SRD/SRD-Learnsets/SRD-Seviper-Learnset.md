@@ -1,5 +1,4 @@
 ---
-DexID: '0336'
 Moves:
 - - Starter
   - '[[SRD-Wrap|Wrap]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Tail|Iron Tail]]'
 Name: Seviper
-Species: '[[SRD-Seviper|Seviper]]'
+Pokedex: '[[SRD-Seviper|Seviper]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

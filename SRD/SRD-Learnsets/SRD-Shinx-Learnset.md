@@ -1,5 +1,4 @@
 ---
-DexID: '0403'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Fang|Fire Fang]]'
 Name: Shinx
-Species: '[[SRD-Shinx|Shinx]]'
+Pokedex: '[[SRD-Shinx|Shinx]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

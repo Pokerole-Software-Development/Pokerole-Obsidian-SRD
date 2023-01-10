@@ -1,7 +1,6 @@
 ---
 Ability1: Download
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-genesect-BookSprite.png
 BoxSprite: SRD-genesect-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: Fossil revival is now possible with our incredible technology. R
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: ''
 HomeSprite: SRD-genesect-HomeSprite.png
+Image: genesect.png
 Learnset: '[[SRD-Genesect-Learnset]]'
 Legendary: 'Yes'
-Name: Genesect
 Number: 649
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-genesect-ShuffleToken.png
-Sprite: genesect.png
 Type1: Bug
 Type2: Steel
 Weight:
-  Hectograms: 825
   Kilograms: 82.5
   Pounds: 181.9
 ---
@@ -49,7 +42,7 @@ Weight:
 *Fossil revival is now possible with our incredible technology. Recently, some researchers sparked a controversial debate by altering the original forms of the revived Pokemon through artificial means.*
 
 **DexID**:: 0649
-**Species**:: Genesect
+**Name**:: Genesect
 **Type**:: Bug / Steel
 **Abilities**:: [[SRD-Download|Download]]
 **Base HP**:: 4

@@ -1,9 +1,8 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
-BookSprite: SRD-rotom-dex-BookSprite.png
-BoxSprite: SRD-rotom-dex-BoxSprite.png
+BookSprite: SRD-rotom-BookSprite.png
+BoxSprite: SRD-rotom-BoxSprite.png
 DexCategory: Plasma Pokemon
 DexDescription: Its electric-like body can enter some kinds of machines and take control
   of them in order to cause mischief. It changes its form to that of the electric
@@ -12,42 +11,36 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Rotom Heat]]'
+  Pokemon: '[[SRD-Rotom (Heat Form)]]'
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Rotom Fan]]'
+  Pokemon: '[[SRD-Rotom (Fan Form)]]'
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Rotom Mow]]'
+  Pokemon: '[[SRD-Rotom (Mow Form)]]'
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Rotom Frost]]'
+  Pokemon: '[[SRD-Rotom (Frost Form)]]'
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Rotom Wash]]'
+  Pokemon: '[[SRD-Rotom (Wash Form)]]'
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Rotom Dex]]'
+  Pokemon: '[[SRD-Rotom (Dex Form)]]'
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
-HomeSprite: SRD-rotom-dex-HomeSprite.png
+HomeSprite: SRD-rotom-HomeSprite.png
+Image: rotom.png
 Learnset: '[[SRD-Rotom-Learnset]]'
 Legendary: 'No'
-Name: Rotom
 Number: 479
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
-ShuffleToken: SRD-rotom-dex-ShuffleToken.png
-Sprite: rotom-dex.png
+ShuffleToken: SRD-rotom-ShuffleToken.png
 Type1: Electric
 Type2: Ghost
 Weight:
-  Hectograms: 3
   Kilograms: 0.3
   Pounds: 0.7
 ---
@@ -57,17 +50,17 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-rotom-dex-BookSprite.png|wsmall]]
-> ![[SRD-rotom-dex-HomeSprite.png]]
-> ![[SRD-rotom-dex-BoxSprite.png|htiny]]
-> ![[SRD-rotom-dex-ShuffleToken.png|wsmall]]
+> ![[SRD-rotom-BookSprite.png|wsmall]]
+> ![[SRD-rotom-HomeSprite.png]]
+> ![[SRD-rotom-BoxSprite.png|htiny]]
+> ![[SRD-rotom-ShuffleToken.png|wsmall]]
 
 
 *Plasma Pokemon*
 *Its electric-like body can enter some kinds of machines and take control of them in order to cause mischief. It changes its form to that of the electric appliance, allowing it to become more powerful.*
 
 **DexID**:: 0479
-**Species**:: Rotom
+**Name**:: Rotom
 **Type**:: Electric / Ghost
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
@@ -85,13 +78,13 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon             | Kind   |
-|:----------|:--------------------|:-------|
-| To        | [[SRD-Rotom Heat]]  | Form   |
-| To        | [[SRD-Rotom Fan]]   | Form   |
-| To        | [[SRD-Rotom Mow]]   | Form   |
-| To        | [[SRD-Rotom Frost]] | Form   |
-| To        | [[SRD-Rotom Wash]]  | Form   |
-| To        | [[SRD-Rotom Dex]]   | Form   |
+| Evolves   | Pokemon                    | Kind   |
+|:----------|:---------------------------|:-------|
+| To        | [[SRD-Rotom (Heat Form)]]  | Form   |
+| To        | [[SRD-Rotom (Fan Form)]]   | Form   |
+| To        | [[SRD-Rotom (Mow Form)]]   | Form   |
+| To        | [[SRD-Rotom (Frost Form)]] | Form   |
+| To        | [[SRD-Rotom (Wash Form)]]  | Form   |
+| To        | [[SRD-Rotom (Dex Form)]]   | Form   |
 
 ![[SRD-Rotom-Learnset]]

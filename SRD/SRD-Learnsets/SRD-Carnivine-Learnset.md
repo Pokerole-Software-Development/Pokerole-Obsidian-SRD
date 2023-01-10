@@ -1,5 +1,4 @@
 ---
-DexID: '0455'
 Moves:
 - - Starter
   - '[[SRD-Bind|Bind]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Carnivine
-Species: '[[SRD-Carnivine|Carnivine]]'
+Pokedex: '[[SRD-Carnivine|Carnivine]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

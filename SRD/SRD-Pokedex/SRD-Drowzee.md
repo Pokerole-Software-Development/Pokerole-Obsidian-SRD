@@ -1,7 +1,6 @@
 ---
 Ability1: Insomnia
 Ability2: Forewarn
-Baby: 'No'
 BookSprite: SRD-drowzee-BookSprite.png
 BoxSprite: SRD-drowzee-BoxSprite.png
 DexCategory: Hypnosis Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Hypno]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Inner Focus
 HomeSprite: SRD-drowzee-HomeSprite.png
+Image: drowzee.png
 Learnset: '[[SRD-Drowzee-Learnset]]'
 Legendary: 'No'
-Name: Drowzee
 Number: 96
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-drowzee-ShuffleToken.png
-Sprite: drowzee.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 324
   Kilograms: 32.4
   Pounds: 71.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *It eats the dreams of a sleeping person or Pokemon and shows fondness to the dreams of young children. Once the victim is deep in slumber it will extract and eat the dream through the nose.*
 
 **DexID**:: 0096
-**Species**:: Drowzee
+**Name**:: Drowzee
 **Type**:: Psychic
 **Abilities**:: [[SRD-Insomnia|Insomnia]] / [[SRD-Forewarn|Forewarn]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 3

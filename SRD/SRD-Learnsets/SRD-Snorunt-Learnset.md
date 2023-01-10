@@ -1,5 +1,4 @@
 ---
-DexID: '0361'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Snorunt
-Species: '[[SRD-Snorunt|Snorunt]]'
+Pokedex: '[[SRD-Snorunt|Snorunt]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

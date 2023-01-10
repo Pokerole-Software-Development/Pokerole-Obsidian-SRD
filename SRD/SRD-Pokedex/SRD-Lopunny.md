@@ -1,7 +1,6 @@
 ---
 Ability1: Cute Charm
 Ability2: Klutz
-Baby: 'No'
 BookSprite: SRD-lopunny-BookSprite.png
 BoxSprite: SRD-lopunny-BoxSprite.png
 DexCategory: Rabbit Pokemon
@@ -18,27 +17,21 @@ Evolutions:
 - Evolves: To
   Item: Lopunnite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Lopunny]]'
+  Pokemon: '[[SRD-Lopunny (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Limber
 HomeSprite: SRD-lopunny-HomeSprite.png
+Image: lopunny.png
 Learnset: '[[SRD-Lopunny-Learnset]]'
 Legendary: 'No'
-Name: Lopunny
 Number: 428
-PrimaryEggGroup: Field
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-lopunny-ShuffleToken.png
-Sprite: lopunny.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 333
   Kilograms: 33.3
   Pounds: 73.4
 ---
@@ -58,7 +51,7 @@ Weight:
 *Lopunny is extremely cautious, it quickly bounds off when it senses danger. If they are touched roughly, they throw kicks and jump away. Keep the fur it sheds as it’s highly valued to make quality yarn.*
 
 **DexID**:: 0428
-**Species**:: Lopunny
+**Name**:: Lopunny
 **Type**:: Normal
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Klutz|Klutz]] ([[SRD-Limber|Limber]])
 **Base HP**:: 4
@@ -76,9 +69,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon              | Kind   | Stat      | Value   | Item      |
-|:----------|:---------------------|:-------|:----------|:--------|:----------|
-| From      | [[SRD-Buneary]]      | Stat   | Happiness | 4.0     |           |
-| To        | [[SRD-Mega-Lopunny]] | Mega   |           |         | Lopunnite |
+| Evolves   | Pokemon                     | Kind   | Stat      | Value   | Item      |
+|:----------|:----------------------------|:-------|:----------|:--------|:----------|
+| From      | [[SRD-Buneary]]             | Stat   | Happiness | 4.0     |           |
+| To        | [[SRD-Lopunny (Mega Form)]] | Mega   |           |         | Lopunnite |
 
 ![[SRD-Lopunny-Learnset]]

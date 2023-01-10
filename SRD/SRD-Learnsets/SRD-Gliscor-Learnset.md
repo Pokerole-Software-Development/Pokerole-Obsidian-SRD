@@ -1,5 +1,4 @@
 ---
-DexID: '0472'
 Moves:
 - - Starter
   - '[[SRD-Sand Attack|Sand Attack]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Cross Poison|Cross Poison]]'
 Name: Gliscor
-Species: '[[SRD-Gliscor|Gliscor]]'
+Pokedex: '[[SRD-Gliscor|Gliscor]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

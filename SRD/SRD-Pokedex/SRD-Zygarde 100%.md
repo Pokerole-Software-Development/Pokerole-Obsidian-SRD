@@ -1,9 +1,8 @@
 ---
 Ability1: Aura Break
 Ability2: ''
-Baby: 'No'
-BookSprite: SRD-zygarde-100-BookSprite.png
-BoxSprite: SRD-zygarde-100-BoxSprite.png
+BookSprite: SRD-zygarde-100%-BookSprite.png
+BoxSprite: SRD-zygarde-100%-BoxSprite.png
 DexCategory: No Data
 DexDescription: The complete form of Zygarde
 EventAbilities: ''
@@ -13,25 +12,19 @@ Evolutions:
   Kind: Special
   Pokemon: '[[SRD-Zygarde Cell]]'
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 45
   Feet: 14.8
   Meters: 4.5
 HiddenAbility: ''
-HomeSprite: SRD-zygarde-100-HomeSprite.png
+HomeSprite: SRD-zygarde-100%-HomeSprite.png
+Image: zygarde-100%.png
 Learnset: '[[SRD-Zygarde 100%-Learnset]]'
 Legendary: 'Yes'
-Name: Zygarde 100%
 Number: 718
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
-ShuffleToken: SRD-zygarde-100-ShuffleToken.png
-Sprite: zygarde-100.png
+ShuffleToken: SRD-zygarde-100%-ShuffleToken.png
 Type1: Dragon
 Type2: Ground
 Weight:
-  Hectograms: 6100
   Kilograms: 610.0
   Pounds: 1344.8
 ---
@@ -41,17 +34,17 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-zygarde-100-BookSprite.png|wsmall]]
-> ![[SRD-zygarde-100-HomeSprite.png]]
-> ![[SRD-zygarde-100-BoxSprite.png|htiny]]
-> ![[SRD-zygarde-100-ShuffleToken.png|wsmall]]
+> ![[SRD-zygarde-100%-BookSprite.png|wsmall]]
+> ![[SRD-zygarde-100%-HomeSprite.png]]
+> ![[SRD-zygarde-100%-BoxSprite.png|htiny]]
+> ![[SRD-zygarde-100%-ShuffleToken.png|wsmall]]
 
 
 *No Data*
 *The complete form of Zygarde*
 
 **DexID**:: 0718F3
-**Species**:: Zygarde 100%
+**Name**:: Zygarde 100%
 **Type**:: Dragon / Ground
 **Abilities**:: [[SRD-Aura Break|Aura Break]]
 **Base HP**:: 11

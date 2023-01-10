@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-dusknoir-BookSprite.png
 BoxSprite: SRD-dusknoir-BoxSprite.png
 DexCategory: Gripper Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Dusclops]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 22
   Feet: 7.2
   Meters: 2.2
 HiddenAbility: Frisk
 HomeSprite: SRD-dusknoir-HomeSprite.png
+Image: dusknoir.png
 Learnset: '[[SRD-Dusknoir-Learnset]]'
 Legendary: 'No'
-Name: Dusknoir
 Number: 477
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-dusknoir-ShuffleToken.png
-Sprite: dusknoir.png
 Type1: Ghost
 Type2: ''
 Weight:
-  Hectograms: 1066
   Kilograms: 106.6
   Pounds: 235.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *This feared Pokemon is said to travel to the other world. Some even believe that it takes lost spirits along with it. It uses the antenna on it’s head to receive messages from the deceased.*
 
 **DexID**:: 0477
-**Species**:: Dusknoir
+**Name**:: Dusknoir
 **Type**:: Ghost
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Frisk|Frisk]])
 **Base HP**:: 4

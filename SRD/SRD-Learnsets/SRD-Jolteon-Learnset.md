@@ -1,5 +1,4 @@
 ---
-DexID: '0135'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Jolteon
-Species: '[[SRD-Jolteon|Jolteon]]'
+Pokedex: '[[SRD-Jolteon|Jolteon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

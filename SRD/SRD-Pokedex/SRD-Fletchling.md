@@ -1,7 +1,6 @@
 ---
 Ability1: Big Pecks
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-fletchling-BookSprite.png
 BoxSprite: SRD-fletchling-BoxSprite.png
 DexCategory: Tiny Robin Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Fletchinder]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Gale Wings
 HomeSprite: SRD-fletchling-HomeSprite.png
+Image: fletchling.png
 Learnset: '[[SRD-Fletchling-Learnset]]'
 Legendary: 'No'
-Name: Fletchling
 Number: 661
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-fletchling-ShuffleToken.png
-Sprite: fletchling.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 17
   Kilograms: 1.7
   Pounds: 3.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *These cute Pokemon send signals to one another with beautiful chirps and feather movements. But despite the beauty of its lilting voice it is merciless to intruders that come close to its nest.*
 
 **DexID**:: 0661
-**Species**:: Fletchling
+**Name**:: Fletchling
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Big Pecks|Big Pecks]] ([[SRD-Gale Wings|Gale Wings]])
 **Base HP**:: 3

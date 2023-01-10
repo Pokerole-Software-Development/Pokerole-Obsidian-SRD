@@ -1,7 +1,6 @@
 ---
 Ability1: Natural Cure
 Ability2: Poison Point
-Baby: 'Yes'
 BookSprite: SRD-budew-BookSprite.png
 BoxSprite: SRD-budew-BoxSprite.png
 DexCategory: Bud Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Happiness
   Value: 4
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-budew-HomeSprite.png
+Image: budew.png
 Learnset: '[[SRD-Budew-Learnset]]'
 Legendary: 'No'
-Name: Budew
 Number: 406
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-budew-ShuffleToken.png
-Sprite: budew.png
 Type1: Grass
 Type2: Poison
 Weight:
-  Hectograms: 12
   Kilograms: 1.2
   Pounds: 2.6
 ---
@@ -54,7 +47,7 @@ Weight:
 *It blossoms near clear ponds. Budew needs nurturing and care to grow healthy and beautiful, otherwise its bud will never bloom. If threatened, they will reveal their small but poisonous thorns.*
 
 **DexID**:: 0406
-**Species**:: Budew
+**Name**:: Budew
 **Type**:: Grass / Poison
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]] / [[SRD-Poison Point|Poison Point]] ([[SRD-Leaf Guard|Leaf Guard]])
 **Base HP**:: 3

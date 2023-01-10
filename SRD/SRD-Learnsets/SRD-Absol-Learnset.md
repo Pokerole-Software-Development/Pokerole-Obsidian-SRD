@@ -1,5 +1,4 @@
 ---
-DexID: 0359
 Moves:
 - - Starter
   - '[[SRD-Detect|Detect]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Spite|Spite]]'
 Name: Absol
-Species: '[[SRD-Absol|Absol]]'
+Pokedex: '[[SRD-Absol|Absol]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

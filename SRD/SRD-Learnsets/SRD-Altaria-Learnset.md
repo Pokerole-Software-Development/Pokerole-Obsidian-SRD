@@ -1,5 +1,4 @@
 ---
-DexID: '0334'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Dragon Rush|Dragon Rush]]'
 Name: Altaria
-Species: '[[SRD-Altaria|Altaria]]'
+Pokedex: '[[SRD-Altaria|Altaria]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

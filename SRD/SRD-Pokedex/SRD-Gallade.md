@@ -1,7 +1,6 @@
 ---
 Ability1: Steadfast
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-gallade-BookSprite.png
 BoxSprite: SRD-gallade-BoxSprite.png
 DexCategory: Blade Pokemon
@@ -18,27 +17,21 @@ Evolutions:
 - Evolves: To
   Item: Galladite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Gallade]]'
+  Pokemon: '[[SRD-Gallade (Mega Form)]]'
 GenderType: M
-HasForm: 'Yes'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Justified
 HomeSprite: SRD-gallade-HomeSprite.png
+Image: gallade.png
 Learnset: '[[SRD-Gallade-Learnset]]'
 Legendary: 'No'
-Name: Gallade
 Number: 475
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: Amorphous
 ShuffleToken: SRD-gallade-ShuffleToken.png
-Sprite: gallade.png
 Type1: Psychic
 Type2: Fighting
 Weight:
-  Hectograms: 520
   Kilograms: 52.0
   Pounds: 114.6
 ---
@@ -58,7 +51,7 @@ Weight:
 *This Pokemon is male only. He has an extreme sense of courtesy. In a battle, it uses the blades on his arms as if they were swords. It is a loyal Pokemon and won’t doubt to fiercely protect its trainer.*
 
 **DexID**:: 0475
-**Species**:: Gallade
+**Name**:: Gallade
 **Type**:: Psychic / Fighting
 **Abilities**:: [[SRD-Steadfast|Steadfast]] ([[SRD-Justified|Justified]])
 **Base HP**:: 5
@@ -76,9 +69,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon              | Kind    | Item       | Gender   |
-|:----------|:---------------------|:--------|:-----------|:---------|
-| From      | [[SRD-Kirlia]]       | Special | Dawn Stone | Male     |
-| To        | [[SRD-Mega-Gallade]] | Mega    | Galladite  |          |
+| Evolves   | Pokemon                     | Kind    | Item       | Gender   |
+|:----------|:----------------------------|:--------|:-----------|:---------|
+| From      | [[SRD-Kirlia]]              | Special | Dawn Stone | Male     |
+| To        | [[SRD-Gallade (Mega Form)]] | Mega    | Galladite  |          |
 
 ![[SRD-Gallade-Learnset]]

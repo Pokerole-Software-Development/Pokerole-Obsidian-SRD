@@ -1,5 +1,4 @@
 ---
-DexID: '0676'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -34,14 +33,14 @@ Moves:
 - - Pro
   - '[[SRD-Yawn|Yawn]]'
 Name: Espurr
-Species: '[[SRD-Espurr|Espurr]]'
+Pokedex: '[[SRD-Espurr|Espurr]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

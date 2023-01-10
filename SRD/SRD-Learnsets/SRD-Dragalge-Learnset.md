@@ -1,5 +1,4 @@
 ---
-DexID: 0692
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Dragalge
-Species: '[[SRD-Dragalge|Dragalge]]'
+Pokedex: '[[SRD-Dragalge|Dragalge]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

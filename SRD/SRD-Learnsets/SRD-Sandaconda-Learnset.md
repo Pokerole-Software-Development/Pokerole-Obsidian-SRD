@@ -1,5 +1,4 @@
 ---
-DexID: 0845
 Moves:
 - - Beginner
   - '[[SRD-Skull Bash|Skull Bash]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Giga Impact|Giga Impact]]'
 Name: Sandaconda
-Species: '[[SRD-Sandaconda|Sandaconda]]'
+Pokedex: '[[SRD-Sandaconda|Sandaconda]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

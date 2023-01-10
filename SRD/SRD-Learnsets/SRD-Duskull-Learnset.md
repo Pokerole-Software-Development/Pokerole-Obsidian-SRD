@@ -1,5 +1,4 @@
 ---
-DexID: '0355'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Wonder Room|Wonder Room]]'
 Name: Duskull
-Species: '[[SRD-Duskull|Duskull]]'
+Pokedex: '[[SRD-Duskull|Duskull]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

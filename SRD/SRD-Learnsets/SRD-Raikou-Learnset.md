@@ -1,5 +1,4 @@
 ---
-DexID: '0243'
 Moves:
 - - Master
   - '[[SRD-Bite|Bite]]'
@@ -44,14 +43,14 @@ Moves:
 - - Master
   - '[[SRD-Shock Wave|Shock Wave]]'
 Name: Raikou
-Species: '[[SRD-Raikou|Raikou]]'
+Pokedex: '[[SRD-Raikou|Raikou]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

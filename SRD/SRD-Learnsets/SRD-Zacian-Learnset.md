@@ -1,5 +1,4 @@
 ---
-DexID: 0887
 Moves:
 - - Master
   - '[[SRD-Sacred Sword|Sacred Sword]]'
@@ -36,14 +35,14 @@ Moves:
 - - Master
   - '[[SRD-Solar Beam|Solar Beam]]'
 Name: Zacian
-Species: '[[SRD-Zacian|Zacian]]'
+Pokedex: '[[SRD-Zacian|Zacian]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

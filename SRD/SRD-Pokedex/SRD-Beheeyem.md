@@ -1,7 +1,6 @@
 ---
 Ability1: Telepathy
 Ability2: Synchronize
-Baby: 'No'
 BookSprite: SRD-beheeyem-BookSprite.png
 BoxSprite: SRD-beheeyem-BoxSprite.png
 DexCategory: Cerebral Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Elgyem]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Analytic
 HomeSprite: SRD-beheeyem-HomeSprite.png
+Image: beheeyem.png
 Learnset: '[[SRD-Beheeyem-Learnset]]'
 Legendary: 'No'
-Name: Beheeyem
 Number: 606
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-beheeyem-ShuffleToken.png
-Sprite: beheeyem.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 345
   Kilograms: 34.5
   Pounds: 76.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *Apparently, it communicates by flashing its three fingers, but the patterns haven’t been decoded. It uses psychic power to control an opponent’s brain and tampers with its memories and personality.*
 
 **DexID**:: 0606
-**Species**:: Beheeyem
+**Name**:: Beheeyem
 **Type**:: Psychic
 **Abilities**:: [[SRD-Telepathy|Telepathy]] / [[SRD-Synchronize|Synchronize]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 4

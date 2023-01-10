@@ -1,7 +1,6 @@
 ---
 Ability1: Cute Charm
 Ability2: Technician
-Baby: 'No'
 BookSprite: SRD-minccino-BookSprite.png
 BoxSprite: SRD-minccino-BoxSprite.png
 DexCategory: Chinchilla Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Cinccino]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Skill Link
 HomeSprite: SRD-minccino-HomeSprite.png
+Image: minccino.png
 Learnset: '[[SRD-Minccino-Learnset]]'
 Legendary: 'No'
-Name: Minccino
 Number: 572
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-minccino-ShuffleToken.png
-Sprite: minccino.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 58
   Kilograms: 5.8
   Pounds: 12.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *They greet one another by rubbing their tails, which are always kept well groomed and clean. Housewives love to keep them as pets because they eagerly help to clean the house.*
 
 **DexID**:: 0572
-**Species**:: Minccino
+**Name**:: Minccino
 **Type**:: Normal
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Technician|Technician]] ([[SRD-Skill Link|Skill Link]])
 **Base HP**:: 3

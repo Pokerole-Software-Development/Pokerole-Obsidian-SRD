@@ -1,5 +1,4 @@
 ---
-DexID: 0800F3
 Moves:
 - - Master
   - '[[SRD-Crafty Shield|Crafty Shield]]'
@@ -48,14 +47,14 @@ Moves:
 - - Master
   - '[[SRD-Dazzling Gleam|Dazzling Gleam]]'
 Name: Magearna
-Species: '[[SRD-Magearna|Magearna]]'
+Pokedex: '[[SRD-Magearna|Magearna]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

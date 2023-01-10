@@ -1,5 +1,4 @@
 ---
-DexID: '0702'
 Moves:
 - - Starter
   - '[[SRD-Detect|Detect]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Hawlucha
-Species: '[[SRD-Hawlucha|Hawlucha]]'
+Pokedex: '[[SRD-Hawlucha|Hawlucha]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

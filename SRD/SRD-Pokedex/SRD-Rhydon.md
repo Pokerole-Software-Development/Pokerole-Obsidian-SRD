@@ -1,7 +1,6 @@
 ---
 Ability1: Lightning Rod
 Ability2: Rock Head
-Baby: 'No'
 BookSprite: SRD-rhydon-BookSprite.png
 BoxSprite: SRD-rhydon-BoxSprite.png
 DexCategory: Drill Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Rhyperior]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 19
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Reckless
 HomeSprite: SRD-rhydon-HomeSprite.png
+Image: rhydon.png
 Learnset: '[[SRD-Rhydon-Learnset]]'
 Legendary: 'No'
-Name: Rhydon
 Number: 112
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Field
 ShuffleToken: SRD-rhydon-ShuffleToken.png
-Sprite: rhydon.png
 Type1: Ground
 Type2: Rock
 Weight:
-  Hectograms: 1200
   Kilograms: 120.0
   Pounds: 264.6
 ---
@@ -57,7 +50,7 @@ Weight:
 *It has a horn that serves as a drill for destroying rocks and boulders. Rhydon occasionally goes for a swim in rivers and even magma pools. Its great resistance prevents it from taking any damage.*
 
 **DexID**:: 0112
-**Species**:: Rhydon
+**Name**:: Rhydon
 **Type**:: Ground / Rock
 **Abilities**:: [[SRD-Lightning Rod|Lightning Rod]] / [[SRD-Rock Head|Rock Head]] ([[SRD-Reckless|Reckless]])
 **Base HP**:: 5

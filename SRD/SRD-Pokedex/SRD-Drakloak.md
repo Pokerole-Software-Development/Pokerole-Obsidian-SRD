@@ -1,7 +1,6 @@
 ---
 Ability1: Clear Body
 Ability2: Infiltrator
-Baby: 'No'
 BookSprite: SRD-drakloak-BookSprite.png
 BoxSprite: SRD-drakloak-BoxSprite.png
 DexCategory: Caretaker Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Dragapult]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Cursed Body
 HomeSprite: SRD-drakloak-HomeSprite.png
+Image: drakloak.png
 Learnset: '[[SRD-Drakloak-Learnset]]'
 Legendary: 'No'
-Name: Drakloak
 Number: 886
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-drakloak-ShuffleToken.png
-Sprite: drakloak.png
 Type1: Dragon
 Type2: Ghost
 Weight:
-  Hectograms: 110
   Kilograms: 11.0
   Pounds: 24.3
 ---
@@ -57,7 +50,7 @@ Weight:
 *It battles alongside Dreepy and dotes on them until they evolve. Without a Dreepy to place on its head and care for, it gets so uneasy it’ll try to substitute it with any Pokemon it finds*
 
 **DexID**:: 0886
-**Species**:: Drakloak
+**Name**:: Drakloak
 **Type**:: Dragon / Ghost
 **Abilities**:: [[SRD-Clear Body|Clear Body]] / [[SRD-Infiltrator|Infiltrator]] ([[SRD-Cursed Body|Cursed Body]])
 **Base HP**:: 4

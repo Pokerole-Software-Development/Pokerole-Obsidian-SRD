@@ -1,5 +1,4 @@
 ---
-DexID: '0444'
 Moves:
 - - Beginner
   - '[[SRD-Tackle|Tackle]]'
@@ -36,14 +35,14 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Gabite
-Species: '[[SRD-Gabite|Gabite]]'
+Pokedex: '[[SRD-Gabite|Gabite]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

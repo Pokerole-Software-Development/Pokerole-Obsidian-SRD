@@ -1,5 +1,4 @@
 ---
-DexID: '0660'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Air Cutter|Air Cutter]]'
 Name: Fletchling
-Species: '[[SRD-Fletchling|Fletchling]]'
+Pokedex: '[[SRD-Fletchling|Fletchling]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

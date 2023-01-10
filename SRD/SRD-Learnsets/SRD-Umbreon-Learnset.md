@@ -1,5 +1,4 @@
 ---
-DexID: 0197
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Foul Play|Foul Play]]'
 Name: Umbreon
-Species: '[[SRD-Umbreon|Umbreon]]'
+Pokedex: '[[SRD-Umbreon|Umbreon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

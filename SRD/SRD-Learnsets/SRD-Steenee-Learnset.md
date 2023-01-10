@@ -1,5 +1,4 @@
 ---
-DexID: '0763'
 Moves:
 - - Starter
   - '[[SRD-Play Nice|Play Nice]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Synthesis|Synthesis]]'
 Name: Steenee
-Species: '[[SRD-Steenee|Steenee]]'
+Pokedex: '[[SRD-Steenee|Steenee]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

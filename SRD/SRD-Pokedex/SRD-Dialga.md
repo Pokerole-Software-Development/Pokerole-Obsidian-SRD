@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-dialga-BookSprite.png
 BoxSprite: SRD-dialga-BoxSprite.png
 DexCategory: No Data
@@ -10,25 +9,19 @@ DexDescription: "In some religions there is a being called \u201CThe God of Time
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 54
   Feet: 17.7
   Meters: 5.4
 HiddenAbility: Telepathy
 HomeSprite: SRD-dialga-HomeSprite.png
+Image: dialga.png
 Learnset: '[[SRD-Dialga-Learnset]]'
 Legendary: 'Yes'
-Name: Dialga
 Number: 483
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-dialga-ShuffleToken.png
-Sprite: dialga.png
 Type1: Steel
 Type2: Dragon
 Weight:
-  Hectograms: 6830
   Kilograms: 683.0
   Pounds: 1505.8
 ---
@@ -48,7 +41,7 @@ Weight:
 *In some religions there is a being called “The God of Time” whose first roar brought future, present and past.*
 
 **DexID**:: 0483
-**Species**:: Dialga
+**Name**:: Dialga
 **Type**:: Steel / Dragon
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 7

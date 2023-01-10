@@ -1,7 +1,6 @@
 ---
 Ability1: Blaze
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-infernape-BookSprite.png
 BoxSprite: SRD-infernape-BoxSprite.png
 DexCategory: Flame Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Monferno]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Iron Fist
 HomeSprite: SRD-infernape-HomeSprite.png
+Image: infernape.png
 Learnset: '[[SRD-Infernape-Learnset]]'
 Legendary: 'No'
-Name: Infernape
 Number: 392
-PrimaryEggGroup: Field
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-infernape-ShuffleToken.png
-Sprite: infernape.png
 Type1: Fire
 Type2: Fighting
 Weight:
-  Hectograms: 550
   Kilograms: 55.0
   Pounds: 121.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *Its fire crown showcases its proud and fiery nature. Infernape won’t hesitate to fight bigger foes and will take on any challenge they face. Once Infernape enters a battle, it won’t back down until it wins.*
 
 **DexID**:: 0392
-**Species**:: Infernape
+**Name**:: Infernape
 **Type**:: Fire / Fighting
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Iron Fist|Iron Fist]])
 **Base HP**:: 5

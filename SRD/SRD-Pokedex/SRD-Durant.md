@@ -1,7 +1,6 @@
 ---
 Ability1: Swarm
 Ability2: Hustle
-Baby: 'No'
 BookSprite: SRD-durant-BookSprite.png
 BoxSprite: SRD-durant-BoxSprite.png
 DexCategory: Iron Ant Pokemon
@@ -11,25 +10,19 @@ DexDescription: Durant build complex mazes of tunnels in the mountains. Each col
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Truant
 HomeSprite: SRD-durant-HomeSprite.png
+Image: durant.png
 Learnset: '[[SRD-Durant-Learnset]]'
 Legendary: 'No'
-Name: Durant
 Number: 632
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-durant-ShuffleToken.png
-Sprite: durant.png
 Type1: Bug
 Type2: Steel
 Weight:
-  Hectograms: 330
   Kilograms: 33.0
   Pounds: 72.8
 ---
@@ -49,7 +42,7 @@ Weight:
 *Durant build complex mazes of tunnels in the mountains. Each colony has hundreds of Durant, all playing different roles in driving Heatmor away from their nest as it is their only predator.*
 
 **DexID**:: 0632
-**Species**:: Durant
+**Name**:: Durant
 **Type**:: Bug / Steel
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Hustle|Hustle]] ([[SRD-Truant|Truant]])
 **Base HP**:: 4

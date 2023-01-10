@@ -1,5 +1,4 @@
 ---
-DexID: '0517'
 Moves:
 - - Starter
   - '[[SRD-Psywave|Psywave]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Healing Wish|Healing Wish]]'
 Name: Munna
-Species: '[[SRD-Munna|Munna]]'
+Pokedex: '[[SRD-Munna|Munna]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

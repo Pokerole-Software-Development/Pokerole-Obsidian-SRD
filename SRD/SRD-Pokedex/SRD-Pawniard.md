@@ -1,7 +1,6 @@
 ---
 Ability1: Defiant
 Ability2: Inner Focus
-Baby: 'No'
 BookSprite: SRD-pawniard-BookSprite.png
 BoxSprite: SRD-pawniard-BoxSprite.png
 DexCategory: Sharp Blade Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Bisharp]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Pressure
 HomeSprite: SRD-pawniard-HomeSprite.png
+Image: pawniard.png
 Learnset: '[[SRD-Pawniard-Learnset]]'
 Legendary: 'No'
-Name: Pawniard
 Number: 624
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-pawniard-ShuffleToken.png
-Sprite: pawniard.png
 Type1: Dark
 Type2: Steel
 Weight:
-  Hectograms: 102
   Kilograms: 10.2
   Pounds: 22.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *They live in groups commanded by Bisharp. They cling to their prey and inflict damage by sinking their blades. If battling dulls the blades, it sharpens them on stones by the river. It takes them years to evolve.*
 
 **DexID**:: 0624
-**Species**:: Pawniard
+**Name**:: Pawniard
 **Type**:: Dark / Steel
 **Abilities**:: [[SRD-Defiant|Defiant]] / [[SRD-Inner Focus|Inner Focus]] ([[SRD-Pressure|Pressure]])
 **Base HP**:: 3

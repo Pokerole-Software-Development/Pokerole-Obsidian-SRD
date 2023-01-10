@@ -1,7 +1,6 @@
 ---
 Ability1: Synchronize
 Ability2: Trace
-Baby: 'No'
 BookSprite: SRD-kirlia-BookSprite.png
 BoxSprite: SRD-kirlia-BoxSprite.png
 DexCategory: Emotion Pokemon
@@ -24,25 +23,19 @@ Evolutions:
   Kind: Special
   Pokemon: '[[SRD-Gallade]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Telepathy
 HomeSprite: SRD-kirlia-HomeSprite.png
+Image: kirlia.png
 Learnset: '[[SRD-Kirlia-Learnset]]'
 Legendary: 'No'
-Name: Kirlia
 Number: 281
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: Amorphous
 ShuffleToken: SRD-kirlia-ShuffleToken.png
-Sprite: kirlia.png
 Type1: Psychic
 Type2: Fairy
 Weight:
-  Hectograms: 202
   Kilograms: 20.2
   Pounds: 44.5
 ---
@@ -62,7 +55,7 @@ Weight:
 *When they use their powers, their surroundings are distorted with mirages and illusory sceneries from the future and the past. Kirlias like to dance and dislike to be bossed around.*
 
 **DexID**:: 0281
-**Species**:: Kirlia
+**Name**:: Kirlia
 **Type**:: Psychic / Fairy
 **Abilities**:: [[SRD-Synchronize|Synchronize]] / [[SRD-Trace|Trace]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 4

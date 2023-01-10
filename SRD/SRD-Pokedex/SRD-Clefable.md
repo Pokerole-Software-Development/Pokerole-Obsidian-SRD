@@ -1,7 +1,6 @@
 ---
 Ability1: Cute Charm
 Ability2: Magic Guard
-Baby: 'No'
 BookSprite: SRD-clefable-BookSprite.png
 BoxSprite: SRD-clefable-BoxSprite.png
 DexCategory: Fairy Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Clefairy]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Unaware
 HomeSprite: SRD-clefable-HomeSprite.png
+Image: clefable.png
 Learnset: '[[SRD-Clefable-Learnset]]'
 Legendary: 'No'
-Name: Clefable
 Number: 36
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-clefable-ShuffleToken.png
-Sprite: clefable.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 400
   Kilograms: 40.0
   Pounds: 88.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *There are not many records about it in the wild. They are timid but playful. Clefable uses its wings to skip lightly as if it was flying. Its bouncy step lets it walk on water. On quiet, moonlit nights, it strolls near lakes.*
 
 **DexID**:: 0036
-**Species**:: Clefable
+**Name**:: Clefable
 **Type**:: Fairy
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Magic Guard|Magic Guard]] ([[SRD-Unaware|Unaware]])
 **Base HP**:: 5

@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-venusaur-BookSprite.png
 BoxSprite: SRD-venusaur-BoxSprite.png
 DexCategory: Seed Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Venusaurite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Venusaur]]'
+  Pokemon: '[[SRD-Venusaur (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 20
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-venusaur-HomeSprite.png
+Image: venusaur.png
 Learnset: '[[SRD-Venusaur-Learnset]]'
 Legendary: 'No'
-Name: Venusaur
 Number: 3
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-venusaur-ShuffleToken.png
-Sprite: venusaur.png
 Type1: Grass
 Type2: Poison
 Weight:
-  Hectograms: 1000
   Kilograms: 100.0
   Pounds: 220.5
 ---
@@ -58,7 +51,7 @@ Weight:
 If you find one in the wild, it must be the protector of the area.*
 
 **DexID**:: 0003
-**Species**:: Venusaur
+**Name**:: Venusaur
 **Type**:: Grass / Poison
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Chlorophyll|Chlorophyll]])
 **Base HP**:: 5
@@ -76,9 +69,9 @@ If you find one in the wild, it must be the protector of the area.*
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon               | Kind   | Speed   | Item        |
-|:----------|:----------------------|:-------|:--------|:------------|
-| From      | [[SRD-Ivysaur]]       | Level  | Medium  |             |
-| To        | [[SRD-Mega-Venusaur]] | Mega   |         | Venusaurite |
+| Evolves   | Pokemon                      | Kind   | Speed   | Item        |
+|:----------|:-----------------------------|:-------|:--------|:------------|
+| From      | [[SRD-Ivysaur]]              | Level  | Medium  |             |
+| To        | [[SRD-Venusaur (Mega Form)]] | Mega   |         | Venusaurite |
 
 ![[SRD-Venusaur-Learnset]]

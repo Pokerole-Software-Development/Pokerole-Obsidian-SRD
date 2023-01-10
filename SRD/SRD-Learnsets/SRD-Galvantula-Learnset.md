@@ -1,5 +1,4 @@
 ---
-DexID: 0595
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Giga Drain|Giga Drain]]'
 Name: Galvantula
-Species: '[[SRD-Galvantula|Galvantula]]'
+Pokedex: '[[SRD-Galvantula|Galvantula]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0160'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Metal Claw|Metal Claw]]'
 Name: Feraligatr
-Species: '[[SRD-Feraligatr|Feraligatr]]'
+Pokedex: '[[SRD-Feraligatr|Feraligatr]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Full Metal Body
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-solgaleo-BookSprite.png
 BoxSprite: SRD-solgaleo-BoxSprite.png
 DexCategory: No Data
@@ -14,25 +13,19 @@ Evolutions:
   Kind: Level
   Pokemon: '[[SRD-Cosmoem]]'
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 34
   Feet: 11.2
   Meters: 3.4
 HiddenAbility: ''
 HomeSprite: SRD-solgaleo-HomeSprite.png
+Image: solgaleo.png
 Learnset: '[[SRD-Solgaleo-Learnset]]'
 Legendary: 'Yes'
-Name: Solgaleo
 Number: 791
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-solgaleo-ShuffleToken.png
-Sprite: solgaleo.png
 Type1: Psychic
 Type2: Steel
 Weight:
-  Hectograms: 2300
   Kilograms: 230.0
   Pounds: 507.1
 ---
@@ -52,7 +45,7 @@ Weight:
 *There are legends about a being that radiated with the sun, on its forehead a third eye that connected to another dimension.*
 
 **DexID**:: 0791
-**Species**:: Solgaleo
+**Name**:: Solgaleo
 **Type**:: Psychic / Steel
 **Abilities**:: [[SRD-Full Metal Body|Full Metal Body]]
 **Base HP**:: 7

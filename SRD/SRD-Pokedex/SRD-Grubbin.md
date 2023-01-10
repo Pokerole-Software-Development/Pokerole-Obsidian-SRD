@@ -1,7 +1,6 @@
 ---
 Ability1: Swarm
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-grubbin-BookSprite.png
 BoxSprite: SRD-grubbin-BoxSprite.png
 DexCategory: Larva Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Charjabug]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: ''
 HomeSprite: SRD-grubbin-HomeSprite.png
+Image: grubbin.png
 Learnset: '[[SRD-Grubbin-Learnset]]'
 Legendary: 'No'
-Name: Grubbin
 Number: 736
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-grubbin-ShuffleToken.png
-Sprite: grubbin.png
 Type1: Bug
 Type2: ''
 Weight:
-  Hectograms: 44
   Kilograms: 4.4
   Pounds: 9.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *They tend to gather anywhere Electric Pokemon live to protect themselves from bird Pokemon who may prey on them. When they are ready to evolve they bury themselves underground.*
 
 **DexID**:: 0736
-**Species**:: Grubbin
+**Name**:: Grubbin
 **Type**:: Bug
 **Abilities**:: [[SRD-Swarm|Swarm]]
 **Base HP**:: 3

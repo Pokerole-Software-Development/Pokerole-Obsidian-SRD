@@ -1,7 +1,6 @@
 ---
 Ability1: Stench
 Ability2: Aftermath
-Baby: 'No'
 BookSprite: SRD-stunky-BookSprite.png
 BoxSprite: SRD-stunky-BoxSprite.png
 DexCategory: Skunk Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Skuntank]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Keen Eye
 HomeSprite: SRD-stunky-HomeSprite.png
+Image: stunky.png
 Learnset: '[[SRD-Stunky-Learnset]]'
 Legendary: 'No'
-Name: Stunky
 Number: 434
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-stunky-ShuffleToken.png
-Sprite: stunky.png
 Type1: Poison
 Type2: Dark
 Weight:
-  Hectograms: 192
   Kilograms: 19.2
   Pounds: 42.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *Over the years they have moved closer to towns and other human settlements. They release a foul liquid from their rear that stinks for days to scare away predators. But sometimes they do it just for fun.*
 
 **DexID**:: 0434
-**Species**:: Stunky
+**Name**:: Stunky
 **Type**:: Poison / Dark
 **Abilities**:: [[SRD-Stench|Stench]] / [[SRD-Aftermath|Aftermath]] ([[SRD-Keen Eye|Keen Eye]])
 **Base HP**:: 3

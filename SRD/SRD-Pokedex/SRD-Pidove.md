@@ -1,7 +1,6 @@
 ---
 Ability1: Big Pecks
 Ability2: Super Luck
-Baby: 'No'
 BookSprite: SRD-pidove-BookSprite.png
 BoxSprite: SRD-pidove-BoxSprite.png
 DexCategory: Tiny Pigeon Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Tranquill]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Rivalry
 HomeSprite: SRD-pidove-HomeSprite.png
+Image: pidove.png
 Learnset: '[[SRD-Pidove-Learnset]]'
 Legendary: 'No'
-Name: Pidove
 Number: 519
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-pidove-ShuffleToken.png
-Sprite: pidove.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 21
   Kilograms: 2.1
   Pounds: 4.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *These Pokemon thrive in the cities. They are accustomed to people and they often gather in the parks. They are forgetful and not very smart, but they always remember the way back home.*
 
 **DexID**:: 0519
-**Species**:: Pidove
+**Name**:: Pidove
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Big Pecks|Big Pecks]] / [[SRD-Super Luck|Super Luck]] ([[SRD-Rivalry|Rivalry]])
 **Base HP**:: 3

@@ -1,5 +1,4 @@
 ---
-DexID: 0486
 Moves:
 - - Master
   - '[[SRD-Heavy Slam|Heavy Slam]]'
@@ -42,14 +41,14 @@ Moves:
 - - Master
   - '[[SRD-Nature Power|Nature Power]]'
 Name: Regigigas
-Species: '[[SRD-Regigigas|Regigigas]]'
+Pokedex: '[[SRD-Regigigas|Regigigas]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0129
 Moves:
 - - Starter
   - '[[SRD-Splash|Splash]]'
@@ -16,14 +15,14 @@ Moves:
 - - Pro
   - '[[SRD-Bounce|Bounce]]'
 Name: Magikarp
-Species: '[[SRD-Magikarp|Magikarp]]'
+Pokedex: '[[SRD-Magikarp|Magikarp]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

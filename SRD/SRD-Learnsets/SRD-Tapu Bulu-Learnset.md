@@ -1,5 +1,4 @@
 ---
-DexID: 0788
 Moves:
 - - Master
   - '[[SRD-Grassy Terrain|Grassy Terrain]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Worry Seed|Worry Seed]]'
 Name: Tapu Bulu
-Species: '[[SRD-Tapu Bulu|Tapu Bulu]]'
+Pokedex: '[[SRD-Tapu Bulu|Tapu Bulu]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

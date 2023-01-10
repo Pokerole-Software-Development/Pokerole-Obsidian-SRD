@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-totodile-BookSprite.png
 BoxSprite: SRD-totodile-BoxSprite.png
 DexCategory: Big Jaw Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Croconaw]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Sheer Force
 HomeSprite: SRD-totodile-HomeSprite.png
+Image: totodile.png
 Learnset: '[[SRD-Totodile-Learnset]]'
 Legendary: 'No'
-Name: Totodile
 Number: 158
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Water 1
 ShuffleToken: SRD-totodile-ShuffleToken.png
-Sprite: totodile.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 95
   Kilograms: 9.5
   Pounds: 20.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *Despite its small body, Totodile's jaws are very powerful. While it may think it is just playfully nipping, its bite has enough strength to cause a serious injury. It needs proper discipline to control its biting urges*
 
 **DexID**:: 0158
-**Species**:: Totodile
+**Name**:: Totodile
 **Type**:: Water
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 3

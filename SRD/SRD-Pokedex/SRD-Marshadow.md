@@ -1,7 +1,6 @@
 ---
 Ability1: Technician
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-marshadow-BookSprite.png
 BoxSprite: SRD-marshadow-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: "There is an old children\u2019s story about a boy who lost his 
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: ''
 HomeSprite: SRD-marshadow-HomeSprite.png
+Image: marshadow.png
 Learnset: '[[SRD-Marshadow-Learnset]]'
 Legendary: 'Yes'
-Name: Marshadow
 Number: 802
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-marshadow-ShuffleToken.png
-Sprite: marshadow.png
 Type1: Fighting
 Type2: Ghost
 Weight:
-  Hectograms: 222
   Kilograms: 22.2
   Pounds: 48.9
 ---
@@ -49,7 +42,7 @@ Weight:
 *There is an old children’s story about a boy who lost his shadow and the shadow became a Pokemon. It is debated which Pokemon the story is making mention of.*
 
 **DexID**:: 0802
-**Species**:: Marshadow
+**Name**:: Marshadow
 **Type**:: Fighting / Ghost
 **Abilities**:: [[SRD-Technician|Technician]]
 **Base HP**:: 4

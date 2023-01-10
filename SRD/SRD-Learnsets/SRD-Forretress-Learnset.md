@@ -1,5 +1,4 @@
 ---
-DexID: '0205'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Forretress
-Species: '[[SRD-Forretress|Forretress]]'
+Pokedex: '[[SRD-Forretress|Forretress]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

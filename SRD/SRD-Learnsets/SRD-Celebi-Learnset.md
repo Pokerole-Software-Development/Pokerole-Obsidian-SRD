@@ -1,5 +1,4 @@
 ---
-DexID: '0251'
 Moves:
 - - Master
   - '[[SRD-Leech Seed|Leech Seed]]'
@@ -38,14 +37,14 @@ Moves:
 - - Master
   - '[[SRD-Worry Seed|Worry Seed]]'
 Name: Celebi
-Species: '[[SRD-Celebi|Celebi]]'
+Pokedex: '[[SRD-Celebi|Celebi]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

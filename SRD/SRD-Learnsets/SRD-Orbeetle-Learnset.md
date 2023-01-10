@@ -1,5 +1,4 @@
 ---
-DexID: 0827
 Moves:
 - - Starter
   - '[[SRD-Struggle Bug|Struggle Bug]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Imprison|Imprison]]'
 Name: Orbeetle
-Species: '[[SRD-Orbeetle|Orbeetle]]'
+Pokedex: '[[SRD-Orbeetle|Orbeetle]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

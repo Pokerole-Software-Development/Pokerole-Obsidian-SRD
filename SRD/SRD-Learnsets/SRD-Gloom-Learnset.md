@@ -1,5 +1,4 @@
 ---
-DexID: '0044'
 Moves:
 - - Starter
   - '[[SRD-Growth|Growth]]'
@@ -40,14 +39,14 @@ Moves:
 - - Ace
   - '[[SRD-Grassy Terrain|Grassy Terrain]]'
 Name: Gloom
-Species: '[[SRD-Gloom|Gloom]]'
+Pokedex: '[[SRD-Gloom|Gloom]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

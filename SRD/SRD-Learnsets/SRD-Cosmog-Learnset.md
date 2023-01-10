@@ -1,19 +1,18 @@
 ---
-DexID: 0790
 Moves:
 - - Starter
   - '[[SRD-Splash|Splash]]'
 - - Starter
   - '[[SRD-Teleport|Teleport]]'
 Name: Cosmog
-Species: '[[SRD-Cosmog|Cosmog]]'
+Pokedex: '[[SRD-Cosmog|Cosmog]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

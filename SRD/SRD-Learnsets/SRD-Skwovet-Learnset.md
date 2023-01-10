@@ -1,5 +1,4 @@
 ---
-DexID: 0818
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Crunch|Crunch]]'
 Name: Skwovet
-Species: '[[SRD-Skwovet|Skwovet]]'
+Pokedex: '[[SRD-Skwovet|Skwovet]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

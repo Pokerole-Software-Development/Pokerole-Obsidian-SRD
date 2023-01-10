@@ -1,5 +1,4 @@
 ---
-DexID: 0883
 Moves:
 - - Starter
   - '[[SRD-Metal Claw|Metal Claw]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Mirror Coat|Mirror Coat]]'
 Name: Duraludon
-Species: '[[SRD-Duraludon|Duraludon]]'
+Pokedex: '[[SRD-Duraludon|Duraludon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

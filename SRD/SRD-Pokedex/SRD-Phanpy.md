@@ -1,7 +1,6 @@
 ---
 Ability1: Pickup
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-phanpy-BookSprite.png
 BoxSprite: SRD-phanpy-BoxSprite.png
 DexCategory: Long Nose Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Donphan]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Sand Veil
 HomeSprite: SRD-phanpy-HomeSprite.png
+Image: phanpy.png
 Learnset: '[[SRD-Phanpy-Learnset]]'
 Legendary: 'No'
-Name: Phanpy
 Number: 231
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-phanpy-ShuffleToken.png
-Sprite: phanpy.png
 Type1: Ground
 Type2: ''
 Weight:
-  Hectograms: 335
   Kilograms: 33.5
   Pounds: 73.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are affectionate and playful, but their snout is so strong that they may hurt others while playing. They dig pits at the edge of rivers and mark them so everyone knows that place is taken.*
 
 **DexID**:: 0231
-**Species**:: Phanpy
+**Name**:: Phanpy
 **Type**:: Ground
 **Abilities**:: [[SRD-Pickup|Pickup]] ([[SRD-Sand Veil|Sand Veil]])
 **Base HP**:: 3

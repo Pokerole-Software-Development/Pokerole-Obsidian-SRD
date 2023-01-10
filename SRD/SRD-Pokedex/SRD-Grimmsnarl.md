@@ -1,7 +1,6 @@
 ---
 Ability1: Prankster
 Ability2: Frisk
-Baby: 'No'
 BookSprite: SRD-grimmsnarl-BookSprite.png
 BoxSprite: SRD-grimmsnarl-BoxSprite.png
 DexCategory: Bulk Up Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Morgrem]]'
   Speed: Medium
 GenderType: M
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Pickpocket
 HomeSprite: SRD-grimmsnarl-HomeSprite.png
+Image: grimmsnarl.png
 Learnset: '[[SRD-Grimmsnarl-Learnset]]'
 Legendary: 'No'
-Name: Grimmsnarl
 Number: 861
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-grimmsnarl-ShuffleToken.png
-Sprite: grimmsnarl.png
 Type1: Dark
 Type2: Fairy
 Weight:
-  Hectograms: 610
   Kilograms: 61.0
   Pounds: 134.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *Its hairs work like muscle fibers. When its hairs unfurl, they latch on to opponents, ensnaring them as tentacles would. They often make others trip or get them hanging upside down to amuse themselves.*
 
 **DexID**:: 0861
-**Species**:: Grimmsnarl
+**Name**:: Grimmsnarl
 **Type**:: Dark / Fairy
 **Abilities**:: [[SRD-Prankster|Prankster]] / [[SRD-Frisk|Frisk]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 5

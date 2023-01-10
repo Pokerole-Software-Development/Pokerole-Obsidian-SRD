@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: Neutralizing Gas
-Baby: 'No'
 BookSprite: SRD-weezing-BookSprite.png
 BoxSprite: SRD-weezing-BoxSprite.png
 DexCategory: Poison Gas Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Koffing]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Stench
 HomeSprite: SRD-weezing-HomeSprite.png
+Image: weezing.png
 Learnset: '[[SRD-Weezing-Learnset]]'
 Legendary: 'No'
-Name: Weezing
 Number: 110
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-weezing-ShuffleToken.png
-Sprite: weezing.png
 Type1: Poison
 Type2: ''
 Weight:
-  Hectograms: 95
   Kilograms: 9.5
   Pounds: 20.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are considered a pest in urban areas. They wait until night to roam and eat from the trash cans in the neighborhood. If it finds a filthy and unkempt house it will make its nest in there.*
 
 **DexID**:: 0110
-**Species**:: Weezing
+**Name**:: Weezing
 **Type**:: Poison
 **Abilities**:: [[SRD-Levitate|Levitate]] / [[SRD-Neutralizing Gas|Neutralizing Gas]] ([[SRD-Stench|Stench]])
 **Base HP**:: 4

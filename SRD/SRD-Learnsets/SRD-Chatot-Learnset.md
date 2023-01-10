@@ -1,5 +1,4 @@
 ---
-DexID: '0441'
 Moves:
 - - Starter
   - '[[SRD-Confide|Confide]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Nasty Plot|Nasty Plot]]'
 Name: Chatot
-Species: '[[SRD-Chatot|Chatot]]'
+Pokedex: '[[SRD-Chatot|Chatot]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

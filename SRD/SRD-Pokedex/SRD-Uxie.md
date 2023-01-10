@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-uxie-BookSprite.png
 BoxSprite: SRD-uxie-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: In the myths of Sinnoh they talk about three beings that came ou
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-uxie-HomeSprite.png
+Image: uxie.png
 Learnset: '[[SRD-Uxie-Learnset]]'
 Legendary: 'Yes'
-Name: Uxie
 Number: 480
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-uxie-ShuffleToken.png
-Sprite: uxie.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 3
   Kilograms: 0.3
   Pounds: 0.7
 ---
@@ -49,7 +42,7 @@ Weight:
 *In the myths of Sinnoh they talk about three beings that came out from the same egg, the yellow one was the being of knowledge. Together they shaped the human race to be complete.*
 
 **DexID**:: 0480
-**Species**:: Uxie
+**Name**:: Uxie
 **Type**:: Psychic
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4

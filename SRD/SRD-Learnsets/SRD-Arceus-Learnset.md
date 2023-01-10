@@ -1,5 +1,4 @@
 ---
-DexID: 0493
 Moves:
 - - Master
   - '[[SRD-Seismic Toss|Seismic Toss]]'
@@ -58,14 +57,14 @@ Moves:
 - - Master
   - '[[SRD-Origin Pulse|Origin Pulse]]'
 Name: Arceus
-Species: '[[SRD-Arceus|Arceus]]'
+Pokedex: '[[SRD-Arceus|Arceus]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

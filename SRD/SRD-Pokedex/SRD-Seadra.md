@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: Sniper
-Baby: 'No'
 BookSprite: SRD-seadra-BookSprite.png
 BoxSprite: SRD-seadra-BoxSprite.png
 DexCategory: Dragon Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Kingdra]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Damp
 HomeSprite: SRD-seadra-HomeSprite.png
+Image: seadra.png
 Learnset: '[[SRD-Seadra-Learnset]]'
 Legendary: 'No'
-Name: Seadra
 Number: 117
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-seadra-ShuffleToken.png
-Sprite: seadra.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 250
   Kilograms: 25.0
   Pounds: 55.1
 ---
@@ -57,7 +50,7 @@ Weight:
 *The poisonous barbs all over its body are highly valued as ingredients for making traditional medicine. It will show no mercy if anything approaches its nest. Its back fin has a numbing substance*
 
 **DexID**:: 0117
-**Species**:: Seadra
+**Name**:: Seadra
 **Type**:: Water
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Sniper|Sniper]] ([[SRD-Damp|Damp]])
 **Base HP**:: 4

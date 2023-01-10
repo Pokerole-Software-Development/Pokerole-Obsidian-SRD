@@ -1,17 +1,16 @@
 ---
-DexID: '0717'
 Moves:
 - - Starter
   - '[[SRD-Endure|Endure]]'
 Name: Zygarde Cell
-Species: '[[SRD-Zygarde Cell|Zygarde Cell]]'
+Pokedex: '[[SRD-Zygarde Cell|Zygarde Cell]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

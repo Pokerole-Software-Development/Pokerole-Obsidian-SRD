@@ -1,5 +1,4 @@
 ---
-DexID: 0283
 Moves:
 - - Starter
   - '[[SRD-Bubble|Bubble]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Hydro Pump|Hydro Pump]]'
 Name: Surskit
-Species: '[[SRD-Surskit|Surskit]]'
+Pokedex: '[[SRD-Surskit|Surskit]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

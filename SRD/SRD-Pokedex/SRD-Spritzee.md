@@ -1,7 +1,6 @@
 ---
 Ability1: Healer
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-spritzee-BookSprite.png
 BoxSprite: SRD-spritzee-BoxSprite.png
 DexCategory: Perfume Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Aromatisse]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Aroma Veil
 HomeSprite: SRD-spritzee-HomeSprite.png
+Image: spritzee.png
 Learnset: '[[SRD-Spritzee-Learnset]]'
 Legendary: 'No'
-Name: Spritzee
 Number: 682
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-spritzee-ShuffleToken.png
-Sprite: spritzee.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 5
   Kilograms: 0.5
   Pounds: 1.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *In the past, rather than using a perfume, royal ladies had a Spritzee that would waft a fragrance they liked. They are popular today for this same reason. They are said to attract the opposite gender to you.*
 
 **DexID**:: 0682
-**Species**:: Spritzee
+**Name**:: Spritzee
 **Type**:: Fairy
 **Abilities**:: [[SRD-Healer|Healer]] ([[SRD-Aroma Veil|Aroma Veil]])
 **Base HP**:: 3

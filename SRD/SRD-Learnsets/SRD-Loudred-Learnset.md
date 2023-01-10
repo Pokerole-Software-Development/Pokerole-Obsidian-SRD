@@ -1,5 +1,4 @@
 ---
-DexID: 0294
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Icy Wind|Icy Wind]]'
 Name: Loudred
-Species: '[[SRD-Loudred|Loudred]]'
+Pokedex: '[[SRD-Loudred|Loudred]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

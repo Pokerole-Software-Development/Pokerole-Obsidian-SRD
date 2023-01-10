@@ -1,7 +1,6 @@
 ---
 Ability1: Own Tempo
 Ability2: Stamina
-Baby: 'No'
 BookSprite: SRD-mudbray-BookSprite.png
 BoxSprite: SRD-mudbray-BoxSprite.png
 DexCategory: Donkey Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Mudsdale]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Inner Focus
 HomeSprite: SRD-mudbray-HomeSprite.png
+Image: mudbray.png
 Learnset: '[[SRD-Mudbray-Learnset]]'
 Legendary: 'No'
-Name: Mudbray
 Number: 749
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-mudbray-ShuffleToken.png
-Sprite: mudbray.png
 Type1: Ground
 Type2: ''
 Weight:
-  Hectograms: 1100
   Kilograms: 110.0
   Pounds: 242.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are very strong, the mud on their hooves serves them as grip to pull themselves forward. They enjoy prancing in muddy places and will become stubborn and disobedient if denied that pleasure.*
 
 **DexID**:: 0749
-**Species**:: Mudbray
+**Name**:: Mudbray
 **Type**:: Ground
 **Abilities**:: [[SRD-Own Tempo|Own Tempo]] / [[SRD-Stamina|Stamina]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 3

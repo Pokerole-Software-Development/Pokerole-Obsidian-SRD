@@ -1,7 +1,6 @@
 ---
 Ability1: Static
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-raichu-BookSprite.png
 BoxSprite: SRD-raichu-BoxSprite.png
 DexCategory: Mouse Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Pikachu]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-raichu-HomeSprite.png
+Image: raichu.png
 Learnset: '[[SRD-Raichu-Learnset]]'
 Legendary: 'No'
-Name: Raichu
 Number: 26
-PrimaryEggGroup: Field
-SecondaryEggGroup: Fairy
 ShuffleToken: SRD-raichu-ShuffleToken.png
-Sprite: raichu.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 300
   Kilograms: 30.0
   Pounds: 66.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *When electricity builds on its body, it starts to emit a faint glow and it becomes more aggressive than it normally is. They live in forests but are rare to find in the wild.*
 
 **DexID**:: 0026
-**Species**:: Raichu
+**Name**:: Raichu
 **Type**:: Electric
 **Abilities**:: [[SRD-Static|Static]] ([[SRD-Lightning Rod|Lightning Rod]])
 **Base HP**:: 5

@@ -1,7 +1,6 @@
 ---
 Ability1: Adaptability
 Ability2: Download
-Baby: 'No'
 BookSprite: SRD-porygon-z-BookSprite.png
 BoxSprite: SRD-porygon-z-BoxSprite.png
 DexCategory: Virtual Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Porygon2]]'
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Analytic
 HomeSprite: SRD-porygon-z-HomeSprite.png
+Image: porygon-z.png
 Learnset: '[[SRD-Porygon-Z-Learnset]]'
 Legendary: 'No'
-Name: Porygon-Z
 Number: 474
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-porygon-z-ShuffleToken.png
-Sprite: porygon-z.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 340
   Kilograms: 34.0
   Pounds: 75.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *A software to explore another dimension was installed on Porygon. However, it began acting oddly due to glitches in the code. Since then, it has a fondness for videos of Meowth and Skitty on the internet*
 
 **DexID**:: 0474
-**Species**:: Porygon-Z
+**Name**:: Porygon-Z
 **Type**:: Normal
 **Abilities**:: [[SRD-Adaptability|Adaptability]] / [[SRD-Download|Download]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 5

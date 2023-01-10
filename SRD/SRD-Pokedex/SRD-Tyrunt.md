@@ -1,7 +1,6 @@
 ---
 Ability1: Strong Jaw
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-tyrunt-BookSprite.png
 BoxSprite: SRD-tyrunt-BoxSprite.png
 DexCategory: Royal Heir Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Tyrantrum]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Sturdy
 HomeSprite: SRD-tyrunt-HomeSprite.png
+Image: tyrunt.png
 Learnset: '[[SRD-Tyrunt-Learnset]]'
 Legendary: 'No'
-Name: Tyrunt
 Number: 696
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-tyrunt-ShuffleToken.png
-Sprite: tyrunt.png
 Type1: Rock
 Type2: Dragon
 Weight:
-  Hectograms: 260
   Kilograms: 26.0
   Pounds: 57.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *This Pokemon was restored from a fossil. If something happens that it doesn’t like, it throws a tantrum and runs wild. Many of the researchers that brought it back were attacked by its powerful jaws.*
 
 **DexID**:: 0696
-**Species**:: Tyrunt
+**Name**:: Tyrunt
 **Type**:: Rock / Dragon
 **Abilities**:: [[SRD-Strong Jaw|Strong Jaw]] ([[SRD-Sturdy|Sturdy]])
 **Base HP**:: 3

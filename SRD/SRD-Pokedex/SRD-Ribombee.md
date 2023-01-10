@@ -1,7 +1,6 @@
 ---
 Ability1: Honey Gather
 Ability2: Shield Dust
-Baby: 'No'
 BookSprite: SRD-ribombee-BookSprite.png
 BoxSprite: SRD-ribombee-BoxSprite.png
 DexCategory: Bee Fly Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Cutiefly]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Sweet Veil
 HomeSprite: SRD-ribombee-HomeSprite.png
+Image: ribombee.png
 Learnset: '[[SRD-Ribombee-Learnset]]'
 Legendary: 'No'
-Name: Ribombee
 Number: 743
-PrimaryEggGroup: Bug
-SecondaryEggGroup: Fairy
 ShuffleToken: SRD-ribombee-ShuffleToken.png
-Sprite: ribombee.png
 Type1: Bug
 Type2: Fairy
 Weight:
-  Hectograms: 5
   Kilograms: 0.5
   Pounds: 1.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *The pollen puff of a happy Ribombee are very nutritious and valuable supplements in Alola. It dislikes rain, for it wets its hair and makes it unable to fly, so if you see a Ribombee you know the weather will be nice.*
 
 **DexID**:: 0743
-**Species**:: Ribombee
+**Name**:: Ribombee
 **Type**:: Bug / Fairy
 **Abilities**:: [[SRD-Honey Gather|Honey Gather]] / [[SRD-Shield Dust|Shield Dust]] ([[SRD-Sweet Veil|Sweet Veil]])
 **Base HP**:: 4

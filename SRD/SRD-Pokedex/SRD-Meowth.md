@@ -1,7 +1,6 @@
 ---
 Ability1: Pickup
 Ability2: Technician
-Baby: 'No'
 BookSprite: SRD-meowth-BookSprite.png
 BoxSprite: SRD-meowth-BoxSprite.png
 DexCategory: Scratch Cat Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Persian]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Unnerve
 HomeSprite: SRD-meowth-HomeSprite.png
+Image: meowth.png
 Learnset: '[[SRD-Meowth-Learnset]]'
 Legendary: 'No'
-Name: Meowth
 Number: 52
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-meowth-ShuffleToken.png
-Sprite: meowth.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 42
   Kilograms: 4.2
   Pounds: 9.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *They used to live in grasslands but have adapted really well to life in the city. Shiny things fascinate them and they keep a little treasure hidden. The coin on its head is its most prized possession.*
 
 **DexID**:: 0052
-**Species**:: Meowth
+**Name**:: Meowth
 **Type**:: Normal
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Technician|Technician]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 3

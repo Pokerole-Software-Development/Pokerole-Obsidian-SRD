@@ -1,5 +1,4 @@
 ---
-DexID: 0369
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Magnitude|Magnitude]]'
 Name: Relicanth
-Species: '[[SRD-Relicanth|Relicanth]]'
+Pokedex: '[[SRD-Relicanth|Relicanth]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

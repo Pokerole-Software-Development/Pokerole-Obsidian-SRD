@@ -1,5 +1,4 @@
 ---
-DexID: 0095
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -58,14 +57,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Onix
-Species: '[[SRD-Onix|Onix]]'
+Pokedex: '[[SRD-Onix|Onix]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

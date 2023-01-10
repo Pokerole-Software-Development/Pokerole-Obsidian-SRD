@@ -1,7 +1,6 @@
 ---
 Ability1: Iron Barbs
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-ferrothorn-BookSprite.png
 BoxSprite: SRD-ferrothorn-BoxSprite.png
 DexCategory: Thorn Pod Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Ferroseed]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Anticipation
 HomeSprite: SRD-ferrothorn-HomeSprite.png
+Image: ferrothorn.png
 Learnset: '[[SRD-Ferrothorn-Learnset]]'
 Legendary: 'No'
-Name: Ferrothorn
 Number: 598
-PrimaryEggGroup: Grass
-SecondaryEggGroup: Mineral
 ShuffleToken: SRD-ferrothorn-ShuffleToken.png
-Sprite: ferrothorn.png
 Type1: Grass
 Type2: Steel
 Weight:
-  Hectograms: 1100
   Kilograms: 110.0
   Pounds: 242.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *It attaches itself to cave ceilings by swinging around its spiky feelers. It shoots spikes at targets passing beneath. It is incredibly resilient and stubborn, it will whip you if you try to take its spot in the cave walls..*
 
 **DexID**:: 0598
-**Species**:: Ferrothorn
+**Name**:: Ferrothorn
 **Type**:: Grass / Steel
 **Abilities**:: [[SRD-Iron Barbs|Iron Barbs]] ([[SRD-Anticipation|Anticipation]])
 **Base HP**:: 4

@@ -1,5 +1,4 @@
 ---
-DexID: '0235'
 Moves:
 - - Starter
   - '[[SRD-Sketch|Sketch]]'
@@ -30,14 +29,14 @@ Moves:
 - - Pro
   - '[[SRD-Sketch|Sketch]]'
 Name: Smeargle
-Species: '[[SRD-Smeargle|Smeargle]]'
+Pokedex: '[[SRD-Smeargle|Smeargle]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

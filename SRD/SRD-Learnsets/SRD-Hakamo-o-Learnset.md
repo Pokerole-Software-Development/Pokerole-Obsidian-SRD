@@ -1,5 +1,4 @@
 ---
-DexID: 0784
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Dragon Breath|Dragon Breath]]'
 Name: Hakamo-o
-Species: '[[SRD-Hakamo-o|Hakamo-o]]'
+Pokedex: '[[SRD-Hakamo-o|Hakamo-o]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

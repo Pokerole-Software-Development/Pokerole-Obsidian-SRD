@@ -1,5 +1,4 @@
 ---
-DexID: '0705'
 Moves:
 - - Starter
   - '[[SRD-Bubble|Bubble]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Goodra
-Species: '[[SRD-Goodra|Goodra]]'
+Pokedex: '[[SRD-Goodra|Goodra]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

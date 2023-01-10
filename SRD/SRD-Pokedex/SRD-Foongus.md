@@ -1,7 +1,6 @@
 ---
 Ability1: Effect Spore
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-foongus-BookSprite.png
 BoxSprite: SRD-foongus-BoxSprite.png
 DexCategory: Mushroom Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Amoonguss]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Regenerator
 HomeSprite: SRD-foongus-HomeSprite.png
+Image: foongus.png
 Learnset: '[[SRD-Foongus-Learnset]]'
 Legendary: 'No'
-Name: Foongus
 Number: 590
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-foongus-ShuffleToken.png
-Sprite: foongus.png
 Type1: Grass
 Type2: Poison
 Weight:
-  Hectograms: 10
   Kilograms: 1.0
   Pounds: 2.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *The top of fungus takes a pattern that resembles a predator to protect itself. In recent times this pattern has started to look like a Pokeball. It releases toxic spores in the air that help it move around safely.*
 
 **DexID**:: 0590
-**Species**:: Foongus
+**Name**:: Foongus
 **Type**:: Grass / Poison
 **Abilities**:: [[SRD-Effect Spore|Effect Spore]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 3

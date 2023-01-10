@@ -1,5 +1,4 @@
 ---
-DexID: '0372'
 Moves:
 - - Starter
   - '[[SRD-Rage|Rage]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Shelgon
-Species: '[[SRD-Shelgon|Shelgon]]'
+Pokedex: '[[SRD-Shelgon|Shelgon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

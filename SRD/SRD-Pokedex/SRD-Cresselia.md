@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-cresselia-BookSprite.png
 BoxSprite: SRD-cresselia-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: The embodiment of dreams comes to life during the crescent moon 
 EventAbilities: ''
 Evolutions: []
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: ''
 HomeSprite: SRD-cresselia-HomeSprite.png
+Image: cresselia.png
 Learnset: '[[SRD-Cresselia-Learnset]]'
 Legendary: 'Yes'
-Name: Cresselia
 Number: 488
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-cresselia-ShuffleToken.png
-Sprite: cresselia.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 856
   Kilograms: 85.6
   Pounds: 188.7
 ---
@@ -49,7 +42,7 @@ Weight:
 *The embodiment of dreams comes to life during the crescent moon nights. You will be blessed with peaceful bedtimes If you keep one of its feathers. Or so they say.*
 
 **DexID**:: 0488
-**Species**:: Cresselia
+**Name**:: Cresselia
 **Type**:: Psychic
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 6

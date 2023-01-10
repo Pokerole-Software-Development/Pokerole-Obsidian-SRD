@@ -1,5 +1,4 @@
 ---
-DexID: '0616'
 Moves:
 - - Starter
   - '[[SRD-Ice Shard|Ice Shard]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Magic Coat|Magic Coat]]'
 Name: Cryogonal
-Species: '[[SRD-Cryogonal|Cryogonal]]'
+Pokedex: '[[SRD-Cryogonal|Cryogonal]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

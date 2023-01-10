@@ -1,7 +1,6 @@
 ---
 Ability1: Contrary
 Ability2: Suction Cups
-Baby: 'No'
 BookSprite: SRD-malamar-BookSprite.png
 BoxSprite: SRD-malamar-BoxSprite.png
 DexCategory: Overturning Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Inkay]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Infiltrator
 HomeSprite: SRD-malamar-HomeSprite.png
+Image: malamar.png
 Learnset: '[[SRD-Malamar-Learnset]]'
 Legendary: 'No'
-Name: Malamar
 Number: 687
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Water 2
 ShuffleToken: SRD-malamar-ShuffleToken.png
-Sprite: malamar.png
 Type1: Dark
 Type2: Psychic
 Weight:
-  Hectograms: 470
   Kilograms: 47.0
   Pounds: 103.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off to eat it. This Pokemon are difficult to handle as they use their psychic abilities to do evil.*
 
 **DexID**:: 0687
-**Species**:: Malamar
+**Name**:: Malamar
 **Type**:: Dark / Psychic
 **Abilities**:: [[SRD-Contrary|Contrary]] / [[SRD-Suction Cups|Suction Cups]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 4

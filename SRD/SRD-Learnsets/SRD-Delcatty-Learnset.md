@@ -1,5 +1,4 @@
 ---
-DexID: '0301'
 Moves:
 - - Starter
   - '[[SRD-Fake Out|Fake Out]]'
@@ -22,14 +21,14 @@ Moves:
 - - Pro
   - '[[SRD-Cosmic Power|Cosmic Power]]'
 Name: Delcatty
-Species: '[[SRD-Delcatty|Delcatty]]'
+Pokedex: '[[SRD-Delcatty|Delcatty]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Inner Focus
 Ability2: Regenerator
-Baby: 'No'
 BookSprite: SRD-mienfoo-BookSprite.png
 BoxSprite: SRD-mienfoo-BoxSprite.png
 DexCategory: Martial Arts Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Mienshao]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Reckless
 HomeSprite: SRD-mienfoo-HomeSprite.png
+Image: mienfoo.png
 Learnset: '[[SRD-Mienfoo-Learnset]]'
 Legendary: 'No'
-Name: Mienfoo
 Number: 619
-PrimaryEggGroup: Field
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-mienfoo-ShuffleToken.png
-Sprite: mienfoo.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 200
   Kilograms: 20.0
   Pounds: 44.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *They gather in small groups around the mountains to train and master new techniques. They use their sharp claws to damage their foes. Only those Mienfoo that excel at fighting in the group evolve.*
 
 **DexID**:: 0619
-**Species**:: Mienfoo
+**Name**:: Mienfoo
 **Type**:: Fighting
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] / [[SRD-Regenerator|Regenerator]] ([[SRD-Reckless|Reckless]])
 **Base HP**:: 3

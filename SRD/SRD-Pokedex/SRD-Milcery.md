@@ -1,7 +1,6 @@
 ---
 Ability1: Sweet Veil
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-milcery-BookSprite.png
 BoxSprite: SRD-milcery-BoxSprite.png
 DexCategory: Cream Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Alcremie]]'
   Special: Berry & spin
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Aroma Veil
 HomeSprite: SRD-milcery-HomeSprite.png
+Image: milcery.png
 Learnset: '[[SRD-Milcery-Learnset]]'
 Legendary: 'No'
-Name: Milcery
 Number: 868
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: Amorphous
 ShuffleToken: SRD-milcery-ShuffleToken.png
-Sprite: milcery.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 3
   Kilograms: 0.3
   Pounds: 0.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *This Pokemon was born from sweet-smelling particles in the air, its body is made of cream, Finding one in your kitchen means Good Fortune. Give them berries and whip them with a whisk so they can evolve.*
 
 **DexID**:: 0868
-**Species**:: Milcery
+**Name**:: Milcery
 **Type**:: Fairy
 **Abilities**:: [[SRD-Sweet Veil|Sweet Veil]] ([[SRD-Aroma Veil|Aroma Veil]])
 **Base HP**:: 3

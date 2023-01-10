@@ -1,7 +1,6 @@
 ---
 Ability1: Clear Body
 Ability2: Infiltrator
-Baby: 'No'
 BookSprite: SRD-dragapult-BookSprite.png
 BoxSprite: SRD-dragapult-BoxSprite.png
 DexCategory: Stealth Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Drakloak]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 30
   Feet: 9.8
   Meters: 3.0
 HiddenAbility: Cursed Body
 HomeSprite: SRD-dragapult-HomeSprite.png
+Image: dragapult.png
 Learnset: '[[SRD-Dragapult-Learnset]]'
 Legendary: 'No'
-Name: Dragapult
 Number: 887
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-dragapult-ShuffleToken.png
-Sprite: dragapult.png
 Type1: Dragon
 Type2: Ghost
 Weight:
-  Hectograms: 500
   Kilograms: 50.0
   Pounds: 110.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *When it isn’t battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles. The smaller Pokemon appear happy to be shot and will reload themselves.*
 
 **DexID**:: 0887
-**Species**:: Dragapult
+**Name**:: Dragapult
 **Type**:: Dragon / Ghost
 **Abilities**:: [[SRD-Clear Body|Clear Body]] / [[SRD-Infiltrator|Infiltrator]] ([[SRD-Cursed Body|Cursed Body]])
 **Base HP**:: 5

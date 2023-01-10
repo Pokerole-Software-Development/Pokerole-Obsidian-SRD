@@ -1,7 +1,6 @@
 ---
 Ability1: Natural Cure
 Ability2: Frisk
-Baby: 'No'
 BookSprite: SRD-phantump-BookSprite.png
 BoxSprite: SRD-phantump-BoxSprite.png
 DexCategory: Stump Pokemon
@@ -14,25 +13,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Trevenant]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Harvest
 HomeSprite: SRD-phantump-HomeSprite.png
+Image: phantump.png
 Learnset: '[[SRD-Phantump-Learnset]]'
 Legendary: 'No'
-Name: Phantump
 Number: 708
-PrimaryEggGroup: Grass
-SecondaryEggGroup: Amorphous
 ShuffleToken: SRD-phantump-ShuffleToken.png
-Sprite: phantump.png
 Type1: Ghost
 Type2: Grass
 Weight:
-  Hectograms: 70
   Kilograms: 7.0
   Pounds: 15.4
 ---
@@ -52,7 +45,7 @@ Weight:
 *According to the old tales, these Pokemon are stumps possessed by the spirits of children who were lost in the forest. They prefer to live in abandoned woods and lure people to the darkness to play with them.*
 
 **DexID**:: 0708
-**Species**:: Phantump
+**Name**:: Phantump
 **Type**:: Ghost / Grass
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]] / [[SRD-Frisk|Frisk]] ([[SRD-Harvest|Harvest]])
 **Base HP**:: 3

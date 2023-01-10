@@ -1,5 +1,4 @@
 ---
-DexID: '0340'
 Moves:
 - - Starter
   - '[[SRD-Mud Slap|Mud Slap]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Spark|Spark]]'
 Name: Whiscash
-Species: '[[SRD-Whiscash|Whiscash]]'
+Pokedex: '[[SRD-Whiscash|Whiscash]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

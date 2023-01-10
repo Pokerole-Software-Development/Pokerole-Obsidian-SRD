@@ -1,7 +1,6 @@
 ---
 Ability1: Run Away
 Ability2: Guts
-Baby: 'No'
 BookSprite: SRD-rattata-BookSprite.png
 BoxSprite: SRD-rattata-BoxSprite.png
 DexCategory: Mouse Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Raticate]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Hustle
 HomeSprite: SRD-rattata-HomeSprite.png
+Image: rattata.png
 Learnset: '[[SRD-Rattata-Learnset]]'
 Legendary: 'No'
-Name: Rattata
 Number: 19
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-rattata-ShuffleToken.png
-Sprite: rattata.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 35
   Kilograms: 3.5
   Pounds: 7.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *It can live anywhere it can find food, but they are often in cities and fields. They form large families in their burrows. Since they are often preyed on, Rattatas are always alert and quick to flee.*
 
 **DexID**:: 0019
-**Species**:: Rattata
+**Name**:: Rattata
 **Type**:: Normal
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Guts|Guts]] ([[SRD-Hustle|Hustle]])
 **Base HP**:: 3

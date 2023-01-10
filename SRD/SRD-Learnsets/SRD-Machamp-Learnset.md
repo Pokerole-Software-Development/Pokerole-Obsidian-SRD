@@ -1,5 +1,4 @@
 ---
-DexID: 0068
 Moves:
 - - Starter
   - '[[SRD-Low Kick|Low Kick]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Close Combat|Close Combat]]'
 Name: Machamp
-Species: '[[SRD-Machamp|Machamp]]'
+Pokedex: '[[SRD-Machamp|Machamp]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

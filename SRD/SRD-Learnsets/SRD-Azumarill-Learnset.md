@@ -1,5 +1,4 @@
 ---
-DexID: 0184
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Ice Punch|Ice Punch]]'
 Name: Azumarill
-Species: '[[SRD-Azumarill|Azumarill]]'
+Pokedex: '[[SRD-Azumarill|Azumarill]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

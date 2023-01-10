@@ -1,5 +1,4 @@
 ---
-DexID: '0466'
 Moves:
 - - Starter
   - '[[SRD-Quick Attack|Quick Attack]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Dual Chop|Dual Chop]]'
 Name: Electivire
-Species: '[[SRD-Electivire|Electivire]]'
+Pokedex: '[[SRD-Electivire|Electivire]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Rock Head
 Ability2: Sturdy
-Baby: 'No'
 BookSprite: SRD-steelix-BookSprite.png
 BoxSprite: SRD-steelix-BoxSprite.png
 DexCategory: Iron Snake Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Steelixite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Steelix]]'
+  Pokemon: '[[SRD-Steelix (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 92
   Feet: 30.2
   Meters: 9.2
 HiddenAbility: Sheer Force
 HomeSprite: SRD-steelix-HomeSprite.png
+Image: steelix.png
 Learnset: '[[SRD-Steelix-Learnset]]'
 Legendary: 'No'
-Name: Steelix
 Number: 208
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-steelix-ShuffleToken.png
-Sprite: steelix.png
 Type1: Steel
 Type2: Ground
 Weight:
-  Hectograms: 4000
   Kilograms: 400.0
   Pounds: 881.8
 ---
@@ -57,7 +50,7 @@ Weight:
 *Some say that when an Onix lives underground for 100 years it’s body becomes hard as steel. Steelix lives deep underground, tempered by high pressure and heat. It can see in the darkness.*
 
 **DexID**:: 0208
-**Species**:: Steelix
+**Name**:: Steelix
 **Type**:: Steel / Ground
 **Abilities**:: [[SRD-Rock Head|Rock Head]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 9
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-| Evolves   | Pokemon              | Kind   | Item       |
-|:----------|:---------------------|:-------|:-----------|
-| From      | [[SRD-Onix]]         | Trade  | Metal Coat |
-| To        | [[SRD-Mega-Steelix]] | Mega   | Steelixite |
+| Evolves   | Pokemon                     | Kind   | Item       |
+|:----------|:----------------------------|:-------|:-----------|
+| From      | [[SRD-Onix]]                | Trade  | Metal Coat |
+| To        | [[SRD-Steelix (Mega Form)]] | Mega   | Steelixite |
 
 ![[SRD-Steelix-Learnset]]

@@ -1,5 +1,4 @@
 ---
-DexID: 0868
 Moves:
 - - Starter
   - '[[SRD-Astonish|Astonish]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Stealth Rock|Stealth Rock]]'
 Name: Runerigus
-Species: '[[SRD-Runerigus|Runerigus]]'
+Pokedex: '[[SRD-Runerigus|Runerigus]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

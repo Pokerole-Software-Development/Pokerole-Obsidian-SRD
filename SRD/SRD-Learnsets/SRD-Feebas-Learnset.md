@@ -1,5 +1,4 @@
 ---
-DexID: 0349
 Moves:
 - - Starter
   - '[[SRD-Splash|Splash]]'
@@ -20,14 +19,14 @@ Moves:
 - - Pro
   - '[[SRD-Dive|Dive]]'
 Name: Feebas
-Species: '[[SRD-Feebas|Feebas]]'
+Pokedex: '[[SRD-Feebas|Feebas]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

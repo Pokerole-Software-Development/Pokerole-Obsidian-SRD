@@ -1,5 +1,4 @@
 ---
-DexID: '0342'
 Moves:
 - - Starter
   - '[[SRD-Bubble|Bubble]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Mud Sport|Mud Sport]]'
 Name: Crawdaunt
-Species: '[[SRD-Crawdaunt|Crawdaunt]]'
+Pokedex: '[[SRD-Crawdaunt|Crawdaunt]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

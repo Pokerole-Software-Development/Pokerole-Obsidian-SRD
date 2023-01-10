@@ -1,7 +1,6 @@
 ---
 Ability1: Pure Power
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-medicham-BookSprite.png
 BoxSprite: SRD-medicham-BoxSprite.png
 DexCategory: Meditate Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Medichamite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Medicham]]'
+  Pokemon: '[[SRD-Medicham (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Telepathy
 HomeSprite: SRD-medicham-HomeSprite.png
+Image: medicham.png
 Learnset: '[[SRD-Medicham-Learnset]]'
 Legendary: 'No'
-Name: Medicham
 Number: 308
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-medicham-ShuffleToken.png
-Sprite: medicham.png
 Type1: Fighting
 Type2: Psychic
 Weight:
-  Hectograms: 315
   Kilograms: 31.5
   Pounds: 69.4
 ---
@@ -57,7 +50,7 @@ Weight:
 *They are thought to posses a sixth sense. Some of them can hide their presence by lowering their ki. Medichams fight with expert yoga moves, foretelling their foe’s attacks and sensing their thoughts.*
 
 **DexID**:: 0308
-**Species**:: Medicham
+**Name**:: Medicham
 **Type**:: Fighting / Psychic
 **Abilities**:: [[SRD-Pure Power|Pure Power]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 4
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon               | Kind   | Speed   | Item        |
-|:----------|:----------------------|:-------|:--------|:------------|
-| From      | [[SRD-Meditite]]      | Level  | Medium  |             |
-| To        | [[SRD-Mega-Medicham]] | Mega   |         | Medichamite |
+| Evolves   | Pokemon                      | Kind   | Speed   | Item        |
+|:----------|:-----------------------------|:-------|:--------|:------------|
+| From      | [[SRD-Meditite]]             | Level  | Medium  |             |
+| To        | [[SRD-Medicham (Mega Form)]] | Mega   |         | Medichamite |
 
 ![[SRD-Medicham-Learnset]]

@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-inteleon-BookSprite.png
 BoxSprite: SRD-inteleon-BoxSprite.png
 DexCategory: Secret Agent Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Drizzile]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 19
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Sniper
 HomeSprite: SRD-inteleon-HomeSprite.png
+Image: inteleon.png
 Learnset: '[[SRD-Inteleon-Learnset]]'
 Legendary: 'No'
-Name: Inteleon
 Number: 818
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Field
 ShuffleToken: SRD-inteleon-ShuffleToken.png
-Sprite: inteleon.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 452
   Kilograms: 45.2
   Pounds: 99.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *Its fingertips can create quick jets of water that travel at incredibly high speeds, these jets can even pierce thick metal plates. It usually hunts from a high place, shoots, and then glides down to eat its prey.*
 
 **DexID**:: 0818
-**Species**:: Inteleon
+**Name**:: Inteleon
 **Type**:: Water
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Sniper|Sniper]])
 **Base HP**:: 5

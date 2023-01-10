@@ -1,7 +1,6 @@
 ---
 Ability1: Prankster
 Ability2: Infiltrator
-Baby: 'No'
 BookSprite: SRD-cottonee-BookSprite.png
 BoxSprite: SRD-cottonee-BoxSprite.png
 DexCategory: Cotton Puff Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Whimsicott]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-cottonee-HomeSprite.png
+Image: cottonee.png
 Learnset: '[[SRD-Cottonee-Learnset]]'
 Legendary: 'No'
-Name: Cottonee
 Number: 546
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-cottonee-ShuffleToken.png
-Sprite: cottonee.png
 Type1: Grass
 Type2: Fairy
 Weight:
-  Hectograms: 6
   Kilograms: 0.6
   Pounds: 1.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *They go wherever the wind takes them. On rainy days they can’t float, so they take shelter beneath big trees. To defend from predators they shed their cotton and leave it as a decoy while they escape.*
 
 **DexID**:: 0546
-**Species**:: Cottonee
+**Name**:: Cottonee
 **Type**:: Grass / Fairy
 **Abilities**:: [[SRD-Prankster|Prankster]] / [[SRD-Infiltrator|Infiltrator]] ([[SRD-Chlorophyll|Chlorophyll]])
 **Base HP**:: 3

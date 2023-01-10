@@ -1,5 +1,4 @@
 ---
-DexID: '0653'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Braixen
-Species: '[[SRD-Braixen|Braixen]]'
+Pokedex: '[[SRD-Braixen|Braixen]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

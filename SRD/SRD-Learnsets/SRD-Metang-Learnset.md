@@ -1,5 +1,4 @@
 ---
-DexID: '0375'
 Moves:
 - - Starter
   - '[[SRD-Take Down|Take Down]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Self Destruct|Self Destruct]]'
 Name: Metang
-Species: '[[SRD-Metang|Metang]]'
+Pokedex: '[[SRD-Metang|Metang]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

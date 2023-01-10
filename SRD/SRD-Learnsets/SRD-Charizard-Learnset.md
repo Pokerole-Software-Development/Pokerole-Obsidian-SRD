@@ -1,5 +1,4 @@
 ---
-DexID: '0006'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Blast Burn|Blast Burn]]'
 Name: Charizard
-Species: '[[SRD-Charizard|Charizard]]'
+Pokedex: '[[SRD-Charizard|Charizard]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

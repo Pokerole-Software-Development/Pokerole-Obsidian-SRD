@@ -1,7 +1,6 @@
 ---
 Ability1: Strong Jaw
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-boltund-BookSprite.png
 BoxSprite: SRD-boltund-BoxSprite.png
 DexCategory: Dog Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Yamper]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Competitive
 HomeSprite: SRD-boltund-HomeSprite.png
+Image: boltund.png
 Learnset: '[[SRD-Boltund-Learnset]]'
 Legendary: 'No'
-Name: Boltund
 Number: 836
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-boltund-ShuffleToken.png
-Sprite: boltund.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 340
   Kilograms: 34.0
   Pounds: 75.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *It sends electricity through its legs to boost their speed, it easily breaks 50 mph. They get destructive and stressed if you do not take them out to run daily, otherwise they are chill and easygoing Pokemon.*
 
 **DexID**:: 0836
-**Species**:: Boltund
+**Name**:: Boltund
 **Type**:: Electric
 **Abilities**:: [[SRD-Strong Jaw|Strong Jaw]] ([[SRD-Competitive|Competitive]])
 **Base HP**:: 4

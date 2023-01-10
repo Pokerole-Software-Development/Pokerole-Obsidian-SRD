@@ -1,5 +1,4 @@
 ---
-DexID: 0495
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Twister|Twister]]'
 Name: Snivy
-Species: '[[SRD-Snivy|Snivy]]'
+Pokedex: '[[SRD-Snivy|Snivy]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0073'
 Moves:
 - - Starter
   - '[[SRD-Poison Sting|Poison Sting]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Ring|Aqua Ring]]'
 Name: Tentacruel
-Species: '[[SRD-Tentacruel|Tentacruel]]'
+Pokedex: '[[SRD-Tentacruel|Tentacruel]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

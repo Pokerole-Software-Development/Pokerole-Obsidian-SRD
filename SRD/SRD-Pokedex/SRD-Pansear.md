@@ -1,7 +1,6 @@
 ---
 Ability1: Gluttony
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-pansear-BookSprite.png
 BoxSprite: SRD-pansear-BoxSprite.png
 DexCategory: High Temp Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Simisear]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Blaze
 HomeSprite: SRD-pansear-HomeSprite.png
+Image: pansear.png
 Learnset: '[[SRD-Pansear-Learnset]]'
 Legendary: 'No'
-Name: Pansear
 Number: 513
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-pansear-ShuffleToken.png
-Sprite: pansear.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 110
   Kilograms: 11.0
   Pounds: 24.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lives close to volcanic mountains. It’s very intelligent, it roasts berries before eating them and helps lost people. When angered the tuft of hair on it’s head and tail can burst into flames.*
 
 **DexID**:: 0513
-**Species**:: Pansear
+**Name**:: Pansear
 **Type**:: Fire
 **Abilities**:: [[SRD-Gluttony|Gluttony]] ([[SRD-Blaze|Blaze]])
 **Base HP**:: 3

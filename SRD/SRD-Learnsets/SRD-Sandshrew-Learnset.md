@@ -1,5 +1,4 @@
 ---
-DexID: '0027'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Metal Claw|Metal Claw]]'
 Name: Sandshrew
-Species: '[[SRD-Sandshrew|Sandshrew]]'
+Pokedex: '[[SRD-Sandshrew|Sandshrew]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

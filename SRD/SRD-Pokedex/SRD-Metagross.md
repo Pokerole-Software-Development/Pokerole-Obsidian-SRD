@@ -1,7 +1,6 @@
 ---
 Ability1: Clear Body
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-metagross-BookSprite.png
 BoxSprite: SRD-metagross-BoxSprite.png
 DexCategory: Iron Leg Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Metagrossite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Metagross]]'
+  Pokemon: '[[SRD-Metagross (Mega Form)]]'
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Light Metal
 HomeSprite: SRD-metagross-HomeSprite.png
+Image: metagross.png
 Learnset: '[[SRD-Metagross-Learnset]]'
 Legendary: 'No'
-Name: Metagross
 Number: 376
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-metagross-ShuffleToken.png
-Sprite: metagross.png
 Type1: Steel
 Type2: Psychic
 Weight:
-  Hectograms: 5500
   Kilograms: 550.0
   Pounds: 1212.5
 ---
@@ -57,7 +50,7 @@ Weight:
 *It has four powerful brains that allow it to react at the speed of a super computer. It pins its prey under its massive body, then eats it using the large mouth on its stomach. A powerful and ruthless Pokemon.*
 
 **DexID**:: 0376
-**Species**:: Metagross
+**Name**:: Metagross
 **Type**:: Steel / Psychic
 **Abilities**:: [[SRD-Clear Body|Clear Body]] ([[SRD-Light Metal|Light Metal]])
 **Base HP**:: 5
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-| Evolves   | Pokemon                | Kind   | Speed   | Item         |
-|:----------|:-----------------------|:-------|:--------|:-------------|
-| From      | [[SRD-Metang]]         | Level  | Slow    |              |
-| To        | [[SRD-Mega-Metagross]] | Mega   |         | Metagrossite |
+| Evolves   | Pokemon                       | Kind   | Speed   | Item         |
+|:----------|:------------------------------|:-------|:--------|:-------------|
+| From      | [[SRD-Metang]]                | Level  | Slow    |              |
+| To        | [[SRD-Metagross (Mega Form)]] | Mega   |         | Metagrossite |
 
 ![[SRD-Metagross-Learnset]]

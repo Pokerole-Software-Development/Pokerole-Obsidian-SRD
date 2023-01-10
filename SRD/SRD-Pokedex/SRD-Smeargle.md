@@ -1,7 +1,6 @@
 ---
 Ability1: Own Tempo
 Ability2: Technician
-Baby: 'No'
 BookSprite: SRD-smeargle-BookSprite.png
 BoxSprite: SRD-smeargle-BoxSprite.png
 DexCategory: Painter Pokemon
@@ -11,25 +10,19 @@ DexDescription: A special ink oozes from its tail to mark its territory. They ar
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Moody
 HomeSprite: SRD-smeargle-HomeSprite.png
+Image: smeargle.png
 Learnset: '[[SRD-Smeargle-Learnset]]'
 Legendary: 'No'
-Name: Smeargle
 Number: 235
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-smeargle-ShuffleToken.png
-Sprite: smeargle.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 580
   Kilograms: 58.0
   Pounds: 127.9
 ---
@@ -49,7 +42,7 @@ Weight:
 *A special ink oozes from its tail to mark its territory. They are skilled artists, known for painting action scenes from great battles. If they study their painting for a long time, they learn those moves.*
 
 **DexID**:: 0235
-**Species**:: Smeargle
+**Name**:: Smeargle
 **Type**:: Normal
 **Abilities**:: [[SRD-Own Tempo|Own Tempo]] / [[SRD-Technician|Technician]] ([[SRD-Moody|Moody]])
 **Base HP**:: 4

@@ -1,5 +1,4 @@
 ---
-DexID: 0038
 Moves:
 - - Amateur
   - '[[SRD-Imprison|Imprison]]'
@@ -24,14 +23,14 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Ninetales
-Species: '[[SRD-Ninetales|Ninetales]]'
+Pokedex: '[[SRD-Ninetales|Ninetales]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

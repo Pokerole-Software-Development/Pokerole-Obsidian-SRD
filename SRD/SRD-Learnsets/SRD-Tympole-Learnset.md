@@ -1,5 +1,4 @@
 ---
-DexID: '0535'
 Moves:
 - - Starter
   - '[[SRD-Bubble|Bubble]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Icy Wind|Icy Wind]]'
 Name: Tympole
-Species: '[[SRD-Tympole|Tympole]]'
+Pokedex: '[[SRD-Tympole|Tympole]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

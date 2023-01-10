@@ -1,7 +1,6 @@
 ---
 Ability1: Thick Fat
 Ability2: Own Tempo
-Baby: 'No'
 BookSprite: SRD-spoink-BookSprite.png
 BoxSprite: SRD-spoink-BoxSprite.png
 DexCategory: Bounce Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Grumpig]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Gluttony
 HomeSprite: SRD-spoink-HomeSprite.png
+Image: spoink.png
 Learnset: '[[SRD-Spoink-Learnset]]'
 Legendary: 'No'
-Name: Spoink
 Number: 325
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-spoink-ShuffleToken.png
-Sprite: spoink.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 306
   Kilograms: 30.6
   Pounds: 67.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are always bouncing with their tail. If they ever stop, their heart wouldn’t beat anymore. Spoinks balance a pearl from Clamperl on their head, if it’s lost, they won’t be able to control their psychic powers.*
 
 **DexID**:: 0325
-**Species**:: Spoink
+**Name**:: Spoink
 **Type**:: Psychic
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 3

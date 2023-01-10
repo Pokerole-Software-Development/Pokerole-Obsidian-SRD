@@ -1,5 +1,4 @@
 ---
-DexID: '0325'
 Moves:
 - - Starter
   - '[[SRD-Splash|Splash]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Extrasensory|Extrasensory]]'
 Name: Spoink
-Species: '[[SRD-Spoink|Spoink]]'
+Pokedex: '[[SRD-Spoink|Spoink]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

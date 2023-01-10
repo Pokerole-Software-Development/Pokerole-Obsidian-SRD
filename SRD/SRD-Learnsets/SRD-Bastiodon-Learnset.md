@@ -1,5 +1,4 @@
 ---
-DexID: '0411'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Fissure|Fissure]]'
 Name: Bastiodon
-Species: '[[SRD-Bastiodon|Bastiodon]]'
+Pokedex: '[[SRD-Bastiodon|Bastiodon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

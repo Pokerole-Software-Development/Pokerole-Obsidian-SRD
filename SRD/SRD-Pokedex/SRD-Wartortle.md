@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-wartortle-BookSprite.png
 BoxSprite: SRD-wartortle-BoxSprite.png
 DexCategory: Turtle Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Blastoise]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Rain Dish
 HomeSprite: SRD-wartortle-HomeSprite.png
+Image: wartortle.png
 Learnset: '[[SRD-Wartortle-Learnset]]'
 Legendary: 'No'
-Name: Wartortle
 Number: 8
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Water 1
 ShuffleToken: SRD-wartortle-ShuffleToken.png
-Sprite: wartortle.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 225
   Kilograms: 22.5
   Pounds: 49.6
 ---
@@ -57,7 +50,7 @@ Weight:
 *Its large tail is covered with rich, thick fur that deepens in color with age. The scratches on its shell are evidence of this Pokemon’s tough attitude in battle. It is a good hunter underwater.*
 
 **DexID**:: 0008
-**Species**:: Wartortle
+**Name**:: Wartortle
 **Type**:: Water
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Rain Dish|Rain Dish]])
 **Base HP**:: 4

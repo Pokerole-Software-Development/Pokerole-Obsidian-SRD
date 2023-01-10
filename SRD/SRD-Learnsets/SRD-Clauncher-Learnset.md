@@ -1,5 +1,4 @@
 ---
-DexID: 0691
 Moves:
 - - Starter
   - '[[SRD-Splash|Splash]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Clauncher
-Species: '[[SRD-Clauncher|Clauncher]]'
+Pokedex: '[[SRD-Clauncher|Clauncher]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0874
 Moves:
 - - Starter
   - '[[SRD-Powder Snow|Powder Snow]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Hurricane|Hurricane]]'
 Name: Frosmoth
-Species: '[[SRD-Frosmoth|Frosmoth]]'
+Pokedex: '[[SRD-Frosmoth|Frosmoth]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

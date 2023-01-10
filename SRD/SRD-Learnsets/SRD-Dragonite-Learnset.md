@@ -1,5 +1,4 @@
 ---
-DexID: 0149
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Dragonite
-Species: '[[SRD-Dragonite|Dragonite]]'
+Pokedex: '[[SRD-Dragonite|Dragonite]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

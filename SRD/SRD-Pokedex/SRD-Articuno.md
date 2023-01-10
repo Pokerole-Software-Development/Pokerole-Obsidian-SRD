@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-articuno-BookSprite.png
 BoxSprite: SRD-articuno-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: Rumor has it that one appeared during a blizzard in front of two
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 17
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Snow Cloak
 HomeSprite: SRD-articuno-HomeSprite.png
+Image: articuno.png
 Learnset: '[[SRD-Articuno-Learnset]]'
 Legendary: 'Yes'
-Name: Articuno
 Number: 144
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-articuno-ShuffleToken.png
-Sprite: articuno.png
 Type1: Ice
 Type2: Flying
 Weight:
-  Hectograms: 554
   Kilograms: 55.4
   Pounds: 122.1
 ---
@@ -49,7 +42,7 @@ Weight:
 *Rumor has it that one appeared during a blizzard in front of two lost hikers who followed its glistening trail until they found the main road. Others say its silhouette can be seen during raging snow storms.*
 
 **DexID**:: 0144
-**Species**:: Articuno
+**Name**:: Articuno
 **Type**:: Ice / Flying
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Snow Cloak|Snow Cloak]])
 **Base HP**:: 4

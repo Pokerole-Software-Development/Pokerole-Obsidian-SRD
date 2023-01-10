@@ -1,5 +1,4 @@
 ---
-DexID: '0252'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Grass Pledge|Grass Pledge]]'
 Name: Treecko
-Species: '[[SRD-Treecko|Treecko]]'
+Pokedex: '[[SRD-Treecko|Treecko]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

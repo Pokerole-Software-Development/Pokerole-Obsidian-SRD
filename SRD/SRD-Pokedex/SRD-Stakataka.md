@@ -1,7 +1,6 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-stakataka-BookSprite.png
 BoxSprite: SRD-stakataka-BoxSprite.png
 DexCategory: 'Aether Foundation Log #132'
@@ -11,25 +10,19 @@ DexDescription: We are finally on the other side. It has been so exciting. What 
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 55
   Feet: 18.0
   Meters: 5.5
 HiddenAbility: ''
 HomeSprite: SRD-stakataka-HomeSprite.png
+Image: stakataka.png
 Learnset: '[[SRD-Stakataka-Learnset]]'
 Legendary: 'Yes'
-Name: Stakataka
 Number: 805
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-stakataka-ShuffleToken.png
-Sprite: stakataka.png
 Type1: Rock
 Type2: Steel
 Weight:
-  Hectograms: 8200
   Kilograms: 820.0
   Pounds: 1807.8
 ---
@@ -49,7 +42,7 @@ Weight:
 *We are finally on the other side. It has been so exciting. What we thought were the ruins of an abandoned civilization turned out to be small sentient creatures that stacked on each other to create a big UB.*
 
 **DexID**:: 0805
-**Species**:: Stakataka
+**Name**:: Stakataka
 **Type**:: Rock / Steel
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 6

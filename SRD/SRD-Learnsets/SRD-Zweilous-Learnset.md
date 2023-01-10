@@ -1,5 +1,4 @@
 ---
-DexID: '0635'
 Moves:
 - - Starter
   - '[[SRD-Double Hit|Double Hit]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Fang|Fire Fang]]'
 Name: Zweilous
-Species: '[[SRD-Zweilous|Zweilous]]'
+Pokedex: '[[SRD-Zweilous|Zweilous]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

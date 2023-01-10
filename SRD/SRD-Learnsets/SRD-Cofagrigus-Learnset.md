@@ -1,5 +1,4 @@
 ---
-DexID: '0563'
 Moves:
 - - Starter
   - '[[SRD-Astonish|Astonish]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Heal Block|Heal Block]]'
 Name: Cofagrigus
-Species: '[[SRD-Cofagrigus|Cofagrigus]]'
+Pokedex: '[[SRD-Cofagrigus|Cofagrigus]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

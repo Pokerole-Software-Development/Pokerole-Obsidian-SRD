@@ -1,7 +1,6 @@
 ---
 Ability1: Compound Eyes
 Ability2: Unnerve
-Baby: 'No'
 BookSprite: SRD-galvantula-BookSprite.png
 BoxSprite: SRD-galvantula-BoxSprite.png
 DexCategory: EleSpider Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Joltik]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Swarm
 HomeSprite: SRD-galvantula-HomeSprite.png
+Image: galvantula.png
 Learnset: '[[SRD-Galvantula-Learnset]]'
 Legendary: 'No'
-Name: Galvantula
 Number: 596
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-galvantula-ShuffleToken.png
-Sprite: galvantula.png
 Type1: Bug
 Type2: Electric
 Weight:
-  Hectograms: 143
   Kilograms: 14.3
   Pounds: 31.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it. They usually live alone but there have been cases of large swarms living together in caves.*
 
 **DexID**:: 0596
-**Species**:: Galvantula
+**Name**:: Galvantula
 **Type**:: Bug / Electric
 **Abilities**:: [[SRD-Compound Eyes|Compound Eyes]] / [[SRD-Unnerve|Unnerve]] ([[SRD-Swarm|Swarm]])
 **Base HP**:: 4

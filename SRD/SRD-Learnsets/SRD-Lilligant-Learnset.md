@@ -1,5 +1,4 @@
 ---
-DexID: 0549
 Moves:
 - - Starter
   - '[[SRD-Growth|Growth]]'
@@ -32,14 +31,14 @@ Moves:
 - - Pro
   - '[[SRD-Ingrain|Ingrain]]'
 Name: Lilligant
-Species: '[[SRD-Lilligant|Lilligant]]'
+Pokedex: '[[SRD-Lilligant|Lilligant]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

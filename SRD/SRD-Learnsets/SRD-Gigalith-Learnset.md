@@ -1,5 +1,4 @@
 ---
-DexID: '0526'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Gigalith
-Species: '[[SRD-Gigalith|Gigalith]]'
+Pokedex: '[[SRD-Gigalith|Gigalith]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

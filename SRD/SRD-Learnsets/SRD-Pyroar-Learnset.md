@@ -1,5 +1,4 @@
 ---
-DexID: 0669
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Endeavor|Endeavor]]'
 Name: Pyroar
-Species: '[[SRD-Pyroar|Pyroar]]'
+Pokedex: '[[SRD-Pyroar|Pyroar]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

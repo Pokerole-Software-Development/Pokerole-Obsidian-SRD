@@ -1,7 +1,6 @@
 ---
 Ability1: Gluttony
 Ability2: Flash Fire
-Baby: 'No'
 BookSprite: SRD-heatmor-BookSprite.png
 BoxSprite: SRD-heatmor-BoxSprite.png
 DexCategory: Anteater Pokemon
@@ -11,25 +10,19 @@ DexDescription: "It draws in air through its tail, then transforms it into fire 
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: White Smoke
 HomeSprite: SRD-heatmor-HomeSprite.png
+Image: heatmor.png
 Learnset: '[[SRD-Heatmor-Learnset]]'
 Legendary: 'No'
-Name: Heatmor
 Number: 631
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-heatmor-ShuffleToken.png
-Sprite: heatmor.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 580
   Kilograms: 58.0
   Pounds: 127.9
 ---
@@ -49,7 +42,7 @@ Weight:
 *It draws in air through its tail, then transforms it into fire and uses it like a tongue. You can see them defending Durant’s colonies from predators so they can be the only ones who can eat them.*
 
 **DexID**:: 0631
-**Species**:: Heatmor
+**Name**:: Heatmor
 **Type**:: Fire
 **Abilities**:: [[SRD-Gluttony|Gluttony]] / [[SRD-Flash Fire|Flash Fire]] ([[SRD-White Smoke|White Smoke]])
 **Base HP**:: 4

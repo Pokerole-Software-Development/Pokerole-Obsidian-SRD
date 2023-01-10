@@ -1,7 +1,6 @@
 ---
 Ability1: Illuminate
 Ability2: Natural Cure
-Baby: 'No'
 BookSprite: SRD-staryu-BookSprite.png
 BoxSprite: SRD-staryu-BoxSprite.png
 DexCategory: Starshape Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Starmie]]'
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Analytic
 HomeSprite: SRD-staryu-HomeSprite.png
+Image: staryu.png
 Learnset: '[[SRD-Staryu-Learnset]]'
 Legendary: 'No'
-Name: Staryu
 Number: 120
-PrimaryEggGroup: Water 3
-SecondaryEggGroup: ''
 ShuffleToken: SRD-staryu-ShuffleToken.png
-Sprite: staryu.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 345
   Kilograms: 34.5
   Pounds: 76.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *They come out to the shore in great numbers when the sky is full with stars. The core at its center glows to communicate with others. If a part of its body is injured it can regrow it in a few days.*
 
 **DexID**:: 0120
-**Species**:: Staryu
+**Name**:: Staryu
 **Type**:: Water
 **Abilities**:: [[SRD-Illuminate|Illuminate]] / [[SRD-Natural Cure|Natural Cure]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 3

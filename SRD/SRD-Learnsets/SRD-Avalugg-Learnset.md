@@ -1,5 +1,4 @@
 ---
-DexID: '0714'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Head|Iron Head]]'
 Name: Avalugg
-Species: '[[SRD-Avalugg|Avalugg]]'
+Pokedex: '[[SRD-Avalugg|Avalugg]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

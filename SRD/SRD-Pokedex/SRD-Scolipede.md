@@ -1,7 +1,6 @@
 ---
 Ability1: Poison Point
 Ability2: Swarm
-Baby: 'No'
 BookSprite: SRD-scolipede-BookSprite.png
 BoxSprite: SRD-scolipede-BoxSprite.png
 DexCategory: Megapede Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Whirlipede]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 25
   Feet: 8.2
   Meters: 2.5
 HiddenAbility: Speed Boost
 HomeSprite: SRD-scolipede-HomeSprite.png
+Image: scolipede.png
 Learnset: '[[SRD-Scolipede-Learnset]]'
 Legendary: 'No'
-Name: Scolipede
 Number: 545
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-scolipede-ShuffleToken.png
-Sprite: scolipede.png
 Type1: Bug
 Type2: Poison
 Weight:
-  Hectograms: 2005
   Kilograms: 200.5
   Pounds: 442.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *Highly aggressive, it uses the claws on its neck to immobilize its prey and then inject them with poison to finish them off. Be very careful around this Pokemon as it will chase you relentlessly until it gets you.*
 
 **DexID**:: 0545
-**Species**:: Scolipede
+**Name**:: Scolipede
 **Type**:: Bug / Poison
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Swarm|Swarm]] ([[SRD-Speed Boost|Speed Boost]])
 **Base HP**:: 8

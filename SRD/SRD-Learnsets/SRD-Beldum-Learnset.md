@@ -1,5 +1,4 @@
 ---
-DexID: '0374'
 Moves:
 - - Starter
   - '[[SRD-Take Down|Take Down]]'
@@ -12,14 +11,14 @@ Moves:
 - - Pro
   - '[[SRD-Headbutt|Headbutt]]'
 Name: Beldum
-Species: '[[SRD-Beldum|Beldum]]'
+Pokedex: '[[SRD-Beldum|Beldum]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

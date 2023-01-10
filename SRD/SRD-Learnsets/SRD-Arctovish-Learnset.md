@@ -1,5 +1,4 @@
 ---
-DexID: 0884
 Moves:
 - - Starter
   - '[[SRD-Powder Snow|Powder Snow]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Psychic Fangs|Psychic Fangs]]'
 Name: Arctovish
-Species: '[[SRD-Arctovish|Arctovish]]'
+Pokedex: '[[SRD-Arctovish|Arctovish]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0605'
 Moves:
 - - Starter
   - '[[SRD-Confusion|Confusion]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Teleport|Teleport]]'
 Name: Beheeyem
-Species: '[[SRD-Beheeyem|Beheeyem]]'
+Pokedex: '[[SRD-Beheeyem|Beheeyem]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

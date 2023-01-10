@@ -1,5 +1,4 @@
 ---
-DexID: '0163'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Feather Dance|Feather Dance]]'
 Name: Hoothoot
-Species: '[[SRD-Hoothoot|Hoothoot]]'
+Pokedex: '[[SRD-Hoothoot|Hoothoot]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

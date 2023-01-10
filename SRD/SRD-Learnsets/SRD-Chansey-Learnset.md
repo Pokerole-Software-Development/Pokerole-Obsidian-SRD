@@ -1,5 +1,4 @@
 ---
-DexID: '0113'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Present|Present]]'
 Name: Chansey
-Species: '[[SRD-Chansey|Chansey]]'
+Pokedex: '[[SRD-Chansey|Chansey]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

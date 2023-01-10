@@ -1,5 +1,4 @@
 ---
-DexID: 0581
 Moves:
 - - Starter
   - '[[SRD-Water Gun|Water Gun]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Mirror Move|Mirror Move]]'
 Name: Swanna
-Species: '[[SRD-Swanna|Swanna]]'
+Pokedex: '[[SRD-Swanna|Swanna]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

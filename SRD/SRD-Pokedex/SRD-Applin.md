@@ -1,7 +1,6 @@
 ---
 Ability1: Ripen
 Ability2: Gluttony
-Baby: 'No'
 BookSprite: SRD-applin-BookSprite.png
 BoxSprite: SRD-applin-BoxSprite.png
 DexCategory: Apple Core Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Item
   Pokemon: '[[SRD-Flapple]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Bulletproof
 HomeSprite: SRD-applin-HomeSprite.png
+Image: applin.png
 Learnset: '[[SRD-Applin-Learnset]]'
 Legendary: 'No'
-Name: Applin
 Number: 840
-PrimaryEggGroup: Grass
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-applin-ShuffleToken.png
-Sprite: applin.png
 Type1: Grass
 Type2: Dragon
 Weight:
-  Hectograms: 5
   Kilograms: 0.5
   Pounds: 1.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *As soon as it’s born this tiny lizard Pokemon, it burrows into an apple to protect itself from birds and predators. The apple serves as its food source and the flavor of it will determine its evolution.*
 
 **DexID**:: 0840
-**Species**:: Applin
+**Name**:: Applin
 **Type**:: Grass / Dragon
 **Abilities**:: [[SRD-Ripen|Ripen]] / [[SRD-Gluttony|Gluttony]] ([[SRD-Bulletproof|Bulletproof]])
 **Base HP**:: 3

@@ -1,5 +1,4 @@
 ---
-DexID: '0715'
 Moves:
 - - Master
   - '[[SRD-Heal Pulse|Heal Pulse]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Endeavor|Endeavor]]'
 Name: Xerneas
-Species: '[[SRD-Xerneas|Xerneas]]'
+Pokedex: '[[SRD-Xerneas|Xerneas]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

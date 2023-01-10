@@ -1,5 +1,4 @@
 ---
-DexID: '0544'
 Moves:
 - - Starter
   - '[[SRD-Defense Curl|Defense Curl]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Pin Missile|Pin Missile]]'
 Name: Whirlipede
-Species: '[[SRD-Whirlipede|Whirlipede]]'
+Pokedex: '[[SRD-Whirlipede|Whirlipede]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

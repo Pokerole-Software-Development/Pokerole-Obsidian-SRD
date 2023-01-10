@@ -1,7 +1,6 @@
 ---
 Ability1: Weak Armor
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-polteageist-BookSprite.png
 BoxSprite: SRD-polteageist-BoxSprite.png
 DexCategory: Black Tea Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Item
   Pokemon: '[[SRD-Sinistea]]'
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Cursed Body
 HomeSprite: SRD-polteageist-HomeSprite.png
+Image: polteageist.png
 Learnset: '[[SRD-Polteageist-Learnset]]'
 Legendary: 'No'
-Name: Polteageist
 Number: 855
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: Amorphous
 ShuffleToken: SRD-polteageist-ShuffleToken.png
-Sprite: polteageist.png
 Type1: Ghost
 Type2: ''
 Weight:
-  Hectograms: 4
   Kilograms: 0.4
   Pounds: 0.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *This species lives in old ceramic teapots. They struggle to find real antiques, for most tea sets nowadays are just imitations. Never leave your tea unattended or a Poltegeist might come to haunt it.*
 
 **DexID**:: 0855
-**Species**:: Polteageist
+**Name**:: Polteageist
 **Type**:: Ghost
 **Abilities**:: [[SRD-Weak Armor|Weak Armor]] ([[SRD-Cursed Body|Cursed Body]])
 **Base HP**:: 4

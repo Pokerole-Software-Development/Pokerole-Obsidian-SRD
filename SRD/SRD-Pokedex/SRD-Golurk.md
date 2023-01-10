@@ -1,7 +1,6 @@
 ---
 Ability1: Iron Fist
 Ability2: Klutz
-Baby: 'No'
 BookSprite: SRD-golurk-BookSprite.png
 BoxSprite: SRD-golurk-BoxSprite.png
 DexCategory: Automaton Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Golett]]'
   Speed: Medium
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 28
   Feet: 9.2
   Meters: 2.8
 HiddenAbility: No Guard
 HomeSprite: SRD-golurk-HomeSprite.png
+Image: golurk.png
 Learnset: '[[SRD-Golurk-Learnset]]'
 Legendary: 'No'
-Name: Golurk
 Number: 623
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-golurk-ShuffleToken.png
-Sprite: golurk.png
 Type1: Ground
 Type2: Ghost
 Weight:
-  Hectograms: 3300
   Kilograms: 330.0
   Pounds: 727.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is said that Golurk were ordered to protect people and Pokemon by the ancient people who created them. There are records of only one still alive found on the ruin, the rest are just statues now.*
 
 **DexID**:: 0623
-**Species**:: Golurk
+**Name**:: Golurk
 **Type**:: Ground / Ghost
 **Abilities**:: [[SRD-Iron Fist|Iron Fist]] / [[SRD-Klutz|Klutz]] ([[SRD-No Guard|No Guard]])
 **Base HP**:: 4

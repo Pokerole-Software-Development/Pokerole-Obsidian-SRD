@@ -1,5 +1,4 @@
 ---
-DexID: '0531'
 Moves:
 - - Starter
   - '[[SRD-Play Nice|Play Nice]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Heal Bell|Heal Bell]]'
 Name: Audino
-Species: '[[SRD-Audino|Audino]]'
+Pokedex: '[[SRD-Audino|Audino]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

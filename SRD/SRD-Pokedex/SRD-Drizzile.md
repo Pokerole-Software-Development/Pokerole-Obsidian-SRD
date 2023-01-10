@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-drizzile-BookSprite.png
 BoxSprite: SRD-drizzile-BoxSprite.png
 DexCategory: Water Lizard Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Inteleon]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Sniper
 HomeSprite: SRD-drizzile-HomeSprite.png
+Image: drizzile.png
 Learnset: '[[SRD-Drizzile-Learnset]]'
 Legendary: 'No'
-Name: Drizzile
 Number: 817
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Field
 ShuffleToken: SRD-drizzile-ShuffleToken.png
-Sprite: drizzile.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 115
   Kilograms: 11.5
   Pounds: 25.4
 ---
@@ -57,7 +50,7 @@ Weight:
 *Its demeanor changes drastically from shy to aloof and lazy. It can create water balloons with the moisture secreted from its paws. It is incredibly intelligent and is known to lay traps for others in the wild.*
 
 **DexID**:: 0817
-**Species**:: Drizzile
+**Name**:: Drizzile
 **Type**:: Water
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Sniper|Sniper]])
 **Base HP**:: 4

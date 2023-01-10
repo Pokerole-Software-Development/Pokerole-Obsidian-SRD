@@ -1,5 +1,4 @@
 ---
-DexID: 0508
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Stoutland
-Species: '[[SRD-Stoutland|Stoutland]]'
+Pokedex: '[[SRD-Stoutland|Stoutland]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

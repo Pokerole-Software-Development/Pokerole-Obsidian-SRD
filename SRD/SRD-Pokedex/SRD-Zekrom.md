@@ -1,7 +1,6 @@
 ---
 Ability1: Teravolt
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-zekrom-BookSprite.png
 BoxSprite: SRD-zekrom-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: An old rock tablet full of ancient symbols tells the story of tw
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 29
   Feet: 9.5
   Meters: 2.9
 HiddenAbility: ''
 HomeSprite: SRD-zekrom-HomeSprite.png
+Image: zekrom.png
 Learnset: '[[SRD-Zekrom-Learnset]]'
 Legendary: 'Yes'
-Name: Zekrom
 Number: 644
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-zekrom-ShuffleToken.png
-Sprite: zekrom.png
 Type1: Dragon
 Type2: Electric
 Weight:
-  Hectograms: 3450
   Kilograms: 345.0
   Pounds: 760.6
 ---
@@ -49,7 +42,7 @@ Weight:
 *An old rock tablet full of ancient symbols tells the story of two brothers. One of them wanted a world of ideals built with the energy of the young. The rest of the stone is broken as if struck by lightning.*
 
 **DexID**:: 0644
-**Species**:: Zekrom
+**Name**:: Zekrom
 **Type**:: Dragon / Electric
 **Abilities**:: [[SRD-Teravolt|Teravolt]]
 **Base HP**:: 5

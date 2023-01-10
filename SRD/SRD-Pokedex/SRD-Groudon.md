@@ -1,7 +1,6 @@
 ---
 Ability1: Drought
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-groudon-BookSprite.png
 BoxSprite: SRD-groudon-BoxSprite.png
 DexCategory: No Data
@@ -12,27 +11,21 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Primal Groudon]]'
+  Pokemon: '[[SRD-Groudon (Primal Form)]]'
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 35
   Feet: 11.5
   Meters: 3.5
 HiddenAbility: ''
 HomeSprite: SRD-groudon-HomeSprite.png
+Image: groudon.png
 Learnset: '[[SRD-Groudon-Learnset]]'
 Legendary: 'Yes'
-Name: Groudon
 Number: 383
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-groudon-ShuffleToken.png
-Sprite: groudon.png
 Type1: Ground
 Type2: ''
 Weight:
-  Hectograms: 9500
   Kilograms: 950.0
   Pounds: 2094.4
 ---
@@ -52,7 +45,7 @@ Weight:
 *Described in mythology as the God creator of lands, mountains, volcanoes and continents. Any water or clouds evaporate in its presence. It is the mortal enemy of Kyogre.*
 
 **DexID**:: 0383
-**Species**:: Groudon
+**Name**:: Groudon
 **Type**:: Ground
 **Abilities**:: [[SRD-Drought|Drought]]
 **Base HP**:: 5
@@ -70,8 +63,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-| Evolves   | Pokemon                | Kind   |
-|:----------|:-----------------------|:-------|
-| To        | [[SRD-Primal Groudon]] | Form   |
+| Evolves   | Pokemon                       | Kind   |
+|:----------|:------------------------------|:-------|
+| To        | [[SRD-Groudon (Primal Form)]] | Form   |
 
 ![[SRD-Groudon-Learnset]]

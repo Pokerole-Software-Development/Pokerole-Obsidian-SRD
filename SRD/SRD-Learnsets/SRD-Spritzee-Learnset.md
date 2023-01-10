@@ -1,5 +1,4 @@
 ---
-DexID: 0681F1
 Moves:
 - - Starter
   - '[[SRD-Sweet Scent|Sweet Scent]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Covet|Covet]]'
 Name: Spritzee
-Species: '[[SRD-Spritzee|Spritzee]]'
+Pokedex: '[[SRD-Spritzee|Spritzee]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

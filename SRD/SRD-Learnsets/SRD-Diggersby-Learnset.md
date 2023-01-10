@@ -1,5 +1,4 @@
 ---
-DexID: '0661'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Punch|Fire Punch]]'
 Name: Diggersby
-Species: '[[SRD-Diggersby|Diggersby]]'
+Pokedex: '[[SRD-Diggersby|Diggersby]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

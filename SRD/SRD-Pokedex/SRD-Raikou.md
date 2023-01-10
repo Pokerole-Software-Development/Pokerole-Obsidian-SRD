@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-raikou-BookSprite.png
 BoxSprite: SRD-raikou-BoxSprite.png
 DexCategory: No Data
@@ -10,25 +9,19 @@ DexDescription: Johto Legends tell about a Pokemon born from lightning, with bar
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 19
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Inner Focus
 HomeSprite: SRD-raikou-HomeSprite.png
+Image: raikou.png
 Learnset: '[[SRD-Raikou-Learnset]]'
 Legendary: 'Yes'
-Name: Raikou
 Number: 243
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-raikou-ShuffleToken.png
-Sprite: raikou.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 1780
   Kilograms: 178.0
   Pounds: 392.4
 ---
@@ -48,7 +41,7 @@ Weight:
 *Johto Legends tell about a Pokemon born from lightning, with barks like crashing thunder, soaring the lands, sending resounding shock-waves as it walks.*
 
 **DexID**:: 0243
-**Species**:: Raikou
+**Name**:: Raikou
 **Type**:: Electric
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 4

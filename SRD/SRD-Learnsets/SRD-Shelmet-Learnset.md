@@ -1,5 +1,4 @@
 ---
-DexID: '0615'
 Moves:
 - - Starter
   - '[[SRD-Leech Life|Leech Life]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Shelmet
-Species: '[[SRD-Shelmet|Shelmet]]'
+Pokedex: '[[SRD-Shelmet|Shelmet]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

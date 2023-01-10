@@ -1,5 +1,4 @@
 ---
-DexID: 0842
 Moves:
 - - Starter
   - '[[SRD-Wrap|Wrap]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Last Resort|Last Resort]]'
 Name: Silicobra
-Species: '[[SRD-Silicobra|Silicobra]]'
+Pokedex: '[[SRD-Silicobra|Silicobra]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

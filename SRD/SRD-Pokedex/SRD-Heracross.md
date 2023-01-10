@@ -1,7 +1,6 @@
 ---
 Ability1: Swarm
 Ability2: Guts
-Baby: 'No'
 BookSprite: SRD-heracross-BookSprite.png
 BoxSprite: SRD-heracross-BoxSprite.png
 DexCategory: Single Horn Pokemon
@@ -13,27 +12,21 @@ Evolutions:
 - Evolves: To
   Item: Heracronite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Heracross]]'
+  Pokemon: '[[SRD-Heracross (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Moxie
 HomeSprite: SRD-heracross-HomeSprite.png
+Image: heracross.png
 Learnset: '[[SRD-Heracross-Learnset]]'
 Legendary: 'No'
-Name: Heracross
 Number: 214
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-heracross-ShuffleToken.png
-Sprite: heracross.png
 Type1: Bug
 Type2: Fighting
 Weight:
-  Hectograms: 540
   Kilograms: 54.0
   Pounds: 119.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *A docile creature that loves honey. They batter down trees with their powerful horn and chase off anyone who gets close to their prized honey. Not many Pokemon dare to mess with it in the wild.*
 
 **DexID**:: 0214
-**Species**:: Heracross
+**Name**:: Heracross
 **Type**:: Bug / Fighting
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Guts|Guts]] ([[SRD-Moxie|Moxie]])
 **Base HP**:: 4
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon                | Kind   | Item        |
-|:----------|:-----------------------|:-------|:------------|
-| To        | [[SRD-Mega-Heracross]] | Mega   | Heracronite |
+| Evolves   | Pokemon                       | Kind   | Item        |
+|:----------|:------------------------------|:-------|:------------|
+| To        | [[SRD-Heracross (Mega Form)]] | Mega   | Heracronite |
 
 ![[SRD-Heracross-Learnset]]

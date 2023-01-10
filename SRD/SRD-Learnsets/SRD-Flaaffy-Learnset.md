@@ -1,5 +1,4 @@
 ---
-DexID: 0180
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Heal Bell|Heal Bell]]'
 Name: Flaaffy
-Species: '[[SRD-Flaaffy|Flaaffy]]'
+Pokedex: '[[SRD-Flaaffy|Flaaffy]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

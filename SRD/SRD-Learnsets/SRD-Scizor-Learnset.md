@@ -1,5 +1,4 @@
 ---
-DexID: '0212'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Scizor
-Species: '[[SRD-Scizor|Scizor]]'
+Pokedex: '[[SRD-Scizor|Scizor]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

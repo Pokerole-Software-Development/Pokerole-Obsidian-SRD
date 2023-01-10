@@ -1,7 +1,6 @@
 ---
 Ability1: Light Metal
 Ability2: Heavy Metal
-Baby: 'No'
 BookSprite: SRD-duraludon-BookSprite.png
 BoxSprite: SRD-duraludon-BoxSprite.png
 DexCategory: Alloy Pokemon
@@ -11,25 +10,19 @@ DexDescription: "Its body resembles a shiny polished metal and it\u2019s both li
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Stalwart
 HomeSprite: SRD-duraludon-HomeSprite.png
+Image: duraludon.png
 Learnset: '[[SRD-Duraludon-Learnset]]'
 Legendary: 'No'
-Name: Duraludon
 Number: 884
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-duraludon-ShuffleToken.png
-Sprite: duraludon.png
 Type1: Steel
 Type2: Dragon
 Weight:
-  Hectograms: 400
   Kilograms: 40.0
   Pounds: 88.2
 ---
@@ -49,7 +42,7 @@ Weight:
 *Its body resembles a shiny polished metal and it’s both lightweight and strong. The only drawback is that it rusts easily. It lives on dry climates and deep inside caves because rain and moisture make it cranky.*
 
 **DexID**:: 0884
-**Species**:: Duraludon
+**Name**:: Duraludon
 **Type**:: Steel / Dragon
 **Abilities**:: [[SRD-Light Metal|Light Metal]] / [[SRD-Heavy Metal|Heavy Metal]] ([[SRD-Stalwart|Stalwart]])
 **Base HP**:: 4

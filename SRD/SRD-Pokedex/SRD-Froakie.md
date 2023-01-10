@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-froakie-BookSprite.png
 BoxSprite: SRD-froakie-BoxSprite.png
 DexCategory: Bubble Frog Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Frogadier]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Protean
 HomeSprite: SRD-froakie-HomeSprite.png
+Image: froakie.png
 Learnset: '[[SRD-Froakie-Learnset]]'
 Legendary: 'No'
-Name: Froakie
 Number: 656
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: ''
 ShuffleToken: SRD-froakie-ShuffleToken.png
-Sprite: froakie.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 70
   Kilograms: 7.0
   Pounds: 15.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *It protects its skin by covering its body in bubble foam. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings. It needs good discipline or it will be bad mannered with others.*
 
 **DexID**:: 0656
-**Species**:: Froakie
+**Name**:: Froakie
 **Type**:: Water
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Protean|Protean]])
 **Base HP**:: 3

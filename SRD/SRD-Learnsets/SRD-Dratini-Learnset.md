@@ -1,5 +1,4 @@
 ---
-DexID: '0147'
 Moves:
 - - Starter
   - '[[SRD-Wrap|Wrap]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Mist|Mist]]'
 Name: Dratini
-Species: '[[SRD-Dratini|Dratini]]'
+Pokedex: '[[SRD-Dratini|Dratini]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

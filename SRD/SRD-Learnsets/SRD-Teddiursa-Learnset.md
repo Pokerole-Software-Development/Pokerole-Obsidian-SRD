@@ -1,5 +1,4 @@
 ---
-DexID: '0216'
 Moves:
 - - Starter
   - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Yawn|Yawn]]'
 Name: Teddiursa
-Species: '[[SRD-Teddiursa|Teddiursa]]'
+Pokedex: '[[SRD-Teddiursa|Teddiursa]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Sand Veil
 Ability2: Arena Trap
-Baby: 'No'
 BookSprite: SRD-dugtrio-BookSprite.png
 BoxSprite: SRD-dugtrio-BoxSprite.png
 DexCategory: Mole Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Diglett]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Sand Force
 HomeSprite: SRD-dugtrio-HomeSprite.png
+Image: dugtrio.png
 Learnset: '[[SRD-Dugtrio-Learnset]]'
 Legendary: 'No'
-Name: Dugtrio
 Number: 51
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-dugtrio-ShuffleToken.png
-Sprite: dugtrio.png
 Type1: Ground
 Type2: ''
 Weight:
-  Hectograms: 333
   Kilograms: 33.3
   Pounds: 73.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *Because the triplets originally split from one body, they think exactly alike. They work together to dig endlessly through the ground. They are known for destroying the foundations of roads and buildings.*
 
 **DexID**:: 0051
-**Species**:: Dugtrio
+**Name**:: Dugtrio
 **Type**:: Ground
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] / [[SRD-Arena Trap|Arena Trap]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 4

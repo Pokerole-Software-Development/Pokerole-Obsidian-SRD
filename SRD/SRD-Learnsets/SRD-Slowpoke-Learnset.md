@@ -1,5 +1,4 @@
 ---
-DexID: 0079
 Moves:
 - - Starter
   - '[[SRD-Yawn|Yawn]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Icy Wind|Icy Wind]]'
 Name: Slowpoke
-Species: '[[SRD-Slowpoke|Slowpoke]]'
+Pokedex: '[[SRD-Slowpoke|Slowpoke]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

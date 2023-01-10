@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-tynamo-BookSprite.png
 BoxSprite: SRD-tynamo-BoxSprite.png
 DexCategory: EleFish Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Eelektrik]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: ''
 HomeSprite: SRD-tynamo-HomeSprite.png
+Image: tynamo.png
 Learnset: '[[SRD-Tynamo-Learnset]]'
 Legendary: 'No'
-Name: Tynamo
 Number: 602
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-tynamo-ShuffleToken.png
-Sprite: tynamo.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 3
   Kilograms: 0.3
   Pounds: 0.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *These Pokemon move in schools. They have an electricity-storing organ at their sides but they can’t generate their own power. They only discharge electricity if they are in danger.*
 
 **DexID**:: 0602
-**Species**:: Tynamo
+**Name**:: Tynamo
 **Type**:: Electric
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 3

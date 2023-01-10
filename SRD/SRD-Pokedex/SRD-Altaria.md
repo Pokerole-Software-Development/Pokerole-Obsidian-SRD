@@ -1,7 +1,6 @@
 ---
 Ability1: Natural Cure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-altaria-BookSprite.png
 BoxSprite: SRD-altaria-BoxSprite.png
 DexCategory: Humming Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Altarianite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Altaria]]'
+  Pokemon: '[[SRD-Altaria (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Cloud Nine
 HomeSprite: SRD-altaria-HomeSprite.png
+Image: altaria.png
 Learnset: '[[SRD-Altaria-Learnset]]'
 Legendary: 'No'
-Name: Altaria
 Number: 334
-PrimaryEggGroup: Flying
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-altaria-ShuffleToken.png
-Sprite: altaria.png
 Type1: Dragon
 Type2: Flying
 Weight:
-  Hectograms: 206
   Kilograms: 20.6
   Pounds: 45.4
 ---
@@ -57,7 +50,7 @@ Weight:
 *Seen as dancing clouds in the sky, Altarias sing melodies in their sweet voices, evoking wonder, beauty and dreams to the listeners. They live far away from people and throw colorful fireballs at uninvited guests.*
 
 **DexID**:: 0334
-**Species**:: Altaria
+**Name**:: Altaria
 **Type**:: Dragon / Flying
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]] ([[SRD-Cloud Nine|Cloud Nine]])
 **Base HP**:: 4
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon              | Kind   | Speed   | Item        |
-|:----------|:---------------------|:-------|:--------|:------------|
-| From      | [[SRD-Swablu]]       | Level  | Slow    |             |
-| To        | [[SRD-Mega-Altaria]] | Mega   |         | Altarianite |
+| Evolves   | Pokemon                     | Kind   | Speed   | Item        |
+|:----------|:----------------------------|:-------|:--------|:------------|
+| From      | [[SRD-Swablu]]              | Level  | Slow    |             |
+| To        | [[SRD-Altaria (Mega Form)]] | Mega   |         | Altarianite |
 
 ![[SRD-Altaria-Learnset]]

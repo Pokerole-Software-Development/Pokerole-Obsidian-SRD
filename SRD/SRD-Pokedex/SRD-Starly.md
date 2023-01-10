@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-starly-BookSprite.png
 BoxSprite: SRD-starly-BoxSprite.png
 DexCategory: Starling Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Staravia]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Reckless
 HomeSprite: SRD-starly-HomeSprite.png
+Image: starly.png
 Learnset: '[[SRD-Starly-Learnset]]'
 Legendary: 'No'
-Name: Starly
 Number: 396
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-starly-ShuffleToken.png
-Sprite: starly.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 20
   Kilograms: 2.0
   Pounds: 4.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *They flock in dozens because they are very weak on their own. They live around mountains and fields, chasing Bug Pokemon. Everyone hates their annoying and strident singing.*
 
 **DexID**:: 0396
-**Species**:: Starly
+**Name**:: Starly
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] ([[SRD-Reckless|Reckless]])
 **Base HP**:: 3

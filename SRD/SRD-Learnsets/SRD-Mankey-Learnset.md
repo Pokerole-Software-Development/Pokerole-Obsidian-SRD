@@ -1,5 +1,4 @@
 ---
-DexID: '0056'
 Moves:
 - - Starter
   - '[[SRD-Covet|Covet]]'
@@ -56,14 +55,14 @@ Moves:
 - - Ace
   - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
 Name: Mankey
-Species: '[[SRD-Mankey|Mankey]]'
+Pokedex: '[[SRD-Mankey|Mankey]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

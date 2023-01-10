@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-eelektross-BookSprite.png
 BoxSprite: SRD-eelektross-BoxSprite.png
 DexCategory: EleFish Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Eelektrik]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 21
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: ''
 HomeSprite: SRD-eelektross-HomeSprite.png
+Image: eelektross.png
 Learnset: '[[SRD-Eelektross-Learnset]]'
 Legendary: 'No'
-Name: Eelektross
 Number: 604
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-eelektross-ShuffleToken.png
-Sprite: eelektross.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 805
   Kilograms: 80.5
   Pounds: 177.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *They crawl out of the water and attack anyone on shore by sucking them into their mouths, shocking them, and dragging them back into the ocean. They are aggressive and unpredictable, be very careful*
 
 **DexID**:: 0604
-**Species**:: Eelektross
+**Name**:: Eelektross
 **Type**:: Electric
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 5

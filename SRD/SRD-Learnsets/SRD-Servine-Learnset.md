@@ -1,5 +1,4 @@
 ---
-DexID: 0496
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Twister|Twister]]'
 Name: Servine
-Species: '[[SRD-Servine|Servine]]'
+Pokedex: '[[SRD-Servine|Servine]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-exeggutor-BookSprite.png
 BoxSprite: SRD-exeggutor-BoxSprite.png
 DexCategory: Coconut Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Exeggcute]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 20
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Harvest
 HomeSprite: SRD-exeggutor-HomeSprite.png
+Image: exeggutor.png
 Learnset: '[[SRD-Exeggutor-Learnset]]'
 Legendary: 'No'
-Name: Exeggutor
 Number: 103
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-exeggutor-ShuffleToken.png
-Sprite: exeggutor.png
 Type1: Grass
 Type2: Psychic
 Weight:
-  Hectograms: 1200
   Kilograms: 120.0
   Pounds: 264.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *Originally from tropical areas. Exeggutor's heads grow larger with strong sunlight. Each head thinks independently. They are friendly and provide their shade to other Pokemon.*
 
 **DexID**:: 0103
-**Species**:: Exeggutor
+**Name**:: Exeggutor
 **Type**:: Grass / Psychic
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Harvest|Harvest]])
 **Base HP**:: 5

@@ -1,5 +1,4 @@
 ---
-DexID: 0186
 Moves:
 - - Starter
   - '[[SRD-Bubble Beam|Bubble Beam]]'
@@ -30,14 +29,14 @@ Moves:
 - - Pro
   - '[[SRD-Refresh|Refresh]]'
 Name: Politoed
-Species: '[[SRD-Politoed|Politoed]]'
+Pokedex: '[[SRD-Politoed|Politoed]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

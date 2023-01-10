@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-sceptile-BookSprite.png
 BoxSprite: SRD-sceptile-BoxSprite.png
 DexCategory: Forest Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Sceptilite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Sceptile]]'
+  Pokemon: '[[SRD-Sceptile (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 17
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Unburden
 HomeSprite: SRD-sceptile-HomeSprite.png
+Image: sceptile.png
 Learnset: '[[SRD-Sceptile-Learnset]]'
 Legendary: 'No'
-Name: Sceptile
 Number: 254
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-sceptile-ShuffleToken.png
-Sprite: sceptile.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 522
   Kilograms: 52.2
   Pounds: 115.1
 ---
@@ -57,7 +50,7 @@ Weight:
 *They raise trees with love and care and protect the jungles with their lives. Their tails can restore a plant’s beauty. Sceptiles power is truly unmatched in their habitats. They are very proud, though.*
 
 **DexID**:: 0254
-**Species**:: Sceptile
+**Name**:: Sceptile
 **Type**:: Grass
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Unburden|Unburden]])
 **Base HP**:: 5
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon               | Kind   | Speed   | Item       |
-|:----------|:----------------------|:-------|:--------|:-----------|
-| From      | [[SRD-Grovyle]]       | Level  | Medium  |            |
-| To        | [[SRD-Mega-Sceptile]] | Mega   |         | Sceptilite |
+| Evolves   | Pokemon                      | Kind   | Speed   | Item       |
+|:----------|:-----------------------------|:-------|:--------|:-----------|
+| From      | [[SRD-Grovyle]]              | Level  | Medium  |            |
+| To        | [[SRD-Sceptile (Mega Form)]] | Mega   |         | Sceptilite |
 
 ![[SRD-Sceptile-Learnset]]

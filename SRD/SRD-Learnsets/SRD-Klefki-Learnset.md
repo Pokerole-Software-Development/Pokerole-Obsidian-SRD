@@ -1,5 +1,4 @@
 ---
-DexID: 0708
 Moves:
 - - Starter
   - '[[SRD-Fairy Lock|Fairy Lock]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Magnet Rise|Magnet Rise]]'
 Name: Klefki
-Species: '[[SRD-Klefki|Klefki]]'
+Pokedex: '[[SRD-Klefki|Klefki]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

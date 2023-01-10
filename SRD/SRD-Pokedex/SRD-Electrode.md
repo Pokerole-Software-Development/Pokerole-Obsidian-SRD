@@ -1,7 +1,6 @@
 ---
 Ability1: Soundproof
 Ability2: Static
-Baby: 'No'
 BookSprite: SRD-electrode-BookSprite.png
 BoxSprite: SRD-electrode-BoxSprite.png
 DexCategory: Ball Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Voltorb]]'
   Speed: Slow
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Aftermath
 HomeSprite: SRD-electrode-HomeSprite.png
+Image: electrode.png
 Learnset: '[[SRD-Electrode-Learnset]]'
 Legendary: 'No'
-Name: Electrode
 Number: 101
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-electrode-ShuffleToken.png
-Sprite: electrode.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 666
   Kilograms: 66.6
   Pounds: 146.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is known for causing blackouts in the cities. After evolving it explodes as a form to release excess electricity or simply to amuse itself. Trainers need to be careful around an Electrode.*
 
 **DexID**:: 0101
-**Species**:: Electrode
+**Name**:: Electrode
 **Type**:: Electric
 **Abilities**:: [[SRD-Soundproof|Soundproof]] / [[SRD-Static|Static]] ([[SRD-Aftermath|Aftermath]])
 **Base HP**:: 4

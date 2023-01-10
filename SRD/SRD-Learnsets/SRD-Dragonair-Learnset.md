@@ -1,5 +1,4 @@
 ---
-DexID: 0148
 Moves:
 - - Starter
   - '[[SRD-Wrap|Wrap]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Mist|Mist]]'
 Name: Dragonair
-Species: '[[SRD-Dragonair|Dragonair]]'
+Pokedex: '[[SRD-Dragonair|Dragonair]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

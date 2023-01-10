@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: Skill Link
-Baby: 'No'
 BookSprite: SRD-toucannon-BookSprite.png
 BoxSprite: SRD-toucannon-BoxSprite.png
 DexCategory: Blade Quill Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Trumbeak]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Sheer Force
 HomeSprite: SRD-toucannon-HomeSprite.png
+Image: toucannon.png
 Learnset: '[[SRD-Toucannon-Learnset]]'
 Legendary: 'No'
-Name: Toucannon
 Number: 733
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-toucannon-ShuffleToken.png
-Sprite: toucannon.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 260
   Kilograms: 26.0
   Pounds: 57.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *It can store and expel an extremely hot gas through its beak that ignites easily. The berry seeds it shoots can pierce boulders, leaving perfectly round holes on them. Fortunately, they nest deep in the jungle.*
 
 **DexID**:: 0733
-**Species**:: Toucannon
+**Name**:: Toucannon
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Skill Link|Skill Link]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 5

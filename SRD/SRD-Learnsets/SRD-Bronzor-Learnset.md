@@ -1,5 +1,4 @@
 ---
-DexID: '0436'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Signal Beam|Signal Beam]]'
 Name: Bronzor
-Species: '[[SRD-Bronzor|Bronzor]]'
+Pokedex: '[[SRD-Bronzor|Bronzor]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

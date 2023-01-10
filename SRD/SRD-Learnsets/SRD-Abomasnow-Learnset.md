@@ -1,5 +1,4 @@
 ---
-DexID: '0460'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Abomasnow
-Species: '[[SRD-Abomasnow|Abomasnow]]'
+Pokedex: '[[SRD-Abomasnow|Abomasnow]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

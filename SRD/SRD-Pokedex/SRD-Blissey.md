@@ -1,7 +1,6 @@
 ---
 Ability1: Natural Cure
 Ability2: Serene Grace
-Baby: 'No'
 BookSprite: SRD-blissey-BookSprite.png
 BoxSprite: SRD-blissey-BoxSprite.png
 DexCategory: Happiness Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Happiness
   Value: 5
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Healer
 HomeSprite: SRD-blissey-HomeSprite.png
+Image: blissey.png
 Learnset: '[[SRD-Blissey-Learnset]]'
 Legendary: 'No'
-Name: Blissey
 Number: 242
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-blissey-ShuffleToken.png
-Sprite: blissey.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 468
   Kilograms: 46.8
   Pounds: 103.2
 ---
@@ -54,7 +47,7 @@ Weight:
 *Whoever takes a bite on a Blissey's egg becomes loving and caring to everyone. They are compassionate, healing anyone who’s injured. Their presence makes everyone smile. An intelligent and emphatic Pokemon.*
 
 **DexID**:: 0242
-**Species**:: Blissey
+**Name**:: Blissey
 **Type**:: Normal
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]] / [[SRD-Serene Grace|Serene Grace]] ([[SRD-Healer|Healer]])
 **Base HP**:: 12

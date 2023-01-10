@@ -1,5 +1,4 @@
 ---
-DexID: '0432'
 Moves:
 - - Starter
   - '[[SRD-Fake Out|Fake Out]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
 Name: Purugly
-Species: '[[SRD-Purugly|Purugly]]'
+Pokedex: '[[SRD-Purugly|Purugly]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

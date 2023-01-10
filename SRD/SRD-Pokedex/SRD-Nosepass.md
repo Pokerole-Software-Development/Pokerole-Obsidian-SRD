@@ -1,7 +1,6 @@
 ---
 Ability1: Sturdy
 Ability2: Magnet Pull
-Baby: 'No'
 BookSprite: SRD-nosepass-BookSprite.png
 BoxSprite: SRD-nosepass-BoxSprite.png
 DexCategory: Nosepass Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Probopass]]'
   Special: A trip to New Mauville
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Sand Force
 HomeSprite: SRD-nosepass-HomeSprite.png
+Image: nosepass.png
 Learnset: '[[SRD-Nosepass-Learnset]]'
 Legendary: 'No'
-Name: Nosepass
 Number: 299
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-nosepass-ShuffleToken.png
-Sprite: nosepass.png
 Type1: Rock
 Type2: ''
 Weight:
-  Hectograms: 970
   Kilograms: 97.0
   Pounds: 213.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Their magnetic noses always point to the north. They were thought to be immobile, but it was recently revealed that they actually move 3/8 of an inch every year. They get a little crazy when magnets are close.*
 
 **DexID**:: 0299
-**Species**:: Nosepass
+**Name**:: Nosepass
 **Type**:: Rock
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Magnet Pull|Magnet Pull]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 3

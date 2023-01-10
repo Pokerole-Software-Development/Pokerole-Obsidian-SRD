@@ -1,5 +1,4 @@
 ---
-DexID: 0168
 Moves:
 - - Starter
   - '[[SRD-String Shot|String Shot]]'
@@ -64,14 +63,14 @@ Moves:
 - - Pro
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Ariados
-Species: '[[SRD-Ariados|Ariados]]'
+Pokedex: '[[SRD-Ariados|Ariados]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

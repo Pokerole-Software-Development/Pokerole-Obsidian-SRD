@@ -1,5 +1,4 @@
 ---
-DexID: '0603'
 Moves:
 - - Starter
   - '[[SRD-Crush Claw|Crush Claw]]'
@@ -36,14 +35,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Punch|Fire Punch]]'
 Name: Eelektross
-Species: '[[SRD-Eelektross|Eelektross]]'
+Pokedex: '[[SRD-Eelektross|Eelektross]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

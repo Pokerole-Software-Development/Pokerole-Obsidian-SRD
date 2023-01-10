@@ -1,5 +1,4 @@
 ---
-DexID: '0033'
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Smart Strike|Smart Strike]]'
 Name: Nidorino
-Species: '[[SRD-Nidorino|Nidorino]]'
+Pokedex: '[[SRD-Nidorino|Nidorino]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

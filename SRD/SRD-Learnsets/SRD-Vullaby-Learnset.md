@@ -1,5 +1,4 @@
 ---
-DexID: 0628
 Moves:
 - - Starter
   - '[[SRD-Gust|Gust]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Vullaby
-Species: '[[SRD-Vullaby|Vullaby]]'
+Pokedex: '[[SRD-Vullaby|Vullaby]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

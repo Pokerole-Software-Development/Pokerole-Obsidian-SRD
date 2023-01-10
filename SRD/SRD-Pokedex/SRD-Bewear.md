@@ -1,7 +1,6 @@
 ---
 Ability1: Fluffy
 Ability2: Klutz
-Baby: 'No'
 BookSprite: SRD-bewear-BookSprite.png
 BoxSprite: SRD-bewear-BoxSprite.png
 DexCategory: Strong Arm Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Stufful]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 21
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: Unnerve
 HomeSprite: SRD-bewear-HomeSprite.png
+Image: bewear.png
 Learnset: '[[SRD-Bewear-Learnset]]'
 Legendary: 'No'
-Name: Bewear
 Number: 760
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-bewear-ShuffleToken.png
-Sprite: bewear.png
 Type1: Normal
 Type2: Fighting
 Weight:
-  Hectograms: 1350
   Kilograms: 135.0
   Pounds: 297.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *They may look friendly but their brute strength makes them very dangerous. Many Trainers have been severely injured and even snapped in half by the “hugs” of a Bewear.*
 
 **DexID**:: 0760
-**Species**:: Bewear
+**Name**:: Bewear
 **Type**:: Normal / Fighting
 **Abilities**:: [[SRD-Fluffy|Fluffy]] / [[SRD-Klutz|Klutz]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 6

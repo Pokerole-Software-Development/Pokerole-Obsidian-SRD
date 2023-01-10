@@ -1,5 +1,4 @@
 ---
-DexID: 0219
 Moves:
 - - Starter
   - '[[SRD-Yawn|Yawn]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Self Destruct|Self Destruct]]'
 Name: Magcargo
-Species: '[[SRD-Magcargo|Magcargo]]'
+Pokedex: '[[SRD-Magcargo|Magcargo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

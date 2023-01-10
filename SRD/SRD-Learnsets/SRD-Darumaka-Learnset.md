@@ -1,5 +1,4 @@
 ---
-DexID: '0554'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Darumaka
-Species: '[[SRD-Darumaka|Darumaka]]'
+Pokedex: '[[SRD-Darumaka|Darumaka]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

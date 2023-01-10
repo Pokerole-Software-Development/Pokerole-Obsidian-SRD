@@ -1,5 +1,4 @@
 ---
-DexID: 0492
 Moves:
 - - Master
   - '[[SRD-Growth|Growth]]'
@@ -34,14 +33,14 @@ Moves:
 - - Master
   - '[[SRD-Zen Headbutt|Zen Headbutt]]'
 Name: Shaymin
-Species: '[[SRD-Shaymin|Shaymin]]'
+Pokedex: '[[SRD-Shaymin|Shaymin]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Guts
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-swellow-BookSprite.png
 BoxSprite: SRD-swellow-BoxSprite.png
 DexCategory: Swallow Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Taillow]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Scrappy
 HomeSprite: SRD-swellow-HomeSprite.png
+Image: swellow.png
 Learnset: '[[SRD-Swellow-Learnset]]'
 Legendary: 'No'
-Name: Swellow
 Number: 277
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-swellow-ShuffleToken.png
-Sprite: swellow.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 198
   Kilograms: 19.8
   Pounds: 43.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are vain Pokemon, acting with grace and elegance. Swellows are seen circling the skies looking for prey. They can be incredibly fast. If two Swellows meet, they will clean each other’s wings as a sign of peace.*
 
 **DexID**:: 0277
-**Species**:: Swellow
+**Name**:: Swellow
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Guts|Guts]] ([[SRD-Scrappy|Scrappy]])
 **Base HP**:: 4

@@ -1,5 +1,4 @@
 ---
-DexID: 0187
 Moves:
 - - Starter
   - '[[SRD-Splash|Splash]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Aromatherapy|Aromatherapy]]'
 Name: Hoppip
-Species: '[[SRD-Hoppip|Hoppip]]'
+Pokedex: '[[SRD-Hoppip|Hoppip]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

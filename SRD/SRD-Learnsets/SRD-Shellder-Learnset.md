@@ -1,5 +1,4 @@
 ---
-DexID: 0090
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Rapid Spin|Rapid Spin]]'
 Name: Shellder
-Species: '[[SRD-Shellder|Shellder]]'
+Pokedex: '[[SRD-Shellder|Shellder]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Vital Spirit
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-vigoroth-BookSprite.png
 BoxSprite: SRD-vigoroth-BoxSprite.png
 DexCategory: Wild Monkey Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Slaking]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: ''
 HomeSprite: SRD-vigoroth-HomeSprite.png
+Image: vigoroth.png
 Learnset: '[[SRD-Vigoroth-Learnset]]'
 Legendary: 'No'
-Name: Vigoroth
 Number: 288
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-vigoroth-ShuffleToken.png
-Sprite: vigoroth.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 465
   Kilograms: 46.5
   Pounds: 102.5
 ---
@@ -57,7 +50,7 @@ Weight:
 *They are always agitated, anxious, excited or upset, rampaging over anything. They can’t be still and they can’t sleep. They get angry if they get bored and violent if there is no activity for them.*
 
 **DexID**:: 0288
-**Species**:: Vigoroth
+**Name**:: Vigoroth
 **Type**:: Normal
 **Abilities**:: [[SRD-Vital Spirit|Vital Spirit]]
 **Base HP**:: 4

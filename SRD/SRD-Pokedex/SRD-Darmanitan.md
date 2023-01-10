@@ -1,7 +1,6 @@
 ---
 Ability1: Sheer Force
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-darmanitan-BookSprite.png
 BoxSprite: SRD-darmanitan-BoxSprite.png
 DexCategory: Blazing Pokemon
@@ -16,27 +15,21 @@ Evolutions:
   Speed: Medium
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Zen Darmanitan]]'
+  Pokemon: '[[SRD-Darmanitan (Zen Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Zen Mode
 HomeSprite: SRD-darmanitan-HomeSprite.png
+Image: darmanitan.png
 Learnset: '[[SRD-Darmanitan-Learnset]]'
 Legendary: 'No'
-Name: Darmanitan
 Number: 555
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-darmanitan-ShuffleToken.png
-Sprite: darmanitan.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 929
   Kilograms: 92.9
   Pounds: 204.8
 ---
@@ -56,7 +49,7 @@ Weight:
 *This Pokemon is shrouded in mystery as old writings and mural paintings describe it as being blue and using psychic powers, but years of study have not seen those traits on this Pokemon that relies on brute force.*
 
 **DexID**:: 0555
-**Species**:: Darmanitan
+**Name**:: Darmanitan
 **Type**:: Fire
 **Abilities**:: [[SRD-Sheer Force|Sheer Force]] ([[SRD-Zen Mode|Zen Mode]])
 **Base HP**:: 5
@@ -74,9 +67,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon                | Kind   | Speed   |
-|:----------|:-----------------------|:-------|:--------|
-| From      | [[SRD-Darumaka]]       | Level  | Medium  |
-| To        | [[SRD-Zen Darmanitan]] | Form   |         |
+| Evolves   | Pokemon                       | Kind   | Speed   |
+|:----------|:------------------------------|:-------|:--------|
+| From      | [[SRD-Darumaka]]              | Level  | Medium  |
+| To        | [[SRD-Darmanitan (Zen Form)]] | Form   |         |
 
 ![[SRD-Darmanitan-Learnset]]

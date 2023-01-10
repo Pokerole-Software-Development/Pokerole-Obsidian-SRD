@@ -1,7 +1,6 @@
 ---
 Ability1: Pickup
 Ability2: Frisk
-Baby: 'No'
 BookSprite: SRD-pumpkaboo-BookSprite.png
 BoxSprite: SRD-pumpkaboo-BoxSprite.png
 DexCategory: Pumpkin Pokemon
@@ -14,25 +13,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Gourgeist]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Insomnia
 HomeSprite: SRD-pumpkaboo-HomeSprite.png
+Image: pumpkaboo.png
 Learnset: '[[SRD-Pumpkaboo-Learnset]]'
 Legendary: 'No'
-Name: Pumpkaboo
 Number: 710
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-pumpkaboo-ShuffleToken.png
-Sprite: pumpkaboo.png
 Type1: Ghost
 Type2: Grass
 Weight:
-  Hectograms: 50
   Kilograms: 5.0
   Pounds: 11.0
 ---
@@ -52,7 +45,7 @@ Weight:
 *You can see them dwelling on farms during the autumn season. The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active. Don’t ever follow their light at night.*
 
 **DexID**:: 0710
-**Species**:: Pumpkaboo
+**Name**:: Pumpkaboo
 **Type**:: Ghost / Grass
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Frisk|Frisk]] ([[SRD-Insomnia|Insomnia]])
 **Base HP**:: 3

@@ -1,5 +1,4 @@
 ---
-DexID: '0712'
 Moves:
 - - Starter
   - '[[SRD-Trick|Trick]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Foul Play|Foul Play]]'
 Name: Gourgeist
-Species: '[[SRD-Gourgeist|Gourgeist]]'
+Pokedex: '[[SRD-Gourgeist|Gourgeist]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

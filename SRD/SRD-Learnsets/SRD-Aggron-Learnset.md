@@ -1,5 +1,4 @@
 ---
-DexID: '0306'
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Aggron
-Species: '[[SRD-Aggron|Aggron]]'
+Pokedex: '[[SRD-Aggron|Aggron]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

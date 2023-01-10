@@ -1,5 +1,4 @@
 ---
-DexID: '0764'
 Moves:
 - - Starter
   - '[[SRD-Confusion|Confusion]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Extrasensory|Extrasensory]]'
 Name: Oranguru
-Species: '[[SRD-Oranguru|Oranguru]]'
+Pokedex: '[[SRD-Oranguru|Oranguru]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

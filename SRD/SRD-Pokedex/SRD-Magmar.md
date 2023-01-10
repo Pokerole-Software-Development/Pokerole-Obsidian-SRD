@@ -1,7 +1,6 @@
 ---
 Ability1: Flame Body
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-magmar-BookSprite.png
 BoxSprite: SRD-magmar-BoxSprite.png
 DexCategory: Spitfire Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Magmortar]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Vital Spirit
 HomeSprite: SRD-magmar-HomeSprite.png
+Image: magmar.png
 Learnset: '[[SRD-Magmar-Learnset]]'
 Legendary: 'No'
-Name: Magmar
 Number: 126
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-magmar-ShuffleToken.png
-Sprite: magmar.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 445
   Kilograms: 44.5
   Pounds: 98.1
 ---
@@ -57,7 +50,7 @@ Weight:
 *It can be found living in volcanic areas. In battle, Magmar blows out intense flames all over its body to intimidate the opponent. This creates heat waves that ignite grass and trees in the surroundings.*
 
 **DexID**:: 0126
-**Species**:: Magmar
+**Name**:: Magmar
 **Type**:: Fire
 **Abilities**:: [[SRD-Flame Body|Flame Body]] ([[SRD-Vital Spirit|Vital Spirit]])
 **Base HP**:: 4

@@ -1,7 +1,6 @@
 ---
 Ability1: Compound Eyes
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-nincada-BookSprite.png
 BoxSprite: SRD-nincada-BoxSprite.png
 DexCategory: Trainee Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Shedinja]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Run Away
 HomeSprite: SRD-nincada-HomeSprite.png
+Image: nincada.png
 Learnset: '[[SRD-Nincada-Learnset]]'
 Legendary: 'No'
-Name: Nincada
 Number: 290
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-nincada-ShuffleToken.png
-Sprite: nincada.png
 Type1: Bug
 Type2: Ground
 Weight:
-  Hectograms: 55
   Kilograms: 5.5
   Pounds: 12.1
 ---
@@ -57,7 +50,7 @@ Weight:
 *They live underground for decades, absorbing nutrients from roots and waiting for evolution. Nincadas are nearly blind and cannot stand bright lights. They only come out to make a cocoon to evolve.*
 
 **DexID**:: 0290
-**Species**:: Nincada
+**Name**:: Nincada
 **Type**:: Bug / Ground
 **Abilities**:: [[SRD-Compound Eyes|Compound Eyes]] ([[SRD-Run Away|Run Away]])
 **Base HP**:: 3

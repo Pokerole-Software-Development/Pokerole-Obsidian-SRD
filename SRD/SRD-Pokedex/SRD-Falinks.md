@@ -1,7 +1,6 @@
 ---
 Ability1: Battle Armor
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-falinks-BookSprite.png
 BoxSprite: SRD-falinks-BoxSprite.png
 DexCategory: Formation Pokemon
@@ -11,25 +10,19 @@ DexDescription: "It is formed by six of them, five are troopers, and one is the 
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 30
   Feet: 9.8
   Meters: 3.0
 HiddenAbility: Defiant
 HomeSprite: SRD-falinks-HomeSprite.png
+Image: falinks.png
 Learnset: '[[SRD-Falinks-Learnset]]'
 Legendary: 'No'
-Name: Falinks
 Number: 870
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: Mineral
 ShuffleToken: SRD-falinks-ShuffleToken.png
-Sprite: falinks.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 620
   Kilograms: 62.0
   Pounds: 136.7
 ---
@@ -49,7 +42,7 @@ Weight:
 *It is formed by six of them, five are troopers, and one is the brass. The brass’s orders are absolute to the others, they work as a perfect team and can rearrange their formation to better suit them in battle.*
 
 **DexID**:: 0870
-**Species**:: Falinks
+**Name**:: Falinks
 **Type**:: Fighting
 **Abilities**:: [[SRD-Battle Armor|Battle Armor]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 5

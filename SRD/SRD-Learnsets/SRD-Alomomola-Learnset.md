@@ -1,5 +1,4 @@
 ---
-DexID: 0593
 Moves:
 - - Starter
   - '[[SRD-Water Sport|Water Sport]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Alomomola
-Species: '[[SRD-Alomomola|Alomomola]]'
+Pokedex: '[[SRD-Alomomola|Alomomola]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

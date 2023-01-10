@@ -1,5 +1,4 @@
 ---
-DexID: '0277'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Roost|Roost]]'
 Name: Swellow
-Species: '[[SRD-Swellow|Swellow]]'
+Pokedex: '[[SRD-Swellow|Swellow]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

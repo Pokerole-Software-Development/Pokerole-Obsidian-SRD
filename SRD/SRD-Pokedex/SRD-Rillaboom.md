@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-rillaboom-BookSprite.png
 BoxSprite: SRD-rillaboom-BoxSprite.png
 DexCategory: Drummer Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Thwackey]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 21
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: Grassy Surge
 HomeSprite: SRD-rillaboom-HomeSprite.png
+Image: rillaboom.png
 Learnset: '[[SRD-Rillaboom-Learnset]]'
 Legendary: 'No'
-Name: Rillaboom
 Number: 812
-PrimaryEggGroup: Field
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-rillaboom-ShuffleToken.png
-Sprite: rillaboom.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 900
   Kilograms: 90.0
   Pounds: 198.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *The leader owns the largest drum among its troop and has the best drumming technique which makes roots sprout to attack its foes. But they are peaceful and kind, creatures that value harmony in their group.*
 
 **DexID**:: 0812
-**Species**:: Rillaboom
+**Name**:: Rillaboom
 **Type**:: Grass
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Grassy Surge|Grassy Surge]])
 **Base HP**:: 6

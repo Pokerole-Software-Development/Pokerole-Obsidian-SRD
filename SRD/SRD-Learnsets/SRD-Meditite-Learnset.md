@@ -1,5 +1,4 @@
 ---
-DexID: '0307'
 Moves:
 - - Starter
   - '[[SRD-Bide|Bide]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Power Swap|Power Swap]]'
 Name: Meditite
-Species: '[[SRD-Meditite|Meditite]]'
+Pokedex: '[[SRD-Meditite|Meditite]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

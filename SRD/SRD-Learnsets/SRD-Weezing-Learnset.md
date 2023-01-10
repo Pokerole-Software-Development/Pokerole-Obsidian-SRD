@@ -1,5 +1,4 @@
 ---
-DexID: '0110'
 Moves:
 - - Starter
   - '[[SRD-Poison Gas|Poison Gas]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Psybeam|Psybeam]]'
 Name: Weezing
-Species: '[[SRD-Weezing|Weezing]]'
+Pokedex: '[[SRD-Weezing|Weezing]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

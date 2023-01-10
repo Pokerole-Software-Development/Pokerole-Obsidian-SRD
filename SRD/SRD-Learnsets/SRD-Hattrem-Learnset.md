@@ -1,5 +1,4 @@
 ---
-DexID: 0858
 Moves:
 - - Starter
   - '[[SRD-Confusion|Confusion]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Quash|Quash]]'
 Name: Hattrem
-Species: '[[SRD-Hattrem|Hattrem]]'
+Pokedex: '[[SRD-Hattrem|Hattrem]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

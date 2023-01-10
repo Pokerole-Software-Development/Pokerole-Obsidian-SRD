@@ -1,7 +1,6 @@
 ---
 Ability1: Battle Armor
 Ability2: Tough Claws
-Baby: 'No'
 BookSprite: SRD-perrserker-BookSprite.png
 BoxSprite: SRD-perrserker-BoxSprite.png
 DexCategory: Viking Pokemon
@@ -12,28 +11,22 @@ EventAbilities: ''
 Evolutions:
 - Evolves: From
   Kind: Level
-  Pokemon: '[[SRD-Galarian Meowth]]'
+  Pokemon: '[[SRD-Meowth (Galarian Form)]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Steely Spirit
 HomeSprite: SRD-perrserker-HomeSprite.png
+Image: perrserker.png
 Learnset: '[[SRD-Perrserker-Learnset]]'
 Legendary: 'No'
-Name: Perrserker
 Number: 863
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-perrserker-ShuffleToken.png
-Sprite: perrserker.png
 Type1: Steel
 Type2: ''
 Weight:
-  Hectograms: 280
   Kilograms: 28.0
   Pounds: 61.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *What appears to be an iron helmet is actually hardened hair. Unlike other Meowth evolutions, Perrserker does not want riches and luxury, it enjoys battles, the outdoors and traveling though the sea.*
 
 **DexID**:: 0863
-**Species**:: Perrserker
+**Name**:: Perrserker
 **Type**:: Steel
 **Abilities**:: [[SRD-Battle Armor|Battle Armor]] / [[SRD-Tough Claws|Tough Claws]] ([[SRD-Steely Spirit|Steely Spirit]])
 **Base HP**:: 4
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon                 | Kind   | Speed   |
-|:----------|:------------------------|:-------|:--------|
-| From      | [[SRD-Galarian Meowth]] | Level  | Medium  |
+| Evolves   | Pokemon                        | Kind   | Speed   |
+|:----------|:-------------------------------|:-------|:--------|
+| From      | [[SRD-Meowth (Galarian Form)]] | Level  | Medium  |
 
 ![[SRD-Perrserker-Learnset]]

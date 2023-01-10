@@ -1,7 +1,6 @@
 ---
 Ability1: Leaf Guard
 Ability2: Oblivious
-Baby: 'No'
 BookSprite: SRD-bounsweet-BookSprite.png
 BoxSprite: SRD-bounsweet-BoxSprite.png
 DexCategory: Fruit Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Steenee]]'
   Speed: Medium
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Sweet Veil
 HomeSprite: SRD-bounsweet-HomeSprite.png
+Image: bounsweet.png
 Learnset: '[[SRD-Bounsweet-Learnset]]'
 Legendary: 'No'
-Name: Bounsweet
 Number: 761
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-bounsweet-ShuffleToken.png
-Sprite: bounsweet.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 32
   Kilograms: 3.2
   Pounds: 7.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *This happy-go-lucky Pokemon produces a delicious aroma that unfortunately attracts predators to it, when it escapes, it looks as if it’s happily skipping around so it rarely gets help.*
 
 **DexID**:: 0761
-**Species**:: Bounsweet
+**Name**:: Bounsweet
 **Type**:: Grass
 **Abilities**:: [[SRD-Leaf Guard|Leaf Guard]] / [[SRD-Oblivious|Oblivious]] ([[SRD-Sweet Veil|Sweet Veil]])
 **Base HP**:: 3

@@ -1,5 +1,4 @@
 ---
-DexID: '0631'
 Moves:
 - - Starter
   - '[[SRD-Gust|Gust]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Mandibuzz
-Species: '[[SRD-Mandibuzz|Mandibuzz]]'
+Pokedex: '[[SRD-Mandibuzz|Mandibuzz]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

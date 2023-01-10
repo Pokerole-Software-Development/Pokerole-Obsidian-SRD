@@ -1,5 +1,4 @@
 ---
-DexID: '0425'
 Moves:
 - - Starter
   - '[[SRD-Constrict|Constrict]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Drifloon
-Species: '[[SRD-Drifloon|Drifloon]]'
+Pokedex: '[[SRD-Drifloon|Drifloon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

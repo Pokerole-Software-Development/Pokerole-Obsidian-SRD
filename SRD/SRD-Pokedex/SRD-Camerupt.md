@@ -1,7 +1,6 @@
 ---
 Ability1: Magma Armor
 Ability2: Solid Rock
-Baby: 'No'
 BookSprite: SRD-camerupt-BookSprite.png
 BoxSprite: SRD-camerupt-BoxSprite.png
 DexCategory: Eruption Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Cameruptite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Camerupt]]'
+  Pokemon: '[[SRD-Camerupt (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 19
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Anger Point
 HomeSprite: SRD-camerupt-HomeSprite.png
+Image: camerupt.png
 Learnset: '[[SRD-Camerupt-Learnset]]'
 Legendary: 'No'
-Name: Camerupt
 Number: 323
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-camerupt-ShuffleToken.png
-Sprite: camerupt.png
 Type1: Fire
 Type2: Ground
 Weight:
-  Hectograms: 2200
   Kilograms: 220.0
   Pounds: 485.0
 ---
@@ -57,7 +50,7 @@ Weight:
 *Sometimes the humps on their back make an eruption when they get really angry, otherwise they’d only erupt every 10 years. Camerupts live inside the craters of volcanoes. They are indifferent to humans.*
 
 **DexID**:: 0323
-**Species**:: Camerupt
+**Name**:: Camerupt
 **Type**:: Fire / Ground
 **Abilities**:: [[SRD-Magma Armor|Magma Armor]] / [[SRD-Solid Rock|Solid Rock]] ([[SRD-Anger Point|Anger Point]])
 **Base HP**:: 4
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon               | Kind   | Speed   | Item        |
-|:----------|:----------------------|:-------|:--------|:------------|
-| From      | [[SRD-Numel]]         | Level  | Medium  |             |
-| To        | [[SRD-Mega-Camerupt]] | Mega   |         | Cameruptite |
+| Evolves   | Pokemon                      | Kind   | Speed   | Item        |
+|:----------|:-----------------------------|:-------|:--------|:------------|
+| From      | [[SRD-Numel]]                | Level  | Medium  |             |
+| To        | [[SRD-Camerupt (Mega Form)]] | Mega   |         | Cameruptite |
 
 ![[SRD-Camerupt-Learnset]]

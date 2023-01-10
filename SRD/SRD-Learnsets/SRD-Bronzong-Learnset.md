@@ -1,5 +1,4 @@
 ---
-DexID: '0437'
 Moves:
 - - Starter
   - '[[SRD-Sunny Day|Sunny Day]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Skill Swap|Skill Swap]]'
 Name: Bronzong
-Species: '[[SRD-Bronzong|Bronzong]]'
+Pokedex: '[[SRD-Bronzong|Bronzong]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

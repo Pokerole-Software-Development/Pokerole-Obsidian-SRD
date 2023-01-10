@@ -1,5 +1,4 @@
 ---
-DexID: '0176'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Extrasensory|Extrasensory]]'
 Name: Togetic
-Species: '[[SRD-Togetic|Togetic]]'
+Pokedex: '[[SRD-Togetic|Togetic]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

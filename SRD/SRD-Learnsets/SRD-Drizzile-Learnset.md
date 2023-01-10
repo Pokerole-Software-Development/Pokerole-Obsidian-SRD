@@ -1,5 +1,4 @@
 ---
-DexID: 0816
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Jet|Aqua Jet]]'
 Name: Drizzile
-Species: '[[SRD-Drizzile|Drizzile]]'
+Pokedex: '[[SRD-Drizzile|Drizzile]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

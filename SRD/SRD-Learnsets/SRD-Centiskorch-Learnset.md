@@ -1,5 +1,4 @@
 ---
-DexID: 0852
 Moves:
 - - Starter
   - '[[SRD-Ember|Ember]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Thunder Fang|Thunder Fang]]'
 Name: Centiskorch
-Species: '[[SRD-Centiskorch|Centiskorch]]'
+Pokedex: '[[SRD-Centiskorch|Centiskorch]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

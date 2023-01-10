@@ -1,7 +1,6 @@
 ---
 Ability1: Fluffy
 Ability2: Klutz
-Baby: 'No'
 BookSprite: SRD-stufful-BookSprite.png
 BoxSprite: SRD-stufful-BoxSprite.png
 DexCategory: Flailing Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Bewear]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Cute Charm
 HomeSprite: SRD-stufful-HomeSprite.png
+Image: stufful.png
 Learnset: '[[SRD-Stufful-Learnset]]'
 Legendary: 'No'
-Name: Stufful
 Number: 759
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-stufful-ShuffleToken.png
-Sprite: stufful.png
 Type1: Normal
 Type2: Fighting
 Weight:
-  Hectograms: 68
   Kilograms: 6.8
   Pounds: 15.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *Despite its adorable appearance it is a dangerous Pokemon. If anyone but its mother or Trainer touches it, it will respond by angrily flailing its arms around. They are popular pets but owners always regret.*
 
 **DexID**:: 0759
-**Species**:: Stufful
+**Name**:: Stufful
 **Type**:: Normal / Fighting
 **Abilities**:: [[SRD-Fluffy|Fluffy]] / [[SRD-Klutz|Klutz]] ([[SRD-Cute Charm|Cute Charm]])
 **Base HP**:: 3

@@ -1,5 +1,4 @@
 ---
-DexID: 0804
 Moves:
 - - Master
   - '[[SRD-Protect|Protect]]'
@@ -34,14 +33,14 @@ Moves:
 - - Master
   - '[[SRD-Trick Room|Trick Room]]'
 Name: Stakataka
-Species: '[[SRD-Stakataka|Stakataka]]'
+Pokedex: '[[SRD-Stakataka|Stakataka]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

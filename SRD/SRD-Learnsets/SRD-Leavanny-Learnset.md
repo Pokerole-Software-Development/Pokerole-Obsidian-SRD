@@ -1,5 +1,4 @@
 ---
-DexID: '0542'
 Moves:
 - - Starter
   - '[[SRD-String Shot|String Shot]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Screech|Screech]]'
 Name: Leavanny
-Species: '[[SRD-Leavanny|Leavanny]]'
+Pokedex: '[[SRD-Leavanny|Leavanny]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

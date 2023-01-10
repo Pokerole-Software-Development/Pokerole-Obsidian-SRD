@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-ivysaur-BookSprite.png
 BoxSprite: SRD-ivysaur-BoxSprite.png
 DexCategory: Seed Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Venusaur]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-ivysaur-HomeSprite.png
+Image: ivysaur.png
 Learnset: '[[SRD-Ivysaur-Learnset]]'
 Legendary: 'No'
-Name: Ivysaur
 Number: 2
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-ivysaur-ShuffleToken.png
-Sprite: ivysaur.png
 Type1: Grass
 Type2: Poison
 Weight:
-  Hectograms: 130
   Kilograms: 13.0
   Pounds: 28.7
 ---
@@ -57,7 +50,7 @@ Weight:
 *There is a bud on this Pokemon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. It becomes kind of a loner after evolving and may stray away from its group to take sunbaths.*
 
 **DexID**:: 0002
-**Species**:: Ivysaur
+**Name**:: Ivysaur
 **Type**:: Grass / Poison
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Chlorophyll|Chlorophyll]])
 **Base HP**:: 4

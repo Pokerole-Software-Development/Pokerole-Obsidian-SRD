@@ -1,5 +1,4 @@
 ---
-DexID: '0255'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Torchic
-Species: '[[SRD-Torchic|Torchic]]'
+Pokedex: '[[SRD-Torchic|Torchic]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0618G
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Mienfoo
-Species: '[[SRD-Mienfoo|Mienfoo]]'
+Pokedex: '[[SRD-Mienfoo|Mienfoo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0838
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Heavy Slam|Heavy Slam]]'
 Name: Coalossal
-Species: '[[SRD-Coalossal|Coalossal]]'
+Pokedex: '[[SRD-Coalossal|Coalossal]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

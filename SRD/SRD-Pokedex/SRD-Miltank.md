@@ -1,7 +1,6 @@
 ---
 Ability1: Thick Fat
 Ability2: Scrappy
-Baby: 'No'
 BookSprite: SRD-miltank-BookSprite.png
 BoxSprite: SRD-miltank-BoxSprite.png
 DexCategory: Milk Cow Pokemon
@@ -11,25 +10,19 @@ DexDescription: Their male counterpart is Tauros. A Miltank's milk is full of nu
 EventAbilities: ''
 Evolutions: []
 GenderType: F
-HasForm: 'Yes'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-miltank-HomeSprite.png
+Image: miltank.png
 Learnset: '[[SRD-Miltank-Learnset]]'
 Legendary: 'No'
-Name: Miltank
 Number: 241
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-miltank-ShuffleToken.png
-Sprite: miltank.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 755
   Kilograms: 75.5
   Pounds: 166.4
 ---
@@ -49,7 +42,7 @@ Weight:
 *Their male counterpart is Tauros. A Miltank's milk is full of nutrients that may heal the sick and the injured, and they can produce up to 5 gallons a day. Healing serious injuries may require a lot of milk.*
 
 **DexID**:: 0241
-**Species**:: Miltank
+**Name**:: Miltank
 **Type**:: Normal
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Scrappy|Scrappy]] ([[SRD-Sap Sipper|Sap Sipper]])
 **Base HP**:: 4

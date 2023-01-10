@@ -1,5 +1,4 @@
 ---
-DexID: '0025'
 Moves:
 - - Starter
   - '[[SRD-Thunder Shock|Thunder Shock]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Extreme Speed|Extreme Speed]]'
 Name: Pikachu
-Species: '[[SRD-Pikachu|Pikachu]]'
+Pokedex: '[[SRD-Pikachu|Pikachu]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

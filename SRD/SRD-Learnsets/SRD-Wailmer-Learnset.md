@@ -1,5 +1,4 @@
 ---
-DexID: '0320'
 Moves:
 - - Starter
   - '[[SRD-Splash|Splash]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Defense Curl|Defense Curl]]'
 Name: Wailmer
-Species: '[[SRD-Wailmer|Wailmer]]'
+Pokedex: '[[SRD-Wailmer|Wailmer]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

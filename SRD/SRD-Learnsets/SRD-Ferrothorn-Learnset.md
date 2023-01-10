@@ -1,5 +1,4 @@
 ---
-DexID: 0597
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Ferrothorn
-Species: '[[SRD-Ferrothorn|Ferrothorn]]'
+Pokedex: '[[SRD-Ferrothorn|Ferrothorn]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

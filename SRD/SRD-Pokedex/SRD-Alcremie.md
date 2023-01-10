@@ -1,7 +1,6 @@
 ---
 Ability1: Sweet Veil
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-alcremie-BookSprite.png
 BoxSprite: SRD-alcremie-BoxSprite.png
 DexCategory: Cream Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Milcery]]'
   Special: Berry & spin
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Aroma Veil
 HomeSprite: SRD-alcremie-HomeSprite.png
+Image: alcremie.png
 Learnset: '[[SRD-Alcremie-Learnset]]'
 Legendary: 'No'
-Name: Alcremie
 Number: 869
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: Amorphous
 ShuffleToken: SRD-alcremie-ShuffleToken.png
-Sprite: alcremie.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 5
   Kilograms: 0.5
   Pounds: 1.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *There is a vast number of recipes to evolve an Alcremie, changing their color and flavor, some are sweet, some are sour but they are all delicious. Cakes baked with its help can be sold for a lot of money.*
 
 **DexID**:: 0869
-**Species**:: Alcremie
+**Name**:: Alcremie
 **Type**:: Fairy
 **Abilities**:: [[SRD-Sweet Veil|Sweet Veil]] ([[SRD-Aroma Veil|Aroma Veil]])
 **Base HP**:: 4

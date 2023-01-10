@@ -1,7 +1,6 @@
 ---
 Ability1: Poison Point
 Ability2: Rivalry
-Baby: 'No'
 BookSprite: SRD-nidoking-BookSprite.png
 BoxSprite: SRD-nidoking-BoxSprite.png
 DexCategory: Drill Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Nidorino]]'
 GenderType: M
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Sheer Force
 HomeSprite: SRD-nidoking-HomeSprite.png
+Image: nidoking.png
 Learnset: '[[SRD-Nidoking-Learnset]]'
 Legendary: 'No'
-Name: Nidoking
 Number: 34
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Field
 ShuffleToken: SRD-nidoking-ShuffleToken.png
-Sprite: nidoking.png
 Type1: Poison
 Type2: Ground
 Weight:
-  Hectograms: 620
   Kilograms: 62.0
   Pounds: 136.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is recognized by its rock-hard hide and its extended horn. Be careful with the horn as it contains venom. There are records of one trampling and destroying a radio tower that was being built on his territory.*
 
 **DexID**:: 0034
-**Species**:: Nidoking
+**Name**:: Nidoking
 **Type**:: Poison / Ground
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Rivalry|Rivalry]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 5

@@ -1,7 +1,6 @@
 ---
 Ability1: Sand Veil
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-garchomp-BookSprite.png
 BoxSprite: SRD-garchomp-BoxSprite.png
 DexCategory: Mach Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Garchompite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Garchomp]]'
+  Pokemon: '[[SRD-Garchomp (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 19
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Rough Skin
 HomeSprite: SRD-garchomp-HomeSprite.png
+Image: garchomp.png
 Learnset: '[[SRD-Garchomp-Learnset]]'
 Legendary: 'No'
-Name: Garchomp
 Number: 445
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-garchomp-ShuffleToken.png
-Sprite: garchomp.png
 Type1: Dragon
 Type2: Ground
 Weight:
-  Hectograms: 950
   Kilograms: 95.0
   Pounds: 209.4
 ---
@@ -57,7 +50,7 @@ Weight:
 *Garchomps are scarce in the wild and very dangerous. It folds its arms and uses its fins to fly extremely fast at low heights. Territorial and aggressive it will not rest until it catches any daring trespasser.*
 
 **DexID**:: 0445
-**Species**:: Garchomp
+**Name**:: Garchomp
 **Type**:: Dragon / Ground
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] ([[SRD-Rough Skin|Rough Skin]])
 **Base HP**:: 6
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-| Evolves   | Pokemon               | Kind   | Speed   | Item        |
-|:----------|:----------------------|:-------|:--------|:------------|
-| From      | [[SRD-Gabite]]        | Level  | Slow    |             |
-| To        | [[SRD-Mega-Garchomp]] | Mega   |         | Garchompite |
+| Evolves   | Pokemon                      | Kind   | Speed   | Item        |
+|:----------|:-----------------------------|:-------|:--------|:------------|
+| From      | [[SRD-Gabite]]               | Level  | Slow    |             |
+| To        | [[SRD-Garchomp (Mega Form)]] | Mega   |         | Garchompite |
 
 ![[SRD-Garchomp-Learnset]]

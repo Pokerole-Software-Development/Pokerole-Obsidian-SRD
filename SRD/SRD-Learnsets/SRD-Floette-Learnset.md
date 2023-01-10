@@ -1,5 +1,4 @@
 ---
-DexID: '0671'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Magic Coat|Magic Coat]]'
 Name: Floette
-Species: '[[SRD-Floette|Floette]]'
+Pokedex: '[[SRD-Floette|Floette]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

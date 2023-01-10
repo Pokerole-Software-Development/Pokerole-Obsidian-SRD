@@ -1,5 +1,4 @@
 ---
-DexID: '0627'
 Moves:
 - - Starter
   - '[[SRD-Pursuit|Pursuit]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Bouffalant
-Species: '[[SRD-Bouffalant|Bouffalant]]'
+Pokedex: '[[SRD-Bouffalant|Bouffalant]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

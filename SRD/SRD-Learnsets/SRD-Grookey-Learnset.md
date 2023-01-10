@@ -1,5 +1,4 @@
 ---
-DexID: 0811
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Leech Seed|Leech Seed]]'
 Name: Grookey
-Species: '[[SRD-Grookey|Grookey]]'
+Pokedex: '[[SRD-Grookey|Grookey]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

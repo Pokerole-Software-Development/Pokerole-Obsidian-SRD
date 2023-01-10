@@ -1,5 +1,4 @@
 ---
-DexID: 0629
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Hurricane|Hurricane]]'
 Name: Braviary
-Species: '[[SRD-Braviary|Braviary]]'
+Pokedex: '[[SRD-Braviary|Braviary]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

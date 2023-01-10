@@ -1,7 +1,6 @@
 ---
 Ability1: Swarm
 Ability2: Compound Eyes
-Baby: 'No'
 BookSprite: SRD-blipbug-BookSprite.png
 BoxSprite: SRD-blipbug-BoxSprite.png
 DexCategory: Larva Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Dottler]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Telepathy
 HomeSprite: SRD-blipbug-HomeSprite.png
+Image: blipbug.png
 Learnset: '[[SRD-Blipbug-Learnset]]'
 Legendary: 'No'
-Name: Blipbug
 Number: 824
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-blipbug-ShuffleToken.png
-Sprite: blipbug.png
 Type1: Bug
 Type2: ''
 Weight:
-  Hectograms: 80
   Kilograms: 8.0
   Pounds: 17.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *Often found in gardens, Blipbug has hairs on its body that it uses to assess its surroundings. They are very smart and easy to teach but they are not very strong and other Pokemon bully them often.*
 
 **DexID**:: 0824
-**Species**:: Blipbug
+**Name**:: Blipbug
 **Type**:: Bug
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Compound Eyes|Compound Eyes]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 3

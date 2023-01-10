@@ -1,7 +1,6 @@
 ---
 Ability1: Sand Stream
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-hippowdon-BookSprite.png
 BoxSprite: SRD-hippowdon-BoxSprite.png
 DexCategory: Heavyweight Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Hippopotas]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 20
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Sand Force
 HomeSprite: SRD-hippowdon-HomeSprite.png
+Image: hippowdon.png
 Learnset: '[[SRD-Hippowdon-Learnset]]'
 Legendary: 'No'
-Name: Hippowdon
 Number: 450
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-hippowdon-ShuffleToken.png
-Sprite: hippowdon.png
 Type1: Ground
 Type2: ''
 Weight:
-  Hectograms: 3000
   Kilograms: 300.0
   Pounds: 661.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *It becomes territorial and aggressive after evolving. Its open mouth stands over 7 ft. tall. There are records of one that came out of the sand and crushed a truck that was passing over its territory.*
 
 **DexID**:: 0450
-**Species**:: Hippowdon
+**Name**:: Hippowdon
 **Type**:: Ground
 **Abilities**:: [[SRD-Sand Stream|Sand Stream]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 5

@@ -1,5 +1,4 @@
 ---
-DexID: '0410'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Counter|Counter]]'
 Name: Shieldon
-Species: '[[SRD-Shieldon|Shieldon]]'
+Pokedex: '[[SRD-Shieldon|Shieldon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

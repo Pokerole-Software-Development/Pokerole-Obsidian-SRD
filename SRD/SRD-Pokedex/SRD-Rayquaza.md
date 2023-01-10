@@ -1,7 +1,6 @@
 ---
 Ability1: Air Lock
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-rayquaza-BookSprite.png
 BoxSprite: SRD-rayquaza-BoxSprite.png
 DexCategory: No Data
@@ -13,27 +12,21 @@ Evolutions:
 - Evolves: To
   Item: Pokeball
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Rayquaza]]'
+  Pokemon: '[[SRD-Rayquaza (Mega Form)]]'
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 70
   Feet: 23.0
   Meters: 7.0
 HiddenAbility: ''
 HomeSprite: SRD-rayquaza-HomeSprite.png
+Image: rayquaza.png
 Learnset: '[[SRD-Rayquaza-Learnset]]'
 Legendary: 'Yes'
-Name: Rayquaza
 Number: 384
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-rayquaza-ShuffleToken.png
-Sprite: rayquaza.png
 Type1: Dragon
 Type2: Flying
 Weight:
-  Hectograms: 2065
   Kilograms: 206.5
   Pounds: 455.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *The legend tells how Rayquaza lived in the outer layer of this world. It came to end the quarrel between Groudon and Kyogre, granted the world with blue skies and then left.*
 
 **DexID**:: 0384
-**Species**:: Rayquaza
+**Name**:: Rayquaza
 **Type**:: Dragon / Flying
 **Abilities**:: [[SRD-Air Lock|Air Lock]]
 **Base HP**:: 8
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-| Evolves   | Pokemon               | Kind   | Item     |
-|:----------|:----------------------|:-------|:---------|
-| To        | [[SRD-Mega-Rayquaza]] | Mega   | Pokeball |
+| Evolves   | Pokemon                      | Kind   | Item     |
+|:----------|:-----------------------------|:-------|:---------|
+| To        | [[SRD-Rayquaza (Mega Form)]] | Mega   | Pokeball |
 
 ![[SRD-Rayquaza-Learnset]]

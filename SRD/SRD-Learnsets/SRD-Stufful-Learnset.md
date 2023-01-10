@@ -1,5 +1,4 @@
 ---
-DexID: 0758
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Ice Punch|Ice Punch]]'
 Name: Stufful
-Species: '[[SRD-Stufful|Stufful]]'
+Pokedex: '[[SRD-Stufful|Stufful]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

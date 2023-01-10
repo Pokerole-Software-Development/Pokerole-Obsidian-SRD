@@ -1,5 +1,4 @@
 ---
-DexID: 0813
 Moves:
 - - Starter
   - '[[SRD-Drum Beating|Drum Beating]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Frenzy Plant|Frenzy Plant]]'
 Name: Rillaboom
-Species: '[[SRD-Rillaboom|Rillaboom]]'
+Pokedex: '[[SRD-Rillaboom|Rillaboom]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

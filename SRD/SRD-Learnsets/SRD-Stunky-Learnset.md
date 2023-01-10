@@ -1,5 +1,4 @@
 ---
-DexID: '0434'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Flame Burst|Flame Burst]]'
 Name: Stunky
-Species: '[[SRD-Stunky|Stunky]]'
+Pokedex: '[[SRD-Stunky|Stunky]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

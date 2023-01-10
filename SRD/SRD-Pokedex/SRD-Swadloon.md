@@ -1,7 +1,6 @@
 ---
 Ability1: Leaf Guard
 Ability2: Chlorophyll
-Baby: 'No'
 BookSprite: SRD-swadloon-BookSprite.png
 BoxSprite: SRD-swadloon-BoxSprite.png
 DexCategory: Leaf-Wrapped Pokemon
@@ -20,25 +19,19 @@ Evolutions:
   Stat: Happiness
   Value: 4
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Overcoat
 HomeSprite: SRD-swadloon-HomeSprite.png
+Image: swadloon.png
 Learnset: '[[SRD-Swadloon-Learnset]]'
 Legendary: 'No'
-Name: Swadloon
 Number: 541
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-swadloon-ShuffleToken.png
-Sprite: swadloon.png
 Type1: Bug
 Type2: Grass
 Weight:
-  Hectograms: 73
   Kilograms: 7.3
   Pounds: 16.1
 ---
@@ -58,7 +51,7 @@ Weight:
 *Preferring dark and damp places, it spends the entire day inside rotting logs. It protects itself from the cold by wrapping up in leaves. It’s kind of moody and it likes to remain undisturbed.*
 
 **DexID**:: 0541
-**Species**:: Swadloon
+**Name**:: Swadloon
 **Type**:: Bug / Grass
 **Abilities**:: [[SRD-Leaf Guard|Leaf Guard]] / [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 4

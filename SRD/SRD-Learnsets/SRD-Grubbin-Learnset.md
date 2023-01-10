@@ -1,5 +1,4 @@
 ---
-DexID: '0737'
 Moves:
 - - Starter
   - '[[SRD-Vice Grip|Vice Grip]]'
@@ -36,14 +35,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Grubbin
-Species: '[[SRD-Grubbin|Grubbin]]'
+Pokedex: '[[SRD-Grubbin|Grubbin]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

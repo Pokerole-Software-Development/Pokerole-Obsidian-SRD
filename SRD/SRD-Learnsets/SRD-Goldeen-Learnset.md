@@ -1,5 +1,4 @@
 ---
-DexID: 0118
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Drill Run|Drill Run]]'
 Name: Goldeen
-Species: '[[SRD-Goldeen|Goldeen]]'
+Pokedex: '[[SRD-Goldeen|Goldeen]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

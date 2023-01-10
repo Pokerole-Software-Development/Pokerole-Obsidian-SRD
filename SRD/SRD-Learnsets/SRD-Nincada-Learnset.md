@@ -1,5 +1,4 @@
 ---
-DexID: 0290
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Nincada
-Species: '[[SRD-Nincada|Nincada]]'
+Pokedex: '[[SRD-Nincada|Nincada]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

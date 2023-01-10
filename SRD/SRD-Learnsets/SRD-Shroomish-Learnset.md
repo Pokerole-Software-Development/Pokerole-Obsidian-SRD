@@ -1,5 +1,4 @@
 ---
-DexID: 0285
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Shroomish
-Species: '[[SRD-Shroomish|Shroomish]]'
+Pokedex: '[[SRD-Shroomish|Shroomish]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

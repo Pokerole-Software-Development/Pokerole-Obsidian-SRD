@@ -1,5 +1,4 @@
 ---
-DexID: '0245'
 Moves:
 - - Master
   - '[[SRD-Bite|Bite]]'
@@ -44,14 +43,14 @@ Moves:
 - - Master
   - '[[SRD-Sheer Cold|Sheer Cold]]'
 Name: Suicune
-Species: '[[SRD-Suicune|Suicune]]'
+Pokedex: '[[SRD-Suicune|Suicune]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

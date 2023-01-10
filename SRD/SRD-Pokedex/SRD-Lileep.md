@@ -1,7 +1,6 @@
 ---
 Ability1: Suction Cups
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-lileep-BookSprite.png
 BoxSprite: SRD-lileep-BoxSprite.png
 DexCategory: Sea Lily Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Cradily]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Storm Drain
 HomeSprite: SRD-lileep-HomeSprite.png
+Image: lileep.png
 Learnset: '[[SRD-Lileep-Learnset]]'
 Legendary: 'No'
-Name: Lileep
 Number: 345
-PrimaryEggGroup: Water 3
-SecondaryEggGroup: ''
 ShuffleToken: SRD-lileep-ShuffleToken.png
-Sprite: lileep.png
 Type1: Rock
 Type2: Grass
 Weight:
-  Hectograms: 238
   Kilograms: 23.8
   Pounds: 52.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *Over 100 million years ago, Lileep used to attach themselves to rocks at the bottom of the sea. A catastrophe led them all to extinction. A few fossils were found and some were revived by scientists.*
 
 **DexID**:: 0345
-**Species**:: Lileep
+**Name**:: Lileep
 **Type**:: Rock / Grass
 **Abilities**:: [[SRD-Suction Cups|Suction Cups]] ([[SRD-Storm Drain|Storm Drain]])
 **Base HP**:: 3

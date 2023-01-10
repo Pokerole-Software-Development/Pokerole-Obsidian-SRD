@@ -1,5 +1,4 @@
 ---
-DexID: '0347'
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Jet|Aqua Jet]]'
 Name: Anorith
-Species: '[[SRD-Anorith|Anorith]]'
+Pokedex: '[[SRD-Anorith|Anorith]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

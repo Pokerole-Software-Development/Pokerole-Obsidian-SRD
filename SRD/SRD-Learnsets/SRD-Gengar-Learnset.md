@@ -1,5 +1,4 @@
 ---
-DexID: 0094
 Moves:
 - - Starter
   - '[[SRD-Spite|Spite]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Giga Drain|Giga Drain]]'
 Name: Gengar
-Species: '[[SRD-Gengar|Gengar]]'
+Pokedex: '[[SRD-Gengar|Gengar]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

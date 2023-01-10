@@ -1,7 +1,6 @@
 ---
 Ability1: Inner Focus
 Ability2: Ice Body
-Baby: 'No'
 BookSprite: SRD-snorunt-BookSprite.png
 BoxSprite: SRD-snorunt-BoxSprite.png
 DexCategory: Snow Hat Pokemon
@@ -21,25 +20,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Froslass]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Moody
 HomeSprite: SRD-snorunt-HomeSprite.png
+Image: snorunt.png
 Learnset: '[[SRD-Snorunt-Learnset]]'
 Legendary: 'No'
-Name: Snorunt
 Number: 361
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: Mineral
 ShuffleToken: SRD-snorunt-ShuffleToken.png
-Sprite: snorunt.png
 Type1: Ice
 Type2: ''
 Weight:
-  Hectograms: 168
   Kilograms: 16.8
   Pounds: 37.0
 ---
@@ -59,7 +52,7 @@ Weight:
 *This friendly Pokemon lives in cold mountains and deserted snowlands. It survives by eating snow and ice. They form small groups to protect themselves from predators. If you take their hat off, they will get angry.*
 
 **DexID**:: 0361
-**Species**:: Snorunt
+**Name**:: Snorunt
 **Type**:: Ice
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] / [[SRD-Ice Body|Ice Body]] ([[SRD-Moody|Moody]])
 **Base HP**:: 3

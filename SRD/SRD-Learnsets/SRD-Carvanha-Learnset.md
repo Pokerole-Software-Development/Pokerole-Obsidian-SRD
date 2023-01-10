@@ -1,5 +1,4 @@
 ---
-DexID: 0318
 Moves:
 - - Starter
   - '[[SRD-Bite|Bite]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Bounce|Bounce]]'
 Name: Carvanha
-Species: '[[SRD-Carvanha|Carvanha]]'
+Pokedex: '[[SRD-Carvanha|Carvanha]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0151'
 Moves:
 - - Master
   - '[[SRD-Pound|Pound]]'
@@ -30,14 +29,14 @@ Moves:
 - - Master
   - '[[SRD-Any Move|Any Move]]'
 Name: Mew
-Species: '[[SRD-Mew|Mew]]'
+Pokedex: '[[SRD-Mew|Mew]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

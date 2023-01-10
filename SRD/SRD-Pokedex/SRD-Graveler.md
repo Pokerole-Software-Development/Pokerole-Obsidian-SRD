@@ -1,7 +1,6 @@
 ---
 Ability1: Rock Head
 Ability2: Sturdy
-Baby: 'No'
 BookSprite: SRD-graveler-BookSprite.png
 BoxSprite: SRD-graveler-BoxSprite.png
 DexCategory: Rock Pokemon
@@ -18,25 +17,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Golem]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Sand Veil
 HomeSprite: SRD-graveler-HomeSprite.png
+Image: graveler.png
 Learnset: '[[SRD-Graveler-Learnset]]'
 Legendary: 'No'
-Name: Graveler
 Number: 75
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-graveler-ShuffleToken.png
-Sprite: graveler.png
 Type1: Rock
 Type2: Ground
 Weight:
-  Hectograms: 1050
   Kilograms: 105.0
   Pounds: 231.5
 ---
@@ -56,7 +49,7 @@ Weight:
 *It walks slowly, but it can get a nice speed by rolling downhill. It is good at climbing. Groups of them have been seen clinging from rock formations and cliffs to eat the tasty rocks covered in moss.*
 
 **DexID**:: 0075
-**Species**:: Graveler
+**Name**:: Graveler
 **Type**:: Rock / Ground
 **Abilities**:: [[SRD-Rock Head|Rock Head]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Sand Veil|Sand Veil]])
 **Base HP**:: 4

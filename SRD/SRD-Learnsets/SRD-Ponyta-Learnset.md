@@ -1,5 +1,4 @@
 ---
-DexID: '0077'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Hypnosis|Hypnosis]]'
 Name: Ponyta
-Species: '[[SRD-Ponyta|Ponyta]]'
+Pokedex: '[[SRD-Ponyta|Ponyta]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

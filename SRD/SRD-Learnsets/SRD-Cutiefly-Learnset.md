@@ -1,5 +1,4 @@
 ---
-DexID: 0741F3
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Speed Swap|Speed Swap]]'
 Name: Cutiefly
-Species: '[[SRD-Cutiefly|Cutiefly]]'
+Pokedex: '[[SRD-Cutiefly|Cutiefly]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Clear Body
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-registeel-BookSprite.png
 BoxSprite: SRD-registeel-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: His body was indestructible. A flexible metal out of this world 
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 19
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Light Metal
 HomeSprite: SRD-registeel-HomeSprite.png
+Image: registeel.png
 Learnset: '[[SRD-Registeel-Learnset]]'
 Legendary: 'Yes'
-Name: Registeel
 Number: 379
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-registeel-ShuffleToken.png
-Sprite: registeel.png
 Type1: Steel
 Type2: ''
 Weight:
-  Hectograms: 2050
   Kilograms: 205.0
   Pounds: 451.9
 ---
@@ -49,7 +42,7 @@ Weight:
 *His body was indestructible. A flexible metal out of this world that can shrink, expand, made solid or liquid at the speed of thought. Could the myths be true?*
 
 **DexID**:: 0379
-**Species**:: Registeel
+**Name**:: Registeel
 **Type**:: Steel
 **Abilities**:: [[SRD-Clear Body|Clear Body]] ([[SRD-Light Metal|Light Metal]])
 **Base HP**:: 4

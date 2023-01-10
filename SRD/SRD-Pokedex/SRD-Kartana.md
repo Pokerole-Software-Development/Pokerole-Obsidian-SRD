@@ -1,7 +1,6 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-kartana-BookSprite.png
 BoxSprite: SRD-kartana-BoxSprite.png
 DexCategory: 'Aether Foundation Log #014'
@@ -11,25 +10,19 @@ DexDescription: Its paper-thin body and agility make it too dangerous to approac
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-kartana-HomeSprite.png
+Image: kartana.png
 Learnset: '[[SRD-Kartana-Learnset]]'
 Legendary: 'Yes'
-Name: Kartana
 Number: 798
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-kartana-ShuffleToken.png
-Sprite: kartana.png
 Type1: Grass
 Type2: Steel
 Weight:
-  Hectograms: 1
   Kilograms: 0.1
   Pounds: 0.2
 ---
@@ -49,7 +42,7 @@ Weight:
 *Its paper-thin body and agility make it too dangerous to approach without serious risk of injury. Our team managed to immobilize it using a heat chamber, though I swear I feel its resentment to us.*
 
 **DexID**:: 0798
-**Species**:: Kartana
+**Name**:: Kartana
 **Type**:: Grass / Steel
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 4

@@ -1,5 +1,4 @@
 ---
-DexID: 0482
 Moves:
 - - Master
   - '[[SRD-Last Resort|Last Resort]]'
@@ -38,14 +37,14 @@ Moves:
 - - Master
   - '[[SRD-Zen Headbutt|Zen Headbutt]]'
 Name: Azelf
-Species: '[[SRD-Azelf|Azelf]]'
+Pokedex: '[[SRD-Azelf|Azelf]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

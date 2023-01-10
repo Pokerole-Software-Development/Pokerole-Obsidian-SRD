@@ -1,7 +1,6 @@
 ---
 Ability1: Cute Charm
 Ability2: Normalize
-Baby: 'No'
 BookSprite: SRD-skitty-BookSprite.png
 BoxSprite: SRD-skitty-BoxSprite.png
 DexCategory: Kitten Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Delcatty]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Wonder Skin
 HomeSprite: SRD-skitty-HomeSprite.png
+Image: skitty.png
 Learnset: '[[SRD-Skitty-Learnset]]'
 Legendary: 'No'
-Name: Skitty
 Number: 300
-PrimaryEggGroup: Field
-SecondaryEggGroup: Fairy
 ShuffleToken: SRD-skitty-ShuffleToken.png
-Sprite: skitty.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 110
   Kilograms: 11.0
   Pounds: 24.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are fascinated by moving objects, even chasing their own tail without hesitation. They are cute by nature, and popular pets, but it’s hard to earn their trust in the wild. They are quite affectionate.*
 
 **DexID**:: 0300
-**Species**:: Skitty
+**Name**:: Skitty
 **Type**:: Normal
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Normalize|Normalize]] ([[SRD-Wonder Skin|Wonder Skin]])
 **Base HP**:: 3

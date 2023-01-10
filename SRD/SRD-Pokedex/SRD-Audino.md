@@ -1,7 +1,6 @@
 ---
 Ability1: Healer
 Ability2: Regenerator
-Baby: 'No'
 BookSprite: SRD-audino-BookSprite.png
 BoxSprite: SRD-audino-BoxSprite.png
 DexCategory: Hearing Pokemon
@@ -13,27 +12,21 @@ Evolutions:
 - Evolves: To
   Item: Audinite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Audino]]'
+  Pokemon: '[[SRD-Audino (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Klutz
 HomeSprite: SRD-audino-HomeSprite.png
+Image: audino.png
 Learnset: '[[SRD-Audino-Learnset]]'
 Legendary: 'No'
-Name: Audino
 Number: 531
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-audino-ShuffleToken.png
-Sprite: audino.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 310
   Kilograms: 31.0
   Pounds: 68.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *Its auditory sense is astounding, using the feelers on it’s ears it can know the health state of others. It is a caring Pokemon with a sweet disposition to help, but it is not too common to see in the wild.*
 
 **DexID**:: 0531
-**Species**:: Audino
+**Name**:: Audino
 **Type**:: Normal
 **Abilities**:: [[SRD-Healer|Healer]] / [[SRD-Regenerator|Regenerator]] ([[SRD-Klutz|Klutz]])
 **Base HP**:: 5
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Beginner
 
-| Evolves   | Pokemon             | Kind   | Item     |
-|:----------|:--------------------|:-------|:---------|
-| To        | [[SRD-Mega-Audino]] | Mega   | Audinite |
+| Evolves   | Pokemon                    | Kind   | Item     |
+|:----------|:---------------------------|:-------|:---------|
+| To        | [[SRD-Audino (Mega Form)]] | Mega   | Audinite |
 
 ![[SRD-Audino-Learnset]]

@@ -1,7 +1,6 @@
 ---
 Ability1: Flash Fire
 Ability2: White Smoke
-Baby: 'No'
 BookSprite: SRD-sizzlipede-BookSprite.png
 BoxSprite: SRD-sizzlipede-BoxSprite.png
 DexCategory: Radiator Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Centiskorch]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Flame Body
 HomeSprite: SRD-sizzlipede-HomeSprite.png
+Image: sizzlipede.png
 Learnset: '[[SRD-Sizzlipede-Learnset]]'
 Legendary: 'No'
-Name: Sizzlipede
 Number: 850
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-sizzlipede-ShuffleToken.png
-Sprite: sizzlipede.png
 Type1: Fire
 Type2: Bug
 Weight:
-  Hectograms: 10
   Kilograms: 1.0
   Pounds: 2.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get very hot. It wraps prey with its body heated to cook them, the it nibbles them down until nothing remains.*
 
 **DexID**:: 0850
-**Species**:: Sizzlipede
+**Name**:: Sizzlipede
 **Type**:: Fire / Bug
 **Abilities**:: [[SRD-Flash Fire|Flash Fire]] / [[SRD-White Smoke|White Smoke]] ([[SRD-Flame Body|Flame Body]])
 **Base HP**:: 3

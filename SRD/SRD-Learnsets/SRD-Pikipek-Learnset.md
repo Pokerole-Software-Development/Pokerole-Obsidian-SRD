@@ -1,5 +1,4 @@
 ---
-DexID: '0730'
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Mirror Move|Mirror Move]]'
 Name: Pikipek
-Species: '[[SRD-Pikipek|Pikipek]]'
+Pokedex: '[[SRD-Pikipek|Pikipek]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

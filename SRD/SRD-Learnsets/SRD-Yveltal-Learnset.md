@@ -1,5 +1,4 @@
 ---
-DexID: 0718
 Moves:
 - - Master
   - '[[SRD-Hurricane|Hurricane]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Defog|Defog]]'
 Name: Yveltal
-Species: '[[SRD-Yveltal|Yveltal]]'
+Pokedex: '[[SRD-Yveltal|Yveltal]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

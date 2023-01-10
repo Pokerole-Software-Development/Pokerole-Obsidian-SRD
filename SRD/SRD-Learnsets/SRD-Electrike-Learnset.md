@@ -1,5 +1,4 @@
 ---
-DexID: 0309
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Crunch|Crunch]]'
 Name: Electrike
-Species: '[[SRD-Electrike|Electrike]]'
+Pokedex: '[[SRD-Electrike|Electrike]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

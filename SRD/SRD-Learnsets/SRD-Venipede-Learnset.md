@@ -1,5 +1,4 @@
 ---
-DexID: '0543'
 Moves:
 - - Starter
   - '[[SRD-Defense Curl|Defense Curl]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Pin Missile|Pin Missile]]'
 Name: Venipede
-Species: '[[SRD-Venipede|Venipede]]'
+Pokedex: '[[SRD-Venipede|Venipede]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

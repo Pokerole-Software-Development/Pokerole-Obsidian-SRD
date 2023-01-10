@@ -1,5 +1,4 @@
 ---
-DexID: '0323'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Camerupt
-Species: '[[SRD-Camerupt|Camerupt]]'
+Pokedex: '[[SRD-Camerupt|Camerupt]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

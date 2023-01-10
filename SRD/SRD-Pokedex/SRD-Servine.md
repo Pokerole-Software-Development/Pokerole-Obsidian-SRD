@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-servine-BookSprite.png
 BoxSprite: SRD-servine-BoxSprite.png
 DexCategory: Grass Snake Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Serperior]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Contrary
 HomeSprite: SRD-servine-HomeSprite.png
+Image: servine.png
 Learnset: '[[SRD-Servine-Learnset]]'
 Legendary: 'No'
-Name: Servine
 Number: 496
-PrimaryEggGroup: Field
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-servine-ShuffleToken.png
-Sprite: servine.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 160
   Kilograms: 16.0
   Pounds: 35.3
 ---
@@ -57,7 +50,7 @@ Weight:
 *It moves along the ground by sliding. Its swift movements befuddle its foes, then attacks with a vine whip. It always keeps itself clean and it demands care from its trainer, otherwise it will misbehave.*
 
 **DexID**:: 0496
-**Species**:: Servine
+**Name**:: Servine
 **Type**:: Grass
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Contrary|Contrary]])
 **Base HP**:: 4

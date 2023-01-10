@@ -1,5 +1,4 @@
 ---
-DexID: '0447'
 Moves:
 - - Starter
   - '[[SRD-Foresight|Foresight]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Aura Sphere|Aura Sphere]]'
 Name: Riolu
-Species: '[[SRD-Riolu|Riolu]]'
+Pokedex: '[[SRD-Riolu|Riolu]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

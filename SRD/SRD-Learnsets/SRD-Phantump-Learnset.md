@@ -1,5 +1,4 @@
 ---
-DexID: '0707'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Worry Seed|Worry Seed]]'
 Name: Phantump
-Species: '[[SRD-Phantump|Phantump]]'
+Pokedex: '[[SRD-Phantump|Phantump]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

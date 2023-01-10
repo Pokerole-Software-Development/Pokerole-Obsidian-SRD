@@ -1,5 +1,4 @@
 ---
-DexID: '0634'
 Moves:
 - - Starter
   - '[[SRD-Tri Attack|Tri Attack]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Earth Power|Earth Power]]'
 Name: Hydreigon
-Species: '[[SRD-Hydreigon|Hydreigon]]'
+Pokedex: '[[SRD-Hydreigon|Hydreigon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

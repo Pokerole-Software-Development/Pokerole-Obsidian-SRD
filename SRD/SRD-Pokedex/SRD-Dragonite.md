@@ -1,7 +1,6 @@
 ---
 Ability1: Inner Focus
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-dragonite-BookSprite.png
 BoxSprite: SRD-dragonite-BoxSprite.png
 DexCategory: Dragon Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Dragonair]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 22
   Feet: 7.2
   Meters: 2.2
 HiddenAbility: Multiscale
 HomeSprite: SRD-dragonite-HomeSprite.png
+Image: dragonite.png
 Learnset: '[[SRD-Dragonite-Learnset]]'
 Legendary: 'No'
-Name: Dragonite
 Number: 149
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-dragonite-ShuffleToken.png
-Sprite: dragonite.png
 Type1: Dragon
 Type2: Flying
 Weight:
-  Hectograms: 2100
   Kilograms: 210.0
   Pounds: 463.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *Very few people have ever seen this Pokemon. Its intelligence matches that of humans. There are records of a Pokemon with a similar description that helped rescue a ship full of people during a hurricane.*
 
 **DexID**:: 0149
-**Species**:: Dragonite
+**Name**:: Dragonite
 **Type**:: Dragon / Flying
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] ([[SRD-Multiscale|Multiscale]])
 **Base HP**:: 6

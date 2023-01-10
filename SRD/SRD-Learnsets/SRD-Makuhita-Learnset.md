@@ -1,5 +1,4 @@
 ---
-DexID: 0296
 Moves:
 - - Starter
   - '[[SRD-Focus Energy|Focus Energy]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Detect|Detect]]'
 Name: Makuhita
-Species: '[[SRD-Makuhita|Makuhita]]'
+Pokedex: '[[SRD-Makuhita|Makuhita]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

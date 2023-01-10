@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-surskit-BookSprite.png
 BoxSprite: SRD-surskit-BoxSprite.png
 DexCategory: Pond Skater Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Masquerain]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Rain Dish
 HomeSprite: SRD-surskit-HomeSprite.png
+Image: surskit.png
 Learnset: '[[SRD-Surskit-Learnset]]'
 Legendary: 'No'
-Name: Surskit
 Number: 283
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Bug
 ShuffleToken: SRD-surskit-ShuffleToken.png
-Sprite: surskit.png
 Type1: Bug
 Type2: Water
 Weight:
-  Hectograms: 17
   Kilograms: 1.7
   Pounds: 3.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *Surskit secretes oil from its feet to skate on water. It may be found on ponds, lakes and puddles in towns. The tip of its head produces a delicious sugary syrup often used in desserts and sweets.*
 
 **DexID**:: 0283
-**Species**:: Surskit
+**Name**:: Surskit
 **Type**:: Bug / Water
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] ([[SRD-Rain Dish|Rain Dish]])
 **Base HP**:: 3

@@ -1,7 +1,6 @@
 ---
 Ability1: Overcoat
 Ability2: Magic Guard
-Baby: 'No'
 BookSprite: SRD-duosion-BookSprite.png
 BoxSprite: SRD-duosion-BoxSprite.png
 DexCategory: Mitosis Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Reuniclus]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Regenerator
 HomeSprite: SRD-duosion-HomeSprite.png
+Image: duosion.png
 Learnset: '[[SRD-Duosion-Learnset]]'
 Legendary: 'No'
-Name: Duosion
 Number: 578
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-duosion-ShuffleToken.png
-Sprite: duosion.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 80
   Kilograms: 8.0
   Pounds: 17.6
 ---
@@ -57,7 +50,7 @@ Weight:
 *It developed two brains when it evolved, due to this it has a split personality. At times it may suddenly try to take two different actions at once. When the two brains finally synchronize it shows it’s max power.*
 
 **DexID**:: 0578
-**Species**:: Duosion
+**Name**:: Duosion
 **Type**:: Psychic
 **Abilities**:: [[SRD-Overcoat|Overcoat]] / [[SRD-Magic Guard|Magic Guard]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 4

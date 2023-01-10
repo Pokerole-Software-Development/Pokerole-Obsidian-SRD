@@ -1,7 +1,6 @@
 ---
 Ability1: Shed Skin
 Ability2: Moxie
-Baby: 'No'
 BookSprite: SRD-scraggy-BookSprite.png
 BoxSprite: SRD-scraggy-BoxSprite.png
 DexCategory: Shedding Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Scrafty]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Intimidate
 HomeSprite: SRD-scraggy-HomeSprite.png
+Image: scraggy.png
 Learnset: '[[SRD-Scraggy-Learnset]]'
 Legendary: 'No'
-Name: Scraggy
 Number: 559
-PrimaryEggGroup: Field
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-scraggy-ShuffleToken.png
-Sprite: scraggy.png
 Type1: Dark
 Type2: Fighting
 Weight:
-  Hectograms: 118
   Kilograms: 11.8
   Pounds: 26.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *It sheds skin constantly, but keeps wearing it since the old skin has a rubber-like texture and it can pull it all the way up to its head. It bashes foes with headbutts and is known for making dirty moves on fights.*
 
 **DexID**:: 0559
-**Species**:: Scraggy
+**Name**:: Scraggy
 **Type**:: Dark / Fighting
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]] / [[SRD-Moxie|Moxie]] ([[SRD-Intimidate|Intimidate]])
 **Base HP**:: 3

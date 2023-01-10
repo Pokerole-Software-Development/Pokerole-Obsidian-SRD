@@ -1,7 +1,6 @@
 ---
 Ability1: Snow Cloak
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-glaceon-BookSprite.png
 BoxSprite: SRD-glaceon-BoxSprite.png
 DexCategory: Fresh Snow Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Eevee]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Ice Body
 HomeSprite: SRD-glaceon-HomeSprite.png
+Image: glaceon.png
 Learnset: '[[SRD-Glaceon-Learnset]]'
 Legendary: 'No'
-Name: Glaceon
 Number: 471
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-glaceon-ShuffleToken.png
-Sprite: glaceon.png
 Type1: Ice
 Type2: ''
 Weight:
-  Hectograms: 259
   Kilograms: 25.9
   Pounds: 57.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *Eevees that are forced to live in freezing temperatures evolve into this Pokemon. It can control its body temperature to below zero, freezing its fur and making it extremely tough.*
 
 **DexID**:: 0471
-**Species**:: Glaceon
+**Name**:: Glaceon
 **Type**:: Ice
 **Abilities**:: [[SRD-Snow Cloak|Snow Cloak]] ([[SRD-Ice Body|Ice Body]])
 **Base HP**:: 4

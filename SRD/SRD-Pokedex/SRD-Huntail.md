@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-huntail-BookSprite.png
 BoxSprite: SRD-huntail-BoxSprite.png
 DexCategory: Deep Sea Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Clamperl]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 17
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Water Veil
 HomeSprite: SRD-huntail-HomeSprite.png
+Image: huntail.png
 Learnset: '[[SRD-Huntail-Learnset]]'
 Legendary: 'No'
-Name: Huntail
 Number: 367
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: ''
 ShuffleToken: SRD-huntail-ShuffleToken.png
-Sprite: huntail.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 270
   Kilograms: 27.0
   Pounds: 59.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lives at extreme depths of the sea. Their eyes can see perfectly in complete darkness. Huntails light up their tail to attract their prey, then swallow them whole with a single bite.*
 
 **DexID**:: 0367
-**Species**:: Huntail
+**Name**:: Huntail
 **Type**:: Water
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] ([[SRD-Water Veil|Water Veil]])
 **Base HP**:: 4

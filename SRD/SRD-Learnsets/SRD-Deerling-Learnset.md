@@ -1,5 +1,4 @@
 ---
-DexID: 0585
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Grass Whistle|Grass Whistle]]'
 Name: Deerling
-Species: '[[SRD-Deerling|Deerling]]'
+Pokedex: '[[SRD-Deerling|Deerling]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

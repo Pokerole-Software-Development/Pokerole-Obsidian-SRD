@@ -1,7 +1,6 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-celesteela-BookSprite.png
 BoxSprite: SRD-celesteela-BoxSprite.png
 DexCategory: 'Aether Foundation Log #019'
@@ -11,25 +10,19 @@ DexDescription: Finally some progress from the excavation site. What we thought 
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 92
   Feet: 30.2
   Meters: 9.2
 HiddenAbility: ''
 HomeSprite: SRD-celesteela-HomeSprite.png
+Image: celesteela.png
 Learnset: '[[SRD-Celesteela-Learnset]]'
 Legendary: 'Yes'
-Name: Celesteela
 Number: 797
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-celesteela-ShuffleToken.png
-Sprite: celesteela.png
 Type1: Steel
 Type2: Flying
 Weight:
-  Hectograms: 9999
   Kilograms: 999.9
   Pounds: 2204.4
 ---
@@ -49,7 +42,7 @@ Weight:
 *Finally some progress from the excavation site. What we thought was a 200 year-old relic turned out to be a creature capable of blasting itself into the air, we managed to restrain it, more research is due.*
 
 **DexID**:: 0797
-**Species**:: Celesteela
+**Name**:: Celesteela
 **Type**:: Steel / Flying
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 9

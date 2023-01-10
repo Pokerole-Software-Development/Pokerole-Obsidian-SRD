@@ -1,5 +1,4 @@
 ---
-DexID: '0470'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Flail|Flail]]'
 Name: Leafeon
-Species: '[[SRD-Leafeon|Leafeon]]'
+Pokedex: '[[SRD-Leafeon|Leafeon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

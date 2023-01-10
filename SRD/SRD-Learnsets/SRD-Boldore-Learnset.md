@@ -1,5 +1,4 @@
 ---
-DexID: '0525'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Wide Guard|Wide Guard]]'
 Name: Boldore
-Species: '[[SRD-Boldore|Boldore]]'
+Pokedex: '[[SRD-Boldore|Boldore]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

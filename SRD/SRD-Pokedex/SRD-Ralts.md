@@ -1,7 +1,6 @@
 ---
 Ability1: Synchronize
 Ability2: Trace
-Baby: 'No'
 BookSprite: SRD-ralts-BookSprite.png
 BoxSprite: SRD-ralts-BoxSprite.png
 DexCategory: Feeling Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Kirlia]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Telepathy
 HomeSprite: SRD-ralts-HomeSprite.png
+Image: ralts.png
 Learnset: '[[SRD-Ralts-Learnset]]'
 Legendary: 'No'
-Name: Ralts
 Number: 280
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: Amorphous
 ShuffleToken: SRD-ralts-ShuffleToken.png
-Sprite: ralts.png
 Type1: Psychic
 Type2: Fairy
 Weight:
-  Hectograms: 66
   Kilograms: 6.6
   Pounds: 14.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *They sense the emotions of people and Pokemon, usually sharing the mood of anyone nearby. They show if they feel joy and cheer, but hide if they sense hostility. They dislike fighting and negativity.*
 
 **DexID**:: 0280
-**Species**:: Ralts
+**Name**:: Ralts
 **Type**:: Psychic / Fairy
 **Abilities**:: [[SRD-Synchronize|Synchronize]] / [[SRD-Trace|Trace]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 3

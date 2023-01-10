@@ -1,7 +1,6 @@
 ---
 Ability1: Run Away
 Ability2: Keen Eye
-Baby: 'No'
 BookSprite: SRD-watchog-BookSprite.png
 BoxSprite: SRD-watchog-BoxSprite.png
 DexCategory: Lookout Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Patrat]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Analytic
 HomeSprite: SRD-watchog-HomeSprite.png
+Image: watchog.png
 Learnset: '[[SRD-Watchog-Learnset]]'
 Legendary: 'No'
-Name: Watchog
 Number: 505
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-watchog-ShuffleToken.png
-Sprite: watchog.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 270
   Kilograms: 27.0
   Pounds: 59.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *Their fur has a luminescent property. They make the patterns on their bodies glow in order to threaten predators. Their keen eyesight allows them to see in the dark. They are also good diggers.*
 
 **DexID**:: 0505
-**Species**:: Watchog
+**Name**:: Watchog
 **Type**:: Normal
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Keen Eye|Keen Eye]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 4

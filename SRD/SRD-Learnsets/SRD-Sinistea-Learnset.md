@@ -1,5 +1,4 @@
 ---
-DexID: 0853
 Moves:
 - - Starter
   - '[[SRD-Astonish|Astonish]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Sinistea
-Species: '[[SRD-Sinistea|Sinistea]]'
+Pokedex: '[[SRD-Sinistea|Sinistea]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

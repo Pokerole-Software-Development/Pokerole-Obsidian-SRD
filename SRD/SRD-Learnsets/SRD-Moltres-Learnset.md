@@ -1,5 +1,4 @@
 ---
-DexID: '0146'
 Moves:
 - - Master
   - '[[SRD-Wing Attack|Wing Attack]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Fly|Fly]]'
 Name: Moltres
-Species: '[[SRD-Moltres|Moltres]]'
+Pokedex: '[[SRD-Moltres|Moltres]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

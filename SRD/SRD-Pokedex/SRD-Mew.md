@@ -1,7 +1,6 @@
 ---
 Ability1: Synchronize
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-mew-BookSprite.png
 BoxSprite: SRD-mew-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: Recent investigations declare that this Pokemon could be the com
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: ''
 HomeSprite: SRD-mew-HomeSprite.png
+Image: mew.png
 Learnset: '[[SRD-Mew-Learnset]]'
 Legendary: 'Yes'
-Name: Mew
 Number: 151
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-mew-ShuffleToken.png
-Sprite: mew.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 40
   Kilograms: 4.0
   Pounds: 8.8
 ---
@@ -49,7 +42,7 @@ Weight:
 *Recent investigations declare that this Pokemon could be the common ancestor of all actual Pokemon, but it has been extinct for centuries. Some people claim to have seen one to get their 15 minutes of fame.*
 
 **DexID**:: 0151
-**Species**:: Mew
+**Name**:: Mew
 **Type**:: Psychic
 **Abilities**:: [[SRD-Synchronize|Synchronize]]
 **Base HP**:: 5

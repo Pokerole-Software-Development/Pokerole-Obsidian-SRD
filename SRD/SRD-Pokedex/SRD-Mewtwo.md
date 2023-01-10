@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-mewtwo-BookSprite.png
 BoxSprite: SRD-mewtwo-BoxSprite.png
 DexCategory: No Data
@@ -12,31 +11,25 @@ Evolutions:
 - Evolves: To
   Item: Mewtwonite Y
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Mewtwo Y]]'
+  Pokemon: '[[SRD-Mewtwo (Mega Y Form)]]'
 - Evolves: To
   Item: Mewtwonite X
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Mewtwo X]]'
+  Pokemon: '[[SRD-Mewtwo (Mega X Form)]]'
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 20
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Unnerve
 HomeSprite: SRD-mewtwo-HomeSprite.png
+Image: mewtwo.png
 Learnset: '[[SRD-Mewtwo-Learnset]]'
 Legendary: 'Yes'
-Name: Mewtwo
 Number: 150
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-mewtwo-ShuffleToken.png
-Sprite: mewtwo.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 1220
   Kilograms: 122.0
   Pounds: 269.0
 ---
@@ -56,7 +49,7 @@ Weight:
 *An article in a science magazine talked about how much cloning research was progressing, but... could it be?*
 
 **DexID**:: 0150
-**Species**:: Mewtwo
+**Name**:: Mewtwo
 **Type**:: Psychic
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 5
@@ -74,9 +67,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-| Evolves   | Pokemon               | Kind   | Item         |
-|:----------|:----------------------|:-------|:-------------|
-| To        | [[SRD-Mega-Mewtwo Y]] | Mega   | Mewtwonite Y |
-| To        | [[SRD-Mega-Mewtwo X]] | Mega   | Mewtwonite X |
+| Evolves   | Pokemon                      | Kind   | Item         |
+|:----------|:-----------------------------|:-------|:-------------|
+| To        | [[SRD-Mewtwo (Mega Y Form)]] | Mega   | Mewtwonite Y |
+| To        | [[SRD-Mewtwo (Mega X Form)]] | Mega   | Mewtwonite X |
 
 ![[SRD-Mewtwo-Learnset]]

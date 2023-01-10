@@ -1,5 +1,4 @@
 ---
-DexID: '0471'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Glaceon
-Species: '[[SRD-Glaceon|Glaceon]]'
+Pokedex: '[[SRD-Glaceon|Glaceon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Intimidate
 Ability2: Sand Rush
-Baby: 'No'
 BookSprite: SRD-herdier-BookSprite.png
 BoxSprite: SRD-herdier-BoxSprite.png
 DexCategory: Loyal Dog Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Stoutland]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Scrappy
 HomeSprite: SRD-herdier-HomeSprite.png
+Image: herdier.png
 Learnset: '[[SRD-Herdier-Learnset]]'
 Legendary: 'No'
-Name: Herdier
 Number: 507
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-herdier-ShuffleToken.png
-Sprite: herdier.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 147
   Kilograms: 14.7
   Pounds: 32.4
 ---
@@ -57,7 +50,7 @@ Weight:
 *It loyally follows its Trainer’s orders. For ages, they have helped Trainers to raise well behaved Pokemon. It has black, cape-like fur that is very hard and keeps it protected from the weather.*
 
 **DexID**:: 0507
-**Species**:: Herdier
+**Name**:: Herdier
 **Type**:: Normal
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Sand Rush|Sand Rush]] ([[SRD-Scrappy|Scrappy]])
 **Base HP**:: 4

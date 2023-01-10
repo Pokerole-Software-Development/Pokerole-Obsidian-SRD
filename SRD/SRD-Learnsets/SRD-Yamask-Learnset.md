@@ -1,5 +1,4 @@
 ---
-DexID: '0562'
 Moves:
 - - Starter
   - '[[SRD-Astonish|Astonish]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Role Play|Role Play]]'
 Name: Yamask
-Species: '[[SRD-Yamask|Yamask]]'
+Pokedex: '[[SRD-Yamask|Yamask]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

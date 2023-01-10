@@ -1,5 +1,4 @@
 ---
-DexID: '0402'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Mud Slap|Mud Slap]]'
 Name: Kricketune
-Species: '[[SRD-Kricketune|Kricketune]]'
+Pokedex: '[[SRD-Kricketune|Kricketune]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Swarm
 Ability2: Compound Eyes
-Baby: 'No'
 BookSprite: SRD-dottler-BookSprite.png
 BoxSprite: SRD-dottler-BoxSprite.png
 DexCategory: Radome Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Orbeetle]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Telepathy
 HomeSprite: SRD-dottler-HomeSprite.png
+Image: dottler.png
 Learnset: '[[SRD-Dottler-Learnset]]'
 Legendary: 'No'
-Name: Dottler
 Number: 825
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-dottler-ShuffleToken.png
-Sprite: dottler.png
 Type1: Bug
 Type2: Psychic
 Weight:
-  Hectograms: 195
   Kilograms: 19.5
   Pounds: 43.0
 ---
@@ -57,7 +50,7 @@ Weight:
 *It grows into its final stage inside a hard shell. It barely moves and it won’t eat or drink during this time, due to this many believe it to be dead until its psychic powers awaken and it starts communicating telepathically.*
 
 **DexID**:: 0825
-**Species**:: Dottler
+**Name**:: Dottler
 **Type**:: Bug / Psychic
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Compound Eyes|Compound Eyes]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 4

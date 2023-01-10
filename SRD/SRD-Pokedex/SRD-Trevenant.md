@@ -1,7 +1,6 @@
 ---
 Ability1: Natural Cure
 Ability2: Frisk
-Baby: 'No'
 BookSprite: SRD-trevenant-BookSprite.png
 BoxSprite: SRD-trevenant-BoxSprite.png
 DexCategory: Elder Tree Pokemon
@@ -14,25 +13,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Phantump]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Harvest
 HomeSprite: SRD-trevenant-HomeSprite.png
+Image: trevenant.png
 Learnset: '[[SRD-Trevenant-Learnset]]'
 Legendary: 'No'
-Name: Trevenant
 Number: 709
-PrimaryEggGroup: Grass
-SecondaryEggGroup: Amorphous
 ShuffleToken: SRD-trevenant-ShuffleToken.png
-Sprite: trevenant.png
 Type1: Ghost
 Type2: Grass
 Weight:
-  Hectograms: 710
   Kilograms: 71.0
   Pounds: 156.5
 ---
@@ -52,7 +45,7 @@ Weight:
 *Using its roots as a nervous system it controls the trees in the forest. It’s kind to the Pokemon that reside inside its body but it is ruthless to anyone that harms its forest, turning them into haunted trees forever.*
 
 **DexID**:: 0709
-**Species**:: Trevenant
+**Name**:: Trevenant
 **Type**:: Ghost / Grass
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]] / [[SRD-Frisk|Frisk]] ([[SRD-Harvest|Harvest]])
 **Base HP**:: 5

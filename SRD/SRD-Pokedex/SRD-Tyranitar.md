@@ -1,7 +1,6 @@
 ---
 Ability1: Sand Stream
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-tyranitar-BookSprite.png
 BoxSprite: SRD-tyranitar-BoxSprite.png
 DexCategory: Armor Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Tyranitarite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Tyranitar]]'
+  Pokemon: '[[SRD-Tyranitar (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 20
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Unnerve
 HomeSprite: SRD-tyranitar-HomeSprite.png
+Image: tyranitar.png
 Learnset: '[[SRD-Tyranitar-Learnset]]'
 Legendary: 'No'
-Name: Tyranitar
 Number: 248
-PrimaryEggGroup: Monster
-SecondaryEggGroup: ''
 ShuffleToken: SRD-tyranitar-ShuffleToken.png
-Sprite: tyranitar.png
 Type1: Rock
 Type2: Dark
 Weight:
-  Hectograms: 2020
   Kilograms: 202.0
   Pounds: 445.3
 ---
@@ -57,7 +50,7 @@ Weight:
 *Its body is hardly damaged by any attack, so it’s always eager to fight. They are extremely strong, their rage can change landscapes. Tyranitars are insolents, rebels and they care about no one.*
 
 **DexID**:: 0248
-**Species**:: Tyranitar
+**Name**:: Tyranitar
 **Type**:: Rock / Dark
 **Abilities**:: [[SRD-Sand Stream|Sand Stream]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 6
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-| Evolves   | Pokemon                | Kind   | Speed   | Item         |
-|:----------|:-----------------------|:-------|:--------|:-------------|
-| From      | [[SRD-Pupitar]]        | Level  | Slow    |              |
-| To        | [[SRD-Mega-Tyranitar]] | Mega   |         | Tyranitarite |
+| Evolves   | Pokemon                       | Kind   | Speed   | Item         |
+|:----------|:------------------------------|:-------|:--------|:-------------|
+| From      | [[SRD-Pupitar]]               | Level  | Slow    |              |
+| To        | [[SRD-Tyranitar (Mega Form)]] | Mega   |         | Tyranitarite |
 
 ![[SRD-Tyranitar-Learnset]]

@@ -1,5 +1,4 @@
 ---
-DexID: '0454'
 Moves:
 - - Starter
   - '[[SRD-Astonish|Astonish]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Dual Chop|Dual Chop]]'
 Name: Toxicroak
-Species: '[[SRD-Toxicroak|Toxicroak]]'
+Pokedex: '[[SRD-Toxicroak|Toxicroak]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

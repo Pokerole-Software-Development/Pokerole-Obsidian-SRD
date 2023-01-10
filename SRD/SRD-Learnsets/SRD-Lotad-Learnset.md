@@ -1,5 +1,4 @@
 ---
-DexID: '0270'
 Moves:
 - - Starter
   - '[[SRD-Astonish|Astonish]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Flail|Flail]]'
 Name: Lotad
-Species: '[[SRD-Lotad|Lotad]]'
+Pokedex: '[[SRD-Lotad|Lotad]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

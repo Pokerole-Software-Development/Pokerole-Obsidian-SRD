@@ -1,5 +1,4 @@
 ---
-DexID: '0231'
 Moves:
 - - Starter
   - '[[SRD-Defense Curl|Defense Curl]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Mud Slap|Mud Slap]]'
 Name: Phanpy
-Species: '[[SRD-Phanpy|Phanpy]]'
+Pokedex: '[[SRD-Phanpy|Phanpy]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

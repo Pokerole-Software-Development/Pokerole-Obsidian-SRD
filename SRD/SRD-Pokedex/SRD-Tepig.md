@@ -1,7 +1,6 @@
 ---
 Ability1: Blaze
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-tepig-BookSprite.png
 BoxSprite: SRD-tepig-BoxSprite.png
 DexCategory: Fire Pig Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Pignite]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Thick Fat
 HomeSprite: SRD-tepig-HomeSprite.png
+Image: tepig.png
 Learnset: '[[SRD-Tepig-Learnset]]'
 Legendary: 'No'
-Name: Tepig
 Number: 498
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-tepig-ShuffleToken.png
-Sprite: tepig.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 99
   Kilograms: 9.9
   Pounds: 21.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead. Tepig loves to eat roasted berries and its keen sense of smell allows it to find them easily.*
 
 **DexID**:: 0498
-**Species**:: Tepig
+**Name**:: Tepig
 **Type**:: Fire
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Thick Fat|Thick Fat]])
 **Base HP**:: 3

@@ -1,5 +1,4 @@
 ---
-DexID: '0112'
 Moves:
 - - Starter
   - '[[SRD-Horn Attack|Horn Attack]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Smart Strike|Smart Strike]]'
 Name: Rhydon
-Species: '[[SRD-Rhydon|Rhydon]]'
+Pokedex: '[[SRD-Rhydon|Rhydon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

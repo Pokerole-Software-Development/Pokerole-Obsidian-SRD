@@ -1,5 +1,4 @@
 ---
-DexID: '0762'
 Moves:
 - - Starter
   - '[[SRD-Splash|Splash]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Synthesis|Synthesis]]'
 Name: Tsareena
-Species: '[[SRD-Tsareena|Tsareena]]'
+Pokedex: '[[SRD-Tsareena|Tsareena]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

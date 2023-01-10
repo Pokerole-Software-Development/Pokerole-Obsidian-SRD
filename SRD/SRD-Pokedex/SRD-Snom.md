@@ -1,7 +1,6 @@
 ---
 Ability1: Shield Dust
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-snom-BookSprite.png
 BoxSprite: SRD-snom-BoxSprite.png
 DexCategory: Worm Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Happiness
   Value: 5
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Ice Scales
 HomeSprite: SRD-snom-HomeSprite.png
+Image: snom.png
 Learnset: '[[SRD-Snom-Learnset]]'
 Legendary: 'No'
-Name: Snom
 Number: 872
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-snom-ShuffleToken.png
-Sprite: snom.png
 Type1: Ice
 Type2: Bug
 Weight:
-  Hectograms: 38
   Kilograms: 3.8
   Pounds: 8.4
 ---
@@ -54,7 +47,7 @@ Weight:
 *It spits out thread imbued with a frigid energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps. It feeds only of snow, if it melts it will freeze it again to continue eating.*
 
 **DexID**:: 0872
-**Species**:: Snom
+**Name**:: Snom
 **Type**:: Ice / Bug
 **Abilities**:: [[SRD-Shield Dust|Shield Dust]] ([[SRD-Ice Scales|Ice Scales]])
 **Base HP**:: 3

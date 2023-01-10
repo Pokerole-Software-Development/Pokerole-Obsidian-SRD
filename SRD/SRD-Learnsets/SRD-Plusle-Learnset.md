@@ -1,5 +1,4 @@
 ---
-DexID: '0311'
 Moves:
 - - Starter
   - '[[SRD-Entrainment|Entrainment]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Mimic|Mimic]]'
 Name: Plusle
-Species: '[[SRD-Plusle|Plusle]]'
+Pokedex: '[[SRD-Plusle|Plusle]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

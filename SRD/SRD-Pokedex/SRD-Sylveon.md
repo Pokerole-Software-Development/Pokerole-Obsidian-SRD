@@ -1,7 +1,6 @@
 ---
 Ability1: Cute Charm
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-sylveon-BookSprite.png
 BoxSprite: SRD-sylveon-BoxSprite.png
 DexCategory: Intertwining Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Loyalty
   Value: 5
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Pixilate
 HomeSprite: SRD-sylveon-HomeSprite.png
+Image: sylveon.png
 Learnset: '[[SRD-Sylveon-Learnset]]'
 Legendary: 'No'
-Name: Sylveon
 Number: 700
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-sylveon-ShuffleToken.png
-Sprite: sylveon.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 235
   Kilograms: 23.5
   Pounds: 51.8
 ---
@@ -54,7 +47,7 @@ Weight:
 *This rare and adorable Pokemon emanates a soothing aura to calm disturbances. It is said that only the Trainers who form an unbreakable bond with their Eevee can ever see this Pokemon.*
 
 **DexID**:: 0700
-**Species**:: Sylveon
+**Name**:: Sylveon
 **Type**:: Fairy
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] ([[SRD-Pixilate|Pixilate]])
 **Base HP**:: 4

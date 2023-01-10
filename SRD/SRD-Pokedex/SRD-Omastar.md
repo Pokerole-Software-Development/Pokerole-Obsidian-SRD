@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: Shell Armor
-Baby: 'No'
 BookSprite: SRD-omastar-BookSprite.png
 BoxSprite: SRD-omastar-BoxSprite.png
 DexCategory: Spiral Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Omanyte]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Weak Armor
 HomeSprite: SRD-omastar-HomeSprite.png
+Image: omastar.png
 Learnset: '[[SRD-Omastar-Learnset]]'
 Legendary: 'No'
-Name: Omastar
 Number: 139
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Water 3
 ShuffleToken: SRD-omastar-ShuffleToken.png
-Sprite: omastar.png
 Type1: Rock
 Type2: Water
 Weight:
-  Hectograms: 350
   Kilograms: 35.0
   Pounds: 77.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *An Omastar used its tentacles to ensnare and capture its prey. It is believed to have become extinct because the shell grew too large, making it slow and ponderous. It is not found in the wild anymore.*
 
 **DexID**:: 0139
-**Species**:: Omastar
+**Name**:: Omastar
 **Type**:: Rock / Water
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 4

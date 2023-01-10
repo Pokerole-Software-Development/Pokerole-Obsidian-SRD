@@ -1,5 +1,4 @@
 ---
-DexID: '0462'
 Moves:
 - - Starter
   - '[[SRD-Supersonic|Supersonic]]'
@@ -58,14 +57,14 @@ Moves:
 - - Pro
   - '[[SRD-Signal Beam|Signal Beam]]'
 Name: Magnezone
-Species: '[[SRD-Magnezone|Magnezone]]'
+Pokedex: '[[SRD-Magnezone|Magnezone]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

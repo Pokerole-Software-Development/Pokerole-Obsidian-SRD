@@ -1,7 +1,6 @@
 ---
 Ability1: Water Absorb
 Ability2: Damp
-Baby: 'No'
 BookSprite: SRD-poliwhirl-BookSprite.png
 BoxSprite: SRD-poliwhirl-BoxSprite.png
 DexCategory: Tadpole Pokemon
@@ -23,25 +22,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Politoed]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Swift Swim
 HomeSprite: SRD-poliwhirl-HomeSprite.png
+Image: poliwhirl.png
 Learnset: '[[SRD-Poliwhirl-Learnset]]'
 Legendary: 'No'
-Name: Poliwhirl
 Number: 61
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: ''
 ShuffleToken: SRD-poliwhirl-ShuffleToken.png
-Sprite: poliwhirl.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 200
   Kilograms: 20.0
   Pounds: 44.1
 ---
@@ -61,7 +54,7 @@ Weight:
 *Though it is skilled at walking, it prefers to live underwater where there’s less danger. It sweats to keep its skin moist. Thanks to this, it can easily slip out of the clutches of any enemy.*
 
 **DexID**:: 0061
-**Species**:: Poliwhirl
+**Name**:: Poliwhirl
 **Type**:: Water
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] / [[SRD-Damp|Damp]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 4

@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-latios-BookSprite.png
 BoxSprite: SRD-latios-BoxSprite.png
 DexCategory: No Data
@@ -13,27 +12,21 @@ Evolutions:
 - Evolves: To
   Item: Latiasite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Latios]]'
+  Pokemon: '[[SRD-Latios (Mega Form)]]'
 GenderType: M
-HasForm: 'Yes'
 Height:
-  Deimeters: 20
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: ''
 HomeSprite: SRD-latios-HomeSprite.png
+Image: latios.png
 Learnset: '[[SRD-Latios-Learnset]]'
 Legendary: 'Yes'
-Name: Latios
 Number: 381
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-latios-ShuffleToken.png
-Sprite: latios.png
 Type1: Dragon
 Type2: Psychic
 Weight:
-  Hectograms: 600
   Kilograms: 60.0
   Pounds: 132.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *The legend tells about two Pokemon that could take human shapes, use psychic powers and become invisible. They were raised by an old couple as their own children. The boy was the oldest and wore a blue shirt.*
 
 **DexID**:: 0381
-**Species**:: Latios
+**Name**:: Latios
 **Type**:: Dragon / Psychic
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-| Evolves   | Pokemon             | Kind   | Item      |
-|:----------|:--------------------|:-------|:----------|
-| To        | [[SRD-Mega-Latios]] | Mega   | Latiasite |
+| Evolves   | Pokemon                    | Kind   | Item      |
+|:----------|:---------------------------|:-------|:----------|
+| To        | [[SRD-Latios (Mega Form)]] | Mega   | Latiasite |
 
 ![[SRD-Latios-Learnset]]

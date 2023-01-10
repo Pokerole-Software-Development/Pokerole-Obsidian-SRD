@@ -1,5 +1,4 @@
 ---
-DexID: '0733'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Mirror Move|Mirror Move]]'
 Name: Trumbeak
-Species: '[[SRD-Trumbeak|Trumbeak]]'
+Pokedex: '[[SRD-Trumbeak|Trumbeak]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

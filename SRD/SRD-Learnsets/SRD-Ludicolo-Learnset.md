@@ -1,5 +1,4 @@
 ---
-DexID: '0272'
 Moves:
 - - Starter
   - '[[SRD-Astonish|Astonish]]'
@@ -22,14 +21,14 @@ Moves:
 - - Pro
   - '[[SRD-Entrainment|Entrainment]]'
 Name: Ludicolo
-Species: '[[SRD-Ludicolo|Ludicolo]]'
+Pokedex: '[[SRD-Ludicolo|Ludicolo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

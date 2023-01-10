@@ -1,7 +1,6 @@
 ---
 Ability1: Sand Veil
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-cacturne-BookSprite.png
 BoxSprite: SRD-cacturne-BoxSprite.png
 DexCategory: Scarecrow Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Cacnea]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Water Absorb
 HomeSprite: SRD-cacturne-HomeSprite.png
+Image: cacturne.png
 Learnset: '[[SRD-Cacturne-Learnset]]'
 Legendary: 'No'
-Name: Cacturne
 Number: 332
-PrimaryEggGroup: Grass
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-cacturne-ShuffleToken.png
-Sprite: cacturne.png
 Type1: Grass
 Type2: Dark
 Weight:
-  Hectograms: 774
   Kilograms: 77.4
   Pounds: 170.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *They only move during the night. If they spot a traveler, Cacturnes will stalk them in groups, waiting for the exhausted creatures to sleep before attacking. Their insides are actually sand.*
 
 **DexID**:: 0332
-**Species**:: Cacturne
+**Name**:: Cacturne
 **Type**:: Grass / Dark
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] ([[SRD-Water Absorb|Water Absorb]])
 **Base HP**:: 4

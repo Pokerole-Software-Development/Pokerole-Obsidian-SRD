@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: Skill Link
-Baby: 'No'
 BookSprite: SRD-trumbeak-BookSprite.png
 BoxSprite: SRD-trumbeak-BoxSprite.png
 DexCategory: Bugle Beak Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Toucannon]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Pickup
 HomeSprite: SRD-trumbeak-HomeSprite.png
+Image: trumbeak.png
 Learnset: '[[SRD-Trumbeak-Learnset]]'
 Legendary: 'No'
-Name: Trumbeak
 Number: 732
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-trumbeak-ShuffleToken.png
-Sprite: trumbeak.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 148
   Kilograms: 14.8
   Pounds: 32.6
 ---
@@ -57,7 +50,7 @@ Weight:
 *This Pokemon bends its beak to produce a variety of sounds, much to the annoyance of the neighbors. It also shoots a burst of berry seeds to its foes, prey, or an unsuspecting passerby.*
 
 **DexID**:: 0732
-**Species**:: Trumbeak
+**Name**:: Trumbeak
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Skill Link|Skill Link]] ([[SRD-Pickup|Pickup]])
 **Base HP**:: 4

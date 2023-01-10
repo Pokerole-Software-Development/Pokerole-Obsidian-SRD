@@ -1,7 +1,6 @@
 ---
 Ability1: Dauntless Shield
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-zamazenta-BookSprite.png
 BoxSprite: SRD-zamazenta-BoxSprite.png
 DexCategory: No Data
@@ -11,27 +10,21 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Form Zamazenta]]'
+  Pokemon: '[[SRD-Zamazenta (Crown Form)]]'
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 29
   Feet: 9.5
   Meters: 2.9
 HiddenAbility: ''
 HomeSprite: SRD-zamazenta-HomeSprite.png
+Image: zamazenta.png
 Learnset: '[[SRD-Zamazenta-Learnset]]'
 Legendary: 'Yes'
-Name: Zamazenta
 Number: 889
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-zamazenta-ShuffleToken.png
-Sprite: zamazenta.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 2100
   Kilograms: 210.0
   Pounds: 463.0
 ---
@@ -51,7 +44,7 @@ Weight:
 *There is a legend of a hero who through sheer might wielded the shield of heroes to protect the people from the greatest evil.*
 
 **DexID**:: 0889
-**Species**:: Zamazenta
+**Name**:: Zamazenta
 **Type**:: Fighting
 **Abilities**:: [[SRD-Dauntless Shield|Dauntless Shield]]
 **Base HP**:: 5
@@ -69,8 +62,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-| Evolves   | Pokemon                | Kind   |
-|:----------|:-----------------------|:-------|
-| To        | [[SRD-Form Zamazenta]] | Form   |
+| Evolves   | Pokemon                        | Kind   |
+|:----------|:-------------------------------|:-------|
+| To        | [[SRD-Zamazenta (Crown Form)]] | Form   |
 
 ![[SRD-Zamazenta-Learnset]]

@@ -1,7 +1,6 @@
 ---
 Ability1: Rough Skin
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-sharpedo-BookSprite.png
 BoxSprite: SRD-sharpedo-BoxSprite.png
 DexCategory: Brutal Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Sharpedonite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Sharpedo]]'
+  Pokemon: '[[SRD-Sharpedo (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Speed Boost
 HomeSprite: SRD-sharpedo-HomeSprite.png
+Image: sharpedo.png
 Learnset: '[[SRD-Sharpedo-Learnset]]'
 Legendary: 'No'
-Name: Sharpedo
 Number: 319
-PrimaryEggGroup: Water 2
-SecondaryEggGroup: ''
 ShuffleToken: SRD-sharpedo-ShuffleToken.png
-Sprite: sharpedo.png
 Type1: Water
 Type2: Dark
 Weight:
-  Hectograms: 888
   Kilograms: 88.8
   Pounds: 195.8
 ---
@@ -57,7 +50,7 @@ Weight:
 *Known as the “Bully of the Sea”, widely feared for its cruelty, malice and gangster attitude. They hurt Pokemon for fun and sink boats for sport. Sharpedos are among the fastest swimmers.*
 
 **DexID**:: 0319
-**Species**:: Sharpedo
+**Name**:: Sharpedo
 **Type**:: Water / Dark
 **Abilities**:: [[SRD-Rough Skin|Rough Skin]] ([[SRD-Speed Boost|Speed Boost]])
 **Base HP**:: 4
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon               | Kind   | Speed   | Item         |
-|:----------|:----------------------|:-------|:--------|:-------------|
-| From      | [[SRD-Carvanha]]      | Level  | Medium  |              |
-| To        | [[SRD-Mega-Sharpedo]] | Mega   |         | Sharpedonite |
+| Evolves   | Pokemon                      | Kind   | Speed   | Item         |
+|:----------|:-----------------------------|:-------|:--------|:-------------|
+| From      | [[SRD-Carvanha]]             | Level  | Medium  |              |
+| To        | [[SRD-Sharpedo (Mega Form)]] | Mega   |         | Sharpedonite |
 
 ![[SRD-Sharpedo-Learnset]]

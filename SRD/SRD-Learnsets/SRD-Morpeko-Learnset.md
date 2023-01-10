@@ -1,5 +1,4 @@
 ---
-DexID: 0878
 Moves:
 - - Starter
   - '[[SRD-Thunder Shock|Thunder Shock]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Morpeko
-Species: '[[SRD-Morpeko|Morpeko]]'
+Pokedex: '[[SRD-Morpeko|Morpeko]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

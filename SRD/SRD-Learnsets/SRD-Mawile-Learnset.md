@@ -1,5 +1,4 @@
 ---
-DexID: '0303'
 Moves:
 - - Starter
   - '[[SRD-Astonish|Astonish]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Super Fang|Super Fang]]'
 Name: Mawile
-Species: '[[SRD-Mawile|Mawile]]'
+Pokedex: '[[SRD-Mawile|Mawile]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

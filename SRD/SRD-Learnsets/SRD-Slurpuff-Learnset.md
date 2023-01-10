@@ -1,5 +1,4 @@
 ---
-DexID: 0686
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Copycat|Copycat]]'
 Name: Slurpuff
-Species: '[[SRD-Slurpuff|Slurpuff]]'
+Pokedex: '[[SRD-Slurpuff|Slurpuff]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

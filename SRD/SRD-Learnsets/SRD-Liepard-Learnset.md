@@ -1,5 +1,4 @@
 ---
-DexID: '0510'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Liepard
-Species: '[[SRD-Liepard|Liepard]]'
+Pokedex: '[[SRD-Liepard|Liepard]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

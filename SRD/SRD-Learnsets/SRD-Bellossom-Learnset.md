@@ -1,5 +1,4 @@
 ---
-DexID: 0182
 Moves:
 - - Starter
   - '[[SRD-Sweet Scent|Sweet Scent]]'
@@ -34,14 +33,14 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Bellossom
-Species: '[[SRD-Bellossom|Bellossom]]'
+Pokedex: '[[SRD-Bellossom|Bellossom]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

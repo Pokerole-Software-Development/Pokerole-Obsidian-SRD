@@ -1,5 +1,4 @@
 ---
-DexID: 0297
 Moves:
 - - Starter
   - '[[SRD-Focus Energy|Focus Energy]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Wide Guard|Wide Guard]]'
 Name: Hariyama
-Species: '[[SRD-Hariyama|Hariyama]]'
+Pokedex: '[[SRD-Hariyama|Hariyama]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

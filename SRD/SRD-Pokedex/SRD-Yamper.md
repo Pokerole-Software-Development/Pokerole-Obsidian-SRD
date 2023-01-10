@@ -1,7 +1,6 @@
 ---
 Ability1: Ball Fetch
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-yamper-BookSprite.png
 BoxSprite: SRD-yamper-BoxSprite.png
 DexCategory: Puppy Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Boltund]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Rattled
 HomeSprite: SRD-yamper-HomeSprite.png
+Image: yamper.png
 Learnset: '[[SRD-Yamper-Learnset]]'
 Legendary: 'No'
-Name: Yamper
 Number: 835
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-yamper-ShuffleToken.png
-Sprite: yamper.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 135
   Kilograms: 13.5
   Pounds: 29.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Its energy and big smile make this Pokemon very popular as a herding dog. When it runs, it generates electricity from the base of its tail. It loves to fetch balls and if you give it some treats it will love you forever.*
 
 **DexID**:: 0835
-**Species**:: Yamper
+**Name**:: Yamper
 **Type**:: Electric
 **Abilities**:: [[SRD-Ball Fetch|Ball Fetch]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 3

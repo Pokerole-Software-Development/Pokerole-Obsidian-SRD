@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-clamperl-BookSprite.png
 BoxSprite: SRD-clamperl-BoxSprite.png
 DexCategory: Bivalve Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Gorebyss]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Rattled
 HomeSprite: SRD-clamperl-HomeSprite.png
+Image: clamperl.png
 Learnset: '[[SRD-Clamperl-Learnset]]'
 Legendary: 'No'
-Name: Clamperl
 Number: 366
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: ''
 ShuffleToken: SRD-clamperl-ShuffleToken.png
-Sprite: clamperl.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 525
   Kilograms: 52.5
   Pounds: 115.7
 ---
@@ -57,7 +50,7 @@ Weight:
 *It is protected by a sturdy shell which is used to catch its prey. Clamperl will produce a magnificent pearl once in a lifetime. That pearl is said to increase psychic powers and will sell for a lot of money.*
 
 **DexID**:: 0366
-**Species**:: Clamperl
+**Name**:: Clamperl
 **Type**:: Water
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 3

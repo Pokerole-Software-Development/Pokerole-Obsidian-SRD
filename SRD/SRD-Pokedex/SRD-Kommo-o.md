@@ -1,7 +1,6 @@
 ---
 Ability1: Bulletproof
 Ability2: Soundproof
-Baby: 'No'
 BookSprite: SRD-kommo-o-BookSprite.png
 BoxSprite: SRD-kommo-o-BoxSprite.png
 DexCategory: Scaly Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Hakamo-o]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Overcoat
 HomeSprite: SRD-kommo-o-HomeSprite.png
+Image: kommo-o.png
 Learnset: '[[SRD-Kommo-o-Learnset]]'
 Legendary: 'No'
-Name: Kommo-o
 Number: 784
-PrimaryEggGroup: Dragon
-SecondaryEggGroup: ''
 ShuffleToken: SRD-kommo-o-ShuffleToken.png
-Sprite: kommo-o.png
 Type1: Dragon
 Type2: Fighting
 Weight:
-  Hectograms: 782
   Kilograms: 78.2
   Pounds: 172.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *It completed its harsh training and returns to the mountain where it was born to look after the young Jangmo-o, watching them from afar. It is constantly looking for strong opponents.*
 
 **DexID**:: 0784
-**Species**:: Kommo-o
+**Name**:: Kommo-o
 **Type**:: Dragon / Fighting
 **Abilities**:: [[SRD-Bulletproof|Bulletproof]] / [[SRD-Soundproof|Soundproof]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 5

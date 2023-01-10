@@ -1,7 +1,6 @@
 ---
 Ability1: Thick Fat
 Ability2: Own Tempo
-Baby: 'No'
 BookSprite: SRD-purugly-BookSprite.png
 BoxSprite: SRD-purugly-BoxSprite.png
 DexCategory: Tiger Cat Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Glameow]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Defiant
 HomeSprite: SRD-purugly-HomeSprite.png
+Image: purugly.png
 Learnset: '[[SRD-Purugly-Learnset]]'
 Legendary: 'No'
-Name: Purugly
 Number: 432
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-purugly-ShuffleToken.png
-Sprite: purugly.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 438
   Kilograms: 43.8
   Pounds: 96.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *It becomes wilder and aggressive after evolving. It is known to claim other Pokemon nests as its own. It will make itself appear bigger and glare with piercing eyes to achieve dominance over someone.*
 
 **DexID**:: 0432
-**Species**:: Purugly
+**Name**:: Purugly
 **Type**:: Normal
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 4

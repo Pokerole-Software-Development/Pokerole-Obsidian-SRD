@@ -1,5 +1,4 @@
 ---
-DexID: '0500'
 Moves:
 - - Starter
   - '[[SRD-Tail Whip|Tail Whip]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Thunder Punch|Thunder Punch]]'
 Name: Emboar
-Species: '[[SRD-Emboar|Emboar]]'
+Pokedex: '[[SRD-Emboar|Emboar]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

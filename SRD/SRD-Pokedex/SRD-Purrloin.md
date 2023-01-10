@@ -1,7 +1,6 @@
 ---
 Ability1: Limber
 Ability2: Unburden
-Baby: 'No'
 BookSprite: SRD-purrloin-BookSprite.png
 BoxSprite: SRD-purrloin-BoxSprite.png
 DexCategory: Devious Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Liepard]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Prankster
 HomeSprite: SRD-purrloin-HomeSprite.png
+Image: purrloin.png
 Learnset: '[[SRD-Purrloin-Learnset]]'
 Legendary: 'No'
-Name: Purrloin
 Number: 509
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-purrloin-ShuffleToken.png
-Sprite: purrloin.png
 Type1: Dark
 Type2: ''
 Weight:
-  Hectograms: 101
   Kilograms: 10.1
   Pounds: 22.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *They have adapted to live in the streets of big cities. They steal for fun but their victims can’t help but forgive them. Their cute act is a ruse. People who keep them as pets often regret it.*
 
 **DexID**:: 0509
-**Species**:: Purrloin
+**Name**:: Purrloin
 **Type**:: Dark
 **Abilities**:: [[SRD-Limber|Limber]] / [[SRD-Unburden|Unburden]] ([[SRD-Prankster|Prankster]])
 **Base HP**:: 3

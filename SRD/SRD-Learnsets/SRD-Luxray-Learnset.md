@@ -1,5 +1,4 @@
 ---
-DexID: '0405'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Superpower|Superpower]]'
 Name: Luxray
-Species: '[[SRD-Luxray|Luxray]]'
+Pokedex: '[[SRD-Luxray|Luxray]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

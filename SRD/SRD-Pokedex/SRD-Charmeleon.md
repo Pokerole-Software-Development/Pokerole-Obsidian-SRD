@@ -1,7 +1,6 @@
 ---
 Ability1: Blaze
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-charmeleon-BookSprite.png
 BoxSprite: SRD-charmeleon-BoxSprite.png
 DexCategory: Flame Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Charizard]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Solar Power
 HomeSprite: SRD-charmeleon-HomeSprite.png
+Image: charmeleon.png
 Learnset: '[[SRD-Charmeleon-Learnset]]'
 Legendary: 'No'
-Name: Charmeleon
 Number: 5
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-charmeleon-ShuffleToken.png
-Sprite: charmeleon.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 190
   Kilograms: 19.0
   Pounds: 41.9
 ---
@@ -57,7 +50,7 @@ Weight:
 *It turns aggressive after evolving, it is very hot-headed by nature, so it constantly starts fights. When it’s excited, the flame at the tip of its tail flares with a bluish white color.*
 
 **DexID**:: 0005
-**Species**:: Charmeleon
+**Name**:: Charmeleon
 **Type**:: Fire
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Solar Power|Solar Power]])
 **Base HP**:: 4

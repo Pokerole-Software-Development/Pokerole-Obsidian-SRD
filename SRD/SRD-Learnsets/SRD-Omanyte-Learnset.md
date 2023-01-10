@@ -1,5 +1,4 @@
 ---
-DexID: 0138
 Moves:
 - - Starter
   - '[[SRD-Constrict|Constrict]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Omanyte
-Species: '[[SRD-Omanyte|Omanyte]]'
+Pokedex: '[[SRD-Omanyte|Omanyte]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

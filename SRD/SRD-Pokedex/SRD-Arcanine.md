@@ -1,7 +1,6 @@
 ---
 Ability1: Intimidate
 Ability2: Flash Fire
-Baby: 'No'
 BookSprite: SRD-arcanine-BookSprite.png
 BoxSprite: SRD-arcanine-BoxSprite.png
 DexCategory: Legendary Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Growlithe]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 19
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Justified
 HomeSprite: SRD-arcanine-HomeSprite.png
+Image: arcanine.png
 Learnset: '[[SRD-Arcanine-Learnset]]'
 Legendary: 'No'
-Name: Arcanine
 Number: 59
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-arcanine-ShuffleToken.png
-Sprite: arcanine.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 1550
   Kilograms: 155.0
   Pounds: 341.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *Its proud and regal appearance has made it be revered by people of ancient societies. Its magnificent bark conveys a sense of majesty. Anyone in front of Arcanine can’t help but stare in awe.*
 
 **DexID**:: 0059
-**Species**:: Arcanine
+**Name**:: Arcanine
 **Type**:: Fire
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Flash Fire|Flash Fire]] ([[SRD-Justified|Justified]])
 **Base HP**:: 4

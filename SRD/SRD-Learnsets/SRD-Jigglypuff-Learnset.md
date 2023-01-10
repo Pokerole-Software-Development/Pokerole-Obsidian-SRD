@@ -1,5 +1,4 @@
 ---
-DexID: 0039
 Moves:
 - - Starter
   - '[[SRD-Sing|Sing]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Heal Pulse|Heal Pulse]]'
 Name: Jigglypuff
-Species: '[[SRD-Jigglypuff|Jigglypuff]]'
+Pokedex: '[[SRD-Jigglypuff|Jigglypuff]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

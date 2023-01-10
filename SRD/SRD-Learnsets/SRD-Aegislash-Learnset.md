@@ -1,5 +1,4 @@
 ---
-DexID: 0680
 Moves:
 - - Amateur
   - '[[SRD-Fury Cutter|Fury Cutter]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Destiny Bond|Destiny Bond]]'
 Name: Aegislash
-Species: '[[SRD-Aegislash|Aegislash]]'
+Pokedex: '[[SRD-Aegislash|Aegislash]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0237'
 Moves:
 - - Starter
   - '[[SRD-Revenge|Revenge]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Twister|Twister]]'
 Name: Hitmontop
-Species: '[[SRD-Hitmontop|Hitmontop]]'
+Pokedex: '[[SRD-Hitmontop|Hitmontop]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Sweet Veil
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-slurpuff-BookSprite.png
 BoxSprite: SRD-slurpuff-BoxSprite.png
 DexCategory: Meringue Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Swirlix]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Unburden
 HomeSprite: SRD-slurpuff-HomeSprite.png
+Image: slurpuff.png
 Learnset: '[[SRD-Slurpuff-Learnset]]'
 Legendary: 'No'
-Name: Slurpuff
 Number: 685
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-slurpuff-ShuffleToken.png
-Sprite: slurpuff.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 50
   Kilograms: 5.0
   Pounds: 11.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *This Pokemon lives in human cities and towns. It has an extremely keen sense of smell. It puts its sensitive nose to use by helping bakers and chefs to find the most delicious ingredients.*
 
 **DexID**:: 0685
-**Species**:: Slurpuff
+**Name**:: Slurpuff
 **Type**:: Fairy
 **Abilities**:: [[SRD-Sweet Veil|Sweet Veil]] ([[SRD-Unburden|Unburden]])
 **Base HP**:: 4

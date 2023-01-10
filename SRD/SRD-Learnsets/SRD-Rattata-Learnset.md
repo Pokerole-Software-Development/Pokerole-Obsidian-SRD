@@ -1,5 +1,4 @@
 ---
-DexID: 0019
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Tail|Iron Tail]]'
 Name: Rattata
-Species: '[[SRD-Rattata|Rattata]]'
+Pokedex: '[[SRD-Rattata|Rattata]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

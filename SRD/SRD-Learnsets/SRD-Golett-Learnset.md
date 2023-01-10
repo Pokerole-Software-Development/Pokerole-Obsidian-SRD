@@ -1,5 +1,4 @@
 ---
-DexID: '0623'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Ice Punch|Ice Punch]]'
 Name: Golett
-Species: '[[SRD-Golett|Golett]]'
+Pokedex: '[[SRD-Golett|Golett]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

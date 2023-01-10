@@ -1,5 +1,4 @@
 ---
-DexID: 0328
 Moves:
 - - Starter
   - '[[SRD-Bite|Bite]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Giga Drain|Giga Drain]]'
 Name: Trapinch
-Species: '[[SRD-Trapinch|Trapinch]]'
+Pokedex: '[[SRD-Trapinch|Trapinch]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

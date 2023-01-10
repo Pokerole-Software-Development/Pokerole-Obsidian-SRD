@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-mismagius-BookSprite.png
 BoxSprite: SRD-mismagius-BoxSprite.png
 DexCategory: Magical Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Misdreavus]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: ''
 HomeSprite: SRD-mismagius-HomeSprite.png
+Image: mismagius.png
 Learnset: '[[SRD-Mismagius-Learnset]]'
 Legendary: 'No'
-Name: Mismagius
 Number: 429
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-mismagius-ShuffleToken.png
-Sprite: mismagius.png
 Type1: Ghost
 Type2: ''
 Weight:
-  Hectograms: 44
   Kilograms: 4.4
   Pounds: 9.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *Extremely rare. Their cries sound like incantations, hearing them gives you bad headaches and hallucinations. It is said that some Mismagius are benevolent and have granted good fortune to people they like.*
 
 **DexID**:: 0429
-**Species**:: Mismagius
+**Name**:: Mismagius
 **Type**:: Ghost
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4

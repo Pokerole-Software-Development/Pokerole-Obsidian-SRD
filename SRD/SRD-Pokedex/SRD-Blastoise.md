@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-blastoise-BookSprite.png
 BoxSprite: SRD-blastoise-BoxSprite.png
 DexCategory: Shellfish Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Blastoisinite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Blastoise]]'
+  Pokemon: '[[SRD-Blastoise (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Rain Dish
 HomeSprite: SRD-blastoise-HomeSprite.png
+Image: blastoise.png
 Learnset: '[[SRD-Blastoise-Learnset]]'
 Legendary: 'No'
-Name: Blastoise
 Number: 9
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Water 1
 ShuffleToken: SRD-blastoise-ShuffleToken.png
-Sprite: blastoise.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 855
   Kilograms: 85.5
   Pounds: 188.5
 ---
@@ -57,7 +50,7 @@ Weight:
 *The jets of water it spouts from the rocket cannons on its shell have been recorded to punch through steel. It is confident on its great defense and water spouts to overcome any obstacle.*
 
 **DexID**:: 0009
-**Species**:: Blastoise
+**Name**:: Blastoise
 **Type**:: Water
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Rain Dish|Rain Dish]])
 **Base HP**:: 5
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon                | Kind   | Speed   | Item          |
-|:----------|:-----------------------|:-------|:--------|:--------------|
-| From      | [[SRD-Wartortle]]      | Level  | Medium  |               |
-| To        | [[SRD-Mega-Blastoise]] | Mega   |         | Blastoisinite |
+| Evolves   | Pokemon                       | Kind   | Speed   | Item          |
+|:----------|:------------------------------|:-------|:--------|:--------------|
+| From      | [[SRD-Wartortle]]             | Level  | Medium  |               |
+| To        | [[SRD-Blastoise (Mega Form)]] | Mega   |         | Blastoisinite |
 
 ![[SRD-Blastoise-Learnset]]

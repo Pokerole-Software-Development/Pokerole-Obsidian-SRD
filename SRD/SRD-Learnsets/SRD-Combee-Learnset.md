@@ -1,5 +1,4 @@
 ---
-DexID: '0415'
 Moves:
 - - Starter
   - '[[SRD-Sweet Scent|Sweet Scent]]'
@@ -20,14 +19,14 @@ Moves:
 - - Pro
   - '[[SRD-Endeavor|Endeavor]]'
 Name: Combee
-Species: '[[SRD-Combee|Combee]]'
+Pokedex: '[[SRD-Combee|Combee]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

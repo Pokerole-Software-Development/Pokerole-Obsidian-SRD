@@ -1,7 +1,6 @@
 ---
 Ability1: Cute Charm
 Ability2: Magic Guard
-Baby: 'No'
 BookSprite: SRD-clefairy-BookSprite.png
 BoxSprite: SRD-clefairy-BoxSprite.png
 DexCategory: Fairy Pokemon
@@ -20,25 +19,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Clefable]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Friend Guard
 HomeSprite: SRD-clefairy-HomeSprite.png
+Image: clefairy.png
 Learnset: '[[SRD-Clefairy-Learnset]]'
 Legendary: 'No'
-Name: Clefairy
 Number: 35
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-clefairy-ShuffleToken.png
-Sprite: clefairy.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 75
   Kilograms: 7.5
   Pounds: 16.5
 ---
@@ -58,7 +51,7 @@ Weight:
 *Very rare to find. Clefairies are said to come from the moon. They are drawn to the light of this celestial body and come out of hiding at night to dance and play in the moonlight.*
 
 **DexID**:: 0035
-**Species**:: Clefairy
+**Name**:: Clefairy
 **Type**:: Fairy
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Magic Guard|Magic Guard]] ([[SRD-Friend Guard|Friend Guard]])
 **Base HP**:: 4

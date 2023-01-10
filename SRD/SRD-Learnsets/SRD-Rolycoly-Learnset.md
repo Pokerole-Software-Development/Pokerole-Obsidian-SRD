@@ -1,5 +1,4 @@
 ---
-DexID: 0836
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -36,14 +35,14 @@ Moves:
 - - Pro
   - '[[SRD-Substitute|Substitute]]'
 Name: Rolycoly
-Species: '[[SRD-Rolycoly|Rolycoly]]'
+Pokedex: '[[SRD-Rolycoly|Rolycoly]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

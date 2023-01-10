@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: Super Luck
-Baby: 'No'
 BookSprite: SRD-absol-BookSprite.png
 BoxSprite: SRD-absol-BoxSprite.png
 DexCategory: Disaster Pokemon
@@ -13,27 +12,21 @@ Evolutions:
 - Evolves: To
   Item: Absolite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Absol]]'
+  Pokemon: '[[SRD-Absol (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Justified
 HomeSprite: SRD-absol-HomeSprite.png
+Image: absol.png
 Learnset: '[[SRD-Absol-Learnset]]'
 Legendary: 'No'
-Name: Absol
 Number: 359
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-absol-ShuffleToken.png
-Sprite: absol.png
 Type1: Dark
 Type2: ''
 Weight:
-  Hectograms: 470
   Kilograms: 47.0
   Pounds: 103.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is said that this Pokemon can live for 100 years. It has a bad reputation: Whenever one is seen, a disaster is soon to follow - earthquakes, forest fires and tidal waves. Absols lead a lonely life.*
 
 **DexID**:: 0359
-**Species**:: Absol
+**Name**:: Absol
 **Type**:: Dark
 **Abilities**:: [[SRD-Pressure|Pressure]] / [[SRD-Super Luck|Super Luck]] ([[SRD-Justified|Justified]])
 **Base HP**:: 4
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon            | Kind   | Item     |
-|:----------|:-------------------|:-------|:---------|
-| To        | [[SRD-Mega-Absol]] | Mega   | Absolite |
+| Evolves   | Pokemon                   | Kind   | Item     |
+|:----------|:--------------------------|:-------|:---------|
+| To        | [[SRD-Absol (Mega Form)]] | Mega   | Absolite |
 
 ![[SRD-Absol-Learnset]]

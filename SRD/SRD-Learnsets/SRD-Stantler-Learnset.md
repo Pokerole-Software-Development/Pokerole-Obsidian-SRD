@@ -1,5 +1,4 @@
 ---
-DexID: '0234'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Thrash|Thrash]]'
 Name: Stantler
-Species: '[[SRD-Stantler|Stantler]]'
+Pokedex: '[[SRD-Stantler|Stantler]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

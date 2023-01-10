@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: Oblivious
-Baby: 'No'
 BookSprite: SRD-feebas-BookSprite.png
 BoxSprite: SRD-feebas-BoxSprite.png
 DexCategory: Fish Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Beauty
   Value: 5
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Adaptability
 HomeSprite: SRD-feebas-HomeSprite.png
+Image: feebas.png
 Learnset: '[[SRD-Feebas-Learnset]]'
 Legendary: 'No'
-Name: Feebas
 Number: 349
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-feebas-ShuffleToken.png
-Sprite: feebas.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 74
   Kilograms: 7.4
   Pounds: 16.3
 ---
@@ -54,7 +47,7 @@ Weight:
 *This Pokemon tastes awful, it is incredibly ugly, smelly, kind of dumb and a terrible fighter. To make things worse, it is actually extremely rare. For those reasons, people tend to avoid it and it’s usually ignored*
 
 **DexID**:: 0349
-**Species**:: Feebas
+**Name**:: Feebas
 **Type**:: Water
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Oblivious|Oblivious]] ([[SRD-Adaptability|Adaptability]])
 **Base HP**:: 3

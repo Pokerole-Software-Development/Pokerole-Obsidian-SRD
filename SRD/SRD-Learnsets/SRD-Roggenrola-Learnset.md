@@ -1,5 +1,4 @@
 ---
-DexID: '0524'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Magnitude|Magnitude]]'
 Name: Roggenrola
-Species: '[[SRD-Roggenrola|Roggenrola]]'
+Pokedex: '[[SRD-Roggenrola|Roggenrola]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

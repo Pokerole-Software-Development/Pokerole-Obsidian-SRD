@@ -1,5 +1,4 @@
 ---
-DexID: '0067'
 Moves:
 - - Starter
   - '[[SRD-Low Kick|Low Kick]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Punch|Fire Punch]]'
 Name: Machoke
-Species: '[[SRD-Machoke|Machoke]]'
+Pokedex: '[[SRD-Machoke|Machoke]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0036'
 Moves:
 - - Beginner
   - '[[SRD-Spotlight|Spotlight]]'
@@ -26,14 +25,14 @@ Moves:
 - - Pro
   - '[[SRD-Wish|Wish]]'
 Name: Clefable
-Species: '[[SRD-Clefable|Clefable]]'
+Pokedex: '[[SRD-Clefable|Clefable]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Shed Skin
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-spewpa-BookSprite.png
 BoxSprite: SRD-spewpa-BoxSprite.png
 DexCategory: Scatterdust Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Vivillon]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Friend Guard
 HomeSprite: SRD-spewpa-HomeSprite.png
+Image: spewpa.png
 Learnset: '[[SRD-Spewpa-Learnset]]'
 Legendary: 'No'
-Name: Spewpa
 Number: 665
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-spewpa-ShuffleToken.png
-Sprite: spewpa.png
 Type1: Bug
 Type2: ''
 Weight:
-  Hectograms: 84
   Kilograms: 8.4
   Pounds: 18.5
 ---
@@ -57,7 +50,7 @@ Weight:
 *It remains hidden inside old logs. When predators attack, it quickly bristles the fur covering its body to scare them. Bird Pokemon have a hard time trying to eat it with all the dust it releases as protection.*
 
 **DexID**:: 0665
-**Species**:: Spewpa
+**Name**:: Spewpa
 **Type**:: Bug
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]] ([[SRD-Friend Guard|Friend Guard]])
 **Base HP**:: 4

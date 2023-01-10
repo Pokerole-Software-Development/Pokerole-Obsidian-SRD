@@ -1,7 +1,6 @@
 ---
 Ability1: Multitype
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-arceus-BookSprite.png
 BoxSprite: SRD-arceus-BoxSprite.png
 DexCategory: Plot Device
@@ -9,25 +8,19 @@ DexDescription: Plot Device
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 32
   Feet: 10.5
   Meters: 3.2
 HiddenAbility: ''
 HomeSprite: SRD-arceus-HomeSprite.png
+Image: arceus.png
 Learnset: '[[SRD-Arceus-Learnset]]'
 Legendary: 'Yes'
-Name: Arceus
 Number: 493
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-arceus-ShuffleToken.png
-Sprite: arceus.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 3200
   Kilograms: 320.0
   Pounds: 705.5
 ---
@@ -47,7 +40,7 @@ Weight:
 *Plot Device*
 
 **DexID**:: 0493
-**Species**:: Arceus
+**Name**:: Arceus
 **Type**:: Normal
 **Abilities**:: [[SRD-Multitype|Multitype]]
 **Base HP**:: 6

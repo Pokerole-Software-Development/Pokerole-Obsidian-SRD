@@ -1,5 +1,4 @@
 ---
-DexID: '0170'
 Moves:
 - - Starter
   - '[[SRD-Water Gun|Water Gun]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Psybeam|Psybeam]]'
 Name: Chinchou
-Species: '[[SRD-Chinchou|Chinchou]]'
+Pokedex: '[[SRD-Chinchou|Chinchou]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

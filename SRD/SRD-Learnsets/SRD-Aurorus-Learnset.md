@@ -1,5 +1,4 @@
 ---
-DexID: '0700'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Aurorus
-Species: '[[SRD-Aurorus|Aurorus]]'
+Pokedex: '[[SRD-Aurorus|Aurorus]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

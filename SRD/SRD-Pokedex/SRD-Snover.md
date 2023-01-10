@@ -1,7 +1,6 @@
 ---
 Ability1: Snow Warning
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-snover-BookSprite.png
 BoxSprite: SRD-snover-BoxSprite.png
 DexCategory: Frosted Tree Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Abomasnow]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Soundproof
 HomeSprite: SRD-snover-HomeSprite.png
+Image: snover.png
 Learnset: '[[SRD-Snover-Learnset]]'
 Legendary: 'No'
-Name: Snover
 Number: 459
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-snover-ShuffleToken.png
-Sprite: snover.png
 Type1: Grass
 Type2: Ice
 Weight:
-  Hectograms: 505
   Kilograms: 50.5
   Pounds: 111.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *During cold seasons, it migrates to the mountain’s lower reaches and returns to the summit in the spring. They are rarely in contact with humans but are sought for the frozen berries they grow.*
 
 **DexID**:: 0459
-**Species**:: Snover
+**Name**:: Snover
 **Type**:: Grass / Ice
 **Abilities**:: [[SRD-Snow Warning|Snow Warning]] ([[SRD-Soundproof|Soundproof]])
 **Base HP**:: 3

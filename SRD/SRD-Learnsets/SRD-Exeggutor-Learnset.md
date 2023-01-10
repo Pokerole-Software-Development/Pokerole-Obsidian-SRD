@@ -1,5 +1,4 @@
 ---
-DexID: '0103'
 Moves:
 - - Starter
   - '[[SRD-Barrage|Barrage]]'
@@ -34,14 +33,14 @@ Moves:
 - - Pro
   - '[[SRD-Curse|Curse]]'
 Name: Exeggutor
-Species: '[[SRD-Exeggutor|Exeggutor]]'
+Pokedex: '[[SRD-Exeggutor|Exeggutor]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

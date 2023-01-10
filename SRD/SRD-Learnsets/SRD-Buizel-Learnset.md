@@ -1,5 +1,4 @@
 ---
-DexID: 0418
 Moves:
 - - Starter
   - '[[SRD-Sonic Boom|Sonic Boom]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Ring|Aqua Ring]]'
 Name: Buizel
-Species: '[[SRD-Buizel|Buizel]]'
+Pokedex: '[[SRD-Buizel|Buizel]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

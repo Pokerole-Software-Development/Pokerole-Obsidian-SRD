@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-kyurem-BookSprite.png
 BoxSprite: SRD-kyurem-BoxSprite.png
 DexCategory: No Data
@@ -12,30 +11,24 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Black Kyurem]]'
+  Pokemon: '[[SRD-Kyurem (Black Form)]]'
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-White Kyurem]]'
+  Pokemon: '[[SRD-Kyurem (White Form)]]'
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 30
   Feet: 9.8
   Meters: 3.0
 HiddenAbility: ''
 HomeSprite: SRD-kyurem-HomeSprite.png
+Image: kyurem.png
 Learnset: '[[SRD-Kyurem-Learnset]]'
 Legendary: 'Yes'
-Name: Kyurem
 Number: 646
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-kyurem-ShuffleToken.png
-Sprite: kyurem.png
 Type1: Dragon
 Type2: Ice
 Weight:
-  Hectograms: 3250
   Kilograms: 325.0
   Pounds: 716.5
 ---
@@ -55,7 +48,7 @@ Weight:
 *Inside a remote and frozen cave there are some old paintings. They depict a giant dragon being thorn apart into a black and white shards Of the rest of the picture only shattered fragments of ice remain.*
 
 **DexID**:: 0646
-**Species**:: Kyurem
+**Name**:: Kyurem
 **Type**:: Dragon / Ice
 **Abilities**:: [[SRD-Pressure|Pressure]]
 **Base HP**:: 6
@@ -73,9 +66,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-| Evolves   | Pokemon              | Kind   |
-|:----------|:---------------------|:-------|
-| To        | [[SRD-Black Kyurem]] | Form   |
-| To        | [[SRD-White Kyurem]] | Form   |
+| Evolves   | Pokemon                     | Kind   |
+|:----------|:----------------------------|:-------|
+| To        | [[SRD-Kyurem (Black Form)]] | Form   |
+| To        | [[SRD-Kyurem (White Form)]] | Form   |
 
 ![[SRD-Kyurem-Learnset]]

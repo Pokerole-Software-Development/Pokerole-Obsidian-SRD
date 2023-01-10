@@ -1,5 +1,4 @@
 ---
-DexID: 0689
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Venom Drench|Venom Drench]]'
 Name: Skrelp
-Species: '[[SRD-Skrelp|Skrelp]]'
+Pokedex: '[[SRD-Skrelp|Skrelp]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

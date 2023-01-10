@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: Unnerve
-Baby: 'No'
 BookSprite: SRD-corviknight-BookSprite.png
 BoxSprite: SRD-corviknight-BoxSprite.png
 DexCategory: Raven Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Corvisquire]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 22
   Feet: 7.2
   Meters: 2.2
 HiddenAbility: Mirror Armor
 HomeSprite: SRD-corviknight-HomeSprite.png
+Image: corviknight.png
 Learnset: '[[SRD-Corviknight-Learnset]]'
 Legendary: 'No'
-Name: Corviknight
 Number: 823
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-corviknight-ShuffleToken.png
-Sprite: corviknight.png
 Type1: Flying
 Type2: Steel
 Weight:
-  Hectograms: 750
   Kilograms: 75.0
   Pounds: 165.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *With their great intellect and flying skills, these Pokemon very successfully take the place as the kings of the Galarian sky. When they fly, they cast giant shadows that strike fear upon foes and friends alike.*
 
 **DexID**:: 0823
-**Species**:: Corviknight
+**Name**:: Corviknight
 **Type**:: Flying / Steel
 **Abilities**:: [[SRD-Pressure|Pressure]] / [[SRD-Unnerve|Unnerve]] ([[SRD-Mirror Armor|Mirror Armor]])
 **Base HP**:: 6

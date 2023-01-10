@@ -1,7 +1,6 @@
 ---
 Ability1: Guts
 Ability2: Sheer Force
-Baby: 'No'
 BookSprite: SRD-conkeldurr-BookSprite.png
 BoxSprite: SRD-conkeldurr-BoxSprite.png
 DexCategory: Muscular Pokemon
@@ -14,25 +13,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Gurdurr]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Iron Fist
 HomeSprite: SRD-conkeldurr-HomeSprite.png
+Image: conkeldurr.png
 Learnset: '[[SRD-Conkeldurr-Learnset]]'
 Legendary: 'No'
-Name: Conkeldurr
 Number: 534
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-conkeldurr-ShuffleToken.png
-Sprite: conkeldurr.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 870
   Kilograms: 87.0
   Pounds: 191.8
 ---
@@ -52,7 +45,7 @@ Weight:
 *They use concrete pillars as walking canes and swing the pillars freely in battle. Anthropology research says that this Pokemon may have taught humans how to make concrete out of rocks thousands of years ago.*
 
 **DexID**:: 0534
-**Species**:: Conkeldurr
+**Name**:: Conkeldurr
 **Type**:: Fighting
 **Abilities**:: [[SRD-Guts|Guts]] / [[SRD-Sheer Force|Sheer Force]] ([[SRD-Iron Fist|Iron Fist]])
 **Base HP**:: 6

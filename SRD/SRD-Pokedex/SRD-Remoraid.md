@@ -1,7 +1,6 @@
 ---
 Ability1: Hustle
 Ability2: Sniper
-Baby: 'No'
 BookSprite: SRD-remoraid-BookSprite.png
 BoxSprite: SRD-remoraid-BoxSprite.png
 DexCategory: Jet Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Octillery]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Moody
 HomeSprite: SRD-remoraid-HomeSprite.png
+Image: remoraid.png
 Learnset: '[[SRD-Remoraid-Learnset]]'
 Legendary: 'No'
-Name: Remoraid
 Number: 223
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Water 2
 ShuffleToken: SRD-remoraid-ShuffleToken.png
-Sprite: remoraid.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 120
   Kilograms: 12.0
   Pounds: 26.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *Remoraid has a remarkable aim with its water gun. This ability is used to hunt down flying enemies above the sea. They can be seen clinging into Mantines to travel faster.*
 
 **DexID**:: 0223
-**Species**:: Remoraid
+**Name**:: Remoraid
 **Type**:: Water
 **Abilities**:: [[SRD-Hustle|Hustle]] / [[SRD-Sniper|Sniper]] ([[SRD-Moody|Moody]])
 **Base HP**:: 3

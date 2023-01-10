@@ -1,7 +1,6 @@
 ---
 Ability1: Shadow Tag
 Ability2: ''
-Baby: 'Yes'
 BookSprite: SRD-wynaut-BookSprite.png
 BoxSprite: SRD-wynaut-BoxSprite.png
 DexCategory: Bright Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Wobbuffet]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Telepathy
 HomeSprite: SRD-wynaut-HomeSprite.png
+Image: wynaut.png
 Learnset: '[[SRD-Wynaut-Learnset]]'
 Legendary: 'No'
-Name: Wynaut
 Number: 360
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-wynaut-ShuffleToken.png
-Sprite: wynaut.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 140
   Kilograms: 14.0
   Pounds: 30.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *Its face always appears to be happy, but Wynaut can be deceitful. You can only discern its true emotions through its tail. They live together in caves and bump into each other to gain strength.*
 
 **DexID**:: 0360
-**Species**:: Wynaut
+**Name**:: Wynaut
 **Type**:: Psychic
 **Abilities**:: [[SRD-Shadow Tag|Shadow Tag]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 3

@@ -1,5 +1,4 @@
 ---
-DexID: '0571'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Zoroark
-Species: '[[SRD-Zoroark|Zoroark]]'
+Pokedex: '[[SRD-Zoroark|Zoroark]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

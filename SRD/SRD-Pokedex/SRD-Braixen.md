@@ -1,7 +1,6 @@
 ---
 Ability1: Blaze
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-braixen-BookSprite.png
 BoxSprite: SRD-braixen-BoxSprite.png
 DexCategory: Fox Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Delphox]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Magician
 HomeSprite: SRD-braixen-HomeSprite.png
+Image: braixen.png
 Learnset: '[[SRD-Braixen-Learnset]]'
 Legendary: 'No'
-Name: Braixen
 Number: 654
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-braixen-ShuffleToken.png
-Sprite: braixen.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 145
   Kilograms: 14.5
   Pounds: 32.0
 ---
@@ -57,7 +50,7 @@ Weight:
 *Using friction from its tail fur, it sets the twig it carries on fire and launches into battle. The flame on the twig is used to send signals and to create patters out of the embers. It is said the twig is a magic wand.*
 
 **DexID**:: 0654
-**Species**:: Braixen
+**Name**:: Braixen
 **Type**:: Fire
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Magician|Magician]])
 **Base HP**:: 4

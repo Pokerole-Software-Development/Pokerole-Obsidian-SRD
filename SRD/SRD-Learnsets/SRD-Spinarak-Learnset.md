@@ -1,5 +1,4 @@
 ---
-DexID: '0167'
 Moves:
 - - Starter
   - '[[SRD-Poison Sting|Poison Sting]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Toxic Spikes|Toxic Spikes]]'
 Name: Spinarak
-Species: '[[SRD-Spinarak|Spinarak]]'
+Pokedex: '[[SRD-Spinarak|Spinarak]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

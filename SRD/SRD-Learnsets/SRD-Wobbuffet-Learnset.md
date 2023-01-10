@@ -1,5 +1,4 @@
 ---
-DexID: '0202'
 Moves:
 - - Beginner
   - '[[SRD-Counter|Counter]]'
@@ -14,14 +13,14 @@ Moves:
 - - Pro
   - '[[SRD-Destiny Bond|Destiny Bond]]'
 Name: Wobbuffet
-Species: '[[SRD-Wobbuffet|Wobbuffet]]'
+Pokedex: '[[SRD-Wobbuffet|Wobbuffet]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

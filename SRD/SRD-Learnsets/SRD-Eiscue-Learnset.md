@@ -1,5 +1,4 @@
 ---
-DexID: 0875F1
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Belly Drum|Belly Drum]]'
 Name: Eiscue
-Species: '[[SRD-Eiscue|Eiscue]]'
+Pokedex: '[[SRD-Eiscue|Eiscue]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

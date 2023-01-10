@@ -1,5 +1,4 @@
 ---
-DexID: 0869
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Poison Jab|Poison Jab]]'
 Name: Falinks
-Species: '[[SRD-Falinks|Falinks]]'
+Pokedex: '[[SRD-Falinks|Falinks]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

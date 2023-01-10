@@ -1,5 +1,4 @@
 ---
-DexID: '0232'
 Moves:
 - - Starter
   - '[[SRD-Defense Curl|Defense Curl]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Fissure|Fissure]]'
 Name: Donphan
-Species: '[[SRD-Donphan|Donphan]]'
+Pokedex: '[[SRD-Donphan|Donphan]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

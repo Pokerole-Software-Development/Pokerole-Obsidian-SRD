@@ -1,7 +1,6 @@
 ---
 Ability1: Cute Charm
 Ability2: Technician
-Baby: 'No'
 BookSprite: SRD-cinccino-BookSprite.png
 BoxSprite: SRD-cinccino-BoxSprite.png
 DexCategory: Scarf Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Minccino]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Skill Link
 HomeSprite: SRD-cinccino-HomeSprite.png
+Image: cinccino.png
 Learnset: '[[SRD-Cinccino-Learnset]]'
 Legendary: 'No'
-Name: Cinccino
 Number: 573
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-cinccino-ShuffleToken.png
-Sprite: cinccino.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 75
   Kilograms: 7.5
   Pounds: 16.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *Their fur feels amazing to the touch. It produces an oil that repels dust and prevents static electricity from building up. It loves to be groomed and pampered. The fur it sheds is highly valued.*
 
 **DexID**:: 0573
-**Species**:: Cinccino
+**Name**:: Cinccino
 **Type**:: Normal
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Technician|Technician]] ([[SRD-Skill Link|Skill Link]])
 **Base HP**:: 4

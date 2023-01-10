@@ -1,5 +1,4 @@
 ---
-DexID: '0271'
 Moves:
 - - Starter
   - '[[SRD-Astonish|Astonish]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Thunder Punch|Thunder Punch]]'
 Name: Lombre
-Species: '[[SRD-Lombre|Lombre]]'
+Pokedex: '[[SRD-Lombre|Lombre]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

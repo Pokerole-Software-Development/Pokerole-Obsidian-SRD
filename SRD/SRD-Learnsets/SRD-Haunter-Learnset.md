@@ -1,5 +1,4 @@
 ---
-DexID: 0093
 Moves:
 - - Starter
   - '[[SRD-Spite|Spite]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Haunter
-Species: '[[SRD-Haunter|Haunter]]'
+Pokedex: '[[SRD-Haunter|Haunter]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

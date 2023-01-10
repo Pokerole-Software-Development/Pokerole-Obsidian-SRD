@@ -1,7 +1,6 @@
 ---
 Ability1: Sand Veil
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-gible-BookSprite.png
 BoxSprite: SRD-gible-BoxSprite.png
 DexCategory: Land Shark Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Gabite]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Rough Skin
 HomeSprite: SRD-gible-HomeSprite.png
+Image: gible.png
 Learnset: '[[SRD-Gible-Learnset]]'
 Legendary: 'No'
-Name: Gible
 Number: 443
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-gible-ShuffleToken.png
-Sprite: gible.png
 Type1: Dragon
 Type2: Ground
 Weight:
-  Hectograms: 205
   Kilograms: 20.5
   Pounds: 45.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *It digs tunnels and follows prey while burrowed underground. If you see the fin on its back coming out the ground it means it is about to attack. It’s very aggressive but kind of clumsy. Beware of its big jaws.*
 
 **DexID**:: 0443
-**Species**:: Gible
+**Name**:: Gible
 **Type**:: Dragon / Ground
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] ([[SRD-Rough Skin|Rough Skin]])
 **Base HP**:: 3

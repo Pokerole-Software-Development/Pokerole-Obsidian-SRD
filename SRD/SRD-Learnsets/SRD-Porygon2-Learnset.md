@@ -1,5 +1,4 @@
 ---
-DexID: '0233'
 Moves:
 - - Starter
   - '[[SRD-Conversion|Conversion]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Shock Wave|Shock Wave]]'
 Name: Porygon2
-Species: '[[SRD-Porygon2|Porygon2]]'
+Pokedex: '[[SRD-Porygon2|Porygon2]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

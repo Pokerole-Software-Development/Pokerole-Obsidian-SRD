@@ -1,5 +1,4 @@
 ---
-DexID: 0468
 Moves:
 - - Starter
   - '[[SRD-After You|After You]]'
@@ -24,14 +23,14 @@ Moves:
 - - Pro
   - '[[SRD-Water Pulse|Water Pulse]]'
 Name: Togekiss
-Species: '[[SRD-Togekiss|Togekiss]]'
+Pokedex: '[[SRD-Togekiss|Togekiss]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

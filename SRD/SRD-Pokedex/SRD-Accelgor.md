@@ -1,7 +1,6 @@
 ---
 Ability1: Hydration
 Ability2: Sticky Hold
-Baby: 'No'
 BookSprite: SRD-accelgor-BookSprite.png
 BoxSprite: SRD-accelgor-BoxSprite.png
 DexCategory: Shell Out Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Shelmet]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Unburden
 HomeSprite: SRD-accelgor-HomeSprite.png
+Image: accelgor.png
 Learnset: '[[SRD-Accelgor-Learnset]]'
 Legendary: 'No'
-Name: Accelgor
 Number: 617
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-accelgor-ShuffleToken.png
-Sprite: accelgor.png
 Type1: Bug
 Type2: ''
 Weight:
-  Hectograms: 253
   Kilograms: 25.3
   Pounds: 55.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Having removed its heavy shell, it becomes very light and swift. When its body dries out, it weakens. To prevent dehydration, it wraps itself in many layers of a thin membrane. It is very rare to see one in the wild.*
 
 **DexID**:: 0617
-**Species**:: Accelgor
+**Name**:: Accelgor
 **Type**:: Bug
 **Abilities**:: [[SRD-Hydration|Hydration]] / [[SRD-Sticky Hold|Sticky Hold]] ([[SRD-Unburden|Unburden]])
 **Base HP**:: 4

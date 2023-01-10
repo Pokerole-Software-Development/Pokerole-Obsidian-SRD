@@ -1,5 +1,4 @@
 ---
-DexID: 0759
 Moves:
 - - Starter
   - '[[SRD-Poison Gas|Poison Gas]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Overheat|Overheat]]'
 Name: Salazzle
-Species: '[[SRD-Salazzle|Salazzle]]'
+Pokedex: '[[SRD-Salazzle|Salazzle]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

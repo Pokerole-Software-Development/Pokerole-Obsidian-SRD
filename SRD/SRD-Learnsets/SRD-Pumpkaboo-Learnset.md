@@ -1,5 +1,4 @@
 ---
-DexID: 0709
 Moves:
 - - Starter
   - '[[SRD-Trick|Trick]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Foul Play|Foul Play]]'
 Name: Pumpkaboo
-Species: '[[SRD-Pumpkaboo|Pumpkaboo]]'
+Pokedex: '[[SRD-Pumpkaboo|Pumpkaboo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

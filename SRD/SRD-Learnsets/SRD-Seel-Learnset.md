@@ -1,5 +1,4 @@
 ---
-DexID: 0086
 Moves:
 - - Starter
   - '[[SRD-Water Sport|Water Sport]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Signal Beam|Signal Beam]]'
 Name: Seel
-Species: '[[SRD-Seel|Seel]]'
+Pokedex: '[[SRD-Seel|Seel]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

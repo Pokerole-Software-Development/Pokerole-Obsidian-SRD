@@ -1,7 +1,6 @@
 ---
 Ability1: Sand Veil
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-sandshrew-BookSprite.png
 BoxSprite: SRD-sandshrew-BoxSprite.png
 DexCategory: Mouse Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Sandslash]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Sand Rush
 HomeSprite: SRD-sandshrew-HomeSprite.png
+Image: sandshrew.png
 Learnset: '[[SRD-Sandshrew-Learnset]]'
 Legendary: 'No'
-Name: Sandshrew
 Number: 27
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-sandshrew-ShuffleToken.png
-Sprite: sandshrew.png
 Type1: Ground
 Type2: ''
 Weight:
-  Hectograms: 120
   Kilograms: 12.0
   Pounds: 26.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *They usually hide burrowed under caves and grasslands. A few have been sighted living in the desert. They are shy by nature - they dig and curl in a ball when facing a threat.*
 
 **DexID**:: 0027
-**Species**:: Sandshrew
+**Name**:: Sandshrew
 **Type**:: Ground
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] ([[SRD-Sand Rush|Sand Rush]])
 **Base HP**:: 3

@@ -1,7 +1,6 @@
 ---
 Ability1: Poison Point
 Ability2: Rivalry
-Baby: 'No'
 BookSprite: SRD-nidorino-BookSprite.png
 BoxSprite: SRD-nidorino-BoxSprite.png
 DexCategory: Poison Pin Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Nidoking]]'
 GenderType: M
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Hustle
 HomeSprite: SRD-nidorino-HomeSprite.png
+Image: nidorino.png
 Learnset: '[[SRD-Nidorino-Learnset]]'
 Legendary: 'No'
-Name: Nidorino
 Number: 33
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Field
 ShuffleToken: SRD-nidorino-ShuffleToken.png
-Sprite: nidorino.png
 Type1: Poison
 Type2: ''
 Weight:
-  Hectograms: 195
   Kilograms: 19.5
   Pounds: 43.0
 ---
@@ -57,7 +50,7 @@ Weight:
 *An independent and fierce creature. It roams alone in search for a mate and will compete with other males around. It will violently charge with a venom drenched horn against intruders.*
 
 **DexID**:: 0033
-**Species**:: Nidorino
+**Name**:: Nidorino
 **Type**:: Poison
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Rivalry|Rivalry]] ([[SRD-Hustle|Hustle]])
 **Base HP**:: 4

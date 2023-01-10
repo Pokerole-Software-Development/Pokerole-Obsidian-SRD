@@ -1,5 +1,4 @@
 ---
-DexID: 0569
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Rollout|Rollout]]'
 Name: Garbodor
-Species: '[[SRD-Garbodor|Garbodor]]'
+Pokedex: '[[SRD-Garbodor|Garbodor]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

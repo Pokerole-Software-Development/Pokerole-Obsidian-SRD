@@ -1,5 +1,4 @@
 ---
-DexID: '0614'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Ice Punch|Ice Punch]]'
 Name: Cubchoo
-Species: '[[SRD-Cubchoo|Cubchoo]]'
+Pokedex: '[[SRD-Cubchoo|Cubchoo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

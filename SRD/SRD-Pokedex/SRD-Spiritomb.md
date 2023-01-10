@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-spiritomb-BookSprite.png
 BoxSprite: SRD-spiritomb-BoxSprite.png
 DexCategory: Forbidden Pokemon
@@ -11,25 +10,19 @@ DexDescription: A legend from 500 years ago tells how it got bound into an Odd K
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Infiltrator
 HomeSprite: SRD-spiritomb-HomeSprite.png
+Image: spiritomb.png
 Learnset: '[[SRD-Spiritomb-Learnset]]'
 Legendary: 'No'
-Name: Spiritomb
 Number: 442
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-spiritomb-ShuffleToken.png
-Sprite: spiritomb.png
 Type1: Ghost
 Type2: Dark
 Weight:
-  Hectograms: 1080
   Kilograms: 108.0
   Pounds: 238.1
 ---
@@ -49,7 +42,7 @@ Weight:
 *A legend from 500 years ago tells how it got bound into an Odd Keystone after cursing an entire town. Two have been found in recent times. It is said that its vortex has more than 100 haunted souls.*
 
 **DexID**:: 0442
-**Species**:: Spiritomb
+**Name**:: Spiritomb
 **Type**:: Ghost / Dark
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 4

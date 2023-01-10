@@ -1,7 +1,6 @@
 ---
 Ability1: Cotton Down
 Ability2: Regenerator
-Baby: 'No'
 BookSprite: SRD-eldegoss-BookSprite.png
 BoxSprite: SRD-eldegoss-BoxSprite.png
 DexCategory: Cotton Bloom Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Gossifleur]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Effect Spore
 HomeSprite: SRD-eldegoss-HomeSprite.png
+Image: eldegoss.png
 Learnset: '[[SRD-Eldegoss-Learnset]]'
 Legendary: 'No'
-Name: Eldegoss
 Number: 830
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-eldegoss-ShuffleToken.png
-Sprite: eldegoss.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 25
   Kilograms: 2.5
   Pounds: 5.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *The cotton it produces has a glossy finish so clothes made with it are insanely expensive. In nature they are calm and selfless Pokemon who allow others to take nourishment from the cotton seeds in their head.*
 
 **DexID**:: 0830
-**Species**:: Eldegoss
+**Name**:: Eldegoss
 **Type**:: Grass
 **Abilities**:: [[SRD-Cotton Down|Cotton Down]] / [[SRD-Regenerator|Regenerator]] ([[SRD-Effect Spore|Effect Spore]])
 **Base HP**:: 4

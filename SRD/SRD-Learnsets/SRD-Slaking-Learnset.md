@@ -1,5 +1,4 @@
 ---
-DexID: 0289
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Gunk Shot|Gunk Shot]]'
 Name: Slaking
-Species: '[[SRD-Slaking|Slaking]]'
+Pokedex: '[[SRD-Slaking|Slaking]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

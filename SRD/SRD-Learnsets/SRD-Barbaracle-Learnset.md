@@ -1,5 +1,4 @@
 ---
-DexID: 0690
 Moves:
 - - Starter
   - '[[SRD-Sand Attack|Sand Attack]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Barbaracle
-Species: '[[SRD-Barbaracle|Barbaracle]]'
+Pokedex: '[[SRD-Barbaracle|Barbaracle]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

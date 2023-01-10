@@ -1,7 +1,6 @@
 ---
 Ability1: Blaze
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-charizard-BookSprite.png
 BoxSprite: SRD-charizard-BoxSprite.png
 DexCategory: Flame Pokemon
@@ -17,31 +16,25 @@ Evolutions:
 - Evolves: To
   Item: Charizardite Y
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Charizard Y]]'
+  Pokemon: '[[SRD-Charizard (Mega Y Form)]]'
 - Evolves: To
   Item: Charizardite X
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Charizard X]]'
+  Pokemon: '[[SRD-Charizard (Mega X Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 17
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Solar Power
 HomeSprite: SRD-charizard-HomeSprite.png
+Image: charizard.png
 Learnset: '[[SRD-Charizard-Learnset]]'
 Legendary: 'No'
-Name: Charizard
 Number: 6
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-charizard-ShuffleToken.png
-Sprite: charizard.png
 Type1: Fire
 Type2: Flying
 Weight:
-  Hectograms: 905
   Kilograms: 90.5
   Pounds: 199.5
 ---
@@ -61,7 +54,7 @@ Weight:
 *A Charizard flies around looking for strong opponents. It breathes intense flames that can melt any material. However, it will never touch a weaker foe. Not many trainers are able to handle its bad temper.*
 
 **DexID**:: 0006
-**Species**:: Charizard
+**Name**:: Charizard
 **Type**:: Fire / Flying
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Solar Power|Solar Power]])
 **Base HP**:: 5
@@ -79,10 +72,10 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon                  | Kind   | Speed   | Item           |
-|:----------|:-------------------------|:-------|:--------|:---------------|
-| From      | [[SRD-Charmeleon]]       | Level  | Medium  |                |
-| To        | [[SRD-Mega-Charizard Y]] | Mega   |         | Charizardite Y |
-| To        | [[SRD-Mega-Charizard X]] | Mega   |         | Charizardite X |
+| Evolves   | Pokemon                         | Kind   | Speed   | Item           |
+|:----------|:--------------------------------|:-------|:--------|:---------------|
+| From      | [[SRD-Charmeleon]]              | Level  | Medium  |                |
+| To        | [[SRD-Charizard (Mega Y Form)]] | Mega   |         | Charizardite Y |
+| To        | [[SRD-Charizard (Mega X Form)]] | Mega   |         | Charizardite X |
 
 ![[SRD-Charizard-Learnset]]

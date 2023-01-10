@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-zapdos-BookSprite.png
 BoxSprite: SRD-zapdos-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: The myth tells of a bird who lived inside the thunderstorms of t
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Static
 HomeSprite: SRD-zapdos-HomeSprite.png
+Image: zapdos.png
 Learnset: '[[SRD-Zapdos-Learnset]]'
 Legendary: 'Yes'
-Name: Zapdos
 Number: 145
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-zapdos-ShuffleToken.png
-Sprite: zapdos.png
 Type1: Electric
 Type2: Flying
 Weight:
-  Hectograms: 526
   Kilograms: 52.6
   Pounds: 116.0
 ---
@@ -49,7 +42,7 @@ Weight:
 *The myth tells of a bird who lived inside the thunderstorms of the region. It covered itself in lightning while flying in the dark clouds. A news report said it was involved in the closure of an energy plant.*
 
 **DexID**:: 0145
-**Species**:: Zapdos
+**Name**:: Zapdos
 **Type**:: Electric / Flying
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Static|Static]])
 **Base HP**:: 4

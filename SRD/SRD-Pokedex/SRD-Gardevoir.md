@@ -1,7 +1,6 @@
 ---
 Ability1: Synchronize
 Ability2: Trace
-Baby: 'No'
 BookSprite: SRD-gardevoir-BookSprite.png
 BoxSprite: SRD-gardevoir-BoxSprite.png
 DexCategory: Embrace Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Gardevoirite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Gardevoir]]'
+  Pokemon: '[[SRD-Gardevoir (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Telepathy
 HomeSprite: SRD-gardevoir-HomeSprite.png
+Image: gardevoir.png
 Learnset: '[[SRD-Gardevoir-Learnset]]'
 Legendary: 'No'
-Name: Gardevoir
 Number: 282
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: Amorphous
 ShuffleToken: SRD-gardevoir-ShuffleToken.png
-Sprite: gardevoir.png
 Type1: Psychic
 Type2: Fairy
 Weight:
-  Hectograms: 484
   Kilograms: 48.4
   Pounds: 106.7
 ---
@@ -57,7 +50,7 @@ Weight:
 *If they sense danger, Gardevoir unleash a wave of psychic energy. They can distort this dimension, defy the laws of matter and physics. They risk their lives to protect their fellows.*
 
 **DexID**:: 0282
-**Species**:: Gardevoir
+**Name**:: Gardevoir
 **Type**:: Psychic / Fairy
 **Abilities**:: [[SRD-Synchronize|Synchronize]] / [[SRD-Trace|Trace]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 5
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon                | Kind   | Speed   | Item         |
-|:----------|:-----------------------|:-------|:--------|:-------------|
-| From      | [[SRD-Kirlia]]         | Level  | Medium  |              |
-| To        | [[SRD-Mega-Gardevoir]] | Mega   |         | Gardevoirite |
+| Evolves   | Pokemon                       | Kind   | Speed   | Item         |
+|:----------|:------------------------------|:-------|:--------|:-------------|
+| From      | [[SRD-Kirlia]]                | Level  | Medium  |              |
+| To        | [[SRD-Gardevoir (Mega Form)]] | Mega   |         | Gardevoirite |
 
 ![[SRD-Gardevoir-Learnset]]

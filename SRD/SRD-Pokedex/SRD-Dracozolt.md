@@ -1,7 +1,6 @@
 ---
 Ability1: Volt Absorb
 Ability2: Hustle
-Baby: 'No'
 BookSprite: SRD-dracozolt-BookSprite.png
 BoxSprite: SRD-dracozolt-BoxSprite.png
 DexCategory: Fossil Pokemon
@@ -11,25 +10,19 @@ DexDescription: A mix-up of DNA during the revival process resulted in this. Its
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Sand Rush
 HomeSprite: SRD-dracozolt-HomeSprite.png
+Image: dracozolt.png
 Learnset: '[[SRD-Dracozolt-Learnset]]'
 Legendary: 'No'
-Name: Dracozolt
 Number: 880
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-dracozolt-ShuffleToken.png
-Sprite: dracozolt.png
 Type1: Electric
 Type2: Dragon
 Weight:
-  Hectograms: 1900
   Kilograms: 190.0
   Pounds: 418.9
 ---
@@ -49,7 +42,7 @@ Weight:
 *A mix-up of DNA during the revival process resulted in this. Its lower body was an incredibly Strong Pokemon that probably preyed on the little one from the upper body. Sometimes i1l t will try to run from itself.*
 
 **DexID**:: 0880
-**Species**:: Dracozolt
+**Name**:: Dracozolt
 **Type**:: Electric / Dragon
 **Abilities**:: [[SRD-Volt Absorb|Volt Absorb]] / [[SRD-Hustle|Hustle]] ([[SRD-Sand Rush|Sand Rush]])
 **Base HP**:: 4

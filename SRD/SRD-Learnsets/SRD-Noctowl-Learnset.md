@@ -1,5 +1,4 @@
 ---
-DexID: '0164'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Agility|Agility]]'
 Name: Noctowl
-Species: '[[SRD-Noctowl|Noctowl]]'
+Pokedex: '[[SRD-Noctowl|Noctowl]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

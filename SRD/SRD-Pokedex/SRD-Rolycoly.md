@@ -1,7 +1,6 @@
 ---
 Ability1: Steam Engine
 Ability2: Heatproof
-Baby: 'No'
 BookSprite: SRD-rolycoly-BookSprite.png
 BoxSprite: SRD-rolycoly-BoxSprite.png
 DexCategory: Coal Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Carkol]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Flash Fire
 HomeSprite: SRD-rolycoly-HomeSprite.png
+Image: rolycoly.png
 Learnset: '[[SRD-Rolycoly-Learnset]]'
 Legendary: 'No'
-Name: Rolycoly
 Number: 837
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-rolycoly-ShuffleToken.png
-Sprite: rolycoly.png
 Type1: Rock
 Type2: ''
 Weight:
-  Hectograms: 120
   Kilograms: 12.0
   Pounds: 26.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *This Pokemon was discovered inside a coal mine. It looks like a clump of coal only it moves like a unicycle. When it gets angry it glows burning hot but when it’s happy it lets out soft crackles and keeps a steady warmth.*
 
 **DexID**:: 0837
-**Species**:: Rolycoly
+**Name**:: Rolycoly
 **Type**:: Rock
 **Abilities**:: [[SRD-Steam Engine|Steam Engine]] / [[SRD-Heatproof|Heatproof]] ([[SRD-Flash Fire|Flash Fire]])
 **Base HP**:: 3

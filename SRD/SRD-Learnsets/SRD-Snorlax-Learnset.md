@@ -1,5 +1,4 @@
 ---
-DexID: '0143'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Self Destruct|Self Destruct]]'
 Name: Snorlax
-Species: '[[SRD-Snorlax|Snorlax]]'
+Pokedex: '[[SRD-Snorlax|Snorlax]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Slow Start
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-regigigas-BookSprite.png
 BoxSprite: SRD-regigigas-BoxSprite.png
 DexCategory: No Data
@@ -10,25 +9,19 @@ DexDescription: A very old legend tells about the King of Giants, who could crus
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 37
   Feet: 12.1
   Meters: 3.7
 HiddenAbility: ''
 HomeSprite: SRD-regigigas-HomeSprite.png
+Image: regigigas.png
 Learnset: '[[SRD-Regigigas-Learnset]]'
 Legendary: 'Yes'
-Name: Regigigas
 Number: 486
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-regigigas-ShuffleToken.png
-Sprite: regigigas.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 4200
   Kilograms: 420.0
   Pounds: 925.9
 ---
@@ -48,7 +41,7 @@ Weight:
 *A very old legend tells about the King of Giants, who could crush a mountain with its grip and mold living titans from the rubble.*
 
 **DexID**:: 0486
-**Species**:: Regigigas
+**Name**:: Regigigas
 **Type**:: Normal
 **Abilities**:: [[SRD-Slow Start|Slow Start]]
 **Base HP**:: 6

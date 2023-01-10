@@ -1,7 +1,6 @@
 ---
 Ability1: Limber
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-clobbopus-BookSprite.png
 BoxSprite: SRD-clobbopus-BoxSprite.png
 DexCategory: Tantrum Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Grapploct]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Technician
 HomeSprite: SRD-clobbopus-HomeSprite.png
+Image: clobbopus.png
 Learnset: '[[SRD-Clobbopus-Learnset]]'
 Legendary: 'No'
-Name: Clobbopus
 Number: 852
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-clobbopus-ShuffleToken.png
-Sprite: clobbopus.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 40
   Kilograms: 4.0
   Pounds: 8.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *It’s very curious and child-like, but it investigates things by try to punch them with its tentacles, despite this, the tentacles tear off easily, but don’t be alarmed for they’ll regrow in a few days.*
 
 **DexID**:: 0852
-**Species**:: Clobbopus
+**Name**:: Clobbopus
 **Type**:: Fighting
 **Abilities**:: [[SRD-Limber|Limber]] ([[SRD-Technician|Technician]])
 **Base HP**:: 3

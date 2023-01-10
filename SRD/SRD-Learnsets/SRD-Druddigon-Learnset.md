@@ -1,5 +1,4 @@
 ---
-DexID: '0620'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Poison Tail|Poison Tail]]'
 Name: Druddigon
-Species: '[[SRD-Druddigon|Druddigon]]'
+Pokedex: '[[SRD-Druddigon|Druddigon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0457'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Aurora Beam|Aurora Beam]]'
 Name: Lumineon
-Species: '[[SRD-Lumineon|Lumineon]]'
+Pokedex: '[[SRD-Lumineon|Lumineon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

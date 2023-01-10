@@ -1,7 +1,6 @@
 ---
 Ability1: Shell Armor
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-turtonator-BookSprite.png
 BoxSprite: SRD-turtonator-BoxSprite.png
 DexCategory: Blast Turtle Pokemon
@@ -11,25 +10,19 @@ DexDescription: It leaves in the volcanic areas of Alola, where it disguises its
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 20
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: ''
 HomeSprite: SRD-turtonator-HomeSprite.png
+Image: turtonator.png
 Learnset: '[[SRD-Turtonator-Learnset]]'
 Legendary: 'No'
-Name: Turtonator
 Number: 776
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-turtonator-ShuffleToken.png
-Sprite: turtonator.png
 Type1: Fire
 Type2: Dragon
 Weight:
-  Hectograms: 2120
   Kilograms: 212.0
   Pounds: 467.4
 ---
@@ -49,7 +42,7 @@ Weight:
 *It leaves in the volcanic areas of Alola, where it disguises itself among the rocks, waiting for prey to step on it to detonate an explosion. The hole on its chest is a weak point, but it is very difficult to access.*
 
 **DexID**:: 0776
-**Species**:: Turtonator
+**Name**:: Turtonator
 **Type**:: Fire / Dragon
 **Abilities**:: [[SRD-Shell Armor|Shell Armor]]
 **Base HP**:: 4

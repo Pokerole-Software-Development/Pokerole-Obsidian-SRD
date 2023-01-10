@@ -1,5 +1,4 @@
 ---
-DexID: 0719
 Moves:
 - - Master
   - '[[SRD-Glare|Glare]]'
@@ -50,14 +49,14 @@ Moves:
 - - Master
   - '[[SRD-Hidden Power|Hidden Power]]'
 Name: Zygarde 100%
-Species: '[[SRD-Zygarde 100%|Zygarde 100%]]'
+Pokedex: '[[SRD-Zygarde 100%|Zygarde 100%]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

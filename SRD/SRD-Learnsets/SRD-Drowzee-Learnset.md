@@ -1,5 +1,4 @@
 ---
-DexID: 0096
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Substitute|Substitute]]'
 Name: Drowzee
-Species: '[[SRD-Drowzee|Drowzee]]'
+Pokedex: '[[SRD-Drowzee|Drowzee]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

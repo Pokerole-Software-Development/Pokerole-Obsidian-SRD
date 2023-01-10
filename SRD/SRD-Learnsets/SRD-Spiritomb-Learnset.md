@@ -1,5 +1,4 @@
 ---
-DexID: '0442'
 Moves:
 - - Starter
   - '[[SRD-Curse|Curse]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Imprison|Imprison]]'
 Name: Spiritomb
-Species: '[[SRD-Spiritomb|Spiritomb]]'
+Pokedex: '[[SRD-Spiritomb|Spiritomb]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

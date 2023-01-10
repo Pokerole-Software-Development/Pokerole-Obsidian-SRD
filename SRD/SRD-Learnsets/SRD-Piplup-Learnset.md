@@ -1,5 +1,4 @@
 ---
-DexID: 0393
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Piplup
-Species: '[[SRD-Piplup|Piplup]]'
+Pokedex: '[[SRD-Piplup|Piplup]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

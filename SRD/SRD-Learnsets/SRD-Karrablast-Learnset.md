@@ -1,5 +1,4 @@
 ---
-DexID: 0588
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Pursuit|Pursuit]]'
 Name: Karrablast
-Species: '[[SRD-Karrablast|Karrablast]]'
+Pokedex: '[[SRD-Karrablast|Karrablast]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

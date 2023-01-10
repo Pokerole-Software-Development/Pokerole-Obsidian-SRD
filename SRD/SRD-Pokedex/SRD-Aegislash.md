@@ -1,7 +1,6 @@
 ---
 Ability1: Stance Change
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-aegislash-BookSprite.png
 BoxSprite: SRD-aegislash-BoxSprite.png
 DexCategory: Royal Sword Pokemon
@@ -16,27 +15,21 @@ Evolutions:
   Pokemon: '[[SRD-Doublade]]'
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Form Aegislash]]'
+  Pokemon: '[[SRD-Aegislash (Blade Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 17
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
 HomeSprite: SRD-aegislash-HomeSprite.png
+Image: aegislash.png
 Learnset: '[[SRD-Aegislash-Learnset]]'
 Legendary: 'No'
-Name: Aegislash
 Number: 681
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-aegislash-ShuffleToken.png
-Sprite: aegislash.png
 Type1: Steel
 Type2: Ghost
 Weight:
-  Hectograms: 530
   Kilograms: 53.0
   Pounds: 116.8
 ---
@@ -56,7 +49,7 @@ Weight:
 *The legend tells of how this Pokemon lead the first King of Kalos to victory. A crushing grip can be felt on the arm of the wielder. While in this form it can only use Support moves.*
 
 **DexID**:: 0681
-**Species**:: Aegislash
+**Name**:: Aegislash
 **Type**:: Steel / Ghost
 **Abilities**:: [[SRD-Stance Change|Stance Change]]
 **Base HP**:: 5
@@ -74,9 +67,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-| Evolves   | Pokemon                | Kind   | Item       |
-|:----------|:-----------------------|:-------|:-----------|
-| From      | [[SRD-Doublade]]       | Stone  | Dusk Stone |
-| To        | [[SRD-Form Aegislash]] | Form   |            |
+| Evolves   | Pokemon                        | Kind   | Item       |
+|:----------|:-------------------------------|:-------|:-----------|
+| From      | [[SRD-Doublade]]               | Stone  | Dusk Stone |
+| To        | [[SRD-Aegislash (Blade Form)]] | Form   |            |
 
 ![[SRD-Aegislash-Learnset]]

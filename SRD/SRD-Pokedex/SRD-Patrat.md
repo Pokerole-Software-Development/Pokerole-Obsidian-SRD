@@ -1,7 +1,6 @@
 ---
 Ability1: Run Away
 Ability2: Keen Eye
-Baby: 'No'
 BookSprite: SRD-patrat-BookSprite.png
 BoxSprite: SRD-patrat-BoxSprite.png
 DexCategory: Scout Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Watchog]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Analytic
 HomeSprite: SRD-patrat-HomeSprite.png
+Image: patrat.png
 Learnset: '[[SRD-Patrat-Learnset]]'
 Legendary: 'No'
-Name: Patrat
 Number: 504
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-patrat-ShuffleToken.png
-Sprite: patrat.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 116
   Kilograms: 11.6
   Pounds: 25.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *They live in grass fields in big groups. One of them is always looking out for predators. The group gathers food they store on their cheeks to bring it back home. They are wary and alert all the time.*
 
 **DexID**:: 0504
-**Species**:: Patrat
+**Name**:: Patrat
 **Type**:: Normal
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Keen Eye|Keen Eye]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 3

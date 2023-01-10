@@ -1,7 +1,6 @@
 ---
 Ability1: Intimidate
 Ability2: Anger Point
-Baby: 'No'
 BookSprite: SRD-tauros-BookSprite.png
 BoxSprite: SRD-tauros-BoxSprite.png
 DexCategory: Wild Bull Pokemon
@@ -11,25 +10,19 @@ DexDescription: "This is a Male species. They travel in herds around the plains 
 EventAbilities: ''
 Evolutions: []
 GenderType: M
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Sheer Force
 HomeSprite: SRD-tauros-HomeSprite.png
+Image: tauros.png
 Learnset: '[[SRD-Tauros-Learnset]]'
 Legendary: 'No'
-Name: Tauros
 Number: 128
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-tauros-ShuffleToken.png
-Sprite: tauros.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 884
   Kilograms: 88.4
   Pounds: 194.9
 ---
@@ -49,7 +42,7 @@ Weight:
 *This is a Male species. They travel in herds around the plains and fight each other by locking horns. The herd’s protector takes pride in its battle-scarred horns. Miltank is the female of this species.*
 
 **DexID**:: 0128
-**Species**:: Tauros
+**Name**:: Tauros
 **Type**:: Normal
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Anger Point|Anger Point]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 4

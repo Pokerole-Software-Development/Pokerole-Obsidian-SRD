@@ -1,5 +1,4 @@
 ---
-DexID: 0083
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Roost|Roost]]'
 Name: Farfetch'd
-Species: '[[SRD-Farfetch''d|Farfetch''d]]'
+Pokedex: '[[SRD-Farfetch''d|Farfetch''d]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

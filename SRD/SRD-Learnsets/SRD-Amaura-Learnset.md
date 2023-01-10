@@ -1,5 +1,4 @@
 ---
-DexID: 0697
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Water Pulse|Water Pulse]]'
 Name: Amaura
-Species: '[[SRD-Amaura|Amaura]]'
+Pokedex: '[[SRD-Amaura|Amaura]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0198
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Perish Song|Perish Song]]'
 Name: Murkrow
-Species: '[[SRD-Murkrow|Murkrow]]'
+Pokedex: '[[SRD-Murkrow|Murkrow]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

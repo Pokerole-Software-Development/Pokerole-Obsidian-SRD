@@ -1,7 +1,6 @@
 ---
 Ability1: Bad Dreams
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-darkrai-BookSprite.png
 BoxSprite: SRD-darkrai-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: "All around the world, young children have depicted a similar fi
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: ''
 HomeSprite: SRD-darkrai-HomeSprite.png
+Image: darkrai.png
 Learnset: '[[SRD-Darkrai-Learnset]]'
 Legendary: 'Yes'
-Name: Darkrai
 Number: 491
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-darkrai-ShuffleToken.png
-Sprite: darkrai.png
 Type1: Dark
 Type2: ''
 Weight:
-  Hectograms: 505
   Kilograms: 50.5
   Pounds: 111.3
 ---
@@ -49,7 +42,7 @@ Weight:
 *All around the world, young children have depicted a similar figure in their drawings. They call it “The Boogeyman”. People say it will make all your nightmares come true.*
 
 **DexID**:: 0491
-**Species**:: Darkrai
+**Name**:: Darkrai
 **Type**:: Dark
 **Abilities**:: [[SRD-Bad Dreams|Bad Dreams]]
 **Base HP**:: 4

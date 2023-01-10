@@ -1,5 +1,4 @@
 ---
-DexID: '0421'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Synthesis|Synthesis]]'
 Name: Cherrim
-Species: '[[SRD-Cherrim|Cherrim]]'
+Pokedex: '[[SRD-Cherrim|Cherrim]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

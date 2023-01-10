@@ -1,5 +1,4 @@
 ---
-DexID: '0115'
 Moves:
 - - Starter
   - '[[SRD-Comet Punch|Comet Punch]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Counter|Counter]]'
 Name: Kangaskhan
-Species: '[[SRD-Kangaskhan|Kangaskhan]]'
+Pokedex: '[[SRD-Kangaskhan|Kangaskhan]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

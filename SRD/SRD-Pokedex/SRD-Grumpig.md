@@ -1,7 +1,6 @@
 ---
 Ability1: Thick Fat
 Ability2: Own Tempo
-Baby: 'No'
 BookSprite: SRD-grumpig-BookSprite.png
 BoxSprite: SRD-grumpig-BoxSprite.png
 DexCategory: Manipulate Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Spoink]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Gluttony
 HomeSprite: SRD-grumpig-HomeSprite.png
+Image: grumpig.png
 Learnset: '[[SRD-Grumpig-Learnset]]'
 Legendary: 'No'
-Name: Grumpig
 Number: 326
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-grumpig-ShuffleToken.png
-Sprite: grumpig.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 715
   Kilograms: 71.5
   Pounds: 157.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *Grumpigs control their foes with their psychic powers amplified by the pearls on their head and a hypnotic dance. However, when they use their powers, they have a difficult time breathing.*
 
 **DexID**:: 0326
-**Species**:: Grumpig
+**Name**:: Grumpig
 **Type**:: Psychic
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 4

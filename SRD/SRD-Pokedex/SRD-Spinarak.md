@@ -1,7 +1,6 @@
 ---
 Ability1: Swarm
 Ability2: Insomnia
-Baby: 'No'
 BookSprite: SRD-spinarak-BookSprite.png
 BoxSprite: SRD-spinarak-BoxSprite.png
 DexCategory: String Spit Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Ariados]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Sniper
 HomeSprite: SRD-spinarak-HomeSprite.png
+Image: spinarak.png
 Learnset: '[[SRD-Spinarak-Learnset]]'
 Legendary: 'No'
-Name: Spinarak
 Number: 167
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-spinarak-ShuffleToken.png
-Sprite: spinarak.png
 Type1: Bug
 Type2: Poison
 Weight:
-  Hectograms: 85
   Kilograms: 8.5
   Pounds: 18.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *It sets a trap by spinning a web of thin but strong silk. Then it waits for the prey to arrive. It recognizes what kind of prey has fallen on its web by the vibrations received by each one of its eight legs.*
 
 **DexID**:: 0167
-**Species**:: Spinarak
+**Name**:: Spinarak
 **Type**:: Bug / Poison
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Insomnia|Insomnia]] ([[SRD-Sniper|Sniper]])
 **Base HP**:: 3

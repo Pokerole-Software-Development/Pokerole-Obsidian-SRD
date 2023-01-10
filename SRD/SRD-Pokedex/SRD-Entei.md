@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-entei-BookSprite.png
 BoxSprite: SRD-entei-BoxSprite.png
 DexCategory: No Data
@@ -10,25 +9,19 @@ DexDescription: Johto Legends tell about a Pokemon so powerful, its bark makes v
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 21
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: Inner Focus
 HomeSprite: SRD-entei-HomeSprite.png
+Image: entei.png
 Learnset: '[[SRD-Entei-Learnset]]'
 Legendary: 'Yes'
-Name: Entei
 Number: 244
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-entei-ShuffleToken.png
-Sprite: entei.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 1980
   Kilograms: 198.0
   Pounds: 436.5
 ---
@@ -48,7 +41,7 @@ Weight:
 *Johto Legends tell about a Pokemon so powerful, its bark makes volcanoes erupt, traveling the lands cloaked in a cloud of volcanic smoke.*
 
 **DexID**:: 0244
-**Species**:: Entei
+**Name**:: Entei
 **Type**:: Fire
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 5

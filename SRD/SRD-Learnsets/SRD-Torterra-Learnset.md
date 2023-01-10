@@ -1,5 +1,4 @@
 ---
-DexID: 0389
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Frenzy Plant|Frenzy Plant]]'
 Name: Torterra
-Species: '[[SRD-Torterra|Torterra]]'
+Pokedex: '[[SRD-Torterra|Torterra]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

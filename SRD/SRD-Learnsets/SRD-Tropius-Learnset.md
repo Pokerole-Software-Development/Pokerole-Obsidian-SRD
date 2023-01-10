@@ -1,5 +1,4 @@
 ---
-DexID: '0357'
 Moves:
 - - Starter
   - '[[SRD-Bestow|Bestow]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Tropius
-Species: '[[SRD-Tropius|Tropius]]'
+Pokedex: '[[SRD-Tropius|Tropius]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

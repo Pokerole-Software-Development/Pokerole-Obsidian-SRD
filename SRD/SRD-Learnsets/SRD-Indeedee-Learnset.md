@@ -1,5 +1,4 @@
 ---
-DexID: 0875
 Moves:
 - - Starter
   - '[[SRD-Stored Power|Stored Power]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Wonder Room|Wonder Room]]'
 Name: Indeedee
-Species: '[[SRD-Indeedee|Indeedee]]'
+Pokedex: '[[SRD-Indeedee|Indeedee]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

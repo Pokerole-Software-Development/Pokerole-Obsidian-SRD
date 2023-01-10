@@ -1,5 +1,4 @@
 ---
-DexID: '0227'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Pursuit|Pursuit]]'
 Name: Skarmory
-Species: '[[SRD-Skarmory|Skarmory]]'
+Pokedex: '[[SRD-Skarmory|Skarmory]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

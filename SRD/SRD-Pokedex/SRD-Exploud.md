@@ -1,7 +1,6 @@
 ---
 Ability1: Soundproof
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-exploud-BookSprite.png
 BoxSprite: SRD-exploud-BoxSprite.png
 DexCategory: Loud Noise Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Loudred]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Scrappy
 HomeSprite: SRD-exploud-HomeSprite.png
+Image: exploud.png
 Learnset: '[[SRD-Exploud-Learnset]]'
 Legendary: 'No'
-Name: Exploud
 Number: 295
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Field
 ShuffleToken: SRD-exploud-ShuffleToken.png
-Sprite: exploud.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 840
   Kilograms: 84.0
   Pounds: 185.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is said that some tremors are caused by the roars of this Pokemon. They communicate with soft noises, raising their voice only in battle. They can emit many different kinds of sounds.*
 
 **DexID**:: 0295
-**Species**:: Exploud
+**Name**:: Exploud
 **Type**:: Normal
 **Abilities**:: [[SRD-Soundproof|Soundproof]] ([[SRD-Scrappy|Scrappy]])
 **Base HP**:: 6

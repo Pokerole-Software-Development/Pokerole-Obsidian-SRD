@@ -1,5 +1,4 @@
 ---
-DexID: 0831
 Moves:
 - - Starter
   - '[[SRD-Leafage|Leafage]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Leech Seed|Leech Seed]]'
 Name: Eldegoss
-Species: '[[SRD-Eldegoss|Eldegoss]]'
+Pokedex: '[[SRD-Eldegoss|Eldegoss]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

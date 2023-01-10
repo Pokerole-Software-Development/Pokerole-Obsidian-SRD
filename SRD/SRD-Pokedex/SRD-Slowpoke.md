@@ -1,7 +1,6 @@
 ---
 Ability1: Oblivious
 Ability2: Own Tempo
-Baby: 'No'
 BookSprite: SRD-slowpoke-BookSprite.png
 BoxSprite: SRD-slowpoke-BoxSprite.png
 DexCategory: Dopey Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Slowking]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Regenerator
 HomeSprite: SRD-slowpoke-HomeSprite.png
+Image: slowpoke.png
 Learnset: '[[SRD-Slowpoke-Learnset]]'
 Legendary: 'No'
-Name: Slowpoke
 Number: 79
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Water 1
 ShuffleToken: SRD-slowpoke-ShuffleToken.png
-Sprite: slowpoke.png
 Type1: Water
 Type2: Psychic
 Weight:
-  Hectograms: 360
   Kilograms: 36.0
   Pounds: 79.4
 ---
@@ -57,7 +50,7 @@ Weight:
 *It lives close to water. This Pokemon has a low intellect, and it’s slow to react to any stimuli. Its tail seeps a sweet substance it uses to lure prey to eat. When the tip turns white shellders will be attracted to it.*
 
 **DexID**:: 0079
-**Species**:: Slowpoke
+**Name**:: Slowpoke
 **Type**:: Water / Psychic
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 4

@@ -1,5 +1,4 @@
 ---
-DexID: '0063'
 Moves:
 - - Starter
   - '[[SRD-Teleport|Teleport]]'
@@ -12,14 +11,14 @@ Moves:
 - - Ace
   - '[[SRD-Metronome|Metronome]]'
 Name: Abra
-Species: '[[SRD-Abra|Abra]]'
+Pokedex: '[[SRD-Abra|Abra]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

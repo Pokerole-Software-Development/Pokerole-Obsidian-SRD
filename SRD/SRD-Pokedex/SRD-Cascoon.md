@@ -1,7 +1,6 @@
 ---
 Ability1: Shed Skin
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-cascoon-BookSprite.png
 BoxSprite: SRD-cascoon-BoxSprite.png
 DexCategory: Cocoon Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Dustox]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: ''
 HomeSprite: SRD-cascoon-HomeSprite.png
+Image: cascoon.png
 Learnset: '[[SRD-Cascoon-Learnset]]'
 Legendary: 'No'
-Name: Cascoon
 Number: 268
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-cascoon-ShuffleToken.png
-Sprite: cascoon.png
 Type1: Bug
 Type2: ''
 Weight:
-  Hectograms: 115
   Kilograms: 11.5
   Pounds: 25.4
 ---
@@ -57,7 +50,7 @@ Weight:
 *They hide between huge leaves and gaps between branches, if they were to move, their evolution would be weaker. Due to this, Cascoon will remain motionless. If Wrumple lived in a dark place, it evolves to Cascoon.*
 
 **DexID**:: 0268
-**Species**:: Cascoon
+**Name**:: Cascoon
 **Type**:: Bug
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]]
 **Base HP**:: 4

@@ -1,7 +1,6 @@
 ---
 Ability1: Mummy
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-cofagrigus-BookSprite.png
 BoxSprite: SRD-cofagrigus-BoxSprite.png
 DexCategory: Coffin Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Yamask]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 17
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
 HomeSprite: SRD-cofagrigus-HomeSprite.png
+Image: cofagrigus.png
 Learnset: '[[SRD-Cofagrigus-Learnset]]'
 Legendary: 'No'
-Name: Cofagrigus
 Number: 563
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: Amorphous
 ShuffleToken: SRD-cofagrigus-ShuffleToken.png
-Sprite: cofagrigus.png
 Type1: Ghost
 Type2: ''
 Weight:
-  Hectograms: 765
   Kilograms: 76.5
   Pounds: 168.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *This Pokemon has only been seen few times in the ruins and tombs of ancient civilizations. It curses and transforms people and Pokemon into mummy-like creatures. It is said it feeds on pure gold.*
 
 **DexID**:: 0563
-**Species**:: Cofagrigus
+**Name**:: Cofagrigus
 **Type**:: Ghost
 **Abilities**:: [[SRD-Mummy|Mummy]]
 **Base HP**:: 4

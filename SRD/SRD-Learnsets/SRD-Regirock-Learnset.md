@@ -1,5 +1,4 @@
 ---
-DexID: '0377'
 Moves:
 - - Master
   - '[[SRD-Stomp|Stomp]]'
@@ -38,14 +37,14 @@ Moves:
 - - Master
   - '[[SRD-Rock Polish|Rock Polish]]'
 Name: Regirock
-Species: '[[SRD-Regirock|Regirock]]'
+Pokedex: '[[SRD-Regirock|Regirock]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

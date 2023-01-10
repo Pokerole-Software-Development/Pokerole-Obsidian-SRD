@@ -1,7 +1,6 @@
 ---
 Ability1: Justified
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-virizion-BookSprite.png
 BoxSprite: SRD-virizion-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: An old tale in Unova mentions four Pokemon that fought against a
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 20
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: ''
 HomeSprite: SRD-virizion-HomeSprite.png
+Image: virizion.png
 Learnset: '[[SRD-Virizion-Learnset]]'
 Legendary: 'Yes'
-Name: Virizion
 Number: 640
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-virizion-ShuffleToken.png
-Sprite: virizion.png
 Type1: Grass
 Type2: Fighting
 Weight:
-  Hectograms: 2000
   Kilograms: 200.0
   Pounds: 440.9
 ---
@@ -49,7 +42,7 @@ Weight:
 *An old tale in Unova mentions four Pokemon that fought against an evil army. The most beautiful of them was also the most swift and graceful in combat, it created an army of trees that won the battle.*
 
 **DexID**:: 0640
-**Species**:: Virizion
+**Name**:: Virizion
 **Type**:: Grass / Fighting
 **Abilities**:: [[SRD-Justified|Justified]]
 **Base HP**:: 4

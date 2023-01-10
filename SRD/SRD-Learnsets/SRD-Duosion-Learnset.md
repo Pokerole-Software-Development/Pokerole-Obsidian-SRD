@@ -1,5 +1,4 @@
 ---
-DexID: 0578
 Moves:
 - - Starter
   - '[[SRD-Psywave|Psywave]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Confuse Ray|Confuse Ray]]'
 Name: Duosion
-Species: '[[SRD-Duosion|Duosion]]'
+Pokedex: '[[SRD-Duosion|Duosion]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

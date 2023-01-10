@@ -1,7 +1,6 @@
 ---
 Ability1: Shed Skin
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-metapod-BookSprite.png
 BoxSprite: SRD-metapod-BoxSprite.png
 DexCategory: Cocoon Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Butterfree]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: ''
 HomeSprite: SRD-metapod-HomeSprite.png
+Image: metapod.png
 Learnset: '[[SRD-Metapod-Learnset]]'
 Legendary: 'No'
-Name: Metapod
 Number: 11
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-metapod-ShuffleToken.png
-Sprite: metapod.png
 Type1: Bug
 Type2: ''
 Weight:
-  Hectograms: 99
   Kilograms: 9.9
   Pounds: 21.8
 ---
@@ -57,7 +50,7 @@ Weight:
 *Its shell can be as hard as an iron slab. A Metapod does not move very much because it is preparing its soft innards for evolution inside the shell. It is known as one of the fastest evolving Pokemon in the world.*
 
 **DexID**:: 0011
-**Species**:: Metapod
+**Name**:: Metapod
 **Type**:: Bug
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]]
 **Base HP**:: 4

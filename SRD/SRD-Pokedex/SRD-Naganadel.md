@@ -1,7 +1,6 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-naganadel-BookSprite.png
 BoxSprite: SRD-naganadel-BoxSprite.png
 DexCategory: 'Aether Foundation Log #164'
@@ -15,25 +14,19 @@ Evolutions:
   Move: Dragon Pulse
   Pokemon: '[[SRD-Poipole]]'
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 36
   Feet: 11.8
   Meters: 3.6
 HiddenAbility: ''
 HomeSprite: SRD-naganadel-HomeSprite.png
+Image: naganadel.png
 Learnset: '[[SRD-Naganadel-Learnset]]'
 Legendary: 'Yes'
-Name: Naganadel
 Number: 804
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-naganadel-ShuffleToken.png
-Sprite: naganadel.png
 Type1: Poison
 Type2: Dragon
 Weight:
-  Hectograms: 1500
   Kilograms: 150.0
   Pounds: 330.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *One specimen of UB- Adhesive has apparently evolved. Its friendly demeanor is gone. The large streams of corrosive poison it shot seriously damaged our equipment, I must take a sample to study it*
 
 **DexID**:: 0804
-**Species**:: Naganadel
+**Name**:: Naganadel
 **Type**:: Poison / Dragon
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 5

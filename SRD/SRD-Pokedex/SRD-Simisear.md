@@ -1,7 +1,6 @@
 ---
 Ability1: Gluttony
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-simisear-BookSprite.png
 BoxSprite: SRD-simisear-BoxSprite.png
 DexCategory: Ember Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Pansear]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Blaze
 HomeSprite: SRD-simisear-HomeSprite.png
+Image: simisear.png
 Learnset: '[[SRD-Simisear-Learnset]]'
 Legendary: 'No'
-Name: Simisear
 Number: 514
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-simisear-ShuffleToken.png
-Sprite: simisear.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 280
   Kilograms: 28.0
   Pounds: 61.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *A flame burns on top of its head. It scatters embers from its head and tail to sear its opponents. It loves sweets and is not afraid to go near humans to try to get some candy by begging or by stealing.*
 
 **DexID**:: 0514
-**Species**:: Simisear
+**Name**:: Simisear
 **Type**:: Fire
 **Abilities**:: [[SRD-Gluttony|Gluttony]] ([[SRD-Blaze|Blaze]])
 **Base HP**:: 4

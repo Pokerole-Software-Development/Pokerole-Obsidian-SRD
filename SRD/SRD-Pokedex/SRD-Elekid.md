@@ -1,7 +1,6 @@
 ---
 Ability1: Static
 Ability2: ''
-Baby: 'Yes'
 BookSprite: SRD-elekid-BookSprite.png
 BoxSprite: SRD-elekid-BoxSprite.png
 DexCategory: Electric Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Electabuzz]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Vital Spirit
 HomeSprite: SRD-elekid-HomeSprite.png
+Image: elekid.png
 Learnset: '[[SRD-Elekid-Learnset]]'
 Legendary: 'No'
-Name: Elekid
 Number: 239
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-elekid-ShuffleToken.png
-Sprite: elekid.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 235
   Kilograms: 23.5
   Pounds: 51.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *They can be found following thunder storms. Elekids rotate their arms constantly to charge electricity. Beware, there is an electric current between their horns that may zap you if you touch them.*
 
 **DexID**:: 0239
-**Species**:: Elekid
+**Name**:: Elekid
 **Type**:: Electric
 **Abilities**:: [[SRD-Static|Static]] ([[SRD-Vital Spirit|Vital Spirit]])
 **Base HP**:: 3

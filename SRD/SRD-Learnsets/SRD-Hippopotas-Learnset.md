@@ -1,5 +1,4 @@
 ---
-DexID: 0449
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Water Pulse|Water Pulse]]'
 Name: Hippopotas
-Species: '[[SRD-Hippopotas|Hippopotas]]'
+Pokedex: '[[SRD-Hippopotas|Hippopotas]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

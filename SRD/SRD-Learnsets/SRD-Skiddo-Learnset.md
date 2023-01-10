@@ -1,5 +1,4 @@
 ---
-DexID: '0673'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Defense Curl|Defense Curl]]'
 Name: Skiddo
-Species: '[[SRD-Skiddo|Skiddo]]'
+Pokedex: '[[SRD-Skiddo|Skiddo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

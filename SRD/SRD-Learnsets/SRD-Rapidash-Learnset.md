@@ -1,5 +1,4 @@
 ---
-DexID: 0078
 Moves:
 - - Starter
   - '[[SRD-Ember|Ember]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Drill Run|Drill Run]]'
 Name: Rapidash
-Species: '[[SRD-Rapidash|Rapidash]]'
+Pokedex: '[[SRD-Rapidash|Rapidash]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

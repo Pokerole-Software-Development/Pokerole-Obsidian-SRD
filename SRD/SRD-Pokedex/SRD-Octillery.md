@@ -1,7 +1,6 @@
 ---
 Ability1: Suction Cups
 Ability2: Sniper
-Baby: 'No'
 BookSprite: SRD-octillery-BookSprite.png
 BoxSprite: SRD-octillery-BoxSprite.png
 DexCategory: Jet Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Remoraid]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Moody
 HomeSprite: SRD-octillery-HomeSprite.png
+Image: octillery.png
 Learnset: '[[SRD-Octillery-Learnset]]'
 Legendary: 'No'
-Name: Octillery
 Number: 224
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Water 2
 ShuffleToken: SRD-octillery-ShuffleToken.png
-Sprite: octillery.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 285
   Kilograms: 28.5
   Pounds: 62.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Octillery sprays ink, traps its foes with its tentacles and then hits them with its rock-hard head. If the enemy is too strong, they escape. They can be found inside rocky holes deep in the sea floor.*
 
 **DexID**:: 0224
-**Species**:: Octillery
+**Name**:: Octillery
 **Type**:: Water
 **Abilities**:: [[SRD-Suction Cups|Suction Cups]] / [[SRD-Sniper|Sniper]] ([[SRD-Moody|Moody]])
 **Base HP**:: 4

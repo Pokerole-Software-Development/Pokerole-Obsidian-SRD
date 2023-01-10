@@ -1,7 +1,6 @@
 ---
 Ability1: Lightning Rod
 Ability2: Motor Drive
-Baby: 'No'
 BookSprite: SRD-blitzle-BookSprite.png
 BoxSprite: SRD-blitzle-BoxSprite.png
 DexCategory: Electrified Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Zebstrika]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-blitzle-HomeSprite.png
+Image: blitzle.png
 Learnset: '[[SRD-Blitzle-Learnset]]'
 Legendary: 'No'
-Name: Blitzle
 Number: 522
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-blitzle-ShuffleToken.png
-Sprite: blitzle.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 298
   Kilograms: 29.8
   Pounds: 65.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *When storm clouds cover the plains you can see them running around chasing the lightnings to absorb them on their mane. They form big herds and use the pattern on their skin to confuse predators.*
 
 **DexID**:: 0522
-**Species**:: Blitzle
+**Name**:: Blitzle
 **Type**:: Electric
 **Abilities**:: [[SRD-Lightning Rod|Lightning Rod]] / [[SRD-Motor Drive|Motor Drive]] ([[SRD-Sap Sipper|Sap Sipper]])
 **Base HP**:: 3

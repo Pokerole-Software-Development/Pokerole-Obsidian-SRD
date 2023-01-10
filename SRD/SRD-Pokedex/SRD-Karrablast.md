@@ -1,7 +1,6 @@
 ---
 Ability1: Swarm
 Ability2: Shed Skin
-Baby: 'No'
 BookSprite: SRD-karrablast-BookSprite.png
 BoxSprite: SRD-karrablast-BoxSprite.png
 DexCategory: Clamping Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Escavalier]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: No Guard
 HomeSprite: SRD-karrablast-HomeSprite.png
+Image: karrablast.png
 Learnset: '[[SRD-Karrablast-Learnset]]'
 Legendary: 'No'
-Name: Karrablast
 Number: 588
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-karrablast-ShuffleToken.png
-Sprite: karrablast.png
 Type1: Bug
 Type2: ''
 Weight:
-  Hectograms: 59
   Kilograms: 5.9
   Pounds: 13.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *When they feel threatened, they spit an acidic liquid to drive attackers away. This Pokemon targets Shelmet as they compete for food. It only evolves when it has a Shelmet's shell as its new home.*
 
 **DexID**:: 0588
-**Species**:: Karrablast
+**Name**:: Karrablast
 **Type**:: Bug
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Shed Skin|Shed Skin]] ([[SRD-No Guard|No Guard]])
 **Base HP**:: 3

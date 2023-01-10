@@ -1,7 +1,6 @@
 ---
 Ability1: Gluttony
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-simisage-BookSprite.png
 BoxSprite: SRD-simisage-BoxSprite.png
 DexCategory: Thorn Monkey Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Pansage]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Overgrow
 HomeSprite: SRD-simisage-HomeSprite.png
+Image: simisage.png
 Learnset: '[[SRD-Simisage-Learnset]]'
 Legendary: 'No'
-Name: Simisage
 Number: 512
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-simisage-ShuffleToken.png
-Sprite: simisage.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 305
   Kilograms: 30.5
   Pounds: 67.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *It becomes somewhat ill tempered after it evolves. The leaves on it’s head can be made into a bitter but effective medicine, however it will attack anyone trying to take them with it’s thorned tail.*
 
 **DexID**:: 0512
-**Species**:: Simisage
+**Name**:: Simisage
 **Type**:: Grass
 **Abilities**:: [[SRD-Gluttony|Gluttony]] ([[SRD-Overgrow|Overgrow]])
 **Base HP**:: 4

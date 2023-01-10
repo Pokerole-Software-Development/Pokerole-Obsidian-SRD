@@ -1,7 +1,6 @@
 ---
 Ability1: Sand Veil
 Ability2: Arena Trap
-Baby: 'No'
 BookSprite: SRD-diglett-BookSprite.png
 BoxSprite: SRD-diglett-BoxSprite.png
 DexCategory: Mole Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Dugtrio]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Sand Force
 HomeSprite: SRD-diglett-HomeSprite.png
+Image: diglett.png
 Learnset: '[[SRD-Diglett-Learnset]]'
 Legendary: 'No'
-Name: Diglett
 Number: 50
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-diglett-ShuffleToken.png
-Sprite: diglett.png
 Type1: Ground
 Type2: ''
 Weight:
-  Hectograms: 8
   Kilograms: 0.8
   Pounds: 1.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *It prefers dark places and spends most of its time underground. It has a very thin skin. It’s frail and has problems regulating its own temperature. Keep it burrowed or it will get sick.*
 
 **DexID**:: 0050
-**Species**:: Diglett
+**Name**:: Diglett
 **Type**:: Ground
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] / [[SRD-Arena Trap|Arena Trap]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 3

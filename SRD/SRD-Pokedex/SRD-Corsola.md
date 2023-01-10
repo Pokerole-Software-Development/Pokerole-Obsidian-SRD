@@ -1,7 +1,6 @@
 ---
 Ability1: Hustle
 Ability2: Natural Cure
-Baby: 'No'
 BookSprite: SRD-corsola-BookSprite.png
 BoxSprite: SRD-corsola-BoxSprite.png
 DexCategory: Coral Pokemon
@@ -11,25 +10,19 @@ DexDescription: People and Pokemon build their communities on top of reefs of th
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Regenerator
 HomeSprite: SRD-corsola-HomeSprite.png
+Image: corsola.png
 Learnset: '[[SRD-Corsola-Learnset]]'
 Legendary: 'No'
-Name: Corsola
 Number: 222
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Water 3
 ShuffleToken: SRD-corsola-ShuffleToken.png
-Sprite: corsola.png
 Type1: Water
 Type2: Rock
 Weight:
-  Hectograms: 50
   Kilograms: 5.0
   Pounds: 11.0
 ---
@@ -49,7 +42,7 @@ Weight:
 *People and Pokemon build their communities on top of reefs of these creatures which shine with seven colors in sunlight. Their corals have healing qualities and their presence wards against disasters.*
 
 **DexID**:: 0222
-**Species**:: Corsola
+**Name**:: Corsola
 **Type**:: Water / Rock
 **Abilities**:: [[SRD-Hustle|Hustle]] / [[SRD-Natural Cure|Natural Cure]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 4

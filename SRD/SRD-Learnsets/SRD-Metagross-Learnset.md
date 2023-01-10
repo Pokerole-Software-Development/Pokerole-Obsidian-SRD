@@ -1,5 +1,4 @@
 ---
-DexID: '0376'
 Moves:
 - - Starter
   - '[[SRD-Take Down|Take Down]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Telekinesis|Telekinesis]]'
 Name: Metagross
-Species: '[[SRD-Metagross|Metagross]]'
+Pokedex: '[[SRD-Metagross|Metagross]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

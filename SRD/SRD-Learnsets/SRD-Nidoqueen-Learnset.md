@@ -1,5 +1,4 @@
 ---
-DexID: '0031'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -34,14 +33,14 @@ Moves:
 - - Pro
   - '[[SRD-Icy Wind|Icy Wind]]'
 Name: Nidoqueen
-Species: '[[SRD-Nidoqueen|Nidoqueen]]'
+Pokedex: '[[SRD-Nidoqueen|Nidoqueen]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

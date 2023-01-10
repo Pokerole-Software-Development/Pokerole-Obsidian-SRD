@@ -1,5 +1,4 @@
 ---
-DexID: 0548
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Grass Whistle|Grass Whistle]]'
 Name: Petilil
-Species: '[[SRD-Petilil|Petilil]]'
+Pokedex: '[[SRD-Petilil|Petilil]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

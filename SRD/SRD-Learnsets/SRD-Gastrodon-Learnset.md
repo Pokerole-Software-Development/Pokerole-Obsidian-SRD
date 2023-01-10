@@ -1,5 +1,4 @@
 ---
-DexID: '0423'
 Moves:
 - - Starter
   - '[[SRD-Mud Slap|Mud Slap]]'
@@ -34,14 +33,14 @@ Moves:
 - - Pro
   - '[[SRD-Fissure|Fissure]]'
 Name: Gastrodon
-Species: '[[SRD-Gastrodon|Gastrodon]]'
+Pokedex: '[[SRD-Gastrodon|Gastrodon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

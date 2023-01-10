@@ -1,5 +1,4 @@
 ---
-DexID: 0279
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Gunk Shot|Gunk Shot]]'
 Name: Pelipper
-Species: '[[SRD-Pelipper|Pelipper]]'
+Pokedex: '[[SRD-Pelipper|Pelipper]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

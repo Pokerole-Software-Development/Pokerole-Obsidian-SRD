@@ -1,5 +1,4 @@
 ---
-DexID: 0281
 Moves:
 - - Starter
   - '[[SRD-Double Team|Double Team]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Magic Room|Magic Room]]'
 Name: Kirlia
-Species: '[[SRD-Kirlia|Kirlia]]'
+Pokedex: '[[SRD-Kirlia|Kirlia]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

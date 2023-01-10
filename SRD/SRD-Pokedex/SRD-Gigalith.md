@@ -1,7 +1,6 @@
 ---
 Ability1: Sturdy
 Ability2: Sand Stream
-Baby: 'No'
 BookSprite: SRD-gigalith-BookSprite.png
 BoxSprite: SRD-gigalith-BoxSprite.png
 DexCategory: Compressed Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Boldore]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 17
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Sand Force
 HomeSprite: SRD-gigalith-HomeSprite.png
+Image: gigalith.png
 Learnset: '[[SRD-Gigalith-Learnset]]'
 Legendary: 'No'
-Name: Gigalith
 Number: 526
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-gigalith-ShuffleToken.png
-Sprite: gigalith.png
 Type1: Rock
 Type2: ''
 Weight:
-  Hectograms: 2600
   Kilograms: 260.0
   Pounds: 573.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is a serious Pokemon that doesn’t interact with others too much. It uses the sharp crystals in it’s body to recharge using the sun’s energy. If angered it can bury it’s foe under giant rock slides or explode at will.*
 
 **DexID**:: 0526
-**Species**:: Gigalith
+**Name**:: Gigalith
 **Type**:: Rock
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Sand Stream|Sand Stream]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 5

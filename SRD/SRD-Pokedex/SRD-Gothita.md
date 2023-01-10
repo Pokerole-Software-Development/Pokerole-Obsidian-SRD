@@ -1,7 +1,6 @@
 ---
 Ability1: Frisk
 Ability2: Competitive
-Baby: 'No'
 BookSprite: SRD-gothita-BookSprite.png
 BoxSprite: SRD-gothita-BoxSprite.png
 DexCategory: Fixation Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Gothorita]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Shadow Tag
 HomeSprite: SRD-gothita-HomeSprite.png
+Image: gothita.png
 Learnset: '[[SRD-Gothita-Learnset]]'
 Legendary: 'No'
-Name: Gothita
 Number: 574
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-gothita-ShuffleToken.png
-Sprite: gothita.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 58
   Kilograms: 5.8
   Pounds: 12.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *They continuously observe both Trainers and Pokemon. Apparently, they are looking at something that only they can see. The ribbon-like feelers on their body increase their psychic power.*
 
 **DexID**:: 0574
-**Species**:: Gothita
+**Name**:: Gothita
 **Type**:: Psychic
 **Abilities**:: [[SRD-Frisk|Frisk]] / [[SRD-Competitive|Competitive]] ([[SRD-Shadow Tag|Shadow Tag]])
 **Base HP**:: 3

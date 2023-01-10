@@ -1,7 +1,6 @@
 ---
 Ability1: Wandering Spirit
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-runerigus-BookSprite.png
 BoxSprite: SRD-runerigus-BoxSprite.png
 DexCategory: Grudge Pokemon
@@ -12,28 +11,22 @@ EventAbilities: ''
 Evolutions:
 - Evolves: From
   Kind: Special
-  Pokemon: '[[SRD-Galarian Yamask]]'
+  Pokemon: '[[SRD-Yamask (Galarian Form)]]'
   Special: Walk near a rune Painting
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: ''
 HomeSprite: SRD-runerigus-HomeSprite.png
+Image: runerigus.png
 Learnset: '[[SRD-Runerigus-Learnset]]'
 Legendary: 'No'
-Name: Runerigus
 Number: 867
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: Amorphous
 ShuffleToken: SRD-runerigus-ShuffleToken.png
-Sprite: runerigus.png
 Type1: Ground
 Type2: Ghost
 Weight:
-  Hectograms: 666
   Kilograms: 66.6
   Pounds: 146.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *A powerful curse was woven into an ancient rune painting, the spirit of Yamask is absorbed by this curse and it evolves into a Runerigs. Do not touch the shadow parts of its body or you’ll see terrible visions of the past.*
 
 **DexID**:: 0867
-**Species**:: Runerigus
+**Name**:: Runerigus
 **Type**:: Ground / Ghost
 **Abilities**:: [[SRD-Wandering Spirit|Wandering Spirit]]
 **Base HP**:: 4
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon                 | Kind    | Special                   |
-|:----------|:------------------------|:--------|:--------------------------|
-| From      | [[SRD-Galarian Yamask]] | Special | Walk near a rune Painting |
+| Evolves   | Pokemon                        | Kind    | Special                   |
+|:----------|:-------------------------------|:--------|:--------------------------|
+| From      | [[SRD-Yamask (Galarian Form)]] | Special | Walk near a rune Painting |
 
 ![[SRD-Runerigus-Learnset]]

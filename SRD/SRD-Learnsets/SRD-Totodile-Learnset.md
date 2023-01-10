@@ -1,5 +1,4 @@
 ---
-DexID: 0158
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Totodile
-Species: '[[SRD-Totodile|Totodile]]'
+Pokedex: '[[SRD-Totodile|Totodile]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0648F1
 Moves:
 - - Master
   - '[[SRD-Psychic|Psychic]]'
@@ -42,14 +41,14 @@ Moves:
 - - Master
   - '[[SRD-Captivate|Captivate]]'
 Name: Meloetta
-Species: '[[SRD-Meloetta|Meloetta]]'
+Pokedex: '[[SRD-Meloetta|Meloetta]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

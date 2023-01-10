@@ -1,5 +1,4 @@
 ---
-DexID: 0169
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Crobat
-Species: '[[SRD-Crobat|Crobat]]'
+Pokedex: '[[SRD-Crobat|Crobat]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

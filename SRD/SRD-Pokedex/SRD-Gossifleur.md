@@ -1,7 +1,6 @@
 ---
 Ability1: Cotton Down
 Ability2: Regenerator
-Baby: 'No'
 BookSprite: SRD-gossifleur-BookSprite.png
 BoxSprite: SRD-gossifleur-BoxSprite.png
 DexCategory: Flowering Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Eldegoss]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Effect Spore
 HomeSprite: SRD-gossifleur-HomeSprite.png
+Image: gossifleur.png
 Learnset: '[[SRD-Gossifleur-Learnset]]'
 Legendary: 'No'
-Name: Gossifleur
 Number: 829
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-gossifleur-ShuffleToken.png
-Sprite: gossifleur.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 22
   Kilograms: 2.2
   Pounds: 4.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *You’ll find them in fields, basking in the sun, they let the wind sway them while they sing a joyful song. Afterwards their flowers bloom and glow. This delightful display makes it very popular among Trainers.*
 
 **DexID**:: 0829
-**Species**:: Gossifleur
+**Name**:: Gossifleur
 **Type**:: Grass
 **Abilities**:: [[SRD-Cotton Down|Cotton Down]] / [[SRD-Regenerator|Regenerator]] ([[SRD-Effect Spore|Effect Spore]])
 **Base HP**:: 3

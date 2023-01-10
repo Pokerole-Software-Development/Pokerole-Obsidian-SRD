@@ -1,5 +1,4 @@
 ---
-DexID: '0665'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -18,14 +17,14 @@ Moves:
 - - Pro
   - '[[SRD-Rage Powder|Rage Powder]]'
 Name: Scatterbug
-Species: '[[SRD-Scatterbug|Scatterbug]]'
+Pokedex: '[[SRD-Scatterbug|Scatterbug]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

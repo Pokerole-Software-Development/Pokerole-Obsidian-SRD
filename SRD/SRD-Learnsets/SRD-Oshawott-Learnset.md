@@ -1,5 +1,4 @@
 ---
-DexID: '0501'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Detect|Detect]]'
 Name: Oshawott
-Species: '[[SRD-Oshawott|Oshawott]]'
+Pokedex: '[[SRD-Oshawott|Oshawott]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

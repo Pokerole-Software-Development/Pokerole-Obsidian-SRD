@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-chikorita-BookSprite.png
 BoxSprite: SRD-chikorita-BoxSprite.png
 DexCategory: Leaf Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Bayleef]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-chikorita-HomeSprite.png
+Image: chikorita.png
 Learnset: '[[SRD-Chikorita-Learnset]]'
 Legendary: 'No'
-Name: Chikorita
 Number: 152
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-chikorita-ShuffleToken.png
-Sprite: chikorita.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 64
   Kilograms: 6.4
   Pounds: 14.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is docile and loves to bathe in the sunlight. It waves its leaf around to keep foes at bay. The sweet fragrance from its leaf, has a strong calming and relaxing effect on people and Pokemon.*
 
 **DexID**:: 0152
-**Species**:: Chikorita
+**Name**:: Chikorita
 **Type**:: Grass
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Leaf Guard|Leaf Guard]])
 **Base HP**:: 3

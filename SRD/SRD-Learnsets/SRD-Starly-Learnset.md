@@ -1,5 +1,4 @@
 ---
-DexID: 0396
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Uproar|Uproar]]'
 Name: Starly
-Species: '[[SRD-Starly|Starly]]'
+Pokedex: '[[SRD-Starly|Starly]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

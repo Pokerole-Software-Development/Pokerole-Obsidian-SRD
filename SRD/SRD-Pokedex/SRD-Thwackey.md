@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-thwackey-BookSprite.png
 BoxSprite: SRD-thwackey-BoxSprite.png
 DexCategory: Beat Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Rillaboom]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Grassy Surge
 HomeSprite: SRD-thwackey-HomeSprite.png
+Image: thwackey.png
 Learnset: '[[SRD-Thwackey-Learnset]]'
 Legendary: 'No'
-Name: Thwackey
 Number: 811
-PrimaryEggGroup: Field
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-thwackey-ShuffleToken.png
-Sprite: thwackey.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 140
   Kilograms: 14.0
   Pounds: 30.9
 ---
@@ -57,7 +50,7 @@ Weight:
 *Thwakeys are passionate about their drumming, they can get so caught up in their music that they don’t notice the battle is already over. The faster they can beat their drums, the stronger they are.*
 
 **DexID**:: 0811
-**Species**:: Thwackey
+**Name**:: Thwackey
 **Type**:: Grass
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Grassy Surge|Grassy Surge]])
 **Base HP**:: 4

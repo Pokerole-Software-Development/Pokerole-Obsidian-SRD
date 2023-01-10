@@ -1,7 +1,6 @@
 ---
 Ability1: Defiant
 Ability2: Inner Focus
-Baby: 'No'
 BookSprite: SRD-bisharp-BookSprite.png
 BoxSprite: SRD-bisharp-BoxSprite.png
 DexCategory: Sword Blade Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Pawniard]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Pressure
 HomeSprite: SRD-bisharp-HomeSprite.png
+Image: bisharp.png
 Learnset: '[[SRD-Bisharp-Learnset]]'
 Legendary: 'No'
-Name: Bisharp
 Number: 625
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-bisharp-ShuffleToken.png
-Sprite: bisharp.png
 Type1: Dark
 Type2: Steel
 Weight:
-  Hectograms: 700
   Kilograms: 70.0
   Pounds: 154.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *It leads a group of Pawniard. It battles to become the boss, but will be driven from the group if it loses. They are ruthless leaders and merciless with their foes. Weakness has no place among them.*
 
 **DexID**:: 0625
-**Species**:: Bisharp
+**Name**:: Bisharp
 **Type**:: Dark / Steel
 **Abilities**:: [[SRD-Defiant|Defiant]] / [[SRD-Inner Focus|Inner Focus]] ([[SRD-Pressure|Pressure]])
 **Base HP**:: 4

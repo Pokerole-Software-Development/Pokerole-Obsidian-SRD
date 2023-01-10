@@ -1,7 +1,6 @@
 ---
 Ability1: Pickup
 Ability2: Cheek Pouch
-Baby: 'No'
 BookSprite: SRD-diggersby-BookSprite.png
 BoxSprite: SRD-diggersby-BoxSprite.png
 DexCategory: Digging Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Bunnelby]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Huge Power
 HomeSprite: SRD-diggersby-HomeSprite.png
+Image: diggersby.png
 Learnset: '[[SRD-Diggersby-Learnset]]'
 Legendary: 'No'
-Name: Diggersby
 Number: 660
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-diggersby-ShuffleToken.png
-Sprite: diggersby.png
 Type1: Normal
 Type2: Ground
 Weight:
-  Hectograms: 424
   Kilograms: 42.4
   Pounds: 93.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *A powerful excavator, its ears can reduce dense bedrock to rubble. After it has finished digging, it just lounges lazily. Some of them have been trained to work at construction sites with good results.*
 
 **DexID**:: 0660
-**Species**:: Diggersby
+**Name**:: Diggersby
 **Type**:: Normal / Ground
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Cheek Pouch|Cheek Pouch]] ([[SRD-Huge Power|Huge Power]])
 **Base HP**:: 4

@@ -1,5 +1,4 @@
 ---
-DexID: 0658
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Frogadier
-Species: '[[SRD-Frogadier|Frogadier]]'
+Pokedex: '[[SRD-Frogadier|Frogadier]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

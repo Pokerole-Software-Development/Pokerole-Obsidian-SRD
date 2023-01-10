@@ -1,7 +1,6 @@
 ---
 Ability1: Magma Armor
 Ability2: Flame Body
-Baby: 'No'
 BookSprite: SRD-slugma-BookSprite.png
 BoxSprite: SRD-slugma-BoxSprite.png
 DexCategory: Lava Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Magcargo]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Weak Armor
 HomeSprite: SRD-slugma-HomeSprite.png
+Image: slugma.png
 Learnset: '[[SRD-Slugma-Learnset]]'
 Legendary: 'No'
-Name: Slugma
 Number: 218
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-slugma-ShuffleToken.png
-Sprite: slugma.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 350
   Kilograms: 35.0
   Pounds: 77.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are extremely common in volcanic areas where they group together. They are made of molten magma instead of blood and flesh. Slugmas replenish parts of their body by absorbing molted rocks.*
 
 **DexID**:: 0218
-**Species**:: Slugma
+**Name**:: Slugma
 **Type**:: Fire
 **Abilities**:: [[SRD-Magma Armor|Magma Armor]] / [[SRD-Flame Body|Flame Body]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 3

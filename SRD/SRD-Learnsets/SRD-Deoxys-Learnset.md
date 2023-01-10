@@ -1,5 +1,4 @@
 ---
-DexID: 0386
 Moves:
 - - Master
   - '[[SRD-Leer|Leer]]'
@@ -38,14 +37,14 @@ Moves:
 - - Master
   - '[[SRD-Signal Beam|Signal Beam]]'
 Name: Deoxys
-Species: '[[SRD-Deoxys|Deoxys]]'
+Pokedex: '[[SRD-Deoxys|Deoxys]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Static
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-ampharos-BookSprite.png
 BoxSprite: SRD-ampharos-BoxSprite.png
 DexCategory: Light Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Ampharosite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Ampharos]]'
+  Pokemon: '[[SRD-Ampharos (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Plus
 HomeSprite: SRD-ampharos-HomeSprite.png
+Image: ampharos.png
 Learnset: '[[SRD-Ampharos-Learnset]]'
 Legendary: 'No'
-Name: Ampharos
 Number: 181
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Field
 ShuffleToken: SRD-ampharos-ShuffleToken.png
-Sprite: ampharos.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 615
   Kilograms: 61.5
   Pounds: 135.6
 ---
@@ -57,7 +50,7 @@ Weight:
 *It’s not common to see it in the wild. The tip of its tail shines brightly and in the old days, people sent light signals with the help of this Pokemon. It has a good disposition towards people in general.*
 
 **DexID**:: 0181
-**Species**:: Ampharos
+**Name**:: Ampharos
 **Type**:: Electric
 **Abilities**:: [[SRD-Static|Static]] ([[SRD-Plus|Plus]])
 **Base HP**:: 5
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon               | Kind   | Speed   | Item        |
-|:----------|:----------------------|:-------|:--------|:------------|
-| From      | [[SRD-Flaaffy]]       | Level  | Medium  |             |
-| To        | [[SRD-Mega-Ampharos]] | Mega   |         | Ampharosite |
+| Evolves   | Pokemon                      | Kind   | Speed   | Item        |
+|:----------|:-----------------------------|:-------|:--------|:------------|
+| From      | [[SRD-Flaaffy]]              | Level  | Medium  |             |
+| To        | [[SRD-Ampharos (Mega Form)]] | Mega   |         | Ampharosite |
 
 ![[SRD-Ampharos-Learnset]]

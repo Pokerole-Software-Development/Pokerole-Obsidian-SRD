@@ -1,7 +1,6 @@
 ---
 Ability1: Iron Barbs
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-ferroseed-BookSprite.png
 BoxSprite: SRD-ferroseed-BoxSprite.png
 DexCategory: Thorn Seed Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Ferrothorn]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: ''
 HomeSprite: SRD-ferroseed-HomeSprite.png
+Image: ferroseed.png
 Learnset: '[[SRD-Ferroseed-Learnset]]'
 Legendary: 'No'
-Name: Ferroseed
 Number: 597
-PrimaryEggGroup: Grass
-SecondaryEggGroup: Mineral
 ShuffleToken: SRD-ferroseed-ShuffleToken.png
-Sprite: ferroseed.png
 Type1: Grass
 Type2: Steel
 Weight:
-  Hectograms: 188
   Kilograms: 18.8
   Pounds: 41.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *They stick their thorns into cave walls and absorb the minerals from the rocks. When threatened, they attack by shooting a barrage of spikes, which gives them a chance to escape by rolling away.*
 
 **DexID**:: 0597
-**Species**:: Ferroseed
+**Name**:: Ferroseed
 **Type**:: Grass / Steel
 **Abilities**:: [[SRD-Iron Barbs|Iron Barbs]]
 **Base HP**:: 3

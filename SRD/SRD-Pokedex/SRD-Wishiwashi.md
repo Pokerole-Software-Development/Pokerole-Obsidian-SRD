@@ -1,7 +1,6 @@
 ---
 Ability1: Schooling
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-wishiwashi-BookSprite.png
 BoxSprite: SRD-wishiwashi-BoxSprite.png
 DexCategory: Small Fry Pokemon
@@ -12,27 +11,21 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Wishiwashi Swarm]]'
+  Pokemon: '[[SRD-Wishiwashi (Swarm Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: ''
 HomeSprite: SRD-wishiwashi-HomeSprite.png
+Image: wishiwashi.png
 Learnset: '[[SRD-Wishiwashi-Learnset]]'
 Legendary: 'No'
-Name: Wishiwashi
 Number: 746
-PrimaryEggGroup: Water 2
-SecondaryEggGroup: ''
 ShuffleToken: SRD-wishiwashi-ShuffleToken.png
-Sprite: wishiwashi.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 3
   Kilograms: 0.3
   Pounds: 0.7
 ---
@@ -52,7 +45,7 @@ Weight:
 *People and Pokemon enjoy this tiny Pokemon's meat. Their eyes shine as a distress signal, other members of its species will travel far and wide to attend the call for help. When this happens you must run.*
 
 **DexID**:: 0746
-**Species**:: Wishiwashi
+**Name**:: Wishiwashi
 **Type**:: Water
 **Abilities**:: [[SRD-Schooling|Schooling]]
 **Base HP**:: 4
@@ -70,8 +63,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Starter
 
-| Evolves   | Pokemon                  | Kind   |
-|:----------|:-------------------------|:-------|
-| To        | [[SRD-Wishiwashi Swarm]] | Form   |
+| Evolves   | Pokemon                         | Kind   |
+|:----------|:--------------------------------|:-------|
+| To        | [[SRD-Wishiwashi (Swarm Form)]] | Form   |
 
 ![[SRD-Wishiwashi-Learnset]]

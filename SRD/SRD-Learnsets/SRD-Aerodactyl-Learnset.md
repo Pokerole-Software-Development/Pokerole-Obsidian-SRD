@@ -1,5 +1,4 @@
 ---
-DexID: '0142'
 Moves:
 - - Starter
   - '[[SRD-Wing Attack|Wing Attack]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Tail|Aqua Tail]]'
 Name: Aerodactyl
-Species: '[[SRD-Aerodactyl|Aerodactyl]]'
+Pokedex: '[[SRD-Aerodactyl|Aerodactyl]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

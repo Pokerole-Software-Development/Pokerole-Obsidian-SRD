@@ -1,7 +1,6 @@
 ---
 Ability1: Intimidate
 Ability2: Sand Rush
-Baby: 'No'
 BookSprite: SRD-stoutland-BookSprite.png
 BoxSprite: SRD-stoutland-BoxSprite.png
 DexCategory: Big-Hearted Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Herdier]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Scrappy
 HomeSprite: SRD-stoutland-HomeSprite.png
+Image: stoutland.png
 Learnset: '[[SRD-Stoutland-Learnset]]'
 Legendary: 'No'
-Name: Stoutland
 Number: 508
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-stoutland-ShuffleToken.png
-Sprite: stoutland.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 610
   Kilograms: 61.0
   Pounds: 134.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *For many years this Pokemon has helped with rescue missions in hostile places. Its outer coat is hard on the exterior but soft and silky on the inside. They keep people safe and warm while help is on the way.*
 
 **DexID**:: 0508
-**Species**:: Stoutland
+**Name**:: Stoutland
 **Type**:: Normal
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Sand Rush|Sand Rush]] ([[SRD-Scrappy|Scrappy]])
 **Base HP**:: 5

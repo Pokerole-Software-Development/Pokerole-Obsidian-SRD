@@ -1,7 +1,6 @@
 ---
 Ability1: Water Absorb
 Ability2: Damp
-Baby: 'No'
 BookSprite: SRD-poliwag-BookSprite.png
 BoxSprite: SRD-poliwag-BoxSprite.png
 DexCategory: Tadpole Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Poliwhirl]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Swift Swim
 HomeSprite: SRD-poliwag-HomeSprite.png
+Image: poliwag.png
 Learnset: '[[SRD-Poliwag-Learnset]]'
 Legendary: 'No'
-Name: Poliwag
 Number: 60
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: ''
 ShuffleToken: SRD-poliwag-ShuffleToken.png
-Sprite: poliwag.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 124
   Kilograms: 12.4
   Pounds: 27.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are most common near ponds and lakes during the summer. Its legs take some weeks to develop after it hatches, making it inept at walking. It is, however, a very fast swimmer.*
 
 **DexID**:: 0060
-**Species**:: Poliwag
+**Name**:: Poliwag
 **Type**:: Water
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] / [[SRD-Damp|Damp]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 3

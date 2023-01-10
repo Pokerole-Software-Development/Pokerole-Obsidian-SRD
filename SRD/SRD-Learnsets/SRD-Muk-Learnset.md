@@ -1,5 +1,4 @@
 ---
-DexID: 0089
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Giga Drain|Giga Drain]]'
 Name: Muk
-Species: '[[SRD-Muk|Muk]]'
+Pokedex: '[[SRD-Muk|Muk]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

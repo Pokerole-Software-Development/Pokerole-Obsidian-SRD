@@ -1,7 +1,6 @@
 ---
 Ability1: Refrigerate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-amaura-BookSprite.png
 BoxSprite: SRD-amaura-BoxSprite.png
 DexCategory: Tundra Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Aurorus]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Snow Warning
 HomeSprite: SRD-amaura-HomeSprite.png
+Image: amaura.png
 Learnset: '[[SRD-Amaura-Learnset]]'
 Legendary: 'No'
-Name: Amaura
 Number: 698
-PrimaryEggGroup: Monster
-SecondaryEggGroup: ''
 ShuffleToken: SRD-amaura-ShuffleToken.png
-Sprite: amaura.png
 Type1: Rock
 Type2: Ice
 Weight:
-  Hectograms: 252
   Kilograms: 25.2
   Pounds: 55.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *This ancient Pokemon was restored from part of its body that had been frozen for over 100 million years. This calm Pokemon lived in the cold lands where violent predators like Tyrantrum couldn’t reach it.*
 
 **DexID**:: 0698
-**Species**:: Amaura
+**Name**:: Amaura
 **Type**:: Rock / Ice
 **Abilities**:: [[SRD-Refrigerate|Refrigerate]] ([[SRD-Snow Warning|Snow Warning]])
 **Base HP**:: 3

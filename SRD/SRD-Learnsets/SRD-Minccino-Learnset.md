@@ -1,5 +1,4 @@
 ---
-DexID: '0572'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Minccino
-Species: '[[SRD-Minccino|Minccino]]'
+Pokedex: '[[SRD-Minccino|Minccino]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

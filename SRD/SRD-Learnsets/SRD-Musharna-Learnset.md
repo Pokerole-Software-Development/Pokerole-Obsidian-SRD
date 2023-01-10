@@ -1,5 +1,4 @@
 ---
-DexID: 0518
 Moves:
 - - Starter
   - '[[SRD-Psychic Terrain|Psychic Terrain]]'
@@ -26,14 +25,14 @@ Moves:
 - - Pro
   - '[[SRD-Healing Wish|Healing Wish]]'
 Name: Musharna
-Species: '[[SRD-Musharna|Musharna]]'
+Pokedex: '[[SRD-Musharna|Musharna]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

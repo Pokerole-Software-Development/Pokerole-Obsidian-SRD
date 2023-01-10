@@ -1,5 +1,4 @@
 ---
-DexID: '0541'
 Moves:
 - - Starter
   - '[[SRD-String Shot|String Shot]]'
@@ -28,14 +27,14 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Swadloon
-Species: '[[SRD-Swadloon|Swadloon]]'
+Pokedex: '[[SRD-Swadloon|Swadloon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

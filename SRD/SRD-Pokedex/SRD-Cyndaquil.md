@@ -1,7 +1,6 @@
 ---
 Ability1: Blaze
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-cyndaquil-BookSprite.png
 BoxSprite: SRD-cyndaquil-BoxSprite.png
 DexCategory: Fire Mouse Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Quilava]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Flash Fire
 HomeSprite: SRD-cyndaquil-HomeSprite.png
+Image: cyndaquil.png
 Learnset: '[[SRD-Cyndaquil-Learnset]]'
 Legendary: 'No'
-Name: Cyndaquil
 Number: 155
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-cyndaquil-ShuffleToken.png
-Sprite: cyndaquil.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 79
   Kilograms: 7.9
   Pounds: 17.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *A shy and elusive Pokemon. The flames from its back protect it. They’ll burn vigorously if Cyndaquil is angry otherwise they’ll remain unlit. It lives in hot dens inside of mountains and volcanoes.*
 
 **DexID**:: 0155
-**Species**:: Cyndaquil
+**Name**:: Cyndaquil
 **Type**:: Fire
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Flash Fire|Flash Fire]])
 **Base HP**:: 3

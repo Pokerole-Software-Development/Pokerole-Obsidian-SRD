@@ -1,7 +1,6 @@
 ---
 Ability1: Shell Armor
 Ability2: Skill Link
-Baby: 'No'
 BookSprite: SRD-shellder-BookSprite.png
 BoxSprite: SRD-shellder-BoxSprite.png
 DexCategory: Bivalve Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Cloyster]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Overcoat
 HomeSprite: SRD-shellder-HomeSprite.png
+Image: shellder.png
 Learnset: '[[SRD-Shellder-Learnset]]'
 Legendary: 'No'
-Name: Shellder
 Number: 90
-PrimaryEggGroup: Water 3
-SecondaryEggGroup: ''
 ShuffleToken: SRD-shellder-ShuffleToken.png
-Sprite: shellder.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 40
   Kilograms: 4.0
   Pounds: 8.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lives at the bottom of the sea and rivers. It feeds on algae but it’s attracted to sweet substances. When frightened it will shut its clam and lock it to be almost impossible to open.*
 
 **DexID**:: 0090
-**Species**:: Shellder
+**Name**:: Shellder
 **Type**:: Water
 **Abilities**:: [[SRD-Shell Armor|Shell Armor]] / [[SRD-Skill Link|Skill Link]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 3

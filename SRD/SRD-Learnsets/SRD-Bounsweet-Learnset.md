@@ -1,5 +1,4 @@
 ---
-DexID: '0760'
 Moves:
 - - Starter
   - '[[SRD-Splash|Splash]]'
@@ -34,14 +33,14 @@ Moves:
 - - Pro
   - '[[SRD-Acupressure|Acupressure]]'
 Name: Bounsweet
-Species: '[[SRD-Bounsweet|Bounsweet]]'
+Pokedex: '[[SRD-Bounsweet|Bounsweet]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

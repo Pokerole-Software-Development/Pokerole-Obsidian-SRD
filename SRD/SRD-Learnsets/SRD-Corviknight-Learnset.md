@@ -1,5 +1,4 @@
 ---
-DexID: 0822
 Moves:
 - - Beginner
   - '[[SRD-Peck|Peck]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Steel Beam|Steel Beam]]'
 Name: Corviknight
-Species: '[[SRD-Corviknight|Corviknight]]'
+Pokedex: '[[SRD-Corviknight|Corviknight]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

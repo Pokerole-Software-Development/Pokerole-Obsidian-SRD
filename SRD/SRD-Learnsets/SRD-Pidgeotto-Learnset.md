@@ -1,5 +1,4 @@
 ---
-DexID: '0017'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Steel Wing|Steel Wing]]'
 Name: Pidgeotto
-Species: '[[SRD-Pidgeotto|Pidgeotto]]'
+Pokedex: '[[SRD-Pidgeotto|Pidgeotto]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

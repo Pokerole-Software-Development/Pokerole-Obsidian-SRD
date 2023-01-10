@@ -1,17 +1,16 @@
 ---
-DexID: '0132'
 Moves:
 - - Starter
   - '[[SRD-Transform|Transform]]'
 Name: Ditto
-Species: '[[SRD-Ditto|Ditto]]'
+Pokedex: '[[SRD-Ditto|Ditto]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

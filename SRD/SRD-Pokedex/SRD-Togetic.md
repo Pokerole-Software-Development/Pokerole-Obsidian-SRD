@@ -1,7 +1,6 @@
 ---
 Ability1: Hustle
 Ability2: Serene Grace
-Baby: 'No'
 BookSprite: SRD-togetic-BookSprite.png
 BoxSprite: SRD-togetic-BoxSprite.png
 DexCategory: Happiness Pokemon
@@ -20,25 +19,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Togekiss]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Super Luck
 HomeSprite: SRD-togetic-HomeSprite.png
+Image: togetic.png
 Learnset: '[[SRD-Togetic-Learnset]]'
 Legendary: 'No'
-Name: Togetic
 Number: 176
-PrimaryEggGroup: Flying
-SecondaryEggGroup: Fairy
 ShuffleToken: SRD-togetic-ShuffleToken.png
-Sprite: togetic.png
 Type1: Fairy
 Type2: Flying
 Weight:
-  Hectograms: 32
   Kilograms: 3.2
   Pounds: 7.1
 ---
@@ -58,7 +51,7 @@ Weight:
 *Although there have been very few sightings of this Pokemon in the wild, it is known to appear before kind hearted people and grant them happiness. It is very energetic and friendly.*
 
 **DexID**:: 0176
-**Species**:: Togetic
+**Name**:: Togetic
 **Type**:: Fairy / Flying
 **Abilities**:: [[SRD-Hustle|Hustle]] / [[SRD-Serene Grace|Serene Grace]] ([[SRD-Super Luck|Super Luck]])
 **Base HP**:: 4

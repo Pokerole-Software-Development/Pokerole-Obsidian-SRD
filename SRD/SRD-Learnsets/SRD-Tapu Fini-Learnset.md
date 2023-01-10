@@ -1,5 +1,4 @@
 ---
-DexID: 0787
 Moves:
 - - Master
   - '[[SRD-Misty Terrain|Misty Terrain]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Knock Off|Knock Off]]'
 Name: Tapu Fini
-Species: '[[SRD-Tapu Fini|Tapu Fini]]'
+Pokedex: '[[SRD-Tapu Fini|Tapu Fini]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

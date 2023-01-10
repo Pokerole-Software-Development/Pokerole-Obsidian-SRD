@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-samurott-BookSprite.png
 BoxSprite: SRD-samurott-BoxSprite.png
 DexCategory: Formidable Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Dewott]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Shell Armor
 HomeSprite: SRD-samurott-HomeSprite.png
+Image: samurott.png
 Learnset: '[[SRD-Samurott-Learnset]]'
 Legendary: 'No'
-Name: Samurott
 Number: 503
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-samurott-ShuffleToken.png
-Sprite: samurott.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 946
   Kilograms: 94.6
   Pounds: 208.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *It uses the horn on it’s head and both scimitars attached to it’s front legs as weapons. In the late spring and fall, they gather on cold beaches and fight each other. The winner lets out an intimidating roar.*
 
 **DexID**:: 0503
-**Species**:: Samurott
+**Name**:: Samurott
 **Type**:: Water
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Shell Armor|Shell Armor]])
 **Base HP**:: 5

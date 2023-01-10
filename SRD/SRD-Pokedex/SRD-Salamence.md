@@ -1,7 +1,6 @@
 ---
 Ability1: Intimidate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-salamence-BookSprite.png
 BoxSprite: SRD-salamence-BoxSprite.png
 DexCategory: Dragon Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Salamencite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Salamence]]'
+  Pokemon: '[[SRD-Salamence (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Moxie
 HomeSprite: SRD-salamence-HomeSprite.png
+Image: salamence.png
 Learnset: '[[SRD-Salamence-Learnset]]'
 Legendary: 'No'
-Name: Salamence
 Number: 373
-PrimaryEggGroup: Dragon
-SecondaryEggGroup: ''
 ShuffleToken: SRD-salamence-ShuffleToken.png
-Sprite: salamence.png
 Type1: Dragon
 Type2: Flying
 Weight:
-  Hectograms: 1026
   Kilograms: 102.6
   Pounds: 226.2
 ---
@@ -57,7 +50,7 @@ Weight:
 *After a lifetime of struggling for a dream, it finally grew its wings. Salamence, however, is extremely dangerous, it scorches entire fields and mountains. It’s easily angered and completely uncontrollable.*
 
 **DexID**:: 0373
-**Species**:: Salamence
+**Name**:: Salamence
 **Type**:: Dragon / Flying
 **Abilities**:: [[SRD-Intimidate|Intimidate]] ([[SRD-Moxie|Moxie]])
 **Base HP**:: 5
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-| Evolves   | Pokemon                | Kind   | Speed   | Item        |
-|:----------|:-----------------------|:-------|:--------|:------------|
-| From      | [[SRD-Shelgon]]        | Level  | Slow    |             |
-| To        | [[SRD-Mega-Salamence]] | Mega   |         | Salamencite |
+| Evolves   | Pokemon                       | Kind   | Speed   | Item        |
+|:----------|:------------------------------|:-------|:--------|:------------|
+| From      | [[SRD-Shelgon]]               | Level  | Slow    |             |
+| To        | [[SRD-Salamence (Mega Form)]] | Mega   |         | Salamencite |
 
 ![[SRD-Salamence-Learnset]]

@@ -1,5 +1,4 @@
 ---
-DexID: 0841
 Moves:
 - - Starter
   - '[[SRD-Withdraw|Withdraw]]'
@@ -14,14 +13,14 @@ Moves:
 - - Pro
   - '[[SRD-Recycle|Recycle]]'
 Name: Applin
-Species: '[[SRD-Applin|Applin]]'
+Pokedex: '[[SRD-Applin|Applin]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

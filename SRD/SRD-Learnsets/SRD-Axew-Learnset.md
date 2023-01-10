@@ -1,5 +1,4 @@
 ---
-DexID: 0609
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Night Slash|Night Slash]]'
 Name: Axew
-Species: '[[SRD-Axew|Axew]]'
+Pokedex: '[[SRD-Axew|Axew]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

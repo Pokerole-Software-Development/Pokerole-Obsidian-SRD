@@ -1,7 +1,6 @@
 ---
 Ability1: Cute Charm
 Ability2: Competitive
-Baby: 'No'
 BookSprite: SRD-jigglypuff-BookSprite.png
 BoxSprite: SRD-jigglypuff-BoxSprite.png
 DexCategory: Balloon Pokemon
@@ -20,25 +19,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Wigglytuff]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Friend Guard
 HomeSprite: SRD-jigglypuff-HomeSprite.png
+Image: jigglypuff.png
 Learnset: '[[SRD-Jigglypuff-Learnset]]'
 Legendary: 'No'
-Name: Jigglypuff
 Number: 39
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-jigglypuff-ShuffleToken.png
-Sprite: jigglypuff.png
 Type1: Normal
 Type2: Fairy
 Weight:
-  Hectograms: 55
   Kilograms: 5.5
   Pounds: 12.1
 ---
@@ -58,7 +51,7 @@ Weight:
 *They live in grassy fields near the mountains. To climb they inflate their bodies and bounce up. It captivates foes with its huge, round eyes, then lulls them to sleep by singing a sweet soothing melody.*
 
 **DexID**:: 0039
-**Species**:: Jigglypuff
+**Name**:: Jigglypuff
 **Type**:: Normal / Fairy
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Competitive|Competitive]] ([[SRD-Friend Guard|Friend Guard]])
 **Base HP**:: 4

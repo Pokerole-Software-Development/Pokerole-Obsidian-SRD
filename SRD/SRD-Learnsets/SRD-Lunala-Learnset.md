@@ -1,5 +1,4 @@
 ---
-DexID: 0791
 Moves:
 - - Master
   - '[[SRD-Moongeist Beam|Moongeist Beam]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Reflect|Reflect]]'
 Name: Lunala
-Species: '[[SRD-Lunala|Lunala]]'
+Pokedex: '[[SRD-Lunala|Lunala]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

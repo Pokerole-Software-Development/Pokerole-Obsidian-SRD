@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-chespin-BookSprite.png
 BoxSprite: SRD-chespin-BoxSprite.png
 DexCategory: Spiky Nut Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Quilladin]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Bulletproof
 HomeSprite: SRD-chespin-HomeSprite.png
+Image: chespin.png
 Learnset: '[[SRD-Chespin-Learnset]]'
 Legendary: 'No'
-Name: Chespin
 Number: 650
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-chespin-ShuffleToken.png
-Sprite: chespin.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 90
   Kilograms: 9.0
   Pounds: 19.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *A small and curious Pokemon. They are rare to find but their nests have been found on chestnut trees. Their heads are covered by spikes and if there’s a threat they roll into balls to protect themselves.*
 
 **DexID**:: 0650
-**Species**:: Chespin
+**Name**:: Chespin
 **Type**:: Grass
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Bulletproof|Bulletproof]])
 **Base HP**:: 3

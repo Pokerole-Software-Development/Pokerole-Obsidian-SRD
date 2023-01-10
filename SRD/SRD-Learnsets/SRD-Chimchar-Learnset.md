@@ -1,5 +1,4 @@
 ---
-DexID: 0390
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Chimchar
-Species: '[[SRD-Chimchar|Chimchar]]'
+Pokedex: '[[SRD-Chimchar|Chimchar]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

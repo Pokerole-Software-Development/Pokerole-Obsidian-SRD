@@ -1,5 +1,4 @@
 ---
-DexID: '0015'
 Moves:
 - - Starter
   - '[[SRD-Fury Attack|Fury Attack]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Endeavor|Endeavor]]'
 Name: Beedrill
-Species: '[[SRD-Beedrill|Beedrill]]'
+Pokedex: '[[SRD-Beedrill|Beedrill]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

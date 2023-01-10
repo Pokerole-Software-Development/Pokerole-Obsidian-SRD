@@ -1,5 +1,4 @@
 ---
-DexID: 0409
 Moves:
 - - Starter
   - '[[SRD-Focus Energy|Focus Energy]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Rampardos
-Species: '[[SRD-Rampardos|Rampardos]]'
+Pokedex: '[[SRD-Rampardos|Rampardos]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

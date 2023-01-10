@@ -1,5 +1,4 @@
 ---
-DexID: '0217'
 Moves:
 - - Starter
   - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Gunk Shot|Gunk Shot]]'
 Name: Ursaring
-Species: '[[SRD-Ursaring|Ursaring]]'
+Pokedex: '[[SRD-Ursaring|Ursaring]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

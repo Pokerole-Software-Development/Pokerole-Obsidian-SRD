@@ -1,7 +1,6 @@
 ---
 Ability1: Water Absorb
 Ability2: Damp
-Baby: 'No'
 BookSprite: SRD-politoed-BookSprite.png
 BoxSprite: SRD-politoed-BoxSprite.png
 DexCategory: Frog Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Poliwhirl]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Drizzle
 HomeSprite: SRD-politoed-HomeSprite.png
+Image: politoed.png
 Learnset: '[[SRD-Politoed-Learnset]]'
 Legendary: 'No'
-Name: Politoed
 Number: 186
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: ''
 ShuffleToken: SRD-politoed-ShuffleToken.png
-Sprite: politoed.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 339
   Kilograms: 33.9
   Pounds: 74.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lives with Poliwags and Poliwhirls near ponds and lakes, but there’s rarely more than one. Politoed is the leader and acts as the king of the group. It is an easy-going but proud Pokemon.*
 
 **DexID**:: 0186
-**Species**:: Politoed
+**Name**:: Politoed
 **Type**:: Water
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] / [[SRD-Damp|Damp]] ([[SRD-Drizzle|Drizzle]])
 **Base HP**:: 5

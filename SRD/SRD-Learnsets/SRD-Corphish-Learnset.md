@@ -1,5 +1,4 @@
 ---
-DexID: '0341'
 Moves:
 - - Starter
   - '[[SRD-Bubble|Bubble]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Chip Away|Chip Away]]'
 Name: Corphish
-Species: '[[SRD-Corphish|Corphish]]'
+Pokedex: '[[SRD-Corphish|Corphish]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

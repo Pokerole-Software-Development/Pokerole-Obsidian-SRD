@@ -1,7 +1,6 @@
 ---
 Ability1: Snow Warning
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-abomasnow-BookSprite.png
 BoxSprite: SRD-abomasnow-BoxSprite.png
 DexCategory: Frosted Tree Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Abomasite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Abomasnow]]'
+  Pokemon: '[[SRD-Abomasnow (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 22
   Feet: 7.2
   Meters: 2.2
 HiddenAbility: Soundproof
 HomeSprite: SRD-abomasnow-HomeSprite.png
+Image: abomasnow.png
 Learnset: '[[SRD-Abomasnow-Learnset]]'
 Legendary: 'No'
-Name: Abomasnow
 Number: 460
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-abomasnow-ShuffleToken.png
-Sprite: abomasnow.png
 Type1: Grass
 Type2: Ice
 Weight:
-  Hectograms: 1355
   Kilograms: 135.5
   Pounds: 298.7
 ---
@@ -57,7 +50,7 @@ Weight:
 *There was a legend for a long time that called this Pokemon “The Ice Monster”. Now we know it is a Pokemon that can cover everything around with deep snow. It likes quiet places and only attacks if provoked.*
 
 **DexID**:: 0460
-**Species**:: Abomasnow
+**Name**:: Abomasnow
 **Type**:: Grass / Ice
 **Abilities**:: [[SRD-Snow Warning|Snow Warning]] ([[SRD-Soundproof|Soundproof]])
 **Base HP**:: 4
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon                | Kind   | Speed   | Item      |
-|:----------|:-----------------------|:-------|:--------|:----------|
-| From      | [[SRD-Snover]]         | Level  | Medium  |           |
-| To        | [[SRD-Mega-Abomasnow]] | Mega   |         | Abomasite |
+| Evolves   | Pokemon                       | Kind   | Speed   | Item      |
+|:----------|:------------------------------|:-------|:--------|:----------|
+| From      | [[SRD-Snover]]                | Level  | Medium  |           |
+| To        | [[SRD-Abomasnow (Mega Form)]] | Mega   |         | Abomasite |
 
 ![[SRD-Abomasnow-Learnset]]

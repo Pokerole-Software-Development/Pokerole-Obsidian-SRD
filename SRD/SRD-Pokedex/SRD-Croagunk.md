@@ -1,7 +1,6 @@
 ---
 Ability1: Anticipation
 Ability2: Dry Skin
-Baby: 'No'
 BookSprite: SRD-croagunk-BookSprite.png
 BoxSprite: SRD-croagunk-BoxSprite.png
 DexCategory: Toxic Mouth Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Toxicroak]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Poison Touch
 HomeSprite: SRD-croagunk-HomeSprite.png
+Image: croagunk.png
 Learnset: '[[SRD-Croagunk-Learnset]]'
 Legendary: 'No'
-Name: Croagunk
 Number: 453
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-croagunk-ShuffleToken.png
-Sprite: croagunk.png
 Type1: Poison
 Type2: Fighting
 Weight:
-  Hectograms: 230
   Kilograms: 23.0
   Pounds: 50.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is commonly found in marshes. It inflates the sacks on its cheeks and makes croaking sounds. The fluid squeezed from its fingers is poisonous, but it is a common ingredient in medicinal ointments.*
 
 **DexID**:: 0453
-**Species**:: Croagunk
+**Name**:: Croagunk
 **Type**:: Poison / Fighting
 **Abilities**:: [[SRD-Anticipation|Anticipation]] / [[SRD-Dry Skin|Dry Skin]] ([[SRD-Poison Touch|Poison Touch]])
 **Base HP**:: 3

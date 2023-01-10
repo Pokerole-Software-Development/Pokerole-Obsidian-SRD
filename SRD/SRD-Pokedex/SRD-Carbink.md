@@ -1,7 +1,6 @@
 ---
 Ability1: Clear Body
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-carbink-BookSprite.png
 BoxSprite: SRD-carbink-BoxSprite.png
 DexCategory: Jewel Pokemon
@@ -11,25 +10,19 @@ DexDescription: "It\u2019s occasionally found at drilling zones and excavations 
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Sturdy
 HomeSprite: SRD-carbink-HomeSprite.png
+Image: carbink.png
 Learnset: '[[SRD-Carbink-Learnset]]'
 Legendary: 'No'
-Name: Carbink
 Number: 703
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: Mineral
 ShuffleToken: SRD-carbink-ShuffleToken.png
-Sprite: carbink.png
 Type1: Rock
 Type2: Fairy
 Weight:
-  Hectograms: 57
   Kilograms: 5.7
   Pounds: 12.6
 ---
@@ -49,7 +42,7 @@ Weight:
 *It’s occasionally found at drilling zones and excavations in caves. Born from temperature and pressure deep underground, it shoots beams from the stone in its head. They can live for hundreds of years.*
 
 **DexID**:: 0703
-**Species**:: Carbink
+**Name**:: Carbink
 **Type**:: Rock / Fairy
 **Abilities**:: [[SRD-Clear Body|Clear Body]] ([[SRD-Sturdy|Sturdy]])
 **Base HP**:: 4

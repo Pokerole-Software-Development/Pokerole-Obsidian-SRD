@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-oddish-BookSprite.png
 BoxSprite: SRD-oddish-BoxSprite.png
 DexCategory: Weed Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Gloom]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Run Away
 HomeSprite: SRD-oddish-HomeSprite.png
+Image: oddish.png
 Learnset: '[[SRD-Oddish-Learnset]]'
 Legendary: 'No'
-Name: Oddish
 Number: 43
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-oddish-ShuffleToken.png
-Sprite: oddish.png
 Type1: Grass
 Type2: Poison
 Weight:
-  Hectograms: 54
   Kilograms: 5.4
   Pounds: 11.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *This Pokemon grows by absorbing moonlight. During daytime, it buries itself in the ground, leaving only its leaves exposed to avoid detection by its predators. You can locate it by the smell its leaves release.*
 
 **DexID**:: 0043
-**Species**:: Oddish
+**Name**:: Oddish
 **Type**:: Grass / Poison
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Run Away|Run Away]])
 **Base HP**:: 3

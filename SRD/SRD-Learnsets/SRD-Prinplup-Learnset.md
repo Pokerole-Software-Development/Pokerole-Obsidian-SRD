@@ -1,5 +1,4 @@
 ---
-DexID: 0394
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Prinplup
-Species: '[[SRD-Prinplup|Prinplup]]'
+Pokedex: '[[SRD-Prinplup|Prinplup]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

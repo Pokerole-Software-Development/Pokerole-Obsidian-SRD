@@ -1,7 +1,6 @@
 ---
 Ability1: Serene Grace
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-jirachi-BookSprite.png
 BoxSprite: SRD-jirachi-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: "It is said that every 1000 years, a shooting star appears in th
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-jirachi-HomeSprite.png
+Image: jirachi.png
 Learnset: '[[SRD-Jirachi-Learnset]]'
 Legendary: 'Yes'
-Name: Jirachi
 Number: 385
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-jirachi-ShuffleToken.png
-Sprite: jirachi.png
 Type1: Steel
 Type2: Psychic
 Weight:
-  Hectograms: 11
   Kilograms: 1.1
   Pounds: 2.4
 ---
@@ -49,7 +42,7 @@ Weight:
 *It is said that every 1000 years, a shooting star appears in the sky for 7 days, granting wishes to those of pure heart. Another common saying is: “Be careful what you wish for.”*
 
 **DexID**:: 0385
-**Species**:: Jirachi
+**Name**:: Jirachi
 **Type**:: Steel / Psychic
 **Abilities**:: [[SRD-Serene Grace|Serene Grace]]
 **Base HP**:: 5

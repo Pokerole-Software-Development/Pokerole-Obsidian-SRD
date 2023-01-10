@@ -1,7 +1,6 @@
 ---
 Ability1: Oblivious
 Ability2: Snow Cloak
-Baby: 'No'
 BookSprite: SRD-piloswine-BookSprite.png
 BoxSprite: SRD-piloswine-BoxSprite.png
 DexCategory: Swine Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Mamoswine]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Thick Fat
 HomeSprite: SRD-piloswine-HomeSprite.png
+Image: piloswine.png
 Learnset: '[[SRD-Piloswine-Learnset]]'
 Legendary: 'No'
-Name: Piloswine
 Number: 221
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-piloswine-ShuffleToken.png
-Sprite: piloswine.png
 Type1: Ice
 Type2: Ground
 Weight:
-  Hectograms: 558
   Kilograms: 55.8
   Pounds: 123.0
 ---
@@ -57,7 +50,7 @@ Weight:
 *Their long hair obscure their sight, but they’re sensitive to sound and smells. Piloswine's rugged hooves prevent it from slipping on icy terrains. Amazingly, their tusks are made of solid ice.*
 
 **DexID**:: 0221
-**Species**:: Piloswine
+**Name**:: Piloswine
 **Type**:: Ice / Ground
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Snow Cloak|Snow Cloak]] ([[SRD-Thick Fat|Thick Fat]])
 **Base HP**:: 4

@@ -1,5 +1,4 @@
 ---
-DexID: '0370'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Captivate|Captivate]]'
 Name: Luvdisc
-Species: '[[SRD-Luvdisc|Luvdisc]]'
+Pokedex: '[[SRD-Luvdisc|Luvdisc]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

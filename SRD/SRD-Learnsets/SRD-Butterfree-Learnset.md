@@ -1,5 +1,4 @@
 ---
-DexID: '0012'
 Moves:
 - - Starter
   - '[[SRD-Confusion|Confusion]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Bug Buzz|Bug Buzz]]'
 Name: Butterfree
-Species: '[[SRD-Butterfree|Butterfree]]'
+Pokedex: '[[SRD-Butterfree|Butterfree]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

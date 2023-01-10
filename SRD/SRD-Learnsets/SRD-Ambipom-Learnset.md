@@ -1,5 +1,4 @@
 ---
-DexID: '0424'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Ice Punch|Ice Punch]]'
 Name: Ambipom
-Species: '[[SRD-Ambipom|Ambipom]]'
+Pokedex: '[[SRD-Ambipom|Ambipom]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

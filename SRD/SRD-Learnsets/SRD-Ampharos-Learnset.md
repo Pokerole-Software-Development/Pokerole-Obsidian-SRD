@@ -1,5 +1,4 @@
 ---
-DexID: 0181
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Ampharos
-Species: '[[SRD-Ampharos|Ampharos]]'
+Pokedex: '[[SRD-Ampharos|Ampharos]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Flash Fire
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-ninetales-BookSprite.png
 BoxSprite: SRD-ninetales-BoxSprite.png
 DexCategory: Fox Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Vulpix]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Drought
 HomeSprite: SRD-ninetales-HomeSprite.png
+Image: ninetales.png
 Learnset: '[[SRD-Ninetales-Learnset]]'
 Legendary: 'No'
-Name: Ninetales
 Number: 38
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-ninetales-ShuffleToken.png
-Sprite: ninetales.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 199
   Kilograms: 19.9
   Pounds: 43.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is known to understand human speech. It is very valued for its exuberant golden fur and the mystical power of its nine tails. It is, however, known to hold a grudge against those who mistreat it.*
 
 **DexID**:: 0038
-**Species**:: Ninetales
+**Name**:: Ninetales
 **Type**:: Fire
 **Abilities**:: [[SRD-Flash Fire|Flash Fire]] ([[SRD-Drought|Drought]])
 **Base HP**:: 4

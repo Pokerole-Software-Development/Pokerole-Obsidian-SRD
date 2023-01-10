@@ -1,7 +1,6 @@
 ---
 Ability1: Hyper Cutter
 Ability2: Arena Trap
-Baby: 'No'
 BookSprite: SRD-trapinch-BookSprite.png
 BoxSprite: SRD-trapinch-BoxSprite.png
 DexCategory: Ant Pit Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Vibrava]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Sheer Force
 HomeSprite: SRD-trapinch-HomeSprite.png
+Image: trapinch.png
 Learnset: '[[SRD-Trapinch-Learnset]]'
 Legendary: 'No'
-Name: Trapinch
 Number: 328
-PrimaryEggGroup: Bug
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-trapinch-ShuffleToken.png
-Sprite: trapinch.png
 Type1: Ground
 Type2: ''
 Weight:
-  Hectograms: 150
   Kilograms: 15.0
   Pounds: 33.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *Their nest is like a bowl pit dug in sand. Trapinches wait for prey to tumble down their pit, later to be crushed between this Pokemon’s jaws. Beware of them as their bite can cause serious damage.*
 
 **DexID**:: 0328
-**Species**:: Trapinch
+**Name**:: Trapinch
 **Type**:: Ground
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Arena Trap|Arena Trap]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 3

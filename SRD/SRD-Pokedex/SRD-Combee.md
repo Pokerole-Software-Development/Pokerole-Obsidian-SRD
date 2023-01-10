@@ -1,7 +1,6 @@
 ---
 Ability1: Honey Gather
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-combee-BookSprite.png
 BoxSprite: SRD-combee-BoxSprite.png
 DexCategory: Tiny Bee Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Pokemon: '[[SRD-Vespiquen]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Hustle
 HomeSprite: SRD-combee-HomeSprite.png
+Image: combee.png
 Learnset: '[[SRD-Combee-Learnset]]'
 Legendary: 'No'
-Name: Combee
 Number: 415
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-combee-ShuffleToken.png
-Sprite: combee.png
 Type1: Bug
 Type2: Flying
 Weight:
-  Hectograms: 55
   Kilograms: 5.5
   Pounds: 12.1
 ---
@@ -54,7 +47,7 @@ Weight:
 *It forms hives around trees. It flies all day sipping the nectar from flowers to make honey. It is usually born a male. If a female is born, it will grow into a Vespiqueen and start its own Hive.*
 
 **DexID**:: 0415
-**Species**:: Combee
+**Name**:: Combee
 **Type**:: Bug / Flying
 **Abilities**:: [[SRD-Honey Gather|Honey Gather]] ([[SRD-Hustle|Hustle]])
 **Base HP**:: 3

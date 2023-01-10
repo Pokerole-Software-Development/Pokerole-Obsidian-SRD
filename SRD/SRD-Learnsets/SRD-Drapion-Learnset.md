@@ -1,5 +1,4 @@
 ---
-DexID: '0452'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Poison Tail|Poison Tail]]'
 Name: Drapion
-Species: '[[SRD-Drapion|Drapion]]'
+Pokedex: '[[SRD-Drapion|Drapion]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0047'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Parasect
-Species: '[[SRD-Parasect|Parasect]]'
+Pokedex: '[[SRD-Parasect|Parasect]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

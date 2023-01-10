@@ -1,5 +1,4 @@
 ---
-DexID: '0107'
 Moves:
 - - Starter
   - '[[SRD-Revenge|Revenge]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-High Jump Kick|High Jump Kick]]'
 Name: Hitmonchan
-Species: '[[SRD-Hitmonchan|Hitmonchan]]'
+Pokedex: '[[SRD-Hitmonchan|Hitmonchan]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

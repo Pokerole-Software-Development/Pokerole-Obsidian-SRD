@@ -1,7 +1,6 @@
 ---
 Ability1: Turboblaze
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-reshiram-BookSprite.png
 BoxSprite: SRD-reshiram-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: "An Incredibly old scroll written in an ancient language, tells 
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 32
   Feet: 10.5
   Meters: 3.2
 HiddenAbility: ''
 HomeSprite: SRD-reshiram-HomeSprite.png
+Image: reshiram.png
 Learnset: '[[SRD-Reshiram-Learnset]]'
 Legendary: 'Yes'
-Name: Reshiram
 Number: 643
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-reshiram-ShuffleToken.png
-Sprite: reshiram.png
 Type1: Dragon
 Type2: Fire
 Weight:
-  Hectograms: 3300
   Kilograms: 330.0
   Pounds: 727.5
 ---
@@ -49,7 +42,7 @@ Weight:
 *An Incredibly old scroll written in an ancient language, tells about a world of truth built by purifying fire. It also tells about a big dispute. The rest of the scroll is burned…*
 
 **DexID**:: 0643
-**Species**:: Reshiram
+**Name**:: Reshiram
 **Type**:: Dragon / Fire
 **Abilities**:: [[SRD-Turboblaze|Turboblaze]]
 **Base HP**:: 5

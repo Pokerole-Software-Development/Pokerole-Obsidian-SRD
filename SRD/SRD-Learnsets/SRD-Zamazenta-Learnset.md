@@ -1,5 +1,4 @@
 ---
-DexID: 0888F1
 Moves:
 - - Master
   - '[[SRD-Metal Burst|Metal Burst]]'
@@ -36,14 +35,14 @@ Moves:
 - - Master
   - '[[SRD-Safeguard|Safeguard]]'
 Name: Zamazenta
-Species: '[[SRD-Zamazenta|Zamazenta]]'
+Pokedex: '[[SRD-Zamazenta|Zamazenta]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Trace
 Ability2: Download
-Baby: 'No'
 BookSprite: SRD-porygon2-BookSprite.png
 BoxSprite: SRD-porygon2-BoxSprite.png
 DexCategory: Virtual Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Porygon-Z]]'
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Analytic
 HomeSprite: SRD-porygon2-HomeSprite.png
+Image: porygon2.png
 Learnset: '[[SRD-Porygon2-Learnset]]'
 Legendary: 'No'
-Name: Porygon2
 Number: 233
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-porygon2-ShuffleToken.png
-Sprite: porygon2.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 325
   Kilograms: 32.5
   Pounds: 71.7
 ---
@@ -57,7 +50,7 @@ Weight:
 *This man-made Pokemon is an upgraded version of Porygon. Used for space exploration and planetary development, boasting the power of science. Its AI software allows it to learn on its own.*
 
 **DexID**:: 0233
-**Species**:: Porygon2
+**Name**:: Porygon2
 **Type**:: Normal
 **Abilities**:: [[SRD-Trace|Trace]] / [[SRD-Download|Download]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 4

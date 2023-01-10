@@ -1,5 +1,4 @@
 ---
-DexID: 0859
 Moves:
 - - Starter
   - '[[SRD-Fake Out|Fake Out]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Morgrem
-Species: '[[SRD-Morgrem|Morgrem]]'
+Pokedex: '[[SRD-Morgrem|Morgrem]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

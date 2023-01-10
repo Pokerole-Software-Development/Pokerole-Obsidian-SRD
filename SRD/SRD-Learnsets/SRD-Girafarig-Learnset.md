@@ -1,5 +1,4 @@
 ---
-DexID: '0203'
 Moves:
 - - Starter
   - '[[SRD-Astonish|Astonish]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Girafarig
-Species: '[[SRD-Girafarig|Girafarig]]'
+Pokedex: '[[SRD-Girafarig|Girafarig]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

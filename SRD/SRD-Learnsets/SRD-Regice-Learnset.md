@@ -1,5 +1,4 @@
 ---
-DexID: 0378
 Moves:
 - - Master
   - '[[SRD-Stomp|Stomp]]'
@@ -38,14 +37,14 @@ Moves:
 - - Master
   - '[[SRD-Aurora Veil|Aurora Veil]]'
 Name: Regice
-Species: '[[SRD-Regice|Regice]]'
+Pokedex: '[[SRD-Regice|Regice]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

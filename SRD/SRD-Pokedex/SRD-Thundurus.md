@@ -1,7 +1,6 @@
 ---
 Ability1: Prankster
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-thundurus-BookSprite.png
 BoxSprite: SRD-thundurus-BoxSprite.png
 DexCategory: No Data
@@ -12,27 +11,21 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Form Thundurus]]'
+  Pokemon: '[[SRD-Thundurus (Therian Form)]]'
 GenderType: M
-HasForm: 'Yes'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Defiant
 HomeSprite: SRD-thundurus-HomeSprite.png
+Image: thundurus.png
 Learnset: '[[SRD-Thundurus-Learnset]]'
 Legendary: 'Yes'
-Name: Thundurus
 Number: 642
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-thundurus-ShuffleToken.png
-Sprite: thundurus.png
 Type1: Electric
 Type2: Flying
 Weight:
-  Hectograms: 610
   Kilograms: 61.0
   Pounds: 134.5
 ---
@@ -52,7 +45,7 @@ Weight:
 *There are constant forest fires all through the Unova region. These fires are always the result of a giant thunder storm. Forest rangers tell about a blue demon’s shadow that was inside the storm clouds.*
 
 **DexID**:: 0642
-**Species**:: Thundurus
+**Name**:: Thundurus
 **Type**:: Electric / Flying
 **Abilities**:: [[SRD-Prankster|Prankster]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 4
@@ -70,8 +63,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-| Evolves   | Pokemon                | Kind   |
-|:----------|:-----------------------|:-------|
-| To        | [[SRD-Form Thundurus]] | Form   |
+| Evolves   | Pokemon                          | Kind   |
+|:----------|:---------------------------------|:-------|
+| To        | [[SRD-Thundurus (Therian Form)]] | Form   |
 
 ![[SRD-Thundurus-Learnset]]

@@ -1,7 +1,6 @@
 ---
 Ability1: Static
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-mareep-BookSprite.png
 BoxSprite: SRD-mareep-BoxSprite.png
 DexCategory: Wool Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Flaaffy]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Plus
 HomeSprite: SRD-mareep-HomeSprite.png
+Image: mareep.png
 Learnset: '[[SRD-Mareep-Learnset]]'
 Legendary: 'No'
-Name: Mareep
 Number: 179
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Field
 ShuffleToken: SRD-mareep-ShuffleToken.png
-Sprite: mareep.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 78
   Kilograms: 7.8
   Pounds: 17.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *Its fluffy coat of wool builds a static charge, the more static electricity, the more brightly the lightbulb at the tip of its tail glows. Farmers shed their wool by the summer but it grows back quickly.*
 
 **DexID**:: 0179
-**Species**:: Mareep
+**Name**:: Mareep
 **Type**:: Electric
 **Abilities**:: [[SRD-Static|Static]] ([[SRD-Plus|Plus]])
 **Base HP**:: 3

@@ -1,7 +1,6 @@
 ---
 Ability1: Poison Point
 Ability2: Poison Touch
-Baby: 'No'
 BookSprite: SRD-skrelp-BookSprite.png
 BoxSprite: SRD-skrelp-BoxSprite.png
 DexCategory: Mock Kelp Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Dragalge]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Adaptability
 HomeSprite: SRD-skrelp-HomeSprite.png
+Image: skrelp.png
 Learnset: '[[SRD-Skrelp-Learnset]]'
 Legendary: 'No'
-Name: Skrelp
 Number: 690
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-skrelp-ShuffleToken.png
-Sprite: skrelp.png
 Type1: Poison
 Type2: Water
 Weight:
-  Hectograms: 73
   Kilograms: 7.3
   Pounds: 16.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *Camouflaged as rotten kelp they spray liquid poison on a prey that approaches unaware. It needs to store a lot of energy to be able to evolve so it takes them a long time. Touching one will give you a fever.*
 
 **DexID**:: 0690
-**Species**:: Skrelp
+**Name**:: Skrelp
 **Type**:: Poison / Water
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Poison Touch|Poison Touch]] ([[SRD-Adaptability|Adaptability]])
 **Base HP**:: 3

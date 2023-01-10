@@ -1,5 +1,4 @@
 ---
-DexID: 0059
 Moves:
 - - Starter
   - '[[SRD-Roar|Roar]]'
@@ -30,14 +29,14 @@ Moves:
 - - Pro
   - '[[SRD-Wild Charge|Wild Charge]]'
 Name: Arcanine
-Species: '[[SRD-Arcanine|Arcanine]]'
+Pokedex: '[[SRD-Arcanine|Arcanine]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

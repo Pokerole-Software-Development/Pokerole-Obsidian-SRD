@@ -1,7 +1,6 @@
 ---
 Ability1: Immunity
 Ability2: Thick Fat
-Baby: 'No'
 BookSprite: SRD-snorlax-BookSprite.png
 BoxSprite: SRD-snorlax-BoxSprite.png
 DexCategory: Sleeping Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Happiness
   Value: 4
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 21
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: Gluttony
 HomeSprite: SRD-snorlax-HomeSprite.png
+Image: snorlax.png
 Learnset: '[[SRD-Snorlax-Learnset]]'
 Legendary: 'No'
-Name: Snorlax
 Number: 143
-PrimaryEggGroup: Monster
-SecondaryEggGroup: ''
 ShuffleToken: SRD-snorlax-ShuffleToken.png
-Sprite: snorlax.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 4600
   Kilograms: 460.0
   Pounds: 1014.1
 ---
@@ -54,7 +47,7 @@ Weight:
 *Snorlax's typical day consists of eating and sleeping. It is such a docile Pokemon that children use its big belly as a place to play. It only attacks when it’s awoken harshly. Fortunately it is a heavy sleeper.*
 
 **DexID**:: 0143
-**Species**:: Snorlax
+**Name**:: Snorlax
 **Type**:: Normal
 **Abilities**:: [[SRD-Immunity|Immunity]] / [[SRD-Thick Fat|Thick Fat]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 8

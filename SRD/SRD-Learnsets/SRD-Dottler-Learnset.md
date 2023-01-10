@@ -1,5 +1,4 @@
 ---
-DexID: 0824
 Moves:
 - - Starter
   - '[[SRD-Struggle Bug|Struggle Bug]]'
@@ -22,14 +21,14 @@ Moves:
 - - Pro
   - '[[SRD-Infestation|Infestation]]'
 Name: Dottler
-Species: '[[SRD-Dottler|Dottler]]'
+Pokedex: '[[SRD-Dottler|Dottler]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

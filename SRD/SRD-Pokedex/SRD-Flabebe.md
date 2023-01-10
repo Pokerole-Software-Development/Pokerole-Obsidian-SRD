@@ -1,7 +1,6 @@
 ---
 Ability1: Flower Veil
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-flabebe-BookSprite.png
 BoxSprite: SRD-flabebe-BoxSprite.png
 DexCategory: Single Bloom Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Floette]]'
   Speed: Fast
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 1
   Feet: 0.3
   Meters: 0.1
 HiddenAbility: Symbiosis
 HomeSprite: SRD-flabebe-HomeSprite.png
+Image: flabebe.png
 Learnset: '[[SRD-Flabebe-Learnset]]'
 Legendary: 'No'
-Name: Flabebe
 Number: 669
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-flabebe-ShuffleToken.png
-Sprite: flabebe.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 1
   Kilograms: 0.1
   Pounds: 0.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *This species is female only. They are so tiny it is difficult to spot them in the wild. They pick a flower as soon as they are born and it becomes a part of their body. These small Pokemon are shy but adorable.*
 
 **DexID**:: 0669
-**Species**:: Flabebe
+**Name**:: Flabebe
 **Type**:: Fairy
 **Abilities**:: [[SRD-Flower Veil|Flower Veil]] ([[SRD-Symbiosis|Symbiosis]])
 **Base HP**:: 3

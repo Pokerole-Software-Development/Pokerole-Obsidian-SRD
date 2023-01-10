@@ -1,7 +1,6 @@
 ---
 Ability1: Pickup
 Ability2: Thick Fat
-Baby: 'Yes'
 BookSprite: SRD-munchlax-BookSprite.png
 BoxSprite: SRD-munchlax-BoxSprite.png
 DexCategory: Big Eater Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Happiness
   Value: 4
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Gluttony
 HomeSprite: SRD-munchlax-HomeSprite.png
+Image: munchlax.png
 Learnset: '[[SRD-Munchlax-Learnset]]'
 Legendary: 'No'
-Name: Munchlax
 Number: 446
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-munchlax-ShuffleToken.png
-Sprite: munchlax.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 1050
   Kilograms: 105.0
   Pounds: 231.5
 ---
@@ -54,7 +47,7 @@ Weight:
 *A Munchlaxes appetite is never really satisfied, it can eat its weight in food and will almost never care about what it is eating. They tend to pick up anything that looks edible and save it for later.*
 
 **DexID**:: 0446
-**Species**:: Munchlax
+**Name**:: Munchlax
 **Type**:: Normal
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Thick Fat|Thick Fat]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 5

@@ -1,5 +1,4 @@
 ---
-DexID: '0040'
 Moves:
 - - Amateur
   - '[[SRD-Double Slap|Double Slap]]'
@@ -24,14 +23,14 @@ Moves:
 - - Pro
   - '[[SRD-Heal Pulse|Heal Pulse]]'
 Name: Wigglytuff
-Species: '[[SRD-Wigglytuff|Wigglytuff]]'
+Pokedex: '[[SRD-Wigglytuff|Wigglytuff]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

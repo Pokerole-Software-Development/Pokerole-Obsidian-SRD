@@ -1,5 +1,4 @@
 ---
-DexID: '0114'
 Moves:
 - - Starter
   - '[[SRD-Constrict|Constrict]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Substitute|Substitute]]'
 Name: Tangela
-Species: '[[SRD-Tangela|Tangela]]'
+Pokedex: '[[SRD-Tangela|Tangela]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

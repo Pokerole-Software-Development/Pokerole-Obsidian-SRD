@@ -1,5 +1,4 @@
 ---
-DexID: '0766'
 Moves:
 - - Starter
   - '[[SRD-Struggle Bug|Struggle Bug]]'
@@ -18,14 +17,14 @@ Moves:
 - - Pro
   - '[[SRD-Spikes|Spikes]]'
 Name: Wimpod
-Species: '[[SRD-Wimpod|Wimpod]]'
+Pokedex: '[[SRD-Wimpod|Wimpod]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

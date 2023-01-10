@@ -1,5 +1,4 @@
 ---
-DexID: '0710'
 Moves:
 - - Starter
   - '[[SRD-Confuse Ray|Confuse Ray]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Imprison|Imprison]]'
 Name: Trevenant
-Species: '[[SRD-Trevenant|Trevenant]]'
+Pokedex: '[[SRD-Trevenant|Trevenant]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

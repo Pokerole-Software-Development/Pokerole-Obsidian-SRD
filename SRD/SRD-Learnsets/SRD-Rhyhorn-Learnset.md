@@ -1,5 +1,4 @@
 ---
-DexID: '0111'
 Moves:
 - - Starter
   - '[[SRD-Horn Attack|Horn Attack]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Fang|Fire Fang]]'
 Name: Rhyhorn
-Species: '[[SRD-Rhyhorn|Rhyhorn]]'
+Pokedex: '[[SRD-Rhyhorn|Rhyhorn]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

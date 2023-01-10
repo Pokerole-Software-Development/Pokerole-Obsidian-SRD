@@ -1,7 +1,6 @@
 ---
 Ability1: Synchronize
 Ability2: Inner Focus
-Baby: 'No'
 BookSprite: SRD-kadabra-BookSprite.png
 BoxSprite: SRD-kadabra-BoxSprite.png
 DexCategory: Psi Pokemon
@@ -18,25 +17,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Alakazam]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Magic Guard
 HomeSprite: SRD-kadabra-HomeSprite.png
+Image: kadabra.png
 Learnset: '[[SRD-Kadabra-Learnset]]'
 Legendary: 'No'
-Name: Kadabra
 Number: 64
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-kadabra-ShuffleToken.png
-Sprite: kadabra.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 565
   Kilograms: 56.5
   Pounds: 124.6
 ---
@@ -56,7 +49,7 @@ Weight:
 *Kadabra holds a silver spoon in its hand. The spoon is used to amplify the alpha waves of its brain. When this Pokemon walks in, objects near to it go crazy, moving in ways they shouldn’t.*
 
 **DexID**:: 0064
-**Species**:: Kadabra
+**Name**:: Kadabra
 **Type**:: Psychic
 **Abilities**:: [[SRD-Synchronize|Synchronize]] / [[SRD-Inner Focus|Inner Focus]] ([[SRD-Magic Guard|Magic Guard]])
 **Base HP**:: 4

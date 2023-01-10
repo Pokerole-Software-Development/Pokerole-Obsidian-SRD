@@ -1,5 +1,4 @@
 ---
-DexID: '0330'
 Moves:
 - - Starter
   - '[[SRD-Sonic Boom|Sonic Boom]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Flygon
-Species: '[[SRD-Flygon|Flygon]]'
+Pokedex: '[[SRD-Flygon|Flygon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

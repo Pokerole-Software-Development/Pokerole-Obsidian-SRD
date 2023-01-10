@@ -1,5 +1,4 @@
 ---
-DexID: 0199
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Brine|Brine]]'
 Name: Slowking
-Species: '[[SRD-Slowking|Slowking]]'
+Pokedex: '[[SRD-Slowking|Slowking]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

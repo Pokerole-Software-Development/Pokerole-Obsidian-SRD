@@ -1,7 +1,6 @@
 ---
 Ability1: Early Bird
 Ability2: Flash Fire
-Baby: 'No'
 BookSprite: SRD-houndour-BookSprite.png
 BoxSprite: SRD-houndour-BoxSprite.png
 DexCategory: Dark Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Houndoom]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Unnerve
 HomeSprite: SRD-houndour-HomeSprite.png
+Image: houndour.png
 Learnset: '[[SRD-Houndour-Learnset]]'
 Legendary: 'No'
-Name: Houndour
 Number: 228
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-houndour-ShuffleToken.png
-Sprite: houndour.png
 Type1: Dark
 Type2: Fire
 Weight:
-  Hectograms: 108
   Kilograms: 10.8
   Pounds: 23.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *They hunt in coordinated packs to corner their prey. They howl at dawn to announce that this is their territory and bark to communicate tactics. Their teamwork is very efficient and they rarely welcome strangers.*
 
 **DexID**:: 0228
-**Species**:: Houndour
+**Name**:: Houndour
 **Type**:: Dark / Fire
 **Abilities**:: [[SRD-Early Bird|Early Bird]] / [[SRD-Flash Fire|Flash Fire]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 3

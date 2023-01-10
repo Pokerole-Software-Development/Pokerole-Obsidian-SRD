@@ -1,7 +1,6 @@
 ---
 Ability1: Solid Rock
 Ability2: Sturdy
-Baby: 'No'
 BookSprite: SRD-carracosta-BookSprite.png
 BoxSprite: SRD-carracosta-BoxSprite.png
 DexCategory: Prototurtle Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Tirtouga]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Swift Swim
 HomeSprite: SRD-carracosta-HomeSprite.png
+Image: carracosta.png
 Learnset: '[[SRD-Carracosta-Learnset]]'
 Legendary: 'No'
-Name: Carracosta
 Number: 565
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Water 3
 ShuffleToken: SRD-carracosta-ShuffleToken.png
-Sprite: carracosta.png
 Type1: Water
 Type2: Rock
 Weight:
-  Hectograms: 810
   Kilograms: 81.0
   Pounds: 178.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *They can live both in ocean and land. It can knock out a foe with a slap from one of its powerful front fins and chew it up whole. Fortunately, only one specimen on captivity remains.*
 
 **DexID**:: 0565
-**Species**:: Carracosta
+**Name**:: Carracosta
 **Type**:: Water / Rock
 **Abilities**:: [[SRD-Solid Rock|Solid Rock]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 4

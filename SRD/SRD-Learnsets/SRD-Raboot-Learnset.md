@@ -1,5 +1,4 @@
 ---
-DexID: 0815
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Raboot
-Species: '[[SRD-Raboot|Raboot]]'
+Pokedex: '[[SRD-Raboot|Raboot]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

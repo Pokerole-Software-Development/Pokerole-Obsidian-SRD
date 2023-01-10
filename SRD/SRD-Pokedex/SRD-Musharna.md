@@ -1,7 +1,6 @@
 ---
 Ability1: Forewarn
 Ability2: Synchronize
-Baby: 'No'
 BookSprite: SRD-musharna-BookSprite.png
 BoxSprite: SRD-musharna-BoxSprite.png
 DexCategory: Drowsing Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Munna]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Telepathy
 HomeSprite: SRD-musharna-HomeSprite.png
+Image: musharna.png
 Learnset: '[[SRD-Musharna-Learnset]]'
 Legendary: 'No'
-Name: Musharna
 Number: 518
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-musharna-ShuffleToken.png
-Sprite: musharna.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 605
   Kilograms: 60.5
   Pounds: 133.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *It communicates with the mist on its forehead, it can create shapes and images from dreams it has eaten. It is said that this Pokemon is a link between this world and a another one made entirely of dreams.*
 
 **DexID**:: 0518
-**Species**:: Musharna
+**Name**:: Musharna
 **Type**:: Psychic
 **Abilities**:: [[SRD-Forewarn|Forewarn]] / [[SRD-Synchronize|Synchronize]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 6

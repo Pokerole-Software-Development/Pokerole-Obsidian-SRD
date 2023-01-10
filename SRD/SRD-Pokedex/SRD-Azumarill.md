@@ -1,7 +1,6 @@
 ---
 Ability1: Thick Fat
 Ability2: Huge Power
-Baby: 'No'
 BookSprite: SRD-azumarill-BookSprite.png
 BoxSprite: SRD-azumarill-BoxSprite.png
 DexCategory: Aquarabbit Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Marill]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-azumarill-HomeSprite.png
+Image: azumarill.png
 Learnset: '[[SRD-Azumarill-Learnset]]'
 Legendary: 'No'
-Name: Azumarill
 Number: 184
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Fairy
 ShuffleToken: SRD-azumarill-ShuffleToken.png
-Sprite: azumarill.png
 Type1: Water
 Type2: Fairy
 Weight:
-  Hectograms: 285
   Kilograms: 28.5
   Pounds: 62.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *It stays in water virtually all day long. Its blue fur makes it difficult to spot when submerged. Azumarril uses its sensitive ears to locate prey even underwater. They are not aggressive and even get close to humans.*
 
 **DexID**:: 0184
-**Species**:: Azumarill
+**Name**:: Azumarill
 **Type**:: Water / Fairy
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Huge Power|Huge Power]] ([[SRD-Sap Sipper|Sap Sipper]])
 **Base HP**:: 5

@@ -1,5 +1,4 @@
 ---
-DexID: '0274'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Foul Play|Foul Play]]'
 Name: Nuzleaf
-Species: '[[SRD-Nuzleaf|Nuzleaf]]'
+Pokedex: '[[SRD-Nuzleaf|Nuzleaf]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: Sheer Force
-Baby: 'No'
 BookSprite: SRD-braviary-BookSprite.png
 BoxSprite: SRD-braviary-BoxSprite.png
 DexCategory: Valiant Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Rufflet]]'
   Speed: Slow
 GenderType: M
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Defiant
 HomeSprite: SRD-braviary-HomeSprite.png
+Image: braviary.png
 Learnset: '[[SRD-Braviary-Learnset]]'
 Legendary: 'No'
-Name: Braviary
 Number: 628
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-braviary-ShuffleToken.png
-Sprite: braviary.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 410
   Kilograms: 41.0
   Pounds: 90.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *Brave, strong, loyal, and selfless; this Pokemon embodies the virtues of what a Pokemon companion should be. They are very rare and valued not only for their bravery but for their beautiful feathers.*
 
 **DexID**:: 0628
-**Species**:: Braviary
+**Name**:: Braviary
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Sheer Force|Sheer Force]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 5

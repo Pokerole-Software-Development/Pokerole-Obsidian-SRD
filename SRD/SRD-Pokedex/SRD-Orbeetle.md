@@ -1,7 +1,6 @@
 ---
 Ability1: Swarm
 Ability2: Frisk
-Baby: 'No'
 BookSprite: SRD-orbeetle-BookSprite.png
 BoxSprite: SRD-orbeetle-BoxSprite.png
 DexCategory: Seven Spot Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Dottler]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Telepathy
 HomeSprite: SRD-orbeetle-HomeSprite.png
+Image: orbeetle.png
 Learnset: '[[SRD-Orbeetle-Learnset]]'
 Legendary: 'No'
-Name: Orbeetle
 Number: 826
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-orbeetle-ShuffleToken.png
-Sprite: orbeetle.png
 Type1: Bug
 Type2: Psychic
 Weight:
-  Hectograms: 408
   Kilograms: 40.8
   Pounds: 89.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *It’s famous for its high intelligence and the large size of its brain. It has immense psychic power. They patrol their territory as floating sentries, focusing a ray of light over any  intruder, even if they are miles away.*
 
 **DexID**:: 0826
-**Species**:: Orbeetle
+**Name**:: Orbeetle
 **Type**:: Bug / Psychic
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Frisk|Frisk]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 5

@@ -1,7 +1,6 @@
 ---
 Ability1: Synchronize
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-umbreon-BookSprite.png
 BoxSprite: SRD-umbreon-BoxSprite.png
 DexCategory: Moonlight Pokemon
@@ -17,25 +16,19 @@ Evolutions:
   Stat: Happiness
   Value: 4
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Inner Focus
 HomeSprite: SRD-umbreon-HomeSprite.png
+Image: umbreon.png
 Learnset: '[[SRD-Umbreon-Learnset]]'
 Legendary: 'No'
-Name: Umbreon
 Number: 197
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-umbreon-ShuffleToken.png
-Sprite: umbreon.png
 Type1: Dark
 Type2: ''
 Weight:
-  Hectograms: 270
   Kilograms: 27.0
   Pounds: 59.5
 ---
@@ -55,7 +48,7 @@ Weight:
 *Umbreon evolved from exposure to the moon’s energy pulses. It lurks in darkness and waits for its foes to move. The rings on its body glow when it leaps to attack. Its fur is drenched with poison.*
 
 **DexID**:: 0197
-**Species**:: Umbreon
+**Name**:: Umbreon
 **Type**:: Dark
 **Abilities**:: [[SRD-Synchronize|Synchronize]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 4

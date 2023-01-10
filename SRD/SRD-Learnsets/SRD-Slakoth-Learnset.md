@@ -1,5 +1,4 @@
 ---
-DexID: 0287
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Sleep Talk|Sleep Talk]]'
 Name: Slakoth
-Species: '[[SRD-Slakoth|Slakoth]]'
+Pokedex: '[[SRD-Slakoth|Slakoth]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

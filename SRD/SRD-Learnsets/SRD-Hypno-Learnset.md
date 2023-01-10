@@ -1,5 +1,4 @@
 ---
-DexID: 0097
 Moves:
 - - Starter
   - '[[SRD-Hypnosis|Hypnosis]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Metronome|Metronome]]'
 Name: Hypno
-Species: '[[SRD-Hypno|Hypno]]'
+Pokedex: '[[SRD-Hypno|Hypno]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

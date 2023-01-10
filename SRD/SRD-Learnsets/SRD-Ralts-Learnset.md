@@ -1,5 +1,4 @@
 ---
-DexID: 0280
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Mean Look|Mean Look]]'
 Name: Ralts
-Species: '[[SRD-Ralts|Ralts]]'
+Pokedex: '[[SRD-Ralts|Ralts]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

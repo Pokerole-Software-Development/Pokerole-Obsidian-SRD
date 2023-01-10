@@ -1,7 +1,6 @@
 ---
 Ability1: Ripen
 Ability2: Gluttony
-Baby: 'No'
 BookSprite: SRD-flapple-BookSprite.png
 BoxSprite: SRD-flapple-BoxSprite.png
 DexCategory: Apple Wing Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Kind: Item
   Pokemon: '[[SRD-Appletun]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Hustle
 HomeSprite: SRD-flapple-HomeSprite.png
+Image: flapple.png
 Learnset: '[[SRD-Flapple-Learnset]]'
 Legendary: 'No'
-Name: Flapple
 Number: 841
-PrimaryEggGroup: Grass
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-flapple-ShuffleToken.png
-Sprite: flapple.png
 Type1: Grass
 Type2: Dragon
 Weight:
-  Hectograms: 10
   Kilograms: 1.0
   Pounds: 2.2
 ---
@@ -57,7 +50,7 @@ Weight:
 *It grew inside a sour apple, and thus developed an acid that can cause chemical burns. It uses the discarded apple skin to fly or disguise itself as a rancid apple. They are loners as not many like how it looks or smells.*
 
 **DexID**:: 0841
-**Species**:: Flapple
+**Name**:: Flapple
 **Type**:: Grass / Dragon
 **Abilities**:: [[SRD-Ripen|Ripen]] / [[SRD-Gluttony|Gluttony]] ([[SRD-Hustle|Hustle]])
 **Base HP**:: 4

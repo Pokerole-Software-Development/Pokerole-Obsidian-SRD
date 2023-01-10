@@ -1,7 +1,6 @@
 ---
 Ability1: Run Away
 Ability2: Flash Fire
-Baby: 'No'
 BookSprite: SRD-ponyta-BookSprite.png
 BoxSprite: SRD-ponyta-BoxSprite.png
 DexCategory: Fire Horse Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Rapidash]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Flame Body
 HomeSprite: SRD-ponyta-HomeSprite.png
+Image: ponyta.png
 Learnset: '[[SRD-Ponyta-Learnset]]'
 Legendary: 'No'
-Name: Ponyta
 Number: 77
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-ponyta-ShuffleToken.png
-Sprite: ponyta.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 300
   Kilograms: 30.0
   Pounds: 66.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *It’s not very common to see one stay still for more than a few seconds. Soon after it’s born, its flames begin to burn. It is weak at first but soon begins to develop a great speed chasing after its parents.*
 
 **DexID**:: 0077
-**Species**:: Ponyta
+**Name**:: Ponyta
 **Type**:: Fire
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Flash Fire|Flash Fire]] ([[SRD-Flame Body|Flame Body]])
 **Base HP**:: 3

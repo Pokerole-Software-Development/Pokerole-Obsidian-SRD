@@ -1,7 +1,6 @@
 ---
 Ability1: Hyper Cutter
 Ability2: Sand Veil
-Baby: 'No'
 BookSprite: SRD-gligar-BookSprite.png
 BoxSprite: SRD-gligar-BoxSprite.png
 DexCategory: Fly Scorpion Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Level
   Pokemon: '[[SRD-Gliscor]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Immunity
 HomeSprite: SRD-gligar-HomeSprite.png
+Image: gligar.png
 Learnset: '[[SRD-Gligar-Learnset]]'
 Legendary: 'No'
-Name: Gligar
 Number: 207
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-gligar-ShuffleToken.png
-Sprite: gligar.png
 Type1: Ground
 Type2: Flying
 Weight:
-  Hectograms: 648
   Kilograms: 64.8
   Pounds: 142.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *It hangs from cliffs waiting for its prey. It flies straight at the target’s face, grapples the victim with its pincers and clawed hind legs, lastly, it injects poison with its tail. Gligar can glide without making any noise.*
 
 **DexID**:: 0207
-**Species**:: Gligar
+**Name**:: Gligar
 **Type**:: Ground / Flying
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Sand Veil|Sand Veil]] ([[SRD-Immunity|Immunity]])
 **Base HP**:: 3

@@ -1,5 +1,4 @@
 ---
-DexID: '0302'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -49,17 +48,15 @@ Moves:
   - '[[SRD-Shadow Ball|Shadow Ball]]'
 - - Pro
   - '[[SRD-Moonlight|Moonlight]]'
-- - Pro
-  - '[[SRD-Mean Look|Mean Look]]'
 Name: Sableye
-Species: '[[SRD-Sableye|Sableye]]'
+Pokedex: '[[SRD-Sableye|Sableye]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

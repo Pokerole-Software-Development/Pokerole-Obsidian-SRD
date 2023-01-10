@@ -1,5 +1,4 @@
 ---
-DexID: '0225'
 Moves:
 - - Starter
   - '[[SRD-Present|Present]]'
@@ -32,14 +31,14 @@ Moves:
 - - Pro
   - '[[SRD-Sky Attack|Sky Attack]]'
 Name: Delibird
-Species: '[[SRD-Delibird|Delibird]]'
+Pokedex: '[[SRD-Delibird|Delibird]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

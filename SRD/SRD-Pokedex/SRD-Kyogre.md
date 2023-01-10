@@ -1,7 +1,6 @@
 ---
 Ability1: Drizzle
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-kyogre-BookSprite.png
 BoxSprite: SRD-kyogre-BoxSprite.png
 DexCategory: No Data
@@ -11,27 +10,21 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Primal Kyogre]]'
+  Pokemon: '[[SRD-Kyogre (Primal Form)]]'
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 45
   Feet: 14.8
   Meters: 4.5
 HiddenAbility: ''
 HomeSprite: SRD-kyogre-HomeSprite.png
+Image: kyogre.png
 Learnset: '[[SRD-Kyogre-Learnset]]'
 Legendary: 'Yes'
-Name: Kyogre
 Number: 382
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-kyogre-ShuffleToken.png
-Sprite: kyogre.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 3520
   Kilograms: 352.0
   Pounds: 776.0
 ---
@@ -51,7 +44,7 @@ Weight:
 *Kyogre is named in mythology as the God that expanded the seas and oceans with torrential waters and huge tidal waves. It is the mortal enemy of Groudon.*
 
 **DexID**:: 0382
-**Species**:: Kyogre
+**Name**:: Kyogre
 **Type**:: Water
 **Abilities**:: [[SRD-Drizzle|Drizzle]]
 **Base HP**:: 6
@@ -69,8 +62,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-| Evolves   | Pokemon               | Kind   |
-|:----------|:----------------------|:-------|
-| To        | [[SRD-Primal Kyogre]] | Form   |
+| Evolves   | Pokemon                      | Kind   |
+|:----------|:-----------------------------|:-------|
+| To        | [[SRD-Kyogre (Primal Form)]] | Form   |
 
 ![[SRD-Kyogre-Learnset]]

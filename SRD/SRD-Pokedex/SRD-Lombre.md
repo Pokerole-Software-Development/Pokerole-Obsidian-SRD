@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: Rain Dish
-Baby: 'No'
 BookSprite: SRD-lombre-BookSprite.png
 BoxSprite: SRD-lombre-BoxSprite.png
 DexCategory: Jolly Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Ludicolo]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Own Tempo
 HomeSprite: SRD-lombre-HomeSprite.png
+Image: lombre.png
 Learnset: '[[SRD-Lombre-Learnset]]'
 Legendary: 'No'
-Name: Lombre
 Number: 271
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-lombre-ShuffleToken.png
-Sprite: lombre.png
 Type1: Water
 Type2: Grass
 Weight:
-  Hectograms: 325
   Kilograms: 32.5
   Pounds: 71.7
 ---
@@ -57,7 +50,7 @@ Weight:
 *This nocturnal Pokemon has a mischievous and impish personality. While playing pranks on people, Lombres are commonly mistaken for human children. It enjoys to startle unaware swimmers.*
 
 **DexID**:: 0271
-**Species**:: Lombre
+**Name**:: Lombre
 **Type**:: Water / Grass
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Rain Dish|Rain Dish]] ([[SRD-Own Tempo|Own Tempo]])
 **Base HP**:: 4

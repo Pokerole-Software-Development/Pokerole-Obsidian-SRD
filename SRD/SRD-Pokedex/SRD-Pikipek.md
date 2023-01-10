@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: Skill Link
-Baby: 'No'
 BookSprite: SRD-pikipek-BookSprite.png
 BoxSprite: SRD-pikipek-BoxSprite.png
 DexCategory: Woodpecker Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Trumbeak]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Pickup
 HomeSprite: SRD-pikipek-HomeSprite.png
+Image: pikipek.png
 Learnset: '[[SRD-Pikipek-Learnset]]'
 Legendary: 'No'
-Name: Pikipek
 Number: 731
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-pikipek-ShuffleToken.png
-Sprite: pikipek.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 12
   Kilograms: 1.2
   Pounds: 2.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *Their beaks are incredibly strong, it takes them a few minutes to shatter rock. They eat berries and shoot the seeds to defend themselves. Pikipek don’t sing, but communicate with pecking sounds.*
 
 **DexID**:: 0731
-**Species**:: Pikipek
+**Name**:: Pikipek
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Skill Link|Skill Link]] ([[SRD-Pickup|Pickup]])
 **Base HP**:: 3

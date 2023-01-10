@@ -1,7 +1,6 @@
 ---
 Ability1: Sturdy
 Ability2: Shell Armor
-Baby: 'No'
 BookSprite: SRD-crustle-BookSprite.png
 BoxSprite: SRD-crustle-BoxSprite.png
 DexCategory: Stone Home Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Dwebble]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Weak Armor
 HomeSprite: SRD-crustle-HomeSprite.png
+Image: crustle.png
 Learnset: '[[SRD-Crustle-Learnset]]'
 Legendary: 'No'
-Name: Crustle
 Number: 558
-PrimaryEggGroup: Bug
-SecondaryEggGroup: Mineral
 ShuffleToken: SRD-crustle-ShuffleToken.png
-Sprite: crustle.png
 Type1: Bug
 Type2: Rock
 Weight:
-  Hectograms: 2000
   Kilograms: 200.0
   Pounds: 440.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *They carry enormous boulders as a protective shell. When competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle. They feed on the moss that grows in their rock.*
 
 **DexID**:: 0558
-**Species**:: Crustle
+**Name**:: Crustle
 **Type**:: Bug / Rock
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 4

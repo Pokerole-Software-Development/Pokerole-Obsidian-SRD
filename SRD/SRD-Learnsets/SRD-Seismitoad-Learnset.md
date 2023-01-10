@@ -1,5 +1,4 @@
 ---
-DexID: '0537'
 Moves:
 - - Starter
   - '[[SRD-Bubble|Bubble]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Knock Off|Knock Off]]'
 Name: Seismitoad
-Species: '[[SRD-Seismitoad|Seismitoad]]'
+Pokedex: '[[SRD-Seismitoad|Seismitoad]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

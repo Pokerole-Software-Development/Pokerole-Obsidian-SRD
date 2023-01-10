@@ -1,5 +1,4 @@
 ---
-DexID: '0267'
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Captivate|Captivate]]'
 Name: Beautifly
-Species: '[[SRD-Beautifly|Beautifly]]'
+Pokedex: '[[SRD-Beautifly|Beautifly]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

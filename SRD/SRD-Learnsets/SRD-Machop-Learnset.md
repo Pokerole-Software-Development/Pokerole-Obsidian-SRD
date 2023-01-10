@@ -1,5 +1,4 @@
 ---
-DexID: '0066'
 Moves:
 - - Starter
   - '[[SRD-Low Kick|Low Kick]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Ice Punch|Ice Punch]]'
 Name: Machop
-Species: '[[SRD-Machop|Machop]]'
+Pokedex: '[[SRD-Machop|Machop]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

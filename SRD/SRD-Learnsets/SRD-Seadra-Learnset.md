@@ -1,5 +1,4 @@
 ---
-DexID: '0117'
 Moves:
 - - Starter
   - '[[SRD-Water Gun|Water Gun]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Octazooka|Octazooka]]'
 Name: Seadra
-Species: '[[SRD-Seadra|Seadra]]'
+Pokedex: '[[SRD-Seadra|Seadra]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

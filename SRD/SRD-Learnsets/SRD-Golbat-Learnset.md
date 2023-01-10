@@ -1,5 +1,4 @@
 ---
-DexID: '0042'
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Venom Drench|Venom Drench]]'
 Name: Golbat
-Species: '[[SRD-Golbat|Golbat]]'
+Pokedex: '[[SRD-Golbat|Golbat]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

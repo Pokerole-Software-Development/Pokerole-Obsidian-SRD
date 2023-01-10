@@ -1,7 +1,6 @@
 ---
 Ability1: Own Tempo
 Ability2: Oblivious
-Baby: 'No'
 BookSprite: SRD-lickitung-BookSprite.png
 BoxSprite: SRD-lickitung-BoxSprite.png
 DexCategory: Licking Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Lickilicky]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Cloud Nine
 HomeSprite: SRD-lickitung-HomeSprite.png
+Image: lickitung.png
 Learnset: '[[SRD-Lickitung-Learnset]]'
 Legendary: 'No'
-Name: Lickitung
 Number: 108
-PrimaryEggGroup: Monster
-SecondaryEggGroup: ''
 ShuffleToken: SRD-lickitung-ShuffleToken.png
-Sprite: lickitung.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 655
   Kilograms: 65.5
   Pounds: 144.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *Its tongue is twice as long as its body and it is used for everything, from capturing prey to feeling it’s surroundings and cleaning itself. It really dislikes sour and bitter flavors.*
 
 **DexID**:: 0108
-**Species**:: Lickitung
+**Name**:: Lickitung
 **Type**:: Normal
 **Abilities**:: [[SRD-Own Tempo|Own Tempo]] / [[SRD-Oblivious|Oblivious]] ([[SRD-Cloud Nine|Cloud Nine]])
 **Base HP**:: 3

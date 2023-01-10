@@ -1,7 +1,6 @@
 ---
 Ability1: Gluttony
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-simipour-BookSprite.png
 BoxSprite: SRD-simipour-BoxSprite.png
 DexCategory: Geyser Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Panpour]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Torrent
 HomeSprite: SRD-simipour-HomeSprite.png
+Image: simipour.png
 Learnset: '[[SRD-Simipour-Learnset]]'
 Legendary: 'No'
-Name: Simipour
 Number: 516
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-simipour-ShuffleToken.png
-Sprite: simipour.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 290
   Kilograms: 29.0
   Pounds: 63.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning water up with its tail. It is said that if you see a Simipour Swimming in a pond, the water is safe to drink.*
 
 **DexID**:: 0516
-**Species**:: Simipour
+**Name**:: Simipour
 **Type**:: Water
 **Abilities**:: [[SRD-Gluttony|Gluttony]] ([[SRD-Torrent|Torrent]])
 **Base HP**:: 4

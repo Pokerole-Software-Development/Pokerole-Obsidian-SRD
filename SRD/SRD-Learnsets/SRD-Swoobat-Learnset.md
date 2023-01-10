@@ -1,5 +1,4 @@
 ---
-DexID: 0528
 Moves:
 - - Starter
   - '[[SRD-Confusion|Confusion]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Swoobat
-Species: '[[SRD-Swoobat|Swoobat]]'
+Pokedex: '[[SRD-Swoobat|Swoobat]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

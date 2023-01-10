@@ -1,7 +1,6 @@
 ---
 Ability1: Thick Fat
 Ability2: Ice Body
-Baby: 'No'
 BookSprite: SRD-walrein-BookSprite.png
 BoxSprite: SRD-walrein-BoxSprite.png
 DexCategory: Ice Break Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Sealeo]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Oblivious
 HomeSprite: SRD-walrein-HomeSprite.png
+Image: walrein.png
 Learnset: '[[SRD-Walrein-Learnset]]'
 Legendary: 'No'
-Name: Walrein
 Number: 365
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Field
 ShuffleToken: SRD-walrein-ShuffleToken.png
-Sprite: walrein.png
 Type1: Ice
 Type2: Water
 Weight:
-  Hectograms: 1506
   Kilograms: 150.6
   Pounds: 332.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *The leader of the herd is a powerful Walrein. They are very aggressive and will protect their herd even at the cost of their lives. Their tusks can shatter giant blocks of ice. It is relentless and unpredictable.*
 
 **DexID**:: 0365
-**Species**:: Walrein
+**Name**:: Walrein
 **Type**:: Ice / Water
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Ice Body|Ice Body]] ([[SRD-Oblivious|Oblivious]])
 **Base HP**:: 6

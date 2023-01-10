@@ -1,7 +1,6 @@
 ---
 Ability1: Effect Spore
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-amoonguss-BookSprite.png
 BoxSprite: SRD-amoonguss-BoxSprite.png
 DexCategory: Mushroom Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Foongus]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Regenerator
 HomeSprite: SRD-amoonguss-HomeSprite.png
+Image: amoonguss.png
 Learnset: '[[SRD-Amoonguss-Learnset]]'
 Legendary: 'No'
-Name: Amoonguss
 Number: 591
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-amoonguss-ShuffleToken.png
-Sprite: amoonguss.png
 Type1: Grass
 Type2: Poison
 Weight:
-  Hectograms: 105
   Kilograms: 10.5
   Pounds: 23.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *In ancient times the tip of their caps had two eye-like patterns and it made a swaying motion to lure prey to itself, but as they became Pokeball-looking few Pokemon fall for it. It is still very venomous, though.*
 
 **DexID**:: 0591
-**Species**:: Amoonguss
+**Name**:: Amoonguss
 **Type**:: Grass / Poison
 **Abilities**:: [[SRD-Effect Spore|Effect Spore]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 4

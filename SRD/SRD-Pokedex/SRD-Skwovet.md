@@ -1,7 +1,6 @@
 ---
 Ability1: Cheek Pouch
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-skwovet-BookSprite.png
 BoxSprite: SRD-skwovet-BoxSprite.png
 DexCategory: Cheeky Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Greedent]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Gluttony
 HomeSprite: SRD-skwovet-HomeSprite.png
+Image: skwovet.png
 Learnset: '[[SRD-Skwovet-Learnset]]'
 Legendary: 'No'
-Name: Skwovet
 Number: 819
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-skwovet-ShuffleToken.png
-Sprite: skwovet.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 25
   Kilograms: 2.5
   Pounds: 5.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *They love to feed on berries and nuts they store on their cheeks, they can get very anxious if its cheeks are empty. If you feed one of them they will follow you and call for others so you feed them as well.*
 
 **DexID**:: 0819
-**Species**:: Skwovet
+**Name**:: Skwovet
 **Type**:: Normal
 **Abilities**:: [[SRD-Cheek Pouch|Cheek Pouch]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 3

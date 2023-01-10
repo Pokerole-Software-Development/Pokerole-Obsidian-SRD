@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-sobble-BookSprite.png
 BoxSprite: SRD-sobble-BoxSprite.png
 DexCategory: Water Lizard Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Drizzile]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Sniper
 HomeSprite: SRD-sobble-HomeSprite.png
+Image: sobble.png
 Learnset: '[[SRD-Sobble-Learnset]]'
 Legendary: 'No'
-Name: Sobble
 Number: 816
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Field
 ShuffleToken: SRD-sobble-ShuffleToken.png
-Sprite: sobble.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 40
   Kilograms: 4.0
   Pounds: 8.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *This shy Pokemon does not like to attract too much attention. It hides in shallow pools of water.. When it feels threatened it cries and its tears pack release a chemical that will make its foes cry too.*
 
 **DexID**:: 0816
-**Species**:: Sobble
+**Name**:: Sobble
 **Type**:: Water
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Sniper|Sniper]])
 **Base HP**:: 3

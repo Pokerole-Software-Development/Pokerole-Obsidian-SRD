@@ -1,7 +1,6 @@
 ---
 Ability1: Swarm
 Ability2: Early Bird
-Baby: 'No'
 BookSprite: SRD-ledian-BookSprite.png
 BoxSprite: SRD-ledian-BoxSprite.png
 DexCategory: Five Star Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Ledyba]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Iron Fist
 HomeSprite: SRD-ledian-HomeSprite.png
+Image: ledian.png
 Learnset: '[[SRD-Ledian-Learnset]]'
 Legendary: 'No'
-Name: Ledian
 Number: 166
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-ledian-ShuffleToken.png
-Sprite: ledian.png
 Type1: Bug
 Type2: Flying
 Weight:
-  Hectograms: 356
   Kilograms: 35.6
   Pounds: 78.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *When the stars flicker in the night sky, it flutters about scattering a glowing powder. The spot patterns on its back grow larger or smaller at night depending on the number of stars in the sky.*
 
 **DexID**:: 0166
-**Species**:: Ledian
+**Name**:: Ledian
 **Type**:: Bug / Flying
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Iron Fist|Iron Fist]])
 **Base HP**:: 4

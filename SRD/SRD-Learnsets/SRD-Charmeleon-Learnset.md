@@ -1,5 +1,4 @@
 ---
-DexID: '0005'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Charmeleon
-Species: '[[SRD-Charmeleon|Charmeleon]]'
+Pokedex: '[[SRD-Charmeleon|Charmeleon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

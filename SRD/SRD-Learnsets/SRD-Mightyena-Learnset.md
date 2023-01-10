@@ -1,5 +1,4 @@
 ---
-DexID: '0262'
 Moves:
 - - Starter
   - '[[SRD-Howl|Howl]]'
@@ -58,14 +57,14 @@ Moves:
 - - Pro
   - '[[SRD-Poison Fang|Poison Fang]]'
 Name: Mightyena
-Species: '[[SRD-Mightyena|Mightyena]]'
+Pokedex: '[[SRD-Mightyena|Mightyena]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

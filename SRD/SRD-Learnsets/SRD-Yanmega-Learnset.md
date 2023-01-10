@@ -1,5 +1,4 @@
 ---
-DexID: 0469
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Yanmega
-Species: '[[SRD-Yanmega|Yanmega]]'
+Pokedex: '[[SRD-Yanmega|Yanmega]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

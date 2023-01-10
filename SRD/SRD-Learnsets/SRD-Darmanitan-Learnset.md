@@ -1,5 +1,4 @@
 ---
-DexID: '0555'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Psychic|Psychic]]'
 Name: Darmanitan
-Species: '[[SRD-Darmanitan|Darmanitan]]'
+Pokedex: '[[SRD-Darmanitan|Darmanitan]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Healer
 Ability2: Anticipation
-Baby: 'No'
 BookSprite: SRD-hatenna-BookSprite.png
 BoxSprite: SRD-hatenna-BoxSprite.png
 DexCategory: Calm Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Hattrem]]'
   Speed: Medium
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Magic Bounce
 HomeSprite: SRD-hatenna-HomeSprite.png
+Image: hatenna.png
 Learnset: '[[SRD-Hatenna-Learnset]]'
 Legendary: 'No'
-Name: Hatenna
 Number: 856
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-hatenna-ShuffleToken.png
-Sprite: hatenna.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 34
   Kilograms: 3.4
   Pounds: 7.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *Though the protrusion on its head it senses other creatures’ emotions. If you don’t have a calm disposition, it will never warm up to you. They get overwhelmed in places with many people, preferring to hide alone.*
 
 **DexID**:: 0856
-**Species**:: Hatenna
+**Name**:: Hatenna
 **Type**:: Psychic
 **Abilities**:: [[SRD-Healer|Healer]] / [[SRD-Anticipation|Anticipation]] ([[SRD-Magic Bounce|Magic Bounce]])
 **Base HP**:: 3

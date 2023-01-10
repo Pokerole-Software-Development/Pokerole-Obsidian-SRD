@@ -1,5 +1,4 @@
 ---
-DexID: 0490
 Moves:
 - - Master
   - '[[SRD-Tail Glow|Tail Glow]]'
@@ -36,14 +35,14 @@ Moves:
 - - Master
   - '[[SRD-Bounce|Bounce]]'
 Name: Manaphy
-Species: '[[SRD-Manaphy|Manaphy]]'
+Pokedex: '[[SRD-Manaphy|Manaphy]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0732'
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Brave Bird|Brave Bird]]'
 Name: Toucannon
-Species: '[[SRD-Toucannon|Toucannon]]'
+Pokedex: '[[SRD-Toucannon|Toucannon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

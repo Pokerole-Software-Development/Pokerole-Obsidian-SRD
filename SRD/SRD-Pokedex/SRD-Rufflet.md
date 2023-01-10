@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: Sheer Force
-Baby: 'No'
 BookSprite: SRD-rufflet-BookSprite.png
 BoxSprite: SRD-rufflet-BoxSprite.png
 DexCategory: Eaglet Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Braviary]]'
   Speed: Slow
 GenderType: M
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Hustle
 HomeSprite: SRD-rufflet-HomeSprite.png
+Image: rufflet.png
 Learnset: '[[SRD-Rufflet-Learnset]]'
 Legendary: 'No'
-Name: Rufflet
 Number: 627
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-rufflet-ShuffleToken.png
-Sprite: rufflet.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 105
   Kilograms: 10.5
   Pounds: 23.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *This species only has males. They are independent from the moment they hatch. They will challenge even strong opponents, without fear. Their frequent fights help them become stronger.*
 
 **DexID**:: 0627
-**Species**:: Rufflet
+**Name**:: Rufflet
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Sheer Force|Sheer Force]] ([[SRD-Hustle|Hustle]])
 **Base HP**:: 3

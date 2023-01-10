@@ -1,7 +1,6 @@
 ---
 Ability1: Oblivious
 Ability2: Tinted Lens
-Baby: 'No'
 BookSprite: SRD-illumise-BookSprite.png
 BoxSprite: SRD-illumise-BoxSprite.png
 DexCategory: Firelfy Pokemon
@@ -11,25 +10,19 @@ DexDescription: They attract swarms of Volbeat with their sweet fragrance and or
 EventAbilities: ''
 Evolutions: []
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Prankster
 HomeSprite: SRD-illumise-HomeSprite.png
+Image: illumise.png
 Learnset: '[[SRD-Illumise-Learnset]]'
 Legendary: 'No'
-Name: Illumise
 Number: 314
-PrimaryEggGroup: Bug
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-illumise-ShuffleToken.png
-Sprite: illumise.png
 Type1: Bug
 Type2: ''
 Weight:
-  Hectograms: 177
   Kilograms: 17.7
   Pounds: 39.0
 ---
@@ -49,7 +42,7 @@ Weight:
 *They attract swarms of Volbeat with their sweet fragrance and organize the swarm into drawing geometric shapes made of light. Illumises gain rank in their group if they make an amazing performance.*
 
 **DexID**:: 0314
-**Species**:: Illumise
+**Name**:: Illumise
 **Type**:: Bug
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Tinted Lens|Tinted Lens]] ([[SRD-Prankster|Prankster]])
 **Base HP**:: 4

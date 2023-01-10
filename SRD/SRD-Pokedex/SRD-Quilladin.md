@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-quilladin-BookSprite.png
 BoxSprite: SRD-quilladin-BoxSprite.png
 DexCategory: Spiny Armor Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Chesnaught]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Bulletproof
 HomeSprite: SRD-quilladin-HomeSprite.png
+Image: quilladin.png
 Learnset: '[[SRD-Quilladin-Learnset]]'
 Legendary: 'No'
-Name: Quilladin
 Number: 651
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-quilladin-ShuffleToken.png
-Sprite: quilladin.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 290
   Kilograms: 29.0
   Pounds: 63.9
 ---
@@ -57,7 +50,7 @@ Weight:
 *It strengthens its lower body by running into sturdy things. It is a kind Pokemon that relies on its sturdy shell and sharp quills to deflect any foe trying to attack it. They never start a fight.*
 
 **DexID**:: 0651
-**Species**:: Quilladin
+**Name**:: Quilladin
 **Type**:: Grass
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Bulletproof|Bulletproof]])
 **Base HP**:: 4

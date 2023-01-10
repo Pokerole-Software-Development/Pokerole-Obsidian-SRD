@@ -1,5 +1,4 @@
 ---
-DexID: 0278
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Knock Off|Knock Off]]'
 Name: Wingull
-Species: '[[SRD-Wingull|Wingull]]'
+Pokedex: '[[SRD-Wingull|Wingull]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

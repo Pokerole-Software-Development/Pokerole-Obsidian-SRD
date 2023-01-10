@@ -1,5 +1,4 @@
 ---
-DexID: '0630'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Night Slash|Night Slash]]'
 Name: Heatmor
-Species: '[[SRD-Heatmor|Heatmor]]'
+Pokedex: '[[SRD-Heatmor|Heatmor]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

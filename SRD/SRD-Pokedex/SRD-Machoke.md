@@ -1,7 +1,6 @@
 ---
 Ability1: Guts
 Ability2: No Guard
-Baby: 'No'
 BookSprite: SRD-machoke-BookSprite.png
 BoxSprite: SRD-machoke-BoxSprite.png
 DexCategory: Superpower Pokemon
@@ -18,25 +17,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Machamp]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Steadfast
 HomeSprite: SRD-machoke-HomeSprite.png
+Image: machoke.png
 Learnset: '[[SRD-Machoke-Learnset]]'
 Legendary: 'No'
-Name: Machoke
 Number: 67
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-machoke-ShuffleToken.png
-Sprite: machoke.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 705
   Kilograms: 70.5
   Pounds: 155.4
 ---
@@ -56,7 +49,7 @@ Weight:
 *Even with its strong frame and power, it is a humble and helpful Pokemon. Many of them work for human companies. On their days off you can see them heading to the wild to train together.*
 
 **DexID**:: 0067
-**Species**:: Machoke
+**Name**:: Machoke
 **Type**:: Fighting
 **Abilities**:: [[SRD-Guts|Guts]] / [[SRD-No Guard|No Guard]] ([[SRD-Steadfast|Steadfast]])
 **Base HP**:: 4

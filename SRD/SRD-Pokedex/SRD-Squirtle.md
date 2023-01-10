@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-squirtle-BookSprite.png
 BoxSprite: SRD-squirtle-BoxSprite.png
 DexCategory: Tiny turtle Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Wartortle]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Rain Dish
 HomeSprite: SRD-squirtle-HomeSprite.png
+Image: squirtle.png
 Learnset: '[[SRD-Squirtle-Learnset]]'
 Legendary: 'No'
-Name: Squirtle
 Number: 7
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Water 1
 ShuffleToken: SRD-squirtle-ShuffleToken.png
-Sprite: squirtle.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 90
   Kilograms: 9.0
   Pounds: 19.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is scarce in the wild. The shell is not just for protection - it also helps to minimize resistance in water enabling Squirtle to swim at high speeds. It’s usually a calm and easy going Pokemon.*
 
 **DexID**:: 0007
-**Species**:: Squirtle
+**Name**:: Squirtle
 **Type**:: Water
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Rain Dish|Rain Dish]])
 **Base HP**:: 3

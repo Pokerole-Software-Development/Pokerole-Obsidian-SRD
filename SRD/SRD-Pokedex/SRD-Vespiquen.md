@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-vespiquen-BookSprite.png
 BoxSprite: SRD-vespiquen-BoxSprite.png
 DexCategory: Beehive Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Pokemon: '[[SRD-Combee]]'
   Speed: Slow
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Unnerve
 HomeSprite: SRD-vespiquen-HomeSprite.png
+Image: vespiquen.png
 Learnset: '[[SRD-Vespiquen-Learnset]]'
 Legendary: 'No'
-Name: Vespiquen
 Number: 416
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-vespiquen-ShuffleToken.png
-Sprite: vespiquen.png
 Type1: Bug
 Type2: Flying
 Weight:
-  Hectograms: 385
   Kilograms: 38.5
   Pounds: 84.9
 ---
@@ -54,7 +47,7 @@ Weight:
 *This Pokemon is female only. It raises grubs in the holes in its body and secretes pheromones to control Combee to fight and gather honey for her. It is a royal Pokemon that won’t take orders from anyone.*
 
 **DexID**:: 0416
-**Species**:: Vespiquen
+**Name**:: Vespiquen
 **Type**:: Bug / Flying
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 4

@@ -1,7 +1,6 @@
 ---
 Ability1: Healer
 Ability2: Anticipation
-Baby: 'No'
 BookSprite: SRD-hattrem-BookSprite.png
 BoxSprite: SRD-hattrem-BoxSprite.png
 DexCategory: Serene Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Hatterene]]'
   Speed: Medium
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Magic Bounce
 HomeSprite: SRD-hattrem-HomeSprite.png
+Image: hattrem.png
 Learnset: '[[SRD-Hattrem-Learnset]]'
 Legendary: 'No'
-Name: Hattrem
 Number: 857
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-hattrem-ShuffleToken.png
-Sprite: hattrem.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 48
   Kilograms: 4.8
   Pounds: 10.6
 ---
@@ -57,7 +50,7 @@ Weight:
 *It may seem friendly but it is actually quite the loner. No matter who you are, if you bring strong emotions near it, it will silence you violently by hitting you with its braids. It dislikes crowded places.*
 
 **DexID**:: 0857
-**Species**:: Hattrem
+**Name**:: Hattrem
 **Type**:: Psychic
 **Abilities**:: [[SRD-Healer|Healer]] / [[SRD-Anticipation|Anticipation]] ([[SRD-Magic Bounce|Magic Bounce]])
 **Base HP**:: 4

@@ -1,5 +1,4 @@
 ---
-DexID: '0565'
 Moves:
 - - Starter
   - '[[SRD-Bide|Bide]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Head|Iron Head]]'
 Name: Carracosta
-Species: '[[SRD-Carracosta|Carracosta]]'
+Pokedex: '[[SRD-Carracosta|Carracosta]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

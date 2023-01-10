@@ -1,7 +1,6 @@
 ---
 Ability1: Run Away
 Ability2: Unburden
-Baby: 'No'
 BookSprite: SRD-thievul-BookSprite.png
 BoxSprite: SRD-thievul-BoxSprite.png
 DexCategory: Fox Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Nickit]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Stakeout
 HomeSprite: SRD-thievul-HomeSprite.png
+Image: thievul.png
 Learnset: '[[SRD-Thievul-Learnset]]'
 Legendary: 'No'
-Name: Thievul
 Number: 828
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-thievul-ShuffleToken.png
-Sprite: thievul.png
 Type1: Dark
 Type2: ''
 Weight:
-  Hectograms: 199
   Kilograms: 19.9
   Pounds: 43.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *They have long been hunted down by packs of Boltund because of all the trouble they cause in human settlements. They are experts at stealing food and Pokemon eggs, never leaving a trace behind.*
 
 **DexID**:: 0828
-**Species**:: Thievul
+**Name**:: Thievul
 **Type**:: Dark
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Unburden|Unburden]] ([[SRD-Stakeout|Stakeout]])
 **Base HP**:: 4

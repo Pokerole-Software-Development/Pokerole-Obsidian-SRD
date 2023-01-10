@@ -1,7 +1,6 @@
 ---
 Ability1: Strong Jaw
 Ability2: Shell Armor
-Baby: 'No'
 BookSprite: SRD-drednaw-BookSprite.png
 BoxSprite: SRD-drednaw-BoxSprite.png
 DexCategory: Bite Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Chewtle]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Swift Swim
 HomeSprite: SRD-drednaw-HomeSprite.png
+Image: drednaw.png
 Learnset: '[[SRD-Drednaw-Learnset]]'
 Legendary: 'No'
-Name: Drednaw
 Number: 834
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Water 1
 ShuffleToken: SRD-drednaw-ShuffleToken.png
-Sprite: drednaw.png
 Type1: Water
 Type2: Rock
 Weight:
-  Hectograms: 1155
   Kilograms: 115.5
   Pounds: 254.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *It stays immobile near rivers and lakes, disguised as a rock until it snaps at an unsuspecting prey. Once something is trapped by its sharp teeth there is no way to take it out as it is incredibly stubborn.*
 
 **DexID**:: 0834
-**Species**:: Drednaw
+**Name**:: Drednaw
 **Type**:: Water / Rock
 **Abilities**:: [[SRD-Strong Jaw|Strong Jaw]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 4

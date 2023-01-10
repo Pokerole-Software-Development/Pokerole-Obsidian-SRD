@@ -1,5 +1,4 @@
 ---
-DexID: '0104'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Detect|Detect]]'
 Name: Cubone
-Species: '[[SRD-Cubone|Cubone]]'
+Pokedex: '[[SRD-Cubone|Cubone]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

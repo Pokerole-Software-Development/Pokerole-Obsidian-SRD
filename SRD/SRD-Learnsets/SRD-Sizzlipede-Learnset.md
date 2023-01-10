@@ -1,5 +1,4 @@
 ---
-DexID: 0849
 Moves:
 - - Starter
   - '[[SRD-Ember|Ember]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Venoshock|Venoshock]]'
 Name: Sizzlipede
-Species: '[[SRD-Sizzlipede|Sizzlipede]]'
+Pokedex: '[[SRD-Sizzlipede|Sizzlipede]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

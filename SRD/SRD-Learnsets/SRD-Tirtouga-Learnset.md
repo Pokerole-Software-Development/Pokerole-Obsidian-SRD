@@ -1,5 +1,4 @@
 ---
-DexID: '0564'
 Moves:
 - - Starter
   - '[[SRD-Bide|Bide]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Body Slam|Body Slam]]'
 Name: Tirtouga
-Species: '[[SRD-Tirtouga|Tirtouga]]'
+Pokedex: '[[SRD-Tirtouga|Tirtouga]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

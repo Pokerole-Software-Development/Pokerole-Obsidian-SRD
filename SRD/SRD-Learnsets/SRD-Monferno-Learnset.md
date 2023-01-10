@@ -1,5 +1,4 @@
 ---
-DexID: 0391
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Monferno
-Species: '[[SRD-Monferno|Monferno]]'
+Pokedex: '[[SRD-Monferno|Monferno]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

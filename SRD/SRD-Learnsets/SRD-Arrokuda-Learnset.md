@@ -1,5 +1,4 @@
 ---
-DexID: 0847
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -36,14 +35,14 @@ Moves:
 - - Pro
   - '[[SRD-Ice Fang|Ice Fang]]'
 Name: Arrokuda
-Species: '[[SRD-Arrokuda|Arrokuda]]'
+Pokedex: '[[SRD-Arrokuda|Arrokuda]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0670'
 Moves:
 - - Starter
   - '[[SRD-Disarming Voice|Disarming Voice]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Magic Coat|Magic Coat]]'
 Name: Florges
-Species: '[[SRD-Florges|Florges]]'
+Pokedex: '[[SRD-Florges|Florges]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

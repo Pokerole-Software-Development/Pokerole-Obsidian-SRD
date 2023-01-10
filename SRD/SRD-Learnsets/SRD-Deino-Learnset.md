@@ -1,5 +1,4 @@
 ---
-DexID: '0632'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Fang|Fire Fang]]'
 Name: Deino
-Species: '[[SRD-Deino|Deino]]'
+Pokedex: '[[SRD-Deino|Deino]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

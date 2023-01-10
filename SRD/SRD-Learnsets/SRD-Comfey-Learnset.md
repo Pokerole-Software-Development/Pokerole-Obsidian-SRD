@@ -1,5 +1,4 @@
 ---
-DexID: '0765'
 Moves:
 - - Starter
   - '[[SRD-Helping Hand|Helping Hand]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Comfey
-Species: '[[SRD-Comfey|Comfey]]'
+Pokedex: '[[SRD-Comfey|Comfey]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

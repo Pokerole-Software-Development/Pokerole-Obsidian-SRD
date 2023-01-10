@@ -1,7 +1,6 @@
 ---
 Ability1: Shed Skin
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-silcoon-BookSprite.png
 BoxSprite: SRD-silcoon-BoxSprite.png
 DexCategory: Cocoon Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Beautifly]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: ''
 HomeSprite: SRD-silcoon-HomeSprite.png
+Image: silcoon.png
 Learnset: '[[SRD-Silcoon-Learnset]]'
 Legendary: 'No'
-Name: Silcoon
 Number: 266
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-silcoon-ShuffleToken.png
-Sprite: silcoon.png
 Type1: Bug
 Type2: ''
 Weight:
-  Hectograms: 100
   Kilograms: 10.0
   Pounds: 22.0
 ---
@@ -57,7 +50,7 @@ Weight:
 *They tether themselves to tree branches while they wait to evolve. Sometimes they peek from a small hole in the cocoon. Silcoons feed only on raindrops. If Wrumple lived among flowers, it evolves to Silcoon.*
 
 **DexID**:: 0266
-**Species**:: Silcoon
+**Name**:: Silcoon
 **Type**:: Bug
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]]
 **Base HP**:: 4

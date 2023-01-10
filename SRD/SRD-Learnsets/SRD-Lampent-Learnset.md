@@ -1,5 +1,4 @@
 ---
-DexID: '0607'
 Moves:
 - - Starter
   - '[[SRD-Ember|Ember]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Haze|Haze]]'
 Name: Lampent
-Species: '[[SRD-Lampent|Lampent]]'
+Pokedex: '[[SRD-Lampent|Lampent]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

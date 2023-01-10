@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-primarina-BookSprite.png
 BoxSprite: SRD-primarina-BoxSprite.png
 DexCategory: Soloist Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Brionne]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Liquid Voice
 HomeSprite: SRD-primarina-HomeSprite.png
+Image: primarina.png
 Learnset: '[[SRD-Primarina-Learnset]]'
 Legendary: 'No'
-Name: Primarina
 Number: 730
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Field
 ShuffleToken: SRD-primarina-ShuffleToken.png
-Sprite: primarina.png
 Type1: Water
 Type2: Fairy
 Weight:
-  Hectograms: 440
   Kilograms: 44.0
   Pounds: 97.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *All modern Primarina sing a song that has been passed down through generations. Legend says that you can hear their true song when you are in the deep of the sea. Make sure its throat doesn’t get sore.*
 
 **DexID**:: 0730
-**Species**:: Primarina
+**Name**:: Primarina
 **Type**:: Water / Fairy
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Liquid Voice|Liquid Voice]])
 **Base HP**:: 5

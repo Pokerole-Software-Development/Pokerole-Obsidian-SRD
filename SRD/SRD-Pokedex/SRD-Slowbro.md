@@ -1,7 +1,6 @@
 ---
 Ability1: Oblivious
 Ability2: Own Tempo
-Baby: 'No'
 BookSprite: SRD-slowbro-BookSprite.png
 BoxSprite: SRD-slowbro-BoxSprite.png
 DexCategory: Hermit Crab Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Slowbronite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Slowbro]]'
+  Pokemon: '[[SRD-Slowbro (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Regenerator
 HomeSprite: SRD-slowbro-HomeSprite.png
+Image: slowbro.png
 Learnset: '[[SRD-Slowbro-Learnset]]'
 Legendary: 'No'
-Name: Slowbro
 Number: 80
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Water 1
 ShuffleToken: SRD-slowbro-ShuffleToken.png
-Sprite: slowbro.png
 Type1: Water
 Type2: Psychic
 Weight:
-  Hectograms: 785
   Kilograms: 78.5
   Pounds: 173.1
 ---
@@ -57,7 +50,7 @@ Weight:
 *This Pokemon fused with a Shellder that bit into its tail. It’s a slow swimmer and doesn’t react to pain but Shellder tends to keep it out of trouble.*
 
 **DexID**:: 0080
-**Species**:: Slowbro
+**Name**:: Slowbro
 **Type**:: Water / Psychic
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 5
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon              | Kind   | Speed   | Item        |
-|:----------|:---------------------|:-------|:--------|:------------|
-| From      | [[SRD-Slowpoke]]     | Level  | Slow    |             |
-| To        | [[SRD-Mega-Slowbro]] | Mega   |         | Slowbronite |
+| Evolves   | Pokemon                     | Kind   | Speed   | Item        |
+|:----------|:----------------------------|:-------|:--------|:------------|
+| From      | [[SRD-Slowpoke]]            | Level  | Slow    |             |
+| To        | [[SRD-Slowbro (Mega Form)]] | Mega   |         | Slowbronite |
 
 ![[SRD-Slowbro-Learnset]]

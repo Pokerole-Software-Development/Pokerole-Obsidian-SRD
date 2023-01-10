@@ -1,5 +1,4 @@
 ---
-DexID: 0088
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Scary Face|Scary Face]]'
 Name: Grimer
-Species: '[[SRD-Grimer|Grimer]]'
+Pokedex: '[[SRD-Grimer|Grimer]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Battle Armor
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-armaldo-BookSprite.png
 BoxSprite: SRD-armaldo-BoxSprite.png
 DexCategory: Plate Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Anorith]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Swift Swim
 HomeSprite: SRD-armaldo-HomeSprite.png
+Image: armaldo.png
 Learnset: '[[SRD-Armaldo-Learnset]]'
 Legendary: 'No'
-Name: Armaldo
 Number: 348
-PrimaryEggGroup: Water 3
-SecondaryEggGroup: ''
 ShuffleToken: SRD-armaldo-ShuffleToken.png
-Sprite: armaldo.png
 Type1: Rock
 Type2: Bug
 Weight:
-  Hectograms: 682
   Kilograms: 68.2
   Pounds: 150.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *When the waters receded, this Pokemon was forced to evolve to live on land. Evidence suggests that its claws could extend to reach the prey that was far or underwater. Its tough shell made it very resilient.*
 
 **DexID**:: 0348
-**Species**:: Armaldo
+**Name**:: Armaldo
 **Type**:: Rock / Bug
 **Abilities**:: [[SRD-Battle Armor|Battle Armor]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 4

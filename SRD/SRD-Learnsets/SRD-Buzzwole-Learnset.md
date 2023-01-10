@@ -1,5 +1,4 @@
 ---
-DexID: 0793
 Moves:
 - - Master
   - '[[SRD-Fell Stinger|Fell Stinger]]'
@@ -48,14 +47,14 @@ Moves:
 - - Master
   - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
 Name: Buzzwole
-Species: '[[SRD-Buzzwole|Buzzwole]]'
+Pokedex: '[[SRD-Buzzwole|Buzzwole]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

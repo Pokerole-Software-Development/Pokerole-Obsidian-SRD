@@ -1,5 +1,4 @@
 ---
-DexID: '0461'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Low Kick|Low Kick]]'
 Name: Weavile
-Species: '[[SRD-Weavile|Weavile]]'
+Pokedex: '[[SRD-Weavile|Weavile]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

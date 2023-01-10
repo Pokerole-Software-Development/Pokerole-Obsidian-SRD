@@ -1,5 +1,4 @@
 ---
-DexID: 0509
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Pay Day|Pay Day]]'
 Name: Purrloin
-Species: '[[SRD-Purrloin|Purrloin]]'
+Pokedex: '[[SRD-Purrloin|Purrloin]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

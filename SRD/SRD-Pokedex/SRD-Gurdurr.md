@@ -1,7 +1,6 @@
 ---
 Ability1: Guts
 Ability2: Sheer Force
-Baby: 'No'
 BookSprite: SRD-gurdurr-BookSprite.png
 BoxSprite: SRD-gurdurr-BoxSprite.png
 DexCategory: Muscular Pokemon
@@ -18,25 +17,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Conkeldurr]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Iron Fist
 HomeSprite: SRD-gurdurr-HomeSprite.png
+Image: gurdurr.png
 Learnset: '[[SRD-Gurdurr-Learnset]]'
 Legendary: 'No'
-Name: Gurdurr
 Number: 533
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-gurdurr-ShuffleToken.png
-Sprite: gurdurr.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 400
   Kilograms: 40.0
   Pounds: 88.2
 ---
@@ -56,7 +49,7 @@ Weight:
 *This Pokemon is very muscular and strongly built. It likes to show off it’s strength and muscles. Some years back a famous wrestler got defeated in just a few seconds by one of these Pokemon.*
 
 **DexID**:: 0533
-**Species**:: Gurdurr
+**Name**:: Gurdurr
 **Type**:: Fighting
 **Abilities**:: [[SRD-Guts|Guts]] / [[SRD-Sheer Force|Sheer Force]] ([[SRD-Iron Fist|Iron Fist]])
 **Base HP**:: 4

@@ -1,7 +1,6 @@
 ---
 Ability1: Inner Focus
 Ability2: Early Bird
-Baby: 'No'
 BookSprite: SRD-girafarig-BookSprite.png
 BoxSprite: SRD-girafarig-BoxSprite.png
 DexCategory: Long Neck Pokemon
@@ -11,25 +10,19 @@ DexDescription: "Its tail is a head on its own, it bites if anything comes close
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-girafarig-HomeSprite.png
+Image: girafarig.png
 Learnset: '[[SRD-Girafarig-Learnset]]'
 Legendary: 'No'
-Name: Girafarig
 Number: 203
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-girafarig-ShuffleToken.png
-Sprite: girafarig.png
 Type1: Normal
 Type2: Psychic
 Weight:
-  Hectograms: 415
   Kilograms: 41.5
   Pounds: 91.5
 ---
@@ -49,7 +42,7 @@ Weight:
 *Its tail is a head on its own, it bites if anything comes close and never rests. Some say that the sum of its two heads grant it psychic powers. Even if that’s true, the tail isn’t very bright, but it is quite vicious.*
 
 **DexID**:: 0203
-**Species**:: Girafarig
+**Name**:: Girafarig
 **Type**:: Normal / Psychic
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Sap Sipper|Sap Sipper]])
 **Base HP**:: 4

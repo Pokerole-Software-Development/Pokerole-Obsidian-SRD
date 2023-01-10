@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-torterra-BookSprite.png
 BoxSprite: SRD-torterra-BoxSprite.png
 DexCategory: Continent Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Grotle]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 22
   Feet: 7.2
   Meters: 2.2
 HiddenAbility: Shell Armor
 HomeSprite: SRD-torterra-HomeSprite.png
+Image: torterra.png
 Learnset: '[[SRD-Torterra-Learnset]]'
 Legendary: 'No'
-Name: Torterra
 Number: 389
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-torterra-ShuffleToken.png
-Sprite: torterra.png
 Type1: Grass
 Type2: Ground
 Weight:
-  Hectograms: 3100
   Kilograms: 310.0
   Pounds: 683.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *Torterras travel in groups, mistaken as moving forests. Many pokemon make their nest on its back and live there for their entire lives. Ancient people thought that they lived on the back of a giant Torterra.*
 
 **DexID**:: 0389
-**Species**:: Torterra
+**Name**:: Torterra
 **Type**:: Grass / Ground
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Shell Armor|Shell Armor]])
 **Base HP**:: 5

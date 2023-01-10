@@ -1,7 +1,6 @@
 ---
 Ability1: Static
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-pikachu-BookSprite.png
 BoxSprite: SRD-pikachu-BoxSprite.png
 DexCategory: Mouse Pokemon
@@ -22,28 +21,22 @@ Evolutions:
 - Evolves: To
   Item: Thunder Stone
   Kind: Stone
-  Pokemon: '[[SRD-Alolan Raichu]]'
+  Pokemon: '[[SRD-Raichu (Alolan Form)]]'
   Region: Alola
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-pikachu-HomeSprite.png
+Image: pikachu.png
 Learnset: '[[SRD-Pikachu-Learnset]]'
 Legendary: 'No'
-Name: Pikachu
 Number: 25
-PrimaryEggGroup: Field
-SecondaryEggGroup: Fairy
 ShuffleToken: SRD-pikachu-ShuffleToken.png
-Sprite: pikachu.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 60
   Kilograms: 6.0
   Pounds: 13.2
 ---
@@ -63,7 +56,7 @@ Weight:
 *Lives in small groups in forests but they tend to stay hidden. It stores electricity in the electric sacs on its cheeks and uses its tail to ground the excess charge. They can be stubborn and wary of strangers.*
 
 **DexID**:: 0025
-**Species**:: Pikachu
+**Name**:: Pikachu
 **Type**:: Electric
 **Abilities**:: [[SRD-Static|Static]] ([[SRD-Lightning Rod|Lightning Rod]])
 **Base HP**:: 4
@@ -81,10 +74,10 @@ Weight:
 **Good Starter**:: Yes
 **Recommended Rank**:: Beginner
 
-| Evolves   | Pokemon               | Kind   | Stat      | Value   | Item          | Region   |
-|:----------|:----------------------|:-------|:----------|:--------|:--------------|:---------|
-| From      | [[SRD-Pichu]]         | Stat   | Happiness | 4.0     |               |          |
-| To        | [[SRD-Raichu]]        | Stone  |           |         | Thunder Stone |          |
-| To        | [[SRD-Alolan Raichu]] | Stone  |           |         | Thunder Stone | Alola    |
+| Evolves   | Pokemon                      | Kind   | Stat      | Value   | Item          | Region   |
+|:----------|:-----------------------------|:-------|:----------|:--------|:--------------|:---------|
+| From      | [[SRD-Pichu]]                | Stat   | Happiness | 4.0     |               |          |
+| To        | [[SRD-Raichu]]               | Stone  |           |         | Thunder Stone |          |
+| To        | [[SRD-Raichu (Alolan Form)]] | Stone  |           |         | Thunder Stone | Alola    |
 
 ![[SRD-Pikachu-Learnset]]

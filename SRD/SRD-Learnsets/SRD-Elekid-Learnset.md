@@ -1,5 +1,4 @@
 ---
-DexID: 0239
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Uproar|Uproar]]'
 Name: Elekid
-Species: '[[SRD-Elekid|Elekid]]'
+Pokedex: '[[SRD-Elekid|Elekid]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

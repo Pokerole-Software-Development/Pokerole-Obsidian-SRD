@@ -1,5 +1,4 @@
 ---
-DexID: '0105'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Detect|Detect]]'
 Name: Marowak
-Species: '[[SRD-Marowak|Marowak]]'
+Pokedex: '[[SRD-Marowak|Marowak]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-gorebyss-BookSprite.png
 BoxSprite: SRD-gorebyss-BoxSprite.png
 DexCategory: South Sea Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Clamperl]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Hydration
 HomeSprite: SRD-gorebyss-HomeSprite.png
+Image: gorebyss.png
 Learnset: '[[SRD-Gorebyss-Learnset]]'
 Legendary: 'No'
-Name: Gorebyss
 Number: 368
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: ''
 ShuffleToken: SRD-gorebyss-ShuffleToken.png
-Sprite: gorebyss.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 226
   Kilograms: 22.6
   Pounds: 49.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Found in the depths of the southern seas. Their body is built to withstand the sea pressure. While it appears to be beautiful and harmless, it is a cruel and deceitful creature.*
 
 **DexID**:: 0368
-**Species**:: Gorebyss
+**Name**:: Gorebyss
 **Type**:: Water
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] ([[SRD-Hydration|Hydration]])
 **Base HP**:: 4

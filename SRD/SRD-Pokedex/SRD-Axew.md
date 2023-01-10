@@ -1,7 +1,6 @@
 ---
 Ability1: Rivalry
 Ability2: Mold Breaker
-Baby: 'No'
 BookSprite: SRD-axew-BookSprite.png
 BoxSprite: SRD-axew-BoxSprite.png
 DexCategory: Tusk Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Fraxure]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Unnerve
 HomeSprite: SRD-axew-HomeSprite.png
+Image: axew.png
 Learnset: '[[SRD-Axew-Learnset]]'
 Legendary: 'No'
-Name: Axew
 Number: 610
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-axew-ShuffleToken.png
-Sprite: axew.png
 Type1: Dragon
 Type2: ''
 Weight:
-  Hectograms: 180
   Kilograms: 18.0
   Pounds: 39.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows back quickly. They fight each other to see who’s got the sharpest tusks. Only the strongest ever evolve.*
 
 **DexID**:: 0610
-**Species**:: Axew
+**Name**:: Axew
 **Type**:: Dragon
 **Abilities**:: [[SRD-Rivalry|Rivalry]] / [[SRD-Mold Breaker|Mold Breaker]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 3

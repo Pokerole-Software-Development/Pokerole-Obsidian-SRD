@@ -1,5 +1,4 @@
 ---
-DexID: '0417'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Pachirisu
-Species: '[[SRD-Pachirisu|Pachirisu]]'
+Pokedex: '[[SRD-Pachirisu|Pachirisu]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

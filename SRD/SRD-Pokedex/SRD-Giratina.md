@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-giratina-BookSprite.png
 BoxSprite: SRD-giratina-BoxSprite.png
 DexCategory: Plot Device
@@ -10,27 +9,21 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Origin Giratina]]'
+  Pokemon: '[[SRD-Giratina (Origin Form)]]'
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 45
   Feet: 14.8
   Meters: 4.5
 HiddenAbility: Telepathy
 HomeSprite: SRD-giratina-HomeSprite.png
+Image: giratina.png
 Learnset: '[[SRD-Giratina-Learnset]]'
 Legendary: 'Yes'
-Name: Giratina
 Number: 487
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-giratina-ShuffleToken.png
-Sprite: giratina.png
 Type1: Ghost
 Type2: Dragon
 Weight:
-  Hectograms: 7500
   Kilograms: 750.0
   Pounds: 1653.5
 ---
@@ -50,7 +43,7 @@ Weight:
 *Plot Device*
 
 **DexID**:: 0487
-**Species**:: Giratina
+**Name**:: Giratina
 **Type**:: Ghost / Dragon
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 8
@@ -68,8 +61,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-| Evolves   | Pokemon                 | Kind   |
-|:----------|:------------------------|:-------|
-| To        | [[SRD-Origin Giratina]] | Form   |
+| Evolves   | Pokemon                        | Kind   |
+|:----------|:-------------------------------|:-------|
+| To        | [[SRD-Giratina (Origin Form)]] | Form   |
 
 ![[SRD-Giratina-Learnset]]

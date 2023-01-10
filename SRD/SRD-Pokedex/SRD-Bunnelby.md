@@ -1,7 +1,6 @@
 ---
 Ability1: Pickup
 Ability2: Cheek Pouch
-Baby: 'No'
 BookSprite: SRD-bunnelby-BookSprite.png
 BoxSprite: SRD-bunnelby-BoxSprite.png
 DexCategory: Digging Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Diggersby]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Huge Power
 HomeSprite: SRD-bunnelby-HomeSprite.png
+Image: bunnelby.png
 Learnset: '[[SRD-Bunnelby-Learnset]]'
 Legendary: 'No'
-Name: Bunnelby
 Number: 659
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-bunnelby-ShuffleToken.png
-Sprite: bunnelby.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 50
   Kilograms: 5.0
   Pounds: 11.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *It uses its ears as shovels, digging holes strengthens them so much that they can sever thick roots easily. They reproduce quickly and a handful of them can ravage a field of vegetables in just a few hours.*
 
 **DexID**:: 0659
-**Species**:: Bunnelby
+**Name**:: Bunnelby
 **Type**:: Normal
 **Abilities**:: [[SRD-Pickup|Pickup]] / [[SRD-Cheek Pouch|Cheek Pouch]] ([[SRD-Huge Power|Huge Power]])
 **Base HP**:: 3

@@ -1,5 +1,4 @@
 ---
-DexID: 0698
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Tyrantrum
-Species: '[[SRD-Tyrantrum|Tyrantrum]]'
+Pokedex: '[[SRD-Tyrantrum|Tyrantrum]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

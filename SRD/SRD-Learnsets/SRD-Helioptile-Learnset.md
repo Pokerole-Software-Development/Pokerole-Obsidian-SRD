@@ -1,5 +1,4 @@
 ---
-DexID: 0693
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Magnet Rise|Magnet Rise]]'
 Name: Helioptile
-Species: '[[SRD-Helioptile|Helioptile]]'
+Pokedex: '[[SRD-Helioptile|Helioptile]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Hydration
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-manaphy-BookSprite.png
 BoxSprite: SRD-manaphy-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: It is said that after the war for land and sea was over, a tiny 
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-manaphy-HomeSprite.png
+Image: manaphy.png
 Learnset: '[[SRD-Manaphy-Learnset]]'
 Legendary: 'Yes'
-Name: Manaphy
 Number: 490
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Fairy
 ShuffleToken: SRD-manaphy-ShuffleToken.png
-Sprite: manaphy.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 14
   Kilograms: 1.4
   Pounds: 3.1
 ---
@@ -49,7 +42,7 @@ Weight:
 *It is said that after the war for land and sea was over, a tiny Pokemon was born from the bottom of the ocean to bond with all the creatures as a sign of peace.*
 
 **DexID**:: 0490
-**Species**:: Manaphy
+**Name**:: Manaphy
 **Type**:: Water
 **Abilities**:: [[SRD-Hydration|Hydration]]
 **Base HP**:: 5

@@ -1,7 +1,6 @@
 ---
 Ability1: Unaware
 Ability2: Klutz
-Baby: 'No'
 BookSprite: SRD-woobat-BookSprite.png
 BoxSprite: SRD-woobat-BoxSprite.png
 DexCategory: Bat Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Happiness
   Value: 4
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Simple
 HomeSprite: SRD-woobat-HomeSprite.png
+Image: woobat.png
 Learnset: '[[SRD-Woobat-Learnset]]'
 Legendary: 'No'
-Name: Woobat
 Number: 527
-PrimaryEggGroup: Flying
-SecondaryEggGroup: Field
 ShuffleToken: SRD-woobat-ShuffleToken.png
-Sprite: woobat.png
 Type1: Psychic
 Type2: Flying
 Weight:
-  Hectograms: 21
   Kilograms: 2.1
   Pounds: 4.6
 ---
@@ -54,7 +47,7 @@ Weight:
 *It lives in dark forests and caves. Emits ultrasonic waves from its nose it learns about its surroundings. The two small eyes it has get covered by its own fur. It clings to trees and cave walls to sleep at night.*
 
 **DexID**:: 0527
-**Species**:: Woobat
+**Name**:: Woobat
 **Type**:: Psychic / Flying
 **Abilities**:: [[SRD-Unaware|Unaware]] / [[SRD-Klutz|Klutz]] ([[SRD-Simple|Simple]])
 **Base HP**:: 3

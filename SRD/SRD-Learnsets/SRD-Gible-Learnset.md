@@ -1,5 +1,4 @@
 ---
-DexID: '0443'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -36,14 +35,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Head|Iron Head]]'
 Name: Gible
-Species: '[[SRD-Gible|Gible]]'
+Pokedex: '[[SRD-Gible|Gible]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

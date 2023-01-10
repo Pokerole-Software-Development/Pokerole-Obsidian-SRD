@@ -1,5 +1,4 @@
 ---
-DexID: 0268
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -12,14 +11,14 @@ Moves:
 - - Pro
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Cascoon
-Species: '[[SRD-Cascoon|Cascoon]]'
+Pokedex: '[[SRD-Cascoon|Cascoon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

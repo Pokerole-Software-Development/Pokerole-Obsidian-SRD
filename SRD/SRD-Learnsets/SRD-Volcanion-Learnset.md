@@ -1,5 +1,4 @@
 ---
-DexID: 0720M1
 Moves:
 - - Master
   - '[[SRD-Flare Blitz|Flare Blitz]]'
@@ -36,14 +35,14 @@ Moves:
 - - Master
   - '[[SRD-Superpower|Superpower]]'
 Name: Volcanion
-Species: '[[SRD-Volcanion|Volcanion]]'
+Pokedex: '[[SRD-Volcanion|Volcanion]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0566'
 Moves:
 - - Starter
   - '[[SRD-Quick Attack|Quick Attack]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Knock Off|Knock Off]]'
 Name: Archen
-Species: '[[SRD-Archen|Archen]]'
+Pokedex: '[[SRD-Archen|Archen]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

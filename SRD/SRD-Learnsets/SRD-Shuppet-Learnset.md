@@ -1,5 +1,4 @@
 ---
-DexID: '0353'
 Moves:
 - - Starter
   - '[[SRD-Knock Off|Knock Off]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Destiny Bond|Destiny Bond]]'
 Name: Shuppet
-Species: '[[SRD-Shuppet|Shuppet]]'
+Pokedex: '[[SRD-Shuppet|Shuppet]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

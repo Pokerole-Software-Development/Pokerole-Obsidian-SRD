@@ -1,5 +1,4 @@
 ---
-DexID: '0604'
 Moves:
 - - Starter
   - '[[SRD-Spark|Spark]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Tail|Iron Tail]]'
 Name: Eelektrik
-Species: '[[SRD-Eelektrik|Eelektrik]]'
+Pokedex: '[[SRD-Eelektrik|Eelektrik]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

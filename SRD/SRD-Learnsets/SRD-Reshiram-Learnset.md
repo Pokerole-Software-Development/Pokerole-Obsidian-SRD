@@ -1,5 +1,4 @@
 ---
-DexID: 0642F1
 Moves:
 - - Master
   - '[[SRD-Dragon Rage|Dragon Rage]]'
@@ -42,14 +41,14 @@ Moves:
 - - Master
   - '[[SRD-Topsy-Turvy|Topsy-Turvy]]'
 Name: Reshiram
-Species: '[[SRD-Reshiram|Reshiram]]'
+Pokedex: '[[SRD-Reshiram|Reshiram]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

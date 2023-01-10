@@ -1,7 +1,6 @@
 ---
 Ability1: Rock Head
 Ability2: Lightning Rod
-Baby: 'No'
 BookSprite: SRD-marowak-BookSprite.png
 BoxSprite: SRD-marowak-BoxSprite.png
 DexCategory: Bone Keeper Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Cubone]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Battle Armor
 HomeSprite: SRD-marowak-HomeSprite.png
+Image: marowak.png
 Learnset: '[[SRD-Marowak-Learnset]]'
 Legendary: 'No'
-Name: Marowak
 Number: 105
-PrimaryEggGroup: Monster
-SecondaryEggGroup: ''
 ShuffleToken: SRD-marowak-ShuffleToken.png
-Sprite: marowak.png
 Type1: Ground
 Type2: ''
 Weight:
-  Hectograms: 450
   Kilograms: 45.0
   Pounds: 99.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *Its rough past has hardened its heart. Now tenacious and violent, this Pokemon will use its Bone club as a weapon against foes. Marowak's den is usually full of the bones it has collected.*
 
 **DexID**:: 0105
-**Species**:: Marowak
+**Name**:: Marowak
 **Type**:: Ground
 **Abilities**:: [[SRD-Rock Head|Rock Head]] / [[SRD-Lightning Rod|Lightning Rod]] ([[SRD-Battle Armor|Battle Armor]])
 **Base HP**:: 4

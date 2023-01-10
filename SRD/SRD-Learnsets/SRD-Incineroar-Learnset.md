@@ -1,5 +1,4 @@
 ---
-DexID: '0726'
 Moves:
 - - Starter
   - '[[SRD-Ember|Ember]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Blast Burn|Blast Burn]]'
 Name: Incineroar
-Species: '[[SRD-Incineroar|Incineroar]]'
+Pokedex: '[[SRD-Incineroar|Incineroar]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

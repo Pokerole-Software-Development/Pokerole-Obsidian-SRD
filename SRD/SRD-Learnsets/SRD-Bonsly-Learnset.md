@@ -1,5 +1,4 @@
 ---
-DexID: 0438
 Moves:
 - - Starter
   - '[[SRD-Fake Tears|Fake Tears]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Foul Play|Foul Play]]'
 Name: Bonsly
-Species: '[[SRD-Bonsly|Bonsly]]'
+Pokedex: '[[SRD-Bonsly|Bonsly]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

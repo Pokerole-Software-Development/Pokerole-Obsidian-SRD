@@ -1,5 +1,4 @@
 ---
-DexID: '0360'
 Moves:
 - - Starter
   - '[[SRD-Charm|Charm]]'
@@ -18,14 +17,14 @@ Moves:
 - - Amateur
   - '[[SRD-Safeguard|Safeguard]]'
 Name: Wynaut
-Species: '[[SRD-Wynaut|Wynaut]]'
+Pokedex: '[[SRD-Wynaut|Wynaut]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

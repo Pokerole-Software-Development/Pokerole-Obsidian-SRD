@@ -1,5 +1,4 @@
 ---
-DexID: '0101'
 Moves:
 - - Starter
   - '[[SRD-Charge|Charge]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Electrode
-Species: '[[SRD-Electrode|Electrode]]'
+Pokedex: '[[SRD-Electrode|Electrode]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

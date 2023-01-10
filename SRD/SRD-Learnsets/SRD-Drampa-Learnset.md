@@ -1,5 +1,4 @@
 ---
-DexID: 0779
 Moves:
 - - Starter
   - '[[SRD-Play Nice|Play Nice]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Hurricane|Hurricane]]'
 Name: Drampa
-Species: '[[SRD-Drampa|Drampa]]'
+Pokedex: '[[SRD-Drampa|Drampa]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

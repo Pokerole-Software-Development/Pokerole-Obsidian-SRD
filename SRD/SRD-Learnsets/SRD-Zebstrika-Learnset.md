@@ -1,5 +1,4 @@
 ---
-DexID: '0523'
 Moves:
 - - Starter
   - '[[SRD-Quick Attack|Quick Attack]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Screech|Screech]]'
 Name: Zebstrika
-Species: '[[SRD-Zebstrika|Zebstrika]]'
+Pokedex: '[[SRD-Zebstrika|Zebstrika]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

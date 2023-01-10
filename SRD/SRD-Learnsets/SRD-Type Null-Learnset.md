@@ -1,5 +1,4 @@
 ---
-DexID: '0773'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Heal Block|Heal Block]]'
 Name: Type Null
-Species: '[[SRD-Type Null|Type Null]]'
+Pokedex: '[[SRD-Type Null|Type Null]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

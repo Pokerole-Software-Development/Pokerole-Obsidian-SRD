@@ -1,9 +1,8 @@
 ---
 Ability1: Aura Break
 Ability2: Power Construct
-Baby: 'No'
-BookSprite: SRD-zygarde-10-BookSprite.png
-BoxSprite: SRD-zygarde-10-BoxSprite.png
+BookSprite: SRD-zygarde-10%-BookSprite.png
+BoxSprite: SRD-zygarde-10%-BoxSprite.png
 DexCategory: No Data
 DexDescription: When 10% of the Zygarde Cells gather, they form this Pokemon, the
   more cells it gathers the more its strength will increase.
@@ -14,25 +13,19 @@ Evolutions:
   Kind: Special
   Pokemon: '[[SRD-Zygarde Cell]]'
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: ''
-HomeSprite: SRD-zygarde-10-HomeSprite.png
+HomeSprite: SRD-zygarde-10%-HomeSprite.png
+Image: zygarde-10%.png
 Learnset: '[[SRD-Zygarde 10%-Learnset]]'
 Legendary: 'Yes'
-Name: Zygarde 10%
 Number: 718
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
-ShuffleToken: SRD-zygarde-10-ShuffleToken.png
-Sprite: zygarde-10.png
+ShuffleToken: SRD-zygarde-10%-ShuffleToken.png
 Type1: Dragon
 Type2: Ground
 Weight:
-  Hectograms: 335
   Kilograms: 33.5
   Pounds: 73.9
 ---
@@ -42,17 +35,17 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-zygarde-10-BookSprite.png|wsmall]]
-> ![[SRD-zygarde-10-HomeSprite.png]]
-> ![[SRD-zygarde-10-BoxSprite.png|htiny]]
-> ![[SRD-zygarde-10-ShuffleToken.png|wsmall]]
+> ![[SRD-zygarde-10%-BookSprite.png|wsmall]]
+> ![[SRD-zygarde-10%-HomeSprite.png]]
+> ![[SRD-zygarde-10%-BoxSprite.png|htiny]]
+> ![[SRD-zygarde-10%-ShuffleToken.png|wsmall]]
 
 
 *No Data*
 *When 10% of the Zygarde Cells gather, they form this Pokemon, the more cells it gathers the more its strength will increase.*
 
 **DexID**:: 0718F1
-**Species**:: Zygarde 10%
+**Name**:: Zygarde 10%
 **Type**:: Dragon / Ground
 **Abilities**:: [[SRD-Aura Break|Aura Break]] / [[SRD-Power Construct|Power Construct]]
 **Base HP**:: 4

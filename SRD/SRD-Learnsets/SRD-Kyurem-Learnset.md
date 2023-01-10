@@ -1,5 +1,4 @@
 ---
-DexID: 0645F1
 Moves:
 - - Master
   - '[[SRD-Icy Wind|Icy Wind]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Power Split|Power Split]]'
 Name: Kyurem
-Species: '[[SRD-Kyurem|Kyurem]]'
+Pokedex: '[[SRD-Kyurem|Kyurem]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

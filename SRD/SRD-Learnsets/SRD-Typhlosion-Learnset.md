@@ -1,5 +1,4 @@
 ---
-DexID: '0157'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Thunder Punch|Thunder Punch]]'
 Name: Typhlosion
-Species: '[[SRD-Typhlosion|Typhlosion]]'
+Pokedex: '[[SRD-Typhlosion|Typhlosion]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

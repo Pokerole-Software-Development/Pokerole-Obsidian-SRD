@@ -1,7 +1,6 @@
 ---
 Ability1: Technician
 Ability2: Pickup
-Baby: 'No'
 BookSprite: SRD-ambipom-BookSprite.png
 BoxSprite: SRD-ambipom-BoxSprite.png
 DexCategory: Long Tail Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Aipom]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Skill Link
 HomeSprite: SRD-ambipom-HomeSprite.png
+Image: ambipom.png
 Learnset: '[[SRD-Ambipom-Learnset]]'
 Legendary: 'No'
-Name: Ambipom
 Number: 424
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-ambipom-ShuffleToken.png
-Sprite: ambipom.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 203
   Kilograms: 20.3
   Pounds: 44.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *They live in large colonies on the tallest trees, linking their tails to show friendship among herd mates. It loves fresh fruit. Ambipom uses its two tails better than its own arms to swing around.*
 
 **DexID**:: 0424
-**Species**:: Ambipom
+**Name**:: Ambipom
 **Type**:: Normal
 **Abilities**:: [[SRD-Technician|Technician]] / [[SRD-Pickup|Pickup]] ([[SRD-Skill Link|Skill Link]])
 **Base HP**:: 4

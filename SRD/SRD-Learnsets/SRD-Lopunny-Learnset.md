@@ -1,5 +1,4 @@
 ---
-DexID: 0428
 Moves:
 - - Starter
   - '[[SRD-Defense Curl|Defense Curl]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Fake Out|Fake Out]]'
 Name: Lopunny
-Species: '[[SRD-Lopunny|Lopunny]]'
+Pokedex: '[[SRD-Lopunny|Lopunny]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

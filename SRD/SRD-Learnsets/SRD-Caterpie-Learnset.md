@@ -1,5 +1,4 @@
 ---
-DexID: '0010'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -14,14 +13,14 @@ Moves:
 - - Amateur
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Caterpie
-Species: '[[SRD-Caterpie|Caterpie]]'
+Pokedex: '[[SRD-Caterpie|Caterpie]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

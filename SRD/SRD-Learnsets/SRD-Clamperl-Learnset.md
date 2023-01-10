@@ -1,5 +1,4 @@
 ---
-DexID: '0366'
 Moves:
 - - Starter
   - '[[SRD-Clamp|Clamp]]'
@@ -26,14 +25,14 @@ Moves:
 - - Pro
   - '[[SRD-Mud Sport|Mud Sport]]'
 Name: Clamperl
-Species: '[[SRD-Clamperl|Clamperl]]'
+Pokedex: '[[SRD-Clamperl|Clamperl]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Magnet Pull
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-meltan-BookSprite.png
 BoxSprite: SRD-meltan-BoxSprite.png
 DexCategory: Hex Nut Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Melmetal]]'
   Speed: Unknown
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: ''
 HomeSprite: SRD-meltan-HomeSprite.png
+Image: meltan.png
 Learnset: '[[SRD-Meltan-Learnset]]'
 Legendary: 'No'
-Name: Meltan
 Number: 808
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-meltan-ShuffleToken.png
-Sprite: meltan.png
 Type1: Steel
 Type2: ''
 Weight:
-  Hectograms: 80
   Kilograms: 8.0
   Pounds: 17.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are elusive as they can liquefy their body to move through small spaces. They live in groups, but when the time comes, one strong Meltan will absorb all the others and evolve.*
 
 **DexID**:: 0808
-**Species**:: Meltan
+**Name**:: Meltan
 **Type**:: Steel
 **Abilities**:: [[SRD-Magnet Pull|Magnet Pull]]
 **Base HP**:: 3

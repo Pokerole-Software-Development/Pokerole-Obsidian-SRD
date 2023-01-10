@@ -1,5 +1,4 @@
 ---
-DexID: '0640'
 Moves:
 - - Master
   - '[[SRD-Uproar|Uproar]]'
@@ -40,14 +39,14 @@ Moves:
 - - Master
   - '[[SRD-Defog|Defog]]'
 Name: Tornadus
-Species: '[[SRD-Tornadus|Tornadus]]'
+Pokedex: '[[SRD-Tornadus|Tornadus]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

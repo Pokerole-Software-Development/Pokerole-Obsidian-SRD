@@ -1,7 +1,6 @@
 ---
 Ability1: Magnet Pull
 Ability2: Sturdy
-Baby: 'No'
 BookSprite: SRD-magneton-BookSprite.png
 BoxSprite: SRD-magneton-BoxSprite.png
 DexCategory: Magnet Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Magnezone]]'
   Speed: Slow
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Analytic
 HomeSprite: SRD-magneton-HomeSprite.png
+Image: magneton.png
 Learnset: '[[SRD-Magneton-Learnset]]'
 Legendary: 'No'
-Name: Magneton
 Number: 82
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-magneton-ShuffleToken.png
-Sprite: magneton.png
 Type1: Electric
 Type2: Steel
 Weight:
-  Hectograms: 600
   Kilograms: 60.0
   Pounds: 132.3
 ---
@@ -57,7 +50,7 @@ Weight:
 *Sometimes three Magnemites fuse into this Pokemon; other times a single one sprouts two others. This species is greatly affected by magnetic fields. Magnetons are eager to please their trainers.*
 
 **DexID**:: 0082
-**Species**:: Magneton
+**Name**:: Magneton
 **Type**:: Electric / Steel
 **Abilities**:: [[SRD-Magnet Pull|Magnet Pull]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 4

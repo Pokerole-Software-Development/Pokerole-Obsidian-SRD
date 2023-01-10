@@ -1,5 +1,4 @@
 ---
-DexID: '0071'
 Moves:
 - - Starter
   - '[[SRD-Vine Whip|Vine Whip]]'
@@ -36,14 +35,14 @@ Moves:
 - - Pro
   - '[[SRD-Synthesis|Synthesis]]'
 Name: Victreebel
-Species: '[[SRD-Victreebel|Victreebel]]'
+Pokedex: '[[SRD-Victreebel|Victreebel]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

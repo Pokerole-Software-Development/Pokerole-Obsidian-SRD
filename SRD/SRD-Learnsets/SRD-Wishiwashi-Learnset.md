@@ -1,5 +1,4 @@
 ---
-DexID: 0745F1
 Moves:
 - - Starter
   - '[[SRD-Water Gun|Water Gun]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Water Pulse|Water Pulse]]'
 Name: Wishiwashi
-Species: '[[SRD-Wishiwashi|Wishiwashi]]'
+Pokedex: '[[SRD-Wishiwashi|Wishiwashi]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

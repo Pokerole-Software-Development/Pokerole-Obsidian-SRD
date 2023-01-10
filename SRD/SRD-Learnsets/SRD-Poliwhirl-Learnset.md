@@ -1,5 +1,4 @@
 ---
-DexID: '0061'
 Moves:
 - - Starter
   - '[[SRD-Water Sport|Water Sport]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Refresh|Refresh]]'
 Name: Poliwhirl
-Species: '[[SRD-Poliwhirl|Poliwhirl]]'
+Pokedex: '[[SRD-Poliwhirl|Poliwhirl]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

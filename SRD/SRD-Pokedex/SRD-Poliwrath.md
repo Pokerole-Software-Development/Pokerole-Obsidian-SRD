@@ -1,7 +1,6 @@
 ---
 Ability1: Water Absorb
 Ability2: Damp
-Baby: 'No'
 BookSprite: SRD-poliwrath-BookSprite.png
 BoxSprite: SRD-poliwrath-BoxSprite.png
 DexCategory: Tadpole Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Poliwhirl]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Swift Swim
 HomeSprite: SRD-poliwrath-HomeSprite.png
+Image: poliwrath.png
 Learnset: '[[SRD-Poliwrath-Learnset]]'
 Legendary: 'No'
-Name: Poliwrath
 Number: 62
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: ''
 ShuffleToken: SRD-poliwrath-ShuffleToken.png
-Sprite: poliwrath.png
 Type1: Water
 Type2: Fighting
 Weight:
-  Hectograms: 540
   Kilograms: 54.0
   Pounds: 119.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *It’s not common to find it in the wild. Most sightings take place when it is on land. Once he is inside the water, it will swim far away. This Pokemon is an outstanding swimmer, capable of beating any human.*
 
 **DexID**:: 0062
-**Species**:: Poliwrath
+**Name**:: Poliwrath
 **Type**:: Water / Fighting
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] / [[SRD-Damp|Damp]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 5

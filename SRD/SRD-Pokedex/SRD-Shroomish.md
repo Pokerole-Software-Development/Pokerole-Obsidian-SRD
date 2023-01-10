@@ -1,7 +1,6 @@
 ---
 Ability1: Effect Spore
 Ability2: Poison Heal
-Baby: 'No'
 BookSprite: SRD-shroomish-BookSprite.png
 BoxSprite: SRD-shroomish-BoxSprite.png
 DexCategory: Mushroom Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Breloom]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Quick Feet
 HomeSprite: SRD-shroomish-HomeSprite.png
+Image: shroomish.png
 Learnset: '[[SRD-Shroomish-Learnset]]'
 Legendary: 'No'
-Name: Shroomish
 Number: 285
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-shroomish-ShuffleToken.png
-Sprite: shroomish.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 45
   Kilograms: 4.5
   Pounds: 9.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *They live in damp soil in forests, surrounded by moss. They suddenly release toxic spores that make plants dry up. These spores cause serious pain if inhaled. They grow taller with moisture and heat.*
 
 **DexID**:: 0285
-**Species**:: Shroomish
+**Name**:: Shroomish
 **Type**:: Grass
 **Abilities**:: [[SRD-Effect Spore|Effect Spore]] / [[SRD-Poison Heal|Poison Heal]] ([[SRD-Quick Feet|Quick Feet]])
 **Base HP**:: 3

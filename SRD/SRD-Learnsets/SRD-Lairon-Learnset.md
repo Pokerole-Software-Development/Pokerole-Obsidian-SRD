@@ -1,5 +1,4 @@
 ---
-DexID: '0305'
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Endeavor|Endeavor]]'
 Name: Lairon
-Species: '[[SRD-Lairon|Lairon]]'
+Pokedex: '[[SRD-Lairon|Lairon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

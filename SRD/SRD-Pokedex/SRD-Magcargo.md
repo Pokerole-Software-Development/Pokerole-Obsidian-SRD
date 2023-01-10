@@ -1,7 +1,6 @@
 ---
 Ability1: Magma Armor
 Ability2: Flame Body
-Baby: 'No'
 BookSprite: SRD-magcargo-BookSprite.png
 BoxSprite: SRD-magcargo-BoxSprite.png
 DexCategory: Lava Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Slugma]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Weak Armor
 HomeSprite: SRD-magcargo-HomeSprite.png
+Image: magcargo.png
 Learnset: '[[SRD-Magcargo-Learnset]]'
 Legendary: 'No'
-Name: Magcargo
 Number: 219
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-magcargo-ShuffleToken.png
-Sprite: magcargo.png
 Type1: Fire
 Type2: Rock
 Weight:
-  Hectograms: 550
   Kilograms: 55.0
   Pounds: 121.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *Their shell is molten body that cooled off and hardened, it may appear solid, but it may burst into flames with a single touch. Water vaporizes on contact and rain turns into a cloud of steam.*
 
 **DexID**:: 0219
-**Species**:: Magcargo
+**Name**:: Magcargo
 **Type**:: Fire / Rock
 **Abilities**:: [[SRD-Magma Armor|Magma Armor]] / [[SRD-Flame Body|Flame Body]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 4

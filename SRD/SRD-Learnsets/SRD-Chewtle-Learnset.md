@@ -1,5 +1,4 @@
 ---
-DexID: 0832
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -34,14 +33,14 @@ Moves:
 - - Pro
   - '[[SRD-Dragon Tail|Dragon Tail]]'
 Name: Chewtle
-Species: '[[SRD-Chewtle|Chewtle]]'
+Pokedex: '[[SRD-Chewtle|Chewtle]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

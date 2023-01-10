@@ -1,7 +1,6 @@
 ---
 Ability1: Solid Rock
 Ability2: Sturdy
-Baby: 'No'
 BookSprite: SRD-tirtouga-BookSprite.png
 BoxSprite: SRD-tirtouga-BoxSprite.png
 DexCategory: Prototurtle Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Carracosta]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Swift Swim
 HomeSprite: SRD-tirtouga-HomeSprite.png
+Image: tirtouga.png
 Learnset: '[[SRD-Tirtouga-Learnset]]'
 Legendary: 'No'
-Name: Tirtouga
 Number: 564
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Water 3
 ShuffleToken: SRD-tirtouga-ShuffleToken.png
-Sprite: tirtouga.png
 Type1: Water
 Type2: Rock
 Weight:
-  Hectograms: 165
   Kilograms: 16.5
   Pounds: 36.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *About 100 million years ago, these Pokemon swam in oceans. It is thought they also went on land to attack prey. One has been cloned from a fossil that was found a mile deep underwater.*
 
 **DexID**:: 0564
-**Species**:: Tirtouga
+**Name**:: Tirtouga
 **Type**:: Water / Rock
 **Abilities**:: [[SRD-Solid Rock|Solid Rock]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 3

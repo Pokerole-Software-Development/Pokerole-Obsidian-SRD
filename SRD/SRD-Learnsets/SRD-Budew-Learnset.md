@@ -1,5 +1,4 @@
 ---
-DexID: '0406'
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -26,14 +25,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Budew
-Species: '[[SRD-Budew|Budew]]'
+Pokedex: '[[SRD-Budew|Budew]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

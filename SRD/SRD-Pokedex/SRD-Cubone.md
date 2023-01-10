@@ -1,7 +1,6 @@
 ---
 Ability1: Rock Head
 Ability2: Lightning Rod
-Baby: 'No'
 BookSprite: SRD-cubone-BookSprite.png
 BoxSprite: SRD-cubone-BoxSprite.png
 DexCategory: Lonely Pokemon
@@ -16,29 +15,23 @@ Evolutions:
   Speed: Slow
 - Evolves: To
   Kind: Level
-  Pokemon: '[[SRD-Alolan Marowak]]'
+  Pokemon: '[[SRD-Marowak (Alolan Form)]]'
   Region: Alola
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Battle Armor
 HomeSprite: SRD-cubone-HomeSprite.png
+Image: cubone.png
 Learnset: '[[SRD-Cubone-Learnset]]'
 Legendary: 'No'
-Name: Cubone
 Number: 104
-PrimaryEggGroup: Monster
-SecondaryEggGroup: ''
 ShuffleToken: SRD-cubone-ShuffleToken.png
-Sprite: cubone.png
 Type1: Ground
 Type2: ''
 Weight:
-  Hectograms: 65
   Kilograms: 6.5
   Pounds: 14.3
 ---
@@ -58,7 +51,7 @@ Weight:
 *Cubone wears a skull helmet it never removes. It is said to be from its mother or someone dear to it. Lives in the mountains where it cries at night due to the sadness it feels. It is distrustful of humans.*
 
 **DexID**:: 0104
-**Species**:: Cubone
+**Name**:: Cubone
 **Type**:: Ground
 **Abilities**:: [[SRD-Rock Head|Rock Head]] / [[SRD-Lightning Rod|Lightning Rod]] ([[SRD-Battle Armor|Battle Armor]])
 **Base HP**:: 3
@@ -76,9 +69,9 @@ Weight:
 **Good Starter**:: Yes
 **Recommended Rank**:: Beginner
 
-| Evolves   | Pokemon                | Kind   | Speed   | Region   |
-|:----------|:-----------------------|:-------|:--------|:---------|
-| To        | [[SRD-Marowak]]        | Level  | Slow    |          |
-| To        | [[SRD-Alolan Marowak]] | Level  | Slow    | Alola    |
+| Evolves   | Pokemon                       | Kind   | Speed   | Region   |
+|:----------|:------------------------------|:-------|:--------|:---------|
+| To        | [[SRD-Marowak]]               | Level  | Slow    |          |
+| To        | [[SRD-Marowak (Alolan Form)]] | Level  | Slow    | Alola    |
 
 ![[SRD-Cubone-Learnset]]

@@ -1,7 +1,6 @@
 ---
 Ability1: Flame Body
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-volcarona-BookSprite.png
 BoxSprite: SRD-volcarona-BoxSprite.png
 DexCategory: Sun Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Larvesta]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Swarm
 HomeSprite: SRD-volcarona-HomeSprite.png
+Image: volcarona.png
 Learnset: '[[SRD-Volcarona-Learnset]]'
 Legendary: 'No'
-Name: Volcarona
 Number: 637
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-volcarona-ShuffleToken.png
-Sprite: volcarona.png
 Type1: Bug
 Type2: Fire
 Weight:
-  Hectograms: 460
   Kilograms: 46.0
   Pounds: 101.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *A sea of fire engulfs the surroundings of its battles, since it uses six wings to scatter blazing scales. There are stories of how its fire saved villages during winter and how it shone like the sun over the mountains.*
 
 **DexID**:: 0637
-**Species**:: Volcarona
+**Name**:: Volcarona
 **Type**:: Bug / Fire
 **Abilities**:: [[SRD-Flame Body|Flame Body]] ([[SRD-Swarm|Swarm]])
 **Base HP**:: 4

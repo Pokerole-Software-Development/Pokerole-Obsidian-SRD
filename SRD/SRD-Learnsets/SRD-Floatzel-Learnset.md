@@ -1,5 +1,4 @@
 ---
-DexID: 0419
 Moves:
 - - Starter
   - '[[SRD-Sonic Boom|Sonic Boom]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Ring|Aqua Ring]]'
 Name: Floatzel
-Species: '[[SRD-Floatzel|Floatzel]]'
+Pokedex: '[[SRD-Floatzel|Floatzel]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0427'
 Moves:
 - - Starter
   - '[[SRD-Defense Curl|Defense Curl]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Sweet Kiss|Sweet Kiss]]'
 Name: Buneary
-Species: '[[SRD-Buneary|Buneary]]'
+Pokedex: '[[SRD-Buneary|Buneary]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

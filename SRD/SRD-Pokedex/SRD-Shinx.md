@@ -1,7 +1,6 @@
 ---
 Ability1: Rivalry
 Ability2: Intimidate
-Baby: 'No'
 BookSprite: SRD-shinx-BookSprite.png
 BoxSprite: SRD-shinx-BoxSprite.png
 DexCategory: Flash Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Luxio]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Guts
 HomeSprite: SRD-shinx-HomeSprite.png
+Image: shinx.png
 Learnset: '[[SRD-Shinx-Learnset]]'
 Legendary: 'No'
-Name: Shinx
 Number: 403
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-shinx-ShuffleToken.png
-Sprite: shinx.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 95
   Kilograms: 9.5
   Pounds: 20.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *Its body transforms the energy of its own muscles into electricity. When in danger, their whole fur shines in a flash to blind the foes. They live with their parents and siblings in small prides.*
 
 **DexID**:: 0403
-**Species**:: Shinx
+**Name**:: Shinx
 **Type**:: Electric
 **Abilities**:: [[SRD-Rivalry|Rivalry]] / [[SRD-Intimidate|Intimidate]] ([[SRD-Guts|Guts]])
 **Base HP**:: 3

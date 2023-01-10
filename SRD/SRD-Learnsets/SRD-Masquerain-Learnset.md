@@ -1,5 +1,4 @@
 ---
-DexID: 0284
 Moves:
 - - Starter
   - '[[SRD-Bubble|Bubble]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Psybeam|Psybeam]]'
 Name: Masquerain
-Species: '[[SRD-Masquerain|Masquerain]]'
+Pokedex: '[[SRD-Masquerain|Masquerain]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Blaze
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-cinderace-BookSprite.png
 BoxSprite: SRD-cinderace-BoxSprite.png
 DexCategory: Striker Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Raboot]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Libero
 HomeSprite: SRD-cinderace-HomeSprite.png
+Image: cinderace.png
 Learnset: '[[SRD-Cinderace-Learnset]]'
 Legendary: 'No'
-Name: Cinderace
 Number: 815
-PrimaryEggGroup: Field
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-cinderace-ShuffleToken.png
-Sprite: cinderace.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 330
   Kilograms: 33.0
   Pounds: 72.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are confident and boastful of their abilities. They take a pebble and light it on fire to create a scorching weapon they kick towards their foes. They can grow arrogant if they feel cheered on.*
 
 **DexID**:: 0815
-**Species**:: Cinderace
+**Name**:: Cinderace
 **Type**:: Fire
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Libero|Libero]])
 **Base HP**:: 5

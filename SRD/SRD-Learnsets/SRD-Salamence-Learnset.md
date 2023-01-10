@@ -1,5 +1,4 @@
 ---
-DexID: '0373'
 Moves:
 - - Starter
   - '[[SRD-Rage|Rage]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Salamence
-Species: '[[SRD-Salamence|Salamence]]'
+Pokedex: '[[SRD-Salamence|Salamence]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

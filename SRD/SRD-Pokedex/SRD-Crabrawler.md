@@ -1,7 +1,6 @@
 ---
 Ability1: Hyper Cutter
 Ability2: Iron Fist
-Baby: 'No'
 BookSprite: SRD-crabrawler-BookSprite.png
 BoxSprite: SRD-crabrawler-BoxSprite.png
 DexCategory: Boxing Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Crabominable]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Anger Point
 HomeSprite: SRD-crabrawler-HomeSprite.png
+Image: crabrawler.png
 Learnset: '[[SRD-Crabrawler-Learnset]]'
 Legendary: 'No'
-Name: Crabrawler
 Number: 739
-PrimaryEggGroup: Water 3
-SecondaryEggGroup: ''
 ShuffleToken: SRD-crabrawler-ShuffleToken.png
-Sprite: crabrawler.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 70
   Kilograms: 7.0
   Pounds: 15.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *They can be found on the beach, but as they grow stronger they also venture more into the land where they fight for ripe berries. They punch with their pincers, which are delicious with butter by the way.*
 
 **DexID**:: 0739
-**Species**:: Crabrawler
+**Name**:: Crabrawler
 **Type**:: Fighting
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Iron Fist|Iron Fist]] ([[SRD-Anger Point|Anger Point]])
 **Base HP**:: 3

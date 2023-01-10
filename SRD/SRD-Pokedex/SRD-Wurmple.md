@@ -1,7 +1,6 @@
 ---
 Ability1: Shield Dust
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-wurmple-BookSprite.png
 BoxSprite: SRD-wurmple-BoxSprite.png
 DexCategory: Worm Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Cascoon]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Run Away
 HomeSprite: SRD-wurmple-HomeSprite.png
+Image: wurmple.png
 Learnset: '[[SRD-Wurmple-Learnset]]'
 Legendary: 'No'
-Name: Wurmple
 Number: 265
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-wurmple-ShuffleToken.png
-Sprite: wurmple.png
 Type1: Bug
 Type2: ''
 Weight:
-  Hectograms: 36
   Kilograms: 3.6
   Pounds: 7.9
 ---
@@ -57,7 +50,7 @@ Weight:
 *It uses the spikes on its rear to peel the trees and feed on their sap. Their feet have suction pads to climb easily. Wurmples are plentiful and live in forests, but they are often attacked by bird Pokemon.*
 
 **DexID**:: 0265
-**Species**:: Wurmple
+**Name**:: Wurmple
 **Type**:: Bug
 **Abilities**:: [[SRD-Shield Dust|Shield Dust]] ([[SRD-Run Away|Run Away]])
 **Base HP**:: 3

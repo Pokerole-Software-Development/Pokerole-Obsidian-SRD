@@ -1,5 +1,4 @@
 ---
-DexID: 0795
 Moves:
 - - Master
   - '[[SRD-Tail Glow|Tail Glow]]'
@@ -44,14 +43,14 @@ Moves:
 - - Master
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Xurkitree
-Species: '[[SRD-Xurkitree|Xurkitree]]'
+Pokedex: '[[SRD-Xurkitree|Xurkitree]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

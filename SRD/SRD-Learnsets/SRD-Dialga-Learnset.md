@@ -1,5 +1,4 @@
 ---
-DexID: 0483
 Moves:
 - - Master
   - '[[SRD-Dragon Breath|Dragon Breath]]'
@@ -38,14 +37,14 @@ Moves:
 - - Master
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Dialga
-Species: '[[SRD-Dialga|Dialga]]'
+Pokedex: '[[SRD-Dialga|Dialga]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

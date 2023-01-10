@@ -1,7 +1,6 @@
 ---
 Ability1: Intimidate
 Ability2: Quick Feet
-Baby: 'No'
 BookSprite: SRD-granbull-BookSprite.png
 BoxSprite: SRD-granbull-BoxSprite.png
 DexCategory: Fairy Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Snubbull]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Rattled
 HomeSprite: SRD-granbull-HomeSprite.png
+Image: granbull.png
 Learnset: '[[SRD-Granbull-Learnset]]'
 Legendary: 'No'
-Name: Granbull
 Number: 210
-PrimaryEggGroup: Field
-SecondaryEggGroup: Fairy
 ShuffleToken: SRD-granbull-ShuffleToken.png
-Sprite: granbull.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 487
   Kilograms: 48.7
   Pounds: 107.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *Granbull is usually a timid creature that is easily spooked. Its fangs are extremely powerful and scary so no one dares to mess with it or its loved ones. It will use its giant fangs to attack if it needs to.*
 
 **DexID**:: 0210
-**Species**:: Granbull
+**Name**:: Granbull
 **Type**:: Fairy
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Quick Feet|Quick Feet]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 4

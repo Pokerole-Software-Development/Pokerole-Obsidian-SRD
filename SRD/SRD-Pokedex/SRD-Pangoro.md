@@ -1,7 +1,6 @@
 ---
 Ability1: Iron Fist
 Ability2: Mold Breaker
-Baby: 'No'
 BookSprite: SRD-pangoro-BookSprite.png
 BoxSprite: SRD-pangoro-BoxSprite.png
 DexCategory: Daunting Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Pancham]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 21
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: Scrappy
 HomeSprite: SRD-pangoro-HomeSprite.png
+Image: pangoro.png
 Learnset: '[[SRD-Pangoro-Learnset]]'
 Legendary: 'No'
-Name: Pangoro
 Number: 675
-PrimaryEggGroup: Field
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-pangoro-ShuffleToken.png
-Sprite: pangoro.png
 Type1: Fighting
 Type2: Dark
 Weight:
-  Hectograms: 1360
   Kilograms: 136.0
   Pounds: 299.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Although this pokemon has a violent temperament, it won’t put up with bullying. It charges ahead and slams its opponents like a berserker, totally disregarding its own safety. Its mighty arms can send you flying.*
 
 **DexID**:: 0675
-**Species**:: Pangoro
+**Name**:: Pangoro
 **Type**:: Fighting / Dark
 **Abilities**:: [[SRD-Iron Fist|Iron Fist]] / [[SRD-Mold Breaker|Mold Breaker]] ([[SRD-Scrappy|Scrappy]])
 **Base HP**:: 5

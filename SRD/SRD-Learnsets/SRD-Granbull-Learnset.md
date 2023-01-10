@@ -1,5 +1,4 @@
 ---
-DexID: '0210'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Close Combat|Close Combat]]'
 Name: Granbull
-Species: '[[SRD-Granbull|Granbull]]'
+Pokedex: '[[SRD-Granbull|Granbull]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

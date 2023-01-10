@@ -1,5 +1,4 @@
 ---
-DexID: 0835
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Skull Bash|Skull Bash]]'
 Name: Drednaw
-Species: '[[SRD-Drednaw|Drednaw]]'
+Pokedex: '[[SRD-Drednaw|Drednaw]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Bulletproof
 Ability2: Soundproof
-Baby: 'No'
 BookSprite: SRD-jangmo-o-BookSprite.png
 BoxSprite: SRD-jangmo-o-BoxSprite.png
 DexCategory: Scaly Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Hakamo-o]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Overcoat
 HomeSprite: SRD-jangmo-o-HomeSprite.png
+Image: jangmo-o.png
 Learnset: '[[SRD-Jangmo-o-Learnset]]'
 Legendary: 'No'
-Name: Jangmo-o
 Number: 782
-PrimaryEggGroup: Dragon
-SecondaryEggGroup: ''
 ShuffleToken: SRD-jangmo-o-ShuffleToken.png
-Sprite: jangmo-o.png
 Type1: Dragon
 Type2: ''
 Weight:
-  Hectograms: 297
   Kilograms: 29.7
   Pounds: 65.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *They live in mountains rarely visited by humans. Although they are valiant and hard-working Pokemon they retain their independent nature. It uses the scale on its head for both attack and defense.*
 
 **DexID**:: 0782
-**Species**:: Jangmo-o
+**Name**:: Jangmo-o
 **Type**:: Dragon
 **Abilities**:: [[SRD-Bulletproof|Bulletproof]] / [[SRD-Soundproof|Soundproof]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 3

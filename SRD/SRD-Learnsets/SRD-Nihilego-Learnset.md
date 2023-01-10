@@ -1,5 +1,4 @@
 ---
-DexID: 0794
 Moves:
 - - Master
   - '[[SRD-Power Split|Power Split]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Gunk Shot|Gunk Shot]]'
 Name: Nihilego
-Species: '[[SRD-Nihilego|Nihilego]]'
+Pokedex: '[[SRD-Nihilego|Nihilego]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

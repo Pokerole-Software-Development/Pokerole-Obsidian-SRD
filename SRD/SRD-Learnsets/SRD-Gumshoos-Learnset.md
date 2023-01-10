@@ -1,5 +1,4 @@
 ---
-DexID: '0734'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Last Resort|Last Resort]]'
 Name: Gumshoos
-Species: '[[SRD-Gumshoos|Gumshoos]]'
+Pokedex: '[[SRD-Gumshoos|Gumshoos]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Snow Cloak
 Ability2: Slush Rush
-Baby: 'No'
 BookSprite: SRD-cubchoo-BookSprite.png
 BoxSprite: SRD-cubchoo-BoxSprite.png
 DexCategory: Chill Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Beartic]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Rattled
 HomeSprite: SRD-cubchoo-HomeSprite.png
+Image: cubchoo.png
 Learnset: '[[SRD-Cubchoo-Learnset]]'
 Legendary: 'No'
-Name: Cubchoo
 Number: 613
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-cubchoo-ShuffleToken.png
-Sprite: cubchoo.png
 Type1: Ice
 Type2: ''
 Weight:
-  Hectograms: 85
   Kilograms: 8.5
   Pounds: 18.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are born by the end of winter and stay with their mothers for a couple of seasons. Their running nose is used to practice their ice powers. In fact, when they get sick their nose is completely dry.*
 
 **DexID**:: 0613
-**Species**:: Cubchoo
+**Name**:: Cubchoo
 **Type**:: Ice
 **Abilities**:: [[SRD-Snow Cloak|Snow Cloak]] / [[SRD-Slush Rush|Slush Rush]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 3

@@ -1,7 +1,6 @@
 ---
 Ability1: Natural Cure
 Ability2: Serene Grace
-Baby: 'Yes'
 BookSprite: SRD-happiny-BookSprite.png
 BoxSprite: SRD-happiny-BoxSprite.png
 DexCategory: Playhouse Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Level
   Pokemon: '[[SRD-Chansey]]'
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Friend Guard
 HomeSprite: SRD-happiny-HomeSprite.png
+Image: happiny.png
 Learnset: '[[SRD-Happiny-Learnset]]'
 Legendary: 'No'
-Name: Happiny
 Number: 440
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-happiny-ShuffleToken.png
-Sprite: happiny.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 244
   Kilograms: 24.4
   Pounds: 53.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is not common to see Happinies. This baby Pokemon cannot produce eggs yet, so she searches for white stones and carries them on its pouch. It likes to look pretty and tries to always be adorable.*
 
 **DexID**:: 0440
-**Species**:: Happiny
+**Name**:: Happiny
 **Type**:: Normal
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]] / [[SRD-Serene Grace|Serene Grace]] ([[SRD-Friend Guard|Friend Guard]])
 **Base HP**:: 4

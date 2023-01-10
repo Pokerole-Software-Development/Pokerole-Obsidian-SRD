@@ -1,5 +1,4 @@
 ---
-DexID: '0674'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Pangoro
-Species: '[[SRD-Pangoro|Pangoro]]'
+Pokedex: '[[SRD-Pangoro|Pangoro]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

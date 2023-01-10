@@ -1,5 +1,4 @@
 ---
-DexID: '0057'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Overheat|Overheat]]'
 Name: Primeape
-Species: '[[SRD-Primeape|Primeape]]'
+Pokedex: '[[SRD-Primeape|Primeape]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

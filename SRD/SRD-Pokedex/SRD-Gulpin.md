@@ -1,7 +1,6 @@
 ---
 Ability1: Liquid Ooze
 Ability2: Sticky Hold
-Baby: 'No'
 BookSprite: SRD-gulpin-BookSprite.png
 BoxSprite: SRD-gulpin-BoxSprite.png
 DexCategory: Stomach Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Swalot]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Gluttony
 HomeSprite: SRD-gulpin-HomeSprite.png
+Image: gulpin.png
 Learnset: '[[SRD-Gulpin-Learnset]]'
 Legendary: 'No'
-Name: Gulpin
 Number: 316
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-gulpin-ShuffleToken.png
-Sprite: gulpin.png
 Type1: Poison
 Type2: ''
 Weight:
-  Hectograms: 103
   Kilograms: 10.3
   Pounds: 22.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *Gulpin's body is a huge stomach capable of swallowing anything of their size. Their fluids can corrode metal. This Pokemon releases hideous and vile gases while it digests its food.*
 
 **DexID**:: 0316
-**Species**:: Gulpin
+**Name**:: Gulpin
 **Type**:: Poison
 **Abilities**:: [[SRD-Liquid Ooze|Liquid Ooze]] / [[SRD-Sticky Hold|Sticky Hold]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 3

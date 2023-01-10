@@ -1,5 +1,4 @@
 ---
-DexID: 0092
 Moves:
 - - Starter
   - '[[SRD-Spite|Spite]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Grudge|Grudge]]'
 Name: Gastly
-Species: '[[SRD-Gastly|Gastly]]'
+Pokedex: '[[SRD-Gastly|Gastly]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

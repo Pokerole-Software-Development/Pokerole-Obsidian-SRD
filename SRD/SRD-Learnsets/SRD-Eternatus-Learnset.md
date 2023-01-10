@@ -1,5 +1,4 @@
 ---
-DexID: 0889F1
 Moves:
 - - Master
   - '[[SRD-Poison Tail|Poison Tail]]'
@@ -38,14 +37,14 @@ Moves:
 - - Master
   - '[[SRD-Protect|Protect]]'
 Name: Eternatus
-Species: '[[SRD-Eternatus|Eternatus]]'
+Pokedex: '[[SRD-Eternatus|Eternatus]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

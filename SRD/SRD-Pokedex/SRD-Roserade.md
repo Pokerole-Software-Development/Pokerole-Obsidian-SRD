@@ -1,7 +1,6 @@
 ---
 Ability1: Natural Cure
 Ability2: Poison Point
-Baby: 'No'
 BookSprite: SRD-roserade-BookSprite.png
 BoxSprite: SRD-roserade-BoxSprite.png
 DexCategory: Bouquet Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Roselia]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Technician
 HomeSprite: SRD-roserade-HomeSprite.png
+Image: roserade.png
 Learnset: '[[SRD-Roserade-Learnset]]'
 Legendary: 'No'
-Name: Roserade
 Number: 407
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-roserade-ShuffleToken.png
-Sprite: roserade.png
 Type1: Grass
 Type2: Poison
 Weight:
-  Hectograms: 145
   Kilograms: 14.5
   Pounds: 32.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *Luring prey with a sweet scent, it uses the poison on its thorn-filled arm-whips to poison, bind and finish off the prey. It has a dangerous appeal mixed with a graceful personality. It’s very rare in the wild.*
 
 **DexID**:: 0407
-**Species**:: Roserade
+**Name**:: Roserade
 **Type**:: Grass / Poison
 **Abilities**:: [[SRD-Natural Cure|Natural Cure]] / [[SRD-Poison Point|Poison Point]] ([[SRD-Technician|Technician]])
 **Base HP**:: 5

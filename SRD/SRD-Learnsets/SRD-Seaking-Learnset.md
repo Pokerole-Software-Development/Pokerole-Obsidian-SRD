@@ -1,5 +1,4 @@
 ---
-DexID: 0119
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Drill Run|Drill Run]]'
 Name: Seaking
-Species: '[[SRD-Seaking|Seaking]]'
+Pokedex: '[[SRD-Seaking|Seaking]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

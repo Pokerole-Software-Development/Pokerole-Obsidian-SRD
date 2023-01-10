@@ -1,5 +1,4 @@
 ---
-DexID: 0748
 Moves:
 - - Starter
   - '[[SRD-Mud Slap|Mud Slap]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Mud Bomb|Mud Bomb]]'
 Name: Mudbray
-Species: '[[SRD-Mudbray|Mudbray]]'
+Pokedex: '[[SRD-Mudbray|Mudbray]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

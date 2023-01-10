@@ -1,5 +1,4 @@
 ---
-DexID: '0215'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Fake Out|Fake Out]]'
 Name: Sneasel
-Species: '[[SRD-Sneasel|Sneasel]]'
+Pokedex: '[[SRD-Sneasel|Sneasel]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

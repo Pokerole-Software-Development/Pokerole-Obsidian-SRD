@@ -1,7 +1,6 @@
 ---
 Ability1: Suction Cups
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-cradily-BookSprite.png
 BoxSprite: SRD-cradily-BoxSprite.png
 DexCategory: Barnacle Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Lileep]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Storm Drain
 HomeSprite: SRD-cradily-HomeSprite.png
+Image: cradily.png
 Learnset: '[[SRD-Cradily-Learnset]]'
 Legendary: 'No'
-Name: Cradily
 Number: 346
-PrimaryEggGroup: Water 3
-SecondaryEggGroup: ''
 ShuffleToken: SRD-cradily-ShuffleToken.png
-Sprite: cradily.png
 Type1: Rock
 Type2: Grass
 Weight:
-  Hectograms: 604
   Kilograms: 60.4
   Pounds: 133.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *Cradily moves slowly at the bottom of the sea. It uses its body as an anchor and its tentacles as arms to catch prey. Their foes are melted with a potent acid before being consumed.*
 
 **DexID**:: 0346
-**Species**:: Cradily
+**Name**:: Cradily
 **Type**:: Rock / Grass
 **Abilities**:: [[SRD-Suction Cups|Suction Cups]] ([[SRD-Storm Drain|Storm Drain]])
 **Base HP**:: 4

@@ -1,7 +1,6 @@
 ---
 Ability1: Sturdy
 Ability2: Shell Armor
-Baby: 'No'
 BookSprite: SRD-dwebble-BookSprite.png
 BoxSprite: SRD-dwebble-BoxSprite.png
 DexCategory: Rock Inn Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Crustle]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Weak Armor
 HomeSprite: SRD-dwebble-HomeSprite.png
+Image: dwebble.png
 Learnset: '[[SRD-Dwebble-Learnset]]'
 Legendary: 'No'
-Name: Dwebble
 Number: 557
-PrimaryEggGroup: Bug
-SecondaryEggGroup: Mineral
 ShuffleToken: SRD-dwebble-ShuffleToken.png
-Sprite: dwebble.png
 Type1: Bug
 Type2: Rock
 Weight:
-  Hectograms: 145
   Kilograms: 14.5
   Pounds: 32.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *Their saliva is corrosive and it uses it to slowly cut pieces of rock. The rock becomes a shelter until it grows too large for it. If the rock breaks, it stays anxious and agitated until it finds a replacement.*
 
 **DexID**:: 0557
-**Species**:: Dwebble
+**Name**:: Dwebble
 **Type**:: Bug / Rock
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 3

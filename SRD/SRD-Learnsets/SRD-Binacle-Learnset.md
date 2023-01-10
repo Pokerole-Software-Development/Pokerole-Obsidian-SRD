@@ -1,5 +1,4 @@
 ---
-DexID: 0687
 Moves:
 - - Starter
   - '[[SRD-Sand Attack|Sand Attack]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Tickle|Tickle]]'
 Name: Binacle
-Species: '[[SRD-Binacle|Binacle]]'
+Pokedex: '[[SRD-Binacle|Binacle]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

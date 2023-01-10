@@ -1,7 +1,6 @@
 ---
 Ability1: Justified
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-cobalion-BookSprite.png
 BoxSprite: SRD-cobalion-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: There is a story in Unova about four Pokemon that brought justic
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 21
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: ''
 HomeSprite: SRD-cobalion-HomeSprite.png
+Image: cobalion.png
 Learnset: '[[SRD-Cobalion-Learnset]]'
 Legendary: 'Yes'
-Name: Cobalion
 Number: 638
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-cobalion-ShuffleToken.png
-Sprite: cobalion.png
 Type1: Steel
 Type2: Fighting
 Weight:
-  Hectograms: 2500
   Kilograms: 250.0
   Pounds: 551.2
 ---
@@ -49,7 +42,7 @@ Weight:
 *There is a story in Unova about four Pokemon that brought justice to the wrongdoers. Their Leader was calm and composed but unforgiving. Its cold stare forced you to obey its law.*
 
 **DexID**:: 0638
-**Species**:: Cobalion
+**Name**:: Cobalion
 **Type**:: Steel / Fighting
 **Abilities**:: [[SRD-Justified|Justified]]
 **Base HP**:: 4

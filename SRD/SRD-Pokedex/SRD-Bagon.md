@@ -1,7 +1,6 @@
 ---
 Ability1: Rock Head
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-bagon-BookSprite.png
 BoxSprite: SRD-bagon-BoxSprite.png
 DexCategory: Rock Head Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Shelgon]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Sheer Force
 HomeSprite: SRD-bagon-HomeSprite.png
+Image: bagon.png
 Learnset: '[[SRD-Bagon-Learnset]]'
 Legendary: 'No'
-Name: Bagon
 Number: 371
-PrimaryEggGroup: Dragon
-SecondaryEggGroup: ''
 ShuffleToken: SRD-bagon-ShuffleToken.png
-Sprite: bagon.png
 Type1: Dragon
 Type2: ''
 Weight:
-  Hectograms: 421
   Kilograms: 42.1
   Pounds: 92.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Bagons dream of soaring the sky. This leads to a lot of frustration that makes them dive off cliffs in an attempt to fly. Their head is tough enough to survive the fall. They are very ill tempered and violent.*
 
 **DexID**:: 0371
-**Species**:: Bagon
+**Name**:: Bagon
 **Type**:: Dragon
 **Abilities**:: [[SRD-Rock Head|Rock Head]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 3

@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-cryogonal-BookSprite.png
 BoxSprite: SRD-cryogonal-BoxSprite.png
 DexCategory: Crystallizing Pokemon
@@ -11,25 +10,19 @@ DexDescription: They are born in snow clouds. Using chains made of ice crystals 
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: ''
 HomeSprite: SRD-cryogonal-HomeSprite.png
+Image: cryogonal.png
 Learnset: '[[SRD-Cryogonal-Learnset]]'
 Legendary: 'No'
-Name: Cryogonal
 Number: 615
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-cryogonal-ShuffleToken.png
-Sprite: cryogonal.png
 Type1: Ice
 Type2: ''
 Weight:
-  Hectograms: 1480
   Kilograms: 148.0
   Pounds: 326.3
 ---
@@ -49,7 +42,7 @@ Weight:
 *They are born in snow clouds. Using chains made of ice crystals they capture prey. If their body temperature goes up, they turns into steam and vanish until it freezes and becomes ice again.*
 
 **DexID**:: 0615
-**Species**:: Cryogonal
+**Name**:: Cryogonal
 **Type**:: Ice
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4

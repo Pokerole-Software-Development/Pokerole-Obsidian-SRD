@@ -1,5 +1,4 @@
 ---
-DexID: '0677'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Work Up|Work Up]]'
 Name: Furfrou
-Species: '[[SRD-Furfrou|Furfrou]]'
+Pokedex: '[[SRD-Furfrou|Furfrou]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

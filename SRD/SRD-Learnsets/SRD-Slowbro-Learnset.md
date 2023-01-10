@@ -1,5 +1,4 @@
 ---
-DexID: 0080
 Moves:
 - - Starter
   - '[[SRD-Yawn|Yawn]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Future Sight|Future Sight]]'
 Name: Slowbro
-Species: '[[SRD-Slowbro|Slowbro]]'
+Pokedex: '[[SRD-Slowbro|Slowbro]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

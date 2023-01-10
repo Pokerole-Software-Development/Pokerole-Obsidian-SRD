@@ -1,7 +1,6 @@
 ---
 Ability1: Receiver
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-passimian-BookSprite.png
 BoxSprite: SRD-passimian-BoxSprite.png
 DexCategory: Teamwork Pokemon
@@ -11,25 +10,19 @@ DexDescription: They live in packs of 20 members, they are all coordinated to pa
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 20
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Defiant
 HomeSprite: SRD-passimian-HomeSprite.png
+Image: passimian.png
 Learnset: '[[SRD-Passimian-Learnset]]'
 Legendary: 'No'
-Name: Passimian
 Number: 766
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-passimian-ShuffleToken.png
-Sprite: passimian.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 828
   Kilograms: 82.8
   Pounds: 182.5
 ---
@@ -49,7 +42,7 @@ Weight:
 *They live in packs of 20 members, they are all coordinated to pass around the food and to defend their nest. Their leader is not the strongest but the best teamworker of the pack. A very loyal Pokemon.*
 
 **DexID**:: 0766
-**Species**:: Passimian
+**Name**:: Passimian
 **Type**:: Fighting
 **Abilities**:: [[SRD-Receiver|Receiver]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 5

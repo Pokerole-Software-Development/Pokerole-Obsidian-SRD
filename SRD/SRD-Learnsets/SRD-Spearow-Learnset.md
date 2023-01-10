@@ -1,5 +1,4 @@
 ---
-DexID: '0021'
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Feather Dance|Feather Dance]]'
 Name: Spearow
-Species: '[[SRD-Spearow|Spearow]]'
+Pokedex: '[[SRD-Spearow|Spearow]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

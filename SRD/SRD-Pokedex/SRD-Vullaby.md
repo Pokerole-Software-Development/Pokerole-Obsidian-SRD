@@ -1,7 +1,6 @@
 ---
 Ability1: Big Pecks
 Ability2: Overcoat
-Baby: 'No'
 BookSprite: SRD-vullaby-BookSprite.png
 BoxSprite: SRD-vullaby-BoxSprite.png
 DexCategory: Diapered Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Mandibuzz]]'
   Speed: Medium
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Weak Armor
 HomeSprite: SRD-vullaby-HomeSprite.png
+Image: vullaby.png
 Learnset: '[[SRD-Vullaby-Learnset]]'
 Legendary: 'No'
-Name: Vullaby
 Number: 629
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-vullaby-ShuffleToken.png
-Sprite: vullaby.png
 Type1: Dark
 Type2: Flying
 Weight:
-  Hectograms: 90
   Kilograms: 9.0
   Pounds: 19.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *This is a female-only species. They stay with their Mandibuzz mothers from birth until they can finally fly. They feed on the carrion meat the mothers bring back to the nest and keep the bones to make accessories.*
 
 **DexID**:: 0629
-**Species**:: Vullaby
+**Name**:: Vullaby
 **Type**:: Dark / Flying
 **Abilities**:: [[SRD-Big Pecks|Big Pecks]] / [[SRD-Overcoat|Overcoat]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 3

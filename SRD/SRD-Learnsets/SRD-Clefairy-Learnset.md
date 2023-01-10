@@ -1,5 +1,4 @@
 ---
-DexID: '0035'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -62,14 +61,14 @@ Moves:
 - - Pro
   - '[[SRD-Heal Pulse|Heal Pulse]]'
 Name: Clefairy
-Species: '[[SRD-Clefairy|Clefairy]]'
+Pokedex: '[[SRD-Clefairy|Clefairy]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

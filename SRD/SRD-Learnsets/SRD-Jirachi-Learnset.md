@@ -1,5 +1,4 @@
 ---
-DexID: 0385
 Moves:
 - - Starter
   - '[[SRD-Wish|Wish]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Trick Room|Trick Room]]'
 Name: Jirachi
-Species: '[[SRD-Jirachi|Jirachi]]'
+Pokedex: '[[SRD-Jirachi|Jirachi]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

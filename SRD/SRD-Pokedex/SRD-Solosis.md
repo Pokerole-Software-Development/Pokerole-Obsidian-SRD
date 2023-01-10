@@ -1,7 +1,6 @@
 ---
 Ability1: Overcoat
 Ability2: Magic Guard
-Baby: 'No'
 BookSprite: SRD-solosis-BookSprite.png
 BoxSprite: SRD-solosis-BoxSprite.png
 DexCategory: Cell Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Duosion]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Regenerator
 HomeSprite: SRD-solosis-HomeSprite.png
+Image: solosis.png
 Learnset: '[[SRD-Solosis-Learnset]]'
 Legendary: 'No'
-Name: Solosis
 Number: 577
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-solosis-ShuffleToken.png
-Sprite: solosis.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 10
   Kilograms: 1.0
   Pounds: 2.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *Because their bodies are enveloped in a special liquid, they can survive in any environment. They drive away attackers by unleashing their psychic power. They communicate with their minds.*
 
 **DexID**:: 0577
-**Species**:: Solosis
+**Name**:: Solosis
 **Type**:: Psychic
 **Abilities**:: [[SRD-Overcoat|Overcoat]] / [[SRD-Magic Guard|Magic Guard]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 3

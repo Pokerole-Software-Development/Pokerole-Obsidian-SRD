@@ -1,7 +1,6 @@
 ---
 Ability1: Mummy
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-yamask-BookSprite.png
 BoxSprite: SRD-yamask-BoxSprite.png
 DexCategory: Spirit Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Cofagrigus]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
 HomeSprite: SRD-yamask-HomeSprite.png
+Image: yamask.png
 Learnset: '[[SRD-Yamask-Learnset]]'
 Legendary: 'No'
-Name: Yamask
 Number: 562
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: Amorphous
 ShuffleToken: SRD-yamask-ShuffleToken.png
-Sprite: yamask.png
 Type1: Ghost
 Type2: ''
 Weight:
-  Hectograms: 15
   Kilograms: 1.5
   Pounds: 3.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *This Pokemon arose from the spirit of a human or a Pokemon that died in the past and was buried with special ceremonies. Each one carries a mask that looks like the face it had in life. A sad Pokemon that weeps often.*
 
 **DexID**:: 0562
-**Species**:: Yamask
+**Name**:: Yamask
 **Type**:: Ghost
 **Abilities**:: [[SRD-Mummy|Mummy]]
 **Base HP**:: 3

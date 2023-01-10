@@ -1,5 +1,4 @@
 ---
-DexID: '0350'
 Moves:
 - - Starter
   - '[[SRD-Water Gun|Water Gun]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Magic Coat|Magic Coat]]'
 Name: Milotic
-Species: '[[SRD-Milotic|Milotic]]'
+Pokedex: '[[SRD-Milotic|Milotic]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

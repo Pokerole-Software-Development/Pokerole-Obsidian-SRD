@@ -1,5 +1,4 @@
 ---
-DexID: 0608
 Moves:
 - - Starter
   - '[[SRD-Ember|Ember]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Haze|Haze]]'
 Name: Litwick
-Species: '[[SRD-Litwick|Litwick]]'
+Pokedex: '[[SRD-Litwick|Litwick]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

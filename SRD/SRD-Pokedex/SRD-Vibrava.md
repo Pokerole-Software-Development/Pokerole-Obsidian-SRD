@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-vibrava-BookSprite.png
 BoxSprite: SRD-vibrava-BoxSprite.png
 DexCategory: Vibration Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Flygon]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: ''
 HomeSprite: SRD-vibrava-HomeSprite.png
+Image: vibrava.png
 Learnset: '[[SRD-Vibrava-Learnset]]'
 Legendary: 'No'
-Name: Vibrava
 Number: 329
-PrimaryEggGroup: Bug
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-vibrava-ShuffleToken.png
-Sprite: vibrava.png
 Type1: Ground
 Type2: Dragon
 Weight:
-  Hectograms: 153
   Kilograms: 15.3
   Pounds: 33.7
 ---
@@ -57,7 +50,7 @@ Weight:
 *This Pokemon’s vibrations can cause severe headaches or even fainting. If their prey faints, they proceed to melt them with acid. Vibrava's wings are still growing, making it a clumsy flier with low endurance.*
 
 **DexID**:: 0329
-**Species**:: Vibrava
+**Name**:: Vibrava
 **Type**:: Ground / Dragon
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4

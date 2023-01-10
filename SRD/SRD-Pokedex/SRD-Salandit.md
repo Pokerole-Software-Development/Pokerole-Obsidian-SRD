@@ -1,7 +1,6 @@
 ---
 Ability1: Corrosion
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-salandit-BookSprite.png
 BoxSprite: SRD-salandit-BoxSprite.png
 DexCategory: Toxic Lizard Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Pokemon: '[[SRD-Salazzle]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Oblivious
 HomeSprite: SRD-salandit-HomeSprite.png
+Image: salandit.png
 Learnset: '[[SRD-Salandit-Learnset]]'
 Legendary: 'No'
-Name: Salandit
 Number: 757
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-salandit-ShuffleToken.png
-Sprite: salandit.png
 Type1: Poison
 Type2: Fire
 Weight:
-  Hectograms: 48
   Kilograms: 4.8
   Pounds: 10.6
 ---
@@ -54,7 +47,7 @@ Weight:
 *The markings at the end of its tail emit flames and a toxic gas, be careful as this gas smells sweet and specially appealing for the males of any species. Only female Salandit are known to evolve.*
 
 **DexID**:: 0757
-**Species**:: Salandit
+**Name**:: Salandit
 **Type**:: Poison / Fire
 **Abilities**:: [[SRD-Corrosion|Corrosion]] ([[SRD-Oblivious|Oblivious]])
 **Base HP**:: 3

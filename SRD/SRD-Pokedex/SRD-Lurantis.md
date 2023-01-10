@@ -1,7 +1,6 @@
 ---
 Ability1: Leaf Guard
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-lurantis-BookSprite.png
 BoxSprite: SRD-lurantis-BoxSprite.png
 DexCategory: Bloom Sickle Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Fomantis]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Contrary
 HomeSprite: SRD-lurantis-HomeSprite.png
+Image: lurantis.png
 Learnset: '[[SRD-Lurantis-Learnset]]'
 Legendary: 'No'
-Name: Lurantis
 Number: 754
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-lurantis-ShuffleToken.png
-Sprite: lurantis.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 185
   Kilograms: 18.5
   Pounds: 40.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Considered to be one of the mos beautiful Grass Pokemon due to its lovely coloration. They require a lot of maintenance and constant grooming, so they’ll only trust a Trainer who is up to the job.*
 
 **DexID**:: 0754
-**Species**:: Lurantis
+**Name**:: Lurantis
 **Type**:: Grass
 **Abilities**:: [[SRD-Leaf Guard|Leaf Guard]] ([[SRD-Contrary|Contrary]])
 **Base HP**:: 4

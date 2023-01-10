@@ -1,5 +1,4 @@
 ---
-DexID: 0408
 Moves:
 - - Starter
   - '[[SRD-Focus Energy|Focus Energy]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Hammer Arm|Hammer Arm]]'
 Name: Cranidos
-Species: '[[SRD-Cranidos|Cranidos]]'
+Pokedex: '[[SRD-Cranidos|Cranidos]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0055'
 Moves:
 - - Starter
   - '[[SRD-Water Sport|Water Sport]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Future Sight|Future Sight]]'
 Name: Golduck
-Species: '[[SRD-Golduck|Golduck]]'
+Pokedex: '[[SRD-Golduck|Golduck]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

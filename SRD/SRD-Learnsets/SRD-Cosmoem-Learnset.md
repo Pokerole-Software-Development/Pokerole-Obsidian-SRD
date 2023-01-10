@@ -1,5 +1,4 @@
 ---
-DexID: 0789
 Moves:
 - - Starter
   - '[[SRD-Splash|Splash]]'
@@ -10,14 +9,14 @@ Moves:
 - - Amateur
   - '[[SRD-Cosmic Power|Cosmic Power]]'
 Name: Cosmoem
-Species: '[[SRD-Cosmoem|Cosmoem]]'
+Pokedex: '[[SRD-Cosmoem|Cosmoem]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

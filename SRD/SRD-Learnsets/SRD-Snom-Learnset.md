@@ -1,5 +1,4 @@
 ---
-DexID: 0871
 Moves:
 - - Starter
   - '[[SRD-Powder Snow|Powder Snow]]'
@@ -16,14 +15,14 @@ Moves:
 - - Pro
   - '[[SRD-Bug Bite|Bug Bite]]'
 Name: Snom
-Species: '[[SRD-Snom|Snom]]'
+Pokedex: '[[SRD-Snom|Snom]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

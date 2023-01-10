@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-frogadier-BookSprite.png
 BoxSprite: SRD-frogadier-BoxSprite.png
 DexCategory: Bubble Frog Pokemon
@@ -20,27 +19,21 @@ Evolutions:
   Speed: Medium
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-BBF Greninja]]'
+  Pokemon: '[[SRD-Greninja (BBF Form)]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Protean
 HomeSprite: SRD-frogadier-HomeSprite.png
+Image: frogadier.png
 Learnset: '[[SRD-Frogadier-Learnset]]'
 Legendary: 'No'
-Name: Frogadier
 Number: 657
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: ''
 ShuffleToken: SRD-frogadier-ShuffleToken.png
-Sprite: frogadier.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 109
   Kilograms: 10.9
   Pounds: 24.0
 ---
@@ -60,7 +53,7 @@ Weight:
 *It is incredibly hard to catch. It starts practicing its skills by throwing foam covered pebbles at foes. Many trainers find this rebellious stage very challenging to handle and end up being its targets of practice.*
 
 **DexID**:: 0657
-**Species**:: Frogadier
+**Name**:: Frogadier
 **Type**:: Water
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Protean|Protean]])
 **Base HP**:: 4
@@ -78,10 +71,10 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon              | Kind   | Speed   |
-|:----------|:---------------------|:-------|:--------|
-| From      | [[SRD-Froakie]]      | Level  | Medium  |
-| To        | [[SRD-Greninja]]     | Level  | Medium  |
-| To        | [[SRD-BBF Greninja]] | Form   |         |
+| Evolves   | Pokemon                     | Kind   | Speed   |
+|:----------|:----------------------------|:-------|:--------|
+| From      | [[SRD-Froakie]]             | Level  | Medium  |
+| To        | [[SRD-Greninja]]            | Level  | Medium  |
+| To        | [[SRD-Greninja (BBF Form)]] | Form   |         |
 
 ![[SRD-Frogadier-Learnset]]

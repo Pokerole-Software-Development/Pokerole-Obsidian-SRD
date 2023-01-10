@@ -1,5 +1,4 @@
 ---
-DexID: '0567'
 Moves:
 - - Starter
   - '[[SRD-Quick Attack|Quick Attack]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Head Smash|Head Smash]]'
 Name: Archeops
-Species: '[[SRD-Archeops|Archeops]]'
+Pokedex: '[[SRD-Archeops|Archeops]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

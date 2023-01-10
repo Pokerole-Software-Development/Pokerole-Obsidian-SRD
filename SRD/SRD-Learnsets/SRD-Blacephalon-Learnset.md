@@ -1,5 +1,4 @@
 ---
-DexID: 0807
 Moves:
 - - Master
   - '[[SRD-Ember|Ember]]'
@@ -32,14 +31,14 @@ Moves:
 - - Master
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Blacephalon
-Species: '[[SRD-Blacephalon|Blacephalon]]'
+Pokedex: '[[SRD-Blacephalon|Blacephalon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

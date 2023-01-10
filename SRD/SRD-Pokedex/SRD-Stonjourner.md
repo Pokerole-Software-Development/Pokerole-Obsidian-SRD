@@ -1,7 +1,6 @@
 ---
 Ability1: Power Spot
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-stonjourner-BookSprite.png
 BoxSprite: SRD-stonjourner-BoxSprite.png
 DexCategory: Big Rock Pokemon
@@ -11,25 +10,19 @@ DexDescription: They spend almost all their lives immobile, looking as inconspic
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 25
   Feet: 8.2
   Meters: 2.5
 HiddenAbility: ''
 HomeSprite: SRD-stonjourner-HomeSprite.png
+Image: stonjourner.png
 Learnset: '[[SRD-Stonjourner-Learnset]]'
 Legendary: 'No'
-Name: Stonjourner
 Number: 874
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-stonjourner-ShuffleToken.png
-Sprite: stonjourner.png
 Type1: Rock
 Type2: ''
 Weight:
-  Hectograms: 5200
   Kilograms: 520.0
   Pounds: 1146.4
 ---
@@ -49,7 +42,7 @@ Weight:
 *They spend almost all their lives immobile, looking as inconspicuous rocks, but once a year they gather out of nowhere and form up in a circle. They stay in formation for a few days and then disappear overnight.*
 
 **DexID**:: 0874
-**Species**:: Stonjourner
+**Name**:: Stonjourner
 **Type**:: Rock
 **Abilities**:: [[SRD-Power Spot|Power Spot]]
 **Base HP**:: 6

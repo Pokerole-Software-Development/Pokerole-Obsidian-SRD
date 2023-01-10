@@ -1,5 +1,4 @@
 ---
-DexID: 0293
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Snore|Snore]]'
 Name: Whismur
-Species: '[[SRD-Whismur|Whismur]]'
+Pokedex: '[[SRD-Whismur|Whismur]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

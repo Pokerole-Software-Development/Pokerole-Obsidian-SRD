@@ -1,5 +1,4 @@
 ---
-DexID: 0488
 Moves:
 - - Master
   - '[[SRD-Lunar Dance|Lunar Dance]]'
@@ -42,14 +41,14 @@ Moves:
 - - Master
   - '[[SRD-Reflect|Reflect]]'
 Name: Cresselia
-Species: '[[SRD-Cresselia|Cresselia]]'
+Pokedex: '[[SRD-Cresselia|Cresselia]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0208
 Moves:
 - - Starter
   - '[[SRD-Bind|Bind]]'
@@ -64,14 +63,14 @@ Moves:
 - - Pro
   - '[[SRD-Twister|Twister]]'
 Name: Steelix
-Species: '[[SRD-Steelix|Steelix]]'
+Pokedex: '[[SRD-Steelix|Steelix]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

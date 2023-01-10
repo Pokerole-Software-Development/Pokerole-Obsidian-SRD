@@ -1,5 +1,4 @@
 ---
-DexID: 0641F1
 Moves:
 - - Master
   - '[[SRD-Uproar|Uproar]]'
@@ -40,14 +39,14 @@ Moves:
 - - Master
   - '[[SRD-Electric Terrain|Electric Terrain]]'
 Name: Thundurus
-Species: '[[SRD-Thundurus|Thundurus]]'
+Pokedex: '[[SRD-Thundurus|Thundurus]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0367'
 Moves:
 - - Starter
   - '[[SRD-Whirlpool|Whirlpool]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Super Fang|Super Fang]]'
 Name: Huntail
-Species: '[[SRD-Huntail|Huntail]]'
+Pokedex: '[[SRD-Huntail|Huntail]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Mold Breaker
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-cranidos-BookSprite.png
 BoxSprite: SRD-cranidos-BoxSprite.png
 DexCategory: Head Butt Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Rampardos]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Sheer Force
 HomeSprite: SRD-cranidos-HomeSprite.png
+Image: cranidos.png
 Learnset: '[[SRD-Cranidos-Learnset]]'
 Legendary: 'No'
-Name: Cranidos
 Number: 408
-PrimaryEggGroup: Monster
-SecondaryEggGroup: ''
 ShuffleToken: SRD-cranidos-ShuffleToken.png
-Sprite: cranidos.png
 Type1: Rock
 Type2: ''
 Weight:
-  Hectograms: 315
   Kilograms: 31.5
   Pounds: 69.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *It was resurrected from an iron ball-like fossil. It downs prey with headbutts and tramples trees and walls with ease. They were plentiful 100 million years ago. You can’t find one nowadays except as a fossil.*
 
 **DexID**:: 0408
-**Species**:: Cranidos
+**Name**:: Cranidos
 **Type**:: Rock
 **Abilities**:: [[SRD-Mold Breaker|Mold Breaker]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 3

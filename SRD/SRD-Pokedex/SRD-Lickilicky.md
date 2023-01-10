@@ -1,7 +1,6 @@
 ---
 Ability1: Own Tempo
 Ability2: Oblivious
-Baby: 'No'
 BookSprite: SRD-lickilicky-BookSprite.png
 BoxSprite: SRD-lickilicky-BoxSprite.png
 DexCategory: Licking Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Lickitung]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 17
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Cloud Nine
 HomeSprite: SRD-lickilicky-HomeSprite.png
+Image: lickilicky.png
 Learnset: '[[SRD-Lickilicky-Learnset]]'
 Legendary: 'No'
-Name: Lickilicky
 Number: 463
-PrimaryEggGroup: Monster
-SecondaryEggGroup: ''
 ShuffleToken: SRD-lickilicky-ShuffleToken.png
-Sprite: lickilicky.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 1400
   Kilograms: 140.0
   Pounds: 308.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *It uses its tongue as an stretchable arm. It will wrap prey with it and then proceed to eat it. Its saliva causes numbness. Try not to touch its tongue, it might try to eat you by reflex.*
 
 **DexID**:: 0463
-**Species**:: Lickilicky
+**Name**:: Lickilicky
 **Type**:: Normal
 **Abilities**:: [[SRD-Own Tempo|Own Tempo]] / [[SRD-Oblivious|Oblivious]] ([[SRD-Cloud Nine|Cloud Nine]])
 **Base HP**:: 5

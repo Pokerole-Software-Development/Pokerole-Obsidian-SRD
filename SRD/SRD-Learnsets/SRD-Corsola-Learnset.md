@@ -1,5 +1,4 @@
 ---
-DexID: '0222'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Whirlpool|Whirlpool]]'
 Name: Corsola
-Species: '[[SRD-Corsola|Corsola]]'
+Pokedex: '[[SRD-Corsola|Corsola]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

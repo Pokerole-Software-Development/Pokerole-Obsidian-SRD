@@ -1,7 +1,6 @@
 ---
 Ability1: Thick Fat
 Ability2: Ice Body
-Baby: 'No'
 BookSprite: SRD-spheal-BookSprite.png
 BoxSprite: SRD-spheal-BoxSprite.png
 DexCategory: Clap Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Sealeo]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Oblivious
 HomeSprite: SRD-spheal-HomeSprite.png
+Image: spheal.png
 Learnset: '[[SRD-Spheal-Learnset]]'
 Legendary: 'No'
-Name: Spheal
 Number: 363
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Field
 ShuffleToken: SRD-spheal-ShuffleToken.png
-Sprite: spheal.png
 Type1: Ice
 Type2: Water
 Weight:
-  Hectograms: 395
   Kilograms: 39.5
   Pounds: 87.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *They live in big herds with their families. They are bad swimmers but good floaters. To move on land, they roll like balls instead of walking. When they are happy, they clap and squeal, so they can be really noisy.*
 
 **DexID**:: 0363
-**Species**:: Spheal
+**Name**:: Spheal
 **Type**:: Ice / Water
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Ice Body|Ice Body]] ([[SRD-Oblivious|Oblivious]])
 **Base HP**:: 3

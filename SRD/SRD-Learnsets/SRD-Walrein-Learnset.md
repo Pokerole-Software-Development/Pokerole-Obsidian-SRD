@@ -1,5 +1,4 @@
 ---
-DexID: '0365'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Tail|Aqua Tail]]'
 Name: Walrein
-Species: '[[SRD-Walrein|Walrein]]'
+Pokedex: '[[SRD-Walrein|Walrein]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

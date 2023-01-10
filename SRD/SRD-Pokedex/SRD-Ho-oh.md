@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-ho-oh-BookSprite.png
 BoxSprite: SRD-ho-oh-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: "Ho-oh inhabited the Bell Tower, where Pokemon were said to rest
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 38
   Feet: 12.5
   Meters: 3.8
 HiddenAbility: Regenerator
 HomeSprite: SRD-ho-oh-HomeSprite.png
+Image: ho-oh.png
 Learnset: '[[SRD-Ho-oh-Learnset]]'
 Legendary: 'Yes'
-Name: Ho-oh
 Number: 250
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-ho-oh-ShuffleToken.png
-Sprite: ho-oh.png
 Type1: Fire
 Type2: Flying
 Weight:
-  Hectograms: 1990
   Kilograms: 199.0
   Pounds: 438.7
 ---
@@ -49,7 +42,7 @@ Weight:
 *Ho-oh inhabited the Bell Tower, where Pokemon were said to rest. Ho-oh’s Myth talks about a creature that brought eternal rest for those whose time was right, and also gave back life if death was premature.*
 
 **DexID**:: 0250
-**Species**:: Ho-oh
+**Name**:: Ho-oh
 **Type**:: Fire / Flying
 **Abilities**:: [[SRD-Pressure|Pressure]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 5

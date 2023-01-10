@@ -1,5 +1,4 @@
 ---
-DexID: 0009
 Moves:
 - - Starter
   - '[[SRD-Tail Whip|Tail Whip]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Hydro Cannon|Hydro Cannon]]'
 Name: Blastoise
-Species: '[[SRD-Blastoise|Blastoise]]'
+Pokedex: '[[SRD-Blastoise|Blastoise]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

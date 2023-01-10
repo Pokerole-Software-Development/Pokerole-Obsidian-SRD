@@ -1,7 +1,6 @@
 ---
 Ability1: Static
 Ability2: Lightning Rod
-Baby: 'No'
 BookSprite: SRD-electrike-BookSprite.png
 BoxSprite: SRD-electrike-BoxSprite.png
 DexCategory: Lightning Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Manectric]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Minus
 HomeSprite: SRD-electrike-HomeSprite.png
+Image: electrike.png
 Learnset: '[[SRD-Electrike-Learnset]]'
 Legendary: 'No'
-Name: Electrike
 Number: 309
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-electrike-ShuffleToken.png
-Sprite: electrike.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 152
   Kilograms: 15.2
   Pounds: 33.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *Their fur stores electricity, leaving a trail of sparks as they run. By stimulating their legs with voltage, Electrike's speed and power is greatly increased. They are not very common, though.*
 
 **DexID**:: 0309
-**Species**:: Electrike
+**Name**:: Electrike
 **Type**:: Electric
 **Abilities**:: [[SRD-Static|Static]] / [[SRD-Lightning Rod|Lightning Rod]] ([[SRD-Minus|Minus]])
 **Base HP**:: 3

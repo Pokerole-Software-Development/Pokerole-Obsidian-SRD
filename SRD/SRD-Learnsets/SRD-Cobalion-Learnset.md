@@ -1,5 +1,4 @@
 ---
-DexID: 0639
 Moves:
 - - Master
   - '[[SRD-Quick Attack|Quick Attack]]'
@@ -36,14 +35,14 @@ Moves:
 - - Master
   - '[[SRD-Laser Focus|Laser Focus]]'
 Name: Cobalion
-Species: '[[SRD-Cobalion|Cobalion]]'
+Pokedex: '[[SRD-Cobalion|Cobalion]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

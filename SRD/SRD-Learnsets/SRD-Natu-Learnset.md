@@ -1,5 +1,4 @@
 ---
-DexID: '0177'
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Haze|Haze]]'
 Name: Natu
-Species: '[[SRD-Natu|Natu]]'
+Pokedex: '[[SRD-Natu|Natu]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

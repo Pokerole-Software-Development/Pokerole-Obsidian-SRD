@@ -1,7 +1,6 @@
 ---
 Ability1: Dry Skin
 Ability2: Sand Veil
-Baby: 'No'
 BookSprite: SRD-helioptile-BookSprite.png
 BoxSprite: SRD-helioptile-BoxSprite.png
 DexCategory: Generator Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Heliolisk]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Solar Power
 HomeSprite: SRD-helioptile-HomeSprite.png
+Image: helioptile.png
 Learnset: '[[SRD-Helioptile-Learnset]]'
 Legendary: 'No'
-Name: Helioptile
 Number: 694
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-helioptile-ShuffleToken.png
-Sprite: helioptile.png
 Type1: Electric
 Type2: Normal
 Weight:
-  Hectograms: 60
   Kilograms: 6.0
   Pounds: 13.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *They make their home in deserts. Using the sun, they can generate their energy by basking their frills since food is scarce where they live. They run pretty fast as to not burn themselves with the hot sand.*
 
 **DexID**:: 0694
-**Species**:: Helioptile
+**Name**:: Helioptile
 **Type**:: Electric / Normal
 **Abilities**:: [[SRD-Dry Skin|Dry Skin]] / [[SRD-Sand Veil|Sand Veil]] ([[SRD-Solar Power|Solar Power]])
 **Base HP**:: 3

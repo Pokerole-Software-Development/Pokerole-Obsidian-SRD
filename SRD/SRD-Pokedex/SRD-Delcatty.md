@@ -1,7 +1,6 @@
 ---
 Ability1: Cute Charm
 Ability2: Normalize
-Baby: 'No'
 BookSprite: SRD-delcatty-BookSprite.png
 BoxSprite: SRD-delcatty-BoxSprite.png
 DexCategory: Prim Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Skitty]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Wonder Skin
 HomeSprite: SRD-delcatty-HomeSprite.png
+Image: delcatty.png
 Learnset: '[[SRD-Delcatty-Learnset]]'
 Legendary: 'No'
-Name: Delcatty
 Number: 301
-PrimaryEggGroup: Field
-SecondaryEggGroup: Fairy
 ShuffleToken: SRD-delcatty-ShuffleToken.png
-Sprite: delcatty.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 326
   Kilograms: 32.6
   Pounds: 71.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *They like to live without restrictions, spending their time eating and sleeping whenever they feel like it. Popular among females. Delcatties love clean places, good food and to groom themselves.*
 
 **DexID**:: 0301
-**Species**:: Delcatty
+**Name**:: Delcatty
 **Type**:: Normal
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Normalize|Normalize]] ([[SRD-Wonder Skin|Wonder Skin]])
 **Base HP**:: 4

@@ -1,7 +1,6 @@
 ---
 Ability1: Sand Veil
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-gabite-BookSprite.png
 BoxSprite: SRD-gabite-BoxSprite.png
 DexCategory: Cave Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Garchomp]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Rough Skin
 HomeSprite: SRD-gabite-HomeSprite.png
+Image: gabite.png
 Learnset: '[[SRD-Gabite-Learnset]]'
 Legendary: 'No'
-Name: Gabite
 Number: 444
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-gabite-ShuffleToken.png
-Sprite: gabite.png
 Type1: Dragon
 Type2: Ground
 Weight:
-  Hectograms: 560
   Kilograms: 56.0
   Pounds: 123.5
 ---
@@ -57,7 +50,7 @@ Weight:
 *It hoards a small treasure of sparkly things back in its cave. It will react aggressively towards any potential thief. It is also an excellent hunter, capable of running, swimming and gliding extremely fast.*
 
 **DexID**:: 0444
-**Species**:: Gabite
+**Name**:: Gabite
 **Type**:: Dragon / Ground
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] ([[SRD-Rough Skin|Rough Skin]])
 **Base HP**:: 4

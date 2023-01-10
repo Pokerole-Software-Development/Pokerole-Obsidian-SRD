@@ -1,5 +1,4 @@
 ---
-DexID: '0263'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Zigzagoon
-Species: '[[SRD-Zigzagoon|Zigzagoon]]'
+Pokedex: '[[SRD-Zigzagoon|Zigzagoon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

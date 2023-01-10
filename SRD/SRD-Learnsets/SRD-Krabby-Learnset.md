@@ -1,5 +1,4 @@
 ---
-DexID: 0098
 Moves:
 - - Starter
   - '[[SRD-Bubble|Bubble]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Mimic|Mimic]]'
 Name: Krabby
-Species: '[[SRD-Krabby|Krabby]]'
+Pokedex: '[[SRD-Krabby|Krabby]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

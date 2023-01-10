@@ -1,5 +1,4 @@
 ---
-DexID: '0473'
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Avalanche|Avalanche]]'
 Name: Mamoswine
-Species: '[[SRD-Mamoswine|Mamoswine]]'
+Pokedex: '[[SRD-Mamoswine|Mamoswine]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

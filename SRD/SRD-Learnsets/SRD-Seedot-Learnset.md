@@ -1,5 +1,4 @@
 ---
-DexID: '0273'
 Moves:
 - - Starter
   - '[[SRD-Bide|Bide]]'
@@ -30,14 +29,14 @@ Moves:
 - - Pro
   - '[[SRD-Worry Seed|Worry Seed]]'
 Name: Seedot
-Species: '[[SRD-Seedot|Seedot]]'
+Pokedex: '[[SRD-Seedot|Seedot]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

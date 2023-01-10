@@ -1,7 +1,6 @@
 ---
 Ability1: Flame Body
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-larvesta-BookSprite.png
 BoxSprite: SRD-larvesta-BoxSprite.png
 DexCategory: Torch Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Volcarona]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Swarm
 HomeSprite: SRD-larvesta-HomeSprite.png
+Image: larvesta.png
 Learnset: '[[SRD-Larvesta-Learnset]]'
 Legendary: 'No'
-Name: Larvesta
 Number: 636
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-larvesta-ShuffleToken.png
-Sprite: larvesta.png
 Type1: Bug
 Type2: Fire
 Weight:
-  Hectograms: 288
   Kilograms: 28.8
   Pounds: 63.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *Very Rare. The base of volcanoes is where they make their homes. They shoot fire from their horns to repel attacks from enemies. It becomes a flaming cocoon for months before it finally evolves.*
 
 **DexID**:: 0636
-**Species**:: Larvesta
+**Name**:: Larvesta
 **Type**:: Bug / Fire
 **Abilities**:: [[SRD-Flame Body|Flame Body]] ([[SRD-Swarm|Swarm]])
 **Base HP**:: 3

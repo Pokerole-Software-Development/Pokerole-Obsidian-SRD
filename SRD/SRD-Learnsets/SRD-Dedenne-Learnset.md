@@ -1,5 +1,4 @@
 ---
-DexID: '0701'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Eerie Impulse|Eerie Impulse]]'
 Name: Dedenne
-Species: '[[SRD-Dedenne|Dedenne]]'
+Pokedex: '[[SRD-Dedenne|Dedenne]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

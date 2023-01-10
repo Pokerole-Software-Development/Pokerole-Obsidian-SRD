@@ -1,7 +1,6 @@
 ---
 Ability1: Hustle
 Ability2: Serene Grace
-Baby: 'Yes'
 BookSprite: SRD-togepi-BookSprite.png
 BoxSprite: SRD-togepi-BoxSprite.png
 DexCategory: Spike Ball Pokemon
@@ -17,25 +16,19 @@ Evolutions:
   Stat: Happiness
   Value: 5
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Super Luck
 HomeSprite: SRD-togepi-HomeSprite.png
+Image: togepi.png
 Learnset: '[[SRD-Togepi-Learnset]]'
 Legendary: 'No'
-Name: Togepi
 Number: 175
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-togepi-ShuffleToken.png
-Sprite: togepi.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 15
   Kilograms: 1.5
   Pounds: 3.3
 ---
@@ -55,7 +48,7 @@ Weight:
 *This Pokemon stores all the kindness and good feelings inside of it’s shell and shares them with others, when the shell is full it becomes so happy that it finally evolves. It is said that it’ll bring good fortune to its trainer.*
 
 **DexID**:: 0175
-**Species**:: Togepi
+**Name**:: Togepi
 **Type**:: Fairy
 **Abilities**:: [[SRD-Hustle|Hustle]] / [[SRD-Serene Grace|Serene Grace]] ([[SRD-Super Luck|Super Luck]])
 **Base HP**:: 3

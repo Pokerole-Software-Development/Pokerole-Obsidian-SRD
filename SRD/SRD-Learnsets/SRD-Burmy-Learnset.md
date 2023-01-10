@@ -1,5 +1,4 @@
 ---
-DexID: '0412'
 Moves:
 - - Starter
   - '[[SRD-Protect|Protect]]'
@@ -20,14 +19,14 @@ Moves:
 - - Pro
   - '[[SRD-String Shot|String Shot]]'
 Name: Burmy
-Species: '[[SRD-Burmy|Burmy]]'
+Pokedex: '[[SRD-Burmy|Burmy]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

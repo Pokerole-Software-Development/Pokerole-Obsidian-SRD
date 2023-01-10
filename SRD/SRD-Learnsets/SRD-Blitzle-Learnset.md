@@ -1,5 +1,4 @@
 ---
-DexID: '0522'
 Moves:
 - - Starter
   - '[[SRD-Quick Attack|Quick Attack]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Double Kick|Double Kick]]'
 Name: Blitzle
-Species: '[[SRD-Blitzle|Blitzle]]'
+Pokedex: '[[SRD-Blitzle|Blitzle]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

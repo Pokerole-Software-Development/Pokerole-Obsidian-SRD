@@ -1,5 +1,4 @@
 ---
-DexID: '0337'
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Skill Swap|Skill Swap]]'
 Name: Lunatone
-Species: '[[SRD-Lunatone|Lunatone]]'
+Pokedex: '[[SRD-Lunatone|Lunatone]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

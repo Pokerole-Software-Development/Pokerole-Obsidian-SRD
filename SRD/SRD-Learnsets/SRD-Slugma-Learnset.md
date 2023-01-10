@@ -1,5 +1,4 @@
 ---
-DexID: 0218
 Moves:
 - - Starter
   - '[[SRD-Smog|Smog]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Slugma
-Species: '[[SRD-Slugma|Slugma]]'
+Pokedex: '[[SRD-Slugma|Slugma]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

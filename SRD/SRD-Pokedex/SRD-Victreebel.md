@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-victreebel-BookSprite.png
 BoxSprite: SRD-victreebel-BoxSprite.png
 DexCategory: Flycatcher Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Weepinbell]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 17
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Gluttony
 HomeSprite: SRD-victreebel-HomeSprite.png
+Image: victreebel.png
 Learnset: '[[SRD-Victreebel-Learnset]]'
 Legendary: 'No'
-Name: Victreebel
 Number: 71
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-victreebel-ShuffleToken.png
-Sprite: victreebel.png
 Type1: Grass
 Type2: Poison
 Weight:
-  Hectograms: 155
   Kilograms: 15.5
   Pounds: 34.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *They live together in small groups at tropical areas. Victreebel uses a sweet honey-like smell to lure and attract prey. They also use their long vines to rustle bushes around. They are territorial and aggressive.*
 
 **DexID**:: 0071
-**Species**:: Victreebel
+**Name**:: Victreebel
 **Type**:: Grass / Poison
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 5

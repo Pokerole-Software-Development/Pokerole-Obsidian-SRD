@@ -1,5 +1,4 @@
 ---
-DexID: '0467'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Magmortar
-Species: '[[SRD-Magmortar|Magmortar]]'
+Pokedex: '[[SRD-Magmortar|Magmortar]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0497
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Dragon Pulse|Dragon Pulse]]'
 Name: Serperior
-Species: '[[SRD-Serperior|Serperior]]'
+Pokedex: '[[SRD-Serperior|Serperior]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

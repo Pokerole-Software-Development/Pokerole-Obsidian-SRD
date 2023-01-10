@@ -1,7 +1,6 @@
 ---
 Ability1: Sap Sipper
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-skiddo-BookSprite.png
 BoxSprite: SRD-skiddo-BoxSprite.png
 DexCategory: Mount Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Gogoat]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Grass Pelt
 HomeSprite: SRD-skiddo-HomeSprite.png
+Image: skiddo.png
 Learnset: '[[SRD-Skiddo-Learnset]]'
 Legendary: 'No'
-Name: Skiddo
 Number: 672
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-skiddo-ShuffleToken.png
-Sprite: skiddo.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 310
   Kilograms: 31.0
   Pounds: 68.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *It’s thought to be one of the first Pokemon to live in harmony with humans. If it has sunshine and water it doesn’t need to eat - the leaves on its back will produce the energy for it.*
 
 **DexID**:: 0672
-**Species**:: Skiddo
+**Name**:: Skiddo
 **Type**:: Grass
 **Abilities**:: [[SRD-Sap Sipper|Sap Sipper]] ([[SRD-Grass Pelt|Grass Pelt]])
 **Base HP**:: 3

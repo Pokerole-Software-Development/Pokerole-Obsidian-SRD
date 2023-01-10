@@ -1,5 +1,4 @@
 ---
-DexID: 0238
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Magic Coat|Magic Coat]]'
 Name: Smoochum
-Species: '[[SRD-Smoochum|Smoochum]]'
+Pokedex: '[[SRD-Smoochum|Smoochum]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0250'
 Moves:
 - - Master
   - '[[SRD-Gust|Gust]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Fly|Fly]]'
 Name: Ho-oh
-Species: '[[SRD-Ho-oh|Ho-oh]]'
+Pokedex: '[[SRD-Ho-oh|Ho-oh]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

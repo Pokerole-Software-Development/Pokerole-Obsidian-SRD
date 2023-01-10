@@ -1,5 +1,4 @@
 ---
-DexID: '0220'
 Moves:
 - - Starter
   - '[[SRD-Odor Sleuth|Odor Sleuth]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Body Slam|Body Slam]]'
 Name: Swinub
-Species: '[[SRD-Swinub|Swinub]]'
+Pokedex: '[[SRD-Swinub|Swinub]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

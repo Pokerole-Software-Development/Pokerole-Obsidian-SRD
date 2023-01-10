@@ -1,5 +1,4 @@
 ---
-DexID: 0348
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Armaldo
-Species: '[[SRD-Armaldo|Armaldo]]'
+Pokedex: '[[SRD-Armaldo|Armaldo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

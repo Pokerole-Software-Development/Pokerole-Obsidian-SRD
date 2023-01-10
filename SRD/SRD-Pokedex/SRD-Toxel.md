@@ -1,7 +1,6 @@
 ---
 Ability1: Rattled
 Ability2: Static
-Baby: 'Yes'
 BookSprite: SRD-toxel-BookSprite.png
 BoxSprite: SRD-toxel-BoxSprite.png
 DexCategory: Baby Pokemon
@@ -12,34 +11,28 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Level
-  Pokemon: '[[SRD-Toxtricity Amped]]'
+  Pokemon: '[[SRD-Toxtricity (Amped Form)]]'
   Special: Extrovert
   Speed: Slow
 - Evolves: To
   Kind: Level
-  Pokemon: '[[SRD-Toxtricity Low Key]]'
+  Pokemon: '[[SRD-Toxtricity (Low Key Form)]]'
   Special: Introvert
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Klutz
 HomeSprite: SRD-toxel-HomeSprite.png
+Image: toxel.png
 Learnset: '[[SRD-Toxel-Learnset]]'
 Legendary: 'No'
-Name: Toxel
 Number: 848
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-toxel-ShuffleToken.png
-Sprite: toxel.png
 Type1: Electric
 Type2: Poison
 Weight:
-  Hectograms: 110
   Kilograms: 11.0
   Pounds: 24.3
 ---
@@ -59,7 +52,7 @@ Weight:
 *Toxel secrete poison through their skin, the closer they are to evolving, the brighter their skin color becomes. They need a lot of nurturing but are bad tempered and ill mannered so not many take the task.*
 
 **DexID**:: 0848
-**Species**:: Toxel
+**Name**:: Toxel
 **Type**:: Electric / Poison
 **Abilities**:: [[SRD-Rattled|Rattled]] / [[SRD-Static|Static]] ([[SRD-Klutz|Klutz]])
 **Base HP**:: 3
@@ -77,9 +70,9 @@ Weight:
 **Good Starter**:: Yes
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon                    | Kind   | Speed   | Special   |
-|:----------|:---------------------------|:-------|:--------|:----------|
-| To        | [[SRD-Toxtricity Amped]]   | Level  | Slow    | Extrovert |
-| To        | [[SRD-Toxtricity Low Key]] | Level  | Slow    | Introvert |
+| Evolves   | Pokemon                           | Kind   | Speed   | Special   |
+|:----------|:----------------------------------|:-------|:--------|:----------|
+| To        | [[SRD-Toxtricity (Amped Form)]]   | Level  | Slow    | Extrovert |
+| To        | [[SRD-Toxtricity (Low Key Form)]] | Level  | Slow    | Introvert |
 
 ![[SRD-Toxel-Learnset]]

@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: Water Veil
-Baby: 'No'
 BookSprite: SRD-seaking-BookSprite.png
 BoxSprite: SRD-seaking-BoxSprite.png
 DexCategory: Goldfish Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Goldeen]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-seaking-HomeSprite.png
+Image: seaking.png
 Learnset: '[[SRD-Seaking-Learnset]]'
 Legendary: 'No'
-Name: Seaking
 Number: 119
-PrimaryEggGroup: Water 2
-SecondaryEggGroup: ''
 ShuffleToken: SRD-seaking-ShuffleToken.png
-Sprite: seaking.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 390
   Kilograms: 39.0
   Pounds: 86.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *In the autumn, Seaking males can be seen doing courtship dances to females. After getting a mate both will be seen swimming powerfully up rivers and creeks to make their nest.*
 
 **DexID**:: 0119
-**Species**:: Seaking
+**Name**:: Seaking
 **Type**:: Water
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Water Veil|Water Veil]] ([[SRD-Lightning Rod|Lightning Rod]])
 **Base HP**:: 4

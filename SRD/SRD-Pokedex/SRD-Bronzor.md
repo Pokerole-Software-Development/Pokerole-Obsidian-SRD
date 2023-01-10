@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: Heatproof
-Baby: 'No'
 BookSprite: SRD-bronzor-BookSprite.png
 BoxSprite: SRD-bronzor-BoxSprite.png
 DexCategory: Bronze Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Bronzong]]'
   Speed: Medium
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Heavy Metal
 HomeSprite: SRD-bronzor-HomeSprite.png
+Image: bronzor.png
 Learnset: '[[SRD-Bronzor-Learnset]]'
 Legendary: 'No'
-Name: Bronzor
 Number: 436
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-bronzor-ShuffleToken.png
-Sprite: bronzor.png
 Type1: Steel
 Type2: Psychic
 Weight:
-  Hectograms: 605
   Kilograms: 60.5
   Pounds: 133.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are found in ancient tombs and temples. Objects shaped like Bronzor have been found within the vaults. Bronzors reflect images like mirrors, people say that this reflection shows the future.*
 
 **DexID**:: 0436
-**Species**:: Bronzor
+**Name**:: Bronzor
 **Type**:: Steel / Psychic
 **Abilities**:: [[SRD-Levitate|Levitate]] / [[SRD-Heatproof|Heatproof]] ([[SRD-Heavy Metal|Heavy Metal]])
 **Base HP**:: 3

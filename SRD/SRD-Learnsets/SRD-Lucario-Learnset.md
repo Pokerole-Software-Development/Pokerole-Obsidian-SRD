@@ -1,5 +1,4 @@
 ---
-DexID: 0448
 Moves:
 - - Starter
   - '[[SRD-Laser Focus|Laser Focus]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Vacuum Wave|Vacuum Wave]]'
 Name: Lucario
-Species: '[[SRD-Lucario|Lucario]]'
+Pokedex: '[[SRD-Lucario|Lucario]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

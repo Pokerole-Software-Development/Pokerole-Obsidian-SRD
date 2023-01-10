@@ -1,5 +1,4 @@
 ---
-DexID: '0533'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Detect|Detect]]'
 Name: Gurdurr
-Species: '[[SRD-Gurdurr|Gurdurr]]'
+Pokedex: '[[SRD-Gurdurr|Gurdurr]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

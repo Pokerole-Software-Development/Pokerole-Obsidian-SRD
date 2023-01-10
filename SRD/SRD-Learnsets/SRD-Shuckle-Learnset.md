@@ -1,5 +1,4 @@
 ---
-DexID: '0213'
 Moves:
 - - Starter
   - '[[SRD-Bide|Bide]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Acupressure|Acupressure]]'
 Name: Shuckle
-Species: '[[SRD-Shuckle|Shuckle]]'
+Pokedex: '[[SRD-Shuckle|Shuckle]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

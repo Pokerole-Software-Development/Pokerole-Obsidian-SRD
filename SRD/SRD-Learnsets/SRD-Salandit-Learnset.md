@@ -1,5 +1,4 @@
 ---
-DexID: '0756'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Will-O-Wisp|Will-O-Wisp]]'
 Name: Salandit
-Species: '[[SRD-Salandit|Salandit]]'
+Pokedex: '[[SRD-Salandit|Salandit]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

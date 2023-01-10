@@ -1,7 +1,6 @@
 ---
 Ability1: Rough Skin
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-carvanha-BookSprite.png
 BoxSprite: SRD-carvanha-BoxSprite.png
 DexCategory: Savage Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Sharpedo]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Speed Boost
 HomeSprite: SRD-carvanha-HomeSprite.png
+Image: carvanha.png
 Learnset: '[[SRD-Carvanha-Learnset]]'
 Legendary: 'No'
-Name: Carvanha
 Number: 318
-PrimaryEggGroup: Water 2
-SecondaryEggGroup: ''
 ShuffleToken: SRD-carvanha-ShuffleToken.png
-Sprite: carvanha.png
 Type1: Water
 Type2: Dark
 Weight:
-  Hectograms: 208
   Kilograms: 20.8
   Pounds: 45.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *Anything near a Carvanha school will be swarmed, attacked and tore to bits. However, they are very timid when they are on their own. They live in rivers in the jungle and dislike salt water.*
 
 **DexID**:: 0318
-**Species**:: Carvanha
+**Name**:: Carvanha
 **Type**:: Water / Dark
 **Abilities**:: [[SRD-Rough Skin|Rough Skin]] ([[SRD-Speed Boost|Speed Boost]])
 **Base HP**:: 3

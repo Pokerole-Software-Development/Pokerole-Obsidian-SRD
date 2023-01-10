@@ -1,7 +1,6 @@
 ---
 Ability1: Iron Fist
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-melmetal-BookSprite.png
 BoxSprite: SRD-melmetal-BoxSprite.png
 DexCategory: Hex Nut Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Meltan]]'
   Speed: Unknown
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 25
   Feet: 8.2
   Meters: 2.5
 HiddenAbility: ''
 HomeSprite: SRD-melmetal-HomeSprite.png
+Image: melmetal.png
 Learnset: '[[SRD-Melmetal-Learnset]]'
 Legendary: 'No'
-Name: Melmetal
 Number: 809
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-melmetal-ShuffleToken.png
-Sprite: melmetal.png
 Type1: Steel
 Type2: ''
 Weight:
-  Hectograms: 8000
   Kilograms: 800.0
   Pounds: 1763.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *There is an ancient myth that a Pokemon once taught a group of humans how to work the iron, melt it and shape it into tools; but it was punished for this and cast away, never to be seen again.*
 
 **DexID**:: 0809
-**Species**:: Melmetal
+**Name**:: Melmetal
 **Type**:: Steel
 **Abilities**:: [[SRD-Iron Fist|Iron Fist]]
 **Base HP**:: 6

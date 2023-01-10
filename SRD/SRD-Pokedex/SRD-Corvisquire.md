@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: Unnerve
-Baby: 'No'
 BookSprite: SRD-corvisquire-BookSprite.png
 BoxSprite: SRD-corvisquire-BoxSprite.png
 DexCategory: Raven Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Corviknight]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Big Pecks
 HomeSprite: SRD-corvisquire-HomeSprite.png
+Image: corvisquire.png
 Learnset: '[[SRD-Corvisquire-Learnset]]'
 Legendary: 'No'
-Name: Corvisquire
 Number: 822
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-corvisquire-ShuffleToken.png
-Sprite: corvisquire.png
 Type1: Flying
 Type2: ''
 Weight:
-  Hectograms: 160
   Kilograms: 16.0
   Pounds: 35.3
 ---
@@ -57,7 +50,7 @@ Weight:
 *They are smart enough to use tools in battle, these Pokemon have been seen picking up rocks and flinging them or using ropes to wrap up foes. They choose their battles carefully and do not retreat.*
 
 **DexID**:: 0822
-**Species**:: Corvisquire
+**Name**:: Corvisquire
 **Type**:: Flying
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Unnerve|Unnerve]] ([[SRD-Big Pecks|Big Pecks]])
 **Base HP**:: 4

@@ -1,5 +1,4 @@
 ---
-DexID: '0153'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Grassy Terrain|Grassy Terrain]]'
 Name: Bayleef
-Species: '[[SRD-Bayleef|Bayleef]]'
+Pokedex: '[[SRD-Bayleef|Bayleef]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

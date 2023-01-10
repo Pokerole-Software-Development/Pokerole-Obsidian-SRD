@@ -1,5 +1,4 @@
 ---
-DexID: '0054'
 Moves:
 - - Starter
   - '[[SRD-Water Sport|Water Sport]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Future Sight|Future Sight]]'
 Name: Psyduck
-Species: '[[SRD-Psyduck|Psyduck]]'
+Pokedex: '[[SRD-Psyduck|Psyduck]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

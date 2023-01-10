@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: Sniper
-Baby: 'No'
 BookSprite: SRD-kingdra-BookSprite.png
 BoxSprite: SRD-kingdra-BoxSprite.png
 DexCategory: Dragon Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Seadra]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Damp
 HomeSprite: SRD-kingdra-HomeSprite.png
+Image: kingdra.png
 Learnset: '[[SRD-Kingdra-Learnset]]'
 Legendary: 'No'
-Name: Kingdra
 Number: 230
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-kingdra-ShuffleToken.png
-Sprite: kingdra.png
 Type1: Water
 Type2: Dragon
 Weight:
-  Hectograms: 1520
   Kilograms: 152.0
   Pounds: 335.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *Kingdra sleeps on the seafloor where it is otherwise devoid of life. When a storm arrives, it is said to awaken and wander about in search of prey. They are known for creating twisters in the sea.*
 
 **DexID**:: 0230
-**Species**:: Kingdra
+**Name**:: Kingdra
 **Type**:: Water / Dragon
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Sniper|Sniper]] ([[SRD-Damp|Damp]])
 **Base HP**:: 5

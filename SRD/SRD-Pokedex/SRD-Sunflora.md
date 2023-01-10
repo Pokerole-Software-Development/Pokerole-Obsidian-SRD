@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: Solar Power
-Baby: 'No'
 BookSprite: SRD-sunflora-BookSprite.png
 BoxSprite: SRD-sunflora-BoxSprite.png
 DexCategory: Sun Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Sunkern]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Early Bird
 HomeSprite: SRD-sunflora-HomeSprite.png
+Image: sunflora.png
 Learnset: '[[SRD-Sunflora-Learnset]]'
 Legendary: 'No'
-Name: Sunflora
 Number: 192
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-sunflora-ShuffleToken.png
-Sprite: sunflora.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 85
   Kilograms: 8.5
   Pounds: 18.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *Sunfloras live in flower patches. They convert solar energy into nutrition and are highly active in the warm daytime but suddenly stop moving as soon as the sun sets, closing their petals to cover their face.*
 
 **DexID**:: 0192
-**Species**:: Sunflora
+**Name**:: Sunflora
 **Type**:: Grass
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Solar Power|Solar Power]] ([[SRD-Early Bird|Early Bird]])
 **Base HP**:: 4

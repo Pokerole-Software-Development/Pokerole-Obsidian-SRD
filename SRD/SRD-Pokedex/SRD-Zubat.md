@@ -1,7 +1,6 @@
 ---
 Ability1: Inner Focus
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-zubat-BookSprite.png
 BoxSprite: SRD-zubat-BoxSprite.png
 DexCategory: Bat Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Golbat]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Infiltrator
 HomeSprite: SRD-zubat-HomeSprite.png
+Image: zubat.png
 Learnset: '[[SRD-Zubat-Learnset]]'
 Legendary: 'No'
-Name: Zubat
 Number: 41
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-zubat-ShuffleToken.png
-Sprite: zubat.png
 Type1: Poison
 Type2: Flying
 Weight:
-  Hectograms: 75
   Kilograms: 7.5
   Pounds: 16.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lives in dark caves all around the world. Prolonged exposure to the sun will make it unhealthy. It is blind but uses echolocation to find its way. At night, they leave their cave to feed on fruit and bug Pokemon.*
 
 **DexID**:: 0041
-**Species**:: Zubat
+**Name**:: Zubat
 **Type**:: Poison / Flying
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 3

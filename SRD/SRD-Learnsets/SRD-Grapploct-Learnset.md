@@ -1,5 +1,4 @@
 ---
-DexID: 0854
 Moves:
 - - Starter
   - '[[SRD-Rock Smash|Rock Smash]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Brutal Swing|Brutal Swing]]'
 Name: Grapploct
-Species: '[[SRD-Grapploct|Grapploct]]'
+Pokedex: '[[SRD-Grapploct|Grapploct]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

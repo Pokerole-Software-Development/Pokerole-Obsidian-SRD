@@ -1,7 +1,6 @@
 ---
 Ability1: Shed Skin
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-burmy-BookSprite.png
 BoxSprite: SRD-burmy-BoxSprite.png
 DexCategory: Bagworm Pokemon
@@ -13,17 +12,17 @@ Evolutions:
 - Evolves: To
   Gender: Female
   Kind: Level
-  Pokemon: '[[SRD-Grass Wormadam]]'
+  Pokemon: '[[SRD-Wormadam (Grass Form)]]'
   Speed: Fast
 - Evolves: To
   Gender: Female
   Kind: Level
-  Pokemon: '[[SRD-Steel Wormadam]]'
+  Pokemon: '[[SRD-Wormadam (Steel Form)]]'
   Speed: Fast
 - Evolves: To
   Gender: Female
   Kind: Level
-  Pokemon: '[[SRD-Ground Wormadam]]'
+  Pokemon: '[[SRD-Wormadam (Ground Form)]]'
   Speed: Fast
 - Evolves: To
   Gender: Male
@@ -31,25 +30,19 @@ Evolutions:
   Pokemon: '[[SRD-Mothim]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Overcoat
 HomeSprite: SRD-burmy-HomeSprite.png
+Image: burmy.png
 Learnset: '[[SRD-Burmy-Learnset]]'
 Legendary: 'No'
-Name: Burmy
 Number: 412
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-burmy-ShuffleToken.png
-Sprite: burmy.png
 Type1: Bug
 Type2: ''
 Weight:
-  Hectograms: 34
   Kilograms: 3.4
   Pounds: 7.5
 ---
@@ -69,7 +62,7 @@ Weight:
 *This Pokemon has adapted to live in the forests, deserts and in the city. It makes a cloak with the materials close to it to protect itself from the weather. Males evolve into a Mothim and females into a Wormadam.*
 
 **DexID**:: 0412
-**Species**:: Burmy
+**Name**:: Burmy
 **Type**:: Bug
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 3
@@ -87,11 +80,11 @@ Weight:
 **Good Starter**:: Yes
 **Recommended Rank**:: Starter
 
-| Evolves   | Pokemon                 | Kind   | Speed   | Gender   |
-|:----------|:------------------------|:-------|:--------|:---------|
-| To        | [[SRD-Grass Wormadam]]  | Level  | Fast    | Female   |
-| To        | [[SRD-Steel Wormadam]]  | Level  | Fast    | Female   |
-| To        | [[SRD-Ground Wormadam]] | Level  | Fast    | Female   |
-| To        | [[SRD-Mothim]]          | Level  | Fast    | Male     |
+| Evolves   | Pokemon                        | Kind   | Speed   | Gender   |
+|:----------|:-------------------------------|:-------|:--------|:---------|
+| To        | [[SRD-Wormadam (Grass Form)]]  | Level  | Fast    | Female   |
+| To        | [[SRD-Wormadam (Steel Form)]]  | Level  | Fast    | Female   |
+| To        | [[SRD-Wormadam (Ground Form)]] | Level  | Fast    | Female   |
+| To        | [[SRD-Mothim]]                 | Level  | Fast    | Male     |
 
 ![[SRD-Burmy-Learnset]]

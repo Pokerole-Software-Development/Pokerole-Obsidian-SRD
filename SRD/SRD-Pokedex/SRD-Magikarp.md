@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-magikarp-BookSprite.png
 BoxSprite: SRD-magikarp-BoxSprite.png
 DexCategory: Fish Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Gyarados]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Rattled
 HomeSprite: SRD-magikarp-HomeSprite.png
+Image: magikarp.png
 Learnset: '[[SRD-Magikarp-Learnset]]'
 Legendary: 'No'
-Name: Magikarp
 Number: 129
-PrimaryEggGroup: Water 2
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-magikarp-ShuffleToken.png
-Sprite: magikarp.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 100
   Kilograms: 10.0
   Pounds: 22.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *Magikarp is a pathetic excuse of a Pokemon that is not even good to eat. It’s only capable of flopping and splashing. However, it can survive in any body of water no matter how polluted it is.*
 
 **DexID**:: 0129
-**Species**:: Magikarp
+**Name**:: Magikarp
 **Type**:: Water
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 3

@@ -1,5 +1,4 @@
 ---
-DexID: 0806
 Moves:
 - - Master
   - '[[SRD-Scratch|Scratch]]'
@@ -40,14 +39,14 @@ Moves:
 - - Master
   - '[[SRD-Dual Chop|Dual Chop]]'
 Name: Zeraora
-Species: '[[SRD-Zeraora|Zeraora]]'
+Pokedex: '[[SRD-Zeraora|Zeraora]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

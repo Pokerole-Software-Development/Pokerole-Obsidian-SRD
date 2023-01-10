@@ -1,5 +1,4 @@
 ---
-DexID: '0440'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -24,14 +23,14 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Happiny
-Species: '[[SRD-Happiny|Happiny]]'
+Pokedex: '[[SRD-Happiny|Happiny]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

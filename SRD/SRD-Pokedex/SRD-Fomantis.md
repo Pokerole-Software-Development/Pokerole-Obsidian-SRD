@@ -1,7 +1,6 @@
 ---
 Ability1: Leaf Guard
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-fomantis-BookSprite.png
 BoxSprite: SRD-fomantis-BoxSprite.png
 DexCategory: Sickle Grass Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Lurantis]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Contrary
 HomeSprite: SRD-fomantis-HomeSprite.png
+Image: fomantis.png
 Learnset: '[[SRD-Fomantis-Learnset]]'
 Legendary: 'No'
-Name: Fomantis
 Number: 753
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-fomantis-ShuffleToken.png
-Sprite: fomantis.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 15
   Kilograms: 1.5
   Pounds: 3.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *They sleep during the day, absorbing sunlight in a flower meadow; by night they become active and search for another spot to sleep. Their arms are made or sharp grass leaves to defend themselves.*
 
 **DexID**:: 0753
-**Species**:: Fomantis
+**Name**:: Fomantis
 **Type**:: Grass
 **Abilities**:: [[SRD-Leaf Guard|Leaf Guard]] ([[SRD-Contrary|Contrary]])
 **Base HP**:: 3

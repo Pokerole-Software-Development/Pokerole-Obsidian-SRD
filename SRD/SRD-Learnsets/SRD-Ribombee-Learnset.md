@@ -1,5 +1,4 @@
 ---
-DexID: '0744'
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Skill Swap|Skill Swap]]'
 Name: Ribombee
-Species: '[[SRD-Ribombee|Ribombee]]'
+Pokedex: '[[SRD-Ribombee|Ribombee]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Clear Body
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-diancie-BookSprite.png
 BoxSprite: SRD-diancie-BoxSprite.png
 DexCategory: 'Registered as #703 Carbink'
@@ -13,27 +12,21 @@ Evolutions:
 - Evolves: To
   Item: Diancite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Diancie]]'
+  Pokemon: '[[SRD-Diancie (Mega Form)]]'
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: ''
 HomeSprite: SRD-diancie-HomeSprite.png
+Image: diancie.png
 Learnset: '[[SRD-Diancie-Learnset]]'
 Legendary: 'Yes'
-Name: Diancie
 Number: 719
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-diancie-ShuffleToken.png
-Sprite: diancie.png
 Type1: Rock
 Type2: Fairy
 Weight:
-  Hectograms: 88
   Kilograms: 8.8
   Pounds: 19.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *The popular saying goes like this: “If you put a Carbon under pressure you will get a Diamond” But it surely was not referring to a Pokemon... or was it?*
 
 **DexID**:: 0719
-**Species**:: Diancie
+**Name**:: Diancie
 **Type**:: Rock / Fairy
 **Abilities**:: [[SRD-Clear Body|Clear Body]]
 **Base HP**:: 4
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-| Evolves   | Pokemon              | Kind   | Item     |
-|:----------|:---------------------|:-------|:---------|
-| To        | [[SRD-Mega-Diancie]] | Mega   | Diancite |
+| Evolves   | Pokemon                     | Kind   | Item     |
+|:----------|:----------------------------|:-------|:---------|
+| To        | [[SRD-Diancie (Mega Form)]] | Mega   | Diancite |
 
 ![[SRD-Diancie-Learnset]]

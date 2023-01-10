@@ -1,5 +1,4 @@
 ---
-DexID: '0636'
 Moves:
 - - Starter
   - '[[SRD-Ember|Ember]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Magnet Rise|Magnet Rise]]'
 Name: Volcarona
-Species: '[[SRD-Volcarona|Volcarona]]'
+Pokedex: '[[SRD-Volcarona|Volcarona]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

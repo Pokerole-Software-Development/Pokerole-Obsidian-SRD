@@ -1,5 +1,4 @@
 ---
-DexID: '0003'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Frenzy Plant|Frenzy Plant]]'
 Name: Venusaur
-Species: '[[SRD-Venusaur|Venusaur]]'
+Pokedex: '[[SRD-Venusaur|Venusaur]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

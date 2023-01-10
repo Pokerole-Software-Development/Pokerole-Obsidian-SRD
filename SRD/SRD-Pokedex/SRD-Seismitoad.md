@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: Poison Touch
-Baby: 'No'
 BookSprite: SRD-seismitoad-BookSprite.png
 BoxSprite: SRD-seismitoad-BoxSprite.png
 DexCategory: Vibration Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Palpitoad]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Water Absorb
 HomeSprite: SRD-seismitoad-HomeSprite.png
+Image: seismitoad.png
 Learnset: '[[SRD-Seismitoad-Learnset]]'
 Legendary: 'No'
-Name: Seismitoad
 Number: 537
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: ''
 ShuffleToken: SRD-seismitoad-ShuffleToken.png
-Sprite: seismitoad.png
 Type1: Water
 Type2: Ground
 Weight:
-  Hectograms: 620
   Kilograms: 62.0
   Pounds: 136.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is only found in a few marshes, and rarely seen on clean water. They shoot a paralyzing liquid from their head bumps and use the vibrations on their bumps to harm their foes.*
 
 **DexID**:: 0537
-**Species**:: Seismitoad
+**Name**:: Seismitoad
 **Type**:: Water / Ground
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Poison Touch|Poison Touch]] ([[SRD-Water Absorb|Water Absorb]])
 **Base HP**:: 6

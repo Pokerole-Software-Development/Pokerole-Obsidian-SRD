@@ -1,5 +1,4 @@
 ---
-DexID: 0718F3
 Moves:
 - - Master
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Master
   - '[[SRD-Dazzling Gleam|Dazzling Gleam]]'
 Name: Diancie
-Species: '[[SRD-Diancie|Diancie]]'
+Pokedex: '[[SRD-Diancie|Diancie]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

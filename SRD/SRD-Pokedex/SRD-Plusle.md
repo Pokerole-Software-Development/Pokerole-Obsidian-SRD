@@ -1,7 +1,6 @@
 ---
 Ability1: Plus
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-plusle-BookSprite.png
 BoxSprite: SRD-plusle-BoxSprite.png
 DexCategory: Cheering Pokemon
@@ -11,25 +10,19 @@ DexDescription: They are often seen cheerleading their friends. When someone the
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-plusle-HomeSprite.png
+Image: plusle.png
 Learnset: '[[SRD-Plusle-Learnset]]'
 Legendary: 'No'
-Name: Plusle
 Number: 311
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-plusle-ShuffleToken.png
-Sprite: plusle.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 42
   Kilograms: 4.2
   Pounds: 9.3
 ---
@@ -49,7 +42,7 @@ Weight:
 *They are often seen cheerleading their friends. When someone they like does a great job, they shower the field with sparks, but when they lose, Plusle cries loudly. This Pokemon drains power from telephone poles.*
 
 **DexID**:: 0311
-**Species**:: Plusle
+**Name**:: Plusle
 **Type**:: Electric
 **Abilities**:: [[SRD-Plus|Plus]] ([[SRD-Lightning Rod|Lightning Rod]])
 **Base HP**:: 4

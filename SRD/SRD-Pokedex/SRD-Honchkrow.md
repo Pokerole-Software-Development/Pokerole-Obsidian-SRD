@@ -1,7 +1,6 @@
 ---
 Ability1: Insomnia
 Ability2: Super Luck
-Baby: 'No'
 BookSprite: SRD-honchkrow-BookSprite.png
 BoxSprite: SRD-honchkrow-BoxSprite.png
 DexCategory: Big Boss Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Murkrow]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Moxie
 HomeSprite: SRD-honchkrow-HomeSprite.png
+Image: honchkrow.png
 Learnset: '[[SRD-Honchkrow-Learnset]]'
 Legendary: 'No'
-Name: Honchkrow
 Number: 430
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-honchkrow-ShuffleToken.png
-Sprite: honchkrow.png
 Type1: Dark
 Type2: Flying
 Weight:
-  Hectograms: 273
   Kilograms: 27.3
   Pounds: 60.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lets out a deep cry to summon Murkrows, which fetch food and shiny objects to Honchkrow. It is, however, a tyrant to the Murkrow. It only goes out at night to carry out evil deeds.*
 
 **DexID**:: 0430
-**Species**:: Honchkrow
+**Name**:: Honchkrow
 **Type**:: Dark / Flying
 **Abilities**:: [[SRD-Insomnia|Insomnia]] / [[SRD-Super Luck|Super Luck]] ([[SRD-Moxie|Moxie]])
 **Base HP**:: 5

@@ -1,7 +1,6 @@
 ---
 Ability1: Battle Armor
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-anorith-BookSprite.png
 BoxSprite: SRD-anorith-BoxSprite.png
 DexCategory: Old Shrimp Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Armaldo]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Swift Swim
 HomeSprite: SRD-anorith-HomeSprite.png
+Image: anorith.png
 Learnset: '[[SRD-Anorith-Learnset]]'
 Legendary: 'No'
-Name: Anorith
 Number: 347
-PrimaryEggGroup: Water 3
-SecondaryEggGroup: ''
 ShuffleToken: SRD-anorith-ShuffleToken.png
-Sprite: anorith.png
 Type1: Rock
 Type2: Bug
 Weight:
-  Hectograms: 125
   Kilograms: 12.5
   Pounds: 27.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *This ancient Pokemon is thought to be the common ancestor of many modern Bug Pokemon. The fossils show it lived in big schools and it preferred warm waters. Anoriths used their claws to catch small prey.*
 
 **DexID**:: 0347
-**Species**:: Anorith
+**Name**:: Anorith
 **Type**:: Rock / Bug
 **Abilities**:: [[SRD-Battle Armor|Battle Armor]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 3

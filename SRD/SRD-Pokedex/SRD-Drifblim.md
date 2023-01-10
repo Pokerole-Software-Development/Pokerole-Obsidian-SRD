@@ -1,7 +1,6 @@
 ---
 Ability1: Aftermath
 Ability2: Unburden
-Baby: 'No'
 BookSprite: SRD-drifblim-BookSprite.png
 BoxSprite: SRD-drifblim-BoxSprite.png
 DexCategory: Blimp Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Drifloon]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Flare Boost
 HomeSprite: SRD-drifblim-HomeSprite.png
+Image: drifblim.png
 Learnset: '[[SRD-Drifblim-Learnset]]'
 Legendary: 'No'
-Name: Drifblim
 Number: 426
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-drifblim-ShuffleToken.png
-Sprite: drifblim.png
 Type1: Ghost
 Type2: Flying
 Weight:
-  Hectograms: 150
   Kilograms: 15.0
   Pounds: 33.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *They float in groups in the evenings, sometimes carrying people or Pokemon. If you notice them, they suddenly vanish. No one knows where they go at night, and those who follow them never return.*
 
 **DexID**:: 0426
-**Species**:: Drifblim
+**Name**:: Drifblim
 **Type**:: Ghost / Flying
 **Abilities**:: [[SRD-Aftermath|Aftermath]] / [[SRD-Unburden|Unburden]] ([[SRD-Flare Boost|Flare Boost]])
 **Base HP**:: 7

@@ -1,7 +1,6 @@
 ---
 Ability1: Overcoat
 Ability2: Magic Guard
-Baby: 'No'
 BookSprite: SRD-reuniclus-BookSprite.png
 BoxSprite: SRD-reuniclus-BoxSprite.png
 DexCategory: Multiplying Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Duosion]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Regenerator
 HomeSprite: SRD-reuniclus-HomeSprite.png
+Image: reuniclus.png
 Learnset: '[[SRD-Reuniclus-Learnset]]'
 Legendary: 'No'
-Name: Reuniclus
 Number: 579
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-reuniclus-ShuffleToken.png
-Sprite: reuniclus.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 201
   Kilograms: 20.1
   Pounds: 44.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *These intelligent Pokemon fight by controlling their arms with psychic energy. They have been seen forming networks of many Reuniclus holding hands and unleashing an incredible psychic wave.*
 
 **DexID**:: 0579
-**Species**:: Reuniclus
+**Name**:: Reuniclus
 **Type**:: Psychic
 **Abilities**:: [[SRD-Overcoat|Overcoat]] / [[SRD-Magic Guard|Magic Guard]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 6

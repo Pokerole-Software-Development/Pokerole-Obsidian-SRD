@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: Tangled Feet
-Baby: 'No'
 BookSprite: SRD-pidgeotto-BookSprite.png
 BoxSprite: SRD-pidgeotto-BoxSprite.png
 DexCategory: Bird Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Pidgeot]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Big Pecks
 HomeSprite: SRD-pidgeotto-HomeSprite.png
+Image: pidgeotto.png
 Learnset: '[[SRD-Pidgeotto-Learnset]]'
 Legendary: 'No'
-Name: Pidgeotto
 Number: 17
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-pidgeotto-ShuffleToken.png
-Sprite: pidgeotto.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 300
   Kilograms: 30.0
   Pounds: 66.1
 ---
@@ -57,7 +50,7 @@ Weight:
 *Each Pidgeotto claims a large meadow area as its territory. This Pokemon flies around, patrolling its home and will attack any intruders with its sharp claws. It will challenge itself to fly a bit higher every day.*
 
 **DexID**:: 0017
-**Species**:: Pidgeotto
+**Name**:: Pidgeotto
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Tangled Feet|Tangled Feet]] ([[SRD-Big Pecks|Big Pecks]])
 **Base HP**:: 4

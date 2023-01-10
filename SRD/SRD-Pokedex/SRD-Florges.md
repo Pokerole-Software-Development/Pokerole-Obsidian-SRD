@@ -1,7 +1,6 @@
 ---
 Ability1: Flower Veil
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-florges-BookSprite.png
 BoxSprite: SRD-florges-BoxSprite.png
 DexCategory: Garden Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Floette]]'
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Symbiosis
 HomeSprite: SRD-florges-HomeSprite.png
+Image: florges.png
 Learnset: '[[SRD-Florges-Learnset]]'
 Legendary: 'No'
-Name: Florges
 Number: 671
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-florges-ShuffleToken.png
-Sprite: florges.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 100
   Kilograms: 10.0
   Pounds: 22.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *In times long past, castle rulers would invite Florges to create flower gardens to embellish their domains. Florges claim beautiful meadows as their territories but they are kind and merciful with visitors.*
 
 **DexID**:: 0671
-**Species**:: Florges
+**Name**:: Florges
 **Type**:: Fairy
 **Abilities**:: [[SRD-Flower Veil|Flower Veil]] ([[SRD-Symbiosis|Symbiosis]])
 **Base HP**:: 5

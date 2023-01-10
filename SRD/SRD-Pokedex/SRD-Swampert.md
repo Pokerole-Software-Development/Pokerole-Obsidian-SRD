@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-swampert-BookSprite.png
 BoxSprite: SRD-swampert-BoxSprite.png
 DexCategory: Mud Fish Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Swampertite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Swampert]]'
+  Pokemon: '[[SRD-Swampert (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Damp
 HomeSprite: SRD-swampert-HomeSprite.png
+Image: swampert.png
 Learnset: '[[SRD-Swampert-Learnset]]'
 Legendary: 'No'
-Name: Swampert
 Number: 260
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Water 1
 ShuffleToken: SRD-swampert-ShuffleToken.png
-Sprite: swampert.png
 Type1: Water
 Type2: Ground
 Weight:
-  Hectograms: 819
   Kilograms: 81.9
   Pounds: 180.6
 ---
@@ -57,7 +50,7 @@ Weight:
 *They have an incredible sight that allows them to see in muddy water. They nest in beaches, and shield their young with their strong arms. When a storm is coming, Swamperts build a fort with big rocks.*
 
 **DexID**:: 0260
-**Species**:: Swampert
+**Name**:: Swampert
 **Type**:: Water / Ground
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Damp|Damp]])
 **Base HP**:: 6
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon               | Kind   | Speed   | Item        |
-|:----------|:----------------------|:-------|:--------|:------------|
-| From      | [[SRD-Marshtomp]]     | Level  | Medium  |             |
-| To        | [[SRD-Mega-Swampert]] | Mega   |         | Swampertite |
+| Evolves   | Pokemon                      | Kind   | Speed   | Item        |
+|:----------|:-----------------------------|:-------|:--------|:------------|
+| From      | [[SRD-Marshtomp]]            | Level  | Medium  |             |
+| To        | [[SRD-Swampert (Mega Form)]] | Mega   |         | Swampertite |
 
 ![[SRD-Swampert-Learnset]]

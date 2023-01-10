@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: Leaf Guard
-Baby: 'No'
 BookSprite: SRD-jumpluff-BookSprite.png
 BoxSprite: SRD-jumpluff-BoxSprite.png
 DexCategory: Cottonweed Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Skiploom]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Infiltrator
 HomeSprite: SRD-jumpluff-HomeSprite.png
+Image: jumpluff.png
 Learnset: '[[SRD-Jumpluff-Learnset]]'
 Legendary: 'No'
-Name: Jumpluff
 Number: 189
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-jumpluff-ShuffleToken.png
-Sprite: jumpluff.png
 Type1: Grass
 Type2: Flying
 Weight:
-  Hectograms: 30
   Kilograms: 3.0
   Pounds: 6.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *It flies along the wind and spreads its cotton-like spores all over the world to make more offspring. It is always looking for warm places, if it gets caught by a cold front, it will land to find shelter.*
 
 **DexID**:: 0189
-**Species**:: Jumpluff
+**Name**:: Jumpluff
 **Type**:: Grass / Flying
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Leaf Guard|Leaf Guard]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 5

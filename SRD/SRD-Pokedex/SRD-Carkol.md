@@ -1,7 +1,6 @@
 ---
 Ability1: Steam Engine
 Ability2: Flame Body
-Baby: 'No'
 BookSprite: SRD-carkol-BookSprite.png
 BoxSprite: SRD-carkol-BoxSprite.png
 DexCategory: Coal Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Coalossal]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Flash Fire
 HomeSprite: SRD-carkol-HomeSprite.png
+Image: carkol.png
 Learnset: '[[SRD-Carkol-Learnset]]'
 Legendary: 'No'
-Name: Carkol
 Number: 838
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-carkol-ShuffleToken.png
-Sprite: carkol.png
 Type1: Rock
 Type2: Fire
 Weight:
-  Hectograms: 780
   Kilograms: 78.0
   Pounds: 172.0
 ---
@@ -57,7 +50,7 @@ Weight:
 *It rolls its legs, their heavy weight creates parallel trackmarks that allow them to travel faster through caves and tunnels. In old times, people used Carkol's coal as fuel for they can hold fire for a long time.*
 
 **DexID**:: 0838
-**Species**:: Carkol
+**Name**:: Carkol
 **Type**:: Rock / Fire
 **Abilities**:: [[SRD-Steam Engine|Steam Engine]] / [[SRD-Flame Body|Flame Body]] ([[SRD-Flash Fire|Flash Fire]])
 **Base HP**:: 4

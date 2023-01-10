@@ -1,7 +1,6 @@
 ---
 Ability1: Anticipation
 Ability2: Dry Skin
-Baby: 'No'
 BookSprite: SRD-toxicroak-BookSprite.png
 BoxSprite: SRD-toxicroak-BoxSprite.png
 DexCategory: Toxic Mouth Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Croagunk]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Poison Touch
 HomeSprite: SRD-toxicroak-HomeSprite.png
+Image: toxicroak.png
 Learnset: '[[SRD-Toxicroak-Learnset]]'
 Legendary: 'No'
-Name: Toxicroak
 Number: 454
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-toxicroak-ShuffleToken.png
-Sprite: toxicroak.png
 Type1: Poison
 Type2: Fighting
 Weight:
-  Hectograms: 444
   Kilograms: 44.4
   Pounds: 97.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *The toxin made in its poison sacs is pumped into the knuckle claws through tubes down its arms. Its toxins are so powerful that even a scratch from its knuckles could be fatal in a few hours.*
 
 **DexID**:: 0454
-**Species**:: Toxicroak
+**Name**:: Toxicroak
 **Type**:: Poison / Fighting
 **Abilities**:: [[SRD-Anticipation|Anticipation]] / [[SRD-Dry Skin|Dry Skin]] ([[SRD-Poison Touch|Poison Touch]])
 **Base HP**:: 4

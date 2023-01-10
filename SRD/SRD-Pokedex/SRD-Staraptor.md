@@ -1,7 +1,6 @@
 ---
 Ability1: Intimidate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-staraptor-BookSprite.png
 BoxSprite: SRD-staraptor-BoxSprite.png
 DexCategory: Predator Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Staravia]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Reckless
 HomeSprite: SRD-staraptor-HomeSprite.png
+Image: staraptor.png
 Learnset: '[[SRD-Staraptor-Learnset]]'
 Legendary: 'No'
-Name: Staraptor
 Number: 398
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-staraptor-ShuffleToken.png
-Sprite: staraptor.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 249
   Kilograms: 24.9
   Pounds: 54.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *Staraptor is a savage creature. They will never stop attacking even if they get injured,and will fight foes bigger than themselves. They are known to leave their flock to live on their own when they evolve.*
 
 **DexID**:: 0398
-**Species**:: Staraptor
+**Name**:: Staraptor
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Intimidate|Intimidate]] ([[SRD-Reckless|Reckless]])
 **Base HP**:: 5

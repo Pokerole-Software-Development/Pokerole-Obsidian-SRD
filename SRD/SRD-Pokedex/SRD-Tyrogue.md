@@ -1,7 +1,6 @@
 ---
 Ability1: Guts
 Ability2: Steadfast
-Baby: 'Yes'
 BookSprite: SRD-tyrogue-BookSprite.png
 BoxSprite: SRD-tyrogue-BoxSprite.png
 DexCategory: Scuffle Pokemon
@@ -26,25 +25,19 @@ Evolutions:
   Stat: Vitality
   Value: -1
 GenderType: M
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Vital Spirit
 HomeSprite: SRD-tyrogue-HomeSprite.png
+Image: tyrogue.png
 Learnset: '[[SRD-Tyrogue-Learnset]]'
 Legendary: 'No'
-Name: Tyrogue
 Number: 236
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-tyrogue-ShuffleToken.png
-Sprite: tyrogue.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 210
   Kilograms: 21.0
   Pounds: 46.3
 ---
@@ -64,7 +57,7 @@ Weight:
 *Tyrogue is an energetic, competitive and fearless Pokemon that’s always looking to get stronger, fighting any enemies even if it looses. They attack anyone, any day, anytime, everyday, without warning.*
 
 **DexID**:: 0236
-**Species**:: Tyrogue
+**Name**:: Tyrogue
 **Type**:: Fighting
 **Abilities**:: [[SRD-Guts|Guts]] / [[SRD-Steadfast|Steadfast]] ([[SRD-Vital Spirit|Vital Spirit]])
 **Base HP**:: 3

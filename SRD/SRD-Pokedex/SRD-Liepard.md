@@ -1,7 +1,6 @@
 ---
 Ability1: Limber
 Ability2: Unburden
-Baby: 'No'
 BookSprite: SRD-liepard-BookSprite.png
 BoxSprite: SRD-liepard-BoxSprite.png
 DexCategory: Cruel Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Purrloin]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Prankster
 HomeSprite: SRD-liepard-HomeSprite.png
+Image: liepard.png
 Learnset: '[[SRD-Liepard-Learnset]]'
 Legendary: 'No'
-Name: Liepard
 Number: 510
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-liepard-ShuffleToken.png
-Sprite: liepard.png
 Type1: Dark
 Type2: ''
 Weight:
-  Hectograms: 375
   Kilograms: 37.5
   Pounds: 82.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *It’s difficult to see one in the wild. These Pokemon vanish and appear attacking unexpectedly. Many Trainers are drawn to their beautiful fur and elegant appeal. But they can be quite dangerous.*
 
 **DexID**:: 0510
-**Species**:: Liepard
+**Name**:: Liepard
 **Type**:: Dark
 **Abilities**:: [[SRD-Limber|Limber]] / [[SRD-Unburden|Unburden]] ([[SRD-Prankster|Prankster]])
 **Base HP**:: 4

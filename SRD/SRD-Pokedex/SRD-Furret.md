@@ -1,7 +1,6 @@
 ---
 Ability1: Run Away
 Ability2: Keen Eye
-Baby: 'No'
 BookSprite: SRD-furret-BookSprite.png
 BoxSprite: SRD-furret-BoxSprite.png
 DexCategory: Long Body Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Sentret]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Frisk
 HomeSprite: SRD-furret-HomeSprite.png
+Image: furret.png
 Learnset: '[[SRD-Furret-Learnset]]'
 Legendary: 'No'
-Name: Furret
 Number: 162
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-furret-ShuffleToken.png
-Sprite: furret.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 325
   Kilograms: 32.5
   Pounds: 71.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lives along its Sentret family and acts as the hunter and caregiver of the pack. It can move really fast. If it is cornered, it will squirm through even the narrowest of gaps to escape safe and sound.*
 
 **DexID**:: 0162
-**Species**:: Furret
+**Name**:: Furret
 **Type**:: Normal
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Keen Eye|Keen Eye]] ([[SRD-Frisk|Frisk]])
 **Base HP**:: 4

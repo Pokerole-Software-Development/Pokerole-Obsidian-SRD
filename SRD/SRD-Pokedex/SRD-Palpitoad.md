@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: Hydration
-Baby: 'No'
 BookSprite: SRD-palpitoad-BookSprite.png
 BoxSprite: SRD-palpitoad-BoxSprite.png
 DexCategory: Vibration Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Seismitoad]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Water Absorb
 HomeSprite: SRD-palpitoad-HomeSprite.png
+Image: palpitoad.png
 Learnset: '[[SRD-Palpitoad-Learnset]]'
 Legendary: 'No'
-Name: Palpitoad
 Number: 536
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: ''
 ShuffleToken: SRD-palpitoad-ShuffleToken.png
-Sprite: palpitoad.png
 Type1: Water
 Type2: Ground
 Weight:
-  Hectograms: 170
   Kilograms: 17.0
   Pounds: 37.5
 ---
@@ -57,7 +50,7 @@ Weight:
 *It lives both in water and land. It uses its long, sticky tongue to capture prey. When they vibrate the bumps on their heads, they can make waves in the water and even earthquake-like vibrations on land.*
 
 **DexID**:: 0536
-**Species**:: Palpitoad
+**Name**:: Palpitoad
 **Type**:: Water / Ground
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Hydration|Hydration]] ([[SRD-Water Absorb|Water Absorb]])
 **Base HP**:: 4

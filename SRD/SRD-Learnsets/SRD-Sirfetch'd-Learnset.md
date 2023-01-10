@@ -1,5 +1,4 @@
 ---
-DexID: 0866
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Focus Energy|Focus Energy]]'
 Name: Sirfetch'd
-Species: '[[SRD-Sirfetch''d|Sirfetch''d]]'
+Pokedex: '[[SRD-Sirfetch''d|Sirfetch''d]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

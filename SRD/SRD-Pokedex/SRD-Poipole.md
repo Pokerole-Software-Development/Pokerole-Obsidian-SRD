@@ -1,7 +1,6 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-poipole-BookSprite.png
 BoxSprite: SRD-poipole-BoxSprite.png
 DexCategory: 'Aether Foundation Log #162'
@@ -15,25 +14,19 @@ Evolutions:
   Move: Dragon Pulse
   Pokemon: '[[SRD-Naganadel]]'
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: ''
 HomeSprite: SRD-poipole-HomeSprite.png
+Image: poipole.png
 Learnset: '[[SRD-Poipole-Learnset]]'
 Legendary: 'No'
-Name: Poipole
 Number: 803
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-poipole-ShuffleToken.png
-Sprite: poipole.png
 Type1: Poison
 Type2: ''
 Weight:
-  Hectograms: 18
   Kilograms: 1.8
   Pounds: 4.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *Thanks to the Recon Squad we’ve managed to secure a location on the other side. UB- Adhesive have been a great help; their intelligence and friendliness would make them very popular in our world.*
 
 **DexID**:: 0803
-**Species**:: Poipole
+**Name**:: Poipole
 **Type**:: Poison
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 3

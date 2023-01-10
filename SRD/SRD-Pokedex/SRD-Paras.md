@@ -1,7 +1,6 @@
 ---
 Ability1: Effect Spore
 Ability2: Dry Skin
-Baby: 'No'
 BookSprite: SRD-paras-BookSprite.png
 BoxSprite: SRD-paras-BoxSprite.png
 DexCategory: Mushroom Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Parasect]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Damp
 HomeSprite: SRD-paras-HomeSprite.png
+Image: paras.png
 Learnset: '[[SRD-Paras-Learnset]]'
 Legendary: 'No'
-Name: Paras
 Number: 46
-PrimaryEggGroup: Bug
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-paras-ShuffleToken.png
-Sprite: paras.png
 Type1: Bug
 Type2: Grass
 Weight:
-  Hectograms: 54
   Kilograms: 5.4
   Pounds: 11.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *Paras has two parasitic mushrooms growing on its back. They grow large by drawing nutrients from this Bug Pokemon. They are valued as a medicine for prolonging life. Paras can be found in humid areas.*
 
 **DexID**:: 0046
-**Species**:: Paras
+**Name**:: Paras
 **Type**:: Bug / Grass
 **Abilities**:: [[SRD-Effect Spore|Effect Spore]] / [[SRD-Dry Skin|Dry Skin]] ([[SRD-Damp|Damp]])
 **Base HP**:: 3

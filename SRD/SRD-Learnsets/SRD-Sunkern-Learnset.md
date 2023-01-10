@@ -1,5 +1,4 @@
 ---
-DexID: 0191
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Grassy Terrain|Grassy Terrain]]'
 Name: Sunkern
-Species: '[[SRD-Sunkern|Sunkern]]'
+Pokedex: '[[SRD-Sunkern|Sunkern]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

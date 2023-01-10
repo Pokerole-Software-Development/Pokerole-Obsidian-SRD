@@ -1,5 +1,4 @@
 ---
-DexID: '0053'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Assist|Assist]]'
 Name: Persian
-Species: '[[SRD-Persian|Persian]]'
+Pokedex: '[[SRD-Persian|Persian]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

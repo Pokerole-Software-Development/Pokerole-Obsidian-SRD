@@ -1,7 +1,6 @@
 ---
 Ability1: Oblivious
 Ability2: Forewarn
-Baby: 'No'
 BookSprite: SRD-jynx-BookSprite.png
 BoxSprite: SRD-jynx-BoxSprite.png
 DexCategory: Humanshape Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Smoochum]]'
   Speed: Medium
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Dry Skin
 HomeSprite: SRD-jynx-HomeSprite.png
+Image: jynx.png
 Learnset: '[[SRD-Jynx-Learnset]]'
 Legendary: 'No'
-Name: Jynx
 Number: 124
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-jynx-ShuffleToken.png
-Sprite: jynx.png
 Type1: Ice
 Type2: Psychic
 Weight:
-  Hectograms: 406
   Kilograms: 40.6
   Pounds: 89.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is not common outside cold areas. This Pokemon is female only. Its cries sound like human speech. However, it is impossible to tell what it is trying to say. The way it moves and talks induce others to dance.*
 
 **DexID**:: 0124
-**Species**:: Jynx
+**Name**:: Jynx
 **Type**:: Ice / Psychic
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Forewarn|Forewarn]] ([[SRD-Dry Skin|Dry Skin]])
 **Base HP**:: 4

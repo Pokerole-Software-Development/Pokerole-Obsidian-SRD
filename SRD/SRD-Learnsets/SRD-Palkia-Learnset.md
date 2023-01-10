@@ -1,5 +1,4 @@
 ---
-DexID: 0484
 Moves:
 - - Master
   - '[[SRD-Dragon Breath|Dragon Breath]]'
@@ -38,14 +37,14 @@ Moves:
 - - Master
   - '[[SRD-Liquidation|Liquidation]]'
 Name: Palkia
-Species: '[[SRD-Palkia|Palkia]]'
+Pokedex: '[[SRD-Palkia|Palkia]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0750'
 Moves:
 - - Starter
   - '[[SRD-Water Sport|Water Sport]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Spit Up|Spit Up]]'
 Name: Dewpider
-Species: '[[SRD-Dewpider|Dewpider]]'
+Pokedex: '[[SRD-Dewpider|Dewpider]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

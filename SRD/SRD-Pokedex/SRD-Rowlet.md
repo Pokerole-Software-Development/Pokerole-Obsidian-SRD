@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-rowlet-BookSprite.png
 BoxSprite: SRD-rowlet-BoxSprite.png
 DexCategory: Grass Quill Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Dartrix]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Long Reach
 HomeSprite: SRD-rowlet-HomeSprite.png
+Image: rowlet.png
 Learnset: '[[SRD-Rowlet-Learnset]]'
 Legendary: 'No'
-Name: Rowlet
 Number: 722
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-rowlet-ShuffleToken.png
-Sprite: rowlet.png
 Type1: Grass
 Type2: Flying
 Weight:
-  Hectograms: 15
   Kilograms: 1.5
   Pounds: 3.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *This is a shy Pokemon, it sleeps during the day, absorbing sunlight through its feathers, then at night becomes more active. It likes to keep sight of its trainer at all times, rotating its head 180° to do so.*
 
 **DexID**:: 0722
-**Species**:: Rowlet
+**Name**:: Rowlet
 **Type**:: Grass / Flying
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Long Reach|Long Reach]])
 **Base HP**:: 3

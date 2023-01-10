@@ -1,5 +1,4 @@
 ---
-DexID: 0399
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Last Resort|Last Resort]]'
 Name: Bidoof
-Species: '[[SRD-Bidoof|Bidoof]]'
+Pokedex: '[[SRD-Bidoof|Bidoof]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

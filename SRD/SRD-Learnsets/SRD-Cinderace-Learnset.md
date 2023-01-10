@@ -1,5 +1,4 @@
 ---
-DexID: 0814
 Moves:
 - - Starter
   - '[[SRD-Pyro Ball|Pyro Ball]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Blast Burn|Blast Burn]]'
 Name: Cinderace
-Species: '[[SRD-Cinderace|Cinderace]]'
+Pokedex: '[[SRD-Cinderace|Cinderace]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

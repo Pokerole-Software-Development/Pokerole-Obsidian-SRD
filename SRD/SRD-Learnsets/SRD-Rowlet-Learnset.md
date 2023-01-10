@@ -1,5 +1,4 @@
 ---
-DexID: '0723'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Grass Pledge|Grass Pledge]]'
 Name: Rowlet
-Species: '[[SRD-Rowlet|Rowlet]]'
+Pokedex: '[[SRD-Rowlet|Rowlet]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

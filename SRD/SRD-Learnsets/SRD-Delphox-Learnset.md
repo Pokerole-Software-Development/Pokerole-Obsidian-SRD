@@ -1,5 +1,4 @@
 ---
-DexID: '0656'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -58,14 +57,14 @@ Moves:
 - - Pro
   - '[[SRD-Blast Burn|Blast Burn]]'
 Name: Delphox
-Species: '[[SRD-Delphox|Delphox]]'
+Pokedex: '[[SRD-Delphox|Delphox]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

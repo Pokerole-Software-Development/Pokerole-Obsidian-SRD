@@ -1,7 +1,6 @@
 ---
 Ability1: Fluffy
 Ability2: Run Away
-Baby: 'No'
 BookSprite: SRD-wooloo-BookSprite.png
 BoxSprite: SRD-wooloo-BoxSprite.png
 DexCategory: Sheep Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Dubwool]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Bulletproof
 HomeSprite: SRD-wooloo-HomeSprite.png
+Image: wooloo.png
 Learnset: '[[SRD-Wooloo-Learnset]]'
 Legendary: 'No'
-Name: Wooloo
 Number: 831
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-wooloo-ShuffleToken.png
-Sprite: wooloo.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 60
   Kilograms: 6.0
   Pounds: 13.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *Woolo's wool is incredibly resilient, it serves as a cushion when they fall from high mountain cliffs. They need to be sheared or their wool will be too heavy to move. A sweater made with this wool will last for a lifetime.*
 
 **DexID**:: 0831
-**Species**:: Wooloo
+**Name**:: Wooloo
 **Type**:: Normal
 **Abilities**:: [[SRD-Fluffy|Fluffy]] / [[SRD-Run Away|Run Away]] ([[SRD-Bulletproof|Bulletproof]])
 **Base HP**:: 3

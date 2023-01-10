@@ -1,7 +1,6 @@
 ---
 Ability1: Sturdy
 Ability2: Rock Head
-Baby: 'No'
 BookSprite: SRD-aggron-BookSprite.png
 BoxSprite: SRD-aggron-BoxSprite.png
 DexCategory: Iron Armor Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Aggronite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Aggron]]'
+  Pokemon: '[[SRD-Aggron (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 21
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: Heavy Metal
 HomeSprite: SRD-aggron-HomeSprite.png
+Image: aggron.png
 Learnset: '[[SRD-Aggron-Learnset]]'
 Legendary: 'No'
-Name: Aggron
 Number: 306
-PrimaryEggGroup: Monster
-SecondaryEggGroup: ''
 ShuffleToken: SRD-aggron-ShuffleToken.png
-Sprite: aggron.png
 Type1: Steel
 Type2: Rock
 Weight:
-  Hectograms: 3600
   Kilograms: 360.0
   Pounds: 793.7
 ---
@@ -57,7 +50,7 @@ Weight:
 *Aggron claims ownership of entire mountains, mercilessly beating up anything that crosses their path. Aggrons are violent and patrol their territory at all times, but also plant trees, stop fires and protect nature.*
 
 **DexID**:: 0306
-**Species**:: Aggron
+**Name**:: Aggron
 **Type**:: Steel / Rock
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Rock Head|Rock Head]] ([[SRD-Heavy Metal|Heavy Metal]])
 **Base HP**:: 5
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-| Evolves   | Pokemon             | Kind   | Speed   | Item      |
-|:----------|:--------------------|:-------|:--------|:----------|
-| From      | [[SRD-Lairon]]      | Level  | Slow    |           |
-| To        | [[SRD-Mega-Aggron]] | Mega   |         | Aggronite |
+| Evolves   | Pokemon                    | Kind   | Speed   | Item      |
+|:----------|:---------------------------|:-------|:--------|:----------|
+| From      | [[SRD-Lairon]]             | Level  | Slow    |           |
+| To        | [[SRD-Aggron (Mega Form)]] | Mega   |         | Aggronite |
 
 ![[SRD-Aggron-Learnset]]

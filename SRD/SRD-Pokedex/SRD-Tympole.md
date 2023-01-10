@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: Hydration
-Baby: 'No'
 BookSprite: SRD-tympole-BookSprite.png
 BoxSprite: SRD-tympole-BoxSprite.png
 DexCategory: Tadpole Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Palpitoad]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Water Absorb
 HomeSprite: SRD-tympole-HomeSprite.png
+Image: tympole.png
 Learnset: '[[SRD-Tympole-Learnset]]'
 Legendary: 'No'
-Name: Tympole
 Number: 535
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: ''
 ShuffleToken: SRD-tympole-ShuffleToken.png
-Sprite: tympole.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 45
   Kilograms: 4.5
   Pounds: 9.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *They appear in great numbers on marshes and ponds after a heavy rainfall. They warn others of danger and predators by vibrating their cheeks to create a high-pitched sound.*
 
 **DexID**:: 0535
-**Species**:: Tympole
+**Name**:: Tympole
 **Type**:: Water
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Hydration|Hydration]] ([[SRD-Water Absorb|Water Absorb]])
 **Base HP**:: 3

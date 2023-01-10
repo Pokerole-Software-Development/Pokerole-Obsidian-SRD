@@ -1,5 +1,4 @@
 ---
-DexID: 0728
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Brionne
-Species: '[[SRD-Brionne|Brionne]]'
+Pokedex: '[[SRD-Brionne|Brionne]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

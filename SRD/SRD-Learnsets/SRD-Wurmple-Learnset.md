@@ -1,5 +1,4 @@
 ---
-DexID: '0265'
 Moves:
 - - Starter
   - '[[SRD-String Shot|String Shot]]'
@@ -20,14 +19,14 @@ Moves:
 - - Pro
   - '[[SRD-Snore|Snore]]'
 Name: Wurmple
-Species: '[[SRD-Wurmple|Wurmple]]'
+Pokedex: '[[SRD-Wurmple|Wurmple]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

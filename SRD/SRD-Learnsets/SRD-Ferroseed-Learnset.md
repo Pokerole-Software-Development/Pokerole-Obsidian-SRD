@@ -1,5 +1,4 @@
 ---
-DexID: 0598
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Seed Bomb|Seed Bomb]]'
 Name: Ferroseed
-Species: '[[SRD-Ferroseed|Ferroseed]]'
+Pokedex: '[[SRD-Ferroseed|Ferroseed]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

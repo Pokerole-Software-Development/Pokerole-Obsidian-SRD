@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-piplup-BookSprite.png
 BoxSprite: SRD-piplup-BoxSprite.png
 DexCategory: Penguin Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Prinplup]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Defiant
 HomeSprite: SRD-piplup-HomeSprite.png
+Image: piplup.png
 Learnset: '[[SRD-Piplup-Learnset]]'
 Legendary: 'No'
-Name: Piplup
 Number: 393
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Field
 ShuffleToken: SRD-piplup-ShuffleToken.png
-Sprite: piplup.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 52
   Kilograms: 5.2
   Pounds: 11.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *Piplups are extremely proud. They won’t take anything from anyone nor accept being taken care of. It lives along shores in northern countries. It is a good swimmer but terrible at walking, it trips over often.*
 
 **DexID**:: 0393
-**Species**:: Piplup
+**Name**:: Piplup
 **Type**:: Water
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 3

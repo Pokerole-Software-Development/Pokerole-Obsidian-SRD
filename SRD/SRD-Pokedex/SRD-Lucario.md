@@ -1,7 +1,6 @@
 ---
 Ability1: Steadfast
 Ability2: Inner Focus
-Baby: 'No'
 BookSprite: SRD-lucario-BookSprite.png
 BoxSprite: SRD-lucario-BoxSprite.png
 DexCategory: Aura Pokemon
@@ -18,27 +17,21 @@ Evolutions:
 - Evolves: To
   Item: Lucarionite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Lucario]]'
+  Pokemon: '[[SRD-Lucario (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Justified
 HomeSprite: SRD-lucario-HomeSprite.png
+Image: lucario.png
 Learnset: '[[SRD-Lucario-Learnset]]'
 Legendary: 'No'
-Name: Lucario
 Number: 448
-PrimaryEggGroup: Field
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-lucario-ShuffleToken.png
-Sprite: lucario.png
 Type1: Fighting
 Type2: Steel
 Weight:
-  Hectograms: 540
   Kilograms: 54.0
   Pounds: 119.0
 ---
@@ -58,7 +51,7 @@ Weight:
 *This Pokemon is completely loyal to its trainer. It has the ability to not only see the auras but also to transform them into energy. It is also capable of understanding human speech.*
 
 **DexID**:: 0448
-**Species**:: Lucario
+**Name**:: Lucario
 **Type**:: Fighting / Steel
 **Abilities**:: [[SRD-Steadfast|Steadfast]] / [[SRD-Inner Focus|Inner Focus]] ([[SRD-Justified|Justified]])
 **Base HP**:: 4
@@ -76,9 +69,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon              | Kind   | Stat    | Value   | Item        |
-|:----------|:---------------------|:-------|:--------|:--------|:------------|
-| From      | [[SRD-Riolu]]        | Stat   | Loyalty | 5.0     |             |
-| To        | [[SRD-Mega-Lucario]] | Mega   |         |         | Lucarionite |
+| Evolves   | Pokemon                     | Kind   | Stat    | Value   | Item        |
+|:----------|:----------------------------|:-------|:--------|:--------|:------------|
+| From      | [[SRD-Riolu]]               | Stat   | Loyalty | 5.0     |             |
+| To        | [[SRD-Lucario (Mega Form)]] | Mega   |         |         | Lucarionite |
 
 ![[SRD-Lucario-Learnset]]

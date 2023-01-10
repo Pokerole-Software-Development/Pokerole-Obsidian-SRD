@@ -1,7 +1,6 @@
 ---
 Ability1: Reckless
 Ability2: Sap Sipper
-Baby: 'No'
 BookSprite: SRD-bouffalant-BookSprite.png
 BoxSprite: SRD-bouffalant-BoxSprite.png
 DexCategory: Bash Buffalo Pokemon
@@ -11,25 +10,19 @@ DexDescription: They form herds on the coldest plains. They bash and headbutt to
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Soundproof
 HomeSprite: SRD-bouffalant-HomeSprite.png
+Image: bouffalant.png
 Learnset: '[[SRD-Bouffalant-Learnset]]'
 Legendary: 'No'
-Name: Bouffalant
 Number: 626
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-bouffalant-ShuffleToken.png
-Sprite: bouffalant.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 946
   Kilograms: 94.6
   Pounds: 208.6
 ---
@@ -49,7 +42,7 @@ Weight:
 *They form herds on the coldest plains. They bash and headbutt to attack their foes. The fluffy fur on their heads absorbs damage to their skulls. Years ago, a Bouffalant derailed a train with a bash.*
 
 **DexID**:: 0626
-**Species**:: Bouffalant
+**Name**:: Bouffalant
 **Type**:: Normal
 **Abilities**:: [[SRD-Reckless|Reckless]] / [[SRD-Sap Sipper|Sap Sipper]] ([[SRD-Soundproof|Soundproof]])
 **Base HP**:: 4

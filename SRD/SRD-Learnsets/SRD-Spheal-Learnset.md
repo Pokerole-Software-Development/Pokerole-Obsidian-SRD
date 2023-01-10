@@ -1,5 +1,4 @@
 ---
-DexID: '0363'
 Moves:
 - - Starter
   - '[[SRD-Defense Curl|Defense Curl]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Spheal
-Species: '[[SRD-Spheal|Spheal]]'
+Pokedex: '[[SRD-Spheal|Spheal]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

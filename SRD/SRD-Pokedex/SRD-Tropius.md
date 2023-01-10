@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: Solar Power
-Baby: 'No'
 BookSprite: SRD-tropius-BookSprite.png
 BoxSprite: SRD-tropius-BoxSprite.png
 DexCategory: Fruit Pokemon
@@ -11,25 +10,19 @@ DexDescription: It is very common in humid and hot regions. It can grow back the
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 20
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Harvest
 HomeSprite: SRD-tropius-HomeSprite.png
+Image: tropius.png
 Learnset: '[[SRD-Tropius-Learnset]]'
 Legendary: 'No'
-Name: Tropius
 Number: 357
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-tropius-ShuffleToken.png
-Sprite: tropius.png
 Type1: Grass
 Type2: Flying
 Weight:
-  Hectograms: 1000
   Kilograms: 100.0
   Pounds: 220.5
 ---
@@ -49,7 +42,7 @@ Weight:
 *It is very common in humid and hot regions. It can grow back the fruit it has eaten. Mothers prefer Tropius fruits to feed their children as it is more nutritive and sweet. They are mellow and friendly Pokemon.*
 
 **DexID**:: 0357
-**Species**:: Tropius
+**Name**:: Tropius
 **Type**:: Grass / Flying
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Solar Power|Solar Power]] ([[SRD-Harvest|Harvest]])
 **Base HP**:: 5

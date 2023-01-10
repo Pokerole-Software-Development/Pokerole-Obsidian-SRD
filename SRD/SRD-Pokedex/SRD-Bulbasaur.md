@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-bulbasaur-BookSprite.png
 BoxSprite: SRD-bulbasaur-BoxSprite.png
 DexCategory: Seed Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Ivysaur]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-bulbasaur-HomeSprite.png
+Image: bulbasaur.png
 Learnset: '[[SRD-Bulbasaur-Learnset]]'
 Legendary: 'No'
-Name: Bulbasaur
 Number: 1
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-bulbasaur-ShuffleToken.png
-Sprite: bulbasaur.png
 Type1: Grass
 Type2: Poison
 Weight:
-  Hectograms: 69
   Kilograms: 6.9
   Pounds: 15.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *It carries a seed on its back since birth. As it grows older the seed also grows larger. It is known to be a well-behaved and loyal Pokemon, but pretty rare to find in the wild.*
 
 **DexID**:: 0001
-**Species**:: Bulbasaur
+**Name**:: Bulbasaur
 **Type**:: Grass / Poison
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Chlorophyll|Chlorophyll]])
 **Base HP**:: 3

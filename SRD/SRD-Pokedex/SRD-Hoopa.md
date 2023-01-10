@@ -1,7 +1,6 @@
 ---
 Ability1: Magician
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-hoopa-BookSprite.png
 BoxSprite: SRD-hoopa-BoxSprite.png
 DexCategory: No Data
@@ -12,27 +11,21 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Hoopa Unbound]]'
+  Pokemon: '[[SRD-Hoopa (Unbound Form)]]'
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
 HomeSprite: SRD-hoopa-HomeSprite.png
+Image: hoopa.png
 Learnset: '[[SRD-Hoopa-Learnset]]'
 Legendary: 'Yes'
-Name: Hoopa
 Number: 720
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-hoopa-ShuffleToken.png
-Sprite: hoopa.png
 Type1: Psychic
 Type2: Ghost
 Weight:
-  Hectograms: 90
   Kilograms: 9.0
   Pounds: 19.8
 ---
@@ -52,7 +45,7 @@ Weight:
 *There is a story of an old demon whose power had to be contained by a spell. The spell was a partial success as the demon could still roam free, but its power and evil was greatly diminished.*
 
 **DexID**:: 0720
-**Species**:: Hoopa
+**Name**:: Hoopa
 **Type**:: Psychic / Ghost
 **Abilities**:: [[SRD-Magician|Magician]]
 **Base HP**:: 4
@@ -70,8 +63,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-| Evolves   | Pokemon               | Kind   |
-|:----------|:----------------------|:-------|
-| To        | [[SRD-Hoopa Unbound]] | Form   |
+| Evolves   | Pokemon                      | Kind   |
+|:----------|:-----------------------------|:-------|
+| To        | [[SRD-Hoopa (Unbound Form)]] | Form   |
 
 ![[SRD-Hoopa-Learnset]]

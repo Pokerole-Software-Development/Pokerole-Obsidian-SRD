@@ -1,5 +1,4 @@
 ---
-DexID: '0022'
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -46,14 +45,14 @@ Moves:
 - - Ace
   - '[[SRD-Pluck|Pluck]]'
 Name: Fearow
-Species: '[[SRD-Fearow|Fearow]]'
+Pokedex: '[[SRD-Fearow|Fearow]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

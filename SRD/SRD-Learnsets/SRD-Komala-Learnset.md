@@ -1,5 +1,4 @@
 ---
-DexID: '0776'
 Moves:
 - - Starter
   - '[[SRD-Defense Curl|Defense Curl]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Play Rough|Play Rough]]'
 Name: Komala
-Species: '[[SRD-Komala|Komala]]'
+Pokedex: '[[SRD-Komala|Komala]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

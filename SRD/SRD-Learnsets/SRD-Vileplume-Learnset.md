@@ -1,5 +1,4 @@
 ---
-DexID: '0045'
 Moves:
 - - Starter
   - '[[SRD-Mega Drain|Mega Drain]]'
@@ -30,14 +29,14 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Vileplume
-Species: '[[SRD-Vileplume|Vileplume]]'
+Pokedex: '[[SRD-Vileplume|Vileplume]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

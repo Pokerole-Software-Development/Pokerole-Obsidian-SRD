@@ -1,7 +1,6 @@
 ---
 Ability1: Sturdy
 Ability2: Weak Armor
-Baby: 'No'
 BookSprite: SRD-boldore-BookSprite.png
 BoxSprite: SRD-boldore-BoxSprite.png
 DexCategory: Ore Pokemon
@@ -18,25 +17,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Gigalith]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Sand Force
 HomeSprite: SRD-boldore-HomeSprite.png
+Image: boldore.png
 Learnset: '[[SRD-Boldore-Learnset]]'
 Legendary: 'No'
-Name: Boldore
 Number: 525
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-boldore-ShuffleToken.png
-Sprite: boldore.png
 Type1: Rock
 Type2: ''
 Weight:
-  Hectograms: 1020
   Kilograms: 102.0
   Pounds: 224.9
 ---
@@ -56,7 +49,7 @@ Weight:
 *It releases the excess of energy in the form of red crystals. It is still blind, it looks for for water sources inside underground caves by using echo location. It is a pacific creature that keeps to itself most of the time.*
 
 **DexID**:: 0525
-**Species**:: Boldore
+**Name**:: Boldore
 **Type**:: Rock
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Weak Armor|Weak Armor]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 4

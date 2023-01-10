@@ -1,7 +1,6 @@
 ---
 Ability1: Wimp Out
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-wimpod-BookSprite.png
 BoxSprite: SRD-wimpod-BoxSprite.png
 DexCategory: Turn Tail Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Golisopod]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
 HomeSprite: SRD-wimpod-HomeSprite.png
+Image: wimpod.png
 Learnset: '[[SRD-Wimpod-Learnset]]'
 Legendary: 'No'
-Name: Wimpod
 Number: 767
-PrimaryEggGroup: Bug
-SecondaryEggGroup: Water 3
 ShuffleToken: SRD-wimpod-ShuffleToken.png
-Sprite: wimpod.png
 Type1: Bug
 Type2: Water
 Weight:
-  Hectograms: 120
   Kilograms: 12.0
   Pounds: 26.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are curious but incredibly cowardly Pokemon. They are easily startled and will shoot a stenchy liquid as a warning. Even so, they are highly valued due to their ability to eat and clean any garbage.*
 
 **DexID**:: 0767
-**Species**:: Wimpod
+**Name**:: Wimpod
 **Type**:: Bug / Water
 **Abilities**:: [[SRD-Wimp Out|Wimp Out]]
 **Base HP**:: 3

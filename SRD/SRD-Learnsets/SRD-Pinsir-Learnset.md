@@ -1,5 +1,4 @@
 ---
-DexID: '0127'
 Moves:
 - - Starter
   - '[[SRD-Vice Grip|Vice Grip]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Feint Attack|Feint Attack]]'
 Name: Pinsir
-Species: '[[SRD-Pinsir|Pinsir]]'
+Pokedex: '[[SRD-Pinsir|Pinsir]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

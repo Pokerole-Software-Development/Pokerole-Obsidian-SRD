@@ -1,7 +1,6 @@
 ---
 Ability1: Psychic Surge
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-tapu-lele-BookSprite.png
 BoxSprite: SRD-tapu-lele-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: It is said that an innocent but cruel spirit guards Akala island
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Telepathy
 HomeSprite: SRD-tapu-lele-HomeSprite.png
+Image: tapu-lele.png
 Learnset: '[[SRD-Tapu Lele-Learnset]]'
 Legendary: 'Yes'
-Name: Tapu Lele
 Number: 786
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-tapu-lele-ShuffleToken.png
-Sprite: tapu-lele.png
 Type1: Psychic
 Type2: Fairy
 Weight:
-  Hectograms: 186
   Kilograms: 18.6
   Pounds: 41.0
 ---
@@ -49,7 +42,7 @@ Weight:
 *It is said that an innocent but cruel spirit guards Akala island. When the spirit is feeling benevolent it scatters some of its scales around, these scales have healing powers.*
 
 **DexID**:: 0786
-**Species**:: Tapu Lele
+**Name**:: Tapu Lele
 **Type**:: Psychic / Fairy
 **Abilities**:: [[SRD-Psychic Surge|Psychic Surge]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 4

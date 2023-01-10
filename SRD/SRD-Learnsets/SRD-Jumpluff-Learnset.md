@@ -1,5 +1,4 @@
 ---
-DexID: 0189
 Moves:
 - - Starter
   - '[[SRD-Splash|Splash]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Swords Dance|Swords Dance]]'
 Name: Jumpluff
-Species: '[[SRD-Jumpluff|Jumpluff]]'
+Pokedex: '[[SRD-Jumpluff|Jumpluff]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

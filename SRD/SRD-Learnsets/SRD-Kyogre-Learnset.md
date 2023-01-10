@@ -1,5 +1,4 @@
 ---
-DexID: 0382
 Moves:
 - - Master
   - '[[SRD-Ancient Power|Ancient Power]]'
@@ -32,8 +31,6 @@ Moves:
 - - Master
   - '[[SRD-Whirlpool|Whirlpool]]'
 - - Master
-  - '[[SRD-Blizzard|Blizzard]]'
-- - Master
   - '[[SRD-Psych Up|Psych Up]]'
 - - Master
   - '[[SRD-Mist|Mist]]'
@@ -52,14 +49,14 @@ Moves:
 - - Master
   - '[[SRD-Snatch|Snatch]]'
 Name: Kyogre
-Species: '[[SRD-Kyogre|Kyogre]]'
+Pokedex: '[[SRD-Kyogre|Kyogre]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

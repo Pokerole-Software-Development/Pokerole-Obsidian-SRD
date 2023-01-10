@@ -1,5 +1,4 @@
 ---
-DexID: '0513'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Disarming Voice|Disarming Voice]]'
 Name: Pansear
-Species: '[[SRD-Pansear|Pansear]]'
+Pokedex: '[[SRD-Pansear|Pansear]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

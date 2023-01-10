@@ -1,7 +1,6 @@
 ---
 Ability1: Defeatist
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-archeops-BookSprite.png
 BoxSprite: SRD-archeops-BoxSprite.png
 DexCategory: First Bird Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Archen]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: ''
 HomeSprite: SRD-archeops-HomeSprite.png
+Image: archeops.png
 Learnset: '[[SRD-Archeops-Learnset]]'
 Legendary: 'No'
-Name: Archeops
 Number: 567
-PrimaryEggGroup: Flying
-SecondaryEggGroup: Water 3
 ShuffleToken: SRD-archeops-ShuffleToken.png
-Sprite: archeops.png
 Type1: Rock
 Type2: Flying
 Weight:
-  Hectograms: 320
   Kilograms: 32.0
   Pounds: 70.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *They used to form groups that cooperated to catch prey. From the ground, they used a running start to take flight. It is believed that they got extinct due to their poor tolerance to pain.*
 
 **DexID**:: 0567
-**Species**:: Archeops
+**Name**:: Archeops
 **Type**:: Rock / Flying
 **Abilities**:: [[SRD-Defeatist|Defeatist]]
 **Base HP**:: 4

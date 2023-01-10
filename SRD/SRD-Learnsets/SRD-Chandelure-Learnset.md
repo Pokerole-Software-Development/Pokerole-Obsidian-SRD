@@ -1,5 +1,4 @@
 ---
-DexID: '0610'
 Moves:
 - - Starter
   - '[[SRD-Confuse Ray|Confuse Ray]]'
@@ -24,14 +23,14 @@ Moves:
 - - Pro
   - '[[SRD-Clear Smog|Clear Smog]]'
 Name: Chandelure
-Species: '[[SRD-Chandelure|Chandelure]]'
+Pokedex: '[[SRD-Chandelure|Chandelure]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0774F1
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Acrobatics|Acrobatics]]'
 Name: Minior
-Species: '[[SRD-Minior|Minior]]'
+Pokedex: '[[SRD-Minior|Minior]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

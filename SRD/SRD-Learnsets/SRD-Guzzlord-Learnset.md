@@ -1,5 +1,4 @@
 ---
-DexID: 0800
 Moves:
 - - Master
   - '[[SRD-Belch|Belch]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Guzzlord
-Species: '[[SRD-Guzzlord|Guzzlord]]'
+Pokedex: '[[SRD-Guzzlord|Guzzlord]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Sturdy
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-cosmoem-BookSprite.png
 BoxSprite: SRD-cosmoem-BoxSprite.png
 DexCategory: No Data
@@ -23,25 +22,19 @@ Evolutions:
   Kind: Level
   Pokemon: '[[SRD-Lunala]]'
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 1
   Feet: 0.3
   Meters: 0.1
 HiddenAbility: ''
 HomeSprite: SRD-cosmoem-HomeSprite.png
+Image: cosmoem.png
 Learnset: '[[SRD-Cosmoem-Learnset]]'
 Legendary: 'Yes'
-Name: Cosmoem
 Number: 790
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-cosmoem-ShuffleToken.png
-Sprite: cosmoem.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 9999
   Kilograms: 999.9
   Pounds: 2204.4
 ---
@@ -61,7 +54,7 @@ Weight:
 *The creature observed through the telescope changed shapes and remained motionless for the rest of the investigation. A strange energy was gathering on its core.*
 
 **DexID**:: 0790
-**Species**:: Cosmoem
+**Name**:: Cosmoem
 **Type**:: Psychic
 **Abilities**:: [[SRD-Sturdy|Sturdy]]
 **Base HP**:: 4

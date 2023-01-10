@@ -1,7 +1,6 @@
 ---
 Ability1: Swarm
 Ability2: Technician
-Baby: 'No'
 BookSprite: SRD-scizor-BookSprite.png
 BoxSprite: SRD-scizor-BoxSprite.png
 DexCategory: Pincer Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Scizorite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Scizor]]'
+  Pokemon: '[[SRD-Scizor (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Light Metal
 HomeSprite: SRD-scizor-HomeSprite.png
+Image: scizor.png
 Learnset: '[[SRD-Scizor-Learnset]]'
 Legendary: 'No'
-Name: Scizor
 Number: 212
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-scizor-ShuffleToken.png
-Sprite: scizor.png
 Type1: Bug
 Type2: Steel
 Weight:
-  Hectograms: 1180
   Kilograms: 118.0
   Pounds: 260.1
 ---
@@ -57,7 +50,7 @@ Weight:
 *Its pincers appear to be two more heads and its wings are not for flying, but to regulate its body temperature. Scizor's body can shrug off most attacks and its pincers can crush almost any object.*
 
 **DexID**:: 0212
-**Species**:: Scizor
+**Name**:: Scizor
 **Type**:: Bug / Steel
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Technician|Technician]] ([[SRD-Light Metal|Light Metal]])
 **Base HP**:: 4
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon             | Kind   | Item       |
-|:----------|:--------------------|:-------|:-----------|
-| From      | [[SRD-Scyther]]     | Trade  | Metal Coat |
-| To        | [[SRD-Mega-Scizor]] | Mega   | Scizorite  |
+| Evolves   | Pokemon                    | Kind   | Item       |
+|:----------|:---------------------------|:-------|:-----------|
+| From      | [[SRD-Scyther]]            | Trade  | Metal Coat |
+| To        | [[SRD-Scizor (Mega Form)]] | Mega   | Scizorite  |
 
 ![[SRD-Scizor-Learnset]]

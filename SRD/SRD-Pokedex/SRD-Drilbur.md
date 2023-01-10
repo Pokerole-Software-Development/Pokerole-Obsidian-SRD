@@ -1,7 +1,6 @@
 ---
 Ability1: Sand Rush
 Ability2: Sand Force
-Baby: 'No'
 BookSprite: SRD-drilbur-BookSprite.png
 BoxSprite: SRD-drilbur-BoxSprite.png
 DexCategory: Mole Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Excadrill]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-drilbur-HomeSprite.png
+Image: drilbur.png
 Learnset: '[[SRD-Drilbur-Learnset]]'
 Legendary: 'No'
-Name: Drilbur
 Number: 529
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-drilbur-ShuffleToken.png
-Sprite: drilbur.png
 Type1: Ground
 Type2: ''
 Weight:
-  Hectograms: 85
   Kilograms: 8.5
   Pounds: 18.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *They can be found in caves and wreaking havoc on vegetable farms. It makes its way swiftly through the soil by putting both claws together and rotating at high speed. It is friendly and not afraid of humans.*
 
 **DexID**:: 0529
-**Species**:: Drilbur
+**Name**:: Drilbur
 **Type**:: Ground
 **Abilities**:: [[SRD-Sand Rush|Sand Rush]] / [[SRD-Sand Force|Sand Force]] ([[SRD-Mold Breaker|Mold Breaker]])
 **Base HP**:: 3

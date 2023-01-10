@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-floatzel-BookSprite.png
 BoxSprite: SRD-floatzel-BoxSprite.png
 DexCategory: Sea Weasel Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Buizel]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Water Veil
 HomeSprite: SRD-floatzel-HomeSprite.png
+Image: floatzel.png
 Learnset: '[[SRD-Floatzel-Learnset]]'
 Legendary: 'No'
-Name: Floatzel
 Number: 419
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Field
 ShuffleToken: SRD-floatzel-ShuffleToken.png
-Sprite: floatzel.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 335
   Kilograms: 33.5
   Pounds: 73.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *It floats using its well-developed sack. They roam close to fishing spots to steal an easy meal. People allow them to hang around their boats because they help whenever a person falls into the water.*
 
 **DexID**:: 0419
-**Species**:: Floatzel
+**Name**:: Floatzel
 **Type**:: Water
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] ([[SRD-Water Veil|Water Veil]])
 **Base HP**:: 4

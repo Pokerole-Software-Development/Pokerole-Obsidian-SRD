@@ -1,5 +1,4 @@
 ---
-DexID: '0304'
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Rollout|Rollout]]'
 Name: Aron
-Species: '[[SRD-Aron|Aron]]'
+Pokedex: '[[SRD-Aron|Aron]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

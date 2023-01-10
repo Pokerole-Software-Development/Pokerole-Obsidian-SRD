@@ -1,5 +1,4 @@
 ---
-DexID: 0084
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Brave Bird|Brave Bird]]'
 Name: Doduo
-Species: '[[SRD-Doduo|Doduo]]'
+Pokedex: '[[SRD-Doduo|Doduo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

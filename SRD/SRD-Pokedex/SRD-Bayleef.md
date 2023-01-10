@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-bayleef-BookSprite.png
 BoxSprite: SRD-bayleef-BoxSprite.png
 DexCategory: Leaf Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Meganium]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-bayleef-HomeSprite.png
+Image: bayleef.png
 Learnset: '[[SRD-Bayleef-Learnset]]'
 Legendary: 'No'
-Name: Bayleef
 Number: 153
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-bayleef-ShuffleToken.png
-Sprite: bayleef.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 158
   Kilograms: 15.8
   Pounds: 34.8
 ---
@@ -57,7 +50,7 @@ Weight:
 *A spicy fragrance emanates from around its neck that makes it feisty and impetuous. It sheds its leaves every couple of weeks after the aroma diminishes and its mood also becomes calmer.*
 
 **DexID**:: 0153
-**Species**:: Bayleef
+**Name**:: Bayleef
 **Type**:: Grass
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Leaf Guard|Leaf Guard]])
 **Base HP**:: 4

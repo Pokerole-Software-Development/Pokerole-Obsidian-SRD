@@ -1,5 +1,4 @@
 ---
-DexID: '0662'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Talonflame
-Species: '[[SRD-Talonflame|Talonflame]]'
+Pokedex: '[[SRD-Talonflame|Talonflame]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

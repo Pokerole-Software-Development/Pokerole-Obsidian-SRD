@@ -1,5 +1,4 @@
 ---
-DexID: '0521'
 Moves:
 - - Starter
   - '[[SRD-Gust|Gust]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Lucky Chant|Lucky Chant]]'
 Name: Unfezant
-Species: '[[SRD-Unfezant|Unfezant]]'
+Pokedex: '[[SRD-Unfezant|Unfezant]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

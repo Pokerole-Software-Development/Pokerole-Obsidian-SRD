@@ -1,5 +1,4 @@
 ---
-DexID: 0823
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Rock Smash|Rock Smash]]'
 Name: Corvisquire
-Species: '[[SRD-Corvisquire|Corvisquire]]'
+Pokedex: '[[SRD-Corvisquire|Corvisquire]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

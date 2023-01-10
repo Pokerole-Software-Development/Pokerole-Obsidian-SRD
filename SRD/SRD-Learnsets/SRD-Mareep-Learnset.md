@@ -1,5 +1,4 @@
 ---
-DexID: 0179
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Heal Bell|Heal Bell]]'
 Name: Mareep
-Species: '[[SRD-Mareep|Mareep]]'
+Pokedex: '[[SRD-Mareep|Mareep]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

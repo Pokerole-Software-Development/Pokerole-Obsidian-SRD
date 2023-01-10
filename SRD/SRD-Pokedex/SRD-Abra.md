@@ -1,7 +1,6 @@
 ---
 Ability1: Synchronize
 Ability2: Inner Focus
-Baby: 'No'
 BookSprite: SRD-abra-BookSprite.png
 BoxSprite: SRD-abra-BoxSprite.png
 DexCategory: Psi Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Kadabra]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Magic Guard
 HomeSprite: SRD-abra-HomeSprite.png
+Image: abra.png
 Learnset: '[[SRD-Abra-Learnset]]'
 Legendary: 'No'
-Name: Abra
 Number: 63
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-abra-ShuffleToken.png
-Sprite: abra.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 195
   Kilograms: 19.5
   Pounds: 43.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are attracted to the cities and tend to live close to humans. Its Psychic abilities are still developing, it can sleep up to 18 hours a day or else it won’t be able to use them. When in danger, it teleports away.*
 
 **DexID**:: 0063
-**Species**:: Abra
+**Name**:: Abra
 **Type**:: Psychic
 **Abilities**:: [[SRD-Synchronize|Synchronize]] / [[SRD-Inner Focus|Inner Focus]] ([[SRD-Magic Guard|Magic Guard]])
 **Base HP**:: 3

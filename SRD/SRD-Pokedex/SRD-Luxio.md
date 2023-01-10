@@ -1,7 +1,6 @@
 ---
 Ability1: Rivalry
 Ability2: Intimidate
-Baby: 'No'
 BookSprite: SRD-luxio-BookSprite.png
 BoxSprite: SRD-luxio-BoxSprite.png
 DexCategory: Spark Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Luxray]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Guts
 HomeSprite: SRD-luxio-HomeSprite.png
+Image: luxio.png
 Learnset: '[[SRD-Luxio-Learnset]]'
 Legendary: 'No'
-Name: Luxio
 Number: 404
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-luxio-ShuffleToken.png
-Sprite: luxio.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 305
   Kilograms: 30.5
   Pounds: 67.2
 ---
@@ -57,7 +50,7 @@ Weight:
 *Female Luxios stay with the pride but males roam in marauding groups, trying to become strong enough to make their own pride. Its claws and teeth are charged with electricity, approach with caution.*
 
 **DexID**:: 0404
-**Species**:: Luxio
+**Name**:: Luxio
 **Type**:: Electric
 **Abilities**:: [[SRD-Rivalry|Rivalry]] / [[SRD-Intimidate|Intimidate]] ([[SRD-Guts|Guts]])
 **Base HP**:: 4

@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-turtwig-BookSprite.png
 BoxSprite: SRD-turtwig-BoxSprite.png
 DexCategory: Tiny Leaf Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Grotle]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Shell Armor
 HomeSprite: SRD-turtwig-HomeSprite.png
+Image: turtwig.png
 Learnset: '[[SRD-Turtwig-Learnset]]'
 Legendary: 'No'
-Name: Turtwig
 Number: 387
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-turtwig-ShuffleToken.png
-Sprite: turtwig.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 102
   Kilograms: 10.2
   Pounds: 22.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *It makes its home close to lakes, although it is rare to find one. The shell on its back is made of hardened soil and should be moist for it to be healthy. It uses photosynthesis to get energy.*
 
 **DexID**:: 0387
-**Species**:: Turtwig
+**Name**:: Turtwig
 **Type**:: Grass
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Shell Armor|Shell Armor]])
 **Base HP**:: 3

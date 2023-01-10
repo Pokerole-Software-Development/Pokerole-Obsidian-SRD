@@ -1,5 +1,4 @@
 ---
-DexID: 0081
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Signal Beam|Signal Beam]]'
 Name: Magnemite
-Species: '[[SRD-Magnemite|Magnemite]]'
+Pokedex: '[[SRD-Magnemite|Magnemite]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

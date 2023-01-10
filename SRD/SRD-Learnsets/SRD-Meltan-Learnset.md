@@ -1,5 +1,4 @@
 ---
-DexID: 0809
 Moves:
 - - Starter
   - '[[SRD-Thunder Shock|Thunder Shock]]'
@@ -30,14 +29,14 @@ Moves:
 - - Pro
   - '[[SRD-Steel Beam|Steel Beam]]'
 Name: Meltan
-Species: '[[SRD-Meltan|Meltan]]'
+Pokedex: '[[SRD-Meltan|Meltan]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

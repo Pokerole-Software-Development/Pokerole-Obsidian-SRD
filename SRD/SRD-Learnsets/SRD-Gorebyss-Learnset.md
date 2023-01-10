@@ -1,5 +1,4 @@
 ---
-DexID: 0368
 Moves:
 - - Starter
   - '[[SRD-Whirlpool|Whirlpool]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Muddy Water|Muddy Water]]'
 Name: Gorebyss
-Species: '[[SRD-Gorebyss|Gorebyss]]'
+Pokedex: '[[SRD-Gorebyss|Gorebyss]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

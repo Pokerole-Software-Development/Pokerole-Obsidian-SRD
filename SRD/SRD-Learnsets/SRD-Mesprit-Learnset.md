@@ -1,5 +1,4 @@
 ---
-DexID: 0481
 Moves:
 - - Master
   - '[[SRD-Healing Wish|Healing Wish]]'
@@ -38,14 +37,14 @@ Moves:
 - - Master
   - '[[SRD-Trick|Trick]]'
 Name: Mesprit
-Species: '[[SRD-Mesprit|Mesprit]]'
+Pokedex: '[[SRD-Mesprit|Mesprit]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

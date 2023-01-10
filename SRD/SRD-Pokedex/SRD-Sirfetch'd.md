@@ -1,7 +1,6 @@
 ---
 Ability1: Steadfast
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-sirfetchd-BookSprite.png
 BoxSprite: SRD-sirfetchd-BoxSprite.png
 DexCategory: Wild Duck Pokemon
@@ -12,28 +11,22 @@ EventAbilities: ''
 Evolutions:
 - Evolves: From
   Kind: Special
-  Pokemon: '[[SRD-Galarian Farfetch''d]]'
+  Pokemon: '[[SRD-Farfetch''d (Galarian Form)]]'
   Special: Score 3 Critical hits in 1 battle
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Scrappy
 HomeSprite: SRD-sirfetchd-HomeSprite.png
+Image: sirfetchd.png
 Learnset: '[[SRD-Sirfetch''d-Learnset]]'
 Legendary: 'No'
-Name: Sirfetch'd
 Number: 865
-PrimaryEggGroup: Flying
-SecondaryEggGroup: Field
 ShuffleToken: SRD-sirfetchd-ShuffleToken.png
-Sprite: sirfetchd.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 1170
   Kilograms: 117.0
   Pounds: 257.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *Only Farfetch’d that have survived many battles can go thought this evolution. They are very proud of their leek spear and leafen shield, When this Pokemon's leek withers, it will retire from combat.*
 
 **DexID**:: 0865
-**Species**:: Sirfetch'd
+**Name**:: Sirfetch'd
 **Type**:: Fighting
 **Abilities**:: [[SRD-Steadfast|Steadfast]] ([[SRD-Scrappy|Scrappy]])
 **Base HP**:: 4
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon                     | Kind    | Special                           |
-|:----------|:----------------------------|:--------|:----------------------------------|
-| From      | [[SRD-Galarian Farfetch'd]] | Special | Score 3 Critical hits in 1 battle |
+| Evolves   | Pokemon                            | Kind    | Special                           |
+|:----------|:-----------------------------------|:--------|:----------------------------------|
+| From      | [[SRD-Farfetch'd (Galarian Form)]] | Special | Score 3 Critical hits in 1 battle |
 
 ![[SRD-Sirfetch'd-Learnset]]

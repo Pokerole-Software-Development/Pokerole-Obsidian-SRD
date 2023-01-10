@@ -1,5 +1,4 @@
 ---
-DexID: '0206'
 Moves:
 - - Starter
   - '[[SRD-Defense Curl|Defense Curl]]'
@@ -58,14 +57,14 @@ Moves:
 - - Pro
   - '[[SRD-Trump Card|Trump Card]]'
 Name: Dunsparce
-Species: '[[SRD-Dunsparce|Dunsparce]]'
+Pokedex: '[[SRD-Dunsparce|Dunsparce]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

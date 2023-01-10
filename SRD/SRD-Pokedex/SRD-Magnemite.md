@@ -1,7 +1,6 @@
 ---
 Ability1: Magnet Pull
 Ability2: Sturdy
-Baby: 'No'
 BookSprite: SRD-magnemite-BookSprite.png
 BoxSprite: SRD-magnemite-BoxSprite.png
 DexCategory: Magnet Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Magneton]]'
   Speed: Medium
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Analytic
 HomeSprite: SRD-magnemite-HomeSprite.png
+Image: magnemite.png
 Learnset: '[[SRD-Magnemite-Learnset]]'
 Legendary: 'No'
-Name: Magnemite
 Number: 81
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-magnemite-ShuffleToken.png
-Sprite: magnemite.png
 Type1: Electric
 Type2: Steel
 Weight:
-  Hectograms: 60
   Kilograms: 6.0
   Pounds: 13.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lurks near electric facilities and mountains as it is attracted by big magnetic fields. It is not aggressive and usually defends itself with a screech or a weak electric impulse to deter other from attacking.*
 
 **DexID**:: 0081
-**Species**:: Magnemite
+**Name**:: Magnemite
 **Type**:: Electric / Steel
 **Abilities**:: [[SRD-Magnet Pull|Magnet Pull]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 3

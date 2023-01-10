@@ -1,7 +1,6 @@
 ---
 Ability1: Clear Body
 Ability2: Infiltrator
-Baby: 'No'
 BookSprite: SRD-dreepy-BookSprite.png
 BoxSprite: SRD-dreepy-BoxSprite.png
 DexCategory: Lingering Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Drakloak]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Cursed Body
 HomeSprite: SRD-dreepy-HomeSprite.png
+Image: dreepy.png
 Learnset: '[[SRD-Dreepy-Learnset]]'
 Legendary: 'No'
-Name: Dreepy
 Number: 885
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-dreepy-ShuffleToken.png
-Sprite: dreepy.png
 Type1: Dragon
 Type2: Ghost
 Weight:
-  Hectograms: 20
   Kilograms: 2.0
   Pounds: 4.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *After being reborn as a ghost, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas. Alone they do not pose much of a threat but if they gather in packs you’ll be in trouble.*
 
 **DexID**:: 0885
-**Species**:: Dreepy
+**Name**:: Dreepy
 **Type**:: Dragon / Ghost
 **Abilities**:: [[SRD-Clear Body|Clear Body]] / [[SRD-Infiltrator|Infiltrator]] ([[SRD-Cursed Body|Cursed Body]])
 **Base HP**:: 3

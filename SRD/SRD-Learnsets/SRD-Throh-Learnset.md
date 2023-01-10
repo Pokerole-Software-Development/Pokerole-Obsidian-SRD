@@ -1,5 +1,4 @@
 ---
-DexID: 0538
 Moves:
 - - Starter
   - '[[SRD-Bind|Bind]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Thunder Punch|Thunder Punch]]'
 Name: Throh
-Species: '[[SRD-Throh|Throh]]'
+Pokedex: '[[SRD-Throh|Throh]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

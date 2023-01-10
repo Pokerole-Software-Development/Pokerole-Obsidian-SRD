@@ -1,5 +1,4 @@
 ---
-DexID: '0602'
 Moves:
 - - Starter
   - '[[SRD-Vice Grip|Vice Grip]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Magnet Rise|Magnet Rise]]'
 Name: Klinklang
-Species: '[[SRD-Klinklang|Klinklang]]'
+Pokedex: '[[SRD-Klinklang|Klinklang]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

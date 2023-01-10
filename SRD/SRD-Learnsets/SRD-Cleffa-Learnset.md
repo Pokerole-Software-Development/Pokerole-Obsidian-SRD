@@ -1,5 +1,4 @@
 ---
-DexID: '0173'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -30,14 +29,14 @@ Moves:
 - - Pro
   - '[[SRD-Wonder Room|Wonder Room]]'
 Name: Cleffa
-Species: '[[SRD-Cleffa|Cleffa]]'
+Pokedex: '[[SRD-Cleffa|Cleffa]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

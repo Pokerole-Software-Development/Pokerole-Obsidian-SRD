@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-serperior-BookSprite.png
 BoxSprite: SRD-serperior-BoxSprite.png
 DexCategory: Regal Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Servine]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 33
   Feet: 10.8
   Meters: 3.3
 HiddenAbility: Contrary
 HomeSprite: SRD-serperior-HomeSprite.png
+Image: serperior.png
 Learnset: '[[SRD-Serperior-Learnset]]'
 Legendary: 'No'
-Name: Serperior
 Number: 497
-PrimaryEggGroup: Field
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-serperior-ShuffleToken.png
-Sprite: serperior.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 630
   Kilograms: 63.0
   Pounds: 138.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *It stops enemies dead in their tracks with just one intense glare. It is a noble and proud Pokemon. It is not aggressive but it can be very stubborn. It takes a really strong foe for it to take the fight seriously.*
 
 **DexID**:: 0497
-**Species**:: Serperior
+**Name**:: Serperior
 **Type**:: Grass
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Contrary|Contrary]])
 **Base HP**:: 5

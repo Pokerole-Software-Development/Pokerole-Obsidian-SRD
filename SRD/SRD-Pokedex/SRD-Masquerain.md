@@ -1,7 +1,6 @@
 ---
 Ability1: Intimidate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-masquerain-BookSprite.png
 BoxSprite: SRD-masquerain-BoxSprite.png
 DexCategory: Eyeball Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Surskit]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Unnerve
 HomeSprite: SRD-masquerain-HomeSprite.png
+Image: masquerain.png
 Learnset: '[[SRD-Masquerain-Learnset]]'
 Legendary: 'No'
-Name: Masquerain
 Number: 284
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Bug
 ShuffleToken: SRD-masquerain-ShuffleToken.png
-Sprite: masquerain.png
 Type1: Bug
 Type2: Flying
 Weight:
-  Hectograms: 36
   Kilograms: 3.6
   Pounds: 7.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *Their antennas look like terrifying eyes. Masquerains can fly in any direction like a helicopter, but their wings are soft and fragile, so they can’t fly when it’s raining. They cling to trees at night to sleep.*
 
 **DexID**:: 0284
-**Species**:: Masquerain
+**Name**:: Masquerain
 **Type**:: Bug / Flying
 **Abilities**:: [[SRD-Intimidate|Intimidate]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 4

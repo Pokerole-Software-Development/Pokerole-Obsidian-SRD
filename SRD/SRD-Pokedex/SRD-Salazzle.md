@@ -1,7 +1,6 @@
 ---
 Ability1: Corrosion
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-salazzle-BookSprite.png
 BoxSprite: SRD-salazzle-BoxSprite.png
 DexCategory: Toxic Lizard Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Pokemon: '[[SRD-Salandit]]'
   Speed: Medium
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Oblivious
 HomeSprite: SRD-salazzle-HomeSprite.png
+Image: salazzle.png
 Learnset: '[[SRD-Salazzle-Learnset]]'
 Legendary: 'No'
-Name: Salazzle
 Number: 758
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-salazzle-ShuffleToken.png
-Sprite: salazzle.png
 Type1: Poison
 Type2: Fire
 Weight:
-  Hectograms: 222
   Kilograms: 22.2
   Pounds: 48.9
 ---
@@ -54,7 +47,7 @@ Weight:
 *This Pokemon is Female only. It releases a powerful toxic gas that is filled with pheromones that help her keep her reverse harem of Salandit in check. This gas can be purified into expensive perfumes.*
 
 **DexID**:: 0758
-**Species**:: Salazzle
+**Name**:: Salazzle
 **Type**:: Poison / Fire
 **Abilities**:: [[SRD-Corrosion|Corrosion]] ([[SRD-Oblivious|Oblivious]])
 **Base HP**:: 4

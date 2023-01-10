@@ -1,5 +1,4 @@
 ---
-DexID: '0322'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Numel
-Species: '[[SRD-Numel|Numel]]'
+Pokedex: '[[SRD-Numel|Numel]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

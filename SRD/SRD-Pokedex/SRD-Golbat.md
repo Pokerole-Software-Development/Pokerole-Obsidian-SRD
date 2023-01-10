@@ -1,7 +1,6 @@
 ---
 Ability1: Inner Focus
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-golbat-BookSprite.png
 BoxSprite: SRD-golbat-BoxSprite.png
 DexCategory: Bat Pokemon
@@ -20,25 +19,19 @@ Evolutions:
   Stat: Happiness
   Value: 4
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Infiltrator
 HomeSprite: SRD-golbat-HomeSprite.png
+Image: golbat.png
 Learnset: '[[SRD-Golbat-Learnset]]'
 Legendary: 'No'
-Name: Golbat
 Number: 42
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-golbat-ShuffleToken.png
-Sprite: golbat.png
 Type1: Poison
 Type2: Flying
 Weight:
-  Hectograms: 550
   Kilograms: 55.0
   Pounds: 121.3
 ---
@@ -58,7 +51,7 @@ Weight:
 *A stealthy Pokemon who loves the dark. Its fangs can puncture even a thick hide. It loves to feast on the blood of people and Pokemon alike. If it drinks too much, it gets heavy and can hardly fly.*
 
 **DexID**:: 0042
-**Species**:: Golbat
+**Name**:: Golbat
 **Type**:: Poison / Flying
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 4

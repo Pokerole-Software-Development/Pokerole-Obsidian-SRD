@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: Vital Spirit
-Baby: 'No'
 BookSprite: SRD-rockruff-BookSprite.png
 BoxSprite: SRD-rockruff-BoxSprite.png
 DexCategory: Puppy Pokemon
@@ -12,39 +11,33 @@ EventAbilities: Own Tempo
 Evolutions:
 - Evolves: To
   Kind: Level
-  Pokemon: '[[SRD-Lycanroc Midday]]'
+  Pokemon: '[[SRD-Lycanroc (Midday Form)]]'
   Special: Day
   Speed: Medium
 - Evolves: To
   Kind: Level
-  Pokemon: '[[SRD-Lycanroc Dusk]]'
+  Pokemon: '[[SRD-Lycanroc (Dusk Form)]]'
   Special: Dawn
   Speed: Medium
 - Evolves: To
   Kind: Level
-  Pokemon: '[[SRD-Lycanroc Midnight]]'
+  Pokemon: '[[SRD-Lycanroc (Midnight Form)]]'
   Special: Night
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Steadfast
 HomeSprite: SRD-rockruff-HomeSprite.png
+Image: rockruff.png
 Learnset: '[[SRD-Rockruff-Learnset]]'
 Legendary: 'No'
-Name: Rockruff
 Number: 744
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-rockruff-ShuffleToken.png
-Sprite: rockruff.png
 Type1: Rock
 Type2: ''
 Weight:
-  Hectograms: 92
   Kilograms: 9.2
   Pounds: 20.3
 ---
@@ -64,7 +57,7 @@ Weight:
 *Rockruff are very social and friendly, their keen sense of smell allows them to find their trainers easily. However, as they age they become wilder and rebellious. Do not let them roam alone at night.*
 
 **DexID**:: 0744
-**Species**:: Rockruff
+**Name**:: Rockruff
 **Type**:: Rock
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Vital Spirit|Vital Spirit]] ([[SRD-Steadfast|Steadfast]]) <[[SRD-Own Tempo|Own Tempo]]>
 **Base HP**:: 3
@@ -82,10 +75,10 @@ Weight:
 **Good Starter**:: Yes
 **Recommended Rank**:: Beginner
 
-| Evolves   | Pokemon                   | Kind   | Speed   | Special   |
-|:----------|:--------------------------|:-------|:--------|:----------|
-| To        | [[SRD-Lycanroc Midday]]   | Level  | Medium  | Day       |
-| To        | [[SRD-Lycanroc Dusk]]     | Level  | Medium  | Dawn      |
-| To        | [[SRD-Lycanroc Midnight]] | Level  | Medium  | Night     |
+| Evolves   | Pokemon                          | Kind   | Speed   | Special   |
+|:----------|:---------------------------------|:-------|:--------|:----------|
+| To        | [[SRD-Lycanroc (Midday Form)]]   | Level  | Medium  | Day       |
+| To        | [[SRD-Lycanroc (Dusk Form)]]     | Level  | Medium  | Dawn      |
+| To        | [[SRD-Lycanroc (Midnight Form)]] | Level  | Medium  | Night     |
 
 ![[SRD-Rockruff-Learnset]]

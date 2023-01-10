@@ -1,7 +1,6 @@
 ---
 Ability1: Prankster
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-tornadus-BookSprite.png
 BoxSprite: SRD-tornadus-BoxSprite.png
 DexCategory: No Data
@@ -12,27 +11,21 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Form Tornadus]]'
+  Pokemon: '[[SRD-Tornadus (Therian Form)]]'
 GenderType: M
-HasForm: 'Yes'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Defiant
 HomeSprite: SRD-tornadus-HomeSprite.png
+Image: tornadus.png
 Learnset: '[[SRD-Tornadus-Learnset]]'
 Legendary: 'Yes'
-Name: Tornadus
 Number: 641
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-tornadus-ShuffleToken.png
-Sprite: tornadus.png
 Type1: Flying
 Type2: ''
 Weight:
-  Hectograms: 630
   Kilograms: 63.0
   Pounds: 138.9
 ---
@@ -52,7 +45,7 @@ Weight:
 *Unova suffers from terrible tornadoes and devastating wind currents that leave houses and buildings in ruins. Some people claim a Pokemon riding the winds is responsible for all the devastation.*
 
 **DexID**:: 0641
-**Species**:: Tornadus
+**Name**:: Tornadus
 **Type**:: Flying
 **Abilities**:: [[SRD-Prankster|Prankster]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 4
@@ -70,8 +63,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-| Evolves   | Pokemon               | Kind   |
-|:----------|:----------------------|:-------|
-| To        | [[SRD-Form Tornadus]] | Form   |
+| Evolves   | Pokemon                         | Kind   |
+|:----------|:--------------------------------|:-------|
+| To        | [[SRD-Tornadus (Therian Form)]] | Form   |
 
 ![[SRD-Tornadus-Learnset]]

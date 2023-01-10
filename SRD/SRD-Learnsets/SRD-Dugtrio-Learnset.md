@@ -1,5 +1,4 @@
 ---
-DexID: '0051'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Stealth Rock|Stealth Rock]]'
 Name: Dugtrio
-Species: '[[SRD-Dugtrio|Dugtrio]]'
+Pokedex: '[[SRD-Dugtrio|Dugtrio]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

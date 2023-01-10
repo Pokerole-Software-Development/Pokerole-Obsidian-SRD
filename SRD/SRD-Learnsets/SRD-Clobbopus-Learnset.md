@@ -1,5 +1,4 @@
 ---
-DexID: 0851
 Moves:
 - - Starter
   - '[[SRD-Rock Smash|Rock Smash]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Seismic Toss|Seismic Toss]]'
 Name: Clobbopus
-Species: '[[SRD-Clobbopus|Clobbopus]]'
+Pokedex: '[[SRD-Clobbopus|Clobbopus]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Lightning Rod
 Ability2: Motor Drive
-Baby: 'No'
 BookSprite: SRD-zebstrika-BookSprite.png
 BoxSprite: SRD-zebstrika-BoxSprite.png
 DexCategory: Thunderbolt Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Blitzle]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-zebstrika-HomeSprite.png
+Image: zebstrika.png
 Learnset: '[[SRD-Zebstrika-Learnset]]'
 Legendary: 'No'
-Name: Zebstrika
 Number: 523
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-zebstrika-ShuffleToken.png
-Sprite: zebstrika.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 795
   Kilograms: 79.5
   Pounds: 175.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is very ill tempered and wild, there have been very few cases of it being successfully tamed. It can shoot lightning from it’s mane in all directions. If you try to mount it without warning it will shock you.*
 
 **DexID**:: 0523
-**Species**:: Zebstrika
+**Name**:: Zebstrika
 **Type**:: Electric
 **Abilities**:: [[SRD-Lightning Rod|Lightning Rod]] / [[SRD-Motor Drive|Motor Drive]] ([[SRD-Sap Sipper|Sap Sipper]])
 **Base HP**:: 4

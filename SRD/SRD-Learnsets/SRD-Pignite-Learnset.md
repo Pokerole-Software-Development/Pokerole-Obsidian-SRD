@@ -1,5 +1,4 @@
 ---
-DexID: 0499
 Moves:
 - - Starter
   - '[[SRD-Tail Whip|Tail Whip]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Pignite
-Species: '[[SRD-Pignite|Pignite]]'
+Pokedex: '[[SRD-Pignite|Pignite]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0856
 Moves:
 - - Starter
   - '[[SRD-Teatime|Teatime]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Self Destruct|Self Destruct]]'
 Name: Polteageist
-Species: '[[SRD-Polteageist|Polteageist]]'
+Pokedex: '[[SRD-Polteageist|Polteageist]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

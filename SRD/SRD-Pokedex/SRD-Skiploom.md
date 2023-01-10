@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: Leaf Guard
-Baby: 'No'
 BookSprite: SRD-skiploom-BookSprite.png
 BoxSprite: SRD-skiploom-BoxSprite.png
 DexCategory: Cottonweed Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Jumpluff]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Infiltrator
 HomeSprite: SRD-skiploom-HomeSprite.png
+Image: skiploom.png
 Learnset: '[[SRD-Skiploom-Learnset]]'
 Legendary: 'No'
-Name: Skiploom
 Number: 188
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-skiploom-ShuffleToken.png
-Sprite: skiploom.png
 Type1: Grass
 Type2: Flying
 Weight:
-  Hectograms: 10
   Kilograms: 1.0
   Pounds: 2.2
 ---
@@ -57,7 +50,7 @@ Weight:
 *It blooms when the weather is warm. If the weather gets cold, the bloom will close and it will stop flying. This is not an aggressive Pokemon but it can cause allergies if it floats directly above you.*
 
 **DexID**:: 0188
-**Species**:: Skiploom
+**Name**:: Skiploom
 **Type**:: Grass / Flying
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Leaf Guard|Leaf Guard]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 4

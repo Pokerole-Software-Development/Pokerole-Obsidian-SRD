@@ -1,7 +1,6 @@
 ---
 Ability1: Damp
 Ability2: Water Absorb
-Baby: 'No'
 BookSprite: SRD-wooper-BookSprite.png
 BoxSprite: SRD-wooper-BoxSprite.png
 DexCategory: Water Fish Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Quagsire]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Unaware
 HomeSprite: SRD-wooper-HomeSprite.png
+Image: wooper.png
 Learnset: '[[SRD-Wooper-Learnset]]'
 Legendary: 'No'
-Name: Wooper
 Number: 194
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Field
 ShuffleToken: SRD-wooper-ShuffleToken.png
-Sprite: wooper.png
 Type1: Water
 Type2: Ground
 Weight:
-  Hectograms: 85
   Kilograms: 8.5
   Pounds: 18.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *Inhabits cold water sources and only comes out during the evening when the land has cooled, to find something to eat. Under this ideal environment it has rarely been seen at its evolved stage.*
 
 **DexID**:: 0194
-**Species**:: Wooper
+**Name**:: Wooper
 **Type**:: Water / Ground
 **Abilities**:: [[SRD-Damp|Damp]] / [[SRD-Water Absorb|Water Absorb]] ([[SRD-Unaware|Unaware]])
 **Base HP**:: 3

@@ -1,5 +1,4 @@
 ---
-DexID: 0879
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Dracozolt
-Species: '[[SRD-Dracozolt|Dracozolt]]'
+Pokedex: '[[SRD-Dracozolt|Dracozolt]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

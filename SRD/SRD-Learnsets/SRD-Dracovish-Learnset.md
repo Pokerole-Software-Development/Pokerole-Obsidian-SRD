@@ -1,5 +1,4 @@
 ---
-DexID: 0881
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Whirlpool|Whirlpool]]'
 Name: Dracovish
-Species: '[[SRD-Dracovish|Dracovish]]'
+Pokedex: '[[SRD-Dracovish|Dracovish]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

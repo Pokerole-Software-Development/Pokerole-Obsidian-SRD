@@ -1,7 +1,6 @@
 ---
 Ability1: ''
 Ability2: ''
-Baby: 'No'
 BookImageName: ''
 BookShinyImageName: ''
 BookSprite: SRD-egg-BookSprite.png
@@ -11,25 +10,19 @@ DexDescription: ''
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 0
   Feet: 0.0
   Meters: 0
 HiddenAbility: ''
 HomeSprite: SRD-egg-HomeSprite.png
+Image: egg.png
 Learnset: '[[SRD-Egg-Learnset]]'
 Legendary: 'No'
-Name: Egg
 Number: 0
-PrimaryEggGroup: ''
-SecondaryEggGroup: ''
 ShuffleToken: SRD-egg-ShuffleToken.png
-Sprite: egg.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 0
   Kilograms: 0
   Pounds: 0
 ---
@@ -49,7 +42,7 @@ Weight:
 **
 
 **DexID**:: 0000
-**Species**:: Egg
+**Name**:: Egg
 **Type**:: Normal
 **Abilities**:: [[SRD-|]]
 **Base HP**:: 1

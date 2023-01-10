@@ -1,5 +1,4 @@
 ---
-DexID: 0872
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Spikes|Spikes]]'
 Name: Pincurchin
-Species: '[[SRD-Pincurchin|Pincurchin]]'
+Pokedex: '[[SRD-Pincurchin|Pincurchin]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

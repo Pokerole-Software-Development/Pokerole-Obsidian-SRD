@@ -1,7 +1,6 @@
 ---
 Ability1: Shed Skin
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-seviper-BookSprite.png
 BoxSprite: SRD-seviper-BoxSprite.png
 DexCategory: Fang Snake Pokemon
@@ -11,25 +10,19 @@ DexDescription: "Their hate for the Zangoose has been boiling for so long it\u20
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 27
   Feet: 8.9
   Meters: 2.7
 HiddenAbility: Infiltrator
 HomeSprite: SRD-seviper-HomeSprite.png
+Image: seviper.png
 Learnset: '[[SRD-Seviper-Learnset]]'
 Legendary: 'No'
-Name: Seviper
 Number: 336
-PrimaryEggGroup: Field
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-seviper-ShuffleToken.png
-Sprite: seviper.png
 Type1: Poison
 Type2: ''
 Weight:
-  Hectograms: 525
   Kilograms: 52.5
   Pounds: 115.7
 ---
@@ -49,7 +42,7 @@ Weight:
 *Their hate for the Zangoose has been boiling for so long it’s now a basic instinct. They battle using their sword-edged poisonous tail, hiding in tall grass until an unwary prey gets close enough.*
 
 **DexID**:: 0336
-**Species**:: Seviper
+**Name**:: Seviper
 **Type**:: Poison
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 4

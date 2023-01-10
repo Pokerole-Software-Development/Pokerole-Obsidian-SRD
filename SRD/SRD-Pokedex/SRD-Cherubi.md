@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-cherubi-BookSprite.png
 BoxSprite: SRD-cherubi-BoxSprite.png
 DexCategory: Cherry Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Cherrim]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: ''
 HomeSprite: SRD-cherubi-HomeSprite.png
+Image: cherubi.png
 Learnset: '[[SRD-Cherubi-Learnset]]'
 Legendary: 'No'
-Name: Cherubi
 Number: 420
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-cherubi-ShuffleToken.png
-Sprite: cherubi.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 33
   Kilograms: 3.3
   Pounds: 7.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *It hides on bushes while absorbing the sunlight. Their small heads store the energy needed for evolution, but this small head is frequently eaten by other Pokemon and people so it’s hard for them to evolve.*
 
 **DexID**:: 0420
-**Species**:: Cherubi
+**Name**:: Cherubi
 **Type**:: Grass
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]]
 **Base HP**:: 3

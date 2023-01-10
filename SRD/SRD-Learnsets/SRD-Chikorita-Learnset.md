@@ -1,5 +1,4 @@
 ---
-DexID: '0152'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Grassy Terrain|Grassy Terrain]]'
 Name: Chikorita
-Species: '[[SRD-Chikorita|Chikorita]]'
+Pokedex: '[[SRD-Chikorita|Chikorita]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

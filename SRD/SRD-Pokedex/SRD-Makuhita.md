@@ -1,7 +1,6 @@
 ---
 Ability1: Thick Fat
 Ability2: Guts
-Baby: 'No'
 BookSprite: SRD-makuhita-BookSprite.png
 BoxSprite: SRD-makuhita-BoxSprite.png
 DexCategory: Guts Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Hariyama]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Sheer Force
 HomeSprite: SRD-makuhita-HomeSprite.png
+Image: makuhita.png
 Learnset: '[[SRD-Makuhita-Learnset]]'
 Legendary: 'No'
-Name: Makuhita
 Number: 296
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-makuhita-ShuffleToken.png
-Sprite: makuhita.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 864
   Kilograms: 86.4
   Pounds: 190.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *A tenacious Pokemon that will get back up no matter how many times he gets knocked down. They have a tireless spirit, and never give up hope. Makuhitas put all their hearts into everything they do.*
 
 **DexID**:: 0296
-**Species**:: Makuhita
+**Name**:: Makuhita
 **Type**:: Fighting
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Guts|Guts]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 3

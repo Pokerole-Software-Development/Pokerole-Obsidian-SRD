@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: Tangled Feet
-Baby: 'No'
 BookSprite: SRD-pidgey-BookSprite.png
 BoxSprite: SRD-pidgey-BoxSprite.png
 DexCategory: Tiny Bird Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Pidgeotto]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Big Pecks
 HomeSprite: SRD-pidgey-HomeSprite.png
+Image: pidgey.png
 Learnset: '[[SRD-Pidgey-Learnset]]'
 Legendary: 'No'
-Name: Pidgey
 Number: 16
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-pidgey-ShuffleToken.png
-Sprite: pidgey.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 18
   Kilograms: 1.8
   Pounds: 4.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *Very common around the world, it prefers to live in forests but can be seen around cities and plains too. It’s a docile Pokemon that tends to avoid trouble. It flaps its wings to lure prey out of hiding.*
 
 **DexID**:: 0016
-**Species**:: Pidgey
+**Name**:: Pidgey
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Tangled Feet|Tangled Feet]] ([[SRD-Big Pecks|Big Pecks]])
 **Base HP**:: 3

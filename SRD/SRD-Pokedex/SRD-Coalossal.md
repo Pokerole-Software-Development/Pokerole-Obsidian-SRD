@@ -1,7 +1,6 @@
 ---
 Ability1: Steam Engine
 Ability2: Flame Body
-Baby: 'No'
 BookSprite: SRD-coalossal-BookSprite.png
 BoxSprite: SRD-coalossal-BoxSprite.png
 DexCategory: Coal Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Carkol]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 28
   Feet: 9.2
   Meters: 2.8
 HiddenAbility: Flash Fire
 HomeSprite: SRD-coalossal-HomeSprite.png
+Image: coalossal.png
 Learnset: '[[SRD-Coalossal-Learnset]]'
 Legendary: 'No'
-Name: Coalossal
 Number: 839
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-coalossal-ShuffleToken.png
-Sprite: coalossal.png
 Type1: Rock
 Type2: Fire
 Weight:
-  Hectograms: 3105
   Kilograms: 310.5
   Pounds: 684.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are usually calm creatures, if they see you are kind they’ll share their warmth with you but if you enrage one you risk being burned down to ashes. They spit tarry substance that is very flammable.*
 
 **DexID**:: 0839
-**Species**:: Coalossal
+**Name**:: Coalossal
 **Type**:: Rock / Fire
 **Abilities**:: [[SRD-Steam Engine|Steam Engine]] / [[SRD-Flame Body|Flame Body]] ([[SRD-Flash Fire|Flash Fire]])
 **Base HP**:: 6

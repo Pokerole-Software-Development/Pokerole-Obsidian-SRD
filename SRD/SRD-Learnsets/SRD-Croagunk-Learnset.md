@@ -1,5 +1,4 @@
 ---
-DexID: '0453'
 Moves:
 - - Starter
   - '[[SRD-Astonish|Astonish]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Quick Guard|Quick Guard]]'
 Name: Croagunk
-Species: '[[SRD-Croagunk|Croagunk]]'
+Pokedex: '[[SRD-Croagunk|Croagunk]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

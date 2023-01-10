@@ -1,5 +1,4 @@
 ---
-DexID: 0819
 Moves:
 - - Starter
   - '[[SRD-Snipe Shot|Snipe Shot]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Hydro Cannon|Hydro Cannon]]'
 Name: Inteleon
-Species: '[[SRD-Inteleon|Inteleon]]'
+Pokedex: '[[SRD-Inteleon|Inteleon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

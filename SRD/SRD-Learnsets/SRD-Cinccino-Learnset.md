@@ -1,5 +1,4 @@
 ---
-DexID: '0573'
 Moves:
 - - Beginner
   - '[[SRD-Helping Hand|Helping Hand]]'
@@ -24,14 +23,14 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Cinccino
-Species: '[[SRD-Cinccino|Cinccino]]'
+Pokedex: '[[SRD-Cinccino|Cinccino]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

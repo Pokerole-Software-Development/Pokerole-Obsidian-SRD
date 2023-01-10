@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-weepinbell-BookSprite.png
 BoxSprite: SRD-weepinbell-BoxSprite.png
 DexCategory: Flycatcher Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Victreebel]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Gluttony
 HomeSprite: SRD-weepinbell-HomeSprite.png
+Image: weepinbell.png
 Learnset: '[[SRD-Weepinbell-Learnset]]'
 Legendary: 'No'
-Name: Weepinbell
 Number: 70
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-weepinbell-ShuffleToken.png
-Sprite: weepinbell.png
 Type1: Grass
 Type2: Poison
 Weight:
-  Hectograms: 64
   Kilograms: 6.4
   Pounds: 14.1
 ---
@@ -57,7 +50,7 @@ Weight:
 *It sprays its stun powder to immobilize a prey coming close to it, then eats it calmly. If the prey is bigger than itself, it uses its sharp leaves to slice it into smaller pieces. Beware of the toxic liquid in its mouth.*
 
 **DexID**:: 0070
-**Species**:: Weepinbell
+**Name**:: Weepinbell
 **Type**:: Grass / Poison
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 4

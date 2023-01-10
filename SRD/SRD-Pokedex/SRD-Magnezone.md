@@ -1,7 +1,6 @@
 ---
 Ability1: Magnet Pull
 Ability2: Sturdy
-Baby: 'No'
 BookSprite: SRD-magnezone-BookSprite.png
 BoxSprite: SRD-magnezone-BoxSprite.png
 DexCategory: Magnet Area Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Magneton]]'
   Speed: Slow
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Analytic
 HomeSprite: SRD-magnezone-HomeSprite.png
+Image: magnezone.png
 Learnset: '[[SRD-Magnezone-Learnset]]'
 Legendary: 'No'
-Name: Magnezone
 Number: 462
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-magnezone-ShuffleToken.png
-Sprite: magnezone.png
 Type1: Electric
 Type2: Steel
 Weight:
-  Hectograms: 1800
   Kilograms: 180.0
   Pounds: 396.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Magneton only evolves in very specific areas of the globe. It has the ability to repel itself from the ground using magnetism. If it is nervous it pulls all the pieces of metal around until it relaxes.*
 
 **DexID**:: 0462
-**Species**:: Magnezone
+**Name**:: Magnezone
 **Type**:: Electric / Steel
 **Abilities**:: [[SRD-Magnet Pull|Magnet Pull]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Analytic|Analytic]])
 **Base HP**:: 5

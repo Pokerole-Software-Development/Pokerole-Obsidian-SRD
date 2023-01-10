@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-meganium-BookSprite.png
 BoxSprite: SRD-meganium-BoxSprite.png
 DexCategory: Herb Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Bayleef]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-meganium-HomeSprite.png
+Image: meganium.png
 Learnset: '[[SRD-Meganium-Learnset]]'
 Legendary: 'No'
-Name: Meganium
 Number: 154
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-meganium-ShuffleToken.png
-Sprite: meganium.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 1005
   Kilograms: 100.5
   Pounds: 221.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *Meganium's breath has the power to revive dead grass and plants. The aroma that comes from its petals contains a substance that calms aggressive feelings and helps others to restore health.*
 
 **DexID**:: 0154
-**Species**:: Meganium
+**Name**:: Meganium
 **Type**:: Grass
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Leaf Guard|Leaf Guard]])
 **Base HP**:: 5

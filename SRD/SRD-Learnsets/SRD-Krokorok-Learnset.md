@@ -1,5 +1,4 @@
 ---
-DexID: '0552'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Tail|Aqua Tail]]'
 Name: Krokorok
-Species: '[[SRD-Krokorok|Krokorok]]'
+Pokedex: '[[SRD-Krokorok|Krokorok]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0799
 Moves:
 - - Master
   - '[[SRD-Moonlight|Moonlight]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Magnet Rise|Magnet Rise]]'
 Name: Necrozma
-Species: '[[SRD-Necrozma|Necrozma]]'
+Pokedex: '[[SRD-Necrozma|Necrozma]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

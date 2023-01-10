@@ -1,5 +1,4 @@
 ---
-DexID: '0626'
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Rufflet
-Species: '[[SRD-Rufflet|Rufflet]]'
+Pokedex: '[[SRD-Rufflet|Rufflet]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

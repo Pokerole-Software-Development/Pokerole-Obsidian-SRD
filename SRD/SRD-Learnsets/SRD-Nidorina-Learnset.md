@@ -1,5 +1,4 @@
 ---
-DexID: '0030'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Charm|Charm]]'
 Name: Nidorina
-Species: '[[SRD-Nidorina|Nidorina]]'
+Pokedex: '[[SRD-Nidorina|Nidorina]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

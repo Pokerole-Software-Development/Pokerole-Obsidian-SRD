@@ -1,7 +1,6 @@
 ---
 Ability1: Blaze
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-torchic-BookSprite.png
 BoxSprite: SRD-torchic-BoxSprite.png
 DexCategory: Chick Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Combusken]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Speed Boost
 HomeSprite: SRD-torchic-HomeSprite.png
+Image: torchic.png
 Learnset: '[[SRD-Torchic-Learnset]]'
 Legendary: 'No'
-Name: Torchic
 Number: 255
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-torchic-ShuffleToken.png
-Sprite: torchic.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 25
   Kilograms: 2.5
   Pounds: 5.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *They walk clumsily, but follow their trainers wherever they go. Torchics have a flame sac in their belly - burning all the time. If you hug them, they feel warm, but if you squeeze them, they may spit fire.*
 
 **DexID**:: 0255
-**Species**:: Torchic
+**Name**:: Torchic
 **Type**:: Fire
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Speed Boost|Speed Boost]])
 **Base HP**:: 3

@@ -1,5 +1,4 @@
 ---
-DexID: '0651'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Frenzy Plant|Frenzy Plant]]'
 Name: Chesnaught
-Species: '[[SRD-Chesnaught|Chesnaught]]'
+Pokedex: '[[SRD-Chesnaught|Chesnaught]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

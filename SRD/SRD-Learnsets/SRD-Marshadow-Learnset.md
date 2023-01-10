@@ -1,5 +1,4 @@
 ---
-DexID: 0803
 Moves:
 - - Master
   - '[[SRD-Laser Focus|Laser Focus]]'
@@ -50,14 +49,14 @@ Moves:
 - - Master
   - '[[SRD-Superpower|Superpower]]'
 Name: Marshadow
-Species: '[[SRD-Marshadow|Marshadow]]'
+Pokedex: '[[SRD-Marshadow|Marshadow]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

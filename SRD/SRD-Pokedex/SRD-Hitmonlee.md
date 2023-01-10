@@ -1,7 +1,6 @@
 ---
 Ability1: Limber
 Ability2: Reckless
-Baby: 'No'
 BookSprite: SRD-hitmonlee-BookSprite.png
 BoxSprite: SRD-hitmonlee-BoxSprite.png
 DexCategory: Kicking Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Strength
   Value: -1
 GenderType: M
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Unburden
 HomeSprite: SRD-hitmonlee-HomeSprite.png
+Image: hitmonlee.png
 Learnset: '[[SRD-Hitmonlee-Learnset]]'
 Legendary: 'No'
-Name: Hitmonlee
 Number: 106
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-hitmonlee-ShuffleToken.png
-Sprite: hitmonlee.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 498
   Kilograms: 49.8
   Pounds: 109.8
 ---
@@ -54,7 +47,7 @@ Weight:
 *Kicking Pokemon Its legs freely stretch and contract. It bowls over foes with devastating kicks. It is very disciplined and trains every day. It is very rare in the wild, and it is mostly found in urban areas*
 
 **DexID**:: 0106
-**Species**:: Hitmonlee
+**Name**:: Hitmonlee
 **Type**:: Fighting
 **Abilities**:: [[SRD-Limber|Limber]] / [[SRD-Reckless|Reckless]] ([[SRD-Unburden|Unburden]])
 **Base HP**:: 4

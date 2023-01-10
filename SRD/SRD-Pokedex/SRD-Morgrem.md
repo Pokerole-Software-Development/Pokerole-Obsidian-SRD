@@ -1,7 +1,6 @@
 ---
 Ability1: Prankster
 Ability2: Frisk
-Baby: 'No'
 BookSprite: SRD-morgrem-BookSprite.png
 BoxSprite: SRD-morgrem-BoxSprite.png
 DexCategory: Devious Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Grimmsnarl]]'
   Speed: Medium
 GenderType: M
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Pickpocket
 HomeSprite: SRD-morgrem-HomeSprite.png
+Image: morgrem.png
 Learnset: '[[SRD-Morgrem-Learnset]]'
 Legendary: 'No'
-Name: Morgrem
 Number: 860
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-morgrem-ShuffleToken.png
-Sprite: morgrem.png
 Type1: Dark
 Type2: Fairy
 Weight:
-  Hectograms: 125
   Kilograms: 12.5
   Pounds: 27.6
 ---
@@ -57,7 +50,7 @@ Weight:
 *When it gets down on all fours as if to beg for forgiveness, it’s trying to lure opponents in so that it can stab them with its spear-like hair. It lures people into the woods to rob them and get them lost.*
 
 **DexID**:: 0860
-**Species**:: Morgrem
+**Name**:: Morgrem
 **Type**:: Dark / Fairy
 **Abilities**:: [[SRD-Prankster|Prankster]] / [[SRD-Frisk|Frisk]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 4

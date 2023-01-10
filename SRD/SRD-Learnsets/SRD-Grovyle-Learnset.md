@@ -1,5 +1,4 @@
 ---
-DexID: '0253'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Grass Pledge|Grass Pledge]]'
 Name: Grovyle
-Species: '[[SRD-Grovyle|Grovyle]]'
+Pokedex: '[[SRD-Grovyle|Grovyle]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

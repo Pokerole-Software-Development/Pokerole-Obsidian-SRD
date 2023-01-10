@@ -1,5 +1,4 @@
 ---
-DexID: '0703'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Counter|Counter]]'
 Name: Goomy
-Species: '[[SRD-Goomy|Goomy]]'
+Pokedex: '[[SRD-Goomy|Goomy]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0637'
 Moves:
 - - Starter
   - '[[SRD-Ember|Ember]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Zen Headbutt|Zen Headbutt]]'
 Name: Larvesta
-Species: '[[SRD-Larvesta|Larvesta]]'
+Pokedex: '[[SRD-Larvesta|Larvesta]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

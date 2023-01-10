@@ -1,7 +1,6 @@
 ---
 Ability1: Cursed Body
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-gengar-BookSprite.png
 BoxSprite: SRD-gengar-BoxSprite.png
 DexCategory: Shadow Pokemon
@@ -16,27 +15,21 @@ Evolutions:
 - Evolves: To
   Item: Gengarite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Gengar]]'
+  Pokemon: '[[SRD-Gengar (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: ''
 HomeSprite: SRD-gengar-HomeSprite.png
+Image: gengar.png
 Learnset: '[[SRD-Gengar-Learnset]]'
 Legendary: 'No'
-Name: Gengar
 Number: 94
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-gengar-ShuffleToken.png
-Sprite: gengar.png
 Type1: Ghost
 Type2: Poison
 Weight:
-  Hectograms: 405
   Kilograms: 40.5
   Pounds: 89.3
 ---
@@ -56,7 +49,7 @@ Weight:
 *This Pokemon is mischievous but it can be downright evil. It takes joy in casting curses upon innocents and eating the life of people and Pokemon. It lurks in the shadows and disguises itself as one.*
 
 **DexID**:: 0094
-**Species**:: Gengar
+**Name**:: Gengar
 **Type**:: Ghost / Poison
 **Abilities**:: [[SRD-Cursed Body|Cursed Body]]
 **Base HP**:: 5
@@ -74,9 +67,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon             | Kind   | Item      |
-|:----------|:--------------------|:-------|:----------|
-| From      | [[SRD-Haunter]]     | Trade  |           |
-| To        | [[SRD-Mega-Gengar]] | Mega   | Gengarite |
+| Evolves   | Pokemon                    | Kind   | Item      |
+|:----------|:---------------------------|:-------|:----------|
+| From      | [[SRD-Haunter]]            | Trade  |           |
+| To        | [[SRD-Gengar (Mega Form)]] | Mega   | Gengarite |
 
 ![[SRD-Gengar-Learnset]]

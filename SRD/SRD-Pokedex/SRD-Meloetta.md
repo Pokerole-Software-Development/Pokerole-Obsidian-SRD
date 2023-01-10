@@ -1,7 +1,6 @@
 ---
 Ability1: Serene Grace
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-meloetta-BookSprite.png
 BoxSprite: SRD-meloetta-BoxSprite.png
 DexCategory: No Data
@@ -11,27 +10,21 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Form Meloetta]]'
+  Pokemon: '[[SRD-Meloetta (Pirouette Form)]]'
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: ''
 HomeSprite: SRD-meloetta-HomeSprite.png
+Image: meloetta.png
 Learnset: '[[SRD-Meloetta-Learnset]]'
 Legendary: 'Yes'
-Name: Meloetta
 Number: 648
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-meloetta-ShuffleToken.png
-Sprite: meloetta.png
 Type1: Normal
 Type2: Psychic
 Weight:
-  Hectograms: 65
   Kilograms: 6.5
   Pounds: 14.3
 ---
@@ -51,7 +44,7 @@ Weight:
 *There are old songs about a beautiful Pokemon that inspired the hearts of artists through its graceful dance and singing.*
 
 **DexID**:: 0648
-**Species**:: Meloetta
+**Name**:: Meloetta
 **Type**:: Normal / Psychic
 **Abilities**:: [[SRD-Serene Grace|Serene Grace]]
 **Base HP**:: 5
@@ -69,8 +62,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-| Evolves   | Pokemon               | Kind   |
-|:----------|:----------------------|:-------|
-| To        | [[SRD-Form Meloetta]] | Form   |
+| Evolves   | Pokemon                           | Kind   |
+|:----------|:----------------------------------|:-------|
+| To        | [[SRD-Meloetta (Pirouette Form)]] | Form   |
 
 ![[SRD-Meloetta-Learnset]]

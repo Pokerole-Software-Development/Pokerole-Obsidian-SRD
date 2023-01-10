@@ -1,5 +1,4 @@
 ---
-DexID: '0736'
 Moves:
 - - Starter
   - '[[SRD-String Shot|String Shot]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Charjabug
-Species: '[[SRD-Charjabug|Charjabug]]'
+Pokedex: '[[SRD-Charjabug|Charjabug]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

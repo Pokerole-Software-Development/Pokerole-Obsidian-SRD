@@ -1,7 +1,6 @@
 ---
 Ability1: Inner Focus
 Ability2: Synchronize
-Baby: 'No'
 BookSprite: SRD-indeedee-BookSprite.png
 BoxSprite: SRD-indeedee-BoxSprite.png
 DexCategory: Emotion Pokemon
@@ -11,25 +10,19 @@ DexDescription: These intelligent Pokemon touch horns with each other to share i
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Psychic Surge
 HomeSprite: SRD-indeedee-HomeSprite.png
+Image: indeedee.png
 Learnset: '[[SRD-Indeedee-Learnset]]'
 Legendary: 'No'
-Name: Indeedee
 Number: 876
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-indeedee-ShuffleToken.png
-Sprite: indeedee.png
 Type1: Psychic
 Type2: Normal
 Weight:
-  Hectograms: 280
   Kilograms: 28.0
   Pounds: 61.7
 ---
@@ -49,7 +42,7 @@ Weight:
 *These intelligent Pokemon touch horns with each other to share information between them. They love to help and be of service to people because they gather power from feelings of gratitude.*
 
 **DexID**:: 0876
-**Species**:: Indeedee
+**Name**:: Indeedee
 **Type**:: Psychic / Normal
 **Abilities**:: [[SRD-Inner Focus|Inner Focus]] / [[SRD-Synchronize|Synchronize]] ([[SRD-Psychic Surge|Psychic Surge]])
 **Base HP**:: 4

@@ -1,9 +1,8 @@
 ---
 Ability1: Aura Break
 Ability2: Power Construct
-Baby: 'No'
-BookSprite: SRD-zygarde-50-BookSprite.png
-BoxSprite: SRD-zygarde-50-BoxSprite.png
+BookSprite: SRD-zygarde-50%-BookSprite.png
+BoxSprite: SRD-zygarde-50%-BoxSprite.png
 DexCategory: No Data
 DexDescription: Underground tunnels have been found all over the Kalos Region. There
   are rumors of a creature who lives in them that attacks people damaging the ecosystem.
@@ -14,25 +13,19 @@ Evolutions:
   Kind: Special
   Pokemon: '[[SRD-Zygarde Cell]]'
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 50
   Feet: 16.4
   Meters: 5.0
 HiddenAbility: ''
-HomeSprite: SRD-zygarde-50-HomeSprite.png
+HomeSprite: SRD-zygarde-50%-HomeSprite.png
+Image: zygarde-50%.png
 Learnset: '[[SRD-Zygarde 50%-Learnset]]'
 Legendary: 'Yes'
-Name: Zygarde 50%
 Number: 718
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
-ShuffleToken: SRD-zygarde-50-ShuffleToken.png
-Sprite: zygarde-50.png
+ShuffleToken: SRD-zygarde-50%-ShuffleToken.png
 Type1: Dragon
 Type2: Ground
 Weight:
-  Hectograms: 3050
   Kilograms: 305.0
   Pounds: 672.4
 ---
@@ -42,17 +35,17 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-zygarde-50-BookSprite.png|wsmall]]
-> ![[SRD-zygarde-50-HomeSprite.png]]
-> ![[SRD-zygarde-50-BoxSprite.png|htiny]]
-> ![[SRD-zygarde-50-ShuffleToken.png|wsmall]]
+> ![[SRD-zygarde-50%-BookSprite.png|wsmall]]
+> ![[SRD-zygarde-50%-HomeSprite.png]]
+> ![[SRD-zygarde-50%-BoxSprite.png|htiny]]
+> ![[SRD-zygarde-50%-ShuffleToken.png|wsmall]]
 
 
 *No Data*
 *Underground tunnels have been found all over the Kalos Region. There are rumors of a creature who lives in them that attacks people damaging the ecosystem.*
 
 **DexID**:: 0718F2
-**Species**:: Zygarde 50%
+**Name**:: Zygarde 50%
 **Type**:: Dragon / Ground
 **Abilities**:: [[SRD-Aura Break|Aura Break]] / [[SRD-Power Construct|Power Construct]]
 **Base HP**:: 5

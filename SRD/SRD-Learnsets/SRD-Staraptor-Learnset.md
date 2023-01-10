@@ -1,5 +1,4 @@
 ---
-DexID: 0398
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Steel Wing|Steel Wing]]'
 Name: Staraptor
-Species: '[[SRD-Staraptor|Staraptor]]'
+Pokedex: '[[SRD-Staraptor|Staraptor]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

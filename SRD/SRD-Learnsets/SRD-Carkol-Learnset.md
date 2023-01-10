@@ -1,5 +1,4 @@
 ---
-DexID: 0839
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Carkol
-Species: '[[SRD-Carkol|Carkol]]'
+Pokedex: '[[SRD-Carkol|Carkol]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

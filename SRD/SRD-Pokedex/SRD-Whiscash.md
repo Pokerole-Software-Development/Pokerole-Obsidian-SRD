@@ -1,7 +1,6 @@
 ---
 Ability1: Oblivious
 Ability2: Anticipation
-Baby: 'No'
 BookSprite: SRD-whiscash-BookSprite.png
 BoxSprite: SRD-whiscash-BoxSprite.png
 DexCategory: Whiskers Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Barboach]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 9
   Feet: 3.0
   Meters: 0.9
 HiddenAbility: Hydration
 HomeSprite: SRD-whiscash-HomeSprite.png
+Image: whiscash.png
 Learnset: '[[SRD-Whiscash-Learnset]]'
 Legendary: 'No'
-Name: Whiscash
 Number: 340
-PrimaryEggGroup: Water 2
-SecondaryEggGroup: ''
 ShuffleToken: SRD-whiscash-ShuffleToken.png
-Sprite: whiscash.png
 Type1: Water
 Type2: Ground
 Weight:
-  Hectograms: 236
   Kilograms: 23.6
   Pounds: 52.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *Dangerous and territorial, they claim entire ponds as their homes and will crush whoever dares to dive in with earthquakes. They eat anything alive in their pond or swamp. They have learned to foretell real tremors.*
 
 **DexID**:: 0340
-**Species**:: Whiscash
+**Name**:: Whiscash
 **Type**:: Water / Ground
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Anticipation|Anticipation]] ([[SRD-Hydration|Hydration]])
 **Base HP**:: 5

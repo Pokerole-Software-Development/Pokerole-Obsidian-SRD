@@ -1,5 +1,4 @@
 ---
-DexID: 0383
 Moves:
 - - Master
   - '[[SRD-Ancient Power|Ancient Power]]'
@@ -52,14 +51,14 @@ Moves:
 - - Master
   - '[[SRD-Rock Climb|Rock Climb]]'
 Name: Groudon
-Species: '[[SRD-Groudon|Groudon]]'
+Pokedex: '[[SRD-Groudon|Groudon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

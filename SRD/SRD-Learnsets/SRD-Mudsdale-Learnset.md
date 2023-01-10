@@ -1,5 +1,4 @@
 ---
-DexID: '0751'
 Moves:
 - - Starter
   - '[[SRD-Mud Slap|Mud Slap]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Close Combat|Close Combat]]'
 Name: Mudsdale
-Species: '[[SRD-Mudsdale|Mudsdale]]'
+Pokedex: '[[SRD-Mudsdale|Mudsdale]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

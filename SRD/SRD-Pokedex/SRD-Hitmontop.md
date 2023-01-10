@@ -1,7 +1,6 @@
 ---
 Ability1: Intimidate
 Ability2: Technician
-Baby: 'No'
 BookSprite: SRD-hitmontop-BookSprite.png
 BoxSprite: SRD-hitmontop-BoxSprite.png
 DexCategory: Handstand Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Dexterity
   Value: -1
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Steadfast
 HomeSprite: SRD-hitmontop-HomeSprite.png
+Image: hitmontop.png
 Learnset: '[[SRD-Hitmontop-Learnset]]'
 Legendary: 'No'
-Name: Hitmontop
 Number: 237
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-hitmontop-ShuffleToken.png
-Sprite: hitmontop.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 480
   Kilograms: 48.0
   Pounds: 105.8
 ---
@@ -54,7 +47,7 @@ Weight:
 *They launch high speed kicks while spinning so fast that they get drilled into the ground. They move quicker by spinning than they do walking. They are very smart and like to perform dance-like kicks.*
 
 **DexID**:: 0237
-**Species**:: Hitmontop
+**Name**:: Hitmontop
 **Type**:: Fighting
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Technician|Technician]] ([[SRD-Steadfast|Steadfast]])
 **Base HP**:: 4

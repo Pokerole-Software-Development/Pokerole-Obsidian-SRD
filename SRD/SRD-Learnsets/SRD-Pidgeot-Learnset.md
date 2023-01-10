@@ -1,5 +1,4 @@
 ---
-DexID: 0018
 Moves:
 - - Starter
   - '[[SRD-Sand Attack|Sand Attack]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Reflect|Reflect]]'
 Name: Pidgeot
-Species: '[[SRD-Pidgeot|Pidgeot]]'
+Pokedex: '[[SRD-Pidgeot|Pidgeot]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

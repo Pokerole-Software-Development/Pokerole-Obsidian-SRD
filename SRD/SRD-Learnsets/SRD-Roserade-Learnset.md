@@ -1,5 +1,4 @@
 ---
-DexID: '0407'
 Moves:
 - - Beginner
   - '[[SRD-Poison Sting|Poison Sting]]'
@@ -26,14 +25,14 @@ Moves:
 - - Pro
   - '[[SRD-Pin Missile|Pin Missile]]'
 Name: Roserade
-Species: '[[SRD-Roserade|Roserade]]'
+Pokedex: '[[SRD-Roserade|Roserade]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

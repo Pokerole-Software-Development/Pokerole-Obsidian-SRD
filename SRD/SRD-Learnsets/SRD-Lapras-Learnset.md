@@ -1,5 +1,4 @@
 ---
-DexID: '0131'
 Moves:
 - - Starter
   - '[[SRD-Sing|Sing]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Outrage|Outrage]]'
 Name: Lapras
-Species: '[[SRD-Lapras|Lapras]]'
+Pokedex: '[[SRD-Lapras|Lapras]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

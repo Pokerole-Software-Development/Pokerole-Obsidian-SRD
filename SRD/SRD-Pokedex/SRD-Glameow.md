@@ -1,7 +1,6 @@
 ---
 Ability1: Limber
 Ability2: Own Tempo
-Baby: 'No'
 BookSprite: SRD-glameow-BookSprite.png
 BoxSprite: SRD-glameow-BoxSprite.png
 DexCategory: Catty Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Purugly]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Keen Eye
 HomeSprite: SRD-glameow-HomeSprite.png
+Image: glameow.png
 Learnset: '[[SRD-Glameow-Learnset]]'
 Legendary: 'No'
-Name: Glameow
 Number: 431
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-glameow-ShuffleToken.png
-Sprite: glameow.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 39
   Kilograms: 3.9
   Pounds: 8.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is plentiful in urban areas, as it is a popular pet. It has a very fickle nature, purring in happiness one second, then hooking its claws into its trainer’s nose. It loves to be admired and pampered.*
 
 **DexID**:: 0431
-**Species**:: Glameow
+**Name**:: Glameow
 **Type**:: Normal
 **Abilities**:: [[SRD-Limber|Limber]] / [[SRD-Own Tempo|Own Tempo]] ([[SRD-Keen Eye|Keen Eye]])
 **Base HP**:: 3

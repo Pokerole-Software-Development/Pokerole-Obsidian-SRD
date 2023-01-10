@@ -1,5 +1,4 @@
 ---
-DexID: 0685
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Simple Beam|Simple Beam]]'
 Name: Inkay
-Species: '[[SRD-Inkay|Inkay]]'
+Pokedex: '[[SRD-Inkay|Inkay]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

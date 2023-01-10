@@ -1,5 +1,4 @@
 ---
-DexID: 0830
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Sleep Talk|Sleep Talk]]'
 Name: Wooloo
-Species: '[[SRD-Wooloo|Wooloo]]'
+Pokedex: '[[SRD-Wooloo|Wooloo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

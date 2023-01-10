@@ -1,5 +1,4 @@
 ---
-DexID: '0014'
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -10,14 +9,14 @@ Moves:
 - - Amateur
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Kakuna
-Species: '[[SRD-Kakuna|Kakuna]]'
+Pokedex: '[[SRD-Kakuna|Kakuna]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

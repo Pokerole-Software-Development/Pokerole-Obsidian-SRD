@@ -1,5 +1,4 @@
 ---
-DexID: 0817
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Sobble
-Species: '[[SRD-Sobble|Sobble]]'
+Pokedex: '[[SRD-Sobble|Sobble]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

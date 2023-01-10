@@ -1,5 +1,4 @@
 ---
-DexID: 0190
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Quick Guard|Quick Guard]]'
 Name: Aipom
-Species: '[[SRD-Aipom|Aipom]]'
+Pokedex: '[[SRD-Aipom|Aipom]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

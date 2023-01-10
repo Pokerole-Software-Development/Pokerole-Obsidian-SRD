@@ -1,5 +1,4 @@
 ---
-DexID: 0783
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Kommo-o
-Species: '[[SRD-Kommo-o|Kommo-o]]'
+Pokedex: '[[SRD-Kommo-o|Kommo-o]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

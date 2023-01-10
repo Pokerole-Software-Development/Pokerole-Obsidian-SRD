@@ -1,7 +1,6 @@
 ---
 Ability1: Hyper Cutter
 Ability2: Shell Armor
-Baby: 'No'
 BookSprite: SRD-krabby-BookSprite.png
 BoxSprite: SRD-krabby-BoxSprite.png
 DexCategory: River Crab Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Kingler]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Sheer Force
 HomeSprite: SRD-krabby-HomeSprite.png
+Image: krabby.png
 Learnset: '[[SRD-Krabby-Learnset]]'
 Legendary: 'No'
-Name: Krabby
 Number: 98
-PrimaryEggGroup: Water 3
-SecondaryEggGroup: ''
 ShuffleToken: SRD-krabby-ShuffleToken.png
-Sprite: krabby.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 65
   Kilograms: 6.5
   Pounds: 14.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *A Krabby dig holes in the sand near the sea. They can be seen squabbling with each other over food and territory. They usually avoid humans but will fight if provoked.*
 
 **DexID**:: 0098
-**Species**:: Krabby
+**Name**:: Krabby
 **Type**:: Water
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 3

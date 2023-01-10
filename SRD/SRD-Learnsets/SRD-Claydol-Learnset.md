@@ -1,5 +1,4 @@
 ---
-DexID: '0344'
 Moves:
 - - Starter
   - '[[SRD-Confusion|Confusion]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Wonder Room|Wonder Room]]'
 Name: Claydol
-Species: '[[SRD-Claydol|Claydol]]'
+Pokedex: '[[SRD-Claydol|Claydol]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

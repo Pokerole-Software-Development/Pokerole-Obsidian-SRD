@@ -1,7 +1,6 @@
 ---
 Ability1: Flame Body
 Ability2: ''
-Baby: 'Yes'
 BookSprite: SRD-magby-BookSprite.png
 BoxSprite: SRD-magby-BoxSprite.png
 DexCategory: Live Coal Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Magmar]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Vital Spirit
 HomeSprite: SRD-magby-HomeSprite.png
+Image: magby.png
 Learnset: '[[SRD-Magby-Learnset]]'
 Legendary: 'No'
-Name: Magby
 Number: 240
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-magby-ShuffleToken.png
-Sprite: magby.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 214
   Kilograms: 21.4
   Pounds: 47.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *They inhale and exhale embers from their mouth and nostrils. Their body temperature is so hot, they may ignite anything they touch and the floor they walk. Magby can be found in volcanoes.*
 
 **DexID**:: 0240
-**Species**:: Magby
+**Name**:: Magby
 **Type**:: Fire
 **Abilities**:: [[SRD-Flame Body|Flame Body]] ([[SRD-Vital Spirit|Vital Spirit]])
 **Base HP**:: 3

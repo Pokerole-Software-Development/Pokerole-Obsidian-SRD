@@ -1,5 +1,4 @@
 ---
-DexID: 0647F1
 Moves:
 - - Master
   - '[[SRD-Aqua Jet|Aqua Jet]]'
@@ -38,14 +37,14 @@ Moves:
 - - Master
   - '[[SRD-Noble Roar|Noble Roar]]'
 Name: Keldeo
-Species: '[[SRD-Keldeo|Keldeo]]'
+Pokedex: '[[SRD-Keldeo|Keldeo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

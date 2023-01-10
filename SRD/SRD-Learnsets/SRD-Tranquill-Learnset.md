@@ -1,5 +1,4 @@
 ---
-DexID: '0520'
 Moves:
 - - Starter
   - '[[SRD-Gust|Gust]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Hypnosis|Hypnosis]]'
 Name: Tranquill
-Species: '[[SRD-Tranquill|Tranquill]]'
+Pokedex: '[[SRD-Tranquill|Tranquill]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

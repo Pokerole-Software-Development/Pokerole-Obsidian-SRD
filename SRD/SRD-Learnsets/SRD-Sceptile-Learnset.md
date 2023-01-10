@@ -1,5 +1,4 @@
 ---
-DexID: '0254'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Frenzy Plant|Frenzy Plant]]'
 Name: Sceptile
-Species: '[[SRD-Sceptile|Sceptile]]'
+Pokedex: '[[SRD-Sceptile|Sceptile]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

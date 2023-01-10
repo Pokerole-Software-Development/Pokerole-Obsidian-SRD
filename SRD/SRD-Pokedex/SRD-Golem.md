@@ -1,7 +1,6 @@
 ---
 Ability1: Rock Head
 Ability2: Sturdy
-Baby: 'No'
 BookSprite: SRD-golem-BookSprite.png
 BoxSprite: SRD-golem-BoxSprite.png
 DexCategory: Megaton Pokemon
@@ -14,25 +13,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Graveler]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Sand Veil
 HomeSprite: SRD-golem-HomeSprite.png
+Image: golem.png
 Learnset: '[[SRD-Golem-Learnset]]'
 Legendary: 'No'
-Name: Golem
 Number: 76
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-golem-ShuffleToken.png
-Sprite: golem.png
 Type1: Rock
 Type2: Ground
 Weight:
-  Hectograms: 3000
   Kilograms: 300.0
   Pounds: 661.4
 ---
@@ -52,7 +45,7 @@ Weight:
 *It is rare to see in the wild since it lives high on the mountains. It withdraws its head and legs as if it were a turtle to roll around. There have been cases of Golem that resist dynamite blasts unscathed.*
 
 **DexID**:: 0076
-**Species**:: Golem
+**Name**:: Golem
 **Type**:: Rock / Ground
 **Abilities**:: [[SRD-Rock Head|Rock Head]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Sand Veil|Sand Veil]])
 **Base HP**:: 5

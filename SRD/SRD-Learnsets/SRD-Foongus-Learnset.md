@@ -1,5 +1,4 @@
 ---
-DexID: 0590
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Gastro Acid|Gastro Acid]]'
 Name: Foongus
-Species: '[[SRD-Foongus|Foongus]]'
+Pokedex: '[[SRD-Foongus|Foongus]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

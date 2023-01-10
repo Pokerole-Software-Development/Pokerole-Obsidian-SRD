@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-lunatone-BookSprite.png
 BoxSprite: SRD-lunatone-BoxSprite.png
 DexCategory: Meteorite Pokemon
@@ -11,25 +10,19 @@ DexDescription: "First found where a meteorite fell. For this reason it\u2019s b
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: ''
 HomeSprite: SRD-lunatone-HomeSprite.png
+Image: lunatone.png
 Learnset: '[[SRD-Lunatone-Learnset]]'
 Legendary: 'No'
-Name: Lunatone
 Number: 337
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-lunatone-ShuffleToken.png
-Sprite: lunatone.png
 Type1: Rock
 Type2: Psychic
 Weight:
-  Hectograms: 1680
   Kilograms: 168.0
   Pounds: 370.4
 ---
@@ -49,7 +42,7 @@ Weight:
 *First found where a meteorite fell. For this reason it’s believed it came from space. Its eyes fill people with dread and lure them to sleep. They become very active and extremely powerful during full moons.*
 
 **DexID**:: 0337
-**Species**:: Lunatone
+**Name**:: Lunatone
 **Type**:: Rock / Psychic
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4

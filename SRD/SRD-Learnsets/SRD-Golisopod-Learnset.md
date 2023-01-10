@@ -1,5 +1,4 @@
 ---
-DexID: 0769
 Moves:
 - - Starter
   - '[[SRD-Struggle Bug|Struggle Bug]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Jet|Aqua Jet]]'
 Name: Golisopod
-Species: '[[SRD-Golisopod|Golisopod]]'
+Pokedex: '[[SRD-Golisopod|Golisopod]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

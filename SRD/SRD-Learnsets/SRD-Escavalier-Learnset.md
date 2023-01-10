@@ -1,5 +1,4 @@
 ---
-DexID: 0589
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Counter|Counter]]'
 Name: Escavalier
-Species: '[[SRD-Escavalier|Escavalier]]'
+Pokedex: '[[SRD-Escavalier|Escavalier]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

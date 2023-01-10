@@ -1,5 +1,4 @@
 ---
-DexID: 0882
 Moves:
 - - Starter
   - '[[SRD-Powder Snow|Powder Snow]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
 Name: Arctozolt
-Species: '[[SRD-Arctozolt|Arctozolt]]'
+Pokedex: '[[SRD-Arctozolt|Arctozolt]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

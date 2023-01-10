@@ -1,5 +1,4 @@
 ---
-DexID: 0479
 Moves:
 - - Starter
   - '[[SRD-Thunder Wave|Thunder Wave]]'
@@ -36,14 +35,14 @@ Moves:
 - - Ace
   - '[[SRD-Discharge|Discharge]]'
 Name: Rotom
-Species: '[[SRD-Rotom|Rotom]]'
+Pokedex: '[[SRD-Rotom|Rotom]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

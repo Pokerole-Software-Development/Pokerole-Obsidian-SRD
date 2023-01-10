@@ -1,7 +1,6 @@
 ---
 Ability1: Beast Boost
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-blacephalon-BookSprite.png
 BoxSprite: SRD-blacephalon-BoxSprite.png
 DexCategory: 'Aether Foundation Log #121'
@@ -11,25 +10,19 @@ DexDescription: It was horrible and so fast I could barely take a picture of the
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: ''
 HomeSprite: SRD-blacephalon-HomeSprite.png
+Image: blacephalon.png
 Learnset: '[[SRD-Blacephalon-Learnset]]'
 Legendary: 'Yes'
-Name: Blacephalon
 Number: 806
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-blacephalon-ShuffleToken.png
-Sprite: blacephalon.png
 Type1: Fire
 Type2: Ghost
 Weight:
-  Hectograms: 130
   Kilograms: 13.0
   Pounds: 28.7
 ---
@@ -49,7 +42,7 @@ Weight:
 *It was horrible and so fast I could barely take a picture of the UB specimen. As soon as the portal opened it slithered through it, got close to one of the team members and exploded. His state is critical, the UB disappeared.*
 
 **DexID**:: 0806
-**Species**:: Blacephalon
+**Name**:: Blacephalon
 **Type**:: Fire / Ghost
 **Abilities**:: [[SRD-Beast Boost|Beast Boost]]
 **Base HP**:: 4

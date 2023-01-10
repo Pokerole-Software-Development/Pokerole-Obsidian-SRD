@@ -1,7 +1,6 @@
 ---
 Ability1: Fluffy
 Ability2: Steadfast
-Baby: 'No'
 BookSprite: SRD-dubwool-BookSprite.png
 BoxSprite: SRD-dubwool-BoxSprite.png
 DexCategory: Sheep Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Wooloo]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Bulletproof
 HomeSprite: SRD-dubwool-HomeSprite.png
+Image: dubwool.png
 Learnset: '[[SRD-Dubwool-Learnset]]'
 Legendary: 'No'
-Name: Dubwool
 Number: 832
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-dubwool-ShuffleToken.png
-Sprite: dubwool.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 430
   Kilograms: 43.0
   Pounds: 94.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Humble and calm, their wool has springy properties. A king in ancient times ordered a carpet made from 100 Dubwool, when it was done, those who step on it started to bounce the moment they set foot on it.*
 
 **DexID**:: 0832
-**Species**:: Dubwool
+**Name**:: Dubwool
 **Type**:: Normal
 **Abilities**:: [[SRD-Fluffy|Fluffy]] / [[SRD-Steadfast|Steadfast]] ([[SRD-Bulletproof|Bulletproof]])
 **Base HP**:: 4

@@ -1,5 +1,4 @@
 ---
-DexID: 0308
 Moves:
 - - Starter
   - '[[SRD-Bide|Bide]]'
@@ -58,14 +57,14 @@ Moves:
 - - Pro
   - '[[SRD-Baton Pass|Baton Pass]]'
 Name: Medicham
-Species: '[[SRD-Medicham|Medicham]]'
+Pokedex: '[[SRD-Medicham|Medicham]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

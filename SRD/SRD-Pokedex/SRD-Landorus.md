@@ -1,7 +1,6 @@
 ---
 Ability1: Sand Force
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-landorus-BookSprite.png
 BoxSprite: SRD-landorus-BoxSprite.png
 DexCategory: No Data
@@ -12,27 +11,21 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Form Landorus]]'
+  Pokemon: '[[SRD-Landorus (Therian Form)]]'
 GenderType: M
-HasForm: 'Yes'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Sheer Force
 HomeSprite: SRD-landorus-HomeSprite.png
+Image: landorus.png
 Learnset: '[[SRD-Landorus-Learnset]]'
 Legendary: 'Yes'
-Name: Landorus
 Number: 645
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-landorus-ShuffleToken.png
-Sprite: landorus.png
 Type1: Ground
 Type2: Flying
 Weight:
-  Hectograms: 680
   Kilograms: 68.0
   Pounds: 149.9
 ---
@@ -52,7 +45,7 @@ Weight:
 *Earthquakes and landslides raze Unova with frequency, but the places who suffer them are left with a plentiful harvest that year. Feared by some, revered by others who claim to have seen it.*
 
 **DexID**:: 0645
-**Species**:: Landorus
+**Name**:: Landorus
 **Type**:: Ground / Flying
 **Abilities**:: [[SRD-Sand Force|Sand Force]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 4
@@ -70,8 +63,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-| Evolves   | Pokemon               | Kind   |
-|:----------|:----------------------|:-------|
-| To        | [[SRD-Form Landorus]] | Form   |
+| Evolves   | Pokemon                         | Kind   |
+|:----------|:--------------------------------|:-------|
+| To        | [[SRD-Landorus (Therian Form)]] | Form   |
 
 ![[SRD-Landorus-Learnset]]

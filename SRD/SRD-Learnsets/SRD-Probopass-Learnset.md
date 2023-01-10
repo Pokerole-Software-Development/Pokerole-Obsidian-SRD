@@ -1,5 +1,4 @@
 ---
-DexID: '0476'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -58,14 +57,14 @@ Moves:
 - - Pro
   - '[[SRD-Ancient Power|Ancient Power]]'
 Name: Probopass
-Species: '[[SRD-Probopass|Probopass]]'
+Pokedex: '[[SRD-Probopass|Probopass]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

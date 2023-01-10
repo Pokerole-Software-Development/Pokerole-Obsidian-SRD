@@ -1,7 +1,6 @@
 ---
 Ability1: Stench
 Ability2: Weak Armor
-Baby: 'No'
 BookSprite: SRD-garbodor-BookSprite.png
 BoxSprite: SRD-garbodor-BoxSprite.png
 DexCategory: Trash Heap Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Trubbish]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 19
   Feet: 6.2
   Meters: 1.9
 HiddenAbility: Aftermath
 HomeSprite: SRD-garbodor-HomeSprite.png
+Image: garbodor.png
 Learnset: '[[SRD-Garbodor-Learnset]]'
 Legendary: 'No'
-Name: Garbodor
 Number: 569
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-garbodor-ShuffleToken.png
-Sprite: garbodor.png
 Type1: Poison
 Type2: ''
 Weight:
-  Hectograms: 1073
   Kilograms: 107.3
   Pounds: 236.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *They absorb garbage to make it part of their bodies and use it to produce toxic substances from their finger tips. They like to remain undisturbed and produce a terrible smell to repel others.*
 
 **DexID**:: 0569
-**Species**:: Garbodor
+**Name**:: Garbodor
 **Type**:: Poison
 **Abilities**:: [[SRD-Stench|Stench]] / [[SRD-Weak Armor|Weak Armor]] ([[SRD-Aftermath|Aftermath]])
 **Base HP**:: 4

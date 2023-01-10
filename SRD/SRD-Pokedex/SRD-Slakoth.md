@@ -1,7 +1,6 @@
 ---
 Ability1: Truant
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-slakoth-BookSprite.png
 BoxSprite: SRD-slakoth-BoxSprite.png
 DexCategory: Slacker Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Vigoroth]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: ''
 HomeSprite: SRD-slakoth-HomeSprite.png
+Image: slakoth.png
 Learnset: '[[SRD-Slakoth-Learnset]]'
 Legendary: 'No'
-Name: Slakoth
 Number: 287
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-slakoth-ShuffleToken.png
-Sprite: slakoth.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 240
   Kilograms: 24.0
   Pounds: 52.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *They laze around 20 hours a day barely eating. Slakoths remain motionless no matter what. It’s rare to see this Pokemon doing something, most of them never even bother to evolve.*
 
 **DexID**:: 0287
-**Species**:: Slakoth
+**Name**:: Slakoth
 **Type**:: Normal
 **Abilities**:: [[SRD-Truant|Truant]]
 **Base HP**:: 3

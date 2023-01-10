@@ -1,7 +1,6 @@
 ---
 Ability1: Battery
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-charjabug-BookSprite.png
 BoxSprite: SRD-charjabug-BoxSprite.png
 DexCategory: Battery Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Vikavolt]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
 HomeSprite: SRD-charjabug-HomeSprite.png
+Image: charjabug.png
 Learnset: '[[SRD-Charjabug-Learnset]]'
 Legendary: 'No'
-Name: Charjabug
 Number: 737
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-charjabug-ShuffleToken.png
-Sprite: charjabug.png
 Type1: Bug
 Type2: Electric
 Weight:
-  Hectograms: 105
   Kilograms: 10.5
   Pounds: 23.1
 ---
@@ -57,7 +50,7 @@ Weight:
 *Whatever this Pokemon eats is transformed to electricity. People often use them to power up small appliances in their homes. This Pokemon rarely moves since it is preparing to evolve.*
 
 **DexID**:: 0737
-**Species**:: Charjabug
+**Name**:: Charjabug
 **Type**:: Bug / Electric
 **Abilities**:: [[SRD-Battery|Battery]]
 **Base HP**:: 4

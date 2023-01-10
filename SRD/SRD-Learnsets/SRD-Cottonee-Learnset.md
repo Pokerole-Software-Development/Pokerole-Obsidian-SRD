@@ -1,5 +1,4 @@
 ---
-DexID: '0546'
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Encore|Encore]]'
 Name: Cottonee
-Species: '[[SRD-Cottonee|Cottonee]]'
+Pokedex: '[[SRD-Cottonee|Cottonee]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

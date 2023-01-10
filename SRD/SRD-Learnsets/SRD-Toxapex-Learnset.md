@@ -1,5 +1,4 @@
 ---
-DexID: 0749
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Spit Up|Spit Up]]'
 Name: Toxapex
-Species: '[[SRD-Toxapex|Toxapex]]'
+Pokedex: '[[SRD-Toxapex|Toxapex]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

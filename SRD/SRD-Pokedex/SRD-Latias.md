@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-latias-BookSprite.png
 BoxSprite: SRD-latias-BoxSprite.png
 DexCategory: No Data
@@ -13,27 +12,21 @@ Evolutions:
 - Evolves: To
   Item: Latiasite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Latias]]'
+  Pokemon: '[[SRD-Latias (Mega Form)]]'
 GenderType: F
-HasForm: 'Yes'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: ''
 HomeSprite: SRD-latias-HomeSprite.png
+Image: latias.png
 Learnset: '[[SRD-Latias-Learnset]]'
 Legendary: 'Yes'
-Name: Latias
 Number: 380
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-latias-ShuffleToken.png
-Sprite: latias.png
 Type1: Dragon
 Type2: Psychic
 Weight:
-  Hectograms: 400
   Kilograms: 40.0
   Pounds: 88.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *The legend tells about two Pokemon that could take human shapes, use psychic powers and become invisible. They were raised by an old couple as their own children. The little girl had a red dress.*
 
 **DexID**:: 0380
-**Species**:: Latias
+**Name**:: Latias
 **Type**:: Dragon / Psychic
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-| Evolves   | Pokemon             | Kind   | Item      |
-|:----------|:--------------------|:-------|:----------|
-| To        | [[SRD-Mega-Latias]] | Mega   | Latiasite |
+| Evolves   | Pokemon                    | Kind   | Item      |
+|:----------|:---------------------------|:-------|:----------|
+| To        | [[SRD-Latias (Mega Form)]] | Mega   | Latiasite |
 
 ![[SRD-Latias-Learnset]]

@@ -1,5 +1,4 @@
 ---
-DexID: 0867
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Fling|Fling]]'
 Name: Milcery
-Species: '[[SRD-Milcery|Milcery]]'
+Pokedex: '[[SRD-Milcery|Milcery]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0860
 Moves:
 - - Starter
   - '[[SRD-Fake Out|Fake Out]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Impidimp
-Species: '[[SRD-Impidimp|Impidimp]]'
+Pokedex: '[[SRD-Impidimp|Impidimp]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

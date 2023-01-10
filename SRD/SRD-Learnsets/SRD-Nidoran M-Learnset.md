@@ -1,5 +1,4 @@
 ---
-DexID: '0032'
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Confusion|Confusion]]'
 Name: Nidoran M
-Species: '[[SRD-Nidoran M|Nidoran M]]'
+Pokedex: '[[SRD-Nidoran M|Nidoran M]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

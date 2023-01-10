@@ -1,5 +1,4 @@
 ---
-DexID: 0786
 Moves:
 - - Master
   - '[[SRD-Electric Terrain|Electric Terrain]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Defog|Defog]]'
 Name: Tapu Koko
-Species: '[[SRD-Tapu Koko|Tapu Koko]]'
+Pokedex: '[[SRD-Tapu Koko|Tapu Koko]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

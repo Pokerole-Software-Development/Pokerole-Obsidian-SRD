@@ -1,5 +1,4 @@
 ---
-DexID: '0062'
 Moves:
 - - Beginner
   - '[[SRD-Circle Throw|Circle Throw]]'
@@ -28,14 +27,14 @@ Moves:
 - - Pro
   - '[[SRD-Counter|Counter]]'
 Name: Poliwrath
-Species: '[[SRD-Poliwrath|Poliwrath]]'
+Pokedex: '[[SRD-Poliwrath|Poliwrath]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0785
 Moves:
 - - Master
   - '[[SRD-Psychic Terrain|Psychic Terrain]]'
@@ -44,14 +43,14 @@ Moves:
 - - Master
   - '[[SRD-Telekinesis|Telekinesis]]'
 Name: Tapu Lele
-Species: '[[SRD-Tapu Lele|Tapu Lele]]'
+Pokedex: '[[SRD-Tapu Lele|Tapu Lele]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0121'
 Moves:
 - - Starter
   - '[[SRD-Spotlight|Spotlight]]'
@@ -30,14 +29,14 @@ Moves:
 - - Pro
   - '[[SRD-Twister|Twister]]'
 Name: Starmie
-Species: '[[SRD-Starmie|Starmie]]'
+Pokedex: '[[SRD-Starmie|Starmie]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

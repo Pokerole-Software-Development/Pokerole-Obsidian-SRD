@@ -1,5 +1,4 @@
 ---
-DexID: '0041'
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Venom Drench|Venom Drench]]'
 Name: Zubat
-Species: '[[SRD-Zubat|Zubat]]'
+Pokedex: '[[SRD-Zubat|Zubat]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

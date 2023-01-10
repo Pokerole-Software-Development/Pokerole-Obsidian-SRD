@@ -1,7 +1,6 @@
 ---
 Ability1: Rock Head
 Ability2: Sturdy
-Baby: 'No'
 BookSprite: SRD-onix-BookSprite.png
 BoxSprite: SRD-onix-BoxSprite.png
 DexCategory: Rock Snake Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Steelix]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 88
   Feet: 28.9
   Meters: 8.8
 HiddenAbility: Weak Armor
 HomeSprite: SRD-onix-HomeSprite.png
+Image: onix.png
 Learnset: '[[SRD-Onix-Learnset]]'
 Legendary: 'No'
-Name: Onix
 Number: 95
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-onix-ShuffleToken.png
-Sprite: onix.png
 Type1: Rock
 Type2: Ground
 Weight:
-  Hectograms: 2100
   Kilograms: 210.0
   Pounds: 463.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is not full-size when it’s born. Years of eating boulders make it a real giant. It lives on mountains and dark tunnels. Its frightening roars travel as echo through the cave. It is very aggressive towards others.*
 
 **DexID**:: 0095
-**Species**:: Onix
+**Name**:: Onix
 **Type**:: Rock / Ground
 **Abilities**:: [[SRD-Rock Head|Rock Head]] / [[SRD-Sturdy|Sturdy]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 8

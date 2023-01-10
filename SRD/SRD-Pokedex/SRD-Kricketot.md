@@ -1,7 +1,6 @@
 ---
 Ability1: Shed Skin
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-kricketot-BookSprite.png
 BoxSprite: SRD-kricketot-BoxSprite.png
 DexCategory: Cricket Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Kricketune]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Run Away
 HomeSprite: SRD-kricketot-HomeSprite.png
+Image: kricketot.png
 Learnset: '[[SRD-Kricketot-Learnset]]'
 Legendary: 'No'
-Name: Kricketot
 Number: 401
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-kricketot-ShuffleToken.png
-Sprite: kricketot.png
 Type1: Bug
 Type2: ''
 Weight:
-  Hectograms: 22
   Kilograms: 2.2
   Pounds: 4.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *If you hear a xilophone-like sound at night it means that this Pokemon is roaming close. It communicates by making rhythmic sounds with its antennae. It is not aggressive and feeds on honey and tree sap.*
 
 **DexID**:: 0401
-**Species**:: Kricketot
+**Name**:: Kricketot
 **Type**:: Bug
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]] ([[SRD-Run Away|Run Away]])
 **Base HP**:: 3

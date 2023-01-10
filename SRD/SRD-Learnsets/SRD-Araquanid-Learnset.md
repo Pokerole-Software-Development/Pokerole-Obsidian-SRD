@@ -1,5 +1,4 @@
 ---
-DexID: '0753'
 Moves:
 - - Starter
   - '[[SRD-Water Sport|Water Sport]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Scald|Scald]]'
 Name: Araquanid
-Species: '[[SRD-Araquanid|Araquanid]]'
+Pokedex: '[[SRD-Araquanid|Araquanid]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

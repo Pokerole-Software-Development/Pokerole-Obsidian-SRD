@@ -1,7 +1,6 @@
 ---
 Ability1: Swarm
 Ability2: Chlorophyll
-Baby: 'No'
 BookSprite: SRD-sewaddle-BookSprite.png
 BoxSprite: SRD-sewaddle-BoxSprite.png
 DexCategory: Sewing Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Swadloon]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Overcoat
 HomeSprite: SRD-sewaddle-HomeSprite.png
+Image: sewaddle.png
 Learnset: '[[SRD-Sewaddle-Learnset]]'
 Legendary: 'No'
-Name: Sewaddle
 Number: 540
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-sewaddle-ShuffleToken.png
-Sprite: sewaddle.png
 Type1: Bug
 Type2: Grass
 Weight:
-  Hectograms: 25
   Kilograms: 2.5
   Pounds: 5.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is a sweet Pokemon that loves its family. It hides its head in the leaf hood while it is sleeping. The silk they produce it’s highly valued to make expensive clothing, this makes it a popular pet for fashion designers.*
 
 **DexID**:: 0540
-**Species**:: Sewaddle
+**Name**:: Sewaddle
 **Type**:: Bug / Grass
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 3

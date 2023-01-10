@@ -1,7 +1,6 @@
 ---
 Ability1: Sturdy
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-pineco-BookSprite.png
 BoxSprite: SRD-pineco-BoxSprite.png
 DexCategory: Bagworm Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Forretress]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Overcoat
 HomeSprite: SRD-pineco-HomeSprite.png
+Image: pineco.png
 Learnset: '[[SRD-Pineco-Learnset]]'
 Legendary: 'No'
-Name: Pineco
 Number: 204
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-pineco-ShuffleToken.png
-Sprite: pineco.png
 Type1: Bug
 Type2: ''
 Weight:
-  Hectograms: 72
   Kilograms: 7.2
   Pounds: 15.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *Pineco looks just like a regular pine cone. It adds layers of tree bark as a shield from harm. It waits for bugs to eat while hanging from branches. If anyone shakes its tree, it falls down and explodes. Be very careful.*
 
 **DexID**:: 0204
-**Species**:: Pineco
+**Name**:: Pineco
 **Type**:: Bug
 **Abilities**:: [[SRD-Sturdy|Sturdy]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 3

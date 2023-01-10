@@ -1,5 +1,4 @@
 ---
-DexID: '0463'
 Moves:
 - - Starter
   - '[[SRD-Lick|Lick]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Wring Out|Wring Out]]'
 Name: Lickilicky
-Species: '[[SRD-Lickilicky|Lickilicky]]'
+Pokedex: '[[SRD-Lickilicky|Lickilicky]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

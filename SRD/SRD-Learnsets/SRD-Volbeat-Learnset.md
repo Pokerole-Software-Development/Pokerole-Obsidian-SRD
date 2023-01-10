@@ -1,5 +1,4 @@
 ---
-DexID: '0313'
 Moves:
 - - Starter
   - '[[SRD-Flash|Flash]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Silver Wind|Silver Wind]]'
 Name: Volbeat
-Species: '[[SRD-Volbeat|Volbeat]]'
+Pokedex: '[[SRD-Volbeat|Volbeat]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

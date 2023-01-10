@@ -1,7 +1,6 @@
 ---
 Ability1: Sniper
 Ability2: Tough Claws
-Baby: 'No'
 BookSprite: SRD-binacle-BookSprite.png
 BoxSprite: SRD-binacle-BoxSprite.png
 DexCategory: Two-Handed Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Barbaracle]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Pickpocket
 HomeSprite: SRD-binacle-HomeSprite.png
+Image: binacle.png
 Learnset: '[[SRD-Binacle-Learnset]]'
 Legendary: 'No'
-Name: Binacle
 Number: 688
-PrimaryEggGroup: Water 3
-SecondaryEggGroup: ''
 ShuffleToken: SRD-binacle-ShuffleToken.png
-Sprite: binacle.png
 Type1: Rock
 Type2: Water
 Weight:
-  Hectograms: 310
   Kilograms: 31.0
   Pounds: 68.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *In the shallow sea, two Binacle live inside a hollow rock. If they don’t get along, one of them will move to a different rock. They eat the sea weed that washes up on the shore and help each other to survive.*
 
 **DexID**:: 0688
-**Species**:: Binacle
+**Name**:: Binacle
 **Type**:: Rock / Water
 **Abilities**:: [[SRD-Sniper|Sniper]] / [[SRD-Tough Claws|Tough Claws]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 3

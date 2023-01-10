@@ -1,7 +1,6 @@
 ---
 Ability1: Water Veil
 Ability2: Oblivious
-Baby: 'No'
 BookSprite: SRD-wailord-BookSprite.png
 BoxSprite: SRD-wailord-BoxSprite.png
 DexCategory: Float Whale Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Wailmer]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 145
   Feet: 47.6
   Meters: 14.5
 HiddenAbility: Pressure
 HomeSprite: SRD-wailord-HomeSprite.png
+Image: wailord.png
 Learnset: '[[SRD-Wailord-Learnset]]'
 Legendary: 'No'
-Name: Wailord
 Number: 321
-PrimaryEggGroup: Field
-SecondaryEggGroup: Water 2
 ShuffleToken: SRD-wailord-ShuffleToken.png
-Sprite: wailord.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 3980
   Kilograms: 398.0
   Pounds: 877.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *The largest Pokemon known to date. Wailords weight is really light so they can dive almost 10,000 feet with one breath. They live in open ocean herding fish to swallow in one gulp. They are used to being free.*
 
 **DexID**:: 0321
-**Species**:: Wailord
+**Name**:: Wailord
 **Type**:: Water
 **Abilities**:: [[SRD-Water Veil|Water Veil]] / [[SRD-Oblivious|Oblivious]] ([[SRD-Pressure|Pressure]])
 **Base HP**:: 11

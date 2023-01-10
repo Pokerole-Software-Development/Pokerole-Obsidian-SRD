@@ -1,5 +1,4 @@
 ---
-DexID: '0530'
 Moves:
 - - Starter
   - '[[SRD-Mud Sport|Mud Sport]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Head|Iron Head]]'
 Name: Excadrill
-Species: '[[SRD-Excadrill|Excadrill]]'
+Pokedex: '[[SRD-Excadrill|Excadrill]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

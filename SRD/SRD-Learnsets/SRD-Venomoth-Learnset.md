@@ -1,5 +1,4 @@
 ---
-DexID: 0049
 Moves:
 - - Starter
   - '[[SRD-Foresight|Foresight]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Defog|Defog]]'
 Name: Venomoth
-Species: '[[SRD-Venomoth|Venomoth]]'
+Pokedex: '[[SRD-Venomoth|Venomoth]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

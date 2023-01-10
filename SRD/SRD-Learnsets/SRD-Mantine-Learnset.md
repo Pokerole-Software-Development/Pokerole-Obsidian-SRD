@@ -1,5 +1,4 @@
 ---
-DexID: '0226'
 Moves:
 - - Starter
   - '[[SRD-Bubble|Bubble]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Mud Sport|Mud Sport]]'
 Name: Mantine
-Species: '[[SRD-Mantine|Mantine]]'
+Pokedex: '[[SRD-Mantine|Mantine]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

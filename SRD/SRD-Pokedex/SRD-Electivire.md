@@ -1,7 +1,6 @@
 ---
 Ability1: Motor Drive
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-electivire-BookSprite.png
 BoxSprite: SRD-electivire-BoxSprite.png
 DexCategory: Thunderbolt Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Electabuzz]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Vital Spirit
 HomeSprite: SRD-electivire-HomeSprite.png
+Image: electivire.png
 Learnset: '[[SRD-Electivire-Learnset]]'
 Legendary: 'No'
-Name: Electivire
 Number: 466
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-electivire-ShuffleToken.png
-Sprite: electivire.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 1386
   Kilograms: 138.6
   Pounds: 305.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *This Pokemon is reckless and has a short temper. As its electric charge amplifies, blue sparks begin to crackle between its horns. It has registered charge levels of over 20,000 Volts.*
 
 **DexID**:: 0466
-**Species**:: Electivire
+**Name**:: Electivire
 **Type**:: Electric
 **Abilities**:: [[SRD-Motor Drive|Motor Drive]] ([[SRD-Vital Spirit|Vital Spirit]])
 **Base HP**:: 5

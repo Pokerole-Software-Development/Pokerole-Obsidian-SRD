@@ -1,5 +1,4 @@
 ---
-DexID: '0155'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Cyndaquil
-Species: '[[SRD-Cyndaquil|Cyndaquil]]'
+Pokedex: '[[SRD-Cyndaquil|Cyndaquil]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

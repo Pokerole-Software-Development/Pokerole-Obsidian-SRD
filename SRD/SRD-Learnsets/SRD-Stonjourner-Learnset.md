@@ -1,5 +1,4 @@
 ---
-DexID: 0873
 Moves:
 - - Starter
   - '[[SRD-Rock Throw|Rock Throw]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
 Name: Stonjourner
-Species: '[[SRD-Stonjourner|Stonjourner]]'
+Pokedex: '[[SRD-Stonjourner|Stonjourner]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

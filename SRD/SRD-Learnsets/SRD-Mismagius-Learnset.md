@@ -1,5 +1,4 @@
 ---
-DexID: 0429
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -34,14 +33,14 @@ Moves:
 - - Pro
   - '[[SRD-Nasty Plot|Nasty Plot]]'
 Name: Mismagius
-Species: '[[SRD-Mismagius|Mismagius]]'
+Pokedex: '[[SRD-Mismagius|Mismagius]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

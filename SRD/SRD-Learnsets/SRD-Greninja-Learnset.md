@@ -1,5 +1,4 @@
 ---
-DexID: '0657'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Hydro Cannon|Hydro Cannon]]'
 Name: Greninja
-Species: '[[SRD-Greninja|Greninja]]'
+Pokedex: '[[SRD-Greninja|Greninja]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

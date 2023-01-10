@@ -1,5 +1,4 @@
 ---
-DexID: 0797
 Moves:
 - - Master
   - '[[SRD-Sacred Sword|Sacred Sword]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Tailwind|Tailwind]]'
 Name: Kartana
-Species: '[[SRD-Kartana|Kartana]]'
+Pokedex: '[[SRD-Kartana|Kartana]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

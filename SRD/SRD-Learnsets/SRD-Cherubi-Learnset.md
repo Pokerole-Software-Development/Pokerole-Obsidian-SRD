@@ -1,5 +1,4 @@
 ---
-DexID: '0420'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Nature Power|Nature Power]]'
 Name: Cherubi
-Species: '[[SRD-Cherubi|Cherubi]]'
+Pokedex: '[[SRD-Cherubi|Cherubi]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

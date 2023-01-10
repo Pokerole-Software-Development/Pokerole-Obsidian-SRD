@@ -1,7 +1,6 @@
 ---
 Ability1: Own Tempo
 Ability2: Stamina
-Baby: 'No'
 BookSprite: SRD-mudsdale-BookSprite.png
 BoxSprite: SRD-mudsdale-BoxSprite.png
 DexCategory: Draft Horse Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Mudbray]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 25
   Feet: 8.2
   Meters: 2.5
 HiddenAbility: Inner Focus
 HomeSprite: SRD-mudsdale-HomeSprite.png
+Image: mudsdale.png
 Learnset: '[[SRD-Mudsdale-Learnset]]'
 Legendary: 'No'
-Name: Mudsdale
 Number: 750
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-mudsdale-ShuffleToken.png
-Sprite: mudsdale.png
 Type1: Ground
 Type2: ''
 Weight:
-  Hectograms: 9200
   Kilograms: 920.0
   Pounds: 2028.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *Hard tempered and resilient. The hooves of this Pokemon stomp through concrete, while it is not very fast it can keep a steady pace for days, even when dragging weight.*
 
 **DexID**:: 0750
-**Species**:: Mudsdale
+**Name**:: Mudsdale
 **Type**:: Ground
 **Abilities**:: [[SRD-Own Tempo|Own Tempo]] / [[SRD-Stamina|Stamina]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 5

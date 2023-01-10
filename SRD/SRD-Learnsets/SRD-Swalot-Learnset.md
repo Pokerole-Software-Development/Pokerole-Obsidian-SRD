@@ -1,5 +1,4 @@
 ---
-DexID: '0317'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Self Destruct|Self Destruct]]'
 Name: Swalot
-Species: '[[SRD-Swalot|Swalot]]'
+Pokedex: '[[SRD-Swalot|Swalot]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0770'
 Moves:
 - - Starter
   - '[[SRD-Mud Sport|Mud Sport]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Tickle|Tickle]]'
 Name: Pyukumuku
-Species: '[[SRD-Pyukumuku|Pyukumuku]]'
+Pokedex: '[[SRD-Pyukumuku|Pyukumuku]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

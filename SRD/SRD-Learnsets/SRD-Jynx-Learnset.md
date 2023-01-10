@@ -1,5 +1,4 @@
 ---
-DexID: '0124'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Aurora Veil|Aurora Veil]]'
 Name: Jynx
-Species: '[[SRD-Jynx|Jynx]]'
+Pokedex: '[[SRD-Jynx|Jynx]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

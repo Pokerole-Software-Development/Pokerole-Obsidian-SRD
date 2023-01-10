@@ -1,5 +1,4 @@
 ---
-DexID: '0244'
 Moves:
 - - Master
   - '[[SRD-Bite|Bite]]'
@@ -44,14 +43,14 @@ Moves:
 - - Master
   - '[[SRD-Sacred Fire|Sacred Fire]]'
 Name: Entei
-Species: '[[SRD-Entei|Entei]]'
+Pokedex: '[[SRD-Entei|Entei]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

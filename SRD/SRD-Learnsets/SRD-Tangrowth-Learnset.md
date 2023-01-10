@@ -1,5 +1,4 @@
 ---
-DexID: '0465'
 Moves:
 - - Starter
   - '[[SRD-Block|Block]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Amnesia|Amnesia]]'
 Name: Tangrowth
-Species: '[[SRD-Tangrowth|Tangrowth]]'
+Pokedex: '[[SRD-Tangrowth|Tangrowth]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

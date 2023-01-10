@@ -1,7 +1,6 @@
 ---
 Ability1: Water Absorb
 Ability2: Cursed Body
-Baby: 'No'
 BookSprite: SRD-frillish-BookSprite.png
 BoxSprite: SRD-frillish-BoxSprite.png
 DexCategory: Floating Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Jellicent]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Damp
 HomeSprite: SRD-frillish-HomeSprite.png
+Image: frillish.png
 Learnset: '[[SRD-Frillish-Learnset]]'
 Legendary: 'No'
-Name: Frillish
 Number: 592
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-frillish-ShuffleToken.png
-Sprite: frillish.png
 Type1: Water
 Type2: Ghost
 Weight:
-  Hectograms: 330
   Kilograms: 33.0
   Pounds: 72.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *If a Frillish is spotted, all beaches nearby will be closed for the day. This Pokemon paralizes a swimming victim and wraps them, dragging them to the bottom of the sea. Females have pink shade.*
 
 **DexID**:: 0592
-**Species**:: Frillish
+**Name**:: Frillish
 **Type**:: Water / Ghost
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] / [[SRD-Cursed Body|Cursed Body]] ([[SRD-Damp|Damp]])
 **Base HP**:: 4

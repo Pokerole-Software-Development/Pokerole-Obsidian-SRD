@@ -1,5 +1,4 @@
 ---
-DexID: 0591
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Amoonguss
-Species: '[[SRD-Amoonguss|Amoonguss]]'
+Pokedex: '[[SRD-Amoonguss|Amoonguss]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

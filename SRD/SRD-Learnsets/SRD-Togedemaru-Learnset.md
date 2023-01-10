@@ -1,5 +1,4 @@
 ---
-DexID: 0778
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Present|Present]]'
 Name: Togedemaru
-Species: '[[SRD-Togedemaru|Togedemaru]]'
+Pokedex: '[[SRD-Togedemaru|Togedemaru]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

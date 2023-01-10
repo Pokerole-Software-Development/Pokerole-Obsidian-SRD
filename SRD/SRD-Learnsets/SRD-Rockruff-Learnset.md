@@ -1,5 +1,4 @@
 ---
-DexID: '0743'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Thunder Fang|Thunder Fang]]'
 Name: Rockruff
-Species: '[[SRD-Rockruff|Rockruff]]'
+Pokedex: '[[SRD-Rockruff|Rockruff]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-hydreigon-BookSprite.png
 BoxSprite: SRD-hydreigon-BoxSprite.png
 DexCategory: Brutal Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Zweilous]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: ''
 HomeSprite: SRD-hydreigon-HomeSprite.png
+Image: hydreigon.png
 Learnset: '[[SRD-Hydreigon-Learnset]]'
 Legendary: 'No'
-Name: Hydreigon
 Number: 635
-PrimaryEggGroup: Dragon
-SecondaryEggGroup: ''
 ShuffleToken: SRD-hydreigon-ShuffleToken.png
-Sprite: hydreigon.png
 Type1: Dark
 Type2: Dragon
 Weight:
-  Hectograms: 1600
   Kilograms: 160.0
   Pounds: 352.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *This brutal Pokemon flies in the sky. Anything that moves seems like a foe to it, triggering its aggression. The heads on its arms do not have brains. They use all three heads to consume and destroy everything.*
 
 **DexID**:: 0635
-**Species**:: Hydreigon
+**Name**:: Hydreigon
 **Type**:: Dark / Dragon
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 5

@@ -1,5 +1,4 @@
 ---
-DexID: '0540'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -34,14 +33,14 @@ Moves:
 - - Pro
   - '[[SRD-Silver Wind|Silver Wind]]'
 Name: Sewaddle
-Species: '[[SRD-Sewaddle|Sewaddle]]'
+Pokedex: '[[SRD-Sewaddle|Sewaddle]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

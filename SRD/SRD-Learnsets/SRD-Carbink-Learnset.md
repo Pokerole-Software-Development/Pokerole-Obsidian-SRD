@@ -1,5 +1,4 @@
 ---
-DexID: '0704'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Gravity|Gravity]]'
 Name: Carbink
-Species: '[[SRD-Carbink|Carbink]]'
+Pokedex: '[[SRD-Carbink|Carbink]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Intrepid Sword
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-zacian-BookSprite.png
 BoxSprite: SRD-zacian-BoxSprite.png
 DexCategory: No Data
@@ -11,27 +10,21 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Form Zacian]]'
+  Pokemon: '[[SRD-Zacian (Crown Form)]]'
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 28
   Feet: 9.2
   Meters: 2.8
 HiddenAbility: ''
 HomeSprite: SRD-zacian-HomeSprite.png
+Image: zacian.png
 Learnset: '[[SRD-Zacian-Learnset]]'
 Legendary: 'Yes'
-Name: Zacian
 Number: 888
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-zacian-ShuffleToken.png
-Sprite: zacian.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 1100
   Kilograms: 110.0
   Pounds: 242.5
 ---
@@ -51,7 +44,7 @@ Weight:
 *There is a legend of a heroine who through sheer might wielded the blade of heroes and vanquished a great evil away.*
 
 **DexID**:: 0888
-**Species**:: Zacian
+**Name**:: Zacian
 **Type**:: Fairy
 **Abilities**:: [[SRD-Intrepid Sword|Intrepid Sword]]
 **Base HP**:: 5
@@ -69,8 +62,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-| Evolves   | Pokemon             | Kind   |
-|:----------|:--------------------|:-------|
-| To        | [[SRD-Form Zacian]] | Form   |
+| Evolves   | Pokemon                     | Kind   |
+|:----------|:----------------------------|:-------|
+| To        | [[SRD-Zacian (Crown Form)]] | Form   |
 
 ![[SRD-Zacian-Learnset]]

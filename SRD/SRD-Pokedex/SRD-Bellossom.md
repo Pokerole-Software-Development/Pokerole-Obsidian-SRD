@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-bellossom-BookSprite.png
 BoxSprite: SRD-bellossom-BoxSprite.png
 DexCategory: Flower Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Gloom]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Healer
 HomeSprite: SRD-bellossom-HomeSprite.png
+Image: bellossom.png
 Learnset: '[[SRD-Bellossom-Learnset]]'
 Legendary: 'No'
-Name: Bellossom
 Number: 182
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-bellossom-ShuffleToken.png
-Sprite: bellossom.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 58
   Kilograms: 5.8
   Pounds: 12.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are plentiful in tropical areas. The beauty of the flowers on its head depends on how stinky it was as a Gloom. Lots of sunshine will make the skirt leaves swirl in a beautiful and rhythmic dance.*
 
 **DexID**:: 0182
-**Species**:: Bellossom
+**Name**:: Bellossom
 **Type**:: Grass
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Healer|Healer]])
 **Base HP**:: 5

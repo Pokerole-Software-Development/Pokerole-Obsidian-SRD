@@ -1,7 +1,6 @@
 ---
 Ability1: Hyper Cutter
 Ability2: Intimidate
-Baby: 'No'
 BookSprite: SRD-mawile-BookSprite.png
 BoxSprite: SRD-mawile-BoxSprite.png
 DexCategory: Deceiver Pokemon
@@ -13,27 +12,21 @@ Evolutions:
 - Evolves: To
   Item: Mawilite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Mawile]]'
+  Pokemon: '[[SRD-Mawile (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Sheer Force
 HomeSprite: SRD-mawile-HomeSprite.png
+Image: mawile.png
 Learnset: '[[SRD-Mawile-Learnset]]'
 Legendary: 'No'
-Name: Mawile
 Number: 303
-PrimaryEggGroup: Field
-SecondaryEggGroup: Fairy
 ShuffleToken: SRD-mawile-ShuffleToken.png
-Sprite: mawile.png
 Type1: Steel
 Type2: Fairy
 Weight:
-  Hectograms: 115
   Kilograms: 11.5
   Pounds: 25.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *They appear to be cute and docile, luring their prey and lowering their guards, then, Mawile chomps the prey with huge steel jaws. They are very rare, though. Only a few have been seen in Hoenn's Victory Road.*
 
 **DexID**:: 0303
-**Species**:: Mawile
+**Name**:: Mawile
 **Type**:: Steel / Fairy
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Intimidate|Intimidate]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 4
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon             | Kind   | Item     |
-|:----------|:--------------------|:-------|:---------|
-| To        | [[SRD-Mega-Mawile]] | Mega   | Mawilite |
+| Evolves   | Pokemon                    | Kind   | Item     |
+|:----------|:---------------------------|:-------|:---------|
+| To        | [[SRD-Mawile (Mega Form)]] | Mega   | Mawilite |
 
 ![[SRD-Mawile-Learnset]]

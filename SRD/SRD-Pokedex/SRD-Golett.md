@@ -1,7 +1,6 @@
 ---
 Ability1: Iron Fist
 Ability2: Klutz
-Baby: 'No'
 BookSprite: SRD-golett-BookSprite.png
 BoxSprite: SRD-golett-BoxSprite.png
 DexCategory: Automaton Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Golurk]]'
   Speed: Medium
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: No Guard
 HomeSprite: SRD-golett-HomeSprite.png
+Image: golett.png
 Learnset: '[[SRD-Golett-Learnset]]'
 Legendary: 'No'
-Name: Golett
 Number: 622
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-golett-ShuffleToken.png
-Sprite: golett.png
 Type1: Ground
 Type2: Ghost
 Weight:
-  Hectograms: 920
   Kilograms: 92.0
   Pounds: 202.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Very few have been seen in old ruins. These Pokemon are thought to have been created by the science of an ancient and mysterious civilization. The energy inside of it comes from an unknown source.*
 
 **DexID**:: 0622
-**Species**:: Golett
+**Name**:: Golett
 **Type**:: Ground / Ghost
 **Abilities**:: [[SRD-Iron Fist|Iron Fist]] / [[SRD-Klutz|Klutz]] ([[SRD-No Guard|No Guard]])
 **Base HP**:: 3

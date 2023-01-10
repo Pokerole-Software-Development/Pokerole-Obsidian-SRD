@@ -1,7 +1,6 @@
 ---
 Ability1: Thick Fat
 Ability2: Huge Power
-Baby: 'No'
 BookSprite: SRD-marill-BookSprite.png
 BoxSprite: SRD-marill-BoxSprite.png
 DexCategory: Aquamouse Pokemon
@@ -20,25 +19,19 @@ Evolutions:
   Pokemon: '[[SRD-Azumarill]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-marill-HomeSprite.png
+Image: marill.png
 Learnset: '[[SRD-Marill-Learnset]]'
 Legendary: 'No'
-Name: Marill
 Number: 183
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Fairy
 ShuffleToken: SRD-marill-ShuffleToken.png
-Sprite: marill.png
 Type1: Water
 Type2: Fairy
 Weight:
-  Hectograms: 85
   Kilograms: 8.5
   Pounds: 18.7
 ---
@@ -58,7 +51,7 @@ Weight:
 *Marill's tail acts like a floater. Seeing its tail bobbing on the water’s surface is a sure indication that this Pokemon is diving to feed on algae and aquatic plants. This Pokemon is curious towards humans.*
 
 **DexID**:: 0183
-**Species**:: Marill
+**Name**:: Marill
 **Type**:: Water / Fairy
 **Abilities**:: [[SRD-Thick Fat|Thick Fat]] / [[SRD-Huge Power|Huge Power]] ([[SRD-Sap Sipper|Sap Sipper]])
 **Base HP**:: 4

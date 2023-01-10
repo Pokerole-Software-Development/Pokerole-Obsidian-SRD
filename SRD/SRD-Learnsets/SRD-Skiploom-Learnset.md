@@ -1,5 +1,4 @@
 ---
-DexID: 0188
 Moves:
 - - Starter
   - '[[SRD-Splash|Splash]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Aromatherapy|Aromatherapy]]'
 Name: Skiploom
-Species: '[[SRD-Skiploom|Skiploom]]'
+Pokedex: '[[SRD-Skiploom|Skiploom]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

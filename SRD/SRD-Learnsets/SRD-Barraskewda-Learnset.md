@@ -1,5 +1,4 @@
 ---
-DexID: 0846
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Giga Impact|Giga Impact]]'
 Name: Barraskewda
-Species: '[[SRD-Barraskewda|Barraskewda]]'
+Pokedex: '[[SRD-Barraskewda|Barraskewda]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

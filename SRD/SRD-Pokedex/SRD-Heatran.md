@@ -1,7 +1,6 @@
 ---
 Ability1: Flash Fire
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-heatran-BookSprite.png
 BoxSprite: SRD-heatran-BoxSprite.png
 DexCategory: No Data
@@ -10,25 +9,19 @@ DexDescription: An old painting showed a similar Pokemon standing atop of an eru
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 17
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Flame Body
 HomeSprite: SRD-heatran-HomeSprite.png
+Image: heatran.png
 Learnset: '[[SRD-Heatran-Learnset]]'
 Legendary: 'Yes'
-Name: Heatran
 Number: 485
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-heatran-ShuffleToken.png
-Sprite: heatran.png
 Type1: Fire
 Type2: Steel
 Weight:
-  Hectograms: 4300
   Kilograms: 430.0
   Pounds: 948.0
 ---
@@ -48,7 +41,7 @@ Weight:
 *An old painting showed a similar Pokemon standing atop of an erupting Volcano.*
 
 **DexID**:: 0485
-**Species**:: Heatran
+**Name**:: Heatran
 **Type**:: Fire / Steel
 **Abilities**:: [[SRD-Flash Fire|Flash Fire]] ([[SRD-Flame Body|Flame Body]])
 **Base HP**:: 4

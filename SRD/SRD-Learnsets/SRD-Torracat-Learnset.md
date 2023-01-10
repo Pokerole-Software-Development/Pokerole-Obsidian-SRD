@@ -1,5 +1,4 @@
 ---
-DexID: '0727'
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Pledge|Fire Pledge]]'
 Name: Torracat
-Species: '[[SRD-Torracat|Torracat]]'
+Pokedex: '[[SRD-Torracat|Torracat]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

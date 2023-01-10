@@ -1,5 +1,4 @@
 ---
-DexID: '0351'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Reflect Type|Reflect Type]]'
 Name: Castform
-Species: '[[SRD-Castform|Castform]]'
+Pokedex: '[[SRD-Castform|Castform]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

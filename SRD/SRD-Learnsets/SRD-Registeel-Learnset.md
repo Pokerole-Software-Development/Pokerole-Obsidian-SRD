@@ -1,5 +1,4 @@
 ---
-DexID: 0379
 Moves:
 - - Master
   - '[[SRD-Stomp|Stomp]]'
@@ -42,14 +41,14 @@ Moves:
 - - Master
   - '[[SRD-Safeguard|Safeguard]]'
 Name: Registeel
-Species: '[[SRD-Registeel|Registeel]]'
+Pokedex: '[[SRD-Registeel|Registeel]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

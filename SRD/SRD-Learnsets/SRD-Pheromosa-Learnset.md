@@ -1,5 +1,4 @@
 ---
-DexID: 0796
 Moves:
 - - Master
   - '[[SRD-Quiver Dance|Quiver Dance]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Outrage|Outrage]]'
 Name: Pheromosa
-Species: '[[SRD-Pheromosa|Pheromosa]]'
+Pokedex: '[[SRD-Pheromosa|Pheromosa]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Big Pecks
 Ability2: Overcoat
-Baby: 'No'
 BookSprite: SRD-mandibuzz-BookSprite.png
 BoxSprite: SRD-mandibuzz-BoxSprite.png
 DexCategory: Bone Vulture Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Vullaby]]'
   Speed: Medium
 GenderType: F
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Weak Armor
 HomeSprite: SRD-mandibuzz-HomeSprite.png
+Image: mandibuzz.png
 Learnset: '[[SRD-Mandibuzz-Learnset]]'
 Legendary: 'No'
-Name: Mandibuzz
 Number: 630
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-mandibuzz-ShuffleToken.png
-Sprite: mandibuzz.png
 Type1: Dark
 Type2: Flying
 Weight:
-  Hectograms: 395
   Kilograms: 39.5
   Pounds: 87.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *They fly in circles around the sky when they spot prey. They carry the carcass back to their nest with ease. They like to look beautiful and create ornaments and jewelry using bone pieces.*
 
 **DexID**:: 0630
-**Species**:: Mandibuzz
+**Name**:: Mandibuzz
 **Type**:: Dark / Flying
 **Abilities**:: [[SRD-Big Pecks|Big Pecks]] / [[SRD-Overcoat|Overcoat]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 5

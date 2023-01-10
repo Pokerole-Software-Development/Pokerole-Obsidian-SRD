@@ -1,7 +1,6 @@
 ---
 Ability1: Fairy Aura
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-xerneas-BookSprite.png
 BoxSprite: SRD-xerneas-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: A Kalos legend tells about the eternal struggle between life and
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 30
   Feet: 9.8
   Meters: 3.0
 HiddenAbility: ''
 HomeSprite: SRD-xerneas-HomeSprite.png
+Image: xerneas.png
 Learnset: '[[SRD-Xerneas-Learnset]]'
 Legendary: 'Yes'
-Name: Xerneas
 Number: 716
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-xerneas-ShuffleToken.png
-Sprite: xerneas.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 2150
   Kilograms: 215.0
   Pounds: 474.0
 ---
@@ -49,7 +42,7 @@ Weight:
 *A Kalos legend tells about the eternal struggle between life and death. In the story an ancient King tried to obtain eternal life and the power to make its loved ones live again.*
 
 **DexID**:: 0716
-**Species**:: Xerneas
+**Name**:: Xerneas
 **Type**:: Fairy
 **Abilities**:: [[SRD-Fairy Aura|Fairy Aura]]
 **Base HP**:: 6

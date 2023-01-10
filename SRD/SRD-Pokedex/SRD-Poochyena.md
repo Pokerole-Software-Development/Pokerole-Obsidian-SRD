@@ -1,7 +1,6 @@
 ---
 Ability1: Run Away
 Ability2: Quick Feet
-Baby: 'No'
 BookSprite: SRD-poochyena-BookSprite.png
 BoxSprite: SRD-poochyena-BoxSprite.png
 DexCategory: Bite Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Mightyena]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Rattled
 HomeSprite: SRD-poochyena-HomeSprite.png
+Image: poochyena.png
 Learnset: '[[SRD-Poochyena-Learnset]]'
 Legendary: 'No'
-Name: Poochyena
 Number: 261
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-poochyena-ShuffleToken.png
-Sprite: poochyena.png
 Type1: Dark
 Type2: ''
 Weight:
-  Hectograms: 136
   Kilograms: 13.6
   Pounds: 30.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *Poochyena will bite anything that moves. They will chase people and other Pokemon for dozens of miles without loosing track. This Pokemon is persistent and tenacious. In the wild, they form small hunting packs.*
 
 **DexID**:: 0261
-**Species**:: Poochyena
+**Name**:: Poochyena
 **Type**:: Dark
 **Abilities**:: [[SRD-Run Away|Run Away]] / [[SRD-Quick Feet|Quick Feet]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 3

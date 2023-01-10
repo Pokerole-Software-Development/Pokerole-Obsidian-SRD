@@ -1,5 +1,4 @@
 ---
-DexID: 0679
 Moves:
 - - Starter
   - '[[SRD-Mean Look|Mean Look]]'
@@ -64,14 +63,14 @@ Moves:
 - - Pro
   - '[[SRD-Yawn|Yawn]]'
 Name: Meowstic
-Species: '[[SRD-Meowstic|Meowstic]]'
+Pokedex: '[[SRD-Meowstic|Meowstic]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

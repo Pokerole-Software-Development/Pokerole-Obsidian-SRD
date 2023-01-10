@@ -1,5 +1,4 @@
 ---
-DexID: 0857
 Moves:
 - - Starter
   - '[[SRD-Confusion|Confusion]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Light Screen|Light Screen]]'
 Name: Hatterene
-Species: '[[SRD-Hatterene|Hatterene]]'
+Pokedex: '[[SRD-Hatterene|Hatterene]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

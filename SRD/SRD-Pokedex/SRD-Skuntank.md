@@ -1,7 +1,6 @@
 ---
 Ability1: Stench
 Ability2: Aftermath
-Baby: 'No'
 BookSprite: SRD-skuntank-BookSprite.png
 BoxSprite: SRD-skuntank-BoxSprite.png
 DexCategory: Skunk Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Stunky]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Keen Eye
 HomeSprite: SRD-skuntank-HomeSprite.png
+Image: skuntank.png
 Learnset: '[[SRD-Skuntank-Learnset]]'
 Legendary: 'No'
-Name: Skuntank
 Number: 435
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-skuntank-ShuffleToken.png
-Sprite: skuntank.png
 Type1: Poison
 Type2: Dark
 Weight:
-  Hectograms: 380
   Kilograms: 38.0
   Pounds: 83.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *It sprays a reeking fluid from its tail. The fluid smells worse the longer it is allowed to fester. It is vulnerable to attacks that come from above due to its exuberant tail. When it’s relaxed it doesn’t smell bad.*
 
 **DexID**:: 0435
-**Species**:: Skuntank
+**Name**:: Skuntank
 **Type**:: Poison / Dark
 **Abilities**:: [[SRD-Stench|Stench]] / [[SRD-Aftermath|Aftermath]] ([[SRD-Keen Eye|Keen Eye]])
 **Base HP**:: 5

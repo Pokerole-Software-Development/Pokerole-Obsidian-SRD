@@ -1,5 +1,4 @@
 ---
-DexID: 0384
 Moves:
 - - Master
   - '[[SRD-Twister|Twister]]'
@@ -52,14 +51,14 @@ Moves:
 - - Master
   - '[[SRD-Cosmic Power|Cosmic Power]]'
 Name: Rayquaza
-Species: '[[SRD-Rayquaza|Rayquaza]]'
+Pokedex: '[[SRD-Rayquaza|Rayquaza]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

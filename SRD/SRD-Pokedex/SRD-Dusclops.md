@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-dusclops-BookSprite.png
 BoxSprite: SRD-dusclops-BoxSprite.png
 DexCategory: Beckon Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Kind: Trade
   Pokemon: '[[SRD-Dusknoir]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Frisk
 HomeSprite: SRD-dusclops-HomeSprite.png
+Image: dusclops.png
 Learnset: '[[SRD-Dusclops-Learnset]]'
 Legendary: 'No'
-Name: Dusclops
 Number: 356
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-dusclops-ShuffleToken.png
-Sprite: dusclops.png
 Type1: Ghost
 Type2: ''
 Weight:
-  Hectograms: 306
   Kilograms: 30.6
   Pounds: 67.5
 ---
@@ -57,7 +50,7 @@ Weight:
 *Its body is hollow. Some paranormal experts say there is a spectral energy ball inside them but it is not confirmed. If it absorbs an object or a creature there’s the risk that nothing will come back out.*
 
 **DexID**:: 0356
-**Species**:: Dusclops
+**Name**:: Dusclops
 **Type**:: Ghost
 **Abilities**:: [[SRD-Levitate|Levitate]] ([[SRD-Frisk|Frisk]])
 **Base HP**:: 4

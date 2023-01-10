@@ -1,5 +1,4 @@
 ---
-DexID: '0214'
 Moves:
 - - Starter
   - '[[SRD-Endure|Endure]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Defense|Iron Defense]]'
 Name: Heracross
-Species: '[[SRD-Heracross|Heracross]]'
+Pokedex: '[[SRD-Heracross|Heracross]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

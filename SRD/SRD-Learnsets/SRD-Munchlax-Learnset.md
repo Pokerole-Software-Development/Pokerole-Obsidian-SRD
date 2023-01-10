@@ -1,5 +1,4 @@
 ---
-DexID: '0446'
 Moves:
 - - Starter
   - '[[SRD-Snatch|Snatch]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Zen Headbutt|Zen Headbutt]]'
 Name: Munchlax
-Species: '[[SRD-Munchlax|Munchlax]]'
+Pokedex: '[[SRD-Munchlax|Munchlax]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

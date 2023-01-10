@@ -1,5 +1,4 @@
 ---
-DexID: '0043'
 Moves:
 - - Starter
   - '[[SRD-Growth|Growth]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Oddish
-Species: '[[SRD-Oddish|Oddish]]'
+Pokedex: '[[SRD-Oddish|Oddish]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

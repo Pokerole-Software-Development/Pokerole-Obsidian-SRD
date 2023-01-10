@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: Tangled Feet
-Baby: 'No'
 BookSprite: SRD-chatot-BookSprite.png
 BoxSprite: SRD-chatot-BoxSprite.png
 DexCategory: Music Note Pokemon
@@ -12,25 +11,19 @@ DexDescription: "It mimics the cries of other Pokemon to trick them into thinkin
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Big Pecks
 HomeSprite: SRD-chatot-HomeSprite.png
+Image: chatot.png
 Learnset: '[[SRD-Chatot-Learnset]]'
 Legendary: 'No'
-Name: Chatot
 Number: 441
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-chatot-ShuffleToken.png
-Sprite: chatot.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 19
   Kilograms: 1.9
   Pounds: 4.2
 ---
@@ -50,7 +43,7 @@ Weight:
 *It mimics the cries of other Pokemon to trick them into thinking it’s one of them, this way they won’t attack it. Chatots that live with humans learn words and phrases but it’s unknown it they really know their meaning.*
 
 **DexID**:: 0441
-**Species**:: Chatot
+**Name**:: Chatot
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Tangled Feet|Tangled Feet]] ([[SRD-Big Pecks|Big Pecks]])
 **Base HP**:: 4

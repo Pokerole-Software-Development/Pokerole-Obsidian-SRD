@@ -1,5 +1,4 @@
 ---
-DexID: '0451'
 Moves:
 - - Starter
   - '[[SRD-Bite|Bite]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Poison Tail|Poison Tail]]'
 Name: Skorupi
-Species: '[[SRD-Skorupi|Skorupi]]'
+Pokedex: '[[SRD-Skorupi|Skorupi]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

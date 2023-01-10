@@ -1,5 +1,4 @@
 ---
-DexID: '0106'
 Moves:
 - - Starter
   - '[[SRD-Double Kick|Double Kick]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Mach Punch|Mach Punch]]'
 Name: Hitmonlee
-Species: '[[SRD-Hitmonlee|Hitmonlee]]'
+Pokedex: '[[SRD-Hitmonlee|Hitmonlee]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

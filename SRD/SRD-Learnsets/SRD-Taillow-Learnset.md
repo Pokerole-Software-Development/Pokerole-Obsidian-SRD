@@ -1,5 +1,4 @@
 ---
-DexID: '0276'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Rage|Rage]]'
 Name: Taillow
-Species: '[[SRD-Taillow|Taillow]]'
+Pokedex: '[[SRD-Taillow|Taillow]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

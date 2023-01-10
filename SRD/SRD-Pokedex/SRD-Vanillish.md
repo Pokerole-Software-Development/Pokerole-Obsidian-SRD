@@ -1,7 +1,6 @@
 ---
 Ability1: Ice Body
 Ability2: Snow Cloak
-Baby: 'No'
 BookSprite: SRD-vanillish-BookSprite.png
 BoxSprite: SRD-vanillish-BoxSprite.png
 DexCategory: Icy Snow Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Vanilluxe]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Weak Armor
 HomeSprite: SRD-vanillish-HomeSprite.png
+Image: vanillish.png
 Learnset: '[[SRD-Vanillish-Learnset]]'
 Legendary: 'No'
-Name: Vanillish
 Number: 583
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-vanillish-ShuffleToken.png
-Sprite: vanillish.png
 Type1: Ice
 Type2: ''
 Weight:
-  Hectograms: 410
   Kilograms: 41.0
   Pounds: 90.4
 ---
@@ -57,7 +50,7 @@ Weight:
 *Snowy mountains are this Pokemon’s habitat. It conceals itself from enemy eyes by creating many small ice bundles and hiding around them. It may attach itself to the ceiling of ice caves to hide around the ice.*
 
 **DexID**:: 0583
-**Species**:: Vanillish
+**Name**:: Vanillish
 **Type**:: Ice
 **Abilities**:: [[SRD-Ice Body|Ice Body]] / [[SRD-Snow Cloak|Snow Cloak]] ([[SRD-Weak Armor|Weak Armor]])
 **Base HP**:: 4

@@ -1,5 +1,4 @@
 ---
-DexID: 0229
 Moves:
 - - Starter
   - '[[SRD-Ember|Ember]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Houndoom
-Species: '[[SRD-Houndoom|Houndoom]]'
+Pokedex: '[[SRD-Houndoom|Houndoom]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

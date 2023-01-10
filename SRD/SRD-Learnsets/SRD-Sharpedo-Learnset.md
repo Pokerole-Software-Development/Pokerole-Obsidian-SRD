@@ -1,5 +1,4 @@
 ---
-DexID: 0319
 Moves:
 - - Starter
   - '[[SRD-Bite|Bite]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Spite|Spite]]'
 Name: Sharpedo
-Species: '[[SRD-Sharpedo|Sharpedo]]'
+Pokedex: '[[SRD-Sharpedo|Sharpedo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

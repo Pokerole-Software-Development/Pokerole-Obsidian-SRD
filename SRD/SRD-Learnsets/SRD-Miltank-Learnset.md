@@ -1,5 +1,4 @@
 ---
-DexID: '0241'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Mega Kick|Mega Kick]]'
 Name: Miltank
-Species: '[[SRD-Miltank|Miltank]]'
+Pokedex: '[[SRD-Miltank|Miltank]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

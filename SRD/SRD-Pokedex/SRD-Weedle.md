@@ -1,7 +1,6 @@
 ---
 Ability1: Shield Dust
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-weedle-BookSprite.png
 BoxSprite: SRD-weedle-BoxSprite.png
 DexCategory: Hairy Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Kakuna]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Run Away
 HomeSprite: SRD-weedle-HomeSprite.png
+Image: weedle.png
 Learnset: '[[SRD-Weedle-Learnset]]'
 Legendary: 'No'
-Name: Weedle
 Number: 13
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-weedle-ShuffleToken.png
-Sprite: weedle.png
 Type1: Bug
 Type2: Poison
 Weight:
-  Hectograms: 32
   Kilograms: 3.2
   Pounds: 7.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *Often found in forests eating leaves. It has a sharp, venomous stinger on its head for defense. It has an acute sense of smell to find food, and its bright-colored body is intended to warn off predators.*
 
 **DexID**:: 0013
-**Species**:: Weedle
+**Name**:: Weedle
 **Type**:: Bug / Poison
 **Abilities**:: [[SRD-Shield Dust|Shield Dust]] ([[SRD-Run Away|Run Away]])
 **Base HP**:: 3

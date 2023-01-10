@@ -1,7 +1,6 @@
 ---
 Ability1: Battle Armor
 Ability2: Sniper
-Baby: 'No'
 BookSprite: SRD-skorupi-BookSprite.png
 BoxSprite: SRD-skorupi-BoxSprite.png
 DexCategory: Scorpion Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Drapion]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Keen Eye
 HomeSprite: SRD-skorupi-HomeSprite.png
+Image: skorupi.png
 Learnset: '[[SRD-Skorupi-Learnset]]'
 Legendary: 'No'
-Name: Skorupi
 Number: 451
-PrimaryEggGroup: Bug
-SecondaryEggGroup: Water 3
 ShuffleToken: SRD-skorupi-ShuffleToken.png
-Sprite: skorupi.png
 Type1: Poison
 Type2: Bug
 Weight:
-  Hectograms: 120
   Kilograms: 12.0
   Pounds: 26.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lives in deserts and arid regions. It buries itself under the sand, waiting for an unsuspecting prey to come nearby. It will then sting the prey and cling to it tenaciously until the poison takes effect.*
 
 **DexID**:: 0451
-**Species**:: Skorupi
+**Name**:: Skorupi
 **Type**:: Poison / Bug
 **Abilities**:: [[SRD-Battle Armor|Battle Armor]] / [[SRD-Sniper|Sniper]] ([[SRD-Keen Eye|Keen Eye]])
 **Base HP**:: 3

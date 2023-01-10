@@ -1,5 +1,4 @@
 ---
-DexID: 0196
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Stored Power|Stored Power]]'
 Name: Espeon
-Species: '[[SRD-Espeon|Espeon]]'
+Pokedex: '[[SRD-Espeon|Espeon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

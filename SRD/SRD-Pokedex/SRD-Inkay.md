@@ -1,7 +1,6 @@
 ---
 Ability1: Contrary
 Ability2: Suction Cups
-Baby: 'No'
 BookSprite: SRD-inkay-BookSprite.png
 BoxSprite: SRD-inkay-BoxSprite.png
 DexCategory: Revolving Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Malamar]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Infiltrator
 HomeSprite: SRD-inkay-HomeSprite.png
+Image: inkay.png
 Learnset: '[[SRD-Inkay-Learnset]]'
 Legendary: 'No'
-Name: Inkay
 Number: 686
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Water 2
 ShuffleToken: SRD-inkay-ShuffleToken.png
-Sprite: inkay.png
 Type1: Dark
 Type2: Psychic
 Weight:
-  Hectograms: 35
   Kilograms: 3.5
   Pounds: 7.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lives at the darkest parts of the sea. The spots on its body flash to confuse predators and give it the opportunity to scuttle away. From time to time it likes to float upside down, it means it’s close to evolving.*
 
 **DexID**:: 0686
-**Species**:: Inkay
+**Name**:: Inkay
 **Type**:: Dark / Psychic
 **Abilities**:: [[SRD-Contrary|Contrary]] / [[SRD-Suction Cups|Suction Cups]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 3

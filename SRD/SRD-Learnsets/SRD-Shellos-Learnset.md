@@ -1,5 +1,4 @@
 ---
-DexID: '0422'
 Moves:
 - - Starter
   - '[[SRD-Mud Slap|Mud Slap]]'
@@ -36,14 +35,14 @@ Moves:
 - - Pro
   - '[[SRD-Earth Power|Earth Power]]'
 Name: Shellos
-Species: '[[SRD-Shellos|Shellos]]'
+Pokedex: '[[SRD-Shellos|Shellos]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

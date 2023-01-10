@@ -1,7 +1,6 @@
 ---
 Ability1: Volt Absorb
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-jolteon-BookSprite.png
 BoxSprite: SRD-jolteon-BoxSprite.png
 DexCategory: Lightning Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Eevee]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Quick Feet
 HomeSprite: SRD-jolteon-HomeSprite.png
+Image: jolteon.png
 Learnset: '[[SRD-Jolteon-Learnset]]'
 Legendary: 'No'
-Name: Jolteon
 Number: 135
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-jolteon-ShuffleToken.png
-Sprite: jolteon.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 245
   Kilograms: 24.5
   Pounds: 54.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *This Pokemon evolved after being affected by electric radiation. Every hair on its body starts to stand sharply if it becomes charged with electricity. It shoots lightning from all around its body.*
 
 **DexID**:: 0135
-**Species**:: Jolteon
+**Name**:: Jolteon
 **Type**:: Electric
 **Abilities**:: [[SRD-Volt Absorb|Volt Absorb]] ([[SRD-Quick Feet|Quick Feet]])
 **Base HP**:: 4

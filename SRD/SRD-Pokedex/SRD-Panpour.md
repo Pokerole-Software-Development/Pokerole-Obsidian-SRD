@@ -1,7 +1,6 @@
 ---
 Ability1: Gluttony
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-panpour-BookSprite.png
 BoxSprite: SRD-panpour-BoxSprite.png
 DexCategory: Spray Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Simipour]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Torrent
 HomeSprite: SRD-panpour-HomeSprite.png
+Image: panpour.png
 Learnset: '[[SRD-Panpour-Learnset]]'
 Legendary: 'No'
-Name: Panpour
 Number: 515
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-panpour-ShuffleToken.png
-Sprite: panpour.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 135
   Kilograms: 13.5
   Pounds: 29.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *It does not thrive in dry climates. It keeps itself damp by shooting the water stored in its head tuft. Its water is valued by gardeners and Grass Pokemon breeders as it makes plants grow beautiful.*
 
 **DexID**:: 0515
-**Species**:: Panpour
+**Name**:: Panpour
 **Type**:: Water
 **Abilities**:: [[SRD-Gluttony|Gluttony]] ([[SRD-Torrent|Torrent]])
 **Base HP**:: 3

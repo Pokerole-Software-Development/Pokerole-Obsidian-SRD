@@ -1,7 +1,6 @@
 ---
 Ability1: Prism Armor
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-necrozma-BookSprite.png
 BoxSprite: SRD-necrozma-BoxSprite.png
 DexCategory: 'Aether Foundation Log #179'
@@ -12,33 +11,27 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Special
-  Pokemon: '[[SRD-Necrozma Dusk Mane]]'
+  Pokemon: '[[SRD-Necrozma (Dusk Mane Form)]]'
 - Evolves: To
   Kind: Special
-  Pokemon: '[[SRD-Necrozma Dawn Wings]]'
+  Pokemon: '[[SRD-Necrozma (Dawn Wings Form)]]'
 - Evolves: To
   Kind: Special
-  Pokemon: '[[SRD-Necrozma Ultra Burst]]'
+  Pokemon: '[[SRD-Necrozma (Ultra Burst Form)]]'
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 24
   Feet: 7.9
   Meters: 2.4
 HiddenAbility: ''
 HomeSprite: SRD-necrozma-HomeSprite.png
+Image: necrozma.png
 Learnset: '[[SRD-Necrozma-Learnset]]'
 Legendary: 'Yes'
-Name: Necrozma
 Number: 800
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-necrozma-ShuffleToken.png
-Sprite: necrozma.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 2300
   Kilograms: 230.0
   Pounds: 507.1
 ---
@@ -58,7 +51,7 @@ Weight:
 *First it was just a passing shadow, a shady lurker on the other side of the abyss, but then today it made an appearance. the creature attached itself to our light sources, depleting them until it was all in darkness.*
 
 **DexID**:: 0800
-**Species**:: Necrozma
+**Name**:: Necrozma
 **Type**:: Psychic
 **Abilities**:: [[SRD-Prism Armor|Prism Armor]]
 **Base HP**:: 4
@@ -76,10 +69,10 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-| Evolves   | Pokemon                      | Kind    |
-|:----------|:-----------------------------|:--------|
-| To        | [[SRD-Necrozma Dusk Mane]]   | Special |
-| To        | [[SRD-Necrozma Dawn Wings]]  | Special |
-| To        | [[SRD-Necrozma Ultra Burst]] | Special |
+| Evolves   | Pokemon                             | Kind    |
+|:----------|:------------------------------------|:--------|
+| To        | [[SRD-Necrozma (Dusk Mane Form)]]   | Special |
+| To        | [[SRD-Necrozma (Dawn Wings Form)]]  | Special |
+| To        | [[SRD-Necrozma (Ultra Burst Form)]] | Special |
 
 ![[SRD-Necrozma-Learnset]]

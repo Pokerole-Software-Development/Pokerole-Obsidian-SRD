@@ -1,7 +1,6 @@
 ---
 Ability1: Liquid Ooze
 Ability2: Sticky Hold
-Baby: 'No'
 BookSprite: SRD-swalot-BookSprite.png
 BoxSprite: SRD-swalot-BoxSprite.png
 DexCategory: Poison Bag Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Gulpin]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 17
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Gluttony
 HomeSprite: SRD-swalot-HomeSprite.png
+Image: swalot.png
 Learnset: '[[SRD-Swalot-Learnset]]'
 Legendary: 'No'
-Name: Swalot
 Number: 317
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-swalot-ShuffleToken.png
-Sprite: swalot.png
 Type1: Poison
 Type2: ''
 Weight:
-  Hectograms: 800
   Kilograms: 80.0
   Pounds: 176.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *Swalots spurt toxic fluids from their pores, and once the prey is weak, it gets swallowed whole since they have no teeth. They may eat anything up to the size of a car’s tire. Do not get too close to them.*
 
 **DexID**:: 0317
-**Species**:: Swalot
+**Name**:: Swalot
 **Type**:: Poison
 **Abilities**:: [[SRD-Liquid Ooze|Liquid Ooze]] / [[SRD-Sticky Hold|Sticky Hold]] ([[SRD-Gluttony|Gluttony]])
 **Base HP**:: 5

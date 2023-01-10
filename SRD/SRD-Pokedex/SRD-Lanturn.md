@@ -1,7 +1,6 @@
 ---
 Ability1: Volt Absorb
 Ability2: Illuminate
-Baby: 'No'
 BookSprite: SRD-lanturn-BookSprite.png
 BoxSprite: SRD-lanturn-BoxSprite.png
 DexCategory: Light Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Chinchou]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Water Absorb
 HomeSprite: SRD-lanturn-HomeSprite.png
+Image: lanturn.png
 Learnset: '[[SRD-Lanturn-Learnset]]'
 Legendary: 'No'
-Name: Lanturn
 Number: 171
-PrimaryEggGroup: Water 2
-SecondaryEggGroup: ''
 ShuffleToken: SRD-lanturn-ShuffleToken.png
-Sprite: lanturn.png
 Type1: Water
 Type2: Electric
 Weight:
-  Hectograms: 225
   Kilograms: 22.5
   Pounds: 49.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *It is known for its soft light glow. They are not aggressive Pokemon. If you look into the dark sea at night you can sometimes see this Pokemon’s light rising from the depths, making the sea look like a starry night.*
 
 **DexID**:: 0171
-**Species**:: Lanturn
+**Name**:: Lanturn
 **Type**:: Water / Electric
 **Abilities**:: [[SRD-Volt Absorb|Volt Absorb]] / [[SRD-Illuminate|Illuminate]] ([[SRD-Water Absorb|Water Absorb]])
 **Base HP**:: 6

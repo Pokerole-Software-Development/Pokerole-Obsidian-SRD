@@ -1,7 +1,6 @@
 ---
 Ability1: Simple
 Ability2: Unaware
-Baby: 'No'
 BookSprite: SRD-bibarel-BookSprite.png
 BoxSprite: SRD-bibarel-BoxSprite.png
 DexCategory: Beaver Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Bidoof]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Moody
 HomeSprite: SRD-bibarel-HomeSprite.png
+Image: bibarel.png
 Learnset: '[[SRD-Bibarel-Learnset]]'
 Legendary: 'No'
-Name: Bibarel
 Number: 400
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Field
 ShuffleToken: SRD-bibarel-ShuffleToken.png
-Sprite: bibarel.png
 Type1: Normal
 Type2: Water
 Weight:
-  Hectograms: 315
   Kilograms: 31.5
   Pounds: 69.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *Bibarels build dam streams with bark and mud. It is known as an industrious worker. Their constructions are very appreciated by people because a river dammed by Bibarel will never overflow.*
 
 **DexID**:: 0400
-**Species**:: Bibarel
+**Name**:: Bibarel
 **Type**:: Normal / Water
 **Abilities**:: [[SRD-Simple|Simple]] / [[SRD-Unaware|Unaware]] ([[SRD-Moody|Moody]])
 **Base HP**:: 4

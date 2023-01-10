@@ -1,5 +1,4 @@
 ---
-DexID: 0485
 Moves:
 - - Master
   - '[[SRD-Ancient Power|Ancient Power]]'
@@ -38,14 +37,14 @@ Moves:
 - - Master
   - '[[SRD-Uproar|Uproar]]'
 Name: Heatran
-Species: '[[SRD-Heatran|Heatran]]'
+Pokedex: '[[SRD-Heatran|Heatran]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

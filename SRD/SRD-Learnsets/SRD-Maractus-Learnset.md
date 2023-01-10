@@ -1,5 +1,4 @@
 ---
-DexID: '0556'
 Moves:
 - - Starter
   - '[[SRD-Peck|Peck]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Worry Seed|Worry Seed]]'
 Name: Maractus
-Species: '[[SRD-Maractus|Maractus]]'
+Pokedex: '[[SRD-Maractus|Maractus]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

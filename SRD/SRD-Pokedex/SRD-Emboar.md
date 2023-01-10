@@ -1,7 +1,6 @@
 ---
 Ability1: Blaze
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-emboar-BookSprite.png
 BoxSprite: SRD-emboar-BoxSprite.png
 DexCategory: Mega Fire Pig Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Pignite]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Reckless
 HomeSprite: SRD-emboar-HomeSprite.png
+Image: emboar.png
 Learnset: '[[SRD-Emboar-Learnset]]'
 Legendary: 'No'
-Name: Emboar
 Number: 500
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-emboar-ShuffleToken.png
-Sprite: emboar.png
 Type1: Fire
 Type2: Fighting
 Weight:
-  Hectograms: 1500
   Kilograms: 150.0
   Pounds: 330.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *Although it has a scary exterior, it is a very gentle Pokemon that cares deeply for family and friends. It can burst its punches and beard on fire, it also shows proficiency on martial arts like Judo.*
 
 **DexID**:: 0500
-**Species**:: Emboar
+**Name**:: Emboar
 **Type**:: Fire / Fighting
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Reckless|Reckless]])
 **Base HP**:: 5

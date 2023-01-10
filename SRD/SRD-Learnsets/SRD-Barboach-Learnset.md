@@ -1,5 +1,4 @@
 ---
-DexID: 0339
 Moves:
 - - Starter
   - '[[SRD-Mud Slap|Mud Slap]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Mud Shot|Mud Shot]]'
 Name: Barboach
-Species: '[[SRD-Barboach|Barboach]]'
+Pokedex: '[[SRD-Barboach|Barboach]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

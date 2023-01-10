@@ -1,7 +1,6 @@
 ---
 Ability1: Hyper Cutter
 Ability2: Shell Armor
-Baby: 'No'
 BookSprite: SRD-kingler-BookSprite.png
 BoxSprite: SRD-kingler-BoxSprite.png
 DexCategory: Pincer Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Krabby]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Sheer Force
 HomeSprite: SRD-kingler-HomeSprite.png
+Image: kingler.png
 Learnset: '[[SRD-Kingler-Learnset]]'
 Legendary: 'No'
-Name: Kingler
 Number: 99
-PrimaryEggGroup: Water 3
-SecondaryEggGroup: ''
 ShuffleToken: SRD-kingler-ShuffleToken.png
-Sprite: kingler.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 600
   Kilograms: 60.0
   Pounds: 132.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *Its pincers grow peculiarly large. If it lifts the pincers too fast, it may lose its balance and stagger. If one of its pincers is damaged, it will detach it from its body. It will regrow after a few days..*
 
 **DexID**:: 0099
-**Species**:: Kingler
+**Name**:: Kingler
 **Type**:: Water
 **Abilities**:: [[SRD-Hyper Cutter|Hyper Cutter]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 4

@@ -1,5 +1,4 @@
 ---
-DexID: '0076'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Thunder Punch|Thunder Punch]]'
 Name: Golem
-Species: '[[SRD-Golem|Golem]]'
+Pokedex: '[[SRD-Golem|Golem]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

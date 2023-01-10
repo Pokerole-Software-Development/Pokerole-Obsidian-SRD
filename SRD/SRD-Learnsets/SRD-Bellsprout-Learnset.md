@@ -1,5 +1,4 @@
 ---
-DexID: 0069
 Moves:
 - - Starter
   - '[[SRD-Vine Whip|Vine Whip]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Weather Ball|Weather Ball]]'
 Name: Bellsprout
-Species: '[[SRD-Bellsprout|Bellsprout]]'
+Pokedex: '[[SRD-Bellsprout|Bellsprout]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

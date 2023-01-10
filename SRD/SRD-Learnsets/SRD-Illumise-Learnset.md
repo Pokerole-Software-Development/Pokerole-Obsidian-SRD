@@ -1,5 +1,4 @@
 ---
-DexID: '0314'
 Moves:
 - - Starter
   - '[[SRD-Play Nice|Play Nice]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Silver Wind|Silver Wind]]'
 Name: Illumise
-Species: '[[SRD-Illumise|Illumise]]'
+Pokedex: '[[SRD-Illumise|Illumise]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

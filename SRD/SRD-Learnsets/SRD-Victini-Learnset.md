@@ -1,5 +1,4 @@
 ---
-DexID: 0494
 Moves:
 - - Master
   - '[[SRD-Searing Shot|Searing Shot]]'
@@ -42,14 +41,14 @@ Moves:
 - - Master
   - '[[SRD-V-Create|V-Create]]'
 Name: Victini
-Species: '[[SRD-Victini|Victini]]'
+Pokedex: '[[SRD-Victini|Victini]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

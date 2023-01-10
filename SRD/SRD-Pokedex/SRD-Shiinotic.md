@@ -1,7 +1,6 @@
 ---
 Ability1: Illuminate
 Ability2: Effect Spore
-Baby: 'No'
 BookSprite: SRD-shiinotic-BookSprite.png
 BoxSprite: SRD-shiinotic-BoxSprite.png
 DexCategory: Illuminating Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Morelull]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Rain Dish
 HomeSprite: SRD-shiinotic-HomeSprite.png
+Image: shiinotic.png
 Learnset: '[[SRD-Shiinotic-Learnset]]'
 Legendary: 'No'
-Name: Shiinotic
 Number: 756
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-shiinotic-ShuffleToken.png
-Sprite: shiinotic.png
 Type1: Grass
 Type2: Fairy
 Weight:
-  Hectograms: 115
   Kilograms: 11.5
   Pounds: 25.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *Forests where Shiinotic live are treacherous to travel. People tell stories about strange lights that put others into a deep slumber who are then devoid of their energy by these Pokemon, never to return home.*
 
 **DexID**:: 0756
-**Species**:: Shiinotic
+**Name**:: Shiinotic
 **Type**:: Grass / Fairy
 **Abilities**:: [[SRD-Illuminate|Illuminate]] / [[SRD-Effect Spore|Effect Spore]] ([[SRD-Rain Dish|Rain Dish]])
 **Base HP**:: 4

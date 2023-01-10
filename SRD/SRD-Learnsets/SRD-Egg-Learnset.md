@@ -1,17 +1,16 @@
 ---
-DexID: '0000'
 Moves:
 - - Starter
   - '[[SRD-Rest|Rest]]'
 Name: Egg
-Species: '[[SRD-Egg|Egg]]'
+Pokedex: '[[SRD-Egg|Egg]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

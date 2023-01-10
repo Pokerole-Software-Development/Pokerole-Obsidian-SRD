@@ -1,7 +1,6 @@
 ---
 Ability1: Stench
 Ability2: Sticky Hold
-Baby: 'No'
 BookSprite: SRD-muk-BookSprite.png
 BoxSprite: SRD-muk-BoxSprite.png
 DexCategory: Sludge Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Grimer]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Poison Touch
 HomeSprite: SRD-muk-HomeSprite.png
+Image: muk.png
 Learnset: '[[SRD-Muk-Learnset]]'
 Legendary: 'No'
-Name: Muk
 Number: 89
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-muk-ShuffleToken.png
-Sprite: muk.png
 Type1: Poison
 Type2: ''
 Weight:
-  Hectograms: 300
   Kilograms: 30.0
   Pounds: 66.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *It gathers on polluted areas to eat filth. Its body is made of a powerful poison that kills any plant. Touching it can cause a fever that will require bed rest. A good diet may reduce Muk's toxicity.*
 
 **DexID**:: 0089
-**Species**:: Muk
+**Name**:: Muk
 **Type**:: Poison
 **Abilities**:: [[SRD-Stench|Stench]] / [[SRD-Sticky Hold|Sticky Hold]] ([[SRD-Poison Touch|Poison Touch]])
 **Base HP**:: 5

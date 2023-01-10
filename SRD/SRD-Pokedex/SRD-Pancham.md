@@ -1,7 +1,6 @@
 ---
 Ability1: Iron Fist
 Ability2: Mold Breaker
-Baby: 'No'
 BookSprite: SRD-pancham-BookSprite.png
 BoxSprite: SRD-pancham-BoxSprite.png
 DexCategory: Playful Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Pangoro]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Scrappy
 HomeSprite: SRD-pancham-HomeSprite.png
+Image: pancham.png
 Learnset: '[[SRD-Pancham-Learnset]]'
 Legendary: 'No'
-Name: Pancham
 Number: 674
-PrimaryEggGroup: Field
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-pancham-ShuffleToken.png
-Sprite: pancham.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 80
   Kilograms: 8.0
   Pounds: 17.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lives in bamboo forests. It is very energetic and playful, but wants to be taken seriously. It has a hard time due to its cute appearance, for this reason it may start hanging out with the wrong crowd.*
 
 **DexID**:: 0674
-**Species**:: Pancham
+**Name**:: Pancham
 **Type**:: Fighting
 **Abilities**:: [[SRD-Iron Fist|Iron Fist]] / [[SRD-Mold Breaker|Mold Breaker]] ([[SRD-Scrappy|Scrappy]])
 **Base HP**:: 3

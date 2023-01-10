@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-unown-BookSprite.png
 BoxSprite: SRD-unown-BoxSprite.png
 DexCategory: Symbol Pokemon
@@ -11,25 +10,19 @@ DexDescription: There are depictions of it in ancient ruins. When Unowns are gat
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
 HomeSprite: SRD-unown-HomeSprite.png
+Image: unown.png
 Learnset: '[[SRD-Unown-Learnset]]'
 Legendary: 'No'
-Name: Unown
 Number: 201
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-unown-ShuffleToken.png
-Sprite: unown.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 50
   Kilograms: 5.0
   Pounds: 11.0
 ---
@@ -49,7 +42,7 @@ Weight:
 *There are depictions of it in ancient ruins. When Unowns are gathered together, it is said that a strange power capable of anything emerges. They are all shaped like letters, each one of them with a unique power.*
 
 **DexID**:: 0201
-**Species**:: Unown
+**Name**:: Unown
 **Type**:: Psychic
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4

@@ -1,7 +1,6 @@
 ---
 Ability1: Static
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-flaaffy-BookSprite.png
 BoxSprite: SRD-flaaffy-BoxSprite.png
 DexCategory: Wool Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Ampharos]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Plus
 HomeSprite: SRD-flaaffy-HomeSprite.png
+Image: flaaffy.png
 Learnset: '[[SRD-Flaaffy-Learnset]]'
 Legendary: 'No'
-Name: Flaaffy
 Number: 180
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Field
 ShuffleToken: SRD-flaaffy-ShuffleToken.png
-Sprite: flaaffy.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 133
   Kilograms: 13.3
   Pounds: 29.3
 ---
@@ -57,7 +50,7 @@ Weight:
 *Its wool quality changes so that it can generate a higher amount of static electricity with a smaller amount of wool. The bare and slick parts of its hide are shielded with small electric impulses.*
 
 **DexID**:: 0180
-**Species**:: Flaaffy
+**Name**:: Flaaffy
 **Type**:: Electric
 **Abilities**:: [[SRD-Static|Static]] ([[SRD-Plus|Plus]])
 **Base HP**:: 4

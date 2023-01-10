@@ -1,7 +1,6 @@
 ---
 Ability1: Clear Body
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-regirock-BookSprite.png
 BoxSprite: SRD-regirock-BoxSprite.png
 DexCategory: No Data
@@ -10,25 +9,19 @@ DexDescription: It is said to be an immortal being the size of the peak of a mou
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 17
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Sturdy
 HomeSprite: SRD-regirock-HomeSprite.png
+Image: regirock.png
 Learnset: '[[SRD-Regirock-Learnset]]'
 Legendary: 'Yes'
-Name: Regirock
 Number: 377
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-regirock-ShuffleToken.png
-Sprite: regirock.png
 Type1: Rock
 Type2: ''
 Weight:
-  Hectograms: 2300
   Kilograms: 230.0
   Pounds: 507.1
 ---
@@ -48,7 +41,7 @@ Weight:
 *It is said to be an immortal being the size of the peak of a mountain. Could he be a remnant from the most ancient times of this world?*
 
 **DexID**:: 0377
-**Species**:: Regirock
+**Name**:: Regirock
 **Type**:: Rock
 **Abilities**:: [[SRD-Clear Body|Clear Body]] ([[SRD-Sturdy|Sturdy]])
 **Base HP**:: 4

@@ -1,7 +1,6 @@
 ---
 Ability1: Intimidate
 Ability2: Moxie
-Baby: 'No'
 BookSprite: SRD-krookodile-BookSprite.png
 BoxSprite: SRD-krookodile-BoxSprite.png
 DexCategory: Intimidation Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Krokorok]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Anger Point
 HomeSprite: SRD-krookodile-HomeSprite.png
+Image: krookodile.png
 Learnset: '[[SRD-Krookodile-Learnset]]'
 Legendary: 'No'
-Name: Krookodile
 Number: 553
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-krookodile-ShuffleToken.png
-Sprite: krookodile.png
 Type1: Ground
 Type2: Dark
 Weight:
-  Hectograms: 963
   Kilograms: 96.3
   Pounds: 212.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *A very violent Pokemon. They try to clamp down on anything that moves in front of their eyes and once grasped they never let the prey escape. It can be very dangerous if it’s not tamed correctly.*
 
 **DexID**:: 0553
-**Species**:: Krookodile
+**Name**:: Krookodile
 **Type**:: Ground / Dark
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Moxie|Moxie]] ([[SRD-Anger Point|Anger Point]])
 **Base HP**:: 5

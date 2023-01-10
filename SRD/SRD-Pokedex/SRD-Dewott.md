@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-dewott-BookSprite.png
 BoxSprite: SRD-dewott-BoxSprite.png
 DexCategory: Discipline Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Samurott]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Shell Armor
 HomeSprite: SRD-dewott-HomeSprite.png
+Image: dewott.png
 Learnset: '[[SRD-Dewott-Learnset]]'
 Legendary: 'No'
-Name: Dewott
 Number: 502
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-dewott-ShuffleToken.png
-Sprite: dewott.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 245
   Kilograms: 24.5
   Pounds: 54.0
 ---
@@ -57,7 +50,7 @@ Weight:
 *It isolates itself from others and trains every day to perform a double scalchop slash technique. This Pokemon takes itself very seriously and won’t back down from any challenge.*
 
 **DexID**:: 0502
-**Species**:: Dewott
+**Name**:: Dewott
 **Type**:: Water
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Shell Armor|Shell Armor]])
 **Base HP**:: 4

@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-treecko-BookSprite.png
 BoxSprite: SRD-treecko-BoxSprite.png
 DexCategory: Wood Gecko Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Grovyle]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Unburden
 HomeSprite: SRD-treecko-HomeSprite.png
+Image: treecko.png
 Learnset: '[[SRD-Treecko-Learnset]]'
 Legendary: 'No'
-Name: Treecko
 Number: 252
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-treecko-ShuffleToken.png
-Sprite: treecko.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 50
   Kilograms: 5.0
   Pounds: 11.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *They climb trees with their spiked feet. They remain cool under stress, calmed under pressure and collected when endangered. They are found protecting the trees ferociously.*
 
 **DexID**:: 0252
-**Species**:: Treecko
+**Name**:: Treecko
 **Type**:: Grass
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Unburden|Unburden]])
 **Base HP**:: 3

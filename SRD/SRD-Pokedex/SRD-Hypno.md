@@ -1,7 +1,6 @@
 ---
 Ability1: Insomnia
 Ability2: Forewarn
-Baby: 'No'
 BookSprite: SRD-hypno-BookSprite.png
 BoxSprite: SRD-hypno-BoxSprite.png
 DexCategory: Hypnosis Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Drowzee]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Inner Focus
 HomeSprite: SRD-hypno-HomeSprite.png
+Image: hypno.png
 Learnset: '[[SRD-Hypno-Learnset]]'
 Legendary: 'No'
-Name: Hypno
 Number: 97
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-hypno-ShuffleToken.png
-Sprite: hypno.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 756
   Kilograms: 75.6
   Pounds: 166.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *Old children stories tell of an Hypno who takes away naughty kids and feasts on their dreams until they are old men. They have an urge to eat the dreams of others since they cannot sleep themselves.*
 
 **DexID**:: 0097
-**Species**:: Hypno
+**Name**:: Hypno
 **Type**:: Psychic
 **Abilities**:: [[SRD-Insomnia|Insomnia]] / [[SRD-Forewarn|Forewarn]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 4

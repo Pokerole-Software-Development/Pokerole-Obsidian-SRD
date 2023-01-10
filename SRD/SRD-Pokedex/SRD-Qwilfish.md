@@ -1,7 +1,6 @@
 ---
 Ability1: Poison Point
 Ability2: Swift Swim
-Baby: 'No'
 BookSprite: SRD-qwilfish-BookSprite.png
 BoxSprite: SRD-qwilfish-BoxSprite.png
 DexCategory: Balloon Pokemon
@@ -11,25 +10,19 @@ DexDescription: It swallows water to inflate its body to appear bigger than its 
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Intimidate
 HomeSprite: SRD-qwilfish-HomeSprite.png
+Image: qwilfish.png
 Learnset: '[[SRD-Qwilfish-Learnset]]'
 Legendary: 'No'
-Name: Qwilfish
 Number: 211
-PrimaryEggGroup: Water 2
-SecondaryEggGroup: ''
 ShuffleToken: SRD-qwilfish-ShuffleToken.png
-Sprite: qwilfish.png
 Type1: Water
 Type2: Poison
 Weight:
-  Hectograms: 39
   Kilograms: 3.9
   Pounds: 8.6
 ---
@@ -49,7 +42,7 @@ Weight:
 *It swallows water to inflate its body to appear bigger than its foes. Qwilfish must swallow 2 gallons of water to be able to shoot its stings. The poison produced by Qwilfish is known to cause fainting.*
 
 **DexID**:: 0211
-**Species**:: Qwilfish
+**Name**:: Qwilfish
 **Type**:: Water / Poison
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Swift Swim|Swift Swim]] ([[SRD-Intimidate|Intimidate]])
 **Base HP**:: 4

@@ -1,7 +1,6 @@
 ---
 Ability1: Early Bird
 Ability2: Flash Fire
-Baby: 'No'
 BookSprite: SRD-houndoom-BookSprite.png
 BoxSprite: SRD-houndoom-BoxSprite.png
 DexCategory: Dark Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Houndoominite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Houndoom]]'
+  Pokemon: '[[SRD-Houndoom (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Unnerve
 HomeSprite: SRD-houndoom-HomeSprite.png
+Image: houndoom.png
 Learnset: '[[SRD-Houndoom-Learnset]]'
 Legendary: 'No'
-Name: Houndoom
 Number: 229
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-houndoom-ShuffleToken.png
-Sprite: houndoom.png
 Type1: Dark
 Type2: Fire
 Weight:
-  Hectograms: 350
   Kilograms: 35.0
   Pounds: 77.2
 ---
@@ -57,7 +50,7 @@ Weight:
 *It is said the pain from its flames never goes away. Long ago, their howl was thought to be the call of the grim reaper. Pokemon and people who hear it, will always shiver in fear. They are pack leaders, not followers*
 
 **DexID**:: 0229
-**Species**:: Houndoom
+**Name**:: Houndoom
 **Type**:: Dark / Fire
 **Abilities**:: [[SRD-Early Bird|Early Bird]] / [[SRD-Flash Fire|Flash Fire]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 4
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon               | Kind   | Speed   | Item          |
-|:----------|:----------------------|:-------|:--------|:--------------|
-| From      | [[SRD-Houndour]]      | Level  | Medium  |               |
-| To        | [[SRD-Mega-Houndoom]] | Mega   |         | Houndoominite |
+| Evolves   | Pokemon                      | Kind   | Speed   | Item          |
+|:----------|:-----------------------------|:-------|:--------|:--------------|
+| From      | [[SRD-Houndour]]             | Level  | Medium  |               |
+| To        | [[SRD-Houndoom (Mega Form)]] | Mega   |         | Houndoominite |
 
 ![[SRD-Houndoom-Learnset]]

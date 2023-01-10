@@ -1,5 +1,4 @@
 ---
-DexID: 0286
 Moves:
 - - Starter
   - '[[SRD-Absorb|Absorb]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Drain Punch|Drain Punch]]'
 Name: Breloom
-Species: '[[SRD-Breloom|Breloom]]'
+Pokedex: '[[SRD-Breloom|Breloom]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0013'
 Moves:
 - - Starter
   - '[[SRD-Poison Sting|Poison Sting]]'
@@ -14,14 +13,14 @@ Moves:
 - - Amateur
   - '[[SRD-Electroweb|Electroweb]]'
 Name: Weedle
-Species: '[[SRD-Weedle|Weedle]]'
+Pokedex: '[[SRD-Weedle|Weedle]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

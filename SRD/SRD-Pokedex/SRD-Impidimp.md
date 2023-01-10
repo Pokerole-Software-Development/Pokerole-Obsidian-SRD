@@ -1,7 +1,6 @@
 ---
 Ability1: Prankster
 Ability2: Frisk
-Baby: 'No'
 BookSprite: SRD-impidimp-BookSprite.png
 BoxSprite: SRD-impidimp-BoxSprite.png
 DexCategory: Wily Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Morgrem]]'
   Speed: Medium
 GenderType: M
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Pickpocket
 HomeSprite: SRD-impidimp-HomeSprite.png
+Image: impidimp.png
 Learnset: '[[SRD-Impidimp-Learnset]]'
 Legendary: 'No'
-Name: Impidimp
 Number: 859
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-impidimp-ShuffleToken.png
-Sprite: impidimp.png
 Type1: Dark
 Type2: Fairy
 Weight:
-  Hectograms: 55
   Kilograms: 5.5
   Pounds: 12.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *Through its nose, it sucks in the dark emanations produced by people and Pokemon when they feel annoyed. It thrives off this negative energy. They love to take things that don’t belong to them.*
 
 **DexID**:: 0859
-**Species**:: Impidimp
+**Name**:: Impidimp
 **Type**:: Dark / Fairy
 **Abilities**:: [[SRD-Prankster|Prankster]] / [[SRD-Frisk|Frisk]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 3

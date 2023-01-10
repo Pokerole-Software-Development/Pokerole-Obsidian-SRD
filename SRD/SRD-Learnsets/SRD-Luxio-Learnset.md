@@ -1,5 +1,4 @@
 ---
-DexID: '0404'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Fang|Fire Fang]]'
 Name: Luxio
-Species: '[[SRD-Luxio|Luxio]]'
+Pokedex: '[[SRD-Luxio|Luxio]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

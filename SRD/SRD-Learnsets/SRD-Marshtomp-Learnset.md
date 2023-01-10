@@ -1,5 +1,4 @@
 ---
-DexID: 0259
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Dynamic Punch|Dynamic Punch]]'
 Name: Marshtomp
-Species: '[[SRD-Marshtomp|Marshtomp]]'
+Pokedex: '[[SRD-Marshtomp|Marshtomp]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

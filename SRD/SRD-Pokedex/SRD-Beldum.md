@@ -1,7 +1,6 @@
 ---
 Ability1: Clear Body
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-beldum-BookSprite.png
 BoxSprite: SRD-beldum-BoxSprite.png
 DexCategory: Iron Ball Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Metang]]'
   Speed: Medium
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Light Metal
 HomeSprite: SRD-beldum-HomeSprite.png
+Image: beldum.png
 Learnset: '[[SRD-Beldum-Learnset]]'
 Legendary: 'No'
-Name: Beldum
 Number: 374
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-beldum-ShuffleToken.png
-Sprite: beldum.png
 Type1: Steel
 Type2: Psychic
 Weight:
-  Hectograms: 952
   Kilograms: 95.2
   Pounds: 209.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *Beldum uses magnetic pulses to float and communicate. When it finds others, they move in perfect unison. It needs to develop a new brain to evolve; two of them may merge or it could develop a new one with time.*
 
 **DexID**:: 0374
-**Species**:: Beldum
+**Name**:: Beldum
 **Type**:: Steel / Psychic
 **Abilities**:: [[SRD-Clear Body|Clear Body]] ([[SRD-Light Metal|Light Metal]])
 **Base HP**:: 3

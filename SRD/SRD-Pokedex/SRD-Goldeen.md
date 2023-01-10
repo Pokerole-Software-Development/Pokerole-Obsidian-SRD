@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: Water Veil
-Baby: 'No'
 BookSprite: SRD-goldeen-BookSprite.png
 BoxSprite: SRD-goldeen-BoxSprite.png
 DexCategory: Goldfish Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Seaking]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-goldeen-HomeSprite.png
+Image: goldeen.png
 Learnset: '[[SRD-Goldeen-Learnset]]'
 Legendary: 'No'
-Name: Goldeen
 Number: 118
-PrimaryEggGroup: Water 2
-SecondaryEggGroup: ''
 ShuffleToken: SRD-goldeen-ShuffleToken.png
-Sprite: goldeen.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 150
   Kilograms: 15.0
   Pounds: 33.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *Goldeen loves swimming wild and free in rivers and ponds. If one of these Pokemon is placed in an aquarium, it will shatter the glass with its horn and make its escape.*
 
 **DexID**:: 0118
-**Species**:: Goldeen
+**Name**:: Goldeen
 **Type**:: Water
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Water Veil|Water Veil]] ([[SRD-Lightning Rod|Lightning Rod]])
 **Base HP**:: 3

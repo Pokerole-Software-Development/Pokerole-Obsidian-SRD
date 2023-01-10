@@ -1,7 +1,6 @@
 ---
 Ability1: Insomnia
 Ability2: Keen Eye
-Baby: 'No'
 BookSprite: SRD-hoothoot-BookSprite.png
 BoxSprite: SRD-hoothoot-BoxSprite.png
 DexCategory: Owl Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Noctowl]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Tinted Lens
 HomeSprite: SRD-hoothoot-HomeSprite.png
+Image: hoothoot.png
 Learnset: '[[SRD-Hoothoot-Learnset]]'
 Legendary: 'No'
-Name: Hoothoot
 Number: 163
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-hoothoot-ShuffleToken.png
-Sprite: hoothoot.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 212
   Kilograms: 21.2
   Pounds: 46.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *A nocturnal Pokemon found in dark forests. It has an internal organ that senses the earth’s rotation. By using this special organ a Hoothoot begins hooting at precisely the same time every day.*
 
 **DexID**:: 0163
-**Species**:: Hoothoot
+**Name**:: Hoothoot
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Insomnia|Insomnia]] / [[SRD-Keen Eye|Keen Eye]] ([[SRD-Tinted Lens|Tinted Lens]])
 **Base HP**:: 3

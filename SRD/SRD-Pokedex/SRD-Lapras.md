@@ -1,7 +1,6 @@
 ---
 Ability1: Water Absorb
 Ability2: Shell Armor
-Baby: 'No'
 BookSprite: SRD-lapras-BookSprite.png
 BoxSprite: SRD-lapras-BoxSprite.png
 DexCategory: Transport Pokemon
@@ -11,25 +10,19 @@ DexDescription: People have driven Lapras near the point of extinction. In the e
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 25
   Feet: 8.2
   Meters: 2.5
 HiddenAbility: Hydration
 HomeSprite: SRD-lapras-HomeSprite.png
+Image: lapras.png
 Learnset: '[[SRD-Lapras-Learnset]]'
 Legendary: 'No'
-Name: Lapras
 Number: 131
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Water 1
 ShuffleToken: SRD-lapras-ShuffleToken.png
-Sprite: lapras.png
 Type1: Water
 Type2: Ice
 Weight:
-  Hectograms: 2200
   Kilograms: 220.0
   Pounds: 485.0
 ---
@@ -49,7 +42,7 @@ Weight:
 *People have driven Lapras near the point of extinction. In the evenings, this Pokemon is said to sing as it seeks what few others of its kind still remain. Their gentle nature has made them easy to lure and catch.*
 
 **DexID**:: 0131
-**Species**:: Lapras
+**Name**:: Lapras
 **Type**:: Water / Ice
 **Abilities**:: [[SRD-Water Absorb|Water Absorb]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Hydration|Hydration]])
 **Base HP**:: 6

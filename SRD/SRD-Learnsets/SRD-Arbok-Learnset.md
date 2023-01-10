@@ -1,5 +1,4 @@
 ---
-DexID: '0024'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -58,14 +57,14 @@ Moves:
 - - Pro
   - '[[SRD-Iron Tail|Iron Tail]]'
 Name: Arbok
-Species: '[[SRD-Arbok|Arbok]]'
+Pokedex: '[[SRD-Arbok|Arbok]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Cute Charm
 Ability2: Magic Guard
-Baby: 'Yes'
 BookSprite: SRD-cleffa-BookSprite.png
 BoxSprite: SRD-cleffa-BoxSprite.png
 DexCategory: Star Shape Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Happiness
   Value: 4
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Friend Guard
 HomeSprite: SRD-cleffa-HomeSprite.png
+Image: cleffa.png
 Learnset: '[[SRD-Cleffa-Learnset]]'
 Legendary: 'No'
-Name: Cleffa
 Number: 173
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-cleffa-ShuffleToken.png
-Sprite: cleffa.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 30
   Kilograms: 3.0
   Pounds: 6.6
 ---
@@ -54,7 +47,7 @@ Weight:
 *An extremely elusive Pokemon. A few have appeared when the night skies are filled with shooting stars - but they always disappear at dawn. Friendship and love allows it to go into the next step of life.*
 
 **DexID**:: 0173
-**Species**:: Cleffa
+**Name**:: Cleffa
 **Type**:: Fairy
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Magic Guard|Magic Guard]] ([[SRD-Friend Guard|Friend Guard]])
 **Base HP**:: 3

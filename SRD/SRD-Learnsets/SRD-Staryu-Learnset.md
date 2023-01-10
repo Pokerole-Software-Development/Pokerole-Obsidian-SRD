@@ -1,5 +1,4 @@
 ---
-DexID: '0120'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Twister|Twister]]'
 Name: Staryu
-Species: '[[SRD-Staryu|Staryu]]'
+Pokedex: '[[SRD-Staryu|Staryu]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

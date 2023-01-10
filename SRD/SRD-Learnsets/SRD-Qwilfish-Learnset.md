@@ -1,5 +1,4 @@
 ---
-DexID: '0211'
 Moves:
 - - Starter
   - '[[SRD-Supersonic|Supersonic]]'
@@ -58,14 +57,14 @@ Moves:
 - - Pro
   - '[[SRD-Swords Dance|Swords Dance]]'
 Name: Qwilfish
-Species: '[[SRD-Qwilfish|Qwilfish]]'
+Pokedex: '[[SRD-Qwilfish|Qwilfish]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

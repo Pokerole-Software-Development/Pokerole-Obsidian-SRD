@@ -1,7 +1,6 @@
 ---
 Ability1: Intimidate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-gyarados-BookSprite.png
 BoxSprite: SRD-gyarados-BoxSprite.png
 DexCategory: Atrocious Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Gyaradosite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Gyarados]]'
+  Pokemon: '[[SRD-Gyarados (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 65
   Feet: 21.3
   Meters: 6.5
 HiddenAbility: Moxie
 HomeSprite: SRD-gyarados-HomeSprite.png
+Image: gyarados.png
 Learnset: '[[SRD-Gyarados-Learnset]]'
 Legendary: 'No'
-Name: Gyarados
 Number: 130
-PrimaryEggGroup: Water 2
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-gyarados-ShuffleToken.png
-Sprite: gyarados.png
 Type1: Water
 Type2: Flying
 Weight:
-  Hectograms: 2350
   Kilograms: 235.0
   Pounds: 518.1
 ---
@@ -57,7 +50,7 @@ Weight:
 *It’s rarely seen in the wild. This huge and vicious Pokemon is known for the destruction it leaves in its wake. In ancient literature, there is a record of a Gyarados that razed a village when violence flared.*
 
 **DexID**:: 0130
-**Species**:: Gyarados
+**Name**:: Gyarados
 **Type**:: Water / Flying
 **Abilities**:: [[SRD-Intimidate|Intimidate]] ([[SRD-Moxie|Moxie]])
 **Base HP**:: 7
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon               | Kind   | Speed   | Item        |
-|:----------|:----------------------|:-------|:--------|:------------|
-| From      | [[SRD-Magikarp]]      | Level  | Slow    |             |
-| To        | [[SRD-Mega-Gyarados]] | Mega   |         | Gyaradosite |
+| Evolves   | Pokemon                      | Kind   | Speed   | Item        |
+|:----------|:-----------------------------|:-------|:--------|:------------|
+| From      | [[SRD-Magikarp]]             | Level  | Slow    |             |
+| To        | [[SRD-Gyarados (Mega Form)]] | Mega   |         | Gyaradosite |
 
 ![[SRD-Gyarados-Learnset]]

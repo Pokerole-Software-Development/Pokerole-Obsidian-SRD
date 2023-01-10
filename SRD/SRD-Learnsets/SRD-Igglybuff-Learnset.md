@@ -1,5 +1,4 @@
 ---
-DexID: '0174'
 Moves:
 - - Starter
   - '[[SRD-Sing|Sing]]'
@@ -28,14 +27,14 @@ Moves:
 - - Pro
   - '[[SRD-Perish Song|Perish Song]]'
 Name: Igglybuff
-Species: '[[SRD-Igglybuff|Igglybuff]]'
+Pokedex: '[[SRD-Igglybuff|Igglybuff]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: '0464'
 Moves:
 - - Starter
   - '[[SRD-Tail Whip|Tail Whip]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Dragon Rush|Dragon Rush]]'
 Name: Rhyperior
-Species: '[[SRD-Rhyperior|Rhyperior]]'
+Pokedex: '[[SRD-Rhyperior|Rhyperior]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

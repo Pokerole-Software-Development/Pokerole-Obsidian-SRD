@@ -1,7 +1,6 @@
 ---
 Ability1: Poison Point
 Ability2: Swarm
-Baby: 'No'
 BookSprite: SRD-venipede-BookSprite.png
 BoxSprite: SRD-venipede-BoxSprite.png
 DexCategory: Centipede Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Whirlipede]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Speed Boost
 HomeSprite: SRD-venipede-HomeSprite.png
+Image: venipede.png
 Learnset: '[[SRD-Venipede-Learnset]]'
 Legendary: 'No'
-Name: Venipede
 Number: 543
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-venipede-ShuffleToken.png
-Sprite: venipede.png
 Type1: Bug
 Type2: Poison
 Weight:
-  Hectograms: 53
   Kilograms: 5.3
   Pounds: 11.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *Incredibly aggressive for a Pokemon that size. It uses the feelers on it’s front and back to locate things around. Its bite injects a potent venom, enough to deter the large bird Pokemon that try to prey on it.*
 
 **DexID**:: 0543
-**Species**:: Venipede
+**Name**:: Venipede
 **Type**:: Bug / Poison
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Swarm|Swarm]] ([[SRD-Speed Boost|Speed Boost]])
 **Base HP**:: 3

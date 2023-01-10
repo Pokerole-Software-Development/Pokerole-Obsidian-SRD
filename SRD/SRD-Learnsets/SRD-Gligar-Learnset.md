@@ -1,5 +1,4 @@
 ---
-DexID: '0207'
 Moves:
 - - Starter
   - '[[SRD-Poison Sting|Poison Sting]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Feint|Feint]]'
 Name: Gligar
-Species: '[[SRD-Gligar|Gligar]]'
+Pokedex: '[[SRD-Gligar|Gligar]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

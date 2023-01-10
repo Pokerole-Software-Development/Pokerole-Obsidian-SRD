@@ -1,7 +1,6 @@
 ---
 Ability1: Merciless
 Ability2: Limber
-Baby: 'No'
 BookSprite: SRD-toxapex-BookSprite.png
 BoxSprite: SRD-toxapex-BoxSprite.png
 DexCategory: Brutal Star Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Mareanie]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Regenerator
 HomeSprite: SRD-toxapex-HomeSprite.png
+Image: toxapex.png
 Learnset: '[[SRD-Toxapex-Learnset]]'
 Legendary: 'No'
-Name: Toxapex
 Number: 748
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: ''
 ShuffleToken: SRD-toxapex-ShuffleToken.png
-Sprite: toxapex.png
 Type1: Poison
 Type2: Water
 Weight:
-  Hectograms: 145
   Kilograms: 14.5
   Pounds: 32.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *It crawls through the ocean floor, using its tentacles as a fortress. Its venom has the victim suffering for three days and nights, and even if it’s healed there are aftereffects for it is a powerful toxin.*
 
 **DexID**:: 0748
-**Species**:: Toxapex
+**Name**:: Toxapex
 **Type**:: Poison / Water
 **Abilities**:: [[SRD-Merciless|Merciless]] / [[SRD-Limber|Limber]] ([[SRD-Regenerator|Regenerator]])
 **Base HP**:: 4

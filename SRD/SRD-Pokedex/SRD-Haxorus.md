@@ -1,7 +1,6 @@
 ---
 Ability1: Rivalry
 Ability2: Mold Breaker
-Baby: 'No'
 BookSprite: SRD-haxorus-BookSprite.png
 BoxSprite: SRD-haxorus-BoxSprite.png
 DexCategory: Axe Jaw Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Fraxure]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Unnerve
 HomeSprite: SRD-haxorus-HomeSprite.png
+Image: haxorus.png
 Learnset: '[[SRD-Haxorus-Learnset]]'
 Legendary: 'No'
-Name: Haxorus
 Number: 612
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-haxorus-ShuffleToken.png
-Sprite: haxorus.png
 Type1: Dragon
 Type2: ''
 Weight:
-  Hectograms: 1055
   Kilograms: 105.5
   Pounds: 232.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *Their sturdy tusks will stay sharp even if they are used to cut steel. These Pokemon are covered in hard armor. They incredibly aggressive, if their territory is trespassed, they chase and slash mercilessly.*
 
 **DexID**:: 0612
-**Species**:: Haxorus
+**Name**:: Haxorus
 **Type**:: Dragon
 **Abilities**:: [[SRD-Rivalry|Rivalry]] / [[SRD-Mold Breaker|Mold Breaker]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 5

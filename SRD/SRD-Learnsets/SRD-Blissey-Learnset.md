@@ -1,5 +1,4 @@
 ---
-DexID: '0242'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Metronome|Metronome]]'
 Name: Blissey
-Species: '[[SRD-Blissey|Blissey]]'
+Pokedex: '[[SRD-Blissey|Blissey]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

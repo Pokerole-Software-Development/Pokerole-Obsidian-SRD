@@ -1,5 +1,4 @@
 ---
-DexID: '0613'
 Moves:
 - - Starter
   - '[[SRD-Growl|Growl]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Play Rough|Play Rough]]'
 Name: Beartic
-Species: '[[SRD-Beartic|Beartic]]'
+Pokedex: '[[SRD-Beartic|Beartic]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

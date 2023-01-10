@@ -1,5 +1,4 @@
 ---
-DexID: 0594
 Moves:
 - - Starter
   - '[[SRD-Bubble|Bubble]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Confuse Ray|Confuse Ray]]'
 Name: Jellicent
-Species: '[[SRD-Jellicent|Jellicent]]'
+Pokedex: '[[SRD-Jellicent|Jellicent]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Illusion
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-zorua-BookSprite.png
 BoxSprite: SRD-zorua-BoxSprite.png
 DexCategory: Tricky Fox Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Zoroark]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: ''
 HomeSprite: SRD-zorua-HomeSprite.png
+Image: zorua.png
 Learnset: '[[SRD-Zorua-Learnset]]'
 Legendary: 'No'
-Name: Zorua
 Number: 570
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-zorua-ShuffleToken.png
-Sprite: zorua.png
 Type1: Dark
 Type2: ''
 Weight:
-  Hectograms: 125
   Kilograms: 12.5
   Pounds: 27.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are very hard to find as they can transform into people and other Pokemon. They cannot speak when transformed and their tail remains visible. They ruin reputations by creating mischief in disguise.*
 
 **DexID**:: 0570
-**Species**:: Zorua
+**Name**:: Zorua
 **Type**:: Dark
 **Abilities**:: [[SRD-Illusion|Illusion]]
 **Base HP**:: 3

@@ -1,7 +1,6 @@
 ---
 Ability1: Comatose
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-komala-BookSprite.png
 BoxSprite: SRD-komala-BoxSprite.png
 DexCategory: Drowsing Pokemon
@@ -11,25 +10,19 @@ DexDescription: Komalas are born, live, and die asleep. They will have nightmare
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: ''
 HomeSprite: SRD-komala-HomeSprite.png
+Image: komala.png
 Learnset: '[[SRD-Komala-Learnset]]'
 Legendary: 'No'
-Name: Komala
 Number: 775
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-komala-ShuffleToken.png
-Sprite: komala.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 199
   Kilograms: 19.9
   Pounds: 43.9
 ---
@@ -49,7 +42,7 @@ Weight:
 *Komalas are born, live, and die asleep. They will have nightmares if you remove their log-pillow. Although it appears aware of its surroundings in reality it is just dreaming and reacting to the dream antics.*
 
 **DexID**:: 0775
-**Species**:: Komala
+**Name**:: Komala
 **Type**:: Normal
 **Abilities**:: [[SRD-Comatose|Comatose]]
 **Base HP**:: 4

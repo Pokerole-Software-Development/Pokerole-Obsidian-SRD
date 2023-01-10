@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-azelf-BookSprite.png
 BoxSprite: SRD-azelf-BoxSprite.png
 DexCategory: No Data
@@ -11,25 +10,19 @@ DexDescription: In the myths of Sinnoh they talk about three beings that came ou
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: ''
 HomeSprite: SRD-azelf-HomeSprite.png
+Image: azelf.png
 Learnset: '[[SRD-Azelf-Learnset]]'
 Legendary: 'Yes'
-Name: Azelf
 Number: 482
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-azelf-ShuffleToken.png
-Sprite: azelf.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 3
   Kilograms: 0.3
   Pounds: 0.7
 ---
@@ -49,7 +42,7 @@ Weight:
 *In the myths of Sinnoh they talk about three beings that came out from the same egg, the blue one was the being of willpower. Together they shaped the human race to be complete.*
 
 **DexID**:: 0482
-**Species**:: Azelf
+**Name**:: Azelf
 **Type**:: Psychic
 **Abilities**:: [[SRD-Levitate|Levitate]]
 **Base HP**:: 4

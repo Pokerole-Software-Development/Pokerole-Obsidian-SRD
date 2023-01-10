@@ -1,7 +1,6 @@
 ---
 Ability1: Sand Veil
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-cacnea-BookSprite.png
 BoxSprite: SRD-cacnea-BoxSprite.png
 DexCategory: Cactus Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Cacturne]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Water Absorb
 HomeSprite: SRD-cacnea-HomeSprite.png
+Image: cacnea.png
 Learnset: '[[SRD-Cacnea-Learnset]]'
 Legendary: 'No'
-Name: Cacnea
 Number: 331
-PrimaryEggGroup: Grass
-SecondaryEggGroup: Human-Like
 ShuffleToken: SRD-cacnea-ShuffleToken.png
-Sprite: cacnea.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 513
   Kilograms: 51.3
   Pounds: 113.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *They release a strong and sweet aroma to attract prey, if they get closer, Cacneas shoot sharp thorns to bring them down. They resemble cactuses and hide among them.*
 
 **DexID**:: 0331
-**Species**:: Cacnea
+**Name**:: Cacnea
 **Type**:: Grass
 **Abilities**:: [[SRD-Sand Veil|Sand Veil]] ([[SRD-Water Absorb|Water Absorb]])
 **Base HP**:: 3

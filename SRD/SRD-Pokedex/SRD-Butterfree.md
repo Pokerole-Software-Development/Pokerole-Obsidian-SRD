@@ -1,7 +1,6 @@
 ---
 Ability1: Compound Eyes
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-butterfree-BookSprite.png
 BoxSprite: SRD-butterfree-BoxSprite.png
 DexCategory: Butterfly Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Metapod]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Tinted Lens
 HomeSprite: SRD-butterfree-HomeSprite.png
+Image: butterfree.png
 Learnset: '[[SRD-Butterfree-Learnset]]'
 Legendary: 'No'
-Name: Butterfree
 Number: 12
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-butterfree-ShuffleToken.png
-Sprite: butterfree.png
 Type1: Bug
 Type2: Flying
 Weight:
-  Hectograms: 320
   Kilograms: 32.0
   Pounds: 70.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *It can be found in forests and plains. It loves the honey in some flowers even with tiny amounts of pollen. Its wings are covered by dust that allows it to fly even when it’s raining.*
 
 **DexID**:: 0012
-**Species**:: Butterfree
+**Name**:: Butterfree
 **Type**:: Bug / Flying
 **Abilities**:: [[SRD-Compound Eyes|Compound Eyes]] ([[SRD-Tinted Lens|Tinted Lens]])
 **Base HP**:: 5

@@ -1,7 +1,6 @@
 ---
 Ability1: Synchronize
 Ability2: Early Bird
-Baby: 'No'
 BookSprite: SRD-natu-BookSprite.png
 BoxSprite: SRD-natu-BoxSprite.png
 DexCategory: Little Bird Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Xatu]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Magic Bounce
 HomeSprite: SRD-natu-HomeSprite.png
+Image: natu.png
 Learnset: '[[SRD-Natu-Learnset]]'
 Legendary: 'No'
-Name: Natu
 Number: 177
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-natu-ShuffleToken.png
-Sprite: natu.png
 Type1: Psychic
 Type2: Flying
 Weight:
-  Hectograms: 20
   Kilograms: 2.0
   Pounds: 4.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lives close to the deserts. Its wings are not fully developed so it hops to trees and cactus to peck something to eat. If you find one it will hold your stare, if you get closer it might disappear in an instant.*
 
 **DexID**:: 0177
-**Species**:: Natu
+**Name**:: Natu
 **Type**:: Psychic / Flying
 **Abilities**:: [[SRD-Synchronize|Synchronize]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Magic Bounce|Magic Bounce]])
 **Base HP**:: 3

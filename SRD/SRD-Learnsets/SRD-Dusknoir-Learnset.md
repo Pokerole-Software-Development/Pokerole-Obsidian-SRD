@@ -1,5 +1,4 @@
 ---
-DexID: '0477'
 Moves:
 - - Starter
   - '[[SRD-Bind|Bind]]'
@@ -58,14 +57,14 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Dusknoir
-Species: '[[SRD-Dusknoir|Dusknoir]]'
+Pokedex: '[[SRD-Dusknoir|Dusknoir]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

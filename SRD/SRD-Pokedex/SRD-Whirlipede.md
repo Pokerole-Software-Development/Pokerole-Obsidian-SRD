@@ -1,7 +1,6 @@
 ---
 Ability1: Poison Point
 Ability2: Swarm
-Baby: 'No'
 BookSprite: SRD-whirlipede-BookSprite.png
 BoxSprite: SRD-whirlipede-BoxSprite.png
 DexCategory: Curlipede Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Scolipede]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Speed Boost
 HomeSprite: SRD-whirlipede-HomeSprite.png
+Image: whirlipede.png
 Learnset: '[[SRD-Whirlipede-Learnset]]'
 Legendary: 'No'
-Name: Whirlipede
 Number: 544
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-whirlipede-ShuffleToken.png
-Sprite: whirlipede.png
 Type1: Bug
 Type2: Poison
 Weight:
-  Hectograms: 585
   Kilograms: 58.5
   Pounds: 129.0
 ---
@@ -57,7 +50,7 @@ Weight:
 *It is usually motionless, when it is attacked, it rotates at high speed and then crashes into its opponent with its body full of poison spikes. Inside it is storing energy for evolving, which normally takes a few months.*
 
 **DexID**:: 0544
-**Species**:: Whirlipede
+**Name**:: Whirlipede
 **Type**:: Bug / Poison
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Swarm|Swarm]] ([[SRD-Speed Boost|Speed Boost]])
 **Base HP**:: 4

@@ -1,7 +1,6 @@
 ---
 Ability1: Blaze
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-litten-BookSprite.png
 BoxSprite: SRD-litten-BoxSprite.png
 DexCategory: Fire Cat Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Torracat]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Intimidate
 HomeSprite: SRD-litten-HomeSprite.png
+Image: litten.png
 Learnset: '[[SRD-Litten-Learnset]]'
 Legendary: 'No'
-Name: Litten
 Number: 725
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-litten-ShuffleToken.png
-Sprite: litten.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 43
   Kilograms: 4.3
   Pounds: 9.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *It has an aloof personality and likes to be alone. Its fur produces flammable oils and its rough tongue lights them every time it grooms itself. Not recommended as a pet for they can cause house fires easily.*
 
 **DexID**:: 0725
-**Species**:: Litten
+**Name**:: Litten
 **Type**:: Fire
 **Abilities**:: [[SRD-Blaze|Blaze]] ([[SRD-Intimidate|Intimidate]])
 **Base HP**:: 3

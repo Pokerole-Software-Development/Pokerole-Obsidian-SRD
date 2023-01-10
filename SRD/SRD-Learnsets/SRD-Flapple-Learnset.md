@@ -1,5 +1,4 @@
 ---
-DexID: 0840
 Moves:
 - - Starter
   - '[[SRD-Withdraw|Withdraw]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Draco Meteor|Draco Meteor]]'
 Name: Flapple
-Species: '[[SRD-Flapple|Flapple]]'
+Pokedex: '[[SRD-Flapple|Flapple]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

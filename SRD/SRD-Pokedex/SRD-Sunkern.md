@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: Solar Power
-Baby: 'No'
 BookSprite: SRD-sunkern-BookSprite.png
 BoxSprite: SRD-sunkern-BoxSprite.png
 DexCategory: Seed Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Sunflora]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Early Bird
 HomeSprite: SRD-sunkern-HomeSprite.png
+Image: sunkern.png
 Learnset: '[[SRD-Sunkern-Learnset]]'
 Legendary: 'No'
-Name: Sunkern
 Number: 191
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-sunkern-ShuffleToken.png
-Sprite: sunkern.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 18
   Kilograms: 1.8
   Pounds: 4.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *They suddenly appear after a cold winter. They survive by drinking only dewdrops from under the leaves of plants. It tries not to move a lot since lots of bird Pokemon prey on them.*
 
 **DexID**:: 0191
-**Species**:: Sunkern
+**Name**:: Sunkern
 **Type**:: Grass
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Solar Power|Solar Power]] ([[SRD-Early Bird|Early Bird]])
 **Base HP**:: 3

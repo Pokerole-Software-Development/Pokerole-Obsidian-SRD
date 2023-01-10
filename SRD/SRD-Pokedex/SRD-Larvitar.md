@@ -1,7 +1,6 @@
 ---
 Ability1: Guts
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-larvitar-BookSprite.png
 BoxSprite: SRD-larvitar-BoxSprite.png
 DexCategory: Rock Skin Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Pupitar]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Sand Veil
 HomeSprite: SRD-larvitar-HomeSprite.png
+Image: larvitar.png
 Learnset: '[[SRD-Larvitar-Learnset]]'
 Legendary: 'No'
-Name: Larvitar
 Number: 246
-PrimaryEggGroup: Monster
-SecondaryEggGroup: ''
 ShuffleToken: SRD-larvitar-ShuffleToken.png
-Sprite: larvitar.png
 Type1: Rock
 Type2: Ground
 Weight:
-  Hectograms: 720
   Kilograms: 72.0
   Pounds: 158.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *Born deep underground, they don’t emerge until they’ve eaten a whole mountain of soil. Only the strongest and more ferocious ever come out to roam about. They hate being disturbed.*
 
 **DexID**:: 0246
-**Species**:: Larvitar
+**Name**:: Larvitar
 **Type**:: Rock / Ground
 **Abilities**:: [[SRD-Guts|Guts]] ([[SRD-Sand Veil|Sand Veil]])
 **Base HP**:: 3

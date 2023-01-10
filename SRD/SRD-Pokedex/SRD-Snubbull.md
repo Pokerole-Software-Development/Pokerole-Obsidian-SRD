@@ -1,7 +1,6 @@
 ---
 Ability1: Intimidate
 Ability2: Run Away
-Baby: 'No'
 BookSprite: SRD-snubbull-BookSprite.png
 BoxSprite: SRD-snubbull-BoxSprite.png
 DexCategory: Fairy Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Granbull]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Rattled
 HomeSprite: SRD-snubbull-HomeSprite.png
+Image: snubbull.png
 Learnset: '[[SRD-Snubbull-Learnset]]'
 Legendary: 'No'
-Name: Snubbull
 Number: 209
-PrimaryEggGroup: Field
-SecondaryEggGroup: Fairy
 ShuffleToken: SRD-snubbull-ShuffleToken.png
-Sprite: snubbull.png
 Type1: Fairy
 Type2: ''
 Weight:
-  Hectograms: 78
   Kilograms: 7.8
   Pounds: 17.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *It may look frightening but it is a loving and caring creature, active and playful. Snubbulls are easily scared. When threatened by bigger foes they run away or make scary faces, that makes them sad though.*
 
 **DexID**:: 0209
-**Species**:: Snubbull
+**Name**:: Snubbull
 **Type**:: Fairy
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Run Away|Run Away]] ([[SRD-Rattled|Rattled]])
 **Base HP**:: 3

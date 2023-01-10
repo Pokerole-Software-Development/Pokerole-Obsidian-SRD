@@ -1,7 +1,6 @@
 ---
 Ability1: Minus
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-minun-BookSprite.png
 BoxSprite: SRD-minun-BoxSprite.png
 DexCategory: Cheering Pokemon
@@ -11,25 +10,19 @@ DexDescription: "They will cheer their friends with their lives and will keep on
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Volt Absorb
 HomeSprite: SRD-minun-HomeSprite.png
+Image: minun.png
 Learnset: '[[SRD-Minun-Learnset]]'
 Legendary: 'No'
-Name: Minun
 Number: 312
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-minun-ShuffleToken.png
-Sprite: minun.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 42
   Kilograms: 4.2
   Pounds: 9.3
 ---
@@ -49,7 +42,7 @@ Weight:
 *They will cheer their friends with their lives and will keep on cheering to their last breath. If a partner is in trouble, this Pokemon will create a curtain of sparks on its friend’s side to boost its spirit.*
 
 **DexID**:: 0312
-**Species**:: Minun
+**Name**:: Minun
 **Type**:: Electric
 **Abilities**:: [[SRD-Minus|Minus]] ([[SRD-Volt Absorb|Volt Absorb]])
 **Base HP**:: 4

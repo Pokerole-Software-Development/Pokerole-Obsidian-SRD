@@ -1,5 +1,4 @@
 ---
-DexID: '0716'
 Moves:
 - - Starter
   - '[[SRD-Screech|Screech]]'
@@ -54,14 +53,14 @@ Moves:
 - - Pro
   - '[[SRD-Heat Wave|Heat Wave]]'
 Name: Noivern
-Species: '[[SRD-Noivern|Noivern]]'
+Pokedex: '[[SRD-Noivern|Noivern]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

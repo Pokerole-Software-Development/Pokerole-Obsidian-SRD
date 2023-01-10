@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-empoleon-BookSprite.png
 BoxSprite: SRD-empoleon-BoxSprite.png
 DexCategory: Emperor Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Prinplup]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 17
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: Defiant
 HomeSprite: SRD-empoleon-HomeSprite.png
+Image: empoleon.png
 Learnset: '[[SRD-Empoleon-Learnset]]'
 Legendary: 'No'
-Name: Empoleon
 Number: 395
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Field
 ShuffleToken: SRD-empoleon-ShuffleToken.png
-Sprite: empoleon.png
 Type1: Water
 Type2: Steel
 Weight:
-  Hectograms: 845
   Kilograms: 84.5
   Pounds: 186.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are regal and arrogant. Their beaks slice apart the drifting ice while swimming as fast as a jet boat. They avoid unnecessary fights, but will crush and cleave anyone that hurts or threatens its pride.*
 
 **DexID**:: 0395
-**Species**:: Empoleon
+**Name**:: Empoleon
 **Type**:: Water / Steel
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Defiant|Defiant]])
 **Base HP**:: 5

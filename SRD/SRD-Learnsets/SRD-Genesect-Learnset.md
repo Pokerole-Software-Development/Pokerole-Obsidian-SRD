@@ -1,5 +1,4 @@
 ---
-DexID: '0650'
 Moves:
 - - Master
   - '[[SRD-Fell Stinger|Fell Stinger]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Bullet Seed|Bullet Seed]]'
 Name: Genesect
-Species: '[[SRD-Genesect|Genesect]]'
+Pokedex: '[[SRD-Genesect|Genesect]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

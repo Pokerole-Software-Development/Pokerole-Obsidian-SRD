@@ -1,5 +1,4 @@
 ---
-DexID: 0583
 Moves:
 - - Starter
   - '[[SRD-Icicle Spear|Icicle Spear]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Water Pulse|Water Pulse]]'
 Name: Vanillish
-Species: '[[SRD-Vanillish|Vanillish]]'
+Pokedex: '[[SRD-Vanillish|Vanillish]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

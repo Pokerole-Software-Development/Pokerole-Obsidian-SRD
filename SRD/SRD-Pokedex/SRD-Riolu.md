@@ -1,7 +1,6 @@
 ---
 Ability1: Steadfast
 Ability2: Inner Focus
-Baby: 'Yes'
 BookSprite: SRD-riolu-BookSprite.png
 BoxSprite: SRD-riolu-BoxSprite.png
 DexCategory: Emanation Pokemon
@@ -16,25 +15,19 @@ Evolutions:
   Stat: Loyalty
   Value: 5
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Prankster
 HomeSprite: SRD-riolu-HomeSprite.png
+Image: riolu.png
 Learnset: '[[SRD-Riolu-Learnset]]'
 Legendary: 'No'
-Name: Riolu
 Number: 447
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-riolu-ShuffleToken.png
-Sprite: riolu.png
 Type1: Fighting
 Type2: ''
 Weight:
-  Hectograms: 202
   Kilograms: 20.2
   Pounds: 44.5
 ---
@@ -54,7 +47,7 @@ Weight:
 *Scarce in the wild but they have been seen in the mountains. It has the ability to see the auras of others, through this power it is capable of sensing emotions. It won’t get close to those with selfish intentions.*
 
 **DexID**:: 0447
-**Species**:: Riolu
+**Name**:: Riolu
 **Type**:: Fighting
 **Abilities**:: [[SRD-Steadfast|Steadfast]] / [[SRD-Inner Focus|Inner Focus]] ([[SRD-Prankster|Prankster]])
 **Base HP**:: 3

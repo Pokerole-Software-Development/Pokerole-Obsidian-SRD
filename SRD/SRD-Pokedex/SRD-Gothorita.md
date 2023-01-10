@@ -1,7 +1,6 @@
 ---
 Ability1: Frisk
 Ability2: Competitive
-Baby: 'No'
 BookSprite: SRD-gothorita-BookSprite.png
 BoxSprite: SRD-gothorita-BoxSprite.png
 DexCategory: Manipulate Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Gothitelle]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Shadow Tag
 HomeSprite: SRD-gothorita-HomeSprite.png
+Image: gothorita.png
 Learnset: '[[SRD-Gothorita-Learnset]]'
 Legendary: 'No'
-Name: Gothorita
 Number: 575
-PrimaryEggGroup: Human-Like
-SecondaryEggGroup: ''
 ShuffleToken: SRD-gothorita-ShuffleToken.png
-Sprite: gothorita.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 180
   Kilograms: 18.0
   Pounds: 39.7
 ---
@@ -57,7 +50,7 @@ Weight:
 *Starlight is the source of their power. At night, they mark star positions by using floating stones. According to many old tales, it creates friends for itself by controlling sleeping children on starry nights.*
 
 **DexID**:: 0575
-**Species**:: Gothorita
+**Name**:: Gothorita
 **Type**:: Psychic
 **Abilities**:: [[SRD-Frisk|Frisk]] / [[SRD-Competitive|Competitive]] ([[SRD-Shadow Tag|Shadow Tag]])
 **Base HP**:: 4

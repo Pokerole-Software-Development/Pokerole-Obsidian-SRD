@@ -1,5 +1,4 @@
 ---
-DexID: '0772'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -62,14 +61,14 @@ Moves:
 - - Pro
   - '[[SRD-Parting Shot|Parting Shot]]'
 Name: Silvally
-Species: '[[SRD-Silvally|Silvally]]'
+Pokedex: '[[SRD-Silvally|Silvally]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

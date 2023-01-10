@@ -1,7 +1,6 @@
 ---
 Ability1: Shed Skin
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-dragonair-BookSprite.png
 BoxSprite: SRD-dragonair-BoxSprite.png
 DexCategory: Dragon Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Dragonite]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 40
   Feet: 13.1
   Meters: 4.0
 HiddenAbility: Marvel Scale
 HomeSprite: SRD-dragonair-HomeSprite.png
+Image: dragonair.png
 Learnset: '[[SRD-Dragonair-Learnset]]'
 Legendary: 'No'
-Name: Dragonair
 Number: 148
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-dragonair-ShuffleToken.png
-Sprite: dragonair.png
 Type1: Dragon
 Type2: ''
 Weight:
-  Hectograms: 165
   Kilograms: 16.5
   Pounds: 36.4
 ---
@@ -57,7 +50,7 @@ Weight:
 *It is said to live in seas and lakes. Even though it has no wings, it has been depicted flying. There were legends of this Pokemon controlling the weather and ending the storms to leave a rainbow behind.*
 
 **DexID**:: 0148
-**Species**:: Dragonair
+**Name**:: Dragonair
 **Type**:: Dragon
 **Abilities**:: [[SRD-Shed Skin|Shed Skin]] ([[SRD-Marvel Scale|Marvel Scale]])
 **Base HP**:: 6

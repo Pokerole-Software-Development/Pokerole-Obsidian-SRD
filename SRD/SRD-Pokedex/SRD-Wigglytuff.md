@@ -1,7 +1,6 @@
 ---
 Ability1: Cute Charm
 Ability2: Competitive
-Baby: 'No'
 BookSprite: SRD-wigglytuff-BookSprite.png
 BoxSprite: SRD-wigglytuff-BoxSprite.png
 DexCategory: Balloon Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Jigglypuff]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Frisk
 HomeSprite: SRD-wigglytuff-HomeSprite.png
+Image: wigglytuff.png
 Learnset: '[[SRD-Wigglytuff-Learnset]]'
 Legendary: 'No'
-Name: Wigglytuff
 Number: 40
-PrimaryEggGroup: Fairy
-SecondaryEggGroup: ''
 ShuffleToken: SRD-wigglytuff-ShuffleToken.png
-Sprite: wigglytuff.png
 Type1: Normal
 Type2: Fairy
 Weight:
-  Hectograms: 120
   Kilograms: 12.0
   Pounds: 26.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *Its fur is extremely fine and conveys an image of luxury. Its body is soft and rubbery. When angered, it will suck the air and inflate itself to an enormous size. It is a favorite pet and a nurse Pokemon.*
 
 **DexID**:: 0040
-**Species**:: Wigglytuff
+**Name**:: Wigglytuff
 **Type**:: Normal / Fairy
 **Abilities**:: [[SRD-Cute Charm|Cute Charm]] / [[SRD-Competitive|Competitive]] ([[SRD-Frisk|Frisk]])
 **Base HP**:: 7

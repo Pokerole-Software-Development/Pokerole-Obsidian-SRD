@@ -1,7 +1,6 @@
 ---
 Ability1: Sturdy
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-shieldon-BookSprite.png
 BoxSprite: SRD-shieldon-BoxSprite.png
 DexCategory: Shield Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Bastiodon]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Soundproof
 HomeSprite: SRD-shieldon-HomeSprite.png
+Image: shieldon.png
 Learnset: '[[SRD-Shieldon-Learnset]]'
 Legendary: 'No'
-Name: Shieldon
 Number: 410
-PrimaryEggGroup: Monster
-SecondaryEggGroup: ''
 ShuffleToken: SRD-shieldon-ShuffleToken.png
-Sprite: shieldon.png
 Type1: Rock
 Type2: Steel
 Weight:
-  Hectograms: 570
   Kilograms: 57.0
   Pounds: 125.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *It was cloned from a fossil dug out from a layer of clay. It is outstandingly armored. As a result, it can eat grass and berries without having to fight many Pokemon who would dare to prey on it.*
 
 **DexID**:: 0410
-**Species**:: Shieldon
+**Name**:: Shieldon
 **Type**:: Rock / Steel
 **Abilities**:: [[SRD-Sturdy|Sturdy]] ([[SRD-Soundproof|Soundproof]])
 **Base HP**:: 3

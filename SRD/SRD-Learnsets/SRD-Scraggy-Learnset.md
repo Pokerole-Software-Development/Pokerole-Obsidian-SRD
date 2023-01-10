@@ -1,5 +1,4 @@
 ---
-DexID: 0559
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Fire Punch|Fire Punch]]'
 Name: Scraggy
-Species: '[[SRD-Scraggy|Scraggy]]'
+Pokedex: '[[SRD-Scraggy|Scraggy]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

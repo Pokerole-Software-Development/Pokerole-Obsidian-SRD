@@ -1,7 +1,6 @@
 ---
 Ability1: Swarm
 Ability2: Insomnia
-Baby: 'No'
 BookSprite: SRD-ariados-BookSprite.png
 BoxSprite: SRD-ariados-BoxSprite.png
 DexCategory: Long Leg Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Spinarak]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Sniper
 HomeSprite: SRD-ariados-HomeSprite.png
+Image: ariados.png
 Learnset: '[[SRD-Ariados-Learnset]]'
 Legendary: 'No'
-Name: Ariados
 Number: 168
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-ariados-ShuffleToken.png
-Sprite: ariados.png
 Type1: Bug
 Type2: Poison
 Weight:
-  Hectograms: 335
   Kilograms: 33.5
   Pounds: 73.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *This Pokemon is silent and stealthy. It comes out at night. After attaching some silk to its prey, it sets it free. Later, it tracks the silk back to the prey and its friends. It can form big colonies in caves.*
 
 **DexID**:: 0168
-**Species**:: Ariados
+**Name**:: Ariados
 **Type**:: Bug / Poison
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Insomnia|Insomnia]] ([[SRD-Sniper|Sniper]])
 **Base HP**:: 4

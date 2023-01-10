@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: Early Bird
-Baby: 'No'
 BookSprite: SRD-seedot-BookSprite.png
 BoxSprite: SRD-seedot-BoxSprite.png
 DexCategory: Acorn Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Nuzleaf]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Pickpocket
 HomeSprite: SRD-seedot-HomeSprite.png
+Image: seedot.png
 Learnset: '[[SRD-Seedot-Learnset]]'
 Legendary: 'No'
-Name: Seedot
 Number: 273
-PrimaryEggGroup: Field
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-seedot-ShuffleToken.png
-Sprite: seedot.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 40
   Kilograms: 4.0
   Pounds: 8.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *They attach to tree branches to suck moisture from them. While immobile, the young are identical to real acorns. They enjoy scaring other Pokemon, especially Pidgeys. If they fall they are at risk of being eaten.*
 
 **DexID**:: 0273
-**Species**:: Seedot
+**Name**:: Seedot
 **Type**:: Grass
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 3

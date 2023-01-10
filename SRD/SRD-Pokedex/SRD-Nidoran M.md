@@ -1,7 +1,6 @@
 ---
 Ability1: Poison Point
 Ability2: Rivalry
-Baby: 'No'
 BookSprite: SRD-nidoran-m-BookSprite.png
 BoxSprite: SRD-nidoran-m-BoxSprite.png
 DexCategory: Poison Pin Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Nidorino]]'
   Speed: Medium
 GenderType: M
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Hustle
 HomeSprite: SRD-nidoran-m-HomeSprite.png
+Image: nidoran-m.png
 Learnset: '[[SRD-Nidoran M-Learnset]]'
 Legendary: 'No'
-Name: Nidoran M
 Number: 32
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Field
 ShuffleToken: SRD-nidoran-m-ShuffleToken.png
-Sprite: nidoran-m.png
 Type1: Poison
 Type2: ''
 Weight:
-  Hectograms: 90
   Kilograms: 9.0
   Pounds: 19.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *The male Nidoran has developed a great alertness to sounds. Its small body is covered in spikes that are drenched in venom when he’s threatened. He will defend his mate and home fiercely.*
 
 **DexID**:: 0032
-**Species**:: Nidoran M
+**Name**:: Nidoran M
 **Type**:: Poison
 **Abilities**:: [[SRD-Poison Point|Poison Point]] / [[SRD-Rivalry|Rivalry]] ([[SRD-Hustle|Hustle]])
 **Base HP**:: 3

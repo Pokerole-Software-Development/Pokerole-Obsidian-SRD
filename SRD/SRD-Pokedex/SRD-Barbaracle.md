@@ -1,7 +1,6 @@
 ---
 Ability1: Sniper
 Ability2: Tough Claws
-Baby: 'No'
 BookSprite: SRD-barbaracle-BookSprite.png
 BoxSprite: SRD-barbaracle-BoxSprite.png
 DexCategory: Collective Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Binacle]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Pickpocket
 HomeSprite: SRD-barbaracle-HomeSprite.png
+Image: barbaracle.png
 Learnset: '[[SRD-Barbaracle-Learnset]]'
 Legendary: 'No'
-Name: Barbaracle
 Number: 689
-PrimaryEggGroup: Water 3
-SecondaryEggGroup: ''
 ShuffleToken: SRD-barbaracle-ShuffleToken.png
-Sprite: barbaracle.png
 Type1: Rock
 Type2: Water
 Weight:
-  Hectograms: 960
   Kilograms: 96.0
   Pounds: 211.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *When they evolve, the two Binacle multiply into seven. They all defend the rock they live in but each one has a mind of their own and will move independently - They tend to follow the head’s orders, though.*
 
 **DexID**:: 0689
-**Species**:: Barbaracle
+**Name**:: Barbaracle
 **Type**:: Rock / Water
 **Abilities**:: [[SRD-Sniper|Sniper]] / [[SRD-Tough Claws|Tough Claws]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 4

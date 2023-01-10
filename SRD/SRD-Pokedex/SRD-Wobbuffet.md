@@ -1,7 +1,6 @@
 ---
 Ability1: Shadow Tag
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-wobbuffet-BookSprite.png
 BoxSprite: SRD-wobbuffet-BoxSprite.png
 DexCategory: Patient Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Wynaut]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Telepathy
 HomeSprite: SRD-wobbuffet-HomeSprite.png
+Image: wobbuffet.png
 Learnset: '[[SRD-Wobbuffet-Learnset]]'
 Legendary: 'No'
-Name: Wobbuffet
 Number: 202
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-wobbuffet-ShuffleToken.png
-Sprite: wobbuffet.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 285
   Kilograms: 28.5
   Pounds: 62.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Wobbuffet looks somewhat deflated until it senses an aggressor, then it inflates. It will do nothing besides endure and counter attacks. It always keeps its black tail hidden, the reasons are still a mystery.*
 
 **DexID**:: 0202
-**Species**:: Wobbuffet
+**Name**:: Wobbuffet
 **Type**:: Psychic
 **Abilities**:: [[SRD-Shadow Tag|Shadow Tag]] ([[SRD-Telepathy|Telepathy]])
 **Base HP**:: 9

@@ -1,7 +1,6 @@
 ---
 Ability1: Speed Boost
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-ninjask-BookSprite.png
 BoxSprite: SRD-ninjask-BoxSprite.png
 DexCategory: Ninja Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Nincada]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 8
   Feet: 2.6
   Meters: 0.8
 HiddenAbility: Infiltrator
 HomeSprite: SRD-ninjask-HomeSprite.png
+Image: ninjask.png
 Learnset: '[[SRD-Ninjask-Learnset]]'
 Legendary: 'No'
-Name: Ninjask
 Number: 291
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-ninjask-ShuffleToken.png
-Sprite: ninjask.png
 Type1: Bug
 Type2: Flying
 Weight:
-  Hectograms: 120
   Kilograms: 12.0
   Pounds: 26.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *Due to their speed and stealthiness, this Pokemon was believed to be invisible. They refuse to obey people and cry continuously if forced. People burn their cocoons as they are said to be cursed.*
 
 **DexID**:: 0291
-**Species**:: Ninjask
+**Name**:: Ninjask
 **Type**:: Bug / Flying
 **Abilities**:: [[SRD-Speed Boost|Speed Boost]] ([[SRD-Infiltrator|Infiltrator]])
 **Base HP**:: 4

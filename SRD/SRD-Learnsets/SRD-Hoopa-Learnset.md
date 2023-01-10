@@ -1,5 +1,4 @@
 ---
-DexID: 0719M1
 Moves:
 - - Master
   - '[[SRD-Trick|Trick]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Confide|Confide]]'
 Name: Hoopa
-Species: '[[SRD-Hoopa|Hoopa]]'
+Pokedex: '[[SRD-Hoopa|Hoopa]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Insomnia
 Ability2: Keen Eye
-Baby: 'No'
 BookSprite: SRD-noctowl-BookSprite.png
 BoxSprite: SRD-noctowl-BoxSprite.png
 DexCategory: Owl Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Hoothoot]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 16
   Feet: 5.2
   Meters: 1.6
 HiddenAbility: Tinted Lens
 HomeSprite: SRD-noctowl-HomeSprite.png
+Image: noctowl.png
 Learnset: '[[SRD-Noctowl-Learnset]]'
 Legendary: 'No'
-Name: Noctowl
 Number: 164
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-noctowl-ShuffleToken.png
-Sprite: noctowl.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 408
   Kilograms: 40.8
   Pounds: 89.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *It can hunt in full darkness without fail. All Noctowls owe their success to their superior vision - that allows them to see in minimal light, and to their agile and silent wings. They are very intelligent and critic Pokemon.*
 
 **DexID**:: 0164
-**Species**:: Noctowl
+**Name**:: Noctowl
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Insomnia|Insomnia]] / [[SRD-Keen Eye|Keen Eye]] ([[SRD-Tinted Lens|Tinted Lens]])
 **Base HP**:: 5

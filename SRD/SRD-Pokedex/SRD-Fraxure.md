@@ -1,7 +1,6 @@
 ---
 Ability1: Rivalry
 Ability2: Mold Breaker
-Baby: 'No'
 BookSprite: SRD-fraxure-BookSprite.png
 BoxSprite: SRD-fraxure-BoxSprite.png
 DexCategory: Axe Jaw Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Pokemon: '[[SRD-Haxorus]]'
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Unnerve
 HomeSprite: SRD-fraxure-HomeSprite.png
+Image: fraxure.png
 Learnset: '[[SRD-Fraxure-Learnset]]'
 Legendary: 'No'
-Name: Fraxure
 Number: 611
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-fraxure-ShuffleToken.png
-Sprite: fraxure.png
 Type1: Dragon
 Type2: ''
 Weight:
-  Hectograms: 360
   Kilograms: 36.0
   Pounds: 79.4
 ---
@@ -57,7 +50,7 @@ Weight:
 *Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent. The tusks don’t grow back anymore, if you find a Fraxure with both tusks whole, it means it’s one of the strongest.*
 
 **DexID**:: 0611
-**Species**:: Fraxure
+**Name**:: Fraxure
 **Type**:: Dragon
 **Abilities**:: [[SRD-Rivalry|Rivalry]] / [[SRD-Mold Breaker|Mold Breaker]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 4

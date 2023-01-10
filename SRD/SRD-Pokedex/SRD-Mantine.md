@@ -1,7 +1,6 @@
 ---
 Ability1: Swift Swim
 Ability2: Water Absorb
-Baby: 'No'
 BookSprite: SRD-mantine-BookSprite.png
 BoxSprite: SRD-mantine-BoxSprite.png
 DexCategory: Kite Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Mantyke]]'
   Special: Hit by Remoraid
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 21
   Feet: 6.9
   Meters: 2.1
 HiddenAbility: Water Veil
 HomeSprite: SRD-mantine-HomeSprite.png
+Image: mantine.png
 Learnset: '[[SRD-Mantine-Learnset]]'
 Legendary: 'No'
-Name: Mantine
 Number: 226
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: ''
 ShuffleToken: SRD-mantine-ShuffleToken.png
-Sprite: mantine.png
 Type1: Water
 Type2: Flying
 Weight:
-  Hectograms: 2200
   Kilograms: 220.0
   Pounds: 485.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *Mantine swims under water and over the waves, gliding for 300 ft in the air. They are intelligent and docile, traveling elegantly in groups. Remoraids can be seen hanging from their fins from time to time.*
 
 **DexID**:: 0226
-**Species**:: Mantine
+**Name**:: Mantine
 **Type**:: Water / Flying
 **Abilities**:: [[SRD-Swift Swim|Swift Swim]] / [[SRD-Water Absorb|Water Absorb]] ([[SRD-Water Veil|Water Veil]])
 **Base HP**:: 4

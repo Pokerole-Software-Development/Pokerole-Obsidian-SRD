@@ -1,5 +1,4 @@
 ---
-DexID: 0087
 Moves:
 - - Starter
   - '[[SRD-Signal Beam|Signal Beam]]'
@@ -52,14 +51,14 @@ Moves:
 - - Pro
   - '[[SRD-Horn Drill|Horn Drill]]'
 Name: Dewgong
-Species: '[[SRD-Dewgong|Dewgong]]'
+Pokedex: '[[SRD-Dewgong|Dewgong]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

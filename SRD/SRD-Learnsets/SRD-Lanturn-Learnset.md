@@ -1,5 +1,4 @@
 ---
-DexID: '0171'
 Moves:
 - - Starter
   - '[[SRD-Supersonic|Supersonic]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Psybeam|Psybeam]]'
 Name: Lanturn
-Species: '[[SRD-Lanturn|Lanturn]]'
+Pokedex: '[[SRD-Lanturn|Lanturn]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

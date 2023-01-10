@@ -1,5 +1,4 @@
 ---
-DexID: 0292
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-X-Scissor|X-Scissor]]'
 Name: Shedinja
-Species: '[[SRD-Shedinja|Shedinja]]'
+Pokedex: '[[SRD-Shedinja|Shedinja]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

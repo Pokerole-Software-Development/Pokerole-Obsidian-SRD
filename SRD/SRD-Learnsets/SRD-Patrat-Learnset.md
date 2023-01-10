@@ -1,5 +1,4 @@
 ---
-DexID: '0504'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Aqua Tail|Aqua Tail]]'
 Name: Patrat
-Species: '[[SRD-Patrat|Patrat]]'
+Pokedex: '[[SRD-Patrat|Patrat]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

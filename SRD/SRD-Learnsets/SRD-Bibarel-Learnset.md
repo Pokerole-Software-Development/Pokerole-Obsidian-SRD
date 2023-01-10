@@ -1,5 +1,4 @@
 ---
-DexID: '0400'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Focus Punch|Focus Punch]]'
 Name: Bibarel
-Species: '[[SRD-Bibarel|Bibarel]]'
+Pokedex: '[[SRD-Bibarel|Bibarel]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

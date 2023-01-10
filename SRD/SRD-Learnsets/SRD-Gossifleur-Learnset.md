@@ -1,5 +1,4 @@
 ---
-DexID: 0828
 Moves:
 - - Starter
   - '[[SRD-Leafage|Leafage]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Poison Powder|Poison Powder]]'
 Name: Gossifleur
-Species: '[[SRD-Gossifleur|Gossifleur]]'
+Pokedex: '[[SRD-Gossifleur|Gossifleur]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

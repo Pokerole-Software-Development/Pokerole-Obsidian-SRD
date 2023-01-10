@@ -1,5 +1,4 @@
 ---
-DexID: 0865
 Moves:
 - - Starter
   - '[[SRD-Slack Off|Slack Off]]'
@@ -64,14 +63,14 @@ Moves:
 - - Ace
   - '[[SRD-Teeter Dance|Teeter Dance]]'
 Name: Mr. Rime
-Species: '[[SRD-Mr. Rime|Mr. Rime]]'
+Pokedex: '[[SRD-Mr. Rime|Mr. Rime]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

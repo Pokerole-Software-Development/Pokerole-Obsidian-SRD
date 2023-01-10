@@ -1,7 +1,6 @@
 ---
 Ability1: Strong Jaw
 Ability2: Shell Armor
-Baby: 'No'
 BookSprite: SRD-chewtle-BookSprite.png
 BoxSprite: SRD-chewtle-BoxSprite.png
 DexCategory: Snapping Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Drednaw]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Swift Swim
 HomeSprite: SRD-chewtle-HomeSprite.png
+Image: chewtle.png
 Learnset: '[[SRD-Chewtle-Learnset]]'
 Legendary: 'No'
-Name: Chewtle
 Number: 833
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Water 1
 ShuffleToken: SRD-chewtle-ShuffleToken.png
-Sprite: chewtle.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 85
   Kilograms: 8.5
   Pounds: 18.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *It uses its horn as its primary weapon, but it has a reputation as a biter. Apparently its gums are itchy and the only way to soothe them is biting and chewing on stuff. It is kinda cranky but relatively harmless.*
 
 **DexID**:: 0833
-**Species**:: Chewtle
+**Name**:: Chewtle
 **Type**:: Water
 **Abilities**:: [[SRD-Strong Jaw|Strong Jaw]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 3

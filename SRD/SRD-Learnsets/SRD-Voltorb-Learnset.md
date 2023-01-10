@@ -1,5 +1,4 @@
 ---
-DexID: '0100'
 Moves:
 - - Starter
   - '[[SRD-Charge|Charge]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Foul Play|Foul Play]]'
 Name: Voltorb
-Species: '[[SRD-Voltorb|Voltorb]]'
+Pokedex: '[[SRD-Voltorb|Voltorb]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

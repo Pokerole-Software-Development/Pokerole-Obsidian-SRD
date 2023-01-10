@@ -1,5 +1,4 @@
 ---
-DexID: '0133'
 Moves:
 - - Starter
   - '[[SRD-Helping Hand|Helping Hand]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Fake Tears|Fake Tears]]'
 Name: Eevee
-Species: '[[SRD-Eevee|Eevee]]'
+Pokedex: '[[SRD-Eevee|Eevee]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

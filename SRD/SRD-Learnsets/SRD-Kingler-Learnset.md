@@ -1,5 +1,4 @@
 ---
-DexID: 0099
 Moves:
 - - Starter
   - '[[SRD-Mud Sport|Mud Sport]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Mimic|Mimic]]'
 Name: Kingler
-Species: '[[SRD-Kingler|Kingler]]'
+Pokedex: '[[SRD-Kingler|Kingler]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

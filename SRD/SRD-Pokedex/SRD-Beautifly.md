@@ -1,7 +1,6 @@
 ---
 Ability1: Swarm
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-beautifly-BookSprite.png
 BoxSprite: SRD-beautifly-BoxSprite.png
 DexCategory: Butterfly Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Silcoon]]'
   Speed: Fast
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Rivalry
 HomeSprite: SRD-beautifly-HomeSprite.png
+Image: beautifly.png
 Learnset: '[[SRD-Beautifly-Learnset]]'
 Legendary: 'No'
-Name: Beautifly
 Number: 267
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-beautifly-ShuffleToken.png
-Sprite: beautifly.png
 Type1: Bug
 Type2: Flying
 Weight:
-  Hectograms: 284
   Kilograms: 28.4
   Pounds: 62.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *They can’t resist the pollen of flowers, if you leave one in the window, a Beautifly is sure to come. Despite their appearance, they are aggressive, they drain living creatures of their fluids just as they do with flowers.*
 
 **DexID**:: 0267
-**Species**:: Beautifly
+**Name**:: Beautifly
 **Type**:: Bug / Flying
 **Abilities**:: [[SRD-Swarm|Swarm]] ([[SRD-Rivalry|Rivalry]])
 **Base HP**:: 5

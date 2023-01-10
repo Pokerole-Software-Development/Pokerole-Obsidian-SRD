@@ -1,5 +1,4 @@
 ---
-DexID: 0249
 Moves:
 - - Master
   - '[[SRD-Gust|Gust]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Dive|Dive]]'
 Name: Lugia
-Species: '[[SRD-Lugia|Lugia]]'
+Pokedex: '[[SRD-Lugia|Lugia]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

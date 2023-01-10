@@ -1,5 +1,4 @@
 ---
-DexID: '0433'
 Moves:
 - - Starter
   - '[[SRD-Wrap|Wrap]]'
@@ -32,14 +31,14 @@ Moves:
 - - Pro
   - '[[SRD-Future Sight|Future Sight]]'
 Name: Chingling
-Species: '[[SRD-Chingling|Chingling]]'
+Pokedex: '[[SRD-Chingling|Chingling]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

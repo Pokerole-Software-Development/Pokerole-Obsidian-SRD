@@ -1,5 +1,4 @@
 ---
-DexID: '0144'
 Moves:
 - - Master
   - '[[SRD-Gust|Gust]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Fly|Fly]]'
 Name: Articuno
-Species: '[[SRD-Articuno|Articuno]]'
+Pokedex: '[[SRD-Articuno|Articuno]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0837
 Moves:
 - - Starter
   - '[[SRD-Electrify|Electrify]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Thunder Fang|Thunder Fang]]'
 Name: Boltund
-Species: '[[SRD-Boltund|Boltund]]'
+Pokedex: '[[SRD-Boltund|Boltund]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

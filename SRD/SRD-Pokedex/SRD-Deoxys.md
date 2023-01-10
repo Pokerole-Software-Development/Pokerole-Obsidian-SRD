@@ -1,7 +1,6 @@
 ---
 Ability1: Pressure
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-deoxys-BookSprite.png
 BoxSprite: SRD-deoxys-BoxSprite.png
 DexCategory: No Data
@@ -12,33 +11,27 @@ EventAbilities: ''
 Evolutions:
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Attack Deoxys]]'
+  Pokemon: '[[SRD-Deoxys (Attack Form)]]'
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Defense Deoxys]]'
+  Pokemon: '[[SRD-Deoxys (Defense Form)]]'
 - Evolves: To
   Kind: Form
-  Pokemon: '[[SRD-Speed Deoxys]]'
+  Pokemon: '[[SRD-Deoxys (Speed Form)]]'
 GenderType: N
-HasForm: 'Yes'
 Height:
-  Deimeters: 17
   Feet: 5.6
   Meters: 1.7
 HiddenAbility: ''
 HomeSprite: SRD-deoxys-HomeSprite.png
+Image: deoxys.png
 Learnset: '[[SRD-Deoxys-Learnset]]'
 Legendary: 'Yes'
-Name: Deoxys
 Number: 386
-PrimaryEggGroup: Undiscovered
-SecondaryEggGroup: ''
 ShuffleToken: SRD-deoxys-ShuffleToken.png
-Sprite: deoxys.png
 Type1: Psychic
 Type2: ''
 Weight:
-  Hectograms: 608
   Kilograms: 60.8
   Pounds: 134.0
 ---
@@ -58,7 +51,7 @@ Weight:
 *A space expedition had to be aborted due to an emergency. The ship’s crew mentioned a creature attacking them inside their ship. They all gave different descriptions of said creature.*
 
 **DexID**:: 0386
-**Species**:: Deoxys
+**Name**:: Deoxys
 **Type**:: Psychic
 **Abilities**:: [[SRD-Pressure|Pressure]]
 **Base HP**:: 4
@@ -76,10 +69,10 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-| Evolves   | Pokemon                | Kind   |
-|:----------|:-----------------------|:-------|
-| To        | [[SRD-Attack Deoxys]]  | Form   |
-| To        | [[SRD-Defense Deoxys]] | Form   |
-| To        | [[SRD-Speed Deoxys]]   | Form   |
+| Evolves   | Pokemon                       | Kind   |
+|:----------|:------------------------------|:-------|
+| To        | [[SRD-Deoxys (Attack Form)]]  | Form   |
+| To        | [[SRD-Deoxys (Defense Form)]] | Form   |
+| To        | [[SRD-Deoxys (Speed Form)]]   | Form   |
 
 ![[SRD-Deoxys-Learnset]]

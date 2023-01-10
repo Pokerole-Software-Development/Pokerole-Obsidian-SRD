@@ -1,5 +1,4 @@
 ---
-DexID: '0002'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Grass Pledge|Grass Pledge]]'
 Name: Ivysaur
-Species: '[[SRD-Ivysaur|Ivysaur]]'
+Pokedex: '[[SRD-Ivysaur|Ivysaur]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

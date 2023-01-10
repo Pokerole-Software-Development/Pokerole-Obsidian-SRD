@@ -1,7 +1,6 @@
 ---
 Ability1: Water Bubble
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-araquanid-BookSprite.png
 BoxSprite: SRD-araquanid-BoxSprite.png
 DexCategory: Water Bubble Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Dewpider]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 18
   Feet: 5.9
   Meters: 1.8
 HiddenAbility: Water Absorb
 HomeSprite: SRD-araquanid-HomeSprite.png
+Image: araquanid.png
 Learnset: '[[SRD-Araquanid-Learnset]]'
 Legendary: 'No'
-Name: Araquanid
 Number: 752
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Bug
 ShuffleToken: SRD-araquanid-ShuffleToken.png
-Sprite: araquanid.png
 Type1: Water
 Type2: Bug
 Weight:
-  Hectograms: 820
   Kilograms: 82.0
   Pounds: 180.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *It’s debated whether this is a caring or cruel Pokemon. It looks around for any vulnerable or weak pokemon, tenderly carries them and deposits them into its water bubble where they end up drowning.*
 
 **DexID**:: 0752
-**Species**:: Araquanid
+**Name**:: Araquanid
 **Type**:: Water / Bug
 **Abilities**:: [[SRD-Water Bubble|Water Bubble]] ([[SRD-Water Absorb|Water Absorb]])
 **Base HP**:: 4

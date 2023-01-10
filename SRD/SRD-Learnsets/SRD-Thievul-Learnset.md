@@ -1,5 +1,4 @@
 ---
-DexID: 0829
 Moves:
 - - Beginner
   - '[[SRD-Thief|Thief]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Acrobatics|Acrobatics]]'
 Name: Thievul
-Species: '[[SRD-Thievul|Thievul]]'
+Pokedex: '[[SRD-Thievul|Thievul]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

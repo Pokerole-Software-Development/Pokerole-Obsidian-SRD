@@ -1,7 +1,6 @@
 ---
 Ability1: Oblivious
 Ability2: Anticipation
-Baby: 'No'
 BookSprite: SRD-barboach-BookSprite.png
 BoxSprite: SRD-barboach-BoxSprite.png
 DexCategory: Whiskers Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Whiscash]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Hydration
 HomeSprite: SRD-barboach-HomeSprite.png
+Image: barboach.png
 Learnset: '[[SRD-Barboach-Learnset]]'
 Legendary: 'No'
-Name: Barboach
 Number: 339
-PrimaryEggGroup: Water 2
-SecondaryEggGroup: ''
 ShuffleToken: SRD-barboach-ShuffleToken.png
-Sprite: barboach.png
 Type1: Water
 Type2: Ground
 Weight:
-  Hectograms: 19
   Kilograms: 1.9
   Pounds: 4.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *Their whiskers work as a super sensitive radar. They hide in the mud with only their whiskers exposed, waiting for prey to come. If the mud dries, they move back into the water.*
 
 **DexID**:: 0339
-**Species**:: Barboach
+**Name**:: Barboach
 **Type**:: Water / Ground
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Anticipation|Anticipation]] ([[SRD-Hydration|Hydration]])
 **Base HP**:: 3

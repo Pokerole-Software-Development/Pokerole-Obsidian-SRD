@@ -1,5 +1,4 @@
 ---
-DexID: 0886
 Moves:
 - - Starter
   - '[[SRD-Astonish|Astonish]]'
@@ -22,14 +21,14 @@ Moves:
 - - Pro
   - '[[SRD-Double Team|Double Team]]'
 Name: Dreepy
-Species: '[[SRD-Dreepy|Dreepy]]'
+Pokedex: '[[SRD-Dreepy|Dreepy]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

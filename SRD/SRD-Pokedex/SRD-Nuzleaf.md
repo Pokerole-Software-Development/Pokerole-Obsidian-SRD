@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: Early Bird
-Baby: 'No'
 BookSprite: SRD-nuzleaf-BookSprite.png
 BoxSprite: SRD-nuzleaf-BoxSprite.png
 DexCategory: Wily Pokemon
@@ -19,25 +18,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Shiftry]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Pickpocket
 HomeSprite: SRD-nuzleaf-HomeSprite.png
+Image: nuzleaf.png
 Learnset: '[[SRD-Nuzleaf-Learnset]]'
 Legendary: 'No'
-Name: Nuzleaf
 Number: 274
-PrimaryEggGroup: Field
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-nuzleaf-ShuffleToken.png
-Sprite: nuzleaf.png
 Type1: Grass
 Type2: Dark
 Weight:
-  Hectograms: 280
   Kilograms: 28.0
   Pounds: 61.7
 ---
@@ -57,7 +50,7 @@ Weight:
 *They live inside holes on big trees. Their leaves are played like flutes to strike fear and discomfort in lost people’s hearts. They like to go out and startle people. Their noses are really sensitive and frail.*
 
 **DexID**:: 0274
-**Species**:: Nuzleaf
+**Name**:: Nuzleaf
 **Type**:: Grass / Dark
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] / [[SRD-Early Bird|Early Bird]] ([[SRD-Pickpocket|Pickpocket]])
 **Base HP**:: 4

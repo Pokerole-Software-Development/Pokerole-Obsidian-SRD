@@ -1,7 +1,6 @@
 ---
 Ability1: Rivalry
 Ability2: Unnerve
-Baby: 'No'
 BookSprite: SRD-pyroar-BookSprite.png
 BoxSprite: SRD-pyroar-BoxSprite.png
 DexCategory: Royal Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Litleo]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Moxie
 HomeSprite: SRD-pyroar-HomeSprite.png
+Image: pyroar.png
 Learnset: '[[SRD-Pyroar-Learnset]]'
 Legendary: 'No'
-Name: Pyroar
 Number: 668
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-pyroar-ShuffleToken.png
-Sprite: pyroar.png
 Type1: Fire
 Type2: Normal
 Weight:
-  Hectograms: 815
   Kilograms: 81.5
   Pounds: 179.7
 ---
@@ -53,7 +46,7 @@ Weight:
 *The male with the largest fire mane is the leader of the pride. The females have a long mane strip. Whenever they roar they also let out a fiery breath. Not many Pokemon dare to mess with them.*
 
 **DexID**:: 0668
-**Species**:: Pyroar
+**Name**:: Pyroar
 **Type**:: Fire / Normal
 **Abilities**:: [[SRD-Rivalry|Rivalry]] / [[SRD-Unnerve|Unnerve]] ([[SRD-Moxie|Moxie]])
 **Base HP**:: 5

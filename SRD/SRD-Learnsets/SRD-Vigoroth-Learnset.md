@@ -1,5 +1,4 @@
 ---
-DexID: 0288
 Moves:
 - - Starter
   - '[[SRD-Scratch|Scratch]]'
@@ -38,14 +37,14 @@ Moves:
 - - Pro
   - '[[SRD-Night Slash|Night Slash]]'
 Name: Vigoroth
-Species: '[[SRD-Vigoroth|Vigoroth]]'
+Pokedex: '[[SRD-Vigoroth|Vigoroth]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

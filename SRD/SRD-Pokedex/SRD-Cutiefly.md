@@ -1,7 +1,6 @@
 ---
 Ability1: Honey Gather
 Ability2: Shield Dust
-Baby: 'No'
 BookSprite: SRD-cutiefly-BookSprite.png
 BoxSprite: SRD-cutiefly-BoxSprite.png
 DexCategory: Bee Fly Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Ribombee]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 1
   Feet: 0.3
   Meters: 0.1
 HiddenAbility: Sweet Veil
 HomeSprite: SRD-cutiefly-HomeSprite.png
+Image: cutiefly.png
 Learnset: '[[SRD-Cutiefly-Learnset]]'
 Legendary: 'No'
-Name: Cutiefly
 Number: 742
-PrimaryEggGroup: Bug
-SecondaryEggGroup: Fairy
 ShuffleToken: SRD-cutiefly-ShuffleToken.png
-Sprite: cutiefly.png
 Type1: Bug
 Type2: Fairy
 Weight:
-  Hectograms: 2
   Kilograms: 0.2
   Pounds: 0.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *These delicate Pokemon gather by the numbers in flower meadows. They are attracted to happy and joyful people, the story says that Cutiefly see their auras and they resemble flowers.*
 
 **DexID**:: 0742
-**Species**:: Cutiefly
+**Name**:: Cutiefly
 **Type**:: Bug / Fairy
 **Abilities**:: [[SRD-Honey Gather|Honey Gather]] / [[SRD-Shield Dust|Shield Dust]] ([[SRD-Sweet Veil|Sweet Veil]])
 **Base HP**:: 3

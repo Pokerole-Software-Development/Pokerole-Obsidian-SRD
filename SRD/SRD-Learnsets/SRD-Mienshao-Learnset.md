@@ -1,5 +1,4 @@
 ---
-DexID: '0621'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Endure|Endure]]'
 Name: Mienshao
-Species: '[[SRD-Mienshao|Mienshao]]'
+Pokedex: '[[SRD-Mienshao|Mienshao]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

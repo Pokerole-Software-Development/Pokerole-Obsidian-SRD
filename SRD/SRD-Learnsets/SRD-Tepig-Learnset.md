@@ -1,5 +1,4 @@
 ---
-DexID: 0498
 Moves:
 - - Starter
   - '[[SRD-Tail Whip|Tail Whip]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Sucker Punch|Sucker Punch]]'
 Name: Tepig
-Species: '[[SRD-Tepig|Tepig]]'
+Pokedex: '[[SRD-Tepig|Tepig]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

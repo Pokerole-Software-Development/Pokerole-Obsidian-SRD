@@ -1,7 +1,6 @@
 ---
 Ability1: Limber
 Ability2: Technician
-Baby: 'No'
 BookSprite: SRD-persian-BookSprite.png
 BoxSprite: SRD-persian-BoxSprite.png
 DexCategory: Classy Cat Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Meowth]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Unnerve
 HomeSprite: SRD-persian-HomeSprite.png
+Image: persian.png
 Learnset: '[[SRD-Persian-Learnset]]'
 Legendary: 'No'
-Name: Persian
 Number: 53
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-persian-ShuffleToken.png
-Sprite: persian.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 320
   Kilograms: 32.0
   Pounds: 70.5
 ---
@@ -53,7 +46,7 @@ Weight:
 *They are proud and temperamental. They scratch their trainers with little to no provocation whatsoever. Their elegance and grace is very valued, although they can be vicious hunters.*
 
 **DexID**:: 0053
-**Species**:: Persian
+**Name**:: Persian
 **Type**:: Normal
 **Abilities**:: [[SRD-Limber|Limber]] / [[SRD-Technician|Technician]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 4

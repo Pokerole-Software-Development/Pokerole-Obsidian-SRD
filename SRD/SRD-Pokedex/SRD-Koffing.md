@@ -1,7 +1,6 @@
 ---
 Ability1: Levitate
 Ability2: Neutralizing Gas
-Baby: 'No'
 BookSprite: SRD-koffing-BookSprite.png
 BoxSprite: SRD-koffing-BoxSprite.png
 DexCategory: Poison Gas Pokemon
@@ -16,29 +15,23 @@ Evolutions:
   Speed: Slow
 - Evolves: To
   Kind: Level
-  Pokemon: '[[SRD-Galarian Weezing]]'
+  Pokemon: '[[SRD-Weezing (Galarian Form)]]'
   Region: Galar
   Speed: Slow
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 6
   Feet: 2.0
   Meters: 0.6
 HiddenAbility: Stench
 HomeSprite: SRD-koffing-HomeSprite.png
+Image: koffing.png
 Learnset: '[[SRD-Koffing-Learnset]]'
 Legendary: 'No'
-Name: Koffing
 Number: 109
-PrimaryEggGroup: Amorphous
-SecondaryEggGroup: ''
 ShuffleToken: SRD-koffing-ShuffleToken.png
-Sprite: koffing.png
 Type1: Poison
 Type2: ''
 Weight:
-  Hectograms: 10
   Kilograms: 1.0
   Pounds: 2.2
 ---
@@ -58,7 +51,7 @@ Weight:
 *It is drawn to the smog and fumes of the cities. It fills its body with toxic gases to float like a balloon. When it gets nervous it releases a sickly green gas. Breathing this gas will give you a bad case of sniffles.*
 
 **DexID**:: 0109
-**Species**:: Koffing
+**Name**:: Koffing
 **Type**:: Poison
 **Abilities**:: [[SRD-Levitate|Levitate]] / [[SRD-Neutralizing Gas|Neutralizing Gas]] ([[SRD-Stench|Stench]])
 **Base HP**:: 3
@@ -76,9 +69,9 @@ Weight:
 **Good Starter**:: Yes
 **Recommended Rank**:: Beginner
 
-| Evolves   | Pokemon                  | Kind   | Speed   | Region   |
-|:----------|:-------------------------|:-------|:--------|:---------|
-| To        | [[SRD-Weezing]]          | Level  | Slow    |          |
-| To        | [[SRD-Galarian Weezing]] | Level  | Slow    | Galar    |
+| Evolves   | Pokemon                         | Kind   | Speed   | Region   |
+|:----------|:--------------------------------|:-------|:--------|:---------|
+| To        | [[SRD-Weezing]]                 | Level  | Slow    |          |
+| To        | [[SRD-Weezing (Galarian Form)]] | Level  | Slow    | Galar    |
 
 ![[SRD-Koffing-Learnset]]

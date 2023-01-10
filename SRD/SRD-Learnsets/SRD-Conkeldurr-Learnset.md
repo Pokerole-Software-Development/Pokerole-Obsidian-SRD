@@ -1,5 +1,4 @@
 ---
-DexID: '0534'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Wide Guard|Wide Guard]]'
 Name: Conkeldurr
-Species: '[[SRD-Conkeldurr|Conkeldurr]]'
+Pokedex: '[[SRD-Conkeldurr|Conkeldurr]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

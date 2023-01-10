@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: Unnerve
-Baby: 'No'
 BookSprite: SRD-rookidee-BookSprite.png
 BoxSprite: SRD-rookidee-BoxSprite.png
 DexCategory: Tiny Bird Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Corvisquire]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 2
   Feet: 0.7
   Meters: 0.2
 HiddenAbility: Big Pecks
 HomeSprite: SRD-rookidee-HomeSprite.png
+Image: rookidee.png
 Learnset: '[[SRD-Rookidee-Learnset]]'
 Legendary: 'No'
-Name: Rookidee
 Number: 821
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-rookidee-ShuffleToken.png
-Sprite: rookidee.png
 Type1: Flying
 Type2: ''
 Weight:
-  Hectograms: 18
   Kilograms: 1.8
   Pounds: 4.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *Feisty little creatures, Rookidee are know for challenging foes much larger than themselves, and even if they are defeated they don’t give up and try again later. They use their small size as an advantage.*
 
 **DexID**:: 0821
-**Species**:: Rookidee
+**Name**:: Rookidee
 **Type**:: Flying
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] / [[SRD-Unnerve|Unnerve]] ([[SRD-Big Pecks|Big Pecks]])
 **Base HP**:: 3

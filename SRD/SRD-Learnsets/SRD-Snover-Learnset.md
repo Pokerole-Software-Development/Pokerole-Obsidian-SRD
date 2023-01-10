@@ -1,5 +1,4 @@
 ---
-DexID: 0459
 Moves:
 - - Starter
   - '[[SRD-Powder Snow|Powder Snow]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Water Pulse|Water Pulse]]'
 Name: Snover
-Species: '[[SRD-Snover|Snover]]'
+Pokedex: '[[SRD-Snover|Snover]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0768
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Swallow|Swallow]]'
 Name: Sandygast
-Species: '[[SRD-Sandygast|Sandygast]]'
+Pokedex: '[[SRD-Sandygast|Sandygast]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

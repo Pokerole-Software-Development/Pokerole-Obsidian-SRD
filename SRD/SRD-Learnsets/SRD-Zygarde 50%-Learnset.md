@@ -1,5 +1,4 @@
 ---
-DexID: 0718F1
 Moves:
 - - Master
   - '[[SRD-Glare|Glare]]'
@@ -46,14 +45,14 @@ Moves:
 - - Master
   - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
 Name: Zygarde 50%
-Species: '[[SRD-Zygarde 50%|Zygarde 50%]]'
+Pokedex: '[[SRD-Zygarde 50%|Zygarde 50%]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

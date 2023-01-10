@@ -1,5 +1,4 @@
 ---
-DexID: '0755'
 Moves:
 - - Starter
   - '[[SRD-Fury Cutter|Fury Cutter]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Brick Break|Brick Break]]'
 Name: Lurantis
-Species: '[[SRD-Lurantis|Lurantis]]'
+Pokedex: '[[SRD-Lurantis|Lurantis]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

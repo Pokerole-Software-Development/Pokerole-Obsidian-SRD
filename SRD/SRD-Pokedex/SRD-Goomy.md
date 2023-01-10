@@ -1,7 +1,6 @@
 ---
 Ability1: Sap Sipper
 Ability2: Hydration
-Baby: 'No'
 BookSprite: SRD-goomy-BookSprite.png
 BoxSprite: SRD-goomy-BoxSprite.png
 DexCategory: Soft Tissue Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Sliggoo]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Gooey
 HomeSprite: SRD-goomy-HomeSprite.png
+Image: goomy.png
 Learnset: '[[SRD-Goomy-Learnset]]'
 Legendary: 'No'
-Name: Goomy
 Number: 704
-PrimaryEggGroup: Dragon
-SecondaryEggGroup: ''
 ShuffleToken: SRD-goomy-ShuffleToken.png
-Sprite: goomy.png
 Type1: Dragon
 Type2: ''
 Weight:
-  Hectograms: 28
   Kilograms: 2.8
   Pounds: 6.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *The weakest but best tempered Dragon Pokemon known. It lives in damp and shady places, so its body doesn’t dry out. It’s covered in a slimy membrane that makes things slide off of it.*
 
 **DexID**:: 0704
-**Species**:: Goomy
+**Name**:: Goomy
 **Type**:: Dragon
 **Abilities**:: [[SRD-Sap Sipper|Sap Sipper]] / [[SRD-Hydration|Hydration]] ([[SRD-Gooey|Gooey]])
 **Base HP**:: 3

@@ -1,7 +1,6 @@
 ---
 Ability1: Battle Armor
 Ability2: Sniper
-Baby: 'No'
 BookSprite: SRD-drapion-BookSprite.png
 BoxSprite: SRD-drapion-BoxSprite.png
 DexCategory: Ogre Scorp Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Skorupi]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Keen Eye
 HomeSprite: SRD-drapion-HomeSprite.png
+Image: drapion.png
 Learnset: '[[SRD-Drapion-Learnset]]'
 Legendary: 'No'
-Name: Drapion
 Number: 452
-PrimaryEggGroup: Bug
-SecondaryEggGroup: Water 3
 ShuffleToken: SRD-drapion-ShuffleToken.png
-Sprite: drapion.png
 Type1: Poison
 Type2: Dark
 Weight:
-  Hectograms: 615
   Kilograms: 61.5
   Pounds: 135.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *This Pokemon is very aggressive. It can completely rotate its head over its body, because of this, Drapion has no blind spots. Its venom is deadly and it won’t hesitate to use it.*
 
 **DexID**:: 0452
-**Species**:: Drapion
+**Name**:: Drapion
 **Type**:: Poison / Dark
 **Abilities**:: [[SRD-Battle Armor|Battle Armor]] / [[SRD-Sniper|Sniper]] ([[SRD-Keen Eye|Keen Eye]])
 **Base HP**:: 4

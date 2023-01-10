@@ -1,7 +1,6 @@
 ---
 Ability1: Early Bird
 Ability2: Scrappy
-Baby: 'No'
 BookSprite: SRD-kangaskhan-BookSprite.png
 BoxSprite: SRD-kangaskhan-BoxSprite.png
 DexCategory: Parent Pokemon
@@ -13,27 +12,21 @@ Evolutions:
 - Evolves: To
   Item: Kangaskhanite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Kangaskhan]]'
+  Pokemon: '[[SRD-Kangaskhan (Mega Form)]]'
 GenderType: F
-HasForm: 'Yes'
 Height:
-  Deimeters: 22
   Feet: 7.2
   Meters: 2.2
 HiddenAbility: Inner Focus
 HomeSprite: SRD-kangaskhan-HomeSprite.png
+Image: kangaskhan.png
 Learnset: '[[SRD-Kangaskhan-Learnset]]'
 Legendary: 'No'
-Name: Kangaskhan
 Number: 115
-PrimaryEggGroup: Monster
-SecondaryEggGroup: ''
 ShuffleToken: SRD-kangaskhan-ShuffleToken.png
-Sprite: kangaskhan.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 800
   Kilograms: 80.0
   Pounds: 176.4
 ---
@@ -53,7 +46,7 @@ Weight:
 *A female only species. It raises its offspring in its belly pouch. The young leaves once it learns to find its own food. In the wild, mothers and daughters fiercely defend each other.*
 
 **DexID**:: 0115
-**Species**:: Kangaskhan
+**Name**:: Kangaskhan
 **Type**:: Normal
 **Abilities**:: [[SRD-Early Bird|Early Bird]] / [[SRD-Scrappy|Scrappy]] ([[SRD-Inner Focus|Inner Focus]])
 **Base HP**:: 5
@@ -71,8 +64,8 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon                 | Kind   | Item          |
-|:----------|:------------------------|:-------|:--------------|
-| To        | [[SRD-Mega-Kangaskhan]] | Mega   | Kangaskhanite |
+| Evolves   | Pokemon                        | Kind   | Item          |
+|:----------|:-------------------------------|:-------|:--------------|
+| To        | [[SRD-Kangaskhan (Mega Form)]] | Mega   | Kangaskhanite |
 
 ![[SRD-Kangaskhan-Learnset]]

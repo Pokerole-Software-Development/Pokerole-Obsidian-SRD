@@ -1,7 +1,6 @@
 ---
 Ability1: Sand Rush
 Ability2: Sand Force
-Baby: 'No'
 BookSprite: SRD-excadrill-BookSprite.png
 BoxSprite: SRD-excadrill-BoxSprite.png
 DexCategory: Subterrene Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Drilbur]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-excadrill-HomeSprite.png
+Image: excadrill.png
 Learnset: '[[SRD-Excadrill-Learnset]]'
 Legendary: 'No'
-Name: Excadrill
 Number: 530
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-excadrill-ShuffleToken.png
-Sprite: excadrill.png
 Type1: Ground
 Type2: Steel
 Weight:
-  Hectograms: 404
   Kilograms: 40.4
   Pounds: 89.1
 ---
@@ -53,7 +46,7 @@ Weight:
 *They build maze-like nests deep underground. Humans make use of their drilling abilities to dig tunnels for subway trains. This Pokemon does not back out from foes and can be a formidable opponent.*
 
 **DexID**:: 0530
-**Species**:: Excadrill
+**Name**:: Excadrill
 **Type**:: Ground / Steel
 **Abilities**:: [[SRD-Sand Rush|Sand Rush]] / [[SRD-Sand Force|Sand Force]] ([[SRD-Mold Breaker|Mold Breaker]])
 **Base HP**:: 5

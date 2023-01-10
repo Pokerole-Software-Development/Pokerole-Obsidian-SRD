@@ -1,7 +1,6 @@
 ---
 Ability1: Innards Out
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-pyukumuku-BookSprite.png
 BoxSprite: SRD-pyukumuku-BoxSprite.png
 DexCategory: Sea Cucumber Pokemon
@@ -11,25 +10,19 @@ DexDescription: "Once this Pokemon finds a spot it likes it will remain there wi
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Unaware
 HomeSprite: SRD-pyukumuku-HomeSprite.png
+Image: pyukumuku.png
 Learnset: '[[SRD-Pyukumuku-Learnset]]'
 Legendary: 'No'
-Name: Pyukumuku
 Number: 771
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: ''
 ShuffleToken: SRD-pyukumuku-ShuffleToken.png
-Sprite: pyukumuku.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 12
   Kilograms: 1.2
   Pounds: 2.6
 ---
@@ -49,7 +42,7 @@ Weight:
 *Once this Pokemon finds a spot it likes it will remain there without moving, even if food is out of reach. It can expel its organs through its mouth and use them like an arm. It’s slimy and not many people like it.*
 
 **DexID**:: 0771
-**Species**:: Pyukumuku
+**Name**:: Pyukumuku
 **Type**:: Water
 **Abilities**:: [[SRD-Innards Out|Innards Out]] ([[SRD-Unaware|Unaware]])
 **Base HP**:: 4

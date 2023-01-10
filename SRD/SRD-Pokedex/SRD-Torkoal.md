@@ -1,7 +1,6 @@
 ---
 Ability1: White Smoke
 Ability2: Drought
-Baby: 'No'
 BookSprite: SRD-torkoal-BookSprite.png
 BoxSprite: SRD-torkoal-BoxSprite.png
 DexCategory: Coal Pokemon
@@ -11,25 +10,19 @@ DexDescription: They constantly search for coal to add to their shell, digging m
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: Shell Armor
 HomeSprite: SRD-torkoal-HomeSprite.png
+Image: torkoal.png
 Learnset: '[[SRD-Torkoal-Learnset]]'
 Legendary: 'No'
-Name: Torkoal
 Number: 324
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-torkoal-ShuffleToken.png
-Sprite: torkoal.png
 Type1: Fire
 Type2: ''
 Weight:
-  Hectograms: 804
   Kilograms: 80.4
   Pounds: 177.3
 ---
@@ -49,7 +42,7 @@ Weight:
 *They constantly search for coal to add to their shell, digging mountains tirelessly because it is the source of their power. If they run out of coal, they grow weak. They are commonly found in abandoned coal mines.*
 
 **DexID**:: 0324
-**Species**:: Torkoal
+**Name**:: Torkoal
 **Type**:: Fire
 **Abilities**:: [[SRD-White Smoke|White Smoke]] / [[SRD-Drought|Drought]] ([[SRD-Shell Armor|Shell Armor]])
 **Base HP**:: 4

@@ -1,5 +1,4 @@
 ---
-DexID: '0064'
 Moves:
 - - Starter
   - '[[SRD-Teleport|Teleport]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Wonder Room|Wonder Room]]'
 Name: Kadabra
-Species: '[[SRD-Kadabra|Kadabra]]'
+Pokedex: '[[SRD-Kadabra|Kadabra]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Immunity
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-zangoose-BookSprite.png
 BoxSprite: SRD-zangoose-BoxSprite.png
 DexCategory: Cat Ferret Pokemon
@@ -11,25 +10,19 @@ DexDescription: The sole desire to battle Sevipers is embedded in their genes, t
 EventAbilities: ''
 Evolutions: []
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 13
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Toxic Boost
 HomeSprite: SRD-zangoose-HomeSprite.png
+Image: zangoose.png
 Learnset: '[[SRD-Zangoose-Learnset]]'
 Legendary: 'No'
-Name: Zangoose
 Number: 335
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-zangoose-ShuffleToken.png
-Sprite: zangoose.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 403
   Kilograms: 40.3
   Pounds: 88.8
 ---
@@ -49,7 +42,7 @@ Weight:
 *The sole desire to battle Sevipers is embedded in their genes, they have been rivals since forever. Zangoose is a very agile quadruped, standing up on two legs only when ready to fight.*
 
 **DexID**:: 0335
-**Species**:: Zangoose
+**Name**:: Zangoose
 **Type**:: Normal
 **Abilities**:: [[SRD-Immunity|Immunity]] ([[SRD-Toxic Boost|Toxic Boost]])
 **Base HP**:: 4

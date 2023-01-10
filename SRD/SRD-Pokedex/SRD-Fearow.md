@@ -1,7 +1,6 @@
 ---
 Ability1: Keen Eye
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-fearow-BookSprite.png
 BoxSprite: SRD-fearow-BoxSprite.png
 DexCategory: Beak Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Spearow]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Sniper
 HomeSprite: SRD-fearow-HomeSprite.png
+Image: fearow.png
 Learnset: '[[SRD-Fearow-Learnset]]'
 Legendary: 'No'
-Name: Fearow
 Number: 22
-PrimaryEggGroup: Flying
-SecondaryEggGroup: ''
 ShuffleToken: SRD-fearow-ShuffleToken.png
-Sprite: fearow.png
 Type1: Normal
 Type2: Flying
 Weight:
-  Hectograms: 380
   Kilograms: 38.0
   Pounds: 83.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Fearrows soar around wastelands and fields. It has the stamina to fly all day. It is easily annoyed and ill tempered. It attacks using its sharp beak to peck and pierce the foes.*
 
 **DexID**:: 0022
-**Species**:: Fearow
+**Name**:: Fearow
 **Type**:: Normal / Flying
 **Abilities**:: [[SRD-Keen Eye|Keen Eye]] ([[SRD-Sniper|Sniper]])
 **Base HP**:: 4

@@ -1,7 +1,6 @@
 ---
 Ability1: Torrent
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-croconaw-BookSprite.png
 BoxSprite: SRD-croconaw-BoxSprite.png
 DexCategory: Big Jaw Pokemon
@@ -20,25 +19,19 @@ Evolutions:
   Pokemon: '[[SRD-Feraligatr]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 11
   Feet: 3.6
   Meters: 1.1
 HiddenAbility: Sheer Force
 HomeSprite: SRD-croconaw-HomeSprite.png
+Image: croconaw.png
 Learnset: '[[SRD-Croconaw-Learnset]]'
 Legendary: 'No'
-Name: Croconaw
 Number: 159
-PrimaryEggGroup: Monster
-SecondaryEggGroup: Water 1
 ShuffleToken: SRD-croconaw-ShuffleToken.png
-Sprite: croconaw.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 250
   Kilograms: 25.0
   Pounds: 55.1
 ---
@@ -58,7 +51,7 @@ Weight:
 *This Pokemon is really tenacious. Once it bites something it won’t let go until it tears it down - even if its trainer is ordering to let go. If it loses any of it’s fangs, they’ll regrow in a few days. It’s a very wild Pokemon.*
 
 **DexID**:: 0159
-**Species**:: Croconaw
+**Name**:: Croconaw
 **Type**:: Water
 **Abilities**:: [[SRD-Torrent|Torrent]] ([[SRD-Sheer Force|Sheer Force]])
 **Base HP**:: 4

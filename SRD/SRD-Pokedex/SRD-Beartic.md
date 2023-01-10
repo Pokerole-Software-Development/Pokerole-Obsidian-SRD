@@ -1,7 +1,6 @@
 ---
 Ability1: Snow Cloak
 Ability2: Slush Rush
-Baby: 'No'
 BookSprite: SRD-beartic-BookSprite.png
 BoxSprite: SRD-beartic-BoxSprite.png
 DexCategory: Freezing Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Cubchoo]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 26
   Feet: 8.5
   Meters: 2.6
 HiddenAbility: Swift Swim
 HomeSprite: SRD-beartic-HomeSprite.png
+Image: beartic.png
 Learnset: '[[SRD-Beartic-Learnset]]'
 Legendary: 'No'
-Name: Beartic
 Number: 614
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-beartic-ShuffleToken.png
-Sprite: beartic.png
 Type1: Ice
 Type2: ''
 Weight:
-  Hectograms: 2600
   Kilograms: 260.0
   Pounds: 573.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *They the cold northern seas and create pathways across the ocean's water by freezing their own breath. They dive in the sea to catch prey. They are not used to humans as they rarely see one.*
 
 **DexID**:: 0614
-**Species**:: Beartic
+**Name**:: Beartic
 **Type**:: Ice
 **Abilities**:: [[SRD-Snow Cloak|Snow Cloak]] / [[SRD-Slush Rush|Slush Rush]] ([[SRD-Swift Swim|Swift Swim]])
 **Base HP**:: 4

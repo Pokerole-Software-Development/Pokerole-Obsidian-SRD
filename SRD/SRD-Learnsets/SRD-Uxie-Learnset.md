@@ -1,5 +1,4 @@
 ---
-DexID: 0480
 Moves:
 - - Master
   - '[[SRD-Memento|Memento]]'
@@ -38,14 +37,14 @@ Moves:
 - - Master
   - '[[SRD-Wonder Room|Wonder Room]]'
 Name: Uxie
-Species: '[[SRD-Uxie|Uxie]]'
+Pokedex: '[[SRD-Uxie|Uxie]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0658F
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -48,14 +47,14 @@ Moves:
 - - Pro
   - '[[SRD-Last Resort|Last Resort]]'
 Name: Bunnelby
-Species: '[[SRD-Bunnelby|Bunnelby]]'
+Pokedex: '[[SRD-Bunnelby|Bunnelby]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

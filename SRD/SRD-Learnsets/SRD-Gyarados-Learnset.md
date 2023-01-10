@@ -1,5 +1,4 @@
 ---
-DexID: '0130'
 Moves:
 - - Starter
   - '[[SRD-Dragon Rage|Dragon Rage]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Bounce|Bounce]]'
 Name: Gyarados
-Species: '[[SRD-Gyarados|Gyarados]]'
+Pokedex: '[[SRD-Gyarados|Gyarados]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

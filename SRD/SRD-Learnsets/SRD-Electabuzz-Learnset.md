@@ -1,5 +1,4 @@
 ---
-DexID: '0125'
 Moves:
 - - Starter
   - '[[SRD-Quick Attack|Quick Attack]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Meditate|Meditate]]'
 Name: Electabuzz
-Species: '[[SRD-Electabuzz|Electabuzz]]'
+Pokedex: '[[SRD-Electabuzz|Electabuzz]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

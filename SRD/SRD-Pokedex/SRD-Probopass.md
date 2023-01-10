@@ -1,7 +1,6 @@
 ---
 Ability1: Sturdy
 Ability2: Magnet Pull
-Baby: 'No'
 BookSprite: SRD-probopass-BookSprite.png
 BoxSprite: SRD-probopass-BoxSprite.png
 DexCategory: Compass Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Nosepass]]'
   Special: A trip to New Mauville
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 14
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Sand Force
 HomeSprite: SRD-probopass-HomeSprite.png
+Image: probopass.png
 Learnset: '[[SRD-Probopass-Learnset]]'
 Legendary: 'No'
-Name: Probopass
 Number: 476
-PrimaryEggGroup: Mineral
-SecondaryEggGroup: ''
 ShuffleToken: SRD-probopass-ShuffleToken.png
-Sprite: probopass.png
 Type1: Rock
 Type2: Steel
 Weight:
-  Hectograms: 3400
   Kilograms: 340.0
   Pounds: 749.6
 ---
@@ -53,7 +46,7 @@ Weight:
 *It exudes strong magnetism from all over. It controls three small units called Mini-Noses that float around and act as arms. It usually stays motionless unless attacked or provoked.*
 
 **DexID**:: 0476
-**Species**:: Probopass
+**Name**:: Probopass
 **Type**:: Rock / Steel
 **Abilities**:: [[SRD-Sturdy|Sturdy]] / [[SRD-Magnet Pull|Magnet Pull]] ([[SRD-Sand Force|Sand Force]])
 **Base HP**:: 4

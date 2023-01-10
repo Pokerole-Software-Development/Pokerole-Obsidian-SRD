@@ -1,7 +1,6 @@
 ---
 Ability1: Oblivious
 Ability2: Simple
-Baby: 'No'
 BookSprite: SRD-numel-BookSprite.png
 BoxSprite: SRD-numel-BoxSprite.png
 DexCategory: Numb Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Camerupt]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 7
   Feet: 2.3
   Meters: 0.7
 HiddenAbility: Own Tempo
 HomeSprite: SRD-numel-HomeSprite.png
+Image: numel.png
 Learnset: '[[SRD-Numel-Learnset]]'
 Legendary: 'No'
-Name: Numel
 Number: 322
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-numel-ShuffleToken.png
-Sprite: numel.png
 Type1: Fire
 Type2: Ground
 Weight:
-  Hectograms: 240
   Kilograms: 24.0
   Pounds: 52.9
 ---
@@ -53,7 +46,7 @@ Weight:
 *An incredibly dim-witted Pokemon. They don’t notice being hit. If they get hungry they faint. Numel's body is a cauldron of boiling magma. In rainy days, the magma cools and its speed is lowered.*
 
 **DexID**:: 0322
-**Species**:: Numel
+**Name**:: Numel
 **Type**:: Fire / Ground
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Simple|Simple]] ([[SRD-Own Tempo|Own Tempo]])
 **Base HP**:: 3

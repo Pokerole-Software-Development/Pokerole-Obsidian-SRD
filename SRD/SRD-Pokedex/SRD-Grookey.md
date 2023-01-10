@@ -1,7 +1,6 @@
 ---
 Ability1: Overgrow
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-grookey-BookSprite.png
 BoxSprite: SRD-grookey-BoxSprite.png
 DexCategory: Chimp Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Thwackey]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 3
   Feet: 1.0
   Meters: 0.3
 HiddenAbility: Grassy Surge
 HomeSprite: SRD-grookey-HomeSprite.png
+Image: grookey.png
 Learnset: '[[SRD-Grookey-Learnset]]'
 Legendary: 'No'
-Name: Grookey
 Number: 810
-PrimaryEggGroup: Field
-SecondaryEggGroup: Grass
 ShuffleToken: SRD-grookey-ShuffleToken.png
-Sprite: grookey.png
 Type1: Grass
 Type2: ''
 Weight:
-  Hectograms: 50
   Kilograms: 5.0
   Pounds: 11.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *They spend their early days looking for a stick with a certain sound, it then uses the stick to create rhythmic beats that makes plan glow and grow. Grookey are enthusiastic and kind creatures that love music.*
 
 **DexID**:: 0810
-**Species**:: Grookey
+**Name**:: Grookey
 **Type**:: Grass
 **Abilities**:: [[SRD-Overgrow|Overgrow]] ([[SRD-Grassy Surge|Grassy Surge]])
 **Base HP**:: 3

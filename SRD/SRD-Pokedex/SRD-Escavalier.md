@@ -1,7 +1,6 @@
 ---
 Ability1: Swarm
 Ability2: Shell Armor
-Baby: 'No'
 BookSprite: SRD-escavalier-BookSprite.png
 BoxSprite: SRD-escavalier-BoxSprite.png
 DexCategory: Cavalry Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Karrablast]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 10
   Feet: 3.3
   Meters: 1.0
 HiddenAbility: Overcoat
 HomeSprite: SRD-escavalier-HomeSprite.png
+Image: escavalier.png
 Learnset: '[[SRD-Escavalier-Learnset]]'
 Legendary: 'No'
-Name: Escavalier
 Number: 589
-PrimaryEggGroup: Bug
-SecondaryEggGroup: ''
 ShuffleToken: SRD-escavalier-ShuffleToken.png
-Sprite: escavalier.png
 Type1: Bug
 Type2: Steel
 Weight:
-  Hectograms: 330
   Kilograms: 33.0
   Pounds: 72.8
 ---
@@ -53,7 +46,7 @@ Weight:
 *Wearing the shell covering it stole from a Shelmet, it defends itself and attacks with two stings. It can fly to move around but its wings are too small to carry its weight to high altitudes.*
 
 **DexID**:: 0589
-**Species**:: Escavalier
+**Name**:: Escavalier
 **Type**:: Bug / Steel
 **Abilities**:: [[SRD-Swarm|Swarm]] / [[SRD-Shell Armor|Shell Armor]] ([[SRD-Overcoat|Overcoat]])
 **Base HP**:: 4

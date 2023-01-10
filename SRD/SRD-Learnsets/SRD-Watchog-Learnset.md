@@ -1,5 +1,4 @@
 ---
-DexID: '0505'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -56,14 +55,14 @@ Moves:
 - - Pro
   - '[[SRD-Revenge|Revenge]]'
 Name: Watchog
-Species: '[[SRD-Watchog|Watchog]]'
+Pokedex: '[[SRD-Watchog|Watchog]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

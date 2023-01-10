@@ -1,7 +1,6 @@
 ---
 Ability1: Oblivious
 Ability2: Snow Cloak
-Baby: 'No'
 BookSprite: SRD-swinub-BookSprite.png
 BoxSprite: SRD-swinub-BoxSprite.png
 DexCategory: Pig Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Piloswine]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Thick Fat
 HomeSprite: SRD-swinub-HomeSprite.png
+Image: swinub.png
 Learnset: '[[SRD-Swinub-Learnset]]'
 Legendary: 'No'
-Name: Swinub
 Number: 220
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-swinub-ShuffleToken.png
-Sprite: swinub.png
 Type1: Ice
 Type2: Ground
 Weight:
-  Hectograms: 65
   Kilograms: 6.5
   Pounds: 14.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *They rub their snout on the icy ground to find food and hot springs. Their favorite food is a mushroom that grows under frozen grass. They recognize everything by smell as their eyes can’t see very well.*
 
 **DexID**:: 0220
-**Species**:: Swinub
+**Name**:: Swinub
 **Type**:: Ice / Ground
 **Abilities**:: [[SRD-Oblivious|Oblivious]] / [[SRD-Snow Cloak|Snow Cloak]] ([[SRD-Thick Fat|Thick Fat]])
 **Base HP**:: 3

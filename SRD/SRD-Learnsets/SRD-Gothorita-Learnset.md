@@ -1,5 +1,4 @@
 ---
-DexID: '0575'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Snatch|Snatch]]'
 Name: Gothorita
-Species: '[[SRD-Gothorita|Gothorita]]'
+Pokedex: '[[SRD-Gothorita|Gothorita]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

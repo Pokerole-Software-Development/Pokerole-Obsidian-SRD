@@ -1,7 +1,6 @@
 ---
 Ability1: Vital Spirit
 Ability2: Sand Rush
-Baby: 'No'
 BookSprite: SRD-lillipup-BookSprite.png
 BoxSprite: SRD-lillipup-BoxSprite.png
 DexCategory: Puppy Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Herdier]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Scrappy
 HomeSprite: SRD-lillipup-HomeSprite.png
+Image: lillipup.png
 Learnset: '[[SRD-Lillipup-Learnset]]'
 Legendary: 'No'
-Name: Lillipup
 Number: 506
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-lillipup-ShuffleToken.png
-Sprite: lillipup.png
 Type1: Normal
 Type2: ''
 Weight:
-  Hectograms: 41
   Kilograms: 4.1
   Pounds: 9.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *Good with children and old people, this gentle Pokemon is a favorite to keep as pet. It is very brave and smart and will protect it’s trainer against any threat. It uses the hair on its head to feel its surroundings.*
 
 **DexID**:: 0506
-**Species**:: Lillipup
+**Name**:: Lillipup
 **Type**:: Normal
 **Abilities**:: [[SRD-Vital Spirit|Vital Spirit]] / [[SRD-Sand Rush|Sand Rush]] ([[SRD-Scrappy|Scrappy]])
 **Base HP**:: 3

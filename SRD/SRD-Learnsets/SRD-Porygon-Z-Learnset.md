@@ -1,5 +1,4 @@
 ---
-DexID: '0474'
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -50,14 +49,14 @@ Moves:
 - - Pro
   - '[[SRD-Trick|Trick]]'
 Name: Porygon-Z
-Species: '[[SRD-Porygon-Z|Porygon-Z]]'
+Pokedex: '[[SRD-Porygon-Z|Porygon-Z]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

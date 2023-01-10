@@ -1,5 +1,4 @@
 ---
-DexID: 0699
 Moves:
 - - Starter
   - '[[SRD-Tackle|Tackle]]'
@@ -46,14 +45,14 @@ Moves:
 - - Pro
   - '[[SRD-Hyper Voice|Hyper Voice]]'
 Name: Sylveon
-Species: '[[SRD-Sylveon|Sylveon]]'
+Pokedex: '[[SRD-Sylveon|Sylveon]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

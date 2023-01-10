@@ -1,5 +1,4 @@
 ---
-DexID: 0489
 Moves:
 - - Master
   - '[[SRD-Bubble|Bubble]]'
@@ -32,14 +31,14 @@ Moves:
 - - Master
   - '[[SRD-Last Resort|Last Resort]]'
 Name: Phione
-Species: '[[SRD-Phione|Phione]]'
+Pokedex: '[[SRD-Phione|Phione]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

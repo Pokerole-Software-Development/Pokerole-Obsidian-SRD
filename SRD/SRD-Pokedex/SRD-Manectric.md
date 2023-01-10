@@ -1,7 +1,6 @@
 ---
 Ability1: Static
 Ability2: Lightning Rod
-Baby: 'No'
 BookSprite: SRD-manectric-BookSprite.png
 BoxSprite: SRD-manectric-BoxSprite.png
 DexCategory: Discharge Pokemon
@@ -17,27 +16,21 @@ Evolutions:
 - Evolves: To
   Item: Manectite
   Kind: Mega
-  Pokemon: '[[SRD-Mega-Manectric]]'
+  Pokemon: '[[SRD-Manectric (Mega Form)]]'
 GenderType: ''
-HasForm: 'Yes'
 Height:
-  Deimeters: 15
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Minus
 HomeSprite: SRD-manectric-HomeSprite.png
+Image: manectric.png
 Learnset: '[[SRD-Manectric-Learnset]]'
 Legendary: 'No'
-Name: Manectric
 Number: 310
-PrimaryEggGroup: Field
-SecondaryEggGroup: ''
 ShuffleToken: SRD-manectric-ShuffleToken.png
-Sprite: manectric.png
 Type1: Electric
 Type2: ''
 Weight:
-  Hectograms: 402
   Kilograms: 40.2
   Pounds: 88.6
 ---
@@ -57,7 +50,7 @@ Weight:
 *Their manes are constantly releasing dangerous sparks that often end up in forest fires. When they get in battle, thunderclouds show up with them. They are extremely rare to see in the wild.*
 
 **DexID**:: 0310
-**Species**:: Manectric
+**Name**:: Manectric
 **Type**:: Electric
 **Abilities**:: [[SRD-Static|Static]] / [[SRD-Lightning Rod|Lightning Rod]] ([[SRD-Minus|Minus]])
 **Base HP**:: 4
@@ -75,9 +68,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-| Evolves   | Pokemon                | Kind   | Speed   | Item      |
-|:----------|:-----------------------|:-------|:--------|:----------|
-| From      | [[SRD-Electrike]]      | Level  | Medium  |           |
-| To        | [[SRD-Mega-Manectric]] | Mega   |         | Manectite |
+| Evolves   | Pokemon                       | Kind   | Speed   | Item      |
+|:----------|:------------------------------|:-------|:--------|:----------|
+| From      | [[SRD-Electrike]]             | Level  | Medium  |           |
+| To        | [[SRD-Manectric (Mega Form)]] | Mega   |         | Manectite |
 
 ![[SRD-Manectric-Learnset]]

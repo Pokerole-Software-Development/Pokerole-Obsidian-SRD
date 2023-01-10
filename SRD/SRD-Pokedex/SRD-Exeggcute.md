@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-exeggcute-BookSprite.png
 BoxSprite: SRD-exeggcute-BoxSprite.png
 DexCategory: Egg Pokemon
@@ -17,28 +16,22 @@ Evolutions:
 - Evolves: To
   Item: Leaf Stone
   Kind: Stone
-  Pokemon: '[[SRD-Alolan Exeggutor]]'
+  Pokemon: '[[SRD-Exeggutor (Alolan Form)]]'
   Region: Alola
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: Harvest
 HomeSprite: SRD-exeggcute-HomeSprite.png
+Image: exeggcute.png
 Learnset: '[[SRD-Exeggcute-Learnset]]'
 Legendary: 'No'
-Name: Exeggcute
 Number: 102
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-exeggcute-ShuffleToken.png
-Sprite: exeggcute.png
 Type1: Grass
 Type2: Psychic
 Weight:
-  Hectograms: 25
   Kilograms: 2.5
   Pounds: 5.5
 ---
@@ -58,7 +51,7 @@ Weight:
 *Even though it appears to be eggs of some sort, it is related more to a seed. It gathers in packs of six that have a mental link with each other. Each one of them has a different personality.*
 
 **DexID**:: 0102
-**Species**:: Exeggcute
+**Name**:: Exeggcute
 **Type**:: Grass / Psychic
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Harvest|Harvest]])
 **Base HP**:: 3
@@ -76,9 +69,9 @@ Weight:
 **Good Starter**:: Yes
 **Recommended Rank**:: Beginner
 
-| Evolves   | Pokemon                  | Kind   | Item       | Region   |
-|:----------|:-------------------------|:-------|:-----------|:---------|
-| To        | [[SRD-Exeggutor]]        | Stone  | Leaf Stone |          |
-| To        | [[SRD-Alolan Exeggutor]] | Stone  | Leaf Stone | Alola    |
+| Evolves   | Pokemon                         | Kind   | Item       | Region   |
+|:----------|:--------------------------------|:-------|:-----------|:---------|
+| To        | [[SRD-Exeggutor]]               | Stone  | Leaf Stone |          |
+| To        | [[SRD-Exeggutor (Alolan Form)]] | Stone  | Leaf Stone | Alola    |
 
 ![[SRD-Exeggcute-Learnset]]

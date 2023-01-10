@@ -1,5 +1,4 @@
 ---
-DexID: '0771'
 Moves:
 - - Starter
   - '[[SRD-Harden|Harden]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Earthquake|Earthquake]]'
 Name: Palossand
-Species: '[[SRD-Palossand|Palossand]]'
+Pokedex: '[[SRD-Palossand|Palossand]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

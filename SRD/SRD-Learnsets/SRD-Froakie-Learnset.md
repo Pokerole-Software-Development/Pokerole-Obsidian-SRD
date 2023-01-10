@@ -1,5 +1,4 @@
 ---
-DexID: '0655'
 Moves:
 - - Starter
   - '[[SRD-Pound|Pound]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Water Pledge|Water Pledge]]'
 Name: Froakie
-Species: '[[SRD-Froakie|Froakie]]'
+Pokedex: '[[SRD-Froakie|Froakie]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

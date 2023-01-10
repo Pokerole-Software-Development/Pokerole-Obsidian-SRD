@@ -1,7 +1,6 @@
 ---
 Ability1: Chlorophyll
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-vileplume-BookSprite.png
 BoxSprite: SRD-vileplume-BoxSprite.png
 DexCategory: Flower Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Kind: Stone
   Pokemon: '[[SRD-Gloom]]'
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 12
   Feet: 3.9
   Meters: 1.2
 HiddenAbility: Effect Spore
 HomeSprite: SRD-vileplume-HomeSprite.png
+Image: vileplume.png
 Learnset: '[[SRD-Vileplume-Learnset]]'
 Legendary: 'No'
-Name: Vileplume
 Number: 45
-PrimaryEggGroup: Grass
-SecondaryEggGroup: ''
 ShuffleToken: SRD-vileplume-ShuffleToken.png
-Sprite: vileplume.png
 Type1: Grass
 Type2: Poison
 Weight:
-  Hectograms: 186
   Kilograms: 18.6
   Pounds: 41.0
 ---
@@ -53,7 +46,7 @@ Weight:
 *It lives in marshlands and jungles where it’s often mistaken for local flora. The air around a Vileplume turns yellow with the powder it releases as it walks. The pollen is highly toxic and causes paralysis.*
 
 **DexID**:: 0045
-**Species**:: Vileplume
+**Name**:: Vileplume
 **Type**:: Grass / Poison
 **Abilities**:: [[SRD-Chlorophyll|Chlorophyll]] ([[SRD-Effect Spore|Effect Spore]])
 **Base HP**:: 5

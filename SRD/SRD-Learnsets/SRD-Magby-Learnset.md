@@ -1,5 +1,4 @@
 ---
-DexID: '0240'
 Moves:
 - - Starter
   - '[[SRD-Leer|Leer]]'
@@ -44,14 +43,14 @@ Moves:
 - - Pro
   - '[[SRD-Screech|Screech]]'
 Name: Magby
-Species: '[[SRD-Magby|Magby]]'
+Pokedex: '[[SRD-Magby|Magby]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

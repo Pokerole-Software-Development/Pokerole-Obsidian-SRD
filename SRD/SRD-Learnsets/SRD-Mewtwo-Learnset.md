@@ -1,5 +1,4 @@
 ---
-DexID: '0150'
 Moves:
 - - Master
   - '[[SRD-Laser Focus|Laser Focus]]'
@@ -52,14 +51,14 @@ Moves:
 - - Master
   - '[[SRD-Snatch|Snatch]]'
 Name: Mewtwo
-Species: '[[SRD-Mewtwo|Mewtwo]]'
+Pokedex: '[[SRD-Mewtwo|Mewtwo]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,5 +1,4 @@
 ---
-DexID: 0746F1
 Moves:
 - - Starter
   - '[[SRD-Poison Sting|Poison Sting]]'
@@ -42,14 +41,14 @@ Moves:
 - - Pro
   - '[[SRD-Sludge Bomb|Sludge Bomb]]'
 Name: Mareanie
-Species: '[[SRD-Mareanie|Mareanie]]'
+Pokedex: '[[SRD-Mareanie|Mareanie]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

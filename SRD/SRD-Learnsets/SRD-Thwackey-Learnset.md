@@ -1,5 +1,4 @@
 ---
-DexID: 0810
 Moves:
 - - Starter
   - '[[SRD-Double Hit|Double Hit]]'
@@ -40,14 +39,14 @@ Moves:
 - - Pro
   - '[[SRD-Leech Seed|Leech Seed]]'
 Name: Thwackey
-Species: '[[SRD-Thwackey|Thwackey]]'
+Pokedex: '[[SRD-Thwackey|Thwackey]]'
 ---
 
 #PokeroleSRD/Learnsets
 
 ## `= this.Name` Learnset
 
-**DexID:** `= this.DexID`
+**Pokedex Entry:** `= this.Pokedex`
 
 ```dataview
 TABLE WITHOUT ID

@@ -1,7 +1,6 @@
 ---
 Ability1: Mega Launcher
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-clauncher-BookSprite.png
 BoxSprite: SRD-clauncher-BoxSprite.png
 DexCategory: Water Gun Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Clawitzer]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 5
   Feet: 1.6
   Meters: 0.5
 HiddenAbility: ''
 HomeSprite: SRD-clauncher-HomeSprite.png
+Image: clauncher.png
 Learnset: '[[SRD-Clauncher-Learnset]]'
 Legendary: 'No'
-Name: Clauncher
 Number: 692
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Water 3
 ShuffleToken: SRD-clauncher-ShuffleToken.png
-Sprite: clauncher.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 83
   Kilograms: 8.3
   Pounds: 18.3
 ---
@@ -53,7 +46,7 @@ Weight:
 *They live in beaches and shallow waters. They can knock down a flying prey by shooting water from their massive claws. Their shell is very though but their meat is delicious.*
 
 **DexID**:: 0692
-**Species**:: Clauncher
+**Name**:: Clauncher
 **Type**:: Water
 **Abilities**:: [[SRD-Mega Launcher|Mega Launcher]]
 **Base HP**:: 3

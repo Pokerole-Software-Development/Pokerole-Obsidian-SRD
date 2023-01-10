@@ -1,7 +1,6 @@
 ---
 Ability1: Hydration
 Ability2: ''
-Baby: 'No'
 BookSprite: SRD-phione-BookSprite.png
 BoxSprite: SRD-phione-BoxSprite.png
 DexCategory: No Data
@@ -10,25 +9,19 @@ DexDescription: There have been sightings of small groups of similar Pokemon but
 EventAbilities: ''
 Evolutions: []
 GenderType: N
-HasForm: 'No'
 Height:
-  Deimeters: 4
   Feet: 1.3
   Meters: 0.4
 HiddenAbility: ''
 HomeSprite: SRD-phione-HomeSprite.png
+Image: phione.png
 Learnset: '[[SRD-Phione-Learnset]]'
 Legendary: 'No'
-Name: Phione
 Number: 489
-PrimaryEggGroup: Water 1
-SecondaryEggGroup: Fairy
 ShuffleToken: SRD-phione-ShuffleToken.png
-Sprite: phione.png
 Type1: Water
 Type2: ''
 Weight:
-  Hectograms: 31
   Kilograms: 3.1
   Pounds: 6.8
 ---
@@ -48,7 +41,7 @@ Weight:
 *There have been sightings of small groups of similar Pokemon but its existence has never been confirmed. It is said to be the offspring of Manaphy.*
 
 **DexID**:: 0489
-**Species**:: Phione
+**Name**:: Phione
 **Type**:: Water
 **Abilities**:: [[SRD-Hydration|Hydration]]
 **Base HP**:: 4

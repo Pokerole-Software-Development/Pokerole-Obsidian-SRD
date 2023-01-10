@@ -1,7 +1,6 @@
 ---
 Ability1: Intimidate
 Ability2: Shed Skin
-Baby: 'No'
 BookSprite: SRD-ekans-BookSprite.png
 BoxSprite: SRD-ekans-BoxSprite.png
 DexCategory: Snake Pokemon
@@ -15,25 +14,19 @@ Evolutions:
   Pokemon: '[[SRD-Arbok]]'
   Speed: Medium
 GenderType: ''
-HasForm: 'No'
 Height:
-  Deimeters: 20
   Feet: 6.6
   Meters: 2.0
 HiddenAbility: Unnerve
 HomeSprite: SRD-ekans-HomeSprite.png
+Image: ekans.png
 Learnset: '[[SRD-Ekans-Learnset]]'
 Legendary: 'No'
-Name: Ekans
 Number: 23
-PrimaryEggGroup: Field
-SecondaryEggGroup: Dragon
 ShuffleToken: SRD-ekans-ShuffleToken.png
-Sprite: ekans.png
 Type1: Poison
 Type2: ''
 Weight:
-  Hectograms: 69
   Kilograms: 6.9
   Pounds: 15.2
 ---
@@ -53,7 +46,7 @@ Weight:
 *Lives on grasslands. Preys on Rattatas and Pokemon Eggs it finds. It’s jaw can detach itself to swallow any prey whole. It coils and sleeps after eating. Ekans grow bigger with age.*
 
 **DexID**:: 0023
-**Species**:: Ekans
+**Name**:: Ekans
 **Type**:: Poison
 **Abilities**:: [[SRD-Intimidate|Intimidate]] / [[SRD-Shed Skin|Shed Skin]] ([[SRD-Unnerve|Unnerve]])
 **Base HP**:: 3
