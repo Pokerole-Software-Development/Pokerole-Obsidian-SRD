@@ -1,8 +1,8 @@
 ---
 Ability1: Aura Break
 Ability2: ''
-BookSprite: SRD-zygarde-100%-BookSprite.png
-BoxSprite: SRD-zygarde-100%-BoxSprite.png
+BookSprite: SRD-zygarde-100-BookSprite.png
+BoxSprite: SRD-zygarde-100-BoxSprite.png
 DexCategory: No Data
 DexDescription: The complete form of Zygarde
 EventAbilities: ''
@@ -16,12 +16,12 @@ Height:
   Feet: 14.8
   Meters: 4.5
 HiddenAbility: ''
-HomeSprite: SRD-zygarde-100%-HomeSprite.png
-Image: zygarde-100%.png
+HomeSprite: SRD-zygarde-100-HomeSprite.png
+Image: zygarde-100.png
 Learnset: '[[SRD-Zygarde 100%-Learnset]]'
 Legendary: 'Yes'
 Number: 718
-ShuffleToken: SRD-zygarde-100%-ShuffleToken.png
+ShuffleToken: SRD-zygarde-100-ShuffleToken.png
 Type1: Dragon
 Type2: Ground
 Weight:
@@ -34,10 +34,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-zygarde-100%-BookSprite.png|wsmall]]
-> ![[SRD-zygarde-100%-HomeSprite.png]]
-> ![[SRD-zygarde-100%-BoxSprite.png|htiny]]
-> ![[SRD-zygarde-100%-ShuffleToken.png|wsmall]]
+> ![[SRD-zygarde-100-BookSprite.png|wsmall]]
+> ![[SRD-zygarde-100-HomeSprite.png]]
+> ![[SRD-zygarde-100-BoxSprite.png|htiny]]
+> ![[SRD-zygarde-100-ShuffleToken.png|wsmall]]
 
 
 *No Data*

@@ -1,8 +1,8 @@
 ---
 Ability1: Aura Break
 Ability2: Power Construct
-BookSprite: SRD-zygarde-50%-BookSprite.png
-BoxSprite: SRD-zygarde-50%-BoxSprite.png
+BookSprite: SRD-zygarde-50-BookSprite.png
+BoxSprite: SRD-zygarde-50-BoxSprite.png
 DexCategory: No Data
 DexDescription: Underground tunnels have been found all over the Kalos Region. There
   are rumors of a creature who lives in them that attacks people damaging the ecosystem.
@@ -17,12 +17,12 @@ Height:
   Feet: 16.4
   Meters: 5.0
 HiddenAbility: ''
-HomeSprite: SRD-zygarde-50%-HomeSprite.png
-Image: zygarde-50%.png
+HomeSprite: SRD-zygarde-50-HomeSprite.png
+Image: zygarde-50.png
 Learnset: '[[SRD-Zygarde 50%-Learnset]]'
 Legendary: 'Yes'
 Number: 718
-ShuffleToken: SRD-zygarde-50%-ShuffleToken.png
+ShuffleToken: SRD-zygarde-50-ShuffleToken.png
 Type1: Dragon
 Type2: Ground
 Weight:
@@ -35,10 +35,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-zygarde-50%-BookSprite.png|wsmall]]
-> ![[SRD-zygarde-50%-HomeSprite.png]]
-> ![[SRD-zygarde-50%-BoxSprite.png|htiny]]
-> ![[SRD-zygarde-50%-ShuffleToken.png|wsmall]]
+> ![[SRD-zygarde-50-BookSprite.png|wsmall]]
+> ![[SRD-zygarde-50-HomeSprite.png]]
+> ![[SRD-zygarde-50-BoxSprite.png|htiny]]
+> ![[SRD-zygarde-50-ShuffleToken.png|wsmall]]
 
 
 *No Data*

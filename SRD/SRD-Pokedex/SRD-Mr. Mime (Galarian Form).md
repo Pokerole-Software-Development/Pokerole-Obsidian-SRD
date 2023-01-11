@@ -1,8 +1,8 @@
 ---
 Ability1: Vital Spirit
 Ability2: Screen Cleaner
-BookSprite: SRD-mr-BookSprite.-mime-galarian-form
-BoxSprite: SRD-mr-BoxSprite.-mime-galarian-form
+BookSprite: SRD-mr-mime-galarian-form-BookSprite.png
+BoxSprite: SRD-mr-mime-galarian-form-BoxSprite.png
 DexCategory: Barrier Pokemon
 DexDescription: Mime Jr. that endure the harsh winter of Galar are able to create
   invisible walls that suddenly turn to ice, as they evolve they start creating ice
@@ -23,12 +23,12 @@ Height:
   Feet: 4.6
   Meters: 1.4
 HiddenAbility: Ice Body
-HomeSprite: SRD-mr-HomeSprite.-mime-galarian-form
-Image: mr.-mime-galarian-form.png
+HomeSprite: SRD-mr-mime-galarian-form-HomeSprite.png
+Image: mr-mime-galarian-form.png
 Learnset: '[[SRD-Mr. Mime (Galarian Form)-Learnset]]'
 Legendary: 'No'
 Number: 122
-ShuffleToken: SRD-mr-ShuffleToken.-mime-galarian-form
+ShuffleToken: SRD-mr-mime-galarian-form-ShuffleToken.png
 Type1: Ice
 Type2: Psychic
 Weight:
@@ -41,10 +41,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-mr-BookSprite.-mime-galarian-form|wsmall]]
-> ![[SRD-mr-HomeSprite.-mime-galarian-form]]
-> ![[SRD-mr-BoxSprite.-mime-galarian-form|htiny]]
-> ![[SRD-mr-ShuffleToken.-mime-galarian-form|wsmall]]
+> ![[SRD-mr-mime-galarian-form-BookSprite.png|wsmall]]
+> ![[SRD-mr-mime-galarian-form-HomeSprite.png]]
+> ![[SRD-mr-mime-galarian-form-BoxSprite.png|htiny]]
+> ![[SRD-mr-mime-galarian-form-ShuffleToken.png|wsmall]]
 
 
 *Barrier Pokemon*

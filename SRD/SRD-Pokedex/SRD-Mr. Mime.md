@@ -1,8 +1,8 @@
 ---
 Ability1: Soundproof
 Ability2: Filter
-BookSprite: SRD-mr-BookSprite.-mime
-BoxSprite: SRD-mr-BoxSprite.-mime
+BookSprite: SRD-mr-mime-BookSprite.png
+BoxSprite: SRD-mr-mime-BoxSprite.png
 DexCategory: Barrier Pokemon
 DexDescription: "You don\u2019t find this Pokemon, it finds you. It is really smart\
   \ and amuses itself by showing people its power to create barriers with pantomime.\
@@ -18,12 +18,12 @@ Height:
   Feet: 4.3
   Meters: 1.3
 HiddenAbility: Technician
-HomeSprite: SRD-mr-HomeSprite.-mime
-Image: mr.-mime.png
+HomeSprite: SRD-mr-mime-HomeSprite.png
+Image: mr-mime.png
 Learnset: '[[SRD-Mr. Mime-Learnset]]'
 Legendary: 'No'
 Number: 122
-ShuffleToken: SRD-mr-ShuffleToken.-mime
+ShuffleToken: SRD-mr-mime-ShuffleToken.png
 Type1: Psychic
 Type2: Fairy
 Weight:
@@ -36,10 +36,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-mr-BookSprite.-mime|wsmall]]
-> ![[SRD-mr-HomeSprite.-mime]]
-> ![[SRD-mr-BoxSprite.-mime|htiny]]
-> ![[SRD-mr-ShuffleToken.-mime|wsmall]]
+> ![[SRD-mr-mime-BookSprite.png|wsmall]]
+> ![[SRD-mr-mime-HomeSprite.png]]
+> ![[SRD-mr-mime-BoxSprite.png|htiny]]
+> ![[SRD-mr-mime-ShuffleToken.png|wsmall]]
 
 
 *Barrier Pokemon*

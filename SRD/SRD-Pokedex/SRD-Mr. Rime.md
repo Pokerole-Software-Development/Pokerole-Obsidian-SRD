@@ -1,8 +1,8 @@
 ---
 Ability1: Tangled Feet
 Ability2: Screen Cleaner
-BookSprite: SRD-mr-BookSprite.-rime
-BoxSprite: SRD-mr-BoxSprite.-rime
+BookSprite: SRD-mr-rime-BookSprite.png
+BoxSprite: SRD-mr-rime-BoxSprite.png
 DexCategory: Comedian Pokemon
 DexDescription: "It\u2019s highly skilled at tap-dancing. It waves its cane of ice\
   \ in time, its amusing movements make it very popular and they love to entertain\
@@ -18,12 +18,12 @@ Height:
   Feet: 4.9
   Meters: 1.5
 HiddenAbility: Ice Body
-HomeSprite: SRD-mr-HomeSprite.-rime
-Image: mr.-rime.png
+HomeSprite: SRD-mr-rime-HomeSprite.png
+Image: mr-rime.png
 Learnset: '[[SRD-Mr. Rime-Learnset]]'
 Legendary: 'No'
 Number: 866
-ShuffleToken: SRD-mr-ShuffleToken.-rime
+ShuffleToken: SRD-mr-rime-ShuffleToken.png
 Type1: Ice
 Type2: Psychic
 Weight:
@@ -36,10 +36,10 @@ Weight:
 # `= this.name`
 
 > [!grid]
-> ![[SRD-mr-BookSprite.-rime|wsmall]]
-> ![[SRD-mr-HomeSprite.-rime]]
-> ![[SRD-mr-BoxSprite.-rime|htiny]]
-> ![[SRD-mr-ShuffleToken.-rime|wsmall]]
+> ![[SRD-mr-rime-BookSprite.png|wsmall]]
+> ![[SRD-mr-rime-HomeSprite.png]]
+> ![[SRD-mr-rime-BoxSprite.png|htiny]]
+> ![[SRD-mr-rime-ShuffleToken.png|wsmall]]
 
 
 *Comedian Pokemon*
