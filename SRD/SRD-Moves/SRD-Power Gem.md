@@ -3,11 +3,11 @@ Accuracy1: Dexterity
 Accuracy2: Channel
 AddedEffects: {}
 Attributes: {}
+Category: Special
 Damage1: Special
 Damage2: ''
 Description: The user attacks with a ray of light that comes out of the gem on its
   body.
-DmgType: Special
 Effect: '-'
 Name: Power Gem
 Power: 3
@@ -23,8 +23,8 @@ Type: Rock
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

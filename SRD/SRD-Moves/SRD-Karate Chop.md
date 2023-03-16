@@ -4,10 +4,10 @@ Accuracy2: Brawl
 AddedEffects: {}
 Attributes:
   HighCritical: true
+Category: Physical
 Damage1: Strength
 Damage2: ''
 Description: A basic fighting chop that has been practiced and mastered.
-DmgType: Physical
 Effect: High Critical.
 Name: Karate Chop
 Power: 3
@@ -23,8 +23,8 @@ Type: Fighting
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

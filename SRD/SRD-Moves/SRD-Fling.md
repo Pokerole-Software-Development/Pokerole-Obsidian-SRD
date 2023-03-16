@@ -4,11 +4,11 @@ Accuracy2: Brawl
 AddedEffects: {}
 Attributes:
   PhysicalRanged: true
+Category: Physical
 Damage1: Strength
 Damage2: ''
 Description: The usr takes its held item and throws it at the opponent. You may get
   it back after the fight.
-DmgType: Physical
 Effect: Ranged. Add up to 4 Dice to the Damage Pool, depending on the held item thrown.
   See P. 432 for more info.
 Name: Fling
@@ -25,8 +25,8 @@ Type: Dark
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

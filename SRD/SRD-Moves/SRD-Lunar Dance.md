@@ -4,11 +4,11 @@ Accuracy2: Perform
 AddedEffects: {}
 Attributes:
   UserFaints: true
+Category: Support
 Damage1: ''
 Damage2: ''
 Description: The moon shines at the darkest hours, reflecting the sun's lifebringer
   light on those who fell into the night, taking pity on their lost souls.
-DmgType: Support
 Effect: The user Faints. One fallen Ally regains consciousness, has its HP fully restored
   and all Status Ailments healed. If the Ally was not in-battle, it is called out
   and ready to fight.
@@ -26,8 +26,8 @@ Type: Psychic
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

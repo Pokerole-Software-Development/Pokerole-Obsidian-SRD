@@ -8,11 +8,11 @@ AddedEffects:
     Stats:
     - Special
 Attributes: {}
+Category: Special
 Damage1: Special
 Damage2: ''
 Description: The Pokemon lays on its back and struggles with the foe, disrupting the
   foe's concentration.
-DmgType: Special
 Effect: Reduce the foe's Special.
 Name: Struggle Bug
 Power: 1
@@ -28,8 +28,8 @@ Type: Bug
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

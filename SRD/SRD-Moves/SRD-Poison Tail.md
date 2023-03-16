@@ -8,11 +8,11 @@ AddedEffects:
     Type: Poison
 Attributes:
   HighCritical: true
+Category: Physical
 Damage1: Strength
 Damage2: ''
 Description: The tail of this Pokemon is sharp like a blade, it attacks with slashing
   movements and may release some poison through it.
-DmgType: Physical
 Effect: High Critical. Roll 1 Chance Dice to Poison the Foe.
 Name: Poison Tail
 Power: 2
@@ -28,8 +28,8 @@ Type: Poison
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

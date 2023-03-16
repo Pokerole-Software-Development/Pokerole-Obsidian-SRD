@@ -3,11 +3,11 @@ Accuracy1: Dexterity
 Accuracy2: Stealth
 AddedEffects: {}
 Attributes: {}
+Category: Support
 Damage1: ''
 Damage2: ''
 Description: The Pokemon hides sharp and point rocks all over the foe's side of the
   battlefield.
-DmgType: Support
 Effect: Entry Hazard. Foe Pokemon that enter the battlefield lose 1 HP. This effect
   does not stack.
 Name: Stealth Rock
@@ -24,8 +24,8 @@ Type: Rock
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

@@ -7,10 +7,10 @@ AddedEffects:
     Type: Basic
     WillPointCost: 1
 Attributes: {}
+Category: Support
 Damage1: ''
 Damage2: ''
 Description: The Pokemon gathers the sand around itself to restore its body to shape.
-DmgType: Support
 Effect: Basic Heal. If performed under Sandstorm weather, this move is a Complete
   Heal.
 Name: Shore Up
@@ -27,8 +27,8 @@ Type: Ground
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

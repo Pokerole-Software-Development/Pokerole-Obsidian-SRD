@@ -10,11 +10,11 @@ AddedEffects:
 Attributes:
   AccuracyReduction: 1
   PhysicalRanged: true
+Category: Physical
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon covers the foe in gravel and rocks, leaving it unable to
   move freely.
-DmgType: Physical
 Effect: Ranged. Reduce Foe's Dexterity. -1 Accuracy.
 Name: Rock Tomb
 Power: 2
@@ -30,8 +30,8 @@ Type: Rock
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

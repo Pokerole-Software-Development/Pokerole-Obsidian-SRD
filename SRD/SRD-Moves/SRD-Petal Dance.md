@@ -4,11 +4,11 @@ Accuracy2: Channel
 AddedEffects: {}
 Attributes:
   Rampage: true
+Category: Special
 Damage1: Special
 Damage2: ''
 Description: The Pokemon starts swirling petals around in a true display of nature's
   power, the petals are guided by the wind to strike the foe.
-DmgType: Special
 Effect: Rampage.
 Name: Petal Dance
 Power: 5
@@ -24,8 +24,8 @@ Type: Grass
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

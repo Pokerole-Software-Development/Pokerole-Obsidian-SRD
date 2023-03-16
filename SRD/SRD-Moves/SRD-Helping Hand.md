@@ -7,10 +7,10 @@ AddedEffects:
     Type: HelpingHand
 Attributes:
   Priority: 5
+Category: Support
 Damage1: ''
 Damage2: ''
 Description: The Pokemon assists an ally. Together they are stronger.
-DmgType: Support
 Effect: Target Pokemon gets 2 Extra Dice on its next Skill, Accuracy and Damage Rolls.
   Priority 5.
 Name: Helping Hand
@@ -27,8 +27,8 @@ Type: Normal
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

@@ -8,11 +8,11 @@ AddedEffects:
     Stats:
     - SpDef
 Attributes: {}
+Category: Support
 Damage1: ''
 Damage2: ''
 Description: The user stops battling and feigns to be crying, disrupting the foe's
   mood to battle and making it lower its guard.
-DmgType: Support
 Effect: Reduce the foe's Sp. Defense by 2.
 Name: Fake Tears
 Power: 0
@@ -28,8 +28,8 @@ Type: Dark
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

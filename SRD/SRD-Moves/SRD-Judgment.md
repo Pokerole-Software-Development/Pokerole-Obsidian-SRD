@@ -4,10 +4,10 @@ Accuracy2: Intimidate
 AddedEffects: {}
 Attributes:
   IgnoreDefenses: true
+Category: Special
 Damage1: Special
 Damage2: ''
 Description: Eventually, everyone gets what they deserve.
-DmgType: Special
 Effect: Ignore Defenses. This Move is considered to be any Type the user wants. If
   something would prevent this Move from dealing Damage, ignore it. This Move can't
   be Clashed. This Move's Power and extra Added Effects are decided by the Storyteller.
@@ -25,8 +25,8 @@ Type: Normal
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

@@ -9,12 +9,12 @@ AddedEffects:
 Attributes:
   AccuracyReduction: 1
   Lethal: true
+Category: Special
 Damage1: Special
 Damage2: ''
 Description: In less than a second, the sound of steam boiling over a raging engine
   thunders through the ears of the foe before it is shot through the sky by a scalding
   geyser.
-DmgType: Special
 Effect: Lethal. Roll 3 Chance Dice to Apply Burn 2 to those affected. -1 Accuracy.
 Name: Steam Eruption
 Power: 4
@@ -30,8 +30,8 @@ Type: Water
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

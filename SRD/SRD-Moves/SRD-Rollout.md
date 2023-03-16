@@ -5,11 +5,11 @@ AddedEffects: {}
 Attributes:
   AccuracyReduction: 1
   SuccessiveActions: true
+Category: Physical
 Damage1: Strength
 Damage2: ''
 Description: The user curls up into a ball and starts rolling towards its foe, trampling
   everything in its way.
-DmgType: Physical
 Effect: Successive Actions. Add 1 Extra Dice to the Damage Roll of the last Rollout
   hit the user performs. If the Pokemon used Defense Curl this Round, add 1 Extra
   Dice to the Damage Roll of every hit. -1 Accuracy.
@@ -27,8 +27,8 @@ Type: Rock
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

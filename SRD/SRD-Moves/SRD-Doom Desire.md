@@ -7,11 +7,11 @@ AddedEffects:
     Rounds: 1
     Type: DoomDesire
 Attributes: {}
+Category: Special
 Damage1: Special
 Damage2: ''
 Description: Be careful what you wish for, this Pokemon will read your most intimate
   wishes and make them come true in very twisted ways.
-DmgType: Special
 Effect: Strikes at the end of the Round after the next. Bypass Shield Moves and Cover.
   If the target retires or switches out from battle, the damage will be dealt to the
   next opponent or to one of its allies. Extra effects may be added at Storyteller's
@@ -30,8 +30,8 @@ Type: Steel
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

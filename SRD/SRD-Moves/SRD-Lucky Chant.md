@@ -6,11 +6,11 @@ AddedEffects:
   - Affects: Targets
     Type: LuckyChant
 Attributes: {}
+Category: Support
 Damage1: ''
 Damage2: ''
 Description: The user chants an incantation to the skies. The beautiful performance
   grants this Pokemon and its allies divine protection.
-DmgType: Support
 Effect: User and Allies in range can re-roll one un-successful die from all their
   rolls until the end of the scene. If an opponent would land a Critical Hit it doesn't.
   Outside of battle good things happen at the story tellers discretion.
@@ -28,8 +28,8 @@ Type: Normal
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

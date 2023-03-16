@@ -9,10 +9,10 @@ AddedEffects:
     - Dexterity
 Attributes:
   AccuracyReduction: 1
+Category: Physical
 Damage1: Strength
 Damage2: ''
 Description: A mighty arm thrust that leaves the user quite tired.
-DmgType: Physical
 Effect: After dealing damage, Reduce user's Dexterity. -1 Accuracy.
 Name: Hammer Arm
 Power: 4
@@ -28,8 +28,8 @@ Type: Fighting
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

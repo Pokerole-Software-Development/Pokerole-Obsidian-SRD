@@ -8,11 +8,11 @@ AddedEffects:
     Type: Burn2
 Attributes:
   FistBased: true
+Category: Physical
 Damage1: Strength
 Damage2: ''
 Description: The User can ignite its fists for a brief moment without any danger of
   getting burned. The foe may not be so lucky.
-DmgType: Physical
 Effect: Fist Based. Roll 1 Chance Dice to apply Burn 2 to the foe.
 Name: Fire Punch
 Power: 3
@@ -28,8 +28,8 @@ Type: Fire
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

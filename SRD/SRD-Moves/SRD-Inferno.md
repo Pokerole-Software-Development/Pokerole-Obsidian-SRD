@@ -8,11 +8,11 @@ AddedEffects:
 Attributes:
   AccuracyReduction: 3
   Lethal: true
+Category: Special
 Damage1: Special
 Damage2: ''
 Description: The Pokemon sets the foe on fire. These flames rise up to 6 feet. A very
   dangerous Move.
-DmgType: Special
 Effect: Lethal. Apply Burn 3 to the Foe. -3 Accuracy.
 Name: Inferno
 Power: 4
@@ -28,8 +28,8 @@ Type: Fire
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

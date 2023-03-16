@@ -5,10 +5,10 @@ AddedEffects: {}
 Attributes:
   DestroyShield: true
   ResetTerrain: true
+Category: Support
 Damage1: ''
 Damage2: ''
 Description: A strong current of wind that blows away any fog and even invisible barriers.
-DmgType: Support
 Effect: Remove all Barriers (ie. Light Screen, Reflect), Entry Hazards (Toxic Spikes,
   Stealth Rock, etc.), and Terrains (Misty Terrain, Electric Terrain, etc.) from the
   battlefield.
@@ -26,8 +26,8 @@ Type: Flying
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

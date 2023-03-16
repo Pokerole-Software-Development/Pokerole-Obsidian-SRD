@@ -6,11 +6,11 @@ AddedEffects:
   - Affects: Targets
     Type: Paralyze
 Attributes: {}
+Category: Physical
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon rubs its electrified cheeks against the foe, it looks very
   cute but it can be dangerous.
-DmgType: Physical
 Effect: Paralyze the foe.
 Name: Nuzzle
 Power: 1
@@ -26,8 +26,8 @@ Type: Electric
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

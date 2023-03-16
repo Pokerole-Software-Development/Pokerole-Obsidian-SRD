@@ -11,11 +11,11 @@ Attributes:
   Charge: true
   HighCritical: true
   Lethal: true
+Category: Physical
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon darts from the sky with a graceful and lethal strike, propelling
   with the wind, crushing the foe to the ground.
-DmgType: Physical
 Effect: Lethal. High Critical. Charge Move. Roll 3 Chance Dice to Flinch the foe.
   -1 Accuracy.
 Name: Sky Attack
@@ -32,8 +32,8 @@ Type: Flying
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

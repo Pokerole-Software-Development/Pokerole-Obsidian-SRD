@@ -8,11 +8,11 @@ AddedEffects:
     Stats:
     - Def
 Attributes: {}
+Category: Physical
 Damage1: Strength
 Damage2: ''
 Description: With a whip of fire, the Pokemon ensnares its foe, who is left defenseless
   and at its mercy.
-DmgType: Physical
 Effect: Reduce Foe's Defense.
 Name: Fire Lash
 Power: 3
@@ -28,8 +28,8 @@ Type: Fire
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

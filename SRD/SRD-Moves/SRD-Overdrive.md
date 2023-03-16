@@ -4,11 +4,11 @@ Accuracy2: Perform
 AddedEffects: {}
 Attributes:
   SoundBased: true
+Category: Special
 Damage1: Special
 Damage2: ''
 Description: The Pokemon uses its own body as an amplifier for the energizing sounds
   it produces.
-DmgType: Special
 Effect: All Foes in Range. Sound Based.
 Name: Overdrive
 Power: 3
@@ -24,8 +24,8 @@ Type: Electric
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

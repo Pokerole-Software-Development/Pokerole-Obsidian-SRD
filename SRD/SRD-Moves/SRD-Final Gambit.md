@@ -5,11 +5,11 @@ AddedEffects: {}
 Attributes:
   IgnoreDefenses: true
   UserFaints: true
+Category: Special
 Damage1: ''
 Damage2: ''
 Description: The Pokemon puts its last strength into an all-or-nothing attack. After
   that, it faints.
-DmgType: Special
 Effect: Ignore the foe's Defenses. The user faints after dealing damage.
 Name: Final Gambit
 Power: 0
@@ -25,8 +25,8 @@ Type: Fighting
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

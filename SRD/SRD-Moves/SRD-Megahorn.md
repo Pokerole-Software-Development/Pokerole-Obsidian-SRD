@@ -5,11 +5,11 @@ AddedEffects: {}
 Attributes:
   AccuracyReduction: 2
   Lethal: true
+Category: Physical
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon uses its strong horn(s) to pierce its foe and deal massive
   damage.
-DmgType: Physical
 Effect: Lethal Damage. -2 Accuracy.
 Name: Megahorn
 Power: 5
@@ -25,8 +25,8 @@ Type: Bug
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`

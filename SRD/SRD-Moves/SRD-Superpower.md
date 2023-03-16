@@ -10,11 +10,11 @@ AddedEffects:
     - Def
 Attributes:
   Lethal: true
+Category: Physical
 Damage1: Strength
 Damage2: ''
 Description: The Pokemon makes use of all its force to deliver a crushing strike to
   the foe, this demands a lot from the user.
-DmgType: Physical
 Effect: Lethal. Reduce User's Strength and Defense.
 Name: Superpower
 Power: 5
@@ -30,8 +30,8 @@ Type: Fighting
 **Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
 **Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
 
-| Type          | Target          | Damage Type          | Power          |
-| ------------- | --------------- | ---------------- | -------------- |
-| `= this.Type` | `= this.Target` | `= this.DmgType` | `= this.Power` | 
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
 
 **Effect:** `= this.Effect`
