@@ -16,8 +16,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-turtonator-HomeSprite.png
 Image: turtonator.png
-Learnset: '[[SRD-Turtonator-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Ember|Ember]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Smog|Smog]]'
+- - Beginner
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Incinerate|Incinerate]]'
+- - Amateur
+  - '[[SRD-Flail|Flail]]'
+- - Amateur
+  - '[[SRD-Endure|Endure]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Amateur
+  - '[[SRD-Shell Smash|Shell Smash]]'
+- - Amateur
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Shell Trap|Shell Trap]]'
+- - Ace
+  - '[[SRD-Overheat|Overheat]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Head Smash|Head Smash]]'
+- - Pro
+  - '[[SRD-Flame Charge|Flame Charge]]'
+- - Pro
+  - '[[SRD-Wide Guard|Wide Guard]]'
 Number: 776
 ShuffleToken: SRD-turtonator-ShuffleToken.png
 Type1: Fire
@@ -60,4 +104,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-![[SRD-Turtonator-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Turtonator.md"
+flatten moves as T
+where file.path = this.file.path
+```

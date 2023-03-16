@@ -16,8 +16,50 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-jirachi-HomeSprite.png
 Image: jirachi.png
-Learnset: '[[SRD-Jirachi-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Starter
+  - '[[SRD-Wish|Wish]]'
+- - Starter
+  - '[[SRD-Doom Desire|Doom Desire]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Meteor Mash|Meteor Mash]]'
+- - Pro
+  - '[[SRD-Swift|Swift]]'
+- - Pro
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Pro
+  - '[[SRD-Psychic|Psychic]]'
+- - Pro
+  - '[[SRD-Refresh|Refresh]]'
+- - Pro
+  - '[[SRD-Lucky Chant|Lucky Chant]]'
+- - Pro
+  - '[[SRD-Rest|Rest]]'
+- - Pro
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Pro
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Pro
+  - '[[SRD-Gravity|Gravity]]'
+- - Pro
+  - '[[SRD-Healing Wish|Healing Wish]]'
+- - Pro
+  - '[[SRD-Future Sight|Future Sight]]'
+- - Pro
+  - '[[SRD-Cosmic Power|Cosmic Power]]'
+- - Pro
+  - '[[SRD-Last Resort|Last Resort]]'
+- - Pro
+  - '[[SRD-Confusion|Confusion]]'
+- - Pro
+  - '[[SRD-Confide|Confide]]'
+- - Pro
+  - '[[SRD-Trick|Trick]]'
+- - Pro
+  - '[[SRD-Trick Room|Trick Room]]'
 Number: 385
 ShuffleToken: SRD-jirachi-ShuffleToken.png
 Type1: Steel
@@ -60,4 +102,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-![[SRD-Jirachi-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Jirachi.md"
+flatten moves as T
+where file.path = this.file.path
+```

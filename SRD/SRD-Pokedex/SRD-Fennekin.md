@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Magician
 HomeSprite: SRD-fennekin-HomeSprite.png
 Image: fennekin.png
-Learnset: '[[SRD-Fennekin-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - Beginner
+  - '[[SRD-Howl|Howl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Flame Charge|Flame Charge]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Fire Spin|Fire Spin]]'
+- - Amateur
+  - '[[SRD-Lucky Chant|Lucky Chant]]'
+- - Amateur
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Amateur
+  - '[[SRD-Psyshock|Psyshock]]'
+- - Amateur
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - Amateur
+  - '[[SRD-Will-O-Wisp|Will-O-Wisp]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Sunny Day|Sunny Day]]'
+- - Ace
+  - '[[SRD-Magic Room|Magic Room]]'
+- - Ace
+  - '[[SRD-Fire Blast|Fire Blast]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Pro
+  - '[[SRD-Wish|Wish]]'
+- - Pro
+  - '[[SRD-Fire Pledge|Fire Pledge]]'
 Number: 653
 ShuffleToken: SRD-fennekin-ShuffleToken.png
 Type1: Fire
@@ -68,4 +114,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Braixen]] | Level  | Medium  |
 
-![[SRD-Fennekin-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Fennekin.md"
+flatten moves as T
+where file.path = this.file.path
+```

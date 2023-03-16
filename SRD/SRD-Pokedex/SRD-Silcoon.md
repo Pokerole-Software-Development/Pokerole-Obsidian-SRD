@@ -24,8 +24,18 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-silcoon-HomeSprite.png
 Image: silcoon.png
-Learnset: '[[SRD-Silcoon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Electroweb|Electroweb]]'
 Number: 266
 ShuffleToken: SRD-silcoon-ShuffleToken.png
 Type1: Bug
@@ -73,4 +83,14 @@ Weight:
 | From      | [[SRD-Wurmple]]   | Level  | Fast    |
 | To        | [[SRD-Beautifly]] | Level  | Fast    |
 
-![[SRD-Silcoon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Silcoon.md"
+flatten moves as T
+where file.path = this.file.path
+```

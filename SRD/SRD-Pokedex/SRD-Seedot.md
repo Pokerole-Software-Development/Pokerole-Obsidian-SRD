@@ -20,8 +20,36 @@ Height:
 HiddenAbility: Pickpocket
 HomeSprite: SRD-seedot-HomeSprite.png
 Image: seedot.png
-Learnset: '[[SRD-Seedot-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bide|Bide]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Harden|Harden]]'
+- - Beginner
+  - '[[SRD-Growth|Growth]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Nature Power|Nature Power]]'
+- - Amateur
+  - '[[SRD-Synthesis|Synthesis]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Sunny Day|Sunny Day]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Bullet Seed|Bullet Seed]]'
+- - Pro
+  - '[[SRD-Grassy Terrain|Grassy Terrain]]'
+- - Pro
+  - '[[SRD-Worry Seed|Worry Seed]]'
 Number: 273
 ShuffleToken: SRD-seedot-ShuffleToken.png
 Type1: Grass
@@ -68,4 +96,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Nuzleaf]] | Level  | Medium  |
 
-![[SRD-Seedot-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Seedot.md"
+flatten moves as T
+where file.path = this.file.path
+```

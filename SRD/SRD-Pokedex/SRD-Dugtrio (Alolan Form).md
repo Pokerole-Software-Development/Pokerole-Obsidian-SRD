@@ -20,8 +20,58 @@ Height:
 HiddenAbility: Sand Force
 HomeSprite: SRD-dugtrio-alolan-form-HomeSprite.png
 Image: dugtrio-alolan-form.png
-Learnset: '[[SRD-Dugtrio (Alolan Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Starter
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - Beginner
+  - '[[SRD-Astonish|Astonish]]'
+- - Beginner
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Rototiller|Rototiller]]'
+- - Amateur
+  - '[[SRD-Dig|Dig]]'
+- - Amateur
+  - '[[SRD-Tri Attack|Tri Attack]]'
+- - Amateur
+  - '[[SRD-Sand Tomb|Sand Tomb]]'
+- - Amateur
+  - '[[SRD-Magnitude|Magnitude]]'
+- - Amateur
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - Amateur
+  - '[[SRD-Earth Power|Earth Power]]'
+- - Amateur
+  - '[[SRD-Mud Bomb|Mud Bomb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Ace
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Ace
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Fissure|Fissure]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Pro
+  - '[[SRD-Thrash|Thrash]]'
+- - Pro
+  - '[[SRD-Stone Edge|Stone Edge]]'
 Number: 51
 ShuffleToken: SRD-dugtrio-alolan-form-ShuffleToken.png
 Type1: Ground
@@ -68,4 +118,14 @@ Weight:
 |:----------|:------------------------------|:-------|:--------|
 | From      | [[SRD-Diglett (Alolan Form)]] | Level  | Medium  |
 
-![[SRD-Dugtrio (Alolan Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Dugtrio (Alolan Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

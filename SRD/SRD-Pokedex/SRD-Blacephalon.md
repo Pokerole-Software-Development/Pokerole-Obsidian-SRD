@@ -16,8 +16,38 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-blacephalon-HomeSprite.png
 Image: blacephalon.png
-Learnset: '[[SRD-Blacephalon-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Ember|Ember]]'
+- - Master
+  - '[[SRD-Astonish|Astonish]]'
+- - Master
+  - '[[SRD-Magic Coat|Magic Coat]]'
+- - Master
+  - '[[SRD-Stored Power|Stored Power]]'
+- - Master
+  - '[[SRD-Flame Burst|Flame Burst]]'
+- - Master
+  - '[[SRD-Night Shade|Night Shade]]'
+- - Master
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Master
+  - '[[SRD-Calm Mind|Calm Mind]]'
+- - Master
+  - '[[SRD-Fire Blast|Fire Blast]]'
+- - Master
+  - '[[SRD-Shadow Ball|Shadow Ball]]'
+- - Master
+  - '[[SRD-Trick|Trick]]'
+- - Master
+  - '[[SRD-Mind Blown|Mind Blown]]'
+- - Master
+  - '[[SRD-Explosion|Explosion]]'
+- - Master
+  - '[[SRD-Spite|Spite]]'
+- - Master
+  - '[[SRD-Heat Wave|Heat Wave]]'
 Number: 806
 ShuffleToken: SRD-blacephalon-ShuffleToken.png
 Type1: Fire
@@ -60,4 +90,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-![[SRD-Blacephalon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Blacephalon.md"
+flatten moves as T
+where file.path = this.file.path
+```

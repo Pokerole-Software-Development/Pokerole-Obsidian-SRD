@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Guts
 HomeSprite: SRD-flareon-HomeSprite.png
 Image: flareon.png
-Learnset: '[[SRD-Flareon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Amateur
+  - '[[SRD-Fire Spin|Fire Spin]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Smog|Smog]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Lava Plume|Lava Plume]]'
+- - Ace
+  - '[[SRD-Last Resort|Last Resort]]'
+- - Ace
+  - '[[SRD-Flare Blitz|Flare Blitz]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Wish|Wish]]'
+- - Pro
+  - '[[SRD-Detect|Detect]]'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
 Number: 136
 ShuffleToken: SRD-flareon-ShuffleToken.png
 Type1: Fire
@@ -68,4 +110,14 @@ Weight:
 |:----------|:--------------|:-------|:-----------|
 | From      | [[SRD-Eevee]] | Stone  | Fire Stone |
 
-![[SRD-Flareon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Flareon.md"
+flatten moves as T
+where file.path = this.file.path
+```

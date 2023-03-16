@@ -16,8 +16,58 @@ Height:
 HiddenAbility: Protean
 HomeSprite: SRD-kecleon-HomeSprite.png
 Image: kecleon.png
-Learnset: '[[SRD-Kecleon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - Starter
+  - '[[SRD-Thief|Thief]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Lick|Lick]]'
+- - Beginner
+  - '[[SRD-Scratch|Scratch]]'
+- - Beginner
+  - '[[SRD-Bind|Bind]]'
+- - Beginner
+  - '[[SRD-Feint|Feint]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Shadow Sneak|Shadow Sneak]]'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Camouflage|Camouflage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Substitute|Substitute]]'
+- - Ace
+  - '[[SRD-Shadow Claw|Shadow Claw]]'
+- - Ace
+  - '[[SRD-Synchronoise|Synchronoise]]'
+- - Ace
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Snatch|Snatch]]'
+- - Pro
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Pro
+  - '[[SRD-Trick|Trick]]'
 Number: 352
 ShuffleToken: SRD-kecleon-ShuffleToken.png
 Type1: Normal
@@ -60,4 +110,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Kecleon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Kecleon.md"
+flatten moves as T
+where file.path = this.file.path
+```

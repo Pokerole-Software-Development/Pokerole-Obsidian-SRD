@@ -20,8 +20,36 @@ Height:
 HiddenAbility: Drizzle
 HomeSprite: SRD-politoed-HomeSprite.png
 Image: politoed.png
-Learnset: '[[SRD-Politoed-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Beginner
+  - '[[SRD-Double Slap|Double Slap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Perish Song|Perish Song]]'
+- - Amateur
+  - '[[SRD-Swagger|Swagger]]'
+- - Amateur
+  - '[[SRD-Bounce|Bounce]]'
+- - Amateur
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Amateur
+  - '[[SRD-Mud Shot|Mud Shot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Refresh|Refresh]]'
 Number: 186
 ShuffleToken: SRD-politoed-ShuffleToken.png
 Type1: Water
@@ -68,4 +96,14 @@ Weight:
 |:----------|:------------------|:-------|:------------|
 | From      | [[SRD-Poliwhirl]] | Trade  | King's Rock |
 
-![[SRD-Politoed-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Politoed.md"
+flatten moves as T
+where file.path = this.file.path
+```

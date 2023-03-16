@@ -19,8 +19,46 @@ Height:
 HiddenAbility: Defiant
 HomeSprite: SRD-tornadus-HomeSprite.png
 Image: tornadus.png
-Learnset: '[[SRD-Tornadus-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Uproar|Uproar]]'
+- - Master
+  - '[[SRD-Astonish|Astonish]]'
+- - Master
+  - '[[SRD-Gust|Gust]]'
+- - Master
+  - '[[SRD-Swagger|Swagger]]'
+- - Master
+  - '[[SRD-Bite|Bite]]'
+- - Master
+  - '[[SRD-Revenge|Revenge]]'
+- - Master
+  - '[[SRD-Air Cutter|Air Cutter]]'
+- - Master
+  - '[[SRD-Extrasensory|Extrasensory]]'
+- - Master
+  - '[[SRD-Agility|Agility]]'
+- - Master
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Master
+  - '[[SRD-Crunch|Crunch]]'
+- - Master
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Master
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Master
+  - '[[SRD-Hurricane|Hurricane]]'
+- - Master
+  - '[[SRD-Dark Pulse|Dark Pulse]]'
+- - Master
+  - '[[SRD-Hammer Arm|Hammer Arm]]'
+- - Master
+  - '[[SRD-Thrash|Thrash]]'
+- - Master
+  - '[[SRD-Whirlwind|Whirlwind]]'
+- - Master
+  - '[[SRD-Defog|Defog]]'
 Number: 641
 ShuffleToken: SRD-tornadus-ShuffleToken.png
 Type1: Flying
@@ -67,4 +105,14 @@ Weight:
 |:----------|:--------------------------------|:-------|
 | To        | [[SRD-Tornadus (Therian Form)]] | Form   |
 
-![[SRD-Tornadus-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Tornadus.md"
+flatten moves as T
+where file.path = this.file.path
+```

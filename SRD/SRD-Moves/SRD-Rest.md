@@ -7,7 +7,9 @@ AddedEffects:
     Rounds: 1
     Type: Sleep
   Heal:
+    Target: Targets
     Type: Complete
+    WillPointCost: 1
 Attributes: {}
 Damage1: ''
 Damage2: ''

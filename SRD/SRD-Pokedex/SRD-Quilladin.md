@@ -24,8 +24,52 @@ Height:
 HiddenAbility: Bulletproof
 HomeSprite: SRD-quilladin-HomeSprite.png
 Image: quilladin.png
-Learnset: '[[SRD-Quilladin-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Vine Whip|Vine Whip]]'
+- - Beginner
+  - '[[SRD-Rollout|Rollout]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Amateur
+  - '[[SRD-Pin Missile|Pin Missile]]'
+- - Amateur
+  - '[[SRD-Needle Arm|Needle Arm]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Seed Bomb|Seed Bomb]]'
+- - Amateur
+  - '[[SRD-Mud Shot|Mud Shot]]'
+- - Amateur
+  - '[[SRD-Bulk Up|Bulk Up]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Ace
+  - '[[SRD-Pain Split|Pain Split]]'
+- - Ace
+  - '[[SRD-Wood Hammer|Wood Hammer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Drain Punch|Drain Punch]]'
+- - Pro
+  - '[[SRD-Grass Pledge|Grass Pledge]]'
 Number: 651
 ShuffleToken: SRD-quilladin-ShuffleToken.png
 Type1: Grass
@@ -73,4 +117,14 @@ Weight:
 | From      | [[SRD-Chespin]]    | Level  | Medium  |
 | To        | [[SRD-Chesnaught]] | Level  | Medium  |
 
-![[SRD-Quilladin-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Quilladin.md"
+flatten moves as T
+where file.path = this.file.path
+```

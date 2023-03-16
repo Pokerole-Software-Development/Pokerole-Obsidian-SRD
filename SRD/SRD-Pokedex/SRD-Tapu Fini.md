@@ -15,8 +15,52 @@ Height:
 HiddenAbility: Telepathy
 HomeSprite: SRD-tapu-fini-HomeSprite.png
 Image: tapu-fini.png
-Learnset: '[[SRD-Tapu Fini-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Misty Terrain|Misty Terrain]]'
+- - Master
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Master
+  - '[[SRD-Heal Pulse|Heal Pulse]]'
+- - Master
+  - '[[SRD-Mean Look|Mean Look]]'
+- - Master
+  - '[[SRD-Haze|Haze]]'
+- - Master
+  - '[[SRD-Mist|Mist]]'
+- - Master
+  - '[[SRD-Withdraw|Withdraw]]'
+- - Master
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Master
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Master
+  - '[[SRD-Whirlpool|Whirlpool]]'
+- - Master
+  - '[[SRD-Soak|Soak]]'
+- - Master
+  - '[[SRD-Refresh|Refresh]]'
+- - Master
+  - '[[SRD-Brine|Brine]]'
+- - Master
+  - '[[SRD-Defog|Defog]]'
+- - Master
+  - '[[SRD-Nature''s Madness|Nature''s Madness]]'
+- - Master
+  - '[[SRD-Muddy Water|Muddy Water]]'
+- - Master
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Master
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Master
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Master
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Master
+  - '[[SRD-Wonder Room|Wonder Room]]'
+- - Master
+  - '[[SRD-Knock Off|Knock Off]]'
 Number: 788
 ShuffleToken: SRD-tapu-fini-ShuffleToken.png
 Type1: Water
@@ -59,4 +103,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-![[SRD-Tapu Fini-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Tapu Fini.md"
+flatten moves as T
+where file.path = this.file.path
+```

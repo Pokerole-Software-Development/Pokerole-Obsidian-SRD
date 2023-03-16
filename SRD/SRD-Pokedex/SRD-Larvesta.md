@@ -20,8 +20,46 @@ Height:
 HiddenAbility: Swarm
 HomeSprite: SRD-larvesta-HomeSprite.png
 Image: larvesta.png
-Learnset: '[[SRD-Larvesta-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Ember|Ember]]'
+- - Starter
+  - '[[SRD-String Shot|String Shot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Absorb|Absorb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Flame Charge|Flame Charge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Flame Wheel|Flame Wheel]]'
+- - Ace
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - Ace
+  - '[[SRD-Amnesia|Amnesia]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Thrash|Thrash]]'
+- - Pro
+  - '[[SRD-Flare Blitz|Flare Blitz]]'
+- - Pro
+  - '[[SRD-Harden|Harden]]'
+- - Pro
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Pro
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
 Number: 636
 ShuffleToken: SRD-larvesta-ShuffleToken.png
 Type1: Bug
@@ -68,4 +106,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Volcarona]] | Level  | Medium  |
 
-![[SRD-Larvesta-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Larvesta.md"
+flatten moves as T
+where file.path = this.file.path
+```

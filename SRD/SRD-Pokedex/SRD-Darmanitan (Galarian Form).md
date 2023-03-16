@@ -22,8 +22,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-darmanitan-galarian-form-HomeSprite.png
 Image: darmanitan-galarian-form.png
-Learnset: '[[SRD-Darmanitan (Galarian Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Taunt|Taunt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Powder Snow|Powder Snow]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Avalanche|Avalanche]]'
+- - Amateur
+  - '[[SRD-Work Up|Work Up]]'
+- - Amateur
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Ice Punch|Ice Punch]]'
+- - Amateur
+  - '[[SRD-Uproar|Uproar]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Belly Drum|Belly Drum]]'
+- - Ace
+  - '[[SRD-Blizzard|Blizzard]]'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - Ace
+  - '[[SRD-Superpower|Superpower]]'
+- - Ace
+  - '[[SRD-Icicle Crash|Icicle Crash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Thief|Thief]]'
+- - Pro
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - Pro
+  - '[[SRD-Freeze Dry|Freeze Dry]]'
 Number: 555
 ShuffleToken: SRD-darmanitan-galarian-form-ShuffleToken.png
 Type1: Ice
@@ -71,4 +115,14 @@ Weight:
 | From      | [[SRD-Darumaka (Galarian Form)]]       | Stone  | Ice Stone |
 | To        | [[SRD-Darmanitan (Galarian Zen Form)]] | Form   |           |
 
-![[SRD-Darmanitan (Galarian Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Darmanitan (Galarian Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

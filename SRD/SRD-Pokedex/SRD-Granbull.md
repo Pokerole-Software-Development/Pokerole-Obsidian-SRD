@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Rattled
 HomeSprite: SRD-granbull-HomeSprite.png
 Image: granbull.png
-Learnset: '[[SRD-Granbull-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Charm|Charm]]'
+- - Beginner
+  - '[[SRD-Scary Face|Scary Face]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Amateur
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Amateur
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Lick|Lick]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Rage|Rage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Roar|Roar]]'
+- - Ace
+  - '[[SRD-Play Rough|Play Rough]]'
+- - Ace
+  - '[[SRD-Payback|Payback]]'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Outrage|Outrage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Super Fang|Super Fang]]'
+- - Pro
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Pro
+  - '[[SRD-Close Combat|Close Combat]]'
 Number: 210
 ShuffleToken: SRD-granbull-ShuffleToken.png
 Type1: Fairy
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Snubbull]] | Level  | Medium  |
 
-![[SRD-Granbull-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Granbull.md"
+flatten moves as T
+where file.path = this.file.path
+```

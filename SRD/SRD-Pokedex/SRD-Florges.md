@@ -20,8 +20,46 @@ Height:
 HiddenAbility: Symbiosis
 HomeSprite: SRD-florges-HomeSprite.png
 Image: florges.png
-Learnset: '[[SRD-Florges-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Disarming Voice|Disarming Voice]]'
+- - Starter
+  - '[[SRD-Flower Shield|Flower Shield]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Lucky Chant|Lucky Chant]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Wish|Wish]]'
+- - Amateur
+  - '[[SRD-Magical Leaf|Magical Leaf]]'
+- - Amateur
+  - '[[SRD-Grassy Terrain|Grassy Terrain]]'
+- - Amateur
+  - '[[SRD-Petal Blizzard|Petal Blizzard]]'
+- - Amateur
+  - '[[SRD-Aromatherapy|Aromatherapy]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Misty Terrain|Misty Terrain]]'
+- - Ace
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Ace
+  - '[[SRD-Petal Dance|Petal Dance]]'
+- - Ace
+  - '[[SRD-Grass Knot|Grass Knot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Heal Bell|Heal Bell]]'
+- - Pro
+  - '[[SRD-Synthesis|Synthesis]]'
+- - Pro
+  - '[[SRD-Magic Coat|Magic Coat]]'
 Number: 671
 ShuffleToken: SRD-florges-ShuffleToken.png
 Type1: Fairy
@@ -68,4 +106,14 @@ Weight:
 |:----------|:----------------|:-------|:------------|
 | From      | [[SRD-Floette]] | Stone  | Shiny Stone |
 
-![[SRD-Florges-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Florges.md"
+flatten moves as T
+where file.path = this.file.path
+```

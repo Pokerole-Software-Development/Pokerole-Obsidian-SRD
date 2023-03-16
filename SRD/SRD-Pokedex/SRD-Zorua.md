@@ -20,8 +20,54 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-zorua-HomeSprite.png
 Image: zorua.png
-Learnset: '[[SRD-Zorua-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Beginner
+  - '[[SRD-Fake Tears|Fake Tears]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Foul Play|Foul Play]]'
+- - Amateur
+  - '[[SRD-Torment|Torment]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Embargo|Embargo]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Punishment|Punishment]]'
+- - Ace
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Ace
+  - '[[SRD-Imprison|Imprison]]'
+- - Ace
+  - '[[SRD-Night Daze|Night Daze]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Extrasensory|Extrasensory]]'
+- - Pro
+  - '[[SRD-Detect|Detect]]'
+- - Pro
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
 Number: 570
 ShuffleToken: SRD-zorua-ShuffleToken.png
 Type1: Dark
@@ -68,4 +114,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Zoroark]] | Level  | Medium  |
 
-![[SRD-Zorua-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Zorua.md"
+flatten moves as T
+where file.path = this.file.path
+```

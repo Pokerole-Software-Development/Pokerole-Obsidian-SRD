@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Hustle
 HomeSprite: SRD-rufflet-HomeSprite.png
 Image: rufflet.png
-Learnset: '[[SRD-Rufflet-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Beginner
+  - '[[SRD-Wing Attack|Wing Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Hone Claws|Hone Claws]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Aerial Ace|Aerial Ace]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Defog|Defog]]'
+- - Amateur
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Amateur
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Amateur
+  - '[[SRD-Crush Claw|Crush Claw]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Sky Drop|Sky Drop]]'
+- - Ace
+  - '[[SRD-Whirlwind|Whirlwind]]'
+- - Ace
+  - '[[SRD-Brave Bird|Brave Bird]]'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Pluck|Pluck]]'
+- - Pro
+  - '[[SRD-Superpower|Superpower]]'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
 Number: 627
 ShuffleToken: SRD-rufflet-ShuffleToken.png
 Type1: Normal
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Braviary]] | Level  | Slow    |
 
-![[SRD-Rufflet-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Rufflet.md"
+flatten moves as T
+where file.path = this.file.path
+```

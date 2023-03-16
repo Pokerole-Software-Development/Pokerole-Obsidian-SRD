@@ -20,8 +20,30 @@ Height:
 HiddenAbility: Skill Link
 HomeSprite: SRD-cinccino-HomeSprite.png
 Image: cinccino.png
-Learnset: '[[SRD-Cinccino-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Beginner
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Beginner
+  - '[[SRD-Tickle|Tickle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bullet Seed|Bullet Seed]]'
+- - Amateur
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - Amateur
+  - '[[SRD-Sing|Sing]]'
+- - Amateur
+  - '[[SRD-Tail Slap|Tail Slap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Pro
+  - '[[SRD-Iron Tail|Iron Tail]]'
+- - Pro
+  - '[[SRD-Fake Tears|Fake Tears]]'
 Number: 573
 ShuffleToken: SRD-cinccino-ShuffleToken.png
 Type1: Normal
@@ -68,4 +90,14 @@ Weight:
 |:----------|:-----------------|:-------|:------------|
 | From      | [[SRD-Minccino]] | Stone  | Shiny Stone |
 
-![[SRD-Cinccino-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Cinccino.md"
+flatten moves as T
+where file.path = this.file.path
+```

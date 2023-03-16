@@ -24,8 +24,20 @@ Height:
 HiddenAbility: Friend Guard
 HomeSprite: SRD-spewpa-HomeSprite.png
 Image: spewpa.png
-Learnset: '[[SRD-Spewpa-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Electroweb|Electroweb]]'
 Number: 665
 ShuffleToken: SRD-spewpa-ShuffleToken.png
 Type1: Bug
@@ -73,4 +85,14 @@ Weight:
 | From      | [[SRD-Scatterbug]] | Level  | Fast    |
 | To        | [[SRD-Vivillon]]   | Level  | Fast    |
 
-![[SRD-Spewpa-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Spewpa.md"
+flatten moves as T
+where file.path = this.file.path
+```

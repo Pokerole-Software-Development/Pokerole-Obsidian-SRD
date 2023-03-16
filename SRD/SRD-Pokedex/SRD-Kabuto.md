@@ -20,8 +20,46 @@ Height:
 HiddenAbility: Weak Armor
 HomeSprite: SRD-kabuto-HomeSprite.png
 Image: kabuto.png
-Learnset: '[[SRD-Kabuto-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Absorb|Absorb]]'
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Mud Shot|Mud Shot]]'
+- - Amateur
+  - '[[SRD-Endure|Endure]]'
+- - Amateur
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - Amateur
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Amateur
+  - '[[SRD-Metal Sound|Metal Sound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Ace
+  - '[[SRD-Wring Out|Wring Out]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Pro
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
 Number: 140
 ShuffleToken: SRD-kabuto-ShuffleToken.png
 Type1: Rock
@@ -68,4 +106,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Kabutops]] | Level  | Slow    |
 
-![[SRD-Kabuto-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Kabuto.md"
+flatten moves as T
+where file.path = this.file.path
+```

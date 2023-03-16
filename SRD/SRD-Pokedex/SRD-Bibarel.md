@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Moody
 HomeSprite: SRD-bibarel-HomeSprite.png
 Image: bibarel.png
-Learnset: '[[SRD-Bibarel-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Take Down|Take Down]]'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - Beginner
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Rollout|Rollout]]'
+- - Amateur
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Hyper Fang|Hyper Fang]]'
+- - Amateur
+  - '[[SRD-Yawn|Yawn]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Amateur
+  - '[[SRD-Rototiller|Rototiller]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Super Fang|Super Fang]]'
+- - Ace
+  - '[[SRD-Superpower|Superpower]]'
+- - Ace
+  - '[[SRD-Curse|Curse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Pro
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Pro
+  - '[[SRD-Focus Punch|Focus Punch]]'
 Number: 400
 ShuffleToken: SRD-bibarel-ShuffleToken.png
 Type1: Normal
@@ -68,4 +114,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Bidoof]] | Level  | Medium  |
 
-![[SRD-Bibarel-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Bibarel.md"
+flatten moves as T
+where file.path = this.file.path
+```

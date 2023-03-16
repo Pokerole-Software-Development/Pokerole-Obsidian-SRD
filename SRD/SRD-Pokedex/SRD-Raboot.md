@@ -24,8 +24,44 @@ Height:
 HiddenAbility: Libero
 HomeSprite: SRD-raboot-HomeSprite.png
 Image: raboot.png
-Learnset: '[[SRD-Raboot-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Double Kick|Double Kick]]'
+- - Amateur
+  - '[[SRD-Flame Charge|Flame Charge]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Counter|Counter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Bounce|Bounce]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Work Up|Work Up]]'
+- - Pro
+  - '[[SRD-High Jump Kick|High Jump Kick]]'
+- - Pro
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
 Number: 814
 ShuffleToken: SRD-raboot-ShuffleToken.png
 Type1: Fire
@@ -73,4 +109,14 @@ Weight:
 | From      | [[SRD-Scorbunny]] | Level  | Medium  |
 | To        | [[SRD-Cinderace]] | Level  | Medium  |
 
-![[SRD-Raboot-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Raboot.md"
+flatten moves as T
+where file.path = this.file.path
+```

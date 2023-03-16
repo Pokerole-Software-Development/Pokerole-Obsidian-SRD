@@ -16,8 +16,54 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-buzzwole-HomeSprite.png
 Image: buzzwole.png
-Learnset: '[[SRD-Buzzwole-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Fell Stinger|Fell Stinger]]'
+- - Master
+  - '[[SRD-Thunder Punch|Thunder Punch]]'
+- - Master
+  - '[[SRD-Ice Punch|Ice Punch]]'
+- - Master
+  - '[[SRD-Power-Up Punch|Power-Up Punch]]'
+- - Master
+  - '[[SRD-Reversal|Reversal]]'
+- - Master
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Master
+  - '[[SRD-Comet Punch|Comet Punch]]'
+- - Master
+  - '[[SRD-Harden|Harden]]'
+- - Master
+  - '[[SRD-Bulk Up|Bulk Up]]'
+- - Master
+  - '[[SRD-Vital Throw|Vital Throw]]'
+- - Master
+  - '[[SRD-Endure|Endure]]'
+- - Master
+  - '[[SRD-Leech Life|Leech Life]]'
+- - Master
+  - '[[SRD-Taunt|Taunt]]'
+- - Master
+  - '[[SRD-Mega Punch|Mega Punch]]'
+- - Master
+  - '[[SRD-Counter|Counter]]'
+- - Master
+  - '[[SRD-Hammer Arm|Hammer Arm]]'
+- - Master
+  - '[[SRD-Lunge|Lunge]]'
+- - Master
+  - '[[SRD-Dynamic Punch|Dynamic Punch]]'
+- - Master
+  - '[[SRD-Superpower|Superpower]]'
+- - Master
+  - '[[SRD-Focus Punch|Focus Punch]]'
+- - Master
+  - '[[SRD-Drain Punch|Drain Punch]]'
+- - Master
+  - '[[SRD-Outrage|Outrage]]'
+- - Master
+  - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
 Number: 794
 ShuffleToken: SRD-buzzwole-ShuffleToken.png
 Type1: Bug
@@ -60,4 +106,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-![[SRD-Buzzwole-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Buzzwole.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Sand Force
 HomeSprite: SRD-diglett-alolan-form-HomeSprite.png
 Image: diglett-alolan-form.png
-Learnset: '[[SRD-Diglett (Alolan Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Starter
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - Beginner
+  - '[[SRD-Astonish|Astonish]]'
+- - Beginner
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Magnitude|Magnitude]]'
+- - Amateur
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - Amateur
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Amateur
+  - '[[SRD-Mud Bomb|Mud Bomb]]'
+- - Amateur
+  - '[[SRD-Earth Power|Earth Power]]'
+- - Amateur
+  - '[[SRD-Dig|Dig]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Fissure|Fissure]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Pro
+  - '[[SRD-Metal Sound|Metal Sound]]'
+- - Pro
+  - '[[SRD-Thrash|Thrash]]'
 Number: 50
 ShuffleToken: SRD-diglett-alolan-form-ShuffleToken.png
 Type1: Ground
@@ -68,4 +110,14 @@ Weight:
 |:----------|:------------------------------|:-------|:--------|
 | To        | [[SRD-Dugtrio (Alolan Form)]] | Level  | Medium  |
 
-![[SRD-Diglett (Alolan Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Diglett (Alolan Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

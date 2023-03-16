@@ -24,8 +24,54 @@ Height:
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-venusaur-HomeSprite.png
 Image: venusaur.png
-Learnset: '[[SRD-Venusaur-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Beginner
+  - '[[SRD-Vine Whip|Vine Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Poison Powder|Poison Powder]]'
+- - Amateur
+  - '[[SRD-Sleep Powder|Sleep Powder]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Amateur
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Amateur
+  - '[[SRD-Growth|Growth]]'
+- - Amateur
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Amateur
+  - '[[SRD-Petal Dance|Petal Dance]]'
+- - Amateur
+  - '[[SRD-Worry Seed|Worry Seed]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Synthesis|Synthesis]]'
+- - Ace
+  - '[[SRD-Petal Blizzard|Petal Blizzard]]'
+- - Ace
+  - '[[SRD-Solar Beam|Solar Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
+- - Pro
+  - '[[SRD-Curse|Curse]]'
+- - Pro
+  - '[[SRD-Frenzy Plant|Frenzy Plant]]'
 Number: 3
 ShuffleToken: SRD-venusaur-ShuffleToken.png
 Type1: Grass
@@ -74,4 +120,14 @@ If you find one in the wild, it must be the protector of the area.*
 | From      | [[SRD-Ivysaur]]              | Level  | Medium  |             |
 | To        | [[SRD-Venusaur (Mega Form)]] | Mega   |         | Venusaurite |
 
-![[SRD-Venusaur-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Venusaur.md"
+flatten moves as T
+where file.path = this.file.path
+```

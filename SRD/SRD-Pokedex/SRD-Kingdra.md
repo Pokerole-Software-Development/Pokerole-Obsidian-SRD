@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Damp
 HomeSprite: SRD-kingdra-HomeSprite.png
 Image: kingdra.png
-Learnset: '[[SRD-Kingdra-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bubble|Bubble]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Beginner
+  - '[[SRD-Smokescreen|Smokescreen]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Amateur
+  - '[[SRD-Yawn|Yawn]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Amateur
+  - '[[SRD-Brine|Brine]]'
+- - Amateur
+  - '[[SRD-Twister|Twister]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Draco Meteor|Draco Meteor]]'
+- - Pro
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Pro
+  - '[[SRD-Muddy Water|Muddy Water]]'
 Number: 230
 ShuffleToken: SRD-kingdra-ShuffleToken.png
 Type1: Water
@@ -68,4 +108,14 @@ Weight:
 |:----------|:---------------|:-------|:-------------|
 | From      | [[SRD-Seadra]] | Trade  | Dragon Scale |
 
-![[SRD-Kingdra-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Kingdra.md"
+flatten moves as T
+where file.path = this.file.path
+```

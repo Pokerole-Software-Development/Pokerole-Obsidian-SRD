@@ -28,8 +28,48 @@ Height:
 HiddenAbility: Swift Swim
 HomeSprite: SRD-poliwhirl-HomeSprite.png
 Image: poliwhirl.png
-Learnset: '[[SRD-Poliwhirl-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Water Sport|Water Sport]]'
+- - Starter
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Beginner
+  - '[[SRD-Bubble|Bubble]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Amateur
+  - '[[SRD-Mud Shot|Mud Shot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Belly Drum|Belly Drum]]'
+- - Ace
+  - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Mud Bomb|Mud Bomb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Ice Punch|Ice Punch]]'
+- - Pro
+  - '[[SRD-Mind Reader|Mind Reader]]'
+- - Pro
+  - '[[SRD-Refresh|Refresh]]'
 Number: 61
 ShuffleToken: SRD-poliwhirl-ShuffleToken.png
 Type1: Water
@@ -78,4 +118,14 @@ Weight:
 | To        | [[SRD-Poliwrath]] | Stone  |         | Water Stone |
 | To        | [[SRD-Politoed]]  | Trade  |         | King's Rock |
 
-![[SRD-Poliwhirl-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Poliwhirl.md"
+flatten moves as T
+where file.path = this.file.path
+```

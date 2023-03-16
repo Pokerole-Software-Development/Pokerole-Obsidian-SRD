@@ -19,8 +19,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-minior-HomeSprite.png
 Image: minior.png
-Learnset: '[[SRD-Minior-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Starter
+  - '[[SRD-Rollout|Rollout]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Beginner
+  - '[[SRD-Swift|Swift]]'
+- - Beginner
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Self Destruct|Self Destruct]]'
+- - Amateur
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Autotomize|Autotomize]]'
+- - Amateur
+  - '[[SRD-Cosmic Power|Cosmic Power]]'
+- - Amateur
+  - '[[SRD-Power Gem|Power Gem]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Shell Smash|Shell Smash]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Pro
+  - '[[SRD-Reflect|Reflect]]'
+- - Pro
+  - '[[SRD-Acrobatics|Acrobatics]]'
 Number: 774
 ShuffleToken: SRD-minior-ShuffleToken.png
 Type1: Rock
@@ -67,4 +111,14 @@ Weight:
 |:----------|:--------------------|:-------|
 | To        | [[SRD-Minior Core]] | Form   |
 
-![[SRD-Minior-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Minior.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,58 @@ Height:
 HiddenAbility: Rock Head
 HomeSprite: SRD-tyrantrum-HomeSprite.png
 Image: tyrantrum.png
-Learnset: '[[SRD-Tyrantrum-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Starter
+  - '[[SRD-Roar|Roar]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Stomp|Stomp]]'
+- - Beginner
+  - '[[SRD-Bide|Bide]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Charm|Charm]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Dragon Tail|Dragon Tail]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Dragon Claw|Dragon Claw]]'
+- - Amateur
+  - '[[SRD-Thrash|Thrash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Horn Drill|Horn Drill]]'
+- - Ace
+  - '[[SRD-Head Smash|Head Smash]]'
+- - Ace
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Ace
+  - '[[SRD-Giga Impact|Giga Impact]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - Pro
+  - '[[SRD-Poison Fang|Poison Fang]]'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
 Number: 697
 ShuffleToken: SRD-tyrantrum-ShuffleToken.png
 Type1: Rock
@@ -68,4 +118,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Tyrunt]] | Level  | Slow    |
 
-![[SRD-Tyrantrum-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Tyrantrum.md"
+flatten moves as T
+where file.path = this.file.path
+```

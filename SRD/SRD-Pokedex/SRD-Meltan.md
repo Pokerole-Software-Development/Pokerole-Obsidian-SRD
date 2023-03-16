@@ -20,8 +20,36 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-meltan-HomeSprite.png
 Image: meltan.png
-Learnset: '[[SRD-Meltan-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Thunder Shock|Thunder Shock]]'
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Headbutt|Headbutt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - Amateur
+  - '[[SRD-Acid Armor|Acid Armor]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Flash Cannon|Flash Cannon]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Protect|Protect]]'
+- - Pro
+  - '[[SRD-Gyro Ball|Gyro Ball]]'
+- - Pro
+  - '[[SRD-Steel Beam|Steel Beam]]'
 Number: 808
 ShuffleToken: SRD-meltan-ShuffleToken.png
 Type1: Steel
@@ -68,4 +96,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Melmetal]] | Level  | Unknown |
 
-![[SRD-Meltan-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Meltan.md"
+flatten moves as T
+where file.path = this.file.path
+```

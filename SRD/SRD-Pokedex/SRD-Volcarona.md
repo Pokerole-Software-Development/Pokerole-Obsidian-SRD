@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Swarm
 HomeSprite: SRD-volcarona-HomeSprite.png
 Image: volcarona.png
-Learnset: '[[SRD-Volcarona-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Ember|Ember]]'
+- - Starter
+  - '[[SRD-String Shot|String Shot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Absorb|Absorb]]'
+- - Beginner
+  - '[[SRD-Gust|Gust]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fire Spin|Fire Spin]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Rage Powder|Rage Powder]]'
+- - Ace
+  - '[[SRD-Quiver Dance|Quiver Dance]]'
+- - Ace
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Ace
+  - '[[SRD-Fiery Dance|Fiery Dance]]'
+- - Ace
+  - '[[SRD-Whirlwind|Whirlwind]]'
+- - Ace
+  - '[[SRD-Silver Wind|Silver Wind]]'
+- - Ace
+  - '[[SRD-Heat Wave|Heat Wave]]'
+- - Ace
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Thrash|Thrash]]'
+- - Pro
+  - '[[SRD-Hurricane|Hurricane]]'
+- - Pro
+  - '[[SRD-Flare Blitz|Flare Blitz]]'
+- - Pro
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Pro
+  - '[[SRD-Morning Sun|Morning Sun]]'
+- - Pro
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
 Number: 637
 ShuffleToken: SRD-volcarona-ShuffleToken.png
 Type1: Bug
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Larvesta]] | Level  | Medium  |
 
-![[SRD-Volcarona-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Volcarona.md"
+flatten moves as T
+where file.path = this.file.path
+```

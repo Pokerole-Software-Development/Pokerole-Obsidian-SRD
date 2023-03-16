@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Keen Eye
 HomeSprite: SRD-stunky-HomeSprite.png
 Image: stunky.png
-Learnset: '[[SRD-Stunky-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Poison Gas|Poison Gas]]'
+- - Beginner
+  - '[[SRD-Screech|Screech]]'
+- - Beginner
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Smokescreen|Smokescreen]]'
+- - Amateur
+  - '[[SRD-Feint|Feint]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Toxic|Toxic]]'
+- - Amateur
+  - '[[SRD-Acid Spray|Acid Spray]]'
+- - Amateur
+  - '[[SRD-Venom Drench|Venom Drench]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Ace
+  - '[[SRD-Memento|Memento]]'
+- - Ace
+  - '[[SRD-Belch|Belch]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Play Rough|Play Rough]]'
+- - Pro
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Pro
+  - '[[SRD-Flame Burst|Flame Burst]]'
 Number: 434
 ShuffleToken: SRD-stunky-ShuffleToken.png
 Type1: Poison
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Skuntank]] | Level  | Medium  |
 
-![[SRD-Stunky-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Stunky.md"
+flatten moves as T
+where file.path = this.file.path
+```

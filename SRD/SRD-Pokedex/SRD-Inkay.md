@@ -20,8 +20,58 @@ Height:
 HiddenAbility: Infiltrator
 HomeSprite: SRD-inkay-HomeSprite.png
 Image: inkay.png
-Learnset: '[[SRD-Inkay-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Constrict|Constrict]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Reflect|Reflect]]'
+- - Beginner
+  - '[[SRD-Foul Play|Foul Play]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Swagger|Swagger]]'
+- - Amateur
+  - '[[SRD-Psywave|Psywave]]'
+- - Amateur
+  - '[[SRD-Topsy-Turvy|Topsy-Turvy]]'
+- - Amateur
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Switcheroo|Switcheroo]]'
+- - Amateur
+  - '[[SRD-Payback|Payback]]'
+- - Amateur
+  - '[[SRD-Pluck|Pluck]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Ace
+  - '[[SRD-Psycho Cut|Psycho Cut]]'
+- - Ace
+  - '[[SRD-Slash|Slash]]'
+- - Ace
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Ace
+  - '[[SRD-Superpower|Superpower]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Power Split|Power Split]]'
+- - Pro
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Pro
+  - '[[SRD-Simple Beam|Simple Beam]]'
 Number: 686
 ShuffleToken: SRD-inkay-ShuffleToken.png
 Type1: Dark
@@ -68,4 +118,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Malamar]] | Level  | Medium  |
 
-![[SRD-Inkay-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Inkay.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -24,8 +24,44 @@ Height:
 HiddenAbility: Gooey
 HomeSprite: SRD-sliggoo-HomeSprite.png
 Image: sliggoo.png
-Learnset: '[[SRD-Sliggoo-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Bubble|Bubble]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Absorb|Absorb]]'
+- - Beginner
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bide|Bide]]'
+- - Amateur
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Amateur
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Flail|Flail]]'
+- - Ace
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Ace
+  - '[[SRD-Muddy Water|Muddy Water]]'
+- - Ace
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Pro
+  - '[[SRD-Acid Armor|Acid Armor]]'
+- - Pro
+  - '[[SRD-Counter|Counter]]'
 Number: 705
 ShuffleToken: SRD-sliggoo-ShuffleToken.png
 Type1: Dragon
@@ -73,4 +109,14 @@ Weight:
 | From      | [[SRD-Goomy]]  | Level  | Medium  |
 | To        | [[SRD-Goodra]] | Level  | Medium  |
 
-![[SRD-Sliggoo-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Sliggoo.md"
+flatten moves as T
+where file.path = this.file.path
+```

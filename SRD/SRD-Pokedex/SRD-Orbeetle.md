@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Telepathy
 HomeSprite: SRD-orbeetle-HomeSprite.png
 Image: orbeetle.png
-Learnset: '[[SRD-Orbeetle-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Struggle Bug|Struggle Bug]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Confusion|Confusion]]'
+- - Beginner
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Beginner
+  - '[[SRD-Reflect|Reflect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Amateur
+  - '[[SRD-Magic Coat|Magic Coat]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Amateur
+  - '[[SRD-Ally Switch|Ally Switch]]'
+- - Amateur
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - Amateur
+  - '[[SRD-Mirror Coat|Mirror Coat]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-After You|After You]]'
+- - Ace
+  - '[[SRD-Calm Mind|Calm Mind]]'
+- - Ace
+  - '[[SRD-Psychic Terrain|Psychic Terrain]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Infestation|Infestation]]'
+- - Pro
+  - '[[SRD-Recover|Recover]]'
+- - Pro
+  - '[[SRD-Imprison|Imprison]]'
 Number: 826
 ShuffleToken: SRD-orbeetle-ShuffleToken.png
 Type1: Bug
@@ -68,4 +114,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Dottler]] | Level  | Medium  |
 
-![[SRD-Orbeetle-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Orbeetle.md"
+flatten moves as T
+where file.path = this.file.path
+```

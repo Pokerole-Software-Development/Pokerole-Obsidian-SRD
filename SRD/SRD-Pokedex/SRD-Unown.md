@@ -16,8 +16,10 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-unown-HomeSprite.png
 Image: unown.png
-Learnset: '[[SRD-Unown-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Hidden Power|Hidden Power]]'
 Number: 201
 ShuffleToken: SRD-unown-ShuffleToken.png
 Type1: Psychic
@@ -60,4 +62,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Starter
 
-![[SRD-Unown-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Unown.md"
+flatten moves as T
+where file.path = this.file.path
+```

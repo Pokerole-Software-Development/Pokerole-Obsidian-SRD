@@ -20,8 +20,28 @@ Height:
 HiddenAbility: Own Tempo
 HomeSprite: SRD-ludicolo-HomeSprite.png
 Image: ludicolo.png
-Learnset: '[[SRD-Ludicolo-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Nature Power|Nature Power]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Teeter Dance|Teeter Dance]]'
+- - Pro
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Pro
+  - '[[SRD-Entrainment|Entrainment]]'
 Number: 272
 ShuffleToken: SRD-ludicolo-ShuffleToken.png
 Type1: Water
@@ -68,4 +88,14 @@ Weight:
 |:----------|:---------------|:-------|:------------|
 | From      | [[SRD-Lombre]] | Stone  | Water Stone |
 
-![[SRD-Ludicolo-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Ludicolo.md"
+flatten moves as T
+where file.path = this.file.path
+```

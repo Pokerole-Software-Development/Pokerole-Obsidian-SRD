@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Sand Veil
 HomeSprite: SRD-larvitar-HomeSprite.png
 Image: larvitar.png
-Learnset: '[[SRD-Larvitar-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bite|Bite]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sandstorm|Sandstorm]]'
+- - Beginner
+  - '[[SRD-Screech|Screech]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Chip Away|Chip Away]]'
+- - Amateur
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Thrash|Thrash]]'
+- - Amateur
+  - '[[SRD-Dark Pulse|Dark Pulse]]'
+- - Amateur
+  - '[[SRD-Payback|Payback]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - Ace
+  - '[[SRD-Hyper Beam|Hyper Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Pro
+  - '[[SRD-Spite|Spite]]'
+- - Pro
+  - '[[SRD-Focus Energy|Focus Energy]]'
 Number: 246
 ShuffleToken: SRD-larvitar-ShuffleToken.png
 Type1: Rock
@@ -68,4 +110,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Pupitar]] | Level  | Slow    |
 
-![[SRD-Larvitar-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Larvitar.md"
+flatten moves as T
+where file.path = this.file.path
+```

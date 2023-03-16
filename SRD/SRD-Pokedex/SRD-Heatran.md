@@ -15,8 +15,44 @@ Height:
 HiddenAbility: Flame Body
 HomeSprite: SRD-heatran-HomeSprite.png
 Image: heatran.png
-Learnset: '[[SRD-Heatran-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Master
+  - '[[SRD-Leer|Leer]]'
+- - Master
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Master
+  - '[[SRD-Metal Sound|Metal Sound]]'
+- - Master
+  - '[[SRD-Crunch|Crunch]]'
+- - Master
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Master
+  - '[[SRD-Lava Plume|Lava Plume]]'
+- - Master
+  - '[[SRD-Fire Spin|Fire Spin]]'
+- - Master
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Master
+  - '[[SRD-Earth Power|Earth Power]]'
+- - Master
+  - '[[SRD-Heat Wave|Heat Wave]]'
+- - Master
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - Master
+  - '[[SRD-Magma Storm|Magma Storm]]'
+- - Master
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Master
+  - '[[SRD-Sunny Day|Sunny Day]]'
+- - Master
+  - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
+- - Master
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - Master
+  - '[[SRD-Uproar|Uproar]]'
 Number: 485
 ShuffleToken: SRD-heatran-ShuffleToken.png
 Type1: Fire
@@ -59,4 +95,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-![[SRD-Heatran-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Heatran.md"
+flatten moves as T
+where file.path = this.file.path
+```

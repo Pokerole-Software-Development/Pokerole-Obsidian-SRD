@@ -16,8 +16,50 @@ Height:
 HiddenAbility: Telepathy
 HomeSprite: SRD-tapu-lele-HomeSprite.png
 Image: tapu-lele.png
-Learnset: '[[SRD-Tapu Lele-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Psychic Terrain|Psychic Terrain]]'
+- - Master
+  - '[[SRD-Aromatic Mist|Aromatic Mist]]'
+- - Master
+  - '[[SRD-Aromatherapy|Aromatherapy]]'
+- - Master
+  - '[[SRD-Mean Look|Mean Look]]'
+- - Master
+  - '[[SRD-Draining Kiss|Draining Kiss]]'
+- - Master
+  - '[[SRD-Astonish|Astonish]]'
+- - Master
+  - '[[SRD-Withdraw|Withdraw]]'
+- - Master
+  - '[[SRD-Confusion|Confusion]]'
+- - Master
+  - '[[SRD-Psywave|Psywave]]'
+- - Master
+  - '[[SRD-Skill Swap|Skill Swap]]'
+- - Master
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Master
+  - '[[SRD-Psyshock|Psyshock]]'
+- - Master
+  - '[[SRD-Tickle|Tickle]]'
+- - Master
+  - '[[SRD-Nature''s Madness|Nature''s Madness]]'
+- - Master
+  - '[[SRD-Extrasensory|Extrasensory]]'
+- - Master
+  - '[[SRD-Flatter|Flatter]]'
+- - Master
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Master
+  - '[[SRD-Magic Room|Magic Room]]'
+- - Master
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Master
+  - '[[SRD-Wonder Room|Wonder Room]]'
+- - Master
+  - '[[SRD-Telekinesis|Telekinesis]]'
 Number: 786
 ShuffleToken: SRD-tapu-lele-ShuffleToken.png
 Type1: Psychic
@@ -60,4 +102,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-![[SRD-Tapu Lele-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Tapu Lele.md"
+flatten moves as T
+where file.path = this.file.path
+```

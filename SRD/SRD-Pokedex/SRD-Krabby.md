@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Sheer Force
 HomeSprite: SRD-krabby-HomeSprite.png
 Image: krabby.png
-Learnset: '[[SRD-Krabby-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bubble|Bubble]]'
+- - Starter
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Vice Grip|Vice Grip]]'
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - Beginner
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Amateur
+  - '[[SRD-Mud Shot|Mud Shot]]'
+- - Amateur
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Amateur
+  - '[[SRD-Stomp|Stomp]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Guillotine|Guillotine]]'
+- - Ace
+  - '[[SRD-Brine|Brine]]'
+- - Ace
+  - '[[SRD-Crabhammer|Crabhammer]]'
+- - Ace
+  - '[[SRD-Flail|Flail]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Agility|Agility]]'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Mimic|Mimic]]'
 Number: 98
 ShuffleToken: SRD-krabby-ShuffleToken.png
 Type1: Water
@@ -68,4 +112,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Kingler]] | Level  | Slow    |
 
-![[SRD-Krabby-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Krabby.md"
+flatten moves as T
+where file.path = this.file.path
+```

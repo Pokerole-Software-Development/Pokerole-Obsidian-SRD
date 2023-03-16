@@ -22,8 +22,52 @@ Height:
 HiddenAbility: Super Luck
 HomeSprite: SRD-togepi-HomeSprite.png
 Image: togepi.png
-Learnset: '[[SRD-Togepi-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Charm|Charm]]'
+- - Beginner
+  - '[[SRD-Metronome|Metronome]]'
+- - Beginner
+  - '[[SRD-Sweet Kiss|Sweet Kiss]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Yawn|Yawn]]'
+- - Amateur
+  - '[[SRD-Encore|Encore]]'
+- - Amateur
+  - '[[SRD-Follow Me|Follow Me]]'
+- - Amateur
+  - '[[SRD-Bestow|Bestow]]'
+- - Amateur
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Safeguard|Safeguard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Wish|Wish]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Last Resort|Last Resort]]'
+- - Ace
+  - '[[SRD-After You|After You]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Lucky Chant|Lucky Chant]]'
+- - Pro
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Pro
+  - '[[SRD-Extrasensory|Extrasensory]]'
 Number: 175
 ShuffleToken: SRD-togepi-ShuffleToken.png
 Type1: Fairy
@@ -70,4 +114,14 @@ Weight:
 |:----------|:----------------|:-------|:----------|--------:|
 | To        | [[SRD-Togetic]] | Stat   | Happiness |       5 |
 
-![[SRD-Togepi-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Togepi.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Storm Drain
 HomeSprite: SRD-lileep-HomeSprite.png
 Image: lileep.png
-Learnset: '[[SRD-Lileep-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - Starter
+  - '[[SRD-Constrict|Constrict]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Acid|Acid]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Ingrain|Ingrain]]'
+- - Amateur
+  - '[[SRD-Brine|Brine]]'
+- - Amateur
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Amateur
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Amateur
+  - '[[SRD-Gastro Acid|Gastro Acid]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Energy Ball|Energy Ball]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Spit Up|Spit Up]]'
+- - Ace
+  - '[[SRD-Stockpile|Stockpile]]'
+- - Ace
+  - '[[SRD-Swallow|Swallow]]'
+- - Ace
+  - '[[SRD-Wring Out|Wring Out]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Earth Power|Earth Power]]'
+- - Pro
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Pro
+  - '[[SRD-Tickle|Tickle]]'
 Number: 345
 ShuffleToken: SRD-lileep-ShuffleToken.png
 Type1: Rock
@@ -68,4 +112,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Cradily]] | Level  | Medium  |
 
-![[SRD-Lileep-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Lileep.md"
+flatten moves as T
+where file.path = this.file.path
+```

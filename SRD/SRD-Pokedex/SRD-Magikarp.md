@@ -20,8 +20,22 @@ Height:
 HiddenAbility: Rattled
 HomeSprite: SRD-magikarp-HomeSprite.png
 Image: magikarp.png
-Learnset: '[[SRD-Magikarp-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Splash|Splash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Flail|Flail]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Bounce|Bounce]]'
 Number: 129
 ShuffleToken: SRD-magikarp-ShuffleToken.png
 Type1: Water
@@ -68,4 +82,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Gyarados]] | Level  | Slow    |
 
-![[SRD-Magikarp-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Magikarp.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,60 @@ Height:
 HiddenAbility: Tinted Lens
 HomeSprite: SRD-noctowl-HomeSprite.png
 Image: noctowl.png
-Learnset: '[[SRD-Noctowl-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Foresight|Foresight]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Peck|Peck]]'
+- - Beginner
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Psycho Shift|Psycho Shift]]'
+- - Amateur
+  - '[[SRD-Uproar|Uproar]]'
+- - Amateur
+  - '[[SRD-Reflect|Reflect]]'
+- - Amateur
+  - '[[SRD-Confusion|Confusion]]'
+- - Amateur
+  - '[[SRD-Echoed Voice|Echoed Voice]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Amateur
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Amateur
+  - '[[SRD-Moonblast|Moonblast]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Synchronoise|Synchronoise]]'
+- - Ace
+  - '[[SRD-Extrasensory|Extrasensory]]'
+- - Ace
+  - '[[SRD-Sky Attack|Sky Attack]]'
+- - Ace
+  - '[[SRD-Roost|Roost]]'
+- - Ace
+  - '[[SRD-Dream Eater|Dream Eater]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Night Shade|Night Shade]]'
+- - Pro
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Pro
+  - '[[SRD-Agility|Agility]]'
 Number: 164
 ShuffleToken: SRD-noctowl-ShuffleToken.png
 Type1: Normal
@@ -68,4 +120,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Hoothoot]] | Level  | Medium  |
 
-![[SRD-Noctowl-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Noctowl.md"
+flatten moves as T
+where file.path = this.file.path
+```

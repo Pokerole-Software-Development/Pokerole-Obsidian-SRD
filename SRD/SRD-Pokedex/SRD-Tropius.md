@@ -16,8 +16,54 @@ Height:
 HiddenAbility: Harvest
 HomeSprite: SRD-tropius-HomeSprite.png
 Image: tropius.png
-Learnset: '[[SRD-Tropius-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bestow|Bestow]]'
+- - Starter
+  - '[[SRD-Gust|Gust]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Natural Gift|Natural Gift]]'
+- - Beginner
+  - '[[SRD-Growth|Growth]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Amateur
+  - '[[SRD-Stomp|Stomp]]'
+- - Amateur
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Amateur
+  - '[[SRD-Whirlwind|Whirlwind]]'
+- - Amateur
+  - '[[SRD-Magical Leaf|Magical Leaf]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Amateur
+  - '[[SRD-Synthesis|Synthesis]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Leaf Tornado|Leaf Tornado]]'
+- - Ace
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Ace
+  - '[[SRD-Solar Beam|Solar Beam]]'
+- - Ace
+  - '[[SRD-Leaf Storm|Leaf Storm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Pro
+  - '[[SRD-Twister|Twister]]'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
 Number: 357
 ShuffleToken: SRD-tropius-ShuffleToken.png
 Type1: Grass
@@ -60,4 +106,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Tropius-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Tropius.md"
+flatten moves as T
+where file.path = this.file.path
+```

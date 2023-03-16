@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Pickup
 HomeSprite: SRD-pikipek-HomeSprite.png
 Image: pikipek.png
-Learnset: '[[SRD-Pikipek-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Echoed Voice|Echoed Voice]]'
+- - Beginner
+  - '[[SRD-Rock Smash|Rock Smash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Amateur
+  - '[[SRD-Pluck|Pluck]]'
+- - Amateur
+  - '[[SRD-Roost|Roost]]'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Drill Peck|Drill Peck]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Bullet Seed|Bullet Seed]]'
+- - Ace
+  - '[[SRD-Feather Dance|Feather Dance]]'
+- - Ace
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Uproar|Uproar]]'
+- - Pro
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Pro
+  - '[[SRD-Mirror Move|Mirror Move]]'
 Number: 731
 ShuffleToken: SRD-pikipek-ShuffleToken.png
 Type1: Normal
@@ -68,4 +108,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Trumbeak]] | Level  | Medium  |
 
-![[SRD-Pikipek-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Pikipek.md"
+flatten moves as T
+where file.path = this.file.path
+```

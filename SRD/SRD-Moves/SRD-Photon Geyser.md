@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Channel
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: The Pokemon attacks with a large pillar of light that comes out from

@@ -24,8 +24,50 @@ Height:
 HiddenAbility: Overcoat
 HomeSprite: SRD-shelgon-HomeSprite.png
 Image: shelgon.png
-Learnset: '[[SRD-Shelgon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Rage|Rage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Amateur
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Dragon Claw|Dragon Claw]]'
+- - Ace
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Pro
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
 Number: 372
 ShuffleToken: SRD-shelgon-ShuffleToken.png
 Type1: Dragon
@@ -73,4 +115,14 @@ Weight:
 | From      | [[SRD-Bagon]]     | Level  | Slow    |
 | To        | [[SRD-Salamence]] | Level  | Slow    |
 
-![[SRD-Shelgon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Shelgon.md"
+flatten moves as T
+where file.path = this.file.path
+```

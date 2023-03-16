@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Libero
 HomeSprite: SRD-cinderace-HomeSprite.png
 Image: cinderace.png
-Learnset: '[[SRD-Cinderace-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pyro Ball|Pyro Ball]]'
+- - Starter
+  - '[[SRD-Feint|Feint]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tackle|Tackle]]'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Ember|Ember]]'
+- - Amateur
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Amateur
+  - '[[SRD-Double Kick|Double Kick]]'
+- - Amateur
+  - '[[SRD-Flame Charge|Flame Charge]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Ace
+  - '[[SRD-Counter|Counter]]'
+- - Ace
+  - '[[SRD-Bounce|Bounce]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Court Change|Court Change]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-High Jump Kick|High Jump Kick]]'
+- - Pro
+  - '[[SRD-Mega Kick|Mega Kick]]'
+- - Pro
+  - '[[SRD-Blast Burn|Blast Burn]]'
 Number: 815
 ShuffleToken: SRD-cinderace-ShuffleToken.png
 Type1: Fire
@@ -68,4 +110,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Raboot]] | Level  | Medium  |
 
-![[SRD-Cinderace-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Cinderace.md"
+flatten moves as T
+where file.path = this.file.path
+```

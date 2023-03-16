@@ -24,8 +24,48 @@ Height:
 HiddenAbility: Hustle
 HomeSprite: SRD-nidorino-HomeSprite.png
 Image: nidorino.png
-Learnset: '[[SRD-Nidorino-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Beginner
+  - '[[SRD-Double Kick|Double Kick]]'
+- - Beginner
+  - '[[SRD-Poison Sting|Poison Sting]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Amateur
+  - '[[SRD-Horn Attack|Horn Attack]]'
+- - Amateur
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Amateur
+  - '[[SRD-Toxic Spikes|Toxic Spikes]]'
+- - Amateur
+  - '[[SRD-Poison Jab|Poison Jab]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Flatter|Flatter]]'
+- - Ace
+  - '[[SRD-Captivate|Captivate]]'
+- - Ace
+  - '[[SRD-Horn Drill|Horn Drill]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Lovely Kiss|Lovely Kiss]]'
+- - Pro
+  - '[[SRD-Morning Sun|Morning Sun]]'
+- - Pro
+  - '[[SRD-Smart Strike|Smart Strike]]'
 Number: 33
 ShuffleToken: SRD-nidorino-ShuffleToken.png
 Type1: Poison
@@ -73,4 +113,14 @@ Weight:
 | From      | [[SRD-Nidoran M]] | Level  | Medium  |            |
 | To        | [[SRD-Nidoking]]  | Stone  |         | Moon Stone |
 
-![[SRD-Nidorino-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Nidorino.md"
+flatten moves as T
+where file.path = this.file.path
+```

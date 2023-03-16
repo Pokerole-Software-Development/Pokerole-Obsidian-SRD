@@ -24,8 +24,64 @@ Height:
 HiddenAbility: Telepathy
 HomeSprite: SRD-medicham-HomeSprite.png
 Image: medicham.png
-Learnset: '[[SRD-Medicham-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bide|Bide]]'
+- - Starter
+  - '[[SRD-Detect|Detect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Confusion|Confusion]]'
+- - Beginner
+  - '[[SRD-Meditate|Meditate]]'
+- - Beginner
+  - '[[SRD-Endure|Endure]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Ice Punch|Ice Punch]]'
+- - Amateur
+  - '[[SRD-Thunder Punch|Thunder Punch]]'
+- - Amateur
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Amateur
+  - '[[SRD-Fire Punch|Fire Punch]]'
+- - Amateur
+  - '[[SRD-Hidden Power|Hidden Power]]'
+- - Amateur
+  - '[[SRD-Mind Reader|Mind Reader]]'
+- - Amateur
+  - '[[SRD-Feint|Feint]]'
+- - Amateur
+  - '[[SRD-Calm Mind|Calm Mind]]'
+- - Amateur
+  - '[[SRD-Force Palm|Force Palm]]'
+- - Amateur
+  - '[[SRD-High Jump Kick|High Jump Kick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psych Up|Psych Up]]'
+- - Ace
+  - '[[SRD-Acupressure|Acupressure]]'
+- - Ace
+  - '[[SRD-Power Trick|Power Trick]]'
+- - Ace
+  - '[[SRD-Reversal|Reversal]]'
+- - Ace
+  - '[[SRD-Recover|Recover]]'
+- - Ace
+  - '[[SRD-Counter|Counter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Drain Punch|Drain Punch]]'
+- - Pro
+  - '[[SRD-Gravity|Gravity]]'
+- - Pro
+  - '[[SRD-Baton Pass|Baton Pass]]'
 Number: 308
 ShuffleToken: SRD-medicham-ShuffleToken.png
 Type1: Fighting
@@ -73,4 +129,14 @@ Weight:
 | From      | [[SRD-Meditite]]             | Level  | Medium  |             |
 | To        | [[SRD-Medicham (Mega Form)]] | Mega   |         | Medichamite |
 
-![[SRD-Medicham-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Medicham.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -24,8 +24,48 @@ Height:
 HiddenAbility: Rough Skin
 HomeSprite: SRD-garchomp-HomeSprite.png
 Image: garchomp.png
-Learnset: '[[SRD-Garchomp-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Dragon Rage|Dragon Rage]]'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sandstorm|Sandstorm]]'
+- - Amateur
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Sand Tomb|Sand Tomb]]'
+- - Amateur
+  - '[[SRD-Dual Chop|Dual Chop]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Dragon Claw|Dragon Claw]]'
+- - Amateur
+  - '[[SRD-Dig|Dig]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Dragon Rush|Dragon Rush]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Draco Meteor|Draco Meteor]]'
+- - Pro
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
 Number: 445
 ShuffleToken: SRD-garchomp-ShuffleToken.png
 Type1: Dragon
@@ -73,4 +113,14 @@ Weight:
 | From      | [[SRD-Gabite]]               | Level  | Slow    |             |
 | To        | [[SRD-Garchomp (Mega Form)]] | Mega   |         | Garchompite |
 
-![[SRD-Garchomp-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Garchomp.md"
+flatten moves as T
+where file.path = this.file.path
+```

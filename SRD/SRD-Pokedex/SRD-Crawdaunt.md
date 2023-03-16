@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Adaptability
 HomeSprite: SRD-crawdaunt-HomeSprite.png
 Image: crawdaunt.png
-Learnset: '[[SRD-Crawdaunt-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bubble|Bubble]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Vice Grip|Vice Grip]]'
+- - Beginner
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Double Hit|Double Hit]]'
+- - Amateur
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Amateur
+  - '[[SRD-Crabhammer|Crabhammer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Razor Shell|Razor Shell]]'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Guillotine|Guillotine]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Superpower|Superpower]]'
+- - Pro
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - Pro
+  - '[[SRD-Mud Sport|Mud Sport]]'
 Number: 342
 ShuffleToken: SRD-crawdaunt-ShuffleToken.png
 Type1: Water
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Corphish]] | Level  | Medium  |
 
-![[SRD-Crawdaunt-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Crawdaunt.md"
+flatten moves as T
+where file.path = this.file.path
+```

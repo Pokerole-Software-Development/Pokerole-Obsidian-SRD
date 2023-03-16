@@ -24,8 +24,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-eelektrik-HomeSprite.png
 Image: eelektrik.png
-Learnset: '[[SRD-Eelektrik-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Spark|Spark]]'
+- - Starter
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bind|Bind]]'
+- - Beginner
+  - '[[SRD-Charge Beam|Charge Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Acid|Acid]]'
+- - Amateur
+  - '[[SRD-Discharge|Discharge]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Thunderbolt|Thunderbolt]]'
+- - Amateur
+  - '[[SRD-Acid Spray|Acid Spray]]'
+- - Amateur
+  - '[[SRD-Coil|Coil]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Wild Charge|Wild Charge]]'
+- - Ace
+  - '[[SRD-Gastro Acid|Gastro Acid]]'
+- - Ace
+  - '[[SRD-Zap Cannon|Zap Cannon]]'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Pro
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Pro
+  - '[[SRD-Iron Tail|Iron Tail]]'
 Number: 603
 ShuffleToken: SRD-eelektrik-ShuffleToken.png
 Type1: Electric
@@ -73,4 +117,14 @@ Weight:
 | From      | [[SRD-Tynamo]]     | Level  | Medium  |               |
 | To        | [[SRD-Eelektross]] | Stone  |         | Thunder Stone |
 
-![[SRD-Eelektrik-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Eelektrik.md"
+flatten moves as T
+where file.path = this.file.path
+```

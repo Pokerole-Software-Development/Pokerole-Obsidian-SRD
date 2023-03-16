@@ -16,8 +16,56 @@ Height:
 HiddenAbility: Regenerator
 HomeSprite: SRD-alomomola-HomeSprite.png
 Image: alomomola.png
-Learnset: '[[SRD-Alomomola-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Water Sport|Water Sport]]'
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Beginner
+  - '[[SRD-Play Nice|Play Nice]]'
+- - Beginner
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Brine|Brine]]'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Heal Pulse|Heal Pulse]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
+- - Amateur
+  - '[[SRD-Soak|Soak]]'
+- - Amateur
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Wish|Wish]]'
+- - Ace
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Healing Wish|Healing Wish]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Refresh|Refresh]]'
+- - Pro
+  - '[[SRD-Pain Split|Pain Split]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
 Number: 594
 ShuffleToken: SRD-alomomola-ShuffleToken.png
 Type1: Water
@@ -60,4 +108,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Alomomola-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Alomomola.md"
+flatten moves as T
+where file.path = this.file.path
+```

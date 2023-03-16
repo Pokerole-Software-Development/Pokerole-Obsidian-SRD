@@ -20,8 +20,20 @@ Height:
 HiddenAbility: Bulletproof
 HomeSprite: SRD-applin-HomeSprite.png
 Image: applin.png
-Learnset: '[[SRD-Applin-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Withdraw|Withdraw]]'
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Pro
+  - '[[SRD-Rollout|Rollout]]'
+- - Pro
+  - '[[SRD-Recycle|Recycle]]'
 Number: 840
 ShuffleToken: SRD-applin-ShuffleToken.png
 Type1: Grass
@@ -68,4 +80,14 @@ Weight:
 |:----------|:----------------|:-------|:-----------|
 | To        | [[SRD-Flapple]] | Item   | Tart Apple |
 
-![[SRD-Applin-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Applin.md"
+flatten moves as T
+where file.path = this.file.path
+```

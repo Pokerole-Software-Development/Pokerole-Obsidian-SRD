@@ -25,8 +25,56 @@ Height:
 HiddenAbility: Friend Guard
 HomeSprite: SRD-jigglypuff-HomeSprite.png
 Image: jigglypuff.png
-Learnset: '[[SRD-Jigglypuff-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sing|Sing]]'
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Beginner
+  - '[[SRD-Play Nice|Play Nice]]'
+- - Beginner
+  - '[[SRD-Round|Round]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Disable|Disable]]'
+- - Amateur
+  - '[[SRD-Rollout|Rollout]]'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Stockpile|Stockpile]]'
+- - Amateur
+  - '[[SRD-Spit Up|Spit Up]]'
+- - Amateur
+  - '[[SRD-Swallow|Swallow]]'
+- - Amateur
+  - '[[SRD-Disarming Voice|Disarming Voice]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Gyro Ball|Gyro Ball]]'
+- - Ace
+  - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
+- - Ace
+  - '[[SRD-Rest|Rest]]'
+- - Ace
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Mimic|Mimic]]'
+- - Pro
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Pro
+  - '[[SRD-Heal Pulse|Heal Pulse]]'
 Number: 39
 ShuffleToken: SRD-jigglypuff-ShuffleToken.png
 Type1: Normal
@@ -74,4 +122,14 @@ Weight:
 | From      | [[SRD-Igglybuff]]  | Stat   | Happiness | 4.0     |            |
 | To        | [[SRD-Wigglytuff]] | Stone  |           |         | Moon Stone |
 
-![[SRD-Jigglypuff-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Jigglypuff.md"
+flatten moves as T
+where file.path = this.file.path
+```

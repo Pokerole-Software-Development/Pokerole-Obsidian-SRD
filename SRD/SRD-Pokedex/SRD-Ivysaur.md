@@ -24,8 +24,50 @@ Height:
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-ivysaur-HomeSprite.png
 Image: ivysaur.png
-Learnset: '[[SRD-Ivysaur-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Beginner
+  - '[[SRD-Vine Whip|Vine Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Poison Powder|Poison Powder]]'
+- - Amateur
+  - '[[SRD-Sleep Powder|Sleep Powder]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Amateur
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Amateur
+  - '[[SRD-Growth|Growth]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Worry Seed|Worry Seed]]'
+- - Ace
+  - '[[SRD-Synthesis|Synthesis]]'
+- - Ace
+  - '[[SRD-Solar Beam|Solar Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Grassy Terrain|Grassy Terrain]]'
+- - Pro
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Pro
+  - '[[SRD-Grass Pledge|Grass Pledge]]'
 Number: 2
 ShuffleToken: SRD-ivysaur-ShuffleToken.png
 Type1: Grass
@@ -73,4 +115,14 @@ Weight:
 | From      | [[SRD-Bulbasaur]] | Level  | Medium  |
 | To        | [[SRD-Venusaur]]  | Level  | Medium  |
 
-![[SRD-Ivysaur-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Ivysaur.md"
+flatten moves as T
+where file.path = this.file.path
+```

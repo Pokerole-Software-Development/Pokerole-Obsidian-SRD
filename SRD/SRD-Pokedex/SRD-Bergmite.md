@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Sturdy
 HomeSprite: SRD-bergmite-HomeSprite.png
 Image: bergmite.png
-Learnset: '[[SRD-Bergmite-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Powder Snow|Powder Snow]]'
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Beginner
+  - '[[SRD-Take Down|Take Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sharpen|Sharpen]]'
+- - Amateur
+  - '[[SRD-Curse|Curse]]'
+- - Amateur
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Amateur
+  - '[[SRD-Ice Ball|Ice Ball]]'
+- - Amateur
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - Amateur
+  - '[[SRD-Avalanche|Avalanche]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Blizzard|Blizzard]]'
+- - Ace
+  - '[[SRD-Recover|Recover]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Pro
+  - '[[SRD-Mirror Coat|Mirror Coat]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
 Number: 712
 ShuffleToken: SRD-bergmite-ShuffleToken.png
 Type1: Ice
@@ -68,4 +112,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Avalugg]] | Level  | Slow    |
 
-![[SRD-Bergmite-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Bergmite.md"
+flatten moves as T
+where file.path = this.file.path
+```

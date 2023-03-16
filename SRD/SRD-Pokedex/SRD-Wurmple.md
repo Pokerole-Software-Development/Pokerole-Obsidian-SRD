@@ -24,8 +24,26 @@ Height:
 HiddenAbility: Run Away
 HomeSprite: SRD-wurmple-HomeSprite.png
 Image: wurmple.png
-Learnset: '[[SRD-Wurmple-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-String Shot|String Shot]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Poison Sting|Poison Sting]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Electroweb|Electroweb]]'
+- - Pro
+  - '[[SRD-Snore|Snore]]'
 Number: 265
 ShuffleToken: SRD-wurmple-ShuffleToken.png
 Type1: Bug
@@ -73,4 +91,14 @@ Weight:
 | To        | [[SRD-Silcoon]] | Level  | Fast    |
 | To        | [[SRD-Cascoon]] | Level  | Fast    |
 
-![[SRD-Wurmple-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Wurmple.md"
+flatten moves as T
+where file.path = this.file.path
+```

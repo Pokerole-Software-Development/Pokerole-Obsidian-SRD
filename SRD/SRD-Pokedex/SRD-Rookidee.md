@@ -20,8 +20,44 @@ Height:
 HiddenAbility: Big Pecks
 HomeSprite: SRD-rookidee-HomeSprite.png
 Image: rookidee.png
-Learnset: '[[SRD-Rookidee-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Power Trip|Power Trip]]'
+- - Beginner
+  - '[[SRD-Hone Claws|Hone Claws]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Amateur
+  - '[[SRD-Pluck|Pluck]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Drill Peck|Drill Peck]]'
+- - Ace
+  - '[[SRD-Swagger|Swagger]]'
+- - Ace
+  - '[[SRD-Brave Bird|Brave Bird]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Spite|Spite]]'
+- - Pro
+  - '[[SRD-Defog|Defog]]'
+- - Pro
+  - '[[SRD-Sand Attack|Sand Attack]]'
 Number: 821
 ShuffleToken: SRD-rookidee-ShuffleToken.png
 Type1: Flying
@@ -68,4 +104,14 @@ Weight:
 |:----------|:--------------------|:-------|:--------|
 | To        | [[SRD-Corvisquire]] | Level  | Medium  |
 
-![[SRD-Rookidee-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Rookidee.md"
+flatten moves as T
+where file.path = this.file.path
+```

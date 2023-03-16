@@ -15,8 +15,52 @@ Height:
 HiddenAbility: Telepathy
 HomeSprite: SRD-tapu-bulu-HomeSprite.png
 Image: tapu-bulu.png
-Learnset: '[[SRD-Tapu Bulu-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Grassy Terrain|Grassy Terrain]]'
+- - Master
+  - '[[SRD-Wood Hammer|Wood Hammer]]'
+- - Master
+  - '[[SRD-Superpower|Superpower]]'
+- - Master
+  - '[[SRD-Mean Look|Mean Look]]'
+- - Master
+  - '[[SRD-Disable|Disable]]'
+- - Master
+  - '[[SRD-Whirlwind|Whirlwind]]'
+- - Master
+  - '[[SRD-Withdraw|Withdraw]]'
+- - Master
+  - '[[SRD-Leafage|Leafage]]'
+- - Master
+  - '[[SRD-Horn Attack|Horn Attack]]'
+- - Master
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Master
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Master
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Master
+  - '[[SRD-Horn Leech|Horn Leech]]'
+- - Master
+  - '[[SRD-Rototiller|Rototiller]]'
+- - Master
+  - '[[SRD-Nature''s Madness|Nature''s Madness]]'
+- - Master
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Master
+  - '[[SRD-Megahorn|Megahorn]]'
+- - Master
+  - '[[SRD-Skull Bash|Skull Bash]]'
+- - Master
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Master
+  - '[[SRD-Dual Chop|Dual Chop]]'
+- - Master
+  - '[[SRD-Focus Punch|Focus Punch]]'
+- - Master
+  - '[[SRD-Worry Seed|Worry Seed]]'
 Number: 787
 ShuffleToken: SRD-tapu-bulu-ShuffleToken.png
 Type1: Grass
@@ -59,4 +103,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-![[SRD-Tapu Bulu-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Tapu Bulu.md"
+flatten moves as T
+where file.path = this.file.path
+```

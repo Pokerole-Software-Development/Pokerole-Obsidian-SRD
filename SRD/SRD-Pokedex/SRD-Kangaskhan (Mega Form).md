@@ -20,8 +20,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-kangaskhan-mega-form-HomeSprite.png
 Image: kangaskhan-mega-form.png
-Learnset: '[[SRD-Kangaskhan (Mega Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Comet Punch|Comet Punch]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Double Hit|Double Hit]]'
+- - Amateur
+  - '[[SRD-Rage|Rage]]'
+- - Amateur
+  - '[[SRD-Mega Punch|Mega Punch]]'
+- - Amateur
+  - '[[SRD-Chip Away|Chip Away]]'
+- - Amateur
+  - '[[SRD-Dizzy Punch|Dizzy Punch]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Endure|Endure]]'
+- - Ace
+  - '[[SRD-Outrage|Outrage]]'
+- - Ace
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Ace
+  - '[[SRD-Reversal|Reversal]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Pro
+  - '[[SRD-Captivate|Captivate]]'
+- - Pro
+  - '[[SRD-Counter|Counter]]'
 Number: 115
 ShuffleToken: SRD-kangaskhan-mega-form-ShuffleToken.png
 Type1: Normal
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-------------------|:-------|:--------------|
 | From      | [[SRD-Kangaskhan]] | Mega   | Kangaskhanite |
 
-![[SRD-Kangaskhan (Mega Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Kangaskhan (Mega Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

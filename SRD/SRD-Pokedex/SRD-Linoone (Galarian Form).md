@@ -24,8 +24,58 @@ Height:
 HiddenAbility: Quick Feet
 HomeSprite: SRD-linoone-galarian-form-HomeSprite.png
 Image: linoone-galarian-form.png
-Learnset: '[[SRD-Linoone (Galarian Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Beginner
+  - '[[SRD-Lick|Lick]]'
+- - Beginner
+  - '[[SRD-Take Down|Take Down]]'
+- - Beginner
+  - '[[SRD-Taunt|Taunt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
+- - Amateur
+  - '[[SRD-Snarl|Snarl]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Pin Missile|Pin Missile]]'
+- - Amateur
+  - '[[SRD-Switcheroo|Switcheroo]]'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Hone Claws|Hone Claws]]'
+- - Amateur
+  - '[[SRD-Night Slash|Night Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Counter|Counter]]'
+- - Ace
+  - '[[SRD-Rest|Rest]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Scary Face|Scary Face]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Payback|Payback]]'
+- - Pro
+  - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
+- - Pro
+  - '[[SRD-Shadow Claw|Shadow Claw]]'
 Number: 264
 ShuffleToken: SRD-linoone-galarian-form-ShuffleToken.png
 Type1: Dark
@@ -73,4 +123,14 @@ Weight:
 | From      | [[SRD-Zigzagoon (Galarian Form)]] | Level  | Medium  |
 | To        | [[SRD-Obstagoon]]                 | Level  | Medium  |
 
-![[SRD-Linoone (Galarian Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Linoone (Galarian Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

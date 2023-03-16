@@ -1,6 +1,8 @@
 ---
 Accuracy1: Strength
 Accuracy2: Brawl
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: ''

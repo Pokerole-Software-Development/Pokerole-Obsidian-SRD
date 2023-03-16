@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Gale Wings
 HomeSprite: SRD-fletchling-HomeSprite.png
 Image: fletchling.png
-Learnset: '[[SRD-Fletchling-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Peck|Peck]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Flail|Flail]]'
+- - Amateur
+  - '[[SRD-Roost|Roost]]'
+- - Amateur
+  - '[[SRD-Razor Wind|Razor Wind]]'
+- - Amateur
+  - '[[SRD-Natural Gift|Natural Gift]]'
+- - Amateur
+  - '[[SRD-Flame Charge|Flame Charge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Acrobatics|Acrobatics]]'
+- - Ace
+  - '[[SRD-Me First|Me First]]'
+- - Ace
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Ace
+  - '[[SRD-Steel Wing|Steel Wing]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Snatch|Snatch]]'
+- - Pro
+  - '[[SRD-Quick Guard|Quick Guard]]'
+- - Pro
+  - '[[SRD-Air Cutter|Air Cutter]]'
 Number: 661
 ShuffleToken: SRD-fletchling-ShuffleToken.png
 Type1: Normal
@@ -68,4 +110,14 @@ Weight:
 |:----------|:--------------------|:-------|:--------|
 | To        | [[SRD-Fletchinder]] | Level  | Medium  |
 
-![[SRD-Fletchling-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Fletchling.md"
+flatten moves as T
+where file.path = this.file.path
+```

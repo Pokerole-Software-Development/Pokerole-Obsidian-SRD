@@ -20,8 +20,50 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-gyarados-mega-form-HomeSprite.png
 Image: gyarados-mega-form.png
-Learnset: '[[SRD-Gyarados (Mega Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Dragon Rage|Dragon Rage]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Twister|Twister]]'
+- - Beginner
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Beginner
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Hurricane|Hurricane]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Thrash|Thrash]]'
+- - Amateur
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Amateur
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Hyper Beam|Hyper Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
+- - Pro
+  - '[[SRD-Bounce|Bounce]]'
 Number: 130
 ShuffleToken: SRD-gyarados-mega-form-ShuffleToken.png
 Type1: Water
@@ -68,4 +110,14 @@ Weight:
 |:----------|:-----------------|:-------|:------------|
 | From      | [[SRD-Gyarados]] | Mega   | Gyaradosite |
 
-![[SRD-Gyarados (Mega Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Gyarados (Mega Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

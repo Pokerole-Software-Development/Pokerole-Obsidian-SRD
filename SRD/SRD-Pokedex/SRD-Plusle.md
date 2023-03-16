@@ -16,8 +16,60 @@ Height:
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-plusle-HomeSprite.png
 Image: plusle.png
-Learnset: '[[SRD-Plusle-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Entrainment|Entrainment]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Starter
+  - '[[SRD-Nuzzle|Nuzzle]]'
+- - Starter
+  - '[[SRD-Charm|Charm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Spark|Spark]]'
+- - Amateur
+  - '[[SRD-Encore|Encore]]'
+- - Amateur
+  - '[[SRD-Copycat|Copycat]]'
+- - Amateur
+  - '[[SRD-Electro Ball|Electro Ball]]'
+- - Amateur
+  - '[[SRD-Swift|Swift]]'
+- - Amateur
+  - '[[SRD-Fake Tears|Fake Tears]]'
+- - Amateur
+  - '[[SRD-Charge|Charge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Thunder|Thunder]]'
+- - Ace
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Ace
+  - '[[SRD-Agility|Agility]]'
+- - Ace
+  - '[[SRD-Last Resort|Last Resort]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Sweet Kiss|Sweet Kiss]]'
+- - Pro
+  - '[[SRD-Wish|Wish]]'
+- - Pro
+  - '[[SRD-Mimic|Mimic]]'
 Number: 311
 ShuffleToken: SRD-plusle-ShuffleToken.png
 Type1: Electric
@@ -60,4 +112,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Starter
 
-![[SRD-Plusle-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Plusle.md"
+flatten moves as T
+where file.path = this.file.path
+```

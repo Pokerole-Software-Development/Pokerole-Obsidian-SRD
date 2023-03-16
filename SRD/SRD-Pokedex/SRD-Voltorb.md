@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Aftermath
 HomeSprite: SRD-voltorb-HomeSprite.png
 Image: voltorb.png
-Learnset: '[[SRD-Voltorb-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Charge|Charge]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sonic Boom|Sonic Boom]]'
+- - Beginner
+  - '[[SRD-Eerie Impulse|Eerie Impulse]]'
+- - Beginner
+  - '[[SRD-Spark|Spark]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Rollout|Rollout]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Charge Beam|Charge Beam]]'
+- - Amateur
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Amateur
+  - '[[SRD-Electro Ball|Electro Ball]]'
+- - Amateur
+  - '[[SRD-Self Destruct|Self Destruct]]'
+- - Amateur
+  - '[[SRD-Swift|Swift]]'
+- - Amateur
+  - '[[SRD-Discharge|Discharge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
+- - Ace
+  - '[[SRD-Gyro Ball|Gyro Ball]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - Ace
+  - '[[SRD-Mirror Coat|Mirror Coat]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
+- - Pro
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Pro
+  - '[[SRD-Foul Play|Foul Play]]'
 Number: 100
 ShuffleToken: SRD-voltorb-ShuffleToken.png
 Type1: Electric
@@ -68,4 +116,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Electrode]] | Level  | Slow    |
 
-![[SRD-Voltorb-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Voltorb.md"
+flatten moves as T
+where file.path = this.file.path
+```

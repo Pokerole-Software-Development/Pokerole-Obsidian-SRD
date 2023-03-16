@@ -16,8 +16,52 @@ Height:
 HiddenAbility: Telepathy
 HomeSprite: SRD-tapu-koko-HomeSprite.png
 Image: tapu-koko.png
-Learnset: '[[SRD-Tapu Koko-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Electric Terrain|Electric Terrain]]'
+- - Master
+  - '[[SRD-Brave Bird|Brave Bird]]'
+- - Master
+  - '[[SRD-Power Swap|Power Swap]]'
+- - Master
+  - '[[SRD-Mean Look|Mean Look]]'
+- - Master
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Master
+  - '[[SRD-False Swipe|False Swipe]]'
+- - Master
+  - '[[SRD-Withdraw|Withdraw]]'
+- - Master
+  - '[[SRD-Thunder Shock|Thunder Shock]]'
+- - Master
+  - '[[SRD-Spark|Spark]]'
+- - Master
+  - '[[SRD-Shock Wave|Shock Wave]]'
+- - Master
+  - '[[SRD-Screech|Screech]]'
+- - Master
+  - '[[SRD-Charge|Charge]]'
+- - Master
+  - '[[SRD-Wild Charge|Wild Charge]]'
+- - Master
+  - '[[SRD-Mirror Move|Mirror Move]]'
+- - Master
+  - '[[SRD-Nature''s Madness|Nature''s Madness]]'
+- - Master
+  - '[[SRD-Discharge|Discharge]]'
+- - Master
+  - '[[SRD-Agility|Agility]]'
+- - Master
+  - '[[SRD-Electro Ball|Electro Ball]]'
+- - Master
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Master
+  - '[[SRD-Sky Attack|Sky Attack]]'
+- - Master
+  - '[[SRD-Telekinesis|Telekinesis]]'
+- - Master
+  - '[[SRD-Defog|Defog]]'
 Number: 785
 ShuffleToken: SRD-tapu-koko-ShuffleToken.png
 Type1: Electric
@@ -60,4 +104,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-![[SRD-Tapu Koko-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Tapu Koko.md"
+flatten moves as T
+where file.path = this.file.path
+```

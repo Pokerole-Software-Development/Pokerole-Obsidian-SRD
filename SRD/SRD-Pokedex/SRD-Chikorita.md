@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-chikorita-HomeSprite.png
 Image: chikorita.png
-Learnset: '[[SRD-Chikorita-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Beginner
+  - '[[SRD-Poison Powder|Poison Powder]]'
+- - Beginner
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Reflect|Reflect]]'
+- - Amateur
+  - '[[SRD-Synthesis|Synthesis]]'
+- - Amateur
+  - '[[SRD-Natural Gift|Natural Gift]]'
+- - Amateur
+  - '[[SRD-Magical Leaf|Magical Leaf]]'
+- - Amateur
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Ace
+  - '[[SRD-Aromatherapy|Aromatherapy]]'
+- - Ace
+  - '[[SRD-Solar Beam|Solar Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Heal Pulse|Heal Pulse]]'
+- - Pro
+  - '[[SRD-Grass Pledge|Grass Pledge]]'
+- - Pro
+  - '[[SRD-Grassy Terrain|Grassy Terrain]]'
 Number: 152
 ShuffleToken: SRD-chikorita-ShuffleToken.png
 Type1: Grass
@@ -68,4 +110,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Bayleef]] | Level  | Medium  |
 
-![[SRD-Chikorita-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Chikorita.md"
+flatten moves as T
+where file.path = this.file.path
+```

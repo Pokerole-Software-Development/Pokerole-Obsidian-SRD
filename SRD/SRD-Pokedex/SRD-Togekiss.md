@@ -20,8 +20,30 @@ Height:
 HiddenAbility: Super Luck
 HomeSprite: SRD-togekiss-HomeSprite.png
 Image: togekiss.png
-Learnset: '[[SRD-Togekiss-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-After You|After You]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Extreme Speed|Extreme Speed]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sky Attack|Sky Attack]]'
+- - Amateur
+  - '[[SRD-Aura Sphere|Aura Sphere]]'
+- - Amateur
+  - '[[SRD-Air Slash|Air Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Extrasensory|Extrasensory]]'
+- - Pro
+  - '[[SRD-Lucky Chant|Lucky Chant]]'
+- - Pro
+  - '[[SRD-Water Pulse|Water Pulse]]'
 Number: 468
 ShuffleToken: SRD-togekiss-ShuffleToken.png
 Type1: Fairy
@@ -68,4 +90,14 @@ Weight:
 |:----------|:----------------|:-------|:------------|
 | From      | [[SRD-Togetic]] | Stone  | Shiny Stone |
 
-![[SRD-Togekiss-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Togekiss.md"
+flatten moves as T
+where file.path = this.file.path
+```

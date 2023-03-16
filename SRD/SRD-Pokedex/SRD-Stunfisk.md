@@ -16,8 +16,56 @@ Height:
 HiddenAbility: Sand Veil
 HomeSprite: SRD-stunfisk-HomeSprite.png
 Image: stunfisk.png
-Learnset: '[[SRD-Stunfisk-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Starter
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - Beginner
+  - '[[SRD-Bide|Bide]]'
+- - Beginner
+  - '[[SRD-Thunder Shock|Thunder Shock]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Mud Shot|Mud Shot]]'
+- - Amateur
+  - '[[SRD-Camouflage|Camouflage]]'
+- - Amateur
+  - '[[SRD-Mud Bomb|Mud Bomb]]'
+- - Amateur
+  - '[[SRD-Discharge|Discharge]]'
+- - Amateur
+  - '[[SRD-Endure|Endure]]'
+- - Amateur
+  - '[[SRD-Thunderbolt|Thunderbolt]]'
+- - Amateur
+  - '[[SRD-Muddy Water|Muddy Water]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Bounce|Bounce]]'
+- - Ace
+  - '[[SRD-Revenge|Revenge]]'
+- - Ace
+  - '[[SRD-Flail|Flail]]'
+- - Ace
+  - '[[SRD-Fissure|Fissure]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Eerie Impulse|Eerie Impulse]]'
+- - Pro
+  - '[[SRD-Curse|Curse]]'
+- - Pro
+  - '[[SRD-Pain Split|Pain Split]]'
 Number: 618
 ShuffleToken: SRD-stunfisk-ShuffleToken.png
 Type1: Ground
@@ -60,4 +108,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Beginner
 
-![[SRD-Stunfisk-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Stunfisk.md"
+flatten moves as T
+where file.path = this.file.path
+```

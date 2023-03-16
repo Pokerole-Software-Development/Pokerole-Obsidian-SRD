@@ -20,8 +20,42 @@ Height:
 HiddenAbility: Overcoat
 HomeSprite: SRD-cloyster-HomeSprite.png
 Image: cloyster.png
-Learnset: '[[SRD-Cloyster-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Withdraw|Withdraw]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Protect|Protect]]'
+- - Beginner
+  - '[[SRD-Supersonic|Supersonic]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Spike Cannon|Spike Cannon]]'
+- - Amateur
+  - '[[SRD-Aurora Beam|Aurora Beam]]'
+- - Amateur
+  - '[[SRD-Toxic Spikes|Toxic Spikes]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Shell Smash|Shell Smash]]'
+- - Ace
+  - '[[SRD-Spikes|Spikes]]'
+- - Ace
+  - '[[SRD-Icicle Crash|Icicle Crash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Pro
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - Pro
+  - '[[SRD-Self Destruct|Self Destruct]]'
 Number: 91
 ShuffleToken: SRD-cloyster-ShuffleToken.png
 Type1: Water
@@ -68,4 +102,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Shellder]] | Level  | Medium  |
 
-![[SRD-Cloyster-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Cloyster.md"
+flatten moves as T
+where file.path = this.file.path
+```

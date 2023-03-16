@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Dry Skin
 HomeSprite: SRD-jynx-HomeSprite.png
 Image: jynx.png
-Learnset: '[[SRD-Jynx-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Lick|Lick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Lovely Kiss|Lovely Kiss]]'
+- - Beginner
+  - '[[SRD-Powder Snow|Powder Snow]]'
+- - Beginner
+  - '[[SRD-Draining Kiss|Draining Kiss]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Ice Punch|Ice Punch]]'
+- - Amateur
+  - '[[SRD-Heart Stamp|Heart Stamp]]'
+- - Amateur
+  - '[[SRD-Mean Look|Mean Look]]'
+- - Amateur
+  - '[[SRD-Fake Tears|Fake Tears]]'
+- - Amateur
+  - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Avalanche|Avalanche]]'
+- - Ace
+  - '[[SRD-Perish Song|Perish Song]]'
+- - Ace
+  - '[[SRD-Wring Out|Wring Out]]'
+- - Ace
+  - '[[SRD-Blizzard|Blizzard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Pro
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Pro
+  - '[[SRD-Aurora Veil|Aurora Veil]]'
 Number: 124
 ShuffleToken: SRD-jynx-ShuffleToken.png
 Type1: Ice
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Smoochum]] | Level  | Medium  |
 
-![[SRD-Jynx-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Jynx.md"
+flatten moves as T
+where file.path = this.file.path
+```

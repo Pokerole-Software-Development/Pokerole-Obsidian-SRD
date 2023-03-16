@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Scrappy
 HomeSprite: SRD-pancham-HomeSprite.png
 Image: pancham.png
-Learnset: '[[SRD-Pancham-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Arm Thrust|Arm Thrust]]'
+- - Beginner
+  - '[[SRD-Work Up|Work Up]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Karate Chop|Karate Chop]]'
+- - Amateur
+  - '[[SRD-Comet Punch|Comet Punch]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Circle Throw|Circle Throw]]'
+- - Amateur
+  - '[[SRD-Vital Throw|Vital Throw]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Entrainment|Entrainment]]'
+- - Ace
+  - '[[SRD-Parting Shot|Parting Shot]]'
+- - Ace
+  - '[[SRD-Sky Uppercut|Sky Uppercut]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Ice Punch|Ice Punch]]'
+- - Pro
+  - '[[SRD-Thunder Punch|Thunder Punch]]'
+- - Pro
+  - '[[SRD-Fire Punch|Fire Punch]]'
 Number: 674
 ShuffleToken: SRD-pancham-ShuffleToken.png
 Type1: Fighting
@@ -68,4 +110,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Pangoro]] | Level  | Medium  |
 
-![[SRD-Pancham-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Pancham.md"
+flatten moves as T
+where file.path = this.file.path
+```

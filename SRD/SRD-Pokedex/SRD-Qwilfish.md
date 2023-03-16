@@ -16,8 +16,64 @@ Height:
 HiddenAbility: Intimidate
 HomeSprite: SRD-qwilfish-HomeSprite.png
 Image: qwilfish.png
-Learnset: '[[SRD-Qwilfish-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Starter
+  - '[[SRD-Fell Stinger|Fell Stinger]]'
+- - Starter
+  - '[[SRD-Spikes|Spikes]]'
+- - Starter
+  - '[[SRD-Poison Sting|Poison Sting]]'
+- - Starter
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Minimize|Minimize]]'
+- - Beginner
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Destiny Bond|Destiny Bond]]'
+- - Amateur
+  - '[[SRD-Bubble|Bubble]]'
+- - Amateur
+  - '[[SRD-Rollout|Rollout]]'
+- - Amateur
+  - '[[SRD-Toxic Spikes|Toxic Spikes]]'
+- - Amateur
+  - '[[SRD-Stockpile|Stockpile]]'
+- - Amateur
+  - '[[SRD-Spit Up|Spit Up]]'
+- - Amateur
+  - '[[SRD-Revenge|Revenge]]'
+- - Amateur
+  - '[[SRD-Brine|Brine]]'
+- - Amateur
+  - '[[SRD-Pin Missile|Pin Missile]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Ace
+  - '[[SRD-Poison Jab|Poison Jab]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - Pro
+  - '[[SRD-Self Destruct|Self Destruct]]'
+- - Pro
+  - '[[SRD-Swords Dance|Swords Dance]]'
 Number: 211
 ShuffleToken: SRD-qwilfish-ShuffleToken.png
 Type1: Water
@@ -60,4 +116,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Qwilfish-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Qwilfish.md"
+flatten moves as T
+where file.path = this.file.path
+```

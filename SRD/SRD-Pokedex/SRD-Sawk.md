@@ -16,8 +16,52 @@ Height:
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-sawk-HomeSprite.png
 Image: sawk.png
-Learnset: '[[SRD-Sawk-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Rock Smash|Rock Smash]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bide|Bide]]'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Double Kick|Double Kick]]'
+- - Amateur
+  - '[[SRD-Low Sweep|Low Sweep]]'
+- - Amateur
+  - '[[SRD-Counter|Counter]]'
+- - Amateur
+  - '[[SRD-Karate Chop|Karate Chop]]'
+- - Amateur
+  - '[[SRD-Brick Break|Brick Break]]'
+- - Amateur
+  - '[[SRD-Bulk Up|Bulk Up]]'
+- - Amateur
+  - '[[SRD-Retaliate|Retaliate]]'
+- - Amateur
+  - '[[SRD-Endure|Endure]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Quick Guard|Quick Guard]]'
+- - Ace
+  - '[[SRD-Close Combat|Close Combat]]'
+- - Ace
+  - '[[SRD-Reversal|Reversal]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Dual Chop|Dual Chop]]'
+- - Pro
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Pro
+  - '[[SRD-Block|Block]]'
 Number: 539
 ShuffleToken: SRD-sawk-ShuffleToken.png
 Type1: Fighting
@@ -60,4 +104,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Sawk-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Sawk.md"
+flatten moves as T
+where file.path = this.file.path
+```

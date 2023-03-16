@@ -20,8 +20,64 @@ Height:
 HiddenAbility: Weak Armor
 HomeSprite: SRD-onix-HomeSprite.png
 Image: onix.png
-Learnset: '[[SRD-Onix-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - Starter
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bind|Bind]]'
+- - Beginner
+  - '[[SRD-Curse|Curse]]'
+- - Beginner
+  - '[[SRD-Rock Throw|Rock Throw]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Rock Tomb|Rock Tomb]]'
+- - Amateur
+  - '[[SRD-Rage|Rage]]'
+- - Amateur
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Amateur
+  - '[[SRD-Rock Polish|Rock Polish]]'
+- - Amateur
+  - '[[SRD-Smack Down|Smack Down]]'
+- - Amateur
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Amateur
+  - '[[SRD-Sand Tomb|Sand Tomb]]'
+- - Amateur
+  - '[[SRD-Dig|Dig]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Iron Tail|Iron Tail]]'
+- - Ace
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Sandstorm|Sandstorm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Pro
+  - '[[SRD-Self Destruct|Self Destruct]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
 Number: 95
 ShuffleToken: SRD-onix-ShuffleToken.png
 Type1: Rock
@@ -68,4 +124,14 @@ Weight:
 |:----------|:----------------|:-------|:-----------|
 | To        | [[SRD-Steelix]] | Trade  | Metal Coat |
 
-![[SRD-Onix-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Onix.md"
+flatten moves as T
+where file.path = this.file.path
+```

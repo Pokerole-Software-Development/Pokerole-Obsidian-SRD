@@ -20,8 +20,58 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-salamence-mega-form-HomeSprite.png
 Image: salamence-mega-form.png
-Learnset: '[[SRD-Salamence (Mega Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Rage|Rage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Amateur
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Amateur
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Fly|Fly]]'
+- - Amateur
+  - '[[SRD-Dragon Claw|Dragon Claw]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - Ace
+  - '[[SRD-Dragon Tail|Dragon Tail]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
+- - Pro
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - Pro
+  - '[[SRD-Draco Meteor|Draco Meteor]]'
 Number: 373
 ShuffleToken: SRD-salamence-mega-form-ShuffleToken.png
 Type1: Dragon
@@ -68,4 +118,14 @@ Weight:
 |:----------|:------------------|:-------|:------------|
 | From      | [[SRD-Salamence]] | Mega   | Salamencite |
 
-![[SRD-Salamence (Mega Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Salamence (Mega Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

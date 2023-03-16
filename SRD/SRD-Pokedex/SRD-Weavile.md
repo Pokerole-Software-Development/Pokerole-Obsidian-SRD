@@ -20,8 +20,60 @@ Height:
 HiddenAbility: Pickpocket
 HomeSprite: SRD-weavile-HomeSprite.png
 Image: weavile.png
-Learnset: '[[SRD-Weavile-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Taunt|Taunt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Beginner
+  - '[[SRD-Embargo|Embargo]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Assurance|Assurance]]'
+- - Amateur
+  - '[[SRD-Revenge|Revenge]]'
+- - Amateur
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Amateur
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Amateur
+  - '[[SRD-Hone Claws|Hone Claws]]'
+- - Amateur
+  - '[[SRD-Fling|Fling]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Night Slash|Night Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Snatch|Snatch]]'
+- - Ace
+  - '[[SRD-Punishment|Punishment]]'
+- - Ace
+  - '[[SRD-Dark Pulse|Dark Pulse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Icicle Crash|Icicle Crash]]'
+- - Pro
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Pro
+  - '[[SRD-Low Kick|Low Kick]]'
 Number: 461
 ShuffleToken: SRD-weavile-ShuffleToken.png
 Type1: Dark
@@ -68,4 +120,14 @@ Weight:
 |:----------|:----------------|:-------|:-----------|
 | From      | [[SRD-Sneasel]] | Level  | Razor Claw |
 
-![[SRD-Weavile-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Weavile.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -14,8 +14,56 @@ Height:
 HiddenAbility: Regenerator
 HomeSprite: SRD-slowpoke-galarian-form-HomeSprite.png
 Image: slowpoke-galarian-form.png
-Learnset: '[[SRD-Slowpoke (Galarian Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Curse|Curse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - Beginner
+  - '[[SRD-Acid|Acid]]'
+- - Beginner
+  - '[[SRD-Yawn|Yawn]]'
+- - Beginner
+  - '[[SRD-Confusion|Confusion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Disable|Disable]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Amateur
+  - '[[SRD-Surf|Surf]]'
+- - Amateur
+  - '[[SRD-Slack Off|Slack Off]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Psych Up|Psych Up]]'
+- - Ace
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Ace
+  - '[[SRD-Heal Pulse|Heal Pulse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Foul Play|Foul Play]]'
+- - Pro
+  - '[[SRD-Expanding Force|Expanding Force]]'
+- - Pro
+  - '[[SRD-Belch|Belch]]'
 Number: 79
 ShuffleToken: SRD-slowpoke-galarian-form-ShuffleToken.png
 Type1: Psychic
@@ -58,4 +106,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Beginner
 
-![[SRD-Slowpoke (Galarian Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Slowpoke (Galarian Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

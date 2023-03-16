@@ -16,8 +16,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-type-null-HomeSprite.png
 Image: type-null.png
-Learnset: '[[SRD-Type Null-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Rage|Rage]]'
+- - Beginner
+  - '[[SRD-Pursuit|Pursuit]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Imprison|Imprison]]'
+- - Amateur
+  - '[[SRD-Aerial Ace|Aerial Ace]]'
+- - Amateur
+  - '[[SRD-Crush Claw|Crush Claw]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Metal Sound|Metal Sound]]'
+- - Amateur
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Amateur
+  - '[[SRD-Double Hit|Double Hit]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Ace
+  - '[[SRD-Punishment|Punishment]]'
+- - Ace
+  - '[[SRD-Razor Wind|Razor Wind]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Tri Attack|Tri Attack]]'
+- - Pro
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Pro
+  - '[[SRD-Heal Block|Heal Block]]'
 Number: 772
 ShuffleToken: SRD-type-null-ShuffleToken.png
 Type1: Normal
@@ -60,4 +104,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-![[SRD-Type Null-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Type Null.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -27,8 +27,10 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-zygarde-cell-HomeSprite.png
 Image: zygarde-cell.png
-Learnset: '[[SRD-Zygarde Cell-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Starter
+  - '[[SRD-Endure|Endure]]'
 Number: 718
 ShuffleToken: SRD-zygarde-cell-ShuffleToken.png
 Type1: Dragon
@@ -77,4 +79,14 @@ Weight:
 | To        | [[SRD-Zygarde 50%]]  | Special | Zyguarde cells |
 | To        | [[SRD-Zygarde 100%]] | Special | Zyguarde cells |
 
-![[SRD-Zygarde Cell-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Zygarde Cell.md"
+flatten moves as T
+where file.path = this.file.path
+```

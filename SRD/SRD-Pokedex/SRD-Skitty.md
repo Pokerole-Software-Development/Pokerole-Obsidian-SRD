@@ -20,8 +20,60 @@ Height:
 HiddenAbility: Wonder Skin
 HomeSprite: SRD-skitty-HomeSprite.png
 Image: skitty.png
-Learnset: '[[SRD-Skitty-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Foresight|Foresight]]'
+- - Beginner
+  - '[[SRD-Attract|Attract]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sing|Sing]]'
+- - Amateur
+  - '[[SRD-Disarming Voice|Disarming Voice]]'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Copycat|Copycat]]'
+- - Amateur
+  - '[[SRD-Assist|Assist]]'
+- - Amateur
+  - '[[SRD-Charm|Charm]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
+- - Amateur
+  - '[[SRD-Covet|Covet]]'
+- - Amateur
+  - '[[SRD-Heal Bell|Heal Bell]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Captivate|Captivate]]'
+- - Ace
+  - '[[SRD-Play Rough|Play Rough]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Wish|Wish]]'
+- - Pro
+  - '[[SRD-Tickle|Tickle]]'
+- - Pro
+  - '[[SRD-Fake Tears|Fake Tears]]'
 Number: 300
 ShuffleToken: SRD-skitty-ShuffleToken.png
 Type1: Normal
@@ -68,4 +120,14 @@ Weight:
 |:----------|:-----------------|:-------|:-----------|
 | To        | [[SRD-Delcatty]] | Stone  | Moon Stone |
 
-![[SRD-Skitty-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Skitty.md"
+flatten moves as T
+where file.path = this.file.path
+```

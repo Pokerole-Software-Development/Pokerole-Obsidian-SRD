@@ -20,8 +20,32 @@ Height:
 HiddenAbility: Technician
 HomeSprite: SRD-roserade-HomeSprite.png
 Image: roserade.png
-Learnset: '[[SRD-Roserade-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Beginner
+  - '[[SRD-Poison Sting|Poison Sting]]'
+- - Beginner
+  - '[[SRD-Grassy Terrain|Grassy Terrain]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Weather Ball|Weather Ball]]'
+- - Amateur
+  - '[[SRD-Venom Drench|Venom Drench]]'
+- - Amateur
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Amateur
+  - '[[SRD-Magical Leaf|Magical Leaf]]'
+- - Amateur
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Extrasensory|Extrasensory]]'
+- - Pro
+  - '[[SRD-Leaf Storm|Leaf Storm]]'
+- - Pro
+  - '[[SRD-Pin Missile|Pin Missile]]'
 Number: 407
 ShuffleToken: SRD-roserade-ShuffleToken.png
 Type1: Grass
@@ -68,4 +92,14 @@ Weight:
 |:----------|:----------------|:-------|:------------|
 | From      | [[SRD-Roselia]] | Stone  | Shiny Stone |
 
-![[SRD-Roserade-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Roserade.md"
+flatten moves as T
+where file.path = this.file.path
+```

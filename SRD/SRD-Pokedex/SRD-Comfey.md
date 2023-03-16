@@ -16,8 +16,60 @@ Height:
 HiddenAbility: Natural Cure
 HomeSprite: SRD-comfey-HomeSprite.png
 Image: comfey.png
-Learnset: '[[SRD-Comfey-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Starter
+  - '[[SRD-Vine Whip|Vine Whip]]'
+- - Starter
+  - '[[SRD-Flower Shield|Flower Shield]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Beginner
+  - '[[SRD-Draining Kiss|Draining Kiss]]'
+- - Beginner
+  - '[[SRD-Magical Leaf|Magical Leaf]]'
+- - Beginner
+  - '[[SRD-Growth|Growth]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Wrap|Wrap]]'
+- - Amateur
+  - '[[SRD-Sweet Kiss|Sweet Kiss]]'
+- - Amateur
+  - '[[SRD-Natural Gift|Natural Gift]]'
+- - Amateur
+  - '[[SRD-Petal Blizzard|Petal Blizzard]]'
+- - Amateur
+  - '[[SRD-Synthesis|Synthesis]]'
+- - Amateur
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Grass Knot|Grass Knot]]'
+- - Ace
+  - '[[SRD-Floral Healing|Floral Healing]]'
+- - Ace
+  - '[[SRD-Petal Dance|Petal Dance]]'
+- - Ace
+  - '[[SRD-Aromatherapy|Aromatherapy]]'
+- - Ace
+  - '[[SRD-Grassy Terrain|Grassy Terrain]]'
+- - Ace
+  - '[[SRD-Play Rough|Play Rough]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Lucky Chant|Lucky Chant]]'
+- - Pro
+  - '[[SRD-Substitute|Substitute]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
 Number: 764
 ShuffleToken: SRD-comfey-ShuffleToken.png
 Type1: Fairy
@@ -60,4 +112,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Starter
 
-![[SRD-Comfey-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Comfey.md"
+flatten moves as T
+where file.path = this.file.path
+```

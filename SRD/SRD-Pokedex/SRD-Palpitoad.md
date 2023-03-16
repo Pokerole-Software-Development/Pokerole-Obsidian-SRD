@@ -24,8 +24,50 @@ Height:
 HiddenAbility: Water Absorb
 HomeSprite: SRD-palpitoad-HomeSprite.png
 Image: palpitoad.png
-Learnset: '[[SRD-Palpitoad-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bubble|Bubble]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Beginner
+  - '[[SRD-Round|Round]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Amateur
+  - '[[SRD-Mud Shot|Mud Shot]]'
+- - Amateur
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Amateur
+  - '[[SRD-Uproar|Uproar]]'
+- - Amateur
+  - '[[SRD-Muddy Water|Muddy Water]]'
+- - Amateur
+  - '[[SRD-Echoed Voice|Echoed Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Flail|Flail]]'
+- - Ace
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Earth Power|Earth Power]]'
+- - Pro
+  - '[[SRD-Refresh|Refresh]]'
+- - Pro
+  - '[[SRD-Icy Wind|Icy Wind]]'
 Number: 536
 ShuffleToken: SRD-palpitoad-ShuffleToken.png
 Type1: Water
@@ -73,4 +115,14 @@ Weight:
 | From      | [[SRD-Tympole]]    | Level  | Medium  |
 | To        | [[SRD-Seismitoad]] | Level  | Medium  |
 
-![[SRD-Palpitoad-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Palpitoad.md"
+flatten moves as T
+where file.path = this.file.path
+```

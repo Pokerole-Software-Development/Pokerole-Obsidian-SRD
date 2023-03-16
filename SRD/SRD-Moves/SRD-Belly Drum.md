@@ -3,8 +3,9 @@ Accuracy1: Tough
 Accuracy2: Perform
 AddedEffects:
   FixedDamage:
-    BasedOn: MaxHp
-    Percentage: 0.5
+    Target: Targets
+    Type: MaxHpPercentage
+    Value: 0.5
   StatChanges:
   - Affects: User
     Stages: 3

@@ -21,8 +21,52 @@ Height:
 HiddenAbility: Overcoat
 HomeSprite: SRD-wormadam-steel-form-HomeSprite.png
 Image: wormadam-steel-form.png
-Learnset: '[[SRD-Wormadam (Steel Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Flail|Flail]]'
+- - Amateur
+  - '[[SRD-Captivate|Captivate]]'
+- - Amateur
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - Amateur
+  - '[[SRD-Hidden Power|Hidden Power]]'
+- - Amateur
+  - '[[SRD-Mirror Shot|Mirror Shot]]'
+- - Amateur
+  - '[[SRD-Metal Sound|Metal Sound]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Ace
+  - '[[SRD-Quiver Dance|Quiver Dance]]'
+- - Ace
+  - '[[SRD-Attract|Attract]]'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Ace
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Electroweb|Electroweb]]'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Synthesis|Synthesis]]'
 Number: 413
 ShuffleToken: SRD-wormadam-steel-form-ShuffleToken.png
 Type1: Bug
@@ -69,4 +113,14 @@ Weight:
 |:----------|:--------------|:-------|:--------|:---------|
 | From      | [[SRD-Burmy]] | Level  | Fast    | Female   |
 
-![[SRD-Wormadam (Steel Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Wormadam (Steel Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

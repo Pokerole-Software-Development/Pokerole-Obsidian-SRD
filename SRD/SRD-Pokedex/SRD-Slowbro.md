@@ -24,8 +24,56 @@ Height:
 HiddenAbility: Regenerator
 HomeSprite: SRD-slowbro-HomeSprite.png
 Image: slowbro.png
-Learnset: '[[SRD-Slowbro-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Yawn|Yawn]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Curse|Curse]]'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Confusion|Confusion]]'
+- - Amateur
+  - '[[SRD-Disable|Disable]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Amateur
+  - '[[SRD-Slack Off|Slack Off]]'
+- - Amateur
+  - '[[SRD-Withdraw|Withdraw]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Ace
+  - '[[SRD-Psych Up|Psych Up]]'
+- - Ace
+  - '[[SRD-Heal Pulse|Heal Pulse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Pro
+  - '[[SRD-Belly Drum|Belly Drum]]'
+- - Pro
+  - '[[SRD-Future Sight|Future Sight]]'
 Number: 80
 ShuffleToken: SRD-slowbro-ShuffleToken.png
 Type1: Water
@@ -73,4 +121,14 @@ Weight:
 | From      | [[SRD-Slowpoke]]            | Level  | Slow    |             |
 | To        | [[SRD-Slowbro (Mega Form)]] | Mega   |         | Slowbronite |
 
-![[SRD-Slowbro-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Slowbro.md"
+flatten moves as T
+where file.path = this.file.path
+```

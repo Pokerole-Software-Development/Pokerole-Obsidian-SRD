@@ -1,9 +1,7 @@
 ---
 Accuracy1: Will
 Accuracy2: Channel
-AddedEffects:
-  Heal:
-    Type: Basic
+AddedEffects: {}
 Attributes: {}
 Damage1: ''
 Damage2: ''

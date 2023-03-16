@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Prankster
 HomeSprite: SRD-liepard-HomeSprite.png
 Image: liepard.png
-Learnset: '[[SRD-Liepard-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Assist|Assist]]'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Amateur
+  - '[[SRD-Torment|Torment]]'
+- - Amateur
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Amateur
+  - '[[SRD-Hone Claws|Hone Claws]]'
+- - Amateur
+  - '[[SRD-Assurance|Assurance]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Snatch|Snatch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Ace
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Ace
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Ace
+  - '[[SRD-Play Rough|Play Rough]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Charm|Charm]]'
+- - Pro
+  - '[[SRD-Fake Tears|Fake Tears]]'
+- - Pro
+  - '[[SRD-Trick|Trick]]'
 Number: 510
 ShuffleToken: SRD-liepard-ShuffleToken.png
 Type1: Dark
@@ -68,4 +116,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Purrloin]] | Level  | Medium  |
 
-![[SRD-Liepard-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Liepard.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -17,8 +17,48 @@ Height:
 HiddenAbility: Telepathy
 HomeSprite: SRD-giratina-HomeSprite.png
 Image: giratina.png
-Learnset: '[[SRD-Giratina-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Master
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Master
+  - '[[SRD-Ominous Wind|Ominous Wind]]'
+- - Master
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Master
+  - '[[SRD-Slash|Slash]]'
+- - Master
+  - '[[SRD-Shadow Sneak|Shadow Sneak]]'
+- - Master
+  - '[[SRD-Destiny Bond|Destiny Bond]]'
+- - Master
+  - '[[SRD-Dragon Claw|Dragon Claw]]'
+- - Master
+  - '[[SRD-Earth Power|Earth Power]]'
+- - Master
+  - '[[SRD-Aura Sphere|Aura Sphere]]'
+- - Master
+  - '[[SRD-Shadow Claw|Shadow Claw]]'
+- - Master
+  - '[[SRD-Shadow Force|Shadow Force]]'
+- - Master
+  - '[[SRD-Hex|Hex]]'
+- - Master
+  - '[[SRD-Hidden Power|Hidden Power]]'
+- - Master
+  - '[[SRD-Psych Up|Psych Up]]'
+- - Master
+  - '[[SRD-Spite|Spite]]'
+- - Master
+  - '[[SRD-Pain Split|Pain Split]]'
+- - Master
+  - '[[SRD-Outrage|Outrage]]'
+- - Master
+  - '[[SRD-Draco Meteor|Draco Meteor]]'
+- - Master
+  - '[[SRD-Gravity|Gravity]]'
 Number: 487
 ShuffleToken: SRD-giratina-ShuffleToken.png
 Type1: Ghost
@@ -65,4 +105,14 @@ Weight:
 |:----------|:-------------------------------|:-------|
 | To        | [[SRD-Giratina (Origin Form)]] | Form   |
 
-![[SRD-Giratina-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Giratina.md"
+flatten moves as T
+where file.path = this.file.path
+```

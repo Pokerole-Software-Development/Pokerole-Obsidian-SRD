@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Sheer Force
 HomeSprite: SRD-toucannon-HomeSprite.png
 Image: toucannon.png
-Learnset: '[[SRD-Toucannon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Echoed Voice|Echoed Voice]]'
+- - Beginner
+  - '[[SRD-Rock Smash|Rock Smash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - Amateur
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Amateur
+  - '[[SRD-Pluck|Pluck]]'
+- - Amateur
+  - '[[SRD-Roost|Roost]]'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Beak Blast|Beak Blast]]'
+- - Ace
+  - '[[SRD-Drill Peck|Drill Peck]]'
+- - Ace
+  - '[[SRD-Bullet Seed|Bullet Seed]]'
+- - Ace
+  - '[[SRD-Feather Dance|Feather Dance]]'
+- - Ace
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Boomburst|Boomburst]]'
+- - Pro
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Pro
+  - '[[SRD-Brave Bird|Brave Bird]]'
 Number: 733
 ShuffleToken: SRD-toucannon-ShuffleToken.png
 Type1: Normal
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Trumbeak]] | Level  | Medium  |
 
-![[SRD-Toucannon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Toucannon.md"
+flatten moves as T
+where file.path = this.file.path
+```

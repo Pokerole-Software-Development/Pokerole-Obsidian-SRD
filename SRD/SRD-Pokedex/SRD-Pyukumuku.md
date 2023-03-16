@@ -16,8 +16,56 @@ Height:
 HiddenAbility: Unaware
 HomeSprite: SRD-pyukumuku-HomeSprite.png
 Image: pyukumuku.png
-Learnset: '[[SRD-Pyukumuku-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - Starter
+  - '[[SRD-Water Sport|Water Sport]]'
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Beginner
+  - '[[SRD-Bide|Bide]]'
+- - Beginner
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Amateur
+  - '[[SRD-Counter|Counter]]'
+- - Amateur
+  - '[[SRD-Purify|Purify]]'
+- - Amateur
+  - '[[SRD-Curse|Curse]]'
+- - Amateur
+  - '[[SRD-Gastro Acid|Gastro Acid]]'
+- - Amateur
+  - '[[SRD-Pain Split|Pain Split]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Recover|Recover]]'
+- - Ace
+  - '[[SRD-Soak|Soak]]'
+- - Ace
+  - '[[SRD-Toxic Spikes|Toxic Spikes]]'
+- - Ace
+  - '[[SRD-Memento|Memento]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Bestow|Bestow]]'
+- - Pro
+  - '[[SRD-Venom Drench|Venom Drench]]'
+- - Pro
+  - '[[SRD-Tickle|Tickle]]'
 Number: 771
 ShuffleToken: SRD-pyukumuku-ShuffleToken.png
 Type1: Water
@@ -60,4 +108,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Starter
 
-![[SRD-Pyukumuku-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Pyukumuku.md"
+flatten moves as T
+where file.path = this.file.path
+```

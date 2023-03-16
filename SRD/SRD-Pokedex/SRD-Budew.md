@@ -21,8 +21,32 @@ Height:
 HiddenAbility: Leaf Guard
 HomeSprite: SRD-budew-HomeSprite.png
 Image: budew.png
-Learnset: '[[SRD-Budew-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Absorb|Absorb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Growth|Growth]]'
+- - Beginner
+  - '[[SRD-Water Sport|Water Sport]]'
+- - Beginner
+  - '[[SRD-Stun Spore|Stun Spore]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Amateur
+  - '[[SRD-Worry Seed|Worry Seed]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Spikes|Spikes]]'
+- - Pro
+  - '[[SRD-Extrasensory|Extrasensory]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
 Number: 406
 ShuffleToken: SRD-budew-ShuffleToken.png
 Type1: Grass
@@ -69,4 +93,14 @@ Weight:
 |:----------|:----------------|:-------|:----------|--------:|
 | To        | [[SRD-Roselia]] | Stat   | Happiness |       4 |
 
-![[SRD-Budew-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Budew.md"
+flatten moves as T
+where file.path = this.file.path
+```

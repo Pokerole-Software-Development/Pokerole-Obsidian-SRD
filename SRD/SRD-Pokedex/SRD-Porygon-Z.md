@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Analytic
 HomeSprite: SRD-porygon-z-HomeSprite.png
 Image: porygon-z.png
-Learnset: '[[SRD-Porygon-Z-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Conversion|Conversion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Conversion 2|Conversion 2]]'
+- - Beginner
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Beginner
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Trick Room|Trick Room]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Recover|Recover]]'
+- - Amateur
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
+- - Amateur
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Amateur
+  - '[[SRD-Embargo|Embargo]]'
+- - Amateur
+  - '[[SRD-Discharge|Discharge]]'
+- - Amateur
+  - '[[SRD-Lock-On|Lock-On]]'
+- - Amateur
+  - '[[SRD-Tri Attack|Tri Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Magic Coat|Magic Coat]]'
+- - Ace
+  - '[[SRD-Zap Cannon|Zap Cannon]]'
+- - Ace
+  - '[[SRD-Hyper Beam|Hyper Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Electroweb|Electroweb]]'
+- - Pro
+  - '[[SRD-Pain Split|Pain Split]]'
+- - Pro
+  - '[[SRD-Trick|Trick]]'
 Number: 474
 ShuffleToken: SRD-porygon-z-ShuffleToken.png
 Type1: Normal
@@ -68,4 +116,14 @@ Weight:
 |:----------|:-----------------|:-------|:-------------|
 | From      | [[SRD-Porygon2]] | Trade  | Dubious Disc |
 
-![[SRD-Porygon-Z-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Porygon-Z.md"
+flatten moves as T
+where file.path = this.file.path
+```

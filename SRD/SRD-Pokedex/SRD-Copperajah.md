@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Heavy Metal
 HomeSprite: SRD-copperajah-HomeSprite.png
 Image: copperajah.png
-Learnset: '[[SRD-Copperajah-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Rollout|Rollout]]'
+- - Beginner
+  - '[[SRD-Rock Smash|Rock Smash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - Amateur
+  - '[[SRD-Stomp|Stomp]]'
+- - Amateur
+  - '[[SRD-Dig|Dig]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Strength|Strength]]'
+- - Amateur
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Amateur
+  - '[[SRD-Play Rough|Play Rough]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-High Horsepower|High Horsepower]]'
+- - Ace
+  - '[[SRD-Superpower|Superpower]]'
+- - Ace
+  - '[[SRD-Heavy Slam|Heavy Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fissure|Fissure]]'
+- - Pro
+  - '[[SRD-Power Whip|Power Whip]]'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
 Number: 879
 ShuffleToken: SRD-copperajah-ShuffleToken.png
 Type1: Steel
@@ -68,4 +110,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Cufant]] | Level  | Medium  |
 
-![[SRD-Copperajah-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Copperajah.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -16,8 +16,44 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-celebi-HomeSprite.png
 Image: celebi.png
-Learnset: '[[SRD-Celebi-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Master
+  - '[[SRD-Confusion|Confusion]]'
+- - Master
+  - '[[SRD-Recover|Recover]]'
+- - Master
+  - '[[SRD-Heal Bell|Heal Bell]]'
+- - Master
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Master
+  - '[[SRD-Magical Leaf|Magical Leaf]]'
+- - Master
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Master
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Master
+  - '[[SRD-Natural Gift|Natural Gift]]'
+- - Master
+  - '[[SRD-Heal Block|Heal Block]]'
+- - Master
+  - '[[SRD-Future Sight|Future Sight]]'
+- - Master
+  - '[[SRD-Healing Wish|Healing Wish]]'
+- - Master
+  - '[[SRD-Leaf Storm|Leaf Storm]]'
+- - Master
+  - '[[SRD-Perish Song|Perish Song]]'
+- - Master
+  - '[[SRD-Double Team|Double Team]]'
+- - Master
+  - '[[SRD-Trick Room|Trick Room]]'
+- - Master
+  - '[[SRD-Nature Power|Nature Power]]'
+- - Master
+  - '[[SRD-Worry Seed|Worry Seed]]'
 Number: 251
 ShuffleToken: SRD-celebi-ShuffleToken.png
 Type1: Grass
@@ -60,4 +96,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-![[SRD-Celebi-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Celebi.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,30 @@ Height:
 HiddenAbility: Friend Guard
 HomeSprite: SRD-happiny-HomeSprite.png
 Image: happiny.png
-Learnset: '[[SRD-Happiny-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Charm|Charm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Copycat|Copycat]]'
+- - Beginner
+  - '[[SRD-Refresh|Refresh]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sweet Kiss|Sweet Kiss]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Pro
+  - '[[SRD-Present|Present]]'
+- - Pro
+  - '[[SRD-Drain Punch|Drain Punch]]'
 Number: 440
 ShuffleToken: SRD-happiny-ShuffleToken.png
 Type1: Normal
@@ -68,4 +90,14 @@ Weight:
 |:----------|:----------------|:-------|:-----------|
 | To        | [[SRD-Chansey]] | Level  | Oval Stone |
 
-![[SRD-Happiny-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Happiny.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,26 @@ Height:
 HiddenAbility: Run Away
 HomeSprite: SRD-kricketot-HomeSprite.png
 Image: kricketot.png
-Learnset: '[[SRD-Kricketot-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Bide|Bide]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Struggle Bug|Struggle Bug]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Uproar|Uproar]]'
+- - Pro
+  - '[[SRD-String Shot|String Shot]]'
 Number: 401
 ShuffleToken: SRD-kricketot-ShuffleToken.png
 Type1: Bug
@@ -68,4 +86,14 @@ Weight:
 |:----------|:-------------------|:-------|:--------|
 | To        | [[SRD-Kricketune]] | Level  | Fast    |
 
-![[SRD-Kricketot-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Kricketot.md"
+flatten moves as T
+where file.path = this.file.path
+```

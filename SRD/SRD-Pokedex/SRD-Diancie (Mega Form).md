@@ -20,8 +20,50 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-diancie-mega-form-HomeSprite.png
 Image: diancie-mega-form.png
-Learnset: '[[SRD-Diancie (Mega Form)-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Tackle|Tackle]]'
+- - Master
+  - '[[SRD-Harden|Harden]]'
+- - Master
+  - '[[SRD-Rock Throw|Rock Throw]]'
+- - Master
+  - '[[SRD-Sharpen|Sharpen]]'
+- - Master
+  - '[[SRD-Smack Down|Smack Down]]'
+- - Master
+  - '[[SRD-Reflect|Reflect]]'
+- - Master
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Master
+  - '[[SRD-Guard Split|Guard Split]]'
+- - Master
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Master
+  - '[[SRD-Flail|Flail]]'
+- - Master
+  - '[[SRD-Skill Swap|Skill Swap]]'
+- - Master
+  - '[[SRD-Power Gem|Power Gem]]'
+- - Master
+  - '[[SRD-Trick Room|Trick Room]]'
+- - Master
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - Master
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Master
+  - '[[SRD-Diamond Storm|Diamond Storm]]'
+- - Master
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Master
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Master
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
+- - Master
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Master
+  - '[[SRD-Dazzling Gleam|Dazzling Gleam]]'
 Number: 719
 ShuffleToken: SRD-diancie-mega-form-ShuffleToken.png
 Type1: Rock
@@ -68,4 +110,14 @@ Weight:
 |:----------|:----------------|:-------|:---------|
 | From      | [[SRD-Diancie]] | Mega   | Diancite |
 
-![[SRD-Diancie (Mega Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Diancie (Mega Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

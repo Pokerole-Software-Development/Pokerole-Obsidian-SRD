@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Sand Veil
 HomeSprite: SRD-donphan-HomeSprite.png
 Image: donphan.png
-Learnset: '[[SRD-Donphan-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Starter
+  - '[[SRD-Horn Attack|Horn Attack]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Beginner
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
+- - Beginner
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - Amateur
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Amateur
+  - '[[SRD-Rollout|Rollout]]'
+- - Amateur
+  - '[[SRD-Magnitude|Magnitude]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Amateur
+  - '[[SRD-Assurance|Assurance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Giga Impact|Giga Impact]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Counter|Counter]]'
+- - Pro
+  - '[[SRD-Ice Shard|Ice Shard]]'
+- - Pro
+  - '[[SRD-Fissure|Fissure]]'
 Number: 232
 ShuffleToken: SRD-donphan-ShuffleToken.png
 Type1: Ground
@@ -68,4 +114,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Phanpy]] | Level  | Medium  |
 
-![[SRD-Donphan-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Donphan.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Swift Swim
 HomeSprite: SRD-poliwag-HomeSprite.png
 Image: poliwag.png
-Learnset: '[[SRD-Poliwag-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Water Sport|Water Sport]]'
+- - Starter
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Beginner
+  - '[[SRD-Bubble|Bubble]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Amateur
+  - '[[SRD-Mud Shot|Mud Shot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Belly Drum|Belly Drum]]'
+- - Ace
+  - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Mud Bomb|Mud Bomb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Pro
+  - '[[SRD-Mind Reader|Mind Reader]]'
+- - Pro
+  - '[[SRD-Refresh|Refresh]]'
 Number: 60
 ShuffleToken: SRD-poliwag-ShuffleToken.png
 Type1: Water
@@ -68,4 +108,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Poliwhirl]] | Level  | Medium  |
 
-![[SRD-Poliwag-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Poliwag.md"
+flatten moves as T
+where file.path = this.file.path
+```

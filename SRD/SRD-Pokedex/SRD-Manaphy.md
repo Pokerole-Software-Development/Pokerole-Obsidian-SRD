@@ -16,8 +16,42 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-manaphy-HomeSprite.png
 Image: manaphy.png
-Learnset: '[[SRD-Manaphy-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Tail Glow|Tail Glow]]'
+- - Master
+  - '[[SRD-Bubble|Bubble]]'
+- - Master
+  - '[[SRD-Water Sport|Water Sport]]'
+- - Master
+  - '[[SRD-Charm|Charm]]'
+- - Master
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Master
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Master
+  - '[[SRD-Acid Armor|Acid Armor]]'
+- - Master
+  - '[[SRD-Whirlpool|Whirlpool]]'
+- - Master
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Master
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Master
+  - '[[SRD-Dive|Dive]]'
+- - Master
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Master
+  - '[[SRD-Surf|Surf]]'
+- - Master
+  - '[[SRD-Heart Swap|Heart Swap]]'
+- - Master
+  - '[[SRD-Liquidation|Liquidation]]'
+- - Master
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Master
+  - '[[SRD-Bounce|Bounce]]'
 Number: 490
 ShuffleToken: SRD-manaphy-ShuffleToken.png
 Type1: Water
@@ -60,4 +94,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-![[SRD-Manaphy-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Manaphy.md"
+flatten moves as T
+where file.path = this.file.path
+```

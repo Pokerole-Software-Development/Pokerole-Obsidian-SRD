@@ -16,8 +16,50 @@ Height:
 HiddenAbility: Sturdy
 HomeSprite: SRD-relicanth-HomeSprite.png
 Image: relicanth.png
-Learnset: '[[SRD-Relicanth-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Flail|Flail]]'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Rock Tomb|Rock Tomb]]'
+- - Amateur
+  - '[[SRD-Yawn|Yawn]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Rest|Rest]]'
+- - Amateur
+  - '[[SRD-Dive|Dive]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Head Smash|Head Smash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Skull Bash|Skull Bash]]'
+- - Pro
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Pro
+  - '[[SRD-Magnitude|Magnitude]]'
 Number: 369
 ShuffleToken: SRD-relicanth-ShuffleToken.png
 Type1: Water
@@ -60,4 +102,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Relicanth-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Relicanth.md"
+flatten moves as T
+where file.path = this.file.path
+```

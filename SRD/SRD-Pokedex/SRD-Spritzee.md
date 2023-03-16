@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Aroma Veil
 HomeSprite: SRD-spritzee-HomeSprite.png
 Image: spritzee.png
-Learnset: '[[SRD-Spritzee-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Starter
+  - '[[SRD-Fairy Wind|Fairy Wind]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sweet Kiss|Sweet Kiss]]'
+- - Beginner
+  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Echoed Voice|Echoed Voice]]'
+- - Amateur
+  - '[[SRD-Calm Mind|Calm Mind]]'
+- - Amateur
+  - '[[SRD-Draining Kiss|Draining Kiss]]'
+- - Amateur
+  - '[[SRD-Aromatherapy|Aromatherapy]]'
+- - Amateur
+  - '[[SRD-Attract|Attract]]'
+- - Amateur
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Amateur
+  - '[[SRD-Charm|Charm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Flail|Flail]]'
+- - Ace
+  - '[[SRD-Misty Terrain|Misty Terrain]]'
+- - Ace
+  - '[[SRD-Skill Swap|Skill Swap]]'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Disarming Voice|Disarming Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Captivate|Captivate]]'
+- - Pro
+  - '[[SRD-Disable|Disable]]'
+- - Pro
+  - '[[SRD-Covet|Covet]]'
 Number: 682
 ShuffleToken: SRD-spritzee-ShuffleToken.png
 Type1: Fairy
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-------------------|:-------|:-------|
 | To        | [[SRD-Aromatisse]] | Trade  | Sachet |
 
-![[SRD-Spritzee-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Spritzee.md"
+flatten moves as T
+where file.path = this.file.path
+```

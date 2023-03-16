@@ -20,8 +20,60 @@ Height:
 HiddenAbility: Rain Dish
 HomeSprite: SRD-pelipper-HomeSprite.png
 Image: pelipper.png
-Learnset: '[[SRD-Pelipper-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Starter
+  - '[[SRD-Water Sport|Water Sport]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Beginner
+  - '[[SRD-Soak|Soak]]'
+- - Beginner
+  - '[[SRD-Wing Attack|Wing Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Mist|Mist]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Payback|Payback]]'
+- - Amateur
+  - '[[SRD-Brine|Brine]]'
+- - Amateur
+  - '[[SRD-Roost|Roost]]'
+- - Amateur
+  - '[[SRD-Spit Up|Spit Up]]'
+- - Amateur
+  - '[[SRD-Swallow|Swallow]]'
+- - Amateur
+  - '[[SRD-Stockpile|Stockpile]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Ace
+  - '[[SRD-Fling|Fling]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Hurricane|Hurricane]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Shock Wave|Shock Wave]]'
+- - Pro
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Pro
+  - '[[SRD-Gunk Shot|Gunk Shot]]'
 Number: 279
 ShuffleToken: SRD-pelipper-ShuffleToken.png
 Type1: Water
@@ -68,4 +120,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Wingull]] | Level  | Medium  |
 
-![[SRD-Pelipper-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Pelipper.md"
+flatten moves as T
+where file.path = this.file.path
+```

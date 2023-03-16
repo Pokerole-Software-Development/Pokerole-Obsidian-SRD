@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Contrary
 HomeSprite: SRD-lurantis-HomeSprite.png
 Image: lurantis.png
-Learnset: '[[SRD-Lurantis-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Starter
+  - '[[SRD-Leafage|Leafage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Beginner
+  - '[[SRD-Growth|Growth]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Ingrain|Ingrain]]'
+- - Amateur
+  - '[[SRD-Leaf Blade|Leaf Blade]]'
+- - Amateur
+  - '[[SRD-Synthesis|Synthesis]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - Ace
+  - '[[SRD-Petal Blizzard|Petal Blizzard]]'
+- - Ace
+  - '[[SRD-Solar Blade|Solar Blade]]'
+- - Ace
+  - '[[SRD-Sunny Day|Sunny Day]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Pro
+  - '[[SRD-Leaf Storm|Leaf Storm]]'
+- - Pro
+  - '[[SRD-Brick Break|Brick Break]]'
 Number: 754
 ShuffleToken: SRD-lurantis-ShuffleToken.png
 Type1: Grass
@@ -68,4 +108,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Fomantis]] | Level  | Medium  |
 
-![[SRD-Lurantis-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Lurantis.md"
+flatten moves as T
+where file.path = this.file.path
+```

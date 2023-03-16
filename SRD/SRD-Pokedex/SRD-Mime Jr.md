@@ -25,8 +25,58 @@ Height:
 HiddenAbility: Technician
 HomeSprite: SRD-mime-jr-HomeSprite.png
 Image: mime-jr.png
-Learnset: '[[SRD-Mime Jr-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tickle|Tickle]]'
+- - Starter
+  - '[[SRD-Barrier|Barrier]]'
+- - Starter
+  - '[[SRD-Confusion|Confusion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Copycat|Copycat]]'
+- - Beginner
+  - '[[SRD-Meditate|Meditate]]'
+- - Beginner
+  - '[[SRD-Double Slap|Double Slap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Mimic|Mimic]]'
+- - Amateur
+  - '[[SRD-Encore|Encore]]'
+- - Amateur
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Amateur
+  - '[[SRD-Reflect|Reflect]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Substitute|Substitute]]'
+- - Amateur
+  - '[[SRD-Trick|Trick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Recycle|Recycle]]'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Role Play|Role Play]]'
+- - Ace
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Ace
+  - '[[SRD-Safeguard|Safeguard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Teeter Dance|Teeter Dance]]'
+- - Pro
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Pro
+  - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
 Number: 439
 ShuffleToken: SRD-mime-jr-ShuffleToken.png
 Type1: Psychic
@@ -74,4 +124,14 @@ Weight:
 | To        | [[SRD-Mr. Mime]]                 | Level  | Mimic  |          |
 | To        | [[SRD-Mr. Mime (Galarian Form)]] | Level  | Mimic  | Galar    |
 
-![[SRD-Mime Jr-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Mime Jr.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,54 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-deino-HomeSprite.png
 Image: deino.png
-Learnset: '[[SRD-Deino-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Dragon Rage|Dragon Rage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Amateur
+  - '[[SRD-Roar|Roar]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - Amateur
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - Amateur
+  - '[[SRD-Work Up|Work Up]]'
+- - Amateur
+  - '[[SRD-Dragon Rush|Dragon Rush]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Ace
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Ace
+  - '[[SRD-Outrage|Outrage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Head Smash|Head Smash]]'
+- - Pro
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
+- - Pro
+  - '[[SRD-Fire Fang|Fire Fang]]'
 Number: 633
 ShuffleToken: SRD-deino-ShuffleToken.png
 Type1: Dark
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Zweilous]] | Level  | Slow    |
 
-![[SRD-Deino-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Deino.md"
+flatten moves as T
+where file.path = this.file.path
+```

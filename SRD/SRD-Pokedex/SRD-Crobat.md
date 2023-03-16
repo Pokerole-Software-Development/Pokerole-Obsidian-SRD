@@ -21,8 +21,54 @@ Height:
 HiddenAbility: Infiltrator
 HomeSprite: SRD-crobat-HomeSprite.png
 Image: crobat.png
-Learnset: '[[SRD-Crobat-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Absorb|Absorb]]'
+- - Starter
+  - '[[SRD-Screech|Screech]]'
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - Starter
+  - '[[SRD-Supersonic|Supersonic]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Wing Attack|Wing Attack]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Swift|Swift]]'
+- - Amateur
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Amateur
+  - '[[SRD-Acrobatics|Acrobatics]]'
+- - Amateur
+  - '[[SRD-Air Cutter|Air Cutter]]'
+- - Amateur
+  - '[[SRD-Mean Look|Mean Look]]'
+- - Amateur
+  - '[[SRD-Leech Life|Leech Life]]'
+- - Amateur
+  - '[[SRD-Poison Fang|Poison Fang]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Cross Poison|Cross Poison]]'
+- - Ace
+  - '[[SRD-Haze|Haze]]'
+- - Ace
+  - '[[SRD-Air Slash|Air Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Brave Bird|Brave Bird]]'
+- - Pro
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
 Number: 169
 ShuffleToken: SRD-crobat-ShuffleToken.png
 Type1: Poison
@@ -69,4 +115,14 @@ Weight:
 |:----------|:---------------|:-------|:----------|--------:|
 | From      | [[SRD-Golbat]] | Stat   | Happiness |       4 |
 
-![[SRD-Crobat-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Crobat.md"
+flatten moves as T
+where file.path = this.file.path
+```

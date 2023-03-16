@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Rain Dish
 HomeSprite: SRD-squirtle-HomeSprite.png
 Image: squirtle.png
-Learnset: '[[SRD-Squirtle-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Beginner
+  - '[[SRD-Withdraw|Withdraw]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bubble|Bubble]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Skull Bash|Skull Bash]]'
+- - Ace
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Ace
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - Pro
+  - '[[SRD-Water Pledge|Water Pledge]]'
+- - Pro
+  - '[[SRD-Icy Wind|Icy Wind]]'
 Number: 7
 ShuffleToken: SRD-squirtle-ShuffleToken.png
 Type1: Water
@@ -68,4 +110,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Wartortle]] | Level  | Medium  |
 
-![[SRD-Squirtle-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Squirtle.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,44 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-slakoth-HomeSprite.png
 Image: slakoth.png
-Learnset: '[[SRD-Slakoth-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Yawn|Yawn]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Encore|Encore]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Slack Off|Slack Off]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Amateur
+  - '[[SRD-Covet|Covet]]'
+- - Amateur
+  - '[[SRD-Chip Away|Chip Away]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Counter|Counter]]'
+- - Ace
+  - '[[SRD-Flail|Flail]]'
+- - Ace
+  - '[[SRD-Play Rough|Play Rough]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-After You|After You]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
+- - Pro
+  - '[[SRD-Sleep Talk|Sleep Talk]]'
 Number: 287
 ShuffleToken: SRD-slakoth-ShuffleToken.png
 Type1: Normal
@@ -68,4 +104,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Vigoroth]] | Level  | Slow    |
 
-![[SRD-Slakoth-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Slakoth.md"
+flatten moves as T
+where file.path = this.file.path
+```

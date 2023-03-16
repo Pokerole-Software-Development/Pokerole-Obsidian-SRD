@@ -24,8 +24,44 @@ Height:
 HiddenAbility: Sniper
 HomeSprite: SRD-drizzile-HomeSprite.png
 Image: drizzile.png
-Learnset: '[[SRD-Drizzile-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Beginner
+  - '[[SRD-Bind|Bind]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Tearful Look|Tearful Look]]'
+- - Amateur
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Amateur
+  - '[[SRD-U-Turn|U-Turn]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Liquidation|Liquidation]]'
+- - Ace
+  - '[[SRD-Soak|Soak]]'
+- - Ace
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Double Team|Double Team]]'
+- - Pro
+  - '[[SRD-Haze|Haze]]'
+- - Pro
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
 Number: 817
 ShuffleToken: SRD-drizzile-ShuffleToken.png
 Type1: Water
@@ -73,4 +109,14 @@ Weight:
 | From      | [[SRD-Sobble]]   | Level  | Medium  |
 | To        | [[SRD-Inteleon]] | Level  | Medium  |
 
-![[SRD-Drizzile-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Drizzile.md"
+flatten moves as T
+where file.path = this.file.path
+```

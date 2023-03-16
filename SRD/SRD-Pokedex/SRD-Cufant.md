@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Heavy Metal
 HomeSprite: SRD-cufant-HomeSprite.png
 Image: cufant.png
-Learnset: '[[SRD-Cufant-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Rollout|Rollout]]'
+- - Beginner
+  - '[[SRD-Rock Smash|Rock Smash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - Amateur
+  - '[[SRD-Stomp|Stomp]]'
+- - Amateur
+  - '[[SRD-Dig|Dig]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Strength|Strength]]'
+- - Amateur
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Amateur
+  - '[[SRD-Play Rough|Play Rough]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-High Horsepower|High Horsepower]]'
+- - Ace
+  - '[[SRD-Superpower|Superpower]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Pro
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Pro
+  - '[[SRD-Fissure|Fissure]]'
 Number: 878
 ShuffleToken: SRD-cufant-ShuffleToken.png
 Type1: Steel
@@ -68,4 +108,14 @@ Weight:
 |:----------|:-------------------|:-------|:--------|
 | To        | [[SRD-Copperajah]] | Level  | Medium  |
 
-![[SRD-Cufant-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Cufant.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Hustle
 HomeSprite: SRD-raticate-HomeSprite.png
 Image: raticate.png
-Learnset: '[[SRD-Raticate-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Pursuit|Pursuit]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Flame Wheel|Flame Wheel]]'
+- - Amateur
+  - '[[SRD-Hyper Fang|Hyper Fang]]'
+- - Amateur
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Assurance|Assurance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Super Fang|Super Fang]]'
+- - Ace
+  - '[[SRD-Endeavor|Endeavor]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Pro
+  - '[[SRD-Last Resort|Last Resort]]'
+- - Pro
+  - '[[SRD-Final Gambit|Final Gambit]]'
 Number: 20
 ShuffleToken: SRD-raticate-ShuffleToken.png
 Type1: Normal
@@ -68,4 +116,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Rattata]] | Level  | Medium  |
 
-![[SRD-Raticate-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Raticate.md"
+flatten moves as T
+where file.path = this.file.path
+```

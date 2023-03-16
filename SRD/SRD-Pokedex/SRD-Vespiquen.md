@@ -21,8 +21,58 @@ Height:
 HiddenAbility: Unnerve
 HomeSprite: SRD-vespiquen-HomeSprite.png
 Image: vespiquen.png
-Learnset: '[[SRD-Vespiquen-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Starter
+  - '[[SRD-Gust|Gust]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Poison Sting|Poison Sting]]'
+- - Beginner
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Beginner
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Beginner
+  - '[[SRD-Pursuit|Pursuit]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fell Stinger|Fell Stinger]]'
+- - Amateur
+  - '[[SRD-Attack Order|Attack Order]]'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Defend Order|Defend Order]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Power Gem|Power Gem]]'
+- - Amateur
+  - '[[SRD-Heal Order|Heal Order]]'
+- - Amateur
+  - '[[SRD-Toxic|Toxic]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Ace
+  - '[[SRD-Captivate|Captivate]]'
+- - Ace
+  - '[[SRD-Destiny Bond|Destiny Bond]]'
+- - Ace
+  - '[[SRD-Swagger|Swagger]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
+- - Pro
+  - '[[SRD-Ominous Wind|Ominous Wind]]'
 Number: 416
 ShuffleToken: SRD-vespiquen-ShuffleToken.png
 Type1: Bug
@@ -69,4 +119,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|:---------|
 | From      | [[SRD-Combee]] | Level  | Slow    | Female   |
 
-![[SRD-Vespiquen-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Vespiquen.md"
+flatten moves as T
+where file.path = this.file.path
+```

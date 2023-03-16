@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Quick Feet
 HomeSprite: SRD-zigzagoon-galarian-form-HomeSprite.png
 Image: zigzagoon-galarian-form.png
-Learnset: '[[SRD-Zigzagoon (Galarian Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Beginner
+  - '[[SRD-Lick|Lick]]'
+- - Beginner
+  - '[[SRD-Take Down|Take Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Snarl|Snarl]]'
+- - Amateur
+  - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
+- - Amateur
+  - '[[SRD-Pin Missile|Pin Missile]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Ace
+  - '[[SRD-Counter|Counter]]'
+- - Ace
+  - '[[SRD-Taunt|Taunt]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Pro
+  - '[[SRD-Parting Shot|Parting Shot]]'
+- - Pro
+  - '[[SRD-Quick Guard|Quick Guard]]'
 Number: 263
 ShuffleToken: SRD-zigzagoon-galarian-form-ShuffleToken.png
 Type1: Dark
@@ -68,4 +108,14 @@ Weight:
 |:----------|:--------------------------------|:-------|:--------|
 | To        | [[SRD-Linoone (Galarian Form)]] | Level  | Medium  |
 
-![[SRD-Zigzagoon (Galarian Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Zigzagoon (Galarian Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

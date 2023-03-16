@@ -23,8 +23,54 @@ Height:
 HiddenAbility: Sand Veil
 HomeSprite: SRD-graveler-HomeSprite.png
 Image: graveler.png
-Learnset: '[[SRD-Graveler-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - Beginner
+  - '[[SRD-Rock Polish|Rock Polish]]'
+- - Beginner
+  - '[[SRD-Rollout|Rollout]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Magnitude|Magnitude]]'
+- - Amateur
+  - '[[SRD-Rock Throw|Rock Throw]]'
+- - Amateur
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - Amateur
+  - '[[SRD-Smack Down|Smack Down]]'
+- - Amateur
+  - '[[SRD-Self Destruct|Self Destruct]]'
+- - Amateur
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - Amateur
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Rock Climb|Rock Climb]]'
+- - Pro
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Pro
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
 Number: 75
 ShuffleToken: SRD-graveler-ShuffleToken.png
 Type1: Rock
@@ -72,4 +118,14 @@ Weight:
 | From      | [[SRD-Geodude]] | Level  | Medium  |
 | To        | [[SRD-Golem]]   | Trade  |         |
 
-![[SRD-Graveler-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Graveler.md"
+flatten moves as T
+where file.path = this.file.path
+```

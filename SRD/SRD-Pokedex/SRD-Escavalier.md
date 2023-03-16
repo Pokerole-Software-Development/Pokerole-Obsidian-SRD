@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Overcoat
 HomeSprite: SRD-escavalier-HomeSprite.png
 Image: escavalier.png
-Learnset: '[[SRD-Escavalier-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Quick Guard|Quick Guard]]'
+- - Beginner
+  - '[[SRD-Twineedle|Twineedle]]'
+- - Beginner
+  - '[[SRD-Fell Stinger|Fell Stinger]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Amateur
+  - '[[SRD-False Swipe|False Swipe]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Iron Head|Iron Head]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - Ace
+  - '[[SRD-Reversal|Reversal]]'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Giga Impact|Giga Impact]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Megahorn|Megahorn]]'
+- - Pro
+  - '[[SRD-Drill Run|Drill Run]]'
+- - Pro
+  - '[[SRD-Counter|Counter]]'
 Number: 589
 ShuffleToken: SRD-escavalier-ShuffleToken.png
 Type1: Bug
@@ -68,4 +116,14 @@ Weight:
 |:----------|:-------------------|:-------|:--------|
 | From      | [[SRD-Karrablast]] | Level  | Medium  |
 
-![[SRD-Escavalier-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Escavalier.md"
+flatten moves as T
+where file.path = this.file.path
+```

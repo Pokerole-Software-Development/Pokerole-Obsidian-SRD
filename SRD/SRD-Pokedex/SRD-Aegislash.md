@@ -23,8 +23,44 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-aegislash-HomeSprite.png
 Image: aegislash.png
-Learnset: '[[SRD-Aegislash-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Amateur
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Amateur
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Amateur
+  - '[[SRD-Autotomize|Autotomize]]'
+- - Amateur
+  - '[[SRD-Shadow Sneak|Shadow Sneak]]'
+- - Amateur
+  - '[[SRD-Aerial Ace|Aerial Ace]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Night Slash|Night Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Ace
+  - '[[SRD-Power Trick|Power Trick]]'
+- - Ace
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Ace
+  - '[[SRD-King''s Shield|King''s Shield]]'
+- - Ace
+  - '[[SRD-Head Smash|Head Smash]]'
+- - Ace
+  - '[[SRD-Sacred Sword|Sacred Sword]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Spite|Spite]]'
+- - Pro
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
+- - Pro
+  - '[[SRD-Destiny Bond|Destiny Bond]]'
 Number: 681
 ShuffleToken: SRD-aegislash-ShuffleToken.png
 Type1: Steel
@@ -72,4 +108,14 @@ Weight:
 | From      | [[SRD-Doublade]]               | Stone  | Dusk Stone |
 | To        | [[SRD-Aegislash (Blade Form)]] | Form   |            |
 
-![[SRD-Aegislash-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Aegislash.md"
+flatten moves as T
+where file.path = this.file.path
+```

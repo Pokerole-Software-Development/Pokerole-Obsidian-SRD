@@ -19,8 +19,12 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-cosmog-HomeSprite.png
 Image: cosmog.png
-Learnset: '[[SRD-Cosmog-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Splash|Splash]]'
+- - Starter
+  - '[[SRD-Teleport|Teleport]]'
 Number: 789
 ShuffleToken: SRD-cosmog-ShuffleToken.png
 Type1: Psychic
@@ -67,4 +71,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Cosmoem]] | Level  | Unknown |
 
-![[SRD-Cosmog-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Cosmog.md"
+flatten moves as T
+where file.path = this.file.path
+```

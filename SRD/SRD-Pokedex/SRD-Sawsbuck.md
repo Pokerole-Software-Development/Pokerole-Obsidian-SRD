@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Serene Grace
 HomeSprite: SRD-sawsbuck-HomeSprite.png
 Image: sawsbuck.png
-Learnset: '[[SRD-Sawsbuck-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Camouflage|Camouflage]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Beginner
+  - '[[SRD-Horn Leech|Horn Leech]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Double Kick|Double Kick]]'
+- - Amateur
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Jump Kick|Jump Kick]]'
+- - Amateur
+  - '[[SRD-Aromatherapy|Aromatherapy]]'
+- - Amateur
+  - '[[SRD-Energy Ball|Energy Ball]]'
+- - Amateur
+  - '[[SRD-Charm|Charm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Megahorn|Megahorn]]'
+- - Ace
+  - '[[SRD-Nature Power|Nature Power]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Solar Beam|Solar Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Agility|Agility]]'
+- - Pro
+  - '[[SRD-Bounce|Bounce]]'
+- - Pro
+  - '[[SRD-Last Resort|Last Resort]]'
 Number: 586
 ShuffleToken: SRD-sawsbuck-ShuffleToken.png
 Type1: Normal
@@ -68,4 +116,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Deerling]] | Level  | Medium  |
 
-![[SRD-Sawsbuck-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Sawsbuck.md"
+flatten moves as T
+where file.path = this.file.path
+```

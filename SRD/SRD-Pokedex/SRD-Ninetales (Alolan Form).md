@@ -20,8 +20,32 @@ Height:
 HiddenAbility: Snow Warning
 HomeSprite: SRD-ninetales-alolan-form-HomeSprite.png
 Image: ninetales-alolan-form.png
-Learnset: '[[SRD-Ninetales (Alolan Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Amateur
+  - '[[SRD-Dazzling Gleam|Dazzling Gleam]]'
+- - Amateur
+  - '[[SRD-Imprison|Imprison]]'
+- - Amateur
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Amateur
+  - '[[SRD-Ice Beam|Ice Beam]]'
+- - Amateur
+  - '[[SRD-Ice Shard|Ice Shard]]'
+- - Amateur
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Ace
+  - '[[SRD-Agility|Agility]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Pro
+  - '[[SRD-Aurora Veil|Aurora Veil]]'
 Number: 38
 ShuffleToken: SRD-ninetales-alolan-form-ShuffleToken.png
 Type1: Ice
@@ -68,4 +92,14 @@ Weight:
 |:----------|:-----------------------------|:-------|:----------|
 | From      | [[SRD-Vulpix (Alolan Form)]] | Stone  | Ice Stone |
 
-![[SRD-Ninetales (Alolan Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Ninetales (Alolan Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

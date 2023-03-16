@@ -5,8 +5,9 @@ AddedEffects:
   AilmentHeal:
   - All
   Heal:
-    RequiresWill: false
+    Target: Targets
     Type: Complete
+    WillPointCost: 1
 Attributes:
   UserFaints: true
 Damage1: ''

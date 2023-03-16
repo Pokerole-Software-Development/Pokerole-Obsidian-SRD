@@ -20,8 +20,20 @@ Height:
 HiddenAbility: Run Away
 HomeSprite: SRD-caterpie-HomeSprite.png
 Image: caterpie.png
-Learnset: '[[SRD-Caterpie-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-String Shot|String Shot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Electroweb|Electroweb]]'
 Number: 10
 ShuffleToken: SRD-caterpie-ShuffleToken.png
 Type1: Bug
@@ -68,4 +80,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Metapod]] | Level  | Fast    |
 
-![[SRD-Caterpie-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Caterpie.md"
+flatten moves as T
+where file.path = this.file.path
+```

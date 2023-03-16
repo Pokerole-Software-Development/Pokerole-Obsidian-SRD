@@ -20,8 +20,34 @@ Height:
 HiddenAbility: Swift Swim
 HomeSprite: SRD-poliwrath-HomeSprite.png
 Image: poliwrath.png
-Learnset: '[[SRD-Poliwrath-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Beginner
+  - '[[SRD-Circle Throw|Circle Throw]]'
+- - Beginner
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Submission|Submission]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Dynamic Punch|Dynamic Punch]]'
+- - Ace
+  - '[[SRD-Mind Reader|Mind Reader]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Ice Punch|Ice Punch]]'
+- - Pro
+  - '[[SRD-Seismic Toss|Seismic Toss]]'
+- - Pro
+  - '[[SRD-Counter|Counter]]'
 Number: 62
 ShuffleToken: SRD-poliwrath-ShuffleToken.png
 Type1: Water
@@ -68,4 +94,14 @@ Weight:
 |:----------|:------------------|:-------|:------------|
 | From      | [[SRD-Poliwhirl]] | Stone  | Water Stone |
 
-![[SRD-Poliwrath-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Poliwrath.md"
+flatten moves as T
+where file.path = this.file.path
+```

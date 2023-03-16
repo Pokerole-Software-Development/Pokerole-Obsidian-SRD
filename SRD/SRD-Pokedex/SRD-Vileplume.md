@@ -20,8 +20,36 @@ Height:
 HiddenAbility: Effect Spore
 HomeSprite: SRD-vileplume-HomeSprite.png
 Image: vileplume.png
-Learnset: '[[SRD-Vileplume-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Aromatherapy|Aromatherapy]]'
+- - Beginner
+  - '[[SRD-Poison Powder|Poison Powder]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Stun Spore|Stun Spore]]'
+- - Amateur
+  - '[[SRD-Petal Dance|Petal Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Petal Blizzard|Petal Blizzard]]'
+- - Ace
+  - '[[SRD-Solar Beam|Solar Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Pro
+  - '[[SRD-Seed Bomb|Seed Bomb]]'
+- - Pro
+  - '[[SRD-Drain Punch|Drain Punch]]'
 Number: 45
 ShuffleToken: SRD-vileplume-ShuffleToken.png
 Type1: Grass
@@ -68,4 +96,14 @@ Weight:
 |:----------|:--------------|:-------|:-----------|
 | From      | [[SRD-Gloom]] | Stone  | Leaf Stone |
 
-![[SRD-Vileplume-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Vileplume.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -3,7 +3,9 @@ Accuracy1: Tough
 Accuracy2: Nature
 AddedEffects:
   Heal:
+    Target: Targets
     Type: Basic
+    WillPointCost: 1
 Attributes: {}
 Damage1: ''
 Damage2: ''

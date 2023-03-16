@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Sand Veil
 HomeSprite: SRD-sandygast-HomeSprite.png
 Image: sandygast.png
-Learnset: '[[SRD-Sandygast-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - Starter
+  - '[[SRD-Absorb|Absorb]]'
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - Starter
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sand Tomb|Sand Tomb]]'
+- - Beginner
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - Amateur
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Amateur
+  - '[[SRD-Shadow Ball|Shadow Ball]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Earth Power|Earth Power]]'
+- - Ace
+  - '[[SRD-Shore Up|Shore Up]]'
+- - Ace
+  - '[[SRD-Sandstorm|Sandstorm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Stockpile|Stockpile]]'
+- - Pro
+  - '[[SRD-Spit Up|Spit Up]]'
+- - Pro
+  - '[[SRD-Swallow|Swallow]]'
 Number: 769
 ShuffleToken: SRD-sandygast-ShuffleToken.png
 Type1: Ghost
@@ -68,4 +110,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Palossand]] | Level  | Slow    |
 
-![[SRD-Sandygast-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Sandygast.md"
+flatten moves as T
+where file.path = this.file.path
+```

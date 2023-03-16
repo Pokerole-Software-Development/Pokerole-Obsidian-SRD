@@ -19,8 +19,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-kyurem-black-form-HomeSprite.png
 Image: kyurem-black-form.png
-Learnset: '[[SRD-Kyurem (Black Form)-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Master
+  - '[[SRD-Dragon Rage|Dragon Rage]]'
+- - Master
+  - '[[SRD-Imprison|Imprison]]'
+- - Master
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Master
+  - '[[SRD-Ice Beam|Ice Beam]]'
+- - Master
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Master
+  - '[[SRD-Slash|Slash]]'
+- - Master
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Master
+  - '[[SRD-Glaciate|Glaciate]]'
+- - Master
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - Master
+  - '[[SRD-Noble Roar|Noble Roar]]'
+- - Master
+  - '[[SRD-Endeavor|Endeavor]]'
+- - Master
+  - '[[SRD-Blizzard|Blizzard]]'
+- - Master
+  - '[[SRD-Outrage|Outrage]]'
+- - Master
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Master
+  - '[[SRD-Topsy-Turvy|Topsy-Turvy]]'
+- - Master
+  - '[[SRD-Future Sight|Future Sight]]'
+- - Master
+  - '[[SRD-Punishment|Punishment]]'
+- - Master
+  - '[[SRD-Wish|Wish]]'
+- - Master
+  - '[[SRD-Recover|Recover]]'
+- - Master
+  - '[[SRD-Fusion Bolt|Fusion Bolt]]'
+- - Master
+  - '[[SRD-Bolt Strike|Bolt Strike]]'
 Number: 646
 ShuffleToken: SRD-kyurem-black-form-ShuffleToken.png
 Type1: Dragon
@@ -67,4 +111,14 @@ Weight:
 |:----------|:---------------|:-------|
 | From      | [[SRD-Kyurem]] | Form   |
 
-![[SRD-Kyurem (Black Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Kyurem (Black Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

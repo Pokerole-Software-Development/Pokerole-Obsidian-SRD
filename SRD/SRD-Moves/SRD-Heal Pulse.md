@@ -3,7 +3,9 @@ Accuracy1: Will
 Accuracy2: Channel
 AddedEffects:
   Heal:
+    Target: Targets
     Type: Basic
+    WillPointCost: 1
 Attributes: {}
 Damage1: ''
 Damage2: ''

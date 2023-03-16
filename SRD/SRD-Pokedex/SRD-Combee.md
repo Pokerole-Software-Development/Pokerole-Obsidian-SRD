@@ -21,8 +21,26 @@ Height:
 HiddenAbility: Hustle
 HomeSprite: SRD-combee-HomeSprite.png
 Image: combee.png
-Learnset: '[[SRD-Combee-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Starter
+  - '[[SRD-Gust|Gust]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - Amateur
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Pro
+  - '[[SRD-Swift|Swift]]'
+- - Pro
+  - '[[SRD-Endeavor|Endeavor]]'
 Number: 415
 ShuffleToken: SRD-combee-ShuffleToken.png
 Type1: Bug
@@ -69,4 +87,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|:---------|
 | To        | [[SRD-Vespiquen]] | Level  | Slow    | Female   |
 
-![[SRD-Combee-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Combee.md"
+flatten moves as T
+where file.path = this.file.path
+```

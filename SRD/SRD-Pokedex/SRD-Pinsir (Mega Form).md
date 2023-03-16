@@ -20,8 +20,54 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-pinsir-mega-form-HomeSprite.png
 Image: pinsir-mega-form.png
-Learnset: '[[SRD-Pinsir (Mega Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Vice Grip|Vice Grip]]'
+- - Starter
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bind|Bind]]'
+- - Beginner
+  - '[[SRD-Seismic Toss|Seismic Toss]]'
+- - Beginner
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Revenge|Revenge]]'
+- - Amateur
+  - '[[SRD-Brick Break|Brick Break]]'
+- - Amateur
+  - '[[SRD-Vital Throw|Vital Throw]]'
+- - Amateur
+  - '[[SRD-Double Hit|Double Hit]]'
+- - Amateur
+  - '[[SRD-Submission|Submission]]'
+- - Amateur
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - Amateur
+  - '[[SRD-Storm Throw|Storm Throw]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Superpower|Superpower]]'
+- - Ace
+  - '[[SRD-Guillotine|Guillotine]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Pro
+  - '[[SRD-Feint Attack|Feint Attack]]'
 Number: 127
 ShuffleToken: SRD-pinsir-mega-form-ShuffleToken.png
 Type1: Bug
@@ -68,4 +114,14 @@ Weight:
 |:----------|:---------------|:-------|:----------|
 | From      | [[SRD-Pinsir]] | Mega   | Pinsirite |
 
-![[SRD-Pinsir (Mega Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Pinsir (Mega Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

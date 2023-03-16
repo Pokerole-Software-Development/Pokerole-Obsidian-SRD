@@ -16,8 +16,54 @@ Height:
 HiddenAbility: Motor Drive
 HomeSprite: SRD-emolga-HomeSprite.png
 Image: emolga.png
-Learnset: '[[SRD-Emolga-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Thunder Shock|Thunder Shock]]'
+- - Starter
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Charge|Charge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Spark|Spark]]'
+- - Amateur
+  - '[[SRD-Nuzzle|Nuzzle]]'
+- - Amateur
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Amateur
+  - '[[SRD-Double Team|Double Team]]'
+- - Amateur
+  - '[[SRD-Shock Wave|Shock Wave]]'
+- - Amateur
+  - '[[SRD-Electro Ball|Electro Ball]]'
+- - Amateur
+  - '[[SRD-Acrobatics|Acrobatics]]'
+- - Amateur
+  - '[[SRD-Light Screen|Light Screen]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Encore|Encore]]'
+- - Ace
+  - '[[SRD-Volt Switch|Volt Switch]]'
+- - Ace
+  - '[[SRD-Agility|Agility]]'
+- - Ace
+  - '[[SRD-Discharge|Discharge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Pro
+  - '[[SRD-Roost|Roost]]'
+- - Pro
+  - '[[SRD-Charm|Charm]]'
 Number: 587
 ShuffleToken: SRD-emolga-ShuffleToken.png
 Type1: Electric
@@ -60,4 +106,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Beginner
 
-![[SRD-Emolga-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Emolga.md"
+flatten moves as T
+where file.path = this.file.path
+```

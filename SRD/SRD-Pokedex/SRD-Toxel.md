@@ -26,8 +26,32 @@ Height:
 HiddenAbility: Klutz
 HomeSprite: SRD-toxel-HomeSprite.png
 Image: toxel.png
-Learnset: '[[SRD-Toxel-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Nuzzle|Nuzzle]]'
+- - Starter
+  - '[[SRD-Tearful Look|Tearful Look]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Flail|Flail]]'
+- - Beginner
+  - '[[SRD-Acid|Acid]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Belch|Belch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Encore|Encore]]'
+- - Pro
+  - '[[SRD-Rest|Rest]]'
+- - Pro
+  - '[[SRD-Round|Round]]'
 Number: 848
 ShuffleToken: SRD-toxel-ShuffleToken.png
 Type1: Electric
@@ -75,4 +99,14 @@ Weight:
 | To        | [[SRD-Toxtricity (Amped Form)]]   | Level  | Slow    | Extrovert |
 | To        | [[SRD-Toxtricity (Low Key Form)]] | Level  | Slow    | Introvert |
 
-![[SRD-Toxel-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Toxel.md"
+flatten moves as T
+where file.path = this.file.path
+```

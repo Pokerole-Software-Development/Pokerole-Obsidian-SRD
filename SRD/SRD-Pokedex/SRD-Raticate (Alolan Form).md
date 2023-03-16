@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Thick Fat
 HomeSprite: SRD-raticate-alolan-form-HomeSprite.png
 Image: raticate-alolan-form.png
-Learnset: '[[SRD-Raticate (Alolan Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Pursuit|Pursuit]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Amateur
+  - '[[SRD-Hyper Fang|Hyper Fang]]'
+- - Amateur
+  - '[[SRD-Assurance|Assurance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Super Fang|Super Fang]]'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Endeavor|Endeavor]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Stockpile|Stockpile]]'
+- - Pro
+  - '[[SRD-Swallow|Swallow]]'
+- - Pro
+  - '[[SRD-Me First|Me First]]'
 Number: 20
 ShuffleToken: SRD-raticate-alolan-form-ShuffleToken.png
 Type1: Dark
@@ -68,4 +116,14 @@ Weight:
 |:----------|:------------------------------|:-------|:--------|
 | From      | [[SRD-Rattata (Alolan Form)]] | Level  | Medium  |
 
-![[SRD-Raticate (Alolan Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Raticate (Alolan Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

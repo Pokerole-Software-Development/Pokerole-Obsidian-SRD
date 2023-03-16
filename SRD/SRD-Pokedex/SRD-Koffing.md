@@ -25,8 +25,52 @@ Height:
 HiddenAbility: Stench
 HomeSprite: SRD-koffing-HomeSprite.png
 Image: koffing.png
-Learnset: '[[SRD-Koffing-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Poison Gas|Poison Gas]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Smog|Smog]]'
+- - Beginner
+  - '[[SRD-Smokescreen|Smokescreen]]'
+- - Beginner
+  - '[[SRD-Clear Smog|Clear Smog]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Assurance|Assurance]]'
+- - Amateur
+  - '[[SRD-Sludge|Sludge]]'
+- - Amateur
+  - '[[SRD-Self Destruct|Self Destruct]]'
+- - Amateur
+  - '[[SRD-Haze|Haze]]'
+- - Amateur
+  - '[[SRD-Gyro Ball|Gyro Ball]]'
+- - Amateur
+  - '[[SRD-Sludge Bomb|Sludge Bomb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - Ace
+  - '[[SRD-Destiny Bond|Destiny Bond]]'
+- - Ace
+  - '[[SRD-Belch|Belch]]'
+- - Ace
+  - '[[SRD-Memento|Memento]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Toxic Spikes|Toxic Spikes]]'
+- - Pro
+  - '[[SRD-Pain Split|Pain Split]]'
+- - Pro
+  - '[[SRD-Rollout|Rollout]]'
 Number: 109
 ShuffleToken: SRD-koffing-ShuffleToken.png
 Type1: Poison
@@ -74,4 +118,14 @@ Weight:
 | To        | [[SRD-Weezing]]                 | Level  | Slow    |          |
 | To        | [[SRD-Weezing (Galarian Form)]] | Level  | Slow    | Galar    |
 
-![[SRD-Koffing-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Koffing.md"
+flatten moves as T
+where file.path = this.file.path
+```

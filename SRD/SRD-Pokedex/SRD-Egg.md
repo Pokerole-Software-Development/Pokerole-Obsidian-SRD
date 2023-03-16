@@ -16,8 +16,10 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-egg-HomeSprite.png
 Image: egg.png
-Learnset: '[[SRD-Egg-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Rest|Rest]]'
 Number: 0
 ShuffleToken: SRD-egg-ShuffleToken.png
 Type1: Normal
@@ -60,4 +62,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Starter
 
-![[SRD-Egg-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Egg.md"
+flatten moves as T
+where file.path = this.file.path
+```

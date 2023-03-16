@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Immunity
 HomeSprite: SRD-gligar-HomeSprite.png
 Image: gligar.png
-Learnset: '[[SRD-Gligar-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Poison Sting|Poison Sting]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Beginner
+  - '[[SRD-Harden|Harden]]'
+- - Beginner
+  - '[[SRD-Knock Off|Knock Off]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Amateur
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Acrobatics|Acrobatics]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-U-Turn|U-Turn]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Sky Uppercut|Sky Uppercut]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Guillotine|Guillotine]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Iron Tail|Iron Tail]]'
+- - Pro
+  - '[[SRD-Poison Tail|Poison Tail]]'
+- - Pro
+  - '[[SRD-Feint|Feint]]'
 Number: 207
 ShuffleToken: SRD-gligar-ShuffleToken.png
 Type1: Ground
@@ -68,4 +112,14 @@ Weight:
 |:----------|:----------------|:-------|:-----------|
 | To        | [[SRD-Gliscor]] | Level  | Razor Fang |
 
-![[SRD-Gligar-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Gligar.md"
+flatten moves as T
+where file.path = this.file.path
+```

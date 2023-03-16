@@ -16,8 +16,56 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-marshadow-HomeSprite.png
 Image: marshadow.png
-Learnset: '[[SRD-Marshadow-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Laser Focus|Laser Focus]]'
+- - Master
+  - '[[SRD-Assurance|Assurance]]'
+- - Master
+  - '[[SRD-Fire Punch|Fire Punch]]'
+- - Master
+  - '[[SRD-Ice Punch|Ice Punch]]'
+- - Master
+  - '[[SRD-Thunder Punch|Thunder Punch]]'
+- - Master
+  - '[[SRD-Drain Punch|Drain Punch]]'
+- - Master
+  - '[[SRD-Counter|Counter]]'
+- - Master
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Master
+  - '[[SRD-Shadow Sneak|Shadow Sneak]]'
+- - Master
+  - '[[SRD-Force Palm|Force Palm]]'
+- - Master
+  - '[[SRD-Feint|Feint]]'
+- - Master
+  - '[[SRD-Rolling Kick|Rolling Kick]]'
+- - Master
+  - '[[SRD-Copycat|Copycat]]'
+- - Master
+  - '[[SRD-Shadow Punch|Shadow Punch]]'
+- - Master
+  - '[[SRD-Role Play|Role Play]]'
+- - Master
+  - '[[SRD-Jump Kick|Jump Kick]]'
+- - Master
+  - '[[SRD-Psych Up|Psych Up]]'
+- - Master
+  - '[[SRD-Spectral Thief|Spectral Thief]]'
+- - Master
+  - '[[SRD-Close Combat|Close Combat]]'
+- - Master
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Master
+  - '[[SRD-Endeavor|Endeavor]]'
+- - Master
+  - '[[SRD-Throat Chop|Throat Chop]]'
+- - Master
+  - '[[SRD-Poison Jab|Poison Jab]]'
+- - Master
+  - '[[SRD-Superpower|Superpower]]'
 Number: 802
 ShuffleToken: SRD-marshadow-ShuffleToken.png
 Type1: Fighting
@@ -60,4 +108,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-![[SRD-Marshadow-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Marshadow.md"
+flatten moves as T
+where file.path = this.file.path
+```

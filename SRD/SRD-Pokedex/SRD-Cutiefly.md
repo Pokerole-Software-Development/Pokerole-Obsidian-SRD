@@ -20,8 +20,44 @@ Height:
 HiddenAbility: Sweet Veil
 HomeSprite: SRD-cutiefly-HomeSprite.png
 Image: cutiefly.png
-Learnset: '[[SRD-Cutiefly-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Absorb|Absorb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fairy Wind|Fairy Wind]]'
+- - Beginner
+  - '[[SRD-Stun Spore|Stun Spore]]'
+- - Beginner
+  - '[[SRD-Struggle Bug|Struggle Bug]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Silver Wind|Silver Wind]]'
+- - Amateur
+  - '[[SRD-Draining Kiss|Draining Kiss]]'
+- - Amateur
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Amateur
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Dazzling Gleam|Dazzling Gleam]]'
+- - Ace
+  - '[[SRD-Aromatherapy|Aromatherapy]]'
+- - Ace
+  - '[[SRD-Quiver Dance|Quiver Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Pro
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Pro
+  - '[[SRD-Speed Swap|Speed Swap]]'
 Number: 742
 ShuffleToken: SRD-cutiefly-ShuffleToken.png
 Type1: Bug
@@ -68,4 +104,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Ribombee]] | Level  | Medium  |
 
-![[SRD-Cutiefly-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Cutiefly.md"
+flatten moves as T
+where file.path = this.file.path
+```

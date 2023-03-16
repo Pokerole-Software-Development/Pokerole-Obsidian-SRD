@@ -22,8 +22,50 @@ Height:
 HiddenAbility: Inner Focus
 HomeSprite: SRD-umbreon-HomeSprite.png
 Image: umbreon.png
-Learnset: '[[SRD-Umbreon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Starter
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Beginner
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Assurance|Assurance]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Moonlight|Moonlight]]'
+- - Amateur
+  - '[[SRD-Mean Look|Mean Look]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Last Resort|Last Resort]]'
+- - Ace
+  - '[[SRD-Guard Swap|Guard Swap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Wish|Wish]]'
+- - Pro
+  - '[[SRD-Curse|Curse]]'
+- - Pro
+  - '[[SRD-Foul Play|Foul Play]]'
 Number: 197
 ShuffleToken: SRD-umbreon-ShuffleToken.png
 Type1: Dark
@@ -70,4 +112,14 @@ Weight:
 |:----------|:--------------|:--------|:----------|--------:|:----------|
 | From      | [[SRD-Eevee]] | Special | Happiness |       4 | Moonlight |
 
-![[SRD-Umbreon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Umbreon.md"
+flatten moves as T
+where file.path = this.file.path
+```

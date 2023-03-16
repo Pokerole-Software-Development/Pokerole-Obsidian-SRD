@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-excadrill-HomeSprite.png
 Image: excadrill.png
-Learnset: '[[SRD-Excadrill-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Beginner
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Hone Claws|Hone Claws]]'
+- - Amateur
+  - '[[SRD-Dig|Dig]]'
+- - Amateur
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Sandstorm|Sandstorm]]'
+- - Amateur
+  - '[[SRD-Horn Drill|Horn Drill]]'
+- - Amateur
+  - '[[SRD-Rototiller|Rototiller]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Drill Run|Drill Run]]'
+- - Ace
+  - '[[SRD-Fissure|Fissure]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Smart Strike|Smart Strike]]'
+- - Pro
+  - '[[SRD-Iron Head|Iron Head]]'
 Number: 530
 ShuffleToken: SRD-excadrill-ShuffleToken.png
 Type1: Ground
@@ -68,4 +116,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Drilbur]] | Level  | Medium  |
 
-![[SRD-Excadrill-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Excadrill.md"
+flatten moves as T
+where file.path = this.file.path
+```

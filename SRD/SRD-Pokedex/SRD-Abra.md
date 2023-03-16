@@ -20,8 +20,18 @@ Height:
 HiddenAbility: Magic Guard
 HomeSprite: SRD-abra-HomeSprite.png
 Image: abra.png
-Learnset: '[[SRD-Abra-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Teleport|Teleport]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Mimic|Mimic]]'
+- - Ace
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Ace
+  - '[[SRD-Metronome|Metronome]]'
 Number: 63
 ShuffleToken: SRD-abra-ShuffleToken.png
 Type1: Psychic
@@ -68,4 +78,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Kadabra]] | Level  | Medium  |
 
-![[SRD-Abra-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Abra.md"
+flatten moves as T
+where file.path = this.file.path
+```

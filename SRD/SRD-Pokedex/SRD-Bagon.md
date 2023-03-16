@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Sheer Force
 HomeSprite: SRD-bagon-HomeSprite.png
 Image: bagon.png
-Learnset: '[[SRD-Bagon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Rage|Rage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Amateur
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Dragon Claw|Dragon Claw]]'
+- - Ace
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Dragon Rage|Dragon Rage]]'
+- - Pro
+  - '[[SRD-Mimic|Mimic]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
 Number: 371
 ShuffleToken: SRD-bagon-ShuffleToken.png
 Type1: Dragon
@@ -68,4 +108,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Shelgon]] | Level  | Slow    |
 
-![[SRD-Bagon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Bagon.md"
+flatten moves as T
+where file.path = this.file.path
+```

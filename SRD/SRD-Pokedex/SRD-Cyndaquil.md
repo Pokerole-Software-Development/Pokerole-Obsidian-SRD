@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Flash Fire
 HomeSprite: SRD-cyndaquil-HomeSprite.png
 Image: cyndaquil.png
-Learnset: '[[SRD-Cyndaquil-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Smokescreen|Smokescreen]]'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Flame Wheel|Flame Wheel]]'
+- - Amateur
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Amateur
+  - '[[SRD-Flame Charge|Flame Charge]]'
+- - Amateur
+  - '[[SRD-Swift|Swift]]'
+- - Amateur
+  - '[[SRD-Lava Plume|Lava Plume]]'
+- - Amateur
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - Amateur
+  - '[[SRD-Rollout|Rollout]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Inferno|Inferno]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Eruption|Eruption]]'
+- - Ace
+  - '[[SRD-Burn Up|Burn Up]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Howl|Howl]]'
+- - Pro
+  - '[[SRD-Double Kick|Double Kick]]'
+- - Pro
+  - '[[SRD-Fire Pledge|Fire Pledge]]'
 Number: 155
 ShuffleToken: SRD-cyndaquil-ShuffleToken.png
 Type1: Fire
@@ -68,4 +114,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Quilava]] | Level  | Medium  |
 
-![[SRD-Cyndaquil-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Cyndaquil.md"
+flatten moves as T
+where file.path = this.file.path
+```

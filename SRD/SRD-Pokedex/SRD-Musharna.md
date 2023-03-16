@@ -20,8 +20,32 @@ Height:
 HiddenAbility: Telepathy
 HomeSprite: SRD-musharna-HomeSprite.png
 Image: musharna.png
-Learnset: '[[SRD-Musharna-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Psychic Terrain|Psychic Terrain]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Lucky Chant|Lucky Chant]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Pain Split|Pain Split]]'
+- - Pro
+  - '[[SRD-Heal Bell|Heal Bell]]'
+- - Pro
+  - '[[SRD-Healing Wish|Healing Wish]]'
 Number: 518
 ShuffleToken: SRD-musharna-ShuffleToken.png
 Type1: Psychic
@@ -68,4 +92,14 @@ Weight:
 |:----------|:--------------|:-------|:-----------|
 | From      | [[SRD-Munna]] | Stone  | Moon Stone |
 
-![[SRD-Musharna-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Musharna.md"
+flatten moves as T
+where file.path = this.file.path
+```

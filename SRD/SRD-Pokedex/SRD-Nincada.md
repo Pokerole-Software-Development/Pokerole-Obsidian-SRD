@@ -24,8 +24,44 @@ Height:
 HiddenAbility: Run Away
 HomeSprite: SRD-nincada-HomeSprite.png
 Image: nincada.png
-Learnset: '[[SRD-Nincada-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Leech Life|Leech Life]]'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Mind Reader|Mind Reader]]'
+- - Amateur
+  - '[[SRD-False Swipe|False Swipe]]'
+- - Amateur
+  - '[[SRD-Bide|Bide]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Ace
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Ace
+  - '[[SRD-Dig|Dig]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Silver Wind|Silver Wind]]'
+- - Pro
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
 Number: 290
 ShuffleToken: SRD-nincada-ShuffleToken.png
 Type1: Bug
@@ -73,4 +109,14 @@ Weight:
 | To        | [[SRD-Ninjask]]  | Level  | Medium  |
 | To        | [[SRD-Shedinja]] | Level  | Medium  |
 
-![[SRD-Nincada-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Nincada.md"
+flatten moves as T
+where file.path = this.file.path
+```

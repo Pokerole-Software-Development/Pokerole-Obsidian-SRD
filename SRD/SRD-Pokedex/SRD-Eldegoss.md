@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Effect Spore
 HomeSprite: SRD-eldegoss-HomeSprite.png
 Image: eldegoss.png
-Learnset: '[[SRD-Eldegoss-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Leafage|Leafage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Cotton Spore|Cotton Spore]]'
+- - Beginner
+  - '[[SRD-Sing|Sing]]'
+- - Beginner
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Amateur
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Amateur
+  - '[[SRD-Round|Round]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Leaf Tornado|Leaf Tornado]]'
+- - Ace
+  - '[[SRD-Synthesis|Synthesis]]'
+- - Ace
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Ace
+  - '[[SRD-Aromatherapy|Aromatherapy]]'
+- - Ace
+  - '[[SRD-Leaf Storm|Leaf Storm]]'
+- - Ace
+  - '[[SRD-Cotton Guard|Cotton Guard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Grassy Terrain|Grassy Terrain]]'
+- - Pro
+  - '[[SRD-Charm|Charm]]'
+- - Pro
+  - '[[SRD-Leech Seed|Leech Seed]]'
 Number: 830
 ShuffleToken: SRD-eldegoss-ShuffleToken.png
 Type1: Grass
@@ -68,4 +108,14 @@ Weight:
 |:----------|:-------------------|:-------|:--------|
 | From      | [[SRD-Gossifleur]] | Level  | Medium  |
 
-![[SRD-Eldegoss-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Eldegoss.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -24,8 +24,50 @@ Height:
 HiddenAbility: Defiant
 HomeSprite: SRD-prinplup-HomeSprite.png
 Image: prinplup.png
-Learnset: '[[SRD-Prinplup-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bubble|Bubble]]'
+- - Beginner
+  - '[[SRD-Water Sport|Water Sport]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Peck|Peck]]'
+- - Amateur
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Amateur
+  - '[[SRD-Bide|Bide]]'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Amateur
+  - '[[SRD-Brine|Brine]]'
+- - Amateur
+  - '[[SRD-Whirlpool|Whirlpool]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Mist|Mist]]'
+- - Ace
+  - '[[SRD-Drill Peck|Drill Peck]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Agility|Agility]]'
+- - Pro
+  - '[[SRD-Feather Dance|Feather Dance]]'
+- - Pro
+  - '[[SRD-Water Pledge|Water Pledge]]'
 Number: 394
 ShuffleToken: SRD-prinplup-ShuffleToken.png
 Type1: Water
@@ -73,4 +115,14 @@ Weight:
 | From      | [[SRD-Piplup]]   | Level  | Medium  |
 | To        | [[SRD-Empoleon]] | Level  | Medium  |
 
-![[SRD-Prinplup-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Prinplup.md"
+flatten moves as T
+where file.path = this.file.path
+```

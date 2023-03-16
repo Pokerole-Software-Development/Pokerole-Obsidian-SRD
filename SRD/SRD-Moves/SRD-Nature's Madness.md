@@ -3,8 +3,10 @@ Accuracy1: Insight
 Accuracy2: Nature
 AddedEffects:
   FixedDamage:
-    BasedOn: Hp
-    Percentage: 0.5
+    MaxValue: 10
+    Target: Targets
+    Type: HpPercentage
+    Value: 0.5
 Attributes:
   AccuracyReduction: 1
   IgnoreDefenses: true

@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Shell Armor
 HomeSprite: SRD-samurott-HomeSprite.png
 Image: samurott.png
-Learnset: '[[SRD-Samurott-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Water Sport|Water Sport]]'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Encore|Encore]]'
+- - Amateur
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Amateur
+  - '[[SRD-Razor Shell|Razor Shell]]'
+- - Amateur
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Revenge|Revenge]]'
+- - Amateur
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Megahorn|Megahorn]]'
+- - Ace
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Ace
+  - '[[SRD-Retaliate|Retaliate]]'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Hydro Cannon|Hydro Cannon]]'
+- - Pro
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Pro
+  - '[[SRD-Smart Strike|Smart Strike]]'
 Number: 503
 ShuffleToken: SRD-samurott-ShuffleToken.png
 Type1: Water
@@ -68,4 +116,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Dewott]] | Level  | Medium  |
 
-![[SRD-Samurott-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Samurott.md"
+flatten moves as T
+where file.path = this.file.path
+```

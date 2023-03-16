@@ -21,8 +21,56 @@ Height:
 HiddenAbility: Cute Charm
 HomeSprite: SRD-milotic-HomeSprite.png
 Image: milotic.png
-Learnset: '[[SRD-Milotic-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Starter
+  - '[[SRD-Wrap|Wrap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Water Sport|Water Sport]]'
+- - Beginner
+  - '[[SRD-Refresh|Refresh]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Disarming Voice|Disarming Voice]]'
+- - Amateur
+  - '[[SRD-Twister|Twister]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Amateur
+  - '[[SRD-Captivate|Captivate]]'
+- - Amateur
+  - '[[SRD-Dragon Tail|Dragon Tail]]'
+- - Amateur
+  - '[[SRD-Recover|Recover]]'
+- - Amateur
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Amateur
+  - '[[SRD-Attract|Attract]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Ace
+  - '[[SRD-Coil|Coil]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - Pro
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Pro
+  - '[[SRD-Magic Coat|Magic Coat]]'
 Number: 350
 ShuffleToken: SRD-milotic-ShuffleToken.png
 Type1: Water
@@ -69,4 +117,14 @@ Weight:
 |:----------|:---------------|:-------|:-------|--------:|
 | From      | [[SRD-Feebas]] | Stat   | Beauty |       5 |
 
-![[SRD-Milotic-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Milotic.md"
+flatten moves as T
+where file.path = this.file.path
+```

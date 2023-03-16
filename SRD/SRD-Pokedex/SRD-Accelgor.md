@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Unburden
 HomeSprite: SRD-accelgor-HomeSprite.png
 Image: accelgor.png
-Learnset: '[[SRD-Accelgor-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Power Swap|Power Swap]]'
+- - Starter
+  - '[[SRD-Absorb|Absorb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Water Shuriken|Water Shuriken]]'
+- - Beginner
+  - '[[SRD-Double Team|Double Team]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Acid Spray|Acid Spray]]'
+- - Amateur
+  - '[[SRD-Struggle Bug|Struggle Bug]]'
+- - Amateur
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Amateur
+  - '[[SRD-Swift|Swift]]'
+- - Amateur
+  - '[[SRD-Me First|Me First]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-U-Turn|U-Turn]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Ace
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - Ace
+  - '[[SRD-Recover|Recover]]'
+- - Ace
+  - '[[SRD-Final Gambit|Final Gambit]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Pro
+  - '[[SRD-Feint|Feint]]'
+- - Pro
+  - '[[SRD-Pursuit|Pursuit]]'
 Number: 617
 ShuffleToken: SRD-accelgor-ShuffleToken.png
 Type1: Bug
@@ -68,4 +114,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Shelmet]] | Level  | Medium  |
 
-![[SRD-Accelgor-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Accelgor.md"
+flatten moves as T
+where file.path = this.file.path
+```

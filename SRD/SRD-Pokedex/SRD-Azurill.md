@@ -21,8 +21,42 @@ Height:
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-azurill-HomeSprite.png
 Image: azurill.png
-Learnset: '[[SRD-Azurill-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Splash|Splash]]'
+- - Starter
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Water Sport|Water Sport]]'
+- - Beginner
+  - '[[SRD-Bubble|Bubble]]'
+- - Beginner
+  - '[[SRD-Charm|Charm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Amateur
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Bounce|Bounce]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Tickle|Tickle]]'
+- - Pro
+  - '[[SRD-Sing|Sing]]'
+- - Pro
+  - '[[SRD-Fake Tears|Fake Tears]]'
 Number: 298
 ShuffleToken: SRD-azurill-ShuffleToken.png
 Type1: Normal
@@ -69,4 +103,14 @@ Weight:
 |:----------|:---------------|:-------|:----------|--------:|
 | To        | [[SRD-Marill]] | Stat   | Happiness |       4 |
 
-![[SRD-Azurill-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Azurill.md"
+flatten moves as T
+where file.path = this.file.path
+```

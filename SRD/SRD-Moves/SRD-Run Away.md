@@ -1,6 +1,8 @@
 ---
 Accuracy1: Dexterity
 Accuracy2: Athletic
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: ''

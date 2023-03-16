@@ -20,8 +20,36 @@ Height:
 HiddenAbility: Pickpocket
 HomeSprite: SRD-shiftry-HomeSprite.png
 Image: shiftry.png
-Learnset: '[[SRD-Shiftry-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Amateur
+  - '[[SRD-Whirlwind|Whirlwind]]'
+- - Amateur
+  - '[[SRD-Leaf Tornado|Leaf Tornado]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Hurricane|Hurricane]]'
+- - Ace
+  - '[[SRD-Leaf Storm|Leaf Storm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Seed Bomb|Seed Bomb]]'
+- - Pro
+  - '[[SRD-Self Destruct|Self Destruct]]'
+- - Pro
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
 Number: 275
 ShuffleToken: SRD-shiftry-ShuffleToken.png
 Type1: Grass
@@ -68,4 +96,14 @@ Weight:
 |:----------|:----------------|:-------|:-----------|
 | From      | [[SRD-Nuzleaf]] | Stone  | Leaf Stone |
 
-![[SRD-Shiftry-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Shiftry.md"
+flatten moves as T
+where file.path = this.file.path
+```

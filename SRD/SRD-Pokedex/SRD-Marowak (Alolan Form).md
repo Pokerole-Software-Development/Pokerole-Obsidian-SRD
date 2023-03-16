@@ -21,8 +21,54 @@ Height:
 HiddenAbility: Rock Head
 HomeSprite: SRD-marowak-alolan-form-HomeSprite.png
 Image: marowak-alolan-form.png
-Learnset: '[[SRD-Marowak (Alolan Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bone Club|Bone Club]]'
+- - Beginner
+  - '[[SRD-Hex|Hex]]'
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Flame Wheel|Flame Wheel]]'
+- - Amateur
+  - '[[SRD-Bonemerang|Bonemerang]]'
+- - Amateur
+  - '[[SRD-Will-O-Wisp|Will-O-Wisp]]'
+- - Amateur
+  - '[[SRD-Shadow Bone|Shadow Bone]]'
+- - Amateur
+  - '[[SRD-Endeavor|Endeavor]]'
+- - Amateur
+  - '[[SRD-Fling|Fling]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - Ace
+  - '[[SRD-Flare Blitz|Flare Blitz]]'
+- - Ace
+  - '[[SRD-Retaliate|Retaliate]]'
+- - Ace
+  - '[[SRD-Bone Rush|Bone Rush]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Perish Song|Perish Song]]'
+- - Pro
+  - '[[SRD-Brutal Swing|Brutal Swing]]'
+- - Pro
+  - '[[SRD-Flame Charge|Flame Charge]]'
 Number: 105
 ShuffleToken: SRD-marowak-alolan-form-ShuffleToken.png
 Type1: Fire
@@ -69,4 +115,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|:---------|
 | From      | [[SRD-Cubone]] | Level  | Slow    | Alola    |
 
-![[SRD-Marowak (Alolan Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Marowak (Alolan Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

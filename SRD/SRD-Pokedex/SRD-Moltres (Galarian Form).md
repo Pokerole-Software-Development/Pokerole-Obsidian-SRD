@@ -14,8 +14,46 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-moltres-galarian-form-HomeSprite.png
 Image: moltres-galarian-form.png
-Learnset: '[[SRD-Moltres (Galarian Form)-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Gust|Gust]]'
+- - Master
+  - '[[SRD-Leer|Leer]]'
+- - Master
+  - '[[SRD-Payback|Payback]]'
+- - Master
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Master
+  - '[[SRD-Wing Attack|Wing Attack]]'
+- - Master
+  - '[[SRD-Agility|Agility]]'
+- - Master
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Master
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Master
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Master
+  - '[[SRD-After You|After You]]'
+- - Master
+  - '[[SRD-Fiery Wrath|Fiery Wrath]]'
+- - Master
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Master
+  - '[[SRD-Hurricane|Hurricane]]'
+- - Master
+  - '[[SRD-Endure|Endure]]'
+- - Master
+  - '[[SRD-Memento|Memento]]'
+- - Master
+  - '[[SRD-Sky Attack|Sky Attack]]'
+- - Master
+  - '[[SRD-Dark Pulse|Dark Pulse]]'
+- - Master
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Master
+  - '[[SRD-Hex|Hex]]'
 Number: 146
 ShuffleToken: SRD-moltres-galarian-form-ShuffleToken.png
 Type1: Dark
@@ -58,4 +96,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-![[SRD-Moltres (Galarian Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Moltres (Galarian Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

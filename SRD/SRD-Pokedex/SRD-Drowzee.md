@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Inner Focus
 HomeSprite: SRD-drowzee-HomeSprite.png
 Image: drowzee.png
-Learnset: '[[SRD-Drowzee-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Disable|Disable]]'
+- - Beginner
+  - '[[SRD-Poison Gas|Poison Gas]]'
+- - Beginner
+  - '[[SRD-Meditate|Meditate]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Psych Up|Psych Up]]'
+- - Amateur
+  - '[[SRD-Synchronoise|Synchronoise]]'
+- - Amateur
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Amateur
+  - '[[SRD-Swagger|Swagger]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Ace
+  - '[[SRD-Psyshock|Psyshock]]'
+- - Ace
+  - '[[SRD-Future Sight|Future Sight]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Role Play|Role Play]]'
+- - Pro
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - Pro
+  - '[[SRD-Substitute|Substitute]]'
 Number: 96
 ShuffleToken: SRD-drowzee-ShuffleToken.png
 Type1: Psychic
@@ -68,4 +112,14 @@ Weight:
 |:----------|:--------------|:-------|:--------|
 | To        | [[SRD-Hypno]] | Level  | Slow    |
 
-![[SRD-Drowzee-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Drowzee.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,44 @@ Height:
 HiddenAbility: Stakeout
 HomeSprite: SRD-nickit-HomeSprite.png
 Image: nickit.png
-Learnset: '[[SRD-Nickit-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Beat Up|Beat Up]]'
+- - Beginner
+  - '[[SRD-Hone Claws|Hone Claws]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Snarl|Snarl]]'
+- - Amateur
+  - '[[SRD-Assurance|Assurance]]'
+- - Amateur
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Amateur
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Ace
+  - '[[SRD-Tail Slap|Tail Slap]]'
+- - Ace
+  - '[[SRD-Foul Play|Foul Play]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Play Rough|Play Rough]]'
+- - Pro
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Pro
+  - '[[SRD-Fake Tears|Fake Tears]]'
 Number: 827
 ShuffleToken: SRD-nickit-ShuffleToken.png
 Type1: Dark
@@ -68,4 +104,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Thievul]] | Level  | Medium  |
 
-![[SRD-Nickit-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Nickit.md"
+flatten moves as T
+where file.path = this.file.path
+```

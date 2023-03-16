@@ -20,8 +20,42 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-grubbin-HomeSprite.png
 Image: grubbin.png
-Learnset: '[[SRD-Grubbin-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Vice Grip|Vice Grip]]'
+- - Starter
+  - '[[SRD-String Shot|String Shot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Spark|Spark]]'
+- - Amateur
+  - '[[SRD-Acrobatics|Acrobatics]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Dig|Dig]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Electroweb|Electroweb]]'
+- - Pro
+  - '[[SRD-Harden|Harden]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
 Number: 736
 ShuffleToken: SRD-grubbin-ShuffleToken.png
 Type1: Bug
@@ -68,4 +102,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Charjabug]] | Level  | Fast    |
 
-![[SRD-Grubbin-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Grubbin.md"
+flatten moves as T
+where file.path = this.file.path
+```

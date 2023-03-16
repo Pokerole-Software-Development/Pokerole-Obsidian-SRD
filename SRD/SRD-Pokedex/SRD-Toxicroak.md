@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Poison Touch
 HomeSprite: SRD-toxicroak-HomeSprite.png
 Image: toxicroak.png
-Learnset: '[[SRD-Toxicroak-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - Starter
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Poison Sting|Poison Sting]]'
+- - Beginner
+  - '[[SRD-Taunt|Taunt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Revenge|Revenge]]'
+- - Amateur
+  - '[[SRD-Swagger|Swagger]]'
+- - Amateur
+  - '[[SRD-Mud Bomb|Mud Bomb]]'
+- - Amateur
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Amateur
+  - '[[SRD-Venoshock|Venoshock]]'
+- - Amateur
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Poison Jab|Poison Jab]]'
+- - Ace
+  - '[[SRD-Sludge Bomb|Sludge Bomb]]'
+- - Ace
+  - '[[SRD-Belch|Belch]]'
+- - Ace
+  - '[[SRD-Flatter|Flatter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Pro
+  - '[[SRD-Drain Punch|Drain Punch]]'
+- - Pro
+  - '[[SRD-Dual Chop|Dual Chop]]'
 Number: 454
 ShuffleToken: SRD-toxicroak-ShuffleToken.png
 Type1: Poison
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Croagunk]] | Level  | Medium  |
 
-![[SRD-Toxicroak-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Toxicroak.md"
+flatten moves as T
+where file.path = this.file.path
+```

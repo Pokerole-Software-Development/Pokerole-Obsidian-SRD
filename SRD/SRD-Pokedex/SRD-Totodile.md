@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Sheer Force
 HomeSprite: SRD-totodile-HomeSprite.png
 Image: totodile.png
-Learnset: '[[SRD-Totodile-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Beginner
+  - '[[SRD-Rage|Rage]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Amateur
+  - '[[SRD-Flail|Flail]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Chip Away|Chip Away]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - Ace
+  - '[[SRD-Superpower|Superpower]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - Pro
+  - '[[SRD-Fake Tears|Fake Tears]]'
+- - Pro
+  - '[[SRD-Water Pledge|Water Pledge]]'
 Number: 158
 ShuffleToken: SRD-totodile-ShuffleToken.png
 Type1: Water
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Croconaw]] | Level  | Medium  |
 
-![[SRD-Totodile-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Totodile.md"
+flatten moves as T
+where file.path = this.file.path
+```

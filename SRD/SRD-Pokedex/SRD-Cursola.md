@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Perish Body
 HomeSprite: SRD-cursola-HomeSprite.png
 Image: cursola.png
-Learnset: '[[SRD-Cursola-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Astonish|Astonish]]'
+- - Beginner
+  - '[[SRD-Disable|Disable]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Spite|Spite]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Hex|Hex]]'
+- - Amateur
+  - '[[SRD-Curse|Curse]]'
+- - Amateur
+  - '[[SRD-Strength Sap|Strength Sap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Power Gem|Power Gem]]'
+- - Ace
+  - '[[SRD-Night Shade|Night Shade]]'
+- - Ace
+  - '[[SRD-Grudge|Grudge]]'
+- - Ace
+  - '[[SRD-Mirror Coat|Mirror Coat]]'
+- - Ace
+  - '[[SRD-Perish Song|Perish Song]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Liquidation|Liquidation]]'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Destiny Bond|Destiny Bond]]'
 Number: 864
 ShuffleToken: SRD-cursola-ShuffleToken.png
 Type1: Ghost
@@ -68,4 +110,14 @@ Weight:
 |:----------|:--------------------------------|:-------|:--------|
 | From      | [[SRD-Corsola (Galarian Form)]] | Level  | Medium  |
 
-![[SRD-Cursola-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Cursola.md"
+flatten moves as T
+where file.path = this.file.path
+```

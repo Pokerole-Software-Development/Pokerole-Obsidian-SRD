@@ -16,8 +16,52 @@ Height:
 HiddenAbility: Symbiosis
 HomeSprite: SRD-oranguru-HomeSprite.png
 Image: oranguru.png
-Learnset: '[[SRD-Oranguru-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Confusion|Confusion]]'
+- - Starter
+  - '[[SRD-After You|After You]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Taunt|Taunt]]'
+- - Beginner
+  - '[[SRD-Quash|Quash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Stored Power|Stored Power]]'
+- - Amateur
+  - '[[SRD-Psych Up|Psych Up]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Amateur
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Amateur
+  - '[[SRD-Instruct|Instruct]]'
+- - Amateur
+  - '[[SRD-Foul Play|Foul Play]]'
+- - Amateur
+  - '[[SRD-Calm Mind|Calm Mind]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Future Sight|Future Sight]]'
+- - Ace
+  - '[[SRD-Trick Room|Trick Room]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Psychic Terrain|Psychic Terrain]]'
+- - Pro
+  - '[[SRD-Wonder Room|Wonder Room]]'
+- - Pro
+  - '[[SRD-Extrasensory|Extrasensory]]'
 Number: 765
 ShuffleToken: SRD-oranguru-ShuffleToken.png
 Type1: Normal
@@ -60,4 +104,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Oranguru-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Oranguru.md"
+flatten moves as T
+where file.path = this.file.path
+```

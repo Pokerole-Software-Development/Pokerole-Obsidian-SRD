@@ -16,8 +16,52 @@ Height:
 HiddenAbility: Truant
 HomeSprite: SRD-durant-HomeSprite.png
 Image: durant.png
-Learnset: '[[SRD-Durant-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Starter
+  - '[[SRD-Vice Grip|Vice Grip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Metal Sound|Metal Sound]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Amateur
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Amateur
+  - '[[SRD-Dig|Dig]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Entrainment|Entrainment]]'
+- - Ace
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - Ace
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Ace
+  - '[[SRD-Guillotine|Guillotine]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Screech|Screech]]'
+- - Pro
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
+- - Pro
+  - '[[SRD-Superpower|Superpower]]'
 Number: 632
 ShuffleToken: SRD-durant-ShuffleToken.png
 Type1: Bug
@@ -60,4 +104,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Durant-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Durant.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Scrappy
 HomeSprite: SRD-taillow-HomeSprite.png
 Image: taillow.png
-Learnset: '[[SRD-Taillow-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Peck|Peck]]'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Amateur
+  - '[[SRD-Wing Attack|Wing Attack]]'
+- - Amateur
+  - '[[SRD-Double Team|Double Team]]'
+- - Amateur
+  - '[[SRD-Quick Guard|Quick Guard]]'
+- - Amateur
+  - '[[SRD-Endeavor|Endeavor]]'
+- - Amateur
+  - '[[SRD-Aerial Ace|Aerial Ace]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Reversal|Reversal]]'
+- - Ace
+  - '[[SRD-Agility|Agility]]'
+- - Ace
+  - '[[SRD-Brave Bird|Brave Bird]]'
+- - Ace
+  - '[[SRD-Air Slash|Air Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
+- - Pro
+  - '[[SRD-Refresh|Refresh]]'
+- - Pro
+  - '[[SRD-Rage|Rage]]'
 Number: 276
 ShuffleToken: SRD-taillow-ShuffleToken.png
 Type1: Normal
@@ -68,4 +108,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Swellow]] | Level  | Medium  |
 
-![[SRD-Taillow-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Taillow.md"
+flatten moves as T
+where file.path = this.file.path
+```

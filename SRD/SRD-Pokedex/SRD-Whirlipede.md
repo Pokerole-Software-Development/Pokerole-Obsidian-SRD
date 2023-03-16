@@ -24,8 +24,54 @@ Height:
 HiddenAbility: Speed Boost
 HomeSprite: SRD-whirlipede-HomeSprite.png
 Image: whirlipede.png
-Learnset: '[[SRD-Whirlipede-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Starter
+  - '[[SRD-Rollout|Rollout]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Poison Sting|Poison Sting]]'
+- - Beginner
+  - '[[SRD-Screech|Screech]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Poison Tail|Poison Tail]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - Amateur
+  - '[[SRD-Toxic|Toxic]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Steamroller|Steamroller]]'
+- - Ace
+  - '[[SRD-Venoshock|Venoshock]]'
+- - Ace
+  - '[[SRD-Venom Drench|Venom Drench]]'
+- - Ace
+  - '[[SRD-Rock Climb|Rock Climb]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Toxic Spikes|Toxic Spikes]]'
+- - Pro
+  - '[[SRD-Spikes|Spikes]]'
+- - Pro
+  - '[[SRD-Pin Missile|Pin Missile]]'
 Number: 544
 ShuffleToken: SRD-whirlipede-ShuffleToken.png
 Type1: Bug
@@ -73,4 +119,14 @@ Weight:
 | From      | [[SRD-Venipede]]  | Level  | Medium  |
 | To        | [[SRD-Scolipede]] | Level  | Medium  |
 
-![[SRD-Whirlipede-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Whirlipede.md"
+flatten moves as T
+where file.path = this.file.path
+```

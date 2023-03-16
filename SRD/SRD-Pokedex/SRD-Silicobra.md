@@ -20,8 +20,46 @@ Height:
 HiddenAbility: Sand Veil
 HomeSprite: SRD-silicobra-HomeSprite.png
 Image: silicobra.png
-Learnset: '[[SRD-Silicobra-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Wrap|Wrap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Beginner
+  - '[[SRD-Minimize|Minimize]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Brutal Swing|Brutal Swing]]'
+- - Amateur
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - Amateur
+  - '[[SRD-Glare|Glare]]'
+- - Amateur
+  - '[[SRD-Dig|Dig]]'
+- - Amateur
+  - '[[SRD-Sandstorm|Sandstorm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Ace
+  - '[[SRD-Coil|Coil]]'
+- - Ace
+  - '[[SRD-Sand Tomb|Sand Tomb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Pro
+  - '[[SRD-Poison Tail|Poison Tail]]'
+- - Pro
+  - '[[SRD-Last Resort|Last Resort]]'
 Number: 843
 ShuffleToken: SRD-silicobra-ShuffleToken.png
 Type1: Ground
@@ -68,4 +106,14 @@ Weight:
 |:----------|:-------------------|:-------|:--------|
 | To        | [[SRD-Sandaconda]] | Level  | Slow    |
 
-![[SRD-Silicobra-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Silicobra.md"
+flatten moves as T
+where file.path = this.file.path
+```

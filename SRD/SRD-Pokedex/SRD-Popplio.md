@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Liquid Voice
 HomeSprite: SRD-popplio-HomeSprite.png
 Image: popplio.png
-Learnset: '[[SRD-Popplio-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - Beginner
+  - '[[SRD-Disarming Voice|Disarming Voice]]'
+- - Beginner
+  - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - Amateur
+  - '[[SRD-Encore|Encore]]'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Amateur
+  - '[[SRD-Sing|Sing]]'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Ace
+  - '[[SRD-Captivate|Captivate]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Misty Terrain|Misty Terrain]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Charm|Charm]]'
+- - Pro
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Pro
+  - '[[SRD-Water Pledge|Water Pledge]]'
 Number: 728
 ShuffleToken: SRD-popplio-ShuffleToken.png
 Type1: Water
@@ -68,4 +112,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Brionne]] | Level  | Medium  |
 
-![[SRD-Popplio-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Popplio.md"
+flatten moves as T
+where file.path = this.file.path
+```

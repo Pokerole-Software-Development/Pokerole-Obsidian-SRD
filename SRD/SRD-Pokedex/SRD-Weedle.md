@@ -20,8 +20,20 @@ Height:
 HiddenAbility: Run Away
 HomeSprite: SRD-weedle-HomeSprite.png
 Image: weedle.png
-Learnset: '[[SRD-Weedle-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Poison Sting|Poison Sting]]'
+- - Starter
+  - '[[SRD-String Shot|String Shot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Electroweb|Electroweb]]'
 Number: 13
 ShuffleToken: SRD-weedle-ShuffleToken.png
 Type1: Bug
@@ -68,4 +80,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | To        | [[SRD-Kakuna]] | Level  | Fast    |
 
-![[SRD-Weedle-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Weedle.md"
+flatten moves as T
+where file.path = this.file.path
+```

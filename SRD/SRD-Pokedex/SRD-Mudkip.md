@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Damp
 HomeSprite: SRD-mudkip-HomeSprite.png
 Image: mudkip.png
-Learnset: '[[SRD-Mudkip-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bide|Bide]]'
+- - Amateur
+  - '[[SRD-Foresight|Foresight]]'
+- - Amateur
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Rock Throw|Rock Throw]]'
+- - Amateur
+  - '[[SRD-Whirlpool|Whirlpool]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Protect|Protect]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Endeavor|Endeavor]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Ice Ball|Ice Ball]]'
+- - Pro
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Pro
+  - '[[SRD-Water Pledge|Water Pledge]]'
 Number: 258
 ShuffleToken: SRD-mudkip-ShuffleToken.png
 Type1: Water
@@ -68,4 +108,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Marshtomp]] | Level  | Medium  |
 
-![[SRD-Mudkip-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Mudkip.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -16,8 +16,52 @@ Height:
 HiddenAbility: Hydration
 HomeSprite: SRD-lapras-HomeSprite.png
 Image: lapras.png
-Learnset: '[[SRD-Lapras-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sing|Sing]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Beginner
+  - '[[SRD-Mist|Mist]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Amateur
+  - '[[SRD-Ice Shard|Ice Shard]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Amateur
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Amateur
+  - '[[SRD-Brine|Brine]]'
+- - Amateur
+  - '[[SRD-Ice Beam|Ice Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Perish Song|Perish Song]]'
+- - Ace
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Sheer Cold|Sheer Cold]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - Pro
+  - '[[SRD-Freeze Dry|Freeze Dry]]'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
 Number: 131
 ShuffleToken: SRD-lapras-ShuffleToken.png
 Type1: Water
@@ -60,4 +104,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Lapras-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Lapras.md"
+flatten moves as T
+where file.path = this.file.path
+```

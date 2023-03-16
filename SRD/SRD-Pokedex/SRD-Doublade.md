@@ -24,8 +24,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-doublade-HomeSprite.png
 Image: doublade.png
-Learnset: '[[SRD-Doublade-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Beginner
+  - '[[SRD-Metal Sound|Metal Sound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Amateur
+  - '[[SRD-Autotomize|Autotomize]]'
+- - Amateur
+  - '[[SRD-Shadow Sneak|Shadow Sneak]]'
+- - Amateur
+  - '[[SRD-Aerial Ace|Aerial Ace]]'
+- - Amateur
+  - '[[SRD-Retaliate|Retaliate]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Night Slash|Night Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Ace
+  - '[[SRD-Power Trick|Power Trick]]'
+- - Ace
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Ace
+  - '[[SRD-Sacred Sword|Sacred Sword]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Destiny Bond|Destiny Bond]]'
+- - Pro
+  - '[[SRD-Spite|Spite]]'
+- - Pro
+  - '[[SRD-Wide Guard|Wide Guard]]'
 Number: 680
 ShuffleToken: SRD-doublade-ShuffleToken.png
 Type1: Steel
@@ -73,4 +117,14 @@ Weight:
 | From      | [[SRD-Honedge]]   | Level  | Slow    |            |
 | To        | [[SRD-Aegislash]] | Stone  |         | Dusk Stone |
 
-![[SRD-Doublade-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Doublade.md"
+flatten moves as T
+where file.path = this.file.path
+```

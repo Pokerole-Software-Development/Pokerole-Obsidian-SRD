@@ -16,8 +16,54 @@ Height:
 HiddenAbility: Sturdy
 HomeSprite: SRD-carbink-HomeSprite.png
 Image: carbink.png
-Learnset: '[[SRD-Carbink-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Rock Throw|Rock Throw]]'
+- - Beginner
+  - '[[SRD-Sharpen|Sharpen]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Smack Down|Smack Down]]'
+- - Amateur
+  - '[[SRD-Reflect|Reflect]]'
+- - Amateur
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Amateur
+  - '[[SRD-Guard Split|Guard Split]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Flail|Flail]]'
+- - Amateur
+  - '[[SRD-Skill Swap|Skill Swap]]'
+- - Amateur
+  - '[[SRD-Power Gem|Power Gem]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - Ace
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Ace
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Ace
+  - '[[SRD-Moonblast|Moonblast]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Pro
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Pro
+  - '[[SRD-Gravity|Gravity]]'
 Number: 703
 ShuffleToken: SRD-carbink-ShuffleToken.png
 Type1: Rock
@@ -60,4 +106,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Starter
 
-![[SRD-Carbink-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Carbink.md"
+flatten moves as T
+where file.path = this.file.path
+```

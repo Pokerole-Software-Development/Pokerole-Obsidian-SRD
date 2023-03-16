@@ -17,8 +17,54 @@ Height:
 HiddenAbility: Big Pecks
 HomeSprite: SRD-chatot-HomeSprite.png
 Image: chatot.png
-Learnset: '[[SRD-Chatot-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Confide|Confide]]'
+- - Starter
+  - '[[SRD-Taunt|Taunt]]'
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - Beginner
+  - '[[SRD-Mirror Move|Mirror Move]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Chatter|Chatter]]'
+- - Amateur
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Amateur
+  - '[[SRD-Sing|Sing]]'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Amateur
+  - '[[SRD-Round|Round]]'
+- - Amateur
+  - '[[SRD-Mimic|Mimic]]'
+- - Amateur
+  - '[[SRD-Echoed Voice|Echoed Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Roost|Roost]]'
+- - Ace
+  - '[[SRD-Uproar|Uproar]]'
+- - Ace
+  - '[[SRD-Synchronoise|Synchronoise]]'
+- - Ace
+  - '[[SRD-Feather Dance|Feather Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Agility|Agility]]'
+- - Pro
+  - '[[SRD-Boomburst|Boomburst]]'
+- - Pro
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
 Number: 441
 ShuffleToken: SRD-chatot-ShuffleToken.png
 Type1: Normal
@@ -61,4 +107,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Chatot-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Chatot.md"
+flatten moves as T
+where file.path = this.file.path
+```

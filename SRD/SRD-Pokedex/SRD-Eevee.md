@@ -53,8 +53,56 @@ Height:
 HiddenAbility: Anticipation
 HomeSprite: SRD-eevee-HomeSprite.png
 Image: eevee.png
-Learnset: '[[SRD-Eevee-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tackle|Tackle]]'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
+- - Amateur
+  - '[[SRD-Swift|Swift]]'
+- - Amateur
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Refresh|Refresh]]'
+- - Amateur
+  - '[[SRD-Covet|Covet]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Charm|Charm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Last Resort|Last Resort]]'
+- - Ace
+  - '[[SRD-Trump Card|Trump Card]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Wish|Wish]]'
+- - Pro
+  - '[[SRD-Tickle|Tickle]]'
+- - Pro
+  - '[[SRD-Fake Tears|Fake Tears]]'
 Number: 133
 ShuffleToken: SRD-eevee-ShuffleToken.png
 Type1: Normal
@@ -108,4 +156,14 @@ Weight:
 | To        | [[SRD-Glaceon]]  | Stone   | Ice Stone     |           |         |           |
 | To        | [[SRD-Sylveon]]  | Stat    |               | Loyalty   | 5.0     |           |
 
-![[SRD-Eevee-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Eevee.md"
+flatten moves as T
+where file.path = this.file.path
+```

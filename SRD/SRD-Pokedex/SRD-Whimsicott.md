@@ -20,8 +20,38 @@ Height:
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-whimsicott-HomeSprite.png
 Image: whimsicott.png
-Learnset: '[[SRD-Whimsicott-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growth|Growth]]'
+- - Starter
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Beginner
+  - '[[SRD-Cotton Spore|Cotton Spore]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Gust|Gust]]'
+- - Amateur
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Amateur
+  - '[[SRD-Moonblast|Moonblast]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Hurricane|Hurricane]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fake Tears|Fake Tears]]'
+- - Pro
+  - '[[SRD-Memento|Memento]]'
+- - Pro
+  - '[[SRD-Encore|Encore]]'
 Number: 547
 ShuffleToken: SRD-whimsicott-ShuffleToken.png
 Type1: Grass
@@ -68,4 +98,14 @@ Weight:
 |:----------|:-----------------|:-------|:----------|
 | From      | [[SRD-Cottonee]] | Stone  | Sun Stone |
 
-![[SRD-Whimsicott-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Whimsicott.md"
+flatten moves as T
+where file.path = this.file.path
+```

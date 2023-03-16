@@ -24,8 +24,28 @@ Height:
 HiddenAbility: Telepathy
 HomeSprite: SRD-dottler-HomeSprite.png
 Image: dottler.png
-Learnset: '[[SRD-Dottler-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Struggle Bug|Struggle Bug]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Confusion|Confusion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Amateur
+  - '[[SRD-Reflect|Reflect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Sticky Web|Sticky Web]]'
+- - Pro
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Pro
+  - '[[SRD-Infestation|Infestation]]'
 Number: 825
 ShuffleToken: SRD-dottler-ShuffleToken.png
 Type1: Bug
@@ -73,4 +93,14 @@ Weight:
 | From      | [[SRD-Blipbug]]  | Level  | Fast    |
 | To        | [[SRD-Orbeetle]] | Level  | Medium  |
 
-![[SRD-Dottler-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Dottler.md"
+flatten moves as T
+where file.path = this.file.path
+```

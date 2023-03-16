@@ -24,8 +24,16 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-kakuna-HomeSprite.png
 Image: kakuna.png
-Learnset: '[[SRD-Kakuna-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Electroweb|Electroweb]]'
 Number: 14
 ShuffleToken: SRD-kakuna-ShuffleToken.png
 Type1: Bug
@@ -73,4 +81,14 @@ Weight:
 | From      | [[SRD-Weedle]]   | Level  | Fast    |
 | To        | [[SRD-Beedrill]] | Level  | Fast    |
 
-![[SRD-Kakuna-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Kakuna.md"
+flatten moves as T
+where file.path = this.file.path
+```

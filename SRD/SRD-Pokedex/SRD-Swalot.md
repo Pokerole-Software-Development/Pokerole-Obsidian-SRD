@@ -20,8 +20,58 @@ Height:
 HiddenAbility: Gluttony
 HomeSprite: SRD-swalot-HomeSprite.png
 Image: swalot.png
-Learnset: '[[SRD-Swalot-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Poison Gas|Poison Gas]]'
+- - Beginner
+  - '[[SRD-Yawn|Yawn]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sludge|Sludge]]'
+- - Amateur
+  - '[[SRD-Wring Out|Wring Out]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Amateur
+  - '[[SRD-Encore|Encore]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Amateur
+  - '[[SRD-Toxic|Toxic]]'
+- - Amateur
+  - '[[SRD-Acid Spray|Acid Spray]]'
+- - Amateur
+  - '[[SRD-Stockpile|Stockpile]]'
+- - Amateur
+  - '[[SRD-Spit Up|Spit Up]]'
+- - Amateur
+  - '[[SRD-Swallow|Swallow]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Belch|Belch]]'
+- - Ace
+  - '[[SRD-Sludge Bomb|Sludge Bomb]]'
+- - Ace
+  - '[[SRD-Gastro Acid|Gastro Acid]]'
+- - Ace
+  - '[[SRD-Wring Out|Wring Out]]'
+- - Ace
+  - '[[SRD-Gunk Shot|Gunk Shot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Block|Block]]'
+- - Pro
+  - '[[SRD-Venom Drench|Venom Drench]]'
+- - Pro
+  - '[[SRD-Self Destruct|Self Destruct]]'
 Number: 317
 ShuffleToken: SRD-swalot-ShuffleToken.png
 Type1: Poison
@@ -68,4 +118,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Gulpin]] | Level  | Medium  |
 
-![[SRD-Swalot-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Swalot.md"
+flatten moves as T
+where file.path = this.file.path
+```

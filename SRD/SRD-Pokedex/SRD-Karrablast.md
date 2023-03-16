@@ -20,8 +20,52 @@ Height:
 HiddenAbility: No Guard
 HomeSprite: SRD-karrablast-HomeSprite.png
 Image: karrablast.png
-Learnset: '[[SRD-Karrablast-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Endure|Endure]]'
+- - Beginner
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-False Swipe|False Swipe]]'
+- - Amateur
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - Ace
+  - '[[SRD-Flail|Flail]]'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Pro
+  - '[[SRD-Horn Attack|Horn Attack]]'
+- - Pro
+  - '[[SRD-Pursuit|Pursuit]]'
 Number: 588
 ShuffleToken: SRD-karrablast-ShuffleToken.png
 Type1: Bug
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-------------------|:-------|:--------|
 | To        | [[SRD-Escavalier]] | Level  | Medium  |
 
-![[SRD-Karrablast-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Karrablast.md"
+flatten moves as T
+where file.path = this.file.path
+```

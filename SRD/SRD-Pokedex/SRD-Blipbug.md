@@ -20,8 +20,18 @@ Height:
 HiddenAbility: Telepathy
 HomeSprite: SRD-blipbug-HomeSprite.png
 Image: blipbug.png
-Learnset: '[[SRD-Blipbug-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Struggle Bug|Struggle Bug]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Sticky Web|Sticky Web]]'
+- - Pro
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Pro
+  - '[[SRD-Infestation|Infestation]]'
 Number: 824
 ShuffleToken: SRD-blipbug-ShuffleToken.png
 Type1: Bug
@@ -68,4 +78,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Dottler]] | Level  | Fast    |
 
-![[SRD-Blipbug-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Blipbug.md"
+flatten moves as T
+where file.path = this.file.path
+```

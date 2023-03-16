@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Sand Force
 HomeSprite: SRD-gigalith-HomeSprite.png
 Image: gigalith.png
-Learnset: '[[SRD-Gigalith-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Beginner
+  - '[[SRD-Headbutt|Headbutt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - Amateur
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Smack Down|Smack Down]]'
+- - Amateur
+  - '[[SRD-Power Gem|Power Gem]]'
+- - Amateur
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Amateur
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Sandstorm|Sandstorm]]'
+- - Ace
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Heavy Slam|Heavy Slam]]'
+- - Pro
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Pro
+  - '[[SRD-Superpower|Superpower]]'
 Number: 526
 ShuffleToken: SRD-gigalith-ShuffleToken.png
 Type1: Rock
@@ -68,4 +110,14 @@ Weight:
 |:----------|:----------------|:-------|
 | From      | [[SRD-Boldore]] | Trade  |
 
-![[SRD-Gigalith-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Gigalith.md"
+flatten moves as T
+where file.path = this.file.path
+```

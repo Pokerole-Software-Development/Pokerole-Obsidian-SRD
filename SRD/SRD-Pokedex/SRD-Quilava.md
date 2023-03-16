@@ -23,8 +23,54 @@ Height:
 HiddenAbility: Flash Fire
 HomeSprite: SRD-quilava-HomeSprite.png
 Image: quilava.png
-Learnset: '[[SRD-Quilava-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Smokescreen|Smokescreen]]'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Flame Wheel|Flame Wheel]]'
+- - Amateur
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Amateur
+  - '[[SRD-Swift|Swift]]'
+- - Amateur
+  - '[[SRD-Flame Charge|Flame Charge]]'
+- - Amateur
+  - '[[SRD-Lava Plume|Lava Plume]]'
+- - Amateur
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - Amateur
+  - '[[SRD-Rollout|Rollout]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Inferno|Inferno]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Eruption|Eruption]]'
+- - Ace
+  - '[[SRD-Burn Up|Burn Up]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Howl|Howl]]'
+- - Pro
+  - '[[SRD-Double Kick|Double Kick]]'
+- - Pro
+  - '[[SRD-Fire Pledge|Fire Pledge]]'
 Number: 156
 ShuffleToken: SRD-quilava-ShuffleToken.png
 Type1: Fire
@@ -72,4 +118,14 @@ Weight:
 | From      | [[SRD-Cyndaquil]]  | Level  | Medium  |
 | To        | [[SRD-Typhlosion]] | Level  | Medium  |
 
-![[SRD-Quilava-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Quilava.md"
+flatten moves as T
+where file.path = this.file.path
+```

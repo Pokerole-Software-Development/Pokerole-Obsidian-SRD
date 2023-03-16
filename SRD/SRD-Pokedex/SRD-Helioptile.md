@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Solar Power
 HomeSprite: SRD-helioptile-HomeSprite.png
 Image: helioptile.png
-Learnset: '[[SRD-Helioptile-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Thunder Shock|Thunder Shock]]'
+- - Beginner
+  - '[[SRD-Charge|Charge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Amateur
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Amateur
+  - '[[SRD-Razor Wind|Razor Wind]]'
+- - Amateur
+  - '[[SRD-Parabolic Charge|Parabolic Charge]]'
+- - Amateur
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - Amateur
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Volt Switch|Volt Switch]]'
+- - Ace
+  - '[[SRD-Electrify|Electrify]]'
+- - Ace
+  - '[[SRD-Thunderbolt|Thunderbolt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Agility|Agility]]'
+- - Pro
+  - '[[SRD-Electroweb|Electroweb]]'
+- - Pro
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
 Number: 694
 ShuffleToken: SRD-helioptile-ShuffleToken.png
 Type1: Electric
@@ -68,4 +108,14 @@ Weight:
 |:----------|:------------------|:-------|:----------|
 | To        | [[SRD-Heliolisk]] | Stone  | Sun Stone |
 
-![[SRD-Helioptile-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Helioptile.md"
+flatten moves as T
+where file.path = this.file.path
+```

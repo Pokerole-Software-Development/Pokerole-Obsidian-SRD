@@ -20,8 +20,44 @@ Height:
 HiddenAbility: Sand Force
 HomeSprite: SRD-hippopotas-HomeSprite.png
 Image: hippopotas.png
-Learnset: '[[SRD-Hippopotas-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Yawn|Yawn]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Dig|Dig]]'
+- - Amateur
+  - '[[SRD-Sand Tomb|Sand Tomb]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Fissure|Fissure]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Stockpile|Stockpile]]'
+- - Pro
+  - '[[SRD-Slack Off|Slack Off]]'
+- - Pro
+  - '[[SRD-Water Pulse|Water Pulse]]'
 Number: 449
 ShuffleToken: SRD-hippopotas-ShuffleToken.png
 Type1: Ground
@@ -68,4 +104,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Hippowdon]] | Level  | Medium  |
 
-![[SRD-Hippopotas-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Hippopotas.md"
+flatten moves as T
+where file.path = this.file.path
+```

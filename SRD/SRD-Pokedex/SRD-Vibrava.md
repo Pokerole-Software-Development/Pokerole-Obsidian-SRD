@@ -24,8 +24,56 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-vibrava-HomeSprite.png
 Image: vibrava.png
-Learnset: '[[SRD-Vibrava-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sonic Boom|Sonic Boom]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Beginner
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sand Tomb|Sand Tomb]]'
+- - Amateur
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Amateur
+  - '[[SRD-Bide|Bide]]'
+- - Amateur
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - Amateur
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Amateur
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Amateur
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Amateur
+  - '[[SRD-Earth Power|Earth Power]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Sandstorm|Sandstorm]]'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Hyper Beam|Hyper Beam]]'
+- - Ace
+  - '[[SRD-Boomburst|Boomburst]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - Pro
+  - '[[SRD-Toxic|Toxic]]'
+- - Pro
+  - '[[SRD-Tailwind|Tailwind]]'
 Number: 329
 ShuffleToken: SRD-vibrava-ShuffleToken.png
 Type1: Ground
@@ -73,4 +121,14 @@ Weight:
 | From      | [[SRD-Trapinch]] | Level  | Medium  |
 | To        | [[SRD-Flygon]]   | Level  | Slow    |
 
-![[SRD-Vibrava-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Vibrava.md"
+flatten moves as T
+where file.path = this.file.path
+```

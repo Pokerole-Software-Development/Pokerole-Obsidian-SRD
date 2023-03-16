@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Rattled
 HomeSprite: SRD-whismur-HomeSprite.png
 Image: whismur.png
-Learnset: '[[SRD-Whismur-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Echoed Voice|Echoed Voice]]'
+- - Beginner
+  - '[[SRD-Uproar|Uproar]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Astonish|Astonish]]'
+- - Amateur
+  - '[[SRD-Howl|Howl]]'
+- - Amateur
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Amateur
+  - '[[SRD-Stomp|Stomp]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Roar|Roar]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Synchronoise|Synchronoise]]'
+- - Ace
+  - '[[SRD-Rest|Rest]]'
+- - Ace
+  - '[[SRD-Sleep Talk|Sleep Talk]]'
+- - Ace
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Disarming Voice|Disarming Voice]]'
+- - Pro
+  - '[[SRD-Fake Tears|Fake Tears]]'
+- - Pro
+  - '[[SRD-Snore|Snore]]'
 Number: 293
 ShuffleToken: SRD-whismur-ShuffleToken.png
 Type1: Normal
@@ -68,4 +108,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Loudred]] | Level  | Medium  |
 
-![[SRD-Whismur-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Whismur.md"
+flatten moves as T
+where file.path = this.file.path
+```

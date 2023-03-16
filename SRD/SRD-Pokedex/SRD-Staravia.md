@@ -24,8 +24,46 @@ Height:
 HiddenAbility: Reckless
 HomeSprite: SRD-staravia-HomeSprite.png
 Image: staravia.png
-Learnset: '[[SRD-Staravia-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Wing Attack|Wing Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Double Team|Double Team]]'
+- - Amateur
+  - '[[SRD-Endeavor|Endeavor]]'
+- - Amateur
+  - '[[SRD-Whirlwind|Whirlwind]]'
+- - Amateur
+  - '[[SRD-Aerial Ace|Aerial Ace]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Agility|Agility]]'
+- - Ace
+  - '[[SRD-Brave Bird|Brave Bird]]'
+- - Ace
+  - '[[SRD-Final Gambit|Final Gambit]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Revenge|Revenge]]'
+- - Pro
+  - '[[SRD-Uproar|Uproar]]'
+- - Pro
+  - '[[SRD-Detect|Detect]]'
 Number: 397
 ShuffleToken: SRD-staravia-ShuffleToken.png
 Type1: Normal
@@ -73,4 +111,14 @@ Weight:
 | From      | [[SRD-Starly]]    | Level  | Medium  |
 | To        | [[SRD-Staraptor]] | Level  | Medium  |
 
-![[SRD-Staravia-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Staravia.md"
+flatten moves as T
+where file.path = this.file.path
+```

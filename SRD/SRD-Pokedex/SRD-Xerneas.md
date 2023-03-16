@@ -16,8 +16,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-xerneas-HomeSprite.png
 Image: xerneas.png
-Learnset: '[[SRD-Xerneas-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Heal Pulse|Heal Pulse]]'
+- - Master
+  - '[[SRD-Aromatherapy|Aromatherapy]]'
+- - Master
+  - '[[SRD-Ingrain|Ingrain]]'
+- - Master
+  - '[[SRD-Take Down|Take Down]]'
+- - Master
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Master
+  - '[[SRD-Aurora Beam|Aurora Beam]]'
+- - Master
+  - '[[SRD-Gravity|Gravity]]'
+- - Master
+  - '[[SRD-Geomancy|Geomancy]]'
+- - Master
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Master
+  - '[[SRD-Megahorn|Megahorn]]'
+- - Master
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Master
+  - '[[SRD-Horn Leech|Horn Leech]]'
+- - Master
+  - '[[SRD-Psych Up|Psych Up]]'
+- - Master
+  - '[[SRD-Misty Terrain|Misty Terrain]]'
+- - Master
+  - '[[SRD-Nature Power|Nature Power]]'
+- - Master
+  - '[[SRD-Close Combat|Close Combat]]'
+- - Master
+  - '[[SRD-Giga Impact|Giga Impact]]'
+- - Master
+  - '[[SRD-Outrage|Outrage]]'
+- - Master
+  - '[[SRD-Psyshock|Psyshock]]'
+- - Master
+  - '[[SRD-Thunder|Thunder]]'
+- - Master
+  - '[[SRD-Reflect|Reflect]]'
+- - Master
+  - '[[SRD-Endeavor|Endeavor]]'
 Number: 716
 ShuffleToken: SRD-xerneas-ShuffleToken.png
 Type1: Fairy
@@ -60,4 +104,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-![[SRD-Xerneas-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Xerneas.md"
+flatten moves as T
+where file.path = this.file.path
+```

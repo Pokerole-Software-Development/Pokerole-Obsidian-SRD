@@ -24,8 +24,16 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-metapod-HomeSprite.png
 Image: metapod.png
-Learnset: '[[SRD-Metapod-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Electroweb|Electroweb]]'
 Number: 11
 ShuffleToken: SRD-metapod-ShuffleToken.png
 Type1: Bug
@@ -73,4 +81,14 @@ Weight:
 | From      | [[SRD-Caterpie]]   | Level  | Fast    |
 | To        | [[SRD-Butterfree]] | Level  | Fast    |
 
-![[SRD-Metapod-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Metapod.md"
+flatten moves as T
+where file.path = this.file.path
+```

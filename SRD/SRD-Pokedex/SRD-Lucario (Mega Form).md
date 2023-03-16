@@ -20,8 +20,60 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-lucario-mega-form-HomeSprite.png
 Image: lucario-mega-form.png
-Learnset: '[[SRD-Lucario (Mega Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Laser Focus|Laser Focus]]'
+- - Starter
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Starter
+  - '[[SRD-Foresight|Foresight]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Beginner
+  - '[[SRD-Detect|Detect]]'
+- - Beginner
+  - '[[SRD-Feint|Feint]]'
+- - Beginner
+  - '[[SRD-Counter|Counter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Amateur
+  - '[[SRD-Power-Up Punch|Power-Up Punch]]'
+- - Amateur
+  - '[[SRD-Bone Rush|Bone Rush]]'
+- - Amateur
+  - '[[SRD-Metal Sound|Metal Sound]]'
+- - Amateur
+  - '[[SRD-Me First|Me First]]'
+- - Amateur
+  - '[[SRD-Quick Guard|Quick Guard]]'
+- - Amateur
+  - '[[SRD-Work Up|Work Up]]'
+- - Amateur
+  - '[[SRD-Aura Sphere|Aura Sphere]]'
+- - Amateur
+  - '[[SRD-Calm Mind|Calm Mind]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Heal Pulse|Heal Pulse]]'
+- - Ace
+  - '[[SRD-Close Combat|Close Combat]]'
+- - Ace
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Extreme Speed|Extreme Speed]]'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Vacuum Wave|Vacuum Wave]]'
 Number: 448
 ShuffleToken: SRD-lucario-mega-form-ShuffleToken.png
 Type1: Fighting
@@ -68,4 +120,14 @@ Weight:
 |:----------|:----------------|:-------|:------------|
 | From      | [[SRD-Lucario]] | Mega   | Lucarionite |
 
-![[SRD-Lucario (Mega Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Lucario (Mega Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

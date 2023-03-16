@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Hydration
 HomeSprite: SRD-gorebyss-HomeSprite.png
 Image: gorebyss.png
-Learnset: '[[SRD-Gorebyss-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Whirlpool|Whirlpool]]'
+- - Starter
+  - '[[SRD-Water Sport|Water Sport]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Confusion|Confusion]]'
+- - Beginner
+  - '[[SRD-Agility|Agility]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Draining Kiss|Draining Kiss]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Amateur
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Amateur
+  - '[[SRD-Captivate|Captivate]]'
+- - Amateur
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Amateur
+  - '[[SRD-Dive|Dive]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Ace
+  - '[[SRD-Coil|Coil]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Pro
+  - '[[SRD-Bind|Bind]]'
+- - Pro
+  - '[[SRD-Muddy Water|Muddy Water]]'
 Number: 368
 ShuffleToken: SRD-gorebyss-ShuffleToken.png
 Type1: Water
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-----------------|:-------|:-------------|
 | From      | [[SRD-Clamperl]] | Trade  | Dragon Scale |
 
-![[SRD-Gorebyss-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Gorebyss.md"
+flatten moves as T
+where file.path = this.file.path
+```

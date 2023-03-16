@@ -20,8 +20,58 @@ Height:
 HiddenAbility: Swift Swim
 HomeSprite: SRD-tirtouga-HomeSprite.png
 Image: tirtouga.png
-Learnset: '[[SRD-Tirtouga-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bide|Bide]]'
+- - Starter
+  - '[[SRD-Withdraw|Withdraw]]'
+- - Starter
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Rollout|Rollout]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Amateur
+  - '[[SRD-Brine|Brine]]'
+- - Amateur
+  - '[[SRD-Smack Down|Smack Down]]'
+- - Amateur
+  - '[[SRD-Curse|Curse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Ace
+  - '[[SRD-Shell Smash|Shell Smash]]'
+- - Ace
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Ace
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Body Slam|Body Slam]]'
 Number: 564
 ShuffleToken: SRD-tirtouga-ShuffleToken.png
 Type1: Water
@@ -68,4 +118,14 @@ Weight:
 |:----------|:-------------------|:-------|:--------|
 | To        | [[SRD-Carracosta]] | Level  | Medium  |
 
-![[SRD-Tirtouga-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Tirtouga.md"
+flatten moves as T
+where file.path = this.file.path
+```

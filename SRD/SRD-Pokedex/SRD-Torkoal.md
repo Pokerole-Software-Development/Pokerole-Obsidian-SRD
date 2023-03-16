@@ -16,8 +16,58 @@ Height:
 HiddenAbility: Shell Armor
 HomeSprite: SRD-torkoal-HomeSprite.png
 Image: torkoal.png
-Learnset: '[[SRD-Torkoal-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Ember|Ember]]'
+- - Starter
+  - '[[SRD-Smog|Smog]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Withdraw|Withdraw]]'
+- - Beginner
+  - '[[SRD-Curse|Curse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fire Spin|Fire Spin]]'
+- - Amateur
+  - '[[SRD-Smokescreen|Smokescreen]]'
+- - Amateur
+  - '[[SRD-Flame Wheel|Flame Wheel]]'
+- - Amateur
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - Amateur
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Lava Plume|Lava Plume]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Flail|Flail]]'
+- - Ace
+  - '[[SRD-Heat Wave|Heat Wave]]'
+- - Ace
+  - '[[SRD-Inferno|Inferno]]'
+- - Ace
+  - '[[SRD-Shell Smash|Shell Smash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Clear Smog|Clear Smog]]'
+- - Pro
+  - '[[SRD-Superpower|Superpower]]'
+- - Pro
+  - '[[SRD-Fissure|Fissure]]'
 Number: 324
 ShuffleToken: SRD-torkoal-ShuffleToken.png
 Type1: Fire
@@ -60,4 +110,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Torkoal-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Torkoal.md"
+flatten moves as T
+where file.path = this.file.path
+```

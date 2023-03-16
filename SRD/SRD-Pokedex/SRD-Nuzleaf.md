@@ -24,8 +24,46 @@ Height:
 HiddenAbility: Pickpocket
 HomeSprite: SRD-nuzleaf-HomeSprite.png
 Image: nuzleaf.png
-Learnset: '[[SRD-Nuzleaf-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Growth|Growth]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Amateur
+  - '[[SRD-Nature Power|Nature Power]]'
+- - Amateur
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Amateur
+  - '[[SRD-Torment|Torment]]'
+- - Amateur
+  - '[[SRD-Leaf Blade|Leaf Blade]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Razor Wind|Razor Wind]]'
+- - Ace
+  - '[[SRD-Swagger|Swagger]]'
+- - Ace
+  - '[[SRD-Extrasensory|Extrasensory]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Bullet Seed|Bullet Seed]]'
+- - Pro
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Pro
+  - '[[SRD-Foul Play|Foul Play]]'
 Number: 274
 ShuffleToken: SRD-nuzleaf-ShuffleToken.png
 Type1: Grass
@@ -73,4 +111,14 @@ Weight:
 | From      | [[SRD-Seedot]]  | Level  | Medium  |            |
 | To        | [[SRD-Shiftry]] | Stone  |         | Leaf Stone |
 
-![[SRD-Nuzleaf-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Nuzleaf.md"
+flatten moves as T
+where file.path = this.file.path
+```

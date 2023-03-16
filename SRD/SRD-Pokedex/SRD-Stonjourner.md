@@ -16,8 +16,48 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-stonjourner-HomeSprite.png
 Image: stonjourner.png
-Learnset: '[[SRD-Stonjourner-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Rock Throw|Rock Throw]]'
+- - Starter
+  - '[[SRD-Block|Block]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Stomp|Stomp]]'
+- - Beginner
+  - '[[SRD-Rock Tomb|Rock Tomb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Gravity|Gravity]]'
+- - Amateur
+  - '[[SRD-Rock Polish|Rock Polish]]'
+- - Amateur
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Amateur
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Amateur
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Heavy Slam|Heavy Slam]]'
+- - Ace
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - Ace
+  - '[[SRD-Mega Kick|Mega Kick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Heat Crash|Heat Crash]]'
+- - Pro
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Pro
+  - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
 Number: 874
 ShuffleToken: SRD-stonjourner-ShuffleToken.png
 Type1: Rock
@@ -60,4 +100,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Stonjourner-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Stonjourner.md"
+flatten moves as T
+where file.path = this.file.path
+```

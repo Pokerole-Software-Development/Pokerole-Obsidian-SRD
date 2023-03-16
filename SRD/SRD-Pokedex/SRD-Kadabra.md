@@ -23,8 +23,52 @@ Height:
 HiddenAbility: Magic Guard
 HomeSprite: SRD-kadabra-HomeSprite.png
 Image: kadabra.png
-Learnset: '[[SRD-Kadabra-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Teleport|Teleport]]'
+- - Starter
+  - '[[SRD-Kinesis|Kinesis]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Confusion|Confusion]]'
+- - Beginner
+  - '[[SRD-Disable|Disable]]'
+- - Beginner
+  - '[[SRD-Miracle Eye|Miracle Eye]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Ally Switch|Ally Switch]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Reflect|Reflect]]'
+- - Amateur
+  - '[[SRD-Telekinesis|Telekinesis]]'
+- - Amateur
+  - '[[SRD-Role Play|Role Play]]'
+- - Amateur
+  - '[[SRD-Psycho Cut|Psycho Cut]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Recover|Recover]]'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Future Sight|Future Sight]]'
+- - Ace
+  - '[[SRD-Trick|Trick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Snatch|Snatch]]'
+- - Pro
+  - '[[SRD-Foul Play|Foul Play]]'
+- - Pro
+  - '[[SRD-Wonder Room|Wonder Room]]'
 Number: 64
 ShuffleToken: SRD-kadabra-ShuffleToken.png
 Type1: Psychic
@@ -72,4 +116,14 @@ Weight:
 | From      | [[SRD-Abra]]     | Level  | Medium  |
 | To        | [[SRD-Alakazam]] | Trade  |         |
 
-![[SRD-Kadabra-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Kadabra.md"
+flatten moves as T
+where file.path = this.file.path
+```

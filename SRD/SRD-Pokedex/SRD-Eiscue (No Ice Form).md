@@ -19,8 +19,46 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-eiscue-no-ice-form-HomeSprite.png
 Image: eiscue-no-ice-form.png
-Learnset: '[[SRD-Eiscue (No Ice Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Mist|Mist]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Powder Snow|Powder Snow]]'
+- - Beginner
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Weather Ball|Weather Ball]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Amateur
+  - '[[SRD-Hail|Hail]]'
+- - Amateur
+  - '[[SRD-Freeze Dry|Freeze Dry]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Aurora Veil|Aurora Veil]]'
+- - Ace
+  - '[[SRD-Surf|Surf]]'
+- - Ace
+  - '[[SRD-Blizzard|Blizzard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Head Smash|Head Smash]]'
+- - Pro
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Pro
+  - '[[SRD-Belly Drum|Belly Drum]]'
 Number: 875
 ShuffleToken: SRD-eiscue-no-ice-form-ShuffleToken.png
 Type1: Ice
@@ -67,4 +105,14 @@ Weight:
 |:----------|:---------------|:-------|
 | From      | [[SRD-Eiscue]] | Form   |
 
-![[SRD-Eiscue (No Ice Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Eiscue (No Ice Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

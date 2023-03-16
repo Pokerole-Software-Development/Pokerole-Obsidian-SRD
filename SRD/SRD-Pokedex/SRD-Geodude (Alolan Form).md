@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Galvanize
 HomeSprite: SRD-geodude-alolan-form-HomeSprite.png
 Image: geodude-alolan-form.png
-Learnset: '[[SRD-Geodude (Alolan Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Charge|Charge]]'
+- - Beginner
+  - '[[SRD-Rock Polish|Rock Polish]]'
+- - Beginner
+  - '[[SRD-Rollout|Rollout]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Spark|Spark]]'
+- - Amateur
+  - '[[SRD-Rock Throw|Rock Throw]]'
+- - Amateur
+  - '[[SRD-Smack Down|Smack Down]]'
+- - Amateur
+  - '[[SRD-Thunder Punch|Thunder Punch]]'
+- - Amateur
+  - '[[SRD-Self Destruct|Self Destruct]]'
+- - Amateur
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Amateur
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Discharge|Discharge]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Rock Climb|Rock Climb]]'
+- - Pro
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Pro
+  - '[[SRD-Screech|Screech]]'
 Number: 74
 ShuffleToken: SRD-geodude-alolan-form-ShuffleToken.png
 Type1: Rock
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-------------------------------|:-------|:--------|
 | To        | [[SRD-Graveler (Alolan Form)]] | Level  | Medium  |
 
-![[SRD-Geodude (Alolan Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Geodude (Alolan Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

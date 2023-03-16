@@ -19,8 +19,54 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-oricorio-pom-pom-form-HomeSprite.png
 Image: oricorio-pom-pom-form.png
-Learnset: '[[SRD-Oricorio (Pom-pom Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Peck|Peck]]'
+- - Beginner
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Beginner
+  - '[[SRD-Air Cutter|Air Cutter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Amateur
+  - '[[SRD-Feather Dance|Feather Dance]]'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Teeter Dance|Teeter Dance]]'
+- - Amateur
+  - '[[SRD-Roost|Roost]]'
+- - Amateur
+  - '[[SRD-Captivate|Captivate]]'
+- - Amateur
+  - '[[SRD-Air Slash|Air Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Revelation Dance|Revelation Dance]]'
+- - Ace
+  - '[[SRD-Mirror Move|Mirror Move]]'
+- - Ace
+  - '[[SRD-Agility|Agility]]'
+- - Ace
+  - '[[SRD-Hurricane|Hurricane]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Pro
+  - '[[SRD-Attract|Attract]]'
+- - Pro
+  - '[[SRD-Round|Round]]'
 Number: 741
 ShuffleToken: SRD-oricorio-pom-pom-form-ShuffleToken.png
 Type1: Electric
@@ -67,4 +113,14 @@ Weight:
 |:----------|:------------------------------|:-------|
 | From      | [[SRD-Oricorio (Baile Form)]] | Form   |
 
-![[SRD-Oricorio (Pom-pom Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Oricorio (Pom-pom Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

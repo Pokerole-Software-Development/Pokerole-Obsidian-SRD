@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Unnerve
 HomeSprite: SRD-masquerain-HomeSprite.png
 Image: masquerain.png
-Learnset: '[[SRD-Masquerain-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bubble|Bubble]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Ominous Wind|Ominous Wind]]'
+- - Amateur
+  - '[[SRD-Quiver Dance|Quiver Dance]]'
+- - Amateur
+  - '[[SRD-Stun Spore|Stun Spore]]'
+- - Amateur
+  - '[[SRD-Water Sport|Water Sport]]'
+- - Amateur
+  - '[[SRD-Whirlwind|Whirlwind]]'
+- - Amateur
+  - '[[SRD-Air Cutter|Air Cutter]]'
+- - Amateur
+  - '[[SRD-Gust|Gust]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - Ace
+  - '[[SRD-Silver Wind|Silver Wind]]'
+- - Ace
+  - '[[SRD-Air Slash|Air Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fell Stinger|Fell Stinger]]'
+- - Pro
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Pro
+  - '[[SRD-Psybeam|Psybeam]]'
 Number: 284
 ShuffleToken: SRD-masquerain-ShuffleToken.png
 Type1: Bug
@@ -68,4 +110,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Surskit]] | Level  | Fast    |
 
-![[SRD-Masquerain-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Masquerain.md"
+flatten moves as T
+where file.path = this.file.path
+```

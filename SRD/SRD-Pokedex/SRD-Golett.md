@@ -20,8 +20,54 @@ Height:
 HiddenAbility: No Guard
 HomeSprite: SRD-golett-HomeSprite.png
 Image: golett.png
-Learnset: '[[SRD-Golett-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Beginner
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Beginner
+  - '[[SRD-Rollout|Rollout]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Shadow Punch|Shadow Punch]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Mega Punch|Mega Punch]]'
+- - Amateur
+  - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
+- - Amateur
+  - '[[SRD-Magnitude|Magnitude]]'
+- - Amateur
+  - '[[SRD-Dynamic Punch|Dynamic Punch]]'
+- - Amateur
+  - '[[SRD-Night Shade|Night Shade]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Curse|Curse]]'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Hammer Arm|Hammer Arm]]'
+- - Ace
+  - '[[SRD-Focus Punch|Focus Punch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fire Punch|Fire Punch]]'
+- - Pro
+  - '[[SRD-Thunder Punch|Thunder Punch]]'
+- - Pro
+  - '[[SRD-Ice Punch|Ice Punch]]'
 Number: 622
 ShuffleToken: SRD-golett-ShuffleToken.png
 Type1: Ground
@@ -68,4 +114,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | To        | [[SRD-Golurk]] | Level  | Medium  |
 
-![[SRD-Golett-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Golett.md"
+flatten moves as T
+where file.path = this.file.path
+```

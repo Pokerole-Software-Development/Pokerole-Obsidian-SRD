@@ -20,8 +20,34 @@ Height:
 HiddenAbility: Solar Power
 HomeSprite: SRD-heliolisk-HomeSprite.png
 Image: heliolisk.png
-Learnset: '[[SRD-Heliolisk-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Beginner
+  - '[[SRD-Charge|Charge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Eerie Impulse|Eerie Impulse]]'
+- - Amateur
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Amateur
+  - '[[SRD-Razor Wind|Razor Wind]]'
+- - Amateur
+  - '[[SRD-Parabolic Charge|Parabolic Charge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Electrify|Electrify]]'
+- - Ace
+  - '[[SRD-Thunder|Thunder]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Agility|Agility]]'
+- - Pro
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Pro
+  - '[[SRD-Fire Punch|Fire Punch]]'
 Number: 695
 ShuffleToken: SRD-heliolisk-ShuffleToken.png
 Type1: Electric
@@ -68,4 +94,14 @@ Weight:
 |:----------|:-------------------|:-------|:----------|
 | From      | [[SRD-Helioptile]] | Stone  | Sun Stone |
 
-![[SRD-Heliolisk-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Heliolisk.md"
+flatten moves as T
+where file.path = this.file.path
+```

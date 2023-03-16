@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Reckless
 HomeSprite: SRD-mienfoo-HomeSprite.png
 Image: mienfoo.png
-Learnset: '[[SRD-Mienfoo-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Meditate|Meditate]]'
+- - Beginner
+  - '[[SRD-Detect|Detect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Swift|Swift]]'
+- - Amateur
+  - '[[SRD-Calm Mind|Calm Mind]]'
+- - Amateur
+  - '[[SRD-Force Palm|Force Palm]]'
+- - Amateur
+  - '[[SRD-Drain Punch|Drain Punch]]'
+- - Amateur
+  - '[[SRD-Jump Kick|Jump Kick]]'
+- - Amateur
+  - '[[SRD-U-Turn|U-Turn]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Quick Guard|Quick Guard]]'
+- - Ace
+  - '[[SRD-Bounce|Bounce]]'
+- - Ace
+  - '[[SRD-High Jump Kick|High Jump Kick]]'
+- - Ace
+  - '[[SRD-Reversal|Reversal]]'
+- - Ace
+  - '[[SRD-Aura Sphere|Aura Sphere]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Ally Switch|Ally Switch]]'
+- - Pro
+  - '[[SRD-Feint|Feint]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
 Number: 619
 ShuffleToken: SRD-mienfoo-ShuffleToken.png
 Type1: Fighting
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Mienshao]] | Level  | Medium  |
 
-![[SRD-Mienfoo-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Mienfoo.md"
+flatten moves as T
+where file.path = this.file.path
+```

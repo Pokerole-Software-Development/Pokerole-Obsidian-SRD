@@ -20,8 +20,60 @@ Height:
 HiddenAbility: Early Bird
 HomeSprite: SRD-sunflora-HomeSprite.png
 Image: sunflora.png
-Learnset: '[[SRD-Sunflora-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Absorb|Absorb]]'
+- - Starter
+  - '[[SRD-Growth|Growth]]'
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Grass Whistle|Grass Whistle]]'
+- - Beginner
+  - '[[SRD-Ingrain|Ingrain]]'
+- - Beginner
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Flower Shield|Flower Shield]]'
+- - Amateur
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Amateur
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Amateur
+  - '[[SRD-Worry Seed|Worry Seed]]'
+- - Amateur
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Amateur
+  - '[[SRD-Bullet Seed|Bullet Seed]]'
+- - Amateur
+  - '[[SRD-Natural Gift|Natural Gift]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Petal Dance|Petal Dance]]'
+- - Ace
+  - '[[SRD-Solar Beam|Solar Beam]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Sunny Day|Sunny Day]]'
+- - Ace
+  - '[[SRD-Leaf Storm|Leaf Storm]]'
+- - Ace
+  - '[[SRD-Petal Blizzard|Petal Blizzard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Pro
+  - '[[SRD-Morning Sun|Morning Sun]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
 Number: 192
 ShuffleToken: SRD-sunflora-ShuffleToken.png
 Type1: Grass
@@ -68,4 +120,14 @@ Weight:
 |:----------|:----------------|:-------|:----------|
 | From      | [[SRD-Sunkern]] | Stone  | Sun Stone |
 
-![[SRD-Sunflora-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Sunflora.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Thick Fat
 HomeSprite: SRD-swinub-HomeSprite.png
 Image: swinub.png
-Learnset: '[[SRD-Swinub-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Powder Snow|Powder Snow]]'
+- - Beginner
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Beginner
+  - '[[SRD-Take Down|Take Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Mud Bomb|Mud Bomb]]'
+- - Amateur
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Amateur
+  - '[[SRD-Ice Shard|Ice Shard]]'
+- - Amateur
+  - '[[SRD-Endure|Endure]]'
+- - Amateur
+  - '[[SRD-Mist|Mist]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Flail|Flail]]'
+- - Ace
+  - '[[SRD-Blizzard|Blizzard]]'
+- - Ace
+  - '[[SRD-Amnesia|Amnesia]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Freeze Dry|Freeze Dry]]'
+- - Pro
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Pro
+  - '[[SRD-Body Slam|Body Slam]]'
 Number: 220
 ShuffleToken: SRD-swinub-ShuffleToken.png
 Type1: Ice
@@ -68,4 +112,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Piloswine]] | Level  | Medium  |
 
-![[SRD-Swinub-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Swinub.md"
+flatten moves as T
+where file.path = this.file.path
+```

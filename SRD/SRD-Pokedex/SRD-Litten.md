@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Intimidate
 HomeSprite: SRD-litten-HomeSprite.png
 Image: litten.png
-Learnset: '[[SRD-Litten-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Ember|Ember]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - Beginner
+  - '[[SRD-Lick|Lick]]'
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Amateur
+  - '[[SRD-Roar|Roar]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Swagger|Swagger]]'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Amateur
+  - '[[SRD-Thrash|Thrash]]'
+- - Amateur
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Ace
+  - '[[SRD-Flare Blitz|Flare Blitz]]'
+- - Ace
+  - '[[SRD-Outrage|Outrage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Pro
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Pro
+  - '[[SRD-Fire Pledge|Fire Pledge]]'
 Number: 725
 ShuffleToken: SRD-litten-ShuffleToken.png
 Type1: Fire
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Torracat]] | Level  | Medium  |
 
-![[SRD-Litten-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Litten.md"
+flatten moves as T
+where file.path = this.file.path
+```

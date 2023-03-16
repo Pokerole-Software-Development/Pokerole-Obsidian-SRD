@@ -16,8 +16,42 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-virizion-HomeSprite.png
 Image: virizion.png
-Learnset: '[[SRD-Virizion-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Master
+  - '[[SRD-Leer|Leer]]'
+- - Master
+  - '[[SRD-Double Kick|Double Kick]]'
+- - Master
+  - '[[SRD-Magical Leaf|Magical Leaf]]'
+- - Master
+  - '[[SRD-Take Down|Take Down]]'
+- - Master
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Master
+  - '[[SRD-Retaliate|Retaliate]]'
+- - Master
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Master
+  - '[[SRD-Sacred Sword|Sacred Sword]]'
+- - Master
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Master
+  - '[[SRD-Quick Guard|Quick Guard]]'
+- - Master
+  - '[[SRD-Work Up|Work Up]]'
+- - Master
+  - '[[SRD-Leaf Blade|Leaf Blade]]'
+- - Master
+  - '[[SRD-Close Combat|Close Combat]]'
+- - Master
+  - '[[SRD-Agility|Agility]]'
+- - Master
+  - '[[SRD-Charm|Charm]]'
+- - Master
+  - '[[SRD-Attract|Attract]]'
 Number: 640
 ShuffleToken: SRD-virizion-ShuffleToken.png
 Type1: Grass
@@ -60,4 +94,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-![[SRD-Virizion-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Virizion.md"
+flatten moves as T
+where file.path = this.file.path
+```

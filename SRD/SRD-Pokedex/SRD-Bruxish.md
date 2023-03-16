@@ -16,8 +16,46 @@ Height:
 HiddenAbility: Wonder Skin
 HomeSprite: SRD-bruxish-HomeSprite.png
 Image: bruxish.png
-Learnset: '[[SRD-Bruxish-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Confusion|Confusion]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - Amateur
+  - '[[SRD-Disable|Disable]]'
+- - Amateur
+  - '[[SRD-Psywave|Psywave]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psychic Fangs|Psychic Fangs]]'
+- - Ace
+  - '[[SRD-Synchronoise|Synchronoise]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Pro
+  - '[[SRD-Poison Fang|Poison Fang]]'
+- - Pro
+  - '[[SRD-Waterfall|Waterfall]]'
 Number: 779
 ShuffleToken: SRD-bruxish-ShuffleToken.png
 Type1: Water
@@ -60,4 +98,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Bruxish-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Bruxish.md"
+flatten moves as T
+where file.path = this.file.path
+```

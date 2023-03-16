@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Hydration
 HomeSprite: SRD-vaporeon-HomeSprite.png
 Image: vaporeon.png
-Learnset: '[[SRD-Vaporeon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Aurora Beam|Aurora Beam]]'
+- - Amateur
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Amateur
+  - '[[SRD-Acid Armor|Acid Armor]]'
+- - Amateur
+  - '[[SRD-Haze|Haze]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Muddy Water|Muddy Water]]'
+- - Ace
+  - '[[SRD-Last Resort|Last Resort]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Wish|Wish]]'
+- - Pro
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Pro
+  - '[[SRD-Yawn|Yawn]]'
 Number: 134
 ShuffleToken: SRD-vaporeon-ShuffleToken.png
 Type1: Water
@@ -68,4 +110,14 @@ Weight:
 |:----------|:--------------|:-------|:------------|
 | From      | [[SRD-Eevee]] | Stone  | Water Stone |
 
-![[SRD-Vaporeon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Vaporeon.md"
+flatten moves as T
+where file.path = this.file.path
+```

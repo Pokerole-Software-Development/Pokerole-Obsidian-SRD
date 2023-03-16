@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Rattled
 HomeSprite: SRD-ledyba-HomeSprite.png
 Image: ledyba.png
-Learnset: '[[SRD-Ledyba-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Beginner
+  - '[[SRD-Comet Punch|Comet Punch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Amateur
+  - '[[SRD-Reflect|Reflect]]'
+- - Amateur
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Amateur
+  - '[[SRD-Mach Punch|Mach Punch]]'
+- - Amateur
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Amateur
+  - '[[SRD-Silver Wind|Silver Wind]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Air Slash|Air Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Swift|Swift]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Pro
+  - '[[SRD-Screech|Screech]]'
+- - Pro
+  - '[[SRD-Tailwind|Tailwind]]'
 Number: 165
 ShuffleToken: SRD-ledyba-ShuffleToken.png
 Type1: Bug
@@ -68,4 +110,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | To        | [[SRD-Ledian]] | Level  | Medium  |
 
-![[SRD-Ledyba-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Ledyba.md"
+flatten moves as T
+where file.path = this.file.path
+```

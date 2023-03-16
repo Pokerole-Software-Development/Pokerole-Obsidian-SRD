@@ -20,8 +20,42 @@ Height:
 HiddenAbility: Propeller Tail
 HomeSprite: SRD-arrokuda-HomeSprite.png
 Image: arrokuda.png
-Learnset: '[[SRD-Arrokuda-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Dive|Dive]]'
+- - Amateur
+  - '[[SRD-Laser Focus|Laser Focus]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Liquidation|Liquidation]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Slash|Slash]]'
+- - Pro
+  - '[[SRD-Drill Run|Drill Run]]'
+- - Pro
+  - '[[SRD-Ice Fang|Ice Fang]]'
 Number: 846
 ShuffleToken: SRD-arrokuda-ShuffleToken.png
 Type1: Water
@@ -68,4 +102,14 @@ Weight:
 |:----------|:--------------------|:-------|:--------|
 | To        | [[SRD-Barraskewda]] | Level  | Medium  |
 
-![[SRD-Arrokuda-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Arrokuda.md"
+flatten moves as T
+where file.path = this.file.path
+```

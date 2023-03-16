@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Grass Pelt
 HomeSprite: SRD-skiddo-HomeSprite.png
 Image: skiddo.png
-Learnset: '[[SRD-Skiddo-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Growth|Growth]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Vine Whip|Vine Whip]]'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Worry Seed|Worry Seed]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Amateur
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Amateur
+  - '[[SRD-Synthesis|Synthesis]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - Amateur
+  - '[[SRD-Seed Bomb|Seed Bomb]]'
+- - Amateur
+  - '[[SRD-Bulk Up|Bulk Up]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Horn Leech|Horn Leech]]'
+- - Ace
+  - '[[SRD-Leaf Blade|Leaf Blade]]'
+- - Ace
+  - '[[SRD-Milk Drink|Milk Drink]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
+- - Pro
+  - '[[SRD-Defense Curl|Defense Curl]]'
 Number: 672
 ShuffleToken: SRD-skiddo-ShuffleToken.png
 Type1: Grass
@@ -68,4 +114,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | To        | [[SRD-Gogoat]] | Level  | Medium  |
 
-![[SRD-Skiddo-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Skiddo.md"
+flatten moves as T
+where file.path = this.file.path
+```

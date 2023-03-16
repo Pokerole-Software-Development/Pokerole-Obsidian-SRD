@@ -20,8 +20,58 @@ Height:
 HiddenAbility: Ice Body
 HomeSprite: SRD-dewgong-HomeSprite.png
 Image: dewgong.png
-Learnset: '[[SRD-Dewgong-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Encore|Encore]]'
+- - Beginner
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Beginner
+  - '[[SRD-Take Down|Take Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Ice Shard|Ice Shard]]'
+- - Amateur
+  - '[[SRD-Rest|Rest]]'
+- - Amateur
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Amateur
+  - '[[SRD-Aurora Beam|Aurora Beam]]'
+- - Amateur
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - Amateur
+  - '[[SRD-Brine|Brine]]'
+- - Amateur
+  - '[[SRD-Sheer Cold|Sheer Cold]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Dive|Dive]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Ace
+  - '[[SRD-Ice Beam|Ice Beam]]'
+- - Ace
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Ace
+  - '[[SRD-Hail|Hail]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Avalanche|Avalanche]]'
+- - Pro
+  - '[[SRD-Perish Song|Perish Song]]'
+- - Pro
+  - '[[SRD-Horn Drill|Horn Drill]]'
 Number: 87
 ShuffleToken: SRD-dewgong-ShuffleToken.png
 Type1: Water
@@ -68,4 +118,14 @@ Weight:
 |:----------|:-------------|:-------|:--------|
 | From      | [[SRD-Seel]] | Level  | Slow    |
 
-![[SRD-Dewgong-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Dewgong.md"
+flatten moves as T
+where file.path = this.file.path
+```

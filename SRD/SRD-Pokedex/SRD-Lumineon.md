@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Water Veil
 HomeSprite: SRD-lumineon-HomeSprite.png
 Image: lumineon.png
-Learnset: '[[SRD-Lumineon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Beginner
+  - '[[SRD-Attract|Attract]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Gust|Gust]]'
+- - Amateur
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Captivate|Captivate]]'
+- - Amateur
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Amateur
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Amateur
+  - '[[SRD-Whirlpool|Whirlpool]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-U-Turn|U-Turn]]'
+- - Ace
+  - '[[SRD-Bounce|Bounce]]'
+- - Ace
+  - '[[SRD-Silver Wind|Silver Wind]]'
+- - Ace
+  - '[[SRD-Soak|Soak]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Agility|Agility]]'
+- - Pro
+  - '[[SRD-Brine|Brine]]'
+- - Pro
+  - '[[SRD-Aurora Beam|Aurora Beam]]'
 Number: 457
 ShuffleToken: SRD-lumineon-ShuffleToken.png
 Type1: Water
@@ -68,4 +110,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Finneon]] | Level  | Medium  |
 
-![[SRD-Lumineon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Lumineon.md"
+flatten moves as T
+where file.path = this.file.path
+```

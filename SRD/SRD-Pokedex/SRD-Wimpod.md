@@ -20,8 +20,24 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-wimpod-HomeSprite.png
 Image: wimpod.png
-Learnset: '[[SRD-Wimpod-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Struggle Bug|Struggle Bug]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - Pro
+  - '[[SRD-Spikes|Spikes]]'
 Number: 767
 ShuffleToken: SRD-wimpod-ShuffleToken.png
 Type1: Bug
@@ -68,4 +84,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Golisopod]] | Level  | Slow    |
 
-![[SRD-Wimpod-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Wimpod.md"
+flatten moves as T
+where file.path = this.file.path
+```

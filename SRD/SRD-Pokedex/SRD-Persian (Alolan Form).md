@@ -20,8 +20,62 @@ Height:
 HiddenAbility: Rattled
 HomeSprite: SRD-persian-alolan-form-HomeSprite.png
 Image: persian-alolan-form.png
-Learnset: '[[SRD-Persian (Alolan Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Beginner
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Beginner
+  - '[[SRD-Screech|Screech]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Swift|Swift]]'
+- - Amateur
+  - '[[SRD-Switcheroo|Switcheroo]]'
+- - Amateur
+  - '[[SRD-Play Rough|Play Rough]]'
+- - Amateur
+  - '[[SRD-Captivate|Captivate]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Power Gem|Power Gem]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Dark Pulse|Dark Pulse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Assurance|Assurance]]'
+- - Ace
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Ace
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Ace
+  - '[[SRD-Feint|Feint]]'
+- - Ace
+  - '[[SRD-Quash|Quash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Parting Shot|Parting Shot]]'
+- - Pro
+  - '[[SRD-Snarl|Snarl]]'
+- - Pro
+  - '[[SRD-Torment|Torment]]'
 Number: 53
 ShuffleToken: SRD-persian-alolan-form-ShuffleToken.png
 Type1: Dark
@@ -68,4 +122,14 @@ Weight:
 |:----------|:-----------------------------|:-------|:--------|
 | From      | [[SRD-Meowth (Alolan Form)]] | Level  | Medium  |
 
-![[SRD-Persian (Alolan Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Persian (Alolan Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

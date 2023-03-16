@@ -20,8 +20,54 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-camerupt-mega-form-HomeSprite.png
 Image: camerupt-mega-form.png
-Learnset: '[[SRD-Camerupt (Mega Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - Beginner
+  - '[[SRD-Magnitude|Magnitude]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Amateur
+  - '[[SRD-Flame Burst|Flame Burst]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Amateur
+  - '[[SRD-Lava Plume|Lava Plume]]'
+- - Amateur
+  - '[[SRD-Earth Power|Earth Power]]'
+- - Amateur
+  - '[[SRD-Curse|Curse]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Yawn|Yawn]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Eruption|Eruption]]'
+- - Ace
+  - '[[SRD-Fissure|Fissure]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Pro
+  - '[[SRD-Self Destruct|Self Destruct]]'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
 Number: 323
 ShuffleToken: SRD-camerupt-mega-form-ShuffleToken.png
 Type1: Fire
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-----------------|:-------|:------------|
 | From      | [[SRD-Camerupt]] | Mega   | Cameruptite |
 
-![[SRD-Camerupt (Mega Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Camerupt (Mega Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

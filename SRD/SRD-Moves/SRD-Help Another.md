@@ -1,6 +1,8 @@
 ---
 Accuracy1: ''
 Accuracy2: Varies
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: ''

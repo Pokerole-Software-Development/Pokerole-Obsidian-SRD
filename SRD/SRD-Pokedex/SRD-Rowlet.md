@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Long Reach
 HomeSprite: SRD-rowlet-HomeSprite.png
 Image: rowlet.png
-Learnset: '[[SRD-Rowlet-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Leafage|Leafage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - Beginner
+  - '[[SRD-Peck|Peck]]'
+- - Beginner
+  - '[[SRD-Astonish|Astonish]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Amateur
+  - '[[SRD-Foresight|Foresight]]'
+- - Amateur
+  - '[[SRD-Pluck|Pluck]]'
+- - Amateur
+  - '[[SRD-Synthesis|Synthesis]]'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Amateur
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Leaf Blade|Leaf Blade]]'
+- - Ace
+  - '[[SRD-Feather Dance|Feather Dance]]'
+- - Ace
+  - '[[SRD-Brave Bird|Brave Bird]]'
+- - Ace
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Curse|Curse]]'
+- - Pro
+  - '[[SRD-Haze|Haze]]'
+- - Pro
+  - '[[SRD-Grass Pledge|Grass Pledge]]'
 Number: 722
 ShuffleToken: SRD-rowlet-ShuffleToken.png
 Type1: Grass
@@ -68,4 +112,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Dartrix]] | Level  | Medium  |
 
-![[SRD-Rowlet-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Rowlet.md"
+flatten moves as T
+where file.path = this.file.path
+```

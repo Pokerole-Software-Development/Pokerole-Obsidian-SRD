@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Overcoat
 HomeSprite: SRD-jangmo-o-HomeSprite.png
 Image: jangmo-o.png
-Learnset: '[[SRD-Jangmo-o-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bide|Bide]]'
+- - Beginner
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Dragon Tail|Dragon Tail]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Work Up|Work Up]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Dragon Claw|Dragon Claw]]'
+- - Amateur
+  - '[[SRD-Noble Roar|Noble Roar]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - Ace
+  - '[[SRD-Outrage|Outrage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Counter|Counter]]'
+- - Pro
+  - '[[SRD-Reversal|Reversal]]'
+- - Pro
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
 Number: 782
 ShuffleToken: SRD-jangmo-o-ShuffleToken.png
 Type1: Dragon
@@ -68,4 +110,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Hakamo-o]] | Level  | Slow    |
 
-![[SRD-Jangmo-o-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Jangmo-o.md"
+flatten moves as T
+where file.path = this.file.path
+```

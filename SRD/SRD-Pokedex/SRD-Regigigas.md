@@ -15,8 +15,48 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-regigigas-HomeSprite.png
 Image: regigigas.png
-Learnset: '[[SRD-Regigigas-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Heavy Slam|Heavy Slam]]'
+- - Master
+  - '[[SRD-Crush Grip|Crush Grip]]'
+- - Master
+  - '[[SRD-Fire Punch|Fire Punch]]'
+- - Master
+  - '[[SRD-Ice Punch|Ice Punch]]'
+- - Master
+  - '[[SRD-Thunder Punch|Thunder Punch]]'
+- - Master
+  - '[[SRD-Dizzy Punch|Dizzy Punch]]'
+- - Master
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Master
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Master
+  - '[[SRD-Foresight|Foresight]]'
+- - Master
+  - '[[SRD-Revenge|Revenge]]'
+- - Master
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Master
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Master
+  - '[[SRD-Payback|Payback]]'
+- - Master
+  - '[[SRD-Hidden Power|Hidden Power]]'
+- - Master
+  - '[[SRD-Psych Up|Psych Up]]'
+- - Master
+  - '[[SRD-Giga Impact|Giga Impact]]'
+- - Master
+  - '[[SRD-Substitute|Substitute]]'
+- - Master
+  - '[[SRD-Strength|Strength]]'
+- - Master
+  - '[[SRD-Superpower|Superpower]]'
+- - Master
+  - '[[SRD-Nature Power|Nature Power]]'
 Number: 486
 ShuffleToken: SRD-regigigas-ShuffleToken.png
 Type1: Normal
@@ -59,4 +99,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-![[SRD-Regigigas-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Regigigas.md"
+flatten moves as T
+where file.path = this.file.path
+```

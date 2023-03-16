@@ -31,8 +31,28 @@ Height:
 HiddenAbility: Vital Spirit
 HomeSprite: SRD-tyrogue-HomeSprite.png
 Image: tyrogue.png
-Learnset: '[[SRD-Tyrogue-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Foresight|Foresight]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Amateur
+  - '[[SRD-Fake Out|Fake Out]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Work Up|Work Up]]'
+- - Pro
+  - '[[SRD-Role Play|Role Play]]'
+- - Pro
+  - '[[SRD-Seismic Toss|Seismic Toss]]'
 Number: 236
 ShuffleToken: SRD-tyrogue-ShuffleToken.png
 Type1: Fighting
@@ -81,4 +101,14 @@ Weight:
 | To        | [[SRD-Hitmonlee]]  | Stat   | Strength  |      -1 |
 | To        | [[SRD-Hitmonchan]] | Stat   | Vitality  |      -1 |
 
-![[SRD-Tyrogue-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Tyrogue.md"
+flatten moves as T
+where file.path = this.file.path
+```

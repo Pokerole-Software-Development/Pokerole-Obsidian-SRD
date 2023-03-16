@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-goldeen-HomeSprite.png
 Image: goldeen.png
-Learnset: '[[SRD-Goldeen-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Water Sport|Water Sport]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Beginner
+  - '[[SRD-Horn Attack|Horn Attack]]'
+- - Beginner
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Flail|Flail]]'
+- - Amateur
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Amateur
+  - '[[SRD-Waterfall|Waterfall]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Horn Drill|Horn Drill]]'
+- - Ace
+  - '[[SRD-Agility|Agility]]'
+- - Ace
+  - '[[SRD-Soak|Soak]]'
+- - Ace
+  - '[[SRD-Megahorn|Megahorn]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Bounce|Bounce]]'
+- - Pro
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - Pro
+  - '[[SRD-Drill Run|Drill Run]]'
 Number: 118
 ShuffleToken: SRD-goldeen-ShuffleToken.png
 Type1: Water
@@ -68,4 +108,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Seaking]] | Level  | Slow    |
 
-![[SRD-Goldeen-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Goldeen.md"
+flatten moves as T
+where file.path = this.file.path
+```

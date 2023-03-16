@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Swift Swim
 HomeSprite: SRD-drednaw-HomeSprite.png
 Image: drednaw.png
-Learnset: '[[SRD-Drednaw-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Beginner
+  - '[[SRD-Razor Shell|Razor Shell]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Rock Tomb|Rock Tomb]]'
+- - Amateur
+  - '[[SRD-Rock Polish|Rock Polish]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Counter|Counter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Jaw Lock|Jaw Lock]]'
+- - Ace
+  - '[[SRD-Liquidation|Liquidation]]'
+- - Ace
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Ace
+  - '[[SRD-Head Smash|Head Smash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Dive|Dive]]'
+- - Pro
+  - '[[SRD-Dragon Tail|Dragon Tail]]'
+- - Pro
+  - '[[SRD-Skull Bash|Skull Bash]]'
 Number: 834
 ShuffleToken: SRD-drednaw-ShuffleToken.png
 Type1: Water
@@ -68,4 +108,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Chewtle]] | Level  | Medium  |
 
-![[SRD-Drednaw-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Drednaw.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -16,8 +16,48 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-furfrou-HomeSprite.png
 Image: furfrou.png
-Learnset: '[[SRD-Furfrou-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Beginner
+  - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
+- - Beginner
+  - '[[SRD-Take Down|Take Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+- - Amateur
+  - '[[SRD-Retaliate|Retaliate]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Charm|Charm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Ace
+  - '[[SRD-Cotton Guard|Cotton Guard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Pro
+  - '[[SRD-Last Resort|Last Resort]]'
+- - Pro
+  - '[[SRD-Work Up|Work Up]]'
 Number: 676
 ShuffleToken: SRD-furfrou-ShuffleToken.png
 Type1: Normal
@@ -60,4 +100,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Furfrou-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Furfrou.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Bulletproof
 HomeSprite: SRD-dubwool-HomeSprite.png
 Image: dubwool.png
-Learnset: '[[SRD-Dubwool-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - Beginner
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Copycat|Copycat]]'
+- - Amateur
+  - '[[SRD-Guard Split|Guard Split]]'
+- - Amateur
+  - '[[SRD-Double Kick|Double Kick]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Guard Swap|Guard Swap]]'
+- - Ace
+  - '[[SRD-Reversal|Reversal]]'
+- - Ace
+  - '[[SRD-Cotton Guard|Cotton Guard]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Last Resort|Last Resort]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Bounce|Bounce]]'
+- - Pro
+  - '[[SRD-Agility|Agility]]'
+- - Pro
+  - '[[SRD-Protect|Protect]]'
 Number: 832
 ShuffleToken: SRD-dubwool-ShuffleToken.png
 Type1: Normal
@@ -68,4 +108,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Wooloo]] | Level  | Medium  |
 
-![[SRD-Dubwool-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Dubwool.md"
+flatten moves as T
+where file.path = this.file.path
+```

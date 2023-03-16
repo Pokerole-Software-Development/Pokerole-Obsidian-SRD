@@ -20,8 +20,40 @@ Height:
 HiddenAbility: Overcoat
 HomeSprite: SRD-sewaddle-HomeSprite.png
 Image: sewaddle.png
-Learnset: '[[SRD-Sewaddle-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-String Shot|String Shot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Amateur
+  - '[[SRD-Struggle Bug|Struggle Bug]]'
+- - Amateur
+  - '[[SRD-Endure|Endure]]'
+- - Amateur
+  - '[[SRD-Sticky Web|Sticky Web]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - Ace
+  - '[[SRD-Flail|Flail]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Pro
+  - '[[SRD-Camouflage|Camouflage]]'
+- - Pro
+  - '[[SRD-Silver Wind|Silver Wind]]'
 Number: 540
 ShuffleToken: SRD-sewaddle-ShuffleToken.png
 Type1: Bug
@@ -68,4 +100,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Swadloon]] | Level  | Fast    |
 
-![[SRD-Sewaddle-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Sewaddle.md"
+flatten moves as T
+where file.path = this.file.path
+```

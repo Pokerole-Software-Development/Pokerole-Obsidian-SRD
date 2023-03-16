@@ -16,8 +16,56 @@ Height:
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-hawlucha-HomeSprite.png
 Image: hawlucha.png
-Learnset: '[[SRD-Hawlucha-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Detect|Detect]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Hone Claws|Hone Claws]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Karate Chop|Karate Chop]]'
+- - Beginner
+  - '[[SRD-Wing Attack|Wing Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Roost|Roost]]'
+- - Amateur
+  - '[[SRD-Aerial Ace|Aerial Ace]]'
+- - Amateur
+  - '[[SRD-Encore|Encore]]'
+- - Amateur
+  - '[[SRD-Fling|Fling]]'
+- - Amateur
+  - '[[SRD-Flying Press|Flying Press]]'
+- - Amateur
+  - '[[SRD-Bounce|Bounce]]'
+- - Amateur
+  - '[[SRD-Endeavor|Endeavor]]'
+- - Amateur
+  - '[[SRD-Feather Dance|Feather Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-High Jump Kick|High Jump Kick]]'
+- - Ace
+  - '[[SRD-Sky Attack|Sky Attack]]'
+- - Ace
+  - '[[SRD-Sky Drop|Sky Drop]]'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Thunder Punch|Thunder Punch]]'
+- - Pro
+  - '[[SRD-Dual Chop|Dual Chop]]'
+- - Pro
+  - '[[SRD-Tailwind|Tailwind]]'
 Number: 701
 ShuffleToken: SRD-hawlucha-ShuffleToken.png
 Type1: Fighting
@@ -60,4 +108,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Hawlucha-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Hawlucha.md"
+flatten moves as T
+where file.path = this.file.path
+```

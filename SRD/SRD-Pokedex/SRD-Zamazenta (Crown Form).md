@@ -19,8 +19,46 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-zamazenta-crown-form-HomeSprite.png
 Image: zamazenta-crown-form.png
-Learnset: '[[SRD-Zamazenta (Crown Form)-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Metal Burst|Metal Burst]]'
+- - Master
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Master
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Master
+  - '[[SRD-Howl|Howl]]'
+- - Master
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Master
+  - '[[SRD-Bite|Bite]]'
+- - Master
+  - '[[SRD-Slash|Slash]]'
+- - Master
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Master
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Master
+  - '[[SRD-Laser Focus|Laser Focus]]'
+- - Master
+  - '[[SRD-Crunch|Crunch]]'
+- - Master
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Master
+  - '[[SRD-Close Combat|Close Combat]]'
+- - Master
+  - '[[SRD-Giga Impact|Giga Impact]]'
+- - Master
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Master
+  - '[[SRD-Reflect|Reflect]]'
+- - Master
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Master
+  - '[[SRD-Steel Beam|Steel Beam]]'
+- - Master
+  - '[[SRD-Behemoth Bash|Behemoth Bash]]'
 Number: 889
 ShuffleToken: SRD-zamazenta-crown-form-ShuffleToken.png
 Type1: Fighting
@@ -67,4 +105,14 @@ Weight:
 |:----------|:------------------|:-------|
 | From      | [[SRD-Zamazenta]] | Form   |
 
-![[SRD-Zamazenta (Crown Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Zamazenta (Crown Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

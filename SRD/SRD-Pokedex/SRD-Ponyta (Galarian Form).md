@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Anticipation
 HomeSprite: SRD-ponyta-galarian-form-HomeSprite.png
 Image: ponyta-galarian-form.png
-Learnset: '[[SRD-Ponyta (Galarian Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Confusion|Confusion]]'
+- - Beginner
+  - '[[SRD-Fairy Wind|Fairy Wind]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Heal Pulse|Heal Pulse]]'
+- - Amateur
+  - '[[SRD-Stomp|Stomp]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Dazzling Gleam|Dazzling Gleam]]'
+- - Ace
+  - '[[SRD-Healing Wish|Healing Wish]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Ally Switch|Ally Switch]]'
+- - Pro
+  - '[[SRD-Future Sight|Future Sight]]'
+- - Pro
+  - '[[SRD-Protect|Protect]]'
 Number: 77
 ShuffleToken: SRD-ponyta-galarian-form-ShuffleToken.png
 Type1: Psychic
@@ -68,4 +108,14 @@ Weight:
 |:----------|:---------------------------------|:-------|:--------|
 | To        | [[SRD-Rapidash (Galarian Form)]] | Level  | Medium  |
 
-![[SRD-Ponyta (Galarian Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Ponyta (Galarian Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

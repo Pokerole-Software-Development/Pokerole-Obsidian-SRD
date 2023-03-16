@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Infiltrator
 HomeSprite: SRD-ninjask-HomeSprite.png
 Image: ninjask.png
-Learnset: '[[SRD-Ninjask-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Absorb|Absorb]]'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Beginner
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Mind Reader|Mind Reader]]'
+- - Amateur
+  - '[[SRD-Double Team|Double Team]]'
+- - Amateur
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Agility|Agility]]'
+- - Ace
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Ace
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Silver Wind|Silver Wind]]'
+- - Pro
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Pro
+  - '[[SRD-Final Gambit|Final Gambit]]'
 Number: 291
 ShuffleToken: SRD-ninjask-ShuffleToken.png
 Type1: Bug
@@ -68,4 +112,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Nincada]] | Level  | Medium  |
 
-![[SRD-Ninjask-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Ninjask.md"
+flatten moves as T
+where file.path = this.file.path
+```

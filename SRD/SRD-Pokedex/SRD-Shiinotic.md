@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Rain Dish
 HomeSprite: SRD-shiinotic-HomeSprite.png
 Image: shiinotic.png
-Learnset: '[[SRD-Shiinotic-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Absorb|Absorb]]'
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - Starter
+  - '[[SRD-Flash|Flash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Moonlight|Moonlight]]'
+- - Beginner
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Beginner
+  - '[[SRD-Sleep Powder|Sleep Powder]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Ingrain|Ingrain]]'
+- - Amateur
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Amateur
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Amateur
+  - '[[SRD-Strength Sap|Strength Sap]]'
+- - Amateur
+  - '[[SRD-Dream Eater|Dream Eater]]'
+- - Amateur
+  - '[[SRD-Spotlight|Spotlight]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Spore|Spore]]'
+- - Ace
+  - '[[SRD-Moonblast|Moonblast]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Pro
+  - '[[SRD-Growth|Growth]]'
+- - Pro
+  - '[[SRD-Light Screen|Light Screen]]'
 Number: 756
 ShuffleToken: SRD-shiinotic-ShuffleToken.png
 Type1: Grass
@@ -68,4 +110,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Morelull]] | Level  | Medium  |
 
-![[SRD-Shiinotic-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Shiinotic.md"
+flatten moves as T
+where file.path = this.file.path
+```

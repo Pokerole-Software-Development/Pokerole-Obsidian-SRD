@@ -20,8 +20,54 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-latios-mega-form-HomeSprite.png
 Image: latios-mega-form.png
-Learnset: '[[SRD-Latios (Mega Form)-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Starter
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Starter
+  - '[[SRD-Safeguard|Safeguard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Psywave|Psywave]]'
+- - Pro
+  - '[[SRD-Heal Block|Heal Block]]'
+- - Pro
+  - '[[SRD-Protect|Protect]]'
+- - Pro
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - Pro
+  - '[[SRD-Stored Power|Stored Power]]'
+- - Pro
+  - '[[SRD-Refresh|Refresh]]'
+- - Pro
+  - '[[SRD-Heal Pulse|Heal Pulse]]'
+- - Pro
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Pro
+  - '[[SRD-Luster Purge|Luster Purge]]'
+- - Pro
+  - '[[SRD-Psycho Shift|Psycho Shift]]'
+- - Pro
+  - '[[SRD-Recover|Recover]]'
+- - Pro
+  - '[[SRD-Telekinesis|Telekinesis]]'
+- - Pro
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Pro
+  - '[[SRD-Power Split|Power Split]]'
+- - Pro
+  - '[[SRD-Psychic|Psychic]]'
+- - Pro
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - Pro
+  - '[[SRD-Memento|Memento]]'
+- - Pro
+  - '[[SRD-Camouflage|Camouflage]]'
+- - Pro
+  - '[[SRD-Transform|Transform]]'
+- - Pro
+  - '[[SRD-Role Play|Role Play]]'
 Number: 381
 ShuffleToken: SRD-latios-mega-form-ShuffleToken.png
 Type1: Dragon
@@ -68,4 +114,14 @@ Weight:
 |:----------|:---------------|:-------|:----------|
 | From      | [[SRD-Latios]] | Mega   | Latiasite |
 
-![[SRD-Latios (Mega Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Latios (Mega Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,64 @@ Height:
 HiddenAbility: Moxie
 HomeSprite: SRD-mightyena-HomeSprite.png
 Image: mightyena.png
-Learnset: '[[SRD-Mightyena-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Howl|Howl]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Roar|Roar]]'
+- - Amateur
+  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+- - Amateur
+  - '[[SRD-Assurance|Assurance]]'
+- - Amateur
+  - '[[SRD-Swagger|Swagger]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Amateur
+  - '[[SRD-Yawn|Yawn]]'
+- - Amateur
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Thief|Thief]]'
+- - Amateur
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Embargo|Embargo]]'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Play Rough|Play Rough]]'
+- - Ace
+  - '[[SRD-Snarl|Snarl]]'
+- - Ace
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Counter|Counter]]'
+- - Pro
+  - '[[SRD-Snatch|Snatch]]'
+- - Pro
+  - '[[SRD-Poison Fang|Poison Fang]]'
 Number: 262
 ShuffleToken: SRD-mightyena-ShuffleToken.png
 Type1: Dark
@@ -68,4 +124,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | From      | [[SRD-Poochyena]] | Level  | Medium  |
 
-![[SRD-Mightyena-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Mightyena.md"
+flatten moves as T
+where file.path = this.file.path
+```

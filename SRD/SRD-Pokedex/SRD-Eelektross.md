@@ -20,8 +20,42 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-eelektross-HomeSprite.png
 Image: eelektross.png
-Learnset: '[[SRD-Eelektross-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Crush Claw|Crush Claw]]'
+- - Starter
+  - '[[SRD-Ion Deluge|Ion Deluge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Beginner
+  - '[[SRD-Acid|Acid]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Discharge|Discharge]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Coil|Coil]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Gastro Acid|Gastro Acid]]'
+- - Ace
+  - '[[SRD-Zap Cannon|Zap Cannon]]'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Super Fang|Super Fang]]'
+- - Pro
+  - '[[SRD-Drain Punch|Drain Punch]]'
+- - Pro
+  - '[[SRD-Fire Punch|Fire Punch]]'
 Number: 604
 ShuffleToken: SRD-eelektross-ShuffleToken.png
 Type1: Electric
@@ -68,4 +102,14 @@ Weight:
 |:----------|:------------------|:-------|:--------------|
 | From      | [[SRD-Eelektrik]] | Stone  | Thunder Stone |
 
-![[SRD-Eelektross-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Eelektross.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Swift Swim
 HomeSprite: SRD-golduck-HomeSprite.png
 Image: golduck.png
-Learnset: '[[SRD-Golduck-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Water Sport|Water Sport]]'
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Beginner
+  - '[[SRD-Disable|Disable]]'
+- - Beginner
+  - '[[SRD-Confusion|Confusion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Amateur
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Soak|Soak]]'
+- - Amateur
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psych Up|Psych Up]]'
+- - Ace
+  - '[[SRD-Me First|Me First]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Wonder Room|Wonder Room]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Tri Attack|Tri Attack]]'
+- - Pro
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Pro
+  - '[[SRD-Future Sight|Future Sight]]'
 Number: 55
 ShuffleToken: SRD-golduck-ShuffleToken.png
 Type1: Water
@@ -68,4 +116,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Psyduck]] | Level  | Medium  |
 
-![[SRD-Golduck-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Golduck.md"
+flatten moves as T
+where file.path = this.file.path
+```

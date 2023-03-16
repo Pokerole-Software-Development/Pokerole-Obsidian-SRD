@@ -24,8 +24,50 @@ Height:
 HiddenAbility: Vital Spirit
 HomeSprite: SRD-electabuzz-HomeSprite.png
 Image: electabuzz.png
-Learnset: '[[SRD-Electabuzz-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Thunder Shock|Thunder Shock]]'
+- - Beginner
+  - '[[SRD-Low Kick|Low Kick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Swift|Swift]]'
+- - Amateur
+  - '[[SRD-Shock Wave|Shock Wave]]'
+- - Amateur
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - Amateur
+  - '[[SRD-Electro Ball|Electro Ball]]'
+- - Amateur
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Amateur
+  - '[[SRD-Thunder Punch|Thunder Punch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Discharge|Discharge]]'
+- - Ace
+  - '[[SRD-Screech|Screech]]'
+- - Ace
+  - '[[SRD-Thunderbolt|Thunderbolt]]'
+- - Ace
+  - '[[SRD-Thunder|Thunder]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Dual Chop|Dual Chop]]'
+- - Pro
+  - '[[SRD-Ice Punch|Ice Punch]]'
+- - Pro
+  - '[[SRD-Meditate|Meditate]]'
 Number: 125
 ShuffleToken: SRD-electabuzz-ShuffleToken.png
 Type1: Electric
@@ -73,4 +115,14 @@ Weight:
 | From      | [[SRD-Elekid]]     | Level  | Medium  |             |
 | To        | [[SRD-Electivire]] | Trade  |         | Electirizer |
 
-![[SRD-Electabuzz-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Electabuzz.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,50 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-golisopod-HomeSprite.png
 Image: golisopod.png
-Learnset: '[[SRD-Golisopod-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Struggle Bug|Struggle Bug]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Beginner
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - Beginner
+  - '[[SRD-Rock Smash|Rock Smash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-First Impression|First Impression]]'
+- - Amateur
+  - '[[SRD-Spite|Spite]]'
+- - Amateur
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Razor Shell|Razor Shell]]'
+- - Amateur
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Amateur
+  - '[[SRD-Pin Missile|Pin Missile]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Ace
+  - '[[SRD-Liquidation|Liquidation]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Pro
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Pro
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
 Number: 768
 ShuffleToken: SRD-golisopod-ShuffleToken.png
 Type1: Bug
@@ -68,4 +110,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Wimpod]] | Level  | Slow    |
 
-![[SRD-Golisopod-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Golisopod.md"
+flatten moves as T
+where file.path = this.file.path
+```

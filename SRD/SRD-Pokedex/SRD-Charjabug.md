@@ -24,8 +24,48 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-charjabug-HomeSprite.png
 Image: charjabug.png
-Learnset: '[[SRD-Charjabug-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-String Shot|String Shot]]'
+- - Starter
+  - '[[SRD-Vice Grip|Vice Grip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Beginner
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Charge|Charge]]'
+- - Amateur
+  - '[[SRD-Spark|Spark]]'
+- - Amateur
+  - '[[SRD-Acrobatics|Acrobatics]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Dig|Dig]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - Ace
+  - '[[SRD-Discharge|Discharge]]'
+- - Ace
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
+- - Pro
+  - '[[SRD-Charge Beam|Charge Beam]]'
+- - Pro
+  - '[[SRD-Electroweb|Electroweb]]'
 Number: 737
 ShuffleToken: SRD-charjabug-ShuffleToken.png
 Type1: Bug
@@ -73,4 +113,14 @@ Weight:
 | From      | [[SRD-Grubbin]]  | Level  | Fast    |
 | To        | [[SRD-Vikavolt]] | Level  | Medium  |
 
-![[SRD-Charjabug-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Charjabug.md"
+flatten moves as T
+where file.path = this.file.path
+```

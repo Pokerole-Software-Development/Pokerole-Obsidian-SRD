@@ -16,8 +16,50 @@ Height:
 HiddenAbility: Sheer Force
 HomeSprite: SRD-tauros-HomeSprite.png
 Image: tauros.png
-Learnset: '[[SRD-Tauros-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Rage|Rage]]'
+- - Beginner
+  - '[[SRD-Horn Attack|Horn Attack]]'
+- - Beginner
+  - '[[SRD-Pursuit|Pursuit]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Rest|Rest]]'
+- - Amateur
+  - '[[SRD-Payback|Payback]]'
+- - Amateur
+  - '[[SRD-Work Up|Work Up]]'
+- - Amateur
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Swagger|Swagger]]'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - Ace
+  - '[[SRD-Giga Impact|Giga Impact]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Smart Strike|Smart Strike]]'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
+- - Pro
+  - '[[SRD-Sleep Talk|Sleep Talk]]'
 Number: 128
 ShuffleToken: SRD-tauros-ShuffleToken.png
 Type1: Normal
@@ -60,4 +102,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Tauros-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Tauros.md"
+flatten moves as T
+where file.path = this.file.path
+```

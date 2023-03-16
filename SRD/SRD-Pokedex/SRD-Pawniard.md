@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Pressure
 HomeSprite: SRD-pawniard-HomeSprite.png
 Image: pawniard.png
-Learnset: '[[SRD-Pawniard-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Torment|Torment]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Assurance|Assurance]]'
+- - Amateur
+  - '[[SRD-Metal Sound|Metal Sound]]'
+- - Amateur
+  - '[[SRD-Embargo|Embargo]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Ace
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Guillotine|Guillotine]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Pro
+  - '[[SRD-Mean Look|Mean Look]]'
+- - Pro
+  - '[[SRD-Quick Guard|Quick Guard]]'
 Number: 624
 ShuffleToken: SRD-pawniard-ShuffleToken.png
 Type1: Dark
@@ -68,4 +114,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Bisharp]] | Level  | Medium  |
 
-![[SRD-Pawniard-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Pawniard.md"
+flatten moves as T
+where file.path = this.file.path
+```

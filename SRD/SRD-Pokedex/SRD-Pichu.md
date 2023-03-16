@@ -21,8 +21,34 @@ Height:
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-pichu-HomeSprite.png
 Image: pichu.png
-Learnset: '[[SRD-Pichu-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Thunder Shock|Thunder Shock]]'
+- - Starter
+  - '[[SRD-Charm|Charm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Sweet Kiss|Sweet Kiss]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - Amateur
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Amateur
+  - '[[SRD-Charge|Charge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Fake Out|Fake Out]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Disarming Voice|Disarming Voice]]'
 Number: 172
 ShuffleToken: SRD-pichu-ShuffleToken.png
 Type1: Electric
@@ -69,4 +95,14 @@ Weight:
 |:----------|:----------------|:-------|:----------|--------:|
 | To        | [[SRD-Pikachu]] | Stat   | Happiness |       4 |
 
-![[SRD-Pichu-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Pichu.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Serene Grace
 HomeSprite: SRD-deerling-HomeSprite.png
 Image: deerling.png
-Learnset: '[[SRD-Deerling-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Camouflage|Camouflage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Beginner
+  - '[[SRD-Double Kick|Double Kick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Jump Kick|Jump Kick]]'
+- - Amateur
+  - '[[SRD-Aromatherapy|Aromatherapy]]'
+- - Amateur
+  - '[[SRD-Energy Ball|Energy Ball]]'
+- - Amateur
+  - '[[SRD-Charm|Charm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Nature Power|Nature Power]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Solar Beam|Solar Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Agility|Agility]]'
+- - Pro
+  - '[[SRD-Bounce|Bounce]]'
+- - Pro
+  - '[[SRD-Grass Whistle|Grass Whistle]]'
 Number: 585
 ShuffleToken: SRD-deerling-ShuffleToken.png
 Type1: Normal
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Sawsbuck]] | Level  | Medium  |
 
-![[SRD-Deerling-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Deerling.md"
+flatten moves as T
+where file.path = this.file.path
+```

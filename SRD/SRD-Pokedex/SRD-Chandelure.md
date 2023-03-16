@@ -20,8 +20,30 @@ Height:
 HiddenAbility: Infiltrator
 HomeSprite: SRD-chandelure-HomeSprite.png
 Image: chandelure.png
-Learnset: '[[SRD-Chandelure-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Smog|Smog]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Pain Split|Pain Split]]'
+- - Amateur
+  - '[[SRD-Flame Burst|Flame Burst]]'
+- - Amateur
+  - '[[SRD-Hex|Hex]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Power Split|Power Split]]'
+- - Pro
+  - '[[SRD-Acid Armor|Acid Armor]]'
+- - Pro
+  - '[[SRD-Clear Smog|Clear Smog]]'
 Number: 609
 ShuffleToken: SRD-chandelure-ShuffleToken.png
 Type1: Ghost
@@ -68,4 +90,14 @@ Weight:
 |:----------|:----------------|:-------|:-----------|
 | From      | [[SRD-Lampent]] | Stone  | Dusk Stone |
 
-![[SRD-Chandelure-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Chandelure.md"
+flatten moves as T
+where file.path = this.file.path
+```

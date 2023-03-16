@@ -16,8 +16,52 @@ Height:
 HiddenAbility: Cloud Nine
 HomeSprite: SRD-drampa-HomeSprite.png
 Image: drampa.png
-Learnset: '[[SRD-Drampa-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Play Nice|Play Nice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Echoed Voice|Echoed Voice]]'
+- - Beginner
+  - '[[SRD-Twister|Twister]]'
+- - Beginner
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Glare|Glare]]'
+- - Amateur
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Amateur
+  - '[[SRD-Dragon Rage|Dragon Rage]]'
+- - Amateur
+  - '[[SRD-Natural Gift|Natural Gift]]'
+- - Amateur
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Amateur
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Amateur
+  - '[[SRD-Extrasensory|Extrasensory]]'
+- - Amateur
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - Amateur
+  - '[[SRD-Fly|Fly]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Ace
+  - '[[SRD-Outrage|Outrage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Pro
+  - '[[SRD-Play Rough|Play Rough]]'
+- - Pro
+  - '[[SRD-Hurricane|Hurricane]]'
 Number: 780
 ShuffleToken: SRD-drampa-ShuffleToken.png
 Type1: Normal
@@ -60,4 +104,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-![[SRD-Drampa-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Drampa.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Power of Alchemy
 HomeSprite: SRD-grimer-alolan-form-HomeSprite.png
 Image: grimer-alolan-form.png
-Learnset: '[[SRD-Grimer (Alolan Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Poison Gas|Poison Gas]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Harden|Harden]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Disable|Disable]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Acid Spray|Acid Spray]]'
+- - Amateur
+  - '[[SRD-Poison Fang|Poison Fang]]'
+- - Amateur
+  - '[[SRD-Minimize|Minimize]]'
+- - Amateur
+  - '[[SRD-Fling|Fling]]'
+- - Amateur
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Gunk Shot|Gunk Shot]]'
+- - Ace
+  - '[[SRD-Acid Armor|Acid Armor]]'
+- - Ace
+  - '[[SRD-Belch|Belch]]'
+- - Ace
+  - '[[SRD-Memento|Memento]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Assurance|Assurance]]'
+- - Pro
+  - '[[SRD-Clear Smog|Clear Smog]]'
+- - Pro
+  - '[[SRD-Shadow Sneak|Shadow Sneak]]'
 Number: 88
 ShuffleToken: SRD-grimer-alolan-form-ShuffleToken.png
 Type1: Poison
@@ -68,4 +114,14 @@ Weight:
 |:----------|:--------------------------|:-------|:--------|
 | To        | [[SRD-Muk (Alolan Form)]] | Level  | Slow    |
 
-![[SRD-Grimer (Alolan Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Grimer (Alolan Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

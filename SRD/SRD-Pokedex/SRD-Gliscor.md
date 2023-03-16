@@ -20,8 +20,58 @@ Height:
 HiddenAbility: Poison Heal
 HomeSprite: SRD-gliscor-HomeSprite.png
 Image: gliscor.png
-Learnset: '[[SRD-Gliscor-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
+- - Amateur
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Amateur
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Amateur
+  - '[[SRD-Poison Jab|Poison Jab]]'
+- - Amateur
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Acrobatics|Acrobatics]]'
+- - Amateur
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Amateur
+  - '[[SRD-U-Turn|U-Turn]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Screech|Screech]]'
+- - Ace
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - Ace
+  - '[[SRD-Sky Uppercut|Sky Uppercut]]'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Guillotine|Guillotine]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Agility|Agility]]'
+- - Pro
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Pro
+  - '[[SRD-Cross Poison|Cross Poison]]'
 Number: 472
 ShuffleToken: SRD-gliscor-ShuffleToken.png
 Type1: Ground
@@ -68,4 +118,14 @@ Weight:
 |:----------|:---------------|:-------|:-----------|
 | From      | [[SRD-Gligar]] | Level  | Razor Fang |
 
-![[SRD-Gliscor-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Gliscor.md"
+flatten moves as T
+where file.path = this.file.path
+```

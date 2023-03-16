@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Speed Boost
 HomeSprite: SRD-carvanha-HomeSprite.png
 Image: carvanha.png
-Learnset: '[[SRD-Carvanha-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bite|Bite]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Rage|Rage]]'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Swagger|Swagger]]'
+- - Amateur
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Poison Fang|Poison Fang]]'
+- - Ace
+  - '[[SRD-Agility|Agility]]'
+- - Ace
+  - '[[SRD-Assurance|Assurance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Super Fang|Super Fang]]'
+- - Pro
+  - '[[SRD-Dive|Dive]]'
+- - Pro
+  - '[[SRD-Bounce|Bounce]]'
 Number: 318
 ShuffleToken: SRD-carvanha-ShuffleToken.png
 Type1: Water
@@ -68,4 +110,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Sharpedo]] | Level  | Medium  |
 
-![[SRD-Carvanha-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Carvanha.md"
+flatten moves as T
+where file.path = this.file.path
+```

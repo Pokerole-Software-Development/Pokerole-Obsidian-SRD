@@ -20,8 +20,58 @@ Height:
 HiddenAbility: Scrappy
 HomeSprite: SRD-pangoro-HomeSprite.png
 Image: pangoro.png
-Learnset: '[[SRD-Pangoro-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Work Up|Work Up]]'
+- - Beginner
+  - '[[SRD-Arm Thrust|Arm Thrust]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bullet Punch|Bullet Punch]]'
+- - Amateur
+  - '[[SRD-Karate Chop|Karate Chop]]'
+- - Amateur
+  - '[[SRD-Comet Punch|Comet Punch]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Circle Throw|Circle Throw]]'
+- - Amateur
+  - '[[SRD-Vital Throw|Vital Throw]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Entrainment|Entrainment]]'
+- - Ace
+  - '[[SRD-Parting Shot|Parting Shot]]'
+- - Ace
+  - '[[SRD-Sky Uppercut|Sky Uppercut]]'
+- - Ace
+  - '[[SRD-Hammer Arm|Hammer Arm]]'
+- - Ace
+  - '[[SRD-Taunt|Taunt]]'
+- - Ace
+  - '[[SRD-Low Sweep|Low Sweep]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
+- - Pro
+  - '[[SRD-Focus Punch|Focus Punch]]'
+- - Pro
+  - '[[SRD-Drain Punch|Drain Punch]]'
 Number: 675
 ShuffleToken: SRD-pangoro-ShuffleToken.png
 Type1: Fighting
@@ -68,4 +118,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Pancham]] | Level  | Medium  |
 
-![[SRD-Pangoro-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Pangoro.md"
+flatten moves as T
+where file.path = this.file.path
+```

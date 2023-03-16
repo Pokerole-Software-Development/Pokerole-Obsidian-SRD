@@ -24,8 +24,42 @@ Height:
 HiddenAbility: Rough Skin
 HomeSprite: SRD-gabite-HomeSprite.png
 Image: gabite.png
-Learnset: '[[SRD-Gabite-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Beginner
+  - '[[SRD-Tackle|Tackle]]'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Dragon Rage|Dragon Rage]]'
+- - Amateur
+  - '[[SRD-Sandstorm|Sandstorm]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Sand Tomb|Sand Tomb]]'
+- - Amateur
+  - '[[SRD-Dual Chop|Dual Chop]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Dragon Claw|Dragon Claw]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Dig|Dig]]'
+- - Ace
+  - '[[SRD-Dragon Rush|Dragon Rush]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Pro
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Pro
+  - '[[SRD-Draco Meteor|Draco Meteor]]'
 Number: 444
 ShuffleToken: SRD-gabite-ShuffleToken.png
 Type1: Dragon
@@ -73,4 +107,14 @@ Weight:
 | From      | [[SRD-Gible]]    | Level  | Slow    |
 | To        | [[SRD-Garchomp]] | Level  | Slow    |
 
-![[SRD-Gabite-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Gabite.md"
+flatten moves as T
+where file.path = this.file.path
+```

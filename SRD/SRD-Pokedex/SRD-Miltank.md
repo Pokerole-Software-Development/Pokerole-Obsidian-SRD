@@ -16,8 +16,48 @@ Height:
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-miltank-HomeSprite.png
 Image: miltank.png
-Learnset: '[[SRD-Miltank-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - Beginner
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Beginner
+  - '[[SRD-Stomp|Stomp]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Milk Drink|Milk Drink]]'
+- - Amateur
+  - '[[SRD-Bide|Bide]]'
+- - Amateur
+  - '[[SRD-Rollout|Rollout]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Amateur
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Amateur
+  - '[[SRD-Captivate|Captivate]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Gyro Ball|Gyro Ball]]'
+- - Ace
+  - '[[SRD-Heal Bell|Heal Bell]]'
+- - Ace
+  - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Belch|Belch]]'
+- - Pro
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Pro
+  - '[[SRD-Mega Kick|Mega Kick]]'
 Number: 241
 ShuffleToken: SRD-miltank-ShuffleToken.png
 Type1: Normal
@@ -60,4 +100,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Miltank-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Miltank.md"
+flatten moves as T
+where file.path = this.file.path
+```

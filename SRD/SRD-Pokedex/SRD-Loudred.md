@@ -24,8 +24,50 @@ Height:
 HiddenAbility: Scrappy
 HomeSprite: SRD-loudred-HomeSprite.png
 Image: loudred.png
-Learnset: '[[SRD-Loudred-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Uproar|Uproar]]'
+- - Beginner
+  - '[[SRD-Echoed Voice|Echoed Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Howl|Howl]]'
+- - Amateur
+  - '[[SRD-Astonish|Astonish]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Amateur
+  - '[[SRD-Stomp|Stomp]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Roar|Roar]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Synchronoise|Synchronoise]]'
+- - Ace
+  - '[[SRD-Rest|Rest]]'
+- - Ace
+  - '[[SRD-Sleep Talk|Sleep Talk]]'
+- - Ace
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Shock Wave|Shock Wave]]'
+- - Pro
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Pro
+  - '[[SRD-Icy Wind|Icy Wind]]'
 Number: 294
 ShuffleToken: SRD-loudred-ShuffleToken.png
 Type1: Normal
@@ -73,4 +115,14 @@ Weight:
 | From      | [[SRD-Whismur]] | Level  | Medium  |
 | To        | [[SRD-Exploud]] | Level  | Medium  |
 
-![[SRD-Loudred-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Loudred.md"
+flatten moves as T
+where file.path = this.file.path
+```

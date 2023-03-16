@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Regenerator
 HomeSprite: SRD-toxapex-HomeSprite.png
 Image: toxapex.png
-Learnset: '[[SRD-Toxapex-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Poison Sting|Poison Sting]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Toxic Spikes|Toxic Spikes]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Baneful Bunker|Baneful Bunker]]'
+- - Amateur
+  - '[[SRD-Toxic|Toxic]]'
+- - Amateur
+  - '[[SRD-Venoshock|Venoshock]]'
+- - Amateur
+  - '[[SRD-Spike Cannon|Spike Cannon]]'
+- - Amateur
+  - '[[SRD-Pin Missile|Pin Missile]]'
+- - Amateur
+  - '[[SRD-Poison Jab|Poison Jab]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Venom Drench|Venom Drench]]'
+- - Ace
+  - '[[SRD-Recover|Recover]]'
+- - Ace
+  - '[[SRD-Liquidation|Liquidation]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Swallow|Swallow]]'
+- - Pro
+  - '[[SRD-Stockpile|Stockpile]]'
+- - Pro
+  - '[[SRD-Spit Up|Spit Up]]'
 Number: 748
 ShuffleToken: SRD-toxapex-ShuffleToken.png
 Type1: Poison
@@ -68,4 +110,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Mareanie]] | Level  | Medium  |
 
-![[SRD-Toxapex-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Toxapex.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -3,8 +3,8 @@ Accuracy1: Strength
 Accuracy2: Brawl
 AddedEffects:
   FixedDamage:
-    BasedOn: Hp
-    Percentage: 1
+    Target: Targets
+    Type: OneHitKO
 Attributes:
   AccuracyReduction: 5
   PhysicalRanged: true

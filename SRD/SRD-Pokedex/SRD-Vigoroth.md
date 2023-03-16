@@ -24,8 +24,44 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-vigoroth-HomeSprite.png
 Image: vigoroth.png
-Learnset: '[[SRD-Vigoroth-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Encore|Encore]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Reversal|Reversal]]'
+- - Amateur
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Amateur
+  - '[[SRD-Uproar|Uproar]]'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Endure|Endure]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Counter|Counter]]'
+- - Ace
+  - '[[SRD-Chip Away|Chip Away]]'
+- - Ace
+  - '[[SRD-Focus Punch|Focus Punch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Crush Claw|Crush Claw]]'
+- - Pro
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Pro
+  - '[[SRD-Night Slash|Night Slash]]'
 Number: 288
 ShuffleToken: SRD-vigoroth-ShuffleToken.png
 Type1: Normal
@@ -73,4 +109,14 @@ Weight:
 | From      | [[SRD-Slakoth]] | Level  | Slow    |
 | To        | [[SRD-Slaking]] | Level  | Fast    |
 
-![[SRD-Vigoroth-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Vigoroth.md"
+flatten moves as T
+where file.path = this.file.path
+```

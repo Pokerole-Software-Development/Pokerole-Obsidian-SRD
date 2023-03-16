@@ -20,8 +20,60 @@ Height:
 HiddenAbility: Cursed Body
 HomeSprite: SRD-dragapult-HomeSprite.png
 Image: dragapult.png
-Learnset: '[[SRD-Dragapult-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - Starter
+  - '[[SRD-Infestation|Infestation]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Lock-On|Lock-On]]'
+- - Amateur
+  - '[[SRD-Assurance|Assurance]]'
+- - Amateur
+  - '[[SRD-Hex|Hex]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Double Hit|Double Hit]]'
+- - Amateur
+  - '[[SRD-U-Turn|U-Turn]]'
+- - Amateur
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - Amateur
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Amateur
+  - '[[SRD-Dragon Darts|Dragon Darts]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Ace
+  - '[[SRD-Phantom Force|Phantom Force]]'
+- - Ace
+  - '[[SRD-Take Down|Take Down]]'
+- - Ace
+  - '[[SRD-Dragon Rush|Dragon Rush]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Last Resort|Last Resort]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Reflect|Reflect]]'
+- - Pro
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Pro
+  - '[[SRD-Draco Meteor|Draco Meteor]]'
 Number: 887
 ShuffleToken: SRD-dragapult-ShuffleToken.png
 Type1: Dragon
@@ -68,4 +120,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Drakloak]] | Level  | Slow    |
 
-![[SRD-Dragapult-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Dragapult.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,54 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-yamask-galarian-form-HomeSprite.png
 Image: yamask-galarian-form.png
-Learnset: '[[SRD-Yamask (Galarian Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - Starter
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Haze|Haze]]'
+- - Beginner
+  - '[[SRD-Night Shade|Night Shade]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Disable|Disable]]'
+- - Amateur
+  - '[[SRD-Brutal Swing|Brutal Swing]]'
+- - Amateur
+  - '[[SRD-Crafty Shield|Crafty Shield]]'
+- - Amateur
+  - '[[SRD-Hex|Hex]]'
+- - Amateur
+  - '[[SRD-Mean Look|Mean Look]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - Amateur
+  - '[[SRD-Curse|Curse]]'
+- - Amateur
+  - '[[SRD-Shadow Ball|Shadow Ball]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Power Split|Power Split]]'
+- - Ace
+  - '[[SRD-Guard Split|Guard Split]]'
+- - Ace
+  - '[[SRD-Destiny Bond|Destiny Bond]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Sandstorm|Sandstorm]]'
+- - Pro
+  - '[[SRD-Psychic|Psychic]]'
+- - Pro
+  - '[[SRD-Memento|Memento]]'
 Number: 562
 ShuffleToken: SRD-yamask-galarian-form-ShuffleToken.png
 Type1: Ground
@@ -68,4 +114,14 @@ Weight:
 |:----------|:------------------|:--------|:--------------------------|
 | To        | [[SRD-Runerigus]] | Special | Walk near a rune Painting |
 
-![[SRD-Yamask (Galarian Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Yamask (Galarian Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

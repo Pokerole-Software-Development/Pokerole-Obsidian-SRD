@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Keen Eye
 HomeSprite: SRD-skorupi-HomeSprite.png
 Image: skorupi.png
-Learnset: '[[SRD-Skorupi-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bite|Bite]]'
+- - Starter
+  - '[[SRD-Poison Sting|Poison Sting]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Beginner
+  - '[[SRD-Pin Missile|Pin Missile]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Acupressure|Acupressure]]'
+- - Amateur
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Amateur
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - Amateur
+  - '[[SRD-Poison Fang|Poison Fang]]'
+- - Amateur
+  - '[[SRD-Venoshock|Venoshock]]'
+- - Amateur
+  - '[[SRD-Hone Claws|Hone Claws]]'
+- - Amateur
+  - '[[SRD-Toxic Spikes|Toxic Spikes]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Ace
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Fell Stinger|Fell Stinger]]'
+- - Ace
+  - '[[SRD-Cross Poison|Cross Poison]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Agility|Agility]]'
+- - Pro
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Pro
+  - '[[SRD-Poison Tail|Poison Tail]]'
 Number: 451
 ShuffleToken: SRD-skorupi-ShuffleToken.png
 Type1: Poison
@@ -68,4 +116,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Drapion]] | Level  | Medium  |
 
-![[SRD-Skorupi-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Skorupi.md"
+flatten moves as T
+where file.path = this.file.path
+```

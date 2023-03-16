@@ -24,8 +24,48 @@ Height:
 HiddenAbility: Big Pecks
 HomeSprite: SRD-pidgeot-HomeSprite.png
 Image: pidgeot.png
-Learnset: '[[SRD-Pidgeot-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Twister|Twister]]'
+- - Beginner
+  - '[[SRD-Gust|Gust]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Amateur
+  - '[[SRD-Whirlwind|Whirlwind]]'
+- - Amateur
+  - '[[SRD-Ominous Wind|Ominous Wind]]'
+- - Amateur
+  - '[[SRD-Feather Dance|Feather Dance]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Wing Attack|Wing Attack]]'
+- - Amateur
+  - '[[SRD-Mirror Move|Mirror Move]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Roost|Roost]]'
+- - Ace
+  - '[[SRD-Tailwind|Tailwind]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
+- - Pro
+  - '[[SRD-Hurricane|Hurricane]]'
+- - Pro
+  - '[[SRD-Reflect|Reflect]]'
 Number: 18
 ShuffleToken: SRD-pidgeot-ShuffleToken.png
 Type1: Normal
@@ -73,4 +113,14 @@ Weight:
 | From      | [[SRD-Pidgeotto]]           | Level  | Medium  |            |
 | To        | [[SRD-Pidgeot (Mega Form)]] | Mega   |         | Pidgeotite |
 
-![[SRD-Pidgeot-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Pidgeot.md"
+flatten moves as T
+where file.path = this.file.path
+```

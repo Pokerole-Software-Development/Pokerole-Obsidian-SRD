@@ -23,8 +23,52 @@ Height:
 HiddenAbility: Magic Guard
 HomeSprite: SRD-alakazam-HomeSprite.png
 Image: alakazam.png
-Learnset: '[[SRD-Alakazam-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Teleport|Teleport]]'
+- - Starter
+  - '[[SRD-Kinesis|Kinesis]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Confusion|Confusion]]'
+- - Beginner
+  - '[[SRD-Disable|Disable]]'
+- - Beginner
+  - '[[SRD-Miracle Eye|Miracle Eye]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Ally Switch|Ally Switch]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Reflect|Reflect]]'
+- - Amateur
+  - '[[SRD-Telekinesis|Telekinesis]]'
+- - Amateur
+  - '[[SRD-Role Play|Role Play]]'
+- - Amateur
+  - '[[SRD-Psycho Cut|Psycho Cut]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Recover|Recover]]'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Future Sight|Future Sight]]'
+- - Ace
+  - '[[SRD-Trick|Trick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Snatch|Snatch]]'
+- - Pro
+  - '[[SRD-Foul Play|Foul Play]]'
+- - Pro
+  - '[[SRD-Wonder Room|Wonder Room]]'
 Number: 65
 ShuffleToken: SRD-alakazam-ShuffleToken.png
 Type1: Psychic
@@ -72,4 +116,14 @@ Weight:
 | From      | [[SRD-Kadabra]]              | Trade  |           |
 | To        | [[SRD-Alakazam (Mega Form)]] | Mega   | Alakazite |
 
-![[SRD-Alakazam-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Alakazam.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,58 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-heracross-mega-form-HomeSprite.png
 Image: heracross-mega-form.png
-Learnset: '[[SRD-Heracross (Mega Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Endure|Endure]]'
+- - Starter
+  - '[[SRD-Horn Attack|Horn Attack]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - Starter
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Beginner
+  - '[[SRD-Aerial Ace|Aerial Ace]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Arm Thrust|Arm Thrust]]'
+- - Amateur
+  - '[[SRD-Bullet Seed|Bullet Seed]]'
+- - Amateur
+  - '[[SRD-Chip Away|Chip Away]]'
+- - Amateur
+  - '[[SRD-Counter|Counter]]'
+- - Amateur
+  - '[[SRD-Brick Break|Brick Break]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Pin Missile|Pin Missile]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Close Combat|Close Combat]]'
+- - Ace
+  - '[[SRD-Feint|Feint]]'
+- - Ace
+  - '[[SRD-Reversal|Reversal]]'
+- - Ace
+  - '[[SRD-Megahorn|Megahorn]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - Pro
+  - '[[SRD-Vacuum Wave|Vacuum Wave]]'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
 Number: 214
 ShuffleToken: SRD-heracross-mega-form-ShuffleToken.png
 Type1: Bug
@@ -68,4 +118,14 @@ Weight:
 |:----------|:------------------|:-------|:------------|
 | From      | [[SRD-Heracross]] | Mega   | Heracronite |
 
-![[SRD-Heracross (Mega Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Heracross (Mega Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Prankster
 HomeSprite: SRD-sableye-HomeSprite.png
 Image: sableye.png
-Learnset: '[[SRD-Sableye-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - Starter
+  - '[[SRD-Mean Look|Mean Look]]'
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Foresight|Foresight]]'
+- - Beginner
+  - '[[SRD-Night Shade|Night Shade]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Astonish|Astonish]]'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Amateur
+  - '[[SRD-Detect|Detect]]'
+- - Amateur
+  - '[[SRD-Shadow Sneak|Shadow Sneak]]'
+- - Amateur
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Power Gem|Power Gem]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Punishment|Punishment]]'
+- - Ace
+  - '[[SRD-Foul Play|Foul Play]]'
+- - Ace
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Ace
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Shadow Ball|Shadow Ball]]'
+- - Pro
+  - '[[SRD-Moonlight|Moonlight]]'
 Number: 302
 ShuffleToken: SRD-sableye-ShuffleToken.png
 Type1: Dark
@@ -68,4 +116,14 @@ Weight:
 |:----------|:----------------------------|:-------|:----------|
 | To        | [[SRD-Sableye (Mega Form)]] | Mega   | Sablenite |
 
-![[SRD-Sableye-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Sableye.md"
+flatten moves as T
+where file.path = this.file.path
+```

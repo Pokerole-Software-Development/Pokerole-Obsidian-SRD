@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Water Veil
 HomeSprite: SRD-floatzel-HomeSprite.png
 Image: floatzel.png
-Learnset: '[[SRD-Floatzel-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sonic Boom|Sonic Boom]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Water Sport|Water Sport]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Razor Wind|Razor Wind]]'
+- - Amateur
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Amateur
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Amateur
+  - '[[SRD-Swift|Swift]]'
+- - Amateur
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - Amateur
+  - '[[SRD-Double Hit|Double Hit]]'
+- - Amateur
+  - '[[SRD-Whirlpool|Whirlpool]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Ace
+  - '[[SRD-Agility|Agility]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Ice Punch|Ice Punch]]'
+- - Pro
+  - '[[SRD-Iron Tail|Iron Tail]]'
+- - Pro
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
 Number: 419
 ShuffleToken: SRD-floatzel-ShuffleToken.png
 Type1: Water
@@ -68,4 +114,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Buizel]] | Level  | Medium  |
 
-![[SRD-Floatzel-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Floatzel.md"
+flatten moves as T
+where file.path = this.file.path
+```

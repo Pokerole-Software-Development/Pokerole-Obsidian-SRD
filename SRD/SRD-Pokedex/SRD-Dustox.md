@@ -20,8 +20,46 @@ Height:
 HiddenAbility: Compound Eyes
 HomeSprite: SRD-dustox-HomeSprite.png
 Image: dustox.png
-Learnset: '[[SRD-Dustox-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Confusion|Confusion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Gust|Gust]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Moonlight|Moonlight]]'
+- - Amateur
+  - '[[SRD-Venoshock|Venoshock]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Whirlwind|Whirlwind]]'
+- - Amateur
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Amateur
+  - '[[SRD-Silver Wind|Silver Wind]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Toxic|Toxic]]'
+- - Ace
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - Ace
+  - '[[SRD-Quiver Dance|Quiver Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Air Cutter|Air Cutter]]'
+- - Pro
+  - '[[SRD-Swift|Swift]]'
+- - Pro
+  - '[[SRD-Twister|Twister]]'
 Number: 269
 ShuffleToken: SRD-dustox-ShuffleToken.png
 Type1: Bug
@@ -68,4 +106,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Cascoon]] | Level  | Fast    |
 
-![[SRD-Dustox-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Dustox.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Pressure
 HomeSprite: SRD-bisharp-HomeSprite.png
 Image: bisharp.png
-Learnset: '[[SRD-Bisharp-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Torment|Torment]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Assurance|Assurance]]'
+- - Amateur
+  - '[[SRD-Metal Sound|Metal Sound]]'
+- - Amateur
+  - '[[SRD-Embargo|Embargo]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Guillotine|Guillotine]]'
+- - Ace
+  - '[[SRD-Metal Burst|Metal Burst]]'
+- - Ace
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Ace
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Dual Chop|Dual Chop]]'
+- - Pro
+  - '[[SRD-Psycho Cut|Psycho Cut]]'
+- - Pro
+  - '[[SRD-Low Kick|Low Kick]]'
 Number: 625
 ShuffleToken: SRD-bisharp-ShuffleToken.png
 Type1: Dark
@@ -68,4 +116,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Pawniard]] | Level  | Medium  |
 
-![[SRD-Bisharp-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Bisharp.md"
+flatten moves as T
+where file.path = this.file.path
+```

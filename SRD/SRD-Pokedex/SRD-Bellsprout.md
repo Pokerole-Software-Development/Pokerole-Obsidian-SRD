@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Gluttony
 HomeSprite: SRD-bellsprout-HomeSprite.png
 Image: bellsprout.png
-Learnset: '[[SRD-Bellsprout-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Vine Whip|Vine Whip]]'
+- - Starter
+  - '[[SRD-Growth|Growth]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Wrap|Wrap]]'
+- - Beginner
+  - '[[SRD-Sleep Powder|Sleep Powder]]'
+- - Beginner
+  - '[[SRD-Poison Powder|Poison Powder]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Stun Spore|Stun Spore]]'
+- - Amateur
+  - '[[SRD-Acid|Acid]]'
+- - Amateur
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Amateur
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Amateur
+  - '[[SRD-Gastro Acid|Gastro Acid]]'
+- - Amateur
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Slam|Slam]]'
+- - Ace
+  - '[[SRD-Poison Jab|Poison Jab]]'
+- - Ace
+  - '[[SRD-Wring Out|Wring Out]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Ingrain|Ingrain]]'
+- - Pro
+  - '[[SRD-Tickle|Tickle]]'
+- - Pro
+  - '[[SRD-Weather Ball|Weather Ball]]'
 Number: 69
 ShuffleToken: SRD-bellsprout-ShuffleToken.png
 Type1: Grass
@@ -68,4 +110,14 @@ Weight:
 |:----------|:-------------------|:-------|:--------|
 | To        | [[SRD-Weepinbell]] | Level  | Medium  |
 
-![[SRD-Bellsprout-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Bellsprout.md"
+flatten moves as T
+where file.path = this.file.path
+```

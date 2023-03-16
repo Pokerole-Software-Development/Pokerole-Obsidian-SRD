@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Scrappy
 HomeSprite: SRD-farfetchd-galarian-form-HomeSprite.png
 Image: farfetchd-galarian-form.png
-Learnset: '[[SRD-Farfetch''d (Galarian Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - Beginner
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Beginner
+  - '[[SRD-Rock Smash|Rock Smash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Brutal Swing|Brutal Swing]]'
+- - Amateur
+  - '[[SRD-Detect|Detect]]'
+- - Amateur
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Amateur
+  - '[[SRD-Defog|Defog]]'
+- - Amateur
+  - '[[SRD-Brick Break|Brick Break]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Leaf Blade|Leaf Blade]]'
+- - Ace
+  - '[[SRD-Final Gambit|Final Gambit]]'
+- - Ace
+  - '[[SRD-Brave Bird|Brave Bird]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Solar Beam|Solar Beam]]'
+- - Pro
+  - '[[SRD-Steel Wing|Steel Wing]]'
+- - Pro
+  - '[[SRD-Feather Dance|Feather Dance]]'
 Number: 83
 ShuffleToken: SRD-farfetchd-galarian-form-ShuffleToken.png
 Type1: Fighting
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-------------------|:--------|:----------------------------------|
 | To        | [[SRD-Sirfetch'd]] | Special | Score 3 Critical hits in 1 battle |
 
-![[SRD-Farfetch'd (Galarian Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Farfetch'd (Galarian Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

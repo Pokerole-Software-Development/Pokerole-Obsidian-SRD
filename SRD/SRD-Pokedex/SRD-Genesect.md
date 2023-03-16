@@ -16,8 +16,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-genesect-HomeSprite.png
 Image: genesect.png
-Learnset: '[[SRD-Genesect-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Fell Stinger|Fell Stinger]]'
+- - Master
+  - '[[SRD-Techno Blast|Techno Blast]]'
+- - Master
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Master
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
+- - Master
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Master
+  - '[[SRD-Screech|Screech]]'
+- - Master
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Master
+  - '[[SRD-Lock-On|Lock-On]]'
+- - Master
+  - '[[SRD-Flame Charge|Flame Charge]]'
+- - Master
+  - '[[SRD-Magnet Bomb|Magnet Bomb]]'
+- - Master
+  - '[[SRD-Slash|Slash]]'
+- - Master
+  - '[[SRD-Metal Sound|Metal Sound]]'
+- - Master
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Master
+  - '[[SRD-Tri Attack|Tri Attack]]'
+- - Master
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - Master
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - Master
+  - '[[SRD-Simple Beam|Simple Beam]]'
+- - Master
+  - '[[SRD-Zap Cannon|Zap Cannon]]'
+- - Master
+  - '[[SRD-Hyper Beam|Hyper Beam]]'
+- - Master
+  - '[[SRD-Self Destruct|Self Destruct]]'
+- - Master
+  - '[[SRD-Flash Cannon|Flash Cannon]]'
+- - Master
+  - '[[SRD-Bullet Seed|Bullet Seed]]'
 Number: 649
 ShuffleToken: SRD-genesect-ShuffleToken.png
 Type1: Bug
@@ -60,4 +104,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-![[SRD-Genesect-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Genesect.md"
+flatten moves as T
+where file.path = this.file.path
+```

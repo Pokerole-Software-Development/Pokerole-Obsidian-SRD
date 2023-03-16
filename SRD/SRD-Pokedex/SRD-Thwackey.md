@@ -24,8 +24,46 @@ Height:
 HiddenAbility: Grassy Surge
 HomeSprite: SRD-thwackey-HomeSprite.png
 Image: thwackey.png
-Learnset: '[[SRD-Thwackey-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Double Hit|Double Hit]]'
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Branch Poke|Branch Poke]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Uproar|Uproar]]'
+- - Ace
+  - '[[SRD-Wood Hammer|Wood Hammer]]'
+- - Ace
+  - '[[SRD-Endeavor|Endeavor]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Pro
+  - '[[SRD-Acrobatics|Acrobatics]]'
+- - Pro
+  - '[[SRD-Leech Seed|Leech Seed]]'
 Number: 811
 ShuffleToken: SRD-thwackey-ShuffleToken.png
 Type1: Grass
@@ -73,4 +111,14 @@ Weight:
 | From      | [[SRD-Grookey]]   | Level  | Medium  |
 | To        | [[SRD-Rillaboom]] | Level  | Medium  |
 
-![[SRD-Thwackey-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Thwackey.md"
+flatten moves as T
+where file.path = this.file.path
+```

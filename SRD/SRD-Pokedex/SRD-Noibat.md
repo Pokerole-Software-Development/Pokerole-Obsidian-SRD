@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Telepathy
 HomeSprite: SRD-noibat-HomeSprite.png
 Image: noibat.png
-Learnset: '[[SRD-Noibat-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Screech|Screech]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Supersonic|Supersonic]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Absorb|Absorb]]'
+- - Beginner
+  - '[[SRD-Gust|Gust]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Wing Attack|Wing Attack]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Air Cutter|Air Cutter]]'
+- - Amateur
+  - '[[SRD-Roost|Roost]]'
+- - Amateur
+  - '[[SRD-Razor Wind|Razor Wind]]'
+- - Amateur
+  - '[[SRD-Tailwind|Tailwind]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Whirlwind|Whirlwind]]'
+- - Ace
+  - '[[SRD-Super Fang|Super Fang]]'
+- - Ace
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Ace
+  - '[[SRD-Hurricane|Hurricane]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Super Fang|Super Fang]]'
+- - Pro
+  - '[[SRD-Dark Pulse|Dark Pulse]]'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
 Number: 714
 ShuffleToken: SRD-noibat-ShuffleToken.png
 Type1: Flying
@@ -68,4 +114,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Noivern]] | Level  | Slow    |
 
-![[SRD-Noibat-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Noibat.md"
+flatten moves as T
+where file.path = this.file.path
+```

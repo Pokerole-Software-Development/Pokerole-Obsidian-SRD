@@ -16,8 +16,10 @@ Height:
 HiddenAbility: Imposter
 HomeSprite: SRD-ditto-HomeSprite.png
 Image: ditto.png
-Learnset: '[[SRD-Ditto-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Transform|Transform]]'
 Number: 132
 ShuffleToken: SRD-ditto-ShuffleToken.png
 Type1: Normal
@@ -60,4 +62,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Ditto-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Ditto.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Steely Spirit
 HomeSprite: SRD-perrserker-HomeSprite.png
 Image: perrserker.png
-Learnset: '[[SRD-Perrserker-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Scratch|Scratch]]'
+- - Beginner
+  - '[[SRD-Hone Claws|Hone Claws]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Pay Day|Pay Day]]'
+- - Amateur
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Amateur
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Swagger|Swagger]]'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Slash|Slash]]'
+- - Ace
+  - '[[SRD-Metal Sound|Metal Sound]]'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - Ace
+  - '[[SRD-Metal Burst|Metal Burst]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Pro
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Pro
+  - '[[SRD-Throat Chop|Throat Chop]]'
 Number: 863
 ShuffleToken: SRD-perrserker-ShuffleToken.png
 Type1: Steel
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-------------------------------|:-------|:--------|
 | From      | [[SRD-Meowth (Galarian Form)]] | Level  | Medium  |
 
-![[SRD-Perrserker-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Perrserker.md"
+flatten moves as T
+where file.path = this.file.path
+```

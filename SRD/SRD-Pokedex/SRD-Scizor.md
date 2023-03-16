@@ -24,8 +24,58 @@ Height:
 HiddenAbility: Light Metal
 HomeSprite: SRD-scizor-HomeSprite.png
 Image: scizor.png
-Learnset: '[[SRD-Scizor-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - Starter
+  - '[[SRD-Feint|Feint]]'
+- - Starter
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Beginner
+  - '[[SRD-False Swipe|False Swipe]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Amateur
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Amateur
+  - '[[SRD-Razor Wind|Razor Wind]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - Amateur
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Amateur
+  - '[[SRD-Double Hit|Double Hit]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Ace
+  - '[[SRD-Bullet Punch|Bullet Punch]]'
+- - Ace
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Steel Wing|Steel Wing]]'
+- - Pro
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Pro
+  - '[[SRD-Superpower|Superpower]]'
 Number: 212
 ShuffleToken: SRD-scizor-ShuffleToken.png
 Type1: Bug
@@ -73,4 +123,14 @@ Weight:
 | From      | [[SRD-Scyther]]            | Trade  | Metal Coat |
 | To        | [[SRD-Scizor (Mega Form)]] | Mega   | Scizorite  |
 
-![[SRD-Scizor-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Scizor.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -21,8 +21,50 @@ Height:
 HiddenAbility: Tinted Lens
 HomeSprite: SRD-mothim-HomeSprite.png
 Image: mothim.png
-Learnset: '[[SRD-Mothim-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Hidden Power|Hidden Power]]'
+- - Amateur
+  - '[[SRD-Confusion|Confusion]]'
+- - Amateur
+  - '[[SRD-Gust|Gust]]'
+- - Amateur
+  - '[[SRD-Poison Powder|Poison Powder]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Camouflage|Camouflage]]'
+- - Amateur
+  - '[[SRD-Silver Wind|Silver Wind]]'
+- - Amateur
+  - '[[SRD-Air Slash|Air Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - Ace
+  - '[[SRD-Lunge|Lunge]]'
+- - Ace
+  - '[[SRD-Quiver Dance|Quiver Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Electroweb|Electroweb]]'
+- - Pro
+  - '[[SRD-Twister|Twister]]'
+- - Pro
+  - '[[SRD-Giga Drain|Giga Drain]]'
 Number: 414
 ShuffleToken: SRD-mothim-ShuffleToken.png
 Type1: Bug
@@ -69,4 +111,14 @@ Weight:
 |:----------|:--------------|:-------|:--------|:---------|
 | From      | [[SRD-Burmy]] | Level  | Fast    | Male     |
 
-![[SRD-Mothim-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Mothim.md"
+flatten moves as T
+where file.path = this.file.path
+```

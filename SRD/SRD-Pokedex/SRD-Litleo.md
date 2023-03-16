@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Moxie
 HomeSprite: SRD-litleo-HomeSprite.png
 Image: litleo.png
-Learnset: '[[SRD-Litleo-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - Beginner
+  - '[[SRD-Work Up|Work Up]]'
+- - Beginner
+  - '[[SRD-Take Down|Take Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Noble Roar|Noble Roar]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Amateur
+  - '[[SRD-Endeavor|Endeavor]]'
+- - Amateur
+  - '[[SRD-Echoed Voice|Echoed Voice]]'
+- - Amateur
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Ace
+  - '[[SRD-Incinerate|Incinerate]]'
+- - Ace
+  - '[[SRD-Overheat|Overheat]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
+- - Pro
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
 Number: 667
 ShuffleToken: SRD-litleo-ShuffleToken.png
 Type1: Fire
@@ -68,4 +112,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | To        | [[SRD-Pyroar]] | Level  | Medium  |
 
-![[SRD-Litleo-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Litleo.md"
+flatten moves as T
+where file.path = this.file.path
+```

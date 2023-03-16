@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Pressure
 HomeSprite: SRD-wailmer-HomeSprite.png
 Image: wailmer.png
-Learnset: '[[SRD-Wailmer-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Splash|Splash]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Beginner
+  - '[[SRD-Rollout|Rollout]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Whirlpool|Whirlpool]]'
+- - Amateur
+  - '[[SRD-Astonish|Astonish]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Mist|Mist]]'
+- - Amateur
+  - '[[SRD-Dive|Dive]]'
+- - Amateur
+  - '[[SRD-Brine|Brine]]'
+- - Amateur
+  - '[[SRD-Water Spout|Water Spout]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Rest|Rest]]'
+- - Ace
+  - '[[SRD-Bounce|Bounce]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Heavy Slam|Heavy Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Soak|Soak]]'
+- - Pro
+  - '[[SRD-Clear Smog|Clear Smog]]'
+- - Pro
+  - '[[SRD-Defense Curl|Defense Curl]]'
 Number: 320
 ShuffleToken: SRD-wailmer-ShuffleToken.png
 Type1: Water
@@ -68,4 +114,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Wailord]] | Level  | Slow    |
 
-![[SRD-Wailmer-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Wailmer.md"
+flatten moves as T
+where file.path = this.file.path
+```

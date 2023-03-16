@@ -20,8 +20,60 @@ Height:
 HiddenAbility: Hydration
 HomeSprite: SRD-whiscash-HomeSprite.png
 Image: whiscash.png
-Learnset: '[[SRD-Whiscash-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Starter
+  - '[[SRD-Tickle|Tickle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - Beginner
+  - '[[SRD-Water Sport|Water Sport]]'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Belch|Belch]]'
+- - Amateur
+  - '[[SRD-Mud Bomb|Mud Bomb]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Magnitude|Magnitude]]'
+- - Amateur
+  - '[[SRD-Rest|Rest]]'
+- - Amateur
+  - '[[SRD-Snore|Snore]]'
+- - Amateur
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - Ace
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Muddy Water|Muddy Water]]'
+- - Ace
+  - '[[SRD-Future Sight|Future Sight]]'
+- - Ace
+  - '[[SRD-Fissure|Fissure]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - Pro
+  - '[[SRD-Bounce|Bounce]]'
+- - Pro
+  - '[[SRD-Spark|Spark]]'
 Number: 340
 ShuffleToken: SRD-whiscash-ShuffleToken.png
 Type1: Water
@@ -68,4 +120,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Barboach]] | Level  | Medium  |
 
-![[SRD-Whiscash-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Whiscash.md"
+flatten moves as T
+where file.path = this.file.path
+```

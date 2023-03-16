@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Tangled Feet
 HomeSprite: SRD-dodrio-HomeSprite.png
 Image: dodrio.png
-Learnset: '[[SRD-Dodrio-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Rage|Rage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Amateur
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Amateur
+  - '[[SRD-Pluck|Pluck]]'
+- - Amateur
+  - '[[SRD-Uproar|Uproar]]'
+- - Amateur
+  - '[[SRD-Acupressure|Acupressure]]'
+- - Amateur
+  - '[[SRD-Tri Attack|Tri Attack]]'
+- - Amateur
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Jump Kick|Jump Kick]]'
+- - Ace
+  - '[[SRD-Drill Peck|Drill Peck]]'
+- - Ace
+  - '[[SRD-Endeavor|Endeavor]]'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Mirror Move|Mirror Move]]'
+- - Pro
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Pro
+  - '[[SRD-Brave Bird|Brave Bird]]'
 Number: 85
 ShuffleToken: SRD-dodrio-ShuffleToken.png
 Type1: Normal
@@ -68,4 +114,14 @@ Weight:
 |:----------|:--------------|:-------|:--------|
 | From      | [[SRD-Doduo]] | Level  | Slow    |
 
-![[SRD-Dodrio-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Dodrio.md"
+flatten moves as T
+where file.path = this.file.path
+```

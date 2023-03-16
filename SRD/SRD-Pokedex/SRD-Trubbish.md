@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Aftermath
 HomeSprite: SRD-trubbish-HomeSprite.png
 Image: trubbish.png
-Learnset: '[[SRD-Trubbish-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Poison Gas|Poison Gas]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Recycle|Recycle]]'
+- - Beginner
+  - '[[SRD-Toxic Spikes|Toxic Spikes]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Acid Spray|Acid Spray]]'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Sludge|Sludge]]'
+- - Amateur
+  - '[[SRD-Stockpile|Stockpile]]'
+- - Amateur
+  - '[[SRD-Swallow|Swallow]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Sludge Bomb|Sludge Bomb]]'
+- - Amateur
+  - '[[SRD-Clear Smog|Clear Smog]]'
+- - Amateur
+  - '[[SRD-Toxic|Toxic]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Ace
+  - '[[SRD-Belch|Belch]]'
+- - Ace
+  - '[[SRD-Gunk Shot|Gunk Shot]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Drain Punch|Drain Punch]]'
+- - Pro
+  - '[[SRD-Spikes|Spikes]]'
+- - Pro
+  - '[[SRD-Rollout|Rollout]]'
 Number: 568
 ShuffleToken: SRD-trubbish-ShuffleToken.png
 Type1: Poison
@@ -68,4 +116,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Garbodor]] | Level  | Medium  |
 
-![[SRD-Trubbish-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Trubbish.md"
+flatten moves as T
+where file.path = this.file.path
+```

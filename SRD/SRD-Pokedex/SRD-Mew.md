@@ -16,8 +16,36 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-mew-HomeSprite.png
 Image: mew.png
-Learnset: '[[SRD-Mew-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Pound|Pound]]'
+- - Master
+  - '[[SRD-Reflect|Reflect]]'
+- - Master
+  - '[[SRD-Transform|Transform]]'
+- - Master
+  - '[[SRD-Mega Punch|Mega Punch]]'
+- - Master
+  - '[[SRD-Metronome|Metronome]]'
+- - Master
+  - '[[SRD-Psychic|Psychic]]'
+- - Master
+  - '[[SRD-Barrier|Barrier]]'
+- - Master
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Master
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Master
+  - '[[SRD-Me First|Me First]]'
+- - Master
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Master
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Master
+  - '[[SRD-Aura Sphere|Aura Sphere]]'
+- - Master
+  - '[[SRD-Any Move|Any Move]]'
 Number: 151
 ShuffleToken: SRD-mew-ShuffleToken.png
 Type1: Psychic
@@ -60,4 +88,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-![[SRD-Mew-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Mew.md"
+flatten moves as T
+where file.path = this.file.path
+```

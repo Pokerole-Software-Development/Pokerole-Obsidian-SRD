@@ -21,8 +21,54 @@ Height:
 HiddenAbility: Overcoat
 HomeSprite: SRD-wormadam-ground-form-HomeSprite.png
 Image: wormadam-ground-form.png
-Learnset: '[[SRD-Wormadam (Ground Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Captivate|Captivate]]'
+- - Amateur
+  - '[[SRD-Flail|Flail]]'
+- - Amateur
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - Amateur
+  - '[[SRD-Hidden Power|Hidden Power]]'
+- - Amateur
+  - '[[SRD-Confusion|Confusion]]'
+- - Amateur
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - Amateur
+  - '[[SRD-Harden|Harden]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Quiver Dance|Quiver Dance]]'
+- - Ace
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Ace
+  - '[[SRD-Attract|Attract]]'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Fissure|Fissure]]'
+- - Ace
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Synthesis|Synthesis]]'
+- - Pro
+  - '[[SRD-Electroweb|Electroweb]]'
+- - Pro
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
 Number: 413
 ShuffleToken: SRD-wormadam-ground-form-ShuffleToken.png
 Type1: Bug
@@ -69,4 +115,14 @@ Weight:
 |:----------|:--------------|:-------|:--------|:---------|
 | From      | [[SRD-Burmy]] | Level  | Fast    | Female   |
 
-![[SRD-Wormadam (Ground Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Wormadam (Ground Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

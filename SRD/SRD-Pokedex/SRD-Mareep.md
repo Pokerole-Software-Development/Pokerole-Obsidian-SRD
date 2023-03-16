@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Plus
 HomeSprite: SRD-mareep-HomeSprite.png
 Image: mareep.png
-Learnset: '[[SRD-Mareep-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - Beginner
+  - '[[SRD-Thunder Shock|Thunder Shock]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Cotton Spore|Cotton Spore]]'
+- - Amateur
+  - '[[SRD-Charge|Charge]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Electro Ball|Electro Ball]]'
+- - Amateur
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Amateur
+  - '[[SRD-Power Gem|Power Gem]]'
+- - Amateur
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Cotton Guard|Cotton Guard]]'
+- - Ace
+  - '[[SRD-Discharge|Discharge]]'
+- - Ace
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Ace
+  - '[[SRD-Thunder|Thunder]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Agility|Agility]]'
+- - Pro
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
+- - Pro
+  - '[[SRD-Heal Bell|Heal Bell]]'
 Number: 179
 ShuffleToken: SRD-mareep-ShuffleToken.png
 Type1: Electric
@@ -68,4 +112,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Flaaffy]] | Level  | Medium  |
 
-![[SRD-Mareep-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Mareep.md"
+flatten moves as T
+where file.path = this.file.path
+```

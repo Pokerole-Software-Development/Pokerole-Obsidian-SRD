@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Sheer Force
 HomeSprite: SRD-kingler-HomeSprite.png
 Image: kingler.png
-Learnset: '[[SRD-Kingler-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - Starter
+  - '[[SRD-Bubble|Bubble]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - Beginner
+  - '[[SRD-Vice Grip|Vice Grip]]'
+- - Beginner
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Amateur
+  - '[[SRD-Mud Shot|Mud Shot]]'
+- - Amateur
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Amateur
+  - '[[SRD-Stomp|Stomp]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Guillotine|Guillotine]]'
+- - Ace
+  - '[[SRD-Brine|Brine]]'
+- - Ace
+  - '[[SRD-Crabhammer|Crabhammer]]'
+- - Ace
+  - '[[SRD-Flail|Flail]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Agility|Agility]]'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Mimic|Mimic]]'
 Number: 99
 ShuffleToken: SRD-kingler-ShuffleToken.png
 Type1: Water
@@ -68,4 +114,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Krabby]] | Level  | Slow    |
 
-![[SRD-Kingler-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Kingler.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Iron Fist
 HomeSprite: SRD-timburr-HomeSprite.png
 Image: timburr.png
-Learnset: '[[SRD-Timburr-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Beginner
+  - '[[SRD-Bide|Bide]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Low Kick|Low Kick]]'
+- - Amateur
+  - '[[SRD-Rock Throw|Rock Throw]]'
+- - Amateur
+  - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
+- - Amateur
+  - '[[SRD-Chip Away|Chip Away]]'
+- - Amateur
+  - '[[SRD-Bulk Up|Bulk Up]]'
+- - Amateur
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Amateur
+  - '[[SRD-Dynamic Punch|Dynamic Punch]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Hammer Arm|Hammer Arm]]'
+- - Ace
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - Ace
+  - '[[SRD-Focus Punch|Focus Punch]]'
+- - Ace
+  - '[[SRD-Superpower|Superpower]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Foresight|Foresight]]'
+- - Pro
+  - '[[SRD-Mach Punch|Mach Punch]]'
+- - Pro
+  - '[[SRD-Detect|Detect]]'
 Number: 532
 ShuffleToken: SRD-timburr-ShuffleToken.png
 Type1: Fighting
@@ -68,4 +114,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Gurdurr]] | Level  | Medium  |
 
-![[SRD-Timburr-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Timburr.md"
+flatten moves as T
+where file.path = this.file.path
+```

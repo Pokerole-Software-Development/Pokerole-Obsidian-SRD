@@ -15,8 +15,50 @@ Height:
 HiddenAbility: Inner Focus
 HomeSprite: SRD-suicune-HomeSprite.png
 Image: suicune.png
-Learnset: '[[SRD-Suicune-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Bite|Bite]]'
+- - Master
+  - '[[SRD-Leer|Leer]]'
+- - Master
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Master
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Master
+  - '[[SRD-Gust|Gust]]'
+- - Master
+  - '[[SRD-Aurora Beam|Aurora Beam]]'
+- - Master
+  - '[[SRD-Mist|Mist]]'
+- - Master
+  - '[[SRD-Mirror Coat|Mirror Coat]]'
+- - Master
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Master
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Master
+  - '[[SRD-Extrasensory|Extrasensory]]'
+- - Master
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Master
+  - '[[SRD-Calm Mind|Calm Mind]]'
+- - Master
+  - '[[SRD-Blizzard|Blizzard]]'
+- - Master
+  - '[[SRD-Double Team|Double Team]]'
+- - Master
+  - '[[SRD-Substitute|Substitute]]'
+- - Master
+  - '[[SRD-Dive|Dive]]'
+- - Master
+  - '[[SRD-Ominous Wind|Ominous Wind]]'
+- - Master
+  - '[[SRD-Mimic|Mimic]]'
+- - Master
+  - '[[SRD-Curse|Curse]]'
+- - Master
+  - '[[SRD-Sheer Cold|Sheer Cold]]'
 Number: 245
 ShuffleToken: SRD-suicune-ShuffleToken.png
 Type1: Water
@@ -59,4 +101,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-![[SRD-Suicune-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Suicune.md"
+flatten moves as T
+where file.path = this.file.path
+```

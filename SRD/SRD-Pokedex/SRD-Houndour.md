@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Unnerve
 HomeSprite: SRD-houndour-HomeSprite.png
 Image: houndour.png
-Learnset: '[[SRD-Houndour-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Ember|Ember]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Howl|Howl]]'
+- - Beginner
+  - '[[SRD-Smog|Smog]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Roar|Roar]]'
+- - Amateur
+  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+- - Amateur
+  - '[[SRD-Beat Up|Beat Up]]'
+- - Amateur
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Embargo|Embargo]]'
+- - Amateur
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Foul Play|Foul Play]]'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Ace
+  - '[[SRD-Inferno|Inferno]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Super Fang|Super Fang]]'
+- - Pro
+  - '[[SRD-Reversal|Reversal]]'
+- - Pro
+  - '[[SRD-Feint|Feint]]'
 Number: 228
 ShuffleToken: SRD-houndour-ShuffleToken.png
 Type1: Dark
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Houndoom]] | Level  | Medium  |
 
-![[SRD-Houndour-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Houndour.md"
+flatten moves as T
+where file.path = this.file.path
+```

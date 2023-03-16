@@ -19,8 +19,56 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-darmanitan-zen-form-HomeSprite.png
 Image: darmanitan-zen-form.png
-Learnset: '[[SRD-Darmanitan (Zen Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Rollout|Rollout]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Incinerate|Incinerate]]'
+- - Beginner
+  - '[[SRD-Rage|Rage]]'
+- - Beginner
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Swagger|Swagger]]'
+- - Amateur
+  - '[[SRD-Facade|Facade]]'
+- - Amateur
+  - '[[SRD-Fire Punch|Fire Punch]]'
+- - Amateur
+  - '[[SRD-Work Up|Work Up]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Belly Drum|Belly Drum]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - Ace
+  - '[[SRD-Hammer Arm|Hammer Arm]]'
+- - Ace
+  - '[[SRD-Flare Blitz|Flare Blitz]]'
+- - Ace
+  - '[[SRD-Superpower|Superpower]]'
+- - Ace
+  - '[[SRD-Overheat|Overheat]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
+- - Pro
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Pro
+  - '[[SRD-Psychic|Psychic]]'
 Number: 555
 ShuffleToken: SRD-darmanitan-zen-form-ShuffleToken.png
 Type1: Fire
@@ -67,4 +115,14 @@ Weight:
 |:----------|:-------------------|:-------|
 | From      | [[SRD-Darmanitan]] | Form   |
 
-![[SRD-Darmanitan (Zen Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Darmanitan (Zen Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

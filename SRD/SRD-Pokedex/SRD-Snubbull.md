@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Rattled
 HomeSprite: SRD-snubbull-HomeSprite.png
 Image: snubbull.png
-Learnset: '[[SRD-Snubbull-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Charm|Charm]]'
+- - Beginner
+  - '[[SRD-Scary Face|Scary Face]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Amateur
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Amateur
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Lick|Lick]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Rage|Rage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Roar|Roar]]'
+- - Ace
+  - '[[SRD-Play Rough|Play Rough]]'
+- - Ace
+  - '[[SRD-Payback|Payback]]'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Heal Bell|Heal Bell]]'
+- - Pro
+  - '[[SRD-Present|Present]]'
+- - Pro
+  - '[[SRD-Fake Tears|Fake Tears]]'
 Number: 209
 ShuffleToken: SRD-snubbull-ShuffleToken.png
 Type1: Fairy
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Granbull]] | Level  | Medium  |
 
-![[SRD-Snubbull-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Snubbull.md"
+flatten moves as T
+where file.path = this.file.path
+```

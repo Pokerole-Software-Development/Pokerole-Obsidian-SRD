@@ -21,8 +21,34 @@ Height:
 HiddenAbility: Friend Guard
 HomeSprite: SRD-igglybuff-HomeSprite.png
 Image: igglybuff.png
-Learnset: '[[SRD-Igglybuff-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sing|Sing]]'
+- - Starter
+  - '[[SRD-Charm|Charm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Beginner
+  - '[[SRD-Pound|Pound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sweet Kiss|Sweet Kiss]]'
+- - Amateur
+  - '[[SRD-Copycat|Copycat]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Ace
+  - '[[SRD-Bounce|Bounce]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Perish Song|Perish Song]]'
 Number: 174
 ShuffleToken: SRD-igglybuff-ShuffleToken.png
 Type1: Normal
@@ -69,4 +95,14 @@ Weight:
 |:----------|:-------------------|:-------|:----------|--------:|
 | To        | [[SRD-Jigglypuff]] | Stat   | Happiness |       4 |
 
-![[SRD-Igglybuff-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Igglybuff.md"
+flatten moves as T
+where file.path = this.file.path
+```

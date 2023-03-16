@@ -3,6 +3,8 @@ Accuracy1: Dexterity
 Accuracy2: Stealth
 AddedEffects:
   FixedDamage:
+    Target: User
+    Type: Absolute
     Value: 2
 Attributes: {}
 Damage1: ''

@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Gluttony
 HomeSprite: SRD-spoink-HomeSprite.png
 Image: spoink.png
-Learnset: '[[SRD-Spoink-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Splash|Splash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Psywave|Psywave]]'
+- - Beginner
+  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Psych Up|Psych Up]]'
+- - Amateur
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Amateur
+  - '[[SRD-Magic Coat|Magic Coat]]'
+- - Amateur
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Amateur
+  - '[[SRD-Rest|Rest]]'
+- - Amateur
+  - '[[SRD-Power Gem|Power Gem]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psyshock|Psyshock]]'
+- - Ace
+  - '[[SRD-Payback|Payback]]'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Bounce|Bounce]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Role Play|Role Play]]'
+- - Pro
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Pro
+  - '[[SRD-Extrasensory|Extrasensory]]'
 Number: 325
 ShuffleToken: SRD-spoink-ShuffleToken.png
 Type1: Psychic
@@ -68,4 +110,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Grumpig]] | Level  | Medium  |
 
-![[SRD-Spoink-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Spoink.md"
+flatten moves as T
+where file.path = this.file.path
+```

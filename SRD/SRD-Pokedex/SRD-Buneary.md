@@ -21,8 +21,56 @@ Height:
 HiddenAbility: Limber
 HomeSprite: SRD-buneary-HomeSprite.png
 Image: buneary.png
-Learnset: '[[SRD-Buneary-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Starter
+  - '[[SRD-Splash|Splash]]'
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Foresight|Foresight]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Endure|Endure]]'
+- - Beginner
+  - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Frustration|Frustration]]'
+- - Amateur
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Amateur
+  - '[[SRD-Jump Kick|Jump Kick]]'
+- - Amateur
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Dizzy Punch|Dizzy Punch]]'
+- - Amateur
+  - '[[SRD-Charm|Charm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-After You|After You]]'
+- - Ace
+  - '[[SRD-Entrainment|Entrainment]]'
+- - Ace
+  - '[[SRD-Bounce|Bounce]]'
+- - Ace
+  - '[[SRD-Healing Wish|Healing Wish]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Cosmic Power|Cosmic Power]]'
+- - Pro
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Pro
+  - '[[SRD-Sweet Kiss|Sweet Kiss]]'
 Number: 427
 ShuffleToken: SRD-buneary-ShuffleToken.png
 Type1: Normal
@@ -69,4 +117,14 @@ Weight:
 |:----------|:----------------|:-------|:----------|--------:|
 | To        | [[SRD-Lopunny]] | Stat   | Happiness |       4 |
 
-![[SRD-Buneary-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Buneary.md"
+flatten moves as T
+where file.path = this.file.path
+```

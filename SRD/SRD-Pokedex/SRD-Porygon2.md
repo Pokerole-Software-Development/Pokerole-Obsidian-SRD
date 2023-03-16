@@ -24,8 +24,54 @@ Height:
 HiddenAbility: Analytic
 HomeSprite: SRD-porygon2-HomeSprite.png
 Image: porygon2.png
-Learnset: '[[SRD-Porygon2-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Conversion|Conversion]]'
+- - Starter
+  - '[[SRD-Conversion 2|Conversion 2]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Beginner
+  - '[[SRD-Psybeam|Psybeam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Recover|Recover]]'
+- - Amateur
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
+- - Amateur
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Amateur
+  - '[[SRD-Recycle|Recycle]]'
+- - Amateur
+  - '[[SRD-Discharge|Discharge]]'
+- - Amateur
+  - '[[SRD-Lock-On|Lock-On]]'
+- - Amateur
+  - '[[SRD-Tri Attack|Tri Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Magic Coat|Magic Coat]]'
+- - Ace
+  - '[[SRD-Zap Cannon|Zap Cannon]]'
+- - Ace
+  - '[[SRD-Hyper Beam|Hyper Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Gravity|Gravity]]'
+- - Pro
+  - '[[SRD-Pain Split|Pain Split]]'
+- - Pro
+  - '[[SRD-Shock Wave|Shock Wave]]'
 Number: 233
 ShuffleToken: SRD-porygon2-ShuffleToken.png
 Type1: Normal
@@ -73,4 +119,14 @@ Weight:
 | From      | [[SRD-Porygon]]   | Trade  | Upgrade      |
 | To        | [[SRD-Porygon-Z]] | Trade  | Dubious Disc |
 
-![[SRD-Porygon2-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Porygon2.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Shell Armor
 HomeSprite: SRD-torterra-HomeSprite.png
 Image: torterra.png
-Learnset: '[[SRD-Torterra-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Withdraw|Withdraw]]'
+- - Beginner
+  - '[[SRD-Absorb|Absorb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Curse|Curse]]'
+- - Amateur
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Amateur
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Amateur
+  - '[[SRD-Synthesis|Synthesis]]'
+- - Amateur
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Wood Hammer|Wood Hammer]]'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Ace
+  - '[[SRD-Leaf Storm|Leaf Storm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
+- - Pro
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Pro
+  - '[[SRD-Frenzy Plant|Frenzy Plant]]'
 Number: 389
 ShuffleToken: SRD-torterra-ShuffleToken.png
 Type1: Grass
@@ -68,4 +110,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Grotle]] | Level  | Medium  |
 
-![[SRD-Torterra-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Torterra.md"
+flatten moves as T
+where file.path = this.file.path
+```

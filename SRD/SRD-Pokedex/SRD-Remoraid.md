@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Moody
 HomeSprite: SRD-remoraid-HomeSprite.png
 Image: remoraid.png
-Learnset: '[[SRD-Remoraid-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Lock-On|Lock-On]]'
+- - Beginner
+  - '[[SRD-Psybeam|Psybeam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Aurora Beam|Aurora Beam]]'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Amateur
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Amateur
+  - '[[SRD-Ice Beam|Ice Beam]]'
+- - Amateur
+  - '[[SRD-Bullet Seed|Bullet Seed]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Hyper Beam|Hyper Beam]]'
+- - Ace
+  - '[[SRD-Soak|Soak]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Mud Shot|Mud Shot]]'
+- - Pro
+  - '[[SRD-Dive|Dive]]'
+- - Pro
+  - '[[SRD-Supersonic|Supersonic]]'
 Number: 223
 ShuffleToken: SRD-remoraid-ShuffleToken.png
 Type1: Water
@@ -68,4 +108,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Octillery]] | Level  | Medium  |
 
-![[SRD-Remoraid-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Remoraid.md"
+flatten moves as T
+where file.path = this.file.path
+```

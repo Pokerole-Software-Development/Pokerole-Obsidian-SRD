@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Frisk
 HomeSprite: SRD-furret-HomeSprite.png
 Image: furret.png
-Learnset: '[[SRD-Furret-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Foresight|Foresight]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Coil|Coil]]'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Amateur
+  - '[[SRD-Follow Me|Follow Me]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - Amateur
+  - '[[SRD-Rest|Rest]]'
+- - Amateur
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Ace
+  - '[[SRD-Me First|Me First]]'
+- - Ace
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Slash|Slash]]'
+- - Pro
+  - '[[SRD-Reversal|Reversal]]'
+- - Pro
+  - '[[SRD-Iron Tail|Iron Tail]]'
 Number: 162
 ShuffleToken: SRD-furret-ShuffleToken.png
 Type1: Normal
@@ -68,4 +114,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Sentret]] | Level  | Medium  |
 
-![[SRD-Furret-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Furret.md"
+flatten moves as T
+where file.path = this.file.path
+```

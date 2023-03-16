@@ -16,8 +16,54 @@ Height:
 HiddenAbility: Magician
 HomeSprite: SRD-klefki-HomeSprite.png
 Image: klefki.png
-Learnset: '[[SRD-Klefki-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Fairy Lock|Fairy Lock]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fairy Wind|Fairy Wind]]'
+- - Beginner
+  - '[[SRD-Astonish|Astonish]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Metal Sound|Metal Sound]]'
+- - Amateur
+  - '[[SRD-Spikes|Spikes]]'
+- - Amateur
+  - '[[SRD-Draining Kiss|Draining Kiss]]'
+- - Amateur
+  - '[[SRD-Crafty Shield|Crafty Shield]]'
+- - Amateur
+  - '[[SRD-Foul Play|Foul Play]]'
+- - Amateur
+  - '[[SRD-Torment|Torment]]'
+- - Amateur
+  - '[[SRD-Mirror Shot|Mirror Shot]]'
+- - Amateur
+  - '[[SRD-Imprison|Imprison]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Recycle|Recycle]]'
+- - Ace
+  - '[[SRD-Play Rough|Play Rough]]'
+- - Ace
+  - '[[SRD-Magic Room|Magic Room]]'
+- - Ace
+  - '[[SRD-Heal Block|Heal Block]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Switcheroo|Switcheroo]]'
+- - Pro
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
 Number: 707
 ShuffleToken: SRD-klefki-ShuffleToken.png
 Type1: Steel
@@ -60,4 +106,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Klefki-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Klefki.md"
+flatten moves as T
+where file.path = this.file.path
+```

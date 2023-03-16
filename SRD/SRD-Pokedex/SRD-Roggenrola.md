@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Sand Force
 HomeSprite: SRD-roggenrola-HomeSprite.png
 Image: roggenrola.png
-Learnset: '[[SRD-Roggenrola-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Beginner
+  - '[[SRD-Headbutt|Headbutt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - Amateur
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Smack Down|Smack Down]]'
+- - Amateur
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Amateur
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Sandstorm|Sandstorm]]'
+- - Ace
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Autotomize|Autotomize]]'
+- - Pro
+  - '[[SRD-Lock-On|Lock-On]]'
+- - Pro
+  - '[[SRD-Magnitude|Magnitude]]'
 Number: 524
 ShuffleToken: SRD-roggenrola-ShuffleToken.png
 Type1: Rock
@@ -68,4 +108,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Boldore]] | Level  | Medium  |
 
-![[SRD-Roggenrola-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Roggenrola.md"
+flatten moves as T
+where file.path = this.file.path
+```

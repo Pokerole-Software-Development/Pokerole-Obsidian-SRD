@@ -16,8 +16,48 @@ Height:
 HiddenAbility: Light Metal
 HomeSprite: SRD-registeel-HomeSprite.png
 Image: registeel.png
-Learnset: '[[SRD-Registeel-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Stomp|Stomp]]'
+- - Master
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Master
+  - '[[SRD-Charge Beam|Charge Beam]]'
+- - Master
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - Master
+  - '[[SRD-Curse|Curse]]'
+- - Master
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Master
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Master
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Master
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Master
+  - '[[SRD-Flash Cannon|Flash Cannon]]'
+- - Master
+  - '[[SRD-Hammer Arm|Hammer Arm]]'
+- - Master
+  - '[[SRD-Lock-On|Lock-On]]'
+- - Master
+  - '[[SRD-Zap Cannon|Zap Cannon]]'
+- - Master
+  - '[[SRD-Superpower|Superpower]]'
+- - Master
+  - '[[SRD-Hyper Beam|Hyper Beam]]'
+- - Master
+  - '[[SRD-Explosion|Explosion]]'
+- - Master
+  - '[[SRD-Mimic|Mimic]]'
+- - Master
+  - '[[SRD-Block|Block]]'
+- - Master
+  - '[[SRD-Endure|Endure]]'
+- - Master
+  - '[[SRD-Safeguard|Safeguard]]'
 Number: 379
 ShuffleToken: SRD-registeel-ShuffleToken.png
 Type1: Steel
@@ -60,4 +100,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-![[SRD-Registeel-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Registeel.md"
+flatten moves as T
+where file.path = this.file.path
+```

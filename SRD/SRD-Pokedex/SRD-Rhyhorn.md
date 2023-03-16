@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Reckless
 HomeSprite: SRD-rhyhorn-HomeSprite.png
 Image: rhyhorn.png
-Learnset: '[[SRD-Rhyhorn-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Horn Attack|Horn Attack]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Stomp|Stomp]]'
+- - Beginner
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Beginner
+  - '[[SRD-Smack Down|Smack Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - Amateur
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - Amateur
+  - '[[SRD-Chip Away|Chip Away]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Drill Run|Drill Run]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Horn Drill|Horn Drill]]'
+- - Ace
+  - '[[SRD-Megahorn|Megahorn]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
+- - Pro
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Pro
+  - '[[SRD-Fire Fang|Fire Fang]]'
 Number: 111
 ShuffleToken: SRD-rhyhorn-ShuffleToken.png
 Type1: Ground
@@ -68,4 +112,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | To        | [[SRD-Rhydon]] | Level  | Slow    |
 
-![[SRD-Rhyhorn-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Rhyhorn.md"
+flatten moves as T
+where file.path = this.file.path
+```

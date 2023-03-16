@@ -20,8 +20,28 @@ Height:
 HiddenAbility: Wonder Skin
 HomeSprite: SRD-delcatty-HomeSprite.png
 Image: delcatty.png
-Learnset: '[[SRD-Delcatty-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Fake Out|Fake Out]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Attract|Attract]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Sing|Sing]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Pro
+  - '[[SRD-Wish|Wish]]'
+- - Pro
+  - '[[SRD-Cosmic Power|Cosmic Power]]'
 Number: 301
 ShuffleToken: SRD-delcatty-ShuffleToken.png
 Type1: Normal
@@ -68,4 +88,14 @@ Weight:
 |:----------|:---------------|:-------|:-----------|
 | From      | [[SRD-Skitty]] | Stone  | Moon Stone |
 
-![[SRD-Delcatty-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Delcatty.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -19,8 +19,46 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-rotom-fan-form-HomeSprite.png
 Image: rotom-fan-form.png
-Learnset: '[[SRD-Rotom (Fan Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Beginner
+  - '[[SRD-Thunder Shock|Thunder Shock]]'
+- - Beginner
+  - '[[SRD-Uproar|Uproar]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Trick|Trick]]'
+- - Amateur
+  - '[[SRD-Double Team|Double Team]]'
+- - Amateur
+  - '[[SRD-Shock Wave|Shock Wave]]'
+- - Amateur
+  - '[[SRD-Ominous Wind|Ominous Wind]]'
+- - Amateur
+  - '[[SRD-Substitute|Substitute]]'
+- - Amateur
+  - '[[SRD-Electro Ball|Electro Ball]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Hex|Hex]]'
+- - Ace
+  - '[[SRD-Charge|Charge]]'
+- - Ace
+  - '[[SRD-Discharge|Discharge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Air Slash|Air Slash]]'
 Number: 479
 ShuffleToken: SRD-rotom-fan-form-ShuffleToken.png
 Type1: Electric
@@ -67,4 +105,14 @@ Weight:
 |:----------|:--------------|:-------|
 | From      | [[SRD-Rotom]] | Form   |
 
-![[SRD-Rotom (Fan Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Rotom (Fan Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

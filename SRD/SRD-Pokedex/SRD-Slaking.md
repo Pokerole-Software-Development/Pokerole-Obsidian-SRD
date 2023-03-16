@@ -20,8 +20,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-slaking-HomeSprite.png
 Image: slaking.png
-Learnset: '[[SRD-Slaking-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Yawn|Yawn]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Encore|Encore]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Punishment|Punishment]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Slack Off|Slack Off]]'
+- - Amateur
+  - '[[SRD-Covet|Covet]]'
+- - Amateur
+  - '[[SRD-Encore|Encore]]'
+- - Amateur
+  - '[[SRD-Fling|Fling]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Amateur
+  - '[[SRD-Swagger|Swagger]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Hammer Arm|Hammer Arm]]'
+- - Ace
+  - '[[SRD-Chip Away|Chip Away]]'
+- - Ace
+  - '[[SRD-Counter|Counter]]'
+- - Ace
+  - '[[SRD-Flail|Flail]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Block|Block]]'
+- - Pro
+  - '[[SRD-Focus Punch|Focus Punch]]'
+- - Pro
+  - '[[SRD-Gunk Shot|Gunk Shot]]'
 Number: 289
 ShuffleToken: SRD-slaking-ShuffleToken.png
 Type1: Normal
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Vigoroth]] | Level  | Fast    |
 
-![[SRD-Slaking-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Slaking.md"
+flatten moves as T
+where file.path = this.file.path
+```

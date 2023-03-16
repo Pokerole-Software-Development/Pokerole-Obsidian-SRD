@@ -16,8 +16,40 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-stakataka-HomeSprite.png
 Image: stakataka.png
-Learnset: '[[SRD-Stakataka-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Protect|Protect]]'
+- - Master
+  - '[[SRD-Tackle|Tackle]]'
+- - Master
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Master
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Master
+  - '[[SRD-Bide|Bide]]'
+- - Master
+  - '[[SRD-Take Down|Take Down]]'
+- - Master
+  - '[[SRD-Rock Throw|Rock Throw]]'
+- - Master
+  - '[[SRD-Autotomize|Autotomize]]'
+- - Master
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Master
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Master
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - Master
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Master
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Master
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
+- - Master
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Master
+  - '[[SRD-Trick Room|Trick Room]]'
 Number: 805
 ShuffleToken: SRD-stakataka-ShuffleToken.png
 Type1: Rock
@@ -60,4 +92,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-![[SRD-Stakataka-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Stakataka.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,28 @@ Height:
 HiddenAbility: Overgrow
 HomeSprite: SRD-simisage-HomeSprite.png
 Image: simisage.png
-Learnset: '[[SRD-Simisage-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - Beginner
+  - '[[SRD-Lick|Lick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Seed Bomb|Seed Bomb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Synthesis|Synthesis]]'
+- - Pro
+  - '[[SRD-Disarming Voice|Disarming Voice]]'
+- - Pro
+  - '[[SRD-Gunk Shot|Gunk Shot]]'
 Number: 512
 ShuffleToken: SRD-simisage-ShuffleToken.png
 Type1: Grass
@@ -68,4 +88,14 @@ Weight:
 |:----------|:----------------|:-------|:-----------|
 | From      | [[SRD-Pansage]] | Stone  | Leaf Stone |
 
-![[SRD-Simisage-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Simisage.md"
+flatten moves as T
+where file.path = this.file.path
+```

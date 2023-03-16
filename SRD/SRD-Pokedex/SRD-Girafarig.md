@@ -16,8 +16,56 @@ Height:
 HiddenAbility: Sap Sipper
 HomeSprite: SRD-girafarig-HomeSprite.png
 Image: girafarig.png
-Learnset: '[[SRD-Girafarig-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - Starter
+  - '[[SRD-Confusion|Confusion]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Guard Swap|Guard Swap]]'
+- - Starter
+  - '[[SRD-Power Swap|Power Swap]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+- - Beginner
+  - '[[SRD-Stomp|Stomp]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Amateur
+  - '[[SRD-Assurance|Assurance]]'
+- - Amateur
+  - '[[SRD-Double Hit|Double Hit]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Future Sight|Future Sight]]'
+- - Pro
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Pro
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
 Number: 203
 ShuffleToken: SRD-girafarig-ShuffleToken.png
 Type1: Normal
@@ -60,4 +108,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Girafarig-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Girafarig.md"
+flatten moves as T
+where file.path = this.file.path
+```

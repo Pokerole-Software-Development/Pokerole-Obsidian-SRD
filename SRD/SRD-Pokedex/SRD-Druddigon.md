@@ -16,8 +16,54 @@ Height:
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-druddigon-HomeSprite.png
 Image: druddigon.png
-Learnset: '[[SRD-Druddigon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Hone Claws|Hone Claws]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Dragon Rage|Dragon Rage]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Dragon Claw|Dragon Claw]]'
+- - Amateur
+  - '[[SRD-Chip Away|Chip Away]]'
+- - Amateur
+  - '[[SRD-Revenge|Revenge]]'
+- - Amateur
+  - '[[SRD-Night Slash|Night Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Dragon Tail|Dragon Tail]]'
+- - Ace
+  - '[[SRD-Rock Climb|Rock Climb]]'
+- - Ace
+  - '[[SRD-Superpower|Superpower]]'
+- - Ace
+  - '[[SRD-Outrage|Outrage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Pro
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
+- - Pro
+  - '[[SRD-Poison Tail|Poison Tail]]'
 Number: 621
 ShuffleToken: SRD-druddigon-ShuffleToken.png
 Type1: Dragon
@@ -60,4 +106,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-![[SRD-Druddigon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Druddigon.md"
+flatten moves as T
+where file.path = this.file.path
+```

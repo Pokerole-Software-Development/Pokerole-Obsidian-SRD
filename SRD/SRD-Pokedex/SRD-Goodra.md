@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Gooey
 HomeSprite: SRD-goodra-HomeSprite.png
 Image: goodra.png
-Learnset: '[[SRD-Goodra-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bubble|Bubble]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Protect|Protect]]'
+- - Beginner
+  - '[[SRD-Absorb|Absorb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Feint|Feint]]'
+- - Amateur
+  - '[[SRD-Bide|Bide]]'
+- - Amateur
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Amateur
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Amateur
+  - '[[SRD-Flail|Flail]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Amateur
+  - '[[SRD-Muddy Water|Muddy Water]]'
+- - Amateur
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - Amateur
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Power Whip|Power Whip]]'
+- - Ace
+  - '[[SRD-Outrage|Outrage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Shock Wave|Shock Wave]]'
+- - Pro
+  - '[[SRD-Superpower|Superpower]]'
+- - Pro
+  - '[[SRD-Draco Meteor|Draco Meteor]]'
 Number: 706
 ShuffleToken: SRD-goodra-ShuffleToken.png
 Type1: Dragon
@@ -68,4 +112,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Sliggoo]] | Level  | Medium  |
 
-![[SRD-Goodra-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Goodra.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Cursed Body
 HomeSprite: SRD-polteageist-HomeSprite.png
 Image: polteageist.png
-Learnset: '[[SRD-Polteageist-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Teatime|Teatime]]'
+- - Starter
+  - '[[SRD-Withdraw|Withdraw]]'
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Beginner
+  - '[[SRD-Aromatic Mist|Aromatic Mist]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Amateur
+  - '[[SRD-Shadow Ball|Shadow Ball]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Ace
+  - '[[SRD-Shell Smash|Shell Smash]]'
+- - Ace
+  - '[[SRD-Memento|Memento]]'
+- - Ace
+  - '[[SRD-Strength Sap|Strength Sap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Poltergeist|Poltergeist]]'
+- - Pro
+  - '[[SRD-Stored Power|Stored Power]]'
+- - Pro
+  - '[[SRD-Self Destruct|Self Destruct]]'
 Number: 855
 ShuffleToken: SRD-polteageist-ShuffleToken.png
 Type1: Ghost
@@ -68,4 +108,14 @@ Weight:
 |:----------|:-----------------|:-------|:------------|
 | From      | [[SRD-Sinistea]] | Item   | Cracked Pot |
 
-![[SRD-Polteageist-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Polteageist.md"
+flatten moves as T
+where file.path = this.file.path
+```

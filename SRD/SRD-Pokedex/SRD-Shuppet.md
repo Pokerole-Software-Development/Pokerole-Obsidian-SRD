@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Cursed Body
 HomeSprite: SRD-shuppet-HomeSprite.png
 Image: shuppet.png
-Learnset: '[[SRD-Shuppet-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Knock Off|Knock Off]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Screech|Screech]]'
+- - Beginner
+  - '[[SRD-Night Shade|Night Shade]]'
+- - Beginner
+  - '[[SRD-Spite|Spite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Will-O-Wisp|Will-O-Wisp]]'
+- - Amateur
+  - '[[SRD-Shadow Sneak|Shadow Sneak]]'
+- - Amateur
+  - '[[SRD-Curse|Curse]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Hex|Hex]]'
+- - Amateur
+  - '[[SRD-Shadow Ball|Shadow Ball]]'
+- - Amateur
+  - '[[SRD-Snatch|Snatch]]'
+- - Amateur
+  - '[[SRD-Embargo|Embargo]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Ace
+  - '[[SRD-Grudge|Grudge]]'
+- - Ace
+  - '[[SRD-Trick|Trick]]'
+- - Ace
+  - '[[SRD-Phantom Force|Phantom Force]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Pro
+  - '[[SRD-Role Play|Role Play]]'
+- - Pro
+  - '[[SRD-Destiny Bond|Destiny Bond]]'
 Number: 353
 ShuffleToken: SRD-shuppet-ShuffleToken.png
 Type1: Ghost
@@ -68,4 +114,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Banette]] | Level  | Medium  |
 
-![[SRD-Shuppet-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Shuppet.md"
+flatten moves as T
+where file.path = this.file.path
+```

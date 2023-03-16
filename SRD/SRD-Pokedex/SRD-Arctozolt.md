@@ -16,8 +16,48 @@ Height:
 HiddenAbility: Slush Rush
 HomeSprite: SRD-arctozolt-HomeSprite.png
 Image: arctozolt.png
-Learnset: '[[SRD-Arctozolt-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Powder Snow|Powder Snow]]'
+- - Starter
+  - '[[SRD-Thunder Shock|Thunder Shock]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Charge|Charge]]'
+- - Beginner
+  - '[[SRD-Echoed Voice|Echoed Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Pluck|Pluck]]'
+- - Amateur
+  - '[[SRD-Avalanche|Avalanche]]'
+- - Amateur
+  - '[[SRD-Freeze Dry|Freeze Dry]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - Amateur
+  - '[[SRD-Discharge|Discharge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Bolt Beak|Bolt Beak]]'
+- - Ace
+  - '[[SRD-Icicle Crash|Icicle Crash]]'
+- - Ace
+  - '[[SRD-Blizzard|Blizzard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Hail|Hail]]'
+- - Pro
+  - '[[SRD-Wild Charge|Wild Charge]]'
+- - Pro
+  - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
 Number: 881
 ShuffleToken: SRD-arctozolt-ShuffleToken.png
 Type1: Electric
@@ -60,4 +100,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-![[SRD-Arctozolt-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Arctozolt.md"
+flatten moves as T
+where file.path = this.file.path
+```

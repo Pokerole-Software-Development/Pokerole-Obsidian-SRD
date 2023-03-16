@@ -20,8 +20,24 @@ Height:
 HiddenAbility: Friend Guard
 HomeSprite: SRD-scatterbug-HomeSprite.png
 Image: scatterbug.png
-Learnset: '[[SRD-Scatterbug-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-String Shot|String Shot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Stun Spore|Stun Spore]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Rage Powder|Rage Powder]]'
 Number: 664
 ShuffleToken: SRD-scatterbug-ShuffleToken.png
 Type1: Bug
@@ -68,4 +84,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | To        | [[SRD-Spewpa]] | Level  | Fast    |
 
-![[SRD-Scatterbug-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Scatterbug.md"
+flatten moves as T
+where file.path = this.file.path
+```

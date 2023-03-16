@@ -20,8 +20,28 @@ Height:
 HiddenAbility: Cursed Body
 HomeSprite: SRD-dreepy-HomeSprite.png
 Image: dreepy.png
-Learnset: '[[SRD-Dreepy-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - Starter
+  - '[[SRD-Infestation|Infestation]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Substitute|Substitute]]'
+- - Pro
+  - '[[SRD-Dragon Tail|Dragon Tail]]'
+- - Pro
+  - '[[SRD-Double Team|Double Team]]'
 Number: 885
 ShuffleToken: SRD-dreepy-ShuffleToken.png
 Type1: Dragon
@@ -68,4 +88,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Drakloak]] | Level  | Slow    |
 
-![[SRD-Dreepy-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Dreepy.md"
+flatten moves as T
+where file.path = this.file.path
+```

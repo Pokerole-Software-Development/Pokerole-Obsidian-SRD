@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Telepathy
 HomeSprite: SRD-meditite-HomeSprite.png
 Image: meditite.png
-Learnset: '[[SRD-Meditite-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bide|Bide]]'
+- - Starter
+  - '[[SRD-Detect|Detect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Confusion|Confusion]]'
+- - Beginner
+  - '[[SRD-Meditate|Meditate]]'
+- - Beginner
+  - '[[SRD-Endure|Endure]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Hidden Power|Hidden Power]]'
+- - Amateur
+  - '[[SRD-Mind Reader|Mind Reader]]'
+- - Amateur
+  - '[[SRD-Feint|Feint]]'
+- - Amateur
+  - '[[SRD-Calm Mind|Calm Mind]]'
+- - Amateur
+  - '[[SRD-Force Palm|Force Palm]]'
+- - Amateur
+  - '[[SRD-High Jump Kick|High Jump Kick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psych Up|Psych Up]]'
+- - Ace
+  - '[[SRD-Acupressure|Acupressure]]'
+- - Ace
+  - '[[SRD-Power Trick|Power Trick]]'
+- - Ace
+  - '[[SRD-Reversal|Reversal]]'
+- - Ace
+  - '[[SRD-Recover|Recover]]'
+- - Ace
+  - '[[SRD-Counter|Counter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Foresight|Foresight]]'
+- - Pro
+  - '[[SRD-Guard Swap|Guard Swap]]'
+- - Pro
+  - '[[SRD-Power Swap|Power Swap]]'
 Number: 307
 ShuffleToken: SRD-meditite-ShuffleToken.png
 Type1: Fighting
@@ -68,4 +116,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Medicham]] | Level  | Medium  |
 
-![[SRD-Meditite-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Meditite.md"
+flatten moves as T
+where file.path = this.file.path
+```

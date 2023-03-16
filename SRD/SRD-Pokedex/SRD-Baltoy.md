@@ -20,8 +20,56 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-baltoy-HomeSprite.png
 Image: baltoy.png
-Learnset: '[[SRD-Baltoy-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Confusion|Confusion]]'
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - Beginner
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Beginner
+  - '[[SRD-Rock Tomb|Rock Tomb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Heal Block|Heal Block]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Power Trick|Power Trick]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Self Destruct|Self Destruct]]'
+- - Amateur
+  - '[[SRD-Guard Split|Guard Split]]'
+- - Amateur
+  - '[[SRD-Cosmic Power|Cosmic Power]]'
+- - Amateur
+  - '[[SRD-Power Split|Power Split]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Extrasensory|Extrasensory]]'
+- - Ace
+  - '[[SRD-Earth Power|Earth Power]]'
+- - Ace
+  - '[[SRD-Sandstorm|Sandstorm]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Gravity|Gravity]]'
+- - Pro
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Pro
+  - '[[SRD-Trick|Trick]]'
 Number: 343
 ShuffleToken: SRD-baltoy-ShuffleToken.png
 Type1: Ground
@@ -68,4 +116,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Claydol]] | Level  | Medium  |
 
-![[SRD-Baltoy-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Baltoy.md"
+flatten moves as T
+where file.path = this.file.path
+```

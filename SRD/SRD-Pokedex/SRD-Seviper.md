@@ -16,8 +16,62 @@ Height:
 HiddenAbility: Infiltrator
 HomeSprite: SRD-seviper-HomeSprite.png
 Image: seviper.png
-Learnset: '[[SRD-Seviper-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Wrap|Wrap]]'
+- - Starter
+  - '[[SRD-Swagger|Swagger]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Lick|Lick]]'
+- - Beginner
+  - '[[SRD-Feint|Feint]]'
+- - Beginner
+  - '[[SRD-Poison Tail|Poison Tail]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Venoshock|Venoshock]]'
+- - Amateur
+  - '[[SRD-Glare|Glare]]'
+- - Amateur
+  - '[[SRD-Poison Fang|Poison Fang]]'
+- - Amateur
+  - '[[SRD-Venom Drench|Venom Drench]]'
+- - Amateur
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Amateur
+  - '[[SRD-Gastro Acid|Gastro Acid]]'
+- - Amateur
+  - '[[SRD-Belch|Belch]]'
+- - Amateur
+  - '[[SRD-Haze|Haze]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Poison Jab|Poison Jab]]'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Coil|Coil]]'
+- - Ace
+  - '[[SRD-Wring Out|Wring Out]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Pro
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Pro
+  - '[[SRD-Iron Tail|Iron Tail]]'
 Number: 336
 ShuffleToken: SRD-seviper-ShuffleToken.png
 Type1: Poison
@@ -60,4 +114,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Seviper-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Seviper.md"
+flatten moves as T
+where file.path = this.file.path
+```

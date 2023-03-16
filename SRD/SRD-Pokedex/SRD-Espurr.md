@@ -20,8 +20,40 @@ Height:
 HiddenAbility: Own Tempo
 HomeSprite: SRD-espurr-HomeSprite.png
 Image: espurr.png
-Learnset: '[[SRD-Espurr-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Covet|Covet]]'
+- - Beginner
+  - '[[SRD-Confusion|Confusion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Fake Out|Fake Out]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Disarming Voice|Disarming Voice]]'
+- - Ace
+  - '[[SRD-Psyshock|Psyshock]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Pro
+  - '[[SRD-Barrier|Barrier]]'
+- - Pro
+  - '[[SRD-Yawn|Yawn]]'
 Number: 677
 ShuffleToken: SRD-espurr-ShuffleToken.png
 Type1: Psychic
@@ -68,4 +100,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Meowstic]] | Level  | Medium  |
 
-![[SRD-Espurr-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Espurr.md"
+flatten moves as T
+where file.path = this.file.path
+```

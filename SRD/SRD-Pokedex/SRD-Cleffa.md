@@ -21,8 +21,36 @@ Height:
 HiddenAbility: Friend Guard
 HomeSprite: SRD-cleffa-HomeSprite.png
 Image: cleffa.png
-Learnset: '[[SRD-Cleffa-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Charm|Charm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Encore|Encore]]'
+- - Beginner
+  - '[[SRD-Sweet Kiss|Sweet Kiss]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sing|Sing]]'
+- - Amateur
+  - '[[SRD-Copycat|Copycat]]'
+- - Amateur
+  - '[[SRD-Tickle|Tickle]]'
+- - Amateur
+  - '[[SRD-Fake Tears|Fake Tears]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Magical Leaf|Magical Leaf]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Wonder Room|Wonder Room]]'
 Number: 173
 ShuffleToken: SRD-cleffa-ShuffleToken.png
 Type1: Fairy
@@ -69,4 +97,14 @@ Weight:
 |:----------|:-----------------|:-------|:----------|--------:|
 | To        | [[SRD-Clefairy]] | Stat   | Happiness |       4 |
 
-![[SRD-Cleffa-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Cleffa.md"
+flatten moves as T
+where file.path = this.file.path
+```

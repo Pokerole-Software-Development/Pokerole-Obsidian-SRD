@@ -20,8 +20,46 @@ Height:
 HiddenAbility: Bulletproof
 HomeSprite: SRD-wooloo-HomeSprite.png
 Image: wooloo.png
-Learnset: '[[SRD-Wooloo-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Beginner
+  - '[[SRD-Copycat|Copycat]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Guard Split|Guard Split]]'
+- - Amateur
+  - '[[SRD-Double Kick|Double Kick]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Guard Swap|Guard Swap]]'
+- - Ace
+  - '[[SRD-Reversal|Reversal]]'
+- - Ace
+  - '[[SRD-Cotton Guard|Cotton Guard]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Substitute|Substitute]]'
+- - Pro
+  - '[[SRD-Rest|Rest]]'
+- - Pro
+  - '[[SRD-Sleep Talk|Sleep Talk]]'
 Number: 831
 ShuffleToken: SRD-wooloo-ShuffleToken.png
 Type1: Normal
@@ -68,4 +106,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Dubwool]] | Level  | Medium  |
 
-![[SRD-Wooloo-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Wooloo.md"
+flatten moves as T
+where file.path = this.file.path
+```

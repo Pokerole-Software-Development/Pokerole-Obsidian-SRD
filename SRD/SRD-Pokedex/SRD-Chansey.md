@@ -25,8 +25,54 @@ Height:
 HiddenAbility: Healer
 HomeSprite: SRD-chansey-HomeSprite.png
 Image: chansey.png
-Learnset: '[[SRD-Chansey-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Refresh|Refresh]]'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - Beginner
+  - '[[SRD-Soft Boiled|Soft Boiled]]'
+- - Beginner
+  - '[[SRD-Double Slap|Double Slap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Heal Pulse|Heal Pulse]]'
+- - Amateur
+  - '[[SRD-Bestow|Bestow]]'
+- - Amateur
+  - '[[SRD-Minimize|Minimize]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Sing|Sing]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Fling|Fling]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Egg Bomb|Egg Bomb]]'
+- - Ace
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Ace
+  - '[[SRD-Healing Wish|Healing Wish]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Heal Bell|Heal Bell]]'
+- - Pro
+  - '[[SRD-Seismic Toss|Seismic Toss]]'
+- - Pro
+  - '[[SRD-Present|Present]]'
 Number: 113
 ShuffleToken: SRD-chansey-ShuffleToken.png
 Type1: Normal
@@ -74,4 +120,14 @@ Weight:
 | From      | [[SRD-Happiny]] | Level  | Oval Stone |           |         |
 | To        | [[SRD-Blissey]] | Stat   |            | Happiness | 5.0     |
 
-![[SRD-Chansey-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Chansey.md"
+flatten moves as T
+where file.path = this.file.path
+```

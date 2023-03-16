@@ -20,8 +20,44 @@ Height:
 HiddenAbility: Gooey
 HomeSprite: SRD-goomy-HomeSprite.png
 Image: goomy.png
-Learnset: '[[SRD-Goomy-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Bubble|Bubble]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Absorb|Absorb]]'
+- - Beginner
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bide|Bide]]'
+- - Amateur
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Amateur
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Flail|Flail]]'
+- - Ace
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Ace
+  - '[[SRD-Muddy Water|Muddy Water]]'
+- - Ace
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Pro
+  - '[[SRD-Acid Armor|Acid Armor]]'
+- - Pro
+  - '[[SRD-Counter|Counter]]'
 Number: 704
 ShuffleToken: SRD-goomy-ShuffleToken.png
 Type1: Dragon
@@ -68,4 +104,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Sliggoo]] | Level  | Medium  |
 
-![[SRD-Goomy-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Goomy.md"
+flatten moves as T
+where file.path = this.file.path
+```

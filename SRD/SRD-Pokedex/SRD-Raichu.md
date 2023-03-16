@@ -20,8 +20,30 @@ Height:
 HiddenAbility: Lightning Rod
 HomeSprite: SRD-raichu-HomeSprite.png
 Image: raichu.png
-Learnset: '[[SRD-Raichu-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Thunder Shock|Thunder Shock]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Thunderbolt|Thunderbolt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Fake Out|Fake Out]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Wish|Wish]]'
+- - Pro
+  - '[[SRD-Volt Tackle|Volt Tackle]]'
 Number: 26
 ShuffleToken: SRD-raichu-ShuffleToken.png
 Type1: Electric
@@ -68,4 +90,14 @@ Weight:
 |:----------|:----------------|:-------|:--------------|
 | From      | [[SRD-Pikachu]] | Stone  | Thunder Stone |
 
-![[SRD-Raichu-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Raichu.md"
+flatten moves as T
+where file.path = this.file.path
+```

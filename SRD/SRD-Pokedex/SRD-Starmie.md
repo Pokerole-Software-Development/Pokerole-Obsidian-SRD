@@ -20,8 +20,36 @@ Height:
 HiddenAbility: Analytic
 HomeSprite: SRD-starmie-HomeSprite.png
 Image: starmie.png
-Learnset: '[[SRD-Starmie-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Spotlight|Spotlight]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Beginner
+  - '[[SRD-Recover|Recover]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Swift|Swift]]'
+- - Amateur
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Pro
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - Pro
+  - '[[SRD-Twister|Twister]]'
 Number: 121
 ShuffleToken: SRD-starmie-ShuffleToken.png
 Type1: Water
@@ -68,4 +96,14 @@ Weight:
 |:----------|:---------------|:-------|:------------|
 | From      | [[SRD-Staryu]] | Stone  | Water Stone |
 
-![[SRD-Starmie-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Starmie.md"
+flatten moves as T
+where file.path = this.file.path
+```

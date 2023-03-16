@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Unburden
 HomeSprite: SRD-treecko-HomeSprite.png
 Image: treecko.png
-Learnset: '[[SRD-Treecko-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Absorb|Absorb]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Pursuit|Pursuit]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Detect|Detect]]'
+- - Ace
+  - '[[SRD-Quick Guard|Quick Guard]]'
+- - Ace
+  - '[[SRD-Endeavor|Endeavor]]'
+- - Ace
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Ace
+  - '[[SRD-Energy Ball|Energy Ball]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Iron Tail|Iron Tail]]'
+- - Pro
+  - '[[SRD-Bullet Seed|Bullet Seed]]'
+- - Pro
+  - '[[SRD-Grass Pledge|Grass Pledge]]'
 Number: 252
 ShuffleToken: SRD-treecko-ShuffleToken.png
 Type1: Grass
@@ -68,4 +110,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Grovyle]] | Level  | Medium  |
 
-![[SRD-Treecko-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Treecko.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -19,8 +19,46 @@ Height:
 HiddenAbility: Defiant
 HomeSprite: SRD-thundurus-therian-form-HomeSprite.png
 Image: thundurus-therian-form.png
-Learnset: '[[SRD-Thundurus (Therian Form)-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Uproar|Uproar]]'
+- - Master
+  - '[[SRD-Astonish|Astonish]]'
+- - Master
+  - '[[SRD-Thunder Shock|Thunder Shock]]'
+- - Master
+  - '[[SRD-Swagger|Swagger]]'
+- - Master
+  - '[[SRD-Bite|Bite]]'
+- - Master
+  - '[[SRD-Revenge|Revenge]]'
+- - Master
+  - '[[SRD-Shock Wave|Shock Wave]]'
+- - Master
+  - '[[SRD-Heal Block|Heal Block]]'
+- - Master
+  - '[[SRD-Agility|Agility]]'
+- - Master
+  - '[[SRD-Discharge|Discharge]]'
+- - Master
+  - '[[SRD-Crunch|Crunch]]'
+- - Master
+  - '[[SRD-Charge|Charge]]'
+- - Master
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Master
+  - '[[SRD-Thunder|Thunder]]'
+- - Master
+  - '[[SRD-Dark Pulse|Dark Pulse]]'
+- - Master
+  - '[[SRD-Hammer Arm|Hammer Arm]]'
+- - Master
+  - '[[SRD-Thrash|Thrash]]'
+- - Master
+  - '[[SRD-Ion Deluge|Ion Deluge]]'
+- - Master
+  - '[[SRD-Electric Terrain|Electric Terrain]]'
 Number: 642
 ShuffleToken: SRD-thundurus-therian-form-ShuffleToken.png
 Type1: Electric
@@ -67,4 +105,14 @@ Weight:
 |:----------|:------------------|:-------|
 | From      | [[SRD-Thundurus]] | Form   |
 
-![[SRD-Thundurus (Therian Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Thundurus (Therian Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

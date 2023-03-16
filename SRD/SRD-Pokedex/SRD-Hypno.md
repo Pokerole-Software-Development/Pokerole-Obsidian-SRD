@@ -20,8 +20,60 @@ Height:
 HiddenAbility: Inner Focus
 HomeSprite: SRD-hypno-HomeSprite.png
 Image: hypno.png
-Learnset: '[[SRD-Hypno-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Confusion|Confusion]]'
+- - Beginner
+  - '[[SRD-Disable|Disable]]'
+- - Beginner
+  - '[[SRD-Poison Gas|Poison Gas]]'
+- - Beginner
+  - '[[SRD-Meditate|Meditate]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Nightmare|Nightmare]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Switcheroo|Switcheroo]]'
+- - Amateur
+  - '[[SRD-Swagger|Swagger]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Psych Up|Psych Up]]'
+- - Amateur
+  - '[[SRD-Synchronoise|Synchronoise]]'
+- - Amateur
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Psyshock|Psyshock]]'
+- - Ace
+  - '[[SRD-Future Sight|Future Sight]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - Pro
+  - '[[SRD-Substitute|Substitute]]'
+- - Pro
+  - '[[SRD-Metronome|Metronome]]'
 Number: 97
 ShuffleToken: SRD-hypno-ShuffleToken.png
 Type1: Psychic
@@ -68,4 +120,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Drowzee]] | Level  | Slow    |
 
-![[SRD-Hypno-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Hypno.md"
+flatten moves as T
+where file.path = this.file.path
+```

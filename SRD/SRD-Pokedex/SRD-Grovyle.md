@@ -24,8 +24,54 @@ Height:
 HiddenAbility: Unburden
 HomeSprite: SRD-grovyle-HomeSprite.png
 Image: grovyle.png
-Learnset: '[[SRD-Grovyle-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Absorb|Absorb]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Pursuit|Pursuit]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Amateur
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Leaf Blade|Leaf Blade]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - Amateur
+  - '[[SRD-False Swipe|False Swipe]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - Ace
+  - '[[SRD-Quick Guard|Quick Guard]]'
+- - Ace
+  - '[[SRD-Detect|Detect]]'
+- - Ace
+  - '[[SRD-Leaf Storm|Leaf Storm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Drain Punch|Drain Punch]]'
+- - Pro
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Pro
+  - '[[SRD-Grass Pledge|Grass Pledge]]'
 Number: 253
 ShuffleToken: SRD-grovyle-ShuffleToken.png
 Type1: Grass
@@ -73,4 +119,14 @@ Weight:
 | From      | [[SRD-Treecko]]  | Level  | Medium  |
 | To        | [[SRD-Sceptile]] | Level  | Medium  |
 
-![[SRD-Grovyle-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Grovyle.md"
+flatten moves as T
+where file.path = this.file.path
+```

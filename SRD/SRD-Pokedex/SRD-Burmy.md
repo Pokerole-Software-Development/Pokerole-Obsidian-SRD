@@ -36,8 +36,26 @@ Height:
 HiddenAbility: Overcoat
 HomeSprite: SRD-burmy-HomeSprite.png
 Image: burmy.png
-Learnset: '[[SRD-Burmy-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - Amateur
+  - '[[SRD-Hidden Power|Hidden Power]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Electroweb|Electroweb]]'
+- - Pro
+  - '[[SRD-String Shot|String Shot]]'
 Number: 412
 ShuffleToken: SRD-burmy-ShuffleToken.png
 Type1: Bug
@@ -87,4 +105,14 @@ Weight:
 | To        | [[SRD-Wormadam (Ground Form)]] | Level  | Fast    | Female   |
 | To        | [[SRD-Mothim]]                 | Level  | Fast    | Male     |
 
-![[SRD-Burmy-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Burmy.md"
+flatten moves as T
+where file.path = this.file.path
+```

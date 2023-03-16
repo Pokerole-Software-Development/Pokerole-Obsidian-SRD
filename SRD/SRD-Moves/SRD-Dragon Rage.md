@@ -3,6 +3,8 @@ Accuracy1: Dexterity
 Accuracy2: Channel
 AddedEffects:
   FixedDamage:
+    Target: Targets
+    Type: Absolute
     Value: 2
 Attributes: {}
 Damage1: ''

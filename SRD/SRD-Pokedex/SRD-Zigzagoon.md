@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Quick Feet
 HomeSprite: SRD-zigzagoon-HomeSprite.png
 Image: zigzagoon.png
-Learnset: '[[SRD-Zigzagoon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Take Down|Take Down]]'
+- - Beginner
+  - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Amateur
+  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+- - Amateur
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - Amateur
+  - '[[SRD-Pin Missile|Pin Missile]]'
+- - Amateur
+  - '[[SRD-Covet|Covet]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Bestow|Bestow]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Flail|Flail]]'
+- - Ace
+  - '[[SRD-Rest|Rest]]'
+- - Ace
+  - '[[SRD-Belly Drum|Belly Drum]]'
+- - Ace
+  - '[[SRD-Fling|Fling]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Pro
+  - '[[SRD-Seed Bomb|Seed Bomb]]'
+- - Pro
+  - '[[SRD-Trick|Trick]]'
 Number: 263
 ShuffleToken: SRD-zigzagoon-ShuffleToken.png
 Type1: Normal
@@ -68,4 +114,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Linoone]] | Level  | Medium  |
 
-![[SRD-Zigzagoon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Zigzagoon.md"
+flatten moves as T
+where file.path = this.file.path
+```

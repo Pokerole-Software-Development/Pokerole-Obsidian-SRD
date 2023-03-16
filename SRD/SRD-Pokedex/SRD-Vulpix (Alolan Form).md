@@ -20,8 +20,64 @@ Height:
 HiddenAbility: Snow Warning
 HomeSprite: SRD-vulpix-alolan-form-HomeSprite.png
 Image: vulpix-alolan-form.png
-Learnset: '[[SRD-Vulpix (Alolan Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Powder Snow|Powder Snow]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Roar|Roar]]'
+- - Beginner
+  - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
+- - Beginner
+  - '[[SRD-Ice Shard|Ice Shard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Amateur
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Amateur
+  - '[[SRD-Payback|Payback]]'
+- - Amateur
+  - '[[SRD-Mist|Mist]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Imprison|Imprison]]'
+- - Amateur
+  - '[[SRD-Aurora Beam|Aurora Beam]]'
+- - Amateur
+  - '[[SRD-Extrasensory|Extrasensory]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Ice Beam|Ice Beam]]'
+- - Ace
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Ace
+  - '[[SRD-Captivate|Captivate]]'
+- - Ace
+  - '[[SRD-Grudge|Grudge]]'
+- - Ace
+  - '[[SRD-Blizzard|Blizzard]]'
+- - Ace
+  - '[[SRD-Sheer Cold|Sheer Cold]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Pro
+  - '[[SRD-Spite|Spite]]'
+- - Pro
+  - '[[SRD-Freeze Dry|Freeze Dry]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Hex|Hex]]'
 Number: 37
 ShuffleToken: SRD-vulpix-alolan-form-ShuffleToken.png
 Type1: Ice
@@ -68,4 +124,14 @@ Weight:
 |:----------|:--------------------------------|:-------|:----------|
 | To        | [[SRD-Ninetales (Alolan Form)]] | Stone  | Ice Stone |
 
-![[SRD-Vulpix (Alolan Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Vulpix (Alolan Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

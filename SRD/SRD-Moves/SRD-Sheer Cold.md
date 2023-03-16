@@ -3,8 +3,8 @@ Accuracy1: Special
 Accuracy2: Channel
 AddedEffects:
   FixedDamage:
-    BasedOn: Hp
-    Percentage: 1
+    Target: Targets
+    Type: OneHitKO
 Attributes:
   AccuracyReduction: 5
   Lethal: true

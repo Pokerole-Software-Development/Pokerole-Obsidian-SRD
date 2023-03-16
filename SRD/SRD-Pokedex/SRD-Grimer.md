@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Poison Touch
 HomeSprite: SRD-grimer-HomeSprite.png
 Image: grimer.png
-Learnset: '[[SRD-Grimer-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Poison Gas|Poison Gas]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Harden|Harden]]'
+- - Beginner
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Beginner
+  - '[[SRD-Disable|Disable]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sludge|Sludge]]'
+- - Amateur
+  - '[[SRD-Minimize|Minimize]]'
+- - Amateur
+  - '[[SRD-Mud Bomb|Mud Bomb]]'
+- - Amateur
+  - '[[SRD-Sludge Bomb|Sludge Bomb]]'
+- - Amateur
+  - '[[SRD-Fling|Fling]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Sludge Wave|Sludge Wave]]'
+- - Ace
+  - '[[SRD-Acid Armor|Acid Armor]]'
+- - Ace
+  - '[[SRD-Gunk Shot|Gunk Shot]]'
+- - Ace
+  - '[[SRD-Belch|Belch]]'
+- - Ace
+  - '[[SRD-Memento|Memento]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Shadow Sneak|Shadow Sneak]]'
+- - Pro
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Pro
+  - '[[SRD-Scary Face|Scary Face]]'
 Number: 88
 ShuffleToken: SRD-grimer-ShuffleToken.png
 Type1: Poison
@@ -68,4 +114,14 @@ Weight:
 |:----------|:------------|:-------|:--------|
 | To        | [[SRD-Muk]] | Level  | Slow    |
 
-![[SRD-Grimer-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Grimer.md"
+flatten moves as T
+where file.path = this.file.path
+```

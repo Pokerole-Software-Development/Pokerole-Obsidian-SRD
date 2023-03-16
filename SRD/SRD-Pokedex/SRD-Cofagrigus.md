@@ -20,8 +20,54 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-cofagrigus-HomeSprite.png
 Image: cofagrigus.png
-Learnset: '[[SRD-Cofagrigus-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - Starter
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Disable|Disable]]'
+- - Beginner
+  - '[[SRD-Haze|Haze]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Night Shade|Night Shade]]'
+- - Amateur
+  - '[[SRD-Hex|Hex]]'
+- - Amateur
+  - '[[SRD-Will-O-Wisp|Will-O-Wisp]]'
+- - Amateur
+  - '[[SRD-Ominous Wind|Ominous Wind]]'
+- - Amateur
+  - '[[SRD-Curse|Curse]]'
+- - Amateur
+  - '[[SRD-Power Split|Power Split]]'
+- - Amateur
+  - '[[SRD-Guard Split|Guard Split]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Shadow Ball|Shadow Ball]]'
+- - Ace
+  - '[[SRD-Grudge|Grudge]]'
+- - Ace
+  - '[[SRD-Mean Look|Mean Look]]'
+- - Ace
+  - '[[SRD-Destiny Bond|Destiny Bond]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Imprison|Imprison]]'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Heal Block|Heal Block]]'
 Number: 563
 ShuffleToken: SRD-cofagrigus-ShuffleToken.png
 Type1: Ghost
@@ -68,4 +114,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Yamask]] | Level  | Slow    |
 
-![[SRD-Cofagrigus-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Cofagrigus.md"
+flatten moves as T
+where file.path = this.file.path
+```

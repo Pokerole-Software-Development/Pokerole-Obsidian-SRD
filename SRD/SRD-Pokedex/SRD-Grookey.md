@@ -20,8 +20,44 @@ Height:
 HiddenAbility: Grassy Surge
 HomeSprite: SRD-grookey-HomeSprite.png
 Image: grookey.png
-Learnset: '[[SRD-Grookey-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Branch Poke|Branch Poke]]'
+- - Beginner
+  - '[[SRD-Taunt|Taunt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Uproar|Uproar]]'
+- - Ace
+  - '[[SRD-Wood Hammer|Wood Hammer]]'
+- - Ace
+  - '[[SRD-Endeavor|Endeavor]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Grass Pledge|Grass Pledge]]'
+- - Pro
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Pro
+  - '[[SRD-Leech Seed|Leech Seed]]'
 Number: 810
 ShuffleToken: SRD-grookey-ShuffleToken.png
 Type1: Grass
@@ -68,4 +104,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Thwackey]] | Level  | Medium  |
 
-![[SRD-Grookey-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Grookey.md"
+flatten moves as T
+where file.path = this.file.path
+```

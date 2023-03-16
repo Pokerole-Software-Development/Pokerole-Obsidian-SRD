@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Protean
 HomeSprite: SRD-froakie-HomeSprite.png
 Image: froakie.png
-Learnset: '[[SRD-Froakie-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bubble|Bubble]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Lick|Lick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Smokescreen|Smokescreen]]'
+- - Amateur
+  - '[[SRD-Round|Round]]'
+- - Amateur
+  - '[[SRD-Fling|Fling]]'
+- - Amateur
+  - '[[SRD-Smack Down|Smack Down]]'
+- - Amateur
+  - '[[SRD-Substitute|Substitute]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Bounce|Bounce]]'
+- - Ace
+  - '[[SRD-Double Team|Double Team]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - Pro
+  - '[[SRD-Toxic Spikes|Toxic Spikes]]'
+- - Pro
+  - '[[SRD-Water Pledge|Water Pledge]]'
 Number: 656
 ShuffleToken: SRD-froakie-ShuffleToken.png
 Type1: Water
@@ -68,4 +110,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Frogadier]] | Level  | Medium  |
 
-![[SRD-Froakie-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Froakie.md"
+flatten moves as T
+where file.path = this.file.path
+```

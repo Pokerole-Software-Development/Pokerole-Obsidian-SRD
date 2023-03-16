@@ -20,8 +20,46 @@ Height:
 HiddenAbility: Own Tempo
 HomeSprite: SRD-lotad-HomeSprite.png
 Image: lotad.png
-Learnset: '[[SRD-Lotad-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Absorb|Absorb]]'
+- - Beginner
+  - '[[SRD-Nature Power|Nature Power]]'
+- - Beginner
+  - '[[SRD-Bubble|Bubble]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Mist|Mist]]'
+- - Amateur
+  - '[[SRD-Natural Gift|Natural Gift]]'
+- - Amateur
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Ace
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Ace
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Energy Ball|Energy Ball]]'
+- - Pro
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Pro
+  - '[[SRD-Flail|Flail]]'
 Number: 270
 ShuffleToken: SRD-lotad-ShuffleToken.png
 Type1: Water
@@ -68,4 +106,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | To        | [[SRD-Lombre]] | Level  | Medium  |
 
-![[SRD-Lotad-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Lotad.md"
+flatten moves as T
+where file.path = this.file.path
+```

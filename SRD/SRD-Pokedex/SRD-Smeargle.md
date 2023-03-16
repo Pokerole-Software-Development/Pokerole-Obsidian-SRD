@@ -16,8 +16,36 @@ Height:
 HiddenAbility: Moody
 HomeSprite: SRD-smeargle-HomeSprite.png
 Image: smeargle.png
-Learnset: '[[SRD-Smeargle-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sketch|Sketch]]'
+- - Starter
+  - '[[SRD-Sketch|Sketch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sketch|Sketch]]'
+- - Beginner
+  - '[[SRD-Sketch|Sketch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sketch|Sketch]]'
+- - Amateur
+  - '[[SRD-Sketch|Sketch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Sketch|Sketch]]'
+- - Ace
+  - '[[SRD-Sketch|Sketch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Sketch|Sketch]]'
+- - Pro
+  - '[[SRD-Sketch|Sketch]]'
 Number: 235
 ShuffleToken: SRD-smeargle-ShuffleToken.png
 Type1: Normal
@@ -60,4 +88,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Smeargle-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Smeargle.md"
+flatten moves as T
+where file.path = this.file.path
+```

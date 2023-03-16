@@ -19,8 +19,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-hoopa-HomeSprite.png
 Image: hoopa.png
-Learnset: '[[SRD-Hoopa-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Trick|Trick]]'
+- - Master
+  - '[[SRD-Destiny Bond|Destiny Bond]]'
+- - Master
+  - '[[SRD-Ally Switch|Ally Switch]]'
+- - Master
+  - '[[SRD-Confusion|Confusion]]'
+- - Master
+  - '[[SRD-Astonish|Astonish]]'
+- - Master
+  - '[[SRD-Magic Coat|Magic Coat]]'
+- - Master
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Master
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Master
+  - '[[SRD-Skill Swap|Skill Swap]]'
+- - Master
+  - '[[SRD-Power Split|Power Split]]'
+- - Master
+  - '[[SRD-Guard Split|Guard Split]]'
+- - Master
+  - '[[SRD-Phantom Force|Phantom Force]]'
+- - Master
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Master
+  - '[[SRD-Wonder Room|Wonder Room]]'
+- - Master
+  - '[[SRD-Trick Room|Trick Room]]'
+- - Master
+  - '[[SRD-Shadow Ball|Shadow Ball]]'
+- - Master
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Master
+  - '[[SRD-Psychic|Psychic]]'
+- - Master
+  - '[[SRD-Hyperspace Hole|Hyperspace Hole]]'
+- - Master
+  - '[[SRD-Telekinesis|Telekinesis]]'
+- - Master
+  - '[[SRD-Magic Room|Magic Room]]'
+- - Master
+  - '[[SRD-Confide|Confide]]'
 Number: 720
 ShuffleToken: SRD-hoopa-ShuffleToken.png
 Type1: Psychic
@@ -67,4 +111,14 @@ Weight:
 |:----------|:-----------------------------|:-------|
 | To        | [[SRD-Hoopa (Unbound Form)]] | Form   |
 
-![[SRD-Hoopa-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Hoopa.md"
+flatten moves as T
+where file.path = this.file.path
+```

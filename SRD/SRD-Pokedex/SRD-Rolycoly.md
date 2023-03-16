@@ -20,8 +20,42 @@ Height:
 HiddenAbility: Flash Fire
 HomeSprite: SRD-rolycoly-HomeSprite.png
 Image: rolycoly.png
-Learnset: '[[SRD-Rolycoly-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Smokescreen|Smokescreen]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - Beginner
+  - '[[SRD-Smack Down|Smack Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Rock Polish|Rock Polish]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Incinerate|Incinerate]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Ace
+  - '[[SRD-Heat Crash|Heat Crash]]'
+- - Ace
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
+- - Pro
+  - '[[SRD-Spikes|Spikes]]'
+- - Pro
+  - '[[SRD-Substitute|Substitute]]'
 Number: 837
 ShuffleToken: SRD-rolycoly-ShuffleToken.png
 Type1: Rock
@@ -68,4 +102,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | To        | [[SRD-Carkol]] | Level  | Medium  |
 
-![[SRD-Rolycoly-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Rolycoly.md"
+flatten moves as T
+where file.path = this.file.path
+```

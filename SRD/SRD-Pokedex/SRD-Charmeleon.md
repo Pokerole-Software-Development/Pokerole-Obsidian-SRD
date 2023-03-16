@@ -24,8 +24,46 @@ Height:
 HiddenAbility: Solar Power
 HomeSprite: SRD-charmeleon-HomeSprite.png
 Image: charmeleon.png
-Learnset: '[[SRD-Charmeleon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - Beginner
+  - '[[SRD-Smokescreen|Smokescreen]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Dragon Rage|Dragon Rage]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Amateur
+  - '[[SRD-Flame Burst|Flame Burst]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Fire Spin|Fire Spin]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - Ace
+  - '[[SRD-Inferno|Inferno]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Pro
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - Pro
+  - '[[SRD-Fire Pledge|Fire Pledge]]'
 Number: 5
 ShuffleToken: SRD-charmeleon-ShuffleToken.png
 Type1: Fire
@@ -73,4 +111,14 @@ Weight:
 | From      | [[SRD-Charmander]] | Level  | Medium  |
 | To        | [[SRD-Charizard]]  | Level  | Medium  |
 
-![[SRD-Charmeleon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Charmeleon.md"
+flatten moves as T
+where file.path = this.file.path
+```

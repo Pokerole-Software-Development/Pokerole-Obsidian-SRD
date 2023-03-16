@@ -21,8 +21,44 @@ Height:
 HiddenAbility: Prankster
 HomeSprite: SRD-riolu-HomeSprite.png
 Image: riolu.png
-Learnset: '[[SRD-Riolu-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Foresight|Foresight]]'
+- - Starter
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Starter
+  - '[[SRD-Endure|Endure]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Counter|Counter]]'
+- - Beginner
+  - '[[SRD-Feint|Feint]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Force Palm|Force Palm]]'
+- - Amateur
+  - '[[SRD-Copycat|Copycat]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Reversal|Reversal]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Ace
+  - '[[SRD-Final Gambit|Final Gambit]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Blaze Kick|Blaze Kick]]'
+- - Pro
+  - '[[SRD-Agility|Agility]]'
+- - Pro
+  - '[[SRD-Aura Sphere|Aura Sphere]]'
 Number: 447
 ShuffleToken: SRD-riolu-ShuffleToken.png
 Type1: Fighting
@@ -69,4 +105,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|--------:|
 | To        | [[SRD-Lucario]] | Stat   | Loyalty |       5 |
 
-![[SRD-Riolu-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Riolu.md"
+flatten moves as T
+where file.path = this.file.path
+```

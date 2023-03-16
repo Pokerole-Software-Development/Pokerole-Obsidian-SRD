@@ -24,8 +24,54 @@ Height:
 HiddenAbility: Big Pecks
 HomeSprite: SRD-pidgeotto-HomeSprite.png
 Image: pidgeotto.png
-Learnset: '[[SRD-Pidgeotto-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Gust|Gust]]'
+- - Beginner
+  - '[[SRD-Twister|Twister]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Whirlwind|Whirlwind]]'
+- - Amateur
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Amateur
+  - '[[SRD-Feather Dance|Feather Dance]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Wing Attack|Wing Attack]]'
+- - Amateur
+  - '[[SRD-Mirror Move|Mirror Move]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Ace
+  - '[[SRD-Roost|Roost]]'
+- - Ace
+  - '[[SRD-Air Slash|Air Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Hurricane|Hurricane]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Uproar|Uproar]]'
+- - Pro
+  - '[[SRD-Steel Wing|Steel Wing]]'
 Number: 17
 ShuffleToken: SRD-pidgeotto-ShuffleToken.png
 Type1: Normal
@@ -73,4 +119,14 @@ Weight:
 | From      | [[SRD-Pidgey]]  | Level  | Medium  |
 | To        | [[SRD-Pidgeot]] | Level  | Medium  |
 
-![[SRD-Pidgeotto-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Pidgeotto.md"
+flatten moves as T
+where file.path = this.file.path
+```

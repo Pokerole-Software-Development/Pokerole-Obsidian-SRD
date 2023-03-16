@@ -24,8 +24,52 @@ Height:
 HiddenAbility: Liquid Voice
 HomeSprite: SRD-brionne-HomeSprite.png
 Image: brionne.png
-Learnset: '[[SRD-Brionne-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - Beginner
+  - '[[SRD-Disarming Voice|Disarming Voice]]'
+- - Beginner
+  - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - Amateur
+  - '[[SRD-Encore|Encore]]'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Amateur
+  - '[[SRD-Sing|Sing]]'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Ace
+  - '[[SRD-Captivate|Captivate]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Ace
+  - '[[SRD-Misty Terrain|Misty Terrain]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Charm|Charm]]'
+- - Pro
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Pro
+  - '[[SRD-Water Pledge|Water Pledge]]'
 Number: 729
 ShuffleToken: SRD-brionne-ShuffleToken.png
 Type1: Water
@@ -73,4 +117,14 @@ Weight:
 | From      | [[SRD-Popplio]]   | Level  | Medium  |
 | To        | [[SRD-Primarina]] | Level  | Medium  |
 
-![[SRD-Brionne-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Brionne.md"
+flatten moves as T
+where file.path = this.file.path
+```

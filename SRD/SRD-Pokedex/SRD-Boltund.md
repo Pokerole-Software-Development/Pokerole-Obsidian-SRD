@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Competitive
 HomeSprite: SRD-boltund-HomeSprite.png
 Image: boltund.png
-Learnset: '[[SRD-Boltund-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Electrify|Electrify]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Nuzzle|Nuzzle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Roar|Roar]]'
+- - Amateur
+  - '[[SRD-Spark|Spark]]'
+- - Amateur
+  - '[[SRD-Charm|Charm]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Charge|Charge]]'
+- - Ace
+  - '[[SRD-Wild Charge|Wild Charge]]'
+- - Ace
+  - '[[SRD-Play Rough|Play Rough]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Electric Terrain|Electric Terrain]]'
+- - Pro
+  - '[[SRD-Psychic Fangs|Psychic Fangs]]'
+- - Pro
+  - '[[SRD-Dig|Dig]]'
+- - Pro
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
 Number: 836
 ShuffleToken: SRD-boltund-ShuffleToken.png
 Type1: Electric
@@ -68,4 +108,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Yamper]] | Level  | Medium  |
 
-![[SRD-Boltund-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Boltund.md"
+flatten moves as T
+where file.path = this.file.path
+```

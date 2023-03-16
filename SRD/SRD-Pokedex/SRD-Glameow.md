@@ -20,8 +20,42 @@ Height:
 HiddenAbility: Keen Eye
 HomeSprite: SRD-glameow-HomeSprite.png
 Image: glameow.png
-Learnset: '[[SRD-Glameow-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Fake Out|Fake Out]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Scratch|Scratch]]'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Charm|Charm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Assist|Assist]]'
+- - Ace
+  - '[[SRD-Captivate|Captivate]]'
+- - Ace
+  - '[[SRD-Slash|Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Attract|Attract]]'
+- - Pro
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Pro
+  - '[[SRD-Hone Claws|Hone Claws]]'
 Number: 431
 ShuffleToken: SRD-glameow-ShuffleToken.png
 Type1: Normal
@@ -68,4 +102,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Purugly]] | Level  | Medium  |
 
-![[SRD-Glameow-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Glameow.md"
+flatten moves as T
+where file.path = this.file.path
+```

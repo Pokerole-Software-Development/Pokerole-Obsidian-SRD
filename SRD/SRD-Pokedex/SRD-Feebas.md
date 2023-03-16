@@ -21,8 +21,26 @@ Height:
 HiddenAbility: Adaptability
 HomeSprite: SRD-feebas-HomeSprite.png
 Image: feebas.png
-Learnset: '[[SRD-Feebas-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Splash|Splash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Tackle|Tackle]]'
+- - Amateur
+  - '[[SRD-Flail|Flail]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Brine|Brine]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - Pro
+  - '[[SRD-Dive|Dive]]'
 Number: 349
 ShuffleToken: SRD-feebas-ShuffleToken.png
 Type1: Water
@@ -69,4 +87,14 @@ Weight:
 |:----------|:----------------|:-------|:-------|--------:|
 | To        | [[SRD-Milotic]] | Stat   | Beauty |       5 |
 
-![[SRD-Feebas-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Feebas.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Keen Eye
 HomeSprite: SRD-skuntank-HomeSprite.png
 Image: skuntank.png
-Learnset: '[[SRD-Skuntank-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Poison Gas|Poison Gas]]'
+- - Beginner
+  - '[[SRD-Screech|Screech]]'
+- - Beginner
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Smokescreen|Smokescreen]]'
+- - Amateur
+  - '[[SRD-Feint|Feint]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Toxic|Toxic]]'
+- - Amateur
+  - '[[SRD-Acid Spray|Acid Spray]]'
+- - Amateur
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - Amateur
+  - '[[SRD-Venom Drench|Venom Drench]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Ace
+  - '[[SRD-Memento|Memento]]'
+- - Ace
+  - '[[SRD-Belch|Belch]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Play Rough|Play Rough]]'
+- - Pro
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Pro
+  - '[[SRD-Scary Face|Scary Face]]'
 Number: 435
 ShuffleToken: SRD-skuntank-ShuffleToken.png
 Type1: Poison
@@ -68,4 +116,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Stunky]] | Level  | Medium  |
 
-![[SRD-Skuntank-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Skuntank.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Hustle
 HomeSprite: SRD-nidoran-f-HomeSprite.png
 Image: nidoran-f.png
-Learnset: '[[SRD-Nidoran F-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Double Kick|Double Kick]]'
+- - Beginner
+  - '[[SRD-Poison Sting|Poison Sting]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Amateur
+  - '[[SRD-Toxic Spikes|Toxic Spikes]]'
+- - Amateur
+  - '[[SRD-Poison Fang|Poison Fang]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Flatter|Flatter]]'
+- - Ace
+  - '[[SRD-Captivate|Captivate]]'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Lovely Kiss|Lovely Kiss]]'
+- - Pro
+  - '[[SRD-Moonlight|Moonlight]]'
+- - Pro
+  - '[[SRD-Charm|Charm]]'
 Number: 29
 ShuffleToken: SRD-nidoran-f-ShuffleToken.png
 Type1: Poison
@@ -68,4 +108,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Nidorina]] | Level  | Medium  |
 
-![[SRD-Nidoran F-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Nidoran F.md"
+flatten moves as T
+where file.path = this.file.path
+```

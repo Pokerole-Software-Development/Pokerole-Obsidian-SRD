@@ -22,8 +22,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-kyurem-HomeSprite.png
 Image: kyurem.png
-Learnset: '[[SRD-Kyurem-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Master
+  - '[[SRD-Dragon Rage|Dragon Rage]]'
+- - Master
+  - '[[SRD-Imprison|Imprison]]'
+- - Master
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Master
+  - '[[SRD-Ice Beam|Ice Beam]]'
+- - Master
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Master
+  - '[[SRD-Slash|Slash]]'
+- - Master
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Master
+  - '[[SRD-Glaciate|Glaciate]]'
+- - Master
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - Master
+  - '[[SRD-Noble Roar|Noble Roar]]'
+- - Master
+  - '[[SRD-Endeavor|Endeavor]]'
+- - Master
+  - '[[SRD-Blizzard|Blizzard]]'
+- - Master
+  - '[[SRD-Outrage|Outrage]]'
+- - Master
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Master
+  - '[[SRD-Substitute|Substitute]]'
+- - Master
+  - '[[SRD-Hail|Hail]]'
+- - Master
+  - '[[SRD-Haze|Haze]]'
+- - Master
+  - '[[SRD-Mist|Mist]]'
+- - Master
+  - '[[SRD-Recover|Recover]]'
+- - Master
+  - '[[SRD-Sheer Cold|Sheer Cold]]'
+- - Master
+  - '[[SRD-Power Split|Power Split]]'
 Number: 646
 ShuffleToken: SRD-kyurem-ShuffleToken.png
 Type1: Dragon
@@ -71,4 +115,14 @@ Weight:
 | To        | [[SRD-Kyurem (Black Form)]] | Form   |
 | To        | [[SRD-Kyurem (White Form)]] | Form   |
 
-![[SRD-Kyurem-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Kyurem.md"
+flatten moves as T
+where file.path = this.file.path
+```

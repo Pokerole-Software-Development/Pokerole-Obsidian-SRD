@@ -19,8 +19,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-lunala-HomeSprite.png
 Image: lunala.png
-Learnset: '[[SRD-Lunala-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Moongeist Beam|Moongeist Beam]]'
+- - Master
+  - '[[SRD-Cosmic Power|Cosmic Power]]'
+- - Master
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Master
+  - '[[SRD-Teleport|Teleport]]'
+- - Master
+  - '[[SRD-Confusion|Confusion]]'
+- - Master
+  - '[[SRD-Night Shade|Night Shade]]'
+- - Master
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Master
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Master
+  - '[[SRD-Shadow Ball|Shadow Ball]]'
+- - Master
+  - '[[SRD-Moonlight|Moonlight]]'
+- - Master
+  - '[[SRD-Night Daze|Night Daze]]'
+- - Master
+  - '[[SRD-Magic Coat|Magic Coat]]'
+- - Master
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Master
+  - '[[SRD-Dream Eater|Dream Eater]]'
+- - Master
+  - '[[SRD-Phantom Force|Phantom Force]]'
+- - Master
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Master
+  - '[[SRD-Hyper Beam|Hyper Beam]]'
+- - Master
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Master
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Master
+  - '[[SRD-Spite|Spite]]'
+- - Master
+  - '[[SRD-Heat Wave|Heat Wave]]'
+- - Master
+  - '[[SRD-Reflect|Reflect]]'
 Number: 792
 ShuffleToken: SRD-lunala-ShuffleToken.png
 Type1: Psychic
@@ -67,4 +111,14 @@ Weight:
 |:----------|:----------------|:-------|:-------|
 | From      | [[SRD-Cosmoem]] | Level  | Shield |
 
-![[SRD-Lunala-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Lunala.md"
+flatten moves as T
+where file.path = this.file.path
+```

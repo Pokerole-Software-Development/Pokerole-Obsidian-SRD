@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Shadow Tag
 HomeSprite: SRD-gothita-HomeSprite.png
 Image: gothita.png
-Learnset: '[[SRD-Gothita-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Confusion|Confusion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tickle|Tickle]]'
+- - Beginner
+  - '[[SRD-Play Nice|Play Nice]]'
+- - Beginner
+  - '[[SRD-Fake Tears|Fake Tears]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Embargo|Embargo]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Psyshock|Psyshock]]'
+- - Amateur
+  - '[[SRD-Flatter|Flatter]]'
+- - Amateur
+  - '[[SRD-Future Sight|Future Sight]]'
+- - Amateur
+  - '[[SRD-Heal Block|Heal Block]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Telekinesis|Telekinesis]]'
+- - Ace
+  - '[[SRD-Charm|Charm]]'
+- - Ace
+  - '[[SRD-Magic Room|Magic Room]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Role Play|Role Play]]'
+- - Pro
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Pro
+  - '[[SRD-Snatch|Snatch]]'
 Number: 574
 ShuffleToken: SRD-gothita-ShuffleToken.png
 Type1: Psychic
@@ -68,4 +116,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Gothorita]] | Level  | Medium  |
 
-![[SRD-Gothita-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Gothita.md"
+flatten moves as T
+where file.path = this.file.path
+```

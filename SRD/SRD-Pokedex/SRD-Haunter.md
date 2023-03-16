@@ -23,8 +23,54 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-haunter-HomeSprite.png
 Image: haunter.png
-Learnset: '[[SRD-Haunter-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Spite|Spite]]'
+- - Starter
+  - '[[SRD-Lick|Lick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Curse|Curse]]'
+- - Beginner
+  - '[[SRD-Mean Look|Mean Look]]'
+- - Beginner
+  - '[[SRD-Night Shade|Night Shade]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Amateur
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Amateur
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Amateur
+  - '[[SRD-Shadow Punch|Shadow Punch]]'
+- - Amateur
+  - '[[SRD-Payback|Payback]]'
+- - Amateur
+  - '[[SRD-Shadow Ball|Shadow Ball]]'
+- - Amateur
+  - '[[SRD-Dark Pulse|Dark Pulse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Dream Eater|Dream Eater]]'
+- - Ace
+  - '[[SRD-Destiny Bond|Destiny Bond]]'
+- - Ace
+  - '[[SRD-Hex|Hex]]'
+- - Ace
+  - '[[SRD-Nightmare|Nightmare]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Pro
+  - '[[SRD-Grudge|Grudge]]'
+- - Pro
+  - '[[SRD-Trick|Trick]]'
 Number: 93
 ShuffleToken: SRD-haunter-ShuffleToken.png
 Type1: Ghost
@@ -72,4 +118,14 @@ Weight:
 | From      | [[SRD-Gastly]] | Level  | Medium  |
 | To        | [[SRD-Gengar]] | Trade  |         |
 
-![[SRD-Haunter-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Haunter.md"
+flatten moves as T
+where file.path = this.file.path
+```

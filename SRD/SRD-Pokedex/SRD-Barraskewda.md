@@ -20,8 +20,44 @@ Height:
 HiddenAbility: Propeller Tail
 HomeSprite: SRD-barraskewda-HomeSprite.png
 Image: barraskewda.png
-Learnset: '[[SRD-Barraskewda-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Throat Chop|Throat Chop]]'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Dive|Dive]]'
+- - Amateur
+  - '[[SRD-Laser Focus|Laser Focus]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Liquidation|Liquidation]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Pro
+  - '[[SRD-Poison Jab|Poison Jab]]'
+- - Pro
+  - '[[SRD-Giga Impact|Giga Impact]]'
 Number: 847
 ShuffleToken: SRD-barraskewda-ShuffleToken.png
 Type1: Water
@@ -68,4 +104,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Arrokuda]] | Level  | Medium  |
 
-![[SRD-Barraskewda-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Barraskewda.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -24,8 +24,50 @@ Height:
 HiddenAbility: Symbiosis
 HomeSprite: SRD-floette-HomeSprite.png
 Image: floette.png
-Learnset: '[[SRD-Floette-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Vine Whip|Vine Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fairy Wind|Fairy Wind]]'
+- - Beginner
+  - '[[SRD-Lucky Chant|Lucky Chant]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Amateur
+  - '[[SRD-Wish|Wish]]'
+- - Amateur
+  - '[[SRD-Magical Leaf|Magical Leaf]]'
+- - Amateur
+  - '[[SRD-Grassy Terrain|Grassy Terrain]]'
+- - Amateur
+  - '[[SRD-Petal Blizzard|Petal Blizzard]]'
+- - Amateur
+  - '[[SRD-Aromatherapy|Aromatherapy]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Misty Terrain|Misty Terrain]]'
+- - Ace
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Ace
+  - '[[SRD-Petal Dance|Petal Dance]]'
+- - Ace
+  - '[[SRD-Solar Beam|Solar Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Heal Bell|Heal Bell]]'
+- - Pro
+  - '[[SRD-Camouflage|Camouflage]]'
+- - Pro
+  - '[[SRD-Magic Coat|Magic Coat]]'
 Number: 670
 ShuffleToken: SRD-floette-ShuffleToken.png
 Type1: Fairy
@@ -73,4 +115,14 @@ Weight:
 | From      | [[SRD-Flabebe]] | Level  | Fast    |             |
 | To        | [[SRD-Florges]] | Stone  |         | Shiny Stone |
 
-![[SRD-Floette-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Floette.md"
+flatten moves as T
+where file.path = this.file.path
+```

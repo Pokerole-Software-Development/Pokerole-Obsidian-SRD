@@ -20,8 +20,36 @@ Height:
 HiddenAbility: Justified
 HomeSprite: SRD-arcanine-HomeSprite.png
 Image: arcanine.png
-Learnset: '[[SRD-Arcanine-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Roar|Roar]]'
+- - Starter
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
+- - Amateur
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Burn Up|Burn Up]]'
+- - Ace
+  - '[[SRD-Extreme Speed|Extreme Speed]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Morning Sun|Morning Sun]]'
+- - Pro
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - Pro
+  - '[[SRD-Wild Charge|Wild Charge]]'
 Number: 59
 ShuffleToken: SRD-arcanine-ShuffleToken.png
 Type1: Fire
@@ -68,4 +96,14 @@ Weight:
 |:----------|:------------------|:-------|:-----------|
 | From      | [[SRD-Growlithe]] | Stone  | Fire Stone |
 
-![[SRD-Arcanine-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Arcanine.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Swift Swim
 HomeSprite: SRD-armaldo-HomeSprite.png
 Image: armaldo.png
-Learnset: '[[SRD-Armaldo-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Amateur
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Crush Claw|Crush Claw]]'
+- - Ace
+  - '[[SRD-Smack Down|Smack Down]]'
+- - Ace
+  - '[[SRD-Brine|Brine]]'
+- - Ace
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - Ace
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Cross Poison|Cross Poison]]'
+- - Pro
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
 Number: 348
 ShuffleToken: SRD-armaldo-ShuffleToken.png
 Type1: Rock
@@ -68,4 +110,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Anorith]] | Level  | Medium  |
 
-![[SRD-Armaldo-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Armaldo.md"
+flatten moves as T
+where file.path = this.file.path
+```

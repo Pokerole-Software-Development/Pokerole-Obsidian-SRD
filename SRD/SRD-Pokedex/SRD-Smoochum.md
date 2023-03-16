@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Hydration
 HomeSprite: SRD-smoochum-HomeSprite.png
 Image: smoochum.png
-Learnset: '[[SRD-Smoochum-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Lick|Lick]]'
+- - Beginner
+  - '[[SRD-Sweet Kiss|Sweet Kiss]]'
+- - Beginner
+  - '[[SRD-Powder Snow|Powder Snow]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Confusion|Confusion]]'
+- - Amateur
+  - '[[SRD-Sing|Sing]]'
+- - Amateur
+  - '[[SRD-Heart Stamp|Heart Stamp]]'
+- - Amateur
+  - '[[SRD-Mean Look|Mean Look]]'
+- - Amateur
+  - '[[SRD-Fake Tears|Fake Tears]]'
+- - Amateur
+  - '[[SRD-Lucky Chant|Lucky Chant]]'
+- - Amateur
+  - '[[SRD-Avalanche|Avalanche]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Copycat|Copycat]]'
+- - Ace
+  - '[[SRD-Perish Song|Perish Song]]'
+- - Ace
+  - '[[SRD-Blizzard|Blizzard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Pro
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Pro
+  - '[[SRD-Magic Coat|Magic Coat]]'
 Number: 238
 ShuffleToken: SRD-smoochum-ShuffleToken.png
 Type1: Ice
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-------------|:-------|:--------|
 | To        | [[SRD-Jynx]] | Level  | Medium  |
 
-![[SRD-Smoochum-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Smoochum.md"
+flatten moves as T
+where file.path = this.file.path
+```

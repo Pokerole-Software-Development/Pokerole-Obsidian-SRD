@@ -20,8 +20,60 @@ Height:
 HiddenAbility: Analytic
 HomeSprite: SRD-staryu-HomeSprite.png
 Image: staryu.png
-Learnset: '[[SRD-Staryu-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Beginner
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - Beginner
+  - '[[SRD-Recover|Recover]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Psywave|Psywave]]'
+- - Amateur
+  - '[[SRD-Swift|Swift]]'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Amateur
+  - '[[SRD-Camouflage|Camouflage]]'
+- - Amateur
+  - '[[SRD-Gyro Ball|Gyro Ball]]'
+- - Amateur
+  - '[[SRD-Brine|Brine]]'
+- - Amateur
+  - '[[SRD-Minimize|Minimize]]'
+- - Amateur
+  - '[[SRD-Reflect Type|Reflect Type]]'
+- - Amateur
+  - '[[SRD-Power Gem|Power Gem]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Ace
+  - '[[SRD-Cosmic Power|Cosmic Power]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - Pro
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Pro
+  - '[[SRD-Twister|Twister]]'
 Number: 120
 ShuffleToken: SRD-staryu-ShuffleToken.png
 Type1: Water
@@ -68,4 +120,14 @@ Weight:
 |:----------|:----------------|:-------|:------------|
 | To        | [[SRD-Starmie]] | Stone  | Water Stone |
 
-![[SRD-Staryu-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Staryu.md"
+flatten moves as T
+where file.path = this.file.path
+```

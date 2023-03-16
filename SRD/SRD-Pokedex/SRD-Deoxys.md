@@ -25,8 +25,44 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-deoxys-HomeSprite.png
 Image: deoxys.png
-Learnset: '[[SRD-Deoxys-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Leer|Leer]]'
+- - Master
+  - '[[SRD-Wrap|Wrap]]'
+- - Master
+  - '[[SRD-Night Shade|Night Shade]]'
+- - Master
+  - '[[SRD-Teleport|Teleport]]'
+- - Master
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Master
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Master
+  - '[[SRD-Psychic|Psychic]]'
+- - Master
+  - '[[SRD-Snatch|Snatch]]'
+- - Master
+  - '[[SRD-Psycho Shift|Psycho Shift]]'
+- - Master
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Master
+  - '[[SRD-Cosmic Power|Cosmic Power]]'
+- - Master
+  - '[[SRD-Recover|Recover]]'
+- - Master
+  - '[[SRD-Psycho Boost|Psycho Boost]]'
+- - Master
+  - '[[SRD-Hyper Beam|Hyper Beam]]'
+- - Master
+  - '[[SRD-Toxic|Toxic]]'
+- - Master
+  - '[[SRD-Laser Focus|Laser Focus]]'
+- - Master
+  - '[[SRD-Bind|Bind]]'
+- - Master
+  - '[[SRD-Signal Beam|Signal Beam]]'
 Number: 386
 ShuffleToken: SRD-deoxys-ShuffleToken.png
 Type1: Psychic
@@ -75,4 +111,14 @@ Weight:
 | To        | [[SRD-Deoxys (Defense Form)]] | Form   |
 | To        | [[SRD-Deoxys (Speed Form)]]   | Form   |
 
-![[SRD-Deoxys-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Deoxys.md"
+flatten moves as T
+where file.path = this.file.path
+```

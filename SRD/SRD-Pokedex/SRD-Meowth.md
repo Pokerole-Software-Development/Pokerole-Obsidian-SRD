@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Unnerve
 HomeSprite: SRD-meowth-HomeSprite.png
 Image: meowth.png
-Learnset: '[[SRD-Meowth-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Beginner
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Pay Day|Pay Day]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Captivate|Captivate]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Assurance|Assurance]]'
+- - Ace
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Ace
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Ace
+  - '[[SRD-Feint|Feint]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Charm|Charm]]'
+- - Pro
+  - '[[SRD-Sing|Sing]]'
+- - Pro
+  - '[[SRD-Snatch|Snatch]]'
 Number: 52
 ShuffleToken: SRD-meowth-ShuffleToken.png
 Type1: Normal
@@ -68,4 +112,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Persian]] | Level  | Medium  |
 
-![[SRD-Meowth-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Meowth.md"
+flatten moves as T
+where file.path = this.file.path
+```

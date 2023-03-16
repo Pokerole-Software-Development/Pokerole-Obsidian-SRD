@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Gluttony
 HomeSprite: SRD-gulpin-HomeSprite.png
 Image: gulpin.png
-Learnset: '[[SRD-Gulpin-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Yawn|Yawn]]'
+- - Beginner
+  - '[[SRD-Poison Gas|Poison Gas]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sludge|Sludge]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Amateur
+  - '[[SRD-Encore|Encore]]'
+- - Amateur
+  - '[[SRD-Toxic|Toxic]]'
+- - Amateur
+  - '[[SRD-Acid Spray|Acid Spray]]'
+- - Amateur
+  - '[[SRD-Stockpile|Stockpile]]'
+- - Amateur
+  - '[[SRD-Spit Up|Spit Up]]'
+- - Amateur
+  - '[[SRD-Swallow|Swallow]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Belch|Belch]]'
+- - Ace
+  - '[[SRD-Sludge Bomb|Sludge Bomb]]'
+- - Ace
+  - '[[SRD-Gastro Acid|Gastro Acid]]'
+- - Ace
+  - '[[SRD-Wring Out|Wring Out]]'
+- - Ace
+  - '[[SRD-Gunk Shot|Gunk Shot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Venom Drench|Venom Drench]]'
+- - Pro
+  - '[[SRD-Seed Bomb|Seed Bomb]]'
+- - Pro
+  - '[[SRD-Water Pulse|Water Pulse]]'
 Number: 316
 ShuffleToken: SRD-gulpin-ShuffleToken.png
 Type1: Poison
@@ -68,4 +114,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | To        | [[SRD-Swalot]] | Level  | Medium  |
 
-![[SRD-Gulpin-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Gulpin.md"
+flatten moves as T
+where file.path = this.file.path
+```

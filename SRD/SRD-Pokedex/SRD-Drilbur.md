@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Mold Breaker
 HomeSprite: SRD-drilbur-HomeSprite.png
 Image: drilbur.png
-Learnset: '[[SRD-Drilbur-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - Beginner
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Amateur
+  - '[[SRD-Dig|Dig]]'
+- - Amateur
+  - '[[SRD-Hone Claws|Hone Claws]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Amateur
+  - '[[SRD-Sandstorm|Sandstorm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Drill Run|Drill Run]]'
+- - Ace
+  - '[[SRD-Fissure|Fissure]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Rock Climb|Rock Climb]]'
+- - Pro
+  - '[[SRD-Submission|Submission]]'
 Number: 529
 ShuffleToken: SRD-drilbur-ShuffleToken.png
 Type1: Ground
@@ -68,4 +112,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Excadrill]] | Level  | Medium  |
 
-![[SRD-Drilbur-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Drilbur.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Flame Body
 HomeSprite: SRD-centiskorch-HomeSprite.png
 Image: centiskorch.png
-Learnset: '[[SRD-Centiskorch-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Ember|Ember]]'
+- - Starter
+  - '[[SRD-Smokescreen|Smokescreen]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Wrap|Wrap]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Flame Wheel|Flame Wheel]]'
+- - Amateur
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - Amateur
+  - '[[SRD-Coil|Coil]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - Amateur
+  - '[[SRD-Fire Spin|Fire Spin]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Fire Lash|Fire Lash]]'
+- - Ace
+  - '[[SRD-Lunge|Lunge]]'
+- - Ace
+  - '[[SRD-Burn Up|Burn Up]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Pro
+  - '[[SRD-Scald|Scald]]'
+- - Pro
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
 Number: 851
 ShuffleToken: SRD-centiskorch-ShuffleToken.png
 Type1: Fire
@@ -68,4 +108,14 @@ Weight:
 |:----------|:-------------------|:-------|:--------|
 | From      | [[SRD-Sizzlipede]] | Level  | Slow    |
 
-![[SRD-Centiskorch-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Centiskorch.md"
+flatten moves as T
+where file.path = this.file.path
+```

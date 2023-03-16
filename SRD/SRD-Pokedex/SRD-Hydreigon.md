@@ -20,8 +20,54 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-hydreigon-HomeSprite.png
 Image: hydreigon.png
-Learnset: '[[SRD-Hydreigon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tri Attack|Tri Attack]]'
+- - Starter
+  - '[[SRD-Dragon Rage|Dragon Rage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Amateur
+  - '[[SRD-Roar|Roar]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - Amateur
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - Amateur
+  - '[[SRD-Work Up|Work Up]]'
+- - Amateur
+  - '[[SRD-Dragon Rush|Dragon Rush]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Outrage|Outrage]]'
+- - Ace
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Ace
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Ace
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Draco Meteor|Draco Meteor]]'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
+- - Pro
+  - '[[SRD-Earth Power|Earth Power]]'
 Number: 635
 ShuffleToken: SRD-hydreigon-ShuffleToken.png
 Type1: Dark
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Zweilous]] | Level  | Slow    |
 
-![[SRD-Hydreigon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Hydreigon.md"
+flatten moves as T
+where file.path = this.file.path
+```

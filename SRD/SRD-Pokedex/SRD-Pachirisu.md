@@ -16,8 +16,52 @@ Height:
 HiddenAbility: Volt Absorb
 HomeSprite: SRD-pachirisu-HomeSprite.png
 Image: pachirisu.png
-Learnset: '[[SRD-Pachirisu-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Bide|Bide]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Charm|Charm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Spark|Spark]]'
+- - Amateur
+  - '[[SRD-Endure|Endure]]'
+- - Amateur
+  - '[[SRD-Nuzzle|Nuzzle]]'
+- - Amateur
+  - '[[SRD-Swift|Swift]]'
+- - Amateur
+  - '[[SRD-Electro Ball|Electro Ball]]'
+- - Amateur
+  - '[[SRD-Sweet Kiss|Sweet Kiss]]'
+- - Amateur
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Super Fang|Super Fang]]'
+- - Ace
+  - '[[SRD-Discharge|Discharge]]'
+- - Ace
+  - '[[SRD-Last Resort|Last Resort]]'
+- - Ace
+  - '[[SRD-Hyper Fang|Hyper Fang]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Follow Me|Follow Me]]'
+- - Pro
+  - '[[SRD-Seed Bomb|Seed Bomb]]'
+- - Pro
+  - '[[SRD-Fake Tears|Fake Tears]]'
 Number: 417
 ShuffleToken: SRD-pachirisu-ShuffleToken.png
 Type1: Electric
@@ -60,4 +104,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Beginner
 
-![[SRD-Pachirisu-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Pachirisu.md"
+flatten moves as T
+where file.path = this.file.path
+```

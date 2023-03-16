@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Analytic
 HomeSprite: SRD-porygon-HomeSprite.png
 Image: porygon.png
-Learnset: '[[SRD-Porygon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Conversion|Conversion]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Conversion 2|Conversion 2]]'
+- - Beginner
+  - '[[SRD-Sharpen|Sharpen]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Recover|Recover]]'
+- - Amateur
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
+- - Amateur
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Amateur
+  - '[[SRD-Recycle|Recycle]]'
+- - Amateur
+  - '[[SRD-Discharge|Discharge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Lock-On|Lock-On]]'
+- - Ace
+  - '[[SRD-Tri Attack|Tri Attack]]'
+- - Ace
+  - '[[SRD-Magic Coat|Magic Coat]]'
+- - Ace
+  - '[[SRD-Zap Cannon|Zap Cannon]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Electroweb|Electroweb]]'
+- - Pro
+  - '[[SRD-Foul Play|Foul Play]]'
+- - Pro
+  - '[[SRD-Pain Split|Pain Split]]'
 Number: 137
 ShuffleToken: SRD-porygon-ShuffleToken.png
 Type1: Normal
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Porygon2]] | Trade  | Upgrade |
 
-![[SRD-Porygon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Porygon.md"
+flatten moves as T
+where file.path = this.file.path
+```

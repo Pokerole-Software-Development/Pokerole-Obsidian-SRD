@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Inner Focus
 HomeSprite: SRD-darumaka-HomeSprite.png
 Image: darumaka.png
-Learnset: '[[SRD-Darumaka-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Rollout|Rollout]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Incinerate|Incinerate]]'
+- - Beginner
+  - '[[SRD-Rage|Rage]]'
+- - Beginner
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Uproar|Uproar]]'
+- - Amateur
+  - '[[SRD-Facade|Facade]]'
+- - Amateur
+  - '[[SRD-Fire Punch|Fire Punch]]'
+- - Amateur
+  - '[[SRD-Work Up|Work Up]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Belly Drum|Belly Drum]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Flare Blitz|Flare Blitz]]'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - Ace
+  - '[[SRD-Superpower|Superpower]]'
+- - Ace
+  - '[[SRD-Overheat|Overheat]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Yawn|Yawn]]'
+- - Pro
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
 Number: 554
 ShuffleToken: SRD-darumaka-ShuffleToken.png
 Type1: Fire
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-------------------|:-------|:--------|
 | To        | [[SRD-Darmanitan]] | Level  | Medium  |
 
-![[SRD-Darumaka-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Darumaka.md"
+flatten moves as T
+where file.path = this.file.path
+```

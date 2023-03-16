@@ -20,8 +20,38 @@ Height:
 HiddenAbility: Sheer Force
 HomeSprite: SRD-nidoking-HomeSprite.png
 Image: nidoking.png
-Learnset: '[[SRD-Nidoking-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Poison Sting|Poison Sting]]'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Beginner
+  - '[[SRD-Double Kick|Double Kick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Chip Away|Chip Away]]'
+- - Amateur
+  - '[[SRD-Earth Power|Earth Power]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Drill Run|Drill Run]]'
+- - Ace
+  - '[[SRD-Megahorn|Megahorn]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Poison Tail|Poison Tail]]'
+- - Pro
+  - '[[SRD-Thrash|Thrash]]'
+- - Pro
+  - '[[SRD-Head Smash|Head Smash]]'
 Number: 34
 ShuffleToken: SRD-nidoking-ShuffleToken.png
 Type1: Poison
@@ -68,4 +98,14 @@ Weight:
 |:----------|:-----------------|:-------|:-----------|
 | From      | [[SRD-Nidorino]] | Stone  | Moon Stone |
 
-![[SRD-Nidoking-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Nidoking.md"
+flatten moves as T
+where file.path = this.file.path
+```

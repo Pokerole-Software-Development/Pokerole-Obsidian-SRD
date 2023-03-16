@@ -16,8 +16,50 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-xurkitree-HomeSprite.png
 Image: xurkitree.png
-Learnset: '[[SRD-Xurkitree-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Tail Glow|Tail Glow]]'
+- - Master
+  - '[[SRD-Spark|Spark]]'
+- - Master
+  - '[[SRD-Charge|Charge]]'
+- - Master
+  - '[[SRD-Wrap|Wrap]]'
+- - Master
+  - '[[SRD-Thunder Shock|Thunder Shock]]'
+- - Master
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - Master
+  - '[[SRD-Shock Wave|Shock Wave]]'
+- - Master
+  - '[[SRD-Ingrain|Ingrain]]'
+- - Master
+  - '[[SRD-Thunder Punch|Thunder Punch]]'
+- - Master
+  - '[[SRD-Eerie Impulse|Eerie Impulse]]'
+- - Master
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Master
+  - '[[SRD-Thunderbolt|Thunderbolt]]'
+- - Master
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Master
+  - '[[SRD-Discharge|Discharge]]'
+- - Master
+  - '[[SRD-Electric Terrain|Electric Terrain]]'
+- - Master
+  - '[[SRD-Power Whip|Power Whip]]'
+- - Master
+  - '[[SRD-Ion Deluge|Ion Deluge]]'
+- - Master
+  - '[[SRD-Zap Cannon|Zap Cannon]]'
+- - Master
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
+- - Master
+  - '[[SRD-Brutal Swing|Brutal Swing]]'
+- - Master
+  - '[[SRD-Electroweb|Electroweb]]'
 Number: 796
 ShuffleToken: SRD-xurkitree-ShuffleToken.png
 Type1: Electric
@@ -60,4 +102,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-![[SRD-Xurkitree-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Xurkitree.md"
+flatten moves as T
+where file.path = this.file.path
+```

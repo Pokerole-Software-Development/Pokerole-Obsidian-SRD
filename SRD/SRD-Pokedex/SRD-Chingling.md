@@ -21,8 +21,38 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-chingling-HomeSprite.png
 Image: chingling.png
-Learnset: '[[SRD-Chingling-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Wrap|Wrap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - Beginner
+  - '[[SRD-Astonish|Astonish]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Yawn|Yawn]]'
+- - Amateur
+  - '[[SRD-Confusion|Confusion]]'
+- - Amateur
+  - '[[SRD-Uproar|Uproar]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Last Resort|Last Resort]]'
+- - Ace
+  - '[[SRD-Entrainment|Entrainment]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Cosmic Power|Cosmic Power]]'
+- - Pro
+  - '[[SRD-Recover|Recover]]'
+- - Pro
+  - '[[SRD-Future Sight|Future Sight]]'
 Number: 433
 ShuffleToken: SRD-chingling-ShuffleToken.png
 Type1: Psychic
@@ -69,4 +99,14 @@ Weight:
 |:----------|:-----------------|:-------|:----------|--------:|
 | To        | [[SRD-Chimecho]] | Stat   | Happiness |       4 |
 
-![[SRD-Chingling-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Chingling.md"
+flatten moves as T
+where file.path = this.file.path
+```

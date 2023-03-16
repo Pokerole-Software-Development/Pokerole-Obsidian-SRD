@@ -20,8 +20,60 @@ Height:
 HiddenAbility: Regenerator
 HomeSprite: SRD-tangela-HomeSprite.png
 Image: tangela.png
-Learnset: '[[SRD-Tangela-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Constrict|Constrict]]'
+- - Starter
+  - '[[SRD-Ingrain|Ingrain]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sleep Powder|Sleep Powder]]'
+- - Beginner
+  - '[[SRD-Vine Whip|Vine Whip]]'
+- - Beginner
+  - '[[SRD-Absorb|Absorb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Poison Powder|Poison Powder]]'
+- - Amateur
+  - '[[SRD-Bind|Bind]]'
+- - Amateur
+  - '[[SRD-Growth|Growth]]'
+- - Amateur
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Amateur
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Amateur
+  - '[[SRD-Stun Spore|Stun Spore]]'
+- - Amateur
+  - '[[SRD-Natural Gift|Natural Gift]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Ace
+  - '[[SRD-Tickle|Tickle]]'
+- - Ace
+  - '[[SRD-Wring Out|Wring Out]]'
+- - Ace
+  - '[[SRD-Grassy Terrain|Grassy Terrain]]'
+- - Ace
+  - '[[SRD-Power Whip|Power Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Pro
+  - '[[SRD-Confusion|Confusion]]'
+- - Pro
+  - '[[SRD-Substitute|Substitute]]'
 Number: 114
 ShuffleToken: SRD-tangela-ShuffleToken.png
 Type1: Grass
@@ -68,4 +120,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Tangrowth]] | Level  | Slow    |
 
-![[SRD-Tangela-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Tangela.md"
+flatten moves as T
+where file.path = this.file.path
+```

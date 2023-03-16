@@ -24,8 +24,52 @@ Height:
 HiddenAbility: Rain Dish
 HomeSprite: SRD-blastoise-HomeSprite.png
 Image: blastoise.png
-Learnset: '[[SRD-Blastoise-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Withdraw|Withdraw]]'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - Amateur
+  - '[[SRD-Bubble|Bubble]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Flash Cannon|Flash Cannon]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Skull Bash|Skull Bash]]'
+- - Ace
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Ace
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Zap Cannon|Zap Cannon]]'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
+- - Pro
+  - '[[SRD-Hydro Cannon|Hydro Cannon]]'
 Number: 9
 ShuffleToken: SRD-blastoise-ShuffleToken.png
 Type1: Water
@@ -73,4 +117,14 @@ Weight:
 | From      | [[SRD-Wartortle]]             | Level  | Medium  |               |
 | To        | [[SRD-Blastoise (Mega Form)]] | Mega   |         | Blastoisinite |
 
-![[SRD-Blastoise-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Blastoise.md"
+flatten moves as T
+where file.path = this.file.path
+```

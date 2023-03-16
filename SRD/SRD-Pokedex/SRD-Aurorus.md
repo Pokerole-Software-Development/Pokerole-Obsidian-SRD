@@ -20,8 +20,60 @@ Height:
 HiddenAbility: Snow Warning
 HomeSprite: SRD-aurorus-HomeSprite.png
 Image: aurorus.png
-Learnset: '[[SRD-Aurorus-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Powder Snow|Powder Snow]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - Beginner
+  - '[[SRD-Rock Throw|Rock Throw]]'
+- - Beginner
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Mist|Mist]]'
+- - Amateur
+  - '[[SRD-Aurora Beam|Aurora Beam]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Round|Round]]'
+- - Amateur
+  - '[[SRD-Avalanche|Avalanche]]'
+- - Amateur
+  - '[[SRD-Hail|Hail]]'
+- - Amateur
+  - '[[SRD-Nature Power|Nature Power]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Encore|Encore]]'
+- - Ace
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Ace
+  - '[[SRD-Ice Beam|Ice Beam]]'
+- - Ace
+  - '[[SRD-Hyper Beam|Hyper Beam]]'
+- - Ace
+  - '[[SRD-Blizzard|Blizzard]]'
+- - Ace
+  - '[[SRD-Freeze Dry|Freeze Dry]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Discharge|Discharge]]'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
 Number: 699
 ShuffleToken: SRD-aurorus-ShuffleToken.png
 Type1: Rock
@@ -68,4 +120,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Amaura]] | Level  | Medium  |
 
-![[SRD-Aurorus-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Aurorus.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Water Veil
 HomeSprite: SRD-mantyke-HomeSprite.png
 Image: mantyke.png
-Learnset: '[[SRD-Mantyke-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Bubble|Bubble]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Beginner
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Beginner
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Wing Attack|Wing Attack]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Ace
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Ace
+  - '[[SRD-Bounce|Bounce]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Twister|Twister]]'
+- - Pro
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Pro
+  - '[[SRD-Tailwind|Tailwind]]'
 Number: 458
 ShuffleToken: SRD-mantyke-ShuffleToken.png
 Type1: Water
@@ -68,4 +112,14 @@ Weight:
 |:----------|:----------------|:--------|:----------------|
 | To        | [[SRD-Mantine]] | Special | Hit by Remoraid |
 
-![[SRD-Mantyke-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Mantyke.md"
+flatten moves as T
+where file.path = this.file.path
+```

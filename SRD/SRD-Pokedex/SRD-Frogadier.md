@@ -27,8 +27,50 @@ Height:
 HiddenAbility: Protean
 HomeSprite: SRD-frogadier-HomeSprite.png
 Image: frogadier.png
-Learnset: '[[SRD-Frogadier-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bubble|Bubble]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Lick|Lick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Smokescreen|Smokescreen]]'
+- - Amateur
+  - '[[SRD-Round|Round]]'
+- - Amateur
+  - '[[SRD-Fling|Fling]]'
+- - Amateur
+  - '[[SRD-Smack Down|Smack Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Substitute|Substitute]]'
+- - Ace
+  - '[[SRD-Bounce|Bounce]]'
+- - Ace
+  - '[[SRD-Double Team|Double Team]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - Pro
+  - '[[SRD-Toxic Spikes|Toxic Spikes]]'
+- - Pro
+  - '[[SRD-Water Pledge|Water Pledge]]'
 Number: 657
 ShuffleToken: SRD-frogadier-ShuffleToken.png
 Type1: Water
@@ -77,4 +119,14 @@ Weight:
 | To        | [[SRD-Greninja]]            | Level  | Medium  |
 | To        | [[SRD-Greninja (BBF Form)]] | Form   |         |
 
-![[SRD-Frogadier-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Frogadier.md"
+flatten moves as T
+where file.path = this.file.path
+```

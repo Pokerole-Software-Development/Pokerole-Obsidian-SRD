@@ -24,8 +24,54 @@ Height:
 HiddenAbility: Unnerve
 HomeSprite: SRD-fraxure-HomeSprite.png
 Image: fraxure.png
-Learnset: '[[SRD-Fraxure-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Assurance|Assurance]]'
+- - Beginner
+  - '[[SRD-Dragon Rage|Dragon Rage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Dual Chop|Dual Chop]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-False Swipe|False Swipe]]'
+- - Amateur
+  - '[[SRD-Dragon Claw|Dragon Claw]]'
+- - Amateur
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - Amateur
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Guillotine|Guillotine]]'
+- - Ace
+  - '[[SRD-Outrage|Outrage]]'
+- - Ace
+  - '[[SRD-Giga Impact|Giga Impact]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Pro
+  - '[[SRD-Counter|Counter]]'
+- - Pro
+  - '[[SRD-Night Slash|Night Slash]]'
 Number: 611
 ShuffleToken: SRD-fraxure-ShuffleToken.png
 Type1: Dragon
@@ -73,4 +119,14 @@ Weight:
 | From      | [[SRD-Axew]]    | Level  | Slow    |
 | To        | [[SRD-Haxorus]] | Level  | Slow    |
 
-![[SRD-Fraxure-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Fraxure.md"
+flatten moves as T
+where file.path = this.file.path
+```

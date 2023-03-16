@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Run Away
 HomeSprite: SRD-venonat-HomeSprite.png
 Image: venonat.png
-Learnset: '[[SRD-Venonat-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Foresight|Foresight]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Disable|Disable]]'
+- - Beginner
+  - '[[SRD-Supersonic|Supersonic]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Confusion|Confusion]]'
+- - Amateur
+  - '[[SRD-Poison Powder|Poison Powder]]'
+- - Amateur
+  - '[[SRD-Leech Life|Leech Life]]'
+- - Amateur
+  - '[[SRD-Stun Spore|Stun Spore]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Poison Fang|Poison Fang]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Ace
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - Ace
+  - '[[SRD-Sleep Powder|Sleep Powder]]'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Agility|Agility]]'
+- - Pro
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Pro
+  - '[[SRD-Giga Drain|Giga Drain]]'
 Number: 48
 ShuffleToken: SRD-venonat-ShuffleToken.png
 Type1: Bug
@@ -68,4 +110,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Venomoth]] | Level  | Slow    |
 
-![[SRD-Venonat-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Venonat.md"
+flatten moves as T
+where file.path = this.file.path
+```

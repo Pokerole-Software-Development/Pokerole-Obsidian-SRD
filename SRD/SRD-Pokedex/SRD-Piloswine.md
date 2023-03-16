@@ -24,8 +24,56 @@ Height:
 HiddenAbility: Thick Fat
 HomeSprite: SRD-piloswine-HomeSprite.png
 Image: piloswine.png
-Learnset: '[[SRD-Piloswine-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+- - Starter
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - Starter
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Peck|Peck]]'
+- - Beginner
+  - '[[SRD-Powder Snow|Powder Snow]]'
+- - Beginner
+  - '[[SRD-Take Down|Take Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Endure|Endure]]'
+- - Amateur
+  - '[[SRD-Mud Bomb|Mud Bomb]]'
+- - Amateur
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Amateur
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Amateur
+  - '[[SRD-Mist|Mist]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Blizzard|Blizzard]]'
+- - Ace
+  - '[[SRD-Amnesia|Amnesia]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Freeze Dry|Freeze Dry]]'
+- - Pro
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Pro
+  - '[[SRD-Avalanche|Avalanche]]'
 Number: 221
 ShuffleToken: SRD-piloswine-ShuffleToken.png
 Type1: Ice
@@ -73,4 +121,14 @@ Weight:
 | From      | [[SRD-Swinub]]    | Level  | Medium  |
 | To        | [[SRD-Mamoswine]] | Level  | Slow    |
 
-![[SRD-Piloswine-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Piloswine.md"
+flatten moves as T
+where file.path = this.file.path
+```

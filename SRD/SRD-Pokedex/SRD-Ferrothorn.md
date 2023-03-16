@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Anticipation
 HomeSprite: SRD-ferrothorn-HomeSprite.png
 Image: ferrothorn.png
-Learnset: '[[SRD-Ferrothorn-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Curse|Curse]]'
+- - Beginner
+  - '[[SRD-Rollout|Rollout]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Rock Climb|Rock Climb]]'
+- - Amateur
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Amateur
+  - '[[SRD-Pin Missile|Pin Missile]]'
+- - Amateur
+  - '[[SRD-Gyro Ball|Gyro Ball]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Mirror Shot|Mirror Shot]]'
+- - Amateur
+  - '[[SRD-Ingrain|Ingrain]]'
+- - Amateur
+  - '[[SRD-Self Destruct|Self Destruct]]'
+- - Amateur
+  - '[[SRD-Power Whip|Power Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Ace
+  - '[[SRD-Payback|Payback]]'
+- - Ace
+  - '[[SRD-Flash Cannon|Flash Cannon]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Pro
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Pro
+  - '[[SRD-Seed Bomb|Seed Bomb]]'
 Number: 598
 ShuffleToken: SRD-ferrothorn-ShuffleToken.png
 Type1: Grass
@@ -68,4 +116,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | From      | [[SRD-Ferroseed]] | Level  | Medium  |
 
-![[SRD-Ferrothorn-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Ferrothorn.md"
+flatten moves as T
+where file.path = this.file.path
+```

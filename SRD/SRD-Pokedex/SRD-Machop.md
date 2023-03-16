@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Steadfast
 HomeSprite: SRD-machop-HomeSprite.png
 Image: machop.png
-Learnset: '[[SRD-Machop-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Low Kick|Low Kick]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Beginner
+  - '[[SRD-Karate Chop|Karate Chop]]'
+- - Beginner
+  - '[[SRD-Foresight|Foresight]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Low Sweep|Low Sweep]]'
+- - Amateur
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Amateur
+  - '[[SRD-Seismic Toss|Seismic Toss]]'
+- - Amateur
+  - '[[SRD-Revenge|Revenge]]'
+- - Amateur
+  - '[[SRD-Vital Throw|Vital Throw]]'
+- - Amateur
+  - '[[SRD-Dual Chop|Dual Chop]]'
+- - Amateur
+  - '[[SRD-Submission|Submission]]'
+- - Amateur
+  - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Bulk Up|Bulk Up]]'
+- - Ace
+  - '[[SRD-Cross Chop|Cross Chop]]'
+- - Ace
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Ace
+  - '[[SRD-Dynamic Punch|Dynamic Punch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Meditate|Meditate]]'
+- - Pro
+  - '[[SRD-Bullet Punch|Bullet Punch]]'
+- - Pro
+  - '[[SRD-Ice Punch|Ice Punch]]'
 Number: 66
 ShuffleToken: SRD-machop-ShuffleToken.png
 Type1: Fighting
@@ -68,4 +116,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Machoke]] | Level  | Medium  |
 
-![[SRD-Machop-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Machop.md"
+flatten moves as T
+where file.path = this.file.path
+```

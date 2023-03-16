@@ -20,8 +20,40 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-mismagius-HomeSprite.png
 Image: mismagius.png
-Learnset: '[[SRD-Mismagius-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Magical Leaf|Magical Leaf]]'
+- - Beginner
+  - '[[SRD-Lucky Chant|Lucky Chant]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Astonish|Astonish]]'
+- - Amateur
+  - '[[SRD-Power Gem|Power Gem]]'
+- - Amateur
+  - '[[SRD-Psywave|Psywave]]'
+- - Amateur
+  - '[[SRD-Spite|Spite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Phantom Force|Phantom Force]]'
+- - Ace
+  - '[[SRD-Mystical Fire|Mystical Fire]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Wonder Room|Wonder Room]]'
+- - Pro
+  - '[[SRD-Foul Play|Foul Play]]'
+- - Pro
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
 Number: 429
 ShuffleToken: SRD-mismagius-ShuffleToken.png
 Type1: Ghost
@@ -68,4 +100,14 @@ Weight:
 |:----------|:-------------------|:-------|:-----------|
 | From      | [[SRD-Misdreavus]] | Stone  | Dusk Stone |
 
-![[SRD-Mismagius-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Mismagius.md"
+flatten moves as T
+where file.path = this.file.path
+```

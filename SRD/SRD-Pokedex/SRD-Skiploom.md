@@ -24,8 +24,60 @@ Height:
 HiddenAbility: Infiltrator
 HomeSprite: SRD-skiploom-HomeSprite.png
 Image: skiploom.png
-Learnset: '[[SRD-Skiploom-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Splash|Splash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Synthesis|Synthesis]]'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fairy Wind|Fairy Wind]]'
+- - Amateur
+  - '[[SRD-Poison Powder|Poison Powder]]'
+- - Amateur
+  - '[[SRD-Stun Spore|Stun Spore]]'
+- - Amateur
+  - '[[SRD-Sleep Powder|Sleep Powder]]'
+- - Amateur
+  - '[[SRD-Bullet Seed|Bullet Seed]]'
+- - Amateur
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Amateur
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Amateur
+  - '[[SRD-Acrobatics|Acrobatics]]'
+- - Amateur
+  - '[[SRD-Rage Powder|Rage Powder]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Cotton Spore|Cotton Spore]]'
+- - Ace
+  - '[[SRD-U-Turn|U-Turn]]'
+- - Ace
+  - '[[SRD-Worry Seed|Worry Seed]]'
+- - Ace
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Ace
+  - '[[SRD-Bounce|Bounce]]'
+- - Ace
+  - '[[SRD-Memento|Memento]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Silver Wind|Silver Wind]]'
+- - Pro
+  - '[[SRD-Seed Bomb|Seed Bomb]]'
+- - Pro
+  - '[[SRD-Aromatherapy|Aromatherapy]]'
 Number: 188
 ShuffleToken: SRD-skiploom-ShuffleToken.png
 Type1: Grass
@@ -73,4 +125,14 @@ Weight:
 | From      | [[SRD-Hoppip]]   | Level  | Medium  |
 | To        | [[SRD-Jumpluff]] | Level  | Medium  |
 
-![[SRD-Skiploom-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Skiploom.md"
+flatten moves as T
+where file.path = this.file.path
+```

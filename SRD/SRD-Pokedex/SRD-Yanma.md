@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Frisk
 HomeSprite: SRD-yanma-HomeSprite.png
 Image: yanma.png
-Learnset: '[[SRD-Yanma-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Foresight|Foresight]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Double Team|Double Team]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sonic Boom|Sonic Boom]]'
+- - Amateur
+  - '[[SRD-Detect|Detect]]'
+- - Amateur
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Amateur
+  - '[[SRD-Uproar|Uproar]]'
+- - Amateur
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Amateur
+  - '[[SRD-Wing Attack|Wing Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Screech|Screech]]'
+- - Ace
+  - '[[SRD-U-Turn|U-Turn]]'
+- - Ace
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Ace
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Feint|Feint]]'
+- - Pro
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Pro
+  - '[[SRD-Tailwind|Tailwind]]'
 Number: 193
 ShuffleToken: SRD-yanma-ShuffleToken.png
 Type1: Bug
@@ -68,4 +114,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Yanmega]] | Level  | Medium  |
 
-![[SRD-Yanma-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Yanma.md"
+flatten moves as T
+where file.path = this.file.path
+```

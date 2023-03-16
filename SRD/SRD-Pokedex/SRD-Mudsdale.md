@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Inner Focus
 HomeSprite: SRD-mudsdale-HomeSprite.png
 Image: mudsdale.png
-Learnset: '[[SRD-Mudsdale-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Starter
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Rototiller|Rototiller]]'
+- - Beginner
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - Beginner
+  - '[[SRD-Double Kick|Double Kick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Stomp|Stomp]]'
+- - Amateur
+  - '[[SRD-Bide|Bide]]'
+- - Amateur
+  - '[[SRD-High Horsepower|High Horsepower]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Heavy Slam|Heavy Slam]]'
+- - Amateur
+  - '[[SRD-Counter|Counter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Mega Kick|Mega Kick]]'
+- - Ace
+  - '[[SRD-Superpower|Superpower]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Pro
+  - '[[SRD-Giga Impact|Giga Impact]]'
+- - Pro
+  - '[[SRD-Close Combat|Close Combat]]'
 Number: 750
 ShuffleToken: SRD-mudsdale-ShuffleToken.png
 Type1: Ground
@@ -68,4 +110,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Mudbray]] | Level  | Medium  |
 
-![[SRD-Mudsdale-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Mudsdale.md"
+flatten moves as T
+where file.path = this.file.path
+```

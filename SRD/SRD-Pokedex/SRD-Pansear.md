@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Blaze
 HomeSprite: SRD-pansear-HomeSprite.png
 Image: pansear.png
-Learnset: '[[SRD-Pansear-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Play Nice|Play Nice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - Beginner
+  - '[[SRD-Lick|Lick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Incinerate|Incinerate]]'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Yawn|Yawn]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Flame Burst|Flame Burst]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Amateur
+  - '[[SRD-Fling|Fling]]'
+- - Amateur
+  - '[[SRD-Acrobatics|Acrobatics]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Fire Blast|Fire Blast]]'
+- - Ace
+  - '[[SRD-Natural Gift|Natural Gift]]'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Pro
+  - '[[SRD-Fire Spin|Fire Spin]]'
+- - Pro
+  - '[[SRD-Disarming Voice|Disarming Voice]]'
 Number: 513
 ShuffleToken: SRD-pansear-ShuffleToken.png
 Type1: Fire
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-----------------|:-------|:-----------|
 | To        | [[SRD-Simisear]] | Stone  | Fire Stone |
 
-![[SRD-Pansear-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Pansear.md"
+flatten moves as T
+where file.path = this.file.path
+```

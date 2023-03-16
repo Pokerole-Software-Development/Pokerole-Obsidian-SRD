@@ -16,8 +16,58 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-dhelmise-HomeSprite.png
 Image: dhelmise.png
-Learnset: '[[SRD-Dhelmise-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growth|Growth]]'
+- - Starter
+  - '[[SRD-Absorb|Absorb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Beginner
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - Beginner
+  - '[[SRD-Astonish|Astonish]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Switcheroo|Switcheroo]]'
+- - Amateur
+  - '[[SRD-Wrap|Wrap]]'
+- - Amateur
+  - '[[SRD-Gyro Ball|Gyro Ball]]'
+- - Amateur
+  - '[[SRD-Metal Sound|Metal Sound]]'
+- - Amateur
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Amateur
+  - '[[SRD-Whirlpool|Whirlpool]]'
+- - Amateur
+  - '[[SRD-Anchor Shot|Anchor Shot]]'
+- - Amateur
+  - '[[SRD-Shadow Ball|Shadow Ball]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Energy Ball|Energy Ball]]'
+- - Ace
+  - '[[SRD-Heavy Slam|Heavy Slam]]'
+- - Ace
+  - '[[SRD-Shadow Force|Shadow Force]]'
+- - Ace
+  - '[[SRD-Power Whip|Power Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Surf|Surf]]'
+- - Pro
+  - '[[SRD-Grass Knot|Grass Knot]]'
+- - Pro
+  - '[[SRD-Brutal Swing|Brutal Swing]]'
 Number: 781
 ShuffleToken: SRD-dhelmise-ShuffleToken.png
 Type1: Ghost
@@ -60,4 +110,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-![[SRD-Dhelmise-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Dhelmise.md"
+flatten moves as T
+where file.path = this.file.path
+```

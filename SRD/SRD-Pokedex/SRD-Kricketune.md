@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Technician
 HomeSprite: SRD-kricketune-HomeSprite.png
 Image: kricketune.png
-Learnset: '[[SRD-Kricketune-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Bide|Bide]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Absorb|Absorb]]'
+- - Amateur
+  - '[[SRD-Sing|Sing]]'
+- - Amateur
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Fell Stinger|Fell Stinger]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Ace
+  - '[[SRD-Sticky Web|Sticky Web]]'
+- - Ace
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - Ace
+  - '[[SRD-Perish Song|Perish Song]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Pro
+  - '[[SRD-Silver Wind|Silver Wind]]'
+- - Pro
+  - '[[SRD-Mud Slap|Mud Slap]]'
 Number: 402
 ShuffleToken: SRD-kricketune-ShuffleToken.png
 Type1: Bug
@@ -68,4 +112,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | From      | [[SRD-Kricketot]] | Level  | Fast    |
 
-![[SRD-Kricketune-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Kricketune.md"
+flatten moves as T
+where file.path = this.file.path
+```

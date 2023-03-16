@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Flare Boost
 HomeSprite: SRD-drifblim-HomeSprite.png
 Image: drifblim.png
-Learnset: '[[SRD-Drifblim-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Constrict|Constrict]]'
+- - Starter
+  - '[[SRD-Minimize|Minimize]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Astonish|Astonish]]'
+- - Beginner
+  - '[[SRD-Gust|Gust]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Amateur
+  - '[[SRD-Payback|Payback]]'
+- - Amateur
+  - '[[SRD-Ominous Wind|Ominous Wind]]'
+- - Amateur
+  - '[[SRD-Stockpile|Stockpile]]'
+- - Amateur
+  - '[[SRD-Hex|Hex]]'
+- - Amateur
+  - '[[SRD-Swallow|Swallow]]'
+- - Amateur
+  - '[[SRD-Spit Up|Spit Up]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Shadow Ball|Shadow Ball]]'
+- - Ace
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Ace
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - Ace
+  - '[[SRD-Phantom Force|Phantom Force]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Pro
+  - '[[SRD-Shock Wave|Shock Wave]]'
+- - Pro
+  - '[[SRD-Icy Wind|Icy Wind]]'
 Number: 426
 ShuffleToken: SRD-drifblim-ShuffleToken.png
 Type1: Ghost
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Drifloon]] | Level  | Medium  |
 
-![[SRD-Drifblim-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Drifblim.md"
+flatten moves as T
+where file.path = this.file.path
+```

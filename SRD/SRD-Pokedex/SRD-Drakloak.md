@@ -24,8 +24,56 @@ Height:
 HiddenAbility: Cursed Body
 HomeSprite: SRD-drakloak-HomeSprite.png
 Image: drakloak.png
-Learnset: '[[SRD-Drakloak-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - Starter
+  - '[[SRD-Infestation|Infestation]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Lock-On|Lock-On]]'
+- - Amateur
+  - '[[SRD-Assurance|Assurance]]'
+- - Amateur
+  - '[[SRD-Hex|Hex]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Double Hit|Double Hit]]'
+- - Amateur
+  - '[[SRD-U-Turn|U-Turn]]'
+- - Amateur
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - Amateur
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Phantom Force|Phantom Force]]'
+- - Ace
+  - '[[SRD-Take Down|Take Down]]'
+- - Ace
+  - '[[SRD-Dragon Rush|Dragon Rush]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Last Resort|Last Resort]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Pro
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Pro
+  - '[[SRD-Draco Meteor|Draco Meteor]]'
 Number: 886
 ShuffleToken: SRD-drakloak-ShuffleToken.png
 Type1: Dragon
@@ -73,4 +121,14 @@ Weight:
 | From      | [[SRD-Dreepy]]    | Level  | Slow    |
 | To        | [[SRD-Dragapult]] | Level  | Slow    |
 
-![[SRD-Drakloak-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Drakloak.md"
+flatten moves as T
+where file.path = this.file.path
+```

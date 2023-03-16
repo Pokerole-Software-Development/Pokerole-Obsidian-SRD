@@ -16,8 +16,44 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-azelf-HomeSprite.png
 Image: azelf.png
-Learnset: '[[SRD-Azelf-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Last Resort|Last Resort]]'
+- - Master
+  - '[[SRD-Natural Gift|Natural Gift]]'
+- - Master
+  - '[[SRD-Flail|Flail]]'
+- - Master
+  - '[[SRD-Rest|Rest]]'
+- - Master
+  - '[[SRD-Confusion|Confusion]]'
+- - Master
+  - '[[SRD-Imprison|Imprison]]'
+- - Master
+  - '[[SRD-Detect|Detect]]'
+- - Master
+  - '[[SRD-Swift|Swift]]'
+- - Master
+  - '[[SRD-Uproar|Uproar]]'
+- - Master
+  - '[[SRD-Future Sight|Future Sight]]'
+- - Master
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Master
+  - '[[SRD-Extrasensory|Extrasensory]]'
+- - Master
+  - '[[SRD-Explosion|Explosion]]'
+- - Master
+  - '[[SRD-Hidden Power|Hidden Power]]'
+- - Master
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Master
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Master
+  - '[[SRD-Skill Swap|Skill Swap]]'
+- - Master
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
 Number: 482
 ShuffleToken: SRD-azelf-ShuffleToken.png
 Type1: Psychic
@@ -60,4 +96,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-![[SRD-Azelf-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Azelf.md"
+flatten moves as T
+where file.path = this.file.path
+```

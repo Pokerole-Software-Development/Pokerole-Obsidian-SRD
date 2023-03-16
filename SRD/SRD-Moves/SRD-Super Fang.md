@@ -3,9 +3,10 @@ Accuracy1: Dexterity
 Accuracy2: Brawl
 AddedEffects:
   FixedDamage:
-    BasedOn: Hp
     MaxValue: 10
-    Percentage: 0.5
+    Target: Targets
+    Type: HpPercentage
+    Value: 0.5
 Attributes:
   AccuracyReduction: 1
   IgnoreDefenses: true

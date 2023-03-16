@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Quick Feet
 HomeSprite: SRD-shroomish-HomeSprite.png
 Image: shroomish.png
-Learnset: '[[SRD-Shroomish-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Absorb|Absorb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tackle|Tackle]]'
+- - Beginner
+  - '[[SRD-Stun Spore|Stun Spore]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Amateur
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Poison Powder|Poison Powder]]'
+- - Amateur
+  - '[[SRD-Worry Seed|Worry Seed]]'
+- - Amateur
+  - '[[SRD-Growth|Growth]]'
+- - Amateur
+  - '[[SRD-Toxic|Toxic]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Ace
+  - '[[SRD-Seed Bomb|Seed Bomb]]'
+- - Ace
+  - '[[SRD-Spore|Spore]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Charm|Charm]]'
+- - Pro
+  - '[[SRD-Bullet Seed|Bullet Seed]]'
+- - Pro
+  - '[[SRD-Fake Tears|Fake Tears]]'
 Number: 285
 ShuffleToken: SRD-shroomish-ShuffleToken.png
 Type1: Grass
@@ -68,4 +108,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Breloom]] | Level  | Medium  |
 
-![[SRD-Shroomish-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Shroomish.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,62 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-flygon-HomeSprite.png
 Image: flygon.png
-Learnset: '[[SRD-Flygon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sonic Boom|Sonic Boom]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Amateur
+  - '[[SRD-Sand Tomb|Sand Tomb]]'
+- - Amateur
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - Amateur
+  - '[[SRD-Bide|Bide]]'
+- - Amateur
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Amateur
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Amateur
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Dragon Tail|Dragon Tail]]'
+- - Amateur
+  - '[[SRD-Earth Power|Earth Power]]'
+- - Amateur
+  - '[[SRD-Uproar|Uproar]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Sandstorm|Sandstorm]]'
+- - Ace
+  - '[[SRD-Hyper Beam|Hyper Beam]]'
+- - Ace
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Dragon Claw|Dragon Claw]]'
+- - Ace
+  - '[[SRD-Dragon Rush|Dragon Rush]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
+- - Pro
+  - '[[SRD-Draco Meteor|Draco Meteor]]'
 Number: 330
 ShuffleToken: SRD-flygon-ShuffleToken.png
 Type1: Ground
@@ -68,4 +122,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Vibrava]] | Level  | Slow    |
 
-![[SRD-Flygon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Flygon.md"
+flatten moves as T
+where file.path = this.file.path
+```

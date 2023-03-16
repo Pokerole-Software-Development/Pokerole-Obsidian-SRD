@@ -16,8 +16,60 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-lunatone-HomeSprite.png
 Image: lunatone.png
-Learnset: '[[SRD-Lunatone-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Moonblast|Moonblast]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Confusion|Confusion]]'
+- - Beginner
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Beginner
+  - '[[SRD-Rock Throw|Rock Throw]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Power Gem|Power Gem]]'
+- - Amateur
+  - '[[SRD-Rock Polish|Rock Polish]]'
+- - Amateur
+  - '[[SRD-Psyshock|Psyshock]]'
+- - Amateur
+  - '[[SRD-Embargo|Embargo]]'
+- - Amateur
+  - '[[SRD-Psywave|Psywave]]'
+- - Amateur
+  - '[[SRD-Cosmic Power|Cosmic Power]]'
+- - Amateur
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Amateur
+  - '[[SRD-Heal Block|Heal Block]]'
+- - Amateur
+  - '[[SRD-Psychic|Psychic]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - Ace
+  - '[[SRD-Future Sight|Future Sight]]'
+- - Ace
+  - '[[SRD-Magic Room|Magic Room]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Trick Room|Trick Room]]'
+- - Pro
+  - '[[SRD-Magic Coat|Magic Coat]]'
+- - Pro
+  - '[[SRD-Skill Swap|Skill Swap]]'
 Number: 337
 ShuffleToken: SRD-lunatone-ShuffleToken.png
 Type1: Rock
@@ -60,4 +112,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Lunatone-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Lunatone.md"
+flatten moves as T
+where file.path = this.file.path
+```

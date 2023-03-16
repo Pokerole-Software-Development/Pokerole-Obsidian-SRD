@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Regenerator
 HomeSprite: SRD-mareanie-HomeSprite.png
 Image: mareanie.png
-Learnset: '[[SRD-Mareanie-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Poison Sting|Poison Sting]]'
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Toxic Spikes|Toxic Spikes]]'
+- - Beginner
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Toxic|Toxic]]'
+- - Amateur
+  - '[[SRD-Venoshock|Venoshock]]'
+- - Amateur
+  - '[[SRD-Spike Cannon|Spike Cannon]]'
+- - Amateur
+  - '[[SRD-Pin Missile|Pin Missile]]'
+- - Amateur
+  - '[[SRD-Poison Jab|Poison Jab]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Venom Drench|Venom Drench]]'
+- - Ace
+  - '[[SRD-Recover|Recover]]'
+- - Ace
+  - '[[SRD-Liquidation|Liquidation]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Protect|Protect]]'
+- - Pro
+  - '[[SRD-Stockpile|Stockpile]]'
+- - Pro
+  - '[[SRD-Sludge Bomb|Sludge Bomb]]'
 Number: 747
 ShuffleToken: SRD-mareanie-ShuffleToken.png
 Type1: Poison
@@ -68,4 +108,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Toxapex]] | Level  | Medium  |
 
-![[SRD-Mareanie-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Mareanie.md"
+flatten moves as T
+where file.path = this.file.path
+```

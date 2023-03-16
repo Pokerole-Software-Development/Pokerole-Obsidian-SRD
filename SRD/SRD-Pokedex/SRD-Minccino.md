@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Skill Link
 HomeSprite: SRD-minccino-HomeSprite.png
 Image: minccino.png
-Learnset: '[[SRD-Minccino-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Beginner
+  - '[[SRD-Tickle|Tickle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Encore|Encore]]'
+- - Amateur
+  - '[[SRD-Swift|Swift]]'
+- - Amateur
+  - '[[SRD-Sing|Sing]]'
+- - Amateur
+  - '[[SRD-Tail Slap|Tail Slap]]'
+- - Amateur
+  - '[[SRD-Charm|Charm]]'
+- - Amateur
+  - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
+- - Amateur
+  - '[[SRD-Echoed Voice|Echoed Voice]]'
+- - Amateur
+  - '[[SRD-Captivate|Captivate]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Slam|Slam]]'
+- - Ace
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Ace
+  - '[[SRD-Last Resort|Last Resort]]'
+- - Ace
+  - '[[SRD-After You|After You]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Pro
+  - '[[SRD-Iron Tail|Iron Tail]]'
+- - Pro
+  - '[[SRD-Seed Bomb|Seed Bomb]]'
 Number: 572
 ShuffleToken: SRD-minccino-ShuffleToken.png
 Type1: Normal
@@ -68,4 +116,14 @@ Weight:
 |:----------|:-----------------|:-------|:------------|
 | To        | [[SRD-Cinccino]] | Stone  | Shiny Stone |
 
-![[SRD-Minccino-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Minccino.md"
+flatten moves as T
+where file.path = this.file.path
+```

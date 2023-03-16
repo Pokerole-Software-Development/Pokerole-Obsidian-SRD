@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Hustle
 HomeSprite: SRD-rattata-HomeSprite.png
 Image: rattata.png
-Learnset: '[[SRD-Rattata-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Amateur
+  - '[[SRD-Hyper Fang|Hyper Fang]]'
+- - Amateur
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Amateur
+  - '[[SRD-Assurance|Assurance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Super Fang|Super Fang]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Endeavor|Endeavor]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Flame Wheel|Flame Wheel]]'
+- - Pro
+  - '[[SRD-Screech|Screech]]'
+- - Pro
+  - '[[SRD-Iron Tail|Iron Tail]]'
 Number: 19
 ShuffleToken: SRD-rattata-ShuffleToken.png
 Type1: Normal
@@ -68,4 +108,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Raticate]] | Level  | Medium  |
 
-![[SRD-Rattata-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Rattata.md"
+flatten moves as T
+where file.path = this.file.path
+```

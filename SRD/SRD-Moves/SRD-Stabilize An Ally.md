@@ -1,6 +1,8 @@
 ---
 Accuracy1: Clever
 Accuracy2: Medicine
+AddedEffects: {}
+Attributes: {}
 Damage1: ''
 Damage2: ''
 Description: ''

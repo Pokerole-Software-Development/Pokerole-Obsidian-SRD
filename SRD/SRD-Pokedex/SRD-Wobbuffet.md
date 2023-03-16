@@ -20,8 +20,20 @@ Height:
 HiddenAbility: Telepathy
 HomeSprite: SRD-wobbuffet-HomeSprite.png
 Image: wobbuffet.png
-Learnset: '[[SRD-Wobbuffet-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Beginner
+  - '[[SRD-Counter|Counter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Amateur
+  - '[[SRD-Mirror Coat|Mirror Coat]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Destiny Bond|Destiny Bond]]'
 Number: 202
 ShuffleToken: SRD-wobbuffet-ShuffleToken.png
 Type1: Psychic
@@ -68,4 +80,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Wynaut]] | Level  | Medium  |
 
-![[SRD-Wobbuffet-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Wobbuffet.md"
+flatten moves as T
+where file.path = this.file.path
+```

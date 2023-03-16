@@ -19,8 +19,60 @@ Height:
 HiddenAbility: Steadfast
 HomeSprite: SRD-machamp-HomeSprite.png
 Image: machamp.png
-Learnset: '[[SRD-Machamp-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Low Kick|Low Kick]]'
+- - Starter
+  - '[[SRD-Strength|Strength]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Foresight|Foresight]]'
+- - Beginner
+  - '[[SRD-Karate Chop|Karate Chop]]'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Low Sweep|Low Sweep]]'
+- - Amateur
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Amateur
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Amateur
+  - '[[SRD-Seismic Toss|Seismic Toss]]'
+- - Amateur
+  - '[[SRD-Revenge|Revenge]]'
+- - Amateur
+  - '[[SRD-Vital Throw|Vital Throw]]'
+- - Amateur
+  - '[[SRD-Dual Chop|Dual Chop]]'
+- - Amateur
+  - '[[SRD-Submission|Submission]]'
+- - Amateur
+  - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Bulk Up|Bulk Up]]'
+- - Ace
+  - '[[SRD-Cross Chop|Cross Chop]]'
+- - Ace
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Ace
+  - '[[SRD-Dynamic Punch|Dynamic Punch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Thunder Punch|Thunder Punch]]'
+- - Pro
+  - '[[SRD-Tickle|Tickle]]'
+- - Pro
+  - '[[SRD-Close Combat|Close Combat]]'
 Number: 68
 ShuffleToken: SRD-machamp-ShuffleToken.png
 Type1: Fighting
@@ -67,4 +119,14 @@ Weight:
 |:----------|:----------------|:-------|
 | From      | [[SRD-Machoke]] | Trade  |
 
-![[SRD-Machamp-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Machamp.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -25,8 +25,54 @@ Height:
 HiddenAbility: Moody
 HomeSprite: SRD-glalie-HomeSprite.png
 Image: glalie.png
-Learnset: '[[SRD-Glalie-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - Starter
+  - '[[SRD-Powder Snow|Powder Snow]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Double Team|Double Team]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Ice Shard|Ice Shard]]'
+- - Amateur
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Amateur
+  - '[[SRD-Ice Beam|Ice Beam]]'
+- - Amateur
+  - '[[SRD-Frost Breath|Frost Breath]]'
+- - Amateur
+  - '[[SRD-Freeze Dry|Freeze Dry]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Hail|Hail]]'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Blizzard|Blizzard]]'
+- - Ace
+  - '[[SRD-Sheer Cold|Sheer Cold]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Weather Ball|Weather Ball]]'
+- - Pro
+  - '[[SRD-Rollout|Rollout]]'
+- - Pro
+  - '[[SRD-Iron Head|Iron Head]]'
 Number: 362
 ShuffleToken: SRD-glalie-ShuffleToken.png
 Type1: Ice
@@ -74,4 +120,14 @@ Weight:
 | From      | [[SRD-Snorunt]]            | Level  | Medium  | Male     |           |
 | To        | [[SRD-Glalie (Mega Form)]] | Mega   |         |          | Glalitite |
 
-![[SRD-Glalie-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Glalie.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -16,8 +16,48 @@ Height:
 HiddenAbility: Sand Rush
 HomeSprite: SRD-dracovish-HomeSprite.png
 Image: dracovish.png
-Learnset: '[[SRD-Dracovish-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Protect|Protect]]'
+- - Beginner
+  - '[[SRD-Brutal Swing|Brutal Swing]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
+- - Amateur
+  - '[[SRD-Stomp|Stomp]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Super Fang|Super Fang]]'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Fishious Rend|Fishious Rend]]'
+- - Ace
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - Ace
+  - '[[SRD-Dragon Rush|Dragon Rush]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Draco Meteor|Draco Meteor]]'
+- - Pro
+  - '[[SRD-Psychic Fangs|Psychic Fangs]]'
+- - Pro
+  - '[[SRD-Whirlpool|Whirlpool]]'
 Number: 882
 ShuffleToken: SRD-dracovish-ShuffleToken.png
 Type1: Water
@@ -60,4 +100,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-![[SRD-Dracovish-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Dracovish.md"
+flatten moves as T
+where file.path = this.file.path
+```

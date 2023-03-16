@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Moxie
 HomeSprite: SRD-pyroar-HomeSprite.png
 Image: pyroar.png
-Learnset: '[[SRD-Pyroar-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Take Down|Take Down]]'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - Beginner
+  - '[[SRD-Work Up|Work Up]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Noble Roar|Noble Roar]]'
+- - Amateur
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - Amateur
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Amateur
+  - '[[SRD-Endeavor|Endeavor]]'
+- - Amateur
+  - '[[SRD-Echoed Voice|Echoed Voice]]'
+- - Amateur
+  - '[[SRD-Hyper Beam|Hyper Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Ace
+  - '[[SRD-Incinerate|Incinerate]]'
+- - Ace
+  - '[[SRD-Overheat|Overheat]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
+- - Pro
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Pro
+  - '[[SRD-Endeavor|Endeavor]]'
 Number: 668
 ShuffleToken: SRD-pyroar-ShuffleToken.png
 Type1: Fire
@@ -68,4 +114,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Litleo]] | Level  | Medium  |
 
-![[SRD-Pyroar-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Pyroar.md"
+flatten moves as T
+where file.path = this.file.path
+```

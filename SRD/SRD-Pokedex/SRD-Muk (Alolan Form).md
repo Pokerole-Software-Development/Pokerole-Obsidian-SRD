@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Power of Alchemy
 HomeSprite: SRD-muk-alolan-form-HomeSprite.png
 Image: muk-alolan-form.png
-Learnset: '[[SRD-Muk (Alolan Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Poison Gas|Poison Gas]]'
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Disable|Disable]]'
+- - Beginner
+  - '[[SRD-Harden|Harden]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Venom Drench|Venom Drench]]'
+- - Amateur
+  - '[[SRD-Acid Spray|Acid Spray]]'
+- - Amateur
+  - '[[SRD-Poison Fang|Poison Fang]]'
+- - Amateur
+  - '[[SRD-Minimize|Minimize]]'
+- - Amateur
+  - '[[SRD-Fling|Fling]]'
+- - Amateur
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Gunk Shot|Gunk Shot]]'
+- - Ace
+  - '[[SRD-Acid Armor|Acid Armor]]'
+- - Ace
+  - '[[SRD-Belch|Belch]]'
+- - Ace
+  - '[[SRD-Memento|Memento]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Stockpile|Stockpile]]'
+- - Pro
+  - '[[SRD-Swallow|Swallow]]'
+- - Pro
+  - '[[SRD-Shadow Sneak|Shadow Sneak]]'
 Number: 89
 ShuffleToken: SRD-muk-alolan-form-ShuffleToken.png
 Type1: Poison
@@ -68,4 +116,14 @@ Weight:
 |:----------|:-----------------------------|:-------|:--------|
 | From      | [[SRD-Grimer (Alolan Form)]] | Level  | Slow    |
 
-![[SRD-Muk (Alolan Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Muk (Alolan Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

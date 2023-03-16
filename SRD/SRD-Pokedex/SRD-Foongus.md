@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Regenerator
 HomeSprite: SRD-foongus-HomeSprite.png
 Image: foongus.png
-Learnset: '[[SRD-Foongus-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Absorb|Absorb]]'
+- - Starter
+  - '[[SRD-Growth|Growth]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Astonish|Astonish]]'
+- - Beginner
+  - '[[SRD-Bide|Bide]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Amateur
+  - '[[SRD-Ingrain|Ingrain]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Amateur
+  - '[[SRD-Synthesis|Synthesis]]'
+- - Amateur
+  - '[[SRD-Toxic|Toxic]]'
+- - Amateur
+  - '[[SRD-Clear Smog|Clear Smog]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Ace
+  - '[[SRD-Solar Beam|Solar Beam]]'
+- - Ace
+  - '[[SRD-Rage Powder|Rage Powder]]'
+- - Ace
+  - '[[SRD-Spore|Spore]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Seed Bomb|Seed Bomb]]'
+- - Pro
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Pro
+  - '[[SRD-Gastro Acid|Gastro Acid]]'
 Number: 590
 ShuffleToken: SRD-foongus-ShuffleToken.png
 Type1: Grass
@@ -68,4 +112,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Amoonguss]] | Level  | Medium  |
 
-![[SRD-Foongus-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Foongus.md"
+flatten moves as T
+where file.path = this.file.path
+```

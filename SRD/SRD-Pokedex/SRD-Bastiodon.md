@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Soundproof
 HomeSprite: SRD-bastiodon-HomeSprite.png
 Image: bastiodon.png
-Learnset: '[[SRD-Bastiodon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Taunt|Taunt]]'
+- - Beginner
+  - '[[SRD-Metal Sound|Metal Sound]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Swagger|Swagger]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Block|Block]]'
+- - Amateur
+  - '[[SRD-Endure|Endure]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Metal Burst|Metal Burst]]'
+- - Ace
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Ace
+  - '[[SRD-Heavy Slam|Heavy Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Guard Split|Guard Split]]'
+- - Pro
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Pro
+  - '[[SRD-Fissure|Fissure]]'
 Number: 411
 ShuffleToken: SRD-bastiodon-ShuffleToken.png
 Type1: Rock
@@ -68,4 +108,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Shieldon]] | Level  | Medium  |
 
-![[SRD-Bastiodon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Bastiodon.md"
+flatten moves as T
+where file.path = this.file.path
+```

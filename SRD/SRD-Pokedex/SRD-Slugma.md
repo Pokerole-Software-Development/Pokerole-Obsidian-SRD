@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Weak Armor
 HomeSprite: SRD-slugma-HomeSprite.png
 Image: slugma.png
-Learnset: '[[SRD-Slugma-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Smog|Smog]]'
+- - Starter
+  - '[[SRD-Yawn|Yawn]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - Beginner
+  - '[[SRD-Rock Throw|Rock Throw]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Harden|Harden]]'
+- - Amateur
+  - '[[SRD-Incinerate|Incinerate]]'
+- - Amateur
+  - '[[SRD-Clear Smog|Clear Smog]]'
+- - Amateur
+  - '[[SRD-Recover|Recover]]'
+- - Amateur
+  - '[[SRD-Flame Burst|Flame Burst]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Amateur
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Lava Plume|Lava Plume]]'
+- - Ace
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Ace
+  - '[[SRD-Earth Power|Earth Power]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Acid Armor|Acid Armor]]'
+- - Pro
+  - '[[SRD-Smokescreen|Smokescreen]]'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
 Number: 218
 ShuffleToken: SRD-slugma-ShuffleToken.png
 Type1: Fire
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Magcargo]] | Level  | Slow    |
 
-![[SRD-Slugma-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Slugma.md"
+flatten moves as T
+where file.path = this.file.path
+```

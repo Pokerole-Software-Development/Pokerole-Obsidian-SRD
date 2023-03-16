@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Water Absorb
 HomeSprite: SRD-araquanid-HomeSprite.png
 Image: araquanid.png
-Learnset: '[[SRD-Araquanid-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Water Sport|Water Sport]]'
+- - Starter
+  - '[[SRD-Bubble|Bubble]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Infestation|Infestation]]'
+- - Beginner
+  - '[[SRD-Spider Web|Spider Web]]'
+- - Beginner
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Soak|Soak]]'
+- - Amateur
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Amateur
+  - '[[SRD-Leech Life|Leech Life]]'
+- - Amateur
+  - '[[SRD-Mirror Coat|Mirror Coat]]'
+- - Amateur
+  - '[[SRD-Lunge|Lunge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Liquidation|Liquidation]]'
+- - Ace
+  - '[[SRD-Entrainment|Entrainment]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Power Split|Power Split]]'
+- - Pro
+  - '[[SRD-Attract|Attract]]'
+- - Pro
+  - '[[SRD-Scald|Scald]]'
 Number: 752
 ShuffleToken: SRD-araquanid-ShuffleToken.png
 Type1: Water
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Dewpider]] | Level  | Medium  |
 
-![[SRD-Araquanid-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Araquanid.md"
+flatten moves as T
+where file.path = this.file.path
+```

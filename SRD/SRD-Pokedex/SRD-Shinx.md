@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Guts
 HomeSprite: SRD-shinx-HomeSprite.png
 Image: shinx.png
-Learnset: '[[SRD-Shinx-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Charge|Charge]]'
+- - Beginner
+  - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Spark|Spark]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Roar|Roar]]'
+- - Amateur
+  - '[[SRD-Swagger|Swagger]]'
+- - Amateur
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Ace
+  - '[[SRD-Discharge|Discharge]]'
+- - Ace
+  - '[[SRD-Wild Charge|Wild Charge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fake Tears|Fake Tears]]'
+- - Pro
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Pro
+  - '[[SRD-Fire Fang|Fire Fang]]'
 Number: 403
 ShuffleToken: SRD-shinx-ShuffleToken.png
 Type1: Electric
@@ -68,4 +108,14 @@ Weight:
 |:----------|:--------------|:-------|:--------|
 | To        | [[SRD-Luxio]] | Level  | Medium  |
 
-![[SRD-Shinx-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Shinx.md"
+flatten moves as T
+where file.path = this.file.path
+```

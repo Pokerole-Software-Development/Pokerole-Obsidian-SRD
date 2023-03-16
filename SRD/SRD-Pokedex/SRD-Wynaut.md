@@ -20,8 +20,24 @@ Height:
 HiddenAbility: Telepathy
 HomeSprite: SRD-wynaut-HomeSprite.png
 Image: wynaut.png
-Learnset: '[[SRD-Wynaut-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Charm|Charm]]'
+- - Starter
+  - '[[SRD-Encore|Encore]]'
+- - Starter
+  - '[[SRD-Splash|Splash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Counter|Counter]]'
+- - Amateur
+  - '[[SRD-Destiny Bond|Destiny Bond]]'
+- - Amateur
+  - '[[SRD-Mirror Coat|Mirror Coat]]'
+- - Amateur
+  - '[[SRD-Safeguard|Safeguard]]'
 Number: 360
 ShuffleToken: SRD-wynaut-ShuffleToken.png
 Type1: Psychic
@@ -68,4 +84,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Wobbuffet]] | Level  | Medium  |
 
-![[SRD-Wynaut-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Wynaut.md"
+flatten moves as T
+where file.path = this.file.path
+```

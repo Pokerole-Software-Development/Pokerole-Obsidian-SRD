@@ -20,8 +20,62 @@ Height:
 HiddenAbility: Analytic
 HomeSprite: SRD-watchog-HomeSprite.png
 Image: watchog.png
-Learnset: '[[SRD-Watchog-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Low Kick|Low Kick]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Detect|Detect]]'
+- - Beginner
+  - '[[SRD-Bide|Bide]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Rototiller|Rototiller]]'
+- - Amateur
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Amateur
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Amateur
+  - '[[SRD-Super Fang|Super Fang]]'
+- - Amateur
+  - '[[SRD-After You|After You]]'
+- - Amateur
+  - '[[SRD-Psych Up|Psych Up]]'
+- - Amateur
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Amateur
+  - '[[SRD-Mean Look|Mean Look]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Hyper Fang|Hyper Fang]]'
+- - Ace
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Ace
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Ace
+  - '[[SRD-Slam|Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fire Punch|Fire Punch]]'
+- - Pro
+  - '[[SRD-Thunder Punch|Thunder Punch]]'
+- - Pro
+  - '[[SRD-Revenge|Revenge]]'
 Number: 505
 ShuffleToken: SRD-watchog-ShuffleToken.png
 Type1: Normal
@@ -68,4 +122,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Patrat]] | Level  | Fast    |
 
-![[SRD-Watchog-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Watchog.md"
+flatten moves as T
+where file.path = this.file.path
+```

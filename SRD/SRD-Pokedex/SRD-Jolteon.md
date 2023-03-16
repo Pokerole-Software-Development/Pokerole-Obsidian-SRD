@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Quick Feet
 HomeSprite: SRD-jolteon-HomeSprite.png
 Image: jolteon.png
-Learnset: '[[SRD-Jolteon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Beginner
+  - '[[SRD-Thunder Shock|Thunder Shock]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Amateur
+  - '[[SRD-Double Kick|Double Kick]]'
+- - Amateur
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
+- - Amateur
+  - '[[SRD-Pin Missile|Pin Missile]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Discharge|Discharge]]'
+- - Ace
+  - '[[SRD-Last Resort|Last Resort]]'
+- - Ace
+  - '[[SRD-Thunder|Thunder]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Wish|Wish]]'
+- - Pro
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
 Number: 135
 ShuffleToken: SRD-jolteon-ShuffleToken.png
 Type1: Electric
@@ -68,4 +110,14 @@ Weight:
 |:----------|:--------------|:-------|:--------------|
 | From      | [[SRD-Eevee]] | Stone  | Thunder Stone |
 
-![[SRD-Jolteon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Jolteon.md"
+flatten moves as T
+where file.path = this.file.path
+```

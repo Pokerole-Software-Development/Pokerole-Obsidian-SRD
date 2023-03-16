@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Unnerve
 HomeSprite: SRD-bewear-HomeSprite.png
 Image: bewear.png
-Learnset: '[[SRD-Bewear-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
+- - Beginner
+  - '[[SRD-Bide|Bide]]'
+- - Beginner
+  - '[[SRD-Take Down|Take Down]]'
+- - Beginner
+  - '[[SRD-Brutal Swing|Brutal Swing]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Flail|Flail]]'
+- - Amateur
+  - '[[SRD-Payback|Payback]]'
+- - Amateur
+  - '[[SRD-Bind|Bind]]'
+- - Amateur
+  - '[[SRD-Hammer Arm|Hammer Arm]]'
+- - Amateur
+  - '[[SRD-Pain Split|Pain Split]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Superpower|Superpower]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Pro
+  - '[[SRD-Dragon Claw|Dragon Claw]]'
+- - Pro
+  - '[[SRD-Giga Impact|Giga Impact]]'
 Number: 760
 ShuffleToken: SRD-bewear-ShuffleToken.png
 Type1: Normal
@@ -68,4 +110,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Stufful]] | Level  | Medium  |
 
-![[SRD-Bewear-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Bewear.md"
+flatten moves as T
+where file.path = this.file.path
+```

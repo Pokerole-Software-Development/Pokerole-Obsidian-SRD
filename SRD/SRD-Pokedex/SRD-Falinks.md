@@ -16,8 +16,50 @@ Height:
 HiddenAbility: Defiant
 HomeSprite: SRD-falinks-HomeSprite.png
 Image: falinks.png
-Learnset: '[[SRD-Falinks-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Rock Smash|Rock Smash]]'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Bulk Up|Bulk Up]]'
+- - Amateur
+  - '[[SRD-Endure|Endure]]'
+- - Amateur
+  - '[[SRD-Reversal|Reversal]]'
+- - Amateur
+  - '[[SRD-First Impression|First Impression]]'
+- - Amateur
+  - '[[SRD-No Retreat|No Retreat]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Ace
+  - '[[SRD-Close Combat|Close Combat]]'
+- - Ace
+  - '[[SRD-Megahorn|Megahorn]]'
+- - Ace
+  - '[[SRD-Counter|Counter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Pro
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Pro
+  - '[[SRD-Poison Jab|Poison Jab]]'
 Number: 870
 ShuffleToken: SRD-falinks-ShuffleToken.png
 Type1: Fighting
@@ -60,4 +102,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Falinks-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Falinks.md"
+flatten moves as T
+where file.path = this.file.path
+```

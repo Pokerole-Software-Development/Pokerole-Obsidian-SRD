@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Swift Swim
 HomeSprite: SRD-anorith-HomeSprite.png
 Image: anorith.png
-Learnset: '[[SRD-Anorith-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Amateur
+  - '[[SRD-Smack Down|Smack Down]]'
+- - Amateur
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Amateur
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Brine|Brine]]'
+- - Ace
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - Ace
+  - '[[SRD-Crush Claw|Crush Claw]]'
+- - Ace
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Pro
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - Pro
+  - '[[SRD-Aqua Jet|Aqua Jet]]'
 Number: 347
 ShuffleToken: SRD-anorith-ShuffleToken.png
 Type1: Rock
@@ -68,4 +112,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Armaldo]] | Level  | Medium  |
 
-![[SRD-Anorith-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Anorith.md"
+flatten moves as T
+where file.path = this.file.path
+```

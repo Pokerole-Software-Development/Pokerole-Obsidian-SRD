@@ -4,6 +4,7 @@ Accuracy2: Brawl
 AddedEffects:
   Heal:
     Percentage: 0.5
+    Target: User
     Type: Leech
 Attributes:
   FistBased: true

@@ -21,8 +21,50 @@ Height:
 HiddenAbility: Simple
 HomeSprite: SRD-woobat-HomeSprite.png
 Image: woobat.png
-Learnset: '[[SRD-Woobat-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Confusion|Confusion]]'
+- - Starter
+  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Gust|Gust]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Assurance|Assurance]]'
+- - Amateur
+  - '[[SRD-Heart Stamp|Heart Stamp]]'
+- - Amateur
+  - '[[SRD-Imprison|Imprison]]'
+- - Amateur
+  - '[[SRD-Air Cutter|Air Cutter]]'
+- - Amateur
+  - '[[SRD-Attract|Attract]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Amateur
+  - '[[SRD-Calm Mind|Calm Mind]]'
+- - Amateur
+  - '[[SRD-Psychic|Psychic]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Future Sight|Future Sight]]'
+- - Ace
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Ace
+  - '[[SRD-Endeavor|Endeavor]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Roost|Roost]]'
+- - Pro
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
 Number: 527
 ShuffleToken: SRD-woobat-ShuffleToken.png
 Type1: Psychic
@@ -69,4 +111,14 @@ Weight:
 |:----------|:----------------|:-------|:----------|--------:|
 | To        | [[SRD-Swoobat]] | Stat   | Happiness |       4 |
 
-![[SRD-Woobat-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Woobat.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -24,8 +24,48 @@ Height:
 HiddenAbility: Sweet Veil
 HomeSprite: SRD-steenee-HomeSprite.png
 Image: steenee.png
-Learnset: '[[SRD-Steenee-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Play Nice|Play Nice]]'
+- - Starter
+  - '[[SRD-Splash|Splash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Beginner
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - Beginner
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Magical Leaf|Magical Leaf]]'
+- - Amateur
+  - '[[SRD-Teeter Dance|Teeter Dance]]'
+- - Amateur
+  - '[[SRD-Stomp|Stomp]]'
+- - Amateur
+  - '[[SRD-Aromatic Mist|Aromatic Mist]]'
+- - Amateur
+  - '[[SRD-Captivate|Captivate]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Aromatherapy|Aromatherapy]]'
+- - Ace
+  - '[[SRD-Leaf Storm|Leaf Storm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Acupressure|Acupressure]]'
+- - Pro
+  - '[[SRD-Feint|Feint]]'
+- - Pro
+  - '[[SRD-Synthesis|Synthesis]]'
 Number: 762
 ShuffleToken: SRD-steenee-ShuffleToken.png
 Type1: Grass
@@ -73,4 +113,14 @@ Weight:
 | From      | [[SRD-Bounsweet]] | Level  | Medium  |
 | To        | [[SRD-Tsareena]]  | Level  | Medium  |
 
-![[SRD-Steenee-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Steenee.md"
+flatten moves as T
+where file.path = this.file.path
+```

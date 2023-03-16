@@ -20,8 +20,40 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-poipole-HomeSprite.png
 Image: poipole.png
-Learnset: '[[SRD-Poipole-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Master
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - Master
+  - '[[SRD-Peck|Peck]]'
+- - Master
+  - '[[SRD-Growl|Growl]]'
+- - Master
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Master
+  - '[[SRD-Acid|Acid]]'
+- - Master
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Master
+  - '[[SRD-Venoshock|Venoshock]]'
+- - Master
+  - '[[SRD-Charm|Charm]]'
+- - Master
+  - '[[SRD-Venom Drench|Venom Drench]]'
+- - Master
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Master
+  - '[[SRD-Poison Jab|Poison Jab]]'
+- - Master
+  - '[[SRD-Toxic|Toxic]]'
+- - Master
+  - '[[SRD-Fell Stinger|Fell Stinger]]'
+- - Master
+  - '[[SRD-Gastro Acid|Gastro Acid]]'
+- - Master
+  - '[[SRD-Iron Tail|Iron Tail]]'
+- - Master
+  - '[[SRD-Signal Beam|Signal Beam]]'
 Number: 803
 ShuffleToken: SRD-poipole-ShuffleToken.png
 Type1: Poison
@@ -68,4 +100,14 @@ Weight:
 |:----------|:------------------|:-------|:-------------|
 | To        | [[SRD-Naganadel]] | Level  | Dragon Pulse |
 
-![[SRD-Poipole-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Poipole.md"
+flatten moves as T
+where file.path = this.file.path
+```

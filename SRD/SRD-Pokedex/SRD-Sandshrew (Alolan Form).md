@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Slush Rush
 HomeSprite: SRD-sandshrew-alolan-form-HomeSprite.png
 Image: sandshrew-alolan-form.png
-Learnset: '[[SRD-Sandshrew (Alolan Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bide|Bide]]'
+- - Beginner
+  - '[[SRD-Powder Snow|Powder Snow]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Ice Ball|Ice Ball]]'
+- - Amateur
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - Amateur
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Amateur
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Amateur
+  - '[[SRD-Swift|Swift]]'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Slash|Slash]]'
+- - Ace
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Ace
+  - '[[SRD-Gyro Ball|Gyro Ball]]'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Hail|Hail]]'
+- - Ace
+  - '[[SRD-Blizzard|Blizzard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Chip Away|Chip Away]]'
+- - Pro
+  - '[[SRD-Counter|Counter]]'
+- - Pro
+  - '[[SRD-Aerial Ace|Aerial Ace]]'
 Number: 27
 ShuffleToken: SRD-sandshrew-alolan-form-ShuffleToken.png
 Type1: Ice
@@ -68,4 +116,14 @@ Weight:
 |:----------|:--------------------------------|:-------|:--------|
 | To        | [[SRD-Sandslash (Alolan Form)]] | Level  | Medium  |
 
-![[SRD-Sandshrew (Alolan Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Sandshrew (Alolan Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,44 @@ Height:
 HiddenAbility: Rattled
 HomeSprite: SRD-yamper-HomeSprite.png
 Image: yamper.png
-Learnset: '[[SRD-Yamper-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Nuzzle|Nuzzle]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Roar|Roar]]'
+- - Amateur
+  - '[[SRD-Spark|Spark]]'
+- - Amateur
+  - '[[SRD-Charm|Charm]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Charge|Charge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Wild Charge|Wild Charge]]'
+- - Ace
+  - '[[SRD-Play Rough|Play Rough]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Pro
+  - '[[SRD-Flame Charge|Flame Charge]]'
+- - Pro
+  - '[[SRD-Howl|Howl]]'
 Number: 835
 ShuffleToken: SRD-yamper-ShuffleToken.png
 Type1: Electric
@@ -68,4 +104,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Boltund]] | Level  | Medium  |
 
-![[SRD-Yamper-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Yamper.md"
+flatten moves as T
+where file.path = this.file.path
+```

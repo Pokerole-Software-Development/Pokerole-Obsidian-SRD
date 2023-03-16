@@ -20,8 +20,60 @@ Height:
 HiddenAbility: Telepathy
 HomeSprite: SRD-noivern-HomeSprite.png
 Image: noivern.png
-Learnset: '[[SRD-Noivern-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Screech|Screech]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Supersonic|Supersonic]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Absorb|Absorb]]'
+- - Beginner
+  - '[[SRD-Gust|Gust]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+- - Amateur
+  - '[[SRD-Moonlight|Moonlight]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Wing Attack|Wing Attack]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Air Cutter|Air Cutter]]'
+- - Amateur
+  - '[[SRD-Roost|Roost]]'
+- - Amateur
+  - '[[SRD-Razor Wind|Razor Wind]]'
+- - Amateur
+  - '[[SRD-Tailwind|Tailwind]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Whirlwind|Whirlwind]]'
+- - Ace
+  - '[[SRD-Super Fang|Super Fang]]'
+- - Ace
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Ace
+  - '[[SRD-Hurricane|Hurricane]]'
+- - Ace
+  - '[[SRD-Boomburst|Boomburst]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Draco Meteor|Draco Meteor]]'
+- - Pro
+  - '[[SRD-Sky Attack|Sky Attack]]'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
 Number: 715
 ShuffleToken: SRD-noivern-ShuffleToken.png
 Type1: Flying
@@ -68,4 +120,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Noibat]] | Level  | Slow    |
 
-![[SRD-Noivern-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Noivern.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -16,8 +16,56 @@ Height:
 HiddenAbility: Tinted Lens
 HomeSprite: SRD-sigilyph-HomeSprite.png
 Image: sigilyph.png
-Learnset: '[[SRD-Sigilyph-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Gust|Gust]]'
+- - Starter
+  - '[[SRD-Miracle Eye|Miracle Eye]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Beginner
+  - '[[SRD-Psywave|Psywave]]'
+- - Beginner
+  - '[[SRD-Tailwind|Tailwind]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Whirlwind|Whirlwind]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Air Cutter|Air Cutter]]'
+- - Amateur
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Amateur
+  - '[[SRD-Reflect|Reflect]]'
+- - Amateur
+  - '[[SRD-Gravity|Gravity]]'
+- - Amateur
+  - '[[SRD-Mirror Move|Mirror Move]]'
+- - Amateur
+  - '[[SRD-Psychic|Psychic]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Ace
+  - '[[SRD-Synchronoise|Synchronoise]]'
+- - Ace
+  - '[[SRD-Cosmic Power|Cosmic Power]]'
+- - Ace
+  - '[[SRD-Sky Attack|Sky Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Stored Power|Stored Power]]'
+- - Pro
+  - '[[SRD-Telekinesis|Telekinesis]]'
+- - Pro
+  - '[[SRD-Psycho Shift|Psycho Shift]]'
 Number: 561
 ShuffleToken: SRD-sigilyph-ShuffleToken.png
 Type1: Psychic
@@ -60,4 +108,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-![[SRD-Sigilyph-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Sigilyph.md"
+flatten moves as T
+where file.path = this.file.path
+```

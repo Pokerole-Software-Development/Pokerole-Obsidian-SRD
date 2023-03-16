@@ -24,8 +24,54 @@ Height:
 HiddenAbility: Overcoat
 HomeSprite: SRD-hakamo-o-HomeSprite.png
 Image: hakamo-o.png
-Learnset: '[[SRD-Hakamo-o-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bide|Bide]]'
+- - Beginner
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sky Uppercut|Sky Uppercut]]'
+- - Amateur
+  - '[[SRD-Dragon Tail|Dragon Tail]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Work Up|Work Up]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Dragon Claw|Dragon Claw]]'
+- - Amateur
+  - '[[SRD-Noble Roar|Noble Roar]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Autotomize|Autotomize]]'
+- - Ace
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - Ace
+  - '[[SRD-Outrage|Outrage]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Counter|Counter]]'
+- - Pro
+  - '[[SRD-Reversal|Reversal]]'
+- - Pro
+  - '[[SRD-Dragon Breath|Dragon Breath]]'
 Number: 783
 ShuffleToken: SRD-hakamo-o-ShuffleToken.png
 Type1: Dragon
@@ -73,4 +119,14 @@ Weight:
 | From      | [[SRD-Jangmo-o]] | Level  | Slow    |
 | To        | [[SRD-Kommo-o]]  | Level  | Slow    |
 
-![[SRD-Hakamo-o-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Hakamo-o.md"
+flatten moves as T
+where file.path = this.file.path
+```

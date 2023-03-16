@@ -20,8 +20,32 @@ Height:
 HiddenAbility: Unaware
 HomeSprite: SRD-clefable-HomeSprite.png
 Image: clefable.png
-Learnset: '[[SRD-Clefable-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Beginner
+  - '[[SRD-Spotlight|Spotlight]]'
+- - Beginner
+  - '[[SRD-Sing|Sing]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Amateur
+  - '[[SRD-Minimize|Minimize]]'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Drain Punch|Drain Punch]]'
+- - Ace
+  - '[[SRD-Metronome|Metronome]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Heal Pulse|Heal Pulse]]'
+- - Pro
+  - '[[SRD-Wish|Wish]]'
 Number: 36
 ShuffleToken: SRD-clefable-ShuffleToken.png
 Type1: Fairy
@@ -68,4 +92,14 @@ Weight:
 |:----------|:-----------------|:-------|:-----------|
 | From      | [[SRD-Clefairy]] | Stone  | Moon Stone |
 
-![[SRD-Clefable-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Clefable.md"
+flatten moves as T
+where file.path = this.file.path
+```

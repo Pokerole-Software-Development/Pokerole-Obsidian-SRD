@@ -24,8 +24,48 @@ Height:
 HiddenAbility: Soundproof
 HomeSprite: SRD-abomasnow-HomeSprite.png
 Image: abomasnow.png
-Learnset: '[[SRD-Abomasnow-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - Starter
+  - '[[SRD-Powder Snow|Powder Snow]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Ice Punch|Ice Punch]]'
+- - Beginner
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Beginner
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Grass Whistle|Grass Whistle]]'
+- - Amateur
+  - '[[SRD-Swagger|Swagger]]'
+- - Amateur
+  - '[[SRD-Mist|Mist]]'
+- - Amateur
+  - '[[SRD-Ice Shard|Ice Shard]]'
+- - Amateur
+  - '[[SRD-Ingrain|Ingrain]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Wood Hammer|Wood Hammer]]'
+- - Ace
+  - '[[SRD-Blizzard|Blizzard]]'
+- - Ace
+  - '[[SRD-Sheer Cold|Sheer Cold]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Growth|Growth]]'
+- - Pro
+  - '[[SRD-Avalanche|Avalanche]]'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
 Number: 460
 ShuffleToken: SRD-abomasnow-ShuffleToken.png
 Type1: Grass
@@ -73,4 +113,14 @@ Weight:
 | From      | [[SRD-Snover]]                | Level  | Medium  |           |
 | To        | [[SRD-Abomasnow (Mega Form)]] | Mega   |         | Abomasite |
 
-![[SRD-Abomasnow-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Abomasnow.md"
+flatten moves as T
+where file.path = this.file.path
+```

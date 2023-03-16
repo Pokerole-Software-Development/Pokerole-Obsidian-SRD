@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Oblivious
 HomeSprite: SRD-spheal-HomeSprite.png
 Image: spheal.png
-Learnset: '[[SRD-Spheal-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Powder Snow|Powder Snow]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Beginner
+  - '[[SRD-Encore|Encore]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Ice Ball|Ice Ball]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Amateur
+  - '[[SRD-Brine|Brine]]'
+- - Amateur
+  - '[[SRD-Aurora Beam|Aurora Beam]]'
+- - Amateur
+  - '[[SRD-Hail|Hail]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Rest|Rest]]'
+- - Ace
+  - '[[SRD-Snore|Snore]]'
+- - Ace
+  - '[[SRD-Blizzard|Blizzard]]'
+- - Ace
+  - '[[SRD-Sheer Cold|Sheer Cold]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Dive|Dive]]'
+- - Pro
+  - '[[SRD-Rollout|Rollout]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
 Number: 363
 ShuffleToken: SRD-spheal-ShuffleToken.png
 Type1: Ice
@@ -68,4 +110,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | To        | [[SRD-Sealeo]] | Level  | Medium  |
 
-![[SRD-Spheal-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Spheal.md"
+flatten moves as T
+where file.path = this.file.path
+```

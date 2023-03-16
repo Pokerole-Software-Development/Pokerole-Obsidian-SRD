@@ -18,8 +18,42 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-zacian-HomeSprite.png
 Image: zacian.png
-Learnset: '[[SRD-Zacian-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Sacred Sword|Sacred Sword]]'
+- - Master
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Master
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Master
+  - '[[SRD-Howl|Howl]]'
+- - Master
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Master
+  - '[[SRD-Bite|Bite]]'
+- - Master
+  - '[[SRD-Slash|Slash]]'
+- - Master
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Master
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Master
+  - '[[SRD-Laser Focus|Laser Focus]]'
+- - Master
+  - '[[SRD-Crunch|Crunch]]'
+- - Master
+  - '[[SRD-Moonblast|Moonblast]]'
+- - Master
+  - '[[SRD-Close Combat|Close Combat]]'
+- - Master
+  - '[[SRD-Giga Impact|Giga Impact]]'
+- - Master
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Master
+  - '[[SRD-Psycho Cut|Psycho Cut]]'
+- - Master
+  - '[[SRD-Solar Beam|Solar Beam]]'
 Number: 888
 ShuffleToken: SRD-zacian-ShuffleToken.png
 Type1: Fairy
@@ -66,4 +100,14 @@ Weight:
 |:----------|:----------------------------|:-------|
 | To        | [[SRD-Zacian (Crown Form)]] | Form   |
 
-![[SRD-Zacian-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Zacian.md"
+flatten moves as T
+where file.path = this.file.path
+```

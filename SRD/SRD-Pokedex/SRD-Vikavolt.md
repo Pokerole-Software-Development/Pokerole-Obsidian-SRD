@@ -20,8 +20,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-vikavolt-HomeSprite.png
 Image: vikavolt.png
-Learnset: '[[SRD-Vikavolt-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-String Shot|String Shot]]'
+- - Starter
+  - '[[SRD-Vice Grip|Vice Grip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Beginner
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Thunderbolt|Thunderbolt]]'
+- - Amateur
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Amateur
+  - '[[SRD-Charge|Charge]]'
+- - Amateur
+  - '[[SRD-Spark|Spark]]'
+- - Amateur
+  - '[[SRD-Acrobatics|Acrobatics]]'
+- - Amateur
+  - '[[SRD-Dig|Dig]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - Ace
+  - '[[SRD-Guillotine|Guillotine]]'
+- - Ace
+  - '[[SRD-Zap Cannon|Zap Cannon]]'
+- - Ace
+  - '[[SRD-Agility|Agility]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Mud Shot|Mud Shot]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
+- - Pro
+  - '[[SRD-Charge Beam|Charge Beam]]'
 Number: 738
 ShuffleToken: SRD-vikavolt-ShuffleToken.png
 Type1: Bug
@@ -68,4 +112,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | From      | [[SRD-Charjabug]] | Level  | Medium  |
 
-![[SRD-Vikavolt-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Vikavolt.md"
+flatten moves as T
+where file.path = this.file.path
+```

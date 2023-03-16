@@ -16,8 +16,52 @@ Height:
 HiddenAbility: Sturdy
 HomeSprite: SRD-togedemaru-HomeSprite.png
 Image: togedemaru.png
-Learnset: '[[SRD-Togedemaru-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Thunder Shock|Thunder Shock]]'
+- - Beginner
+  - '[[SRD-Rollout|Rollout]]'
+- - Beginner
+  - '[[SRD-Charge|Charge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Spark|Spark]]'
+- - Amateur
+  - '[[SRD-Nuzzle|Nuzzle]]'
+- - Amateur
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
+- - Amateur
+  - '[[SRD-Discharge|Discharge]]'
+- - Amateur
+  - '[[SRD-Zing Zap|Zing Zap]]'
+- - Amateur
+  - '[[SRD-Electric Terrain|Electric Terrain]]'
+- - Amateur
+  - '[[SRD-Wild Charge|Wild Charge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Pin Missile|Pin Missile]]'
+- - Ace
+  - '[[SRD-Spiky Shield|Spiky Shield]]'
+- - Ace
+  - '[[SRD-Fell Stinger|Fell Stinger]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Tickle|Tickle]]'
+- - Pro
+  - '[[SRD-Disarming Voice|Disarming Voice]]'
+- - Pro
+  - '[[SRD-Present|Present]]'
 Number: 777
 ShuffleToken: SRD-togedemaru-ShuffleToken.png
 Type1: Electric
@@ -60,4 +104,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Beginner
 
-![[SRD-Togedemaru-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Togedemaru.md"
+flatten moves as T
+where file.path = this.file.path
+```

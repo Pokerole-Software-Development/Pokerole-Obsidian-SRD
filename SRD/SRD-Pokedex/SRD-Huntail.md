@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Water Veil
 HomeSprite: SRD-huntail-HomeSprite.png
 Image: huntail.png
-Learnset: '[[SRD-Huntail-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Whirlpool|Whirlpool]]'
+- - Starter
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Screech|Screech]]'
+- - Beginner
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Amateur
+  - '[[SRD-Brine|Brine]]'
+- - Amateur
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Dive|Dive]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Ace
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Ace
+  - '[[SRD-Coil|Coil]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Muddy Water|Muddy Water]]'
+- - Pro
+  - '[[SRD-Bind|Bind]]'
+- - Pro
+  - '[[SRD-Super Fang|Super Fang]]'
 Number: 367
 ShuffleToken: SRD-huntail-ShuffleToken.png
 Type1: Water
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-----------------|:-------|:------------|
 | From      | [[SRD-Clamperl]] | Trade  | Dragon Fang |
 
-![[SRD-Huntail-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Huntail.md"
+flatten moves as T
+where file.path = this.file.path
+```

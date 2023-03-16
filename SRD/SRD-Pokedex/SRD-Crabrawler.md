@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Anger Point
 HomeSprite: SRD-crabrawler-HomeSprite.png
 Image: crabrawler.png
-Learnset: '[[SRD-Crabrawler-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bubble|Bubble]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Rock Smash|Rock Smash]]'
+- - Beginner
+  - '[[SRD-Pursuit|Pursuit]]'
+- - Beginner
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Power-Up Punch|Power-Up Punch]]'
+- - Amateur
+  - '[[SRD-Dizzy Punch|Dizzy Punch]]'
+- - Amateur
+  - '[[SRD-Payback|Payback]]'
+- - Amateur
+  - '[[SRD-Reversal|Reversal]]'
+- - Amateur
+  - '[[SRD-Crabhammer|Crabhammer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Ace
+  - '[[SRD-Dynamic Punch|Dynamic Punch]]'
+- - Ace
+  - '[[SRD-Close Combat|Close Combat]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Endeavor|Endeavor]]'
+- - Pro
+  - '[[SRD-Superpower|Superpower]]'
+- - Pro
+  - '[[SRD-Wide Guard|Wide Guard]]'
 Number: 739
 ShuffleToken: SRD-crabrawler-ShuffleToken.png
 Type1: Fighting
@@ -68,4 +108,14 @@ Weight:
 |:----------|:---------------------|:-------|:--------|
 | To        | [[SRD-Crabominable]] | Level  | Medium  |
 
-![[SRD-Crabrawler-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Crabrawler.md"
+flatten moves as T
+where file.path = this.file.path
+```

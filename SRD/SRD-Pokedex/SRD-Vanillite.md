@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Weak Armor
 HomeSprite: SRD-vanillite-HomeSprite.png
 Image: vanillite.png
-Learnset: '[[SRD-Vanillite-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Icicle Spear|Icicle Spear]]'
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Astonish|Astonish]]'
+- - Beginner
+  - '[[SRD-Uproar|Uproar]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Amateur
+  - '[[SRD-Mist|Mist]]'
+- - Amateur
+  - '[[SRD-Avalanche|Avalanche]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Mirror Shot|Mirror Shot]]'
+- - Amateur
+  - '[[SRD-Acid Armor|Acid Armor]]'
+- - Amateur
+  - '[[SRD-Ice Beam|Ice Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Hail|Hail]]'
+- - Ace
+  - '[[SRD-Mirror Coat|Mirror Coat]]'
+- - Ace
+  - '[[SRD-Blizzard|Blizzard]]'
+- - Ace
+  - '[[SRD-Sheer Cold|Sheer Cold]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Ice Shard|Ice Shard]]'
+- - Pro
+  - '[[SRD-Autotomize|Autotomize]]'
+- - Pro
+  - '[[SRD-Water Pulse|Water Pulse]]'
 Number: 582
 ShuffleToken: SRD-vanillite-ShuffleToken.png
 Type1: Ice
@@ -68,4 +112,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Vanillish]] | Level  | Medium  |
 
-![[SRD-Vanillite-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Vanillite.md"
+flatten moves as T
+where file.path = this.file.path
+```

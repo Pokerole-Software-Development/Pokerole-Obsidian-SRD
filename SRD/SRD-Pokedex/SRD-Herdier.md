@@ -24,8 +24,50 @@ Height:
 HiddenAbility: Scrappy
 HomeSprite: SRD-herdier-HomeSprite.png
 Image: herdier.png
-Learnset: '[[SRD-Herdier-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Work Up|Work Up]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Roar|Roar]]'
+- - Amateur
+  - '[[SRD-Retaliate|Retaliate]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Reversal|Reversal]]'
+- - Ace
+  - '[[SRD-Last Resort|Last Resort]]'
+- - Ace
+  - '[[SRD-Giga Impact|Giga Impact]]'
+- - Ace
+  - '[[SRD-Play Rough|Play Rough]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Lick|Lick]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
+- - Pro
+  - '[[SRD-Yawn|Yawn]]'
 Number: 507
 ShuffleToken: SRD-herdier-ShuffleToken.png
 Type1: Normal
@@ -73,4 +115,14 @@ Weight:
 | From      | [[SRD-Lillipup]]  | Level  | Medium  |
 | To        | [[SRD-Stoutland]] | Level  | Medium  |
 
-![[SRD-Herdier-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Herdier.md"
+flatten moves as T
+where file.path = this.file.path
+```

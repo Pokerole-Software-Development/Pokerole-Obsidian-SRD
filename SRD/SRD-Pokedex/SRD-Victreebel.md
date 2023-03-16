@@ -20,8 +20,42 @@ Height:
 HiddenAbility: Gluttony
 HomeSprite: SRD-victreebel-HomeSprite.png
 Image: victreebel.png
-Learnset: '[[SRD-Victreebel-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Vine Whip|Vine Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Swallow|Swallow]]'
+- - Beginner
+  - '[[SRD-Spit Up|Spit Up]]'
+- - Beginner
+  - '[[SRD-Stockpile|Stockpile]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sleep Powder|Sleep Powder]]'
+- - Amateur
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Amateur
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Amateur
+  - '[[SRD-Leaf Tornado|Leaf Tornado]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Leaf Storm|Leaf Storm]]'
+- - Ace
+  - '[[SRD-Leaf Blade|Leaf Blade]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Belch|Belch]]'
+- - Pro
+  - '[[SRD-Power Whip|Power Whip]]'
+- - Pro
+  - '[[SRD-Synthesis|Synthesis]]'
 Number: 71
 ShuffleToken: SRD-victreebel-ShuffleToken.png
 Type1: Grass
@@ -68,4 +102,14 @@ Weight:
 |:----------|:-------------------|:-------|:-----------|
 | From      | [[SRD-Weepinbell]] | Stone  | Leaf Stone |
 
-![[SRD-Victreebel-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Victreebel.md"
+flatten moves as T
+where file.path = this.file.path
+```

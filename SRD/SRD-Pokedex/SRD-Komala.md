@@ -16,8 +16,48 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-komala-HomeSprite.png
 Image: komala.png
-Learnset: '[[SRD-Komala-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Starter
+  - '[[SRD-Rollout|Rollout]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Stockpile|Stockpile]]'
+- - Beginner
+  - '[[SRD-Spit Up|Spit Up]]'
+- - Beginner
+  - '[[SRD-Swallow|Swallow]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - Amateur
+  - '[[SRD-Yawn|Yawn]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - Amateur
+  - '[[SRD-Flail|Flail]]'
+- - Amateur
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Amateur
+  - '[[SRD-Psych Up|Psych Up]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Wood Hammer|Wood Hammer]]'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Facade|Facade]]'
+- - Pro
+  - '[[SRD-Substitute|Substitute]]'
+- - Pro
+  - '[[SRD-Play Rough|Play Rough]]'
 Number: 775
 ShuffleToken: SRD-komala-ShuffleToken.png
 Type1: Normal
@@ -60,4 +100,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Starter
 
-![[SRD-Komala-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Komala.md"
+flatten moves as T
+where file.path = this.file.path
+```

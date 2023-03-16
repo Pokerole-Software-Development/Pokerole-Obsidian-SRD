@@ -25,8 +25,54 @@ Height:
 HiddenAbility: Battle Armor
 HomeSprite: SRD-cubone-HomeSprite.png
 Image: cubone.png
-Learnset: '[[SRD-Cubone-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bone Club|Bone Club]]'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Bonemerang|Bonemerang]]'
+- - Amateur
+  - '[[SRD-Rage|Rage]]'
+- - Amateur
+  - '[[SRD-False Swipe|False Swipe]]'
+- - Amateur
+  - '[[SRD-Endeavor|Endeavor]]'
+- - Amateur
+  - '[[SRD-Fling|Fling]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Bone Rush|Bone Rush]]'
+- - Ace
+  - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Retaliate|Retaliate]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Double Kick|Double Kick]]'
+- - Pro
+  - '[[SRD-Detect|Detect]]'
 Number: 104
 ShuffleToken: SRD-cubone-ShuffleToken.png
 Type1: Ground
@@ -74,4 +120,14 @@ Weight:
 | To        | [[SRD-Marowak]]               | Level  | Slow    |          |
 | To        | [[SRD-Marowak (Alolan Form)]] | Level  | Slow    | Alola    |
 
-![[SRD-Cubone-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Cubone.md"
+flatten moves as T
+where file.path = this.file.path
+```

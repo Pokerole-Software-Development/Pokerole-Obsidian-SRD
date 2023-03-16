@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Battle Armor
 HomeSprite: SRD-marowak-HomeSprite.png
 Image: marowak.png
-Learnset: '[[SRD-Marowak-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bone Club|Bone Club]]'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Bonemerang|Bonemerang]]'
+- - Amateur
+  - '[[SRD-Rage|Rage]]'
+- - Amateur
+  - '[[SRD-False Swipe|False Swipe]]'
+- - Amateur
+  - '[[SRD-Endeavor|Endeavor]]'
+- - Amateur
+  - '[[SRD-Fling|Fling]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Bone Rush|Bone Rush]]'
+- - Ace
+  - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Retaliate|Retaliate]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Perish Song|Perish Song]]'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
+- - Pro
+  - '[[SRD-Detect|Detect]]'
 Number: 105
 ShuffleToken: SRD-marowak-ShuffleToken.png
 Type1: Ground
@@ -68,4 +114,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Cubone]] | Level  | Slow    |
 
-![[SRD-Marowak-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Marowak.md"
+flatten moves as T
+where file.path = this.file.path
+```

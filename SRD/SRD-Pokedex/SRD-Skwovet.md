@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Gluttony
 HomeSprite: SRD-skwovet-HomeSprite.png
 Image: skwovet.png
-Learnset: '[[SRD-Skwovet-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Stuff Cheeks|Stuff Cheeks]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Stockpile|Stockpile]]'
+- - Amateur
+  - '[[SRD-Swallow|Swallow]]'
+- - Amateur
+  - '[[SRD-Spit Up|Spit Up]]'
+- - Amateur
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Amateur
+  - '[[SRD-Rest|Rest]]'
+- - Amateur
+  - '[[SRD-Counter|Counter]]'
+- - Amateur
+  - '[[SRD-Bullet Seed|Bullet Seed]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Super Fang|Super Fang]]'
+- - Ace
+  - '[[SRD-Belch|Belch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Pro
+  - '[[SRD-Rollout|Rollout]]'
+- - Pro
+  - '[[SRD-Crunch|Crunch]]'
 Number: 819
 ShuffleToken: SRD-skwovet-ShuffleToken.png
 Type1: Normal
@@ -68,4 +108,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Greedent]] | Level  | Medium  |
 
-![[SRD-Skwovet-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Skwovet.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,70 @@ Height:
 HiddenAbility: Technician
 HomeSprite: SRD-mr-mime-HomeSprite.png
 Image: mr-mime.png
-Learnset: '[[SRD-Mr. Mime-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Barrier|Barrier]]'
+- - Starter
+  - '[[SRD-Confusion|Confusion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Quick Guard|Quick Guard]]'
+- - Beginner
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Beginner
+  - '[[SRD-Magical Leaf|Magical Leaf]]'
+- - Beginner
+  - '[[SRD-Trick|Trick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Power Swap|Power Swap]]'
+- - Amateur
+  - '[[SRD-Guard Swap|Guard Swap]]'
+- - Amateur
+  - '[[SRD-Copycat|Copycat]]'
+- - Amateur
+  - '[[SRD-Meditate|Meditate]]'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Mimic|Mimic]]'
+- - Amateur
+  - '[[SRD-Psywave|Psywave]]'
+- - Amateur
+  - '[[SRD-Encore|Encore]]'
+- - Amateur
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Amateur
+  - '[[SRD-Reflect|Reflect]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Substitute|Substitute]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Recycle|Recycle]]'
+- - Ace
+  - '[[SRD-Misty Terrain|Misty Terrain]]'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Role Play|Role Play]]'
+- - Ace
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Ace
+  - '[[SRD-Safeguard|Safeguard]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Pro
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Pro
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
 Number: 122
 ShuffleToken: SRD-mr-mime-ShuffleToken.png
 Type1: Psychic
@@ -68,4 +130,14 @@ Weight:
 |:----------|:----------------|:-------|:-------|
 | From      | [[SRD-Mime Jr]] | Level  | Mimic  |
 
-![[SRD-Mr. Mime-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Mr. Mime.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-melmetal-HomeSprite.png
 Image: melmetal.png
-Learnset: '[[SRD-Melmetal-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Thunder Punch|Thunder Punch]]'
+- - Starter
+  - '[[SRD-Thunder Shock|Thunder Shock]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Harden|Harden]]'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Thunder Wave|Thunder Wave]]'
+- - Amateur
+  - '[[SRD-Acid Armor|Acid Armor]]'
+- - Amateur
+  - '[[SRD-Flash Cannon|Flash Cannon]]'
+- - Amateur
+  - '[[SRD-Mega Punch|Mega Punch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Protect|Protect]]'
+- - Ace
+  - '[[SRD-Discharge|Discharge]]'
+- - Ace
+  - '[[SRD-Dynamic Punch|Dynamic Punch]]'
+- - Ace
+  - '[[SRD-Superpower|Superpower]]'
+- - Ace
+  - '[[SRD-Double Iron Bash|Double Iron Bash]]'
+- - Ace
+  - '[[SRD-Hyper Beam|Hyper Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-High Horsepower|High Horsepower]]'
+- - Pro
+  - '[[SRD-Giga Impact|Giga Impact]]'
+- - Pro
+  - '[[SRD-Self Destruct|Self Destruct]]'
 Number: 809
 ShuffleToken: SRD-melmetal-ShuffleToken.png
 Type1: Steel
@@ -68,4 +112,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Meltan]] | Level  | Unknown |
 
-![[SRD-Melmetal-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Melmetal.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Defiant
 HomeSprite: SRD-braviary-HomeSprite.png
 Image: braviary.png
-Learnset: '[[SRD-Braviary-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Beginner
+  - '[[SRD-Wing Attack|Wing Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Hone Claws|Hone Claws]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Aerial Ace|Aerial Ace]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Defog|Defog]]'
+- - Amateur
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Amateur
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Amateur
+  - '[[SRD-Crush Claw|Crush Claw]]'
+- - Amateur
+  - '[[SRD-Sky Drop|Sky Drop]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Superpower|Superpower]]'
+- - Ace
+  - '[[SRD-Whirlwind|Whirlwind]]'
+- - Ace
+  - '[[SRD-Brave Bird|Brave Bird]]'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Sky Attack|Sky Attack]]'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
+- - Pro
+  - '[[SRD-Hurricane|Hurricane]]'
 Number: 628
 ShuffleToken: SRD-braviary-ShuffleToken.png
 Type1: Normal
@@ -68,4 +116,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Rufflet]] | Level  | Slow    |
 
-![[SRD-Braviary-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Braviary.md"
+flatten moves as T
+where file.path = this.file.path
+```

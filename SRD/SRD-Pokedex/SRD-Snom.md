@@ -21,8 +21,22 @@ Height:
 HiddenAbility: Ice Scales
 HomeSprite: SRD-snom-HomeSprite.png
 Image: snom.png
-Learnset: '[[SRD-Snom-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Powder Snow|Powder Snow]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Struggle Bug|Struggle Bug]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Rest|Rest]]'
+- - Pro
+  - '[[SRD-Snore|Snore]]'
+- - Pro
+  - '[[SRD-Bug Bite|Bug Bite]]'
 Number: 872
 ShuffleToken: SRD-snom-ShuffleToken.png
 Type1: Ice
@@ -69,4 +83,14 @@ Weight:
 |:----------|:-----------------|:-------|:----------|--------:|
 | To        | [[SRD-Frosmoth]] | Stat   | Happiness |       5 |
 
-![[SRD-Snom-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Snom.md"
+flatten moves as T
+where file.path = this.file.path
+```

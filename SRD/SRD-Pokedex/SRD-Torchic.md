@@ -20,8 +20,46 @@ Height:
 HiddenAbility: Speed Boost
 HomeSprite: SRD-torchic-HomeSprite.png
 Image: torchic.png
-Learnset: '[[SRD-Torchic-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - Beginner
+  - '[[SRD-Peck|Peck]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Amateur
+  - '[[SRD-Fire Spin|Fire Spin]]'
+- - Amateur
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Amateur
+  - '[[SRD-Flame Burst|Flame Burst]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Mirror Move|Mirror Move]]'
+- - Ace
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Counter|Counter]]'
+- - Pro
+  - '[[SRD-Feather Dance|Feather Dance]]'
+- - Pro
+  - '[[SRD-Fire Pledge|Fire Pledge]]'
 Number: 255
 ShuffleToken: SRD-torchic-ShuffleToken.png
 Type1: Fire
@@ -68,4 +106,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Combusken]] | Level  | Medium  |
 
-![[SRD-Torchic-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Torchic.md"
+flatten moves as T
+where file.path = this.file.path
+```

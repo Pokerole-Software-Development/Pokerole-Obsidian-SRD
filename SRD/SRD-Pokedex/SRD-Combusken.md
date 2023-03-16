@@ -24,8 +24,50 @@ Height:
 HiddenAbility: Speed Boost
 HomeSprite: SRD-combusken-HomeSprite.png
 Image: combusken.png
-Learnset: '[[SRD-Combusken-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - Beginner
+  - '[[SRD-Focus Energy|Focus Energy]]'
+- - Beginner
+  - '[[SRD-Double Kick|Double Kick]]'
+- - Beginner
+  - '[[SRD-Peck|Peck]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Flame Charge|Flame Charge]]'
+- - Amateur
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Amateur
+  - '[[SRD-Bulk Up|Bulk Up]]'
+- - Amateur
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Mirror Move|Mirror Move]]'
+- - Ace
+  - '[[SRD-Sky Uppercut|Sky Uppercut]]'
+- - Ace
+  - '[[SRD-Flare Blitz|Flare Blitz]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Counter|Counter]]'
+- - Pro
+  - '[[SRD-Feather Dance|Feather Dance]]'
+- - Pro
+  - '[[SRD-Fire Pledge|Fire Pledge]]'
 Number: 256
 ShuffleToken: SRD-combusken-ShuffleToken.png
 Type1: Fire
@@ -73,4 +115,14 @@ Weight:
 | From      | [[SRD-Torchic]]  | Level  | Medium  |
 | To        | [[SRD-Blaziken]] | Level  | Medium  |
 
-![[SRD-Combusken-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Combusken.md"
+flatten moves as T
+where file.path = this.file.path
+```

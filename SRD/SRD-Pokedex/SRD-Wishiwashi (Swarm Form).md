@@ -20,8 +20,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-wishiwashi-swarm-form-HomeSprite.png
 Image: wishiwashi-swarm-form.png
-Learnset: '[[SRD-Wishiwashi (Swarm Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Beginner
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Beginner
+  - '[[SRD-Brine|Brine]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Amateur
+  - '[[SRD-Tearful Look|Tearful Look]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Dive|Dive]]'
+- - Amateur
+  - '[[SRD-Beat Up|Beat Up]]'
+- - Amateur
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Amateur
+  - '[[SRD-Soak|Soak]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Endeavor|Endeavor]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Muddy Water|Muddy Water]]'
+- - Pro
+  - '[[SRD-Mist|Mist]]'
+- - Pro
+  - '[[SRD-Water Pulse|Water Pulse]]'
 Number: 746
 ShuffleToken: SRD-wishiwashi-swarm-form-ShuffleToken.png
 Type1: Water
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-------------------|:-------|
 | From      | [[SRD-Wishiwashi]] | Form   |
 
-![[SRD-Wishiwashi (Swarm Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Wishiwashi (Swarm Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

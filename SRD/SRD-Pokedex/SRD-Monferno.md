@@ -24,8 +24,50 @@ Height:
 HiddenAbility: Iron Fist
 HomeSprite: SRD-monferno-HomeSprite.png
 Image: monferno.png
-Learnset: '[[SRD-Monferno-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - Beginner
+  - '[[SRD-Taunt|Taunt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Mach Punch|Mach Punch]]'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Flame Wheel|Flame Wheel]]'
+- - Amateur
+  - '[[SRD-Feint|Feint]]'
+- - Amateur
+  - '[[SRD-Torment|Torment]]'
+- - Amateur
+  - '[[SRD-Fire Spin|Fire Spin]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Close Combat|Close Combat]]'
+- - Ace
+  - '[[SRD-Acrobatics|Acrobatics]]'
+- - Ace
+  - '[[SRD-Slack Off|Slack Off]]'
+- - Ace
+  - '[[SRD-Flare Blitz|Flare Blitz]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fire Punch|Fire Punch]]'
+- - Pro
+  - '[[SRD-Thunder Punch|Thunder Punch]]'
+- - Pro
+  - '[[SRD-Fire Pledge|Fire Pledge]]'
 Number: 391
 ShuffleToken: SRD-monferno-ShuffleToken.png
 Type1: Fire
@@ -73,4 +115,14 @@ Weight:
 | From      | [[SRD-Chimchar]]  | Level  | Medium  |
 | To        | [[SRD-Infernape]] | Level  | Medium  |
 
-![[SRD-Monferno-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Monferno.md"
+flatten moves as T
+where file.path = this.file.path
+```

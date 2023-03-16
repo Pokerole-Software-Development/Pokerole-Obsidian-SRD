@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Technician
 HomeSprite: SRD-breloom-HomeSprite.png
 Image: breloom.png
-Learnset: '[[SRD-Breloom-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Absorb|Absorb]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tackle|Tackle]]'
+- - Beginner
+  - '[[SRD-Stun Spore|Stun Spore]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Amateur
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Amateur
+  - '[[SRD-Feint|Feint]]'
+- - Amateur
+  - '[[SRD-Headbutt|Headbutt]]'
+- - Amateur
+  - '[[SRD-Mach Punch|Mach Punch]]'
+- - Amateur
+  - '[[SRD-Counter|Counter]]'
+- - Amateur
+  - '[[SRD-Force Palm|Force Palm]]'
+- - Amateur
+  - '[[SRD-Mind Reader|Mind Reader]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Sky Uppercut|Sky Uppercut]]'
+- - Ace
+  - '[[SRD-Seed Bomb|Seed Bomb]]'
+- - Ace
+  - '[[SRD-Dynamic Punch|Dynamic Punch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Pro
+  - '[[SRD-Thunder Punch|Thunder Punch]]'
+- - Pro
+  - '[[SRD-Drain Punch|Drain Punch]]'
 Number: 286
 ShuffleToken: SRD-breloom-ShuffleToken.png
 Type1: Grass
@@ -68,4 +110,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | From      | [[SRD-Shroomish]] | Level  | Medium  |
 
-![[SRD-Breloom-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Breloom.md"
+flatten moves as T
+where file.path = this.file.path
+```

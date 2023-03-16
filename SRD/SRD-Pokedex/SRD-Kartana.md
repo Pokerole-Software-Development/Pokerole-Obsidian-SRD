@@ -16,8 +16,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-kartana-HomeSprite.png
 Image: kartana.png
-Learnset: '[[SRD-Kartana-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Sacred Sword|Sacred Sword]]'
+- - Master
+  - '[[SRD-Defog|Defog]]'
+- - Master
+  - '[[SRD-Vacuum Wave|Vacuum Wave]]'
+- - Master
+  - '[[SRD-Air Cutter|Air Cutter]]'
+- - Master
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Master
+  - '[[SRD-Cut|Cut]]'
+- - Master
+  - '[[SRD-False Swipe|False Swipe]]'
+- - Master
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Master
+  - '[[SRD-Synthesis|Synthesis]]'
+- - Master
+  - '[[SRD-Aerial Ace|Aerial Ace]]'
+- - Master
+  - '[[SRD-Laser Focus|Laser Focus]]'
+- - Master
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Master
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Master
+  - '[[SRD-Leaf Blade|Leaf Blade]]'
+- - Master
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - Master
+  - '[[SRD-Detect|Detect]]'
+- - Master
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Master
+  - '[[SRD-Psycho Cut|Psycho Cut]]'
+- - Master
+  - '[[SRD-Guillotine|Guillotine]]'
+- - Master
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Master
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Master
+  - '[[SRD-Tailwind|Tailwind]]'
 Number: 798
 ShuffleToken: SRD-kartana-ShuffleToken.png
 Type1: Grass
@@ -60,4 +104,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Pro
 
-![[SRD-Kartana-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Kartana.md"
+flatten moves as T
+where file.path = this.file.path
+```

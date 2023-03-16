@@ -16,8 +16,54 @@ Height:
 HiddenAbility: Prankster
 HomeSprite: SRD-volbeat-HomeSprite.png
 Image: volbeat.png
-Learnset: '[[SRD-Volbeat-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Flash|Flash]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Double Team|Double Team]]'
+- - Beginner
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Moonlight|Moonlight]]'
+- - Amateur
+  - '[[SRD-Struggle Bug|Struggle Bug]]'
+- - Amateur
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Amateur
+  - '[[SRD-Tail Glow|Tail Glow]]'
+- - Amateur
+  - '[[SRD-Signal Beam|Signal Beam]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Amateur
+  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - Ace
+  - '[[SRD-Play Rough|Play Rough]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Infestation|Infestation]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Dizzy Punch|Dizzy Punch]]'
+- - Pro
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Pro
+  - '[[SRD-Silver Wind|Silver Wind]]'
 Number: 313
 ShuffleToken: SRD-volbeat-ShuffleToken.png
 Type1: Bug
@@ -60,4 +106,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Beginner
 
-![[SRD-Volbeat-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Volbeat.md"
+flatten moves as T
+where file.path = this.file.path
+```

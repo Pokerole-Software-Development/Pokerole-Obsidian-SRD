@@ -24,8 +24,32 @@ Height:
 HiddenAbility: Rattled
 HomeSprite: SRD-clamperl-HomeSprite.png
 Image: clamperl.png
-Learnset: '[[SRD-Clamperl-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Clamp|Clamp]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Whirlpool|Whirlpool]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Shell Smash|Shell Smash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Refresh|Refresh]]'
+- - Pro
+  - '[[SRD-Endure|Endure]]'
+- - Pro
+  - '[[SRD-Mud Sport|Mud Sport]]'
 Number: 366
 ShuffleToken: SRD-clamperl-ShuffleToken.png
 Type1: Water
@@ -73,4 +97,14 @@ Weight:
 | To        | [[SRD-Huntail]]  | Trade  | Dragon Fang  |
 | To        | [[SRD-Gorebyss]] | Trade  | Dragon Scale |
 
-![[SRD-Clamperl-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Clamperl.md"
+flatten moves as T
+where file.path = this.file.path
+```

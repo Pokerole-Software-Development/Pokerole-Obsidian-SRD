@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Chlorophyll
 HomeSprite: SRD-bulbasaur-HomeSprite.png
 Image: bulbasaur.png
-Learnset: '[[SRD-Bulbasaur-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Leech Seed|Leech Seed]]'
+- - Beginner
+  - '[[SRD-Vine Whip|Vine Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Poison Powder|Poison Powder]]'
+- - Amateur
+  - '[[SRD-Sleep Powder|Sleep Powder]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Amateur
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Amateur
+  - '[[SRD-Growth|Growth]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Worry Seed|Worry Seed]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Synthesis|Synthesis]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Solar Beam|Solar Beam]]'
+- - Pro
+  - '[[SRD-Grassy Terrain|Grassy Terrain]]'
+- - Pro
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Pro
+  - '[[SRD-Grass Pledge|Grass Pledge]]'
 Number: 1
 ShuffleToken: SRD-bulbasaur-ShuffleToken.png
 Type1: Grass
@@ -68,4 +110,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Ivysaur]] | Level  | Medium  |
 
-![[SRD-Bulbasaur-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Bulbasaur.md"
+flatten moves as T
+where file.path = this.file.path
+```

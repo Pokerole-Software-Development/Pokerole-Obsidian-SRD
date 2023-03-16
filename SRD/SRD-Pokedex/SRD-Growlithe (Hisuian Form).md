@@ -20,8 +20,60 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-growlithe-hisuian-form-HomeSprite.png
 Image: growlithe-hisuian-form.png
-Learnset: '[[SRD-Growlithe (Hisuian Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Roar|Roar]]'
+- - Starter
+  - '[[SRD-Ember|Ember]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - Beginner
+  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+- - Beginner
+  - '[[SRD-Flame Wheel|Flame Wheel]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Iron Tail|Iron Tail]]'
+- - Amateur
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Amateur
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Work Up|Work Up]]'
+- - Amateur
+  - '[[SRD-Power Gem|Power Gem]]'
+- - Amateur
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Lava Plume|Lava Plume]]'
+- - Ace
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Ace
+  - '[[SRD-Raging Fury|Raging Fury]]'
+- - Ace
+  - '[[SRD-Drunch|Drunch]]'
+- - Ace
+  - '[[SRD-Play Rough|Play Rough]]'
+- - Ace
+  - '[[SRD-Flare Blitz|Flare Blitz]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Flame Charge|Flame Charge]]'
+- - Pro
+  - '[[SRD-Dig|Dig]]'
+- - Pro
+  - '[[SRD-Rock Smash|Rock Smash]]'
 Number: 58
 ShuffleToken: SRD-growlithe-hisuian-form-ShuffleToken.png
 Type1: Fire
@@ -68,4 +120,14 @@ Weight:
 |:----------|:--------------------------------|:-------|:-----------|
 | To        | [[SRD-Arcanine (Hisuian Form)]] | Stone  | Fire Stone |
 
-![[SRD-Growlithe (Hisuian Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Growlithe (Hisuian Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

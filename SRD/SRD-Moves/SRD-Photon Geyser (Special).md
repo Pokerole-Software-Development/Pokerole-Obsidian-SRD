@@ -5,7 +5,9 @@ AddedEffects: {}
 Attributes: {}
 Damage1: Special
 Damage2: ''
-Description: ''
+Description: The Pokemon attacks with a large pillar of light that comes out from
+  where its foe is standing, either the blazing energy  or the crushing strikes are
+  enough to knock someone out.
 DmgType: Special
 Effect: This Move's Damage Pool, can be rolled with either the Strength or Special
   Attribute, dealing Physical or Special Damage respectively. Choose whatever is most

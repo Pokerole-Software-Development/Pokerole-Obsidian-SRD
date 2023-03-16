@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Guts
 HomeSprite: SRD-luxray-HomeSprite.png
 Image: luxray.png
-Learnset: '[[SRD-Luxray-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Electric Terrain|Electric Terrain]]'
+- - Beginner
+  - '[[SRD-Charge|Charge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Spark|Spark]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Roar|Roar]]'
+- - Amateur
+  - '[[SRD-Swagger|Swagger]]'
+- - Amateur
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Ace
+  - '[[SRD-Discharge|Discharge]]'
+- - Ace
+  - '[[SRD-Wild Charge|Wild Charge]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
+- - Pro
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Pro
+  - '[[SRD-Superpower|Superpower]]'
 Number: 405
 ShuffleToken: SRD-luxray-ShuffleToken.png
 Type1: Electric
@@ -68,4 +108,14 @@ Weight:
 |:----------|:--------------|:-------|:--------|
 | From      | [[SRD-Luxio]] | Level  | Medium  |
 
-![[SRD-Luxray-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Luxray.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -16,8 +16,44 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-uxie-HomeSprite.png
 Image: uxie.png
-Learnset: '[[SRD-Uxie-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Master
+  - '[[SRD-Memento|Memento]]'
+- - Master
+  - '[[SRD-Natural Gift|Natural Gift]]'
+- - Master
+  - '[[SRD-Flail|Flail]]'
+- - Master
+  - '[[SRD-Rest|Rest]]'
+- - Master
+  - '[[SRD-Confusion|Confusion]]'
+- - Master
+  - '[[SRD-Imprison|Imprison]]'
+- - Master
+  - '[[SRD-Endure|Endure]]'
+- - Master
+  - '[[SRD-Swift|Swift]]'
+- - Master
+  - '[[SRD-Yawn|Yawn]]'
+- - Master
+  - '[[SRD-Future Sight|Future Sight]]'
+- - Master
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Master
+  - '[[SRD-Extrasensory|Extrasensory]]'
+- - Master
+  - '[[SRD-Foul Play|Foul Play]]'
+- - Master
+  - '[[SRD-Hidden Power|Hidden Power]]'
+- - Master
+  - '[[SRD-Psych Up|Psych Up]]'
+- - Master
+  - '[[SRD-Trick Room|Trick Room]]'
+- - Master
+  - '[[SRD-Magic Room|Magic Room]]'
+- - Master
+  - '[[SRD-Wonder Room|Wonder Room]]'
 Number: 480
 ShuffleToken: SRD-uxie-ShuffleToken.png
 Type1: Psychic
@@ -60,4 +96,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Master
 
-![[SRD-Uxie-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Uxie.md"
+flatten moves as T
+where file.path = this.file.path
+```

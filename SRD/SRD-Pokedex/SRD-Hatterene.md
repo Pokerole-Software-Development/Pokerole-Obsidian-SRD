@@ -21,8 +21,50 @@ Height:
 HiddenAbility: Magic Bounce
 HomeSprite: SRD-hatterene-HomeSprite.png
 Image: hatterene.png
-Learnset: '[[SRD-Hatterene-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Confusion|Confusion]]'
+- - Starter
+  - '[[SRD-Play Nice|Play Nice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Life Dew|Life Dew]]'
+- - Beginner
+  - '[[SRD-Disarming Voice|Disarming Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Aromatherapy|Aromatherapy]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Heal Pulse|Heal Pulse]]'
+- - Amateur
+  - '[[SRD-Dazzling Gleam|Dazzling Gleam]]'
+- - Amateur
+  - '[[SRD-Calm Mind|Calm Mind]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Brutal Swing|Brutal Swing]]'
+- - Ace
+  - '[[SRD-Psycho Cut|Psycho Cut]]'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Healing Wish|Healing Wish]]'
+- - Ace
+  - '[[SRD-Magic Powder|Magic Powder]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Dark Pulse|Dark Pulse]]'
+- - Pro
+  - '[[SRD-Mystical Fire|Mystical Fire]]'
+- - Pro
+  - '[[SRD-Light Screen|Light Screen]]'
 Number: 858
 ShuffleToken: SRD-hatterene-ShuffleToken.png
 Type1: Psychic
@@ -69,4 +111,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Hattrem]] | Level  | Medium  |
 
-![[SRD-Hatterene-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Hatterene.md"
+flatten moves as T
+where file.path = this.file.path
+```

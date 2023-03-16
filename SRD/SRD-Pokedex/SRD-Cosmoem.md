@@ -28,8 +28,16 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-cosmoem-HomeSprite.png
 Image: cosmoem.png
-Learnset: '[[SRD-Cosmoem-Learnset]]'
 Legendary: 'Yes'
+Moves:
+- - Starter
+  - '[[SRD-Splash|Splash]]'
+- - Starter
+  - '[[SRD-Teleport|Teleport]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Cosmic Power|Cosmic Power]]'
 Number: 790
 ShuffleToken: SRD-cosmoem-ShuffleToken.png
 Type1: Psychic
@@ -78,4 +86,14 @@ Weight:
 | To        | [[SRD-Solgaleo]] | Level  |         | Sword  |
 | To        | [[SRD-Lunala]]   | Level  |         | Shield |
 
-![[SRD-Cosmoem-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Cosmoem.md"
+flatten moves as T
+where file.path = this.file.path
+```

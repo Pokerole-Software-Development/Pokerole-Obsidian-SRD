@@ -20,8 +20,18 @@ Height:
 HiddenAbility: Light Metal
 HomeSprite: SRD-beldum-HomeSprite.png
 Image: beldum.png
-Learnset: '[[SRD-Beldum-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Take Down|Take Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Iron Head|Iron Head]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Headbutt|Headbutt]]'
 Number: 374
 ShuffleToken: SRD-beldum-ShuffleToken.png
 Type1: Steel
@@ -68,4 +78,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | To        | [[SRD-Metang]] | Level  | Medium  |
 
-![[SRD-Beldum-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Beldum.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -16,8 +16,56 @@ Height:
 HiddenAbility: Psychic Surge
 HomeSprite: SRD-indeedee-HomeSprite.png
 Image: indeedee.png
-Learnset: '[[SRD-Indeedee-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Stored Power|Stored Power]]'
+- - Starter
+  - '[[SRD-Play Nice|Play Nice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Encore|Encore]]'
+- - Beginner
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Beginner
+  - '[[SRD-Disarming Voice|Disarming Voice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Amateur
+  - '[[SRD-Follow Me|Follow Me]]'
+- - Amateur
+  - '[[SRD-After You|After You]]'
+- - Amateur
+  - '[[SRD-Aromatherapy|Aromatherapy]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Calm Mind|Calm Mind]]'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Power Split|Power Split]]'
+- - Ace
+  - '[[SRD-Guard Split|Guard Split]]'
+- - Ace
+  - '[[SRD-Last Resort|Last Resort]]'
+- - Ace
+  - '[[SRD-Healing Wish|Healing Wish]]'
+- - Ace
+  - '[[SRD-Psychic Terrain|Psychic Terrain]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Pro
+  - '[[SRD-Shadow Ball|Shadow Ball]]'
+- - Pro
+  - '[[SRD-Wonder Room|Wonder Room]]'
 Number: 876
 ShuffleToken: SRD-indeedee-ShuffleToken.png
 Type1: Psychic
@@ -60,4 +108,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Starter
 
-![[SRD-Indeedee-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Indeedee.md"
+flatten moves as T
+where file.path = this.file.path
+```

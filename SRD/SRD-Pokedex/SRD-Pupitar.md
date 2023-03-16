@@ -24,8 +24,50 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-pupitar-HomeSprite.png
 Image: pupitar.png
-Learnset: '[[SRD-Pupitar-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bite|Bite]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sandstorm|Sandstorm]]'
+- - Beginner
+  - '[[SRD-Screech|Screech]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Chip Away|Chip Away]]'
+- - Amateur
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Thrash|Thrash]]'
+- - Amateur
+  - '[[SRD-Dark Pulse|Dark Pulse]]'
+- - Amateur
+  - '[[SRD-Payback|Payback]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - Ace
+  - '[[SRD-Hyper Beam|Hyper Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Focus Energy|Focus Energy]]'
 Number: 247
 ShuffleToken: SRD-pupitar-ShuffleToken.png
 Type1: Rock
@@ -73,4 +115,14 @@ Weight:
 | From      | [[SRD-Larvitar]]  | Level  | Slow    |
 | To        | [[SRD-Tyranitar]] | Level  | Slow    |
 
-![[SRD-Pupitar-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Pupitar.md"
+flatten moves as T
+where file.path = this.file.path
+```

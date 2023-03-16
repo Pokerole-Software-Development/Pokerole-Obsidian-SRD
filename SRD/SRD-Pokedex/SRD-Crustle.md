@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Weak Armor
 HomeSprite: SRD-crustle-HomeSprite.png
 Image: crustle.png
-Learnset: '[[SRD-Crustle-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Starter
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Withdraw|Withdraw]]'
+- - Beginner
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Smack Down|Smack Down]]'
+- - Amateur
+  - '[[SRD-Rock Polish|Rock Polish]]'
+- - Amateur
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - Amateur
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Amateur
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-X-Scissor|X-Scissor]]'
+- - Ace
+  - '[[SRD-Shell Smash|Shell Smash]]'
+- - Ace
+  - '[[SRD-Flail|Flail]]'
+- - Ace
+  - '[[SRD-Rock Wrecker|Rock Wrecker]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Pro
+  - '[[SRD-Night Slash|Night Slash]]'
 Number: 558
 ShuffleToken: SRD-crustle-ShuffleToken.png
 Type1: Bug
@@ -68,4 +112,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Dwebble]] | Level  | Medium  |
 
-![[SRD-Crustle-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Crustle.md"
+flatten moves as T
+where file.path = this.file.path
+```

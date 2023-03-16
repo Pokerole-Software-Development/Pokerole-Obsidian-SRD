@@ -24,8 +24,60 @@ Height:
 HiddenAbility: Unnerve
 HomeSprite: SRD-tyranitar-HomeSprite.png
 Image: tyranitar.png
-Learnset: '[[SRD-Tyranitar-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bite|Bite]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Screech|Screech]]'
+- - Beginner
+  - '[[SRD-Sandstorm|Sandstorm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Amateur
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
+- - Amateur
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Amateur
+  - '[[SRD-Chip Away|Chip Away]]'
+- - Amateur
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Thrash|Thrash]]'
+- - Amateur
+  - '[[SRD-Dark Pulse|Dark Pulse]]'
+- - Amateur
+  - '[[SRD-Payback|Payback]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - Ace
+  - '[[SRD-Hyper Beam|Hyper Beam]]'
+- - Ace
+  - '[[SRD-Giga Impact|Giga Impact]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Dragon Dance|Dragon Dance]]'
+- - Pro
+  - '[[SRD-Outrage|Outrage]]'
+- - Pro
+  - '[[SRD-Superpower|Superpower]]'
 Number: 248
 ShuffleToken: SRD-tyranitar-ShuffleToken.png
 Type1: Rock
@@ -73,4 +125,14 @@ Weight:
 | From      | [[SRD-Pupitar]]               | Level  | Slow    |              |
 | To        | [[SRD-Tyranitar (Mega Form)]] | Mega   |         | Tyranitarite |
 
-![[SRD-Tyranitar-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Tyranitar.md"
+flatten moves as T
+where file.path = this.file.path
+```

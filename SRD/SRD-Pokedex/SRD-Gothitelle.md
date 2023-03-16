@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Shadow Tag
 HomeSprite: SRD-gothitelle-HomeSprite.png
 Image: gothitelle.png
-Learnset: '[[SRD-Gothitelle-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Confusion|Confusion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tickle|Tickle]]'
+- - Beginner
+  - '[[SRD-Play Nice|Play Nice]]'
+- - Beginner
+  - '[[SRD-Fake Tears|Fake Tears]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Double Slap|Double Slap]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Embargo|Embargo]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Psyshock|Psyshock]]'
+- - Amateur
+  - '[[SRD-Flatter|Flatter]]'
+- - Amateur
+  - '[[SRD-Future Sight|Future Sight]]'
+- - Amateur
+  - '[[SRD-Heal Block|Heal Block]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Telekinesis|Telekinesis]]'
+- - Ace
+  - '[[SRD-Charm|Charm]]'
+- - Ace
+  - '[[SRD-Magic Room|Magic Room]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Heal Pulse|Heal Pulse]]'
+- - Pro
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Pro
+  - '[[SRD-Dark Pulse|Dark Pulse]]'
 Number: 576
 ShuffleToken: SRD-gothitelle-ShuffleToken.png
 Type1: Psychic
@@ -68,4 +116,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | From      | [[SRD-Gothorita]] | Level  | Medium  |
 
-![[SRD-Gothitelle-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Gothitelle.md"
+flatten moves as T
+where file.path = this.file.path
+```

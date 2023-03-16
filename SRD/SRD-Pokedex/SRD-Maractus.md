@@ -16,8 +16,62 @@ Height:
 HiddenAbility: Storm Drain
 HomeSprite: SRD-maractus-HomeSprite.png
 Image: maractus.png
-Learnset: '[[SRD-Maractus-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Absorb|Absorb]]'
+- - Starter
+  - '[[SRD-Growth|Growth]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Beginner
+  - '[[SRD-Spiky Shield|Spiky Shield]]'
+- - Beginner
+  - '[[SRD-Pin Missile|Pin Missile]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Amateur
+  - '[[SRD-Synthesis|Synthesis]]'
+- - Amateur
+  - '[[SRD-Cotton Spore|Cotton Spore]]'
+- - Amateur
+  - '[[SRD-Needle Arm|Needle Arm]]'
+- - Amateur
+  - '[[SRD-Ingrain|Ingrain]]'
+- - Amateur
+  - '[[SRD-Acupressure|Acupressure]]'
+- - Amateur
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Amateur
+  - '[[SRD-Petal Dance|Petal Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Ace
+  - '[[SRD-After You|After You]]'
+- - Ace
+  - '[[SRD-Petal Blizzard|Petal Blizzard]]'
+- - Ace
+  - '[[SRD-Solar Beam|Solar Beam]]'
+- - Ace
+  - '[[SRD-Cotton Guard|Cotton Guard]]'
+- - Ace
+  - '[[SRD-Sunny Day|Sunny Day]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Drain Punch|Drain Punch]]'
+- - Pro
+  - '[[SRD-Spikes|Spikes]]'
+- - Pro
+  - '[[SRD-Worry Seed|Worry Seed]]'
 Number: 556
 ShuffleToken: SRD-maractus-ShuffleToken.png
 Type1: Grass
@@ -60,4 +114,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Maractus-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Maractus.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Unaware
 HomeSprite: SRD-quagsire-HomeSprite.png
 Image: quagsire.png
-Learnset: '[[SRD-Quagsire-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Water Gun|Water Gun]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Mud Sport|Mud Sport]]'
+- - Beginner
+  - '[[SRD-Mud Shot|Mud Shot]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - Amateur
+  - '[[SRD-Mud Bomb|Mud Bomb]]'
+- - Amateur
+  - '[[SRD-Amnesia|Amnesia]]'
+- - Amateur
+  - '[[SRD-Yawn|Yawn]]'
+- - Amateur
+  - '[[SRD-Mist|Mist]]'
+- - Amateur
+  - '[[SRD-Muddy Water|Muddy Water]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - Ace
+  - '[[SRD-Haze|Haze]]'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Curse|Curse]]'
+- - Pro
+  - '[[SRD-Ancient Power|Ancient Power]]'
+- - Pro
+  - '[[SRD-Ice Punch|Ice Punch]]'
 Number: 195
 ShuffleToken: SRD-quagsire-ShuffleToken.png
 Type1: Water
@@ -68,4 +108,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Wooper]] | Level  | Medium  |
 
-![[SRD-Quagsire-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Quagsire.md"
+flatten moves as T
+where file.path = this.file.path
+```

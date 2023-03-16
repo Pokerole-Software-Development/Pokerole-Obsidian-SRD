@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Anticipation
 HomeSprite: SRD-rapidash-galarian-form-HomeSprite.png
 Image: rapidash-galarian-form.png
-Learnset: '[[SRD-Rapidash (Galarian Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - Beginner
+  - '[[SRD-Confusion|Confusion]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fairy Wind|Fairy Wind]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Psycho Cut|Psycho Cut]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Stomp|Stomp]]'
+- - Amateur
+  - '[[SRD-Heal Pulse|Heal Pulse]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Dazzling Gleam|Dazzling Gleam]]'
+- - Ace
+  - '[[SRD-Psychic|Psychic]]'
+- - Ace
+  - '[[SRD-Megahorn|Megahorn]]'
+- - Ace
+  - '[[SRD-Healing Wish|Healing Wish]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-High Horsepower|High Horsepower]]'
+- - Pro
+  - '[[SRD-Magic Room|Magic Room]]'
+- - Pro
+  - '[[SRD-Bounce|Bounce]]'
 Number: 78
 ShuffleToken: SRD-rapidash-galarian-form-ShuffleToken.png
 Type1: Psychic
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-------------------------------|:-------|:--------|
 | From      | [[SRD-Ponyta (Galarian Form)]] | Level  | Medium  |
 
-![[SRD-Rapidash (Galarian Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Rapidash (Galarian Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

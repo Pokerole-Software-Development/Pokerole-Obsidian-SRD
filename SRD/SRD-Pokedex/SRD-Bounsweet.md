@@ -20,8 +20,40 @@ Height:
 HiddenAbility: Sweet Veil
 HomeSprite: SRD-bounsweet-HomeSprite.png
 Image: bounsweet.png
-Learnset: '[[SRD-Bounsweet-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Splash|Splash]]'
+- - Starter
+  - '[[SRD-Play Nice|Play Nice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Rapid Spin|Rapid Spin]]'
+- - Beginner
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Beginner
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Magical Leaf|Magical Leaf]]'
+- - Amateur
+  - '[[SRD-Teeter Dance|Teeter Dance]]'
+- - Amateur
+  - '[[SRD-Flail|Flail]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Aromatic Mist|Aromatic Mist]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Charm|Charm]]'
+- - Pro
+  - '[[SRD-Play Rough|Play Rough]]'
+- - Pro
+  - '[[SRD-Acupressure|Acupressure]]'
 Number: 761
 ShuffleToken: SRD-bounsweet-ShuffleToken.png
 Type1: Grass
@@ -68,4 +100,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | To        | [[SRD-Steenee]] | Level  | Medium  |
 
-![[SRD-Bounsweet-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Bounsweet.md"
+flatten moves as T
+where file.path = this.file.path
+```

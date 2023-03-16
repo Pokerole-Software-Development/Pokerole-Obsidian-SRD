@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Sand Force
 HomeSprite: SRD-hippowdon-HomeSprite.png
 Image: hippowdon.png
-Learnset: '[[SRD-Hippowdon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Yawn|Yawn]]'
+- - Beginner
+  - '[[SRD-Bite|Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Ice Fang|Ice Fang]]'
+- - Amateur
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Amateur
+  - '[[SRD-Thunder Fang|Thunder Fang]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Dig|Dig]]'
+- - Amateur
+  - '[[SRD-Sand Tomb|Sand Tomb]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Fissure|Fissure]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Slack Off|Slack Off]]'
+- - Pro
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Pro
+  - '[[SRD-Revenge|Revenge]]'
 Number: 450
 ShuffleToken: SRD-hippowdon-ShuffleToken.png
 Type1: Ground
@@ -68,4 +110,14 @@ Weight:
 |:----------|:-------------------|:-------|:--------|
 | From      | [[SRD-Hippopotas]] | Level  | Medium  |
 
-![[SRD-Hippowdon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Hippowdon.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,46 @@ Height:
 HiddenAbility: Cloud Nine
 HomeSprite: SRD-lickilicky-HomeSprite.png
 Image: lickilicky.png
-Learnset: '[[SRD-Lickilicky-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Lick|Lick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Beginner
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Amateur
+  - '[[SRD-Wrap|Wrap]]'
+- - Amateur
+  - '[[SRD-Stomp|Stomp]]'
+- - Amateur
+  - '[[SRD-Disable|Disable]]'
+- - Amateur
+  - '[[SRD-Slam|Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Rollout|Rollout]]'
+- - Ace
+  - '[[SRD-Chip Away|Chip Away]]'
+- - Ace
+  - '[[SRD-Me First|Me First]]'
+- - Ace
+  - '[[SRD-Refresh|Refresh]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Screech|Screech]]'
+- - Pro
+  - '[[SRD-Power Whip|Power Whip]]'
+- - Pro
+  - '[[SRD-Wring Out|Wring Out]]'
 Number: 463
 ShuffleToken: SRD-lickilicky-ShuffleToken.png
 Type1: Normal
@@ -68,4 +106,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | From      | [[SRD-Lickitung]] | Level  | Slow    |
 
-![[SRD-Lickilicky-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Lickilicky.md"
+flatten moves as T
+where file.path = this.file.path
+```

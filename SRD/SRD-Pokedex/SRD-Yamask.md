@@ -20,8 +20,52 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-yamask-HomeSprite.png
 Image: yamask.png
-Learnset: '[[SRD-Yamask-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - Starter
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Disable|Disable]]'
+- - Beginner
+  - '[[SRD-Haze|Haze]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Night Shade|Night Shade]]'
+- - Amateur
+  - '[[SRD-Hex|Hex]]'
+- - Amateur
+  - '[[SRD-Will-O-Wisp|Will-O-Wisp]]'
+- - Amateur
+  - '[[SRD-Ominous Wind|Ominous Wind]]'
+- - Amateur
+  - '[[SRD-Curse|Curse]]'
+- - Amateur
+  - '[[SRD-Power Split|Power Split]]'
+- - Amateur
+  - '[[SRD-Guard Split|Guard Split]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Shadow Ball|Shadow Ball]]'
+- - Ace
+  - '[[SRD-Grudge|Grudge]]'
+- - Ace
+  - '[[SRD-Mean Look|Mean Look]]'
+- - Ace
+  - '[[SRD-Destiny Bond|Destiny Bond]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fake Tears|Fake Tears]]'
+- - Pro
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Pro
+  - '[[SRD-Role Play|Role Play]]'
 Number: 562
 ShuffleToken: SRD-yamask-ShuffleToken.png
 Type1: Ghost
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-------------------|:-------|:--------|
 | To        | [[SRD-Cofagrigus]] | Level  | Slow    |
 
-![[SRD-Yamask-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Yamask.md"
+flatten moves as T
+where file.path = this.file.path
+```

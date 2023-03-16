@@ -24,8 +24,54 @@ Height:
 HiddenAbility: Reckless
 HomeSprite: SRD-rhydon-HomeSprite.png
 Image: rhydon.png
-Learnset: '[[SRD-Rhydon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Horn Attack|Horn Attack]]'
+- - Starter
+  - '[[SRD-Tail Whip|Tail Whip]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Stomp|Stomp]]'
+- - Beginner
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Beginner
+  - '[[SRD-Smack Down|Smack Down]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Scary Face|Scary Face]]'
+- - Amateur
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - Amateur
+  - '[[SRD-Bulldoze|Bulldoze]]'
+- - Amateur
+  - '[[SRD-Chip Away|Chip Away]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Drill Run|Drill Run]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Hammer Arm|Hammer Arm]]'
+- - Ace
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Horn Drill|Horn Drill]]'
+- - Ace
+  - '[[SRD-Megahorn|Megahorn]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Dragon Rush|Dragon Rush]]'
+- - Pro
+  - '[[SRD-Skull Bash|Skull Bash]]'
+- - Pro
+  - '[[SRD-Smart Strike|Smart Strike]]'
 Number: 112
 ShuffleToken: SRD-rhydon-ShuffleToken.png
 Type1: Ground
@@ -73,4 +119,14 @@ Weight:
 | From      | [[SRD-Rhyhorn]]   | Level  | Slow    |           |
 | To        | [[SRD-Rhyperior]] | Trade  |         | Protector |
 
-![[SRD-Rhydon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Rhydon.md"
+flatten moves as T
+where file.path = this.file.path
+```

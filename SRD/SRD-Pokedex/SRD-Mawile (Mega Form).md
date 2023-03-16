@@ -20,8 +20,60 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-mawile-mega-form-HomeSprite.png
 Image: mawile-mega-form.png
-Learnset: '[[SRD-Mawile (Mega Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Astonish|Astonish]]'
+- - Starter
+  - '[[SRD-Snatch|Snatch]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fairy Wind|Fairy Wind]]'
+- - Beginner
+  - '[[SRD-Taunt|Taunt]]'
+- - Beginner
+  - '[[SRD-Fake Tears|Fake Tears]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Amateur
+  - '[[SRD-Vice Grip|Vice Grip]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Amateur
+  - '[[SRD-Crunch|Crunch]]'
+- - Amateur
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Amateur
+  - '[[SRD-Stockpile|Stockpile]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Sucker Punch|Sucker Punch]]'
+- - Ace
+  - '[[SRD-Spit Up|Spit Up]]'
+- - Ace
+  - '[[SRD-Swallow|Swallow]]'
+- - Ace
+  - '[[SRD-Iron Head|Iron Head]]'
+- - Ace
+  - '[[SRD-Play Rough|Play Rough]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Fire Fang|Fire Fang]]'
+- - Pro
+  - '[[SRD-Poison Fang|Poison Fang]]'
+- - Pro
+  - '[[SRD-Super Fang|Super Fang]]'
 Number: 303
 ShuffleToken: SRD-mawile-mega-form-ShuffleToken.png
 Type1: Steel
@@ -68,4 +120,14 @@ Weight:
 |:----------|:---------------|:-------|:---------|
 | From      | [[SRD-Mawile]] | Mega   | Mawilite |
 
-![[SRD-Mawile (Mega Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Mawile (Mega Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

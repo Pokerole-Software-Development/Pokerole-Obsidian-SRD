@@ -16,8 +16,56 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-solrock-HomeSprite.png
 Image: solrock.png
-Learnset: '[[SRD-Solrock-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Harden|Harden]]'
+- - Starter
+  - '[[SRD-Solar Beam|Solar Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fire Spin|Fire Spin]]'
+- - Beginner
+  - '[[SRD-Confusion|Confusion]]'
+- - Beginner
+  - '[[SRD-Rock Throw|Rock Throw]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Rock Polish|Rock Polish]]'
+- - Amateur
+  - '[[SRD-Psywave|Psywave]]'
+- - Amateur
+  - '[[SRD-Embargo|Embargo]]'
+- - Amateur
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Amateur
+  - '[[SRD-Cosmic Power|Cosmic Power]]'
+- - Amateur
+  - '[[SRD-Psychic|Psychic]]'
+- - Amateur
+  - '[[SRD-Heal Block|Heal Block]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Stone Edge|Stone Edge]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - Ace
+  - '[[SRD-Flare Blitz|Flare Blitz]]'
+- - Ace
+  - '[[SRD-Wonder Room|Wonder Room]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Magic Coat|Magic Coat]]'
+- - Pro
+  - '[[SRD-Sunny Day|Sunny Day]]'
+- - Pro
+  - '[[SRD-Skill Swap|Skill Swap]]'
 Number: 338
 ShuffleToken: SRD-solrock-ShuffleToken.png
 Type1: Rock
@@ -60,4 +108,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Amateur
 
-![[SRD-Solrock-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Solrock.md"
+flatten moves as T
+where file.path = this.file.path
+```

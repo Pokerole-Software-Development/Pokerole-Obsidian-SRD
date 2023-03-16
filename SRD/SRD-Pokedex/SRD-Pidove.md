@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Rivalry
 HomeSprite: SRD-pidove-HomeSprite.png
 Image: pidove.png
-Learnset: '[[SRD-Pidove-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Gust|Gust]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Air Cutter|Air Cutter]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Roost|Roost]]'
+- - Amateur
+  - '[[SRD-Detect|Detect]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Amateur
+  - '[[SRD-Razor Wind|Razor Wind]]'
+- - Amateur
+  - '[[SRD-Feather Dance|Feather Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Swagger|Swagger]]'
+- - Ace
+  - '[[SRD-Facade|Facade]]'
+- - Ace
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Ace
+  - '[[SRD-Sky Attack|Sky Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Steel Wing|Steel Wing]]'
+- - Pro
+  - '[[SRD-Lucky Chant|Lucky Chant]]'
+- - Pro
+  - '[[SRD-Hypnosis|Hypnosis]]'
 Number: 519
 ShuffleToken: SRD-pidove-ShuffleToken.png
 Type1: Normal
@@ -68,4 +112,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Tranquill]] | Level  | Medium  |
 
-![[SRD-Pidove-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Pidove.md"
+flatten moves as T
+where file.path = this.file.path
+```

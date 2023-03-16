@@ -20,8 +20,48 @@ Height:
 HiddenAbility: Iron Fist
 HomeSprite: SRD-chimchar-HomeSprite.png
 Image: chimchar.png
-Learnset: '[[SRD-Chimchar-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Ember|Ember]]'
+- - Beginner
+  - '[[SRD-Taunt|Taunt]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Flame Wheel|Flame Wheel]]'
+- - Amateur
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Amateur
+  - '[[SRD-Torment|Torment]]'
+- - Amateur
+  - '[[SRD-Facade|Facade]]'
+- - Amateur
+  - '[[SRD-Fire Spin|Fire Spin]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Acrobatics|Acrobatics]]'
+- - Ace
+  - '[[SRD-Slack Off|Slack Off]]'
+- - Ace
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Helping Hand|Helping Hand]]'
+- - Pro
+  - '[[SRD-Fake Out|Fake Out]]'
+- - Pro
+  - '[[SRD-Fire Pledge|Fire Pledge]]'
 Number: 390
 ShuffleToken: SRD-chimchar-ShuffleToken.png
 Type1: Fire
@@ -68,4 +108,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Monferno]] | Level  | Medium  |
 
-![[SRD-Chimchar-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Chimchar.md"
+flatten moves as T
+where file.path = this.file.path
+```

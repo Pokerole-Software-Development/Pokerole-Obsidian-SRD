@@ -19,8 +19,54 @@ Height:
 HiddenAbility: Galvanize
 HomeSprite: SRD-golem-alolan-form-HomeSprite.png
 Image: golem-alolan-form.png
-Learnset: '[[SRD-Golem (Alolan Form)-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Charge|Charge]]'
+- - Beginner
+  - '[[SRD-Rock Polish|Rock Polish]]'
+- - Beginner
+  - '[[SRD-Rollout|Rollout]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Spark|Spark]]'
+- - Amateur
+  - '[[SRD-Rock Throw|Rock Throw]]'
+- - Amateur
+  - '[[SRD-Smack Down|Smack Down]]'
+- - Amateur
+  - '[[SRD-Thunder Punch|Thunder Punch]]'
+- - Amateur
+  - '[[SRD-Self Destruct|Self Destruct]]'
+- - Amateur
+  - '[[SRD-Stealth Rock|Stealth Rock]]'
+- - Amateur
+  - '[[SRD-Rock Blast|Rock Blast]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Discharge|Discharge]]'
+- - Ace
+  - '[[SRD-Explosion|Explosion]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Heavy Slam|Heavy Slam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Magnet Rise|Magnet Rise]]'
+- - Pro
+  - '[[SRD-Counter|Counter]]'
+- - Pro
+  - '[[SRD-Wild Charge|Wild Charge]]'
 Number: 76
 ShuffleToken: SRD-golem-alolan-form-ShuffleToken.png
 Type1: Rock
@@ -67,4 +113,14 @@ Weight:
 |:----------|:-------------------------------|:-------|
 | From      | [[SRD-Graveler (Alolan Form)]] | Trade  |
 
-![[SRD-Golem (Alolan Form)-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Golem (Alolan Form).md"
+flatten moves as T
+where file.path = this.file.path
+```

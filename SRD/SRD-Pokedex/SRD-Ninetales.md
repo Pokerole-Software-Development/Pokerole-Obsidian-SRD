@@ -20,8 +20,30 @@ Height:
 HiddenAbility: Drought
 HomeSprite: SRD-ninetales-HomeSprite.png
 Image: ninetales.png
-Learnset: '[[SRD-Ninetales-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Amateur
+  - '[[SRD-Imprison|Imprison]]'
+- - Amateur
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Amateur
+  - '[[SRD-Flamethrower|Flamethrower]]'
+- - Amateur
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Amateur
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Ace
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Pain Split|Pain Split]]'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
 Number: 38
 ShuffleToken: SRD-ninetales-ShuffleToken.png
 Type1: Fire
@@ -68,4 +90,14 @@ Weight:
 |:----------|:---------------|:-------|:-----------|
 | From      | [[SRD-Vulpix]] | Stone  | Fire Stone |
 
-![[SRD-Ninetales-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Ninetales.md"
+flatten moves as T
+where file.path = this.file.path
+```

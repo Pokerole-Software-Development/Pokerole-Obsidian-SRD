@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Torrent
 HomeSprite: SRD-panpour-HomeSprite.png
 Image: panpour.png
-Learnset: '[[SRD-Panpour-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Play Nice|Play Nice]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - Beginner
+  - '[[SRD-Lick|Lick]]'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Water Sport|Water Sport]]'
+- - Amateur
+  - '[[SRD-Bite|Bite]]'
+- - Amateur
+  - '[[SRD-Scald|Scald]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Fling|Fling]]'
+- - Amateur
+  - '[[SRD-Acrobatics|Acrobatics]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Brine|Brine]]'
+- - Ace
+  - '[[SRD-Recycle|Recycle]]'
+- - Ace
+  - '[[SRD-Natural Gift|Natural Gift]]'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
+- - Pro
+  - '[[SRD-Aqua Tail|Aqua Tail]]'
+- - Pro
+  - '[[SRD-Disarming Voice|Disarming Voice]]'
 Number: 515
 ShuffleToken: SRD-panpour-ShuffleToken.png
 Type1: Water
@@ -68,4 +114,14 @@ Weight:
 |:----------|:-----------------|:-------|:------------|
 | To        | [[SRD-Simipour]] | Stone  | Water Stone |
 
-![[SRD-Panpour-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Panpour.md"
+flatten moves as T
+where file.path = this.file.path
+```

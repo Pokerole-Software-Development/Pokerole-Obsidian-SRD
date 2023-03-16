@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Iron Fist
 HomeSprite: SRD-ledian-HomeSprite.png
 Image: ledian.png
-Learnset: '[[SRD-Ledian-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Supersonic|Supersonic]]'
+- - Beginner
+  - '[[SRD-Comet Punch|Comet Punch]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Light Screen|Light Screen]]'
+- - Amateur
+  - '[[SRD-Reflect|Reflect]]'
+- - Amateur
+  - '[[SRD-Safeguard|Safeguard]]'
+- - Amateur
+  - '[[SRD-Mach Punch|Mach Punch]]'
+- - Amateur
+  - '[[SRD-Baton Pass|Baton Pass]]'
+- - Amateur
+  - '[[SRD-Silver Wind|Silver Wind]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Air Slash|Air Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Swift|Swift]]'
+- - Ace
+  - '[[SRD-Double-Edge|Double-Edge]]'
+- - Ace
+  - '[[SRD-Bug Buzz|Bug Buzz]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Giga Drain|Giga Drain]]'
+- - Pro
+  - '[[SRD-Air Cutter|Air Cutter]]'
+- - Pro
+  - '[[SRD-Psybeam|Psybeam]]'
 Number: 166
 ShuffleToken: SRD-ledian-ShuffleToken.png
 Type1: Bug
@@ -68,4 +110,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Ledyba]] | Level  | Medium  |
 
-![[SRD-Ledian-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Ledian.md"
+flatten moves as T
+where file.path = this.file.path
+```

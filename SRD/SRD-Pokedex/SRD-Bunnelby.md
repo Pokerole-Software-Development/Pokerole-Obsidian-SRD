@@ -20,8 +20,54 @@ Height:
 HiddenAbility: Huge Power
 HomeSprite: SRD-bunnelby-HomeSprite.png
 Image: bunnelby.png
-Learnset: '[[SRD-Bunnelby-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Agility|Agility]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - Beginner
+  - '[[SRD-Double Slap|Double Slap]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Mud Shot|Mud Shot]]'
+- - Amateur
+  - '[[SRD-Double Kick|Double Kick]]'
+- - Amateur
+  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+- - Amateur
+  - '[[SRD-Flail|Flail]]'
+- - Amateur
+  - '[[SRD-Dig|Dig]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Bounce|Bounce]]'
+- - Ace
+  - '[[SRD-Super Fang|Super Fang]]'
+- - Ace
+  - '[[SRD-Facade|Facade]]'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Pro
+  - '[[SRD-Rollout|Rollout]]'
+- - Pro
+  - '[[SRD-Last Resort|Last Resort]]'
 Number: 659
 ShuffleToken: SRD-bunnelby-ShuffleToken.png
 Type1: Normal
@@ -68,4 +114,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Diggersby]] | Level  | Medium  |
 
-![[SRD-Bunnelby-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Bunnelby.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -16,8 +16,56 @@ Height:
 HiddenAbility: Defiant
 HomeSprite: SRD-farfetchd-HomeSprite.png
 Image: farfetchd.png
-Learnset: '[[SRD-Farfetch''d-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Peck|Peck]]'
+- - Starter
+  - '[[SRD-Sand Attack|Sand Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Fury Cutter|Fury Cutter]]'
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Acrobatics|Acrobatics]]'
+- - Amateur
+  - '[[SRD-Fury Attack|Fury Attack]]'
+- - Amateur
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Air Cutter|Air Cutter]]'
+- - Amateur
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Amateur
+  - '[[SRD-Agility|Agility]]'
+- - Amateur
+  - '[[SRD-Poison Jab|Poison Jab]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Ace
+  - '[[SRD-Feint|Feint]]'
+- - Ace
+  - '[[SRD-False Swipe|False Swipe]]'
+- - Ace
+  - '[[SRD-Air Slash|Air Slash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Brave Bird|Brave Bird]]'
+- - Pro
+  - '[[SRD-Leaf Blade|Leaf Blade]]'
+- - Pro
+  - '[[SRD-Feather Dance|Feather Dance]]'
+- - Pro
+  - '[[SRD-Roost|Roost]]'
 Number: 83
 ShuffleToken: SRD-farfetchd-ShuffleToken.png
 Type1: Normal
@@ -60,4 +108,14 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Beginner
 
-![[SRD-Farfetch'd-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Farfetch'd.md"
+flatten moves as T
+where file.path = this.file.path
+```

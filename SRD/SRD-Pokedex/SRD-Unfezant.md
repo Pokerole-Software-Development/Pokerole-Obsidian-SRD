@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Rivalry
 HomeSprite: SRD-unfezant-HomeSprite.png
 Image: unfezant.png
-Learnset: '[[SRD-Unfezant-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Gust|Gust]]'
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - Beginner
+  - '[[SRD-Quick Attack|Quick Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Air Cutter|Air Cutter]]'
+- - Amateur
+  - '[[SRD-Roost|Roost]]'
+- - Amateur
+  - '[[SRD-Detect|Detect]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Air Slash|Air Slash]]'
+- - Amateur
+  - '[[SRD-Razor Wind|Razor Wind]]'
+- - Amateur
+  - '[[SRD-Feather Dance|Feather Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Swagger|Swagger]]'
+- - Ace
+  - '[[SRD-Facade|Facade]]'
+- - Ace
+  - '[[SRD-Tailwind|Tailwind]]'
+- - Ace
+  - '[[SRD-Sky Attack|Sky Attack]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Heat Wave|Heat Wave]]'
+- - Pro
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Pro
+  - '[[SRD-Lucky Chant|Lucky Chant]]'
 Number: 521
 ShuffleToken: SRD-unfezant-ShuffleToken.png
 Type1: Normal
@@ -68,4 +112,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | From      | [[SRD-Tranquill]] | Level  | Medium  |
 
-![[SRD-Unfezant-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Unfezant.md"
+flatten moves as T
+where file.path = this.file.path
+```

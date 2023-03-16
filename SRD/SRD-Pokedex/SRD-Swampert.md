@@ -24,8 +24,52 @@ Height:
 HiddenAbility: Damp
 HomeSprite: SRD-swampert-HomeSprite.png
 Image: swampert.png
-Learnset: '[[SRD-Swampert-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Beginner
+  - '[[SRD-Water Gun|Water Gun]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Take Down|Take Down]]'
+- - Amateur
+  - '[[SRD-Bide|Bide]]'
+- - Amateur
+  - '[[SRD-Mud Shot|Mud Shot]]'
+- - Amateur
+  - '[[SRD-Foresight|Foresight]]'
+- - Amateur
+  - '[[SRD-Mud Bomb|Mud Bomb]]'
+- - Amateur
+  - '[[SRD-Rock Slide|Rock Slide]]'
+- - Amateur
+  - '[[SRD-Muddy Water|Muddy Water]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Hammer Arm|Hammer Arm]]'
+- - Ace
+  - '[[SRD-Protect|Protect]]'
+- - Ace
+  - '[[SRD-Earthquake|Earthquake]]'
+- - Ace
+  - '[[SRD-Endeavor|Endeavor]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Wide Guard|Wide Guard]]'
+- - Pro
+  - '[[SRD-Hydro Cannon|Hydro Cannon]]'
+- - Pro
+  - '[[SRD-Avalanche|Avalanche]]'
 Number: 260
 ShuffleToken: SRD-swampert-ShuffleToken.png
 Type1: Water
@@ -73,4 +117,14 @@ Weight:
 | From      | [[SRD-Marshtomp]]            | Level  | Medium  |             |
 | To        | [[SRD-Swampert (Mega Form)]] | Mega   |         | Swampertite |
 
-![[SRD-Swampert-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Swampert.md"
+flatten moves as T
+where file.path = this.file.path
+```

@@ -20,8 +20,40 @@ Height:
 HiddenAbility: Healer
 HomeSprite: SRD-bellossom-HomeSprite.png
 Image: bellossom.png
-Learnset: '[[SRD-Bellossom-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Stun Spore|Stun Spore]]'
+- - Beginner
+  - '[[SRD-Leaf Blade|Leaf Blade]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Mega Drain|Mega Drain]]'
+- - Amateur
+  - '[[SRD-Sunny Day|Sunny Day]]'
+- - Amateur
+  - '[[SRD-Magical Leaf|Magical Leaf]]'
+- - Amateur
+  - '[[SRD-Quiver Dance|Quiver Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Petal Blizzard|Petal Blizzard]]'
+- - Ace
+  - '[[SRD-Leaf Storm|Leaf Storm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Teeter Dance|Teeter Dance]]'
+- - Pro
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Pro
+  - '[[SRD-Drain Punch|Drain Punch]]'
 Number: 182
 ShuffleToken: SRD-bellossom-ShuffleToken.png
 Type1: Grass
@@ -68,4 +100,14 @@ Weight:
 |:----------|:--------------|:-------|:----------|
 | From      | [[SRD-Gloom]] | Stone  | Sun Stone |
 
-![[SRD-Bellossom-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Bellossom.md"
+flatten moves as T
+where file.path = this.file.path
+```

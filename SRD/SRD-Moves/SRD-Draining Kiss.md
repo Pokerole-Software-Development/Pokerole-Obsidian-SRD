@@ -4,6 +4,7 @@ Accuracy2: Channel
 AddedEffects:
   Heal:
     Percentage: 0.5
+    Target: User
     Type: Leech
 Attributes: {}
 Damage1: Special

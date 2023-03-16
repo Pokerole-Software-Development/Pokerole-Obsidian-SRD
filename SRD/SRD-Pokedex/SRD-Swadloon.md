@@ -25,8 +25,34 @@ Height:
 HiddenAbility: Overcoat
 HomeSprite: SRD-swadloon-HomeSprite.png
 Image: swadloon.png
-Learnset: '[[SRD-Swadloon-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-String Shot|String Shot]]'
+- - Starter
+  - '[[SRD-Tackle|Tackle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Razor Leaf|Razor Leaf]]'
+- - Beginner
+  - '[[SRD-Bug Bite|Bug Bite]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Grass Whistle|Grass Whistle]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Protect|Protect]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Camouflage|Camouflage]]'
+- - Pro
+  - '[[SRD-Iron Defense|Iron Defense]]'
+- - Pro
+  - '[[SRD-Seed Bomb|Seed Bomb]]'
 Number: 541
 ShuffleToken: SRD-swadloon-ShuffleToken.png
 Type1: Bug
@@ -74,4 +100,14 @@ Weight:
 | From      | [[SRD-Sewaddle]] | Level  | Fast    |           |         |
 | To        | [[SRD-Leavanny]] | Stat   |         | Happiness | 4.0     |
 
-![[SRD-Swadloon-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Swadloon.md"
+flatten moves as T
+where file.path = this.file.path
+```

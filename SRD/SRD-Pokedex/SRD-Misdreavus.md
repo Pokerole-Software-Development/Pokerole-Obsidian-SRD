@@ -20,8 +20,50 @@ Height:
 HiddenAbility: ''
 HomeSprite: SRD-misdreavus-HomeSprite.png
 Image: misdreavus.png
-Learnset: '[[SRD-Misdreavus-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Growl|Growl]]'
+- - Starter
+  - '[[SRD-Psywave|Psywave]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Spite|Spite]]'
+- - Beginner
+  - '[[SRD-Astonish|Astonish]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
+- - Amateur
+  - '[[SRD-Mean Look|Mean Look]]'
+- - Amateur
+  - '[[SRD-Hex|Hex]]'
+- - Amateur
+  - '[[SRD-Psybeam|Psybeam]]'
+- - Amateur
+  - '[[SRD-Pain Split|Pain Split]]'
+- - Amateur
+  - '[[SRD-Payback|Payback]]'
+- - Amateur
+  - '[[SRD-Shadow Ball|Shadow Ball]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Perish Song|Perish Song]]'
+- - Ace
+  - '[[SRD-Grudge|Grudge]]'
+- - Ace
+  - '[[SRD-Power Gem|Power Gem]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Shadow Sneak|Shadow Sneak]]'
+- - Pro
+  - '[[SRD-Icy Wind|Icy Wind]]'
+- - Pro
+  - '[[SRD-Nasty Plot|Nasty Plot]]'
 Number: 200
 ShuffleToken: SRD-misdreavus-ShuffleToken.png
 Type1: Ghost
@@ -68,4 +110,14 @@ Weight:
 |:----------|:------------------|:-------|:-----------|
 | To        | [[SRD-Mismagius]] | Stone  | Dusk Stone |
 
-![[SRD-Misdreavus-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Misdreavus.md"
+flatten moves as T
+where file.path = this.file.path
+```

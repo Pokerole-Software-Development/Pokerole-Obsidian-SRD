@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Adaptability
 HomeSprite: SRD-corphish-HomeSprite.png
 Image: corphish.png
-Learnset: '[[SRD-Corphish-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bubble|Bubble]]'
+- - Starter
+  - '[[SRD-Leer|Leer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Vice Grip|Vice Grip]]'
+- - Beginner
+  - '[[SRD-Harden|Harden]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - Amateur
+  - '[[SRD-Protect|Protect]]'
+- - Amateur
+  - '[[SRD-Double Hit|Double Hit]]'
+- - Amateur
+  - '[[SRD-Knock Off|Knock Off]]'
+- - Amateur
+  - '[[SRD-Taunt|Taunt]]'
+- - Amateur
+  - '[[SRD-Night Slash|Night Slash]]'
+- - Amateur
+  - '[[SRD-Crabhammer|Crabhammer]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Razor Shell|Razor Shell]]'
+- - Ace
+  - '[[SRD-Swords Dance|Swords Dance]]'
+- - Ace
+  - '[[SRD-Crunch|Crunch]]'
+- - Ace
+  - '[[SRD-Guillotine|Guillotine]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Metal Claw|Metal Claw]]'
+- - Pro
+  - '[[SRD-Endeavor|Endeavor]]'
+- - Pro
+  - '[[SRD-Chip Away|Chip Away]]'
 Number: 341
 ShuffleToken: SRD-corphish-ShuffleToken.png
 Type1: Water
@@ -68,4 +112,14 @@ Weight:
 |:----------|:------------------|:-------|:--------|
 | To        | [[SRD-Crawdaunt]] | Level  | Medium  |
 
-![[SRD-Corphish-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Corphish.md"
+flatten moves as T
+where file.path = this.file.path
+```

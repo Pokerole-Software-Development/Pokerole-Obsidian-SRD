@@ -20,8 +20,28 @@ Height:
 HiddenAbility: Torrent
 HomeSprite: SRD-simipour-HomeSprite.png
 Image: simipour.png
-Learnset: '[[SRD-Simipour-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Beginner
+  - '[[SRD-Leer|Leer]]'
+- - Beginner
+  - '[[SRD-Lick|Lick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Scald|Scald]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Aqua Ring|Aqua Ring]]'
+- - Pro
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - Pro
+  - '[[SRD-Gunk Shot|Gunk Shot]]'
 Number: 516
 ShuffleToken: SRD-simipour-ShuffleToken.png
 Type1: Water
@@ -68,4 +88,14 @@ Weight:
 |:----------|:----------------|:-------|:------------|
 | From      | [[SRD-Panpour]] | Stone  | Water Stone |
 
-![[SRD-Simipour-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Simipour.md"
+flatten moves as T
+where file.path = this.file.path
+```

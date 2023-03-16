@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Damp
 HomeSprite: SRD-jellicent-HomeSprite.png
 Image: jellicent.png
-Learnset: '[[SRD-Jellicent-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Bubble|Bubble]]'
+- - Starter
+  - '[[SRD-Water Sport|Water Sport]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Absorb|Absorb]]'
+- - Beginner
+  - '[[SRD-Night Shade|Night Shade]]'
+- - Beginner
+  - '[[SRD-Bubble Beam|Bubble Beam]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Recover|Recover]]'
+- - Amateur
+  - '[[SRD-Water Pulse|Water Pulse]]'
+- - Amateur
+  - '[[SRD-Ominous Wind|Ominous Wind]]'
+- - Amateur
+  - '[[SRD-Brine|Brine]]'
+- - Amateur
+  - '[[SRD-Rain Dance|Rain Dance]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Wring Out|Wring Out]]'
+- - Ace
+  - '[[SRD-Water Spout|Water Spout]]'
+- - Ace
+  - '[[SRD-Hex|Hex]]'
+- - Ace
+  - '[[SRD-Hydro Pump|Hydro Pump]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Acid Armor|Acid Armor]]'
+- - Pro
+  - '[[SRD-Spite|Spite]]'
+- - Pro
+  - '[[SRD-Confuse Ray|Confuse Ray]]'
 Number: 593
 ShuffleToken: SRD-jellicent-ShuffleToken.png
 Type1: Water
@@ -68,4 +110,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | From      | [[SRD-Frillish]] | Level  | Medium  |
 
-![[SRD-Jellicent-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Jellicent.md"
+flatten moves as T
+where file.path = this.file.path
+```

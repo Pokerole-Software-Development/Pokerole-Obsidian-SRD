@@ -20,8 +20,52 @@ Height:
 HiddenAbility: Honey Gather
 HomeSprite: SRD-teddiursa-HomeSprite.png
 Image: teddiursa.png
-Learnset: '[[SRD-Teddiursa-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
+- - Starter
+  - '[[SRD-Scratch|Scratch]]'
+- - Starter
+  - '[[SRD-Fake Tears|Fake Tears]]'
+- - Starter
+  - '[[SRD-Lick|Lick]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Covet|Covet]]'
+- - Beginner
+  - '[[SRD-Fling|Fling]]'
+- - Beginner
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Sweet Scent|Sweet Scent]]'
+- - Amateur
+  - '[[SRD-Play Nice|Play Nice]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Charm|Charm]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Rest|Rest]]'
+- - Ace
+  - '[[SRD-Snore|Snore]]'
+- - Ace
+  - '[[SRD-Thrash|Thrash]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Play Rough|Play Rough]]'
+- - Pro
+  - '[[SRD-Defense Curl|Defense Curl]]'
+- - Pro
+  - '[[SRD-Yawn|Yawn]]'
 Number: 216
 ShuffleToken: SRD-teddiursa-ShuffleToken.png
 Type1: Normal
@@ -68,4 +112,14 @@ Weight:
 |:----------|:-----------------|:-------|:--------|
 | To        | [[SRD-Ursaring]] | Level  | Slow    |
 
-![[SRD-Teddiursa-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Teddiursa.md"
+flatten moves as T
+where file.path = this.file.path
+```

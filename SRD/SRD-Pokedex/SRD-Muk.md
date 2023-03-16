@@ -20,8 +20,56 @@ Height:
 HiddenAbility: Poison Touch
 HomeSprite: SRD-muk-HomeSprite.png
 Image: muk.png
-Learnset: '[[SRD-Muk-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Pound|Pound]]'
+- - Starter
+  - '[[SRD-Poison Gas|Poison Gas]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Harden|Harden]]'
+- - Beginner
+  - '[[SRD-Mud Slap|Mud Slap]]'
+- - Beginner
+  - '[[SRD-Disable|Disable]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Venom Drench|Venom Drench]]'
+- - Amateur
+  - '[[SRD-Sludge|Sludge]]'
+- - Amateur
+  - '[[SRD-Minimize|Minimize]]'
+- - Amateur
+  - '[[SRD-Mud Bomb|Mud Bomb]]'
+- - Amateur
+  - '[[SRD-Sludge Bomb|Sludge Bomb]]'
+- - Amateur
+  - '[[SRD-Fling|Fling]]'
+- - Amateur
+  - '[[SRD-Screech|Screech]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Sludge Wave|Sludge Wave]]'
+- - Ace
+  - '[[SRD-Acid Armor|Acid Armor]]'
+- - Ace
+  - '[[SRD-Gunk Shot|Gunk Shot]]'
+- - Ace
+  - '[[SRD-Belch|Belch]]'
+- - Ace
+  - '[[SRD-Memento|Memento]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Self Destruct|Self Destruct]]'
+- - Pro
+  - '[[SRD-Shadow Sneak|Shadow Sneak]]'
+- - Pro
+  - '[[SRD-Giga Drain|Giga Drain]]'
 Number: 89
 ShuffleToken: SRD-muk-ShuffleToken.png
 Type1: Poison
@@ -68,4 +116,14 @@ Weight:
 |:----------|:---------------|:-------|:--------|
 | From      | [[SRD-Grimer]] | Level  | Slow    |
 
-![[SRD-Muk-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Muk.md"
+flatten moves as T
+where file.path = this.file.path
+```

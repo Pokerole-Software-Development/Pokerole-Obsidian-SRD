@@ -20,8 +20,50 @@ Height:
 HiddenAbility: Defiant
 HomeSprite: SRD-purugly-HomeSprite.png
 Image: purugly.png
-Learnset: '[[SRD-Purugly-Learnset]]'
 Legendary: 'No'
+Moves:
+- - Starter
+  - '[[SRD-Fake Out|Fake Out]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Beginner
+  - '[[SRD-Scratch|Scratch]]'
+- - Beginner
+  - '[[SRD-Growl|Growl]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Amateur
+  - '[[SRD-Hypnosis|Hypnosis]]'
+- - Amateur
+  - '[[SRD-Feint Attack|Feint Attack]]'
+- - Amateur
+  - '[[SRD-Fury Swipes|Fury Swipes]]'
+- - Amateur
+  - '[[SRD-Charm|Charm]]'
+- - Amateur
+  - '[[SRD-Assist|Assist]]'
+- - Amateur
+  - '[[SRD-Captivate|Captivate]]'
+- - Amateur
+  - '[[SRD-Slash|Slash]]'
+- - Amateur
+  - '[[SRD-Swagger|Swagger]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Ace
+  - '[[SRD-Body Slam|Body Slam]]'
+- - Ace
+  - '[[SRD-Attract|Attract]]'
+- - Ace
+  - '[[SRD-Hone Claws|Hone Claws]]'
+- - '---------------------------'
+  - '---------------------------'
+- - Pro
+  - '[[SRD-Last Resort|Last Resort]]'
+- - Pro
+  - '[[SRD-Hyper Voice|Hyper Voice]]'
+- - Pro
+  - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
 Number: 432
 ShuffleToken: SRD-purugly-ShuffleToken.png
 Type1: Normal
@@ -68,4 +110,14 @@ Weight:
 |:----------|:----------------|:-------|:--------|
 | From      | [[SRD-Glameow]] | Level  | Medium  |
 
-![[SRD-Purugly-Learnset]]
+## Learnset
+
+```dataview
+TABLE WITHOUT ID
+    T[0] AS Learned,
+    T[1].Type AS Type,
+    T[1] AS Move
+FROM "SRD/SRD-Pokedex/SRD-Purugly.md"
+flatten moves as T
+where file.path = this.file.path
+```
