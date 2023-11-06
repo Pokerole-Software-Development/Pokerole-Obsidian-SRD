@@ -1,22 +1,26 @@
 ---
+Category: Berry
 Description: Eating this Berry will heal 1 HP.
-HealAmount: '1'
+HealthRestored: 1
+ItemSprite: SRD-oran-berry-ItemSprite.png
 Name: Oran Berry
+OneUse: true
+PMD: true
 PMDPrice: 50.0
-SpecificPokemon: ''
-SuggestedPrice: Uncommon
-TypeBonus: ''
-Value: ''
+Pocket: Medicine
+Source: Core 2.0
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-oran-berry-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

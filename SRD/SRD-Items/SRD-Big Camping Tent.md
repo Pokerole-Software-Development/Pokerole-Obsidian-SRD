@@ -1,23 +1,26 @@
 ---
+Category: ''
 Description: A spacious tent for your group to stay a cozy night. Sprayed with Wild
   Pokemon repellent substances.
-HealAmount: ''
+ItemSprite: SRD-big-camping-tent-ItemSprite.png
 Name: Big Camping Tent
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '2500'
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: TrainerItems
+Source: Core 2.0
+TrainerPrice: '2500'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-big-camping-tent-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

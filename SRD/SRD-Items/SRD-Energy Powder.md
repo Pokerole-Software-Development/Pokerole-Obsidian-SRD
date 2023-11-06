@@ -1,22 +1,26 @@
 ---
+Category: Healing
 Description: This powder leaves a horrid aftertaste, but at least it stops the pain
-HealAmount: '4'
+HealthRestored: 4
+ItemSprite: SRD-energy-powder-ItemSprite.png
 Name: Energy Powder
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '450'
-TypeBonus: ''
-Value: ''
+OneUse: true
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '450'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-energy-powder-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

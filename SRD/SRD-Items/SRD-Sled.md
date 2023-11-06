@@ -1,23 +1,26 @@
 ---
+Category: ''
 Description: Your pokemon can pull you around through snow, sand, or any smooth surface.
   It's super fun!
-HealAmount: ''
+ItemSprite: SRD-sled-ItemSprite.png
 Name: Sled
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '400'
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: TrainerItems
+Source: Core 2.0
+TrainerPrice: '400'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-sled-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

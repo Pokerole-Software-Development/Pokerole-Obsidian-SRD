@@ -1,22 +1,26 @@
 ---
+Category: MegaStone
 Description: Makes Pinsir Mega-evolve into Mega-Pinsir
-HealAmount: ''
+ForPokemon: pinsir
+ItemSprite: SRD-pinsirite-ItemSprite.png
 Name: Pinsirite
-PMDPrice: ''
-SpecificPokemon: Pinsir
-SuggestedPrice: Not for Sale
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: HeldItems
+Source: Core 2.0+
+TrainerPrice: Not for Sale
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-pinsirite-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

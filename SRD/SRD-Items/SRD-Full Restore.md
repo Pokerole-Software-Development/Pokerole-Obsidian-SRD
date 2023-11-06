@@ -1,23 +1,28 @@
 ---
+Category: Healing
+Cures: All Status
 Description: A single-use capsule of deluxe formula. The pokemon won't be able to
   restore health until the next day.
-HealAmount: Full and Status
+HealthRestored: 99
+ItemSprite: SRD-full-restore-ItemSprite.png
 Name: Full Restore
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '2000'
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '2000'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-full-restore-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

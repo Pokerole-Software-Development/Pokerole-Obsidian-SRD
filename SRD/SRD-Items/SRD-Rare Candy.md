@@ -1,23 +1,26 @@
 ---
+Category: Vitamin
 Description: This strange candy is made of unknown ingredients. Its effects do not
   stack.
-HealAmount: ''
+ItemSprite: SRD-rare-candy-ItemSprite.png
 Name: Rare Candy
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: Not for Sale
-TypeBonus: ''
-Value: Any Attribute
+OneUse: true
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: Not for Sale
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-rare-candy-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

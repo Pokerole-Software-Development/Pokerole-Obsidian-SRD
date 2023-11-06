@@ -1,22 +1,25 @@
 ---
+Category: ''
 Description: Looks like blue glass and can be found at the bottom of the sea.
-HealAmount: ''
+ItemSprite: SRD-water-stone-ItemSprite.png
 Name: Water Stone
+OneUse: true
+PMD: true
 PMDPrice: 1000.0
-SpecificPokemon: ''
-SuggestedPrice: '5000'
-TypeBonus: ''
-Value: ''
+Pocket: EvolutionItem
+Source: Core 2.0
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-water-stone-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

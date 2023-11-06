@@ -1,23 +1,26 @@
 ---
+Category: BattleItem
 Description: Deal 1 damage roll against a foe who has hit you with a non-ranged physical
   move.
-HealAmount: ''
+ItemSprite: SRD-rocky-helmet-ItemSprite.png
 Name: Rocky Helmet
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: ''
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: HeldItems
+Source: Core 2.0
+TrainerPrice: ''
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-rocky-helmet-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

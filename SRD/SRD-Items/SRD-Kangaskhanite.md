@@ -1,22 +1,26 @@
 ---
+Category: MegaStone
 Description: Makes Kangaskhan Mega-evolve into Mega-Kangaskhan
-HealAmount: ''
+ForPokemon: kangaskhan
+ItemSprite: SRD-kangaskhanite-ItemSprite.png
 Name: Kangaskhanite
-PMDPrice: ''
-SpecificPokemon: Kangaskhan
-SuggestedPrice: Not for Sale
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: HeldItems
+Source: Core 2.0+
+TrainerPrice: Not for Sale
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-kangaskhanite-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

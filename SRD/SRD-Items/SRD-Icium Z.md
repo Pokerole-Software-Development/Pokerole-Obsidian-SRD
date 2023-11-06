@@ -1,23 +1,27 @@
 ---
+Category: ZCrystal
 Description: It converts Z-Power into crystals that upgrade Ice-type moves to Ice-type
   Z-Moves.
-HealAmount: ''
+ForTypes: Ice
+ItemSprite: SRD-icium-z-ItemSprite.png
 Name: Icium Z
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: ''
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: HeldItems
+Source: Core 2.0+
+TrainerPrice: ''
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-icium-z-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

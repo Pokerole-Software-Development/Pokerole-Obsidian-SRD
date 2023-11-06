@@ -1,22 +1,28 @@
 ---
-Description: It is rumered they are just sugar pills. Who really knows?
-HealAmount: ''
+Boost: Will
+Category: Vitamin
+Description: It is rumered they are just sugar pills. Who really knows? Boost lasts
+  one month.
+ItemSprite: SRD-pp-up-ItemSprite.png
 Name: Pp Up
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '9800'
-TypeBonus: ''
-Value: Increase Will by 2
+OneUse: true
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '9800'
+Value: 2
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-pp-up-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

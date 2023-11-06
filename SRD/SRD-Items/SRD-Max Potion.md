@@ -1,23 +1,27 @@
 ---
+Category: Healing
 Description: A single-use capsule of formula. The pokemon won't be able to restore
   health further until the next day.
-HealAmount: Full
+HealthRestored: 99
+ItemSprite: SRD-max-potion-ItemSprite.png
 Name: Max Potion
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '1700'
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '1700'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-max-potion-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

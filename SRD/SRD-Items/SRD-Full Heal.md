@@ -1,22 +1,26 @@
 ---
+Category: Status
+Cures: All Status
 Description: A superior spray formula that can heal any status problem in a second.
-HealAmount: Any/All Status
+ItemSprite: SRD-full-heal-ItemSprite.png
 Name: Full Heal
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '600'
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '600'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-full-heal-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

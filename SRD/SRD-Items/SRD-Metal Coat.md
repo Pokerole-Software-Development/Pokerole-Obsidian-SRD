@@ -1,22 +1,28 @@
 ---
+Boost: Damage
+Category: TypeBoosting
 Description: Adds 1 damage die to Steel type moves.
-HealAmount: ''
+ForTypes: Steel
+ItemSprite: SRD-metal-coat-ItemSprite.png
 Name: Metal Coat
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: ''
-TypeBonus: Steel
-Value: '1'
+OneUse: false
+PMD: false
+Pocket: HeldItems
+Source: Core 2.0
+TrainerPrice: ''
+Value: 1
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-metal-coat-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

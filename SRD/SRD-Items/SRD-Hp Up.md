@@ -1,23 +1,28 @@
 ---
+Boost: Base Hp
+Category: Vitamin
 Description: A compendium of vitamins and minerals to help your pokemon grow as big
-  and healthy as it can be.
-HealAmount: ''
+  and healthy as it can be. Boost lasts one month.
+ItemSprite: SRD-hp-up-ItemSprite.png
 Name: Hp Up
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '9800'
-TypeBonus: ''
-Value: Increase Base HP by 2
+OneUse: true
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '9800'
+Value: 2
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-hp-up-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

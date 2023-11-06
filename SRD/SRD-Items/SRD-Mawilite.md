@@ -1,22 +1,26 @@
 ---
+Category: MegaStone
 Description: Makes Mawile Mega-evolve into Mega-Mawile
-HealAmount: ''
+ForPokemon: mawile
+ItemSprite: SRD-mawilite-ItemSprite.png
 Name: Mawilite
-PMDPrice: ''
-SpecificPokemon: Mawile
-SuggestedPrice: Not for Sale
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: HeldItems
+Source: Core 2.0+
+TrainerPrice: Not for Sale
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-mawilite-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

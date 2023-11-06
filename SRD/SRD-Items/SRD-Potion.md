@@ -1,22 +1,26 @@
 ---
+Category: Healing
 Description: A pocket sized spray potion to relieve the pain and heal bruises
-HealAmount: '2'
+HealthRestored: 2
+ItemSprite: SRD-potion-ItemSprite.png
 Name: Potion
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '400'
-TypeBonus: ''
-Value: ''
+OneUse: true
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '400'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-potion-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

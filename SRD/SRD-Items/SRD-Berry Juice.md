@@ -1,23 +1,27 @@
 ---
-Description: This mixed drink of various berries is also quite refreshing. Some pokemon
-  produce it naturally.
-HealAmount: Up to 2
+Category: Berry
+Description: "This mixed drink of various berries is also quite refreshing. Some pokemon\
+  \ produce it naturally. Doesn\u2019t work in battle & can\u2019t heal Lethal."
+HealthRestored: 2
+ItemSprite: SRD-berry-juice-ItemSprite.png
 Name: Berry Juice
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '100'
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '100'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-berry-juice-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

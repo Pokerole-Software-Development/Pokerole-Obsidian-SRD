@@ -13,6 +13,10 @@ Evolutions:
   Item: Tart Apple
   Kind: Item
   Pokemon: '[[SRD-Flapple]]'
+- Evolves: To
+  Item: Sweet Apple
+  Kind: Item
+  Pokemon: '[[SRD-Appletun]]'
 GenderType: ''
 Height:
   Feet: 0.7
@@ -76,9 +80,10 @@ Weight:
 **Good Starter**:: Yes
 **Recommended Rank**:: Beginner
 
-| Evolves   | Pokemon         | Kind   | Item       |
-|:----------|:----------------|:-------|:-----------|
-| To        | [[SRD-Flapple]] | Item   | Tart Apple |
+| Evolves   | Pokemon          | Kind   | Item        |
+|:----------|:-----------------|:-------|:------------|
+| To        | [[SRD-Flapple]]  | Item   | Tart Apple  |
+| To        | [[SRD-Appletun]] | Item   | Sweet Apple |
 
 ## Learnset
 

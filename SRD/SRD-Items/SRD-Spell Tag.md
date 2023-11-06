@@ -1,22 +1,28 @@
 ---
+Boost: Damage
+Category: TypeBoosting
 Description: Adds 1 damage die to Ghost type moves.
-HealAmount: ''
+ForTypes: Ghost
+ItemSprite: SRD-spell-tag-ItemSprite.png
 Name: Spell Tag
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: ''
-TypeBonus: Ghost
-Value: '1'
+OneUse: false
+PMD: false
+Pocket: HeldItems
+Source: Core 2.0
+TrainerPrice: ''
+Value: 1
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-spell-tag-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

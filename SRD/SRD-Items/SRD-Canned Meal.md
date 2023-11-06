@@ -1,23 +1,26 @@
 ---
+Category: ''
 Description: It's nothing fancy but there's no need to travel on an empty stomach.
   One can is enough for one day
-HealAmount: ''
+ItemSprite: SRD-canned-meal-ItemSprite.png
 Name: Canned Meal
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '15'
-TypeBonus: ''
-Value: ''
+OneUse: true
+PMD: false
+Pocket: TrainerItems
+Source: Core 2.0
+TrainerPrice: '15'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-canned-meal-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

@@ -1,22 +1,26 @@
 ---
+Category: MegaStone
 Description: Makes Beedrill Mega-evolve into Mega-Beedrill
-HealAmount: ''
+ForPokemon: beedrill
+ItemSprite: SRD-beedrillite-ItemSprite.png
 Name: Beedrillite
-PMDPrice: ''
-SpecificPokemon: Beedrill
-SuggestedPrice: Not for Sale
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: HeldItems
+Source: Core 2.0+
+TrainerPrice: Not for Sale
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-beedrillite-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

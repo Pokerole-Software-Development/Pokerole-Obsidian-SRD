@@ -1,22 +1,26 @@
 ---
+Category: Status
+Cures: Poison
 Description: A shot that quickly reduces the fever and relieves the pain.
-HealAmount: Poison
+ItemSprite: SRD-antidote-ItemSprite.png
 Name: Antidote
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '100'
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '100'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-antidote-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

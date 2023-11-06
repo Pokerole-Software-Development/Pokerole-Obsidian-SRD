@@ -1,22 +1,26 @@
 ---
+Category: Berry
+Cures: Confusion
 Description: Eating this Berry will cure Confusion.
-HealAmount: Confusion
+ItemSprite: SRD-persim-berry-ItemSprite.png
 Name: Persim Berry
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: Common
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: Common
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-persim-berry-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

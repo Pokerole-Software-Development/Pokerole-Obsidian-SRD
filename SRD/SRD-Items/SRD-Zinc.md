@@ -1,22 +1,28 @@
 ---
-Description: Zinc capsules help with focus and brain development
-HealAmount: ''
+Boost: Insight
+Category: Vitamin
+Description: Zinc capsules help with focus and brain development. Boost lasts one
+  month.
+ItemSprite: SRD-zinc-ItemSprite.png
 Name: Zinc
+OneUse: true
+PMD: true
 PMDPrice: 4500.0
-SpecificPokemon: ''
-SuggestedPrice: '9800'
-TypeBonus: ''
-Value: ''
+Pocket: Medicine
+Source: Core 2.0
+Value: 1
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-zinc-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

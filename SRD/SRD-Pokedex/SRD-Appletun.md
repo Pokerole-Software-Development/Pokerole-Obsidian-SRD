@@ -10,9 +10,9 @@ DexDescription: Eating a sweet apple caused its evolution. A nectarous scent waf
 EventAbilities: ''
 Evolutions:
 - Evolves: From
-  Item: Sweet Apple
+  Item: Tart Apple
   Kind: Item
-  Pokemon: '[[SRD-Flapple]]'
+  Pokemon: '[[SRD-Applin]]'
 GenderType: ''
 Height:
   Feet: 1.3
@@ -112,9 +112,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon         | Kind   | Item        |
-|:----------|:----------------|:-------|:------------|
-| From      | [[SRD-Flapple]] | Item   | Sweet Apple |
+| Evolves   | Pokemon        | Kind   | Item       |
+|:----------|:---------------|:-------|:-----------|
+| From      | [[SRD-Applin]] | Item   | Tart Apple |
 
 ## Learnset
 

@@ -1,22 +1,28 @@
 ---
+Boost: Damage
+Category: TypeBoosting
 Description: Adds 1 damage die to Electric type moves.
-HealAmount: ''
+ForTypes: Electric
+ItemSprite: SRD-magnet-ItemSprite.png
 Name: Magnet
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: ''
-TypeBonus: Electric
-Value: '1'
+OneUse: false
+PMD: false
+Pocket: HeldItems
+Source: Core 2.0
+TrainerPrice: ''
+Value: 1
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-magnet-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

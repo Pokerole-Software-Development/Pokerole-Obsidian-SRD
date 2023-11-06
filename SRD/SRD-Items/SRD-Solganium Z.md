@@ -1,23 +1,27 @@
 ---
+Category: ZCrystal
 Description: This is a crystallized form of Z-Power. It upgrades Solgaleo's Sunsteel
   Strike to a Z-Move.
-HealAmount: ''
+ForPokemon: solgaleo
+ItemSprite: SRD-solganium-z-ItemSprite.png
 Name: Solganium Z
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: ''
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: HeldItems
+Source: Core 2.0+
+TrainerPrice: ''
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-solganium-z-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

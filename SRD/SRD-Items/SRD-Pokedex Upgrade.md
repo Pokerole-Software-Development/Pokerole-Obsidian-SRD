@@ -1,22 +1,25 @@
 ---
+Category: ''
 Description: Upgrade your Pokedex with the information of the Pokemon on a new region.
-HealAmount: ''
+ItemSprite: SRD-pokedex-upgrade-ItemSprite.png
 Name: Pokedex Upgrade
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '2500'
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: TrainerItems
+Source: Core 2.0
+TrainerPrice: '2500'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-pokedex-upgrade-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

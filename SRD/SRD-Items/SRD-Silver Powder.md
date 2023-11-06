@@ -1,22 +1,28 @@
 ---
+Boost: Damage
+Category: TypeBoosting
 Description: Adds 1 damage die to Bug type moves.
-HealAmount: ''
+ForTypes: Bug
+ItemSprite: SRD-silver-powder-ItemSprite.png
 Name: Silver Powder
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: ''
-TypeBonus: Bug
-Value: '1'
+OneUse: false
+PMD: false
+Pocket: HeldItems
+Source: Core 2.0
+TrainerPrice: ''
+Value: 1
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-silver-powder-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

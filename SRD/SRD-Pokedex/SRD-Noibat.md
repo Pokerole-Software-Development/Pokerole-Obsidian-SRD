@@ -55,8 +55,6 @@ Moves:
 - - Ace
   - '[[SRD-Whirlwind|Whirlwind]]'
 - - Ace
-  - '[[SRD-Super Fang|Super Fang]]'
-- - Ace
   - '[[SRD-Air Slash|Air Slash]]'
 - - Ace
   - '[[SRD-Hurricane|Hurricane]]'

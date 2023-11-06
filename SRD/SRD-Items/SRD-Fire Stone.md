@@ -1,22 +1,25 @@
 ---
+Category: ''
 Description: This Stone has a flame inside, it's hot to the touch.
-HealAmount: ''
+ItemSprite: SRD-fire-stone-ItemSprite.png
 Name: Fire Stone
+OneUse: false
+PMD: true
 PMDPrice: 1000.0
-SpecificPokemon: ''
-SuggestedPrice: '5000'
-TypeBonus: ''
-Value: ''
+Pocket: EvolutionItem
+Source: Core 2.0
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-fire-stone-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

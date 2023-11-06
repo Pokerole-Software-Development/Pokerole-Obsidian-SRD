@@ -1,23 +1,27 @@
 ---
+Category: Healing
 Description: Best value pack. It can be rationed for smaller injuries on the team,
   or used all at once on a serious wound.
-HealAmount: '14'
+HealthRestored: 14
+ItemSprite: SRD-hyper-potion-ItemSprite.png
 Name: Hyper Potion
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '1200'
-TypeBonus: ''
-Value: ''
+OneUse: true
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '1200'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-hyper-potion-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

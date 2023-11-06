@@ -1,23 +1,27 @@
 ---
+Category: Healing
 Description: A nasty tasting root with mystical properties that can be eaten whole
   or turned into up to 4 batches of powder if you know how to do it.
-HealAmount: '14'
+HealthRestored: 14
+ItemSprite: SRD-energy-root-ItemSprite.png
 Name: Energy Root
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '800'
-TypeBonus: ''
-Value: ''
+OneUse: true
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '800'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-energy-root-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

@@ -1,23 +1,27 @@
 ---
+Category: ZCrystal
 Description: This is a crystallized form of Z-Power. It upgrades Snorlax's Giga Impact
   to a Z-Move.
-HealAmount: ''
+ForPokemon: snorlax
+ItemSprite: SRD-snorlium-z-ItemSprite.png
 Name: Snorlium Z
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: ''
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: HeldItems
+Source: Core 2.0+
+TrainerPrice: ''
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-snorlium-z-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

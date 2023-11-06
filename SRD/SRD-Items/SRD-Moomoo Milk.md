@@ -1,23 +1,27 @@
 ---
-Description: Found in organic farms, this milk is full of calcium and is right out
-  of the Miltank
-HealAmount: Up to 7
+Category: Healing
+Description: "Found in organic farms, this milk is full of calcium and is right out\
+  \ of the Miltank. Doesn\u2019t work in battle & can\u2019t heal Lethal."
+HealthRestored: 7
+ItemSprite: SRD-moomoo-milk-ItemSprite.png
 Name: Moomoo Milk
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '350'
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '350'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-moomoo-milk-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

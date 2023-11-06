@@ -1,22 +1,28 @@
 ---
+Boost: Vitality
+Category: Vitamin
 Description: An iron capsule that reduces feebleness and gives you a healthy glow.
-HealAmount: ''
+  Boost lasts for one month.
+ItemSprite: SRD-iron-ItemSprite.png
 Name: Iron
+OneUse: true
+PMD: true
 PMDPrice: 4500.0
-SpecificPokemon: ''
-SuggestedPrice: '9800'
-TypeBonus: ''
-Value: ''
+Pocket: Medicine
+Source: Core 2.0
+Value: 1
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-iron-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

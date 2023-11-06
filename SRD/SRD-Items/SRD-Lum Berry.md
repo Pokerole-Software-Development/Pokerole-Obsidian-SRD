@@ -1,22 +1,26 @@
 ---
+Category: Berry
+Cures: All Status
 Description: Eating this Berry will cure all Status ailments.
-HealAmount: All Status
+ItemSprite: SRD-lum-berry-ItemSprite.png
 Name: Lum Berry
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: Rare
-TypeBonus: ''
-Value: ''
+OneUse: true
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: Rare
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-lum-berry-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

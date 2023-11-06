@@ -1,23 +1,26 @@
 ---
+Category: ''
 Description: Strap this on and you'll never worry about falling from your pokemon
   again.
-HealAmount: ''
+ItemSprite: SRD-saddle-ItemSprite.png
 Name: Saddle
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '500'
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: TrainerItems
+Source: Core 2.0
+TrainerPrice: '500'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-saddle-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

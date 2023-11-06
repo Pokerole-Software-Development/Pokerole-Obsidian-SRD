@@ -1,22 +1,26 @@
 ---
+Category: Berry
 Description: Eating this Berry will heal 3 HP or 1 Lethal Damage.
-HealAmount: '3'
+HealthRestored: 3
+ItemSprite: SRD-sitrus-berry-ItemSprite.png
 Name: Sitrus Berry
+OneUse: true
+PMD: true
 PMDPrice: 2500.0
-SpecificPokemon: ''
-SuggestedPrice: Rare
-TypeBonus: ''
-Value: ''
+Pocket: Medicine
+Source: Core 2.0
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-sitrus-berry-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

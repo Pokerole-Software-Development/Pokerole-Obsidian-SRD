@@ -1,22 +1,25 @@
 ---
+Category: ''
 Description: No more matted hair, unruly leaves, dry scales, or rough rocks!
-HealAmount: ''
+ItemSprite: SRD-grooming-kit-ItemSprite.png
 Name: Grooming Kit
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '100'
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: TrainerItems
+Source: Core 2.0
+TrainerPrice: '100'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-grooming-kit-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

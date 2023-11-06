@@ -1,23 +1,26 @@
 ---
+Category: ''
 Description: A high-protein kibble made for athletics. *Add 1 dice to the next Training
   Roll of the pokemon.*
-HealAmount: ''
+ItemSprite: SRD-high-performance-food-sack-ItemSprite.png
 Name: High Performance Food Sack
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '300'
-TypeBonus: ''
-Value: ''
+OneUse: true
+PMD: false
+Pocket: TrainerItems
+Source: Core 2.0
+TrainerPrice: '300'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-high-performance-food-sack-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

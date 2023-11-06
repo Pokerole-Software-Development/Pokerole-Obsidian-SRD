@@ -1,22 +1,26 @@
 ---
+Category: Status
+Cures: Paralysis
 Description: This ointment relaxes the muscles and stops the cramping
-HealAmount: Paralysis
+ItemSprite: SRD-paralyze-heal-ItemSprite.png
 Name: Paralyze Heal
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '200'
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '200'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-paralyze-heal-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

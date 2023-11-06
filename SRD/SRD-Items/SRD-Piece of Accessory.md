@@ -1,23 +1,26 @@
 ---
+Category: ''
 Description: Ribbons, hats, collars, and everything you need to make them look super
   special.
-HealAmount: ''
+ItemSprite: SRD-piece-of-accessory-ItemSprite.png
 Name: Piece of Accessory
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '10'
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: TrainerItems
+Source: Core 2.0
+TrainerPrice: '10'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-piece-of-accessory-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

@@ -1,23 +1,27 @@
 ---
+Category: Healing
 Description: A regular can of concentrated formula spray. This potion can close open
   wounds and even heal a cracked bone.
-HealAmount: '4'
+HealthRestored: 4
+ItemSprite: SRD-super-potion-ItemSprite.png
 Name: Super Potion
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '700'
-TypeBonus: ''
-Value: ''
+OneUse: true
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '700'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-super-potion-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

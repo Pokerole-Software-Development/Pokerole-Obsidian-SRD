@@ -1,23 +1,26 @@
 ---
+Category: ''
 Description: It is said that the leaf encrusted to it comes from the tree of life
   itself
-HealAmount: ''
+ItemSprite: SRD-leaf-stone-ItemSprite.png
 Name: Leaf Stone
+OneUse: true
+PMD: true
 PMDPrice: 1000.0
-SpecificPokemon: ''
-SuggestedPrice: Not for Sale
-TypeBonus: ''
-Value: ''
+Pocket: EvolutionItem
+Source: Core 2.0
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-leaf-stone-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

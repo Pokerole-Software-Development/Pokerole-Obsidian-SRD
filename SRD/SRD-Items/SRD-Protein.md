@@ -1,22 +1,28 @@
 ---
+Boost: Strength
+Category: Vitamin
 Description: A tasty milkshake that aids in the growth of bigger and stronger muscles.
-HealAmount: ''
+  Boost lasts one month.
+ItemSprite: SRD-protein-ItemSprite.png
 Name: Protein
+OneUse: true
+PMD: true
 PMDPrice: 4000.0
-SpecificPokemon: ''
-SuggestedPrice: '9800'
-TypeBonus: ''
-Value: ''
+Pocket: Medicine
+Source: Core 2.0
+Value: 1
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-protein-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

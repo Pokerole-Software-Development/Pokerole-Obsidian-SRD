@@ -1,22 +1,25 @@
 ---
+Category: ''
 Description: The best seal in the market to ensure the catch of stronger pokemon.
-HealAmount: ''
+ItemSprite: SRD-ultraball-ItemSprite.png
 Name: Ultraball
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '1200'
-TypeBonus: ''
-Value: ''
+OneUse: true
+PMD: false
+Pocket: Pokeballs
+Source: Core 2.0
+TrainerPrice: '1200'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-ultraball-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

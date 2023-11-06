@@ -13,10 +13,6 @@ Evolutions:
   Item: Tart Apple
   Kind: Item
   Pokemon: '[[SRD-Applin]]'
-- Evolves: To
-  Item: Sweet Apple
-  Kind: Item
-  Pokemon: '[[SRD-Appletun]]'
 GenderType: ''
 Height:
   Feet: 1.0
@@ -116,10 +112,9 @@ Weight:
 **Good Starter**:: No
 **Recommended Rank**:: Ace
 
-| Evolves   | Pokemon          | Kind   | Item        |
-|:----------|:-----------------|:-------|:------------|
-| From      | [[SRD-Applin]]   | Item   | Tart Apple  |
-| To        | [[SRD-Appletun]] | Item   | Sweet Apple |
+| Evolves   | Pokemon        | Kind   | Item       |
+|:----------|:---------------|:-------|:-----------|
+| From      | [[SRD-Applin]] | Item   | Tart Apple |
 
 ## Learnset
 

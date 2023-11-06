@@ -1,23 +1,26 @@
 ---
+Category: ''
 Description: It is said to be in development by some companies in the world, and rumored
   to have a seal so strong it would never break.
-HealAmount: ''
+ItemSprite: SRD-masterball-ItemSprite.png
 Name: Masterball
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: Not for Sale
-TypeBonus: Theoretically Infinite
-Value: ''
+OneUse: false
+PMD: false
+Pocket: Pokeballs
+Source: Core 2.0
+TrainerPrice: Not for Sale
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-masterball-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

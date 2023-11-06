@@ -1,22 +1,26 @@
 ---
+Category: Status
+Cures: Sleep
 Description: Sprays a water-based solution to awake a drowsy pokemon.
-HealAmount: Sleep
+ItemSprite: SRD-awakening-ItemSprite.png
 Name: Awakening
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '250'
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '250'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-awakening-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

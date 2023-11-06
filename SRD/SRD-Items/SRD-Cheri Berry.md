@@ -1,22 +1,26 @@
 ---
+Category: Berry
+Cures: Paralysis
 Description: Eating this Berry will cure Paralysis.
-HealAmount: Paralysis
+ItemSprite: SRD-cheri-berry-ItemSprite.png
 Name: Cheri Berry
+OneUse: false
+PMD: true
 PMDPrice: 80.0
-SpecificPokemon: ''
-SuggestedPrice: Uncommon
-TypeBonus: ''
-Value: ''
+Pocket: Medicine
+Source: Core 2.0
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-cheri-berry-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

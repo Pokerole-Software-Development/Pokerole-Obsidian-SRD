@@ -1,22 +1,27 @@
 ---
-Description: A healthy syrup that fills you with energy!
-HealAmount: ''
+Boost: Dexterity
+Category: Vitamin
+Description: A healthy syrup that fills you with energy! Boost lasts for one month.
+ItemSprite: SRD-carbos-ItemSprite.png
 Name: Carbos
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '9800'
-TypeBonus: ''
-Value: ''
+OneUse: true
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '9800'
+Value: 1
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-carbos-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

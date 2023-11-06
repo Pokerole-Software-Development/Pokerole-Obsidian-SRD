@@ -1,22 +1,25 @@
 ---
+Category: ''
 Description: It glows in the dark and can be used to power small electronics.
-HealAmount: ''
+ItemSprite: SRD-thunder-stone-ItemSprite.png
 Name: Thunder Stone
+OneUse: true
+PMD: true
 PMDPrice: 1000.0
-SpecificPokemon: ''
-SuggestedPrice: '5000'
-TypeBonus: ''
-Value: ''
+Pocket: EvolutionItem
+Source: Core 2.0
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-thunder-stone-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

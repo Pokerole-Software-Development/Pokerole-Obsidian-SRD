@@ -1,22 +1,25 @@
 ---
+Category: ''
 Description: A red stone that shines brightly when facing the sun in the morning.
-HealAmount: ''
+ItemSprite: SRD-sun-stone-ItemSprite.png
 Name: Sun Stone
+OneUse: true
+PMD: true
 PMDPrice: 1000.0
-SpecificPokemon: ''
-SuggestedPrice: Not for Sale
-TypeBonus: ''
-Value: ''
+Pocket: EvolutionItem
+Source: Core 2.0
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-sun-stone-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

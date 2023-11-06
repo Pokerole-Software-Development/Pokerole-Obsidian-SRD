@@ -1,22 +1,26 @@
 ---
+Category: Berry
+Cures: Sleep
 Description: Eating this Berry will cure Sleep.
-HealAmount: Sleep
+ItemSprite: SRD-chesto-berry-ItemSprite.png
 Name: Chesto Berry
+OneUse: false
+PMD: true
 PMDPrice: 30.0
-SpecificPokemon: ''
-SuggestedPrice: Common
-TypeBonus: ''
-Value: ''
+Pocket: Medicine
+Source: Core 2.0
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-chesto-berry-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`

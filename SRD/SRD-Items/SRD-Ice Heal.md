@@ -1,22 +1,26 @@
 ---
+Category: Status
+Cures: Frozen
 Description: Recovers the normal termperature of the pokemon and heals frost bite.
-HealAmount: Frozen
+ItemSprite: SRD-ice-heal-ItemSprite.png
 Name: Ice Heal
-PMDPrice: ''
-SpecificPokemon: ''
-SuggestedPrice: '250'
-TypeBonus: ''
-Value: ''
+OneUse: false
+PMD: false
+Pocket: Medicine
+Source: Core 2.0
+TrainerPrice: '250'
 ---
 
 #PokeroleSRD/Items
 
 ## `= this.Name`
 
+![[SRD-ice-heal-ItemSprite.png|right]]
+
 *`= this.Description`*
 
-| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
-| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
-| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+| Trainer Price           | PMD Price         | Source | 
+| ----------------------- | ----------------- | ------ |
+| `= this.SuggestedPrice` | `= this.PMDPrice` | `= this.Source`
 
 **Pokemon Limitation**: `= this.SpecificPokemon`
