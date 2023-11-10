@@ -49,5 +49,6 @@
     "editor:paste"
   ],
   "defaultViewMode": "preview",
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "propertiesInDocument": "hidden"
 }
