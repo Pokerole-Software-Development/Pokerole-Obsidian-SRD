@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5c32d481bdaece28",
+        "id": "cd070c69b0acbaa0",
         "type": "tabs",
         "children": [
           {
-            "id": "bf698a54dfe08ec0",
+            "id": "dd40746edb0f79c0",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -164,8 +164,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf698a54dfe08ec0",
+  "active": "dd40746edb0f79c0",
   "lastOpenFiles": [
+    "Pokerole SRD/SRD v2.1/SRD-Pokedex/SRD-Beedrill.md",
+    "Pokerole SRD/SRD v2.1/SRD-Pokedex/SRD-Beedrill (Mega Form).md",
+    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Accelgor.md",
+    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Absol.md",
+    "Pokerole SRD/SRD v2.1/SRD-Pokedex/SRD-Arcanine.md",
+    "Pokerole SRD/SRD v2.1/SRD-Pokedex/SRD-Archaludon.md",
+    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Axew.md",
+    "Pokerole SRD/SRD v2.1/SRD-Pokedex/SRD-Abra.md",
+    "Pokerole SRD/SRD v2.1/SRD-Pokedex/SRD-Aegislash.md",
+    "Pokerole SRD/SRD v2.1/SRD-Pokedex/SRD-Abomasnow.md",
+    "Readme.md",
     "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zygarde-ultimate-ShuffleToken.png",
     "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zygarde-cell-ShuffleToken.png",
     "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zygarde-50-ShuffleToken.png",
@@ -176,7 +187,6 @@
     "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zygarde-10%-ShuffleToken.png",
     "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zweilous-ShuffleToken.png",
     "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zubat-ShuffleToken.png",
-    "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zorua-hisui-ShuffleToken.png",
     "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-shaymin-sky-ShuffleToken.png s",
     "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-mr-ShuffleToken.-rime",
     "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-mr-ShuffleToken.-mime-galarian-form",
@@ -197,16 +207,6 @@
     "Pokerole SRD/SRD/SRD-Items/SRD-Waterium Z.md",
     "Pokerole SRD/SRD/SRD-Items/SRD-Water Stone.md",
     "Pokerole SRD/SRD/SRD-Items/SRD-Water Memory.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Water Gem.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Wacan Berry.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Vitamins.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Venusaurite.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Utility Umbrella.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Ultranecrozium Z.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Ultraball.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Tyranitarite.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Type-Damage Up.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Twisted Spoon.md",
     "Pokerole SRD/SRD/SRD-HomeSprites/SRD-mr-HomeSprite.-rime",
     "Pokerole SRD/SRD/SRD-HomeSprites/SRD-mr-HomeSprite.-mime-galarian-form",
     "Pokerole SRD/SRD/SRD-HomeSprites/SRD-mr-HomeSprite.-mime",
