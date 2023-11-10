@@ -105,7 +105,7 @@ TABLE WITHOUT ID
     T[0] AS Learned,
     T[1].Type AS Type,
     T[1] AS Move
-FROM "/Users/bill/Code/Pokerole SRD/Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Whimsicott.md"
+FROM "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Whimsicott.md"
 flatten moves as T
 where file.path = this.file.path
 ```
