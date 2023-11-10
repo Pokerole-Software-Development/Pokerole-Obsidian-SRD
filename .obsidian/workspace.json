@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2f1750d7d7b7eaef",
+        "id": "5c32d481bdaece28",
         "type": "tabs",
         "children": [
           {
-            "id": "205986ea69da3d41",
+            "id": "bf698a54dfe08ec0",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -16,136 +16,16 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "SRD-Eiscue",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD v2.1/SRD-Pokedex/SRD-Eiscue.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "SRD-Exeggutor",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD v2.1/SRD-Pokedex/SRD-Exeggutor.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "SRD-Fennekin",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD v2.1/SRD-Pokedex/SRD-Fennekin.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{\"scroll\":118.32727272727273}"
-                },
-                {
-                  "title": "SRD-Feraligatr",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD v2.1/SRD-Pokedex/SRD-Feraligatr.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{\"scroll\":109.80882352941177}"
-                },
-                {
-                  "title": "SRD-Fidough",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD v2.1/SRD-Pokedex/SRD-Fidough.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "SRD-Finizen",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD v2.1/SRD-Pokedex/SRD-Finizen.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "SRD-Fletchling",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD v2.1/SRD-Pokedex/SRD-Fletchling.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "SRD-Fezandipiti",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD v2.1/SRD-Pokedex/SRD-Fezandipiti.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "SRD-Sprigatito",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD v2.1/SRD-Pokedex/SRD-Sprigatito.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{\"scroll\":0}"
-                },
-                {
-                  "title": "Readme",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Readme.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{}"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD Data Structures.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{\"scroll\":54.544117647058826}",
-                  "title": "SRD Data Structures",
-                  "icon": "lines-of-text"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Readme.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{\"scroll\":7.625}",
-                  "title": "Readme",
-                  "icon": "lines-of-text"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD Data Structures.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":31.23984375}",
-                  "title": "SRD Data Structures",
-                  "icon": "document"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Readme.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"scroll\":6.497138869504536}",
-                  "title": "Readme",
-                  "icon": "document"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Natures/SRD-Adamant.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}",
-                  "title": "SRD-Adamant",
-                  "icon": "document"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Natures/SRD-Bashful.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{}",
-                  "title": "SRD-Bashful",
-                  "icon": "lines-of-text"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"SRD/SRD-Natures/SRD-Adamant.md\",\"mode\":\"preview\",\"source\":true}}",
-                  "eState": "{\"scroll\":0}",
-                  "title": "SRD-Adamant",
-                  "icon": "lines-of-text"
-                },
-                {
-                  "leaf": "205986ea69da3d41",
-                  "group": null,
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Pokemon Character Sheet Template.md\",\"mode\":\"source\",\"source\":true}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":3},\"to\":{\"line\":68,\"ch\":3}},\"scroll\":15.631542219120727}",
-                  "title": "Pokemon Character Sheet Template",
-                  "icon": "document"
                 }
               ]
             },
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Readme.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -223,6 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -260,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Readme.md"
+              }
             }
           }
         ]
@@ -280,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "205986ea69da3d41",
+  "active": "bf698a54dfe08ec0",
   "lastOpenFiles": [
     "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zygarde-ultimate-ShuffleToken.png",
     "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zygarde-cell-ShuffleToken.png",
