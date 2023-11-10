@@ -1,0 +1,22 @@
+---
+Description: Doubles all prize money.
+HealAmount: ''
+Name: Luck Incense
+PMDPrice: ''
+SpecificPokemon: ''
+SuggestedPrice: ''
+TypeBonus: ''
+Value: ''
+---
+
+#PokeroleSRD/Items
+
+## `= this.Name`
+
+*`= this.Description`*
+
+| Type Bonus         | Value          | Heal Amount         | Suggested Price         | PMD Price         |
+| ------------------ | -------------- | ------------------- | ----------------------- | ----------------- |
+| `= this.TypeBonus` | `= this.Value` | `= this.HealAmount` | `= this.SuggestedPrice` | `= this.PMDPrice` |
+
+**Pokemon Limitation**: `= this.SpecificPokemon`
