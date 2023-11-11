@@ -25,49 +25,49 @@ Image: togepi.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Growl|Growl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growl|Growl]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Charm|Charm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charm|Charm]]'
 - - Beginner
-  - '[[SRD-Metronome|Metronome]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Metronome|Metronome]]'
 - - Beginner
-  - '[[SRD-Sweet Kiss|Sweet Kiss]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sweet Kiss|Sweet Kiss]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Yawn|Yawn]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Yawn|Yawn]]'
 - - Amateur
-  - '[[SRD-Encore|Encore]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Encore|Encore]]'
 - - Amateur
-  - '[[SRD-Follow Me|Follow Me]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Follow Me|Follow Me]]'
 - - Amateur
-  - '[[SRD-Bestow|Bestow]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bestow|Bestow]]'
 - - Amateur
-  - '[[SRD-Baton Pass|Baton Pass]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Baton Pass|Baton Pass]]'
 - - Amateur
-  - '[[SRD-Ancient Power|Ancient Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ancient Power|Ancient Power]]'
 - - Amateur
-  - '[[SRD-Safeguard|Safeguard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Safeguard|Safeguard]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Wish|Wish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wish|Wish]]'
 - - Ace
-  - '[[SRD-Double-Edge|Double-Edge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double-Edge|Double-Edge]]'
 - - Ace
-  - '[[SRD-Last Resort|Last Resort]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Last Resort|Last Resort]]'
 - - Ace
-  - '[[SRD-After You|After You]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-After You|After You]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Lucky Chant|Lucky Chant]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lucky Chant|Lucky Chant]]'
 - - Pro
-  - '[[SRD-Nasty Plot|Nasty Plot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nasty Plot|Nasty Plot]]'
 - - Pro
-  - '[[SRD-Extrasensory|Extrasensory]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Extrasensory|Extrasensory]]'
 Number: 175
 ShuffleToken: SRD-togepi-ShuffleToken.png
 Type1: Fairy

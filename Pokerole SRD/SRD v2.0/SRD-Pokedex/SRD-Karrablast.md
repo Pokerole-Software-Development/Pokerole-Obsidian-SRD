@@ -23,49 +23,49 @@ Image: karrablast.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Peck|Peck]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Peck|Peck]]'
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Endure|Endure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endure|Endure]]'
 - - Beginner
-  - '[[SRD-Fury Cutter|Fury Cutter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Cutter|Fury Cutter]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Fury Attack|Fury Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Attack|Fury Attack]]'
 - - Amateur
-  - '[[SRD-Headbutt|Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Headbutt|Headbutt]]'
 - - Amateur
-  - '[[SRD-False Swipe|False Swipe]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-False Swipe|False Swipe]]'
 - - Amateur
-  - '[[SRD-Bug Buzz|Bug Buzz]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bug Buzz|Bug Buzz]]'
 - - Amateur
-  - '[[SRD-Slash|Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slash|Slash]]'
 - - Amateur
-  - '[[SRD-Take Down|Take Down]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Take Down|Take Down]]'
 - - Amateur
-  - '[[SRD-Scary Face|Scary Face]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scary Face|Scary Face]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-X-Scissor|X-Scissor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-X-Scissor|X-Scissor]]'
 - - Ace
-  - '[[SRD-Flail|Flail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flail|Flail]]'
 - - Ace
-  - '[[SRD-Swords Dance|Swords Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swords Dance|Swords Dance]]'
 - - Ace
-  - '[[SRD-Double-Edge|Double-Edge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double-Edge|Double-Edge]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Feint Attack|Feint Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feint Attack|Feint Attack]]'
 - - Pro
-  - '[[SRD-Horn Attack|Horn Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Horn Attack|Horn Attack]]'
 - - Pro
-  - '[[SRD-Pursuit|Pursuit]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pursuit|Pursuit]]'
 Number: 588
 ShuffleToken: SRD-karrablast-ShuffleToken.png
 Type1: Bug

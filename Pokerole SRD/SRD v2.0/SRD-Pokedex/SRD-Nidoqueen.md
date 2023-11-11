@@ -23,37 +23,37 @@ Image: nidoqueen.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Scratch|Scratch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scratch|Scratch]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Growl|Growl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growl|Growl]]'
 - - Beginner
-  - '[[SRD-Tail Whip|Tail Whip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tail Whip|Tail Whip]]'
 - - Beginner
-  - '[[SRD-Double Kick|Double Kick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Kick|Double Kick]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Poison Sting|Poison Sting]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Poison Sting|Poison Sting]]'
 - - Amateur
-  - '[[SRD-Chip Away|Chip Away]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Chip Away|Chip Away]]'
 - - Amateur
-  - '[[SRD-Body Slam|Body Slam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Body Slam|Body Slam]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Earth Power|Earth Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Earth Power|Earth Power]]'
 - - Ace
-  - '[[SRD-Poison Tail|Poison Tail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Poison Tail|Poison Tail]]'
 - - Ace
-  - '[[SRD-Shock Wave|Shock Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shock Wave|Shock Wave]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Superpower|Superpower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Superpower|Superpower]]'
 - - Pro
-  - '[[SRD-Icy Wind|Icy Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Icy Wind|Icy Wind]]'
 Number: 31
 ShuffleToken: SRD-nidoqueen-ShuffleToken.png
 Type1: Poison

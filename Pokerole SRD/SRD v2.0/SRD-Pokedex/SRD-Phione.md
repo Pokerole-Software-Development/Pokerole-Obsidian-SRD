@@ -18,35 +18,35 @@ Image: phione.png
 Legendary: 'No'
 Moves:
 - - Master
-  - '[[SRD-Bubble|Bubble]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bubble|Bubble]]'
 - - Master
-  - '[[SRD-Water Sport|Water Sport]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Sport|Water Sport]]'
 - - Master
-  - '[[SRD-Charm|Charm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charm|Charm]]'
 - - Master
-  - '[[SRD-Supersonic|Supersonic]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Supersonic|Supersonic]]'
 - - Master
-  - '[[SRD-Bubble Beam|Bubble Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bubble Beam|Bubble Beam]]'
 - - Master
-  - '[[SRD-Acid Armor|Acid Armor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Acid Armor|Acid Armor]]'
 - - Master
-  - '[[SRD-Whirlpool|Whirlpool]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Whirlpool|Whirlpool]]'
 - - Master
-  - '[[SRD-Water Pulse|Water Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Pulse|Water Pulse]]'
 - - Master
-  - '[[SRD-Aqua Ring|Aqua Ring]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aqua Ring|Aqua Ring]]'
 - - Master
-  - '[[SRD-Dive|Dive]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dive|Dive]]'
 - - Master
-  - '[[SRD-Rain Dance|Rain Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rain Dance|Rain Dance]]'
 - - Master
-  - '[[SRD-Surf|Surf]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Surf|Surf]]'
 - - Master
-  - '[[SRD-Helping Hand|Helping Hand]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Helping Hand|Helping Hand]]'
 - - Master
-  - '[[SRD-Heal Bell|Heal Bell]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heal Bell|Heal Bell]]'
 - - Master
-  - '[[SRD-Last Resort|Last Resort]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Last Resort|Last Resort]]'
 Number: 489
 ShuffleToken: SRD-phione-ShuffleToken.png
 Type1: Water

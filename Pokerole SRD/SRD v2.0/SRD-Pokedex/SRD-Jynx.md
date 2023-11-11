@@ -23,51 +23,51 @@ Image: jynx.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Pound|Pound]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pound|Pound]]'
 - - Starter
-  - '[[SRD-Lick|Lick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lick|Lick]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Lovely Kiss|Lovely Kiss]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lovely Kiss|Lovely Kiss]]'
 - - Beginner
-  - '[[SRD-Powder Snow|Powder Snow]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Powder Snow|Powder Snow]]'
 - - Beginner
-  - '[[SRD-Draining Kiss|Draining Kiss]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Draining Kiss|Draining Kiss]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Body Slam|Body Slam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Body Slam|Body Slam]]'
 - - Amateur
-  - '[[SRD-Double Slap|Double Slap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Slap|Double Slap]]'
 - - Amateur
-  - '[[SRD-Ice Punch|Ice Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Punch|Ice Punch]]'
 - - Amateur
-  - '[[SRD-Heart Stamp|Heart Stamp]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heart Stamp|Heart Stamp]]'
 - - Amateur
-  - '[[SRD-Mean Look|Mean Look]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mean Look|Mean Look]]'
 - - Amateur
-  - '[[SRD-Fake Tears|Fake Tears]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fake Tears|Fake Tears]]'
 - - Amateur
-  - '[[SRD-Wake-Up Slap|Wake-Up Slap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wake-Up Slap|Wake-Up Slap]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Avalanche|Avalanche]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Avalanche|Avalanche]]'
 - - Ace
-  - '[[SRD-Perish Song|Perish Song]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Perish Song|Perish Song]]'
 - - Ace
-  - '[[SRD-Wring Out|Wring Out]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wring Out|Wring Out]]'
 - - Ace
-  - '[[SRD-Blizzard|Blizzard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Blizzard|Blizzard]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Fake Out|Fake Out]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fake Out|Fake Out]]'
 - - Pro
-  - '[[SRD-Nasty Plot|Nasty Plot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nasty Plot|Nasty Plot]]'
 - - Pro
-  - '[[SRD-Aurora Veil|Aurora Veil]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aurora Veil|Aurora Veil]]'
 Number: 124
 ShuffleToken: SRD-jynx-ShuffleToken.png
 Type1: Ice

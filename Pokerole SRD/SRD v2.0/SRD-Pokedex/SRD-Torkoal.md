@@ -19,55 +19,55 @@ Image: torkoal.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Ember|Ember]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ember|Ember]]'
 - - Starter
-  - '[[SRD-Smog|Smog]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Smog|Smog]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Withdraw|Withdraw]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Withdraw|Withdraw]]'
 - - Beginner
-  - '[[SRD-Curse|Curse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Curse|Curse]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Fire Spin|Fire Spin]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Spin|Fire Spin]]'
 - - Amateur
-  - '[[SRD-Smokescreen|Smokescreen]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Smokescreen|Smokescreen]]'
 - - Amateur
-  - '[[SRD-Flame Wheel|Flame Wheel]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flame Wheel|Flame Wheel]]'
 - - Amateur
-  - '[[SRD-Rapid Spin|Rapid Spin]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rapid Spin|Rapid Spin]]'
 - - Amateur
-  - '[[SRD-Flamethrower|Flamethrower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flamethrower|Flamethrower]]'
 - - Amateur
-  - '[[SRD-Body Slam|Body Slam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Body Slam|Body Slam]]'
 - - Amateur
-  - '[[SRD-Protect|Protect]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Protect|Protect]]'
 - - Amateur
-  - '[[SRD-Lava Plume|Lava Plume]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lava Plume|Lava Plume]]'
 - - Amateur
-  - '[[SRD-Iron Defense|Iron Defense]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Defense|Iron Defense]]'
 - - Amateur
-  - '[[SRD-Amnesia|Amnesia]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Amnesia|Amnesia]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Flail|Flail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flail|Flail]]'
 - - Ace
-  - '[[SRD-Heat Wave|Heat Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heat Wave|Heat Wave]]'
 - - Ace
-  - '[[SRD-Inferno|Inferno]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Inferno|Inferno]]'
 - - Ace
-  - '[[SRD-Shell Smash|Shell Smash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shell Smash|Shell Smash]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Clear Smog|Clear Smog]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Clear Smog|Clear Smog]]'
 - - Pro
-  - '[[SRD-Superpower|Superpower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Superpower|Superpower]]'
 - - Pro
-  - '[[SRD-Fissure|Fissure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fissure|Fissure]]'
 Number: 324
 ShuffleToken: SRD-torkoal-ShuffleToken.png
 Type1: Fire

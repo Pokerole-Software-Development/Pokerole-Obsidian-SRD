@@ -23,45 +23,45 @@ Image: mareanie.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Poison Sting|Poison Sting]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Poison Sting|Poison Sting]]'
 - - Starter
-  - '[[SRD-Peck|Peck]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Peck|Peck]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - Beginner
-  - '[[SRD-Toxic Spikes|Toxic Spikes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Toxic Spikes|Toxic Spikes]]'
 - - Beginner
-  - '[[SRD-Wide Guard|Wide Guard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wide Guard|Wide Guard]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Toxic|Toxic]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Toxic|Toxic]]'
 - - Amateur
-  - '[[SRD-Venoshock|Venoshock]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Venoshock|Venoshock]]'
 - - Amateur
-  - '[[SRD-Spike Cannon|Spike Cannon]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spike Cannon|Spike Cannon]]'
 - - Amateur
-  - '[[SRD-Pin Missile|Pin Missile]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pin Missile|Pin Missile]]'
 - - Amateur
-  - '[[SRD-Poison Jab|Poison Jab]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Poison Jab|Poison Jab]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Venom Drench|Venom Drench]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Venom Drench|Venom Drench]]'
 - - Ace
-  - '[[SRD-Recover|Recover]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Recover|Recover]]'
 - - Ace
-  - '[[SRD-Liquidation|Liquidation]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Liquidation|Liquidation]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Protect|Protect]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Protect|Protect]]'
 - - Pro
-  - '[[SRD-Stockpile|Stockpile]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stockpile|Stockpile]]'
 - - Pro
-  - '[[SRD-Sludge Bomb|Sludge Bomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sludge Bomb|Sludge Bomb]]'
 Number: 747
 ShuffleToken: SRD-mareanie-ShuffleToken.png
 Type1: Poison

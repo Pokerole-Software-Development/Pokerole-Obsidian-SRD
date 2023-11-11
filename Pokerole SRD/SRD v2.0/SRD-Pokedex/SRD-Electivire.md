@@ -23,55 +23,55 @@ Image: electivire.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Quick Attack|Quick Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quick Attack|Quick Attack]]'
 - - Starter
-  - '[[SRD-Ion Deluge|Ion Deluge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ion Deluge|Ion Deluge]]'
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Electric Terrain|Electric Terrain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Electric Terrain|Electric Terrain]]'
 - - Beginner
-  - '[[SRD-Low Kick|Low Kick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Low Kick|Low Kick]]'
 - - Beginner
-  - '[[SRD-Thunder Shock|Thunder Shock]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Shock|Thunder Shock]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Fire Punch|Fire Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Punch|Fire Punch]]'
 - - Amateur
-  - '[[SRD-Thunderbolt|Thunderbolt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunderbolt|Thunderbolt]]'
 - - Amateur
-  - '[[SRD-Shock Wave|Shock Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shock Wave|Shock Wave]]'
 - - Amateur
-  - '[[SRD-Thunder Wave|Thunder Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Wave|Thunder Wave]]'
 - - Amateur
-  - '[[SRD-Electro Ball|Electro Ball]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Electro Ball|Electro Ball]]'
 - - Amateur
-  - '[[SRD-Light Screen|Light Screen]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Light Screen|Light Screen]]'
 - - Amateur
-  - '[[SRD-Thunder Punch|Thunder Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Punch|Thunder Punch]]'
 - - Amateur
-  - '[[SRD-Swift|Swift]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swift|Swift]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Screech|Screech]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Screech|Screech]]'
 - - Ace
-  - '[[SRD-Discharge|Discharge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Discharge|Discharge]]'
 - - Ace
-  - '[[SRD-Thunder|Thunder]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder|Thunder]]'
 - - Ace
-  - '[[SRD-Giga Impact|Giga Impact]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Giga Impact|Giga Impact]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Hammer Arm|Hammer Arm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hammer Arm|Hammer Arm]]'
 - - Pro
-  - '[[SRD-Ice Punch|Ice Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Punch|Ice Punch]]'
 - - Pro
-  - '[[SRD-Dual Chop|Dual Chop]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dual Chop|Dual Chop]]'
 Number: 466
 ShuffleToken: SRD-electivire-ShuffleToken.png
 Type1: Electric

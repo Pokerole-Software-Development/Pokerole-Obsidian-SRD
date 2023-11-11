@@ -19,33 +19,33 @@ Image: mew.png
 Legendary: 'Yes'
 Moves:
 - - Master
-  - '[[SRD-Pound|Pound]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pound|Pound]]'
 - - Master
-  - '[[SRD-Reflect|Reflect]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Reflect|Reflect]]'
 - - Master
-  - '[[SRD-Transform|Transform]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Transform|Transform]]'
 - - Master
-  - '[[SRD-Mega Punch|Mega Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mega Punch|Mega Punch]]'
 - - Master
-  - '[[SRD-Metronome|Metronome]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Metronome|Metronome]]'
 - - Master
-  - '[[SRD-Psychic|Psychic]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psychic|Psychic]]'
 - - Master
-  - '[[SRD-Barrier|Barrier]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Barrier|Barrier]]'
 - - Master
-  - '[[SRD-Ancient Power|Ancient Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ancient Power|Ancient Power]]'
 - - Master
-  - '[[SRD-Amnesia|Amnesia]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Amnesia|Amnesia]]'
 - - Master
-  - '[[SRD-Me First|Me First]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Me First|Me First]]'
 - - Master
-  - '[[SRD-Baton Pass|Baton Pass]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Baton Pass|Baton Pass]]'
 - - Master
-  - '[[SRD-Nasty Plot|Nasty Plot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nasty Plot|Nasty Plot]]'
 - - Master
-  - '[[SRD-Aura Sphere|Aura Sphere]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aura Sphere|Aura Sphere]]'
 - - Master
-  - '[[SRD-Any Move|Any Move]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Any Move|Any Move]]'
 Number: 151
 ShuffleToken: SRD-mew-ShuffleToken.png
 Type1: Psychic

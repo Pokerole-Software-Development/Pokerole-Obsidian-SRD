@@ -19,47 +19,47 @@ Image: morpeko.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Thunder Shock|Thunder Shock]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Shock|Thunder Shock]]'
 - - Starter
-  - '[[SRD-Tail Whip|Tail Whip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tail Whip|Tail Whip]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - Beginner
-  - '[[SRD-Power Trip|Power Trip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Power Trip|Power Trip]]'
 - - Beginner
-  - '[[SRD-Quick Attack|Quick Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quick Attack|Quick Attack]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Flatter|Flatter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flatter|Flatter]]'
 - - Amateur
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - Amateur
-  - '[[SRD-Spark|Spark]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spark|Spark]]'
 - - Amateur
-  - '[[SRD-Torment|Torment]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Torment|Torment]]'
 - - Amateur
-  - '[[SRD-Agility|Agility]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Agility|Agility]]'
 - - Amateur
-  - '[[SRD-Bullet Seed|Bullet Seed]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bullet Seed|Bullet Seed]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - Ace
-  - '[[SRD-Aura Wheel|Aura Wheel]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aura Wheel|Aura Wheel]]'
 - - Ace
-  - '[[SRD-Thrash|Thrash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thrash|Thrash]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Super Fang|Super Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Super Fang|Super Fang]]'
 - - Pro
-  - '[[SRD-Wild Charge|Wild Charge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wild Charge|Wild Charge]]'
 - - Pro
-  - '[[SRD-Outrage|Outrage]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Outrage|Outrage]]'
 Number: 877
 ShuffleToken: SRD-morpeko-ShuffleToken.png
 Type1: Electric

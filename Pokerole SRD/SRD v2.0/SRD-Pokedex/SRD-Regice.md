@@ -19,41 +19,41 @@ Image: regice.png
 Legendary: 'Yes'
 Moves:
 - - Master
-  - '[[SRD-Stomp|Stomp]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stomp|Stomp]]'
 - - Master
-  - '[[SRD-Icy Wind|Icy Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Icy Wind|Icy Wind]]'
 - - Master
-  - '[[SRD-Charge Beam|Charge Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charge Beam|Charge Beam]]'
 - - Master
-  - '[[SRD-Bulldoze|Bulldoze]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bulldoze|Bulldoze]]'
 - - Master
-  - '[[SRD-Curse|Curse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Curse|Curse]]'
 - - Master
-  - '[[SRD-Ancient Power|Ancient Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ancient Power|Ancient Power]]'
 - - Master
-  - '[[SRD-Amnesia|Amnesia]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Amnesia|Amnesia]]'
 - - Master
-  - '[[SRD-Ice Beam|Ice Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Beam|Ice Beam]]'
 - - Master
-  - '[[SRD-Hammer Arm|Hammer Arm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hammer Arm|Hammer Arm]]'
 - - Master
-  - '[[SRD-Lock-On|Lock-On]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lock-On|Lock-On]]'
 - - Master
-  - '[[SRD-Zap Cannon|Zap Cannon]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Zap Cannon|Zap Cannon]]'
 - - Master
-  - '[[SRD-Superpower|Superpower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Superpower|Superpower]]'
 - - Master
-  - '[[SRD-Hyper Beam|Hyper Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hyper Beam|Hyper Beam]]'
 - - Master
-  - '[[SRD-Explosion|Explosion]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Explosion|Explosion]]'
 - - Master
-  - '[[SRD-Mimic|Mimic]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mimic|Mimic]]'
 - - Master
-  - '[[SRD-Avalanche|Avalanche]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Avalanche|Avalanche]]'
 - - Master
-  - '[[SRD-Ice Punch|Ice Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Punch|Ice Punch]]'
 - - Master
-  - '[[SRD-Aurora Veil|Aurora Veil]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aurora Veil|Aurora Veil]]'
 Number: 378
 ShuffleToken: SRD-regice-ShuffleToken.png
 Type1: Ice

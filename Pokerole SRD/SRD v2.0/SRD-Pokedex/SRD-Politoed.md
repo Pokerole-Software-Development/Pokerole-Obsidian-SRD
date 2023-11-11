@@ -23,33 +23,33 @@ Image: politoed.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Bubble Beam|Bubble Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bubble Beam|Bubble Beam]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Hypnosis|Hypnosis]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hypnosis|Hypnosis]]'
 - - Beginner
-  - '[[SRD-Double Slap|Double Slap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Slap|Double Slap]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Perish Song|Perish Song]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Perish Song|Perish Song]]'
 - - Amateur
-  - '[[SRD-Swagger|Swagger]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swagger|Swagger]]'
 - - Amateur
-  - '[[SRD-Bounce|Bounce]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bounce|Bounce]]'
 - - Amateur
-  - '[[SRD-Hyper Voice|Hyper Voice]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hyper Voice|Hyper Voice]]'
 - - Amateur
-  - '[[SRD-Mud Shot|Mud Shot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Shot|Mud Shot]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Icy Wind|Icy Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Icy Wind|Icy Wind]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Refresh|Refresh]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Refresh|Refresh]]'
 Number: 186
 ShuffleToken: SRD-politoed-ShuffleToken.png
 Type1: Water

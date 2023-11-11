@@ -23,51 +23,51 @@ Image: pansage.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Scratch|Scratch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scratch|Scratch]]'
 - - Starter
-  - '[[SRD-Play Nice|Play Nice]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Play Nice|Play Nice]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - Beginner
-  - '[[SRD-Lick|Lick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lick|Lick]]'
 - - Beginner
-  - '[[SRD-Vine Whip|Vine Whip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Vine Whip|Vine Whip]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Fury Swipes|Fury Swipes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Swipes|Fury Swipes]]'
 - - Amateur
-  - '[[SRD-Leech Seed|Leech Seed]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leech Seed|Leech Seed]]'
 - - Amateur
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - Amateur
-  - '[[SRD-Seed Bomb|Seed Bomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Seed Bomb|Seed Bomb]]'
 - - Amateur
-  - '[[SRD-Torment|Torment]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Torment|Torment]]'
 - - Amateur
-  - '[[SRD-Fling|Fling]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fling|Fling]]'
 - - Amateur
-  - '[[SRD-Acrobatics|Acrobatics]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Acrobatics|Acrobatics]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Grass Knot|Grass Knot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Grass Knot|Grass Knot]]'
 - - Ace
-  - '[[SRD-Recycle|Recycle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Recycle|Recycle]]'
 - - Ace
-  - '[[SRD-Natural Gift|Natural Gift]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Natural Gift|Natural Gift]]'
 - - Ace
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Grass Whistle|Grass Whistle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Grass Whistle|Grass Whistle]]'
 - - Pro
-  - '[[SRD-Nasty Plot|Nasty Plot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nasty Plot|Nasty Plot]]'
 - - Pro
-  - '[[SRD-Giga Drain|Giga Drain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Giga Drain|Giga Drain]]'
 Number: 511
 ShuffleToken: SRD-pansage-ShuffleToken.png
 Type1: Grass

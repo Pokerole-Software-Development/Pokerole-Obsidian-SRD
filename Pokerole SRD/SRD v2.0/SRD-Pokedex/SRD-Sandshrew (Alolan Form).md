@@ -23,53 +23,53 @@ Image: sandshrew-alolan-form.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Scratch|Scratch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scratch|Scratch]]'
 - - Starter
-  - '[[SRD-Defense Curl|Defense Curl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Defense Curl|Defense Curl]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Bide|Bide]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bide|Bide]]'
 - - Beginner
-  - '[[SRD-Powder Snow|Powder Snow]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Powder Snow|Powder Snow]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Ice Ball|Ice Ball]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Ball|Ice Ball]]'
 - - Amateur
-  - '[[SRD-Rapid Spin|Rapid Spin]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rapid Spin|Rapid Spin]]'
 - - Amateur
-  - '[[SRD-Fury Cutter|Fury Cutter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Cutter|Fury Cutter]]'
 - - Amateur
-  - '[[SRD-Metal Claw|Metal Claw]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Metal Claw|Metal Claw]]'
 - - Amateur
-  - '[[SRD-Swift|Swift]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swift|Swift]]'
 - - Amateur
-  - '[[SRD-Fury Swipes|Fury Swipes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Swipes|Fury Swipes]]'
 - - Amateur
-  - '[[SRD-Iron Defense|Iron Defense]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Defense|Iron Defense]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Slash|Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slash|Slash]]'
 - - Ace
-  - '[[SRD-Iron Head|Iron Head]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Head|Iron Head]]'
 - - Ace
-  - '[[SRD-Gyro Ball|Gyro Ball]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gyro Ball|Gyro Ball]]'
 - - Ace
-  - '[[SRD-Swords Dance|Swords Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swords Dance|Swords Dance]]'
 - - Ace
-  - '[[SRD-Hail|Hail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hail|Hail]]'
 - - Ace
-  - '[[SRD-Blizzard|Blizzard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Blizzard|Blizzard]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Chip Away|Chip Away]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Chip Away|Chip Away]]'
 - - Pro
-  - '[[SRD-Counter|Counter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Counter|Counter]]'
 - - Pro
-  - '[[SRD-Aerial Ace|Aerial Ace]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aerial Ace|Aerial Ace]]'
 Number: 27
 ShuffleToken: SRD-sandshrew-alolan-form-ShuffleToken.png
 Type1: Ice

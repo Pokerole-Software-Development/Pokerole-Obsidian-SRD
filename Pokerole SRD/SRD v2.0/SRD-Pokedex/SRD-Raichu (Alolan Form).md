@@ -24,29 +24,29 @@ Image: raichu-alolan-form.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Thunder Shock|Thunder Shock]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Shock|Thunder Shock]]'
 - - Starter
-  - '[[SRD-Tail Whip|Tail Whip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tail Whip|Tail Whip]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Quick Attack|Quick Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quick Attack|Quick Attack]]'
 - - Amateur
-  - '[[SRD-Thunderbolt|Thunderbolt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunderbolt|Thunderbolt]]'
 - - Amateur
-  - '[[SRD-Psychic|Psychic]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psychic|Psychic]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Speed Swap|Speed Swap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Speed Swap|Speed Swap]]'
 - - Ace
-  - '[[SRD-Electric Terrain|Electric Terrain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Electric Terrain|Electric Terrain]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Reflect|Reflect]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Reflect|Reflect]]'
 - - Pro
-  - '[[SRD-Volt Tackle|Volt Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Volt Tackle|Volt Tackle]]'
 Number: 26
 ShuffleToken: SRD-raichu-alolan-form-ShuffleToken.png
 Type1: Electric

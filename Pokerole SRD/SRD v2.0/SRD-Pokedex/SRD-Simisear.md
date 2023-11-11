@@ -23,25 +23,25 @@ Image: simisear.png
 Legendary: 'No'
 Moves:
 - - Beginner
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - Beginner
-  - '[[SRD-Lick|Lick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lick|Lick]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Fury Swipes|Fury Swipes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Swipes|Fury Swipes]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Flame Burst|Flame Burst]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flame Burst|Flame Burst]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Gunk Shot|Gunk Shot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gunk Shot|Gunk Shot]]'
 - - Pro
-  - '[[SRD-Superpower|Superpower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Superpower|Superpower]]'
 - - Pro
-  - '[[SRD-Heat Wave|Heat Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heat Wave|Heat Wave]]'
 Number: 514
 ShuffleToken: SRD-simisear-ShuffleToken.png
 Type1: Fire

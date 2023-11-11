@@ -23,49 +23,49 @@ Image: tsareena.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Splash|Splash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Splash|Splash]]'
 - - Starter
-  - '[[SRD-Swagger|Swagger]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swagger|Swagger]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Rapid Spin|Rapid Spin]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rapid Spin|Rapid Spin]]'
 - - Beginner
-  - '[[SRD-Razor Leaf|Razor Leaf]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Razor Leaf|Razor Leaf]]'
 - - Beginner
-  - '[[SRD-Sweet Scent|Sweet Scent]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sweet Scent|Sweet Scent]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Double Slap|Double Slap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Slap|Double Slap]]'
 - - Amateur
-  - '[[SRD-Trop Kick|Trop Kick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Trop Kick|Trop Kick]]'
 - - Amateur
-  - '[[SRD-Magical Leaf|Magical Leaf]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magical Leaf|Magical Leaf]]'
 - - Amateur
-  - '[[SRD-Teeter Dance|Teeter Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Teeter Dance|Teeter Dance]]'
 - - Amateur
-  - '[[SRD-Stomp|Stomp]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stomp|Stomp]]'
 - - Amateur
-  - '[[SRD-Aromatic Mist|Aromatic Mist]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aromatic Mist|Aromatic Mist]]'
 - - Amateur
-  - '[[SRD-Captivate|Captivate]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Captivate|Captivate]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Aromatherapy|Aromatherapy]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aromatherapy|Aromatherapy]]'
 - - Ace
-  - '[[SRD-Leaf Storm|Leaf Storm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leaf Storm|Leaf Storm]]'
 - - Ace
-  - '[[SRD-High Jump Kick|High Jump Kick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-High Jump Kick|High Jump Kick]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Acrobatics|Acrobatics]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Acrobatics|Acrobatics]]'
 - - Pro
-  - '[[SRD-Low Sweep|Low Sweep]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Low Sweep|Low Sweep]]'
 - - Pro
-  - '[[SRD-Synthesis|Synthesis]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Synthesis|Synthesis]]'
 Number: 763
 ShuffleToken: SRD-tsareena-ShuffleToken.png
 Type1: Grass

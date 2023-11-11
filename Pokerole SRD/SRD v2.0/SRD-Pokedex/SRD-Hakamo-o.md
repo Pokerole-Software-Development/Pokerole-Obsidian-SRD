@@ -27,51 +27,51 @@ Image: hakamo-o.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Bide|Bide]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bide|Bide]]'
 - - Beginner
-  - '[[SRD-Protect|Protect]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Protect|Protect]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Sky Uppercut|Sky Uppercut]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sky Uppercut|Sky Uppercut]]'
 - - Amateur
-  - '[[SRD-Dragon Tail|Dragon Tail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Tail|Dragon Tail]]'
 - - Amateur
-  - '[[SRD-Scary Face|Scary Face]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scary Face|Scary Face]]'
 - - Amateur
-  - '[[SRD-Headbutt|Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Headbutt|Headbutt]]'
 - - Amateur
-  - '[[SRD-Work Up|Work Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Work Up|Work Up]]'
 - - Amateur
-  - '[[SRD-Screech|Screech]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Screech|Screech]]'
 - - Amateur
-  - '[[SRD-Iron Defense|Iron Defense]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Defense|Iron Defense]]'
 - - Amateur
-  - '[[SRD-Dragon Claw|Dragon Claw]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Claw|Dragon Claw]]'
 - - Amateur
-  - '[[SRD-Noble Roar|Noble Roar]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Noble Roar|Noble Roar]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Autotomize|Autotomize]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Autotomize|Autotomize]]'
 - - Ace
-  - '[[SRD-Dragon Dance|Dragon Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Dance|Dragon Dance]]'
 - - Ace
-  - '[[SRD-Outrage|Outrage]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Outrage|Outrage]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Counter|Counter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Counter|Counter]]'
 - - Pro
-  - '[[SRD-Reversal|Reversal]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Reversal|Reversal]]'
 - - Pro
-  - '[[SRD-Dragon Breath|Dragon Breath]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Breath|Dragon Breath]]'
 Number: 783
 ShuffleToken: SRD-hakamo-o-ShuffleToken.png
 Type1: Dragon

@@ -23,53 +23,53 @@ Image: swablu.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Peck|Peck]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Peck|Peck]]'
 - - Starter
-  - '[[SRD-Growl|Growl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growl|Growl]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Astonish|Astonish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Astonish|Astonish]]'
 - - Beginner
-  - '[[SRD-Sing|Sing]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sing|Sing]]'
 - - Beginner
-  - '[[SRD-Fury Attack|Fury Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Attack|Fury Attack]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Safeguard|Safeguard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Safeguard|Safeguard]]'
 - - Amateur
-  - '[[SRD-Disarming Voice|Disarming Voice]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Disarming Voice|Disarming Voice]]'
 - - Amateur
-  - '[[SRD-Mist|Mist]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mist|Mist]]'
 - - Amateur
-  - '[[SRD-Round|Round]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Round|Round]]'
 - - Amateur
-  - '[[SRD-Natural Gift|Natural Gift]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Natural Gift|Natural Gift]]'
 - - Amateur
-  - '[[SRD-Take Down|Take Down]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Take Down|Take Down]]'
 - - Amateur
-  - '[[SRD-Refresh|Refresh]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Refresh|Refresh]]'
 - - Amateur
-  - '[[SRD-Mirror Move|Mirror Move]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mirror Move|Mirror Move]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Cotton Guard|Cotton Guard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Cotton Guard|Cotton Guard]]'
 - - Ace
-  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Pulse|Dragon Pulse]]'
 - - Ace
-  - '[[SRD-Perish Song|Perish Song]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Perish Song|Perish Song]]'
 - - Ace
-  - '[[SRD-Moonblast|Moonblast]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Moonblast|Moonblast]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Roost|Roost]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Roost|Roost]]'
 - - Pro
-  - '[[SRD-Feather Dance|Feather Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feather Dance|Feather Dance]]'
 - - Pro
-  - '[[SRD-Agility|Agility]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Agility|Agility]]'
 Number: 333
 ShuffleToken: SRD-swablu-ShuffleToken.png
 Type1: Normal

@@ -19,59 +19,59 @@ Image: heatmor.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - Starter
-  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Odor Sleuth|Odor Sleuth]]'
 - - Starter
-  - '[[SRD-Lick|Lick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lick|Lick]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Incinerate|Incinerate]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Incinerate|Incinerate]]'
 - - Beginner
-  - '[[SRD-Hone Claws|Hone Claws]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hone Claws|Hone Claws]]'
 - - Beginner
-  - '[[SRD-Bind|Bind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bind|Bind]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Fire Spin|Fire Spin]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Spin|Fire Spin]]'
 - - Amateur
-  - '[[SRD-Fury Swipes|Fury Swipes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Swipes|Fury Swipes]]'
 - - Amateur
-  - '[[SRD-Snatch|Snatch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Snatch|Snatch]]'
 - - Amateur
-  - '[[SRD-Flame Burst|Flame Burst]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flame Burst|Flame Burst]]'
 - - Amateur
-  - '[[SRD-Bug Bite|Bug Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bug Bite|Bug Bite]]'
 - - Amateur
-  - '[[SRD-Slash|Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slash|Slash]]'
 - - Amateur
-  - '[[SRD-Amnesia|Amnesia]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Amnesia|Amnesia]]'
 - - Amateur
-  - '[[SRD-Fire Lash|Fire Lash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Lash|Fire Lash]]'
 - - Amateur
-  - '[[SRD-Flamethrower|Flamethrower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flamethrower|Flamethrower]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Stockpile|Stockpile]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stockpile|Stockpile]]'
 - - Ace
-  - '[[SRD-Swallow|Swallow]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swallow|Swallow]]'
 - - Ace
-  - '[[SRD-Spit Up|Spit Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spit Up|Spit Up]]'
 - - Ace
-  - '[[SRD-Inferno|Inferno]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Inferno|Inferno]]'
 - - Ace
-  - '[[SRD-Flare Blitz|Flare Blitz]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flare Blitz|Flare Blitz]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Thunder Punch|Thunder Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Punch|Thunder Punch]]'
 - - Pro
-  - '[[SRD-Fire Punch|Fire Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Punch|Fire Punch]]'
 - - Pro
-  - '[[SRD-Night Slash|Night Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Night Slash|Night Slash]]'
 Number: 631
 ShuffleToken: SRD-heatmor-ShuffleToken.png
 Type1: Fire

@@ -24,19 +24,19 @@ Image: snom.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Powder Snow|Powder Snow]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Powder Snow|Powder Snow]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Struggle Bug|Struggle Bug]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Struggle Bug|Struggle Bug]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Rest|Rest]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rest|Rest]]'
 - - Pro
-  - '[[SRD-Snore|Snore]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Snore|Snore]]'
 - - Pro
-  - '[[SRD-Bug Bite|Bug Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bug Bite|Bug Bite]]'
 Number: 872
 ShuffleToken: SRD-snom-ShuffleToken.png
 Type1: Ice

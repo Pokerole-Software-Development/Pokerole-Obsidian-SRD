@@ -19,55 +19,55 @@ Image: basculin.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tail Whip|Tail Whip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tail Whip|Tail Whip]]'
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - Starter
-  - '[[SRD-Water Gun|Water Gun]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Gun|Water Gun]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Uproar|Uproar]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Uproar|Uproar]]'
 - - Beginner
-  - '[[SRD-Headbutt|Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Headbutt|Headbutt]]'
 - - Beginner
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Aqua Jet|Aqua Jet]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aqua Jet|Aqua Jet]]'
 - - Amateur
-  - '[[SRD-Chip Away|Chip Away]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Chip Away|Chip Away]]'
 - - Amateur
-  - '[[SRD-Take Down|Take Down]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Take Down|Take Down]]'
 - - Amateur
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - Amateur
-  - '[[SRD-Aqua Tail|Aqua Tail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aqua Tail|Aqua Tail]]'
 - - Amateur
-  - '[[SRD-Soak|Soak]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Soak|Soak]]'
 - - Amateur
-  - '[[SRD-Flail|Flail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flail|Flail]]'
 - - Amateur
-  - '[[SRD-Scary Face|Scary Face]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scary Face|Scary Face]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Double-Edge|Double-Edge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double-Edge|Double-Edge]]'
 - - Ace
-  - '[[SRD-Head Smash|Head Smash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Head Smash|Head Smash]]'
 - - Ace
-  - '[[SRD-Final Gambit|Final Gambit]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Final Gambit|Final Gambit]]'
 - - Ace
-  - '[[SRD-Thrash|Thrash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thrash|Thrash]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Agility|Agility]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Agility|Agility]]'
 - - Pro
-  - '[[SRD-Muddy Water|Muddy Water]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Muddy Water|Muddy Water]]'
 - - Pro
-  - '[[SRD-Superpower|Superpower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Superpower|Superpower]]'
 Number: 550
 ShuffleToken: SRD-basculin-ShuffleToken.png
 Type1: Water

@@ -34,49 +34,49 @@ Image: rockruff.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Sand Attack|Sand Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sand Attack|Sand Attack]]'
 - - Beginner
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - Beginner
-  - '[[SRD-Howl|Howl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Howl|Howl]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Rock Throw|Rock Throw]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Throw|Rock Throw]]'
 - - Amateur
-  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Odor Sleuth|Odor Sleuth]]'
 - - Amateur
-  - '[[SRD-Rock Tomb|Rock Tomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Tomb|Rock Tomb]]'
 - - Amateur
-  - '[[SRD-Roar|Roar]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Roar|Roar]]'
 - - Amateur
-  - '[[SRD-Stealth Rock|Stealth Rock]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stealth Rock|Stealth Rock]]'
 - - Amateur
-  - '[[SRD-Scary Face|Scary Face]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scary Face|Scary Face]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Rock Slide|Rock Slide]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Slide|Rock Slide]]'
 - - Ace
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - Ace
-  - '[[SRD-Rock Climb|Rock Climb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Climb|Rock Climb]]'
 - - Ace
-  - '[[SRD-Stone Edge|Stone Edge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stone Edge|Stone Edge]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Fire Fang|Fire Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Fang|Fire Fang]]'
 - - Pro
-  - '[[SRD-Snarl|Snarl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Snarl|Snarl]]'
 - - Pro
-  - '[[SRD-Thunder Fang|Thunder Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Fang|Thunder Fang]]'
 Number: 744
 ShuffleToken: SRD-rockruff-ShuffleToken.png
 Type1: Rock

@@ -27,45 +27,45 @@ Image: nidorino.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Peck|Peck]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Peck|Peck]]'
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Focus Energy|Focus Energy]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Focus Energy|Focus Energy]]'
 - - Beginner
-  - '[[SRD-Double Kick|Double Kick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Kick|Double Kick]]'
 - - Beginner
-  - '[[SRD-Poison Sting|Poison Sting]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Poison Sting|Poison Sting]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Fury Attack|Fury Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Attack|Fury Attack]]'
 - - Amateur
-  - '[[SRD-Horn Attack|Horn Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Horn Attack|Horn Attack]]'
 - - Amateur
-  - '[[SRD-Helping Hand|Helping Hand]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Helping Hand|Helping Hand]]'
 - - Amateur
-  - '[[SRD-Toxic Spikes|Toxic Spikes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Toxic Spikes|Toxic Spikes]]'
 - - Amateur
-  - '[[SRD-Poison Jab|Poison Jab]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Poison Jab|Poison Jab]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Flatter|Flatter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flatter|Flatter]]'
 - - Ace
-  - '[[SRD-Captivate|Captivate]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Captivate|Captivate]]'
 - - Ace
-  - '[[SRD-Horn Drill|Horn Drill]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Horn Drill|Horn Drill]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Lovely Kiss|Lovely Kiss]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lovely Kiss|Lovely Kiss]]'
 - - Pro
-  - '[[SRD-Morning Sun|Morning Sun]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Morning Sun|Morning Sun]]'
 - - Pro
-  - '[[SRD-Smart Strike|Smart Strike]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Smart Strike|Smart Strike]]'
 Number: 33
 ShuffleToken: SRD-nidorino-ShuffleToken.png
 Type1: Poison

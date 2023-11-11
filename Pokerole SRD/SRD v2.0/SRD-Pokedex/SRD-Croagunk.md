@@ -23,51 +23,51 @@ Image: croagunk.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Astonish|Astonish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Astonish|Astonish]]'
 - - Starter
-  - '[[SRD-Mud Slap|Mud Slap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Slap|Mud Slap]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Poison Sting|Poison Sting]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Poison Sting|Poison Sting]]'
 - - Beginner
-  - '[[SRD-Taunt|Taunt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Taunt|Taunt]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Pursuit|Pursuit]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pursuit|Pursuit]]'
 - - Amateur
-  - '[[SRD-Feint Attack|Feint Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feint Attack|Feint Attack]]'
 - - Amateur
-  - '[[SRD-Revenge|Revenge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Revenge|Revenge]]'
 - - Amateur
-  - '[[SRD-Swagger|Swagger]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swagger|Swagger]]'
 - - Amateur
-  - '[[SRD-Mud Bomb|Mud Bomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Bomb|Mud Bomb]]'
 - - Amateur
-  - '[[SRD-Sucker Punch|Sucker Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sucker Punch|Sucker Punch]]'
 - - Amateur
-  - '[[SRD-Venoshock|Venoshock]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Venoshock|Venoshock]]'
 - - Amateur
-  - '[[SRD-Nasty Plot|Nasty Plot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nasty Plot|Nasty Plot]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Poison Jab|Poison Jab]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Poison Jab|Poison Jab]]'
 - - Ace
-  - '[[SRD-Sludge Bomb|Sludge Bomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sludge Bomb|Sludge Bomb]]'
 - - Ace
-  - '[[SRD-Belch|Belch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Belch|Belch]]'
 - - Ace
-  - '[[SRD-Flatter|Flatter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flatter|Flatter]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Fake Out|Fake Out]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fake Out|Fake Out]]'
 - - Pro
-  - '[[SRD-Drain Punch|Drain Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Drain Punch|Drain Punch]]'
 - - Pro
-  - '[[SRD-Quick Guard|Quick Guard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quick Guard|Quick Guard]]'
 Number: 453
 ShuffleToken: SRD-croagunk-ShuffleToken.png
 Type1: Poison

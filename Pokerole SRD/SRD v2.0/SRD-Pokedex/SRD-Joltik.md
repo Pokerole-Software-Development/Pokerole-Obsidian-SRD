@@ -23,51 +23,51 @@ Image: joltik.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-String Shot|String Shot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-String Shot|String Shot]]'
 - - Starter
-  - '[[SRD-Absorb|Absorb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Absorb|Absorb]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Spider Web|Spider Web]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spider Web|Spider Web]]'
 - - Beginner
-  - '[[SRD-Thunder Wave|Thunder Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Wave|Thunder Wave]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Screech|Screech]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Screech|Screech]]'
 - - Amateur
-  - '[[SRD-Fury Cutter|Fury Cutter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Cutter|Fury Cutter]]'
 - - Amateur
-  - '[[SRD-Electroweb|Electroweb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Electroweb|Electroweb]]'
 - - Amateur
-  - '[[SRD-Bug Bite|Bug Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bug Bite|Bug Bite]]'
 - - Amateur
-  - '[[SRD-Gastro Acid|Gastro Acid]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gastro Acid|Gastro Acid]]'
 - - Amateur
-  - '[[SRD-Slash|Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slash|Slash]]'
 - - Amateur
-  - '[[SRD-Electro Ball|Electro Ball]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Electro Ball|Electro Ball]]'
 - - Amateur
-  - '[[SRD-Signal Beam|Signal Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Signal Beam|Signal Beam]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Agility|Agility]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Agility|Agility]]'
 - - Ace
-  - '[[SRD-Sucker Punch|Sucker Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sucker Punch|Sucker Punch]]'
 - - Ace
-  - '[[SRD-Discharge|Discharge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Discharge|Discharge]]'
 - - Ace
-  - '[[SRD-Bug Buzz|Bug Buzz]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bug Buzz|Bug Buzz]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Poison Sting|Poison Sting]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Poison Sting|Poison Sting]]'
 - - Pro
-  - '[[SRD-Bounce|Bounce]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bounce|Bounce]]'
 - - Pro
-  - '[[SRD-Giga Drain|Giga Drain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Giga Drain|Giga Drain]]'
 Number: 595
 ShuffleToken: SRD-joltik-ShuffleToken.png
 Type1: Bug

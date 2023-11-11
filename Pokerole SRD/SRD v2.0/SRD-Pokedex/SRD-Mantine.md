@@ -23,57 +23,57 @@ Image: mantine.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Bubble|Bubble]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bubble|Bubble]]'
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Psybeam|Psybeam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psybeam|Psybeam]]'
 - - Beginner
-  - '[[SRD-Bubble Beam|Bubble Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bubble Beam|Bubble Beam]]'
 - - Beginner
-  - '[[SRD-Supersonic|Supersonic]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Supersonic|Supersonic]]'
 - - Beginner
-  - '[[SRD-Bullet Seed|Bullet Seed]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bullet Seed|Bullet Seed]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Signal Beam|Signal Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Signal Beam|Signal Beam]]'
 - - Amateur
-  - '[[SRD-Roost|Roost]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Roost|Roost]]'
 - - Amateur
-  - '[[SRD-Confuse Ray|Confuse Ray]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Confuse Ray|Confuse Ray]]'
 - - Amateur
-  - '[[SRD-Wing Attack|Wing Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wing Attack|Wing Attack]]'
 - - Amateur
-  - '[[SRD-Wide Guard|Wide Guard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wide Guard|Wide Guard]]'
 - - Amateur
-  - '[[SRD-Water Pulse|Water Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Pulse|Water Pulse]]'
 - - Amateur
-  - '[[SRD-Agility|Agility]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Agility|Agility]]'
 - - Amateur
-  - '[[SRD-Take Down|Take Down]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Take Down|Take Down]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Headbutt|Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Headbutt|Headbutt]]'
 - - Ace
-  - '[[SRD-Air Slash|Air Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Air Slash|Air Slash]]'
 - - Ace
-  - '[[SRD-Aqua Ring|Aqua Ring]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aqua Ring|Aqua Ring]]'
 - - Ace
-  - '[[SRD-Bounce|Bounce]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bounce|Bounce]]'
 - - Ace
-  - '[[SRD-Hydro Pump|Hydro Pump]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hydro Pump|Hydro Pump]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Twister|Twister]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Twister|Twister]]'
 - - Pro
-  - '[[SRD-Mirror Coat|Mirror Coat]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mirror Coat|Mirror Coat]]'
 - - Pro
-  - '[[SRD-Mud Sport|Mud Sport]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Sport|Mud Sport]]'
 Number: 226
 ShuffleToken: SRD-mantine-ShuffleToken.png
 Type1: Water

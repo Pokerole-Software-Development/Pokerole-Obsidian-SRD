@@ -23,45 +23,45 @@ Image: garchomp-mega-form.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Dragon Rage|Dragon Rage]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Rage|Dragon Rage]]'
 - - Beginner
-  - '[[SRD-Sand Attack|Sand Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sand Attack|Sand Attack]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Sandstorm|Sandstorm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sandstorm|Sandstorm]]'
 - - Amateur
-  - '[[SRD-Fire Fang|Fire Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Fang|Fire Fang]]'
 - - Amateur
-  - '[[SRD-Take Down|Take Down]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Take Down|Take Down]]'
 - - Amateur
-  - '[[SRD-Sand Tomb|Sand Tomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sand Tomb|Sand Tomb]]'
 - - Amateur
-  - '[[SRD-Dual Chop|Dual Chop]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dual Chop|Dual Chop]]'
 - - Amateur
-  - '[[SRD-Slash|Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slash|Slash]]'
 - - Amateur
-  - '[[SRD-Dragon Claw|Dragon Claw]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Claw|Dragon Claw]]'
 - - Amateur
-  - '[[SRD-Dig|Dig]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dig|Dig]]'
 - - Amateur
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Dragon Rush|Dragon Rush]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Rush|Dragon Rush]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Draco Meteor|Draco Meteor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Draco Meteor|Draco Meteor]]'
 - - Pro
-  - '[[SRD-Aqua Tail|Aqua Tail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aqua Tail|Aqua Tail]]'
 - - Pro
-  - '[[SRD-Outrage|Outrage]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Outrage|Outrage]]'
 Number: 445
 ShuffleToken: SRD-garchomp-mega-form-ShuffleToken.png
 Type1: Dragon

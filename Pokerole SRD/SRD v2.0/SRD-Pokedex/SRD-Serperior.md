@@ -23,49 +23,49 @@ Image: serperior.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Vine Whip|Vine Whip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Vine Whip|Vine Whip]]'
 - - Beginner
-  - '[[SRD-Wrap|Wrap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wrap|Wrap]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Growth|Growth]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growth|Growth]]'
 - - Amateur
-  - '[[SRD-Leaf Tornado|Leaf Tornado]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leaf Tornado|Leaf Tornado]]'
 - - Amateur
-  - '[[SRD-Leech Seed|Leech Seed]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leech Seed|Leech Seed]]'
 - - Amateur
-  - '[[SRD-Mega Drain|Mega Drain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mega Drain|Mega Drain]]'
 - - Amateur
-  - '[[SRD-Slam|Slam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slam|Slam]]'
 - - Amateur
-  - '[[SRD-Leaf Blade|Leaf Blade]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leaf Blade|Leaf Blade]]'
 - - Amateur
-  - '[[SRD-Coil|Coil]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Coil|Coil]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Giga Drain|Giga Drain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Giga Drain|Giga Drain]]'
 - - Ace
-  - '[[SRD-Wring Out|Wring Out]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wring Out|Wring Out]]'
 - - Ace
-  - '[[SRD-Gastro Acid|Gastro Acid]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gastro Acid|Gastro Acid]]'
 - - Ace
-  - '[[SRD-Leaf Storm|Leaf Storm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leaf Storm|Leaf Storm]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Grass Pledge|Grass Pledge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Grass Pledge|Grass Pledge]]'
 - - Pro
-  - '[[SRD-Synthesis|Synthesis]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Synthesis|Synthesis]]'
 - - Pro
-  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Pulse|Dragon Pulse]]'
 Number: 497
 ShuffleToken: SRD-serperior-ShuffleToken.png
 Type1: Grass

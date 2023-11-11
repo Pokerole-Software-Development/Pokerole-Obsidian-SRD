@@ -23,47 +23,47 @@ Image: mudbray.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Mud Slap|Mud Slap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Slap|Mud Slap]]'
 - - Starter
-  - '[[SRD-Mud Sport|Mud Sport]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Sport|Mud Sport]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Rototiller|Rototiller]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rototiller|Rototiller]]'
 - - Beginner
-  - '[[SRD-Bulldoze|Bulldoze]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bulldoze|Bulldoze]]'
 - - Beginner
-  - '[[SRD-Double Kick|Double Kick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Kick|Double Kick]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Stomp|Stomp]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stomp|Stomp]]'
 - - Amateur
-  - '[[SRD-Bide|Bide]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bide|Bide]]'
 - - Amateur
-  - '[[SRD-High Horsepower|High Horsepower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-High Horsepower|High Horsepower]]'
 - - Amateur
-  - '[[SRD-Iron Defense|Iron Defense]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Defense|Iron Defense]]'
 - - Amateur
-  - '[[SRD-Heavy Slam|Heavy Slam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heavy Slam|Heavy Slam]]'
 - - Amateur
-  - '[[SRD-Counter|Counter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Counter|Counter]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Earthquake|Earthquake]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Earthquake|Earthquake]]'
 - - Ace
-  - '[[SRD-Mega Kick|Mega Kick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mega Kick|Mega Kick]]'
 - - Ace
-  - '[[SRD-Superpower|Superpower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Superpower|Superpower]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Magnitude|Magnitude]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magnitude|Magnitude]]'
 - - Pro
-  - '[[SRD-Strength|Strength]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Strength|Strength]]'
 - - Pro
-  - '[[SRD-Mud Bomb|Mud Bomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Bomb|Mud Bomb]]'
 Number: 749
 ShuffleToken: SRD-mudbray-ShuffleToken.png
 Type1: Ground

@@ -27,45 +27,45 @@ Image: charjabug.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-String Shot|String Shot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-String Shot|String Shot]]'
 - - Starter
-  - '[[SRD-Vice Grip|Vice Grip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Vice Grip|Vice Grip]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - Beginner
-  - '[[SRD-Mud Slap|Mud Slap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Slap|Mud Slap]]'
 - - Beginner
-  - '[[SRD-Bug Bite|Bug Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bug Bite|Bug Bite]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Charge|Charge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charge|Charge]]'
 - - Amateur
-  - '[[SRD-Spark|Spark]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spark|Spark]]'
 - - Amateur
-  - '[[SRD-Acrobatics|Acrobatics]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Acrobatics|Acrobatics]]'
 - - Amateur
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - Amateur
-  - '[[SRD-Dig|Dig]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dig|Dig]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-X-Scissor|X-Scissor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-X-Scissor|X-Scissor]]'
 - - Ace
-  - '[[SRD-Discharge|Discharge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Discharge|Discharge]]'
 - - Ace
-  - '[[SRD-Iron Defense|Iron Defense]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Defense|Iron Defense]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Endure|Endure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endure|Endure]]'
 - - Pro
-  - '[[SRD-Charge Beam|Charge Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charge Beam|Charge Beam]]'
 - - Pro
-  - '[[SRD-Electroweb|Electroweb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Electroweb|Electroweb]]'
 Number: 737
 ShuffleToken: SRD-charjabug-ShuffleToken.png
 Type1: Bug

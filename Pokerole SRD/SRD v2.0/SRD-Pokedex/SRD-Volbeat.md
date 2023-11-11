@@ -19,51 +19,51 @@ Image: volbeat.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Flash|Flash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flash|Flash]]'
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Double Team|Double Team]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Team|Double Team]]'
 - - Beginner
-  - '[[SRD-Confuse Ray|Confuse Ray]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Confuse Ray|Confuse Ray]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Moonlight|Moonlight]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Moonlight|Moonlight]]'
 - - Amateur
-  - '[[SRD-Struggle Bug|Struggle Bug]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Struggle Bug|Struggle Bug]]'
 - - Amateur
-  - '[[SRD-Quick Attack|Quick Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quick Attack|Quick Attack]]'
 - - Amateur
-  - '[[SRD-Tail Glow|Tail Glow]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tail Glow|Tail Glow]]'
 - - Amateur
-  - '[[SRD-Signal Beam|Signal Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Signal Beam|Signal Beam]]'
 - - Amateur
-  - '[[SRD-Protect|Protect]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Protect|Protect]]'
 - - Amateur
-  - '[[SRD-Helping Hand|Helping Hand]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Helping Hand|Helping Hand]]'
 - - Amateur
-  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Zen Headbutt|Zen Headbutt]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Bug Buzz|Bug Buzz]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bug Buzz|Bug Buzz]]'
 - - Ace
-  - '[[SRD-Play Rough|Play Rough]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Play Rough|Play Rough]]'
 - - Ace
-  - '[[SRD-Double-Edge|Double-Edge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double-Edge|Double-Edge]]'
 - - Ace
-  - '[[SRD-Infestation|Infestation]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Infestation|Infestation]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Dizzy Punch|Dizzy Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dizzy Punch|Dizzy Punch]]'
 - - Pro
-  - '[[SRD-Tailwind|Tailwind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tailwind|Tailwind]]'
 - - Pro
-  - '[[SRD-Silver Wind|Silver Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Silver Wind|Silver Wind]]'
 Number: 313
 ShuffleToken: SRD-volbeat-ShuffleToken.png
 Type1: Bug

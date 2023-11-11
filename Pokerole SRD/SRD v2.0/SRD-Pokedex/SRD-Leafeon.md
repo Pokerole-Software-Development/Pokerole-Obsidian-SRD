@@ -23,47 +23,47 @@ Image: leafeon.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - Starter
-  - '[[SRD-Tail Whip|Tail Whip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tail Whip|Tail Whip]]'
 - - Starter
-  - '[[SRD-Helping Hand|Helping Hand]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Helping Hand|Helping Hand]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Sand Attack|Sand Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sand Attack|Sand Attack]]'
 - - Beginner
-  - '[[SRD-Razor Leaf|Razor Leaf]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Razor Leaf|Razor Leaf]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Quick Attack|Quick Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quick Attack|Quick Attack]]'
 - - Amateur
-  - '[[SRD-Grass Whistle|Grass Whistle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Grass Whistle|Grass Whistle]]'
 - - Amateur
-  - '[[SRD-Magical Leaf|Magical Leaf]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magical Leaf|Magical Leaf]]'
 - - Amateur
-  - '[[SRD-Giga Drain|Giga Drain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Giga Drain|Giga Drain]]'
 - - Amateur
-  - '[[SRD-Swords Dance|Swords Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swords Dance|Swords Dance]]'
 - - Amateur
-  - '[[SRD-Synthesis|Synthesis]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Synthesis|Synthesis]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Sunny Day|Sunny Day]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sunny Day|Sunny Day]]'
 - - Ace
-  - '[[SRD-Last Resort|Last Resort]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Last Resort|Last Resort]]'
 - - Ace
-  - '[[SRD-Leaf Blade|Leaf Blade]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leaf Blade|Leaf Blade]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Wish|Wish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wish|Wish]]'
 - - Pro
-  - '[[SRD-Seed Bomb|Seed Bomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Seed Bomb|Seed Bomb]]'
 - - Pro
-  - '[[SRD-Flail|Flail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flail|Flail]]'
 Number: 470
 ShuffleToken: SRD-leafeon-ShuffleToken.png
 Type1: Grass

@@ -22,41 +22,41 @@ Image: deoxys-attack-form.png
 Legendary: 'Yes'
 Moves:
 - - Master
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - Master
-  - '[[SRD-Wrap|Wrap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wrap|Wrap]]'
 - - Master
-  - '[[SRD-Night Shade|Night Shade]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Night Shade|Night Shade]]'
 - - Master
-  - '[[SRD-Teleport|Teleport]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Teleport|Teleport]]'
 - - Master
-  - '[[SRD-Taunt|Taunt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Taunt|Taunt]]'
 - - Master
-  - '[[SRD-Pursuit|Pursuit]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pursuit|Pursuit]]'
 - - Master
-  - '[[SRD-Psychic|Psychic]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psychic|Psychic]]'
 - - Master
-  - '[[SRD-Superpower|Superpower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Superpower|Superpower]]'
 - - Master
-  - '[[SRD-Psycho Shift|Psycho Shift]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psycho Shift|Psycho Shift]]'
 - - Master
-  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Zen Headbutt|Zen Headbutt]]'
 - - Master
-  - '[[SRD-Cosmic Power|Cosmic Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Cosmic Power|Cosmic Power]]'
 - - Master
-  - '[[SRD-Zap Cannon|Zap Cannon]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Zap Cannon|Zap Cannon]]'
 - - Master
-  - '[[SRD-Psycho Boost|Psycho Boost]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psycho Boost|Psycho Boost]]'
 - - Master
-  - '[[SRD-Hyper Beam|Hyper Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hyper Beam|Hyper Beam]]'
 - - Master
-  - '[[SRD-Toxic|Toxic]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Toxic|Toxic]]'
 - - Master
-  - '[[SRD-Laser Focus|Laser Focus]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Laser Focus|Laser Focus]]'
 - - Master
-  - '[[SRD-Bind|Bind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bind|Bind]]'
 - - Master
-  - '[[SRD-Signal Beam|Signal Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Signal Beam|Signal Beam]]'
 Number: 386
 ShuffleToken: SRD-deoxys-attack-form-ShuffleToken.png
 Type1: Psychic

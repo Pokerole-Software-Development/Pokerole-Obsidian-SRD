@@ -23,57 +23,57 @@ Image: incineroar.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Ember|Ember]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ember|Ember]]'
 - - Starter
-  - '[[SRD-Scratch|Scratch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scratch|Scratch]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Lick|Lick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lick|Lick]]'
 - - Beginner
-  - '[[SRD-Growl|Growl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growl|Growl]]'
 - - Beginner
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Throat Chop|Throat Chop]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Throat Chop|Throat Chop]]'
 - - Amateur
-  - '[[SRD-Darkest Lariat|Darkest Lariat]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Darkest Lariat|Darkest Lariat]]'
 - - Amateur
-  - '[[SRD-Bulk Up|Bulk Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bulk Up|Bulk Up]]'
 - - Amateur
-  - '[[SRD-Fire Fang|Fire Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Fang|Fire Fang]]'
 - - Amateur
-  - '[[SRD-Roar|Roar]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Roar|Roar]]'
 - - Amateur
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - Amateur
-  - '[[SRD-Swagger|Swagger]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swagger|Swagger]]'
 - - Amateur
-  - '[[SRD-Fury Swipes|Fury Swipes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Swipes|Fury Swipes]]'
 - - Amateur
-  - '[[SRD-Flamethrower|Flamethrower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flamethrower|Flamethrower]]'
 - - Amateur
-  - '[[SRD-Thrash|Thrash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thrash|Thrash]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Scary Face|Scary Face]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scary Face|Scary Face]]'
 - - Ace
-  - '[[SRD-Flare Blitz|Flare Blitz]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flare Blitz|Flare Blitz]]'
 - - Ace
-  - '[[SRD-Outrage|Outrage]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Outrage|Outrage]]'
 - - Ace
-  - '[[SRD-Cross Chop|Cross Chop]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Cross Chop|Cross Chop]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Revenge|Revenge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Revenge|Revenge]]'
 - - Pro
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - Pro
-  - '[[SRD-Blast Burn|Blast Burn]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Blast Burn|Blast Burn]]'
 Number: 727
 ShuffleToken: SRD-incineroar-ShuffleToken.png
 Type1: Fire

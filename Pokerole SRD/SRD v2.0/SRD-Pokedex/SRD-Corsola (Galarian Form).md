@@ -23,45 +23,45 @@ Image: corsola-galarian-form.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - Starter
-  - '[[SRD-Harden|Harden]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Harden|Harden]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Astonish|Astonish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Astonish|Astonish]]'
 - - Beginner
-  - '[[SRD-Disable|Disable]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Disable|Disable]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Spite|Spite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spite|Spite]]'
 - - Amateur
-  - '[[SRD-Ancient Power|Ancient Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ancient Power|Ancient Power]]'
 - - Amateur
-  - '[[SRD-Hex|Hex]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hex|Hex]]'
 - - Amateur
-  - '[[SRD-Curse|Curse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Curse|Curse]]'
 - - Amateur
-  - '[[SRD-Strength Sap|Strength Sap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Strength Sap|Strength Sap]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Power Gem|Power Gem]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Power Gem|Power Gem]]'
 - - Ace
-  - '[[SRD-Night Shade|Night Shade]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Night Shade|Night Shade]]'
 - - Ace
-  - '[[SRD-Grudge|Grudge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Grudge|Grudge]]'
 - - Ace
-  - '[[SRD-Mirror Coat|Mirror Coat]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mirror Coat|Mirror Coat]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Water Pulse|Water Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Pulse|Water Pulse]]'
 - - Pro
-  - '[[SRD-Head Smash|Head Smash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Head Smash|Head Smash]]'
 - - Pro
-  - '[[SRD-Destiny Bond|Destiny Bond]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Destiny Bond|Destiny Bond]]'
 Number: 222
 ShuffleToken: SRD-corsola-galarian-form-ShuffleToken.png
 Type1: Ghost

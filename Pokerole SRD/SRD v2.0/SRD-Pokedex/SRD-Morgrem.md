@@ -27,47 +27,47 @@ Image: morgrem.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Fake Out|Fake Out]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fake Out|Fake Out]]'
 - - Starter
-  - '[[SRD-Confide|Confide]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Confide|Confide]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - Beginner
-  - '[[SRD-Flatter|Flatter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flatter|Flatter]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Fake Tears|Fake Tears]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fake Tears|Fake Tears]]'
 - - Amateur
-  - '[[SRD-Assurance|Assurance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Assurance|Assurance]]'
 - - Amateur
-  - '[[SRD-Swagger|Swagger]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swagger|Swagger]]'
 - - Amateur
-  - '[[SRD-Sucker Punch|Sucker Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sucker Punch|Sucker Punch]]'
 - - Amateur
-  - '[[SRD-Torment|Torment]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Torment|Torment]]'
 - - Amateur
-  - '[[SRD-False Surrender|False Surrender]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-False Surrender|False Surrender]]'
 - - Amateur
-  - '[[SRD-Dark Pulse|Dark Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dark Pulse|Dark Pulse]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Nasty Plot|Nasty Plot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nasty Plot|Nasty Plot]]'
 - - Ace
-  - '[[SRD-Foul Play|Foul Play]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Foul Play|Foul Play]]'
 - - Ace
-  - '[[SRD-Play Rough|Play Rough]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Play Rough|Play Rough]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Leech Life|Leech Life]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leech Life|Leech Life]]'
 - - Pro
-  - '[[SRD-Metronome|Metronome]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Metronome|Metronome]]'
 - - Pro
-  - '[[SRD-Trick|Trick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Trick|Trick]]'
 Number: 860
 ShuffleToken: SRD-morgrem-ShuffleToken.png
 Type1: Dark

@@ -19,49 +19,49 @@ Image: guzzlord.png
 Legendary: 'Yes'
 Moves:
 - - Master
-  - '[[SRD-Belch|Belch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Belch|Belch]]'
 - - Master
-  - '[[SRD-Wide Guard|Wide Guard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wide Guard|Wide Guard]]'
 - - Master
-  - '[[SRD-Swallow|Swallow]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swallow|Swallow]]'
 - - Master
-  - '[[SRD-Stockpile|Stockpile]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stockpile|Stockpile]]'
 - - Master
-  - '[[SRD-Dragon Rage|Dragon Rage]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Rage|Dragon Rage]]'
 - - Master
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - Master
-  - '[[SRD-Stomp|Stomp]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stomp|Stomp]]'
 - - Master
-  - '[[SRD-Brutal Swing|Brutal Swing]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Brutal Swing|Brutal Swing]]'
 - - Master
-  - '[[SRD-Steamroller|Steamroller]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Steamroller|Steamroller]]'
 - - Master
-  - '[[SRD-Dragon Tail|Dragon Tail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Tail|Dragon Tail]]'
 - - Master
-  - '[[SRD-Iron Tail|Iron Tail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Tail|Iron Tail]]'
 - - Master
-  - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stomping Tantrum|Stomping Tantrum]]'
 - - Master
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - Master
-  - '[[SRD-Hammer Arm|Hammer Arm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hammer Arm|Hammer Arm]]'
 - - Master
-  - '[[SRD-Thrash|Thrash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thrash|Thrash]]'
 - - Master
-  - '[[SRD-Gastro Acid|Gastro Acid]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gastro Acid|Gastro Acid]]'
 - - Master
-  - '[[SRD-Heavy Slam|Heavy Slam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heavy Slam|Heavy Slam]]'
 - - Master
-  - '[[SRD-Wring Out|Wring Out]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wring Out|Wring Out]]'
 - - Master
-  - '[[SRD-Dragon Rush|Dragon Rush]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Rush|Dragon Rush]]'
 - - Master
-  - '[[SRD-Outrage|Outrage]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Outrage|Outrage]]'
 - - Master
-  - '[[SRD-Heat Wave|Heat Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heat Wave|Heat Wave]]'
 - - Master
-  - '[[SRD-Draco Meteor|Draco Meteor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Draco Meteor|Draco Meteor]]'
 Number: 799
 ShuffleToken: SRD-guzzlord-ShuffleToken.png
 Type1: Dark

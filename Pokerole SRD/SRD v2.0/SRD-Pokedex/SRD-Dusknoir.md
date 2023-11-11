@@ -23,61 +23,61 @@ Image: dusknoir.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Bind|Bind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bind|Bind]]'
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Night Shade|Night Shade]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Night Shade|Night Shade]]'
 - - Beginner
-  - '[[SRD-Disable|Disable]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Disable|Disable]]'
 - - Beginner
-  - '[[SRD-Foresight|Foresight]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Foresight|Foresight]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Shadow Punch|Shadow Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shadow Punch|Shadow Punch]]'
 - - Amateur
-  - '[[SRD-Fire Punch|Fire Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Punch|Fire Punch]]'
 - - Amateur
-  - '[[SRD-Ice Punch|Ice Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Punch|Ice Punch]]'
 - - Amateur
-  - '[[SRD-Thunder Punch|Thunder Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Punch|Thunder Punch]]'
 - - Amateur
-  - '[[SRD-Astonish|Astonish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Astonish|Astonish]]'
 - - Amateur
-  - '[[SRD-Confuse Ray|Confuse Ray]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Confuse Ray|Confuse Ray]]'
 - - Amateur
-  - '[[SRD-Shadow Sneak|Shadow Sneak]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shadow Sneak|Shadow Sneak]]'
 - - Amateur
-  - '[[SRD-Pursuit|Pursuit]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pursuit|Pursuit]]'
 - - Amateur
-  - '[[SRD-Curse|Curse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Curse|Curse]]'
 - - Amateur
-  - '[[SRD-Will-O-Wisp|Will-O-Wisp]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Will-O-Wisp|Will-O-Wisp]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Gravity|Gravity]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gravity|Gravity]]'
 - - Ace
-  - '[[SRD-Hex|Hex]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hex|Hex]]'
 - - Ace
-  - '[[SRD-Shadow Ball|Shadow Ball]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shadow Ball|Shadow Ball]]'
 - - Ace
-  - '[[SRD-Mean Look|Mean Look]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mean Look|Mean Look]]'
 - - Ace
-  - '[[SRD-Payback|Payback]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Payback|Payback]]'
 - - Ace
-  - '[[SRD-Future Sight|Future Sight]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Future Sight|Future Sight]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Imprison|Imprison]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Imprison|Imprison]]'
 - - Pro
-  - '[[SRD-Ominous Wind|Ominous Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ominous Wind|Ominous Wind]]'
 - - Pro
-  - '[[SRD-Sucker Punch|Sucker Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sucker Punch|Sucker Punch]]'
 Number: 477
 ShuffleToken: SRD-dusknoir-ShuffleToken.png
 Type1: Ghost

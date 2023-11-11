@@ -23,47 +23,47 @@ Image: hippowdon.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Sand Attack|Sand Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sand Attack|Sand Attack]]'
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Yawn|Yawn]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Yawn|Yawn]]'
 - - Beginner
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Ice Fang|Ice Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Fang|Ice Fang]]'
 - - Amateur
-  - '[[SRD-Fire Fang|Fire Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Fang|Fire Fang]]'
 - - Amateur
-  - '[[SRD-Thunder Fang|Thunder Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Fang|Thunder Fang]]'
 - - Amateur
-  - '[[SRD-Take Down|Take Down]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Take Down|Take Down]]'
 - - Amateur
-  - '[[SRD-Dig|Dig]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dig|Dig]]'
 - - Amateur
-  - '[[SRD-Sand Tomb|Sand Tomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sand Tomb|Sand Tomb]]'
 - - Amateur
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Earthquake|Earthquake]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Earthquake|Earthquake]]'
 - - Ace
-  - '[[SRD-Double-Edge|Double-Edge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double-Edge|Double-Edge]]'
 - - Ace
-  - '[[SRD-Fissure|Fissure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fissure|Fissure]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Slack Off|Slack Off]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slack Off|Slack Off]]'
 - - Pro
-  - '[[SRD-Iron Head|Iron Head]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Head|Iron Head]]'
 - - Pro
-  - '[[SRD-Revenge|Revenge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Revenge|Revenge]]'
 Number: 450
 ShuffleToken: SRD-hippowdon-ShuffleToken.png
 Type1: Ground

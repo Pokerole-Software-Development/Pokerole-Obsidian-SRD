@@ -23,51 +23,51 @@ Image: houndour.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Ember|Ember]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ember|Ember]]'
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Howl|Howl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Howl|Howl]]'
 - - Beginner
-  - '[[SRD-Smog|Smog]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Smog|Smog]]'
 - - Beginner
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Roar|Roar]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Roar|Roar]]'
 - - Amateur
-  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Odor Sleuth|Odor Sleuth]]'
 - - Amateur
-  - '[[SRD-Beat Up|Beat Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Beat Up|Beat Up]]'
 - - Amateur
-  - '[[SRD-Fire Fang|Fire Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Fang|Fire Fang]]'
 - - Amateur
-  - '[[SRD-Feint Attack|Feint Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feint Attack|Feint Attack]]'
 - - Amateur
-  - '[[SRD-Embargo|Embargo]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Embargo|Embargo]]'
 - - Amateur
-  - '[[SRD-Flamethrower|Flamethrower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flamethrower|Flamethrower]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Foul Play|Foul Play]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Foul Play|Foul Play]]'
 - - Ace
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - Ace
-  - '[[SRD-Nasty Plot|Nasty Plot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nasty Plot|Nasty Plot]]'
 - - Ace
-  - '[[SRD-Inferno|Inferno]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Inferno|Inferno]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Super Fang|Super Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Super Fang|Super Fang]]'
 - - Pro
-  - '[[SRD-Reversal|Reversal]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Reversal|Reversal]]'
 - - Pro
-  - '[[SRD-Feint|Feint]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feint|Feint]]'
 Number: 228
 ShuffleToken: SRD-houndour-ShuffleToken.png
 Type1: Dark

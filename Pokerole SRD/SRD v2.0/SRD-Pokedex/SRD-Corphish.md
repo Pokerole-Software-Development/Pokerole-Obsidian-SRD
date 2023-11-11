@@ -23,49 +23,49 @@ Image: corphish.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Bubble|Bubble]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bubble|Bubble]]'
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Vice Grip|Vice Grip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Vice Grip|Vice Grip]]'
 - - Beginner
-  - '[[SRD-Harden|Harden]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Harden|Harden]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Bubble Beam|Bubble Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bubble Beam|Bubble Beam]]'
 - - Amateur
-  - '[[SRD-Protect|Protect]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Protect|Protect]]'
 - - Amateur
-  - '[[SRD-Double Hit|Double Hit]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Hit|Double Hit]]'
 - - Amateur
-  - '[[SRD-Knock Off|Knock Off]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Knock Off|Knock Off]]'
 - - Amateur
-  - '[[SRD-Taunt|Taunt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Taunt|Taunt]]'
 - - Amateur
-  - '[[SRD-Night Slash|Night Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Night Slash|Night Slash]]'
 - - Amateur
-  - '[[SRD-Crabhammer|Crabhammer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crabhammer|Crabhammer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Razor Shell|Razor Shell]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Razor Shell|Razor Shell]]'
 - - Ace
-  - '[[SRD-Swords Dance|Swords Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swords Dance|Swords Dance]]'
 - - Ace
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - Ace
-  - '[[SRD-Guillotine|Guillotine]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Guillotine|Guillotine]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Metal Claw|Metal Claw]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Metal Claw|Metal Claw]]'
 - - Pro
-  - '[[SRD-Endeavor|Endeavor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endeavor|Endeavor]]'
 - - Pro
-  - '[[SRD-Chip Away|Chip Away]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Chip Away|Chip Away]]'
 Number: 341
 ShuffleToken: SRD-corphish-ShuffleToken.png
 Type1: Water

@@ -23,37 +23,37 @@ Image: sewaddle.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - Starter
-  - '[[SRD-String Shot|String Shot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-String Shot|String Shot]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Bug Bite|Bug Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bug Bite|Bug Bite]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Razor Leaf|Razor Leaf]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Razor Leaf|Razor Leaf]]'
 - - Amateur
-  - '[[SRD-Struggle Bug|Struggle Bug]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Struggle Bug|Struggle Bug]]'
 - - Amateur
-  - '[[SRD-Endure|Endure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endure|Endure]]'
 - - Amateur
-  - '[[SRD-Sticky Web|Sticky Web]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sticky Web|Sticky Web]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Bug Buzz|Bug Buzz]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bug Buzz|Bug Buzz]]'
 - - Ace
-  - '[[SRD-Flail|Flail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flail|Flail]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Baton Pass|Baton Pass]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Baton Pass|Baton Pass]]'
 - - Pro
-  - '[[SRD-Camouflage|Camouflage]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Camouflage|Camouflage]]'
 - - Pro
-  - '[[SRD-Silver Wind|Silver Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Silver Wind|Silver Wind]]'
 Number: 540
 ShuffleToken: SRD-sewaddle-ShuffleToken.png
 Type1: Bug

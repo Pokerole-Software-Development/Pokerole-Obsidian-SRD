@@ -27,49 +27,49 @@ Image: vanillish.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Icicle Spear|Icicle Spear]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Icicle Spear|Icicle Spear]]'
 - - Starter
-  - '[[SRD-Harden|Harden]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Harden|Harden]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Astonish|Astonish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Astonish|Astonish]]'
 - - Beginner
-  - '[[SRD-Uproar|Uproar]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Uproar|Uproar]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Icy Wind|Icy Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Icy Wind|Icy Wind]]'
 - - Amateur
-  - '[[SRD-Mist|Mist]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mist|Mist]]'
 - - Amateur
-  - '[[SRD-Avalanche|Avalanche]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Avalanche|Avalanche]]'
 - - Amateur
-  - '[[SRD-Taunt|Taunt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Taunt|Taunt]]'
 - - Amateur
-  - '[[SRD-Mirror Shot|Mirror Shot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mirror Shot|Mirror Shot]]'
 - - Amateur
-  - '[[SRD-Acid Armor|Acid Armor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Acid Armor|Acid Armor]]'
 - - Amateur
-  - '[[SRD-Ice Beam|Ice Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Beam|Ice Beam]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Hail|Hail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hail|Hail]]'
 - - Ace
-  - '[[SRD-Mirror Coat|Mirror Coat]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mirror Coat|Mirror Coat]]'
 - - Ace
-  - '[[SRD-Blizzard|Blizzard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Blizzard|Blizzard]]'
 - - Ace
-  - '[[SRD-Sheer Cold|Sheer Cold]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sheer Cold|Sheer Cold]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Ice Shard|Ice Shard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Shard|Ice Shard]]'
 - - Pro
-  - '[[SRD-Autotomize|Autotomize]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Autotomize|Autotomize]]'
 - - Pro
-  - '[[SRD-Water Pulse|Water Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Pulse|Water Pulse]]'
 Number: 583
 ShuffleToken: SRD-vanillish-ShuffleToken.png
 Type1: Ice

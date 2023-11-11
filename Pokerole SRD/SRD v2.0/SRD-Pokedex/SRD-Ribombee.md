@@ -23,43 +23,43 @@ Image: ribombee.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Absorb|Absorb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Absorb|Absorb]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Struggle Bug|Struggle Bug]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Struggle Bug|Struggle Bug]]'
 - - Beginner
-  - '[[SRD-Fairy Wind|Fairy Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fairy Wind|Fairy Wind]]'
 - - Beginner
-  - '[[SRD-Stun Spore|Stun Spore]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stun Spore|Stun Spore]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Pollen Puff|Pollen Puff]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pollen Puff|Pollen Puff]]'
 - - Amateur
-  - '[[SRD-Silver Wind|Silver Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Silver Wind|Silver Wind]]'
 - - Amateur
-  - '[[SRD-Draining Kiss|Draining Kiss]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Draining Kiss|Draining Kiss]]'
 - - Amateur
-  - '[[SRD-Sweet Scent|Sweet Scent]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sweet Scent|Sweet Scent]]'
 - - Amateur
-  - '[[SRD-Bug Buzz|Bug Buzz]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bug Buzz|Bug Buzz]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Dazzling Gleam|Dazzling Gleam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dazzling Gleam|Dazzling Gleam]]'
 - - Ace
-  - '[[SRD-Aromatherapy|Aromatherapy]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aromatherapy|Aromatherapy]]'
 - - Ace
-  - '[[SRD-Quiver Dance|Quiver Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quiver Dance|Quiver Dance]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Moonblast|Moonblast]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Moonblast|Moonblast]]'
 - - Pro
-  - '[[SRD-Infestation|Infestation]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Infestation|Infestation]]'
 - - Pro
-  - '[[SRD-Skill Swap|Skill Swap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Skill Swap|Skill Swap]]'
 Number: 743
 ShuffleToken: SRD-ribombee-ShuffleToken.png
 Type1: Bug

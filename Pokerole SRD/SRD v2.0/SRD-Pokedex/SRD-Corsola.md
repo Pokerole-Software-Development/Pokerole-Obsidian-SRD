@@ -19,55 +19,55 @@ Image: corsola.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Harden|Harden]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Harden|Harden]]'
 - - Beginner
-  - '[[SRD-Bubble|Bubble]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bubble|Bubble]]'
 - - Beginner
-  - '[[SRD-Recover|Recover]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Recover|Recover]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Refresh|Refresh]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Refresh|Refresh]]'
 - - Amateur
-  - '[[SRD-Bubble Beam|Bubble Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bubble Beam|Bubble Beam]]'
 - - Amateur
-  - '[[SRD-Ancient Power|Ancient Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ancient Power|Ancient Power]]'
 - - Amateur
-  - '[[SRD-Lucky Chant|Lucky Chant]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lucky Chant|Lucky Chant]]'
 - - Amateur
-  - '[[SRD-Spike Cannon|Spike Cannon]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spike Cannon|Spike Cannon]]'
 - - Amateur
-  - '[[SRD-Brine|Brine]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Brine|Brine]]'
 - - Amateur
-  - '[[SRD-Iron Defense|Iron Defense]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Defense|Iron Defense]]'
 - - Amateur
-  - '[[SRD-Rock Blast|Rock Blast]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Blast|Rock Blast]]'
 - - Amateur
-  - '[[SRD-Endure|Endure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endure|Endure]]'
 - - Amateur
-  - '[[SRD-Power Gem|Power Gem]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Power Gem|Power Gem]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Aqua Ring|Aqua Ring]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aqua Ring|Aqua Ring]]'
 - - Ace
-  - '[[SRD-Mirror Coat|Mirror Coat]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mirror Coat|Mirror Coat]]'
 - - Ace
-  - '[[SRD-Earth Power|Earth Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Earth Power|Earth Power]]'
 - - Ace
-  - '[[SRD-Flail|Flail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flail|Flail]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Head Smash|Head Smash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Head Smash|Head Smash]]'
 - - Pro
-  - '[[SRD-Screech|Screech]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Screech|Screech]]'
 - - Pro
-  - '[[SRD-Whirlpool|Whirlpool]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Whirlpool|Whirlpool]]'
 Number: 222
 ShuffleToken: SRD-corsola-ShuffleToken.png
 Type1: Water

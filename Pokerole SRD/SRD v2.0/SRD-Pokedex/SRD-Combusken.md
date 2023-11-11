@@ -27,47 +27,47 @@ Image: combusken.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Growl|Growl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growl|Growl]]'
 - - Starter
-  - '[[SRD-Scratch|Scratch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scratch|Scratch]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Ember|Ember]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ember|Ember]]'
 - - Beginner
-  - '[[SRD-Focus Energy|Focus Energy]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Focus Energy|Focus Energy]]'
 - - Beginner
-  - '[[SRD-Double Kick|Double Kick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Kick|Double Kick]]'
 - - Beginner
-  - '[[SRD-Peck|Peck]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Peck|Peck]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Flame Charge|Flame Charge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flame Charge|Flame Charge]]'
 - - Amateur
-  - '[[SRD-Sand Attack|Sand Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sand Attack|Sand Attack]]'
 - - Amateur
-  - '[[SRD-Bulk Up|Bulk Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bulk Up|Bulk Up]]'
 - - Amateur
-  - '[[SRD-Quick Attack|Quick Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quick Attack|Quick Attack]]'
 - - Amateur
-  - '[[SRD-Slash|Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slash|Slash]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Mirror Move|Mirror Move]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mirror Move|Mirror Move]]'
 - - Ace
-  - '[[SRD-Sky Uppercut|Sky Uppercut]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sky Uppercut|Sky Uppercut]]'
 - - Ace
-  - '[[SRD-Flare Blitz|Flare Blitz]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flare Blitz|Flare Blitz]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Counter|Counter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Counter|Counter]]'
 - - Pro
-  - '[[SRD-Feather Dance|Feather Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feather Dance|Feather Dance]]'
 - - Pro
-  - '[[SRD-Fire Pledge|Fire Pledge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Pledge|Fire Pledge]]'
 Number: 256
 ShuffleToken: SRD-combusken-ShuffleToken.png
 Type1: Fire

@@ -23,49 +23,49 @@ Image: litleo.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Ember|Ember]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ember|Ember]]'
 - - Beginner
-  - '[[SRD-Work Up|Work Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Work Up|Work Up]]'
 - - Beginner
-  - '[[SRD-Take Down|Take Down]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Take Down|Take Down]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Noble Roar|Noble Roar]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Noble Roar|Noble Roar]]'
 - - Amateur
-  - '[[SRD-Headbutt|Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Headbutt|Headbutt]]'
 - - Amateur
-  - '[[SRD-Fire Fang|Fire Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Fang|Fire Fang]]'
 - - Amateur
-  - '[[SRD-Endeavor|Endeavor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endeavor|Endeavor]]'
 - - Amateur
-  - '[[SRD-Echoed Voice|Echoed Voice]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Echoed Voice|Echoed Voice]]'
 - - Amateur
-  - '[[SRD-Flamethrower|Flamethrower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flamethrower|Flamethrower]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - Ace
-  - '[[SRD-Hyper Voice|Hyper Voice]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hyper Voice|Hyper Voice]]'
 - - Ace
-  - '[[SRD-Incinerate|Incinerate]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Incinerate|Incinerate]]'
 - - Ace
-  - '[[SRD-Overheat|Overheat]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Overheat|Overheat]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Heat Wave|Heat Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heat Wave|Heat Wave]]'
 - - Pro
-  - '[[SRD-Helping Hand|Helping Hand]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Helping Hand|Helping Hand]]'
 - - Pro
-  - '[[SRD-Endure|Endure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endure|Endure]]'
 Number: 667
 ShuffleToken: SRD-litleo-ShuffleToken.png
 Type1: Fire

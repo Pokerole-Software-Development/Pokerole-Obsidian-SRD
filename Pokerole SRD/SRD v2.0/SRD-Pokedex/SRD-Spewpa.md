@@ -27,17 +27,17 @@ Image: spewpa.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Harden|Harden]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Harden|Harden]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Protect|Protect]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Protect|Protect]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Iron Defense|Iron Defense]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Defense|Iron Defense]]'
 - - Pro
-  - '[[SRD-Electroweb|Electroweb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Electroweb|Electroweb]]'
 Number: 665
 ShuffleToken: SRD-spewpa-ShuffleToken.png
 Type1: Bug

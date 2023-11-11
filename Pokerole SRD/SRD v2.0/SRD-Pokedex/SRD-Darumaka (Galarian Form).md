@@ -23,47 +23,47 @@ Image: darumaka-galarian-form.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - Starter
-  - '[[SRD-Taunt|Taunt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Taunt|Taunt]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - Beginner
-  - '[[SRD-Powder Snow|Powder Snow]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Powder Snow|Powder Snow]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Avalanche|Avalanche]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Avalanche|Avalanche]]'
 - - Amateur
-  - '[[SRD-Work Up|Work Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Work Up|Work Up]]'
 - - Amateur
-  - '[[SRD-Ice Fang|Ice Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Fang|Ice Fang]]'
 - - Amateur
-  - '[[SRD-Headbutt|Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Headbutt|Headbutt]]'
 - - Amateur
-  - '[[SRD-Ice Punch|Ice Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Punch|Ice Punch]]'
 - - Amateur
-  - '[[SRD-Uproar|Uproar]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Uproar|Uproar]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Belly Drum|Belly Drum]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Belly Drum|Belly Drum]]'
 - - Ace
-  - '[[SRD-Blizzard|Blizzard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Blizzard|Blizzard]]'
 - - Ace
-  - '[[SRD-Thrash|Thrash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thrash|Thrash]]'
 - - Ace
-  - '[[SRD-Superpower|Superpower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Superpower|Superpower]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Fling|Fling]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fling|Fling]]'
 - - Pro
-  - '[[SRD-Substitute|Substitute]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Substitute|Substitute]]'
 - - Pro
-  - '[[SRD-Heat Wave|Heat Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heat Wave|Heat Wave]]'
 Number: 554
 ShuffleToken: SRD-darumaka-galarian-form-ShuffleToken.png
 Type1: Ice

@@ -23,45 +23,45 @@ Image: rampardos.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Focus Energy|Focus Energy]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Focus Energy|Focus Energy]]'
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Take Down|Take Down]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Take Down|Take Down]]'
 - - Beginner
-  - '[[SRD-Pursuit|Pursuit]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pursuit|Pursuit]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Headbutt|Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Headbutt|Headbutt]]'
 - - Amateur
-  - '[[SRD-Scary Face|Scary Face]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scary Face|Scary Face]]'
 - - Amateur
-  - '[[SRD-Assurance|Assurance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Assurance|Assurance]]'
 - - Amateur
-  - '[[SRD-Chip Away|Chip Away]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Chip Away|Chip Away]]'
 - - Amateur
-  - '[[SRD-Endeavor|Endeavor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endeavor|Endeavor]]'
 - - Amateur
-  - '[[SRD-Ancient Power|Ancient Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ancient Power|Ancient Power]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Zen Headbutt|Zen Headbutt]]'
 - - Ace
-  - '[[SRD-Screech|Screech]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Screech|Screech]]'
 - - Ace
-  - '[[SRD-Head Smash|Head Smash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Head Smash|Head Smash]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Superpower|Superpower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Superpower|Superpower]]'
 - - Pro
-  - '[[SRD-Iron Head|Iron Head]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Head|Iron Head]]'
 - - Pro
-  - '[[SRD-Outrage|Outrage]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Outrage|Outrage]]'
 Number: 409
 ShuffleToken: SRD-rampardos-ShuffleToken.png
 Type1: Rock

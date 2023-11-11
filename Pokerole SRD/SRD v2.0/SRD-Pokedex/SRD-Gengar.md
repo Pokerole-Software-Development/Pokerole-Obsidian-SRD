@@ -26,51 +26,51 @@ Image: gengar.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Spite|Spite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spite|Spite]]'
 - - Starter
-  - '[[SRD-Lick|Lick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lick|Lick]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Curse|Curse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Curse|Curse]]'
 - - Beginner
-  - '[[SRD-Mean Look|Mean Look]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mean Look|Mean Look]]'
 - - Beginner
-  - '[[SRD-Night Shade|Night Shade]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Night Shade|Night Shade]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Hypnosis|Hypnosis]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hypnosis|Hypnosis]]'
 - - Amateur
-  - '[[SRD-Confuse Ray|Confuse Ray]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Confuse Ray|Confuse Ray]]'
 - - Amateur
-  - '[[SRD-Sucker Punch|Sucker Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sucker Punch|Sucker Punch]]'
 - - Amateur
-  - '[[SRD-Shadow Punch|Shadow Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shadow Punch|Shadow Punch]]'
 - - Amateur
-  - '[[SRD-Payback|Payback]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Payback|Payback]]'
 - - Amateur
-  - '[[SRD-Shadow Ball|Shadow Ball]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shadow Ball|Shadow Ball]]'
 - - Amateur
-  - '[[SRD-Dark Pulse|Dark Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dark Pulse|Dark Pulse]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Dream Eater|Dream Eater]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dream Eater|Dream Eater]]'
 - - Ace
-  - '[[SRD-Destiny Bond|Destiny Bond]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Destiny Bond|Destiny Bond]]'
 - - Ace
-  - '[[SRD-Hex|Hex]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hex|Hex]]'
 - - Ace
-  - '[[SRD-Nightmare|Nightmare]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nightmare|Nightmare]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Perish Song|Perish Song]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Perish Song|Perish Song]]'
 - - Pro
-  - '[[SRD-Icy Wind|Icy Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Icy Wind|Icy Wind]]'
 - - Pro
-  - '[[SRD-Giga Drain|Giga Drain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Giga Drain|Giga Drain]]'
 Number: 94
 ShuffleToken: SRD-gengar-ShuffleToken.png
 Type1: Ghost

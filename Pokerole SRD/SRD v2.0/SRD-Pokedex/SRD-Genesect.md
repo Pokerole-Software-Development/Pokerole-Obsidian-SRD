@@ -19,49 +19,49 @@ Image: genesect.png
 Legendary: 'Yes'
 Moves:
 - - Master
-  - '[[SRD-Fell Stinger|Fell Stinger]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fell Stinger|Fell Stinger]]'
 - - Master
-  - '[[SRD-Techno Blast|Techno Blast]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Techno Blast|Techno Blast]]'
 - - Master
-  - '[[SRD-Quick Attack|Quick Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quick Attack|Quick Attack]]'
 - - Master
-  - '[[SRD-Magnet Rise|Magnet Rise]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magnet Rise|Magnet Rise]]'
 - - Master
-  - '[[SRD-Metal Claw|Metal Claw]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Metal Claw|Metal Claw]]'
 - - Master
-  - '[[SRD-Screech|Screech]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Screech|Screech]]'
 - - Master
-  - '[[SRD-Fury Cutter|Fury Cutter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Cutter|Fury Cutter]]'
 - - Master
-  - '[[SRD-Lock-On|Lock-On]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lock-On|Lock-On]]'
 - - Master
-  - '[[SRD-Flame Charge|Flame Charge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flame Charge|Flame Charge]]'
 - - Master
-  - '[[SRD-Magnet Bomb|Magnet Bomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magnet Bomb|Magnet Bomb]]'
 - - Master
-  - '[[SRD-Slash|Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slash|Slash]]'
 - - Master
-  - '[[SRD-Metal Sound|Metal Sound]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Metal Sound|Metal Sound]]'
 - - Master
-  - '[[SRD-Signal Beam|Signal Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Signal Beam|Signal Beam]]'
 - - Master
-  - '[[SRD-Tri Attack|Tri Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tri Attack|Tri Attack]]'
 - - Master
-  - '[[SRD-X-Scissor|X-Scissor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-X-Scissor|X-Scissor]]'
 - - Master
-  - '[[SRD-Bug Buzz|Bug Buzz]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bug Buzz|Bug Buzz]]'
 - - Master
-  - '[[SRD-Simple Beam|Simple Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Simple Beam|Simple Beam]]'
 - - Master
-  - '[[SRD-Zap Cannon|Zap Cannon]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Zap Cannon|Zap Cannon]]'
 - - Master
-  - '[[SRD-Hyper Beam|Hyper Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hyper Beam|Hyper Beam]]'
 - - Master
-  - '[[SRD-Self Destruct|Self Destruct]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Self Destruct|Self Destruct]]'
 - - Master
-  - '[[SRD-Flash Cannon|Flash Cannon]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flash Cannon|Flash Cannon]]'
 - - Master
-  - '[[SRD-Bullet Seed|Bullet Seed]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bullet Seed|Bullet Seed]]'
 Number: 649
 ShuffleToken: SRD-genesect-ShuffleToken.png
 Type1: Bug

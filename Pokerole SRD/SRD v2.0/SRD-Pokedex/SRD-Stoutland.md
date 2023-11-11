@@ -23,53 +23,53 @@ Image: stoutland.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - Beginner
-  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Odor Sleuth|Odor Sleuth]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Ice Fang|Ice Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Fang|Ice Fang]]'
 - - Amateur
-  - '[[SRD-Fire Fang|Fire Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Fang|Fire Fang]]'
 - - Amateur
-  - '[[SRD-Thunder Fang|Thunder Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Fang|Thunder Fang]]'
 - - Amateur
-  - '[[SRD-Helping Hand|Helping Hand]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Helping Hand|Helping Hand]]'
 - - Amateur
-  - '[[SRD-Take Down|Take Down]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Take Down|Take Down]]'
 - - Amateur
-  - '[[SRD-Work Up|Work Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Work Up|Work Up]]'
 - - Amateur
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - Amateur
-  - '[[SRD-Roar|Roar]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Roar|Roar]]'
 - - Amateur
-  - '[[SRD-Retaliate|Retaliate]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Retaliate|Retaliate]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Reversal|Reversal]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Reversal|Reversal]]'
 - - Ace
-  - '[[SRD-Last Resort|Last Resort]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Last Resort|Last Resort]]'
 - - Ace
-  - '[[SRD-Giga Impact|Giga Impact]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Giga Impact|Giga Impact]]'
 - - Ace
-  - '[[SRD-Play Rough|Play Rough]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Play Rough|Play Rough]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Psychic Fangs|Psychic Fangs]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psychic Fangs|Psychic Fangs]]'
 - - Pro
-  - '[[SRD-Iron Head|Iron Head]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Head|Iron Head]]'
 - - Pro
-  - '[[SRD-Superpower|Superpower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Superpower|Superpower]]'
 Number: 508
 ShuffleToken: SRD-stoutland-ShuffleToken.png
 Type1: Normal

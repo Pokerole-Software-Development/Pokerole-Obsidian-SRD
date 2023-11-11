@@ -23,49 +23,49 @@ Image: popplio.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Pound|Pound]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pound|Pound]]'
 - - Starter
-  - '[[SRD-Water Gun|Water Gun]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Gun|Water Gun]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Growl|Growl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growl|Growl]]'
 - - Beginner
-  - '[[SRD-Disarming Voice|Disarming Voice]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Disarming Voice|Disarming Voice]]'
 - - Beginner
-  - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Aqua Jet|Aqua Jet]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aqua Jet|Aqua Jet]]'
 - - Amateur
-  - '[[SRD-Encore|Encore]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Encore|Encore]]'
 - - Amateur
-  - '[[SRD-Bubble Beam|Bubble Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bubble Beam|Bubble Beam]]'
 - - Amateur
-  - '[[SRD-Sing|Sing]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sing|Sing]]'
 - - Amateur
-  - '[[SRD-Double Slap|Double Slap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Slap|Double Slap]]'
 - - Amateur
-  - '[[SRD-Hyper Voice|Hyper Voice]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hyper Voice|Hyper Voice]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Moonblast|Moonblast]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Moonblast|Moonblast]]'
 - - Ace
-  - '[[SRD-Captivate|Captivate]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Captivate|Captivate]]'
 - - Ace
-  - '[[SRD-Hydro Pump|Hydro Pump]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hydro Pump|Hydro Pump]]'
 - - Ace
-  - '[[SRD-Misty Terrain|Misty Terrain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Misty Terrain|Misty Terrain]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Charm|Charm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charm|Charm]]'
 - - Pro
-  - '[[SRD-Aqua Ring|Aqua Ring]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aqua Ring|Aqua Ring]]'
 - - Pro
-  - '[[SRD-Water Pledge|Water Pledge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Pledge|Water Pledge]]'
 Number: 728
 ShuffleToken: SRD-popplio-ShuffleToken.png
 Type1: Water

@@ -23,45 +23,45 @@ Image: mudkip.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Growl|Growl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growl|Growl]]'
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Mud Slap|Mud Slap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Slap|Mud Slap]]'
 - - Beginner
-  - '[[SRD-Water Gun|Water Gun]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Gun|Water Gun]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Bide|Bide]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bide|Bide]]'
 - - Amateur
-  - '[[SRD-Foresight|Foresight]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Foresight|Foresight]]'
 - - Amateur
-  - '[[SRD-Mud Sport|Mud Sport]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Sport|Mud Sport]]'
 - - Amateur
-  - '[[SRD-Take Down|Take Down]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Take Down|Take Down]]'
 - - Amateur
-  - '[[SRD-Rock Throw|Rock Throw]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Throw|Rock Throw]]'
 - - Amateur
-  - '[[SRD-Whirlpool|Whirlpool]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Whirlpool|Whirlpool]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Protect|Protect]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Protect|Protect]]'
 - - Ace
-  - '[[SRD-Hydro Pump|Hydro Pump]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hydro Pump|Hydro Pump]]'
 - - Ace
-  - '[[SRD-Endeavor|Endeavor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endeavor|Endeavor]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Ice Ball|Ice Ball]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Ball|Ice Ball]]'
 - - Pro
-  - '[[SRD-Aqua Tail|Aqua Tail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aqua Tail|Aqua Tail]]'
 - - Pro
-  - '[[SRD-Water Pledge|Water Pledge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Pledge|Water Pledge]]'
 Number: 258
 ShuffleToken: SRD-mudkip-ShuffleToken.png
 Type1: Water

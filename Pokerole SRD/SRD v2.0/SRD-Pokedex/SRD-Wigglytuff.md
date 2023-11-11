@@ -23,27 +23,27 @@ Image: wigglytuff.png
 Legendary: 'No'
 Moves:
 - - Amateur
-  - '[[SRD-Double Slap|Double Slap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Slap|Double Slap]]'
 - - Amateur
-  - '[[SRD-Play Rough|Play Rough]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Play Rough|Play Rough]]'
 - - Amateur
-  - '[[SRD-Sing|Sing]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sing|Sing]]'
 - - Amateur
-  - '[[SRD-Disable|Disable]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Disable|Disable]]'
 - - Amateur
-  - '[[SRD-Defense Curl|Defense Curl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Defense Curl|Defense Curl]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Double-Edge|Double-Edge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double-Edge|Double-Edge]]'
 - - Ace
-  - '[[SRD-Fake Tears|Fake Tears]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fake Tears|Fake Tears]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Scary Face|Scary Face]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scary Face|Scary Face]]'
 - - Pro
-  - '[[SRD-Heal Pulse|Heal Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heal Pulse|Heal Pulse]]'
 Number: 40
 ShuffleToken: SRD-wigglytuff-ShuffleToken.png
 Type1: Normal

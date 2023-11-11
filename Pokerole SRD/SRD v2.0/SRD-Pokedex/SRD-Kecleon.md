@@ -19,55 +19,55 @@ Image: kecleon.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tail Whip|Tail Whip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tail Whip|Tail Whip]]'
 - - Starter
-  - '[[SRD-Astonish|Astonish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Astonish|Astonish]]'
 - - Starter
-  - '[[SRD-Thief|Thief]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thief|Thief]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Lick|Lick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lick|Lick]]'
 - - Beginner
-  - '[[SRD-Scratch|Scratch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scratch|Scratch]]'
 - - Beginner
-  - '[[SRD-Bind|Bind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bind|Bind]]'
 - - Beginner
-  - '[[SRD-Feint|Feint]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feint|Feint]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Shadow Sneak|Shadow Sneak]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shadow Sneak|Shadow Sneak]]'
 - - Amateur
-  - '[[SRD-Fury Swipes|Fury Swipes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Swipes|Fury Swipes]]'
 - - Amateur
-  - '[[SRD-Feint Attack|Feint Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feint Attack|Feint Attack]]'
 - - Amateur
-  - '[[SRD-Psybeam|Psybeam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psybeam|Psybeam]]'
 - - Amateur
-  - '[[SRD-Ancient Power|Ancient Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ancient Power|Ancient Power]]'
 - - Amateur
-  - '[[SRD-Screech|Screech]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Screech|Screech]]'
 - - Amateur
-  - '[[SRD-Camouflage|Camouflage]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Camouflage|Camouflage]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Substitute|Substitute]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Substitute|Substitute]]'
 - - Ace
-  - '[[SRD-Shadow Claw|Shadow Claw]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shadow Claw|Shadow Claw]]'
 - - Ace
-  - '[[SRD-Synchronoise|Synchronoise]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Synchronoise|Synchronoise]]'
 - - Ace
-  - '[[SRD-Sucker Punch|Sucker Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sucker Punch|Sucker Punch]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Snatch|Snatch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Snatch|Snatch]]'
 - - Pro
-  - '[[SRD-Fake Out|Fake Out]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fake Out|Fake Out]]'
 - - Pro
-  - '[[SRD-Trick|Trick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Trick|Trick]]'
 Number: 352
 ShuffleToken: SRD-kecleon-ShuffleToken.png
 Type1: Normal

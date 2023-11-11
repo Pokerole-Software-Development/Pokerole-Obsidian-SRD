@@ -23,41 +23,41 @@ Image: honchkrow.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Astonish|Astonish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Astonish|Astonish]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Wing Attack|Wing Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wing Attack|Wing Attack]]'
 - - Beginner
-  - '[[SRD-Pursuit|Pursuit]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pursuit|Pursuit]]'
 - - Beginner
-  - '[[SRD-Haze|Haze]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Haze|Haze]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Dark Pulse|Dark Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dark Pulse|Dark Pulse]]'
 - - Amateur
-  - '[[SRD-Night Slash|Night Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Night Slash|Night Slash]]'
 - - Amateur
-  - '[[SRD-Swagger|Swagger]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swagger|Swagger]]'
 - - Amateur
-  - '[[SRD-Nasty Plot|Nasty Plot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nasty Plot|Nasty Plot]]'
 - - Amateur
-  - '[[SRD-Foul Play|Foul Play]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Foul Play|Foul Play]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Quash|Quash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quash|Quash]]'
 - - Ace
-  - '[[SRD-Sucker Punch|Sucker Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sucker Punch|Sucker Punch]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Perish Song|Perish Song]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Perish Song|Perish Song]]'
 - - Pro
-  - '[[SRD-Heat Wave|Heat Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heat Wave|Heat Wave]]'
 - - Pro
-  - '[[SRD-Air Cutter|Air Cutter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Air Cutter|Air Cutter]]'
 Number: 430
 ShuffleToken: SRD-honchkrow-ShuffleToken.png
 Type1: Dark

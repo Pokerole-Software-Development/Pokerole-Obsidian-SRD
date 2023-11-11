@@ -23,47 +23,47 @@ Image: diglett-alolan-form.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Sand Attack|Sand Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sand Attack|Sand Attack]]'
 - - Starter
-  - '[[SRD-Metal Claw|Metal Claw]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Metal Claw|Metal Claw]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Growl|Growl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growl|Growl]]'
 - - Beginner
-  - '[[SRD-Astonish|Astonish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Astonish|Astonish]]'
 - - Beginner
-  - '[[SRD-Mud Slap|Mud Slap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Slap|Mud Slap]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Magnitude|Magnitude]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magnitude|Magnitude]]'
 - - Amateur
-  - '[[SRD-Bulldoze|Bulldoze]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bulldoze|Bulldoze]]'
 - - Amateur
-  - '[[SRD-Sucker Punch|Sucker Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sucker Punch|Sucker Punch]]'
 - - Amateur
-  - '[[SRD-Mud Bomb|Mud Bomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Bomb|Mud Bomb]]'
 - - Amateur
-  - '[[SRD-Earth Power|Earth Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Earth Power|Earth Power]]'
 - - Amateur
-  - '[[SRD-Dig|Dig]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dig|Dig]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Iron Head|Iron Head]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Head|Iron Head]]'
 - - Ace
-  - '[[SRD-Earthquake|Earthquake]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Earthquake|Earthquake]]'
 - - Ace
-  - '[[SRD-Fissure|Fissure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fissure|Fissure]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Feint Attack|Feint Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feint Attack|Feint Attack]]'
 - - Pro
-  - '[[SRD-Metal Sound|Metal Sound]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Metal Sound|Metal Sound]]'
 - - Pro
-  - '[[SRD-Thrash|Thrash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thrash|Thrash]]'
 Number: 50
 ShuffleToken: SRD-diglett-alolan-form-ShuffleToken.png
 Type1: Ground

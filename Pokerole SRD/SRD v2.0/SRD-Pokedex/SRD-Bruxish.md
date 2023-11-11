@@ -19,43 +19,43 @@ Image: bruxish.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Water Gun|Water Gun]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Gun|Water Gun]]'
 - - Starter
-  - '[[SRD-Astonish|Astonish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Astonish|Astonish]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Confusion|Confusion]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Confusion|Confusion]]'
 - - Beginner
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Aqua Jet|Aqua Jet]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aqua Jet|Aqua Jet]]'
 - - Amateur
-  - '[[SRD-Disable|Disable]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Disable|Disable]]'
 - - Amateur
-  - '[[SRD-Psywave|Psywave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psywave|Psywave]]'
 - - Amateur
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - Amateur
-  - '[[SRD-Aqua Tail|Aqua Tail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aqua Tail|Aqua Tail]]'
 - - Amateur
-  - '[[SRD-Screech|Screech]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Screech|Screech]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Psychic Fangs|Psychic Fangs]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psychic Fangs|Psychic Fangs]]'
 - - Ace
-  - '[[SRD-Synchronoise|Synchronoise]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Synchronoise|Synchronoise]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Ice Fang|Ice Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Fang|Ice Fang]]'
 - - Pro
-  - '[[SRD-Poison Fang|Poison Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Poison Fang|Poison Fang]]'
 - - Pro
-  - '[[SRD-Waterfall|Waterfall]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Waterfall|Waterfall]]'
 Number: 779
 ShuffleToken: SRD-bruxish-ShuffleToken.png
 Type1: Water

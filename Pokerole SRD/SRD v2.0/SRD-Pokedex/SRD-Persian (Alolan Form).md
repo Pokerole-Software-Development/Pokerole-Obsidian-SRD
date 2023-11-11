@@ -23,59 +23,59 @@ Image: persian-alolan-form.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Scratch|Scratch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scratch|Scratch]]'
 - - Starter
-  - '[[SRD-Growl|Growl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growl|Growl]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - Beginner
-  - '[[SRD-Fake Out|Fake Out]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fake Out|Fake Out]]'
 - - Beginner
-  - '[[SRD-Fury Swipes|Fury Swipes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Swipes|Fury Swipes]]'
 - - Beginner
-  - '[[SRD-Screech|Screech]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Screech|Screech]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Swift|Swift]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swift|Swift]]'
 - - Amateur
-  - '[[SRD-Switcheroo|Switcheroo]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Switcheroo|Switcheroo]]'
 - - Amateur
-  - '[[SRD-Play Rough|Play Rough]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Play Rough|Play Rough]]'
 - - Amateur
-  - '[[SRD-Captivate|Captivate]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Captivate|Captivate]]'
 - - Amateur
-  - '[[SRD-Feint Attack|Feint Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feint Attack|Feint Attack]]'
 - - Amateur
-  - '[[SRD-Taunt|Taunt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Taunt|Taunt]]'
 - - Amateur
-  - '[[SRD-Power Gem|Power Gem]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Power Gem|Power Gem]]'
 - - Amateur
-  - '[[SRD-Slash|Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slash|Slash]]'
 - - Amateur
-  - '[[SRD-Dark Pulse|Dark Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dark Pulse|Dark Pulse]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Assurance|Assurance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Assurance|Assurance]]'
 - - Ace
-  - '[[SRD-Nasty Plot|Nasty Plot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nasty Plot|Nasty Plot]]'
 - - Ace
-  - '[[SRD-Night Slash|Night Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Night Slash|Night Slash]]'
 - - Ace
-  - '[[SRD-Feint|Feint]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feint|Feint]]'
 - - Ace
-  - '[[SRD-Quash|Quash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quash|Quash]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Parting Shot|Parting Shot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Parting Shot|Parting Shot]]'
 - - Pro
-  - '[[SRD-Snarl|Snarl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Snarl|Snarl]]'
 - - Pro
-  - '[[SRD-Torment|Torment]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Torment|Torment]]'
 Number: 53
 ShuffleToken: SRD-persian-alolan-form-ShuffleToken.png
 Type1: Dark

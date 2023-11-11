@@ -27,53 +27,53 @@ Image: piloswine.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Odor Sleuth|Odor Sleuth]]'
 - - Starter
-  - '[[SRD-Mud Sport|Mud Sport]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Sport|Mud Sport]]'
 - - Starter
-  - '[[SRD-Mud Slap|Mud Slap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Slap|Mud Slap]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Peck|Peck]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Peck|Peck]]'
 - - Beginner
-  - '[[SRD-Powder Snow|Powder Snow]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Powder Snow|Powder Snow]]'
 - - Beginner
-  - '[[SRD-Take Down|Take Down]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Take Down|Take Down]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Endure|Endure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endure|Endure]]'
 - - Amateur
-  - '[[SRD-Mud Bomb|Mud Bomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Bomb|Mud Bomb]]'
 - - Amateur
-  - '[[SRD-Icy Wind|Icy Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Icy Wind|Icy Wind]]'
 - - Amateur
-  - '[[SRD-Ice Fang|Ice Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Fang|Ice Fang]]'
 - - Amateur
-  - '[[SRD-Ancient Power|Ancient Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ancient Power|Ancient Power]]'
 - - Amateur
-  - '[[SRD-Fury Attack|Fury Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Attack|Fury Attack]]'
 - - Amateur
-  - '[[SRD-Mist|Mist]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mist|Mist]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Thrash|Thrash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thrash|Thrash]]'
 - - Ace
-  - '[[SRD-Earthquake|Earthquake]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Earthquake|Earthquake]]'
 - - Ace
-  - '[[SRD-Blizzard|Blizzard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Blizzard|Blizzard]]'
 - - Ace
-  - '[[SRD-Amnesia|Amnesia]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Amnesia|Amnesia]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Freeze Dry|Freeze Dry]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Freeze Dry|Freeze Dry]]'
 - - Pro
-  - '[[SRD-Body Slam|Body Slam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Body Slam|Body Slam]]'
 - - Pro
-  - '[[SRD-Avalanche|Avalanche]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Avalanche|Avalanche]]'
 Number: 221
 ShuffleToken: SRD-piloswine-ShuffleToken.png
 Type1: Ice

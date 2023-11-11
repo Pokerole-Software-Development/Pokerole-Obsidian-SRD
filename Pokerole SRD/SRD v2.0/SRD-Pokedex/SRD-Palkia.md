@@ -18,41 +18,41 @@ Image: palkia.png
 Legendary: 'Yes'
 Moves:
 - - Master
-  - '[[SRD-Dragon Breath|Dragon Breath]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Breath|Dragon Breath]]'
 - - Master
-  - '[[SRD-Scary Face|Scary Face]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scary Face|Scary Face]]'
 - - Master
-  - '[[SRD-Water Pulse|Water Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Pulse|Water Pulse]]'
 - - Master
-  - '[[SRD-Ancient Power|Ancient Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ancient Power|Ancient Power]]'
 - - Master
-  - '[[SRD-Slash|Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slash|Slash]]'
 - - Master
-  - '[[SRD-Power Gem|Power Gem]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Power Gem|Power Gem]]'
 - - Master
-  - '[[SRD-Aqua Tail|Aqua Tail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aqua Tail|Aqua Tail]]'
 - - Master
-  - '[[SRD-Dragon Claw|Dragon Claw]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Claw|Dragon Claw]]'
 - - Master
-  - '[[SRD-Earth Power|Earth Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Earth Power|Earth Power]]'
 - - Master
-  - '[[SRD-Aura Sphere|Aura Sphere]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aura Sphere|Aura Sphere]]'
 - - Master
-  - '[[SRD-Hyper Voice|Hyper Voice]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hyper Voice|Hyper Voice]]'
 - - Master
-  - '[[SRD-Spacial Rend|Spacial Rend]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spacial Rend|Spacial Rend]]'
 - - Master
-  - '[[SRD-Hydro Pump|Hydro Pump]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hydro Pump|Hydro Pump]]'
 - - Master
-  - '[[SRD-Hidden Power|Hidden Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hidden Power|Hidden Power]]'
 - - Master
-  - '[[SRD-Psych Up|Psych Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psych Up|Psych Up]]'
 - - Master
-  - '[[SRD-Gravity|Gravity]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gravity|Gravity]]'
 - - Master
-  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Pulse|Dragon Pulse]]'
 - - Master
-  - '[[SRD-Liquidation|Liquidation]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Liquidation|Liquidation]]'
 Number: 484
 ShuffleToken: SRD-palkia-ShuffleToken.png
 Type1: Water

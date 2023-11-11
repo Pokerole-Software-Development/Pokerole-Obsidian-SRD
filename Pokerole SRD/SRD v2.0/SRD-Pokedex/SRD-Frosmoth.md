@@ -24,55 +24,55 @@ Image: frosmoth.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Powder Snow|Powder Snow]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Powder Snow|Powder Snow]]'
 - - Starter
-  - '[[SRD-Struggle Bug|Struggle Bug]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Struggle Bug|Struggle Bug]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Icy Wind|Icy Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Icy Wind|Icy Wind]]'
 - - Beginner
-  - '[[SRD-Helping Hand|Helping Hand]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Helping Hand|Helping Hand]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Attract|Attract]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Attract|Attract]]'
 - - Amateur
-  - '[[SRD-Stun Spore|Stun Spore]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stun Spore|Stun Spore]]'
 - - Amateur
-  - '[[SRD-Infestation|Infestation]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Infestation|Infestation]]'
 - - Amateur
-  - '[[SRD-Mist|Mist]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mist|Mist]]'
 - - Amateur
-  - '[[SRD-Defog|Defog]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Defog|Defog]]'
 - - Amateur
-  - '[[SRD-Feather Dance|Feather Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feather Dance|Feather Dance]]'
 - - Amateur
-  - '[[SRD-Aurora Beam|Aurora Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aurora Beam|Aurora Beam]]'
 - - Amateur
-  - '[[SRD-Hail|Hail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hail|Hail]]'
 - - Amateur
-  - '[[SRD-Bug Buzz|Bug Buzz]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bug Buzz|Bug Buzz]]'
 - - Amateur
-  - '[[SRD-Aurora Veil|Aurora Veil]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aurora Veil|Aurora Veil]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Blizzard|Blizzard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Blizzard|Blizzard]]'
 - - Ace
-  - '[[SRD-Tailwind|Tailwind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tailwind|Tailwind]]'
 - - Ace
-  - '[[SRD-Wide Guard|Wide Guard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wide Guard|Wide Guard]]'
 - - Ace
-  - '[[SRD-Quiver Dance|Quiver Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quiver Dance|Quiver Dance]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Dazzling Gleam|Dazzling Gleam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dazzling Gleam|Dazzling Gleam]]'
 - - Pro
-  - '[[SRD-Mirror Coat|Mirror Coat]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mirror Coat|Mirror Coat]]'
 - - Pro
-  - '[[SRD-Hurricane|Hurricane]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hurricane|Hurricane]]'
 Number: 873
 ShuffleToken: SRD-frosmoth-ShuffleToken.png
 Type1: Ice

@@ -24,39 +24,39 @@ Image: azurill.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Splash|Splash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Splash|Splash]]'
 - - Starter
-  - '[[SRD-Water Gun|Water Gun]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Gun|Water Gun]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Tail Whip|Tail Whip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tail Whip|Tail Whip]]'
 - - Beginner
-  - '[[SRD-Water Sport|Water Sport]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Sport|Water Sport]]'
 - - Beginner
-  - '[[SRD-Bubble|Bubble]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bubble|Bubble]]'
 - - Beginner
-  - '[[SRD-Charm|Charm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charm|Charm]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Bubble Beam|Bubble Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bubble Beam|Bubble Beam]]'
 - - Amateur
-  - '[[SRD-Helping Hand|Helping Hand]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Helping Hand|Helping Hand]]'
 - - Amateur
-  - '[[SRD-Slam|Slam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slam|Slam]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Bounce|Bounce]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bounce|Bounce]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Tickle|Tickle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tickle|Tickle]]'
 - - Pro
-  - '[[SRD-Sing|Sing]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sing|Sing]]'
 - - Pro
-  - '[[SRD-Fake Tears|Fake Tears]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fake Tears|Fake Tears]]'
 Number: 298
 ShuffleToken: SRD-azurill-ShuffleToken.png
 Type1: Normal

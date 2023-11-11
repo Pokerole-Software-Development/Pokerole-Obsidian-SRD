@@ -23,45 +23,45 @@ Image: coalossal.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Smokescreen|Smokescreen]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Smokescreen|Smokescreen]]'
 - - Beginner
-  - '[[SRD-Flame Charge|Flame Charge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flame Charge|Flame Charge]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Tar Shot|Tar Shot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tar Shot|Tar Shot]]'
 - - Amateur
-  - '[[SRD-Rapid Spin|Rapid Spin]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rapid Spin|Rapid Spin]]'
 - - Amateur
-  - '[[SRD-Smack Down|Smack Down]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Smack Down|Smack Down]]'
 - - Amateur
-  - '[[SRD-Rock Polish|Rock Polish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Polish|Rock Polish]]'
 - - Amateur
-  - '[[SRD-Ancient Power|Ancient Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ancient Power|Ancient Power]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Incinerate|Incinerate]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Incinerate|Incinerate]]'
 - - Ace
-  - '[[SRD-Stealth Rock|Stealth Rock]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stealth Rock|Stealth Rock]]'
 - - Ace
-  - '[[SRD-Heat Crash|Heat Crash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heat Crash|Heat Crash]]'
 - - Ace
-  - '[[SRD-Rock Blast|Rock Blast]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Blast|Rock Blast]]'
 - - Ace
-  - '[[SRD-Burn Up|Burn Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Burn Up|Burn Up]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Overheat|Overheat]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Overheat|Overheat]]'
 - - Pro
-  - '[[SRD-Bulldoze|Bulldoze]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bulldoze|Bulldoze]]'
 - - Pro
-  - '[[SRD-Heavy Slam|Heavy Slam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heavy Slam|Heavy Slam]]'
 Number: 839
 ShuffleToken: SRD-coalossal-ShuffleToken.png
 Type1: Rock

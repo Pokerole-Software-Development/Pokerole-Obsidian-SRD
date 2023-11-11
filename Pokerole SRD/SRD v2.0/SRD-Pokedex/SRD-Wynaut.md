@@ -23,21 +23,21 @@ Image: wynaut.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Charm|Charm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charm|Charm]]'
 - - Starter
-  - '[[SRD-Encore|Encore]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Encore|Encore]]'
 - - Starter
-  - '[[SRD-Splash|Splash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Splash|Splash]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Counter|Counter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Counter|Counter]]'
 - - Amateur
-  - '[[SRD-Destiny Bond|Destiny Bond]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Destiny Bond|Destiny Bond]]'
 - - Amateur
-  - '[[SRD-Mirror Coat|Mirror Coat]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mirror Coat|Mirror Coat]]'
 - - Amateur
-  - '[[SRD-Safeguard|Safeguard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Safeguard|Safeguard]]'
 Number: 360
 ShuffleToken: SRD-wynaut-ShuffleToken.png
 Type1: Psychic

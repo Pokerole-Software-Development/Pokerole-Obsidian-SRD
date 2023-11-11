@@ -23,51 +23,51 @@ Image: seismitoad.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Bubble|Bubble]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bubble|Bubble]]'
 - - Starter
-  - '[[SRD-Growl|Growl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growl|Growl]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Supersonic|Supersonic]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Supersonic|Supersonic]]'
 - - Beginner
-  - '[[SRD-Round|Round]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Round|Round]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Bubble Beam|Bubble Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bubble Beam|Bubble Beam]]'
 - - Amateur
-  - '[[SRD-Mud Shot|Mud Shot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Shot|Mud Shot]]'
 - - Amateur
-  - '[[SRD-Aqua Ring|Aqua Ring]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aqua Ring|Aqua Ring]]'
 - - Amateur
-  - '[[SRD-Uproar|Uproar]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Uproar|Uproar]]'
 - - Amateur
-  - '[[SRD-Muddy Water|Muddy Water]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Muddy Water|Muddy Water]]'
 - - Amateur
-  - '[[SRD-Echoed Voice|Echoed Voice]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Echoed Voice|Echoed Voice]]'
 - - Amateur
-  - '[[SRD-Acid|Acid]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Acid|Acid]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Flail|Flail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flail|Flail]]'
 - - Ace
-  - '[[SRD-Drain Punch|Drain Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Drain Punch|Drain Punch]]'
 - - Ace
-  - '[[SRD-Rain Dance|Rain Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rain Dance|Rain Dance]]'
 - - Ace
-  - '[[SRD-Hydro Pump|Hydro Pump]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hydro Pump|Hydro Pump]]'
 - - Ace
-  - '[[SRD-Hyper Voice|Hyper Voice]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hyper Voice|Hyper Voice]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Earth Power|Earth Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Earth Power|Earth Power]]'
 - - Pro
-  - '[[SRD-Bounce|Bounce]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bounce|Bounce]]'
 - - Pro
-  - '[[SRD-Knock Off|Knock Off]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Knock Off|Knock Off]]'
 Number: 537
 ShuffleToken: SRD-seismitoad-ShuffleToken.png
 Type1: Water

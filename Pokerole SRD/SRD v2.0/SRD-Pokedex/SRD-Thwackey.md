@@ -27,43 +27,43 @@ Image: thwackey.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Double Hit|Double Hit]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Hit|Double Hit]]'
 - - Starter
-  - '[[SRD-Scratch|Scratch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scratch|Scratch]]'
 - - Starter
-  - '[[SRD-Growl|Growl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growl|Growl]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Branch Poke|Branch Poke]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Branch Poke|Branch Poke]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Taunt|Taunt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Taunt|Taunt]]'
 - - Amateur
-  - '[[SRD-Razor Leaf|Razor Leaf]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Razor Leaf|Razor Leaf]]'
 - - Amateur
-  - '[[SRD-Screech|Screech]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Screech|Screech]]'
 - - Amateur
-  - '[[SRD-Knock Off|Knock Off]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Knock Off|Knock Off]]'
 - - Amateur
-  - '[[SRD-Slam|Slam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slam|Slam]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Uproar|Uproar]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Uproar|Uproar]]'
 - - Ace
-  - '[[SRD-Wood Hammer|Wood Hammer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wood Hammer|Wood Hammer]]'
 - - Ace
-  - '[[SRD-Endeavor|Endeavor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endeavor|Endeavor]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Fake Out|Fake Out]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fake Out|Fake Out]]'
 - - Pro
-  - '[[SRD-Acrobatics|Acrobatics]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Acrobatics|Acrobatics]]'
 - - Pro
-  - '[[SRD-Leech Seed|Leech Seed]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leech Seed|Leech Seed]]'
 Number: 811
 ShuffleToken: SRD-thwackey-ShuffleToken.png
 Type1: Grass

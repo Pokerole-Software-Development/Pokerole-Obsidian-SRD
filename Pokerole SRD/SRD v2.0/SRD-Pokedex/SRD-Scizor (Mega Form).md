@@ -23,55 +23,55 @@ Image: scizor-mega-form.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - Starter
-  - '[[SRD-Feint|Feint]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feint|Feint]]'
 - - Starter
-  - '[[SRD-Quick Attack|Quick Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quick Attack|Quick Attack]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Pursuit|Pursuit]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pursuit|Pursuit]]'
 - - Beginner
-  - '[[SRD-Focus Energy|Focus Energy]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Focus Energy|Focus Energy]]'
 - - Beginner
-  - '[[SRD-False Swipe|False Swipe]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-False Swipe|False Swipe]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Agility|Agility]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Agility|Agility]]'
 - - Amateur
-  - '[[SRD-Fury Cutter|Fury Cutter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Cutter|Fury Cutter]]'
 - - Amateur
-  - '[[SRD-Metal Claw|Metal Claw]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Metal Claw|Metal Claw]]'
 - - Amateur
-  - '[[SRD-Razor Wind|Razor Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Razor Wind|Razor Wind]]'
 - - Amateur
-  - '[[SRD-Slash|Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slash|Slash]]'
 - - Amateur
-  - '[[SRD-X-Scissor|X-Scissor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-X-Scissor|X-Scissor]]'
 - - Amateur
-  - '[[SRD-Night Slash|Night Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Night Slash|Night Slash]]'
 - - Amateur
-  - '[[SRD-Double Hit|Double Hit]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Hit|Double Hit]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Iron Defense|Iron Defense]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Defense|Iron Defense]]'
 - - Ace
-  - '[[SRD-Bullet Punch|Bullet Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bullet Punch|Bullet Punch]]'
 - - Ace
-  - '[[SRD-Iron Head|Iron Head]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Head|Iron Head]]'
 - - Ace
-  - '[[SRD-Swords Dance|Swords Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swords Dance|Swords Dance]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Steel Wing|Steel Wing]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Steel Wing|Steel Wing]]'
 - - Pro
-  - '[[SRD-Knock Off|Knock Off]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Knock Off|Knock Off]]'
 - - Pro
-  - '[[SRD-Superpower|Superpower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Superpower|Superpower]]'
 Number: 212
 ShuffleToken: SRD-scizor-mega-form-ShuffleToken.png
 Type1: Bug

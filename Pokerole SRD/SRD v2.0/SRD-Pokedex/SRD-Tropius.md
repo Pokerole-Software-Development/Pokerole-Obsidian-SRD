@@ -19,51 +19,51 @@ Image: tropius.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Bestow|Bestow]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bestow|Bestow]]'
 - - Starter
-  - '[[SRD-Gust|Gust]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gust|Gust]]'
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Natural Gift|Natural Gift]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Natural Gift|Natural Gift]]'
 - - Beginner
-  - '[[SRD-Growth|Growth]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growth|Growth]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Razor Leaf|Razor Leaf]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Razor Leaf|Razor Leaf]]'
 - - Amateur
-  - '[[SRD-Stomp|Stomp]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stomp|Stomp]]'
 - - Amateur
-  - '[[SRD-Sweet Scent|Sweet Scent]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sweet Scent|Sweet Scent]]'
 - - Amateur
-  - '[[SRD-Whirlwind|Whirlwind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Whirlwind|Whirlwind]]'
 - - Amateur
-  - '[[SRD-Magical Leaf|Magical Leaf]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magical Leaf|Magical Leaf]]'
 - - Amateur
-  - '[[SRD-Body Slam|Body Slam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Body Slam|Body Slam]]'
 - - Amateur
-  - '[[SRD-Synthesis|Synthesis]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Synthesis|Synthesis]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Leaf Tornado|Leaf Tornado]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leaf Tornado|Leaf Tornado]]'
 - - Ace
-  - '[[SRD-Air Slash|Air Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Air Slash|Air Slash]]'
 - - Ace
-  - '[[SRD-Solar Beam|Solar Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Solar Beam|Solar Beam]]'
 - - Ace
-  - '[[SRD-Leaf Storm|Leaf Storm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leaf Storm|Leaf Storm]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Tailwind|Tailwind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tailwind|Tailwind]]'
 - - Pro
-  - '[[SRD-Twister|Twister]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Twister|Twister]]'
 - - Pro
-  - '[[SRD-Outrage|Outrage]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Outrage|Outrage]]'
 Number: 357
 ShuffleToken: SRD-tropius-ShuffleToken.png
 Type1: Grass

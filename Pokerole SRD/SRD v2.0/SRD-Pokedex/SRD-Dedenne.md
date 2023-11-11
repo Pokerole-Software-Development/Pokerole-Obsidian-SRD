@@ -19,51 +19,51 @@ Image: dedenne.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - Starter
-  - '[[SRD-Tail Whip|Tail Whip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tail Whip|Tail Whip]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Thunder Shock|Thunder Shock]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Shock|Thunder Shock]]'
 - - Beginner
-  - '[[SRD-Charge|Charge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charge|Charge]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Charm|Charm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charm|Charm]]'
 - - Amateur
-  - '[[SRD-Parabolic Charge|Parabolic Charge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Parabolic Charge|Parabolic Charge]]'
 - - Amateur
-  - '[[SRD-Nuzzle|Nuzzle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nuzzle|Nuzzle]]'
 - - Amateur
-  - '[[SRD-Thunder Wave|Thunder Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Wave|Thunder Wave]]'
 - - Amateur
-  - '[[SRD-Volt Switch|Volt Switch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Volt Switch|Volt Switch]]'
 - - Amateur
-  - '[[SRD-Rest|Rest]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rest|Rest]]'
 - - Amateur
-  - '[[SRD-Snore|Snore]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Snore|Snore]]'
 - - Amateur
-  - '[[SRD-Charge Beam|Charge Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charge Beam|Charge Beam]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Entrainment|Entrainment]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Entrainment|Entrainment]]'
 - - Ace
-  - '[[SRD-Play Rough|Play Rough]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Play Rough|Play Rough]]'
 - - Ace
-  - '[[SRD-Thunder|Thunder]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder|Thunder]]'
 - - Ace
-  - '[[SRD-Discharge|Discharge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Discharge|Discharge]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Super Fang|Super Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Super Fang|Super Fang]]'
 - - Pro
-  - '[[SRD-Iron Tail|Iron Tail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Tail|Iron Tail]]'
 - - Pro
-  - '[[SRD-Eerie Impulse|Eerie Impulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Eerie Impulse|Eerie Impulse]]'
 Number: 702
 ShuffleToken: SRD-dedenne-ShuffleToken.png
 Type1: Electric

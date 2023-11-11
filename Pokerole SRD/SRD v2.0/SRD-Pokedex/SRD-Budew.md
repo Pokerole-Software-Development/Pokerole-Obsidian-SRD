@@ -24,29 +24,29 @@ Image: budew.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Absorb|Absorb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Absorb|Absorb]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Growth|Growth]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growth|Growth]]'
 - - Beginner
-  - '[[SRD-Water Sport|Water Sport]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Sport|Water Sport]]'
 - - Beginner
-  - '[[SRD-Stun Spore|Stun Spore]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stun Spore|Stun Spore]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Mega Drain|Mega Drain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mega Drain|Mega Drain]]'
 - - Amateur
-  - '[[SRD-Worry Seed|Worry Seed]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Worry Seed|Worry Seed]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Spikes|Spikes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spikes|Spikes]]'
 - - Pro
-  - '[[SRD-Extrasensory|Extrasensory]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Extrasensory|Extrasensory]]'
 - - Pro
-  - '[[SRD-Endure|Endure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endure|Endure]]'
 Number: 406
 ShuffleToken: SRD-budew-ShuffleToken.png
 Type1: Grass

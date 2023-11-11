@@ -19,59 +19,59 @@ Image: maractus.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Peck|Peck]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Peck|Peck]]'
 - - Starter
-  - '[[SRD-Absorb|Absorb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Absorb|Absorb]]'
 - - Starter
-  - '[[SRD-Growth|Growth]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growth|Growth]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Sweet Scent|Sweet Scent]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sweet Scent|Sweet Scent]]'
 - - Beginner
-  - '[[SRD-Spiky Shield|Spiky Shield]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spiky Shield|Spiky Shield]]'
 - - Beginner
-  - '[[SRD-Pin Missile|Pin Missile]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pin Missile|Pin Missile]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Mega Drain|Mega Drain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mega Drain|Mega Drain]]'
 - - Amateur
-  - '[[SRD-Synthesis|Synthesis]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Synthesis|Synthesis]]'
 - - Amateur
-  - '[[SRD-Cotton Spore|Cotton Spore]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Cotton Spore|Cotton Spore]]'
 - - Amateur
-  - '[[SRD-Needle Arm|Needle Arm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Needle Arm|Needle Arm]]'
 - - Amateur
-  - '[[SRD-Ingrain|Ingrain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ingrain|Ingrain]]'
 - - Amateur
-  - '[[SRD-Acupressure|Acupressure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Acupressure|Acupressure]]'
 - - Amateur
-  - '[[SRD-Sucker Punch|Sucker Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sucker Punch|Sucker Punch]]'
 - - Amateur
-  - '[[SRD-Petal Dance|Petal Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Petal Dance|Petal Dance]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Giga Drain|Giga Drain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Giga Drain|Giga Drain]]'
 - - Ace
-  - '[[SRD-After You|After You]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-After You|After You]]'
 - - Ace
-  - '[[SRD-Petal Blizzard|Petal Blizzard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Petal Blizzard|Petal Blizzard]]'
 - - Ace
-  - '[[SRD-Solar Beam|Solar Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Solar Beam|Solar Beam]]'
 - - Ace
-  - '[[SRD-Cotton Guard|Cotton Guard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Cotton Guard|Cotton Guard]]'
 - - Ace
-  - '[[SRD-Sunny Day|Sunny Day]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sunny Day|Sunny Day]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Drain Punch|Drain Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Drain Punch|Drain Punch]]'
 - - Pro
-  - '[[SRD-Spikes|Spikes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spikes|Spikes]]'
 - - Pro
-  - '[[SRD-Worry Seed|Worry Seed]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Worry Seed|Worry Seed]]'
 Number: 556
 ShuffleToken: SRD-maractus-ShuffleToken.png
 Type1: Grass

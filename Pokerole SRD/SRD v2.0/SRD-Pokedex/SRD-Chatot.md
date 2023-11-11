@@ -20,51 +20,51 @@ Image: chatot.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Confide|Confide]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Confide|Confide]]'
 - - Starter
-  - '[[SRD-Taunt|Taunt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Taunt|Taunt]]'
 - - Starter
-  - '[[SRD-Peck|Peck]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Peck|Peck]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Growl|Growl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growl|Growl]]'
 - - Beginner
-  - '[[SRD-Mirror Move|Mirror Move]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mirror Move|Mirror Move]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Chatter|Chatter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Chatter|Chatter]]'
 - - Amateur
-  - '[[SRD-Hyper Voice|Hyper Voice]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hyper Voice|Hyper Voice]]'
 - - Amateur
-  - '[[SRD-Sing|Sing]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sing|Sing]]'
 - - Amateur
-  - '[[SRD-Fury Attack|Fury Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Attack|Fury Attack]]'
 - - Amateur
-  - '[[SRD-Round|Round]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Round|Round]]'
 - - Amateur
-  - '[[SRD-Mimic|Mimic]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mimic|Mimic]]'
 - - Amateur
-  - '[[SRD-Echoed Voice|Echoed Voice]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Echoed Voice|Echoed Voice]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Roost|Roost]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Roost|Roost]]'
 - - Ace
-  - '[[SRD-Uproar|Uproar]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Uproar|Uproar]]'
 - - Ace
-  - '[[SRD-Synchronoise|Synchronoise]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Synchronoise|Synchronoise]]'
 - - Ace
-  - '[[SRD-Feather Dance|Feather Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feather Dance|Feather Dance]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Agility|Agility]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Agility|Agility]]'
 - - Pro
-  - '[[SRD-Boomburst|Boomburst]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Boomburst|Boomburst]]'
 - - Pro
-  - '[[SRD-Nasty Plot|Nasty Plot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nasty Plot|Nasty Plot]]'
 Number: 441
 ShuffleToken: SRD-chatot-ShuffleToken.png
 Type1: Normal

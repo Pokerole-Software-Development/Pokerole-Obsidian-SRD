@@ -23,49 +23,49 @@ Image: teddiursa.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Baby-Doll Eyes|Baby-Doll Eyes]]'
 - - Starter
-  - '[[SRD-Scratch|Scratch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scratch|Scratch]]'
 - - Starter
-  - '[[SRD-Fake Tears|Fake Tears]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fake Tears|Fake Tears]]'
 - - Starter
-  - '[[SRD-Lick|Lick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lick|Lick]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Covet|Covet]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Covet|Covet]]'
 - - Beginner
-  - '[[SRD-Fling|Fling]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fling|Fling]]'
 - - Beginner
-  - '[[SRD-Fury Swipes|Fury Swipes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Swipes|Fury Swipes]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Feint Attack|Feint Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feint Attack|Feint Attack]]'
 - - Amateur
-  - '[[SRD-Sweet Scent|Sweet Scent]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sweet Scent|Sweet Scent]]'
 - - Amateur
-  - '[[SRD-Play Nice|Play Nice]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Play Nice|Play Nice]]'
 - - Amateur
-  - '[[SRD-Slash|Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slash|Slash]]'
 - - Amateur
-  - '[[SRD-Charm|Charm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charm|Charm]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Rest|Rest]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rest|Rest]]'
 - - Ace
-  - '[[SRD-Snore|Snore]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Snore|Snore]]'
 - - Ace
-  - '[[SRD-Thrash|Thrash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thrash|Thrash]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Play Rough|Play Rough]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Play Rough|Play Rough]]'
 - - Pro
-  - '[[SRD-Defense Curl|Defense Curl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Defense Curl|Defense Curl]]'
 - - Pro
-  - '[[SRD-Yawn|Yawn]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Yawn|Yawn]]'
 Number: 216
 ShuffleToken: SRD-teddiursa-ShuffleToken.png
 Type1: Normal

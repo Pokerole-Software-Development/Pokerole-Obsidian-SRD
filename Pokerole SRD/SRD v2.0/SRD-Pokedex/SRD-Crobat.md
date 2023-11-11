@@ -24,51 +24,51 @@ Image: crobat.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Absorb|Absorb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Absorb|Absorb]]'
 - - Starter
-  - '[[SRD-Screech|Screech]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Screech|Screech]]'
 - - Starter
-  - '[[SRD-Astonish|Astonish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Astonish|Astonish]]'
 - - Starter
-  - '[[SRD-Supersonic|Supersonic]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Supersonic|Supersonic]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Wing Attack|Wing Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wing Attack|Wing Attack]]'
 - - Beginner
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Swift|Swift]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swift|Swift]]'
 - - Amateur
-  - '[[SRD-Confuse Ray|Confuse Ray]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Confuse Ray|Confuse Ray]]'
 - - Amateur
-  - '[[SRD-Acrobatics|Acrobatics]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Acrobatics|Acrobatics]]'
 - - Amateur
-  - '[[SRD-Air Cutter|Air Cutter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Air Cutter|Air Cutter]]'
 - - Amateur
-  - '[[SRD-Mean Look|Mean Look]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mean Look|Mean Look]]'
 - - Amateur
-  - '[[SRD-Leech Life|Leech Life]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leech Life|Leech Life]]'
 - - Amateur
-  - '[[SRD-Poison Fang|Poison Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Poison Fang|Poison Fang]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Cross Poison|Cross Poison]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Cross Poison|Cross Poison]]'
 - - Ace
-  - '[[SRD-Haze|Haze]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Haze|Haze]]'
 - - Ace
-  - '[[SRD-Air Slash|Air Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Air Slash|Air Slash]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Brave Bird|Brave Bird]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Brave Bird|Brave Bird]]'
 - - Pro
-  - '[[SRD-Nasty Plot|Nasty Plot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nasty Plot|Nasty Plot]]'
 - - Pro
-  - '[[SRD-Heat Wave|Heat Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heat Wave|Heat Wave]]'
 Number: 169
 ShuffleToken: SRD-crobat-ShuffleToken.png
 Type1: Poison

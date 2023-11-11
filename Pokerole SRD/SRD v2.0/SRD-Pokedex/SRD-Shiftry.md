@@ -23,33 +23,33 @@ Image: shiftry.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Feint Attack|Feint Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feint Attack|Feint Attack]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Razor Leaf|Razor Leaf]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Razor Leaf|Razor Leaf]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Nasty Plot|Nasty Plot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nasty Plot|Nasty Plot]]'
 - - Amateur
-  - '[[SRD-Whirlwind|Whirlwind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Whirlwind|Whirlwind]]'
 - - Amateur
-  - '[[SRD-Leaf Tornado|Leaf Tornado]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leaf Tornado|Leaf Tornado]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Hurricane|Hurricane]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hurricane|Hurricane]]'
 - - Ace
-  - '[[SRD-Leaf Storm|Leaf Storm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leaf Storm|Leaf Storm]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Seed Bomb|Seed Bomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Seed Bomb|Seed Bomb]]'
 - - Pro
-  - '[[SRD-Self Destruct|Self Destruct]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Self Destruct|Self Destruct]]'
 - - Pro
-  - '[[SRD-Sucker Punch|Sucker Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sucker Punch|Sucker Punch]]'
 Number: 275
 ShuffleToken: SRD-shiftry-ShuffleToken.png
 Type1: Grass

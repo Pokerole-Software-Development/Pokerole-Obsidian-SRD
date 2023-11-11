@@ -23,55 +23,55 @@ Image: heracross.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Endure|Endure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endure|Endure]]'
 - - Starter
-  - '[[SRD-Horn Attack|Horn Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Horn Attack|Horn Attack]]'
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - Starter
-  - '[[SRD-Night Slash|Night Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Night Slash|Night Slash]]'
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Fury Attack|Fury Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Attack|Fury Attack]]'
 - - Beginner
-  - '[[SRD-Aerial Ace|Aerial Ace]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aerial Ace|Aerial Ace]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Arm Thrust|Arm Thrust]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Arm Thrust|Arm Thrust]]'
 - - Amateur
-  - '[[SRD-Bullet Seed|Bullet Seed]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bullet Seed|Bullet Seed]]'
 - - Amateur
-  - '[[SRD-Chip Away|Chip Away]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Chip Away|Chip Away]]'
 - - Amateur
-  - '[[SRD-Counter|Counter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Counter|Counter]]'
 - - Amateur
-  - '[[SRD-Brick Break|Brick Break]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Brick Break|Brick Break]]'
 - - Amateur
-  - '[[SRD-Take Down|Take Down]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Take Down|Take Down]]'
 - - Amateur
-  - '[[SRD-Pin Missile|Pin Missile]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pin Missile|Pin Missile]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Close Combat|Close Combat]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Close Combat|Close Combat]]'
 - - Ace
-  - '[[SRD-Feint|Feint]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feint|Feint]]'
 - - Ace
-  - '[[SRD-Reversal|Reversal]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Reversal|Reversal]]'
 - - Ace
-  - '[[SRD-Megahorn|Megahorn]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Megahorn|Megahorn]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Rock Blast|Rock Blast]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Blast|Rock Blast]]'
 - - Pro
-  - '[[SRD-Vacuum Wave|Vacuum Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Vacuum Wave|Vacuum Wave]]'
 - - Pro
-  - '[[SRD-Iron Defense|Iron Defense]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Defense|Iron Defense]]'
 Number: 214
 ShuffleToken: SRD-heracross-ShuffleToken.png
 Type1: Bug

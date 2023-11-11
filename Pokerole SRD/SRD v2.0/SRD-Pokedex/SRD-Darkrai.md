@@ -19,37 +19,37 @@ Image: darkrai.png
 Legendary: 'Yes'
 Moves:
 - - Master
-  - '[[SRD-Ominous Wind|Ominous Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ominous Wind|Ominous Wind]]'
 - - Master
-  - '[[SRD-Disable|Disable]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Disable|Disable]]'
 - - Master
-  - '[[SRD-Quick Attack|Quick Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quick Attack|Quick Attack]]'
 - - Master
-  - '[[SRD-Hypnosis|Hypnosis]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hypnosis|Hypnosis]]'
 - - Master
-  - '[[SRD-Feint Attack|Feint Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feint Attack|Feint Attack]]'
 - - Master
-  - '[[SRD-Nightmare|Nightmare]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nightmare|Nightmare]]'
 - - Master
-  - '[[SRD-Double Team|Double Team]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Team|Double Team]]'
 - - Master
-  - '[[SRD-Haze|Haze]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Haze|Haze]]'
 - - Master
-  - '[[SRD-Dark Void|Dark Void]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dark Void|Dark Void]]'
 - - Master
-  - '[[SRD-Nasty Plot|Nasty Plot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nasty Plot|Nasty Plot]]'
 - - Master
-  - '[[SRD-Dream Eater|Dream Eater]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dream Eater|Dream Eater]]'
 - - Master
-  - '[[SRD-Dark Pulse|Dark Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dark Pulse|Dark Pulse]]'
 - - Master
-  - '[[SRD-Torment|Torment]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Torment|Torment]]'
 - - Master
-  - '[[SRD-Wonder Room|Wonder Room]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wonder Room|Wonder Room]]'
 - - Master
-  - '[[SRD-Foul Play|Foul Play]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Foul Play|Foul Play]]'
 - - Master
-  - '[[SRD-Spite|Spite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spite|Spite]]'
 Number: 491
 ShuffleToken: SRD-darkrai-ShuffleToken.png
 Type1: Dark

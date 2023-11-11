@@ -23,59 +23,59 @@ Image: watchog.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Low Kick|Low Kick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Low Kick|Low Kick]]'
 - - Beginner
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - Beginner
-  - '[[SRD-Detect|Detect]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Detect|Detect]]'
 - - Beginner
-  - '[[SRD-Bide|Bide]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bide|Bide]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Rototiller|Rototiller]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rototiller|Rototiller]]'
 - - Amateur
-  - '[[SRD-Sand Attack|Sand Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sand Attack|Sand Attack]]'
 - - Amateur
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - Amateur
-  - '[[SRD-Hypnosis|Hypnosis]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hypnosis|Hypnosis]]'
 - - Amateur
-  - '[[SRD-Confuse Ray|Confuse Ray]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Confuse Ray|Confuse Ray]]'
 - - Amateur
-  - '[[SRD-Super Fang|Super Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Super Fang|Super Fang]]'
 - - Amateur
-  - '[[SRD-After You|After You]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-After You|After You]]'
 - - Amateur
-  - '[[SRD-Psych Up|Psych Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psych Up|Psych Up]]'
 - - Amateur
-  - '[[SRD-Focus Energy|Focus Energy]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Focus Energy|Focus Energy]]'
 - - Amateur
-  - '[[SRD-Mean Look|Mean Look]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mean Look|Mean Look]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Hyper Fang|Hyper Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hyper Fang|Hyper Fang]]'
 - - Ace
-  - '[[SRD-Nasty Plot|Nasty Plot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nasty Plot|Nasty Plot]]'
 - - Ace
-  - '[[SRD-Baton Pass|Baton Pass]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Baton Pass|Baton Pass]]'
 - - Ace
-  - '[[SRD-Slam|Slam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slam|Slam]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Fire Punch|Fire Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Punch|Fire Punch]]'
 - - Pro
-  - '[[SRD-Thunder Punch|Thunder Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Punch|Thunder Punch]]'
 - - Pro
-  - '[[SRD-Revenge|Revenge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Revenge|Revenge]]'
 Number: 505
 ShuffleToken: SRD-watchog-ShuffleToken.png
 Type1: Normal

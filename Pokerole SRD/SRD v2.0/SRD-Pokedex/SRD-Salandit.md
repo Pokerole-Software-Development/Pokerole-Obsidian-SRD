@@ -24,47 +24,47 @@ Image: salandit.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Scratch|Scratch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scratch|Scratch]]'
 - - Starter
-  - '[[SRD-Poison Gas|Poison Gas]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Poison Gas|Poison Gas]]'
 - - Starter
-  - '[[SRD-Ember|Ember]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ember|Ember]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Sweet Scent|Sweet Scent]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sweet Scent|Sweet Scent]]'
 - - Beginner
-  - '[[SRD-Dragon Rage|Dragon Rage]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Rage|Dragon Rage]]'
 - - Beginner
-  - '[[SRD-Smog|Smog]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Smog|Smog]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Double Slap|Double Slap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Slap|Double Slap]]'
 - - Amateur
-  - '[[SRD-Flame Burst|Flame Burst]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flame Burst|Flame Burst]]'
 - - Amateur
-  - '[[SRD-Toxic|Toxic]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Toxic|Toxic]]'
 - - Amateur
-  - '[[SRD-Nasty Plot|Nasty Plot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nasty Plot|Nasty Plot]]'
 - - Amateur
-  - '[[SRD-Venoshock|Venoshock]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Venoshock|Venoshock]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Flamethrower|Flamethrower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flamethrower|Flamethrower]]'
 - - Ace
-  - '[[SRD-Venom Drench|Venom Drench]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Venom Drench|Venom Drench]]'
 - - Ace
-  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Pulse|Dragon Pulse]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Attract|Attract]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Attract|Attract]]'
 - - Pro
-  - '[[SRD-Fake Out|Fake Out]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fake Out|Fake Out]]'
 - - Pro
-  - '[[SRD-Will-O-Wisp|Will-O-Wisp]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Will-O-Wisp|Will-O-Wisp]]'
 Number: 757
 ShuffleToken: SRD-salandit-ShuffleToken.png
 Type1: Poison

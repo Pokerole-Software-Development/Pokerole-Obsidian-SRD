@@ -23,59 +23,59 @@ Image: arcanine-hisuian-form.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Roar|Roar]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Roar|Roar]]'
 - - Starter
-  - '[[SRD-Ember|Ember]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ember|Ember]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - Beginner
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Odor Sleuth|Odor Sleuth]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Odor Sleuth|Odor Sleuth]]'
 - - Amateur
-  - '[[SRD-Flame Wheel|Flame Wheel]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flame Wheel|Flame Wheel]]'
 - - Amateur
-  - '[[SRD-Accelerock|Accelerock]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Accelerock|Accelerock]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Ancient Power|Ancient Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ancient Power|Ancient Power]]'
 - - Ace
-  - '[[SRD-Fire Fang|Fire Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Fang|Fire Fang]]'
 - - Ace
-  - '[[SRD-Thunder Fang|Thunder Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Fang|Thunder Fang]]'
 - - Ace
-  - '[[SRD-Work Up|Work Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Work Up|Work Up]]'
 - - Ace
-  - '[[SRD-Power Gem|Power Gem]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Power Gem|Power Gem]]'
 - - Ace
-  - '[[SRD-Flamethrower|Flamethrower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flamethrower|Flamethrower]]'
 - - Ace
-  - '[[SRD-Lava Plume|Lava Plume]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lava Plume|Lava Plume]]'
 - - Ace
-  - '[[SRD-Rock Slide|Rock Slide]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Slide|Rock Slide]]'
 - - Ace
-  - '[[SRD-Raging Fury|Raging Fury]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Raging Fury|Raging Fury]]'
 - - Ace
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - Ace
-  - '[[SRD-Morning Sun|Morning Sun]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Morning Sun|Morning Sun]]'
 - - Ace
-  - '[[SRD-Flare Blitz|Flare Blitz]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flare Blitz|Flare Blitz]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Outrage|Outrage]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Outrage|Outrage]]'
 - - Pro
-  - '[[SRD-Scorching Sands|Scorching Sands]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scorching Sands|Scorching Sands]]'
 - - Pro
-  - '[[SRD-Meteor Beam|Meteor Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Meteor Beam|Meteor Beam]]'
 - - Pro
-  - '[[SRD-Wild Charge|Wild Charge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wild Charge|Wild Charge]]'
 Number: 59
 ShuffleToken: SRD-arcanine-hisuian-form-ShuffleToken.png
 Type1: Fire

@@ -19,45 +19,45 @@ Image: dracovish.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - Starter
-  - '[[SRD-Water Gun|Water Gun]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Gun|Water Gun]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Protect|Protect]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Protect|Protect]]'
 - - Beginner
-  - '[[SRD-Brutal Swing|Brutal Swing]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Brutal Swing|Brutal Swing]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Ancient Power|Ancient Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ancient Power|Ancient Power]]'
 - - Amateur
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - Amateur
-  - '[[SRD-Dragon Breath|Dragon Breath]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Breath|Dragon Breath]]'
 - - Amateur
-  - '[[SRD-Stomp|Stomp]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stomp|Stomp]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Super Fang|Super Fang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Super Fang|Super Fang]]'
 - - Ace
-  - '[[SRD-Crunch|Crunch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crunch|Crunch]]'
 - - Ace
-  - '[[SRD-Fishious Rend|Fishious Rend]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fishious Rend|Fishious Rend]]'
 - - Ace
-  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Pulse|Dragon Pulse]]'
 - - Ace
-  - '[[SRD-Dragon Rush|Dragon Rush]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Rush|Dragon Rush]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Draco Meteor|Draco Meteor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Draco Meteor|Draco Meteor]]'
 - - Pro
-  - '[[SRD-Psychic Fangs|Psychic Fangs]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psychic Fangs|Psychic Fangs]]'
 - - Pro
-  - '[[SRD-Whirlpool|Whirlpool]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Whirlpool|Whirlpool]]'
 Number: 882
 ShuffleToken: SRD-dracovish-ShuffleToken.png
 Type1: Water

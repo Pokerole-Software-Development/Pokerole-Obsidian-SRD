@@ -23,45 +23,45 @@ Image: parasect.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Scratch|Scratch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scratch|Scratch]]'
 - - Starter
-  - '[[SRD-Stun Spore|Stun Spore]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stun Spore|Stun Spore]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Absorb|Absorb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Absorb|Absorb]]'
 - - Beginner
-  - '[[SRD-Poison Powder|Poison Powder]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Poison Powder|Poison Powder]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Cross Poison|Cross Poison]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Cross Poison|Cross Poison]]'
 - - Amateur
-  - '[[SRD-Fury Cutter|Fury Cutter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Cutter|Fury Cutter]]'
 - - Amateur
-  - '[[SRD-Spore|Spore]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spore|Spore]]'
 - - Amateur
-  - '[[SRD-Slash|Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slash|Slash]]'
 - - Amateur
-  - '[[SRD-Growth|Growth]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growth|Growth]]'
 - - Amateur
-  - '[[SRD-Giga Drain|Giga Drain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Giga Drain|Giga Drain]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Aromatherapy|Aromatherapy]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aromatherapy|Aromatherapy]]'
 - - Ace
-  - '[[SRD-Rage Powder|Rage Powder]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rage Powder|Rage Powder]]'
 - - Ace
-  - '[[SRD-X-Scissor|X-Scissor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-X-Scissor|X-Scissor]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Psybeam|Psybeam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psybeam|Psybeam]]'
 - - Pro
-  - '[[SRD-Synthesis|Synthesis]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Synthesis|Synthesis]]'
 - - Pro
-  - '[[SRD-Seed Bomb|Seed Bomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Seed Bomb|Seed Bomb]]'
 Number: 47
 ShuffleToken: SRD-parasect-ShuffleToken.png
 Type1: Bug

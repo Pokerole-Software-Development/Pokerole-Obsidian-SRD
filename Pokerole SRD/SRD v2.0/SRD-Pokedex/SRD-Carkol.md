@@ -27,43 +27,43 @@ Image: carkol.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - Starter
-  - '[[SRD-Smokescreen|Smokescreen]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Smokescreen|Smokescreen]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Flame Charge|Flame Charge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flame Charge|Flame Charge]]'
 - - Beginner
-  - '[[SRD-Rapid Spin|Rapid Spin]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rapid Spin|Rapid Spin]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Smack Down|Smack Down]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Smack Down|Smack Down]]'
 - - Amateur
-  - '[[SRD-Rock Polish|Rock Polish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Polish|Rock Polish]]'
 - - Amateur
-  - '[[SRD-Ancient Power|Ancient Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ancient Power|Ancient Power]]'
 - - Amateur
-  - '[[SRD-Incinerate|Incinerate]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Incinerate|Incinerate]]'
 - - Amateur
-  - '[[SRD-Stealth Rock|Stealth Rock]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stealth Rock|Stealth Rock]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Heat Crash|Heat Crash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heat Crash|Heat Crash]]'
 - - Ace
-  - '[[SRD-Rock Blast|Rock Blast]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Blast|Rock Blast]]'
 - - Ace
-  - '[[SRD-Burn Up|Burn Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Burn Up|Burn Up]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-High Horsepower|High Horsepower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-High Horsepower|High Horsepower]]'
 - - Pro
-  - '[[SRD-Scald|Scald]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scald|Scald]]'
 - - Pro
-  - '[[SRD-Iron Defense|Iron Defense]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Defense|Iron Defense]]'
 Number: 838
 ShuffleToken: SRD-carkol-ShuffleToken.png
 Type1: Rock

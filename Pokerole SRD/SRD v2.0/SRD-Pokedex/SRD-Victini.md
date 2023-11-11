@@ -18,45 +18,45 @@ Image: victini.png
 Legendary: 'Yes'
 Moves:
 - - Master
-  - '[[SRD-Searing Shot|Searing Shot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Searing Shot|Searing Shot]]'
 - - Master
-  - '[[SRD-Focus Energy|Focus Energy]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Focus Energy|Focus Energy]]'
 - - Master
-  - '[[SRD-Confusion|Confusion]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Confusion|Confusion]]'
 - - Master
-  - '[[SRD-Incinerate|Incinerate]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Incinerate|Incinerate]]'
 - - Master
-  - '[[SRD-Quick Attack|Quick Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quick Attack|Quick Attack]]'
 - - Master
-  - '[[SRD-Endure|Endure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endure|Endure]]'
 - - Master
-  - '[[SRD-Headbutt|Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Headbutt|Headbutt]]'
 - - Master
-  - '[[SRD-Flame Charge|Flame Charge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flame Charge|Flame Charge]]'
 - - Master
-  - '[[SRD-Reversal|Reversal]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Reversal|Reversal]]'
 - - Master
-  - '[[SRD-Flame Burst|Flame Burst]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flame Burst|Flame Burst]]'
 - - Master
-  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Zen Headbutt|Zen Headbutt]]'
 - - Master
-  - '[[SRD-Inferno|Inferno]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Inferno|Inferno]]'
 - - Master
-  - '[[SRD-Double-Edge|Double-Edge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double-Edge|Double-Edge]]'
 - - Master
-  - '[[SRD-Flare Blitz|Flare Blitz]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flare Blitz|Flare Blitz]]'
 - - Master
-  - '[[SRD-Final Gambit|Final Gambit]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Final Gambit|Final Gambit]]'
 - - Master
-  - '[[SRD-Stored Power|Stored Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stored Power|Stored Power]]'
 - - Master
-  - '[[SRD-Overheat|Overheat]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Overheat|Overheat]]'
 - - Master
-  - '[[SRD-Trick|Trick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Trick|Trick]]'
 - - Master
-  - '[[SRD-Shock Wave|Shock Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shock Wave|Shock Wave]]'
 - - Master
-  - '[[SRD-V-Create|V-Create]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-V-Create|V-Create]]'
 Number: 494
 ShuffleToken: SRD-victini-ShuffleToken.png
 Type1: Psychic

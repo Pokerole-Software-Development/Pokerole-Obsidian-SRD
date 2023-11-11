@@ -23,51 +23,51 @@ Image: volcarona.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Ember|Ember]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ember|Ember]]'
 - - Starter
-  - '[[SRD-String Shot|String Shot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-String Shot|String Shot]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Absorb|Absorb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Absorb|Absorb]]'
 - - Beginner
-  - '[[SRD-Gust|Gust]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gust|Gust]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Fire Spin|Fire Spin]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Spin|Fire Spin]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Rage Powder|Rage Powder]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rage Powder|Rage Powder]]'
 - - Ace
-  - '[[SRD-Quiver Dance|Quiver Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quiver Dance|Quiver Dance]]'
 - - Ace
-  - '[[SRD-Amnesia|Amnesia]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Amnesia|Amnesia]]'
 - - Ace
-  - '[[SRD-Fiery Dance|Fiery Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fiery Dance|Fiery Dance]]'
 - - Ace
-  - '[[SRD-Whirlwind|Whirlwind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Whirlwind|Whirlwind]]'
 - - Ace
-  - '[[SRD-Silver Wind|Silver Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Silver Wind|Silver Wind]]'
 - - Ace
-  - '[[SRD-Heat Wave|Heat Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heat Wave|Heat Wave]]'
 - - Ace
-  - '[[SRD-Bug Buzz|Bug Buzz]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bug Buzz|Bug Buzz]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Thrash|Thrash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thrash|Thrash]]'
 - - Pro
-  - '[[SRD-Hurricane|Hurricane]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hurricane|Hurricane]]'
 - - Pro
-  - '[[SRD-Flare Blitz|Flare Blitz]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flare Blitz|Flare Blitz]]'
 - - Pro
-  - '[[SRD-Tailwind|Tailwind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tailwind|Tailwind]]'
 - - Pro
-  - '[[SRD-Morning Sun|Morning Sun]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Morning Sun|Morning Sun]]'
 - - Pro
-  - '[[SRD-Magnet Rise|Magnet Rise]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magnet Rise|Magnet Rise]]'
 Number: 637
 ShuffleToken: SRD-volcarona-ShuffleToken.png
 Type1: Bug

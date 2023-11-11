@@ -23,51 +23,51 @@ Image: rhyperior.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tail Whip|Tail Whip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tail Whip|Tail Whip]]'
 - - Starter
-  - '[[SRD-Horn Attack|Horn Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Horn Attack|Horn Attack]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Stomp|Stomp]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stomp|Stomp]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Poison Jab|Poison Jab]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Poison Jab|Poison Jab]]'
 - - Amateur
-  - '[[SRD-Fury Attack|Fury Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Attack|Fury Attack]]'
 - - Amateur
-  - '[[SRD-Scary Face|Scary Face]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scary Face|Scary Face]]'
 - - Amateur
-  - '[[SRD-Rock Blast|Rock Blast]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Blast|Rock Blast]]'
 - - Amateur
-  - '[[SRD-Chip Away|Chip Away]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Chip Away|Chip Away]]'
 - - Amateur
-  - '[[SRD-Take Down|Take Down]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Take Down|Take Down]]'
 - - Amateur
-  - '[[SRD-Hammer Arm|Hammer Arm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hammer Arm|Hammer Arm]]'
 - - Amateur
-  - '[[SRD-Drill Run|Drill Run]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Drill Run|Drill Run]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Stone Edge|Stone Edge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stone Edge|Stone Edge]]'
 - - Ace
-  - '[[SRD-Earthquake|Earthquake]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Earthquake|Earthquake]]'
 - - Ace
-  - '[[SRD-Horn Drill|Horn Drill]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Horn Drill|Horn Drill]]'
 - - Ace
-  - '[[SRD-Megahorn|Megahorn]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Megahorn|Megahorn]]'
 - - Ace
-  - '[[SRD-Rock Wrecker|Rock Wrecker]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Wrecker|Rock Wrecker]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Guard Split|Guard Split]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Guard Split|Guard Split]]'
 - - Pro
-  - '[[SRD-Smart Strike|Smart Strike]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Smart Strike|Smart Strike]]'
 - - Pro
-  - '[[SRD-Dragon Rush|Dragon Rush]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Rush|Dragon Rush]]'
 Number: 464
 ShuffleToken: SRD-rhyperior-ShuffleToken.png
 Type1: Ground

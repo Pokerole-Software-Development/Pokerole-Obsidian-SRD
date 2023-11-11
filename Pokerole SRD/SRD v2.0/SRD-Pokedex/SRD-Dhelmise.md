@@ -19,55 +19,55 @@ Image: dhelmise.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Growth|Growth]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growth|Growth]]'
 - - Starter
-  - '[[SRD-Absorb|Absorb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Absorb|Absorb]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Mega Drain|Mega Drain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mega Drain|Mega Drain]]'
 - - Beginner
-  - '[[SRD-Rapid Spin|Rapid Spin]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rapid Spin|Rapid Spin]]'
 - - Beginner
-  - '[[SRD-Astonish|Astonish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Astonish|Astonish]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Switcheroo|Switcheroo]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Switcheroo|Switcheroo]]'
 - - Amateur
-  - '[[SRD-Wrap|Wrap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wrap|Wrap]]'
 - - Amateur
-  - '[[SRD-Gyro Ball|Gyro Ball]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gyro Ball|Gyro Ball]]'
 - - Amateur
-  - '[[SRD-Metal Sound|Metal Sound]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Metal Sound|Metal Sound]]'
 - - Amateur
-  - '[[SRD-Giga Drain|Giga Drain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Giga Drain|Giga Drain]]'
 - - Amateur
-  - '[[SRD-Whirlpool|Whirlpool]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Whirlpool|Whirlpool]]'
 - - Amateur
-  - '[[SRD-Anchor Shot|Anchor Shot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Anchor Shot|Anchor Shot]]'
 - - Amateur
-  - '[[SRD-Shadow Ball|Shadow Ball]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shadow Ball|Shadow Ball]]'
 - - Amateur
-  - '[[SRD-Slam|Slam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slam|Slam]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Energy Ball|Energy Ball]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Energy Ball|Energy Ball]]'
 - - Ace
-  - '[[SRD-Heavy Slam|Heavy Slam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heavy Slam|Heavy Slam]]'
 - - Ace
-  - '[[SRD-Shadow Force|Shadow Force]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shadow Force|Shadow Force]]'
 - - Ace
-  - '[[SRD-Power Whip|Power Whip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Power Whip|Power Whip]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Surf|Surf]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Surf|Surf]]'
 - - Pro
-  - '[[SRD-Grass Knot|Grass Knot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Grass Knot|Grass Knot]]'
 - - Pro
-  - '[[SRD-Brutal Swing|Brutal Swing]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Brutal Swing|Brutal Swing]]'
 Number: 781
 ShuffleToken: SRD-dhelmise-ShuffleToken.png
 Type1: Ghost

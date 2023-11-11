@@ -27,29 +27,29 @@ Image: clamperl.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Clamp|Clamp]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Clamp|Clamp]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Water Gun|Water Gun]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Gun|Water Gun]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Iron Defense|Iron Defense]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Defense|Iron Defense]]'
 - - Amateur
-  - '[[SRD-Whirlpool|Whirlpool]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Whirlpool|Whirlpool]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Shell Smash|Shell Smash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shell Smash|Shell Smash]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Refresh|Refresh]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Refresh|Refresh]]'
 - - Pro
-  - '[[SRD-Endure|Endure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endure|Endure]]'
 - - Pro
-  - '[[SRD-Mud Sport|Mud Sport]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Sport|Mud Sport]]'
 Number: 366
 ShuffleToken: SRD-clamperl-ShuffleToken.png
 Type1: Water

@@ -23,45 +23,45 @@ Image: corviknight.png
 Legendary: 'No'
 Moves:
 - - Beginner
-  - '[[SRD-Peck|Peck]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Peck|Peck]]'
 - - Beginner
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Steel Wing|Steel Wing]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Steel Wing|Steel Wing]]'
 - - Amateur
-  - '[[SRD-Iron Defense|Iron Defense]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Defense|Iron Defense]]'
 - - Amateur
-  - '[[SRD-Metal Sound|Metal Sound]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Metal Sound|Metal Sound]]'
 - - Amateur
-  - '[[SRD-Power Trip|Power Trip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Power Trip|Power Trip]]'
 - - Amateur
-  - '[[SRD-Hone Claws|Hone Claws]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hone Claws|Hone Claws]]'
 - - Amateur
-  - '[[SRD-Fury Attack|Fury Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fury Attack|Fury Attack]]'
 - - Amateur
-  - '[[SRD-Pluck|Pluck]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pluck|Pluck]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Taunt|Taunt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Taunt|Taunt]]'
 - - Ace
-  - '[[SRD-Scary Face|Scary Face]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Scary Face|Scary Face]]'
 - - Ace
-  - '[[SRD-Drill Peck|Drill Peck]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Drill Peck|Drill Peck]]'
 - - Ace
-  - '[[SRD-Swagger|Swagger]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swagger|Swagger]]'
 - - Ace
-  - '[[SRD-Brave Bird|Brave Bird]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Brave Bird|Brave Bird]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Roost|Roost]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Roost|Roost]]'
 - - Pro
-  - '[[SRD-Sky Attack|Sky Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sky Attack|Sky Attack]]'
 - - Pro
-  - '[[SRD-Steel Beam|Steel Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Steel Beam|Steel Beam]]'
 Number: 823
 ShuffleToken: SRD-corviknight-ShuffleToken.png
 Type1: Flying

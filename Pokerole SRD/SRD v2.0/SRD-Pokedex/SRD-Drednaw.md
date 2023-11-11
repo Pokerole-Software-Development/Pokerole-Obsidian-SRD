@@ -23,45 +23,45 @@ Image: drednaw.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Water Gun|Water Gun]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Gun|Water Gun]]'
 - - Beginner
-  - '[[SRD-Razor Shell|Razor Shell]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Razor Shell|Razor Shell]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Rock Tomb|Rock Tomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Tomb|Rock Tomb]]'
 - - Amateur
-  - '[[SRD-Rock Polish|Rock Polish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Polish|Rock Polish]]'
 - - Amateur
-  - '[[SRD-Bite|Bite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bite|Bite]]'
 - - Amateur
-  - '[[SRD-Protect|Protect]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Protect|Protect]]'
 - - Amateur
-  - '[[SRD-Headbutt|Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Headbutt|Headbutt]]'
 - - Amateur
-  - '[[SRD-Counter|Counter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Counter|Counter]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Jaw Lock|Jaw Lock]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Jaw Lock|Jaw Lock]]'
 - - Ace
-  - '[[SRD-Liquidation|Liquidation]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Liquidation|Liquidation]]'
 - - Ace
-  - '[[SRD-Body Slam|Body Slam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Body Slam|Body Slam]]'
 - - Ace
-  - '[[SRD-Head Smash|Head Smash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Head Smash|Head Smash]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Dive|Dive]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dive|Dive]]'
 - - Pro
-  - '[[SRD-Dragon Tail|Dragon Tail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Tail|Dragon Tail]]'
 - - Pro
-  - '[[SRD-Skull Bash|Skull Bash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Skull Bash|Skull Bash]]'
 Number: 834
 ShuffleToken: SRD-drednaw-ShuffleToken.png
 Type1: Water

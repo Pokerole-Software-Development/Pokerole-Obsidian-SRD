@@ -24,51 +24,51 @@ Image: marowak-alolan-form.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Growl|Growl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growl|Growl]]'
 - - Starter
-  - '[[SRD-Tail Whip|Tail Whip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tail Whip|Tail Whip]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Bone Club|Bone Club]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bone Club|Bone Club]]'
 - - Beginner
-  - '[[SRD-Hex|Hex]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hex|Hex]]'
 - - Beginner
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Flame Wheel|Flame Wheel]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flame Wheel|Flame Wheel]]'
 - - Amateur
-  - '[[SRD-Bonemerang|Bonemerang]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bonemerang|Bonemerang]]'
 - - Amateur
-  - '[[SRD-Will-O-Wisp|Will-O-Wisp]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Will-O-Wisp|Will-O-Wisp]]'
 - - Amateur
-  - '[[SRD-Shadow Bone|Shadow Bone]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shadow Bone|Shadow Bone]]'
 - - Amateur
-  - '[[SRD-Endeavor|Endeavor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endeavor|Endeavor]]'
 - - Amateur
-  - '[[SRD-Fling|Fling]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fling|Fling]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Stomping Tantrum|Stomping Tantrum]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stomping Tantrum|Stomping Tantrum]]'
 - - Ace
-  - '[[SRD-Thrash|Thrash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thrash|Thrash]]'
 - - Ace
-  - '[[SRD-Flare Blitz|Flare Blitz]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flare Blitz|Flare Blitz]]'
 - - Ace
-  - '[[SRD-Retaliate|Retaliate]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Retaliate|Retaliate]]'
 - - Ace
-  - '[[SRD-Bone Rush|Bone Rush]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bone Rush|Bone Rush]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Perish Song|Perish Song]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Perish Song|Perish Song]]'
 - - Pro
-  - '[[SRD-Brutal Swing|Brutal Swing]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Brutal Swing|Brutal Swing]]'
 - - Pro
-  - '[[SRD-Flame Charge|Flame Charge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flame Charge|Flame Charge]]'
 Number: 105
 ShuffleToken: SRD-marowak-alolan-form-ShuffleToken.png
 Type1: Fire

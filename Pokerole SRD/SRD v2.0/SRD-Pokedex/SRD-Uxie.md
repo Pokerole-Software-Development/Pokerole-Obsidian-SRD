@@ -19,41 +19,41 @@ Image: uxie.png
 Legendary: 'Yes'
 Moves:
 - - Master
-  - '[[SRD-Memento|Memento]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Memento|Memento]]'
 - - Master
-  - '[[SRD-Natural Gift|Natural Gift]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Natural Gift|Natural Gift]]'
 - - Master
-  - '[[SRD-Flail|Flail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flail|Flail]]'
 - - Master
-  - '[[SRD-Rest|Rest]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rest|Rest]]'
 - - Master
-  - '[[SRD-Confusion|Confusion]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Confusion|Confusion]]'
 - - Master
-  - '[[SRD-Imprison|Imprison]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Imprison|Imprison]]'
 - - Master
-  - '[[SRD-Endure|Endure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endure|Endure]]'
 - - Master
-  - '[[SRD-Swift|Swift]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swift|Swift]]'
 - - Master
-  - '[[SRD-Yawn|Yawn]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Yawn|Yawn]]'
 - - Master
-  - '[[SRD-Future Sight|Future Sight]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Future Sight|Future Sight]]'
 - - Master
-  - '[[SRD-Amnesia|Amnesia]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Amnesia|Amnesia]]'
 - - Master
-  - '[[SRD-Extrasensory|Extrasensory]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Extrasensory|Extrasensory]]'
 - - Master
-  - '[[SRD-Foul Play|Foul Play]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Foul Play|Foul Play]]'
 - - Master
-  - '[[SRD-Hidden Power|Hidden Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hidden Power|Hidden Power]]'
 - - Master
-  - '[[SRD-Psych Up|Psych Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psych Up|Psych Up]]'
 - - Master
-  - '[[SRD-Trick Room|Trick Room]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Trick Room|Trick Room]]'
 - - Master
-  - '[[SRD-Magic Room|Magic Room]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magic Room|Magic Room]]'
 - - Master
-  - '[[SRD-Wonder Room|Wonder Room]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wonder Room|Wonder Room]]'
 Number: 480
 ShuffleToken: SRD-uxie-ShuffleToken.png
 Type1: Psychic

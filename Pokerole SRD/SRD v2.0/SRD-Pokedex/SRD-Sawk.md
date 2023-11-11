@@ -19,49 +19,49 @@ Image: sawk.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Rock Smash|Rock Smash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Smash|Rock Smash]]'
 - - Starter
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Bide|Bide]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bide|Bide]]'
 - - Beginner
-  - '[[SRD-Focus Energy|Focus Energy]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Focus Energy|Focus Energy]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Double Kick|Double Kick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Kick|Double Kick]]'
 - - Amateur
-  - '[[SRD-Low Sweep|Low Sweep]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Low Sweep|Low Sweep]]'
 - - Amateur
-  - '[[SRD-Counter|Counter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Counter|Counter]]'
 - - Amateur
-  - '[[SRD-Karate Chop|Karate Chop]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Karate Chop|Karate Chop]]'
 - - Amateur
-  - '[[SRD-Brick Break|Brick Break]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Brick Break|Brick Break]]'
 - - Amateur
-  - '[[SRD-Bulk Up|Bulk Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bulk Up|Bulk Up]]'
 - - Amateur
-  - '[[SRD-Retaliate|Retaliate]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Retaliate|Retaliate]]'
 - - Amateur
-  - '[[SRD-Endure|Endure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endure|Endure]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Quick Guard|Quick Guard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quick Guard|Quick Guard]]'
 - - Ace
-  - '[[SRD-Close Combat|Close Combat]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Close Combat|Close Combat]]'
 - - Ace
-  - '[[SRD-Reversal|Reversal]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Reversal|Reversal]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Dual Chop|Dual Chop]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dual Chop|Dual Chop]]'
 - - Pro
-  - '[[SRD-Helping Hand|Helping Hand]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Helping Hand|Helping Hand]]'
 - - Pro
-  - '[[SRD-Block|Block]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Block|Block]]'
 Number: 539
 ShuffleToken: SRD-sawk-ShuffleToken.png
 Type1: Fighting

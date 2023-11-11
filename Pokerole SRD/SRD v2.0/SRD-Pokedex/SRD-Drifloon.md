@@ -23,49 +23,49 @@ Image: drifloon.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Constrict|Constrict]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Constrict|Constrict]]'
 - - Starter
-  - '[[SRD-Minimize|Minimize]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Minimize|Minimize]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Astonish|Astonish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Astonish|Astonish]]'
 - - Beginner
-  - '[[SRD-Gust|Gust]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gust|Gust]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Focus Energy|Focus Energy]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Focus Energy|Focus Energy]]'
 - - Amateur
-  - '[[SRD-Payback|Payback]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Payback|Payback]]'
 - - Amateur
-  - '[[SRD-Ominous Wind|Ominous Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ominous Wind|Ominous Wind]]'
 - - Amateur
-  - '[[SRD-Stockpile|Stockpile]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stockpile|Stockpile]]'
 - - Amateur
-  - '[[SRD-Hex|Hex]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hex|Hex]]'
 - - Amateur
-  - '[[SRD-Swallow|Swallow]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swallow|Swallow]]'
 - - Amateur
-  - '[[SRD-Spit Up|Spit Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spit Up|Spit Up]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Shadow Ball|Shadow Ball]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shadow Ball|Shadow Ball]]'
 - - Ace
-  - '[[SRD-Amnesia|Amnesia]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Amnesia|Amnesia]]'
 - - Ace
-  - '[[SRD-Baton Pass|Baton Pass]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Baton Pass|Baton Pass]]'
 - - Ace
-  - '[[SRD-Explosion|Explosion]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Explosion|Explosion]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Disable|Disable]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Disable|Disable]]'
 - - Pro
-  - '[[SRD-Weather Ball|Weather Ball]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Weather Ball|Weather Ball]]'
 - - Pro
-  - '[[SRD-Sucker Punch|Sucker Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sucker Punch|Sucker Punch]]'
 Number: 425
 ShuffleToken: SRD-drifloon-ShuffleToken.png
 Type1: Ghost

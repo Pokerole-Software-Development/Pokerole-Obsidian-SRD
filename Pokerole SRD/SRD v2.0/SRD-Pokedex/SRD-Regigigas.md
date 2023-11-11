@@ -18,45 +18,45 @@ Image: regigigas.png
 Legendary: 'Yes'
 Moves:
 - - Master
-  - '[[SRD-Heavy Slam|Heavy Slam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heavy Slam|Heavy Slam]]'
 - - Master
-  - '[[SRD-Crush Grip|Crush Grip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Crush Grip|Crush Grip]]'
 - - Master
-  - '[[SRD-Fire Punch|Fire Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Punch|Fire Punch]]'
 - - Master
-  - '[[SRD-Ice Punch|Ice Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Punch|Ice Punch]]'
 - - Master
-  - '[[SRD-Thunder Punch|Thunder Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Punch|Thunder Punch]]'
 - - Master
-  - '[[SRD-Dizzy Punch|Dizzy Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dizzy Punch|Dizzy Punch]]'
 - - Master
-  - '[[SRD-Knock Off|Knock Off]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Knock Off|Knock Off]]'
 - - Master
-  - '[[SRD-Confuse Ray|Confuse Ray]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Confuse Ray|Confuse Ray]]'
 - - Master
-  - '[[SRD-Foresight|Foresight]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Foresight|Foresight]]'
 - - Master
-  - '[[SRD-Revenge|Revenge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Revenge|Revenge]]'
 - - Master
-  - '[[SRD-Wide Guard|Wide Guard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wide Guard|Wide Guard]]'
 - - Master
-  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Zen Headbutt|Zen Headbutt]]'
 - - Master
-  - '[[SRD-Payback|Payback]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Payback|Payback]]'
 - - Master
-  - '[[SRD-Hidden Power|Hidden Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hidden Power|Hidden Power]]'
 - - Master
-  - '[[SRD-Psych Up|Psych Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psych Up|Psych Up]]'
 - - Master
-  - '[[SRD-Giga Impact|Giga Impact]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Giga Impact|Giga Impact]]'
 - - Master
-  - '[[SRD-Substitute|Substitute]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Substitute|Substitute]]'
 - - Master
-  - '[[SRD-Strength|Strength]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Strength|Strength]]'
 - - Master
-  - '[[SRD-Superpower|Superpower]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Superpower|Superpower]]'
 - - Master
-  - '[[SRD-Nature Power|Nature Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nature Power|Nature Power]]'
 Number: 486
 ShuffleToken: SRD-regigigas-ShuffleToken.png
 Type1: Normal

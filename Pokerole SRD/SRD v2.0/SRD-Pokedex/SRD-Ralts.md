@@ -23,53 +23,53 @@ Image: ralts.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Growl|Growl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growl|Growl]]'
 - - Starter
-  - '[[SRD-Double Team|Double Team]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Team|Double Team]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Confusion|Confusion]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Confusion|Confusion]]'
 - - Beginner
-  - '[[SRD-Disarming Voice|Disarming Voice]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Disarming Voice|Disarming Voice]]'
 - - Beginner
-  - '[[SRD-Teleport|Teleport]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Teleport|Teleport]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Lucky Chant|Lucky Chant]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lucky Chant|Lucky Chant]]'
 - - Amateur
-  - '[[SRD-Magical Leaf|Magical Leaf]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magical Leaf|Magical Leaf]]'
 - - Amateur
-  - '[[SRD-Draining Kiss|Draining Kiss]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Draining Kiss|Draining Kiss]]'
 - - Amateur
-  - '[[SRD-Heal Pulse|Heal Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heal Pulse|Heal Pulse]]'
 - - Amateur
-  - '[[SRD-Calm Mind|Calm Mind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Calm Mind|Calm Mind]]'
 - - Amateur
-  - '[[SRD-Psychic|Psychic]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psychic|Psychic]]'
 - - Amateur
-  - '[[SRD-Imprison|Imprison]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Imprison|Imprison]]'
 - - Amateur
-  - '[[SRD-Charm|Charm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charm|Charm]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Future Sight|Future Sight]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Future Sight|Future Sight]]'
 - - Ace
-  - '[[SRD-Hypnosis|Hypnosis]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hypnosis|Hypnosis]]'
 - - Ace
-  - '[[SRD-Dream Eater|Dream Eater]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dream Eater|Dream Eater]]'
 - - Ace
-  - '[[SRD-Stored Power|Stored Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stored Power|Stored Power]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Helping Hand|Helping Hand]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Helping Hand|Helping Hand]]'
 - - Pro
-  - '[[SRD-Telekinesis|Telekinesis]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Telekinesis|Telekinesis]]'
 - - Pro
-  - '[[SRD-Mean Look|Mean Look]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mean Look|Mean Look]]'
 Number: 280
 ShuffleToken: SRD-ralts-ShuffleToken.png
 Type1: Psychic

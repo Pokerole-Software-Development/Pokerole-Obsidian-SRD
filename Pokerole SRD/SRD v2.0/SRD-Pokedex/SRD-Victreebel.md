@@ -23,39 +23,39 @@ Image: victreebel.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Vine Whip|Vine Whip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Vine Whip|Vine Whip]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Swallow|Swallow]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swallow|Swallow]]'
 - - Beginner
-  - '[[SRD-Spit Up|Spit Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spit Up|Spit Up]]'
 - - Beginner
-  - '[[SRD-Stockpile|Stockpile]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stockpile|Stockpile]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Sleep Powder|Sleep Powder]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sleep Powder|Sleep Powder]]'
 - - Amateur
-  - '[[SRD-Sweet Scent|Sweet Scent]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sweet Scent|Sweet Scent]]'
 - - Amateur
-  - '[[SRD-Razor Leaf|Razor Leaf]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Razor Leaf|Razor Leaf]]'
 - - Amateur
-  - '[[SRD-Leaf Tornado|Leaf Tornado]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leaf Tornado|Leaf Tornado]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Leaf Storm|Leaf Storm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leaf Storm|Leaf Storm]]'
 - - Ace
-  - '[[SRD-Leaf Blade|Leaf Blade]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leaf Blade|Leaf Blade]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Belch|Belch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Belch|Belch]]'
 - - Pro
-  - '[[SRD-Power Whip|Power Whip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Power Whip|Power Whip]]'
 - - Pro
-  - '[[SRD-Synthesis|Synthesis]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Synthesis|Synthesis]]'
 Number: 71
 ShuffleToken: SRD-victreebel-ShuffleToken.png
 Type1: Grass

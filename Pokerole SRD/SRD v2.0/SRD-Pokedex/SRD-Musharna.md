@@ -23,29 +23,29 @@ Image: musharna.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Psychic Terrain|Psychic Terrain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psychic Terrain|Psychic Terrain]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Defense Curl|Defense Curl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Defense Curl|Defense Curl]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Psybeam|Psybeam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psybeam|Psybeam]]'
 - - Amateur
-  - '[[SRD-Hypnosis|Hypnosis]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hypnosis|Hypnosis]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Lucky Chant|Lucky Chant]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lucky Chant|Lucky Chant]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Pain Split|Pain Split]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pain Split|Pain Split]]'
 - - Pro
-  - '[[SRD-Heal Bell|Heal Bell]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heal Bell|Heal Bell]]'
 - - Pro
-  - '[[SRD-Healing Wish|Healing Wish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Healing Wish|Healing Wish]]'
 Number: 518
 ShuffleToken: SRD-musharna-ShuffleToken.png
 Type1: Psychic

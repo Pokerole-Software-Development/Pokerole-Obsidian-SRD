@@ -23,31 +23,31 @@ Image: poliwrath.png
 Legendary: 'No'
 Moves:
 - - Beginner
-  - '[[SRD-Circle Throw|Circle Throw]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Circle Throw|Circle Throw]]'
 - - Beginner
-  - '[[SRD-Hypnosis|Hypnosis]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hypnosis|Hypnosis]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Bubble Beam|Bubble Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bubble Beam|Bubble Beam]]'
 - - Amateur
-  - '[[SRD-Double Slap|Double Slap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Slap|Double Slap]]'
 - - Amateur
-  - '[[SRD-Submission|Submission]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Submission|Submission]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Dynamic Punch|Dynamic Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dynamic Punch|Dynamic Punch]]'
 - - Ace
-  - '[[SRD-Mind Reader|Mind Reader]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mind Reader|Mind Reader]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Ice Punch|Ice Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Punch|Ice Punch]]'
 - - Pro
-  - '[[SRD-Seismic Toss|Seismic Toss]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Seismic Toss|Seismic Toss]]'
 - - Pro
-  - '[[SRD-Counter|Counter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Counter|Counter]]'
 Number: 62
 ShuffleToken: SRD-poliwrath-ShuffleToken.png
 Type1: Water

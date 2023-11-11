@@ -23,51 +23,51 @@ Image: latias-mega-form.png
 Legendary: 'Yes'
 Moves:
 - - Starter
-  - '[[SRD-Helping Hand|Helping Hand]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Helping Hand|Helping Hand]]'
 - - Starter
-  - '[[SRD-Safeguard|Safeguard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Safeguard|Safeguard]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Psywave|Psywave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psywave|Psywave]]'
 - - Pro
-  - '[[SRD-Wish|Wish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wish|Wish]]'
 - - Pro
-  - '[[SRD-Water Sport|Water Sport]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Water Sport|Water Sport]]'
 - - Pro
-  - '[[SRD-Charm|Charm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charm|Charm]]'
 - - Pro
-  - '[[SRD-Stored Power|Stored Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stored Power|Stored Power]]'
 - - Pro
-  - '[[SRD-Refresh|Refresh]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Refresh|Refresh]]'
 - - Pro
-  - '[[SRD-Heal Pulse|Heal Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Heal Pulse|Heal Pulse]]'
 - - Pro
-  - '[[SRD-Dragon Breath|Dragon Breath]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Breath|Dragon Breath]]'
 - - Pro
-  - '[[SRD-Mist Ball|Mist Ball]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mist Ball|Mist Ball]]'
 - - Pro
-  - '[[SRD-Psycho Shift|Psycho Shift]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psycho Shift|Psycho Shift]]'
 - - Pro
-  - '[[SRD-Recover|Recover]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Recover|Recover]]'
 - - Pro
-  - '[[SRD-Reflect Type|Reflect Type]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Reflect Type|Reflect Type]]'
 - - Pro
-  - '[[SRD-Zen Headbutt|Zen Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Zen Headbutt|Zen Headbutt]]'
 - - Pro
-  - '[[SRD-Guard Split|Guard Split]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Guard Split|Guard Split]]'
 - - Pro
-  - '[[SRD-Psychic|Psychic]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psychic|Psychic]]'
 - - Pro
-  - '[[SRD-Dragon Pulse|Dragon Pulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dragon Pulse|Dragon Pulse]]'
 - - Pro
-  - '[[SRD-Healing Wish|Healing Wish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Healing Wish|Healing Wish]]'
 - - Pro
-  - '[[SRD-Camouflage|Camouflage]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Camouflage|Camouflage]]'
 - - Pro
-  - '[[SRD-Transform|Transform]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Transform|Transform]]'
 - - Pro
-  - '[[SRD-Role Play|Role Play]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Role Play|Role Play]]'
 Number: 380
 ShuffleToken: SRD-latias-mega-form-ShuffleToken.png
 Type1: Dragon

@@ -24,23 +24,23 @@ Image: feebas.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Splash|Splash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Splash|Splash]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - Amateur
-  - '[[SRD-Flail|Flail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flail|Flail]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Brine|Brine]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Brine|Brine]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Mud Sport|Mud Sport]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mud Sport|Mud Sport]]'
 - - Pro
-  - '[[SRD-Dive|Dive]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Dive|Dive]]'
 Number: 349
 ShuffleToken: SRD-feebas-ShuffleToken.png
 Type1: Water

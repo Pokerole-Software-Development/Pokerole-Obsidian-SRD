@@ -27,51 +27,51 @@ Image: porygon2.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Conversion|Conversion]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Conversion|Conversion]]'
 - - Starter
-  - '[[SRD-Conversion 2|Conversion 2]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Conversion 2|Conversion 2]]'
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Defense Curl|Defense Curl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Defense Curl|Defense Curl]]'
 - - Beginner
-  - '[[SRD-Psybeam|Psybeam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psybeam|Psybeam]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Agility|Agility]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Agility|Agility]]'
 - - Amateur
-  - '[[SRD-Recover|Recover]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Recover|Recover]]'
 - - Amateur
-  - '[[SRD-Magnet Rise|Magnet Rise]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magnet Rise|Magnet Rise]]'
 - - Amateur
-  - '[[SRD-Signal Beam|Signal Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Signal Beam|Signal Beam]]'
 - - Amateur
-  - '[[SRD-Recycle|Recycle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Recycle|Recycle]]'
 - - Amateur
-  - '[[SRD-Discharge|Discharge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Discharge|Discharge]]'
 - - Amateur
-  - '[[SRD-Lock-On|Lock-On]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lock-On|Lock-On]]'
 - - Amateur
-  - '[[SRD-Tri Attack|Tri Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tri Attack|Tri Attack]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Magic Coat|Magic Coat]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magic Coat|Magic Coat]]'
 - - Ace
-  - '[[SRD-Zap Cannon|Zap Cannon]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Zap Cannon|Zap Cannon]]'
 - - Ace
-  - '[[SRD-Hyper Beam|Hyper Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hyper Beam|Hyper Beam]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Gravity|Gravity]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gravity|Gravity]]'
 - - Pro
-  - '[[SRD-Pain Split|Pain Split]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pain Split|Pain Split]]'
 - - Pro
-  - '[[SRD-Shock Wave|Shock Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shock Wave|Shock Wave]]'
 Number: 233
 ShuffleToken: SRD-porygon2-ShuffleToken.png
 Type1: Normal

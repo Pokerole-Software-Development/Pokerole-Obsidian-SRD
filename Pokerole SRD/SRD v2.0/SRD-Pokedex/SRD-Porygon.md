@@ -23,49 +23,49 @@ Image: porygon.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Conversion|Conversion]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Conversion|Conversion]]'
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Conversion 2|Conversion 2]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Conversion 2|Conversion 2]]'
 - - Beginner
-  - '[[SRD-Sharpen|Sharpen]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sharpen|Sharpen]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Psybeam|Psybeam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psybeam|Psybeam]]'
 - - Amateur
-  - '[[SRD-Agility|Agility]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Agility|Agility]]'
 - - Amateur
-  - '[[SRD-Recover|Recover]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Recover|Recover]]'
 - - Amateur
-  - '[[SRD-Magnet Rise|Magnet Rise]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magnet Rise|Magnet Rise]]'
 - - Amateur
-  - '[[SRD-Signal Beam|Signal Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Signal Beam|Signal Beam]]'
 - - Amateur
-  - '[[SRD-Recycle|Recycle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Recycle|Recycle]]'
 - - Amateur
-  - '[[SRD-Discharge|Discharge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Discharge|Discharge]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Lock-On|Lock-On]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lock-On|Lock-On]]'
 - - Ace
-  - '[[SRD-Tri Attack|Tri Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tri Attack|Tri Attack]]'
 - - Ace
-  - '[[SRD-Magic Coat|Magic Coat]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magic Coat|Magic Coat]]'
 - - Ace
-  - '[[SRD-Zap Cannon|Zap Cannon]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Zap Cannon|Zap Cannon]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Electroweb|Electroweb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Electroweb|Electroweb]]'
 - - Pro
-  - '[[SRD-Foul Play|Foul Play]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Foul Play|Foul Play]]'
 - - Pro
-  - '[[SRD-Pain Split|Pain Split]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Pain Split|Pain Split]]'
 Number: 137
 ShuffleToken: SRD-porygon-ShuffleToken.png
 Type1: Normal

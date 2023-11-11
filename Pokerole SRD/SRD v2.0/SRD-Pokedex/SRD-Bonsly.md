@@ -23,47 +23,47 @@ Image: bonsly.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Fake Tears|Fake Tears]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fake Tears|Fake Tears]]'
 - - Starter
-  - '[[SRD-Copycat|Copycat]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Copycat|Copycat]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Flail|Flail]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flail|Flail]]'
 - - Beginner
-  - '[[SRD-Low Kick|Low Kick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Low Kick|Low Kick]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Rock Throw|Rock Throw]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Throw|Rock Throw]]'
 - - Amateur
-  - '[[SRD-Mimic|Mimic]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mimic|Mimic]]'
 - - Amateur
-  - '[[SRD-Feint Attack|Feint Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feint Attack|Feint Attack]]'
 - - Amateur
-  - '[[SRD-Rock Tomb|Rock Tomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Tomb|Rock Tomb]]'
 - - Amateur
-  - '[[SRD-Tearful Look|Tearful Look]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tearful Look|Tearful Look]]'
 - - Amateur
-  - '[[SRD-Block|Block]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Block|Block]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Rock Slide|Rock Slide]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Slide|Rock Slide]]'
 - - Ace
-  - '[[SRD-Counter|Counter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Counter|Counter]]'
 - - Ace
-  - '[[SRD-Sucker Punch|Sucker Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sucker Punch|Sucker Punch]]'
 - - Ace
-  - '[[SRD-Double-Edge|Double-Edge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double-Edge|Double-Edge]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Sand Tomb|Sand Tomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sand Tomb|Sand Tomb]]'
 - - Pro
-  - '[[SRD-Rest|Rest]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rest|Rest]]'
 - - Pro
-  - '[[SRD-Foul Play|Foul Play]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Foul Play|Foul Play]]'
 Number: 438
 ShuffleToken: SRD-bonsly-ShuffleToken.png
 Type1: Rock

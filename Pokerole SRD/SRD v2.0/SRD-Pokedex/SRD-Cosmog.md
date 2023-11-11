@@ -22,9 +22,9 @@ Image: cosmog.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Splash|Splash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Splash|Splash]]'
 - - Starter
-  - '[[SRD-Teleport|Teleport]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Teleport|Teleport]]'
 Number: 789
 ShuffleToken: SRD-cosmog-ShuffleToken.png
 Type1: Psychic

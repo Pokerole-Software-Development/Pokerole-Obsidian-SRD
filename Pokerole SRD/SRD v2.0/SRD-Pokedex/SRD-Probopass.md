@@ -23,61 +23,61 @@ Image: probopass.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Tackle|Tackle]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tackle|Tackle]]'
 - - Starter
-  - '[[SRD-Block|Block]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Block|Block]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Iron Defense|Iron Defense]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Defense|Iron Defense]]'
 - - Beginner
-  - '[[SRD-Magnet Bomb|Magnet Bomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magnet Bomb|Magnet Bomb]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Tri Attack|Tri Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tri Attack|Tri Attack]]'
 - - Amateur
-  - '[[SRD-Magnetic Flux|Magnetic Flux]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magnetic Flux|Magnetic Flux]]'
 - - Amateur
-  - '[[SRD-Magnet Rise|Magnet Rise]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magnet Rise|Magnet Rise]]'
 - - Amateur
-  - '[[SRD-Gravity|Gravity]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gravity|Gravity]]'
 - - Amateur
-  - '[[SRD-Wide Guard|Wide Guard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wide Guard|Wide Guard]]'
 - - Amateur
-  - '[[SRD-Thunder Wave|Thunder Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Wave|Thunder Wave]]'
 - - Amateur
-  - '[[SRD-Rock Blast|Rock Blast]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Blast|Rock Blast]]'
 - - Amateur
-  - '[[SRD-Rest|Rest]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rest|Rest]]'
 - - Amateur
-  - '[[SRD-Spark|Spark]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spark|Spark]]'
 - - Amateur
-  - '[[SRD-Rock Slide|Rock Slide]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Slide|Rock Slide]]'
 - - Amateur
-  - '[[SRD-Power Gem|Power Gem]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Power Gem|Power Gem]]'
 - - Amateur
-  - '[[SRD-Sandstorm|Sandstorm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sandstorm|Sandstorm]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Discharge|Discharge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Discharge|Discharge]]'
 - - Ace
-  - '[[SRD-Earth Power|Earth Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Earth Power|Earth Power]]'
 - - Ace
-  - '[[SRD-Stone Edge|Stone Edge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stone Edge|Stone Edge]]'
 - - Ace
-  - '[[SRD-Lock-On|Lock-On]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lock-On|Lock-On]]'
 - - Ace
-  - '[[SRD-Zap Cannon|Zap Cannon]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Zap Cannon|Zap Cannon]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Endure|Endure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endure|Endure]]'
 - - Pro
-  - '[[SRD-Iron Head|Iron Head]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Head|Iron Head]]'
 - - Pro
-  - '[[SRD-Ancient Power|Ancient Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ancient Power|Ancient Power]]'
 Number: 476
 ShuffleToken: SRD-probopass-ShuffleToken.png
 Type1: Rock

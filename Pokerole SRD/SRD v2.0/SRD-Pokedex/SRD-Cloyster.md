@@ -23,39 +23,39 @@ Image: cloyster.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Withdraw|Withdraw]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Withdraw|Withdraw]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Protect|Protect]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Protect|Protect]]'
 - - Beginner
-  - '[[SRD-Supersonic|Supersonic]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Supersonic|Supersonic]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Spike Cannon|Spike Cannon]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spike Cannon|Spike Cannon]]'
 - - Amateur
-  - '[[SRD-Aurora Beam|Aurora Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aurora Beam|Aurora Beam]]'
 - - Amateur
-  - '[[SRD-Toxic Spikes|Toxic Spikes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Toxic Spikes|Toxic Spikes]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Hydro Pump|Hydro Pump]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hydro Pump|Hydro Pump]]'
 - - Ace
-  - '[[SRD-Shell Smash|Shell Smash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shell Smash|Shell Smash]]'
 - - Ace
-  - '[[SRD-Spikes|Spikes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spikes|Spikes]]'
 - - Ace
-  - '[[SRD-Icicle Crash|Icicle Crash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Icicle Crash|Icicle Crash]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Aqua Ring|Aqua Ring]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aqua Ring|Aqua Ring]]'
 - - Pro
-  - '[[SRD-Rock Blast|Rock Blast]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rock Blast|Rock Blast]]'
 - - Pro
-  - '[[SRD-Self Destruct|Self Destruct]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Self Destruct|Self Destruct]]'
 Number: 91
 ShuffleToken: SRD-cloyster-ShuffleToken.png
 Type1: Water

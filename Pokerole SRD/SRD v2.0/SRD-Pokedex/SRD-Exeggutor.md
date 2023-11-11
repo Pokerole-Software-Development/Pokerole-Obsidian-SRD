@@ -23,37 +23,37 @@ Image: exeggutor.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Barrage|Barrage]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Barrage|Barrage]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Confusion|Confusion]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Confusion|Confusion]]'
 - - Beginner
-  - '[[SRD-Hypnosis|Hypnosis]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hypnosis|Hypnosis]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Seed Bomb|Seed Bomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Seed Bomb|Seed Bomb]]'
 - - Amateur
-  - '[[SRD-Stomp|Stomp]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stomp|Stomp]]'
 - - Amateur
-  - '[[SRD-Psyshock|Psyshock]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psyshock|Psyshock]]'
 - - Amateur
-  - '[[SRD-Egg Bomb|Egg Bomb]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Egg Bomb|Egg Bomb]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Wood Hammer|Wood Hammer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wood Hammer|Wood Hammer]]'
 - - Ace
-  - '[[SRD-Leaf Storm|Leaf Storm]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leaf Storm|Leaf Storm]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Nightmare|Nightmare]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nightmare|Nightmare]]'
 - - Pro
-  - '[[SRD-Grassy Terrain|Grassy Terrain]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Grassy Terrain|Grassy Terrain]]'
 - - Pro
-  - '[[SRD-Curse|Curse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Curse|Curse]]'
 Number: 103
 ShuffleToken: SRD-exeggutor-ShuffleToken.png
 Type1: Grass

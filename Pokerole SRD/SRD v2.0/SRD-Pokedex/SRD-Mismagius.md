@@ -23,37 +23,37 @@ Image: mismagius.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Growl|Growl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Growl|Growl]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Magical Leaf|Magical Leaf]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magical Leaf|Magical Leaf]]'
 - - Beginner
-  - '[[SRD-Lucky Chant|Lucky Chant]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lucky Chant|Lucky Chant]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Astonish|Astonish]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Astonish|Astonish]]'
 - - Amateur
-  - '[[SRD-Power Gem|Power Gem]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Power Gem|Power Gem]]'
 - - Amateur
-  - '[[SRD-Psywave|Psywave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psywave|Psywave]]'
 - - Amateur
-  - '[[SRD-Spite|Spite]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spite|Spite]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Phantom Force|Phantom Force]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Phantom Force|Phantom Force]]'
 - - Ace
-  - '[[SRD-Mystical Fire|Mystical Fire]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mystical Fire|Mystical Fire]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Wonder Room|Wonder Room]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Wonder Room|Wonder Room]]'
 - - Pro
-  - '[[SRD-Foul Play|Foul Play]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Foul Play|Foul Play]]'
 - - Pro
-  - '[[SRD-Nasty Plot|Nasty Plot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Nasty Plot|Nasty Plot]]'
 Number: 429
 ShuffleToken: SRD-mismagius-ShuffleToken.png
 Type1: Ghost

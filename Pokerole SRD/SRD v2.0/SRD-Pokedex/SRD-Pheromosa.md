@@ -19,49 +19,49 @@ Image: pheromosa.png
 Legendary: 'Yes'
 Moves:
 - - Master
-  - '[[SRD-Quiver Dance|Quiver Dance]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quiver Dance|Quiver Dance]]'
 - - Master
-  - '[[SRD-Quick Guard|Quick Guard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quick Guard|Quick Guard]]'
 - - Master
-  - '[[SRD-Low Kick|Low Kick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Low Kick|Low Kick]]'
 - - Master
-  - '[[SRD-Rapid Spin|Rapid Spin]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rapid Spin|Rapid Spin]]'
 - - Master
-  - '[[SRD-Leer|Leer]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Leer|Leer]]'
 - - Master
-  - '[[SRD-Double Kick|Double Kick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Double Kick|Double Kick]]'
 - - Master
-  - '[[SRD-Swift|Swift]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Swift|Swift]]'
 - - Master
-  - '[[SRD-Stomp|Stomp]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Stomp|Stomp]]'
 - - Master
-  - '[[SRD-Feint|Feint]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Feint|Feint]]'
 - - Master
-  - '[[SRD-Silver Wind|Silver Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Silver Wind|Silver Wind]]'
 - - Master
-  - '[[SRD-Bounce|Bounce]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bounce|Bounce]]'
 - - Master
-  - '[[SRD-Jump Kick|Jump Kick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Jump Kick|Jump Kick]]'
 - - Master
-  - '[[SRD-Agility|Agility]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Agility|Agility]]'
 - - Master
-  - '[[SRD-Triple Kick|Triple Kick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Triple Kick|Triple Kick]]'
 - - Master
-  - '[[SRD-Lunge|Lunge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lunge|Lunge]]'
 - - Master
-  - '[[SRD-Bug Buzz|Bug Buzz]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bug Buzz|Bug Buzz]]'
 - - Master
-  - '[[SRD-Me First|Me First]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Me First|Me First]]'
 - - Master
-  - '[[SRD-High Jump Kick|High Jump Kick]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-High Jump Kick|High Jump Kick]]'
 - - Master
-  - '[[SRD-Speed Swap|Speed Swap]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Speed Swap|Speed Swap]]'
 - - Master
-  - '[[SRD-Throat Chop|Throat Chop]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Throat Chop|Throat Chop]]'
 - - Master
-  - '[[SRD-Shock Wave|Shock Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shock Wave|Shock Wave]]'
 - - Master
-  - '[[SRD-Outrage|Outrage]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Outrage|Outrage]]'
 Number: 795
 ShuffleToken: SRD-pheromosa-ShuffleToken.png
 Type1: Bug

@@ -19,7 +19,7 @@ Image: ditto.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Transform|Transform]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Transform|Transform]]'
 Number: 132
 ShuffleToken: SRD-ditto-ShuffleToken.png
 Type1: Normal

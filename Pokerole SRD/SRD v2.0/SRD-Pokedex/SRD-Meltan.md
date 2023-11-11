@@ -23,33 +23,33 @@ Image: meltan.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Thunder Shock|Thunder Shock]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Shock|Thunder Shock]]'
 - - Starter
-  - '[[SRD-Harden|Harden]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Harden|Harden]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Tail Whip|Tail Whip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Tail Whip|Tail Whip]]'
 - - Beginner
-  - '[[SRD-Headbutt|Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Headbutt|Headbutt]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Thunder Wave|Thunder Wave]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Wave|Thunder Wave]]'
 - - Amateur
-  - '[[SRD-Acid Armor|Acid Armor]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Acid Armor|Acid Armor]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Flash Cannon|Flash Cannon]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Flash Cannon|Flash Cannon]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Protect|Protect]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Protect|Protect]]'
 - - Pro
-  - '[[SRD-Gyro Ball|Gyro Ball]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gyro Ball|Gyro Ball]]'
 - - Pro
-  - '[[SRD-Steel Beam|Steel Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Steel Beam|Steel Beam]]'
 Number: 808
 ShuffleToken: SRD-meltan-ShuffleToken.png
 Type1: Steel

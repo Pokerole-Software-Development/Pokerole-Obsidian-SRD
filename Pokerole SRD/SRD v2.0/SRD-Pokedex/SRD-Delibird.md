@@ -19,35 +19,35 @@ Image: delibird.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Present|Present]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Present|Present]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Fake Out|Fake Out]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fake Out|Fake Out]]'
 - - Beginner
-  - '[[SRD-Icy Wind|Icy Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Icy Wind|Icy Wind]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Spikes|Spikes]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Spikes|Spikes]]'
 - - Amateur
-  - '[[SRD-Ice Ball|Ice Ball]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Ball|Ice Ball]]'
 - - Amateur
-  - '[[SRD-Drill Peck|Drill Peck]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Drill Peck|Drill Peck]]'
 - - Amateur
-  - '[[SRD-Freeze Dry|Freeze Dry]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Freeze Dry|Freeze Dry]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Future Sight|Future Sight]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Future Sight|Future Sight]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Aurora Veil|Aurora Veil]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aurora Veil|Aurora Veil]]'
 - - Pro
-  - '[[SRD-Ice Shard|Ice Shard]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Shard|Ice Shard]]'
 - - Pro
-  - '[[SRD-Sky Attack|Sky Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sky Attack|Sky Attack]]'
 Number: 225
 ShuffleToken: SRD-delibird-ShuffleToken.png
 Type1: Ice

@@ -23,53 +23,53 @@ Image: klinklang.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Vice Grip|Vice Grip]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Vice Grip|Vice Grip]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Charge|Charge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charge|Charge]]'
 - - Beginner
-  - '[[SRD-Thunder Shock|Thunder Shock]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder Shock|Thunder Shock]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Gear Grind|Gear Grind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gear Grind|Gear Grind]]'
 - - Amateur
-  - '[[SRD-Gear Up|Gear Up]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gear Up|Gear Up]]'
 - - Amateur
-  - '[[SRD-Magnetic Flux|Magnetic Flux]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magnetic Flux|Magnetic Flux]]'
 - - Amateur
-  - '[[SRD-Bind|Bind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Bind|Bind]]'
 - - Amateur
-  - '[[SRD-Charge Beam|Charge Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charge Beam|Charge Beam]]'
 - - Amateur
-  - '[[SRD-Autotomize|Autotomize]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Autotomize|Autotomize]]'
 - - Amateur
-  - '[[SRD-Mirror Shot|Mirror Shot]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Mirror Shot|Mirror Shot]]'
 - - Amateur
-  - '[[SRD-Screech|Screech]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Screech|Screech]]'
 - - Amateur
-  - '[[SRD-Discharge|Discharge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Discharge|Discharge]]'
 - - Amateur
-  - '[[SRD-Metal Sound|Metal Sound]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Metal Sound|Metal Sound]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Shift Gear|Shift Gear]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Shift Gear|Shift Gear]]'
 - - Ace
-  - '[[SRD-Lock-On|Lock-On]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Lock-On|Lock-On]]'
 - - Ace
-  - '[[SRD-Zap Cannon|Zap Cannon]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Zap Cannon|Zap Cannon]]'
 - - Ace
-  - '[[SRD-Hyper Beam|Hyper Beam]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hyper Beam|Hyper Beam]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Iron Defense|Iron Defense]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Defense|Iron Defense]]'
 - - Pro
-  - '[[SRD-Gravity|Gravity]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Gravity|Gravity]]'
 - - Pro
-  - '[[SRD-Magnet Rise|Magnet Rise]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Magnet Rise|Magnet Rise]]'
 Number: 601
 ShuffleToken: SRD-klinklang-ShuffleToken.png
 Type1: Steel

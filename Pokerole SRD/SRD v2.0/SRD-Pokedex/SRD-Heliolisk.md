@@ -23,31 +23,31 @@ Image: heliolisk.png
 Legendary: 'No'
 Moves:
 - - Beginner
-  - '[[SRD-Charge|Charge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Charge|Charge]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Eerie Impulse|Eerie Impulse]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Eerie Impulse|Eerie Impulse]]'
 - - Amateur
-  - '[[SRD-Quick Attack|Quick Attack]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Quick Attack|Quick Attack]]'
 - - Amateur
-  - '[[SRD-Razor Wind|Razor Wind]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Razor Wind|Razor Wind]]'
 - - Amateur
-  - '[[SRD-Parabolic Charge|Parabolic Charge]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Parabolic Charge|Parabolic Charge]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Electrify|Electrify]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Electrify|Electrify]]'
 - - Ace
-  - '[[SRD-Thunder|Thunder]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Thunder|Thunder]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Agility|Agility]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Agility|Agility]]'
 - - Pro
-  - '[[SRD-Hyper Voice|Hyper Voice]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hyper Voice|Hyper Voice]]'
 - - Pro
-  - '[[SRD-Fire Punch|Fire Punch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Fire Punch|Fire Punch]]'
 Number: 695
 ShuffleToken: SRD-heliolisk-ShuffleToken.png
 Type1: Electric

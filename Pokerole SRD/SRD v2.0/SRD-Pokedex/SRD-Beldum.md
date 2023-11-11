@@ -23,15 +23,15 @@ Image: beldum.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Take Down|Take Down]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Take Down|Take Down]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Iron Head|Iron Head]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Iron Head|Iron Head]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Headbutt|Headbutt]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Headbutt|Headbutt]]'
 Number: 374
 ShuffleToken: SRD-beldum-ShuffleToken.png
 Type1: Steel

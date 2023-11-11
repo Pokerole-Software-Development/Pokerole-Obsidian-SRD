@@ -23,33 +23,33 @@ Image: sandslash-alolan-form.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Icicle Spear|Icicle Spear]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Icicle Spear|Icicle Spear]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Metal Burst|Metal Burst]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Metal Burst|Metal Burst]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Icicle Crash|Icicle Crash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Icicle Crash|Icicle Crash]]'
 - - Amateur
-  - '[[SRD-Slash|Slash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Slash|Slash]]'
 - - Amateur
-  - '[[SRD-Defense Curl|Defense Curl]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Defense Curl|Defense Curl]]'
 - - Amateur
-  - '[[SRD-Ice Ball|Ice Ball]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Ice Ball|Ice Ball]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Metal Claw|Metal Claw]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Metal Claw|Metal Claw]]'
 - - Ace
-  - '[[SRD-Chip Away|Chip Away]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Chip Away|Chip Away]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Counter|Counter]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Counter|Counter]]'
 - - Pro
-  - '[[SRD-Aurora Veil|Aurora Veil]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Aurora Veil|Aurora Veil]]'
 Number: 28
 ShuffleToken: SRD-sandslash-alolan-form-ShuffleToken.png
 Type1: Ice

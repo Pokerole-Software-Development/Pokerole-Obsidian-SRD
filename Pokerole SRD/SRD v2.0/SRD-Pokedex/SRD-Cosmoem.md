@@ -31,13 +31,13 @@ Image: cosmoem.png
 Legendary: 'Yes'
 Moves:
 - - Starter
-  - '[[SRD-Splash|Splash]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Splash|Splash]]'
 - - Starter
-  - '[[SRD-Teleport|Teleport]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Teleport|Teleport]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Cosmic Power|Cosmic Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Cosmic Power|Cosmic Power]]'
 Number: 790
 ShuffleToken: SRD-cosmoem-ShuffleToken.png
 Type1: Psychic

@@ -30,7 +30,7 @@ Image: zygarde-cell.png
 Legendary: 'Yes'
 Moves:
 - - Starter
-  - '[[SRD-Endure|Endure]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Endure|Endure]]'
 Number: 718
 ShuffleToken: SRD-zygarde-cell-ShuffleToken.png
 Type1: Dragon

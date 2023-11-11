@@ -19,7 +19,7 @@ Image: egg.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Rest|Rest]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Rest|Rest]]'
 Number: 0
 ShuffleToken: SRD-egg-ShuffleToken.png
 Type1: Normal

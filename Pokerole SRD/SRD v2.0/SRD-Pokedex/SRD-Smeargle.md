@@ -19,33 +19,33 @@ Image: smeargle.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Sketch|Sketch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sketch|Sketch]]'
 - - Starter
-  - '[[SRD-Sketch|Sketch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sketch|Sketch]]'
 - - '---------------------------'
   - '---------------------------'
 - - Beginner
-  - '[[SRD-Sketch|Sketch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sketch|Sketch]]'
 - - Beginner
-  - '[[SRD-Sketch|Sketch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sketch|Sketch]]'
 - - '---------------------------'
   - '---------------------------'
 - - Amateur
-  - '[[SRD-Sketch|Sketch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sketch|Sketch]]'
 - - Amateur
-  - '[[SRD-Sketch|Sketch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sketch|Sketch]]'
 - - '---------------------------'
   - '---------------------------'
 - - Ace
-  - '[[SRD-Sketch|Sketch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sketch|Sketch]]'
 - - Ace
-  - '[[SRD-Sketch|Sketch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sketch|Sketch]]'
 - - '---------------------------'
   - '---------------------------'
 - - Pro
-  - '[[SRD-Sketch|Sketch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sketch|Sketch]]'
 - - Pro
-  - '[[SRD-Sketch|Sketch]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Sketch|Sketch]]'
 Number: 235
 ShuffleToken: SRD-smeargle-ShuffleToken.png
 Type1: Normal

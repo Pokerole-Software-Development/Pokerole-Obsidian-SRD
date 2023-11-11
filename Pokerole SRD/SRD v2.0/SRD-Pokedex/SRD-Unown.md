@@ -19,7 +19,7 @@ Image: unown.png
 Legendary: 'No'
 Moves:
 - - Starter
-  - '[[SRD-Hidden Power|Hidden Power]]'
+  - '[[Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Hidden Power|Hidden Power]]'
 Number: 201
 ShuffleToken: SRD-unown-ShuffleToken.png
 Type1: Psychic
