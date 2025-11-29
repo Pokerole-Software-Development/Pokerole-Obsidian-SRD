@@ -1,0 +1,16 @@
+---
+Description: This Pokemon has a commanding aura and is obsessively ridden with the
+  need to rule over everything, even the ashes of a kingdom.
+Effect: When this Pokemon comes into battle, Increase its Strength and Special Attributes
+  by 1 for every Ally that has Fainted in-battle. Up to 3 points can be increased
+  this way.
+Name: Supreme Overlord
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

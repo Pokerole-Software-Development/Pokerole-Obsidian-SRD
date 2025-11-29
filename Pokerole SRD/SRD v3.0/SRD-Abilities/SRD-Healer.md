@@ -1,0 +1,16 @@
+---
+Description: The Pokemon has healing powers, and will use them without hesitation
+  to aid others.
+Effect: If an Ally on the battle field has a Status Ailment, at the End of the Round
+  this Pokemon rolls 3 Chance Dice to heal it. Outside of battle it can heal Status
+  Ailments by spending 1 Will Point.
+Name: Healer
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

@@ -1,0 +1,16 @@
+---
+Description: The Pokemon gathers the humidity in the air around itself. Lighting a
+  spark or keeping a fire on, will be almost impossible close to it.
+Effect: 'No one in the field will be able to use the moves: Self-Destruct, Explosion,
+  Misty Explosion, Mind Blown, and Burn Up while this Pokemon is in the field. The
+  Ability Aftermath does not activate if this Pokemon is in the field.'
+Name: Damp
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

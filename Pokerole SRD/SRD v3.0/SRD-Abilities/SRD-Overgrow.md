@@ -1,0 +1,16 @@
+---
+Description: When this Pokemon is hurt, it will grow huge plants on its body to defend
+  itself, these plants are very strong but wither quickly.
+Effect: Pain Penalization won't reduce successes from Accuracy or Damage rolls of
+  Grass-Type Moves used by this Pokemon. Grass-Type Moves get 2 Extra dice to their
+  Damage Pool when this Pokemon is at half HP or less.
+Name: Overgrow
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

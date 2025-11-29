@@ -1,0 +1,17 @@
+---
+Description: This Pokemon is a pessimist by nature. When things get difficult, it
+  will be the first to give up.
+Effect: If this Pokemon's HP is at half or less, roll its Loyalty requiring 2 successes
+  every action, if the roll fails Reduce by 2 its Strength and Special for that action.
+  If the roll is successful it keeps its attributes unchanged or restore them if they
+  were reduced in a previous action.
+Name: Defeatist
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

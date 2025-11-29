@@ -1,0 +1,15 @@
+---
+Description: The skin of the Pokemon is covered by plates of a very resistant material,
+  like rock, steel, or an exoskeleton.
+Effect: If a foe lands a Critical Hit on this Pokemon, it won't get any Bonus Dice
+  on its Damage Dice pool for it.
+Name: Battle Armor
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

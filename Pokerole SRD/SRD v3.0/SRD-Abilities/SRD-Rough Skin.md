@@ -1,0 +1,16 @@
+---
+Description: Use protection on your hands when touching this Pokemon. Its body is
+  covered by sharp scales or barbs that get hooked into the skin.
+Effect: 'If this Pokemon is hit with a Non-Ranged Physical Move choose one: - Deal
+  1 Neutral Damage against the attacker. - Roll 2 Dice of Typeless Damage against
+  the attacker.'
+Name: Rough Skin
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

@@ -1,0 +1,15 @@
+---
+Description: This Pokemon's mandibles are full of fury and fierceness. They'll rip
+  and tear without mercy.
+Effect: All Physical or special Dragon-Type Moves that this Pokemons uses have 2 Extra
+  dice on their Damage Pool. This effect does not apply to Moves with set damage.
+Name: Dragon Maw
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

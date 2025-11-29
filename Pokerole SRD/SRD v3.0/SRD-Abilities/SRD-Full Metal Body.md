@@ -1,0 +1,15 @@
+---
+Description: This Pokemon's body is a thick metal armor, its shiny coat cannot be
+  muddled. Look inside of it and you may be blinded by the sun's brightness.
+Effect: Other Pokemon cannot Reduce the Attributes of this Pokemon. This Pokemon can
+  still Reduce its own Attributes. Unique Ability.
+Name: Full Metal Body
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

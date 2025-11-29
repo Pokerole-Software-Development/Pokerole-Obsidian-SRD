@@ -1,0 +1,15 @@
+---
+Description: This Pokemon emits a somber and eerie neigh. In ancient times, hearing
+  it at night was a terrible omen.
+Effect: If a foe faints because of a Physical or Special dealt by this Pokemon, Increase
+  its Special Attribute by 1. Up to 3 points can be increased this way.
+Name: Grim Neigh
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

@@ -1,0 +1,16 @@
+---
+Description: In this form, Terapagos once held the newly-created world on top of itself.
+  It is well within its power to restore it to its most ancient state.
+Effect: Only Terapagos may use this Ability. Remove all Active Effects on the battlefield
+  and negate any Effect on the Battlefield while this Pokemon is out. (Force Fields,
+  Entry Hazards, Terrain, Weather, Abilities etc.) Unique Ability.
+Name: Teraform Zero
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

@@ -1,0 +1,18 @@
+---
+Description: This Pokemon's face is covered by a thick block of ice that serves as
+  a cover for its body. If it breaks it will need freezing temperatures to restore
+  the ice block.
+Effect: The Pokemon has 2 Extra HP when it is on "Ice Face form". If the Ice receives
+  2 damage, change the Pokemon's form to "No-Ice Form". To restore "Ice Face Form"
+  the Pokemon must be out one whole Round while Hail/Snow weather is active. Unique
+  Ability.
+Name: Ice Face
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

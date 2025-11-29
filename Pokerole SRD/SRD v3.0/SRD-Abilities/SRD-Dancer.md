@@ -1,0 +1,17 @@
+---
+Description: When someone begins to dance, this Pokemon dances too. It expresses its
+  feelings and communicates through little jigs.
+Effect: Once per Round, if a Pokemon uses a Move with the word "Dance" (i.e. Dragon
+  Dance, Petal Dance etc.) This Pokemon gets one free action to use the same Move
+  immediately after with the same number of successes on Accuracy; Damage must still
+  be rolled. Rampage Moves are only used once.
+Name: Dancer
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

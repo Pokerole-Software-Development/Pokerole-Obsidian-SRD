@@ -1,0 +1,16 @@
+---
+Description: The Pokemon has a strategic mind, even if its body is frail it can device
+  clever plans and tell its Dodonzo friend exactly what to do.
+Effect: If there is an Allied Dodonzo on the field, increase its Attributes and Defenses
+  by 2. Dodonzo is blocked for the rest of the scene. All damage that would be dealt
+  to this Pokemon is dealt to Dodonzo instead. Unique Ability.
+Name: Commander
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

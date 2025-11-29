@@ -1,0 +1,15 @@
+---
+Description: The Pokemon will often get into risky situations in order to get what
+  it wants. They are prone to risk their lives without thinking of the consequences.
+Effect: When this Pokemon performs a Move with Recoil as an Added Effect, Add 2 Extra
+  dice to the Damage Pool of that Move.
+Name: Reckless
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

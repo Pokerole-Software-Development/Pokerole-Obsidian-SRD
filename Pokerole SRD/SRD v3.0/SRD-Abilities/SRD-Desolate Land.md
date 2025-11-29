@@ -1,0 +1,16 @@
+---
+Description: The heat is unbearable. Your skin gets red and blistered. All water evaporates,
+  and every step of this Pokemon makes the ground become molten lava.
+Effect: When this Pokemon comes out, it automatically starts the effects of Desolate
+  Weather. The effects end when the Pokemon leaves the battle. (In case of stalemate,
+  The Pokemon with highest Will might keep the dominant weather). Unique Ability.
+Name: Desolate Land
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

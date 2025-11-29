@@ -1,0 +1,17 @@
+---
+Description: Two Pokemon join forces, one riding on the other's back. Together, they
+  ride for ruin and the world's ending.
+Effect: This ability trigger a form change that combines the attributes and movepool
+  of two Allied Pokemon. Choose one ability from each of the two Pokemon forming this
+  union, the joint form of these Pokemon may use those two Abilities at the same time.
+  Unique Ability.
+Name: As One
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

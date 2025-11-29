@@ -1,0 +1,32 @@
+---
+Accuracy1: Strength
+Accuracy2: Brawl
+AddedEffects: {}
+Attributes:
+  Rampage: true
+Category: Physical
+Damage1: Strength
+Damage2: ''
+Description: "The true nature of dragon-types unleashed. The user is consumed by a\
+  \ primal fury that won\u2019t stop until everything has ben razed to the ground.\
+  \ Afterwards the Pok\xE9mon is confused."
+Effect: Target Random Foe. Rampage.
+Name: Outrage
+Power: 5
+Target: Random Foe
+Type: Dragon
+---
+
+#PokeroleSRD/Moves
+
+### `= this.name`
+*`= this.Description`*
+
+**Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
+**Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
+
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
+
+**Effect:** `= this.Effect`

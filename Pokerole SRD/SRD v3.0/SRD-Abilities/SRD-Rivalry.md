@@ -1,0 +1,16 @@
+---
+Description: The Pokemon will be very competitive with others to prove its position
+  as the alpha of the group, however, it will try to gain the favor of possible mates.
+Effect: If this Pokemon targets a foe of the same gender, Increase its Strength Attribute
+  by 1. If the targeted foe is the opposite gender, Reduce its Strength Attribute
+  by 1.
+Name: Rivalry
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

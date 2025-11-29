@@ -1,0 +1,15 @@
+---
+Description: This Pokemon can transform any kind of kinetic energy into electricity.
+  Beware to touch it as it always has some excess charge on its body.
+Effect: If this Pokemon receives Damage from a Physical or Special Move, Add 2 Extra
+  Dice to the Damage Dice Pool of its next Electric Move.
+Name: Electromorphosis
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

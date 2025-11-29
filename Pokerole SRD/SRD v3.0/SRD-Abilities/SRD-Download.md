@@ -1,0 +1,16 @@
+---
+Description: This Pokemon is able to scan and access digital data within computers
+  and download the info into itself. Too much data might make it feel bloated.
+Effect: When this Pokemon comes out it will scan its foes and give information about
+  them. It will then Increase 1 Point to either its Strength or Special Attribute
+  at Storyteller's discretion. Unique Ability.
+Name: Download
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

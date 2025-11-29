@@ -1,0 +1,15 @@
+---
+Description: The Pokemon gets frustrated if things are not going their way, they are
+  prone to break their own shell in their rage.
+Effect: When this Pokemon's HP is half or less, increase its Strength, Special, and
+  Dexterity Attributes by 1 but Reduce its Defense and Sp. Defense by 1.
+Name: Anger Shell
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

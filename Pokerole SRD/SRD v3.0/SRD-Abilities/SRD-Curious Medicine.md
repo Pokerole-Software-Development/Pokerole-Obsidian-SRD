@@ -1,0 +1,16 @@
+---
+Description: This Pokemon likes to mix disgusting substances to supposedly create
+  medicine. The resulting potions are dubious at best, toxic at worst.
+Effect: When this Pokemon comes into battle, remove all Attribute Increases and Reductions
+  on all Ally Pokemon in range. Outside of battle, the Pokemon is able to create potions
+  that may heal HP or deal damage at the storyteller's discretion.
+Name: Curious Medicine
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

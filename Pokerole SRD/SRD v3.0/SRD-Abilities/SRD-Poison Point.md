@@ -1,0 +1,15 @@
+---
+Description: The pointy thorns and scales on this Pokemon release a venom that will
+  infect anyone who touches them roughly. Wear gloves when handling them.
+Effect: If this Pokemon is hit by a Non-Ranged Physical Move, Roll 3 Chance Dice to
+  inflict Poison on the foe.
+Name: Poison Point
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

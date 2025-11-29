@@ -1,0 +1,16 @@
+---
+Description: This Pokemon uses wind currents to charge itself with electricity, tie
+  a cable to its leg while it flies and get yourself an eco-friendly generator.
+Effect: Whenever this Pokemon receives damage from a wind Move, Add 2 Extra Dice to
+  the Damage pool of the next Electric-Type Move this Pokemon performs. This effect
+  does not stack.
+Name: Wind Power
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

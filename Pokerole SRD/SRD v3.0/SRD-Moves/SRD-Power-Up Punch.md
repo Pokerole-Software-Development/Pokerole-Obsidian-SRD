@@ -1,0 +1,36 @@
+---
+Accuracy1: Dexterity
+Accuracy2: Brawl
+AddedEffects:
+  StatChanges:
+  - Affects: User
+    Stages: 1
+    Stats:
+    - Strength
+Attributes:
+  FistMove: true
+Category: Physical
+Damage1: Strength
+Damage2: ''
+Description: "A punch to test the impact\u2019s surface and adjust the level of strength\
+  \ required to punch through it."
+Effect: Single Target. Fist Move. Increase User's Strength by 1.
+Name: Power-Up Punch
+Power: 2
+Target: Foe
+Type: Fighting
+---
+
+#PokeroleSRD/Moves
+
+### `= this.name`
+*`= this.Description`*
+
+**Accuracy:** `= this.Accuracy1` + `= this.Accuracy2`
+**Damage:** `= this.Power` `= choice(length(this.Damage1)=0, "","\+ "+ this.Damage1)` `= choice(length(this.Damage2)=0, "","\+ "+ this.Damage2)`
+
+| Type          | Target          | Category          | Power          |
+| ------------- | --------------- | ----------------  | -------------- |
+| `= this.Type` | `= this.Target` | `= this.Category` | `= this.Power` | 
+
+**Effect:** `= this.Effect`

@@ -1,0 +1,15 @@
+---
+Description: This Pokemon is covered by two layers of hard scales, if one layer is
+  damaged it will be shed and regrown later.
+Effect: While this Pokemon at full health, Reduce by 1 the damage taken by the next
+  Physical or Special Move it receives.
+Name: Multiscale
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

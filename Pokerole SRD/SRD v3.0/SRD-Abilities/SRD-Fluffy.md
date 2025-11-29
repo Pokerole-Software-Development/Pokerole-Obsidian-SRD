@@ -1,0 +1,15 @@
+---
+Description: This Pokemon's fur is so fluffy you could die. So soft and snuggly that
+  it invites you to hug it. Hand-wash only, tumble dry with no heat, do not iron.
+Effect: Reduce by 2 the Damage dealt to this Pokemon by All Physical Moves. Increase
+  by 2 the Damage dealt to this Pokemon by Fire-Type Moves.
+Name: Fluffy
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

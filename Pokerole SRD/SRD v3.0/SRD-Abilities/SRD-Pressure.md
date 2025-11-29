@@ -1,0 +1,16 @@
+---
+Description: Being around this Pokemon will be very stressing and demanding, only
+  the bravest dare to face them one-on-one.
+Effect: When this Pokemon comes out, All foes in Range spend half (rounded up) of
+  their remaining Will Points without gaining any effect for it. This effect does
+  not stack.
+Name: Pressure
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

@@ -1,0 +1,15 @@
+---
+Description: This Pokemon carries a curse within itself. Crossing this Pokemon is
+  not a good idea.
+Effect: Whenever this Pokemon is dealt damage with a Physical or Special Move, Roll
+  3 Chance Dice to Disable that Move. Up to 3 Moves may be disabled this way.
+Name: Cursed Body
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

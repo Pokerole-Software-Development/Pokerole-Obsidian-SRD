@@ -1,0 +1,16 @@
+---
+Description: There is a cursed artifact on this Pokemon. A dreadful tremor of fear
+  invades everyone. This Pokemon loves to terrorize and frighten others.
+Effect: 'Reduce by 2 the Special of everyone in the field, except this Pokemon. This
+  Pokemon is immune to the effects of the Abilities: Beads of Ruin, Sword of Ruin,
+  Tablets of Ruin, and Vessel of Ruin. Unique Ability.'
+Name: Vessel of Ruin
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

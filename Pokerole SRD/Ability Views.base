@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Abilitydex
+    filters:
+      and:
+        - file.inFolder("Pokerole SRD/SRD v3.0/SRD-Abilities")
+    order:
+      - file.name
+      - Effect
+    columnSize:
+      file.name: 153
+    rowHeight: medium

@@ -1,0 +1,15 @@
+---
+Description: This Pokemon has an innate sense of justice, wrongdoings will make them
+  really angry.
+Effect: If a Dark-Type Move hits this Pokemon, Increase its Strength by 1. Up to 3
+  points can be increased this way.
+Name: Justified
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

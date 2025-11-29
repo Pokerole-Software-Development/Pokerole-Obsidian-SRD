@@ -1,0 +1,16 @@
+---
+Description: The Pokemon is a wandering ghost with a haunted expression on its face.
+  It won't heed your call and might get lost floating aimlessly. Get to a medium to
+  heal it.
+Effect: If this Pokemon hits a foe with a Non-Ranged Physical Move, switch its Ability
+  with the foe's. Unique Abilities can't be switched.
+Name: Wandering Spirit
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

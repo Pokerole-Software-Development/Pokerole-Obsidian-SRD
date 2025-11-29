@@ -1,0 +1,21 @@
+views:
+  - type: cards
+    name: Item Images
+    filters:
+      and:
+        - file.inFolder("Pokerole SRD/SRD v3.0/SRD-Items")
+    order:
+      - file.name
+      - Source
+    image: note.Image
+  - type: table
+    name: Itemdex
+    filters:
+      and:
+        - file.inFolder("Pokerole SRD/SRD v3.0/SRD-Items")
+    order:
+      - file.name
+      - Source
+      - Description
+    image: note.Image
+    rowHeight: medium

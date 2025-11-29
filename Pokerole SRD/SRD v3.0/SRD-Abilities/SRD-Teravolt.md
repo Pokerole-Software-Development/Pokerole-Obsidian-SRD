@@ -1,0 +1,16 @@
+---
+Description: There's a ball of blue lightning coming out of this Pokemon that prevents
+  its foes from being out of reach, no matter what you do, it will zap you.
+Effect: If a Type, Move, Item or Ability would prevent this Pokemon from targeting
+  a foe or inflicting an effect, ignore it. (e.g. A Pokemon with Immunity can be Poisoned,
+  Ground-Type Pokemon can be hit with Electric Moves, etc.) Unique Ability.
+Name: Teravolt
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

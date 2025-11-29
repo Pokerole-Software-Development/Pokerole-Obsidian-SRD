@@ -1,0 +1,16 @@
+---
+Description: This Pokemon excells at performing simple magic tricks that amaze others,
+  such as conjuring and vanishing objects nearby in the blink of an eye.
+Effect: This Pokemon will steal the Held Item of a foe it just hit with a Physical
+  or Special Move. If it already has a Held Item you may choose to switch it for the
+  one it stole. For information on held Items see p.83.
+Name: Magician
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

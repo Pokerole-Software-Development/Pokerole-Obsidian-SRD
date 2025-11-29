@@ -1,0 +1,16 @@
+---
+Description: This Pokemon always has its mind in the game. It will favor a defensive
+  position and make the best special passes when it finally attacks.
+Effect: Whenever this Pokemon is about to roll the Accuracy of a Move, change its
+  type to match that of the Move. If the Move is Physical or Special and deals damage,
+  use the appropriate STAB on the Damage Roll.
+Name: Libero
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

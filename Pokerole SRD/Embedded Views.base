@@ -1,0 +1,96 @@
+formulas:
+  Untitled: Evolutions.map(if(value['Evolves'] == "From", value['Pokemon'], ""))
+  Move: link(file.path, name)
+  Learned: |-
+    if(
+    this.StarterMoves.contains(name), "Starter",
+    if(this.BeginnerMoves.contains(name), "Beginner", 
+    if (this.AmateurMoves.contains(name), "Amateur",
+    if(this.AceMoves.contains(name), "Ace", 
+    if(this.ProMoves.contains(name), "Pro", 
+    if(this.RookieMoves.contains(name), "Rookie", 
+    if(this.StandardMoves.contains(name), "Standard",
+    if(this.AdvancedMoves.contains(name), "Advanced", 
+    if(this.ExpertMoves.contains(name), "Expert", "Unknown")))))))))
+  LearnOrder: |-
+    if(
+    this.StarterMoves.contains(name), 1,
+    if(this.BeginnerMoves.contains(name), 2, 
+    if (this.AmateurMoves.contains(name), 3,
+    if(this.AceMoves.contains(name), 6, 
+    if(this.ProMoves.contains(name), 7, 
+    if(this.RookieMoves.contains(name), 2, 
+    if(this.StandardMoves.contains(name), 3,
+    if(this.AdvancedMoves.contains(name), 4, 
+    if(this.ExpertMoves.contains(name), 5, "Unknown")))))))))
+properties:
+  formula.Untitled:
+    displayName: Evolves From
+views:
+  - type: table
+    name: Knows Move
+    filters:
+      and:
+        - or:
+            - StarterMoves.contains(this.search)
+            - BeginnerMoves.contains(this.search)
+            - AmateurMoves.contains(this.search)
+            - AceMoves.contains(this.search)
+            - ProMoves.contains(this.search)
+            - RookieMoves.contains(this.search)
+            - StandardMoves.contains(this.search)
+            - AdvancedMoves.contains(this.search)
+            - ExpertMoves.contains(this.search)
+        - and:
+            - file.inFolder("Pokerole SRD/SRD v3.0/SRD-Pokedex")
+    order:
+      - file.name
+    sort:
+      - property: file.name
+        direction: ASC
+    image: note.BookSprite
+    columnSize:
+      file.name: 298
+  - type: table
+    name: Learnsets
+    filters:
+      and:
+        - or:
+            - this.StarterMoves.contains(name)
+            - this.BeginnerMoves.contains(name)
+            - this.AmateurMoves.contains(name)
+            - this.AceMoves.contains(name)
+            - this.ProMoves.contains(name)
+            - this.RookieMoves.contains(name)
+            - this.StandardMoves.contains(name)
+            - this.AdvancedMoves.contains(name)
+            - this.ExpertMoves.contains(name)
+        - and:
+            - file.inFolder("Pokerole SRD/SRD v3.0/SRD-Moves")
+    order:
+      - formula.Learned
+      - formula.Move
+    sort:
+      - property: formula.LearnOrder
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      formula.Move: 192
+  - type: table
+    name: Move Text Search
+    filters:
+      and:
+        - and:
+            - file.inFolder("Pokerole SRD/SRD v3.0/SRD-Moves")
+            - Effect.contains(this.search)
+    order:
+      - formula.Move
+      - Effect
+    sort:
+      - property: formula.LearnOrder
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      formula.Move: 192

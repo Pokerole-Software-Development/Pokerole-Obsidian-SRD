@@ -1,0 +1,15 @@
+---
+Description: The Pokemon will easily adapt to its surroundings, it will travel with
+  ease, no matter the terrain.
+Effect: Whenever this Pokemon uses a Physical or Special Move that matches their Type,
+  add 1 Extra die to the Damage pool of that Move.
+Name: Adaptability
+---
+
+#PokeroleSRD/Abilities
+
+## `= this.name`
+
+> *`= this.Description`*
+
+**Effect:** `= this.Effect`

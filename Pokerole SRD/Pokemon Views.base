@@ -1,0 +1,94 @@
+filters:
+  and:
+    - file.inFolder("Pokerole SRD/SRD v3.0/SRD-Pokedex")
+formulas:
+  Untitled: Evolutions.map(if(value['Evolves'] == "From", value['Pokemon'], ""))
+  Evolve Speed: Evolutions.map(if(value['Evolves'] == "To", value['Speed'], ""))
+properties:
+  formula.Untitled:
+    displayName: Evolves From
+views:
+  - type: cards
+    name: Pokedex
+    order:
+      - file.name
+      - DexCategory
+    sort:
+      - property: Number
+        direction: ASC
+    columnSize:
+      file.name: 298
+      note.Ability1: 119
+    image: note.BookSprite
+    imageFit: contain
+  - type: table
+    name: Pokedex Table
+    order:
+      - Number
+      - file.name
+      - Type1
+      - Type2
+      - Ability1
+      - Ability2
+    sort:
+      - property: Number
+        direction: ASC
+    columnSize:
+      note.Number: 97
+      file.name: 298
+      note.Ability1: 129
+      note.Ability2: 125
+  - type: table
+    name: Pokedex Stats
+    order:
+      - Number
+      - file.name
+      - Strength
+      - MaxStrength
+      - Dexterity
+      - MaxDexterity
+      - Vitality
+      - MaxVitality
+      - Special
+      - MaxSpecial
+      - Insight
+      - MaxInsight
+    sort:
+      - property: Number
+        direction: ASC
+    columnSize:
+      note.Number: 97
+      file.name: 216
+  - type: cards
+    name: Good Starters
+    filters:
+      and:
+        - GoodStarter == true
+    order:
+      - file.name
+      - DexCategory
+      - formula.Evolve Speed
+    sort:
+      - property: Number
+        direction: ASC
+    columnSize:
+      file.name: 298
+      note.Ability1: 119
+    image: note.BookSprite
+    imageFit: contain
+  - type: cards
+    name: Legendaries
+    filters:
+      and:
+        - Legendary == true
+    order:
+      - file.name
+      - DexCategory
+    sort:
+      - property: Number
+        direction: ASC
+    columnSize:
+      file.name: 298
+      note.Ability1: 119
+    image: note.BookSprite
+    imageFit: contain
