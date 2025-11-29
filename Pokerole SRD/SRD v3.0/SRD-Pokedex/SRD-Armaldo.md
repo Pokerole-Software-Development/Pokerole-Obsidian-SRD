@@ -108,4 +108,4 @@ Weight:
 
 ## Learnset
 
-![[Embedded Views.base#Learnsets]]
+![[Embedded Views.base#Learnsets v3.0]]

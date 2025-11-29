@@ -1,9 +1,9 @@
+filters:
+  and:
+    - file.inFolder("Pokerole SRD/SRD v3.0/SRD-Items")
 views:
   - type: cards
     name: Item Images
-    filters:
-      and:
-        - file.inFolder("Pokerole SRD/SRD v3.0/SRD-Items")
     order:
       - file.name
       - Source

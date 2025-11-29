@@ -1,0 +1,105 @@
+---
+Ability1: Levitate
+Ability2: ''
+AceMoves:
+- Hex
+- Charge
+- Discharge
+AdvancedMoves: []
+AmateurMoves:
+- Trick
+- Double Team
+- Shock Wave
+- Ominous Wind
+- Substitute
+- Electro Ball
+BaseHP: 4
+BeginnerMoves:
+- Confuse Ray
+- Thunder Shock
+- Uproar
+BookSprite: SRD-rotom-fan-form-BookSprite.png
+DexCategory: Plasma Pokemon
+DexDescription: 'A Desk fan possessed by a Rotom. It uses Wind powers and scatters
+  everything around with terrible air Currents. While on this form it can use the
+  move: Air Slash.'
+Dexterity: 2
+EventAbilities: ''
+Evolutions:
+- Evolves: From
+  Kind: Form
+  Pokemon: '[[SRD-Rotom]]'
+ExpertMoves: []
+GenderType: N
+GoodStarter: false
+Height:
+  Feet: 1.0
+  Meters: 0.3
+HiddenAbility: ''
+HomeSprite: SRD-rotom-fan-form-HomeSprite.png
+Image: rotom-fan-form.png
+Insight: 3
+Legendary: false
+MaxDexterity: 5
+MaxInsight: 6
+MaxSpecial: 6
+MaxStrength: 4
+MaxVitality: 6
+Name: Rotom (Fan Form)
+Number: 479
+ProMoves:
+- Air Slash
+RecommendedRank: Ace
+RookieMoves: []
+Special: 3
+StandardMoves: []
+StarterMoves:
+- Thunder Wave
+- Astonish
+Strength: 2
+Type1: Electric
+Type2: Flying
+Vitality: 3
+Weight:
+  Kilograms: 0.3
+  Pounds: 0.7
+---
+
+#PokeroleSRD/Pokedex
+
+# Rotom (Fan Form) 
+
+> [!grid]
+> ![[SRD-rotom-fan-form-BookSprite.png|wsmall]]
+> ![[SRD-rotom-fan-form-HomeSprite.png]]
+
+*Plasma Pokemon*
+*A Desk fan possessed by a Rotom. It uses Wind powers and scatters everything around with terrible air Currents. While on this form it can use the move: Air Slash.*
+
+**DexID**: 0479F2
+**Name**: Rotom (Fan Form)
+**Type**: Electric / Flying
+**Abilities**: [[SRD-Levitate-v2.0|Levitate]]
+**Base HP**: 4
+
+|           |                 |                |
+| --------- | --------------- | -------------- |
+| Strength  | ⬤⬤⭘⭘  | 2/4  |
+| Dexterity | ⬤⬤⭘⭘⭘ | 2/5 |
+| Vitality  | ⬤⬤⬤⭘⭘⭘  | 3/6  |
+| Special   | ⬤⬤⬤⭘⭘⭘   | 3/6   |
+| Insight   | ⬤⬤⬤⭘⭘⭘   | 3/6   |
+
+**Height**: 1'0" / 0.3m
+**Weight**: 0.7lbs / 0.3kg
+**Good Starter**:: No
+**Recommended Rank**:: Ace
+
+| Evolves   | Pokemon       | Kind   |
+|:----------|:--------------|:-------|
+| From      | [[SRD-Rotom]] | Form   |
+
+
+## Learnset
+
+![[Embedded Views.base#Learnsets v2.0]]

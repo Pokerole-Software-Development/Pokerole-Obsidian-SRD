@@ -47,7 +47,7 @@ HiddenAbility: ''
 HomeSprite: SRD-okidogi-HomeSprite.png
 Image: okidogi.png
 Insight: 5
-Legendary: false
+Legendary: true
 MaxDexterity: 5
 MaxInsight: 5
 MaxSpecial: 4
@@ -103,4 +103,4 @@ Weight:
 
 ## Learnset
 
-![[Embedded Views.base#Learnsets]]
+![[Embedded Views.base#Learnsets v3.0]]

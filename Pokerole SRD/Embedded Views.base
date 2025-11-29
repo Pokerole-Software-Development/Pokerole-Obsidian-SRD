@@ -52,7 +52,7 @@ views:
     columnSize:
       file.name: 298
   - type: table
-    name: Learnsets
+    name: Learnsets v3.0
     filters:
       and:
         - or:
@@ -87,6 +87,32 @@ views:
     order:
       - formula.Move
       - Effect
+    sort:
+      - property: formula.LearnOrder
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      formula.Move: 192
+  - type: table
+    name: Learnsets v2.0
+    filters:
+      and:
+        - or:
+            - this.StarterMoves.contains(name)
+            - this.BeginnerMoves.contains(name)
+            - this.AmateurMoves.contains(name)
+            - this.AceMoves.contains(name)
+            - this.ProMoves.contains(name)
+            - this.RookieMoves.contains(name)
+            - this.StandardMoves.contains(name)
+            - this.AdvancedMoves.contains(name)
+            - this.ExpertMoves.contains(name)
+        - and:
+            - file.folder == "Pokerole SRD/SRD v2.0/SRD-Moves"
+    order:
+      - formula.Learned
+      - formula.Move
     sort:
       - property: formula.LearnOrder
         direction: ASC

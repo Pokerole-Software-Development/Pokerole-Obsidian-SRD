@@ -1,9 +1,9 @@
+filters:
+  and:
+    - file.inFolder("Pokerole SRD/SRD v3.0/SRD-Abilities")
 views:
   - type: table
     name: Abilitydex
-    filters:
-      and:
-        - file.inFolder("Pokerole SRD/SRD v3.0/SRD-Abilities")
     order:
       - file.name
       - Effect
