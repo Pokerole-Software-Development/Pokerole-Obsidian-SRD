@@ -4,28 +4,113 @@
     "type": "split",
     "children": [
       {
-        "id": "cd070c69b0acbaa0",
+        "id": "cf088b9240850e23",
         "type": "tabs",
         "children": [
           {
-            "id": "dd40746edb0f79c0",
+            "id": "4c8f6fae98f6cfb1",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "SRD-Nidorina",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Pokerole SRD/SRD v3.0/SRD-Pokedex/SRD-Nidorina.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"SRD-Nidorina\"}",
+                  "eState": "{}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "SRD-Acid Armor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Pokerole SRD/SRD v3.0/SRD-Moves/SRD-Acid Armor.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"SRD-Acid Armor\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "SRD-Brambleghast",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Pokerole SRD/SRD v3.0/SRD-Pokedex/SRD-Brambleghast.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"SRD-Brambleghast\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "SRD-Boltund",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Pokerole SRD/SRD v3.0/SRD-Pokedex/SRD-Boltund.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"SRD-Boltund\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "SRD-Absol (Mega Form)-v2.0",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Absol (Mega Form)-v2.0.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"SRD-Absol (Mega Form)-v2.0\"}",
+                  "eState": "{\"scroll\":111.4076}"
+                },
+                {
+                  "title": "SRD-Abra-v2.0",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Abra-v2.0.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"SRD-Abra-v2.0\"}",
+                  "eState": "{\"scroll\":77.71014492753623}"
+                },
+                {
+                  "title": "Ability Views",
+                  "icon": "lucide-table",
+                  "state": "{\"type\":\"bases\",\"state\":{\"file\":\"Pokerole SRD/Ability Views.base\",\"viewName\":\"Abilitydex\"},\"icon\":\"lucide-table\",\"title\":\"Ability Views\"}",
+                  "eState": "{\"views\":{\"Pokedex\":{\"scroll\":{\"top\":0}},\"Movedex\":{\"scroll\":{\"top\":0,\"left\":0}},\"Item Images\":{\"scroll\":{\"top\":0}},\"Abilitydex\":{\"scroll\":{\"top\":0,\"left\":0}}}}"
+                },
+                {
+                  "title": "Item Views",
+                  "icon": "lucide-layout-grid",
+                  "state": "{\"type\":\"bases\",\"state\":{\"file\":\"Pokerole SRD/Item Views.base\",\"viewName\":\"Item Images\"},\"icon\":\"lucide-layout-grid\",\"title\":\"Item Views\"}",
+                  "eState": "{\"views\":{\"Pokedex\":{\"scroll\":{\"top\":0}},\"Movedex\":{\"scroll\":{\"top\":0,\"left\":0}},\"Item Images\":{\"scroll\":{\"top\":0}},\"Abilitydex\":{\"scroll\":{\"top\":0,\"left\":0}}}}"
+                },
+                {
+                  "title": "Move Views",
+                  "icon": "lucide-table",
+                  "state": "{\"type\":\"bases\",\"state\":{\"file\":\"Pokerole SRD/Move Views.base\",\"viewName\":\"Movedex\"},\"icon\":\"lucide-table\",\"title\":\"Move Views\"}",
+                  "eState": "{\"views\":{\"Pokedex\":{\"scroll\":{\"top\":0}},\"Movedex\":{\"scroll\":{\"top\":0,\"left\":0}},\"Item Images\":{\"scroll\":{\"top\":0}},\"Abilitydex\":{\"scroll\":{\"top\":0,\"left\":0}}}}"
+                },
+                {
+                  "title": "Pokemon Views",
+                  "icon": "lucide-layout-grid",
+                  "state": "{\"type\":\"bases\",\"state\":{\"file\":\"Pokerole SRD/Pokemon Views.base\",\"viewName\":\"Pokedex\"},\"icon\":\"lucide-layout-grid\",\"title\":\"Pokemon Views\"}",
+                  "eState": "{\"views\":{\"Pokedex\":{\"scroll\":{\"top\":0}},\"Movedex\":{\"scroll\":{\"top\":0,\"left\":0}},\"Item Images\":{\"scroll\":{\"top\":0}},\"Abilitydex\":{\"scroll\":{\"top\":0,\"left\":0}}}}"
+                },
+                {
+                  "title": "SRD-Abra",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Abra.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"SRD-Abra\"}",
+                  "eState": "{\"scroll\":59.53333333333333}"
+                },
+                {
+                  "title": "SRD-Abomasnow",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Abomasnow.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"SRD-Abomasnow\"}",
+                  "eState": "{\"scroll\":96.628}"
+                },
+                {
+                  "title": "SRD-Absol",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Absol.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"SRD-Absol\"}",
+                  "eState": "{\"scroll\":95.38647342995169}"
+                },
+                {
+                  "title": "SRD-Abra",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Abra.md\",\"mode\":\"preview\",\"source\":true},\"icon\":\"lucide-file\",\"title\":\"SRD-Abra\"}",
+                  "eState": "{\"scroll\":67.1563}"
                 }
               ]
             },
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Readme.md",
-                "mode": "preview",
-                "source": true
-              }
+                "file": "Pokerole SRD/Pokemon Views.base",
+                "viewName": "Pokedex"
+              },
+              "icon": "lucide-layout-grid",
+              "title": "Pokemon Views"
             }
           }
         ]
@@ -56,13 +141,25 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
             "id": "d84f61527a7c7bcb",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "search",
               "state": {
@@ -72,15 +169,28 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
             "id": "961c7dd2ab4a5c37",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -100,10 +210,19 @@
           {
             "id": "1bfa6d99f5e59a66",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "Pokerole SRD/SRD v3.0/SRD-Pokedex/SRD-Roaring Moon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,106 +230,190 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for SRD-Roaring Moon"
             }
           },
           {
             "id": "1a5db53db4be5dfd",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "Pokerole SRD/SRD v3.0/SRD-Pokedex/SRD-Roaring Moon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from SRD-Roaring Moon"
             }
           },
           {
             "id": "dabc8d0ecf30e22c",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
             "id": "84bbc5ab8861e6d7",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
-              }
+                "file": "Pokerole SRD/SRD v3.0/SRD-Pokedex/SRD-Roaring Moon.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of SRD-Roaring Moon"
+            }
+          },
+          {
+            "id": "a8aac0dd2db9acc5",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3f196d09e8b0d8e2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "orphaned files output.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for orphaned files output"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 322.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dd40746edb0f79c0",
+  "active": "a530a77c26c314af",
   "lastOpenFiles": [
-    "Pokerole SRD/SRD v2.1/SRD-Pokedex/SRD-Beedrill.md",
-    "Pokerole SRD/SRD v2.1/SRD-Pokedex/SRD-Beedrill (Mega Form).md",
-    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Accelgor.md",
-    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Absol.md",
-    "Pokerole SRD/SRD v2.1/SRD-Pokedex/SRD-Arcanine.md",
-    "Pokerole SRD/SRD v2.1/SRD-Pokedex/SRD-Archaludon.md",
-    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Axew.md",
-    "Pokerole SRD/SRD v2.1/SRD-Pokedex/SRD-Abra.md",
-    "Pokerole SRD/SRD v2.1/SRD-Pokedex/SRD-Aegislash.md",
-    "Pokerole SRD/SRD v2.1/SRD-Pokedex/SRD-Abomasnow.md",
-    "Readme.md",
-    "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zygarde-ultimate-ShuffleToken.png",
-    "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zygarde-cell-ShuffleToken.png",
-    "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zygarde-50-ShuffleToken.png",
-    "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zygarde-50%-ShuffleToken.png",
-    "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zygarde-100-ShuffleToken.png",
-    "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zygarde-100%-ShuffleToken.png",
-    "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zygarde-10-ShuffleToken.png",
-    "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zygarde-10%-ShuffleToken.png",
-    "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zweilous-ShuffleToken.png",
-    "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-zubat-ShuffleToken.png",
-    "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-shaymin-sky-ShuffleToken.png s",
-    "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-mr-ShuffleToken.-rime",
-    "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-mr-ShuffleToken.-mime-galarian-form",
-    "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-mr-ShuffleToken.-mime",
-    "Pokerole SRD/SRD/SRD-ShuffleTokens/SRD-hoopa-unbound-ShuffleToken.png u",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Zoom Lens.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Zinc.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Zap Plate.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Z Crystals.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Yellow Scarf.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Yache Berry.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Wide Lens.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Wise Glasses.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-White Herbs.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Weather Orb.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Weakness Policy.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Wave Incense.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Waterium Z.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Water Stone.md",
-    "Pokerole SRD/SRD/SRD-Items/SRD-Water Memory.md",
-    "Pokerole SRD/SRD/SRD-HomeSprites/SRD-mr-HomeSprite.-rime",
-    "Pokerole SRD/SRD/SRD-HomeSprites/SRD-mr-HomeSprite.-mime-galarian-form",
-    "Pokerole SRD/SRD/SRD-HomeSprites/SRD-mr-HomeSprite.-mime",
-    "Pokerole SRD/SRD/SRD-BoxSprites/SRD-mr-BoxSprite.-mime-galarian-form",
-    "Pokerole SRD/SRD/SRD-BoxSprites/SRD-mr-BoxSprite.-rime"
+    "Pokerole SRD/Pokemon Views.base",
+    "orphaned files output.md",
+    "Pokerole SRD/SRD v3.0/SRD-Pokedex/SRD-Nidorina.md",
+    "Pokerole SRD/SRD v3.0/SRD-Moves/SRD-Acid Armor.md",
+    "Pokerole SRD/SRD v3.0/SRD-Pokedex/SRD-Brambleghast.md",
+    "Pokerole SRD/SRD v3.0/SRD-Pokedex/SRD-Boltund.md",
+    "Pokerole SRD/SRD v3.0/SRD-Moves/SRD-Swift.md",
+    "Pokerole SRD/SRD v3.0/SRD-Moves/SRD-Tackle.md",
+    "Pokerole SRD/SRD v3.0/SRD-Abilities/SRD-Strong Jaw.md",
+    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Absol (Mega Form)-v2.0.md",
+    "Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Psycho Cut-v2.0.md",
+    "Pokerole SRD/SRD v2.0/SRD-Moves/SRD-Detect-v2.0.md",
+    "Pokerole SRD/SRD v2.0/SRD-Abilities/SRD-Magic Bounce-v2.0.md",
+    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Abra-v2.0.md",
+    "Pokerole SRD/SRD v3.0/SRD-Pokedex/SRD-Kadabra.md",
+    "Pokerole SRD/SRD v2.0/SRD-Abilities/SRD-Synchronize-v2.0.md",
+    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Abomasnow-v2.0.md",
+    "Pokerole SRD/SRD v2.0/SRD-ItemSprites/SRD-zoom-lens-ItemSprite.png",
+    "Pokerole SRD/SRD v2.0/SRD-ItemSprites/SRD-zinc-ItemSprite.png",
+    "Pokerole SRD/SRD v2.0/SRD-ItemSprites/SRD-zap-plate-ItemSprite.png",
+    "Pokerole SRD/SRD v2.0/SRD-ItemSprites/SRD-yellow-scarf-ItemSprite.png",
+    "Pokerole SRD/SRD v2.0/SRD-ItemSprites/SRD-yache-berry-ItemSprite.png",
+    "Pokerole SRD/SRD v2.0/SRD-ItemSprites/SRD-wise-glasses-ItemSprite.png",
+    "Pokerole SRD/SRD v2.0/SRD-ItemSprites/SRD-white-herbs-ItemSprite.png",
+    "Pokerole SRD/SRD v2.0/SRD-ItemSprites/SRD-wide-lens-ItemSprite.png",
+    "Pokerole SRD/SRD v2.0/SRD-ItemSprites/SRD-weather-orb-ItemSprite.png",
+    "Pokerole SRD/SRD v2.0/SRD-ItemSprites/SRD-weakness-policy-ItemSprite.png",
+    "Pokerole SRD/SRD v2.0/SRD-ItemSprites",
+    "Pokerole SRD/SRD v2.0/SRD-ShuffleTokens/SRD-shaymin-sky-ShuffleToken.png s",
+    "Pokerole SRD/SRD v2.0/SRD-ShuffleTokens/SRD-hoopa-unbound-ShuffleToken.png u",
+    "Pokerole SRD/SRD v2.0/SRD-ShuffleTokens",
+    "Pokerole SRD/SRD v2.0/SRD-BoxSprites",
+    "Pokerole SRD/SRD v2.0/SRD-HomeSprites",
+    "Pokerole SRD/SRD v2.0/SRD-BookSprites",
+    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Zygarde Cell-v2.0.md",
+    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Zygarde 50%-v2.0.md",
+    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Zygarde 100%-v2.0.md",
+    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Zygarde 10%-v2.0.md",
+    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Zweilous-v2.0.md",
+    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Zubat-v2.0.md",
+    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Zorua-v2.0.md",
+    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Zoroark-v2.0.md",
+    "Pokerole SRD/SRD v2.0/SRD-Pokedex/SRD-Zigzagoon-v2.0.md",
+    "Pokerole SRD/SRD v2.0/SRD-Pokedex",
+    "Pokerole SRD/SRD v2.0/SRD-Items"
   ]
 }

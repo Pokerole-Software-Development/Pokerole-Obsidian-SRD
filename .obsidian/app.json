@@ -50,5 +50,6 @@
   ],
   "defaultViewMode": "preview",
   "showInlineTitle": false,
-  "propertiesInDocument": "hidden"
+  "propertiesInDocument": "hidden",
+  "userIgnoreFilters": null
 }
